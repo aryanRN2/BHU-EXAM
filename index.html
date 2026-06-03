@@ -263,10 +263,12 @@
         <!-- Background subtle glow -->
         <div class="absolute inset-0 bg-gradient-to-r from-accent-bhu-saffron/5 via-accent-neural-purple/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
         
-        <!-- Profile Avatar container -->
+        <!-- Profile Avatar initials placeholder instead of picture -->
         <div class="relative flex-shrink-0">
             <div class="absolute inset-0 bg-accent-bhu-saffron/20 rounded-full blur-md group-hover:scale-110 transition-transform duration-300"></div>
-            <img src="images/profile.png" alt="Aryan Maurya" class="relative w-24 h-24 sm:w-28 sm:h-28 rounded-full border-2 border-white object-cover shadow-md shrink-0"/>
+            <div class="relative w-24 h-24 sm:w-28 sm:h-28 rounded-full border-2 border-white bg-accent-bhu-saffron text-white flex items-center justify-center font-bold text-3xl sm:text-4xl shadow-md shrink-0 select-none">
+                AM
+            </div>
         </div>
         
         <!-- Info Content -->
@@ -323,11 +325,11 @@
         <form onsubmit="handleLogin(event)" class="space-y-4">
             <div>
                 <label class="block text-xs font-bold text-secondary uppercase tracking-wider mb-2" for="username">Student Name</label>
-                <input class="w-full px-4 py-3 border border-border-subtle rounded-lg focus:outline-none focus:border-primary text-sm bg-background-warm/50" id="username" type="text" placeholder="e.g. Julian Alex" required/>
+                <input class="w-full px-4 py-3 border border-border-subtle rounded-lg focus:outline-none focus:border-primary text-sm bg-background-warm/50" id="username" type="text" value="Aryan Maurya" placeholder="e.g. Julian Alex" required/>
             </div>
             <div>
                 <label class="block text-xs font-bold text-secondary uppercase tracking-wider mb-2" for="roll_number">Roll Number</label>
-                <input class="w-full px-4 py-3 border border-border-subtle rounded-lg focus:outline-none focus:border-primary text-sm bg-background-warm/50" id="roll_number" type="text" placeholder="e.g. BHU-2026-8941" required/>
+                <input class="w-full px-4 py-3 border border-border-subtle rounded-lg focus:outline-none focus:border-primary text-sm bg-background-warm/50" id="roll_number" type="text" value="24220MAT051" placeholder="e.g. BHU-2026-8941" required/>
             </div>
             <div class="bg-surface-container-low p-4 rounded-lg text-xs text-secondary leading-relaxed border border-border-subtle">
                 <strong>Demo Mode Active:</strong> You can enter any Name and Roll Number. They will be stored locally to personalize your test results and dashboard metrics.
@@ -387,8 +389,7 @@
 
         const userObj = {
             name: username,
-            roll: roll_number,
-            profileImage: 'images/profile.png'
+            roll: roll_number
         };
 
         StateManager.setCurrentUser(userObj);

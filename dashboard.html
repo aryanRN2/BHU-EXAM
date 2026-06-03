@@ -113,8 +113,8 @@
             <button onclick="handleLogout()" class="hidden sm:inline text-secondary font-medium hover:text-error transition-colors duration-200 text-sm">Logout</button>
             <div class="flex items-center gap-2 sm:gap-3">
                 <span class="hidden sm:inline text-xs font-bold text-secondary font-mono" id="rollNumberSpan"></span>
-                <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-surface-container overflow-hidden border border-border-subtle">
-                    <img id="userAvatar" alt="User profile" src="images/profile.png"/>
+                <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-accent-bhu-saffron text-white flex items-center justify-center font-bold text-xs sm:text-sm border border-border-subtle select-none">
+                    <span id="userInitials">AM</span>
                 </div>
             </div>
         </div>
@@ -286,7 +286,10 @@
     } else {
         document.getElementById('welcomeMessage').textContent = `Good morning, ${user.name}.`;
         document.getElementById('rollNumberSpan').textContent = user.roll;
-        document.getElementById('userAvatar').src = user.profileImage || 'images/profile.png';
+        
+        // Calculate user initials
+        const initials = user.name ? user.name.split(' ').map(n => n[0]).join('').slice(0, 2).toUpperCase() : 'ST';
+        document.getElementById('userInitials').textContent = initials;
     }
 
     // 2. Load Stats
