@@ -233,23 +233,7 @@
         document.getElementById('userInitials').textContent = initials;
     }
 
-    // 2. Load Stats
-    const stats = StateManager.getExamStats();
-    document.getElementById('averageScoreVal').textContent = `${stats.averageScore}%`;
-    document.getElementById('syncMinutesVal').textContent = stats.totalMinutes;
-    document.getElementById('examsPassedVal').textContent = stats.examsPassed;
-    if (stats.averageScore > 0) {
-        document.getElementById('percentageImprovement').textContent = stats.averageScore >= 70 ? 'Excellent' : 'On Track';
-        document.getElementById('percentageImprovement').classList.add('text-accent-neural-emerald');
-    }
 
-    // Adjust the mini visual chart based on attempts
-    const attempts = StateManager.getAttempts();
-    if (attempts.length > 0) {
-        const lastAttempt = attempts[attempts.length - 1];
-        const barHeight = Math.max(10, lastAttempt.score);
-        document.getElementById('liveBar').style.height = `${barHeight}%`;
-    }
 
     // 3. Render Catalog Grid (Including user request: ENGLISH is Live, others COMING SOON)
     const container = document.getElementById('examsListContainer');
