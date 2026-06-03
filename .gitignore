@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+*.log
+test_responsive.mjs
+test_exam.mjs
+test.mjs
+download-screens.mjs
+pull-stitch.js
+pull-stitch.mjs

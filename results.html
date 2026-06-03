@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Exam Results | BHU Exam Prep</title>
+    <!-- Tailwind CSS with Forms and Container Queries -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <!-- Link external custom styles -->
+    <link rel="stylesheet" href="styles.css"/>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "on-secondary-fixed": "#1b1c1c",
+                        "surface-dim": "#dadada",
+                        "outline-variant": "#cfc4c5",
+                        "accent-neural-emerald": "#10B981",
+                        "surface-panel": "#F3F2EF",
+                        "secondary": "#5e5e5e",
+                        "primary-fixed": "#e2e2e2",
+                        "inverse-on-surface": "#f1f1f1",
+                        "secondary-fixed": "#e4e2e2",
+                        "inverse-primary": "#c6c6c6",
+                        "on-tertiary-fixed-variant": "#474747",
+                        "background-warm": "#F7F7F5",
+                        "on-primary-fixed": "#1b1b1b",
+                        "tertiary-container": "#1b1b1b",
+                        "on-secondary-container": "#626262",
+                        "accent-neural-purple": "#A855F7",
+                        "accent-bhu-saffron": "#F57C00",
+                        "error-container": "#ffdad6",
+                        "surface": "#f9f9f9",
+                        "on-surface": "#1b1b1b",
+                        "on-secondary-fixed-variant": "#464747",
+                        "on-secondary": "#ffffff",
+                        "tertiary-fixed": "#e2e2e2",
+                        "surface-container-high": "#e8e8e8",
+                        "accent-neural-blue": "#3B82F6",
+                        "background": "#f9f9f9",
+                        "surface-container-low": "#f3f3f3",
+                        "on-error-container": "#93000a",
+                        "outline": "#7e7576",
+                        "primary-container": "#1b1b1b",
+                        "surface-bright": "#f9f9f9",
+                        "surface-container-highest": "#e2e2e2",
+                        "on-tertiary-fixed": "#1b1b1b",
+                        "surface-container": "#eeeeee",
+                        "on-background": "#1b1b1b",
+                        "secondary-container": "#e1dfdf",
+                        "surface-variant": "#e2e2e2",
+                        "surface-container-lowest": "#ffffff",
+                        "inverse-surface": "#303030",
+                        "error": "#ba1a1a",
+                        "on-primary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "secondary-fixed-dim": "#c7c6c6",
+                        "on-primary-container": "#848484",
+                        "tertiary-fixed-dim": "#c6c6c6",
+                        "on-primary-fixed-variant": "#474747",
+                        "surface-card": "#FCFCFB",
+                        "tertiary": "#000000",
+                        "on-tertiary": "#ffffff",
+                        "primary-fixed-dim": "#c6c6c6",
+                        "primary": "#000000",
+                        "surface-tint": "#5e5e5e",
+                        "on-surface-variant": "#4c4546",
+                        "on-tertiary-container": "#848484",
+                        "border-subtle": "#E7E7E4"
+                    },
+                    borderRadius: {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                    spacing: {
+                        "gutter": "32px",
+                        "unit": "8px",
+                        "container-max": "1280px",
+                        "section-gap-mobile": "80px",
+                        "section-gap-desktop": "180px",
+                        "padding-edge": "32px"
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background-warm min-h-screen flex flex-col antialiased text-on-surface select-none">
+
+<!-- TopNavBar -->
+<nav class="bg-background-warm/80 backdrop-blur-xl border-b border-border-subtle shadow-sm fixed top-0 w-full z-50">
+    <div class="flex justify-between items-center px-4 sm:px-padding-edge h-20 w-full max-w-container-max mx-auto">
+        <div class="flex items-center gap-4 sm:gap-12">
+            <button onclick="toggleMobileMenu()" class="md:hidden text-secondary hover:text-primary focus:outline-none flex items-center shrink-0">
+                <span class="material-symbols-outlined text-2xl" id="menuIcon">menu</span>
+            </button>
+            <div class="flex items-center gap-2 sm:gap-3 cursor-pointer shrink-0" onclick="window.location.href='dashboard.html'">
+                <img src="images/logo.png" alt="BHU Logo" class="h-6 sm:h-8 w-auto shrink-0"/>
+                <span class="text-base sm:text-xl font-bold tracking-tighter text-primary truncate max-w-[120px] sm:max-w-none">BHU Exam Prep</span>
+            </div>
+            <div class="hidden md:flex items-center gap-8 text-sm">
+                <a class="text-secondary font-medium hover:text-primary transition-colors duration-200" href="dashboard.html">Dashboard</a>
+                <a class="text-secondary font-medium hover:text-primary transition-colors duration-200" href="#" onclick="alert('Mock exams are updated in real-time from resources.')">Library</a>
+                <a class="text-primary font-bold border-b-2 border-primary pb-1" href="results.html">Analytics</a>
+            </div>
+        </div>
+        <div class="flex items-center gap-3 sm:gap-6">
+            <button onclick="handleLogout()" class="hidden sm:inline text-secondary font-medium hover:text-error transition-colors duration-200 text-sm">Logout</button>
+            <button onclick="window.location.href='dashboard.html'" class="bg-primary text-on-primary px-4 py-2 sm:px-6 sm:py-2.5 rounded-full font-body-md text-xs sm:text-sm hover:scale-[1.02] transition-transform active:scale-95">Dashboard</button>
+        </div>
+    </div>
+</nav>
+
+<!-- Mobile Navigation Menu -->
+<div id="mobileMenu" class="fixed top-20 left-0 right-0 z-40 bg-background-warm border-b border-border-subtle shadow-md transform -translate-y-full transition-transform duration-300 md:hidden">
+    <nav class="flex flex-col p-6 gap-4 font-semibold text-sm">
+        <a class="text-secondary hover:text-primary py-2 border-b border-border-subtle/50" href="dashboard.html">Dashboard</a>
+        <a class="text-secondary hover:text-primary py-2 border-b border-border-subtle/50" href="#" onclick="alert('Mock exams are updated in real-time from resources.')">Library</a>
+        <a class="text-primary hover:text-primary py-2 border-b border-border-subtle/50" href="results.html">Analytics</a>
+        <button onclick="handleLogout()" class="text-left text-error hover:text-error py-2 flex items-center gap-2">
+            <span class="material-symbols-outlined text-lg">logout</span>
+            Logout
+        </button>
+    </nav>
+</div>
+
+<div class="flex flex-1 pt-20">
+    <!-- SideNavBar -->
+    <aside class="hidden md:flex flex-col h-[calc(100vh-80px)] w-72 bg-surface-panel/50 backdrop-blur-2xl border-r border-border-subtle p-6 gap-unit sticky top-20">
+        <div class="mb-8">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="w-10 h-10 rounded-full bg-white/40 flex items-center justify-center border border-white/20">
+                    <span class="material-symbols-outlined text-primary">assessment</span>
+                </div>
+                <div>
+                    <p class="font-bold text-primary">Diagnostic Sync</p>
+                    <p class="text-[9px] font-bold text-secondary uppercase tracking-widest" id="studentRoll">Roll Number</p>
+                </div>
+            </div>
+        </div>
+        <nav class="space-y-1">
+            <a class="flex items-center gap-3 px-4 py-3 text-secondary hover:text-primary hover:bg-white/20 rounded-lg transition-all duration-300" href="dashboard.html">
+                <span class="material-symbols-outlined">dashboard</span>
+                <span class="text-xs font-semibold uppercase tracking-widest">Dashboard</span>
+            </a>
+            <a class="flex items-center gap-3 px-4 py-3 bg-white/40 shadow-sm border border-white/20 text-primary font-semibold rounded-lg" href="#">
+                <span class="material-symbols-outlined">analytics</span>
+                <span class="text-xs font-semibold uppercase tracking-widest">Last Review</span>
+            </a>
+        </nav>
+        <div class="mt-auto space-y-1 pt-6 border-t border-border-subtle text-xs">
+            <a class="flex items-center gap-3 px-4 py-3 text-secondary hover:text-primary hover:bg-white/20 rounded-lg transition-all" href="#" onclick="alert('Help line: support@bhu.ac.in')">
+                <span class="material-symbols-outlined">help_outline</span>
+                <span class="text-[10px] font-bold uppercase tracking-widest">Help Desk</span>
+            </a>
+            <a class="flex items-center gap-3 px-4 py-3 text-error hover:bg-error-container/20 rounded-lg transition-all" href="#" onclick="handleLogout()">
+                <span class="material-symbols-outlined">logout</span>
+                <span class="text-[10px] font-bold uppercase tracking-widest">Exit</span>
+            </a>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-grow overflow-y-auto px-padding-edge py-12 relative">
+        <!-- Background Density Waves -->
+        <div class="absolute inset-0 overflow-hidden pointer-events-none">
+            <div class="density-wave absolute top-20 right-[-10%] w-[600px] h-[600px] rounded-full"></div>
+            <div class="density-wave absolute bottom-20 left-[-5%] w-[400px] h-[400px] rounded-full" style="background: radial-gradient(circle, #3B82F6 0%, transparent 70%);"></div>
+        </div>
+
+        <div class="max-w-container-max mx-auto w-full space-y-16">
+            <header class="mb-16 flex flex-col md:flex-row md:items-end justify-between gap-8">
+                <div class="max-w-2xl">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="w-2.5 h-2.5 rounded-full bg-accent-neural-emerald animate-pulse"></span>
+                        <span class="text-xs font-semibold tracking-wider text-secondary uppercase">Analysis Complete</span>
+                    </div>
+                    <h1 class="text-4xl md:text-5xl font-bold text-primary mb-4" id="feedbackHeader">Exceptional performance.</h1>
+                    <p class="text-lg text-secondary" id="feedbackSubtitle">Detailed overview of your academic integrity and citation parameters.</p>
+                </div>
+                <div class="flex flex-wrap gap-4">
+                    <button onclick="window.print()" class="bg-white text-primary border border-border-subtle px-8 py-4 rounded-full font-bold text-sm hover:scale-95 transition-transform flex items-center gap-2 shadow-sm">
+                        <span class="material-symbols-outlined">print</span>
+                        Print Report
+                    </button>
+                    <button onclick="window.location.href='dashboard.html'" class="bg-primary text-on-primary px-8 py-4 rounded-full font-bold text-sm hover:scale-95 transition-transform shadow-md">
+                        Done &amp; Exit
+                    </button>
+                </div>
+            </header>
+
+            <!-- Results Bento Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                <!-- Large Score Orb (7 Cols) -->
+                <div class="lg:col-span-7 glass-card rounded-xl p-12 flex flex-col items-center justify-center relative overflow-hidden">
+                    <div class="orb-glow absolute inset-0 bg-gradient-to-tr from-accent-neural-purple/5 via-accent-neural-blue/5 to-accent-neural-emerald/5"></div>
+                    <div class="relative z-10 text-center">
+                        <div class="relative inline-block">
+                            <!-- Circular Progress Visual -->
+                            <svg class="w-64 h-64 md:w-80 md:h-80 transform -rotate-90" viewBox="0 0 220 220">
+                                <circle cx="110" cy="110" fill="transparent" r="90" stroke="#E7E7E4" stroke-width="4"></circle>
+                                <circle id="progressRing" cx="110" cy="110" fill="transparent" r="90" stroke="black" stroke-dasharray="565.48" stroke-dashoffset="565.48" stroke-linecap="round" stroke-width="6" class="transition-all duration-1000 ease-out"></circle>
+                            </svg>
+                            <div class="absolute inset-0 flex flex-col items-center justify-center">
+                                <span class="text-6xl md:text-8xl font-bold text-primary" id="scorePercentVal">0%</span>
+                                <span class="text-[10px] font-bold text-secondary uppercase tracking-[0.2em] mt-2">Overall Score</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-12 w-full grid grid-cols-3 gap-8 border-t border-border-subtle pt-8">
+                        <div class="text-center">
+                            <p class="text-2xl md:text-3xl font-bold text-primary" id="gradeLetter">F</p>
+                            <p class="text-[10px] text-secondary uppercase mt-1">Grade</p>
+                        </div>
+                        <div class="text-center border-x border-border-subtle">
+                            <p class="text-2xl md:text-3xl font-bold text-primary" id="correctCountVal">0/178</p>
+                            <p class="text-[10px] text-secondary uppercase mt-1">Correct Answers</p>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-2xl md:text-3xl font-bold text-primary" id="timeSpentVal">0m 0s</p>
+                            <p class="text-[10px] text-secondary uppercase mt-1">Time Spent</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Rail Modules (5 Cols) -->
+                <div class="lg:col-span-5 flex flex-col gap-8">
+                    <!-- Efficiency Profile -->
+                    <div class="glass-card rounded-xl p-8">
+                        <div class="flex justify-between items-center mb-6">
+                            <h3 class="text-xs font-bold text-secondary uppercase tracking-wider">Efficiency Profile</h3>
+                            <span class="material-symbols-outlined text-secondary">timer</span>
+                        </div>
+                        <div class="space-y-6">
+                            <div class="flex justify-between items-end">
+                                <div>
+                                    <p class="text-sm text-secondary">Avg. Response Time</p>
+                                    <p class="text-3xl font-bold text-primary" id="avgResponseTime">0.0s</p>
+                                </div>
+                                <div class="text-right">
+                                    <p class="text-accent-neural-emerald font-bold text-sm">Perfect Tempo</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Topic Breakdown -->
+                    <div class="glass-card rounded-xl p-8">
+                        <h3 class="text-xs font-bold text-secondary uppercase tracking-wider mb-6">Skill Proficiency</h3>
+                        <div class="space-y-5" id="topicBreakdownContainer">
+                            <!-- Rendered by JS -->
+                        </div>
+                    </div>
+
+                    <!-- Practice Areas -->
+                    <div class="bg-primary text-on-primary rounded-xl p-8 relative overflow-hidden group cursor-pointer" onclick="window.location.href='dashboard.html'">
+                        <div class="relative z-10">
+                            <h3 class="text-xs font-bold text-on-primary/60 uppercase tracking-widest mb-6">Growth Strategy</h3>
+                            <p class="text-lg mb-4">Focus on <span class="underline decoration-accent-bhu-saffron underline-offset-4 font-bold">Citation Formats</span> and style guidelines to improve score.</p>
+                            <div class="flex items-center gap-2 text-accent-bhu-saffron font-bold text-sm">
+                                <span>Return to catalog</span>
+                                <span class="material-symbols-outlined transition-transform group-hover:translate-x-2">arrow_forward</span>
+                            </div>
+                        </div>
+                        <div class="absolute top-[-25px] right-[-25px] opacity-10">
+                            <span class="material-symbols-outlined text-[120px]">psychology</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Detailed Question-by-Question Review -->
+            <section class="mt-16 glass-card rounded-xl p-8">
+                <h3 class="text-xl font-bold text-primary mb-6">Incorrect Question Audit</h3>
+                <div class="space-y-6 max-h-[500px] overflow-y-auto custom-scrollbar pr-2" id="incorrectAuditContainer">
+                    <!-- Dynamic review logs of incorrect questions -->
+                </div>
+            </section>
+        </div>
+    </main>
+</div>
+
+<!-- Footer -->
+<footer class="bg-background-warm border-t border-border-subtle py-12 mt-auto">
+    <div class="max-w-container-max mx-auto px-padding-edge flex flex-col md:flex-row justify-between items-center gap-8">
+        <div>
+            <span class="text-xs font-semibold tracking-wider text-primary mb-2 block uppercase">BHU Exam Prep</span>
+            <p class="text-xs text-secondary">© 2026 Banaras Hindu University. All rights reserved.</p>
+        </div>
+        <div class="flex gap-8">
+            <a class="text-xs text-secondary hover:text-primary underline transition-opacity" href="#">Privacy Policy</a>
+            <a class="text-xs text-secondary hover:text-primary underline transition-opacity" href="#">Terms of Service</a>
+            <a class="text-xs text-secondary hover:text-primary underline transition-opacity" href="#">Manual</a>
+        </div>
+    </div>
+</footer>
+
+<script type="module">
+    import { StateManager } from './js/state-manager.js';
+
+    // 1. Guard Session
+    const user = StateManager.getCurrentUser();
+    if (!user) {
+        window.location.href = 'index.html';
+    } else {
+        document.getElementById('studentRoll').textContent = user.roll;
+    }
+
+    const attempts = StateManager.getAttempts();
+    if (attempts.length === 0) {
+        window.location.href = 'dashboard.html';
+    }
+
+    // Load last attempt details
+    const lastAttempt = attempts[attempts.length - 1];
+
+    // Calculate Grade letter
+    let grade = 'F';
+    let feedbackHeader = 'Needs Practice, ' + user.name.split(' ')[0];
+    if (lastAttempt.score >= 90) {
+        grade = 'A+';
+        feedbackHeader = 'Outstanding work, ' + user.name.split(' ')[0] + '!';
+    } else if (lastAttempt.score >= 80) {
+        grade = 'A';
+        feedbackHeader = 'Excellent job, ' + user.name.split(' ')[0] + '.';
+    } else if (lastAttempt.score >= 70) {
+        grade = 'B';
+        feedbackHeader = 'Good effort, ' + user.name.split(' ')[0] + '.';
+    } else if (lastAttempt.score >= 50) {
+        grade = 'C';
+        feedbackHeader = 'Passed exam, ' + user.name.split(' ')[0] + '.';
+    }
+
+    // Set UI fields
+    document.getElementById('feedbackHeader').textContent = feedbackHeader;
+    document.getElementById('scorePercentVal').textContent = `${lastAttempt.score}%`;
+    document.getElementById('gradeLetter').textContent = grade;
+    document.getElementById('correctCountVal').textContent = `${lastAttempt.correctCount}/${lastAttempt.totalCount}`;
+    
+    // Set time spent formatting
+    const totalMinutes = Math.floor(lastAttempt.durationSpent / 60);
+    const totalSeconds = lastAttempt.durationSpent % 60;
+    document.getElementById('timeSpentVal').textContent = `${totalMinutes}m ${totalSeconds}s`;
+
+    // Average Response time calculation
+    const avgResponse = lastAttempt.durationSpent / lastAttempt.totalCount;
+    document.getElementById('avgResponseTime').textContent = `${avgResponse.toFixed(1)}s`;
+
+    // 2. Set Circular Progress Ring offset
+    const ring = document.getElementById('progressRing');
+    const radius = ring.r.baseVal.value;
+    const circumference = 2 * Math.PI * radius; // 565.48
+    const offset = circumference * (1 - lastAttempt.score / 100);
+    
+    // Trigger animation frame delay to render smoothly
+    setTimeout(() => {
+        ring.style.strokeDashoffset = offset;
+    }, 150);
+
+    // 3. Topic wise Proficiency calculation
+    // Questions logic mapping:
+    // ID 1 to 29 -> Topic: "Citations & Plagiarism"
+    // ID 30 to 65 -> Topic: "Citation Formats"
+    // ID 66 to 100 -> Topic: "Digital Writing Tools"
+    // ID 101 to 139 -> Topic: "Academic Writing Theory"
+    // ID 140 to 178 -> Topic: "Editing & Collaboration"
+    const topicsConfig = [
+        { name: "Citations & Plagiarism", startId: 1, endId: 29, color: "bg-accent-neural-purple" },
+        { name: "Citation Formats", startId: 30, endId: 65, color: "bg-accent-neural-blue" },
+        { name: "Digital Writing Tools", startId: 66, endId: 100, color: "bg-accent-neural-emerald" },
+        { name: "Academic Writing Theory", startId: 101, endId: 139, color: "bg-accent-bhu-saffron" },
+        { name: "Editing & Collaboration", startId: 140, endId: 178, color: "bg-primary" }
+    ];
+
+    const topicContainer = document.getElementById('topicBreakdownContainer');
+    topicContainer.innerHTML = '';
+
+    topicsConfig.forEach(topic => {
+        // filter details for this topic range
+        const topicDetails = lastAttempt.details.filter(d => d.qId >= topic.startId && d.qId <= topic.endId);
+        if (topicDetails.length === 0) return;
+
+        const corrects = topicDetails.filter(d => d.isCorrect).length;
+        const total = topicDetails.length;
+        const percent = Math.round((corrects / total) * 100);
+
+        const topicMarkup = `
+            <div class="space-y-2">
+                <div class="flex justify-between items-center text-xs font-semibold">
+                    <span>${topic.name}</span>
+                    <span class="font-bold">${percent}%</span>
+                </div>
+                <div class="h-1.5 w-full bg-surface-container rounded-full overflow-hidden">
+                    <div class="h-full ${topic.color} transition-all duration-1000 ease-out" style="width: ${percent}%"></div>
+                </div>
+            </div>
+        `;
+        topicContainer.insertAdjacentHTML('beforeend', topicMarkup);
+    });
+
+    // 4. Incorrect Question Audit rendering
+    const incorrectContainer = document.getElementById('incorrectAuditContainer');
+    incorrectContainer.innerHTML = '';
+    
+    const incorrects = lastAttempt.details.filter(d => !d.isCorrect);
+    
+    if (incorrects.length === 0) {
+        incorrectContainer.innerHTML = `
+            <div class="text-center p-8 bg-surface-panel/30 border border-dashed border-border-subtle rounded-lg text-secondary text-sm">
+                <span class="material-symbols-outlined text-4xl text-accent-neural-emerald mb-2">check_circle</span>
+                <p class="font-bold text-primary">Flawless Attempt!</p>
+                <p class="text-xs">No incorrect answers to review. Congratulations!</p>
+            </div>
+        `;
+    } else {
+        incorrects.forEach((item, idx) => {
+            const auditMarkup = `
+                <div class="bg-white/40 border border-border-subtle p-5 rounded-lg flex flex-col gap-3">
+                    <div class="flex justify-between items-start gap-4">
+                        <span class="px-2.5 py-1 rounded bg-error-container text-on-error-container font-mono text-xs font-bold">Q. ${item.qId}</span>
+                    </div>
+                    <p class="text-sm font-semibold text-primary leading-relaxed">${item.question}</p>
+                    <div class="grid grid-cols-2 gap-4 text-xs mt-1">
+                        <div class="p-3 bg-error-container/20 border border-error/10 text-error rounded">
+                            <span class="font-bold block uppercase tracking-wider text-[9px] mb-1">Your Selection</span>
+                            <span>Option ${item.selected || 'Unanswered'}</span>
+                        </div>
+                        <div class="p-3 bg-accent-neural-emerald/10 border border-accent-neural-emerald/10 text-accent-neural-emerald rounded">
+                            <span class="font-bold block uppercase tracking-wider text-[9px] mb-1">Correct Answer</span>
+                            <span>Option ${item.correct}</span>
+                        </div>
+                    </div>
+                </div>
+            `;
+            incorrectContainer.insertAdjacentHTML('beforeend', auditMarkup);
+        });
+    }
+
+    window.handleLogout = function() {
+        StateManager.logout();
+    };
+
+    window.toggleMobileMenu = function() {
+        const menu = document.getElementById('mobileMenu');
+        const icon = document.getElementById('menuIcon');
+        const isOpen = !menu.classList.contains('-translate-y-full');
+        
+        if (isOpen) {
+            menu.classList.add('-translate-y-full');
+            icon.textContent = 'menu';
+        } else {
+            menu.classList.remove('-translate-y-full');
+            icon.textContent = 'close';
+        }
+    };
+
+    // Atmospherics
+    document.addEventListener('mousemove', (e) => {
+        const orbs = document.querySelectorAll('.orb-glow');
+        const x = e.clientX / window.innerWidth;
+        const y = e.clientY / window.innerHeight;
+        
+        orbs.forEach((orb, index) => {
+            const moveX = (x - 0.5) * (index + 1) * 30;
+            const moveY = (y - 0.5) * (index + 1) * 30;
+            orb.style.transform = `translate(${moveX}px, ${moveY}px)`;
+        });
+    });
+</script>
+
+</body>
+</html>

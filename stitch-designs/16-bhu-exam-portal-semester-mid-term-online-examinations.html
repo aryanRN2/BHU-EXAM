@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>BHU Exam Portal | Precision Testing</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<style>
+        @font-face {
+            font-family: 'Geist';
+            src: url('https://cdn.jsdelivr.net/npm/geist@1.0.3/dist/fonts/geist-sans/Geist-Regular.woff2') format('woff2');
+            font-weight: 400;
+        }
+        @font-face {
+            font-family: 'Geist';
+            src: url('https://cdn.jsdelivr.net/npm/geist@1.0.3/dist/fonts/geist-sans/Geist-SemiBold.woff2') format('woff2');
+            font-weight: 600;
+        }
+        @font-face {
+            font-family: 'Geist';
+            src: url('https://cdn.jsdelivr.net/npm/geist@1.0.3/dist/fonts/geist-sans/Geist-Bold.woff2') format('woff2');
+            font-weight: 700;
+        }
+        body { font-family: 'Geist', sans-serif; }
+
+        .glass-panel {
+            background: rgba(243, 242, 239, 0.5);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(231, 231, 228, 1);
+        }
+
+        .neural-orb {
+            filter: blur(80px);
+            opacity: 0.6;
+            z-index: -1;
+            position: absolute;
+            border-radius: 9999px;
+        }
+
+        .animate-float {
+            animation: float 12s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            33% { transform: translate(30px, -50px) scale(1.1); }
+            66% { transform: translate(-20px, 20px) scale(0.9); }
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-secondary-fixed": "#1b1c1c",
+                        "surface-dim": "#dadada",
+                        "outline-variant": "#cfc4c5",
+                        "accent-neural-emerald": "#10B981",
+                        "surface-panel": "#F3F2EF",
+                        "secondary": "#5e5e5e",
+                        "primary-fixed": "#e2e2e2",
+                        "inverse-on-surface": "#f1f1f1",
+                        "secondary-fixed": "#e4e2e2",
+                        "inverse-primary": "#c6c6c6",
+                        "on-tertiary-fixed-variant": "#474747",
+                        "background-warm": "#F7F7F5",
+                        "on-primary-fixed": "#1b1b1b",
+                        "tertiary-container": "#1b1b1b",
+                        "on-secondary-container": "#626262",
+                        "accent-neural-purple": "#A855F7",
+                        "accent-bhu-saffron": "#F57C00",
+                        "error-container": "#ffdad6",
+                        "surface": "#f9f9f9",
+                        "on-surface": "#1b1b1b",
+                        "on-secondary-fixed-variant": "#464747",
+                        "on-secondary": "#ffffff",
+                        "tertiary-fixed": "#e2e2e2",
+                        "surface-container-high": "#e8e8e8",
+                        "accent-neural-blue": "#3B82F6",
+                        "background": "#f9f9f9",
+                        "surface-container-low": "#f3f3f3",
+                        "on-error-container": "#93000a",
+                        "outline": "#7e7576",
+                        "primary-container": "#1b1b1b",
+                        "surface-bright": "#f9f9f9",
+                        "surface-container-highest": "#e2e2e2",
+                        "on-tertiary-fixed": "#1b1b1b",
+                        "surface-container": "#eeeeee",
+                        "on-background": "#1b1b1b",
+                        "secondary-container": "#e1dfdf",
+                        "surface-variant": "#e2e2e2",
+                        "surface-container-lowest": "#ffffff",
+                        "inverse-surface": "#303030",
+                        "error": "#ba1a1a",
+                        "on-primary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "secondary-fixed-dim": "#c7c6c6",
+                        "on-primary-container": "#848484",
+                        "tertiary-fixed-dim": "#c6c6c6",
+                        "on-primary-fixed-variant": "#474747",
+                        "surface-card": "#FCFCFB",
+                        "tertiary": "#000000",
+                        "on-tertiary": "#ffffff",
+                        "primary-fixed-dim": "#c6c6c6",
+                        "primary": "#000000",
+                        "surface-tint": "#5e5e5e",
+                        "on-surface-variant": "#4c4546",
+                        "on-tertiary-container": "#848484",
+                        "border-subtle": "#E7E7E4"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "gutter": "32px",
+                        "unit": "8px",
+                        "container-max": "1280px",
+                        "section-gap-mobile": "80px",
+                        "section-gap-desktop": "180px",
+                        "padding-edge": "32px"
+                    },
+                    "fontFamily": {
+                        "caption": ["Geist"],
+                        "display-lg-mobile": ["Geist"],
+                        "headline-md": ["Geist"],
+                        "body-lg": ["Geist"],
+                        "body-md": ["Geist"],
+                        "headline-sm": ["Geist"],
+                        "headline-lg": ["Geist"],
+                        "display-lg": ["Geist"],
+                        "label-caps": ["Geist"]
+                    },
+                    "fontSize": {
+                        "caption": ["10px", {"lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                        "display-lg-mobile": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.03em", "fontWeight": "600"}],
+                        "headline-md": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "letterSpacing": "-0.01em", "fontWeight": "400"}],
+                        "body-md": ["16px", {"lineHeight": "1.5", "letterSpacing": "0", "fontWeight": "400"}],
+                        "headline-sm": ["32px", {"lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                        "headline-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.03em", "fontWeight": "600"}],
+                        "display-lg": ["84px", {"lineHeight": "1.05", "letterSpacing": "-0.04em", "fontWeight": "600"}],
+                        "label-caps": ["12px", {"lineHeight": "1", "letterSpacing": "0.1em", "fontWeight": "600"}]
+                    }
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-warm text-on-background antialiased selection:bg-primary/10">
+<!-- TopNavBar -->
+<nav class="fixed top-0 left-0 right-0 z-50 bg-background-warm/80 backdrop-blur-xl border-b border-border-subtle shadow-sm h-20 w-full flex items-center">
+<div class="max-w-container-max mx-auto px-padding-edge flex justify-between items-center w-full">
+<div class="flex items-center gap-4">
+<img alt="BHU Logo" class="h-12 w-auto" src="https://www.gstatic.com/labs-code/stitch/stitch-placeholder-300x300.svg"/>
+<span class="font-headline-sm text-headline-sm tracking-tighter text-primary">BHU Exam Portal</span>
+<div class="hidden md:flex gap-6 ml-8">
+<a class="text-primary font-bold border-b-2 border-primary pb-1 font-body-md text-body-md" href="#">Hall Ticket</a>
+<a class="text-secondary font-medium hover:text-primary transition-colors duration-200 font-body-md text-body-md" href="#">Schedule</a>
+<a class="text-secondary font-medium hover:text-primary transition-colors duration-200 font-body-md text-body-md" href="#">Results</a>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<button class="hidden sm:block text-secondary font-medium hover:text-primary transition-colors font-body-md text-body-md">Support</button>
+<button class="bg-primary text-on-primary px-6 py-2.5 rounded-full font-bold active:scale-95 transition-transform font-body-md text-body-md">Student Login</button>
+<div class="w-10 h-10 rounded-full bg-surface-container overflow-hidden border border-border-subtle">
+<img alt="User profile" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAd6kMoHUSkkmSTf2VvhvgPZ9EvdoBIQFJb79C-Z7wd65J0829jn8r2BgZoL3dlo3YDpb8V_PkJ2c5_PRZsxS-Zz8segmi1MXUuMoS1w2zk31IgbuDgK3oL7BbxohPM8xOzRKE6XTRVKya6yWXwtPWqbSAiZfNlyCNCNpql0G3Smgss4k_peAYr52b08unRuemV6SPsUHqypCazKuGjb2b6JAay89gRmSel9d_nm5jtQ9kG9OaCa3T_RiXOXdLISEa9FTwfeKWhmGDA"/>
+</div>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<main class="relative pt-40 overflow-hidden">
+<!-- Animated Background Orbs (Saffron and Traditional Hues) -->
+<div class="neural-orb animate-float bg-accent-bhu-saffron w-[600px] h-[600px] -top-40 -left-20"></div>
+<div class="neural-orb animate-float bg-accent-neural-purple w-[500px] h-[500px] top-60 -right-20" style="animation-delay: -3s;"></div>
+<div class="neural-orb animate-float bg-accent-neural-emerald w-[400px] h-[400px] bottom-0 left-1/2" style="animation-delay: -6s;"></div>
+<div class="max-w-container-max mx-auto px-padding-edge">
+<div class="grid lg:grid-cols-[1.2fr_0.8fr] gap-20 items-center">
+<div class="relative z-10">
+<div class="flex items-center gap-2 mb-6">
+<span class="w-2 h-2 rounded-full bg-accent-bhu-saffron animate-pulse"></span>
+<span class="font-label-caps text-label-caps text-secondary uppercase">Kashi Hindu Vishwavidyalaya Legacy</span>
+</div>
+<h1 class="font-display-lg text-display-lg lg:font-display-lg lg:text-display-lg font-display-lg-mobile text-display-lg-mobile mb-8 text-primary leading-[1.05]">
+                        Online Examination Portal for BHU Semester &amp; Mid-Term Exams.
+                    </h1>
+<p class="font-body-lg text-body-lg text-secondary max-w-xl mb-12">
+                        Upholding the rigorous academic standards of Banaras Hindu University. Experience high-fidelity, secure, and low-latency assessments powered by advanced neural analysis.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="bg-primary text-on-primary px-10 py-5 rounded-full font-bold text-body-md hover:scale-[1.02] active:scale-95 transition-all shadow-lg">
+                            Student Login
+                        </button>
+<button class="border border-outline px-10 py-5 rounded-full font-bold text-body-md hover:bg-surface-panel/50 active:scale-95 transition-all">
+                            Examination Guidelines
+                        </button>
+</div>
+</div>
+<!-- Testing Workstation Visual -->
+<div class="relative group">
+<div class="glass-panel rounded-xl p-8 relative overflow-hidden transition-all duration-700 hover:shadow-2xl hover:-translate-y-2">
+<div class="flex items-center justify-between mb-8">
+<div class="flex gap-2">
+<div class="w-3 h-3 rounded-full bg-error"></div>
+<div class="w-3 h-3 rounded-full bg-amber-400"></div>
+<div class="w-3 h-3 rounded-full bg-accent-neural-emerald"></div>
+</div>
+<span class="font-caption text-caption text-secondary">BHU_VNS_STATION_01</span>
+</div>
+<div class="space-y-6">
+<div class="bg-white/40 border border-white/20 p-6 rounded-lg">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-caps text-label-caps text-primary">Latency Performance</span>
+<span class="font-caption text-caption text-accent-neural-emerald">0.4ms</span>
+</div>
+<div class="h-1 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-accent-bhu-saffron w-[92%]"></div>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-white/40 border border-white/20 p-6 rounded-lg flex flex-col items-center">
+<span class="material-symbols-outlined text-primary mb-2" style="font-variation-settings: 'FILL' 1;">graphic_eq</span>
+<span class="font-headline-sm text-headline-sm">99.8%</span>
+<span class="font-caption text-caption text-secondary">Proctoring Accuracy</span>
+</div>
+<div class="bg-white/40 border border-white/20 p-6 rounded-lg flex flex-col items-center">
+<span class="material-symbols-outlined text-primary mb-2">verified_user</span>
+<span class="font-headline-sm text-headline-sm">Secure</span>
+<span class="font-caption text-caption text-secondary">Biometric Lock</span>
+</div>
+</div>
+</div>
+<div class="mt-8 flex justify-center">
+<div class="relative w-32 h-32 flex items-center justify-center">
+<div class="absolute inset-0 bg-accent-bhu-saffron/10 rounded-full animate-ping"></div>
+<button class="relative w-24 h-24 bg-white rounded-full shadow-xl border border-border-subtle flex items-center justify-center hover:scale-110 transition-transform group">
+<span class="material-symbols-outlined text-4xl text-primary group-hover:scale-110 transition-transform" style="font-variation-settings: 'FILL' 1;">login</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Bento Section -->
+<section class="mt-section-gap-desktop mb-section-gap-desktop max-w-container-max mx-auto px-padding-edge">
+<div class="text-center mb-24">
+<h2 class="font-headline-lg text-headline-lg mb-6">Designed for analytical depth.</h2>
+<p class="font-body-lg text-body-lg text-secondary max-w-2xl mx-auto">Banaras Hindu University's digital infrastructure handles the heavy lifting so students can focus on objective, merit-driven outcomes.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-unit auto-rows-[240px]">
+<!-- Large Feature -->
+<div class="md:col-span-8 md:row-span-2 glass-panel rounded-lg p-10 flex flex-col justify-end group cursor-pointer overflow-hidden relative">
+<div class="absolute inset-0 z-0 opacity-20 transition-opacity group-hover:opacity-40">
+<img class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdQ7EIguLTy6Hf8e62UATfSE54HkmiUPVd0YbykTY7Z-aa8JTHC4mYqp53Z3MM0QaSAlG2467_kxDZzAijsT-MeLRIY1IOsQURIrrAog1rboznEVAAJLDWIQj6WWMx4hbKCfiu5rit2P4JEuKyAqfuGn8lfW04LoEA-agmyoPBLfu_WZTmEA21o1FluyGwJFCSWeMao2TA5kV5WvGZkmbDwEg_Le_GHUnhcvxhAYCylgUjc0i3rsZ3EBCVD9cD3-P3vLmxgw5MHurA"/>
+</div>
+<div class="relative z-10">
+<span class="font-label-caps text-label-caps text-accent-bhu-saffron mb-4 block">EXAMINATION CORE</span>
+<h3 class="font-headline-md text-headline-md mb-4 text-primary">Ultra-low latency data processing.</h3>
+<p class="font-body-md text-body-md text-secondary max-w-md">Our proprietary engine processes examination inputs in under 1ms, ensuring zero cognitive drift during high-stakes university testing.</p>
+</div>
+</div>
+<!-- Side Feature 1 -->
+<div class="md:col-span-4 md:row-span-1 glass-panel rounded-lg p-8 flex flex-col justify-between hover:bg-white/40 transition-colors">
+<span class="material-symbols-outlined text-primary text-3xl">psychology</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary text-[24px]">Neural Proctoring</h4>
+<p class="font-caption text-caption text-secondary">Real-time integrity tracking during tests.</p>
+</div>
+</div>
+<!-- Side Feature 2 -->
+<div class="md:col-span-4 md:row-span-1 bg-primary text-on-primary rounded-lg p-8 flex flex-col justify-between">
+<span class="material-symbols-outlined text-4xl">gavel</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-[24px]">Academic Rigor</h4>
+<p class="font-caption text-caption text-on-primary/60">Strict adherence to BHU examination by-laws.</p>
+</div>
+</div>
+<!-- Bottom Row Bento -->
+<div class="md:col-span-4 md:row-span-1 glass-panel rounded-lg p-8 flex flex-col gap-4">
+<div class="flex items-baseline gap-2">
+<span class="font-headline-lg text-headline-lg text-primary">12ms</span>
+<span class="font-label-caps text-label-caps text-secondary">RESPONSE</span>
+</div>
+<p class="font-body-md text-body-md text-secondary">The fastest university assessment response time, verified by internal audit teams.</p>
+</div>
+<div class="md:col-span-8 md:row-span-1 glass-panel rounded-lg p-8 flex items-center justify-between overflow-hidden relative">
+<div class="relative z-10 max-w-sm">
+<h4 class="font-headline-sm text-headline-sm text-primary text-[28px]">Universal Compatibility</h4>
+<p class="font-body-md text-body-md text-secondary">Works across all high-fidelity lab workstations and mobile devices for remote learners.</p>
+</div>
+<div class="flex gap-4">
+<div class="w-16 h-16 rounded-full glass-panel flex items-center justify-center"><span class="material-symbols-outlined">desktop_windows</span></div>
+<div class="w-16 h-16 rounded-full glass-panel flex items-center justify-center"><span class="material-symbols-outlined">smartphone</span></div>
+<div class="w-16 h-16 rounded-full glass-panel flex items-center justify-center"><span class="material-symbols-outlined">school</span></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Content Module -->
+<section class="py-section-gap-desktop bg-white">
+<div class="max-w-container-max mx-auto px-padding-edge grid md:grid-cols-2 gap-24 items-center">
+<div class="order-2 md:order-1">
+<div class="space-y-12">
+<div class="flex gap-6 group">
+<div class="w-12 h-12 rounded-full border border-border-subtle flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="font-bold">01</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm mb-2">Automated Grading</h3>
+<p class="font-body-md text-body-md text-secondary">Neural analysis provides immediate feedback with 99.8% correlation to senior faculty evaluations.</p>
+</div>
+</div>
+<div class="flex gap-6 group">
+<div class="w-12 h-12 rounded-full border border-border-subtle flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="font-bold">02</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm mb-2">Adaptive Integrity</h3>
+<p class="font-body-md text-body-md text-secondary">Proctoring algorithms adjust in real-time based on the candidate's environmental and biometric load.</p>
+</div>
+</div>
+<div class="flex gap-6 group">
+<div class="w-12 h-12 rounded-full border border-border-subtle flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="font-bold">03</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm mb-2">Detailed Analytics</h3>
+<p class="font-body-md text-body-md text-secondary">Export comprehensive heatmaps and cognitive performance metrics for department records.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="order-1 md:order-2">
+<div class="aspect-square bg-background-warm rounded-lg overflow-hidden border border-border-subtle shadow-xl">
+<img class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2C6HXNNEp9q7w08VYhfQUQKe-5UaH_ir-9FcIxH7zgq4Pek7s_uaPqCEIaxLTSUdk06bAF-Cps-XiZtjliXRBDoPmsTOxJrgzkRFU8R0Auo91Zb_j2CM_RIUBJAIGH-vRmX8gX7He71c4t1I9MjIG6nwyrZUweSLSSriKcCOc0se0u2AUh_49FP8-RRLYmyFfBwyv19WthMItrYJm19WtD_hISy7B1Xvtl0kXLomXljhWhYjEa0n_HYfqwMB_NvEBXAiZ7P5u-bS-"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Final CTA Section -->
+<section class="py-section-gap-desktop bg-surface-panel relative overflow-hidden">
+<div class="neural-orb bg-accent-bhu-saffron w-[800px] h-[400px] -bottom-40 left-1/4 opacity-10"></div>
+<div class="max-w-container-max mx-auto px-padding-edge text-center relative z-10">
+<h2 class="font-headline-lg text-headline-lg mb-8 max-w-4xl mx-auto">Upholding institutional excellence at Banaras Hindu University.</h2>
+<p class="font-body-lg text-body-lg text-secondary mb-12 max-w-2xl mx-auto">Join the future of academic evaluation at Kashi Hindu Vishwavidyalaya. Secure, precise, and objective.</p>
+<div class="flex flex-col sm:flex-row justify-center gap-6">
+<button class="bg-primary text-on-primary px-12 py-6 rounded-full font-bold text-body-md hover:scale-105 active:scale-95 transition-all shadow-xl">
+                    Student Login
+                </button>
+<button class="bg-white text-primary border border-border-subtle px-12 py-6 rounded-full font-bold text-body-md hover:bg-background-warm transition-all">
+                    Help &amp; Support
+                </button>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="w-full py-12 bg-background-warm border-t border-border-subtle">
+<div class="max-w-container-max mx-auto px-padding-edge flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex flex-col items-center md:items-start">
+<span class="font-label-caps text-label-caps text-primary mb-2">BANARAS HINDU UNIVERSITY</span>
+<p class="font-caption text-caption text-secondary">© 2024 Banaras Hindu University. Powered by Auralis Neural Systems.</p>
+</div>
+<div class="flex gap-8">
+<a class="font-caption text-caption text-secondary hover:text-primary underline transition-opacity duration-200" href="#">Privacy Policy</a>
+<a class="font-caption text-caption text-secondary hover:text-primary underline transition-opacity duration-200" href="#">Terms of Service</a>
+<a class="font-caption text-caption text-secondary hover:text-primary underline transition-opacity duration-200" href="#">Student Manual</a>
+</div>
+</div>
+</footer>
+<script>
+        document.addEventListener('mousemove', (e) => {
+            const orbs = document.querySelectorAll('.neural-orb');
+            const mouseX = e.clientX / window.innerWidth;
+            const mouseY = e.clientY / window.innerHeight;
+
+            orbs.forEach((orb, index) => {
+                const speed = (index + 1) * 20;
+                const x = (mouseX - 0.5) * speed;
+                const y = (mouseY - 0.5) * speed;
+                orb.style.transform = `translate(${x}px, ${y}px)`;
+            });
+        });
+
+        const glassCards = document.querySelectorAll('.glass-panel');
+        glassCards.forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.borderColor = 'rgba(245, 124, 0, 0.3)';
+            });
+            card.addEventListener('mouseleave', () => {
+                card.style.borderColor = 'rgba(231, 231, 228, 1)';
+            });
+        });
+    </script>
+</body></html>

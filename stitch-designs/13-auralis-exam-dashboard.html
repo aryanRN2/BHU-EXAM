@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary-fixed": "#1b1c1c",
+                    "surface-dim": "#dadada",
+                    "outline-variant": "#cfc4c5",
+                    "accent-neural-emerald": "#10B981",
+                    "surface-panel": "#F3F2EF",
+                    "secondary": "#5e5e5e",
+                    "primary-fixed": "#e2e2e2",
+                    "inverse-on-surface": "#f1f1f1",
+                    "secondary-fixed": "#e4e2e2",
+                    "inverse-primary": "#c6c6c6",
+                    "on-tertiary-fixed-variant": "#474747",
+                    "background-warm": "#F7F7F5",
+                    "on-primary-fixed": "#1b1b1b",
+                    "tertiary-container": "#1b1b1b",
+                    "on-secondary-container": "#626262",
+                    "accent-neural-purple": "#A855F7",
+                    "error-container": "#ffdad6",
+                    "surface": "#f9f9f9",
+                    "on-surface": "#1b1b1b",
+                    "on-secondary-fixed-variant": "#464747",
+                    "on-secondary": "#ffffff",
+                    "tertiary-fixed": "#e2e2e2",
+                    "surface-container-high": "#e8e8e8",
+                    "accent-neural-blue": "#3B82F6",
+                    "background": "#f9f9f9",
+                    "surface-container-low": "#f3f3f3",
+                    "on-error-container": "#93000a",
+                    "outline": "#7e7576",
+                    "primary-container": "#1b1b1b",
+                    "surface-bright": "#f9f9f9",
+                    "surface-container-highest": "#e2e2e2",
+                    "on-tertiary-fixed": "#1b1b1b",
+                    "surface-container": "#eeeeee",
+                    "on-background": "#1b1b1b",
+                    "secondary-container": "#e1dfdf",
+                    "surface-variant": "#e2e2e2",
+                    "surface-container-lowest": "#ffffff",
+                    "inverse-surface": "#303030",
+                    "error": "#ba1a1a",
+                    "on-primary": "#ffffff",
+                    "on-error": "#ffffff",
+                    "secondary-fixed-dim": "#c7c6c6",
+                    "on-primary-container": "#848484",
+                    "tertiary-fixed-dim": "#c6c6c6",
+                    "on-primary-fixed-variant": "#474747",
+                    "surface-card": "#FCFCFB",
+                    "tertiary": "#000000",
+                    "on-tertiary": "#ffffff",
+                    "primary-fixed-dim": "#c6c6c6",
+                    "primary": "#000000",
+                    "surface-tint": "#5e5e5e",
+                    "on-surface-variant": "#4c4546",
+                    "on-tertiary-container": "#848484",
+                    "border-subtle": "#E7E7E4"
+            },
+            "borderRadius": {
+                    "DEFAULT": "1rem",
+                    "lg": "2rem",
+                    "xl": "3rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "gutter": "32px",
+                    "unit": "8px",
+                    "container-max": "1280px",
+                    "section-gap-mobile": "80px",
+                    "section-gap-desktop": "180px",
+                    "padding-edge": "32px"
+            },
+            "fontFamily": {
+                    "caption": ["Geist", "sans-serif"],
+                    "display-lg-mobile": ["Geist", "sans-serif"],
+                    "headline-md": ["Geist", "sans-serif"],
+                    "body-lg": ["Geist", "sans-serif"],
+                    "body-md": ["Geist", "sans-serif"],
+                    "headline-sm": ["Geist", "sans-serif"],
+                    "headline-lg": ["Geist", "sans-serif"],
+                    "display-lg": ["Geist", "sans-serif"],
+                    "label-caps": ["Geist", "sans-serif"]
+            },
+          },
+        },
+      }
+    </script>
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100;300;400;600;800&display=swap');
+        
+        body {
+            font-family: 'Geist', sans-serif;
+            background-color: #F7F7F5;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.45);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 0.5px solid rgba(231, 231, 228, 1);
+        }
+
+        .neural-gradient {
+            background: radial-gradient(circle at 10% 20%, rgba(168, 85, 247, 0.08) 0%, transparent 50%),
+                        radial-gradient(circle at 90% 80%, rgba(59, 130, 246, 0.08) 0%, transparent 50%);
+        }
+
+        .orb-glow {
+            filter: blur(40px);
+            opacity: 0.15;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="text-on-surface overflow-x-hidden neural-gradient min-h-screen">
+<!-- TopNavBar -->
+<nav class="fixed top-0 left-0 right-0 z-50 bg-background-warm/80 backdrop-blur-xl border-b border-border-subtle shadow-sm">
+<div class="flex justify-between items-center px-padding-edge h-20 w-full max-w-container-max mx-auto">
+<div class="flex items-center gap-8">
+<span class="font-headline-sm text-headline-sm tracking-tighter text-primary">Auralis Exam</span>
+<div class="hidden md:flex gap-6">
+<a class="text-primary font-bold border-b-2 border-primary pb-1 font-body-md text-body-md" href="#">Dashboard</a>
+<a class="text-secondary font-medium hover:text-primary transition-colors duration-200 font-body-md text-body-md" href="#">Library</a>
+<a class="text-secondary font-medium hover:text-primary transition-colors duration-200 font-body-md text-body-md" href="#">Analytics</a>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<button class="text-secondary font-medium hover:text-primary transition-colors duration-200 font-body-md text-body-md">Support</button>
+<button class="bg-primary text-on-primary px-6 py-2.5 rounded-full font-body-md text-body-md active:scale-95 transition-transform">New Exam</button>
+<div class="w-10 h-10 rounded-full bg-surface-container overflow-hidden border border-border-subtle">
+<img alt="User profile" data-alt="A professional headshot of a person with a friendly expression, set against a clean, neutral background. The lighting is soft and high-key, reflecting a minimalist and premium aesthetic. The composition is centered, highlighting the individual's role as a sophisticated user within a modern, neural-tech ecosystem." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvYgJ7olwB8AHvkuAzdhXCAw09fUhT86x7Sk-I5UeS4GHnc9gMMhMiT62UXGrvKUguvwilI_h3m_Mg97TTz_kNxht-dRk2vKIK5hXWyrulxji-piH51xErpgSactWuhUPiBvJMdwfS4jO2dSwOkF9iZBzX3e6pOU6HfYqKX7A6V-2QeTSxrdr5Xqyoi8wr3pGj-lgSIoYDA4XE98axb-axN65WwqNA6iFKFcnBcaq-REVc84v2rQZEYyohNLSvnsioAMqzUTbBnS6i"/>
+</div>
+</div>
+</div>
+</nav>
+<div class="flex pt-20 h-screen overflow-hidden">
+<!-- SideNavBar -->
+<aside class="hidden md:flex flex-col h-full w-72 bg-surface-panel/50 backdrop-blur-2xl border-r border-border-subtle p-6 gap-unit flex-shrink-0">
+<div class="mb-10 flex flex-col gap-2">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[18px]">audio_file</span>
+</div>
+<div>
+<p class="font-label-caps text-[10px] uppercase tracking-[0.2em] text-secondary">Current Exam</p>
+<p class="font-bold text-primary">English Proficiency</p>
+</div>
+</div>
+<p class="font-caption text-caption text-secondary mt-1">Module 4: Oral Comprehension</p>
+</div>
+<nav class="flex flex-col gap-2">
+<a class="flex items-center gap-4 px-4 py-3 bg-white/40 shadow-sm border border-white/20 text-primary font-semibold rounded-lg hover:translate-x-1 transition-all duration-300" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+<span class="font-caption text-caption uppercase tracking-widest">Overview</span>
+</a>
+<a class="flex items-center gap-4 px-4 py-3 text-secondary hover:text-primary hover:bg-white/20 rounded-lg hover:translate-x-1 transition-all duration-300" href="#">
+<span class="material-symbols-outlined">quiz</span>
+<span class="font-caption text-caption uppercase tracking-widest">Questions</span>
+</a>
+<a class="flex items-center gap-4 px-4 py-3 text-secondary hover:text-primary hover:bg-white/20 rounded-lg hover:translate-x-1 transition-all duration-300" href="#">
+<span class="material-symbols-outlined">audio_file</span>
+<span class="font-caption text-caption uppercase tracking-widest">Media</span>
+</a>
+<a class="flex items-center gap-4 px-4 py-3 text-secondary hover:text-primary hover:bg-white/20 rounded-lg hover:translate-x-1 transition-all duration-300" href="#">
+<span class="material-symbols-outlined">analytics</span>
+<span class="font-caption text-caption uppercase tracking-widest">Review</span>
+</a>
+<a class="flex items-center gap-4 px-4 py-3 text-secondary hover:text-primary hover:bg-white/20 rounded-lg hover:translate-x-1 transition-all duration-300" href="#">
+<span class="material-symbols-outlined">settings</span>
+<span class="font-caption text-caption uppercase tracking-widest">Settings</span>
+</a>
+</nav>
+<div class="mt-auto flex flex-col gap-4">
+<button class="bg-primary text-on-primary w-full py-4 rounded-full font-label-caps tracking-widest text-[12px] hover:scale-[1.02] transition-transform active:scale-95">
+                    Submit Exam
+                </button>
+<div class="flex border-t border-border-subtle pt-6 justify-around">
+<button class="text-secondary hover:text-primary transition-colors flex flex-col items-center">
+<span class="material-symbols-outlined">logout</span>
+<span class="font-caption text-caption">Exit</span>
+</button>
+<button class="text-secondary hover:text-primary transition-colors flex flex-col items-center">
+<span class="material-symbols-outlined">help_outline</span>
+<span class="font-caption text-caption">Help</span>
+</button>
+</div>
+</div>
+</aside>
+<!-- Main Content -->
+<main class="flex-grow overflow-y-auto px-padding-edge py-10">
+<div class="max-w-container-max mx-auto space-y-16">
+<!-- Welcome Section -->
+<header class="flex flex-col gap-2">
+<div class="flex items-center gap-3 mb-2">
+<span class="w-2 h-2 rounded-full bg-accent-neural-emerald animate-pulse"></span>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-[0.2em]">Neural Engine Online</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-primary tracking-tighter">Good morning, Julian.</h1>
+<p class="font-body-lg text-body-lg text-secondary max-w-2xl">Your neural processing metrics are up 14% this week. Ready to tackle the final comprehension modules?</p>
+</header>
+<!-- Bento Grid Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+<!-- Quick Start Card -->
+<div class="lg:col-span-8 group relative overflow-hidden glass-panel rounded-lg p-8 h-[400px] flex flex-col justify-end cursor-pointer">
+<div class="absolute inset-0 z-0">
+<img alt="Waveforms" class="w-full h-full object-cover grayscale opacity-20 group-hover:scale-105 transition-transform duration-700" data-alt="Abstract, high-fidelity audio waveforms flowing through a digital void. The colors are muted, with deep blacks and cool grays, reflecting a high-end tech environment. Soft white light catches the peaks of the waves, creating a sense of sophisticated neural activity and sound synthesis. Minimalist and ethereal." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDBK99Lt_g2O35l8K-F4RDVvzrCGOsIFEF4EkpcV2ARov0csl3jCkydKhEAm-Xqrd1M05A9AZbEByUhdegsLvHAANifYyMFnkRCig7quvzFumT_3Uj7Jwmlx50XKX0hAnNcm5usrKPu6YA_RsJP2EgV_WcUUTG_lfuOyobD7SD-PGXn0TmA5A_AGk2w9pnpDTzvD4c3-Ca9YuJmD3Fg540A6QZQ8s0jI5Tn78V--zBJWgEwNJt3juvGzkTTjjWEywGyHdwRtYFfYsQ9"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background-warm via-transparent to-transparent"></div>
+</div>
+<div class="relative z-10 space-y-6">
+<div class="flex gap-4">
+<span class="bg-primary text-on-primary px-3 py-1 rounded-full text-caption font-caption tracking-widest uppercase">Premium Module</span>
+<span class="bg-accent-neural-purple/10 text-accent-neural-purple px-3 py-1 rounded-full text-caption font-caption tracking-widest uppercase">92% Match</span>
+</div>
+<div class="space-y-2">
+<h2 class="font-headline-sm text-headline-sm text-primary">English Proficiency Module</h2>
+<p class="font-body-md text-body-md text-secondary">Advanced acoustic analysis and lexical comprehension testing.</p>
+</div>
+<button class="flex items-center gap-4 bg-primary text-white pl-8 pr-4 py-3 rounded-full w-fit hover:scale-105 transition-all group/btn">
+<span class="font-label-caps text-label-caps tracking-widest uppercase">Resume Exam</span>
+<div class="w-8 h-8 rounded-full bg-white text-primary flex items-center justify-center group-hover/btn:rotate-45 transition-transform">
+<span class="material-symbols-outlined text-[20px]">north_east</span>
+</div>
+</button>
+</div>
+</div>
+<!-- Progress Analytics Section -->
+<div class="lg:col-span-4 glass-panel rounded-lg p-8 flex flex-col justify-between">
+<div class="space-y-6">
+<div class="flex justify-between items-center">
+<h3 class="font-label-caps text-label-caps text-secondary uppercase tracking-[0.2em]">Neural Metrics</h3>
+<span class="material-symbols-outlined text-secondary">show_chart</span>
+</div>
+<div class="space-y-2">
+<div class="flex justify-between items-end">
+<p class="font-headline-sm text-headline-sm text-primary">78.4%</p>
+<p class="text-accent-neural-emerald font-caption text-caption mb-2">+4.2%</p>
+</div>
+<p class="font-caption text-caption text-secondary uppercase tracking-widest">Average Proficiency</p>
+</div>
+</div>
+<!-- Mini Chart Visualization -->
+<div class="h-32 flex items-end gap-2 px-1">
+<div class="flex-grow bg-surface-container-highest rounded-t-full h-[40%] hover:h-[60%] transition-all duration-500"></div>
+<div class="flex-grow bg-surface-container-highest rounded-t-full h-[60%] hover:h-[80%] transition-all duration-500"></div>
+<div class="flex-grow bg-primary rounded-t-full h-[85%] hover:h-[95%] transition-all duration-500"></div>
+<div class="flex-grow bg-surface-container-highest rounded-t-full h-[55%] hover:h-[75%] transition-all duration-500"></div>
+<div class="flex-grow bg-surface-container-highest rounded-t-full h-[70%] hover:h-[90%] transition-all duration-500"></div>
+<div class="flex-grow bg-surface-container-highest rounded-t-full h-[45%] hover:h-[65%] transition-all duration-500"></div>
+</div>
+<div class="pt-6 border-t border-border-subtle flex justify-between">
+<div>
+<p class="font-bold text-primary">1,240</p>
+<p class="font-caption text-caption text-secondary uppercase">Minutes Sync</p>
+</div>
+<div>
+<p class="font-bold text-primary">18</p>
+<p class="font-caption text-caption text-secondary uppercase">Exams Passed</p>
+</div>
+</div>
+</div>
+<!-- Active Exams Section -->
+<div class="lg:col-span-12 space-y-8 pt-8">
+<div class="flex justify-between items-end">
+<h3 class="font-headline-sm text-headline-sm text-primary tracking-tight">Active Exams</h3>
+<button class="text-secondary hover:text-primary font-caption text-caption uppercase tracking-widest border-b border-secondary/20 pb-1">View Full Library</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Active Card 1 -->
+<div class="glass-panel p-6 rounded-lg group hover:bg-white/60 transition-all duration-300">
+<div class="flex justify-between items-start mb-10">
+<div class="w-12 h-12 rounded-full border border-border-subtle flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-colors duration-300">
+<span class="material-symbols-outlined">psychology</span>
+</div>
+<span class="bg-accent-neural-blue/10 text-accent-neural-blue px-2 py-1 rounded text-[10px] font-bold uppercase">In Progress</span>
+</div>
+<h4 class="font-bold text-lg mb-2">Cognitive Load Test</h4>
+<p class="font-caption text-caption text-secondary mb-6 uppercase tracking-widest">Aura Sync Level 4</p>
+<div class="w-full bg-surface-container h-1 rounded-full overflow-hidden">
+<div class="bg-primary h-full w-[65%]"></div>
+</div>
+</div>
+<!-- Active Card 2 -->
+<div class="glass-panel p-6 rounded-lg group hover:bg-white/60 transition-all duration-300">
+<div class="flex justify-between items-start mb-10">
+<div class="w-12 h-12 rounded-full border border-border-subtle flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-colors duration-300">
+<span class="material-symbols-outlined">graphic_eq</span>
+</div>
+<span class="bg-accent-neural-emerald/10 text-accent-neural-emerald px-2 py-1 rounded text-[10px] font-bold uppercase">Starting Soon</span>
+</div>
+<h4 class="font-bold text-lg mb-2">Spectral Decoding</h4>
+<p class="font-caption text-caption text-secondary mb-6 uppercase tracking-widest">Audio Synthesis 101</p>
+<div class="w-full bg-surface-container h-1 rounded-full overflow-hidden">
+<div class="bg-primary h-full w-[12%]"></div>
+</div>
+</div>
+<!-- Active Card 3 -->
+<div class="glass-panel p-6 rounded-lg group hover:bg-white/60 transition-all duration-300">
+<div class="flex justify-between items-start mb-10">
+<div class="w-12 h-12 rounded-full border border-border-subtle flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-colors duration-300">
+<span class="material-symbols-outlined">translate</span>
+</div>
+<span class="bg-accent-neural-purple/10 text-accent-neural-purple px-2 py-1 rounded text-[10px] font-bold uppercase">Critical</span>
+</div>
+<h4 class="font-bold text-lg mb-2">Lexical Mapping</h4>
+<p class="font-caption text-caption text-secondary mb-6 uppercase tracking-widest">Language Core III</p>
+<div class="w-full bg-surface-container h-1 rounded-full overflow-hidden">
+<div class="bg-primary h-full w-[88%]"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer -->
+<footer class="pt-padding-edge border-t border-border-subtle">
+<div class="flex flex-col md:flex-row justify-between items-center gap-6">
+<p class="font-caption text-caption text-secondary uppercase tracking-[0.1em]">© 2024 Auralis Neural Systems. All rights reserved.</p>
+<div class="flex gap-8">
+<a class="font-caption text-caption text-secondary hover:text-primary transition-opacity duration-200 uppercase tracking-widest" href="#">Privacy Policy</a>
+<a class="font-caption text-caption text-secondary hover:text-primary transition-opacity duration-200 uppercase tracking-widest" href="#">Terms of Service</a>
+<a class="font-caption text-caption text-secondary hover:text-primary transition-opacity duration-200 uppercase tracking-widest" href="#">API Documentation</a>
+</div>
+</div>
+</footer>
+</div>
+</main>
+</div>
+<!-- Background Orbs for Atmosphere -->
+<div class="fixed top-[-10%] right-[-10%] w-[500px] h-[500px] rounded-full bg-accent-neural-purple orb-glow z-[-1] pointer-events-none"></div>
+<div class="fixed bottom-[-5%] left-[-5%] w-[400px] h-[400px] rounded-full bg-accent-neural-blue orb-glow z-[-1] pointer-events-none"></div>
+<script>
+        // Micro-interactions and atmospheric effects
+        document.addEventListener('mousemove', (e) => {
+            const orbs = document.querySelectorAll('.orb-glow');
+            const x = e.clientX / window.innerWidth;
+            const y = e.clientY / window.innerHeight;
+            
+            orbs.forEach((orb, index) => {
+                const moveX = (x - 0.5) * (index + 1) * 30;
+                const moveY = (y - 0.5) * (index + 1) * 30;
+                orb.style.transform = `translate(${moveX}px, ${moveY}px)`;
+            });
+        });
+
+        // Simple animation for the progress bars on load
+        window.addEventListener('DOMContentLoaded', () => {
+            const bars = document.querySelectorAll('.bg-primary.h-full');
+            bars.forEach(bar => {
+                const finalWidth = bar.style.width;
+                bar.style.width = '0%';
+                setTimeout(() => {
+                    bar.style.transition = 'width 1.5s cubic-bezier(0.65, 0, 0.35, 1)';
+                    bar.style.width = finalWidth;
+                }, 300);
+            });
+        });
+    </script>
+</body></html>

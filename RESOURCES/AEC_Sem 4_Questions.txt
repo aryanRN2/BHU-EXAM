@@ -1,0 +1,439 @@
+What is the primary purpose of citation in academic writing?A. To increase word countB. To give credit to original sourcesC. To confuse the readerD. To avoid writing
+Which of the following is NOT a common citation style?A. APAB. MLAC. ChicagoD. Society of Sciences 
+Citation helps to:A. Avoid plagiarismB. Strengthen argumentsC. Provide evidenceD. All of the above
+In academic writing, failing to cite sources may result in:A. Higher gradesB. PlagiarismC. Better readabilityD. Shorter essays
+APA style is most commonly used in:A. LiteratureB. Social SciencesC. HistoryD. Philosophy
+In APA in-text citation, which format is correct?A. (Author, Year)B. (Author Page)C. (Year Author)D. (Page Author)
+Example of correct APA citation:A. (Smith 2020)B. (Smith, 2020)C. Smith (2020)D. Both B and C
+In APA references, the year appears:A. At the endB. After the author’s nameC. Before the titleD. In the middle
+MLA style is primarily used in:A. EngineeringB. HumanitiesC. MedicineD. Mathematics
+MLA in-text citation format is:A. (Author, Year)B. (Author Page Number)C. (Year Page)D. (Page Year)
+Example of MLA citation:A. (Smith, 2020)B. (Smith 45)C. (45 Smith)D. (2020 Smith)
+The MLA Works Cited page is arranged:A. ChronologicallyB. AlphabeticallyC. By importanceD. Randomly
+Chicago style is commonly used in:A. HistoryB. PhysicsC. BiologyD. Mathematics
+Chicago style often uses:A. FootnotesB. EndnotesC. Both A and BD. None
+In Chicago style, notes are used to:A. Replace the textB. Provide source detailsC. Add jokesD. Shorten essays
+Bibliography in Chicago style appears:A. At the beginningB. At the endC. In the middleD. Not required
+Plagiarism is:A. Using your own ideasB. Copying without creditC. Writing creativelyD. Editing text
+Which is an example of plagiarism?A. Citing properlyB. Paraphrasing with creditC. Copying text without citationD. Summarizing
+Self-plagiarism refers to:A. Copying others’ workB. Reusing one’s own work without citationC. Writing new contentD. Peer review
+Plagiarism can lead to:A. Academic successB. PenaltiesC. RewardsD. Recognition
+Which of the following helps avoid plagiarism?A. Proper citationB. ParaphrasingC. QuotingD. All of the above
+Paraphrasing means:A. Copying exactlyB. Rewriting in your own wordsC. Removing contentD. Translating only
+Quotation marks are used when:A. SummarizingB. ParaphrasingC. Using exact wordsD. Writing references
+Which tool can help detect plagiarism?A. CalculatorB. Plagiarism checkerC. DictionaryD. Grammar book
+Which is a common citation error?A. Missing author nameB. Incorrect formattingC. Incomplete referencesD. All of the above
+Peer review of citations helps to:A. Criticize othersB. Improve accuracyC. Reduce writingD. Avoid submission
+A reference list should include:A. Only titlesB. Only authorsC. Full source detailsD. Only links
+Which activity helps reinforce citation skills?A. Ignoring sourcesB. Practice exercisesC. Copying textD. Avoiding writing
+Academic integrity means:A. CheatingB. Honest scholarshipC. Copying workD. Ignoring rules
+In APA style, how many authors are listed before using “et al.” in in-text citations (7th edition)?A. OneB. TwoC. Three or moreD. Five or more
+
+In APA references, which element is italicized?A. Author nameB. Article titleC. Journal titleD. Year
+Which is the correct APA format for a book title?A. ALL CAPSB. Italicized and sentence caseC. UnderlinedD. Bold
+In APA style, a DOI is:A. Optional alwaysB. Required when availableC. Never usedD. Only for books
+How are multiple works by the same author arranged in APA references?A. Alphabetically by titleB. Chronologically by yearC. RandomlyD. By length
+What is the correct APA in-text citation for a direct quote?A. (Smith, 2020)B. (Smith 45)C. (Smith, 2020, p. 45)D. (2020, Smith, 45)
+In MLA style, how many authors are listed before using “et al.”?A. OneB. TwoC. Three or moreD. Five
+In MLA Works Cited, the title of a book is:A. In quotation marksB. ItalicizedC. BoldD. Underlined only
+
+MLA uses which of the following for in-text citations?A. Author-YearB. Author-PageC. Page-YearD. Year only
+If no author is available in MLA, what is used in the in-text citation?A. PublisherB. Title (shortened)C. YearD. URL
+In MLA style, the Works Cited page should have:A. Double spacingB. Single spacingC. No spacingD. Triple spacing
+MLA format requires which font style typically?A. Arial 10B. Times New Roman 12C. Calibri 11D. Verdana 14
+Chicago Manual of Style has how many main documentation systems?A. OneB. TwoC. ThreeD. Four
+
+The two systems in Chicago style are:A. APA & MLAB. Notes-Bibliography & Author-DateC. Footnote & Endnote onlyD. Reference & Works Cited
+Chicago Notes-Bibliography style is mostly used in:A. SciencesB. HumanitiesC. MathematicsD. Engineering
+In Chicago footnotes, the first citation is usually:A. ShortenedB. Full citationC. IgnoredD. Only author name
+What follows subsequent citations in Chicago notes?A. Full citation againB. Shortened formC. No citationD. Only page number
+Chicago Author-Date style is similar to:A. MLAB. APAC. Harvard FictionD. Oxford
+Which style uses “Works Cited”?A. APAB. MLAC. ChicagoD. Both APA & Chicago
+
+Which style uses “References”?A. MLAB. APAC. Chicago onlyD. None
+Which style commonly uses footnotes?A. APAB. MLAC. ChicagoD. Harvard
+Which style emphasizes publication year in citations?A. MLAB. APAC. Chicago NotesD. None
+Which citation is correct in APA style?A. (Sharma 2021)B. (Sharma, 2021)C. (2021 Sharma)D. (Sharma pg 21)
+
+Which is correct MLA citation?A. (Sharma, 2021)B. (Sharma 21)C. (2021, Sharma)D. (pg. 21 Sharma)
+Which is correct Chicago footnote format?A. Sharma 2021B. Sharma, Book Title (2021), 21C. (Sharma 21)D. Sharma:21
+When citing a website in APA, what is essential?A. Page number alwaysB. URLC. FootnoteD. Publisher location
+In MLA, URLs are:A. Always excludedB. Included when necessaryC. Mandatory in all casesD. Not allowed
+Which style prefers minimal punctuation in citations?A. MLAB. APAC. ChicagoD. None
+Identify the error in APA citation: (Smith 2020)A. Missing commaB. Missing page numberC. Incorrect formatD. Both A and C
+
+Identify the correct statement:A. MLA uses year in in-text citationB. APA uses page number alwaysC. Chicago uses notes systemD. MLA uses footnotes primarily
+Digital academic writing primarily involves:A. Handwritten notesB. Use of digital tools for scholarly writingC. Oral presentations onlyD. Memorization
+
+Which of the following is a digital writing tool?A. NotebookB. ChalkboardC. Microsoft WordD. Blackboard (physical)
+LaTeX is mainly used for:A. Graphic designB. Academic and technical writingC. Video editingD. Email writing
+Zotero helps in:A. Editing videosB. Managing references and citationsC. Designing postersD. Coding
+A key advantage of digital writing tools is:A. Slower editingB. Easy formatting and revisionC. Limited accessD. No collaboration
+Which feature improves writing efficiency in digital tools?A. Spell checkB. Auto-saveC. Grammar suggestionsD. All of the above
+Collaborative writing platforms allow users to:A. Work aloneB. Edit documents in real-timeC. Print documents onlyD. Avoid feedback
+
+Google Docs is useful for:A. Offline-only workB. Real-time collaborationC. GamingD. Video editing
+Microsoft Teams is used for:A. Writing essays onlyB. Team communication and collaborationC. Drawing diagramsD. Printing files
+Version history in collaborative tools helps to:A. Delete work permanentlyB. Track changesC. Reduce contentD. Avoid editing
+Peer collaboration improves writing by:A. Reducing ideasB. Providing feedbackC. Avoiding revisionD. Limiting creativity
+Virtual writing circles involve:A. Offline discussions onlyB. Real-time collaborative writing sessionsC. ExamsD. Memorization
+Multimedia in academic writing includes:A. Only textB. Images, audio, and videoC. Numbers onlyD. Footnotes only
+
+Adding multimedia helps to:A. Confuse readersB. Enhance understandingC. Reduce clarityD. Replace text entirely
+Which is an example of multimedia integration?A. Writing only textB. Embedding a video in a presentationC. Printing notesD. Using pen and paper
+Multimedia elements should be:A. IrrelevantB. OverusedC. Relevant and purposefulD. Random
+Digital essays may include:A. HyperlinksB. ImagesC. VideosD. All of the above
+Overuse of multimedia can:A. Improve clarity alwaysB. Distract readersC. Replace writingD. Increase accuracy
+Evaluating digital sources involves checking:A. Colour of websiteB. Credibility and accuracyC. Font styleD. Length
+
+Authority refers to:A. Design of websiteB. Author’s credibilityC. Page layoutD. Number of images
+Currency of a source means:A. CostB. Date of publicationC. LanguageD. Size
+Reliable sources include:A. Blogs without authorsB. Peer-reviewed journalsC. Random websitesD. Social media posts only
+Accuracy means:A. Information is correct and verifiableB. Information is detailedC. Information is popularD. Information is summarised
+Which is NOT a good academic source?A. Scholarly articleB. Government websiteC. Anonymous blogD. Academic journal
+A digital writing portfolio includes:A. Only one essayB. Collection of best worksC. Random filesD. Notes only
+
+The purpose of a final portfolio is to:A. Reduce workloadB. Showcase skillsC. Avoid assessmentD. Copy content
+Hands-on workshops help students:A. Memorize onlyB. Practice toolsC. Avoid writingD. Skip assignments
+Which tool helps manage references in digital writing?A. CalculatorB. ZoteroC. PaintD. Notepad
+Digital collaboration improves:A. IsolationB. TeamworkC. ErrorsD. Confusion
+Effective digital academic writing requires:A. Ignoring toolsB. Using outdated methodsC. Combining tools, collaboration, and evaluationD. Avoiding multimedia
+The changing landscape of academic writing is mainly influenced by:A. Traditional methods onlyB. Technological advancementsC. Handwritten assignmentsD. Oral traditions
+Digital tools have impacted academic writing by:A. Reducing access to informationB. Increasing collaboration and efficiencyC. Eliminating writing skillsD. Replacing academic writing
+
+Academic writing in higher education primarily supports:A. EntertainmentB. Learning and assessmentC. Social media useD. Personal journaling
+Technology in writing practices has led to:A. Decreased revisionB. Faster drafting and editingC. Less collaborationD. Less access to sources
+Online platforms in academic writing encourage:A. IsolationB. CollaborationC. MemorizationD. Avoidance of feedback
+A product-oriented approach focuses on:A. Writing processB. Final written outputC. BrainstormingD. Peer feedback
+
+A process-oriented approach emphasizes:A. Final gradesB. Steps like drafting and revisingC. MemorizationD. Copying
+Which is a stage in process writing?A. PrintingB. DraftingC. Publishing onlyD. Ignoring feedback
+The main strength of process-oriented writing is:A. Focus on final product onlyB. Encouraging revision and developmentC. Avoiding planningD. Reducing effort
+A limitation of product-oriented writing is:A. Too much revisionB. Ignoring writing processC. Too flexibleD. Too collaborative
+Genre-based writing instruction focuses on:A. Grammar onlyB. Specific text types and conventionsC. Random writingD. Memorization
+
+Examples of academic genres include:A. Persuasive writingB. SongsC. Advertisements onlyD. Stories only
+Genre-based approaches help students:A. Ignore structureB. Understand writing conventionsC. Avoid analysisD. Reduce clarity
+Learning genre involves:A. Ignoring audienceB. Understanding purpose and structureC. Copying textsD. Avoiding practice
+
+
+
+A toolkit approach to learning writing is:A. Fixed and rigidB. Flexible and adaptableC. Based on memorizationD. Limited to textbooks
+
+The toolkit approach includes:A. Only one methodB. Multiple tools and strategiesC. No resourcesD. Only lectures
+A key benefit of the toolkit approach is:A. RestrictionB. AdaptabilityC. UniformityD. Simplicity
+Learners using a toolkit approach:A. Follow one method onlyB. Combine various writing strategiesC. Avoid engagementD. Ignore feedback
+The primary purpose of academic writing is:A. EntertainmentB. Communication of ideas and knowledgeC. Personal expression onlyD. Social interaction
+
+Academic writing helps students:A. Memorize contentB. Develop critical thinkingC. Avoid analysisD. Copy information
+Writing in academia is used for:A. AssessmentB. LearningC. CommunicationD. All of the above
+Text-focused instruction emphasizes:A. Writing stepsB. Structure and features of textsC. BrainstormingD. Drafting only
+
+Process-focused instruction emphasizes:A. Final productB. Writing stagesC. Grammar onlyD. Memorization
+Text analysis helps students:A. Copy textsB. Understand structure and styleC. Avoid writingD. Reduce reading
+Combining text-focused and process-focused approaches leads to:A. ConfusionB. Balanced writing skillsC. Less learningD. Reduced outcomes
+Integrating approaches means:A. Using one method onlyB. Combining multiple writing methodsC. Avoiding strategiesD. Ignoring structure
+
+Practical application in writing involves:A. Theory onlyB. Real writing tasksC. MemorizationD. Only appearing for exams
+Process-oriented exercises include:A. Copying textB. Brainstorming, drafting, revisingC. Memorizing essaysD. Avoiding feedback
+Case studies in writing instruction help students:A. Avoid thinkingB. Analyse effectiveness of methodsC. Memorize answersD. Ignore practice
+Which of the following is a word processing tool?
+A. Photoshop
+B. MS Word
+C. VLC
+D. Chrome
+Which feature in MS Word helps track changes made by different users?
+A. Review
+B. Track Changes
+C. Insert
+D. Layout
+      121.Google Docs is primarily used for:
+           A. Video editing
+B. Online writing and editing
+C. Image creation
+D. Programming
+122. Which word processor is cloud-based?
+A. Notepad
+B. WordPad
+C. Google Docs
+D. LibreOffice Writer
+123. Which feature helps in correcting spelling mistakes?
+A. Spell Check
+B. Insert
+C. Design
+D. Animation
+124. LibreOffice Writer is an example of:
+A. Paid software
+B. Open-source word processor
+C. Browser
+D. Antivirus
+125. Which format is commonly used to save Word documents?
+A. .mp3
+B. .docx
+C. .jpg
+D. .mp4
+126. What is the use of “Find and Replace” feature?
+A. Insert images
+B. Replace text quickly
+C. Format text
+D. Save file
+127. Which tool allows offline document editing?
+A. MS Word
+B. Google Docs only
+C. Wikipedia
+D. Canva
+128. Headers and footers are used to:
+A. Insert images
+B. Add repeated information on pages
+C. Create tables
+D. Edit text
+129. Which is a reference management tool?
+A. Zotero
+B. Paint
+C. Excel
+D. WhatsApp
+130. Zotero helps in:
+A. Editing videos
+B. Managing references
+C. Creating slides
+D. Sending emails
+131. Which tool automatically generates citations?
+A. Grammarly
+B. Mendeley
+C. YouTube
+D. Canva
+132. Mendeley is used for:
+A. File sharing only
+B. Managing research papers
+C. Coding
+D. Gaming
+133. Which feature helps organize research sources?
+A. Folder management
+B. Animation
+C. Filters
+D. Themes
+134. Which format is commonly used for citations?
+A. MLA
+B. JPG
+C. MP3
+D. PNG
+135.EndNote is mainly used by:
+A. Gamers
+B. Researchers
+C. Designers
+D. Musicians
+136. Reference tools help avoid:
+A. Editing
+B. Plagiarism
+C. Typing
+D. Reading
+137.Bibliography means:
+A. Table of contents
+B. List of references
+C. Abstract
+D. Appendix
+138. Citation styles differ in:
+A. Color
+B. Structure and format
+C. Length
+D. Language
+139. Which is a research search engine?
+ A. Google Scholar
+B. Instagram
+C. WhatsApp
+D. VLC
+140. JSTOR is used for:
+A. Movies
+B. Academic articles
+C. Music
+D. Games
+141. Which platform provides scholarly articles?
+A. PubMed
+B. Facebook
+C. TikTok
+D. Snapchat
+142. What is the purpose of online databases?
+A. Entertainment
+B. Store academic content
+C. Messaging
+D. Gaming
+143. Which tool is best for academic search?
+A. Google Scholar
+B. Chrome
+C. Paint
+D. Notepad
+144.. What is a keyword in research?
+A. Password
+B. Important search term
+C. Heading
+D. File name
+145. Research tools help in:
+A. Playing games
+B. Finding reliable information
+C. Drawing
+D. Messaging
+146. Which is a digital library?
+A. JSTOR
+B. WhatsApp
+C. Telegram
+D. Zoom
+147. What is DOI used for?
+A. File storage
+B. Unique identification of articles
+C. Editing
+D. Printing
+148.  Which is NOT a research tool?
+A. PubMed
+B. Google Scholar
+C. Instagram
+D. JSTOR
+149. Grammarly is used for:
+A. Coding
+B. Grammar checking
+C. Designing
+D. Editing videos
+150. Hemingway Editor improves:
+A. Design
+B. Readability
+C. Sound
+D. Color
+151.Which tool helps in paraphrasing?
+A. QuillBot
+B. Excel
+C. Paint
+D. VLC
+152. Editing tools help to:
+A. Add music
+B. Improve writing quality
+C. Draw images
+D. Play videos
+153.Which feature corrects sentence structure?
+A. Grammar check
+B. Insert
+C. Layout
+D. Review
+154.What is proofreading?
+A. Writing fast
+B. Checking errors
+C. Printing
+D. Saving
+155.Which tool suggests synonyms?
+A. Thesaurus
+B. Calculator
+C. Paint
+D. Excel
+156.Which tool improves clarity of writing?
+A. Hemingway Editor
+B. Photoshop
+C. VLC
+D. Notepad
+157.Editing tools are useful for:
+A. Errors correction
+B. Drawing
+C. Gaming
+D. Coding
+158.Which is NOT a grammar tool?
+A. Grammarly
+B. QuillBot
+C. Turnitin
+D. Hemingway
+159. Turnitin is used for:
+A. Editing
+B. Detecting plagiarism
+C. Drawing
+D. Gaming
+160.Plagiarism means:
+A. Writing clearly
+B. Copying without credit
+C. Editing text
+D. Formatting
+161.Which is a plagiarism checker?
+A. Turnitin
+B. Canva
+C. Paint
+D. VLC
+162.Plagiarism tools compare text with:
+A. Images
+B. Online databases
+C. Videos
+D. Music
+163.Why is plagiarism wrong?
+A. It saves time
+B. It is unethical
+C. It improves writing
+D. It is easy
+164.Which tool provides similarity reports?
+A. Turnitin
+B. Excel
+C. Paint
+D. Notepad
+165.Which is another plagiarism tool?
+A. Copyscape
+B. Photoshop
+C. Chrome
+D. VLC
+166.Plagiarism detection helps in:
+A. Improving originality
+B. Drawing
+C. Editing images
+D. Coding
+167.What is similarity index?
+A. Grammar score
+B. Percentage of matched content
+C. Word count
+D. File size
+168.Which is NOT a plagiarism tool?
+A. Turnitin
+B. Copyscape
+C. Grammarly
+D. Urkund
+169.Google Docs allows:
+A. Offline only
+B. Collaborative writing
+C. Gaming
+D. Drawing
+170.Zoom is used for:
+A. Writing
+B. Video conferencing
+C. Editing
+D. Designing
+171.Microsoft Teams is used for:
+A. Communication
+B. Gaming
+C. Drawing
+D. Printing
+172.Collaboration tools help in:
+A. Working together
+B. Playing games
+C. Drawing
+D. Coding
+173.Which tool allows real-time editing?
+A. Google Docs
+B. Paint
+C. VLC
+D. Calculator
+174.Slack is used for:
+A. Messaging and teamwork
+B. Drawing
+C. Editing
+D. Gaming
+175.Collaboration tools improve:
+A. Isolation
+B. Teamwork
+C. Errors
+D. Confusion
+176.Which feature allows comments in documents?
+A. Comment tool
+B. Insert
+C. Design
+D. Layout
+177.Google Drive is used for:
+A. Storage and sharing
+B. Gaming
+C. Drawing
+D. Editing videos
+178.Which is NOT a collaboration tool?
+A. Zoom
+B. Google Docs
+C. Slack
+D. Paint

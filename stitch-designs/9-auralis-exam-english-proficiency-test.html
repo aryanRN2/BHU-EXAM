@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Auralis Exam | English Proficiency</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+        
+        body {
+            font-family: 'Geist', sans-serif;
+            background-color: #F7F7F5;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'wght' 300, 'opsz' 24;
+        }
+
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .orb-gradient {
+            background: radial-gradient(circle at 50% 50%, rgba(168, 85, 247, 0.1) 0%, rgba(59, 130, 246, 0.05) 50%, transparent 100%);
+        }
+
+        .option-card:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+        }
+
+        /* Custom scrollbar for question grid */
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #e2e2e2;
+            border-radius: 10px;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-secondary-fixed": "#1b1c1c",
+                      "surface-dim": "#dadada",
+                      "outline-variant": "#cfc4c5",
+                      "accent-neural-emerald": "#10B981",
+                      "surface-panel": "#F3F2EF",
+                      "secondary": "#5e5e5e",
+                      "primary-fixed": "#e2e2e2",
+                      "inverse-on-surface": "#f1f1f1",
+                      "secondary-fixed": "#e4e2e2",
+                      "inverse-primary": "#c6c6c6",
+                      "on-tertiary-fixed-variant": "#474747",
+                      "background-warm": "#F7F7F5",
+                      "on-primary-fixed": "#1b1b1b",
+                      "tertiary-container": "#1b1b1b",
+                      "on-secondary-container": "#626262",
+                      "accent-neural-purple": "#A855F7",
+                      "error-container": "#ffdad6",
+                      "surface": "#f9f9f9",
+                      "on-surface": "#1b1b1b",
+                      "on-secondary-fixed-variant": "#464747",
+                      "on-secondary": "#ffffff",
+                      "tertiary-fixed": "#e2e2e2",
+                      "surface-container-high": "#e8e8e8",
+                      "accent-neural-blue": "#3B82F6",
+                      "background": "#f9f9f9",
+                      "surface-container-low": "#f3f3f3",
+                      "on-error-container": "#93000a",
+                      "outline": "#7e7576",
+                      "primary-container": "#1b1b1b",
+                      "surface-bright": "#f9f9f9",
+                      "surface-container-highest": "#e2e2e2",
+                      "on-tertiary-fixed": "#1b1b1b",
+                      "surface-container": "#eeeeee",
+                      "on-background": "#1b1b1b",
+                      "secondary-container": "#e1dfdf",
+                      "surface-variant": "#e2e2e2",
+                      "surface-container-lowest": "#ffffff",
+                      "inverse-surface": "#303030",
+                      "error": "#ba1a1a",
+                      "on-primary": "#ffffff",
+                      "on-error": "#ffffff",
+                      "secondary-fixed-dim": "#c7c6c6",
+                      "on-primary-container": "#848484",
+                      "tertiary-fixed-dim": "#c6c6c6",
+                      "on-primary-fixed-variant": "#474747",
+                      "surface-card": "#FCFCFB",
+                      "tertiary": "#000000",
+                      "on-tertiary": "#ffffff",
+                      "primary-fixed-dim": "#c6c6c6",
+                      "primary": "#000000",
+                      "surface-tint": "#5e5e5e",
+                      "on-surface-variant": "#4c4546",
+                      "on-tertiary-container": "#848484",
+                      "border-subtle": "#E7E7E4"
+              },
+              "borderRadius": {
+                      "DEFAULT": "1rem",
+                      "lg": "2rem",
+                      "xl": "3rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "gutter": "32px",
+                      "unit": "8px",
+                      "container-max": "1280px",
+                      "section-gap-mobile": "80px",
+                      "section-gap-desktop": "180px",
+                      "padding-edge": "32px"
+              },
+              "fontFamily": {
+                      "caption": ["Geist"],
+                      "display-lg-mobile": ["Geist"],
+                      "headline-md": ["Geist"],
+                      "body-lg": ["Geist"],
+                      "body-md": ["Geist"],
+                      "headline-sm": ["Geist"],
+                      "headline-lg": ["Geist"],
+                      "display-lg": ["Geist"],
+                      "label-caps": ["Geist"]
+              },
+              "fontSize": {
+                      "caption": ["10px", {"lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                      "display-lg-mobile": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.03em", "fontWeight": "600"}],
+                      "headline-md": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                      "body-lg": ["18px", {"lineHeight": "1.6", "letterSpacing": "-0.01em", "fontWeight": "400"}],
+                      "body-md": ["16px", {"lineHeight": "1.5", "letterSpacing": "0", "fontWeight": "400"}],
+                      "headline-sm": ["32px", {"lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                      "headline-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.03em", "fontWeight": "600"}],
+                      "display-lg": ["84px", {"lineHeight": "1.05", "letterSpacing": "-0.04em", "fontWeight": "600"}],
+                      "label-caps": ["12px", {"lineHeight": "1", "letterSpacing": "0.1em", "fontWeight": "600"}]
+              }
+            },
+          },
+        }
+    </script>
+</head>
+<body class="bg-background-warm text-on-background min-h-screen flex flex-col overflow-hidden">
+<!-- TopNavBar Variant (Fixed Exam Header) -->
+<header class="bg-background-warm/80 backdrop-blur-xl border-b border-border-subtle h-20 w-full z-50 flex items-center px-padding-edge sticky top-0">
+<div class="flex justify-between items-center w-full max-w-container-max mx-auto">
+<div class="flex items-center gap-6">
+<span class="font-headline-sm text-headline-sm tracking-tighter text-primary">Auralis Exam</span>
+<div class="h-6 w-[1px] bg-border-subtle"></div>
+<div class="flex flex-col">
+<span class="font-caption text-caption text-secondary uppercase tracking-widest">Session ID</span>
+<span class="font-body-md text-body-md font-bold">ENG-04-AURALIS</span>
+</div>
+</div>
+<!-- Minimal Digital Timer & Progress -->
+<div class="flex items-center gap-10">
+<div class="flex flex-col items-end">
+<span class="font-caption text-caption text-secondary uppercase tracking-widest">Time Remaining</span>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">timer</span>
+<span class="font-headline-sm text-[24px] tracking-tight tabular-nums font-bold" id="timer">45:22</span>
+</div>
+</div>
+<div class="w-48">
+<div class="flex justify-between mb-2">
+<span class="font-caption text-caption text-secondary">PROGRESS</span>
+<span class="font-caption text-caption text-primary">60%</span>
+</div>
+<div class="h-1 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-primary w-[60%] transition-all duration-700 ease-out"></div>
+</div>
+</div>
+<button class="bg-primary text-on-primary px-6 py-2 rounded-full font-body-md font-bold hover:scale-95 transition-transform">
+                    Submit Exam
+                </button>
+</div>
+</div>
+</header>
+<div class="flex flex-1 overflow-hidden">
+<!-- SideNavBar Variant (Exam Status Rail) -->
+<aside class="bg-surface-panel/50 backdrop-blur-2xl border-r border-border-subtle w-80 h-full flex flex-col p-8 overflow-y-auto custom-scrollbar">
+<div class="mb-8">
+<div class="flex items-center gap-3 mb-2">
+<div class="w-2 h-2 rounded-full bg-accent-neural-emerald animate-pulse"></div>
+<span class="font-caption text-caption uppercase tracking-widest text-secondary">English Proficiency</span>
+</div>
+<h2 class="font-headline-sm text-[24px] text-primary">Module 4: Oral &amp; Grammar</h2>
+</div>
+<!-- Question Grid Legend -->
+<div class="flex gap-4 mb-6">
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-sm bg-primary"></div>
+<span class="text-[10px] font-bold text-secondary uppercase">Current</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-sm bg-surface-container-highest border border-border-subtle"></div>
+<span class="text-[10px] font-bold text-secondary uppercase">Done</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-sm bg-error"></div>
+<span class="text-[10px] font-bold text-secondary uppercase">Flag</span>
+</div>
+</div>
+<!-- Question Number Grid -->
+<div class="grid grid-cols-5 gap-2 mb-auto">
+<!-- Generated Questions -->
+<script>
+                    const statuses = ['completed', 'flagged', 'current', 'todo'];
+                    for(let i=1; i<=30; i++) {
+                        let statusClass = "bg-white border border-border-subtle text-secondary";
+                        let icon = "";
+                        
+                        if(i < 12) statusClass = "bg-surface-container-highest text-secondary opacity-60";
+                        if(i === 12) statusClass = "bg-primary text-on-primary font-bold shadow-lg ring-4 ring-primary/10 scale-105";
+                        if(i === 15) statusClass = "border-2 border-error text-error font-bold";
+                        
+                        document.write(`
+                            <button class="aspect-square flex items-center justify-center rounded-lg text-[12px] transition-all duration-200 hover:scale-105 ${statusClass}">
+                                ${i}
+                            </button>
+                        `);
+                    }
+                </script>
+</div>
+<!-- Footer Controls -->
+<div class="mt-8 pt-8 border-t border-border-subtle flex flex-col gap-4">
+<button class="flex items-center gap-3 text-secondary hover:text-primary transition-colors group">
+<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">help_outline</span>
+<span class="font-caption text-caption uppercase tracking-widest">Support Request</span>
+</button>
+<button class="flex items-center gap-3 text-secondary hover:text-error transition-colors group">
+<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">logout</span>
+<span class="font-caption text-caption uppercase tracking-widest">Exit Session</span>
+</button>
+</div>
+</aside>
+<!-- Main Workstation Layout -->
+<main class="flex-1 relative flex items-center justify-center p-padding-edge overflow-y-auto orb-gradient">
+<div class="w-full max-w-3xl z-10">
+<!-- Question Number Badge -->
+<div class="mb-8 flex justify-center">
+<span class="px-4 py-1 rounded-full bg-white/50 border border-white/20 font-caption text-caption text-primary uppercase tracking-[0.2em] shadow-sm">Question 12 of 30</span>
+</div>
+<!-- Glassy Central Container -->
+<div class="glass-panel p-12 rounded-lg shadow-sm">
+<!-- Question Prompt -->
+<div class="mb-10">
+<h3 class="font-headline-sm text-headline-sm text-primary mb-6 leading-tight">
+                            Identify the subtle grammatical nuance in the following excerpt from Virginia Woolf's <span class="italic">"To the Lighthouse"</span>:
+                        </h3>
+<p class="font-body-lg text-body-lg text-secondary border-l-4 border-primary/10 pl-6 py-2 italic">
+                            "So that was the nature of the sea, he thought, or the nature of his own soul?"
+                        </p>
+</div>
+<!-- Options Grid -->
+<div class="space-y-4">
+<!-- Option A -->
+<label class="option-card relative flex items-center p-6 bg-white border border-border-subtle rounded-lg cursor-pointer transition-all duration-300 group">
+<input class="hidden peer" name="exam-option" type="radio"/>
+<div class="w-6 h-6 rounded-full border-2 border-border-subtle peer-checked:border-primary peer-checked:bg-primary flex items-center justify-center transition-all mr-6">
+<div class="w-2 h-2 bg-white rounded-full scale-0 peer-checked:scale-100 transition-transform"></div>
+</div>
+<span class="font-body-md text-body-md text-secondary peer-checked:text-primary transition-colors">The use of free indirect discourse to blur the boundary between narrator and character.</span>
+<div class="absolute inset-0 border-2 border-transparent peer-checked:border-primary/20 rounded-lg pointer-events-none"></div>
+</label>
+<!-- Option B -->
+<label class="option-card relative flex items-center p-6 bg-white border border-border-subtle rounded-lg cursor-pointer transition-all duration-300 group">
+<input class="hidden peer" name="exam-option" type="radio"/>
+<div class="w-6 h-6 rounded-full border-2 border-border-subtle peer-checked:border-primary peer-checked:bg-primary flex items-center justify-center transition-all mr-6">
+<div class="w-2 h-2 bg-white rounded-full scale-0 peer-checked:scale-100 transition-transform"></div>
+</div>
+<span class="font-body-md text-body-md text-secondary peer-checked:text-primary transition-colors">A recursive interrogation of the semicolon's function in modern stream-of-consciousness.</span>
+<div class="absolute inset-0 border-2 border-transparent peer-checked:border-primary/20 rounded-lg pointer-events-none"></div>
+</label>
+<!-- Option C -->
+<label class="option-card relative flex items-center p-6 bg-white border border-border-subtle rounded-lg cursor-pointer transition-all duration-300 group">
+<input checked="" class="hidden peer" name="exam-option" type="radio"/>
+<div class="w-6 h-6 rounded-full border-2 border-border-subtle peer-checked:border-primary peer-checked:bg-primary flex items-center justify-center transition-all mr-6">
+<div class="w-2 h-2 bg-white rounded-full scale-0 peer-checked:scale-100 transition-transform"></div>
+</div>
+<span class="font-body-md text-body-md text-primary font-medium">The juxtaposition of external maritime metaphors with internal metaphysical inquiry.</span>
+<div class="absolute inset-0 border-2 border-primary/20 bg-primary/[0.02] rounded-lg pointer-events-none"></div>
+</label>
+<!-- Option D -->
+<label class="option-card relative flex items-center p-6 bg-white border border-border-subtle rounded-lg cursor-pointer transition-all duration-300 group">
+<input class="hidden peer" name="exam-option" type="radio"/>
+<div class="w-6 h-6 rounded-full border-2 border-border-subtle peer-checked:border-primary peer-checked:bg-primary flex items-center justify-center transition-all mr-6">
+<div class="w-2 h-2 bg-white rounded-full scale-0 peer-checked:scale-100 transition-transform"></div>
+</div>
+<span class="font-body-md text-body-md text-secondary peer-checked:text-primary transition-colors">Syntactic parallelism designed to emphasize the futility of human connection.</span>
+<div class="absolute inset-0 border-2 border-transparent peer-checked:border-primary/20 rounded-lg pointer-events-none"></div>
+</label>
+</div>
+<!-- Navigation Actions -->
+<div class="mt-12 flex justify-between items-center">
+<button class="flex items-center gap-2 px-6 py-3 rounded-full border border-border-subtle text-secondary font-body-md hover:bg-surface-panel transition-colors">
+<span class="material-symbols-outlined">arrow_back</span>
+                            Previous
+                        </button>
+<div class="flex gap-4">
+<button class="flex items-center gap-2 px-6 py-3 rounded-full border border-error/20 text-error font-body-md hover:bg-error/5 transition-colors">
+<span class="material-symbols-outlined">flag</span>
+                                Flag for Review
+                            </button>
+<button class="bg-primary text-on-primary px-8 py-3 rounded-full font-body-md font-bold hover:scale-105 transition-transform flex items-center gap-2">
+                                Save &amp; Next
+                                <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Footer Hint -->
+<div class="mt-8 flex justify-center gap-8">
+<div class="flex items-center gap-2 text-secondary opacity-60">
+<kbd class="px-2 py-1 bg-surface-container rounded-md text-[10px] font-bold">ALT + F</kbd>
+<span class="text-caption font-caption">Flag</span>
+</div>
+<div class="flex items-center gap-2 text-secondary opacity-60">
+<kbd class="px-2 py-1 bg-surface-container rounded-md text-[10px] font-bold">ENTER</kbd>
+<span class="text-caption font-caption">Next</span>
+</div>
+</div>
+</div>
+<!-- Background Decorative Element (Subtle Neural Orb) -->
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] pointer-events-none opacity-40">
+<div class="w-full h-full rounded-full blur-[120px] bg-gradient-to-tr from-accent-neural-blue/10 via-accent-neural-purple/5 to-transparent"></div>
+</div>
+</main>
+</div>
+<!-- Micro-interaction for Timer -->
+<script>
+        let time = 45 * 60 + 22;
+        const timerElement = document.getElementById('timer');
+
+        setInterval(() => {
+            time--;
+            const mins = Math.floor(time / 60);
+            const secs = time % 60;
+            timerElement.textContent = `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+            
+            if(time < 300) {
+                timerElement.classList.remove('text-primary');
+                timerElement.classList.add('text-error');
+            }
+        }, 1000);
+
+        // Simple Option Selection micro-interaction
+        document.querySelectorAll('input[type="radio"]').forEach(radio => {
+            radio.addEventListener('change', (e) => {
+                document.querySelectorAll('.option-card').forEach(card => {
+                    card.classList.remove('border-primary/20', 'bg-primary/[0.02]');
+                    card.querySelector('span').classList.remove('text-primary', 'font-medium');
+                    card.querySelector('span').classList.add('text-secondary');
+                });
+                
+                if(e.target.checked) {
+                    const label = e.target.closest('label');
+                    label.classList.add('border-primary/20', 'bg-primary/[0.02]');
+                    const span = label.querySelector('span');
+                    span.classList.remove('text-secondary');
+                    span.classList.add('text-primary', 'font-medium');
+                }
+            });
+        });
+    </script>
+</body></html>

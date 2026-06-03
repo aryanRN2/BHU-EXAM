@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100;300;400;600;800&display=swap');
+        
+        body {
+            font-family: 'Geist', sans-serif;
+            background-color: #F7F7F5;
+            color: #1b1b1b;
+        }
+
+        .glass-panel {
+            background: rgba(243, 242, 239, 0.5);
+            backdrop-filter: blur(20px);
+            border: 1px solid #E7E7E4;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(40px);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.03);
+        }
+
+        .density-wave {
+            background: radial-gradient(circle at center, #A855F7 0%, #3B82F6 50%, #10B981 100%);
+            filter: blur(60px);
+            opacity: 0.15;
+            z-index: -1;
+        }
+
+        @keyframes pulse-gentle {
+            0%, 100% { transform: scale(1); opacity: 0.8; }
+            50% { transform: scale(1.05); opacity: 1; }
+        }
+
+        .orb-glow {
+            animation: pulse-gentle 8s ease-in-out infinite;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-secondary-fixed": "#1b1c1c",
+                        "surface-dim": "#dadada",
+                        "outline-variant": "#cfc4c5",
+                        "accent-neural-emerald": "#10B981",
+                        "surface-panel": "#F3F2EF",
+                        "secondary": "#5e5e5e",
+                        "primary-fixed": "#e2e2e2",
+                        "inverse-on-surface": "#f1f1f1",
+                        "secondary-fixed": "#e4e2e2",
+                        "inverse-primary": "#c6c6c6",
+                        "on-tertiary-fixed-variant": "#474747",
+                        "background-warm": "#F7F7F5",
+                        "on-primary-fixed": "#1b1b1b",
+                        "tertiary-container": "#1b1b1b",
+                        "on-secondary-container": "#626262",
+                        "accent-neural-purple": "#A855F7",
+                        "error-container": "#ffdad6",
+                        "surface": "#f9f9f9",
+                        "on-surface": "#1b1b1b",
+                        "on-secondary-fixed-variant": "#464747",
+                        "on-secondary": "#ffffff",
+                        "tertiary-fixed": "#e2e2e2",
+                        "surface-container-high": "#e8e8e8",
+                        "accent-neural-blue": "#3B82F6",
+                        "background": "#f9f9f9",
+                        "surface-container-low": "#f3f3f3",
+                        "on-error-container": "#93000a",
+                        "outline": "#7e7576",
+                        "primary-container": "#1b1b1b",
+                        "surface-bright": "#f9f9f9",
+                        "surface-container-highest": "#e2e2e2",
+                        "on-tertiary-fixed": "#1b1b1b",
+                        "surface-container": "#eeeeee",
+                        "on-background": "#1b1b1b",
+                        "secondary-container": "#e1dfdf",
+                        "surface-variant": "#e2e2e2",
+                        "surface-container-lowest": "#ffffff",
+                        "inverse-surface": "#303030",
+                        "error": "#ba1a1a",
+                        "on-primary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "secondary-fixed-dim": "#c7c6c6",
+                        "on-primary-container": "#848484",
+                        "tertiary-fixed-dim": "#c6c6c6",
+                        "on-primary-fixed-variant": "#474747",
+                        "surface-card": "#FCFCFB",
+                        "tertiary": "#000000",
+                        "on-tertiary": "#ffffff",
+                        "primary-fixed-dim": "#c6c6c6",
+                        "primary": "#000000",
+                        "surface-tint": "#5e5e5e",
+                        "on-surface-variant": "#4c4546",
+                        "on-tertiary-container": "#848484",
+                        "border-subtle": "#E7E7E4"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "gutter": "32px",
+                        "unit": "8px",
+                        "container-max": "1280px",
+                        "section-gap-mobile": "80px",
+                        "section-gap-desktop": "180px",
+                        "padding-edge": "32px"
+                    },
+                    "fontFamily": {
+                        "caption": ["Geist"],
+                        "display-lg-mobile": ["Geist"],
+                        "headline-md": ["Geist"],
+                        "body-lg": ["Geist"],
+                        "body-md": ["Geist"],
+                        "headline-sm": ["Geist"],
+                        "headline-lg": ["Geist"],
+                        "display-lg": ["Geist"],
+                        "label-caps": ["Geist"]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background-warm min-h-screen flex flex-col antialiased">
+<!-- TopNavBar -->
+<nav class="bg-background-warm/80 backdrop-blur-xl border-b border-border-subtle shadow-sm fixed top-0 w-full z-50">
+<div class="flex justify-between items-center px-padding-edge h-20 w-full max-w-container-max mx-auto">
+<div class="flex items-center gap-12">
+<span class="font-headline-sm text-headline-sm tracking-tighter text-primary dark:text-on-primary">Auralis Exam</span>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-secondary font-medium hover:text-primary transition-colors duration-200" href="#">Dashboard</a>
+<a class="text-secondary font-medium hover:text-primary transition-colors duration-200" href="#">Library</a>
+<a class="text-primary font-bold border-b-2 border-primary pb-1" href="#">Analytics</a>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<button class="hidden md:block text-secondary font-body-md text-body-md hover:text-primary transition-colors duration-200">Support</button>
+<button class="bg-primary text-on-primary px-6 py-2.5 rounded-full font-body-md text-body-md hover:scale-105 transition-transform">New Exam</button>
+</div>
+</div>
+</nav>
+<div class="flex flex-1 pt-20">
+<!-- SideNavBar -->
+<aside class="hidden md:flex flex-col h-[calc(100vh-80px)] w-72 bg-surface-panel/50 backdrop-blur-2xl border-r border-border-subtle p-6 gap-unit sticky top-20">
+<div class="mb-8">
+<div class="flex items-center gap-3 mb-4">
+<div class="w-10 h-10 rounded-full bg-white/40 flex items-center justify-center border border-white/20">
+<span class="material-symbols-outlined text-primary" data-icon="audio_file">audio_file</span>
+</div>
+<div>
+<p class="font-bold text-primary">English Proficiency</p>
+<p class="font-caption text-caption text-secondary uppercase tracking-widest">Module 4: Oral</p>
+</div>
+</div>
+</div>
+<nav class="space-y-1">
+<a class="flex items-center gap-3 px-4 py-3 text-secondary hover:text-primary hover:bg-white/20 rounded-lg transition-all duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+<span class="font-caption text-caption uppercase tracking-widest">Overview</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-secondary hover:text-primary hover:bg-white/20 rounded-lg transition-all duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="quiz">quiz</span>
+<span class="font-caption text-caption uppercase tracking-widest">Questions</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-secondary hover:text-primary hover:bg-white/20 rounded-lg transition-all duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="audio_file">audio_file</span>
+<span class="font-caption text-caption uppercase tracking-widest">Media</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-secondary hover:text-primary hover:bg-white/20 rounded-lg transition-all duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+<span class="font-caption text-caption uppercase tracking-widest">Settings</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 bg-white/40 shadow-sm border border-white/20 text-primary font-semibold rounded-lg" href="#">
+<span class="material-symbols-outlined" data-icon="analytics">analytics</span>
+<span class="font-caption text-caption uppercase tracking-widest">Review</span>
+</a>
+</nav>
+<div class="mt-auto space-y-1 pt-6 border-t border-border-subtle">
+<a class="flex items-center gap-3 px-4 py-3 text-secondary hover:text-primary hover:bg-white/20 rounded-lg transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="help_outline">help_outline</span>
+<span class="font-caption text-caption uppercase tracking-widest">Help</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-error hover:bg-error-container/20 rounded-lg transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="logout">logout</span>
+<span class="font-caption text-caption uppercase tracking-widest">Exit</span>
+</a>
+</div>
+</aside>
+<!-- Main Content -->
+<main class="flex-1 max-w-container-max mx-auto w-full px-padding-edge py-12 relative">
+<!-- Background Density Waves -->
+<div class="absolute inset-0 overflow-hidden pointer-events-none">
+<div class="density-wave absolute top-20 right-[-10%] w-[600px] h-[600px] rounded-full"></div>
+<div class="density-wave absolute bottom-20 left-[-5%] w-[400px] h-[400px] rounded-full" style="background: radial-gradient(circle, #3B82F6 0%, transparent 70%);"></div>
+</div>
+<!-- Header Section -->
+<header class="mb-16 flex flex-col md:flex-row md:items-end justify-between gap-8">
+<div class="max-w-2xl">
+<div class="flex items-center gap-3 mb-4">
+<span class="w-2 h-2 rounded-full bg-accent-neural-emerald animate-pulse"></span>
+<span class="font-caption text-caption uppercase tracking-widest text-secondary">Final Analysis Complete</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-primary mb-4">Exceptional performance, Alex.</h1>
+<p class="font-body-lg text-body-lg text-secondary">Your neural audio comprehension has improved by 14% since the last module. Focus on rapid technical vocabulary in high-noise environments.</p>
+</div>
+<div class="flex gap-4">
+<button class="bg-white text-primary border border-border-subtle px-8 py-4 rounded-full font-body-md hover:scale-95 transition-transform flex items-center gap-2">
+<span class="material-symbols-outlined" data-icon="download">download</span>
+                        Export PDF
+                    </button>
+<button class="bg-primary text-on-primary px-8 py-4 rounded-full font-body-md hover:scale-95 transition-transform">Share Report</button>
+</div>
+</header>
+<!-- Results Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+<!-- Large Score Orb (6 Cols) -->
+<div class="md:col-span-7 aspect-square md:aspect-auto md:h-[600px] glass-card rounded-xl p-12 flex flex-col items-center justify-center relative overflow-hidden">
+<div class="orb-glow absolute inset-0 bg-gradient-to-tr from-accent-neural-purple/10 via-accent-neural-blue/10 to-accent-neural-emerald/10"></div>
+<div class="relative z-10 text-center">
+<div class="relative inline-block">
+<!-- Circular Progress Visual -->
+<svg class="w-64 h-64 md:w-80 md:h-80 transform -rotate-90">
+<circle cx="50%" cy="50%" fill="transparent" r="48%" stroke="#E7E7E4" stroke-width="4"></circle>
+<circle cx="50%" cy="50%" fill="transparent" r="48%" stroke="black" stroke-dasharray="290" stroke-dashoffset="20" stroke-linecap="round" stroke-width="6"></circle>
+</svg>
+<div class="absolute inset-0 flex flex-col items-center justify-center">
+<span class="font-display-lg text-display-lg text-primary">92<span class="text-headline-sm">%</span></span>
+<span class="font-caption text-caption text-secondary uppercase tracking-[0.2em] mt-2">Overall Score</span>
+</div>
+</div>
+</div>
+<div class="mt-12 w-full grid grid-cols-3 gap-8">
+<div class="text-center">
+<p class="font-headline-sm text-headline-sm text-primary">A+</p>
+<p class="font-caption text-caption text-secondary uppercase">Percentile</p>
+</div>
+<div class="text-center border-x border-border-subtle">
+<p class="font-headline-sm text-headline-sm text-primary">14/15</p>
+<p class="font-caption text-caption text-secondary uppercase">Correct</p>
+</div>
+<div class="text-center">
+<p class="font-headline-sm text-headline-sm text-primary">02:45</p>
+<p class="font-caption text-caption text-secondary uppercase">Total Time</p>
+</div>
+</div>
+</div>
+<!-- Right Rail Modules (5 Cols) -->
+<div class="md:col-span-5 flex flex-col gap-8">
+<!-- Time Per Question -->
+<div class="glass-card rounded-xl p-8">
+<div class="flex justify-between items-center mb-8">
+<h3 class="font-label-caps text-label-caps text-secondary">Efficiency Profile</h3>
+<span class="material-symbols-outlined text-secondary" data-icon="timer">timer</span>
+</div>
+<div class="space-y-6">
+<div class="flex justify-between items-end">
+<div>
+<p class="font-body-md text-body-md text-secondary">Avg. Response Time</p>
+<p class="font-headline-sm text-headline-sm text-primary">11.2s</p>
+</div>
+<div class="text-right">
+<p class="text-accent-neural-emerald font-bold font-body-md">-2.4s vs prev</p>
+</div>
+</div>
+<div class="h-12 flex items-end gap-1">
+<div class="bg-primary/10 w-full rounded-t-sm" style="height: 40%"></div>
+<div class="bg-primary/10 w-full rounded-t-sm" style="height: 60%"></div>
+<div class="bg-primary/10 w-full rounded-t-sm" style="height: 35%"></div>
+<div class="bg-primary w-full rounded-t-sm" style="height: 85%"></div>
+<div class="bg-primary/10 w-full rounded-t-sm" style="height: 50%"></div>
+<div class="bg-primary/10 w-full rounded-t-sm" style="height: 45%"></div>
+<div class="bg-primary/10 w-full rounded-t-sm" style="height: 70%"></div>
+</div>
+</div>
+</div>
+<!-- Topic Breakdown -->
+<div class="glass-card rounded-xl p-8">
+<h3 class="font-label-caps text-label-caps text-secondary mb-8">Skill Proficiency</h3>
+<div class="space-y-6">
+<div class="space-y-2">
+<div class="flex justify-between items-center font-body-md">
+<span>Grammar</span>
+<span class="font-bold">98%</span>
+</div>
+<div class="h-1.5 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-accent-neural-purple" style="width: 98%"></div>
+</div>
+</div>
+<div class="space-y-2">
+<div class="flex justify-between items-center font-body-md">
+<span>Vocabulary</span>
+<span class="font-bold">85%</span>
+</div>
+<div class="h-1.5 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-accent-neural-blue" style="width: 85%"></div>
+</div>
+</div>
+<div class="space-y-2">
+<div class="flex justify-between items-center font-body-md">
+<span>Comprehension</span>
+<span class="font-bold">94%</span>
+</div>
+<div class="h-1.5 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-accent-neural-emerald" style="width: 94%"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Improvement Areas -->
+<div class="bg-primary text-on-primary rounded-xl p-8 relative overflow-hidden group cursor-pointer">
+<div class="relative z-10">
+<h3 class="font-label-caps text-label-caps text-on-primary/60 mb-6">Growth Strategy</h3>
+<p class="font-body-lg text-body-lg mb-4">Focus on <span class="underline decoration-accent-neural-emerald underline-offset-4">Technical Nuance</span> in high-tempo audio tracks.</p>
+<div class="flex items-center gap-2 text-accent-neural-emerald font-bold">
+<span>Start Focused Drill</span>
+<span class="material-symbols-outlined transition-transform group-hover:translate-x-2" data-icon="arrow_forward">arrow_forward</span>
+</div>
+</div>
+<div class="absolute top-[-20px] right-[-20px] opacity-10">
+<span class="material-symbols-outlined text-[120px]" data-icon="psychology">psychology</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Detail Analysis Section -->
+<section class="mt-section-gap-desktop grid grid-cols-1 md:grid-cols-12 gap-8">
+<div class="md:col-span-4">
+<h2 class="font-headline-sm text-headline-sm text-primary mb-6">Historical Comparison</h2>
+<p class="font-body-md text-body-md text-secondary">Your neural response patterns indicate a shift towards intuitive processing, reducing the cognitive load required for secondary language interpretation.</p>
+</div>
+<div class="md:col-span-8 glass-card rounded-xl p-8 flex items-center justify-center min-h-[300px]">
+<div class="w-full h-full flex items-center justify-center border-2 border-dashed border-border-subtle rounded-lg bg-surface-panel/30">
+<img alt="Data Visualization Chart" class="w-full h-full object-cover mix-blend-multiply opacity-50 grayscale" data-alt="A sophisticated data visualization dashboard showing multiple overlapping frequency waves and bar charts in a minimalist architectural style. The palette is dominated by soft whites and cool grays with subtle neon accents. The lighting is bright and airy, suggesting a high-tech laboratory or financial center. The overall mood is clinical, analytical, and futuristic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDuUoCQJPxlT-5zFkeFrmISdagBGBwdyGRVjWVDJxWXAsnx7e05CNAYXvLcL49YAQ6_Y4QA8BUA1k9N1uGwUTXnWtBGXbJcbUgm-Bwiyb6EXxX1ylWfow1oPGnfqgDvlTvOxdSpU51iebCZwkABBBpvDt2iZd2QESnItDD1h8BqZiyGnGHSlDNv71q7k4Dt71nUWOIIXv5cvH99nfcj4plblv3or6vdw0oWBTBjDm9Lqi2EUUPP_VcFeAAInkk9aVKQeGFcDGHE6Ci6"/>
+</div>
+</div>
+</section>
+</main>
+</div>
+<!-- Footer -->
+<footer class="bg-background-warm border-t border-border-subtle py-12 mt-auto">
+<div class="max-w-container-max mx-auto px-padding-edge flex flex-col md:flex-row justify-between items-center gap-8">
+<div>
+<span class="font-label-caps text-label-caps text-primary mb-2 block">Auralis Neural Systems</span>
+<p class="font-caption text-caption text-secondary">© 2024 Auralis Neural Systems. All rights reserved.</p>
+</div>
+<div class="flex gap-8">
+<a class="font-caption text-caption text-secondary hover:text-primary underline transition-opacity duration-200" href="#">Privacy Policy</a>
+<a class="font-caption text-caption text-secondary hover:text-primary underline transition-opacity duration-200" href="#">Terms of Service</a>
+<a class="font-caption text-caption text-secondary hover:text-primary underline transition-opacity duration-200" href="#">API Documentation</a>
+</div>
+</div>
+</footer>
+<!-- Interactive Layer -->
+<script>
+        // Simple scale interaction for modules
+        document.querySelectorAll('.glass-card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-4px)';
+                card.style.transition = 'transform 0.4s cubic-bezier(0.2, 0, 0, 1)';
+            });
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(0px)';
+            });
+        });
+    </script>
+</body></html>

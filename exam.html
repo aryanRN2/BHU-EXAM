@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Mock Workstation | BHU Exam Prep</title>
+    <!-- Tailwind CSS with Forms and Container Queries -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <!-- Link external custom styles -->
+    <link rel="stylesheet" href="styles.css"/>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "on-secondary-fixed": "#1b1c1c",
+                        "surface-dim": "#dadada",
+                        "outline-variant": "#cfc4c5",
+                        "accent-neural-emerald": "#10B981",
+                        "surface-panel": "#F3F2EF",
+                        "secondary": "#5e5e5e",
+                        "primary-fixed": "#e2e2e2",
+                        "inverse-on-surface": "#f1f1f1",
+                        "secondary-fixed": "#e4e2e2",
+                        "inverse-primary": "#c6c6c6",
+                        "on-tertiary-fixed-variant": "#474747",
+                        "background-warm": "#F7F7F5",
+                        "on-primary-fixed": "#1b1b1b",
+                        "tertiary-container": "#1b1b1b",
+                        "on-secondary-container": "#626262",
+                        "accent-neural-purple": "#A855F7",
+                        "accent-bhu-saffron": "#F57C00",
+                        "error-container": "#ffdad6",
+                        "surface": "#f9f9f9",
+                        "on-surface": "#1b1b1b",
+                        "on-secondary-fixed-variant": "#464747",
+                        "on-secondary": "#ffffff",
+                        "tertiary-fixed": "#e2e2e2",
+                        "surface-container-high": "#e8e8e8",
+                        "accent-neural-blue": "#3B82F6",
+                        "background": "#f9f9f9",
+                        "surface-container-low": "#f3f3f3",
+                        "on-error-container": "#93000a",
+                        "outline": "#7e7576",
+                        "primary-container": "#1b1b1b",
+                        "surface-bright": "#f9f9f9",
+                        "surface-container-highest": "#e2e2e2",
+                        "on-tertiary-fixed": "#1b1b1b",
+                        "surface-container": "#eeeeee",
+                        "on-background": "#1b1b1b",
+                        "secondary-container": "#e1dfdf",
+                        "surface-variant": "#e2e2e2",
+                        "surface-container-lowest": "#ffffff",
+                        "inverse-surface": "#303030",
+                        "error": "#ba1a1a",
+                        "on-primary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "secondary-fixed-dim": "#c7c6c6",
+                        "on-primary-container": "#848484",
+                        "tertiary-fixed-dim": "#c6c6c6",
+                        "on-primary-fixed-variant": "#474747",
+                        "surface-card": "#FCFCFB",
+                        "tertiary": "#000000",
+                        "on-tertiary": "#ffffff",
+                        "primary-fixed-dim": "#c6c6c6",
+                        "primary": "#000000",
+                        "surface-tint": "#5e5e5e",
+                        "on-surface-variant": "#4c4546",
+                        "on-tertiary-container": "#848484",
+                        "border-subtle": "#E7E7E4"
+                    },
+                    borderRadius: {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                    spacing: {
+                        "gutter": "32px",
+                        "unit": "8px",
+                        "container-max": "1280px",
+                        "section-gap-mobile": "80px",
+                        "section-gap-desktop": "180px",
+                        "padding-edge": "32px"
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background-warm text-on-background min-h-screen flex flex-col overflow-hidden select-none">
+
+<!-- Header / Status Bar -->
+<header class="bg-background-warm/80 backdrop-blur-xl border-b border-border-subtle h-20 w-full z-50 flex items-center px-4 sm:px-padding-edge fixed top-0 left-0 right-0 flex-shrink-0">
+    <div class="flex justify-between items-center w-full max-w-container-max mx-auto">
+        <div class="flex items-center gap-2 sm:gap-3">
+            <button onclick="confirmExit()" class="w-10 h-10 rounded-full border border-border-subtle hover:bg-surface-panel transition-all flex items-center justify-center text-secondary hover:text-primary shrink-0" title="Back to Dashboard">
+                <span class="material-symbols-outlined text-lg">arrow_back</span>
+            </button>
+            <button onclick="toggleGridSidebar()" class="lg:hidden w-10 h-10 rounded-full border border-border-subtle hover:bg-surface-panel transition-all flex items-center justify-center text-secondary hover:text-primary shrink-0" title="Question Grid">
+                <span class="material-symbols-outlined text-lg">grid_on</span>
+            </button>
+            <img src="images/logo.png" alt="BHU Logo" class="h-6 sm:h-8 w-auto shrink-0"/>
+            <span class="text-xs sm:text-base font-bold tracking-tighter text-primary truncate max-w-[80px] sm:max-w-none">BHU Exam Prep</span>
+            <div class="h-6 w-[1px] bg-border-subtle hidden sm:block"></div>
+            <div class="hidden sm:flex flex-col">
+                <span class="text-[9px] font-bold text-secondary uppercase tracking-widest leading-none">Session Code</span>
+                <span class="text-sm font-bold mt-0.5" id="sessionCodeSpan">ENG-AEC-4</span>
+            </div>
+        </div>
+        
+        <div class="flex items-center gap-8">
+            <div class="flex flex-col items-end">
+                <span class="text-[9px] font-bold text-secondary uppercase tracking-widest leading-none">Time Remaining</span>
+                <div class="flex items-center gap-1.5 mt-0.5">
+                    <span class="material-symbols-outlined text-primary text-[18px]">timer</span>
+                    <span class="text-xl tracking-tight font-bold font-mono" id="timer">45:00</span>
+                </div>
+            </div>
+            <div class="w-40 hidden sm:block">
+                <div class="flex justify-between mb-1">
+                    <span class="text-[9px] font-bold text-secondary uppercase tracking-widest">Progress</span>
+                    <span class="text-[9px] font-bold text-primary" id="progressPercentSpan">0%</span>
+                </div>
+                <div class="h-1.5 w-full bg-surface-container rounded-full overflow-hidden">
+                    <div class="h-full bg-primary w-[0%]" id="progressBar"></div>
+                </div>
+            </div>
+            <button onclick="confirmSubmit()" class="bg-primary text-on-primary px-6 py-2 rounded-full text-xs font-bold hover:scale-[1.02] active:scale-95 transition-all shadow-md">
+                Submit Exam
+            </button>
+        </div>
+    </div>
+</header>
+
+<div class="flex pt-20 h-screen w-full overflow-hidden relative">
+    <!-- Sidebar Backdrop Overlay -->
+    <div id="sidebarBackdrop" class="fixed inset-0 bg-black/20 backdrop-blur-xs z-30 hidden transition-opacity duration-300 opacity-0" onclick="toggleGridSidebar()"></div>
+    
+    <!-- SideNavBar (Question Grid Drawer) -->
+    <aside id="proctorSidebar" class="bg-surface-panel/50 backdrop-blur-2xl border-r border-border-subtle w-80 fixed top-20 bottom-0 left-0 z-40 transform -translate-x-full transition-transform duration-300 lg:translate-x-0 lg:relative lg:top-0 lg:h-full lg:flex flex flex-col p-6 justify-between flex-shrink-0">
+        <div class="flex flex-col gap-6 overflow-hidden flex-1">
+            <div class="flex justify-between items-start">
+                <div>
+                    <div class="flex items-center gap-2 mb-1.5">
+                        <div class="w-2 h-2 rounded-full bg-accent-neural-emerald animate-pulse"></div>
+                        <span class="text-[10px] font-bold uppercase tracking-widest text-secondary" id="examSubjectTitle">Subject</span>
+                    </div>
+                    <h2 class="text-lg font-bold text-primary leading-tight line-clamp-2" id="examModuleTitle">Module</h2>
+                </div>
+                <button onclick="toggleGridSidebar()" class="lg:hidden w-8 h-8 rounded-full border border-border-subtle hover:bg-surface-panel transition-all flex items-center justify-center text-secondary hover:text-primary">
+                    <span class="material-symbols-outlined text-lg">close</span>
+                </button>
+            </div>
+            
+            <!-- Question Grid Legend -->
+            <div class="flex justify-between border-b border-border-subtle pb-4 text-[9px] font-bold text-secondary uppercase tracking-wider">
+                <div class="flex items-center gap-1.5">
+                    <div class="w-2.5 h-2.5 rounded-sm bg-primary"></div>
+                    <span>Active</span>
+                </div>
+                <div class="flex items-center gap-1.5">
+                    <div class="w-2.5 h-2.5 rounded-sm bg-surface-container-highest opacity-70"></div>
+                    <span>Answered</span>
+                </div>
+                <div class="flex items-center gap-1.5">
+                    <div class="w-2.5 h-2.5 rounded-sm border border-error"></div>
+                    <span>Flagged</span>
+                </div>
+            </div>
+            
+            <!-- Scrollable Grid Container -->
+            <div class="flex-1 overflow-y-auto custom-scrollbar pr-1">
+                <div class="grid grid-cols-5 gap-2" id="questionGridContainer">
+                    <!-- Buttons generated dynamically -->
+                </div>
+            </div>
+        </div>
+        
+        <div class="mt-6 pt-6 border-t border-border-subtle flex flex-col gap-3 text-xs flex-shrink-0">
+            <button onclick="alert('Help request sent to proctor. Remain seated.')" class="flex items-center gap-3 text-secondary hover:text-primary transition-colors group text-left">
+                <span class="material-symbols-outlined group-hover:translate-x-0.5 transition-transform text-lg">help_outline</span>
+                <span class="text-[10px] font-bold uppercase tracking-widest">Support Request</span>
+            </button>
+            <button onclick="confirmExit()" class="flex items-center gap-3 text-secondary hover:text-error transition-colors group text-left">
+                <span class="material-symbols-outlined group-hover:translate-x-0.5 transition-transform text-lg">logout</span>
+                <span class="text-[10px] font-bold uppercase tracking-widest">Suspend Session</span>
+            </button>
+        </div>
+    </aside>
+
+    <!-- Main Workstation Layout -->
+    <main class="flex-1 relative flex items-center justify-center p-4 sm:p-padding-edge overflow-y-auto orb-gradient">
+        <div class="w-full max-w-3xl z-10 py-4 sm:py-6">
+            <!-- Question Number Badge -->
+            <div class="mb-4 sm:mb-6 flex justify-center">
+                <span class="px-4 py-1.5 rounded-full bg-white/50 border border-white/20 text-[10px] sm:text-xs font-bold text-primary uppercase tracking-[0.2em] shadow-sm" id="questionBadge">Question 1 of 30</span>
+            </div>
+            
+            <!-- Glassy Central Container -->
+            <div class="glass-panel p-5 sm:p-10 rounded-lg shadow-sm border border-border-subtle">
+                <!-- Question Prompt -->
+                <div class="mb-8">
+                    <h3 class="text-2xl font-semibold text-primary mb-4 leading-snug" id="questionText">
+                        Question Text
+                    </h3>
+                </div>
+                
+                <!-- Options list -->
+                <div class="space-y-3" id="optionsContainer">
+                    <!-- Dynamic rendering of options -->
+                </div>
+                
+                <!-- AI & Helper Toolbelt -->
+                <div class="mt-6 flex flex-wrap gap-3 border-t border-border-subtle/30 pt-6">
+                    <button onclick="revealActiveAnswer()" class="flex items-center gap-2 px-4 py-2.5 rounded-full border border-primary/10 bg-white hover:bg-surface-panel transition-all active:scale-95 text-xs font-bold text-primary shadow-sm">
+                        <span class="material-symbols-outlined text-sm">visibility</span>
+                        Reveal Answer
+                    </button>
+                    <button onclick="explainActiveQuestionWithAI()" class="flex items-center gap-2 px-4 py-2.5 rounded-full bg-primary text-on-primary hover:bg-neutral-800 transition-all active:scale-95 text-xs font-bold shadow-sm">
+                        <span class="material-symbols-outlined text-sm">auto_awesome</span>
+                        AI Explain
+                    </button>
+                </div>
+                
+                <!-- Navigation Actions -->
+                <div class="mt-8 flex justify-between items-center border-t border-border-subtle/40 pt-6">
+                    <button id="prevBtn" onclick="prevQuestion()" class="flex items-center gap-1 sm:gap-2 px-3 py-2 sm:px-6 sm:py-3 rounded-full border border-border-subtle text-secondary font-semibold text-xs sm:text-sm hover:bg-surface-panel transition-all disabled:opacity-40 disabled:pointer-events-none active:scale-95">
+                        <span class="material-symbols-outlined text-base sm:text-lg">arrow_back</span>
+                        Previous
+                    </button>
+                    
+                    <div class="flex gap-2 sm:gap-3">
+                        <button onclick="toggleFlag()" class="flex items-center gap-1.5 sm:gap-2 px-3 py-2 sm:px-6 sm:py-3 rounded-full border border-error/20 text-error font-semibold text-xs sm:text-sm hover:bg-error/5 transition-all active:scale-95">
+                            <span class="material-symbols-outlined text-base sm:text-lg" id="flagIcon">flag</span>
+                            <span id="flagText" class="hidden sm:inline">Flag for Review</span>
+                            <span class="sm:hidden">Flag</span>
+                        </button>
+                        <button id="nextBtn" onclick="nextQuestion()" class="bg-primary text-on-primary px-4 py-2 sm:px-8 sm:py-3 rounded-full font-bold text-xs sm:text-sm hover:scale-[1.02] active:scale-95 transition-all flex items-center gap-1.5 sm:gap-2 shadow-md hover:bg-neutral-800">
+                            <span id="nextBtnText">Save &amp; Next</span>
+                            <span class="material-symbols-outlined text-base sm:text-lg">arrow_forward</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Keyboard Hints -->
+            <div class="mt-6 flex justify-center gap-8 text-xs text-secondary opacity-50">
+                <div class="flex items-center gap-1.5">
+                    <kbd class="px-2 py-0.5 bg-surface-container rounded font-bold text-[10px]">ALT + F</kbd>
+                    <span>Flag</span>
+                </div>
+                <div class="flex items-center gap-1.5">
+                    <kbd class="px-2 py-0.5 bg-surface-container rounded font-bold text-[10px]">ENTER</kbd>
+                    <span>Save &amp; Next</span>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<!-- Submit Confirmation Modal -->
+<div id="submitModal" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/40 backdrop-blur-md opacity-0 transition-opacity duration-300">
+    <div class="bg-white rounded-2xl w-full max-w-md p-8 shadow-2xl relative border border-border-subtle transform scale-95 transition-transform duration-300">
+        <h3 class="text-xl font-bold text-primary mb-3">Submit Mock Exam?</h3>
+        <p class="text-sm text-secondary mb-6 leading-relaxed" id="submitModalDesc">Are you sure you want to finish and submit your exam? You will receive an immediate diagnostic analysis.</p>
+        <div class="flex gap-4">
+            <button onclick="closeSubmitModal()" class="w-1/2 border border-border-subtle py-3 rounded-full font-semibold text-sm hover:bg-background-warm active:scale-95 transition-all">
+                Cancel
+            </button>
+            <button onclick="submitExam()" class="w-1/2 bg-accent-bhu-saffron text-white py-3 rounded-full font-bold text-sm hover:bg-orange-600 active:scale-95 transition-all shadow-md">
+                Confirm Submit
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- AI Explanation Slide-over Drawer -->
+<div id="aiDrawer" class="fixed top-0 right-0 bottom-0 z-50 w-full sm:w-[480px] bg-white/95 backdrop-blur-2xl border-l border-border-subtle shadow-2xl translate-x-full transition-transform duration-300 flex flex-col justify-between">
+    <div class="p-6 md:p-8 overflow-y-auto flex-grow flex flex-col gap-6 custom-scrollbar">
+        <div class="flex justify-between items-center border-b border-border-subtle pb-6 flex-shrink-0">
+            <div class="flex items-center gap-2.5">
+                <div class="w-8 h-8 rounded-lg bg-primary text-white flex items-center justify-center shrink-0">
+                    <span class="material-symbols-outlined text-[18px]">auto_awesome</span>
+                </div>
+                <div>
+                    <h3 class="font-bold text-primary text-sm sm:text-base">AI Diagnostic Tutor</h3>
+                    <p class="text-[9px] font-bold text-secondary uppercase tracking-widest mt-0.5">Syllabus Rationale</p>
+                </div>
+            </div>
+            <button onclick="closeAIDrawer()" class="w-8 h-8 rounded-full border border-border-subtle hover:bg-surface-panel transition-all active:scale-95 flex items-center justify-center text-secondary hover:text-primary animate-pulse">
+                <span class="material-symbols-outlined text-lg">close</span>
+            </button>
+        </div>
+        
+        <div class="flex-grow space-y-6 pt-4 text-sm" id="aiDrawerContent">
+            <!-- Loading or generated text -->
+        </div>
+    </div>
+    
+    <div class="p-6 bg-surface-panel/40 border-t border-border-subtle flex flex-col gap-2.5 text-xs text-secondary flex-shrink-0">
+        <div class="flex gap-2 items-center">
+            <span class="material-symbols-outlined text-base">verified</span>
+            <strong>Academic Integrity Rationale</strong>
+        </div>
+        <p class="leading-relaxed">This feedback is structured from official BHU syllabus criteria including citation guidelines and peer-reviewed style frameworks.</p>
+    </div>
+</div>
+
+<script type="module">
+    import { StateManager } from './js/state-manager.js';
+    import { EXAMS } from './js/exams-data.js';
+
+    // 1. Guard Session and State
+    const user = StateManager.getCurrentUser();
+    let examState = StateManager.getActiveExam();
+    if (!user) {
+        window.location.href = 'index.html';
+    }
+    if (!examState) {
+        window.location.href = 'dashboard.html';
+    }
+
+    const examData = EXAMS[examState.examId];
+    const questions = examData.questions;
+    let revealedQuestions = {};
+
+    // Set Subject Labels
+    document.getElementById('examSubjectTitle').textContent = examData.title;
+    document.getElementById('examModuleTitle').textContent = examData.module;
+    
+    // Generate mock Session Code
+    const cleanName = user.name.replace(/\s+/g, '').slice(0,4).toUpperCase();
+    document.getElementById('sessionCodeSpan').textContent = `${examState.examId.toUpperCase()}-${cleanName}`;
+
+    // 2. Setup Timer Countdown Loop
+    let countdownInterval = setInterval(() => {
+        examState = StateManager.getActiveExam();
+        if (!examState) {
+            clearInterval(countdownInterval);
+            return;
+        }
+
+        let timeRemaining = examState.timeRemaining - 1;
+        if (timeRemaining <= 0) {
+            clearInterval(countdownInterval);
+            autoSubmit();
+            return;
+        }
+
+        // Save progress back to storage
+        StateManager.updateActiveExam({ timeRemaining });
+        updateTimerUI(timeRemaining);
+    }, 1000);
+
+    function updateTimerUI(seconds) {
+        const mins = Math.floor(seconds / 60);
+        const secs = seconds % 60;
+        const timerElement = document.getElementById('timer');
+        timerElement.textContent = `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+        
+        if (seconds < 300) { // < 5 minutes left
+            timerElement.classList.remove('text-primary');
+            timerElement.classList.add('text-error', 'animate-pulse');
+        }
+    }
+    
+    // Initialize UI on load
+    updateTimerUI(examState.timeRemaining);
+
+    // 3. Question Render Engine
+    window.renderQuestion = function(index) {
+        examState = StateManager.getActiveExam();
+        examState.currentQuestionIndex = index;
+        StateManager.updateActiveExam({ currentQuestionIndex: index });
+
+        const q = questions[index];
+        
+        // Update badge and text
+        document.getElementById('questionBadge').textContent = `Question ${index + 1} of ${questions.length}`;
+        document.getElementById('questionText').textContent = q.question;
+
+        // Render options list
+        const container = document.getElementById('optionsContainer');
+        container.innerHTML = '';
+        
+        const optionKeys = ['A', 'B', 'C', 'D'];
+        const savedAnswer = examState.answers[q.id];
+        const isRevealed = !!revealedQuestions[q.id];
+
+        q.options.forEach((optText, i) => {
+            const letter = optionKeys[i];
+            const isChecked = savedAnswer === letter;
+            const isCorrectOption = q.answer === letter;
+            
+            let cardClass = isChecked 
+                ? 'border-primary/20 bg-primary/[0.02] shadow-sm'
+                : 'border-border-subtle bg-white';
+                
+            let circleClass = isChecked
+                ? 'border-primary bg-primary'
+                : 'border-border-subtle bg-white';
+
+            let circleFillClass = isChecked ? 'scale-100' : 'scale-0';
+            let spanClass = isChecked ? 'text-primary font-semibold' : 'text-secondary';
+
+            // Override styling if revealed
+            if (isRevealed) {
+                if (isCorrectOption) {
+                    cardClass = 'border-accent-neural-emerald/30 bg-accent-neural-emerald/[0.03] shadow-sm ring-2 ring-accent-neural-emerald/10';
+                    circleClass = 'border-accent-neural-emerald bg-accent-neural-emerald';
+                    circleFillClass = 'scale-100';
+                    spanClass = 'text-accent-neural-emerald font-semibold';
+                } else if (isChecked) {
+                    cardClass = 'border-error/30 bg-error/[0.03] shadow-sm ring-2 ring-error/10';
+                    circleClass = 'border-error bg-error';
+                    circleFillClass = 'scale-100';
+                    spanClass = 'text-error font-semibold';
+                }
+            }
+
+            const optMarkup = `
+                <label onclick="${isRevealed ? '' : `selectOption('${q.id}', '${letter}')`}" class="option-card relative flex items-center p-5 border rounded-lg cursor-pointer transition-all duration-300 group ${cardClass}">
+                    <div class="w-5 h-5 rounded-full border-2 flex items-center justify-center transition-all mr-5 shrink-0 ${circleClass}">
+                        <div class="w-1.5 h-1.5 bg-white rounded-full transition-transform ${circleFillClass}"></div>
+                    </div>
+                    <span class="text-sm font-medium transition-colors ${spanClass}">${letter}. ${optText}</span>
+                </label>
+            `;
+            container.insertAdjacentHTML('beforeend', optMarkup);
+        });
+
+        // Toggle Flag Button UI
+        const isFlagged = examState.flagged[q.id];
+        const flagIcon = document.getElementById('flagIcon');
+        if (isFlagged) {
+            flagIcon.classList.add('fill');
+            const flagText = document.getElementById('flagText');
+            if (flagText.classList.contains('hidden')) {
+                flagText.nextElementSibling.textContent = 'Flagged';
+            } else {
+                flagText.textContent = 'Flagged';
+            }
+        } else {
+            flagIcon.classList.remove('fill');
+            const flagText = document.getElementById('flagText');
+            if (flagText.classList.contains('hidden')) {
+                flagText.nextElementSibling.textContent = 'Flag';
+            } else {
+                flagText.textContent = 'Flag for Review';
+            }
+        }
+
+        // Toggle Nav Buttons
+        document.getElementById('prevBtn').disabled = (index === 0);
+        
+        const nextBtnText = document.getElementById('nextBtnText');
+        if (index === questions.length - 1) {
+            nextBtnText.textContent = 'Finish & Submit';
+        } else {
+            nextBtnText.textContent = 'Save & Next';
+        }
+
+        // Close grid sidebar on mobile/tablet after selection
+        const sidebar = document.getElementById('proctorSidebar');
+        if (sidebar && window.innerWidth < 1024) {
+            sidebar.classList.add('-translate-x-full');
+            const backdrop = document.getElementById('sidebarBackdrop');
+            if (backdrop) {
+                backdrop.classList.add('opacity-0');
+                setTimeout(() => backdrop.classList.add('hidden'), 300);
+            }
+        }
+
+        // Re-render sidebar grid highlight states
+        renderQuestionGrid();
+        updateProgressUI();
+    };
+
+    // Answer Selection Action
+    window.selectOption = function(qId, letter) {
+        examState = StateManager.getActiveExam();
+        examState.answers[qId] = letter;
+        StateManager.updateActiveExam({ answers: examState.answers });
+        
+        // Dynamic UI update without full reload
+        renderQuestion(examState.currentQuestionIndex);
+    };
+
+    // Flag Action
+    window.toggleFlag = function() {
+        examState = StateManager.getActiveExam();
+        const qId = questions[examState.currentQuestionIndex].id;
+        const currentFlag = !!examState.flagged[qId];
+        examState.flagged[qId] = !currentFlag;
+        
+        StateManager.updateActiveExam({ flagged: examState.flagged });
+        renderQuestion(examState.currentQuestionIndex);
+    };
+
+    // Sidebar grid creation
+    function renderQuestionGrid() {
+        const container = document.getElementById('questionGridContainer');
+        container.innerHTML = '';
+        
+        questions.forEach((q, i) => {
+            const isCurrent = (i === examState.currentQuestionIndex);
+            const isAnswered = !!examState.answers[q.id];
+            const isFlagged = !!examState.flagged[q.id];
+
+            let btnClass = 'bg-white border border-border-subtle text-secondary';
+            
+            if (isAnswered) {
+                btnClass = 'bg-surface-container-highest text-secondary opacity-70';
+            }
+            if (isFlagged) {
+                btnClass = 'border-2 border-error text-error font-bold';
+            }
+            if (isCurrent) {
+                btnClass = 'bg-primary text-on-primary font-bold shadow-lg ring-4 ring-primary/10 scale-105 border-primary';
+            }
+
+            const btnMarkup = `
+                <button onclick="renderQuestion(${i})" class="aspect-square flex items-center justify-center rounded-lg text-xs transition-all duration-200 hover:scale-105 font-mono ${btnClass}">
+                    ${i + 1}
+                </button>
+            `;
+            container.insertAdjacentHTML('beforeend', btnMarkup);
+        });
+    }
+
+    // Progress bar updates
+    function updateProgressUI() {
+        const total = questions.length;
+        const answeredCount = Object.keys(examState.answers).length;
+        const percent = Math.round((answeredCount / total) * 100);
+        
+        document.getElementById('progressPercentSpan').textContent = `${percent}%`;
+        document.getElementById('progressBar').style.width = `${percent}%`;
+    }
+
+    // Navigation triggers
+    window.nextQuestion = function() {
+        if (examState.currentQuestionIndex < questions.length - 1) {
+            renderQuestion(examState.currentQuestionIndex + 1);
+        } else {
+            confirmSubmit();
+        }
+    };
+
+    window.prevQuestion = function() {
+        if (examState.currentQuestionIndex > 0) {
+            renderQuestion(examState.currentQuestionIndex - 1);
+        }
+    };
+
+    // Hotkey triggers
+    document.addEventListener('keydown', (e) => {
+        // Alt + F toggles flag
+        if (e.altKey && e.key.toLowerCase() === 'f') {
+            e.preventDefault();
+            toggleFlag();
+        }
+        // Alt + E triggers AI Explain
+        if (e.altKey && e.key.toLowerCase() === 'e') {
+            e.preventDefault();
+            explainActiveQuestionWithAI();
+        }
+        // Alt + R triggers Reveal Answer
+        if (e.altKey && e.key.toLowerCase() === 'r') {
+            e.preventDefault();
+            revealActiveAnswer();
+        }
+        // Enter triggers Save & Next
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            nextQuestion();
+        }
+    });
+
+    // Submitting Exam logic
+    window.confirmSubmit = function() {
+        const total = questions.length;
+        const answeredCount = Object.keys(examState.answers).length;
+        
+        document.getElementById('submitModalDesc').textContent = `You have answered ${answeredCount} out of ${total} questions. Click Confirm to submit your workstation state.`;
+        
+        const modal = document.getElementById('submitModal');
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+        setTimeout(() => {
+            modal.classList.remove('opacity-0');
+            modal.querySelector('.bg-white').classList.remove('scale-95');
+        }, 10);
+    };
+
+    window.closeSubmitModal = function() {
+        const modal = document.getElementById('submitModal');
+        modal.classList.add('opacity-0');
+        modal.querySelector('.bg-white').classList.add('scale-95');
+        setTimeout(() => {
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }, 300);
+    };
+
+    window.submitExam = function() {
+        clearInterval(countdownInterval);
+        
+        const finalState = StateManager.getActiveExam();
+        const durationSpent = Math.round((Date.now() - finalState.startedAt) / 1000); // seconds
+        
+        // Calculate score
+        let correctCount = 0;
+        const details = []; // list of objects: { qId, selected, correct, isCorrect }
+        
+        questions.forEach(q => {
+            const selected = finalState.answers[q.id] || null;
+            const correct = q.answer;
+            const isCorrect = (selected === correct);
+            if (isCorrect) correctCount++;
+            
+            details.push({
+                qId: q.id,
+                question: q.question,
+                selected,
+                correct,
+                isCorrect
+            });
+        });
+
+        const scorePercent = Math.round((correctCount / questions.length) * 100);
+        
+        // Save Attempt Object
+        const attempt = {
+            examId: finalState.examId,
+            examTitle: examData.title,
+            examModule: examData.module,
+            date: new Date().toLocaleString(),
+            correctCount,
+            totalCount: questions.length,
+            score: scorePercent,
+            durationSpent,
+            details
+        };
+
+        StateManager.saveAttempt(attempt);
+        StateManager.setActiveExam(null); // Clear active state
+        
+        window.location.href = 'results.html';
+    };
+
+    function autoSubmit() {
+        alert('Time expired! Your mock exam answers are being submitted automatically.');
+        submitExam();
+    }
+
+    window.toggleGridSidebar = function() {
+        const sidebar = document.getElementById('proctorSidebar');
+        const backdrop = document.getElementById('sidebarBackdrop');
+        const isOpen = !sidebar.classList.contains('-translate-x-full');
+        
+        if (isOpen) {
+            sidebar.classList.add('-translate-x-full');
+            if (backdrop) {
+                backdrop.classList.add('opacity-0');
+                setTimeout(() => backdrop.classList.add('hidden'), 300);
+            }
+        } else {
+            sidebar.classList.remove('-translate-x-full');
+            if (backdrop) {
+                backdrop.classList.remove('hidden');
+                setTimeout(() => backdrop.classList.remove('opacity-0'), 10);
+            }
+        }
+    };
+
+    window.revealActiveAnswer = function() {
+        const q = questions[examState.currentQuestionIndex];
+        revealedQuestions[q.id] = true;
+        renderQuestion(examState.currentQuestionIndex);
+    };
+
+    window.explainActiveQuestionWithAI = function() {
+        const q = questions[examState.currentQuestionIndex];
+        const drawer = document.getElementById('aiDrawer');
+        const content = document.getElementById('aiDrawerContent');
+        
+        drawer.classList.remove('translate-x-full');
+        content.innerHTML = `
+            <div class="flex flex-col items-center justify-center py-20 gap-4 text-center">
+                <div class="relative w-12 h-12 flex items-center justify-center">
+                    <div class="absolute inset-0 bg-primary/10 rounded-full animate-ping"></div>
+                    <span class="material-symbols-outlined text-3xl text-primary animate-pulse">auto_awesome</span>
+                </div>
+                <div class="space-y-1">
+                    <p class="font-bold text-primary">Synthesizing Explanation</p>
+                    <p class="text-xs text-secondary">Analyzing syllabus criteria...</p>
+                </div>
+            </div>
+        `;
+        
+        setTimeout(() => {
+            content.innerHTML = generateAIExplanation(q);
+        }, 500);
+    };
+
+    window.closeAIDrawer = function() {
+        const drawer = document.getElementById('aiDrawer');
+        drawer.classList.add('translate-x-full');
+    };
+
+    function generateAIExplanation(q) {
+        const correctOptText = q.options[['A', 'B', 'C', 'D'].indexOf(q.answer)];
+        
+        let explanationTitle = "Academic Writing & Citation Analysis";
+        let syllabusReference = "BHU AEC English Sem 4 - Unit 2";
+        let diagnosticOverview = "This question evaluates your understanding of citation methodologies, academic honesty, and source attribution rules.";
+        
+        if (q.question.toLowerCase().includes("plagiarism")) {
+            explanationTitle = "Plagiarism & Academic Honesty Principles";
+            syllabusReference = "Section 3.1: Academic Integrity and Research Standards";
+            diagnosticOverview = "Plagiarism refers to the practice of taking someone else's work or ideas and passing them off as one's own. It constitutes a major violation of university guidelines.";
+        } else if (q.question.toLowerCase().includes("citation") || q.question.toLowerCase().includes("reference") || q.question.toLowerCase().includes("bibliography")) {
+            explanationTitle = "Standardized Citation Methodologies";
+            syllabusReference = "Section 2.2: Style Manuals (APA, MLA, Chicago)";
+            diagnosticOverview = "Citations serve to credit the original authors and enable readers to locate sources. Different academic disciplines mandate specific style guides.";
+        } else if (q.question.toLowerCase().includes("peer") || q.question.toLowerCase().includes("journal") || q.question.toLowerCase().includes("literature")) {
+            explanationTitle = "Scientific Literature & Peer Review";
+            syllabusReference = "Section 1.3: Credibility and Scholarly Publishing";
+            diagnosticOverview = "Peer review processes ensure the reliability and empirical rigor of published literature within scholarly databases.";
+        }
+
+        const optionKeys = ['A', 'B', 'C', 'D'];
+        const incorrectExplanations = q.options
+            .map((opt, i) => {
+                const key = optionKeys[i];
+                if (key === q.answer) return null;
+                return `<li><strong class="text-primary font-semibold">Option ${key} (${opt})</strong>: This option is a distractor because it does not satisfy the primary definition or rules required under the given academic context.</li>`;
+            })
+            .filter(Boolean)
+            .join('\n');
+
+        return `
+            <div class="space-y-6">
+                <div class="p-4 bg-surface-container rounded-lg border border-border-subtle flex flex-col gap-1">
+                    <span class="text-[9px] font-bold text-accent-bhu-saffron uppercase tracking-widest leading-none">${syllabusReference}</span>
+                    <h4 class="font-bold text-primary text-sm sm:text-base">${explanationTitle}</h4>
+                </div>
+
+                <div class="space-y-4 text-secondary leading-relaxed">
+                    <h5 class="text-xs font-bold text-primary uppercase tracking-wider">Concept Summary</h5>
+                    <p class="text-xs sm:text-sm">${diagnosticOverview}</p>
+                </div>
+
+                <div class="p-4 sm:p-5 bg-accent-neural-emerald/[0.03] border border-accent-neural-emerald/20 rounded-lg space-y-3">
+                    <div class="flex items-center gap-2 text-accent-neural-emerald">
+                        <span class="material-symbols-outlined text-base">check_circle</span>
+                        <h5 class="text-xs font-bold uppercase tracking-wider leading-none">Correct Option: ${q.answer}</h5>
+                    </div>
+                    <p class="text-xs sm:text-sm font-semibold text-primary">${correctOptText}</p>
+                    <p class="text-[11px] sm:text-xs text-secondary leading-relaxed">Rationale: This option is academically accurate. It aligns with the formal definition and standard procedures approved by the university department syllabus.</p>
+                </div>
+
+                <div class="space-y-3">
+                    <h5 class="text-xs font-bold text-primary uppercase tracking-wider">Distractor Audit</h5>
+                    <ul class="text-[11px] sm:text-xs text-secondary list-disc pl-5 space-y-2 leading-relaxed">
+                        ${incorrectExplanations}
+                    </ul>
+                </div>
+
+                <div class="p-4 sm:p-5 bg-accent-neural-purple/[0.03] border border-accent-neural-purple/20 rounded-lg space-y-2">
+                    <div class="flex items-center gap-2 text-accent-neural-purple">
+                        <span class="material-symbols-outlined text-base font-bold">lightbulb</span>
+                        <h5 class="text-xs font-bold uppercase tracking-wider leading-none">Key Exam Tip</h5>
+                    </div>
+                    <p class="text-[11px] sm:text-xs text-secondary leading-relaxed">Always verify whether the citation style is author-date (like APA) or numerical/footnote-based (like Chicago/MLA) when analyzing academic formatting problems.</p>
+                </div>
+            </div>
+        `;
+    }
+
+    window.confirmExit = function() {
+        if (confirm('Suspend session? Your active progress will be saved, and you can resume from the dashboard.')) {
+            clearInterval(countdownInterval);
+            window.location.href = 'dashboard.html';
+        }
+    };
+
+    // Load initial first question
+    renderQuestion(examState.currentQuestionIndex);
+</script>
+
+</body>
+</html>

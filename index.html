@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>BHU Exam Prep | Banaras Hindu University Mock Exams</title>
+    <!-- Tailwind CSS with Forms and Container Queries -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <!-- Link external custom styles -->
+    <link rel="stylesheet" href="styles.css"/>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "on-secondary-fixed": "#1b1c1c",
+                        "surface-dim": "#dadada",
+                        "outline-variant": "#cfc4c5",
+                        "accent-neural-emerald": "#10B981",
+                        "surface-panel": "#F3F2EF",
+                        "secondary": "#5e5e5e",
+                        "primary-fixed": "#e2e2e2",
+                        "inverse-on-surface": "#f1f1f1",
+                        "secondary-fixed": "#e4e2e2",
+                        "inverse-primary": "#c6c6c6",
+                        "on-tertiary-fixed-variant": "#474747",
+                        "background-warm": "#F7F7F5",
+                        "on-primary-fixed": "#1b1b1b",
+                        "tertiary-container": "#1b1b1b",
+                        "on-secondary-container": "#626262",
+                        "accent-neural-purple": "#A855F7",
+                        "accent-bhu-saffron": "#F57C00",
+                        "error-container": "#ffdad6",
+                        "surface": "#f9f9f9",
+                        "on-surface": "#1b1b1b",
+                        "on-secondary-fixed-variant": "#464747",
+                        "on-secondary": "#ffffff",
+                        "tertiary-fixed": "#e2e2e2",
+                        "surface-container-high": "#e8e8e8",
+                        "accent-neural-blue": "#3B82F6",
+                        "background": "#f9f9f9",
+                        "surface-container-low": "#f3f3f3",
+                        "on-error-container": "#93000a",
+                        "outline": "#7e7576",
+                        "primary-container": "#1b1b1b",
+                        "surface-bright": "#f9f9f9",
+                        "surface-container-highest": "#e2e2e2",
+                        "on-tertiary-fixed": "#1b1b1b",
+                        "surface-container": "#eeeeee",
+                        "on-background": "#1b1b1b",
+                        "secondary-container": "#e1dfdf",
+                        "surface-variant": "#e2e2e2",
+                        "surface-container-lowest": "#ffffff",
+                        "inverse-surface": "#303030",
+                        "error": "#ba1a1a",
+                        "on-primary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "secondary-fixed-dim": "#c7c6c6",
+                        "on-primary-container": "#848484",
+                        "tertiary-fixed-dim": "#c6c6c6",
+                        "on-primary-fixed-variant": "#474747",
+                        "surface-card": "#FCFCFB",
+                        "tertiary": "#000000",
+                        "on-tertiary": "#ffffff",
+                        "primary-fixed-dim": "#c6c6c6",
+                        "primary": "#000000",
+                        "surface-tint": "#5e5e5e",
+                        "on-surface-variant": "#4c4546",
+                        "on-tertiary-container": "#848484",
+                        "border-subtle": "#E7E7E4"
+                    },
+                    borderRadius: {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                    spacing: {
+                        "gutter": "32px",
+                        "unit": "8px",
+                        "container-max": "1280px",
+                        "section-gap-mobile": "80px",
+                        "section-gap-desktop": "180px",
+                        "padding-edge": "32px"
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background-warm text-on-background antialiased selection:bg-accent-bhu-saffron/10 min-h-screen flex flex-col justify-between">
+
+<!-- TopNavBar -->
+<nav class="fixed top-0 left-0 right-0 z-50 bg-background-warm/80 backdrop-blur-xl border-b border-border-subtle shadow-sm h-20 w-full flex items-center">
+    <div class="max-w-container-max mx-auto px-padding-edge flex justify-between items-center w-full">
+        <div class="flex items-center gap-4">
+            <!-- Traditional BHU Saraswati Logo -->
+            <img src="images/logo.png" alt="BHU Logo" class="h-8 md:h-10 w-auto"/>
+            <span class="text-lg md:text-2xl font-bold tracking-tighter text-primary">BHU Exam Prep</span>
+            <div class="hidden md:flex gap-6 ml-8">
+                <a class="text-primary font-bold border-b-2 border-primary pb-1 text-sm" href="#">Home</a>
+                <a class="text-secondary font-medium hover:text-primary transition-colors duration-200 text-sm" href="#features">Features</a>
+                <a class="text-secondary font-medium hover:text-primary transition-colors duration-200 text-sm" href="#exams">Mock Exams</a>
+            </div>
+        </div>
+        <div class="flex items-center gap-4">
+            <button onclick="openLoginModal()" class="bg-primary text-on-primary px-4 py-2 md:px-6 md:py-2.5 rounded-full font-bold active:scale-95 transition-all text-xs md:text-sm hover:bg-neutral-800 shadow-md">Student Login</button>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<main class="relative pt-40 overflow-hidden flex-1">
+    <!-- Animated Background Orbs (Saffron and Traditional Hues) -->
+    <div class="neural-orb animate-float bg-accent-bhu-saffron w-[600px] h-[600px] -top-40 -left-20"></div>
+    <div class="neural-orb animate-float bg-accent-neural-purple w-[500px] h-[500px] top-60 -right-20" style="animation-delay: -3s;"></div>
+    <div class="neural-orb animate-float bg-accent-neural-emerald w-[400px] h-[400px] bottom-0 left-1/2" style="animation-delay: -6s;"></div>
+
+    <div class="max-w-container-max mx-auto px-padding-edge">
+        <div class="grid lg:grid-cols-[1.2fr_0.8fr] gap-20 items-center">
+            <div class="relative z-10">
+
+                <h1 class="text-4xl sm:text-5xl lg:text-7xl font-bold mb-8 text-primary leading-[1.05] tracking-tight">
+                    Online Mock Exam Portal for BHU Preparation.
+                </h1>
+                <p class="text-lg text-secondary max-w-xl mb-12 leading-relaxed">
+                    Upholding the rigorous academic standards of Banaras Hindu University. Experience high-fidelity, secure, and instant mock assessments with real curriculum questions.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button onclick="openLoginModal()" class="bg-primary text-on-primary px-10 py-5 rounded-full font-bold text-base hover:scale-[1.02] active:scale-95 transition-all shadow-lg hover:bg-neutral-800">
+                        Access Live English Exam
+                    </button>
+                    <a href="#features" class="border border-outline px-10 py-5 rounded-full font-bold text-base hover:bg-surface-panel/50 active:scale-95 transition-all flex items-center justify-center">
+                        Explore Features
+                    </a>
+                </div>
+            </div>
+
+            <!-- Testing Workstation Visual -->
+            <div class="relative group">
+                <div class="glass-panel rounded-xl p-8 relative overflow-hidden transition-all duration-700 hover:shadow-2xl hover:-translate-y-2">
+                    <div class="flex items-center justify-between mb-8">
+                        <div class="flex gap-2">
+                            <div class="w-3 h-3 rounded-full bg-error"></div>
+                            <div class="w-3 h-3 rounded-full bg-amber-400"></div>
+                            <div class="w-3 h-3 rounded-full bg-accent-neural-emerald"></div>
+                        </div>
+                        <span class="text-xs text-secondary font-mono">BHU_VNS_STATION_01</span>
+                    </div>
+                    <div class="space-y-6">
+                        <div class="bg-white/40 border border-white/20 p-6 rounded-lg">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="text-xs font-bold text-primary uppercase tracking-wider">Test Engine Response</span>
+                                <span class="text-xs font-bold text-accent-neural-emerald">0.4ms</span>
+                            </div>
+                            <div class="h-1.5 bg-surface-container rounded-full overflow-hidden">
+                                <div class="h-full bg-accent-bhu-saffron w-[94%]"></div>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="bg-white/40 border border-white/20 p-6 rounded-lg flex flex-col items-center">
+                                <span class="material-symbols-outlined text-primary mb-2 fill">graphic_eq</span>
+                                <span class="text-2xl font-bold">178</span>
+                                <span class="text-xs text-secondary text-center">English Questions</span>
+                            </div>
+                            <div class="bg-white/40 border border-white/20 p-6 rounded-lg flex flex-col items-center">
+                                <span class="material-symbols-outlined text-primary mb-2">verified_user</span>
+                                <span class="text-2xl font-bold">Secure</span>
+                                <span class="text-xs text-secondary text-center">Progress Saved</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8 flex justify-center">
+                        <div class="relative w-32 h-32 flex items-center justify-center">
+                            <div class="absolute inset-0 bg-accent-bhu-saffron/10 rounded-full animate-ping"></div>
+                            <button onclick="openLoginModal()" class="relative w-20 h-20 bg-white rounded-full shadow-xl border border-border-subtle flex items-center justify-center hover:scale-110 transition-transform group">
+                                <span class="material-symbols-outlined text-3xl text-primary group-hover:scale-110 transition-transform">login</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- Bento Section -->
+<section id="features" class="my-32 max-w-container-max mx-auto px-padding-edge">
+    <div class="text-center mb-20">
+        <h2 class="text-4xl md:text-5xl font-bold mb-6">Designed for academic depth.</h2>
+        <p class="text-lg text-secondary max-w-2xl mx-auto">BHU Exam Prep manages the structure so you can focus on mastering your university syllabi through active recall.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-6 auto-rows-[240px]">
+        <!-- Large Feature -->
+        <div class="md:col-span-8 md:row-span-2 glass-panel rounded-lg p-10 flex flex-col justify-end group cursor-pointer overflow-hidden relative">
+            <div class="absolute inset-0 z-0 opacity-10 transition-opacity group-hover:opacity-25 bg-gradient-to-br from-accent-bhu-saffron to-accent-neural-purple"></div>
+            <div class="relative z-10">
+                <span class="text-xs font-bold text-accent-bhu-saffron mb-4 block uppercase tracking-widest">EXAMINATION CORE</span>
+                <h3 class="text-3xl font-bold mb-4 text-primary">High fidelity real exam simulator</h3>
+                <p class="text-base text-secondary max-w-md">Our proctoring workstation maps out questions in a detailed sidebar progress grid, complete with interactive flagging, review status, and timers to mimic the CBT (Computer Based Test) pattern.</p>
+            </div>
+        </div>
+        <!-- Side Feature 1 -->
+        <div class="md:col-span-4 md:row-span-1 glass-panel rounded-lg p-8 flex flex-col justify-between hover:bg-white/40 transition-colors">
+            <span class="material-symbols-outlined text-primary text-3xl">psychology</span>
+            <div>
+                <h4 class="text-xl font-bold text-primary">AEC Sem 4 English</h4>
+                <p class="text-xs text-secondary">Complete syllabus including Plagiarism, Citations, and Document Formats.</p>
+            </div>
+        </div>
+        <!-- Side Feature 2 -->
+        <div class="md:col-span-4 md:row-span-1 bg-primary text-on-primary rounded-lg p-8 flex flex-col justify-between hover:bg-neutral-800 transition-colors">
+            <span class="material-symbols-outlined text-4xl text-accent-bhu-saffron">gavel</span>
+            <div>
+                <h4 class="text-xl font-bold text-white">University Rigor</h4>
+                <p class="text-xs text-on-primary/60">Strictly modeled against Banaras Hindu University academic by-laws.</p>
+            </div>
+        </div>
+        <!-- Bottom Row Bento -->
+        <div class="md:col-span-4 md:row-span-1 glass-panel rounded-lg p-8 flex flex-col justify-between">
+            <div class="flex items-baseline gap-2">
+                <span class="text-5xl font-bold text-primary">100%</span>
+                <span class="text-xs font-bold text-secondary uppercase tracking-widest">Accuracy</span>
+            </div>
+            <p class="text-sm text-secondary">Every answer is cross-checked against official department answer keys for high fidelity study sessions.</p>
+        </div>
+        <div class="md:col-span-8 md:row-span-1 glass-panel rounded-lg p-8 flex items-center justify-between overflow-hidden relative">
+            <div class="relative z-10 max-w-sm">
+                <h4 class="text-2xl font-bold text-primary">Responsive Learning</h4>
+                <p class="text-sm text-secondary">Take practice tests on high-fidelity lab workstations, laptops, or mobile devices on-the-go.</p>
+            </div>
+            <div class="flex gap-4">
+                <div class="w-14 h-14 rounded-full glass-panel flex items-center justify-center"><span class="material-symbols-outlined">desktop_windows</span></div>
+                <div class="w-14 h-14 rounded-full glass-panel flex items-center justify-center"><span class="material-symbols-outlined">smartphone</span></div>
+                <div class="w-14 h-14 rounded-full glass-panel flex items-center justify-center"><span class="material-symbols-outlined">school</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer / CTA -->
+<section class="py-24 bg-neutral-900 text-white relative overflow-hidden">
+    <div class="neural-orb bg-accent-bhu-saffron w-[800px] h-[400px] -bottom-40 left-1/4 opacity-10"></div>
+    <div class="max-w-container-max mx-auto px-padding-edge text-center relative z-10">
+        <h2 class="text-4xl md:text-5xl font-bold mb-8 max-w-4xl mx-auto">Upholding institutional excellence at Banaras Hindu University.</h2>
+        <p class="text-base text-neutral-400 mb-12 max-w-2xl mx-auto">Elevate your preparation standards. Get instant diagnostic feedback on your test results.</p>
+        <button onclick="openLoginModal()" class="bg-white text-primary px-12 py-6 rounded-full font-bold text-base hover:scale-105 active:scale-95 transition-all shadow-xl hover:bg-neutral-100">
+            Student Login &amp; Start
+        </button>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="w-full py-12 bg-background-warm border-t border-border-subtle">
+    <div class="max-w-container-max mx-auto px-padding-edge flex flex-col md:flex-row justify-between items-center gap-8">
+        <div class="flex flex-col items-center md:items-start">
+            <span class="text-xs font-semibold tracking-wider text-primary mb-2 uppercase">BANARAS HINDU UNIVERSITY</span>
+            <p class="text-xs text-secondary">© 2026 Banaras Hindu University. Prepared under academic guidance.</p>
+        </div>
+        <div class="flex gap-8">
+            <a class="text-xs text-secondary hover:text-primary underline transition-opacity" href="#">Privacy Policy</a>
+            <a class="text-xs text-secondary hover:text-primary underline transition-opacity" href="#">Terms of Service</a>
+            <a class="text-xs text-secondary hover:text-primary underline transition-opacity" href="#">Student Manual</a>
+        </div>
+    </div>
+</footer>
+
+<!-- Interactive Student Login Modal -->
+<div id="loginModal" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/40 backdrop-blur-md opacity-0 transition-opacity duration-300 p-4 overflow-y-auto">
+    <div class="bg-white rounded-2xl w-full max-w-md p-6 sm:p-8 shadow-2xl relative border border-border-subtle transform scale-95 transition-transform duration-300 my-auto max-h-full overflow-y-auto">
+        <button onclick="closeLoginModal()" class="absolute top-6 right-6 text-secondary hover:text-primary">
+            <span class="material-symbols-outlined">close</span>
+        </button>
+        <div class="flex flex-col items-center mb-6">
+            <img src="images/logo.png" alt="BHU Logo" class="h-12 w-auto mb-2"/>
+            <h3 class="text-xl font-bold text-primary">BHU Exam Prep Login</h3>
+            <p class="text-xs text-secondary mt-1">Enter credentials to access your mock workstation</p>
+        </div>
+        <form onsubmit="handleLogin(event)" class="space-y-4">
+            <div>
+                <label class="block text-xs font-bold text-secondary uppercase tracking-wider mb-2" for="username">Student Name</label>
+                <input class="w-full px-4 py-3 border border-border-subtle rounded-lg focus:outline-none focus:border-primary text-sm bg-background-warm/50" id="username" type="text" placeholder="e.g. Julian Alex" required/>
+            </div>
+            <div>
+                <label class="block text-xs font-bold text-secondary uppercase tracking-wider mb-2" for="roll_number">Roll Number</label>
+                <input class="w-full px-4 py-3 border border-border-subtle rounded-lg focus:outline-none focus:border-primary text-sm bg-background-warm/50" id="roll_number" type="text" placeholder="e.g. BHU-2026-8941" required/>
+            </div>
+            <div class="bg-surface-container-low p-4 rounded-lg text-xs text-secondary leading-relaxed border border-border-subtle">
+                <strong>Demo Mode Active:</strong> You can enter any Name and Roll Number. They will be stored locally to personalize your test results and dashboard metrics.
+            </div>
+            <button class="w-full bg-primary text-on-primary py-3 rounded-full font-bold text-sm active:scale-95 transition-all shadow-md hover:bg-neutral-800" type="submit">
+                Access Dashboard
+            </button>
+        </form>
+    </div>
+</div>
+
+<script type="module">
+    import { StateManager } from './js/state-manager.js';
+
+    // Check if user already logged in, redirect to dashboard.html
+    const user = StateManager.getCurrentUser();
+    if (user) {
+        window.location.href = 'dashboard.html';
+    }
+
+    // Modal open/close actions
+    window.openLoginModal = function() {
+        const modal = document.getElementById('loginModal');
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+        setTimeout(() => {
+            modal.classList.remove('opacity-0');
+            modal.querySelector('.bg-white').classList.remove('scale-95');
+        }, 10);
+    }
+
+    window.closeLoginModal = function() {
+        const modal = document.getElementById('loginModal');
+        modal.classList.add('opacity-0');
+        modal.querySelector('.bg-white').classList.add('scale-95');
+        setTimeout(() => {
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }, 300);
+    }
+
+    // Handle form submit
+    window.handleLogin = function(event) {
+        event.preventDefault();
+        const username = document.getElementById('username').value;
+        const roll_number = document.getElementById('roll_number').value;
+
+        const userObj = {
+            name: username,
+            roll: roll_number,
+            profileImage: 'images/profile.png'
+        };
+
+        StateManager.setCurrentUser(userObj);
+        window.location.href = 'dashboard.html';
+    }
+
+    // Floating orbs mouse tracking interaction
+    document.addEventListener('mousemove', (e) => {
+        const orbs = document.querySelectorAll('.neural-orb');
+        const mouseX = e.clientX / window.innerWidth;
+        const mouseY = e.clientY / window.innerHeight;
+
+        orbs.forEach((orb, index) => {
+            const speed = (index + 1) * 20;
+            const x = (mouseX - 0.5) * speed;
+            const y = (mouseY - 0.5) * speed;
+            orb.style.transform = `translate(${x}px, ${y}px)`;
+        });
+    });
+</script>
+
+</body>
+</html>
