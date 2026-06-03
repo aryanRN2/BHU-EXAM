@@ -145,7 +145,7 @@
                     </div>
                     <div>
                         <p class="text-[10px] font-bold uppercase tracking-[0.2em] text-secondary">Mock Subject</p>
-                        <p class="font-bold text-primary">English Proficiency</p>
+                        <p class="font-bold text-primary">Academic Writing</p>
                     </div>
                 </div>
                 <p class="text-xs text-secondary mt-1">AEC Sem 4: Citation &amp; Writing</p>
@@ -166,7 +166,7 @@
             </nav>
         </div>
         <div class="flex flex-col gap-4">
-            <button onclick="startEnglishExam()" class="bg-primary text-on-primary w-full py-4 rounded-full text-xs font-bold tracking-widest uppercase hover:scale-[1.02] active:scale-95 transition-transform shadow-md">
+            <button onclick="startAcademicWritingExam()" class="bg-primary text-on-primary w-full py-4 rounded-full text-xs font-bold tracking-widest uppercase hover:scale-[1.02] active:scale-95 transition-transform shadow-md">
                 Launch Mock Exam
             </button>
             <div class="flex border-t border-border-subtle pt-6 justify-around text-xs">
@@ -197,67 +197,8 @@
 
             <!-- Bento Grid Layout -->
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
-                <!-- Quick Start Card -->
-                <div onclick="startEnglishExam()" class="lg:col-span-8 group relative overflow-hidden glass-panel rounded-lg p-8 h-[400px] flex flex-col justify-end cursor-pointer">
-                    <div class="absolute inset-0 z-0">
-                        <div class="absolute inset-0 bg-gradient-to-t from-background-warm via-transparent to-transparent"></div>
-                    </div>
-                    <div class="relative z-10 space-y-6">
-                        <div class="flex gap-4">
-                            <span class="bg-accent-bhu-saffron text-white px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest">LIVE MOCK EXAM</span>
-                            <span class="bg-accent-neural-emerald/15 text-accent-neural-emerald px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest">178 Questions</span>
-                        </div>
-                        <div class="space-y-2">
-                            <h2 class="text-3xl font-bold text-primary">English Mock Exam</h2>
-                            <p class="text-base text-secondary">Practice citation formatting, academic integrity, and digital tools parameters.</p>
-                        </div>
-                        <button class="flex items-center gap-4 bg-primary text-white pl-8 pr-4 py-3 rounded-full w-fit hover:scale-105 transition-all group/btn">
-                            <span class="text-xs font-bold uppercase tracking-widest">Start Test Workstation</span>
-                            <div class="w-8 h-8 rounded-full bg-white text-primary flex items-center justify-center group-hover/btn:rotate-45 transition-transform">
-                                <span class="material-symbols-outlined text-[20px]">north_east</span>
-                            </div>
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Progress Analytics Section -->
-                <div class="lg:col-span-4 glass-panel rounded-lg p-8 flex flex-col justify-between">
-                    <div class="space-y-6">
-                        <div class="flex justify-between items-center">
-                            <h3 class="text-xs font-bold text-secondary uppercase tracking-[0.2em]">Diagnostic Metrics</h3>
-                            <span class="material-symbols-outlined text-secondary">show_chart</span>
-                        </div>
-                        <div class="space-y-2">
-                            <div class="flex justify-between items-end">
-                                <p class="text-5xl font-bold text-primary" id="averageScoreVal">0%</p>
-                                <p class="text-accent-neural-emerald font-bold text-xs mb-2" id="percentageImprovement">Init</p>
-                            </div>
-                            <p class="text-xs text-secondary uppercase tracking-widest">Average Mock Score</p>
-                        </div>
-                    </div>
-
-                    <!-- Mini Chart Visualization -->
-                    <div class="h-32 flex items-end gap-2 px-1" id="attemptsChartContainer">
-                        <div class="flex-grow bg-surface-container-highest rounded-t-full h-[15%] transition-all duration-500"></div>
-                        <div class="flex-grow bg-surface-container-highest rounded-t-full h-[25%] transition-all duration-500"></div>
-                        <div class="flex-grow bg-surface-container-highest rounded-t-full h-[45%] transition-all duration-500"></div>
-                        <div class="flex-grow bg-primary rounded-t-full h-[10%] transition-all duration-500" id="liveBar"></div>
-                    </div>
-
-                    <div class="pt-6 border-t border-border-subtle flex justify-between">
-                        <div>
-                            <p class="font-bold text-primary" id="syncMinutesVal">0</p>
-                            <p class="text-[10px] text-secondary uppercase">Minutes Spent</p>
-                        </div>
-                        <div>
-                            <p class="font-bold text-primary" id="examsPassedVal">0</p>
-                            <p class="text-[10px] text-secondary uppercase">Exams Completed</p>
-                        </div>
-                    </div>
-                </div>
-
                 <!-- Active/Upcoming Exams Section -->
-                <div class="lg:col-span-12 space-y-8 pt-8">
+                <div class="lg:col-span-12 space-y-8">
                     <div class="flex justify-between items-end">
                         <h3 class="text-2xl font-bold text-primary tracking-tight">Mock Exam Catalog</h3>
                         <span class="text-xs text-secondary uppercase font-bold">6 Total Subjects</span>
@@ -322,7 +263,7 @@
         if (isLive) {
             // Live English Exam
             cardMarkup = `
-                <div onclick="startEnglishExam()" class="glass-panel p-6 rounded-lg group hover:bg-white/60 transition-all duration-300 cursor-pointer border border-accent-bhu-saffron/20 hover:shadow-md">
+                <div onclick="startAcademicWritingExam()" class="glass-panel p-6 rounded-lg group hover:bg-white/60 transition-all duration-300 cursor-pointer border border-accent-bhu-saffron/20 hover:shadow-md">
                     <div class="flex justify-between items-start mb-10">
                         <div class="w-12 h-12 rounded-full border border-accent-bhu-saffron/30 flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-colors duration-300 text-accent-bhu-saffron">
                             <span class="material-symbols-outlined">menu_book</span>
@@ -374,7 +315,7 @@
         window.location.href = "https://me-aryan.vercel.app";
     };
 
-    window.startEnglishExam = function() {
+    window.startAcademicWritingExam = function() {
         // Initialize English Exam with 178 questions, 45 minutes
         StateManager.initializeExam('english', EXAMS.english.questions.length, EXAMS.english.duration);
         window.location.href = 'exam.html';

@@ -2,7 +2,7 @@
 export const EXAMS = {
   "english": {
     "id": "english",
-    "title": "English Proficiency",
+    "title": "Academic Writing",
     "module": "AEC Sem 4: Academic Writing & Citation",
     "duration": 45,
     "questions": [
