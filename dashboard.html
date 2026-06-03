@@ -105,7 +105,7 @@
             </div>
             <div class="hidden md:flex gap-6">
                 <a class="text-primary font-bold border-b-2 border-primary pb-1 text-sm" href="dashboard.html">Dashboard</a>
-                <a class="text-secondary font-medium hover:text-primary transition-colors duration-200 text-sm" href="#" onclick="alert('Mock exams are updated in real-time from resources.')">Library</a>
+                <a class="text-secondary font-medium hover:text-primary transition-colors duration-200 text-sm" href="#" onclick="handlePlaceholderClick(event)">Library</a>
                 <a class="text-secondary font-medium hover:text-primary transition-colors duration-200 text-sm" href="results.html">Last Results</a>
             </div>
         </div>
@@ -125,7 +125,7 @@
 <div id="mobileMenu" class="fixed top-20 left-0 right-0 z-40 bg-background-warm border-b border-border-subtle shadow-md transform -translate-y-full transition-transform duration-300 md:hidden">
     <nav class="flex flex-col p-6 gap-4 font-semibold text-sm">
         <a class="text-primary hover:text-primary py-2 border-b border-border-subtle/50" href="dashboard.html">Dashboard</a>
-        <a class="text-secondary hover:text-primary py-2 border-b border-border-subtle/50" href="#" onclick="alert('Mock exams are updated in real-time from resources.')">Library</a>
+        <a class="text-secondary hover:text-primary py-2 border-b border-border-subtle/50" href="#" onclick="handlePlaceholderClick(event)">Library</a>
         <a class="text-secondary hover:text-primary py-2 border-b border-border-subtle/50" href="results.html">Last Results</a>
         <button onclick="handleLogout()" class="text-left text-error hover:text-error py-2 flex items-center gap-2">
             <span class="material-symbols-outlined text-lg">logout</span>
@@ -159,7 +159,7 @@
                     <span class="material-symbols-outlined">analytics</span>
                     <span class="text-xs uppercase tracking-widest">Analytics</span>
                 </a>
-                <a class="flex items-center gap-4 px-4 py-3 text-secondary hover:text-primary hover:bg-white/20 rounded-lg hover:translate-x-1 transition-all duration-300" href="#" onclick="alert('Syllabus includes: Citation styles (APA, MLA, Chicago), Plagiarism, academic writing toolkits, and digital writing structures.')">
+                <a class="flex items-center gap-4 px-4 py-3 text-secondary hover:text-primary hover:bg-white/20 rounded-lg hover:translate-x-1 transition-all duration-300" href="#" onclick="handlePlaceholderClick(event)">
                     <span class="material-symbols-outlined">quiz</span>
                     <span class="text-xs uppercase tracking-widest">Syllabus Details</span>
                 </a>
@@ -174,7 +174,7 @@
                     <span class="material-symbols-outlined text-lg">logout</span>
                     <span>Exit</span>
                 </button>
-                <button onclick="alert('Help line: support@bhu.ac.in. This portal is a mock simulator.')" class="text-secondary hover:text-primary transition-colors flex flex-col items-center">
+                <button onclick="handlePlaceholderClick(event)" class="text-secondary hover:text-primary transition-colors flex flex-col items-center">
                     <span class="material-symbols-outlined text-lg">help_outline</span>
                     <span>Help</span>
                 </button>
@@ -343,7 +343,7 @@
             if (key === 'chemistry') icon = 'science';
 
             cardMarkup = `
-                <div class="glass-panel p-6 rounded-lg opacity-60 border border-border-subtle relative select-none">
+                <div onclick="handlePlaceholderClick(event)" class="glass-panel p-6 rounded-lg opacity-65 border border-border-subtle relative select-none hover:opacity-100 hover:scale-[1.02] cursor-pointer hover:shadow-md transition-all duration-300">
                     <div class="flex justify-between items-start mb-10">
                         <div class="w-12 h-12 rounded-full border border-border-subtle flex items-center justify-center text-secondary">
                             <span class="material-symbols-outlined">${icon}</span>
@@ -360,6 +360,16 @@
         }
         container.insertAdjacentHTML('beforeend', cardMarkup);
     });
+
+    // Global placeholder handler for alert + redirect
+    window.handlePlaceholderClick = function(event) {
+        if (event) {
+            event.preventDefault();
+            event.stopPropagation();
+        }
+        alert("I am working on it! Please visit my website: https://me-aryan.vercel.app");
+        window.location.href = "https://me-aryan.vercel.app";
+    };
 
     window.startEnglishExam = function() {
         // Initialize English Exam with 178 questions, 45 minutes

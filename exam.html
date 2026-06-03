@@ -180,7 +180,7 @@
         </div>
         
         <div class="mt-6 pt-6 border-t border-border-subtle flex flex-col gap-3 text-xs flex-shrink-0">
-            <button onclick="alert('Help request sent to proctor. Remain seated.')" class="flex items-center gap-3 text-secondary hover:text-primary transition-colors group text-left">
+            <button onclick="handlePlaceholderClick(event)" class="flex items-center gap-3 text-secondary hover:text-primary transition-colors group text-left">
                 <span class="material-symbols-outlined group-hover:translate-x-0.5 transition-transform text-lg">help_outline</span>
                 <span class="text-[10px] font-bold uppercase tracking-widest">Support Request</span>
             </button>
@@ -312,6 +312,16 @@
 <script type="module">
     import { StateManager } from './js/state-manager.js';
     import { EXAMS } from './js/exams-data.js';
+
+    // Global placeholder handler for alert + redirect
+    window.handlePlaceholderClick = function(event) {
+        if (event) {
+            event.preventDefault();
+            event.stopPropagation();
+        }
+        alert("I am working on it! Please visit my website: https://me-aryan.vercel.app");
+        window.location.href = "https://me-aryan.vercel.app";
+    };
 
     // 1. Guard Session and State
     const user = StateManager.getCurrentUser();

@@ -105,7 +105,7 @@
             </div>
             <div class="hidden md:flex items-center gap-8 text-sm">
                 <a class="text-secondary font-medium hover:text-primary transition-colors duration-200" href="dashboard.html">Dashboard</a>
-                <a class="text-secondary font-medium hover:text-primary transition-colors duration-200" href="#" onclick="alert('Mock exams are updated in real-time from resources.')">Library</a>
+                <a class="text-secondary font-medium hover:text-primary transition-colors duration-200" href="#" onclick="handlePlaceholderClick(event)">Library</a>
                 <a class="text-primary font-bold border-b-2 border-primary pb-1" href="results.html">Analytics</a>
             </div>
         </div>
@@ -120,7 +120,7 @@
 <div id="mobileMenu" class="fixed top-20 left-0 right-0 z-40 bg-background-warm border-b border-border-subtle shadow-md transform -translate-y-full transition-transform duration-300 md:hidden">
     <nav class="flex flex-col p-6 gap-4 font-semibold text-sm">
         <a class="text-secondary hover:text-primary py-2 border-b border-border-subtle/50" href="dashboard.html">Dashboard</a>
-        <a class="text-secondary hover:text-primary py-2 border-b border-border-subtle/50" href="#" onclick="alert('Mock exams are updated in real-time from resources.')">Library</a>
+        <a class="text-secondary hover:text-primary py-2 border-b border-border-subtle/50" href="#" onclick="handlePlaceholderClick(event)">Library</a>
         <a class="text-primary hover:text-primary py-2 border-b border-border-subtle/50" href="results.html">Analytics</a>
         <button onclick="handleLogout()" class="text-left text-error hover:text-error py-2 flex items-center gap-2">
             <span class="material-symbols-outlined text-lg">logout</span>
@@ -154,7 +154,7 @@
             </a>
         </nav>
         <div class="mt-auto space-y-1 pt-6 border-t border-border-subtle text-xs">
-            <a class="flex items-center gap-3 px-4 py-3 text-secondary hover:text-primary hover:bg-white/20 rounded-lg transition-all" href="#" onclick="alert('Help line: support@bhu.ac.in')">
+            <a class="flex items-center gap-3 px-4 py-3 text-secondary hover:text-primary hover:bg-white/20 rounded-lg transition-all" href="#" onclick="handlePlaceholderClick(event)">
                 <span class="material-symbols-outlined">help_outline</span>
                 <span class="text-[10px] font-bold uppercase tracking-widest">Help Desk</span>
             </a>
@@ -293,15 +293,25 @@
             <p class="text-xs text-secondary">© 2026 Banaras Hindu University. All rights reserved.</p>
         </div>
         <div class="flex gap-8">
-            <a class="text-xs text-secondary hover:text-primary underline transition-opacity" href="#">Privacy Policy</a>
-            <a class="text-xs text-secondary hover:text-primary underline transition-opacity" href="#">Terms of Service</a>
-            <a class="text-xs text-secondary hover:text-primary underline transition-opacity" href="#">Manual</a>
+            <a class="text-xs text-secondary hover:text-primary underline transition-opacity" href="#" onclick="handlePlaceholderClick(event)">Privacy Policy</a>
+            <a class="text-xs text-secondary hover:text-primary underline transition-opacity" href="#" onclick="handlePlaceholderClick(event)">Terms of Service</a>
+            <a class="text-xs text-secondary hover:text-primary underline transition-opacity" href="#" onclick="handlePlaceholderClick(event)">Manual</a>
         </div>
     </div>
 </footer>
 
 <script type="module">
     import { StateManager } from './js/state-manager.js';
+
+    // Global placeholder handler for alert + redirect
+    window.handlePlaceholderClick = function(event) {
+        if (event) {
+            event.preventDefault();
+            event.stopPropagation();
+        }
+        alert("I am working on it! Please visit my website: https://me-aryan.vercel.app");
+        window.location.href = "https://me-aryan.vercel.app";
+    };
 
     // 1. Guard Session
     const user = StateManager.getCurrentUser();
