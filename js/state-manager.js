@@ -3,8 +3,13 @@
 export const StateManager = {
   // --- USER SESSION ---
   getCurrentUser() {
-    const user = localStorage.getItem('bhu_user');
-    return user ? JSON.parse(user) : null;
+    let user = localStorage.getItem('bhu_user');
+    if (!user) {
+      const defaultUser = { name: 'Aryan Maurya', roll: '24220MAT051' };
+      localStorage.setItem('bhu_user', JSON.stringify(defaultUser));
+      return defaultUser;
+    }
+    return JSON.parse(user);
   },
 
   setCurrentUser(user) {
@@ -35,15 +40,18 @@ export const StateManager = {
     }
   },
 
-  initializeExam(examId, totalQuestions, durationMinutes) {
+  initializeExam(examId, totalQuestions, durationMinutes, type = 'mcq', questionsList = null, allQuestions = null) {
     const examState = {
       examId,
       timeRemaining: durationMinutes * 60, // in seconds
       currentQuestionIndex: 0,
-      answers: {}, // questionId -> selectedOption (A, B, C, D)
+      answers: {}, // questionId -> selectedOption or { evaluated, marks, suggestions }
       flagged: {}, // questionId -> boolean
-      totalQuestions,
-      startedAt: Date.now()
+      totalQuestions: questionsList ? questionsList.length : totalQuestions,
+      startedAt: Date.now(),
+      type,
+      selectedQuestions: questionsList,
+      allQuestions: allQuestions // Full pool for "Show All Questions" feature
     };
     this.setActiveExam(examState);
     return examState;
@@ -96,5 +104,91 @@ export const StateManager = {
       examsPassed,
       totalMinutes
     };
+  },
+
+  // --- ENV FILE LOADER ---
+  async loadEnv() {
+    try {
+      const res = await fetch('.env');
+      if (!res.ok) throw new Error('Not found');
+      const text = await res.text();
+      const env = {};
+      text.split('\n').forEach(line => {
+        const parts = line.split('=');
+        if (parts.length >= 2) {
+          const key = parts[0].trim();
+          const val = parts.slice(1).join('=').trim();
+          env[key] = val.replace(/(^["']|["']$)/g, ''); // remove quotes
+        }
+      });
+      return env;
+    } catch (e) {
+      console.warn("Could not fetch .env file, returning empty config:", e);
+      return {};
+    }
+  }
+};
+
+// --- INDEXEDDB STORAGE FOR THEORY IMAGES ---
+const DB_NAME = 'BHUExamTheoryDB';
+const STORE_NAME = 'answers';
+
+export const TheoryStorage = {
+  dbPromise: null,
+  getDB() {
+    if (!this.dbPromise) {
+      this.dbPromise = new Promise((resolve, reject) => {
+        const req = indexedDB.open(DB_NAME, 1);
+        req.onupgradeneeded = (e) => {
+          const db = e.target.result;
+          if (!db.objectStoreNames.contains(STORE_NAME)) {
+            db.createObjectStore(STORE_NAME);
+          }
+        };
+        req.onsuccess = (e) => resolve(e.target.result);
+        req.onerror = (e) => reject(e.target.error);
+      });
+    }
+    return this.dbPromise;
+  },
+  async saveImage(key, base64) {
+    const db = await this.getDB();
+    return new Promise((resolve, reject) => {
+      const tx = db.transaction(STORE_NAME, 'readwrite');
+      const store = tx.objectStore(STORE_NAME);
+      const req = store.put(base64, key);
+      req.onsuccess = () => resolve();
+      req.onerror = () => reject(req.error);
+    });
+  },
+  async getImage(key) {
+    const db = await this.getDB();
+    return new Promise((resolve, reject) => {
+      const tx = db.transaction(STORE_NAME, 'readonly');
+      const store = tx.objectStore(STORE_NAME);
+      const req = store.get(key);
+      req.onsuccess = () => resolve(req.result || null);
+      req.onerror = () => reject(req.error);
+    });
+  },
+  async deleteImage(key) {
+    const db = await this.getDB();
+    return new Promise((resolve, reject) => {
+      const tx = db.transaction(STORE_NAME, 'readwrite');
+      const store = tx.objectStore(STORE_NAME);
+      const req = store.delete(key);
+      req.onsuccess = () => resolve();
+      req.onerror = () => reject(req.error);
+    });
+  },
+  async clearAll() {
+    const db = await this.getDB();
+    return new Promise((resolve, reject) => {
+      const tx = db.transaction(STORE_NAME, 'readwrite');
+      const store = tx.objectStore(STORE_NAME);
+      const req = store.clear();
+      req.onsuccess = () => resolve();
+      req.onerror = () => reject(req.error);
+    });
   }
 };

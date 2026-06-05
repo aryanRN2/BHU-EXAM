@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Select Subject | BHU Exam Prep</title>
+    <!-- Tailwind CSS with Forms and Container Queries -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <!-- Link external custom styles -->
+    <link rel="stylesheet" href="styles.css"/>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "on-secondary-fixed": "#1b1c1c",
+                        "surface-dim": "#dadada",
+                        "outline-variant": "#cfc4c5",
+                        "accent-neural-emerald": "#10B981",
+                        "surface-panel": "#F3F2EF",
+                        "secondary": "#5e5e5e",
+                        "primary-fixed": "#e2e2e2",
+                        "inverse-on-surface": "#f1f1f1",
+                        "secondary-fixed": "#e4e2e2",
+                        "inverse-primary": "#c6c6c6",
+                        "on-tertiary-fixed-variant": "#474747",
+                        "background-warm": "#F7F7F5",
+                        "on-primary-fixed": "#1b1b1b",
+                        "tertiary-container": "#1b1b1b",
+                        "on-secondary-container": "#626262",
+                        "accent-neural-purple": "#A855F7",
+                        "accent-bhu-saffron": "#F57C00",
+                        "error-container": "#ffdad6",
+                        "surface": "#f9f9f9",
+                        "on-surface": "#1b1b1b",
+                        "on-secondary-fixed-variant": "#464747",
+                        "on-secondary": "#ffffff",
+                        "tertiary-fixed": "#e2e2e2",
+                        "surface-container-high": "#e8e8e8",
+                        "accent-neural-blue": "#3B82F6",
+                        "background": "#f9f9f9",
+                        "surface-container-low": "#f3f3f3",
+                        "on-error-container": "#93000a",
+                        "outline": "#7e7576",
+                        "primary-container": "#1b1b1b",
+                        "surface-bright": "#f9f9f9",
+                        "surface-container-highest": "#e2e2e2",
+                        "on-tertiary-fixed": "#1b1b1b",
+                        "surface-container": "#eeeeee",
+                        "on-background": "#1b1b1b",
+                        "secondary-container": "#e1dfdf",
+                        "surface-variant": "#e2e2e2",
+                        "surface-container-lowest": "#ffffff",
+                        "inverse-surface": "#303030",
+                        "error": "#ba1a1a",
+                        "on-primary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "secondary-fixed-dim": "#c7c6c6",
+                        "on-primary-container": "#848484",
+                        "tertiary-fixed-dim": "#c6c6c6",
+                        "on-primary-fixed-variant": "#474747",
+                        "surface-card": "#FCFCFB",
+                        "tertiary": "#000000",
+                        "on-tertiary": "#ffffff",
+                        "primary-fixed-dim": "#c6c6c6",
+                        "primary": "#000000",
+                        "surface-tint": "#5e5e5e",
+                        "on-surface-variant": "#4c4546",
+                        "on-tertiary-container": "#848484",
+                        "border-subtle": "#E7E7E4"
+                    },
+                    borderRadius: {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                    spacing: {
+                        "gutter": "32px",
+                        "unit": "8px",
+                        "container-max": "1280px",
+                        "section-gap-mobile": "80px",
+                        "section-gap-desktop": "180px",
+                        "padding-edge": "32px"
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background-warm text-on-background antialiased selection:bg-accent-bhu-saffron/10 min-h-screen flex flex-col justify-between">
+
+<!-- TopNavBar -->
+<nav class="fixed top-0 left-0 right-0 z-50 bg-background-warm/80 backdrop-blur-xl border-b border-border-subtle shadow-sm h-20 w-full flex items-center">
+    <div class="max-w-container-max mx-auto px-padding-edge flex justify-between items-center w-full">
+        <div class="flex items-center gap-4">
+            <button onclick="window.location.href='index.html'" class="w-10 h-10 rounded-full border border-border-subtle hover:bg-surface-panel transition-all flex items-center justify-center text-secondary hover:text-primary shrink-0 mr-2" title="Back to Home">
+                <span class="material-symbols-outlined text-lg">arrow_back</span>
+            </button>
+            <img src="images/logo.png" alt="BHU Logo" class="h-8 md:h-10 w-auto"/>
+            <span class="text-lg md:text-2xl font-bold tracking-tighter text-primary">BHU Exam Prep</span>
+        </div>
+    </div>
+</nav>
+
+<main class="relative pt-40 pb-20 overflow-hidden flex-1 flex flex-col items-center justify-center">
+    <!-- Background atmosphere -->
+    <div class="neural-orb bg-accent-bhu-saffron w-[500px] h-[500px] -top-20 -left-10 opacity-30"></div>
+    <div class="neural-orb bg-accent-neural-purple w-[400px] h-[400px] bottom-10 -right-10 opacity-30" style="animation-delay: -3s;"></div>
+
+    <div class="max-w-container-max w-full mx-auto px-padding-edge relative z-10 flex flex-col items-center">
+        <!-- Header -->
+        <div class="text-center mb-12">
+            <div class="flex items-center justify-center gap-2 mb-3">
+                <span id="practiceModeBadge" class="bg-accent-bhu-saffron text-white px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider">PRACTICE MODE</span>
+            </div>
+            <h1 class="text-3xl md:text-5xl font-bold text-primary tracking-tight">Select Subject</h1>
+            <p class="text-sm md:text-base text-secondary max-w-md mt-2">Pick an active subject to start your practice session workstation.</p>
+        </div>
+
+        <!-- Search Option -->
+        <div class="w-full max-w-xl mb-8 relative">
+            <span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-secondary">search</span>
+            <input type="text" id="subjectSearchInput" placeholder="Search by subject name or code (e.g. MATMJ41)..." 
+                   class="w-full pl-12 pr-10 py-3.5 bg-white/50 backdrop-blur-md border border-border-subtle rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-accent-bhu-saffron/20 focus:border-accent-bhu-saffron transition-all text-primary"
+                   oninput="filterSubjects()"/>
+            <button onclick="clearSearch()" id="clearSearchBtn" class="absolute right-4 top-1/2 -translate-y-1/2 text-secondary hover:text-primary hidden">
+                <span class="material-symbols-outlined text-lg">close</span>
+            </button>
+        </div>
+
+        <!-- Subject List Container -->
+        <div id="subjectsListContainer" class="w-full max-w-xl flex flex-col gap-4">
+            <!-- Dynamic list generated by JS -->
+        </div>
+    </div>
+</main>
+
+<!-- Footer -->
+<footer class="w-full py-12 bg-background-warm border-t border-border-subtle mt-auto">
+    <div class="max-w-container-max mx-auto px-padding-edge flex flex-col md:flex-row justify-between items-center gap-8">
+        <div>
+            <span class="text-xs font-semibold tracking-wider text-primary mb-2 block uppercase">Banaras Hindu University</span>
+            <p class="text-xs text-secondary">© 2026 Banaras Hindu University. Prepared under academic guidance.</p>
+        </div>
+        <div class="flex gap-8">
+            <a class="text-xs text-secondary hover:text-primary underline" href="#" onclick="alert('Demo Platform')">Privacy Policy</a>
+            <a class="text-xs text-secondary hover:text-primary underline" href="#" onclick="alert('Demo Platform')">Terms of Service</a>
+        </div>
+    </div>
+</footer>
+
+
+
+<script type="module">
+    import { StateManager } from './js/state-manager.js?v=3';
+    import { EXAMS } from './js/exams-data.js?v=3';
+
+    // 1. Read Practice Mode Type from Query Parameter
+    const params = new URLSearchParams(window.location.search);
+    const mode = params.get('type') || 'endterm';
+    
+    // Set display labels dynamically
+    const modeLabels = {
+        'endterm': 'End Term Practice',
+        'midterm': 'Mid Term Practice',
+        'lab': 'Lab Practice'
+    };
+    
+    const displayLabel = modeLabels[mode] || 'Practice Session';
+    document.getElementById('practiceModeBadge').textContent = displayLabel;
+
+    function renderSubjects(examsToRender) {
+        const container = document.getElementById('subjectsListContainer');
+        container.innerHTML = '';
+        
+        const keys = Object.keys(examsToRender).sort((a, b) => {
+            const aLive = !examsToRender[a].comingSoon;
+            const bLive = !examsToRender[b].comingSoon;
+            if (aLive && !bLive) return -1;
+            if (!aLive && bLive) return 1;
+            return 0;
+        });
+        if (keys.length === 0) {
+            container.innerHTML = `
+                <div class="glass-panel p-8 text-center border border-border-subtle rounded-lg text-secondary w-full">
+                    <span class="material-symbols-outlined text-3xl mb-2 text-secondary">search_off</span>
+                    <p class="text-sm font-semibold">No subjects found matching your search.</p>
+                </div>
+            `;
+            return;
+        }
+
+        keys.forEach(key => {
+            const exam = examsToRender[key];
+            const isLive = !exam.comingSoon;
+            
+            let cardMarkup = '';
+            if (isLive) {
+                let icon = 'menu_book';
+                if (key.includes('math') || key.includes('calc') || (exam.module && exam.module.startsWith('MAT'))) icon = 'calculate';
+                
+                const typeLabel = exam.type === 'theory' ? 'Theory' : 'MCQ';
+                const activeLabel = exam.type === 'theory' ? 'AI Grading Active' : 'Multiple Choice';
+                
+                cardMarkup = `
+                    <div onclick="selectSubject('${key}')" class="glass-panel p-6 rounded-lg group hover:bg-white/60 transition-all duration-300 cursor-pointer border border-accent-bhu-saffron/20 hover:shadow-md flex items-center justify-between">
+                        <div class="flex items-center gap-5">
+                            <div class="w-14 h-14 rounded-full border border-accent-bhu-saffron/30 flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-colors duration-300 text-accent-bhu-saffron shrink-0">
+                                <span class="material-symbols-outlined text-2xl">${icon}</span>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-lg text-primary">${exam.title}</h3>
+                                <p class="text-xs text-secondary mt-0.5">Code: ${exam.module || key.toUpperCase()} &bull; ${exam.questions.length} Questions &bull; ${typeLabel}</p>
+                                <span class="inline-block bg-accent-neural-emerald/15 text-accent-neural-emerald px-2.5 py-0.5 rounded text-[9px] font-bold uppercase mt-2">${activeLabel}</span>
+                            </div>
+                        </div>
+                        <div class="w-10 h-10 rounded-full border border-border-subtle group-hover:border-primary flex items-center justify-center text-secondary group-hover:text-primary transition-all shrink-0">
+                            <span class="material-symbols-outlined text-lg group-hover:translate-x-0.5 transition-transform">arrow_forward</span>
+                        </div>
+                    </div>
+                `;
+            } else {
+                let icon = 'psychology';
+                if (key.startsWith('phy') || (exam.module && exam.module.startsWith('PHY'))) icon = 'insights';
+                else if (key.startsWith('ggr') || (exam.module && exam.module.startsWith('GGR'))) icon = 'public';
+                else if (key.startsWith('csc') || (exam.module && exam.module.startsWith('CSC'))) icon = 'terminal';
+                else if (key.startsWith('chem') || (exam.module && exam.module.startsWith('CHEM'))) icon = 'science';
+                else if (key.startsWith('mat') || (exam.module && exam.module.startsWith('MAT'))) icon = 'calculate';
+                else if (key.startsWith('sta') || (exam.module && exam.module.startsWith('STA'))) icon = 'bar_chart';
+                
+                cardMarkup = `
+                    <div class="glass-panel p-6 rounded-lg border border-border-subtle opacity-50 flex items-center justify-between select-none">
+                        <div class="flex items-center gap-5">
+                            <div class="w-14 h-14 rounded-full border border-border-subtle flex items-center justify-center text-secondary shrink-0">
+                                <span class="material-symbols-outlined text-2xl">${icon}</span>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-lg text-secondary">${exam.title}</h3>
+                                <p class="text-xs text-secondary mt-0.5">Code: ${exam.module || key.toUpperCase()} &bull; Coming soon</p>
+                            </div>
+                        </div>
+                        <div class="text-secondary opacity-60">
+                            <span class="material-symbols-outlined text-lg">lock</span>
+                        </div>
+                    </div>
+                `;
+            }
+            container.insertAdjacentHTML('beforeend', cardMarkup);
+        });
+    }
+
+    // Initial render
+    renderSubjects(EXAMS);
+
+    window.filterSubjects = function() {
+        const query = document.getElementById('subjectSearchInput').value.toLowerCase().trim();
+        const clearBtn = document.getElementById('clearSearchBtn');
+        
+        if (query) {
+            clearBtn.classList.remove('hidden');
+        } else {
+            clearBtn.classList.add('hidden');
+        }
+
+        const filtered = {};
+        Object.keys(EXAMS).forEach(key => {
+            const exam = EXAMS[key];
+            const title = exam.title.toLowerCase();
+            const module = (exam.module || '').toLowerCase();
+            if (title.includes(query) || module.includes(query) || key.includes(query)) {
+                filtered[key] = exam;
+            }
+        });
+        
+        renderSubjects(filtered);
+    };
+
+    window.clearSearch = function() {
+        const input = document.getElementById('subjectSearchInput');
+        input.value = '';
+        filterSubjects();
+    };
+
+    let selectedExamId = '';
+
+    window.selectSubject = function(examId) {
+        selectedExamId = examId;
+        proceedToExam();
+    };
+
+    window.proceedToExam = function() {
+        const exam = EXAMS[selectedExamId];
+        const allQs = [...exam.questions];
+        // Always start with 10 random questions; user can expand to all from sidebar
+        const shuffled = allQs.sort(() => 0.5 - Math.random());
+        const questionsList = shuffled.slice(0, Math.min(10, allQs.length));
+        StateManager.initializeExam(selectedExamId, exam.questions.length, exam.duration, exam.type || 'mcq', questionsList, allQs);
+        window.location.href = 'exam.html';
+    };
+
+    // Floating orbs mouse tracking interaction
+    document.addEventListener('mousemove', (e) => {
+        const orbs = document.querySelectorAll('.neural-orb');
+        const mouseX = e.clientX / window.innerWidth;
+        const mouseY = e.clientY / window.innerHeight;
+
+        orbs.forEach((orb, index) => {
+            const speed = (index + 1) * 20;
+            const x = (mouseX - 0.5) * speed;
+            const y = (mouseY - 0.5) * speed;
+            orb.style.transform = `translate(${x}px, ${y}px)`;
+        });
+    });
+</script>
+
+</body>
+</html>

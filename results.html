@@ -89,6 +89,18 @@
             }
         }
     </script>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            options: {
+                skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+            }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script" async></script>
 </head>
 <body class="bg-background-warm min-h-screen flex flex-col antialiased text-on-surface select-none">
 
@@ -99,19 +111,17 @@
             <button onclick="toggleMobileMenu()" class="md:hidden text-secondary hover:text-primary focus:outline-none flex items-center shrink-0">
                 <span class="material-symbols-outlined text-2xl" id="menuIcon">menu</span>
             </button>
-            <div class="flex items-center gap-2 sm:gap-3 cursor-pointer shrink-0" onclick="window.location.href='dashboard.html'">
+            <div class="flex items-center gap-2 sm:gap-3 cursor-pointer shrink-0" onclick="window.location.href='subjects.html'">
                 <img src="images/logo.png" alt="BHU Logo" class="h-6 sm:h-8 w-auto shrink-0"/>
                 <span class="text-base sm:text-xl font-bold tracking-tighter text-primary truncate max-w-[120px] sm:max-w-none">BHU Exam Prep</span>
             </div>
             <div class="hidden md:flex items-center gap-8 text-sm">
-                <a class="text-secondary font-medium hover:text-primary transition-colors duration-200" href="dashboard.html">Dashboard</a>
+                <a class="text-secondary font-medium hover:text-primary transition-colors duration-200" href="subjects.html">Mock Exams</a>
                 <a class="text-secondary font-medium hover:text-primary transition-colors duration-200" href="#" onclick="handlePlaceholderClick(event)">Library</a>
                 <a class="text-primary font-bold border-b-2 border-primary pb-1" href="results.html">Analytics</a>
             </div>
         </div>
         <div class="flex items-center gap-3 sm:gap-6">
-            <button onclick="handleLogout()" class="hidden sm:inline text-secondary font-medium hover:text-error transition-colors duration-200 text-sm">Logout</button>
-            <button onclick="window.location.href='dashboard.html'" class="bg-primary text-on-primary px-4 py-2 sm:px-6 sm:py-2.5 rounded-full font-body-md text-xs sm:text-sm hover:scale-[1.02] transition-transform active:scale-95">Dashboard</button>
         </div>
     </div>
 </nav>
@@ -119,13 +129,9 @@
 <!-- Mobile Navigation Menu -->
 <div id="mobileMenu" class="fixed top-20 left-0 right-0 z-40 bg-background-warm border-b border-border-subtle shadow-md transform -translate-y-full transition-transform duration-300 md:hidden">
     <nav class="flex flex-col p-6 gap-4 font-semibold text-sm">
-        <a class="text-secondary hover:text-primary py-2 border-b border-border-subtle/50" href="dashboard.html">Dashboard</a>
+        <a class="text-secondary hover:text-primary py-2 border-b border-border-subtle/50" href="subjects.html">Mock Exams</a>
         <a class="text-secondary hover:text-primary py-2 border-b border-border-subtle/50" href="#" onclick="handlePlaceholderClick(event)">Library</a>
         <a class="text-primary hover:text-primary py-2 border-b border-border-subtle/50" href="results.html">Analytics</a>
-        <button onclick="handleLogout()" class="text-left text-error hover:text-error py-2 flex items-center gap-2">
-            <span class="material-symbols-outlined text-lg">logout</span>
-            Logout
-        </button>
     </nav>
 </div>
 
@@ -138,15 +144,15 @@
                     <span class="material-symbols-outlined text-primary">assessment</span>
                 </div>
                 <div>
-                    <p class="font-bold text-primary">Diagnostic Sync</p>
-                    <p class="text-[9px] font-bold text-secondary uppercase tracking-widest" id="studentRoll">Roll Number</p>
+                    <p class="font-bold text-primary">Exam Prep</p>
+                    <p class="text-[9px] font-bold text-secondary uppercase tracking-widest">Calculus & AEC</p>
                 </div>
             </div>
         </div>
         <nav class="space-y-1">
-            <a class="flex items-center gap-3 px-4 py-3 text-secondary hover:text-primary hover:bg-white/20 rounded-lg transition-all duration-300" href="dashboard.html">
-                <span class="material-symbols-outlined">dashboard</span>
-                <span class="text-xs font-semibold uppercase tracking-widest">Dashboard</span>
+            <a class="flex items-center gap-3 px-4 py-3 text-secondary hover:text-primary hover:bg-white/20 rounded-lg transition-all duration-300" href="subjects.html">
+                <span class="material-symbols-outlined">list_alt</span>
+                <span class="text-xs font-semibold uppercase tracking-widest">Mock Exams</span>
             </a>
             <a class="flex items-center gap-3 px-4 py-3 bg-white/40 shadow-sm border border-white/20 text-primary font-semibold rounded-lg" href="#">
                 <span class="material-symbols-outlined">analytics</span>
@@ -158,8 +164,8 @@
                 <span class="material-symbols-outlined">help_outline</span>
                 <span class="text-[10px] font-bold uppercase tracking-widest">Help Desk</span>
             </a>
-            <a class="flex items-center gap-3 px-4 py-3 text-error hover:bg-error-container/20 rounded-lg transition-all" href="#" onclick="handleLogout()">
-                <span class="material-symbols-outlined">logout</span>
+            <a class="flex items-center gap-3 px-4 py-3 text-error hover:bg-error-container/20 rounded-lg transition-all" href="subjects.html">
+                <span class="material-symbols-outlined">arrow_back</span>
                 <span class="text-[10px] font-bold uppercase tracking-widest">Exit</span>
             </a>
         </div>
@@ -178,107 +184,59 @@
                 <div class="max-w-2xl">
                     <div class="flex items-center gap-3 mb-4">
                         <span class="w-2.5 h-2.5 rounded-full bg-accent-neural-emerald animate-pulse"></span>
-                        <span class="text-xs font-semibold tracking-wider text-secondary uppercase">Analysis Complete</span>
+                        <span class="text-xs font-semibold tracking-wider text-secondary uppercase">Exam Completed</span>
                     </div>
-                    <h1 class="text-4xl md:text-5xl font-bold text-primary mb-4" id="feedbackHeader">Exceptional performance.</h1>
-                    <p class="text-lg text-secondary" id="feedbackSubtitle">Detailed overview of your academic integrity and citation parameters.</p>
+                    <h1 class="text-4xl md:text-5xl font-bold text-primary mb-4" id="feedbackHeader">Exam Submitted</h1>
+                    <p class="text-lg text-secondary" id="feedbackSubtitle">Your mock exam response has been successfully logged.</p>
                 </div>
                 <div class="flex flex-wrap gap-4">
                     <button onclick="window.print()" class="bg-white text-primary border border-border-subtle px-8 py-4 rounded-full font-bold text-sm hover:scale-95 transition-transform flex items-center gap-2 shadow-sm">
                         <span class="material-symbols-outlined">print</span>
-                        Print Report
+                        Print Receipt
                     </button>
-                    <button onclick="window.location.href='dashboard.html'" class="bg-primary text-on-primary px-8 py-4 rounded-full font-bold text-sm hover:scale-95 transition-transform shadow-md">
+                    <button onclick="window.location.href='subjects.html'" class="bg-primary text-on-primary px-8 py-4 rounded-full font-bold text-sm hover:scale-95 transition-transform shadow-md">
                         Done &amp; Exit
                     </button>
                 </div>
             </header>
 
-            <!-- Results Bento Grid -->
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-                <!-- Large Score Orb (7 Cols) -->
-                <div class="lg:col-span-7 glass-card rounded-xl p-12 flex flex-col items-center justify-center relative overflow-hidden">
-                    <div class="orb-glow absolute inset-0 bg-gradient-to-tr from-accent-neural-purple/5 via-accent-neural-blue/5 to-accent-neural-emerald/5"></div>
-                    <div class="relative z-10 text-center">
-                        <div class="relative inline-block">
-                            <!-- Circular Progress Visual -->
-                            <svg class="w-64 h-64 md:w-80 md:h-80 transform -rotate-90" viewBox="0 0 220 220">
-                                <circle cx="110" cy="110" fill="transparent" r="90" stroke="#E7E7E4" stroke-width="4"></circle>
-                                <circle id="progressRing" cx="110" cy="110" fill="transparent" r="90" stroke="black" stroke-dasharray="565.48" stroke-dashoffset="565.48" stroke-linecap="round" stroke-width="6" class="transition-all duration-1000 ease-out"></circle>
-                            </svg>
-                            <div class="absolute inset-0 flex flex-col items-center justify-center">
-                                <span class="text-6xl md:text-8xl font-bold text-primary" id="scorePercentVal">0%</span>
-                                <span class="text-[10px] font-bold text-secondary uppercase tracking-[0.2em] mt-2">Overall Score</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mt-12 w-full grid grid-cols-3 gap-8 border-t border-border-subtle pt-8">
-                        <div class="text-center">
-                            <p class="text-2xl md:text-3xl font-bold text-primary" id="gradeLetter">F</p>
-                            <p class="text-[10px] text-secondary uppercase mt-1">Grade</p>
-                        </div>
-                        <div class="text-center border-x border-border-subtle">
-                            <p class="text-2xl md:text-3xl font-bold text-primary" id="correctCountVal">0/178</p>
-                            <p class="text-[10px] text-secondary uppercase mt-1">Correct Answers</p>
-                        </div>
-                        <div class="text-center">
-                            <p class="text-2xl md:text-3xl font-bold text-primary" id="timeSpentVal">0m 0s</p>
-                            <p class="text-[10px] text-secondary uppercase mt-1">Time Spent</p>
-                        </div>
-                    </div>
+            <!-- Submission Confirmation Card -->
+            <div class="glass-card rounded-xl p-8 max-w-2xl mx-auto text-center space-y-6">
+                <div class="w-16 h-16 rounded-full bg-accent-neural-emerald/10 text-accent-neural-emerald flex items-center justify-center mx-auto">
+                    <span class="material-symbols-outlined text-4xl">verified</span>
                 </div>
-
-                <!-- Right Rail Modules (5 Cols) -->
-                <div class="lg:col-span-5 flex flex-col gap-8">
-                    <!-- Efficiency Profile -->
-                    <div class="glass-card rounded-xl p-8">
-                        <div class="flex justify-between items-center mb-6">
-                            <h3 class="text-xs font-bold text-secondary uppercase tracking-wider">Efficiency Profile</h3>
-                            <span class="material-symbols-outlined text-secondary">timer</span>
-                        </div>
-                        <div class="space-y-6">
-                            <div class="flex justify-between items-end">
-                                <div>
-                                    <p class="text-sm text-secondary">Avg. Response Time</p>
-                                    <p class="text-3xl font-bold text-primary" id="avgResponseTime">0.0s</p>
-                                </div>
-                                <div class="text-right">
-                                    <p class="text-accent-neural-emerald font-bold text-sm">Perfect Tempo</p>
-                                </div>
-                            </div>
-                        </div>
+                <div class="space-y-2">
+                    <h2 class="text-2xl font-bold text-primary">Submission Receipt</h2>
+                    <p class="text-sm text-secondary">Your answers and solution sheets have been recorded in the BHU Academic Portal.</p>
+                </div>
+                <div class="border-t border-b border-border-subtle py-6 grid grid-cols-2 gap-6 text-xs text-left max-w-md mx-auto">
+                    <div>
+                        <p class="font-bold text-secondary uppercase tracking-wider text-[9px] mb-1">Exam Subject</p>
+                        <p class="text-sm font-bold text-primary" id="receiptExamName">Subject</p>
                     </div>
-
-                    <!-- Topic Breakdown -->
-                    <div class="glass-card rounded-xl p-8">
-                        <h3 class="text-xs font-bold text-secondary uppercase tracking-wider mb-6">Skill Proficiency</h3>
-                        <div class="space-y-5" id="topicBreakdownContainer">
-                            <!-- Rendered by JS -->
-                        </div>
+                    <div>
+                        <p class="font-bold text-secondary uppercase tracking-wider text-[9px] mb-1">Exam Type</p>
+                        <p class="text-sm font-bold text-primary" id="receiptExamType">Type</p>
                     </div>
-
-                    <!-- Practice Areas -->
-                    <div class="bg-primary text-on-primary rounded-xl p-8 relative overflow-hidden group cursor-pointer" onclick="window.location.href='dashboard.html'">
-                        <div class="relative z-10">
-                            <h3 class="text-xs font-bold text-on-primary/60 uppercase tracking-widest mb-6">Growth Strategy</h3>
-                            <p class="text-lg mb-4">Focus on <span class="underline decoration-accent-bhu-saffron underline-offset-4 font-bold">Citation Formats</span> and style guidelines to improve score.</p>
-                            <div class="flex items-center gap-2 text-accent-bhu-saffron font-bold text-sm">
-                                <span>Return to catalog</span>
-                                <span class="material-symbols-outlined transition-transform group-hover:translate-x-2">arrow_forward</span>
-                            </div>
-                        </div>
-                        <div class="absolute top-[-25px] right-[-25px] opacity-10">
-                            <span class="material-symbols-outlined text-[120px]">psychology</span>
-                        </div>
+                    <div>
+                        <p class="font-bold text-secondary uppercase tracking-wider text-[9px] mb-1">Submission Time</p>
+                        <p class="text-sm font-bold text-primary" id="receiptTime">Time</p>
+                    </div>
+                    <div>
+                        <p class="font-bold text-secondary uppercase tracking-wider text-[9px] mb-1">Status</p>
+                        <span class="inline-flex items-center gap-1 bg-accent-neural-emerald/10 text-accent-neural-emerald px-2 py-0.5 rounded text-[10px] font-bold uppercase font-sans">
+                            <span class="material-symbols-outlined text-[12px]">check_circle</span>
+                            Verified
+                        </span>
                     </div>
                 </div>
             </div>
 
             <!-- Detailed Question-by-Question Review -->
             <section class="mt-16 glass-card rounded-xl p-8">
-                <h3 class="text-xl font-bold text-primary mb-6">Incorrect Question Audit</h3>
-                <div class="space-y-6 max-h-[500px] overflow-y-auto custom-scrollbar pr-2" id="incorrectAuditContainer">
-                    <!-- Dynamic review logs of incorrect questions -->
+                <h3 class="text-xl font-bold text-primary mb-6">Submitted Question &amp; Answer Sheets</h3>
+                <div class="space-y-6 max-h-[600px] overflow-y-auto custom-scrollbar pr-2" id="incorrectAuditContainer">
+                    <!-- Dynamic review logs of submitted questions -->
                 </div>
             </section>
         </div>
@@ -301,7 +259,7 @@
 </footer>
 
 <script type="module">
-    import { StateManager } from './js/state-manager.js';
+    import { StateManager, TheoryStorage } from './js/state-manager.js?v=3';
 
     // Global placeholder handler for alert + redirect
     window.handlePlaceholderClick = function(event) {
@@ -309,151 +267,115 @@
             event.preventDefault();
             event.stopPropagation();
         }
-        alert("I am working on it! Please visit my website: https://me-aryan.vercel.app");
-        window.location.href = "https://me-aryan.vercel.app";
+        if (confirm("I am working on it! Would you like to visit my portfolio website: https://me-aryan.vercel.app?")) {
+            window.location.href = "https://me-aryan.vercel.app";
+        }
     };
 
     // 1. Guard Session
     const user = StateManager.getCurrentUser();
-    if (!user) {
-        window.location.href = 'index.html';
-    } else {
-        document.getElementById('studentRoll').textContent = user.roll;
-    }
-
+    
     const attempts = StateManager.getAttempts();
     if (attempts.length === 0) {
-        window.location.href = 'dashboard.html';
+        window.location.href = 'subjects.html';
     }
 
     // Load last attempt details
     const lastAttempt = attempts[attempts.length - 1];
 
-    // Calculate Grade letter
-    let grade = 'F';
-    let feedbackHeader = 'Needs Practice, ' + user.name.split(' ')[0];
-    if (lastAttempt.score >= 90) {
-        grade = 'A+';
-        feedbackHeader = 'Outstanding work, ' + user.name.split(' ')[0] + '!';
-    } else if (lastAttempt.score >= 80) {
-        grade = 'A';
-        feedbackHeader = 'Excellent job, ' + user.name.split(' ')[0] + '.';
-    } else if (lastAttempt.score >= 70) {
-        grade = 'B';
-        feedbackHeader = 'Good effort, ' + user.name.split(' ')[0] + '.';
-    } else if (lastAttempt.score >= 50) {
-        grade = 'C';
-        feedbackHeader = 'Passed exam, ' + user.name.split(' ')[0] + '.';
-    }
+    // Set Receipt info
+    document.getElementById('receiptExamName').textContent = lastAttempt.examTitle || 'MATMJ41 Calculus';
+    document.getElementById('receiptExamType').textContent = lastAttempt.examType === 'theory' ? 'Theory Exam' : 'Multiple Choice';
+    document.getElementById('receiptTime').textContent = lastAttempt.date || new Date().toLocaleString();
 
-    // Set UI fields
-    document.getElementById('feedbackHeader').textContent = feedbackHeader;
-    document.getElementById('scorePercentVal').textContent = `${lastAttempt.score}%`;
-    document.getElementById('gradeLetter').textContent = grade;
-    document.getElementById('correctCountVal').textContent = `${lastAttempt.correctCount}/${lastAttempt.totalCount}`;
-    
-    // Set time spent formatting
-    const totalMinutes = Math.floor(lastAttempt.durationSpent / 60);
-    const totalSeconds = lastAttempt.durationSpent % 60;
-    document.getElementById('timeSpentVal').textContent = `${totalMinutes}m ${totalSeconds}s`;
-
-    // Average Response time calculation
-    const avgResponse = lastAttempt.durationSpent / lastAttempt.totalCount;
-    document.getElementById('avgResponseTime').textContent = `${avgResponse.toFixed(1)}s`;
-
-    // 2. Set Circular Progress Ring offset
-    const ring = document.getElementById('progressRing');
-    const radius = ring.r.baseVal.value;
-    const circumference = 2 * Math.PI * radius; // 565.48
-    const offset = circumference * (1 - lastAttempt.score / 100);
-    
-    // Trigger animation frame delay to render smoothly
-    setTimeout(() => {
-        ring.style.strokeDashoffset = offset;
-    }, 150);
-
-    // 3. Topic wise Proficiency calculation
-    // Questions logic mapping:
-    // ID 1 to 29 -> Topic: "Citations & Plagiarism"
-    // ID 30 to 65 -> Topic: "Citation Formats"
-    // ID 66 to 100 -> Topic: "Digital Writing Tools"
-    // ID 101 to 139 -> Topic: "Academic Writing Theory"
-    // ID 140 to 178 -> Topic: "Editing & Collaboration"
-    const topicsConfig = [
-        { name: "Citations & Plagiarism", startId: 1, endId: 29, color: "bg-accent-neural-purple" },
-        { name: "Citation Formats", startId: 30, endId: 65, color: "bg-accent-neural-blue" },
-        { name: "Digital Writing Tools", startId: 66, endId: 100, color: "bg-accent-neural-emerald" },
-        { name: "Academic Writing Theory", startId: 101, endId: 139, color: "bg-accent-bhu-saffron" },
-        { name: "Editing & Collaboration", startId: 140, endId: 178, color: "bg-primary" }
-    ];
-
-    const topicContainer = document.getElementById('topicBreakdownContainer');
-    topicContainer.innerHTML = '';
-
-    topicsConfig.forEach(topic => {
-        // filter details for this topic range
-        const topicDetails = lastAttempt.details.filter(d => d.qId >= topic.startId && d.qId <= topic.endId);
-        if (topicDetails.length === 0) return;
-
-        const corrects = topicDetails.filter(d => d.isCorrect).length;
-        const total = topicDetails.length;
-        const percent = Math.round((corrects / total) * 100);
-
-        const topicMarkup = `
-            <div class="space-y-2">
-                <div class="flex justify-between items-center text-xs font-semibold">
-                    <span>${topic.name}</span>
-                    <span class="font-bold">${percent}%</span>
-                </div>
-                <div class="h-1.5 w-full bg-surface-container rounded-full overflow-hidden">
-                    <div class="h-full ${topic.color} transition-all duration-1000 ease-out" style="width: ${percent}%"></div>
-                </div>
-            </div>
-        `;
-        topicContainer.insertAdjacentHTML('beforeend', topicMarkup);
-    });
-
-    // 4. Incorrect Question Audit rendering
+    // Render Submitted Question & Answer Sheets
     const incorrectContainer = document.getElementById('incorrectAuditContainer');
     incorrectContainer.innerHTML = '';
-    
-    const incorrects = lastAttempt.details.filter(d => !d.isCorrect);
-    
-    if (incorrects.length === 0) {
-        incorrectContainer.innerHTML = `
-            <div class="text-center p-8 bg-surface-panel/30 border border-dashed border-border-subtle rounded-lg text-secondary text-sm">
-                <span class="material-symbols-outlined text-4xl text-accent-neural-emerald mb-2">check_circle</span>
-                <p class="font-bold text-primary">Flawless Attempt!</p>
-                <p class="text-xs">No incorrect answers to review. Congratulations!</p>
-            </div>
-        `;
-    } else {
-        incorrects.forEach((item, idx) => {
-            const auditMarkup = `
-                <div class="bg-white/40 border border-border-subtle p-5 rounded-lg flex flex-col gap-3">
-                    <div class="flex justify-between items-start gap-4">
-                        <span class="px-2.5 py-1 rounded bg-error-container text-on-error-container font-mono text-xs font-bold">Q. ${item.qId}</span>
-                    </div>
-                    <p class="text-sm font-semibold text-primary leading-relaxed">${item.question}</p>
-                    <div class="grid grid-cols-2 gap-4 text-xs mt-1">
-                        <div class="p-3 bg-error-container/20 border border-error/10 text-error rounded">
-                            <span class="font-bold block uppercase tracking-wider text-[9px] mb-1">Your Selection</span>
-                            <span>Option ${item.selected || 'Unanswered'}</span>
-                        </div>
-                        <div class="p-3 bg-accent-neural-emerald/10 border border-accent-neural-emerald/10 text-accent-neural-emerald rounded">
-                            <span class="font-bold block uppercase tracking-wider text-[9px] mb-1">Correct Answer</span>
-                            <span>Option ${item.correct}</span>
+
+    lastAttempt.details.forEach((item, idx) => {
+        let answerContentHTML = '';
+        if (lastAttempt.examType === 'theory') {
+            const hasImage = item.hasImage || false;
+            let uploadStatusHTML = '';
+            if (hasImage) {
+                uploadStatusHTML = `
+                    <div class="p-4 bg-accent-neural-emerald/[0.03] border border-accent-neural-emerald/10 rounded-lg flex items-center gap-3">
+                        <span class="material-symbols-outlined text-accent-neural-emerald text-2xl">check_circle</span>
+                        <div>
+                            <p class="text-sm font-semibold text-primary">Answer Sheet Uploaded</p>
+                            <p class="text-xs text-secondary font-medium">Your solution sheet was successfully submitted. (Persistent image storage is disabled for this practice session.)</p>
                         </div>
                     </div>
+                `;
+            } else {
+                uploadStatusHTML = `
+                    <div class="p-4 bg-surface-container border border-border-subtle rounded-lg flex items-center gap-3 text-secondary">
+                        <span class="material-symbols-outlined text-2xl text-secondary">error_outline</span>
+                        <div>
+                            <p class="text-sm font-semibold">No Answer Sheet Uploaded</p>
+                            <p class="text-xs">No solution was submitted for this question.</p>
+                        </div>
+                    </div>
+                `;
+            }
+
+            // Suggestions & Marks
+            let evaluationHTML = '';
+            if (item.evaluated) {
+                evaluationHTML = `
+                    <div class="p-4 bg-white border border-border-subtle rounded-lg space-y-3 mt-3">
+                        <div class="flex items-center justify-between border-b border-border-subtle pb-3">
+                            <div class="flex items-center gap-2 text-primary">
+                                <span class="material-symbols-outlined text-base">verified</span>
+                                <h5 class="text-xs font-bold uppercase tracking-wider leading-none">AI Grading Details</h5>
+                            </div>
+                            <span class="text-sm font-bold text-accent-neural-emerald">${item.marks}/10</span>
+                        </div>
+                        <div class="text-xs sm:text-sm text-secondary leading-relaxed space-y-2">${formatMarkdown(item.suggestions)}</div>
+                    </div>
+                `;
+            }
+
+            answerContentHTML = `
+                <div class="flex flex-col gap-1">
+                    ${uploadStatusHTML}
+                    ${evaluationHTML}
                 </div>
             `;
-            incorrectContainer.insertAdjacentHTML('beforeend', auditMarkup);
-        });
+        } else {
+            answerContentHTML = `
+                <div class="p-3 bg-surface-container border border-border-subtle rounded text-xs text-primary">
+                    <span class="font-bold block uppercase tracking-wider text-[9px] text-secondary mb-1">Your Selection</span>
+                    <span>Option ${item.selected || 'Unanswered'}</span>
+                </div>
+            `;
+        }
+
+        const auditMarkup = `
+            <div class="bg-white/40 border border-border-subtle p-5 rounded-lg flex flex-col gap-3 text-left">
+                <div class="flex justify-between items-start gap-4">
+                    <span class="px-2.5 py-1 rounded bg-primary text-on-primary font-mono text-xs font-bold">Q. ${item.qId}</span>
+                </div>
+                <p class="text-sm font-semibold text-primary leading-relaxed">${item.question}</p>
+                ${answerContentHTML}
+            </div>
+        `;
+        incorrectContainer.insertAdjacentHTML('beforeend', auditMarkup);
+    });
+
+    function formatMarkdown(str) {
+        if (!str) return '';
+        let escaped = str
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;");
+        escaped = escaped.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+        escaped = escaped.replace(/^\s*-\s+(.*?)$/gm, '• $1<br>');
+        escaped = escaped.replace(/^\s*\*\s+(.*?)$/gm, '• $1<br>');
+        return escaped;
     }
 
-    window.handleLogout = function() {
-        StateManager.logout();
-    };
+
 
     window.toggleMobileMenu = function() {
         const menu = document.getElementById('mobileMenu');
@@ -481,6 +403,11 @@
             orb.style.transform = `translate(${moveX}px, ${moveY}px)`;
         });
     });
+
+    // Typeset LaTeX math expressions on load
+    if (window.MathJax) {
+        MathJax.typesetPromise();
+    }
 </script>
 
 </body>
