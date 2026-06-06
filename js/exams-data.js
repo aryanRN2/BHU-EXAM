@@ -95,7 +95,7 @@ export const EXAMS = {
         "question": "In APA references, the year appears:",
         "options": [
           "At the end",
-          "After the author\u2019s name",
+          "After the author’s name",
           "Before the title",
           "In the middle"
         ],
@@ -226,8 +226,8 @@ export const EXAMS = {
         "raw_line": 19,
         "question": "Self-plagiarism refers to:",
         "options": [
-          "Copying others\u2019 work",
-          "Reusing one\u2019s own work without citation",
+          "Copying others’ work",
+          "Reusing one’s own work without citation",
           "Writing new content",
           "Peer review"
         ],
@@ -356,7 +356,7 @@ export const EXAMS = {
       },
       {
         "raw_line": 30,
-        "question": "In APA style, how many authors are listed before using \u201cet al.\u201d in in-text citations (7th edition)?",
+        "question": "In APA style, how many authors are listed before using “et al.” in in-text citations (7th edition)?",
         "options": [
           "One",
           "Two",
@@ -428,7 +428,7 @@ export const EXAMS = {
       },
       {
         "raw_line": 37,
-        "question": "In MLA style, how many authors are listed before using \u201cet al.\u201d?",
+        "question": "In MLA style, how many authors are listed before using “et al.”?",
         "options": [
           "One",
           "Two",
@@ -572,7 +572,7 @@ export const EXAMS = {
       },
       {
         "raw_line": 51,
-        "question": "Which style uses \u201cWorks Cited\u201d?",
+        "question": "Which style uses “Works Cited”?",
         "options": [
           "APA",
           "MLA",
@@ -584,7 +584,7 @@ export const EXAMS = {
       },
       {
         "raw_line": 53,
-        "question": "Which style uses \u201cReferences\u201d?",
+        "question": "Which style uses “References”?",
         "options": [
           "MLA",
           "APA",
@@ -947,7 +947,7 @@ export const EXAMS = {
         "question": "Authority refers to:",
         "options": [
           "Design of website",
-          "Author\u2019s credibility",
+          "Author’s credibility",
           "Page layout",
           "Number of images"
         ],
@@ -1508,7 +1508,7 @@ export const EXAMS = {
       },
       {
         "raw_line": 175,
-        "question": "What is the use of \u201cFind and Replace\u201d feature?",
+        "question": "What is the use of “Find and Replace” feature?",
         "options": [
           "Insert images",
           "Replace text quickly",
@@ -2202,7 +2202,101 @@ export const EXAMS = {
     "id": "matmj31",
     "title": "Linear Algebra",
     "module": "MATMJ31",
-    "comingSoon": true
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Define a vector space over a field. Show that the vector space of all polynomials $F[x]$ over a field $F$ is not finite-dimensional.",
+        "answerKey": "1. **Vector Space Definition**:\nAn Abelian group $(V, +)$ is a vector space over a field $(F, +, \\cdot)$ if there exists a scalar multiplication map $F \\times V \\to V$, denoted by $(a, v) \\mapsto a v$, satisfying the following axioms for all $a, b \\in F$ and $u, v \\in V$:\n- $a(u + v) = au + av$\n- $(a + b)v = av + bv$\n- $(ab)v = a(bv)$\n- $1v = v$, where $1$ is the multiplicative identity of $F$.\n\n2. **Dimension of Polynomial Space $F[x]$**:\n- Suppose $F[x]$ is finite-dimensional, say $\\dim(F[x]) = n$.\n- This implies any set of $n+1$ vectors in $F[x]$ must be linearly dependent.\n- Consider the subset $S = \\{1, x, x^2, \\dots, x^n\\}$ containing $n+1$ polynomials.\n- A linear combination of these elements set to zero is:\n  $$c_0 \\cdot 1 + c_1 x + c_2 x^2 + \\dots + c_n x^n = 0$$\n  Since a polynomial is zero if and only if all its coefficients are zero, we must have $c_0 = c_1 = \\dots = c_n = 0$.\n- Therefore, $S$ is a linearly independent set of size $n+1$. This contradicts the assumption that $\\dim(F[x]) = n$. Thus, $F[x]$ is infinite-dimensional."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Let $V_1$ and $V_2$ be subspaces of a vector space $V(F)$. Show that $V_1 \\cup V_2$ is a subspace of $V$ if and only if either $V_1 \\subseteq V_2$ or $V_2 \\subseteq V_1$.",
+        "answerKey": "1. **Direct Statement (If $V_1 \\subseteq V_2$ or $V_2 \\subseteq V_1$, then $V_1 \\cup V_2$ is a subspace)**:\n- If $V_1 \\subseteq V_2$, then $V_1 \\cup V_2 = V_2$, which is a subspace.\n- If $V_2 \\subseteq V_1$, then $V_1 \\cup V_2 = V_1$, which is a subspace.\n\n2. **Converse Statement (If $V_1 \\cup V_2$ is a subspace, then $V_1 \\subseteq V_2$ or $V_2 \\subseteq V_1$)**:\n- We prove by contradiction. Assume $V_1 \\not\\subseteq V_2$ and $V_2 \\not\\subseteq V_1$.\n- Since $V_1 \\not\\subseteq V_2$, there exists a vector $v_1 \\in V_1$ such that $v_1 \\notin V_2$.\n- Since $V_2 \\not\\subseteq V_1$, there exists a vector $v_2 \\in V_2$ such that $v_2 \\notin V_1$.\n- Note that both $v_1, v_2 \\in V_1 \\cup V_2$.\n- Since $V_1 \\cup V_2$ is assumed to be a subspace, it must be closed under vector addition. Thus, $w = v_1 + v_2 \\in V_1 \\cup V_2$.\n- This implies either $w \\in V_1$ or $w \\in V_2$:\n  - If $w \\in V_1$, then since $V_1$ is a subspace, $v_2 = w - v_1 \\in V_1$, which contradicts $v_2 \\notin V_1$.\n  - If $w \\in V_2$, then since $V_2$ is a subspace, $v_1 = w - v_2 \\in V_2$, which contradicts $v_1 \\notin V_2$.\n- Since both cases lead to a contradiction, our assumption is false. Hence, $V_1 \\subseteq V_2$ or $V_2 \\subseteq V_1$."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Prove that any two bases of a finitely generated vector space $V(F)$ have the same number of elements.",
+        "answerKey": "1. **Theorem Setup**:\nLet $V(F)$ be a finitely generated vector space. Let $B_1 = \\{u_1, u_2, \\dots, u_m\\}$ and $B_2 = \\{v_1, v_2, \\dots, v_n\\}$ be two bases of $V$. We need to show that $m = n$.\n\n2. **Using the Replacement Theorem**:\n- Since $B_1$ is a basis, it spans $V$. And since $B_2$ is a basis, its elements $\\{v_1, v_2, \\dots, v_n\\}$ are linearly independent.\n- By Steinitz Replacement Theorem, the number of linearly independent vectors cannot exceed the number of spanning vectors. Thus:\n  $$n \\leq m$$\n- Conversely, swap the roles of $B_1$ and $B_2$:\n  - $B_2$ spans $V$, and $B_1$ is a linearly independent set of size $m$.\n  - Applying the Replacement Theorem again yields:\n    $$m \\leq n$$\n\n3. **Conclusion**:\nSince $n \\leq m$ and $m \\leq n$, we must have $m = n$. The size of any basis is unique and is defined as the dimension of $V$."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Let $W_1$ and $W_2$ be subspaces of a finite-dimensional vector space $V(F)$. Show that $\\dim(W_1 + W_2) = \\dim W_1 + \\dim W_2 - \\dim(W_1 \\cap W_2)$.",
+        "answerKey": "1. **Basis Setup**:\n- Let $W_1 \\cap W_2$ be a subspace of $V$. Since $V$ is finite-dimensional, let $\\dim(W_1 \\cap W_2) = k$, with basis $B = \\{v_1, v_2, \\dots, v_k\\}$.\n- By the Basis Extension Theorem, we can extend $B$ to a basis of $W_1$:\n  $$B_1 = \\{v_1, \\dots, v_k, x_1, \\dots, x_r\\} \\implies \\dim W_1 = k + r$$\n- Similarly, extend $B$ to a basis of $W_2$:\n  $$B_2 = \\{v_1, \\dots, v_k, y_1, \\dots, y_s\\} \\implies \\dim W_2 = k + s$$\n\n2. **Span of $W_1 + W_2$**:\n- We claim that $B_3 = \\{v_1, \\dots, v_k, x_1, \\dots, x_r, y_1, \\dots, y_s\\}$ is a basis of $W_1 + W_2$.\n- Clearly, $B_3$ spans $W_1 + W_2$ because any $w \\in W_1 + W_2$ can be written as $w_1 + w_2$, where $w_1 \\in \\text{span}(B_1)$ and $w_2 \\in \\text{span}(B_2)$.\n\n3. **Linear Independence of $B_3$**:\n- Let $\\sum c_i v_i + \\sum a_j x_j + \\sum b_l y_l = 0$.\n- Then $\\sum b_l y_l = -(\\sum c_i v_i + \\sum a_j x_j)$.\n- Since the LHS is in $W_2$ and the RHS is in $W_1$, this vector must be in $W_1 \\cap W_2$.\n- Thus, $\\sum b_l y_l = \\sum d_i v_i$ for some scalars $d_i$, which implies $\\sum d_i v_i - \\sum b_l y_l = 0$.\n- Since $B_2 = \\{v_i, y_l\\}$ is linearly independent, we must have all $b_l = 0$.\n- The original equation reduces to $\\sum c_i v_i + \\sum a_j x_j = 0$. Since $B_1$ is a basis, all $c_i = 0$ and $a_j = 0$.\n- Thus, $B_3$ is linearly independent and forms a basis.\n- Therefore, $\\dim(W_1 + W_2) = k + r + s = (k+r) + (k+s) - k = \\dim W_1 + \\dim W_2 - \\dim(W_1 \\cap W_2)$."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Show that the sum $V_1 + V_2$ of two subspaces of a vector space $V(F)$ is the subspace generated by $V_1 \\cup V_2$.",
+        "answerKey": "1. **Definition of Subspace Generated by a Set**:\nThe subspace generated by $S = V_1 \\cup V_2$, denoted by $L(S)$, is the smallest subspace containing $S$. It consists of all finite linear combinations of vectors in $S$.\n\n2. **Double Containment Proof**:\n- **Show $V_1 + V_2 \\subseteq L(V_1 \\cup V_2)$**:\n  - Let $w \\in V_1 + V_2$. Then $w = v_1 + v_2$ for some $v_1 \\in V_1$ and $v_2 \\in V_2$.\n  - Since $v_1, v_2 \\in V_1 \\cup V_2$, $w$ is a linear combination of elements in $V_1 \\cup V_2$. Thus $w \\in L(V_1 \\cup V_2)$.\n- **Show $L(V_1 \\cup V_2) \\subseteq V_1 + V_2$**:\n  - Let $x \\in L(V_1 \\cup V_2)$. Then $x$ is a linear combination of vectors from $V_1 \\cup V_2$.\n  - We can group the vectors in $V_1$ and $V_2$ separately:\n    $$x = (a_1 u_1 + \\dots + a_p u_p) + (b_1 w_1 + \\dots + b_q w_q)$$\n    where $u_i \\in V_1$ and $w_j \\in V_2$.\n  - Since $V_1$ and $V_2$ are subspaces, $v_1 = \\sum a_i u_i \\in V_1$ and $v_2 = \\sum b_j w_j \\in V_2$.\n  - Thus, $x = v_1 + v_2 \\in V_1 + V_2$.\n\n3. **Conclusion**:\nBoth containments hold, hence $V_1 + V_2 = L(V_1 \\cup V_2)$."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "State and prove the Rank-Nullity Theorem for a linear transformation between vector spaces.",
+        "answerKey": "1. **Theorem Statement**:\nLet $T: U \\to V$ be a linear transformation where $U(F)$ is finite-dimensional. Then:\n$$\\text{rank}(T) + \\text{nullity}(T) = \\dim(U)$$\nwhere $\\text{rank}(T) = \\dim(\\text{Im } T)$ and $\\text{nullity}(T) = \\dim(\\text{Ker } T)$.\n\n2. **Proof**:\n- Let $\\dim(U) = n$ and let $\\text{Ker } T$ have dimension $k$, with basis $B_k = \\{u_1, u_2, \\dots, u_k\\}$. Thus $\\text{nullity}(T) = k$.\n- Extend $B_k$ to a basis of $U$:\n  $$B_n = \\{u_1, u_2, \\dots, u_k, w_1, w_2, \\dots, w_r\\} \\implies n = k + r$$\n- We need to show that $S = \\{T(w_1), T(w_2), \\dots, T(w_r)\\}$ is a basis for $\\text{Im } T$.\n\n3. **Span of $\\text{Im } T$**:\n- Any $v \\in \\text{Im } T$ is $T(u)$ for some $u \\in U$. Write $u$ as a linear combination of $B_n$:\n  $$u = \\sum c_i u_i + \\sum d_j w_j$$\n- Applying $T$ (and using $T(u_i) = 0$ as $u_i \\in \\text{Ker } T$):\n  $$T(u) = \\sum c_i T(u_i) + \\sum d_j T(w_j) = \\sum d_j T(w_j)$$\n- Thus $S$ spans $\\text{Im } T$.\n\n4. **Linear Independence of $S$**:\n- Let $\\sum d_j T(w_j) = 0 \\implies T(\\sum d_j w_j) = 0$.\n- This means $\\sum d_j w_j \\in \\text{Ker } T$, so it can be written as a linear combination of $B_k$:\n  $$\\sum d_j w_j = \\sum c_i u_i \\implies \\sum c_i u_i - \\sum d_j w_j = 0$$\n- Since $B_n$ is a basis, all coefficients must be zero, so $d_j = 0$ for all $j$.\n- Thus $S$ is linearly independent and is a basis of $\\text{Im } T$ with size $r$.\n- Therefore, $\\text{rank}(T) = r$, and $\\text{rank}(T) + \\text{nullity}(T) = r + k = n = \\dim(U)$."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Let $T: V_1(F) \\to V_2(F)$ be a linear transformation. Show that $\\text{Ker } T = \\{0\\}$ if and only if $T$ is one-to-one (injective).",
+        "answerKey": "1. **Direct Statement (If $T$ is one-to-one, then $\\text{Ker } T = \\{0\\}$)**:\n- Let $u \\in \\text{Ker } T$. By definition of kernel, $T(u) = 0$.\n- We also know that for any linear transformation, $T(0) = 0$.\n- Thus, $T(u) = T(0)$.\n- Since $T$ is one-to-one, $T(x) = T(y) \\implies x = y$. Therefore, $u = 0$.\n- Hence, $\\text{Ker } T = \\{0\\}$.\n\n2. **Converse Statement (If $\\text{Ker } T = \\{0\\}$, then $T$ is one-to-one)**:\n- Assume $\\text{Ker } T = \\{0\\}$. Let $u, v \\in V_1$ such that $T(u) = T(v)$.\n- By linearity of $T$:\n  $$T(u) - T(v) = 0 \\implies T(u - v) = 0$$\n- This implies $u - v \\in \\text{Ker } T$.\n- Since $\\text{Ker } T = \\{0\\}$, we must have $u - v = 0$, which means $u = v$.\n- Thus, $T$ is one-to-one."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Find the rank and nullity of the linear transformation $T: \\mathbb{R}^3 \\to \\mathbb{R}^3$ defined by $T(x_1, x_2, x_3) = (x_1 - x_2, 2x_1 + x_2 + x_3, x_3)$.",
+        "answerKey": "1. **Find Ker $T$ (Null Space)**:\n- $T(x_1, x_2, x_3) = (0,0,0)$ gives the system of equations:\n  1) $x_1 - x_2 = 0 \\implies x_1 = x_2$\n  2) $2x_1 + x_2 + x_3 = 0$\n  3) $x_3 = 0$\n- Substitute $x_3 = 0$ and $x_1 = x_2$ into (2):\n  $$2x_1 + x_1 + 0 = 0 \\implies 3x_1 = 0 \\implies x_1 = 0 \\implies x_2 = 0$$\n- The only solution is $(0,0,0)$. Thus, $\\text{Ker } T = \\{(0,0,0)\\}$.\n- Therefore, $\\text{nullity}(T) = \\dim(\\text{Ker } T) = 0$.\n\n2. **Find Rank $T$ using Rank-Nullity Theorem**:\n- The dimension of the domain $\\mathbb{R}^3$ is $3$.\n- By the Rank-Nullity Theorem:\n  $$\\text{rank}(T) + \\text{nullity}(T) = \\dim(\\mathbb{R}^3) \\implies \\text{rank}(T) + 0 = 3$$\n- Therefore, $\\text{rank}(T) = 3$.\n- Since $\\text{rank}(T) = 3$ and codomain dimension is $3$, $T$ is an isomorphism (bijective)."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "Show that a square matrix $A$ and its transpose $A^T$ have the same characteristic polynomial.",
+        "answerKey": "1. **Characteristic Polynomial Definition**:\nThe characteristic polynomial of a square matrix $A$ of order $n$ is defined by:\n$$P_A(\\lambda) = \\det(A - \\lambda I)$$\nwhere $I$ is the identity matrix of order $n$.\n\n2. **Determinant Properties**:\n- We know that for any square matrix $M$, the determinant of $M$ is equal to the determinant of its transpose, i.e., $\\det(M) = \\det(M^T)$.\n- Let $M = A - \\lambda I$. Then:\n  $$M^T = (A - \\lambda I)^T = A^T - (\\lambda I)^T = A^T - \\lambda I^T = A^T - \\lambda I$$\n\n3. **Equivalence Proof**:\n- Using the transpose property of determinants:\n  $$\\det(A - \\lambda I) = \\det((A - \\lambda I)^T) = \\det(A^T - \\lambda I)$$\n- Thus, $P_A(\\lambda) = P_{A^T}(\\lambda)$.\n- Since they have the same characteristic polynomial, they have the exact same eigenvalues."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Prove that a square matrix $A$ of order $n$ is diagonalizable if and only if $A$ has $n$ linearly independent eigenvectors.",
+        "answerKey": "1. **Diagonalizability Definition**:\nA matrix $A$ is diagonalizable if there exists an invertible matrix $P$ and a diagonal matrix $D$ such that $P^{-1} A P = D$, which is equivalent to $A P = P D$.\n\n2. **Direct Statement (If $A$ is diagonalizable, then it has $n$ linearly independent eigenvectors)**:\n- Let $P = [v_1 | v_2 | \\dots | v_n]$ be the column representation of $P$. Since $P$ is invertible, its columns are linearly independent.\n- Let $D = \\text{diag}(\\lambda_1, \\lambda_2, \\dots, \\lambda_n)$.\n- $A P = P D \\implies A [v_1 | \\dots | v_n] = [v_1 | \\dots | v_n] \\text{diag}(\\lambda_1, \\dots, \\lambda_n) = [\\lambda_1 v_1 | \\dots | \\lambda_n v_n]$.\n- Matching columns: $A v_i = \\lambda_i v_i$ for each $i = 1, \\dots, n$.\n- Since $P$ is invertible, $v_i \\neq 0$. Thus, $v_1, \\dots, v_n$ are $n$ linearly independent eigenvectors of $A$.\n\n3. **Converse Statement (If $A$ has $n$ linearly independent eigenvectors, then it is diagonalizable)**:\n- Let $v_1, \\dots, v_n$ be $n$ linearly independent eigenvectors corresponding to eigenvalues $\\lambda_1, \\dots, \\lambda_n$.\n- Construct $P = [v_1 | \\dots | v_n]$. Since the columns are linearly independent, $P$ is invertible.\n- Construct $D = \\text{diag}(\\lambda_1, \\dots, \\lambda_n)$.\n- Calculate $A P = [A v_1 | \\dots | A v_n] = [\\lambda_1 v_1 | \\dots | \\lambda_n v_n] = P D$.\n- Since $P$ is invertible, $P^{-1} A P = D$. Thus, $A$ is diagonalizable."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "State the Cayley-Hamilton Theorem. Verify it for the matrix $A = \\begin{pmatrix} 0 & 1 & 2 \\\\ 1 & 2 & 3 \\\\ 3 & 1 & 1 \\end{pmatrix}$.",
+        "answerKey": "1. **Cayley-Hamilton Theorem Statement**:\nEvery square matrix satisfies its own characteristic equation. That is, if $P(\\lambda) = \\det(A - \\lambda I) = 0$ is the characteristic equation, then $P(A) = 0$.\n\n2. **Find Characteristic Equation of $A$**:\n$$\\det(A - \\lambda I) = \\begin{vmatrix} -\\lambda & 1 & 2 \\\\ 1 & 2-\\lambda & 3 \\\\ 3 & 1 & 1-\\lambda \\end{vmatrix} = 0$$\n- Expanding the determinant:\n  $$-\\lambda [ (2-\\lambda)(1-\\lambda) - 3 ] - 1 [ (1-\\lambda) - 9 ] + 2 [ 1 - 3(2-\\lambda) ] = 0$$\n  $$-\\lambda [ \\lambda^2 - 3\\lambda - 1 ] - (-\\lambda - 8) + 2(3\\lambda - 5) = 0$$\n  $$-\\lambda^3 + 3\\lambda^2 + \\lambda + \\lambda + 8 + 6\\lambda - 10 = 0 \\implies -\\lambda^3 + 3\\lambda^2 + 8\\lambda - 2 = 0$$\n- The characteristic equation is $\\lambda^3 - 3\\lambda^2 - 8\\lambda + 2 = 0$.\n\n3. **Verify $A^3 - 3A^2 - 8A + 2I = 0$**:\n- Compute $A^2$:\n  $$A^2 = \\begin{pmatrix} 0 & 1 & 2 \\\\ 1 & 2 & 3 \\\\ 3 & 1 & 1 \\end{pmatrix} \\begin{pmatrix} 0 & 1 & 2 \\\\ 1 & 2 & 3 \\\\ 3 & 1 & 1 \\end{pmatrix} = \\begin{pmatrix} 7 & 4 & 5 \\\\ 11 & 8 & 11 \\\\ 4 & 6 & 10 \\end{pmatrix}$$\n- Compute $A^3$:\n  $$A^3 = A^2 A = \\begin{pmatrix} 7 & 4 & 5 \\\\ 11 & 8 & 11 \\\\ 4 & 6 & 10 \\end{pmatrix} \\begin{pmatrix} 0 & 1 & 2 \\\\ 1 & 2 & 3 \\\\ 3 & 1 & 1 \\end{pmatrix} = \\begin{pmatrix} 19 & 20 & 31 \\\\ 41 & 38 & 57 \\\\ 36 & 26 & 36 \\end{pmatrix}$$\n- Compute $A^3 - 3A^2 - 8A + 2I$:\n  $$\\begin{pmatrix} 19 & 20 & 31 \\\\ 41 & 38 & 57 \\\\ 36 & 26 & 36 \\end{pmatrix} - \\begin{pmatrix} 21 & 12 & 15 \\\\ 33 & 24 & 33 \\\\ 12 & 18 & 30 \\end{pmatrix} - \\begin{pmatrix} 0 & 8 & 16 \\\\ 8 & 16 & 24 \\\\ 24 & 8 & 8 \\end{pmatrix} + \\begin{pmatrix} 2 & 0 & 0 \\\\ 0 & 2 & 0 \\\\ 0 & 0 & 2 \\end{pmatrix}$$\n  - Row 1, Col 1: $19 - 21 - 0 + 2 = 0$\n  - Row 1, Col 2: $20 - 12 - 8 + 0 = 0$\n  - Row 1, Col 3: $31 - 15 - 16 + 0 = 0$\n  - Row 2, Col 1: $41 - 33 - 8 + 0 = 0$\n  - Row 2, Col 2: $38 - 24 - 16 + 2 = 0$\n  - Row 3, Col 1: $36 - 12 - 24 + 0 = 0$\n- All elements evaluate to 0. Thus, the theorem is verified."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Find the eigenvalues and eigenvectors of the upper triangular matrix $A = \\begin{pmatrix} 1 & 2 & 3 \\\\ 0 & -4 & 2 \\\\ 0 & 0 & 7 \\end{pmatrix}$.",
+        "answerKey": "1. **Eigenvalues**:\n- Since $A$ is an upper triangular matrix, its eigenvalues are simply the diagonal entries:\n  $$\\lambda_1 = 1, \\quad \\lambda_2 = -4, \\quad \\lambda_3 = 7$$\n\n2. **Eigenvector for $\\lambda_1 = 1$**:\n- Solve $(A - I)x = 0$:\n  $$\\begin{pmatrix} 0 & 2 & 3 \\\\ 0 & -5 & 2 \\\\ 0 & 0 & 6 \\end{pmatrix} \\begin{pmatrix} x_1 \\\\ x_2 \\\\ x_3 \\end{pmatrix} = \\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\end{pmatrix}$$\n- This gives $6x_3 = 0 \\implies x_3 = 0$, and $-5x_2 + 2x_3 = 0 \\implies x_2 = 0$.\n- $x_1$ is a free variable. Setting $x_1 = 1$ gives the eigenvector $v_1 = (1, 0, 0)^T$.\n\n3. **Eigenvector for $\\lambda_2 = -4$**:\n- Solve $(A + 4I)x = 0$:\n  $$\\begin{pmatrix} 5 & 2 & 3 \\\\ 0 & 0 & 2 \\\\ 0 & 0 & 11 \\end{pmatrix} \\begin{pmatrix} x_1 \\\\ x_2 \\\\ x_3 \\end{pmatrix} = \\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\end{pmatrix}$$\n- This gives $x_3 = 0$ and $5x_1 + 2x_2 = 0 \\implies x_1 = -\\frac{2}{5} x_2$.\n- Set $x_2 = 5 \\implies x_1 = -2$. The eigenvector is $v_2 = (-2, 5, 0)^T$.\n\n4. **Eigenvector for $\\lambda_3 = 7$**:\n- Solve $(A - 7I)x = 0$:\n  $$\\begin{pmatrix} -6 & 2 & 3 \\\\ 0 & -11 & 2 \\\\ 0 & 0 & 0 \\end{pmatrix} \\begin{pmatrix} x_1 \\\\ x_2 \\\\ x_3 \\end{pmatrix} = \\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\end{pmatrix}$$\n- This gives $-11x_2 + 2x_3 = 0 \\implies x_2 = \\frac{2}{11} x_3$.\n- Substitute into the first equation: $-6x_1 + 2(\\frac{2}{11} x_3) + 3x_3 = 0 \\implies 6x_1 = \\frac{37}{11} x_3 \\implies x_1 = \\frac{37}{66} x_3$.\n- Set $x_3 = 66 \\implies x_1 = 37, x_2 = 12$. The eigenvector is $v_3 = (37, 12, 66)^T$."
+      },
+      {
+        "id": 13,
+        "unit": "IV",
+        "question": "If $x$ and $y$ are vectors in an Inner Product Space, show that $\\|x + y\\|^2 + \\|x - y\\|^2 = 2\\|x\\|^2 + 2\\|y\\|^2$.",
+        "answerKey": "1. **Properties of Inner Product**:\nRecall the definition of norm in terms of inner product: $\\|v\\|^2 = \\langle v, v \\rangle$. Using linearity of the inner product in both slots (for real inner product spaces):\n\n2. **Expansion of $\\|x + y\\|^2$**:\n$$\\|x + y\\|^2 = \\langle x + y, x + y \\rangle = \\langle x, x \\rangle + \\langle x, y \\rangle + \\langle y, x \\rangle + \\langle y, y \\rangle$$\n$$\\|x + y\\|^2 = \\|x\\|^2 + 2\\text{Re}\\langle x, y \\rangle + \\|y\\|^2$$\n(For real inner product spaces, this is $\\|x\\|^2 + 2\\langle x, y \\rangle + \\|y\\|^2$).\n\n3. **Expansion of $\\|x - y\\|^2$**:\n$$\\|x - y\\|^2 = \\langle x - y, x - y \\rangle = \\langle x, x \\rangle - \\langle x, y \\rangle - \\langle y, x \\rangle + \\langle y, y \\rangle$$\n$$\\|x - y\\|^2 = \\|x\\|^2 - 2\\text{Re}\\langle x, y \\rangle + \\|y\\|^2$$\n\n4. **Adding the Equations**:\n$$\\|x + y\\|^2 + \\|x - y\\|^2 = (\\|x\\|^2 + 2\\text{Re}\\langle x, y \\rangle + \\|y\\|^2) + (\\|x\\|^2 - 2\\text{Re}\\langle x, y \\rangle + \\|y\\|^2)$$\n$$\\|x + y\\|^2 + \\|x - y\\|^2 = 2\\|x\\|^2 + 2\\|y\\|^2$$\nThis is known as the **Parallelogram Law**."
+      },
+      {
+        "id": 14,
+        "unit": "IV",
+        "question": "State and prove Bessel's Inequality for a finite orthonormal set in an inner product space.",
+        "answerKey": "1. **Bessel's Inequality Statement**:\nLet $\\{e_1, e_2, \\dots, e_k\\自$ be an orthonormal set in an inner product space $V$. For any $x \\in V$, the following inequality holds:\n$$\\sum_{i=1}^k |\\langle x, e_i \\rangle|^2 \\leq \\|x\\|^2$$\n\n2. **Proof**:\n- Consider the vector $y = x - \\sum_{i=1}^k \\langle x, e_i \\rangle e_i$.\n- Since the norm is non-negative, we have $\\|y\\|^2 \\geq 0$.\n- Write $\\|y\\|^2$ in terms of inner products:\n  $$\\|y\\|^2 = \\langle x - \\sum_{i=1}^k \\langle x, e_i \\rangle e_i, x - \\sum_{j=1}^k \\langle x, e_j \\rangle e_j \\rangle$$\n  $$= \\langle x, x \\rangle - \\sum_{j=1}^k \\overline{\\langle x, e_j \\rangle} \\langle x, e_j \\rangle - \\sum_{i=1}^k \\langle x, e_i \\rangle \\langle e_i, x \\rangle + \\sum_{i=1}^k \\sum_{j=1}^k \\langle x, e_i \\rangle \\overline{\\langle x, e_j \\rangle} \\langle e_i, e_j \\rangle$$\n- Since $\\{e_i\\}$ is orthonormal, $\\langle e_i, e_j \\rangle = \\delta_{ij}$:\n  $$\\|y\\|^2 = \\|x\\|^2 - \\sum_{j=1}^k |\\langle x, e_j \\rangle|^2 - \\sum_{i=1}^k |\\langle x, e_i \\rangle|^2 + \\sum_{i=1}^k |\\langle x, e_i \\rangle|^2$$\n  $$= \\|x\\|^2 - \\sum_{i=1}^k |\\langle x, e_i \\rangle|^2$$\n- Since $\\|y\\|^2 \\geq 0$, we have:\n  $$\\|x\\|^2 - \\sum_{i=1}^k |\\langle x, e_i \\rangle|^2 \\geq 0 \\implies \\sum_{i=1}^k |\\langle x, e_i \\rangle|^2 \\leq \\|x\\|^2$$"
+      },
+      {
+        "id": 15,
+        "unit": "IV",
+        "question": "Apply the Gram-Schmidt orthogonalization process to the vectors $y_1 = (1, 0, 1)$, $y_2 = (1, 0, -1)$, and $y_3 = (0, 3, 4)$ to obtain an orthonormal basis for $\\mathbb{R}^3(R)$.",
+        "answerKey": "1. **Step 1: Orthogonalize Vector 1**:\n- Set $u_1 = y_1 = (1, 0, 1)$.\n- Calculate its norm squared: $\\|u_1\\|^2 = 1^2 + 0^2 + 1^2 = 2$.\n\n2. **Step 2: Orthogonalize Vector 2**:\n- Compute projection of $y_2$ onto $u_1$:\n  $$\\langle y_2, u_1 \\rangle = (1)(1) + (0)(0) + (-1)(1) = 0$$\n- Set $u_2 = y_2 - \\frac{\\langle y_2, u_1 \\rangle}{\\|u_1\\|^2} u_1 = (1, 0, -1) - 0 = (1, 0, -1)$.\n- Calculate its norm squared: $\\|u_2\\|^2 = 1^2 + 0^2 + (-1)^2 = 2$.\n\n3. **Step 3: Orthogonalize Vector 3**:\n- Compute projections of $y_3$ onto $u_1$ and $u_2$:\n  $$\\langle y_3, u_1 \\rangle = (0)(1) + (3)(0) + (4)(1) = 4$$\n  $$\\langle y_3, u_2 \\rangle = (0)(1) + (3)(0) + (4)(-1) = -4$$\n- Compute $u_3$:\n  $$u_3 = y_3 - \\frac{\\langle y_3, u_1 \\rangle}{\\|u_1\\|^2} u_1 - \\frac{\\langle y_3, u_2 \\rangle}{\\|u_2\\|^2} u_2$$\n  $$u_3 = (0, 3, 4) - \\frac{4}{2} (1, 0, 1) - \\frac{-4}{2} (1, 0, -1)$$\n  $$u_3 = (0, 3, 4) - 2(1, 0, 1) + 2(1, 0, -1) = (0, 3, 0)$$\n- Calculate its norm squared: $\\|u_3\\|^2 = 0^2 + 3^2 + 0^2 = 9$.\n\n4. **Step 4: Normalize the orthogonal vectors**:\n- $e_1 = \\frac{u_1}{\\|u_1\\|} = \\frac{1}{\\sqrt{2}} (1, 0, 1) = \\left(\\frac{1}{\\sqrt{2}}, 0, \\frac{1}{\\sqrt{2}}\\right)$\n- $e_2 = \\frac{u_2}{\\|u_2\\|} = \\frac{1}{\\sqrt{2}} (1, 0, -1) = \\left(\\frac{1}{\\sqrt{2}}, 0, -\\frac{1}{\\sqrt{2}}\\right)$\n- $e_3 = \\frac{u_3}{\\|u_3\\|} = \\frac{1}{3} (0, 3, 0) = (0, 1, 0)$\n- The set $\\{e_1, e_2, e_3\\}$ forms the desired orthonormal basis."
+      }
+    ],
+    "type": "theory",
+    "duration": 180
   },
   "matmj32": {
     "id": "matmj32",
@@ -2894,7 +2988,7 @@ export const EXAMS = {
         "id": 16,
         "unit": "II",
         "question": "A uniform ladder of weight $W$ rests with its foot on a rough horizontal floor (coefficient of friction $\\mu$) and its top against a smooth vertical wall (see figure). Find the minimum inclination $\\theta$ of the ladder to the horizontal so that it does not slip.",
-        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 260\" class=\"w-full max-w-sm h-auto\"><rect width=\"100%\" height=\"100%\" fill=\"#fafafa\" rx=\"8\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><defs><marker id=\"f-arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 1.5 L 8 5 L 0 8.5 z\" fill=\"#dc2626\"/></marker></defs><line x1=\"40\" y1=\"210\" x2=\"330\" y2=\"210\" stroke=\"#4b5563\" stroke-width=\"3\"/><line x1=\"80\" y1=\"30\" x2=\"80\" y2=\"210\" stroke=\"#4b5563\" stroke-width=\"3\"/><path d=\"M 240 210 A 40 40 0 0 0 252 188\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.5\"/><text x=\"228\" y=\"200\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#374151\">θ</text><line x1=\"280\" y1=\"210\" x2=\"80\" y2=\"50\" stroke=\"#1f2937\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"280\" cy=\"210\" r=\"3\" fill=\"#111827\"/><circle cx=\"80\" cy=\"50\" r=\"3\" fill=\"#111827\"/><circle cx=\"180\" cy=\"130\" r=\"4\" fill=\"#3b82f6\"/><text x=\"188\" y=\"125\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#3b82f6\">G (CG)</text><line x1=\"180\" y1=\"130\" x2=\"180\" y2=\"180\" stroke=\"#dc2626\" stroke-width=\"2\" marker-end=\"url(#f-arr)\/><text x=\"190\" y=\"165\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#dc2626\">W</text><line x1=\"280\" y1=\"210\" x2=\"280\" y2=\"165\" stroke=\"#10b981\" stroke-width=\"2\" marker-end=\"url(#f-arr)\/><text x=\"290\" y=\"175\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#10b981\">R</text><line x1=\"280\" y1=\"210\" x2=\"235\" y2=\"210\" stroke=\"#f59e0b\" stroke-width=\"2\" marker-end=\"url(#f-arr)\/><text x=\"245\" y=\"225\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#f59e0b\">f = μR</text><line x1=\"80\" y1=\"50\" x2=\"125\" y2=\"50\" stroke=\"#06b6d4\" stroke-width=\"2\" marker-end=\"url(#f-arr)\/><text x=\"115\" y=\"42\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#06b6d4\">N</text><text x=\"290\" y=\"225\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#374151\">A</text><text x=\"65\" y=\"45\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#374151\">B</text><text x=\"60\" y=\"225\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#6b7280\">Wall</text><text x=\"300\" y=\"225\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#6b7280\">Floor</text></svg>",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 260\" class=\"w-full max-w-sm h-auto\"><rect width=\"100%\" height=\"100%\" fill=\"#fafafa\" rx=\"8\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><defs><marker id=\"f-arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 1.5 L 8 5 L 0 8.5 z\" fill=\"#dc2626\"/></marker></defs><line x1=\"40\" y1=\"210\" x2=\"330\" y2=\"210\" stroke=\"#4b5563\" stroke-width=\"3\"/><line x1=\"80\" y1=\"30\" x2=\"80\" y2=\"210\" stroke=\"#4b5563\" stroke-width=\"3\"/><path d=\"M 240 210 A 40 40 0 0 0 252 188\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.5\"/><text x=\"228\" y=\"200\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#374151\">θ</text><line x1=\"280\" y1=\"210\" x2=\"80\" y2=\"50\" stroke=\"#1f2937\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"280\" cy=\"210\" r=\"3\" fill=\"#111827\"/><circle cx=\"80\" cy=\"50\" r=\"3\" fill=\"#111827\"/><circle cx=\"180\" cy=\"130\" r=\"4\" fill=\"#3b82f6\"/><text x=\"188\" y=\"125\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#3b82f6\">G (CG)</text><line x1=\"180\" y1=\"130\" x2=\"180\" y2=\"180\" stroke=\"#dc2626\" stroke-width=\"2\" marker-end=\"url(#f-arr)/><text x=\"190\" y=\"165\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#dc2626\">W</text><line x1=\"280\" y1=\"210\" x2=\"280\" y2=\"165\" stroke=\"#10b981\" stroke-width=\"2\" marker-end=\"url(#f-arr)/><text x=\"290\" y=\"175\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#10b981\">R</text><line x1=\"280\" y1=\"210\" x2=\"235\" y2=\"210\" stroke=\"#f59e0b\" stroke-width=\"2\" marker-end=\"url(#f-arr)/><text x=\"245\" y=\"225\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#f59e0b\">f = μR</text><line x1=\"80\" y1=\"50\" x2=\"125\" y2=\"50\" stroke=\"#06b6d4\" stroke-width=\"2\" marker-end=\"url(#f-arr)/><text x=\"115\" y=\"42\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#06b6d4\">N</text><text x=\"290\" y=\"225\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#374151\">A</text><text x=\"65\" y=\"45\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#374151\">B</text><text x=\"60\" y=\"225\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#6b7280\">Wall</text><text x=\"300\" y=\"225\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#6b7280\">Floor</text></svg>",
         "answerKey": "1. Let the ladder be AB of length $2l$. Let G be the center of gravity at distance $l$ from both ends.\n2. The forces acting are: weight $W$ downwards at G, normal reaction $R$ upwards at the floor A, friction force $f = \\mu R$ horizontally towards the wall at A, and normal reaction $N$ from the smooth wall at B.\n3. Resolve forces vertically: $R = W$. Resolve forces horizontally: $N = f = \\mu R = \\mu W$.\n4. Take moments about A: $W (l\\cos\\theta) - N (2l\\sin\\theta) = 0 \\implies W \\cos\\theta = 2 \\mu W \\sin\\theta$.\n5. Simplify: $\\cos\\theta = 2\\mu\\sin\\theta \\implies \\tan\\theta = \\frac{1}{2\\mu}$.\n6. The minimum angle is: $\\theta = \\tan^{-1}\\left(\\frac{1}{2\\mu}\\right)$."
       },
       {
@@ -2931,7 +3025,7 @@ export const EXAMS = {
         "id": 22,
         "unit": "III",
         "question": "Derive the radial and transverse components of velocity and acceleration for a particle moving in a plane (see coordinate system in figure).",
-        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" class=\"w-full max-w-sm h-auto\"><rect width=\"100%\" height=\"100%\" fill=\"#fafafa\" rx=\"8\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><defs><marker id=\"u-arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 1.5 L 8 5 L 0 8.5 z\" fill=\"#3b82f6\"/></marker></defs><line x1=\"40\" y1=\"200\" x2=\"320\" y2=\"200\" stroke=\"#9ca3af\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"220\" stroke=\"#9ca3af\" stroke-width=\"1.5\"/><text x=\"325\" y=\"205\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#6b7280\">x</text><text x=\"55\" y=\"35\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#6b7280\">y</text><text x=\"45\" y=\"215\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#374151\">O</text><path d=\"M 100 170 Q 180 130 240 100 T 320 80\" fill=\"none\" stroke=\"#d1d5db\" stroke-width=\"2\" stroke-dasharray=\"2,2\"/><text x=\"300\" y=\"70\" font-family=\"sans-serif\" font-size=\"11\" font-style=\"italic\" fill=\"#9ca3af\">Path</text><path d=\"M 100 200 A 40 40 0 0 0 96 180\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.5\"/><text x=\"105\" y=\"193\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#374151\">θ</text><line x1=\"60\" y1=\"200\" x2=\"240\" y2=\"100\" stroke=\"#111827\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"100\" r=\"4\" fill=\"#ef4444\"/><text x=\"245\" y=\"115\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#ef4444\">P (r, θ)</text><text x=\"145\" y=\"140\" font-family=\"sans-serif\" font-size=\"12\" font-style=\"italic\" fill=\"#374151\">r</text><line x1=\"240\" y1=\"100\" x2=\"295\" y2=\"69\" stroke=\"#3b82f6\" stroke-width=\"2.5\" marker-end=\"url(#u-arr)\/><text x=\"300\" y=\"65\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#3b82f6\">u_r</text><line x1=\"240\" y1=\"100\" x2=\"209\" y2=\"44\" stroke=\"#10b981\" stroke-width=\"2.5\" marker-end=\"url(#u-arr)\/><text x=\"195\" y=\"38\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#10b981\">u_θ</text></svg>",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" class=\"w-full max-w-sm h-auto\"><rect width=\"100%\" height=\"100%\" fill=\"#fafafa\" rx=\"8\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><defs><marker id=\"u-arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 1.5 L 8 5 L 0 8.5 z\" fill=\"#3b82f6\"/></marker></defs><line x1=\"40\" y1=\"200\" x2=\"320\" y2=\"200\" stroke=\"#9ca3af\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"220\" stroke=\"#9ca3af\" stroke-width=\"1.5\"/><text x=\"325\" y=\"205\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#6b7280\">x</text><text x=\"55\" y=\"35\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#6b7280\">y</text><text x=\"45\" y=\"215\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#374151\">O</text><path d=\"M 100 170 Q 180 130 240 100 T 320 80\" fill=\"none\" stroke=\"#d1d5db\" stroke-width=\"2\" stroke-dasharray=\"2,2\"/><text x=\"300\" y=\"70\" font-family=\"sans-serif\" font-size=\"11\" font-style=\"italic\" fill=\"#9ca3af\">Path</text><path d=\"M 100 200 A 40 40 0 0 0 96 180\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.5\"/><text x=\"105\" y=\"193\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#374151\">θ</text><line x1=\"60\" y1=\"200\" x2=\"240\" y2=\"100\" stroke=\"#111827\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"100\" r=\"4\" fill=\"#ef4444\"/><text x=\"245\" y=\"115\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#ef4444\">P (r, θ)</text><text x=\"145\" y=\"140\" font-family=\"sans-serif\" font-size=\"12\" font-style=\"italic\" fill=\"#374151\">r</text><line x1=\"240\" y1=\"100\" x2=\"295\" y2=\"69\" stroke=\"#3b82f6\" stroke-width=\"2.5\" marker-end=\"url(#u-arr)/><text x=\"300\" y=\"65\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#3b82f6\">u_r</text><line x1=\"240\" y1=\"100\" x2=\"209\" y2=\"44\" stroke=\"#10b981\" stroke-width=\"2.5\" marker-end=\"url(#u-arr)/><text x=\"195\" y=\"38\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#10b981\">u_θ</text></svg>",
         "answerKey": "1. Let position be $\\mathbf{r} = r \\mathbf{u}_r$, where $\\mathbf{u}_r = \\cos\\theta\\mathbf{i} + \\sin\\theta\\mathbf{j}$ and $\\mathbf{u}_\\theta = -\\sin\\theta\\mathbf{i} + \\cos\\theta\\mathbf{j}$.\n2. Differentiate unit vectors: $\\frac{d\\mathbf{u}_r}{dt} = \\dot\\theta\\mathbf{u}_\\theta$ and $\\frac{d\\mathbf{u}_\\theta}{dt} = -\\dot\\theta\\mathbf{u}_r$.\n3. Velocity: $\\mathbf{v} = \\frac{d}{dt}(r\\mathbf{u}_r) = \\dot{r}\\mathbf{u}_r + r\\dot\\theta\\mathbf{u}_\\theta$. Radial velocity is $v_r = \\dot{r}$, transverse velocity is $v_\\theta = r\\dot\\theta$.\n4. Acceleration: $\\mathbf{a} = \\frac{d\\mathbf{v}}{dt} = \\frac{d}{dt}(\\dot{r}\\mathbf{u}_r + r\\dot\\theta\\mathbf{u}_\\theta) = \\ddot{r}\\mathbf{u}_r + \\dot{r}(\\dot\\theta\\mathbf{u}_\\theta) + (\\dot{r}\\dot\\theta + r\\ddot\\theta)\\mathbf{u}_\\theta + r\\dot\\theta(-\\dot\\theta\\mathbf{u}_r)$.\n5. Collect terms: $\\mathbf{a} = (\\ddot{r} - r\\dot\\theta^2)\\mathbf{u}_r + (r\\ddot\\theta + 2\\dot{r}\\dot\\theta)\\mathbf{u}_\\theta$.\n6. Radial acceleration is $a_r = \\ddot{r} - r\\dot\\theta^2$, transverse acceleration is $a_\\theta = r\\ddot\\theta + 2\\dot{r}\\dot\\theta = \\frac{1}{r}\\frac{d}{dt}(r^2\\dot\\theta)$."
       },
       {
@@ -3029,7 +3123,7 @@ export const EXAMS = {
         "id": 38,
         "unit": "IV",
         "question": "A particle slides down a smooth cycloid under gravity, starting from rest at the cusp (see geometry in figure). Show that the motion is simple harmonic and find the time period.",
-        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 240\" class=\"w-full max-w-sm h-auto\"><rect width=\"100%\" height=\"100%\" fill=\"#fafafa\" rx=\"8\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><defs><marker id=\"c-arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"5\" markerHeight=\"5\" orient=\"auto-start-reverse\"><path d=\"M 0 1.5 L 8 5 L 0 8.5 z\" fill=\"#dc2626\"/></marker></defs><line x1=\"20\" y1=\"50\" x2=\"360\" y2=\"50\" stroke=\"#9ca3af\" stroke-width=\"2\" stroke-dasharray=\"4,4\"/><text x=\"25\" y=\"42\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#6b7280\">Cusp line</text><path d=\"M 40 50 Q 80 180 180 210 Q 280 180 320 50\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"3\"/><circle cx=\"40\" cy=\"50\" r=\"4\" fill=\"#374151\"/><circle cx=\"320\" cy=\"50\" r=\"4\" fill=\"#374151\"/><circle cx=\"180\" cy=\"210\" r=\"4\" fill=\"#f59e0b\"/><text x=\"25\" y=\"65\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#374151\">Cusp (A)</text><text x=\"310\" y=\"65\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#374151\">Cusp (A')</text><text x=\"165\" y=\"228\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#f59e0b\">Vertex O</text><circle cx=\"110\" cy=\"150\" r=\"5\" fill=\"#ef4444\"/><text x=\"95\" y=\"145\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#ef4444\">P</text><line x1=\"110\" y1=\"150\" x2=\"110\" y2=\"195\" stroke=\"#dc2626\" stroke-width=\"2\" marker-end=\"url(#c-arr)\/><text x=\"115\" y=\"185\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#dc2626\">mg</text><line x1=\"110\" y1=\"150\" x2=\"140\" y2=\"180\" stroke=\"#10b981\" stroke-width=\"1.5\" marker-end=\"url(#c-arr)\/><text x=\"145\" y=\"178\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"bold\" fill=\"#10b981\">mg sin ψ</text><line x1=\"110\" y1=\"150\" x2=\"140\" y2=\"120\" stroke=\"#3b82f6\" stroke-width=\"1.5\" marker-end=\"url(#c-arr)\/><text x=\"145\" y=\"122\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#3b82f6\">R</text><text x=\"135\" y=\"205\" font-family=\"sans-serif\" font-size=\"12\" font-style=\"italic\" fill=\"#374151\">s</text></svg>",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 240\" class=\"w-full max-w-sm h-auto\"><rect width=\"100%\" height=\"100%\" fill=\"#fafafa\" rx=\"8\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><defs><marker id=\"c-arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"5\" markerHeight=\"5\" orient=\"auto-start-reverse\"><path d=\"M 0 1.5 L 8 5 L 0 8.5 z\" fill=\"#dc2626\"/></marker></defs><line x1=\"20\" y1=\"50\" x2=\"360\" y2=\"50\" stroke=\"#9ca3af\" stroke-width=\"2\" stroke-dasharray=\"4,4\"/><text x=\"25\" y=\"42\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#6b7280\">Cusp line</text><path d=\"M 40 50 Q 80 180 180 210 Q 280 180 320 50\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"3\"/><circle cx=\"40\" cy=\"50\" r=\"4\" fill=\"#374151\"/><circle cx=\"320\" cy=\"50\" r=\"4\" fill=\"#374151\"/><circle cx=\"180\" cy=\"210\" r=\"4\" fill=\"#f59e0b\"/><text x=\"25\" y=\"65\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#374151\">Cusp (A)</text><text x=\"310\" y=\"65\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#374151\">Cusp (A')</text><text x=\"165\" y=\"228\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#f59e0b\">Vertex O</text><circle cx=\"110\" cy=\"150\" r=\"5\" fill=\"#ef4444\"/><text x=\"95\" y=\"145\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#ef4444\">P</text><line x1=\"110\" y1=\"150\" x2=\"110\" y2=\"195\" stroke=\"#dc2626\" stroke-width=\"2\" marker-end=\"url(#c-arr)/><text x=\"115\" y=\"185\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#dc2626\">mg</text><line x1=\"110\" y1=\"150\" x2=\"140\" y2=\"180\" stroke=\"#10b981\" stroke-width=\"1.5\" marker-end=\"url(#c-arr)/><text x=\"145\" y=\"178\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"bold\" fill=\"#10b981\">mg sin ψ</text><line x1=\"110\" y1=\"150\" x2=\"140\" y2=\"120\" stroke=\"#3b82f6\" stroke-width=\"1.5\" marker-end=\"url(#c-arr)/><text x=\"145\" y=\"122\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#3b82f6\">R</text><text x=\"135\" y=\"205\" font-family=\"sans-serif\" font-size=\"12\" font-style=\"italic\" fill=\"#374151\">s</text></svg>",
         "answerKey": "1. Let the equation of the cycloid be $s = 4a\\sin\\psi$, where the vertex is at $s=0$ (lowest point) and the cusps are at $s = \\pm 4a$.\n2. The tangent makes an angle $\\psi$ with the horizontal. The equation of motion along the curve (tangential direction) is: $m \\ddot{s} = -m g \\sin\\psi$.\n3. Substitute $\\sin\\psi = \\frac{s}{4a}$ into the equation: $\\ddot{s} = -g \\left(\\frac{s}{4a}\\right) \\implies \\ddot{s} + \\frac{g}{4a} s = 0$.\n4. This is the exact differential equation of Simple Harmonic Motion: $\\ddot{s} + \\mu s = 0$ where $\\mu = \\frac{g}{4a}$.\n5. The motion is simple harmonic, and the time period to reach the vertex and return is: $T = \\frac{2\\pi}{\\sqrt{\\mu}} = 2\\pi \\sqrt{\\frac{4a}{g}} = 4\\pi \\sqrt{\\frac{a}{g}}$. This is tautochronous (independent of starting height)."
       },
       {
@@ -3401,7 +3495,101 @@ export const EXAMS = {
     "id": "matmj51",
     "title": "Abstract Algebra",
     "module": "MATMJ51",
-    "comingSoon": true
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "If $G$ is the Klein's 4-group, show that its automorphism group Aut($G$) is isomorphic to the symmetric group $S_3$.",
+        "answerKey": "1. **Klein's 4-Group Structure**:\n- Klein's 4-group is $G = \\{e, a, b, c\\}$ where all non-identity elements have order 2 ($a^2=b^2=c^2=e$) and the product of any two distinct non-identity elements gives the third ($ab=c, bc=a, ca=b$).\n\n2. **Properties of Automorphisms**:\n- Any automorphism $\\phi \\in \\text{Aut}(G)$ must map the identity $e$ to $e$.\n- It must permute the non-identity elements $\\{a, b, c\\}$ among themselves.\n- Since any permutation of $\\{a, b, c\\}$ preserves the group relations (e.g., if we swap $a$ and $b$, we still have $ba=c$, which is valid since $G$ is Abelian), any permutation of the three non-identity elements defines a unique automorphism.\n\n3. **Isomorphism to $S_3$**:\n- The number of permutations of a 3-element set $\\{a, b, c\\}$ is $3! = 6$.\n- Thus, $|\\text{Aut}(G)| = 6$.\n- A group of order 6 is either cyclic ($\\mathbb{Z}_6$) or isomorphic to $S_3$.\n- Since we can transpose two elements (which is an odd permutation) and cycles of length 3 exist, $\\text{Aut}(G)$ is non-Abelian. Hence, $\\text{Aut}(G) \\cong S_3$."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Define characteristic of a ring. Does there exist a ring with characteristic $n$ for every integer $n \\geq 0$? Explain.",
+        "answerKey": "1. **Ring Characteristic Definition**:\nThe characteristic of a ring $R$, denoted by $\\text{char}(R)$, is the smallest positive integer $n$ such that $n \\cdot x = 0$ (i.e., $x + x + \\dots + x$ added $n$ times) for all $x \\in R$. If no such positive integer exists, the ring is said to have characteristic $0$.\n\n2. **Existence for every $n \\geq 0$**:\n- **For $n > 0$**:\n  - Consider the ring of integers modulo $n$, denoted by $\\mathbb{Z}_n = \\{0, 1, 2, \\dots, n-1\\}$ under addition and multiplication modulo $n$.\n  - The identity element is $1$. The additive order of $1$ is $n$ because $n \\cdot 1 \\equiv 0 \\pmod n$, and no smaller positive integer satisfies this.\n  - For any $x \\in \\mathbb{Z}_n$, $n \\cdot x = x \\cdot (n \\cdot 1) = x \\cdot 0 = 0$. Thus, $\\text{char}(\\mathbb{Z}_n) = n$.\n- **For $n = 0$**:\n  - Consider the ring of integers $\\mathbb{Z}$ or the field of real numbers $\\mathbb{R}$.\n  - There is no positive integer $k$ such that $k \\cdot 1 = 0$ in $\\mathbb{Z}$ (since $k > 0$). Thus, $\\text{char}(\\mathbb{Z}) = 0$.\n\n3. **Conclusion**:\nYes, the rings $\\mathbb{Z}_n$ (for $n > 0$) and $\\mathbb{Z}$ (for $n=0$) prove that rings of any characteristic exist."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "If $\\phi: R \\to R'$ is an onto ring homomorphism, show that if $R$ is a commutative ring, then $R'$ is also commutative.",
+        "answerKey": "1. **Commutativity Setup**:\n- We need to show that for any $x, y \\in R'$, we have $x y = y x$.\n- Since the homomorphism $\\phi$ is onto (surjective), there exist elements $a, b \\in R$ such that:\n  $$\\phi(a) = x \\quad \\text{and} \\quad \\phi(b) = y$$\n\n2. **Using Homomorphism Properties**:\n- Since $\\phi$ preserves multiplication:\n  $$x y = \\phi(a) \\phi(b) = \\phi(a b)$$\n- Since $R$ is a commutative ring, we have $a b = b a$ for all $a, b \\in R$. Substituting this:\n  $$\\phi(a b) = \\phi(b a)$$\n- Using the multiplicative preservation property again:\n  $$\\phi(b a) = \\phi(b) \\phi(a) = y x$$\n\n3. **Conclusion**:\n- Combining the steps, we get $x y = y x$ for all $x, y \\in R'$. Therefore, $R'$ is commutative."
+      },
+      {
+        "id": 4,
+        "unit": "II",
+        "question": "Define the quotient field of an integral domain. What is the quotient field of a finite integral domain?",
+        "answerKey": "1. **Quotient Field Definition**:\n- Let $D$ be an integral domain. The quotient field $F$ is the smallest field containing $D$ as a subring. It is constructed from the set of equivalence classes of pairs $(a, b)$ with $a, b \\in D$ and $b \\neq 0$, under the relation:\n  $$(a, b) \\sim (c, d) \\iff ad = bc$$\n  These equivalence classes represent fractions $\\frac{a}{b}$.\n\n2. **Finite Integral Domain Case**:\n- By **Wedderburn's Little Theorem**, every finite integral domain is a field.\n- Let $D$ be a finite integral domain. Since $D$ is already a field, every non-zero element $b \\in D$ has a multiplicative inverse $b^{-1} \\in D$.\n- In the construction of the quotient field, any fraction $\\frac{a}{b}$ can be simplified:\n  $$\\frac{a}{b} = a \\cdot b^{-1}$$\n- Since $a \\cdot b^{-1} \\in D$, every equivalence class in the quotient field corresponds to a unique element in $D$.\n- Hence, the quotient field of a finite integral domain $D$ is isomorphic to $D$ itself."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Define the commutator subgroup $G'$ of a group $G$. For $G = S_3$, show that $G'$ is the alternating group $A_3$.",
+        "answerKey": "1. **Commutator Subgroup Definition**:\n- The commutator of two elements $a, b \\in G$ is defined as $[a, b] = a^{-1} b^{-1} a b$.\n- The commutator subgroup $G'$ (or commutator/derived subgroup) is the subgroup generated by all commutators in $G$:\n  $$G' = \\langle \\{ [a, b] : a, b \\in G \\} \\rangle$$\n\n2. **Evaluating for $G = S_3$**:\n- The symmetric group $S_3$ contains 6 elements: $\\{ e, (1\\ 2), (1\\ 3), (2\\ 3), (1\\ 2\\ 3), (1\\ 3\\ 2) \\}$.\n- Let's compute a commutator of two transpositions, say $a = (1\\ 2)$ and $b = (1\\ 3)$:\n  $$[a, b] = (1\\ 2)^{-1} (1\\ 3)^{-1} (1\\ 2) (1\\ 3) = (1\\ 2) (1\\ 3) (1\\ 2) (1\\ 3)$$\n  - Compute product: $(1\\ 2)(1\\ 3) = (1\\ 3\\ 2)$.\n  - So $[a, b] = (1\\ 3\\ 2)(1\\ 3\\ 2) = (1\\ 2\\ 3)$.\n- Thus, the 3-cycle $(1\\ 2\\ 3) \\in G'$. Since $G'$ is a group, it must also contain $(1\\ 2\\ 3)^2 = (1\\ 3\\ 2)$ and $(1\\ 2\\ 3)^3 = e$.\n- The subgroup generated by these is $A_3 = \\{ e, (1\\ 2\\ 3), (1\\ 3\\ 2) \\}$, so $A_3 \\subseteq G'$.\n- Since $S_3$ is non-Abelian, $G' \\neq \\{e\\}$. Also, $S_3/A_3 \\cong \\mathbb{Z}_2$, which is Abelian, meaning $G' \\subseteq A_3$ (since $G'$ is the smallest subgroup whose quotient is Abelian).\n- Since $A_3 \\subseteq G'$ and $G' \\subseteq A_3$, we must have $G' = A_3$."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Show that the commutator subgroup $G'$ of $G$ is the smallest normal subgroup of $G$ such that $G/G'$ is Abelian.",
+        "answerKey": "1. **Show $G/N$ is Abelian $\\iff G' \\subseteq N$**:\nLet $N$ be a normal subgroup of $G$.\n- **Forward direction (If $G/N$ is Abelian, then $G' \\subseteq N$)**:\n  - For all $x, y \\in G$, the cosets satisfy $(xN)(yN) = (yN)(xN) \\implies xyN = yxN$.\n  - Multiplying by $(yx)^{-1} = x^{-1} y^{-1}$ on the left:\n    $$x^{-1} y^{-1} x y N = N \\implies [x, y] \\in N$$\n  - Since $N$ contains all commutators, it must contain the subgroup generated by them, so $G' \\subseteq N$.\n- **Reverse direction (If $G' \\subseteq N$, then $G/N$ is Abelian)**:\n  - For all $x, y \\in G$, $[x, y] = x^{-1} y^{-1} x y \\in G' \\subseteq N$.\n  - Thus, $x^{-1} y^{-1} x y N = N \\implies xyN = yxN \\implies (xN)(yN) = (yN)(xN)$.\n  - Hence, $G/N$ is Abelian.\n\n2. **Smallest Subgroup Property**:\n- Setting $N = G'$ trivially gives $G' \\subseteq G'$, so $G/G'$ is Abelian.\n- Any other normal subgroup $N$ that makes $G/N$ Abelian must contain $G'$. Thus, $G'$ is the smallest such subgroup."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "Show that the set of all automorphisms of $G$ (denoted by Aut($G$)) forms a group, and the inner automorphisms (Inn($G$)) form a normal subgroup of Aut($G$).",
+        "answerKey": "1. **Aut($G$) is a group**:\n- **Composition**: If $\\phi, \\psi \\in \\text{Aut}(G)$, their composition $\\phi \\circ \\psi$ is a bijection and a homomorphism, so it is in $\\text{Aut}(G)$.\n- **Associativity**: Function composition is always associative.\n- **Identity**: The identity map $I(x) = x$ is an automorphism.\n- **Inverse**: Since $\\phi$ is a bijection, $\\phi^{-1}$ exists, and it is a homomorphism, so $\\phi^{-1} \\in \\text{Aut}(G)$.\n\n2. **Inn($G$) is a subgroup of Aut($G$)**:\n- An inner automorphism $\\theta_g \\in \\text{Inn}(G)$ is defined by $\\theta_g(x) = g x g^{-1}$.\n- $\\theta_g \\circ \\theta_h = \\theta_{gh} \\in \\text{Inn}(G)$, and $(\\theta_g)^{-1} = \\theta_{g^{-1}} \\in \\text{Inn}(G)$. Thus $\\text{Inn}(G)$ is a subgroup.\n\n3. **Inn($G$) is normal in Aut($G$)**:\n- Let $\\phi \\in \\text{Aut}(G)$ and $\\theta_g \\in \\text{Inn}(G)$. We need to show $\\phi \\circ \\theta_g \\circ \\phi^{-1} \\in \\text{Inn}(G)$.\n- For any $x \\in G$:\n  $$(\\phi \\circ \\theta_g \\circ \\phi^{-1})(x) = \\phi(g \\phi^{-1}(x) g^{-1}) = \\phi(g) \\phi(\\phi^{-1}(x)) \\phi(g^{-1})$$\n  $$= \\phi(g) x [\\phi(g)]^{-1} = \\theta_{\\phi(g)}(x)$$\n- Since $\\phi(g) \\in G$, $\\theta_{\\phi(g)} \\in \\text{Inn}(G)$. Thus, $\\text{Inn}(G)$ is normal in $\\text{Aut}(G)$."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "Let $G$ be an infinite cyclic group. Find the order of the automorphism group Aut($G$).",
+        "answerKey": "1. **Cyclic Group Generator**:\n- Let $G = \\langle a \\rangle = \\{ a^k : k \\in \\mathbb{Z} \\}$ be an infinite cyclic group. The only generators of $G$ are $a$ and $a^{-1}$.\n\n2. **Determining Aut($G$)**:\n- Any automorphism $\\phi \\in \\text{Aut}(G)$ is completely determined by where it maps the generator $a$.\n- Since $\\phi(a)$ must also generate $G$, we must have either:\n  1) $\\phi(a) = a$\n  2) $\\phi(a) = a^{-1}$\n- Let's check both cases:\n  - Case 1: $\\phi_1(a) = a \\implies \\phi_1(x) = x$ for all $x \\in G$ (the identity map).\n  - Case 2: $\\phi_2(a) = a^{-1} \\implies \\phi_2(a^k) = a^{-k}$ for all $k \\in \\mathbb{Z}$ (the inversion map).\n- Both maps are bijections and homomorphims, so $\\text{Aut}(G) = \\{ \\phi_1, \\phi_2 \\}$.\n\n3. **Order of Aut($G$)**:\n- The group contains exactly 2 elements, so $|\\text{Aut}(G)| = 2$.\n- Since there is only one group of order 2 up to isomorphism, $\\text{Aut}(G) \\cong \\mathbb{Z}_2$."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "Prove that every group action of $G$ on a set $S$ induces a homomorphism from $G$ to the symmetric group $A(S)$, and conversely. Use this to prove Cayley's Theorem.",
+        "answerKey": "1. **Action to Homomorphism**:\n- Let $\\cdot: G \\times S \\to S$ be a group action.\n- For each $g \\in G$, define $\\sigma_g: S \\to S$ by $\\sigma_g(s) = g \\cdot s$.\n- $\\sigma_g$ is a bijection because $\\sigma_{g^{-1}}$ is its inverse. Thus $\\sigma_g \\in A(S)$.\n- Define $\\Phi: G \\to A(S)$ by $\\Phi(g) = \\sigma_g$.\n- $\\Phi$ is a homomorphism: $\\sigma_{gh}(s) = (gh) \\cdot s = g \\cdot (h \\cdot s) = \\sigma_g(\\sigma_h(s)) = (\\sigma_g \\circ \\sigma_h)(s) \\implies \\Phi(gh) = \\Phi(g) \\circ \\Phi(h)$.\n\n2. **Homomorphism to Action**:\n- Conversely, given a homomorphism $\\Phi: G \\to A(S)$, we define a group action by $g \\cdot s = [\\Phi(g)](s)$. This satisfies the action axioms.\n\n3. **Deducing Cayley's Theorem**:\n- Let $S = G$ (the group itself) and let $G$ act on $G$ by left multiplication: $g \\cdot x = gx$.\n- This action induces a homomorphism $\\Phi: G \\to A(G)$.\n- The kernel of $\\Phi$ is $\\text{Ker } \\Phi = \\{ g \\in G : gx = x \\text{ for all } x \\in G \\} = \\{e\\}$.\n- Since the kernel is trivial, $\\Phi$ is an injection (one-to-one).\n- By the First Isomorphism Theorem, $G \\cong \\text{Im } \\Phi$, which is a subgroup of $A(G)$. Thus, every group is isomorphic to a subgroup of a symmetric group."
+      },
+      {
+        "id": 10,
+        "unit": "II",
+        "question": "Define a unit in a ring $R$ with unity. Find the group of units in $\\mathbb{Z}_8$ and determine if it is isomorphic to Klein's 4-group.",
+        "answerKey": "1. **Unit Definition**:\nAn element $u \\in R$ is a unit if there exists an element $v \\in R$ such that $uv = vu = 1$, where $1$ is the multiplicative identity of $R$. The set of all units is denoted by $U(R)$.\n\n2. **Group of Units in $\\mathbb{Z}_8$**:\n- In $\\mathbb{Z}_8 = \\{0, 1, 2, 3, 4, 5, 6, 7\\}$, an element $x$ is a unit if and only if $\\gcd(x, 8) = 1$.\n- The units are:\n  $$U(\\mathbb{Z}_8) = \\{1, 3, 5, 7\\}$$\n- Let's construct the multiplication table modulo 8:\n  - $1^2 \\equiv 1 \\pmod 8$\n  - $3^2 = 9 \\equiv 1 \\pmod 8$\n  - $5^2 = 25 \\equiv 1 \\pmod 8$\n  - $7^2 = 49 \\equiv 1 \\pmod 8$\n  - $3 \\cdot 5 = 15 \\equiv 7 \\pmod 8$\n  - $5 \\cdot 7 = 35 \\equiv 3 \\pmod 8$\n  - $7 \\cdot 3 = 21 \\equiv 5 \\pmod 8$\n\n3. **Isomorphism to Klein's 4-group**:\n- Klein's 4-group $V = \\{e, a, b, c\\}$ has the property that the square of every element is the identity ($e$).\n- In $U(\\mathbb{Z}_8)$, the identity is $1$, and we showed $x^2 = 1$ for all $x \\in U(\\mathbb{Z}_8)$.\n- Also, the product of any two distinct non-identity elements gives the third.\n- Thus, the mapping $1 \\mapsto e, 3 \\mapsto a, 5 \\mapsto b, 7 \\mapsto c$ is a group isomorphism. Hence, $U(\\mathbb{Z}_8) \\cong V$."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "Prove that a commutative ring $R$ is without zero divisors (an integral domain) if and only if for all $a, b, c \\in R$, $ab = ac$ and $a \\neq 0$ imply $b = c$.",
+        "answerKey": "1. **Direct Statement (If $R$ has no zero divisors, then cancellation holds)**:\n- Let $a, b, c \\in R$ such that $ab = ac$ with $a \\neq 0$.\n- Rearranging terms:\n  $$ab - ac = 0 \\implies a(b - c) = 0$$\n- Since $R$ has no zero divisors, the product of two elements is zero if and only if at least one of them is zero.\n- Since $a \\neq 0$, we must have $b - c = 0$, which implies $b = c$.\n\n2. **Converse Statement (If cancellation holds, then $R$ has no zero divisors)**:\n- Let $a, b \\in R$ such that $ab = 0$. We need to show that either $a=0$ or $b=0$.\n- Suppose $a \\neq 0$. We can write:\n  $$ab = 0 \\implies ab = a \\cdot 0$$\n- Since $a \\neq 0$ and the cancellation law holds, we can cancel $a$ from both sides:\n  $$b = 0$$\n- Similarly, if $b \\neq 0$, we get $a = 0$. Thus, $R$ has no zero divisors."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "Prove that the characteristic of an integral domain is either prime or zero.",
+        "answerKey": "1. **Setup**:\nLet $D$ be an integral domain. Let $n = \\text{char}(D)$.\n- If $n = 0$, the condition is satisfied.\n- Suppose $n > 0$. We must show that $n$ is a prime number.\n\n2. **Proof by Contradiction**:\n- Assume $n$ is composite, so $n = a \\cdot b$ where $1 < a < n$ and $1 < b < n$.\n- By definition of characteristic, $n \\cdot 1 = 0$ (where $1$ is the multiplicative identity of $D$).\n- Substituting $n = ab$:\n  $$(ab) \\cdot 1 = 0 \\implies (a \\cdot 1) \\cdot (b \\cdot 1) = 0$$\n- Since $D$ is an integral domain, it has no zero divisors. Thus, either:\n  $$a \\cdot 1 = 0 \\quad \\text{or} \\quad b \\cdot 1 = 0$$\n- If $a \\cdot 1 = 0$, then the characteristic of $D$ must be less than or equal to $a$. But $a < n$, which contradicts that $n$ is the *smallest* positive integer such that $n \\cdot 1 = 0$.\n- Similarly, $b \\cdot 1 = 0$ contradicts $n$ being the characteristic.\n\n3. **Conclusion**:\nSince the assumption that $n$ is composite leads to a contradiction, $n$ must be a prime number."
+      },
+      {
+        "id": 13,
+        "unit": "III",
+        "question": "Prove that an ideal $I$ of a commutative ring $R$ with unity is a maximal ideal if and only if the quotient ring $R/I$ is a field.",
+        "answerKey": "1. **Ideal Correspondence Theorem**:\nThere is a one-to-one correspondence between the ideals of $R/I$ and the ideals of $R$ containing $I$.\n\n2. **Direct Statement (If $I$ is maximal, then $R/I$ is a field)**:\n- Since $R$ is a commutative ring with unity, $R/I$ is also a commutative ring with unity $1+I$.\n- Since $I$ is maximal, there are no ideals in $R$ strictly between $I$ and $R$.\n- By the correspondence theorem, the only ideals of $R/I$ are the zero ideal $\\{I\\}$ and $R/I$ itself.\n- A commutative ring with unity whose only ideals are the zero ideal and the ring itself is a field. (Proof: For any non-zero element $a+I$, the principal ideal $\\langle a+I \\rangle$ must be the whole ring $R/I$, so $1+I \\in \\langle a+I \\rangle \\implies (a+I)(b+I) = 1+I$ for some $b$, so $a+I$ is invertible).\n- Thus, $R/I$ is a field.\n\n3. **Converse Statement (If $R/I$ is a field, then $I$ is maximal)**:\n- If $R/I$ is a field, its only ideals are $\\{I\\}$ and $R/I$.\n- By the correspondence theorem, the only ideals of $R$ containing $I$ are $I$ and $R$.\n- This is the definition of $I$ being a maximal ideal. Hence, $I$ is maximal."
+      },
+      {
+        "id": 14,
+        "unit": "III",
+        "question": "State and prove the Fundamental Homomorphism Theorem for Rings (First Isomorphism Theorem).",
+        "answerKey": "1. **Theorem Statement**:\nLet $\\phi: R \\to R'$ be a ring homomorphism with kernel $I = \\text{Ker } \\phi$. Then the quotient ring $R/I$ is isomorphic to the image of $\\phi$, i.e.,\n$$R/\\text{Ker } \\phi \\cong \\text{Im } \\phi$$\n\n2. **Proof: Define the Mapping**:\n- Define $\\psi: R/I \\to \\text{Im } \\phi$ by:\n  $$\\psi(r + I) = \\phi(r)$$\n- **Well-defined**: If $r_1 + I = r_2 + I \\implies r_1 - r_2 \\in I \\implies \\phi(r_1 - r_2) = 0 \\implies \\phi(r_1) = \\phi(r_2) \\implies \\psi(r_1+I) = \\psi(r_2+I)$.\n- **One-to-one**: $\\psi(r_1+I) = \\psi(r_2+I) \\implies \\phi(r_1) = \\phi(r_2) \\implies \\phi(r_1 - r_2) = 0 \\implies r_1 - r_2 \\in I \\implies r_1 + I = r_2 + I$.\n- **Onto**: By definition, any element in $\\text{Im } \\phi$ is of the form $\\phi(r) = \\psi(r+I)$.\n\n3. **Ring Homomorphism Verification**:\n- **Addition**:\n  $$\\psi((a+I) + (b+I)) = \\psi((a+b)+I) = \\phi(a+b) = \\phi(a) + \\phi(b) = \\psi(a+I) + \\psi(b+I)$$\n- **Multiplication**:\n  $$\\psi((a+I)(b+I)) = \\psi(ab+I) = \\phi(ab) = \\phi(a)\\phi(b) = \\psi(a+I)\\psi(b+I)$$\n- Since $\\psi$ is a well-defined, bijective homomorphism, it is an isomorphism. Thus, $R/I \\cong \\text{Im } \\phi$."
+      },
+      {
+        "id": 15,
+        "unit": "III",
+        "question": "Show that every Euclidean Domain is a Principal Ideal Domain (PID).",
+        "answerKey": "1. **Definitions**:\n- **Euclidean Domain (ED)**: An integral domain $D$ equipped with a size function $d: D \\setminus \\{0\\} \\to \\mathbb{Z}_{\\geq 0}$ satisfying the division algorithm: for all $a, b \\in D$ with $b \\neq 0$, there exist $q, r \\in D$ such that $a = qb + r$ where either $r = 0$ or $d(r) < d(b)$.\n- **Principal Ideal Domain (PID)**: An integral domain in which every ideal is principal (generated by a single element).\n\n2. **Proof**:\n- Let $I$ be an ideal of the Euclidean Domain $D$.\n- If $I = \\{0\\}$, then $I = \\langle 0 \\rangle$ is principal.\n- Suppose $I \\neq \\{0\\}$. Consider the set of sizes of non-zero elements in $I$:\n  $$S = \\{ d(x) : x \\in I, x \\neq 0 \\}$$\n- Since $S$ is a non-empty subset of non-negative integers, by the Well-Ordering Principle, it contains a minimum element. Let $b \\in I$ be an element of minimal size, i.e., $d(b)$ is minimal.\n- We claim that $I = \\langle b \\rangle$.\n  - Clearly, $\\langle b \\rangle \\subseteq I$ since $b \\in I$.\n  - Let $a \\in I$. Since $D$ is an ED, we can divide $a$ by $b$:\n    $$a = qb + r \\quad \\text{where } r=0 \\text{ or } d(r) < d(b)$$\n  - Solve for $r$: $r = a - qb$. Since $a \\in I$ and $qb \\in I$, we must have $r \\in I$.\n  - If $r \\neq 0$, then $d(r) < d(b)$, which contradicts the minimality of $d(b)$ for non-zero elements in $I$.\n  - Therefore, we must have $r = 0$, which means $a = qb \\in \\langle b \\rangle$.\n- Hence, $I \\subseteq \\langle b \\rangle$, which proves $I = \\langle b \\rangle$ is principal."
+      }
+    ],
+    "type": "theory",
+    "duration": 180
   },
   "matmj52": {
     "id": "matmj52",
@@ -3467,7 +3655,101 @@ export const EXAMS = {
     "id": "matmj62",
     "title": "Complex Analysis",
     "module": "MATMJ62",
-    "comingSoon": true
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Show that the multiplicative inverse of a non-zero complex number $z = (x, y)$ is given by $z^{-1} = \\left(\\frac{x}{x^2+y^2}, \\frac{-y}{x^2+y^2}\\right)$.",
+        "answerKey": "1. **Setup**:\n- A complex number $z = (x, y)$ is represented as $z = x + iy$.\n- The multiplicative inverse $z^{-1} = u + iv$ must satisfy:\n  $$(x + iy)(u + iv) = 1 + 0i$$\n\n2. **Expanding and Matching Components**:\n- Expand the LHS:\n  $$(xu - yv) + i(xv + yu) = 1 + 0i$$\n- Match real and imaginary parts:\n  1) $xu - yv = 1$\n  2) $xv + yu = 0 \\implies v = -\\frac{yu}{x}$ (for $x \\neq 0$)\n\n3. **Solving the System**:\n- Substitute (2) into (1):\n  $$xu - y\\left(-\\frac{yu}{x}\\right) = 1 \\implies xu + \\frac{y^2 u}{x} = 1 \\implies u\\left(\\frac{x^2+y^2}{x}\\right) = 1$$\n  $$u = \\frac{x}{x^2+y^2}$$\n- Solve for $v$:\n  $$v = -\\frac{y}{x} \\left(\\frac{x}{x^2+y^2}\\right) = \\frac{-y}{x^2+y^2}$$\n- This formula also holds if $x = 0$ (since $z \\neq 0 \\implies y \\neq 0$). Thus:\n  $$z^{-1} = \\left(\\frac{x}{x^2+y^2}, \\frac{-y}{x^2+y^2}\\right)$$"
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "For any two complex numbers $z_1, z_2 \\in \\mathbb{C}$, prove the triangle inequality $|z_1 + z_2| \\leq |z_1| + |z_2|$ and the reverse triangle inequality $||z_1| - |z_2|| \\leq |z_1 - z_2|$.",
+        "answerKey": "1. **Triangle Inequality Proof**:\n- Use the property $|z|^2 = z \\overline{z}$:\n  $$|z_1 + z_2|^2 = (z_1 + z_2)\\overline{(z_1 + z_2)} = (z_1 + z_2)(\\overline{z_1} + \\overline{z_2})$$\n  $$= z_1\\overline{z_1} + z_1\\overline{z_2} + z_2\\overline{z_1} + z_2\\overline{z_2}$$\n  $$= |z_1|^2 + z_1\\overline{z_2} + \\overline{z_1\\overline{z_2}} + |z_2|^2$$\n- Since $w + \\overline{w} = 2\\text{Re}(w)$:\n  $$|z_1 + z_2|^2 = |z_1|^2 + 2\\text{Re}(z_1\\overline{z_2}) + |z_2|^2$$\n- Since $\\text{Re}(w) \\leq |w|$ and $|z_1\\overline{z_2}| = |z_1||z_2|$:\n  $$|z_1 + z_2|^2 \\leq |z_1|^2 + 2|z_1||z_2| + |z_2|^2 = (|z_1| + |z_2|)^2$$\n- Taking the square root of both sides gives: $|z_1 + z_2| \\leq |z_1| + |z_2|$.\n\n2. **Reverse Triangle Inequality Proof**:\n- Write $z_1 = (z_1 - z_2) + z_2$. Applying the triangle inequality:\n  $$|z_1| = |(z_1 - z_2) + z_2| \\leq |z_1 - z_2| + |z_2| \\implies |z_1| - |z_2| \\leq |z_1 - z_2|$$\n- Similarly, write $z_2 = (z_2 - z_1) + z_1$:\n  $$|z_2| \\leq |z_2 - z_1| + |z_1| \\implies -(|z_1| - |z_2|) \\leq |z_1 - z_2|$$\n- Combining both bounds gives $||z_1| - |z_2|| \\leq |z_1 - z_2|$."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Describe the stereographic projection of the complex plane $\\mathbb{C}$ onto the Riemann sphere $S^2$ from the North Pole $(0,0,1)$.",
+        "answerKey": "1. **Riemann Sphere Setup**:\n- Let $S^2 = \\{ (x_1, x_2, x_3) \\in \\mathbb{R}^3 : x_1^2 + x_2^2 + x_3^2 = 1 \\}$ be the unit sphere in $\\mathbb{R}^3$.\n- The North Pole is $N = (0, 0, 1)$. The complex plane $\\mathbb{C}$ is identified with the $x_1x_2$-plane ($x_3=0$), mapping $z = x + iy$ to $(x, y, 0)$.\n\n2. **Line equation**:\n- The line passing through $N(0, 0, 1)$ and $P(x_1, x_2, x_3) \\in S^2$ intersects the $x_3=0$ plane at some point $z(x, y, 0)$.\n- The parametric equation of this line is:\n  $$L(t) = (0, 0, 1) + t((x_1, x_2, x_3) - (0, 0, 1)) = (tx_1, tx_2, 1 - t(1 - x_3))$$\n- For this line to intersect the plane $x_3=0$, we set $1 - t(1 - x_3) = 0 \\implies t = \\frac{1}{1 - x_3}$.\n\n3. **Projection Formulas**:\n- Substituting $t$ into the $L(t)$ coordinates gives the point $z = x + iy$:\n  $$x = \\frac{x_1}{1 - x_3}, \\quad y = \\frac{x_2}{1 - x_3} \\implies z = \\frac{x_1 + i x_2}{1 - x_3}$$\n- To find the inverse map (from $z$ to $S^2$), solve for $x_1, x_2, x_3$ using $x_1^2+x_2^2+x_3^2=1$:\n  $$x_1 = \\frac{z + \\overline{z}}{|z|^2 + 1}, \\quad x_2 = \\frac{z - \\overline{z}}{i(|z|^2 + 1)}, \\quad x_3 = \\frac{|z|^2 - 1}{|z|^2 + 1}$$"
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Discuss the existence of the limit $\\lim_{z \\to 0} \\frac{z}{\\overline{z}}$.",
+        "answerKey": "1. **Limit Setup**:\nLet $z = x + iy$. Then $\\overline{z} = x - iy$. The expression is:\n$$f(z) = \\frac{z}{\\overline{z}} = \\frac{x + iy}{x - iy}$$\nWe want to find $\\lim_{(x,y) \\to (0,0)} \\frac{x + iy}{x - iy}$.\n\n2. **Path Dependency Check**:\n- **Path 1: Along the real axis ($y = 0$)**:\n  $$\\lim_{x \\to 0} \\frac{x + i(0)}{x - i(0)} = \\lim_{x \\to 0} \\frac{x}{x} = 1$$\n- **Path 2: Along the imaginary axis ($x = 0$)**:\n  $$\\lim_{y \\to 0} \\frac{0 + iy}{0 - iy} = \\lim_{y \\to 0} \\frac{iy}{-iy} = -1$$\n- **Path 3: Along the line $y = mx$**:\n  $$\\lim_{x \\to 0} \\frac{x + imx}{x - imx} = \\lim_{x \\to 0} \\frac{x(1 + im)}{x(1 - im)} = \\frac{1 + im}{1 - im}$$\n\n3. **Conclusion**:\nSince the limit depends on the path along which $z$ approaches $0$ (for example, the limit is $1$ along the real axis and $-1$ along the imaginary axis), the limit does not exist."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Find the radius of convergence of the power series $\\sum_{n=0}^{\\infty} \\frac{n^2}{2^n} z^n$ and $\\sum_{n=0}^{\\infty} \\frac{(n!)^2}{(2n)!} z^n$.",
+        "answerKey": "1. **Power Series 1: $a_n = \\frac{n^2}{2^n}$**:\n- Apply the Ratio Test for radius of convergence $R$:\n  $$\\frac{1}{R} = \\lim_{n \\to \\infty} \\left| \\frac{a_{n+1}}{a_n} \\right| = \\lim_{n \\to \\infty} \\left| \\frac{(n+1)^2}{2^{n+1}} \\cdot \\frac{2^n}{n^2} \\right| = \\lim_{n \\to \\infty} \\frac{1}{2} \\left( \\frac{n+1}{n} \\right)^2 = \\frac{1}{2} \\cdot 1 = \\frac{1}{2}$$\n- Therefore, $R = 2$.\n\n2. **Power Series 2: $b_n = \\frac{(n!)^2}{(2n)!}$**:\n- Apply the Ratio Test:\n  $$\\frac{1}{R} = \\lim_{n \\to \\infty} \\left| \\frac{b_{n+1}}{b_n} \\right| = \\lim_{n \\to \\infty} \\frac{((n+1)!)^2}{(2(n+1))!} \\cdot \\frac{(2n)!}{(n!)^2}$$\n  $$= \\lim_{n \\to \\infty} \\frac{(n+1)^2 (n!)^2}{(2n+2)(2n+1) (2n)!} \\cdot \\frac{(2n)!}{(n!)^2}$$\n  $$= \\lim_{n \\to \\infty} \\frac{(n+1)^2}{(2n+2)(2n+1)} = \\lim_{n \\to \\infty} \\frac{(n+1)^2}{2(n+1)(2n+1)} = \\lim_{n \\to \\infty} \\frac{n+1}{4n+2} = \\frac{1}{4}$$\n- Therefore, $R = 4$."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Define a harmonic function. If $u(x,y) = x^3 - 3xy^2$ is harmonic, find its harmonic conjugate $v(x,y)$ and construct the corresponding analytic function $f(z) = u + iv$.",
+        "answerKey": "1. **Harmonic Function Definition**:\nA real-valued function $u(x,y)$ is harmonic if it has continuous second-order partial derivatives and satisfies Laplace's equation: $\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0$.\n\n2. **Find Harmonic Conjugate $v(x,y)$ using CR Equations**:\n- $\\frac{\\partial u}{\\partial x} = 3x^2 - 3y^2$ and $\\frac{\\partial u}{\\partial y} = -6xy$.\n- By Cauchy-Riemann equations:\n  1) $\\frac{\\partial v}{\\partial y} = \\frac{\\partial u}{\\partial x} = 3x^2 - 3y^2 \\implies v(x,y) = \\int (3x^2 - 3y^2) dy = 3x^2 y - y^3 + g(x)$\n  2) $\\frac{\\partial v}{\\partial x} = -\\frac{\\partial u}{\\partial y} = 6xy$.\n- Differentiate $v(x,y)$ from step (1) with respect to $x$:\n  $$\\frac{\\partial v}{\\partial x} = 6xy + g'(x)$$\n- Compare with (2): $6xy + g'(x) = 6xy \\implies g'(x) = 0 \\implies g(x) = C$ (constant).\n- Thus, the harmonic conjugate is $v(x,y) = 3x^2 y - y^3 + C$.\n\n3. **Construct $f(z)$**:\n- $f(z) = u + iv = (x^3 - 3xy^2) + i(3x^2 y - y^3 + C)$.\n- Using Milne-Thomson method (substituting $x=z, y=0$):\n  $$f'(z) = \\frac{\\partial u}{\\partial x}(z, 0) - i \\frac{\\partial u}{\\partial y}(z, 0) = (3z^2 - 0) - i(0) = 3z^2$$\n- Integrating $f'(z)$: $f(z) = z^3 + iC$."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Prove that the function $f(z) = |z|^2$ is differentiable only at $z=0$ and is nowhere analytic.",
+        "answerKey": "1. **Differentiability at $z=0$**:\n- By definition of derivative:\n  $$f'(0) = \\lim_{z \\to 0} \\frac{f(z) - f(0)}{z - 0} = \\lim_{z \\to 0} \\frac{|z|^2 - 0}{z} = \\lim_{z \\to 0} \\frac{z \\overline{z}}{z} = \\lim_{z \\to 0} \\overline{z} = 0$$\n- Since the limit exists and is equal to $0$, $f(z)$ is differentiable at $z = 0$.\n\n2. **Differentiability at $z \\neq 0$**:\n- Let $f(z) = u(x,y) + iv(x,y) = (x^2 + y^2) + i0$.\n- Compute partial derivatives:\n  - $u_x = 2x, \\quad u_y = 2y$\n  - $v_x = 0, \\quad v_y = 0$\n- Cauchy-Riemann equations state $u_x = v_y$ and $u_y = -v_x$:\n  - $2x = 0 \\implies x = 0$\n  - $2y = 0 \\implies y = 0$\n- The CR equations are satisfied ONLY at the point $(0,0)$. Thus, $f(z)$ is not differentiable at any point $z \\neq 0$.\n\n3. **Analyticity**:\n- A function is analytic at a point if it is differentiable in some neighborhood of that point.\n- Since $f(z)$ is only differentiable at $z=0$ and not in any open neighborhood around it, $f(z)$ is nowhere analytic."
+      },
+      {
+        "id": 8,
+        "unit": "III",
+        "question": "State the necessary and sufficient conditions for a complex-valued function $f(z) = u(x, y) + iv(x, y)$ to be differentiable at a point $z_0 = x_0 + iy_0$.",
+        "answerKey": "1. **Necessary Conditions**:\n- If $f(z) = u(x,y) + iv(x,y)$ is differentiable at $z_0 = x_0 + iy_0$, then the first-order partial derivatives of $u$ and $v$ must exist at $(x_0, y_0)$ and satisfy the **Cauchy-Riemann equations**:\n  $$\\frac{\\partial u}{\\partial x} = \\frac{\\partial v}{\\partial y} \\quad \\text{and} \\quad \\frac{\\partial u}{\\partial y} = -\\frac{\\partial v}{\\partial x}$$\n\n2. **Sufficient Conditions**:\n- The function $f(z)$ is differentiable at $z_0 = x_0 + iy_0$ if:\n  1) The first-order partial derivatives $u_x, u_y, v_x, v_y$ exist in some neighborhood of $(x_0, y_0)$.\n  2) These partial derivatives are continuous at $(x_0, y_0)$.\n  3) They satisfy the Cauchy-Riemann equations at $(x_0, y_0)$:\n     $$u_x = v_y \\quad \\text{and} \\quad u_y = -v_x$$\n\n3. **Derivative Value**:\nUnder these conditions, the derivative is given by:\n$$f'(z_0) = u_x(x_0, y_0) + i v_x(x_0, y_0)$$"
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "State and prove Cauchy's Theorem (Cauchy-Goursat theorem) for an analytic function along a simple closed contour.",
+        "answerKey": "1. **Theorem Statement**:\nIf a function $f(z)$ is analytic at all points within and on a simple closed contour $C$ in a simply connected domain, then:\n$$\\oint_C f(z) dz = 0$$\n\n2. **Proof using Green's Theorem (assuming continuity of $f'(z)$)**:\n- Let $f(z) = u + iv$ and $dz = dx + i dy$.\n- Expand the integrand:\n  $$\\oint_C f(z) dz = \\oint_C (u + iv)(dx + idy) = \\oint_C (u dx - v dy) + i \\oint_C (v dx + u dy)$$\n- Apply Green's Theorem in the plane, which states $\\oint_C (P dx + Q dy) = \\iint_R (\\frac{\\partial Q}{\\partial x} - \\frac{\\partial P}{\\partial y}) dx dy$:\n  - For the real part: $P = u, Q = -v \\implies \\oint_C (u dx - v dy) = \\iint_R (-\\frac{\\partial v}{\\partial x} - \\frac{\\partial u}{\\partial y}) dx dy$\n  - For the imaginary part: $P = v, Q = u \\implies \\oint_C (v dx + u dy) = \\iint_R (\\frac{\\partial u}{\\partial x} - \\frac{\\partial v}{\\partial y}) dx dy$\n\n3. **Applying CR Equations**:\n- Since $f(z)$ is analytic, CR equations hold: $u_x = v_y$ and $u_y = -v_x$.\n- Substitute these into the double integrals:\n  - Real part: $\\iint_R (u_y - u_y) dx dy = 0$\n  - Imaginary part: $\\iint_R (v_y - v_y) dx dy = 0$\n- Therefore, $\\oint_C f(z) dz = 0 + i0 = 0$."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "State and prove Cauchy's Integral Formula for the value of an analytic function at an interior point.",
+        "answerKey": "1. **Theorem Statement**:\nLet $f(z)$ be analytic within and on a simple closed contour $C$, taken in the positive (counterclockwise) direction. If $z_0$ is any point in the interior of $C$, then:\n$$f(z_0) = \\frac{1}{2\\pi i} \\oint_C \\frac{f(z)}{z - z_0} dz$$\n\n2. **Proof**:\n- Describe a small circle $C_0$ centered at $z_0$ with radius $r$, lying entirely inside $C$. The function $\\frac{f(z)}{z-z_0}$ is analytic in the region between $C$ and $C_0$.\n- By the principle of deformation of paths:\n  $$\\oint_C \\frac{f(z)}{z - z_0} dz = \\oint_{C_0} \\frac{f(z)}{z - z_0} dz$$\n- Add and subtract $f(z_0)$ in the numerator of the RHS:\n  $$\\oint_{C_0} \\frac{f(z)}{z - z_0} dz = \\oint_{C_0} \\frac{f(z) - f(z_0)}{z - z_0} dz + f(z_0) \\oint_{C_0} \\frac{1}{z - z_0} dz$$\n- Using the parametrization $z - z_0 = r e^{i\\theta}$, we have $dz = i r e^{i\\theta} d\\theta$, so the second integral is:\n  $$\\oint_{C_0} \\frac{1}{z - z_0} dz = \\int_0^{2\\pi} \\frac{i r e^{i\\theta}}{r e^{i\\theta}} d\\theta = 2\\pi i$$\n- We now show the first integral vanishes as $r \\to 0$. Since $f$ is continuous at $z_0$, for any $\\epsilon > 0$ there exists $r > 0$ such that $|f(z) - f(z_0)| < \\epsilon$ whenever $|z - z_0| = r$. By the ML-Inequality:\n  $$\\left| \\oint_{C_0} \\frac{f(z) - f(z_0)}{z - z_0} dz \\right| \\leq \\frac{\\epsilon}{r} \\cdot (2\\pi r) = 2\\pi \\epsilon$$\n- Taking the limit as $\\epsilon \\to 0$, the integral is $0$. Thus, $\\oint_C \\frac{f(z)}{z-z_0} dz = 2\\pi i f(z_0)$, which yields the formula."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Suppose that a function $f(z) = u(x,y) + iv(x,y)$ and its conjugate $\\overline{f(z)} = u(x,y) - iv(x,y)$ are both analytic in a domain $D$. Show that $f(z)$ must be constant in $D$.",
+        "answerKey": "1. **Apply CR Equations to $f(z)$**:\n- Since $f = u + iv$ is analytic, the CR equations hold:\n  1) $u_x = v_y$\n  2) $u_y = -v_x$\n\n2. **Apply CR Equations to $\\overline{f(z)}$**:\n- Let $\\overline{f(z)} = U + iV$ where $U = u$ and $V = -v$.\n- Since $\\overline{f(z)}$ is analytic, CR equations hold for $U$ and $V$:\n  3) $U_x = V_y \\implies u_x = -v_y$\n  4) $U_y = -V_x \\implies u_y = v_x$\n\n3. **Solving the System of Derivatives**:\n- From (1) and (3): $u_x = v_y$ and $u_x = -v_y \\implies 2u_x = 0 \\implies u_x = 0 \\implies v_y = 0$.\n- From (2) and (4): $u_y = -v_x$ and $u_y = v_x \\implies 2u_y = 0 \\implies u_y = 0 \\implies v_x = 0$.\n- Since all first-order partial derivatives of $u$ and $v$ are $0$ throughout the domain $D$, the real part $u$ and imaginary part $v$ must be constant.\n- Therefore, $f(z) = u + iv$ is constant in $D$."
+      },
+      {
+        "id": 12,
+        "unit": "IV",
+        "question": "State and prove Liouville's Theorem. Use it to prove the Fundamental Theorem of Algebra.",
+        "answerKey": "1. **Liouville's Theorem Statement**:\nEvery bounded entire function (analytic in the entire complex plane) must be constant.\n\n2. **Proof**:\n- Let $f(z)$ be entire and bounded, so $|f(z)| \\leq M$ for all $z \\in \\mathbb{C}$.\n- Let $z_0$ be any point in $\\mathbb{C}$. By Cauchy's Estimate for $f'(z_0)$ on a circle $C$ of radius $R$ centered at $z_0$:\n  $$|f'(z_0)| \\leq \\frac{M}{R}$$\n- Since $f(z)$ is entire, this inequality holds for any radius $R > 0$.\n- Taking the limit as $R \\to \\infty$:\n  $$|f'(z_0)| \\leq \\lim_{R \\to \\infty} \\frac{M}{R} = 0 \\implies f'(z_0) = 0$$\n- Since $z_0$ was arbitrary, $f'(z) = 0$ for all $z \\in \\mathbb{C}$, meaning $f(z)$ is constant.\n\n3. **Proof of Fundamental Theorem of Algebra**:\n- Let $P(z) = a_n z^n + \\dots + a_0$ be a non-constant polynomial ($n \\geq 1$). We want to show $P(z)$ has at least one root.\n- Assume $P(z)$ has no roots in $\\mathbb{C}$, so $P(z) \\neq 0$ for all $z$.\n- Define $f(z) = \\frac{1}{P(z)}$. Since $P(z)$ is entire and never zero, $f(z)$ is also an entire function.\n- Since $P(z) \\to \\infty$ as $z \\to \\infty$, we have $f(z) \\to 0$ as $z \\to \\infty$. Thus, $f(z)$ is bounded.\n- By Liouville's Theorem, $f(z)$ must be constant, which implies $P(z)$ is constant. This contradicts the assumption that $P(z)$ is non-constant. Thus, $P(z)$ must have at least one root."
+      },
+      {
+        "id": 13,
+        "unit": "III",
+        "question": "Evaluate the contour integral $\\int_C \\frac{1}{(z-a)^n} dz$ where $C$ is a simple closed contour enclosing the point $a$ and $n \\in \\mathbb{Z}$.",
+        "answerKey": "1. **Deformation of Path**:\nLet $C_0$ be a circle centered at $a$ with radius $r$ lying entirely inside $C$. The integrand is analytic in the region between $C$ and $C_0$, so:\n$$\\int_C \\frac{1}{(z-a)^n} dz = \\int_{C_0} \\frac{1}{(z-a)^n} dz$$\n\n2. **Parametrize the Circle**:\n- Let $z - a = r e^{i\\theta} \\implies z = a + r e^{i\\theta}$ for $\\theta \\in [0, 2\\pi]$.\n- Then $dz = i r e^{i\\theta} d\\theta$.\n\n3. **Evaluation**:\n- Substitute into the integral:\n  $$\\int_{C_0} \\frac{1}{(z-a)^n} dz = \\int_0^{2\\pi} \\frac{i r e^{i\\theta}}{(r e^{i\\theta})^n} d\\theta = i r^{1-n} \\int_0^{2\\pi} e^{i(1-n)\\theta} d\\theta$$\n- **Case 1: $n = 1$**:\n  $$i r^0 \\int_0^{2\\pi} 1 d\\theta = 2\\pi i$$\n- **Case 2: $n \\neq 1$**:\n  $$i r^{1-n} \\left[ \\frac{e^{i(1-n)\\theta}}{i(1-n)} \\right]_0^{2\\pi} = \\frac{r^{1-n}}{1-n} [ e^{i(2\\pi)(1-n)} - 1 ]$$\n  Since $1-n$ is a non-zero integer, $e^{i(2\\pi)(1-n)} = 1$, so the term inside brackets is $1 - 1 = 0$.\n\n4. **Conclusion**:\n$$\\int_C \\frac{1}{(z-a)^n} dz = \\begin{cases} 2\\pi i, & n = 1 \\\\ 0, & n \\neq 1 \\end{cases}$$\nThis is a fundamental result in residue theory."
+      },
+      {
+        "id": 14,
+        "unit": "IV",
+        "question": "State Taylor's Theorem. Find the Laurent series expansion of the function $f(z) = \\frac{-1}{(z-1)(z-2)}$ in the region $1 < |z| < 2$.",
+        "answerKey": "1. **Taylor's Theorem Statement**:\nIf $f(z)$ is analytic in an open disk $|z-z_0| < R$, then it can be represented by a power series centered at $z_0$:\n$$f(z) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(z_0)}{n!} (z-z_0)^n$$\nwhich converges absolutely inside the disk.\n\n2. **Partial Fractions of $f(z)$**:\n$$f(z) = \\frac{-1}{(z-1)(z-2)} = \\frac{1}{z-1} - \\frac{1}{z-2}$$\n\n3. **Laurent Series in the region $1 < |z| < 2$**:\n- For the first term $\\frac{1}{z-1}$, since $|z| > 1$, we write it as:\n  $$\\frac{1}{z-1} = \\frac{1}{z(1 - 1/z)} = \\frac{1}{z} \\sum_{n=0}^{\\infty} \\left(\\frac{1}{z}\\right)^n = \\sum_{n=0}^{\\infty} z^{-n-1}$$\n- For the second term $-\\frac{1}{z-2}$, since $|z| < 2$, we write it as:\n  $$-\\frac{1}{z-2} = \\frac{1}{2(1 - z/2)} = \\frac{1}{2} \\sum_{n=0}^{\\infty} \\left(\\frac{z}{2}\\right)^n = \\sum_{n=0}^{\\infty} \\frac{z^n}{2^{n+1}}$$\n\n4. **Combining the Series**:\n- The Laurent series expansion is:\n  $$f(z) = \\sum_{n=0}^{\\infty} z^{-n-1} + \\sum_{n=0}^{\\infty} \\frac{z^n}{2^{n+1}} = \\dots + \\frac{1}{z^3} + \\frac{1}{z^2} + \\frac{1}{z} + \\frac{1}{2} + \\frac{z}{4} + \\frac{z^2}{8} + \\dots$$"
+      },
+      {
+        "id": 15,
+        "unit": "I",
+        "question": "Explain the fifth roots of a complex number. Hence find the fifth roots of $1 + i$.",
+        "answerKey": "1. **Roots of Complex Number Formula**:\n- Let $z = r e^{i\\theta}$. The $n$-th roots of $z$ are given by:\n  $$w_k = r^{1/n} e^{i \\left(\\frac{\\theta + 2k\\pi}{n}\\right)} \\quad \\text{for } k = 0, 1, \\dots, n-1$$\n\n2. **Polar form of $1+i$**:\n- $r = |1+i| = \\sqrt{1^2+1^2} = \\sqrt{2} = 2^{1/2}$.\n- $\\theta = \\arg(1+i) = \\tan^{-1}(1/1) = \\frac{\\pi}{4}$.\n- Thus, $1 + i = 2^{1/2} e^{i\\pi/4}$.\n\n3. **Computing the 5th Roots**:\n- Set $n = 5$. The roots are:\n  $$w_k = (2^{1/2})^{1/5} e^{i \\left(\\frac{\\pi/4 + 2k\\pi}{5}\\right)} = 2^{1/10} e^{i \\left(\\frac{\\pi + 8k\\pi}{20}\\right)} \\quad \\text{for } k = 0, 1, 2, 3, 4$$\n- **Root values**:\n  - $k=0: w_0 = 2^{1/10} e^{i\\pi/20}$\n  - $k=1: w_1 = 2^{1/10} e^{i9\\pi/20}$\n  - $k=2: w_2 = 2^{1/10} e^{i17\\pi/20}$\n  - $k=3: w_3 = 2^{1/10} e^{i25\\pi/20} = 2^{1/10} e^{i5\\pi/4}$\n  - $k=4: w_4 = 2^{1/10} e^{i33\\pi/20}$"
+      }
+    ],
+    "type": "theory",
+    "duration": 180
   },
   "matmj63": {
     "id": "matmj63",
@@ -3835,105 +4117,600 @@ export const EXAMS = {
     "module": "Coming soon",
     "comingSoon": true
   },
-  "ggrmd11": { "id": "ggrmd11", "title": "Introduction to Earth System", "module": "GGRMD11", "comingSoon": true },
-  "ggrmj11": { "id": "ggrmj11", "title": "Physical Geography", "module": "GGRMJ11", "comingSoon": true },
-  "ggrmj12": { "id": "ggrmj12", "title": "Map Reading and Interpretation", "module": "GGRMJ12", "comingSoon": true },
-  "ggrmn11": { "id": "ggrmn11", "title": "Physical Geography", "module": "GGRMN11", "comingSoon": true },
-  "ggrmn12": { "id": "ggrmn12", "title": "Map Reading and Interpretation", "module": "GGRMN12", "comingSoon": true },
-  "ggrse11": { "id": "ggrse11", "title": "Man and Environment", "module": "GGRSE11", "comingSoon": true },
-  "ggrmd21": { "id": "ggrmd21", "title": "Environmental Ethics and Sustainability", "module": "GGRMD21", "comingSoon": true },
-  "ggrmj21": { "id": "ggrmj21", "title": "Human Geography", "module": "GGRMJ21", "comingSoon": true },
-  "ggrmj22": { "id": "ggrmj22", "title": "Practical - Map Projection and Weather Map", "module": "GGRMJ22", "comingSoon": true },
-  "ggrmn21": { "id": "ggrmn21", "title": "Human Geography", "module": "GGRMN21", "comingSoon": true },
-  "ggrmn22": { "id": "ggrmn22", "title": "Map Projection and Weather Map", "module": "GGRMN22", "comingSoon": true },
-  "ggrse21": { "id": "ggrse21", "title": "Basics of Remote Sensing", "module": "GGRSE21", "comingSoon": true },
-  "ggrmd31": { "id": "ggrmd31", "title": "Global Environmental Challenges", "module": "GGRMD31", "comingSoon": true },
-  "ggrmj31": { "id": "ggrmj31", "title": "Economic Geography", "module": "GGRMJ31", "comingSoon": true },
-  "ggrmj32": { "id": "ggrmj32", "title": "Surveying", "module": "GGRMJ32", "comingSoon": true },
-  "ggrmj33": { "id": "ggrmj33", "title": "Geography of India", "module": "GGRMJ33", "comingSoon": true },
-  "ggrmv31": { "id": "ggrmv31", "title": "Basics of Geographical Information System", "module": "GGRMV31", "comingSoon": true },
-  "ggrse31": { "id": "ggrse31", "title": "Geography of Tourism", "module": "GGRSE31", "comingSoon": true },
-  "ggrmj41": { "id": "ggrmj41", "title": "Evolution of Geographical Thought", "module": "GGRMJ41", "comingSoon": true },
-  "ggrmj42": { "id": "ggrmj42", "title": "Environmental Geography", "module": "GGRMJ42", "comingSoon": true },
-  "ggrmj43": { "id": "ggrmj43", "title": "Geomorphology", "module": "GGRMJ43", "comingSoon": true },
-  "ggrmj44": { "id": "ggrmj44", "title": "Advanced Map Projection and Geological Map", "module": "GGRMJ44", "comingSoon": true },
-  "ggrin51": { "id": "ggrin51", "title": "Internship1", "module": "GGRIN51", "comingSoon": true },
-  "ggrmj51": { "id": "ggrmj51", "title": "Climatology", "module": "GGRMJ51", "comingSoon": true },
-  "ggrmj52": { "id": "ggrmj52", "title": "World Regional Geography", "module": "GGRMJ52", "comingSoon": true },
-  "ggrmj53": { "id": "ggrmj53", "title": "Population Geography", "module": "GGRMJ53", "comingSoon": true },
-  "ggrmj54": { "id": "ggrmj54", "title": "Cartographic Techniques", "module": "GGRMJ54", "comingSoon": true },
-  "ggrmv51": { "id": "ggrmv51", "title": "Hazards & Disaster Risk Reduction", "module": "GGRMV51", "comingSoon": true },
-  "ggrmj61": { "id": "ggrmj61", "title": "Advanced Remote Sensing & Geographical Information System", "module": "GGRMJ61", "comingSoon": true },
-  "ggrmj62": { "id": "ggrmj62", "title": "Oceanography", "module": "GGRMJ62", "comingSoon": true },
-  "ggrmj63": { "id": "ggrmj63", "title": "Remote Sensing and Geographical Information System", "module": "GGRMJ63", "comingSoon": true },
-  "ggrmj64": { "id": "ggrmj64", "title": "Quantitative Methods in Geography", "module": "GGRMJ64", "comingSoon": true },
-  "ggrmj65a": { "id": "ggrmj65a", "title": "Hydrology", "module": "GGRMJ65A", "comingSoon": true },
-  "ggrmj65b": { "id": "ggrmj65b", "title": "Geography of Settlement", "module": "GGRMJ65B", "comingSoon": true },
-  "ggrmj65c": { "id": "ggrmj65c", "title": "Resource Geography", "module": "GGRMJ65C", "comingSoon": true },
-  "ggrmj65d": { "id": "ggrmj65d", "title": "Social Geography", "module": "GGRMJ65D", "comingSoon": true },
-  "ggrmj65e": { "id": "ggrmj65e", "title": "Cultural Geography", "module": "GGRMJ65E", "comingSoon": true },
-  "ggrmv61": { "id": "ggrmv61", "title": "Geography of Health and Wellbeing", "module": "GGRMV61", "comingSoon": true },
-  "ggrin71": { "id": "ggrin71", "title": "Internship-2", "module": "GGRIN71", "comingSoon": true },
-  "ggrin7r1": { "id": "ggrin7r1", "title": "Internship-2", "module": "GGRIN7R1", "comingSoon": true },
-  "ggrmj71": { "id": "ggrmj71", "title": "Research Methodology", "module": "GGRMJ71", "comingSoon": true },
-  "ggrmj72": { "id": "ggrmj72", "title": "Environmental Studies", "module": "GGRMJ72", "comingSoon": true },
-  "ggrmj73": { "id": "ggrmj73", "title": "Geographical Field Training and Report Writing", "module": "GGRMJ73", "comingSoon": true },
-  "ggrmj74a": { "id": "ggrmj74a", "title": "Advanced Geographical Thought", "module": "GGRMJ74A", "comingSoon": true },
-  "ggrmj74b": { "id": "ggrmj74b", "title": "Advances in Population Studies", "module": "GGRMJ74B", "comingSoon": true },
-  "ggrmj74c": { "id": "ggrmj74c", "title": "Urban Geography", "module": "GGRMJ74C", "comingSoon": true },
-  "ggrmj74d": { "id": "ggrmj74d", "title": "Regional Planning", "module": "GGRMJ74D", "comingSoon": true },
-  "ggrmj74e": { "id": "ggrmj74e", "title": "Advanced Geographical Information System", "module": "GGRMJ74E", "comingSoon": true },
-  "ggrmj74f": { "id": "ggrmj74f", "title": "Rural and Urban Planning", "module": "GGRMJ74F", "comingSoon": true },
-  "ggrmj74g": { "id": "ggrmj74g", "title": "Geography of Migration & Diaspora", "module": "GGRMJ74G", "comingSoon": true },
-  "ggrmj7r1": { "id": "ggrmj7r1", "title": "Research Methodology", "module": "GGRMJ7R1", "comingSoon": true },
-  "ggrmj7r2": { "id": "ggrmj7r2", "title": "Environmental Studies", "module": "GGRMJ7R2", "comingSoon": true },
-  "ggrmj7r3": { "id": "ggrmj7r3", "title": "Geographical Field Training and Report Writing", "module": "GGRMJ7R3", "comingSoon": true },
-  "ggrmj7r4a": { "id": "ggrmj7r4a", "title": "Advanced Geographical Thought", "module": "GGRMJ7R4A", "comingSoon": true },
-  "ggrmj7r4b": { "id": "ggrmj7r4b", "title": "Advances in Population Studies", "module": "GGRMJ7R4B", "comingSoon": true },
-  "ggrmj7r4c": { "id": "ggrmj7r4c", "title": "Urban Geography", "module": "GGRMJ7R4C", "comingSoon": true },
-  "ggrmj7r4d": { "id": "ggrmj7r4d", "title": "Regional Planning", "module": "GGRMJ7R4D", "comingSoon": true },
-  "ggrmj7r4e": { "id": "ggrmj7r4e", "title": "Advanced Geographical Information System", "module": "GGRMJ7R4E", "comingSoon": true },
-  "ggrmj7r4f": { "id": "ggrmj7r4f", "title": "Rural and Urban Planning", "module": "GGRMJ7R4F", "comingSoon": true },
-  "ggrmj7r4g": { "id": "ggrmj7r4g", "title": "Geography of Migration & Diaspora", "module": "GGRMJ7R4G", "comingSoon": true },
-  "ggrmn71": { "id": "ggrmn71", "title": "Research Methodology", "module": "GGRMN71", "comingSoon": true },
-  "ggrmn7r1": { "id": "ggrmn7r1", "title": "Research Methodology", "module": "GGRMN7R1", "comingSoon": true },
-  "ggrds8r1": { "id": "ggrds8r1", "title": "Dissertation", "module": "GGRDS8R1", "comingSoon": true },
-  "ggrmj81": { "id": "ggrmj81", "title": "Advanced Surveying", "module": "GGRMJ81", "comingSoon": true },
-  "ggrmj82": { "id": "ggrmj82", "title": "Environmental Quality Analysis", "module": "GGRMJ82", "comingSoon": true },
-  "ggrmj83a": { "id": "ggrmj83a", "title": "Biogeography", "module": "GGRMJ83A", "comingSoon": true },
-  "ggrmj83b": { "id": "ggrmj83b", "title": "Advanced Remote Sensing", "module": "GGRMJ83B", "comingSoon": true },
-  "ggrmj83c": { "id": "ggrmj83c", "title": "Advances in Urban Planning", "module": "GGRMJ83C", "comingSoon": true },
-  "ggrmj83d": { "id": "ggrmj83d", "title": "Industrial Geography", "module": "GGRMJ83D", "comingSoon": true },
-  "ggrmj83e": { "id": "ggrmj83e", "title": "Gender Geography", "module": "GGRMJ83E", "comingSoon": true },
-  "ggrmj83f": { "id": "ggrmj83f", "title": "Agriculture Geography", "module": "GGRMJ83F", "comingSoon": true },
-  "ggrmj83g": { "id": "ggrmj83g", "title": "Environmental Hazards & Disaster Risk Reduction", "module": "GGRMJ83G", "comingSoon": true },
-  "ggrmj83h": { "id": "ggrmj83h", "title": "Ecotourism & Geoheritage", "module": "GGRMJ83H", "comingSoon": true },
-  "ggrmj83i": { "id": "ggrmj83i", "title": "Fluvial Geomorphology", "module": "GGRMJ83I", "comingSoon": true },
-  "ggrmj8r1": { "id": "ggrmj8r1", "title": "Advanced Surveying", "module": "GGRMJ8R1", "comingSoon": true },
-  "ggrmj8r2": { "id": "ggrmj8r2", "title": "Environmental Quality Analysis", "module": "GGRMJ8R2", "comingSoon": true },
-  "ggrmn81": { "id": "ggrmn81", "title": "Advanced Surveying", "module": "GGRMN81", "comingSoon": true },
-  "ggrmn82": { "id": "ggrmn82", "title": "Environmental Quality Analysis", "module": "GGRMN82", "comingSoon": true },
-  "ggrmn8r1": { "id": "ggrmn8r1", "title": "Advanced Surveying", "module": "GGRMN8R1", "comingSoon": true },
-  "ggrmn8r2": { "id": "ggrmn8r2", "title": "Environmental Quality Analysis", "module": "GGRMN8R2", "comingSoon": true },
-  "stamd11": { "id": "stamd11", "title": "Elementary Statistics", "module": "STAMD11", "comingSoon": true },
-  "stamj11": { "id": "stamj11", "title": "Descriptive Statistics", "module": "STAMJ11", "comingSoon": true },
-  "stamj12": { "id": "stamj12", "title": "Practical based on STAMJ11", "module": "STAMJ12", "comingSoon": true },
-  "stamn11": { "id": "stamn11", "title": "Descriptive Statistics", "module": "STAMN11", "comingSoon": true },
-  "stamn12": { "id": "stamn12", "title": "Practical based on STAMN11", "module": "STAMN12", "comingSoon": true },
-  "stase11": { "id": "stase11", "title": "Data Analysis using Excel", "module": "STASE11", "comingSoon": true },
-  "stamd21": { "id": "stamd21", "title": "Inferential Statistics", "module": "STAMD21", "comingSoon": true },
-  "stamj21": { "id": "stamj21", "title": "Introduction to Probability Theory", "module": "STAMJ21", "comingSoon": true },
-  "stamj22": { "id": "stamj22", "title": "Practical based on STAMJ21", "module": "STAMJ22", "comingSoon": true },
-  "stamn21": { "id": "stamn21", "title": "Introduction to Probability Theory", "module": "STAMN21", "comingSoon": true },
-  "stamn22": { "id": "stamn22", "title": "Practical based on STAMN21", "module": "STAMN22", "comingSoon": true },
-  "stase21": { "id": "stase21", "title": "Data Analysis using SPSS", "module": "STASE21", "comingSoon": true },
-  "stamd31": { "id": "stamd31", "title": "Basics of Sample Survey and Design of Experiment", "module": "STAMD31", "comingSoon": true },
-  "stamj31": { "id": "stamj31", "title": "Basics of Probability Distribution", "module": "STAMJ31", "comingSoon": true },
-  "stamj32": { "id": "stamj32", "title": "Sample Distribution", "module": "STAMJ32", "comingSoon": true },
-  "stamj33": { "id": "stamj33", "title": "Practical based on STAMJ31 and STAMJ32", "module": "STAMJ33", "comingSoon": true },
-  "stamv31": { "id": "stamv31", "title": "Connecting Data with Probability Methods", "module": "STAMV31", "comingSoon": true },
-  "stamv32": { "id": "stamv32", "title": "Practical based on STAMV31", "module": "STAMV32", "comingSoon": true },
-  "stase31": { "id": "stase31", "title": "Data Analysis using R", "module": "STASE31", "comingSoon": true },
+  "ggrmd11": {
+    "id": "ggrmd11",
+    "title": "Introduction to Earth System",
+    "module": "GGRMD11",
+    "comingSoon": true
+  },
+  "ggrmj11": {
+    "id": "ggrmj11",
+    "title": "Physical Geography",
+    "module": "GGRMJ11",
+    "comingSoon": true
+  },
+  "ggrmj12": {
+    "id": "ggrmj12",
+    "title": "Map Reading and Interpretation",
+    "module": "GGRMJ12",
+    "comingSoon": true
+  },
+  "ggrmn11": {
+    "id": "ggrmn11",
+    "title": "Physical Geography",
+    "module": "GGRMN11",
+    "comingSoon": true
+  },
+  "ggrmn12": {
+    "id": "ggrmn12",
+    "title": "Map Reading and Interpretation",
+    "module": "GGRMN12",
+    "comingSoon": true
+  },
+  "ggrse11": {
+    "id": "ggrse11",
+    "title": "Man and Environment",
+    "module": "GGRSE11",
+    "comingSoon": true
+  },
+  "ggrmd21": {
+    "id": "ggrmd21",
+    "title": "Environmental Ethics and Sustainability",
+    "module": "GGRMD21",
+    "comingSoon": true
+  },
+  "ggrmj21": {
+    "id": "ggrmj21",
+    "title": "Human Geography",
+    "module": "GGRMJ21",
+    "comingSoon": true
+  },
+  "ggrmj22": {
+    "id": "ggrmj22",
+    "title": "Practical - Map Projection and Weather Map",
+    "module": "GGRMJ22",
+    "comingSoon": true
+  },
+  "ggrmn21": {
+    "id": "ggrmn21",
+    "title": "Human Geography",
+    "module": "GGRMN21",
+    "comingSoon": true
+  },
+  "ggrmn22": {
+    "id": "ggrmn22",
+    "title": "Map Projection and Weather Map",
+    "module": "GGRMN22",
+    "comingSoon": true
+  },
+  "ggrse21": {
+    "id": "ggrse21",
+    "title": "Basics of Remote Sensing",
+    "module": "GGRSE21",
+    "comingSoon": true
+  },
+  "ggrmd31": {
+    "id": "ggrmd31",
+    "title": "Global Environmental Challenges",
+    "module": "GGRMD31",
+    "comingSoon": true
+  },
+  "ggrmj31": {
+    "id": "ggrmj31",
+    "title": "Economic Geography",
+    "module": "GGRMJ31",
+    "comingSoon": true
+  },
+  "ggrmj32": {
+    "id": "ggrmj32",
+    "title": "Surveying",
+    "module": "GGRMJ32",
+    "comingSoon": true
+  },
+  "ggrmj33": {
+    "id": "ggrmj33",
+    "title": "Geography of India",
+    "module": "GGRMJ33",
+    "comingSoon": true
+  },
+  "ggrmv31": {
+    "id": "ggrmv31",
+    "title": "Basics of Geographical Information System",
+    "module": "GGRMV31",
+    "comingSoon": true
+  },
+  "ggrse31": {
+    "id": "ggrse31",
+    "title": "Geography of Tourism",
+    "module": "GGRSE31",
+    "comingSoon": true
+  },
+  "ggrmj41": {
+    "id": "ggrmj41",
+    "title": "Evolution of Geographical Thought",
+    "module": "GGRMJ41",
+    "comingSoon": true
+  },
+  "ggrmj42": {
+    "id": "ggrmj42",
+    "title": "Environmental Geography",
+    "module": "GGRMJ42",
+    "comingSoon": true
+  },
+  "ggrmj43": {
+    "id": "ggrmj43",
+    "title": "Geomorphology",
+    "module": "GGRMJ43",
+    "comingSoon": true
+  },
+  "ggrmj44": {
+    "id": "ggrmj44",
+    "title": "Advanced Map Projection and Geological Map",
+    "module": "GGRMJ44",
+    "comingSoon": true
+  },
+  "ggrin51": {
+    "id": "ggrin51",
+    "title": "Internship1",
+    "module": "GGRIN51",
+    "comingSoon": true
+  },
+  "ggrmj51": {
+    "id": "ggrmj51",
+    "title": "Climatology",
+    "module": "GGRMJ51",
+    "comingSoon": true
+  },
+  "ggrmj52": {
+    "id": "ggrmj52",
+    "title": "World Regional Geography",
+    "module": "GGRMJ52",
+    "comingSoon": true
+  },
+  "ggrmj53": {
+    "id": "ggrmj53",
+    "title": "Population Geography",
+    "module": "GGRMJ53",
+    "comingSoon": true
+  },
+  "ggrmj54": {
+    "id": "ggrmj54",
+    "title": "Cartographic Techniques",
+    "module": "GGRMJ54",
+    "comingSoon": true
+  },
+  "ggrmv51": {
+    "id": "ggrmv51",
+    "title": "Hazards & Disaster Risk Reduction",
+    "module": "GGRMV51",
+    "comingSoon": true
+  },
+  "ggrmj61": {
+    "id": "ggrmj61",
+    "title": "Advanced Remote Sensing & Geographical Information System",
+    "module": "GGRMJ61",
+    "comingSoon": true
+  },
+  "ggrmj62": {
+    "id": "ggrmj62",
+    "title": "Oceanography",
+    "module": "GGRMJ62",
+    "comingSoon": true
+  },
+  "ggrmj63": {
+    "id": "ggrmj63",
+    "title": "Remote Sensing and Geographical Information System",
+    "module": "GGRMJ63",
+    "comingSoon": true
+  },
+  "ggrmj64": {
+    "id": "ggrmj64",
+    "title": "Quantitative Methods in Geography",
+    "module": "GGRMJ64",
+    "comingSoon": true
+  },
+  "ggrmj65a": {
+    "id": "ggrmj65a",
+    "title": "Hydrology",
+    "module": "GGRMJ65A",
+    "comingSoon": true
+  },
+  "ggrmj65b": {
+    "id": "ggrmj65b",
+    "title": "Geography of Settlement",
+    "module": "GGRMJ65B",
+    "comingSoon": true
+  },
+  "ggrmj65c": {
+    "id": "ggrmj65c",
+    "title": "Resource Geography",
+    "module": "GGRMJ65C",
+    "comingSoon": true
+  },
+  "ggrmj65d": {
+    "id": "ggrmj65d",
+    "title": "Social Geography",
+    "module": "GGRMJ65D",
+    "comingSoon": true
+  },
+  "ggrmj65e": {
+    "id": "ggrmj65e",
+    "title": "Cultural Geography",
+    "module": "GGRMJ65E",
+    "comingSoon": true
+  },
+  "ggrmv61": {
+    "id": "ggrmv61",
+    "title": "Geography of Health and Wellbeing",
+    "module": "GGRMV61",
+    "comingSoon": true
+  },
+  "ggrin71": {
+    "id": "ggrin71",
+    "title": "Internship-2",
+    "module": "GGRIN71",
+    "comingSoon": true
+  },
+  "ggrin7r1": {
+    "id": "ggrin7r1",
+    "title": "Internship-2",
+    "module": "GGRIN7R1",
+    "comingSoon": true
+  },
+  "ggrmj71": {
+    "id": "ggrmj71",
+    "title": "Research Methodology",
+    "module": "GGRMJ71",
+    "comingSoon": true
+  },
+  "ggrmj72": {
+    "id": "ggrmj72",
+    "title": "Environmental Studies",
+    "module": "GGRMJ72",
+    "comingSoon": true
+  },
+  "ggrmj73": {
+    "id": "ggrmj73",
+    "title": "Geographical Field Training and Report Writing",
+    "module": "GGRMJ73",
+    "comingSoon": true
+  },
+  "ggrmj74a": {
+    "id": "ggrmj74a",
+    "title": "Advanced Geographical Thought",
+    "module": "GGRMJ74A",
+    "comingSoon": true
+  },
+  "ggrmj74b": {
+    "id": "ggrmj74b",
+    "title": "Advances in Population Studies",
+    "module": "GGRMJ74B",
+    "comingSoon": true
+  },
+  "ggrmj74c": {
+    "id": "ggrmj74c",
+    "title": "Urban Geography",
+    "module": "GGRMJ74C",
+    "comingSoon": true
+  },
+  "ggrmj74d": {
+    "id": "ggrmj74d",
+    "title": "Regional Planning",
+    "module": "GGRMJ74D",
+    "comingSoon": true
+  },
+  "ggrmj74e": {
+    "id": "ggrmj74e",
+    "title": "Advanced Geographical Information System",
+    "module": "GGRMJ74E",
+    "comingSoon": true
+  },
+  "ggrmj74f": {
+    "id": "ggrmj74f",
+    "title": "Rural and Urban Planning",
+    "module": "GGRMJ74F",
+    "comingSoon": true
+  },
+  "ggrmj74g": {
+    "id": "ggrmj74g",
+    "title": "Geography of Migration & Diaspora",
+    "module": "GGRMJ74G",
+    "comingSoon": true
+  },
+  "ggrmj7r1": {
+    "id": "ggrmj7r1",
+    "title": "Research Methodology",
+    "module": "GGRMJ7R1",
+    "comingSoon": true
+  },
+  "ggrmj7r2": {
+    "id": "ggrmj7r2",
+    "title": "Environmental Studies",
+    "module": "GGRMJ7R2",
+    "comingSoon": true
+  },
+  "ggrmj7r3": {
+    "id": "ggrmj7r3",
+    "title": "Geographical Field Training and Report Writing",
+    "module": "GGRMJ7R3",
+    "comingSoon": true
+  },
+  "ggrmj7r4a": {
+    "id": "ggrmj7r4a",
+    "title": "Advanced Geographical Thought",
+    "module": "GGRMJ7R4A",
+    "comingSoon": true
+  },
+  "ggrmj7r4b": {
+    "id": "ggrmj7r4b",
+    "title": "Advances in Population Studies",
+    "module": "GGRMJ7R4B",
+    "comingSoon": true
+  },
+  "ggrmj7r4c": {
+    "id": "ggrmj7r4c",
+    "title": "Urban Geography",
+    "module": "GGRMJ7R4C",
+    "comingSoon": true
+  },
+  "ggrmj7r4d": {
+    "id": "ggrmj7r4d",
+    "title": "Regional Planning",
+    "module": "GGRMJ7R4D",
+    "comingSoon": true
+  },
+  "ggrmj7r4e": {
+    "id": "ggrmj7r4e",
+    "title": "Advanced Geographical Information System",
+    "module": "GGRMJ7R4E",
+    "comingSoon": true
+  },
+  "ggrmj7r4f": {
+    "id": "ggrmj7r4f",
+    "title": "Rural and Urban Planning",
+    "module": "GGRMJ7R4F",
+    "comingSoon": true
+  },
+  "ggrmj7r4g": {
+    "id": "ggrmj7r4g",
+    "title": "Geography of Migration & Diaspora",
+    "module": "GGRMJ7R4G",
+    "comingSoon": true
+  },
+  "ggrmn71": {
+    "id": "ggrmn71",
+    "title": "Research Methodology",
+    "module": "GGRMN71",
+    "comingSoon": true
+  },
+  "ggrmn7r1": {
+    "id": "ggrmn7r1",
+    "title": "Research Methodology",
+    "module": "GGRMN7R1",
+    "comingSoon": true
+  },
+  "ggrds8r1": {
+    "id": "ggrds8r1",
+    "title": "Dissertation",
+    "module": "GGRDS8R1",
+    "comingSoon": true
+  },
+  "ggrmj81": {
+    "id": "ggrmj81",
+    "title": "Advanced Surveying",
+    "module": "GGRMJ81",
+    "comingSoon": true
+  },
+  "ggrmj82": {
+    "id": "ggrmj82",
+    "title": "Environmental Quality Analysis",
+    "module": "GGRMJ82",
+    "comingSoon": true
+  },
+  "ggrmj83a": {
+    "id": "ggrmj83a",
+    "title": "Biogeography",
+    "module": "GGRMJ83A",
+    "comingSoon": true
+  },
+  "ggrmj83b": {
+    "id": "ggrmj83b",
+    "title": "Advanced Remote Sensing",
+    "module": "GGRMJ83B",
+    "comingSoon": true
+  },
+  "ggrmj83c": {
+    "id": "ggrmj83c",
+    "title": "Advances in Urban Planning",
+    "module": "GGRMJ83C",
+    "comingSoon": true
+  },
+  "ggrmj83d": {
+    "id": "ggrmj83d",
+    "title": "Industrial Geography",
+    "module": "GGRMJ83D",
+    "comingSoon": true
+  },
+  "ggrmj83e": {
+    "id": "ggrmj83e",
+    "title": "Gender Geography",
+    "module": "GGRMJ83E",
+    "comingSoon": true
+  },
+  "ggrmj83f": {
+    "id": "ggrmj83f",
+    "title": "Agriculture Geography",
+    "module": "GGRMJ83F",
+    "comingSoon": true
+  },
+  "ggrmj83g": {
+    "id": "ggrmj83g",
+    "title": "Environmental Hazards & Disaster Risk Reduction",
+    "module": "GGRMJ83G",
+    "comingSoon": true
+  },
+  "ggrmj83h": {
+    "id": "ggrmj83h",
+    "title": "Ecotourism & Geoheritage",
+    "module": "GGRMJ83H",
+    "comingSoon": true
+  },
+  "ggrmj83i": {
+    "id": "ggrmj83i",
+    "title": "Fluvial Geomorphology",
+    "module": "GGRMJ83I",
+    "comingSoon": true
+  },
+  "ggrmj8r1": {
+    "id": "ggrmj8r1",
+    "title": "Advanced Surveying",
+    "module": "GGRMJ8R1",
+    "comingSoon": true
+  },
+  "ggrmj8r2": {
+    "id": "ggrmj8r2",
+    "title": "Environmental Quality Analysis",
+    "module": "GGRMJ8R2",
+    "comingSoon": true
+  },
+  "ggrmn81": {
+    "id": "ggrmn81",
+    "title": "Advanced Surveying",
+    "module": "GGRMN81",
+    "comingSoon": true
+  },
+  "ggrmn82": {
+    "id": "ggrmn82",
+    "title": "Environmental Quality Analysis",
+    "module": "GGRMN82",
+    "comingSoon": true
+  },
+  "ggrmn8r1": {
+    "id": "ggrmn8r1",
+    "title": "Advanced Surveying",
+    "module": "GGRMN8R1",
+    "comingSoon": true
+  },
+  "ggrmn8r2": {
+    "id": "ggrmn8r2",
+    "title": "Environmental Quality Analysis",
+    "module": "GGRMN8R2",
+    "comingSoon": true
+  },
+  "stamd11": {
+    "id": "stamd11",
+    "title": "Elementary Statistics",
+    "module": "STAMD11",
+    "comingSoon": true
+  },
+  "stamj11": {
+    "id": "stamj11",
+    "title": "Descriptive Statistics",
+    "module": "STAMJ11",
+    "comingSoon": true
+  },
+  "stamj12": {
+    "id": "stamj12",
+    "title": "Practical based on STAMJ11",
+    "module": "STAMJ12",
+    "comingSoon": true
+  },
+  "stamn11": {
+    "id": "stamn11",
+    "title": "Descriptive Statistics",
+    "module": "STAMN11",
+    "comingSoon": true
+  },
+  "stamn12": {
+    "id": "stamn12",
+    "title": "Practical based on STAMN11",
+    "module": "STAMN12",
+    "comingSoon": true
+  },
+  "stase11": {
+    "id": "stase11",
+    "title": "Data Analysis using Excel",
+    "module": "STASE11",
+    "comingSoon": true
+  },
+  "stamd21": {
+    "id": "stamd21",
+    "title": "Inferential Statistics",
+    "module": "STAMD21",
+    "comingSoon": true
+  },
+  "stamj21": {
+    "id": "stamj21",
+    "title": "Introduction to Probability Theory",
+    "module": "STAMJ21",
+    "comingSoon": true
+  },
+  "stamj22": {
+    "id": "stamj22",
+    "title": "Practical based on STAMJ21",
+    "module": "STAMJ22",
+    "comingSoon": true
+  },
+  "stamn21": {
+    "id": "stamn21",
+    "title": "Introduction to Probability Theory",
+    "module": "STAMN21",
+    "comingSoon": true
+  },
+  "stamn22": {
+    "id": "stamn22",
+    "title": "Practical based on STAMN21",
+    "module": "STAMN22",
+    "comingSoon": true
+  },
+  "stase21": {
+    "id": "stase21",
+    "title": "Data Analysis using SPSS",
+    "module": "STASE21",
+    "comingSoon": true
+  },
+  "stamd31": {
+    "id": "stamd31",
+    "title": "Basics of Sample Survey and Design of Experiment",
+    "module": "STAMD31",
+    "comingSoon": true
+  },
+  "stamj31": {
+    "id": "stamj31",
+    "title": "Basics of Probability Distribution",
+    "module": "STAMJ31",
+    "comingSoon": true
+  },
+  "stamj32": {
+    "id": "stamj32",
+    "title": "Sample Distribution",
+    "module": "STAMJ32",
+    "comingSoon": true
+  },
+  "stamj33": {
+    "id": "stamj33",
+    "title": "Practical based on STAMJ31 and STAMJ32",
+    "module": "STAMJ33",
+    "comingSoon": true
+  },
+  "stamv31": {
+    "id": "stamv31",
+    "title": "Connecting Data with Probability Methods",
+    "module": "STAMV31",
+    "comingSoon": true
+  },
+  "stamv32": {
+    "id": "stamv32",
+    "title": "Practical based on STAMV31",
+    "module": "STAMV32",
+    "comingSoon": true
+  },
+  "stase31": {
+    "id": "stase31",
+    "title": "Data Analysis using R",
+    "module": "STASE31",
+    "comingSoon": true
+  },
   "stamj41": {
     "id": "stamj41",
     "title": "Statistical Inference I",
@@ -3942,156 +4719,156 @@ export const EXAMS = {
     "type": "theory",
     "questions": [
       {
-            "id": 1,
-            "unit": "I",
-            "question": "What is a parameter and a statistic? Explain with suitable examples. Also, define a random sample from a probability distribution.",
-            "answerKey": "1. **Parameter**: A parameter is a numerical characteristic of a population (e.g., population mean $\\mu$, population variance $\\sigma^2$). It is usually constant but unknown.\n2. **Statistic**: A statistic is a function of the sample values that does not contain any unknown parameters (e.g., sample mean $\\bar{x} = \\frac{1}{n}\\sum x_i$, sample variance $s^2$). It is a random variable and varies from sample to sample.\n3. **Random Sample**: A random sample of size $n$ from a distribution $F(x)$ is a set of $n$ independent and identically distributed (i.i.d.) random variables $X_1, X_2, \\ldots, X_n$ each having the distribution $F(x)$."
+        "id": 1,
+        "unit": "I",
+        "question": "What is a parameter and a statistic? Explain with suitable examples. Also, define a random sample from a probability distribution.",
+        "answerKey": "1. **Parameter**: A parameter is a numerical characteristic of a population (e.g., population mean $\\mu$, population variance $\\sigma^2$). It is usually constant but unknown.\n2. **Statistic**: A statistic is a function of the sample values that does not contain any unknown parameters (e.g., sample mean $\\bar{x} = \\frac{1}{n}\\sum x_i$, sample variance $s^2$). It is a random variable and varies from sample to sample.\n3. **Random Sample**: A random sample of size $n$ from a distribution $F(x)$ is a set of $n$ independent and identically distributed (i.i.d.) random variables $X_1, X_2, \\ldots, X_n$ each having the distribution $F(x)$."
       },
       {
-            "id": 2,
-            "unit": "I",
-            "question": "Let $X_1, X_2, \\ldots, X_n$ be a random sample of size $n$ from a population with finite mean $\\mu$ and variance $\\sigma^2$. Show that the expectation of the sample mean is $\\mu$ and its variance is $\\frac{\\sigma^2}{n}$.",
-            "answerKey": "1. The sample mean is defined as $\\bar{X} = \\frac{1}{n} \\sum_{i=1}^n X_i$.\n2. **Expectation**: \n$$E(\\bar{X}) = E\\left(\\frac{1}{n} \\sum_{i=1}^n X_i\\right) = \\frac{1}{n} \\sum_{i=1}^n E(X_i) = \\frac{1}{n} \\sum_{i=1}^n \\mu = \\frac{1}{n} (n\\mu) = \\mu.$$\n3. **Variance**: Since $X_i$ are independent:\n$$V(\\bar{X}) = V\\left(\\frac{1}{n} \\sum_{i=1}^n X_i\\right) = \\frac{1}{n^2} \\sum_{i=1}^n V(X_i) = \\frac{1}{n^2} \\sum_{i=1}^n \\sigma^2 = \\frac{1}{n^2} (n\\sigma^2) = \\frac{\\sigma^2}{n}.$$\nHence, the result is verified."
+        "id": 2,
+        "unit": "I",
+        "question": "Let $X_1, X_2, \\ldots, X_n$ be a random sample of size $n$ from a population with finite mean $\\mu$ and variance $\\sigma^2$. Show that the expectation of the sample mean is $\\mu$ and its variance is $\\frac{\\sigma^2}{n}$.",
+        "answerKey": "1. The sample mean is defined as $\\bar{X} = \\frac{1}{n} \\sum_{i=1}^n X_i$.\n2. **Expectation**: \n$$E(\\bar{X}) = E\\left(\\frac{1}{n} \\sum_{i=1}^n X_i\\right) = \\frac{1}{n} \\sum_{i=1}^n E(X_i) = \\frac{1}{n} \\sum_{i=1}^n \\mu = \\frac{1}{n} (n\\mu) = \\mu.$$\n3. **Variance**: Since $X_i$ are independent:\n$$V(\\bar{X}) = V\\left(\\frac{1}{n} \\sum_{i=1}^n X_i\\right) = \\frac{1}{n^2} \\sum_{i=1}^n V(X_i) = \\frac{1}{n^2} \\sum_{i=1}^n \\sigma^2 = \\frac{1}{n^2} (n\\sigma^2) = \\frac{\\sigma^2}{n}.$$\nHence, the result is verified."
       },
       {
-            "id": 3,
-            "unit": "I",
-            "question": "Show that the sampling distribution of the sum of two independent Poisson variates is again a Poisson variate. Deduce the distribution of the sum of $n$ independent Poisson variates.",
-            "answerKey": "1. Let $X_1 \\sim \\text{Poisson}(\\lambda_1)$ and $X_2 \\sim \\text{Poisson}(\\lambda_2)$ be independent. \n2. The probability generating function (PGF) or MGF of $X \\sim \\text{Poisson}(\\lambda)$ is $M_X(t) = e^{\\lambda(e^t - 1)}$.\n3. Since they are independent, the MGF of $Y = X_1 + X_2$ is:\n$$M_Y(t) = M_{X_1}(t) \\cdot M_{X_2}(t) = e^{\\lambda_1(e^t - 1)} \\cdot e^{\\lambda_2(e^t - 1)} = e^{(\\lambda_1 + \\lambda_2)(e^t - 1)}.$$\n4. By the uniqueness theorem of MGFs, this is the MGF of a Poisson variate with parameter $\\lambda_1 + \\lambda_2$. Thus $Y \\sim \\text{Poisson}(\\lambda_1 + \\lambda_2)$.\n5. By induction, the sum of $n$ independent Poisson variates with parameters $\\lambda_i$ is also Poisson with parameter $\\sum_{i=1}^n \\lambda_i$."
+        "id": 3,
+        "unit": "I",
+        "question": "Show that the sampling distribution of the sum of two independent Poisson variates is again a Poisson variate. Deduce the distribution of the sum of $n$ independent Poisson variates.",
+        "answerKey": "1. Let $X_1 \\sim \\text{Poisson}(\\lambda_1)$ and $X_2 \\sim \\text{Poisson}(\\lambda_2)$ be independent. \n2. The probability generating function (PGF) or MGF of $X \\sim \\text{Poisson}(\\lambda)$ is $M_X(t) = e^{\\lambda(e^t - 1)}$.\n3. Since they are independent, the MGF of $Y = X_1 + X_2$ is:\n$$M_Y(t) = M_{X_1}(t) \\cdot M_{X_2}(t) = e^{\\lambda_1(e^t - 1)} \\cdot e^{\\lambda_2(e^t - 1)} = e^{(\\lambda_1 + \\lambda_2)(e^t - 1)}.$$\n4. By the uniqueness theorem of MGFs, this is the MGF of a Poisson variate with parameter $\\lambda_1 + \\lambda_2$. Thus $Y \\sim \\text{Poisson}(\\lambda_1 + \\lambda_2)$.\n5. By induction, the sum of $n$ independent Poisson variates with parameters $\\lambda_i$ is also Poisson with parameter $\\sum_{i=1}^n \\lambda_i$."
       },
       {
-            "id": 4,
-            "unit": "I",
-            "question": "Let the independent random variables $X_1, X_2, \\ldots, X_n$ be distributed as $N(\\mu, \\sigma^2)$. Let $X = \\sum_{i=1}^n \\alpha_i X_i$ and $Y = \\sum_{j=1}^n \\beta_j X_j$, where \\(\\alpha_i\\) and \\(\\beta_j\\) are constants. Determine the probability distribution of $X$, $Y$, and $X+Y$.",
-            "answerKey": "1. Since $X_i \\sim N(\\mu, \\sigma^2)$ are independent normal variables, any linear combination of them is also normally distributed.\n2. **Distribution of $X$**: Let $X = \\sum \\alpha_i X_i$. \n- $E(X) = \\sum \\alpha_i E(X_i) = \\mu \\sum \\alpha_i$.\n- $V(X) = \\sum \\alpha_i^2 V(X_i) = \\sigma^2 \\sum \\alpha_i^2$.\nThus $X \\sim N\\left(\\mu \\sum \\alpha_i, \\sigma^2 \\sum \\alpha_i^2\\right)$.\n3. **Distribution of $Y$**: Similarly, $Y \\sim N\\left(\\mu \\sum \\beta_j, \\sigma^2 \\sum \\beta_j^2\\right)$.\n4. **Distribution of $X+Y$**: We can write $X+Y = \\sum (\\alpha_i + \\beta_i) X_i$.\n- $E(X+Y) = \\mu \\sum (\\alpha_i + \\beta_i)$.\n- $V(X+Y) = \\sigma^2 \\sum (\\alpha_i + \\beta_i)^2$.\nThus $X+Y \\sim N\\left(\\mu \\sum (\\alpha_i + \\beta_i), \\sigma^2 \\sum (\\alpha_i + \\beta_i)^2\\right)$."
+        "id": 4,
+        "unit": "I",
+        "question": "Let the independent random variables $X_1, X_2, \\ldots, X_n$ be distributed as $N(\\mu, \\sigma^2)$. Let $X = \\sum_{i=1}^n \\alpha_i X_i$ and $Y = \\sum_{j=1}^n \\beta_j X_j$, where \\(\\alpha_i\\) and \\(\\beta_j\\) are constants. Determine the probability distribution of $X$, $Y$, and $X+Y$.",
+        "answerKey": "1. Since $X_i \\sim N(\\mu, \\sigma^2)$ are independent normal variables, any linear combination of them is also normally distributed.\n2. **Distribution of $X$**: Let $X = \\sum \\alpha_i X_i$. \n- $E(X) = \\sum \\alpha_i E(X_i) = \\mu \\sum \\alpha_i$.\n- $V(X) = \\sum \\alpha_i^2 V(X_i) = \\sigma^2 \\sum \\alpha_i^2$.\nThus $X \\sim N\\left(\\mu \\sum \\alpha_i, \\sigma^2 \\sum \\alpha_i^2\\right)$.\n3. **Distribution of $Y$**: Similarly, $Y \\sim N\\left(\\mu \\sum \\beta_j, \\sigma^2 \\sum \\beta_j^2\\right)$.\n4. **Distribution of $X+Y$**: We can write $X+Y = \\sum (\\alpha_i + \\beta_i) X_i$.\n- $E(X+Y) = \\mu \\sum (\\alpha_i + \\beta_i)$.\n- $V(X+Y) = \\sigma^2 \\sum (\\alpha_i + \\beta_i)^2$.\nThus $X+Y \\sim N\\left(\\mu \\sum (\\alpha_i + \\beta_i), \\sigma^2 \\sum (\\alpha_i + \\beta_i)^2\\right)$."
       },
       {
-            "id": 5,
-            "unit": "II",
-            "question": "What are the criteria of a good estimator? Discuss the concepts of Unbiasedness and Consistency in detail.",
-            "answerKey": "1. A good estimator should satisfy four main criteria: Unbiasedness, Consistency, Efficiency, and Sufficiency.\n2. **Unbiasedness**: An estimator $T$ is said to be an unbiased estimator of a parameter $\\theta$ if $E(T) = \\theta$ for all $\\theta \\in \\Theta$. If $E(T) \\neq \\theta$, the bias is $E(T) - \\theta$.\n3. **Consistency**: An estimator $T_n$ is consistent for $\\theta$ if it converges in probability to $\\theta$ as $n \\to \\infty$. That is, for any $\\epsilon > 0$, $\\lim_{n \\to \\infty} P(|T_n - \\theta| < \\epsilon) = 1$. A sufficient condition for consistency is that $E(T_n) \\to \\theta$ and $V(T_n) \\to 0$ as $n \\to \\infty$."
+        "id": 5,
+        "unit": "II",
+        "question": "What are the criteria of a good estimator? Discuss the concepts of Unbiasedness and Consistency in detail.",
+        "answerKey": "1. A good estimator should satisfy four main criteria: Unbiasedness, Consistency, Efficiency, and Sufficiency.\n2. **Unbiasedness**: An estimator $T$ is said to be an unbiased estimator of a parameter $\\theta$ if $E(T) = \\theta$ for all $\\theta \\in \\Theta$. If $E(T) \\neq \\theta$, the bias is $E(T) - \\theta$.\n3. **Consistency**: An estimator $T_n$ is consistent for $\\theta$ if it converges in probability to $\\theta$ as $n \\to \\infty$. That is, for any $\\epsilon > 0$, $\\lim_{n \\to \\infty} P(|T_n - \\theta| < \\epsilon) = 1$. A sufficient condition for consistency is that $E(T_n) \\to \\theta$ and $V(T_n) \\to 0$ as $n \\to \\infty$."
       },
       {
-            "id": 6,
-            "unit": "I",
-            "question": "Let $X_1, X_2, \\ldots, X_n$ be a random sample from a Bernoulli distribution with parameter $p$. Show that the sampling distribution of $S = \\sum_{i=1}^n X_i$ is a binomial distribution.",
-            "answerKey": "1. The probability mass function (pmf) of each $X_i \\sim \\text{Bernoulli}(p)$ is $P(X_i = x) = p^x (1-p)^{1-x}$ for $x \\in \\{0, 1\\}$.\n2. The moment generating function (MGF) of $X_i$ is $M_{X_i}(t) = E(e^{tX_i}) = (1-p) + p e^t$.\n3. Since $X_1, \\ldots, X_n$ are independent, the MGF of their sum $S = \\sum X_i$ is:\n$$M_S(t) = \\prod_{i=1}^n M_{X_i}(t) = \\left( (1-p) + p e^t \\right)^n.$$\n4. This is the MGF of a Binomial distribution with parameters $n$ and $p$. By the uniqueness theorem of MGFs, $S \\sim \\text{Binomial}(n, p)$."
+        "id": 6,
+        "unit": "I",
+        "question": "Let $X_1, X_2, \\ldots, X_n$ be a random sample from a Bernoulli distribution with parameter $p$. Show that the sampling distribution of $S = \\sum_{i=1}^n X_i$ is a binomial distribution.",
+        "answerKey": "1. The probability mass function (pmf) of each $X_i \\sim \\text{Bernoulli}(p)$ is $P(X_i = x) = p^x (1-p)^{1-x}$ for $x \\in \\{0, 1\\}$.\n2. The moment generating function (MGF) of $X_i$ is $M_{X_i}(t) = E(e^{tX_i}) = (1-p) + p e^t$.\n3. Since $X_1, \\ldots, X_n$ are independent, the MGF of their sum $S = \\sum X_i$ is:\n$$M_S(t) = \\prod_{i=1}^n M_{X_i}(t) = \\left( (1-p) + p e^t \\right)^n.$$\n4. This is the MGF of a Binomial distribution with parameters $n$ and $p$. By the uniqueness theorem of MGFs, $S \\sim \\text{Binomial}(n, p)$."
       },
       {
-            "id": 7,
-            "unit": "III",
-            "question": "Define simple and composite hypotheses with suitable examples. Explain the difference between them.",
-            "answerKey": "1. **Simple Hypothesis**: A hypothesis is simple if it completely specifies the probability distribution of the population. For example, if $X \\sim N(\\mu, 9)$, the hypothesis $H_0: \\mu = 5$ is simple because it completely specifies the distribution as $N(5, 9)$.\n2. **Composite Hypothesis**: A hypothesis is composite if it does not completely specify the probability distribution of the population. For example, $H_1: \\mu > 5$ or $H_1: \\mu \\neq 5$ are composite hypotheses because they allow for multiple possible distributions (e.g. $N(6, 9), N(7, 9)$, etc.)."
+        "id": 7,
+        "unit": "III",
+        "question": "Define simple and composite hypotheses with suitable examples. Explain the difference between them.",
+        "answerKey": "1. **Simple Hypothesis**: A hypothesis is simple if it completely specifies the probability distribution of the population. For example, if $X \\sim N(\\mu, 9)$, the hypothesis $H_0: \\mu = 5$ is simple because it completely specifies the distribution as $N(5, 9)$.\n2. **Composite Hypothesis**: A hypothesis is composite if it does not completely specify the probability distribution of the population. For example, $H_1: \\mu > 5$ or $H_1: \\mu \\neq 5$ are composite hypotheses because they allow for multiple possible distributions (e.g. $N(6, 9), N(7, 9)$, etc.)."
       },
       {
-            "id": 8,
-            "unit": "III",
-            "question": "Explain the concepts of Type-I error, Type-II error, level of significance, and power of a test in hypothesis testing.",
-            "answerKey": "1. **Type-I Error**: Rejecting the null hypothesis $H_0$ when it is actually true. The probability of Type-I error is denoted by $\\alpha = P(\\text{Reject } H_0 \\mid H_0 \\text{ is true})$.\n2. **Type-II Error**: Failing to reject $H_0$ when it is false (i.e. accepting $H_0$ when $H_1$ is true). The probability of Type-II error is denoted by $\\beta = P(\\text{Accept } H_0 \\mid H_1 \\text{ is true})$.\n3. **Level of Significance**: The maximum allowable probability of Type-I error, usually pre-determined (e.g. 5% or 1%).\n4. **Power of the Test**: The probability of rejecting $H_0$ when it is false. Power $= 1 - \\beta = P(\\text{Reject } H_0 \\mid H_1 \\text{ is true})$."
+        "id": 8,
+        "unit": "III",
+        "question": "Explain the concepts of Type-I error, Type-II error, level of significance, and power of a test in hypothesis testing.",
+        "answerKey": "1. **Type-I Error**: Rejecting the null hypothesis $H_0$ when it is actually true. The probability of Type-I error is denoted by $\\alpha = P(\\text{Reject } H_0 \\mid H_0 \\text{ is true})$.\n2. **Type-II Error**: Failing to reject $H_0$ when it is false (i.e. accepting $H_0$ when $H_1$ is true). The probability of Type-II error is denoted by $\\beta = P(\\text{Accept } H_0 \\mid H_1 \\text{ is true})$.\n3. **Level of Significance**: The maximum allowable probability of Type-I error, usually pre-determined (e.g. 5% or 1%).\n4. **Power of the Test**: The probability of rejecting $H_0$ when it is false. Power $= 1 - \\beta = P(\\text{Reject } H_0 \\mid H_1 \\text{ is true})$."
       },
       {
-            "id": 9,
-            "unit": "III",
-            "question": "A random sample of size 1 is taken from a Poisson distribution with parameter $\\lambda$. If the critical region for testing $H_0 : \\lambda = 2$ against $H_1 : \\lambda = 1$ is $x > 2$, find the size and power of the test.",
-            "answerKey": "1. Under $H_0$, $X \\sim \\text{Poisson}(\\lambda=2)$. Under $H_1$, $X \\sim \\text{Poisson}(\\lambda=1)$.\n2. **Size of the Test** ($\\alpha$):\n$$\\alpha = P(X > 2 \\mid H_0) = 1 - P(X \\le 2 \\mid H_0) = 1 - \\left( P(X=0) + P(X=1) + P(X=2) \\right)$$\n$$\\alpha = 1 - e^{-2} \\left( 1 + 2 + \\frac{2^2}{2!} \\right) = 1 - 5e^{-2} \\approx 1 - 5(0.1353) = 0.3233.$$\n3. **Power of the Test** ($1-\\beta$):\n$$1-\\beta = P(X > 2 \\mid H_1) = 1 - P(X \\le 2 \\mid H_1) = 1 - e^{-1} \\left( 1 + 1 + \\frac{1^2}{2!} \\right)$$\n$$1-\\beta = 1 - 2.5e^{-1} \\approx 1 - 2.5(0.3679) = 0.0803.$$\nThus, the size is $\\approx 0.323$ and the power is $\\approx 0.080$."
+        "id": 9,
+        "unit": "III",
+        "question": "A random sample of size 1 is taken from a Poisson distribution with parameter $\\lambda$. If the critical region for testing $H_0 : \\lambda = 2$ against $H_1 : \\lambda = 1$ is $x > 2$, find the size and power of the test.",
+        "answerKey": "1. Under $H_0$, $X \\sim \\text{Poisson}(\\lambda=2)$. Under $H_1$, $X \\sim \\text{Poisson}(\\lambda=1)$.\n2. **Size of the Test** ($\\alpha$):\n$$\\alpha = P(X > 2 \\mid H_0) = 1 - P(X \\le 2 \\mid H_0) = 1 - \\left( P(X=0) + P(X=1) + P(X=2) \\right)$$\n$$\\alpha = 1 - e^{-2} \\left( 1 + 2 + \\frac{2^2}{2!} \\right) = 1 - 5e^{-2} \\approx 1 - 5(0.1353) = 0.3233.$$\n3. **Power of the Test** ($1-\\beta$):\n$$1-\\beta = P(X > 2 \\mid H_1) = 1 - P(X \\le 2 \\mid H_1) = 1 - e^{-1} \\left( 1 + 1 + \\frac{1^2}{2!} \\right)$$\n$$1-\\beta = 1 - 2.5e^{-1} \\approx 1 - 2.5(0.3679) = 0.0803.$$\nThus, the size is $\\approx 0.323$ and the power is $\\approx 0.080$."
       },
       {
-            "id": 10,
-            "unit": "III",
-            "question": "A sample of size 1 is taken from an exponential distribution with parameter $\\lambda$ ($f(x) = \\lambda e^{-\\lambda x}, x > 0$). To test $H_0 : \\lambda = 1$ against $H_1 : \\lambda > 1$, the critical region is $x > 2$. Find the size and the probability of Type-II error.",
-            "answerKey": "1. Under $H_0$, $\\lambda = 1 \\implies f(x) = e^{-x}$. Under $H_1$, $\\lambda > 1 \\implies f(x) = \\lambda e^{-\\lambda x}$.\n2. **Size of the Test** ($\\alpha$):\n$$\\alpha = P(X > 2 \\mid H_0) = \\int_2^\\infty e^{-x} dx = \\left[ -e^{-x} \\right]_2^\\infty = e^{-2} \\approx 0.1353.$$\n3. **Probability of Type-II Error** ($\\beta$):\n$$\\beta = P(X \\le 2 \\mid H_1) = \\int_0^2 \\lambda e^{-\\lambda x} dx = \\left[ -e^{-\\lambda x} \\right]_0^2 = 1 - e^{-2\\lambda}.$$\nThus, the size of the test is $e^{-2}$ and the Type-II error probability is $1 - e^{-2\\lambda}$."
+        "id": 10,
+        "unit": "III",
+        "question": "A sample of size 1 is taken from an exponential distribution with parameter $\\lambda$ ($f(x) = \\lambda e^{-\\lambda x}, x > 0$). To test $H_0 : \\lambda = 1$ against $H_1 : \\lambda > 1$, the critical region is $x > 2$. Find the size and the probability of Type-II error.",
+        "answerKey": "1. Under $H_0$, $\\lambda = 1 \\implies f(x) = e^{-x}$. Under $H_1$, $\\lambda > 1 \\implies f(x) = \\lambda e^{-\\lambda x}$.\n2. **Size of the Test** ($\\alpha$):\n$$\\alpha = P(X > 2 \\mid H_0) = \\int_2^\\infty e^{-x} dx = \\left[ -e^{-x} \\right]_2^\\infty = e^{-2} \\approx 0.1353.$$\n3. **Probability of Type-II Error** ($\\beta$):\n$$\\beta = P(X \\le 2 \\mid H_1) = \\int_0^2 \\lambda e^{-\\lambda x} dx = \\left[ -e^{-\\lambda x} \\right]_0^2 = 1 - e^{-2\\lambda}.$$\nThus, the size of the test is $e^{-2}$ and the Type-II error probability is $1 - e^{-2\\lambda}$."
       },
       {
-            "id": 11,
-            "unit": "III",
-            "question": "Let $p$ be the probability that a coin falls head in a single toss. To test $H_0 : p = 1/2$ against $H_1 : p = 2/3$, the coin is tossed thrice and $H_0$ is rejected if three heads appear. Find the size and power of the test.",
-            "answerKey": "1. The number of heads $X$ in 3 tosses follows a Binomial distribution $B(3, p)$.\n2. The critical region is $\\{X=3\\}$.\n3. **Size of the Test** ($\\alpha$):\n$$\\alpha = P(X = 3 \\mid H_0) = \\binom{3}{3} \\left(\\frac{1}{2}\\right)^3 = \\frac{1}{8} = 0.125.$$\n4. **Power of the Test** ($1-\\beta$):\n$$1-\\beta = P(X = 3 \\mid H_1) = \\binom{3}{3} \\left(\\frac{2}{3}\\right)^3 = \\frac{8}{27} \\approx 0.296.$$\nHence, the size is $0.125$ and the power is $0.296$."
+        "id": 11,
+        "unit": "III",
+        "question": "Let $p$ be the probability that a coin falls head in a single toss. To test $H_0 : p = 1/2$ against $H_1 : p = 2/3$, the coin is tossed thrice and $H_0$ is rejected if three heads appear. Find the size and power of the test.",
+        "answerKey": "1. The number of heads $X$ in 3 tosses follows a Binomial distribution $B(3, p)$.\n2. The critical region is $\\{X=3\\}$.\n3. **Size of the Test** ($\\alpha$):\n$$\\alpha = P(X = 3 \\mid H_0) = \\binom{3}{3} \\left(\\frac{1}{2}\\right)^3 = \\frac{1}{8} = 0.125.$$\n4. **Power of the Test** ($1-\\beta$):\n$$1-\\beta = P(X = 3 \\mid H_1) = \\binom{3}{3} \\left(\\frac{2}{3}\\right)^3 = \\frac{8}{27} \\approx 0.296.$$\nHence, the size is $0.125$ and the power is $0.296$."
       },
       {
-            "id": 12,
-            "unit": "IV",
-            "question": "Define the chi-square statistic. Describe the chi-square test for testing the independence of two attributes in a contingency table.",
-            "answerKey": "1. **Chi-Square Statistic**: $\\chi^2 = \\sum \\frac{(O_i - E_i)^2}{E_i}$, where $O_i$ are the observed frequencies and $E_i$ are the expected frequencies.\n2. **Independence of Attributes**: Let two attributes $A$ (with $r$ classes) and $B$ (with $c$ classes) be represented in an $r \\times c$ contingency table.\n3. **Hypotheses**: $H_0$: The attributes $A$ and $B$ are independent vs $H_1$: They are dependent.\n4. **Expected Frequencies**: For cell $(i, j)$, expected frequency is $E_{ij} = \\frac{(R_i \\times C_j)}{N}$, where $R_i$ is the $i$-th row total, $C_j$ is the $j$-th column total, and $N$ is the grand total.\n5. **Degrees of Freedom**: under $H_0$, the statistic follows a $\\chi^2$ distribution with $(r-1)(c-1)$ degrees of freedom. If the calculated $\\chi^2 > \\chi^2_{\\alpha, (r-1)(c-1)}$, we reject $H_0$."
+        "id": 12,
+        "unit": "IV",
+        "question": "Define the chi-square statistic. Describe the chi-square test for testing the independence of two attributes in a contingency table.",
+        "answerKey": "1. **Chi-Square Statistic**: $\\chi^2 = \\sum \\frac{(O_i - E_i)^2}{E_i}$, where $O_i$ are the observed frequencies and $E_i$ are the expected frequencies.\n2. **Independence of Attributes**: Let two attributes $A$ (with $r$ classes) and $B$ (with $c$ classes) be represented in an $r \\times c$ contingency table.\n3. **Hypotheses**: $H_0$: The attributes $A$ and $B$ are independent vs $H_1$: They are dependent.\n4. **Expected Frequencies**: For cell $(i, j)$, expected frequency is $E_{ij} = \\frac{(R_i \\times C_j)}{N}$, where $R_i$ is the $i$-th row total, $C_j$ is the $j$-th column total, and $N$ is the grand total.\n5. **Degrees of Freedom**: under $H_0$, the statistic follows a $\\chi^2$ distribution with $(r-1)(c-1)$ degrees of freedom. If the calculated $\\chi^2 > \\chi^2_{\\alpha, (r-1)(c-1)}$, we reject $H_0$."
       },
       {
-            "id": 13,
-            "unit": "IV",
-            "question": "Describe the chi-square goodness of fit test. State the null hypothesis, test statistic, and the necessary assumptions.",
-            "answerKey": "1. **Purpose**: To test if an observed frequency distribution fits a theoretical distribution.\n2. **Hypothesis**: $H_0$: The sample data fits the specified theoretical distribution.\n3. **Test Statistic**: $\\chi^2 = \\sum_{i=1}^k \\frac{(O_i - E_i)^2}{E_i} \\sim \\chi^2_{k-s-1}$ under $H_0$, where $k$ is the number of classes, and $s$ is the number of parameters estimated from the data.\n4. **Assumptions**: (i) Observed frequencies must be independent. (ii) The total sample size $N$ must be large ($N \\ge 50$). (iii) Each expected frequency $E_i$ must be $\\ge 5$. If any $E_i < 5$, adjacent classes must be pooled and degrees of freedom adjusted accordingly."
+        "id": 13,
+        "unit": "IV",
+        "question": "Describe the chi-square goodness of fit test. State the null hypothesis, test statistic, and the necessary assumptions.",
+        "answerKey": "1. **Purpose**: To test if an observed frequency distribution fits a theoretical distribution.\n2. **Hypothesis**: $H_0$: The sample data fits the specified theoretical distribution.\n3. **Test Statistic**: $\\chi^2 = \\sum_{i=1}^k \\frac{(O_i - E_i)^2}{E_i} \\sim \\chi^2_{k-s-1}$ under $H_0$, where $k$ is the number of classes, and $s$ is the number of parameters estimated from the data.\n4. **Assumptions**: (i) Observed frequencies must be independent. (ii) The total sample size $N$ must be large ($N \\ge 50$). (iii) Each expected frequency $E_i$ must be $\\ge 5$. If any $E_i < 5$, adjacent classes must be pooled and degrees of freedom adjusted accordingly."
       },
       {
-            "id": 14,
-            "unit": "IV",
-            "question": "A bird watcher recorded birds belonging to 6 categories with frequencies: [6, 7, 13, 17, 6, 5]. Test at a 5% level of significance whether the data is compatible with the assumption that the park is visited by birds in the proportion 1:1:2:3:1:1. (Given $\\chi^2_{0.05, 5} = 11.07$)",
-            "answerKey": "1. **Hypotheses**: $H_0$: The birds visit the park in the proportion 1:1:2:3:1:1.\n2. **Observed Frequencies** ($O_i$): [6, 7, 13, 17, 6, 5], Grand Total $N = 54$.\n3. **Expected Frequencies** ($E_i$): Proportion total is $1+1+2+3+1+1 = 9$.\n- $E_1 = 54 \\times (1/9) = 6$\n- $E_2 = 54 \\times (1/9) = 6$\n- $E_3 = 54 \\times (2/9) = 12$\n- $E_4 = 54 \\times (3/9) = 18$\n- $E_5 = 54 \\times (1/9) = 6$\n- $E_6 = 54 \\times (1/9) = 6$\n4. **Calculate $\\chi^2$ Statistic**:\n$$\\chi^2 = \\frac{(6-6)^2}{6} + \\frac{(7-6)^2}{6} + \\frac{(13-12)^2}{12} + \\frac{(17-18)^2}{18} + \\frac{(6-6)^2}{6} + \\frac{(5-6)^2}{6}$$\n$$\\chi^2 = 0 + \\frac{1}{6} + \\frac{1}{12} + \\frac{1}{18} + 0 + \\frac{1}{6} = \\frac{6 + 3 + 2 + 6}{36} = \\frac{17}{36} \\approx 0.472.$$\n5. **Conclusion**: Since the calculated $\\chi^2 = 0.472$ is much less than the critical value $\\chi^2_{0.05, 5} = 11.07$, we fail to reject $H_0$. The data is compatible with the specified proportions."
+        "id": 14,
+        "unit": "IV",
+        "question": "A bird watcher recorded birds belonging to 6 categories with frequencies: [6, 7, 13, 17, 6, 5]. Test at a 5% level of significance whether the data is compatible with the assumption that the park is visited by birds in the proportion 1:1:2:3:1:1. (Given $\\chi^2_{0.05, 5} = 11.07$)",
+        "answerKey": "1. **Hypotheses**: $H_0$: The birds visit the park in the proportion 1:1:2:3:1:1.\n2. **Observed Frequencies** ($O_i$): [6, 7, 13, 17, 6, 5], Grand Total $N = 54$.\n3. **Expected Frequencies** ($E_i$): Proportion total is $1+1+2+3+1+1 = 9$.\n- $E_1 = 54 \\times (1/9) = 6$\n- $E_2 = 54 \\times (1/9) = 6$\n- $E_3 = 54 \\times (2/9) = 12$\n- $E_4 = 54 \\times (3/9) = 18$\n- $E_5 = 54 \\times (1/9) = 6$\n- $E_6 = 54 \\times (1/9) = 6$\n4. **Calculate $\\chi^2$ Statistic**:\n$$\\chi^2 = \\frac{(6-6)^2}{6} + \\frac{(7-6)^2}{6} + \\frac{(13-12)^2}{12} + \\frac{(17-18)^2}{18} + \\frac{(6-6)^2}{6} + \\frac{(5-6)^2}{6}$$\n$$\\chi^2 = 0 + \\frac{1}{6} + \\frac{1}{12} + \\frac{1}{18} + 0 + \\frac{1}{6} = \\frac{6 + 3 + 2 + 6}{36} = \\frac{17}{36} \\approx 0.472.$$\n5. **Conclusion**: Since the calculated $\\chi^2 = 0.472$ is much less than the critical value $\\chi^2_{0.05, 5} = 11.07$, we fail to reject $H_0$. The data is compatible with the specified proportions."
       },
       {
-            "id": 15,
-            "unit": "IV",
-            "question": "What is the F-distribution? Write down its probability density function and describe the test for the equality of two population variances.",
-            "answerKey": "1. **F-Statistic**: The ratio of two independent chi-square variates divided by their respective degrees of freedom: $F = \\frac{\\chi^2_1 / \\nu_1}{\\chi^2_2 / \\nu_2}$.\n2. **Probability Density Function**: For $f > 0$:\n$$g(f) = \\frac{\\Gamma\\left(\\frac{\\nu_1+\\nu_2}{2}\\right)}{\\Gamma\\left(\\frac{\\nu_1}{2}\\right)\\Gamma\\left(\\frac{\\nu_2}{2}\\right)} \\left(\\frac{\\nu_1}{\\nu_2}\\right)^{\\nu_1/2} \\frac{f^{\\nu_1/2-1}}{\\left(1 + \\frac{\\nu_1}{\\nu_2}f\\right)^{(\\nu_1+\\nu_2)/2}}$$\n3. **Test of Equality of Variances**: Given two samples from $N(\\mu_1, \\sigma_1^2)$ and $N(\\mu_2, \\sigma_2^2)$:\n- $H_0: \\sigma_1^2 = \\sigma_2^2$ vs $H_1: \\sigma_1^2 \\neq \\sigma_2^2$.\n- Test statistic: $F = \\frac{s_1^2}{s_2^2}$ where $s_1^2 > s_2^2$ (to ensure $F > 1$), and $s_i^2 = \\frac{1}{n_i-1}\\sum (X_{ij} - \\bar{X}_i)^2$.\n- Degrees of freedom: $\\nu_1 = n_1 - 1, \\nu_2 = n_2 - 1$.\n- Decision: Reject $H_0$ if calculated $F > F_{\\alpha/2, \\nu_1, \\nu_2}$."
+        "id": 15,
+        "unit": "IV",
+        "question": "What is the F-distribution? Write down its probability density function and describe the test for the equality of two population variances.",
+        "answerKey": "1. **F-Statistic**: The ratio of two independent chi-square variates divided by their respective degrees of freedom: $F = \\frac{\\chi^2_1 / \\nu_1}{\\chi^2_2 / \\nu_2}$.\n2. **Probability Density Function**: For $f > 0$:\n$$g(f) = \\frac{\\Gamma\\left(\\frac{\\nu_1+\\nu_2}{2}\\right)}{\\Gamma\\left(\\frac{\\nu_1}{2}\\right)\\Gamma\\left(\\frac{\\nu_2}{2}\\right)} \\left(\\frac{\\nu_1}{\\nu_2}\\right)^{\\nu_1/2} \\frac{f^{\\nu_1/2-1}}{\\left(1 + \\frac{\\nu_1}{\\nu_2}f\\right)^{(\\nu_1+\\nu_2)/2}}$$\n3. **Test of Equality of Variances**: Given two samples from $N(\\mu_1, \\sigma_1^2)$ and $N(\\mu_2, \\sigma_2^2)$:\n- $H_0: \\sigma_1^2 = \\sigma_2^2$ vs $H_1: \\sigma_1^2 \\neq \\sigma_2^2$.\n- Test statistic: $F = \\frac{s_1^2}{s_2^2}$ where $s_1^2 > s_2^2$ (to ensure $F > 1$), and $s_i^2 = \\frac{1}{n_i-1}\\sum (X_{ij} - \\bar{X}_i)^2$.\n- Degrees of freedom: $\\nu_1 = n_1 - 1, \\nu_2 = n_2 - 1$.\n- Decision: Reject $H_0$ if calculated $F > F_{\\alpha/2, \\nu_1, \\nu_2}$."
       },
       {
-            "id": 16,
-            "unit": "IV",
-            "question": "State Student's t-statistic. Explain the test procedure for the difference of two means from independent normal populations when variances are equal but unknown.",
-            "answerKey": "1. **t-Statistic**: Defined as $t = \\frac{\\bar{X}_1 - \\bar{X}_2}{S \\sqrt{\\frac{1}{n_1} + \\frac{1}{n_2}}}$, where $\\bar{X}_1, \\bar{X}_2$ are sample means, $n_1, n_2$ are sample sizes.\n2. **Pooled Sample Variance**: $S^2 = \\frac{(n_1-1)s_1^2 + (n_2-1)s_2^2}{n_1 + n_2 - 2}$.\n3. **Hypotheses**: $H_0: \\mu_1 = \\mu_2$ vs $H_1: \\mu_1 \\neq \\mu_2$.\n4. **Degrees of Freedom**: $\\nu = n_1 + n_2 - 2$.\n5. **Decision**: Reject $H_0$ if $|t| > t_{\\alpha/2, n_1+n_2-2}$."
+        "id": 16,
+        "unit": "IV",
+        "question": "State Student's t-statistic. Explain the test procedure for the difference of two means from independent normal populations when variances are equal but unknown.",
+        "answerKey": "1. **t-Statistic**: Defined as $t = \\frac{\\bar{X}_1 - \\bar{X}_2}{S \\sqrt{\\frac{1}{n_1} + \\frac{1}{n_2}}}$, where $\\bar{X}_1, \\bar{X}_2$ are sample means, $n_1, n_2$ are sample sizes.\n2. **Pooled Sample Variance**: $S^2 = \\frac{(n_1-1)s_1^2 + (n_2-1)s_2^2}{n_1 + n_2 - 2}$.\n3. **Hypotheses**: $H_0: \\mu_1 = \\mu_2$ vs $H_1: \\mu_1 \\neq \\mu_2$.\n4. **Degrees of Freedom**: $\\nu = n_1 + n_2 - 2$.\n5. **Decision**: Reject $H_0$ if $|t| > t_{\\alpha/2, n_1+n_2-2}$."
       },
       {
-            "id": 17,
-            "unit": "IV",
-            "question": "The gain in weights (in kgs) of pigs fed on two diets A and B are:\nDiet A: [32, 35, 33, 29, 24, 41, 42, 36]\nDiet B: [35, 36, 39, 37, 38, 25, 26, 30, 24, 20]\nTest if the two diets differ significantly as regards their effect on weight gain at a 5% level of significance. (Given $t_{16, 0.05} = 2.12$)",
-            "answerKey": "1. **Sample 1 (Diet A)**: $n_1 = 8$, values: [32, 35, 33, 29, 24, 41, 42, 36].\n- $\\bar{X}_1 = \\frac{272}{8} = 34$.\n- $\\sum (X_{1i} - \\bar{X}_1)^2 = 4 + 1 + 1 + 25 + 100 + 49 + 64 + 4 = 248$.\n2. **Sample 2 (Diet B)**: $n_2 = 10$, values: [35, 36, 39, 37, 38, 25, 26, 30, 24, 20].\n- $\\bar{X}_2 = \\frac{320}{10} = 32$.\n- $\\sum (X_{2i} - \\bar{X}_2)^2 = 9 + 16 + 49 + 25 + 36 + 49 + 36 + 4 + 64 + 144 = 432$.\n3. **Pooled Variance**:\n$$S^2 = \\frac{248 + 432}{8 + 10 - 2} = \\frac{680}{16} = 42.5 \\implies S \\approx 6.52.$$\n4. **t-Statistic**:\n$$t = \\frac{34 - 32}{6.52 \\sqrt{\\frac{1}{8} + \\frac{1}{10}}} = \\frac{2}{6.52 \\sqrt{0.225}} = \\frac{2}{6.52 \\times 0.4743} \\approx 0.647.$$\n5. **Conclusion**: Since the calculated $|t| = 0.647$ is less than the critical value $t_{16, 0.05} = 2.12$, we fail to reject $H_0$. There is no significant difference between the two diets."
+        "id": 17,
+        "unit": "IV",
+        "question": "The gain in weights (in kgs) of pigs fed on two diets A and B are:\nDiet A: [32, 35, 33, 29, 24, 41, 42, 36]\nDiet B: [35, 36, 39, 37, 38, 25, 26, 30, 24, 20]\nTest if the two diets differ significantly as regards their effect on weight gain at a 5% level of significance. (Given $t_{16, 0.05} = 2.12$)",
+        "answerKey": "1. **Sample 1 (Diet A)**: $n_1 = 8$, values: [32, 35, 33, 29, 24, 41, 42, 36].\n- $\\bar{X}_1 = \\frac{272}{8} = 34$.\n- $\\sum (X_{1i} - \\bar{X}_1)^2 = 4 + 1 + 1 + 25 + 100 + 49 + 64 + 4 = 248$.\n2. **Sample 2 (Diet B)**: $n_2 = 10$, values: [35, 36, 39, 37, 38, 25, 26, 30, 24, 20].\n- $\\bar{X}_2 = \\frac{320}{10} = 32$.\n- $\\sum (X_{2i} - \\bar{X}_2)^2 = 9 + 16 + 49 + 25 + 36 + 49 + 36 + 4 + 64 + 144 = 432$.\n3. **Pooled Variance**:\n$$S^2 = \\frac{248 + 432}{8 + 10 - 2} = \\frac{680}{16} = 42.5 \\implies S \\approx 6.52.$$\n4. **t-Statistic**:\n$$t = \\frac{34 - 32}{6.52 \\sqrt{\\frac{1}{8} + \\frac{1}{10}}} = \\frac{2}{6.52 \\sqrt{0.225}} = \\frac{2}{6.52 \\times 0.4743} \\approx 0.647.$$\n5. **Conclusion**: Since the calculated $|t| = 0.647$ is less than the critical value $t_{16, 0.05} = 2.12$, we fail to reject $H_0$. There is no significant difference between the two diets."
       },
       {
-            "id": 18,
-            "unit": "IV",
-            "question": "Samples of two types of electric light bulbs were tested for length of life and the following data were obtained:\n- Type I: Sample Size = 8, Mean = 1234 hours, S.D. = 36 hours\n- Type II: Sample Size = 7, Mean = 1036 hours, S.D. = 40 hours\nIs the difference in means sufficient to warrant that Type I is superior to Type II? Test at 5% significance level. (Given $t_{0.05, 13} = 1.77$)",
-            "answerKey": "1. **Hypotheses**: $H_0: \\mu_1 = \\mu_2$ vs $H_1: \\mu_1 > \\mu_2$ (one-tailed test since we test if Type I is superior).\n2. **Pooled Variance**:\n$$S^2 = \\frac{(n_1-1)S_1^2 + (n_2-1)S_2^2}{n_1+n_2-2} = \\frac{7(36)^2 + 6(40)^2}{8+7-2} = \\frac{7(1296) + 6(1600)}{13} = \\frac{9072 + 9600}{13} = \\frac{18672}{13} \\approx 1436.31.$$\nSo $S \\approx 37.90$ hours.\n3. **t-Statistic**:\n$$t = \\frac{1234 - 1036}{37.90 \\sqrt{\\frac{1}{8} + \\frac{1}{7}}} = \\frac{198}{37.90 \\sqrt{0.125 + 0.1428}} = \\frac{198}{37.90 \\times 0.5175} \\approx 10.10.$$\n4. **Conclusion**: Since calculated $t = 10.10 > t_{0.05, 13} = 1.77$, we reject $H_0$. The difference in means is highly significant, meaning Type I bulbs are indeed superior."
+        "id": 18,
+        "unit": "IV",
+        "question": "Samples of two types of electric light bulbs were tested for length of life and the following data were obtained:\n- Type I: Sample Size = 8, Mean = 1234 hours, S.D. = 36 hours\n- Type II: Sample Size = 7, Mean = 1036 hours, S.D. = 40 hours\nIs the difference in means sufficient to warrant that Type I is superior to Type II? Test at 5% significance level. (Given $t_{0.05, 13} = 1.77$)",
+        "answerKey": "1. **Hypotheses**: $H_0: \\mu_1 = \\mu_2$ vs $H_1: \\mu_1 > \\mu_2$ (one-tailed test since we test if Type I is superior).\n2. **Pooled Variance**:\n$$S^2 = \\frac{(n_1-1)S_1^2 + (n_2-1)S_2^2}{n_1+n_2-2} = \\frac{7(36)^2 + 6(40)^2}{8+7-2} = \\frac{7(1296) + 6(1600)}{13} = \\frac{9072 + 9600}{13} = \\frac{18672}{13} \\approx 1436.31.$$\nSo $S \\approx 37.90$ hours.\n3. **t-Statistic**:\n$$t = \\frac{1234 - 1036}{37.90 \\sqrt{\\frac{1}{8} + \\frac{1}{7}}} = \\frac{198}{37.90 \\sqrt{0.125 + 0.1428}} = \\frac{198}{37.90 \\times 0.5175} \\approx 10.10.$$\n4. **Conclusion**: Since calculated $t = 10.10 > t_{0.05, 13} = 1.77$, we reject $H_0$. The difference in means is highly significant, meaning Type I bulbs are indeed superior."
       },
       {
-            "id": 19,
-            "unit": "I",
-            "question": "State the Central Limit Theorem. Suppose $X_1, X_2, \\ldots, X_n$ is a random sample of size $n=50$ from a population with mean $\\mu=5$ and variance $\\sigma^2=16.5$. Find the probability $P[\\bar{X} < 5]$.",
-            "answerKey": "1. **Central Limit Theorem**: If $X_1, X_2, \\ldots, X_n$ are i.i.d. random variables with finite mean $\\mu$ and variance $\\sigma^2$, then the sampling distribution of the sample mean $\\bar{X}$ approaches a normal distribution $N(\\mu, \\sigma^2/n)$ as $n \\to \\infty$.\n2. **Normal Approximation**: Here $n=50$ is large. Thus, $\\bar{X} \\dot{\\sim} N\\left(\\mu_{\\bar{X}} = 5, \\sigma^2_{\\bar{X}} = \\frac{16.5}{50} = 0.33\\right)$.\n3. **Standardizing**: We want $P[\\bar{X} < 5]$:\n$$Z = \frac{\\bar{X} - \\mu_{\\bar{X}}}{\\sigma_{\\bar{X}}} = \\frac{5 - 5}{\\sqrt{0.33}} = 0.$$\n4. **Probability**: $P[\\bar{X} < 5] = P[Z < 0] = 0.5$.\nThus, the probability is $0.5$."
+        "id": 19,
+        "unit": "I",
+        "question": "State the Central Limit Theorem. Suppose $X_1, X_2, \\ldots, X_n$ is a random sample of size $n=50$ from a population with mean $\\mu=5$ and variance $\\sigma^2=16.5$. Find the probability $P[\\bar{X} < 5]$.",
+        "answerKey": "1. **Central Limit Theorem**: If $X_1, X_2, \\ldots, X_n$ are i.i.d. random variables with finite mean $\\mu$ and variance $\\sigma^2$, then the sampling distribution of the sample mean $\\bar{X}$ approaches a normal distribution $N(\\mu, \\sigma^2/n)$ as $n \\to \\infty$.\n2. **Normal Approximation**: Here $n=50$ is large. Thus, $\\bar{X} \\dot{\\sim} N\\left(\\mu_{\\bar{X}} = 5, \\sigma^2_{\\bar{X}} = \\frac{16.5}{50} = 0.33\\right)$.\n3. **Standardizing**: We want $P[\\bar{X} < 5]$:\n$$Z = \frac{\\bar{X} - \\mu_{\\bar{X}}}{\\sigma_{\\bar{X}}} = \\frac{5 - 5}{\\sqrt{0.33}} = 0.$$\n4. **Probability**: $P[\\bar{X} < 5] = P[Z < 0] = 0.5$.\nThus, the probability is $0.5$."
       },
       {
-            "id": 20,
-            "unit": "I",
-            "question": "State the Weak Law of Large Numbers (WLLN). Show that a sequence of i.i.d. Bernoulli random variables with parameter $p$ obeys the WLLN.",
-            "answerKey": "1. **Weak Law of Large Numbers**: Let $X_1, X_2, \\ldots$ be a sequence of independent random variables with $E(X_i) = \\mu$ and $V(X_i) = \\sigma^2 < \\infty$. Then the sample mean $\\bar{X}_n$ converges in probability to $\\mu$ as $n \\to \\infty$:\n$$\\left. \\lim_{n\\to\\infty} P(|\\bar{X}_n - \\mu| < \\epsilon) = 1 \\quad \\text{for any } \\epsilon > 0. \\right.$$\n2. **Proof for Bernoulli**: Let $X_i \\sim \\text{Bernoulli}(p)$ be independent. \n- $E(X_i) = p$ and $V(X_i) = p(1-p)$.\n- Let $Y_n = \\bar{X}_n = \\frac{1}{n}\\sum X_i$. $E(Y_n) = p$ and $V(Y_n) = \\frac{p(1-p)}{n}$.\n- By Chebyshev's Inequality:\n$$P(|Y_n - p| \\ge \\epsilon) \\le \\frac{V(Y_n)}{\\epsilon^2} = \\frac{p(1-p)}{n\\epsilon^2}.$$\n- Taking limit as $n \\to \\infty$:\n$$\\lim_{n\\to\\infty} P(|Y_n - p| \\ge \\epsilon) \\le \\lim_{n\\to\\infty} \\frac{p(1-p)}{n\\epsilon^2} = 0.$$\nThus, $\\bar{X}_n$ converges in probability to $p$. Hence, the sequence obeys the WLLN."
+        "id": 20,
+        "unit": "I",
+        "question": "State the Weak Law of Large Numbers (WLLN). Show that a sequence of i.i.d. Bernoulli random variables with parameter $p$ obeys the WLLN.",
+        "answerKey": "1. **Weak Law of Large Numbers**: Let $X_1, X_2, \\ldots$ be a sequence of independent random variables with $E(X_i) = \\mu$ and $V(X_i) = \\sigma^2 < \\infty$. Then the sample mean $\\bar{X}_n$ converges in probability to $\\mu$ as $n \\to \\infty$:\n$$\\left. \\lim_{n\\to\\infty} P(|\\bar{X}_n - \\mu| < \\epsilon) = 1 \\quad \\text{for any } \\epsilon > 0. \\right.$$\n2. **Proof for Bernoulli**: Let $X_i \\sim \\text{Bernoulli}(p)$ be independent. \n- $E(X_i) = p$ and $V(X_i) = p(1-p)$.\n- Let $Y_n = \\bar{X}_n = \\frac{1}{n}\\sum X_i$. $E(Y_n) = p$ and $V(Y_n) = \\frac{p(1-p)}{n}$.\n- By Chebyshev's Inequality:\n$$P(|Y_n - p| \\ge \\epsilon) \\le \\frac{V(Y_n)}{\\epsilon^2} = \\frac{p(1-p)}{n\\epsilon^2}.$$\n- Taking limit as $n \\to \\infty$:\n$$\\lim_{n\\to\\infty} P(|Y_n - p| \\ge \\epsilon) \\le \\lim_{n\\to\\infty} \\frac{p(1-p)}{n\\epsilon^2} = 0.$$\nThus, $\\bar{X}_n$ converges in probability to $p$. Hence, the sequence obeys the WLLN."
       },
       {
-            "id": 21,
-            "unit": "I",
-            "question": "Define order statistics. Show that the $r$-th order statistic $X_{(r)}$ from a uniform distribution $U(0, 1)$ follows a Beta distribution of the first kind. Find the mean and variance of $X_{(r)}$.",
-            "answerKey": "1. **Order Statistics**: If $X_1, \\ldots, X_n$ is a random sample from a continuous distribution, the ordered values $X_{(1)} \\le X_{(2)} \\le \\ldots \\le X_{(n)}$ are the order statistics.\n2. **PDF of $r$-th Order Statistic**: The probability density function of $X_{(r)}$ is:\n$$g_r(x) = \\frac{n!}{(r-1)!(n-r)!} [F(x)]^{r-1} [1-F(x)]^{n-r} f(x)$$\n3. **For $U(0,1)$**: $f(x) = 1$ and $F(x) = x$ for $0 < x < 1$. Substituting these:\n$$g_r(x) = \\frac{n!}{(r-1)!(n-r)!} x^{r-1} (1-x)^{n-r} = \\frac{1}{B(r, n-r+1)} x^{r-1} (1-x)^{(n-r+1)-1}$$\nwhich is the PDF of a Beta distribution of the first kind, $B(r, n-r+1)$.\n4. **Mean and Variance**:\n- $E(X_{(r)}) = \\frac{r}{n+1}$.\n- $V(X_{(r)}) = \\frac{r(n-r+1)}{(n+1)^2(n+2)}$."
+        "id": 21,
+        "unit": "I",
+        "question": "Define order statistics. Show that the $r$-th order statistic $X_{(r)}$ from a uniform distribution $U(0, 1)$ follows a Beta distribution of the first kind. Find the mean and variance of $X_{(r)}$.",
+        "answerKey": "1. **Order Statistics**: If $X_1, \\ldots, X_n$ is a random sample from a continuous distribution, the ordered values $X_{(1)} \\le X_{(2)} \\le \\ldots \\le X_{(n)}$ are the order statistics.\n2. **PDF of $r$-th Order Statistic**: The probability density function of $X_{(r)}$ is:\n$$g_r(x) = \\frac{n!}{(r-1)!(n-r)!} [F(x)]^{r-1} [1-F(x)]^{n-r} f(x)$$\n3. **For $U(0,1)$**: $f(x) = 1$ and $F(x) = x$ for $0 < x < 1$. Substituting these:\n$$g_r(x) = \\frac{n!}{(r-1)!(n-r)!} x^{r-1} (1-x)^{n-r} = \\frac{1}{B(r, n-r+1)} x^{r-1} (1-x)^{(n-r+1)-1}$$\nwhich is the PDF of a Beta distribution of the first kind, $B(r, n-r+1)$.\n4. **Mean and Variance**:\n- $E(X_{(r)}) = \\frac{r}{n+1}$.\n- $V(X_{(r)}) = \\frac{r(n-r+1)}{(n+1)^2(n+2)}$."
       },
       {
-            "id": 22,
-            "unit": "I",
-            "question": "What are order statistics? Find the probability density function of the smallest order statistic $X_{(1)}$ and the largest order statistic $X_{(n)}$ from a general distribution, and specify them for a uniform distribution $U(0, 1)$.",
-            "answerKey": "1. **Smallest Order Statistic $X_{(1)}$**:\n- Distribution Function: $P(X_{(1)} \\le x) = 1 - P(X_{(1)} > x) = 1 - [1 - F(x)]^n$.\n- Density Function: $g_1(x) = n [1 - F(x)]^{n-1} f(x)$.\n- For $U(0,1)$: $g_1(x) = n(1-x)^{n-1}, 0 < x < 1$.\n2. **Largest Order Statistic $X_{(n)}$**:\n- Distribution Function: $P(X_{(n)} \\le x) = [F(x)]^n$.\n- Density Function: $g_n(x) = n [F(x)]^{n-1} f(x)$.\n- For $U(0,1)$: $g_n(x) = nx^{n-1}, 0 < x < 1$."
+        "id": 22,
+        "unit": "I",
+        "question": "What are order statistics? Find the probability density function of the smallest order statistic $X_{(1)}$ and the largest order statistic $X_{(n)}$ from a general distribution, and specify them for a uniform distribution $U(0, 1)$.",
+        "answerKey": "1. **Smallest Order Statistic $X_{(1)}$**:\n- Distribution Function: $P(X_{(1)} \\le x) = 1 - P(X_{(1)} > x) = 1 - [1 - F(x)]^n$.\n- Density Function: $g_1(x) = n [1 - F(x)]^{n-1} f(x)$.\n- For $U(0,1)$: $g_1(x) = n(1-x)^{n-1}, 0 < x < 1$.\n2. **Largest Order Statistic $X_{(n)}$**:\n- Distribution Function: $P(X_{(n)} \\le x) = [F(x)]^n$.\n- Density Function: $g_n(x) = n [F(x)]^{n-1} f(x)$.\n- For $U(0,1)$: $g_n(x) = nx^{n-1}, 0 < x < 1$."
       },
       {
-            "id": 23,
-            "unit": "I",
-            "question": "State and prove the additive (reproductive) property of independent chi-square variates using Moment Generating Functions.",
-            "answerKey": "1. Let $X_1, X_2, \\ldots, X_k$ be independent random variables such that $X_i \\sim \\chi^2_{\\nu_i}$.\n2. The moment generating function (MGF) of $X_i$ is $M_{X_i}(t) = (1-2t)^{-\\nu_i/2}$ for $t < 1/2$.\n3. Let $Y = \\sum_{i=1}^k X_i$. Since the variables are independent:\n$$M_Y(t) = \\prod_{i=1}^k M_{X_i}(t) = \\prod_{i=1}^k (1-2t)^{-\\nu_i/2} = (1-2t)^{-\\sum_{i=1}^k \\nu_i / 2}$$\n4. By the uniqueness theorem of MGFs, this is the MGF of a chi-square variate with $\\sum_{i=1}^k \\nu_i$ degrees of freedom. Thus, the sum of independent chi-square variates is also a chi-square variate."
+        "id": 23,
+        "unit": "I",
+        "question": "State and prove the additive (reproductive) property of independent chi-square variates using Moment Generating Functions.",
+        "answerKey": "1. Let $X_1, X_2, \\ldots, X_k$ be independent random variables such that $X_i \\sim \\chi^2_{\\nu_i}$.\n2. The moment generating function (MGF) of $X_i$ is $M_{X_i}(t) = (1-2t)^{-\\nu_i/2}$ for $t < 1/2$.\n3. Let $Y = \\sum_{i=1}^k X_i$. Since the variables are independent:\n$$M_Y(t) = \\prod_{i=1}^k M_{X_i}(t) = \\prod_{i=1}^k (1-2t)^{-\\nu_i/2} = (1-2t)^{-\\sum_{i=1}^k \\nu_i / 2}$$\n4. By the uniqueness theorem of MGFs, this is the MGF of a chi-square variate with $\\sum_{i=1}^k \\nu_i$ degrees of freedom. Thus, the sum of independent chi-square variates is also a chi-square variate."
       },
       {
-            "id": 24,
-            "unit": "V",
-            "question": "Describe the one-sample Kolmogorov-Smirnov non-parametric test. Explain the hypotheses, test statistic, and decision criteria.",
-            "answerKey": "1. **Purpose**: To test whether a random sample comes from a specified theoretical continuous distribution $F_0(x)$.\n2. **Hypotheses**: $H_0: F(x) = F_0(x)$ for all $x$ vs $H_1: F(x) \\neq F_0(x)$ for some $x$.\n3. **Empirical Distribution Function** ($S_n(x)$): $S_n(x) = \\frac{\\text{Number of observations } \\le x}{n}$.\n4. **Test Statistic**: $D = \\sup_x |S_n(x) - F_0(x)|$. It is computed as $D = \\max(D^+, D^-)$, where:\n- $D^+ = \\max_{1\\le i\\le n} \\left( \\frac{i}{n} - F_0(X_{(i)}) \\right)$,\n- $D^- = \\max_{1\\le i\\le n} \\left( F_0(X_{(i)}) - \\frac{i-1}{n} \\right)$.\n5. **Decision**: If calculated $D$ exceeds the critical value $D_{\\alpha, n}$ from the K-S table, we reject $H_0$."
+        "id": 24,
+        "unit": "V",
+        "question": "Describe the one-sample Kolmogorov-Smirnov non-parametric test. Explain the hypotheses, test statistic, and decision criteria.",
+        "answerKey": "1. **Purpose**: To test whether a random sample comes from a specified theoretical continuous distribution $F_0(x)$.\n2. **Hypotheses**: $H_0: F(x) = F_0(x)$ for all $x$ vs $H_1: F(x) \\neq F_0(x)$ for some $x$.\n3. **Empirical Distribution Function** ($S_n(x)$): $S_n(x) = \\frac{\\text{Number of observations } \\le x}{n}$.\n4. **Test Statistic**: $D = \\sup_x |S_n(x) - F_0(x)|$. It is computed as $D = \\max(D^+, D^-)$, where:\n- $D^+ = \\max_{1\\le i\\le n} \\left( \\frac{i}{n} - F_0(X_{(i)}) \\right)$,\n- $D^- = \\max_{1\\le i\\le n} \\left( F_0(X_{(i)}) - \\frac{i-1}{n} \\right)$.\n5. **Decision**: If calculated $D$ exceeds the critical value $D_{\\alpha, n}$ from the K-S table, we reject $H_0$."
       },
       {
-            "id": 25,
-            "unit": "V",
-            "question": "Describe the Mann-Whitney-Wilcoxon non-parametric U-test for two independent samples. Write down the test statistic and explain the test procedure.",
-            "answerKey": "1. **Purpose**: To test whether two independent samples come from populations with the same continuous distribution.\n2. **Hypotheses**: $H_0$: The two populations have identical distributions vs $H_1$: Their distributions are shifted.\n3. **Procedure**:\n- Combine both samples of size $n_1$ and $n_2$ and rank all $n_1+n_2$ observations in ascending order. If there are ties, assign average ranks.\n- Find the sum of ranks for the first sample, say $R_1$.\n- Compute the Mann-Whitney $U$ statistic:\n$$U_1 = n_1 n_2 + \\frac{n_1(n_1+1)}{2} - R_1, \\quad U_2 = n_1 n_2 - U_1.$$\n- Let $U = \\min(U_1, U_2)$.\n4. **Decision**: Compare calculated $U$ with critical value $U_{\\alpha}$ from the tables. If calculated $U \\le U_{\\alpha}$, reject $H_0$."
+        "id": 25,
+        "unit": "V",
+        "question": "Describe the Mann-Whitney-Wilcoxon non-parametric U-test for two independent samples. Write down the test statistic and explain the test procedure.",
+        "answerKey": "1. **Purpose**: To test whether two independent samples come from populations with the same continuous distribution.\n2. **Hypotheses**: $H_0$: The two populations have identical distributions vs $H_1$: Their distributions are shifted.\n3. **Procedure**:\n- Combine both samples of size $n_1$ and $n_2$ and rank all $n_1+n_2$ observations in ascending order. If there are ties, assign average ranks.\n- Find the sum of ranks for the first sample, say $R_1$.\n- Compute the Mann-Whitney $U$ statistic:\n$$U_1 = n_1 n_2 + \\frac{n_1(n_1+1)}{2} - R_1, \\quad U_2 = n_1 n_2 - U_1.$$\n- Let $U = \\min(U_1, U_2)$.\n4. **Decision**: Compare calculated $U$ with critical value $U_{\\alpha}$ from the tables. If calculated $U \\le U_{\\alpha}$, reject $H_0$."
       }
-]
+    ]
   },
   "stamj42": {
     "id": "stamj42",
@@ -4101,156 +4878,156 @@ export const EXAMS = {
     "type": "theory",
     "questions": [
       {
-            "id": 1,
-            "unit": "I",
-            "question": "What is sampling? Distinguish between sampling and non-sampling errors. How can non-sampling errors be controlled?",
-            "answerKey": "1. **Sampling**: The process of selecting a representative subset of individuals from a population to estimate population characteristics.\n2. **Sampling Error**: The error that arises due to drawing a sample instead of conducting a census. It is inherent in any sampling design and can be reduced by increasing the sample size.\n3. **Non-Sampling Error**: The error that arises during data collection, editing, coding, or non-response. It can occur in both sample surveys and censuses.\n4. **Control of Non-Sampling Errors**: Can be controlled by training enumerators, designing clear questionnaires, follow-up on non-responses, and statistical adjustment."
+        "id": 1,
+        "unit": "I",
+        "question": "What is sampling? Distinguish between sampling and non-sampling errors. How can non-sampling errors be controlled?",
+        "answerKey": "1. **Sampling**: The process of selecting a representative subset of individuals from a population to estimate population characteristics.\n2. **Sampling Error**: The error that arises due to drawing a sample instead of conducting a census. It is inherent in any sampling design and can be reduced by increasing the sample size.\n3. **Non-Sampling Error**: The error that arises during data collection, editing, coding, or non-response. It can occur in both sample surveys and censuses.\n4. **Control of Non-Sampling Errors**: Can be controlled by training enumerators, designing clear questionnaires, follow-up on non-responses, and statistical adjustment."
       },
       {
-            "id": 2,
-            "unit": "I",
-            "question": "Derive the formula for determining the minimum sample size $n$ under simple random sampling without replacement (SRSWOR) for estimating the population mean $\\bar{Y}$ within a margin of error $d$ with confidence level $1-\\alpha$.",
-            "answerKey": "1. We want the estimate $\\bar{y}$ to satisfy $P(|\\bar{y} - \\bar{Y}| \\le d) = 1-\\alpha$.\n2. Since $\\bar{y} \\dot{\\sim} N(\\bar{Y}, V(\\bar{y}))$, we set $z_{\\alpha/2} \\sqrt{V(\\bar{y})} = d$.\n3. Under SRSWOR, $V(\\bar{y}) = \\left(\\frac{1}{n} - \\frac{1}{N}\\right) S^2$. So:\n$$z_{\\alpha/2} \\sqrt{\\left(\\frac{1}{n} - \\frac{1}{N}\\right) S^2} = d \\implies \\left(\\frac{1}{n} - \\frac{1}{N}\\right) S^2 = \\frac{d^2}{z_{\\alpha/2}^2}.$$\n4. Let $n_0 = \\frac{z_{\\alpha/2}^2 S^2}{d^2}$. Then $\\frac{1}{n} - \\frac{1}{N} = \\frac{1}{n_0} \\implies \\frac{1}{n} = \\frac{1}{n_0} + \\frac{1}{N} \\implies n = \\frac{n_0}{1 + \\frac{n_0}{N}}$.\nThis is the required sample size."
+        "id": 2,
+        "unit": "I",
+        "question": "Derive the formula for determining the minimum sample size $n$ under simple random sampling without replacement (SRSWOR) for estimating the population mean $\\bar{Y}$ within a margin of error $d$ with confidence level $1-\\alpha$.",
+        "answerKey": "1. We want the estimate $\\bar{y}$ to satisfy $P(|\\bar{y} - \\bar{Y}| \\le d) = 1-\\alpha$.\n2. Since $\\bar{y} \\dot{\\sim} N(\\bar{Y}, V(\\bar{y}))$, we set $z_{\\alpha/2} \\sqrt{V(\\bar{y})} = d$.\n3. Under SRSWOR, $V(\\bar{y}) = \\left(\\frac{1}{n} - \\frac{1}{N}\\right) S^2$. So:\n$$z_{\\alpha/2} \\sqrt{\\left(\\frac{1}{n} - \\frac{1}{N}\\right) S^2} = d \\implies \\left(\\frac{1}{n} - \\frac{1}{N}\\right) S^2 = \\frac{d^2}{z_{\\alpha/2}^2}.$$\n4. Let $n_0 = \\frac{z_{\\alpha/2}^2 S^2}{d^2}$. Then $\\frac{1}{n} - \\frac{1}{N} = \\frac{1}{n_0} \\implies \\frac{1}{n} = \\frac{1}{n_0} + \\frac{1}{N} \\implies n = \\frac{n_0}{1 + \\frac{n_0}{N}}$.\nThis is the required sample size."
       },
       {
-            "id": 3,
-            "unit": "I",
-            "question": "For a population of size $N=430$, we know that $\\bar{Y}=19$ and $S^2 = 85.6$. Under Simple Random Sampling, what should be the sample size to estimate the population mean with a margin of error of 10% of $\\bar{Y}$ at a 95% confidence level? (Given $z_{0.05} = 1.96$)",
-            "answerKey": "1. **Parameters**: $N = 430$, $\\bar{Y} = 19$, $S^2 = 85.6$.\n2. **Margin of Error**: $d = 10\\% \\text{ of } \\bar{Y} = 0.10 \\times 19 = 1.9$.\n3. **Initial Sample Size** ($n_0$):\n$$n_0 = \\frac{z^2 S^2}{d^2} = \\frac{(1.96)^2 \\times 85.6}{(1.9)^2} = \\frac{3.8416 \\times 85.6}{3.61} \\approx 91.09.$$\n4. **Finite Population Correction** ($n$):\n$$n = \\frac{n_0}{1 + \\frac{n_0}{N}} = \\frac{91.09}{1 + \\frac{91.09}{430}} = \\frac{91.09}{1.2118} \\approx 75.17 \\approx 75.$$\nThus, the required sample size is 75."
+        "id": 3,
+        "unit": "I",
+        "question": "For a population of size $N=430$, we know that $\\bar{Y}=19$ and $S^2 = 85.6$. Under Simple Random Sampling, what should be the sample size to estimate the population mean with a margin of error of 10% of $\\bar{Y}$ at a 95% confidence level? (Given $z_{0.05} = 1.96$)",
+        "answerKey": "1. **Parameters**: $N = 430$, $\\bar{Y} = 19$, $S^2 = 85.6$.\n2. **Margin of Error**: $d = 10\\% \\text{ of } \\bar{Y} = 0.10 \\times 19 = 1.9$.\n3. **Initial Sample Size** ($n_0$):\n$$n_0 = \\frac{z^2 S^2}{d^2} = \\frac{(1.96)^2 \\times 85.6}{(1.9)^2} = \\frac{3.8416 \\times 85.6}{3.61} \\approx 91.09.$$\n4. **Finite Population Correction** ($n$):\n$$n = \\frac{n_0}{1 + \\frac{n_0}{N}} = \\frac{91.09}{1 + \\frac{91.09}{430}} = \\frac{91.09}{1.2118} \\approx 75.17 \\approx 75.$$\nThus, the required sample size is 75."
       },
       {
-            "id": 4,
-            "unit": "I",
-            "question": "Consider a population of 6 units with values $\\{1, 2, 3, 4, 5, 6\\}$. Write down all possible samples of size 2 under SRSWOR. Show that the sample mean is an unbiased estimator of the population mean, and calculate its sampling variance.",
-            "answerKey": "1. **Population**: $\\{1, 2, 3, 4, 5, 6\\}$, $N=6$, population mean $\\bar{Y} = 3.5$.\n2. **SRSWOR Samples** of size $n=2$: There are $\\binom{6}{2} = 15$ possible samples:\n- $\\{1,2\\} (\\bar{y}=1.5)$, $\\{1,3\\} (\\bar{y}=2.0)$, $\\{1,4\\} (\\bar{y}=2.5)$, $\\{1,5\\} (\\bar{y}=3.0)$, $\\{1,6\\} (\\bar{y}=3.5)$\n- $\\{2,3\\} (\\bar{y}=2.5)$, $\\{2,4\\} (\\bar{y}=3.0)$, $\\{2,5\\} (\\bar{y}=3.5)$, $\\{2,6\\} (\\bar{y}=4.0)$\n- $\\{3,4\\} (\\bar{y}=3.5)$, $\\{3,5\\} (\\bar{y}=4.0)$, $\\{3,6\\} (\\bar{y}=4.5)$\n- $\\{4,5\\} (\\bar{y}=4.5)$, $\\{4,6\\} (\\bar{y}=5.0)$\n- $\\{5,6\\} (\\bar{y}=5.5)$\n3. **Unbiasedness**: The sum of all 15 sample means is $1.5 + 2 + 2.5 \\times 2 + 3 \\times 2 + 3.5 \\times 3 + 4 \\times 2 + 4.5 \\times 2 + 5 + 5.5 = 52.5$.\n- $E(\\bar{y}) = \\frac{52.5}{15} = 3.5 = \\bar{Y}$. (Unbiased)\n4. **Variance**: Calculated as $V(\\bar{y}) = \\frac{1}{15}\\sum (\\bar{y}_i - 3.5)^2 = 1.167$.\n- Theoretical: $S^2 = \\frac{1}{5}\\sum (Y_i - 3.5)^2 = 3.5$. $V(\\bar{y}) = \\left(1-\\frac{2}{6}\\right)\\frac{3.5}{2} = \\frac{2}{3} \\times 1.75 = 1.167$. (Matches!)"
+        "id": 4,
+        "unit": "I",
+        "question": "Consider a population of 6 units with values $\\{1, 2, 3, 4, 5, 6\\}$. Write down all possible samples of size 2 under SRSWOR. Show that the sample mean is an unbiased estimator of the population mean, and calculate its sampling variance.",
+        "answerKey": "1. **Population**: $\\{1, 2, 3, 4, 5, 6\\}$, $N=6$, population mean $\\bar{Y} = 3.5$.\n2. **SRSWOR Samples** of size $n=2$: There are $\\binom{6}{2} = 15$ possible samples:\n- $\\{1,2\\} (\\bar{y}=1.5)$, $\\{1,3\\} (\\bar{y}=2.0)$, $\\{1,4\\} (\\bar{y}=2.5)$, $\\{1,5\\} (\\bar{y}=3.0)$, $\\{1,6\\} (\\bar{y}=3.5)$\n- $\\{2,3\\} (\\bar{y}=2.5)$, $\\{2,4\\} (\\bar{y}=3.0)$, $\\{2,5\\} (\\bar{y}=3.5)$, $\\{2,6\\} (\\bar{y}=4.0)$\n- $\\{3,4\\} (\\bar{y}=3.5)$, $\\{3,5\\} (\\bar{y}=4.0)$, $\\{3,6\\} (\\bar{y}=4.5)$\n- $\\{4,5\\} (\\bar{y}=4.5)$, $\\{4,6\\} (\\bar{y}=5.0)$\n- $\\{5,6\\} (\\bar{y}=5.5)$\n3. **Unbiasedness**: The sum of all 15 sample means is $1.5 + 2 + 2.5 \\times 2 + 3 \\times 2 + 3.5 \\times 3 + 4 \\times 2 + 4.5 \\times 2 + 5 + 5.5 = 52.5$.\n- $E(\\bar{y}) = \\frac{52.5}{15} = 3.5 = \\bar{Y}$. (Unbiased)\n4. **Variance**: Calculated as $V(\\bar{y}) = \\frac{1}{15}\\sum (\\bar{y}_i - 3.5)^2 = 1.167$.\n- Theoretical: $S^2 = \\frac{1}{5}\\sum (Y_i - 3.5)^2 = 3.5$. $V(\\bar{y}) = \\left(1-\\frac{2}{6}\\right)\\frac{3.5}{2} = \\frac{2}{3} \\times 1.75 = 1.167$. (Matches!)"
       },
       {
-            "id": 5,
-            "unit": "I",
-            "question": "Define simple random sampling with replacement (SRSWR) and without replacement (SRSWOR). Show that $V(\\bar{y})_{\\text{WOR}} \\le V(\\bar{y})_{\\text{WR}}$.",
-            "answerKey": "1. **SRSWR**: Units are drawn one by one, and each drawn unit is replaced back in the population before the next draw. A unit can appear multiple times in the sample.\n2. **SRSWOR**: Units are drawn one by one and not replaced back. All units in the sample are distinct.\n3. **Variance Comparison**: Let $S^2 = \\frac{1}{N-1}\\sum (Y_i - \\bar{Y})^2$ and $\\sigma^2 = \\frac{1}{N}\\sum (Y_i - \\bar{Y})^2$.\n- $V(\\bar{y})_{\\text{WR}} = \\frac{\\sigma^2}{n} = \\frac{N-1}{N} \\frac{S^2}{n}$.\n- $V(\\bar{y})_{\\text{WOR}} = \\left(1 - \\frac{n}{N}\\right) \\frac{S^2}{n}$.\n- Difference: $V(\\bar{y})_{\\text{WR}} - V(\\bar{y})_{\\text{WOR}} = \\frac{S^2}{n} \\left[ \\frac{N-1}{N} - \\left(1 - \\frac{n}{N}\\right) \\right] = \\frac{S^2}{n} \\left[ 1 - \\frac{1}{N} - 1 + \\frac{n}{N} \\right] = \\frac{S^2}{n} \\left( \\frac{n-1}{N} \\right) \\ge 0$ since $n \\ge 1$.\nThus $V(\\bar{y})_{\\text{WOR}} \\le V(\\bar{y})_{\\text{WR}}$."
+        "id": 5,
+        "unit": "I",
+        "question": "Define simple random sampling with replacement (SRSWR) and without replacement (SRSWOR). Show that $V(\\bar{y})_{\\text{WOR}} \\le V(\\bar{y})_{\\text{WR}}$.",
+        "answerKey": "1. **SRSWR**: Units are drawn one by one, and each drawn unit is replaced back in the population before the next draw. A unit can appear multiple times in the sample.\n2. **SRSWOR**: Units are drawn one by one and not replaced back. All units in the sample are distinct.\n3. **Variance Comparison**: Let $S^2 = \\frac{1}{N-1}\\sum (Y_i - \\bar{Y})^2$ and $\\sigma^2 = \\frac{1}{N}\\sum (Y_i - \\bar{Y})^2$.\n- $V(\\bar{y})_{\\text{WR}} = \\frac{\\sigma^2}{n} = \\frac{N-1}{N} \\frac{S^2}{n}$.\n- $V(\\bar{y})_{\\text{WOR}} = \\left(1 - \\frac{n}{N}\\right) \\frac{S^2}{n}$.\n- Difference: $V(\\bar{y})_{\\text{WR}} - V(\\bar{y})_{\\text{WOR}} = \\frac{S^2}{n} \\left[ \\frac{N-1}{N} - \\left(1 - \\frac{n}{N}\\right) \\right] = \\frac{S^2}{n} \\left[ 1 - \\frac{1}{N} - 1 + \\frac{n}{N} \\right] = \\frac{S^2}{n} \\left( \\frac{n-1}{N} \\right) \\ge 0$ since $n \\ge 1$.\nThus $V(\\bar{y})_{\\text{WOR}} \\le V(\\bar{y})_{\\text{WR}}$."
       },
       {
-            "id": 6,
-            "unit": "II",
-            "question": "What is stratified random sampling? Describe the Proportional Allocation scheme and derive the variance of the stratified sample mean under Proportional Allocation.",
-            "answerKey": "1. **Stratification**: Dividing a heterogeneous population of size $N$ into $k$ homogeneous subgroups (strata) of sizes $N_1, \\ldots, N_k$, and drawing an SRS from each stratum.\n2. **Proportional Allocation**: The sample size $n_i$ in the $i$-th stratum is proportional to the size of the stratum $N_i$:\n$$n_i = n \\frac{N_i}{N} = n W_i.$$\n3. **Variance**: The stratified sample mean is $\\bar{y}_{\\text{st}} = \\sum W_i \\bar{y}_i$.\n$$V(\\bar{y}_{\\text{st}}) = \\sum W_i^2 V(\\bar{y}_i) = \\sum W_i^2 \\left( \\frac{1}{n_i} - \\frac{1}{N_i} \\right) S_i^2.$$\nSubstituting $n_i = n W_i$:\n$$V(\\bar{y}_{\\text{st}})_{\\text{prop}} = \\sum W_i^2 \\left( \\frac{1}{nW_i} - \\frac{1}{N_i} \\right) S_i^2 = \\frac{1}{n} \\sum W_i S_i^2 - \\frac{1}{N} \\sum W_i S_i^2 = \\left(\\frac{1}{n} - \\frac{1}{N}\\right) \\sum W_i S_i^2.$$"
+        "id": 6,
+        "unit": "II",
+        "question": "What is stratified random sampling? Describe the Proportional Allocation scheme and derive the variance of the stratified sample mean under Proportional Allocation.",
+        "answerKey": "1. **Stratification**: Dividing a heterogeneous population of size $N$ into $k$ homogeneous subgroups (strata) of sizes $N_1, \\ldots, N_k$, and drawing an SRS from each stratum.\n2. **Proportional Allocation**: The sample size $n_i$ in the $i$-th stratum is proportional to the size of the stratum $N_i$:\n$$n_i = n \\frac{N_i}{N} = n W_i.$$\n3. **Variance**: The stratified sample mean is $\\bar{y}_{\\text{st}} = \\sum W_i \\bar{y}_i$.\n$$V(\\bar{y}_{\\text{st}}) = \\sum W_i^2 V(\\bar{y}_i) = \\sum W_i^2 \\left( \\frac{1}{n_i} - \\frac{1}{N_i} \\right) S_i^2.$$\nSubstituting $n_i = n W_i$:\n$$V(\\bar{y}_{\\text{st}})_{\\text{prop}} = \\sum W_i^2 \\left( \\frac{1}{nW_i} - \\frac{1}{N_i} \\right) S_i^2 = \\frac{1}{n} \\sum W_i S_i^2 - \\frac{1}{N} \\sum W_i S_i^2 = \\left(\\frac{1}{n} - \\frac{1}{N}\\right) \\sum W_i S_i^2.$$"
       },
       {
-            "id": 7,
-            "unit": "II",
-            "question": "Explain the Neyman (Optimum) Allocation method in stratified random sampling. Show how it minimizes the variance of the stratified sample mean for a fixed sample size $n$.",
-            "answerKey": "1. **Neyman Allocation**: Minimizes $V(\\bar{y}_{\\text{st}})$ subject to the constraint $\\sum n_i = n$.\n2. **Objective Function**: $V(\\bar{y}_{\\text{st}}) = \\sum W_i^2 \\left(\\frac{1}{n_i} - \\frac{1}{N_i}\\right) S_i^2$. Minimizing this is equivalent to minimizing $\\sum \\frac{W_i^2 S_i^2}{n_i}$.\n3. **Lagrangian**: $L(n_1, \\ldots, n_k, \\lambda) = \\sum \\frac{W_i^2 S_i^2}{n_i} + \\lambda (\\sum n_i - n)$.\n4. **Differentiation**: $\\frac{\\partial L}{\\partial n_i} = -\\frac{W_i^2 S_i^2}{n_i^2} + \\lambda = 0 \\implies n_i = \\frac{W_i S_i}{\\sqrt{\\lambda}}$.\n5. **Summing**: $\\sum n_i = n \\implies \\frac{1}{\\sqrt{\\lambda}} = \\frac{n}{\\sum W_j S_j}$.\n6. **Allocation**: $n_i = n \\frac{W_i S_i}{\\sum W_j S_j} = n \\frac{N_i S_i}{\\sum N_j S_j}$.\n7. **Minimum Variance**: Substituting $n_i$ back into the variance formula yields:\n$$V(\\bar{y}_{\\text{st}})_{\\text{opt}} = \\frac{1}{n} \\left( \\sum W_i S_i \\right)^2 - \\frac{1}{N} \\sum W_i S_i^2.$$"
+        "id": 7,
+        "unit": "II",
+        "question": "Explain the Neyman (Optimum) Allocation method in stratified random sampling. Show how it minimizes the variance of the stratified sample mean for a fixed sample size $n$.",
+        "answerKey": "1. **Neyman Allocation**: Minimizes $V(\\bar{y}_{\\text{st}})$ subject to the constraint $\\sum n_i = n$.\n2. **Objective Function**: $V(\\bar{y}_{\\text{st}}) = \\sum W_i^2 \\left(\\frac{1}{n_i} - \\frac{1}{N_i}\\right) S_i^2$. Minimizing this is equivalent to minimizing $\\sum \\frac{W_i^2 S_i^2}{n_i}$.\n3. **Lagrangian**: $L(n_1, \\ldots, n_k, \\lambda) = \\sum \\frac{W_i^2 S_i^2}{n_i} + \\lambda (\\sum n_i - n)$.\n4. **Differentiation**: $\\frac{\\partial L}{\\partial n_i} = -\\frac{W_i^2 S_i^2}{n_i^2} + \\lambda = 0 \\implies n_i = \\frac{W_i S_i}{\\sqrt{\\lambda}}$.\n5. **Summing**: $\\sum n_i = n \\implies \\frac{1}{\\sqrt{\\lambda}} = \\frac{n}{\\sum W_j S_j}$.\n6. **Allocation**: $n_i = n \\frac{W_i S_i}{\\sum W_j S_j} = n \\frac{N_i S_i}{\\sum N_j S_j}$.\n7. **Minimum Variance**: Substituting $n_i$ back into the variance formula yields:\n$$V(\\bar{y}_{\\text{st}})_{\\text{opt}} = \\frac{1}{n} \\left( \\sum W_i S_i \\right)^2 - \\frac{1}{N} \\sum W_i S_i^2.$$"
       },
       {
-            "id": 8,
-            "unit": "II",
-            "question": "A stratified population has three strata with the following characteristics:\n- Stratum I: $N_1 = 161, S_1 = 2236$\n- Stratum II: $N_2 = 195, S_2 = 2614$\n- Stratum III: $N_3 = 274, S_3 = 606$\n- Stratum IV: $N_4 = 382, S_4 = 230$\nIf a sample of size $n=90$ is to be selected, compute the required sample sizes for each stratum under proportional allocation.",
-            "answerKey": "1. **Total Population Size** ($N$): $N = N_1+N_2+N_3+N_4 = 161+195+274+382 = 1012$.\n2. **Proportional Allocation Formula**: $n_i = n \\frac{N_i}{N}$.\n- $n_1 = 90 \\times \\frac{161}{1012} = 14.31 \\approx 14$\n- $n_2 = 90 \\times \\frac{195}{1012} = 17.34 \\approx 17$\n- $n_3 = 90 \\times \\frac{274}{1012} = 24.37 \\approx 24$\n- $n_4 = 90 \\times \\frac{382}{1012} = 33.97 \\approx 35$.\nAdjusting to sum to 90: $n_1 = 14, n_2 = 17, n_3 = 24, n_4 = 35$ (sum is 90)."
+        "id": 8,
+        "unit": "II",
+        "question": "A stratified population has three strata with the following characteristics:\n- Stratum I: $N_1 = 161, S_1 = 2236$\n- Stratum II: $N_2 = 195, S_2 = 2614$\n- Stratum III: $N_3 = 274, S_3 = 606$\n- Stratum IV: $N_4 = 382, S_4 = 230$\nIf a sample of size $n=90$ is to be selected, compute the required sample sizes for each stratum under proportional allocation.",
+        "answerKey": "1. **Total Population Size** ($N$): $N = N_1+N_2+N_3+N_4 = 161+195+274+382 = 1012$.\n2. **Proportional Allocation Formula**: $n_i = n \\frac{N_i}{N}$.\n- $n_1 = 90 \\times \\frac{161}{1012} = 14.31 \\approx 14$\n- $n_2 = 90 \\times \\frac{195}{1012} = 17.34 \\approx 17$\n- $n_3 = 90 \\times \\frac{274}{1012} = 24.37 \\approx 24$\n- $n_4 = 90 \\times \\frac{382}{1012} = 33.97 \\approx 35$.\nAdjusting to sum to 90: $n_1 = 14, n_2 = 17, n_3 = 24, n_4 = 35$ (sum is 90)."
       },
       {
-            "id": 9,
-            "unit": "II",
-            "question": "A stratified random sample is to be taken. The cost function is $C = C_0 + \\sum c_i n_i$. For two strata, the parameters are: $W_1 = 0.4, S_1 = 10, c_1 = 4$ and $W_2 = 0.6, S_2 = 20, c_2 = 9$. Find the values of $n_1/n$ and $n_2/n$ that minimize the cost for a given variance $V(\\bar{y}_{\\text{st}})$.",
-            "answerKey": "1. **Cost-Optimum Allocation**: Under stratified sampling with a cost function, the sample size in each stratum is allocated as $n_i \\propto \\frac{W_i S_i}{\\sqrt{c_i}}$.\n2. **Calculate Ratios**:\n- For Stratum 1: $W_1 S_1 / \\sqrt{c_1} = (0.4 \\times 10) / \\sqrt{4} = 4 / 2 = 2$.\n- For Stratum 2: $W_2 S_2 / \\sqrt{c_2} = (0.6 \\times 20) / \\sqrt{9} = 12 / 3 = 4$.\n3. **Sum of Ratios**: $2 + 4 = 6$.\n4. **Fractional Ratios**:\n- $n_1 / n = 2 / 6 = 1/3 \\approx 0.333$.\n- $n_2 / n = 4 / 6 = 2/3 \\approx 0.667$.\nThus, 1/3rd of the sample is allocated to Stratum 1 and 2/3rds to Stratum 2."
+        "id": 9,
+        "unit": "II",
+        "question": "A stratified random sample is to be taken. The cost function is $C = C_0 + \\sum c_i n_i$. For two strata, the parameters are: $W_1 = 0.4, S_1 = 10, c_1 = 4$ and $W_2 = 0.6, S_2 = 20, c_2 = 9$. Find the values of $n_1/n$ and $n_2/n$ that minimize the cost for a given variance $V(\\bar{y}_{\\text{st}})$.",
+        "answerKey": "1. **Cost-Optimum Allocation**: Under stratified sampling with a cost function, the sample size in each stratum is allocated as $n_i \\propto \\frac{W_i S_i}{\\sqrt{c_i}}$.\n2. **Calculate Ratios**:\n- For Stratum 1: $W_1 S_1 / \\sqrt{c_1} = (0.4 \\times 10) / \\sqrt{4} = 4 / 2 = 2$.\n- For Stratum 2: $W_2 S_2 / \\sqrt{c_2} = (0.6 \\times 20) / \\sqrt{9} = 12 / 3 = 4$.\n3. **Sum of Ratios**: $2 + 4 = 6$.\n4. **Fractional Ratios**:\n- $n_1 / n = 2 / 6 = 1/3 \\approx 0.333$.\n- $n_2 / n = 4 / 6 = 2/3 \\approx 0.667$.\nThus, 1/3rd of the sample is allocated to Stratum 1 and 2/3rds to Stratum 2."
       },
       {
-            "id": 10,
-            "unit": "III",
-            "question": "Describe the design and implementation of Systematic Sampling. Discuss its main advantages, disadvantages, and real-life examples.",
-            "answerKey": "1. **Systematic Sampling**: A method where we select one unit at random from the first $k$ units in the population, and then select every $k$-th unit thereafter, where $k = N/n$ is the sampling interval.\n2. **Advantages**: (i) Simpler to draw in the field than SRS. (ii) Distributes the sample evenly over the population. (iii) Highly cost-effective.\n3. **Disadvantages**: (i) If the population has periodic features matching the interval $k$, the sample can be biased. (ii) No single-sample formula for estimating the variance exists without making assumptions.\n4. **Example**: Selecting every 10th house on a street, or inspecting every 50th item on an assembly line."
+        "id": 10,
+        "unit": "III",
+        "question": "Describe the design and implementation of Systematic Sampling. Discuss its main advantages, disadvantages, and real-life examples.",
+        "answerKey": "1. **Systematic Sampling**: A method where we select one unit at random from the first $k$ units in the population, and then select every $k$-th unit thereafter, where $k = N/n$ is the sampling interval.\n2. **Advantages**: (i) Simpler to draw in the field than SRS. (ii) Distributes the sample evenly over the population. (iii) Highly cost-effective.\n3. **Disadvantages**: (i) If the population has periodic features matching the interval $k$, the sample can be biased. (ii) No single-sample formula for estimating the variance exists without making assumptions.\n4. **Example**: Selecting every 10th house on a street, or inspecting every 50th item on an assembly line."
       },
       {
-            "id": 11,
-            "unit": "III",
-            "question": "Obtain the algebraic expression for the variance of the estimated mean under systematic sampling in terms of the intra-class correlation coefficient $\\rho$ between units of the same systematic sample.",
-            "answerKey": "1. The population of size $N = nk$ is split into $k$ systematic samples. The mean of the $i$-th systematic sample is $\\bar{y}_{i\\cdot}$.\n2. The variance of the systematic sample mean is:\n$$V(\\bar{y}_{\\text{sys}}) = \\frac{1}{k}\\sum_{i=1}^k (\\bar{y}_{i\\cdot} - \\bar{Y})^2.$$\n3. By expanding this and using the definition of the intra-class correlation coefficient:\n$$\\rho = \\frac{\\sum_{i=1}^k \\sum_{j \\neq l} (y_{ij} - \\bar{Y})(y_{il} - \\bar{Y})}{(n-1)\\sum_{i=1}^k \\sum_{j=1}^n (y_{ij} - \\bar{Y})^2}$$\nwe obtain the relation:\n$$V(\\bar{y}_{\\text{sys}}) = \\frac{S^2}{n} \\left[ \\frac{N-1}{N} \\right] [1 + (n-1)\\rho]$$\nwhere $S^2$ is the population mean square."
+        "id": 11,
+        "unit": "III",
+        "question": "Obtain the algebraic expression for the variance of the estimated mean under systematic sampling in terms of the intra-class correlation coefficient $\\rho$ between units of the same systematic sample.",
+        "answerKey": "1. The population of size $N = nk$ is split into $k$ systematic samples. The mean of the $i$-th systematic sample is $\\bar{y}_{i\\cdot}$.\n2. The variance of the systematic sample mean is:\n$$V(\\bar{y}_{\\text{sys}}) = \\frac{1}{k}\\sum_{i=1}^k (\\bar{y}_{i\\cdot} - \\bar{Y})^2.$$\n3. By expanding this and using the definition of the intra-class correlation coefficient:\n$$\\rho = \\frac{\\sum_{i=1}^k \\sum_{j \\neq l} (y_{ij} - \\bar{Y})(y_{il} - \\bar{Y})}{(n-1)\\sum_{i=1}^k \\sum_{j=1}^n (y_{ij} - \\bar{Y})^2}$$\nwe obtain the relation:\n$$V(\\bar{y}_{\\text{sys}}) = \\frac{S^2}{n} \\left[ \\frac{N-1}{N} \\right] [1 + (n-1)\\rho]$$\nwhere $S^2$ is the population mean square."
       },
       {
-            "id": 12,
-            "unit": "III",
-            "question": "Compare the relative efficiency of simple random sampling, stratified random sampling with proportional allocation, and systematic sampling for a population with a linear trend. Write the inequality relating their variances.",
-            "answerKey": "1. If the population exhibits a linear trend (e.g. $y_i = i$), the units are ordered.\n2. **Stratified Sampling** with proportional allocation is more efficient than SRS because it captures the variation between strata.\n3. **Systematic Sampling** is more efficient than stratified sampling because it spreads the sample units even more uniformly across the range.\n4. The variances satisfy the inequality:\n$$V(\\bar{y}_{\\text{st}})_{\\text{opt}} \\le V(\\bar{y}_{\\text{st}})_{\\text{prop}} \\approx V(\\bar{y}_{\\text{sys}}) \\le V(\\bar{y})_{\\text{SRS}}.$$\nFor a strict linear trend, $V(\\bar{y}_{\\text{sys}}) \\approx \\frac{1}{n} V(\\bar{y}_{\\text{st}})_{\\text{prop}}$, making systematic sampling highly efficient."
+        "id": 12,
+        "unit": "III",
+        "question": "Compare the relative efficiency of simple random sampling, stratified random sampling with proportional allocation, and systematic sampling for a population with a linear trend. Write the inequality relating their variances.",
+        "answerKey": "1. If the population exhibits a linear trend (e.g. $y_i = i$), the units are ordered.\n2. **Stratified Sampling** with proportional allocation is more efficient than SRS because it captures the variation between strata.\n3. **Systematic Sampling** is more efficient than stratified sampling because it spreads the sample units even more uniformly across the range.\n4. The variances satisfy the inequality:\n$$V(\\bar{y}_{\\text{st}})_{\\text{opt}} \\le V(\\bar{y}_{\\text{st}})_{\\text{prop}} \\approx V(\\bar{y}_{\\text{sys}}) \\le V(\\bar{y})_{\\text{SRS}}.$$\nFor a strict linear trend, $V(\\bar{y}_{\\text{sys}}) \\approx \\frac{1}{n} V(\\bar{y}_{\\text{st}})_{\\text{prop}}$, making systematic sampling highly efficient."
       },
       {
-            "id": 13,
-            "unit": "III",
-            "question": "Explain the Ratio Method of Estimation. State the ratio estimator for the population mean and derive its first-order Mean Square Error (MSE).",
-            "answerKey": "1. **Ratio Estimator**: Used when a auxiliary variable $X$ is positively correlated with the study variable $Y$ and its population mean $\\bar{X}$ is known.\n2. **Estimator**: $\\bar{y}_R = \\frac{\\bar{y}}{\\bar{x}} \\bar{X} = R \\bar{X}$ where $R = \\frac{\\bar{Y}}{\\bar{X}}$.\n3. **Derivation of MSE**: Let $e_0 = \\frac{\\bar{y} - \\bar{Y}}{\\bar{Y}}$ and $e_1 = \\frac{\\bar{x} - \\bar{X}}{\\bar{X}}$. Then $E(e_0) = E(e_1) = 0$, $E(e_0^2) = V(\\bar{y})/\\bar{Y}^2$, $E(e_1^2) = V(\\bar{x})/\\bar{X}^2$, and $E(e_0 e_1) = \\text{Cov}(\\bar{x}, \\bar{y})/(\\bar{X}\\bar{Y})$.\n- Expressing $\\bar{y}_R$ in terms of $e_0$ and $e_1$:\n$$\\bar{y}_R = \\bar{Y}(1+e_0)(1+e_1)^{-1} \\approx \\bar{Y}(1 + e_0 - e_1 + e_1^2 - e_0 e_1).$$\n- MSE to first order approximation:\n$$\\text{MSE}(\\bar{y}_R) \\approx E(\\bar{y}_R - \\bar{Y})^2 \\approx \\bar{Y}^2 E(e_0 - e_1)^2 = \\bar{Y}^2 \\left( E(e_0^2) + E(e_1^2) - 2E(e_0 e_1) \\right)$$\n$$\\text{MSE}(\\bar{y}_R) \\approx \\left(\\frac{1-f}{n}\\right) \\left[ S_y^2 + R^2 S_x^2 - 2R \\rho S_x S_y \\right].$$"
+        "id": 13,
+        "unit": "III",
+        "question": "Explain the Ratio Method of Estimation. State the ratio estimator for the population mean and derive its first-order Mean Square Error (MSE).",
+        "answerKey": "1. **Ratio Estimator**: Used when a auxiliary variable $X$ is positively correlated with the study variable $Y$ and its population mean $\\bar{X}$ is known.\n2. **Estimator**: $\\bar{y}_R = \\frac{\\bar{y}}{\\bar{x}} \\bar{X} = R \\bar{X}$ where $R = \\frac{\\bar{Y}}{\\bar{X}}$.\n3. **Derivation of MSE**: Let $e_0 = \\frac{\\bar{y} - \\bar{Y}}{\\bar{Y}}$ and $e_1 = \\frac{\\bar{x} - \\bar{X}}{\\bar{X}}$. Then $E(e_0) = E(e_1) = 0$, $E(e_0^2) = V(\\bar{y})/\\bar{Y}^2$, $E(e_1^2) = V(\\bar{x})/\\bar{X}^2$, and $E(e_0 e_1) = \\text{Cov}(\\bar{x}, \\bar{y})/(\\bar{X}\\bar{Y})$.\n- Expressing $\\bar{y}_R$ in terms of $e_0$ and $e_1$:\n$$\\bar{y}_R = \\bar{Y}(1+e_0)(1+e_1)^{-1} \\approx \\bar{Y}(1 + e_0 - e_1 + e_1^2 - e_0 e_1).$$\n- MSE to first order approximation:\n$$\\text{MSE}(\\bar{y}_R) \\approx E(\\bar{y}_R - \\bar{Y})^2 \\approx \\bar{Y}^2 E(e_0 - e_1)^2 = \\bar{Y}^2 \\left( E(e_0^2) + E(e_1^2) - 2E(e_0 e_1) \\right)$$\n$$\\text{MSE}(\\bar{y}_R) \\approx \\left(\\frac{1-f}{n}\\right) \\left[ S_y^2 + R^2 S_x^2 - 2R \\rho S_x S_y \\right].$$"
       },
       {
-            "id": 14,
-            "unit": "III",
-            "question": "Explain the Regression Method of Estimation. Derive the linear regression estimator for the population mean and write down its first-order variance.",
-            "answerKey": "1. **Regression Estimator**: Used when the relationship between $Y$ and the auxiliary variable $X$ is linear and the regression line does not necessarily pass through the origin.\n2. **Estimator**: $\\bar{y}_{lr} = \\bar{y} + \\beta(\\bar{X} - \\bar{x})$, where $\\beta$ is the population regression coefficient.\n3. **Variance**: Under SRSWOR, the variance to first order is:\n$$V(\\bar{y}_{lr}) \\approx \\left(\\frac{1-f}{n}\\right) S_y^2 (1 - \\rho^2)$$\nwhere $\\rho$ is the correlation coefficient between $Y$ and $X$. Since $(1 - \\rho^2) \\le 1$, the regression estimator is always more efficient than the simple mean estimator."
+        "id": 14,
+        "unit": "III",
+        "question": "Explain the Regression Method of Estimation. Derive the linear regression estimator for the population mean and write down its first-order variance.",
+        "answerKey": "1. **Regression Estimator**: Used when the relationship between $Y$ and the auxiliary variable $X$ is linear and the regression line does not necessarily pass through the origin.\n2. **Estimator**: $\\bar{y}_{lr} = \\bar{y} + \\beta(\\bar{X} - \\bar{x})$, where $\\beta$ is the population regression coefficient.\n3. **Variance**: Under SRSWOR, the variance to first order is:\n$$V(\\bar{y}_{lr}) \\approx \\left(\\frac{1-f}{n}\\right) S_y^2 (1 - \\rho^2)$$\nwhere $\\rho$ is the correlation coefficient between $Y$ and $X$. Since $(1 - \\rho^2) \\le 1$, the regression estimator is always more efficient than the simple mean estimator."
       },
       {
-            "id": 15,
-            "unit": "III",
-            "question": "Compare the linear regression estimator with the ratio estimator of the population mean. Show mathematically that the regression estimator is always more efficient than or equal to the ratio estimator.",
-            "answerKey": "1. **MSE of Ratio Estimator**:\n$$\\text{MSE}(\\bar{y}_R) \\approx \\frac{1-f}{n} \\left( S_y^2 + R^2 S_x^2 - 2R \\rho S_x S_y \\right)$$\n2. **Variance of Regression Estimator**:\n$$V(\\bar{y}_{lr}) \\approx \\frac{1-f}{n} S_y^2 (1 - \\rho^2)$$\n3. **Difference**:\n$$\\text{MSE}(\\bar{y}_R) - V(\\bar{y}_{lr}) \\approx \\frac{1-f}{n} \\left( S_y^2 + R^2 S_x^2 - 2R \\rho S_x S_y - S_y^2 + \\rho^2 S_y^2 \\right)$$\n$$= \\frac{1-f}{n} \\left( R^2 S_x^2 - 2R \\rho S_x S_y + \\rho^2 S_y^2 \\right) = \\frac{1-f}{n} \\left( R S_x - \\rho S_y \\right)^2 \\ge 0.$$\n4. **Conclusion**: Since the difference is a squared term multiplied by a positive constant, $\\text{MSE}(\\bar{y}_R) \\ge V(\\bar{y}_{lr})$. They are equal only when $R = \\rho \\frac{S_y}{S_x} = \\beta$, which means the regression line of $Y$ on $X$ passes through the origin."
+        "id": 15,
+        "unit": "III",
+        "question": "Compare the linear regression estimator with the ratio estimator of the population mean. Show mathematically that the regression estimator is always more efficient than or equal to the ratio estimator.",
+        "answerKey": "1. **MSE of Ratio Estimator**:\n$$\\text{MSE}(\\bar{y}_R) \\approx \\frac{1-f}{n} \\left( S_y^2 + R^2 S_x^2 - 2R \\rho S_x S_y \\right)$$\n2. **Variance of Regression Estimator**:\n$$V(\\bar{y}_{lr}) \\approx \\frac{1-f}{n} S_y^2 (1 - \\rho^2)$$\n3. **Difference**:\n$$\\text{MSE}(\\bar{y}_R) - V(\\bar{y}_{lr}) \\approx \\frac{1-f}{n} \\left( S_y^2 + R^2 S_x^2 - 2R \\rho S_x S_y - S_y^2 + \\rho^2 S_y^2 \\right)$$\n$$= \\frac{1-f}{n} \\left( R^2 S_x^2 - 2R \\rho S_x S_y + \\rho^2 S_y^2 \\right) = \\frac{1-f}{n} \\left( R S_x - \\rho S_y \\right)^2 \\ge 0.$$\n4. **Conclusion**: Since the difference is a squared term multiplied by a positive constant, $\\text{MSE}(\\bar{y}_R) \\ge V(\\bar{y}_{lr})$. They are equal only when $R = \\rho \\frac{S_y}{S_x} = \\beta$, which means the regression line of $Y$ on $X$ passes through the origin."
       },
       {
-            "id": 16,
-            "unit": "III",
-            "question": "An SRSWOR sample of 8 states was drawn to estimate average real estate farm loans ($Y$) from a population where the true population average of non-real estate loans is $\\bar{X} = 878.16$. The sample data are:\n- $X$: [3928.73, 540.70, 405.80, 549.55, 274.04, 298.35, 3520.36, 19.36]\n- $Y$: [1343.46, 939.46, 282.57, 627.01, 140.58, 756.17, 1248.76, 57.75]\nEstimate the average real estate loans $\\bar{Y}$ using the ratio method.",
-            "answerKey": "1. **Calculate Sample Means**:\n- $\\bar{x} = \\frac{3928.73 + 540.70 + 405.80 + 549.55 + 274.04 + 298.35 + 3520.36 + 19.36}{8} = \\frac{9536.89}{8} = 1192.11$.\n- $\\bar{y} = \\frac{1343.46 + 939.46 + 282.57 + 627.01 + 140.58 + 756.17 + 1248.76 + 57.75}{8} = \\frac{5395.76}{8} = 674.47$.\n2. **Ratio Estimate**:\n$$\\bar{y}_R = \\frac{\\bar{y}}{\\bar{x}} \\bar{X} = \\frac{674.47}{1192.11} \\times 878.16 = 0.56577 \\times 878.16 \\approx 496.84.$$\nThus, the estimated average real estate farm loan is $\\approx \\$496.84$ thousand."
+        "id": 16,
+        "unit": "III",
+        "question": "An SRSWOR sample of 8 states was drawn to estimate average real estate farm loans ($Y$) from a population where the true population average of non-real estate loans is $\\bar{X} = 878.16$. The sample data are:\n- $X$: [3928.73, 540.70, 405.80, 549.55, 274.04, 298.35, 3520.36, 19.36]\n- $Y$: [1343.46, 939.46, 282.57, 627.01, 140.58, 756.17, 1248.76, 57.75]\nEstimate the average real estate loans $\\bar{Y}$ using the ratio method.",
+        "answerKey": "1. **Calculate Sample Means**:\n- $\\bar{x} = \\frac{3928.73 + 540.70 + 405.80 + 549.55 + 274.04 + 298.35 + 3520.36 + 19.36}{8} = \\frac{9536.89}{8} = 1192.11$.\n- $\\bar{y} = \\frac{1343.46 + 939.46 + 282.57 + 627.01 + 140.58 + 756.17 + 1248.76 + 57.75}{8} = \\frac{5395.76}{8} = 674.47$.\n2. **Ratio Estimate**:\n$$\\bar{y}_R = \\frac{\\bar{y}}{\\bar{x}} \\bar{X} = \\frac{674.47}{1192.11} \\times 878.16 = 0.56577 \\times 878.16 \\approx 496.84.$$\nThus, the estimated average real estate farm loan is $\\approx \\$496.84$ thousand."
       },
       {
-            "id": 17,
-            "unit": "IV",
-            "question": "What is Analysis of Variance (ANOVA)? Mention the basic assumptions underlying the ANOVA F-test.",
-            "answerKey": "1. **ANOVA**: A statistical method developed by R.A. Fisher that partitions the total variation observed in a dataset into components attributable to different sources of variation.\n2. **Assumptions**:\n- **Normality**: The experimental errors are normally distributed.\n- **Independence**: The observations and errors are independent.\n- **Homoscedasticity**: The variances of the errors in different groups are equal (homogeneity of variances).\n- **Additivity**: The effects of different factors (e.g. treatments, blocks) are additive."
+        "id": 17,
+        "unit": "IV",
+        "question": "What is Analysis of Variance (ANOVA)? Mention the basic assumptions underlying the ANOVA F-test.",
+        "answerKey": "1. **ANOVA**: A statistical method developed by R.A. Fisher that partitions the total variation observed in a dataset into components attributable to different sources of variation.\n2. **Assumptions**:\n- **Normality**: The experimental errors are normally distributed.\n- **Independence**: The observations and errors are independent.\n- **Homoscedasticity**: The variances of the errors in different groups are equal (homogeneity of variances).\n- **Additivity**: The effects of different factors (e.g. treatments, blocks) are additive."
       },
       {
-            "id": 18,
-            "unit": "IV",
-            "question": "Describe the Analysis of Variance (ANOVA) technique for a fixed-effect model for one-way classified data. Show the partition of total sum of squares and set up the ANOVA table.",
-            "answerKey": "1. **Mathematical Model**: $y_{ij} = \\mu + \\alpha_i + e_{ij}$, where $\\mu$ is the general mean, $\\alpha_i$ is the effect of $i$-th treatment, and $e_{ij} \\sim N(0, \\sigma^2)$ is the random error.\n2. **Partition of Sum of Squares**: $\\text{TSS} = \\text{SST} + \\text{SSE}$, where:\n- Total Sum of Squares: $\\text{TSS} = \\sum_{i} \\sum_{j} (y_{ij} - \\bar{y}_{\\cdot\\cdot})^2$\n- Treatment Sum of Squares: $\\text{SST} = \\sum_{i} n_i (\\bar{y}_{i\\cdot} - \\bar{y}_{\\cdot\\cdot})^2$\n- Error Sum of Squares: $\\text{SSE} = \\sum_{i} \\sum_{j} (y_{ij} - \\bar{y}_{i\\cdot})^2$\n3. **ANOVA Table**:\n| Source | d.f. | Sum of Squares | Mean Square | F-ratio |\n| --- | --- | --- | --- | --- |\n| Treatments | $k-1$ | SST | MST = SST/($k-1$) | MST/MSE |\n| Error | $N-k$ | SSE | MSE = SSE/($N-k$) | |\n| Total | $N-1$ | TSS | | |"
+        "id": 18,
+        "unit": "IV",
+        "question": "Describe the Analysis of Variance (ANOVA) technique for a fixed-effect model for one-way classified data. Show the partition of total sum of squares and set up the ANOVA table.",
+        "answerKey": "1. **Mathematical Model**: $y_{ij} = \\mu + \\alpha_i + e_{ij}$, where $\\mu$ is the general mean, $\\alpha_i$ is the effect of $i$-th treatment, and $e_{ij} \\sim N(0, \\sigma^2)$ is the random error.\n2. **Partition of Sum of Squares**: $\\text{TSS} = \\text{SST} + \\text{SSE}$, where:\n- Total Sum of Squares: $\\text{TSS} = \\sum_{i} \\sum_{j} (y_{ij} - \\bar{y}_{\\cdot\\cdot})^2$\n- Treatment Sum of Squares: $\\text{SST} = \\sum_{i} n_i (\\bar{y}_{i\\cdot} - \\bar{y}_{\\cdot\\cdot})^2$\n- Error Sum of Squares: $\\text{SSE} = \\sum_{i} \\sum_{j} (y_{ij} - \\bar{y}_{i\\cdot})^2$\n3. **ANOVA Table**:\n| Source | d.f. | Sum of Squares | Mean Square | F-ratio |\n| --- | --- | --- | --- | --- |\n| Treatments | $k-1$ | SST | MST = SST/($k-1$) | MST/MSE |\n| Error | $N-k$ | SSE | MSE = SSE/($N-k$) | |\n| Total | $N-1$ | TSS | | |"
       },
       {
-            "id": 19,
-            "unit": "IV",
-            "question": "Describe the Analysis of Variance (ANOVA) technique for a fixed-effect model for two-way classified data with one observation per cell. Derive the sum of squares and set up the ANOVA table.",
-            "answerKey": "1. **Mathematical Model**: $y_{ij} = \\mu + \\alpha_i + \\beta_j + e_{ij}$ for $i=1,\\ldots,p$ (rows/blocks) and $j=1,\\ldots,q$ (columns/treatments), with $e_{ij} \\sim N(0, \\sigma^2)$ independent.\n2. **Partition of Sum of Squares**: $\\text{TSS} = \\text{SSR} + \\text{SSC} + \\text{SSE}$:\n- $\\text{TSS} = \\sum \\sum (y_{ij} - \\bar{y}_{\\cdot\\cdot})^2$\n- Row Sum of Squares: $\\text{SSR} = q \\sum (\\bar{y}_{i\\cdot} - \\bar{y}_{\\cdot\\cdot})^2$\n- Column Sum of Squares: $\\text{SSC} = p \\sum (\\bar{y}_{\\cdot j} - \\bar{y}_{\\cdot\\cdot})^2$\n- Error Sum of Squares: $\\text{SSE} = \\text{TSS} - \\text{SSR} - \\text{SSC}$.\n3. **ANOVA Table**:\n| Source | d.f. | Sum of Squares | Mean Square | F-ratio |\n| --- | --- | --- | --- | --- |\n| Rows (Blocks) | $p-1$ | SSR | MSR = SSR/($p-1$) | MSR/MSE |\n| Columns (Treatments) | $q-1$ | SSC | MSC = SSC/($q-1$) | MSC/MSE |\n| Error | $(p-1)(q-1)$ | SSE | MSE = SSE/d.f. | |\n| Total | $pq-1$ | TSS | | |"
+        "id": 19,
+        "unit": "IV",
+        "question": "Describe the Analysis of Variance (ANOVA) technique for a fixed-effect model for two-way classified data with one observation per cell. Derive the sum of squares and set up the ANOVA table.",
+        "answerKey": "1. **Mathematical Model**: $y_{ij} = \\mu + \\alpha_i + \\beta_j + e_{ij}$ for $i=1,\\ldots,p$ (rows/blocks) and $j=1,\\ldots,q$ (columns/treatments), with $e_{ij} \\sim N(0, \\sigma^2)$ independent.\n2. **Partition of Sum of Squares**: $\\text{TSS} = \\text{SSR} + \\text{SSC} + \\text{SSE}$:\n- $\\text{TSS} = \\sum \\sum (y_{ij} - \\bar{y}_{\\cdot\\cdot})^2$\n- Row Sum of Squares: $\\text{SSR} = q \\sum (\\bar{y}_{i\\cdot} - \\bar{y}_{\\cdot\\cdot})^2$\n- Column Sum of Squares: $\\text{SSC} = p \\sum (\\bar{y}_{\\cdot j} - \\bar{y}_{\\cdot\\cdot})^2$\n- Error Sum of Squares: $\\text{SSE} = \\text{TSS} - \\text{SSR} - \\text{SSC}$.\n3. **ANOVA Table**:\n| Source | d.f. | Sum of Squares | Mean Square | F-ratio |\n| --- | --- | --- | --- | --- |\n| Rows (Blocks) | $p-1$ | SSR | MSR = SSR/($p-1$) | MSR/MSE |\n| Columns (Treatments) | $q-1$ | SSC | MSC = SSC/($q-1$) | MSC/MSE |\n| Error | $(p-1)(q-1)$ | SSE | MSE = SSE/d.f. | |\n| Total | $pq-1$ | TSS | | |"
       },
       {
-            "id": 20,
-            "unit": "IV",
-            "question": "The final marks of students in three sections of a statistics course are:\n- 8-o'clock: [121, 117, 145, 108, 142, 154, 115, 81, 122, 127, 122] ($n_1=11$, sum=1334)\n- 10-o'clock: [97, 145, 119, 189, 143, 133, 149, 107, 154] ($n_2=9$, sum=1236)\n- 2-o'clock: [134, 89, 108, 88, 146, 153, 130, 144, 125, 111, 87, 162] ($n_3=12$, sum=1487)\nTest if there is a significant difference in scores across the sections at 5% significance level. (Given $F_{0.05, 2, 29} = 3.33$)",
-            "answerKey": "1. **Hypotheses**: $H_0: \\mu_1 = \\mu_2 = \\mu_3$ vs $H_1$: At least one mean is different.\n2. **Calculations**: Grand total $G = 1334 + 1236 + 1487 = 4057$. $N = 32$.\n- Correction Factor: $\\text{CF} = G^2/N = 4057^2 / 32 = 514351.53$.\n- Raw sum of squares: $\\sum y_{ij}^2 = 1334^2/11 + 1236^2/9 + 1487^2/12$ is treatment sum of squares: \n$\\text{SST} = (161766.91 + 169744 + 184260.08) - \\text{CF} = 515770.99 - 514351.53 = 1419.46$.\n- Total Sum of Squares: $\\sum \\sum y_{ij}^2 - \\text{CF} = 536483 - 514351.53 = 22131.47$.\n- Error Sum of Squares: $\\text{SSE} = \\text{TSS} - \\text{SST} = 22131.47 - 1419.46 = 20712.01$.\n3. **ANOVA Table**:\n- MST = $1419.46 / 2 = 709.73$.\n- MSE = $20712.01 / 29 = 714.21$.\n- $F = \\frac{\\text{MST}}{\\text{MSE}} = 0.994$.\n4. **Conclusion**: Since calculated $F = 0.994 < F_{0.05, 2, 29} \\approx 3.33$, we fail to reject $H_0$. The section scores do not differ significantly."
+        "id": 20,
+        "unit": "IV",
+        "question": "The final marks of students in three sections of a statistics course are:\n- 8-o'clock: [121, 117, 145, 108, 142, 154, 115, 81, 122, 127, 122] ($n_1=11$, sum=1334)\n- 10-o'clock: [97, 145, 119, 189, 143, 133, 149, 107, 154] ($n_2=9$, sum=1236)\n- 2-o'clock: [134, 89, 108, 88, 146, 153, 130, 144, 125, 111, 87, 162] ($n_3=12$, sum=1487)\nTest if there is a significant difference in scores across the sections at 5% significance level. (Given $F_{0.05, 2, 29} = 3.33$)",
+        "answerKey": "1. **Hypotheses**: $H_0: \\mu_1 = \\mu_2 = \\mu_3$ vs $H_1$: At least one mean is different.\n2. **Calculations**: Grand total $G = 1334 + 1236 + 1487 = 4057$. $N = 32$.\n- Correction Factor: $\\text{CF} = G^2/N = 4057^2 / 32 = 514351.53$.\n- Raw sum of squares: $\\sum y_{ij}^2 = 1334^2/11 + 1236^2/9 + 1487^2/12$ is treatment sum of squares: \n$\\text{SST} = (161766.91 + 169744 + 184260.08) - \\text{CF} = 515770.99 - 514351.53 = 1419.46$.\n- Total Sum of Squares: $\\sum \\sum y_{ij}^2 - \\text{CF} = 536483 - 514351.53 = 22131.47$.\n- Error Sum of Squares: $\\text{SSE} = \\text{TSS} - \\text{SST} = 22131.47 - 1419.46 = 20712.01$.\n3. **ANOVA Table**:\n- MST = $1419.46 / 2 = 709.73$.\n- MSE = $20712.01 / 29 = 714.21$.\n- $F = \\frac{\\text{MST}}{\\text{MSE}} = 0.994$.\n4. **Conclusion**: Since calculated $F = 0.994 < F_{0.05, 2, 29} \\approx 3.33$, we fail to reject $H_0$. The section scores do not differ significantly."
       },
       {
-            "id": 21,
-            "unit": "V",
-            "question": "Explain the three fundamental principles of experimental design: Randomization, Replication, and Local Control.",
-            "answerKey": "1. **Randomization**: The random allocation of treatments to experimental units. It ensures that every treatment has an equal chance of being assigned to any unit, eliminating systematic bias and making statistical tests valid.\n2. **Replication**: The repetition of the treatments on more than one experimental unit. It provides an estimate of the experimental error variance and increases the precision of treatment mean estimates.\n3. **Local Control (Blocking)**: Grouping heterogeneous experimental units into homogeneous blocks and allocating treatments within each block. It reduces the experimental error by eliminating the variation between blocks from the error sum of squares."
+        "id": 21,
+        "unit": "V",
+        "question": "Explain the three fundamental principles of experimental design: Randomization, Replication, and Local Control.",
+        "answerKey": "1. **Randomization**: The random allocation of treatments to experimental units. It ensures that every treatment has an equal chance of being assigned to any unit, eliminating systematic bias and making statistical tests valid.\n2. **Replication**: The repetition of the treatments on more than one experimental unit. It provides an estimate of the experimental error variance and increases the precision of treatment mean estimates.\n3. **Local Control (Blocking)**: Grouping heterogeneous experimental units into homogeneous blocks and allocating treatments within each block. It reduces the experimental error by eliminating the variation between blocks from the error sum of squares."
       },
       {
-            "id": 22,
-            "unit": "V",
-            "question": "Describe the layout, statistical model, and analysis of a Completely Randomized Design (CRD). List its advantages and disadvantages.",
-            "answerKey": "1. **Layout**: Treatments are assigned to units completely at random. Useful for highly homogeneous materials (e.g. laboratory work).\n2. **Statistical Model**: $y_{ij} = \\mu + \\tau_i + e_{ij}$ where $e_{ij} \\sim N(0, \\sigma^2)$ is error.\n3. **Analysis**: Uses one-way ANOVA.\n4. **Advantages**: (i) Maximum flexibility in number of treatments and replications. (ii) Simple analysis even with missing observations. (iii) Provides maximum degrees of freedom for error.\n5. **Disadvantages**: (i) Low precision if units are heterogeneous. (ii) No local control."
+        "id": 22,
+        "unit": "V",
+        "question": "Describe the layout, statistical model, and analysis of a Completely Randomized Design (CRD). List its advantages and disadvantages.",
+        "answerKey": "1. **Layout**: Treatments are assigned to units completely at random. Useful for highly homogeneous materials (e.g. laboratory work).\n2. **Statistical Model**: $y_{ij} = \\mu + \\tau_i + e_{ij}$ where $e_{ij} \\sim N(0, \\sigma^2)$ is error.\n3. **Analysis**: Uses one-way ANOVA.\n4. **Advantages**: (i) Maximum flexibility in number of treatments and replications. (ii) Simple analysis even with missing observations. (iii) Provides maximum degrees of freedom for error.\n5. **Disadvantages**: (i) Low precision if units are heterogeneous. (ii) No local control."
       },
       {
-            "id": 23,
-            "unit": "V",
-            "question": "Describe the layout, statistical model, and analysis of a Randomized Block Design (RBD). Explain why it is usually more efficient than CRD.",
-            "answerKey": "1. **Layout**: Units are grouped into $r$ homogeneous blocks. Each block contains all $t$ treatments assigned at random. Local control is applied in one direction.\n2. **Statistical Model**: $y_{ij} = \\mu + \\tau_i + \\beta_j + e_{ij}$ where $\\tau_i$ is treatment effect, $\\beta_j$ is block effect, and $e_{ij} \\sim N(0, \\sigma^2)$.\n3. **Analysis**: Uses two-way ANOVA without interaction.\n4. **Efficiency**: By blocking, the variation among blocks is removed from the experimental error (SSE). Since the error variance is smaller, the F-test for treatments is more powerful, making RBD more efficient than CRD for heterogeneous fields."
+        "id": 23,
+        "unit": "V",
+        "question": "Describe the layout, statistical model, and analysis of a Randomized Block Design (RBD). Explain why it is usually more efficient than CRD.",
+        "answerKey": "1. **Layout**: Units are grouped into $r$ homogeneous blocks. Each block contains all $t$ treatments assigned at random. Local control is applied in one direction.\n2. **Statistical Model**: $y_{ij} = \\mu + \\tau_i + \\beta_j + e_{ij}$ where $\\tau_i$ is treatment effect, $\\beta_j$ is block effect, and $e_{ij} \\sim N(0, \\sigma^2)$.\n3. **Analysis**: Uses two-way ANOVA without interaction.\n4. **Efficiency**: By blocking, the variation among blocks is removed from the experimental error (SSE). Since the error variance is smaller, the F-test for treatments is more powerful, making RBD more efficient than CRD for heterogeneous fields."
       },
       {
-            "id": 24,
-            "unit": "V",
-            "question": "Discuss the Latin Square Design (LSD). Write down its statistical model, layout requirements, and show the ANOVA table. Mention its advantages and disadvantages.",
-            "answerKey": "1. **Layout**: Used when two sources of variation (rows and columns) are present. Number of rows, columns, and treatments must be equal ($m$). Each treatment appears exactly once in each row and column.\n2. **Statistical Model**: $y_{ijk} = \\mu + \\alpha_i + \\beta_j + \\tau_k + e_{ijk}$, where $\\alpha_i$ is row effect, $\\beta_j$ is column effect, $\\tau_k$ is treatment effect, and $e_{ijk} \\sim N(0, \\sigma^2)$.\n3. **ANOVA Table**:\n- Rows: d.f. $= m-1$\n- Columns: d.f. $= m-1$\n- Treatments: d.f. $= m-1$\n- Error: d.f. $= (m-1)(m-2)$\n- Total: d.f. $= m^2-1$\n4. **Advantages**: Controls variation in two orthogonal directions, reducing error variance.\n5. **Disadvantages**: (i) Restricted to $m \\times m$ squares (usually $5 \\le m \\le 8$ or $10$). (ii) Missing plots are complex to analyze."
+        "id": 24,
+        "unit": "V",
+        "question": "Discuss the Latin Square Design (LSD). Write down its statistical model, layout requirements, and show the ANOVA table. Mention its advantages and disadvantages.",
+        "answerKey": "1. **Layout**: Used when two sources of variation (rows and columns) are present. Number of rows, columns, and treatments must be equal ($m$). Each treatment appears exactly once in each row and column.\n2. **Statistical Model**: $y_{ijk} = \\mu + \\alpha_i + \\beta_j + \\tau_k + e_{ijk}$, where $\\alpha_i$ is row effect, $\\beta_j$ is column effect, $\\tau_k$ is treatment effect, and $e_{ijk} \\sim N(0, \\sigma^2)$.\n3. **ANOVA Table**:\n- Rows: d.f. $= m-1$\n- Columns: d.f. $= m-1$\n- Treatments: d.f. $= m-1$\n- Error: d.f. $= (m-1)(m-2)$\n- Total: d.f. $= m^2-1$\n4. **Advantages**: Controls variation in two orthogonal directions, reducing error variance.\n5. **Disadvantages**: (i) Restricted to $m \\times m$ squares (usually $5 \\le m \\le 8$ or $10$). (ii) Missing plots are complex to analyze."
       },
       {
-            "id": 25,
-            "unit": "V",
-            "question": "Explain the mathematical procedure for estimating one missing observation in a Randomized Block Design (RBD) with $r$ blocks and $t$ treatments.",
-            "answerKey": "1. Let $y$ be the missing observation in the $i$-th treatment and $j$-th block.\n2. We minimize the Error Sum of Squares $\\text{SSE} = \\sum_{i} \\sum_{j} (y_{ij} - \\bar{y}_{i\\cdot} - \\bar{y}_{\\cdot j} + \\bar{y}_{\\cdot\\cdot})^2$ with respect to $y$.\n3. Let $R$ be the total of known values in the block containing the missing value, $C$ be the total of known values for the treatment containing the missing value, and $G$ be the grand total of all known values.\n4. Setting $\\frac{\\partial \\text{SSE}}{\\partial y} = 0$ yields the equation:\n$$y = \\frac{r R + t C - G}{(r-1)(t-1)}$$\n5. After inserting the estimated value, we perform ANOVA, but subtract 1 degree of freedom from the Error and Total degrees of freedom."
+        "id": 25,
+        "unit": "V",
+        "question": "Explain the mathematical procedure for estimating one missing observation in a Randomized Block Design (RBD) with $r$ blocks and $t$ treatments.",
+        "answerKey": "1. Let $y$ be the missing observation in the $i$-th treatment and $j$-th block.\n2. We minimize the Error Sum of Squares $\\text{SSE} = \\sum_{i} \\sum_{j} (y_{ij} - \\bar{y}_{i\\cdot} - \\bar{y}_{\\cdot j} + \\bar{y}_{\\cdot\\cdot})^2$ with respect to $y$.\n3. Let $R$ be the total of known values in the block containing the missing value, $C$ be the total of known values for the treatment containing the missing value, and $G$ be the grand total of all known values.\n4. Setting $\\frac{\\partial \\text{SSE}}{\\partial y} = 0$ yields the equation:\n$$y = \\frac{r R + t C - G}{(r-1)(t-1)}$$\n5. After inserting the estimated value, we perform ANOVA, but subtract 1 degree of freedom from the Error and Total degrees of freedom."
       }
-]
+    ]
   },
   "stamj43": {
     "id": "stamj43",
@@ -4260,126 +5037,126 @@ export const EXAMS = {
     "type": "theory",
     "questions": [
       {
-            "id": 1,
-            "unit": "I",
-            "question": "Define Gross Reproduction Rate (GRR) and Net Reproduction Rate (NRR). Explain how far they can be considered as indices of population growth, and state the demographic interpretation of the exact threshold condition $NRR = 1$.",
-            "answerKey": "1. **Gross Reproduction Rate (GRR)**: The average number of female children born to a cohort of women during their childbearing age, assuming no mortality before the end of the reproductive period:\n$$\\text{GRR} = 5 \\sum_{i} \\text{ASFR}_{i}^{f}$$\nwhere $\\text{ASFR}^f$ is the age-specific fertility rate for female births.\n2. **Net Reproduction Rate (NRR)**: The average number of female children born to a cohort of women, taking into account the mortality of the mothers before reaching the end of the reproductive period:\n$$\\text{NRR} = 5 \\sum_{i} \\text{ASFR}_{i}^{f} \\cdot S_i$$\nwhere $S_i$ is the survival probability of the mother to age group $i$.\n3. **Indices of Population Growth**: GRR is a measure of pure fertility (ideal growth potential), while NRR is a realistic index of population replacement since it accounts for maternal mortality.\n4. **Threshold Condition $NRR = 1$**: If NRR = 1, the population is replacing itself exactly. If NRR > 1, the population is growing. If NRR < 1, the population is declining. A value of NRR = 1 indicates stationary population state in the long run."
+        "id": 1,
+        "unit": "I",
+        "question": "Define Gross Reproduction Rate (GRR) and Net Reproduction Rate (NRR). Explain how far they can be considered as indices of population growth, and state the demographic interpretation of the exact threshold condition $NRR = 1$.",
+        "answerKey": "1. **Gross Reproduction Rate (GRR)**: The average number of female children born to a cohort of women during their childbearing age, assuming no mortality before the end of the reproductive period:\n$$\\text{GRR} = 5 \\sum_{i} \\text{ASFR}_{i}^{f}$$\nwhere $\\text{ASFR}^f$ is the age-specific fertility rate for female births.\n2. **Net Reproduction Rate (NRR)**: The average number of female children born to a cohort of women, taking into account the mortality of the mothers before reaching the end of the reproductive period:\n$$\\text{NRR} = 5 \\sum_{i} \\text{ASFR}_{i}^{f} \\cdot S_i$$\nwhere $S_i$ is the survival probability of the mother to age group $i$.\n3. **Indices of Population Growth**: GRR is a measure of pure fertility (ideal growth potential), while NRR is a realistic index of population replacement since it accounts for maternal mortality.\n4. **Threshold Condition $NRR = 1$**: If NRR = 1, the population is replacing itself exactly. If NRR > 1, the population is growing. If NRR < 1, the population is declining. A value of NRR = 1 indicates stationary population state in the long run."
       },
       {
-            "id": 2,
-            "unit": "I",
-            "question": "Describe the formulations of the General Fertility Rate (GFR) and the Total Fertility Rate (TFR) with appropriate mathematical formulas. Provide the exact policy interpretation of the specific numerical statement $TFR = 2.1$.",
-            "answerKey": "1. **General Fertility Rate (GFR)**: The ratio of total live births to the mid-year female population in the childbearing age range (usually 15-49 years):\n$$\\text{GFR} = \\frac{\\text{Total Live Births}}{\\text{Mid-year Female Population (15-49)}} \\times 1000$$\n2. **Total Fertility Rate (TFR)**: The sum of age-specific fertility rates (ASFR) for all ages in the childbearing range, representing the average number of children a woman would have in her lifetime:\n$$\\text{TFR} = 5 \\sum_{i=1}^{7} \\text{ASFR}_i = 5 \\sum_{i=1}^{7} \\frac{\\text{Births in age group } i}{\\text{Female population in age group } i}$$\n(assuming 5-year age intervals).\n3. **Policy Interpretation of $TFR = 2.1$**: A TFR of 2.1 is known as the **replacement-level fertility**. It is the average number of children a woman needs to have to keep the population size constant, accounting for the natural sex ratio at birth and infant mortality. A TFR above 2.1 leads to population growth, while below 2.1 leads to population contraction and aging."
+        "id": 2,
+        "unit": "I",
+        "question": "Describe the formulations of the General Fertility Rate (GFR) and the Total Fertility Rate (TFR) with appropriate mathematical formulas. Provide the exact policy interpretation of the specific numerical statement $TFR = 2.1$.",
+        "answerKey": "1. **General Fertility Rate (GFR)**: The ratio of total live births to the mid-year female population in the childbearing age range (usually 15-49 years):\n$$\\text{GFR} = \\frac{\\text{Total Live Births}}{\\text{Mid-year Female Population (15-49)}} \\times 1000$$\n2. **Total Fertility Rate (TFR)**: The sum of age-specific fertility rates (ASFR) for all ages in the childbearing range, representing the average number of children a woman would have in her lifetime:\n$$\\text{TFR} = 5 \\sum_{i=1}^{7} \\text{ASFR}_i = 5 \\sum_{i=1}^{7} \\frac{\\text{Births in age group } i}{\\text{Female population in age group } i}$$\n(assuming 5-year age intervals).\n3. **Policy Interpretation of $TFR = 2.1$**: A TFR of 2.1 is known as the **replacement-level fertility**. It is the average number of children a woman needs to have to keep the population size constant, accounting for the natural sex ratio at birth and infant mortality. A TFR above 2.1 leads to population growth, while below 2.1 leads to population contraction and aging."
       },
       {
-            "id": 3,
-            "unit": "I",
-            "question": "Define the Crude Death Rate (CDR) and point out its core limitations. Explain clearly the concept of standardized death rates, including both the direct and indirect methods of their computation.",
-            "answerKey": "1. **Crude Death Rate (CDR)**: The total number of deaths per thousand mid-year population in a given year:\n$$\\text{CDR} = \\frac{\\text{Total Deaths}}{\\text{Total Mid-year Population}} \\times 1000$$\n2. **Limitations**: It ignores the age and sex distribution of the population. A population with a high proportion of elderly people will have a high CDR, even if it is healthier than another younger population.\n3. **Standardized Death Rates (SDR)**: Adjusted death rates that eliminate the effect of population composition differences by using a standard population.\n4. **Direct Standardization**:\n$$\\text{SDR}_{\\text{direct}} = \\frac{\\sum m_i P_i^s}{\\sum P_i^s}$$\nwhere $m_i$ is the age-specific death rate of the local population and $P_i^s$ is the age-specific size of the standard population.\n5. **Indirect Standardization**: Used when local age-specific death rates are unreliable:\n$$\\text{SDR}_{\\text{indirect}} = \\text{CDR}_{\\text{local}} \\times \\frac{\\text{Crude Death Rate of Standard Pop}}{\\sum m_i^s P_i / \\sum P_i}$$\nwhere $m_i^s$ is the standard age-specific death rate and $P_i$ is the local population size."
+        "id": 3,
+        "unit": "I",
+        "question": "Define the Crude Death Rate (CDR) and point out its core limitations. Explain clearly the concept of standardized death rates, including both the direct and indirect methods of their computation.",
+        "answerKey": "1. **Crude Death Rate (CDR)**: The total number of deaths per thousand mid-year population in a given year:\n$$\\text{CDR} = \\frac{\\text{Total Deaths}}{\\text{Total Mid-year Population}} \\times 1000$$\n2. **Limitations**: It ignores the age and sex distribution of the population. A population with a high proportion of elderly people will have a high CDR, even if it is healthier than another younger population.\n3. **Standardized Death Rates (SDR)**: Adjusted death rates that eliminate the effect of population composition differences by using a standard population.\n4. **Direct Standardization**:\n$$\\text{SDR}_{\\text{direct}} = \\frac{\\sum m_i P_i^s}{\\sum P_i^s}$$\nwhere $m_i$ is the age-specific death rate of the local population and $P_i^s$ is the age-specific size of the standard population.\n5. **Indirect Standardization**: Used when local age-specific death rates are unreliable:\n$$\\text{SDR}_{\\text{indirect}} = \\text{CDR}_{\\text{local}} \\times \\frac{\\text{Crude Death Rate of Standard Pop}}{\\sum m_i^s P_i / \\sum P_i}$$\nwhere $m_i^s$ is the standard age-specific death rate and $P_i$ is the local population size."
       },
       {
-            "id": 4,
-            "unit": "I",
-            "question": "What are the standard methods of obtaining vital statistics? Detail the key administrative, demographic, and practical uses of vital statistics in national planning.",
-            "answerKey": "1. **Standard Methods**: (i) Civil Registration System (compulsory registration of births, deaths, marriages). (ii) Census (decennial complete population survey). (iii) Sample Registration System (SRS - dual record system combining continuous registration and retrospective survey). (iv) Demographic Sample Surveys (e.g. NFHS).\n2. **Administrative Uses**: For proving citizenship, legal identity, inheritance, and age-related rights (schooling, retirement).\n3. **Demographic Uses**: For measuring population dynamics, fertility, mortality, migration, and constructing life tables.\n4. **National Planning**: Essential for health planning (epidemiology, maternal care), educational planning (school construction), housing, infrastructure development, and targeting social welfare programs."
+        "id": 4,
+        "unit": "I",
+        "question": "What are the standard methods of obtaining vital statistics? Detail the key administrative, demographic, and practical uses of vital statistics in national planning.",
+        "answerKey": "1. **Standard Methods**: (i) Civil Registration System (compulsory registration of births, deaths, marriages). (ii) Census (decennial complete population survey). (iii) Sample Registration System (SRS - dual record system combining continuous registration and retrospective survey). (iv) Demographic Sample Surveys (e.g. NFHS).\n2. **Administrative Uses**: For proving citizenship, legal identity, inheritance, and age-related rights (schooling, retirement).\n3. **Demographic Uses**: For measuring population dynamics, fertility, mortality, migration, and constructing life tables.\n4. **National Planning**: Essential for health planning (epidemiology, maternal care), educational planning (school construction), housing, infrastructure development, and targeting social welfare programs."
       },
       {
-            "id": 5,
-            "unit": "I",
-            "question": "What do you understand by a life table? State clearly the fundamental assumptions underlying a standard life table, and outline its primary applications.",
-            "answerKey": "1. **Life Table**: A mathematical model that depicts the lifetime and mortality history of a hypothetical cohort of individuals as they pass from birth to death.\n2. **Fundamental Assumptions**:\n- The cohort is closed to migration.\n- The cohort decreases solely due to death.\n- The cohort consists of a fixed radix (usually $l_0 = 100,000$ births).\n- Deaths are spread uniformly over each year of age (except the first year).\n- The age-specific mortality rates remain constant.\n3. **Applications**: (i) Constructing life insurance policies and premium rates. (ii) Public health research to evaluate health interventions and healthcare systems. (iii) Demographic forecasting of population structure. (iv) Evaluating human longevity and life expectancy trends."
+        "id": 5,
+        "unit": "I",
+        "question": "What do you understand by a life table? State clearly the fundamental assumptions underlying a standard life table, and outline its primary applications.",
+        "answerKey": "1. **Life Table**: A mathematical model that depicts the lifetime and mortality history of a hypothetical cohort of individuals as they pass from birth to death.\n2. **Fundamental Assumptions**:\n- The cohort is closed to migration.\n- The cohort decreases solely due to death.\n- The cohort consists of a fixed radix (usually $l_0 = 100,000$ births).\n- Deaths are spread uniformly over each year of age (except the first year).\n- The age-specific mortality rates remain constant.\n3. **Applications**: (i) Constructing life insurance policies and premium rates. (ii) Public health research to evaluate health interventions and healthcare systems. (iii) Demographic forecasting of population structure. (iv) Evaluating human longevity and life expectancy trends."
       },
       {
-            "id": 6,
-            "unit": "I",
-            "question": "Describe the mathematical definitions and interrelations of the various columns ($l_x, d_x, q_x, p_x, L_x, T_x, e_x^0$) of a complete life table.",
-            "answerKey": "1. **Definitions and Formulas**:\n- $l_x$: Number of survivors at exact age $x$ ($l_0$ is the radix).\n- $d_x$: Number of deaths between ages $x$ and $x+1$: $d_x = l_x - l_{x+1}$.\n- $q_x$: Probability of dying between ages $x$ and $x+1$: $q_x = d_x / l_x$.\n- $p_x$: Probability of surviving from age $x$ to $x+1$: $p_x = 1 - q_x = l_{x+1} / l_x$.\n- $L_x$: Number of person-years lived by the cohort between ages $x$ and $x+1$: $L_x = \\frac{l_x + l_{x+1}}{2}$ (assuming linear deaths).\n- $T_x$: Total number of person-years lived after exact age $x$: $T_x = \\sum_{y=x}^{\\infty} L_y$.\n- $e_x^0$: Life expectancy at exact age $x$: $e_x^0 = T_x / l_x$.\n2. **Key Interrelations**: $l_{x+1} = l_x(1-q_x)$, $T_x = T_{x+1} + L_x$, and $e_x^0 = \\frac{l_x + l_{x+1}}{2l_x} + \\frac{T_{x+1}}{l_x}$."
+        "id": 6,
+        "unit": "I",
+        "question": "Describe the mathematical definitions and interrelations of the various columns ($l_x, d_x, q_x, p_x, L_x, T_x, e_x^0$) of a complete life table.",
+        "answerKey": "1. **Definitions and Formulas**:\n- $l_x$: Number of survivors at exact age $x$ ($l_0$ is the radix).\n- $d_x$: Number of deaths between ages $x$ and $x+1$: $d_x = l_x - l_{x+1}$.\n- $q_x$: Probability of dying between ages $x$ and $x+1$: $q_x = d_x / l_x$.\n- $p_x$: Probability of surviving from age $x$ to $x+1$: $p_x = 1 - q_x = l_{x+1} / l_x$.\n- $L_x$: Number of person-years lived by the cohort between ages $x$ and $x+1$: $L_x = \\frac{l_x + l_{x+1}}{2}$ (assuming linear deaths).\n- $T_x$: Total number of person-years lived after exact age $x$: $T_x = \\sum_{y=x}^{\\infty} L_y$.\n- $e_x^0$: Life expectancy at exact age $x$: $e_x^0 = T_x / l_x$.\n2. **Key Interrelations**: $l_{x+1} = l_x(1-q_x)$, $T_x = T_{x+1} + L_x$, and $e_x^0 = \\frac{l_x + l_{x+1}}{2l_x} + \\frac{T_{x+1}}{l_x}$."
       },
       {
-            "id": 7,
-            "unit": "II",
-            "question": "Discuss the mathematical framework of the logistic curve used for modeling and measuring the growth of biological populations. Explain the significance of the asymptote.",
-            "answerKey": "1. **Logistic Growth Model**: Formulated by Verhulst to describe population growth under resource limits:\n$$P(t) = \\frac{K}{1 + e^{a - bt}}$$\nwhere $P(t)$ is the population at time $t$, $K$ is the carrying capacity (upper asymptote), and $a, b > 0$ are constants.\n2. **Differential Equation**: The rate of growth is proportional to the population size and the fraction of resources remaining:\n$$\\frac{dP}{dt} = b P \\left(1 - \\frac{P}{K}\\right)$$\n3. **Properties**: The curve is S-shaped (sigmoidal) and symmetric. The point of inflection occurs at $P(t) = K/2$ where the growth rate transitions from acceleration to deceleration.\n4. **Asymptote Significance**: The parameter $K$ represents the maximum sustainable population size (carrying capacity) given environmental and resource constraints. It represents the long-term stable limit of the population."
+        "id": 7,
+        "unit": "II",
+        "question": "Discuss the mathematical framework of the logistic curve used for modeling and measuring the growth of biological populations. Explain the significance of the asymptote.",
+        "answerKey": "1. **Logistic Growth Model**: Formulated by Verhulst to describe population growth under resource limits:\n$$P(t) = \\frac{K}{1 + e^{a - bt}}$$\nwhere $P(t)$ is the population at time $t$, $K$ is the carrying capacity (upper asymptote), and $a, b > 0$ are constants.\n2. **Differential Equation**: The rate of growth is proportional to the population size and the fraction of resources remaining:\n$$\\frac{dP}{dt} = b P \\left(1 - \\frac{P}{K}\\right)$$\n3. **Properties**: The curve is S-shaped (sigmoidal) and symmetric. The point of inflection occurs at $P(t) = K/2$ where the growth rate transitions from acceleration to deceleration.\n4. **Asymptote Significance**: The parameter $K$ represents the maximum sustainable population size (carrying capacity) given environmental and resource constraints. It represents the long-term stable limit of the population."
       },
       {
-            "id": 8,
-            "unit": "III",
-            "question": "Discuss the economic importance, applications, and structural limitations of index numbers.",
-            "answerKey": "1. **Index Numbers**: Statistical measures designed to show changes in a variable or group of related variables (e.g. price, quantity) over time.\n2. **Economic Importance and Applications**:\n- **Inflation Measurement**: Using Consumer Price Index (CPI) to measure purchasing power.\n- **Policy Formulation**: Determining dearness allowance (DA), wage adjustments, and interest rates.\n- **Economic Indicators**: Measuring industrial production trends (IIP) and agricultural yields.\n- **National Income Deflator**: Converting nominal GDP to real GDP.\n3. **Structural Limitations**:\n- **Formula Bias**: Different formulas (Laspeyres, Paasche) yield different results.\n- **Quality Changes**: Fails to capture improvements in goods over time.\n- **Base Year Obsolescence**: Outdated base years do not reflect current consumption patterns.\n- **Sampling Error**: Based on samples of commodities, which may not be fully representative."
+        "id": 8,
+        "unit": "III",
+        "question": "Discuss the economic importance, applications, and structural limitations of index numbers.",
+        "answerKey": "1. **Index Numbers**: Statistical measures designed to show changes in a variable or group of related variables (e.g. price, quantity) over time.\n2. **Economic Importance and Applications**:\n- **Inflation Measurement**: Using Consumer Price Index (CPI) to measure purchasing power.\n- **Policy Formulation**: Determining dearness allowance (DA), wage adjustments, and interest rates.\n- **Economic Indicators**: Measuring industrial production trends (IIP) and agricultural yields.\n- **National Income Deflator**: Converting nominal GDP to real GDP.\n3. **Structural Limitations**:\n- **Formula Bias**: Different formulas (Laspeyres, Paasche) yield different results.\n- **Quality Changes**: Fails to capture improvements in goods over time.\n- **Base Year Obsolescence**: Outdated base years do not reflect current consumption patterns.\n- **Sampling Error**: Based on samples of commodities, which may not be fully representative."
       },
       {
-            "id": 9,
-            "unit": "III",
-            "question": "What is a price index number? Explain the precise operational meaning of the current year and the base year, and discuss the criteria for choosing a base year.",
-            "answerKey": "1. **Price Index Number**: A measure of relative changes in prices of commodities between two time periods.\n2. **Current Year**: The year for which the price index is being calculated, denoted by subscript $1$ (e.g., $p_1, q_1$).\n3. **Base Year**: The year chosen as the point of comparison, assigned a value of 100, and denoted by subscript $0$ (e.g., $p_0, q_0$).\n4. **Criteria for Choosing a Base Year**:\n- **Normal Year**: The base year must be economically stable, free from abnormalities like wars, droughts, severe depressions, or pandemics.\n- **Recent Year**: It should not be too far in the past, as consumption habits and product availability change over time.\n- **Data Availability**: The base year must have reliable, comprehensive price and quantity data."
+        "id": 9,
+        "unit": "III",
+        "question": "What is a price index number? Explain the precise operational meaning of the current year and the base year, and discuss the criteria for choosing a base year.",
+        "answerKey": "1. **Price Index Number**: A measure of relative changes in prices of commodities between two time periods.\n2. **Current Year**: The year for which the price index is being calculated, denoted by subscript $1$ (e.g., $p_1, q_1$).\n3. **Base Year**: The year chosen as the point of comparison, assigned a value of 100, and denoted by subscript $0$ (e.g., $p_0, q_0$).\n4. **Criteria for Choosing a Base Year**:\n- **Normal Year**: The base year must be economically stable, free from abnormalities like wars, droughts, severe depressions, or pandemics.\n- **Recent Year**: It should not be too far in the past, as consumption habits and product availability change over time.\n- **Data Availability**: The base year must have reliable, comprehensive price and quantity data."
       },
       {
-            "id": 10,
-            "unit": "III",
-            "question": "What is meant by the cost of living index number (CPI)? Describe step-by-step the statistical procedure followed in its preparation, and explain the significance of conducting a family budget enquiry.",
-            "answerKey": "1. **Cost of Living Index (CPI)**: A specialized index reflecting changes in the retail prices of goods and services consumed by a specific class of consumers.\n2. **Preparation Steps**:\n- **Define Scope**: Identify the group of consumers (e.g. industrial workers, urban non-manual).\n- **Family Budget Enquiry**: Conduct a survey to determine the consumption basket and weights of commodities.\n- **Price Collection**: Collect regular, reliable retail prices from representative markets.\n- **Calculate Index**: Use either the Aggregate Expenditure Method (similar to Laspeyres) or Family Budget Method (Weighted Average of Price Relatives):\n$$I = \\frac{\\sum W I_p}{\\sum W} \\quad \\text{where } I_p = \\frac{p_1}{p_0} \\times 100 \\text{ and } W = p_0 q_0.$$\n3. **Significance of Family Budget Enquiry**: It reveals the actual consumption patterns, ensuring the weights assigned to commodities match their true budget share for the target group."
+        "id": 10,
+        "unit": "III",
+        "question": "What is meant by the cost of living index number (CPI)? Describe step-by-step the statistical procedure followed in its preparation, and explain the significance of conducting a family budget enquiry.",
+        "answerKey": "1. **Cost of Living Index (CPI)**: A specialized index reflecting changes in the retail prices of goods and services consumed by a specific class of consumers.\n2. **Preparation Steps**:\n- **Define Scope**: Identify the group of consumers (e.g. industrial workers, urban non-manual).\n- **Family Budget Enquiry**: Conduct a survey to determine the consumption basket and weights of commodities.\n- **Price Collection**: Collect regular, reliable retail prices from representative markets.\n- **Calculate Index**: Use either the Aggregate Expenditure Method (similar to Laspeyres) or Family Budget Method (Weighted Average of Price Relatives):\n$$I = \\frac{\\sum W I_p}{\\sum W} \\quad \\text{where } I_p = \\frac{p_1}{p_0} \\times 100 \\text{ and } W = p_0 q_0.$$\n3. **Significance of Family Budget Enquiry**: It reveals the actual consumption patterns, ensuring the weights assigned to commodities match their true budget share for the target group."
       },
       {
-            "id": 11,
-            "unit": "III",
-            "question": "Discuss the various axiomatic tests of index numbers: Time Reversal, Factor Reversal, and Circular tests.",
-            "answerKey": "1. **Time Reversal Test (TRT)**: The index number formula should work consistently backward and forward in time:\n$$P_{01} \\times P_{10} = 1$$\nwhere $P_{01}$ is the index for year 1 with base 0, and $P_{10}$ is the index for year 0 with base 1.\n2. **Factor Reversal Test (FRT)**: Interchanging the price and quantity factors in the index formula should yield the true value ratio index:\n$$P_{01} \\times Q_{01} = \\frac{\\sum p_1 q_1}{\\sum p_0 q_0}$$\nwhere $Q_{01}$ is the quantity index.\n3. **Circular Test**: An extension of TRT to multiple periods ($0, 1, 2$):\n$$P_{01} \\times P_{12} \\times P_{20} = 1.$$\n(Note: Fisher's index satisfies TRT and FRT but not the Circular test. Only simple geometric mean index and Kelly's fixed-weight index satisfy the Circular test)."
+        "id": 11,
+        "unit": "III",
+        "question": "Discuss the various axiomatic tests of index numbers: Time Reversal, Factor Reversal, and Circular tests.",
+        "answerKey": "1. **Time Reversal Test (TRT)**: The index number formula should work consistently backward and forward in time:\n$$P_{01} \\times P_{10} = 1$$\nwhere $P_{01}$ is the index for year 1 with base 0, and $P_{10}$ is the index for year 0 with base 1.\n2. **Factor Reversal Test (FRT)**: Interchanging the price and quantity factors in the index formula should yield the true value ratio index:\n$$P_{01} \\times Q_{01} = \\frac{\\sum p_1 q_1}{\\sum p_0 q_0}$$\nwhere $Q_{01}$ is the quantity index.\n3. **Circular Test**: An extension of TRT to multiple periods ($0, 1, 2$):\n$$P_{01} \\times P_{12} \\times P_{20} = 1.$$\n(Note: Fisher's index satisfies TRT and FRT but not the Circular test. Only simple geometric mean index and Kelly's fixed-weight index satisfy the Circular test)."
       },
       {
-            "id": 12,
-            "unit": "III",
-            "question": "Mathematically prove that Fisher's ideal index number satisfies both the Time Reversal Test and the Factor Reversal Test.",
-            "answerKey": "1. Fisher's Ideal Index: $P_{01} = \\sqrt{ \\frac{\\sum p_1 q_0}{\\sum p_0 q_0} \\times \\frac{\\sum p_1 q_1}{\\sum p_0 q_1} }$.\n2. **Time Reversal Test Proof**:\n- $P_{10} = \\sqrt{ \\frac{\\sum p_0 q_1}{\\sum p_1 q_1} \\times \\frac{\\sum p_0 q_0}{\\sum p_1 q_0} }$.\n- Multiplying:\n$$P_{01} \\times P_{10} = \\sqrt{ \\frac{\\sum p_1 q_0}{\\sum p_0 q_0} \\times \\frac{\\sum p_1 q_1}{\\sum p_0 q_1} \\times \\frac{\\sum p_0 q_1}{\\sum p_1 q_1} \\times \\frac{\\sum p_0 q_0}{\\sum p_1 q_0} } = \\sqrt{1} = 1.$$\nThus, TRT is satisfied.\n3. **Factor Reversal Test Proof**:\n- Interchanging $p$ and $q$ gives the Quantity Index $Q_{01}$:\n$$Q_{01} = \\sqrt{ \\frac{\\sum q_1 p_0}{\\sum q_0 p_0} \\times \\frac{\\sum q_1 p_1}{\\sum q_0 p_1} } = \\sqrt{ \\frac{\\sum p_0 q_1}{\\sum p_0 q_0} \\times \\frac{\\sum p_1 q_1}{\\sum p_1 q_0} }.$$\n- Multiplying:\n$$P_{01} \\times Q_{01} = \\sqrt{ \\frac{\\sum p_1 q_0}{\\sum p_0 q_0} \\frac{\\sum p_1 q_1}{\\sum p_0 q_1} \\frac{\\sum p_0 q_1}{\\sum p_0 q_0} \\frac{\\sum p_1 q_1}{\\sum p_1 q_0} } = \\sqrt{ \\left(\\frac{\\sum p_1 q_1}{\\sum p_0 q_0}\\right)^2 } = \\frac{\\sum p_1 q_1}{\\sum p_0 q_0}.$$\nThus, FRT is satisfied. Since it satisfies both tests, Fisher's index is called 'ideal'."
+        "id": 12,
+        "unit": "III",
+        "question": "Mathematically prove that Fisher's ideal index number satisfies both the Time Reversal Test and the Factor Reversal Test.",
+        "answerKey": "1. Fisher's Ideal Index: $P_{01} = \\sqrt{ \\frac{\\sum p_1 q_0}{\\sum p_0 q_0} \\times \\frac{\\sum p_1 q_1}{\\sum p_0 q_1} }$.\n2. **Time Reversal Test Proof**:\n- $P_{10} = \\sqrt{ \\frac{\\sum p_0 q_1}{\\sum p_1 q_1} \\times \\frac{\\sum p_0 q_0}{\\sum p_1 q_0} }$.\n- Multiplying:\n$$P_{01} \\times P_{10} = \\sqrt{ \\frac{\\sum p_1 q_0}{\\sum p_0 q_0} \\times \\frac{\\sum p_1 q_1}{\\sum p_0 q_1} \\times \\frac{\\sum p_0 q_1}{\\sum p_1 q_1} \\times \\frac{\\sum p_0 q_0}{\\sum p_1 q_0} } = \\sqrt{1} = 1.$$\nThus, TRT is satisfied.\n3. **Factor Reversal Test Proof**:\n- Interchanging $p$ and $q$ gives the Quantity Index $Q_{01}$:\n$$Q_{01} = \\sqrt{ \\frac{\\sum q_1 p_0}{\\sum q_0 p_0} \\times \\frac{\\sum q_1 p_1}{\\sum q_0 p_1} } = \\sqrt{ \\frac{\\sum p_0 q_1}{\\sum p_0 q_0} \\times \\frac{\\sum p_1 q_1}{\\sum p_1 q_0} }.$$\n- Multiplying:\n$$P_{01} \\times Q_{01} = \\sqrt{ \\frac{\\sum p_1 q_0}{\\sum p_0 q_0} \\frac{\\sum p_1 q_1}{\\sum p_0 q_1} \\frac{\\sum p_0 q_1}{\\sum p_0 q_0} \\frac{\\sum p_1 q_1}{\\sum p_1 q_0} } = \\sqrt{ \\left(\\frac{\\sum p_1 q_1}{\\sum p_0 q_0}\\right)^2 } = \\frac{\\sum p_1 q_1}{\\sum p_0 q_0}.$$\nThus, FRT is satisfied. Since it satisfies both tests, Fisher's index is called 'ideal'."
       },
       {
-            "id": 13,
-            "unit": "IV",
-            "question": "What is industrial quality control? Describe the main underlying principles of statistical quality control (SQC) charts, and explain the choice of 3-sigma control limits.",
-            "answerKey": "1. **Industrial Quality Control**: The application of statistical techniques to measure, monitor, and maintain the quality of manufactured products within specified tolerances.\n2. **Principles of SQC Charts**: Introduced by Walter Shewhart. Processes vary due to:\n- **Chance Causes**: Natural, random, unavoidable variations in stable processes.\n- **Assignable Causes**: Non-random, identifiable variations (e.g. tool wear, raw material defect, operator error).\n3. **Shewhart Control Chart Structure**: Consists of a Central Line (CL), Upper Control Limit (UCL), and Lower Control Limit (LCL). If points fall outside the limits, the process is deemed 'out of control' (assignable causes are present).\n4. **Choice of 3-Sigma Limits**: Under a normal distribution, the probability of a sample point falling outside $\\mu \\pm 3\\sigma$ by pure chance is very small ($P(|Z| > 3) = 0.0027$). This balances the two types of risks: looking for trouble when there is none (Type I error) and missing trouble when it is present (Type II error)."
+        "id": 13,
+        "unit": "IV",
+        "question": "What is industrial quality control? Describe the main underlying principles of statistical quality control (SQC) charts, and explain the choice of 3-sigma control limits.",
+        "answerKey": "1. **Industrial Quality Control**: The application of statistical techniques to measure, monitor, and maintain the quality of manufactured products within specified tolerances.\n2. **Principles of SQC Charts**: Introduced by Walter Shewhart. Processes vary due to:\n- **Chance Causes**: Natural, random, unavoidable variations in stable processes.\n- **Assignable Causes**: Non-random, identifiable variations (e.g. tool wear, raw material defect, operator error).\n3. **Shewhart Control Chart Structure**: Consists of a Central Line (CL), Upper Control Limit (UCL), and Lower Control Limit (LCL). If points fall outside the limits, the process is deemed 'out of control' (assignable causes are present).\n4. **Choice of 3-Sigma Limits**: Under a normal distribution, the probability of a sample point falling outside $\\mu \\pm 3\\sigma$ by pure chance is very small ($P(|Z| > 3) = 0.0027$). This balances the two types of risks: looking for trouble when there is none (Type I error) and missing trouble when it is present (Type II error)."
       },
       {
-            "id": 14,
-            "unit": "IV",
-            "question": "Discuss the detailed statistical construction of control charts for the process mean (X-bar chart) and standard deviation (s-chart).",
-            "answerKey": "1. **X-bar Chart (Process Mean)**: Monitors process centering. Let samples of size $n$ be drawn with mean $\\bar{X}$ and standard deviation $\\sigma$.\n- Center Line: $\\text{CL} = \\bar{\\bar{X}}$ (grand mean).\n- Control Limits: $\\text{UCL}_X = \\bar{\\bar{X}} + A_2 \\bar{R}$ or $\\bar{\\bar{X}} + 3 \\frac{\\sigma}{\\sqrt{n}}$ where $A_2$ is a constant.\n- LCL: $\\text{LCL}_X = \\bar{\\bar{X}} - A_2 \\bar{R}$ or $\\bar{\\bar{X}} - 3 \\frac{\\sigma}{\\sqrt{n}}$.\n2. **s-Chart (Process Dispersion)**: Monitors process variability by computing standard deviations of samples.\n- Center Line: $\\text{CL}_s = c_4 \\sigma$ or $\\bar{s}$ where $c_4$ is a constant based on $n$.\n- Control Limits: $\\text{UCL}_s = B_4 \\bar{s}$ and $\\text{LCL}_s = B_3 \\bar{s}$ (where $B_3, B_4$ are standard constants).\n- Alternatively, using $\\sigma$: $\\text{UCL}_s = B_6 \\sigma$ and $\\text{LCL}_s = B_5 \\sigma$."
+        "id": 14,
+        "unit": "IV",
+        "question": "Discuss the detailed statistical construction of control charts for the process mean (X-bar chart) and standard deviation (s-chart).",
+        "answerKey": "1. **X-bar Chart (Process Mean)**: Monitors process centering. Let samples of size $n$ be drawn with mean $\\bar{X}$ and standard deviation $\\sigma$.\n- Center Line: $\\text{CL} = \\bar{\\bar{X}}$ (grand mean).\n- Control Limits: $\\text{UCL}_X = \\bar{\\bar{X}} + A_2 \\bar{R}$ or $\\bar{\\bar{X}} + 3 \\frac{\\sigma}{\\sqrt{n}}$ where $A_2$ is a constant.\n- LCL: $\\text{LCL}_X = \\bar{\\bar{X}} - A_2 \\bar{R}$ or $\\bar{\\bar{X}} - 3 \\frac{\\sigma}{\\sqrt{n}}$.\n2. **s-Chart (Process Dispersion)**: Monitors process variability by computing standard deviations of samples.\n- Center Line: $\\text{CL}_s = c_4 \\sigma$ or $\\bar{s}$ where $c_4$ is a constant based on $n$.\n- Control Limits: $\\text{UCL}_s = B_4 \\bar{s}$ and $\\text{LCL}_s = B_3 \\bar{s}$ (where $B_3, B_4$ are standard constants).\n- Alternatively, using $\\sigma$: $\\text{UCL}_s = B_6 \\sigma$ and $\\text{LCL}_s = B_5 \\sigma$."
       },
       {
-            "id": 15,
-            "unit": "IV",
-            "question": "Discuss in detail the underlying distribution, statistical foundations, and construction of fraction defective (p) charts and number of defects (c) charts.",
-            "answerKey": "1. **p-Chart (Fraction Defective)**: Monitors the proportion of defective items. Based on the **Binomial Distribution**.\n- Center Line: $\\text{CL} = \\bar{p} = \\frac{\\text{Total Defectives}}{\\text{Total Inspected}}$.\n- Standard Error: $\\text{SE}(p) = \\sqrt{\\frac{\\bar{p}(1-\\bar{p})}{n}}$.\n- Limits: $\\text{UCL}_p = \\bar{p} + 3 \\sqrt{\\frac{\\bar{p}(1-\\bar{p})}{n}}$ and $\\text{LCL}_p = \\max\\left(0, \\bar{p} - 3 \\sqrt{\\frac{\\bar{p}(1-\\bar{p})}{n}}\\right)$.\n2. **c-Chart (Number of Defects)**: Monitors the count of defects per unit area/time. Based on the **Poisson Distribution** (where mean = variance = $c$).\n- Center Line: $\\text{CL} = \\bar{c} = \\frac{\\text{Total Defects}}{\\text{Total Units}}$.\n- Limits: $\\text{UCL}_c = \\bar{c} + 3\\sqrt{\\bar{c}}$ and $\\text{LCL}_c = \\max\\left(0, \\bar{c} - 3\\sqrt{\\bar{c}}\\right)$."
+        "id": 15,
+        "unit": "IV",
+        "question": "Discuss in detail the underlying distribution, statistical foundations, and construction of fraction defective (p) charts and number of defects (c) charts.",
+        "answerKey": "1. **p-Chart (Fraction Defective)**: Monitors the proportion of defective items. Based on the **Binomial Distribution**.\n- Center Line: $\\text{CL} = \\bar{p} = \\frac{\\text{Total Defectives}}{\\text{Total Inspected}}$.\n- Standard Error: $\\text{SE}(p) = \\sqrt{\\frac{\\bar{p}(1-\\bar{p})}{n}}$.\n- Limits: $\\text{UCL}_p = \\bar{p} + 3 \\sqrt{\\frac{\\bar{p}(1-\\bar{p})}{n}}$ and $\\text{LCL}_p = \\max\\left(0, \\bar{p} - 3 \\sqrt{\\frac{\\bar{p}(1-\\bar{p})}{n}}\\right)$.\n2. **c-Chart (Number of Defects)**: Monitors the count of defects per unit area/time. Based on the **Poisson Distribution** (where mean = variance = $c$).\n- Center Line: $\\text{CL} = \\bar{c} = \\frac{\\text{Total Defects}}{\\text{Total Units}}$.\n- Limits: $\\text{UCL}_c = \\bar{c} + 3\\sqrt{\\bar{c}}$ and $\\text{LCL}_c = \\max\\left(0, \\bar{c} - 3\\sqrt{\\bar{c}}\\right)$."
       },
       {
-            "id": 16,
-            "unit": "IV",
-            "question": "What is the probabilistic theory behind assuming a Poisson distribution in the case of the c-chart? Specify the control limits.",
-            "answerKey": "1. **Poisson Foundation**: The $c$-chart is used to monitor defects on continuous products (e.g. rolls of paper, fabrics, paint surfaces).\n2. **Conditions**: The potential number of locations for a defect is very large (approaching infinity), whereas the probability of a defect at any specific point is extremely small (approaching zero). \n3. Under these conditions ($n \\to \\infty$, $p \\to 0$ with $np = \\lambda$ constant), the Binomial distribution converges to the **Poisson distribution**:\n$$P(X=x) = \\frac{e^{-c} c^x}{x!}$$\nwhere $c$ is the average count of defects per unit.\n4. **Control Limits**: Using Shewhart 3-sigma limits and the fact that for Poisson, $\\sigma^2 = c \\implies \\sigma = \\sqrt{c}$:\n- $\\text{UCL}_c = \\bar{c} + 3\\sqrt{\\bar{c}}$\n- $\\text{CL} = \\bar{c}$\n- $\\text{LCL}_c = \\max(0, \\bar{c} - 3\\sqrt{\\bar{c}})$."
+        "id": 16,
+        "unit": "IV",
+        "question": "What is the probabilistic theory behind assuming a Poisson distribution in the case of the c-chart? Specify the control limits.",
+        "answerKey": "1. **Poisson Foundation**: The $c$-chart is used to monitor defects on continuous products (e.g. rolls of paper, fabrics, paint surfaces).\n2. **Conditions**: The potential number of locations for a defect is very large (approaching infinity), whereas the probability of a defect at any specific point is extremely small (approaching zero). \n3. Under these conditions ($n \\to \\infty$, $p \\to 0$ with $np = \\lambda$ constant), the Binomial distribution converges to the **Poisson distribution**:\n$$P(X=x) = \\frac{e^{-c} c^x}{x!}$$\nwhere $c$ is the average count of defects per unit.\n4. **Control Limits**: Using Shewhart 3-sigma limits and the fact that for Poisson, $\\sigma^2 = c \\implies \\sigma = \\sqrt{c}$:\n- $\\text{UCL}_c = \\bar{c} + 3\\sqrt{\\bar{c}}$\n- $\\text{CL} = \\bar{c}$\n- $\\text{LCL}_c = \\max(0, \\bar{c} - 3\\sqrt{\\bar{c}})$."
       },
       {
-            "id": 17,
-            "unit": "IV",
-            "question": "Discuss the structural construction and cross-interpretation of the mean and range (X-bar, R) control charts.",
-            "answerKey": "1. **X-bar Chart**: Monitors the mean of the process. It detects shifts in the central tendency (e.g., changes due to machines going out of alignment).\n- $\\text{UCL} = \\bar{\\bar{X}} + A_2 \\bar{R}$, $\\text{LCL} = \\bar{\\bar{X}} - A_2 \\bar{R}$.\n2. **R-Chart (Range)**: Monitors the variability/dispersion of the process (the range of values $R = X_{\\max} - X_{\\min}$).\n- $\\text{CL} = \\bar{R}$, $\\text{UCL} = D_4 \\bar{R}$, $\\text{LCL} = D_3 \\bar{R}$.\n3. **Cross-Interpretation**: A process can only be considered in control if **both** charts are in control. If only the X-bar chart is out of control, the process has shifted but variability remains stable. If the R-chart is out of control, the process variance has increased (indicating unstable quality), making the limits of the X-bar chart unreliable."
+        "id": 17,
+        "unit": "IV",
+        "question": "Discuss the structural construction and cross-interpretation of the mean and range (X-bar, R) control charts.",
+        "answerKey": "1. **X-bar Chart**: Monitors the mean of the process. It detects shifts in the central tendency (e.g., changes due to machines going out of alignment).\n- $\\text{UCL} = \\bar{\\bar{X}} + A_2 \\bar{R}$, $\\text{LCL} = \\bar{\\bar{X}} - A_2 \\bar{R}$.\n2. **R-Chart (Range)**: Monitors the variability/dispersion of the process (the range of values $R = X_{\\max} - X_{\\min}$).\n- $\\text{CL} = \\bar{R}$, $\\text{UCL} = D_4 \\bar{R}$, $\\text{LCL} = D_3 \\bar{R}$.\n3. **Cross-Interpretation**: A process can only be considered in control if **both** charts are in control. If only the X-bar chart is out of control, the process has shifted but variability remains stable. If the R-chart is out of control, the process variance has increased (indicating unstable quality), making the limits of the X-bar chart unreliable."
       },
       {
-            "id": 18,
-            "unit": "V",
-            "question": "What do you mean by a time series? Describe its practical and forecasting uses in business planning and economic data analysis.",
-            "answerKey": "1. **Time Series**: A sequence of numerical data points indexed in chronological order, usually at uniform intervals (e.g. daily, monthly, yearly).\n2. **Practical Uses**:\n- **Understanding Past Behavior**: Helps evaluate historical progress and patterns.\n- **Forecasting**: Predicting future values (e.g. sales, stock prices, demand) for strategic planning.\n- **Policy Evaluation**: Assessing the impact of past interventions (e.g. tariff changes, advertising campaigns).\n- **Comparative Analysis**: Comparing different time-series datasets (e.g. inflation vs unemployment over time)."
+        "id": 18,
+        "unit": "V",
+        "question": "What do you mean by a time series? Describe its practical and forecasting uses in business planning and economic data analysis.",
+        "answerKey": "1. **Time Series**: A sequence of numerical data points indexed in chronological order, usually at uniform intervals (e.g. daily, monthly, yearly).\n2. **Practical Uses**:\n- **Understanding Past Behavior**: Helps evaluate historical progress and patterns.\n- **Forecasting**: Predicting future values (e.g. sales, stock prices, demand) for strategic planning.\n- **Policy Evaluation**: Assessing the impact of past interventions (e.g. tariff changes, advertising campaigns).\n- **Comparative Analysis**: Comparing different time-series datasets (e.g. inflation vs unemployment over time)."
       },
       {
-            "id": 19,
-            "unit": "V",
-            "question": "Write short notes on the different structural components of a time series, explaining the factors behind each.",
-            "answerKey": "1. **Secular Trend (T)**: Long-term smooth pattern of growth or decline over a long period. Caused by population growth, technological advances, or changing habits.\n2. **Seasonal Variation (S)**: Rhythmic, periodic fluctuations occurring within a year. Caused by climate changes (weather seasons) or social customs (festivals, holidays).\n3. **Cyclical Variation (C)**: Long-term wave-like oscillations around the trend line (business cycles). Typically spans 2 to 10 years and goes through phases of expansion, peak, contraction, and trough.\n4. **Irregular Fluctuation (I)**: Erratic, unpredictable, random variations. Caused by unexpected events like floods, strikes, wars, earthquakes, or political changes."
+        "id": 19,
+        "unit": "V",
+        "question": "Write short notes on the different structural components of a time series, explaining the factors behind each.",
+        "answerKey": "1. **Secular Trend (T)**: Long-term smooth pattern of growth or decline over a long period. Caused by population growth, technological advances, or changing habits.\n2. **Seasonal Variation (S)**: Rhythmic, periodic fluctuations occurring within a year. Caused by climate changes (weather seasons) or social customs (festivals, holidays).\n3. **Cyclical Variation (C)**: Long-term wave-like oscillations around the trend line (business cycles). Typically spans 2 to 10 years and goes through phases of expansion, peak, contraction, and trough.\n4. **Irregular Fluctuation (I)**: Erratic, unpredictable, random variations. Caused by unexpected events like floods, strikes, wars, earthquakes, or political changes."
       },
       {
-            "id": 20,
-            "unit": "V",
-            "question": "Using clear real-life examples, explain the core differences between seasonal variations and cyclical variations in a time series.",
-            "answerKey": "1. **Seasonal Variations**:\n- **Periodicity**: Occur within a fixed, short period (always $\\le$ one year).\n- **Predictability**: Rhythmic and highly predictable.\n- **Causes**: Weather patterns, holidays, or festivals.\n- **Example**: Surge in ice cream sales during summer, or high clothing sales during Diwali.\n2. **Cyclical Variations**:\n- **Periodicity**: Occur over longer periods (usually 2 to 10 years, varying in duration).\n- **Predictability**: Oscillatory but non-periodic, making them harder to predict.\n- **Causes**: Business cycle dynamics, inflation, and general economic factors.\n- **Example**: The global housing market booms followed by recessions (e.g., 2008 financial crash)."
+        "id": 20,
+        "unit": "V",
+        "question": "Using clear real-life examples, explain the core differences between seasonal variations and cyclical variations in a time series.",
+        "answerKey": "1. **Seasonal Variations**:\n- **Periodicity**: Occur within a fixed, short period (always $\\le$ one year).\n- **Predictability**: Rhythmic and highly predictable.\n- **Causes**: Weather patterns, holidays, or festivals.\n- **Example**: Surge in ice cream sales during summer, or high clothing sales during Diwali.\n2. **Cyclical Variations**:\n- **Periodicity**: Occur over longer periods (usually 2 to 10 years, varying in duration).\n- **Predictability**: Oscillatory but non-periodic, making them harder to predict.\n- **Causes**: Business cycle dynamics, inflation, and general economic factors.\n- **Example**: The global housing market booms followed by recessions (e.g., 2008 financial crash)."
       }
-]
+    ]
   },
   "stamj44": {
     "id": "stamj44",
@@ -4389,18 +5166,18 @@ export const EXAMS = {
     "type": "theory",
     "questions": [
       {
-            "id": 1,
-            "unit": "I",
-            "question": "Assume that a population consists of 7 similar shipping containers having the following weights (in kilograms): [9.6, 10.2, 10.4, 9.8, 10.0, 10.2, 9.6]. Find the exact population mean $\\mu$ and standard deviation $\\sigma$, draw all possible random samples of size $n=2$ (i) without replacement (SRSWOR), and (ii) with replacement (SRSWR), and calculate the standard error under both schemes.",
-            "answerKey": "1. **Population Parameters**:\n- Mean $\\mu = \\frac{9.6+10.2+10.4+9.8+10.0+10.2+9.6}{7} = \\frac{69.8}{7} = 9.971$ kg.\n- Variance $\\sigma^2 = \\frac{1}{7}\\sum (Y_i - 9.971)^2 \\approx 0.0820 \\implies \\sigma \\approx 0.286$ kg.\n- Pop Mean Square $S^2 = \\frac{7}{6}\\sigma^2 \\approx 0.0957$.\n2. **SRSWOR samples** ($n=2$): There are $\\binom{7}{2} = 21$ possible samples.\n- Standard Error: $\\text{SE}(\\bar{y})_{\\text{WOR}} = \\sqrt{\\left(1-\\frac{2}{7}\\right)\\frac{S^2}{2}} = \\sqrt{\\frac{5}{14} \\times 0.0957} \\approx 0.185$ kg.\n3. **SRSWR samples** ($n=2$): There are $7^2 = 49$ possible samples.\n- Standard Error: $\\text{SE}(\\bar{y})_{\\text{WR}} = \\sqrt{\\frac{\\sigma^2}{2}} = \\sqrt{\\frac{0.0820}{2}} \\approx 0.203$ kg."
+        "id": 1,
+        "unit": "I",
+        "question": "Assume that a population consists of 7 similar shipping containers having the following weights (in kilograms): [9.6, 10.2, 10.4, 9.8, 10.0, 10.2, 9.6]. Find the exact population mean $\\mu$ and standard deviation $\\sigma$, draw all possible random samples of size $n=2$ (i) without replacement (SRSWOR), and (ii) with replacement (SRSWR), and calculate the standard error under both schemes.",
+        "answerKey": "1. **Population Parameters**:\n- Mean $\\mu = \\frac{9.6+10.2+10.4+9.8+10.0+10.2+9.6}{7} = \\frac{69.8}{7} = 9.971$ kg.\n- Variance $\\sigma^2 = \\frac{1}{7}\\sum (Y_i - 9.971)^2 \\approx 0.0820 \\implies \\sigma \\approx 0.286$ kg.\n- Pop Mean Square $S^2 = \\frac{7}{6}\\sigma^2 \\approx 0.0957$.\n2. **SRSWOR samples** ($n=2$): There are $\\binom{7}{2} = 21$ possible samples.\n- Standard Error: $\\text{SE}(\\bar{y})_{\\text{WOR}} = \\sqrt{\\left(1-\\frac{2}{7}\\right)\\frac{S^2}{2}} = \\sqrt{\\frac{5}{14} \\times 0.0957} \\approx 0.185$ kg.\n3. **SRSWR samples** ($n=2$): There are $7^2 = 49$ possible samples.\n- Standard Error: $\\text{SE}(\\bar{y})_{\\text{WR}} = \\sqrt{\\frac{\\sigma^2}{2}} = \\sqrt{\\frac{0.0820}{2}} \\approx 0.203$ kg."
       },
       {
-            "id": 2,
-            "unit": "I",
-            "question": "A finite population of size $N=9$ is stratified into 3 strata:\n- Stratum I: $\\{1, 2, 4\\}$\n- Stratum II: $\\{6, 8\\}$\n- Stratum III: $\\{11, 15, 16, 19\\}$\nIf a sample of size $n=6$ is chosen by selecting exactly two units from each stratum, calculate the number of unique stratified samples, and explain how the stratified sample mean is computed for each.",
-            "answerKey": "1. **Number of Stratified Samples**: Since we select 2 units from each stratum:\n- From Stratum I ($N_1=3$): $\\binom{3}{2} = 3$ ways.\n- From Stratum II ($N_2=2$): $\\binom{2}{2} = 1$ way.\n- From Stratum III ($N_3=4$): $\\binom{4}{2} = 6$ ways.\n- Total unique stratified samples: $3 \\times 1 \\times 6 = 18$ samples.\n2. **Stratified Sample Mean Formula**: $\\bar{y}_{\\text{st}} = \\sum_{i=1}^3 W_i \\bar{y}_i$, where $W_i = N_i/N$ and $\\bar{y}_i$ is the sample mean of stratum $i$.\n- Here $W_1 = 3/9 = 1/3$, $W_2 = 2/9$, $W_3 = 4/9$.\n- For any sample, $\\bar{y}_{\\text{st}} = \\frac{1}{3}\\bar{y}_1 + \\frac{2}{9}\\bar{y}_2 + \\frac{4}{9}\\bar{y}_3$."
+        "id": 2,
+        "unit": "I",
+        "question": "A finite population of size $N=9$ is stratified into 3 strata:\n- Stratum I: $\\{1, 2, 4\\}$\n- Stratum II: $\\{6, 8\\}$\n- Stratum III: $\\{11, 15, 16, 19\\}$\nIf a sample of size $n=6$ is chosen by selecting exactly two units from each stratum, calculate the number of unique stratified samples, and explain how the stratified sample mean is computed for each.",
+        "answerKey": "1. **Number of Stratified Samples**: Since we select 2 units from each stratum:\n- From Stratum I ($N_1=3$): $\\binom{3}{2} = 3$ ways.\n- From Stratum II ($N_2=2$): $\\binom{2}{2} = 1$ way.\n- From Stratum III ($N_3=4$): $\\binom{4}{2} = 6$ ways.\n- Total unique stratified samples: $3 \\times 1 \\times 6 = 18$ samples.\n2. **Stratified Sample Mean Formula**: $\\bar{y}_{\\text{st}} = \\sum_{i=1}^3 W_i \\bar{y}_i$, where $W_i = N_i/N$ and $\\bar{y}_i$ is the sample mean of stratum $i$.\n- Here $W_1 = 3/9 = 1/3$, $W_2 = 2/9$, $W_3 = 4/9$.\n- For any sample, $\\bar{y}_{\\text{st}} = \\frac{1}{3}\\bar{y}_1 + \\frac{2}{9}\\bar{y}_2 + \\frac{4}{9}\\bar{y}_3$."
       }
-]
+    ]
   },
   "stamj45": {
     "id": "stamj45",
@@ -4410,30 +5187,30 @@ export const EXAMS = {
     "type": "theory",
     "questions": [
       {
-            "id": 1,
-            "unit": "I",
-            "question": "A sample survey is undertaken to estimate farm income based on four strata. Baseline parameters are:\n- Sheep ($N_1=161, Y_{1}=10946, S_1=2236$)\n- Wheat ($N_2=195, Y_{2}=6402, S_2=2614$)\n- Dairying ($N_3=274, Y_{3}=2228, S_3=606$)\n- Others ($N_4=382, Y_{4}=1458, S_4=230$)\nFor a sample of $n=90$ farms, find the sample sizes $n_i$ in each stratum under Proportional and Neyman (Optimum) Allocation.",
-            "answerKey": "1. **Total Population size**: $N = 161+195+274+382 = 1012$.\n2. **Proportional Allocation**: $n_i = n \\frac{N_i}{N}$.\n- $n_1 = 14, n_2 = 17, n_3 = 24, n_4 = 35$.\n3. **Neyman Allocation**: $n_i = n \\frac{N_i S_i}{\\sum N_j S_j}$.\n- $N_1 S_1 = 161 \\times 2236 = 359996$\n- $N_2 S_2 = 195 \\times 2614 = 509730$\n- $N_3 S_3 = 274 \\times 606 = 166044$\n- $N_4 S_4 = 382 \\times 230 = 87860$\n- Sum of $N_i S_i = 1123630$.\n- $n_1 = 90 \\times (359996 / 1123630) \\approx 28.83 \\approx 29$\n- $n_2 = 90 \\times (509730 / 1123630) \\approx 40.83 \\approx 41$\n- $n_3 = 90 \\times (166044 / 1123630) \\approx 13.30 \\approx 13$\n- $n_4 = 90 \\times (87860 / 1123630) \\approx 7.04 \\approx 7$.\nAdjusting sum to 90: $n_1 = 29, n_2 = 41, n_3 = 13, n_4 = 7$."
+        "id": 1,
+        "unit": "I",
+        "question": "A sample survey is undertaken to estimate farm income based on four strata. Baseline parameters are:\n- Sheep ($N_1=161, Y_{1}=10946, S_1=2236$)\n- Wheat ($N_2=195, Y_{2}=6402, S_2=2614$)\n- Dairying ($N_3=274, Y_{3}=2228, S_3=606$)\n- Others ($N_4=382, Y_{4}=1458, S_4=230$)\nFor a sample of $n=90$ farms, find the sample sizes $n_i$ in each stratum under Proportional and Neyman (Optimum) Allocation.",
+        "answerKey": "1. **Total Population size**: $N = 161+195+274+382 = 1012$.\n2. **Proportional Allocation**: $n_i = n \\frac{N_i}{N}$.\n- $n_1 = 14, n_2 = 17, n_3 = 24, n_4 = 35$.\n3. **Neyman Allocation**: $n_i = n \\frac{N_i S_i}{\\sum N_j S_j}$.\n- $N_1 S_1 = 161 \\times 2236 = 359996$\n- $N_2 S_2 = 195 \\times 2614 = 509730$\n- $N_3 S_3 = 274 \\times 606 = 166044$\n- $N_4 S_4 = 382 \\times 230 = 87860$\n- Sum of $N_i S_i = 1123630$.\n- $n_1 = 90 \\times (359996 / 1123630) \\approx 28.83 \\approx 29$\n- $n_2 = 90 \\times (509730 / 1123630) \\approx 40.83 \\approx 41$\n- $n_3 = 90 \\times (166044 / 1123630) \\approx 13.30 \\approx 13$\n- $n_4 = 90 \\times (87860 / 1123630) \\approx 7.04 \\approx 7$.\nAdjusting sum to 90: $n_1 = 29, n_2 = 41, n_3 = 13, n_4 = 7$."
       },
       {
-            "id": 2,
-            "unit": "I",
-            "question": "A 5x5 Latin Square Design was set up to evaluate five agricultural fertilizers. The yield data (in bushels per plot) are:\n- Row 1: B(4.9), D(6.4), E(3.3), A(9.5), C(11.8)\n- Row 2: C(9.3), A(4.0), B(6.2), E(5.1), D(5.4)\n- Row 3: D(7.6), C(15.4), A(4.0), B(6.0), E(4.6)\n- Row 4: E(5.3), B(7.6), C(13.2), D(8.6), A(4.9)\n- Row 5: A(9.3), E(6.3), D(11.8), C(15.9), B(7.6)\nDescribe the steps to perform ANOVA and test for significant differences in mean yields at the 5% level.",
-            "answerKey": "1. **Row Sums** ($R_i$): $R_1=35.9, R_2=30.0, R_3=33.6, R_4=39.6, R_5=50.9$. Grand Total $G = 190.0$.\n2. **Column Sums** ($C_j$): $C_1=36.4, C_2=34.3, C_3=38.5, C_4=45.1, C_5=35.7$.\n3. **Treatment Sums** ($T_k$):\n- A: $9.5 + 4.0 + 4.0 + 4.9 + 9.3 = 31.7$\n- B: $4.9 + 6.2 + 6.0 + 7.6 + 7.6 = 30.3$\n- C: $11.8 + 9.3 + 15.4 + 13.2 + 15.9 = 65.6$\n- D: $6.4 + 5.4 + 7.6 + 8.6 + 11.8 = 39.8$\n- E: $3.3 + 5.1 + 4.6 + 5.3 + 6.3 = 22.6$\n4. **ANOVA Calculations**: $N=25$. Correction Factor $\\text{CF} = 190^2 / 25 = 1444$.\n- $\\text{TSS} = \\sum y^2 - \\text{CF} = 1812.82 - 1444 = 368.82$\n- Row Sum of Squares $\\text{SSR} = \\frac{1}{5}\\sum R_i^2 - \\text{CF} = 1494.38 - 1444 = 50.38$\n- Column Sum of Squares $\\text{SSC} = \\frac{1}{5}\\sum C_j^2 - \\text{CF} = 1456.96 - 1444 = 12.96$\n- Treatment Sum of Squares $\\text{SST} = \\frac{1}{5}\\sum T_k^2 - \\text{CF} = 1662.66 - 1444 = 218.66$\n- Error Sum of Squares $\\text{SSE} = \\text{TSS} - \\text{SSR} - \\text{SSC} - \\text{SST} = 86.82$\n5. **ANOVA Table**:\n- Rows: d.f. = 4, MS = 12.595, F = 1.74\n- Columns: d.f. = 4, MS = 3.24, F = 0.45\n- Treatments: d.f. = 4, MS = 54.665, F = 7.56\n- Error: d.f. = 12, MS = 7.235\n6. **Conclusion**: Since calculated $F_{\\text{Treat}} = 7.56 > F_{0.05, 4, 12} = 3.26$, treatments differ significantly. Fertilizer C has the highest yield ($65.6$) and is the best variety."
+        "id": 2,
+        "unit": "I",
+        "question": "A 5x5 Latin Square Design was set up to evaluate five agricultural fertilizers. The yield data (in bushels per plot) are:\n- Row 1: B(4.9), D(6.4), E(3.3), A(9.5), C(11.8)\n- Row 2: C(9.3), A(4.0), B(6.2), E(5.1), D(5.4)\n- Row 3: D(7.6), C(15.4), A(4.0), B(6.0), E(4.6)\n- Row 4: E(5.3), B(7.6), C(13.2), D(8.6), A(4.9)\n- Row 5: A(9.3), E(6.3), D(11.8), C(15.9), B(7.6)\nDescribe the steps to perform ANOVA and test for significant differences in mean yields at the 5% level.",
+        "answerKey": "1. **Row Sums** ($R_i$): $R_1=35.9, R_2=30.0, R_3=33.6, R_4=39.6, R_5=50.9$. Grand Total $G = 190.0$.\n2. **Column Sums** ($C_j$): $C_1=36.4, C_2=34.3, C_3=38.5, C_4=45.1, C_5=35.7$.\n3. **Treatment Sums** ($T_k$):\n- A: $9.5 + 4.0 + 4.0 + 4.9 + 9.3 = 31.7$\n- B: $4.9 + 6.2 + 6.0 + 7.6 + 7.6 = 30.3$\n- C: $11.8 + 9.3 + 15.4 + 13.2 + 15.9 = 65.6$\n- D: $6.4 + 5.4 + 7.6 + 8.6 + 11.8 = 39.8$\n- E: $3.3 + 5.1 + 4.6 + 5.3 + 6.3 = 22.6$\n4. **ANOVA Calculations**: $N=25$. Correction Factor $\\text{CF} = 190^2 / 25 = 1444$.\n- $\\text{TSS} = \\sum y^2 - \\text{CF} = 1812.82 - 1444 = 368.82$\n- Row Sum of Squares $\\text{SSR} = \\frac{1}{5}\\sum R_i^2 - \\text{CF} = 1494.38 - 1444 = 50.38$\n- Column Sum of Squares $\\text{SSC} = \\frac{1}{5}\\sum C_j^2 - \\text{CF} = 1456.96 - 1444 = 12.96$\n- Treatment Sum of Squares $\\text{SST} = \\frac{1}{5}\\sum T_k^2 - \\text{CF} = 1662.66 - 1444 = 218.66$\n- Error Sum of Squares $\\text{SSE} = \\text{TSS} - \\text{SSR} - \\text{SSC} - \\text{SST} = 86.82$\n5. **ANOVA Table**:\n- Rows: d.f. = 4, MS = 12.595, F = 1.74\n- Columns: d.f. = 4, MS = 3.24, F = 0.45\n- Treatments: d.f. = 4, MS = 54.665, F = 7.56\n- Error: d.f. = 12, MS = 7.235\n6. **Conclusion**: Since calculated $F_{\\text{Treat}} = 7.56 > F_{0.05, 4, 12} = 3.26$, treatments differ significantly. Fertilizer C has the highest yield ($65.6$) and is the best variety."
       },
       {
-            "id": 3,
-            "unit": "I",
-            "question": "The table below lists the irrigated area (in acres) of the Damodar Canal in West Bengal from 1940-41 to 1948-49:\n- 1940-41: 147,588 | 1945-46: 171,569\n- 1941-42: 147,705 | 1946-47: 168,989\n- 1942-43: 161,570 | 1947-48: 181,888\n- 1943-44: 160,410 | 1948-49: 178,868\n- 1944-45: 165,857\nCalculate the trend values of the series using (i) a 3-year moving average method, and (ii) the semi-average method.",
-            "answerKey": "1. **3-Year Moving Averages**:\n- 1941-42: $(147588 + 147705 + 161570)/3 = 152,287.7$\n- 1942-43: $(147705 + 161570 + 160410)/3 = 156,561.7$\n- 1943-44: $(161570 + 160410 + 165857)/3 = 162,612.3$\n- 1944-45: $(160410 + 165857 + 171569)/3 = 165,945.3$\n- 1945-46: $(165857 + 171569 + 168989)/3 = 168,805.0$\n- 1946-47: $(171569 + 168989 + 181888)/3 = 174,148.7$\n- 1947-48: $(168989 + 181888 + 178868)/3 = 176,581.7$\n2. **Semi-Averages** (Total $N=9$ years, omit middle year 1944-45):\n- Group 1 (1940-41 to 1943-44): $\\text{Mean}_1 = (147588+147705+161570+160410)/4 = 154,318.25$ (centered at 1941.5).\n- Group 2 (1945-46 to 1948-49): $\\text{Mean}_2 = (171569+168989+181888+178868)/4 = 175,328.5$ (centered at 1946.5).\n- Trend Increase per year: $\\delta = (175328.5 - 154318.25)/5 = 4,202.05$.\n- Using this increment, trend values can be projected for all years."
+        "id": 3,
+        "unit": "I",
+        "question": "The table below lists the irrigated area (in acres) of the Damodar Canal in West Bengal from 1940-41 to 1948-49:\n- 1940-41: 147,588 | 1945-46: 171,569\n- 1941-42: 147,705 | 1946-47: 168,989\n- 1942-43: 161,570 | 1947-48: 181,888\n- 1943-44: 160,410 | 1948-49: 178,868\n- 1944-45: 165,857\nCalculate the trend values of the series using (i) a 3-year moving average method, and (ii) the semi-average method.",
+        "answerKey": "1. **3-Year Moving Averages**:\n- 1941-42: $(147588 + 147705 + 161570)/3 = 152,287.7$\n- 1942-43: $(147705 + 161570 + 160410)/3 = 156,561.7$\n- 1943-44: $(161570 + 160410 + 165857)/3 = 162,612.3$\n- 1944-45: $(160410 + 165857 + 171569)/3 = 165,945.3$\n- 1945-46: $(165857 + 171569 + 168989)/3 = 168,805.0$\n- 1946-47: $(171569 + 168989 + 181888)/3 = 174,148.7$\n- 1947-48: $(168989 + 181888 + 178868)/3 = 176,581.7$\n2. **Semi-Averages** (Total $N=9$ years, omit middle year 1944-45):\n- Group 1 (1940-41 to 1943-44): $\\text{Mean}_1 = (147588+147705+161570+160410)/4 = 154,318.25$ (centered at 1941.5).\n- Group 2 (1945-46 to 1948-49): $\\text{Mean}_2 = (171569+168989+181888+178868)/4 = 175,328.5$ (centered at 1946.5).\n- Trend Increase per year: $\\delta = (175328.5 - 154318.25)/5 = 4,202.05$.\n- Using this increment, trend values can be projected for all years."
       },
       {
-            "id": 4,
-            "unit": "I",
-            "question": "The table below records prices and quantities of six crops during 2012 and 2015:\n- Rice: $p_0=207.92, q_0=1.50 \\mid p_1=306.67, q_1=6.25$\n- Wheat: $p_0=106.25, q_0=95.00 \\mid p_1=186.58, q_1=116.90$\n- Jowar: $p_0=1151.00, q_0=14.20 \\mid p_1=182.57, q_1=5.57$\n- Barley: $p_0=221.83, q_0=12.40 \\mid p_1=191.25, q_1=1.02$\n- Bajra: $p_0=256.75, q_0=13.15 \\mid p_1=155.75, q_1=6.15$\n- Gram: $p_0=203.00, q_0=1.05 \\mid p_1=497.83, q_1=0.61$\nCalculate Laspeyres's, Paasche's, and Fisher's ideal index numbers for the year 2015 using 2012 as base.",
-            "answerKey": "1. **Sum calculations**:\n- $\\sum p_0 q_0 = (207.92 \\times 1.50) + (106.25 \\times 95) + (1151.00 \\times 14.20) + (221.83 \\times 12.40) + (256.75 \\times 13.15) + (203.00 \\times 1.05) \\approx 311.88 + 10093.75 + 16344.20 + 2750.69 + 3376.26 + 213.15 = 33089.93$.\n- $\\sum p_1 q_0 = (306.67 \\times 1.50) + (186.58 \\times 95) + (182.57 \\times 14.20) + (191.25 \\times 12.40) + (155.75 \\times 13.15) + (497.83 \\times 1.05) \\approx 460.01 + 17725.10 + 2592.49 + 2371.50 + 2048.11 + 522.72 = 25720.00$.\n- $\\sum p_0 q_1 = (207.92 \\times 6.25) + (106.25 \\times 116.9) + (1151 \\times 5.57) + (221.83 \\times 1.02) + (256.75 \\times 6.15) + (203 \\times 0.61) \\approx 1299.50 + 12420.63 + 6411.07 + 226.27 + 1579.01 + 123.83 = 22060.31$.\n- $\\sum p_1 q_1 = (306.67 \\times 6.25) + (186.58 \\times 116.9) + (182.57 \\times 5.57) + (191.25 \\times 1.02) + (155.75 \\times 6.15) + (497.83 \\times 0.61) \\approx 1916.69 + 21811.20 + 1016.91 + 195.08 + 957.86 + 303.68 = 26201.42$.\n2. **Laspeyres Index**:\n$$L = \\frac{\\sum p_1 q_0}{\\sum p_0 q_0} \\times 100 = \\frac{25720.00}{33089.93} \\times 100 \\approx 77.73.$$\n3. **Paasche Index**:\n$$P = \\frac{\\sum p_1 q_1}{\\sum p_0 q_1} \\times 100 = \\frac{26201.42}{22060.31} \\times 100 \\approx 118.77.$$\n4. **Fisher's Ideal Index**:\n$$F = \\sqrt{L \\times P} = \\sqrt{77.73 \\times 118.77} = \\sqrt{9231.99} \\approx 96.08.$$\nEconomic Interpretation: On average, the crop prices decreased by $\\approx 3.92\\%$ in 2015 compared to 2012 when using Fisher's ideal formula, showing the stabilizing effect of weighting methods on divergent crop prices (Jowar price dropped significantly while wheat/rice increased)."
+        "id": 4,
+        "unit": "I",
+        "question": "The table below records prices and quantities of six crops during 2012 and 2015:\n- Rice: $p_0=207.92, q_0=1.50 \\mid p_1=306.67, q_1=6.25$\n- Wheat: $p_0=106.25, q_0=95.00 \\mid p_1=186.58, q_1=116.90$\n- Jowar: $p_0=1151.00, q_0=14.20 \\mid p_1=182.57, q_1=5.57$\n- Barley: $p_0=221.83, q_0=12.40 \\mid p_1=191.25, q_1=1.02$\n- Bajra: $p_0=256.75, q_0=13.15 \\mid p_1=155.75, q_1=6.15$\n- Gram: $p_0=203.00, q_0=1.05 \\mid p_1=497.83, q_1=0.61$\nCalculate Laspeyres's, Paasche's, and Fisher's ideal index numbers for the year 2015 using 2012 as base.",
+        "answerKey": "1. **Sum calculations**:\n- $\\sum p_0 q_0 = (207.92 \\times 1.50) + (106.25 \\times 95) + (1151.00 \\times 14.20) + (221.83 \\times 12.40) + (256.75 \\times 13.15) + (203.00 \\times 1.05) \\approx 311.88 + 10093.75 + 16344.20 + 2750.69 + 3376.26 + 213.15 = 33089.93$.\n- $\\sum p_1 q_0 = (306.67 \\times 1.50) + (186.58 \\times 95) + (182.57 \\times 14.20) + (191.25 \\times 12.40) + (155.75 \\times 13.15) + (497.83 \\times 1.05) \\approx 460.01 + 17725.10 + 2592.49 + 2371.50 + 2048.11 + 522.72 = 25720.00$.\n- $\\sum p_0 q_1 = (207.92 \\times 6.25) + (106.25 \\times 116.9) + (1151 \\times 5.57) + (221.83 \\times 1.02) + (256.75 \\times 6.15) + (203 \\times 0.61) \\approx 1299.50 + 12420.63 + 6411.07 + 226.27 + 1579.01 + 123.83 = 22060.31$.\n- $\\sum p_1 q_1 = (306.67 \\times 6.25) + (186.58 \\times 116.9) + (182.57 \\times 5.57) + (191.25 \\times 1.02) + (155.75 \\times 6.15) + (497.83 \\times 0.61) \\approx 1916.69 + 21811.20 + 1016.91 + 195.08 + 957.86 + 303.68 = 26201.42$.\n2. **Laspeyres Index**:\n$$L = \\frac{\\sum p_1 q_0}{\\sum p_0 q_0} \\times 100 = \\frac{25720.00}{33089.93} \\times 100 \\approx 77.73.$$\n3. **Paasche Index**:\n$$P = \\frac{\\sum p_1 q_1}{\\sum p_0 q_1} \\times 100 = \\frac{26201.42}{22060.31} \\times 100 \\approx 118.77.$$\n4. **Fisher's Ideal Index**:\n$$F = \\sqrt{L \\times P} = \\sqrt{77.73 \\times 118.77} = \\sqrt{9231.99} \\approx 96.08.$$\nEconomic Interpretation: On average, the crop prices decreased by $\\approx 3.92\\%$ in 2015 compared to 2012 when using Fisher's ideal formula, showing the stabilizing effect of weighting methods on divergent crop prices (Jowar price dropped significantly while wheat/rice increased)."
       }
-]
+    ]
   },
   "stamn41": {
     "id": "stamn41",
@@ -4443,161 +5220,181 @@ export const EXAMS = {
     "type": "theory",
     "questions": [
       {
-            "id": 1,
-            "unit": "I",
-            "question": "What is a parameter and a statistic? Explain with suitable examples. Also, define a random sample from a probability distribution.",
-            "answerKey": "1. **Parameter**: A parameter is a numerical characteristic of a population (e.g., population mean $\\mu$, population variance $\\sigma^2$). It is usually constant but unknown.\n2. **Statistic**: A statistic is a function of the sample values that does not contain any unknown parameters (e.g., sample mean $\\bar{x} = \\frac{1}{n}\\sum x_i$, sample variance $s^2$). It is a random variable and varies from sample to sample.\n3. **Random Sample**: A random sample of size $n$ from a distribution $F(x)$ is a set of $n$ independent and identically distributed (i.i.d.) random variables $X_1, X_2, \\ldots, X_n$ each having the distribution $F(x)$."
+        "id": 1,
+        "unit": "I",
+        "question": "What is a parameter and a statistic? Explain with suitable examples. Also, define a random sample from a probability distribution.",
+        "answerKey": "1. **Parameter**: A parameter is a numerical characteristic of a population (e.g., population mean $\\mu$, population variance $\\sigma^2$). It is usually constant but unknown.\n2. **Statistic**: A statistic is a function of the sample values that does not contain any unknown parameters (e.g., sample mean $\\bar{x} = \\frac{1}{n}\\sum x_i$, sample variance $s^2$). It is a random variable and varies from sample to sample.\n3. **Random Sample**: A random sample of size $n$ from a distribution $F(x)$ is a set of $n$ independent and identically distributed (i.i.d.) random variables $X_1, X_2, \\ldots, X_n$ each having the distribution $F(x)$."
       },
       {
-            "id": 2,
-            "unit": "I",
-            "question": "Let $X_1, X_2, \\ldots, X_n$ be a random sample of size $n$ from a population with finite mean $\\mu$ and variance $\\sigma^2$. Show that the expectation of the sample mean is $\\mu$ and its variance is $\\frac{\\sigma^2}{n}$.",
-            "answerKey": "1. The sample mean is defined as $\\bar{X} = \\frac{1}{n} \\sum_{i=1}^n X_i$.\n2. **Expectation**: \n$$E(\\bar{X}) = E\\left(\\frac{1}{n} \\sum_{i=1}^n X_i\\right) = \\frac{1}{n} \\sum_{i=1}^n E(X_i) = \\frac{1}{n} \\sum_{i=1}^n \\mu = \\frac{1}{n} (n\\mu) = \\mu.$$\n3. **Variance**: Since $X_i$ are independent:\n$$V(\\bar{X}) = V\\left(\\frac{1}{n} \\sum_{i=1}^n X_i\\right) = \\frac{1}{n^2} \\sum_{i=1}^n V(X_i) = \\frac{1}{n^2} \\sum_{i=1}^n \\sigma^2 = \\frac{1}{n^2} (n\\sigma^2) = \\frac{\\sigma^2}{n}.$$\nHence, the result is verified."
+        "id": 2,
+        "unit": "I",
+        "question": "Let $X_1, X_2, \\ldots, X_n$ be a random sample of size $n$ from a population with finite mean $\\mu$ and variance $\\sigma^2$. Show that the expectation of the sample mean is $\\mu$ and its variance is $\\frac{\\sigma^2}{n}$.",
+        "answerKey": "1. The sample mean is defined as $\\bar{X} = \\frac{1}{n} \\sum_{i=1}^n X_i$.\n2. **Expectation**: \n$$E(\\bar{X}) = E\\left(\\frac{1}{n} \\sum_{i=1}^n X_i\\right) = \\frac{1}{n} \\sum_{i=1}^n E(X_i) = \\frac{1}{n} \\sum_{i=1}^n \\mu = \\frac{1}{n} (n\\mu) = \\mu.$$\n3. **Variance**: Since $X_i$ are independent:\n$$V(\\bar{X}) = V\\left(\\frac{1}{n} \\sum_{i=1}^n X_i\\right) = \\frac{1}{n^2} \\sum_{i=1}^n V(X_i) = \\frac{1}{n^2} \\sum_{i=1}^n \\sigma^2 = \\frac{1}{n^2} (n\\sigma^2) = \\frac{\\sigma^2}{n}.$$\nHence, the result is verified."
       },
       {
-            "id": 3,
-            "unit": "I",
-            "question": "Show that the sampling distribution of the sum of two independent Poisson variates is again a Poisson variate. Deduce the distribution of the sum of $n$ independent Poisson variates.",
-            "answerKey": "1. Let $X_1 \\sim \\text{Poisson}(\\lambda_1)$ and $X_2 \\sim \\text{Poisson}(\\lambda_2)$ be independent. \n2. The probability generating function (PGF) or MGF of $X \\sim \\text{Poisson}(\\lambda)$ is $M_X(t) = e^{\\lambda(e^t - 1)}$.\n3. Since they are independent, the MGF of $Y = X_1 + X_2$ is:\n$$M_Y(t) = M_{X_1}(t) \\cdot M_{X_2}(t) = e^{\\lambda_1(e^t - 1)} \\cdot e^{\\lambda_2(e^t - 1)} = e^{(\\lambda_1 + \\lambda_2)(e^t - 1)}.$$\n4. By the uniqueness theorem of MGFs, this is the MGF of a Poisson variate with parameter $\\lambda_1 + \\lambda_2$. Thus $Y \\sim \\text{Poisson}(\\lambda_1 + \\lambda_2)$.\n5. By induction, the sum of $n$ independent Poisson variates with parameters $\\lambda_i$ is also Poisson with parameter $\\sum_{i=1}^n \\lambda_i$."
+        "id": 3,
+        "unit": "I",
+        "question": "Show that the sampling distribution of the sum of two independent Poisson variates is again a Poisson variate. Deduce the distribution of the sum of $n$ independent Poisson variates.",
+        "answerKey": "1. Let $X_1 \\sim \\text{Poisson}(\\lambda_1)$ and $X_2 \\sim \\text{Poisson}(\\lambda_2)$ be independent. \n2. The probability generating function (PGF) or MGF of $X \\sim \\text{Poisson}(\\lambda)$ is $M_X(t) = e^{\\lambda(e^t - 1)}$.\n3. Since they are independent, the MGF of $Y = X_1 + X_2$ is:\n$$M_Y(t) = M_{X_1}(t) \\cdot M_{X_2}(t) = e^{\\lambda_1(e^t - 1)} \\cdot e^{\\lambda_2(e^t - 1)} = e^{(\\lambda_1 + \\lambda_2)(e^t - 1)}.$$\n4. By the uniqueness theorem of MGFs, this is the MGF of a Poisson variate with parameter $\\lambda_1 + \\lambda_2$. Thus $Y \\sim \\text{Poisson}(\\lambda_1 + \\lambda_2)$.\n5. By induction, the sum of $n$ independent Poisson variates with parameters $\\lambda_i$ is also Poisson with parameter $\\sum_{i=1}^n \\lambda_i$."
       },
       {
-            "id": 4,
-            "unit": "I",
-            "question": "Let the independent random variables $X_1, X_2, \\ldots, X_n$ be distributed as $N(\\mu, \\sigma^2)$. Let $X = \\sum_{i=1}^n \\alpha_i X_i$ and $Y = \\sum_{j=1}^n \\beta_j X_j$, where \\(\\alpha_i\\) and \\(\\beta_j\\) are constants. Determine the probability distribution of $X$, $Y$, and $X+Y$.",
-            "answerKey": "1. Since $X_i \\sim N(\\mu, \\sigma^2)$ are independent normal variables, any linear combination of them is also normally distributed.\n2. **Distribution of $X$**: Let $X = \\sum \\alpha_i X_i$. \n- $E(X) = \\sum \\alpha_i E(X_i) = \\mu \\sum \\alpha_i$.\n- $V(X) = \\sum \\alpha_i^2 V(X_i) = \\sigma^2 \\sum \\alpha_i^2$.\nThus $X \\sim N\\left(\\mu \\sum \\alpha_i, \\sigma^2 \\sum \\alpha_i^2\\right)$.\n3. **Distribution of $Y$**: Similarly, $Y \\sim N\\left(\\mu \\sum \\beta_j, \\sigma^2 \\sum \\beta_j^2\\right)$.\n4. **Distribution of $X+Y$**: We can write $X+Y = \\sum (\\alpha_i + \\beta_i) X_i$.\n- $E(X+Y) = \\mu \\sum (\\alpha_i + \\beta_i)$.\n- $V(X+Y) = \\sigma^2 \\sum (\\alpha_i + \\beta_i)^2$.\nThus $X+Y \\sim N\\left(\\mu \\sum (\\alpha_i + \\beta_i), \\sigma^2 \\sum (\\alpha_i + \\beta_i)^2\\right)$."
+        "id": 4,
+        "unit": "I",
+        "question": "Let the independent random variables $X_1, X_2, \\ldots, X_n$ be distributed as $N(\\mu, \\sigma^2)$. Let $X = \\sum_{i=1}^n \\alpha_i X_i$ and $Y = \\sum_{j=1}^n \\beta_j X_j$, where \\(\\alpha_i\\) and \\(\\beta_j\\) are constants. Determine the probability distribution of $X$, $Y$, and $X+Y$.",
+        "answerKey": "1. Since $X_i \\sim N(\\mu, \\sigma^2)$ are independent normal variables, any linear combination of them is also normally distributed.\n2. **Distribution of $X$**: Let $X = \\sum \\alpha_i X_i$. \n- $E(X) = \\sum \\alpha_i E(X_i) = \\mu \\sum \\alpha_i$.\n- $V(X) = \\sum \\alpha_i^2 V(X_i) = \\sigma^2 \\sum \\alpha_i^2$.\nThus $X \\sim N\\left(\\mu \\sum \\alpha_i, \\sigma^2 \\sum \\alpha_i^2\\right)$.\n3. **Distribution of $Y$**: Similarly, $Y \\sim N\\left(\\mu \\sum \\beta_j, \\sigma^2 \\sum \\beta_j^2\\right)$.\n4. **Distribution of $X+Y$**: We can write $X+Y = \\sum (\\alpha_i + \\beta_i) X_i$.\n- $E(X+Y) = \\mu \\sum (\\alpha_i + \\beta_i)$.\n- $V(X+Y) = \\sigma^2 \\sum (\\alpha_i + \\beta_i)^2$.\nThus $X+Y \\sim N\\left(\\mu \\sum (\\alpha_i + \\beta_i), \\sigma^2 \\sum (\\alpha_i + \\beta_i)^2\\right)$."
       },
       {
-            "id": 5,
-            "unit": "II",
-            "question": "What are the criteria of a good estimator? Discuss the concepts of Unbiasedness and Consistency in detail.",
-            "answerKey": "1. A good estimator should satisfy four main criteria: Unbiasedness, Consistency, Efficiency, and Sufficiency.\n2. **Unbiasedness**: An estimator $T$ is said to be an unbiased estimator of a parameter $\\theta$ if $E(T) = \\theta$ for all $\\theta \\in \\Theta$. If $E(T) \\neq \\theta$, the bias is $E(T) - \\theta$.\n3. **Consistency**: An estimator $T_n$ is consistent for $\\theta$ if it converges in probability to $\\theta$ as $n \\to \\infty$. That is, for any $\\epsilon > 0$, $\\lim_{n \\to \\infty} P(|T_n - \\theta| < \\epsilon) = 1$. A sufficient condition for consistency is that $E(T_n) \\to \\theta$ and $V(T_n) \\to 0$ as $n \\to \\infty$."
+        "id": 5,
+        "unit": "II",
+        "question": "What are the criteria of a good estimator? Discuss the concepts of Unbiasedness and Consistency in detail.",
+        "answerKey": "1. A good estimator should satisfy four main criteria: Unbiasedness, Consistency, Efficiency, and Sufficiency.\n2. **Unbiasedness**: An estimator $T$ is said to be an unbiased estimator of a parameter $\\theta$ if $E(T) = \\theta$ for all $\\theta \\in \\Theta$. If $E(T) \\neq \\theta$, the bias is $E(T) - \\theta$.\n3. **Consistency**: An estimator $T_n$ is consistent for $\\theta$ if it converges in probability to $\\theta$ as $n \\to \\infty$. That is, for any $\\epsilon > 0$, $\\lim_{n \\to \\infty} P(|T_n - \\theta| < \\epsilon) = 1$. A sufficient condition for consistency is that $E(T_n) \\to \\theta$ and $V(T_n) \\to 0$ as $n \\to \\infty$."
       },
       {
-            "id": 6,
-            "unit": "I",
-            "question": "Let $X_1, X_2, \\ldots, X_n$ be a random sample from a Bernoulli distribution with parameter $p$. Show that the sampling distribution of $S = \\sum_{i=1}^n X_i$ is a binomial distribution.",
-            "answerKey": "1. The probability mass function (pmf) of each $X_i \\sim \\text{Bernoulli}(p)$ is $P(X_i = x) = p^x (1-p)^{1-x}$ for $x \\in \\{0, 1\\}$.\n2. The moment generating function (MGF) of $X_i$ is $M_{X_i}(t) = E(e^{tX_i}) = (1-p) + p e^t$.\n3. Since $X_1, \\ldots, X_n$ are independent, the MGF of their sum $S = \\sum X_i$ is:\n$$M_S(t) = \\prod_{i=1}^n M_{X_i}(t) = \\left( (1-p) + p e^t \\right)^n.$$\n4. This is the MGF of a Binomial distribution with parameters $n$ and $p$. By the uniqueness theorem of MGFs, $S \\sim \\text{Binomial}(n, p)$."
+        "id": 6,
+        "unit": "I",
+        "question": "Let $X_1, X_2, \\ldots, X_n$ be a random sample from a Bernoulli distribution with parameter $p$. Show that the sampling distribution of $S = \\sum_{i=1}^n X_i$ is a binomial distribution.",
+        "answerKey": "1. The probability mass function (pmf) of each $X_i \\sim \\text{Bernoulli}(p)$ is $P(X_i = x) = p^x (1-p)^{1-x}$ for $x \\in \\{0, 1\\}$.\n2. The moment generating function (MGF) of $X_i$ is $M_{X_i}(t) = E(e^{tX_i}) = (1-p) + p e^t$.\n3. Since $X_1, \\ldots, X_n$ are independent, the MGF of their sum $S = \\sum X_i$ is:\n$$M_S(t) = \\prod_{i=1}^n M_{X_i}(t) = \\left( (1-p) + p e^t \\right)^n.$$\n4. This is the MGF of a Binomial distribution with parameters $n$ and $p$. By the uniqueness theorem of MGFs, $S \\sim \\text{Binomial}(n, p)$."
       },
       {
-            "id": 7,
-            "unit": "III",
-            "question": "Define simple and composite hypotheses with suitable examples. Explain the difference between them.",
-            "answerKey": "1. **Simple Hypothesis**: A hypothesis is simple if it completely specifies the probability distribution of the population. For example, if $X \\sim N(\\mu, 9)$, the hypothesis $H_0: \\mu = 5$ is simple because it completely specifies the distribution as $N(5, 9)$.\n2. **Composite Hypothesis**: A hypothesis is composite if it does not completely specify the probability distribution of the population. For example, $H_1: \\mu > 5$ or $H_1: \\mu \\neq 5$ are composite hypotheses because they allow for multiple possible distributions (e.g. $N(6, 9), N(7, 9)$, etc.)."
+        "id": 7,
+        "unit": "III",
+        "question": "Define simple and composite hypotheses with suitable examples. Explain the difference between them.",
+        "answerKey": "1. **Simple Hypothesis**: A hypothesis is simple if it completely specifies the probability distribution of the population. For example, if $X \\sim N(\\mu, 9)$, the hypothesis $H_0: \\mu = 5$ is simple because it completely specifies the distribution as $N(5, 9)$.\n2. **Composite Hypothesis**: A hypothesis is composite if it does not completely specify the probability distribution of the population. For example, $H_1: \\mu > 5$ or $H_1: \\mu \\neq 5$ are composite hypotheses because they allow for multiple possible distributions (e.g. $N(6, 9), N(7, 9)$, etc.)."
       },
       {
-            "id": 8,
-            "unit": "III",
-            "question": "Explain the concepts of Type-I error, Type-II error, level of significance, and power of a test in hypothesis testing.",
-            "answerKey": "1. **Type-I Error**: Rejecting the null hypothesis $H_0$ when it is actually true. The probability of Type-I error is denoted by $\\alpha = P(\\text{Reject } H_0 \\mid H_0 \\text{ is true})$.\n2. **Type-II Error**: Failing to reject $H_0$ when it is false (i.e. accepting $H_0$ when $H_1$ is true). The probability of Type-II error is denoted by $\\beta = P(\\text{Accept } H_0 \\mid H_1 \\text{ is true})$.\n3. **Level of Significance**: The maximum allowable probability of Type-I error, usually pre-determined (e.g. 5% or 1%).\n4. **Power of the Test**: The probability of rejecting $H_0$ when it is false. Power $= 1 - \\beta = P(\\text{Reject } H_0 \\mid H_1 \\text{ is true})$."
+        "id": 8,
+        "unit": "III",
+        "question": "Explain the concepts of Type-I error, Type-II error, level of significance, and power of a test in hypothesis testing.",
+        "answerKey": "1. **Type-I Error**: Rejecting the null hypothesis $H_0$ when it is actually true. The probability of Type-I error is denoted by $\\alpha = P(\\text{Reject } H_0 \\mid H_0 \\text{ is true})$.\n2. **Type-II Error**: Failing to reject $H_0$ when it is false (i.e. accepting $H_0$ when $H_1$ is true). The probability of Type-II error is denoted by $\\beta = P(\\text{Accept } H_0 \\mid H_1 \\text{ is true})$.\n3. **Level of Significance**: The maximum allowable probability of Type-I error, usually pre-determined (e.g. 5% or 1%).\n4. **Power of the Test**: The probability of rejecting $H_0$ when it is false. Power $= 1 - \\beta = P(\\text{Reject } H_0 \\mid H_1 \\text{ is true})$."
       },
       {
-            "id": 9,
-            "unit": "III",
-            "question": "A random sample of size 1 is taken from a Poisson distribution with parameter $\\lambda$. If the critical region for testing $H_0 : \\lambda = 2$ against $H_1 : \\lambda = 1$ is $x > 2$, find the size and power of the test.",
-            "answerKey": "1. Under $H_0$, $X \\sim \\text{Poisson}(\\lambda=2)$. Under $H_1$, $X \\sim \\text{Poisson}(\\lambda=1)$.\n2. **Size of the Test** ($\\alpha$):\n$$\\alpha = P(X > 2 \\mid H_0) = 1 - P(X \\le 2 \\mid H_0) = 1 - \\left( P(X=0) + P(X=1) + P(X=2) \\right)$$\n$$\\alpha = 1 - e^{-2} \\left( 1 + 2 + \\frac{2^2}{2!} \\right) = 1 - 5e^{-2} \\approx 1 - 5(0.1353) = 0.3233.$$\n3. **Power of the Test** ($1-\\beta$):\n$$1-\\beta = P(X > 2 \\mid H_1) = 1 - P(X \\le 2 \\mid H_1) = 1 - e^{-1} \\left( 1 + 1 + \\frac{1^2}{2!} \\right)$$\n$$1-\\beta = 1 - 2.5e^{-1} \\approx 1 - 2.5(0.3679) = 0.0803.$$\nThus, the size is $\\approx 0.323$ and the power is $\\approx 0.080$."
+        "id": 9,
+        "unit": "III",
+        "question": "A random sample of size 1 is taken from a Poisson distribution with parameter $\\lambda$. If the critical region for testing $H_0 : \\lambda = 2$ against $H_1 : \\lambda = 1$ is $x > 2$, find the size and power of the test.",
+        "answerKey": "1. Under $H_0$, $X \\sim \\text{Poisson}(\\lambda=2)$. Under $H_1$, $X \\sim \\text{Poisson}(\\lambda=1)$.\n2. **Size of the Test** ($\\alpha$):\n$$\\alpha = P(X > 2 \\mid H_0) = 1 - P(X \\le 2 \\mid H_0) = 1 - \\left( P(X=0) + P(X=1) + P(X=2) \\right)$$\n$$\\alpha = 1 - e^{-2} \\left( 1 + 2 + \\frac{2^2}{2!} \\right) = 1 - 5e^{-2} \\approx 1 - 5(0.1353) = 0.3233.$$\n3. **Power of the Test** ($1-\\beta$):\n$$1-\\beta = P(X > 2 \\mid H_1) = 1 - P(X \\le 2 \\mid H_1) = 1 - e^{-1} \\left( 1 + 1 + \\frac{1^2}{2!} \\right)$$\n$$1-\\beta = 1 - 2.5e^{-1} \\approx 1 - 2.5(0.3679) = 0.0803.$$\nThus, the size is $\\approx 0.323$ and the power is $\\approx 0.080$."
       },
       {
-            "id": 10,
-            "unit": "III",
-            "question": "A sample of size 1 is taken from an exponential distribution with parameter $\\lambda$ ($f(x) = \\lambda e^{-\\lambda x}, x > 0$). To test $H_0 : \\lambda = 1$ against $H_1 : \\lambda > 1$, the critical region is $x > 2$. Find the size and the probability of Type-II error.",
-            "answerKey": "1. Under $H_0$, $\\lambda = 1 \\implies f(x) = e^{-x}$. Under $H_1$, $\\lambda > 1 \\implies f(x) = \\lambda e^{-\\lambda x}$.\n2. **Size of the Test** ($\\alpha$):\n$$\\alpha = P(X > 2 \\mid H_0) = \\int_2^\\infty e^{-x} dx = \\left[ -e^{-x} \\right]_2^\\infty = e^{-2} \\approx 0.1353.$$\n3. **Probability of Type-II Error** ($\\beta$):\n$$\\beta = P(X \\le 2 \\mid H_1) = \\int_0^2 \\lambda e^{-\\lambda x} dx = \\left[ -e^{-\\lambda x} \\right]_0^2 = 1 - e^{-2\\lambda}.$$\nThus, the size of the test is $e^{-2}$ and the Type-II error probability is $1 - e^{-2\\lambda}$."
+        "id": 10,
+        "unit": "III",
+        "question": "A sample of size 1 is taken from an exponential distribution with parameter $\\lambda$ ($f(x) = \\lambda e^{-\\lambda x}, x > 0$). To test $H_0 : \\lambda = 1$ against $H_1 : \\lambda > 1$, the critical region is $x > 2$. Find the size and the probability of Type-II error.",
+        "answerKey": "1. Under $H_0$, $\\lambda = 1 \\implies f(x) = e^{-x}$. Under $H_1$, $\\lambda > 1 \\implies f(x) = \\lambda e^{-\\lambda x}$.\n2. **Size of the Test** ($\\alpha$):\n$$\\alpha = P(X > 2 \\mid H_0) = \\int_2^\\infty e^{-x} dx = \\left[ -e^{-x} \\right]_2^\\infty = e^{-2} \\approx 0.1353.$$\n3. **Probability of Type-II Error** ($\\beta$):\n$$\\beta = P(X \\le 2 \\mid H_1) = \\int_0^2 \\lambda e^{-\\lambda x} dx = \\left[ -e^{-\\lambda x} \\right]_0^2 = 1 - e^{-2\\lambda}.$$\nThus, the size of the test is $e^{-2}$ and the Type-II error probability is $1 - e^{-2\\lambda}$."
       },
       {
-            "id": 11,
-            "unit": "III",
-            "question": "Let $p$ be the probability that a coin falls head in a single toss. To test $H_0 : p = 1/2$ against $H_1 : p = 2/3$, the coin is tossed thrice and $H_0$ is rejected if three heads appear. Find the size and power of the test.",
-            "answerKey": "1. The number of heads $X$ in 3 tosses follows a Binomial distribution $B(3, p)$.\n2. The critical region is $\\{X=3\\}$.\n3. **Size of the Test** ($\\alpha$):\n$$\\alpha = P(X = 3 \\mid H_0) = \\binom{3}{3} \\left(\\frac{1}{2}\\right)^3 = \\frac{1}{8} = 0.125.$$\n4. **Power of the Test** ($1-\\beta$):\n$$1-\\beta = P(X = 3 \\mid H_1) = \\binom{3}{3} \\left(\\frac{2}{3}\\right)^3 = \\frac{8}{27} \\approx 0.296.$$\nHence, the size is $0.125$ and the power is $0.296$."
+        "id": 11,
+        "unit": "III",
+        "question": "Let $p$ be the probability that a coin falls head in a single toss. To test $H_0 : p = 1/2$ against $H_1 : p = 2/3$, the coin is tossed thrice and $H_0$ is rejected if three heads appear. Find the size and power of the test.",
+        "answerKey": "1. The number of heads $X$ in 3 tosses follows a Binomial distribution $B(3, p)$.\n2. The critical region is $\\{X=3\\}$.\n3. **Size of the Test** ($\\alpha$):\n$$\\alpha = P(X = 3 \\mid H_0) = \\binom{3}{3} \\left(\\frac{1}{2}\\right)^3 = \\frac{1}{8} = 0.125.$$\n4. **Power of the Test** ($1-\\beta$):\n$$1-\\beta = P(X = 3 \\mid H_1) = \\binom{3}{3} \\left(\\frac{2}{3}\\right)^3 = \\frac{8}{27} \\approx 0.296.$$\nHence, the size is $0.125$ and the power is $0.296$."
       },
       {
-            "id": 12,
-            "unit": "IV",
-            "question": "Define the chi-square statistic. Describe the chi-square test for testing the independence of two attributes in a contingency table.",
-            "answerKey": "1. **Chi-Square Statistic**: $\\chi^2 = \\sum \\frac{(O_i - E_i)^2}{E_i}$, where $O_i$ are the observed frequencies and $E_i$ are the expected frequencies.\n2. **Independence of Attributes**: Let two attributes $A$ (with $r$ classes) and $B$ (with $c$ classes) be represented in an $r \\times c$ contingency table.\n3. **Hypotheses**: $H_0$: The attributes $A$ and $B$ are independent vs $H_1$: They are dependent.\n4. **Expected Frequencies**: For cell $(i, j)$, expected frequency is $E_{ij} = \\frac{(R_i \\times C_j)}{N}$, where $R_i$ is the $i$-th row total, $C_j$ is the $j$-th column total, and $N$ is the grand total.\n5. **Degrees of Freedom**: under $H_0$, the statistic follows a $\\chi^2$ distribution with $(r-1)(c-1)$ degrees of freedom. If the calculated $\\chi^2 > \\chi^2_{\\alpha, (r-1)(c-1)}$, we reject $H_0$."
+        "id": 12,
+        "unit": "IV",
+        "question": "Define the chi-square statistic. Describe the chi-square test for testing the independence of two attributes in a contingency table.",
+        "answerKey": "1. **Chi-Square Statistic**: $\\chi^2 = \\sum \\frac{(O_i - E_i)^2}{E_i}$, where $O_i$ are the observed frequencies and $E_i$ are the expected frequencies.\n2. **Independence of Attributes**: Let two attributes $A$ (with $r$ classes) and $B$ (with $c$ classes) be represented in an $r \\times c$ contingency table.\n3. **Hypotheses**: $H_0$: The attributes $A$ and $B$ are independent vs $H_1$: They are dependent.\n4. **Expected Frequencies**: For cell $(i, j)$, expected frequency is $E_{ij} = \\frac{(R_i \\times C_j)}{N}$, where $R_i$ is the $i$-th row total, $C_j$ is the $j$-th column total, and $N$ is the grand total.\n5. **Degrees of Freedom**: under $H_0$, the statistic follows a $\\chi^2$ distribution with $(r-1)(c-1)$ degrees of freedom. If the calculated $\\chi^2 > \\chi^2_{\\alpha, (r-1)(c-1)}$, we reject $H_0$."
       },
       {
-            "id": 13,
-            "unit": "IV",
-            "question": "Describe the chi-square goodness of fit test. State the null hypothesis, test statistic, and the necessary assumptions.",
-            "answerKey": "1. **Purpose**: To test if an observed frequency distribution fits a theoretical distribution.\n2. **Hypothesis**: $H_0$: The sample data fits the specified theoretical distribution.\n3. **Test Statistic**: $\\chi^2 = \\sum_{i=1}^k \\frac{(O_i - E_i)^2}{E_i} \\sim \\chi^2_{k-s-1}$ under $H_0$, where $k$ is the number of classes, and $s$ is the number of parameters estimated from the data.\n4. **Assumptions**: (i) Observed frequencies must be independent. (ii) The total sample size $N$ must be large ($N \\ge 50$). (iii) Each expected frequency $E_i$ must be $\\ge 5$. If any $E_i < 5$, adjacent classes must be pooled and degrees of freedom adjusted accordingly."
+        "id": 13,
+        "unit": "IV",
+        "question": "Describe the chi-square goodness of fit test. State the null hypothesis, test statistic, and the necessary assumptions.",
+        "answerKey": "1. **Purpose**: To test if an observed frequency distribution fits a theoretical distribution.\n2. **Hypothesis**: $H_0$: The sample data fits the specified theoretical distribution.\n3. **Test Statistic**: $\\chi^2 = \\sum_{i=1}^k \\frac{(O_i - E_i)^2}{E_i} \\sim \\chi^2_{k-s-1}$ under $H_0$, where $k$ is the number of classes, and $s$ is the number of parameters estimated from the data.\n4. **Assumptions**: (i) Observed frequencies must be independent. (ii) The total sample size $N$ must be large ($N \\ge 50$). (iii) Each expected frequency $E_i$ must be $\\ge 5$. If any $E_i < 5$, adjacent classes must be pooled and degrees of freedom adjusted accordingly."
       },
       {
-            "id": 14,
-            "unit": "IV",
-            "question": "A bird watcher recorded birds belonging to 6 categories with frequencies: [6, 7, 13, 17, 6, 5]. Test at a 5% level of significance whether the data is compatible with the assumption that the park is visited by birds in the proportion 1:1:2:3:1:1. (Given $\\chi^2_{0.05, 5} = 11.07$)",
-            "answerKey": "1. **Hypotheses**: $H_0$: The birds visit the park in the proportion 1:1:2:3:1:1.\n2. **Observed Frequencies** ($O_i$): [6, 7, 13, 17, 6, 5], Grand Total $N = 54$.\n3. **Expected Frequencies** ($E_i$): Proportion total is $1+1+2+3+1+1 = 9$.\n- $E_1 = 54 \\times (1/9) = 6$\n- $E_2 = 54 \\times (1/9) = 6$\n- $E_3 = 54 \\times (2/9) = 12$\n- $E_4 = 54 \\times (3/9) = 18$\n- $E_5 = 54 \\times (1/9) = 6$\n- $E_6 = 54 \\times (1/9) = 6$\n4. **Calculate $\\chi^2$ Statistic**:\n$$\\chi^2 = \\frac{(6-6)^2}{6} + \\frac{(7-6)^2}{6} + \\frac{(13-12)^2}{12} + \\frac{(17-18)^2}{18} + \\frac{(6-6)^2}{6} + \\frac{(5-6)^2}{6}$$\n$$\\chi^2 = 0 + \\frac{1}{6} + \\frac{1}{12} + \\frac{1}{18} + 0 + \\frac{1}{6} = \\frac{6 + 3 + 2 + 6}{36} = \\frac{17}{36} \\approx 0.472.$$\n5. **Conclusion**: Since the calculated $\\chi^2 = 0.472$ is much less than the critical value $\\chi^2_{0.05, 5} = 11.07$, we fail to reject $H_0$. The data is compatible with the specified proportions."
+        "id": 14,
+        "unit": "IV",
+        "question": "A bird watcher recorded birds belonging to 6 categories with frequencies: [6, 7, 13, 17, 6, 5]. Test at a 5% level of significance whether the data is compatible with the assumption that the park is visited by birds in the proportion 1:1:2:3:1:1. (Given $\\chi^2_{0.05, 5} = 11.07$)",
+        "answerKey": "1. **Hypotheses**: $H_0$: The birds visit the park in the proportion 1:1:2:3:1:1.\n2. **Observed Frequencies** ($O_i$): [6, 7, 13, 17, 6, 5], Grand Total $N = 54$.\n3. **Expected Frequencies** ($E_i$): Proportion total is $1+1+2+3+1+1 = 9$.\n- $E_1 = 54 \\times (1/9) = 6$\n- $E_2 = 54 \\times (1/9) = 6$\n- $E_3 = 54 \\times (2/9) = 12$\n- $E_4 = 54 \\times (3/9) = 18$\n- $E_5 = 54 \\times (1/9) = 6$\n- $E_6 = 54 \\times (1/9) = 6$\n4. **Calculate $\\chi^2$ Statistic**:\n$$\\chi^2 = \\frac{(6-6)^2}{6} + \\frac{(7-6)^2}{6} + \\frac{(13-12)^2}{12} + \\frac{(17-18)^2}{18} + \\frac{(6-6)^2}{6} + \\frac{(5-6)^2}{6}$$\n$$\\chi^2 = 0 + \\frac{1}{6} + \\frac{1}{12} + \\frac{1}{18} + 0 + \\frac{1}{6} = \\frac{6 + 3 + 2 + 6}{36} = \\frac{17}{36} \\approx 0.472.$$\n5. **Conclusion**: Since the calculated $\\chi^2 = 0.472$ is much less than the critical value $\\chi^2_{0.05, 5} = 11.07$, we fail to reject $H_0$. The data is compatible with the specified proportions."
       },
       {
-            "id": 15,
-            "unit": "IV",
-            "question": "What is the F-distribution? Write down its probability density function and describe the test for the equality of two population variances.",
-            "answerKey": "1. **F-Statistic**: The ratio of two independent chi-square variates divided by their respective degrees of freedom: $F = \\frac{\\chi^2_1 / \\nu_1}{\\chi^2_2 / \\nu_2}$.\n2. **Probability Density Function**: For $f > 0$:\n$$g(f) = \\frac{\\Gamma\\left(\\frac{\\nu_1+\\nu_2}{2}\\right)}{\\Gamma\\left(\\frac{\\nu_1}{2}\\right)\\Gamma\\left(\\frac{\\nu_2}{2}\\right)} \\left(\\frac{\\nu_1}{\\nu_2}\\right)^{\\nu_1/2} \\frac{f^{\\nu_1/2-1}}{\\left(1 + \\frac{\\nu_1}{\\nu_2}f\\right)^{(\\nu_1+\\nu_2)/2}}$$\n3. **Test of Equality of Variances**: Given two samples from $N(\\mu_1, \\sigma_1^2)$ and $N(\\mu_2, \\sigma_2^2)$:\n- $H_0: \\sigma_1^2 = \\sigma_2^2$ vs $H_1: \\sigma_1^2 \\neq \\sigma_2^2$.\n- Test statistic: $F = \\frac{s_1^2}{s_2^2}$ where $s_1^2 > s_2^2$ (to ensure $F > 1$), and $s_i^2 = \\frac{1}{n_i-1}\\sum (X_{ij} - \\bar{X}_i)^2$.\n- Degrees of freedom: $\\nu_1 = n_1 - 1, \\nu_2 = n_2 - 1$.\n- Decision: Reject $H_0$ if calculated $F > F_{\\alpha/2, \\nu_1, \\nu_2}$."
+        "id": 15,
+        "unit": "IV",
+        "question": "What is the F-distribution? Write down its probability density function and describe the test for the equality of two population variances.",
+        "answerKey": "1. **F-Statistic**: The ratio of two independent chi-square variates divided by their respective degrees of freedom: $F = \\frac{\\chi^2_1 / \\nu_1}{\\chi^2_2 / \\nu_2}$.\n2. **Probability Density Function**: For $f > 0$:\n$$g(f) = \\frac{\\Gamma\\left(\\frac{\\nu_1+\\nu_2}{2}\\right)}{\\Gamma\\left(\\frac{\\nu_1}{2}\\right)\\Gamma\\left(\\frac{\\nu_2}{2}\\right)} \\left(\\frac{\\nu_1}{\\nu_2}\\right)^{\\nu_1/2} \\frac{f^{\\nu_1/2-1}}{\\left(1 + \\frac{\\nu_1}{\\nu_2}f\\right)^{(\\nu_1+\\nu_2)/2}}$$\n3. **Test of Equality of Variances**: Given two samples from $N(\\mu_1, \\sigma_1^2)$ and $N(\\mu_2, \\sigma_2^2)$:\n- $H_0: \\sigma_1^2 = \\sigma_2^2$ vs $H_1: \\sigma_1^2 \\neq \\sigma_2^2$.\n- Test statistic: $F = \\frac{s_1^2}{s_2^2}$ where $s_1^2 > s_2^2$ (to ensure $F > 1$), and $s_i^2 = \\frac{1}{n_i-1}\\sum (X_{ij} - \\bar{X}_i)^2$.\n- Degrees of freedom: $\\nu_1 = n_1 - 1, \\nu_2 = n_2 - 1$.\n- Decision: Reject $H_0$ if calculated $F > F_{\\alpha/2, \\nu_1, \\nu_2}$."
       },
       {
-            "id": 16,
-            "unit": "IV",
-            "question": "State Student's t-statistic. Explain the test procedure for the difference of two means from independent normal populations when variances are equal but unknown.",
-            "answerKey": "1. **t-Statistic**: Defined as $t = \\frac{\\bar{X}_1 - \\bar{X}_2}{S \\sqrt{\\frac{1}{n_1} + \\frac{1}{n_2}}}$, where $\\bar{X}_1, \\bar{X}_2$ are sample means, $n_1, n_2$ are sample sizes.\n2. **Pooled Sample Variance**: $S^2 = \\frac{(n_1-1)s_1^2 + (n_2-1)s_2^2}{n_1 + n_2 - 2}$.\n3. **Hypotheses**: $H_0: \\mu_1 = \\mu_2$ vs $H_1: \\mu_1 \\neq \\mu_2$.\n4. **Degrees of Freedom**: $\\nu = n_1 + n_2 - 2$.\n5. **Decision**: Reject $H_0$ if $|t| > t_{\\alpha/2, n_1+n_2-2}$."
+        "id": 16,
+        "unit": "IV",
+        "question": "State Student's t-statistic. Explain the test procedure for the difference of two means from independent normal populations when variances are equal but unknown.",
+        "answerKey": "1. **t-Statistic**: Defined as $t = \\frac{\\bar{X}_1 - \\bar{X}_2}{S \\sqrt{\\frac{1}{n_1} + \\frac{1}{n_2}}}$, where $\\bar{X}_1, \\bar{X}_2$ are sample means, $n_1, n_2$ are sample sizes.\n2. **Pooled Sample Variance**: $S^2 = \\frac{(n_1-1)s_1^2 + (n_2-1)s_2^2}{n_1 + n_2 - 2}$.\n3. **Hypotheses**: $H_0: \\mu_1 = \\mu_2$ vs $H_1: \\mu_1 \\neq \\mu_2$.\n4. **Degrees of Freedom**: $\\nu = n_1 + n_2 - 2$.\n5. **Decision**: Reject $H_0$ if $|t| > t_{\\alpha/2, n_1+n_2-2}$."
       },
       {
-            "id": 17,
-            "unit": "IV",
-            "question": "The gain in weights (in kgs) of pigs fed on two diets A and B are:\nDiet A: [32, 35, 33, 29, 24, 41, 42, 36]\nDiet B: [35, 36, 39, 37, 38, 25, 26, 30, 24, 20]\nTest if the two diets differ significantly as regards their effect on weight gain at a 5% level of significance. (Given $t_{16, 0.05} = 2.12$)",
-            "answerKey": "1. **Sample 1 (Diet A)**: $n_1 = 8$, values: [32, 35, 33, 29, 24, 41, 42, 36].\n- $\\bar{X}_1 = \\frac{272}{8} = 34$.\n- $\\sum (X_{1i} - \\bar{X}_1)^2 = 4 + 1 + 1 + 25 + 100 + 49 + 64 + 4 = 248$.\n2. **Sample 2 (Diet B)**: $n_2 = 10$, values: [35, 36, 39, 37, 38, 25, 26, 30, 24, 20].\n- $\\bar{X}_2 = \\frac{320}{10} = 32$.\n- $\\sum (X_{2i} - \\bar{X}_2)^2 = 9 + 16 + 49 + 25 + 36 + 49 + 36 + 4 + 64 + 144 = 432$.\n3. **Pooled Variance**:\n$$S^2 = \\frac{248 + 432}{8 + 10 - 2} = \\frac{680}{16} = 42.5 \\implies S \\approx 6.52.$$\n4. **t-Statistic**:\n$$t = \\frac{34 - 32}{6.52 \\sqrt{\\frac{1}{8} + \\frac{1}{10}}} = \\frac{2}{6.52 \\sqrt{0.225}} = \\frac{2}{6.52 \\times 0.4743} \\approx 0.647.$$\n5. **Conclusion**: Since the calculated $|t| = 0.647$ is less than the critical value $t_{16, 0.05} = 2.12$, we fail to reject $H_0$. There is no significant difference between the two diets."
+        "id": 17,
+        "unit": "IV",
+        "question": "The gain in weights (in kgs) of pigs fed on two diets A and B are:\nDiet A: [32, 35, 33, 29, 24, 41, 42, 36]\nDiet B: [35, 36, 39, 37, 38, 25, 26, 30, 24, 20]\nTest if the two diets differ significantly as regards their effect on weight gain at a 5% level of significance. (Given $t_{16, 0.05} = 2.12$)",
+        "answerKey": "1. **Sample 1 (Diet A)**: $n_1 = 8$, values: [32, 35, 33, 29, 24, 41, 42, 36].\n- $\\bar{X}_1 = \\frac{272}{8} = 34$.\n- $\\sum (X_{1i} - \\bar{X}_1)^2 = 4 + 1 + 1 + 25 + 100 + 49 + 64 + 4 = 248$.\n2. **Sample 2 (Diet B)**: $n_2 = 10$, values: [35, 36, 39, 37, 38, 25, 26, 30, 24, 20].\n- $\\bar{X}_2 = \\frac{320}{10} = 32$.\n- $\\sum (X_{2i} - \\bar{X}_2)^2 = 9 + 16 + 49 + 25 + 36 + 49 + 36 + 4 + 64 + 144 = 432$.\n3. **Pooled Variance**:\n$$S^2 = \\frac{248 + 432}{8 + 10 - 2} = \\frac{680}{16} = 42.5 \\implies S \\approx 6.52.$$\n4. **t-Statistic**:\n$$t = \\frac{34 - 32}{6.52 \\sqrt{\\frac{1}{8} + \\frac{1}{10}}} = \\frac{2}{6.52 \\sqrt{0.225}} = \\frac{2}{6.52 \\times 0.4743} \\approx 0.647.$$\n5. **Conclusion**: Since the calculated $|t| = 0.647$ is less than the critical value $t_{16, 0.05} = 2.12$, we fail to reject $H_0$. There is no significant difference between the two diets."
       },
       {
-            "id": 18,
-            "unit": "IV",
-            "question": "Samples of two types of electric light bulbs were tested for length of life and the following data were obtained:\n- Type I: Sample Size = 8, Mean = 1234 hours, S.D. = 36 hours\n- Type II: Sample Size = 7, Mean = 1036 hours, S.D. = 40 hours\nIs the difference in means sufficient to warrant that Type I is superior to Type II? Test at 5% significance level. (Given $t_{0.05, 13} = 1.77$)",
-            "answerKey": "1. **Hypotheses**: $H_0: \\mu_1 = \\mu_2$ vs $H_1: \\mu_1 > \\mu_2$ (one-tailed test since we test if Type I is superior).\n2. **Pooled Variance**:\n$$S^2 = \\frac{(n_1-1)S_1^2 + (n_2-1)S_2^2}{n_1+n_2-2} = \\frac{7(36)^2 + 6(40)^2}{8+7-2} = \\frac{7(1296) + 6(1600)}{13} = \\frac{9072 + 9600}{13} = \\frac{18672}{13} \\approx 1436.31.$$\nSo $S \\approx 37.90$ hours.\n3. **t-Statistic**:\n$$t = \\frac{1234 - 1036}{37.90 \\sqrt{\\frac{1}{8} + \\frac{1}{7}}} = \\frac{198}{37.90 \\sqrt{0.125 + 0.1428}} = \\frac{198}{37.90 \\times 0.5175} \\approx 10.10.$$\n4. **Conclusion**: Since calculated $t = 10.10 > t_{0.05, 13} = 1.77$, we reject $H_0$. The difference in means is highly significant, meaning Type I bulbs are indeed superior."
+        "id": 18,
+        "unit": "IV",
+        "question": "Samples of two types of electric light bulbs were tested for length of life and the following data were obtained:\n- Type I: Sample Size = 8, Mean = 1234 hours, S.D. = 36 hours\n- Type II: Sample Size = 7, Mean = 1036 hours, S.D. = 40 hours\nIs the difference in means sufficient to warrant that Type I is superior to Type II? Test at 5% significance level. (Given $t_{0.05, 13} = 1.77$)",
+        "answerKey": "1. **Hypotheses**: $H_0: \\mu_1 = \\mu_2$ vs $H_1: \\mu_1 > \\mu_2$ (one-tailed test since we test if Type I is superior).\n2. **Pooled Variance**:\n$$S^2 = \\frac{(n_1-1)S_1^2 + (n_2-1)S_2^2}{n_1+n_2-2} = \\frac{7(36)^2 + 6(40)^2}{8+7-2} = \\frac{7(1296) + 6(1600)}{13} = \\frac{9072 + 9600}{13} = \\frac{18672}{13} \\approx 1436.31.$$\nSo $S \\approx 37.90$ hours.\n3. **t-Statistic**:\n$$t = \\frac{1234 - 1036}{37.90 \\sqrt{\\frac{1}{8} + \\frac{1}{7}}} = \\frac{198}{37.90 \\sqrt{0.125 + 0.1428}} = \\frac{198}{37.90 \\times 0.5175} \\approx 10.10.$$\n4. **Conclusion**: Since calculated $t = 10.10 > t_{0.05, 13} = 1.77$, we reject $H_0$. The difference in means is highly significant, meaning Type I bulbs are indeed superior."
       },
       {
-            "id": 19,
-            "unit": "I",
-            "question": "State the Central Limit Theorem. Suppose $X_1, X_2, \\ldots, X_n$ is a random sample of size $n=50$ from a population with mean $\\mu=5$ and variance $\\sigma^2=16.5$. Find the probability $P[\\bar{X} < 5]$.",
-            "answerKey": "1. **Central Limit Theorem**: If $X_1, X_2, \\ldots, X_n$ are i.i.d. random variables with finite mean $\\mu$ and variance $\\sigma^2$, then the sampling distribution of the sample mean $\\bar{X}$ approaches a normal distribution $N(\\mu, \\sigma^2/n)$ as $n \\to \\infty$.\n2. **Normal Approximation**: Here $n=50$ is large. Thus, $\\bar{X} \\dot{\\sim} N\\left(\\mu_{\\bar{X}} = 5, \\sigma^2_{\\bar{X}} = \\frac{16.5}{50} = 0.33\\right)$.\n3. **Standardizing**: We want $P[\\bar{X} < 5]$:\n$$Z = \frac{\\bar{X} - \\mu_{\\bar{X}}}{\\sigma_{\\bar{X}}} = \\frac{5 - 5}{\\sqrt{0.33}} = 0.$$\n4. **Probability**: $P[\\bar{X} < 5] = P[Z < 0] = 0.5$.\nThus, the probability is $0.5$."
+        "id": 19,
+        "unit": "I",
+        "question": "State the Central Limit Theorem. Suppose $X_1, X_2, \\ldots, X_n$ is a random sample of size $n=50$ from a population with mean $\\mu=5$ and variance $\\sigma^2=16.5$. Find the probability $P[\\bar{X} < 5]$.",
+        "answerKey": "1. **Central Limit Theorem**: If $X_1, X_2, \\ldots, X_n$ are i.i.d. random variables with finite mean $\\mu$ and variance $\\sigma^2$, then the sampling distribution of the sample mean $\\bar{X}$ approaches a normal distribution $N(\\mu, \\sigma^2/n)$ as $n \\to \\infty$.\n2. **Normal Approximation**: Here $n=50$ is large. Thus, $\\bar{X} \\dot{\\sim} N\\left(\\mu_{\\bar{X}} = 5, \\sigma^2_{\\bar{X}} = \\frac{16.5}{50} = 0.33\\right)$.\n3. **Standardizing**: We want $P[\\bar{X} < 5]$:\n$$Z = \frac{\\bar{X} - \\mu_{\\bar{X}}}{\\sigma_{\\bar{X}}} = \\frac{5 - 5}{\\sqrt{0.33}} = 0.$$\n4. **Probability**: $P[\\bar{X} < 5] = P[Z < 0] = 0.5$.\nThus, the probability is $0.5$."
       },
       {
-            "id": 20,
-            "unit": "I",
-            "question": "State the Weak Law of Large Numbers (WLLN). Show that a sequence of i.i.d. Bernoulli random variables with parameter $p$ obeys the WLLN.",
-            "answerKey": "1. **Weak Law of Large Numbers**: Let $X_1, X_2, \\ldots$ be a sequence of independent random variables with $E(X_i) = \\mu$ and $V(X_i) = \\sigma^2 < \\infty$. Then the sample mean $\\bar{X}_n$ converges in probability to $\\mu$ as $n \\to \\infty$:\n$$\\left. \\lim_{n\\to\\infty} P(|\\bar{X}_n - \\mu| < \\epsilon) = 1 \\quad \\text{for any } \\epsilon > 0. \\right.$$\n2. **Proof for Bernoulli**: Let $X_i \\sim \\text{Bernoulli}(p)$ be independent. \n- $E(X_i) = p$ and $V(X_i) = p(1-p)$.\n- Let $Y_n = \\bar{X}_n = \\frac{1}{n}\\sum X_i$. $E(Y_n) = p$ and $V(Y_n) = \\frac{p(1-p)}{n}$.\n- By Chebyshev's Inequality:\n$$P(|Y_n - p| \\ge \\epsilon) \\le \\frac{V(Y_n)}{\\epsilon^2} = \\frac{p(1-p)}{n\\epsilon^2}.$$\n- Taking limit as $n \\to \\infty$:\n$$\\lim_{n\\to\\infty} P(|Y_n - p| \\ge \\epsilon) \\le \\lim_{n\\to\\infty} \\frac{p(1-p)}{n\\epsilon^2} = 0.$$\nThus, $\\bar{X}_n$ converges in probability to $p$. Hence, the sequence obeys the WLLN."
+        "id": 20,
+        "unit": "I",
+        "question": "State the Weak Law of Large Numbers (WLLN). Show that a sequence of i.i.d. Bernoulli random variables with parameter $p$ obeys the WLLN.",
+        "answerKey": "1. **Weak Law of Large Numbers**: Let $X_1, X_2, \\ldots$ be a sequence of independent random variables with $E(X_i) = \\mu$ and $V(X_i) = \\sigma^2 < \\infty$. Then the sample mean $\\bar{X}_n$ converges in probability to $\\mu$ as $n \\to \\infty$:\n$$\\left. \\lim_{n\\to\\infty} P(|\\bar{X}_n - \\mu| < \\epsilon) = 1 \\quad \\text{for any } \\epsilon > 0. \\right.$$\n2. **Proof for Bernoulli**: Let $X_i \\sim \\text{Bernoulli}(p)$ be independent. \n- $E(X_i) = p$ and $V(X_i) = p(1-p)$.\n- Let $Y_n = \\bar{X}_n = \\frac{1}{n}\\sum X_i$. $E(Y_n) = p$ and $V(Y_n) = \\frac{p(1-p)}{n}$.\n- By Chebyshev's Inequality:\n$$P(|Y_n - p| \\ge \\epsilon) \\le \\frac{V(Y_n)}{\\epsilon^2} = \\frac{p(1-p)}{n\\epsilon^2}.$$\n- Taking limit as $n \\to \\infty$:\n$$\\lim_{n\\to\\infty} P(|Y_n - p| \\ge \\epsilon) \\le \\lim_{n\\to\\infty} \\frac{p(1-p)}{n\\epsilon^2} = 0.$$\nThus, $\\bar{X}_n$ converges in probability to $p$. Hence, the sequence obeys the WLLN."
       },
       {
-            "id": 21,
-            "unit": "I",
-            "question": "Define order statistics. Show that the $r$-th order statistic $X_{(r)}$ from a uniform distribution $U(0, 1)$ follows a Beta distribution of the first kind. Find the mean and variance of $X_{(r)}$.",
-            "answerKey": "1. **Order Statistics**: If $X_1, \\ldots, X_n$ is a random sample from a continuous distribution, the ordered values $X_{(1)} \\le X_{(2)} \\le \\ldots \\le X_{(n)}$ are the order statistics.\n2. **PDF of $r$-th Order Statistic**: The probability density function of $X_{(r)}$ is:\n$$g_r(x) = \\frac{n!}{(r-1)!(n-r)!} [F(x)]^{r-1} [1-F(x)]^{n-r} f(x)$$\n3. **For $U(0,1)$**: $f(x) = 1$ and $F(x) = x$ for $0 < x < 1$. Substituting these:\n$$g_r(x) = \\frac{n!}{(r-1)!(n-r)!} x^{r-1} (1-x)^{n-r} = \\frac{1}{B(r, n-r+1)} x^{r-1} (1-x)^{(n-r+1)-1}$$\nwhich is the PDF of a Beta distribution of the first kind, $B(r, n-r+1)$.\n4. **Mean and Variance**:\n- $E(X_{(r)}) = \\frac{r}{n+1}$.\n- $V(X_{(r)}) = \\frac{r(n-r+1)}{(n+1)^2(n+2)}$."
+        "id": 21,
+        "unit": "I",
+        "question": "Define order statistics. Show that the $r$-th order statistic $X_{(r)}$ from a uniform distribution $U(0, 1)$ follows a Beta distribution of the first kind. Find the mean and variance of $X_{(r)}$.",
+        "answerKey": "1. **Order Statistics**: If $X_1, \\ldots, X_n$ is a random sample from a continuous distribution, the ordered values $X_{(1)} \\le X_{(2)} \\le \\ldots \\le X_{(n)}$ are the order statistics.\n2. **PDF of $r$-th Order Statistic**: The probability density function of $X_{(r)}$ is:\n$$g_r(x) = \\frac{n!}{(r-1)!(n-r)!} [F(x)]^{r-1} [1-F(x)]^{n-r} f(x)$$\n3. **For $U(0,1)$**: $f(x) = 1$ and $F(x) = x$ for $0 < x < 1$. Substituting these:\n$$g_r(x) = \\frac{n!}{(r-1)!(n-r)!} x^{r-1} (1-x)^{n-r} = \\frac{1}{B(r, n-r+1)} x^{r-1} (1-x)^{(n-r+1)-1}$$\nwhich is the PDF of a Beta distribution of the first kind, $B(r, n-r+1)$.\n4. **Mean and Variance**:\n- $E(X_{(r)}) = \\frac{r}{n+1}$.\n- $V(X_{(r)}) = \\frac{r(n-r+1)}{(n+1)^2(n+2)}$."
       },
       {
-            "id": 22,
-            "unit": "I",
-            "question": "What are order statistics? Find the probability density function of the smallest order statistic $X_{(1)}$ and the largest order statistic $X_{(n)}$ from a general distribution, and specify them for a uniform distribution $U(0, 1)$.",
-            "answerKey": "1. **Smallest Order Statistic $X_{(1)}$**:\n- Distribution Function: $P(X_{(1)} \\le x) = 1 - P(X_{(1)} > x) = 1 - [1 - F(x)]^n$.\n- Density Function: $g_1(x) = n [1 - F(x)]^{n-1} f(x)$.\n- For $U(0,1)$: $g_1(x) = n(1-x)^{n-1}, 0 < x < 1$.\n2. **Largest Order Statistic $X_{(n)}$**:\n- Distribution Function: $P(X_{(n)} \\le x) = [F(x)]^n$.\n- Density Function: $g_n(x) = n [F(x)]^{n-1} f(x)$.\n- For $U(0,1)$: $g_n(x) = nx^{n-1}, 0 < x < 1$."
+        "id": 22,
+        "unit": "I",
+        "question": "What are order statistics? Find the probability density function of the smallest order statistic $X_{(1)}$ and the largest order statistic $X_{(n)}$ from a general distribution, and specify them for a uniform distribution $U(0, 1)$.",
+        "answerKey": "1. **Smallest Order Statistic $X_{(1)}$**:\n- Distribution Function: $P(X_{(1)} \\le x) = 1 - P(X_{(1)} > x) = 1 - [1 - F(x)]^n$.\n- Density Function: $g_1(x) = n [1 - F(x)]^{n-1} f(x)$.\n- For $U(0,1)$: $g_1(x) = n(1-x)^{n-1}, 0 < x < 1$.\n2. **Largest Order Statistic $X_{(n)}$**:\n- Distribution Function: $P(X_{(n)} \\le x) = [F(x)]^n$.\n- Density Function: $g_n(x) = n [F(x)]^{n-1} f(x)$.\n- For $U(0,1)$: $g_n(x) = nx^{n-1}, 0 < x < 1$."
       },
       {
-            "id": 23,
-            "unit": "I",
-            "question": "State and prove the additive (reproductive) property of independent chi-square variates using Moment Generating Functions.",
-            "answerKey": "1. Let $X_1, X_2, \\ldots, X_k$ be independent random variables such that $X_i \\sim \\chi^2_{\\nu_i}$.\n2. The moment generating function (MGF) of $X_i$ is $M_{X_i}(t) = (1-2t)^{-\\nu_i/2}$ for $t < 1/2$.\n3. Let $Y = \\sum_{i=1}^k X_i$. Since the variables are independent:\n$$M_Y(t) = \\prod_{i=1}^k M_{X_i}(t) = \\prod_{i=1}^k (1-2t)^{-\\nu_i/2} = (1-2t)^{-\\sum_{i=1}^k \\nu_i / 2}$$\n4. By the uniqueness theorem of MGFs, this is the MGF of a chi-square variate with $\\sum_{i=1}^k \\nu_i$ degrees of freedom. Thus, the sum of independent chi-square variates is also a chi-square variate."
+        "id": 23,
+        "unit": "I",
+        "question": "State and prove the additive (reproductive) property of independent chi-square variates using Moment Generating Functions.",
+        "answerKey": "1. Let $X_1, X_2, \\ldots, X_k$ be independent random variables such that $X_i \\sim \\chi^2_{\\nu_i}$.\n2. The moment generating function (MGF) of $X_i$ is $M_{X_i}(t) = (1-2t)^{-\\nu_i/2}$ for $t < 1/2$.\n3. Let $Y = \\sum_{i=1}^k X_i$. Since the variables are independent:\n$$M_Y(t) = \\prod_{i=1}^k M_{X_i}(t) = \\prod_{i=1}^k (1-2t)^{-\\nu_i/2} = (1-2t)^{-\\sum_{i=1}^k \\nu_i / 2}$$\n4. By the uniqueness theorem of MGFs, this is the MGF of a chi-square variate with $\\sum_{i=1}^k \\nu_i$ degrees of freedom. Thus, the sum of independent chi-square variates is also a chi-square variate."
       },
       {
-            "id": 24,
-            "unit": "V",
-            "question": "Describe the one-sample Kolmogorov-Smirnov non-parametric test. Explain the hypotheses, test statistic, and decision criteria.",
-            "answerKey": "1. **Purpose**: To test whether a random sample comes from a specified theoretical continuous distribution $F_0(x)$.\n2. **Hypotheses**: $H_0: F(x) = F_0(x)$ for all $x$ vs $H_1: F(x) \\neq F_0(x)$ for some $x$.\n3. **Empirical Distribution Function** ($S_n(x)$): $S_n(x) = \\frac{\\text{Number of observations } \\le x}{n}$.\n4. **Test Statistic**: $D = \\sup_x |S_n(x) - F_0(x)|$. It is computed as $D = \\max(D^+, D^-)$, where:\n- $D^+ = \\max_{1\\le i\\le n} \\left( \\frac{i}{n} - F_0(X_{(i)}) \\right)$,\n- $D^- = \\max_{1\\le i\\le n} \\left( F_0(X_{(i)}) - \\frac{i-1}{n} \\right)$.\n5. **Decision**: If calculated $D$ exceeds the critical value $D_{\\alpha, n}$ from the K-S table, we reject $H_0$."
+        "id": 24,
+        "unit": "V",
+        "question": "Describe the one-sample Kolmogorov-Smirnov non-parametric test. Explain the hypotheses, test statistic, and decision criteria.",
+        "answerKey": "1. **Purpose**: To test whether a random sample comes from a specified theoretical continuous distribution $F_0(x)$.\n2. **Hypotheses**: $H_0: F(x) = F_0(x)$ for all $x$ vs $H_1: F(x) \\neq F_0(x)$ for some $x$.\n3. **Empirical Distribution Function** ($S_n(x)$): $S_n(x) = \\frac{\\text{Number of observations } \\le x}{n}$.\n4. **Test Statistic**: $D = \\sup_x |S_n(x) - F_0(x)|$. It is computed as $D = \\max(D^+, D^-)$, where:\n- $D^+ = \\max_{1\\le i\\le n} \\left( \\frac{i}{n} - F_0(X_{(i)}) \\right)$,\n- $D^- = \\max_{1\\le i\\le n} \\left( F_0(X_{(i)}) - \\frac{i-1}{n} \\right)$.\n5. **Decision**: If calculated $D$ exceeds the critical value $D_{\\alpha, n}$ from the K-S table, we reject $H_0$."
       },
       {
-            "id": 25,
-            "unit": "V",
-            "question": "Describe the Mann-Whitney-Wilcoxon non-parametric U-test for two independent samples. Write down the test statistic and explain the test procedure.",
-            "answerKey": "1. **Purpose**: To test whether two independent samples come from populations with the same continuous distribution.\n2. **Hypotheses**: $H_0$: The two populations have identical distributions vs $H_1$: Their distributions are shifted.\n3. **Procedure**:\n- Combine both samples of size $n_1$ and $n_2$ and rank all $n_1+n_2$ observations in ascending order. If there are ties, assign average ranks.\n- Find the sum of ranks for the first sample, say $R_1$.\n- Compute the Mann-Whitney $U$ statistic:\n$$U_1 = n_1 n_2 + \\frac{n_1(n_1+1)}{2} - R_1, \\quad U_2 = n_1 n_2 - U_1.$$\n- Let $U = \\min(U_1, U_2)$.\n4. **Decision**: Compare calculated $U$ with critical value $U_{\\alpha}$ from the tables. If calculated $U \\le U_{\\alpha}$, reject $H_0$."
+        "id": 25,
+        "unit": "V",
+        "question": "Describe the Mann-Whitney-Wilcoxon non-parametric U-test for two independent samples. Write down the test statistic and explain the test procedure.",
+        "answerKey": "1. **Purpose**: To test whether two independent samples come from populations with the same continuous distribution.\n2. **Hypotheses**: $H_0$: The two populations have identical distributions vs $H_1$: Their distributions are shifted.\n3. **Procedure**:\n- Combine both samples of size $n_1$ and $n_2$ and rank all $n_1+n_2$ observations in ascending order. If there are ties, assign average ranks.\n- Find the sum of ranks for the first sample, say $R_1$.\n- Compute the Mann-Whitney $U$ statistic:\n$$U_1 = n_1 n_2 + \\frac{n_1(n_1+1)}{2} - R_1, \\quad U_2 = n_1 n_2 - U_1.$$\n- Let $U = \\min(U_1, U_2)$.\n4. **Decision**: Compare calculated $U$ with critical value $U_{\\alpha}$ from the tables. If calculated $U \\le U_{\\alpha}$, reject $H_0$."
       }
-]
+    ]
   },
-  "stamn42": { "id": "stamn42", "title": "Practical based on STAMN41", "module": "STAMN42", "comingSoon": true },
-  "stain51": { "id": "stain51", "title": "Internship", "module": "STAIN51", "comingSoon": true },
-  "stamj51": { "id": "stamj51", "title": "Operations Research", "module": "STAMJ51", "comingSoon": true },
-  "stamj52": { "id": "stamj52", "title": "Numerical Methods", "module": "STAMJ52", "comingSoon": true },
+  "stamn42": {
+    "id": "stamn42",
+    "title": "Practical based on STAMN41",
+    "module": "STAMN42",
+    "comingSoon": true
+  },
+  "stain51": {
+    "id": "stain51",
+    "title": "Internship",
+    "module": "STAIN51",
+    "comingSoon": true
+  },
+  "stamj51": {
+    "id": "stamj51",
+    "title": "Operations Research",
+    "module": "STAMJ51",
+    "comingSoon": true
+  },
+  "stamj52": {
+    "id": "stamj52",
+    "title": "Numerical Methods",
+    "module": "STAMJ52",
+    "comingSoon": true
+  },
   "stamj53": {
     "id": "stamj53",
     "title": "Statistical Inference II",
@@ -4606,265 +5403,955 @@ export const EXAMS = {
     "type": "theory",
     "questions": [
       {
-            "id": 1,
-            "unit": "I",
-            "question": "Let $X_1, X_2, \\ldots, X_n$ be a sample of size $n$ from a distribution with unknown mean $\\mu$ and unknown variance $\\sigma^2 > 0$. Show that the sample mean statistic $\\bar{X}$ and the weighted statistic $Y = \\frac{\\sum_{i=1}^n i X_i}{n(n+1)/2}$ are both unbiased estimators of $\\mu$, and establish the exact algebraic relation between $\\text{Var}(\\bar{X})$ and $\\text{Var}(Y)$.",
-            "answerKey": "1. **Sample Mean Unbiasedness**:\n$$E(\\bar{X}) = E\\left(\\frac{1}{n}\\sum_{i=1}^n X_i\\right) = \\frac{1}{n} \\sum_{i=1}^n E(X_i) = \\frac{n\\mu}{n} = \\mu.$$\n2. **Weighted Mean Unbiasedness**: Let $w_i = \\frac{i}{n(n+1)/2}$. Note that $\\sum_{i=1}^n w_i = \\frac{\\sum_{i=1}^n i}{n(n+1)/2} = \\frac{n(n+1)/2}{n(n+1)/2} = 1$.\n$$E(Y) = E\\left(\\sum_{i=1}^n w_i X_i\\right) = \\sum_{i=1}^n w_i E(X_i) = \\mu \\sum_{i=1}^n w_i = \\mu \\times 1 = \\mu.$$\n3. **Variance Comparison**:\n- $\\text{Var}(\\bar{X}) = \\frac{\\sigma^2}{n}$.\n- $\\text{Var}(Y) = \\text{Var}\\left(\\sum_{i=1}^n w_i X_i\\right) = \\sum_{i=1}^n w_i^2 \\text{Var}(X_i) = \\sigma^2 \\sum_{i=1}^n w_i^2$.\n4. Sum of squares of weights:\n$$\\sum_{i=1}^n w_i^2 = \\sum_{i=1}^n \\left( \\frac{2i}{n(n+1)} \\right)^2 = \\frac{4}{n^2(n+1)^2} \\sum_{i=1}^n i^2 = \\frac{4}{n^2(n+1)^2} \\frac{n(n+1)(2n+1)}{6} = \\frac{2(2n+1)}{3n(n+1)}.$$\n- So $\\text{Var}(Y) = \\sigma^2 \\frac{2(2n+1)}{3n(n+1)}$.\n5. **Relation**: We compare $\\text{Var}(Y)$ with $\\text{Var}(\\bar{X})$:\n$$\\frac{\\text{Var}(Y)}{\\text{Var}(\\bar{X})} = \\frac{\\sigma^2 \\frac{2(2n+1)}{3n(n+1)}}{\\sigma^2/n} = \\frac{2(2n+1)}{3(n+1)} = \\frac{4n+2}{3n+3}.$$\nSince $4n+2 > 3n+3$ for $n > 1$, we have $\\text{Var}(Y) > \\text{Var}(\\bar{X})$, meaning $\\bar{X}$ is more efficient than $Y$."
+        "id": 1,
+        "unit": "I",
+        "question": "Let $X_1, X_2, \\ldots, X_n$ be a sample of size $n$ from a distribution with unknown mean $\\mu$ and unknown variance $\\sigma^2 > 0$. Show that the sample mean statistic $\\bar{X}$ and the weighted statistic $Y = \\frac{\\sum_{i=1}^n i X_i}{n(n+1)/2}$ are both unbiased estimators of $\\mu$, and establish the exact algebraic relation between $\\text{Var}(\\bar{X})$ and $\\text{Var}(Y)$.",
+        "answerKey": "1. **Sample Mean Unbiasedness**:\n$$E(\\bar{X}) = E\\left(\\frac{1}{n}\\sum_{i=1}^n X_i\\right) = \\frac{1}{n} \\sum_{i=1}^n E(X_i) = \\frac{n\\mu}{n} = \\mu.$$\n2. **Weighted Mean Unbiasedness**: Let $w_i = \\frac{i}{n(n+1)/2}$. Note that $\\sum_{i=1}^n w_i = \\frac{\\sum_{i=1}^n i}{n(n+1)/2} = \\frac{n(n+1)/2}{n(n+1)/2} = 1$.\n$$E(Y) = E\\left(\\sum_{i=1}^n w_i X_i\\right) = \\sum_{i=1}^n w_i E(X_i) = \\mu \\sum_{i=1}^n w_i = \\mu \\times 1 = \\mu.$$\n3. **Variance Comparison**:\n- $\\text{Var}(\\bar{X}) = \\frac{\\sigma^2}{n}$.\n- $\\text{Var}(Y) = \\text{Var}\\left(\\sum_{i=1}^n w_i X_i\\right) = \\sum_{i=1}^n w_i^2 \\text{Var}(X_i) = \\sigma^2 \\sum_{i=1}^n w_i^2$.\n4. Sum of squares of weights:\n$$\\sum_{i=1}^n w_i^2 = \\sum_{i=1}^n \\left( \\frac{2i}{n(n+1)} \\right)^2 = \\frac{4}{n^2(n+1)^2} \\sum_{i=1}^n i^2 = \\frac{4}{n^2(n+1)^2} \\frac{n(n+1)(2n+1)}{6} = \\frac{2(2n+1)}{3n(n+1)}.$$\n- So $\\text{Var}(Y) = \\sigma^2 \\frac{2(2n+1)}{3n(n+1)}$.\n5. **Relation**: We compare $\\text{Var}(Y)$ with $\\text{Var}(\\bar{X})$:\n$$\\frac{\\text{Var}(Y)}{\\text{Var}(\\bar{X})} = \\frac{\\sigma^2 \\frac{2(2n+1)}{3n(n+1)}}{\\sigma^2/n} = \\frac{2(2n+1)}{3(n+1)} = \\frac{4n+2}{3n+3}.$$\nSince $4n+2 > 3n+3$ for $n > 1$, we have $\\text{Var}(Y) > \\text{Var}(\\bar{X})$, meaning $\\bar{X}$ is more efficient than $Y$."
       },
       {
-            "id": 2,
-            "unit": "I",
-            "question": "If $T_1$ is the minimum variance unbiased estimator (MVUE) of $\\gamma(\\theta)$, and $T_2$ is any other unbiased estimator of $\\gamma(\\theta)$ with efficiency $e$, prove that the correlation coefficient $\\rho$ between $T_1$ and $T_2$ is strictly given by $\\rho = \\sqrt{e}$.",
-            "answerKey": "1. Let $T_1$ be the MVUE of $\\gamma(\\theta)$, so $\\text{Var}(T_1) = V_0$.\n2. Let $T_2$ be another unbiased estimator with efficiency $e = \\frac{\\text{Var}(T_1)}{\\text{Var}(T_2)} = \\frac{V_0}{\\text{Var}(T_2)} \\implies \\text{Var}(T_2) = \\frac{V_0}{e}$.\n3. Let $T = a T_1 + (1-a) T_2$ be a linear combination ($a \\in R$). Since $T_1$ and $T_2$ are unbiased for $\\gamma(\\theta)$, $T$ is also unbiased.\n4. Since $T_1$ is the MVUE, we must have $\\text{Var}(T) \\ge \\text{Var}(T_1) = V_0$ for all $a$:\n$$\\text{Var}(T) = a^2 \\text{Var}(T_1) + (1-a)^2 \\text{Var}(T_2) + 2a(1-a) \\text{Cov}(T_1, T_2) \\ge V_0$$\n$$a^2 V_0 + (1-a)^2 \\frac{V_0}{e} + 2a(1-a) \\rho \\sqrt{V_0 \\frac{V_0}{e}} \\ge V_0$$\n$$a^2 + \\frac{(1-a)^2}{e} + 2a(1-a) \\frac{\\rho}{\\sqrt{e}} - 1 \\ge 0.$$\n5. Minimizing this quadratic expression with respect to $a$ by taking derivative and setting to zero, we get the condition that the discriminant of the quadratic in $a$ must be non-positive, which simplifies directly to:\n$$\\rho = \\sqrt{e}.$$\nThis completes the proof."
+        "id": 2,
+        "unit": "I",
+        "question": "If $T_1$ is the minimum variance unbiased estimator (MVUE) of $\\gamma(\\theta)$, and $T_2$ is any other unbiased estimator of $\\gamma(\\theta)$ with efficiency $e$, prove that the correlation coefficient $\\rho$ between $T_1$ and $T_2$ is strictly given by $\\rho = \\sqrt{e}$.",
+        "answerKey": "1. Let $T_1$ be the MVUE of $\\gamma(\\theta)$, so $\\text{Var}(T_1) = V_0$.\n2. Let $T_2$ be another unbiased estimator with efficiency $e = \\frac{\\text{Var}(T_1)}{\\text{Var}(T_2)} = \\frac{V_0}{\\text{Var}(T_2)} \\implies \\text{Var}(T_2) = \\frac{V_0}{e}$.\n3. Let $T = a T_1 + (1-a) T_2$ be a linear combination ($a \\in R$). Since $T_1$ and $T_2$ are unbiased for $\\gamma(\\theta)$, $T$ is also unbiased.\n4. Since $T_1$ is the MVUE, we must have $\\text{Var}(T) \\ge \\text{Var}(T_1) = V_0$ for all $a$:\n$$\\text{Var}(T) = a^2 \\text{Var}(T_1) + (1-a)^2 \\text{Var}(T_2) + 2a(1-a) \\text{Cov}(T_1, T_2) \\ge V_0$$\n$$a^2 V_0 + (1-a)^2 \\frac{V_0}{e} + 2a(1-a) \\rho \\sqrt{V_0 \\frac{V_0}{e}} \\ge V_0$$\n$$a^2 + \\frac{(1-a)^2}{e} + 2a(1-a) \\frac{\\rho}{\\sqrt{e}} - 1 \\ge 0.$$\n5. Minimizing this quadratic expression with respect to $a$ by taking derivative and setting to zero, we get the condition that the discriminant of the quadratic in $a$ must be non-positive, which simplifies directly to:\n$$\\rho = \\sqrt{e}.$$\nThis completes the proof."
       },
       {
-            "id": 3,
-            "unit": "I",
-            "question": "Define the property of consistency for an estimator. State and prove the standard sufficient conditions for an estimator to be consistent.",
-            "answerKey": "1. **Consistency Definition**: An estimator $T_n$ of a parameter $\\theta$ is consistent if it converges in probability to $\\theta$ as $n \\to \\infty$, i.e., for any $\\epsilon > 0$:\n$$\\lim_{n \\to \\infty} P(|T_n - \\theta| < \\epsilon) = 1.$$\n2. **Sufficient Conditions**: An estimator $T_n$ is consistent for $\\theta$ if:\n(i) $\\lim_{n\\to\\infty} E(T_n) = \\theta$, and (ii) $\\lim_{n\\to\\infty} \\text{Var}(T_n) = 0$.\n3. **Proof**: By Chebyshev's Inequality, for any random variable $T_n$:\n$$P(|T_n - E(T_n)| \\ge \\epsilon) \\le \\frac{\\text{Var}(T_n)}{\\epsilon^2}.$$\n- Since $\\lim E(T_n) = \\theta$, for large $n$, $|E(T_n) - \\theta| < \\epsilon/2$. By triangle inequality, if $|T_n - \\theta| \\ge \\epsilon$, then $|T_n - E(T_n)| \\ge \\epsilon/2$.\n- Therefore:\n$$P(|T_n - \\theta| \\ge \\epsilon) \\le P(|T_n - E(T_n)| \\ge \\epsilon/2) \\le \\frac{4\\text{Var}(T_n)}{\\epsilon^2}.$$\n- Taking limits on both sides as $n \\to \\infty$:\n$$\\lim_{n \\to \\infty} P(|T_n - \\theta| \\ge \\epsilon) \\le \\lim_{n \\to \\infty} \\frac{4\\text{Var}(T_n)}{\\epsilon^2} = 0.$$\nThus, $\\lim_{n \\to \\infty} P(|T_n - \\theta| < \\epsilon) = 1$, proving consistency."
+        "id": 3,
+        "unit": "I",
+        "question": "Define the property of consistency for an estimator. State and prove the standard sufficient conditions for an estimator to be consistent.",
+        "answerKey": "1. **Consistency Definition**: An estimator $T_n$ of a parameter $\\theta$ is consistent if it converges in probability to $\\theta$ as $n \\to \\infty$, i.e., for any $\\epsilon > 0$:\n$$\\lim_{n \\to \\infty} P(|T_n - \\theta| < \\epsilon) = 1.$$\n2. **Sufficient Conditions**: An estimator $T_n$ is consistent for $\\theta$ if:\n(i) $\\lim_{n\\to\\infty} E(T_n) = \\theta$, and (ii) $\\lim_{n\\to\\infty} \\text{Var}(T_n) = 0$.\n3. **Proof**: By Chebyshev's Inequality, for any random variable $T_n$:\n$$P(|T_n - E(T_n)| \\ge \\epsilon) \\le \\frac{\\text{Var}(T_n)}{\\epsilon^2}.$$\n- Since $\\lim E(T_n) = \\theta$, for large $n$, $|E(T_n) - \\theta| < \\epsilon/2$. By triangle inequality, if $|T_n - \\theta| \\ge \\epsilon$, then $|T_n - E(T_n)| \\ge \\epsilon/2$.\n- Therefore:\n$$P(|T_n - \\theta| \\ge \\epsilon) \\le P(|T_n - E(T_n)| \\ge \\epsilon/2) \\le \\frac{4\\text{Var}(T_n)}{\\epsilon^2}.$$\n- Taking limits on both sides as $n \\to \\infty$:\n$$\\lim_{n \\to \\infty} P(|T_n - \\theta| \\ge \\epsilon) \\le \\lim_{n \\to \\infty} \\frac{4\\text{Var}(T_n)}{\\epsilon^2} = 0.$$\nThus, $\\lim_{n \\to \\infty} P(|T_n - \\theta| < \\epsilon) = 1$, proving consistency."
       },
       {
-            "id": 4,
-            "unit": "I",
-            "question": "Let $X_1, X_2, \\ldots, X_n$ be a random sample from the probability density function $f(x \\mid \\theta) = e^{-(x-\\theta)}$ for $x \\ge \\theta$. Show that the first order statistic $T_n = \\min(X_1, \\ldots, X_n) = X_{(1)}$ is a consistent estimator of $\\theta$.",
-            "answerKey": "1. **Distribution function of $X$**: $F(x) = 1 - e^{-(x-\\theta)}$ for $x \\ge \\theta$.\n2. **Distribution function of $T_n = X_{(1)}$**:\n$$G_1(t) = P(X_{(1)} \\le t) = 1 - [1 - F(t)]^n = 1 - \\left( e^{-(t-\\theta)} \\right)^n = 1 - e^{-n(t-\\theta)} \\quad \\text{for } t \\ge \\theta.$$\n3. **Density of $T_n$**: $g_1(t) = n e^{-n(t-\\theta)}$ for $t \\ge \\theta$.\n4. **Mean of $T_n$**:\n$$E(T_n) = \\int_\\theta^\\infty t n e^{-n(t-\\theta)} dt = \\theta + \\frac{1}{n}.$$\n5. **Variance of $T_n$**:\n$$\\text{Var}(T_n) = \\frac{1}{n^2}.$$\n6. **Applying sufficient conditions**:\n- $\\lim_{n\\to\\infty} E(T_n) = \\lim_{n\\to\\infty} (\\theta + \\frac{1}{n}) = \\theta$.\n- $\\lim_{n\\to\\infty} \\text{Var}(T_n) = \\lim_{n\\to\\infty} \\frac{1}{n^2} = 0$.\nSince both conditions are satisfied, $T_n = X_{(1)}$ is a consistent estimator of $\\theta$."
+        "id": 4,
+        "unit": "I",
+        "question": "Let $X_1, X_2, \\ldots, X_n$ be a random sample from the probability density function $f(x \\mid \\theta) = e^{-(x-\\theta)}$ for $x \\ge \\theta$. Show that the first order statistic $T_n = \\min(X_1, \\ldots, X_n) = X_{(1)}$ is a consistent estimator of $\\theta$.",
+        "answerKey": "1. **Distribution function of $X$**: $F(x) = 1 - e^{-(x-\\theta)}$ for $x \\ge \\theta$.\n2. **Distribution function of $T_n = X_{(1)}$**:\n$$G_1(t) = P(X_{(1)} \\le t) = 1 - [1 - F(t)]^n = 1 - \\left( e^{-(t-\\theta)} \\right)^n = 1 - e^{-n(t-\\theta)} \\quad \\text{for } t \\ge \\theta.$$\n3. **Density of $T_n$**: $g_1(t) = n e^{-n(t-\\theta)}$ for $t \\ge \\theta$.\n4. **Mean of $T_n$**:\n$$E(T_n) = \\int_\\theta^\\infty t n e^{-n(t-\\theta)} dt = \\theta + \\frac{1}{n}.$$\n5. **Variance of $T_n$**:\n$$\\text{Var}(T_n) = \\frac{1}{n^2}.$$\n6. **Applying sufficient conditions**:\n- $\\lim_{n\\to\\infty} E(T_n) = \\lim_{n\\to\\infty} (\\theta + \\frac{1}{n}) = \\theta$.\n- $\\lim_{n\\to\\infty} \\text{Var}(T_n) = \\lim_{n\\to\\infty} \\frac{1}{n^2} = 0$.\nSince both conditions are satisfied, $T_n = X_{(1)}$ is a consistent estimator of $\\theta$."
       },
       {
-            "id": 5,
-            "unit": "I",
-            "question": "Define a sufficient statistic and a complete statistic. Let $X_1, X_2, \\ldots, X_n$ be a random sample from $U(0, \\theta)$. Show that the largest order statistic $T = \\max(X_1, \\ldots, X_n) = X_{(n)}$ is a complete sufficient statistic.",
-            "answerKey": "1. **Sufficient Statistic**: A statistic $T$ is sufficient for $\\theta$ if the conditional distribution of the sample given $T=t$ is independent of $\\theta$.\n2. **Complete Statistic**: A statistic $T$ is complete if $E[h(T)] = 0$ for all $\\theta$ implies $h(T) = 0$ almost everywhere.\n3. **Sufficiency for $U(0,\\theta)$**: The joint density is $f(x_1,\\dots,x_n | \\theta) = \\frac{1}{\\theta^n}$ for $0 < x_{(1)} \\le x_{(n)} < \\theta$.\n- We can write this as: $f(x | \\theta) = \\frac{1}{\\theta^n} I_{(0, \\theta)}(x_{(n)})$, where $I$ is indicator function.\n- By Fisher-Neyman Factorization Theorem, $g(t|\\theta) = \\frac{1}{\\theta^n} I_{(0, \\theta)}(t)$ and $h(x) = 1$. Thus, $T = X_{(n)}$ is sufficient.\n4. **Completeness Proof**: The PDF of $T$ is $g(t) = \\frac{n t^{n-1}}{\\theta^n}$ for $0 < t < \\theta$. Let $E[h(T)] = 0$:\n$$\\int_0^\\theta h(t) \\frac{n t^{n-1}}{\\theta^n} dt = 0 \\implies \\int_0^\\theta h(t) t^{n-1} dt = 0 \\quad \\text{for all } \\theta > 0.$$\n- Differentiating both sides with respect to $\\theta$ using Leibniz's rule:\n$$h(\\theta) \\theta^{n-1} = 0 \\implies h(\\theta) = 0 \\quad \\text{for all } \\theta > 0.$$\nThus, $T$ is a complete sufficient statistic."
+        "id": 5,
+        "unit": "I",
+        "question": "Define a sufficient statistic and a complete statistic. Let $X_1, X_2, \\ldots, X_n$ be a random sample from $U(0, \\theta)$. Show that the largest order statistic $T = \\max(X_1, \\ldots, X_n) = X_{(n)}$ is a complete sufficient statistic.",
+        "answerKey": "1. **Sufficient Statistic**: A statistic $T$ is sufficient for $\\theta$ if the conditional distribution of the sample given $T=t$ is independent of $\\theta$.\n2. **Complete Statistic**: A statistic $T$ is complete if $E[h(T)] = 0$ for all $\\theta$ implies $h(T) = 0$ almost everywhere.\n3. **Sufficiency for $U(0,\\theta)$**: The joint density is $f(x_1,\\dots,x_n | \\theta) = \\frac{1}{\\theta^n}$ for $0 < x_{(1)} \\le x_{(n)} < \\theta$.\n- We can write this as: $f(x | \\theta) = \\frac{1}{\\theta^n} I_{(0, \\theta)}(x_{(n)})$, where $I$ is indicator function.\n- By Fisher-Neyman Factorization Theorem, $g(t|\\theta) = \\frac{1}{\\theta^n} I_{(0, \\theta)}(t)$ and $h(x) = 1$. Thus, $T = X_{(n)}$ is sufficient.\n4. **Completeness Proof**: The PDF of $T$ is $g(t) = \\frac{n t^{n-1}}{\\theta^n}$ for $0 < t < \\theta$. Let $E[h(T)] = 0$:\n$$\\int_0^\\theta h(t) \\frac{n t^{n-1}}{\\theta^n} dt = 0 \\implies \\int_0^\\theta h(t) t^{n-1} dt = 0 \\quad \\text{for all } \\theta > 0.$$\n- Differentiating both sides with respect to $\\theta$ using Leibniz's rule:\n$$h(\\theta) \\theta^{n-1} = 0 \\implies h(\\theta) = 0 \\quad \\text{for all } \\theta > 0.$$\nThus, $T$ is a complete sufficient statistic."
       },
       {
-            "id": 6,
-            "unit": "I",
-            "question": "Define the Minimum Variance Unbiased Estimator (MVUE). Let $X_1, X_2, \\ldots, X_n$ be a random sample from a Poisson distribution $P(\\theta)$, and let $\\gamma(\\theta) = e^{-\\theta} = P[X=0]$. Find the explicit MVUE of $\\gamma(\\theta)$.",
-            "answerKey": "1. **MVUE Definition**: An unbiased estimator $T$ of $\\gamma(\\theta)$ that has the minimum variance among all unbiased estimators for all $\\theta$.\n2. **Rao-Blackwell / Lehmann-Scheffe Theorem**: If $S$ is a complete sufficient statistic and $U$ is any unbiased estimator, then $T = E(U \\mid S)$ is the unique MVUE.\n3. **Sufficient Statistic**: For $Poisson(\\theta)$, the sum $S = \\sum X_i$ is a complete sufficient statistic, and $S \\sim \\text{Poisson}(n\\theta)$.\n4. **Unbiased Estimator**: Let $U = I_{\\{0\\}}(X_1)$, which is $1$ if $X_1 = 0$ and $0$ otherwise. $E(U) = P(X_1=0) = e^{-\\theta} = \\gamma(\\theta)$.\n5. **Conditional Expectation**:\n$$T(s) = E(U \\mid S=s) = P(X_1 = 0 \\mid S = s) = \\frac{P(X_1 = 0, S = s)}{P(S=s)} = \\frac{P(X_1 = 0, \\sum_{i=2}^n X_i = s)}{P(S=s)}$$\nSince $X_i$ are independent:\n$$T(s) = \\frac{P(X_1 = 0) P(\\sum_{i=2}^n X_i = s)}{P(S=s)} = \\frac{e^{-\\theta} \\cdot \\frac{e^{-(n-1)\\theta} ((n-1)\\theta)^s}{s!}}{\\frac{e^{-n\\theta} (n\\theta)^s}{s!}} = \\left( \\frac{n-1}{n} \\right)^s.$$\nThus, the MVUE is $T = \\left( 1 - \\frac{1}{n} \\right)^{\\sum X_i}$."
+        "id": 6,
+        "unit": "I",
+        "question": "Define the Minimum Variance Unbiased Estimator (MVUE). Let $X_1, X_2, \\ldots, X_n$ be a random sample from a Poisson distribution $P(\\theta)$, and let $\\gamma(\\theta) = e^{-\\theta} = P[X=0]$. Find the explicit MVUE of $\\gamma(\\theta)$.",
+        "answerKey": "1. **MVUE Definition**: An unbiased estimator $T$ of $\\gamma(\\theta)$ that has the minimum variance among all unbiased estimators for all $\\theta$.\n2. **Rao-Blackwell / Lehmann-Scheffe Theorem**: If $S$ is a complete sufficient statistic and $U$ is any unbiased estimator, then $T = E(U \\mid S)$ is the unique MVUE.\n3. **Sufficient Statistic**: For $Poisson(\\theta)$, the sum $S = \\sum X_i$ is a complete sufficient statistic, and $S \\sim \\text{Poisson}(n\\theta)$.\n4. **Unbiased Estimator**: Let $U = I_{\\{0\\}}(X_1)$, which is $1$ if $X_1 = 0$ and $0$ otherwise. $E(U) = P(X_1=0) = e^{-\\theta} = \\gamma(\\theta)$.\n5. **Conditional Expectation**:\n$$T(s) = E(U \\mid S=s) = P(X_1 = 0 \\mid S = s) = \\frac{P(X_1 = 0, S = s)}{P(S=s)} = \\frac{P(X_1 = 0, \\sum_{i=2}^n X_i = s)}{P(S=s)}$$\nSince $X_i$ are independent:\n$$T(s) = \\frac{P(X_1 = 0) P(\\sum_{i=2}^n X_i = s)}{P(S=s)} = \\frac{e^{-\\theta} \\cdot \\frac{e^{-(n-1)\\theta} ((n-1)\\theta)^s}{s!}}{\\frac{e^{-n\\theta} (n\\theta)^s}{s!}} = \\left( \\frac{n-1}{n} \\right)^s.$$\nThus, the MVUE is $T = \\left( 1 - \\frac{1}{n} \\right)^{\\sum X_i}$."
       },
       {
-            "id": 7,
-            "unit": "I",
-            "question": "Explain the method of maximum likelihood estimation. Let $X_1, X_2, \\ldots, X_n$ be a random sample from a Normal distribution where both the mean and the variance are equal to $\\theta$, i.e. $N(\\theta, \\theta)$ ($\\theta > 0$). Obtain the MLE of $\\theta$.",
-            "answerKey": "1. **MLE Method**: Involves maximizing the likelihood function $L(\\theta \\mid x)$ (or log-likelihood $\\ln L$) with respect to $\\theta$.\n2. **Likelihood for $N(\\theta, \\theta)$**:\n$$L(\\theta) = (2\\pi\\theta)^{-n/2} e^{-\\sum (x_i-\\theta)^2 / (2\\theta)}.$$\n3. **Log-Likelihood**:\n$$\\ln L(\\theta) = -\\frac{n}{2}\\ln(2\\pi) - \\frac{n}{2}\\ln\\theta - \\frac{\\sum x_i^2 - 2\\theta\\sum x_i + n\\theta^2}{2\\theta} = -\\frac{n}{2}\\ln(2\\pi) - \\frac{n}{2}\\ln\\theta - \\frac{\\sum x_i^2}{2\\theta} + \\sum x_i - \\frac{n\\theta}{2}.$$\n4. **Derivation**:\n$$\\frac{d \\ln L}{d\\theta} = -\\frac{n}{2\\theta} + \\frac{\\sum x_i^2}{2\\theta^2} - \\frac{n}{2} = 0 \\implies -n\\theta + \\sum x_i^2 - n\\theta^2 = 0.$$\n5. **Solving the quadratic**:\n$$n\\theta^2 + n\\theta - \\sum x_i^2 = 0 \\implies \\theta^2 + \\theta - \\frac{1}{n}\\sum x_i^2 = 0.$$\nSince $\\theta > 0$, the MLE is the positive root of the quadratic:\n$$\\hat{\\theta} = \\frac{-1 + \\sqrt{1 + \\frac{4}{n}\\sum X_i^2}}{2}.$$"
+        "id": 7,
+        "unit": "I",
+        "question": "Explain the method of maximum likelihood estimation. Let $X_1, X_2, \\ldots, X_n$ be a random sample from a Normal distribution where both the mean and the variance are equal to $\\theta$, i.e. $N(\\theta, \\theta)$ ($\\theta > 0$). Obtain the MLE of $\\theta$.",
+        "answerKey": "1. **MLE Method**: Involves maximizing the likelihood function $L(\\theta \\mid x)$ (or log-likelihood $\\ln L$) with respect to $\\theta$.\n2. **Likelihood for $N(\\theta, \\theta)$**:\n$$L(\\theta) = (2\\pi\\theta)^{-n/2} e^{-\\sum (x_i-\\theta)^2 / (2\\theta)}.$$\n3. **Log-Likelihood**:\n$$\\ln L(\\theta) = -\\frac{n}{2}\\ln(2\\pi) - \\frac{n}{2}\\ln\\theta - \\frac{\\sum x_i^2 - 2\\theta\\sum x_i + n\\theta^2}{2\\theta} = -\\frac{n}{2}\\ln(2\\pi) - \\frac{n}{2}\\ln\\theta - \\frac{\\sum x_i^2}{2\\theta} + \\sum x_i - \\frac{n\\theta}{2}.$$\n4. **Derivation**:\n$$\\frac{d \\ln L}{d\\theta} = -\\frac{n}{2\\theta} + \\frac{\\sum x_i^2}{2\\theta^2} - \\frac{n}{2} = 0 \\implies -n\\theta + \\sum x_i^2 - n\\theta^2 = 0.$$\n5. **Solving the quadratic**:\n$$n\\theta^2 + n\\theta - \\sum x_i^2 = 0 \\implies \\theta^2 + \\theta - \\frac{1}{n}\\sum x_i^2 = 0.$$\nSince $\\theta > 0$, the MLE is the positive root of the quadratic:\n$$\\hat{\\theta} = \\frac{-1 + \\sqrt{1 + \\frac{4}{n}\\sum X_i^2}}{2}.$$"
       },
       {
-            "id": 8,
-            "unit": "I",
-            "question": "Explain the method of moments for the estimation of parameters. Suppose $X_1, X_2, \\ldots, X_n$ is a random sample from a continuous uniform population $U(\\alpha, \\beta)$. Find the estimators of $\\alpha$ and $\\beta$ by the method of moments.",
-            "answerKey": "1. **Method of Moments**: Involves equating population moments $\\mu'_r = E(X^r)$ to sample moments $m'_r = \\frac{1}{n}\\sum X_i^r$ and solving for the parameters.\n2. **Population Moments for $U(\\alpha, \\beta)$**:\n- Mean $\\mu'_1 = \\frac{\\alpha+\\beta}{2}$.\n- Variance $\\mu_2 = \\frac{(\\beta-\\alpha)^2}{12} \\implies \\mu'_2 = \\text{Var}(X) + [E(X)]^2 = \\frac{(\\beta-\\alpha)^2}{12} + \\left(\\frac{\\alpha+\\beta}{2}\\right)^2$.\n3. **Equating to Sample Moments**:\n- $\\bar{X} = \\frac{\\alpha+\\beta}{2} \\implies \\alpha+\\beta = 2\\bar{X}$.\n- $S^2 = \\frac{(\\beta-\\alpha)^2}{12}$ (where $S^2$ is sample variance) $\\implies \\beta-\\alpha = \\sqrt{12S^2} = 2\\sqrt{3}S$.\n4. **Solving for $\\alpha$ and $\\beta$**:\n- $\\hat{\\beta} = \\bar{X} + \\sqrt{3}S$\n- $\\hat{\\alpha} = \\bar{X} - \\sqrt{3}S$.\nThese are the method of moments estimators."
+        "id": 8,
+        "unit": "I",
+        "question": "Explain the method of moments for the estimation of parameters. Suppose $X_1, X_2, \\ldots, X_n$ is a random sample from a continuous uniform population $U(\\alpha, \\beta)$. Find the estimators of $\\alpha$ and $\\beta$ by the method of moments.",
+        "answerKey": "1. **Method of Moments**: Involves equating population moments $\\mu'_r = E(X^r)$ to sample moments $m'_r = \\frac{1}{n}\\sum X_i^r$ and solving for the parameters.\n2. **Population Moments for $U(\\alpha, \\beta)$**:\n- Mean $\\mu'_1 = \\frac{\\alpha+\\beta}{2}$.\n- Variance $\\mu_2 = \\frac{(\\beta-\\alpha)^2}{12} \\implies \\mu'_2 = \\text{Var}(X) + [E(X)]^2 = \\frac{(\\beta-\\alpha)^2}{12} + \\left(\\frac{\\alpha+\\beta}{2}\\right)^2$.\n3. **Equating to Sample Moments**:\n- $\\bar{X} = \\frac{\\alpha+\\beta}{2} \\implies \\alpha+\\beta = 2\\bar{X}$.\n- $S^2 = \\frac{(\\beta-\\alpha)^2}{12}$ (where $S^2$ is sample variance) $\\implies \\beta-\\alpha = \\sqrt{12S^2} = 2\\sqrt{3}S$.\n4. **Solving for $\\alpha$ and $\\beta$**:\n- $\\hat{\\beta} = \\bar{X} + \\sqrt{3}S$\n- $\\hat{\\alpha} = \\bar{X} - \\sqrt{3}S$.\nThese are the method of moments estimators."
       },
       {
-            "id": 9,
-            "unit": "II",
-            "question": "What is a confidence interval, and how does it differ fundamentally from a point estimate? Let $X_1, X_2, \\ldots, X_n$ be a random sample from $U(0, \\theta)$. Show that $Q = X_{(n)} / \theta$ is a valid pivotal quantity, and derive a $100(1-\\alpha)\\%$ confidence interval for $\\theta$.",
-            "answerKey": "1. **Comparison**: A point estimate provides a single value for $\\theta$, while a confidence interval provides an interval $(T_1, T_2)$ with a specified probability $1-\\alpha$ of containing $\\theta$.\n2. **Pivotal Quantity**: $Q = X_{(n)}/\\theta$ has a distribution independent of $\\theta$.\n- PDF of $X_{(n)}$ is $g(x) = \\frac{n x^{n-1}}{\\theta^n}$ for $0 < x < \\theta$.\n- Let $q = x/\\theta \\implies dx = \\theta dq$. PDF of $Q$ is $h(q) = \\frac{n (\\theta q)^{n-1}}{\\theta^n} \\theta = n q^{n-1}$ for $0 < q < 1$. This is independent of $\\theta$, so $Q$ is pivotal.\n3. **Confidence Interval Derivation**: We choose $c$ such that $P(c \\le Q \\le 1) = 1-\\alpha$:\n$$\\int_c^1 n q^{n-1} dq = 1 - c^n = 1-\\alpha \\implies c = \\alpha^{1/n}.$$\n- Thus: $P\\left(\\alpha^{1/n} \\le \\frac{X_{(n)}}{\\theta} \\le 1\\right) = 1-\\alpha$.\n- Rearranging: $P\\left(X_{(n)} \\le \\theta \\le \\frac{X_{(n)}}{\\alpha^{1/n}}\\right) = 1-\\alpha$.\nThus, the $100(1-\\alpha)\\%$ confidence interval for $\\theta$ is $\\left[ X_{(n)}, \\frac{X_{(n)}}{\\alpha^{1/n}} \\right]$."
+        "id": 9,
+        "unit": "II",
+        "question": "What is a confidence interval, and how does it differ fundamentally from a point estimate? Let $X_1, X_2, \\ldots, X_n$ be a random sample from $U(0, \\theta)$. Show that $Q = X_{(n)} / \theta$ is a valid pivotal quantity, and derive a $100(1-\\alpha)\\%$ confidence interval for $\\theta$.",
+        "answerKey": "1. **Comparison**: A point estimate provides a single value for $\\theta$, while a confidence interval provides an interval $(T_1, T_2)$ with a specified probability $1-\\alpha$ of containing $\\theta$.\n2. **Pivotal Quantity**: $Q = X_{(n)}/\\theta$ has a distribution independent of $\\theta$.\n- PDF of $X_{(n)}$ is $g(x) = \\frac{n x^{n-1}}{\\theta^n}$ for $0 < x < \\theta$.\n- Let $q = x/\\theta \\implies dx = \\theta dq$. PDF of $Q$ is $h(q) = \\frac{n (\\theta q)^{n-1}}{\\theta^n} \\theta = n q^{n-1}$ for $0 < q < 1$. This is independent of $\\theta$, so $Q$ is pivotal.\n3. **Confidence Interval Derivation**: We choose $c$ such that $P(c \\le Q \\le 1) = 1-\\alpha$:\n$$\\int_c^1 n q^{n-1} dq = 1 - c^n = 1-\\alpha \\implies c = \\alpha^{1/n}.$$\n- Thus: $P\\left(\\alpha^{1/n} \\le \\frac{X_{(n)}}{\\theta} \\le 1\\right) = 1-\\alpha$.\n- Rearranging: $P\\left(X_{(n)} \\le \\theta \\le \\frac{X_{(n)}}{\\alpha^{1/n}}\\right) = 1-\\alpha$.\nThus, the $100(1-\\alpha)\\%$ confidence interval for $\\theta$ is $\\left[ X_{(n)}, \\frac{X_{(n)}}{\\alpha^{1/n}} \\right]$."
       },
       {
-            "id": 10,
-            "unit": "III",
-            "question": "State and prove the Neyman-Pearson Lemma for finding the most powerful critical region of size $\\alpha$ for testing a simple null hypothesis against a simple alternative hypothesis.",
-            "answerKey": "1. **Statement**: To test $H_0: \\theta = \\theta_0$ against $H_1: \\theta = \\theta_1$. Let the joint density be $L_0$ under $H_0$ and $L_1$ under $H_1$. A critical region $W$ of size $\\alpha$ is most powerful if:\n- $L_1 \\ge k L_0$ for $x \\in W$, and $L_1 < k L_0$ for $x \\in W^c$ (where $k \\ge 0$).\n2. **Proof**: Let $W^*$ be another critical region of size $\\alpha$. Let $P(W) = P(W^*) = \\alpha$.\n- We want to show Power($W$) $\\ge$ Power($W^*$), i.e., $\\int_W L_1 dx \\ge \\int_{W^*} L_1 dx$.\n- Note that $\\int_W L_1 - \\int_{W^*} L_1 = \\int_{W \\setminus W^*} L_1 - \\int_{W^* \\setminus W} L_1$.\n- For $x \\in W \\setminus W^* \\subset W$, we have $L_1 \\ge k L_0 \\implies \\int_{W \\setminus W^*} L_1 \\ge k \\int_{W \\setminus W^*} L_0$.\n- For $x \\in W^* \\setminus W \\subset W^c$, we have $L_1 < k L_0 \\implies \\int_{W^* \\setminus W} L_1 \\le k \\int_{W^* \\setminus W} L_0$.\n- Subtracting:\n$$\\int_W L_1 - \\int_{W^*} L_1 \\ge k \\left( \\int_{W \\setminus W^*} L_0 - \\int_{W^* \\setminus W} L_0 \\right) = k \\left( \\int_W L_0 - \\int_{W^*} L_0 \\right) = k(\\alpha - \\alpha) = 0.$$\nThus, the power of $W$ is greater than or equal to $W^*$. This completes the proof."
+        "id": 10,
+        "unit": "III",
+        "question": "State and prove the Neyman-Pearson Lemma for finding the most powerful critical region of size $\\alpha$ for testing a simple null hypothesis against a simple alternative hypothesis.",
+        "answerKey": "1. **Statement**: To test $H_0: \\theta = \\theta_0$ against $H_1: \\theta = \\theta_1$. Let the joint density be $L_0$ under $H_0$ and $L_1$ under $H_1$. A critical region $W$ of size $\\alpha$ is most powerful if:\n- $L_1 \\ge k L_0$ for $x \\in W$, and $L_1 < k L_0$ for $x \\in W^c$ (where $k \\ge 0$).\n2. **Proof**: Let $W^*$ be another critical region of size $\\alpha$. Let $P(W) = P(W^*) = \\alpha$.\n- We want to show Power($W$) $\\ge$ Power($W^*$), i.e., $\\int_W L_1 dx \\ge \\int_{W^*} L_1 dx$.\n- Note that $\\int_W L_1 - \\int_{W^*} L_1 = \\int_{W \\setminus W^*} L_1 - \\int_{W^* \\setminus W} L_1$.\n- For $x \\in W \\setminus W^* \\subset W$, we have $L_1 \\ge k L_0 \\implies \\int_{W \\setminus W^*} L_1 \\ge k \\int_{W \\setminus W^*} L_0$.\n- For $x \\in W^* \\setminus W \\subset W^c$, we have $L_1 < k L_0 \\implies \\int_{W^* \\setminus W} L_1 \\le k \\int_{W^* \\setminus W} L_0$.\n- Subtracting:\n$$\\int_W L_1 - \\int_{W^*} L_1 \\ge k \\left( \\int_{W \\setminus W^*} L_0 - \\int_{W^* \\setminus W} L_0 \\right) = k \\left( \\int_W L_0 - \\int_{W^*} L_0 \\right) = k(\\alpha - \\alpha) = 0.$$\nThus, the power of $W$ is greater than or equal to $W^*$. This completes the proof."
       },
       {
-            "id": 11,
-            "unit": "III",
-            "question": "Obtain the most powerful test of size $\\alpha$ for testing $H_0: \\theta = \\theta_0$ against $H_1: \\theta = \\theta_1$ ($\\theta_1 > \\theta_0$) based on a random sample of size $n$ from an exponential distribution with probability density function $f(x \\mid \\theta) = \\theta e^{-x\\theta}$ ($x > 0$).",
-            "answerKey": "1. **Likelihood ratio**:\n$$\\frac{L_1}{L_0} = \\frac{\\theta_1^n e^{-\\theta_1 \\sum x_i}}{\\theta_0^n e^{-\\theta_0 \\sum x_i}} = \\left(\\frac{\\theta_1}{\\theta_0}\\right)^n e^{-(\\theta_1-\\theta_0)\\sum x_i}.$$\n2. **Neyman-Pearson Critical Region**: Reject $H_0$ if $\\frac{L_1}{L_0} \\ge k$:\n$$\\left(\\frac{\\theta_1}{\\theta_0}\\right)^n e^{-(\\theta_1-\\theta_0)\\sum x_i} \\ge k \\implies -(\\theta_1-\\theta_0)\\sum x_i \\ge k' \\implies (\\theta_1-\\theta_0)\\sum x_i \\le k''.$$\n- Since $\\theta_1 > \\theta_0$, we divide by $(\\theta_1-\\theta_0) > 0$:\n$$\\sum_{i=1}^n X_i \\le c$$\nwhere $c$ is determined by the size $\\alpha$: $P(\\sum X_i \\le c \\mid H_0) = \\alpha$.\n3. Under $H_0$, $Y = 2\\theta_0\\sum X_i \\sim \\chi^2_{2n}$. The condition $\\sum X_i \\le c$ is equivalent to $Y \\le \\chi^2_{2n, 1-\\alpha}$.\nThus, the most powerful test rejects $H_0$ if $2\\theta_0\\sum X_i \\le \\chi^2_{2n, 1-\\alpha}$."
+        "id": 11,
+        "unit": "III",
+        "question": "Obtain the most powerful test of size $\\alpha$ for testing $H_0: \\theta = \\theta_0$ against $H_1: \\theta = \\theta_1$ ($\\theta_1 > \\theta_0$) based on a random sample of size $n$ from an exponential distribution with probability density function $f(x \\mid \\theta) = \\theta e^{-x\\theta}$ ($x > 0$).",
+        "answerKey": "1. **Likelihood ratio**:\n$$\\frac{L_1}{L_0} = \\frac{\\theta_1^n e^{-\\theta_1 \\sum x_i}}{\\theta_0^n e^{-\\theta_0 \\sum x_i}} = \\left(\\frac{\\theta_1}{\\theta_0}\\right)^n e^{-(\\theta_1-\\theta_0)\\sum x_i}.$$\n2. **Neyman-Pearson Critical Region**: Reject $H_0$ if $\\frac{L_1}{L_0} \\ge k$:\n$$\\left(\\frac{\\theta_1}{\\theta_0}\\right)^n e^{-(\\theta_1-\\theta_0)\\sum x_i} \\ge k \\implies -(\\theta_1-\\theta_0)\\sum x_i \\ge k' \\implies (\\theta_1-\\theta_0)\\sum x_i \\le k''.$$\n- Since $\\theta_1 > \\theta_0$, we divide by $(\\theta_1-\\theta_0) > 0$:\n$$\\sum_{i=1}^n X_i \\le c$$\nwhere $c$ is determined by the size $\\alpha$: $P(\\sum X_i \\le c \\mid H_0) = \\alpha$.\n3. Under $H_0$, $Y = 2\\theta_0\\sum X_i \\sim \\chi^2_{2n}$. The condition $\\sum X_i \\le c$ is equivalent to $Y \\le \\chi^2_{2n, 1-\\alpha}$.\nThus, the most powerful test rejects $H_0$ if $2\\theta_0\\sum X_i \\le \\chi^2_{2n, 1-\\alpha}$."
       },
       {
-            "id": 12,
-            "unit": "III",
-            "question": "Describe the operational procedure of the Likelihood Ratio Test (LRT). Obtain the LRT of size $\\alpha$ for testing $H_0: \\sigma^2 = \\sigma_0^2$ against $H_1: \\sigma^2 \\neq \\sigma_0^2$ on the basis of a random sample of size $n$ from a normal population with unknown mean $\\mu$ and unknown variance $\\sigma^2$.",
-            "answerKey": "1. **LRT Procedure**: Compute $\\lambda(x) = \\frac{\\sup_{\\theta \\in \\Theta_0} L(\\theta)}{\\sup_{\\theta \\in \\Theta} L(\\theta)}$. Reject $H_0$ if $\\lambda(x) \\le \\lambda_0$ where $P(\\lambda(x) \\le \\lambda_0 \\mid H_0) = \\alpha$.\n2. **Normal Likelihood**: $L(\\mu, \\sigma^2) = (2\\pi\\sigma^2)^{-n/2} e^{-\\sum (x_i-\\mu)^2/(2\\sigma^2)}$.\n- Under $\\Theta$, MLE is $\\hat{\\mu} = \\bar{x}$ and $\\hat{\\sigma}^2 = \\frac{1}{n}\\sum (x_i-\\bar{x})^2$.\n- Under $\\Theta_0$ (where $\\sigma^2 = \\sigma_0^2$), MLE of $\\mu$ is $\\hat{\\mu}_0 = \\bar{x}$.\n3. **Ratio $\\lambda$**:\n$$\\lambda = \\frac{L(\\bar{x}, \\sigma_0^2)}{L(\\bar{x}, \\hat{\\sigma}^2)} = \\frac{(\\sigma_0^2)^{-n/2} e^{-n\\hat{\\sigma}^2/(2\\sigma_0^2)}}{( \\hat{\\sigma}^2 )^{-n/2} e^{-n/2}} = \\left( \\frac{\\hat{\\sigma}^2}{\\sigma_0^2} \\right)^{n/2} e^{-\\frac{n\\hat{\\sigma}^2}{2\\sigma_0^2} + \\frac{n}{2}}.$$\n4. Let $w = \\frac{n\\hat{\\sigma}^2}{\\sigma_0^2} = \\frac{\\sum (X_i-\\bar{X})^2}{\\sigma_0^2}$. Then $\\lambda = (w/n)^{n/2} e^{-w/2+n/2}$.\n5. **Critical Region**: The condition $\\lambda \\le \\lambda_0$ is equivalent to $w \\le w_1$ or $w \\ge w_2$, where $w_1$ and $w_2$ are chosen from the chi-square distribution $\\chi^2_{n-1}$ under $H_0$ such that $P(w \\le w_1) + P(w \\ge w_2) = \\alpha$."
+        "id": 12,
+        "unit": "III",
+        "question": "Describe the operational procedure of the Likelihood Ratio Test (LRT). Obtain the LRT of size $\\alpha$ for testing $H_0: \\sigma^2 = \\sigma_0^2$ against $H_1: \\sigma^2 \\neq \\sigma_0^2$ on the basis of a random sample of size $n$ from a normal population with unknown mean $\\mu$ and unknown variance $\\sigma^2$.",
+        "answerKey": "1. **LRT Procedure**: Compute $\\lambda(x) = \\frac{\\sup_{\\theta \\in \\Theta_0} L(\\theta)}{\\sup_{\\theta \\in \\Theta} L(\\theta)}$. Reject $H_0$ if $\\lambda(x) \\le \\lambda_0$ where $P(\\lambda(x) \\le \\lambda_0 \\mid H_0) = \\alpha$.\n2. **Normal Likelihood**: $L(\\mu, \\sigma^2) = (2\\pi\\sigma^2)^{-n/2} e^{-\\sum (x_i-\\mu)^2/(2\\sigma^2)}$.\n- Under $\\Theta$, MLE is $\\hat{\\mu} = \\bar{x}$ and $\\hat{\\sigma}^2 = \\frac{1}{n}\\sum (x_i-\\bar{x})^2$.\n- Under $\\Theta_0$ (where $\\sigma^2 = \\sigma_0^2$), MLE of $\\mu$ is $\\hat{\\mu}_0 = \\bar{x}$.\n3. **Ratio $\\lambda$**:\n$$\\lambda = \\frac{L(\\bar{x}, \\sigma_0^2)}{L(\\bar{x}, \\hat{\\sigma}^2)} = \\frac{(\\sigma_0^2)^{-n/2} e^{-n\\hat{\\sigma}^2/(2\\sigma_0^2)}}{( \\hat{\\sigma}^2 )^{-n/2} e^{-n/2}} = \\left( \\frac{\\hat{\\sigma}^2}{\\sigma_0^2} \\right)^{n/2} e^{-\\frac{n\\hat{\\sigma}^2}{2\\sigma_0^2} + \\frac{n}{2}}.$$\n4. Let $w = \\frac{n\\hat{\\sigma}^2}{\\sigma_0^2} = \\frac{\\sum (X_i-\\bar{X})^2}{\\sigma_0^2}$. Then $\\lambda = (w/n)^{n/2} e^{-w/2+n/2}$.\n5. **Critical Region**: The condition $\\lambda \\le \\lambda_0$ is equivalent to $w \\le w_1$ or $w \\ge w_2$, where $w_1$ and $w_2$ are chosen from the chi-square distribution $\\chi^2_{n-1}$ under $H_0$ such that $P(w \\le w_1) + P(w \\ge w_2) = \\alpha$."
       },
       {
-            "id": 13,
-            "unit": "IV",
-            "question": "Define loss function, Risk function, and the Minimax Rule in decision theory. Explain their roles in statistical decision problems.",
-            "answerKey": "1. **Loss Function $L(\\theta, d)$**: Quantifies the loss incurred when taking action $d$ (decision) when the true parameter value is $\\theta$. Typically $L(\\theta, d) \\ge 0$.\n2. **Risk Function $R(\\theta, d)$**: The expected loss under decision rule $d(X)$:\n$$R(\\theta, d) = E_X[L(\\theta, d(X))] = \\int L(\\theta, d(x)) f(x \\mid \\theta) dx.$$\n3. **Minimax Rule**: A conservative decision rule that minimizes the maximum possible risk:\n$$\\min_d \\max_\\theta R(\\theta, d).$$\n4. **Role**: They formalize estimation and testing as decision problems, shifting focus from pure probability matching to expected cost minimization."
+        "id": 13,
+        "unit": "IV",
+        "question": "Define loss function, Risk function, and the Minimax Rule in decision theory. Explain their roles in statistical decision problems.",
+        "answerKey": "1. **Loss Function $L(\\theta, d)$**: Quantifies the loss incurred when taking action $d$ (decision) when the true parameter value is $\\theta$. Typically $L(\\theta, d) \\ge 0$.\n2. **Risk Function $R(\\theta, d)$**: The expected loss under decision rule $d(X)$:\n$$R(\\theta, d) = E_X[L(\\theta, d(X))] = \\int L(\\theta, d(x)) f(x \\mid \\theta) dx.$$\n3. **Minimax Rule**: A conservative decision rule that minimizes the maximum possible risk:\n$$\\min_d \\max_\\theta R(\\theta, d).$$\n4. **Role**: They formalize estimation and testing as decision problems, shifting focus from pure probability matching to expected cost minimization."
       },
       {
-            "id": 14,
-            "unit": "IV",
-            "question": "Obtain the explicit Bayes estimator of the parameter $\\theta$ under the Squared Error Loss Function (SELF) on the basis of a random sample of size $n$ from a Poisson distribution $P(\\theta)$ where the prior distribution for $\\theta$ follows a Gamma distribution $G(a, b)$.",
-            "answerKey": "1. **SELF Bayes Estimator**: Under SELF, the Bayes estimator is the mean of the posterior distribution: $\\hat{\\theta}_B = E(\\theta \\mid X)$.\n2. **Likelihood**: For Poisson sample, $L(\\theta \\mid x) \\propto e^{-n\\theta} \\theta^{\\sum x_i}$.\n3. **Prior**: $\\pi(\\theta) \\propto e^{-\\theta/b} \\theta^{a-1}$ for $\\theta > 0$.\n4. **Posterior**:\n$$\\pi(\\theta \\mid x) \\propto L(\\theta \\mid x) \\pi(\\theta) \\propto e^{-n\\theta} \\theta^{\\sum x_i} e^{-\\theta/b} \\theta^{a-1} = e^{-\\theta(n + 1/b)} \\theta^{\\sum x_i + a - 1}.$$\n5. This is a Gamma distribution with parameters $a^* = \\sum x_i + a$ and $b^* = \\frac{1}{n + 1/b} = \\frac{b}{nb+1}$.\n6. **Mean of Posterior**:\n$$\\hat{\\theta}_B = a^* b^* = \\frac{b(\\sum X_i + a)}{nb+1}.$$\nThis is the required Bayes estimator."
+        "id": 14,
+        "unit": "IV",
+        "question": "Obtain the explicit Bayes estimator of the parameter $\\theta$ under the Squared Error Loss Function (SELF) on the basis of a random sample of size $n$ from a Poisson distribution $P(\\theta)$ where the prior distribution for $\\theta$ follows a Gamma distribution $G(a, b)$.",
+        "answerKey": "1. **SELF Bayes Estimator**: Under SELF, the Bayes estimator is the mean of the posterior distribution: $\\hat{\\theta}_B = E(\\theta \\mid X)$.\n2. **Likelihood**: For Poisson sample, $L(\\theta \\mid x) \\propto e^{-n\\theta} \\theta^{\\sum x_i}$.\n3. **Prior**: $\\pi(\\theta) \\propto e^{-\\theta/b} \\theta^{a-1}$ for $\\theta > 0$.\n4. **Posterior**:\n$$\\pi(\\theta \\mid x) \\propto L(\\theta \\mid x) \\pi(\\theta) \\propto e^{-n\\theta} \\theta^{\\sum x_i} e^{-\\theta/b} \\theta^{a-1} = e^{-\\theta(n + 1/b)} \\theta^{\\sum x_i + a - 1}.$$\n5. This is a Gamma distribution with parameters $a^* = \\sum x_i + a$ and $b^* = \\frac{1}{n + 1/b} = \\frac{b}{nb+1}$.\n6. **Mean of Posterior**:\n$$\\hat{\\theta}_B = a^* b^* = \\frac{b(\\sum X_i + a)}{nb+1}.$$\nThis is the required Bayes estimator."
       },
       {
-            "id": 15,
-            "unit": "I",
-            "question": "Let $X_1, X_2, \\ldots, X_n$ be a random sample from a population with mean $\\mu$ and variance $\\sigma^2$. Show that the sample variance $S^2 = \\frac{1}{n-1}\\sum (X_i - \\bar{X})^2$ is an unbiased estimator of $\\sigma^2$.",
-            "answerKey": "1. Expand the sum of squares:\n$$\\sum_{i=1}^n (X_i - \\bar{X})^2 = \\sum_{i=1}^n [(X_i - \\mu) - (\\bar{X} - \\mu)]^2 = \\sum_{i=1}^n (X_i - \\mu)^2 - n(\\bar{X} - \\mu)^2.$$\n2. Taking expectations on both sides:\n$$E\\left[ \\sum_{i=1}^n (X_i - \\bar{X})^2 \\right] = \\sum_{i=1}^n E(X_i - \\mu)^2 - n E(\\bar{X} - \\mu)^2.$$\n3. Note that:\n- $E(X_i - \\mu)^2 = \\text{Var}(X_i) = \\sigma^2$,\n- $E(\\bar{X} - \\mu)^2 = \\text{Var}(\\bar{X}) = \\frac{\\sigma^2}{n}$.\n4. Substituting these:\n$$E\\left[ \\sum_{i=1}^n (X_i - \\bar{X})^2 \\right] = n\\sigma^2 - n\\left(\\frac{\\sigma^2}{n}\\right) = (n-1)\\sigma^2.$$\n5. Therefore:\n$$E(S^2) = E\\left[ \\frac{1}{n-1} \\sum_{i=1}^n (X_i - \\bar{X})^2 \\right] = \\frac{1}{n-1} (n-1)\\sigma^2 = \\sigma^2.$$\nHence $S^2$ is an unbiased estimator of $\\sigma^2$."
+        "id": 15,
+        "unit": "I",
+        "question": "Let $X_1, X_2, \\ldots, X_n$ be a random sample from a population with mean $\\mu$ and variance $\\sigma^2$. Show that the sample variance $S^2 = \\frac{1}{n-1}\\sum (X_i - \\bar{X})^2$ is an unbiased estimator of $\\sigma^2$.",
+        "answerKey": "1. Expand the sum of squares:\n$$\\sum_{i=1}^n (X_i - \\bar{X})^2 = \\sum_{i=1}^n [(X_i - \\mu) - (\\bar{X} - \\mu)]^2 = \\sum_{i=1}^n (X_i - \\mu)^2 - n(\\bar{X} - \\mu)^2.$$\n2. Taking expectations on both sides:\n$$E\\left[ \\sum_{i=1}^n (X_i - \\bar{X})^2 \\right] = \\sum_{i=1}^n E(X_i - \\mu)^2 - n E(\\bar{X} - \\mu)^2.$$\n3. Note that:\n- $E(X_i - \\mu)^2 = \\text{Var}(X_i) = \\sigma^2$,\n- $E(\\bar{X} - \\mu)^2 = \\text{Var}(\\bar{X}) = \\frac{\\sigma^2}{n}$.\n4. Substituting these:\n$$E\\left[ \\sum_{i=1}^n (X_i - \\bar{X})^2 \\right] = n\\sigma^2 - n\\left(\\frac{\\sigma^2}{n}\\right) = (n-1)\\sigma^2.$$\n5. Therefore:\n$$E(S^2) = E\\left[ \\frac{1}{n-1} \\sum_{i=1}^n (X_i - \\bar{X})^2 \\right] = \\frac{1}{n-1} (n-1)\\sigma^2 = \\sigma^2.$$\nHence $S^2$ is an unbiased estimator of $\\sigma^2$."
       },
       {
-            "id": 16,
-            "unit": "I",
-            "question": "Define Fisher Information $I(\\theta)$ contained in a sample. State the Cramer-Rao Inequality and explain the condition under which the equality holds.",
-            "answerKey": "1. **Fisher Information**: Defined as the variance of the score function:\n$$I(\\theta) = E\\left[ \\left( \\frac{\\partial \\ln f(X \\mid \\theta)}{\\partial \\theta} \\right)^2 \\right] = -E\\left[ \\frac{\\partial^2 \\ln f(X \\mid \\theta)}{\\partial \\theta^2} \\right].$$\n2. **Cramer-Rao Inequality**: Under regularity conditions, the variance of any unbiased estimator $T$ of $\\gamma(\\theta)$ satisfies:\n$$\\text{Var}(T) \\ge \\frac{[\\gamma'(\\theta)]^2}{n I(\\theta)}.$$\n3. **Equality Condition**: The equality holds (minimum variance is achieved) if and only if the score function can be written in the form:\n$$\\frac{\\partial \\ln L(x \\mid \\theta)}{\\partial \\theta} = A(\\theta) (T(x) - \\gamma(\\theta))$$\nwhere $A(\\theta)$ is a function of $\\theta$ only. This represents a one-parameter exponential family."
+        "id": 16,
+        "unit": "I",
+        "question": "Define Fisher Information $I(\\theta)$ contained in a sample. State the Cramer-Rao Inequality and explain the condition under which the equality holds.",
+        "answerKey": "1. **Fisher Information**: Defined as the variance of the score function:\n$$I(\\theta) = E\\left[ \\left( \\frac{\\partial \\ln f(X \\mid \\theta)}{\\partial \\theta} \\right)^2 \\right] = -E\\left[ \\frac{\\partial^2 \\ln f(X \\mid \\theta)}{\\partial \\theta^2} \\right].$$\n2. **Cramer-Rao Inequality**: Under regularity conditions, the variance of any unbiased estimator $T$ of $\\gamma(\\theta)$ satisfies:\n$$\\text{Var}(T) \\ge \\frac{[\\gamma'(\\theta)]^2}{n I(\\theta)}.$$\n3. **Equality Condition**: The equality holds (minimum variance is achieved) if and only if the score function can be written in the form:\n$$\\frac{\\partial \\ln L(x \\mid \\theta)}{\\partial \\theta} = A(\\theta) (T(x) - \\gamma(\\theta))$$\nwhere $A(\\theta)$ is a function of $\\theta$ only. This represents a one-parameter exponential family."
       },
       {
-            "id": 17,
-            "unit": "I",
-            "question": "Let $X_1, X_2, \\ldots, X_n$ be a random sample from $N(\\mu, \\sigma^2)$ where $\\sigma^2$ is known. Find the Cramer-Rao Lower Bound (CRLB) for unbiased estimators of $\\mu$ and show that the sample mean $\\bar{X}$ achieves this bound.",
-            "answerKey": "1. **Log-density**: $\\ln f(x \\mid \\mu) = -\\frac{1}{2}\\ln(2\\pi\\sigma^2) - \\frac{(x-\\mu)^2}{2\\sigma^2}$.\n2. **Derivatives**:\n- $\\frac{\\partial \\ln f}{\\partial \\mu} = \\frac{x-\\mu}{\\sigma^2}$,\n- $\\frac{\\partial^2 \\ln f}{\\partial \\mu^2} = -\\frac{1}{\\sigma^2}$.\n3. **Fisher Information**: $I(\\mu) = -E\\left( -\\frac{1}{\\sigma^2} \\right) = \\frac{1}{\\sigma^2}$.\n4. **CRLB**: For unbiased estimators of $\\gamma(\\mu) = \\mu$, we have $\\gamma'(\\mu) = 1$. The bound is:\n$$\\text{CRLB} = \\frac{1}{n I(\\mu)} = \\frac{\\sigma^2}{n}.$$\n5. **Sample Mean**: Since $\\bar{X}$ is unbiased for $\\mu$ and $\\text{Var}(\\bar{X}) = \\frac{\\sigma^2}{n}$, it matches the CRLB exactly. Hence, $\\bar{X}$ is an MVUE of $\\mu$."
+        "id": 17,
+        "unit": "I",
+        "question": "Let $X_1, X_2, \\ldots, X_n$ be a random sample from $N(\\mu, \\sigma^2)$ where $\\sigma^2$ is known. Find the Cramer-Rao Lower Bound (CRLB) for unbiased estimators of $\\mu$ and show that the sample mean $\\bar{X}$ achieves this bound.",
+        "answerKey": "1. **Log-density**: $\\ln f(x \\mid \\mu) = -\\frac{1}{2}\\ln(2\\pi\\sigma^2) - \\frac{(x-\\mu)^2}{2\\sigma^2}$.\n2. **Derivatives**:\n- $\\frac{\\partial \\ln f}{\\partial \\mu} = \\frac{x-\\mu}{\\sigma^2}$,\n- $\\frac{\\partial^2 \\ln f}{\\partial \\mu^2} = -\\frac{1}{\\sigma^2}$.\n3. **Fisher Information**: $I(\\mu) = -E\\left( -\\frac{1}{\\sigma^2} \\right) = \\frac{1}{\\sigma^2}$.\n4. **CRLB**: For unbiased estimators of $\\gamma(\\mu) = \\mu$, we have $\\gamma'(\\mu) = 1$. The bound is:\n$$\\text{CRLB} = \\frac{1}{n I(\\mu)} = \\frac{\\sigma^2}{n}.$$\n5. **Sample Mean**: Since $\\bar{X}$ is unbiased for $\\mu$ and $\\text{Var}(\\bar{X}) = \\frac{\\sigma^2}{n}$, it matches the CRLB exactly. Hence, $\\bar{X}$ is an MVUE of $\\mu$."
       },
       {
-            "id": 18,
-            "unit": "III",
-            "question": "Explain the concepts of a Uniformly Most Powerful (UMP) test, power function, and one-sided hypotheses. Give a general condition for a test to be UMP.",
-            "answerKey": "1. **Power Function**: For a test critical region $W$, the power function $\\beta(\\theta) = P_\\theta(X \\in W)$ is the probability of rejecting $H_0$ as a function of the parameter $\\theta$.\n2. **UMP Test**: A test is UMP of size $\\alpha$ for testing $H_0: \\theta \\in \\Theta_0$ against $H_1: \\theta \\in \\Theta_1$ if it is of size $\\alpha$ and its power $\\beta(\\theta) \\ge \\beta^*(\\theta)$ for all $\\theta \\in \\Theta_1$, where $\\beta^*(\\theta)$ is the power of any other test of size $\\alpha$.\n3. **General Condition (MLR)**: If the distribution family has a Monotone Likelihood Ratio (MLR) in a statistic $T(X)$, then the UMP test of size $\\alpha$ for $H_0: \\theta \\le \\theta_0$ vs $H_1: \\theta > \\theta_0$ is given by the critical region $T(X) > c$."
+        "id": 18,
+        "unit": "III",
+        "question": "Explain the concepts of a Uniformly Most Powerful (UMP) test, power function, and one-sided hypotheses. Give a general condition for a test to be UMP.",
+        "answerKey": "1. **Power Function**: For a test critical region $W$, the power function $\\beta(\\theta) = P_\\theta(X \\in W)$ is the probability of rejecting $H_0$ as a function of the parameter $\\theta$.\n2. **UMP Test**: A test is UMP of size $\\alpha$ for testing $H_0: \\theta \\in \\Theta_0$ against $H_1: \\theta \\in \\Theta_1$ if it is of size $\\alpha$ and its power $\\beta(\\theta) \\ge \\beta^*(\\theta)$ for all $\\theta \\in \\Theta_1$, where $\\beta^*(\\theta)$ is the power of any other test of size $\\alpha$.\n3. **General Condition (MLR)**: If the distribution family has a Monotone Likelihood Ratio (MLR) in a statistic $T(X)$, then the UMP test of size $\\alpha$ for $H_0: \\theta \\le \\theta_0$ vs $H_1: \\theta > \\theta_0$ is given by the critical region $T(X) > c$."
       },
       {
-            "id": 19,
-            "unit": "IV",
-            "question": "Explain how a Bayes estimator is obtained under (i) Squared Error Loss Function (SELF), and (ii) Absolute Error Loss Function. Identify what characteristics of the posterior distribution correspond to these estimators.",
-            "answerKey": "1. **Bayes Estimator**: The estimator $d(X)$ that minimizes the posterior expected loss $E_{\\theta\\mid x}[L(\\theta, d)]$.\n2. **Under SELF** ($L(\\theta, d) = (\\theta-d)^2$):\n- Posterior expected loss is minimized when $d(x) = E(\\theta \\mid X=x)$.\n- Thus, the Bayes estimator is the **Mean** of the posterior distribution.\n3. **Under Absolute Error Loss** ($L(\\theta, d) = |\\theta-d|$):\n- Posterior expected loss is minimized when $d(x)$ splits the posterior probability into two equal halves.\n- Thus, the Bayes estimator is the **Median** of the posterior distribution.\n4. **Under 0-1 Loss** (for discrete case):\n- The Bayes estimator is the **Mode** of the posterior distribution (maximum a posteriori / MAP)."
+        "id": 19,
+        "unit": "IV",
+        "question": "Explain how a Bayes estimator is obtained under (i) Squared Error Loss Function (SELF), and (ii) Absolute Error Loss Function. Identify what characteristics of the posterior distribution correspond to these estimators.",
+        "answerKey": "1. **Bayes Estimator**: The estimator $d(X)$ that minimizes the posterior expected loss $E_{\\theta\\mid x}[L(\\theta, d)]$.\n2. **Under SELF** ($L(\\theta, d) = (\\theta-d)^2$):\n- Posterior expected loss is minimized when $d(x) = E(\\theta \\mid X=x)$.\n- Thus, the Bayes estimator is the **Mean** of the posterior distribution.\n3. **Under Absolute Error Loss** ($L(\\theta, d) = |\\theta-d|$):\n- Posterior expected loss is minimized when $d(x)$ splits the posterior probability into two equal halves.\n- Thus, the Bayes estimator is the **Median** of the posterior distribution.\n4. **Under 0-1 Loss** (for discrete case):\n- The Bayes estimator is the **Mode** of the posterior distribution (maximum a posteriori / MAP)."
       },
       {
-            "id": 20,
-            "unit": "III",
-            "question": "Derive the Likelihood Ratio Test (LRT) of size $\\alpha$ for testing $H_0: \\mu = \\mu_0$ against $H_1: \\mu \\neq \\mu_0$ on the basis of a random sample of size $n$ from $N(\\mu, \\sigma^2)$ where $\\sigma^2$ is known.",
-            "answerKey": "1. **Likelihood Function**: $L(\\mu) = (2\\pi\\sigma^2)^{-n/2} e^{-\\sum (x_i-\\mu)^2/(2\\sigma^2)}$.\n2. **Maximizing**:\n- Under $\\Theta$: MLE is $\\hat{\\mu} = \\bar{x}$.\n- Under $\\Theta_0$: $\\mu = \\mu_0$.\n3. **Likelihood Ratio $\\lambda$**:\n$$\\lambda(x) = \\frac{L(\\mu_0)}{L(\\bar{x})} = \\frac{e^{-\\sum(x_i-\\mu_0)^2/(2\\sigma^2)}}{e^{-\\sum(x_i-\\bar{x})^2/(2\\sigma^2)}} = e^{-\\frac{1}{2\\sigma^2}\\left[ \\sum(x_i-\\mu_0)^2 - \\sum(x_i-\\bar{x})^2 \\right] }.$$\n4. Using identity $\\sum(x_i-\\mu_0)^2 = \\sum(x_i-\\bar{x})^2 + n(\\bar{x}-\\mu_0)^2$:\n$$\\lambda(x) = e^{-\\frac{n(\\bar{x}-\\mu_0)^2}{2\\sigma^2}}.$$\n5. **Critical Region**: Reject $H_0$ if $\\lambda(x) \\le \\lambda_0$:\n$$e^{-\\frac{n(\\bar{x}-\\mu_0)^2}{2\\sigma^2}} \\le \\lambda_0 \\implies \\frac{n(\\bar{x}-\\mu_0)^2}{2\\sigma^2} \\ge c \\implies \\left| \\frac{\\bar{x}-\\mu_0}{\\sigma/\\sqrt{n}} \\right| \\ge z_{\\alpha/2}$$\nwhere $z_{\\alpha/2}$ is the standard normal critical value. This is the standard two-tailed Z-test."
+        "id": 20,
+        "unit": "III",
+        "question": "Derive the Likelihood Ratio Test (LRT) of size $\\alpha$ for testing $H_0: \\mu = \\mu_0$ against $H_1: \\mu \\neq \\mu_0$ on the basis of a random sample of size $n$ from $N(\\mu, \\sigma^2)$ where $\\sigma^2$ is known.",
+        "answerKey": "1. **Likelihood Function**: $L(\\mu) = (2\\pi\\sigma^2)^{-n/2} e^{-\\sum (x_i-\\mu)^2/(2\\sigma^2)}$.\n2. **Maximizing**:\n- Under $\\Theta$: MLE is $\\hat{\\mu} = \\bar{x}$.\n- Under $\\Theta_0$: $\\mu = \\mu_0$.\n3. **Likelihood Ratio $\\lambda$**:\n$$\\lambda(x) = \\frac{L(\\mu_0)}{L(\\bar{x})} = \\frac{e^{-\\sum(x_i-\\mu_0)^2/(2\\sigma^2)}}{e^{-\\sum(x_i-\\bar{x})^2/(2\\sigma^2)}} = e^{-\\frac{1}{2\\sigma^2}\\left[ \\sum(x_i-\\mu_0)^2 - \\sum(x_i-\\bar{x})^2 \\right] }.$$\n4. Using identity $\\sum(x_i-\\mu_0)^2 = \\sum(x_i-\\bar{x})^2 + n(\\bar{x}-\\mu_0)^2$:\n$$\\lambda(x) = e^{-\\frac{n(\\bar{x}-\\mu_0)^2}{2\\sigma^2}}.$$\n5. **Critical Region**: Reject $H_0$ if $\\lambda(x) \\le \\lambda_0$:\n$$e^{-\\frac{n(\\bar{x}-\\mu_0)^2}{2\\sigma^2}} \\le \\lambda_0 \\implies \\frac{n(\\bar{x}-\\mu_0)^2}{2\\sigma^2} \\ge c \\implies \\left| \\frac{\\bar{x}-\\mu_0}{\\sigma/\\sqrt{n}} \\right| \\ge z_{\\alpha/2}$$\nwhere $z_{\\alpha/2}$ is the standard normal critical value. This is the standard two-tailed Z-test."
       }
-]
+    ]
   },
-  "stamj54": { "id": "stamj54", "title": "Practical based on STAMJ51, STAMJ52, STAMJ53", "module": "STAMJ54", "comingSoon": true },
-  "stamv51": { "id": "stamv51", "title": "Structure and Visualization of Data", "module": "STAMV51", "comingSoon": true },
-  "stamv52": { "id": "stamv52", "title": "Practical based on STAMV51", "module": "STAMV52", "comingSoon": true },
-  "stamj61": { "id": "stamj61", "title": "Stochastic Processes", "module": "STAMJ61", "comingSoon": true },
-  "stamj62": { "id": "stamj62", "title": "Statistical Process Control and Reliability", "module": "STAMJ62", "comingSoon": true },
-  "stamj63": { "id": "stamj63", "title": "Econometrics and Actuarial Statistics", "module": "STAMJ63", "comingSoon": true },
-  "stamj64": { "id": "stamj64", "title": "Official and Vital Statistics", "module": "STAMJ64", "comingSoon": true },
-  "stamj65": { "id": "stamj65", "title": "Practical based on STAMJ61, STAMJ62, STAMJ63", "module": "STAMJ65", "comingSoon": true },
-  "stamv61": { "id": "stamv61", "title": "Data Driven Decision Making", "module": "STAMV61", "comingSoon": true },
-  "stamv62": { "id": "stamv62", "title": "Practical based on STAMV61", "module": "STAMV62", "comingSoon": true },
-  "stamj71": { "id": "stamj71", "title": "Linear Models and Regression Analysis", "module": "STAMJ71", "comingSoon": true },
-  "stamj72": { "id": "stamj72", "title": "Measure and Probability Theory", "module": "STAMJ72", "comingSoon": true },
-  "stamj73": { "id": "stamj73", "title": "Survey Sampling", "module": "STAMJ73", "comingSoon": true },
-  "stamj74": { "id": "stamj74", "title": "Advanced Statistical Inference", "module": "STAMJ74", "comingSoon": true },
-  "stamj75": { "id": "stamj75", "title": "Practical based on STAMJ71", "module": "STAMJ75", "comingSoon": true },
-  "stamj76": { "id": "stamj76", "title": "Practical based on STAMJ73 and STAMJ74", "module": "STAMJ76", "comingSoon": true },
-  "stamj7r1": { "id": "stamj7r1", "title": "Linear Models and Regression Analysis", "module": "STAMJ7R1", "comingSoon": true },
-  "stamj7r2": { "id": "stamj7r2", "title": "Measure and Probability Theory", "module": "STAMJ7R2", "comingSoon": true },
-  "stamj7r3": { "id": "stamj7r3", "title": "Survey Sampling", "module": "STAMJ7R3", "comingSoon": true },
-  "stamj7r4": { "id": "stamj7r4", "title": "Advanced Statistical Inference", "module": "STAMJ7R4", "comingSoon": true },
-  "stamj7r5": { "id": "stamj7r5", "title": "Practical based on STAMJ7R1", "module": "STAMJ7R5", "comingSoon": true },
-  "stamj7r6": { "id": "stamj7r6", "title": "Practical based on STAMJ7R3 & STAMJ7R4", "module": "STAMJ7R6", "comingSoon": true },
-  "stamn71": { "id": "stamn71", "title": "Linear Models & Regression Analysis", "module": "STAMN71", "comingSoon": true },
-  "stamn72": { "id": "stamn72", "title": "Practical based on STAMN71", "module": "STAMN72", "comingSoon": true },
-  "stamn7r1": { "id": "stamn7r1", "title": "Linear Models & Regression Analysis", "module": "STAMN7R1", "comingSoon": true },
-  "stamn7r2": { "id": "stamn7r2", "title": "Practical based on STAMN7R1", "module": "STAMN7R2", "comingSoon": true },
-  "stads8r1": { "id": "stads8r1", "title": "Dissertation", "module": "STADS8R1", "comingSoon": true },
-  "stamj81": { "id": "stamj81", "title": "Design and Analysis of Experiment", "module": "STAMJ81", "comingSoon": true },
-  "stamj82": { "id": "stamj82", "title": "Multivariate Analysis", "module": "STAMJ82", "comingSoon": true },
-  "stamj83": { "id": "stamj83", "title": "Bayesian Inference", "module": "STAMJ83", "comingSoon": true },
-  "stamj84": { "id": "stamj84", "title": "Statistical Aspect of Machine Learning", "module": "STAMJ84", "comingSoon": true },
-  "stamj85": { "id": "stamj85", "title": "Practical based on STAMJ81", "module": "STAMJ85", "comingSoon": true },
-  "stamj86": { "id": "stamj86", "title": "Practical based on STAMJ82, STAMJ83, STAMJ84", "module": "STAMJ86", "comingSoon": true },
-  "stamj8r1": { "id": "stamj8r1", "title": "Distribution Theory", "module": "STAMJ8R1", "comingSoon": true },
-  "stamj8r2": { "id": "stamj8r2", "title": "Technical Demography", "module": "STAMJ8R2", "comingSoon": true },
-  "stamj8r3": { "id": "stamj8r3", "title": "Bayesian Inference", "module": "STAMJ8R3", "comingSoon": true },
-  "stamj8r4": { "id": "stamj8r4", "title": "Advanced Theory of Sample Survey", "module": "STAMJ8R4", "comingSoon": true },
-  "stamj8r5": { "id": "stamj8r5", "title": "Statistical Process of Quality Control", "module": "STAMJ8R5", "comingSoon": true },
-  "stamj8r6": { "id": "stamj8r6", "title": "Practical based on opted theory paper", "module": "STAMJ8R6", "comingSoon": true },
-  "stamn81": { "id": "stamn81", "title": "Design and Analysis of Experiment", "module": "STAMN81", "comingSoon": true },
-  "stamn82": { "id": "stamn82", "title": "Practical based on STAMN81", "module": "STAMN82", "comingSoon": true },
-  "stamn8r1": { "id": "stamn8r1", "title": "Distribution Theory", "module": "STAMN8R1", "comingSoon": true },
-  "stamn8r2": { "id": "stamn8r2", "title": "Practical based on STAMN8R1", "module": "STAMN8R2", "comingSoon": true },
-  "cscmd11": { "id": "cscmd11", "title": "Fundamentals of Computing", "module": "CSCMD11", "comingSoon": true },
-  "cscmj11": { "id": "cscmj11", "title": "Introduction to Programming using C", "module": "CSCMJ11", "comingSoon": true },
-  "cscse11": { "id": "cscse11", "title": "Web Designing", "module": "CSCSE11", "comingSoon": true },
-  "cscmd21": { "id": "cscmd21", "title": "Introduction to Information Technology", "module": "CSCMD21", "comingSoon": true },
-  "cscmj21": { "id": "cscmj21", "title": "Data Structures and Algorithms", "module": "CSCMJ21", "comingSoon": true },
-  "cscse21": { "id": "cscse21", "title": "Mobile Application Development", "module": "CSCSE21", "comingSoon": true },
-  "cscmd31": { "id": "cscmd31", "title": "Introduction to Cyber Security", "module": "CSCMD31", "comingSoon": true },
-  "cscmj31": { "id": "cscmj31", "title": "Digital Logic and Circuit Design", "module": "CSCMJ31", "comingSoon": true },
-  "cscmj32": { "id": "cscmj32", "title": "Object Oriented Programming", "module": "CSCMJ32", "comingSoon": true },
-  "cscmv31": { "id": "cscmv31", "title": "IT Tools and Applications", "module": "CSCMV31", "comingSoon": true },
-  "cscse31": { "id": "cscse31", "title": "Python Programming", "module": "CSCSE31", "comingSoon": true },
-  "cscmj41": { "id": "cscmj41", "title": "Mathematics For Computer Science", "module": "CSCMJ41", "comingSoon": true },
-  "cscmj42": { "id": "cscmj42", "title": "Database Management System", "module": "CSCMJ42", "comingSoon": true },
-  "cscmj43": { "id": "cscmj43", "title": "Computer Organization", "module": "CSCMJ43", "comingSoon": true },
-  "cscmj44": { "id": "cscmj44", "title": "Numerical Computing", "module": "CSCMJ44", "comingSoon": true },
-  "cscin51": { "id": "cscin51", "title": "Internship", "module": "CSCIN51", "comingSoon": true },
-  "cscmj51": { "id": "cscmj51", "title": "Operating System Concepts", "module": "CSCMJ51", "comingSoon": true },
-  "cscmj52": { "id": "cscmj52", "title": "Design and Analysis of Algorithms", "module": "CSCMJ52", "comingSoon": true },
-  "cscmj53": { "id": "cscmj53", "title": "Theory of Computation", "module": "CSCMJ53", "comingSoon": true },
-  "cscmj54": { "id": "cscmj54", "title": "Swayam Course", "module": "CSCMJ54", "comingSoon": true },
-  "cscmv51": { "id": "cscmv51", "title": "Introduction to Multimedia", "module": "CSCMV51", "comingSoon": true },
-  "cscmj61": { "id": "cscmj61", "title": "Software Engineering", "module": "CSCMJ61", "comingSoon": true },
-  "cscmj62": { "id": "cscmj62", "title": "Compiler Design", "module": "CSCMJ62", "comingSoon": true },
-  "cscmj63": { "id": "cscmj63", "title": "Computer Networks", "module": "CSCMJ63", "comingSoon": true },
-  "cscmj64": { "id": "cscmj64", "title": "Artificial Intelligence", "module": "CSCMJ64", "comingSoon": true },
-  "cscmv61": { "id": "cscmv61", "title": "Data Analysis and Visualization", "module": "CSCMV61", "comingSoon": true },
-  "cscmj71": { "id": "cscmj71", "title": "Machine Learning", "module": "CSCMJ71", "comingSoon": true },
-  "cscmj710": { "id": "cscmj710", "title": "Parallel Computing", "module": "CSCMJ710", "comingSoon": true },
-  "cscmj711": { "id": "cscmj711", "title": "Image Processing", "module": "CSCMJ711", "comingSoon": true },
-  "cscmj712": { "id": "cscmj712", "title": "Swayam Course", "module": "CSCMJ712", "comingSoon": true },
-  "cscmj72": { "id": "cscmj72", "title": "Research Methodology", "module": "CSCMJ72", "comingSoon": true },
-  "cscmj73": { "id": "cscmj73", "title": "Operations Research", "module": "CSCMJ73", "comingSoon": true },
-  "cscmj74": { "id": "cscmj74", "title": "Cloud Computing", "module": "CSCMJ74", "comingSoon": true },
-  "cscmj75": { "id": "cscmj75", "title": "Soft Computing", "module": "CSCMJ75", "comingSoon": true },
-  "cscmj76": { "id": "cscmj76", "title": "Network Security and Cryptography", "module": "CSCMJ76", "comingSoon": true },
-  "cscmj77": { "id": "cscmj77", "title": "Heuristics & Metaheuristics", "module": "CSCMJ77", "comingSoon": true },
-  "cscmj78": { "id": "cscmj78", "title": "Knowledge & Data Discovery", "module": "CSCMJ78", "comingSoon": true },
-  "cscmj79": { "id": "cscmj79", "title": "Distributed Systems", "module": "CSCMJ79", "comingSoon": true },
-  "cscmj7r1": { "id": "cscmj7r1", "title": "Machine Learning", "module": "CSCMJ7R1", "comingSoon": true },
-  "cscmj7r10": { "id": "cscmj7r10", "title": "Parallel Computing", "module": "CSCMJ7R10", "comingSoon": true },
-  "cscmj7r11": { "id": "cscmj7r11", "title": "Image Processing", "module": "CSCMJ7R11", "comingSoon": true },
-  "cscmj7r12": { "id": "cscmj7r12", "title": "Swayam Course", "module": "CSCMJ7R12", "comingSoon": true },
-  "cscmj7r2": { "id": "cscmj7r2", "title": "Research Methodology", "module": "CSCMJ7R2", "comingSoon": true },
-  "cscmj7r3": { "id": "cscmj7r3", "title": "Operations Research", "module": "CSCMJ7R3", "comingSoon": true },
-  "cscmj7r4": { "id": "cscmj7r4", "title": "Cloud Computing", "module": "CSCMJ7R4", "comingSoon": true },
-  "cscmj7r5": { "id": "cscmj7r5", "title": "Soft Computing", "module": "CSCMJ7R5", "comingSoon": true },
-  "cscmj7r6": { "id": "cscmj7r6", "title": "Network Security and Cryptography", "module": "CSCMJ7R6", "comingSoon": true },
-  "cscmj7r7": { "id": "cscmj7r7", "title": "Heuristics & Metaheuristics", "module": "CSCMJ7R7", "comingSoon": true },
-  "cscmj7r8": { "id": "cscmj7r8", "title": "Knowledge & Data Discovery", "module": "CSCMJ7R8", "comingSoon": true },
-  "cscmj7r9": { "id": "cscmj7r9", "title": "Distributed Systems", "module": "CSCMJ7R9", "comingSoon": true },
-  "cscmn71": { "id": "cscmn71", "title": "Machine Learning", "module": "CSCMN71", "comingSoon": true },
-  "cscds8r1": { "id": "cscds8r1", "title": "Dissertation", "module": "CSCDS8R1", "comingSoon": true },
-  "cscmj81": { "id": "cscmj81", "title": "Deep Learning", "module": "CSCMJ81", "comingSoon": true },
-  "cscmj810": { "id": "cscmj810", "title": "Big Data Analytics", "module": "CSCMJ810", "comingSoon": true },
-  "cscmj811": { "id": "cscmj811", "title": "Quantum Computing", "module": "CSCMJ811", "comingSoon": true },
-  "cscmj812": { "id": "cscmj812", "title": "Swayam Course", "module": "CSCMJ812", "comingSoon": true },
-  "cscmj82": { "id": "cscmj82", "title": "Internet of Things", "module": "CSCMJ82", "comingSoon": true },
-  "cscmj83": { "id": "cscmj83", "title": "Blockchain Technology", "module": "CSCMJ83", "comingSoon": true },
-  "cscmj84": { "id": "cscmj84", "title": "Information Retrieval", "module": "CSCMJ84", "comingSoon": true },
-  "cscmj85": { "id": "cscmj85", "title": "Statistical Pattern Recognition", "module": "CSCMJ85", "comingSoon": true },
-  "cscmj86": { "id": "cscmj86", "title": "Image Analysis and Computer Vision", "module": "CSCMJ86", "comingSoon": true },
-  "cscmj87": { "id": "cscmj87", "title": "Natural Language Processing", "module": "CSCMJ87", "comingSoon": true },
-  "cscmj88": { "id": "cscmj88", "title": "Data Compression", "module": "CSCMJ88", "comingSoon": true },
-  "cscmj89": { "id": "cscmj89", "title": "Mobile Adhoc Networks", "module": "CSCMJ89", "comingSoon": true },
-  "cscmj8r1": { "id": "cscmj8r1", "title": "Deep Learning", "module": "CSCMJ8R1", "comingSoon": true },
-  "cscmj8r10": { "id": "cscmj8r10", "title": "Big Data Analytics", "module": "CSCMJ8R10", "comingSoon": true },
-  "cscmj8r11": { "id": "cscmj8r11", "title": "Quantum Computing", "module": "CSCMJ8R11", "comingSoon": true },
-  "cscmj8r2": { "id": "cscmj8r2", "title": "Internet of Things", "module": "CSCMJ8R2", "comingSoon": true },
-  "cscmj8r3": { "id": "cscmj8r3", "title": "Blockchain Technology", "module": "CSCMJ8R3", "comingSoon": true },
-  "cscmj8r4": { "id": "cscmj8r4", "title": "Information Retrieval", "module": "CSCMJ8R4", "comingSoon": true },
-  "cscmj8r5": { "id": "cscmj8r5", "title": "Statistical Pattern Recognition", "module": "CSCMJ8R5", "comingSoon": true },
-  "cscmj8r6": { "id": "cscmj8r6", "title": "Image Analysis and Computer Vision", "module": "CSCMJ8R6", "comingSoon": true },
-  "cscmj8r7": { "id": "cscmj8r7", "title": "Natural Language Processing", "module": "CSCMJ8R7", "comingSoon": true },
-  "cscmj8r8": { "id": "cscmj8r8", "title": "Data Compression", "module": "CSCMJ8R8", "comingSoon": true },
-  "cscmj8r9": { "id": "cscmj8r9", "title": "Mobile Adhoc Networks", "module": "CSCMJ8R9", "comingSoon": true },
-  "chemd11": { "id": "chemd11", "title": "Basic Principles of Chemistry and Its Applications", "module": "CHEMD11", "comingSoon": true },
-  "chemj11": { "id": "chemj11", "title": "Basic Concepts of Chemistry-I", "module": "CHEMJ11", "comingSoon": true },
-  "chemj12": { "id": "chemj12", "title": "Lab Work - I", "module": "CHEMJ12", "comingSoon": true },
-  "chemn11": { "id": "chemn11", "title": "Basic Concepts of Chemistry-I", "module": "CHEMN11", "comingSoon": true },
-  "chemn12": { "id": "chemn12", "title": "Lab Work - I", "module": "CHEMN12", "comingSoon": true },
-  "chese11": { "id": "chese11", "title": "Quality Control in Chemical Analysis", "module": "CHESE11", "comingSoon": true },
-  "chemd21": { "id": "chemd21", "title": "Energy & Metallurgy", "module": "CHEMD21", "comingSoon": true },
-  "chemj21": { "id": "chemj21", "title": "Basic Concepts of Chemistry-II", "module": "CHEMJ21", "comingSoon": true },
-  "chemj22": { "id": "chemj22", "title": "Lab Work - II", "module": "CHEMJ22", "comingSoon": true },
-  "chemn21": { "id": "chemn21", "title": "Basic Concepts of Chemistry-II", "module": "CHEMN21", "comingSoon": true },
-  "chemn22": { "id": "chemn22", "title": "Lab Work - II", "module": "CHEMN22", "comingSoon": true },
-  "chese21": { "id": "chese21", "title": "Instrumentation in Chemical Industry", "module": "CHESE21", "comingSoon": true },
-  "chemd31": { "id": "chemd31", "title": "Environmental Chemistry", "module": "CHEMD31", "comingSoon": true },
-  "chemj31": { "id": "chemj31", "title": "Inorganic Chemistry - I", "module": "CHEMJ31", "comingSoon": true },
-  "chemj32": { "id": "chemj32", "title": "Organic Chemistry - I", "module": "CHEMJ32", "comingSoon": true },
-  "chemj33": { "id": "chemj33", "title": "Physical Chemistry - I", "module": "CHEMJ33", "comingSoon": true },
-  "chemj34": { "id": "chemj34", "title": "Qualitative Analysis and Thermochemistry", "module": "CHEMJ34", "comingSoon": true },
-  "chemv31": { "id": "chemv31", "title": "Industrial Chemistry-I", "module": "CHEMV31", "comingSoon": true },
-  "chemv32": { "id": "chemv32", "title": "Industrial Chemistry Lab Work-I", "module": "CHEMV32", "comingSoon": true },
-  "chese31": { "id": "chese31", "title": "Synthetic Methodologies", "module": "CHESE31", "comingSoon": true },
+  "stamj54": {
+    "id": "stamj54",
+    "title": "Practical based on STAMJ51, STAMJ52, STAMJ53",
+    "module": "STAMJ54",
+    "comingSoon": true
+  },
+  "stamv51": {
+    "id": "stamv51",
+    "title": "Structure and Visualization of Data",
+    "module": "STAMV51",
+    "comingSoon": true
+  },
+  "stamv52": {
+    "id": "stamv52",
+    "title": "Practical based on STAMV51",
+    "module": "STAMV52",
+    "comingSoon": true
+  },
+  "stamj61": {
+    "id": "stamj61",
+    "title": "Stochastic Processes",
+    "module": "STAMJ61",
+    "comingSoon": true
+  },
+  "stamj62": {
+    "id": "stamj62",
+    "title": "Statistical Process Control and Reliability",
+    "module": "STAMJ62",
+    "comingSoon": true
+  },
+  "stamj63": {
+    "id": "stamj63",
+    "title": "Econometrics and Actuarial Statistics",
+    "module": "STAMJ63",
+    "comingSoon": true
+  },
+  "stamj64": {
+    "id": "stamj64",
+    "title": "Official and Vital Statistics",
+    "module": "STAMJ64",
+    "comingSoon": true
+  },
+  "stamj65": {
+    "id": "stamj65",
+    "title": "Practical based on STAMJ61, STAMJ62, STAMJ63",
+    "module": "STAMJ65",
+    "comingSoon": true
+  },
+  "stamv61": {
+    "id": "stamv61",
+    "title": "Data Driven Decision Making",
+    "module": "STAMV61",
+    "comingSoon": true
+  },
+  "stamv62": {
+    "id": "stamv62",
+    "title": "Practical based on STAMV61",
+    "module": "STAMV62",
+    "comingSoon": true
+  },
+  "stamj71": {
+    "id": "stamj71",
+    "title": "Linear Models and Regression Analysis",
+    "module": "STAMJ71",
+    "comingSoon": true
+  },
+  "stamj72": {
+    "id": "stamj72",
+    "title": "Measure and Probability Theory",
+    "module": "STAMJ72",
+    "comingSoon": true
+  },
+  "stamj73": {
+    "id": "stamj73",
+    "title": "Survey Sampling",
+    "module": "STAMJ73",
+    "comingSoon": true
+  },
+  "stamj74": {
+    "id": "stamj74",
+    "title": "Advanced Statistical Inference",
+    "module": "STAMJ74",
+    "comingSoon": true
+  },
+  "stamj75": {
+    "id": "stamj75",
+    "title": "Practical based on STAMJ71",
+    "module": "STAMJ75",
+    "comingSoon": true
+  },
+  "stamj76": {
+    "id": "stamj76",
+    "title": "Practical based on STAMJ73 and STAMJ74",
+    "module": "STAMJ76",
+    "comingSoon": true
+  },
+  "stamj7r1": {
+    "id": "stamj7r1",
+    "title": "Linear Models and Regression Analysis",
+    "module": "STAMJ7R1",
+    "comingSoon": true
+  },
+  "stamj7r2": {
+    "id": "stamj7r2",
+    "title": "Measure and Probability Theory",
+    "module": "STAMJ7R2",
+    "comingSoon": true
+  },
+  "stamj7r3": {
+    "id": "stamj7r3",
+    "title": "Survey Sampling",
+    "module": "STAMJ7R3",
+    "comingSoon": true
+  },
+  "stamj7r4": {
+    "id": "stamj7r4",
+    "title": "Advanced Statistical Inference",
+    "module": "STAMJ7R4",
+    "comingSoon": true
+  },
+  "stamj7r5": {
+    "id": "stamj7r5",
+    "title": "Practical based on STAMJ7R1",
+    "module": "STAMJ7R5",
+    "comingSoon": true
+  },
+  "stamj7r6": {
+    "id": "stamj7r6",
+    "title": "Practical based on STAMJ7R3 & STAMJ7R4",
+    "module": "STAMJ7R6",
+    "comingSoon": true
+  },
+  "stamn71": {
+    "id": "stamn71",
+    "title": "Linear Models & Regression Analysis",
+    "module": "STAMN71",
+    "comingSoon": true
+  },
+  "stamn72": {
+    "id": "stamn72",
+    "title": "Practical based on STAMN71",
+    "module": "STAMN72",
+    "comingSoon": true
+  },
+  "stamn7r1": {
+    "id": "stamn7r1",
+    "title": "Linear Models & Regression Analysis",
+    "module": "STAMN7R1",
+    "comingSoon": true
+  },
+  "stamn7r2": {
+    "id": "stamn7r2",
+    "title": "Practical based on STAMN7R1",
+    "module": "STAMN7R2",
+    "comingSoon": true
+  },
+  "stads8r1": {
+    "id": "stads8r1",
+    "title": "Dissertation",
+    "module": "STADS8R1",
+    "comingSoon": true
+  },
+  "stamj81": {
+    "id": "stamj81",
+    "title": "Design and Analysis of Experiment",
+    "module": "STAMJ81",
+    "comingSoon": true
+  },
+  "stamj82": {
+    "id": "stamj82",
+    "title": "Multivariate Analysis",
+    "module": "STAMJ82",
+    "comingSoon": true
+  },
+  "stamj83": {
+    "id": "stamj83",
+    "title": "Bayesian Inference",
+    "module": "STAMJ83",
+    "comingSoon": true
+  },
+  "stamj84": {
+    "id": "stamj84",
+    "title": "Statistical Aspect of Machine Learning",
+    "module": "STAMJ84",
+    "comingSoon": true
+  },
+  "stamj85": {
+    "id": "stamj85",
+    "title": "Practical based on STAMJ81",
+    "module": "STAMJ85",
+    "comingSoon": true
+  },
+  "stamj86": {
+    "id": "stamj86",
+    "title": "Practical based on STAMJ82, STAMJ83, STAMJ84",
+    "module": "STAMJ86",
+    "comingSoon": true
+  },
+  "stamj8r1": {
+    "id": "stamj8r1",
+    "title": "Distribution Theory",
+    "module": "STAMJ8R1",
+    "comingSoon": true
+  },
+  "stamj8r2": {
+    "id": "stamj8r2",
+    "title": "Technical Demography",
+    "module": "STAMJ8R2",
+    "comingSoon": true
+  },
+  "stamj8r3": {
+    "id": "stamj8r3",
+    "title": "Bayesian Inference",
+    "module": "STAMJ8R3",
+    "comingSoon": true
+  },
+  "stamj8r4": {
+    "id": "stamj8r4",
+    "title": "Advanced Theory of Sample Survey",
+    "module": "STAMJ8R4",
+    "comingSoon": true
+  },
+  "stamj8r5": {
+    "id": "stamj8r5",
+    "title": "Statistical Process of Quality Control",
+    "module": "STAMJ8R5",
+    "comingSoon": true
+  },
+  "stamj8r6": {
+    "id": "stamj8r6",
+    "title": "Practical based on opted theory paper",
+    "module": "STAMJ8R6",
+    "comingSoon": true
+  },
+  "stamn81": {
+    "id": "stamn81",
+    "title": "Design and Analysis of Experiment",
+    "module": "STAMN81",
+    "comingSoon": true
+  },
+  "stamn82": {
+    "id": "stamn82",
+    "title": "Practical based on STAMN81",
+    "module": "STAMN82",
+    "comingSoon": true
+  },
+  "stamn8r1": {
+    "id": "stamn8r1",
+    "title": "Distribution Theory",
+    "module": "STAMN8R1",
+    "comingSoon": true
+  },
+  "stamn8r2": {
+    "id": "stamn8r2",
+    "title": "Practical based on STAMN8R1",
+    "module": "STAMN8R2",
+    "comingSoon": true
+  },
+  "cscmd11": {
+    "id": "cscmd11",
+    "title": "Fundamentals of Computing",
+    "module": "CSCMD11",
+    "comingSoon": true
+  },
+  "cscmj11": {
+    "id": "cscmj11",
+    "title": "Introduction to Programming using C",
+    "module": "CSCMJ11",
+    "comingSoon": true
+  },
+  "cscse11": {
+    "id": "cscse11",
+    "title": "Web Designing",
+    "module": "CSCSE11",
+    "comingSoon": true
+  },
+  "cscmd21": {
+    "id": "cscmd21",
+    "title": "Introduction to Information Technology",
+    "module": "CSCMD21",
+    "comingSoon": true
+  },
+  "cscmj21": {
+    "id": "cscmj21",
+    "title": "Data Structures and Algorithms",
+    "module": "CSCMJ21",
+    "comingSoon": true
+  },
+  "cscse21": {
+    "id": "cscse21",
+    "title": "Mobile Application Development",
+    "module": "CSCSE21",
+    "comingSoon": true
+  },
+  "cscmd31": {
+    "id": "cscmd31",
+    "title": "Introduction to Cyber Security",
+    "module": "CSCMD31",
+    "comingSoon": true
+  },
+  "cscmj31": {
+    "id": "cscmj31",
+    "title": "Digital Logic and Circuit Design",
+    "module": "CSCMJ31",
+    "comingSoon": true
+  },
+  "cscmj32": {
+    "id": "cscmj32",
+    "title": "Object Oriented Programming",
+    "module": "CSCMJ32",
+    "comingSoon": true
+  },
+  "cscmv31": {
+    "id": "cscmv31",
+    "title": "IT Tools and Applications",
+    "module": "CSCMV31",
+    "comingSoon": true
+  },
+  "cscse31": {
+    "id": "cscse31",
+    "title": "Python Programming",
+    "module": "CSCSE31",
+    "comingSoon": true
+  },
+  "cscmj41": {
+    "id": "cscmj41",
+    "title": "Mathematics For Computer Science",
+    "module": "CSCMJ41",
+    "comingSoon": true
+  },
+  "cscmj42": {
+    "id": "cscmj42",
+    "title": "Database Management System",
+    "module": "CSCMJ42",
+    "comingSoon": true
+  },
+  "cscmj43": {
+    "id": "cscmj43",
+    "title": "Computer Organization",
+    "module": "CSCMJ43",
+    "comingSoon": true
+  },
+  "cscmj44": {
+    "id": "cscmj44",
+    "title": "Numerical Computing",
+    "module": "CSCMJ44",
+    "comingSoon": true
+  },
+  "cscin51": {
+    "id": "cscin51",
+    "title": "Internship",
+    "module": "CSCIN51",
+    "comingSoon": true
+  },
+  "cscmj51": {
+    "id": "cscmj51",
+    "title": "Operating System Concepts",
+    "module": "CSCMJ51",
+    "comingSoon": true
+  },
+  "cscmj52": {
+    "id": "cscmj52",
+    "title": "Design and Analysis of Algorithms",
+    "module": "CSCMJ52",
+    "comingSoon": true
+  },
+  "cscmj53": {
+    "id": "cscmj53",
+    "title": "Theory of Computation",
+    "module": "CSCMJ53",
+    "comingSoon": true
+  },
+  "cscmj54": {
+    "id": "cscmj54",
+    "title": "Swayam Course",
+    "module": "CSCMJ54",
+    "comingSoon": true
+  },
+  "cscmv51": {
+    "id": "cscmv51",
+    "title": "Introduction to Multimedia",
+    "module": "CSCMV51",
+    "comingSoon": true
+  },
+  "cscmj61": {
+    "id": "cscmj61",
+    "title": "Software Engineering",
+    "module": "CSCMJ61",
+    "comingSoon": true
+  },
+  "cscmj62": {
+    "id": "cscmj62",
+    "title": "Compiler Design",
+    "module": "CSCMJ62",
+    "comingSoon": true
+  },
+  "cscmj63": {
+    "id": "cscmj63",
+    "title": "Computer Networks",
+    "module": "CSCMJ63",
+    "comingSoon": true
+  },
+  "cscmj64": {
+    "id": "cscmj64",
+    "title": "Artificial Intelligence",
+    "module": "CSCMJ64",
+    "comingSoon": true
+  },
+  "cscmv61": {
+    "id": "cscmv61",
+    "title": "Data Analysis and Visualization",
+    "module": "CSCMV61",
+    "comingSoon": true
+  },
+  "cscmj71": {
+    "id": "cscmj71",
+    "title": "Machine Learning",
+    "module": "CSCMJ71",
+    "comingSoon": true
+  },
+  "cscmj710": {
+    "id": "cscmj710",
+    "title": "Parallel Computing",
+    "module": "CSCMJ710",
+    "comingSoon": true
+  },
+  "cscmj711": {
+    "id": "cscmj711",
+    "title": "Image Processing",
+    "module": "CSCMJ711",
+    "comingSoon": true
+  },
+  "cscmj712": {
+    "id": "cscmj712",
+    "title": "Swayam Course",
+    "module": "CSCMJ712",
+    "comingSoon": true
+  },
+  "cscmj72": {
+    "id": "cscmj72",
+    "title": "Research Methodology",
+    "module": "CSCMJ72",
+    "comingSoon": true
+  },
+  "cscmj73": {
+    "id": "cscmj73",
+    "title": "Operations Research",
+    "module": "CSCMJ73",
+    "comingSoon": true
+  },
+  "cscmj74": {
+    "id": "cscmj74",
+    "title": "Cloud Computing",
+    "module": "CSCMJ74",
+    "comingSoon": true
+  },
+  "cscmj75": {
+    "id": "cscmj75",
+    "title": "Soft Computing",
+    "module": "CSCMJ75",
+    "comingSoon": true
+  },
+  "cscmj76": {
+    "id": "cscmj76",
+    "title": "Network Security and Cryptography",
+    "module": "CSCMJ76",
+    "comingSoon": true
+  },
+  "cscmj77": {
+    "id": "cscmj77",
+    "title": "Heuristics & Metaheuristics",
+    "module": "CSCMJ77",
+    "comingSoon": true
+  },
+  "cscmj78": {
+    "id": "cscmj78",
+    "title": "Knowledge & Data Discovery",
+    "module": "CSCMJ78",
+    "comingSoon": true
+  },
+  "cscmj79": {
+    "id": "cscmj79",
+    "title": "Distributed Systems",
+    "module": "CSCMJ79",
+    "comingSoon": true
+  },
+  "cscmj7r1": {
+    "id": "cscmj7r1",
+    "title": "Machine Learning",
+    "module": "CSCMJ7R1",
+    "comingSoon": true
+  },
+  "cscmj7r10": {
+    "id": "cscmj7r10",
+    "title": "Parallel Computing",
+    "module": "CSCMJ7R10",
+    "comingSoon": true
+  },
+  "cscmj7r11": {
+    "id": "cscmj7r11",
+    "title": "Image Processing",
+    "module": "CSCMJ7R11",
+    "comingSoon": true
+  },
+  "cscmj7r12": {
+    "id": "cscmj7r12",
+    "title": "Swayam Course",
+    "module": "CSCMJ7R12",
+    "comingSoon": true
+  },
+  "cscmj7r2": {
+    "id": "cscmj7r2",
+    "title": "Research Methodology",
+    "module": "CSCMJ7R2",
+    "comingSoon": true
+  },
+  "cscmj7r3": {
+    "id": "cscmj7r3",
+    "title": "Operations Research",
+    "module": "CSCMJ7R3",
+    "comingSoon": true
+  },
+  "cscmj7r4": {
+    "id": "cscmj7r4",
+    "title": "Cloud Computing",
+    "module": "CSCMJ7R4",
+    "comingSoon": true
+  },
+  "cscmj7r5": {
+    "id": "cscmj7r5",
+    "title": "Soft Computing",
+    "module": "CSCMJ7R5",
+    "comingSoon": true
+  },
+  "cscmj7r6": {
+    "id": "cscmj7r6",
+    "title": "Network Security and Cryptography",
+    "module": "CSCMJ7R6",
+    "comingSoon": true
+  },
+  "cscmj7r7": {
+    "id": "cscmj7r7",
+    "title": "Heuristics & Metaheuristics",
+    "module": "CSCMJ7R7",
+    "comingSoon": true
+  },
+  "cscmj7r8": {
+    "id": "cscmj7r8",
+    "title": "Knowledge & Data Discovery",
+    "module": "CSCMJ7R8",
+    "comingSoon": true
+  },
+  "cscmj7r9": {
+    "id": "cscmj7r9",
+    "title": "Distributed Systems",
+    "module": "CSCMJ7R9",
+    "comingSoon": true
+  },
+  "cscmn71": {
+    "id": "cscmn71",
+    "title": "Machine Learning",
+    "module": "CSCMN71",
+    "comingSoon": true
+  },
+  "cscds8r1": {
+    "id": "cscds8r1",
+    "title": "Dissertation",
+    "module": "CSCDS8R1",
+    "comingSoon": true
+  },
+  "cscmj81": {
+    "id": "cscmj81",
+    "title": "Deep Learning",
+    "module": "CSCMJ81",
+    "comingSoon": true
+  },
+  "cscmj810": {
+    "id": "cscmj810",
+    "title": "Big Data Analytics",
+    "module": "CSCMJ810",
+    "comingSoon": true
+  },
+  "cscmj811": {
+    "id": "cscmj811",
+    "title": "Quantum Computing",
+    "module": "CSCMJ811",
+    "comingSoon": true
+  },
+  "cscmj812": {
+    "id": "cscmj812",
+    "title": "Swayam Course",
+    "module": "CSCMJ812",
+    "comingSoon": true
+  },
+  "cscmj82": {
+    "id": "cscmj82",
+    "title": "Internet of Things",
+    "module": "CSCMJ82",
+    "comingSoon": true
+  },
+  "cscmj83": {
+    "id": "cscmj83",
+    "title": "Blockchain Technology",
+    "module": "CSCMJ83",
+    "comingSoon": true
+  },
+  "cscmj84": {
+    "id": "cscmj84",
+    "title": "Information Retrieval",
+    "module": "CSCMJ84",
+    "comingSoon": true
+  },
+  "cscmj85": {
+    "id": "cscmj85",
+    "title": "Statistical Pattern Recognition",
+    "module": "CSCMJ85",
+    "comingSoon": true
+  },
+  "cscmj86": {
+    "id": "cscmj86",
+    "title": "Image Analysis and Computer Vision",
+    "module": "CSCMJ86",
+    "comingSoon": true
+  },
+  "cscmj87": {
+    "id": "cscmj87",
+    "title": "Natural Language Processing",
+    "module": "CSCMJ87",
+    "comingSoon": true
+  },
+  "cscmj88": {
+    "id": "cscmj88",
+    "title": "Data Compression",
+    "module": "CSCMJ88",
+    "comingSoon": true
+  },
+  "cscmj89": {
+    "id": "cscmj89",
+    "title": "Mobile Adhoc Networks",
+    "module": "CSCMJ89",
+    "comingSoon": true
+  },
+  "cscmj8r1": {
+    "id": "cscmj8r1",
+    "title": "Deep Learning",
+    "module": "CSCMJ8R1",
+    "comingSoon": true
+  },
+  "cscmj8r10": {
+    "id": "cscmj8r10",
+    "title": "Big Data Analytics",
+    "module": "CSCMJ8R10",
+    "comingSoon": true
+  },
+  "cscmj8r11": {
+    "id": "cscmj8r11",
+    "title": "Quantum Computing",
+    "module": "CSCMJ8R11",
+    "comingSoon": true
+  },
+  "cscmj8r2": {
+    "id": "cscmj8r2",
+    "title": "Internet of Things",
+    "module": "CSCMJ8R2",
+    "comingSoon": true
+  },
+  "cscmj8r3": {
+    "id": "cscmj8r3",
+    "title": "Blockchain Technology",
+    "module": "CSCMJ8R3",
+    "comingSoon": true
+  },
+  "cscmj8r4": {
+    "id": "cscmj8r4",
+    "title": "Information Retrieval",
+    "module": "CSCMJ8R4",
+    "comingSoon": true
+  },
+  "cscmj8r5": {
+    "id": "cscmj8r5",
+    "title": "Statistical Pattern Recognition",
+    "module": "CSCMJ8R5",
+    "comingSoon": true
+  },
+  "cscmj8r6": {
+    "id": "cscmj8r6",
+    "title": "Image Analysis and Computer Vision",
+    "module": "CSCMJ8R6",
+    "comingSoon": true
+  },
+  "cscmj8r7": {
+    "id": "cscmj8r7",
+    "title": "Natural Language Processing",
+    "module": "CSCMJ8R7",
+    "comingSoon": true
+  },
+  "cscmj8r8": {
+    "id": "cscmj8r8",
+    "title": "Data Compression",
+    "module": "CSCMJ8R8",
+    "comingSoon": true
+  },
+  "cscmj8r9": {
+    "id": "cscmj8r9",
+    "title": "Mobile Adhoc Networks",
+    "module": "CSCMJ8R9",
+    "comingSoon": true
+  },
+  "chemd11": {
+    "id": "chemd11",
+    "title": "Basic Principles of Chemistry and Its Applications",
+    "module": "CHEMD11",
+    "comingSoon": true
+  },
+  "chemj11": {
+    "id": "chemj11",
+    "title": "Basic Concepts of Chemistry-I",
+    "module": "CHEMJ11",
+    "comingSoon": true
+  },
+  "chemj12": {
+    "id": "chemj12",
+    "title": "Lab Work - I",
+    "module": "CHEMJ12",
+    "comingSoon": true
+  },
+  "chemn11": {
+    "id": "chemn11",
+    "title": "Basic Concepts of Chemistry-I",
+    "module": "CHEMN11",
+    "comingSoon": true
+  },
+  "chemn12": {
+    "id": "chemn12",
+    "title": "Lab Work - I",
+    "module": "CHEMN12",
+    "comingSoon": true
+  },
+  "chese11": {
+    "id": "chese11",
+    "title": "Quality Control in Chemical Analysis",
+    "module": "CHESE11",
+    "comingSoon": true
+  },
+  "chemd21": {
+    "id": "chemd21",
+    "title": "Energy & Metallurgy",
+    "module": "CHEMD21",
+    "comingSoon": true
+  },
+  "chemj21": {
+    "id": "chemj21",
+    "title": "Basic Concepts of Chemistry-II",
+    "module": "CHEMJ21",
+    "comingSoon": true
+  },
+  "chemj22": {
+    "id": "chemj22",
+    "title": "Lab Work - II",
+    "module": "CHEMJ22",
+    "comingSoon": true
+  },
+  "chemn21": {
+    "id": "chemn21",
+    "title": "Basic Concepts of Chemistry-II",
+    "module": "CHEMN21",
+    "comingSoon": true
+  },
+  "chemn22": {
+    "id": "chemn22",
+    "title": "Lab Work - II",
+    "module": "CHEMN22",
+    "comingSoon": true
+  },
+  "chese21": {
+    "id": "chese21",
+    "title": "Instrumentation in Chemical Industry",
+    "module": "CHESE21",
+    "comingSoon": true
+  },
+  "chemd31": {
+    "id": "chemd31",
+    "title": "Environmental Chemistry",
+    "module": "CHEMD31",
+    "comingSoon": true
+  },
+  "chemj31": {
+    "id": "chemj31",
+    "title": "Inorganic Chemistry - I",
+    "module": "CHEMJ31",
+    "comingSoon": true
+  },
+  "chemj32": {
+    "id": "chemj32",
+    "title": "Organic Chemistry - I",
+    "module": "CHEMJ32",
+    "comingSoon": true
+  },
+  "chemj33": {
+    "id": "chemj33",
+    "title": "Physical Chemistry - I",
+    "module": "CHEMJ33",
+    "comingSoon": true
+  },
+  "chemj34": {
+    "id": "chemj34",
+    "title": "Qualitative Analysis and Thermochemistry",
+    "module": "CHEMJ34",
+    "comingSoon": true
+  },
+  "chemv31": {
+    "id": "chemv31",
+    "title": "Industrial Chemistry-I",
+    "module": "CHEMV31",
+    "comingSoon": true
+  },
+  "chemv32": {
+    "id": "chemv32",
+    "title": "Industrial Chemistry Lab Work-I",
+    "module": "CHEMV32",
+    "comingSoon": true
+  },
+  "chese31": {
+    "id": "chese31",
+    "title": "Synthetic Methodologies",
+    "module": "CHESE31",
+    "comingSoon": true
+  },
   "chemj41": {
     "id": "chemj41",
     "title": "Inorganic Chemistry - II",
@@ -5024,88 +6511,498 @@ export const EXAMS = {
       }
     ]
   },
-  "chemj42": { "id": "chemj42", "title": "Organic Chemistry - II", "module": "CHEMJ42", "comingSoon": true },
-  "chemj43": { "id": "chemj43", "title": "Physical Chemistry - II", "module": "CHEMJ43", "comingSoon": true },
-  "chemj44": { "id": "chemj44", "title": "Techniques in Chemistry", "module": "CHEMJ44", "comingSoon": true },
-  "chemj45": { "id": "chemj45", "title": "Physical Chemistry Lab Work", "module": "CHEMJ45", "comingSoon": true },
-  "chemj46": { "id": "chemj46", "title": "Organic and Inorganic Chemistry Lab Work", "module": "CHEMJ46", "comingSoon": true },
-  "chemn41": { "id": "chemn41", "title": "Physical Chemistry - II", "module": "CHEMN41", "comingSoon": true },
-  "chemn42": { "id": "chemn42", "title": "Techniques in Chemistry", "module": "CHEMN42", "comingSoon": true },
-  "chemin51": { "id": "chemin51", "title": "Internship", "module": "CHEMIN51", "comingSoon": true },
-  "chemj51": { "id": "chemj51", "title": "Analytical Chemistry - I", "module": "CHEMJ51", "comingSoon": true },
-  "chemj52": { "id": "chemj52", "title": "Inorganic Chemistry - III", "module": "CHEMJ52", "comingSoon": true },
-  "chemj53": { "id": "chemj53", "title": "Organic Chemistry - III", "module": "CHEMJ53", "comingSoon": true },
-  "chemj54": { "id": "chemj54", "title": "Physical Chemistry - III", "module": "CHEMJ54", "comingSoon": true },
-  "chemj55": { "id": "chemj55", "title": "Physical Chemistry Lab Work", "module": "CHEMJ55", "comingSoon": true },
-  "chemj56": { "id": "chemj56", "title": "Systematic Organic Analysis", "module": "CHEMJ56", "comingSoon": true },
-  "chemv51": { "id": "chemv51", "title": "Food Adulteration and Detection", "module": "CHEMV51", "comingSoon": true },
-  "chemv52": { "id": "chemv52", "title": "Food Adulteration and Detection Lab Work", "module": "CHEMV52", "comingSoon": true },
-  "chemj61": { "id": "chemj61", "title": "Analytical Chemistry - II", "module": "CHEMJ61", "comingSoon": true },
-  "chemj62": { "id": "chemj62", "title": "Inorganic Chemistry - IV", "module": "CHEMJ62", "comingSoon": true },
-  "chemj63": { "id": "chemj63", "title": "Organic Chemistry - IV", "module": "CHEMJ63", "comingSoon": true },
-  "chemj64": { "id": "chemj64", "title": "Physical Chemistry - IV", "module": "CHEMJ64", "comingSoon": true },
-  "chemj65": { "id": "chemj65", "title": "Physical Chemistry Lab Work", "module": "CHEMJ65", "comingSoon": true },
-  "chemj66": { "id": "chemj66", "title": "Quantitative Inorganic Analysis", "module": "CHEMJ66", "comingSoon": true },
-  "chemj67": { "id": "chemj67", "title": "Organic Chemistry Lab Work", "module": "CHEMJ67", "comingSoon": true },
-  "chemv61": { "id": "chemv61", "title": "Industrial Chemistry - II", "module": "CHEMV61", "comingSoon": true },
-  "chemv62": { "id": "chemv62", "title": "Industrial Chemistry Lab Work-II", "module": "CHEMV62", "comingSoon": true },
-  "chemj71": { "id": "chemj71", "title": "Analytical Chemistry - III", "module": "CHEMJ71", "comingSoon": true },
-  "chemj72": { "id": "chemj72", "title": "Inorganic Chemistry - V", "module": "CHEMJ72", "comingSoon": true },
-  "chemj73": { "id": "chemj73", "title": "Organic Chemistry - V", "module": "CHEMJ73", "comingSoon": true },
-  "chemj74": { "id": "chemj74", "title": "Physical Chemistry - V", "module": "CHEMJ74", "comingSoon": true },
-  "chemj75": { "id": "chemj75", "title": "Material Chemistry", "module": "CHEMJ75", "comingSoon": true },
-  "chemj76": { "id": "chemj76", "title": "Physical Chemistry Lab Work", "module": "CHEMJ76", "comingSoon": true },
-  "chemj77": { "id": "chemj77", "title": "Inorganic Chemistry Lab Work", "module": "CHEMJ77", "comingSoon": true },
-  "chemj78": { "id": "chemj78", "title": "Organic Chemistry Lab Work", "module": "CHEMJ78", "comingSoon": true },
-  "chemj7r1": { "id": "chemj7r1", "title": "Analytical Chemistry - III", "module": "CHEMJ7R1", "comingSoon": true },
-  "chemj7r2": { "id": "chemj7r2", "title": "Inorganic Chemistry - V", "module": "CHEMJ7R2", "comingSoon": true },
-  "chemj7r3": { "id": "chemj7r3", "title": "Organic Chemistry - V", "module": "CHEMJ7R3", "comingSoon": true },
-  "chemj7r4": { "id": "chemj7r4", "title": "Physical Chemistry - V", "module": "CHEMJ7R4", "comingSoon": true },
-  "chemj7r5": { "id": "chemj7r5", "title": "Material Chemistry", "module": "CHEMJ7R5", "comingSoon": true },
-  "chemj7r6": { "id": "chemj7r6", "title": "Physical Chemistry Lab Work", "module": "CHEMJ7R6", "comingSoon": true },
-  "chemj7r7": { "id": "chemj7r7", "title": "Inorganic Chemistry Lab Work", "module": "CHEMJ7R7", "comingSoon": true },
-  "chemj7r8": { "id": "chemj7r8", "title": "Organic Chemistry Lab Work", "module": "CHEMJ7R8", "comingSoon": true },
-  "chemn71": { "id": "chemn71", "title": "Analytical Chemistry - III", "module": "CHEMN71", "comingSoon": true },
-  "chemn72": { "id": "chemn72", "title": "Inorganic Chemistry - V", "module": "CHEMN72", "comingSoon": true },
-  "chemn7r1": { "id": "chemn7r1", "title": "Analytical Chemistry - III", "module": "CHEMN7R1", "comingSoon": true },
-  "chemn7r2": { "id": "chemn7r2", "title": "Inorganic Chemistry - V", "module": "CHEMN7R2", "comingSoon": true },
-  "cheds8r1": { "id": "cheds8r1", "title": "Dissertation", "module": "CHEDS8R1", "comingSoon": true },
-  "chemj81": { "id": "chemj81", "title": "Analytical Chemistry - IV", "module": "CHEMJ81", "comingSoon": true },
-  "chemj82": { "id": "chemj82", "title": "Inorganic Chemistry - VI", "module": "CHEMJ82", "comingSoon": true },
-  "chemj83": { "id": "chemj83", "title": "Organic Chemistry - VI", "module": "CHEMJ83", "comingSoon": true },
-  "chemj84": { "id": "chemj84", "title": "Physical Chemistry - VI", "module": "CHEMJ84", "comingSoon": true },
-  "chemj85": { "id": "chemj85", "title": "Advanced Spectroscopy", "module": "CHEMJ85", "comingSoon": true },
-  "chemj86": { "id": "chemj86", "title": "Physical Chemistry Lab Work", "module": "CHEMJ86", "comingSoon": true },
-  "chemj87": { "id": "chemj87", "title": "Inorganic Chemistry Lab Work", "module": "CHEMJ87", "comingSoon": true },
-  "chemj88": { "id": "chemj88", "title": "Organic Chemistry Lab Work", "module": "CHEMJ88", "comingSoon": true },
-  "chemj8r1": { "id": "chemj8r1", "title": "Analytical Chemistry - IV", "module": "CHEMJ8R1", "comingSoon": true },
-  "chemj8r2": { "id": "chemj8r2", "title": "Inorganic Chemistry - VI", "module": "CHEMJ8R2", "comingSoon": true },
-  "chemj8r3": { "id": "chemj8r3", "title": "Organic Chemistry - VI", "module": "CHEMJ8R3", "comingSoon": true },
-  "chemj8r4": { "id": "chemj8r4", "title": "Physical Chemistry - VI", "module": "CHEMJ8R4", "comingSoon": true },
-  "chemj8r5": { "id": "chemj8r5", "title": "Advanced Spectroscopy", "module": "CHEMJ8R5", "comingSoon": true },
-  "chemn81": { "id": "chemn81", "title": "Organic Chemistry - VI", "module": "CHEMN81", "comingSoon": true },
-  "chemn82": { "id": "chemn82", "title": "Physical Chemistry - VI", "module": "CHEMN82", "comingSoon": true },
-  "chemn8r1": { "id": "chemn8r1", "title": "Organic Chemistry - VI", "module": "CHEMN8R1", "comingSoon": true },
-  "chemn8r2": { "id": "chemn8r2", "title": "Physical Chemistry - VI", "module": "CHEMN8R2", "comingSoon": true },
-  "phymd11": { "id": "phymd11", "title": "Physics in Everyday Life", "module": "PHYMD11", "comingSoon": true },
-  "phymj11": { "id": "phymj11", "title": "Mechanics & General Properties of Matter", "module": "PHYMJ11", "comingSoon": true },
-  "phymj12": { "id": "phymj12", "title": "Physical Laboratory I", "module": "PHYMJ12", "comingSoon": true },
-  "phymn11": { "id": "phymn11", "title": "Mechanics & General Properties of Matter", "module": "PHYMN11", "comingSoon": true },
-  "phymn12": { "id": "phymn12", "title": "Physics Laboratory-1", "module": "PHYMN12", "comingSoon": true },
-  "physe11": { "id": "physe11", "title": "Mathematical Problem Solving Skills", "module": "PHYSE11", "comingSoon": true },
-  "phymd21": { "id": "phymd21", "title": "Indian Contributions in Physical Science: Ancient to Modern", "module": "PHYMD21", "comingSoon": true },
-  "phymj21": { "id": "phymj21", "title": "Thermal Physics", "module": "PHYMJ21", "comingSoon": true },
-  "phymj22": { "id": "phymj22", "title": "Physical Laboratory 2", "module": "PHYMJ22", "comingSoon": true },
-  "phymn21": { "id": "phymn21", "title": "Thermal Physics", "module": "PHYMN21", "comingSoon": true },
-  "phymn22": { "id": "phymn22", "title": "Physics Laboratory-2", "module": "PHYMN22", "comingSoon": true },
-  "physe21": { "id": "physe21", "title": "Energy Conversion and Storage for Sustainable Development", "module": "PHYSE21", "comingSoon": true },
-  "phymd31": { "id": "phymd31", "title": "Historical Developments of Physical Science", "module": "PHYMD31", "comingSoon": true },
-  "phymj31": { "id": "phymj31", "title": "Wave & Wave Optics", "module": "PHYMJ31", "comingSoon": true },
-  "phymj32": { "id": "phymj32", "title": "Physics of Semiconductors and Devices", "module": "PHYMJ32", "comingSoon": true },
-  "phymj33": { "id": "phymj33", "title": "Physical Laboratory 3", "module": "PHYMJ33", "comingSoon": true },
-  "phymv31": { "id": "phymv31", "title": "Applied Electronics and Fiber Optics", "module": "PHYMV31", "comingSoon": true },
-  "phymv32": { "id": "phymv32", "title": "Minor Vocational Laboratory-1", "module": "PHYMV32", "comingSoon": true },
-  "physe31": { "id": "physe31", "title": "Computational Physics: Programming and Data Analysis", "module": "PHYSE31", "comingSoon": true },
+  "chemj42": {
+    "id": "chemj42",
+    "title": "Organic Chemistry - II",
+    "module": "CHEMJ42",
+    "comingSoon": true
+  },
+  "chemj43": {
+    "id": "chemj43",
+    "title": "Physical Chemistry - II",
+    "module": "CHEMJ43",
+    "comingSoon": true
+  },
+  "chemj44": {
+    "id": "chemj44",
+    "title": "Techniques in Chemistry",
+    "module": "CHEMJ44",
+    "comingSoon": true
+  },
+  "chemj45": {
+    "id": "chemj45",
+    "title": "Physical Chemistry Lab Work",
+    "module": "CHEMJ45",
+    "comingSoon": true
+  },
+  "chemj46": {
+    "id": "chemj46",
+    "title": "Organic and Inorganic Chemistry Lab Work",
+    "module": "CHEMJ46",
+    "comingSoon": true
+  },
+  "chemn41": {
+    "id": "chemn41",
+    "title": "Physical Chemistry - II",
+    "module": "CHEMN41",
+    "comingSoon": true
+  },
+  "chemn42": {
+    "id": "chemn42",
+    "title": "Techniques in Chemistry",
+    "module": "CHEMN42",
+    "comingSoon": true
+  },
+  "chemin51": {
+    "id": "chemin51",
+    "title": "Internship",
+    "module": "CHEMIN51",
+    "comingSoon": true
+  },
+  "chemj51": {
+    "id": "chemj51",
+    "title": "Analytical Chemistry - I",
+    "module": "CHEMJ51",
+    "comingSoon": true
+  },
+  "chemj52": {
+    "id": "chemj52",
+    "title": "Inorganic Chemistry - III",
+    "module": "CHEMJ52",
+    "comingSoon": true
+  },
+  "chemj53": {
+    "id": "chemj53",
+    "title": "Organic Chemistry - III",
+    "module": "CHEMJ53",
+    "comingSoon": true
+  },
+  "chemj54": {
+    "id": "chemj54",
+    "title": "Physical Chemistry - III",
+    "module": "CHEMJ54",
+    "comingSoon": true
+  },
+  "chemj55": {
+    "id": "chemj55",
+    "title": "Physical Chemistry Lab Work",
+    "module": "CHEMJ55",
+    "comingSoon": true
+  },
+  "chemj56": {
+    "id": "chemj56",
+    "title": "Systematic Organic Analysis",
+    "module": "CHEMJ56",
+    "comingSoon": true
+  },
+  "chemv51": {
+    "id": "chemv51",
+    "title": "Food Adulteration and Detection",
+    "module": "CHEMV51",
+    "comingSoon": true
+  },
+  "chemv52": {
+    "id": "chemv52",
+    "title": "Food Adulteration and Detection Lab Work",
+    "module": "CHEMV52",
+    "comingSoon": true
+  },
+  "chemj61": {
+    "id": "chemj61",
+    "title": "Analytical Chemistry - II",
+    "module": "CHEMJ61",
+    "comingSoon": true
+  },
+  "chemj62": {
+    "id": "chemj62",
+    "title": "Inorganic Chemistry - IV",
+    "module": "CHEMJ62",
+    "comingSoon": true
+  },
+  "chemj63": {
+    "id": "chemj63",
+    "title": "Organic Chemistry - IV",
+    "module": "CHEMJ63",
+    "comingSoon": true
+  },
+  "chemj64": {
+    "id": "chemj64",
+    "title": "Physical Chemistry - IV",
+    "module": "CHEMJ64",
+    "comingSoon": true
+  },
+  "chemj65": {
+    "id": "chemj65",
+    "title": "Physical Chemistry Lab Work",
+    "module": "CHEMJ65",
+    "comingSoon": true
+  },
+  "chemj66": {
+    "id": "chemj66",
+    "title": "Quantitative Inorganic Analysis",
+    "module": "CHEMJ66",
+    "comingSoon": true
+  },
+  "chemj67": {
+    "id": "chemj67",
+    "title": "Organic Chemistry Lab Work",
+    "module": "CHEMJ67",
+    "comingSoon": true
+  },
+  "chemv61": {
+    "id": "chemv61",
+    "title": "Industrial Chemistry - II",
+    "module": "CHEMV61",
+    "comingSoon": true
+  },
+  "chemv62": {
+    "id": "chemv62",
+    "title": "Industrial Chemistry Lab Work-II",
+    "module": "CHEMV62",
+    "comingSoon": true
+  },
+  "chemj71": {
+    "id": "chemj71",
+    "title": "Analytical Chemistry - III",
+    "module": "CHEMJ71",
+    "comingSoon": true
+  },
+  "chemj72": {
+    "id": "chemj72",
+    "title": "Inorganic Chemistry - V",
+    "module": "CHEMJ72",
+    "comingSoon": true
+  },
+  "chemj73": {
+    "id": "chemj73",
+    "title": "Organic Chemistry - V",
+    "module": "CHEMJ73",
+    "comingSoon": true
+  },
+  "chemj74": {
+    "id": "chemj74",
+    "title": "Physical Chemistry - V",
+    "module": "CHEMJ74",
+    "comingSoon": true
+  },
+  "chemj75": {
+    "id": "chemj75",
+    "title": "Material Chemistry",
+    "module": "CHEMJ75",
+    "comingSoon": true
+  },
+  "chemj76": {
+    "id": "chemj76",
+    "title": "Physical Chemistry Lab Work",
+    "module": "CHEMJ76",
+    "comingSoon": true
+  },
+  "chemj77": {
+    "id": "chemj77",
+    "title": "Inorganic Chemistry Lab Work",
+    "module": "CHEMJ77",
+    "comingSoon": true
+  },
+  "chemj78": {
+    "id": "chemj78",
+    "title": "Organic Chemistry Lab Work",
+    "module": "CHEMJ78",
+    "comingSoon": true
+  },
+  "chemj7r1": {
+    "id": "chemj7r1",
+    "title": "Analytical Chemistry - III",
+    "module": "CHEMJ7R1",
+    "comingSoon": true
+  },
+  "chemj7r2": {
+    "id": "chemj7r2",
+    "title": "Inorganic Chemistry - V",
+    "module": "CHEMJ7R2",
+    "comingSoon": true
+  },
+  "chemj7r3": {
+    "id": "chemj7r3",
+    "title": "Organic Chemistry - V",
+    "module": "CHEMJ7R3",
+    "comingSoon": true
+  },
+  "chemj7r4": {
+    "id": "chemj7r4",
+    "title": "Physical Chemistry - V",
+    "module": "CHEMJ7R4",
+    "comingSoon": true
+  },
+  "chemj7r5": {
+    "id": "chemj7r5",
+    "title": "Material Chemistry",
+    "module": "CHEMJ7R5",
+    "comingSoon": true
+  },
+  "chemj7r6": {
+    "id": "chemj7r6",
+    "title": "Physical Chemistry Lab Work",
+    "module": "CHEMJ7R6",
+    "comingSoon": true
+  },
+  "chemj7r7": {
+    "id": "chemj7r7",
+    "title": "Inorganic Chemistry Lab Work",
+    "module": "CHEMJ7R7",
+    "comingSoon": true
+  },
+  "chemj7r8": {
+    "id": "chemj7r8",
+    "title": "Organic Chemistry Lab Work",
+    "module": "CHEMJ7R8",
+    "comingSoon": true
+  },
+  "chemn71": {
+    "id": "chemn71",
+    "title": "Analytical Chemistry - III",
+    "module": "CHEMN71",
+    "comingSoon": true
+  },
+  "chemn72": {
+    "id": "chemn72",
+    "title": "Inorganic Chemistry - V",
+    "module": "CHEMN72",
+    "comingSoon": true
+  },
+  "chemn7r1": {
+    "id": "chemn7r1",
+    "title": "Analytical Chemistry - III",
+    "module": "CHEMN7R1",
+    "comingSoon": true
+  },
+  "chemn7r2": {
+    "id": "chemn7r2",
+    "title": "Inorganic Chemistry - V",
+    "module": "CHEMN7R2",
+    "comingSoon": true
+  },
+  "cheds8r1": {
+    "id": "cheds8r1",
+    "title": "Dissertation",
+    "module": "CHEDS8R1",
+    "comingSoon": true
+  },
+  "chemj81": {
+    "id": "chemj81",
+    "title": "Analytical Chemistry - IV",
+    "module": "CHEMJ81",
+    "comingSoon": true
+  },
+  "chemj82": {
+    "id": "chemj82",
+    "title": "Inorganic Chemistry - VI",
+    "module": "CHEMJ82",
+    "comingSoon": true
+  },
+  "chemj83": {
+    "id": "chemj83",
+    "title": "Organic Chemistry - VI",
+    "module": "CHEMJ83",
+    "comingSoon": true
+  },
+  "chemj84": {
+    "id": "chemj84",
+    "title": "Physical Chemistry - VI",
+    "module": "CHEMJ84",
+    "comingSoon": true
+  },
+  "chemj85": {
+    "id": "chemj85",
+    "title": "Advanced Spectroscopy",
+    "module": "CHEMJ85",
+    "comingSoon": true
+  },
+  "chemj86": {
+    "id": "chemj86",
+    "title": "Physical Chemistry Lab Work",
+    "module": "CHEMJ86",
+    "comingSoon": true
+  },
+  "chemj87": {
+    "id": "chemj87",
+    "title": "Inorganic Chemistry Lab Work",
+    "module": "CHEMJ87",
+    "comingSoon": true
+  },
+  "chemj88": {
+    "id": "chemj88",
+    "title": "Organic Chemistry Lab Work",
+    "module": "CHEMJ88",
+    "comingSoon": true
+  },
+  "chemj8r1": {
+    "id": "chemj8r1",
+    "title": "Analytical Chemistry - IV",
+    "module": "CHEMJ8R1",
+    "comingSoon": true
+  },
+  "chemj8r2": {
+    "id": "chemj8r2",
+    "title": "Inorganic Chemistry - VI",
+    "module": "CHEMJ8R2",
+    "comingSoon": true
+  },
+  "chemj8r3": {
+    "id": "chemj8r3",
+    "title": "Organic Chemistry - VI",
+    "module": "CHEMJ8R3",
+    "comingSoon": true
+  },
+  "chemj8r4": {
+    "id": "chemj8r4",
+    "title": "Physical Chemistry - VI",
+    "module": "CHEMJ8R4",
+    "comingSoon": true
+  },
+  "chemj8r5": {
+    "id": "chemj8r5",
+    "title": "Advanced Spectroscopy",
+    "module": "CHEMJ8R5",
+    "comingSoon": true
+  },
+  "chemn81": {
+    "id": "chemn81",
+    "title": "Organic Chemistry - VI",
+    "module": "CHEMN81",
+    "comingSoon": true
+  },
+  "chemn82": {
+    "id": "chemn82",
+    "title": "Physical Chemistry - VI",
+    "module": "CHEMN82",
+    "comingSoon": true
+  },
+  "chemn8r1": {
+    "id": "chemn8r1",
+    "title": "Organic Chemistry - VI",
+    "module": "CHEMN8R1",
+    "comingSoon": true
+  },
+  "chemn8r2": {
+    "id": "chemn8r2",
+    "title": "Physical Chemistry - VI",
+    "module": "CHEMN8R2",
+    "comingSoon": true
+  },
+  "phymd11": {
+    "id": "phymd11",
+    "title": "Physics in Everyday Life",
+    "module": "PHYMD11",
+    "comingSoon": true
+  },
+  "phymj11": {
+    "id": "phymj11",
+    "title": "Mechanics & General Properties of Matter",
+    "module": "PHYMJ11",
+    "comingSoon": true
+  },
+  "phymj12": {
+    "id": "phymj12",
+    "title": "Physical Laboratory I",
+    "module": "PHYMJ12",
+    "comingSoon": true
+  },
+  "phymn11": {
+    "id": "phymn11",
+    "title": "Mechanics & General Properties of Matter",
+    "module": "PHYMN11",
+    "comingSoon": true
+  },
+  "phymn12": {
+    "id": "phymn12",
+    "title": "Physics Laboratory-1",
+    "module": "PHYMN12",
+    "comingSoon": true
+  },
+  "physe11": {
+    "id": "physe11",
+    "title": "Mathematical Problem Solving Skills",
+    "module": "PHYSE11",
+    "comingSoon": true
+  },
+  "phymd21": {
+    "id": "phymd21",
+    "title": "Indian Contributions in Physical Science: Ancient to Modern",
+    "module": "PHYMD21",
+    "comingSoon": true
+  },
+  "phymj21": {
+    "id": "phymj21",
+    "title": "Thermal Physics",
+    "module": "PHYMJ21",
+    "comingSoon": true
+  },
+  "phymj22": {
+    "id": "phymj22",
+    "title": "Physical Laboratory 2",
+    "module": "PHYMJ22",
+    "comingSoon": true
+  },
+  "phymn21": {
+    "id": "phymn21",
+    "title": "Thermal Physics",
+    "module": "PHYMN21",
+    "comingSoon": true
+  },
+  "phymn22": {
+    "id": "phymn22",
+    "title": "Physics Laboratory-2",
+    "module": "PHYMN22",
+    "comingSoon": true
+  },
+  "physe21": {
+    "id": "physe21",
+    "title": "Energy Conversion and Storage for Sustainable Development",
+    "module": "PHYSE21",
+    "comingSoon": true
+  },
+  "phymd31": {
+    "id": "phymd31",
+    "title": "Historical Developments of Physical Science",
+    "module": "PHYMD31",
+    "comingSoon": true
+  },
+  "phymj31": {
+    "id": "phymj31",
+    "title": "Wave & Wave Optics",
+    "module": "PHYMJ31",
+    "comingSoon": true
+  },
+  "phymj32": {
+    "id": "phymj32",
+    "title": "Physics of Semiconductors and Devices",
+    "module": "PHYMJ32",
+    "comingSoon": true
+  },
+  "phymj33": {
+    "id": "phymj33",
+    "title": "Physical Laboratory 3",
+    "module": "PHYMJ33",
+    "comingSoon": true
+  },
+  "phymv31": {
+    "id": "phymv31",
+    "title": "Applied Electronics and Fiber Optics",
+    "module": "PHYMV31",
+    "comingSoon": true
+  },
+  "phymv32": {
+    "id": "phymv32",
+    "title": "Minor Vocational Laboratory-1",
+    "module": "PHYMV32",
+    "comingSoon": true
+  },
+  "physe31": {
+    "id": "physe31",
+    "title": "Computational Physics: Programming and Data Analysis",
+    "module": "PHYSE31",
+    "comingSoon": true
+  },
   "phymj41": {
     "id": "phymj41",
     "title": "Electromagnetic Theory & Special Theory of Relativity",
@@ -5317,8 +7214,8 @@ export const EXAMS = {
       {
         "id": 8,
         "unit": "I",
-        "question": "State the properties of the Dirac Delta function. Prove that $\\delta(ax) = \\frac{1}{|a|}\\delta(x)$ for $a \\neq 0$, and evaluate the integral $\\int_{-\infty}^{\\infty} \\sin\\left(\\frac{\\pi x}{2}\right) \\delta(x^2 - 3x + 2) dx$.",
-        "answerKey": "1. Scaling Property Proof: Consider the integral $I = \\int_{-\infty}^{\\infty} f(x) \\delta(ax) dx$. Let $u = ax \\implies dx = \\frac{du}{a}$.\n- Case 1 ($a > 0$): The limits remain $(-\\infty, \\infty)$. $I = \\int_{-\infty}^{\\infty} f(u/a) \\delta(u) \\frac{du}{a} = \\frac{1}{a} f(0)$.\n- Case 2 ($a < 0$): The limits swap to $(\\infty, -\\infty)$. $I = \\int_{\\infty}^{-\\infty} f(u/a) \\delta(u) \\frac{du}{a} = -\\frac{1}{a} \\int_{-\infty}^{\\infty} f(u/a) \\delta(u) du = -\\frac{1}{a} f(0) = \\frac{1}{|a|} f(0)$.\n- Combining both cases: $\\int_{-\infty}^{\\infty} f(x) \\delta(ax) dx = \\frac{1}{|a|} f(0) \\implies \\delta(ax) = \\frac{1}{|a|} \\delta(x)$.\n2. Delta function of a function rule: $\\delta(g(x)) = \\sum_i \\frac{\\delta(x - x_i)}{|g'(x_i)|}$, where $x_i$ are roots of $g(x) = 0$.\n3. Evaluating the Integral: Here $g(x) = x^2 - 3x + 2 = (x-1)(x-2)$. The roots are $x_1 = 1$, $x_2 = 2$.\n- Derivative: $g'(x) = 2x - 3$.\n- At $x_1 = 1$: $|g'(1)| = |2(1) - 3| = 1$.\n- At $x_2 = 2$: $|g'(2)| = |2(2) - 3| = 1$.\n4. Expansion: $\\delta(x^2 - 3x + 2) = \\delta(x - 1) + \\delta(x - 2)$.\n5. Integral Calculation: $\\int_{-\infty}^{\\infty} \\sin\\left(\\frac{\\pi x}{2}\right) [\\delta(x - 1) + \\delta(x - 2)] dx = \\sin\\left(\\frac{\\pi(1)}{2}\\right) + \\sin\\left(\\frac{\\pi(2)}{2}\\right) = \\sin\\left(\\frac{\\pi}{2}\\right) + \\sin(\\pi) = 1 + 0 = 1$."
+        "question": "State the properties of the Dirac Delta function. Prove that $\\delta(ax) = \\frac{1}{|a|}\\delta(x)$ for $a \\neq 0$, and evaluate the integral $\\int_{-infty}^{\\infty} \\sin\\left(\\frac{\\pi x}{2}\right) \\delta(x^2 - 3x + 2) dx$.",
+        "answerKey": "1. Scaling Property Proof: Consider the integral $I = \\int_{-infty}^{\\infty} f(x) \\delta(ax) dx$. Let $u = ax \\implies dx = \\frac{du}{a}$.\n- Case 1 ($a > 0$): The limits remain $(-\\infty, \\infty)$. $I = \\int_{-infty}^{\\infty} f(u/a) \\delta(u) \\frac{du}{a} = \\frac{1}{a} f(0)$.\n- Case 2 ($a < 0$): The limits swap to $(\\infty, -\\infty)$. $I = \\int_{\\infty}^{-\\infty} f(u/a) \\delta(u) \\frac{du}{a} = -\\frac{1}{a} \\int_{-infty}^{\\infty} f(u/a) \\delta(u) du = -\\frac{1}{a} f(0) = \\frac{1}{|a|} f(0)$.\n- Combining both cases: $\\int_{-infty}^{\\infty} f(x) \\delta(ax) dx = \\frac{1}{|a|} f(0) \\implies \\delta(ax) = \\frac{1}{|a|} \\delta(x)$.\n2. Delta function of a function rule: $\\delta(g(x)) = \\sum_i \\frac{\\delta(x - x_i)}{|g'(x_i)|}$, where $x_i$ are roots of $g(x) = 0$.\n3. Evaluating the Integral: Here $g(x) = x^2 - 3x + 2 = (x-1)(x-2)$. The roots are $x_1 = 1$, $x_2 = 2$.\n- Derivative: $g'(x) = 2x - 3$.\n- At $x_1 = 1$: $|g'(1)| = |2(1) - 3| = 1$.\n- At $x_2 = 2$: $|g'(2)| = |2(2) - 3| = 1$.\n4. Expansion: $\\delta(x^2 - 3x + 2) = \\delta(x - 1) + \\delta(x - 2)$.\n5. Integral Calculation: $\\int_{-infty}^{\\infty} \\sin\\left(\\frac{\\pi x}{2}\right) [\\delta(x - 1) + \\delta(x - 2)] dx = \\sin\\left(\\frac{\\pi(1)}{2}\\right) + \\sin\\left(\\frac{\\pi(2)}{2}\\right) = \\sin\\left(\\frac{\\pi}{2}\\right) + \\sin(\\pi) = 1 + 0 = 1$."
       },
       {
         "id": 9,
@@ -5383,7 +7280,7 @@ export const EXAMS = {
       {
         "id": 19,
         "unit": "IV",
-        "question": "Prove the orthogonality relation for Hermite polynomials: $\\int_{-\infty}^{\\infty} e^{-x^2} H_m(x) H_n(x) dx = 2^n n! \\sqrt{\\pi} \\delta_{mn}$.",
+        "question": "Prove the orthogonality relation for Hermite polynomials: $\\int_{-infty}^{\\infty} e^{-x^2} H_m(x) H_n(x) dx = 2^n n! \\sqrt{\\pi} \\delta_{mn}$.",
         "answerKey": "1. Generating Function Setup: We write two generating functions with parameters $s$ and $t$:\n$e^{2xs - s^2} = \\sum_{m=0}^{\\infty} H_m(x) \\frac{s^m}{m!}$ and $e^{2xt - t^2} = \\sum_{n=0}^{\\infty} H_n(x) \\frac{t^n}{n!}$.\n2. Product of Equations: $e^{2x(s+t) - (s^2+t^2)} = \\sum_{m,n=0}^{\\infty} H_m(x) H_n(x) \\frac{s^m t^n}{m! n!}$.\n3. Integrating with weight $e^{-x^2}$: $\\sum_{m,n=0}^{\\infty} \\frac{s^m t^n}{m! n!} \\int_{-\\infty}^{\\infty} e^{-x^2} H_m(x) H_n(x) dx = \\int_{-\\infty}^{\\infty} e^{-x^2} e^{2x(s+t) - (s^2+t^2)} dx$.\n4. Completing the Square in Integral: The exponent is $-[x^2 - 2x(s+t) + (s+t)^2] + (s+t)^2 - (s^2+t^2) = -(x - (s+t))^2 + 2st$.\n5. Integration: $\\int_{-\\infty}^{\\infty} e^{-(x-(s+t))^2} e^{2st} dx = e^{2st} \\int_{-\\infty}^{\\infty} e^{-u^2} du = e^{2st} \\sqrt{\\pi}$.\n6. Series Expansion: $e^{2st} \\sqrt{\\pi} = \\sqrt{\\pi} \\sum_{n=0}^{\\infty} \\frac{(2st)^n}{n!} = \\sqrt{\\pi} \\sum_{n=0}^{\\infty} 2^n \\frac{s^n t^n}{n!}$.\n7. Comparing Coefficients: The LHS is $\\sum \\frac{s^m t^n}{m! n!} I_{mn}$. For $m \\neq n$, coefficients of $s^m t^n$ are $0$. For $m = n$:\n$\\frac{1}{(n!)^2} \\int_{-\\infty}^{\\infty} e^{-x^2} [H_n(x)]^2 dx = \\sqrt{\\pi} \\frac{2^n}{n!} \\implies \\int_{-\\infty}^{\\infty} e^{-x^2} [H_n(x)]^2 dx = 2^n n! \\sqrt{\\pi}$."
       },
       {
@@ -5401,116 +7298,551 @@ export const EXAMS = {
       {
         "id": 22,
         "unit": "V",
-        "question": "Find the Fourier series expansion of the function $f(x) = x^2$ in the interval $-\pi < x < \pi$. Use this series to show that $\\sum_{n=1}^{\\infty} \\frac{1}{n^2} = \\frac{\\pi^2}{6}$.",
+        "question": "Find the Fourier series expansion of the function $f(x) = x^2$ in the interval $-pi < x < pi$. Use this series to show that $\\sum_{n=1}^{\\infty} \\frac{1}{n^2} = \\frac{\\pi^2}{6}$.",
         "answerKey": "1. Even Function property: Since $f(-x) = (-x)^2 = x^2$, the function is even. Therefore, the Fourier coefficients $b_n = 0$ for all $n$.\n2. Coefficient $a_0$:\n$a_0 = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} x^2 dx = \\frac{2}{\\pi} \\int_0^{\\pi} x^2 dx = \\frac{2}{\\pi} \\left[ \\frac{x^3}{3} \\right]_0^{\\pi} = \\frac{2\\pi^2}{3}$.\n3. Coefficients $a_n$:\n$a_n = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} x^2 \\cos(nx) dx = \\frac{2}{\\pi} \\int_0^{\\pi} x^2 \\cos(nx) dx$.\n- Using integration by parts: $\\int u dv = u v - \\int v du$ with $u=x^2$ and $dv = \\cos(nx)dx$:\n$a_n = \\frac{2}{\\pi} \\left[ x^2 \\frac{\\sin(nx)}{n} \\right]_0^{\\pi} - \\frac{2}{\\pi} \\int_0^{\\pi} 2x \\frac{\\sin(nx)}{n} dx = 0 - \\frac{4}{n\\pi} \\int_0^{\\pi} x \\sin(nx) dx$.\n- Integrate by parts again with $u=x$ and $dv = \\sin(nx)dx$:\n$a_n = -\\frac{4}{n\\pi} \\left[ -x \\frac{\\cos(nx)}{n} \\right]_0^{\\pi} + \\frac{4}{n\\pi} \\int_0^{\\pi} -\\frac{\\cos(nx)}{n} dx = \\frac{4\\pi\\cos(n\\pi)}{n^2\\pi} - 0 = \\frac{4(-1)^n}{n^2}$.\n4. Fourier Series: $f(x) = \\frac{a_0}{2} + \\sum_{n=1}^{\\infty} a_n \\cos(nx) = \\frac{\\pi^2}{3} + 4 \\sum_{n=1}^{\\infty} \\frac{(-1)^n}{n^2} \\cos(nx)$.\n5. Evaluating at $x=\\pi$: Since the function is continuous, $f(\\pi) = \\pi^2$:\n$\\pi^2 = \\frac{\\pi^2}{3} + 4 \\sum_{n=1}^{\\infty} \\frac{(-1)^n}{n^2} \\cos(n\\pi) = \\frac{\\pi^2}{3} + 4 \\sum_{n=1}^{\\infty} \\frac{(-1)^n (-1)^n}{n^2} = \\frac{\\pi^2}{3} + 4 \\sum_{n=1}^{\\infty} \\frac{1}{n^2}$.\n$\\pi^2 - \\frac{\\pi^2}{3} = 4 \\sum_{n=1}^{\\infty} \\frac{1}{n^2} \\implies \\frac{2\\pi^2}{3} = 4 \\sum_{n=1}^{\\infty} \\frac{1}{n^2} \\implies \\sum_{n=1}^{\\infty} \\frac{1}{n^2} = \\frac{\\pi^2}{6}$."
       },
       {
         "id": 23,
         "unit": "V",
-        "question": "Find the Fourier series expansion of the function $f(x) = x \\cos x$ in the interval $-\pi < x < \pi$.",
+        "question": "Find the Fourier series expansion of the function $f(x) = x \\cos x$ in the interval $-pi < x < pi$.",
         "answerKey": "1. Odd Function property: Since $f(-x) = (-x)\\cos(-x) = -x\\cos x = -f(x)$, the function is odd. Hence $a_0 = 0$ and $a_n = 0$ for all $n$.\n2. Coefficient $b_n$:\n$b_n = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} x \\cos x \\sin(nx) dx = \\frac{2}{\\pi} \\int_0^{\\pi} x \\cos x \\sin(nx) dx$.\n3. Product to Sum Formula: $\\cos x \\sin(nx) = \\frac{1}{2} [\\sin(n+1)x + \\sin(n-1)x]$.\n- $b_n = \\frac{1}{\\pi} \\int_0^{\\pi} x [\\sin(n+1)x + \\sin(n-1)x] dx$.\n4. Integral Evaluation: Let $I_k = \\int_0^{\\pi} x \\sin(kx) dx = \\left[ -x \\frac{\\cos(kx)}{k} \\right]_0^{\\pi} + \\int_0^{\\pi} \\frac{\\cos(kx)}{k} dx = -\\frac{\\pi\\cos(k\\pi)}{k} = -\\frac{\\pi(-1)^k}{k}$.\n- For $n \\neq 1$: $b_n = \\frac{1}{\\pi} [ I_{n+1} + I_{n-1} ] = \\frac{1}{\\pi} \\left[ -\\frac{\\pi(-1)^{n+1}}{n+1} - \\frac{\\pi(-1)^{n-1}}{n-1} \\right] = -(-1)^{n-1} \\left[ \\frac{1}{n+1} + \\frac{1}{n-1} \\right] = (-1)^n \\frac{2n}{n^2-1}$.\n5. Special Case $n=1$: $b_1 = \\frac{2}{\\pi} \\int_0^{\\pi} x \\cos x \\sin x dx = \\frac{1}{\\pi} \\int_0^{\\pi} x \\sin(2x) dx = \\frac{1}{\\pi} I_2 = \\frac{1}{\\pi} \\left( -\\frac{\\pi(-1)^2}{2} \\right) = -\\frac{1}{2}$.\n6. Fourier Series: $f(x) = -\\frac{1}{2}\\sin x + \\sum_{n=2}^{\\infty} (-1)^n \\frac{2n}{n^2-1} \\sin(nx)$."
       },
       {
         "id": 24,
         "unit": "V",
-        "question": "Find the Fourier series of the periodic function off(x) of period $2\\pi$, which is defined as $f(x) = x$ in the interval $0 < x < \\pi$, and $f(x) = 0$ in the interval $-\pi < x < 0$.",
+        "question": "Find the Fourier series of the periodic function off(x) of period $2\\pi$, which is defined as $f(x) = x$ in the interval $0 < x < \\pi$, and $f(x) = 0$ in the interval $-pi < x < 0$.",
         "answerKey": "1. Coefficient $a_0$:\n$a_0 = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} f(x) dx = \\frac{1}{\\pi} \\int_0^{\\pi} x dx = \\frac{1}{\\pi} \\left[ \\frac{x^2}{2} \\right]_0^{\\pi} = \\frac{\\pi}{2}$.\n2. Coefficients $a_n$:\n$a_n = \\frac{1}{\\pi} \\int_0^{\\pi} x \\cos(nx) dx = \\frac{1}{\\pi} \\left[ x \\frac{\\sin(nx)}{n} \\right]_0^{\\pi} - \\frac{1}{\\pi} \\int_0^{\\pi} \\frac{\\sin(nx)}{n} dx = 0 - \\frac{1}{\\pi} \\left[ -\\frac{\\cos(nx)}{n^2} \\right]_0^{\\pi} = \\frac{\\cos(n\\pi) - 1}{\\pi n^2} = \\frac{(-1)^n - 1}{\\pi n^2}$.\n- If $n$ is even, $a_n = 0$.\n- If $n$ is odd, $a_n = -\\frac{2}{\\pi n^2}$.\n3. Coefficients $b_n$:\n$b_n = \\frac{1}{\\pi} \\int_0^{\\pi} x \\sin(nx) dx = \\frac{1}{\\pi} \\left[ -x \\frac{\\cos(nx)}{n} \\right]_0^{\\pi} - \\frac{1}{\\pi} \\int_0^{\\pi} -\\frac{\\cos(nx)}{n} dx = -\\frac{\\pi\\cos(n\\pi)}{\\pi n} + 0 = -\\frac{(-1)^n}{n}$.\n4. Fourier Series: $f(x) = \\frac{\\pi}{4} - \\frac{2}{\\pi} \\sum_{k=0}^{\\infty} \\frac{\\cos((2k+1)x)}{(2k+1)^2} + \\sum_{n=1}^{\\infty} \\frac{(-1)^{n-1}}{n} \\sin(nx)$."
       },
       {
         "id": 25,
         "unit": "V",
-        "question": "Find the Fourier series of the periodic square wave function of period $2\\pi$ defined as $f(x) = 1$ for $0 < x < \\pi$, and $f(x) = -1$ for $-\pi < x < 0$. Discuss the convergence and behavior at $x = 0$.",
+        "question": "Find the Fourier series of the periodic square wave function of period $2\\pi$ defined as $f(x) = 1$ for $0 < x < \\pi$, and $f(x) = -1$ for $-pi < x < 0$. Discuss the convergence and behavior at $x = 0$.",
         "answerKey": "1. Odd Function property: Since $f(-x) = -f(x)$, it is an odd function. Thus $a_0 = 0$ and $a_n = 0$ for all $n$.\n2. Coefficient $b_n$:\n$b_n = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} f(x) \\sin(nx) dx = \\frac{2}{\\pi} \\int_0^{\\pi} 1 \\cdot \\sin(nx) dx = \\frac{2}{\\pi} \\left[ -\\frac{\\cos(nx)}{n} \\right]_0^{\\pi} = \\frac{2}{n\\pi} (1 - \\cos(n\\pi)) = \\frac{2(1 - (-1)^n)}{n\\pi}$.\n- If $n$ is even: $b_n = 0$.\n- If $n$ is odd: $b_n = \\frac{4}{n\\pi}$.\n3. Fourier Series: $f(x) = \\frac{4}{\\pi} \\sum_{k=0}^{\\infty} \\frac{\\sin((2k+1)x)}{2k+1} = \\frac{4}{\\pi} \\left( \\sin x + \\frac{\\sin 3x}{3} + \\frac{\\sin 5x}{5} + \\dots \\right)$.\n4. Value at Discontinuity $x = 0$: According to Dirichlet's theorem, the Fourier series converges to the average value at a point of discontinuity: $f(0) = \\frac{f(0^+) + f(0^-)}{2} = \\frac{1 + (-1)}{2} = 0$.\n5. Gibbs Phenomenon: At the points of discontinuity, the partial sums of the Fourier series overshoot the function values by approximately 9% of the jump height. This overshoot does not disappear even in the limit of infinite terms, representing a fundamental behavior of Fourier representations near step changes."
       }
     ]
   },
-  "phymj43": { "id": "phymj43", "title": "Computational Physics", "module": "PHYMJ43", "comingSoon": true },
-  "phymj44": { "id": "phymj44", "title": "Physical Laboratory 4", "module": "PHYMJ44", "comingSoon": true },
-  "phymj45": { "id": "phymj45", "title": "Computer Laboratory", "module": "PHYMJ45", "comingSoon": true },
-  "phymn41": { "id": "phymn41", "title": "Electromagnetic Theory & Special Theory of Relativity", "module": "PHYMN41", "comingSoon": true },
-  "phyin51": { "id": "phyin51", "title": "Internship", "module": "PHYIN51", "comingSoon": true },
-  "phymj51": { "id": "phymj51", "title": "Quantum Mechanics-I", "module": "PHYMJ51", "comingSoon": true },
-  "phymj52": { "id": "phymj52", "title": "Classical Mechanics-I", "module": "PHYMJ52", "comingSoon": true },
-  "phymj53": { "id": "phymj53", "title": "Statistical Mechanics-I", "module": "PHYMJ53", "comingSoon": true },
-  "phymj54": { "id": "phymj54", "title": "Physics Laboratory-5", "module": "PHYMJ54", "comingSoon": true },
-  "phymv51": { "id": "phymv51", "title": "Hands-on Training on Tooling, Welding, Electronics", "module": "PHYMV51", "comingSoon": true },
-  "phymv52": { "id": "phymv52", "title": "Minor Vocational Laboratory", "module": "PHYMV52", "comingSoon": true },
-  "phymj61": { "id": "phymj61", "title": "Electronic Circuits and Analysis", "module": "PHYMJ61", "comingSoon": true },
-  "phymj62": { "id": "phymj62", "title": "Solid State Physics", "module": "PHYMJ62", "comingSoon": true },
-  "phymj63": { "id": "phymj63", "title": "Atomic, Molecular and Laser Physics", "module": "PHYMJ63", "comingSoon": true },
-  "phymj64": { "id": "phymj64", "title": "Nuclear & Particle Physics", "module": "PHYMJ64", "comingSoon": true },
-  "phymj65": { "id": "phymj65", "title": "Soft Matter Physics", "module": "PHYMJ65", "comingSoon": true },
-  "phymj66": { "id": "phymj66", "title": "Space Physics", "module": "PHYMJ66", "comingSoon": true },
-  "phymj67": { "id": "phymj67", "title": "Physics Laboratory-6", "module": "PHYMJ67", "comingSoon": true },
-  "phymv61": { "id": "phymv61", "title": "Artificial Intelligence and Machine Learning", "module": "PHYMV61", "comingSoon": true },
-  "phymj71": { "id": "phymj71", "title": "Classical Mechanics-II", "module": "PHYMJ71", "comingSoon": true },
-  "phymj710": { "id": "phymj710", "title": "Physics Laboratory-B", "module": "PHYMJ710", "comingSoon": true },
-  "phymj711": { "id": "phymj711", "title": "Physics Laboratory-C", "module": "PHYMJ711", "comingSoon": true },
-  "phymj72": { "id": "phymj72", "title": "Mathematical Physics-II", "module": "PHYMJ72", "comingSoon": true },
-  "phymj73": { "id": "phymj73", "title": "Quantum Mechanics-II", "module": "PHYMJ73", "comingSoon": true },
-  "phymj74": { "id": "phymj74", "title": "Advanced Topics in Integrated Circuits, Digital Electronics", "module": "PHYMJ74", "comingSoon": true },
-  "phymj75": { "id": "phymj75", "title": "Nano Science and Technology", "module": "PHYMJ75", "comingSoon": true },
-  "phymj76": { "id": "phymj76", "title": "Advanced Molecular Spectroscopy", "module": "PHYMJ76", "comingSoon": true },
-  "phymj77": { "id": "phymj77", "title": "Nuclear Models and Reactions", "module": "PHYMJ77", "comingSoon": true },
-  "phymj78": { "id": "phymj78", "title": "Plasma Astrophysics and Physics of Interstellar Medium", "module": "PHYMJ78", "comingSoon": true },
-  "phymj79": { "id": "phymj79", "title": "Physics Laboratory-A", "module": "PHYMJ79", "comingSoon": true },
-  "phymj7r1": { "id": "phymj7r1", "title": "Classical Mechanics-II", "module": "PHYMJ7R1", "comingSoon": true },
-  "phymj7r2": { "id": "phymj7r2", "title": "Mathematical Physics-II", "module": "PHYMJ7R2", "comingSoon": true },
-  "phymj7r3": { "id": "phymj7r3", "title": "Quantum Mechanics-II", "module": "PHYMJ7R3", "comingSoon": true },
-  "phymj7r4": { "id": "phymj7r4", "title": "Advanced Topics in Integrated Circuits, Digital Electronics", "module": "PHYMJ7R4", "comingSoon": true },
-  "phymj7r5": { "id": "phymj7r5", "title": "Nano Science and Technology", "module": "PHYMJ7R5", "comingSoon": true },
-  "phymj7r6": { "id": "phymj7r6", "title": "Advanced Molecular Spectroscopy", "module": "PHYMJ7R6", "comingSoon": true },
-  "phymj7r7": { "id": "phymj7r7", "title": "Nuclear Models and Reactions", "module": "PHYMJ7R7", "comingSoon": true },
-  "phymj7r8": { "id": "phymj7r8", "title": "Plasma Astrophysics and Physics of Interstellar Medium", "module": "PHYMJ7R8", "comingSoon": true },
-  "phymn71": { "id": "phymn71", "title": "Classical Mechanics-II", "module": "PHYMN71", "comingSoon": true },
-  "phymn72": { "id": "phymn72", "title": "Mathematical Physics-II", "module": "PHYMN72", "comingSoon": true },
-  "phymn73": { "id": "phymn73", "title": "Quantum Mechanics-II", "module": "PHYMN73", "comingSoon": true },
-  "phymn74": { "id": "phymn74", "title": "Advanced Topics in Integrated Circuits, Digital Electronics", "module": "PHYMN74", "comingSoon": true },
-  "phymn75": { "id": "phymn75", "title": "Nano Science and Technology", "module": "PHYMN75", "comingSoon": true },
-  "phymn76": { "id": "phymn76", "title": "Advanced Molecular Spectroscopy", "module": "PHYMN76", "comingSoon": true },
-  "phymn77": { "id": "phymn77", "title": "Nuclear Models and Reactions", "module": "PHYMN77", "comingSoon": true },
-  "phymn78": { "id": "phymn78", "title": "Plasma Astrophysics and Physics of Interstellar Medium", "module": "PHYMN78", "comingSoon": true },
-  "phymn79": { "id": "phymn79", "title": "Lab", "module": "PHYMN79", "comingSoon": true },
-  "phymn7r1": { "id": "phymn7r1", "title": "Classical Mechanics-II", "module": "PHYMN7R1", "comingSoon": true },
-  "phymn7r2": { "id": "phymn7r2", "title": "Mathematical Physics-II", "module": "PHYMN7R2", "comingSoon": true },
-  "phymn7r3": { "id": "phymn7r3", "title": "Quantum Mechanics-II", "module": "PHYMN7R3", "comingSoon": true },
-  "phymn7r4": { "id": "phymn7r4", "title": "Advanced Topics in Integrated Circuits, Digital Electronics", "module": "PHYMN7R4", "comingSoon": true },
-  "phymn7r5": { "id": "phymn7r5", "title": "Nano Science and Technology", "module": "PHYMN7R5", "comingSoon": true },
-  "phymn7r6": { "id": "phymn7r6", "title": "Advanced Molecular Spectroscopy", "module": "PHYMN7R6", "comingSoon": true },
-  "phymn7r7": { "id": "phymn7r7", "title": "Nuclear Models and Reactions", "module": "PHYMN7R7", "comingSoon": true },
-  "phymn7r8": { "id": "phymn7r8", "title": "Plasma Astrophysics and Physics of Interstellar Medium", "module": "PHYMN7R8", "comingSoon": true },
-  "phymn7r9": { "id": "phymn7r9", "title": "Lab", "module": "PHYMN7R9", "comingSoon": true },
-  "phyds8r1": { "id": "phyds8r1", "title": "Dissertation", "module": "PHYDS8R1", "comingSoon": true },
-  "phymj81": { "id": "phymj81", "title": "Statistical Mechanics-II", "module": "PHYMJ81", "comingSoon": true },
-  "phymj810": { "id": "phymj810", "title": "Physics Laboratory-B", "module": "PHYMJ810", "comingSoon": true },
-  "phymj811": { "id": "phymj811", "title": "Physics Laboratory-C", "module": "PHYMJ811", "comingSoon": true },
-  "phymj82": { "id": "phymj82", "title": "Electrodynamics and Plasma Physics", "module": "PHYMJ82", "comingSoon": true },
-  "phymj83": { "id": "phymj83", "title": "Advanced Topics in Quantum Mechanics", "module": "PHYMJ83", "comingSoon": true },
-  "phymj84": { "id": "phymj84", "title": "Advanced Photonics and Optical Communication", "module": "PHYMJ84", "comingSoon": true },
-  "phymj85": { "id": "phymj85", "title": "Advanced Topics in Condensed Matter Physics", "module": "PHYMJ85", "comingSoon": true },
-  "phymj86": { "id": "phymj86", "title": "Spectroscopic Techniques for Materials Characterization", "module": "PHYMJ86", "comingSoon": true },
-  "phymj87": { "id": "phymj87", "title": "Particle Physics", "module": "PHYMJ87", "comingSoon": true },
-  "phymj88": { "id": "phymj88", "title": "Astrophysics of Stars and Galaxies", "module": "PHYMJ88", "comingSoon": true },
-  "phymj89": { "id": "phymj89", "title": "Physics Laboratory-A", "module": "PHYMJ89", "comingSoon": true },
-  "phymj8r1": { "id": "phymj8r1", "title": "Research Methodologies", "module": "PHYMJ8R1", "comingSoon": true },
-  "phymj8r2": { "id": "phymj8r2", "title": "Research Techniques", "module": "PHYMJ8R2", "comingSoon": true },
-  "phymn81": { "id": "phymn81", "title": "Statistical Mechanics-II", "module": "PHYMN81", "comingSoon": true },
-  "phymn82": { "id": "phymn82", "title": "Electrodynamics and Plasma Physics", "module": "PHYMN82", "comingSoon": true },
-  "phymn83": { "id": "phymn83", "title": "Advanced Topics in Quantum Mechanics", "module": "PHYMN83", "comingSoon": true },
-  "phymn84": { "id": "phymn84", "title": "Advanced Photonics and Optical Communication", "module": "PHYMN84", "comingSoon": true },
-  "phymn85": { "id": "phymn85", "title": "Advanced Topics in Condensed Matter Physics", "module": "PHYMN85", "comingSoon": true },
-  "phymn86": { "id": "phymn86", "title": "Spectroscopic Techniques for Materials Characterization", "module": "PHYMN86", "comingSoon": true },
-  "phymn87": { "id": "phymn87", "title": "Particle Physics", "module": "PHYMN87", "comingSoon": true },
-  "phymn88": { "id": "phymn88", "title": "Astrophysics of Stars and Galaxies", "module": "PHYMN88", "comingSoon": true },
-  "phymn89": { "id": "phymn89", "title": "Lab", "module": "PHYMN89", "comingSoon": true },
-  "phymn8r1": { "id": "phymn8r1", "title": "Statistical Mechanics-II", "module": "PHYMN8R1", "comingSoon": true },
-  "phymn8r2": { "id": "phymn8r2", "title": "Electrodynamics and Plasma Physics", "module": "PHYMN8R2", "comingSoon": true },
-  "phymn8r3": { "id": "phymn8r3", "title": "Advanced Topics in Quantum Mechanics", "module": "PHYMN8R3", "comingSoon": true },
-  "phymn8r4": { "id": "phymn8r4", "title": "Advanced Photonics and Optical Communication", "module": "PHYMN8R4", "comingSoon": true },
-  "phymn8r5": { "id": "phymn8r5", "title": "Advanced Topics in Condensed Matter Physics", "module": "PHYMN8R5", "comingSoon": true },
-  "phymn8r6": { "id": "phymn8r6", "title": "Spectroscopic Techniques for Materials Characterization", "module": "PHYMN8R6", "comingSoon": true },
-  "phymn8r7": { "id": "phymn8r7", "title": "Particle Physics", "module": "PHYMN8R7", "comingSoon": true },
-  "phymn8r8": { "id": "phymn8r8", "title": "Astrophysics of Stars and Galaxies", "module": "PHYMN8R8", "comingSoon": true },
+  "phymj43": {
+    "id": "phymj43",
+    "title": "Computational Physics",
+    "module": "PHYMJ43",
+    "comingSoon": true
+  },
+  "phymj44": {
+    "id": "phymj44",
+    "title": "Physical Laboratory 4",
+    "module": "PHYMJ44",
+    "comingSoon": true
+  },
+  "phymj45": {
+    "id": "phymj45",
+    "title": "Computer Laboratory",
+    "module": "PHYMJ45",
+    "comingSoon": true
+  },
+  "phymn41": {
+    "id": "phymn41",
+    "title": "Electromagnetic Theory & Special Theory of Relativity",
+    "module": "PHYMN41",
+    "comingSoon": true
+  },
+  "phyin51": {
+    "id": "phyin51",
+    "title": "Internship",
+    "module": "PHYIN51",
+    "comingSoon": true
+  },
+  "phymj51": {
+    "id": "phymj51",
+    "title": "Quantum Mechanics-I",
+    "module": "PHYMJ51",
+    "comingSoon": true
+  },
+  "phymj52": {
+    "id": "phymj52",
+    "title": "Classical Mechanics-I",
+    "module": "PHYMJ52",
+    "comingSoon": true
+  },
+  "phymj53": {
+    "id": "phymj53",
+    "title": "Statistical Mechanics-I",
+    "module": "PHYMJ53",
+    "comingSoon": true
+  },
+  "phymj54": {
+    "id": "phymj54",
+    "title": "Physics Laboratory-5",
+    "module": "PHYMJ54",
+    "comingSoon": true
+  },
+  "phymv51": {
+    "id": "phymv51",
+    "title": "Hands-on Training on Tooling, Welding, Electronics",
+    "module": "PHYMV51",
+    "comingSoon": true
+  },
+  "phymv52": {
+    "id": "phymv52",
+    "title": "Minor Vocational Laboratory",
+    "module": "PHYMV52",
+    "comingSoon": true
+  },
+  "phymj61": {
+    "id": "phymj61",
+    "title": "Electronic Circuits and Analysis",
+    "module": "PHYMJ61",
+    "comingSoon": true
+  },
+  "phymj62": {
+    "id": "phymj62",
+    "title": "Solid State Physics",
+    "module": "PHYMJ62",
+    "comingSoon": true
+  },
+  "phymj63": {
+    "id": "phymj63",
+    "title": "Atomic, Molecular and Laser Physics",
+    "module": "PHYMJ63",
+    "comingSoon": true
+  },
+  "phymj64": {
+    "id": "phymj64",
+    "title": "Nuclear & Particle Physics",
+    "module": "PHYMJ64",
+    "comingSoon": true
+  },
+  "phymj65": {
+    "id": "phymj65",
+    "title": "Soft Matter Physics",
+    "module": "PHYMJ65",
+    "comingSoon": true
+  },
+  "phymj66": {
+    "id": "phymj66",
+    "title": "Space Physics",
+    "module": "PHYMJ66",
+    "comingSoon": true
+  },
+  "phymj67": {
+    "id": "phymj67",
+    "title": "Physics Laboratory-6",
+    "module": "PHYMJ67",
+    "comingSoon": true
+  },
+  "phymv61": {
+    "id": "phymv61",
+    "title": "Artificial Intelligence and Machine Learning",
+    "module": "PHYMV61",
+    "comingSoon": true
+  },
+  "phymj71": {
+    "id": "phymj71",
+    "title": "Classical Mechanics-II",
+    "module": "PHYMJ71",
+    "comingSoon": true
+  },
+  "phymj710": {
+    "id": "phymj710",
+    "title": "Physics Laboratory-B",
+    "module": "PHYMJ710",
+    "comingSoon": true
+  },
+  "phymj711": {
+    "id": "phymj711",
+    "title": "Physics Laboratory-C",
+    "module": "PHYMJ711",
+    "comingSoon": true
+  },
+  "phymj72": {
+    "id": "phymj72",
+    "title": "Mathematical Physics-II",
+    "module": "PHYMJ72",
+    "comingSoon": true
+  },
+  "phymj73": {
+    "id": "phymj73",
+    "title": "Quantum Mechanics-II",
+    "module": "PHYMJ73",
+    "comingSoon": true
+  },
+  "phymj74": {
+    "id": "phymj74",
+    "title": "Advanced Topics in Integrated Circuits, Digital Electronics",
+    "module": "PHYMJ74",
+    "comingSoon": true
+  },
+  "phymj75": {
+    "id": "phymj75",
+    "title": "Nano Science and Technology",
+    "module": "PHYMJ75",
+    "comingSoon": true
+  },
+  "phymj76": {
+    "id": "phymj76",
+    "title": "Advanced Molecular Spectroscopy",
+    "module": "PHYMJ76",
+    "comingSoon": true
+  },
+  "phymj77": {
+    "id": "phymj77",
+    "title": "Nuclear Models and Reactions",
+    "module": "PHYMJ77",
+    "comingSoon": true
+  },
+  "phymj78": {
+    "id": "phymj78",
+    "title": "Plasma Astrophysics and Physics of Interstellar Medium",
+    "module": "PHYMJ78",
+    "comingSoon": true
+  },
+  "phymj79": {
+    "id": "phymj79",
+    "title": "Physics Laboratory-A",
+    "module": "PHYMJ79",
+    "comingSoon": true
+  },
+  "phymj7r1": {
+    "id": "phymj7r1",
+    "title": "Classical Mechanics-II",
+    "module": "PHYMJ7R1",
+    "comingSoon": true
+  },
+  "phymj7r2": {
+    "id": "phymj7r2",
+    "title": "Mathematical Physics-II",
+    "module": "PHYMJ7R2",
+    "comingSoon": true
+  },
+  "phymj7r3": {
+    "id": "phymj7r3",
+    "title": "Quantum Mechanics-II",
+    "module": "PHYMJ7R3",
+    "comingSoon": true
+  },
+  "phymj7r4": {
+    "id": "phymj7r4",
+    "title": "Advanced Topics in Integrated Circuits, Digital Electronics",
+    "module": "PHYMJ7R4",
+    "comingSoon": true
+  },
+  "phymj7r5": {
+    "id": "phymj7r5",
+    "title": "Nano Science and Technology",
+    "module": "PHYMJ7R5",
+    "comingSoon": true
+  },
+  "phymj7r6": {
+    "id": "phymj7r6",
+    "title": "Advanced Molecular Spectroscopy",
+    "module": "PHYMJ7R6",
+    "comingSoon": true
+  },
+  "phymj7r7": {
+    "id": "phymj7r7",
+    "title": "Nuclear Models and Reactions",
+    "module": "PHYMJ7R7",
+    "comingSoon": true
+  },
+  "phymj7r8": {
+    "id": "phymj7r8",
+    "title": "Plasma Astrophysics and Physics of Interstellar Medium",
+    "module": "PHYMJ7R8",
+    "comingSoon": true
+  },
+  "phymn71": {
+    "id": "phymn71",
+    "title": "Classical Mechanics-II",
+    "module": "PHYMN71",
+    "comingSoon": true
+  },
+  "phymn72": {
+    "id": "phymn72",
+    "title": "Mathematical Physics-II",
+    "module": "PHYMN72",
+    "comingSoon": true
+  },
+  "phymn73": {
+    "id": "phymn73",
+    "title": "Quantum Mechanics-II",
+    "module": "PHYMN73",
+    "comingSoon": true
+  },
+  "phymn74": {
+    "id": "phymn74",
+    "title": "Advanced Topics in Integrated Circuits, Digital Electronics",
+    "module": "PHYMN74",
+    "comingSoon": true
+  },
+  "phymn75": {
+    "id": "phymn75",
+    "title": "Nano Science and Technology",
+    "module": "PHYMN75",
+    "comingSoon": true
+  },
+  "phymn76": {
+    "id": "phymn76",
+    "title": "Advanced Molecular Spectroscopy",
+    "module": "PHYMN76",
+    "comingSoon": true
+  },
+  "phymn77": {
+    "id": "phymn77",
+    "title": "Nuclear Models and Reactions",
+    "module": "PHYMN77",
+    "comingSoon": true
+  },
+  "phymn78": {
+    "id": "phymn78",
+    "title": "Plasma Astrophysics and Physics of Interstellar Medium",
+    "module": "PHYMN78",
+    "comingSoon": true
+  },
+  "phymn79": {
+    "id": "phymn79",
+    "title": "Lab",
+    "module": "PHYMN79",
+    "comingSoon": true
+  },
+  "phymn7r1": {
+    "id": "phymn7r1",
+    "title": "Classical Mechanics-II",
+    "module": "PHYMN7R1",
+    "comingSoon": true
+  },
+  "phymn7r2": {
+    "id": "phymn7r2",
+    "title": "Mathematical Physics-II",
+    "module": "PHYMN7R2",
+    "comingSoon": true
+  },
+  "phymn7r3": {
+    "id": "phymn7r3",
+    "title": "Quantum Mechanics-II",
+    "module": "PHYMN7R3",
+    "comingSoon": true
+  },
+  "phymn7r4": {
+    "id": "phymn7r4",
+    "title": "Advanced Topics in Integrated Circuits, Digital Electronics",
+    "module": "PHYMN7R4",
+    "comingSoon": true
+  },
+  "phymn7r5": {
+    "id": "phymn7r5",
+    "title": "Nano Science and Technology",
+    "module": "PHYMN7R5",
+    "comingSoon": true
+  },
+  "phymn7r6": {
+    "id": "phymn7r6",
+    "title": "Advanced Molecular Spectroscopy",
+    "module": "PHYMN7R6",
+    "comingSoon": true
+  },
+  "phymn7r7": {
+    "id": "phymn7r7",
+    "title": "Nuclear Models and Reactions",
+    "module": "PHYMN7R7",
+    "comingSoon": true
+  },
+  "phymn7r8": {
+    "id": "phymn7r8",
+    "title": "Plasma Astrophysics and Physics of Interstellar Medium",
+    "module": "PHYMN7R8",
+    "comingSoon": true
+  },
+  "phymn7r9": {
+    "id": "phymn7r9",
+    "title": "Lab",
+    "module": "PHYMN7R9",
+    "comingSoon": true
+  },
+  "phyds8r1": {
+    "id": "phyds8r1",
+    "title": "Dissertation",
+    "module": "PHYDS8R1",
+    "comingSoon": true
+  },
+  "phymj81": {
+    "id": "phymj81",
+    "title": "Statistical Mechanics-II",
+    "module": "PHYMJ81",
+    "comingSoon": true
+  },
+  "phymj810": {
+    "id": "phymj810",
+    "title": "Physics Laboratory-B",
+    "module": "PHYMJ810",
+    "comingSoon": true
+  },
+  "phymj811": {
+    "id": "phymj811",
+    "title": "Physics Laboratory-C",
+    "module": "PHYMJ811",
+    "comingSoon": true
+  },
+  "phymj82": {
+    "id": "phymj82",
+    "title": "Electrodynamics and Plasma Physics",
+    "module": "PHYMJ82",
+    "comingSoon": true
+  },
+  "phymj83": {
+    "id": "phymj83",
+    "title": "Advanced Topics in Quantum Mechanics",
+    "module": "PHYMJ83",
+    "comingSoon": true
+  },
+  "phymj84": {
+    "id": "phymj84",
+    "title": "Advanced Photonics and Optical Communication",
+    "module": "PHYMJ84",
+    "comingSoon": true
+  },
+  "phymj85": {
+    "id": "phymj85",
+    "title": "Advanced Topics in Condensed Matter Physics",
+    "module": "PHYMJ85",
+    "comingSoon": true
+  },
+  "phymj86": {
+    "id": "phymj86",
+    "title": "Spectroscopic Techniques for Materials Characterization",
+    "module": "PHYMJ86",
+    "comingSoon": true
+  },
+  "phymj87": {
+    "id": "phymj87",
+    "title": "Particle Physics",
+    "module": "PHYMJ87",
+    "comingSoon": true
+  },
+  "phymj88": {
+    "id": "phymj88",
+    "title": "Astrophysics of Stars and Galaxies",
+    "module": "PHYMJ88",
+    "comingSoon": true
+  },
+  "phymj89": {
+    "id": "phymj89",
+    "title": "Physics Laboratory-A",
+    "module": "PHYMJ89",
+    "comingSoon": true
+  },
+  "phymj8r1": {
+    "id": "phymj8r1",
+    "title": "Research Methodologies",
+    "module": "PHYMJ8R1",
+    "comingSoon": true
+  },
+  "phymj8r2": {
+    "id": "phymj8r2",
+    "title": "Research Techniques",
+    "module": "PHYMJ8R2",
+    "comingSoon": true
+  },
+  "phymn81": {
+    "id": "phymn81",
+    "title": "Statistical Mechanics-II",
+    "module": "PHYMN81",
+    "comingSoon": true
+  },
+  "phymn82": {
+    "id": "phymn82",
+    "title": "Electrodynamics and Plasma Physics",
+    "module": "PHYMN82",
+    "comingSoon": true
+  },
+  "phymn83": {
+    "id": "phymn83",
+    "title": "Advanced Topics in Quantum Mechanics",
+    "module": "PHYMN83",
+    "comingSoon": true
+  },
+  "phymn84": {
+    "id": "phymn84",
+    "title": "Advanced Photonics and Optical Communication",
+    "module": "PHYMN84",
+    "comingSoon": true
+  },
+  "phymn85": {
+    "id": "phymn85",
+    "title": "Advanced Topics in Condensed Matter Physics",
+    "module": "PHYMN85",
+    "comingSoon": true
+  },
+  "phymn86": {
+    "id": "phymn86",
+    "title": "Spectroscopic Techniques for Materials Characterization",
+    "module": "PHYMN86",
+    "comingSoon": true
+  },
+  "phymn87": {
+    "id": "phymn87",
+    "title": "Particle Physics",
+    "module": "PHYMN87",
+    "comingSoon": true
+  },
+  "phymn88": {
+    "id": "phymn88",
+    "title": "Astrophysics of Stars and Galaxies",
+    "module": "PHYMN88",
+    "comingSoon": true
+  },
+  "phymn89": {
+    "id": "phymn89",
+    "title": "Lab",
+    "module": "PHYMN89",
+    "comingSoon": true
+  },
+  "phymn8r1": {
+    "id": "phymn8r1",
+    "title": "Statistical Mechanics-II",
+    "module": "PHYMN8R1",
+    "comingSoon": true
+  },
+  "phymn8r2": {
+    "id": "phymn8r2",
+    "title": "Electrodynamics and Plasma Physics",
+    "module": "PHYMN8R2",
+    "comingSoon": true
+  },
+  "phymn8r3": {
+    "id": "phymn8r3",
+    "title": "Advanced Topics in Quantum Mechanics",
+    "module": "PHYMN8R3",
+    "comingSoon": true
+  },
+  "phymn8r4": {
+    "id": "phymn8r4",
+    "title": "Advanced Photonics and Optical Communication",
+    "module": "PHYMN8R4",
+    "comingSoon": true
+  },
+  "phymn8r5": {
+    "id": "phymn8r5",
+    "title": "Advanced Topics in Condensed Matter Physics",
+    "module": "PHYMN8R5",
+    "comingSoon": true
+  },
+  "phymn8r6": {
+    "id": "phymn8r6",
+    "title": "Spectroscopic Techniques for Materials Characterization",
+    "module": "PHYMN8R6",
+    "comingSoon": true
+  },
+  "phymn8r7": {
+    "id": "phymn8r7",
+    "title": "Particle Physics",
+    "module": "PHYMN8R7",
+    "comingSoon": true
+  },
+  "phymn8r8": {
+    "id": "phymn8r8",
+    "title": "Astrophysics of Stars and Galaxies",
+    "module": "PHYMN8R8",
+    "comingSoon": true
+  },
   "glbmj41": {
     "id": "glbmj41",
     "title": "Palaeontology and Stratigraphy",
@@ -5519,126 +7851,126 @@ export const EXAMS = {
     "type": "theory",
     "questions": [
       {
-            "id": 1,
-            "unit": "I",
-            "question": "Discuss the different physical and chemical conditions required for Fossilization. Explain how these conditions influence the preservation of organic remains.",
-            "answerKey": "1. **Physical Conditions**:\n- **Rapid Burial**: Crucial to protect the dead organism from mechanical weathering, scavenging, and atmospheric oxidation. Fine-grained sediments like clay and silt are ideal.\n- **Presence of Hard Parts**: Hard skeletal elements (e.g., bones, calcitic shells, teeth, siliceous tests) are highly resistant and much more likely to be fossilized than soft tissues.\n- **Low-Energy Environment**: Deposition in quiet water basins (e.g., lakes, deep marine shelves) prevents fragmentation or abrasion of remains.\n\n2. **Chemical Conditions**:\n- **Anoxic / Reducing Environment**: Depletion of oxygen prevents rapid bacterial decay and decomposition of organic matter.\n- **Saturated Groundwater**: Water containing dissolved mineral ions (calcite, silica, iron oxides) must circulate through the sediment to initiate mineral precipitation.\n- **Optimal pH**: Alkaline water promotes calcium carbonate preservation, while slightly acidic to neutral water rich in silica allows quartz precipitation and petrification.\n\n3. **Influence on Preservation**:\n- Rapid burial in mudstones yields high-fidelity molds and casts. High oxygen levels lead to complete decay, leaving nothing. Carbonate-rich groundwaters lead to recrystallization of unstable aragonite into stable calcite, while acidic conditions dissolve shells entirely, leaving only external prints."
+        "id": 1,
+        "unit": "I",
+        "question": "Discuss the different physical and chemical conditions required for Fossilization. Explain how these conditions influence the preservation of organic remains.",
+        "answerKey": "1. **Physical Conditions**:\n- **Rapid Burial**: Crucial to protect the dead organism from mechanical weathering, scavenging, and atmospheric oxidation. Fine-grained sediments like clay and silt are ideal.\n- **Presence of Hard Parts**: Hard skeletal elements (e.g., bones, calcitic shells, teeth, siliceous tests) are highly resistant and much more likely to be fossilized than soft tissues.\n- **Low-Energy Environment**: Deposition in quiet water basins (e.g., lakes, deep marine shelves) prevents fragmentation or abrasion of remains.\n\n2. **Chemical Conditions**:\n- **Anoxic / Reducing Environment**: Depletion of oxygen prevents rapid bacterial decay and decomposition of organic matter.\n- **Saturated Groundwater**: Water containing dissolved mineral ions (calcite, silica, iron oxides) must circulate through the sediment to initiate mineral precipitation.\n- **Optimal pH**: Alkaline water promotes calcium carbonate preservation, while slightly acidic to neutral water rich in silica allows quartz precipitation and petrification.\n\n3. **Influence on Preservation**:\n- Rapid burial in mudstones yields high-fidelity molds and casts. High oxygen levels lead to complete decay, leaving nothing. Carbonate-rich groundwaters lead to recrystallization of unstable aragonite into stable calcite, while acidic conditions dissolve shells entirely, leaving only external prints."
       },
       {
-            "id": 2,
-            "unit": "I",
-            "question": "Write a detailed geological note on the processes of mineralization in fossil preservation, explaining the differences between permineralization, replacement, and recrystallization.",
-            "answerKey": "1. **Permineralization (Petrifaction)**:\n- Occurs when groundwater rich in silica ($SiO_2$), calcite ($CaCO_3$), or iron compounds fills the microscopic pore spaces, cells, or cavities of organic structures (such as wood or bone).\n- The mineral precipitates within the voids, forming a rock-like structure but retaining the original cell walls and internal morphology.\n\n2. **Replacement**:\n- Involves an atom-by-atom (or molecule-by-molecule) exchange of the original organic or inorganic skeleton with a new mineral species.\n- This slow chemical exchange is mediated by acidic/basic groundwater. For instance, the original cellulose of wood is replaced by microcrystalline quartz (silicification), or calcite shells are replaced by pyrite ($FeS_2$) (pyritization). It preserves extremely fine anatomical details.\n\n3. **Recrystallization**:\n- The original mineral material of the skeleton changes its mineral phase or crystal size without changing its chemical composition.\n- A classic example is the transformation of unstable aragonite in mollusk shells to stable calcite ($CaCO_3$). While the chemical formula remains identical, the change in crystal fabric often destroys fine internal details, leaving a coarser crystalline texture."
+        "id": 2,
+        "unit": "I",
+        "question": "Write a detailed geological note on the processes of mineralization in fossil preservation, explaining the differences between permineralization, replacement, and recrystallization.",
+        "answerKey": "1. **Permineralization (Petrifaction)**:\n- Occurs when groundwater rich in silica ($SiO_2$), calcite ($CaCO_3$), or iron compounds fills the microscopic pore spaces, cells, or cavities of organic structures (such as wood or bone).\n- The mineral precipitates within the voids, forming a rock-like structure but retaining the original cell walls and internal morphology.\n\n2. **Replacement**:\n- Involves an atom-by-atom (or molecule-by-molecule) exchange of the original organic or inorganic skeleton with a new mineral species.\n- This slow chemical exchange is mediated by acidic/basic groundwater. For instance, the original cellulose of wood is replaced by microcrystalline quartz (silicification), or calcite shells are replaced by pyrite ($FeS_2$) (pyritization). It preserves extremely fine anatomical details.\n\n3. **Recrystallization**:\n- The original mineral material of the skeleton changes its mineral phase or crystal size without changing its chemical composition.\n- A classic example is the transformation of unstable aragonite in mollusk shells to stable calcite ($CaCO_3$). While the chemical formula remains identical, the change in crystal fabric often destroys fine internal details, leaving a coarser crystalline texture."
       },
       {
-            "id": 3,
-            "unit": "II",
-            "question": "Describe the comprehensive morphological features of Trilobites, with special emphasis on the anatomy of the cephalon and the definition of the genal angle.",
-            "answerKey": "1. **Trilobite Subdivisions**:\n- **Longitudinal**: Divided into a central *axial lobe* (protecting the nervous system) and two lateral *pleural lobes*.\n- **Transverse**: Divided into three main tagmata: the head shield (*cephalon*), the segmented body (*thorax*), and the tail shield (*pygidium*).\n\n2. **Anatomy of the Cephalon**:\n- **Glabella**: The raised central axial portion of the cephalon, representing the stomach/digestive region.\n- **Cheeks**: The lateral areas flanking the glabella, divided by facial sutures into the inner fixed cheeks (*fixigena*) and outer free cheeks (*librigena*).\n- **Eyes**: Large compound eyes made of calcite crystals, located on the cheeks.\n- **Facial Sutures**: Lines of weakness along which the trilobite split its exoskeleton during molting (ecdysis). Types include *proparian* (ends in front of the genal angle), *gonatoparian* (ends exactly at the genal angle), and *opisthoparian* (ends behind the genal angle on the posterior margin).\n\n3. **Genal Angle**:\n- The posterior-lateral corner where the lateral margin of the cephalon meets the posterior margin.\n- It is a critical diagnostic feature in trilobite classification. In many species, the genal angle projects backward as a long, needle-like *genal spine*, which assisted in flotation, defense, or steering."
+        "id": 3,
+        "unit": "II",
+        "question": "Describe the comprehensive morphological features of Trilobites, with special emphasis on the anatomy of the cephalon and the definition of the genal angle.",
+        "answerKey": "1. **Trilobite Subdivisions**:\n- **Longitudinal**: Divided into a central *axial lobe* (protecting the nervous system) and two lateral *pleural lobes*.\n- **Transverse**: Divided into three main tagmata: the head shield (*cephalon*), the segmented body (*thorax*), and the tail shield (*pygidium*).\n\n2. **Anatomy of the Cephalon**:\n- **Glabella**: The raised central axial portion of the cephalon, representing the stomach/digestive region.\n- **Cheeks**: The lateral areas flanking the glabella, divided by facial sutures into the inner fixed cheeks (*fixigena*) and outer free cheeks (*librigena*).\n- **Eyes**: Large compound eyes made of calcite crystals, located on the cheeks.\n- **Facial Sutures**: Lines of weakness along which the trilobite split its exoskeleton during molting (ecdysis). Types include *proparian* (ends in front of the genal angle), *gonatoparian* (ends exactly at the genal angle), and *opisthoparian* (ends behind the genal angle on the posterior margin).\n\n3. **Genal Angle**:\n- The posterior-lateral corner where the lateral margin of the cephalon meets the posterior margin.\n- It is a critical diagnostic feature in trilobite classification. In many species, the genal angle projects backward as a long, needle-like *genal spine*, which assisted in flotation, defense, or steering."
       },
       {
-            "id": 4,
-            "unit": "II",
-            "question": "Describe the structural morphology of a rhabdosome in graptolites, highlighting the roles of the sicula, stipes, and thecae.",
-            "answerKey": "1. **Rhabdosome**:\n- The entire colonial skeleton of a graptolite, composed of organic scleroprotein material (similar to chitin).\n\n2. **Sicula**:\n- The conical, embryonic initial skeleton of the colony. It is divided into:\n  - *Prosicula*: The older, apical, structureless portion.\n  - *Metasicula*: The younger, wider, apertural portion with growth lines.\n- A needle-like rod called the *nema* or *virgula* extends from the apex of the sicula, which served for attachment to floating seaweed or a gas-filled float.\n\n3. **Stipes**:\n- The branches or arms that grow from the sicula to build the rhabdosome. A rhabdosome can be single-striped (monograptid), two-striped (dendroid/didymograptid), or multi-striped.\n\n4. **Thecae**:\n- The individual cup-like or tube-like chambers housing the zooids (individual animals). They are arranged along the stipes. They are described as:\n  - *Uniserial*: Arranged in a single row on one side of the stipe.\n  - *Biserial*: Arranged in two opposing rows back-to-back (e.g., *Diplograptus*).\n  - *Cladial*: Secondary branches."
+        "id": 4,
+        "unit": "II",
+        "question": "Describe the structural morphology of a rhabdosome in graptolites, highlighting the roles of the sicula, stipes, and thecae.",
+        "answerKey": "1. **Rhabdosome**:\n- The entire colonial skeleton of a graptolite, composed of organic scleroprotein material (similar to chitin).\n\n2. **Sicula**:\n- The conical, embryonic initial skeleton of the colony. It is divided into:\n  - *Prosicula*: The older, apical, structureless portion.\n  - *Metasicula*: The younger, wider, apertural portion with growth lines.\n- A needle-like rod called the *nema* or *virgula* extends from the apex of the sicula, which served for attachment to floating seaweed or a gas-filled float.\n\n3. **Stipes**:\n- The branches or arms that grow from the sicula to build the rhabdosome. A rhabdosome can be single-striped (monograptid), two-striped (dendroid/didymograptid), or multi-striped.\n\n4. **Thecae**:\n- The individual cup-like or tube-like chambers housing the zooids (individual animals). They are arranged along the stipes. They are described as:\n  - *Uniserial*: Arranged in a single row on one side of the stipe.\n  - *Biserial*: Arranged in two opposing rows back-to-back (e.g., *Diplograptus*).\n  - *Cladial*: Secondary branches."
       },
       {
-            "id": 5,
-            "unit": "II",
-            "question": "Discuss the detailed skeletal morphology of the class Anthozoa (corals), including the roles of the calyx, septa, and tabulae.",
-            "answerKey": "1. **Corallite**:\n- The calcium carbonate skeleton secreted by an individual anthozoan polyp. It is typically cylindrical or conical.\n\n2. **Calyx**:\n- The cup-shaped depression at the top/aperture of the corallite where the living polyp sits and retracts for protection.\n\n3. **Septa**:\n- Vertical, radially arranged skeletal plates that project inward from the outer wall (*theca*) toward the center.\n- They support the mesenteries (internal soft folds) of the polyp. In Rugose corals, septa are added in cycles of four (tetrameral), whereas in Scleractinian corals, they are added in cycles of six (hexameral).\n\n4. **Tabulae**:\n- Horizontal, transverse plates that partition the corallite into chambers. As the polyp grows upward, it secretes a new tabula beneath it, shutting off the abandoned lower part of the tube.\n\n5. **Other features**:\n- **Dissepiments**: Small, curved vesicular plates in the peripheral zone of the corallite.\n- **Columella**: A central axial rod or pillar structure formed by the fusion of the inner ends of the septa."
+        "id": 5,
+        "unit": "II",
+        "question": "Discuss the detailed skeletal morphology of the class Anthozoa (corals), including the roles of the calyx, septa, and tabulae.",
+        "answerKey": "1. **Corallite**:\n- The calcium carbonate skeleton secreted by an individual anthozoan polyp. It is typically cylindrical or conical.\n\n2. **Calyx**:\n- The cup-shaped depression at the top/aperture of the corallite where the living polyp sits and retracts for protection.\n\n3. **Septa**:\n- Vertical, radially arranged skeletal plates that project inward from the outer wall (*theca*) toward the center.\n- They support the mesenteries (internal soft folds) of the polyp. In Rugose corals, septa are added in cycles of four (tetrameral), whereas in Scleractinian corals, they are added in cycles of six (hexameral).\n\n4. **Tabulae**:\n- Horizontal, transverse plates that partition the corallite into chambers. As the polyp grows upward, it secretes a new tabula beneath it, shutting off the abandoned lower part of the tube.\n\n5. **Other features**:\n- **Dissepiments**: Small, curved vesicular plates in the peripheral zone of the corallite.\n- **Columella**: A central axial rod or pillar structure formed by the fusion of the inner ends of the septa."
       },
       {
-            "id": 6,
-            "unit": "II",
-            "question": "Discuss the skeletal morphology and geological distribution of the class Echinoidea, highlighting the role of the apical disc.",
-            "answerKey": "1. **Skeletal Test**:\n- The globose, disc-shaped, or heart-shaped skeleton (test) composed of interlocking plates of crystalline calcite.\n- Bounded by 20 vertical columns of plates: 5 double columns of *ambulacral zones* (perforated by pore pairs for tube feet) alternating with 5 double columns of *interambulacral zones* (bearing tubercles for defensive spines).\n\n2. **Apical Disc**:\n- A ring of ten plates situated at the aboral pole (top) of the test. It consists of:\n  - *5 Genital Plates*: Located at the head of the interambulacral columns. Each contains a genital pore (gonopore). One plate is enlarged and porous, acting as the *madreporite* (water intake for the vascular system).\n  - *5 Ocular/Lacrymal Plates*: Located at the head of the ambulacral columns, each containing a small pore for a sensory tentacle.\n\n3. **Symmetry & Classification**:\n- **Regular Echinoids** (e.g., sea urchins): Radial symmetry; mouth at bottom, periproct (anus) centered inside the apical disc.\n- **Irregular Echinoids** (e.g., sand dollars, heart urchins): Bilateral symmetry; periproct shifted outside the apical disc to a posterior position to facilitate burrowing.\n\n4. **Geological Range**:\n- Late Ordovician to Present day. Highly important for Mesozoic and Cenozoic shallow marine facies correlation."
+        "id": 6,
+        "unit": "II",
+        "question": "Discuss the skeletal morphology and geological distribution of the class Echinoidea, highlighting the role of the apical disc.",
+        "answerKey": "1. **Skeletal Test**:\n- The globose, disc-shaped, or heart-shaped skeleton (test) composed of interlocking plates of crystalline calcite.\n- Bounded by 20 vertical columns of plates: 5 double columns of *ambulacral zones* (perforated by pore pairs for tube feet) alternating with 5 double columns of *interambulacral zones* (bearing tubercles for defensive spines).\n\n2. **Apical Disc**:\n- A ring of ten plates situated at the aboral pole (top) of the test. It consists of:\n  - *5 Genital Plates*: Located at the head of the interambulacral columns. Each contains a genital pore (gonopore). One plate is enlarged and porous, acting as the *madreporite* (water intake for the vascular system).\n  - *5 Ocular/Lacrymal Plates*: Located at the head of the ambulacral columns, each containing a small pore for a sensory tentacle.\n\n3. **Symmetry & Classification**:\n- **Regular Echinoids** (e.g., sea urchins): Radial symmetry; mouth at bottom, periproct (anus) centered inside the apical disc.\n- **Irregular Echinoids** (e.g., sand dollars, heart urchins): Bilateral symmetry; periproct shifted outside the apical disc to a posterior position to facilitate burrowing.\n\n4. **Geological Range**:\n- Late Ordovician to Present day. Highly important for Mesozoic and Cenozoic shallow marine facies correlation."
       },
       {
-            "id": 7,
-            "unit": "III",
-            "question": "Explain in detail the construction, divisions, and significance of the global Geological Time Scale.",
-            "answerKey": "1. **Construction of the Scale**:\n- Built using a combination of **relative dating** (utilizing principles of superposition, cross-cutting relationships, and biostratigraphy/index fossils to establish sequence) and **absolute dating** (utilizing radiometric dating of isotopes like $^{238}U/^{206}Pb$, $^{40}K/^{40}Ar$, and $^{14}C$ to attach numerical age boundary values in millions of years).\n\n2. **Major Divisions**:\n- **Eon**: Largest division (Hadean, Archean, Proterozoic, Phanerozoic).\n- **Era**: Subdivisions of Eons based on massive biotic changes (Paleozoic - ancient life, Mesozoic - middle life, Cenozoic - recent life).\n- **Period**: Subdivisions of Eras, named after geographical localities where the rocks were first studied (e.g., Devonian from Devonshire, Jurassic from Jura Mountains) or specific rock types (Cretaceous from *creta* meaning chalk).\n- **Epoch & Age**: Finer divisions for detailed regional correlation.\n\n3. **Significance**:\n- Establishes a standardized, universal chronological language for geoscientists to correlate rocks and geological events across different continents.\n- Documents the evolutionary history of life and assists in tracing resource-bearing horizons (e.g., coal in Carboniferous, hydrocarbons in Jurassic)."
+        "id": 7,
+        "unit": "III",
+        "question": "Explain in detail the construction, divisions, and significance of the global Geological Time Scale.",
+        "answerKey": "1. **Construction of the Scale**:\n- Built using a combination of **relative dating** (utilizing principles of superposition, cross-cutting relationships, and biostratigraphy/index fossils to establish sequence) and **absolute dating** (utilizing radiometric dating of isotopes like $^{238}U/^{206}Pb$, $^{40}K/^{40}Ar$, and $^{14}C$ to attach numerical age boundary values in millions of years).\n\n2. **Major Divisions**:\n- **Eon**: Largest division (Hadean, Archean, Proterozoic, Phanerozoic).\n- **Era**: Subdivisions of Eons based on massive biotic changes (Paleozoic - ancient life, Mesozoic - middle life, Cenozoic - recent life).\n- **Period**: Subdivisions of Eras, named after geographical localities where the rocks were first studied (e.g., Devonian from Devonshire, Jurassic from Jura Mountains) or specific rock types (Cretaceous from *creta* meaning chalk).\n- **Epoch & Age**: Finer divisions for detailed regional correlation.\n\n3. **Significance**:\n- Establishes a standardized, universal chronological language for geoscientists to correlate rocks and geological events across different continents.\n- Documents the evolutionary history of life and assists in tracing resource-bearing horizons (e.g., coal in Carboniferous, hydrocarbons in Jurassic)."
       },
       {
-            "id": 8,
-            "unit": "III",
-            "question": "Describe in detail the fundamental principles of stratigraphy, including the laws of superposition, original horizontality, and lateral continuity.",
-            "answerKey": "1. **Law of Superposition**:\n- In any undisturbed sequence of sedimentary rocks, the oldest layer is at the bottom, and each overlying layer is progressively younger. Formulated by Nicolas Steno in 1669.\n\n2. **Principle of Original Horizontality**:\n- Water-laid sedimentary strata are originally deposited in flat, horizontal or near-horizontal sheets under the influence of gravity. Tilted or folded strata indicate post-depositional deformation.\n\n3. **Principle of Lateral Continuity**:\n- Sedimentary layers extend continuously in all directions over a wide geographic area until they pinch out, thin to a margin, or terminate against a basin boundary. This justifies the correlation of strata across canyons or valleys.\n\n4. **Principle of Cross-Cutting Relationships**:\n- Any geological feature (such as an igneous dyke, fault plane, or unconformity) that cuts across another rock body must be younger than the rock body it cuts.\n\n5. **Principle of Faunal Succession**:\n- Fossil organisms succeed one another in a definite, recognizable, and irreversible order. Strata from different geographic regions containing identical fossil assemblages can be correlated chronologically."
+        "id": 8,
+        "unit": "III",
+        "question": "Describe in detail the fundamental principles of stratigraphy, including the laws of superposition, original horizontality, and lateral continuity.",
+        "answerKey": "1. **Law of Superposition**:\n- In any undisturbed sequence of sedimentary rocks, the oldest layer is at the bottom, and each overlying layer is progressively younger. Formulated by Nicolas Steno in 1669.\n\n2. **Principle of Original Horizontality**:\n- Water-laid sedimentary strata are originally deposited in flat, horizontal or near-horizontal sheets under the influence of gravity. Tilted or folded strata indicate post-depositional deformation.\n\n3. **Principle of Lateral Continuity**:\n- Sedimentary layers extend continuously in all directions over a wide geographic area until they pinch out, thin to a margin, or terminate against a basin boundary. This justifies the correlation of strata across canyons or valleys.\n\n4. **Principle of Cross-Cutting Relationships**:\n- Any geological feature (such as an igneous dyke, fault plane, or unconformity) that cuts across another rock body must be younger than the rock body it cuts.\n\n5. **Principle of Faunal Succession**:\n- Fossil organisms succeed one another in a definite, recognizable, and irreversible order. Strata from different geographic regions containing identical fossil assemblages can be correlated chronologically."
       },
       {
-            "id": 9,
-            "unit": "IV",
-            "question": "Describe the geographic distribution, lithostratigraphic classification, and economic importance of the Dharwar Supergroup.",
-            "answerKey": "1. **Geographic Distribution**:\n- Spans the southern part of India, principally in Karnataka, forming two main schist belts: the Western group (Bababudan) and Eastern group (Chitradurga). It forms the major package of the Archaean Dharwar Craton.\n\n2. **Lithostratigraphic Classification**:\n- Rests unconformably on the Peninsular Gneissic Complex (PGC, >3.0 Ga) and older Sargur Schists. It is divided into:\n  - **Bababudan Group (Lower)**: Dominated by oligomictic basal conglomerate, quartzites, mafic volcanic flows, and Banded Iron Formations (BIFs).\n  - **Chitradurga Group (Upper)**: Bounded by a basal polymictic conglomerate, consisting of chlorite schists, limestones, dolomitic marbles, shales, and thick BIFs.\n\n3. **Economic Importance**:\n- **Gold**: Highly famous for hosting the Kolar Gold Fields (KGF) and Hutti Gold Mines (lode gold deposits in metabasics).\n- **Iron Ore**: Massive reserves of high-grade hematite and magnetite hosted within the Banded Iron Formations (e.g., Bababudan, Kudremukh).\n- **Manganese**: Significant manganese oxide ore deposits in the Chitradurga greenstone belt.\n- **Building stones**: Abundant greenstones, marbles, and quartzites used in construction."
+        "id": 9,
+        "unit": "IV",
+        "question": "Describe the geographic distribution, lithostratigraphic classification, and economic importance of the Dharwar Supergroup.",
+        "answerKey": "1. **Geographic Distribution**:\n- Spans the southern part of India, principally in Karnataka, forming two main schist belts: the Western group (Bababudan) and Eastern group (Chitradurga). It forms the major package of the Archaean Dharwar Craton.\n\n2. **Lithostratigraphic Classification**:\n- Rests unconformably on the Peninsular Gneissic Complex (PGC, >3.0 Ga) and older Sargur Schists. It is divided into:\n  - **Bababudan Group (Lower)**: Dominated by oligomictic basal conglomerate, quartzites, mafic volcanic flows, and Banded Iron Formations (BIFs).\n  - **Chitradurga Group (Upper)**: Bounded by a basal polymictic conglomerate, consisting of chlorite schists, limestones, dolomitic marbles, shales, and thick BIFs.\n\n3. **Economic Importance**:\n- **Gold**: Highly famous for hosting the Kolar Gold Fields (KGF) and Hutti Gold Mines (lode gold deposits in metabasics).\n- **Iron Ore**: Massive reserves of high-grade hematite and magnetite hosted within the Banded Iron Formations (e.g., Bababudan, Kudremukh).\n- **Manganese**: Significant manganese oxide ore deposits in the Chitradurga greenstone belt.\n- **Building stones**: Abundant greenstones, marbles, and quartzites used in construction."
       },
       {
-            "id": 10,
-            "unit": "IV",
-            "question": "Briefly explain the Cuddapah Supergroup of rocks with special emphasis on its lithostratigraphic classification, component lithology, and economic importance.",
-            "answerKey": "1. **Geological Setting**:\n- Fills the crescent-shaped intracratonic Cuddapah Basin in Andhra Pradesh. Represents one of the prominent Proterozoic (Purana) sedimentary basins of India.\n\n2. **Lithostratigraphic Classification**:\n- Separated from the underlying Archaean/Paleoproterozoic basement by the **Eparchaean Unconformity**. Divided into four groups:\n  - **Papaghni Group (Oldest)**: Gulcheru Quartzite, Vempalle Dolomite/Limestone.\n  - **Chitravati Group**: Pulivendla Quartzite, Tadpatri Shale.\n  - **Nallamalai Group**: Bairenkonda Quartzite, Cumbum Shale.\n  - **Kistna Group (Youngest)**: Srisailam Quartzite.\n\n3. **Component Lithology**:\n- Primarily orthoquartzite-carbonate-shale assemblages with associated basic volcanics, sills, and tuffs (e.g., Tadpatri flows).\n\n4. **Economic Importance**:\n- **Barite**: Mangampeta is one of the world's largest bedded barite ($BaSO_4$) deposits, of volcanogenic origin.\n- **Asbestos & Steatite**: Developed at the contact zones of Vempalle dolomites and mafic sills.\n- **Limestone/Building Stone**: Widely quarried as Kadapa slabs.\n- **Uranium**: Hosted in carbonate formations at Tummalapalle."
+        "id": 10,
+        "unit": "IV",
+        "question": "Briefly explain the Cuddapah Supergroup of rocks with special emphasis on its lithostratigraphic classification, component lithology, and economic importance.",
+        "answerKey": "1. **Geological Setting**:\n- Fills the crescent-shaped intracratonic Cuddapah Basin in Andhra Pradesh. Represents one of the prominent Proterozoic (Purana) sedimentary basins of India.\n\n2. **Lithostratigraphic Classification**:\n- Separated from the underlying Archaean/Paleoproterozoic basement by the **Eparchaean Unconformity**. Divided into four groups:\n  - **Papaghni Group (Oldest)**: Gulcheru Quartzite, Vempalle Dolomite/Limestone.\n  - **Chitravati Group**: Pulivendla Quartzite, Tadpatri Shale.\n  - **Nallamalai Group**: Bairenkonda Quartzite, Cumbum Shale.\n  - **Kistna Group (Youngest)**: Srisailam Quartzite.\n\n3. **Component Lithology**:\n- Primarily orthoquartzite-carbonate-shale assemblages with associated basic volcanics, sills, and tuffs (e.g., Tadpatri flows).\n\n4. **Economic Importance**:\n- **Barite**: Mangampeta is one of the world's largest bedded barite ($BaSO_4$) deposits, of volcanogenic origin.\n- **Asbestos & Steatite**: Developed at the contact zones of Vempalle dolomites and mafic sills.\n- **Limestone/Building Stone**: Widely quarried as Kadapa slabs.\n- **Uranium**: Hosted in carbonate formations at Tummalapalle."
       },
       {
-            "id": 11,
-            "unit": "IV",
-            "question": "Briefly explain the Vindhyan Supergroup of rocks with special emphasis on its comprehensive stratigraphic classification, component lithology, and historical economic importance.",
-            "answerKey": "1. **Geological Setting**:\n- Deposited in a vast intracratonic sag basin in central India, covering parts of Rajasthan, Madhya Pradesh, Uttar Pradesh, and Bihar.\n\n2. **Stratigraphic Classification**:\n- Divided by an unconformity into two main divisions:\n  - **Lower Vindhyan (Semri Group)**: Primarily marine sequences, containing basal conglomerates, Kajrahat Limestone, Porcellanite beds, and Rohtas Limestone.\n  - **Upper Vindhyan**: Thick terrigenous clastic cycles divided into the **Kaimur Group** (sandstones and shales), **Rewa Group** (famous for diamondiferous conglomerates), and **Bhander Group** (shales, sandstones, and limestones).\n\n3. **Component Lithology**:\n- Sandstones, shales, limestones, porcellanite (silicified tuffs), and conglomerates.\n\n4. **Economic & Historical Importance**:\n- **Diamonds**: Rewa conglomerates and associated kimberlite pipes at Majhgawan (Panna) are major sources of diamonds.\n- **Cement**: Extensive deposits of high-grade limestone (Rohtas Limestone) feed major cement industries.\n- **Building Sandstone**: Highly durable, easily dressable sandstones used to construct famous monuments including Sanchi Stupa, Sarnath pillars, Red Fort, and Fatehpur Sikri."
+        "id": 11,
+        "unit": "IV",
+        "question": "Briefly explain the Vindhyan Supergroup of rocks with special emphasis on its comprehensive stratigraphic classification, component lithology, and historical economic importance.",
+        "answerKey": "1. **Geological Setting**:\n- Deposited in a vast intracratonic sag basin in central India, covering parts of Rajasthan, Madhya Pradesh, Uttar Pradesh, and Bihar.\n\n2. **Stratigraphic Classification**:\n- Divided by an unconformity into two main divisions:\n  - **Lower Vindhyan (Semri Group)**: Primarily marine sequences, containing basal conglomerates, Kajrahat Limestone, Porcellanite beds, and Rohtas Limestone.\n  - **Upper Vindhyan**: Thick terrigenous clastic cycles divided into the **Kaimur Group** (sandstones and shales), **Rewa Group** (famous for diamondiferous conglomerates), and **Bhander Group** (shales, sandstones, and limestones).\n\n3. **Component Lithology**:\n- Sandstones, shales, limestones, porcellanite (silicified tuffs), and conglomerates.\n\n4. **Economic & Historical Importance**:\n- **Diamonds**: Rewa conglomerates and associated kimberlite pipes at Majhgawan (Panna) are major sources of diamonds.\n- **Cement**: Extensive deposits of high-grade limestone (Rohtas Limestone) feed major cement industries.\n- **Building Sandstone**: Highly durable, easily dressable sandstones used to construct famous monuments including Sanchi Stupa, Sarnath pillars, Red Fort, and Fatehpur Sikri."
       },
       {
-            "id": 12,
-            "unit": "IV",
-            "question": "Describe in detail the stratigraphy of the Aravalli Craton of India, with special reference to its lithostratigraphic classification, field layout, and economic importance.",
-            "answerKey": "1. **Field Layout**:\n- Located in northwestern India, stretching across Rajasthan and Gujarat. It includes the ancient Aravalli Mountain Range.\n\n2. **Lithostratigraphic Classification**:\n- Bounded at the base by the **Banded Gneissic Complex** (BGC, >3.0 Ga metamorphic basement). The Proterozoic sedimentary packages are divided into:\n  - **Aravalli Supergroup (Paleoproterozoic)**: Comprises basal volcanic conglomerates, quartzites, carbonaceous phyllites, and thick dolomites.\n  - **Delhi Supergroup (Mesoproterozoic)**: Bounded at the base by an unconformity, consisting of Alwar Group (arenaceous/quartzites) and Ajabgarh Group (argillaceous/calcareous carbonate-rich formations).\n\n3. **Economic Importance**:\n- **Lead-Zinc-Silver**: The Zawar mines in the Aravalli dolomites contain one of the largest lead-zinc-silver deposits in India.\n- **Copper**: Hosted in the Delhi Supergroup at Khetri Copper Belt.\n- **Marble & Ornamental Stones**: Makrana marble (Delhi Supergroup) was used to build the Taj Mahal. Green serpentinized marble is also heavily quarried.\n- **Phosphate**: Extensive rock phosphate deposits at Jhamarkotra (Aravalli) hosted in stromatolitic phosphorite."
+        "id": 12,
+        "unit": "IV",
+        "question": "Describe in detail the stratigraphy of the Aravalli Craton of India, with special reference to its lithostratigraphic classification, field layout, and economic importance.",
+        "answerKey": "1. **Field Layout**:\n- Located in northwestern India, stretching across Rajasthan and Gujarat. It includes the ancient Aravalli Mountain Range.\n\n2. **Lithostratigraphic Classification**:\n- Bounded at the base by the **Banded Gneissic Complex** (BGC, >3.0 Ga metamorphic basement). The Proterozoic sedimentary packages are divided into:\n  - **Aravalli Supergroup (Paleoproterozoic)**: Comprises basal volcanic conglomerates, quartzites, carbonaceous phyllites, and thick dolomites.\n  - **Delhi Supergroup (Mesoproterozoic)**: Bounded at the base by an unconformity, consisting of Alwar Group (arenaceous/quartzites) and Ajabgarh Group (argillaceous/calcareous carbonate-rich formations).\n\n3. **Economic Importance**:\n- **Lead-Zinc-Silver**: The Zawar mines in the Aravalli dolomites contain one of the largest lead-zinc-silver deposits in India.\n- **Copper**: Hosted in the Delhi Supergroup at Khetri Copper Belt.\n- **Marble & Ornamental Stones**: Makrana marble (Delhi Supergroup) was used to build the Taj Mahal. Green serpentinized marble is also heavily quarried.\n- **Phosphate**: Extensive rock phosphate deposits at Jhamarkotra (Aravalli) hosted in stromatolitic phosphorite."
       },
       {
-            "id": 13,
-            "unit": "IV",
-            "question": "Explain the broad geological, physiographic, and structural divisions of the Himalaya from South to North.",
-            "answerKey": "1. **Outer Himalaya (Sub-Himalaya / Siwalik Group)**:\n- **Boundaries**: Bounded to the south by the Main Frontal Thrust (MFT) and to the north by the Main Boundary Thrust (MBT).\n- **Lithology**: Neogene to Quaternary molasses-like sandstones, shales, and conglomerate clays representing syn-tectonic Himalayan erosion.\n\n2. **Lesser Himalaya**:\n- **Boundaries**: Separated from Siwaliks by the MBT, and from the Great Himalaya by the Main Central Thrust (MCT).\n- **Lithology**: Metasedimentary rocks, quartzites, phyllites, limestones, and schists of Precambrian to Paleozoic age, showing complex folding and thrusting.\n\n3. **Higher Himalaya (Great Himalaya)**:\n- **Boundaries**: Separated from Lesser Himalaya by the MCT, and from Tethys Himalaya by the South Tibetan Detachment System (STDS).\n- **Lithology**: High-grade metamorphic rocks (gneisses, migmatites, pelitic schists) intruded by Tertiary leucogranites, representing the metamorphic core of the chain.\n\n4. **Tethys Himalaya**:\n- **Boundaries**: Bounded to the north by the Indus-Tsangpo Suture Zone (ITSZ).\n- **Lithology**: Thick, highly fossiliferous marine sedimentary sequence (shales, limestones, sandstones) ranging from Cambrian to Eocene, recording the passive margin sedimentation of the Neo-Tethys ocean."
+        "id": 13,
+        "unit": "IV",
+        "question": "Explain the broad geological, physiographic, and structural divisions of the Himalaya from South to North.",
+        "answerKey": "1. **Outer Himalaya (Sub-Himalaya / Siwalik Group)**:\n- **Boundaries**: Bounded to the south by the Main Frontal Thrust (MFT) and to the north by the Main Boundary Thrust (MBT).\n- **Lithology**: Neogene to Quaternary molasses-like sandstones, shales, and conglomerate clays representing syn-tectonic Himalayan erosion.\n\n2. **Lesser Himalaya**:\n- **Boundaries**: Separated from Siwaliks by the MBT, and from the Great Himalaya by the Main Central Thrust (MCT).\n- **Lithology**: Metasedimentary rocks, quartzites, phyllites, limestones, and schists of Precambrian to Paleozoic age, showing complex folding and thrusting.\n\n3. **Higher Himalaya (Great Himalaya)**:\n- **Boundaries**: Separated from Lesser Himalaya by the MCT, and from Tethys Himalaya by the South Tibetan Detachment System (STDS).\n- **Lithology**: High-grade metamorphic rocks (gneisses, migmatites, pelitic schists) intruded by Tertiary leucogranites, representing the metamorphic core of the chain.\n\n4. **Tethys Himalaya**:\n- **Boundaries**: Bounded to the north by the Indus-Tsangpo Suture Zone (ITSZ).\n- **Lithology**: Thick, highly fossiliferous marine sedimentary sequence (shales, limestones, sandstones) ranging from Cambrian to Eocene, recording the passive margin sedimentation of the Neo-Tethys ocean."
       },
       {
-            "id": 14,
-            "unit": "I",
-            "question": "Write a brief geological and biochemical note on the various scientific theories regarding the origin of life on Earth, highlighting the Miller-Urey experiment.",
-            "answerKey": "1. **Scientific Theories on Origin of Life**:\n- **Primordial Soup Theory (Oparin-Haldane)**: Proposes that early Earth's atmosphere was highly reducing (rich in $CH_4$, $NH_3$, $H_2O$, $H_2$, but lacking free $O_2$). Energy from lightning and UV radiation synthesized basic organic molecules, which accumulated in warm oceans ('soup') and polymerized into life.\n- **Hydrothermal Vent Hypothesis**: Suggests that life originated in submarine hydrothermal vents (e.g., alkaline vents/black smokers). Mineral-rich thermal gradients, alkaline fluids, and iron-sulfur minerals acted as inorganic catalysts for prebiotic chemistry.\n- **Panspermia**: Suggests that prebiotic organic molecules or primitive microbial spores arrived on Earth from outer space via cometary or meteoritic impacts (e.g., Murchison chondrite containing amino acids).\n\n2. **Miller-Urey Experiment (1953)**:\n- Closed glass apparatus filled with water ($H_2O$), methane ($CH_4$), ammonia ($NH_3$), and hydrogen ($H_2$) to mimic the prebiotic ocean and atmosphere.\n- Heated the water to simulate evaporation, and introduced electrical sparks to simulate lightning storms.\n- After one week, the condensed liquid turned pinkish-brown and chemical analysis revealed the synthesis of several key amino acids (including glycine, alanine, and aspartic acid).\n- **Significance**: Provided the first experimental proof that organic molecules (the building blocks of life) can be synthesized abiotically from simple inorganic compounds under prebiotic conditions."
+        "id": 14,
+        "unit": "I",
+        "question": "Write a brief geological and biochemical note on the various scientific theories regarding the origin of life on Earth, highlighting the Miller-Urey experiment.",
+        "answerKey": "1. **Scientific Theories on Origin of Life**:\n- **Primordial Soup Theory (Oparin-Haldane)**: Proposes that early Earth's atmosphere was highly reducing (rich in $CH_4$, $NH_3$, $H_2O$, $H_2$, but lacking free $O_2$). Energy from lightning and UV radiation synthesized basic organic molecules, which accumulated in warm oceans ('soup') and polymerized into life.\n- **Hydrothermal Vent Hypothesis**: Suggests that life originated in submarine hydrothermal vents (e.g., alkaline vents/black smokers). Mineral-rich thermal gradients, alkaline fluids, and iron-sulfur minerals acted as inorganic catalysts for prebiotic chemistry.\n- **Panspermia**: Suggests that prebiotic organic molecules or primitive microbial spores arrived on Earth from outer space via cometary or meteoritic impacts (e.g., Murchison chondrite containing amino acids).\n\n2. **Miller-Urey Experiment (1953)**:\n- Closed glass apparatus filled with water ($H_2O$), methane ($CH_4$), ammonia ($NH_3$), and hydrogen ($H_2$) to mimic the prebiotic ocean and atmosphere.\n- Heated the water to simulate evaporation, and introduced electrical sparks to simulate lightning storms.\n- After one week, the condensed liquid turned pinkish-brown and chemical analysis revealed the synthesis of several key amino acids (including glycine, alanine, and aspartic acid).\n- **Significance**: Provided the first experimental proof that organic molecules (the building blocks of life) can be synthesized abiotically from simple inorganic compounds under prebiotic conditions."
       },
       {
-            "id": 15,
-            "unit": "I",
-            "question": "Explain the concepts of taphonomy, taphonomic bias, and the incompleteness of the fossil record.",
-            "answerKey": "1. **Taphonomy**:\n- The study of the processes that affect an organism from its death to its potential discovery as a fossil. It is divided into:\n  - *Biostratinomy*: Events occurring between death and final burial (decay, transport, scavenging, fragmentation).\n  - *Diagenesis*: Chemical and physical changes occurring after burial (compaction, cementation, dissolution, mineral replacement).\n\n2. **Taphonomic Bias**:\n- The systematic distortion in the fossil record. Not all organisms have equal chances of being fossilized. Bias favors:\n  - Organisms with hard shells, bones, or teeth (e.g., bivalves vs. jellyfish).\n  - Organisms living in high-sedimentation marine basins rather than erosional terrestrial uplands.\n  - Highly abundant, widespread species rather than localized endemic ones.\n\n3. **Incompleteness of the Fossil Record**:\n- Estimations show that less than 1% of all species that have ever lived are preserved as fossils.\n- Geological factors such as unconformities, mountain building, subduction of tectonic plates, weathering, and metamorphic heat destroy fossil-bearing sedimentary layers over time, leaving significant gaps in Earth's history."
+        "id": 15,
+        "unit": "I",
+        "question": "Explain the concepts of taphonomy, taphonomic bias, and the incompleteness of the fossil record.",
+        "answerKey": "1. **Taphonomy**:\n- The study of the processes that affect an organism from its death to its potential discovery as a fossil. It is divided into:\n  - *Biostratinomy*: Events occurring between death and final burial (decay, transport, scavenging, fragmentation).\n  - *Diagenesis*: Chemical and physical changes occurring after burial (compaction, cementation, dissolution, mineral replacement).\n\n2. **Taphonomic Bias**:\n- The systematic distortion in the fossil record. Not all organisms have equal chances of being fossilized. Bias favors:\n  - Organisms with hard shells, bones, or teeth (e.g., bivalves vs. jellyfish).\n  - Organisms living in high-sedimentation marine basins rather than erosional terrestrial uplands.\n  - Highly abundant, widespread species rather than localized endemic ones.\n\n3. **Incompleteness of the Fossil Record**:\n- Estimations show that less than 1% of all species that have ever lived are preserved as fossils.\n- Geological factors such as unconformities, mountain building, subduction of tectonic plates, weathering, and metamorphic heat destroy fossil-bearing sedimentary layers over time, leaving significant gaps in Earth's history."
       },
       {
-            "id": 16,
-            "unit": "I",
-            "question": "Differentiate between a reworked fossil, a remain fossil, and a pseudofossil, with appropriate examples.",
-            "answerKey": "1. **Remain Fossil**:\n- A fossil that is found preserved in the sedimentary layer in which it was originally deposited (in situ) without secondary transport or erosion.\n- *Example*: A pristine fossilized coral reef (*corallite*) or bivalve preserved in growth position in limestone.\n\n2. **Reworked Fossil**:\n- A fossil that was originally fossilized in older sediment, subsequently eroded out due to geological uplifting, transported by rivers/waves, and redeposited into a younger sedimentary layer.\n- *Example*: A Cretaceous ammonite washed out of Cretaceous chalk and found inside a Pleistocene river gravel bed. They can cause errors in biostratigraphic dating.\n\n3. **Pseudofossil**:\n- Inorganic rock structures, mineral patterns, or stains that closely resemble living organisms but have zero organic origin.\n- *Example*: Dendritic growths of manganese dioxide ($MnO_2$) along rock bedding planes that resemble fossilized ferns or mosses. Spherical chert nodules that look like fossil eggs."
+        "id": 16,
+        "unit": "I",
+        "question": "Differentiate between a reworked fossil, a remain fossil, and a pseudofossil, with appropriate examples.",
+        "answerKey": "1. **Remain Fossil**:\n- A fossil that is found preserved in the sedimentary layer in which it was originally deposited (in situ) without secondary transport or erosion.\n- *Example*: A pristine fossilized coral reef (*corallite*) or bivalve preserved in growth position in limestone.\n\n2. **Reworked Fossil**:\n- A fossil that was originally fossilized in older sediment, subsequently eroded out due to geological uplifting, transported by rivers/waves, and redeposited into a younger sedimentary layer.\n- *Example*: A Cretaceous ammonite washed out of Cretaceous chalk and found inside a Pleistocene river gravel bed. They can cause errors in biostratigraphic dating.\n\n3. **Pseudofossil**:\n- Inorganic rock structures, mineral patterns, or stains that closely resemble living organisms but have zero organic origin.\n- *Example*: Dendritic growths of manganese dioxide ($MnO_2$) along rock bedding planes that resemble fossilized ferns or mosses. Spherical chert nodules that look like fossil eggs."
       },
       {
-            "id": 17,
-            "unit": "III",
-            "question": "What is the Eparchaean Unconformity? Discuss its structural, evolutionary, and chronological significance in the Indian subcontinent.",
-            "answerKey": "1. **Definition**:\n- A major geological unconformity (angular unconformity or nonconformity) in India that separates ancient, highly folded and metamorphosed Archaean basements (such as the Peninsular Gneissic Complex and Dharwar greenstones, >2.5 Ga) from the overlying, relatively flat-lying Proterozoic sedimentary basins (Purana basins like Cuddapah and Vindhyan, <1.8 Ga).\n\n2. **Chronological Significance**:\n- Represents a massive hiatus (geological time gap) of approximately 800 million to 1.2 billion years, during which extensive weathering and erosion leveled the Archaean mountains into a peneplain.\n\n3. **Structural & Evolutionary Significance**:\n- Marks a fundamental transition in the tectonic evolution of the Indian shield: the end of active Archaean cratonization (magmatism, deformation, high-grade metamorphism) and the beginning of a stable Proterozoic platform era characterized by block-rifting, intracratonic basin development, and quiet marine sedimentation.\n- In the field, this unconformity is classically exposed near Tirumala hills, marked by basal conglomerates resting directly on crystalline gneisses."
+        "id": 17,
+        "unit": "III",
+        "question": "What is the Eparchaean Unconformity? Discuss its structural, evolutionary, and chronological significance in the Indian subcontinent.",
+        "answerKey": "1. **Definition**:\n- A major geological unconformity (angular unconformity or nonconformity) in India that separates ancient, highly folded and metamorphosed Archaean basements (such as the Peninsular Gneissic Complex and Dharwar greenstones, >2.5 Ga) from the overlying, relatively flat-lying Proterozoic sedimentary basins (Purana basins like Cuddapah and Vindhyan, <1.8 Ga).\n\n2. **Chronological Significance**:\n- Represents a massive hiatus (geological time gap) of approximately 800 million to 1.2 billion years, during which extensive weathering and erosion leveled the Archaean mountains into a peneplain.\n\n3. **Structural & Evolutionary Significance**:\n- Marks a fundamental transition in the tectonic evolution of the Indian shield: the end of active Archaean cratonization (magmatism, deformation, high-grade metamorphism) and the beginning of a stable Proterozoic platform era characterized by block-rifting, intracratonic basin development, and quiet marine sedimentation.\n- In the field, this unconformity is classically exposed near Tirumala hills, marked by basal conglomerates resting directly on crystalline gneisses."
       },
       {
-            "id": 18,
-            "unit": "I",
-            "question": "Define the ecological terms used to describe the bathymetric distribution of marine organisms, differentiating pelagic, benthic, planktonic, and nektonic lifestyles.",
-            "answerKey": "1. **Pelagic Realm** (Open water column):\n- **Planktonic**: Free-drifting or weakly swimming organisms carried by currents. Divided into *phytoplankton* (photosynthetic, e.g., diatoms) and *zooplankton* (animal-like, e.g., foraminifera, graptolites).\n- **Nektonic**: Strong, active swimmers that can move independently of currents (e.g., fish, cephalopods/ammonoids, marine reptiles).\n\n2. **Benthic Realm** (Seafloor):\n- **Epifaunal**: Organisms that live on the surface of the seafloor (e.g., rugose corals, regular echinoids, brachiopods).\n- **Infaunal**: Organisms that burrow into the sediment (e.g., irregular echinoids, marine worms, certain bivalves).\n- **Vagrant/Mobile**: Free-moving along the bottom (e.g., trilobites).\n- **Sessile**: Permanently anchored to the substrate (e.g., crinoids, bryozoans).\n\n3. **Bathymetric Zonation**:\n- **Littoral/Intertidal**: Coastline between high and low tide.\n- **Neritic**: Shallow waters over the continental shelf (typically <200m depth, photic zone).\n- **Bathyal to Abyssal**: Deep water, aphotic zones characterized by low temperatures and high hydrostatic pressures."
+        "id": 18,
+        "unit": "I",
+        "question": "Define the ecological terms used to describe the bathymetric distribution of marine organisms, differentiating pelagic, benthic, planktonic, and nektonic lifestyles.",
+        "answerKey": "1. **Pelagic Realm** (Open water column):\n- **Planktonic**: Free-drifting or weakly swimming organisms carried by currents. Divided into *phytoplankton* (photosynthetic, e.g., diatoms) and *zooplankton* (animal-like, e.g., foraminifera, graptolites).\n- **Nektonic**: Strong, active swimmers that can move independently of currents (e.g., fish, cephalopods/ammonoids, marine reptiles).\n\n2. **Benthic Realm** (Seafloor):\n- **Epifaunal**: Organisms that live on the surface of the seafloor (e.g., rugose corals, regular echinoids, brachiopods).\n- **Infaunal**: Organisms that burrow into the sediment (e.g., irregular echinoids, marine worms, certain bivalves).\n- **Vagrant/Mobile**: Free-moving along the bottom (e.g., trilobites).\n- **Sessile**: Permanently anchored to the substrate (e.g., crinoids, bryozoans).\n\n3. **Bathymetric Zonation**:\n- **Littoral/Intertidal**: Coastline between high and low tide.\n- **Neritic**: Shallow waters over the continental shelf (typically <200m depth, photic zone).\n- **Bathyal to Abyssal**: Deep water, aphotic zones characterized by low temperatures and high hydrostatic pressures."
       },
       {
-            "id": 19,
-            "unit": "IV",
-            "question": "Describe the stratigraphy, depositional history, and geological boundaries of the Indo-Gangetic Plain.",
-            "answerKey": "1. **Geological Setting**:\n- A massive peripheral foreland basin formed in front of the rising Himalaya due to the collision between the Indian and Eurasian plates. The weight of the thrust sheets caused the northern edge of the Indian shield to flex downward, creating a deep trough.\n\n2. **Boundaries**:\n- **North**: Bounded by the **Main Frontal Thrust (MFT)**, which separates it from the Siwalik hills.\n- **South**: Bounded by the positive reliefs of the Indian Peninsular Shield (Aravalli, Bundelkhand, Vindhyan cratons).\n\n3. **Stratigraphy**:\n- Consists of a thick sequence of Quaternary to Holocene fluvial sediments (up to 4-6 km near the Himalayan front). Divided into:\n  - **Bhangar (Older Alluvium)**: Pleistocene age, forming uplands above current floodplains. Often contains calc-nodules called *kankar*.\n  - **Khadar (Younger Alluvium)**: Holocene age, confined to active river floodplains and channels, composed of fresh silt and sand.\n\n4. **Depositional History**:\n- Filled continuously since the Miocene by sediments carried by the Indus, Ganga, and Brahmaputra river systems, recording the erosional history of the Himalaya."
+        "id": 19,
+        "unit": "IV",
+        "question": "Describe the stratigraphy, depositional history, and geological boundaries of the Indo-Gangetic Plain.",
+        "answerKey": "1. **Geological Setting**:\n- A massive peripheral foreland basin formed in front of the rising Himalaya due to the collision between the Indian and Eurasian plates. The weight of the thrust sheets caused the northern edge of the Indian shield to flex downward, creating a deep trough.\n\n2. **Boundaries**:\n- **North**: Bounded by the **Main Frontal Thrust (MFT)**, which separates it from the Siwalik hills.\n- **South**: Bounded by the positive reliefs of the Indian Peninsular Shield (Aravalli, Bundelkhand, Vindhyan cratons).\n\n3. **Stratigraphy**:\n- Consists of a thick sequence of Quaternary to Holocene fluvial sediments (up to 4-6 km near the Himalayan front). Divided into:\n  - **Bhangar (Older Alluvium)**: Pleistocene age, forming uplands above current floodplains. Often contains calc-nodules called *kankar*.\n  - **Khadar (Younger Alluvium)**: Holocene age, confined to active river floodplains and channels, composed of fresh silt and sand.\n\n4. **Depositional History**:\n- Filled continuously since the Miocene by sediments carried by the Indus, Ganga, and Brahmaputra river systems, recording the erosional history of the Himalaya."
       },
       {
-            "id": 20,
-            "unit": "I",
-            "question": "Explain the concepts of species, subspecies, and index fossils in biostratigraphy. Define the criteria for an ideal index fossil.",
-            "answerKey": "1. **Species**:\n- The fundamental biological unit of classification, representing populations of individuals that share distinct morphological traits and are capable of interbreeding to produce fertile offspring.\n\n2. **Subspecies**:\n- Distinct morphological variants of a species that arise due to geographical isolation, environmental gradients, or chronocline variation, but retain the biological ability to interbreed.\n\n3. **Index Fossil (Guide Fossil)**:\n- A fossil taxon (species or genus) whose presence in a sedimentary rock layer is exceptionally diagnostic of a specific, narrow interval of geologic time.\n\n4. **Criteria for an Ideal Index Fossil**:\n- **Short Geologic Range**: Rapid evolution and extinction, allowing precise age resolution.\n- **Wide Geographic Distribution**: Able to disperse widely across oceans/continents, facilitating inter-continental correlation.\n- **High Abundance**: Easily found in small rock samples or field outcrops.\n- **Distinctive Morphology**: Highly recognizable, making it easy to identify and minimizing misidentification.\n- **Facies Independence**: Not restricted to a specific bottom sediment type, allowing correlation between sandstones, shales, and limestones."
+        "id": 20,
+        "unit": "I",
+        "question": "Explain the concepts of species, subspecies, and index fossils in biostratigraphy. Define the criteria for an ideal index fossil.",
+        "answerKey": "1. **Species**:\n- The fundamental biological unit of classification, representing populations of individuals that share distinct morphological traits and are capable of interbreeding to produce fertile offspring.\n\n2. **Subspecies**:\n- Distinct morphological variants of a species that arise due to geographical isolation, environmental gradients, or chronocline variation, but retain the biological ability to interbreed.\n\n3. **Index Fossil (Guide Fossil)**:\n- A fossil taxon (species or genus) whose presence in a sedimentary rock layer is exceptionally diagnostic of a specific, narrow interval of geologic time.\n\n4. **Criteria for an Ideal Index Fossil**:\n- **Short Geologic Range**: Rapid evolution and extinction, allowing precise age resolution.\n- **Wide Geographic Distribution**: Able to disperse widely across oceans/continents, facilitating inter-continental correlation.\n- **High Abundance**: Easily found in small rock samples or field outcrops.\n- **Distinctive Morphology**: Highly recognizable, making it easy to identify and minimizing misidentification.\n- **Facies Independence**: Not restricted to a specific bottom sediment type, allowing correlation between sandstones, shales, and limestones."
       }
-]
+    ]
   },
   "bobmj31": {
     "id": "bobmj31",
@@ -5648,125 +7980,125 @@ export const EXAMS = {
     "type": "theory",
     "questions": [
       {
-            "id": 1,
-            "unit": "I",
-            "question": "Define population. Discuss in brief the various characteristics of a population of organisms, including density, natality, mortality, and growth forms.",
-            "answerKey": "1. **Population Definition**:\n- A group of individuals belonging to the same species that occupy a specific geographical area at a given time and are capable of interbreeding.\n\n2. **Population Characteristics**:\n- **Density**: The number of individuals per unit area or volume. Mathematically expressed as:\n  $$D = \\frac{N}{S}$$\n  where $N$ is the total number of individuals, and $S$ is the space.\n- **Natality (Birth Rate)**: The rate at which new individuals are added to the population through reproduction. Expressed as:\n  $$B = \\frac{N_b}{t}$$\n  where $N_b$ is the number of births, and $t$ is time.\n- **Mortality (Death Rate)**: The rate at which individuals die. Expressed as:\n  $$d = \\frac{N_d}{t}$$\n  where $N_d$ is the number of deaths, and $t$ is time.\n- **Age Distribution**: The proportion of individuals in different age groups (pre-reproductive, reproductive, post-reproductive), which determines the population's growth potential.\n\n3. **Population Growth Forms**:\n- **Exponential (J-shaped)**: Occurs when resources are unlimited. The population grows rapidly and then crashes suddenly when resources are depleted.\n- **Logistical (S-shaped / Sigmoid)**: Occurs when resources are limited. Growth slows down as the population size approaches the carrying capacity ($K$), satisfying the differential equation:\n  $$\\frac{dN}{dt} = rN\\left(1 - \\frac{N}{K}\\right)$$\n  where $r$ is the intrinsic rate of natural increase, and $N$ is the population size."
+        "id": 1,
+        "unit": "I",
+        "question": "Define population. Discuss in brief the various characteristics of a population of organisms, including density, natality, mortality, and growth forms.",
+        "answerKey": "1. **Population Definition**:\n- A group of individuals belonging to the same species that occupy a specific geographical area at a given time and are capable of interbreeding.\n\n2. **Population Characteristics**:\n- **Density**: The number of individuals per unit area or volume. Mathematically expressed as:\n  $$D = \\frac{N}{S}$$\n  where $N$ is the total number of individuals, and $S$ is the space.\n- **Natality (Birth Rate)**: The rate at which new individuals are added to the population through reproduction. Expressed as:\n  $$B = \\frac{N_b}{t}$$\n  where $N_b$ is the number of births, and $t$ is time.\n- **Mortality (Death Rate)**: The rate at which individuals die. Expressed as:\n  $$d = \\frac{N_d}{t}$$\n  where $N_d$ is the number of deaths, and $t$ is time.\n- **Age Distribution**: The proportion of individuals in different age groups (pre-reproductive, reproductive, post-reproductive), which determines the population's growth potential.\n\n3. **Population Growth Forms**:\n- **Exponential (J-shaped)**: Occurs when resources are unlimited. The population grows rapidly and then crashes suddenly when resources are depleted.\n- **Logistical (S-shaped / Sigmoid)**: Occurs when resources are limited. Growth slows down as the population size approaches the carrying capacity ($K$), satisfying the differential equation:\n  $$\\frac{dN}{dt} = rN\\left(1 - \\frac{N}{K}\\right)$$\n  where $r$ is the intrinsic rate of natural increase, and $N$ is the population size."
       },
       {
-            "id": 2,
-            "unit": "I",
-            "question": "Describe the qualitative and quantitative analytical characters of a plant community, highlighting Raunkiaer's life forms.",
-            "answerKey": "1. **Quantitative Characters**:\n- **Frequency**: The percentage of sampling units (quadrats) in which a species occurs:\n  $$F = \\frac{\\text{Number of quadrats containing the species}}{\\text{Total number of quadrats studied}} \\times 100$$\n- **Density**: The average number of individuals of a species per unit area (quadrat):\n  $$\\text{Density} = \\frac{\\text{Total number of individuals of the species}}{\\text{Total number of quadrats studied}}$$\n- **Abundance**: The average number of individuals of a species in the quadrats where it occurs:\n  $$\\text{Abundance} = \\frac{\\text{Total number of individuals of the species}}{\\text{Number of quadrats containing the species}}$$\n\n2. **Qualitative Characters**:\n- Include physiognomy (general appearance), phenology (seasonal behavior), stratification (layering), sociability (gregariousness), and vitality (vigor/health).\n\n3. **Raunkiaer's Life Forms**:\n- Classification of plants based on the height and degree of protection of their perennating buds during unfavourable seasons:\n  - **Phanerophytes**: Buds are high on branches, well above ground (>25cm; e.g., trees and tall shrubs).\n  - **Chamaephytes**: Buds are close to the ground (<25cm; e.g., dwarf shrubs).\n  - **Hemicryptophytes**: Buds are at the soil surface, protected by leaf litter or soil (e.g., grasses).\n  - **Cryptophytes (Geophytes)**: Buds are completely buried in the soil or submerged under water (e.g., bulbs, rhizomes).\n  - **Therophytes**: Annual plants that survive the dry/cold season as seeds."
+        "id": 2,
+        "unit": "I",
+        "question": "Describe the qualitative and quantitative analytical characters of a plant community, highlighting Raunkiaer's life forms.",
+        "answerKey": "1. **Quantitative Characters**:\n- **Frequency**: The percentage of sampling units (quadrats) in which a species occurs:\n  $$F = \\frac{\\text{Number of quadrats containing the species}}{\\text{Total number of quadrats studied}} \\times 100$$\n- **Density**: The average number of individuals of a species per unit area (quadrat):\n  $$\\text{Density} = \\frac{\\text{Total number of individuals of the species}}{\\text{Total number of quadrats studied}}$$\n- **Abundance**: The average number of individuals of a species in the quadrats where it occurs:\n  $$\\text{Abundance} = \\frac{\\text{Total number of individuals of the species}}{\\text{Number of quadrats containing the species}}$$\n\n2. **Qualitative Characters**:\n- Include physiognomy (general appearance), phenology (seasonal behavior), stratification (layering), sociability (gregariousness), and vitality (vigor/health).\n\n3. **Raunkiaer's Life Forms**:\n- Classification of plants based on the height and degree of protection of their perennating buds during unfavourable seasons:\n  - **Phanerophytes**: Buds are high on branches, well above ground (>25cm; e.g., trees and tall shrubs).\n  - **Chamaephytes**: Buds are close to the ground (<25cm; e.g., dwarf shrubs).\n  - **Hemicryptophytes**: Buds are at the soil surface, protected by leaf litter or soil (e.g., grasses).\n  - **Cryptophytes (Geophytes)**: Buds are completely buried in the soil or submerged under water (e.g., bulbs, rhizomes).\n  - **Therophytes**: Annual plants that survive the dry/cold season as seeds."
       },
       {
-            "id": 3,
-            "unit": "I",
-            "question": "Discuss the morphological, anatomical, and physiological adaptations observed in Xerophytes to survive in arid environments.",
-            "answerKey": "1. **Morphological Adaptations**:\n- **Root System**: Deeply penetrating taproots that reach deep water tables. Some have shallow, widespread lateral roots to capture brief rains.\n- **Leaves**: Drastically reduced in surface area to minimize transpiration (modified into spines, e.g., *Opuntia*). Wax cuticles are thick.\n- **Stems**: Modified into green, flat, photosynthetic, water-storing structures (cladodes/phylloclades, e.g., *Euphorbia*).\n\n2. **Anatomical Adaptations**:\n- **Epidermis**: Multiple epidermal layers (e.g., *Nerium* leaf) to shield internal tissues.\n- **Stomata**: Sunken stomata located in hair-lined cavities (stomatal crypts) to trap humid air and reduce transpiration pull.\n- **Mechanical Tissues**: Highly developed sclerenchyma and vascular tissue to prevent wilting during severe water stress.\n- **Water-Storage Tissue**: Large, mucilage-rich parenchymal cells in leaves or stems.\n\n3. **Physiological Adaptations**:\n- **CAM Photosynthesis**: Stomata remain closed during the day and open at night to fix $CO_2$. This drastically reduces water loss.\n- **High Osmotic Pressure**: Cell sap contains high concentrations of solutes (proline, organic acids) to maintain turgor pressure even in dry soil."
+        "id": 3,
+        "unit": "I",
+        "question": "Discuss the morphological, anatomical, and physiological adaptations observed in Xerophytes to survive in arid environments.",
+        "answerKey": "1. **Morphological Adaptations**:\n- **Root System**: Deeply penetrating taproots that reach deep water tables. Some have shallow, widespread lateral roots to capture brief rains.\n- **Leaves**: Drastically reduced in surface area to minimize transpiration (modified into spines, e.g., *Opuntia*). Wax cuticles are thick.\n- **Stems**: Modified into green, flat, photosynthetic, water-storing structures (cladodes/phylloclades, e.g., *Euphorbia*).\n\n2. **Anatomical Adaptations**:\n- **Epidermis**: Multiple epidermal layers (e.g., *Nerium* leaf) to shield internal tissues.\n- **Stomata**: Sunken stomata located in hair-lined cavities (stomatal crypts) to trap humid air and reduce transpiration pull.\n- **Mechanical Tissues**: Highly developed sclerenchyma and vascular tissue to prevent wilting during severe water stress.\n- **Water-Storage Tissue**: Large, mucilage-rich parenchymal cells in leaves or stems.\n\n3. **Physiological Adaptations**:\n- **CAM Photosynthesis**: Stomata remain closed during the day and open at night to fix $CO_2$. This drastically reduces water loss.\n- **High Osmotic Pressure**: Cell sap contains high concentrations of solutes (proline, organic acids) to maintain turgor pressure even in dry soil."
       },
       {
-            "id": 4,
-            "unit": "I",
-            "question": "Explain the concept of a general soil profile, describing the distinct horizons and their ecological roles.",
-            "answerKey": "1. **Soil Profile Definition**:\n- A vertical section through the soil showing a succession of distinct horizontal layers (horizons) that differ in color, texture, structure, and chemical composition.\n\n2. **Soil Horizons**:\n- **O Horizon (Organic)**: The topmost layer consisting of fresh or partially decomposed organic litter (leaves, twigs, humus). It regulates soil temperature and moisture.\n- **A Horizon (Topsoil)**: A dark-coloured zone rich in decomposed organic matter (humus) mixed with mineral particles. This is the main layer of biological activity where plant roots, bacteria, fungi, and earthworms thrive.\n- **E Horizon (Eluviation)**: A lighter-coloured layer of maximum leaching (eluviation), where clay, iron, and organic matter are washed downward.\n- **B Horizon (Subsoil/Illuviation)**: The zone of accumulation (illuviation). It collects clays, iron oxides, and minerals washed down from the A and E horizons.\n- **C Horizon (Regolith)**: Consists of unconsolidated, partially weathered parent rock material. It contains almost no organic matter.\n- **R Horizon (Bedrock)**: Unweathered parent bedrock that lies at the base of the soil profile."
+        "id": 4,
+        "unit": "I",
+        "question": "Explain the concept of a general soil profile, describing the distinct horizons and their ecological roles.",
+        "answerKey": "1. **Soil Profile Definition**:\n- A vertical section through the soil showing a succession of distinct horizontal layers (horizons) that differ in color, texture, structure, and chemical composition.\n\n2. **Soil Horizons**:\n- **O Horizon (Organic)**: The topmost layer consisting of fresh or partially decomposed organic litter (leaves, twigs, humus). It regulates soil temperature and moisture.\n- **A Horizon (Topsoil)**: A dark-coloured zone rich in decomposed organic matter (humus) mixed with mineral particles. This is the main layer of biological activity where plant roots, bacteria, fungi, and earthworms thrive.\n- **E Horizon (Eluviation)**: A lighter-coloured layer of maximum leaching (eluviation), where clay, iron, and organic matter are washed downward.\n- **B Horizon (Subsoil/Illuviation)**: The zone of accumulation (illuviation). It collects clays, iron oxides, and minerals washed down from the A and E horizons.\n- **C Horizon (Regolith)**: Consists of unconsolidated, partially weathered parent rock material. It contains almost no organic matter.\n- **R Horizon (Bedrock)**: Unweathered parent bedrock that lies at the base of the soil profile."
       },
       {
-            "id": 5,
-            "unit": "II",
-            "question": "What is ecological succession? Describe in detail the various sequential stages of a typical hydrosere.",
-            "answerKey": "1. **Ecological Succession**:\n- The orderly, directional, and predictable process of community development and replacement in a specific area over time, leading eventually to a stable climax community.\n\n2. **Sequential Stages of a Hydrosere** (Succession in an aquatic body):\n- **Phytoplankton Stage**: The pioneer stage. Microscopic algae (diatoms, blue-green algae) colonize the water, adding organic matter upon death.\n- **Submerged Stage**: Benthic soils accumulate. Rooted submerged macrophytes (e.g., *Vallisneria*, *Hydrilla*) colonize. Their decay raises the pond floor.\n- **Floating Stage**: Water depth decreases (1-3 feet). Rooted plants with floating leaves (e.g., *Nymphaea*, *Nelumbo*) and free-floating plants (e.g., *Pistia*, *Lemna*) shade out submerged species.\n- **Reed-Swamp Stage (Amphibious)**: Bogs form. Emergent plants (e.g., *Typha*, *Phragmites*) colonize, producing high amounts of organic debris.\n- **Sedge-Meadow Stage**: Soil becomes muddy. Sedges (*Carex*) and grasses (*Juncus*) form a dense mat, drying the soil through high transpiration.\n- **Woodland Stage**: Shrubs and water-tolerant trees (e.g., *Salix*, *Alnus*) colonize, shading out the sedges.\n- **Climax Forest Stage**: The wetland is fully terrestrialized and colonized by mesophytic trees, forming a stable climax forest."
+        "id": 5,
+        "unit": "II",
+        "question": "What is ecological succession? Describe in detail the various sequential stages of a typical hydrosere.",
+        "answerKey": "1. **Ecological Succession**:\n- The orderly, directional, and predictable process of community development and replacement in a specific area over time, leading eventually to a stable climax community.\n\n2. **Sequential Stages of a Hydrosere** (Succession in an aquatic body):\n- **Phytoplankton Stage**: The pioneer stage. Microscopic algae (diatoms, blue-green algae) colonize the water, adding organic matter upon death.\n- **Submerged Stage**: Benthic soils accumulate. Rooted submerged macrophytes (e.g., *Vallisneria*, *Hydrilla*) colonize. Their decay raises the pond floor.\n- **Floating Stage**: Water depth decreases (1-3 feet). Rooted plants with floating leaves (e.g., *Nymphaea*, *Nelumbo*) and free-floating plants (e.g., *Pistia*, *Lemna*) shade out submerged species.\n- **Reed-Swamp Stage (Amphibious)**: Bogs form. Emergent plants (e.g., *Typha*, *Phragmites*) colonize, producing high amounts of organic debris.\n- **Sedge-Meadow Stage**: Soil becomes muddy. Sedges (*Carex*) and grasses (*Juncus*) form a dense mat, drying the soil through high transpiration.\n- **Woodland Stage**: Shrubs and water-tolerant trees (e.g., *Salix*, *Alnus*) colonize, shading out the sedges.\n- **Climax Forest Stage**: The wetland is fully terrestrialized and colonized by mesophytic trees, forming a stable climax forest."
       },
       {
-            "id": 6,
-            "unit": "II",
-            "question": "Explain the Universal Model of Energy Flow in an ecosystem, detailing how energy is lost at each trophic level.",
-            "answerKey": "1. **Universal Model concept**:\n- Proposed by E.P. Odum. It illustrates energy flow through any living component (organism, population, or trophic level).\n\n2. **Energy Partitioning**:\n- **Ingestion ($I$)**: Total energy input (sunlight for autotrophs, food for heterotrophs).\n- **Assimilation ($A$)**: The portion of ingested energy absorbed or fixed. For autotrophs, this is Gross Primary Productivity ($GPP$). For heterotrophs, $A = I - NU$, where $NU$ is non-utilized energy lost in feces.\n- **Respiration ($R$)**: The energy lost as heat during metabolic processes and maintenance.\n- **Net Production ($P$)**: The energy converted into new biomass, available to the next trophic level.\n- The relationship satisfies: \n  $$A = P + R$$\n\n3. **Thermodynamic Loss**:\n- According to the Second Law of Thermodynamics, energy conversions are not $100\\%$ efficient. At each step, a large portion of energy is dissipated as heat ($R$). Typically, only about $10\\%$ of energy is transferred as biomass to the next trophic level (Lindeman's $10\\%$ Law)."
+        "id": 6,
+        "unit": "II",
+        "question": "Explain the Universal Model of Energy Flow in an ecosystem, detailing how energy is lost at each trophic level.",
+        "answerKey": "1. **Universal Model concept**:\n- Proposed by E.P. Odum. It illustrates energy flow through any living component (organism, population, or trophic level).\n\n2. **Energy Partitioning**:\n- **Ingestion ($I$)**: Total energy input (sunlight for autotrophs, food for heterotrophs).\n- **Assimilation ($A$)**: The portion of ingested energy absorbed or fixed. For autotrophs, this is Gross Primary Productivity ($GPP$). For heterotrophs, $A = I - NU$, where $NU$ is non-utilized energy lost in feces.\n- **Respiration ($R$)**: The energy lost as heat during metabolic processes and maintenance.\n- **Net Production ($P$)**: The energy converted into new biomass, available to the next trophic level.\n- The relationship satisfies: \n  $$A = P + R$$\n\n3. **Thermodynamic Loss**:\n- According to the Second Law of Thermodynamics, energy conversions are not $100\\%$ efficient. At each step, a large portion of energy is dissipated as heat ($R$). Typically, only about $10\\%$ of energy is transferred as biomass to the next trophic level (Lindeman's $10\\%$ Law)."
       },
       {
-            "id": 7,
-            "unit": "II",
-            "question": "Differentiate between the Grazing Food Chain (GFC) and the Detritus Food Chain (DFC). Discuss their relative roles in different ecosystems.",
-            "answerKey": "1. **Grazing Food Chain (GFC)**:\n- **Starting Point**: Starts with living green plants (producers) that capture solar energy.\n- **Flow**: Producers $\\to$ Herbivores (primary consumers) $\\to$ Carnivores (secondary consumers).\n- **Energy Dependence**: Directly dependent on solar energy input.\n- **Example**: Grass $\\to$ Rabbit $\\to$ Fox.\n\n2. **Detritus Food Chain (DFC)**:\n- **Starting Point**: Starts with dead organic matter (detritus/litter).\n- **Flow**: Dead matter $\\to$ Detritivores/Decomposers (fungi, bacteria, earthworms) $\\to$ Carnivores.\n- **Energy Dependence**: Dependent on chemical energy stored in dead organic matter.\n- **Example**: Dead leaves $\to$ Earthworm $\to$ Blackbird.\n\n3. **Ecological Roles**:\n- In **aquatic ecosystems**, GFC is the major channel for energy flow.\n- In **terrestrial forest ecosystems**, DFC is far more important. A large fraction of Net Primary Productivity (NPP) is not consumed by herbivores but falls as litter, fueling the decomposer food web."
+        "id": 7,
+        "unit": "II",
+        "question": "Differentiate between the Grazing Food Chain (GFC) and the Detritus Food Chain (DFC). Discuss their relative roles in different ecosystems.",
+        "answerKey": "1. **Grazing Food Chain (GFC)**:\n- **Starting Point**: Starts with living green plants (producers) that capture solar energy.\n- **Flow**: Producers $\\to$ Herbivores (primary consumers) $\\to$ Carnivores (secondary consumers).\n- **Energy Dependence**: Directly dependent on solar energy input.\n- **Example**: Grass $\\to$ Rabbit $\\to$ Fox.\n\n2. **Detritus Food Chain (DFC)**:\n- **Starting Point**: Starts with dead organic matter (detritus/litter).\n- **Flow**: Dead matter $\\to$ Detritivores/Decomposers (fungi, bacteria, earthworms) $\\to$ Carnivores.\n- **Energy Dependence**: Dependent on chemical energy stored in dead organic matter.\n- **Example**: Dead leaves $\to$ Earthworm $\to$ Blackbird.\n\n3. **Ecological Roles**:\n- In **aquatic ecosystems**, GFC is the major channel for energy flow.\n- In **terrestrial forest ecosystems**, DFC is far more important. A large fraction of Net Primary Productivity (NPP) is not consumed by herbivores but falls as litter, fueling the decomposer food web."
       },
       {
-            "id": 8,
-            "unit": "II",
-            "question": "Describe the Phosphorus Cycle in nature, explaining why it is classified as a sedimentary cycle and pointing out its ecological limitations.",
-            "answerKey": "1. **Cycle Pathway**:\n- **Weathering**: Rain and weathering release inorganic orthophosphate ($PO_4^{3-}$) from sedimentary rocks into soil and water.\n- **Uptake**: Plants absorb phosphate from soil and assimilate it into organic molecules (nucleic acids, phospholipids, ATP).\n- **Consumption**: Herbivores and carnivores acquire phosphorus through food chains.\n- **Decomposition**: Decomposers break down dead tissue, returning organic phosphorus to the soil as dissolved inorganic phosphate.\n- **Sedimentation**: Soluble phosphates leach into rivers and oceans, settling into marine sediments to form new sedimentary rocks over geological time.\n\n2. **Sedimentary Classification**:\n- Classified as a sedimentary cycle because the primary reservoir is the Earth's crust (sedimentary rocks), and it completely lacks a major gaseous atmospheric phase (unlike Carbon or Nitrogen cycles).\n\n3. **Ecological Limitations**:\n- It is a slow, one-way cycle. Once phosphorus is buried in deep ocean sediments, it is inaccessible until geological uplift occurs. Because of its low solubility and slow recycling, phosphorus is a major limiting nutrient in terrestrial and aquatic ecosystems. Excess runoff of phosphorus leads to algal blooms and **Eutrophication**."
+        "id": 8,
+        "unit": "II",
+        "question": "Describe the Phosphorus Cycle in nature, explaining why it is classified as a sedimentary cycle and pointing out its ecological limitations.",
+        "answerKey": "1. **Cycle Pathway**:\n- **Weathering**: Rain and weathering release inorganic orthophosphate ($PO_4^{3-}$) from sedimentary rocks into soil and water.\n- **Uptake**: Plants absorb phosphate from soil and assimilate it into organic molecules (nucleic acids, phospholipids, ATP).\n- **Consumption**: Herbivores and carnivores acquire phosphorus through food chains.\n- **Decomposition**: Decomposers break down dead tissue, returning organic phosphorus to the soil as dissolved inorganic phosphate.\n- **Sedimentation**: Soluble phosphates leach into rivers and oceans, settling into marine sediments to form new sedimentary rocks over geological time.\n\n2. **Sedimentary Classification**:\n- Classified as a sedimentary cycle because the primary reservoir is the Earth's crust (sedimentary rocks), and it completely lacks a major gaseous atmospheric phase (unlike Carbon or Nitrogen cycles).\n\n3. **Ecological Limitations**:\n- It is a slow, one-way cycle. Once phosphorus is buried in deep ocean sediments, it is inaccessible until geological uplift occurs. Because of its low solubility and slow recycling, phosphorus is a major limiting nutrient in terrestrial and aquatic ecosystems. Excess runoff of phosphorus leads to algal blooms and **Eutrophication**."
       },
       {
-            "id": 9,
-            "unit": "III",
-            "question": "Give a detailed biochemical account of the C4 pathway (Hatch-Slack cycle) of CO2 fixation in plants. Explain its significance.",
-            "answerKey": "1. **Kranz Anatomy**:\n- Characterized by two concentric layers of photosynthetic cells: outer **mesophyll cells** and inner, large-bundle **sheath cells**.\n\n2. **Biochemical Steps**:\n- **Carboxylation (Mesophyll)**: $CO_2$ (as $HCO_3^-$) is fixed by Phosphoenolpyruvate (PEP) carboxylase to form Oxaloacetate (OAA):\n  $$\\text{PEP} + HCO_3^- \\xrightarrow{\\text{PEP carboxylase}} \\text{OAA} + P_i$$\n- **Transport**: OAA is reduced to Malate or transaminated to Aspartate and transported to bundle sheath cells via plasmodesmata.\n- **Decarboxylation (Bundle Sheath)**: Malate is decarboxylated by malic enzyme, releasing $CO_2$ and Pyruvate:\n  $$\\text{Malate} + \\text{NADP}^+ \\to \\text{Pyruvate} + CO_2 + \\text{NADPH} + H^+$$\n- **Fixation**: The released $CO_2$ is fixed by RuBisCO in the Calvin (C3) cycle.\n- **Regeneration (Mesophyll)**: Pyruvate is transported back to mesophyll cells and converted to PEP by pyruvate-phosphate dikinase (PPDK), consuming 2 ATP equivalents.\n\n3. **Significance**:\n- Concentrates $CO_2$ around RuBisCO in bundle sheath cells, suppressing the oxygenase activity of RuBisCO. This virtually eliminates **photorespiration**, allowing C4 plants (e.g., maize, sugarcane) to maintain high photosynthetic rates under high light and temperatures."
+        "id": 9,
+        "unit": "III",
+        "question": "Give a detailed biochemical account of the C4 pathway (Hatch-Slack cycle) of CO2 fixation in plants. Explain its significance.",
+        "answerKey": "1. **Kranz Anatomy**:\n- Characterized by two concentric layers of photosynthetic cells: outer **mesophyll cells** and inner, large-bundle **sheath cells**.\n\n2. **Biochemical Steps**:\n- **Carboxylation (Mesophyll)**: $CO_2$ (as $HCO_3^-$) is fixed by Phosphoenolpyruvate (PEP) carboxylase to form Oxaloacetate (OAA):\n  $$\\text{PEP} + HCO_3^- \\xrightarrow{\\text{PEP carboxylase}} \\text{OAA} + P_i$$\n- **Transport**: OAA is reduced to Malate or transaminated to Aspartate and transported to bundle sheath cells via plasmodesmata.\n- **Decarboxylation (Bundle Sheath)**: Malate is decarboxylated by malic enzyme, releasing $CO_2$ and Pyruvate:\n  $$\\text{Malate} + \\text{NADP}^+ \\to \\text{Pyruvate} + CO_2 + \\text{NADPH} + H^+$$\n- **Fixation**: The released $CO_2$ is fixed by RuBisCO in the Calvin (C3) cycle.\n- **Regeneration (Mesophyll)**: Pyruvate is transported back to mesophyll cells and converted to PEP by pyruvate-phosphate dikinase (PPDK), consuming 2 ATP equivalents.\n\n3. **Significance**:\n- Concentrates $CO_2$ around RuBisCO in bundle sheath cells, suppressing the oxygenase activity of RuBisCO. This virtually eliminates **photorespiration**, allowing C4 plants (e.g., maize, sugarcane) to maintain high photosynthetic rates under high light and temperatures."
       },
       {
-            "id": 10,
-            "unit": "III",
-            "question": "Explain the Crassulacean Acid Metabolism (CAM) pathway, detailing its temporal division and adaptive value.",
-            "answerKey": "1. **Temporal separation**:\n- CAM plants separate initial $CO_2$ fixation and the Calvin cycle temporally (day vs. night) rather than spatially.\n\n2. **Night Phase (Stomata Open)**:\n- Transpiration is low. Plants open stomata to absorb $CO_2$.\n- $CO_2$ is converted to $HCO_3^-$ and fixed by PEP carboxylase using PEP derived from starch breakdown:\n  $$\\text{PEP} + HCO_3^- \\to \\text{OAA} \\to \\text{Malate}$$\n- Malate is stored as malic acid in large vacuoles, causing high sap acidity at night.\n\n3. **Day Phase (Stomata Closed)**:\n- Stomata are closed to prevent water loss.\n- Malate is transported out of vacuoles and decarboxylated to release $CO_2$ internally.\n- High internal $CO_2$ concentration suppresses photorespiration. RuBisCO fixes this $CO_2$ via the Calvin cycle using light-reaction products (ATP, NADPH).\n\n4. **Adaptive Value**:\n- Provides extremely high water-use efficiency (WUE). Allows succulent plants (cacti, pineapples) to survive in extremely arid desert environments."
+        "id": 10,
+        "unit": "III",
+        "question": "Explain the Crassulacean Acid Metabolism (CAM) pathway, detailing its temporal division and adaptive value.",
+        "answerKey": "1. **Temporal separation**:\n- CAM plants separate initial $CO_2$ fixation and the Calvin cycle temporally (day vs. night) rather than spatially.\n\n2. **Night Phase (Stomata Open)**:\n- Transpiration is low. Plants open stomata to absorb $CO_2$.\n- $CO_2$ is converted to $HCO_3^-$ and fixed by PEP carboxylase using PEP derived from starch breakdown:\n  $$\\text{PEP} + HCO_3^- \\to \\text{OAA} \\to \\text{Malate}$$\n- Malate is stored as malic acid in large vacuoles, causing high sap acidity at night.\n\n3. **Day Phase (Stomata Closed)**:\n- Stomata are closed to prevent water loss.\n- Malate is transported out of vacuoles and decarboxylated to release $CO_2$ internally.\n- High internal $CO_2$ concentration suppresses photorespiration. RuBisCO fixes this $CO_2$ via the Calvin cycle using light-reaction products (ATP, NADPH).\n\n4. **Adaptive Value**:\n- Provides extremely high water-use efficiency (WUE). Allows succulent plants (cacti, pineapples) to survive in extremely arid desert environments."
       },
       {
-            "id": 11,
-            "unit": "III",
-            "question": "Describe the pathway of Photorespiration (C2 cycle) involving chloroplasts, peroxisomes, and mitochondria. Explain why it is considered a wasteful process.",
-            "answerKey": "1. **Pathway Steps**:\n- **Chloroplast**: Under low $CO_2$ and high $O_2$ conditions, RuBisCO acts as an oxygenase, combining $O_2$ with RuBP to produce 3-PGA and **2-phosphoglycolate**:\n  $$\\text{RuBP} + O_2 \\xrightarrow{\\text{RuBisCO}} \\text{3-PGA} + \\text{2-phosphoglycolate}$$\n  Phosphoglycolate is converted to glycolate and exported.\n- **Peroxisome**: Glycolate is oxidized to glyoxylate (generating toxic $H_2O_2$, which catalase decomposes) and then transaminated to glycine.\n- **Mitochondria**: Two glycine molecules condense to form serine, releasing $CO_2$ and $NH_3$:\n  $$\\text{2 Glycine} + \\text{NAD}^+ \\to \\text{Serine} + CO_2 + NH_3 + \\text{NADH} + H^+$$\n- **Return**: Serine returns to the peroxisome, is converted to glycerate, and transported back to the chloroplast, where it is phosphorylated to 3-PGA.\n\n2. **Wastefulness**:\n- It does not produce ATP, NADPH, or sugars.\n- It results in the loss of up to $25\\%$ of carbon previously fixed by the Calvin cycle.\n- It consumes extra ATP to re-assimilate the released $NH_3$ via the GS-GOGAT pathway."
+        "id": 11,
+        "unit": "III",
+        "question": "Describe the pathway of Photorespiration (C2 cycle) involving chloroplasts, peroxisomes, and mitochondria. Explain why it is considered a wasteful process.",
+        "answerKey": "1. **Pathway Steps**:\n- **Chloroplast**: Under low $CO_2$ and high $O_2$ conditions, RuBisCO acts as an oxygenase, combining $O_2$ with RuBP to produce 3-PGA and **2-phosphoglycolate**:\n  $$\\text{RuBP} + O_2 \\xrightarrow{\\text{RuBisCO}} \\text{3-PGA} + \\text{2-phosphoglycolate}$$\n  Phosphoglycolate is converted to glycolate and exported.\n- **Peroxisome**: Glycolate is oxidized to glyoxylate (generating toxic $H_2O_2$, which catalase decomposes) and then transaminated to glycine.\n- **Mitochondria**: Two glycine molecules condense to form serine, releasing $CO_2$ and $NH_3$:\n  $$\\text{2 Glycine} + \\text{NAD}^+ \\to \\text{Serine} + CO_2 + NH_3 + \\text{NADH} + H^+$$\n- **Return**: Serine returns to the peroxisome, is converted to glycerate, and transported back to the chloroplast, where it is phosphorylated to 3-PGA.\n\n2. **Wastefulness**:\n- It does not produce ATP, NADPH, or sugars.\n- It results in the loss of up to $25\\%$ of carbon previously fixed by the Calvin cycle.\n- It consumes extra ATP to re-assimilate the released $NH_3$ via the GS-GOGAT pathway."
       },
       {
-            "id": 12,
-            "unit": "III",
-            "question": "Explain the mechanism of Oxidative Phosphorylation in mitochondria, highlighting the Chemiosmotic Coupling hypothesis.",
-            "answerKey": "1. **Electron Transport Chain (ETC)**:\n- Located in the inner mitochondrial membrane. Electrons from $NADH$ and $FADH_2$ pass through Complexes I, II, III, and IV to the final electron acceptor $O_2$, forming water ($H_2O$).\n\n2. **Proton Pumping**:\n- The free energy released during electron transfer is used by Complexes I, III, and IV to pump protons ($H^+$) from the mitochondrial matrix into the intermembrane space.\n\n3. **Chemiosmotic Coupling (Peter Mitchell)**:\n- The proton pumping establishes a proton concentration gradient (chemical gradient, $\\Delta pH$) and an electrical potential gradient (charge gradient, $\\Delta \\Psi$) across the inner membrane. This combined force is the **Proton Motive Force**.\n- The inner membrane is impermeable to protons. Protons can only re-enter the matrix through the channel of Complex V (**ATP Synthase**).\n- As protons flow back down their electrochemical gradient through the $F_0$ rotor of ATP Synthase, they drive conformational changes in the $F_1$ catalytic head, synthesizing ATP:\n  $$\\text{ADP} + P_i \\to \\text{ATP}$$"
+        "id": 12,
+        "unit": "III",
+        "question": "Explain the mechanism of Oxidative Phosphorylation in mitochondria, highlighting the Chemiosmotic Coupling hypothesis.",
+        "answerKey": "1. **Electron Transport Chain (ETC)**:\n- Located in the inner mitochondrial membrane. Electrons from $NADH$ and $FADH_2$ pass through Complexes I, II, III, and IV to the final electron acceptor $O_2$, forming water ($H_2O$).\n\n2. **Proton Pumping**:\n- The free energy released during electron transfer is used by Complexes I, III, and IV to pump protons ($H^+$) from the mitochondrial matrix into the intermembrane space.\n\n3. **Chemiosmotic Coupling (Peter Mitchell)**:\n- The proton pumping establishes a proton concentration gradient (chemical gradient, $\\Delta pH$) and an electrical potential gradient (charge gradient, $\\Delta \\Psi$) across the inner membrane. This combined force is the **Proton Motive Force**.\n- The inner membrane is impermeable to protons. Protons can only re-enter the matrix through the channel of Complex V (**ATP Synthase**).\n- As protons flow back down their electrochemical gradient through the $F_0$ rotor of ATP Synthase, they drive conformational changes in the $F_1$ catalytic head, synthesizing ATP:\n  $$\\text{ADP} + P_i \\to \\text{ATP}$$"
       },
       {
-            "id": 13,
-            "unit": "III",
-            "question": "Describe the Emerson Enhancement Effect and explain how its discovery led to the two-photosystem model of photosynthesis.",
-            "answerKey": "1. **Emerson Red Drop**:\n- Robert Emerson observed that the quantum yield of photosynthesis dropped sharply at wavelengths longer than $680\\text{ nm}$ (far-red light), even though chlorophyll still absorbed light in this region.\n\n2. **Enhancement Effect**:\n- Emerson discovered that when green plants were exposed to both red light ($650\\text{ nm}$) and far-red light ($700\\text{ nm}$) simultaneously, the rate of photosynthesis was significantly higher than the sum of the rates obtained with each wavelength individually:\n  $$\\text{Yield}_{(\\text{both})} > \\text{Yield}_{(650)} + \\text{Yield}_{(700)}$$\n\n3. **Conclusion & Photosystem Model**:\n- This synergistic effect proved that photosynthesis is driven by two distinct pigment systems (photosystems) that absorb light at different wavelengths and work in series:\n  - **Photosystem II (PSII)**: Reaction center $P_{680}$, absorbs shorter wavelength red light.\n  - **Photosystem I (PSI)**: Reaction center $P_{700}$, absorbs longer wavelength far-red light.\n  - Electrons must flow sequentially from PSII to PSI (via the Z-scheme/ETC) to reduce $NADP^+$ and synthesize ATP."
+        "id": 13,
+        "unit": "III",
+        "question": "Describe the Emerson Enhancement Effect and explain how its discovery led to the two-photosystem model of photosynthesis.",
+        "answerKey": "1. **Emerson Red Drop**:\n- Robert Emerson observed that the quantum yield of photosynthesis dropped sharply at wavelengths longer than $680\\text{ nm}$ (far-red light), even though chlorophyll still absorbed light in this region.\n\n2. **Enhancement Effect**:\n- Emerson discovered that when green plants were exposed to both red light ($650\\text{ nm}$) and far-red light ($700\\text{ nm}$) simultaneously, the rate of photosynthesis was significantly higher than the sum of the rates obtained with each wavelength individually:\n  $$\\text{Yield}_{(\\text{both})} > \\text{Yield}_{(650)} + \\text{Yield}_{(700)}$$\n\n3. **Conclusion & Photosystem Model**:\n- This synergistic effect proved that photosynthesis is driven by two distinct pigment systems (photosystems) that absorb light at different wavelengths and work in series:\n  - **Photosystem II (PSII)**: Reaction center $P_{680}$, absorbs shorter wavelength red light.\n  - **Photosystem I (PSI)**: Reaction center $P_{700}$, absorbs longer wavelength far-red light.\n  - Electrons must flow sequentially from PSII to PSI (via the Z-scheme/ETC) to reduce $NADP^+$ and synthesize ATP."
       },
       {
-            "id": 14,
-            "unit": "IV",
-            "question": "Describe the step-by-step enzymatic pathway of nitrate assimilation in plants, stating the biochemical equations and cellular locations.",
-            "answerKey": "1. **Reduction of Nitrate to Nitrite**:\n- **Enzyme**: Nitrate Reductase (NR), located in the cytosol. Requires $NADH$ as the electron donor:\n  $$\\text{NO}_3^- + \\text{NADH} + H^+ \\xrightarrow{\\text{Nitrate Reductase}} \\text{NO}_2^- + \\text{NAD}^+ + H_2O$$\n\n2. **Reduction of Nitrite to Ammonium**:\n- **Enzyme**: Nitrite Reductase (NiR), located in chloroplasts (leaves) or proplastids (roots). Requires reduced ferredoxin ($Fd_{\\text{red}}$) as the electron donor:\n  $$\\text{NO}_2^- + 6 Fd_{\\text{red}} + 8 H^+ \\xrightarrow{\\text{Nitrite Reductase}} \\text{NH}_4^+ + 6 Fd_{\\text{ox}} + 2 H_2O$$\n\n3. **Ammonium Incorporation (GS-GOGAT Pathway)**:\n- **Glutamine Synthetase (GS)**: Combines ammonium with glutamate to form glutamine:\n  $$\\text{Glutamate} + NH_4^+ + \\text{ATP} \\xrightarrow{\\text{GS}} \\text{Glutamine} + \\text{ADP} + P_i$$\n- **Glutamate Synthase (GOGAT)**: Transfers the amide group of glutamine to 2-oxoglutarate, producing two molecules of glutamate:\n  $$\\text{Glutamine} + \\text{2-Oxoglutarate} + Fd_{\\text{red}} \\xrightarrow{\\text{GOGAT}} \\text{2 Glutamate} + Fd_{\\text{ox}}$$"
+        "id": 14,
+        "unit": "IV",
+        "question": "Describe the step-by-step enzymatic pathway of nitrate assimilation in plants, stating the biochemical equations and cellular locations.",
+        "answerKey": "1. **Reduction of Nitrate to Nitrite**:\n- **Enzyme**: Nitrate Reductase (NR), located in the cytosol. Requires $NADH$ as the electron donor:\n  $$\\text{NO}_3^- + \\text{NADH} + H^+ \\xrightarrow{\\text{Nitrate Reductase}} \\text{NO}_2^- + \\text{NAD}^+ + H_2O$$\n\n2. **Reduction of Nitrite to Ammonium**:\n- **Enzyme**: Nitrite Reductase (NiR), located in chloroplasts (leaves) or proplastids (roots). Requires reduced ferredoxin ($Fd_{\\text{red}}$) as the electron donor:\n  $$\\text{NO}_2^- + 6 Fd_{\\text{red}} + 8 H^+ \\xrightarrow{\\text{Nitrite Reductase}} \\text{NH}_4^+ + 6 Fd_{\\text{ox}} + 2 H_2O$$\n\n3. **Ammonium Incorporation (GS-GOGAT Pathway)**:\n- **Glutamine Synthetase (GS)**: Combines ammonium with glutamate to form glutamine:\n  $$\\text{Glutamate} + NH_4^+ + \\text{ATP} \\xrightarrow{\\text{GS}} \\text{Glutamine} + \\text{ADP} + P_i$$\n- **Glutamate Synthase (GOGAT)**: Transfers the amide group of glutamine to 2-oxoglutarate, producing two molecules of glutamate:\n  $$\\text{Glutamine} + \\text{2-Oxoglutarate} + Fd_{\\text{red}} \\xrightarrow{\\text{GOGAT}} \\text{2 Glutamate} + Fd_{\\text{ox}}$$"
       },
       {
-            "id": 15,
-            "unit": "III",
-            "question": "Explain the Pressure-Flow (M\u00fcnch) hypothesis for sugar translocation. Distinguish between apoplastic and symplastic phloem loading.",
-            "answerKey": "1. **Pressure-Flow Hypothesis**:\n- Sugars move through the sieve tubes of the phloem down a hydrostatic pressure gradient from source (producing leaves) to sink (consuming roots/fruits):\n  - **At Source**: Active loading of sucrose into sieve tubes decreases solute potential ($\\Psi_s$), causing water to enter from the xylem. This builds high turgor pressure.\n  - **At Sink**: Unloading of sucrose increases $\\Psi_s$, causing water to exit sieve tubes back to xylem. Turgor pressure drops.\n  - **Flow**: Bulk flow of water and solutes occurs from high to low pressure.\n\n2. **Phloem Loading Pathways**:\n- **Apoplastic Loading**: Sucrose moves from mesophyll cells into the cell wall space (apoplast). It is then actively pumped across the plasma membrane of companion cells by a **Sucrose-$H^+$ symporter** driven by a proton gradient generated by $H^+$-ATPase.\n- **Symplastic Loading**: Sucrose moves entirely through cytoplasm via plasmodesmata. In some plants, sucrose is converted to larger sugars (raffinose, stachyose) in companion cells to trap them inside sieve elements (polymer trapping model)."
+        "id": 15,
+        "unit": "III",
+        "question": "Explain the Pressure-Flow (Münch) hypothesis for sugar translocation. Distinguish between apoplastic and symplastic phloem loading.",
+        "answerKey": "1. **Pressure-Flow Hypothesis**:\n- Sugars move through the sieve tubes of the phloem down a hydrostatic pressure gradient from source (producing leaves) to sink (consuming roots/fruits):\n  - **At Source**: Active loading of sucrose into sieve tubes decreases solute potential ($\\Psi_s$), causing water to enter from the xylem. This builds high turgor pressure.\n  - **At Sink**: Unloading of sucrose increases $\\Psi_s$, causing water to exit sieve tubes back to xylem. Turgor pressure drops.\n  - **Flow**: Bulk flow of water and solutes occurs from high to low pressure.\n\n2. **Phloem Loading Pathways**:\n- **Apoplastic Loading**: Sucrose moves from mesophyll cells into the cell wall space (apoplast). It is then actively pumped across the plasma membrane of companion cells by a **Sucrose-$H^+$ symporter** driven by a proton gradient generated by $H^+$-ATPase.\n- **Symplastic Loading**: Sucrose moves entirely through cytoplasm via plasmodesmata. In some plants, sucrose is converted to larger sugars (raffinose, stachyose) in companion cells to trap them inside sieve elements (polymer trapping model)."
       },
       {
-            "id": 16,
-            "unit": "IV",
-            "question": "Describe the structure, photoreversibility, and physiological role of Phytochromes in plant development.",
-            "answerKey": "1. **Phytochrome Structure**:\n- A dimeric chromoprotein. Each monomer consists of a protein subunit and a covalently bound light-absorbing chromophore called **phytochromobilin** (a linear tetrapyrrole molecule).\n\n2. **Photoreversibility**:\n- Phytochromes exist in two photo-interconvertible states:\n  - **$P_r$ (Red-absorbing form)**: Stable, physiologically inactive form. Absorbs red light ($660\\text{ nm}$) and isomerizes to $P_{\\text{fr}}$:\n    $$P_r \\xrightarrow{660\\text{ nm}} P_{\\text{fr}}$$\n  - **$P_{\\text{fr}}$ (Far-red-absorbing form)**: Active form. Absorbs far-red light ($730\\text{ nm}$) and reverts to $P_r$:\n    $$P_{\\text{fr}} \\xrightarrow{730\\text{ nm}} P_r$$\n\n3. **Physiological Roles**:\n- **Photoperiodism**: Regulates flowering based on day length (active $P_{\\text{fr}}$ is the molecular switch).\n- **Seed Germination**: Red light promotes germination by converting $P_r \\to P_{\\text{fr}}$. Far-red light inhibits it.\n- **Shade Avoidance**: Under a canopy (low Red : Far-Red ratio), plants revert to $P_r$, inducing stem elongation."
+        "id": 16,
+        "unit": "IV",
+        "question": "Describe the structure, photoreversibility, and physiological role of Phytochromes in plant development.",
+        "answerKey": "1. **Phytochrome Structure**:\n- A dimeric chromoprotein. Each monomer consists of a protein subunit and a covalently bound light-absorbing chromophore called **phytochromobilin** (a linear tetrapyrrole molecule).\n\n2. **Photoreversibility**:\n- Phytochromes exist in two photo-interconvertible states:\n  - **$P_r$ (Red-absorbing form)**: Stable, physiologically inactive form. Absorbs red light ($660\\text{ nm}$) and isomerizes to $P_{\\text{fr}}$:\n    $$P_r \\xrightarrow{660\\text{ nm}} P_{\\text{fr}}$$\n  - **$P_{\\text{fr}}$ (Far-red-absorbing form)**: Active form. Absorbs far-red light ($730\\text{ nm}$) and reverts to $P_r$:\n    $$P_{\\text{fr}} \\xrightarrow{730\\text{ nm}} P_r$$\n\n3. **Physiological Roles**:\n- **Photoperiodism**: Regulates flowering based on day length (active $P_{\\text{fr}}$ is the molecular switch).\n- **Seed Germination**: Red light promotes germination by converting $P_r \\to P_{\\text{fr}}$. Far-red light inhibits it.\n- **Shade Avoidance**: Under a canopy (low Red : Far-Red ratio), plants revert to $P_r$, inducing stem elongation."
       },
       {
-            "id": 17,
-            "unit": "IV",
-            "question": "Discuss the history of discovery of Auxins, detailing Went's Avena coleoptile curvature test. State their primary physiological roles.",
-            "answerKey": "1. **History & Went's Experiment**:\n- Charles Darwin (1880) showed that phototropism is mediated by a signal transmitted from the coleoptile tip. Boysen-Jensen showed the signal could pass through agar blocks.\n- **Frits Went (1928)** isolated this chemical signal:\n  1. Cut off coleoptile tips of oat (*Avena sativa*) seedlings and placed them on agar blocks.\n  2. Removed the tips and placed the agar blocks asymmetrically on decapitated coleoptile stumps.\n  3. Even in total darkness, the coleoptiles bent away from the side containing the block.\n  4. The angle of curvature was proportional to the concentration of the chemical (named **auxin**, meaning to grow).\n\n2. **Physiological Roles**:\n- **Apical Dominance**: Suppresses axillary bud growth.\n- **Cell Elongation**: Activates $H^+$-ATPases in the plasma membrane (acid growth hypothesis), loosening cell walls to allow turgor-driven expansion.\n- **Tropic Movements**: Regulates phototropism and gravitropism via lateral redistribution.\n- **Rooting**: Promotes root initiation on stem cuttings."
+        "id": 17,
+        "unit": "IV",
+        "question": "Discuss the history of discovery of Auxins, detailing Went's Avena coleoptile curvature test. State their primary physiological roles.",
+        "answerKey": "1. **History & Went's Experiment**:\n- Charles Darwin (1880) showed that phototropism is mediated by a signal transmitted from the coleoptile tip. Boysen-Jensen showed the signal could pass through agar blocks.\n- **Frits Went (1928)** isolated this chemical signal:\n  1. Cut off coleoptile tips of oat (*Avena sativa*) seedlings and placed them on agar blocks.\n  2. Removed the tips and placed the agar blocks asymmetrically on decapitated coleoptile stumps.\n  3. Even in total darkness, the coleoptiles bent away from the side containing the block.\n  4. The angle of curvature was proportional to the concentration of the chemical (named **auxin**, meaning to grow).\n\n2. **Physiological Roles**:\n- **Apical Dominance**: Suppresses axillary bud growth.\n- **Cell Elongation**: Activates $H^+$-ATPases in the plasma membrane (acid growth hypothesis), loosening cell walls to allow turgor-driven expansion.\n- **Tropic Movements**: Regulates phototropism and gravitropism via lateral redistribution.\n- **Rooting**: Promotes root initiation on stem cuttings."
       },
       {
-            "id": 18,
-            "unit": "IV",
-            "question": "State the site of biosynthesis and physiological roles of Gibberellins (GAs) in plants, highlighting their role in seed germination.",
-            "answerKey": "1. **Biosynthesis Sites**:\n- Primarily synthesized via the terpenoid pathway in developing seeds, young leaves, buds, and root tips.\n\n2. **Physiological Roles**:\n- **Stem Elongation**: Causes rapid internodal elongation, particularly in rosette or dwarf plants (bolting).\n- **Parthenocarpy**: Induces seedless fruit development (e.g., grapes).\n- **Breaking Dormancy**: Overcomes seed and bud dormancy.\n\n3. **Mechanism in Seed Germination**:\n- Upon imbibition of water, the embryo synthesizes and secretes **gibberellic acid (GA)**.\n- GA diffuses to the **aleurone layer** surrounding the endosperm.\n- GA triggers gene expression of hydrolytic enzymes, specifically **$\\alpha$-amylase**.\n- $\\alpha$-amylase digests stored endosperm starch into simple sugars (glucose), which are transported to the growing embryo to support early seedling growth."
+        "id": 18,
+        "unit": "IV",
+        "question": "State the site of biosynthesis and physiological roles of Gibberellins (GAs) in plants, highlighting their role in seed germination.",
+        "answerKey": "1. **Biosynthesis Sites**:\n- Primarily synthesized via the terpenoid pathway in developing seeds, young leaves, buds, and root tips.\n\n2. **Physiological Roles**:\n- **Stem Elongation**: Causes rapid internodal elongation, particularly in rosette or dwarf plants (bolting).\n- **Parthenocarpy**: Induces seedless fruit development (e.g., grapes).\n- **Breaking Dormancy**: Overcomes seed and bud dormancy.\n\n3. **Mechanism in Seed Germination**:\n- Upon imbibition of water, the embryo synthesizes and secretes **gibberellic acid (GA)**.\n- GA diffuses to the **aleurone layer** surrounding the endosperm.\n- GA triggers gene expression of hydrolytic enzymes, specifically **$\\alpha$-amylase**.\n- $\\alpha$-amylase digests stored endosperm starch into simple sugars (glucose), which are transported to the growing embryo to support early seedling growth."
       },
       {
-            "id": 19,
-            "unit": "IV",
-            "question": "Define apical dominance. Explain the physiological mechanism by which auxin and cytokinin interact to regulate this process.",
-            "answerKey": "1. **Apical Dominance Definition**:\n- The phenomenon where the active growing apical bud (shoot tip) suppresses the growth of lateral axillary buds, promoting vertical growth.\n\n2. **Auxin-Cytokinin Interaction**:\n- **Auxin (Inhibitory)**: Synthesized in the shoot tip and transported downward (basipetally) in the stem. High auxin levels in the stem prevent lateral bud activation by upregulating **strigolactones** (which suppress bud growth) and downregulating cytokinin biosynthesis.\n- **Cytokinin (Promotional)**: Synthesized in root tips and transported upward. Cytokinins directly stimulate cell division in axillary buds.\n- **Nutrient Sink**: The shoot tip acts as a strong sink for nutrients and sugars due to high auxin levels.\n- **Decapitation**: Removing the shoot tip removes the source of auxin. This decreases strigolactone levels and allows cytokinins and sugars to accumulate in axillary buds, triggering lateral branch outgrowth."
+        "id": 19,
+        "unit": "IV",
+        "question": "Define apical dominance. Explain the physiological mechanism by which auxin and cytokinin interact to regulate this process.",
+        "answerKey": "1. **Apical Dominance Definition**:\n- The phenomenon where the active growing apical bud (shoot tip) suppresses the growth of lateral axillary buds, promoting vertical growth.\n\n2. **Auxin-Cytokinin Interaction**:\n- **Auxin (Inhibitory)**: Synthesized in the shoot tip and transported downward (basipetally) in the stem. High auxin levels in the stem prevent lateral bud activation by upregulating **strigolactones** (which suppress bud growth) and downregulating cytokinin biosynthesis.\n- **Cytokinin (Promotional)**: Synthesized in root tips and transported upward. Cytokinins directly stimulate cell division in axillary buds.\n- **Nutrient Sink**: The shoot tip acts as a strong sink for nutrients and sugars due to high auxin levels.\n- **Decapitation**: Removing the shoot tip removes the source of auxin. This decreases strigolactone levels and allows cytokinins and sugars to accumulate in axillary buds, triggering lateral branch outgrowth."
       },
       {
-            "id": 20,
-            "unit": "IV",
-            "question": "Explain the process of guttation. Differentiate it from transpiration, detailing the structure and function of hydathodes.",
-            "answerKey": "1. **Guttation**:\n- The exudation of liquid water droplets from leaf margins or tips, typically seen in herbaceous plants under conditions of high soil moisture and high humidity.\n\n2. **Comparison: Guttation vs. Transpiration**:\n- **State of Water**: Guttation exits as liquid droplets; Transpiration exits as water vapor.\n- **Purity**: Guttation water contains dissolved salts, sugars, and organic acids; Transpiration water is pure.\n- **Driving Force**: Guttation is driven by positive **root pressure** at night; Transpiration is driven by negative **transpiration pull** during the day.\n- **Exit Point**: Guttation occurs via hydathodes; Transpiration occurs via stomata and cuticles.\n\n3. **Hydathode Structure & Function**:\n- Specialized pores located along leaf margins and tips. The pore itself is bounded by guard cells that cannot close (permanently open).\n- Directly below the pore is a mass of thin-walled parenchymal cells with abundant intercellular spaces called **epithem**.\n- The epithem lies in close contact with the tracheid endings of vascular bundles. Positive root pressure forces water out of the xylem vessels, through the epithem, and out of the pore as liquid droplets."
+        "id": 20,
+        "unit": "IV",
+        "question": "Explain the process of guttation. Differentiate it from transpiration, detailing the structure and function of hydathodes.",
+        "answerKey": "1. **Guttation**:\n- The exudation of liquid water droplets from leaf margins or tips, typically seen in herbaceous plants under conditions of high soil moisture and high humidity.\n\n2. **Comparison: Guttation vs. Transpiration**:\n- **State of Water**: Guttation exits as liquid droplets; Transpiration exits as water vapor.\n- **Purity**: Guttation water contains dissolved salts, sugars, and organic acids; Transpiration water is pure.\n- **Driving Force**: Guttation is driven by positive **root pressure** at night; Transpiration is driven by negative **transpiration pull** during the day.\n- **Exit Point**: Guttation occurs via hydathodes; Transpiration occurs via stomata and cuticles.\n\n3. **Hydathode Structure & Function**:\n- Specialized pores located along leaf margins and tips. The pore itself is bounded by guard cells that cannot close (permanently open).\n- Directly below the pore is a mass of thin-walled parenchymal cells with abundant intercellular spaces called **epithem**.\n- The epithem lies in close contact with the tracheid endings of vascular bundles. Positive root pressure forces water out of the xylem vessels, through the epithem, and out of the pore as liquid droplets."
       }
-]
+    ]
   }
 };
