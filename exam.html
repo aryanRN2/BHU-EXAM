@@ -556,11 +556,9 @@
             const revealBtn = document.querySelector('button[onclick="revealActiveAnswer()"]');
             if (revealBtn) {
                 if (examState.type === 'theory') {
-                    revealBtn.innerHTML = `
-                        <span class="material-symbols-outlined text-sm">visibility</span>
-                        Reveal Reference Solution
-                    `;
+                    revealBtn.classList.add('hidden');
                 } else {
+                    revealBtn.classList.remove('hidden');
                     revealBtn.innerHTML = `
                         <span class="material-symbols-outlined text-sm">visibility</span>
                         Reveal Answer
@@ -1630,6 +1628,7 @@ Provide the final grade and feedback. You MUST output a JSON object at the very 
     };
 
     window.revealActiveAnswer = function() {
+        if (examState.type === 'theory') return;
         const q = questions[examState.currentQuestionIndex];
         revealedQuestions[q.id] = true;
         renderQuestion(examState.currentQuestionIndex);
