@@ -262,6 +262,7 @@
                 let icon = 'menu_book';
                 if (key.includes('math') || key.includes('calc') || (exam.module && exam.module.startsWith('MAT'))) icon = 'calculate';
                 else if (key.includes('geo') || key.includes('glb') || (exam.module && exam.module.startsWith('GLB'))) icon = 'terrain';
+                else if (key.includes('bot') || key.includes('bob') || (exam.module && exam.module.startsWith('BOB'))) icon = 'eco';
                 
                 const typeLabel = exam.type === 'theory' ? 'Theory' : 'MCQ';
                 const activeLabel = exam.type === 'theory' ? 'AI Grading Active' : 'Multiple Choice';
@@ -292,6 +293,7 @@
                 else if (key.startsWith('mat') || (exam.module && exam.module.startsWith('MAT'))) icon = 'calculate';
                 else if (key.startsWith('sta') || (exam.module && exam.module.startsWith('STA'))) icon = 'bar_chart';
                 else if (key.startsWith('glb') || key.startsWith('geo') || (exam.module && exam.module.startsWith('GLB'))) icon = 'terrain';
+                else if (key.startsWith('bob') || key.startsWith('bot') || (exam.module && exam.module.startsWith('BOB'))) icon = 'eco';
                 
                 cardMarkup = `
                     <div class="glass-panel p-6 rounded-lg border border-border-subtle opacity-50 flex items-center justify-between select-none">
@@ -347,6 +349,18 @@
     };
 
     const EXAM_PYQS = {
+        'bobmj31': [
+            {
+                title: 'Plant Ecology and Physiology 2023-24 (Set A) PDF',
+                file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BOB_301__Plant_Ecology_and_Physiology_2023_24.pdf',
+                description: 'Official BOB-301 Plant Ecology and Physiology 2023-24 paper (Set A)'
+            },
+            {
+                title: 'Plant Ecology and Physiology 2023-24 (Set B) PDF',
+                file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BOB_301___Plant_Ecology_and_Physiology_2023_24.pdf',
+                description: 'Official BOB-301 Plant Ecology and Physiology 2023-24 paper (Set B)'
+            }
+        ],
         'glbmj41': [
             {
                 title: 'Palaeontology and Stratigraphy 2022-23 PDF',
