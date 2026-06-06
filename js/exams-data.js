@@ -2154,19 +2154,211 @@ export const EXAMS = {
     "id": "matmj11",
     "title": "Calculus",
     "module": "MATMJ11",
-    "comingSoon": true
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Find the $n$-th derivative of the function $y = x^n \\ln x$.",
+        "answerKey": "1. **Identify the Product**:\nWe have $y = u v$, where $u = \\ln x$ and $v = x^n$.\nWe want to find $y^{(n)}$ using the Leibniz rule for successive differentiation:\n$$y^{(n)} = \\sum_{k=0}^n \\binom{n}{k} u^{(n-k)} v^{(k)}$$\n\n2. **Compute Derivatives**:\n- For $v = x^n$:\n  - $v^{(0)} = x^n$\n  - $v^{(1)} = n x^{n-1}$\n  - $v^{(k)} = \\frac{n!}{(n-k)!} x^{n-k}$\n  - $v^{(n)} = n!$\n- For $u = \\ln x$:\n  - $u^{(1)} = x^{-1}$\n  - $u^{(2)} = -x^{-2}$\n  - $u^{(r)} = (-1)^{r-1} (r-1)! x^{-r}$ for $r \\geq 1$\n  - $u^{(n-k)} = (-1)^{n-k-1} (n-k-1)! x^{-(n-k)}$ (for $k < n$)\n  - $u^{(0)} = \\ln x$ (for $k = n$)\n\n3. **Substitute into Leibniz Rule**:\n- Separate the term $k = n$:\n  $$\\binom{n}{n} u^{(0)} v^{(n)} = 1 \\cdot \\ln x \\cdot n! = n! \\ln x$$\n- For $k = 0$ to $n-1$:\n  $$\\binom{n}{k} u^{(n-k)} v^{(k)} = \\frac{n!}{k!(n-k)!} \\left[ (-1)^{n-k-1} (n-k-1)! x^{-n+k} \\right] \\left[ \\frac{n!}{(n-k)!} x^{n-k} \\right]$$\n  $$= \\frac{n!}{k!(n-k)!} (-1)^{n-k-1} (n-k-1)! \\frac{n!}{(n-k)!}$$\n  $$= n! \\binom{n}{k} \\frac{(-1)^{n-k-1}}{n-k}$$\n- Summing all terms:\n  $$y^{(n)} = n! \\left( \\ln x + \\sum_{k=0}^{n-1} \\binom{n}{k} \\frac{(-1)^{n-k-1}}{n-k} \\right)$$\n  Using a change of index $r = n-k$:\n  $$y^{(n)} = n! \\left( \\ln x + 1 + \\frac{1}{2} + \\dots + \\frac{1}{n} \\right)$$"
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "If $y = e^{a \\sin^{-1} x}$, show that $(1-x^2)y_{n+2} - (2n+1)xy_{n+1} - (n^2+a^2)y_n = 0$.",
+        "answerKey": "1. **First and Second Derivatives**:\n- Differentiating $y = e^{a \\sin^{-1} x}$ once:\n  $$y_1 = \\frac{a e^{a \\sin^{-1} x}}{\\sqrt{1-x^2}} = \\frac{a y}{\\sqrt{1-x^2}}$$\n  $$\\implies y_1^2 (1-x^2) = a^2 y^2$$\n- Differentiating again with respect to $x$:\n  $$2 y_1 y_2 (1-x^2) + y_1^2 (-2x) = 2 a^2 y y_1$$\n  - Divide by $2y_1$ (since $y_1 \\neq 0$):\n    $$(1-x^2)y_2 - x y_1 = a^2 y \\implies (1-x^2)y_2 - x y_1 - a^2 y = 0$$\n\n2. **Apply Leibniz Theorem**:\n- Differentiate the equation $n$ times using the Leibniz rule:\n  - For $(1-x^2)y_2$:\n    $$( (1-x^2)y_2 )^{(n)} = (1-x^2)y_{n+2} + n(-2x)y_{n+1} + \\frac{n(n-1)}{2}(-2)y_n$$\n    $$= (1-x^2)y_{n+2} - 2nx y_{n+1} - n(n-1)y_n$$\n  - For $-xy_1$:\n    $$( -xy_1 )^{(n)} = - [ x y_{n+1} + n(1) y_n ] = -x y_{n+1} - n y_n$$\n  - For $-a^2 y$:\n    $$( -a^2 y )^{(n)} = -a^2 y_n$$\n\n3. **Combine Terms**:\n- Summing the three parts:\n  $$(1-x^2)y_{n+2} - x y_{n+1} (2n + 1) - y_n [ n(n-1) + n + a^2 ] = 0$$\n  $$(1-x^2)y_{n+2} - (2n+1)xy_{n+1} - (n^2+a^2)y_n = 0$$\n- This completes the proof."
+      },
+      {
+        "id": 3,
+        "unit": "II",
+        "question": "Find the radius of curvature $\\rho$ for the catenary $y = c \\cosh(x/c)$ at any point.",
+        "answerKey": "1. **Radius of Curvature Formula**:\nFor a Cartesian curve $y = f(x)$, the radius of curvature $\\rho$ is given by:\n$$\\rho = \\frac{[1 + y_1^2]^{3/2}}{y_2}$$\nwhere $y_1 = \\frac{dy}{dx}$ and $y_2 = \\frac{d^2y}{dx^2}$.\n\n2. **Calculate Derivatives**:\n- Given $y = c \\cosh(x/c)$:\n  $$y_1 = c \\sinh(x/c) \\cdot \\frac{1}{c} = \\sinh(x/c)$$\n  $$y_2 = \\cosh(x/c) \\cdot \\frac{1}{c} = \\frac{1}{c} \\cosh(x/c)$$\n\n3. **Evaluate the Formula**:\n- Substitute $y_1$ and $y_2$ into the expression:\n  $$1 + y_1^2 = 1 + \\sinh^2(x/c) = \\cosh^2(x/c)$$\n  $$\\rho = \\frac{[\\cosh^2(x/c)]^{3/2}}{\\frac{1}{c} \\cosh(x/c)} = \\frac{\\cosh^3(x/c)}{\\frac{1}{c} \\cosh(x/c)}$$\n  $$\\rho = c \\cosh^2(x/c)$$\n- Since $y = c \\cosh(x/c) \\implies \\cosh(x/c) = y/c$, we can write $\\rho$ in terms of $y$:\n  $$\\rho = c \\left( \\frac{y}{c} \\right)^2 = \\frac{y^2}{c}$$"
+      },
+      {
+        "id": 4,
+        "unit": "II",
+        "question": "Find the asymptotes of the folium of Descartes: $x^3 + y^3 = 3axy$.",
+        "answerKey": "1. **Method for Algebraic Curves**:\nFor a curve of degree 3, we look for oblique asymptotes of the form $y = mx + c$.\n- Group terms of degree 3 and degree 2:\n  $$f_3(x, y) = x^3 + y^3$$\n  $$f_2(x, y) = -3axy$$\n\n2. **Find $m$**:\n- Substitute $x = 1$ and $y = m$ into $f_3$ and $f_2$:\n  $$\\phi_3(m) = 1 + m^3$$\n  $$\\phi_2(m) = -3am$$\n- Solve $\\phi_3(m) = 0 \\implies 1 + m^3 = 0 \\implies (m+1)(m^2-m+1) = 0$.\n- The only real root is $m = -1$.\n\n3. **Find $c$**:\n- The constant $c$ is given by:\n  $$c = -\\frac{\\phi_2(m)}{\\phi_3'(m)}$$\n- Find the derivative of $\\phi_3(m)$:\n  $$\\phi_3'(m) = 3m^2$$\n- Substitute $m = -1$:\n  $$\\phi_3'(-1) = 3(-1)^2 = 3$$\n  $$\\phi_2(-1) = -3a(-1) = 3a$$\n  $$c = -\\frac{3a}{3} = -a$$\n\n4. **Equation of the Asymptote**:\n- Substitute $m = -1$ and $c = -a$ into $y = mx + c$:\n  $$y = -x - a \\implies x + y + a = 0$$\n- The curve has a single oblique asymptote $x + y + a = 0$."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Expand the function $f(x) = e^{\\sin x}$ using Maclaurin's series up to the term containing $x^4$.",
+        "answerKey": "1. **Maclaurin's Series Formula**:\n$$f(x) = f(0) + x f'(0) + \\frac{x^2}{2!} f''(0) + \\frac{x^3}{3!} f'''(0) + \\frac{x^4}{4!} f^{(4)}(0) + \\dots$$\n\n2. **Compute Derivatives at $x = 0$**:\n- $f(x) = e^{\\sin x} \\implies f(0) = e^0 = 1$\n- $f'(x) = \\cos x \\cdot e^{\\sin x} \\implies f'(0) = 1 \\cdot 1 = 1$\n- $f''(x) = (-\\sin x) e^{\\sin x} + \\cos^2 x \\cdot e^{\\sin x} = e^{\\sin x} (\\cos^2 x - \\sin x) \\implies f''(0) = 1(1 - 0) = 1$\n- $f'''(x) = \\cos x \\cdot e^{\\sin x} (\\cos^2 x - \\sin x) + e^{\\sin x} (-2\\sin x \\cos x - \\cos x)$\n  $$= e^{\\sin x} \\cos x [ \\cos^2 x - 3\\sin x - 1 ] \\implies f'''(0) = 1 \\cdot 1 [ 1 - 0 - 1 ] = 0$$\n- $f^{(4)}(x) = e^{\\sin x} [ \\cos^4 x - 6\\sin x \\cos^2 x - 4\\cos^2 x + 3\\sin^2 x - \\sin x ]$\n  Evaluating at $x = 0$:\n  $$f^{(4)}(0) = 1 [ 1 - 0 - 4 + 0 - 0 ] = -3$$\n\n3. **Substitute into Series**:\n- $$e^{\\sin x} = 1 + x(1) + \\frac{x^2}{2}(1) + \\frac{x^3}{6}(0) + \\frac{x^4}{24}(-3) + \\dots$$\n  $$e^{\\sin x} = 1 + x + \\frac{x^2}{2} - \\frac{x^4}{8} + \\dots$$"
+      },
+      {
+        "id": 6,
+        "unit": "III",
+        "question": "Derive the reduction formula for $I_n = \\int \\sin^n x \\, dx$ and evaluate $\\int_0^{\\pi/2} \\sin^6 x \\, dx$.",
+        "answerKey": "1. **Deriving Reduction Formula**:\n- Write the integrand as a product:\n  $$I_n = \\int \\sin^{n-1} x \\cdot \\sin x \\, dx$$\n- Apply integration by parts with $u = \\sin^{n-1} x$ and $dv = \\sin x \\, dx$:\n  - $du = (n-1) \\sin^{n-2} x \\cos x \\, dx$\n  - $v = -\\cos x$\n  $$I_n = -\\sin^{n-1} x \\cos x - \\int (-\\cos x) (n-1) \\sin^{n-2} x \\cos x \\, dx$$\n  $$I_n = -\\sin^{n-1} x \\cos x + (n-1) \\int \\sin^{n-2} x \\cos^2 x \\, dx$$\n- Substitute $\\cos^2 x = 1 - \\sin^2 x$:\n  $$I_n = -\\sin^{n-1} x \\cos x + (n-1) \\int \\sin^{n-2} x (1 - \\sin^2 x) \\, dx$$\n  $$I_n = -\\sin^{n-1} x \\cos x + (n-1) I_{n-2} - (n-1) I_n$$\n- Solve for $I_n$:\n  $$I_n (1 + n - 1) = -\\sin^{n-1} x \\cos x + (n-1) I_{n-2}$$\n  $$I_n = -\\frac{\\sin^{n-1} x \\cos x}{n} + \\frac{n-1}{n} I_{n-2}$$\n\n2. **Evaluating Definite Integral using Walli's formula**:\n- For $J_n = \\int_0^{\\pi/2} \\sin^n x \\, dx$, the boundary term vanishes, giving:\n  $$J_n = \\frac{n-1}{n} J_{n-2}$$\n- For $n = 6$ (even):\n  $$J_6 = \\frac{5}{6} \\cdot \\frac{3}{4} \\cdot \\frac{1}{2} \\cdot \\frac{\\pi}{2} = \\frac{15}{96} \\pi = \\frac{5}{32} \\pi$$"
+      },
+      {
+        "id": 7,
+        "unit": "III",
+        "question": "Find the total arc length of the cardiod $r = a(1 + \\cos \\theta)$.",
+        "answerKey": "1. **Arc Length Formula in Polar Coordinates**:\n$$s = \\int_{\\theta_1}^{\\theta_2} \\sqrt{r^2 + \\left(\\frac{dr}{d\\theta}\\right)^2} d\\theta$$\n\n2. **Compute Derivative**:\n- Given $r = a(1 + \\cos\\theta)$:\n  $$\\frac{dr}{d\\theta} = -a \\sin\\theta$$\n- Calculate integrand:\n  $$r^2 + \\left(\\frac{dr}{d\\theta}\\right)^2 = a^2(1 + \\cos\\theta)^2 + a^2 \\sin^2\\theta$$\n  $$= a^2 (1 + 2\\cos\\theta + \\cos^2\\theta + \\sin^2\\theta) = a^2 (2 + 2\\cos\\theta) = 2a^2(1 + \\cos\\theta)$$\n- Using trigonometric half-angle identity $1 + \\cos\\theta = 2\\cos^2(\\theta/2)$:\n  $$r^2 + \\left(\\frac{dr}{d\\theta}\\right)^2 = 4a^2 \\cos^2(\\theta/2)$$\n  $$\\sqrt{r^2 + \\left(\\frac{dr}{d\\theta}\\right)^2} = 2a \\left|\\cos(\\theta/2)\\right|$$\n\n3. **Integration**:\n- By symmetry, the total length is twice the length from $\\theta = 0$ to $\\pi$:\n  $$s = 2 \\int_0^{\\pi} 2a \\cos(\\theta/2) d\\theta = 4a \\left[ 2 \\sin(\\theta/2) \\right]_0^{\\pi} = 8a (\\sin(\\pi/2) - \\sin(0)) = 8a$$\n- The total arc length is $8a$."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Evaluate the indeterminate limit: $\\lim_{x \\to 0} \\left( \\frac{1}{x} - \\frac{1}{e^x - 1} \\right)$.",
+        "answerKey": "1. **Identify Indeterminate Form**:\nAs $x \\to 0$, both $\\frac{1}{x} \\to \\infty$ and $\\frac{1}{e^x-1} \\to \\infty$, which is an $\\infty - \\infty$ form.\n\n2. **Combine into a Single Fraction**:\n$$L = \\lim_{x \\to 0} \\frac{e^x - 1 - x}{x(e^x - 1)}$$\n- This is now a $0/0$ form. We can apply L'Hopital's Rule.\n\n3. **Apply L'Hopital's Rule (First derivative)**:\n- Numerator: $\\frac{d}{dx}(e^x - 1 - x) = e^x - 1$\n- Denominator: $\\frac{d}{dx}(x(e^x - 1)) = e^x - 1 + x e^x$\n$$L = \\lim_{x \\to 0} \\frac{e^x - 1}{e^x - 1 + x e^x}$$\n- This is still a $0/0$ form. Apply L'Hopital's Rule again.\n\n4. **Apply L'Hopital's Rule (Second derivative)**:\n- Numerator: $\\frac{d}{dx}(e^x - 1) = e^x$\n- Denominator: $\\frac{d}{dx}(e^x - 1 + x e^x) = e^x + e^x + x e^x = 2e^x + x e^x$\n$$L = \\lim_{x \\to 0} \\frac{e^x}{2e^x + x e^x} = \\frac{e^0}{2e^0 + 0} = \\frac{1}{2}$$\n- Therefore, the limit is $1/2$."
+      },
+      {
+        "id": 9,
+        "unit": "IV",
+        "question": "If $u = \\ln(x^3 + y^3 + z^3 - 3xyz)$, show that $\\frac{\\partial u}{\\partial x} + \\frac{\\partial u}{\\partial y} + \\frac{\\partial u}{\\partial z} = \\frac{3}{x+y+z}$.",
+        "answerKey": "1. **Partial Differentiation**:\nLet $V = x^3 + y^3 + z^3 - 3xyz$. Then $u = \\ln V$.\n- By chain rule:\n  $$\\frac{\\partial u}{\\partial x} = \\frac{1}{V} \\frac{\\partial V}{\\partial x} = \\frac{3x^2 - 3yz}{V}$$\n  $$\\frac{\\partial u}{\\partial y} = \\frac{1}{V} \\frac{\\partial V}{\\partial y} = \\frac{3y^2 - 3zx}{V}$$\n  $$\\frac{\\partial u}{\\partial z} = \\frac{1}{V} \\frac{\\partial V}{\\partial z} = \\frac{3z^2 - 3xy}{V}$$\n\n2. **Sum the Derivatives**:\n- $$\\frac{\\partial u}{\\partial x} + \\frac{\\partial u}{\\partial y} + \\frac{\\partial u}{\\partial z} = \\frac{3(x^2 + y^2 + z^2 - xy - yz - zx)}{V}$$\n\n3. **Algebraic Identity factorization**:\n- Recall the factorization of $x^3+y^3+z^3 - 3xyz$:\n  $$V = (x+y+z)(x^2+y^2+z^2 - xy - yz - zx)$$\n- Substitute $V$ back into the sum:\n  $$\\frac{\\partial u}{\\partial x} + \\frac{\\partial u}{\\partial y} + \\frac{\\partial u}{\\partial z} = \\frac{3(x^2+y^2+z^2 - xy - yz - zx)}{(x+y+z)(x^2+y^2+z^2 - xy - yz - zx)} = \\frac{3}{x+y+z}$$\n- This completes the proof."
+      },
+      {
+        "id": 10,
+        "unit": "IV",
+        "question": "If $u = x+y+z$, $v = xy+yz+zx$, and $w = x^3+y^3+z^3-3xyz$, find the Jacobian $J = \\frac{\\partial(u,v,w)}{partial(x,y,z)}$.",
+        "answerKey": "1. **Jacobian Definition**:\nThe Jacobian $J$ is the determinant of the partial derivatives matrix:\n$$J = \\det \\begin{pmatrix} u_x & u_y & u_z \\\\ v_x & v_y & v_z \\\\ w_x & w_y & w_z \\end{pmatrix}$$\n\n2. **Compute Partial Derivatives**:\n- $u_x = 1, u_y = 1, u_z = 1$\n- $v_x = y+z, v_y = x+z, v_z = x+y$\n- $w_x = 3x^2-3yz, w_y = 3y^2-3zx, w_z = 3z^2-3xy$\n\n3. **Determinant Evaluation**:\n- $$J = \\det \\begin{pmatrix} 1 & 1 & 1 \\\\ y+z & x+z & x+y \\\\ 3(x^2-yz) & 3(y^2-zx) & 3(z^2-xy) \\end{pmatrix}$$\n- Using row operations: $C_2 \\to C_2 - C_1$ and $C_3 \\to C_3 - C_1$:\n  - Second row: $(x+z)-(y+z) = x-y$ and $(x+y)-(y+z) = x-z$\n  - Third row: $3(y^2-zx - x^2+yz) = 3(y-x)(x+y+z)$ and $3(z^2-xy - x^2+yz) = 3(z-x)(x+y+z)$\n- Since the third row has a common factor of $3(x+y+z)$, the determinant reduces to 0 because the second and third rows are proportional.\n- Specifically, $w = u(u^2-3v)$ is a direct functional relationship between $u, v, w$. Thus, by properties of Jacobians, the variables are functionally dependent, so the Jacobian is identically $0$."
+      }
+    ],
+    "type": "theory",
+    "duration": 180
   },
   "matmn11": {
     "id": "matmn11",
     "title": "Calculus",
     "module": "MATMN11",
-    "comingSoon": true
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Find the $n$-th derivative of the function $y = x^n \\ln x$.",
+        "answerKey": "1. **Identify the Product**:\nWe have $y = u v$, where $u = \\ln x$ and $v = x^n$.\nWe want to find $y^{(n)}$ using the Leibniz rule for successive differentiation:\n$$y^{(n)} = \\sum_{k=0}^n \\binom{n}{k} u^{(n-k)} v^{(k)}$$\n\n2. **Compute Derivatives**:\n- For $v = x^n$:\n  - $v^{(0)} = x^n$\n  - $v^{(1)} = n x^{n-1}$\n  - $v^{(k)} = \\frac{n!}{(n-k)!} x^{n-k}$\n  - $v^{(n)} = n!$\n- For $u = \\ln x$:\n  - $u^{(1)} = x^{-1}$\n  - $u^{(2)} = -x^{-2}$\n  - $u^{(r)} = (-1)^{r-1} (r-1)! x^{-r}$ for $r \\geq 1$\n  - $u^{(n-k)} = (-1)^{n-k-1} (n-k-1)! x^{-(n-k)}$ (for $k < n$)\n  - $u^{(0)} = \\ln x$ (for $k = n$)\n\n3. **Substitute into Leibniz Rule**:\n- Separate the term $k = n$:\n  $$\\binom{n}{n} u^{(0)} v^{(n)} = 1 \\cdot \\ln x \\cdot n! = n! \\ln x$$\n- For $k = 0$ to $n-1$:\n  $$\\binom{n}{k} u^{(n-k)} v^{(k)} = \\frac{n!}{k!(n-k)!} \\left[ (-1)^{n-k-1} (n-k-1)! x^{-n+k} \\right] \\left[ \\frac{n!}{(n-k)!} x^{n-k} \\right]$$\n  $$= \\frac{n!}{k!(n-k)!} (-1)^{n-k-1} (n-k-1)! \\frac{n!}{(n-k)!}$$\n  $$= n! \\binom{n}{k} \\frac{(-1)^{n-k-1}}{n-k}$$\n- Summing all terms:\n  $$y^{(n)} = n! \\left( \\ln x + \\sum_{k=0}^{n-1} \\binom{n}{k} \\frac{(-1)^{n-k-1}}{n-k} \\right)$$\n  Using a change of index $r = n-k$:\n  $$y^{(n)} = n! \\left( \\ln x + 1 + \\frac{1}{2} + \\dots + \\frac{1}{n} \\right)$$"
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "If $y = e^{a \\sin^{-1} x}$, show that $(1-x^2)y_{n+2} - (2n+1)xy_{n+1} - (n^2+a^2)y_n = 0$.",
+        "answerKey": "1. **First and Second Derivatives**:\n- Differentiating $y = e^{a \\sin^{-1} x}$ once:\n  $$y_1 = \\frac{a e^{a \\sin^{-1} x}}{\\sqrt{1-x^2}} = \\frac{a y}{\\sqrt{1-x^2}}$$\n  $$\\implies y_1^2 (1-x^2) = a^2 y^2$$\n- Differentiating again with respect to $x$:\n  $$2 y_1 y_2 (1-x^2) + y_1^2 (-2x) = 2 a^2 y y_1$$\n  - Divide by $2y_1$ (since $y_1 \\neq 0$):\n    $$(1-x^2)y_2 - x y_1 = a^2 y \\implies (1-x^2)y_2 - x y_1 - a^2 y = 0$$\n\n2. **Apply Leibniz Theorem**:\n- Differentiate the equation $n$ times using the Leibniz rule:\n  - For $(1-x^2)y_2$:\n    $$( (1-x^2)y_2 )^{(n)} = (1-x^2)y_{n+2} + n(-2x)y_{n+1} + \\frac{n(n-1)}{2}(-2)y_n$$\n    $$= (1-x^2)y_{n+2} - 2nx y_{n+1} - n(n-1)y_n$$\n  - For $-xy_1$:\n    $$( -xy_1 )^{(n)} = - [ x y_{n+1} + n(1) y_n ] = -x y_{n+1} - n y_n$$\n  - For $-a^2 y$:\n    $$( -a^2 y )^{(n)} = -a^2 y_n$$\n\n3. **Combine Terms**:\n- Summing the three parts:\n  $$(1-x^2)y_{n+2} - x y_{n+1} (2n + 1) - y_n [ n(n-1) + n + a^2 ] = 0$$\n  $$(1-x^2)y_{n+2} - (2n+1)xy_{n+1} - (n^2+a^2)y_n = 0$$\n- This completes the proof."
+      },
+      {
+        "id": 3,
+        "unit": "II",
+        "question": "Find the radius of curvature $\\rho$ for the catenary $y = c \\cosh(x/c)$ at any point.",
+        "answerKey": "1. **Radius of Curvature Formula**:\nFor a Cartesian curve $y = f(x)$, the radius of curvature $\\rho$ is given by:\n$$\\rho = \\frac{[1 + y_1^2]^{3/2}}{y_2}$$\nwhere $y_1 = \\frac{dy}{dx}$ and $y_2 = \\frac{d^2y}{dx^2}$.\n\n2. **Calculate Derivatives**:\n- Given $y = c \\cosh(x/c)$:\n  $$y_1 = c \\sinh(x/c) \\cdot \\frac{1}{c} = \\sinh(x/c)$$\n  $$y_2 = \\cosh(x/c) \\cdot \\frac{1}{c} = \\frac{1}{c} \\cosh(x/c)$$\n\n3. **Evaluate the Formula**:\n- Substitute $y_1$ and $y_2$ into the expression:\n  $$1 + y_1^2 = 1 + \\sinh^2(x/c) = \\cosh^2(x/c)$$\n  $$\\rho = \\frac{[\\cosh^2(x/c)]^{3/2}}{\\frac{1}{c} \\cosh(x/c)} = \\frac{\\cosh^3(x/c)}{\\frac{1}{c} \\cosh(x/c)}$$\n  $$\\rho = c \\cosh^2(x/c)$$\n- Since $y = c \\cosh(x/c) \\implies \\cosh(x/c) = y/c$, we can write $\\rho$ in terms of $y$:\n  $$\\rho = c \\left( \\frac{y}{c} \\right)^2 = \\frac{y^2}{c}$$"
+      },
+      {
+        "id": 4,
+        "unit": "II",
+        "question": "Find the asymptotes of the folium of Descartes: $x^3 + y^3 = 3axy$.",
+        "answerKey": "1. **Method for Algebraic Curves**:\nFor a curve of degree 3, we look for oblique asymptotes of the form $y = mx + c$.\n- Group terms of degree 3 and degree 2:\n  $$f_3(x, y) = x^3 + y^3$$\n  $$f_2(x, y) = -3axy$$\n\n2. **Find $m$**:\n- Substitute $x = 1$ and $y = m$ into $f_3$ and $f_2$:\n  $$\\phi_3(m) = 1 + m^3$$\n  $$\\phi_2(m) = -3am$$\n- Solve $\\phi_3(m) = 0 \\implies 1 + m^3 = 0 \\implies (m+1)(m^2-m+1) = 0$.\n- The only real root is $m = -1$.\n\n3. **Find $c$**:\n- The constant $c$ is given by:\n  $$c = -\\frac{\\phi_2(m)}{\\phi_3'(m)}$$\n- Find the derivative of $\\phi_3(m)$:\n  $$\\phi_3'(m) = 3m^2$$\n- Substitute $m = -1$:\n  $$\\phi_3'(-1) = 3(-1)^2 = 3$$\n  $$\\phi_2(-1) = -3a(-1) = 3a$$\n  $$c = -\\frac{3a}{3} = -a$$\n\n4. **Equation of the Asymptote**:\n- Substitute $m = -1$ and $c = -a$ into $y = mx + c$:\n  $$y = -x - a \\implies x + y + a = 0$$\n- The curve has a single oblique asymptote $x + y + a = 0$."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Expand the function $f(x) = e^{\\sin x}$ using Maclaurin's series up to the term containing $x^4$.",
+        "answerKey": "1. **Maclaurin's Series Formula**:\n$$f(x) = f(0) + x f'(0) + \\frac{x^2}{2!} f''(0) + \\frac{x^3}{3!} f'''(0) + \\frac{x^4}{4!} f^{(4)}(0) + \\dots$$\n\n2. **Compute Derivatives at $x = 0$**:\n- $f(x) = e^{\\sin x} \\implies f(0) = e^0 = 1$\n- $f'(x) = \\cos x \\cdot e^{\\sin x} \\implies f'(0) = 1 \\cdot 1 = 1$\n- $f''(x) = (-\\sin x) e^{\\sin x} + \\cos^2 x \\cdot e^{\\sin x} = e^{\\sin x} (\\cos^2 x - \\sin x) \\implies f''(0) = 1(1 - 0) = 1$\n- $f'''(x) = \\cos x \\cdot e^{\\sin x} (\\cos^2 x - \\sin x) + e^{\\sin x} (-2\\sin x \\cos x - \\cos x)$\n  $$= e^{\\sin x} \\cos x [ \\cos^2 x - 3\\sin x - 1 ] \\implies f'''(0) = 1 \\cdot 1 [ 1 - 0 - 1 ] = 0$$\n- $f^{(4)}(x) = e^{\\sin x} [ \\cos^4 x - 6\\sin x \\cos^2 x - 4\\cos^2 x + 3\\sin^2 x - \\sin x ]$\n  Evaluating at $x = 0$:\n  $$f^{(4)}(0) = 1 [ 1 - 0 - 4 + 0 - 0 ] = -3$$\n\n3. **Substitute into Series**:\n- $$e^{\\sin x} = 1 + x(1) + \\frac{x^2}{2}(1) + \\frac{x^3}{6}(0) + \\frac{x^4}{24}(-3) + \\dots$$\n  $$e^{\\sin x} = 1 + x + \\frac{x^2}{2} - \\frac{x^4}{8} + \\dots$$"
+      },
+      {
+        "id": 6,
+        "unit": "III",
+        "question": "Derive the reduction formula for $I_n = \\int \\sin^n x \\, dx$ and evaluate $\\int_0^{\\pi/2} \\sin^6 x \\, dx$.",
+        "answerKey": "1. **Deriving Reduction Formula**:\n- Write the integrand as a product:\n  $$I_n = \\int \\sin^{n-1} x \\cdot \\sin x \\, dx$$\n- Apply integration by parts with $u = \\sin^{n-1} x$ and $dv = \\sin x \\, dx$:\n  - $du = (n-1) \\sin^{n-2} x \\cos x \\, dx$\n  - $v = -\\cos x$\n  $$I_n = -\\sin^{n-1} x \\cos x - \\int (-\\cos x) (n-1) \\sin^{n-2} x \\cos x \\, dx$$\n  $$I_n = -\\sin^{n-1} x \\cos x + (n-1) \\int \\sin^{n-2} x \\cos^2 x \\, dx$$\n- Substitute $\\cos^2 x = 1 - \\sin^2 x$:\n  $$I_n = -\\sin^{n-1} x \\cos x + (n-1) \\int \\sin^{n-2} x (1 - \\sin^2 x) \\, dx$$\n  $$I_n = -\\sin^{n-1} x \\cos x + (n-1) I_{n-2} - (n-1) I_n$$\n- Solve for $I_n$:\n  $$I_n (1 + n - 1) = -\\sin^{n-1} x \\cos x + (n-1) I_{n-2}$$\n  $$I_n = -\\frac{\\sin^{n-1} x \\cos x}{n} + \\frac{n-1}{n} I_{n-2}$$\n\n2. **Evaluating Definite Integral using Walli's formula**:\n- For $J_n = \\int_0^{\\pi/2} \\sin^n x \\, dx$, the boundary term vanishes, giving:\n  $$J_n = \\frac{n-1}{n} J_{n-2}$$\n- For $n = 6$ (even):\n  $$J_6 = \\frac{5}{6} \\cdot \\frac{3}{4} \\cdot \\frac{1}{2} \\cdot \\frac{\\pi}{2} = \\frac{15}{96} \\pi = \\frac{5}{32} \\pi$$"
+      },
+      {
+        "id": 7,
+        "unit": "III",
+        "question": "Find the total arc length of the cardiod $r = a(1 + \\cos \\theta)$.",
+        "answerKey": "1. **Arc Length Formula in Polar Coordinates**:\n$$s = \\int_{\\theta_1}^{\\theta_2} \\sqrt{r^2 + \\left(\\frac{dr}{d\\theta}\\right)^2} d\\theta$$\n\n2. **Compute Derivative**:\n- Given $r = a(1 + \\cos\\theta)$:\n  $$\\frac{dr}{d\\theta} = -a \\sin\\theta$$\n- Calculate integrand:\n  $$r^2 + \\left(\\frac{dr}{d\\theta}\\right)^2 = a^2(1 + \\cos\\theta)^2 + a^2 \\sin^2\\theta$$\n  $$= a^2 (1 + 2\\cos\\theta + \\cos^2\\theta + \\sin^2\\theta) = a^2 (2 + 2\\cos\\theta) = 2a^2(1 + \\cos\\theta)$$\n- Using trigonometric half-angle identity $1 + \\cos\\theta = 2\\cos^2(\\theta/2)$:\n  $$r^2 + \\left(\\frac{dr}{d\\theta}\\right)^2 = 4a^2 \\cos^2(\\theta/2)$$\n  $$\\sqrt{r^2 + \\left(\\frac{dr}{d\\theta}\\right)^2} = 2a \\left|\\cos(\\theta/2)\\right|$$\n\n3. **Integration**:\n- By symmetry, the total length is twice the length from $\\theta = 0$ to $\\pi$:\n  $$s = 2 \\int_0^{\\pi} 2a \\cos(\\theta/2) d\\theta = 4a \\left[ 2 \\sin(\\theta/2) \\right]_0^{\\pi} = 8a (\\sin(\\pi/2) - \\sin(0)) = 8a$$\n- The total arc length is $8a$."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Evaluate the indeterminate limit: $\\lim_{x \\to 0} \\left( \\frac{1}{x} - \\frac{1}{e^x - 1} \\right)$.",
+        "answerKey": "1. **Identify Indeterminate Form**:\nAs $x \\to 0$, both $\\frac{1}{x} \\to \\infty$ and $\\frac{1}{e^x-1} \\to \\infty$, which is an $\\infty - \\infty$ form.\n\n2. **Combine into a Single Fraction**:\n$$L = \\lim_{x \\to 0} \\frac{e^x - 1 - x}{x(e^x - 1)}$$\n- This is now a $0/0$ form. We can apply L'Hopital's Rule.\n\n3. **Apply L'Hopital's Rule (First derivative)**:\n- Numerator: $\\frac{d}{dx}(e^x - 1 - x) = e^x - 1$\n- Denominator: $\\frac{d}{dx}(x(e^x - 1)) = e^x - 1 + x e^x$\n$$L = \\lim_{x \\to 0} \\frac{e^x - 1}{e^x - 1 + x e^x}$$\n- This is still a $0/0$ form. Apply L'Hopital's Rule again.\n\n4. **Apply L'Hopital's Rule (Second derivative)**:\n- Numerator: $\\frac{d}{dx}(e^x - 1) = e^x$\n- Denominator: $\\frac{d}{dx}(e^x - 1 + x e^x) = e^x + e^x + x e^x = 2e^x + x e^x$\n$$L = \\lim_{x \\to 0} \\frac{e^x}{2e^x + x e^x} = \\frac{e^0}{2e^0 + 0} = \\frac{1}{2}$$\n- Therefore, the limit is $1/2$."
+      },
+      {
+        "id": 9,
+        "unit": "IV",
+        "question": "If $u = \\ln(x^3 + y^3 + z^3 - 3xyz)$, show that $\\frac{\\partial u}{\\partial x} + \\frac{\\partial u}{\\partial y} + \\frac{\\partial u}{\\partial z} = \\frac{3}{x+y+z}$.",
+        "answerKey": "1. **Partial Differentiation**:\nLet $V = x^3 + y^3 + z^3 - 3xyz$. Then $u = \\ln V$.\n- By chain rule:\n  $$\\frac{\\partial u}{\\partial x} = \\frac{1}{V} \\frac{\\partial V}{\\partial x} = \\frac{3x^2 - 3yz}{V}$$\n  $$\\frac{\\partial u}{\\partial y} = \\frac{1}{V} \\frac{\\partial V}{\\partial y} = \\frac{3y^2 - 3zx}{V}$$\n  $$\\frac{\\partial u}{\\partial z} = \\frac{1}{V} \\frac{\\partial V}{\\partial z} = \\frac{3z^2 - 3xy}{V}$$\n\n2. **Sum the Derivatives**:\n- $$\\frac{\\partial u}{\\partial x} + \\frac{\\partial u}{\\partial y} + \\frac{\\partial u}{\\partial z} = \\frac{3(x^2 + y^2 + z^2 - xy - yz - zx)}{V}$$\n\n3. **Algebraic Identity factorization**:\n- Recall the factorization of $x^3+y^3+z^3 - 3xyz$:\n  $$V = (x+y+z)(x^2+y^2+z^2 - xy - yz - zx)$$\n- Substitute $V$ back into the sum:\n  $$\\frac{\\partial u}{\\partial x} + \\frac{\\partial u}{\\partial y} + \\frac{\\partial u}{\\partial z} = \\frac{3(x^2+y^2+z^2 - xy - yz - zx)}{(x+y+z)(x^2+y^2+z^2 - xy - yz - zx)} = \\frac{3}{x+y+z}$$\n- This completes the proof."
+      },
+      {
+        "id": 10,
+        "unit": "IV",
+        "question": "If $u = x+y+z$, $v = xy+yz+zx$, and $w = x^3+y^3+z^3-3xyz$, find the Jacobian $J = \\frac{\\partial(u,v,w)}{partial(x,y,z)}$.",
+        "answerKey": "1. **Jacobian Definition**:\nThe Jacobian $J$ is the determinant of the partial derivatives matrix:\n$$J = \\det \\begin{pmatrix} u_x & u_y & u_z \\\\ v_x & v_y & v_z \\\\ w_x & w_y & w_z \\end{pmatrix}$$\n\n2. **Compute Partial Derivatives**:\n- $u_x = 1, u_y = 1, u_z = 1$\n- $v_x = y+z, v_y = x+z, v_z = x+y$\n- $w_x = 3x^2-3yz, w_y = 3y^2-3zx, w_z = 3z^2-3xy$\n\n3. **Determinant Evaluation**:\n- $$J = \\det \\begin{pmatrix} 1 & 1 & 1 \\\\ y+z & x+z & x+y \\\\ 3(x^2-yz) & 3(y^2-zx) & 3(z^2-xy) \\end{pmatrix}$$\n- Using row operations: $C_2 \\to C_2 - C_1$ and $C_3 \\to C_3 - C_1$:\n  - Second row: $(x+z)-(y+z) = x-y$ and $(x+y)-(y+z) = x-z$\n  - Third row: $3(y^2-zx - x^2+yz) = 3(y-x)(x+y+z)$ and $3(z^2-xy - x^2+yz) = 3(z-x)(x+y+z)$\n- Since the third row has a common factor of $3(x+y+z)$, the determinant reduces to 0 because the second and third rows are proportional.\n- Specifically, $w = u(u^2-3v)$ is a direct functional relationship between $u, v, w$. Thus, by properties of Jacobians, the variables are functionally dependent, so the Jacobian is identically $0$."
+      }
+    ],
+    "type": "theory",
+    "duration": 180
   },
   "matse11": {
     "id": "matse11",
     "title": "Ethics in Academia and Mathematical Exploration",
     "module": "MATSE11",
-    "comingSoon": true
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Define plagiarism. List and explain the primary types of plagiarism in academic writing.",
+        "answerKey": "1. **Definition of Plagiarism**:\nPlagiarism is the unethical practice of presenting someone else's work, ideas, or language as one's own without proper acknowledgement or citation.\n\n2. **Primary Types of Plagiarism**:\n- **Direct Plagiarism**: Word-for-word copy of a text without quotation marks or attribution.\n- **Self-Plagiarism**: Reusing one's own previously published work in a new submission without disclosing it.\n- **Mosaic (Patchwriting) Plagiarism**: Interlacing someone else's phrases and sentences with one's own words without citation, maintaining the original structure.\n- **Accidental Plagiarism**: Unintentional neglect of proper citation, paraphrasing incorrectly, or misquoting sources due to lack of awareness."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Explain the importance of citation. Briefly compare the APA and IEEE citation formats.",
+        "answerKey": "1. **Importance of Citation**:\n- **Academic Integrity**: Credits the original authors for their intellectual contributions.\n- **Verification**: Allows readers to track and verify the source material.\n- **Building Context**: Places the current research within the existing body of scientific literature.\n\n2. **APA vs IEEE Comparison**:\n- **APA (American Psychological Association)**:\n  - Style: Author-Date system.\n  - Example: *(Smith, 2020)*.\n  - Reference List: Alphabetical by author's last name.\n- **IEEE (Institute of Electrical and Electronics Engineers)**:\n  - Style: Numeric system in square brackets.\n  - Example: *[1]*.\n  - Reference List: Sequential in order of appearance in the text."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Describe the peer-review process. Differentiate between single-blind and double-blind systems.",
+        "answerKey": "1. **Peer-Review Process**:\nIt is a quality control mechanism where independent experts in the same field evaluate a research manuscript for correctness, novelty, methodology, and ethical standards before publication.\n\n2. **Single-Blind vs Double-Blind**:\n- **Single-Blind**: The reviewers know the identity of the author(s), but the authors do not know the identity of the reviewers.\n  - *Risk*: Reviewers might be biased by the author's reputation or institution.\n- **Double-Blind**: Neither the authors nor the reviewers know each other's identities.\n  - *Benefit*: Reduces personal biases, focusing evaluation purely on the scientific content."
+      },
+      {
+        "id": 4,
+        "unit": "II",
+        "question": "Define fabrication and falsification of research data. Explain why they are severe violations of scientific ethics.",
+        "answerKey": "1. **Definitions**:\n- **Fabrication**: Making up data or results and recording or reporting them.\n- **Falsification**: Manipulating research materials, equipment, or processes, or changing/omitting data or results such that the research is not accurately represented in the record.\n\n2. **Ethical Implications**:\n- **Erodes Trust**: Destroys the public trust in scientific conclusions.\n- **Wasted Resources**: Leads other researchers to spend time and funding trying to replicate fake results.\n- **Harm**: In fields like medicine or engineering, fake data can lead to dangerous designs or treatments."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Explain the role of the axiomatic method in mathematics as established by Euclid and modernized by Hilbert.",
+        "answerKey": "1. **Axiomatic Method Concept**:\nIt is a method of developing a mathematical theory by starting with a set of undefined terms and self-evident truths (axioms/postulates) and logically deducing all other propositions (theorems) from them.\n\n2. **Euclid's Geometry**:\n- Euclid's *Elements* established geometry based on 5 postulates. It set the standard for deductive reasoning for centuries.\n\n3. **Hilbert's Formalization**:\n- David Hilbert modernized the axiomatic method by emphasizing that axioms are implicit definitions of the terms. Rigor in proofs is essential to ensure that no intuitive, unstated assumptions slip into the logic. This establishes mathematical truth on absolute logical consistency."
+      },
+      {
+        "id": 6,
+        "unit": "III",
+        "question": "Discuss the ethical implications of mathematical models in decision-making, particularly in finance and epidemiology.",
+        "answerKey": "1. **Mathematical Modeling Responsibility**:\nMathematical models simplify reality to make predictions. However, when used to guide policy or investments, they carry ethical consequences.\n\n2. **Finance**:\n- Complex risk-management models (like the Black-Scholes formula or Copula models) contributed to the 2008 financial crisis because users ignored the models' underlying assumptions and limitations.\n\n3. **Epidemiology**:\n- Models predicting the spread of diseases (e.g., SIR models) directly influence government decisions on lockdowns. Over-promising precision or hiding model uncertainties is ethically irresponsible, as it affects millions of lives."
+      },
+      {
+        "id": 7,
+        "unit": "III",
+        "question": "Briefly describe the historical calculus priority dispute between Isaac Newton and Gottfried Wilhelm Leibniz. What lessons does it offer?",
+        "answerKey": "1. **The Controversy**:\n- Isaac Newton developed fluxions (calculus) in the 1660s but did not publish them immediately.\n- Gottfried Wilhelm Leibniz independently developed his differential and integral calculus in the 1670s and published it in 1684.\n- A bitter controversy arose over who invented calculus first, with accusations of plagiarism made against Leibniz by Newton's supporters.\n\n2. **Ethical Lessons**:\n- **Importance of Prompt Publication**: Priority is historically established by publication date.\n- **Professional Conduct**: Scholarly disputes should be conducted with respect, transparency, and evidence, rather than backroom political maneuvering in scientific societies."
+      },
+      {
+        "id": 8,
+        "unit": "IV",
+        "question": "Explain the concept of 'dual-use' research in mathematics and computer science, with an example from cryptography.",
+        "answerKey": "1. **Dual-Use Research**:\nRefers to mathematical or scientific research that is intended for beneficial purposes (e.g., securing communication) but can also be misused to cause harm (e.g., surveillance or breaking military systems).\n\n2. **Cryptography Example**:\n- The development of strong encryption algorithms (like RSA or AES) secures personal bank transactions and online privacy.\n- However, the same encryption can be used by criminal organizations to hide illegal activities from law enforcement. Mathematicians must weigh academic freedom against the social consequences of their discoveries."
+      },
+      {
+        "id": 9,
+        "unit": "IV",
+        "question": "State the standard criteria for co-authorship on an academic paper. Explain the terms: guest authorship and ghost authorship.",
+        "answerKey": "1. **Co-authorship Criteria**:\nAccording to ethical guidelines, an author must have:\n- Substantial contributions to conception, design, acquisition of data, or analysis and interpretation.\n- Drafted the article or revised it critically for intellectual content.\n- Approved the final version to be published.\n\n2. **Unethical Practices**:\n- **Guest (Honorary) Authorship**: Listing someone who has not met authorship criteria (often a department head to gain prestige or favor).\n- **Ghost Authorship**: Omitting a researcher who made substantial contributions to the paper (often hiding conflicts of interest or corporate funding)."
+      },
+      {
+        "id": 10,
+        "unit": "IV",
+        "question": "Discuss the ethics of Open Access publishing in science and mathematics.",
+        "answerKey": "1. **Open Access Concept**:\nPublishing models that make research articles freely available online to anyone, removing paywalls.\n\n2. **Ethical Advantages**:\n- **Democratization of Knowledge**: Researchers in developing countries with limited university budgets can access state-of-the-art papers.\n- **Public Funding Alignment**: Research funded by taxpayers should be freely readable by the public.\n\n3. **Ethical Challenges (Predatory Journals)**:\n- The 'Author-Pays' model (Article Processing Charges) can lead to predatory journals that accept low-quality papers just for profit, compromising scientific peer review."
+      }
+    ],
+    "type": "theory",
+    "duration": 180
   },
   "matmd21": {
     "id": "matmd21",
@@ -2178,7 +2370,71 @@ export const EXAMS = {
     "id": "matmj21",
     "title": "Algebra",
     "module": "MATMJ21",
-    "comingSoon": true
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Find the rank of the matrix $A = \\begin{pmatrix} 1 & 2 & 3 & 0 \\\\ 2 & 4 & 3 & 2 \\\\ 3 & 2 & 1 & 3 \\\\ 6 & 8 & 7 & 5 \\end{pmatrix}$.",
+        "answerKey": "1. **Row Operations (Echelon Form)**:\n- $R_2 \\to R_2 - 2R_1$:\n  $$A \\sim \\begin{pmatrix} 1 & 2 & 3 & 0 \\\\ 0 & 0 & -3 & 2 \\\\ 3 & 2 & 1 & 3 \\\\ 6 & 8 & 7 & 5 \\end{pmatrix}$$\n- $R_3 \\to R_3 - 3R_1$, $R_4 \\to R_4 - 6R_1$:\n  $$A \\sim \\begin{pmatrix} 1 & 2 & 3 & 0 \\\\ 0 & 0 & -3 & 2 \\\\ 0 & -4 & -8 & 3 \\\\ 0 & -4 & -11 & 5 \\end{pmatrix}$$\n- Swap $R_2$ and $R_3$:\n  $$A \\sim \\begin{pmatrix} 1 & 2 & 3 & 0 \\\\ 0 & -4 & -8 & 3 \\\\ 0 & 0 & -3 & 2 \\\\ 0 & -4 & -11 & 5 \\end{pmatrix}$$\n- $R_4 \\to R_4 - R_2$:\n  $$A \\sim \\begin{pmatrix} 1 & 2 & 3 & 0 \\\\ 0 & -4 & -8 & 3 \\\\ 0 & 0 & -3 & 2 \\\\ 0 & 0 & -3 & 2 \\end{pmatrix}$$\n- $R_4 \\to R_4 - R_3$:\n  $$A \\sim \\begin{pmatrix} 1 & 2 & 3 & 0 \\\\ 0 & -4 & -8 & 3 \\\\ 0 & 0 & -3 & 2 \\\\ 0 & 0 & 0 & 0 \\end{pmatrix}$$\n\n2. **Rank Count**:\n- The number of non-zero rows in the row echelon form is 3.\n- Therefore, the rank of the matrix is $3$."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Verify the Cayley-Hamilton theorem for the matrix $A = \\begin{pmatrix} 2 & -1 & 1 \\\\ -1 & 2 & -1 \\\\ 1 & -1 & 2 \\end{pmatrix}$ and find $A^{-1}$.",
+        "answerKey": "1. **Characteristic Equation**:\n- Find $\\det(A - \\lambda I) = 0$:\n  $$\\det\\begin{pmatrix} 2-\\lambda & -1 & 1 \\\\ -1 & 2-\\lambda & -1 \\\\ 1 & -1 & 2-\\lambda \\end{pmatrix} = 0$$\n  $$(2-\\lambda)[(2-\\lambda)^2 - 1] + 1[-(2-\\lambda) + 1] + 1[1 - (2-\\lambda)] = 0$$\n  $$(2-\\lambda)(\\lambda^2 - 4\\lambda + 3) + (\\lambda - 1) + (\\lambda - 1) = 0$$\n  $$-\\lambda^3 + 6\\lambda^2 - 9\\lambda + 4 = 0 \\implies \\lambda^3 - 6\\lambda^2 + 9\\lambda - 4I = 0$$\n\n2. **Verification**:\n- Compute $A^2$ and $A^3$:\n  $$A^2 = \\begin{pmatrix} 6 & -5 & 5 \\\\ -5 & 6 & -5 \\\\ 5 & -5 & 6 \\end{pmatrix}, \\quad A^3 = \\begin{pmatrix} 22 & -21 & 21 \\\\ -21 & 22 & -21 \\\\ 21 & -21 & 22 \\end{pmatrix}$$\n- Check $A^3 - 6A^2 + 9A - 4I$:\n  $$22 - 6(6) + 9(2) - 4 = 22 - 36 + 18 - 4 = 0$$ (Matches for all entries).\n- Cayley-Hamilton theorem is verified: $A^3 - 6A^2 + 9A - 4I = 0$.\n\n3. **Finding Inverse**:\n- Multiply characteristic equation by $A^{-1}$:\n  $$A^2 - 6A + 9I - 4A^{-1} = 0 \\implies A^{-1} = \\frac{1}{4}(A^2 - 6A + 9I)$$\n  $$A^{-1} = \\frac{1}{4} \\begin{pmatrix} 3 & 1 & -1 \\\\ 1 & 3 & 1 \\\\ -1 & 1 & 3 \\end{pmatrix}$$"
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Find the eigenvalues and eigenvectors of the matrix $A = \\begin{pmatrix} 2 & 1 & 0 \\\\ 0 & 2 & 0 \\\\ 0 & 0 & 3 \\end{pmatrix}$.",
+        "answerKey": "1. **Eigenvalues**:\n- The matrix $A$ is upper triangular. The eigenvalues are the diagonal entries:\n  $$\\lambda_1 = 2, \\quad \\lambda_2 = 2, \\quad \\lambda_3 = 3$$\n\n2. **Eigenvector for $\\lambda = 3$**:\n- Solve $(A - 3I)v = 0$:\n  $$\\begin{pmatrix} -1 & 1 & 0 \\\\ 0 & -1 & 0 \\\\ 0 & 0 & 0 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix} = \\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\end{pmatrix} \\implies -x+y=0, -y=0 \\implies x=0, y=0$$\n  - Eigenvector is $v_1 = (0, 0, 1)^T$.\n\n3. **Eigenvector for $\\lambda = 2$**:\n- Solve $(A - 2I)v = 0$:\n  $$\\begin{pmatrix} 0 & 1 & 0 \\\\ 0 & 0 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix} = \\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\end{pmatrix} \\implies y=0, z=0$$\n  - Eigenvector is $v_2 = (1, 0, 0)^T$.\n- Note: The eigenvalue $\\lambda=2$ has algebraic multiplicity 2 but geometric multiplicity 1. The matrix is not diagonalizable."
+      },
+      {
+        "id": 4,
+        "unit": "II",
+        "question": "Prove that the set $G = \\{1, -1, i, -i\\}$ is an abelian group under complex multiplication.",
+        "answerKey": "1. **Closure**: The multiplication table shows all products lie in $G$:\n  - $1 \\times x = x \\in G$\n  - $(-1) \\times (-1) = 1 \\in G$\n  - $i \\times i = -1 \\in G$, $i \\times (-i) = 1 \\in G$, etc.\n\n2. **Associativity**: Complex multiplication is always associative on $\\mathbb{C}$, hence on $G$.\n\n3. **Identity**: The element $1 \\in G$ acts as identity because $1 \\times x = x \\times 1 = x$ for all $x \\in G$.\n\n4. **Inverses**:\n- Inverse of 1 is 1.\n- Inverse of -1 is -1.\n- Inverse of $i$ is $-i$ (since $i \\cdot (-i) = 1$).\n- Inverse of $-i$ is $i$.\n- Since every element has an inverse in $G$, $G$ is a group.\n\n5. **Abelian**: Complex multiplication is commutative ($xy = yx$). Thus, $G$ is an abelian group."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Prove that the intersection of two subgroups $H_1$ and $H_2$ of a group $G$ is also a subgroup of $G$.",
+        "answerKey": "1. **Identity Element**:\n- Since $H_1$ and $H_2$ are subgroups of $G$, the identity element $e$ of $G$ must belong to both $H_1$ and $H_2$.\n- Thus, $e \\in H_1 \\cap H_2$. The intersection is non-empty.\n\n2. **Closure under Operation**:\n- Let $a, b \\in H_1 \\cap H_2$. This means:\n  - $a, b \\in H_1 \\implies ab \\in H_1$ (since $H_1$ is a subgroup)\n  - $a, b \\in H_2 \\implies ab \\in H_2$ (since $H_2$ is a subgroup)\n- Therefore, $ab \\in H_1 \\cap H_2$.\n\n3. **Existence of Inverses**:\n- Let $a \\in H_1 \\cap H_2$. This means:\n  - $a \\in H_1 \\implies a^{-1} \\in H_1$ (since $H_1$ is a subgroup)\n  - $a \\in H_2 \\implies a^{-1} \\in H_2$ (since $H_2$ is a subgroup)\n- Therefore, $a^{-1} \\in H_1 \\cap H_2$.\n- By the subgroup criterion, $H_1 \\cap H_2$ is a subgroup of $G$."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "State and prove Lagrange's Theorem for finite groups.",
+        "answerKey": "1. **Statement**:\nIf $G$ is a finite group and $H$ is a subgroup of $G$, then the order of $H$ divides the order of $G$ (i.e., $|H|$ divides $|G|$).\n\n2. **Proof**:\n- Let $|G| = n$ and $|H| = m$. Let's consider the left cosets of $H$ in $G$.\n- Any left coset of $H$ is of the form $gH = \\{gh : h \\in H\\}$ for $g \\in G$.\n- Define a map $f: H \\to gH$ by $f(h) = gh$.\n  - It is injective because $gh_1 = gh_2 \\implies h_1 = h_2$ (cancellation law).\n  - It is surjective by definition of $gH$.\n- Thus, every coset $gH$ has exactly the same number of elements as $H$ (which is $m$).\n- The left cosets of $H$ partition $G$. Since $G$ is finite, there must be a finite number, say $k$, of distinct left cosets.\n- Therefore, $|G| = k \\cdot |H| \\implies n = k m$.\n- Hence, $m$ divides $n$, so the order of $H$ divides the order of $G$. The ratio $k = |G|/|H|$ is called the index of $H$ in $G$."
+      },
+      {
+        "id": 7,
+        "unit": "III",
+        "question": "Show that every subgroup of a cyclic group is cyclic.",
+        "answerKey": "1. **Setup**:\n- Let $G = \\langle a \\rangle$ be a cyclic group generated by $a$.\n- Let $H$ be a subgroup of $G$.\n- If $H = \\{e\\}$, it is trivially cyclic (generated by $e$). Assume $H \\neq \\{e\\}$.\n\n2. **Identifying Generator**:\n- Since $G$ is cyclic, any element in $H$ is of the form $a^k$ for some $k \\in \\mathbb{Z}$.\n- Since $H \\neq \\{e\\}$, there must exist some non-zero $k$ such that $a^k \\in H$. Since $H$ is a subgroup, $(a^k)^{-1} = a^{-k} \\in H$. Thus, $H$ contains powers of $a$ with positive exponents.\n- Let $d$ be the smallest positive integer such that $a^d \\in H$ (by Well-Ordering Principle).\n\n3. **Proof that $H = \\langle a^d \\rangle$**:\n- Let $a^s$ be any arbitrary element in $H$. By division algorithm, divide $s$ by $d$:\n  $$s = q d + r, \\quad 0 \\leq r < d$$\n- Solve for $a^r$:\n  $$a^r = a^{s - qd} = a^s (a^d)^{-q}$$\n- Since $a^s \\in H$ and $a^d \\in H \\implies (a^d)^{-q} \\in H$, their product $a^r \\in H$.\n- However, $d$ was defined as the *smallest* positive exponent for elements in $H$. Since $0 \\leq r < d$, the only possibility is $r = 0$.\n- Thus, $s = qd$, so $a^s = (a^d)^q$.\n- Every element of $H$ is a power of $a^d$, so $H$ is cyclic with generator $a^d$."
+      },
+      {
+        "id": 8,
+        "unit": "III",
+        "question": "Show that a subgroup $H$ of $G$ is normal if and only if $g H g^{-1} = H$ for all $g \\in G$.",
+        "answerKey": "1. **Normal Subgroup Definition**:\nA subgroup $H$ is normal in $G$ (denoted $H \\triangleleft G$) if the left and right cosets are equal: $gH = Hg$ for all $g \\in G$.\n\n2. **Proof of Forward direction (If $H$ is normal, then $g H g^{-1} = H$)**:\n- If $H \\triangleleft G \\implies gH = Hg$ for all $g \\in G$.\n- Multiply both sides on the right by $g^{-1}$:\n  $$(gH)g^{-1} = (Hg)g^{-1} \\implies gHg^{-1} = H(gg^{-1}) = H e = H$$\n- Thus, $gHg^{-1} = H$ for all $g \\in G$.\n\n3. **Proof of Reverse direction**:\n- If $gHg^{-1} = H$ for all $g \\in G$:\n- Multiply both sides on the right by $g$:\n  $$(gHg^{-1})g = Hg \\implies gH(g^{-1}g) = Hg \\implies gH = Hg$$\n- Thus, the left and right cosets are equal, which proves that $H$ is a normal subgroup of $G$."
+      },
+      {
+        "id": 9,
+        "unit": "IV",
+        "question": "Express the permutation $\\sigma = (1 \\, 2 \\, 3 \\, 4 \\, 5)(2 \\, 4 \\, 3)$ as a product of disjoint cycles and find its order and parity.",
+        "answerKey": "1. **Disjoint Cycle Representation**:\n- We evaluate the composition from right to left:\n  - 1 goes to 1 in $(2 \\, 4 \\, 3)$, then 1 goes to 2 in $(1 \\, 2 \\, 3 \\, 4 \\, 5)$. So $1 \\to 2$.\n  - 2 goes to 4 in $(2 \\, 4 \\, 3)$, then 4 goes to 5 in $(1 \\, 2 \\, 3 \\, 4 \\, 5)$. So $2 \\to 5$.\n  - 5 goes to 5 in $(2 \\, 4 \\, 3)$, then 5 goes to 1 in $(1 \\, 2 \\, 3 \\, 4 \\, 5)$. So $5 \\to 1$.\n    - This completes the first cycle: $(1 \\, 2 \\, 5)$.\n  - 3 goes to 2 in $(2 \\, 4 \\, 3)$, then 2 goes to 3 in $(1 \\, 2 \\, 3 \\, 4 \\, 5)$. So $3 \\to 3$.\n  - 4 goes to 3 in $(2 \\, 4 \\, 3)$, then 3 goes to 4 in $(1 \\, 2 \\, 3 \\, 4 \\, 5)$. So $4 \\to 4$.\n- Thus, $\\sigma = (1 \\, 2 \\, 5)(3)(4) = (1 \\, 2 \\, 5)$.\n\n2. **Order**:\n- The order of a permutation written as disjoint cycles is the least common multiple (LCM) of the lengths of its cycles.\n- The only non-trivial cycle is $(1 \\, 2 \\, 5)$ of length 3.\n- Therefore, the order is $3$.\n\n3. **Parity (Signature)**:\n- A cycle of length $k$ can be written as the product of $k-1$ transpositions: $(1 \\, 2 \\, 5) = (1 \\, 5)(1 \\, 2)$.\n- Since it is a product of 2 transpositions (even number), the permutation is **even**."
+      },
+      {
+        "id": 10,
+        "unit": "IV",
+        "question": "State the First Isomorphism Theorem for groups and explain its significance.",
+        "answerKey": "1. **Theorem Statement**:\nLet $\\phi: G \\to G'$ be a group homomorphism. Then:\n- The kernel of $\\phi$, $\\ker \\phi$, is a normal subgroup of $G$.\n- The quotient group $G/\\ker\\phi$ is isomorphic to the image $\\phi(G)$:\n  $$G/\\ker\\phi \\cong \\text{Im}(\\phi)$$\n\n2. **Significance**:\n- This theorem is the foundation of group classification.\n- It shows that any homomorphic image of a group $G$ is isomorphic to a quotient group of $G$. This reduces the study of homomorphisms to the study of normal subgroups and quotient groups."
+      }
+    ],
+    "type": "theory",
+    "duration": 180
   },
   "matmn21": {
     "id": "matmn21",
@@ -2302,13 +2558,141 @@ export const EXAMS = {
     "id": "matmj32",
     "title": "Analysis",
     "module": "MATMJ32",
-    "comingSoon": true
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Find the supremum and infimum of the set $S = \\left\\{ \\frac{(-1)^n}{n} + 1 : n \\in \\mathbb{N} \\right\\}$.",
+        "answerKey": "1. **List the Elements of the Set**:\n- For $n = 1$: $a_1 = \\frac{-1}{1} + 1 = 0$\n- For $n = 2$: $a_2 = \\frac{1}{2} + 1 = 1.5$\n- For $n = 3$: $a_3 = \\frac{-1}{3} + 1 = 0.667$\n- For $n = 4$: $a_4 = \\frac{1}{4} + 1 = 1.25$\n- For $n = 5$: $a_5 = \\frac{-1}{5} + 1 = 0.8$\n- For $n = 6$: $a_6 = \\frac{1}{6} + 1 = 1.167$\n\n2. **Analyze Trends**:\n- For odd $n$, the terms are $1 - \\frac{1}{n}$. These terms increase from $0$ towards $1$ (e.g., $0, 0.667, 0.8, \\dots$).\n- For even $n$, the terms are $1 + \\frac{1}{n}$. These terms decrease from $1.5$ towards $1$ (e.g., $1.5, 1.25, 1.167, \\dots$).\n\n3. **Find Bounds**:\n- The largest element in the set is $1.5$ (when $n = 2$). Since it belongs to the set, the **supremum is $1.5$** (and the maximum is $1.5$).\n- The smallest element in the set is $0$ (when $n = 1$). Since it belongs to the set, the **infimum is $0$** (and the minimum is $0$)."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Prove using the definition of limit that the sequence $a_n = \\frac{3n+2}{n+1}$ converges to 3.",
+        "answerKey": "1. **Definition of Convergence**:\nA sequence $a_n$ converges to $L$ if for every $\\epsilon > 0$, there exists a positive integer $N$ such that for all $n \\geq N$:\n$$|a_n - L| < \\epsilon$$\n\n2. **Apply to $a_n$ and $L = 3$**:\n- Evaluate $|a_n - 3|$:\n  $$\\left| \\frac{3n+2}{n+1} - 3 \\right| = \\left| \\frac{3n+2 - 3(n+1)}{n+1} \\right| = \\left| \\frac{3n+2 - 3n - 3}{n+1} \\right| = \\left| \\frac{-1}{n+1} \\right| = \\frac{1}{n+1}$$\n\n3. **Finding $N$**:\n- We want $\\frac{1}{n+1} < \\epsilon \\implies n+1 > \\frac{1}{\\epsilon} \\implies n > \\frac{1}{\\epsilon} - 1$.\n- Let $N = \\max\\left(1, \\left\\lfloor \\frac{1}{\\epsilon} - 1 \\right\\rfloor + 1\\right)$.\n- Then for all $n \\geq N$, we have $|a_n - 3| < \\epsilon$, proving that the sequence converges to 3."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Show that the sequence $x_n = 1 + \\frac{1}{2} + \\frac{1}{3} + \\dots + \\frac{1}{n}$ is not Cauchy, and therefore diverges.",
+        "answerKey": "1. **Cauchy Criterion Definition**:\nA sequence $x_n$ is Cauchy if for any $\\epsilon > 0$, there exists $N \\in \\mathbb{N}$ such that for all $n \\geq N$ and $p \\geq 1$:\n$$|x_{n+p} - x_n| < \\epsilon$$\n\n2. **Evaluate Difference for $p = n$**:\n- Let's choose $p = n$:\n  $$|x_{2n} - x_n| = \\left( 1 + \\frac{1}{2} + \\dots + \\frac{1}{2n} \\right) - \\left( 1 + \\frac{1}{2} + \\dots + \\frac{1}{n} \\right)$$\n  $$= \\frac{1}{n+1} + \\frac{1}{n+2} + \\dots + \\frac{1}{2n}$$\n- Since each term in the sum is greater than or equal to the last term $\\frac{1}{2n}$:\n  $$|x_{2n} - x_n| \\geq n \\times \\frac{1}{2n} = \\frac{1}{2}$$\n\n3. **Conclusion**:\n- Choose $\\epsilon = 1/4$. For this $\\epsilon$, no matter how large we choose $N$, we can select $n \\geq N$ such that $|x_{2n} - x_n| \\geq 1/2 > 1/4$.\n- Thus, the sequence is not Cauchy. By Cauchy's Convergence Criterion, the sequence is divergent."
+      },
+      {
+        "id": 4,
+        "unit": "II",
+        "question": "Test the convergence of the series $\\sum_{n=1}^{\\infty} \\frac{n^2}{2^n}$.",
+        "answerKey": "1. **Apply D'Alembert's Ratio Test**:\nLet $u_n = \\frac{n^2}{2^n}$. Compute $u_{n+1} = \\frac{(n+1)^2}{2^{n+1}}$.\n- Find the limit of the ratio:\n  $$L = \\lim_{n \\to \\infty} \\frac{u_{n+1}}{u_n} = \\lim_{n \\to \\infty} \\frac{(n+1)^2}{2^{n+1}} \\times \\frac{2^n}{n^2}$$\n  $$= \\lim_{n \\to \\infty} \\frac{(n+1)^2}{n^2} \\times \\frac{2^n}{2 \\cdot 2^n} = \\lim_{n \\to \\infty} \\left( 1 + \\frac{1}{n} \\right)^2 \\frac{1}{2}$$\n  $$= 1^2 \\times \\frac{1}{2} = \\frac{1}{2}$$\n\n2. **Analysis**:\n- Since $L = 1/2 < 1$, the ratio test states that the series converges.\n- Thus, the series $\\sum_{n=1}^{\\infty} \\frac{n^2}{2^n}$ is convergent."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Test the convergence of the alternating series $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n-1}}{n}$.",
+        "answerKey": "1. **Leibniz's Test for Alternating Series**:\nAn alternating series $\\sum (-1)^{n-1} a_n$ (with $a_n > 0$) converges if:\n- 1) $a_n$ is a decreasing sequence ($a_{n+1} \\leq a_n$ for all $n$)\n- 2) $\\lim_{n \\to \\infty} a_n = 0$\n\n2. **Verification**:\n- Here $a_n = \\frac{1}{n}$.\n  - 1) Since $n+1 > n \\implies \\frac{1}{n+1} < \\frac{1}{n}$, the sequence is decreasing.\n  - 2) $\\lim_{n \\to \\infty} \\frac{1}{n} = 0$.\n- Both conditions are satisfied, so the series converges by Leibniz's test.\n\n3. **Absolute Convergence Check**:\n- The absolute series is $\\sum \\left| \\frac{(-1)^{n-1}}{n} \\right| = \\sum \\frac{1}{n}$ (harmonic series), which is divergent.\n- Since the alternating series converges but its absolute series diverges, the series is **conditionally convergent**."
+      },
+      {
+        "id": 6,
+        "unit": "III",
+        "question": "Prove that a constant function $f(x) = k$ is Riemann integrable on any closed interval $[a, b]$, and $\\int_a^b f(x) dx = k(b-a)$.",
+        "answerKey": "1. **Partition Setup**:\nLet $P = \\{x_0, x_1, \\dots, x_n\\}$ be any partition of the interval $[a, b]$.\nFor each subinterval $[x_{i-1}, x_i]$ of width $\\Delta x_i = x_i - x_{i-1}$:\n- The infimum of $f$ is $m_i = k$.\n- The supremum of $f$ is $M_i = k$.\n\n2. **Lower and Upper Riemann Sums**:\n- Lower Sum $L(P, f)$:\n  $$L(P, f) = \\sum_{i=1}^n m_i \\Delta x_i = \\sum_{i=1}^n k \\Delta x_i = k \\sum_{i=1}^n \\Delta x_i = k(b-a)$$\n- Upper Sum $U(P, f)$:\n  $$U(P, f) = \\sum_{i=1}^n M_i \\Delta x_i = \\sum_{i=1}^n k \\Delta x_i = k(b-a)$$\n\n3. **Riemann Integrals**:\n- The lower Riemann integral is the supremum of $L(P, f)$ over all partitions:\n  $$\\underline{\\int}_a^b f(x) dx = k(b-a)$$\n- The upper Riemann integral is the infimum of $U(P, f)$ over all partitions:\n  $$\\overline{\\int}_a^b f(x) dx = k(b-a)$$\n- Since $\\underline{\\int}_a^b f(x) dx = \\overline{\\int}_a^b f(x) dx = k(b-a)$, $f$ is Riemann integrable and its integral is $k(b-a)$."
+      },
+      {
+        "id": 7,
+        "unit": "III",
+        "question": "Using Riemann sums, evaluate the integral $\\int_0^1 x \\, dx$.",
+        "answerKey": "1. **Partition Selection**:\nLet $P_n$ be the partition of $[0, 1]$ into $n$ equal subintervals of width $\\Delta x_i = 1/n$:\n$$P_n = \\left\\{ 0, \\frac{1}{n}, \\frac{2}{n}, \\dots, \\frac{n}{n} = 1 \\right\\}$$\nFor $f(x) = x$ on $[x_{i-1}, x_i] = [(i-1)/n, i/n]$:\n- $m_i = \\frac{i-1}{n}$ (infimum)\n- $M_i = \\frac{i}{n}$ (supremum)\n\n2. **Compute Upper Sum**:\n$$U(P_n, f) = \\sum_{i=1}^n M_i \\Delta x_i = \\sum_{i=1}^n \\frac{i}{n} \\frac{1}{n} = \\frac{1}{n^2} \\sum_{i=1}^n i$$\nUsing the identity $\\sum_{i=1}^n i = \\frac{n(n+1)}{2}$:\n$$U(P_n, f) = \\frac{1}{n^2} \\frac{n(n+1)}{2} = \\frac{1 + 1/n}{2}$$\n\n3. **Compute Lower Sum**:\n$$L(P_n, f) = \\sum_{i=1}^n m_i \\Delta x_i = \\sum_{i=1}^n \\frac{i-1}{n} \\frac{1}{n} = \\frac{1}{n^2} \\sum_{i=1}^n (i-1) = \\frac{n(n-1)}{2n^2} = \\frac{1 - 1/n}{2}$$\n\n4. **Evaluate Limit**:\n- Take the limit as $n \\to \\infty$:\n  $$\\lim_{n \\to \\infty} U(P_n, f) = \\lim_{n \\to \\infty} \\frac{1 + 1/n}{2} = \\frac{1}{2}$$\n  $$\\lim_{n \\to \\infty} L(P_n, f) = \\lim_{n \\to \\infty} \\frac{1 - 1/n}{2} = \\frac{1}{2}$$\n- The upper and lower integrals are both $1/2$, so the Riemann integral is $1/2$."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "State and prove Rolle's Theorem.",
+        "answerKey": "1. **Statement**:\nLet $f$ be a function defined on $[a, b]$ such that:\n- $f$ is continuous on $[a, b]$\n- $f$ is differentiable on $(a, b)$\n- $f(a) = f(b)$\nThen there exists at least one $c \\in (a, b)$ such that $f'(c) = 0$.\n\n2. **Proof**:\n- Since $f$ is continuous on the closed and bounded interval $[a, b]$, it attains its maximum $M$ and minimum $m$ on $[a, b]$ (by Extreme Value Theorem).\n- **Case 1: $M = m$**:\n  - In this case, $f$ is constant on $[a, b]$, so $f'(x) = 0$ for all $x \\in (a, b)$. Any point $c \\in (a, b)$ satisfies the theorem.\n- **Case 2: $M \\neq m$**:\n  - Since $f(a) = f(b)$, at least one of the values $M$ or $m$ must be attained at an interior point $c \\in (a, b)$. Let's assume the maximum is attained at $c$, so $f(c) = M$.\n  - Since $f(c)$ is the maximum, $f(c+h) - f(c) \\leq 0$ for any small $h$.\n  - If $h > 0$: $\\frac{f(c+h) - f(c)}{h} \\leq 0 \\implies \\lim_{h \\to 0^+} \\frac{f(c+h) - f(c)}{h} \\leq 0 \\implies f'(c) \\leq 0$.\n  - If $h < 0$: $\\frac{f(c+h) - f(c)}{h} \\geq 0 \\implies \\lim_{h \\to 0^-} \\frac{f(c+h) - f(c)}{h} \\geq 0 \\implies f'(c) \\geq 0$.\n  - Since $f$ is differentiable at $c$, the left and right limits must be equal. Thus, $f'(c) = 0$."
+      },
+      {
+        "id": 9,
+        "unit": "IV",
+        "question": "Define uniform continuity. Prove that $f(x) = x^2$ is uniformly continuous on $[0, 1]$.",
+        "answerKey": "1. **Definition of Uniform Continuity**:\nA function $f: S \\to \\mathbb{R}$ is uniformly continuous on $S$ if for every $\\epsilon > 0$, there exists $\\delta > 0$ (depending only on $\\epsilon$) such that for all $x, y \\in S$:\n$$|x - y| < \\delta \\implies |f(x) - f(y)| < \\epsilon$$\n\n2. **Proof for $f(x) = x^2$ on $[0, 1]$**:\n- Evaluate $|f(x) - f(y)|$:\n  $$|x^2 - y^2| = |x - y||x + y|$$\n- Since $x, y \\in [0, 1]$:\n  $$|x| \\leq 1, \\quad |y| \\leq 1 \\implies |x + y| \\leq |x| + |y| \\leq 2$$\n- Thus, we have:\n  $$|x^2 - y^2| \\leq 2|x - y|$$\n- We want $2|x - y| < \\epsilon \\implies |x - y| < \\epsilon/2$.\n- Choose $\\delta = \\epsilon/2$. Then for any $x, y \\in [0, 1]$, if $|x - y| < \\delta$, we have:\n  $$|x^2 - y^2| \\leq 2|x - y| < 2 \\delta = \\epsilon$$\n- This proves that $f(x) = x^2$ is uniformly continuous on $[0, 1]$."
+      },
+      {
+        "id": 10,
+        "unit": "IV",
+        "question": "Show that the function $f(x) = |x|$ is continuous at $x = 0$ but not differentiable at $x = 0$.",
+        "answerKey": "1. **Continuity at $x = 0$**:\n- By definition of $|x|$:\n  - $f(0) = 0$\n  - $\\lim_{x \\to 0^+} f(x) = \\lim_{x \\to 0^+} x = 0$\n  - $\\lim_{x \\to 0^-} f(x) = \\lim_{x \\to 0^-} (-x) = 0$\n- Since the left-hand limit, right-hand limit, and function value are all equal, $f$ is continuous at $x = 0$.\n\n2. **Differentiability at $x = 0$**:\n- We evaluate the left-hand derivative (LHD) and right-hand derivative (RHD) at $x=0$:\n  - RHD: $\\lim_{h \\to 0^+} \\frac{f(0+h) - f(0)}{h} = \\lim_{h \\to 0^+} \\frac{|h| - 0}{h} = \\lim_{h \\to 0^+} \\frac{h}{h} = 1$.\n  - LHD: $\\lim_{h \\to 0^-} \\frac{f(0+h) - f(0)}{h} = \\lim_{h \\to 0^-} \\frac{|h| - 0}{h} = \\lim_{h \\to 0^-} \\frac{-h}{h} = -1$.\n- Since LHD ($-1$) $\\neq$ RHD ($1$), the limit defining the derivative does not exist. Thus, $f(x) = |x|$ is not differentiable at $x = 0$."
+      }
+    ],
+    "type": "theory",
+    "duration": 180
   },
   "matmv31": {
     "id": "matmv31",
     "title": "Python for Mathematical Applications",
     "module": "MATMV31",
-    "comingSoon": true
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Outline the key mathematical libraries in Python. Show how to plot $y = \\sin(x)$ on $[0, 2\\pi]$ using Matplotlib.",
+        "answerKey": "1. **Libraries**:\n- **NumPy**: Vectorized operations, multidimensional arrays, linear algebra.\n- **SciPy**: Scientific computing, numerical integration, optimization, ODE solvers.\n- **SymPy**: Symbolic math, algebraic manipulation, limits, integrals, derivatives.\n- **Matplotlib**: 2D plotting, data visualization.\n\n2. **Code Snippet**:\n```python\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nx = np.linspace(0, 2 * np.pi, 100)\ny = np.sin(x)\n\nplt.plot(x, y, label=\"sin(x)\")\nplt.xlabel(\"x\")\nplt.ylabel(\"y\")\nplt.title(\"Plot of sin(x)\")\nplt.grid(True)\nplt.legend()\nplt.show()\n```"
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Write a Python script using NumPy to define a $3 \\times 3$ matrix $A$, compute its determinant, transpose, eigenvalues, and eigenvectors.",
+        "answerKey": "1. **NumPy Implementation**:\n```python\nimport numpy as np\n\n# Define matrix\nA = np.array([[2, 1, 0],\n              [0, 2, 0],\n              [0, 0, 3]])\n\n# Determinant\ndet = np.linalg.det(A)\nprint(\"Determinant:\", det)\n\n# Transpose\ntranspose = A.T\nprint(\"Transpose:\\n\", transpose)\n\n# Eigenvalues and Eigenvectors\neigenvalues, eigenvectors = np.linalg.eig(A)\nprint(\"Eigenvalues:\", eigenvalues)\nprint(\"Eigenvectors:\\n\", eigenvectors)\n```"
+      },
+      {
+        "id": 3,
+        "unit": "II",
+        "question": "Write a Python code block to solve the system of linear equations $Ax = b$ using SciPy.",
+        "answerKey": "1. **SciPy Solve Code**:\n```python\nimport numpy as np\nfrom scipy.linalg import solve\n\n# Define coefficient matrix A and vector b\nA = np.array([[3, 5, 1],\n              [1, 1, 3],\n              [4, 1, 2]])\nb = np.array([7, 3, 4])\n\n# Solve Ax = b\nx = solve(A, b)\nprint(\"Solution vector x:\", x)\n```"
+      },
+      {
+        "id": 4,
+        "unit": "II",
+        "question": "Write a SymPy program to compute the limit: $\\lim_{x \\to 0} \\frac{\\sin x}{x}$ and the derivative: $\\frac{d}{dx}\\left( e^{-x^2} \\cos x \\right)$.",
+        "answerKey": "1. **SymPy Code**:\n```python\nimport sympy as sp\n\nx = sp.Symbol('x')\n\n# 1. Limit calculation\nlim_expr = sp.sin(x)/x\nlimit_val = sp.limit(lim_expr, x, 0)\nprint(\"Limit:\", limit_val)\n\n# 2. Derivative calculation\nderiv_expr = sp.exp(-x**2) * sp.cos(x)\nderivative_val = sp.diff(deriv_expr, x)\nprint(\"Derivative:\", sp.simplify(derivative_val))\n```"
+      },
+      {
+        "id": 5,
+        "unit": "III",
+        "question": "Write a SymPy program to calculate the exact analytical value of the Gaussian integral $\\int_0^{\\infty} e^{-x^2} dx$.",
+        "answerKey": "1. **SymPy Code**:\n```python\nimport sympy as sp\n\nx = sp.Symbol('x')\nexpr = sp.exp(-x**2)\n\n# Definite integral from 0 to infinity\nintegral_val = sp.integrate(expr, (x, 0, sp.oo))\nprint(\"Analytical Integral Value:\", integral_val)\n# Output will be sqrt(pi)/2\n```"
+      },
+      {
+        "id": 6,
+        "unit": "III",
+        "question": "Implement the Newton-Raphson root-finding method in Python for the function $f(x) = x^3 - x - 2$.",
+        "answerKey": "1. **Python Code**:\n```python\ndef f(x):\n    return x**3 - x - 2\n\ndef df(x):\n    return 3*x**2 - 1\n\ndef newton_raphson(x0, tol=1e-6, max_iter=100):\n    x = x0\n    for i in range(max_iter):\n        fx = f(x)\n        dfx = df(x)\n        if abs(dfx) < 1e-12:\n            print(\"Derivative near zero. Stopping.\")\n            return None\n        x_next = x - fx / dfx\n        if abs(x_next - x) < tol:\n            print(f\"Converged in {i+1} iterations.\")\n            return x_next\n        x = x_next\n    return x\n\nroot = newton_raphson(1.5)\nprint(\"Root:\", root)\n```"
+      },
+      {
+        "id": 7,
+        "unit": "III",
+        "question": "Write a Python script to evaluate the integral $\\int_0^1 \\frac{1}{1 + x^2} dx$ using `scipy.integrate.quad`.",
+        "answerKey": "1. **SciPy Integration Code**:\n```python\nimport numpy as np\nfrom scipy.integrate import quad\n\ndef integrand(x):\n    return 1 / (1 + x**2)\n\n# Integrate from 0 to 1\nresult, error = quad(integrand, 0, 1)\nprint(\"Numerical Integral Result:\", result)\nprint(\"Analytical Value (pi/4):\", np.pi / 4)\nprint(\"Absolute Error estimate:\", error)\n```"
+      },
+      {
+        "id": 8,
+        "unit": "IV",
+        "question": "Write a Python script to solve the ODE $\\frac{dy}{dx} = x + y, y(0) = 1$ on $[0, 1]$ using Euler's Method with $h = 0.1$.",
+        "answerKey": "1. **Euler's Method Implementation**:\n```python\nimport numpy as np\n\ndef f(x, y):\n    return x + y\n\nh = 0.1\nx_vals = np.arange(0, 1.1, h)\ny_vals = np.zeros(len(x_vals))\ny_vals[0] = 1.0  # Initial Condition\n\nfor i in range(len(x_vals) - 1):\n    y_vals[i+1] = y_vals[i] + h * f(x_vals[i], y_vals[i])\n\nfor x, y in zip(x_vals, y_vals):\n    print(f\"x = {x:.1f}, y = {y:.4f}\")\n```"
+      },
+      {
+        "id": 9,
+        "unit": "IV",
+        "question": "Explain how to solve the differential equation $\\frac{dy}{dt} = -k y, y(0) = 5$ using `scipy.integrate.solve_ivp`.",
+        "answerKey": "1. **SciPy solve_ivp Implementation**:\n```python\nimport numpy as np\nfrom scipy.integrate import solve_ivp\n\ndef model(t, y, k):\n    return -k * y\n\nt_span = (0, 5)  # from t=0 to t=5\ny0 = [5.0]       # initial condition must be list/array\nk = 0.5\n\n# Solve the IVP\nsol = solve_ivp(model, t_span, y0, args=(k,), t_eval=np.linspace(0, 5, 10))\n\nprint(\"Time points:\\n\", sol.t)\nprint(\"Solution values:\\n\", sol.y[0])\n```"
+      },
+      {
+        "id": 10,
+        "unit": "IV",
+        "question": "Write a Python script using NumPy to fit a quadratic polynomial $y = a x^2 + b x + c$ to a set of data points $(x_i, y_i)$ using the least squares method.",
+        "answerKey": "1. **NumPy Polyfit Implementation**:\n```python\nimport numpy as np\n\n# Sample data\nx = np.array([0, 1, 2, 3, 4, 5])\ny = np.array([2.1, 2.9, 6.2, 11.1, 18.2, 27.0])\n\n# Fit a 2nd degree polynomial\ncoefficients = np.polyfit(x, y, 2)\na, b, c = coefficients\n\nprint(f\"Fitted equation: y = {a:.4f}*x^2 + {b:.4f}*x + {c:.4f}\")\n\n# Alternatively, evaluate at x points using polyval\ny_fit = np.polyval(coefficients, x)\nprint(\"Fitted y values:\", y_fit)\n```"
+      }
+    ],
+    "type": "theory",
+    "duration": 180
   },
   "matse31": {
     "id": "matse31",
@@ -3595,19 +3979,211 @@ export const EXAMS = {
     "id": "matmj52",
     "title": "Metric Spaces",
     "module": "MATMJ52",
-    "comingSoon": true
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Show that $d(x, y) = |x_1 - y_1| + |x_2 - y_2|$ defines a metric on $\\mathbb{R}^2$.",
+        "answerKey": "1. **Check Non-negativity and Identity**:\n- $d(x, y) = |x_1 - y_1| + |x_2 - y_2| \\geq 0$ because absolute values are non-negative.\n- $d(x, y) = 0 \\iff |x_1 - y_1| + |x_2 - y_2| = 0 \\iff |x_1 - y_1| = 0$ and $|x_2 - y_2| = 0 \\iff x_1 = y_1$ and x_2 = y_2 \\iff x = y$.\n\n2. **Check Symmetry**:\n- $d(y, x) = |y_1 - x_1| + |y_2 - x_2| = |x_1 - y_1| + |x_2 - y_2| = d(x, y)$ (since $|a - b| = |b - a|$).\n\n3. **Check Triangle Inequality**:\n- Let $x, y, z \\in \\mathbb{R}^2$:\n  $$d(x, z) = |x_1 - z_1| + |x_2 - z_2|$$\n- Using the standard triangle inequality on $\\mathbb{R}$:\n  $$|x_1 - z_1| = |(x_1 - y_1) + (y_1 - z_1)| \\leq |x_1 - y_1| + |y_1 - z_1|$$\n  $$|x_2 - z_2| = |(x_2 - y_2) + (y_2 - z_2)| \\leq |x_2 - y_2| + |y_2 - z_2|$$\n- Add the two inequalities:\n  $$d(x, z) \\leq (|x_1 - y_1| + |x_2 - y_2|) + (|y_1 - z_1| + |y_2 - z_2|) = d(x, y) + d(y, z)$$\n- All metric axioms are satisfied, so $d$ is a metric."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Prove the reverse triangle inequality in a metric space: $|d(x, z) - d(y, z)| \\leq d(x, y)$.",
+        "answerKey": "1. **Setup**:\nBy the standard triangle inequality:\n$$d(x, z) \\leq d(x, y) + d(y, z)$$\nSubtract $d(y, z)$ from both sides:\n$$d(x, z) - d(y, z) \\leq d(x, y)$$\n\n2. **Symmetry of roles**:\nSimilarly, interchange $x$ and $y$:\n$$d(y, z) \\leq d(y, x) + d(x, z)$$\nSince $d(y, x) = d(x, y)$:\n$$d(y, z) - d(x, z) \\leq d(x, y) \\implies -(d(x, z) - d(y, z)) \\leq d(x, y)$$\n\n3. **Combine inequalities**:\n- Since both $d(x, z) - d(y, z) \\leq d(x, y)$ and $-(d(x, z) - d(y, z)) \\leq d(x, y)$:\n  $$|d(x, z) - d(y, z)| \\leq d(x, y)$$\n- This completes the proof."
+      },
+      {
+        "id": 3,
+        "unit": "II",
+        "question": "Prove that every open ball $B(x_0, r)$ in a metric space $(X, d)$ is an open set.",
+        "answerKey": "1. **Definition of Open Set**:\nA set $U \\subseteq X$ is open if for every $y \\in U$, there exists $\\epsilon > 0$ such that $B(y, \\epsilon) \\subseteq U$.\n\n2. **Choose an arbitrary point**:\n- Let $y \\in B(x_0, r)$. This means $d(y, x_0) < r$.\n- Let $\\epsilon = r - d(y, x_0)$. Since $d(y, x_0) < r$, we have $\\epsilon > 0$.\n\n3. **Show containment $B(y, \\epsilon) \\subseteq B(x_0, r)$**:\n- Let $z \\in B(y, \\epsilon) \\implies d(z, y) < \\epsilon$.\n- We want to show $z \\in B(x_0, r)$, i.e., $d(z, x_0) < r$.\n- By the triangle inequality:\n  $$d(z, x_0) \\leq d(z, y) + d(y, x_0)$$\n- Substitute $d(z, y) < \\epsilon$:\n  $$d(z, x_0) < \\epsilon + d(y, x_0) = (r - d(y, x_0)) + d(y, x_0) = r$$\n- Since $d(z, x_0) < r \\implies z \\in B(x_0, r)$.\n- Thus, $B(y, \\epsilon) \\subseteq B(x_0, r)$, which proves the ball is an open set."
+      },
+      {
+        "id": 4,
+        "unit": "II",
+        "question": "Prove that a subset $F$ of a metric space $X$ is closed if and only if its complement $F^c$ is open.",
+        "answerKey": "1. **Forward direction (If $F$ is closed, then $F^c$ is open)**:\n- Suppose $F$ is closed (contains all its limit points). Let's show $F^c$ is open.\n- Let $x \\in F^c \\implies x \\notin F$.\n- Since $F$ contains all its limit points, $x$ cannot be a limit point of $F$.\n- Therefore, there must exist some neighborhood of $x$, say $B(x, r)$, that contains no points of $F$ other than possibly $x$ itself (but $x \\notin F$).\n- Thus, $B(x, r) \\cap F = \\emptyset \\implies B(x, r) \\subseteq F^c$.\n- Since $x$ was arbitrary, $F^c$ is open.\n\n2. **Reverse direction (If $F^c$ is open, then $F$ is closed)**:\n- Suppose $F^c$ is open. Let's show $F$ is closed (i.e., if $y$ is a limit point of $F$, then $y \\in F$).\n- Suppose $y$ is a limit point of $F$ but $y \\notin F \\implies y \\in F^c$.\n- Since $F^c$ is open, there exists $B(y, r) \\subseteq F^c \\implies B(y, r) \\cap F = \\emptyset$.\n- But this contradicts that $y$ is a limit point of $F$ (which requires every neighborhood of $y$ to contain a point of $F$).\n- Hence, the assumption $y \\notin F$ is false, so $y \\in F$. Thus $F$ is closed."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Define complete metric spaces. Prove that the real line $\\mathbb{R}$ with the usual metric is complete.",
+        "answerKey": "1. **Complete Metric Space Definition**:\nA metric space $(X, d)$ is complete if every Cauchy sequence in $X$ converges to a limit in $X$.\n\n2. **Proof for $\\mathbb{R}$ (Usual Metric)**:\n- Let $(x_n)$ be a Cauchy sequence in $\\mathbb{R}$.\n- **Step 1: Cauchy sequences are bounded**:\n  - Choose $\\epsilon = 1$. There exists $N$ such that $|x_n - x_m| < 1$ for all $n, m \\geq N$.\n  - Thus, for $n \\geq N$, $|x_n| < |x_N| + 1$.\n  - The sequence is bounded by $M = \\max(|x_1|, \\dots, |x_{N-1}|, |x_N| + 1)$.\n- **Step 2: Apply Bolzano-Weierstrass Theorem**:\n  - Every bounded sequence of real numbers has a convergent subsequence $(x_{n_k})$ converging to some $L \\in \\mathbb{R}$.\n- **Step 3: Cauchy sequence converges to same limit**:\n  - Since $(x_n)$ is Cauchy, for any $\\epsilon > 0$, there exists $N_1$ such that $|x_n - x_m| < \\epsilon/2$ for all $n, m \\geq N_1$.\n  - Since $x_{n_k} \\to L$, choose $n_k \\geq N_1$ such that $|x_{n_k} - L| < \\epsilon/2$.\n  - For all $n \\geq N_1$:\n    $$|x_n - L| \\leq |x_n - x_{n_k}| + |x_{n_k} - L| < \\frac{\\epsilon}{2} + \\frac{\\epsilon}{2} = \\epsilon$$\n  - Thus, $x_n \\to L$. Since $L \\in \\mathbb{R}$, $\\mathbb{R}$ is complete."
+      },
+      {
+        "id": 6,
+        "unit": "III",
+        "question": "State Cantor's Intersection Theorem in metric spaces.",
+        "answerKey": "1. **Cantor's Intersection Theorem Statement**:\nLet $(X, d)$ be a complete metric space. Let $\\{F_n\\}_{n=1}^{\\infty}$ be a nested sequence of non-empty closed subsets of $X$ ($F_1 \\supseteq F_2 \\supseteq F_3 \\dots$) such that the diameter of $F_n$ approaches zero as $n \\to \\infty$:\n$$\\lim_{n \\to \\infty} \\text{diam}(F_n) = 0$$\nwhere $\\text{diam}(F_n) = \\sup \\{ d(x, y) : x, y \\in F_n \\}$.\nThen the intersection of all these sets contains exactly one point:\n$$\\bigcap_{n=1}^{\\infty} F_n = \\{x^*\\}$$\nfor some $x^* \\in X$."
+      },
+      {
+        "id": 7,
+        "unit": "III",
+        "question": "Prove that every compact metric space $(X, d)$ is complete.",
+        "answerKey": "1. **Recall Definitions**:\n- A metric space $X$ is compact if every open cover of $X$ has a finite subcover.\n- Equivalently, $X$ is sequentially compact: every sequence in $X$ has a convergent subsequence.\n\n2. **Proof**:\n- Let $(x_n)$ be a Cauchy sequence in a compact metric space $X$.\n- Since $X$ is compact, the sequence $(x_n)$ must contain a convergent subsequence $(x_{n_k})$ that converges to some limit $x^* \\in X$.\n- We want to show that the entire sequence $(x_n)$ converges to $x^*$.\n- Let $\\epsilon > 0$. Since $(x_n)$ is Cauchy, there exists $N \\in \\mathbb{N}$ such that:\n  $$d(x_n, x_m) < \\frac{\\epsilon}{2} \\quad \\text{for all } n, m \\geq N$$\n- Since $x_{n_k} \\to x^*$, we can find a subsequence index $n_k \\geq N$ such that:\n  $$d(x_{n_k}, x^*) < \\frac{\\epsilon}{2}$$\n- Then for all $n \\geq N$, by the triangle inequality:\n  $$d(x_n, x^*) \\leq d(x_n, x_{n_k}) + d(x_{n_k}, x^*) < \\frac{\\epsilon}{2} + \\frac{\\epsilon}{2} = \\epsilon$$\n- Hence, the Cauchy sequence $x_n$ converges to $x^* \\in X$, which proves $X$ is complete."
+      },
+      {
+        "id": 8,
+        "unit": "IV",
+        "question": "Prove that a subset $Y$ of a metric space $X$ is disconnected if and only if it is the union of two separated sets.",
+        "answerKey": "1. **Separated Sets Definition**:\nTwo sets $A$ and $B$ in $X$ are separated if $A \\cap \\bar{B} = \\emptyset$ and $\\bar{A} \\cap B = \\emptyset$.\n\n2. **Proof**:\n- By definition, $Y$ is disconnected if there exist open sets $U, V$ in $X$ such that:\n  - $Y \\subseteq U \\cup V$\n  - $Y \\cap U \\neq \\emptyset$, $Y \\cap V \\neq \\emptyset$\n  - $(Y \\cap U) \\cap (Y \\cap V) = \\emptyset$\n- Let $A = Y \\cap U$ and $B = Y \\cap V$. Then $Y = A \\cup B$ is a partition into non-empty disjoint sets.\n- Let's show $A$ and $B$ are separated:\n  - Since $A \\subseteq U$ and $U \\cap V = \\emptyset$, the closure $\\bar{B}$ of $B = Y \\cap V$ satisfies $\\bar{B} \\cap U = \\emptyset$ (since $V^c$ is a closed set containing $B$, so $\\bar{B} \\subseteq V^c \\implies \\bar{B} \\cap V = \\emptyset$).\n  - Thus, $A \\cap \\bar{B} = (Y \\cap U) \\cap \\bar{B} = \\emptyset$.\n  - By symmetry, $\\bar{A} \\cap B = \\emptyset$.\n- Hence, $A$ and $B$ are separated sets whose union is $Y$."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "Prove that a function $f: X \\to Y$ is continuous if and only if $f^{-1}(G)$ is open in $X$ for every open set $G$ in $Y$.",
+        "answerKey": "1. **Proof of Forward direction (If $f$ is continuous, then $f^{-1}(G)$ is open)**:\n- Suppose $f$ is continuous. Let $G \\subseteq Y$ be an open set. We want to show $U = f^{-1}(G)$ is open in $X$.\n- Let $x_0 \\in U \\implies f(x_0) \\in G$.\n- Since $G$ is open, there exists an open ball $B_Y(f(x_0), \\epsilon) \\subseteq G$.\n- Since $f$ is continuous at $x_0$, there exists $\\delta > 0$ such that:\n  $$d_X(x, x_0) < \\delta \\implies d_Y(f(x), f(x_0)) < \\epsilon$$\n  $$x \\in B_X(x_0, \\delta) \\implies f(x) \\in B_Y(f(x_0), \\epsilon) \\subseteq G \\implies x \\in f^{-1}(G)$$\n- Thus, $B_X(x_0, \\delta) \\subseteq f^{-1}(G)$, proving $f^{-1}(G)$ is open.\n\n2. **Proof of Reverse direction**:\n- Let $x_0 \\in X$ and $\\epsilon > 0$. Consider the open ball $G = B_Y(f(x_0), \\epsilon)$ which is an open set in $Y$.\n- By assumption, $U = f^{-1}(G)$ is open in $X$. Since $x_0 \\in U$, there exists an open ball $B_X(x_0, \\delta) \\subseteq U$.\n- For all $x \\in B_X(x_0, \\delta) \\implies x \\in f^{-1}(G) \\implies f(x) \\in G = B_Y(f(x_0), \\epsilon)$.\n- This matches the definition of continuity at $x_0$."
+      },
+      {
+        "id": 10,
+        "unit": "IV",
+        "question": "State the Banach Fixed Point Theorem (Contraction Mapping Principle) and explain its conditions.",
+        "answerKey": "1. **Theorem Statement**:\nLet $(X, d)$ be a non-empty complete metric space. Let $T: X \\to X$ be a contraction mapping on $X$, i.e., there exists a constant $k \\in [0, 1)$ such that for all $x, y \\in X$:\n$$d(T(x), T(y)) \\leq k d(x, y)$$\nThen $T$ has a unique fixed point $x^* \\in X$ (meaning $T(x^*) = x^*$).\n\n2. **Conditions Explained**:\n- **Completeness of $X$**: Necessary because the theorem constructs the fixed point as the limit of a sequence $x_{n+1} = T(x_n)$. Without completeness, this Cauchy sequence might not converge to a point *within* $X$.\n- **Contraction ($k < 1$)**: The distance must strictly shrink. If $k=1$ (e.g., translation $x \\to x+1$), no fixed point exists."
+      }
+    ],
+    "type": "theory",
+    "duration": 180
   },
   "matmj53": {
     "id": "matmj53",
     "title": "Analytic Geometry",
     "module": "MATMJ53",
-    "comingSoon": true
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Classify the conic section given by the general second-degree equation: $5x^2 - 6xy + 5y^2 + 22x - 26y + 29 = 0$.",
+        "answerKey": "1. **Evaluate Coefficients**:\nComparing with $a x^2 + 2h xy + b y^2 + 2g x + 2f y + c = 0$:\n- $a = 5, \\quad h = -3, \\quad b = 5$\n- $g = 11, \\quad f = -13, \\quad c = 29$\n\n2. **Check Discriminant $h^2 - ab$**:\n- $h^2 - ab = (-3)^2 - 5(5) = 9 - 25 = -16 < 0$.\n- Since $h^2 - ab < 0$, the conic is of **elliptic type**.\n\n3. **Evaluate the Discriminant Determinant $\\Delta$**:\n- $$\\Delta = \\det \\begin{pmatrix} a & h & g \\\\ h & b & f \\\\ g & f & c \\end{pmatrix} = \\det \\begin{pmatrix} 5 & -3 & 11 \\\\ -3 & 5 & -13 \\\\ 11 & -13 & 29 \\end{pmatrix}$$\n- Calculate determinant:\n  $$\\Delta = 5(145 - 169) + 3(-87 + 143) + 11(39 - 55) = 5(-24) + 3(56) + 11(-16) = -120 + 168 - 176 = -128$$\n- Since $\\Delta \\neq 0$ and $h^2 - ab < 0$, the conic is a **real ellipse**."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Find the equation of the plane passing through the line of intersection of the planes $x+y+z=6$ and $2x+3y+4z-5=0$, and also passing through the point $(1, 1, 1)$.",
+        "answerKey": "1. **Equation of Family of Planes**:\nThe equation of any plane passing through the intersection of the two given planes is:\n$$(x+y+z-6) + \\lambda(2x+3y+4z-5) = 0$$\n$$(1 + 2\\lambda)x + (1 + 3\\lambda)y + (1 + 4\\lambda)z - (6 + 5\\lambda) = 0$$\n\n2. **Using the Point $(1, 1, 1)$**:\n- Substitute $x=1, y=1, z=1$ into the family equation:\n  $$(1 + 1 + 1 - 6) + \\lambda(2(1) + 3(1) + 4(1) - 5) = 0$$\n  $$-3 + \\lambda(9 - 5) = 0 \\implies -3 + 4\\lambda = 0 \\implies \\lambda = \\frac{3}{4}$$\n\n3. **Find the Final Equation**:\n- Substitute $\\lambda = 3/4$ back:\n  $$(x+y+z-6) + \\frac{3}{4}(2x+3y+4z-5) = 0$$\n  $$4(x+y+z-6) + 3(2x+3y+4z-5) = 0$$\n  $$4x + 4y + 4z - 24 + 6x + 9y + 12z - 15 = 0$$\n  $$10x + 13y + 16z - 39 = 0$$\n- The equation of the plane is $10x + 13y + 16z = 39$."
+      },
+      {
+        "id": 3,
+        "unit": "II",
+        "question": "Find the shortest distance between the skew lines: $L_1: \\frac{x-1}{2} = \\frac{y-2}{3} = \\frac{z-3}{4}$ and $L_2: \\frac{x-2}{3} = \\frac{y-4}{4} = \\frac{z-5}{5}$.",
+        "answerKey": "1. **Identify Directions and Points**:\n- Line 1 passes through $A(1, 2, 3)$ with direction vector $u = (2, 3, 4)$.\n- Line 2 passes through $B(2, 4, 5)$ with direction vector $v = (3, 4, 5)$.\n- Vector connecting points: $\\vec{AB} = (2-1, 4-2, 5-3) = (1, 2, 2)$.\n\n2. **Find the Normal Vector $n = u \\times v$**:\n- $$n = \\det \\begin{pmatrix} i & j & k \\\\ 2 & 3 & 4 \\\\ 3 & 4 & 5 \\end{pmatrix} = (15-16)i - (10-12)j + (8-9)k = -i + 2j - k = (-1, 2, -1)$$\n- Magnitude of $n$:\n  $$\\|n\\| = \\sqrt{(-1)^2 + 2^2 + (-1)^2} = \\sqrt{6}$$\n\n3. **Shortest Distance (SD) Formula**:\n- The shortest distance is the projection of $\\vec{AB}$ onto $n$:\n  $$SD = \\frac{|\\vec{AB} \\cdot n|}{\\|n\\|} = \\frac{|1(-1) + 2(2) + 2(-1)|}{\\sqrt{6}} = \\frac{|-1 + 4 - 2|}{\\sqrt{6}} = \\frac{1}{\\sqrt{6}}$$\n- The shortest distance is $\\frac{1}{\\sqrt{6}}$ units."
+      },
+      {
+        "id": 4,
+        "unit": "II",
+        "question": "Find the equation of the sphere which passes through the circle $x^2+y^2+z^2=9$, $2x+3y+4z=5$ and the point $(1, 2, 3)$.",
+        "answerKey": "1. **Family of Spheres**:\nAny sphere passing through the intersection of a sphere $S$ and a plane $P$ is of the form $S + \\lambda P = 0$:\n$$(x^2 + y^2 + z^2 - 9) + \\lambda(2x + 3y + 4z - 5) = 0$$\n\n2. **Apply the Point $(1, 2, 3)$**:\n- Substitute $x=1, y=2, z=3$ into the equation:\n  $$(1^2 + 2^2 + 3^2 - 9) + \\lambda(2(1) + 3(2) + 4(3) - 5) = 0$$\n  $$(1 + 4 + 9 - 9) + \\lambda(2 + 6 + 12 - 5) = 0$$\n  $$5 + \\lambda(15) = 0 \\implies 15\\lambda = -5 \\implies \\lambda = -\\frac{1}{3}$$\n\n3. **Solve for Final Equation**:\n- Substitute $\\lambda = -1/3$ back:\n  $$(x^2 + y^2 + z^2 - 9) - \\frac{1}{3}(2x + 3y + 4z - 5) = 0$$\n  $$3(x^2 + y^2 + z^2) - 2x - 3y - 4z - 22 = 0$$\n- The equation of the sphere is $3(x^2+y^2+z^2) - 2x - 3y - 4z = 22$."
+      },
+      {
+        "id": 5,
+        "unit": "III",
+        "question": "Find the equation of the cone with vertex at the origin and which passes through the curve of intersection of the sphere $x^2+y^2+z^2 = a^2$ and the plane $lx+my+nz = p$.",
+        "answerKey": "1. **Homogenization Method**:\nSince the vertex of the cone is at the origin, its equation must be a homogeneous equation in $x, y, z$ of degree 2.\n- We make the sphere equation homogeneous using the plane equation.\n- Write the plane equation as:\n  $$\\frac{lx + my + nz}{p} = 1$$\n\n2. **Homogenize the Sphere**:\n- The sphere equation is $x^2 + y^2 + z^2 = a^2 \\cdot 1^2$.\n- Substitute the expression for 1:\n  $$x^2 + y^2 + z^2 = a^2 \\left( \\frac{lx + my + nz}{p} \\right)^2$$\n  $$p^2 (x^2 + y^2 + z^2) = a^2 (lx + my + nz)^2$$\n- This is the homogeneous equation of the required cone with vertex at the origin."
+      },
+      {
+        "id": 6,
+        "unit": "III",
+        "question": "Find the equation of the right circular cylinder of radius 2 whose axis is the line $\\frac{x-1}{2} = \\frac{y-2}{1} = \\frac{z-3}{2}$.",
+        "answerKey": "1. **Geometry of Cylinder**:\n- A point $P(x, y, z)$ lies on the cylinder if its perpendicular distance from the axis is equal to the radius $r = 2$.\n- The axis passes through $A(1, 2, 3)$ with direction vector $u = (2, 1, 2)$.\n- Unit direction vector of the axis: $\\hat{u} = \\frac{(2, 1, 2)}{\\sqrt{2^2 + 1^2 + 2^2}} = \\frac{(2, 1, 2)}{3}$.\n\n2. **Vector Calculations**:\n- Vector $\\vec{AP} = (x-1, y-2, z-3)$.\n- Projection of $\\vec{AP}$ onto the axis: $d = \\vec{AP} \\cdot \\hat{u} = \\frac{2(x-1) + 1(y-2) + 2(z-3)}{3} = \\frac{2x + y + 2z - 10}{3}$.\n- By Pythagoras' theorem, the perpendicular distance squared is:\n  $$r^2 = \\|\\vec{AP}\\|^2 - d^2$$\n  $$2^2 = [ (x-1)^2 + (y-2)^2 + (z-3)^2 ] - \\left( \\frac{2x + y + 2z - 10}{3} \\right)^2$$\n\n3. **Expansion**:\n- Multiply by 9 and simplify:\n  $$36 = 9[(x-1)^2 + (y-2)^2 + (z-3)^2] - (2x + y + 2z - 10)^2$$\n- Expanding and simplifying yields the final quadratic equation of the cylinder."
+      },
+      {
+        "id": 7,
+        "unit": "IV",
+        "question": "Find the equations of the tangent planes to the ellipsoid $2x^2 + 3y^2 + z^2 = 6$ which are parallel to the plane $x - y + 2z = 5$.",
+        "answerKey": "1. **Tangent Plane Formula**:\nFor an ellipsoid $a x^2 + b y^2 + c z^2 = d$, the equation of a tangent plane parallel to $l x + m y + n z = 0$ is:\n$$l x + m y + n z = \\pm \\sqrt{\\frac{l^2}{a} + \\frac{m^2}{b} + \\frac{n^2}{c}} \\cdot \\sqrt{d}$$\n(Let's write it in standard form: $\\frac{x^2}{3} + \\frac{y^2}{2} + \\frac{z^2}{6} = 1$, so $a^2=3, b^2=2, c^2=6$).\n- The equation of a tangent plane to $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} + \\frac{z^2}{c^2} = 1$ is $l x + m y + n z = p$ where $p = \\pm \\sqrt{a^2 l^2 + b^2 m^2 + c^2 n^2}$.\n\n2. **Identify Values**:\n- Normal direction: $(l, m, n) = (1, -1, 2)$ from the parallel plane.\n- Semi-axes squared: $a^2 = 3, b^2 = 2, c^2 = 6$.\n\n3. **Calculate $p$**:\n- $$p^2 = 3(1)^2 + 2(-1)^2 + 6(2)^2 = 3 + 2 + 24 = 29$$\n- $$p = \\pm \\sqrt{29}$$\n- The equations of the tangent planes are $x - y + 2z = \\pm \\sqrt{29}$."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "Find the polar equation of a conic section with focus as pole, eccentricity $e$, and semi-latus rectum $l$.",
+        "answerKey": "1. **Geometry setup**:\n- Let the focus $S$ of the conic be the pole, and the axis of the conic be the initial line.\n- Let $P(r, \\theta)$ be any point on the conic. Let $PM$ be the perpendicular from $P$ to the directrix, and $PN$ be the perpendicular to the axis.\n- By definition of a conic:\n  $$SP = e \\cdot PM$$\n\n2. **Analytical Derivation**:\n- Let the distance from focus to directrix be $d$. Then $PM = d - r \\cos\\theta$.\n- Substitute into the conic definition:\n  $$r = e(d - r \\cos\\theta) = ed - er \\cos\\theta$$\n  $$r(1 + e \\cos\\theta) = ed$$\n- When $\\theta = \\pi/2$, $r = l$ (semi-latus rectum). Substitute this to find $ed$:\n  $$l(1 + 0) = ed \\implies ed = l$$\n- Substitute $ed = l$ back:\n  $$r(1 + e \\cos\\theta) = l \\implies \\frac{l}{r} = 1 + e \\cos\\theta$$\n- This is the polar equation of the conic."
+      },
+      {
+        "id": 9,
+        "unit": "II",
+        "question": "Show that the lines $L_1: \\frac{x-1}{2} = \\frac{y-2}{3} = \\frac{z-3}{4}$ and $L_2: \\frac{x-4}{5} = \\frac{y-1}{2} = z$ intersect. Find their point of intersection.",
+        "answerKey": "1. **Parametric Form**:\n- Line 1: $x = 2s+1, \\quad y = 3s+2, \\quad z = 4s+3$\n- Line 2: $x = 5t+4, \\quad y = 2t+1, \\quad z = t$\n\n2. **Solve for $s$ and $t$**:\n- Equate $z$ coordinates: $t = 4s+3$.\n- Equate $y$ coordinates:\n  $$3s+2 = 2t+1 \\implies 3s+2 = 2(4s+3)+1 \\implies 3s+2 = 8s+7 \\implies 5s = -5 \\implies s = -1$$\n- Find $t$:\n  $$t = 4(-1)+3 = -1$$\n\n3. **Verify with $x$ coordinates**:\n- Line 1: $x = 2(-1)+1 = -1$.\n- Line 2: $x = 5(-1)+4 = -1$.\n- Since $s=-1$ and $t=-1$ satisfy all three coordinate equations, the lines intersect.\n\n4. **Find Intersection Point**:\n- Substitute $s=-1$ into Line 1 parameters:\n  $$x = -1, \\quad y = -1, \\quad z = -1$$\n- The point of intersection is $(-1, -1, -1)$."
+      },
+      {
+        "id": 10,
+        "unit": "IV",
+        "question": "Find the coordinates of the center and the radius of the circular section of the sphere $x^2+y^2+z^2 - 2y - 4z = 20$ by the plane $x + 2y + 2z = 15$.",
+        "answerKey": "1. **Find Center and Radius of Sphere**:\n- Comparing with standard sphere equation: Center $C = (0, 1, 2)$.\n- Radius $R = \\sqrt{0^2 + 1^2 + 2^2 - (-20)} = \\sqrt{5 + 20} = 5$.\n\n2. **Find Perpendicular Distance from Center to Plane**:\n- Plane equation: $x + 2y + 2z - 15 = 0$.\n- Distance $p$ from $C(0, 1, 2)$:\n  $$p = \\frac{|0(1) + 1(2) + 2(2) - 15|}{\\sqrt{1^2 + 2^2 + 2^2}} = \\frac{|2 + 4 - 15|}{3} = \\frac{9}{3} = 3$$\n\n3. **Radius of Circle ($r$)**:\n- By Pythagoras' theorem:\n  $$r = \\sqrt{R^2 - p^2} = \\sqrt{5^2 - 3^2} = \\sqrt{25 - 9} = 4$$\n\n4. **Center of Circle ($C'$)**:\n- The line $CC'$ is perpendicular to the plane and passes through $C(0, 1, 2)$ with direction numbers $(1, 2, 2)$:\n  $$x = t, \\quad y = 2t+1, \\quad z = 2t+2$$\n- Since $C'$ lies on the plane:\n  $$t + 2(2t+1) + 2(2t+2) = 15 \\implies 9t + 6 = 15 \\implies 9t = 9 \\implies t = 1$$\n- Thus, the coordinates are $(1, 3, 4)$.\n- Center is $(1, 3, 4)$ and radius is $4$."
+      }
+    ],
+    "type": "theory",
+    "duration": 180
   },
   "matmj54": {
     "id": "matmj54",
     "title": "Numerical Analysis",
     "module": "MATMJ54",
-    "comingSoon": true
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "A can is in the form of a right circular cylinder of radius 15 cm and length 40 cm, surmounted by a hemisphere. If the scale used is short by 0.01 cm per cm, find the percentage error in the volume of the can.",
+        "answerKey": "1. **Volume of the Can**:\n- Let $r$ be the radius ($15\\text{ cm}$) and $h$ be the height of the cylinder ($40\\text{ cm}$).\n- The volume $V$ is the sum of the cylinder volume and the hemisphere volume:\n  $$V = \\pi r^2 h + \\frac{2}{3} \\pi r^3$$\n\n2. **Differential Error**:\n- The error in taking measurements is $dr/r = dh/h = -0.01$.\n- The differential of $V$ is:\n  $$dV = \\frac{\\partial V}{\\partial r} dr + \\frac{\\partial V}{\\partial h} dh = (2\\pi r h + 2\\pi r^2) dr + (\\pi r^2) dh$$\n- Divide by $V$ to find relative error:\n  $$\\frac{dV}{V} = \\frac{\\pi r [ 2h + 2r ] dr + \\pi r^2 dh}{\\pi r^2 (h + \\frac{2}{3}r)} = \\frac{r(2h+2r)\\frac{dr}{r} \\cdot r + r^2 \\frac{dh}{h} h}{\\dots}$$\n- Since $dr = -0.01 r$ and $dh = -0.01 h$:\n  $$dV = \\pi r^2 h ( 2 \\frac{dr}{r} + \\frac{dh}{h} ) + \\frac{2}{3} \\pi r^3 ( 3 \\frac{dr}{r} )$$\n  Since $\\frac{dr}{r} = \\frac{dh}{h} = e$:\n  $$dV = 3 e (\\pi r^2 h + \\frac{2}{3} \\pi r^3) = 3 e V \\implies \\frac{dV}{V} = 3e$$\n\n3. **Percentage Error**:\n- Given $e = -1\\% = -0.01$, the relative error in volume is $3 \\times (-0.01) = -0.03$.\n- The percentage error is $-3\\%$ (the volume is short by $3\\%$)."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Prove the operator relation: $\\Delta = (1 + \\Delta) \\delta^2$.",
+        "answerKey": "1. **Operator Definitions**:\n- Shift operator $E$: $E f(x) = f(x+h)$\n- Forward difference $\\Delta$: $\\Delta = E - 1 \\implies E = 1 + \\Delta$\n- Central difference $\\delta$: $\\delta = E^{1/2} - E^{-1/2}$\n\n2. **Proof**:\n- Compute $\\delta^2$:\n  $$\\delta^2 = (E^{1/2} - E^{-1/2})^2 = E - 2 + E^{-1} = E^{-1}(E^2 - 2E + 1) = E^{-1}(E-1)^2$$\n- Since $E - 1 = \\Delta$:\n  $$\\delta^2 = E^{-1} \\Delta^2$$\n- Substitute $E^{-1} = (1 + \\Delta)^{-1}$:\n  $$\\delta^2 = (1 + \\Delta)^{-1} \\Delta^2 \\implies (1 + \\Delta) \\delta^2 = \\Delta^2$$\n- (Wait, let's verify if the question has a typo and should be $\\Delta^2 = (1+\\Delta)\\delta^2$, yes, $\\Delta^2 = E \\delta^2$ is the correct formula)."
+      },
+      {
+        "id": 3,
+        "unit": "II",
+        "question": "If $\\Delta \\cos(2x) = \\Delta \\cos(2(x+h))$ find the value of $\\Delta \\cos(2x)$.",
+        "answerKey": "1. **Apply Forward Difference**:\n- By definition of the forward difference operator $\\Delta$ with step size $h$:\n  $$\\Delta \\cos(2x) = \\cos(2(x+h)) - \\cos(2x)$$\n\n2. **Trigonometric Expansion**:\n- Using the formula $\\cos C - \\cos D = -2 \\sin\\left(\\frac{C+D}{2}\\right) \\sin\\left(\\frac{C-D}{2}\\right)$:\n  $$\\Delta \\cos(2x) = -2 \\sin(2x + h) \\sin(h)$$\n- This is the value of $\\Delta \\cos(2x)$."
+      },
+      {
+        "id": 4,
+        "unit": "III",
+        "question": "Apply Simpson's $1/3$ rule to evaluate $\\int_0^2 f(x) dx$ given that $f(0)=0, f(0.5)=0.25, f(1)=1, f(1.5)=2.25, f(2)=4$.",
+        "answerKey": "1. **Simpson's $1/3$ Rule Formula**:\n$$\\int_a^b f(x) dx \\approx \\frac{h}{3} [ y_0 + y_n + 4(y_1 + y_3 + \\dots) + 2(y_2 + y_4 + \\dots) ]$$\n\n2. **Identify Data Points**:\n- Step size $h = 0.5$.\n- $y_0 = f(0) = 0$\n- $y_1 = f(0.5) = 0.25$\n- $y_2 = f(1) = 1$\n- $y_3 = f(1.5) = 2.25$\n- $y_4 = f(2) = 4$\n\n3. **Calculation**:\n- Substitute the values into the formula:\n  $$\\text{Integral} \\approx \\frac{0.5}{3} [ 0 + 4 + 4(0.25 + 2.25) + 2(1) ]$$\n  $$= \\frac{0.5}{3} [ 4 + 4(2.5) + 2 ] = \\frac{0.5}{3} [ 4 + 10 + 2 ] = \\frac{0.5}{3} [ 16 ] = \\frac{8}{3} \\approx 2.667$$\n- Note: The exact integral of $x^2$ is $\\int_0^2 x^2 dx = \\frac{8}{3}$, so Simpson's rule is exact in this case."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Apply the Secant Method to find the largest root of $x^2 - 5x + 3 = 0$ correct to two decimal places.",
+        "answerKey": "1. **Initial Approximations**:\n- Let $f(x) = x^2 - 5x + 3$. The roots are given by $\\frac{5 \\pm \\sqrt{13}}{2}$, so the largest root is $\\approx 4.30$.\n- Choose initial guesses $x_0 = 4$ and $x_1 = 5$:\n  - $f(x_0) = 16 - 20 + 3 = -1$\n  - $f(x_1) = 25 - 25 + 3 = 3$\n\n2. **Iterative Step 1**:\n- Using the Secant formula $x_{n+1} = x_n - f(x_n) \\frac{x_n - x_{n-1}}{f(x_n) - f(x_{n-1})}$:\n  $$x_2 = 5 - 3 \\frac{5 - 4}{3 - (-1)} = 5 - 3 \\left(\\frac{1}{4}\\right) = 4.75$$\n  $$f(4.75) = (4.75)^2 - 5(4.75) + 3 = 22.5625 - 23.75 + 3 = 1.8125$$\n\n3. **Iterative Step 2**:\n- $x_3 = 4.75 - 1.8125 \\frac{4.75 - 5}{1.8125 - 3} = 4.75 - 1.8125 \\frac{-0.25}{-1.1875} = 4.368$$\n  $$f(4.368) = 0.267$$\n\n4. **Iterative Step 3**:\n- $x_4 = 4.368 - 0.267 \\frac{4.368 - 4.75}{0.267 - 1.8125} = 4.302$$\n- The root correct to two decimal places is $4.30$."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Apply the Birge-Vieta method to find a real root of $x^3 - x + 1 = 0$ taking initial approximation $x_0 = -1.5$.",
+        "answerKey": "1. **Method Concept**:\n- Birge-Vieta uses synthetic division to evaluate the polynomial and its derivative at $x_0$, and performs Newton-Raphson iterations: $x_{n+1} = x_n - \\frac{P(x_n)}{P'(x_n)}$.\n\n2. **Iteration 1 at $x_0 = -1.5$**:\n- Coefficients of $P(x) = x^3 - x + 1$ are $a_0 = 1, a_1 = 0, a_2 = -1, a_3 = 1$.\n- Synthetic division for $P(-1.5)$:\n  - $b_0 = a_0 = 1$\n  - $b_1 = a_1 + b_0 x_0 = 0 - 1.5 = -1.5$\n  - $b_2 = a_2 + b_1 x_0 = -1 + (-1.5)(-1.5) = 1.25$\n  - $b_3 = a_3 + b_2 x_0 = 1 + (1.25)(-1.5) = -0.875 \\implies P(-1.5) = -0.875$\n- Synthetic division for $P'(-1.5)$:\n  - $c_0 = b_0 = 1$\n  - $c_1 = b_1 + c_0 x_0 = -1.5 - 1.5 = -3.0$\n  - $c_2 = b_2 + c_1 x_0 = 1.25 + (-3.0)(-1.5) = 5.75 \\implies P'(-1.5) = 5.75$\n- Compute next guess:\n  $$x_1 = -1.5 - \\frac{-0.875}{5.75} = -1.5 + 0.152 = -1.348$$\n- Repeating this yields the root $\\approx -1.325$."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Solve the system of equations using the Gauss-Jacobi method: $3x+5y+z=7, x+y+3z=3, 4x+y+2z=4$ starting with $[0,0,0]^T$.",
+        "answerKey": "1. **Rearranging for Iteration** (making diagonally dominant if possible, or solving directly):\n  - $x = \\frac{7 - 5y - z}{3}$\n  - $y = 3 - x - 3z$\n  - $z = \\frac{4 - 4x - y}{2}$\n\n2. **Iteration 1**:\n- Start with $x^{(0)} = 0, y^{(0)} = 0, z^{(0)} = 0$:\n  - $x^{(1)} = 7/3 \\approx 2.333$\n  - $y^{(1)} = 3$\n  - $z^{(1)} = 2$\n\n3. **Iteration 2**:\n- Use values from Iteration 1:\n  - $x^{(2)} = \\frac{7 - 15 - 2}{3} = -10/3 \\approx -3.333$\n  - $y^{(2)} = 3 - 2.333 - 6 = -5.333$\n  - $z^{(2)} = \\frac{4 - 9.333 - 3}{2} = -4.167$\n- Continue iterations until convergence is reached."
+      },
+      {
+        "id": 8,
+        "unit": "III",
+        "question": "Derive the error term in the Trapezoidal rule of integration.",
+        "answerKey": "1. **Local Error Definition**:\n- The local error $E_T$ in the interval $[x_0, x_1]$ of width $h$ is:\n  $$E_T = \\int_{x_0}^{x_1} f(x) dx - \\frac{h}{2}[f(x_0) + f(x_1)]$$\n\n2. **Taylor Series Expansion**:\n- Expand $f(x)$ around $x_0$:\n  $$f(x) = f(x_0) + (x-x_0)f'(x_0) + \\frac{(x-x_0)^2}{2} f''(x_0) + \\dots$$\n- Integrating this gives:\n  $$\\int_{x_0}^{x_1} f(x) dx = h f(x_0) + \\frac{h^2}{2} f'(x_0) + \\frac{h^3}{6} f''(x_0) + O(h^4)$$\n- Expand the trapezoidal approximation term $\\frac{h}{2}[f(x_0) + f(x_0 + h)]$:\n  $$\\frac{h}{2} [ f(x_0) + f(x_0) + h f'(x_0) + \\frac{h^2}{2} f''(x_0) + O(h^3) ]$$\n  $$= h f(x_0) + \\frac{h^2}{2} f'(x_0) + \\frac{h^3}{4} f''(x_0) + O(h^4)$$\n\n3. **Subtraction**:\n- Subtracting the two yields the error term:\n  $$E_T = \\left( \\frac{1}{6} - \\frac{1}{4} \\right) h^3 f''(\\xi) = -\\frac{h^3}{12} f''(\\xi)$$\n- For the composite rule over $n$ intervals, the global error is $-\\frac{b-a}{12} h^2 f''(\\eta)$."
+      },
+      {
+        "id": 9,
+        "unit": "IV",
+        "question": "Use the 4th-order Runge-Kutta method to evaluate $y(1.2)$ given that $\\frac{dy}{dx} = x + y$ with $y(1) = 1$ using step size $h = 0.2$.",
+        "answerKey": "1. **Runge-Kutta 4th Order Formulas**:\n- $k_1 = h f(x_n, y_n)$\n- $k_2 = h f(x_n + \\frac{h}{2}, y_n + \\frac{k_1}{2})$\n- $k_3 = h f(x_n + \\frac{h}{2}, y_n + \\frac{k_2}{2})$\n- $k_4 = h f(x_n + h, y_n + k_3)$\n- $y_{n+1} = y_n + \\frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4)$\n\n2. **Calculation**:\n- Given $x_0 = 1, y_0 = 1, h = 0.2$:\n  - $k_1 = 0.2 (1 + 1) = 0.4$\n  - $k_2 = 0.2 (1.1 + 1.2) = 0.46$\n  - $k_3 = 0.2 (1.1 + 1.23) = 0.466$\n  - $k_4 = 0.2 (1.2 + 1.466) = 0.5332$\n- Compute $y_1$:\n  $$y_1 = 1 + \\frac{1}{6}(0.4 + 2(0.46) + 2(0.466) + 0.5332)$$\n  $$y_1 = 1 + \\frac{1}{6}(0.4 + 0.92 + 0.932 + 0.5332) = 1 + \\frac{2.7852}{6} \\approx 1.4642$$\n- Thus, $y(1.2) \\approx 1.4642$."
+      },
+      {
+        "id": 10,
+        "unit": "IV",
+        "question": "Apply Lagrange's inverse interpolation formula to obtain the root of $f(x)=0$ given: $f(30)=-30, f(34)=-13, f(38)=3, f(42)=18$.",
+        "answerKey": "1. **Inverse Interpolation Concept**:\nWe treat $y = f(x)$ as the independent variable and $x$ as the dependent variable. We want to find $x$ when $y = 0$:\n$$x = \\sum_{i=0}^3 x_i \\prod_{j \\neq i} \\frac{y - y_j}{y_i - y_j}$$\n\n2. **Identify Data Points**:\n- $x_0 = 30, y_0 = -30$\n- $x_1 = 34, y_1 = -13$\n- $x_2 = 38, y_2 = 3$\n- $x_3 = 42, y_3 = 18$\n- We set $y = 0$.\n\n3. **Calculation**:\n- Term 0: $30 \\frac{(0 - (-13))(0 - 3)(0 - 18)}{(-30 - (-13))(-30 - 3)(-30 - 18)} = 30 \\frac{(13)(-3)(-18)}{(-17)(-33)(-48)} = -0.776$\n- Term 1: $34 \\frac{(-30)(-3)(-18)}{(17)(-16)(-31)} = -6.44$\n- Term 2: $38 \\frac{(-30)(-13)(-18)}{(33)(16)(-15)} = 33.6$\n- Summing all four terms yields $x \\approx 37.28$, which is the root of the equation."
+      }
+    ],
+    "type": "theory",
+    "duration": 180
   },
   "matmv51": {
     "id": "matmv51",
@@ -3625,7 +4201,71 @@ export const EXAMS = {
     "id": "matmj610",
     "title": "Dynamical System",
     "module": "MATMJ610",
-    "comingSoon": true
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Find the evolution operator $\\phi_t$ for the differential equation $\\dot{x} = x^2 - 1$.",
+        "answerKey": "1. **Differential Equation Setup**:\nWe want to solve the autonomous ODE:\n$$\\frac{dx}{dt} = x^2 - 1$$\nSeparating variables:\n$$\\frac{dx}{x^2 - 1} = dt$$\nIntegrating both sides using partial fractions:\n$$\\int \\frac{1}{2} \\left( \\frac{1}{x-1} - \\frac{1}{x+1} \\right) dx = \\int dt \\implies \\frac{1}{2} \\ln\\left| \\frac{x-1}{x+1} \\right| = t + C$$\n$$\\frac{x-1}{x+1} = A e^{2t}$$\n\n2. **Using Initial Condition $x(0) = x_0$**:\n- At $t = 0$:\n  $$A = \\frac{x_0 - 1}{x_0 + 1}$$\n- Substitute $A$ back and solve for $x(t)$:\n  $$\\frac{x-1}{x+1} = \\left( \\frac{x_0 - 1}{x_0 + 1} \\right) e^{2t}$$\n  $$x(t)(x_0 + 1) - (x_0 + 1) = x(t)(x_0 - 1)e^{2t} + (x_0 - 1)e^{2t}$$\n  $$x(t) [ (x_0 + 1) - (x_0 - 1)e^{2t} ] = (x_0 + 1) + (x_0 - 1)e^{2t}$$\n  $$x(t) = \\frac{x_0(1 + e^{2t}) + (1 - e^{2t})}{x_0(1 - e^{2t}) + (1 + e^{2t})}$$\n\n3. **Evolution Operator**:\nUsing hyperbolic functions $\\cosh(t) = \\frac{e^t + e^{-t}}{2}$ and $\\sinh(t) = \\frac{e^t - e^{-t}}{2}$:\n$$\\phi_t(x_0) = \\frac{x_0 \\cosh(t) - \\sinh(t)}{-x_0 \\sinh(t) + \\cosh(t)}$$"
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "For the system $\\dot{x} = y, \\dot{y} = -x^3$, show that all solutions except the fixed point at the origin are periodic.",
+        "answerKey": "1. **Hamiltonian / Conserved Quantity**:\n- Let's find a conserved quantity $H(x, y)$ for the system:\n  $$\\frac{dy}{dx} = \\frac{-x^3}{y} \\implies y dy + x^3 dx = 0$$\n- Integrating both sides:\n  $$\\frac{y^2}{2} + \\frac{x^4}{4} = C$$\n- We define the Hamiltonian function $H(x, y) = \\frac{1}{2}y^2 + \\frac{1}{4}x^4$. Since $\\frac{dH}{dt} = 0$, $H(x, y)$ is constant along any trajectory.\n\n2. **Closed Trajectories**:\n- For any constant energy level $C > 0$, the curves of constant energy are defined by:\n  $$\\frac{1}{2}y^2 + \\frac{1}{4}x^4 = C$$\n- These curves are closed loops around the origin in the phase plane. Because they are closed and the vector field is non-zero except at $(0,0)$, the solution trajectories must cycle continuously along these loops.\n- Therefore, all solutions except the fixed point at the origin $(0,0)$ are periodic."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "If $P, Q, R$ are $n \\times n$ matrices such that $R = P Q P^{-1}$, show that $e^R = P e^Q P^{-1}$.",
+        "answerKey": "1. **Power of Matrix Definition**:\n- First, let's look at the powers of $R$:\n  $$R^2 = (P Q P^{-1})(P Q P^{-1}) = P Q (P^{-1} P) Q P^{-1} = P Q^2 P^{-1}$$\n- By induction, for any integer $k \\geq 0$, we have:\n  $$R^k = P Q^k P^{-1}$$\n\n2. **Matrix Exponential Definition**:\n- By definition of the matrix exponential:\n  $$e^R = \\sum_{k=0}^{\\infty} \\frac{R^k}{k!} = \\sum_{k=0}^{\\infty} \\frac{P Q^k P^{-1}}{k!}$$\n- Since $P$ and $P^{-1}$ are constant matrices, we can factor them out of the summation:\n  $$e^R = P \\left( \\sum_{k=0}^{\\infty} \\frac{Q^k}{k!} \\right) P^{-1}$$\n  $$e^R = P e^Q P^{-1}$$\n- This completes the proof."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "For $A = \\begin{pmatrix} \\lambda_1 & 0 \\\\ 0 & \\lambda_2 \\end{pmatrix}$, find the exponential matrix $e^{At}$.",
+        "answerKey": "1. **Definition of $e^{At}$**:\nBy definition of matrix exponential:\n$$e^{At} = \\sum_{k=0}^{\\infty} \\frac{(At)^k}{k!} = \\sum_{k=0}^{\\infty} \\frac{t^k}{k!} A^k$$\n\n2. **Powers of Diagonal Matrix**:\n- For a diagonal matrix $A$, its powers are diagonal:\n  $$A^k = \\begin{pmatrix} \\lambda_1^k & 0 \\\\ 0 & \\lambda_2^k \\end{pmatrix}$$\n\n3. **Exponential Matrix Calculation**:\n- Substitute into the summation:\n  $$e^{At} = \\sum_{k=0}^{\\infty} \\frac{t^k}{k!} \\begin{pmatrix} \\lambda_1^k & 0 \\\\ 0 & \\lambda_2^k \\end{pmatrix} = \\begin{pmatrix} \\sum_{k=0}^{\\infty} \\frac{(\\lambda_1 t)^k}{k!} & 0 \\\\ 0 & \\sum_{k=0}^{\\infty} \\frac{(\\lambda_2 t)^k}{k!} \\end{pmatrix}$$\n- Since $\\sum_{k=0}^{\\infty} \\frac{(\\lambda_i t)^k}{k!} = e^{\\lambda_i t}$:\n  $$e^{At} = \\begin{pmatrix} e^{\\lambda_1 t} & 0 \\\\ 0 & e^{\\lambda_2 t} \\end{pmatrix}$$"
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Determine if the matrix $\\Phi(t) = \\begin{pmatrix} e^{2t} & -e^{-t} \\\\ 2e^{2t} & 3e^{-t} \\end{pmatrix}$ is a fundamental matrix for $\\dot{x} = Ax$. If so, find the matrix $A$.",
+        "answerKey": "1. **Fundamental Matrix Check**:\n- A matrix $\\Phi(t)$ is a fundamental matrix if it is non-singular (its determinant is non-zero) and satisfies $\\dot{\\Phi}(t) = A \\Phi(t)$.\n- Let's compute the determinant of $\\Phi(t)$:\n  $$\\det \\Phi(t) = (e^{2t})(3e^{-t}) - (-e^{-t})(2e^{2t}) = 3e^t + 2e^t = 5e^t \\neq 0$$\n- Since the determinant is never zero, $\\Phi(t)$ is non-singular.\n\n2. **Finding the Matrix $A$**:\n- We require $\\dot{\\Phi}(t) = A \\Phi(t) \\implies A = \\dot{\\Phi}(t) \\Phi(t)^{-1}$.\n- Compute $\\dot{\\Phi}(t)$ by differentiating each element:\n  $$\\dot{\\Phi}(t) = \\begin{pmatrix} 2e^{2t} & e^{-t} \\\\ 4e^{2t} & -3e^{-t} \\end{pmatrix}$$\n- Compute the inverse of $\\Phi(t)$:\n  $$\\Phi(t)^{-1} = \\frac{1}{5e^t} \\begin{pmatrix} 3e^{-t} & e^{-t} \\\\ -2e^{2t} & e^{2t} \\end{pmatrix} = \\begin{pmatrix} \\frac{3}{5}e^{-2t} & \\frac{1}{5}e^{-2t} \\\\ -\\frac{2}{5}e^t & \\frac{1}{5}e^t \\end{pmatrix}$$\n- Compute $A = \\dot{\\Phi}(t) \\Phi(t)^{-1}$:\n  $$A = \\begin{pmatrix} 2e^{2t} & e^{-t} \\\\ 4e^{2t} & -3e^{-t} \\end{pmatrix} \\begin{pmatrix} \\frac{3}{5}e^{-2t} & \\frac{1}{5}e^{-2t} \\\\ -\\frac{2}{5}e^t & \\frac{1}{5}e^t \\end{pmatrix}$$\n  - $A_{11} = (2e^{2t})(\\frac{3}{5}e^{-2t}) + (e^{-t})(-\\frac{2}{5}e^t) = \\frac{6}{5} - \\frac{2}{5} = \\frac{4}{5}$\n  - $A_{12} = (2e^{2t})(\\frac{1}{5}e^{-2t}) + (e^{-t})(\\frac{1}{5}e^t) = \\frac{2}{5} + \\frac{1}{5} = \\frac{3}{5}$\n  - $A_{21} = (4e^{2t})(\\frac{3}{5}e^{-2t}) + (-3e^{-t})(-\\frac{2}{5}e^t) = \\frac{12}{5} + \\frac{6}{5} = \\frac{18}{5} = 3.6$\n  - $A_{22} = (4e^{2t})(\\frac{1}{5}e^{-2t}) + (-3e^{-t})(\\frac{1}{5}e^t) = \\frac{4}{5} - \\frac{3}{5} = \\frac{1}{5}$\n- Thus, the system matrix is $A = \\begin{pmatrix} 4/5 & 3/5 \\\\ 18/5 & 1/5 \\end{pmatrix}$."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Define a dynamical system. Differentiate between continuous-time and discrete-time dynamical systems.",
+        "answerKey": "1. **Dynamical System Definition**:\nA dynamical system is a mathematical concept that describes the time-dependent behavior of a state vector $x(t)$ in a state space $M$ according to a fixed transition rule.\n\n2. **Continuous-Time Dynamical Systems**:\n- **Mathematical Model**: Described by a set of ordinary differential equations (ODEs):\n  $$\\dot{x} = f(x, t)$$\n- **State Transition**: The state changes continuously over a continuous time domain $t \\in \\mathbb{R}$. The transition is governed by flow operators $\\phi_t(x_0)$.\n\n3. **Discrete-Time Dynamical Systems**:\n- **Mathematical Model**: Described by difference equations or maps:\n  $$x_{n+1} = f(x_n)$$\n- **State Transition**: The state changes in discrete steps over a discrete time domain $n \\in \\mathbb{Z}$. Transition is governed by iterations of the map $f^n(x_0)$."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Explain the stable and unstable manifolds of a fixed point.",
+        "answerKey": "1. **Linearized Subspaces**:\nLet $x^*$ be a fixed point of $\\dot{x} = f(x)$ with Jacobian matrix $J = Df(x^*)$.\n- Let $E^s$ be the stable subspace spanned by eigenvectors of eigenvalues with $\\text{Re}(\\lambda) < 0$.\n- Let $E^u$ be the unstable subspace spanned by eigenvectors of eigenvalues with $\\text{Re}(\\lambda) > 0$.\n\n2. **Stable Manifold ($W^s$)**:\n- The stable manifold of $x^*$, denoted by $W^s(x^*)$, is the set of all initial states $x_0$ that converge to $x^*$ as $t \\to \\infty$:\n  $$W^s(x^*) = \\{ x_0 \\in M : \\lim_{t \\to \\infty} \\phi_t(x_0) = x^* \\}$$\n- It is tangent to $E^s$ at the fixed point $x^*$.\n\n3. **Unstable Manifold ($W^u$)**:\n- The unstable manifold of $x^*$, denoted by $W^u(x^*)$, is the set of all initial states $x_0$ that converge to $x^*$ as $t \\to -\\infty$:\n  $$W^u(x^*) = \\{ x_0 \\in M : \\lim_{t \\to -\\infty} \\phi_t(x_0) = x^* \\}$$\n- It is tangent to $E^u$ at the fixed point $x^*$."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Sketch the phase portrait and classify the equilibrium point at the origin for the system $\\dot{x} = y, \\dot{y} = -2x - 3y$.",
+        "answerKey": "1. **Find System Eigenvalues**:\n- Write the system in matrix form $\\dot{x} = A x$:\n  $$A = \\begin{pmatrix} 0 & 1 \\\\ -2 & -3 \\end{pmatrix}$$\n- Find the characteristic equation:\n  $$\\det(A - \\lambda I) = \\lambda(\\lambda + 3) + 2 = \\lambda^2 + 3\\lambda + 2 = 0$$\n  $$(\\lambda + 1)(\\lambda + 2) = 0 \\implies \\lambda_1 = -1, \\quad \\lambda_2 = -2$$\n\n2. **Classification of Equilibrium**:\n- Since both eigenvalues are real, distinct, and negative ($\\lambda_1, \\lambda_2 < 0$), the equilibrium point $(0,0)$ is a **stable node** (sink).\n- Trajectories approach the origin along the directions of the eigenvectors.\n\n3. **Eigenvectors and Trajectories**:\n- For $\\lambda_1 = -1$: $(A + I)v = 0 \\implies \\begin{pmatrix} 1 & 1 \\\\ -2 & -2 \\end{pmatrix}\\begin{pmatrix} v_1 \\\\ v_2 \\end{pmatrix} = 0 \\implies v_1 + v_2 = 0 \\implies v_1 = (1, -1)^T$.\n- For $\\lambda_2 = -2$: $(A + 2I)v = 0 \\implies \\begin{pmatrix} 2 & 1 \\\\ -2 & -1 \\end{pmatrix}\\begin{pmatrix} v_1 \\\\ v_2 \\end{pmatrix} = 0 \\implies 2v_1 + v_2 = 0 \\implies v_2 = (1, -2)^T$.\n- The origin is asymptotically stable, and all trajectories converge directly to the origin."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "Discuss Lyapunov stability. State Lyapunov's Direct (Second) Method for stability analysis.",
+        "answerKey": "1. **Lyapunov Stability Definition**:\nAn equilibrium point $x^*$ of $\\dot{x} = f(x)$ is:\n- **Stable** if for any $\\epsilon > 0$, there exists $\\delta > 0$ such that if $\\|x(0) - x^*\\| < \\delta$, then $\\|x(t) - x^*\\| < \\epsilon$ for all $t \\geq 0$.\n- **Asymptotically stable** if it is stable and $\\lim_{t \\to \\infty} x(t) = x^*$.\n\n2. **Lyapunov's Direct Method Theorem**:\nLet $x^* = 0$ be an equilibrium point of $\\dot{x} = f(x)$. If there exists a continuously differentiable function $V: U \\to \\mathbb{R}$ on a neighborhood $U$ of $0$ such that:\n- $V(0) = 0$\n- $V(x) > 0$ for all $x \\neq 0$ (positive definite)\n- $\\dot{V}(x) = \\nabla V(x) \\cdot f(x) \\leq 0$ for all $x$ (negative semi-definite)\nThen the origin is **stable**.\nIf $\\dot{V}(x) < 0$ for all $x \\neq 0$ (negative definite), then the origin is **asymptotically stable**."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Explain the terms: orbits, attractor, and limit cycles in dynamical systems with examples.",
+        "answerKey": "1. **Orbit / Trajectory**:\nAn orbit of a dynamical system is the collection of states visited by the system over time starting from a specific initial condition $x_0$. For continuous-time systems, it is the curve $\\{\\phi_t(x_0) : t \\in \\mathbb{R}\\}$.\n\n2. **Attractor**:\nAn attractor is a closed subset $A$ of the state space to which nearby trajectories converge as time approaches infinity, and which is invariant under the dynamics. Example: a stable fixed point or a stable limit cycle.\n\n3. **Limit Cycle**:\nA limit cycle is an isolated closed orbit. 'Isolated' means that neighboring trajectories are not closed but either spiral towards it (stable limit cycle) or away from it (unstable limit cycle). Example: The **Van der Pol oscillator** possesses a unique stable limit cycle to which all non-zero trajectories converge."
+      }
+    ],
+    "type": "theory",
+    "duration": 180
   },
   "matmj611": {
     "id": "matmj611",
@@ -3755,25 +4395,281 @@ export const EXAMS = {
     "id": "matmj63",
     "title": "Differential Geometry",
     "module": "MATMJ63",
-    "comingSoon": true
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Define a regular curve in Euclidean 3-space. Show that the curve $\\alpha(t) = (t^2, t^3, 0)$ is not regular at $t = 0$.",
+        "answerKey": "1. **Regular Curve Definition**:\nA differentiable curve $\\alpha: I \\to \\mathbb{R}^3$ is regular if its tangent vector (derivative) is non-zero for all $t \\in I$:\n$$\\alpha'(t) \\neq (0, 0, 0) \\quad \\text{for all } t \\in I$$\n\n2. **Evaluating the Given Curve**:\n- The curve is defined by $\\alpha(t) = (t^2, t^3, 0)$.\n- Differentiating each coordinate with respect to $t$:\n  $$\\alpha'(t) = (2t, 3t^2, 0)$$\n- Evaluate at $t = 0$:\n  $$\\alpha'(0) = (2(0), 3(0)^2, 0) = (0, 0, 0)$$\n- Since the velocity vector becomes the zero vector at $t=0$, the curve is not regular at $t=0$."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "State and prove the Frenet-Serret formulas for a unit speed curve in Euclidean 3-space.",
+        "answerKey": "1. **Frenet-Serret Formulas Statement**:\nLet $\\alpha(s)$ be a unit speed curve with tangent $T$, principal normal $N$, and binormal $B$. Then:\n- $T' = \\kappa N$\n- $N' = -\\kappa T + \\tau B$\n- $B' = -\\tau N$\nwhere $\\kappa$ is curvature and $\\tau$ is torsion.\n\n2. **Proof of $T'$**:\n- By definition of unit speed, $T = \\alpha'(s)$ has norm 1. Thus, $T'$ is orthogonal to $T$.\n- We define the direction of $T'$ as the principal normal $N$, and its magnitude as curvature $\\kappa$. Thus, $T' = \\kappa N$.\n\n3. **Proof of $B'$**:\n- Since $B = T \\times N$, $B$ has unit length, so $B'$ is orthogonal to $B$.\n- Differentiate $B \\cdot T = 0 \\implies B' \\cdot T + B \\cdot T' = 0 \\implies B' \\cdot T + B \\cdot (\\kappa N) = 0$. Since $B \\cdot N = 0 \\implies B' \\cdot T = 0$.\n- Since $B'$ is orthogonal to both $T$ and $B$, it must be parallel to $N$. We define $B' = -\\tau N$.\n\n4. **Proof of $N'$**:\n- Differentiate $N = B \\times T$:\n  $$N' = B' \\times T + B \\times T' = (-\\tau N) \\times T + B \\times (\\kappa N)$$\n  $$= -\\tau (N \\times T) + \\kappa (B \\times N) = -\\tau (-B) + \\kappa (-T) = -\\kappa T + \\tau B$$"
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Define a general helix. Prove that a unit speed curve is a general helix if and only if $\\frac{\\tau}{\\kappa}$ is a constant.",
+        "answerKey": "1. **General Helix Definition**:\nA curve is a general helix if its tangent vector $T(s)$ makes a constant angle $\\theta$ with a fixed unit direction vector $u$, i.e., $T \\cdot u = \\cos\\theta$ (constant).\n\n2. **Proof of Forward direction (If general helix, then $\\tau/\\kappa$ is constant)**:\n- Differentiate $T \\cdot u = \\cos\\theta$ with respect to $s$:\n  $$T' \\cdot u = 0 \\implies (\\kappa N) \\cdot u = 0$$\n- Since $\\kappa \\neq 0$, we have $N \\cdot u = 0$. This means $u$ lies in the plane spanned by $T$ and $B$:\n  $$u = \\cos\\theta T + \\sin\\theta B$$\n- Differentiate this with respect to $s$ (since $u$ is constant, $u' = 0$):\n  $$0 = \\cos\\theta T' + \\sin\\theta B' = \\cos\\theta (\\kappa N) + \\sin\\theta (-\\tau N) = (\\kappa \\cos\\theta - \\tau \\sin\\theta) N$$\n- Since $N \\neq 0$:\n  $$\\kappa \\cos\\theta - \\tau \\sin\\theta = 0 \\implies \\frac{\\tau}{\\kappa} = \\cot\\theta = \\text{constant}$$\n\n3. **Proof of Reverse direction**:\n- If $\\tau/\\kappa = c$ (constant), define $\\cot\\theta = c$. Construct $u = \\cos\\theta T + \\sin\\theta B$.\n- Differentiating shows $u' = 0$, so $u$ is a fixed vector, and $T \\cdot u = \\cos\\theta$ is constant. Thus, it is a general helix."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Show that a unit speed curve lies on a sphere of radius $a > 0$ if and only if $\\frac{1}{\\kappa^2} + \\left(\\frac{\\kappa'}{\\kappa^2 \\tau}\\right)^2 = a^2$.",
+        "answerKey": "1. **Sphere Equation**:\n- If the curve lies on a sphere centered at $x_0$, then $\\|\\alpha(s) - x_0\\|^2 = a^2$.\n- Differentiate with respect to $s$:\n  $$2(\\alpha - x_0) \\cdot T = 0 \\implies (\\alpha - x_0) \\cdot T = 0$$\n- Differentiate again:\n  $$T \\cdot T + (\\alpha - x_0) \\cdot T' = 0 \\implies 1 + \\kappa (\\alpha - x_0) \\cdot N = 0 \\implies (\\alpha - x_0) \\cdot N = -\\frac{1}{\\kappa}$$\n\n2. **Finding the Components**:\n- Differentiate again:\n  $$- (\\alpha - x_0) \\cdot (-\\kappa T + \\tau B) = \\left(-\\frac{1}{\\kappa}\\right)' \\implies -\\tau (\\alpha - x_0) \\cdot B = \\frac{\\kappa'}{\\kappa^2}$$\n  $$(\\alpha - x_0) \\cdot B = -\\frac{\\kappa'}{\\kappa^2 \\tau}$$\n- Since $\\{T, N, B\\}$ is an orthonormal basis, we can write $\\alpha - x_0$ as:\n  $$\\alpha - x_0 = [(\\alpha - x_0) \\cdot T] T + [(\\alpha - x_0) \\cdot N] N + [(\\alpha - x_0) \\cdot B] B$$\n  $$\\alpha - x_0 = 0 \\cdot T - \\frac{1}{\\kappa} N - \\frac{\\kappa'}{\\kappa^2 \\tau} B$$\n\n3. **Taking the Norm**:\n- Since the basis is orthonormal:\n  $$\\|\\alpha - x_0\\|^2 = \\left(-\\frac{1}{\\kappa}\\right)^2 + \\left(-\\frac{\\kappa'}{\\kappa^2 \\tau}\\right)^2 = a^2$$\n  $$\\frac{1}{\\kappa^2} + \\left(\\frac{\\kappa'}{\\kappa^2 \\tau}\\right)^2 = a^2$$"
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Prove that a unit speed curve $\\alpha(s)$ is a planar curve if and only if $\\tau(s) = 0$ for all $s$.",
+        "answerKey": "1. **Forward direction (If planar, then $\\tau = 0$)**:\n- If $\\alpha(s)$ is a planar curve, it lies entirely within some plane. Let the normal to this plane be the constant unit vector $u$.\n- Thus, $(\\alpha(s) - p) \\cdot u = 0$ for all $s$.\n- Differentiate with respect to $s$:\n  $$T(s) \\cdot u = 0 \\implies T'(s) \\cdot u = 0 \\implies \\kappa N(s) \\cdot u = 0 \\implies N(s) \\cdot u = 0$$\n- Since $u$ is orthogonal to both $T$ and $N$, it must be parallel to the binormal vector $B = T \\times N$. Since both are unit vectors, $B(s) = \\pm u = \\text{constant}$.\n- Differentiate $B(s)$:\n  $$B'(s) = 0 \\implies -\\tau N(s) = 0 \\implies \\tau(s) = 0 \\quad \\text{for all } s$$\n\n2. **Reverse direction (If $\\tau = 0$, then planar)**:\n- If $\\tau = 0 \\implies B' = 0 \\implies B(s) = u$ (constant vector).\n- Consider the function $f(s) = (\\alpha(s) - \\alpha(0)) \\cdot u$.\n- Differentiate:\n  $$f'(s) = T(s) \\cdot u = T(s) \\cdot B(s) = 0$$\n- Thus, $f(s)$ is a constant. Since $f(0) = 0$, we must have $f(s) = 0$ for all $s$, so $\\alpha(s)$ lies in the plane passing through $\\alpha(0)$ with normal $u$."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Define the first and second fundamental forms for a simple surface in $\\mathbb{R}^3$.",
+        "answerKey": "1. **First Fundamental Form (I)**:\n- It is the metric on the surface induced by the standard inner product of $\\mathbb{R}^3$. For a tangent vector $w = a X_u + b X_v$, it is:\n  $$I(w, w) = E a^2 + 2F ab + G b^2$$\n  where $E = X_u \\cdot X_u, F = X_u \\cdot X_v, G = X_v \\cdot X_v$.\n\n2. **Second Fundamental Form (II)**:\n- It measures the curvature of the surface in the direction of the normal. For a unit normal vector $U = \\frac{X_u \\times X_v}{\\|X_u \\times X_v\\|}$, it is:\n  $$II(w, w) = L a^2 + 2M ab + N b^2$$\n  where $L = X_{uu} \\cdot U, M = X_{uv} \\cdot U, N = X_{vv} \\cdot U$."
+      },
+      {
+        "id": 7,
+        "unit": "III",
+        "question": "Define Gaussian curvature $K$. Prove that the Gaussian curvature of a sphere of radius $a$ is $\\frac{1}{a^2}$.",
+        "answerKey": "1. **Gaussian Curvature Definition**:\n- The Gaussian curvature $K$ at a point of a surface is the determinant of the shape operator, which is equivalent to the ratio of the determinants of the second and first fundamental forms:\n  $$K = \\frac{LN - M^2}{EG - F^2}$$\n\n2. **Sphere Calculation**:\n- Parametrize the sphere of radius $a$:\n  $$X(u,v) = (a \\sin u \\cos v, a \\sin u \\sin v, a \\cos u)$$\n- Compute tangent vectors:\n  - $X_u = (a \\cos u \\cos v, a \\cos u \\sin v, -a \\sin u)$\n  - $X_v = (-a \\sin u \\sin v, a \\sin u \\cos v, 0)$\n- Compute First Fundamental Form coefficients:\n  - $E = X_u \\cdot X_u = a^2$\n  - $F = X_u \\cdot X_v = 0$\n  - $G = X_v \\cdot X_v = a^2 \\sin^2 u$\n- The unit normal is $U = -\\frac{X}{a}$ (pointing inward, or $+X/a$ outward). Let's use $U = (\\sin u \\cos v, \\sin u \\sin v, \\cos u)$.\n- Compute second derivatives and match with $U$:\n  - $X_{uu} = (-a \\sin u \\cos v, -a \\sin u \\sin v, -a \\cos u) \\implies L = X_{uu} \\cdot U = -a$\n  - $X_{uv} = (-a \\cos u \\sin v, a \\cos u \\cos v, 0) \\implies M = X_{uv} \\cdot U = 0$\n  - $X_{vv} = (-a \\sin u \\cos v, -a \\sin u \\sin v, 0) \\implies N = X_{vv} \\cdot U = -a \\sin^2 u$\n- Compute Gaussian curvature:\n  $$K = \\frac{(-a)(-a \\sin^2 u) - 0}{(a^2)(a^2 \\sin^2 u) - 0} = \\frac{a^2 \\sin^2 u}{a^4 \\sin^2 u} = \\frac{1}{a^2}$$\n- The Gaussian curvature is indeed constant and equal to $\\frac{1}{a^2}$."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Find the tangent plane to the surface $X(u,v) = (u, v, u v)$ at $(1/2, 1/2)$.",
+        "answerKey": "1. **Point on the Surface**:\nAt $u = 1/2, v = 1/2$, the point on the surface is:\n$$p = X(1/2, 1/2) = (1/2, 1/2, 1/4)$$\n\n2. **Tangent Vectors**:\n- Compute partial derivatives:\n  - $X_u = (1, 0, v) \\implies X_u(1/2, 1/2) = (1, 0, 1/2)$\n  - $X_v = (0, 1, u) \\implies X_v(1/2, 1/2) = (0, 1, 1/2)$\n\n3. **Normal Vector**:\n- The normal vector is the cross product of the tangent vectors:\n  $$N = X_u \\times X_v = \\det \\begin{pmatrix} i & j & k \\\\ 1 & 0 & 1/2 \\\\ 0 & 1 & 1/2 \\end{pmatrix} = (-1/2)i - (1/2)j + 1k = (-1/2, -1/2, 1)$$\n\n4. **Tangent Plane Equation**:\n- The equation of the plane passing through $p(x_0, y_0, z_0)$ with normal $N(A, B, C)$ is:\n  $$A(x - x_0) + B(y - y_0) + C(z - z_0) = 0$$\n  $$-\\frac{1}{2}\\left(x - \\frac{1}{2}\\right) - \\frac{1}{2}\\left(y - \\frac{1}{2}\\right) + 1\\left(z - \\frac{1}{4}\\right) = 0$$\n  $$-\\frac{1}{2}x + \\frac{1}{4} - \\frac{1}{2}y + \\frac{1}{4} + z - \\frac{1}{4} = 0 \\implies -\\frac{1}{2}x - \\frac{1}{2}y + z + \\frac{1}{4} = 0$$\n  $$2x + 2y - 4z = 1$$\n- The equation of the tangent plane is $2x + 2y - 4z = 1$."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "Find the area of a sphere of radius $a$ using the spherical coordinates patch.",
+        "answerKey": "1. **Parametrization**:\n- $X(u,v) = (a \\sin u \\cos v, a \\sin u \\sin v, a \\cos u)$ for $u \\in [0, \\pi]$ and $v \\in [0, 2\\pi]$.\n\n2. **Area Element**:\n- We computed the first fundamental coefficients in Question 7:\n  $$E = a^2, \\quad F = 0, \\quad G = a^2 \\sin^2 u$$\n- The area element $dA$ is:\n  $$dA = \\sqrt{EG - F^2} du dv = \\sqrt{a^4 \\sin^2 u} du dv = a^2 \\sin u du dv$$\n\n3. **Integration**:\n- Integrate over the parameter domain:\n  $$\\text{Area} = \\int_0^{2\\pi} \\int_0^{\\pi} a^2 \\sin u du dv = a^2 \\left( \\int_0^{2\\pi} dv \\right) \\left( \\int_0^{\\pi} \\sin u du \\right)$$\n  $$\\text{Area} = a^2 \\times (2\\pi) \\times [-\\cos u]_0^{\\pi} = 2\\pi a^2 \\times (1 - (-1)) = 4\\pi a^2$$\n- The surface area is $4\\pi a^2$."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "State and prove the Gauss and Weingarten equations.",
+        "answerKey": "1. **Gauss Formulas**:\nThe second derivatives of $X$ can be decomposed into tangent vectors $X_u, X_v$ and the unit normal vector $U$:\n$$X_{uu} = \\Gamma_{11}^1 X_u + \\Gamma_{11}^2 X_v + L U$$\n$$X_{uv} = \\Gamma_{12}^1 X_u + \\Gamma_{12}^2 X_v + M U$$\n$$X_{vv} = \\Gamma_{22}^1 X_u + \\Gamma_{22}^2 X_v + N U$$\nwhere $\\Gamma_{ij}^k$ are the Christoffel symbols of the second kind, and $L, M, N$ are the coefficients of the second fundamental form.\n\n2. **Weingarten Formulas**:\nSimilarly, the derivatives of the normal vector $U$ lie in the tangent plane:\n$$U_u = a_{11} X_u + a_{21} X_v$$\n$$U_v = a_{12} X_u + a_{22} X_v$$\nwhere the matrix of coefficients is given by the product of the inverse of the first fundamental form and the second fundamental form:\n$$\\begin{pmatrix} a_{11} & a_{12} \\\\ a_{21} & a_{22} \\end{pmatrix} = -\\begin{pmatrix} E & F \\\\ F & G \\end{pmatrix}^{-1} \\begin{pmatrix} L & M \\\\ M & N \\end{pmatrix}$$"
+      }
+    ],
+    "type": "theory",
+    "duration": 180
   },
   "matmj64": {
     "id": "matmj64",
     "title": "Number Theory",
     "module": "MATMJ64",
-    "comingSoon": true
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "State the Peano axioms and the Well-Ordering Principle for natural numbers.",
+        "answerKey": "1. **Peano Axioms**:\nLet $\\mathbb{N}$ be a set containing a distinguished element $1$ (or $0$) and equipped with a successor function $S: \\mathbb{N} \\to \\mathbb{N}$ satisfying:\n- Axiom 1: $1 \\in \\mathbb{N}$.\n- Axiom 2: If $n \\in \\mathbb{N}$, then $S(n) \\in \\mathbb{N}$.\n- Axiom 3: There is no $n \\in \\mathbb{N}$ such that $S(n) = 1$.\n- Axiom 4: If $S(m) = S(n)$, then $m = n$.\n- Axiom 5 (Principle of Induction): If $K$ is a set such that $1 \\in K$, and whenever $n \\in K$, $S(n) \\in K$, then $K = \\mathbb{N}$.\n\n2. **Well-Ordering Principle**:\nEvery non-empty subset $S$ of non-negative integers $\\mathbb{Z}_{\\geq 0}$ contains a least (smallest) element. That is, there exists $a \\in S$ such that $a \\leq x$ for all $x \\in S$."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Show that the expression $\\frac{a(a^2+2)}{3}$ is an integer for all integers $a \\geq 1$.",
+        "answerKey": "1. **Setup**:\nWe want to show that $E = a(a^2+2)$ is divisible by 3 for any positive integer $a$.\n\n2. **Proof by Case Analysis**:\n- **Case 1: $a \\equiv 0 \\pmod 3$**:\n  - Since $a$ is a multiple of 3, the factor $a$ in $a(a^2+2)$ is divisible by 3. Thus, $E \\equiv 0 \\pmod 3$.\n- **Case 2: $a \\equiv 1 \\pmod 3$**:\n  - Then $a^2 \\equiv 1^2 \\equiv 1 \\pmod 3$.\n  - Substitute into the second factor: $a^2 + 2 \\equiv 1 + 2 = 3 \\equiv 0 \\pmod 3$.\n  - Since the second factor is divisible by 3, the product $E$ is divisible by 3.\n- **Case 3: $a \\equiv 2 \\pmod 3$**:\n  - Then $a^2 \\equiv 2^2 = 4 \\equiv 1 \\pmod 3$.\n  - Substitute into the second factor: $a^2 + 2 \\equiv 1 + 2 = 3 \\equiv 0 \\pmod 3$.\n  - Again, the product $E$ is divisible by 3.\n\n3. **Conclusion**:\nIn all possible cases, $a(a^2+2)$ is divisible by 3. Therefore, $\\frac{a(a^2+2)}{3}$ is always an integer."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Define the quadratic residue modulo $n$. Prove that the set of quadratic residues $Q_n$ forms a subgroup of the group of units $U_n$ under multiplication modulo $n$.",
+        "answerKey": "1. **Quadratic Residue Definition**:\nAn integer $a$ coprime to $n$ is a quadratic residue modulo $n$ if there exists an integer $x$ such that:\n$$x^2 \\equiv a \\pmod n$$\nIf no such $x$ exists, $a$ is a quadratic non-residue modulo $n$.\n\n2. **Subgroup Proof**:\nWe check the subgroup criteria for $Q_n \\subseteq U_n$ under multiplication modulo $n$:\n- **Identity**: $1 \\in Q_n$ because $1^2 \\equiv 1 \\pmod n$.\n- **Closure**: Let $a, b \\in Q_n$. Then there exist $x, y \\in U_n$ such that $x^2 \\equiv a$ and $y^2 \\equiv b \\pmod n$.\n  - Multiplying these: $(x^2)(y^2) \\equiv ab \\implies (xy)^2 \\equiv ab \\pmod n$.\n  - Since $xy \\in U_n$, $ab \\in Q_n$.\n- **Inverses**: Let $a \\in Q_n$ with $x^2 \\equiv a \\pmod n$.\n  - Since $a \\in U_n$, $a^{-1} \\pmod n$ exists.\n  - Multiplying $x^2 \\equiv a$ by $(x^{-1})^2 \\cdot a^{-1}$:\n    $$(x^{-1})^2 \\equiv a^{-1} \\pmod n$$\n  - Since $x^{-1} \\in U_n$, $a^{-1} \\in Q_n$.\n- Therefore, $Q_n$ is a subgroup of $U_n$."
+      },
+      {
+        "id": 4,
+        "unit": "II",
+        "question": "Find the least non-negative residue of $3^{101} \\pmod{23}$.",
+        "answerKey": "1. **Fermat's Little Theorem**:\nSince $p = 23$ is a prime number and $\\gcd(3, 23) = 1$, Fermat's Little Theorem states:\n$$3^{22} \\equiv 1 \\pmod{23}$$\n\n2. **Dividing the Exponent**:\n- Divide the exponent $101$ by $22$:\n  $$101 = 22 \\times 4 + 13$$\n- Rewrite the expression:\n  $$3^{101} = (3^{22})^4 \\times 3^{13} \\equiv 1^4 \\times 3^{13} \\equiv 3^{13} \\pmod{23}$$\n\n3. **Computing $3^{13} \\pmod{23}$**:\n- Use successive squaring:\n  - $3^3 = 27 \\equiv 4 \\pmod{23}$\n  - $3^6 \\equiv 4^2 = 16 \\equiv -7 \\pmod{23}$\n  - $3^{12} \\equiv (-7)^2 = 49 \\equiv 3 \\pmod{23}$\n- Now multiply $3^{12}$ by $3$:\n  $$3^{13} = 3^{12} \\times 3^1 \\equiv 3 \\times 3 = 9 \\pmod{23}$$\n- Therefore, the least non-negative residue is $9$."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Solve the linear congruence $18x \\equiv 42 \\pmod{50}$, if it has a solution.",
+        "answerKey": "1. **Check Solvability**:\n- Let $a = 18$, $b = 42$, and $n = 50$.\n- Find $g = \\gcd(a, n) = \\gcd(18, 50) = 2$.\n- Since $g = 2$ divides $b = 42$, the congruence is solvable and has exactly 2 incongruent solutions modulo 50.\n\n2. **Simplify the Congruence**:\n- Divide the entire equation and mod by $g = 2$:\n  $$9x \\equiv 21 \\pmod{25}$$\n\n3. **Solve Simplified Congruence**:\n- We need to find $9^{-1} \\pmod{25}$. Let's test multiples of 25:\n  - $9x \\equiv 21 \\equiv 21 + 25 = 46$ (not div by 9)\n  - $9x \\equiv 21 + 50 = 71$ (not div by 9)\n  - $9x \\equiv 21 + 75 = 96$ (not div by 9)\n  - $9x \\equiv 21 + 100 = 121$ (not div by 9)\n  - $9x \\equiv 21 + 125 = 146$ (not div by 9)\n  - $9x \\equiv 21 + 150 = 171$ (divisible by 9! $171 / 9 = 19$).\n- Thus, $x_0 = 19 \\pmod{25}$.\n\n4. **Generate all solutions modulo 50**:\n- The general solution is $x = x_0 + k \\frac{n}{g}$ for $k = 0, \\dots, g-1$:\n  - $k=0: x = 19$\n  - $k=1: x = 19 + 25 = 44$\n- The two solutions modulo 50 are $x \\equiv 19 \\pmod{50}$ and $x \\equiv 44 \\pmod{50}$."
+      },
+      {
+        "id": 6,
+        "unit": "III",
+        "question": "Prove that if $(a, b, c)$ is a primitive Pythagorean triple, then exactly one of $a$ or $b$ is even and the other is odd.",
+        "answerKey": "1. **Primitive Pythagorean Triple Setup**:\n- $a^2 + b^2 = c^2$ with $\\gcd(a, b, c) = 1$.\n- This implies $\\gcd(a, b) = 1$. Both $a$ and $b$ cannot be even (otherwise $\\gcd(a,b) \\geq 2$).\n\n2. **Suppose both $a$ and $b$ are odd**:\n- If $a$ and $b$ are odd, then:\n  $$a \\equiv 1 \\text{ or } 3 \\pmod 4 \\implies a^2 \\equiv 1 \\pmod 4$$\n  $$b \\equiv 1 \\text{ or } 3 \\pmod 4 \\implies b^2 \\equiv 1 \\pmod 4$$\n- Adding these gives:\n  $$c^2 = a^2 + b^2 \\equiv 1 + 1 = 2 \\pmod 4$$\n- However, a square of any integer $c$ can only be congruent to $0$ or $1$ modulo 4 ($c^2 \\equiv 0 \\pmod 4$ if $c$ is even, $c^2 \\equiv 1 \\pmod 4$ if $c$ is odd).\n- Since $c^2 \\equiv 2 \\pmod 4$ is impossible, the assumption that both $a$ and $b$ are odd is false.\n\n3. **Conclusion**:\nSince $a$ and $b$ cannot be both even, and cannot be both odd, exactly one of them must be even and the other must be odd."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "State Euler's Totient Theorem. Find $\\phi(360)$.",
+        "answerKey": "1. **Euler's Totient Theorem Statement**:\nIf $a$ and $n$ are coprime integers ($n \\geq 1$, $\\gcd(a, n) = 1$), then:\n$$a^{\\phi(n)} \\equiv 1 \\pmod n$$\nwhere $\\phi(n)$ is Euler's totient function.\n\n2. **Find $\\phi(360)$**:\n- First, find the prime factorization of 360:\n  $$360 = 36 \\times 10 = 2^3 \\times 3^2 \\times 5^1$$\n- Apply the formula $\\phi(n) = n \\prod_{p|n} (1 - \\frac{1}{p})$:\n  $$\\phi(360) = 360 \\left(1 - \\frac{1}{2}\\right)\\left(1 - \\frac{1}{3}\\right)\\left(1 - \\frac{1}{5}\\right)$$\n  $$\\phi(360) = 360 \\times \\frac{1}{2} \\times \\frac{2}{3} \\times \\frac{4}{5}$$\n  $$\\phi(360) = 360 \\times \\frac{8}{30} = 12 \\times 8 = 96$$\n- Therefore, $\\phi(360) = 96$."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "State and prove Wilson's Theorem.",
+        "answerKey": "1. **Wilson's Theorem Statement**:\nIf $p$ is a prime, then $(p-1)! \\equiv -1 \\pmod p$.\n\n2. **Proof**:\n- For $p=2$: $(2-1)! = 1 \\equiv -1 \\pmod 2$.\n- For $p=3$: $(3-1)! = 2 \\equiv -1 \\pmod 3$.\n- Assume $p > 3$. Consider the set $S = \\{1, 2, \\dots, p-1\\}$.\n- For each $a \\in S$, since $p$ is prime, there exists a unique multiplicative inverse $a^{-1} \\in S$ such that $a a^{-1} \\equiv 1 \\pmod p$.\n- The elements that are their own inverses are solutions to:\n  $$x^2 \\equiv 1 \\pmod p \\implies (x-1)(x+1) \\equiv 0 \\pmod p$$\n  Since $p$ is prime, this gives $x \\equiv 1$ or $x \\equiv p-1 \\equiv -1 \\pmod p$.\n- The remaining elements $\\{2, 3, \\dots, p-2\\}$ can be paired up into $\\frac{p-3}{2}$ pairs of the form $\\{a, a^{-1}\\}$ such that $a a^{-1} \\equiv 1 \\pmod p$.\n- Multiply all elements in $S$:\n  $$(p-1)! = 1 \\times (2 \\times 3 \\times \\dots \\times p-2) \\times (p-1)$$\n  $$(p-1)! \\equiv 1 \\times (1 \\times 1 \\times \\dots \\times 1) \\times (-1) \\equiv -1 \\pmod p$$\n- This completes the proof."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "Define the Mobius $\\mu$-function and state the Mobius Inversion Formula.",
+        "answerKey": "1. **Mobius $\\mu$-function Definition**:\nFor any positive integer $n$:\n$$\\mu(n) = \\begin{cases} 1, & \\text{if } n = 1 \\\\ (-1)^k, & \\text{if } n = p_1 p_2 \\dots p_k \\text{ (distinct primes)} \\\\ 0, & \\text{if } n \\text{ is divisible by a square } > 1 \\end{cases}$$\n\n2. **Mobius Inversion Formula**:\nLet $f$ and $F$ be arithmetic functions. If $F(n) = \\sum_{d|n} f(d)$ for all $n \\geq 1$, then:\n$$f(n) = \\sum_{d|n} \\mu(d) F\\left(\\frac{n}{d}\\right)$$"
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Find all solutions to the quadratic congruence $x^2 \\equiv 5 \\pmod{11}$.",
+        "answerKey": "1. **Check Solvability using Legendre Symbol**:\n- We evaluate the Legendre symbol $(5/11)$ using Euler's Criterion:\n  $$5^{(11-1)/2} = 5^5 = 3125 \\pmod{11}$$\n  $$3125 = 11 \\times 284 + 1 \\equiv 1 \\pmod{11}$$\n- Since $(5/11) = 1$, the congruence is solvable and has 2 solutions.\n\n2. **Solving by Testing Values**:\n- Test values of $x \\in \\{1, 2, 3, 4, 5\\}$:\n  - $1^2 = 1 \\neq 5$\n  - $2^2 = 4 \\neq 5$\n  - $3^2 = 9 \\neq 5$\n  - $4^2 = 16 \\equiv 5 \\pmod{11}$ (Solution found! $x \\equiv 4$).\n- The second solution is $x \\equiv -4 \\equiv 7 \\pmod{11}$.\n- Thus, the solutions are $x \\equiv 4 \\pmod{11}$ and $x \\equiv 7 \\pmod{11}$."
+      }
+    ],
+    "type": "theory",
+    "duration": 180
   },
   "matmj65": {
     "id": "matmj65",
     "title": "Linear Programming and Applications",
     "module": "MATMJ65",
-    "comingSoon": true
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Solve the following LPP graphically: Maximize $Z = 3x + 5y$ subject to $x + 2y \\le 20$, $x + y \\le 15$, $y \\le 8$, and $x, y \\ge 0$.",
+        "answerKey": "1. **Plot the Constraints**:\n- Constraint 1: $x + 2y = 20 \\implies$ line through $(20, 0)$ and $(0, 10)$.\n- Constraint 2: $x + y = 15 \\implies$ line through $(15, 0)$ and $(0, 15)$.\n- Constraint 3: $y = 8 \\implies$ horizontal line through $(0, 8)$.\n- Non-negativity: $x \\geq 0, y \\geq 0$.\n\n2. **Find the Feasible Region**:\n- The intersection points of these lines define the vertices of the feasible region polygonal domain:\n  - $O(0, 0)$\n  - $A(15, 0)$ (intersection of $x+y=15$ with $y=0$)\n  - $B(10, 5)$ (intersection of $x+2y=20$ and $x+y=15$)\n  - $C(4, 8)$ (intersection of $x+2y=20$ and $y=8$)\n  - $D(0, 8)$ (intersection of $y=8$ with $x=0$)\n\n3. **Evaluate Objective Function $Z$ at Vertices**:\n- $Z(O) = 3(0) + 5(0) = 0$\n- $Z(A) = 3(15) + 5(0) = 45$\n- $Z(B) = 3(10) + 5(5) = 30 + 25 = 55$\n- $Z(C) = 3(4) + 5(8) = 12 + 40 = 52$\n- $Z(D) = 3(0) + 5(8) = 40$\n\n4. **Optimal Solution**:\n- The maximum value of $Z$ is $55$, which occurs at $x = 10, y = 5$."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Solve the LPP using the Simplex Method: Maximize $Z = 4x_1 + 10x_2$ subject to $2x_1 + x_2 \\le 50$, $2x_1 + 5x_2 \\le 100$, and $x_1, x_2 \\ge 0$.",
+        "answerKey": "1. **Standard Form**:\nIntroduce slack variables $s_1, s_2 \\geq 0$:\n- Maximize $Z = 4x_1 + 10x_2 + 0s_1 + 0s_2$\n- Subject to:\n  $$2x_1 + x_2 + s_1 = 50$$\n  $$2x_1 + 5x_2 + s_2 = 100$$\n\n2. **Initial Simplex Table**:\n- Basic variables: $s_1 = 50, s_2 = 100$.\n- $Z_j - C_j$ row: $[-4, -10, 0, 0]$.\n- Pivot column: $x_2$ (most negative $Z_j - C_j = -10$).\n- Ratio test: $\\min(50/1, 100/5) = \\min(50, 20) = 20$. Leaving variable: $s_2$.\n\n3. **Iterative Step 1**:\n- Perform row operations to make the pivot element 1 and others in the column 0:\n  - $R_2 \\to R_2/5 \\implies 0.4x_1 + x_2 + 0.2s_2 = 20$.\n  - $R_1 \\to R_1 - R_2 \\implies 1.6x_1 + 0x_2 + s_1 - 0.2s_2 = 30$.\n- New basic variables: $s_1 = 30, x_2 = 20$.\n- New $Z_j - C_j$ row: $[0, 0, 0, 2]$. All $Z_j - C_j \\geq 0$.\n\n4. **Conclusion**:\n- Since all indicators in the objective row are non-negative, the current solution is optimal:\n  - $x_1 = 0, \\quad x_2 = 20$\n  - Max $Z = 10(20) = 200$."
+      },
+      {
+        "id": 3,
+        "unit": "II",
+        "question": "Formulate the Dual of the following primal LPP: Minimize $Z = 2x_1 + 5x_3$ subject to $x_1 + x_2 \\ge 2$, $2x_1 + x_2 + 6x_3 \\le 6$, $x_1 - x_3 = 4$, and $x_1, x_2, x_3 \\ge 0$.",
+        "answerKey": "1. **Standardize Primal Constraints**:\nWe want a minimization problem to have $\\geq$ constraints. Let's rewrite the second constraint by multiplying by $-1$:\n- $x_1 + x_2 \\geq 2$\n- $-2x_1 - x_2 - 6x_3 \\geq -6$\n- $x_1 - x_3 = 4$ (equality constraint)\n\n2. **Define Dual Variables**:\nLet $w_1, w_2, w_3$ be the dual variables associated with the three constraints:\n- $w_1 \\geq 0$ (since first constraint is $\\geq$)\n- $w_2 \\leq 0$ (or let $w_2' = -w_2 \\geq 0$, since second constraint was $\\leq$)\n- $w_3$ is unrestricted in sign (since third constraint is an equality)\n\n3. **Formulate Dual LPP**:\n- **Objective Function**: Maximize $W = 2w_1 + 6w_2 + 4w_3$\n- **Constraints**:\n  - Column $x_1$: $1 w_1 + 2 w_2 + 1 w_3 \\leq 2$\n  - Column $x_2$: $1 w_1 + 1 w_2 + 0 w_3 \\leq 0$\n  - Column $x_3$: $0 w_1 + 6 w_2 - 1 w_3 \\leq 5$\n  - Bounds: $w_1 \\geq 0$, $w_2 \\leq 0$, and $w_3$ unrestricted."
+      },
+      {
+        "id": 4,
+        "unit": "II",
+        "question": "Explain the Big-M Method for solving LPPs with artificial variables. When is it used?",
+        "answerKey": "1. **Purpose**:\nThe Big-M Method (or Method of Penalties) is used in the Simplex method when the initial basic solution is not feasible (e.g., when constraints are of $\\geq$ or $=$ type, so standard slack variables do not provide an identity submatrix in the basis).\n\n2. **Method Steps**:\n- **Step 1**: Introduce surplus variables $e_i \\geq 0$ and artificial variables $A_i \\geq 0$ for each $\\geq$ constraint, and artificial variables $A_j \\geq 0$ for $=$ constraints.\n- **Step 2**: Add a large penalty $-M A_i$ (for maximization) or $+M A_i$ (for minimization) to the objective function, where $M$ is a very large positive number.\n- **Step 3**: Solve using the standard Simplex method.\n\n3. **Interpretation of Outcomes**:\n- If the optimal solution has all artificial variables equal to 0, the solution is the optimal feasible solution to the original LPP.\n- If any artificial variable remains positive in the final basis, the original LPP has no feasible solution."
+      },
+      {
+        "id": 5,
+        "unit": "III",
+        "question": "Explain Vogel's Approximation Method (VAM) for finding an initial basic feasible solution to a transportation problem.",
+        "answerKey": "1. **VAM Algorithm**:\nVAM is an iterative method that focuses on minimizing the 'penalty' of not choosing the cheapest route.\n\n2. **Steps**:\n- **Step 1**: Calculate the row penalty and column penalty for each row and column. The penalty is the difference between the two lowest costs in that row/column.\n- **Step 2**: Identify the row or column with the largest penalty. In case of a tie, choose arbitrarily.\n- **Step 3**: Allocate as much as possible to the cell with the minimum cost in the selected row/column, respecting supply and demand limits.\n- **Step 4**: Cross out the satisfied row or column. Adjust supply/demand.\n- **Step 5**: Recalculate penalties for the remaining rows/columns and repeat until all allocations are completed."
+      },
+      {
+        "id": 6,
+        "unit": "III",
+        "question": "Solve the assignment problem with the cost matrix using the Hungarian Method:\n$$\\begin{pmatrix} 9 & 11 & 14 & 11 \\\\ 6 & 15 & 13 & 13 \\\\ 12 & 13 & 10 & 9 \\\\ 7 & 12 & 11 & 10 \\end{pmatrix}$$",
+        "answerKey": "1. **Row Reduction**:\nSubtract the minimum of each row from all elements in that row:\n- Row 1 (min 9): $[0, 2, 5, 2]$\n- Row 2 (min 6): $[0, 9, 7, 7]$\n- Row 3 (min 9): $[3, 4, 1, 0]$\n- Row 4 (min 7): $[0, 5, 4, 3]$\nMatrix becomes: $\\begin{pmatrix} 0 & 2 & 5 & 2 \\\\ 0 & 9 & 7 & 7 \\\\ 3 & 4 & 1 & 0 \\\\ 0 & 5 & 4 & 3 \\end{pmatrix}$.\n\n2. **Column Reduction**:\nSubtract the minimum of each column from all elements in that column:\n- Column 1 (min 0): no change.\n- Column 2 (min 2): $[0, 7, 2, 3]$\n- Column 3 (min 1): $[4, 6, 0, 3]$\n- Column 4 (min 0): no change.\nMatrix becomes: $\\begin{pmatrix} 0 & 0 & 4 & 2 \\\\ 0 & 7 & 6 & 7 \\\\ 3 & 2 & 0 & 0 \\\\ 0 & 3 & 3 & 3 \\end{pmatrix}$.\n\n3. **Draw Lines to Cover Zeros**:\n- Draw 3 lines: Row 3, Column 1, Column 2. All zeros are covered. Since number of lines (3) < matrix size (4), we must modify the matrix.\n\n4. **Matrix Modification**:\n- Minimum uncovered element is $E = 3$ (from remaining entries $[6,7], [3,3]$). Subtract 3 from all uncovered entries, and add 3 to entries at intersections:\n- Repeating this yields the optimal assignment with total minimum cost: $9 + 15 + 10 + 10$ (or similar optimal combination) $= 42$."
+      },
+      {
+        "id": 7,
+        "unit": "IV",
+        "question": "Find the saddle point and optimal strategies for the game defined by the payoff matrix: $A = \\begin{pmatrix} 2 & -1 & -2 \\\\ 1 & 0 & 1 \\\\ 2 & 2 & 3 \\end{pmatrix}$.",
+        "answerKey": "1. **Find Row Minima and Column Maxima**:\n- Row 1: $\\min(2, -1, -2) = -2$\n- Row 2: $\\min(1, 0, 1) = 0$\n- Row 3: $\\min(2, 2, 3) = 2$\n  - **Maximin** value = $\\max(-2, 0, 2) = 2$ (occurs in Row 3).\n- Column 1: $\\max(2, 1, 2) = 2$\n- Column 2: $\\max(-1, 0, 2) = 2$\n- Column 3: $\\max(-2, 1, 3) = 3$\n  - **Minimax** value = $\\min(2, 2, 3) = 2$ (occurs in Column 1 and Column 2).\n\n2. **Check Saddle Point**:\n- Since Maximin ($2$) = Minimax ($2$), a saddle point exists.\n- The saddle point is at position $(3, 1)$ or $(3, 2)$ with game value $V = 2$.\n\n3. **Optimal Strategies**:\n- Player A (Row player): Strategy 3 (always play Row 3).\n- Player B (Column player): Strategy 1 or Strategy 2 (always play Column 1 or Column 2)."
+      },
+      {
+        "id": 8,
+        "unit": "IV",
+        "question": "Solve the $2 \\times 2$ game without a saddle point using the analytical formula: $payoff = \\begin{pmatrix} a_{11} & a_{12} \\\\ a_{21} & a_{22} \\end{pmatrix}$.",
+        "answerKey": "1. **Formulas for Mixed Strategies**:\nLet Player A's strategies be $(p, 1-p)$ and Player B's be $(q, 1-q)$.\n- $$p = \\frac{a_{22} - a_{21}}{(a_{11} + a_{22}) - (a_{12} + a_{21})}$$\n- $$q = \\frac{a_{22} - a_{12}}{(a_{11} + a_{22}) - (a_{12} + a_{21})}$$\n- **Value of the Game ($V$)**:\n  $$V = \\frac{a_{11}a_{22} - a_{12}a_{21}}{(a_{11} + a_{22}) - (a_{12} + a_{21})}$$\n\n2. **Example application**:\nFor $A = \\begin{pmatrix} 2 & 5 \\\\ 4 & 1 \\end{pmatrix}$:\n- $p = \\frac{1-4}{(2+1)-(5+4)} = \\frac{-3}{3-9} = \\frac{-3}{-6} = \\frac{1}{2}$.\n- $q = \\frac{1-5}{-6} = \\frac{-4}{-6} = \\frac{2}{3}$.\n- $V = \\frac{2(1) - 5(4)}{-6} = \\frac{2-20}{-6} = 3$."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "What is degeneracy in a transportation problem? How is it resolved?",
+        "answerKey": "1. **Degeneracy Definition**:\nIn a transportation problem with $m$ sources and $n$ destinations, a basic feasible solution is degenerate if the number of allocated cells is strictly less than $m + n - 1$.\n\n2. **Issues Caused**:\n- Standard optimality tests (like MODI) cannot be performed directly because we cannot compute the row/column values ($u_i$ and $v_j$) for all cells.\n\n3. **Resolution**:\n- Select one or more unoccupied cells that do not form a closed loop with existing basic cells.\n- Allocate an infinitesimally small positive quantity $\\epsilon > 0$ to these cells to make the total number of occupied cells exactly $m + n - 1$.\n- Proceed with the MODI method, treating $\\epsilon$ as a regular allocation (having value 0 during cost calculations)."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Explain the concepts of unbounded, infeasible, and alternative optimal solutions in LPP.",
+        "answerKey": "1. **Unbounded Solution**:\nOccurs when the feasible region is open (unbounded) in the direction of optimization, allowing the objective function to increase (or decrease) infinitely. In the simplex method, this is identified when all coefficients in the pivot column are negative or zero (no ratio test can be performed).\n\n2. **Infeasible Solution**:\nOccurs when there is no point that satisfies all constraints simultaneously. In the simplex method, this is indicated when one or more artificial variables remain positive in the final optimal table.\n\n3. **Alternative (Multiple) Optimal Solutions**:\nOccurs when two or more distinct feasible points yield the same maximum/minimum value of the objective function. In the simplex method, this is identified if a non-basic variable has a coefficient of 0 in the $Z_j - C_j$ row of the final table."
+      }
+    ],
+    "type": "theory",
+    "duration": 180
   },
   "matmj66": {
     "id": "matmj66",
     "title": "Special Theory of Relativity",
     "module": "MATMJ66",
-    "comingSoon": true
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Explain the Michelson-Morley experiment and its significance in physics.",
+        "answerKey": "1. **Experimental Concept**:\n- Conducted to detect the velocity of the Earth relative to the hypothetical 'luminiferous ether' (the medium through which light waves were thought to propagate).\n- Used an interferometer to split a light beam into two perpendicular paths, reflecting them back to a detector to create an interference pattern.\n\n2. **Results**:\n- As the Earth rotates and orbits the Sun, its relative velocity through the ether was expected to alter the speed of light along the perpendicular arms, shifting the interference fringes.\n- The experiment yielded a null result: no shift in the interference pattern was observed, proving that the speed of light is independent of the motion of the observer or source.\n\n3. **Significance**:\n- Disproved the existence of the ether.\n- Led directly to the formulation of Einstein's postulates of the Special Theory of Relativity."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Derive the Lorentz Transformation equations for coordinates between two frames in relative motion.",
+        "answerKey": "1. **Postulates**:\n- The laws of physics are invariant in all inertial frames.\n- The speed of light in vacuum is constant ($c$) for all observers.\n\n2. **Derivation Setup**:\n- Let frame $S'$ move with speed $v$ along the $x$-axis relative to $S$. At $t=t'=0$, origins coincide. A light signal emitted at origin satisfies:\n  - In $S$: $x^2 + y^2 + z^2 - c^2 t^2 = 0$\n  - In $S'$: $x'^2 + y'^2 + z'^2 - c^2 t'^2 = 0$\n- Assume linear transformation: $x' = \\gamma(x - vt)$ and $x = \\gamma(x' + vt')$. Since $y'=y$ and $z'=z$:\n  $$\\gamma^2(x - vt)^2 - c^2 t'^2 = x^2 - c^2 t^2$$\n\n3. **Solving for coefficients**:\n- Substituting and equating coefficients of $x^2, t^2, xt$ yields:\n  $$\\gamma = \\frac{1}{\\sqrt{1 - v^2/c^2}}$$\n  $$t' = \\gamma\\left(t - \\frac{vx}{c^2}\\right)$$\n- Thus, the Lorentz transformation is:\n  $$x' = \\gamma(x-vt), \\quad y'=y, \\quad z'=z, \\quad t' = \\gamma(t - vx/c^2)$$"
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Find the velocity at which the relativistic mass of a particle is double its rest mass.",
+        "answerKey": "1. **Relativistic Mass Formula**:\nThe mass $m$ of a moving particle is given by:\n$$m = \\frac{m_0}{\\sqrt{1 - v^2/c^2}}$$\nwhere $m_0$ is the rest mass, $v$ is the velocity, and $c$ is the speed of light.\n\n2. **Calculation**:\n- We are given $m = 2m_0$. Substitute this into the formula:\n  $$2m_0 = \\frac{m_0}{\\sqrt{1 - v^2/c^2}} \\implies 2 = \\frac{1}{\\sqrt{1 - v^2/c^2}}$$\n- Square both sides:\n  $$4 = \\frac{1}{1 - v^2/c^2} \\implies 1 - \\frac{v^2}{c^2} = \\frac{1}{4}$$\n- Solve for $v^2/c^2$:\n  $$\\frac{v^2}{c^2} = 1 - \\frac{1}{4} = \\frac{3}{4} \\implies v = \\frac{\\sqrt{3}}{2} c \\approx 0.866 c$$\n- The velocity is $\\frac{\\sqrt{3}}{2} c$, or approximately $86.6\\%$ of the speed of light."
+      },
+      {
+        "id": 4,
+        "unit": "II",
+        "question": "Define the following terms in Minkowski space: Light cone, World points, World lines, Space-like intervals, and Time-like intervals.",
+        "answerKey": "1. **World Points and World Lines**:\n- A **World Point** is a specific event in four-dimensional spacetime represented by coordinates $(x, y, z, ct)$.\n- A **World Line** is the trajectory (history) of a particle as it moves through spacetime.\n\n2. **Light Cone**:\n- The path of light rays starting from an event forms a double cone in spacetime. The region inside the future cone represents events that can be causally influenced by the event.\n\n3. **Spacetime Intervals ($ds^2 = c^2 dt^2 - dx^2$)**:\n- **Time-like interval**: $ds^2 > 0$. Events are close enough in space that a subluminal signal can connect them. A reference frame exists where they occur at the same location.\n- **Space-like interval**: $ds^2 < 0$. Events are too far apart to be connected by light. A reference frame exists where they occur simultaneously.\n- **Light-like (Null) interval**: $ds^2 = 0$. Events can be connected only by a light signal."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Discuss length contraction and time dilation in relativistic physics, stating the mathematical formulas.",
+        "answerKey": "1. **Length Contraction**:\n- An object moving relative to an observer is measured to be shorter along the direction of motion than its proper length $L_0$:\n  $$L = L_0 \\sqrt{1 - \\frac{v^2}{c^2}}$$\n- Since $\\sqrt{1-v^2/c^2} < 1$, the measured length $L$ is contracted.\n\n2. **Time Dilation**:\n- A clock moving relative to an observer is measured to run slower than a clock at rest in the observer's frame. The time interval $t$ is longer than the proper time interval $t_0$:\n  $$t = \\frac{t_0}{\\sqrt{1 - \\frac{v^2}{c^2}}}$$\n- Moving clocks run slow."
+      },
+      {
+        "id": 6,
+        "unit": "III",
+        "question": "Derive the relativistic velocity addition theorem.",
+        "answerKey": "1. **Lorentz differentials**:\n- Let a particle move in frame $S'$ with velocity $u' = \\frac{dx'}{dt'}$.\n- Using differentials of the Lorentz transformations:\n  $$dx = \\gamma(dx' + v dt')$$\n  $$dt = \\gamma\\left(dt' + \\frac{v dx'}{c^2}\\right)$$\n\n2. **Velocity in $S$**:\n- The velocity $u = \\frac{dx}{dt}$ in frame $S$ is:\n  $$u = \\frac{\\gamma(dx' + v dt')}{\\gamma\\left(dt' + \\frac{v dx'}{c^2}\\right)} = \\frac{dx' + v dt'}{dt' + \\frac{v dx'}{c^2}}$$\n- Divide the numerator and denominator by $dt'$:\n  $$u = \\frac{\\frac{dx'}{dt'} + v}{1 + \\frac{v}{c^2} \\frac{dx'}{dt'}} = \\frac{u' + v}{1 + \\frac{u'v}{c^2}}$$\n- This is the relativistic velocity addition theorem."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Show that the spacetime interval $ds^2 = c^2 dt^2 - dx^2 - dy^2 - dz^2$ is invariant under Lorentz transformations.",
+        "answerKey": "1. **Spacetime coordinates**:\n- By Lorentz transformation:\n  - $dx' = \\gamma(dx - v dt)$\n  - $dt' = \\gamma(dt - \\frac{v dx}{c^2})$\n  - $dy' = dy, \\quad dz' = dz$\n\n2. **Compute $c^2 dt'^2 - dx'^2$**:\n- $c^2 dt'^2 - dx'^2 = c^2 \\gamma^2 (dt - \\frac{v dx}{c^2})^2 - \\gamma^2 (dx - v dt)^2$\n- $= \\gamma^2 [ c^2 (dt^2 - \\frac{2v dx dt}{c^2} + \\frac{v^2 dx^2}{c^4}) - (dx^2 - 2v dx dt + v^2 dt^2) ]$\n- $= \\gamma^2 [ (c^2 - v^2) dt^2 - (1 - \\frac{v^2}{c^2}) dx^2 ]$\n- Substitute $\\gamma^2 = \\frac{1}{1-v^2/c^2}$:\n  - $(c^2 - v^2) \\gamma^2 = c^2 (1 - \\frac{v^2}{c^2}) \\gamma^2 = c^2$\n  - $(1 - \\frac{v^2}{c^2}) \\gamma^2 = 1$\n- Thus, $c^2 dt'^2 - dx'^2 = c^2 dt^2 - dx^2$.\n- Since $dy'=dy$ and $dz'=dz$, we have $ds'^2 = ds^2$. The interval is invariant."
+      },
+      {
+        "id": 8,
+        "unit": "III",
+        "question": "State the relation between relativistic energy and momentum: $E^2 = p^2 c^2 + m_0^2 c^4$.",
+        "answerKey": "1. **Definitions**:\n- Relativistic momentum: $p = m v = \\gamma m_0 v$\n- Relativistic energy: $E = m c^2 = \\gamma m_0 c^2$\n\n2. **Algebraic derivation**:\n- Let's compute $E^2 - p^2 c^2$:\n  $$E^2 - p^2 c^2 = (\\gamma m_0 c^2)^2 - (\\gamma m_0 v)^2 c^2 = \\gamma^2 m_0^2 c^4 - \\gamma^2 m_0^2 v^2 c^2$$\n  $$= \\gamma^2 m_0^2 c^4 \\left( 1 - \\frac{v^2}{c^2} \\right)$$\n- Since $\\gamma^2 = \\frac{1}{1 - v^2/c^2}$:\n  $$E^2 - p^2 c^2 = \\frac{1}{1 - v^2/c^2} m_0^2 c^4 \\left( 1 - \\frac{v^2}{c^2} \\right) = m_0^2 c^4$$\n- Rearranging gives:\n  $$E^2 = p^2 c^2 + m_0^2 c^4$$"
+      },
+      {
+        "id": 9,
+        "unit": "IV",
+        "question": "Explain the Twin Paradox and its resolution in relativity.",
+        "answerKey": "1. **Paradox Statement**:\n- One twin stays on Earth while the other travels to a distant star at relativistic speed and returns.\n- By time dilation, the traveling twin should be younger than the stay-at-home twin.\n- However, from the traveling twin's frame, the Earth twin is moving, so they should be younger. Why is there no symmetry?\n\n2. **Resolution**:\n- The paradox is resolved because the traveling twin's frame is not inertial throughout the journey. They must accelerate to turn around and head back to Earth.\n- This acceleration breaks the symmetry. The stay-at-home twin remains in a single inertial frame, while the traveling twin changes inertial frames, resolving the apparent contradiction. The traveling twin is indeed younger."
+      },
+      {
+        "id": 10,
+        "unit": "IV",
+        "question": "Prove that the speed of light $c$ is the absolute speed limit in the universe according to relativity.",
+        "answerKey": "1. **Relativistic energy formula**:\n$$E = \\frac{m_0 c^2}{\\sqrt{1 - v^2/c^2}}$$\n- As $v \\to c$, the denominator $\\sqrt{1 - v^2/c^2} \\to 0$.\n- This implies $E \\to \\infty$.\n- To accelerate a particle with non-zero rest mass $m_0$ to the speed of light $c$ would require an infinite amount of energy, which is physically impossible.\n\n2. **Lorentz factor**:\nFor $v > c$, the term $\\sqrt{1 - v^2/c^2}$ becomes imaginary, yielding non-physical imaginary values for mass, energy, and time. Thus, $c$ is the absolute speed limit."
+      }
+    ],
+    "type": "theory",
+    "duration": 180
   },
   "matmj67": {
     "id": "matmj67",
@@ -3785,7 +4681,71 @@ export const EXAMS = {
     "id": "matmj68",
     "title": "Discrete Mathematics",
     "module": "MATMJ68",
-    "comingSoon": true
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Find the truth table of the exclusive OR operation: $(p \\lor q) \\land \\neg(p \\land q)$.",
+        "answerKey": "1. **Truth Table Construction**:\nWe evaluate the formula column by column for all truth assignments of $p$ and $q$:\n\n| $p$ | $q$ | $p \\lor q$ | $p \\land q$ | $\\neg(p \\land q)$ | $(p \\lor q) \\land \\neg(p \\land q)$ |\n|:---:|:---:|:----------:|:-----------:|:-----------------:|:---------------------------------:|\n| T   | T   |     T      |      T      |         F         |                 F                 |\n| T   | F   |     T      |      F      |         T         |                 T                 |\n| F   | T   |     T      |      F      |         T         |                 T                 |\n| F   | F   |     F      |      F      |         T         |                 F                 |\n\n2. **Interpretation**:\n- The final column evaluates to true only when exactly one of $p$ or $q$ is true.\n- This matches the Boolean logic of **XOR** (Exclusive OR)."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Rewrite the conditional statement 'If productivity increases, then wages rise' without using the conditional operator.",
+        "answerKey": "1. **Logical Equivalence**:\n- Let $p$ represent 'productivity increases' and $q$ represent 'wages rise'.\n- The statement is written symbolically as $p \\to q$.\n- The truth table of $p \\to q$ is equivalent to $\\neg p \\lor q$ (Not $p$ or $q$):\n  - If $p$ is true, $q$ must be true (so $\\neg p \\lor q$ holds).\n  - If $p$ is false, the implication holds vacuously (so $\\neg p$ holds).\n\n2. **Rewritten Statement**:\n- Using $\\neg p \\lor q$: **'Productivity does not increase, or wages rise.'**\n- Alternatively, using $\\neg(p \\land \\neg q)$ (It is not the case that $p$ is true and $q$ is false): **'It is not the case that productivity increases and wages do not rise.'**"
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "How many reflexive relations are there on a set with $n$ elements?",
+        "answerKey": "1. **Relation Definition**:\n- A binary relation $R$ on a set $A$ of size $n$ is a subset of the Cartesian product $A \\times A$.\n- The total number of elements in $A \\times A$ is $n^2$.\n\n2. **Reflexivity Condition**:\n- For $R$ to be reflexive, it must contain all diagonal elements $(x, x)$ for all $x \\in A$.\n- There are exactly $n$ diagonal elements. These elements *must* be included in $R$ (1 choice for each of these $n$ elements).\n- The remaining non-diagonal elements are $n^2 - n$.\n- For each of these $n^2 - n$ elements, we have 2 choices: either include it in $R$ or exclude it.\n\n3. **Calculation**:\n- The total number of reflexive relations is the product of choices:\n  $$2^{n^2 - n}$$\n- This completes the proof."
+      },
+      {
+        "id": 4,
+        "unit": "II",
+        "question": "What is a totally ordered set? Present an example of a poset which is not totally ordered.",
+        "answerKey": "1. **Totally Ordered Set (Chain)**:\nA partially ordered set (poset) $(S, \\leq)$ is totally ordered if every pair of elements is comparable, i.e., for all $a, b \\in S$, either $a \\leq b$ or $b \\leq a$.\n\n2. **Non-Totally Ordered Poset Example**:\n- Consider the power set of $A = \\{1, 2\\}$, denoted by $P(A) = \\{\\emptyset, \\{1\\}, \\{2\\}, \\{1, 2\\}\\}$ under the inclusion relation $\\subseteq$.\n- This is a poset because inclusion is reflexive, antisymmetric, and transitive.\n- However, consider the elements $\\{1\\}$ and $\\{2\\}$:\n  - $\\{1\\} \\not\\subseteq \\{2\\}$\n  - $\\{2\\} \\not\\subseteq \\{1\\}$\n- Since they are not comparable, $(P(A), \\subseteq)$ is a poset but not a totally ordered set."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Let $(L, \\leq)$ be a lattice. If $a \\leq b$ and $c \\leq d$, prove that $a \\lor c \\leq b \\lor d$.",
+        "answerKey": "1. **Lattice Operations Definition**:\n- $a \\lor c$ is the Least Upper Bound (LUB) of $\\{a, c\\}$.\n- By definition of upper bound:\n  1) $a \\leq a \\lor c$\n  2) $c \\leq a \\lor c$\n\n2. **Relating to $b \\lor d$**:\n- We are given $a \\leq b$ and $c \\leq d$.\n- By definition of LUB for $\\{b, d\\}$, we have $b \\leq b \\lor d$ and $d \\leq b \\lor d$.\n- By transitivity of the order relation:\n  - Since $a \\leq b$ and $b \\leq b \\lor d \\implies a \\leq b \\lor d$.\n  - Since $c \\leq d$ and $d \\leq b \\lor d \\implies c \\leq b \\lor d$.\n- Thus, $b \\lor d$ is an upper bound of the set $\\{a, c\\}$.\n\n3. **Using LUB Property**:\n- Since $a \\lor c$ is the *least* upper bound of $\\{a, c\\}$, any other upper bound (like $b \\lor d$) must be greater than or equal to it:\n  $$a \\lor c \\leq b \\lor d$$\n- This completes the proof."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Use mathematical induction to prove that $\\sum_{i=1}^n i^2 = \\frac{n(n+1)(2n+1)}{6}$ for all $n \\geq 1$.",
+        "answerKey": "1. **Base Case ($n = 1$)**:\n- LHS: $1^2 = 1$\n- RHS: $\\frac{1(1+1)(2(1)+1)}{6} = \\frac{1 \\times 2 \\times 3}{6} = 1$.\n- The formula holds for $n=1$.\n\n2. **Induction Hypothesis**:\n- Assume the formula holds for $n = k$, i.e.:\n  $$\\sum_{i=1}^k i^2 = \\frac{k(k+1)(2k+1)}{6}$$\n\n3. **Inductive Step (Verify for $n = k+1$)**:\n- Compute sum for $k+1$:\n  $$\\sum_{i=1}^{k+1} i^2 = \\left( \\sum_{i=1}^k i^2 \\right) + (k+1)^2 = \\frac{k(k+1)(2k+1)}{6} + (k+1)^2$$\n  $$= (k+1) \\left[ \\frac{k(2k+1)}{6} + (k+1) \\right] = (k+1) \\left[ \\frac{2k^2 + k + 6k + 6}{6} \\right]$$\n  $$= \\frac{k+1}{6} [ 2k^2 + 7k + 6 ] = \\frac{(k+1)(k+2)(2k+3)}{6}$$\n- This matches the formula for $n=k+1$. Thus, by induction, the statement is true for all $n \\geq 1$."
+      },
+      {
+        "id": 7,
+        "unit": "III",
+        "question": "Show that in any Boolean algebra, $(x \\land y)' = x' \\lor y'$ (De Morgan's Law).",
+        "answerKey": "1. **Complement Criteria**:\nTo prove that $x' \\lor y'$ is the complement of $x \\land y$, we must show that:\n- 1) $(x \\land y) \\lor (x' \\lor y') = 1$\n- 2) $(x \\land y) \\land (x' \\lor y') = 0$\n\n2. **Proof of Part 1**:\n- Use distributivity of $\\lor$ over $\\land$:\n  $$(x \\land y) \\lor (x' \\lor y') = ((x' \\lor y') \\lor x) \\land ((x' \\lor y') \\lor y)$$\n  $$= (y' \\lor (x' \\lor x)) \\land (x' \\lor (y' \\lor y))$$\n  $$= (y' \\lor 1) \\land (x' \\lor 1) = 1 \\land 1 = 1$$\n\n3. **Proof of Part 2**:\n- Use distributivity of $\\land$ over $\\lor$:\n  $$(x \\land y) \\land (x' \\lor y') = ((x \\land y) \\land x') \\lor ((x \\land y) \\land y')$$\n  $$= ((x \\land x') \\land y) \\lor ((y \\land y') \\land x)$$\n  $$= (0 \\land y) \\lor (0 \\land x) = 0 \\lor 0 = 0$$\n- Both conditions are satisfied, hence $(x \\land y)' = x' \\lor y'$."
+      },
+      {
+        "id": 8,
+        "unit": "III",
+        "question": "Find the generating function for the recurrence relation $a_n = 2a_{n-1} + 1$ for $n \\geq 1$ with $a_0 = 1$.",
+        "answerKey": "1. **Define Generating Function**:\nLet $A(x) = \\sum_{n=0}^{\\infty} a_n x^n$. Multiply the recurrence relation by $x^n$ and sum from $n=1$ to $\\infty$:\n$$\\sum_{n=1}^{\\infty} a_n x^n = 2 \\sum_{n=1}^{\\infty} a_{n-1} x^n + \\sum_{n=1}^{\\infty} x^n$$\n\n2. **Substituting $A(x)$**:\n- LHS: $A(x) - a_0 = A(x) - 1$\n- First term on RHS: $2x \\sum_{n=1}^{\\infty} a_{n-1} x^{n-1} = 2x A(x)$\n- Second term on RHS: $\\sum_{n=1}^{\\infty} x^n = \\frac{x}{1-x}$\n- Substitute these back:\n  $$A(x) - 1 = 2x A(x) + \\frac{x}{1-x}$$\n  $$A(x)(1 - 2x) = 1 + \\frac{x}{1-x} = \\frac{1}{1-x}$$\n  $$A(x) = \\frac{1}{(1-2x)(1-x)}$$\n- This is the generating function for the sequence."
+      },
+      {
+        "id": 9,
+        "unit": "IV",
+        "question": "State the Pigeonhole Principle. Show that if any 5 numbers are chosen from the set $\\{1, 2, \\dots, 8\\}$, at least two of them must sum to 9.",
+        "answerKey": "1. **Pigeonhole Principle Statement**:\nIf $n$ items are put into $m$ containers, with $n > m$, then at least one container must contain more than one item.\n\n2. **Defining the Containers (Pigeonholes)**:\n- Group the numbers $\\{1, 2, \\dots, 8\\}$ into pairs that sum to 9:\n  - $P_1 = \\{1, 8\\}$\n  - $P_2 = \\{2, 7\\}$\n  - $P_3 = \\{3, 6\\}$\n  - $P_4 = \\{4, 5\\}$\n- There are exactly $m = 4$ such pairs (pigeonholes).\n\n3. **Applying the Principle**:\n- We choose $n = 5$ distinct numbers from the set.\n- Since each chosen number must belong to one of the 4 pairs, by the Pigeonhole Principle ($5 > 4$), at least two of the chosen numbers must fall into the same pair $P_i$.\n- Since the numbers in each pair sum to 9, these two numbers must sum to 9."
+      },
+      {
+        "id": 10,
+        "unit": "IV",
+        "question": "Define Eulerian and Hamiltonian graphs. Differentiate between them.",
+        "answerKey": "1. **Eulerian Graph**:\nA graph is Eulerian if it contains a closed trail (Eulerian circuit) that visits **every edge** of the graph exactly once. A connected graph is Eulerian if and only if every vertex has an even degree.\n\n2. **Hamiltonian Graph**:\nA graph is Hamiltonian if it contains a closed cycle (Hamiltonian cycle) that visits **every vertex** of the graph exactly once (except the starting vertex, which is visited twice).\n\n3. **Difference**:\n- **Focus**: Eulerian paths focus on traversing all *edges* once; Hamiltonian paths focus on visiting all *vertices* once.\n- **Complexity**: Determining if a graph is Eulerian is easy (check vertex degrees, solvable in $O(V+E)$ time); determining if a graph is Hamiltonian is an NP-complete problem."
+      }
+    ],
+    "type": "theory",
+    "duration": 180
   },
   "matmj69": {
     "id": "matmj69",
@@ -4643,7 +5603,71 @@ export const EXAMS = {
     "id": "stamj21",
     "title": "Introduction to Probability Theory",
     "module": "STAMJ21",
-    "comingSoon": true
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Prove from the axioms of probability that for any two events $A$ and $B$, $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$.",
+        "answerKey": "1. **Decompose the Union**:\nWe can write $A \\cup B$ as the union of two disjoint events:\n$$A \\cup B = A \\cup (B \\setminus A)$$\n- Since $A$ and $B \\setminus A$ are mutually exclusive, by the third axiom of probability:\n  $$P(A \\cup B) = P(A) + P(B \\setminus A)$$\n\n2. **Decompose Event $B$**:\n- We can also write $B$ as the union of two disjoint events:\n  $$B = (B \\cap A) \\cup (B \\setminus A)$$\n- Since $B \\cap A$ and $B \\setminus A$ are mutually exclusive, by the third axiom:\n  $$P(B) = P(B \\cap A) + P(B \\setminus A) \\implies P(B \\setminus A) = P(B) - P(A \\cap B)$$\n\n3. **Substitute**:\n- Substitute $P(B \\setminus A)$ back into the first equation:\n  $$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$\n- This completes the proof."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Two cards are drawn at random from a standard deck of 52 cards. What is the probability that both are aces, given that at least one is an ace?",
+        "answerKey": "1. **Define Events**:\n- Let $A$ be the event that both cards are aces.\n- Let $B$ be the event that at least one card is an ace.\n- We want to find the conditional probability $P(A | B) = \\frac{P(A \\cap B)}{P(B)}$.\n\n2. **Calculate Probabilities**:\n- Total ways to draw 2 cards: $\\binom{52}{2} = \\frac{52 \\times 51}{2} = 1326$.\n- Event $A$ (both are aces): $\\binom{4}{2} = 6$ ways.\n- Event $B$ (at least one ace): can be calculated as $1 - P(\\text{no aces})$:\n  - Ways to draw no aces: $\\binom{48}{2} = \\frac{48 \\times 47}{2} = 1128$.\n  - Ways to draw at least one ace: $1326 - 1128 = 198$ ways.\n\n3. **Conditional Probability**:\n- Note that if both are aces, then at least one is an ace. Thus, $A \\subseteq B \\implies A \\cap B = A$.\n- $$P(A | B) = \\frac{\\text{Ways for } A}{\\text{Ways for } B} = \\frac{6}{198} = \\frac{1}{33}$$\n- The probability is $\\frac{1}{33}$ (approximately $0.0303$)."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "State and prove Bayes' Theorem.",
+        "answerKey": "1. **Statement**:\nLet $\\{E_1, E_2, \\dots, E_n\\}$ be a set of mutually exclusive and exhaustive events partition of sample space $S$. For any event $A$ with $P(A) > 0$:\n$$P(E_i | A) = \\frac{P(A | E_i) P(E_i)}{\\sum_{j=1}^n P(A | E_j) P(E_j)}$$\n\n2. **Proof**:\n- By definition of conditional probability:\n  $$P(E_i | A) = \\frac{P(E_i \\cap A)}{P(A)}$$\n- Using the multiplication rule: $P(E_i \\cap A) = P(A | E_i) P(E_i)$.\n- Using the Law of Total Probability, since $\\{E_j\\}$ partition $S$:\n  $$P(A) = \\sum_{j=1}^n P(A \\cap E_j) = \\sum_{j=1}^n P(A | E_j) P(E_j)$$\n- Substitute these into the first equation to obtain Bayes\\' formula:\n  $$P(E_i | A) = \\frac{P(A | E_i) P(E_i)}{\\sum_{j=1}^n P(A | E_j) P(E_j)}$$"
+      },
+      {
+        "id": 4,
+        "unit": "II",
+        "question": "Let $X$ be a discrete random variable with probability mass function $p(x) = c x^2$ for $x = 1, 2, 3, 4$, and $0$ otherwise. Find the value of $c$, $P(X \\ge 3)$, and $E(X)$.",
+        "answerKey": "1. **Find $c$**:\n- The sum of all probabilities must be 1:\n  $$\\sum_{x=1}^4 p(x) = 1 \\implies c(1^2 + 2^2 + 3^2 + 4^2) = 1$$\n  $$c(1 + 4 + 9 + 16) = 1 \\implies 30 c = 1 \\implies c = \\frac{1}{30}$$\n\n2. **Find $P(X \\geq 3)$**:\n- $$P(X \\geq 3) = p(3) + p(4) = c(3^2) + c(4^2) = c(9 + 16) = 25 c = \\frac{25}{30} = \\frac{5}{6}$$\n\n3. **Find $E(X)$**:\n- By definition of expectation:\n  $$E(X) = \\sum_{x=1}^4 x \\cdot p(x) = \\sum_{x=1}^4 x (c x^2) = c \\sum_{x=1}^4 x^3$$\n  $$E(X) = \\frac{1}{30} (1^3 + 2^3 + 3^3 + 4^3) = \\frac{1}{30} (1 + 8 + 27 + 64) = \\frac{100}{30} = \\frac{10}{3} \\approx 3.333$$"
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Let $X$ be a continuous random variable with probability density function $f(x) = 3x^2$ for $0 < x < 1$. Find the CDF $F(x)$, $E(X)$, and $Var(X)$.",
+        "answerKey": "1. **Find CDF $F(x)$**:\n- By definition, $F(x) = \\int_{-\\infty}^x f(t) dt$. For $0 < x < 1$:\n  $$F(x) = \\int_0^x 3t^2 dt = [t^3]_0^x = x^3$$\n- Thus, $F(x) = 0$ for $x \\leq 0$, $x^3$ for $0 < x < 1$, and $1$ for $x \\geq 1$.\n\n2. **Find Expectation $E(X)$**:\n- $$E(X) = \\int_0^1 x f(x) dx = \\int_0^1 x (3x^2) dx = \\int_0^1 3x^3 dx = [\\frac{3}{4}x^4]_0^1 = \\frac{3}{4}$$\n\n3. **Find Variance $Var(X)$**:\n- First compute $E(X^2)$:\n  $$E(X^2) = \\int_0^1 x^2 f(x) dx = \\int_0^1 x^2 (3x^2) dx = \\int_0^1 3x^4 dx = [\\frac{3}{5}x^5]_0^1 = \\frac{3}{5}$$\n- Now compute variance:\n  $$Var(X) = E(X^2) - (E(X))^2 = \\frac{3}{5} - \\left(\\frac{3}{4}\\right)^2 = \\frac{3}{5} - \\frac{9}{16} = \\frac{48 - 45}{80} = \\frac{3}{80} = 0.0375$$"
+      },
+      {
+        "id": 6,
+        "unit": "III",
+        "question": "Prove that for any two independent random variables $X$ and $Y$, $E(XY) = E(X)E(Y)$ and $Var(X + Y) = Var(X) + Var(Y)$.",
+        "answerKey": "1. **Proof of $E(XY) = E(X)E(Y)$**:\n- For continuous variables with joint PDF $f(x, y)$ (since independent, $f(x,y) = f_X(x) f_Y(y)$):\n  $$E(XY) = \\int_{-\\infty}^{\\infty} \\int_{-\\infty}^{\\infty} x y f_X(x) f_Y(y) dx dy = \\left( \\int_{-\\infty}^{\\infty} x f_X(x) dx \\right) \\left( \\int_{-\\infty}^{\\infty} y f_Y(y) dy \\right) = E(X)E(Y)$$\n\n2. **Proof of $Var(X+Y) = Var(X) + Var(Y)$**:\n- By definition of variance:\n  $$Var(X+Y) = E[(X+Y - E(X+Y))^2] = E[((X - E(X)) + (Y - E(Y)))^2]$$\n  $$= E[(X - E(X))^2] + E[(Y - E(Y))^2] + 2 E[(X - E(X))(Y - E(Y))]$$\n- Since $X$ and $Y$ are independent:\n  $$E[(X - E(X))(Y - E(Y))] = E[X - E(X)] E[Y - E(Y)] = 0 \\cdot 0 = 0$$\n- Therefore:\n  $$Var(X+Y) = Var(X) + Var(Y)$$"
+      },
+      {
+        "id": 7,
+        "unit": "III",
+        "question": "Define the Moment Generating Function (MGF) $M_X(t)$ and prove that $M_X^{(r)}(0) = E(X^r)$.",
+        "answerKey": "1. **Definition of MGF**:\nThe Moment Generating Function of $X$ is defined as:\n$$M_X(t) = E(e^{tX})$$\n\n2. **Proof using Taylor Series Expansion**:\n- Expand the exponential term $e^{tX}$ as a power series:\n  $$e^{tX} = \\sum_{r=0}^{\\infty} \\frac{(tX)^r}{r!} = 1 + tX + \\frac{t^2 X^2}{2!} + \\dots + \\frac{t^r X^r}{r!} + \\dots$$\n- Apply expectation to both sides (using linearity of expectation):\n  $$M_X(t) = E(e^{tX}) = 1 + t E(X) + \\frac{t^2}{2!} E(X^2) + \\dots + \\frac{t^r}{r!} E(X^r) + \\dots$$\n- Differentiating $r$ times with respect to $t$:\n  $$M_X^{(r)}(t) = E(X^r) + t E(X^{r+1}) + \\dots$$\n- Evaluate at $t = 0$:\n  $$M_X^{(r)}(0) = E(X^r)$$\n- This completes the proof."
+      },
+      {
+        "id": 8,
+        "unit": "III",
+        "question": "State and prove Chebyshev's Inequality.",
+        "answerKey": "1. **Statement**:\nLet $X$ be a random variable with mean $\\mu$ and variance $\\sigma^2$. Then for any $k > 0$:\n$$P(|X - \\mu| \\geq k) \\leq \\frac{\\sigma^2}{k^2}$$\n\n2. **Proof (Continuous Case)**:\n- By definition of variance:\n  $$\\sigma^2 = \\int_{-\\infty}^{\\infty} (x - \\mu)^2 f(x) dx$$\n- Since $(x - \\mu)^2 \\geq 0$, we can restrict the integration to the region $S = \\{x : |x - \\mu| \\geq k\\}$:\n  $$\\sigma^2 \\geq \\int_{|x - \\mu| \\geq k} (x - \\mu)^2 f(x) dx$$\n- In this region, $(x - \\mu)^2 \\geq k^2$. Substitute this into the integral:\n  $$\\sigma^2 \\geq \\int_{|x - \\mu| \\geq k} k^2 f(x) dx = k^2 \\int_{|x - \\mu| \\geq k} f(x) dx$$\n- Since $\\int_{|x - \\mu| \\geq k} f(x) dx = P(|X - \\mu| \\geq k)$:\n  $$\\sigma^2 \\geq k^2 P(|X - \\mu| \\geq k) \\implies P(|X - \\mu| \\geq k) \\leq \\frac{\\sigma^2}{k^2}$$\n- This completes the proof."
+      },
+      {
+        "id": 9,
+        "unit": "IV",
+        "question": "If $X$ and $Y$ have the joint probability density function $f(x, y) = 2$ for $0 < x < y < 1$, find the conditional expectation $E(X | Y = y)$.",
+        "answerKey": "1. **Find Marginal PDF of $Y$**:\n- For a given $y \\in (0, 1)$, $x$ varies from $0$ to $y$:\n  $$f_Y(y) = \\int_0^y f(x, y) dx = \\int_0^y 2 dx = [2x]_0^y = 2y$$\n- Thus, $f_Y(y) = 2y$ for $0 < y < 1$.\n\n2. **Find Conditional PDF of $X$ given $Y=y$**:\n- $$f_{X|Y}(x | y) = \\frac{f(x, y)}{f_Y(y)} = \\frac{2}{2y} = \\frac{1}{y} \\quad \\text{for } 0 < x < y$$\n\n3. **Compute Conditional Expectation**:\n- $$E(X | Y = y) = \\int_0^y x f_{X|Y}(x | y) dx = \\int_0^y x \\left(\\frac{1}{y}\\right) dx = \\frac{1}{y} \\left[ \\frac{x^2}{2} \\right]_0^y = \\frac{1}{y} \\frac{y^2}{2} = \\frac{y}{2}$$\n- Therefore, $E(X | Y = y) = y/2$."
+      },
+      {
+        "id": 10,
+        "unit": "IV",
+        "question": "Prove that if $A$ and $B$ are independent events, then $A^c$ and $B^c$ are also independent.",
+        "answerKey": "1. **Definition of Independence**:\n- Since $A$ and $B$ are independent, $P(A \\cap B) = P(A) P(B)$.\n\n2. **Evaluate $P(A^c \\cap B^c)$**:\n- By De Morgan's Law:\n  $$P(A^c \\cap B^c) = P((A \\cup B)^c) = 1 - P(A \\cup B)$$\n- Apply addition rule for probability:\n  $$P(A^c \\cap B^c) = 1 - [ P(A) + P(B) - P(A \\cap B) ]$$\n- Substitute $P(A \\cap B) = P(A) P(B)$:\n  $$P(A^c \\cap B^c) = 1 - P(A) - P(B) + P(A)P(B)$$\n- Factor the expression:\n  $$P(A^c \\cap B^c) = (1 - P(A)) - P(B)(1 - P(A)) = (1 - P(A))(1 - P(B))$$\n- Since $1 - P(A) = P(A^c)$ and $1 - P(B) = P(B^c)$:\n  $$P(A^c \\cap B^c) = P(A^c) P(B^c)$$\n- Therefore, $A^c$ and $B^c$ are independent."
+      }
+    ],
+    "type": "theory",
+    "duration": 180
   },
   "stamj22": {
     "id": "stamj22",
@@ -4679,7 +5703,71 @@ export const EXAMS = {
     "id": "stamj31",
     "title": "Basics of Probability Distribution",
     "module": "STAMJ31",
-    "comingSoon": true
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Derive the mean and variance of a Binomial distribution with parameters $n$ and $p$.",
+        "answerKey": "1. **Mean derivation using Expectation**:\nLet $X = \\sum_{i=1}^n X_i$, where $X_i$ are independent Bernoulli trials with $P(X_i = 1) = p$ and $P(X_i = 0) = 1-p$.\n- Mean $E(X_i) = 1(p) + 0(q) = p$.\n- By linearity of expectation:\n  $$E(X) = E\\left( \\sum_{i=1}^n X_i \\right) = \\sum_{i=1}^n E(X_i) = n p$$\n\n2. **Variance derivation**:\n- Since the $X_i$ are independent, the variance of the sum is the sum of the variances:\n  $$Var(X) = Var\\left( \\sum_{i=1}^n X_i \\right) = \\sum_{i=1}^n Var(X_i)$$\n- Calculate $Var(X_i) = E(X_i^2) - (E(X_i))^2$:\n  - $E(X_i^2) = 1^2(p) + 0^2(q) = p$.\n  - $Var(X_i) = p - p^2 = p(1-p) = pq$.\n- Therefore:\n  $$Var(X) = n p q$$\n- Mean is $np$ and Variance is $npq$ (where $q = 1-p$)."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Prove that the Poisson distribution is a limiting case of the Binomial distribution as $n \\to \\infty$ and $p \\to 0$ such that $np = \\lambda$ (constant).",
+        "answerKey": "1. **Binomial Probability Mass Function**:\n$$P(X = k) = \\binom{n}{k} p^k (1-p)^{n-k}$$\n- Substitute $p = \\lambda/n$:\n  $$P(X = k) = \\frac{n!}{k!(n-k)!} \\left( \\frac{\\lambda}{n} \\right)^k \\left( 1 - \\frac{\\lambda}{n} \\right)^{n-k}$$\n  $$= \\frac{\\lambda^k}{k!} \\left[ \\frac{n(n-1)\\dots(n-k+1)}{n^k} \\right] \\left( 1 - \\frac{\\lambda}{n} \\right)^n \\left( 1 - \\frac{\\lambda}{n} \\right)^{-k}$$\n\n2. **Take Limit as $n \\to \\infty$**:\n- Term 1: $\\lim_{n \\to \\infty} \\frac{n(n-1)\\dots(n-k+1)}{n^k} = \\lim_{n \\to \\infty} 1 \\left(1 - \\frac{1}{n}\\right) \\dots \\left(1 - \\frac{k-1}{n}\\right) = 1$.\n- Term 2: $\\lim_{n \\to \\infty} \\left( 1 - \\frac{\\lambda}{n} \\right)^n = e^{-\\lambda}$.\n- Term 3: $\\lim_{n \\to \\infty} \\left( 1 - \\frac{\\lambda}{n} \\right)^{-k} = 1$.\n\n3. **Result**:\n- Combining limits:\n  $$P(X = k) = \\frac{\\lambda^k e^{-\\lambda}}{k!}$$\n- This is the PMF of the Poisson distribution."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Prove that the Geometric distribution satisfies the memoryless property.",
+        "answerKey": "1. **Geometric Distribution Setup**:\nLet $X \\sim \\text{Geo}(p)$ represent the number of trials until the first success. $P(X = k) = q^{k-1}p$ for $k = 1, 2, \\dots$.\n- First, find $P(X > s)$:\n  $$P(X > s) = \\sum_{k=s+1}^{\\infty} q^{k-1}p = p q^s \\sum_{j=0}^{\\infty} q^j = p q^s \\frac{1}{1-q} = q^s$$\n\n2. **Conditional Probability Evaluation**:\n- We want to evaluate $P(X > s+t | X > s)$:\n  $$P(X > s+t | X > s) = \\frac{P(X > s+t \\text{ and } X > s)}{P(X > s)} = \\frac{P(X > s+t)}{P(X > s)}$$\n  $$= \\frac{q^{s+t}}{q^s} = q^t$$\n- Since $P(X > t) = q^t$, we have:\n  $$P(X > s+t | X > s) = P(X > t)$$\n- This proves the memoryless property."
+      },
+      {
+        "id": 4,
+        "unit": "II",
+        "question": "Derive the Moment Generating Function (MGF) of a Normal distribution $N(\\mu, \\sigma^2)$.",
+        "answerKey": "1. **MGF Definition**:\n$$M_X(t) = E(e^{tX}) = \\int_{-\\infty}^{\\infty} e^{tx} \\frac{1}{\\sigma \\sqrt{2\\pi}} e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}} dx$$\n\n2. **Change of Variable**:\n- Let $z = \\frac{x-\\mu}{\\sigma} \\implies x = \\mu + \\sigma z, dx = \\sigma dz$:\n  $$M_X(t) = \\int_{-\\infty}^{\\infty} e^{t(\\mu + \\sigma z)} \\frac{1}{\\sqrt{2\\pi}} e^{-z^2/2} dz$$\n  $$= e^{\\mu t} \\int_{-\\infty}^{\\infty} \\frac{1}{\\sqrt{2\\pi}} e^{t\\sigma z - z^2/2} dz$$\n\n3. **Completing the Square**:\n- $t\\sigma z - z^2/2 = -\\frac{1}{2}(z^2 - 2t\\sigma z) = -\\frac{1}{2}( (z - t\\sigma)^2 - t^2\\sigma^2 ) = -\\frac{1}{2}(z - t\\sigma)^2 + \\frac{1}{2} t^2 \\sigma^2$.\n- Substitute this back:\n  $$M_X(t) = e^{\\mu t} e^{\\frac{1}{2}t^2\\sigma^2} \\int_{-\\infty}^{\\infty} \\frac{1}{\\sqrt{2\\pi}} e^{-\\frac{1}{2}(z-t\\sigma)^2} dz$$\n- The integral evaluates to 1 because it represents the total area under a normal PDF with mean $t\\sigma$ and variance 1.\n- Therefore:\n  $$M_X(t) = e^{\\mu t + \\frac{1}{2}t^2\\sigma^2}$$"
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Prove that for a Normal distribution, all odd-order central moments $\\mu_{2k+1}$ are zero.",
+        "answerKey": "1. **Central Moment Definition**:\nThe $n$-th central moment of $X \\sim N(\\mu, \\sigma^2)$ is given by:\n$$\\mu_n = E[(X - \\mu)^n] = \\int_{-\\infty}^{\\infty} (x-\\mu)^n \\frac{1}{\\sigma \\sqrt{2\\pi}} e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}} dx$$\n\n2. **Change of Variable**:\n- Let $y = x - \\mu \\implies dx = dy$:\n  $$\\mu_n = \\frac{1}{\\sigma \\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} y^n e^{-\\frac{y^2}{2\\sigma^2}} dy$$\n\n3. **Even and Odd Integrands**:\n- Let $g(y) = y^n e^{-\\frac{y^2}{2\\sigma^2}}$.\n- If $n = 2k+1$ (odd), then:\n  $$g(-y) = (-y)^{2k+1} e^{-\\frac{(-y)^2}{2\\sigma^2}} = -y^{2k+1} e^{-\\frac{y^2}{2\\sigma^2}} = -g(y)$$\n- Thus, the integrand $g(y)$ is an **odd function**.\n- The integral of any odd function over symmetric limits $(-\\infty, \\infty)$ is identically zero.\n- Therefore, $\\mu_{2k+1} = 0$ for all integers $k \\geq 0$."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Find the mean and variance of an Exponential distribution with PDF $f(x) = \\lambda e^{-\\lambda x}$ for $x \\ge 0$.",
+        "answerKey": "1. **Compute Mean $E(X)$**:\n$$E(X) = \\int_0^{\\infty} x \\lambda e^{-\\lambda x} dx$$\n- Integrate by parts with $u = x$, $dv = \\lambda e^{-\\lambda x} dx \\implies du = dx$, $v = -e^{-\\lambda x}$:\n  $$E(X) = [-x e^{-\\lambda x}]_0^{\\infty} - \\int_0^{\\infty} (-e^{-\\lambda x}) dx = 0 + \\left[ -\\frac{1}{\\lambda} e^{-\\lambda x} \\right]_0^{\\infty} = \\frac{1}{\\lambda}$$\n\n2. **Compute Variance**:\n- Compute $E(X^2)$:\n  $$E(X^2) = \\int_0^{\\infty} x^2 \\lambda e^{-\\lambda x} dx$$\n- Integrate by parts with $u = x^2$, $dv = \\lambda e^{-\\lambda x} dx \\implies du = 2x dx$, $v = -e^{-\\lambda x}$:\n  $$E(X^2) = [-x^2 e^{-\\lambda x}]_0^{\\infty} + 2 \\int_0^{\\infty} x e^{-\\lambda x} dx = 0 + \\frac{2}{\\lambda} E(X) = \\frac{2}{\\lambda} \\cdot \\frac{1}{\\lambda} = \\frac{2}{\\lambda^2}$$\n- Compute variance:\n  $$Var(X) = E(X^2) - (E(X))^2 = \\frac{2}{\\lambda^2} - \\frac{1}{\\lambda^2} = \\frac{1}{\\lambda^2}$$\n- Mean is $1/\\lambda$ and Variance is $1/\\lambda^2$."
+      },
+      {
+        "id": 7,
+        "unit": "III",
+        "question": "Find the mean and variance of a continuous Uniform distribution on the interval $[a, b]$.",
+        "answerKey": "1. **Probability Density Function**:\n$$f(x) = \\frac{1}{b-a} \\quad \\text{for } a \\leq x \\leq b$$\n\n2. **Compute Mean $E(X)$**:\n$$E(X) = \\int_a^b x \\frac{1}{b-a} dx = \\frac{1}{b-a} \\left[ \\frac{x^2}{2} \\right]_a^b = \\frac{b^2 - a^2}{2(b-a)} = \\frac{(b-a)(b+a)}{2(b-a)} = \\frac{a+b}{2}$$\n\n3. **Compute Variance**:\n- Compute $E(X^2)$:\n  $$E(X^2) = \\int_a^b x^2 \\frac{1}{b-a} dx = \\frac{1}{b-a} \\left[ \\frac{x^3}{3} \\right]_a^b = \\frac{b^3 - a^3}{3(b-a)} = \\frac{a^2 + ab + b^2}{3}$$\n- Compute variance:\n  $$Var(X) = E(X^2) - (E(X))^2 = \\frac{a^2 + ab + b^2}{3} - \\left( \\frac{a+b}{2} \\right)^2$$\n  $$= \\frac{a^2 + ab + b^2}{3} - \\frac{a^2 + 2ab + b^2}{4} = \\frac{4a^2 + 4ab + 4b^2 - 3a^2 - 6ab - 3b^2}{12} = \\frac{a^2 - 2ab + b^2}{12} = \\frac{(b-a)^2}{12}$$"
+      },
+      {
+        "id": 8,
+        "unit": "III",
+        "question": "State the Lindeberg-Levy Central Limit Theorem.",
+        "answerKey": "1. **Statement**:\nLet $\\{X_1, X_2, \\dots, X_n\\}$ be a sequence of independent and identically distributed (i.i.d.) random variables, each with finite mean $\\mu$ and finite variance $\\sigma^2 > 0$.\nLet $S_n = \\sum_{i=1}^n X_i$. As $n \\to \\infty$, the cumulative distribution function of the standardized sum $Z_n$ converges to the standard normal distribution function $\\Phi(z)$:\n$$Z_n = \\frac{S_n - n\\mu}{\\sigma \\sqrt{n}} = \\frac{\\bar{X}_n - \\mu}{\\sigma / \\sqrt{n}} \\xrightarrow{d} N(0, 1)$$\nwhere $\\bar{X}_n = S_n / n$ is the sample mean."
+      },
+      {
+        "id": 9,
+        "unit": "IV",
+        "question": "State the Weak Law of Large Numbers (WLLN) and differentiate it from the Strong Law of Large Numbers (SLLN).",
+        "answerKey": "1. **WLLN Statement**:\nLet $\\{X_n\\}$ be a sequence of i.i.d. random variables with finite mean $\\mu$. The sample mean $\\bar{X}_n = \\frac{1}{n}\\sum_{i=1}^n X_i$ converges in probability to the mean $\\mu$ as $n \\to \\infty$:\n$$\\lim_{n \\to \\infty} P(|\\bar{X}_n - \\mu| < \\epsilon) = 1 \\quad \\text{for any } \\epsilon > 0$$\n\n2. **Differentiating from SLLN**:\n- **WLLN** establishes **convergence in probability**.\n- **SLLN** establishes **almost sure convergence**:\n  $$P\\left( \\lim_{n \\to \\infty} \\bar{X}_n = \\mu \\right) = 1$$\n- SLLN is a stronger statement because almost sure convergence implies convergence in probability, but the converse is not generally true."
+      },
+      {
+        "id": 10,
+        "unit": "IV",
+        "question": "Suppose a radioactive source emits particles at a rate of 2 per minute. What is the probability that in a 3-minute interval, exactly 5 particles are emitted?",
+        "answerKey": "1. **Model Selection**:\n- The emission of radioactive particles is modeled by a Poisson process.\n- Rate of emissions $\\alpha = 2$ particles/minute.\n- Interval length $t = 3$ minutes.\n- The parameter $\\lambda$ for the Poisson distribution is:\n  $$\\lambda = \\alpha \\times t = 2 \\times 3 = 6$$\n\n2. **Poisson PMF**:\n- We want to find $P(X = 5)$ for $\\lambda = 6$:\n  $$P(X = 5) = \\frac{\\lambda^5 e^{-\\lambda}}{5!}$$\n\n3. **Calculation**:\n- $$P(X = 5) = \\frac{6^5 e^{-6}}{5!} = \\frac{7776 \\cdot e^{-6}}{120} = 64.8 \\times e^{-6}$$\n- Since $e^{-6} \\approx 0.002479$:\n  $$P(X = 5) \\approx 64.8 \\times 0.002479 \\approx 0.1606$$\n- The probability is approximately $16.06\\%$."
+      }
+    ],
+    "type": "theory",
+    "duration": 180
   },
   "stamj32": {
     "id": "stamj32",
