@@ -128,15 +128,15 @@
                     </div>
                 </div>
                 <div class="shrink-0 ml-2">
-                    <a id="downloadButton" href="#" download class="bg-primary text-white text-[10px] sm:text-xs font-bold px-3 py-1.5 sm:px-4 sm:py-2 rounded-full hover:bg-neutral-800 transition-all flex items-center gap-1 sm:gap-1.5 active:scale-95">
-                        <span class="material-symbols-outlined text-xs sm:text-sm">download</span>
-                        <span>Download</span>
-                    </a>
+                    <button onclick="toggleFullscreen()" class="bg-primary text-white text-[10px] sm:text-xs font-bold px-3 py-1.5 sm:px-4 sm:py-2 rounded-full hover:bg-neutral-800 transition-all flex items-center gap-1 sm:gap-1.5 active:scale-95" title="View Fullscreen">
+                        <span class="material-symbols-outlined text-xs sm:text-sm" id="fullscreenIcon">fullscreen</span>
+                        <span id="fullscreenText">Fullscreen</span>
+                    </button>
                 </div>
             </div>
             <!-- Embedded PDF Frame -->
             <div class="flex-grow bg-neutral-100 relative">
-                <iframe id="pdfIframe" src="" class="w-full h-full border-none absolute inset-0"></iframe>
+                <iframe id="pdfIframe" src="" class="w-full h-full border-none absolute inset-0" allowfullscreen></iframe>
             </div>
         </div>
 
@@ -228,8 +228,37 @@
             // Desktop browsers support native inline rendering
             document.getElementById('pdfIframe').src = file;
         }
-        
-        document.getElementById('downloadButton').href = absoluteUrl;
+    });
+
+    window.toggleFullscreen = function() {
+        const viewer = document.getElementById('pdfIframe');
+        if (!document.fullscreenElement) {
+            viewer.requestFullscreen().then(() => {
+                document.getElementById('fullscreenIcon').textContent = 'fullscreen_exit';
+                document.getElementById('fullscreenText').textContent = 'Exit';
+            }).catch(err => {
+                console.error("Fullscreen error:", err);
+                // Fallback: open absolute URL in a new tab if fullscreen fails
+                const params = new URLSearchParams(window.location.search);
+                const file = params.get('file');
+                if (file) {
+                    window.open(file, '_blank');
+                }
+            });
+        } else {
+            document.exitFullscreen();
+            document.getElementById('fullscreenIcon').textContent = 'fullscreen';
+            document.getElementById('fullscreenText').textContent = 'Fullscreen';
+        }
+    };
+
+    document.addEventListener('fullscreenchange', () => {
+        if (!document.fullscreenElement) {
+            const icon = document.getElementById('fullscreenIcon');
+            const text = document.getElementById('fullscreenText');
+            if (icon) icon.textContent = 'fullscreen';
+            if (text) text.textContent = 'Fullscreen';
+        }
     });
 
     // Parallax mouse moving effects on background circles
