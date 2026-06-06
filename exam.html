@@ -598,11 +598,11 @@
                     <div id="apiKeyConfigBanner" class="p-4 bg-amber-500/10 border border-amber-500/20 rounded-lg text-xs text-amber-800 flex flex-col gap-2 ${hfApiKey && !hfApiKey.includes('YOUR_HF_API_KEY') ? 'hidden' : ''}">
                         <div class="flex items-center gap-2 font-bold">
                             <span class="material-symbols-outlined text-sm">warning</span>
-                            <span>Hugging Face API Key Required</span>
+                            <span>AI API Key Required</span>
                         </div>
-                        <p>To enable AI grading, configure a <code>HF_API_KEY</code> in the <code>.env</code> file, or paste it below to save in local storage:</p>
+                        <p>To enable AI grading, configure an AI API Key in the <code>.env</code> file, or paste it below to save in local storage:</p>
                         <div class="flex gap-2">
-                            <input type="password" id="tempApiKeyInput" class="flex-grow px-3 py-1.5 rounded border border-amber-300 text-xs focus:outline-none focus:border-amber-500 text-primary" placeholder="hf_...">
+                            <input type="password" id="tempApiKeyInput" class="flex-grow px-3 py-1.5 rounded border border-amber-300 text-xs focus:outline-none focus:border-amber-500 text-primary" placeholder="Enter API Key...">
                             <button onclick="saveTempApiKey()" class="bg-amber-600 text-white px-4 py-1.5 rounded font-bold text-xs hover:bg-amber-700 active:scale-95 transition-all shrink-0">Save Key</button>
                         </div>
                     </div>
@@ -670,7 +670,7 @@
                                 <div class="absolute inset-0 bg-primary/10 rounded-full animate-ping"></div>
                                 <span class="material-symbols-outlined text-2xl text-primary animate-pulse">auto_awesome</span>
                             </div>
-                            <p id="evaluatingStatusText" class="text-xs font-bold text-primary animate-pulse">Evaluating solution with Hugging Face AI...</p>
+                            <p id="evaluatingStatusText" class="text-xs font-bold text-primary animate-pulse">Evaluating solution with AI...</p>
                             <p class="text-[10px] text-secondary">Checking calculations and grading rubrics...</p>
                         </div>
 
@@ -850,7 +850,7 @@
             localStorage.setItem('HF_API_KEY', val);
             hfApiKey = val;
             checkApiKeyBanner();
-            alert("Hugging Face API Key saved locally!");
+            alert("API Key saved locally!");
             renderQuestion(examState.currentQuestionIndex);
         }
     };
@@ -944,13 +944,7 @@
         
         const statusTextEl = document.getElementById('evaluatingStatusText');
         if (statusTextEl) {
-            if (isNvidia) {
-                statusTextEl.textContent = "Evaluating solution with NVIDIA NIM AI...";
-            } else if (isHF) {
-                statusTextEl.textContent = "Evaluating solution with Hugging Face AI...";
-            } else {
-                statusTextEl.textContent = "Evaluating solution with AI Proctoring Engine...";
-            }
+            statusTextEl.textContent = "Evaluating solution with AI...";
         }
 
         const scanner = document.getElementById('scannerOverlay');
@@ -1659,13 +1653,7 @@ Provide the final grade and feedback. You MUST output a JSON object at the very 
 
         const statusEl = document.getElementById('aiExplainStatus');
         if (statusEl) {
-            if (isNvidia) {
-                statusEl.textContent = "AI Tutor (NVIDIA NIM) explaining...";
-            } else if (isHF) {
-                statusEl.textContent = "AI Tutor (Hugging Face) explaining...";
-            } else {
-                statusEl.textContent = "AI Tutor explaining...";
-            }
+            statusEl.textContent = "AI Tutor explaining...";
         }
 
         if (isMock) {
