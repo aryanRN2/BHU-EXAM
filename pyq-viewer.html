@@ -214,8 +214,22 @@
 
         // Set content and references
         document.getElementById('pdfTitle').textContent = decodeURIComponent(title);
-        document.getElementById('pdfIframe').src = file;
-        document.getElementById('downloadButton').href = file;
+        
+        // Construct absolute URL (needed for Google Docs viewer)
+        const absoluteUrl = file.startsWith('http') ? file : window.location.origin + '/' + file;
+        
+        // Detect mobile user agent
+        const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        
+        if (isMobile) {
+            // Mobile browsers do not support rendering PDFs inside iframes directly; wrap with Google Docs viewer
+            document.getElementById('pdfIframe').src = `https://docs.google.com/gview?url=${encodeURIComponent(absoluteUrl)}&embedded=true`;
+        } else {
+            // Desktop browsers support native inline rendering
+            document.getElementById('pdfIframe').src = file;
+        }
+        
+        document.getElementById('downloadButton').href = absoluteUrl;
     });
 
     // Parallax mouse moving effects on background circles
