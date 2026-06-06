@@ -1249,9 +1249,10 @@ Provide the final grade and feedback. You MUST output a JSON object at the very 
             .replace(/&/g, "&amp;")
             .replace(/</g, "&lt;")
             .replace(/>/g, "&gt;");
-        escaped = escaped.replace(/\*\*(.*?)\*\"/g, '<strong>$1</strong>');
+        escaped = escaped.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
         escaped = escaped.replace(/^\s*-\s+(.*?)$/gm, '• $1<br>');
         escaped = escaped.replace(/^\s*\*\s+(.*?)$/gm, '• $1<br>');
+        escaped = escaped.replace(/\n/g, '<br>');
         return escaped;
     }
 
