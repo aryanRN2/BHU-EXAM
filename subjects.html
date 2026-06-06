@@ -207,140 +207,6 @@
     import { StateManager } from './js/state-manager.js?v=4';
     import { EXAMS } from './js/exams-data.js?v=4';
 
-    // 1. Read Practice Mode Type from Query Parameter
-    const params = new URLSearchParams(window.location.search);
-    const mode = params.get('type') || 'endterm';
-    
-    // Set display labels dynamically
-    const modeLabels = {
-        'endterm': 'End Sem Preparation',
-        'midterm': 'Mid Term Preparation',
-        'lab': 'Lab Preparation'
-    };
-    
-    const displayLabel = modeLabels[mode] || 'Preparation Session';
-    document.getElementById('practiceModeBadge').textContent = displayLabel;
-
-    function renderSubjects(examsToRender) {
-        const container = document.getElementById('subjectsListContainer');
-        container.innerHTML = '';
-        
-        const keys = Object.keys(examsToRender).sort((a, b) => {
-            const aLive = (mode === 'endterm') && !examsToRender[a].comingSoon;
-            const bLive = (mode === 'endterm') && !examsToRender[b].comingSoon;
-            if (aLive && !bLive) return -1;
-            if (!aLive && bLive) return 1;
-            return 0;
-        });
-        if (keys.length === 0) {
-            container.innerHTML = `
-                <div class="glass-panel p-8 text-center border border-border-subtle rounded-lg text-secondary w-full">
-                    <span class="material-symbols-outlined text-3xl mb-2 text-secondary">search_off</span>
-                    <p class="text-sm font-semibold">No subjects found matching your search.</p>
-                </div>
-            `;
-            return;
-        }
-
-                keys.forEach(key => {
-            const exam = examsToRender[key];
-            const hasPyqs = EXAM_PYQS[key] && EXAM_PYQS[key].length > 0;
-            const isLive = (mode === 'endterm') && !exam.comingSoon;
-            const isInteractive = isLive || hasPyqs;
-            
-            let cardMarkup = '';
-            if (isInteractive) {
-                let icon = 'menu_book';
-                if (key.includes('math') || key.includes('calc') || (exam.module && exam.module.startsWith('MAT'))) icon = 'calculate';
-                else if (key.includes('geo') || key.includes('glb') || (exam.module && exam.module.startsWith('GLB'))) icon = 'terrain';
-                else if (key.includes('bot') || key.includes('bob') || (exam.module && exam.module.startsWith('BOB'))) icon = 'eco';
-                
-                const typeLabel = exam.type === 'theory' ? 'Theory' : 'MCQ';
-                const countText = isLive ? `${exam.questions.length} Questions &bull; ${typeLabel}` : 'Practice Exam Coming Soon';
-                const badgeClass = isLive ? 'bg-accent-neural-emerald/15 text-accent-neural-emerald' : 'bg-accent-bhu-saffron/15 text-accent-bhu-saffron';
-                const activeLabel = isLive ? (exam.type === 'theory' ? 'AI Grading Active' : 'Multiple Choice') : 'PYQs Available';
-                
-                cardMarkup = `
-                    <div onclick="selectSubject('${key}')" class="glass-panel p-6 rounded-lg group hover:bg-white/60 transition-all duration-300 cursor-pointer border border-accent-bhu-saffron/20 hover:shadow-md flex items-center justify-between">
-                        <div class="flex items-center gap-5">
-                            <div class="w-14 h-14 rounded-full border border-accent-bhu-saffron/30 flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-colors duration-300 text-accent-bhu-saffron shrink-0">
-                                <span class="material-symbols-outlined text-2xl">${icon}</span>
-                            </div>
-                            <div>
-                                <h3 class="font-bold text-lg text-primary">${exam.title}</h3>
-                                <p class="text-xs text-secondary mt-0.5">Code: ${exam.module || key.toUpperCase()} &bull; ${countText}</p>
-                                <span class="inline-block ${badgeClass} px-2.5 py-0.5 rounded text-[9px] font-bold uppercase mt-2">${activeLabel}</span>
-                            </div>
-                        </div>
-                        <div class="w-10 h-10 rounded-full border border-border-subtle group-hover:border-primary flex items-center justify-center text-secondary group-hover:text-primary transition-all shrink-0 hidden sm:flex">
-                            <span class="material-symbols-outlined text-lg group-hover:translate-x-0.5 transition-transform">arrow_forward</span>
-                        </div>
-                    </div>
-`;
-            } else {
-                let icon = 'psychology';
-                if (key.startsWith('phy') || (exam.module && exam.module.startsWith('PHY'))) icon = 'insights';
-                else if (key.startsWith('ggr') || (exam.module && exam.module.startsWith('GGR'))) icon = 'public';
-                else if (key.startsWith('csc') || (exam.module && exam.module.startsWith('CSC'))) icon = 'terminal';
-                else if (key.startsWith('chem') || (exam.module && exam.module.startsWith('CHEM'))) icon = 'science';
-                else if (key.startsWith('mat') || (exam.module && exam.module.startsWith('MAT'))) icon = 'calculate';
-                else if (key.startsWith('sta') || (exam.module && exam.module.startsWith('STA'))) icon = 'bar_chart';
-                else if (key.startsWith('glb') || key.startsWith('geo') || (exam.module && exam.module.startsWith('GLB'))) icon = 'terrain';
-                else if (key.startsWith('bob') || key.startsWith('bot') || (exam.module && exam.module.startsWith('BOB'))) icon = 'eco';
-                
-                cardMarkup = `
-                    <div class="glass-panel p-6 rounded-lg border border-border-subtle opacity-50 flex items-center justify-between select-none">
-                        <div class="flex items-center gap-5">
-                            <div class="w-14 h-14 rounded-full border border-border-subtle flex items-center justify-center text-secondary shrink-0">
-                                <span class="material-symbols-outlined text-2xl">${icon}</span>
-                            </div>
-                            <div>
-                                <h3 class="font-bold text-lg text-secondary">${exam.title}</h3>
-                                <p class="text-xs text-secondary mt-0.5">Code: ${exam.module || key.toUpperCase()} &bull; Coming soon</p>
-                            </div>
-                        </div>
-                        <div class="text-secondary opacity-60">
-                            <span class="material-symbols-outlined text-lg">lock</span>
-                        </div>
-                    </div>
-                `;
-            }
-            container.insertAdjacentHTML('beforeend', cardMarkup);
-        });
-    }
-
-    // Initial render
-    renderSubjects(EXAMS);
-
-    window.filterSubjects = function() {
-        const query = document.getElementById('subjectSearchInput').value.toLowerCase().trim();
-        const clearBtn = document.getElementById('clearSearchBtn');
-        
-        if (query) {
-            clearBtn.classList.remove('hidden');
-        } else {
-            clearBtn.classList.add('hidden');
-        }
-
-        const filtered = {};
-        Object.keys(EXAMS).forEach(key => {
-            const exam = EXAMS[key];
-            const title = exam.title.toLowerCase();
-            const module = (exam.module || '').toLowerCase();
-            if (title.includes(query) || module.includes(query) || key.includes(query)) {
-                filtered[key] = exam;
-            }
-        });
-        
-        renderSubjects(filtered);
-    };
-
-    window.clearSearch = function() {
-        const input = document.getElementById('subjectSearchInput');
-        input.value = '';
-        filterSubjects();
-    };
-
     const EXAM_PYQS = {
         "bobmj31": [
                 {
@@ -1096,7 +962,142 @@
                         "description": "Official Relativity SemV 2022-23 paper"
                 }
         ]
-};
+};;
+
+    // 1. Read Practice Mode Type from Query Parameter
+    const params = new URLSearchParams(window.location.search);
+    const mode = params.get('type') || 'endterm';
+    
+    // Set display labels dynamically
+    const modeLabels = {
+        'endterm': 'End Sem Preparation',
+        'midterm': 'Mid Term Preparation',
+        'lab': 'Lab Preparation'
+    };
+    
+    const displayLabel = modeLabels[mode] || 'Preparation Session';
+    document.getElementById('practiceModeBadge').textContent = displayLabel;
+
+    function renderSubjects(examsToRender) {
+        const container = document.getElementById('subjectsListContainer');
+        container.innerHTML = '';
+        
+        const keys = Object.keys(examsToRender).sort((a, b) => {
+            const aLive = (mode === 'endterm') && !examsToRender[a].comingSoon;
+            const bLive = (mode === 'endterm') && !examsToRender[b].comingSoon;
+            if (aLive && !bLive) return -1;
+            if (!aLive && bLive) return 1;
+            return 0;
+        });
+        if (keys.length === 0) {
+            container.innerHTML = `
+                <div class="glass-panel p-8 text-center border border-border-subtle rounded-lg text-secondary w-full">
+                    <span class="material-symbols-outlined text-3xl mb-2 text-secondary">search_off</span>
+                    <p class="text-sm font-semibold">No subjects found matching your search.</p>
+                </div>
+            `;
+            return;
+        }
+
+                keys.forEach(key => {
+            const exam = examsToRender[key];
+            const hasPyqs = EXAM_PYQS[key] && EXAM_PYQS[key].length > 0;
+            const isLive = (mode === 'endterm') && !exam.comingSoon;
+            const isInteractive = isLive || hasPyqs;
+            
+            let cardMarkup = '';
+            if (isInteractive) {
+                let icon = 'menu_book';
+                if (key.includes('math') || key.includes('calc') || (exam.module && exam.module.startsWith('MAT'))) icon = 'calculate';
+                else if (key.includes('geo') || key.includes('glb') || (exam.module && exam.module.startsWith('GLB'))) icon = 'terrain';
+                else if (key.includes('bot') || key.includes('bob') || (exam.module && exam.module.startsWith('BOB'))) icon = 'eco';
+                
+                const typeLabel = exam.type === 'theory' ? 'Theory' : 'MCQ';
+                const countText = isLive ? `${exam.questions.length} Questions &bull; ${typeLabel}` : 'Practice Exam Coming Soon';
+                const badgeClass = isLive ? 'bg-accent-neural-emerald/15 text-accent-neural-emerald' : 'bg-accent-bhu-saffron/15 text-accent-bhu-saffron';
+                const activeLabel = isLive ? (exam.type === 'theory' ? 'AI Grading Active' : 'Multiple Choice') : 'PYQs Available';
+                
+                cardMarkup = `
+                    <div onclick="selectSubject('${key}')" class="glass-panel p-6 rounded-lg group hover:bg-white/60 transition-all duration-300 cursor-pointer border border-accent-bhu-saffron/20 hover:shadow-md flex items-center justify-between">
+                        <div class="flex items-center gap-5">
+                            <div class="w-14 h-14 rounded-full border border-accent-bhu-saffron/30 flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-colors duration-300 text-accent-bhu-saffron shrink-0">
+                                <span class="material-symbols-outlined text-2xl">${icon}</span>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-lg text-primary">${exam.title}</h3>
+                                <p class="text-xs text-secondary mt-0.5">Code: ${exam.module || key.toUpperCase()} &bull; ${countText}</p>
+                                <span class="inline-block ${badgeClass} px-2.5 py-0.5 rounded text-[9px] font-bold uppercase mt-2">${activeLabel}</span>
+                            </div>
+                        </div>
+                        <div class="w-10 h-10 rounded-full border border-border-subtle group-hover:border-primary flex items-center justify-center text-secondary group-hover:text-primary transition-all shrink-0 hidden sm:flex">
+                            <span class="material-symbols-outlined text-lg group-hover:translate-x-0.5 transition-transform">arrow_forward</span>
+                        </div>
+                    </div>
+`;
+            } else {
+                let icon = 'psychology';
+                if (key.startsWith('phy') || (exam.module && exam.module.startsWith('PHY'))) icon = 'insights';
+                else if (key.startsWith('ggr') || (exam.module && exam.module.startsWith('GGR'))) icon = 'public';
+                else if (key.startsWith('csc') || (exam.module && exam.module.startsWith('CSC'))) icon = 'terminal';
+                else if (key.startsWith('chem') || (exam.module && exam.module.startsWith('CHEM'))) icon = 'science';
+                else if (key.startsWith('mat') || (exam.module && exam.module.startsWith('MAT'))) icon = 'calculate';
+                else if (key.startsWith('sta') || (exam.module && exam.module.startsWith('STA'))) icon = 'bar_chart';
+                else if (key.startsWith('glb') || key.startsWith('geo') || (exam.module && exam.module.startsWith('GLB'))) icon = 'terrain';
+                else if (key.startsWith('bob') || key.startsWith('bot') || (exam.module && exam.module.startsWith('BOB'))) icon = 'eco';
+                
+                cardMarkup = `
+                    <div class="glass-panel p-6 rounded-lg border border-border-subtle opacity-50 flex items-center justify-between select-none">
+                        <div class="flex items-center gap-5">
+                            <div class="w-14 h-14 rounded-full border border-border-subtle flex items-center justify-center text-secondary shrink-0">
+                                <span class="material-symbols-outlined text-2xl">${icon}</span>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-lg text-secondary">${exam.title}</h3>
+                                <p class="text-xs text-secondary mt-0.5">Code: ${exam.module || key.toUpperCase()} &bull; Coming soon</p>
+                            </div>
+                        </div>
+                        <div class="text-secondary opacity-60">
+                            <span class="material-symbols-outlined text-lg">lock</span>
+                        </div>
+                    </div>
+                `;
+            }
+            container.insertAdjacentHTML('beforeend', cardMarkup);
+        });
+    }
+
+    // Initial render
+    renderSubjects(EXAMS);
+
+    window.filterSubjects = function() {
+        const query = document.getElementById('subjectSearchInput').value.toLowerCase().trim();
+        const clearBtn = document.getElementById('clearSearchBtn');
+        
+        if (query) {
+            clearBtn.classList.remove('hidden');
+        } else {
+            clearBtn.classList.add('hidden');
+        }
+
+        const filtered = {};
+        Object.keys(EXAMS).forEach(key => {
+            const exam = EXAMS[key];
+            const title = exam.title.toLowerCase();
+            const module = (exam.module || '').toLowerCase();
+            if (title.includes(query) || module.includes(query) || key.includes(query)) {
+                filtered[key] = exam;
+            }
+        });
+        
+        renderSubjects(filtered);
+    };
+
+    window.clearSearch = function() {
+        const input = document.getElementById('subjectSearchInput');
+        input.value = '';
+        filterSubjects();
+    };
+
 
     let selectedExamId = '';
 
