@@ -2509,7 +2509,160 @@ export const EXAMS = {
     "id": "matmj43",
     "title": "Differential Equations",
     "module": "MATMJ43",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Find the general solution of the first-order linear differential equation: \\frac{dy}{dx} + y\\cot x = 2x\\csc x.",
+        "answerKey": "1. The equation is of the form dy/dx + P(x)y = Q(x) where P(x) = cot(x) and Q(x) = 2x csc(x).\n2. Compute integrating factor: I.F. = e^\\int cot(x) dx = e^ln|sin(x)| = sin(x).\n3. Multiply by I.F.: sin(x) dy/dx + y cos(x) = 2x.\n4. Integrate both sides: y sin(x) = \\int 2x dx = x^2 + C.\n5. General solution: y = (x^2 + C) csc(x)."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Solve the first-order higher degree equation solvable for $y$: y = 2px + p^2, where p = \\frac{dy}{dx}.",
+        "answerKey": "1. Differentiate both sides w.r.t x: dy/dx = p = 2p + 2x(dp/dx) + 2p(dp/dx).\n2. Simplify: -p = 2(x + p)(dp/dx) => dx/dp + 2/p x = -2.\n3. This is a linear DE in x with independent variable p. I.F. = e^\\int 2/p dp = p^2.\n4. Integrate: x p^2 = \\int -2p^2 dp = -2/3 p^3 + C => x = -2/3 p + C/p^2.\n5. General solution is given parametrically by: x = -2/3 p + C/p^2, y = -1/3 p^2 + 2C/p."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Find the singular solution of the Clairaut's equation: y = px + a\\sqrt{1+p^2}, where p = \\frac{dy}{dx} and a is a constant.",
+        "answerKey": "1. General solution is obtained by replacing p with constant C: y = Cx + a sqrt(1+C^2).\n2. Differentiate w.r.t C to find envelope: 0 = x + aC/sqrt(1+C^2) => x = -aC/sqrt(1+C^2).\n3. Substitute x back: y = -aC^2/sqrt(1+C^2) + a sqrt(1+C^2) = a/sqrt(1+C^2).\n4. Square both expressions and add: x^2 + y^2 = a^2 C^2 / (1+C^2) + a^2 / (1+C^2) = a^2.\n5. Singular solution is the circle x^2 + y^2 = a^2."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Solve the equation solvable for $x$: x = y + p^2, where p = \\frac{dy}{dx}.",
+        "answerKey": "1. Differentiate w.r.t y: dx/dy = 1/p = 1 + 2p(dp/dy).\n2. Rearrange: (1-p)/p = 2p(dp/dy) => dy = [2p^2 / (1-p)] dp.\n3. Integrate: y = \\int [-2p - 2 + 2/(1-p)] dp = -p^2 - 2p - 2 ln|1-p| + C.\n4. General solution represented parametrically by: y = -p^2 - 2p - 2 ln|1-p| + C and x = -2p - 2 ln|1-p| + C."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Find the envelope of the family of straight lines y = mx + \\frac{a}{m}, where m is a parameter and a is a constant.",
+        "answerKey": "1. Express the family as quadratic in m: x m^2 - y m + a = 0.\n2. The envelope corresponds to zero discriminant (B^2 - 4AC = 0) of the quadratic equation.\n3. Identify terms: A = x, B = -y, C = a.\n4. Apply formula: (-y)^2 - 4(x)(a) = 0 => y^2 = 4ax.\n5. The envelope is the parabola y^2 = 4ax."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Find the general solution of the second-order linear differential equation with constant coefficients: \\frac{d^2y}{dx^2} - 5\\frac{dy}{dx} + 6y = e^{4x}.",
+        "answerKey": "1. Auxiliary equation: m^2 - 5m + 6 = 0 => (m-2)(m-3) = 0 => roots are m = 2, 3.\n2. Complementary function: yc = C1 e^(2x) + C2 e^(3x).\n3. Find particular integral (yp): Let yp = A e^(4x).\n4. Substitute: 16A e^(4x) - 20A e^(4x) + 6A e^(4x) = e^(4x) => 2A e^(4x) = e^(4x) => A = 1/2.\n5. General solution is y = C1 e^(2x) + C2 e^(3x) + 1/2 e^(4x)."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Solve the differential equation with constant coefficients: \\frac{d^2y}{dx^2} + 4y = \\sin 2x.",
+        "answerKey": "1. Auxiliary equation: m^2 + 4 = 0 => m = +/- 2i.\n2. Complementary function: yc = C1 cos(2x) + C2 sin(2x).\n3. Particular integral (yp): Since sin(2x) is in complementary function, try yp = x(A cos(2x) + B sin(2x)).\n4. Differentiate and substitute: yp'' + 4yp = 4B cos(2x) - 4A sin(2x) = sin(2x).\n5. Compare coefficients: 4B = 0 => B = 0, -4A = 1 => A = -1/4.\n6. General solution: y = C1 cos(2x) + C2 sin(2x) - x/4 cos(2x)."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Solve the Cauchy-Euler homogeneous linear differential equation: x^2\\frac{d^2y}{dx^2} - 3x\\frac{dy}{dx} + 4y = 0 for x > 0.",
+        "answerKey": "1. Substitute x = e^t => t = ln(x). The equation transforms to [D(D-1) - 3D + 4]y = 0 where D = d/dt.\n2. Simplify: (D^2 - 4D + 4)y = 0.\n3. Auxiliary equation: m^2 - 4m + 4 = 0 => (m-2)^2 = 0 => repeated roots m = 2, 2.\n4. Solution in t: y = (C1 + C2 t)e^(2t).\n5. Substitute back t = ln(x) and e^(2t) = x^2: y = (C1 + C2 ln(x))x^2."
+      },
+      {
+        "id": 9,
+        "unit": "II",
+        "question": "Find the general solution of the Euler-Cauchy equation: x^2\\frac{d^2y}{dx^2} - x\\frac{dy}{dx} - 3y = x^5.",
+        "answerKey": "1. Homogeneous equation: substitute x = e^t, leading to (D(D-1) - D - 3)y = 0 => (D^2 - 2D - 3)y = 0.\n2. Auxiliary roots: m^2 - 2m - 3 = 0 => (m-3)(m+1) = 0 => m = 3, -1. Complementary function: yc = C1 x^3 + C2 x^-1.\n3. Particular integral (yp): transformed RHS is e^(5t). Solve (D^2 - 2D - 3)y = e^(5t).\n4. yp = 1/(D^2 - 2D - 3) e^(5t) = 1/(25 - 10 - 3) e^(5t) = 1/12 e^(5t) = 1/12 x^5.\n5. General solution: y = C1 x^3 + C2 x^-1 + 1/12 x^5."
+      },
+      {
+        "id": 10,
+        "unit": "II",
+        "question": "Find the Particular Integral of the differential equation: \\frac{d^3y}{dx^3} - \\frac{dy}{dx} = e^x + \\cos x.",
+        "answerKey": "1. P.I. is yp = yp1 + yp2 where yp1 = 1/(D^3 - D) e^x and yp2 = 1/(D^3 - D) cos(x).\n2. For yp1: D=1 makes denominator 0. Factor operator: 1/[D(D+1)(D-1)] e^x = 1/[1(2)] * [x/1!] e^x = x/2 e^x.\n3. For yp2: Substitute D^2 = -1. yp2 = 1/(-D - D) cos(x) = -1/(2D) cos(x) = -1/2 \\int cos(x) dx = -1/2 sin(x).\n4. Particular Integral is yp = x/2 e^x - 1/2 sin(x)."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Use the method of Variation of Parameters to find the particular integral of the differential equation: \\frac{d^2y}{dx^2} + y = \\sec x.",
+        "answerKey": "1. Homogeneous solution: yc = C1 cos(x) + C2 sin(x). Let y1 = cos(x), y2 = sin(x).\n2. Compute Wronskian: W = y1 y2' - y2 y1' = cos^2(x) + sin^2(x) = 1.\n3. Particular solution: yp = u(x) y1 + v(x) y2.\n4. Calculate u(x) = -\\int [y2 f(x) / W] dx = -\\int sin(x) sec(x) dx = -\\int tan(x) dx = ln|cos(x)|.\n5. Calculate v(x) = \\int [y1 f(x) / W] dx = \\int cos(x) sec(x) dx = \\int 1 dx = x.\n6. Particular integral: yp = cos(x) ln|cos(x)| + x sin(x)."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Transform the differential equation to normal form (removal of first derivative) and solve: \\frac{d^2y}{dx^2} - 2\\tan x \\frac{dy}{dx} + 5y = 0.",
+        "answerKey": "1. The equation has P = -2tan(x), Q = 5. To remove first derivative, choose u = e^(-1/2 \\int P dx) = e^\\int tan(x) dx = sec(x).\n2. Normal form is v'' + I v = 0, where I = Q - 1/2 dP/dx - 1/4 P^2.\n3. Compute derivatives: dP/dx = -2sec^2(x) and P^2 = 4tan^2(x).\n4. I = 5 - 1/2(-2sec^2(x)) - 1/4(4tan^2(x)) = 5 + sec^2(x) - tan^2(x) = 5 + 1 = 6.\n5. Solve v'' + 6v = 0 => v = C1 cos(sqrt(6)x) + C2 sin(sqrt(6)x).\n6. General solution: y = uv = sec(x)(C1 cos(sqrt(6)x) + C2 sin(sqrt(6)x))."
+      },
+      {
+        "id": 13,
+        "unit": "III",
+        "question": "Find the series solution of the differential equation about the ordinary point x=0: \\frac{d^2y}{dx^2} + x y = 0.",
+        "answerKey": "1. Let y = \\sum an x^n. Then y'' = \\sum n(n-1) an x^(n-2).\n2. Substitute into DE: \\sum n(n-1) an x^(n-2) + \\sum an x^(n+1) = 0.\n3. Shift indices: \\sum (k+2)(k+1) a_{k+2} x^k + \\sum a_{k-1} x^k = 0.\n4. For k=0: 2 a2 = 0 => a2 = 0. For k >= 1, (k+2)(k+1) a_{k+2} + a_{k-1} = 0 => a_{k+2} = -a_{k-1} / [(k+2)(k+1)].\n5. Coefficients: a3 = -a0/6, a4 = -a1/12, a5 = 0, a6 = a0/180.\n6. Series solution: y = a0(1 - x^3/6 + x^6/180 - ...) + a1(x - x^4/12 + x^7/504 - ...)."
+      },
+      {
+        "id": 14,
+        "unit": "III",
+        "question": "Classify the singular points of the following differential equation (determine if they are regular or irregular): x^2(x-1)y'' + 3xy' + 5y = 0.",
+        "answerKey": "1. Write in standard form: y'' + 3/[x(x-1)] y' + 5/[x^2(x-1)] y = 0. Singular points are x = 0 and x = 1.\n2. For x = 0: lim_{x->0} x P(x) = lim_{x->0} 3/(x-1) = -3 (finite). lim_{x->0} x^2 Q(x) = lim_{x->0} 5/(x-1) = -5 (finite). Regular singular point.\n3. For x = 1: lim_{x->1} (x-1) P(x) = lim_{x->1} 3/x = 3 (finite). lim_{x->1} (x-1)^2 Q(x) = lim_{x->1} 5(x-1)/x^2 = 0 (finite). Regular singular point."
+      },
+      {
+        "id": 15,
+        "unit": "III",
+        "question": "Explain the qualitative behavior of solutions to the autonomous differential equation \\frac{dy}{dt} = y(2-y). Find the equilibrium solutions and determine their stability.",
+        "answerKey": "1. Equilibrium solutions occur at dy/dt = 0 => y(2-y) = 0 => y = 0 and y = 2.\n2. Perform first derivative stability test: f'(y) = d/dy [2y - y^2] = 2 - 2y.\n3. For y = 0: f'(0) = 2 > 0. Unstable equilibrium (source).\n4. For y = 2: f'(2) = -2 < 0. Stable equilibrium (sink).\n5. For 0 < y < 2, dy/dt > 0 (solutions increase towards 2); for y > 2 or y < 0, dy/dt < 0."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Form a partial differential equation by eliminating the arbitrary constants a and b from: z = (x-a)^2 + (y-b)^2.",
+        "answerKey": "1. Differentiate partially w.r.t x: p = dz/dx = 2(x-a) => x-a = p/2.\n2. Differentiate partially w.r.t y: q = dz/dy = 2(y-b) => y-b = q/2.\n3. Substitute back: z = (p/2)^2 + (q/2)^2 => z = p^2/4 + q^2/4.\n4. Simplify to get the resulting PDE: p^2 + q^2 = 4z."
+      },
+      {
+        "id": 17,
+        "unit": "IV",
+        "question": "Form a partial differential equation by eliminating the arbitrary function f from: z = f(x^2 + y^2).",
+        "answerKey": "1. Differentiate partially w.r.t x: p = dz/dx = f'(x^2+y^2) * 2x.\n2. Differentiate partially w.r.t y: q = dz/dy = f'(x^2+y^2) * 2y.\n3. Divide the two equations: p/q = (2x)/(2y) = x/y.\n4. Cross-multiply: py = qx => yp - xq = 0."
+      },
+      {
+        "id": 18,
+        "unit": "IV",
+        "question": "Solve the first-order linear partial differential equation using Lagrange's method: yz p + zx q = xy, where p = \\frac{\\partial z}{\\partial x} and q = \\frac{\\partial z}{\\partial y}.",
+        "answerKey": "1. Lagrange auxiliary equations: dx/(yz) = dy/(zx) = dz/(xy).\n2. First two ratios: dx/(yz) = dy/(zx) => dx/y = dy/x => x dx = y dy. Integrate: x^2 - y^2 = C1.\n3. Second and third ratios: dy/(zx) = dz/(xy) => dy/z = dz/y => y dy = z dz. Integrate: y^2 - z^2 = C2.\n4. General solution: \\phi(x^2 - y^2, y^2 - z^2) = 0."
+      },
+      {
+        "id": 19,
+        "unit": "IV",
+        "question": "Solve the linear PDE by Lagrange's method: (y-z)p + (z-x)q = x-y.",
+        "answerKey": "1. Auxiliary equations: dx/(y-z) = dy/(z-x) = dz/(x-y).\n2. Use multipliers (1, 1, 1): each ratio = (dx + dy + dz) / [(y-z) + (z-x) + (x-y)] = (dx + dy + dz) / 0.\n   Integrating gives: x + y + z = C1.\n3. Use multipliers (x, y, z): each ratio = (x dx + y dy + z dz) / [x(y-z) + y(z-x) + z(x-y)] = (x dx + y dy + z dz) / 0.\n   Integrating gives: x^2 + y^2 + z^2 = C2.\n4. General solution: \\phi(x+y+z, x^2+y^2+z^2) = 0."
+      },
+      {
+        "id": 20,
+        "unit": "IV",
+        "question": "Classify the following first-order partial differential equations as linear, semi-linear, quasi-linear, or non-linear: (a) x^2 p + y^2 q = z^2, (b) p^2 + q^2 = 1, (c) p + q = z^2, (d) z(p + q) = x.",
+        "answerKey": "1. (a) x^2 p + y^2 q = z^2: Semi-linear (linear in derivatives p & q, but non-linear term z^2 is on RHS).\n2. (b) p^2 + q^2 = 1: Non-linear (contains non-linear powers of derivatives p and q).\n3. (c) p + q = z^2: Semi-linear (linear in derivatives p & q, non-linear in variable z).\n4. (d) z(p + q) = x: Quasi-linear (linear in derivatives p & q, but coefficients depend on variable z)."
+      },
+      {
+        "id": 21,
+        "unit": "V",
+        "question": "Solve the non-linear first-order PDE using Charpit's method: px + qy = pq.",
+        "answerKey": "1. Let F = px + qy - pq = 0. Compute partials: Fx = p, Fy = q, Fz = 0, Fp = x-q, Fq = y-p.\n2. Charpit's auxiliary: dp/(Fx + p Fz) = dq/(Fy + q Fz) => dp/p = dq/q. Integrate: p = aq.\n3. Substitute into PDE: aqx + qy = aq^2 => q(ax + y) = aq^2 => q = (ax+y)/a and p = ax+y.\n4. Use dz = p dx + q dy = (ax+y) dx + (ax+y)/a dy = [(ax+y)/a] (a dx + dy).\n5. Integrate: z = (ax+y)^2 / (2a) + b."
+      },
+      {
+        "id": 22,
+        "unit": "V",
+        "question": "Find the general solution of the homogeneous linear second-order PDE: \\frac{\\partial^2 z}{\\partial x^2} - 3\\frac{\\partial^2 z}{\\partial x \\partial y} + 2\\frac{\\partial^2 z}{\\partial y^2} = 0.",
+        "answerKey": "1. Operator form: (D^2 - 3DD' + 2D'^2)z = 0.\n2. Auxiliary equation: substitute D=m, D'=1 => m^2 - 3m + 2 = 0 => (m-1)(m-2) = 0 => roots m = 1, 2.\n3. General solution is: z = \\phi1(y + x) + \\phi2(y + 2x), where \\phi1 and \\phi2 are arbitrary functions."
+      },
+      {
+        "id": 23,
+        "unit": "V",
+        "question": "Find the particular integral of the partial differential equation: (D^2 - 2DD' + D'^2)z = e^{2x + 3y}.",
+        "answerKey": "1. P.I. = 1/(D^2 - 2DD' + D'^2) e^(2x+3y).\n2. Substitute D = 2 and D' = 3 into the denominator.\n3. Denominator value: 2^2 - 2(2)(3) + 3^2 = 4 - 12 + 9 = 1.\n4. Particular Integral is: P.I. = e^(2x+3y)."
+      },
+      {
+        "id": 24,
+        "unit": "V",
+        "question": "Find the Particular Integral of (D^2 - D'^2)z = \\cos(x + y) where D = \\frac{\\partial}{\\partial x}, D' = \\frac{\\partial}{\\partial y}.",
+        "answerKey": "1. P.I. = 1/(D^2 - D'^2) cos(x+y) = 1/[(D-D')(D+D')] cos(x+y).\n2. For D-D' factor: substitute D=1, D'=-1 (coefficients of x, y are 1, 1). 1/(D-D') -> 1/[1 - (-1)] = 1/2.\n3. For failure factor D+D': use formula 1/(D+D') cos(x+y) = x sin(x+y).\n4. P.I. = x/2 sin(x+y)."
+      },
+      {
+        "id": 25,
+        "unit": "V",
+        "question": "Solve the variable coefficient PDE reducible to constant coefficients (Euler-type PDE): x^2 \\frac{\\partial^2 z}{\\partial x^2} - y^2 \\frac{\\partial^2 z}{\\partial y^2} = 0.",
+        "answerKey": "1. Substitute x = e^u, y = e^v => Du(Du-1)z - Dv(Dv-1)z = 0 => (Du^2 - Dv^2 - Du + Dv)z = 0.\n2. Factor operator: (Du - Dv)(Du + Dv - 1)z = 0.\n3. For factor Du - Dv: solution is \\phi1(u+v) = \\phi1(ln x + ln y) = f1(xy).\n4. For factor Du + Dv - 1: solution is e^u \\phi2(u-v) = x \\phi2(ln x - ln y) = x f2(x/y).\n5. General solution: z = f1(xy) + x f2(x/y) where f1, f2 are arbitrary functions."
+      }
+    ]
   },
   "matmj44": {
     "id": "matmj44",
@@ -2521,7 +2674,160 @@ export const EXAMS = {
     "id": "matmn41",
     "title": "Differential Equations",
     "module": "MATMN41",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Find the general solution of the first-order linear differential equation: \\frac{dy}{dx} + y\\cot x = 2x\\csc x.",
+        "answerKey": "1. The equation is of the form dy/dx + P(x)y = Q(x) where P(x) = cot(x) and Q(x) = 2x csc(x).\n2. Compute integrating factor: I.F. = e^\\int cot(x) dx = e^ln|sin(x)| = sin(x).\n3. Multiply by I.F.: sin(x) dy/dx + y cos(x) = 2x.\n4. Integrate both sides: y sin(x) = \\int 2x dx = x^2 + C.\n5. General solution: y = (x^2 + C) csc(x)."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Solve the first-order higher degree equation solvable for $y$: y = 2px + p^2, where p = \\frac{dy}{dx}.",
+        "answerKey": "1. Differentiate both sides w.r.t x: dy/dx = p = 2p + 2x(dp/dx) + 2p(dp/dx).\n2. Simplify: -p = 2(x + p)(dp/dx) => dx/dp + 2/p x = -2.\n3. This is a linear DE in x with independent variable p. I.F. = e^\\int 2/p dp = p^2.\n4. Integrate: x p^2 = \\int -2p^2 dp = -2/3 p^3 + C => x = -2/3 p + C/p^2.\n5. General solution is given parametrically by: x = -2/3 p + C/p^2, y = -1/3 p^2 + 2C/p."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Find the singular solution of the Clairaut's equation: y = px + a\\sqrt{1+p^2}, where p = \\frac{dy}{dx} and a is a constant.",
+        "answerKey": "1. General solution is obtained by replacing p with constant C: y = Cx + a sqrt(1+C^2).\n2. Differentiate w.r.t C to find envelope: 0 = x + aC/sqrt(1+C^2) => x = -aC/sqrt(1+C^2).\n3. Substitute x back: y = -aC^2/sqrt(1+C^2) + a sqrt(1+C^2) = a/sqrt(1+C^2).\n4. Square both expressions and add: x^2 + y^2 = a^2 C^2 / (1+C^2) + a^2 / (1+C^2) = a^2.\n5. Singular solution is the circle x^2 + y^2 = a^2."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Solve the equation solvable for $x$: x = y + p^2, where p = \\frac{dy}{dx}.",
+        "answerKey": "1. Differentiate w.r.t y: dx/dy = 1/p = 1 + 2p(dp/dy).\n2. Rearrange: (1-p)/p = 2p(dp/dy) => dy = [2p^2 / (1-p)] dp.\n3. Integrate: y = \\int [-2p - 2 + 2/(1-p)] dp = -p^2 - 2p - 2 ln|1-p| + C.\n4. General solution represented parametrically by: y = -p^2 - 2p - 2 ln|1-p| + C and x = -2p - 2 ln|1-p| + C."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Find the envelope of the family of straight lines y = mx + \\frac{a}{m}, where m is a parameter and a is a constant.",
+        "answerKey": "1. Express the family as quadratic in m: x m^2 - y m + a = 0.\n2. The envelope corresponds to zero discriminant (B^2 - 4AC = 0) of the quadratic equation.\n3. Identify terms: A = x, B = -y, C = a.\n4. Apply formula: (-y)^2 - 4(x)(a) = 0 => y^2 = 4ax.\n5. The envelope is the parabola y^2 = 4ax."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Find the general solution of the second-order linear differential equation with constant coefficients: \\frac{d^2y}{dx^2} - 5\\frac{dy}{dx} + 6y = e^{4x}.",
+        "answerKey": "1. Auxiliary equation: m^2 - 5m + 6 = 0 => (m-2)(m-3) = 0 => roots are m = 2, 3.\n2. Complementary function: yc = C1 e^(2x) + C2 e^(3x).\n3. Find particular integral (yp): Let yp = A e^(4x).\n4. Substitute: 16A e^(4x) - 20A e^(4x) + 6A e^(4x) = e^(4x) => 2A e^(4x) = e^(4x) => A = 1/2.\n5. General solution is y = C1 e^(2x) + C2 e^(3x) + 1/2 e^(4x)."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Solve the differential equation with constant coefficients: \\frac{d^2y}{dx^2} + 4y = \\sin 2x.",
+        "answerKey": "1. Auxiliary equation: m^2 + 4 = 0 => m = +/- 2i.\n2. Complementary function: yc = C1 cos(2x) + C2 sin(2x).\n3. Particular integral (yp): Since sin(2x) is in complementary function, try yp = x(A cos(2x) + B sin(2x)).\n4. Differentiate and substitute: yp'' + 4yp = 4B cos(2x) - 4A sin(2x) = sin(2x).\n5. Compare coefficients: 4B = 0 => B = 0, -4A = 1 => A = -1/4.\n6. General solution: y = C1 cos(2x) + C2 sin(2x) - x/4 cos(2x)."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Solve the Cauchy-Euler homogeneous linear differential equation: x^2\\frac{d^2y}{dx^2} - 3x\\frac{dy}{dx} + 4y = 0 for x > 0.",
+        "answerKey": "1. Substitute x = e^t => t = ln(x). The equation transforms to [D(D-1) - 3D + 4]y = 0 where D = d/dt.\n2. Simplify: (D^2 - 4D + 4)y = 0.\n3. Auxiliary equation: m^2 - 4m + 4 = 0 => (m-2)^2 = 0 => repeated roots m = 2, 2.\n4. Solution in t: y = (C1 + C2 t)e^(2t).\n5. Substitute back t = ln(x) and e^(2t) = x^2: y = (C1 + C2 ln(x))x^2."
+      },
+      {
+        "id": 9,
+        "unit": "II",
+        "question": "Find the general solution of the Euler-Cauchy equation: x^2\\frac{d^2y}{dx^2} - x\\frac{dy}{dx} - 3y = x^5.",
+        "answerKey": "1. Homogeneous equation: substitute x = e^t, leading to (D(D-1) - D - 3)y = 0 => (D^2 - 2D - 3)y = 0.\n2. Auxiliary roots: m^2 - 2m - 3 = 0 => (m-3)(m+1) = 0 => m = 3, -1. Complementary function: yc = C1 x^3 + C2 x^-1.\n3. Particular integral (yp): transformed RHS is e^(5t). Solve (D^2 - 2D - 3)y = e^(5t).\n4. yp = 1/(D^2 - 2D - 3) e^(5t) = 1/(25 - 10 - 3) e^(5t) = 1/12 e^(5t) = 1/12 x^5.\n5. General solution: y = C1 x^3 + C2 x^-1 + 1/12 x^5."
+      },
+      {
+        "id": 10,
+        "unit": "II",
+        "question": "Find the Particular Integral of the differential equation: \\frac{d^3y}{dx^3} - \\frac{dy}{dx} = e^x + \\cos x.",
+        "answerKey": "1. P.I. is yp = yp1 + yp2 where yp1 = 1/(D^3 - D) e^x and yp2 = 1/(D^3 - D) cos(x).\n2. For yp1: D=1 makes denominator 0. Factor operator: 1/[D(D+1)(D-1)] e^x = 1/[1(2)] * [x/1!] e^x = x/2 e^x.\n3. For yp2: Substitute D^2 = -1. yp2 = 1/(-D - D) cos(x) = -1/(2D) cos(x) = -1/2 \\int cos(x) dx = -1/2 sin(x).\n4. Particular Integral is yp = x/2 e^x - 1/2 sin(x)."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Use the method of Variation of Parameters to find the particular integral of the differential equation: \\frac{d^2y}{dx^2} + y = \\sec x.",
+        "answerKey": "1. Homogeneous solution: yc = C1 cos(x) + C2 sin(x). Let y1 = cos(x), y2 = sin(x).\n2. Compute Wronskian: W = y1 y2' - y2 y1' = cos^2(x) + sin^2(x) = 1.\n3. Particular solution: yp = u(x) y1 + v(x) y2.\n4. Calculate u(x) = -\\int [y2 f(x) / W] dx = -\\int sin(x) sec(x) dx = -\\int tan(x) dx = ln|cos(x)|.\n5. Calculate v(x) = \\int [y1 f(x) / W] dx = \\int cos(x) sec(x) dx = \\int 1 dx = x.\n6. Particular integral: yp = cos(x) ln|cos(x)| + x sin(x)."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Transform the differential equation to normal form (removal of first derivative) and solve: \\frac{d^2y}{dx^2} - 2\\tan x \\frac{dy}{dx} + 5y = 0.",
+        "answerKey": "1. The equation has P = -2tan(x), Q = 5. To remove first derivative, choose u = e^(-1/2 \\int P dx) = e^\\int tan(x) dx = sec(x).\n2. Normal form is v'' + I v = 0, where I = Q - 1/2 dP/dx - 1/4 P^2.\n3. Compute derivatives: dP/dx = -2sec^2(x) and P^2 = 4tan^2(x).\n4. I = 5 - 1/2(-2sec^2(x)) - 1/4(4tan^2(x)) = 5 + sec^2(x) - tan^2(x) = 5 + 1 = 6.\n5. Solve v'' + 6v = 0 => v = C1 cos(sqrt(6)x) + C2 sin(sqrt(6)x).\n6. General solution: y = uv = sec(x)(C1 cos(sqrt(6)x) + C2 sin(sqrt(6)x))."
+      },
+      {
+        "id": 13,
+        "unit": "III",
+        "question": "Find the series solution of the differential equation about the ordinary point x=0: \\frac{d^2y}{dx^2} + x y = 0.",
+        "answerKey": "1. Let y = \\sum an x^n. Then y'' = \\sum n(n-1) an x^(n-2).\n2. Substitute into DE: \\sum n(n-1) an x^(n-2) + \\sum an x^(n+1) = 0.\n3. Shift indices: \\sum (k+2)(k+1) a_{k+2} x^k + \\sum a_{k-1} x^k = 0.\n4. For k=0: 2 a2 = 0 => a2 = 0. For k >= 1, (k+2)(k+1) a_{k+2} + a_{k-1} = 0 => a_{k+2} = -a_{k-1} / [(k+2)(k+1)].\n5. Coefficients: a3 = -a0/6, a4 = -a1/12, a5 = 0, a6 = a0/180.\n6. Series solution: y = a0(1 - x^3/6 + x^6/180 - ...) + a1(x - x^4/12 + x^7/504 - ...)."
+      },
+      {
+        "id": 14,
+        "unit": "III",
+        "question": "Classify the singular points of the following differential equation (determine if they are regular or irregular): x^2(x-1)y'' + 3xy' + 5y = 0.",
+        "answerKey": "1. Write in standard form: y'' + 3/[x(x-1)] y' + 5/[x^2(x-1)] y = 0. Singular points are x = 0 and x = 1.\n2. For x = 0: lim_{x->0} x P(x) = lim_{x->0} 3/(x-1) = -3 (finite). lim_{x->0} x^2 Q(x) = lim_{x->0} 5/(x-1) = -5 (finite). Regular singular point.\n3. For x = 1: lim_{x->1} (x-1) P(x) = lim_{x->1} 3/x = 3 (finite). lim_{x->1} (x-1)^2 Q(x) = lim_{x->1} 5(x-1)/x^2 = 0 (finite). Regular singular point."
+      },
+      {
+        "id": 15,
+        "unit": "III",
+        "question": "Explain the qualitative behavior of solutions to the autonomous differential equation \\frac{dy}{dt} = y(2-y). Find the equilibrium solutions and determine their stability.",
+        "answerKey": "1. Equilibrium solutions occur at dy/dt = 0 => y(2-y) = 0 => y = 0 and y = 2.\n2. Perform first derivative stability test: f'(y) = d/dy [2y - y^2] = 2 - 2y.\n3. For y = 0: f'(0) = 2 > 0. Unstable equilibrium (source).\n4. For y = 2: f'(2) = -2 < 0. Stable equilibrium (sink).\n5. For 0 < y < 2, dy/dt > 0 (solutions increase towards 2); for y > 2 or y < 0, dy/dt < 0."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Form a partial differential equation by eliminating the arbitrary constants a and b from: z = (x-a)^2 + (y-b)^2.",
+        "answerKey": "1. Differentiate partially w.r.t x: p = dz/dx = 2(x-a) => x-a = p/2.\n2. Differentiate partially w.r.t y: q = dz/dy = 2(y-b) => y-b = q/2.\n3. Substitute back: z = (p/2)^2 + (q/2)^2 => z = p^2/4 + q^2/4.\n4. Simplify to get the resulting PDE: p^2 + q^2 = 4z."
+      },
+      {
+        "id": 17,
+        "unit": "IV",
+        "question": "Form a partial differential equation by eliminating the arbitrary function f from: z = f(x^2 + y^2).",
+        "answerKey": "1. Differentiate partially w.r.t x: p = dz/dx = f'(x^2+y^2) * 2x.\n2. Differentiate partially w.r.t y: q = dz/dy = f'(x^2+y^2) * 2y.\n3. Divide the two equations: p/q = (2x)/(2y) = x/y.\n4. Cross-multiply: py = qx => yp - xq = 0."
+      },
+      {
+        "id": 18,
+        "unit": "IV",
+        "question": "Solve the first-order linear partial differential equation using Lagrange's method: yz p + zx q = xy, where p = \\frac{\\partial z}{\\partial x} and q = \\frac{\\partial z}{\\partial y}.",
+        "answerKey": "1. Lagrange auxiliary equations: dx/(yz) = dy/(zx) = dz/(xy).\n2. First two ratios: dx/(yz) = dy/(zx) => dx/y = dy/x => x dx = y dy. Integrate: x^2 - y^2 = C1.\n3. Second and third ratios: dy/(zx) = dz/(xy) => dy/z = dz/y => y dy = z dz. Integrate: y^2 - z^2 = C2.\n4. General solution: \\phi(x^2 - y^2, y^2 - z^2) = 0."
+      },
+      {
+        "id": 19,
+        "unit": "IV",
+        "question": "Solve the linear PDE by Lagrange's method: (y-z)p + (z-x)q = x-y.",
+        "answerKey": "1. Auxiliary equations: dx/(y-z) = dy/(z-x) = dz/(x-y).\n2. Use multipliers (1, 1, 1): each ratio = (dx + dy + dz) / [(y-z) + (z-x) + (x-y)] = (dx + dy + dz) / 0.\n   Integrating gives: x + y + z = C1.\n3. Use multipliers (x, y, z): each ratio = (x dx + y dy + z dz) / [x(y-z) + y(z-x) + z(x-y)] = (x dx + y dy + z dz) / 0.\n   Integrating gives: x^2 + y^2 + z^2 = C2.\n4. General solution: \\phi(x+y+z, x^2+y^2+z^2) = 0."
+      },
+      {
+        "id": 20,
+        "unit": "IV",
+        "question": "Classify the following first-order partial differential equations as linear, semi-linear, quasi-linear, or non-linear: (a) x^2 p + y^2 q = z^2, (b) p^2 + q^2 = 1, (c) p + q = z^2, (d) z(p + q) = x.",
+        "answerKey": "1. (a) x^2 p + y^2 q = z^2: Semi-linear (linear in derivatives p & q, but non-linear term z^2 is on RHS).\n2. (b) p^2 + q^2 = 1: Non-linear (contains non-linear powers of derivatives p and q).\n3. (c) p + q = z^2: Semi-linear (linear in derivatives p & q, non-linear in variable z).\n4. (d) z(p + q) = x: Quasi-linear (linear in derivatives p & q, but coefficients depend on variable z)."
+      },
+      {
+        "id": 21,
+        "unit": "V",
+        "question": "Solve the non-linear first-order PDE using Charpit's method: px + qy = pq.",
+        "answerKey": "1. Let F = px + qy - pq = 0. Compute partials: Fx = p, Fy = q, Fz = 0, Fp = x-q, Fq = y-p.\n2. Charpit's auxiliary: dp/(Fx + p Fz) = dq/(Fy + q Fz) => dp/p = dq/q. Integrate: p = aq.\n3. Substitute into PDE: aqx + qy = aq^2 => q(ax + y) = aq^2 => q = (ax+y)/a and p = ax+y.\n4. Use dz = p dx + q dy = (ax+y) dx + (ax+y)/a dy = [(ax+y)/a] (a dx + dy).\n5. Integrate: z = (ax+y)^2 / (2a) + b."
+      },
+      {
+        "id": 22,
+        "unit": "V",
+        "question": "Find the general solution of the homogeneous linear second-order PDE: \\frac{\\partial^2 z}{\\partial x^2} - 3\\frac{\\partial^2 z}{\\partial x \\partial y} + 2\\frac{\\partial^2 z}{\\partial y^2} = 0.",
+        "answerKey": "1. Operator form: (D^2 - 3DD' + 2D'^2)z = 0.\n2. Auxiliary equation: substitute D=m, D'=1 => m^2 - 3m + 2 = 0 => (m-1)(m-2) = 0 => roots m = 1, 2.\n3. General solution is: z = \\phi1(y + x) + \\phi2(y + 2x), where \\phi1 and \\phi2 are arbitrary functions."
+      },
+      {
+        "id": 23,
+        "unit": "V",
+        "question": "Find the particular integral of the partial differential equation: (D^2 - 2DD' + D'^2)z = e^{2x + 3y}.",
+        "answerKey": "1. P.I. = 1/(D^2 - 2DD' + D'^2) e^(2x+3y).\n2. Substitute D = 2 and D' = 3 into the denominator.\n3. Denominator value: 2^2 - 2(2)(3) + 3^2 = 4 - 12 + 9 = 1.\n4. Particular Integral is: P.I. = e^(2x+3y)."
+      },
+      {
+        "id": 24,
+        "unit": "V",
+        "question": "Find the Particular Integral of (D^2 - D'^2)z = \\cos(x + y) where D = \\frac{\\partial}{\\partial x}, D' = \\frac{\\partial}{\\partial y}.",
+        "answerKey": "1. P.I. = 1/(D^2 - D'^2) cos(x+y) = 1/[(D-D')(D+D')] cos(x+y).\n2. For D-D' factor: substitute D=1, D'=-1 (coefficients of x, y are 1, 1). 1/(D-D') -> 1/[1 - (-1)] = 1/2.\n3. For failure factor D+D': use formula 1/(D+D') cos(x+y) = x sin(x+y).\n4. P.I. = x/2 sin(x+y)."
+      },
+      {
+        "id": 25,
+        "unit": "V",
+        "question": "Solve the variable coefficient PDE reducible to constant coefficients (Euler-type PDE): x^2 \\frac{\\partial^2 z}{\\partial x^2} - y^2 \\frac{\\partial^2 z}{\\partial y^2} = 0.",
+        "answerKey": "1. Substitute x = e^u, y = e^v => Du(Du-1)z - Dv(Dv-1)z = 0 => (Du^2 - Dv^2 - Du + Dv)z = 0.\n2. Factor operator: (Du - Dv)(Du + Dv - 1)z = 0.\n3. For factor Du - Dv: solution is \\phi1(u+v) = \\phi1(ln x + ln y) = f1(xy).\n4. For factor Du + Dv - 1: solution is e^u \\phi2(u-v) = x \\phi2(ln x - ln y) = x f2(x/y).\n5. General solution: z = f1(xy) + x f2(x/y) where f1, f2 are arbitrary functions."
+      }
+    ]
   },
   "matin51": {
     "id": "matin51",
