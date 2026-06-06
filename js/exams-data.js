@@ -4083,7 +4083,165 @@ export const EXAMS = {
   "chemv31": { "id": "chemv31", "title": "Industrial Chemistry-I", "module": "CHEMV31", "comingSoon": true },
   "chemv32": { "id": "chemv32", "title": "Industrial Chemistry Lab Work-I", "module": "CHEMV32", "comingSoon": true },
   "chese31": { "id": "chese31", "title": "Synthetic Methodologies", "module": "CHESE31", "comingSoon": true },
-  "chemj41": { "id": "chemj41", "title": "Inorganic Chemistry - II", "module": "CHEMJ41", "comingSoon": true },
+  "chemj41": {
+    "id": "chemj41",
+    "title": "Inorganic Chemistry - II",
+    "module": "CHEMJ41",
+    "duration": 60,
+    "type": "theory",
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "What happens when acetic acid ($CH_3COOH$) is dissolved in liquid ammonia and sulfuric acid ($H_2SO_4$) respectively? Explain using Brønsted-Lowry Theory.",
+        "answerKey": "1. In liquid ammonia: Acetic acid acts as a strong acid because ammonia is a strong proton acceptor (leveling solvent). The reaction is: $CH_3COOH + NH_3 \\rightleftharpoons CH_3COO^- + NH_4^+$.\n2. In sulfuric acid: Acetic acid behaves as a weak base because sulfuric acid is a very strong proton donor (differentiating solvent). The reaction is: $CH_3COOH + H_2SO_4 \\rightleftharpoons CH_3C(OH)_2^+ + HSO_4^-$.\n3. According to Brønsted-Lowry theory, an acid is a proton donor and a base is a proton acceptor."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Why is an alkali-metal solution in liquid ammonia deep blue in colour and a very good reducing agent? What differences in properties occur in the bronze-coloured phase?",
+        "answerKey": "1. Blue Colour: Dissolving alkali metals in liquid ammonia produces solvated cations and solvated (ammoniated) electrons: $M + (x+y)NH_3 \\rightleftharpoons [M(NH_3)_x]^+ + [e(NH_3)_y]^-$.\n2. The absorption of light in the near-infrared region by these ammoniated electrons gives the solution a deep blue colour.\n3. Reducing Power: The free ammoniated electrons are highly mobile and easily available for transfer, making the solution an excellent reducing agent.\n4. Bronze Phase: At high concentrations (>3 M), the solution transitions to a metallic bronze-coloured phase. This phase has high electrical conductivity (similar to liquid metals), is paramagnetic/ferromagnetic, and has lower density due to electron cavity clustering."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Explain the order of Lewis acidity of boron halides ($BF_3, BCl_3, BBr_3, BI_3$) in decreasing acid strength, and compare $BCl_3$ with $B(CH_3)_3$.",
+        "answerKey": "1. Order of Acidity: $BI_3 > BBr_3 > BCl_3 > BF_3$.\n2. Reason: This trend is opposite to electronegativity predictions due to $p_\\pi-p_\\pi$ back-bonding. In $BF_3$, the small size of boron and fluorine allows effective overlap of the filled $2p$ orbital of F with the empty $2p$ orbital of B, reducing its electron deficiency. Back-bonding efficiency decreases as halogen size increases ($F > Cl > Br > I$), leaving B more electron-deficient.\n3. Comparison: $BCl_3$ is a much stronger Lewis acid than $B(CH_3)_3$ because the methyl groups in $B(CH_3)_3$ are electron-donating via inductive effect (+I), which satisfies the electron deficiency of boron."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Identify the Brønsted-Lowry acids, bases, and their conjugate pairs in the following reactions:\n(i) $NH_4^+ + S^{2-} \\rightleftharpoons HS^- + NH_3$\n(ii) $CO_3^{2-} + H_2O \\rightleftharpoons HCO_3^- + OH^-$\n(iii) $H_2SO_4 + HClO_4 \\rightleftharpoons H_3SO_4^+ + ClO_4^-$.",
+        "answerKey": "1. Reaction (i): $NH_4^+$ is the Acid, $S^{2-}$ is the Base. $HS^-$ is the conjugate acid of $S^{2-}$, and $NH_3$ is the conjugate base of $NH_4^+$.\n2. Reaction (ii): $H_2O$ is the Acid, $CO_3^{2-}$ is the Base. $HCO_3^-$ is the conjugate acid of $CO_3^{2-}$, and $OH^-$ is the conjugate base of $H_2O$.\n3. Reaction (iii): $HClO_4$ is the Acid, $H_2SO_4$ is the Base. $H_3SO_4^+$ is the conjugate acid of $H_2SO_4$, and $ClO_4^-$ is the conjugate base of $HClO_4$."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Describe the Lux-Flood concept of acids and bases. Complete the following reactions and identify the Lux-Flood acids and bases in each:\n(i) $Na_2O + SiO_2 \\to ?$\n(ii) $3Na_2O + P_2O_5 \\to ?$\n(iii) $K_2O + SO_3 \\to ?$.",
+        "answerKey": "1. Lux-Flood Concept: An acid is defined as an oxide ion ($O^{2-}$) acceptor, and a base is defined as an oxide ion donor.\n2. Reaction (i): $Na_2O + SiO_2 \\to Na_2SiO_3$. Here $Na_2O$ is the base (donor) and $SiO_2$ is the acid (acceptor).\n3. Reaction (ii): $3Na_2O + P_2O_5 \\to 2Na_3PO_4$. Here $Na_2O$ is the base and $P_2O_5$ is the acid.\n4. Reaction (iii): $K_2O + SO_3 \\to K_2SO_4$. Here $K_2O$ is the base and $SO_3$ is the acid."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "What is the HSAB principle? Predict the preferred directions of the following reactions with reasons:\n(i) $HgF_2 + BeI_2 \\rightleftharpoons HgI_2 + BeF_2$\n(ii) $TiI_4 + 2TiF_2 \\rightleftharpoons TiF_4 + 2TiI_2$.",
+        "answerKey": "1. HSAB Principle: Hard acids prefer to coordinate with hard bases, and soft acids prefer to coordinate with soft bases.\n2. Reaction (i): Preferred direction is forward (shifts right). $Hg^{2+}$ is a soft acid and $I^-$ is a soft base, so they form stable $HgI_2$ (soft-soft). $Be^{2+}$ is a hard acid and $F^-$ is a hard base, forming stable $BeF_2$ (hard-hard).\n3. Reaction (ii): Preferred direction is forward (shifts right). $Ti^{4+}$ is a hard acid and prefers the hard base $F^-$, forming stable $TiF_4$ (hard-hard), leaving $Ti^{2+}$ (borderline/soft) to combine with the softer $I^-$, forming $TiI_2$."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "In terms of the HSAB principle, which end of the $NCO^-$ ligand would you expect to coordinate to $Co^{2+}$ and $Ti^{4+}$? Explain your answer.",
+        "answerKey": "1. The cyanate ion ($NCO^-$) is an ambidentate ligand. The nitrogen atom is a harder basic site, while the oxygen atom is a softer basic site.\n2. $Ti^{4+}$ is a highly charged, small cation classified as a hard acid. Therefore, it coordinates preferentially with the nitrogen atom (hard-hard interaction).\n3. $Co^{2+}$ is a borderline transition metal cation (classified as borderline/soft). It typically coordinates via the softer oxygen site or shows flexible bonding modes depending on steric and solvent conditions."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "Write the autoionization reactions of liquid $SO_2$ and liquid $N_2O_4$.",
+        "answerKey": "1. Autoionization of liquid $SO_2$: $2SO_2 \\rightleftharpoons SO^{2+} \\text{ (thionyl cation)} + SO_3^{2-} \\text{ (sulfite anion)}$.\n2. Autoionization of liquid $N_2O_4$: $N_2O_4 \\rightleftharpoons NO^+ \\text{ (nitrosyl cation)} + NO_3^- \\text{ (nitrate anion)}$."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "State the key physical and chemical properties that mainly determine the utility of a solvent for chemical reactions.",
+        "answerKey": "1. Liquid Range: The temperature range between melting and boiling points determines the operational temperature limits.\n2. Dielectric Constant: High dielectric constant solvents (like water, liquid $NH_3$) are good at dissolving ionic compounds.\n3. Dipole Moment: Influences the solvating power of the solvent for polar solutes.\n4. Viscosity: Low viscosity allows rapid solute diffusion and reaction rates.\n5. Autoionization: Determines the acid-base behavior and solvent system chemistry."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "What is the difference between ammoniation and ammonolysis? Explain with one example of both.",
+        "answerKey": "1. Ammoniation: The process where solvent ammonia molecules attach to a solute to form coordinate bonds without breaking the solute bonds (similar to hydration). Example: $CuSO_4 + 4NH_3 \\to [Cu(NH_3)_4]SO_4$.\n2. Ammonolysis: The reaction in which the solute undergoes solvolysis, breaking bonds and forming amide, imide, or nitride derivatives. Example: $SiCl_4 + 8NH_3 \\to Si(NH_2)_4 + 4NH_4Cl$."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "Why do transition metal elements exhibit variable oxidation states? Comment on the oxidation states of Fe and Cr and state which are most common.",
+        "answerKey": "1. Variable Oxidation States: Transition metals have $(n-1)d$ and $ns$ subshells with very small energy differences. Electrons from both subshells can participate in bond formation.\n2. Iron (Fe): Exhibits states from +2 to +6. The most common and stable states are +2 ($d^6$) and +3 ($d^5$, half-filled stability).\n3. Chromium (Cr): Exhibits states from +1 to +6. The most common and stable states are +3 ($t_{2g}^3$, half-filled subshell stability in octahedral fields) and +6 ($d^0$ stability)."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "Write the IUPAC names of the following coordination compounds:\n(i) $[Co(ONO)(NH_3)_5]^{2+}$\n(ii) $[(NH_3)_5Cr-OH-Cr(NH_3)_5]Cl_5$\n(iii) $K_2[Zn(NH_2)_4]$\n(iv) $[Cr(NH_3)_6][Co(CN)_6]$.",
+        "answerKey": "1. Compound (i): Pentaamminenitritocobalt(III) ion.\n2. Compound (ii): $\\mu$-hydroxido-bis[pentaamminechromium(III)] chloride.\n3. Compound (iii): Potassium tetraamidozincate(II).\n4. Compound (iv): Hexaamminechromium(III) hexacyanocobaltate(III)."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "Write the IUPAC names of the following complexes:\n(i) $[Co(SO_4)(NH_3)_5]NO_3$\n(ii) $[Cr(en)_2Cl_2]^+$\n(iii) $[(NH_3)_5Co-NH_2-Co(NH_3)_5](NO_3)_5$\n(iv) $[Pt(NH_3)_4][PtCl_4]$.",
+        "answerKey": "1. Complex (i): Pentaamminesulfatocobalt(III) nitrate.\n2. Complex (ii): Dichlorobis(ethylenediamine)chromium(III) ion.\n3. Complex (iii): $\\mu$-amido-bis[pentaamminecobalt(III)] nitrate.\n4. Complex (iv): Tetraammineplatinum(II) tetrachloroplatinate(II)."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "An aqueous solution of the compound $CoN_5H_{15}Cl_3$ gives a negative test for $NH_3$ and $Cl^-$, and the solution is non-conducting. Deduce its structure and hybridization.",
+        "answerKey": "1. Structure: The formula is $[Co(NH_3)_5Cl]Cl_2$ empirically. However, since the solution is non-conducting and gives a negative test for chloride ions, all $Cl^-$ and $NH_3$ must be directly coordinated to the metal centers.\n2. This suggests a dimeric or polymeric neutral bridged structure: $[(NH_3)_3Co(\\mu-Cl)_3Co(NH_3)_3]$ with remaining ammonia molecules encapsulated, or a neutral Werner complex where all ligands are inside the sphere.\n3. Hybridization: Cobalt(III) is $d^6$. In this low-spin octahedral coordination, it undergoes $d^2sp^3$ hybridization."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Calculate the Effective Atomic Number (EAN) of the metal in the following complexes:\n(i) $Fe(CO)_5$\n(ii) $[Ni(NH_3)_6]^{2+}$\n(iii) $Co_2(CO)_8$\n(iv) $K_4[Fe(CN)_6]$.",
+        "answerKey": "1. Formula: $EAN = Z - ON + 2 \\times CN$ (where Z is atomic number, ON is oxidation state, CN is coordination number).\n2. (i) $Fe(CO)_5$: $Z=26$, $ON=0$, $CN=5$. $EAN = 26 - 0 + 2(5) = 36$ (Obeys 18-electron rule).\n3. (ii) $[Ni(NH_3)_6]^{2+}$: $Z=28$, $ON=+2$, $CN=6$. $EAN = 28 - 2 + 2(6) = 38$.\n4. (iii) $Co_2(CO)_8$: Each Co shares a metal-metal bond (adds 1 electron). $EAN = 27 - 0 + 2(4) + 1 = 36$ (Obeys 18-electron rule).\n5. (iv) $K_4[Fe(CN)_6]$: $Z=26$, $ON=+2$, $CN=6$. $EAN = 26 - 2 + 2(6) = 36$ (Obeys 18-electron rule)."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Why is $[Ni(en)_3]^{2+}$ more stable than $[Ni(NH_3)_6]^{2+}$ even though both are octahedral? Draw their structures.",
+        "answerKey": "1. Chelate Effect: Ethylenediamine (en) is a bidentate ligand, whereas ammonia ($NH_3$) is a monodentate ligand.\n2. Coordinating 'en' forms stable 5-membered chelate rings with $Ni^{2+}$. Ring formation increases stability significantly.\n3. Thermodynamics: The replacement of monodentate ligands by bidentate ligands leads to a positive entropy change ($\\Delta S > 0$), making the free energy of formation ($\\Delta G$) more negative."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "On the basis of Valence Bond Theory (VBT), comment on the hybridization, geometry, and spin magnetic moment of $[Fe(CN)_6]^{3-}$, $[Cu(NH_3)_4]^{2+}$, and $[Cr(NH_3)_6]^{3+}$.",
+        "answerKey": "1. $[Fe(CN)_6]^{3-}$: $Fe^{3+}$ is $d^5$. $CN^-$ is a strong field ligand, forcing pairing of electrons leaving two empty $3d$ orbitals. Hybridization is $d^2sp^3$ (octahedral, inner orbital). 1 unpaired electron $\\implies \\mu = \\sqrt{3} = 1.73$ B.M.\n2. $[Cu(NH_3)_4]^{2+}$: $Cu^{2+}$ is $d^9$. Ammonia acts as a strong field ligand. The unpaired $3d$ electron is promoted to a higher $4p$ orbital, allowing $dsp^2$ hybridization (square planar). 1 unpaired electron $\\implies \\mu = 1.73$ B.M.\n3. $[Cr(NH_3)_6]^{3+}$: $Cr^{3+}$ is $d^3$. It has two empty $3d$ orbitals naturally. Hybridization is $d^2sp^3$ (octahedral, inner orbital). 3 unpaired electrons $\\implies \\mu = \\sqrt{15} = 3.87$ B.M."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "Explain the structure and magnetic behavior of $[Ni(CO)_4]$ and $[Ni(CN)_4]^{2-}$ using Valence Bond Theory.",
+        "answerKey": "1. $[Ni(CO)_4]$: Nickel is in 0 oxidation state ($3d^8 4s^2$). CO is a very strong field ligand, causing the $4s$ electrons to pair up into the $3d$ subshell, resulting in a $3d^{10}$ configuration. Hybridization is $sp^3$ (tetrahedral). It is diamagnetic (no unpaired electrons).\n2. $[Ni(CN)_4]^{2-}$: Nickel is in +2 oxidation state ($3d^8$). $CN^-$ is a strong field ligand and forces pairing of the two unpaired $3d$ electrons, leaving one empty $3d$ orbital. Hybridization is $dsp^2$ (square planar). It is diamagnetic."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Why is $[Ti(H_2O)_6]^{3+}$ complex coloured while $[Ti(H_2O)_6]^{4+}$ is colourless?",
+        "answerKey": "1. $Ti^{3+}$ has a $d^1$ electronic configuration. The single electron resides in the lower $t_{2g}$ level. Absorption of visible light causes excitation of this electron to the upper $e_g$ level ($d-d$ transition), imparting purple-violet color to the complex.\n2. $Ti^{4+}$ has a $d^0$ configuration. There are no $d$-electrons available for $d-d$ transition, making the complex colourless."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "What are the primary and secondary valencies according to Werner's theory? Predict their values in $[Co(NH_3)_5Cl]Cl_2$.",
+        "answerKey": "1. Primary Valency: Corresponds to the oxidation state of the metal. It is ionizable and satisfied by negative ions.\n2. Secondary Valency: Corresponds to the coordination number of the metal. It is non-ionizable and satisfied by neutral molecules or negative ions.\n3. In $[Co(NH_3)_5Cl]Cl_2$, the oxidation state of Co is +3, so primary valency = 3. The coordination number is 6 (5 $NH_3$ + 1 $Cl$), so secondary valency = 6."
+      },
+      {
+        "id": 21,
+        "unit": "II",
+        "question": "Draw and specify the types of isomerism possible in $[Co(en)_2Cl_2]^+$ and the pair $[Co(en)_2(NO_2)Cl]SCN$ vs $[Co(en)_2(NO_2)(SCN)]Cl$.",
+        "answerKey": "1. $[Co(en)_2Cl_2]^+$: Shows geometrical isomerism (cis and trans isomers). The cis-isomer is non-superimposable on its mirror image, thus showing optical isomerism ($d$- and $l$-enantiomers). The trans-isomer has a plane of symmetry and is optically inactive.\n2. $[Co(en)_2(NO_2)Cl]SCN$ and $[Co(en)_2(NO_2)(SCN)]Cl$: These are ionization isomers because they yield different ions in solution ($SCN^-$ vs $Cl^-$). They also show linkage isomerism (via $NO_2^-$ vs $ONO^-$ or $SCN^-$ vs $NCS^-$)."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "What is lanthanide contraction? Explain the cause and important consequences of lanthanide contraction.",
+        "answerKey": "1. Definition: The steady and gradual decrease in the atomic and ionic radii of lanthanide elements ($Ln^{3+}$) with increasing atomic number from Lanthanum (La) to Lutetium (Lu).\n2. Cause: Poor shielding effect of $4f$ electrons. As the nuclear charge increases by one unit at each step, the addition of a $4f$ electron does not shield the outer electrons effectively, increasing the effective nuclear charge and pulling the shells closer.\n3. Consequences: (a) Close similarity in properties of $4d$ and $5d$ transition elements (e.g., Zr and Hf have identical sizes). (b) Basic strength of lanthanide hydroxides decreases from $La(OH)_3$ to $Lu(OH)_3$. (c) Extreme difficulty in separating lanthanides due to highly similar chemical properties."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "Why is the decrease in atomic and ionic size from Ce to Lu very small?",
+        "answerKey": "1. In the lanthanide series, the electrons are added to the inner $4f$ subshell.\n2. The $4f$ orbital is deeply embedded inside the atom (shielded by outer $5s$, $5p$, $5d$, and $6s$ shells).\n3. Because of this shielding, the gradual increase in effective nuclear charge is balanced, resulting in a very small and uniform contraction rather than abrupt size drops."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "Write the ground state electronic configurations and determine the number of unpaired electrons in $Nd^{3+}$, $Dy^{3+}$, $Tm^{2+}$, and $Ho^{3+}$ ions.",
+        "answerKey": "1. $Nd^{3+}$ ($Z=60$): $Nd$ is $[Xe] 4f^4 6s^2$. $Nd^{3+}$ is $[Xe] 4f^3$. Number of unpaired electrons = 3.\n2. $Dy^{3+}$ ($Z=66$): $Dy$ is $[Xe] 4f^{10} 6s^2$. $Dy^{3+}$ is $[Xe] 4f^9$. Number of unpaired electrons = 5.\n3. $Tm^{2+}$ ($Z=69$): $Tm$ is $[Xe] 4f^{13} 6s^2$. $Tm^{2+}$ is $[Xe] 4f^{13}$. Number of unpaired electrons = 1.\n4. $Ho^{3+}$ ($Z=67$): $Ho$ is $[Xe] 4f^{11} 6s^2$. $Ho^{3+}$ is $[Xe] 4f^{10}$. Number of unpaired electrons = 4."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "Discuss the variable oxidation states of the lanthanides. Explain the extra stability of $+2$ and $+4$ oxidation states with examples.",
+        "answerKey": "1. Most common state: +3 is the most stable and dominant oxidation state for all lanthanides.\n2. Variable states: Some lanthanides exhibit +2 or +4 oxidation states in solid state or solution.\n3. Stability of +4: Occurs when it leads to a stable $f^0$ (empty) or $f^7$ (half-filled) configuration. Example: $Ce^{4+}$ ($4f^0$, empty, highly stable) and $Tb^{4+}$ ($4f^7$, half-filled, stable).\n4. Stability of +2: Occurs when it leads to a stable $f^7$ (half-filled) or $f^{14}$ (fully filled) configuration. Example: $Eu^{2+}$ ($4f^7$, half-filled) and $Yb^{2+}$ ($4f^{14}$, fully filled)."
+      }
+    ]
+  },
   "chemj42": { "id": "chemj42", "title": "Organic Chemistry - II", "module": "CHEMJ42", "comingSoon": true },
   "chemj43": { "id": "chemj43", "title": "Physical Chemistry - II", "module": "CHEMJ43", "comingSoon": true },
   "chemj44": { "id": "chemj44", "title": "Techniques in Chemistry", "module": "CHEMJ44", "comingSoon": true },
