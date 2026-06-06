@@ -109,9 +109,14 @@ export const StateManager = {
   // --- ENV FILE LOADER ---
   async loadEnv() {
     try {
-      const res = await fetch('.env');
-      if (!res.ok) throw new Error('Not found');
-      const text = await res.text();
+      const res = await fetch('/api/config');
+      if (res.ok) {
+        return await res.json();
+      }
+      
+      const resEnv = await fetch('.env');
+      if (!resEnv.ok) throw new Error('Not found');
+      const text = await resEnv.text();
       const env = {};
       text.split('\n').forEach(line => {
         const parts = line.split('=');
@@ -123,7 +128,7 @@ export const StateManager = {
       });
       return env;
     } catch (e) {
-      console.warn("Could not fetch .env file, returning empty config:", e);
+      console.warn("Could not load config:", e);
       return {};
     }
   }

@@ -113,11 +113,11 @@
     <div class="max-w-container-max w-full mx-auto px-4 md:px-padding-edge relative z-10 flex flex-col items-center">
         <!-- Header -->
         <div class="text-center mb-12">
-            <div class="flex items-center justify-center gap-2 mb-3">
-                <span id="practiceModeBadge" class="bg-accent-bhu-saffron text-white px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider">PRACTICE MODE</span>
+            <div class="flex flex-col md:flex-row md:items-center gap-2 md:gap-4 mt-2">
+                <span id="practiceModeBadge" class="bg-accent-bhu-saffron text-white px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider">PREPARATION MODE</span>
             </div>
             <h1 class="text-3xl md:text-5xl font-bold text-primary tracking-tight">Select Subject</h1>
-            <p class="text-sm md:text-base text-secondary max-w-md mt-2">Pick an active subject to start your practice session workstation.</p>
+            <p class="text-sm md:text-base text-secondary max-w-md mt-2">Pick an active subject to start your preparation session workstation.</p>
         </div>
 
         <!-- Search Option -->
@@ -162,10 +162,10 @@
                         </div>
                         <div class="flex-grow">
                             <div class="flex items-center justify-between">
-                                <span class="font-bold text-sm text-primary">Start Practice Exam</span>
+                                <span class="font-bold text-sm text-primary">Start Preparation Exam</span>
                                 <span class="material-symbols-outlined text-sm text-secondary group-hover:text-primary group-hover:translate-x-0.5 transition-transform">arrow_forward</span>
                             </div>
-                            <p class="text-xs text-secondary mt-1">Practice with 10 random questions, live countdown, and instant AI grading.</p>
+                            <p class="text-xs text-secondary mt-1">Prepare with 10 random questions, live countdown, and instant AI grading.</p>
                         </div>
                     </button>
                     
@@ -224,12 +224,12 @@
     
     // Set display labels dynamically
     const modeLabels = {
-        'endterm': 'End Sem Practice',
-        'midterm': 'Mid Term Practice',
-        'lab': 'Lab Practice'
+        'endterm': 'End Sem Preparation',
+        'midterm': 'Mid Term Preparation',
+        'lab': 'Lab Preparation'
     };
     
-    const displayLabel = modeLabels[mode] || 'Practice Session';
+    const displayLabel = modeLabels[mode] || 'Preparation Session';
     document.getElementById('practiceModeBadge').textContent = displayLabel;
 
     function renderSubjects(examsToRender) {
@@ -367,6 +367,11 @@
                 title: 'Differential Equations PDF',
                 file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB___302___Differential_Equations.pdf',
                 description: 'Official MTB-302 Differential Equations paper'
+            },
+            {
+                title: 'PDE 2023-24 PDF',
+                file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB___401___PDE_2023_24.pdf',
+                description: 'Official MTB-401 Partial Differential Equations 2023-24 paper'
             }
         ],
         'matmn41': [
@@ -379,6 +384,18 @@
                 title: 'Differential Equations PDF',
                 file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB___302___Differential_Equations.pdf',
                 description: 'Official MTB-302 Differential Equations paper'
+            },
+            {
+                title: 'PDE 2023-24 PDF',
+                file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB___401___PDE_2023_24.pdf',
+                description: 'Official MTB-401 Partial Differential Equations 2023-24 paper'
+            }
+        ],
+        'matmj44': [
+            {
+                title: 'Statics & Dynamics 2023-24 PDF',
+                file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB___202___Statics___Dynamics_2023_24.pdf',
+                description: 'Official MTB-202 Statics & Dynamics 2023-24 paper'
             }
         ]
     };

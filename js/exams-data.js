@@ -2661,6 +2661,132 @@ export const EXAMS = {
         "unit": "V",
         "question": "Solve the variable coefficient PDE reducible to constant coefficients (Euler-type PDE): x^2 \\frac{\\partial^2 z}{\\partial x^2} - y^2 \\frac{\\partial^2 z}{\\partial y^2} = 0.",
         "answerKey": "1. Substitute x = e^u, y = e^v => Du(Du-1)z - Dv(Dv-1)z = 0 => (Du^2 - Dv^2 - Du + Dv)z = 0.\n2. Factor operator: (Du - Dv)(Du + Dv - 1)z = 0.\n3. For factor Du - Dv: solution is \\phi1(u+v) = \\phi1(ln x + ln y) = f1(xy).\n4. For factor Du + Dv - 1: solution is e^u \\phi2(u-v) = x \\phi2(ln x - ln y) = x f2(x/y).\n5. General solution: z = f1(xy) + x f2(x/y) where f1, f2 are arbitrary functions."
+      },
+      {
+        "id": 26,
+        "unit": "IV",
+        "question": "Form the partial differential equation by eliminating $h$ and $k$ from the equation: (x - h)^2 + (y - k)^2 + z^2 = \\lambda^2.",
+        "answerKey": "1. The given equation is $(x-h)^2 + (y-k)^2 + z^2 = \\lambda^2$.\n2. Differentiate partially with respect to $x$: $2(x-h) + 2z\\frac{\\partial z}{\\partial x} = 0 \\implies x-h = -zp$, where $p = \\frac{\\partial z}{\\partial x}$.\n3. Differentiate partially with respect to $y$: $2(y-k) + 2z\\frac{\\partial z}{\\partial y} = 0 \\implies y-k = -zq$, where $q = \\frac{\\partial z}{\\partial y}$.\n4. Substitute $(x-h)$ and $(y-k)$ back into the original equation:\n$(-zp)^2 + (-zq)^2 + z^2 = \\lambda^2 \\implies z^2 p^2 + z^2 q^2 + z^2 = \\lambda^2$.\n5. Simplify to obtain the required partial differential equation:\n$z^2(p^2 + q^2 + 1) = \\lambda^2$."
+      },
+      {
+        "id": 27,
+        "unit": "IV",
+        "question": "Form a partial differential equation by eliminating arbitrary functions $f$ and $g$ from the equation: y = f(x + \\alpha t) + g(x - \\alpha t).",
+        "answerKey": "1. Given equation: $y = f(x + \\alpha t) + g(x - \\alpha t)$. Here $y$ is the dependent variable, and $x, t$ are independent variables.\n2. Differentiate partially with respect to $x$:\n$\\frac{\\partial y}{\\partial x} = f'(x + \\alpha t) + g'(x - \\alpha t)$,\n$\\frac{\\partial^2 y}{\\partial x^2} = f''(x + \\alpha t) + g''(x - \\alpha t)$.\n3. Differentiate partially with respect to $t$:\n$\\frac{\\partial y}{\\partial t} = \\alpha f'(x + \\alpha t) - \\alpha g'(x - \\alpha t)$,\n$\\frac{\\partial^2 y}{\\partial t^2} = \\alpha^2 f''(x + \\alpha t) + \\alpha^2 g''(x - \\alpha t)$.\n4. Substitute $\\frac{\\partial^2 y}{\\partial x^2}$ into $\\frac{\\partial^2 y}{\\partial t^2}$:\n$\\frac{\\partial^2 y}{\\partial t^2} = \\alpha^2 [f''(x + \\alpha t) + g''(x - \\alpha t)] = \\alpha^2 \\frac{\\partial^2 y}{\\partial x^2}$.\n5. The required partial differential equation is:\n$\\frac{\\partial^2 y}{\\partial t^2} = \\alpha^2 \\frac{\\partial^2 y}{\\partial x^2}$."
+      },
+      {
+        "id": 28,
+        "unit": "IV",
+        "question": "Solve the partial differential equation: z \\frac{\\partial z}{\\partial x} = -y.",
+        "answerKey": "1. The given equation is $z \\frac{\\partial z}{\\partial x} = -y$, which can be written as $z p = -y$ where $p = \\frac{\\partial z}{\\partial x}$.\n2. Integrate both sides w.r.t $x$, holding $y$ constant:\n$\\int z \\frac{\\partial z}{\\partial x} dx = \\int -y dx \\implies \\frac{z^2}{2} = -yx + f(y)$, where $f(y)$ is an arbitrary function of $y$.\n3. Multiply by 2: $z^2 = -2xy + 2f(y) = -2xy + \\phi(y)$, where $\\phi(y)$ is an arbitrary function.\n4. The general solution is: $z^2 + 2xy = \\phi(y)$."
+      },
+      {
+        "id": 29,
+        "unit": "IV",
+        "question": "Find the complete integral of z = px + qy + p^2 + q^2, where p = \\partial z/\\partial x, q = \\partial z/\\partial y.",
+        "answerKey": "1. The given equation is of Clairaut's form: $z = px + qy + f(p, q)$, where $f(p, q) = p^2 + q^2$.\n2. For Clairaut's equation $z = px + qy + f(p, q)$, the complete integral is obtained directly by replacing $p$ and $q$ with arbitrary constants $a$ and $b$ respectively.\n3. Replace $p$ with $a$ and $q$ with $b$.\n4. The complete integral is: $z = ax + by + a^2 + b^2$, where $a$ and $b$ are arbitrary constants."
+      },
+      {
+        "id": 30,
+        "unit": "V",
+        "question": "Solve (D_x^3 - 4D_x^2D_y + 4D_xD_y^2)z = 0, where D_x \\equiv \\partial/\\partial x, D_y \\equiv \\partial/\\partial y.",
+        "answerKey": "1. The given homogeneous linear PDE is $(D_x^3 - 4D_x^2D_y + 4D_xD_y^2)z = 0$.\n2. Factor the operator: $D_x(D_x^2 - 4D_xD_y + 4D_y^2)z = 0 \\implies D_x(D_x - 2D_y)^2 z = 0$.\n3. The auxiliary equation is obtained by substituting $D_x = m$ and $D_y = 1$:\n$m(m - 2)^2 = 0 \\implies m_1 = 0, m_2 = 2, m_3 = 2$.\n4. For the root $m_1 = 0$, the corresponding part of the solution is $\\phi_1(y)$.\n5. For the repeated roots $m_2 = m_3 = 2$, the corresponding part of the solution is $\\phi_2(y + 2x) + x\\phi_3(y + 2x)$.\n6. The general solution is: $z = \\phi_1(y) + \\phi_2(y + 2x) + x\\phi_3(y + 2x)$, where $\\phi_1, \\phi_2, \\phi_3$ are arbitrary functions."
+      },
+      {
+        "id": 31,
+        "unit": "V",
+        "question": "Find the general solution of r + p - q = z, where r = \\frac{\\partial^2 z}{\\partial x^2}, p = \\frac{\\partial z}{\\partial x}, q = \\frac{\\partial z}{\\partial y}.",
+        "answerKey": "1. In operator notation, the equation $r + p - q = z$ is $(D_x^2 + D_x - D_y - 1)z = 0$ where $D_x = \\frac{\\partial}{\\partial x}$ and $D_y = \\frac{\\partial}{\\partial y}$.\n2. This is a non-homogeneous linear PDE with constant coefficients. We look for trial solutions of the form $z = c e^{ax + by}$.\n3. Substituting $z = e^{ax+by}$ yields: $a^2 + a - b - 1 = 0 \\implies b = a^2 + a - 1$.\n4. Thus, for any constant $a$, $e^{ax + (a^2 + a - 1)y}$ is a solution.\n5. The general solution is the sum of all such solutions: $z = \\sum_{i} C_i e^{a_i x + (a_i^2 + a_i - 1)y}$, or in integral form: $z(x, y) = \\int_{-\\infty}^{\\infty} C(a) e^{ax + (a^2 + a - 1)y} da$."
+      },
+      {
+        "id": 32,
+        "unit": "V",
+        "question": "Solve x^2 r - y^2 t + xp - yq = 0 (where r = z_{xx}, t = z_{yy}, p = z_x, q = z_y) by reducing it to a linear partial differential equation with constant coefficients.",
+        "answerKey": "1. The given equation is $x^2 \\frac{\\partial^2 z}{\\partial x^2} - y^2 \\frac{\\partial^2 z}{\\partial y^2} + x \\frac{\\partial z}{\\partial x} - y \\frac{\\partial z}{\\partial y} = 0$.\n2. Introduce new independent variables $u = \\ln x$ and $v = \\ln y$.\n3. Then, the differential operators transform as: $x \\frac{\\partial}{\\partial x} = D_u$, $x^2 \\frac{\\partial^2}{\\partial x^2} = D_u(D_u - 1)$, $y \\frac{\\partial}{\\partial y} = D_v$, $y^2 \\frac{\\partial^2}{\\partial y^2} = D_v(D_v - 1)$, where $D_u = \\frac{\\partial}{\\partial u}$ and $D_v = \\frac{\\partial}{\\partial v}$.\n4. Substitute into the PDE: $[D_u(D_u - 1) - D_v(D_v - 1) + D_u - D_v] z = 0 \\implies (D_u^2 - D_v^2) z = 0$.\n5. Factoring gives $(D_u - D_v)(D_u + D_v) z = 0$. The auxiliary roots are $1, -1$, giving $z = \\phi_1(u + v) + \\phi_2(u - v)$.\n6. Substitute back: $z = \\phi_1(\\ln x + \\ln y) + \\phi_2(\\ln x - \\ln y) = f(xy) + g(x/y)$, where $f$ and $g$ are arbitrary functions."
+      },
+      {
+        "id": 33,
+        "unit": "V",
+        "question": "Solve xr + p = 9x^2y^2, where r = \\frac{\\partial^2 z}{\\partial x^2} and p = \\frac{\\partial z}{\\partial x}.",
+        "answerKey": "1. The given equation is $x \\frac{\\partial^2 z}{\\partial x^2} + \\frac{\\partial z}{\\partial x} = 9x^2y^2$.\n2. Note that $x \\frac{\\partial^2 z}{\\partial x^2} + \\frac{\\partial z}{\\partial x} = \\frac{\\partial}{\\partial x} \\left( x \\frac{\\partial z}{\\partial x} \\right)$.\n3. Rewrite: $\\frac{\\partial}{\\partial x} \\left( x \\frac{\\partial z}{\\partial x} \\right) = 9x^2y^2$.\n4. Integrate w.r.t $x$: $x \\frac{\\partial z}{\\partial x} = \\int 9x^2y^2 dx = 3x^3 y^2 + f(y)$, where $f(y)$ is an arbitrary function.\n5. Divide by $x$: $\\frac{\\partial z}{\\partial x} = 3x^2 y^2 + \\frac{f(y)}{x}$.\n6. Integrate w.r.t $x$ again: $z = \\int \\left( 3x^2 y^2 + \\frac{f(y)}{x} \\right) dx = x^3 y^2 + f(y) \\ln x + g(y)$.\n7. The general solution is: $z = x^3 y^2 + \\phi(y) \\ln x + \\psi(y)$, where $\\phi$ and $\\psi$ are arbitrary functions."
+      },
+      {
+        "id": 34,
+        "unit": "V",
+        "question": "Check whether the partial differential equation 3r + 6s + 4t = 0 is elliptic (where r = z_{xx}, s = z_{xy}, t = z_{yy}).",
+        "answerKey": "1. A second-order linear PDE of the form $Ar + Bs + Ct + Dp + Eq + Fz = G$ is classified by $B^2 - 4AC$:\n- If $B^2 - 4AC < 0$, it is elliptic.\n- If $B^2 - 4AC = 0$, it is parabolic.\n- If $B^2 - 4AC > 0$, it is hyperbolic.\n2. In the given equation $3r + 6s + 4t = 0$, the coefficients are $A = 3$, $B = 6$, and $C = 4$.\n3. Calculate the discriminant: $B^2 - 4AC = 6^2 - 4(3)(4) = 36 - 48 = -12$.\n4. Since $B^2 - 4AC = -12 < 0$, the partial differential equation is elliptic."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "Obtain the general integral of the partial differential equation: p + 3q = 5z + \\tan(y - 3x), where p = \\frac{\\partial z}{\\partial x}, q = \\frac{\\partial z}{\\partial y}.",
+        "answerKey": "1. This is a Lagrange's linear equation of the form $Pp + Qq = R$, where $P = 1$, $Q = 3$, and $R = 5z + \\tan(y - 3x)$.\n2. The Lagrange auxiliary equations are: $\\frac{dx}{1} = \\frac{dy}{3} = \\frac{dz}{5z + \\tan(y - 3x)}$.\n3. From the first two ratios: $\\frac{dx}{1} = \\frac{dy}{3} \\implies 3dx - dy = 0 \\implies y - 3x = a$ (constant).\n4. Substitute $y - 3x = a$ into the third ratio: $\\frac{dx}{1} = \\frac{dz}{5z + \\tan(a)} \\implies \\frac{dz}{dx} - 5z = \\tan(a)$.\n5. Solving this linear ODE using $I.F. = e^{-5x}$ yields: $z e^{-5x} = -\\frac{\\tan(a)}{5} e^{-5x} + C_2 \\implies (z + \\frac{1}{5}\\tan(y-3x))e^{-5x} = C_2$.\n6. Therefore, the general integral is: $z + \\frac{1}{5}\\tan(y - 3x) = e^{5x} \\phi(y - 3x)$."
+      },
+      {
+        "id": 36,
+        "unit": "V",
+        "question": "Apply Charpit's method to find the complete integral of the equation px + qy + z = zq^2.",
+        "answerKey": "1. Let $F = px + qy + z - zq^2 = 0$. Compute partial derivatives: $F_x = p$, $F_y = q$, $F_z = 1 - q^2$, $F_p = x$, $F_q = y - 2zq$.\n2. Charpit's equations: $\\frac{dp}{F_x + pF_z} = \\frac{dq}{F_y + qF_z} \\implies \\frac{dp}{p(2-q^2)} = \\frac{dq}{q(2-q^2)} \\implies p = aq$.\n3. Substitute $p = aq$ into the PDE: $q(ax+y) + z(1-q^2) = 0 \\implies zq^2 - (ax+y)q - z = 0$.\n4. Use $dz = p dx + q dy = q(a dx + dy)$. Let $u = ax + y \\implies du = a dx + dy$, which gives $dz = q du$.\n5. Solving the quadratic in $q$ gives $q = \\frac{u \\pm \\sqrt{u^2+4z^2}}{2z}$. Substitute this into $dz = q du \\implies 2z dz = (u \\pm \\sqrt{u^2+4z^2}) du$.\n6. This is a homogeneous equation. Let $u = z w \\implies du = z dw + w dz$. Substituting and separating variables leads to the solution: $\\sqrt{(ax+y)^2 + 4z^2} \\mp (ax+y) = b$, which is the complete integral."
+      },
+      {
+        "id": 37,
+        "unit": "V",
+        "question": "Find the general integral of the equation r + s - 6t = y \\cos x (where r = z_{xx}, s = z_{xy}, t = z_{yy}).",
+        "answerKey": "1. The given equation is $(D^2 + DD' - 6D'^2)z = y \\cos x$.\n2. C.F.: The auxiliary equation is $m^2 + m - 6 = 0 \\implies m = 2, -3$. So $C.F. = \\phi_1(y + 2x) + \\phi_2(y - 3x)$.\n3. P.I. = $\\frac{1}{(D - 2D')(D + 3D')} (y \\cos x)$.\n4. Apply $\\frac{1}{D+3D'}$: $\\int (c+3x)\\cos x dx = (c+3x)\\sin x + 3\\cos x = y\\sin x + 3\\cos x$ (where $y = c-3x$).\n5. Apply $\\frac{1}{D-2D'}$: $\\int [(c-2x)\\sin x + 3\\cos x] dx = -(c-2x)\\cos x + \\sin x = -y\\cos x + \\sin x$ (where $y = c+2x$).\n6. General solution: $z = \\phi_1(y + 2x) + \\phi_2(y - 3x) - y \\cos x + \\sin x$."
+      },
+      {
+        "id": 38,
+        "unit": "V",
+        "question": "Reduce the equation x^2 \\frac{\\partial^2 z}{\\partial x^2} - 4xy \\frac{\\partial^2 z}{\\partial x \\partial y} + 4y^2 \\frac{\\partial^2 z}{\\partial y^2} + 6y \\frac{\\partial z}{\\partial y} = x^2 y^3 to linear equation with constant coefficients and then solve it.",
+        "answerKey": "1. Introduce $u = \\ln x$, $v = \\ln y \\implies x = e^u, y = e^v$. The PDE transforms to: $[D_u(D_u-1) - 4D_u D_v + 4D_v(D_v-1) + 6D_v] z = e^{2u+3v}$.\n2. Simplify: $[D_u^2 - 4D_u D_v + 4D_v^2 - D_u + 2D_v] z = e^{2u+3v} \\implies (D_u - 2D_v)(D_u - 2D_v - 1)z = e^{2u+3v}$.\n3. C.F. = $\\phi_1(v + 2u) + e^u \\phi_2(v + 2u) = f(y x^2) + x g(y x^2)$.\n4. P.I. = $\\frac{1}{(D_u - 2D_v)(D_u - 2D_v - 1)} e^{2u+3v}$. Substitute $D_u = 2, D_v = 3 \\implies P.I. = \\frac{1}{(2-6)(2-6-1)} e^{2u+3v} = \\frac{1}{20} x^2 y^3$.\n5. General solution: $z = f(y x^2) + x g(y x^2) + \\frac{1}{20} x^2 y^3$."
+      },
+      {
+        "id": 39,
+        "unit": "V",
+        "question": "Solve (2D_x^2 - 5D_x D_y + 2D_y^2)z = 24(y-x).",
+        "answerKey": "1. C.F.: The auxiliary equation is $2m^2 - 5m + 2 = 0 \\implies m = 2, 1/2$. So, $C.F. = \\phi_1(y + 2x) + \\psi_2(2y + x)$.\n2. P.I.: $P.I. = \\frac{1}{2D_x^2 - 5D_x D_y + 2D_y^2} 24(y-x) = \\frac{12}{D_x^2} \\left( 1 - \\frac{5D_y}{2D_x} + \\dots \\right)^{-1} (y-x)$.\n3. Expand binomially and evaluate: $P.I. = \\frac{12}{D_x^2}(y-x) + \\frac{30}{D_x^3}(1) = 6yx^2 - 2x^3 + 5x^3 = 6yx^2 + 3x^3 = 3x^2(2y + x)$.\n4. General solution: $z = \\phi_1(y + 2x) + \\psi_2(2y + x) + 3x^2(2y + x)$."
+      },
+      {
+        "id": 40,
+        "unit": "V",
+        "question": "Solve the non-homogeneous partial differential equation: (D_x^2 - D_x D_y - 2D_y^2 + 2D_x + 2D_y)z = e^{2x+3y}.",
+        "answerKey": "1. Factor the operator: $D_x^2 - D_x D_y - 2D_y^2 + 2D_x + 2D_y = (D_x + D_y)(D_x - 2D_y + 2)$.\n2. C.F. corresponds to the factors: $C.F. = \\phi_1(y - x) + e^{-2x} \\phi_2(y + 2x)$.\n3. P.I. = $\\frac{1}{(D_x + D_y)(D_x - 2D_y + 2)} e^{2x+3y}$. Substitute $D_x = 2, D_y = 3 \\implies P.I. = \\frac{1}{(2+3)(2-6+2)} e^{2x+3y} = -\\frac{1}{10} e^{2x+3y}$.\n4. General solution: $z = \\phi_1(y - x) + e^{-2x} \\phi_2(y + 2x) - \\frac{1}{10} e^{2x+3y}$."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Solve the partial differential equation: yz - p = x^2 y^2 \\cos(xy), where p = \\frac{\\partial z}{\\partial x}.",
+        "answerKey": "1. Rewrite: $\\frac{\\partial z}{\\partial x} - yz = -x^2 y^2 \\cos(xy)$. This is a first-order linear ODE in $z$ with respect to $x$ (treating $y$ as constant).\n2. Integrating factor: $I.F. = e^{\\int -y dx} = e^{-yx}$.\n3. Integrate w.r.t $x$: $\\frac{\\partial}{\\partial x} (z e^{-yx}) = -x^2 y^2 e^{-yx} \\cos(xy) \\implies z e^{-yx} = f(y) - y^2 \\int x^2 e^{-yx} \\cos(xy) dx$.\n4. General solution: $z = e^{yx} \\left( f(y) - y^2 \\int x^2 e^{-yx} \\cos(xy) dx \\right)$."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Reduce the following equation to canonical form and solve it: y^2 \\frac{\\partial^2 z}{\\partial x^2} - 2xy \\frac{\\partial^2 z}{\\partial x \\partial y} + x^2 \\frac{\\partial^2 z}{\\partial y^2} = \\frac{y^2}{x} \\frac{\\partial z}{\\partial x} + \\frac{x^2}{y} \\frac{\\partial z}{\\partial y}.",
+        "answerKey": "1. Discriminant: $B^2 - 4AC = (-2xy)^2 - 4(y^2)(x^2) = 0$. Parabolic.\n2. Characteristic equation: $y^2(dy/dx)^2 + 2xy(dy/dx) + x^2 = 0 \\implies y dy + x dx = 0 \\implies x^2 + y^2 = C_1$.\n3. Let $\\xi = x^2 + y^2$ and $\\eta = x$. The equation in new variables reduces to the canonical form: $\\frac{\\partial^2 z}{\\partial \\eta^2} = \\frac{1}{\\eta} \\frac{\\partial z}{\\partial \\eta}$.\n4. Integrate twice: $\\frac{\\partial z}{\\partial \\eta} = \\eta \\phi(\\xi) \\implies z = \\frac{\\eta^2}{2} \\phi(\\xi) + \\psi(\\xi)$.\n5. General solution: $z = x^2 f(x^2 + y^2) + g(x^2 + y^2)$."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Solve the following partial differential equation by Monge's method: y^2 r - 2ys + t = p + 6y.",
+        "answerKey": "1. Here $R = y^2$, $S = -2y$, $T = 1$, and $V = p + 6y$. Monge's quadratic equation: $y^2 dy^2 + 2y dx dy + dx^2 = 0 \\implies y dy + dx = 0 \\implies x + y^2/2 = a$.\n2. The second Monge equation is: $y^2 dp dy + dq dx - (p+6y) dx dy = 0$. Substitute $dx = -ydy$:\n$y^2 dp dy - y dq dy + y(p+6y) dy^2 = 0 \\implies y dp - dq + (p+6y) dy = 0 \\implies d(yp) - dq + 6y dy = 0$.\n3. Integrate: $yp - q + 3y^2 = b$. Substituting $b = \\phi(a)$ yields the intermediate integral: $yp - q + 3y^2 = \\phi(x + y^2/2)$.\n4. Solve this Lagrange equation: $\\frac{dx}{y} = \\frac{dy}{-1} = \\frac{dz}{\\phi(x+y^2/2) - 3y^2}$. We get $x + y^2/2 = a$ and $dz = -(\\phi(a) - 3y^2) dy \\implies z = -y\\phi(a) + y^3 + \\psi(a)$.\n5. General solution: $z = -y \\phi(x + y^2/2) + y^3 + \\psi(x + y^2/2)$."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Solve the partial differential equation using Monge's method: r + 4s + t + rt - s^2 = 2.",
+        "answerKey": "1. This is a non-linear second-order PDE of Monge's type: $Rr + Ss + Tt + U(rt-s^2) = V$, where $R=1, S=4, T=1, U=1, V=2$.\n2. Monge's equations are: (i) $dy^2 - 4 dx dy + dx^2 + dp dy + dq dx = 0$, (ii) $2 dx dy - dp dy - dq dx - dp dq = 0$.\n3. Integrating Monge's equations gives intermediate integrals relating $p, q, x, y$.\n4. Combining and solving the system gives the general solution: $z = f(y + \\lambda_1 x) + g(y + \\lambda_2 x) + x^2 + y^2$ (or similar polynomial terms)."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Use the method of separation of variables to solve the heat equation: \\frac{\\partial u}{\\partial t} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2}, 0 < x < 1, t > 0, subject to boundary conditions u(x,0) = x^2 - x, u(0,t) = u(1,t) = 0.",
+        "answerKey": "1. Let $u(x, t) = X(x)T(t) \\implies \\frac{T'}{\\alpha^2 T} = \\frac{X''}{X} = -\\lambda^2$.\n2. The ODEs are $X'' + \\lambda^2 X = 0$ and $T' + \\lambda^2 \\alpha^2 T = 0$.\n3. Boundary conditions $X(0) = 0 \\implies A=0$. $X(1) = 0 \\implies \\lambda_n = n\\pi$. Thus $u(x, t) = \\sum_{n=1}^{\\infty} B_n \\sin(n\\pi x) e^{-n^2 \\pi^2 \\alpha^2 t}$.\n4. Use initial condition $x^2 - x = \\sum B_n \\sin(n\\pi x) \\implies B_n = 2 \\int_0^1 (x^2-x) \\sin(n\\pi x) dx = \\frac{4((-1)^n - 1)}{n^3 \\pi^3}$.\n5. Solution: $u(x, t) = \\sum_{n=1}^{\\infty} \\frac{4((-1)^n - 1)}{n^3 \\pi^3} \\sin(n\\pi x) e^{-n^2 \\pi^2 \\alpha^2 t}$."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Solve the wave equation \\frac{\\partial^2 u}{\\partial t^2} = a^2 \\frac{\\partial^2 u}{\\partial x^2} using the method of separation of variables.",
+        "answerKey": "1. Let $u(x, t) = X(x)T(t) \\implies \\frac{T''}{a^2 T} = \\frac{X''}{X} = -\\lambda^2$.\n2. The solutions to the ODEs are $X(x) = C_1 \\cos(\\lambda x) + C_2 \\sin(\\lambda x)$ and $T(t) = C_3 \\cos(\\lambda a t) + C_4 \\sin(\\lambda a t)$.\n3. The general product solution is: $u(x, t) = (C_1 \\cos(\\lambda x) + C_2 \\sin(\\lambda x))(C_3 \\cos(\\lambda a t) + C_4 \\sin(\\lambda a t))$.\n4. Superposition of modes yields: $u(x, t) = \\sum_{n=1}^{\\infty} (A_n \\cos(\\lambda_n x) + B_n \\sin(\\lambda_n x))(C_n \\cos(\\lambda_n a t) + D_n \\sin(\\lambda_n a t))$."
       }
     ]
   },
@@ -3136,6 +3262,132 @@ export const EXAMS = {
         "unit": "V",
         "question": "Solve the variable coefficient PDE reducible to constant coefficients (Euler-type PDE): x^2 \\frac{\\partial^2 z}{\\partial x^2} - y^2 \\frac{\\partial^2 z}{\\partial y^2} = 0.",
         "answerKey": "1. Substitute x = e^u, y = e^v => Du(Du-1)z - Dv(Dv-1)z = 0 => (Du^2 - Dv^2 - Du + Dv)z = 0.\n2. Factor operator: (Du - Dv)(Du + Dv - 1)z = 0.\n3. For factor Du - Dv: solution is \\phi1(u+v) = \\phi1(ln x + ln y) = f1(xy).\n4. For factor Du + Dv - 1: solution is e^u \\phi2(u-v) = x \\phi2(ln x - ln y) = x f2(x/y).\n5. General solution: z = f1(xy) + x f2(x/y) where f1, f2 are arbitrary functions."
+      },
+      {
+        "id": 26,
+        "unit": "IV",
+        "question": "Form the partial differential equation by eliminating $h$ and $k$ from the equation: (x - h)^2 + (y - k)^2 + z^2 = \\lambda^2.",
+        "answerKey": "1. The given equation is $(x-h)^2 + (y-k)^2 + z^2 = \\lambda^2$.\n2. Differentiate partially with respect to $x$: $2(x-h) + 2z\\frac{\\partial z}{\\partial x} = 0 \\implies x-h = -zp$, where $p = \\frac{\\partial z}{\\partial x}$.\n3. Differentiate partially with respect to $y$: $2(y-k) + 2z\\frac{\\partial z}{\\partial y} = 0 \\implies y-k = -zq$, where $q = \\frac{\\partial z}{\\partial y}$.\n4. Substitute $(x-h)$ and $(y-k)$ back into the original equation:\n$(-zp)^2 + (-zq)^2 + z^2 = \\lambda^2 \\implies z^2 p^2 + z^2 q^2 + z^2 = \\lambda^2$.\n5. Simplify to obtain the required partial differential equation:\n$z^2(p^2 + q^2 + 1) = \\lambda^2$."
+      },
+      {
+        "id": 27,
+        "unit": "IV",
+        "question": "Form a partial differential equation by eliminating arbitrary functions $f$ and $g$ from the equation: y = f(x + \\alpha t) + g(x - \\alpha t).",
+        "answerKey": "1. Given equation: $y = f(x + \\alpha t) + g(x - \\alpha t)$. Here $y$ is the dependent variable, and $x, t$ are independent variables.\n2. Differentiate partially with respect to $x$:\n$\\frac{\\partial y}{\\partial x} = f'(x + \\alpha t) + g'(x - \\alpha t)$,\n$\\frac{\\partial^2 y}{\\partial x^2} = f''(x + \\alpha t) + g''(x - \\alpha t)$.\n3. Differentiate partially with respect to $t$:\n$\\frac{\\partial y}{\\partial t} = \\alpha f'(x + \\alpha t) - \\alpha g'(x - \\alpha t)$,\n$\\frac{\\partial^2 y}{\\partial t^2} = \\alpha^2 f''(x + \\alpha t) + \\alpha^2 g''(x - \\alpha t)$.\n4. Substitute $\\frac{\\partial^2 y}{\\partial x^2}$ into $\\frac{\\partial^2 y}{\\partial t^2}$:\n$\\frac{\\partial^2 y}{\\partial t^2} = \\alpha^2 [f''(x + \\alpha t) + g''(x - \\alpha t)] = \\alpha^2 \\frac{\\partial^2 y}{\\partial x^2}$.\n5. The required partial differential equation is:\n$\\frac{\\partial^2 y}{\\partial t^2} = \\alpha^2 \\frac{\\partial^2 y}{\\partial x^2}$."
+      },
+      {
+        "id": 28,
+        "unit": "IV",
+        "question": "Solve the partial differential equation: z \\frac{\\partial z}{\\partial x} = -y.",
+        "answerKey": "1. The given equation is $z \\frac{\\partial z}{\\partial x} = -y$, which can be written as $z p = -y$ where $p = \\frac{\\partial z}{\\partial x}$.\n2. Integrate both sides w.r.t $x$, holding $y$ constant:\n$\\int z \\frac{\\partial z}{\\partial x} dx = \\int -y dx \\implies \\frac{z^2}{2} = -yx + f(y)$, where $f(y)$ is an arbitrary function of $y$.\n3. Multiply by 2: $z^2 = -2xy + 2f(y) = -2xy + \\phi(y)$, where $\\phi(y)$ is an arbitrary function.\n4. The general solution is: $z^2 + 2xy = \\phi(y)$."
+      },
+      {
+        "id": 29,
+        "unit": "IV",
+        "question": "Find the complete integral of z = px + qy + p^2 + q^2, where p = \\partial z/\\partial x, q = \\partial z/\\partial y.",
+        "answerKey": "1. The given equation is of Clairaut's form: $z = px + qy + f(p, q)$, where $f(p, q) = p^2 + q^2$.\n2. For Clairaut's equation $z = px + qy + f(p, q)$, the complete integral is obtained directly by replacing $p$ and $q$ with arbitrary constants $a$ and $b$ respectively.\n3. Replace $p$ with $a$ and $q$ with $b$.\n4. The complete integral is: $z = ax + by + a^2 + b^2$, where $a$ and $b$ are arbitrary constants."
+      },
+      {
+        "id": 30,
+        "unit": "V",
+        "question": "Solve (D_x^3 - 4D_x^2D_y + 4D_xD_y^2)z = 0, where D_x \\equiv \\partial/\\partial x, D_y \\equiv \\partial/\\partial y.",
+        "answerKey": "1. The given homogeneous linear PDE is $(D_x^3 - 4D_x^2D_y + 4D_xD_y^2)z = 0$.\n2. Factor the operator: $D_x(D_x^2 - 4D_xD_y + 4D_y^2)z = 0 \\implies D_x(D_x - 2D_y)^2 z = 0$.\n3. The auxiliary equation is obtained by substituting $D_x = m$ and $D_y = 1$:\n$m(m - 2)^2 = 0 \\implies m_1 = 0, m_2 = 2, m_3 = 2$.\n4. For the root $m_1 = 0$, the corresponding part of the solution is $\\phi_1(y)$.\n5. For the repeated roots $m_2 = m_3 = 2$, the corresponding part of the solution is $\\phi_2(y + 2x) + x\\phi_3(y + 2x)$.\n6. The general solution is: $z = \\phi_1(y) + \\phi_2(y + 2x) + x\\phi_3(y + 2x)$, where $\\phi_1, \\phi_2, \\phi_3$ are arbitrary functions."
+      },
+      {
+        "id": 31,
+        "unit": "V",
+        "question": "Find the general solution of r + p - q = z, where r = \\frac{\\partial^2 z}{\\partial x^2}, p = \\frac{\\partial z}{\\partial x}, q = \\frac{\\partial z}{\\partial y}.",
+        "answerKey": "1. In operator notation, the equation $r + p - q = z$ is $(D_x^2 + D_x - D_y - 1)z = 0$ where $D_x = \\frac{\\partial}{\\partial x}$ and $D_y = \\frac{\\partial}{\\partial y}$.\n2. This is a non-homogeneous linear PDE with constant coefficients. We look for trial solutions of the form $z = c e^{ax + by}$.\n3. Substituting $z = e^{ax+by}$ yields: $a^2 + a - b - 1 = 0 \\implies b = a^2 + a - 1$.\n4. Thus, for any constant $a$, $e^{ax + (a^2 + a - 1)y}$ is a solution.\n5. The general solution is the sum of all such solutions: $z = \\sum_{i} C_i e^{a_i x + (a_i^2 + a_i - 1)y}$, or in integral form: $z(x, y) = \\int_{-\\infty}^{\\infty} C(a) e^{ax + (a^2 + a - 1)y} da$."
+      },
+      {
+        "id": 32,
+        "unit": "V",
+        "question": "Solve x^2 r - y^2 t + xp - yq = 0 (where r = z_{xx}, t = z_{yy}, p = z_x, q = z_y) by reducing it to a linear partial differential equation with constant coefficients.",
+        "answerKey": "1. The given equation is $x^2 \\frac{\\partial^2 z}{\\partial x^2} - y^2 \\frac{\\partial^2 z}{\\partial y^2} + x \\frac{\\partial z}{\\partial x} - y \\frac{\\partial z}{\\partial y} = 0$.\n2. Introduce new independent variables $u = \\ln x$ and $v = \\ln y$.\n3. Then, the differential operators transform as: $x \\frac{\\partial}{\\partial x} = D_u$, $x^2 \\frac{\\partial^2}{\\partial x^2} = D_u(D_u - 1)$, $y \\frac{\\partial}{\\partial y} = D_v$, $y^2 \\frac{\\partial^2}{\\partial y^2} = D_v(D_v - 1)$, where $D_u = \\frac{\\partial}{\\partial u}$ and $D_v = \\frac{\\partial}{\\partial v}$.\n4. Substitute into the PDE: $[D_u(D_u - 1) - D_v(D_v - 1) + D_u - D_v] z = 0 \\implies (D_u^2 - D_v^2) z = 0$.\n5. Factoring gives $(D_u - D_v)(D_u + D_v) z = 0$. The auxiliary roots are $1, -1$, giving $z = \\phi_1(u + v) + \\phi_2(u - v)$.\n6. Substitute back: $z = \\phi_1(\\ln x + \\ln y) + \\phi_2(\\ln x - \\ln y) = f(xy) + g(x/y)$, where $f$ and $g$ are arbitrary functions."
+      },
+      {
+        "id": 33,
+        "unit": "V",
+        "question": "Solve xr + p = 9x^2y^2, where r = \\frac{\\partial^2 z}{\\partial x^2} and p = \\frac{\\partial z}{\\partial x}.",
+        "answerKey": "1. The given equation is $x \\frac{\\partial^2 z}{\\partial x^2} + \\frac{\\partial z}{\\partial x} = 9x^2y^2$.\n2. Note that $x \\frac{\\partial^2 z}{\\partial x^2} + \\frac{\\partial z}{\\partial x} = \\frac{\\partial}{\\partial x} \\left( x \\frac{\\partial z}{\\partial x} \\right)$.\n3. Rewrite: $\\frac{\\partial}{\\partial x} \\left( x \\frac{\\partial z}{\\partial x} \\right) = 9x^2y^2$.\n4. Integrate w.r.t $x$: $x \\frac{\\partial z}{\\partial x} = \\int 9x^2y^2 dx = 3x^3 y^2 + f(y)$, where $f(y)$ is an arbitrary function.\n5. Divide by $x$: $\\frac{\\partial z}{\\partial x} = 3x^2 y^2 + \\frac{f(y)}{x}$.\n6. Integrate w.r.t $x$ again: $z = \\int \\left( 3x^2 y^2 + \\frac{f(y)}{x} \\right) dx = x^3 y^2 + f(y) \\ln x + g(y)$.\n7. The general solution is: $z = x^3 y^2 + \\phi(y) \\ln x + \\psi(y)$, where $\\phi$ and $\\psi$ are arbitrary functions."
+      },
+      {
+        "id": 34,
+        "unit": "V",
+        "question": "Check whether the partial differential equation 3r + 6s + 4t = 0 is elliptic (where r = z_{xx}, s = z_{xy}, t = z_{yy}).",
+        "answerKey": "1. A second-order linear PDE of the form $Ar + Bs + Ct + Dp + Eq + Fz = G$ is classified by $B^2 - 4AC$:\n- If $B^2 - 4AC < 0$, it is elliptic.\n- If $B^2 - 4AC = 0$, it is parabolic.\n- If $B^2 - 4AC > 0$, it is hyperbolic.\n2. In the given equation $3r + 6s + 4t = 0$, the coefficients are $A = 3$, $B = 6$, and $C = 4$.\n3. Calculate the discriminant: $B^2 - 4AC = 6^2 - 4(3)(4) = 36 - 48 = -12$.\n4. Since $B^2 - 4AC = -12 < 0$, the partial differential equation is elliptic."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "Obtain the general integral of the partial differential equation: p + 3q = 5z + \\tan(y - 3x), where p = \\frac{\\partial z}{\\partial x}, q = \\frac{\\partial z}{\\partial y}.",
+        "answerKey": "1. This is a Lagrange's linear equation of the form $Pp + Qq = R$, where $P = 1$, $Q = 3$, and $R = 5z + \\tan(y - 3x)$.\n2. The Lagrange auxiliary equations are: $\\frac{dx}{1} = \\frac{dy}{3} = \\frac{dz}{5z + \\tan(y - 3x)}$.\n3. From the first two ratios: $\\frac{dx}{1} = \\frac{dy}{3} \\implies 3dx - dy = 0 \\implies y - 3x = a$ (constant).\n4. Substitute $y - 3x = a$ into the third ratio: $\\frac{dx}{1} = \\frac{dz}{5z + \\tan(a)} \\implies \\frac{dz}{dx} - 5z = \\tan(a)$.\n5. Solving this linear ODE using $I.F. = e^{-5x}$ yields: $z e^{-5x} = -\\frac{\\tan(a)}{5} e^{-5x} + C_2 \\implies (z + \\frac{1}{5}\\tan(y-3x))e^{-5x} = C_2$.\n6. Therefore, the general integral is: $z + \\frac{1}{5}\\tan(y - 3x) = e^{5x} \\phi(y - 3x)$."
+      },
+      {
+        "id": 36,
+        "unit": "V",
+        "question": "Apply Charpit's method to find the complete integral of the equation px + qy + z = zq^2.",
+        "answerKey": "1. Let $F = px + qy + z - zq^2 = 0$. Compute partial derivatives: $F_x = p$, $F_y = q$, $F_z = 1 - q^2$, $F_p = x$, $F_q = y - 2zq$.\n2. Charpit's equations: $\\frac{dp}{F_x + pF_z} = \\frac{dq}{F_y + qF_z} \\implies \\frac{dp}{p(2-q^2)} = \\frac{dq}{q(2-q^2)} \\implies p = aq$.\n3. Substitute $p = aq$ into the PDE: $q(ax+y) + z(1-q^2) = 0 \\implies zq^2 - (ax+y)q - z = 0$.\n4. Use $dz = p dx + q dy = q(a dx + dy)$. Let $u = ax + y \\implies du = a dx + dy$, which gives $dz = q du$.\n5. Solving the quadratic in $q$ gives $q = \\frac{u \\pm \\sqrt{u^2+4z^2}}{2z}$. Substitute this into $dz = q du \\implies 2z dz = (u \\pm \\sqrt{u^2+4z^2}) du$.\n6. This is a homogeneous equation. Let $u = z w \\implies du = z dw + w dz$. Substituting and separating variables leads to the solution: $\\sqrt{(ax+y)^2 + 4z^2} \\mp (ax+y) = b$, which is the complete integral."
+      },
+      {
+        "id": 37,
+        "unit": "V",
+        "question": "Find the general integral of the equation r + s - 6t = y \\cos x (where r = z_{xx}, s = z_{xy}, t = z_{yy}).",
+        "answerKey": "1. The given equation is $(D^2 + DD' - 6D'^2)z = y \\cos x$.\n2. C.F.: The auxiliary equation is $m^2 + m - 6 = 0 \\implies m = 2, -3$. So $C.F. = \\phi_1(y + 2x) + \\phi_2(y - 3x)$.\n3. P.I. = $\\frac{1}{(D - 2D')(D + 3D')} (y \\cos x)$.\n4. Apply $\\frac{1}{D+3D'}$: $\\int (c+3x)\\cos x dx = (c+3x)\\sin x + 3\\cos x = y\\sin x + 3\\cos x$ (where $y = c-3x$).\n5. Apply $\\frac{1}{D-2D'}$: $\\int [(c-2x)\\sin x + 3\\cos x] dx = -(c-2x)\\cos x + \\sin x = -y\\cos x + \\sin x$ (where $y = c+2x$).\n6. General solution: $z = \\phi_1(y + 2x) + \\phi_2(y - 3x) - y \\cos x + \\sin x$."
+      },
+      {
+        "id": 38,
+        "unit": "V",
+        "question": "Reduce the equation x^2 \\frac{\\partial^2 z}{\\partial x^2} - 4xy \\frac{\\partial^2 z}{\\partial x \\partial y} + 4y^2 \\frac{\\partial^2 z}{\\partial y^2} + 6y \\frac{\\partial z}{\\partial y} = x^2 y^3 to linear equation with constant coefficients and then solve it.",
+        "answerKey": "1. Introduce $u = \\ln x$, $v = \\ln y \\implies x = e^u, y = e^v$. The PDE transforms to: $[D_u(D_u-1) - 4D_u D_v + 4D_v(D_v-1) + 6D_v] z = e^{2u+3v}$.\n2. Simplify: $[D_u^2 - 4D_u D_v + 4D_v^2 - D_u + 2D_v] z = e^{2u+3v} \\implies (D_u - 2D_v)(D_u - 2D_v - 1)z = e^{2u+3v}$.\n3. C.F. = $\\phi_1(v + 2u) + e^u \\phi_2(v + 2u) = f(y x^2) + x g(y x^2)$.\n4. P.I. = $\\frac{1}{(D_u - 2D_v)(D_u - 2D_v - 1)} e^{2u+3v}$. Substitute $D_u = 2, D_v = 3 \\implies P.I. = \\frac{1}{(2-6)(2-6-1)} e^{2u+3v} = \\frac{1}{20} x^2 y^3$.\n5. General solution: $z = f(y x^2) + x g(y x^2) + \\frac{1}{20} x^2 y^3$."
+      },
+      {
+        "id": 39,
+        "unit": "V",
+        "question": "Solve (2D_x^2 - 5D_x D_y + 2D_y^2)z = 24(y-x).",
+        "answerKey": "1. C.F.: The auxiliary equation is $2m^2 - 5m + 2 = 0 \\implies m = 2, 1/2$. So, $C.F. = \\phi_1(y + 2x) + \\psi_2(2y + x)$.\n2. P.I.: $P.I. = \\frac{1}{2D_x^2 - 5D_x D_y + 2D_y^2} 24(y-x) = \\frac{12}{D_x^2} \\left( 1 - \\frac{5D_y}{2D_x} + \\dots \\right)^{-1} (y-x)$.\n3. Expand binomially and evaluate: $P.I. = \\frac{12}{D_x^2}(y-x) + \\frac{30}{D_x^3}(1) = 6yx^2 - 2x^3 + 5x^3 = 6yx^2 + 3x^3 = 3x^2(2y + x)$.\n4. General solution: $z = \\phi_1(y + 2x) + \\psi_2(2y + x) + 3x^2(2y + x)$."
+      },
+      {
+        "id": 40,
+        "unit": "V",
+        "question": "Solve the non-homogeneous partial differential equation: (D_x^2 - D_x D_y - 2D_y^2 + 2D_x + 2D_y)z = e^{2x+3y}.",
+        "answerKey": "1. Factor the operator: $D_x^2 - D_x D_y - 2D_y^2 + 2D_x + 2D_y = (D_x + D_y)(D_x - 2D_y + 2)$.\n2. C.F. corresponds to the factors: $C.F. = \\phi_1(y - x) + e^{-2x} \\phi_2(y + 2x)$.\n3. P.I. = $\\frac{1}{(D_x + D_y)(D_x - 2D_y + 2)} e^{2x+3y}$. Substitute $D_x = 2, D_y = 3 \\implies P.I. = \\frac{1}{(2+3)(2-6+2)} e^{2x+3y} = -\\frac{1}{10} e^{2x+3y}$.\n4. General solution: $z = \\phi_1(y - x) + e^{-2x} \\phi_2(y + 2x) - \\frac{1}{10} e^{2x+3y}$."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Solve the partial differential equation: yz - p = x^2 y^2 \\cos(xy), where p = \\frac{\\partial z}{\\partial x}.",
+        "answerKey": "1. Rewrite: $\\frac{\\partial z}{\\partial x} - yz = -x^2 y^2 \\cos(xy)$. This is a first-order linear ODE in $z$ with respect to $x$ (treating $y$ as constant).\n2. Integrating factor: $I.F. = e^{\\int -y dx} = e^{-yx}$.\n3. Integrate w.r.t $x$: $\\frac{\\partial}{\\partial x} (z e^{-yx}) = -x^2 y^2 e^{-yx} \\cos(xy) \\implies z e^{-yx} = f(y) - y^2 \\int x^2 e^{-yx} \\cos(xy) dx$.\n4. General solution: $z = e^{yx} \\left( f(y) - y^2 \\int x^2 e^{-yx} \\cos(xy) dx \\right)$."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Reduce the following equation to canonical form and solve it: y^2 \\frac{\\partial^2 z}{\\partial x^2} - 2xy \\frac{\\partial^2 z}{\\partial x \\partial y} + x^2 \\frac{\\partial^2 z}{\\partial y^2} = \\frac{y^2}{x} \\frac{\\partial z}{\\partial x} + \\frac{x^2}{y} \\frac{\\partial z}{\\partial y}.",
+        "answerKey": "1. Discriminant: $B^2 - 4AC = (-2xy)^2 - 4(y^2)(x^2) = 0$. Parabolic.\n2. Characteristic equation: $y^2(dy/dx)^2 + 2xy(dy/dx) + x^2 = 0 \\implies y dy + x dx = 0 \\implies x^2 + y^2 = C_1$.\n3. Let $\\xi = x^2 + y^2$ and $\\eta = x$. The equation in new variables reduces to the canonical form: $\\frac{\\partial^2 z}{\\partial \\eta^2} = \\frac{1}{\\eta} \\frac{\\partial z}{\\partial \\eta}$.\n4. Integrate twice: $\\frac{\\partial z}{\\partial \\eta} = \\eta \\phi(\\xi) \\implies z = \\frac{\\eta^2}{2} \\phi(\\xi) + \\psi(\\xi)$.\n5. General solution: $z = x^2 f(x^2 + y^2) + g(x^2 + y^2)$."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Solve the following partial differential equation by Monge's method: y^2 r - 2ys + t = p + 6y.",
+        "answerKey": "1. Here $R = y^2$, $S = -2y$, $T = 1$, and $V = p + 6y$. Monge's quadratic equation: $y^2 dy^2 + 2y dx dy + dx^2 = 0 \\implies y dy + dx = 0 \\implies x + y^2/2 = a$.\n2. The second Monge equation is: $y^2 dp dy + dq dx - (p+6y) dx dy = 0$. Substitute $dx = -ydy$:\n$y^2 dp dy - y dq dy + y(p+6y) dy^2 = 0 \\implies y dp - dq + (p+6y) dy = 0 \\implies d(yp) - dq + 6y dy = 0$.\n3. Integrate: $yp - q + 3y^2 = b$. Substituting $b = \\phi(a)$ yields the intermediate integral: $yp - q + 3y^2 = \\phi(x + y^2/2)$.\n4. Solve this Lagrange equation: $\\frac{dx}{y} = \\frac{dy}{-1} = \\frac{dz}{\\phi(x+y^2/2) - 3y^2}$. We get $x + y^2/2 = a$ and $dz = -(\\phi(a) - 3y^2) dy \\implies z = -y\\phi(a) + y^3 + \\psi(a)$.\n5. General solution: $z = -y \\phi(x + y^2/2) + y^3 + \\psi(x + y^2/2)$."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Solve the partial differential equation using Monge's method: r + 4s + t + rt - s^2 = 2.",
+        "answerKey": "1. This is a non-linear second-order PDE of Monge's type: $Rr + Ss + Tt + U(rt-s^2) = V$, where $R=1, S=4, T=1, U=1, V=2$.\n2. Monge's equations are: (i) $dy^2 - 4 dx dy + dx^2 + dp dy + dq dx = 0$, (ii) $2 dx dy - dp dy - dq dx - dp dq = 0$.\n3. Integrating Monge's equations gives intermediate integrals relating $p, q, x, y$.\n4. Combining and solving the system gives the general solution: $z = f(y + \\lambda_1 x) + g(y + \\lambda_2 x) + x^2 + y^2$ (or similar polynomial terms)."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Use the method of separation of variables to solve the heat equation: \\frac{\\partial u}{\\partial t} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2}, 0 < x < 1, t > 0, subject to boundary conditions u(x,0) = x^2 - x, u(0,t) = u(1,t) = 0.",
+        "answerKey": "1. Let $u(x, t) = X(x)T(t) \\implies \\frac{T'}{\\alpha^2 T} = \\frac{X''}{X} = -\\lambda^2$.\n2. The ODEs are $X'' + \\lambda^2 X = 0$ and $T' + \\lambda^2 \\alpha^2 T = 0$.\n3. Boundary conditions $X(0) = 0 \\implies A=0$. $X(1) = 0 \\implies \\lambda_n = n\\pi$. Thus $u(x, t) = \\sum_{n=1}^{\\infty} B_n \\sin(n\\pi x) e^{-n^2 \\pi^2 \\alpha^2 t}$.\n4. Use initial condition $x^2 - x = \\sum B_n \\sin(n\\pi x) \\implies B_n = 2 \\int_0^1 (x^2-x) \\sin(n\\pi x) dx = \\frac{4((-1)^n - 1)}{n^3 \\pi^3}$.\n5. Solution: $u(x, t) = \\sum_{n=1}^{\\infty} \\frac{4((-1)^n - 1)}{n^3 \\pi^3} \\sin(n\\pi x) e^{-n^2 \\pi^2 \\alpha^2 t}$."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Solve the wave equation \\frac{\\partial^2 u}{\\partial t^2} = a^2 \\frac{\\partial^2 u}{\\partial x^2} using the method of separation of variables.",
+        "answerKey": "1. Let $u(x, t) = X(x)T(t) \\implies \\frac{T''}{a^2 T} = \\frac{X''}{X} = -\\lambda^2$.\n2. The solutions to the ODEs are $X(x) = C_1 \\cos(\\lambda x) + C_2 \\sin(\\lambda x)$ and $T(t) = C_3 \\cos(\\lambda a t) + C_4 \\sin(\\lambda a t)$.\n3. The general product solution is: $u(x, t) = (C_1 \\cos(\\lambda x) + C_2 \\sin(\\lambda x))(C_3 \\cos(\\lambda a t) + C_4 \\sin(\\lambda a t))$.\n4. Superposition of modes yields: $u(x, t) = \\sum_{n=1}^{\\infty} (A_n \\cos(\\lambda_n x) + B_n \\sin(\\lambda_n x))(C_n \\cos(\\lambda_n a t) + D_n \\sin(\\lambda_n a t))$."
       }
     ]
   },

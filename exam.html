@@ -108,7 +108,7 @@
 <header class="bg-background-warm/80 backdrop-blur-xl border-b border-border-subtle h-20 w-full z-50 flex items-center px-4 sm:px-padding-edge fixed top-0 left-0 right-0 flex-shrink-0">
     <div class="flex justify-between items-center w-full max-w-container-max mx-auto">
         <div class="flex items-center gap-2 sm:gap-3">
-            <button onclick="confirmExit()" class="w-10 h-10 rounded-full border border-border-subtle hover:bg-surface-panel transition-all flex items-center justify-center text-secondary hover:text-primary shrink-0" title="Exit Exam">
+            <button onclick="forceQuitExam()" class="w-10 h-10 rounded-full border border-border-subtle hover:bg-surface-panel transition-all flex items-center justify-center text-secondary hover:text-primary shrink-0" title="Force Quit Exam">
                 <span class="material-symbols-outlined text-lg">arrow_back</span>
             </button>
             <button onclick="toggleGridSidebar()" class="lg:hidden w-10 h-10 rounded-full border border-border-subtle hover:bg-surface-panel transition-all flex items-center justify-center text-secondary hover:text-primary shrink-0" title="Question Grid">
@@ -200,9 +200,9 @@
                 <span class="material-symbols-outlined group-hover:translate-x-0.5 transition-transform text-lg">help_outline</span>
                 <span class="text-[10px] font-bold uppercase tracking-widest">Support Request</span>
             </button>
-            <button onclick="confirmExit()" class="flex items-center gap-3 text-secondary hover:text-error transition-colors group text-left">
+            <button onclick="forceQuitExam()" class="flex items-center gap-3 text-secondary hover:text-error transition-colors group text-left">
                 <span class="material-symbols-outlined group-hover:translate-x-0.5 transition-transform text-lg">arrow_back</span>
-                <span class="text-[10px] font-bold uppercase tracking-widest">Exit Exam</span>
+                <span class="text-[10px] font-bold uppercase tracking-widest">Force Quit Exam</span>
             </button>
         </div>
     </aside>
@@ -982,10 +982,15 @@ Provide the final grade and feedback. You MUST output a JSON object at the very 
                 };
             }
 
-            const res = await fetch(url, {
+            const passKey = isNvidia ? (nvidiaApiKey !== 'configured' ? nvidiaApiKey : '') : (hfApiKey !== 'configured' ? hfApiKey : '');
+            const res = await fetch('/api/ai', {
                 method: 'POST',
-                headers: headers,
-                body: JSON.stringify(bodyPayload)
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    url: url,
+                    apiKey: passKey,
+                    body: bodyPayload
+                })
             });
 
             if (!res.ok) {
@@ -1195,10 +1200,15 @@ Provide the final grade and feedback. You MUST output a JSON object at the very 
                 };
             }
 
-            const res = await fetch(url, {
+            const passKey = isNvidia ? (nvidiaApiKey !== 'configured' ? nvidiaApiKey : '') : (hfApiKey !== 'configured' ? hfApiKey : '');
+            const res = await fetch('/api/ai', {
                 method: 'POST',
-                headers: headers,
-                body: JSON.stringify(bodyPayload)
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    url: url,
+                    apiKey: passKey,
+                    body: bodyPayload
+                })
             });
             
             if (!res.ok) {
@@ -1607,10 +1617,15 @@ Format your output in clean Markdown using bold, italics, and bullet points. Use
                 };
             }
 
-            const res = await fetch(url, {
+            const passKey = isNvidia ? (nvidiaApiKey !== 'configured' ? nvidiaApiKey : '') : (hfApiKey !== 'configured' ? hfApiKey : '');
+            const res = await fetch('/api/ai', {
                 method: 'POST',
-                headers: headers,
-                body: JSON.stringify(bodyPayload)
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    url: url,
+                    apiKey: passKey,
+                    body: bodyPayload
+                })
             });
 
             if (!res.ok) {
@@ -1618,12 +1633,17 @@ Format your output in clean Markdown using bold, italics, and bullet points. Use
                 const fallbackUrl = isNvidia ? url : `https://api-inference.huggingface.co/models/Qwen/Qwen2-VL-7B-Instruct/v1/chat/completions`;
                 const fallbackModel = isNvidia ? "meta/llama-3.2-11b-vision-instruct" : "Qwen/Qwen2-VL-7B-Instruct";
                 
-                const fallbackRes = await fetch(fallbackUrl, {
+                const passKey = isNvidia ? (nvidiaApiKey !== 'configured' ? nvidiaApiKey : '') : (hfApiKey !== 'configured' ? hfApiKey : '');
+                const fallbackRes = await fetch('/api/ai', {
                     method: 'POST',
-                    headers: headers,
+                    headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({
-                        model: fallbackModel,
-                        messages: messages
+                        url: fallbackUrl,
+                        apiKey: passKey,
+                        body: {
+                            model: fallbackModel,
+                            messages: messages
+                        }
                     })
                 });
                 
@@ -1674,22 +1694,133 @@ Format your output in clean Markdown using bold, italics, and bullet points. Use
     function generateAIExplanation(q) {
         const correctOptText = q.options[['A', 'B', 'C', 'D'].indexOf(q.answer)];
         
-        let explanationTitle = "Academic Writing & Citation Analysis";
-        let syllabusReference = "BHU AEC Academic Writing Sem 4 - Unit 2";
-        let diagnosticOverview = "This question evaluates your understanding of citation methodologies, academic honesty, and source attribution rules.";
-        
-        if (q.question.toLowerCase().includes("plagiarism")) {
+        let explanationTitle = "Subject Concept Analysis";
+        let syllabusReference = "BHU Exam Prep Reference Section";
+        let diagnosticOverview = "This question evaluates your core understanding of the topic, concepts, and related applications.";
+        let keyTip = "Always read the question carefully, eliminate obviously incorrect options, and verify mathematical or logical relationships.";
+        let rationale = "";
+
+        const qLower = q.question.toLowerCase();
+
+        // Check if it's math/mechanics
+        const isMath = /[$\\\/+=\-*^]/.test(q.question) || 
+                       qLower.includes("differential") || 
+                       qLower.includes("equation") || 
+                       qLower.includes("vector") || 
+                       qLower.includes("force") || 
+                       qLower.includes("velocity") || 
+                       qLower.includes("integral") || 
+                       qLower.includes("derivative") || 
+                       qLower.includes("calculus") || 
+                       qLower.includes("limit") || 
+                       qLower.includes("mechanics") || 
+                       qLower.includes("moment") || 
+                       qLower.includes("equilibrium") ||
+                       qLower.includes("function") ||
+                       qLower.includes("continuity") ||
+                       qLower.includes("series");
+
+        if (isMath) {
+            explanationTitle = "Mathematical & Mechanical Analysis";
+            syllabusReference = "BHU BSc Mathematics Core Curriculum";
+            diagnosticOverview = "This problem requires applying mathematical definitions, physical laws, or differential methods to analyze the given conditions.";
+            keyTip = "When dealing with mechanics or calculus, write down the governing equations first, draw a free-body diagram if necessary, and check boundary conditions or vector dimensions.";
+        }
+
+        // Try to identify specific topics for customized details
+        if (qLower.includes("plagiarism")) {
             explanationTitle = "Plagiarism & Academic Honesty Principles";
             syllabusReference = "Section 3.1: Academic Integrity and Research Standards";
-            diagnosticOverview = "Plagiarism refers to the practice of taking someone else's work or ideas and passing them off as one's own. It constitutes a major violation of university guidelines.";
-        } else if (q.question.toLowerCase().includes("citation") || q.question.toLowerCase().includes("reference") || q.question.toLowerCase().includes("bibliography")) {
+            diagnosticOverview = "Plagiarism refers to presenting someone else's work or ideas as your own, which violates university academic integrity guidelines.";
+            rationale = `Option ${q.answer} ("${correctOptText}") is correct because it directly addresses the definition or prevention of plagiarism in academic work. Citing and attributing sources correctly is the fundamental way to maintain honesty and transparency.`;
+            keyTip = "Always credit any external ideas, paraphrased statements, or direct quotes using the appropriate citation format to avoid plagiarism.";
+        } else if (qLower.includes("citation") || qLower.includes("reference") || qLower.includes("bibliography")) {
             explanationTitle = "Standardized Citation Methodologies";
             syllabusReference = "Section 2.2: Style Manuals (APA, MLA, Chicago)";
-            diagnosticOverview = "Citations serve to credit the original authors and enable readers to locate sources. Different academic disciplines mandate specific style guides.";
-        } else if (q.question.toLowerCase().includes("peer") || q.question.toLowerCase().includes("journal") || q.question.toLowerCase().includes("literature")) {
+            diagnosticOverview = "Citations credit the original author and provide a pathway for readers to locate the referenced source.";
+            rationale = `Option ${q.answer} ("${correctOptText}") is correct because it correctly identifies the role, structure, or style of academic referencing. In academic writing, standard formats like APA, MLA, or Chicago ensure consistent research documentation.`;
+            keyTip = "Always verify whether the citation style is author-date (like APA) or numerical/footnote-based (like Chicago/MLA) when analyzing academic formatting problems.";
+        } else if (qLower.includes("peer") || qLower.includes("journal") || qLower.includes("literature")) {
             explanationTitle = "Scientific Literature & Peer Review";
             syllabusReference = "Section 1.3: Credibility and Scholarly Publishing";
             diagnosticOverview = "Peer review processes ensure the reliability and empirical rigor of published literature within scholarly databases.";
+            rationale = `Option ${q.answer} ("${correctOptText}") is correct because peer-reviewed publications undergo vetting by experts in the field, ensuring maximum reliability and scholarly authority.`;
+            keyTip = "When searching databases, filter for peer-reviewed journals to guarantee the validity of the citations in your bibliography.";
+        } else if (qLower.includes("vector") || qLower.includes("dimension")) {
+            explanationTitle = "Vector Algebra & 2D Geometry";
+            syllabusReference = "Mechanics Sem 4 - Unit 1: Vectors & Coplanar Forces";
+            diagnosticOverview = "This question involves vector operations, dot/cross products, and resolving force components in a 2D plane.";
+            rationale = `Option ${q.answer} ("${correctOptText}") is correct because it mathematically satisfies the laws of vector addition, resolution, or properties in two dimensions. For coplanar vectors, components are typically resolved along perpendicular axes.`;
+            keyTip = "Use unit vectors i and j to represent 2D vectors. Remember that the magnitude of a resolved vector is given by the Pythagorean theorem.";
+        } else if (qLower.includes("force") || qLower.includes("coplanar") || qLower.includes("parallel forces")) {
+            explanationTitle = "System of Coplanar Forces";
+            syllabusReference = "Mechanics Sem 4 - Unit 1: Force Systems";
+            diagnosticOverview = "This question evaluates your understanding of resultant forces, systems of coplanar forces, and parallel force setups.";
+            rationale = `Option ${q.answer} ("${correctOptText}") is correct because the resultant of the force system matches this value under vector summation or system equilibrium laws. The line of action of parallel forces depends on their magnitudes and positions.`;
+            keyTip = "For parallel forces, remember that like parallel forces add up directly and act in the same direction, whereas unlike parallel forces act in opposite directions.";
+        } else if (qLower.includes("couple") || qLower.includes("moment")) {
+            explanationTitle = "Theory of Couples & Moments";
+            syllabusReference = "Mechanics Sem 4 - Unit 1: Couples & Moments";
+            diagnosticOverview = "A couple consists of two parallel forces that are equal in magnitude, opposite in direction, and do not share a line of action.";
+            rationale = `Option ${q.answer} ("${correctOptText}") is correct because it reflects the definition or calculation of the moment of a force or couple. The moment of a couple is independent of the choice of reference point.`;
+            keyTip = "The moment of a couple is always equal to the product of one of the forces and the perpendicular distance between them (arm of the couple).";
+        } else if (qLower.includes("varignon")) {
+            explanationTitle = "Varignon's Theorem of Moments";
+            syllabusReference = "Mechanics Sem 4 - Unit 1: Varignon's Theorem";
+            diagnosticOverview = "Varignon's theorem states that the moment of a resultant force about any point is equal to the algebraic sum of the moments of its component forces about the same point.";
+            rationale = `Option ${q.answer} ("${correctOptText}") is correct because it represents the core statement or direct consequence of Varignon's theorem for coplanar forces.`;
+            keyTip = "Varignon's theorem simplifies the calculation of resultant moments by resolving a single complex force into simple perpendicular components.";
+        } else if (qLower.includes("virtual work") || qLower.includes("displacement")) {
+            explanationTitle = "Principle of Virtual Work";
+            syllabusReference = "Mechanics Sem 4 - Unit 2: Virtual Work";
+            diagnosticOverview = "The principle of virtual work states that for a system in equilibrium, the total virtual work done by external active forces during any virtual displacement is zero.";
+            rationale = `Option ${q.answer} ("${correctOptText}") is correct because it satisfies the virtual work equation: dW = 0. Virtual displacements are hypothetical, infinitesimal, and must be consistent with the constraints of the system.`;
+            keyTip = "Always distinguish between active forces (which do work) and reactive forces at smooth constraints (which do no virtual work).";
+        } else if (qLower.includes("hooke") || qLower.includes("elastic")) {
+            explanationTitle = "Hooke's Law & Elastic Systems";
+            syllabusReference = "Mechanics Sem 4 - Unit 2: Hooke's Law Applications";
+            diagnosticOverview = "This question applies Hooke's law (Tension = lambda * x / l) within virtual work or mechanical equilibrium problems.";
+            rationale = `Option ${q.answer} ("${correctOptText}") is correct because it relates the tension or elastic force linearly to the extension from the natural length according to Hooke's law.`;
+            keyTip = "When applying Hooke's law in childhood mechanics or virtual work, express the virtual work done by tension as -T * delta(x), where T is the tension and x is the length.";
+        } else if (qLower.includes("equilibrium") || qLower.includes("rigid body")) {
+            explanationTitle = "Equilibrium of Rigid Bodies";
+            syllabusReference = "Mechanics Sem 4 - Unit 2: Equilibrium Conditions";
+            diagnosticOverview = "For a rigid body to be in coplanar equilibrium, the sum of forces must equal zero and the sum of moments about any point must equal zero.";
+            rationale = `Option ${q.answer} ("${correctOptText}") is correct because it represents the necessary and sufficient analytical conditions for equilibrium: sum(Fx) = 0, sum(Fy) = 0, and sum(M) = 0.`;
+            keyTip = "Choose the moment center wisely; picking a point where multiple unknown forces intersect will eliminate them from your moment equation.";
+        } else if (qLower.includes("differential equation") || qLower.includes("differential eq") || qLower.includes("order") || qLower.includes("degree")) {
+            explanationTitle = "Ordinary Differential Equations";
+            syllabusReference = "Mathematics Sem 4 - Unit 1: ODE Fundamentals";
+            diagnosticOverview = "This question tests the core properties of differential equations, such as determining their order, degree, linearity, or type.";
+            rationale = `Option ${q.answer} ("${correctOptText}") is correct because it accurately identifies the order (highest derivative present) or degree (power of the highest derivative once radicals and fractions are removed).`;
+            keyTip = "Remember that the degree of a differential equation is only defined when the equation is a polynomial in the derivatives.";
+        } else if (qLower.includes("integrating factor") || qLower.includes("exact")) {
+            explanationTitle = "Exact Differential Equations & Integrating Factors";
+            syllabusReference = "Mathematics Sem 4 - Unit 1: First-Order ODEs";
+            diagnosticOverview = "For an equation M dx + N dy = 0 to be exact, it must satisfy dM/dy = dN/dx. Otherwise, an integrating factor is needed.";
+            rationale = `Option ${q.answer} ("${correctOptText}") is correct because it correctly applies the formula or condition for the integrating factor to transform the equation into an exact one.`;
+            keyTip = "If (dM/dy - dN/dx)/N is a function of x alone, then the integrating factor is e^(integral of f(x) dx).";
+        } else if (qLower.includes("velocity") || qLower.includes("acceleration") || qLower.includes("momentum")) {
+            explanationTitle = "Dynamics of a Particle in 2D";
+            syllabusReference = "Mechanics Sem 4 - Unit 3: Particle Dynamics";
+            diagnosticOverview = "This problem covers particle kinematics and dynamics, including velocity, acceleration, and momentum vectors in a 2D plane.";
+            rationale = `Option ${q.answer} ("${correctOptText}") is correct because it satisfies the kinematic or dynamic relationships derived from Newton's laws of motion or vector differentiation.`;
+            keyTip = "In polar coordinates, remember that radial velocity is dr/dt and transverse velocity is r * d(theta)/dt.";
+        } else {
+            let customFocus = "the concept described in the problem";
+            const candidateKeywords = ["definition", "method", "principle", "formula", "value", "limit", "solution", "condition"];
+            for (const kw of candidateKeywords) {
+                if (qLower.includes(kw)) {
+                    customFocus = `the correct ${kw} configuration`;
+                    break;
+                }
+            }
+            rationale = `Option ${q.answer} ("${correctOptText}") is correct because it is the only option that satisfies ${customFocus} in accordance with the university syllabus requirements.`;
+            if (isMath) {
+                keyTip = "When analyzing equations or variables, plug in simple boundary values (like 0, 1, or infinity) to check the validity of each option.";
+            } else {
+                keyTip = "Read all options carefully. Eliminate distractors that are overly broad, irrelevant, or contradict the core definition.";
+            }
         }
 
         const optionKeys = ['A', 'B', 'C', 'D'];
@@ -1697,7 +1828,19 @@ Format your output in clean Markdown using bold, italics, and bullet points. Use
             .map((opt, i) => {
                 const key = optionKeys[i];
                 if (key === q.answer) return null;
-                return `<li><strong class="text-primary font-semibold">Option ${key} (${opt})</strong>: This option is a distractor because it does not satisfy the primary definition or rules required under the given academic context.</li>`;
+                
+                let distractorReason = "does not satisfy the required definition or conditions specified in the problem statement.";
+                if (opt.toLowerCase().includes("increase word count") || opt.toLowerCase().includes("avoid writing") || opt.toLowerCase().includes("confuse")) {
+                    distractorReason = "is a common misconception and plays no role in proper scholarly processes.";
+                } else if (isMath) {
+                    distractorReason = "fails to satisfy the mathematical boundaries, correct signs, or physics dimensions of the given system.";
+                } else if (qLower.includes("plagiarism")) {
+                    distractorReason = "fails to attribute the source correctly, or represents an action that actually leads to academic dishonesty.";
+                } else if (qLower.includes("citation") || qLower.includes("reference")) {
+                    distractorReason = "describes a ruleset from an incorrect style manual, or violates standard guidelines for referencing.";
+                }
+                
+                return `<li><strong class="text-primary font-semibold">Option ${key} (${opt})</strong>: This option is a distractor because it ${distractorReason}</li>`;
             })
             .filter(Boolean)
             .join('\n');
@@ -1720,7 +1863,7 @@ Format your output in clean Markdown using bold, italics, and bullet points. Use
                         <h5 class="text-xs font-bold uppercase tracking-wider leading-none">Correct Option: ${q.answer}</h5>
                     </div>
                     <p class="text-xs sm:text-sm font-semibold text-primary">${correctOptText}</p>
-                    <p class="text-[11px] sm:text-xs text-secondary leading-relaxed">Rationale: This option is academically accurate. It aligns with the formal definition and standard procedures approved by the university department syllabus.</p>
+                    <p class="text-[11px] sm:text-xs text-secondary leading-relaxed">Rationale: ${rationale}</p>
                 </div>
 
                 <div class="space-y-3">
@@ -1735,7 +1878,7 @@ Format your output in clean Markdown using bold, italics, and bullet points. Use
                         <span class="material-symbols-outlined text-base font-bold">lightbulb</span>
                         <h5 class="text-xs font-bold uppercase tracking-wider leading-none">Key Exam Tip</h5>
                     </div>
-                    <p class="text-[11px] sm:text-xs text-secondary leading-relaxed">Always verify whether the citation style is author-date (like APA) or numerical/footnote-based (like Chicago/MLA) when analyzing academic formatting problems.</p>
+                    <p class="text-[11px] sm:text-xs text-secondary leading-relaxed">${keyTip}</p>
                 </div>
             </div>
         `;
