@@ -578,6 +578,17 @@
                             <!-- Scanner overlay for loading state -->
                             <div id="scannerOverlay" class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-transparent via-accent-bhu-saffron to-transparent shadow-[0_0_8px_#F57C00] hidden"></div>
                         </div>
+                        <!-- Always-visible Reset/Change actions for accessibility & touch devices -->
+                        <div class="flex gap-3 justify-center mt-1">
+                            <button onclick="triggerGalleryUpload()" class="flex items-center gap-1.5 px-4 py-2 rounded-full border border-border-subtle bg-white hover:bg-neutral-50 text-xs font-bold text-primary shadow-sm active:scale-95 transition-all" title="Upload another image">
+                                <span class="material-symbols-outlined text-base">sync</span>
+                                Change Image
+                            </button>
+                            <button onclick="removeUploadedImage()" class="flex items-center gap-1.5 px-4 py-2 rounded-full border border-error/20 bg-white hover:bg-error/[0.02] text-xs font-bold text-error shadow-sm active:scale-95 transition-all" title="Remove the current solution">
+                                <span class="material-symbols-outlined text-base">delete</span>
+                                Remove & Reset
+                            </button>
+                        </div>
                     </div>
 
                     <!-- ACTION BUTTON & GRADING FEEDBACK -->
