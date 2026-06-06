@@ -1090,6 +1090,8 @@ Provide the final grade and feedback. You MUST output a JSON object at the very 
         loadingEl.classList.remove('hidden');
         loadingEl.classList.add('flex');
         
+        let savedEvaluation = {};
+        
         try {
             const imageBase64 = window.uploadedImages && window.uploadedImages[q.id] ? window.uploadedImages[q.id] : null;
             if (!imageBase64) {
@@ -1097,7 +1099,7 @@ Provide the final grade and feedback. You MUST output a JSON object at the very 
                 return;
             }
             
-            const savedEvaluation = examState.answers[q.id] || {};
+            savedEvaluation = examState.answers[q.id] || {};
             savedEvaluation.tutorChat = savedEvaluation.tutorChat || [];
             
             // Append user message locally
@@ -1106,7 +1108,9 @@ Provide the final grade and feedback. You MUST output a JSON object at the very 
                 content: questionText
             });
             
-            const isMock = !hfApiKey || hfApiKey.includes('YOUR_HF_API_KEY');
+            const isNvidia = nvidiaApiKey && !nvidiaApiKey.includes('YOUR_NVIDIA_API_KEY');
+            const isHF = hfApiKey && !hfApiKey.includes('YOUR_HF_API_KEY');
+            const isMock = !isNvidia && !isHF;
 
             if (isMock) {
                 // Simulate AI Tutor response with a premium delay

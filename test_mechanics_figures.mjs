@@ -56,6 +56,42 @@ async function runTest() {
     throw new Error("Verification failed: Q1 figure diagram was not rendered correctly.");
   }
 
+  // 3b. Test Tutor Chat functionality on Q1
+  console.log("Setting up mock evaluation state for Q1...");
+  await page.evaluate(() => {
+    window.uploadedImages = window.uploadedImages || {};
+    window.uploadedImages[1] = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=";
+    
+    const examState = JSON.parse(localStorage.getItem('bhu_active_exam'));
+    examState.answers[1] = {
+      marks: 7,
+      suggestions: "Correct derivation, but please check the vector angle.",
+      evaluated: true,
+      hasImage: true,
+      imageName: "test_sol.png",
+      tutorChat: []
+    };
+    localStorage.setItem('bhu_active_exam', JSON.stringify(examState));
+    renderQuestion(0);
+  });
+  
+  console.log("Typing question into AI Tutor chat...");
+  await page.fill("#tutorQuestionInput", "Why is the direction angle theta relative to force P?");
+  await page.click("button:has-text('Ask Tutor')");
+  
+  console.log("Waiting for AI Tutor response simulation...");
+  await page.waitForTimeout(2000); // Wait for mock delay
+  
+  const optionsHTML = await page.locator("#optionsContainer").innerHTML();
+  const hasUserMessage = optionsHTML.includes("Why is the direction angle theta relative to force P?");
+  const hasAssistantMessage = optionsHTML.includes("AI Tutor") || optionsHTML.includes("tutor");
+  console.log(`Tutor chat contains User Query: ${hasUserMessage}`);
+  console.log(`Tutor chat contains AI response: ${hasAssistantMessage}`);
+  
+  if (!hasUserMessage || !hasAssistantMessage) {
+    throw new Error("Verification failed: AI Tutor Chat session did not execute correctly.");
+  }
+
   // 4. Navigate to Question 8 and verify
   console.log("Navigating to Question 8...");
   await page.evaluate(() => renderQuestion(7)); // 0-indexed, so 7 is Q8
