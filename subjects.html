@@ -261,6 +261,7 @@
             if (isLive) {
                 let icon = 'menu_book';
                 if (key.includes('math') || key.includes('calc') || (exam.module && exam.module.startsWith('MAT'))) icon = 'calculate';
+                else if (key.includes('geo') || key.includes('glb') || (exam.module && exam.module.startsWith('GLB'))) icon = 'terrain';
                 
                 const typeLabel = exam.type === 'theory' ? 'Theory' : 'MCQ';
                 const activeLabel = exam.type === 'theory' ? 'AI Grading Active' : 'Multiple Choice';
@@ -290,6 +291,7 @@
                 else if (key.startsWith('chem') || (exam.module && exam.module.startsWith('CHEM'))) icon = 'science';
                 else if (key.startsWith('mat') || (exam.module && exam.module.startsWith('MAT'))) icon = 'calculate';
                 else if (key.startsWith('sta') || (exam.module && exam.module.startsWith('STA'))) icon = 'bar_chart';
+                else if (key.startsWith('glb') || key.startsWith('geo') || (exam.module && exam.module.startsWith('GLB'))) icon = 'terrain';
                 
                 cardMarkup = `
                     <div class="glass-panel p-6 rounded-lg border border-border-subtle opacity-50 flex items-center justify-between select-none">
@@ -345,6 +347,23 @@
     };
 
     const EXAM_PYQS = {
+        'glbmj41': [
+            {
+                title: 'Palaeontology and Stratigraphy 2022-23 PDF',
+                file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/GLB_401__Palaeontology_and_Stratigraphy_2022_23.pdf',
+                description: 'Official GLB-401 Palaeontology and Stratigraphy 2022-23 paper'
+            },
+            {
+                title: 'Palaeontology and Stratigraphy 2018-19 PDF',
+                file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/GLB_401__Palaeontology_and_Stratigraphy_2018_19.pdf',
+                description: 'Official GLB-401 Palaeontology and Stratigraphy 2018-19 paper'
+            },
+            {
+                title: 'Palaeontology and Stratigraphy 2013-14 PDF',
+                file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/GLB_401__Palaeontology_and_Stratigraphy_2013_14.pdf',
+                description: 'Official GLB-401 Palaeontology and Stratigraphy 2013-14 paper'
+            }
+        ],
         'matmj41': [
             {
                 title: 'Calculus II PDF',
@@ -524,6 +543,105 @@
                 title: 'Mathematical Physics 2021-22 PDF',
                 file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT_501___Mathematical_Physics_2021_22.pdf',
                 description: 'Official BPT-501 Mathematical Physics 2021-22 paper'
+            }
+        ],
+        'stamj41': [
+            {
+                title: 'Statistical Inference 2022-23 PDF',
+                file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_301__STATISTICAL_INFERENCE_2022_23.pdf',
+                description: 'Official STB-301 Statistical Inference 2022-23 paper'
+            },
+            {
+                title: 'Statistical Inference Midterm 2022-23 PDF',
+                file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_301__STATISTICAL_INFERENCE_Mideterm_2022_23.pdf',
+                description: 'Official STB-301 Statistical Inference Midterm 2022-23 paper'
+            },
+            {
+                title: 'Statistical Inference 2016-17 PDF',
+                file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_301__STATISTICAL_INFERENCE_2016_17.pdf',
+                description: 'Official STB-301 Statistical Inference 2016-17 paper'
+            },
+            {
+                title: 'Statistical Inference 2013-14 PDF',
+                file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_301__STATISTICAL_INFERENCE_2013_14.pdf',
+                description: 'Official STB-301 Statistical Inference 2013-14 paper'
+            }
+        ],
+        'stamn41': [
+            {
+                title: 'Statistical Inference 2022-23 PDF',
+                file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_301__STATISTICAL_INFERENCE_2022_23.pdf',
+                description: 'Official STB-301 Statistical Inference 2022-23 paper'
+            },
+            {
+                title: 'Statistical Inference Midterm 2022-23 PDF',
+                file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_301__STATISTICAL_INFERENCE_Mideterm_2022_23.pdf',
+                description: 'Official STB-301 Statistical Inference Midterm 2022-23 paper'
+            },
+            {
+                title: 'Statistical Inference 2016-17 PDF',
+                file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_301__STATISTICAL_INFERENCE_2016_17.pdf',
+                description: 'Official STB-301 Statistical Inference 2016-17 paper'
+            },
+            {
+                title: 'Statistical Inference 2013-14 PDF',
+                file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_301__STATISTICAL_INFERENCE_2013_14.pdf',
+                description: 'Official STB-301 Statistical Inference 2013-14 paper'
+            }
+        ],
+        'stamj42': [
+            {
+                title: 'Sample Surveys and Design of Experiments 2023-24 PDF',
+                file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_401__Sample_Surveys_and_Design_of_Experiments_2023_24.pdf',
+                description: 'Official STB-401 Sample Surveys and Design of Experiments 2023-24 paper'
+            },
+            {
+                title: 'Sample Surveys and Design of Experiments 2022-23 PDF',
+                file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_401__Sample_Surveys_and_Design_of_Experiments_2022_23.pdf',
+                description: 'Official STB-401 Sample Surveys and Design of Experiments 2022-23 paper'
+            }
+        ],
+        'stamj44': [
+            {
+                title: 'Practical based on Course No. STA-401 2022-23 PDF',
+                file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STA_402__Practical_based_on_Course_No__STA_401_2022_23.pdf',
+                description: 'Official STA-402 Practical based on Course No. STA-401 2022-23 paper'
+            }
+        ],
+        'stamj45': [
+            {
+                title: 'Practical based on STB-401 2023-24 PDF',
+                file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_402__Practical_based_on_STB_401__SET_II__2023_24.pdf',
+                description: 'Official STB-402 Practical based on STB-401 Set II 2023-24 paper'
+            },
+            {
+                title: 'Practical based on STB-501 and STB-502 2022-23 PDF',
+                file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STA505_Practical_based_on_Course_No_STB_501_and_STB_502_2022_23.pdf',
+                description: 'Official STA-505 Practical based on Course No. STB-501 and STB-502 2022-23 paper'
+            }
+        ],
+        'stamj43': [
+            {
+                title: 'Applied Statistics 2024-25 PDF',
+                file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_501__Applied_Statistics_2024_25.pdf',
+                description: 'Official STB-501 Applied Statistics 2024-25 paper'
+            },
+            {
+                title: 'Applied Statistics 2022-23 PDF',
+                file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_501___Applied_Statistics_2022_23.pdf',
+                description: 'Official STB-501/STA-501 Applied Statistics 2022-23 paper'
+            },
+            {
+                title: 'Applied Statistics 2016-17 PDF',
+                file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_501___Applied_Statistics_2016_17.pdf',
+                description: 'Official STB-501/STA-501 Applied Statistics 2016-17 paper'
+            }
+        ],
+        'stamj53': [
+            {
+                title: 'Statistical Inference and Decision Theory 2024-25 PDF',
+                file: 'https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_502__Statistical_Inference_and_Decision_Theory_2024_25.pdf',
+                description: 'Official STB-502 Statistical Inference and Decision Theory 2024-25 paper'
             }
         ]
     };
