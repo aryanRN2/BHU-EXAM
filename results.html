@@ -91,6 +91,18 @@
     </script>
     <script>
         window.MathJax = {
+            startup: {
+                typeset: false,
+                pageReady: () => {
+                    // Disable automatic typesetting on page load
+                },
+                ready: () => {
+                    MathJax.startup.defaultReady();
+                    if (window.triggerTypeset) {
+                        window.triggerTypeset();
+                    }
+                }
+            },
             tex: {
                 inlineMath: [['$', '$'], ['\\(', '\\)']],
                 displayMath: [['$$', '$$'], ['\\[', '\\]']]
@@ -99,8 +111,39 @@
                 skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
             }
         };
+
+        let typesetPromiseChain = Promise.resolve();
+        let typesetTimeout = null;
+        let pendingElements = null;
+
+        window.triggerTypeset = function(elements) {
+            if (elements) {
+                if (!pendingElements) pendingElements = [];
+                elements.forEach(el => {
+                    if (el && !pendingElements.includes(el)) {
+                        pendingElements.push(el);
+                    }
+                });
+            }
+            if (typesetTimeout) clearTimeout(typesetTimeout);
+            typesetTimeout = setTimeout(() => {
+                if (window.MathJax && typeof MathJax.typesetPromise === 'function') {
+                    const elToTypeset = pendingElements;
+                    pendingElements = null;
+                    typesetPromiseChain = typesetPromiseChain
+                        .then(() => {
+                            if (elToTypeset && elToTypeset.length > 0) {
+                                return MathJax.typesetPromise(elToTypeset);
+                            } else {
+                                return MathJax.typesetPromise();
+                            }
+                        })
+                        .catch(err => console.warn("MathJax typeset error:", err));
+                }
+            }, 50);
+        };
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script" async onload="if(window.MathJax && typeof MathJax.typesetPromise === 'function'){MathJax.typesetPromise();}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script" async></script>
 </head>
 <body class="bg-background-warm min-h-screen flex flex-col antialiased text-on-surface select-none">
 
@@ -272,6 +315,8 @@
         }
     };
 
+
+
     // 1. Guard Session
     const user = StateManager.getCurrentUser();
     
@@ -375,17 +420,47 @@
 
     function formatMarkdown(str) {
         if (!str) return '';
-        let escaped = str
+        // 1. Normalize carriage returns
+        let escaped = str.replace(/\r\n/g, '\n');
+        
+        // 2. Escape HTML tags to prevent formatting issues
+        escaped = escaped
             .replace(/&/g, "&amp;")
             .replace(/</g, "&lt;")
             .replace(/>/g, "&gt;");
+
+        // 3. Code blocks (do this before other processing to preserve spacing)
+        escaped = escaped.replace(/```(?:[a-z]+)?\n([\s\S]*?)\n```/g, '<pre class="bg-surface-container p-4 rounded-lg font-mono text-xs text-primary overflow-x-auto my-3">$1</pre>');
+
+        // 4. Inline code
+        escaped = escaped.replace(/`(.*?)`/g, '<code class="bg-surface-container px-1.5 py-0.5 rounded font-mono text-xs text-error">$1</code>');
+
+        // 5. Blockquotes (lines starting with >)
+        escaped = escaped.replace(/^\s*>\s+(.*?)$/gm, '<blockquote class="border-l-2 border-primary/20 pl-3 italic text-secondary">$1</blockquote>');
+
+        // 6. Setext headers (Text followed by line of === or ---)
+        escaped = escaped.replace(/^([^\n]+)\n\s*={3,}\s*$/gim, '<h2 class="text-sm font-extrabold text-primary mt-5 mb-2">$1</h2>');
+        escaped = escaped.replace(/^([^\n]+)\n\s*-{3,}\s*$/gim, '<h3 class="text-xs font-bold uppercase tracking-wider text-primary mt-4 mb-2">$1</h3>');
+
+        // 7. ATX headers
         escaped = escaped.replace(/^\s*###\s+(.*?)\s*$/gm, '<h3 class="text-xs font-bold uppercase tracking-wider text-primary mt-4 mb-2">$1</h3>');
         escaped = escaped.replace(/^\s*##\s+(.*?)\s*$/gm, '<h2 class="text-sm font-extrabold text-primary mt-5 mb-2">$1</h2>');
         escaped = escaped.replace(/^\s*#\s+(.*?)\s*$/gm, '<h1 class="text-base font-black text-primary mt-6 mb-3">$1</h1>');
+
+        // 8. Bold text
         escaped = escaped.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-        escaped = escaped.replace(/^\s*-\s+(.*?)$/gm, '• $1<br>');
-        escaped = escaped.replace(/^\s*\*\s+(.*?)$/gm, '• $1<br>');
+
+        // 9. Bullet lists (remove trailing <br> from items to avoid double spacing)
+        escaped = escaped.replace(/^\s*[-*]\s+(.*?)$/gm, '• $1');
+
+        // 10. Normal line breaks to <br>
         escaped = escaped.replace(/\n/g, '<br>');
+
+        // Restore newlines inside <pre> blocks
+        escaped = escaped.replace(/<pre[^>]*>([\s\S]*?)<\/pre>/g, function(match) {
+            return match.replace(/<br>/g, '\n');
+        });
+
         return escaped;
     }
 
@@ -419,7 +494,9 @@
     });
 
     // Typeset LaTeX math expressions on load
-    if (window.MathJax && typeof MathJax.typesetPromise === 'function') {
+    if (window.triggerTypeset) {
+        window.triggerTypeset();
+    } else if (window.MathJax && typeof MathJax.typesetPromise === 'function') {
         MathJax.typesetPromise();
     }
 </script>
