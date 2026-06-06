@@ -495,19 +495,32 @@
         const container = document.getElementById('optionsContainer');
         container.innerHTML = '';
         
-        // Hide standard Reveal Answer / AI Explain buttons for theory
+        // Setup Reveal Answer / AI Explain buttons for both theory and MCQ
         const toolbelt = document.querySelector('.mt-6.flex.flex-wrap.gap-3.border-t');
         if (toolbelt) {
-            if (examState.type === 'theory') {
-                toolbelt.classList.add('hidden');
-            } else {
-                toolbelt.classList.remove('hidden');
+            toolbelt.classList.remove('hidden');
+            const revealBtn = document.querySelector('button[onclick="revealActiveAnswer()"]');
+            if (revealBtn) {
+                if (examState.type === 'theory') {
+                    revealBtn.innerHTML = `
+                        <span class="material-symbols-outlined text-sm">visibility</span>
+                        Reveal Reference Solution
+                    `;
+                } else {
+                    revealBtn.innerHTML = `
+                        <span class="material-symbols-outlined text-sm">visibility</span>
+                        Reveal Answer
+                    `;
+                }
             }
         }
 
         if (examState.type === 'theory') {
             const savedEvaluation = examState.answers[q.id] || null;
             const imageBase64 = window.uploadedImages && window.uploadedImages[q.id] ? window.uploadedImages[q.id] : null;
+            const isRevealed = !!revealedQuestions[q.id];
+            const showGradingDisplay = (savedEvaluation && savedEvaluation.evaluated) || isRevealed;
+            const hasGraded = savedEvaluation && savedEvaluation.evaluated;
             
             // Build tutor chat messages
             let tutorChatHTML = '';
@@ -610,8 +623,8 @@
                         </div>
 
                         <!-- Grade Display -->
-                        <div id="theoryGradingDisplay" class="${savedEvaluation && savedEvaluation.evaluated ? 'flex' : 'hidden'} flex-col gap-4">
-                            <div class="p-5 bg-accent-neural-emerald/[0.03] border border-accent-neural-emerald/20 rounded-lg flex items-center justify-between">
+                        <div id="theoryGradingDisplay" class="${showGradingDisplay ? 'flex' : 'hidden'} flex-col gap-4">
+                            <div class="p-5 bg-accent-neural-emerald/[0.03] border border-accent-neural-emerald/20 rounded-lg ${hasGraded ? 'flex' : 'hidden'} items-center justify-between">
                                 <div>
                                     <div class="flex items-center gap-2 text-accent-neural-emerald mb-1">
                                         <span class="material-symbols-outlined text-base">verified</span>
@@ -625,7 +638,7 @@
                             </div>
 
                             <!-- Suggestions -->
-                            <div class="p-5 bg-white border border-border-subtle rounded-lg space-y-3 text-left">
+                            <div class="p-5 bg-white border border-border-subtle rounded-lg ${hasGraded ? 'block' : 'hidden'} space-y-3 text-left">
                                 <div class="flex items-center gap-2 text-primary border-b border-border-subtle pb-3">
                                     <span class="material-symbols-outlined text-base font-bold">lightbulb</span>
                                     <h5 class="text-xs font-bold uppercase tracking-wider leading-none">Step-by-Step Rationale & Suggestions</h5>
@@ -633,8 +646,19 @@
                                 <div class="text-xs sm:text-sm text-secondary leading-relaxed space-y-2" id="theorySuggestionsVal">${savedEvaluation ? formatMarkdown(savedEvaluation.suggestions) : ''}</div>
                             </div>
 
+                            <!-- Reference Solution -->
+                            <div class="p-5 bg-primary/[0.02] border border-primary/10 rounded-lg space-y-3 text-left">
+                                <div class="flex items-center gap-2 text-primary border-b border-border-subtle pb-3">
+                                    <span class="material-symbols-outlined text-base font-bold">menu_book</span>
+                                    <h5 class="text-xs font-bold uppercase tracking-wider leading-none">Official Reference Solution &amp; Rubric</h5>
+                                </div>
+                                <div class="text-xs sm:text-sm text-secondary leading-relaxed space-y-4 font-normal" id="theoryReferenceSolutionVal">
+                                    ${formatMarkdown(q.answerKey)}
+                                </div>
+                            </div>
+
                             <!-- AI Tutor Interactive Chat -->
-                            <div class="p-5 bg-surface-container-low border border-border-subtle rounded-lg space-y-4 text-left">
+                            <div class="p-5 bg-surface-container-low border border-border-subtle rounded-lg ${hasGraded ? 'block' : 'hidden'} space-y-4 text-left">
                                 <div class="flex items-center gap-2 text-primary border-b border-border-subtle/50 pb-3">
                                     <span class="material-symbols-outlined text-base">forum</span>
                                     <h5 class="text-xs font-bold uppercase tracking-wider leading-none">Ask the AI Tutor</h5>
@@ -760,7 +784,8 @@
             const elements = [
                 document.getElementById('questionText'),
                 document.getElementById('optionsContainer'),
-                document.getElementById('theorySuggestionsVal')
+                document.getElementById('theorySuggestionsVal'),
+                document.getElementById('theoryReferenceSolutionVal')
             ].filter(Boolean);
             if (typeof MathJax.typesetClear === 'function') {
                 MathJax.typesetClear(elements);
@@ -1572,7 +1597,23 @@ Provide the final grade and feedback. You MUST output a JSON object at the very 
         }
 
         try {
-            const promptText = `You are a university mathematics tutor helping a student prepare for their exams.
+            const isTheory = examState.type === 'theory' || !q.options;
+            const promptText = isTheory ? `You are a university professor helping a student prepare for their exams.
+Explain the following theory question in detail.
+
+[QUESTION]
+${q.question}
+
+[REFERENCE SOLUTION]
+${q.answerKey}
+
+Provide a detailed, step-by-step academic explanation. Your response must address:
+1. **Concept Summary**: Explaining the core academic/geological/mathematical topic.
+2. **Correct Solution Breakdown**: A strict logical proof or explanation of the steps in the reference solution.
+3. **Key Suggestions/Tips**: Helpful advice or tips for writing/answering similar theory questions in an exam.
+
+Format your output in clean Markdown using bold, italics, and bullet points. Use standard inline LaTeX ($...$) or display equations ($$...$$) for mathematics where appropriate. Do not output HTML tags.`
+            : `You are a university mathematics tutor helping a student prepare for their exams.
 Explain the following multiple-choice question in detail.
 
 [QUESTION]
@@ -1703,6 +1744,26 @@ Format your output in clean Markdown using bold, italics, and bullet points. Use
     };
 
     function generateAIExplanation(q) {
+        if (!q.options) {
+            return `
+                <div class="space-y-6">
+                    <div class="p-4 bg-surface-container rounded-lg border border-border-subtle flex flex-col gap-1">
+                        <span class="text-[9px] font-bold text-accent-bhu-saffron uppercase tracking-widest leading-none">Reference Answer &amp; Rubric</span>
+                        <h4 class="font-bold text-primary text-sm sm:text-base">Official Concept Breakdown</h4>
+                    </div>
+
+                    <div class="p-5 bg-primary/[0.02] border border-primary/10 rounded-lg space-y-3 text-left">
+                        <div class="flex items-center gap-2 text-primary border-b border-border-subtle pb-3">
+                            <span class="material-symbols-outlined text-base font-bold">menu_book</span>
+                            <h5 class="text-xs font-bold uppercase tracking-wider leading-none">Correct Solution Steps</h5>
+                        </div>
+                        <div class="text-xs sm:text-sm text-secondary leading-relaxed space-y-4">
+                            ${formatMarkdown(q.answerKey)}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
         const correctOptText = q.options[['A', 'B', 'C', 'D'].indexOf(q.answer)];
         
         let explanationTitle = "Subject Concept Analysis";
