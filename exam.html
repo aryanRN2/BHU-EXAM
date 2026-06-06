@@ -1249,6 +1249,9 @@ Provide the final grade and feedback. You MUST output a JSON object at the very 
             .replace(/&/g, "&amp;")
             .replace(/</g, "&lt;")
             .replace(/>/g, "&gt;");
+        escaped = escaped.replace(/^\s*###\s+(.*?)\s*$/gm, '<h3 class="text-xs font-bold uppercase tracking-wider text-primary mt-4 mb-2">$1</h3>');
+        escaped = escaped.replace(/^\s*##\s+(.*?)\s*$/gm, '<h2 class="text-sm font-extrabold text-primary mt-5 mb-2">$1</h2>');
+        escaped = escaped.replace(/^\s*#\s+(.*?)\s*$/gm, '<h1 class="text-base font-black text-primary mt-6 mb-3">$1</h1>');
         escaped = escaped.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
         escaped = escaped.replace(/^\s*-\s+(.*?)$/gm, '• $1<br>');
         escaped = escaped.replace(/^\s*\*\s+(.*?)$/gm, '• $1<br>');
