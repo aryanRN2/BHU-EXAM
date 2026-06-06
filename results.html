@@ -100,7 +100,7 @@
             }
         };
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script" async onload="if(window.MathJax && typeof MathJax.typesetPromise === 'function'){MathJax.typesetPromise();}"></script>
 </head>
 <body class="bg-background-warm min-h-screen flex flex-col antialiased text-on-surface select-none">
 
@@ -351,12 +351,22 @@
             `;
         }
 
+        let figureMarkup = '';
+        if (item.figure) {
+            if (item.figure.trim().startsWith('<svg')) {
+                figureMarkup = `<div class="my-3 rounded-lg overflow-hidden border border-border-subtle bg-white max-h-80 flex items-center justify-center p-4">${item.figure}</div>`;
+            } else {
+                figureMarkup = `<div class="my-3 rounded-lg overflow-hidden border border-border-subtle bg-white max-h-80 flex items-center justify-center p-4"><img class="max-h-72 w-auto object-contain rounded" src="${item.figure}" alt="Question Figure"></div>`;
+            }
+        }
+
         const auditMarkup = `
             <div class="bg-white/40 border border-border-subtle p-5 rounded-lg flex flex-col gap-3 text-left">
                 <div class="flex justify-between items-start gap-4">
                     <span class="px-2.5 py-1 rounded bg-primary text-on-primary font-mono text-xs font-bold">Q. ${item.qId}</span>
                 </div>
                 <p class="text-sm font-semibold text-primary leading-relaxed">${item.question}</p>
+                ${figureMarkup}
                 ${answerContentHTML}
             </div>
         `;
@@ -405,7 +415,7 @@
     });
 
     // Typeset LaTeX math expressions on load
-    if (window.MathJax) {
+    if (window.MathJax && typeof MathJax.typesetPromise === 'function') {
         MathJax.typesetPromise();
     }
 </script>

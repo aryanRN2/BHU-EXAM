@@ -222,6 +222,9 @@
                     <h3 class="text-2xl font-semibold text-primary mb-4 leading-snug" id="questionText">
                         Question Text
                     </h3>
+                    <div id="questionFigureContainer" class="hidden my-4 rounded-lg overflow-hidden border border-border-subtle bg-white max-h-80 flex items-center justify-center p-4">
+                        <!-- Dynamic SVG or Image here -->
+                    </div>
                 </div>
                 
                 <!-- Options list -->
@@ -471,6 +474,22 @@
         // Update badge and text
         document.getElementById('questionBadge').textContent = `Question ${index + 1} of ${questions.length}`;
         document.getElementById('questionText').textContent = q.question;
+
+        // Render figure if it exists
+        const figureContainer = document.getElementById('questionFigureContainer');
+        if (figureContainer) {
+            if (q.figure) {
+                figureContainer.classList.remove('hidden');
+                if (q.figure.trim().startsWith('<svg')) {
+                    figureContainer.innerHTML = q.figure;
+                } else {
+                    figureContainer.innerHTML = `<img class="max-h-72 w-auto object-contain rounded" src="${q.figure}" alt="Question Figure">`;
+                }
+            } else {
+                figureContainer.classList.add('hidden');
+                figureContainer.innerHTML = '';
+            }
+        }
 
         // Render options list or theory panel
         const container = document.getElementById('optionsContainer');
@@ -726,13 +745,15 @@
         updateProgressUI();
 
         // Typeset LaTeX expressions using MathJax
-        if (window.MathJax) {
+        if (window.MathJax && typeof MathJax.typesetPromise === 'function') {
             const elements = [
                 document.getElementById('questionText'),
                 document.getElementById('optionsContainer'),
                 document.getElementById('theorySuggestionsVal')
             ].filter(Boolean);
-            MathJax.typesetClear(elements);
+            if (typeof MathJax.typesetClear === 'function') {
+                MathJax.typesetClear(elements);
+            }
             MathJax.typesetPromise(elements);
         }
     };
@@ -1400,6 +1421,7 @@ Provide the final grade and feedback. You MUST output a JSON object at the very 
                 details.push({
                     qId: q.id,
                     question: q.question,
+                    figure: q.figure || null,
                     hasImage: !!(evalData && evalData.hasImage),
                     evaluated: !!(evalData && evalData.evaluated),
                     marks: marks,
@@ -1418,6 +1440,7 @@ Provide the final grade and feedback. You MUST output a JSON object at the very 
                 details.push({
                     qId: q.id,
                     question: q.question,
+                    figure: q.figure || null,
                     selected,
                     correct,
                     isCorrect
