@@ -8,4 +8,4 @@ download-screens.mjs
 pull-stitch.js
 pull-stitch.mjs
 .env
-
+**/*.pdf
