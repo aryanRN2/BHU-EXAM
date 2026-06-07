@@ -562,7 +562,134 @@ export const LEGACY_PYQ_DATA = {
       "semester": 5
     }
   ],
-  "maths": [],
+  "maths": [
+    {
+      "title": "2022 2023 UG II SEM BA MATHEMATICS",
+      "fileName": "2022-2023_UG_II-SEM_BA_MATHEMATICS.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2022-2023_UG_II-SEM_BA_MATHEMATICS.pdf",
+      "semester": 2
+    },
+    {
+      "title": "2022 2023 UG III SEM B.Sc. MATHEMATICS",
+      "fileName": "2022-2023_UG_III-SEM_B.Sc._MATHEMATICS.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2022-2023_UG_III-SEM_B.Sc._MATHEMATICS.pdf",
+      "semester": 3
+    },
+    {
+      "title": "2022 2023 UG IV SEM B.Sc. MATHEMATICS",
+      "fileName": "2022-2023_UG_IV-SEM_B.Sc._MATHEMATICS.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2022-2023_UG_IV-SEM_B.Sc._MATHEMATICS.pdf",
+      "semester": 4
+    },
+    {
+      "title": "2022 2023 UG IV SEM BA MATHEMATICS",
+      "fileName": "2022-2023_UG_IV-SEM_BA_MATHEMATICS.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2022-2023_UG_IV-SEM_BA_MATHEMATICS.pdf",
+      "semester": 4
+    },
+    {
+      "title": "2022 2023 UG I   SEM B.A. MATHEMATICS",
+      "fileName": "2022-2023_UG_I_-_SEM_B.A._MATHEMATICS.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2022-2023_UG_I_-_SEM_B.A._MATHEMATICS.pdf",
+      "semester": 1
+    },
+    {
+      "title": "2022 2023 UG V SEM BA and B.Sc MATHEMATICS",
+      "fileName": "2022-2023_UG_V-SEM_BA_and_B.Sc_MATHEMATICS.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2022-2023_UG_V-SEM_BA_and_B.Sc_MATHEMATICS.pdf",
+      "semester": 5
+    },
+    {
+      "title": "2022 2023 UG VI SEM BA and B.Sc. MATHEMATICS",
+      "fileName": "2022-2023_UG_VI-SEM_BA_and_B.Sc._MATHEMATICS.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2022-2023_UG_VI-SEM_BA_and_B.Sc._MATHEMATICS.pdf",
+      "semester": 6
+    },
+    {
+      "title": "2023 24 UG I Sem B.Sc.   MATHEMATICS",
+      "fileName": "2023-24_UG_I-Sem_B.Sc._-_MATHEMATICS.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2023-24_UG_I-Sem_B.Sc._-_MATHEMATICS.pdf",
+      "semester": 1
+    },
+    {
+      "title": "2023 24 UG I Sem BA   MATHEMATICS",
+      "fileName": "2023-24_UG_I-Sem_BA_-_MATHEMATICS.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2023-24_UG_I-Sem_BA_-_MATHEMATICS.pdf",
+      "semester": 1
+    },
+    {
+      "title": "2023 24 UG II Sem B.Sc.   MATHEMATICS",
+      "fileName": "2023-24_UG_II-Sem_B.Sc._-_MATHEMATICS.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2023-24_UG_II-Sem_B.Sc._-_MATHEMATICS.pdf",
+      "semester": 2
+    },
+    {
+      "title": "2023 24 UG II Sem BA   MATHEMATICS",
+      "fileName": "2023-24_UG_II-Sem_BA_-_MATHEMATICS.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2023-24_UG_II-Sem_BA_-_MATHEMATICS.pdf",
+      "semester": 2
+    },
+    {
+      "title": "2023 24 UG III Sem B.Sc.   MATHEMATICS",
+      "fileName": "2023-24_UG_III-Sem_B.Sc._-_MATHEMATICS.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2023-24_UG_III-Sem_B.Sc._-_MATHEMATICS.pdf",
+      "semester": 3
+    },
+    {
+      "title": "2023 24 UG III Sem BA   MATHEMATICS",
+      "fileName": "2023-24_UG_III-Sem_BA_-_MATHEMATICS.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2023-24_UG_III-Sem_BA_-_MATHEMATICS.pdf",
+      "semester": 3
+    },
+    {
+      "title": "2023 24 UG IV Sem B.Sc.   MATHEMATICS",
+      "fileName": "2023-24_UG_IV-Sem_B.Sc._-_MATHEMATICS.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2023-24_UG_IV-Sem_B.Sc._-_MATHEMATICS.pdf",
+      "semester": 4
+    },
+    {
+      "title": "2023 24 UG IV Sem BA   MATHEMATICS",
+      "fileName": "2023-24_UG_IV-Sem_BA_-_MATHEMATICS.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2023-24_UG_IV-Sem_BA_-_MATHEMATICS.pdf",
+      "semester": 4
+    },
+    {
+      "title": "even14 B.A B.SC MATH SEM VI B.A B.SC MATH SEM VI B.A B.SC MATH SEM VI.pdf",
+      "fileName": "even14_B.A-B.SC-MATH-SEM-VI_B.A-B.SC-MATH-SEM-VI.pdf_B.A-B.SC-MATH-SEM-VI.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2Feven14_B.A-B.SC-MATH-SEM-VI_B.A-B.SC-MATH-SEM-VI.pdf_B.A-B.SC-MATH-SEM-VI.pdf",
+      "semester": 6
+    },
+    {
+      "title": "even14 B.SC MATH SEM II B.SC MATH SEM II B.SC MATH SEM II.pdf",
+      "fileName": "even14_B.SC-MATH-SEM-II_B.SC-MATH-SEM-II.pdf_B.SC-MATH-SEM-II.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2Feven14_B.SC-MATH-SEM-II_B.SC-MATH-SEM-II.pdf_B.SC-MATH-SEM-II.pdf",
+      "semester": 2
+    },
+    {
+      "title": "even14 B.SC MATH SEM IV B.SC MATH SEM IV B.SC MATH SEM IV.pdf",
+      "fileName": "even14_B.SC-MATH-SEM-IV_B.SC-MATH-SEM-IV.pdf_B.SC-MATH-SEM-IV.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2Feven14_B.SC-MATH-SEM-IV_B.SC-MATH-SEM-IV.pdf_B.SC-MATH-SEM-IV.pdf",
+      "semester": 4
+    },
+    {
+      "title": "odd14 B.A B.SC MATHMETICS SEM V B.A B.SC MATHMETICS SEM V.pdf",
+      "fileName": "odd14_B.A-B.SC-MATHMETICS-SEM-V.pdf_B.A-B.SC-MATHMETICS-SEM-V.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2Fodd14_B.A-B.SC-MATHMETICS-SEM-V.pdf_B.A-B.SC-MATHMETICS-SEM-V.pdf",
+      "semester": 5
+    },
+    {
+      "title": "odd16 1st SEM B.SC MATHEMATICS",
+      "fileName": "odd16_1st_SEM_B.SC_MATHEMATICS.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2Fodd16_1st_SEM_B.SC_MATHEMATICS.pdf",
+      "semester": 1
+    },
+    {
+      "title": "odd16 3rd SEM B.Sc MATH",
+      "fileName": "odd16_3rd_SEM_B.Sc_MATH.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2Fodd16_3rd_SEM_B.Sc_MATH.pdf",
+      "semester": 3
+    }
+  ],
   "physics": [
     {
       "title": "2022 2023 UG III SEM B.Sc. PHYSICS",
