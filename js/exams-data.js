@@ -95,7 +95,7 @@ export const EXAMS = {
         "question": "In APA references, the year appears:",
         "options": [
           "At the end",
-          "After the author’s name",
+          "After the author\u2019s name",
           "Before the title",
           "In the middle"
         ],
@@ -226,8 +226,8 @@ export const EXAMS = {
         "raw_line": 19,
         "question": "Self-plagiarism refers to:",
         "options": [
-          "Copying others’ work",
-          "Reusing one’s own work without citation",
+          "Copying others\u2019 work",
+          "Reusing one\u2019s own work without citation",
           "Writing new content",
           "Peer review"
         ],
@@ -356,7 +356,7 @@ export const EXAMS = {
       },
       {
         "raw_line": 30,
-        "question": "In APA style, how many authors are listed before using “et al.” in in-text citations (7th edition)?",
+        "question": "In APA style, how many authors are listed before using \u201cet al.\u201d in in-text citations (7th edition)?",
         "options": [
           "One",
           "Two",
@@ -428,7 +428,7 @@ export const EXAMS = {
       },
       {
         "raw_line": 37,
-        "question": "In MLA style, how many authors are listed before using “et al.”?",
+        "question": "In MLA style, how many authors are listed before using \u201cet al.\u201d?",
         "options": [
           "One",
           "Two",
@@ -572,7 +572,7 @@ export const EXAMS = {
       },
       {
         "raw_line": 51,
-        "question": "Which style uses “Works Cited”?",
+        "question": "Which style uses \u201cWorks Cited\u201d?",
         "options": [
           "APA",
           "MLA",
@@ -584,7 +584,7 @@ export const EXAMS = {
       },
       {
         "raw_line": 53,
-        "question": "Which style uses “References”?",
+        "question": "Which style uses \u201cReferences\u201d?",
         "options": [
           "MLA",
           "APA",
@@ -947,7 +947,7 @@ export const EXAMS = {
         "question": "Authority refers to:",
         "options": [
           "Design of website",
-          "Author’s credibility",
+          "Author\u2019s credibility",
           "Page layout",
           "Number of images"
         ],
@@ -1508,7 +1508,7 @@ export const EXAMS = {
       },
       {
         "raw_line": 175,
-        "question": "What is the use of “Find and Replace” feature?",
+        "question": "What is the use of \u201cFind and Replace\u201d feature?",
         "options": [
           "Insert images",
           "Replace text quickly",
@@ -2542,7 +2542,7 @@ export const EXAMS = {
         "id": 14,
         "unit": "IV",
         "question": "State and prove Bessel's Inequality for a finite orthonormal set in an inner product space.",
-        "answerKey": "1. **Bessel's Inequality Statement**:\nLet $\\{e_1, e_2, \\dots, e_k\\自$ be an orthonormal set in an inner product space $V$. For any $x \\in V$, the following inequality holds:\n$$\\sum_{i=1}^k |\\langle x, e_i \\rangle|^2 \\leq \\|x\\|^2$$\n\n2. **Proof**:\n- Consider the vector $y = x - \\sum_{i=1}^k \\langle x, e_i \\rangle e_i$.\n- Since the norm is non-negative, we have $\\|y\\|^2 \\geq 0$.\n- Write $\\|y\\|^2$ in terms of inner products:\n  $$\\|y\\|^2 = \\langle x - \\sum_{i=1}^k \\langle x, e_i \\rangle e_i, x - \\sum_{j=1}^k \\langle x, e_j \\rangle e_j \\rangle$$\n  $$= \\langle x, x \\rangle - \\sum_{j=1}^k \\overline{\\langle x, e_j \\rangle} \\langle x, e_j \\rangle - \\sum_{i=1}^k \\langle x, e_i \\rangle \\langle e_i, x \\rangle + \\sum_{i=1}^k \\sum_{j=1}^k \\langle x, e_i \\rangle \\overline{\\langle x, e_j \\rangle} \\langle e_i, e_j \\rangle$$\n- Since $\\{e_i\\}$ is orthonormal, $\\langle e_i, e_j \\rangle = \\delta_{ij}$:\n  $$\\|y\\|^2 = \\|x\\|^2 - \\sum_{j=1}^k |\\langle x, e_j \\rangle|^2 - \\sum_{i=1}^k |\\langle x, e_i \\rangle|^2 + \\sum_{i=1}^k |\\langle x, e_i \\rangle|^2$$\n  $$= \\|x\\|^2 - \\sum_{i=1}^k |\\langle x, e_i \\rangle|^2$$\n- Since $\\|y\\|^2 \\geq 0$, we have:\n  $$\\|x\\|^2 - \\sum_{i=1}^k |\\langle x, e_i \\rangle|^2 \\geq 0 \\implies \\sum_{i=1}^k |\\langle x, e_i \\rangle|^2 \\leq \\|x\\|^2$$"
+        "answerKey": "1. **Bessel's Inequality Statement**:\nLet $\\{e_1, e_2, \\dots, e_k\\\u81ea$ be an orthonormal set in an inner product space $V$. For any $x \\in V$, the following inequality holds:\n$$\\sum_{i=1}^k |\\langle x, e_i \\rangle|^2 \\leq \\|x\\|^2$$\n\n2. **Proof**:\n- Consider the vector $y = x - \\sum_{i=1}^k \\langle x, e_i \\rangle e_i$.\n- Since the norm is non-negative, we have $\\|y\\|^2 \\geq 0$.\n- Write $\\|y\\|^2$ in terms of inner products:\n  $$\\|y\\|^2 = \\langle x - \\sum_{i=1}^k \\langle x, e_i \\rangle e_i, x - \\sum_{j=1}^k \\langle x, e_j \\rangle e_j \\rangle$$\n  $$= \\langle x, x \\rangle - \\sum_{j=1}^k \\overline{\\langle x, e_j \\rangle} \\langle x, e_j \\rangle - \\sum_{i=1}^k \\langle x, e_i \\rangle \\langle e_i, x \\rangle + \\sum_{i=1}^k \\sum_{j=1}^k \\langle x, e_i \\rangle \\overline{\\langle x, e_j \\rangle} \\langle e_i, e_j \\rangle$$\n- Since $\\{e_i\\}$ is orthonormal, $\\langle e_i, e_j \\rangle = \\delta_{ij}$:\n  $$\\|y\\|^2 = \\|x\\|^2 - \\sum_{j=1}^k |\\langle x, e_j \\rangle|^2 - \\sum_{i=1}^k |\\langle x, e_i \\rangle|^2 + \\sum_{i=1}^k |\\langle x, e_i \\rangle|^2$$\n  $$= \\|x\\|^2 - \\sum_{i=1}^k |\\langle x, e_i \\rangle|^2$$\n- Since $\\|y\\|^2 \\geq 0$, we have:\n  $$\\|x\\|^2 - \\sum_{i=1}^k |\\langle x, e_i \\rangle|^2 \\geq 0 \\implies \\sum_{i=1}^k |\\langle x, e_i \\rangle|^2 \\leq \\|x\\|^2$$"
       },
       {
         "id": 15,
@@ -2944,14 +2944,14 @@ export const EXAMS = {
         "unit": "III",
         "topic": "Curvilinear Coordinates",
         "question": "Define arc length element and volume element in parabolic cylindrical coordinates $(u, v, z)$ where $x = \\frac{1}{2}(u^2-v^2)$, $y = uv$, $z = z$. Find the scale factors.",
-        "answerKey": "1. Position vector: $\\mathbf{r} = \\frac{1}{2}(u^2-v^2)\\hat{x} + uv\\hat{y} + z\\hat{z}$.\n2. Scale factor $h_u$: $\\partial\\mathbf{r}/\\partial u = (u, v, 0)$, so $h_u = \\sqrt{u^2+v^2}$.\n3. Scale factor $h_v$: $\\partial\\mathbf{r}/\\partial v = (-v, u, 0)$, so $h_v = \\sqrt{u^2+v^2}$.\n4. Scale factor $h_z = 1$.\n5. Arc length: $ds^2 = h_u^2 du^2 + h_v^2 dv^2 + h_z^2 dz^2 = (u^2+v^2)(du^2+dv^2) + dz^2$.\n6. Volume element: $dV = h_u h_v h_z\\,du\\,dv\\,dz = (u^2+v^2)\\,du\\,dv\\,dz$.\n7. Verify orthogonality: $\\partial\\mathbf{r}/\\partial u \\cdot \\partial\\mathbf{r}/\\partial v = (u)(-v)+(v)(u) = 0$. ✓"
+        "answerKey": "1. Position vector: $\\mathbf{r} = \\frac{1}{2}(u^2-v^2)\\hat{x} + uv\\hat{y} + z\\hat{z}$.\n2. Scale factor $h_u$: $\\partial\\mathbf{r}/\\partial u = (u, v, 0)$, so $h_u = \\sqrt{u^2+v^2}$.\n3. Scale factor $h_v$: $\\partial\\mathbf{r}/\\partial v = (-v, u, 0)$, so $h_v = \\sqrt{u^2+v^2}$.\n4. Scale factor $h_z = 1$.\n5. Arc length: $ds^2 = h_u^2 du^2 + h_v^2 dv^2 + h_z^2 dz^2 = (u^2+v^2)(du^2+dv^2) + dz^2$.\n6. Volume element: $dV = h_u h_v h_z\\,du\\,dv\\,dz = (u^2+v^2)\\,du\\,dv\\,dz$.\n7. Verify orthogonality: $\\partial\\mathbf{r}/\\partial u \\cdot \\partial\\mathbf{r}/\\partial v = (u)(-v)+(v)(u) = 0$. \u2713"
       },
       {
         "id": "matmj42_u4_1",
         "unit": "IV",
         "topic": "Tensor Analysis",
         "question": "Define contravariant and covariant tensors of rank 1 (vectors). State the transformation laws for each under a change of coordinates $x^i \\to x'^i$. Give examples of each.",
-        "answerKey": "1. Contravariant vector (rank-1 tensor): A set of $n$ quantities $A^i$ that transforms as $A'^i = \\frac{\\partial x'^i}{\\partial x^j} A^j$ (summation convention).\n2. Covariant vector (rank-1 tensor): A set of $n$ quantities $A_i$ that transforms as $A'_i = \\frac{\\partial x^j}{\\partial x'^i} A_j$.\n3. The transformation laws differ: contravariant transforms with the Jacobian, covariant with the inverse Jacobian.\n4. Example of contravariant vector: displacement $dx^i$, velocity $\\frac{dx^i}{dt}$, position increments.\n5. Example of covariant vector: gradient $\\frac{\\partial\\phi}{\\partial x^i}$ of a scalar function — this transforms with the inverse Jacobian by the chain rule.\n6. The distinction is crucial in curved spaces (general relativity, differential geometry)."
+        "answerKey": "1. Contravariant vector (rank-1 tensor): A set of $n$ quantities $A^i$ that transforms as $A'^i = \\frac{\\partial x'^i}{\\partial x^j} A^j$ (summation convention).\n2. Covariant vector (rank-1 tensor): A set of $n$ quantities $A_i$ that transforms as $A'_i = \\frac{\\partial x^j}{\\partial x'^i} A_j$.\n3. The transformation laws differ: contravariant transforms with the Jacobian, covariant with the inverse Jacobian.\n4. Example of contravariant vector: displacement $dx^i$, velocity $\\frac{dx^i}{dt}$, position increments.\n5. Example of covariant vector: gradient $\\frac{\\partial\\phi}{\\partial x^i}$ of a scalar function \u2014 this transforms with the inverse Jacobian by the chain rule.\n6. The distinction is crucial in curved spaces (general relativity, differential geometry)."
       },
       {
         "id": "matmj42_u4_2",
@@ -2965,14 +2965,14 @@ export const EXAMS = {
         "unit": "IV",
         "topic": "Tensor Analysis",
         "question": "Explain the concept of tensor contraction. Show that contracting a mixed tensor $T^{ij}_k$ on indices $i$ and $k$ gives a contravariant vector. Verify with a specific example.",
-        "answerKey": "1. Contraction: Setting one upper and one lower index equal and summing. For $T^{ij}_k$, contracting $i$ and $k$: $V^j = T^{ij}_i = \\sum_i T^{ij}_i$ (using Einstein notation: implied summation).\n2. Rank reduction: Contraction reduces rank by 2 (removes one upper + one lower index). $T^{ij}_k$ is $(2,1)$ → after contraction → $V^j$ is $(1,0)$ = contravariant vector.\n3. Proof of tensor character: $V'^j = T'^{ij}_i = \\frac{\\partial x'^i}{\\partial x^l}\\frac{\\partial x'^j}{\\partial x^m}\\frac{\\partial x^n}{\\partial x'^i}T^{lm}_n = \\delta^n_l\\frac{\\partial x'^j}{\\partial x^m}T^{lm}_n = \\frac{\\partial x'^j}{\\partial x^m}T^{lm}_l = \\frac{\\partial x'^j}{\\partial x^m}V^m$. So $V^j$ transforms as a contravariant vector. ✓\n4. Example: If $T^{ij}_k = A^iB^jC_k$, then $V^j = \\sum_i A^i B^j C_i = (A^i C_i)B^j = \\lambda B^j$ where $\\lambda = A^i C_i$ is a scalar."
+        "answerKey": "1. Contraction: Setting one upper and one lower index equal and summing. For $T^{ij}_k$, contracting $i$ and $k$: $V^j = T^{ij}_i = \\sum_i T^{ij}_i$ (using Einstein notation: implied summation).\n2. Rank reduction: Contraction reduces rank by 2 (removes one upper + one lower index). $T^{ij}_k$ is $(2,1)$ \u2192 after contraction \u2192 $V^j$ is $(1,0)$ = contravariant vector.\n3. Proof of tensor character: $V'^j = T'^{ij}_i = \\frac{\\partial x'^i}{\\partial x^l}\\frac{\\partial x'^j}{\\partial x^m}\\frac{\\partial x^n}{\\partial x'^i}T^{lm}_n = \\delta^n_l\\frac{\\partial x'^j}{\\partial x^m}T^{lm}_n = \\frac{\\partial x'^j}{\\partial x^m}T^{lm}_l = \\frac{\\partial x'^j}{\\partial x^m}V^m$. So $V^j$ transforms as a contravariant vector. \u2713\n4. Example: If $T^{ij}_k = A^iB^jC_k$, then $V^j = \\sum_i A^i B^j C_i = (A^i C_i)B^j = \\lambda B^j$ where $\\lambda = A^i C_i$ is a scalar."
       },
       {
         "id": "matmj42_u4_4",
         "unit": "IV",
         "topic": "Tensor Analysis",
         "question": "State how physical laws are expressed using tensors to ensure coordinate independence. Give the example of Newton's second law and Maxwell's equations in tensor form.",
-        "answerKey": "1. Principle of covariance: A physical law expressed as a tensor equation $T^{ab} = S^{ab}$ (tensors of the same type on both sides) remains valid in any coordinate system, because both sides transform identically.\n2. Newton's second law: In 3D Cartesian, $F^i = ma^i$ (contravariant vectors). This is a tensor equation of rank 1.\n3. In special relativity, 4-force: $F^\\mu = m_0\\frac{du^\\mu}{d\\tau}$ — a valid 4-tensor equation invariant under Lorentz transformations.\n4. Maxwell's equations in tensor form: $\\partial_\\mu F^{\\mu\\nu} = \\mu_0 J^\\nu$, where $F^{\\mu\\nu}$ is the electromagnetic field tensor and $J^\\nu$ is the 4-current. The homogeneous equations: $\\partial_\\mu F_{\\nu\\lambda} + \\partial_\\nu F_{\\lambda\\mu} + \\partial_\\lambda F_{\\mu\\nu} = 0$.\n5. These tensor forms make Lorentz invariance manifest, unifying electric and magnetic fields into a single geometric object."
+        "answerKey": "1. Principle of covariance: A physical law expressed as a tensor equation $T^{ab} = S^{ab}$ (tensors of the same type on both sides) remains valid in any coordinate system, because both sides transform identically.\n2. Newton's second law: In 3D Cartesian, $F^i = ma^i$ (contravariant vectors). This is a tensor equation of rank 1.\n3. In special relativity, 4-force: $F^\\mu = m_0\\frac{du^\\mu}{d\\tau}$ \u2014 a valid 4-tensor equation invariant under Lorentz transformations.\n4. Maxwell's equations in tensor form: $\\partial_\\mu F^{\\mu\\nu} = \\mu_0 J^\\nu$, where $F^{\\mu\\nu}$ is the electromagnetic field tensor and $J^\\nu$ is the 4-current. The homogeneous equations: $\\partial_\\mu F_{\\nu\\lambda} + \\partial_\\nu F_{\\lambda\\mu} + \\partial_\\lambda F_{\\mu\\nu} = 0$.\n5. These tensor forms make Lorentz invariance manifest, unifying electric and magnetic fields into a single geometric object."
       },
       {
         "id": "matmj42_u4_5",
@@ -3279,14 +3279,14 @@ export const EXAMS = {
         "id": 1,
         "unit": "I",
         "question": "Find the magnitude and direction of the resultant of two concurrent coplanar forces $P$ and $Q$ acting on a particle at an angle $\\alpha$ (see figure).",
-        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 240\" class=\"w-full max-w-md h-auto\"><rect width=\"100%\" height=\"100%\" fill=\"#fafafa\" rx=\"8\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><defs><marker id=\"arrow-p\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 1.5 L 8 5 L 0 8.5 z\" fill=\"#ea580c\"/></marker><marker id=\"arrow-q\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 1.5 L 8 5 L 0 8.5 z\" fill=\"#06b6d4\"/></marker><marker id=\"arrow-r\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 1.5 L 8 5 L 0 8.5 z\" fill=\"#10b981\"/></marker></defs><line x1=\"280\" y1=\"200\" x2=\"380\" y2=\"80\" stroke=\"#9ca3af\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\"/><line x1=\"200\" y1=\"80\" x2=\"380\" y2=\"80\" stroke=\"#9ca3af\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\"/><path d=\"M 150 200 A 50 50 0 0 0 132 161\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.5\"/><path d=\"M 170 200 A 70 70 0 0 0 152 144\" fill=\"none\" stroke=\"#10b981\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"200\" x2=\"275\" y2=\"200\" stroke=\"#ea580c\" stroke-width=\"3\" marker-end=\"url(#arrow-p)\"/><line x1=\"100\" y1=\"200\" x2=\"197\" y2=\"84\" stroke=\"#06b6d4\" stroke-width=\"3\" marker-end=\"url(#arrow-q)\"/><line x1=\"100\" y1=\"200\" x2=\"375\" y2=\"83\" stroke=\"#10b981\" stroke-width=\"3\" marker-end=\"url(#arrow-r)\"/><text x=\"85\" y=\"205\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#374151\">O</text><text x=\"280\" y=\"215\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#374151\">A</text><text x=\"195\" y=\"70\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#374151\">B</text><text x=\"385\" y=\"75\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#374151\">C</text><text x=\"180\" y=\"220\" font-family=\"sans-serif\" font-size=\"14\" font-style=\"italic\" font-weight=\"bold\" fill=\"#ea580c\">P</text><text x=\"130\" y=\"130\" font-family=\"sans-serif\" font-size=\"14\" font-style=\"italic\" font-weight=\"bold\" fill=\"#06b6d4\">Q</text><text x=\"240\" y=\"130\" font-family=\"sans-serif\" font-size=\"14\" font-style=\"italic\" font-weight=\"bold\" fill=\"#10b981\">Resultant R</text><text x=\"145\" y=\"175\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#374151\">α</text><text x=\"178\" y=\"190\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#10b981\">θ</text></svg>",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 240\" class=\"w-full max-w-md h-auto\"><rect width=\"100%\" height=\"100%\" fill=\"#fafafa\" rx=\"8\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><defs><marker id=\"arrow-p\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 1.5 L 8 5 L 0 8.5 z\" fill=\"#ea580c\"/></marker><marker id=\"arrow-q\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 1.5 L 8 5 L 0 8.5 z\" fill=\"#06b6d4\"/></marker><marker id=\"arrow-r\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 1.5 L 8 5 L 0 8.5 z\" fill=\"#10b981\"/></marker></defs><line x1=\"280\" y1=\"200\" x2=\"380\" y2=\"80\" stroke=\"#9ca3af\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\"/><line x1=\"200\" y1=\"80\" x2=\"380\" y2=\"80\" stroke=\"#9ca3af\" stroke-width=\"1.5\" stroke-dasharray=\"4,4\"/><path d=\"M 150 200 A 50 50 0 0 0 132 161\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.5\"/><path d=\"M 170 200 A 70 70 0 0 0 152 144\" fill=\"none\" stroke=\"#10b981\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"200\" x2=\"275\" y2=\"200\" stroke=\"#ea580c\" stroke-width=\"3\" marker-end=\"url(#arrow-p)\"/><line x1=\"100\" y1=\"200\" x2=\"197\" y2=\"84\" stroke=\"#06b6d4\" stroke-width=\"3\" marker-end=\"url(#arrow-q)\"/><line x1=\"100\" y1=\"200\" x2=\"375\" y2=\"83\" stroke=\"#10b981\" stroke-width=\"3\" marker-end=\"url(#arrow-r)\"/><text x=\"85\" y=\"205\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#374151\">O</text><text x=\"280\" y=\"215\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#374151\">A</text><text x=\"195\" y=\"70\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#374151\">B</text><text x=\"385\" y=\"75\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#374151\">C</text><text x=\"180\" y=\"220\" font-family=\"sans-serif\" font-size=\"14\" font-style=\"italic\" font-weight=\"bold\" fill=\"#ea580c\">P</text><text x=\"130\" y=\"130\" font-family=\"sans-serif\" font-size=\"14\" font-style=\"italic\" font-weight=\"bold\" fill=\"#06b6d4\">Q</text><text x=\"240\" y=\"130\" font-family=\"sans-serif\" font-size=\"14\" font-style=\"italic\" font-weight=\"bold\" fill=\"#10b981\">Resultant R</text><text x=\"145\" y=\"175\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#374151\">\u03b1</text><text x=\"178\" y=\"190\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#10b981\">\u03b8</text></svg>",
         "answerKey": "1. Let the two forces be represented in magnitude and direction by the vectors $\\mathbf{P}$ and $\\mathbf{Q}$ acting at a point O.\n2. By the parallelogram law of forces, the resultant force $\\mathbf{R}$ is represented by the diagonal of the parallelogram: $\\mathbf{R} = \\mathbf{P} + \\mathbf{Q}$.\n3. The magnitude is given by: $R = \\sqrt{P^2 + Q^2 + 2PQ\\cos\\alpha}$.\n4. Let $\\theta$ be the angle that the resultant makes with the direction of force $P$. Then: $\\tan\\theta = \\frac{Q\\sin\\alpha}{P + Q\\cos\\alpha}$.\n5. Thus, the direction is $\\theta = \\tan^{-1}\\left(\\frac{Q\\sin\\alpha}{P + Q\\cos\\alpha}\\right)$."
       },
       {
         "id": 2,
         "unit": "I",
         "question": "State and prove Varignon's Theorem of moments for a system of coplanar forces acting on a rigid body.",
-        "answerKey": "1. Statement: The algebraic sum of the moments of any two coplanar forces about any point in their plane is equal to the moment of their resultant about the same point.\n2. Proof: Let two forces $\\mathbf{F}_1$ and $\\mathbf{F}_2$ act at a point A, and let O be any point in their plane.\n3. The moment of $\\mathbf{F}_1$ about O is $\\mathbf{r} \\times \\mathbf{F}_1$ and the moment of $\\mathbf{F}_2$ about O is $\\mathbf{r} \\times \\mathbf{F}_2$, where $\\mathbf{r} = \\vec{OA}$.\n4. The sum of the moments is: $\\mathbf{r} \\times \\mathbf{F}_1 + \\mathbf{r} \\times \\mathbf{F}_2 = \\mathbf{r} \\times (\\mathbf{F}_1 + \\mathbf{F}_2)$.\n5. Since the resultant force is $\\mathbf{R} = \\mathbf{F}_1 + \\mathbf{F}_2$, the expression becomes $\\mathbf{r} \\times \\mathbf{R}$, which is the moment of the resultant force about O. ✓"
+        "answerKey": "1. Statement: The algebraic sum of the moments of any two coplanar forces about any point in their plane is equal to the moment of their resultant about the same point.\n2. Proof: Let two forces $\\mathbf{F}_1$ and $\\mathbf{F}_2$ act at a point A, and let O be any point in their plane.\n3. The moment of $\\mathbf{F}_1$ about O is $\\mathbf{r} \\times \\mathbf{F}_1$ and the moment of $\\mathbf{F}_2$ about O is $\\mathbf{r} \\times \\mathbf{F}_2$, where $\\mathbf{r} = \\vec{OA}$.\n4. The sum of the moments is: $\\mathbf{r} \\times \\mathbf{F}_1 + \\mathbf{r} \\times \\mathbf{F}_2 = \\mathbf{r} \\times (\\mathbf{F}_1 + \\mathbf{F}_2)$.\n5. Since the resultant force is $\\mathbf{R} = \\mathbf{F}_1 + \\mathbf{F}_2$, the expression becomes $\\mathbf{r} \\times \\mathbf{R}$, which is the moment of the resultant force about O. \u2713"
       },
       {
         "id": 3,
@@ -3372,14 +3372,14 @@ export const EXAMS = {
         "id": 16,
         "unit": "II",
         "question": "A uniform ladder of weight $W$ rests with its foot on a rough horizontal floor (coefficient of friction $\\mu$) and its top against a smooth vertical wall (see figure). Find the minimum inclination $\\theta$ of the ladder to the horizontal so that it does not slip.",
-        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 260\" class=\"w-full max-w-sm h-auto\"><rect width=\"100%\" height=\"100%\" fill=\"#fafafa\" rx=\"8\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><defs><marker id=\"f-arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 1.5 L 8 5 L 0 8.5 z\" fill=\"#dc2626\"/></marker></defs><line x1=\"40\" y1=\"210\" x2=\"330\" y2=\"210\" stroke=\"#4b5563\" stroke-width=\"3\"/><line x1=\"80\" y1=\"30\" x2=\"80\" y2=\"210\" stroke=\"#4b5563\" stroke-width=\"3\"/><path d=\"M 240 210 A 40 40 0 0 0 252 188\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.5\"/><text x=\"228\" y=\"200\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#374151\">θ</text><line x1=\"280\" y1=\"210\" x2=\"80\" y2=\"50\" stroke=\"#1f2937\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"280\" cy=\"210\" r=\"3\" fill=\"#111827\"/><circle cx=\"80\" cy=\"50\" r=\"3\" fill=\"#111827\"/><circle cx=\"180\" cy=\"130\" r=\"4\" fill=\"#3b82f6\"/><text x=\"188\" y=\"125\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#3b82f6\">G (CG)</text><line x1=\"180\" y1=\"130\" x2=\"180\" y2=\"180\" stroke=\"#dc2626\" stroke-width=\"2\" marker-end=\"url(#f-arr)/><text x=\"190\" y=\"165\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#dc2626\">W</text><line x1=\"280\" y1=\"210\" x2=\"280\" y2=\"165\" stroke=\"#10b981\" stroke-width=\"2\" marker-end=\"url(#f-arr)/><text x=\"290\" y=\"175\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#10b981\">R</text><line x1=\"280\" y1=\"210\" x2=\"235\" y2=\"210\" stroke=\"#f59e0b\" stroke-width=\"2\" marker-end=\"url(#f-arr)/><text x=\"245\" y=\"225\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#f59e0b\">f = μR</text><line x1=\"80\" y1=\"50\" x2=\"125\" y2=\"50\" stroke=\"#06b6d4\" stroke-width=\"2\" marker-end=\"url(#f-arr)/><text x=\"115\" y=\"42\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#06b6d4\">N</text><text x=\"290\" y=\"225\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#374151\">A</text><text x=\"65\" y=\"45\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#374151\">B</text><text x=\"60\" y=\"225\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#6b7280\">Wall</text><text x=\"300\" y=\"225\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#6b7280\">Floor</text></svg>",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 260\" class=\"w-full max-w-sm h-auto\"><rect width=\"100%\" height=\"100%\" fill=\"#fafafa\" rx=\"8\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><defs><marker id=\"f-arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 1.5 L 8 5 L 0 8.5 z\" fill=\"#dc2626\"/></marker></defs><line x1=\"40\" y1=\"210\" x2=\"330\" y2=\"210\" stroke=\"#4b5563\" stroke-width=\"3\"/><line x1=\"80\" y1=\"30\" x2=\"80\" y2=\"210\" stroke=\"#4b5563\" stroke-width=\"3\"/><path d=\"M 240 210 A 40 40 0 0 0 252 188\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.5\"/><text x=\"228\" y=\"200\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#374151\">\u03b8</text><line x1=\"280\" y1=\"210\" x2=\"80\" y2=\"50\" stroke=\"#1f2937\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"280\" cy=\"210\" r=\"3\" fill=\"#111827\"/><circle cx=\"80\" cy=\"50\" r=\"3\" fill=\"#111827\"/><circle cx=\"180\" cy=\"130\" r=\"4\" fill=\"#3b82f6\"/><text x=\"188\" y=\"125\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#3b82f6\">G (CG)</text><line x1=\"180\" y1=\"130\" x2=\"180\" y2=\"180\" stroke=\"#dc2626\" stroke-width=\"2\" marker-end=\"url(#f-arr)/><text x=\"190\" y=\"165\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#dc2626\">W</text><line x1=\"280\" y1=\"210\" x2=\"280\" y2=\"165\" stroke=\"#10b981\" stroke-width=\"2\" marker-end=\"url(#f-arr)/><text x=\"290\" y=\"175\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#10b981\">R</text><line x1=\"280\" y1=\"210\" x2=\"235\" y2=\"210\" stroke=\"#f59e0b\" stroke-width=\"2\" marker-end=\"url(#f-arr)/><text x=\"245\" y=\"225\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#f59e0b\">f = \u03bcR</text><line x1=\"80\" y1=\"50\" x2=\"125\" y2=\"50\" stroke=\"#06b6d4\" stroke-width=\"2\" marker-end=\"url(#f-arr)/><text x=\"115\" y=\"42\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#06b6d4\">N</text><text x=\"290\" y=\"225\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#374151\">A</text><text x=\"65\" y=\"45\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#374151\">B</text><text x=\"60\" y=\"225\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#6b7280\">Wall</text><text x=\"300\" y=\"225\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#6b7280\">Floor</text></svg>",
         "answerKey": "1. Let the ladder be AB of length $2l$. Let G be the center of gravity at distance $l$ from both ends.\n2. The forces acting are: weight $W$ downwards at G, normal reaction $R$ upwards at the floor A, friction force $f = \\mu R$ horizontally towards the wall at A, and normal reaction $N$ from the smooth wall at B.\n3. Resolve forces vertically: $R = W$. Resolve forces horizontally: $N = f = \\mu R = \\mu W$.\n4. Take moments about A: $W (l\\cos\\theta) - N (2l\\sin\\theta) = 0 \\implies W \\cos\\theta = 2 \\mu W \\sin\\theta$.\n5. Simplify: $\\cos\\theta = 2\\mu\\sin\\theta \\implies \\tan\\theta = \\frac{1}{2\\mu}$.\n6. The minimum angle is: $\\theta = \\tan^{-1}\\left(\\frac{1}{2\\mu}\\right)$."
       },
       {
         "id": 17,
         "unit": "II",
         "question": "Prove that the virtual work done by the tension of an inextensible string connecting two points of a rigid system during any virtual displacement is zero.",
-        "answerKey": "1. Let A and B be two points of a rigid body connected by an inextensible string. Let the distance between them be $r = |\\mathbf{r}_B - \\mathbf{r}_A|$.\n2. The tension forces are $\\mathbf{T}$ acting at A along AB, and $-\\mathbf{T}$ acting at B along BA.\n3. The virtual work done by tension is: $\\delta W = \\mathbf{T} \\cdot \\delta\\mathbf{r}_A + (-\\mathbf{T}) \\cdot \\delta\\mathbf{r}_B = -\\mathbf{T} \\cdot (\\delta\\mathbf{r}_B - \\delta\\mathbf{r}_A) = -T \\mathbf{u} \\cdot \\delta(\\mathbf{r}_B - \\mathbf{r}_A)$, where $\\mathbf{u}$ is the unit vector from A to B.\n4. Since the body is rigid, the distance $r$ is constant: $r^2 = (\\mathbf{r}_B - \\mathbf{r}_A)^2 = \\text{constant}$.\n5. Differentiating gives: $(\\mathbf{r}_B - \\mathbf{r}_A) \\cdot \\delta(\\mathbf{r}_B - \\mathbf{r}_A) = 0 \\implies r \\mathbf{u} \\cdot \\delta(\\mathbf{r}_B - \\mathbf{r}_A) = 0$.\n6. Thus, $\\delta W = 0$. The virtual work of tension vanishes. ✓"
+        "answerKey": "1. Let A and B be two points of a rigid body connected by an inextensible string. Let the distance between them be $r = |\\mathbf{r}_B - \\mathbf{r}_A|$.\n2. The tension forces are $\\mathbf{T}$ acting at A along AB, and $-\\mathbf{T}$ acting at B along BA.\n3. The virtual work done by tension is: $\\delta W = \\mathbf{T} \\cdot \\delta\\mathbf{r}_A + (-\\mathbf{T}) \\cdot \\delta\\mathbf{r}_B = -\\mathbf{T} \\cdot (\\delta\\mathbf{r}_B - \\delta\\mathbf{r}_A) = -T \\mathbf{u} \\cdot \\delta(\\mathbf{r}_B - \\mathbf{r}_A)$, where $\\mathbf{u}$ is the unit vector from A to B.\n4. Since the body is rigid, the distance $r$ is constant: $r^2 = (\\mathbf{r}_B - \\mathbf{r}_A)^2 = \\text{constant}$.\n5. Differentiating gives: $(\\mathbf{r}_B - \\mathbf{r}_A) \\cdot \\delta(\\mathbf{r}_B - \\mathbf{r}_A) = 0 \\implies r \\mathbf{u} \\cdot \\delta(\\mathbf{r}_B - \\mathbf{r}_A) = 0$.\n6. Thus, $\\delta W = 0$. The virtual work of tension vanishes. \u2713"
       },
       {
         "id": 18,
@@ -3409,7 +3409,7 @@ export const EXAMS = {
         "id": 22,
         "unit": "III",
         "question": "Derive the radial and transverse components of velocity and acceleration for a particle moving in a plane (see coordinate system in figure).",
-        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" class=\"w-full max-w-sm h-auto\"><rect width=\"100%\" height=\"100%\" fill=\"#fafafa\" rx=\"8\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><defs><marker id=\"u-arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 1.5 L 8 5 L 0 8.5 z\" fill=\"#3b82f6\"/></marker></defs><line x1=\"40\" y1=\"200\" x2=\"320\" y2=\"200\" stroke=\"#9ca3af\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"220\" stroke=\"#9ca3af\" stroke-width=\"1.5\"/><text x=\"325\" y=\"205\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#6b7280\">x</text><text x=\"55\" y=\"35\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#6b7280\">y</text><text x=\"45\" y=\"215\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#374151\">O</text><path d=\"M 100 170 Q 180 130 240 100 T 320 80\" fill=\"none\" stroke=\"#d1d5db\" stroke-width=\"2\" stroke-dasharray=\"2,2\"/><text x=\"300\" y=\"70\" font-family=\"sans-serif\" font-size=\"11\" font-style=\"italic\" fill=\"#9ca3af\">Path</text><path d=\"M 100 200 A 40 40 0 0 0 96 180\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.5\"/><text x=\"105\" y=\"193\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#374151\">θ</text><line x1=\"60\" y1=\"200\" x2=\"240\" y2=\"100\" stroke=\"#111827\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"100\" r=\"4\" fill=\"#ef4444\"/><text x=\"245\" y=\"115\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#ef4444\">P (r, θ)</text><text x=\"145\" y=\"140\" font-family=\"sans-serif\" font-size=\"12\" font-style=\"italic\" fill=\"#374151\">r</text><line x1=\"240\" y1=\"100\" x2=\"295\" y2=\"69\" stroke=\"#3b82f6\" stroke-width=\"2.5\" marker-end=\"url(#u-arr)/><text x=\"300\" y=\"65\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#3b82f6\">u_r</text><line x1=\"240\" y1=\"100\" x2=\"209\" y2=\"44\" stroke=\"#10b981\" stroke-width=\"2.5\" marker-end=\"url(#u-arr)/><text x=\"195\" y=\"38\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#10b981\">u_θ</text></svg>",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" class=\"w-full max-w-sm h-auto\"><rect width=\"100%\" height=\"100%\" fill=\"#fafafa\" rx=\"8\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><defs><marker id=\"u-arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 1.5 L 8 5 L 0 8.5 z\" fill=\"#3b82f6\"/></marker></defs><line x1=\"40\" y1=\"200\" x2=\"320\" y2=\"200\" stroke=\"#9ca3af\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"220\" stroke=\"#9ca3af\" stroke-width=\"1.5\"/><text x=\"325\" y=\"205\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#6b7280\">x</text><text x=\"55\" y=\"35\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#6b7280\">y</text><text x=\"45\" y=\"215\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#374151\">O</text><path d=\"M 100 170 Q 180 130 240 100 T 320 80\" fill=\"none\" stroke=\"#d1d5db\" stroke-width=\"2\" stroke-dasharray=\"2,2\"/><text x=\"300\" y=\"70\" font-family=\"sans-serif\" font-size=\"11\" font-style=\"italic\" fill=\"#9ca3af\">Path</text><path d=\"M 100 200 A 40 40 0 0 0 96 180\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.5\"/><text x=\"105\" y=\"193\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#374151\">\u03b8</text><line x1=\"60\" y1=\"200\" x2=\"240\" y2=\"100\" stroke=\"#111827\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"100\" r=\"4\" fill=\"#ef4444\"/><text x=\"245\" y=\"115\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#ef4444\">P (r, \u03b8)</text><text x=\"145\" y=\"140\" font-family=\"sans-serif\" font-size=\"12\" font-style=\"italic\" fill=\"#374151\">r</text><line x1=\"240\" y1=\"100\" x2=\"295\" y2=\"69\" stroke=\"#3b82f6\" stroke-width=\"2.5\" marker-end=\"url(#u-arr)/><text x=\"300\" y=\"65\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#3b82f6\">u_r</text><line x1=\"240\" y1=\"100\" x2=\"209\" y2=\"44\" stroke=\"#10b981\" stroke-width=\"2.5\" marker-end=\"url(#u-arr)/><text x=\"195\" y=\"38\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#10b981\">u_\u03b8</text></svg>",
         "answerKey": "1. Let position be $\\mathbf{r} = r \\mathbf{u}_r$, where $\\mathbf{u}_r = \\cos\\theta\\mathbf{i} + \\sin\\theta\\mathbf{j}$ and $\\mathbf{u}_\\theta = -\\sin\\theta\\mathbf{i} + \\cos\\theta\\mathbf{j}$.\n2. Differentiate unit vectors: $\\frac{d\\mathbf{u}_r}{dt} = \\dot\\theta\\mathbf{u}_\\theta$ and $\\frac{d\\mathbf{u}_\\theta}{dt} = -\\dot\\theta\\mathbf{u}_r$.\n3. Velocity: $\\mathbf{v} = \\frac{d}{dt}(r\\mathbf{u}_r) = \\dot{r}\\mathbf{u}_r + r\\dot\\theta\\mathbf{u}_\\theta$. Radial velocity is $v_r = \\dot{r}$, transverse velocity is $v_\\theta = r\\dot\\theta$.\n4. Acceleration: $\\mathbf{a} = \\frac{d\\mathbf{v}}{dt} = \\frac{d}{dt}(\\dot{r}\\mathbf{u}_r + r\\dot\\theta\\mathbf{u}_\\theta) = \\ddot{r}\\mathbf{u}_r + \\dot{r}(\\dot\\theta\\mathbf{u}_\\theta) + (\\dot{r}\\dot\\theta + r\\ddot\\theta)\\mathbf{u}_\\theta + r\\dot\\theta(-\\dot\\theta\\mathbf{u}_r)$.\n5. Collect terms: $\\mathbf{a} = (\\ddot{r} - r\\dot\\theta^2)\\mathbf{u}_r + (r\\ddot\\theta + 2\\dot{r}\\dot\\theta)\\mathbf{u}_\\theta$.\n6. Radial acceleration is $a_r = \\ddot{r} - r\\dot\\theta^2$, transverse acceleration is $a_\\theta = r\\ddot\\theta + 2\\dot{r}\\dot\\theta = \\frac{1}{r}\\frac{d}{dt}(r^2\\dot\\theta)$."
       },
       {
@@ -3440,7 +3440,7 @@ export const EXAMS = {
         "id": 27,
         "unit": "III",
         "question": "Define angular momentum in 2D. State and prove the Principle of Conservation of Angular Momentum for a single particle.",
-        "answerKey": "1. Definition: The angular momentum $L$ of a particle of mass $m$ and position vector $\\mathbf{r}$ relative to the origin is: $\\mathbf{L} = \\mathbf{r} \\times (m\\mathbf{v})$. In 2D polar coordinates, its magnitude is $L = m r^2 \\dot\\theta$.\n2. Torque: The torque $\\mathbf{\\tau}$ acting on the particle is $\\mathbf{\\tau} = \\mathbf{r} \\times \\mathbf{F}$, where $\\mathbf{F}$ is the force.\n3. Rate of change: $\\frac{d\\mathbf{L}}{dt} = \\frac{d\\mathbf{r}}{dt} \\times (m\\mathbf{v}) + \\mathbf{r} \\times (m\\frac{d\\mathbf{v}}{dt}) = \\mathbf{v} \\times (m\\mathbf{v}) + \\mathbf{r} \\times \\mathbf{F} = \\mathbf{0} + \\mathbf{\\tau} = \\mathbf{\\tau}$.\n4. Conservation Principle: If the external torque about the origin is zero (e.g., in a central force field where $\\mathbf{F}$ is parallel to $\\mathbf{r}$), then $\\frac{d\\mathbf{L}}{dt} = \\mathbf{0}$.\n5. Hence, $\\mathbf{L}$ is constant. In polar form: $r^2 \\dot\\theta = h$ (constant angular momentum per unit mass). ✓"
+        "answerKey": "1. Definition: The angular momentum $L$ of a particle of mass $m$ and position vector $\\mathbf{r}$ relative to the origin is: $\\mathbf{L} = \\mathbf{r} \\times (m\\mathbf{v})$. In 2D polar coordinates, its magnitude is $L = m r^2 \\dot\\theta$.\n2. Torque: The torque $\\mathbf{\\tau}$ acting on the particle is $\\mathbf{\\tau} = \\mathbf{r} \\times \\mathbf{F}$, where $\\mathbf{F}$ is the force.\n3. Rate of change: $\\frac{d\\mathbf{L}}{dt} = \\frac{d\\mathbf{r}}{dt} \\times (m\\mathbf{v}) + \\mathbf{r} \\times (m\\frac{d\\mathbf{v}}{dt}) = \\mathbf{v} \\times (m\\mathbf{v}) + \\mathbf{r} \\times \\mathbf{F} = \\mathbf{0} + \\mathbf{\\tau} = \\mathbf{\\tau}$.\n4. Conservation Principle: If the external torque about the origin is zero (e.g., in a central force field where $\\mathbf{F}$ is parallel to $\\mathbf{r}$), then $\\frac{d\\mathbf{L}}{dt} = \\mathbf{0}$.\n5. Hence, $\\mathbf{L}$ is constant. In polar form: $r^2 \\dot\\theta = h$ (constant angular momentum per unit mass). \u2713"
       },
       {
         "id": 28,
@@ -3483,7 +3483,7 @@ export const EXAMS = {
         "id": 34,
         "unit": "IV",
         "question": "State Kepler's Laws of planetary motion and deduce the inverse square law of gravitation from them.",
-        "answerKey": "1. Kepler's Laws:\n   - I. Planets move in elliptical orbits with the Sun at one focus.\n   - II. The radius vector from Sun to planet sweeps out equal areas in equal times ($r^2\\dot\\theta = \\text{constant} = h$).\n   - III. The square of the orbital period $T$ is proportional to the cube of the semi-major axis $a$ ($T^2 = C a^3$).\n2. Deduction: From II, the force is central. From I, orbit is an ellipse, so force is $F = \\frac{\\mu}{r^2}$ where $\\mu = \\frac{a h^2}{b^2}$.\n3. From III, $T = \\frac{2\\pi a b}{h} \\implies T^2 = \\frac{4\\pi^2 a^2 b^2}{h^2} = C a^3 \\implies \\frac{h^2}{b^2} = \\frac{4\\pi^2}{C a}$.\n4. Substitute back into $\\mu$: $\\mu = a \\left(\\frac{4\\pi^2}{C a}\\right) = \\frac{4\\pi^2}{C} = \\text{constant}$ for all planets.\n5. Thus, the attractive force per unit mass is $F = \\frac{\\mu}{r^2}$, where $\\mu$ is a universal constant for the Sun's gravitation field. ✓"
+        "answerKey": "1. Kepler's Laws:\n   - I. Planets move in elliptical orbits with the Sun at one focus.\n   - II. The radius vector from Sun to planet sweeps out equal areas in equal times ($r^2\\dot\\theta = \\text{constant} = h$).\n   - III. The square of the orbital period $T$ is proportional to the cube of the semi-major axis $a$ ($T^2 = C a^3$).\n2. Deduction: From II, the force is central. From I, orbit is an ellipse, so force is $F = \\frac{\\mu}{r^2}$ where $\\mu = \\frac{a h^2}{b^2}$.\n3. From III, $T = \\frac{2\\pi a b}{h} \\implies T^2 = \\frac{4\\pi^2 a^2 b^2}{h^2} = C a^3 \\implies \\frac{h^2}{b^2} = \\frac{4\\pi^2}{C a}$.\n4. Substitute back into $\\mu$: $\\mu = a \\left(\\frac{4\\pi^2}{C a}\\right) = \\frac{4\\pi^2}{C} = \\text{constant}$ for all planets.\n5. Thus, the attractive force per unit mass is $F = \\frac{\\mu}{r^2}$, where $\\mu$ is a universal constant for the Sun's gravitation field. \u2713"
       },
       {
         "id": 35,
@@ -3507,7 +3507,7 @@ export const EXAMS = {
         "id": 38,
         "unit": "IV",
         "question": "A particle slides down a smooth cycloid under gravity, starting from rest at the cusp (see geometry in figure). Show that the motion is simple harmonic and find the time period.",
-        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 240\" class=\"w-full max-w-sm h-auto\"><rect width=\"100%\" height=\"100%\" fill=\"#fafafa\" rx=\"8\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><defs><marker id=\"c-arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"5\" markerHeight=\"5\" orient=\"auto-start-reverse\"><path d=\"M 0 1.5 L 8 5 L 0 8.5 z\" fill=\"#dc2626\"/></marker></defs><line x1=\"20\" y1=\"50\" x2=\"360\" y2=\"50\" stroke=\"#9ca3af\" stroke-width=\"2\" stroke-dasharray=\"4,4\"/><text x=\"25\" y=\"42\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#6b7280\">Cusp line</text><path d=\"M 40 50 Q 80 180 180 210 Q 280 180 320 50\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"3\"/><circle cx=\"40\" cy=\"50\" r=\"4\" fill=\"#374151\"/><circle cx=\"320\" cy=\"50\" r=\"4\" fill=\"#374151\"/><circle cx=\"180\" cy=\"210\" r=\"4\" fill=\"#f59e0b\"/><text x=\"25\" y=\"65\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#374151\">Cusp (A)</text><text x=\"310\" y=\"65\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#374151\">Cusp (A')</text><text x=\"165\" y=\"228\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#f59e0b\">Vertex O</text><circle cx=\"110\" cy=\"150\" r=\"5\" fill=\"#ef4444\"/><text x=\"95\" y=\"145\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#ef4444\">P</text><line x1=\"110\" y1=\"150\" x2=\"110\" y2=\"195\" stroke=\"#dc2626\" stroke-width=\"2\" marker-end=\"url(#c-arr)/><text x=\"115\" y=\"185\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#dc2626\">mg</text><line x1=\"110\" y1=\"150\" x2=\"140\" y2=\"180\" stroke=\"#10b981\" stroke-width=\"1.5\" marker-end=\"url(#c-arr)/><text x=\"145\" y=\"178\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"bold\" fill=\"#10b981\">mg sin ψ</text><line x1=\"110\" y1=\"150\" x2=\"140\" y2=\"120\" stroke=\"#3b82f6\" stroke-width=\"1.5\" marker-end=\"url(#c-arr)/><text x=\"145\" y=\"122\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#3b82f6\">R</text><text x=\"135\" y=\"205\" font-family=\"sans-serif\" font-size=\"12\" font-style=\"italic\" fill=\"#374151\">s</text></svg>",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 240\" class=\"w-full max-w-sm h-auto\"><rect width=\"100%\" height=\"100%\" fill=\"#fafafa\" rx=\"8\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><defs><marker id=\"c-arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"5\" markerHeight=\"5\" orient=\"auto-start-reverse\"><path d=\"M 0 1.5 L 8 5 L 0 8.5 z\" fill=\"#dc2626\"/></marker></defs><line x1=\"20\" y1=\"50\" x2=\"360\" y2=\"50\" stroke=\"#9ca3af\" stroke-width=\"2\" stroke-dasharray=\"4,4\"/><text x=\"25\" y=\"42\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#6b7280\">Cusp line</text><path d=\"M 40 50 Q 80 180 180 210 Q 280 180 320 50\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"3\"/><circle cx=\"40\" cy=\"50\" r=\"4\" fill=\"#374151\"/><circle cx=\"320\" cy=\"50\" r=\"4\" fill=\"#374151\"/><circle cx=\"180\" cy=\"210\" r=\"4\" fill=\"#f59e0b\"/><text x=\"25\" y=\"65\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#374151\">Cusp (A)</text><text x=\"310\" y=\"65\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#374151\">Cusp (A')</text><text x=\"165\" y=\"228\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#f59e0b\">Vertex O</text><circle cx=\"110\" cy=\"150\" r=\"5\" fill=\"#ef4444\"/><text x=\"95\" y=\"145\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#ef4444\">P</text><line x1=\"110\" y1=\"150\" x2=\"110\" y2=\"195\" stroke=\"#dc2626\" stroke-width=\"2\" marker-end=\"url(#c-arr)/><text x=\"115\" y=\"185\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#dc2626\">mg</text><line x1=\"110\" y1=\"150\" x2=\"140\" y2=\"180\" stroke=\"#10b981\" stroke-width=\"1.5\" marker-end=\"url(#c-arr)/><text x=\"145\" y=\"178\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"bold\" fill=\"#10b981\">mg sin \u03c8</text><line x1=\"110\" y1=\"150\" x2=\"140\" y2=\"120\" stroke=\"#3b82f6\" stroke-width=\"1.5\" marker-end=\"url(#c-arr)/><text x=\"145\" y=\"122\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#3b82f6\">R</text><text x=\"135\" y=\"205\" font-family=\"sans-serif\" font-size=\"12\" font-style=\"italic\" fill=\"#374151\">s</text></svg>",
         "answerKey": "1. Let the equation of the cycloid be $s = 4a\\sin\\psi$, where the vertex is at $s=0$ (lowest point) and the cusps are at $s = \\pm 4a$.\n2. The tangent makes an angle $\\psi$ with the horizontal. The equation of motion along the curve (tangential direction) is: $m \\ddot{s} = -m g \\sin\\psi$.\n3. Substitute $\\sin\\psi = \\frac{s}{4a}$ into the equation: $\\ddot{s} = -g \\left(\\frac{s}{4a}\\right) \\implies \\ddot{s} + \\frac{g}{4a} s = 0$.\n4. This is the exact differential equation of Simple Harmonic Motion: $\\ddot{s} + \\mu s = 0$ where $\\mu = \\frac{g}{4a}$.\n5. The motion is simple harmonic, and the time period to reach the vertex and return is: $T = \\frac{2\\pi}{\\sqrt{\\mu}} = 2\\pi \\sqrt{\\frac{4a}{g}} = 4\\pi \\sqrt{\\frac{a}{g}}$. This is tautochronous (independent of starting height)."
       },
       {
@@ -3538,7 +3538,7 @@ export const EXAMS = {
         "id": 43,
         "unit": "V",
         "question": "Prove that the pitch $p$ of a wrench is independent of the choice of base point.",
-        "answerKey": "1. At any base point, the system is reduced to force $\\mathbf{R}$ and couple $\\mathbf{G}$.\n2. The scalar product $\\mathbf{G} \\cdot \\mathbf{R}$ is invariant. Let's prove it: $\\mathbf{G}' \\cdot \\mathbf{R} = (\\mathbf{G} - \\mathbf{r} \\times \\mathbf{R}) \\cdot \\mathbf{R} = \\mathbf{G} \\cdot \\mathbf{R} - (\\mathbf{r} \\times \\mathbf{R}) \\cdot \\mathbf{R}$.\n3. Since $(\\mathbf{r} \\times \\mathbf{R})$ is perpendicular to $\\mathbf{R}$, their dot product is zero. Thus, $\\mathbf{G}' \\cdot \\mathbf{R} = \\mathbf{G} \\cdot \\mathbf{R}$ (invariant).\n4. In the wrench state, the couple $\\mathbf{K}$ is parallel to $\\mathbf{R}$, so $\\mathbf{K} \\cdot \\mathbf{R} = K R$.\n5. Equating invariants: $K R = \\mathbf{G} \\cdot \\mathbf{R} \\implies K = \\frac{\\mathbf{G} \\cdot \\mathbf{R}}{R}$.\n6. The pitch is $p = K/R = \\frac{\\mathbf{G} \\cdot \\mathbf{R}}{R^2} = \\frac{LX + MY + NZ}{X^2 + Y^2 + Z^2}$. Since $\\mathbf{G} \\cdot \\mathbf{R}$ and $R^2$ are invariants, the pitch $p$ is independent of the base point. ✓"
+        "answerKey": "1. At any base point, the system is reduced to force $\\mathbf{R}$ and couple $\\mathbf{G}$.\n2. The scalar product $\\mathbf{G} \\cdot \\mathbf{R}$ is invariant. Let's prove it: $\\mathbf{G}' \\cdot \\mathbf{R} = (\\mathbf{G} - \\mathbf{r} \\times \\mathbf{R}) \\cdot \\mathbf{R} = \\mathbf{G} \\cdot \\mathbf{R} - (\\mathbf{r} \\times \\mathbf{R}) \\cdot \\mathbf{R}$.\n3. Since $(\\mathbf{r} \\times \\mathbf{R})$ is perpendicular to $\\mathbf{R}$, their dot product is zero. Thus, $\\mathbf{G}' \\cdot \\mathbf{R} = \\mathbf{G} \\cdot \\mathbf{R}$ (invariant).\n4. In the wrench state, the couple $\\mathbf{K}$ is parallel to $\\mathbf{R}$, so $\\mathbf{K} \\cdot \\mathbf{R} = K R$.\n5. Equating invariants: $K R = \\mathbf{G} \\cdot \\mathbf{R} \\implies K = \\frac{\\mathbf{G} \\cdot \\mathbf{R}}{R}$.\n6. The pitch is $p = K/R = \\frac{\\mathbf{G} \\cdot \\mathbf{R}}{R^2} = \\frac{LX + MY + NZ}{X^2 + Y^2 + Z^2}$. Since $\\mathbf{G} \\cdot \\mathbf{R}$ and $R^2$ are invariants, the pitch $p$ is independent of the base point. \u2713"
       },
       {
         "id": 44,
@@ -3550,7 +3550,7 @@ export const EXAMS = {
         "id": 45,
         "unit": "V",
         "question": "State and prove the Perpendicular Axes Theorem for the Moment of Inertia of a laminar body.",
-        "answerKey": "1. Statement: The moment of inertia $I_z$ of a flat laminar body about an axis perpendicular to its plane is equal to the sum of its moments of inertia about two mutually perpendicular axes $I_x$ and $I_y$ lying in the plane and intersecting at the same point: $I_z = I_x + I_y$.\n2. Proof: Let the lamina lie in the xy-plane. Consider a small mass element $m_i$ at $(x_i, y_i)$.\n3. The moment of inertia about the x-axis is: $I_x = \\sum m_i y_i^2$.\n4. The moment of inertia about the y-axis is: $I_y = \\sum m_i x_i^2$.\n5. The moment of inertia about the z-axis (perpendicular to the plane) is: $I_z = \\sum m_i r_i^2$ where $r_i^2 = x_i^2 + y_i^2$ is the distance from the z-axis.\n6. Substitute: $I_z = \\sum m_i (x_i^2 + y_i^2) = \\sum m_i x_i^2 + \\sum m_i y_i^2 = I_y + I_x$. ✓"
+        "answerKey": "1. Statement: The moment of inertia $I_z$ of a flat laminar body about an axis perpendicular to its plane is equal to the sum of its moments of inertia about two mutually perpendicular axes $I_x$ and $I_y$ lying in the plane and intersecting at the same point: $I_z = I_x + I_y$.\n2. Proof: Let the lamina lie in the xy-plane. Consider a small mass element $m_i$ at $(x_i, y_i)$.\n3. The moment of inertia about the x-axis is: $I_x = \\sum m_i y_i^2$.\n4. The moment of inertia about the y-axis is: $I_y = \\sum m_i x_i^2$.\n5. The moment of inertia about the z-axis (perpendicular to the plane) is: $I_z = \\sum m_i r_i^2$ where $r_i^2 = x_i^2 + y_i^2$ is the distance from the z-axis.\n6. Substitute: $I_z = \\sum m_i (x_i^2 + y_i^2) = \\sum m_i x_i^2 + \\sum m_i y_i^2 = I_y + I_x$. \u2713"
       },
       {
         "id": 46,
@@ -3580,7 +3580,7 @@ export const EXAMS = {
         "id": 50,
         "unit": "V",
         "question": "Define principal axes and principal moments of inertia. Explain how they are determined.",
-        "answerKey": "1. Products of Inertia: For a 3D body, the products of inertia are defined as $D = \\sum m y z$, $E = \\sum m z x$, $F = \\sum m x y$.\n2. Inertia Tensor: The inertia characteristics of a body about a point are represented by the symmetric tensor: $\\mathbf{I} = \\begin{pmatrix} I_{xx} & -I_{xy} & -I_{xz} \\\\ -I_{yx} & I_{yy} & -I_{yz} \\\\ -I_{zx} & -I_{zy} & I_{zz} \\end{pmatrix}$.\n3. Principal Axes: At any point of a body, it is possible to choose a set of three mutually perpendicular axes such that the products of inertia vanish: $I_{xy} = I_{yz} = I_{zx} = 0$.\n4. These axes are called the principal axes of inertia, and the corresponding moments of inertia ($I_1, I_2, I_3$) are called the principal moments of inertia.\n5. Determination: They are determined mathematically by finding the eigenvalues (principal moments) and eigenvectors (principal axes directions) of the inertia tensor matrix. ✓"
+        "answerKey": "1. Products of Inertia: For a 3D body, the products of inertia are defined as $D = \\sum m y z$, $E = \\sum m z x$, $F = \\sum m x y$.\n2. Inertia Tensor: The inertia characteristics of a body about a point are represented by the symmetric tensor: $\\mathbf{I} = \\begin{pmatrix} I_{xx} & -I_{xy} & -I_{xz} \\\\ -I_{yx} & I_{yy} & -I_{yz} \\\\ -I_{zx} & -I_{zy} & I_{zz} \\end{pmatrix}$.\n3. Principal Axes: At any point of a body, it is possible to choose a set of three mutually perpendicular axes such that the products of inertia vanish: $I_{xy} = I_{yz} = I_{zx} = 0$.\n4. These axes are called the principal axes of inertia, and the corresponding moments of inertia ($I_1, I_2, I_3$) are called the principal moments of inertia.\n5. Determination: They are determined mathematically by finding the eigenvalues (principal moments) and eigenvectors (principal axes directions) of the inertia tensor matrix. \u2713"
       }
     ]
   },
@@ -7450,8 +7450,8 @@ export const EXAMS = {
       {
         "id": 1,
         "unit": "I",
-        "question": "What happens when acetic acid ($CH_3COOH$) is dissolved in liquid ammonia and sulfuric acid ($H_2SO_4$) respectively? Explain using Brønsted-Lowry Theory.",
-        "answerKey": "1. In liquid ammonia: Acetic acid acts as a strong acid because ammonia is a strong proton acceptor (leveling solvent). The reaction is: $CH_3COOH + NH_3 \\rightleftharpoons CH_3COO^- + NH_4^+$.\n2. In sulfuric acid: Acetic acid behaves as a weak base because sulfuric acid is a very strong proton donor (differentiating solvent). The reaction is: $CH_3COOH + H_2SO_4 \\rightleftharpoons CH_3C(OH)_2^+ + HSO_4^-$.\n3. According to Brønsted-Lowry theory, an acid is a proton donor and a base is a proton acceptor."
+        "question": "What happens when acetic acid ($CH_3COOH$) is dissolved in liquid ammonia and sulfuric acid ($H_2SO_4$) respectively? Explain using Br\u00f8nsted-Lowry Theory.",
+        "answerKey": "1. In liquid ammonia: Acetic acid acts as a strong acid because ammonia is a strong proton acceptor (leveling solvent). The reaction is: $CH_3COOH + NH_3 \\rightleftharpoons CH_3COO^- + NH_4^+$.\n2. In sulfuric acid: Acetic acid behaves as a weak base because sulfuric acid is a very strong proton donor (differentiating solvent). The reaction is: $CH_3COOH + H_2SO_4 \\rightleftharpoons CH_3C(OH)_2^+ + HSO_4^-$.\n3. According to Br\u00f8nsted-Lowry theory, an acid is a proton donor and a base is a proton acceptor."
       },
       {
         "id": 2,
@@ -7468,7 +7468,7 @@ export const EXAMS = {
       {
         "id": 4,
         "unit": "I",
-        "question": "Identify the Brønsted-Lowry acids, bases, and their conjugate pairs in the following reactions:\n(i) $NH_4^+ + S^{2-} \\rightleftharpoons HS^- + NH_3$\n(ii) $CO_3^{2-} + H_2O \\rightleftharpoons HCO_3^- + OH^-$\n(iii) $H_2SO_4 + HClO_4 \\rightleftharpoons H_3SO_4^+ + ClO_4^-$.",
+        "question": "Identify the Br\u00f8nsted-Lowry acids, bases, and their conjugate pairs in the following reactions:\n(i) $NH_4^+ + S^{2-} \\rightleftharpoons HS^- + NH_3$\n(ii) $CO_3^{2-} + H_2O \\rightleftharpoons HCO_3^- + OH^-$\n(iii) $H_2SO_4 + HClO_4 \\rightleftharpoons H_3SO_4^+ + ClO_4^-$.",
         "answerKey": "1. Reaction (i): $NH_4^+$ is the Acid, $S^{2-}$ is the Base. $HS^-$ is the conjugate acid of $S^{2-}$, and $NH_3$ is the conjugate base of $NH_4^+$.\n2. Reaction (ii): $H_2O$ is the Acid, $CO_3^{2-}$ is the Base. $HCO_3^-$ is the conjugate acid of $CO_3^{2-}$, and $OH^-$ is the conjugate base of $H_2O$.\n3. Reaction (iii): $HClO_4$ is the Acid, $H_2SO_4$ is the Base. $H_3SO_4^+$ is the conjugate acid of $H_2SO_4$, and $ClO_4^-$ is the conjugate base of $HClO_4$."
       },
       {
@@ -7987,7 +7987,311 @@ export const EXAMS = {
     "id": "phymj11",
     "title": "Mechanics & General Properties of Matter",
     "module": "PHYMJ11",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Question 1.Answer anyfourof the following:[4\u00d73.5 = 14]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "What are fictitious (pseudo) forces and when do they come into play? Calculate the fictitious force and observed (total) force on a body of mass5kg in a frame of reference moving:",
+        "answerKey": "1. **Pseudo Forces Concept**:\nForces apparent only in non-inertial (accelerated) frames, equal to $-m\\vec{a}_0$ where $\\vec{a}_0$ is frame acceleration.\n2. **Calculation**:\n(i) Moving upwards at $4\\text{ m/s}^2$: $F_{\\text{pseudo}} = -m(a_0) = -5(4) = -20\\text{ N}$ (downwards). Observed weight $F_{\\text{obs}} = m(g + a_0) = 5(9.8 + 4) = 69\\text{ N}$.\n(ii) Moving downwards: $F_{\\text{pseudo}} = -5(-4) = +20\\text{ N}$ (upwards). Observed weight $F_{\\text{obs}} = m(g - a_0) = 5(9.8 - 4) = 29\\text{ N}$."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "vertically upwards with an acceleration of4m/s2. (ii) vertically downwards with an acceleration of4m/s2. (Takeg= 9.8m/s 2).",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "What is the rest mass of a photon? Give arguments in support of your answer.",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "What are central forces? Show that the angular momentum of a particle moving under the influence of a central force always remains constant.",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "In a nuclear reactor, hydrogen (in the form of water or heavy water) is used as a moderator. Give reasons.",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "Obtain an expression for the time period of a compound pendulum and discuss its advantages over a simple pendulum.",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "What are damped and undamped oscillations? Discuss with examples. In an oscillatory LCR circuit,L = 0.2H and C = 1.2\u00b5F. What is the maximum value of resistanceR for the circuit to remain oscillatory?",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "What is a cantilever? A cantilever of rectangular cross-section is loaded at its free end. Obtain an expression for the depression of the cantilever at its free end.[9]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Calculate Poisson\u2019s ratio for silver. Given that Young\u2019s modulus for silver is7.25 \u00d7 1010N/m2 and its bulk modulus is1.1\u00d71011N/m2.[5]",
+        "answerKey": "1. **Elastic Constants**:\nYoung's modulus ($Y$), Bulk modulus ($K$), Shear modulus ($\\eta$), Poisson's ratio ($\\sigma$).\n2. **Relations**:\n$Y = 3K(1 - 2\\sigma)$ and $Y = 2\\eta(1 + \\sigma)$. Eliminating $\\sigma$ yields $Y = \\frac{9\\eta K}{3K + \\eta}$."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "On the basis of the Lorentz transformation equations, discuss:",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "length contraction. Page 1 of 3 --- Page 2 --- Banaras Hindu University BPT-101: Mechanics and Relativity (ii) time dilation. [10]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "A proton of rest mass1.67\u00d710\u221227 kg is moving with a velocity of0.9c. Find its relativistic mass and momentum.[4] OR",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "What are the assumptions in Poiseuille\u2019s equation for the flow of a liquid through capillary tubes? Show that the coefficient of viscosity is given by: \u03b7=\u03c0Pr4 8VL where V is the volume of the liquid flowing per unit time and the other symbols have their usual meanings.[8]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Explain how you will determine the coefficient of viscosity of water by Poiseuille\u2019s method in the laboratory. Discuss the effect of temperature on the viscosity of liquids.[6]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "What do you mean by relativistic mass? Derive the relativistic mass-energy relation E=mc 2 and discuss its physical importance.[8]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "If the relativistic kinetic energy is given byK = mc2 \u2212m 0c2, show that its classical value (whenv\u226ac) reduces to 1 2m0v2.[6] OR",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "Derive an expression for the twisting couple per unit angular twist for a solid cylinder. Show that for cylinders of the same mass, material, and length, the twisting couple per unit twist is greater for a hollow cylinder than for a solid one.[8]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Obtain an expression for the horizontal deflection of a body falling freely under the action of gravity at a latitude\u03bbdue to the Coriolis force.[6]",
+        "answerKey": "1. **Coriolis Force Definition**:\nFictitious force in rotating frames perpendicular to velocity: $\\vec{F}_{\\text{cor}} = -2m(\\vec{\\omega} \\times \\vec{v}')$.\n2. **Derivation**:\nDifferentiate position in inertial vs rotating frame twice. Acceleration relation: $\\vec{a}_i = \\vec{a}' + 2\\vec{\\omega} \\times \\vec{v}' + \\vec{\\omega} \\times (\\vec{\\omega} \\times \\vec{r}') + \\dot{\\vec{\\omega}} \\times \\vec{r}'$.\n3. **Application**:\nCauses deflection of wind patterns (Coriolis effect) and lateral forces on train tracks."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Calculate the displacement suffered by a stone dropped from the top of a tower100m high due to the Coriolis force:",
+        "answerKey": "1. **Coriolis Force Definition**:\nFictitious force in rotating frames perpendicular to velocity: $\\vec{F}_{\\text{cor}} = -2m(\\vec{\\omega} \\times \\vec{v}')$.\n2. **Derivation**:\nDifferentiate position in inertial vs rotating frame twice. Acceleration relation: $\\vec{a}_i = \\vec{a}' + 2\\vec{\\omega} \\times \\vec{v}' + \\vec{\\omega} \\times (\\vec{\\omega} \\times \\vec{r}') + \\dot{\\vec{\\omega}} \\times \\vec{r}'$.\n3. **Application**:\nCauses deflection of wind patterns (Coriolis effect) and lateral forces on train tracks."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "in latitude60 \u25e6N. (ii) at the equator. (Take angular velocity of the Earth\u03c9= 7.29\u00d710\u22125 rad/s andg= 9.8m/s 2).[14] OR",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "What do you understand by the laboratory (L) and centre of mass (C) frames of reference? Discuss two-dimensional elastic collisions in both frames of reference. Discuss Page 2 of 3 --- Page 3 --- Banaras Hindu University BPT-101: Mechanics and Relativity the advantages of studying collision processes in the centre of mass frame of reference. [14] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 3 of 3",
+        "answerKey": "1. **Elastic Constants**:\nYoung's modulus ($Y$), Bulk modulus ($K$), Shear modulus ($\\eta$), Poisson's ratio ($\\sigma$).\n2. **Relations**:\n$Y = 3K(1 - 2\\sigma)$ and $Y = 2\\eta(1 + \\sigma)$. Eliminating $\\sigma$ yields $Y = \\frac{9\\eta K}{3K + \\eta}$."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "Question 1.(Compulsory \u2014 3.5 marks each for (c)-(f), 3 marks each for (a)-(b). Answer any four parts.)",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "Find the amount of work done to increase the speed of an electron from0.6c to0 .8c. The rest mass of an electron is0.5MeV.[3]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "The volume of a solid does not vary with pressure. Find Poisson\u2019s ratio for the solid.[3]",
+        "answerKey": "1. **Elastic Constants**:\nYoung's modulus ($Y$), Bulk modulus ($K$), Shear modulus ($\\eta$), Poisson's ratio ($\\sigma$).\n2. **Relations**:\n$Y = 3K(1 - 2\\sigma)$ and $Y = 2\\eta(1 + \\sigma)$. Eliminating $\\sigma$ yields $Y = \\frac{9\\eta K}{3K + \\eta}$."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Explain why a cantilever of uniform cross-section is more likely to break near the fixed end. [3.5]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Calculate the fictitious force and observed force acting on a body of mass6kg kept in frames of reference accelerated vertically upward and downward with acceleration 490cm/s 2 and9.8m/s 2 respectively (takeg= 9.8m/s 2).[3.5]",
+        "answerKey": "1. **Pseudo Forces Concept**:\nForces apparent only in non-inertial (accelerated) frames, equal to $-m\\vec{a}_0$ where $\\vec{a}_0$ is frame acceleration.\n2. **Calculation**:\n(i) Moving upwards at $4\\text{ m/s}^2$: $F_{\\text{pseudo}} = -m(a_0) = -5(4) = -20\\text{ N}$ (downwards). Observed weight $F_{\\text{obs}} = m(g + a_0) = 5(9.8 + 4) = 69\\text{ N}$.\n(ii) Moving downwards: $F_{\\text{pseudo}} = -5(-4) = +20\\text{ N}$ (upwards). Observed weight $F_{\\text{obs}} = m(g - a_0) = 5(9.8 - 4) = 29\\text{ N}$."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Explain the phenomenon of twin paradox. Is aging reciprocal?[3.5]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "How much faster than its present speed should the Earth rotate so that bodies lying on the equator may fly off into space?[3.5]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Find the twisting couple per unit twist in the case of a hollow cylinder whose inner radius isR 1 and outer radius isR2.[5]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "Derive the relation connecting Young\u2019s modulus (Y), Bulk modulus (K) and Poisson\u2019s ratio (\u03c3) of a material.[5]",
+        "answerKey": "1. **Elastic Constants**:\nYoung's modulus ($Y$), Bulk modulus ($K$), Shear modulus ($\\eta$), Poisson's ratio ($\\sigma$).\n2. **Relations**:\n$Y = 3K(1 - 2\\sigma)$ and $Y = 2\\eta(1 + \\sigma)$. Eliminating $\\sigma$ yields $Y = \\frac{9\\eta K}{3K + \\eta}$."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Calculate the mass of water flowing in 2 minutes through a tube0.2cm in inner diameter and40 cm long, if there is a constant pressure head of40cm of water. The coefficient of viscosity of water is0.0085CGS units.[4]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Show that for a compound pendulum the centers of suspension and oscillation can be interchanged. Explain how a compound pendulum is superior to a simple pendulum.[6] Page 1 of 2 --- Page 2 --- Banaras Hindu University BPT-101: Mechanics and Relativity",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "Derive the equation of motion of a moving coil galvanometer and discuss the conditions under which the motion is (i) deadbeat, (ii) critical and (iii) ballistic.[8] OR",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "Two particles of massesm1 and m2 collide and after collision move at angles\u03b81 and \u03b82 respectively. Show that in the centre of mass frame, the velocities of the particles do not change in magnitude after collision.[8]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "What are the differences between elastic and inelastic collisions? Write down one example for both types of collisions.[6]",
+        "answerKey": "1. **Elastic Constants**:\nYoung's modulus ($Y$), Bulk modulus ($K$), Shear modulus ($\\eta$), Poisson's ratio ($\\sigma$).\n2. **Relations**:\n$Y = 3K(1 - 2\\sigma)$ and $Y = 2\\eta(1 + \\sigma)$. Eliminating $\\sigma$ yields $Y = \\frac{9\\eta K}{3K + \\eta}$."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "In the experiment of meson decay, how are the observations in the Lab frame and the particle frame explained? Take the half-life of mesons =2.2\u00b5sand velocity =0.99c.[7]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Let the velocity of a particle bev. Discuss the energy distribution in three conditions:",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "v\u226ac, (ii)v\u223ccand (iii)v\u2248c.[7] OR",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "Consider the relativistic form of Newton\u2019s second law of motion. Show that when the force \u20d7Fis parallel to the velocity\u20d7 v: F=m 0 ( 1\u2212 v2 c2 )\u22123/2 dv dt wherem 0 is the rest mass of the object andvis its speed.[10]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Two spaceships approach each other, moving with the same speed as measured by a stationary observer on the Earth. Their relative speed is0.70c. Determine the velocity of each spaceship as measured by a stationary observer on the Earth.[4]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "What is the Coriolis force? Under what conditions does it come into play?[4]",
+        "answerKey": "1. **Coriolis Force Definition**:\nFictitious force in rotating frames perpendicular to velocity: $\\vec{F}_{\\text{cor}} = -2m(\\vec{\\omega} \\times \\vec{v}')$.\n2. **Derivation**:\nDifferentiate position in inertial vs rotating frame twice. Acceleration relation: $\\vec{a}_i = \\vec{a}' + 2\\vec{\\omega} \\times \\vec{v}' + \\vec{\\omega} \\times (\\vec{\\omega} \\times \\vec{r}') + \\dot{\\vec{\\omega}} \\times \\vec{r}'$.\n3. **Application**:\nCauses deflection of wind patterns (Coriolis effect) and lateral forces on train tracks."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Discuss in general terms the effect of the Coriolis force produced as a result of the Earth\u2019s rotation.[6]",
+        "answerKey": "1. **Coriolis Force Definition**:\nFictitious force in rotating frames perpendicular to velocity: $\\vec{F}_{\\text{cor}} = -2m(\\vec{\\omega} \\times \\vec{v}')$.\n2. **Derivation**:\nDifferentiate position in inertial vs rotating frame twice. Acceleration relation: $\\vec{a}_i = \\vec{a}' + 2\\vec{\\omega} \\times \\vec{v}' + \\vec{\\omega} \\times (\\vec{\\omega} \\times \\vec{r}') + \\dot{\\vec{\\omega}} \\times \\vec{r}'$.\n3. **Application**:\nCauses deflection of wind patterns (Coriolis effect) and lateral forces on train tracks."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Calculate the values of the centrifugal and the Coriolis forces on a mass of20g placed at a distance of10cm from the axis of a rotating frame of reference, if the angular speed of rotation of the frame is10rad/s.[4] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 2 of 2",
+        "answerKey": "1. **Coriolis Force Definition**:\nFictitious force in rotating frames perpendicular to velocity: $\\vec{F}_{\\text{cor}} = -2m(\\vec{\\omega} \\times \\vec{v}')$.\n2. **Derivation**:\nDifferentiate position in inertial vs rotating frame twice. Acceleration relation: $\\vec{a}_i = \\vec{a}' + 2\\vec{\\omega} \\times \\vec{v}' + \\vec{\\omega} \\times (\\vec{\\omega} \\times \\vec{r}') + \\dot{\\vec{\\omega}} \\times \\vec{r}'$.\n3. **Application**:\nCauses deflection of wind patterns (Coriolis effect) and lateral forces on train tracks."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Question 1.Answer anyfourof the following questions:[4\u00d73.5 = 14]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "According to an observer on Earth, a car covers1mile in50 s on a straight stretch of highway. How long will it take to cover this distance according to an observer with his own clock on a space ship receding (moving away) from Earth with a speed of0.95c: (i) perpendicular to the line of motion of the car, and (ii) along the same line of motion of the car?",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "A frame of referenceS\u2032 rotates with uniform angular velocity\u20d7 \u03c9with respect to a stationary frameS having a common origin. Show that the relationship between the time derivatives is: ( d\u20d7A dt ) S = ( d\u20d7A dt ) S\u2032 +\u20d7 \u03c9\u00d7\u20d7A Obtain expressions for the centrifugal force and the Coriolis force acting on a particle moving in the rotating frame.",
+        "answerKey": "1. **Coriolis Force Definition**:\nFictitious force in rotating frames perpendicular to velocity: $\\vec{F}_{\\text{cor}} = -2m(\\vec{\\omega} \\times \\vec{v}')$.\n2. **Derivation**:\nDifferentiate position in inertial vs rotating frame twice. Acceleration relation: $\\vec{a}_i = \\vec{a}' + 2\\vec{\\omega} \\times \\vec{v}' + \\vec{\\omega} \\times (\\vec{\\omega} \\times \\vec{r}') + \\dot{\\vec{\\omega}} \\times \\vec{r}'$.\n3. **Application**:\nCauses deflection of wind patterns (Coriolis effect) and lateral forces on train tracks."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "A particle moves under the influence of a force\u20d7F and has instantaneous velocity\u20d7 v. Show that \u20d7F\u00b7\u20d7 v= dT dt, whereT is the kinetic energy of the particle. \u201cAngular momentum and angular velocity of a rigid body are not always parallel.\u201d Justify this statement.",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Find the greatest length of a steel wire that can hang vertically without breaking. Breaking stress for steel is7.9\u00d7109dynes/cm2, and the density of steel is7.9g/cm3. (Takeg= 980cm/s 2).",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Obtain the theoretical limiting values of Poisson\u2019s ratio\u03c3using the relations between Young\u2019s modulus (Y), bulk modulus (K), and shear modulus (\u03b7).",
+        "answerKey": "1. **Elastic Constants**:\nYoung's modulus ($Y$), Bulk modulus ($K$), Shear modulus ($\\eta$), Poisson's ratio ($\\sigma$).\n2. **Relations**:\n$Y = 3K(1 - 2\\sigma)$ and $Y = 2\\eta(1 + \\sigma)$. Eliminating $\\sigma$ yields $Y = \\frac{9\\eta K}{3K + \\eta}$."
+      }
+    ]
   },
   "phymj12": {
     "id": "phymj12",
@@ -7999,7 +8303,311 @@ export const EXAMS = {
     "id": "phymn11",
     "title": "Mechanics & General Properties of Matter",
     "module": "PHYMN11",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Question 1.Answer anyfourof the following:[4\u00d73.5 = 14]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "What are fictitious (pseudo) forces and when do they come into play? Calculate the fictitious force and observed (total) force on a body of mass5kg in a frame of reference moving:",
+        "answerKey": "1. **Pseudo Forces Concept**:\nForces apparent only in non-inertial (accelerated) frames, equal to $-m\\vec{a}_0$ where $\\vec{a}_0$ is frame acceleration.\n2. **Calculation**:\n(i) Moving upwards at $4\\text{ m/s}^2$: $F_{\\text{pseudo}} = -m(a_0) = -5(4) = -20\\text{ N}$ (downwards). Observed weight $F_{\\text{obs}} = m(g + a_0) = 5(9.8 + 4) = 69\\text{ N}$.\n(ii) Moving downwards: $F_{\\text{pseudo}} = -5(-4) = +20\\text{ N}$ (upwards). Observed weight $F_{\\text{obs}} = m(g - a_0) = 5(9.8 - 4) = 29\\text{ N}$."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "vertically upwards with an acceleration of4m/s2. (ii) vertically downwards with an acceleration of4m/s2. (Takeg= 9.8m/s 2).",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "What is the rest mass of a photon? Give arguments in support of your answer.",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "What are central forces? Show that the angular momentum of a particle moving under the influence of a central force always remains constant.",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "In a nuclear reactor, hydrogen (in the form of water or heavy water) is used as a moderator. Give reasons.",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "Obtain an expression for the time period of a compound pendulum and discuss its advantages over a simple pendulum.",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "What are damped and undamped oscillations? Discuss with examples. In an oscillatory LCR circuit,L = 0.2H and C = 1.2\u00b5F. What is the maximum value of resistanceR for the circuit to remain oscillatory?",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "What is a cantilever? A cantilever of rectangular cross-section is loaded at its free end. Obtain an expression for the depression of the cantilever at its free end.[9]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Calculate Poisson\u2019s ratio for silver. Given that Young\u2019s modulus for silver is7.25 \u00d7 1010N/m2 and its bulk modulus is1.1\u00d71011N/m2.[5]",
+        "answerKey": "1. **Elastic Constants**:\nYoung's modulus ($Y$), Bulk modulus ($K$), Shear modulus ($\\eta$), Poisson's ratio ($\\sigma$).\n2. **Relations**:\n$Y = 3K(1 - 2\\sigma)$ and $Y = 2\\eta(1 + \\sigma)$. Eliminating $\\sigma$ yields $Y = \\frac{9\\eta K}{3K + \\eta}$."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "On the basis of the Lorentz transformation equations, discuss:",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "length contraction. Page 1 of 3 --- Page 2 --- Banaras Hindu University BPT-101: Mechanics and Relativity (ii) time dilation. [10]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "A proton of rest mass1.67\u00d710\u221227 kg is moving with a velocity of0.9c. Find its relativistic mass and momentum.[4] OR",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "What are the assumptions in Poiseuille\u2019s equation for the flow of a liquid through capillary tubes? Show that the coefficient of viscosity is given by: \u03b7=\u03c0Pr4 8VL where V is the volume of the liquid flowing per unit time and the other symbols have their usual meanings.[8]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Explain how you will determine the coefficient of viscosity of water by Poiseuille\u2019s method in the laboratory. Discuss the effect of temperature on the viscosity of liquids.[6]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "What do you mean by relativistic mass? Derive the relativistic mass-energy relation E=mc 2 and discuss its physical importance.[8]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "If the relativistic kinetic energy is given byK = mc2 \u2212m 0c2, show that its classical value (whenv\u226ac) reduces to 1 2m0v2.[6] OR",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "Derive an expression for the twisting couple per unit angular twist for a solid cylinder. Show that for cylinders of the same mass, material, and length, the twisting couple per unit twist is greater for a hollow cylinder than for a solid one.[8]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Obtain an expression for the horizontal deflection of a body falling freely under the action of gravity at a latitude\u03bbdue to the Coriolis force.[6]",
+        "answerKey": "1. **Coriolis Force Definition**:\nFictitious force in rotating frames perpendicular to velocity: $\\vec{F}_{\\text{cor}} = -2m(\\vec{\\omega} \\times \\vec{v}')$.\n2. **Derivation**:\nDifferentiate position in inertial vs rotating frame twice. Acceleration relation: $\\vec{a}_i = \\vec{a}' + 2\\vec{\\omega} \\times \\vec{v}' + \\vec{\\omega} \\times (\\vec{\\omega} \\times \\vec{r}') + \\dot{\\vec{\\omega}} \\times \\vec{r}'$.\n3. **Application**:\nCauses deflection of wind patterns (Coriolis effect) and lateral forces on train tracks."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Calculate the displacement suffered by a stone dropped from the top of a tower100m high due to the Coriolis force:",
+        "answerKey": "1. **Coriolis Force Definition**:\nFictitious force in rotating frames perpendicular to velocity: $\\vec{F}_{\\text{cor}} = -2m(\\vec{\\omega} \\times \\vec{v}')$.\n2. **Derivation**:\nDifferentiate position in inertial vs rotating frame twice. Acceleration relation: $\\vec{a}_i = \\vec{a}' + 2\\vec{\\omega} \\times \\vec{v}' + \\vec{\\omega} \\times (\\vec{\\omega} \\times \\vec{r}') + \\dot{\\vec{\\omega}} \\times \\vec{r}'$.\n3. **Application**:\nCauses deflection of wind patterns (Coriolis effect) and lateral forces on train tracks."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "in latitude60 \u25e6N. (ii) at the equator. (Take angular velocity of the Earth\u03c9= 7.29\u00d710\u22125 rad/s andg= 9.8m/s 2).[14] OR",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "What do you understand by the laboratory (L) and centre of mass (C) frames of reference? Discuss two-dimensional elastic collisions in both frames of reference. Discuss Page 2 of 3 --- Page 3 --- Banaras Hindu University BPT-101: Mechanics and Relativity the advantages of studying collision processes in the centre of mass frame of reference. [14] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 3 of 3",
+        "answerKey": "1. **Elastic Constants**:\nYoung's modulus ($Y$), Bulk modulus ($K$), Shear modulus ($\\eta$), Poisson's ratio ($\\sigma$).\n2. **Relations**:\n$Y = 3K(1 - 2\\sigma)$ and $Y = 2\\eta(1 + \\sigma)$. Eliminating $\\sigma$ yields $Y = \\frac{9\\eta K}{3K + \\eta}$."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "Question 1.(Compulsory \u2014 3.5 marks each for (c)-(f), 3 marks each for (a)-(b). Answer any four parts.)",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "Find the amount of work done to increase the speed of an electron from0.6c to0 .8c. The rest mass of an electron is0.5MeV.[3]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "The volume of a solid does not vary with pressure. Find Poisson\u2019s ratio for the solid.[3]",
+        "answerKey": "1. **Elastic Constants**:\nYoung's modulus ($Y$), Bulk modulus ($K$), Shear modulus ($\\eta$), Poisson's ratio ($\\sigma$).\n2. **Relations**:\n$Y = 3K(1 - 2\\sigma)$ and $Y = 2\\eta(1 + \\sigma)$. Eliminating $\\sigma$ yields $Y = \\frac{9\\eta K}{3K + \\eta}$."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Explain why a cantilever of uniform cross-section is more likely to break near the fixed end. [3.5]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Calculate the fictitious force and observed force acting on a body of mass6kg kept in frames of reference accelerated vertically upward and downward with acceleration 490cm/s 2 and9.8m/s 2 respectively (takeg= 9.8m/s 2).[3.5]",
+        "answerKey": "1. **Pseudo Forces Concept**:\nForces apparent only in non-inertial (accelerated) frames, equal to $-m\\vec{a}_0$ where $\\vec{a}_0$ is frame acceleration.\n2. **Calculation**:\n(i) Moving upwards at $4\\text{ m/s}^2$: $F_{\\text{pseudo}} = -m(a_0) = -5(4) = -20\\text{ N}$ (downwards). Observed weight $F_{\\text{obs}} = m(g + a_0) = 5(9.8 + 4) = 69\\text{ N}$.\n(ii) Moving downwards: $F_{\\text{pseudo}} = -5(-4) = +20\\text{ N}$ (upwards). Observed weight $F_{\\text{obs}} = m(g - a_0) = 5(9.8 - 4) = 29\\text{ N}$."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Explain the phenomenon of twin paradox. Is aging reciprocal?[3.5]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "How much faster than its present speed should the Earth rotate so that bodies lying on the equator may fly off into space?[3.5]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Find the twisting couple per unit twist in the case of a hollow cylinder whose inner radius isR 1 and outer radius isR2.[5]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "Derive the relation connecting Young\u2019s modulus (Y), Bulk modulus (K) and Poisson\u2019s ratio (\u03c3) of a material.[5]",
+        "answerKey": "1. **Elastic Constants**:\nYoung's modulus ($Y$), Bulk modulus ($K$), Shear modulus ($\\eta$), Poisson's ratio ($\\sigma$).\n2. **Relations**:\n$Y = 3K(1 - 2\\sigma)$ and $Y = 2\\eta(1 + \\sigma)$. Eliminating $\\sigma$ yields $Y = \\frac{9\\eta K}{3K + \\eta}$."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Calculate the mass of water flowing in 2 minutes through a tube0.2cm in inner diameter and40 cm long, if there is a constant pressure head of40cm of water. The coefficient of viscosity of water is0.0085CGS units.[4]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Show that for a compound pendulum the centers of suspension and oscillation can be interchanged. Explain how a compound pendulum is superior to a simple pendulum.[6] Page 1 of 2 --- Page 2 --- Banaras Hindu University BPT-101: Mechanics and Relativity",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "Derive the equation of motion of a moving coil galvanometer and discuss the conditions under which the motion is (i) deadbeat, (ii) critical and (iii) ballistic.[8] OR",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "Two particles of massesm1 and m2 collide and after collision move at angles\u03b81 and \u03b82 respectively. Show that in the centre of mass frame, the velocities of the particles do not change in magnitude after collision.[8]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "What are the differences between elastic and inelastic collisions? Write down one example for both types of collisions.[6]",
+        "answerKey": "1. **Elastic Constants**:\nYoung's modulus ($Y$), Bulk modulus ($K$), Shear modulus ($\\eta$), Poisson's ratio ($\\sigma$).\n2. **Relations**:\n$Y = 3K(1 - 2\\sigma)$ and $Y = 2\\eta(1 + \\sigma)$. Eliminating $\\sigma$ yields $Y = \\frac{9\\eta K}{3K + \\eta}$."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "In the experiment of meson decay, how are the observations in the Lab frame and the particle frame explained? Take the half-life of mesons =2.2\u00b5sand velocity =0.99c.[7]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Let the velocity of a particle bev. Discuss the energy distribution in three conditions:",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "v\u226ac, (ii)v\u223ccand (iii)v\u2248c.[7] OR",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "Consider the relativistic form of Newton\u2019s second law of motion. Show that when the force \u20d7Fis parallel to the velocity\u20d7 v: F=m 0 ( 1\u2212 v2 c2 )\u22123/2 dv dt wherem 0 is the rest mass of the object andvis its speed.[10]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Two spaceships approach each other, moving with the same speed as measured by a stationary observer on the Earth. Their relative speed is0.70c. Determine the velocity of each spaceship as measured by a stationary observer on the Earth.[4]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "What is the Coriolis force? Under what conditions does it come into play?[4]",
+        "answerKey": "1. **Coriolis Force Definition**:\nFictitious force in rotating frames perpendicular to velocity: $\\vec{F}_{\\text{cor}} = -2m(\\vec{\\omega} \\times \\vec{v}')$.\n2. **Derivation**:\nDifferentiate position in inertial vs rotating frame twice. Acceleration relation: $\\vec{a}_i = \\vec{a}' + 2\\vec{\\omega} \\times \\vec{v}' + \\vec{\\omega} \\times (\\vec{\\omega} \\times \\vec{r}') + \\dot{\\vec{\\omega}} \\times \\vec{r}'$.\n3. **Application**:\nCauses deflection of wind patterns (Coriolis effect) and lateral forces on train tracks."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Discuss in general terms the effect of the Coriolis force produced as a result of the Earth\u2019s rotation.[6]",
+        "answerKey": "1. **Coriolis Force Definition**:\nFictitious force in rotating frames perpendicular to velocity: $\\vec{F}_{\\text{cor}} = -2m(\\vec{\\omega} \\times \\vec{v}')$.\n2. **Derivation**:\nDifferentiate position in inertial vs rotating frame twice. Acceleration relation: $\\vec{a}_i = \\vec{a}' + 2\\vec{\\omega} \\times \\vec{v}' + \\vec{\\omega} \\times (\\vec{\\omega} \\times \\vec{r}') + \\dot{\\vec{\\omega}} \\times \\vec{r}'$.\n3. **Application**:\nCauses deflection of wind patterns (Coriolis effect) and lateral forces on train tracks."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Calculate the values of the centrifugal and the Coriolis forces on a mass of20g placed at a distance of10cm from the axis of a rotating frame of reference, if the angular speed of rotation of the frame is10rad/s.[4] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 2 of 2",
+        "answerKey": "1. **Coriolis Force Definition**:\nFictitious force in rotating frames perpendicular to velocity: $\\vec{F}_{\\text{cor}} = -2m(\\vec{\\omega} \\times \\vec{v}')$.\n2. **Derivation**:\nDifferentiate position in inertial vs rotating frame twice. Acceleration relation: $\\vec{a}_i = \\vec{a}' + 2\\vec{\\omega} \\times \\vec{v}' + \\vec{\\omega} \\times (\\vec{\\omega} \\times \\vec{r}') + \\dot{\\vec{\\omega}} \\times \\vec{r}'$.\n3. **Application**:\nCauses deflection of wind patterns (Coriolis effect) and lateral forces on train tracks."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Question 1.Answer anyfourof the following questions:[4\u00d73.5 = 14]",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "According to an observer on Earth, a car covers1mile in50 s on a straight stretch of highway. How long will it take to cover this distance according to an observer with his own clock on a space ship receding (moving away) from Earth with a speed of0.95c: (i) perpendicular to the line of motion of the car, and (ii) along the same line of motion of the car?",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "A frame of referenceS\u2032 rotates with uniform angular velocity\u20d7 \u03c9with respect to a stationary frameS having a common origin. Show that the relationship between the time derivatives is: ( d\u20d7A dt ) S = ( d\u20d7A dt ) S\u2032 +\u20d7 \u03c9\u00d7\u20d7A Obtain expressions for the centrifugal force and the Coriolis force acting on a particle moving in the rotating frame.",
+        "answerKey": "1. **Coriolis Force Definition**:\nFictitious force in rotating frames perpendicular to velocity: $\\vec{F}_{\\text{cor}} = -2m(\\vec{\\omega} \\times \\vec{v}')$.\n2. **Derivation**:\nDifferentiate position in inertial vs rotating frame twice. Acceleration relation: $\\vec{a}_i = \\vec{a}' + 2\\vec{\\omega} \\times \\vec{v}' + \\vec{\\omega} \\times (\\vec{\\omega} \\times \\vec{r}') + \\dot{\\vec{\\omega}} \\times \\vec{r}'$.\n3. **Application**:\nCauses deflection of wind patterns (Coriolis effect) and lateral forces on train tracks."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "A particle moves under the influence of a force\u20d7F and has instantaneous velocity\u20d7 v. Show that \u20d7F\u00b7\u20d7 v= dT dt, whereT is the kinetic energy of the particle. \u201cAngular momentum and angular velocity of a rigid body are not always parallel.\u201d Justify this statement.",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Find the greatest length of a steel wire that can hang vertically without breaking. Breaking stress for steel is7.9\u00d7109dynes/cm2, and the density of steel is7.9g/cm3. (Takeg= 980cm/s 2).",
+        "answerKey": "1. **Mechanics Core Principles**:\nDefine coordinates, analyze system using Newton's second law $\\vec{F} = m\\vec{a}$ or conservation laws.\n2. **Mathematical Formulation**:\nSet up boundary conditions. Integrate equations of motion to find position $\\vec{r}(t)$ and velocity $\\vec{v}(t)$.\n3. **Physical Analysis**:\nEvaluate limiting cases (e.g., small oscillations or relativistic limits where $\\gamma \\to 1$)."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Obtain the theoretical limiting values of Poisson\u2019s ratio\u03c3using the relations between Young\u2019s modulus (Y), bulk modulus (K), and shear modulus (\u03b7).",
+        "answerKey": "1. **Elastic Constants**:\nYoung's modulus ($Y$), Bulk modulus ($K$), Shear modulus ($\\eta$), Poisson's ratio ($\\sigma$).\n2. **Relations**:\n$Y = 3K(1 - 2\\sigma)$ and $Y = 2\\eta(1 + \\sigma)$. Eliminating $\\sigma$ yields $Y = \\frac{9\\eta K}{3K + \\eta}$."
+      }
+    ]
   },
   "phymn12": {
     "id": "phymn12",
@@ -8023,7 +8631,311 @@ export const EXAMS = {
     "id": "phymj21",
     "title": "Thermal Physics",
     "module": "PHYMJ21",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Question 1.Answer anysixof the following:[6\u00d73 = 18]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "The electromagnetic radiations in different wavelength/frequency ranges are used for different biological applications and in different biological processes. In each of the following three processes, which region of electromagnetic radiation is used?",
+        "answerKey": "1. **Planck's Law**:\nEnergy density $u(\\lambda) d\\lambda = \\frac{8\\pi hc}{\\lambda^5} \\frac{1}{e^{hc/\\lambda k T} - 1} d\\lambda$.\n2. **Wien's Law Limit**:\nFor small wavelengths ($hc/\\lambda k T \\gg 1$), the exponential term dominates: $u(\\lambda) \\approx \\frac{8\\pi hc}{\\lambda^5} e^{-hc/\\lambda k T}$.\n3. **Rayleigh-Jeans Limit**:\nFor long wavelengths ($hc/\\lambda k T \\ll 1$), $e^x - 1 \\approx x$: $u(\\lambda) \\approx \\frac{8\\pi k T}{\\lambda^4}$."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Photosynthesis (ii) For killing bacteria (iii) For killing microbes in a food material",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Why are some isotopes radioactive and others not? Can you predict which one will be radioactive?",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "List the cellular sensitivity of radiation in terms of most sensitive, less sensitive, and least sensitive.",
+        "answerKey": "1. **Planck's Law**:\nEnergy density $u(\\lambda) d\\lambda = \\frac{8\\pi hc}{\\lambda^5} \\frac{1}{e^{hc/\\lambda k T} - 1} d\\lambda$.\n2. **Wien's Law Limit**:\nFor small wavelengths ($hc/\\lambda k T \\gg 1$), the exponential term dominates: $u(\\lambda) \\approx \\frac{8\\pi hc}{\\lambda^5} e^{-hc/\\lambda k T}$.\n3. **Rayleigh-Jeans Limit**:\nFor long wavelengths ($hc/\\lambda k T \\ll 1$), $e^x - 1 \\approx x$: $u(\\lambda) \\approx \\frac{8\\pi k T}{\\lambda^4}$."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Explain some of the important applications of elasticity in biology.",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "Define and give at least two examples of a perfectly elastic and a perfectly plastic body.",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "Explain why liquid drops are more nearly spherical as their radius decreases.",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "What do you know about Laplace\u2019s Law?",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Why is it better to use hot soapy water to wash clothes?",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "Define the coefficient of viscosity and explain, with necessary theory, a method to find the viscosity of a liquid.[5]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "Explain the phenomenon of photosynthesis briefly in terms of a simple chemical reaction. [4]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "What are the various harmful effects of deep UV radiation on human beings? Describe any two of them in brief.[4]",
+        "answerKey": "1. **Planck's Law**:\nEnergy density $u(\\lambda) d\\lambda = \\frac{8\\pi hc}{\\lambda^5} \\frac{1}{e^{hc/\\lambda k T} - 1} d\\lambda$.\n2. **Wien's Law Limit**:\nFor small wavelengths ($hc/\\lambda k T \\gg 1$), the exponential term dominates: $u(\\lambda) \\approx \\frac{8\\pi hc}{\\lambda^5} e^{-hc/\\lambda k T}$.\n3. **Rayleigh-Jeans Limit**:\nFor long wavelengths ($hc/\\lambda k T \\ll 1$), $e^x - 1 \\approx x$: $u(\\lambda) \\approx \\frac{8\\pi k T}{\\lambda^4}$."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Explain the biological effects of radiations. How does ionizing radiation damage DNA? [5] Page 1 of 2 --- Page 2 --- Banaras Hindu University BP-Anc-I: Ancillary Physics-I",
+        "answerKey": "1. **Planck's Law**:\nEnergy density $u(\\lambda) d\\lambda = \\frac{8\\pi hc}{\\lambda^5} \\frac{1}{e^{hc/\\lambda k T} - 1} d\\lambda$.\n2. **Wien's Law Limit**:\nFor small wavelengths ($hc/\\lambda k T \\gg 1$), the exponential term dominates: $u(\\lambda) \\approx \\frac{8\\pi hc}{\\lambda^5} e^{-hc/\\lambda k T}$.\n3. **Rayleigh-Jeans Limit**:\nFor long wavelengths ($hc/\\lambda k T \\ll 1$), $e^x - 1 \\approx x$: $u(\\lambda) \\approx \\frac{8\\pi k T}{\\lambda^4}$."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "What are the consequences of high doses of radiation over short periods of time? Explain in brief. [4]",
+        "answerKey": "1. **Planck's Law**:\nEnergy density $u(\\lambda) d\\lambda = \\frac{8\\pi hc}{\\lambda^5} \\frac{1}{e^{hc/\\lambda k T} - 1} d\\lambda$.\n2. **Wien's Law Limit**:\nFor small wavelengths ($hc/\\lambda k T \\gg 1$), the exponential term dominates: $u(\\lambda) \\approx \\frac{8\\pi hc}{\\lambda^5} e^{-hc/\\lambda k T}$.\n3. **Rayleigh-Jeans Limit**:\nFor long wavelengths ($hc/\\lambda k T \\ll 1$), $e^x - 1 \\approx x$: $u(\\lambda) \\approx \\frac{8\\pi k T}{\\lambda^4}$."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Explain why raindrops falling under gravity do not acquire a very high velocity.[4]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "What do you understand by surface tension and angle of contact? State the condition under which the angle of contact is acute and obtuse. What will be the numerical value of the angle of contact when the liquid is said to wet the solid? What are the factors on which the angle of contact depends upon? What are the typical values of the angle of contact for a pair of:",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "clean glass and pure water, (ii) ordinary water and glass, (iii) ordinary water and greased glass surface, (iv) ordinary water and chromium? [8]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Explain the inflation mechanism of the alveoli and the role of surfactant in human respiration. We know that it is much more difficult to blow up a balloon for the first time. Why is that?[5]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "What do you understand by excess of pressure inside a liquid drop? Describe in detail Jaeger\u2019s experimental method for the determination of surface tension. Explain the procedure, draw a neat sketch of the apparatus, and write precautions.[8]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Explain the behavior of a wire under increasing load with the help of a neat sketch and define yield-point, plastic-flow, and breaking-point.[5]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "A thin, circular wire of diameter40mm and total mass of0.70g is gently pulled vertically from a water surface by a sensitive spring (k = 0.70N/m). When the spring is stretched 34mm from its equilibrium position in air, the ring is on the verge of being pulled free from the water surface. Find the coefficient of surface tension of water. Neglect the mass of water lifted.[8]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "Show the non-linear elasticity behavior of tissue and explain it with the help of a stress-strain diagram.[8] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 2 of 2",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "Question 1.Answer anyfourof the following:[4\u00d73.5 = 14]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "Find the probability of an oxygen molecule having its velocity in the range99.5to",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "5m/s at200 K. Given: molecular weight of oxygen = 32 and Avogadro number NA = 6.023\u00d710 23/mol.",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Find the change in entropy of the universe in converting1g of ice at0\u25e6C into steam at 100\u25e6C. (Latent heat of fusion of ice =80cal/g, latent heat of vaporization =540cal/g).",
+        "answerKey": "1. **Entropy Definition**:\nThermodynamic state function $dS = \\frac{dQ_{\\text{rev}}}{T}$ representing microscopic disorder.\n2. **Entropy Increase Principle**:\nFor any isolated system in an irreversible process, $dS > 0$. For reversible processes, $dS = 0$. Thus, $dS_{\\text{universe}} \\ge 0$.\n3. **Ideal Gas Entropy**:\n$S(T, V) = C_v \\ln T + R \\ln V + S_0$."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Show that Gibbs function remains constant for an isobaric process carried out in such a way that the final temperature remains equal to the initial temperature at the conclusion of the thermodynamic process.",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Discuss whether blackbody radiation inside an enclosure remains black even after adiabatic expansion.",
+        "answerKey": "1. **Planck's Law**:\nEnergy density $u(\\lambda) d\\lambda = \\frac{8\\pi hc}{\\lambda^5} \\frac{1}{e^{hc/\\lambda k T} - 1} d\\lambda$.\n2. **Wien's Law Limit**:\nFor small wavelengths ($hc/\\lambda k T \\gg 1$), the exponential term dominates: $u(\\lambda) \\approx \\frac{8\\pi hc}{\\lambda^5} e^{-hc/\\lambda k T}$.\n3. **Rayleigh-Jeans Limit**:\nFor long wavelengths ($hc/\\lambda k T \\ll 1$), $e^x - 1 \\approx x$: $u(\\lambda) \\approx \\frac{8\\pi k T}{\\lambda^4}$."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "The efficiency of a Carnot engine working in a reversible cycle between a source and a sink (temperature of sink =127\u25e6C) is1/6. If the temperatures of source and sink are reduced by100 \u25e6C, find the efficiency of the Carnot engine.",
+        "answerKey": "1. **Carnot Cycle Processes**:\nFour reversible processes: (1) Isothermal expansion at $T_h$, (2) Adiabatic expansion from $T_h$ to $T_c$, (3) Isothermal compression at $T_c$, (4) Adiabatic compression back to $T_h$.\n2. **Efficiency**:\nWork done $W = Q_h - Q_c$. Efficiency $\\eta = \\frac{W}{Q_h} = 1 - \\frac{Q_c}{Q_h}$. From adiabatic relations, $Q_h/Q_c = T_h/T_c$, giving $\\eta = 1 - T_c/T_h$."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "How are absolute zero and unit degree of temperature defined on the thermodynamic absolute scale of temperature?[5]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Discuss how Andrews\u2019 experiments lead to the existence of critical constants for carbon dioxide gas undergoing liquefaction.[9]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Show that the correction for volume due to the finite size of molecules for a van der Waals gas is four times the actual volume of all the molecules.[5]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "Show that there is an increase in the entropy of the universe for an irreversible process. [4]",
+        "answerKey": "1. **Entropy Definition**:\nThermodynamic state function $dS = \\frac{dQ_{\\text{rev}}}{T}$ representing microscopic disorder.\n2. **Entropy Increase Principle**:\nFor any isolated system in an irreversible process, $dS > 0$. For reversible processes, $dS = 0$. Thus, $dS_{\\text{universe}} \\ge 0$.\n3. **Ideal Gas Entropy**:\n$S(T, V) = C_v \\ln T + R \\ln V + S_0$."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "What are the Clausius and Kelvin-Planck statements of the second law of thermodynamics? Show that the Kelvin-Planck and Clausius statements of the second law of thermodynamics are equivalent.[5] Page 1 of 3 --- Page 2 --- Banaras Hindu University BPT-201: Thermal Physics",
+        "answerKey": "1. **Planck's Law**:\nEnergy density $u(\\lambda) d\\lambda = \\frac{8\\pi hc}{\\lambda^5} \\frac{1}{e^{hc/\\lambda k T} - 1} d\\lambda$.\n2. **Wien's Law Limit**:\nFor small wavelengths ($hc/\\lambda k T \\gg 1$), the exponential term dominates: $u(\\lambda) \\approx \\frac{8\\pi hc}{\\lambda^5} e^{-hc/\\lambda k T}$.\n3. **Rayleigh-Jeans Limit**:\nFor long wavelengths ($hc/\\lambda k T \\ll 1$), $e^x - 1 \\approx x$: $u(\\lambda) \\approx \\frac{8\\pi k T}{\\lambda^4}$."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Show that for an ideal gas, internal energy is a function of temperature only and is independent of volume, while for a van der Waals gas it depends on volume also.[5] OR",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "Find an expression for the fall in temperature resulting from the adiabatic stretching of a liquid film, if there is a small increase in the surface area of the film and the volume of the film remains nearly constant.[4]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Show that: Cp \u2212C v =T (\u2202p \u2202T ) v (\u2202V \u2202T ) p and hence deduce that for a van der Waals gas: Cp \u2212C v \u2248R [ 1 + 2a VRT ] where the symbols have their usual meanings.[6]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "Derive the Clausius-Clapeyron equation using the appropriate Maxwell\u2019s thermodynamic relation. With the help of this relation, discuss the variation of boiling and melting points with pressure.[4]",
+        "answerKey": "1. **Thermodynamic Potentials**:\n$dU = TdS - PdV$, $dH = TdS + VdP$, $dF = -SdT - PdV$, $dG = -SdT + VdP$.\n2. **Derivations using exact differentials**:\nFrom $dF$: $(\\partial S/\\partial V)_T = (\\partial P/\\partial T)_V$.\nFrom $dG$: $(\\partial S/\\partial P)_T = -(\\partial V/\\partial T)_P$.\nFrom $dU$: $(\\partial T/\\partial V)_S = -(\\partial P/\\partial S)_V$.\nFrom $dH$: $(\\partial T/\\partial P)_S = (\\partial V/\\partial S)_P$."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "Explain the phenomenon of adiabatic demagnetization of a paramagnetic salt. How will you employ this phenomenon to produce very low temperatures? Is absolute zero attainable?[8]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Show that the Joule-Thomson expansion is an isenthalpic process and derive the expres- sion for the Joule-Thomson coefficient for a van der Waals gas: \u00b5JT = (\u2202T \u2202p ) H = 1 Cp [ 2a RT \u2212b ] where the symbols have their usual meanings.[6] OR",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Show that the perfect gas scale and the absolute thermodynamic scale are identical.[6]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Derive the first and secondTdS equations using Maxwell\u2019s thermodynamic relations. [4]",
+        "answerKey": "1. **Thermodynamic Potentials**:\n$dU = TdS - PdV$, $dH = TdS + VdP$, $dF = -SdT - PdV$, $dG = -SdT + VdP$.\n2. **Derivations using exact differentials**:\nFrom $dF$: $(\\partial S/\\partial V)_T = (\\partial P/\\partial T)_V$.\nFrom $dG$: $(\\partial S/\\partial P)_T = -(\\partial V/\\partial T)_P$.\nFrom $dU$: $(\\partial T/\\partial V)_S = -(\\partial P/\\partial S)_V$.\nFrom $dH$: $(\\partial T/\\partial P)_S = (\\partial V/\\partial S)_P$."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "What is superfluidity with reference to liquid Helium? Discuss the phenomenon of second sound and the velocity of second sound.[4]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Question 6. Page 2 of 3 --- Page 3 --- Banaras Hindu University BPT-201: Thermal Physics",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Obtain the Rayleigh-Jeans formula for the distribution of intensity in the emission spectrum of a black body. Comment on its success and failure.[10]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Define Boyle temperature. What is the relation between Boyle temperature, critical temperature, and temperature of inversion?[4] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 3 of 3",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 48,
+        "unit": "II",
+        "question": "Describe the Carnot cycle and derive the expression for the efficiency of a Carnot engine.",
+        "answerKey": "1. **Carnot Cycle Processes**:\nFour reversible processes: (1) Isothermal expansion at $T_h$, (2) Adiabatic expansion from $T_h$ to $T_c$, (3) Isothermal compression at $T_c$, (4) Adiabatic compression back to $T_h$.\n2. **Efficiency**:\nWork done $W = Q_h - Q_c$. Efficiency $\\eta = \\frac{W}{Q_h} = 1 - \\frac{Q_c}{Q_h}$. From adiabatic relations, $Q_h/Q_c = T_h/T_c$, giving $\\eta = 1 - T_c/T_h$."
+      },
+      {
+        "id": 49,
+        "unit": "II",
+        "question": "State Carnot's theorem and show that no engine working between two given temperatures can be more efficient than a Carnot engine.",
+        "answerKey": "1. **Carnot Cycle Processes**:\nFour reversible processes: (1) Isothermal expansion at $T_h$, (2) Adiabatic expansion from $T_h$ to $T_c$, (3) Isothermal compression at $T_c$, (4) Adiabatic compression back to $T_h$.\n2. **Efficiency**:\nWork done $W = Q_h - Q_c$. Efficiency $\\eta = \\frac{W}{Q_h} = 1 - \\frac{Q_c}{Q_h}$. From adiabatic relations, $Q_h/Q_c = T_h/T_c$, giving $\\eta = 1 - T_c/T_h$."
+      },
+      {
+        "id": 50,
+        "unit": "III",
+        "question": "Define entropy. Show that the entropy of the universe increases in all irreversible processes.",
+        "answerKey": "1. **Entropy Definition**:\nThermodynamic state function $dS = \\frac{dQ_{\\text{rev}}}{T}$ representing microscopic disorder.\n2. **Entropy Increase Principle**:\nFor any isolated system in an irreversible process, $dS > 0$. For reversible processes, $dS = 0$. Thus, $dS_{\\text{universe}} \\ge 0$.\n3. **Ideal Gas Entropy**:\n$S(T, V) = C_v \\ln T + R \\ln V + S_0$."
+      }
+    ]
   },
   "phymj22": {
     "id": "phymj22",
@@ -8035,7 +8947,311 @@ export const EXAMS = {
     "id": "phymn21",
     "title": "Thermal Physics",
     "module": "PHYMN21",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Question 1.Answer anysixof the following:[6\u00d73 = 18]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "The electromagnetic radiations in different wavelength/frequency ranges are used for different biological applications and in different biological processes. In each of the following three processes, which region of electromagnetic radiation is used?",
+        "answerKey": "1. **Planck's Law**:\nEnergy density $u(\\lambda) d\\lambda = \\frac{8\\pi hc}{\\lambda^5} \\frac{1}{e^{hc/\\lambda k T} - 1} d\\lambda$.\n2. **Wien's Law Limit**:\nFor small wavelengths ($hc/\\lambda k T \\gg 1$), the exponential term dominates: $u(\\lambda) \\approx \\frac{8\\pi hc}{\\lambda^5} e^{-hc/\\lambda k T}$.\n3. **Rayleigh-Jeans Limit**:\nFor long wavelengths ($hc/\\lambda k T \\ll 1$), $e^x - 1 \\approx x$: $u(\\lambda) \\approx \\frac{8\\pi k T}{\\lambda^4}$."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Photosynthesis (ii) For killing bacteria (iii) For killing microbes in a food material",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Why are some isotopes radioactive and others not? Can you predict which one will be radioactive?",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "List the cellular sensitivity of radiation in terms of most sensitive, less sensitive, and least sensitive.",
+        "answerKey": "1. **Planck's Law**:\nEnergy density $u(\\lambda) d\\lambda = \\frac{8\\pi hc}{\\lambda^5} \\frac{1}{e^{hc/\\lambda k T} - 1} d\\lambda$.\n2. **Wien's Law Limit**:\nFor small wavelengths ($hc/\\lambda k T \\gg 1$), the exponential term dominates: $u(\\lambda) \\approx \\frac{8\\pi hc}{\\lambda^5} e^{-hc/\\lambda k T}$.\n3. **Rayleigh-Jeans Limit**:\nFor long wavelengths ($hc/\\lambda k T \\ll 1$), $e^x - 1 \\approx x$: $u(\\lambda) \\approx \\frac{8\\pi k T}{\\lambda^4}$."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Explain some of the important applications of elasticity in biology.",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "Define and give at least two examples of a perfectly elastic and a perfectly plastic body.",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "Explain why liquid drops are more nearly spherical as their radius decreases.",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "What do you know about Laplace\u2019s Law?",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Why is it better to use hot soapy water to wash clothes?",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "Define the coefficient of viscosity and explain, with necessary theory, a method to find the viscosity of a liquid.[5]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "Explain the phenomenon of photosynthesis briefly in terms of a simple chemical reaction. [4]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "What are the various harmful effects of deep UV radiation on human beings? Describe any two of them in brief.[4]",
+        "answerKey": "1. **Planck's Law**:\nEnergy density $u(\\lambda) d\\lambda = \\frac{8\\pi hc}{\\lambda^5} \\frac{1}{e^{hc/\\lambda k T} - 1} d\\lambda$.\n2. **Wien's Law Limit**:\nFor small wavelengths ($hc/\\lambda k T \\gg 1$), the exponential term dominates: $u(\\lambda) \\approx \\frac{8\\pi hc}{\\lambda^5} e^{-hc/\\lambda k T}$.\n3. **Rayleigh-Jeans Limit**:\nFor long wavelengths ($hc/\\lambda k T \\ll 1$), $e^x - 1 \\approx x$: $u(\\lambda) \\approx \\frac{8\\pi k T}{\\lambda^4}$."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Explain the biological effects of radiations. How does ionizing radiation damage DNA? [5] Page 1 of 2 --- Page 2 --- Banaras Hindu University BP-Anc-I: Ancillary Physics-I",
+        "answerKey": "1. **Planck's Law**:\nEnergy density $u(\\lambda) d\\lambda = \\frac{8\\pi hc}{\\lambda^5} \\frac{1}{e^{hc/\\lambda k T} - 1} d\\lambda$.\n2. **Wien's Law Limit**:\nFor small wavelengths ($hc/\\lambda k T \\gg 1$), the exponential term dominates: $u(\\lambda) \\approx \\frac{8\\pi hc}{\\lambda^5} e^{-hc/\\lambda k T}$.\n3. **Rayleigh-Jeans Limit**:\nFor long wavelengths ($hc/\\lambda k T \\ll 1$), $e^x - 1 \\approx x$: $u(\\lambda) \\approx \\frac{8\\pi k T}{\\lambda^4}$."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "What are the consequences of high doses of radiation over short periods of time? Explain in brief. [4]",
+        "answerKey": "1. **Planck's Law**:\nEnergy density $u(\\lambda) d\\lambda = \\frac{8\\pi hc}{\\lambda^5} \\frac{1}{e^{hc/\\lambda k T} - 1} d\\lambda$.\n2. **Wien's Law Limit**:\nFor small wavelengths ($hc/\\lambda k T \\gg 1$), the exponential term dominates: $u(\\lambda) \\approx \\frac{8\\pi hc}{\\lambda^5} e^{-hc/\\lambda k T}$.\n3. **Rayleigh-Jeans Limit**:\nFor long wavelengths ($hc/\\lambda k T \\ll 1$), $e^x - 1 \\approx x$: $u(\\lambda) \\approx \\frac{8\\pi k T}{\\lambda^4}$."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Explain why raindrops falling under gravity do not acquire a very high velocity.[4]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "What do you understand by surface tension and angle of contact? State the condition under which the angle of contact is acute and obtuse. What will be the numerical value of the angle of contact when the liquid is said to wet the solid? What are the factors on which the angle of contact depends upon? What are the typical values of the angle of contact for a pair of:",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "clean glass and pure water, (ii) ordinary water and glass, (iii) ordinary water and greased glass surface, (iv) ordinary water and chromium? [8]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Explain the inflation mechanism of the alveoli and the role of surfactant in human respiration. We know that it is much more difficult to blow up a balloon for the first time. Why is that?[5]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "What do you understand by excess of pressure inside a liquid drop? Describe in detail Jaeger\u2019s experimental method for the determination of surface tension. Explain the procedure, draw a neat sketch of the apparatus, and write precautions.[8]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Explain the behavior of a wire under increasing load with the help of a neat sketch and define yield-point, plastic-flow, and breaking-point.[5]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "A thin, circular wire of diameter40mm and total mass of0.70g is gently pulled vertically from a water surface by a sensitive spring (k = 0.70N/m). When the spring is stretched 34mm from its equilibrium position in air, the ring is on the verge of being pulled free from the water surface. Find the coefficient of surface tension of water. Neglect the mass of water lifted.[8]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "Show the non-linear elasticity behavior of tissue and explain it with the help of a stress-strain diagram.[8] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 2 of 2",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "Question 1.Answer anyfourof the following:[4\u00d73.5 = 14]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "Find the probability of an oxygen molecule having its velocity in the range99.5to",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "5m/s at200 K. Given: molecular weight of oxygen = 32 and Avogadro number NA = 6.023\u00d710 23/mol.",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Find the change in entropy of the universe in converting1g of ice at0\u25e6C into steam at 100\u25e6C. (Latent heat of fusion of ice =80cal/g, latent heat of vaporization =540cal/g).",
+        "answerKey": "1. **Entropy Definition**:\nThermodynamic state function $dS = \\frac{dQ_{\\text{rev}}}{T}$ representing microscopic disorder.\n2. **Entropy Increase Principle**:\nFor any isolated system in an irreversible process, $dS > 0$. For reversible processes, $dS = 0$. Thus, $dS_{\\text{universe}} \\ge 0$.\n3. **Ideal Gas Entropy**:\n$S(T, V) = C_v \\ln T + R \\ln V + S_0$."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Show that Gibbs function remains constant for an isobaric process carried out in such a way that the final temperature remains equal to the initial temperature at the conclusion of the thermodynamic process.",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Discuss whether blackbody radiation inside an enclosure remains black even after adiabatic expansion.",
+        "answerKey": "1. **Planck's Law**:\nEnergy density $u(\\lambda) d\\lambda = \\frac{8\\pi hc}{\\lambda^5} \\frac{1}{e^{hc/\\lambda k T} - 1} d\\lambda$.\n2. **Wien's Law Limit**:\nFor small wavelengths ($hc/\\lambda k T \\gg 1$), the exponential term dominates: $u(\\lambda) \\approx \\frac{8\\pi hc}{\\lambda^5} e^{-hc/\\lambda k T}$.\n3. **Rayleigh-Jeans Limit**:\nFor long wavelengths ($hc/\\lambda k T \\ll 1$), $e^x - 1 \\approx x$: $u(\\lambda) \\approx \\frac{8\\pi k T}{\\lambda^4}$."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "The efficiency of a Carnot engine working in a reversible cycle between a source and a sink (temperature of sink =127\u25e6C) is1/6. If the temperatures of source and sink are reduced by100 \u25e6C, find the efficiency of the Carnot engine.",
+        "answerKey": "1. **Carnot Cycle Processes**:\nFour reversible processes: (1) Isothermal expansion at $T_h$, (2) Adiabatic expansion from $T_h$ to $T_c$, (3) Isothermal compression at $T_c$, (4) Adiabatic compression back to $T_h$.\n2. **Efficiency**:\nWork done $W = Q_h - Q_c$. Efficiency $\\eta = \\frac{W}{Q_h} = 1 - \\frac{Q_c}{Q_h}$. From adiabatic relations, $Q_h/Q_c = T_h/T_c$, giving $\\eta = 1 - T_c/T_h$."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "How are absolute zero and unit degree of temperature defined on the thermodynamic absolute scale of temperature?[5]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Discuss how Andrews\u2019 experiments lead to the existence of critical constants for carbon dioxide gas undergoing liquefaction.[9]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Show that the correction for volume due to the finite size of molecules for a van der Waals gas is four times the actual volume of all the molecules.[5]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "Show that there is an increase in the entropy of the universe for an irreversible process. [4]",
+        "answerKey": "1. **Entropy Definition**:\nThermodynamic state function $dS = \\frac{dQ_{\\text{rev}}}{T}$ representing microscopic disorder.\n2. **Entropy Increase Principle**:\nFor any isolated system in an irreversible process, $dS > 0$. For reversible processes, $dS = 0$. Thus, $dS_{\\text{universe}} \\ge 0$.\n3. **Ideal Gas Entropy**:\n$S(T, V) = C_v \\ln T + R \\ln V + S_0$."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "What are the Clausius and Kelvin-Planck statements of the second law of thermodynamics? Show that the Kelvin-Planck and Clausius statements of the second law of thermodynamics are equivalent.[5] Page 1 of 3 --- Page 2 --- Banaras Hindu University BPT-201: Thermal Physics",
+        "answerKey": "1. **Planck's Law**:\nEnergy density $u(\\lambda) d\\lambda = \\frac{8\\pi hc}{\\lambda^5} \\frac{1}{e^{hc/\\lambda k T} - 1} d\\lambda$.\n2. **Wien's Law Limit**:\nFor small wavelengths ($hc/\\lambda k T \\gg 1$), the exponential term dominates: $u(\\lambda) \\approx \\frac{8\\pi hc}{\\lambda^5} e^{-hc/\\lambda k T}$.\n3. **Rayleigh-Jeans Limit**:\nFor long wavelengths ($hc/\\lambda k T \\ll 1$), $e^x - 1 \\approx x$: $u(\\lambda) \\approx \\frac{8\\pi k T}{\\lambda^4}$."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Show that for an ideal gas, internal energy is a function of temperature only and is independent of volume, while for a van der Waals gas it depends on volume also.[5] OR",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "Find an expression for the fall in temperature resulting from the adiabatic stretching of a liquid film, if there is a small increase in the surface area of the film and the volume of the film remains nearly constant.[4]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Show that: Cp \u2212C v =T (\u2202p \u2202T ) v (\u2202V \u2202T ) p and hence deduce that for a van der Waals gas: Cp \u2212C v \u2248R [ 1 + 2a VRT ] where the symbols have their usual meanings.[6]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "Derive the Clausius-Clapeyron equation using the appropriate Maxwell\u2019s thermodynamic relation. With the help of this relation, discuss the variation of boiling and melting points with pressure.[4]",
+        "answerKey": "1. **Thermodynamic Potentials**:\n$dU = TdS - PdV$, $dH = TdS + VdP$, $dF = -SdT - PdV$, $dG = -SdT + VdP$.\n2. **Derivations using exact differentials**:\nFrom $dF$: $(\\partial S/\\partial V)_T = (\\partial P/\\partial T)_V$.\nFrom $dG$: $(\\partial S/\\partial P)_T = -(\\partial V/\\partial T)_P$.\nFrom $dU$: $(\\partial T/\\partial V)_S = -(\\partial P/\\partial S)_V$.\nFrom $dH$: $(\\partial T/\\partial P)_S = (\\partial V/\\partial S)_P$."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "Explain the phenomenon of adiabatic demagnetization of a paramagnetic salt. How will you employ this phenomenon to produce very low temperatures? Is absolute zero attainable?[8]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Show that the Joule-Thomson expansion is an isenthalpic process and derive the expres- sion for the Joule-Thomson coefficient for a van der Waals gas: \u00b5JT = (\u2202T \u2202p ) H = 1 Cp [ 2a RT \u2212b ] where the symbols have their usual meanings.[6] OR",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Show that the perfect gas scale and the absolute thermodynamic scale are identical.[6]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Derive the first and secondTdS equations using Maxwell\u2019s thermodynamic relations. [4]",
+        "answerKey": "1. **Thermodynamic Potentials**:\n$dU = TdS - PdV$, $dH = TdS + VdP$, $dF = -SdT - PdV$, $dG = -SdT + VdP$.\n2. **Derivations using exact differentials**:\nFrom $dF$: $(\\partial S/\\partial V)_T = (\\partial P/\\partial T)_V$.\nFrom $dG$: $(\\partial S/\\partial P)_T = -(\\partial V/\\partial T)_P$.\nFrom $dU$: $(\\partial T/\\partial V)_S = -(\\partial P/\\partial S)_V$.\nFrom $dH$: $(\\partial T/\\partial P)_S = (\\partial V/\\partial S)_P$."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "What is superfluidity with reference to liquid Helium? Discuss the phenomenon of second sound and the velocity of second sound.[4]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Question 6. Page 2 of 3 --- Page 3 --- Banaras Hindu University BPT-201: Thermal Physics",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Obtain the Rayleigh-Jeans formula for the distribution of intensity in the emission spectrum of a black body. Comment on its success and failure.[10]",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Define Boyle temperature. What is the relation between Boyle temperature, critical temperature, and temperature of inversion?[4] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 3 of 3",
+        "answerKey": "1. **Thermodynamic Analysis**:\nApply the First Law $dQ = dU + dW$ and Second Law $dS \\ge dQ/T$.\n2. **Microstate/Macrostate Equations**:\nUse partition functions or ideal gas laws to compute thermodynamic quantities like pressure, volume, and temperature.\n3. **Physical Significance**:\nExplain how the microscopic states map to macroscopic variables using statistical definitions."
+      },
+      {
+        "id": 48,
+        "unit": "II",
+        "question": "Describe the Carnot cycle and derive the expression for the efficiency of a Carnot engine.",
+        "answerKey": "1. **Carnot Cycle Processes**:\nFour reversible processes: (1) Isothermal expansion at $T_h$, (2) Adiabatic expansion from $T_h$ to $T_c$, (3) Isothermal compression at $T_c$, (4) Adiabatic compression back to $T_h$.\n2. **Efficiency**:\nWork done $W = Q_h - Q_c$. Efficiency $\\eta = \\frac{W}{Q_h} = 1 - \\frac{Q_c}{Q_h}$. From adiabatic relations, $Q_h/Q_c = T_h/T_c$, giving $\\eta = 1 - T_c/T_h$."
+      },
+      {
+        "id": 49,
+        "unit": "II",
+        "question": "State Carnot's theorem and show that no engine working between two given temperatures can be more efficient than a Carnot engine.",
+        "answerKey": "1. **Carnot Cycle Processes**:\nFour reversible processes: (1) Isothermal expansion at $T_h$, (2) Adiabatic expansion from $T_h$ to $T_c$, (3) Isothermal compression at $T_c$, (4) Adiabatic compression back to $T_h$.\n2. **Efficiency**:\nWork done $W = Q_h - Q_c$. Efficiency $\\eta = \\frac{W}{Q_h} = 1 - \\frac{Q_c}{Q_h}$. From adiabatic relations, $Q_h/Q_c = T_h/T_c$, giving $\\eta = 1 - T_c/T_h$."
+      },
+      {
+        "id": 50,
+        "unit": "III",
+        "question": "Define entropy. Show that the entropy of the universe increases in all irreversible processes.",
+        "answerKey": "1. **Entropy Definition**:\nThermodynamic state function $dS = \\frac{dQ_{\\text{rev}}}{T}$ representing microscopic disorder.\n2. **Entropy Increase Principle**:\nFor any isolated system in an irreversible process, $dS > 0$. For reversible processes, $dS = 0$. Thus, $dS_{\\text{universe}} \\ge 0$.\n3. **Ideal Gas Entropy**:\n$S(T, V) = C_v \\ln T + R \\ln V + S_0$."
+      }
+    ]
   },
   "phymn22": {
     "id": "phymn22",
@@ -8059,13 +9275,621 @@ export const EXAMS = {
     "id": "phymj31",
     "title": "Wave & Wave Optics",
     "module": "PHYMJ31",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Question 1.Answer anyfiveof the following:[5\u00d74 = 20]",
+        "answerKey": "1. **Wave Equations & Superposition**:\nWrite waves as $y = A\\sin(kt - \\omega x)$. Add components algebraically or vectorially.\n2. **Phase / Path Difference**:\nCalculate phase difference: $\\delta = \\frac{2\\pi}{\\lambda} \\Delta x$.\n3. **Intensity Calculation**:\nResulting intensity $I = I_1 + I_2 + 2\\sqrt{I_1 I_2}\\cos\\delta$. Max intensity $I_{\\text{max}} = (A_1 + A_2)^2$, Min intensity $I_{\\text{min}} = (A_1 - A_2)^2$."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "An interference pattern from two point sources (\u03bb= 5000 \u00c5) separated by a distance d = 0.05mm is produced on a screenPP\u2032at a distanceD = 20 cm from sourceS1. The plane of the screenPP\u2032is perpendicular to the line joiningS1 and S2. What will be the shape of the fringes? What will be the order and the nature of the central fringe?",
+        "answerKey": "1. **Interference Conditions**:\nCoherent sources, constant phase difference. Maxima: path difference $\\Delta = n\\lambda$; Minima: $\\Delta = (2n+1)\\lambda/2$.\n2. **Fringe Width**:\n$\\beta = \\frac{\\lambda D}{d}$, where $D$ is source-to-screen distance, $d$ is source separation. Shape of fringes is hyperbolic, approximating straight lines near the center."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "A left circularly polarized beam (\u03bb= 5893\u00c5) is incident normally on a calcite crystal (no = 1.65836and ne = 1.48641) of thickness0.005141mm with its optic axis parallel to the surface. What will be the state of polarization of the emergent beam?",
+        "answerKey": "1. **Polarization Concept**:\nRestriction of transverse waves to a single plane. Unpolarized light becomes polarized via reflection, scattering, or birefringence.\n2. **Wave Plates**:\nIntroduce phase shift between ordinary and extraordinary waves. Quarter-wave plate: path diff $\\lambda/4$, thickness $t = \\frac{\\lambda}{4|n_e - n_o|}$. Half-wave plate: path diff $\\lambda/2$, thickness $t = \\frac{\\lambda}{2|n_e - n_o|}$."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Discuss the state of polarization when thex- andy-components of the electric field are given by the following equations: Ex =E 0 sin(kz\u2212\u03c9t+\u03c0/4), E y =E 0 sin(kz\u2212\u03c9t\u2212\u03c0/4)",
+        "answerKey": "1. **Polarization Concept**:\nRestriction of transverse waves to a single plane. Unpolarized light becomes polarized via reflection, scattering, or birefringence.\n2. **Wave Plates**:\nIntroduce phase shift between ordinary and extraordinary waves. Quarter-wave plate: path diff $\\lambda/4$, thickness $t = \\frac{\\lambda}{4|n_e - n_o|}$. Half-wave plate: path diff $\\lambda/2$, thickness $t = \\frac{\\lambda}{2|n_e - n_o|}$."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "In a double-slit diffraction experiment, consider a slit widthb = 5 \u00d7 10\u22122cm and a separation between identical points of the two slitsd = 0.1cm, illuminated by a monochromatic light of wavelength6\u00d7 10\u22125cm. How many interference minima will occur within the central diffraction maximum?",
+        "answerKey": "1. **Interference Conditions**:\nCoherent sources, constant phase difference. Maxima: path difference $\\Delta = n\\lambda$; Minima: $\\Delta = (2n+1)\\lambda/2$.\n2. **Fringe Width**:\n$\\beta = \\frac{\\lambda D}{d}$, where $D$ is source-to-screen distance, $d$ is source separation. Shape of fringes is hyperbolic, approximating straight lines near the center."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "A straight edge is kept midway between a monochromatic source (\u03bb= 5000\u00c5) and a screen. The distance between the source and the screen is50cm. Calculate the distance of the first two maxima and the first two minima from the edge of the geometrical shadow.",
+        "answerKey": "1. **Wave Equations & Superposition**:\nWrite waves as $y = A\\sin(kt - \\omega x)$. Add components algebraically or vectorially.\n2. **Phase / Path Difference**:\nCalculate phase difference: $\\delta = \\frac{2\\pi}{\\lambda} \\Delta x$.\n3. **Intensity Calculation**:\nResulting intensity $I = I_1 + I_2 + 2\\sqrt{I_1 I_2}\\cos\\delta$. Max intensity $I_{\\text{max}} = (A_1 + A_2)^2$, Min intensity $I_{\\text{min}} = (A_1 - A_2)^2$."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "Calculate the minimum number of lines in a grating that will resolve the sodium doublet (\u03bb1 = 5890\u00c5 and\u03bb2 = 5896\u00c5) in the second order.",
+        "answerKey": "1. **Fraunhofer Diffraction**:\nDiffraction when wavefronts are plane. Grating equation: $(e+d)\\sin\\theta = n\\lambda$, where $(e+d)$ is grating element.\n2. **Resolving Power**:\n$R = \\frac{\\lambda}{d\\lambda} = nN$, where $n$ is order of diffraction, $N$ is total number of lines on grating illuminated."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "Using sodium light of wavelength\u03bb= 5893 \u00c5, interference fringes are formed by reflection from a thin air wedge-shaped film. Ten fringes are observed in a distance of1cm when viewed perpendicularly. Calculate the angle of the wedge.",
+        "answerKey": "1. **Interference Conditions**:\nCoherent sources, constant phase difference. Maxima: path difference $\\Delta = n\\lambda$; Minima: $\\Delta = (2n+1)\\lambda/2$.\n2. **Fringe Width**:\n$\\beta = \\frac{\\lambda D}{d}$, where $D$ is source-to-screen distance, $d$ is source separation. Shape of fringes is hyperbolic, approximating straight lines near the center."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "In the figure of Lloyd\u2019s mirror given below,S is a point source emitting waves of frequency 6 \u00d7 1014Hz, AB is the mirror andLOM is the screen. The distancesSP, PA, AB and BO are1 mm,5 cm,5 cm and190 cm respectively. Determine the position of the region where the fringes will appear and the number of fringes in the region.[6] Page 1 of 3 --- Page 2 --- Banaras Hindu University BPT-301: Optics",
+        "answerKey": "1. **Interference Conditions**:\nCoherent sources, constant phase difference. Maxima: path difference $\\Delta = n\\lambda$; Minima: $\\Delta = (2n+1)\\lambda/2$.\n2. **Fringe Width**:\n$\\beta = \\frac{\\lambda D}{d}$, where $D$ is source-to-screen distance, $d$ is source separation. Shape of fringes is hyperbolic, approximating straight lines near the center."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Discuss the working of a Michelson interferometer and show that the highest order fringe appears at the centre. How can the difference between two close wavelengths of a bichromatic source be calculated using a Michelson interferometer?[8]",
+        "answerKey": "1. **Interference Conditions**:\nCoherent sources, constant phase difference. Maxima: path difference $\\Delta = n\\lambda$; Minima: $\\Delta = (2n+1)\\lambda/2$.\n2. **Fringe Width**:\n$\\beta = \\frac{\\lambda D}{d}$, where $D$ is source-to-screen distance, $d$ is source separation. Shape of fringes is hyperbolic, approximating straight lines near the center."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "Discuss the intensity distribution of Fraunhofer diffraction due toN slits. Deduce the expression for the width of the principal maxima. How many minima and secondary maxima are present between two closest principal maxima?[8]",
+        "answerKey": "1. **Interference Conditions**:\nCoherent sources, constant phase difference. Maxima: path difference $\\Delta = n\\lambda$; Minima: $\\Delta = (2n+1)\\lambda/2$.\n2. **Fringe Width**:\n$\\beta = \\frac{\\lambda D}{d}$, where $D$ is source-to-screen distance, $d$ is source separation. Shape of fringes is hyperbolic, approximating straight lines near the center."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "In the Newton\u2019s ring arrangement, if the incident light consists of two wavelengths 4000\u00c5 and4002 \u00c5, calculate the distance from the point of contact at which the rings will disappear. The radius of curvature of the lens surface is400cm.[6] OR",
+        "answerKey": "1. **Wave Equations & Superposition**:\nWrite waves as $y = A\\sin(kt - \\omega x)$. Add components algebraically or vectorially.\n2. **Phase / Path Difference**:\nCalculate phase difference: $\\delta = \\frac{2\\pi}{\\lambda} \\Delta x$.\n3. **Intensity Calculation**:\nResulting intensity $I = I_1 + I_2 + 2\\sqrt{I_1 I_2}\\cos\\delta$. Max intensity $I_{\\text{max}} = (A_1 + A_2)^2$, Min intensity $I_{\\text{min}} = (A_1 - A_2)^2$."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "Derive the expression and discuss the intensity distribution of a Fabry-P\u00e9rot interferom- eter. Discuss how the sharpness of the fringes depends on the reflectivity of the mirrors. Give a brief comment on the resolving power of a Fabry-P\u00e9rot interferometer.[8]",
+        "answerKey": "1. **Interference Conditions**:\nCoherent sources, constant phase difference. Maxima: path difference $\\Delta = n\\lambda$; Minima: $\\Delta = (2n+1)\\lambda/2$.\n2. **Fringe Width**:\n$\\beta = \\frac{\\lambda D}{d}$, where $D$ is source-to-screen distance, $d$ is source separation. Shape of fringes is hyperbolic, approximating straight lines near the center."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Discuss the Rayleigh criterion of resolving power. Find the resolving power of a micro- scope. [6]",
+        "answerKey": "1. **Wave Equations & Superposition**:\nWrite waves as $y = A\\sin(kt - \\omega x)$. Add components algebraically or vectorially.\n2. **Phase / Path Difference**:\nCalculate phase difference: $\\delta = \\frac{2\\pi}{\\lambda} \\Delta x$.\n3. **Intensity Calculation**:\nResulting intensity $I = I_1 + I_2 + 2\\sqrt{I_1 I_2}\\cos\\delta$. Max intensity $I_{\\text{max}} = (A_1 + A_2)^2$, Min intensity $I_{\\text{min}} = (A_1 - A_2)^2$."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Explain the working of a Retardation Plate, a Quarter-Wave Plate (QWP), and a Half-Wave Plate (HWP).[6]",
+        "answerKey": "1. **Polarization Concept**:\nRestriction of transverse waves to a single plane. Unpolarized light becomes polarized via reflection, scattering, or birefringence.\n2. **Wave Plates**:\nIntroduce phase shift between ordinary and extraordinary waves. Quarter-wave plate: path diff $\\lambda/4$, thickness $t = \\frac{\\lambda}{4|n_e - n_o|}$. Half-wave plate: path diff $\\lambda/2$, thickness $t = \\frac{\\lambda}{2|n_e - n_o|}$."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Discuss the construction and working of a Nicol prism.[4]",
+        "answerKey": "1. **Wave Equations & Superposition**:\nWrite waves as $y = A\\sin(kt - \\omega x)$. Add components algebraically or vectorially.\n2. **Phase / Path Difference**:\nCalculate phase difference: $\\delta = \\frac{2\\pi}{\\lambda} \\Delta x$.\n3. **Intensity Calculation**:\nResulting intensity $I = I_1 + I_2 + 2\\sqrt{I_1 I_2}\\cos\\delta$. Max intensity $I_{\\text{max}} = (A_1 + A_2)^2$, Min intensity $I_{\\text{min}} = (A_1 - A_2)^2$."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "What is optical activity? Explain Fresnel\u2019s theory of optical rotation. How is specific rotation experimentally determined using a Laurent half-shade polarimeter?[4] OR",
+        "answerKey": "1. **Wave Equations & Superposition**:\nWrite waves as $y = A\\sin(kt - \\omega x)$. Add components algebraically or vectorially.\n2. **Phase / Path Difference**:\nCalculate phase difference: $\\delta = \\frac{2\\pi}{\\lambda} \\Delta x$.\n3. **Intensity Calculation**:\nResulting intensity $I = I_1 + I_2 + 2\\sqrt{I_1 I_2}\\cos\\delta$. Max intensity $I_{\\text{max}} = (A_1 + A_2)^2$, Min intensity $I_{\\text{min}} = (A_1 - A_2)^2$."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "The plane of polarization of a plane-polarized light is turned through an angle12.6\u25e6 passing through a10%sugar solution of length20 cm. Calculate the specific rotation. [6]",
+        "answerKey": "1. **Polarization Concept**:\nRestriction of transverse waves to a single plane. Unpolarized light becomes polarized via reflection, scattering, or birefringence.\n2. **Wave Plates**:\nIntroduce phase shift between ordinary and extraordinary waves. Quarter-wave plate: path diff $\\lambda/4$, thickness $t = \\frac{\\lambda}{4|n_e - n_o|}$. Half-wave plate: path diff $\\lambda/2$, thickness $t = \\frac{\\lambda}{2|n_e - n_o|}$."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "What are Einstein coefficients? Derive the relation between them.[8]",
+        "answerKey": "1. **Wave Equations & Superposition**:\nWrite waves as $y = A\\sin(kt - \\omega x)$. Add components algebraically or vectorially.\n2. **Phase / Path Difference**:\nCalculate phase difference: $\\delta = \\frac{2\\pi}{\\lambda} \\Delta x$.\n3. **Intensity Calculation**:\nResulting intensity $I = I_1 + I_2 + 2\\sqrt{I_1 I_2}\\cos\\delta$. Max intensity $I_{\\text{max}} = (A_1 + A_2)^2$, Min intensity $I_{\\text{min}} = (A_1 - A_2)^2$."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Discuss the intensity distribution due to a single-slit diffraction and find the width of the central maximum.[14] Page 2 of 3 --- Page 3 --- Banaras Hindu University BPT-301: Optics Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 3 of 3",
+        "answerKey": "1. **Interference Conditions**:\nCoherent sources, constant phase difference. Maxima: path difference $\\Delta = n\\lambda$; Minima: $\\Delta = (2n+1)\\lambda/2$.\n2. **Fringe Width**:\n$\\beta = \\frac{\\lambda D}{d}$, where $D$ is source-to-screen distance, $d$ is source separation. Shape of fringes is hyperbolic, approximating straight lines near the center."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "In a Young\u2019s double-slit experiment, interference fringes are formed using sodium light comprising two wavelengths5890\u00c5 and5896 \u00c5. Obtain the regions on the screen where the fringe pattern will disappear. Assumed= 0.5mm andD= 100cm.",
+        "answerKey": "1. **Interference Conditions**:\nCoherent sources, constant phase difference. Maxima: path difference $\\Delta = n\\lambda$; Minima: $\\Delta = (2n+1)\\lambda/2$.\n2. **Fringe Width**:\n$\\beta = \\frac{\\lambda D}{d}$, where $D$ is source-to-screen distance, $d$ is source separation. Shape of fringes is hyperbolic, approximating straight lines near the center."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "A plane-polarized light is incident perpendicularly on a quartz plate cut with faces parallel to the optic axis. Find the thickness of the quartz plate which introduces a phase difference of60\u25e6between theeandorays.",
+        "answerKey": "1. **Wave Equations & Superposition**:\nWrite waves as $y = A\\sin(kt - \\omega x)$. Add components algebraically or vectorially.\n2. **Phase / Path Difference**:\nCalculate phase difference: $\\delta = \\frac{2\\pi}{\\lambda} \\Delta x$.\n3. **Intensity Calculation**:\nResulting intensity $I = I_1 + I_2 + 2\\sqrt{I_1 I_2}\\cos\\delta$. Max intensity $I_{\\text{max}} = (A_1 + A_2)^2$, Min intensity $I_{\\text{min}} = (A_1 - A_2)^2$."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "A left circularly polarized beam (\u03bb0 = 5893\u00c5) is incident normally on a calcite crystal (with its optic axis cut parallel to the surface) of thickness0.005141mm. What will be the state of polarization of the emergent beam? For calcite,no = 1.65836and ne = 1.48641.",
+        "answerKey": "1. **Polarization Concept**:\nRestriction of transverse waves to a single plane. Unpolarized light becomes polarized via reflection, scattering, or birefringence.\n2. **Wave Plates**:\nIntroduce phase shift between ordinary and extraordinary waves. Quarter-wave plate: path diff $\\lambda/4$, thickness $t = \\frac{\\lambda}{4|n_e - n_o|}$. Half-wave plate: path diff $\\lambda/2$, thickness $t = \\frac{\\lambda}{2|n_e - n_o|}$."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "In a double-slit diffraction experiment, the slit widthb = 7 \u00d7 10\u22123 cm, the separation between identical points of the two slitsd = 7 \u00d7 10\u22122 cm, and\u03bb= 6300\u00c5. How many interference minima will occur within the first diffraction minima on either side of the central diffraction maximum? Which orders of interference maxima will be missing?",
+        "answerKey": "1. **Interference Conditions**:\nCoherent sources, constant phase difference. Maxima: path difference $\\Delta = n\\lambda$; Minima: $\\Delta = (2n+1)\\lambda/2$.\n2. **Fringe Width**:\n$\\beta = \\frac{\\lambda D}{d}$, where $D$ is source-to-screen distance, $d$ is source separation. Shape of fringes is hyperbolic, approximating straight lines near the center."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "Show that a zone plate acts like a converging lens with multiple foci.",
+        "answerKey": "1. **Wave Equations & Superposition**:\nWrite waves as $y = A\\sin(kt - \\omega x)$. Add components algebraically or vectorially.\n2. **Phase / Path Difference**:\nCalculate phase difference: $\\delta = \\frac{2\\pi}{\\lambda} \\Delta x$.\n3. **Intensity Calculation**:\nResulting intensity $I = I_1 + I_2 + 2\\sqrt{I_1 I_2}\\cos\\delta$. Max intensity $I_{\\text{max}} = (A_1 + A_2)^2$, Min intensity $I_{\\text{min}} = (A_1 - A_2)^2$."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "How can the central fringe be seen in a Lloyd\u2019s mirror experiment? Show that the central fringe is sharper in a Lloyd\u2019s mirror than in a Fresnel biprism experiment.",
+        "answerKey": "1. **Interference Conditions**:\nCoherent sources, constant phase difference. Maxima: path difference $\\Delta = n\\lambda$; Minima: $\\Delta = (2n+1)\\lambda/2$.\n2. **Fringe Width**:\n$\\beta = \\frac{\\lambda D}{d}$, where $D$ is source-to-screen distance, $d$ is source separation. Shape of fringes is hyperbolic, approximating straight lines near the center."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "White light is reflected normally from a uniform oil film (n = 1.33). An interference maximum for6000 \u00c5 and a minimum for4500\u00c5 coincide. Calculate the thickness of the film.",
+        "answerKey": "1. **Interference Conditions**:\nCoherent sources, constant phase difference. Maxima: path difference $\\Delta = n\\lambda$; Minima: $\\Delta = (2n+1)\\lambda/2$.\n2. **Fringe Width**:\n$\\beta = \\frac{\\lambda D}{d}$, where $D$ is source-to-screen distance, $d$ is source separation. Shape of fringes is hyperbolic, approximating straight lines near the center."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "In a Michelson interferometer experiment performed with a source which consists of two wavelengths4882\u00c5 and4886 \u00c5, through what distance does the mirror have to be moved between two successive positions of the disappearance of the fringes?[6]",
+        "answerKey": "1. **Interference Conditions**:\nCoherent sources, constant phase difference. Maxima: path difference $\\Delta = n\\lambda$; Minima: $\\Delta = (2n+1)\\lambda/2$.\n2. **Fringe Width**:\n$\\beta = \\frac{\\lambda D}{d}$, where $D$ is source-to-screen distance, $d$ is source separation. Shape of fringes is hyperbolic, approximating straight lines near the center."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Discuss the intensity distribution of a Fabry-P\u00e9rot interferometer and show that the larger the value ofR (reflectivity of the mirrors), the greater the difference between Imax andI min. In what way is it superior to the Michelson interferometer?[8] Page 1 of 3 --- Page 2 --- Banaras Hindu University BPT-301: Optics",
+        "answerKey": "1. **Wave Equations & Superposition**:\nWrite waves as $y = A\\sin(kt - \\omega x)$. Add components algebraically or vectorially.\n2. **Phase / Path Difference**:\nCalculate phase difference: $\\delta = \\frac{2\\pi}{\\lambda} \\Delta x$.\n3. **Intensity Calculation**:\nResulting intensity $I = I_1 + I_2 + 2\\sqrt{I_1 I_2}\\cos\\delta$. Max intensity $I_{\\text{max}} = (A_1 + A_2)^2$, Min intensity $I_{\\text{min}} = (A_1 - A_2)^2$."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Deduce the expression of the intensity distribution of Fraunhofer diffraction due to double slits. Discuss the nature of the intensity distribution and explain how the intensity falls off to zero on either side of the central fringe and gradually reappears.[8]",
+        "answerKey": "1. **Interference Conditions**:\nCoherent sources, constant phase difference. Maxima: path difference $\\Delta = n\\lambda$; Minima: $\\Delta = (2n+1)\\lambda/2$.\n2. **Fringe Width**:\n$\\beta = \\frac{\\lambda D}{d}$, where $D$ is source-to-screen distance, $d$ is source separation. Shape of fringes is hyperbolic, approximating straight lines near the center."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "In a Newton\u2019s ring arrangement with\u03bb= 6.4 \u00d7 10\u22125 cm and the radius of curvature of the convex surface is100cm, if the lens is vertically raised up, discuss the change in the ring pattern as seen through the microscope.[6] OR",
+        "answerKey": "1. **Wave Equations & Superposition**:\nWrite waves as $y = A\\sin(kt - \\omega x)$. Add components algebraically or vectorially.\n2. **Phase / Path Difference**:\nCalculate phase difference: $\\delta = \\frac{2\\pi}{\\lambda} \\Delta x$.\n3. **Intensity Calculation**:\nResulting intensity $I = I_1 + I_2 + 2\\sqrt{I_1 I_2}\\cos\\delta$. Max intensity $I_{\\text{max}} = (A_1 + A_2)^2$, Min intensity $I_{\\text{min}} = (A_1 - A_2)^2$."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Consider a diffraction grating of width5cm with slits of width0.0001cm separated by a distance of0.0002cm. How many orders would be observable for\u03bb= 5.5 \u00d7 10\u22125 cm? Calculate the width of the principal maximum. Would there be any missing orders? For this diffraction grating, calculate the dispersion and resolving power in the different orders. [8]",
+        "answerKey": "1. **Interference Conditions**:\nCoherent sources, constant phase difference. Maxima: path difference $\\Delta = n\\lambda$; Minima: $\\Delta = (2n+1)\\lambda/2$.\n2. **Fringe Width**:\n$\\beta = \\frac{\\lambda D}{d}$, where $D$ is source-to-screen distance, $d$ is source separation. Shape of fringes is hyperbolic, approximating straight lines near the center."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "What is the Rayleigh criterion of resolving power? Find the resolving power of a grating. Discuss what happens if the number of grating elements is too large.[6]",
+        "answerKey": "1. **Fraunhofer Diffraction**:\nDiffraction when wavefronts are plane. Grating equation: $(e+d)\\sin\\theta = n\\lambda$, where $(e+d)$ is grating element.\n2. **Resolving Power**:\n$R = \\frac{\\lambda}{d\\lambda} = nN$, where $n$ is order of diffraction, $N$ is total number of lines on grating illuminated."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "You are given a Nicol prism and a quarter-wave plate. Explain the method to produce and detect plane, elliptically, and circularly polarized light.[10]",
+        "answerKey": "1. **Polarization Concept**:\nRestriction of transverse waves to a single plane. Unpolarized light becomes polarized via reflection, scattering, or birefringence.\n2. **Wave Plates**:\nIntroduce phase shift between ordinary and extraordinary waves. Quarter-wave plate: path diff $\\lambda/4$, thickness $t = \\frac{\\lambda}{4|n_e - n_o|}$. Half-wave plate: path diff $\\lambda/2$, thickness $t = \\frac{\\lambda}{2|n_e - n_o|}$."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "What are the states of polarization when thex- andy-components of the electric field are given by the following equations:",
+        "answerKey": "1. **Polarization Concept**:\nRestriction of transverse waves to a single plane. Unpolarized light becomes polarized via reflection, scattering, or birefringence.\n2. **Wave Plates**:\nIntroduce phase shift between ordinary and extraordinary waves. Quarter-wave plate: path diff $\\lambda/4$, thickness $t = \\frac{\\lambda}{4|n_e - n_o|}$. Half-wave plate: path diff $\\lambda/2$, thickness $t = \\frac{\\lambda}{2|n_e - n_o|}$."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "E x =E 0 cos(\u03c9t+kz), E y = E0 2 cos(\u03c9t+kz+\u03c0) (ii)E x =E 0 sin(\u03c9t+kz), E y =E 0 cos(\u03c9t+kz) [4] OR",
+        "answerKey": "1. **Wave Equations & Superposition**:\nWrite waves as $y = A\\sin(kt - \\omega x)$. Add components algebraically or vectorially.\n2. **Phase / Path Difference**:\nCalculate phase difference: $\\delta = \\frac{2\\pi}{\\lambda} \\Delta x$.\n3. **Intensity Calculation**:\nResulting intensity $I = I_1 + I_2 + 2\\sqrt{I_1 I_2}\\cos\\delta$. Max intensity $I_{\\text{max}} = (A_1 + A_2)^2$, Min intensity $I_{\\text{min}} = (A_1 - A_2)^2$."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "Explain birefringence. What are quarter- and half-wave plates? What are their uses?[6]",
+        "answerKey": "1. **Interference Conditions**:\nCoherent sources, constant phase difference. Maxima: path difference $\\Delta = n\\lambda$; Minima: $\\Delta = (2n+1)\\lambda/2$.\n2. **Fringe Width**:\n$\\beta = \\frac{\\lambda D}{d}$, where $D$ is source-to-screen distance, $d$ is source separation. Shape of fringes is hyperbolic, approximating straight lines near the center."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Discuss the working of a biquartz polarimeter.[8]",
+        "answerKey": "1. **Wave Equations & Superposition**:\nWrite waves as $y = A\\sin(kt - \\omega x)$. Add components algebraically or vectorially.\n2. **Phase / Path Difference**:\nCalculate phase difference: $\\delta = \\frac{2\\pi}{\\lambda} \\Delta x$.\n3. **Intensity Calculation**:\nResulting intensity $I = I_1 + I_2 + 2\\sqrt{I_1 I_2}\\cos\\delta$. Max intensity $I_{\\text{max}} = (A_1 + A_2)^2$, Min intensity $I_{\\text{min}} = (A_1 - A_2)^2$."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "What are the differences between spontaneous and stimulated emission? Derive the relations between the Einstein coefficients.[8]",
+        "answerKey": "1. **Wave Equations & Superposition**:\nWrite waves as $y = A\\sin(kt - \\omega x)$. Add components algebraically or vectorially.\n2. **Phase / Path Difference**:\nCalculate phase difference: $\\delta = \\frac{2\\pi}{\\lambda} \\Delta x$.\n3. **Intensity Calculation**:\nResulting intensity $I = I_1 + I_2 + 2\\sqrt{I_1 I_2}\\cos\\delta$. Max intensity $I_{\\text{max}} = (A_1 + A_2)^2$, Min intensity $I_{\\text{min}} = (A_1 - A_2)^2$."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "The length of a laser tube is150 mm and the gain factor of the laser material is",
+        "answerKey": "1. **Wave Equations & Superposition**:\nWrite waves as $y = A\\sin(kt - \\omega x)$. Add components algebraically or vectorially.\n2. **Phase / Path Difference**:\nCalculate phase difference: $\\delta = \\frac{2\\pi}{\\lambda} \\Delta x$.\n3. **Intensity Calculation**:\nResulting intensity $I = I_1 + I_2 + 2\\sqrt{I_1 I_2}\\cos\\delta$. Max intensity $I_{\\text{max}} = (A_1 + A_2)^2$, Min intensity $I_{\\text{min}} = (A_1 - A_2)^2$."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "0005per cm. If one of the cavity mirrors reflects 100 percent of the light, what is the required reflectance of the other cavity mirror?[6] Page 2 of 3 --- Page 3 --- Banaras Hindu University BPT-301: Optics Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 3 of 3",
+        "answerKey": "1. **Wave Equations & Superposition**:\nWrite waves as $y = A\\sin(kt - \\omega x)$. Add components algebraically or vectorially.\n2. **Phase / Path Difference**:\nCalculate phase difference: $\\delta = \\frac{2\\pi}{\\lambda} \\Delta x$.\n3. **Intensity Calculation**:\nResulting intensity $I = I_1 + I_2 + 2\\sqrt{I_1 I_2}\\cos\\delta$. Max intensity $I_{\\text{max}} = (A_1 + A_2)^2$, Min intensity $I_{\\text{min}} = (A_1 - A_2)^2$."
+      },
+      {
+        "id": 42,
+        "unit": "I",
+        "question": "Derive the general wave equation for a one-dimensional wave propagating in a medium.",
+        "answerKey": "1. **Wave Equations & Superposition**:\nWrite waves as $y = A\\sin(kt - \\omega x)$. Add components algebraically or vectorially.\n2. **Phase / Path Difference**:\nCalculate phase difference: $\\delta = \\frac{2\\pi}{\\lambda} \\Delta x$.\n3. **Intensity Calculation**:\nResulting intensity $I = I_1 + I_2 + 2\\sqrt{I_1 I_2}\\cos\\delta$. Max intensity $I_{\\text{max}} = (A_1 + A_2)^2$, Min intensity $I_{\\text{min}} = (A_1 - A_2)^2$."
+      },
+      {
+        "id": 43,
+        "unit": "II",
+        "question": "Explain the formation of Newton's rings in reflected light and derive expressions for the diameters of dark and bright rings.",
+        "answerKey": "1. **Wave Equations & Superposition**:\nWrite waves as $y = A\\sin(kt - \\omega x)$. Add components algebraically or vectorially.\n2. **Phase / Path Difference**:\nCalculate phase difference: $\\delta = \\frac{2\\pi}{\\lambda} \\Delta x$.\n3. **Intensity Calculation**:\nResulting intensity $I = I_1 + I_2 + 2\\sqrt{I_1 I_2}\\cos\\delta$. Max intensity $I_{\\text{max}} = (A_1 + A_2)^2$, Min intensity $I_{\\text{min}} = (A_1 - A_2)^2$."
+      },
+      {
+        "id": 44,
+        "unit": "III",
+        "question": "Describe the construction and working of a Michelson interferometer and explain how it is used to measure wavelength.",
+        "answerKey": "1. **Wave Equations & Superposition**:\nWrite waves as $y = A\\sin(kt - \\omega x)$. Add components algebraically or vectorially.\n2. **Phase / Path Difference**:\nCalculate phase difference: $\\delta = \\frac{2\\pi}{\\lambda} \\Delta x$.\n3. **Intensity Calculation**:\nResulting intensity $I = I_1 + I_2 + 2\\sqrt{I_1 I_2}\\cos\\delta$. Max intensity $I_{\\text{max}} = (A_1 + A_2)^2$, Min intensity $I_{\\text{min}} = (A_1 - A_2)^2$."
+      },
+      {
+        "id": 45,
+        "unit": "IV",
+        "question": "Explain Fraunhofer diffraction at a single slit and derive the expression for the intensity distribution.",
+        "answerKey": "1. **Interference Conditions**:\nCoherent sources, constant phase difference. Maxima: path difference $\\Delta = n\\lambda$; Minima: $\\Delta = (2n+1)\\lambda/2$.\n2. **Fringe Width**:\n$\\beta = \\frac{\\lambda D}{d}$, where $D$ is source-to-screen distance, $d$ is source separation. Shape of fringes is hyperbolic, approximating straight lines near the center."
+      },
+      {
+        "id": 46,
+        "unit": "IV",
+        "question": "Define resolving power. Derive the expression for the resolving power of a diffraction grating.",
+        "answerKey": "1. **Fraunhofer Diffraction**:\nDiffraction when wavefronts are plane. Grating equation: $(e+d)\\sin\\theta = n\\lambda$, where $(e+d)$ is grating element.\n2. **Resolving Power**:\n$R = \\frac{\\lambda}{d\\lambda} = nN$, where $n$ is order of diffraction, $N$ is total number of lines on grating illuminated."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Describe the phenomenon of double refraction in uniaxial crystals and explain the Huygens' theory.",
+        "answerKey": "1. **Wave Equations & Superposition**:\nWrite waves as $y = A\\sin(kt - \\omega x)$. Add components algebraically or vectorially.\n2. **Phase / Path Difference**:\nCalculate phase difference: $\\delta = \\frac{2\\pi}{\\lambda} \\Delta x$.\n3. **Intensity Calculation**:\nResulting intensity $I = I_1 + I_2 + 2\\sqrt{I_1 I_2}\\cos\\delta$. Max intensity $I_{\\text{max}} = (A_1 + A_2)^2$, Min intensity $I_{\\text{min}} = (A_1 - A_2)^2$."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Explain the construction and working of a Nicol prism as a polarizer and analyzer.",
+        "answerKey": "1. **Wave Equations & Superposition**:\nWrite waves as $y = A\\sin(kt - \\omega x)$. Add components algebraically or vectorially.\n2. **Phase / Path Difference**:\nCalculate phase difference: $\\delta = \\frac{2\\pi}{\\lambda} \\Delta x$.\n3. **Intensity Calculation**:\nResulting intensity $I = I_1 + I_2 + 2\\sqrt{I_1 I_2}\\cos\\delta$. Max intensity $I_{\\text{max}} = (A_1 + A_2)^2$, Min intensity $I_{\\text{min}} = (A_1 - A_2)^2$."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Define quarter-wave and half-wave plates and write expressions for their thicknesses.",
+        "answerKey": "1. **Polarization Concept**:\nRestriction of transverse waves to a single plane. Unpolarized light becomes polarized via reflection, scattering, or birefringence.\n2. **Wave Plates**:\nIntroduce phase shift between ordinary and extraordinary waves. Quarter-wave plate: path diff $\\lambda/4$, thickness $t = \\frac{\\lambda}{4|n_e - n_o|}$. Half-wave plate: path diff $\\lambda/2$, thickness $t = \\frac{\\lambda}{2|n_e - n_o|}$."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Explain the phenomenon of optical rotation and describe the construction of Laurent's half-shade polarimeter.",
+        "answerKey": "1. **Wave Equations & Superposition**:\nWrite waves as $y = A\\sin(kt - \\omega x)$. Add components algebraically or vectorially.\n2. **Phase / Path Difference**:\nCalculate phase difference: $\\delta = \\frac{2\\pi}{\\lambda} \\Delta x$.\n3. **Intensity Calculation**:\nResulting intensity $I = I_1 + I_2 + 2\\sqrt{I_1 I_2}\\cos\\delta$. Max intensity $I_{\\text{max}} = (A_1 + A_2)^2$, Min intensity $I_{\\text{min}} = (A_1 - A_2)^2$."
+      }
+    ]
   },
   "phymj32": {
     "id": "phymj32",
     "title": "Physics of Semiconductors and Devices",
     "module": "PHYMJ32",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Question 1.Answer in brief anyfiveof the following:[5\u00d74 = 20]",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "What do you mean by the intrinsic standoff ratio (\u03b7) of a UJT? If the interbase resistance RBB = 8k\u2126and the base-1 resistanceR B1 = 4.8k\u2126, find the value of\u03b7.",
+        "answerKey": "1. **UJT Standoff Ratio**:\nIntrinsic standoff ratio $\\eta = \\frac{R_{B1}}{R_{B1} + R_{B2}} = \\frac{R_{B1}}{R_{BB}}$.\n2. **Calculation**:\nGiven $R_{BB} = 8\\text{ k}\\Omega$ and $R_{B1} = 4.8\\text{ k}\\Omega$, $\\eta = 4.8 / 8 = 0.60$.\n3. **Peak Voltage**:\n$V_p = \\eta V_{BB} + V_D$, where $V_D$ is diode contact potential."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "An amplifier with a voltage gain ofAv = \u2212 1000has a gain change of20%due to temperature change. Calculate the percentage change in gain of the feedback amplifier if a negative feedback fraction of\u03b2=\u22120.1is incorporated.",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Differentiate among class A, class B, and class C amplifiers on the basis of their operating points and maximum theoretical efficiencies.",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "What is the main difference between oscillators and multivibrators? Draw the circuit diagram of a BJT-based astable multivibrator.",
+        "answerKey": "1. **BJT Operations**:\nThree-terminal current-controlled device. CB current gain $\\alpha = I_c/I_e$, CE current gain $\\beta = I_c/I_b$. Relation: $\\beta = \\frac{\\alpha}{1-\\alpha}$.\n2. **Operating Regions**:\nActive (emitter base forward, collector base reverse), Cutoff (both reverse), Saturation (both forward)."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Give the truth table and Boolean expression for a XOR gate and implement it using NAND gates only.",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "Draw the circuit diagram of an envelope detector demodulator for an amplitude- modulated (AM) wave and explain its working qualitatively.",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "Explain the construction, working, and characteristic curves of an enhancement-type MOSFET. How does it differ from a JFET? What is the significance of the threshold voltage (VT) in an enhancement mode MOSFET?[7]",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "Draw the circuit diagram of a non-inverting amplifier using an OP-AMP and derive the expression for its closed-loop voltage gain. How will you modify this circuit to act as a voltage follower?[7]",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Draw the hybrid model (h-parameter) equivalent circuit of a BJT in common-emitter (CE) configuration. Derive the expressions for its voltage gain, current gain, input impedance, and output admittance.[7]",
+        "answerKey": "1. **BJT Operations**:\nThree-terminal current-controlled device. CB current gain $\\alpha = I_c/I_e$, CE current gain $\\beta = I_c/I_b$. Relation: $\\beta = \\frac{\\alpha}{1-\\alpha}$.\n2. **Operating Regions**:\nActive (emitter base forward, collector base reverse), Cutoff (both reverse), Saturation (both forward)."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "Explain the working of a Silicon Controlled Rectifier (SCR) with the help of a two- transistor equivalent circuit. Explain why it is preferred to use silicon instead of germanium to construct a controlled rectifier.[7] Page 1 of 3 --- Page 2 --- Banaras Hindu University BPT-504: Electronic Devices and Circuits OR",
+        "answerKey": "1. **BJT Operations**:\nThree-terminal current-controlled device. CB current gain $\\alpha = I_c/I_e$, CE current gain $\\beta = I_c/I_b$. Relation: $\\beta = \\frac{\\alpha}{1-\\alpha}$.\n2. **Operating Regions**:\nActive (emitter base forward, collector base reverse), Cutoff (both reverse), Saturation (both forward)."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "Explain in brief the high-frequency hybrid-\u03c0model of a CE BJT amplifier and discuss its advantages.[5]",
+        "answerKey": "1. **BJT Operations**:\nThree-terminal current-controlled device. CB current gain $\\alpha = I_c/I_e$, CE current gain $\\beta = I_c/I_b$. Relation: $\\beta = \\frac{\\alpha}{1-\\alpha}$.\n2. **Operating Regions**:\nActive (emitter base forward, collector base reverse), Cutoff (both reverse), Saturation (both forward)."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "Refer to the basic common-base BJT amplifier configuration. The h-parameter values for the transistor are: hib = 40 \u2126, h rb = 3\u00d710 \u22124, h f b =\u22120.99, h ob = 0.5\u00b5mhos Determine: (i) the current gain taking source resistanceRs = 600 \u2126and load resistance RL = 10k\u2126into account, and (ii) the input resistance.[5]",
+        "answerKey": "1. **BJT Operations**:\nThree-terminal current-controlled device. CB current gain $\\alpha = I_c/I_e$, CE current gain $\\beta = I_c/I_b$. Relation: $\\beta = \\frac{\\alpha}{1-\\alpha}$.\n2. **Operating Regions**:\nActive (emitter base forward, collector base reverse), Cutoff (both reverse), Saturation (both forward)."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Give the construction and working of a Unijunction Transistor (UJT). Explain the condition under which a UJT exhibits negative resistance.[4]",
+        "answerKey": "1. **UJT Standoff Ratio**:\nIntrinsic standoff ratio $\\eta = \\frac{R_{B1}}{R_{B1} + R_{B2}} = \\frac{R_{B1}}{R_{BB}}$.\n2. **Calculation**:\nGiven $R_{BB} = 8\\text{ k}\\Omega$ and $R_{B1} = 4.8\\text{ k}\\Omega$, $\\eta = 4.8 / 8 = 0.60$.\n3. **Peak Voltage**:\n$V_p = \\eta V_{BB} + V_D$, where $V_D$ is diode contact potential."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Draw the circuit diagram of a common-emitter BJT amplifier using RC coupling. Derive the equations to show that the gain of this amplifier decreases at the low-frequency range due to coupling and bypass capacitors.[5]",
+        "answerKey": "1. **BJT Operations**:\nThree-terminal current-controlled device. CB current gain $\\alpha = I_c/I_e$, CE current gain $\\beta = I_c/I_b$. Relation: $\\beta = \\frac{\\alpha}{1-\\alpha}$.\n2. **Operating Regions**:\nActive (emitter base forward, collector base reverse), Cutoff (both reverse), Saturation (both forward)."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Give the truth table of a full adder. Obtain the Boolean expressions for sum (S) and carry (Co) from this table in Sum-of-Products (SOP) form. Simplify these expressions using a Karnaugh map (K-map) and implement the circuit using basic logic gates.[5]",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "The maximum and minimum amplitudes of an amplitude-modulated (AM) wave are 10V and2 V respectively. Calculate the carrier amplitude and the modulation index.[4]",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "Explain the working of a class B push-pull amplifier with a suitable circuit diagram. Show mathematically how a push-pull amplifier reduces even-harmonic distortions.[7]",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "What is meant by negative feedback in amplifiers? Find the closed-loop voltage gain, input resistance, and output resistance of a voltage-series feedback amplifier. Draw its equivalent BJT circuit diagram.[7] OR",
+        "answerKey": "1. **BJT Operations**:\nThree-terminal current-controlled device. CB current gain $\\alpha = I_c/I_e$, CE current gain $\\beta = I_c/I_b$. Relation: $\\beta = \\frac{\\alpha}{1-\\alpha}$.\n2. **Operating Regions**:\nActive (emitter base forward, collector base reverse), Cutoff (both reverse), Saturation (both forward)."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Assume that it is desired to design a Colpitts oscillator so that its oscillation frequency is4 MHz. If the inductor isL = 50\u00b5Hand the desired feedback fraction is\u03b2= 1/20, calculate:",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "The required value of equivalent tank capacitance.[3] (ii) The required values for capacitancesC1 andC 2.[2] (iii) The minimum voltage gainAv required for the CE amplifier to sustain oscillations. [2] Page 2 of 3 --- Page 3 --- Banaras Hindu University BPT-504: Electronic Devices and Circuits",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "Draw the basic RC phase shift oscillator circuit and explain its working. As per the Barkhausen criterion, what should be the minimum amplifier gain for sustained oscillations? What will be the frequency of oscillation? How are the loading effects of this circuit eliminated in a Wien bridge oscillator?[7] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 3 of 3",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "What is the significance of the threshold voltage (VT) in an enhancement mode MOSFET? How is its magnitude reduced during fabrication?",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "Show that negative feedback improves the stability of the voltage gain of an amplifier against parameter variations.",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "Why is a Unijunction Transistor (UJT) not used as an amplifier? Explain the condition under which it is used as a relaxation oscillator.",
+        "answerKey": "1. **UJT Standoff Ratio**:\nIntrinsic standoff ratio $\\eta = \\frac{R_{B1}}{R_{B1} + R_{B2}} = \\frac{R_{B1}}{R_{BB}}$.\n2. **Calculation**:\nGiven $R_{BB} = 8\\text{ k}\\Omega$ and $R_{B1} = 4.8\\text{ k}\\Omega$, $\\eta = 4.8 / 8 = 0.60$.\n3. **Peak Voltage**:\n$V_p = \\eta V_{BB} + V_D$, where $V_D$ is diode contact potential."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "What is meant by Common Mode Rejection Ratio (CMRR) in the case of an OP-AMP? Why should its value be ideally infinite?",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Write the Boolean expression represented by the Karnaugh map (K-map) shown below and simplify it: A\\BC 00 01 11 10 0 1 1 0 0 1 0 1 1 0",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "How is a Cathode Ray Oscilloscope (CRO) superior to ordinary measuring instruments? How does the Sync control help in obtaining a stationary pattern?",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "With necessary theory and diagrams, explain the construction, working, and I-V char- acteristics of a Silicon Controlled Rectifier (SCR). Why can one not use germanium instead of silicon to construct a controlled rectifier?[7]",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Explain the condition under which a UJT exhibits negative resistance.[3.5]",
+        "answerKey": "1. **UJT Standoff Ratio**:\nIntrinsic standoff ratio $\\eta = \\frac{R_{B1}}{R_{B1} + R_{B2}} = \\frac{R_{B1}}{R_{BB}}$.\n2. **Calculation**:\nGiven $R_{BB} = 8\\text{ k}\\Omega$ and $R_{B1} = 4.8\\text{ k}\\Omega$, $\\eta = 4.8 / 8 = 0.60$.\n3. **Peak Voltage**:\n$V_p = \\eta V_{BB} + V_D$, where $V_D$ is diode contact potential."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "The firing voltage of a UJT is15V. It is connected to a series RC circuit to act as a relaxation oscillator withR = 50k\u2126and C = 2000pF. If the source voltage is40V, determine the time period of the saw-tooth voltage across the capacitorC.[3.5]",
+        "answerKey": "1. **UJT Standoff Ratio**:\nIntrinsic standoff ratio $\\eta = \\frac{R_{B1}}{R_{B1} + R_{B2}} = \\frac{R_{B1}}{R_{BB}}$.\n2. **Calculation**:\nGiven $R_{BB} = 8\\text{ k}\\Omega$ and $R_{B1} = 4.8\\text{ k}\\Omega$, $\\eta = 4.8 / 8 = 0.60$.\n3. **Peak Voltage**:\n$V_p = \\eta V_{BB} + V_D$, where $V_D$ is diode contact potential."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Refer to the basic common-base BJT amplifier configuration. The h-parameter values for the transistor are: hib = 40 \u2126, h rb = 3\u00d710\u22124, h f b =\u22120.99, hob = 0.5\u00b5mhos Page 1 of 2 --- Page 2 --- Banaras Hindu University BPT-504: Electronic Devices and Circuits Determine: (i) the closed-loop current gain taking source resistanceRs = 600 \u2126and load resistanceR L = 10k\u2126into account, and (ii) the input resistance.[6]",
+        "answerKey": "1. **BJT Operations**:\nThree-terminal current-controlled device. CB current gain $\\alpha = I_c/I_e$, CE current gain $\\beta = I_c/I_b$. Relation: $\\beta = \\frac{\\alpha}{1-\\alpha}$.\n2. **Operating Regions**:\nActive (emitter base forward, collector base reverse), Cutoff (both reverse), Saturation (both forward)."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Explain in brief the high-frequency hybrid-\u03c0model of a CE transistor and discuss its advantages over the h-parameter model at high frequencies.[8] OR",
+        "answerKey": "1. **BJT Operations**:\nThree-terminal current-controlled device. CB current gain $\\alpha = I_c/I_e$, CE current gain $\\beta = I_c/I_b$. Relation: $\\beta = \\frac{\\alpha}{1-\\alpha}$.\n2. **Operating Regions**:\nActive (emitter base forward, collector base reverse), Cutoff (both reverse), Saturation (both forward)."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "What do you mean by power amplifiers? Give the circuit diagram of class A, class B, and class C power amplifiers. Show that the maximum efficiency of a class B push-pull amplifier is78.5%.[8]",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "What do you mean by non-linear distortion in a power amplifier circuit? Discuss a method to minimize such distortions.[6]",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "What do you mean by the term Amplitude Modulation (AM)? Derive the expression for an amplitude-modulated wave and discuss its frequency spectrum.[8]",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "Give the truth table of a full adder. Obtain the Boolean expressions for sum (S) and carry (Co) from this table in SOP form. Simplify these expressions using a K-map and implement the circuit using basic logic gates.[6]",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "What is meant by feedback in amplifiers? Differentiate between positive and negative feedback. Draw the circuit diagram of a current-series feedback amplifier and show that negative feedback increases the input resistance and output resistance of the amplifier. [8]",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "How does the feedback network of a Hartley oscillator differ from the feedback network of a Colpitts oscillator? What will be the oscillator frequency in the two cases?[6] OR",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "Explain the difference among astable, monostable, and bistable multivibrators in terms of their stable states and applications.[7]",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Definetheparametersrelativeamplificationfactor( \u00b5), drainresistance(rd), andtranscon- ductance (gm) in the case of a JFET amplifier, and establish the relationship among them. How is a JFET different from a bipolar junction transistor?[7] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 2 of 2",
+        "answerKey": "1. **P-N Junction depletion region**:\nDiffusion of majority carriers creates space charge region of immobile ions. depletion width $W = \\sqrt{\\frac{2\\varepsilon V_0}{q} \\left(\\frac{1}{N_d} + \\frac{1}{N_a}\\right)}$.\n2. **Diode Equation**:\n$I = I_0 (e^{qV/\\eta k T} - 1)$, where $I_0$ is reverse saturation current, $V$ is applied voltage."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Question 1.Answer anyfourof the following:[4\u00d75 = 20]",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "What is the significance of the threshold voltage (VT) in an enhancement mode MOSFET? How is its magnitude reduced?",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Differentiate among class A, class B, and class C power amplifiers based on their conduction angles and maximum theoretical efficiencies.",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "How does the tank circuit of an oscillator produce a phase shift of180\u25e6? Explain with the help of a phasor diagram of the L-C circuit.",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Draw the circuit diagram of a single-tuned BJT voltage amplifier. How can the quality factor (Q) and bandwidth be enhanced using a double-tuned voltage amplifier?",
+        "answerKey": "1. **BJT Operations**:\nThree-terminal current-controlled device. CB current gain $\\alpha = I_c/I_e$, CE current gain $\\beta = I_c/I_b$. Relation: $\\beta = \\frac{\\alpha}{1-\\alpha}$.\n2. **Operating Regions**:\nActive (emitter base forward, collector base reverse), Cutoff (both reverse), Saturation (both forward)."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Discuss the power distribution in amplitude-modulated (AM) waves. For a modulation index ofm = 1(100%modulation), prove that the total sideband power is half of the carrier power.",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Draw the Karnaugh map (K-map) for the Boolean expressionf(A,B,C,D ) =ABC +D.",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Explain the construction and working of an n-channel JFET and draw its drain and mutual characteristic curves. Define the parameters relative amplification factor (\u00b5), drain resistance (rd), and transconductance (gm), and establish the relationship among them. [8]",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Draw the circuit diagram of a non-inverting OP-AMP amplifier. What is the slew rate? How does it limit the high-frequency operation of an OP-AMP?[6]",
+        "answerKey": "1. **Carrier Transport**:\nDrift current density $J_{\\text{drift}} = q(n\\mu_n + p\\mu_p)E$. Diffusion current density $J_{\\text{diff}} = q D_n \\frac{dn}{dx}$.\n2. **Energy Band Diagram**:\nPlot conduction band ($E_c$), valence band ($E_v$), and Fermi energy ($E_f$) across the device.\n3. **I-V Relationship**:\nRelate terminal voltages to current using transport and continuity equations."
+      }
+    ]
   },
   "phymj33": {
     "id": "phymj33",
@@ -8097,156 +9921,307 @@ export const EXAMS = {
     "module": "PHYMJ41",
     "duration": 60,
     "type": "theory",
+    "comingSoon": false,
     "questions": [
       {
         "id": 1,
         "unit": "I",
-        "question": "Define the curl of a vector field and explain the physical meaning associated with it. Show that $\\vec{\\nabla} \\cdot (\\vec{\\nabla} \\times \\vec{v}) = 0$ using the theorems of vector calculus.",
-        "answerKey": "1. Definition: The curl of a vector field $\\vec{v}$ is defined as the vector product of the Del operator $\\vec{\\nabla}$ and the vector field: $\\text{curl } \\vec{v} = \\vec{\\nabla} \\times \\vec{v}$.\n2. Physical Meaning: It represents the rotational power or angular rotation of the vector field per unit area at a point. If $\\vec{v}$ is the velocity field of a fluid, curl $\\vec{v}$ represents twice the angular velocity of a tiny paddle wheel placed at that point.\n3. Divergence of Curl Proof: Let $S$ be a closed surface bounding a volume $V$. According to Gauss's Divergence Theorem: $\\iiint_V \\vec{\\nabla} \\cdot (\\vec{\\nabla} \\times \\vec{v}) dV = \\iint_S (\\vec{\\nabla} \\times \\vec{v}) \\cdot d\\vec{a}$.\n4. By Stokes' Theorem, the surface integral of the curl of a vector field over any closed surface is equal to the line integral of the field along the boundary of the surface. Since a closed surface has no boundary curve (its boundary is null), the line integral is zero: $\\iint_S (\\vec{\\nabla} \\times \\vec{v}) \\cdot d\\vec{a} = \\oint_{\\partial S} \\vec{v} \\cdot d\\vec{l} = 0$. Since this holds for any arbitrary volume $V$, the integrand must vanish everywhere: $\\vec{\\nabla} \\cdot (\\vec{\\nabla} \\times \\vec{v}) = 0$."
+        "question": "Question 1.Answer anyfiveof the following:[5\u00d74 = 20]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
       },
       {
         "id": 2,
         "unit": "I",
-        "question": "Show that the electric field of an infinite plane which carries a uniform surface charge density $\\sigma$ is independent of the distance from the plane.",
-        "answerKey": "1. Gauss's Law Setup: Consider an infinite plane sheet of charge with a uniform surface charge density $\\sigma$. By symmetry, the electric field $\\vec{E}$ must point perpendicular to the plane (along the $\\hat{n}$ direction) and be uniform in magnitude at any given distance.\n2. Gaussian Surface: We construct a cylindrical Gaussian surface (pillbox) of cross-sectional area $A$ extending a distance $x$ on both sides of the sheet (total length $2x$, parallel to the normal of the sheet).\n3. Flux Calculation: The flux through the curved surface of the cylinder is zero because $\\vec{E}$ is parallel to this surface. The flux through the two flat end faces is: $\\Phi_E = \\iint_{\\text{ends}} \\vec{E} \\cdot d\\vec{a} = E \\cdot A + E \\cdot A = 2EA$.\n4. Enclosed Charge: The charge enclosed inside the Gaussian cylinder is: $q_{\\text{enc}} = \\sigma A$.\n5. Applying Gauss's Law: $\\Phi_E = \\frac{q_{\\text{enc}}}{\\varepsilon_0} \\implies 2EA = \\frac{\\sigma A}{\\varepsilon_0} \\implies E = \\frac{\\sigma}{2\\varepsilon_0}$.\n6. Conclusion: The electric field magnitude is $E = \\frac{\\sigma}{2\\varepsilon_0}$ and is directed away from the sheet if positive. Since the expression does not contain the distance $x$, the electric field is completely independent of the distance from the plane."
+        "question": "Prove that the divergence of the curl of any vector field vanishes:\u2207\u00b7(\u2207\u00d7\u20d7A) = 0.",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
       },
       {
         "id": 3,
         "unit": "I",
-        "question": "What are bound charges? Derive an expression for the volume bound charge density $\\rho_b$ and surface bound charge density $\\sigma_b$ in terms of the polarization vector $\\vec{P}$.",
-        "answerKey": "1. Definition: Bound charges are charges that accumulate within a dielectric medium due to microscopic shifts in charge distribution when subjected to an external electric field (polarization). Unlike free charges, bound charges cannot move freely through the bulk of the material.\n2. Potential Calculation: The electric potential $V(\\vec{r})$ of a polarized dielectric volume $V'$ with polarization $\\vec{P}(\\vec{r}')$ is: $V(\\vec{r}) = \\frac{1}{4\\pi\\varepsilon_0} \\iiint_{V'} \\vec{P} \\cdot \\vec{\\nabla}' \\left(\\frac{1}{\\mathcal{R}}\\right) dV'$, where $\\mathcal{R} = |\\vec{r} - \\vec{r}'|$.\n3. Integration by Parts: Using the vector identity $\\vec{A} \\cdot \\vec{\\nabla}\\phi = \\vec{\\nabla} \\cdot (\\phi\\vec{A}) - \\phi(\\vec{\\nabla} \\cdot \\vec{A})$, we rewrite the integrand: $\\vec{P} \\cdot \\vec{\\nabla}'\\left(\\frac{1}{\\mathcal{R}}\\right) = \\vec{\\nabla}' \\cdot \\left(\\frac{\\vec{P}}{\\mathcal{R}}\\right) - \\frac{1}{\\mathcal{R}} (\\vec{\\nabla}' \\cdot \\vec{P})$.\n4. Substituting this into the potential formula: $V(\\vec{r}) = \\frac{1}{4\\pi\\varepsilon_0} \\iiint_{V'} \\vec{\\nabla}' \\cdot \\left(\\frac{\\vec{P}}{\\mathcal{R}}\\right) dV' - \\frac{1}{4\\pi\\varepsilon_0} \\iiint_{V'} \\frac{\\vec{\\nabla}' \\cdot \\vec{P}}{\\mathcal{R}} dV'$.\n5. Divergence Theorem Application: The first volume integral converts to a surface integral: $V(\\vec{r}) = \\frac{1}{4\\pi\\varepsilon_0} \\iint_{S'} \\frac{\\vec{P} \\cdot \\hat{n}}{\\mathcal{R}} da' + \\frac{1}{4\\pi\\varepsilon_0} \\iiint_{V'} \\frac{-\\vec{\\nabla}' \\cdot \\vec{P}}{\\mathcal{R}} dV'$.\n6. Bound Charge Densities: By comparing this with the potential of surface and volume charge distributions, we identify: (a) Volume bound charge density: $\\rho_b = -\\vec{\\nabla} \\cdot \\vec{P}$; (b) Surface bound charge density: $\\sigma_b = \\vec{P} \\cdot \\hat{n}$ (where $\\hat{n}$ is the unit outward normal to the dielectric surface)."
+        "question": "Define scalar and vector potentials. How do you express the electric field\u20d7E and magnetic field \u20d7Bin terms of these potentials?",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
       },
       {
         "id": 4,
         "unit": "I",
-        "question": "For a uniform magnetic field $\\vec{B}$, show that the vector potential can be written as $\\vec{A} = -\\frac{1}{2}(\\vec{r} \\times \\vec{B})$. Verify if it satisfies the Coulomb gauge $\\vec{\\nabla} \\cdot \\vec{A} = 0$ and $\\vec{B} = \\vec{\\nabla} \\times \\vec{A}$.",
-        "answerKey": "1. Uniqueness & Vector Potential: The magnetic field is always related to its vector potential via $\\vec{B} = \\vec{\\nabla} \\times \\vec{A}$. Since the divergence of a curl is zero, this guarantees that $\\vec{\\nabla} \\cdot \\vec{B} = 0$ (Gauss's law in magnetostatics).\n2. Calculating Curl of $\\vec{A} = -\\frac{1}{2}(\\vec{r} \\times \\vec{B})$: Using the vector identity for the curl of a cross product: $\\vec{\\nabla} \\times (\\vec{r} \\times \\vec{B}) = (\\vec{B} \\cdot \\vec{\\nabla})\\vec{r} - (\\vec{r} \\cdot \\vec{\\nabla})\\vec{B} + \\vec{r}(\\vec{\\nabla} \\cdot \\vec{B}) - \\vec{B}(\\vec{\\nabla} \\cdot \\vec{r})$.\n3. Simplification for Uniform Field: Since $\\vec{B}$ is uniform (constant), its derivatives are zero: $(\\vec{r} \\cdot \\vec{\\nabla})\\vec{B} = 0$ and $\\vec{\\nabla} \\cdot \\vec{B} = 0$.\n4. Coordinate Evaluation: We know $\\vec{\\nabla} \\cdot \\vec{r} = 3$ and $(\\vec{B} \\cdot \\vec{\\nabla})\\vec{r} = \\vec{B}$.\n5. Substitute the terms: $\\vec{\\nabla} \\times (\\vec{r} \\times \\vec{B}) = \\vec{B} - 0 + 0 - 3\\vec{B} = -2\\vec{B}$.\n6. Therefore, $\\vec{\\nabla} \\times \\vec{A} = \\vec{\\nabla} \\times \\left(-\\frac{1}{2}(\\vec{r} \\times \\vec{B})\\right) = -\\frac{1}{2}(-2\\vec{B}) = \\vec{B}$. This verifies the vector potential expression.\n7. Gauge Verification: We check the divergence of $\\vec{A}$: $\\vec{\\nabla} \\cdot \\vec{A} = -\\frac{1}{2}\\vec{\\nabla} \\cdot (\\vec{r} \\times \\vec{B})$. Using the identity $\\vec{\\nabla} \\cdot (\\vec{a} \\times \\vec{b}) = \\vec{b} \\cdot (\\vec{\\nabla} \\times \\vec{a}) - \\vec{a} \\cdot (\\vec{\\nabla} \\times \\vec{b})$: $\\vec{\\nabla} \\cdot (\\vec{r} \\times \\vec{B}) = \\vec{B} \\cdot (\\vec{\\nabla} \\times \\vec{r}) - \\vec{r} \\cdot (\\vec{\\nabla} \\times \\vec{B}) = 0 - 0 = 0$ (since curl $\\vec{r} = 0$ and $\\vec{B}$ is constant). Thus $\\vec{\\nabla} \\cdot \\vec{A} = 0$, satisfying the Coulomb gauge."
+        "question": "Write down the four Maxwell\u2019s equations in differential form and briefly explain the physical meaning of each.",
+        "answerKey": "1. **Maxwell's Equations**:\n(i) $\\vec{\\nabla} \\cdot \\vec{E} = \\rho/\\varepsilon_0$, (ii) $\\vec{\\nabla} \\cdot \\vec{B} = 0$, (iii) $\\vec{\\nabla} \\times \\vec{E} = -\\frac{\\partial\\vec{B}}{\\partial t}$, (iv) $\\vec{\\nabla} \\times \\vec{B} = \\mu_0\\vec{J} + \\mu_0\\varepsilon_0 \\frac{\\partial\\vec{E}}{\\partial t}$.\n2. **Displacement Current**:\n$I_d = \\varepsilon_0 \\frac{\\partial\\Phi_E}{\\partial t}$. Resolves charge conservation discontinuity in Ampere's law."
       },
       {
         "id": 5,
         "unit": "I",
-        "question": "If the vector function $\\vec{F} = (3y - c_1 z)\\hat{i} + (c_2 x - 2z)\\hat{j} - (c_3 y + z)\\hat{k}$ is irrotational, determine the values of the constants $c_1, c_2,$ and $c_3$. Also, find the scalar potential function $\\phi$ such that $\\vec{F} = \\vec{\\nabla}\\phi$.",
-        "answerKey": "1. Irrotational Condition: A vector field is irrotational if its curl is zero: $\\vec{\\nabla} \\times \\vec{F} = 0$.\n2. Calculating Curl: $\\vec{\\nabla} \\times \\vec{F} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ \\partial/\\partial x & \\partial/\\partial y & \\partial/\\partial z \\\\ F_x & F_y & F_z \\end{vmatrix} = \\hat{i}\\left(\\frac{\\partial F_z}{\\partial y} - \\frac{\\partial F_y}{\\partial z}\\right) - \\hat{j}\\left(\\frac{\\partial F_z}{\\partial x} - \\frac{\\partial F_x}{\\partial z}\\right) + \\hat{k}\\left(\\frac{\\partial F_y}{\\partial x} - \\frac{\\partial F_x}{\\partial y}\\right) = 0$.\n3. Component Calculations:\n- $\\hat{i}$ component: $\\frac{\\partial}{\\partial y}(-c_3 y - z) - \\frac{\\partial}{\\partial z}(c_2 x - 2z) = -c_3 - (-2) = 2 - c_3 = 0 \\implies c_3 = 2$.\n- $\\hat{j}$ component: $\\frac{\\partial}{\\partial x}(-c_3 y - z) - \\frac{\\partial}{\\partial z}(3y - c_1 z) = 0 - (-c_1) = c_1 = 0 \\implies c_1 = 0$.\n- $\\hat{k}$ component: $\\frac{\\partial}{\\partial x}(c_2 x - 2z) - \\frac{\\partial}{\\partial y}(3y - c_1 z) = c_2 - 3 = 0 \\implies c_2 = 3$.\n4. Resulting Constants: $c_1 = 0$, $c_2 = 3$, $c_3 = 2$. The vector field is: $\\vec{F} = 3y\\hat{i} + (3x - 2z)\\hat{j} - (2y + z)\\hat{k}$.\n5. Scalar Potential Derivation: $\\vec{F} = \\vec{\\nabla}\\phi = \\frac{\\partial\\phi}{\\partial x}\\hat{i} + \\frac{\\partial\\phi}{\\partial y}\\hat{j} + \\frac{\\partial\\phi}{\\partial z}\\hat{k}$.\n- $\\frac{\\partial\\phi}{\\partial x} = 3y \\implies \\phi(x,y,z) = 3xy + g(y,z)$.\n- $\\frac{\\partial\\phi}{\\partial y} = 3x + \\frac{\\partial g}{\\partial y} = 3x - 2z \\implies \\frac{\\partial g}{\\partial y} = -2z \\implies g(y,z) = -2yz + h(z)$. Therefore $\\phi(x,y,z) = 3xy - 2yz + h(z)$.\n- $\\frac{\\partial\\phi}{\\partial z} = -2y + h'(z) = -2y - z \\implies h'(z) = -z \\implies h(z) = -\\frac{z^2}{2} + C$.\n6. Scalar Potential: $\\phi(x,y,z) = 3xy - 2yz - \\frac{z^2}{2} + C$."
+        "question": "A material has conductivity\u03c3= 10 \u22123S/m and relative permittivity\u03b5r = 2. At what frequency would the conduction current density be equal to the displacement current density?",
+        "answerKey": "1. **Maxwell's Equations**:\n(i) $\\vec{\\nabla} \\cdot \\vec{E} = \\rho/\\varepsilon_0$, (ii) $\\vec{\\nabla} \\cdot \\vec{B} = 0$, (iii) $\\vec{\\nabla} \\times \\vec{E} = -\\frac{\\partial\\vec{B}}{\\partial t}$, (iv) $\\vec{\\nabla} \\times \\vec{B} = \\mu_0\\vec{J} + \\mu_0\\varepsilon_0 \\frac{\\partial\\vec{E}}{\\partial t}$.\n2. **Displacement Current**:\n$I_d = \\varepsilon_0 \\frac{\\partial\\Phi_E}{\\partial t}$. Resolves charge conservation discontinuity in Ampere's law."
       },
       {
         "id": 6,
         "unit": "I",
-        "question": "Discuss the boundary conditions for the tangential and normal components of the electrostatic field $\\vec{E}$ and displacement field $\\vec{D}$ across an interface separating two different dielectrics.",
-        "answerKey": "1. Tangential Component of $\\vec{E}$: We apply Faraday's loop law $\\oint \\vec{E} \\cdot d\\vec{l} = 0$ along a rectangular loop of length $L$ and height $h$ centered at the interface.\n2. In the limit $h \\to 0$, the contributions from the vertical sides vanish, leaving: $\\oint \\vec{E} \\cdot d\\vec{l} = E_{1t} L - E_{2t} L = 0 \\implies E_{1t} = E_{2t}$.\n3. Conclusion for Tangential $\\vec{E}$: The tangential component of the electric field is continuous across the interface.\n4. Normal Component of $\\vec{D}$: We apply Gauss's law $\\oint_S \\vec{D} \\cdot d\\vec{a} = q_{f,\\text{enc}}$ to a small Gaussian pillbox of cross-sectional area $A$ and height $h$.\n5. In the limit $h \\to 0$, only the flat top and bottom faces contribute to the flux: $\\oint_S \\vec{D} \\cdot d\\vec{a} = D_{1n} A - D_{2n} A = \\sigma_f A$, where $\\sigma_f$ is the free surface charge density.\n6. Conclusion for Normal $\\vec{D}$: $D_{1n} - D_{2n} = \\sigma_f$. If there is no free surface charge at the boundary ($\\sigma_f = 0$), then $D_{1n} = D_{2n}$, meaning the normal component of the displacement field is continuous across the interface."
+        "question": "Describe the position of the Fermi level in an intrinsic and an extrinsic semiconductor. Discuss the effect of temperature on its position.",
+        "answerKey": "1. **TEM wave exclusion**:\nTEM requires $E_z = 0, H_z = 0$. Since boundary is conducting, potential $\\Phi = 0$ on walls. By Laplace's uniqueness, $\\Phi = 0$ inside waveguide, meaning $\\vec{E} = 0$, so no TEM wave can exist.\n2. **Cutoff Frequency**:\n$f_c = \\frac{c}{2} \\sqrt{(m/a)^2 + (n/b)^2}$."
       },
       {
         "id": 7,
         "unit": "I",
-        "question": "Using the general solution of the Laplace equation in spherical coordinates with azimuthal symmetry, determine the potential $V(r,\\theta)$ outside a sphere of radius $R$ subject to the boundary condition $V(R, \\theta) = V_0 \\cos\\theta$.",
-        "answerKey": "1. General Solution: The general solution of Laplace's equation $\\nabla^2 V = 0$ in spherical polar coordinates with azimuthal symmetry is: $V(r,\\theta) = \\sum_{l=0}^{\\infty} \\left( A_l r^l + \\frac{B_l}{r^{l+1}} \\right) P_l(\\cos\\theta)$, where $P_l(\\cos\\theta)$ are the Legendre polynomials.\n2. Boundary Condition at Infinity: Since we are looking for the potential outside the sphere ($r > R$) and the potential must vanish at infinity ($V \\to 0$ as $r \\to \\infty$), the coefficients of the positive powers of $r$ must be zero: $A_l = 0$ for all $l$.\n3. Simplified Potential: Thus, the potential is: $V(r,\\theta) = \\sum_{l=0}^{\\infty} \\frac{B_l}{r^{l+1}} P_l(\\cos\\theta)$.\n4. Boundary Condition at $r = R$: At the surface of the sphere, the potential matches the boundary condition: $V(R, \\theta) = \\sum_{l=0}^{\\infty} \\frac{B_l}{R^{l+1}} P_l(\\cos\\theta) = V_0 \\cos\\theta$.\n5. Matching Legendre Polynomials: We know that $P_1(\\cos\\theta) = \\cos\\theta$. By comparing terms, the sum on the left must have only the $l=1$ term: $\\frac{B_1}{R^2} P_1(\\cos\\theta) = V_0 P_1(\\cos\\theta)$, and $B_l = 0$ for all $l \\neq 1$.\n6. Solving for $B_1$: $B_1 = V_0 R^2$.\n7. Final Potential: Substituting $B_1$ back, we get: $V(r,\\theta) = \\frac{V_0 R^2}{r^2} \\cos\\theta$ (for $r \\ge R$)."
+        "question": "Why is a capacitor filter mostly used in a power supply rather than an inductor filter? Explain.",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
       },
       {
         "id": 8,
         "unit": "I",
-        "question": "Derive the multipole expansion of the electrostatic potential $V(\\vec{r})$ of a localized charge distribution and show that the dipole term can be written as $V_{\\text{dip}}(\\vec{r}) = \\frac{1}{4\\pi\\varepsilon_0} \\frac{\\vec{p} \\cdot \\hat{r}}{r^2}$.",
-        "answerKey": "1. Potential Formula: The electrostatic potential at a point $\\vec{r}$ due to a charge distribution $\\rho(\\vec{r}')$ is: $V(\\vec{r}) = \\frac{1}{4\\pi\\varepsilon_0} \\iiint \\frac{\\rho(\\vec{r}')}{|\\vec{r} - \\vec{r}'|} dV'$.\n2. Expansion of $\\frac{1}{|\\vec{r} - \\vec{r}'|}$: Let $\\mathcal{R} = |\\vec{r} - \\vec{r}'| = \\sqrt{r^2 + r'^2 - 2rr'\\cos\\theta'}$, where $\\theta'$ is the angle between $\\vec{r}$ and $\\vec{r}'$. We can factor out $r$: $\\frac{1}{\\mathcal{R}} = \\frac{1}{r} \\left(1 + \\left(\\frac{r'}{r}\\right)^2 - 2\\left(\\frac{r'}{r}\\right)\\cos\\theta'\\right)^{-1/2}$.\n3. Binomial Expansion: Applying binomial expansion in terms of Legendre polynomials: $\\frac{1}{\\mathcal{R}} = \\frac{1}{r} \\sum_{n=0}^{\\infty} \\left(\\frac{r'}{r}\\right)^n P_n(\\cos\\theta')$.\n4. Multipole Terms: Substituting this into the potential formula gives: $V(\\vec{r}) = \\frac{1}{4\\pi\\varepsilon_0} \\sum_{n=0}^{\\infty} \\frac{1}{r^{n+1}} \\iiint (r')^n P_n(\\cos\\theta') \\rho(\\vec{r}') dV'$.\n- $n=0$ (Monopole term): $V_{\\text{mon}}(\\vec{r}) = \\frac{1}{4\\pi\\varepsilon_0 r} \\iiint \\rho(\\vec{r}') dV' = \\frac{Q}{4\\pi\\varepsilon_0 r}$.\n- $n=1$ (Dipole term): $V_{\\text{dip}}(\\vec{r}) = \\frac{1}{4\\pi\\varepsilon_0 r^2} \\iiint r' P_1(\\cos\\theta') \\rho(\\vec{r}') dV'$.\n5. Solving Dipole Integral: Since $P_1(\\cos\\theta') = \\cos\\theta'$ and $r'\\cos\\theta' = \\vec{r}' \\cdot \\hat{r}$, we have: $V_{\\text{dip}}(\\vec{r}) = \\frac{1}{4\\pi\\varepsilon_0 r^2} \\iiint (\\vec{r}' \\cdot \\hat{r}) \\rho(\\vec{r}') dV' = \\frac{1}{4\\pi\\varepsilon_0 r^2} \\hat{r} \\cdot \\left( \\iiint \\vec{r}' \\rho(\\vec{r}') dV' \\right)$.\n6. Dipole Moment: The integral in parentheses is defined as the electric dipole moment vector: $\\vec{p} = \\iiint \\vec{r}' \\rho(\\vec{r}') dV'$. Thus, $V_{\\text{dip}}(\\vec{r}) = \\frac{1}{4\\pi\\varepsilon_0} \\frac{\\vec{p} \\cdot \\hat{r}}{r^2}$."
+        "question": "Explain how the current gain\u03b1is different from\u03b2. Establish the relationship between \u03b1and\u03b2for a transistor.",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
       },
       {
         "id": 9,
         "unit": "I",
-        "question": "Find the potential inside and outside of a spherical shell of radius $R$ if a specified charge density $\\sigma_0(\\theta) = k \\cos\\theta$ is glued over its surface.",
-        "answerKey": "1. Setup & boundary conditions: We solve Laplace's equation $\\nabla^2 V = 0$ inside ($r < R$) and outside ($r > R$) the sphere. The potential must be continuous at the surface: $V_{\\text{in}}(R,\\theta) = V_{\\text{out}}(R,\\theta)$.\n2. Potential Forms:\n- Inside ($r < R$, $V$ must remain finite at $r \\to 0$): $V_{\\text{in}}(r,\\theta) = \\sum_{l=0}^{\\infty} A_l r^l P_l(\\cos\\theta)$.\n- Outside ($r > R$, $V \\to 0$ as $r \\to \\infty$): $V_{\\text{out}}(r,\\theta) = \\sum_{l=0}^{\\infty} \\frac{B_l}{r^{l+1}} P_l(\\cos\\theta)$.\n3. Continuity at $r=R$: $\\sum A_l R^l P_l(\\cos\\theta) = \\sum \\frac{B_l}{R^{l+1}} P_l(\\cos\\theta) \\implies B_l = A_l R^{2l+1}$.\n4. Surface Charge Boundary Condition: The discontinuity in the normal component of electric field relates to surface charge: $\\left. \\frac{\\partial V_{\\text{out}}}{\\partial r} \\right|_{r=R} - \\left. \\frac{\\partial V_{\\text{in}}}{\\partial r} \\right|_{r=R} = -\\frac{\\sigma_0(\\theta)}{\\varepsilon_0}$.\n5. Derivative Evaluations: $\\sum_{l=0}^{\\infty} \\left[ -(l+1) \\frac{B_l}{R^{l+2}} - l A_l R^{l-1} \\right] P_l(\\cos\\theta) = -\\frac{k \\cos\\theta}{\\varepsilon_0}$.\nSubstitute $B_l = A_l R^{2l+1}$: $\\sum_{l=0}^{\\infty} (2l+1) A_l R^{l-1} P_l(\\cos\\theta) = \\frac{k \\cos\\theta}{\\varepsilon_0}$.\n6. Solving for Coefficients: Since $P_1(\\cos\\theta) = \\cos\\theta$, only the $l=1$ term exists: $3 A_1 P_1(\\cos\\theta) = \\frac{k}{\\varepsilon_0} P_1(\\cos\\theta) \\implies A_1 = \\frac{k}{3\\varepsilon_0}$ (all other $A_l = 0$).\n$B_1 = A_1 R^3 = \\frac{k R^3}{3\\varepsilon_0}$.\n7. Final Potentials:\n- Inside ($r \\le R$): $V_{\\text{in}}(r,\\theta) = \\frac{k}{3\\varepsilon_0} r \\cos\\theta$.\n- Outside ($r \\ge R$): $V_{\\text{out}}(r,\\theta) = \\frac{k R^3}{3\\varepsilon_0 r^2} \\cos\\theta$."
+        "question": "State and prove Gauss\u2019s divergence theorem.[5]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
       },
       {
         "id": 10,
         "unit": "I",
-        "question": "Derive the boundary conditions for the magnetostatic fields $\\vec{B}$ and $\\vec{H}$ at the interface separating two different magnetic media.",
-        "answerKey": "1. Normal Component of $\\vec{B}$: We apply Gauss's law for magnetism $\\oint \\vec{B} \\cdot d\\vec{a} = 0$ to a small cylindrical Gaussian pillbox of cross-sectional area $A$ and height $h$ crossing the boundary.\n2. In the limit $h \\to 0$, the curved sides contribute nothing to the flux, leaving: $\\oint \\vec{B} \\cdot d\\vec{a} = B_{1n} A - B_{2n} A = 0 \\implies B_{1n} = B_{2n}$. The normal component of $\\vec{B}$ is continuous across the boundary.\n3. Tangential Component of $\\vec{H}$: We apply Ampere's circuital law in matter $\\oint \\vec{H} \\cdot d\\vec{l} = I_{f,\\text{enc}}$ to a rectangular loop of length $L$ and height $h$ centered at the boundary.\n4. In the limit $h \\to 0$, only the components parallel to the interface contribute to the line integral: $\\oint \\vec{H} \\cdot d\\vec{l} = H_{1t} L - H_{2t} L = K_f L$, where $K_f$ is the free surface current density flowing perpendicular to the loop.\n5. Therefore: $H_{1t} - H_{2t} = K_f$, or in vector form: $\\vec{H}_{1t} - \\vec{H}_{2t} = \\vec{K}_f \\times \\hat{n}$.\n6. Special Case: If there is no free surface current flowing at the interface ($\\vec{K}_f = 0$), the tangential component of $\\vec{H}$ is continuous across the boundary: $H_{1t} = H_{2t}$."
+        "question": "Derive the electromagnetic wave equation for the propagation of a plane wave in a non-conducting isotropic dielectric medium. Obtain expressions for the propagation constant, intrinsic impedance, phase velocity, and group velocity.[9]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
       },
       {
         "id": 11,
         "unit": "II",
-        "question": "Explain the logical inconsistency in Ampere's Law in time-varying electrodynamic fields and show how Maxwell resolved it. Define displacement current.",
-        "answerKey": "1. Inconsistency in Ampere's Law: Ampere's law in differential form is $\\vec{\\nabla} \\times \\vec{B} = \\mu_0 \\vec{J}$. Taking the divergence of both sides: $\\vec{\\nabla} \\cdot (\\vec{\\nabla} \\times \\vec{B}) = \\mu_0 (\\vec{\\nabla} \\cdot \\vec{J})$. Since the divergence of the curl of any vector field is identically zero, this requires: $\\vec{\\nabla} \\cdot \\vec{J} = 0$.\n2. Contradiction with Continuity: However, the continuity equation for charge conservation is $\\vec{\\nabla} \\cdot \\vec{J} = -\\frac{\\partial\\rho}{\\partial t}$. This means $\\vec{\\nabla} \\cdot \\vec{J} = 0$ only holds for steady state magnetostatics (where $\\frac{\\partial\\rho}{\\partial t} = 0$). For time-varying fields, it is inconsistent.\n3. Maxwell's Correction: Maxwell proposed that Ampere's law must be modified by adding a new current density term $\\vec{J}_d$: $\\vec{\\nabla} \\times \\vec{B} = \\mu_0 (\\vec{J} + \\vec{J}_d)$.\n4. Determining $\\vec{J}_d$: Taking the divergence of the modified equation: $\\vec{\\nabla} \\cdot (\\vec{\\nabla} \\times \\vec{B}) = \\mu_0 (\\vec{\\nabla} \\cdot \\vec{J} + \\vec{\\nabla} \\cdot \\vec{J}_d) = 0 \\implies \\vec{\\nabla} \\cdot \\vec{J}_d = -\\vec{\\nabla} \\cdot \\vec{J}$.\nSubstituting the continuity equation: $\\vec{\\nabla} \\cdot \\vec{J}_d = \\frac{\\partial\\rho}{\\partial t}$.\n5. Using Gauss's Law: Since $\\vec{\\nabla} \\cdot \\vec{E} = \\frac{\\rho}{\\varepsilon_0} \\implies \\rho = \\varepsilon_0 \\vec{\\nabla} \\cdot \\vec{E}$, we get: $\\vec{\\nabla} \\cdot \\vec{J}_d = \\frac{\\partial}{\\partial t}(\\varepsilon_0 \\vec{\\nabla} \\cdot \\vec{E}) = \\vec{\\nabla} \\cdot \\left(\\varepsilon_0 \\frac{\\partial\\vec{E}}{\\partial t}\\right)$. By inspection, the displacement current density is: $\\vec{J}_d = \\varepsilon_0 \\frac{\\partial\\vec{E}}{\\partial t}$ (or $\\frac{\\partial\\vec{D}}{\\partial t}$ in matter).\n6. Displacement Current: The term $I_d = \\iint \\vec{J}_d \\cdot d\\vec{a} = \\varepsilon_0 \\iint \\frac{\\partial\\vec{E}}{\\partial t} \\cdot d\\vec{a}$ is called the displacement current. It represents a changing electric flux in space and produces a magnetic field just like a real conduction current."
+        "question": "State and prove Poynting\u2019s theorem for the conservation of energy in an electromagnetic field, and discuss the physical significance of each term in the equation.[8]",
+        "answerKey": "1. **Poynting Vector**:\n$\\vec{S} = \\frac{1}{\\mu_0} (\\vec{E} \\times \\vec{B})$ representing energy flow per unit area per unit time.\n2. **Poynting Theorem**:\n$-\\frac{\\partial u}{\\partial t} = \\vec{\\nabla} \\cdot \\vec{S} + \\vec{J} \\cdot \\vec{E}$, stating rate of energy decrease in a volume equals energy flux flowing out plus work done on charges."
       },
       {
         "id": 12,
         "unit": "II",
-        "question": "Explain the concept of gauge transformations in electrodynamics. Write down the Coulomb and Lorentz gauge conditions and show that the potentials satisfy uncoupled wave equations in the Lorentz gauge.",
-        "answerKey": "1. Gauge Transformations: Because the electric and magnetic fields are related to potentials by $\\vec{B} = \\vec{\\nabla} \\times \\vec{A}$ and $\\vec{E} = -\\vec{\\nabla}V - \\frac{\\partial\\vec{A}}{\\partial t}$, the potentials are not unique. We can add a function to $\\vec{A}$ and subtract a corresponding term from $V$ without changing the physical fields: $\\vec{A}' = \\vec{A} + \\vec{\\nabla}\\lambda$ and $V' = V - \\frac{\\partial\\lambda}{\\partial t}$. This is a gauge transformation.\n2. Coulomb Gauge: The condition is $\\vec{\\nabla} \\cdot \\vec{A} = 0$. In this gauge, Poisson's equation for the potential holds: $\\nabla^2 V = -\\frac{\\rho}{\\varepsilon_0}$.\n3. Lorentz Gauge: The condition is $\\vec{\\nabla} \\cdot \\vec{A} = -\\mu_0\\varepsilon_0 \\frac{\\partial V}{\\partial t} = -\\frac{1}{c^2} \\frac{\\partial V}{\\partial t}$.\n4. Wave Equation for $V$ in Lorentz Gauge: Substituting the potential expressions into Maxwell's equation $\\vec{\\nabla} \\cdot \\vec{E} = \\frac{\\rho}{\\varepsilon_0}$: $\\vec{\\nabla} \\cdot \\left(-\\vec{\\nabla}V - \\frac{\\partial\\vec{A}}{\\partial t}\\right) = -\\nabla^2 V - \\frac{\\partial}{\\partial t}(\\vec{\\nabla} \\cdot \\vec{A}) = \\frac{\\rho}{\\varepsilon_0}$.\nApplying the Lorentz gauge condition: $-\\nabla^2 V - \\frac{\\partial}{\\partial t}\\left(-\\frac{1}{c^2} \\frac{\\partial V}{\\partial t}\\right) = \\frac{\\rho}{\\varepsilon_0} \\implies \\nabla^2 V - \\frac{1}{c^2} \\frac{\\partial^2 V}{\\partial t^2} = -\\frac{\\rho}{\\varepsilon_0}$.\n5. Wave Equation for $\\vec{A}$ in Lorentz Gauge: Substituting into the Ampere-Maxwell equation $\\vec{\\nabla} \\times \\vec{B} = \\mu_0\\vec{J} + \\mu_0\\varepsilon_0 \\frac{\\partial\\vec{E}}{\\partial t}$: $\\vec{\\nabla} \\times (\\vec{\\nabla} \\times \\vec{A}) = \\vec{\\nabla}(\\vec{\\nabla} \\cdot \\vec{A}) - \\nabla^2 \\vec{A} = \\mu_0\\vec{J} + \\mu_0\\varepsilon_0 \\frac{\\partial}{\\partial t}\\left(-\\vec{\\nabla}V - \\frac{\\partial\\vec{A}}{\\partial t}\\right)$.\nRearranging: $\\vec{\\nabla}\\left(\\vec{\\nabla} \\cdot \\vec{A} + \\mu_0\\varepsilon_0 \\frac{\\partial V}{\\partial t}\\right) - \\nabla^2 \\vec{A} = \\mu_0\\vec{J} - \\mu_0\\varepsilon_0 \\frac{\\partial^2 \\vec{A}}{\\partial t^2}$.\nSince the term in parentheses is zero under the Lorentz gauge condition, we obtain: $\\nabla^2 \\vec{A} - \\frac{1}{c^2} \\frac{\\partial^2 \\vec{A}}{\\partial t^2} = -\\mu_0\\vec{J}$. These are uncoupled wave equations for both potentials."
+        "question": "Define depth of penetration (skin depth). Show that electromagnetic waves are heavily attenuated inside a good conductor.[6] Page 1 of 2 --- Page 2 --- Banaras Hindu University BPT-401: EMT and Basic Electronics (Old) OR",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
       },
       {
         "id": 13,
         "unit": "II",
-        "question": "State and prove Poynting's Theorem. Explain the physical significance of the Poynting vector and show that the time-average Poynting vector is given by $\\langle\\vec{S}\\rangle = \\frac{1}{2}\\text{Re}[\\vec{E}_s \\times \\vec{H}_s^*]$.",
-        "answerKey": "1. Poynting's Theorem Statement: The work done by electromagnetic fields on charges within a volume $V$ per unit time equals the decrease in electromagnetic energy stored in that volume, minus the rate at which energy flows out through the bounding surface $S$.\n2. Derivation: The work done per unit time on a charge carrier is $q(\\vec{E} + \\vec{v} \\times \\vec{B}) \\cdot \\vec{v} = q\\vec{E} \\cdot \\vec{v}$. For a charge density $\\rho$, the work done per unit volume per unit time is $\\vec{E} \\cdot \\vec{J}$.\n3. Using Ampere's Law: We substitute $\\vec{J} = \\frac{1}{\\mu_0} (\\vec{\\nabla} \\times \\vec{B}) - \\varepsilon_0 \\frac{\\partial\\vec{E}}{\\partial t}$:\n$\\vec{E} \\cdot \\vec{J} = \\frac{1}{\\mu_0} \\vec{E} \\cdot (\\vec{\\nabla} \\times \\vec{B}) - \\varepsilon_0 \\vec{E} \\cdot \\frac{\\partial\\vec{E}}{\\partial t}$.\n4. Vector Identity: Using $\\vec{\\nabla} \\cdot (\\vec{E} \\times \\vec{B}) = \\vec{B} \\cdot (\\vec{\\nabla} \\times \\vec{E}) - \\vec{E} \\cdot (\\vec{\\nabla} \\times \\vec{B})$ and Faraday's law $\\vec{\\nabla} \\times \\vec{E} = -\\frac{\\partial\\vec{B}}{\\partial t}$:\n$\\vec{E} \\cdot (\\vec{\\nabla} \\times \\vec{B}) = -\\vec{B} \\cdot \\frac{\\partial\\vec{B}}{\\partial t} - \\vec{\\nabla} \\cdot (\\vec{E} \\times \\vec{B})$.\n5. Final Equation: Substituting back: $\\vec{E} \\cdot \\vec{J} = -\\left[ \\frac{\\partial}{\\partial t} \\left( \\frac{1}{2}\\varepsilon_0 E^2 + \\frac{1}{2\\mu_0} B^2 \\right) \\right] - \\vec{\\nabla} \\cdot \\left( \\frac{1}{\\mu_0}(\\vec{E} \\times \\vec{B}) \\right)$. Integrated over a volume $V$: $\\iiint_V \\vec{E} \\cdot \\vec{J} dV = -\\frac{\\partial}{\\partial t} \\iiint_V \\left( \\frac{1}{2}\\varepsilon_0 E^2 + \\frac{1}{2\\mu_0} B^2 \\right) dV - \\iint_S \\vec{S} \\cdot d\\vec{a}$, where $\\vec{S} = \\frac{1}{\\mu_0}(\\vec{E} \\times \\vec{B})$ is the Poynting vector, representing the energy flux density.\n6. Time Average: For time-harmonic fields represented as phasors: $\\vec{E} = \\text{Re}[\\vec{E}_s e^{j\\omega t}]$ and $\\vec{H} = \\text{Re}[\\vec{H}_s e^{j\\omega t}]$. The time-average value of their cross product is: $\\langle\\vec{S}\\rangle = \\langle\\vec{E} \\times \\vec{H}\\rangle = \\frac{1}{2} \\text{Re}[\\vec{E}_s \\times \\vec{H}_s^*]$."
+        "question": "A plane wave travelling in a homogenous, isotropic, and linear dielectric medium is incident obliquely at a plane interface of another dielectric. Determine the reflection and transmission coefficients if the incident wave is polarized with its electric vector lying perpendicular to the plane of incidence.[9]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
       },
       {
         "id": 14,
         "unit": "II",
-        "question": "Discuss the role of the Poynting vector in the momentum conservation of electrodynamics. How does the concept of electromagnetic momentum density prevent violations of Newton's third law?",
-        "answerKey": "1. Newton's Third Law Paradox: Consider two charged particles moving along perpendicular paths. The magnetic forces they exert on each other do not satisfy Newton's third law (action and reaction are not equal and opposite), as the net magnetic force is non-zero, suggesting momentum is not conserved.\n2. Momentum of Fields: Momentum conservation is restored when we realize that the electromagnetic fields themselves carry momentum.\n3. Electromagnetic Momentum Density: The momentum density stored in the fields is given by: $\\vec{g} = \\mu_0\\varepsilon_0 \\vec{S} = \\frac{\\vec{S}}{c^2} = \\varepsilon_0 (\\vec{E} \\times \\vec{B})$, where $\\vec{S}$ is the Poynting vector.\n4. Total Momentum: The total momentum of the system is the sum of the mechanical momentum of the charges ($P_{\\text{mech}}$) and the momentum of the fields ($P_{\\text{field}} = \\iiint \\vec{g} dV$).\n5. Momentum Conservation Equation: The conservation law is expressed as: $\\frac{d\\vec{P}_{\\text{mech}}}{d t} + \\frac{d}{d t}\\iiint_V \\vec{g} dV = \\iint_S \\overleftrightarrow{T} \\cdot d\\vec{a}$, where $\\overleftrightarrow{T}$ is the Maxwell stress tensor.\n6. Dual Character: The Poynting vector $\\vec{S}$ serves a dual purpose in electrodynamics: it represents the flow of energy per unit area per unit time, and when divided by $c^2$, it represents the momentum density of the fields."
+        "question": "What is a transmission line? Explain the different parameters of a transmission line. Determine the characteristic impedance of a lossless cable if the inductance per unit lengthL= 0.25\u00b5H/m and capacitance per unit lengthC= 100pF/m.[5]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
       },
       {
         "id": 15,
-        "unit": "III",
-        "question": "Using Maxwell's equations, derive the modified wave equations for the electric field $\\vec{E}$ and magnetic field $\\vec{B}$ in a homogeneous conducting medium characterized by permittivity $\\varepsilon$, permeability $\\mu$, and conductivity $\\sigma$.",
-        "answerKey": "1. Maxwell's equations in conducting media: (i) $\\vec{\\nabla} \\cdot \\vec{E} = \\frac{\\rho_f}{\\varepsilon}$, (ii) $\\vec{\\nabla} \\cdot \\vec{B} = 0$, (iii) $\\vec{\\nabla} \\times \\vec{E} = -\\frac{\\partial\\vec{B}}{\\partial t}$, (iv) $\\vec{\\nabla} \\times \\vec{B} = \\mu\\vec{J}_f + \\mu\\varepsilon \\frac{\\partial\\vec{E}}{\\partial t}$.\n2. Ohm's Law: The free current density is $\\vec{J}_f = \\sigma\\vec{E}$. In a homogeneous medium with no accumulated free charge ($\\rho_f = 0$), Gauss's law is: $\\vec{\\nabla} \\cdot \\vec{E} = 0$.\n3. Derivation for $\\vec{E}$: Taking the curl of Faraday's law: $\\vec{\\nabla} \\times (\\vec{\\nabla} \\times \\vec{E}) = \\vec{\\nabla} \\times \\left( -\\frac{\\partial\\vec{B}}{\\partial t} \\right) = -\\frac{\\partial}{\\partial t} (\\vec{\\nabla} \\times \\vec{B})$.\n4. Vector Identity: Using $\\vec{\\nabla} \\times (\\vec{\\nabla} \\times \\vec{E}) = \\vec{\\nabla}(\\vec{\\nabla} \\cdot \\vec{E}) - \\nabla^2\\vec{E}$: Since $\\vec{\\nabla} \\cdot \\vec{E} = 0$, this simplifies to $-\\nabla^2\\vec{E}$.\n5. Substitute Ampere's Law: $-\\nabla^2\\vec{E} = -\\frac{\\partial}{\\partial t} \\left( \\mu\\sigma\\vec{E} + \\mu\\varepsilon \\frac{\\partial\\vec{E}}{\\partial t} \\right) \\implies \\nabla^2\\vec{E} = \\mu\\sigma \\frac{\\partial\\vec{E}}{\\partial t} + \\mu\\varepsilon \\frac{\\partial^2\\vec{E}}{\\partial t^2}$.\n6. Derivation for $\\vec{B}$: Taking the curl of Ampere's law: $\\vec{\\nabla} \\times (\\vec{\\nabla} \\times \\vec{B}) = \\vec{\\nabla} \\times \\left( \\mu\\sigma\\vec{E} + \\mu\\varepsilon \\frac{\\partial\\vec{E}}{\\partial t} \\right) = \\mu\\sigma (\\vec{\\nabla} \\times \\vec{E}) + \\mu\\varepsilon \\frac{\\partial}{\\partial t} (\\vec{\\nabla} \\times \\vec{E})$.\nUsing $\\vec{\\nabla} \\times (\\vec{\\nabla} \\times \\vec{B}) = -\\nabla^2\\vec{B}$ and Faraday's law: $-\\nabla^2\\vec{B} = \\mu\\sigma \\left( -\\frac{\\partial\\vec{B}}{\\partial t} \\right) + \\mu\\varepsilon \\frac{\\partial}{\\partial t} \\left( -\\frac{\\partial\\vec{B}}{\\partial t} \\right) \\implies \\nabla^2\\vec{B} = \\mu\\sigma \\frac{\\partial\\vec{B}}{\\partial t} + \\mu\\varepsilon \\frac{\\partial^2\\vec{B}}{\\partial t^2}$. These are the wave equations for conducting media, showing a damping (diffusion) term due to conductivity $\\sigma$."
+        "unit": "II",
+        "question": "Explain the depletion region in a p-n junction. Show that the width of the depletion region in the p-n junction decreases with the increase of doping impurity concentration. [8]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
       },
       {
         "id": 16,
-        "unit": "III",
-        "question": "For a monochromatic plane EM wave propagating in a conducting medium, find expressions for the attenuation constant $\\alpha$ and phase constant $\\beta$ in terms of $\\mu, \\varepsilon, \\sigma$ and angular frequency $\\omega$. Show that in a good conductor, the magnetic field lags the electric field by $45^\\circ$.",
-        "answerKey": "1. Complex Wave Number: Assuming wave solutions of the form $e^{j(\\omega t - \\tilde{k}z)}$, the wave equations yield the complex wave number: $\\tilde{k}^2 = \\mu\\varepsilon\\omega^2 - j\\mu\\sigma\\omega$.\n2. Real and Imaginary Parts: Let $\\tilde{k} = \\beta - j\\alpha$. Squaring this: $(\\beta - j\\alpha)^2 = \\beta^2 - \\alpha^2 - 2j\\alpha\\beta = \\mu\\varepsilon\\omega^2 - j\\mu\\sigma\\omega$.\nEquating real and imaginary parts:\n(i) $\\beta^2 - \\alpha^2 = \\mu\\varepsilon\\omega^2$,\n(ii) $2\\alpha\\beta = \\mu\\sigma\\omega$.\n3. Solving for $\\alpha$ and $\\beta$: By solving this system of equations, we obtain:\n$\\beta = \\omega \\sqrt{\\frac{\\mu\\varepsilon}{2}} \\left[ \\sqrt{1 + \\left(\\frac{\\sigma}{\\varepsilon\\omega}\\right)^2} + 1 \\right]^{1/2}$\n$\\alpha = \\omega \\sqrt{\\frac{\\mu\\varepsilon}{2}} \\left[ \\sqrt{1 + \\left(\\frac{\\sigma}{\\varepsilon\\omega}\\right)^2} - 1 \\right]^{1/2}$.\n4. Good Conductor Approximation: In a good conductor ($\\frac{\\sigma}{\\varepsilon\\omega} \\gg 1$), we have: $\\alpha \\approx \\beta \\approx \\sqrt{\\frac{\\mu\\sigma\\omega}{2}}$.\n5. Intrinsic Impedance: The ratio of electric and magnetic fields is the complex intrinsic impedance: $\\tilde{\\eta} = \\frac{E_0}{H_0} = \\sqrt{\\frac{\\mu}{\\varepsilon - j(\\sigma/\\omega)}} = \\sqrt{\\frac{j\\mu\\omega}{\\sigma}}$ (for a good conductor).\nSince $\\sqrt{j} = e^{j\\pi/4}$, we can write: $\\tilde{\\eta} = \\sqrt{\\frac{\\mu\\omega}{\\sigma}} e^{j\\pi/4}$.\n6. Phase Lag: The phase of the impedance is $45^\\circ$ ($\\pi/4$ radians), which means the magnetic field $\\vec{H}$ lags the electric field $\\vec{E}$ by $45^\\circ$."
+        "unit": "II",
+        "question": "Describe the working of a single-stage RC coupled common-emitter amplifier. Plot the frequency response of the amplifier and explain its features.[6] OR",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
       },
       {
         "id": 17,
-        "unit": "III",
-        "question": "What is the skin effect? Define skin depth. Calculate the skin depth for copper ($\\sigma = 5.8 \\times 10^7$ mho/m, $\\mu = \\mu_0$) at a frequency of $10^8$ Hz.",
-        "answerKey": "1. Skin Effect: When an electromagnetic wave propagates in a conducting medium, its amplitude decays exponentially as $e^{-\\alpha z}$ due to energy dissipation. The currents and fields are thus concentrated primarily near the surface of the conductor (the skin).\n2. Skin Depth Definition: The skin depth $\\delta$ is the distance into the conductor at which the amplitude of the fields decreases to $1/e$ (approx. 36.8%) of its value at the surface: $\\delta = \\frac{1}{\\alpha}$.\n3. Skin Depth for Good Conductor: For a good conductor, $\\alpha = \\sqrt{\\frac{\\mu\\sigma\\omega}{2}}$, so $\\delta = \\sqrt{\\frac{2}{\\mu\\sigma\\omega}} = \\frac{1}{\\sqrt{\\pi f \\mu \\sigma}}$.\n4. Calculation for Copper:\n- Given: $\\sigma = 5.8 \\times 10^7$ S/m, $f = 10^8$ Hz,\n- $\\mu = \\mu_0 = 4\\pi \\times 10^{-7}$ H/m.\n5. Formula Evaluation: $\\delta = \\frac{1}{\\sqrt{\\pi \\times 10^8 \\times (4\\pi \\times 10^{-7}) \\times (5.8 \\times 10^7)}} = \\frac{1}{\\sqrt{4\\pi^2 \\times 5.8 \\times 10^8}} = \\frac{1}{2\\pi \\sqrt{5.8 \\times 10^8}}$.\n- $\\delta = \\frac{1}{2\\pi \\times 2.4083 \\times 10^4} = \\frac{1}{1.513 \\times 10^5} \\approx 6.61 \\times 10^{-6}$ meters.\n6. Conclusion: The skin depth of copper at $10^8$ Hz is $6.61 \\ \\mu\\text{m}$."
+        "unit": "II",
+        "question": "Explain the working of a full-wave bridge rectifier having a capacitor filter with a suitable circuit diagram. Obtain the relationship for the ripple factor.[8]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
       },
       {
         "id": 18,
-        "unit": "III",
-        "question": "Discuss electromagnetic wave propagation in a lossy dielectric medium. Define loss tangent and classify media based on its value.",
-        "answerKey": "1. Lossy Dielectric Definition: A lossy dielectric is a medium that is a poor conductor, but is not a perfect insulator (meaning it has non-zero conductivity $\\sigma$).\n2. Complex Permittivity: The Maxwell-Ampere equation is $\\vec{\\nabla} \\times \\vec{H} = j\\omega\\left( \\varepsilon - j\\frac{\\sigma}{\\omega} \\right)\\vec{E} = j\\omega\\tilde{\\varepsilon}\\vec{E}$, where $\\tilde{\\varepsilon} = \\varepsilon' - j\\varepsilon'' = \\varepsilon - j\\frac{\\sigma}{\\omega}$ is the complex permittivity.\n3. Loss Tangent: The loss tangent is defined as the ratio of conduction current density to displacement current density: $\\tan\\theta = \\frac{J_c}{J_d} = \\frac{\\sigma\\vec{E}}{\\omega\\varepsilon\\vec{E}} = \\frac{\\sigma}{\\omega\\varepsilon}$. Here $\\theta$ is the loss angle.\n4. Intrinsic Impedance: The complex intrinsic impedance is $\\tilde{\\eta} = \\sqrt{\\frac{\\mu}{\\tilde{\\varepsilon}}} = |\\eta| e^{j\\theta_\\eta}$. The phase angle of the impedance is related to the loss angle by $\\theta = 2\\theta_\\eta$.\n5. Classification of Media:\n- Lossless dielectric (perfect insulator): $\\sigma \\approx 0 \\implies \\tan\\theta = 0$.\n- Low-loss dielectric (lossy dielectric): $\\frac{\\sigma}{\\omega\\varepsilon} \\ll 1 \\implies \\delta \\gg \\lambda$.\n- Good conductor: $\\frac{\\sigma}{\\omega\\varepsilon} \\gg 1 \\implies \\delta \\ll \\lambda$."
+        "unit": "II",
+        "question": "Why does a transistor need biasing? Draw the circuit diagram of a transistor self-bias (voltage divider bias) circuit. Explain how it provides better thermal stability than a fixed-bias circuit.[6]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
       },
       {
         "id": 19,
-        "unit": "IV",
-        "question": "Consider the oblique incidence of an EM wave at a boundary between two lossless dielectrics. For perpendicular polarization (s-polarization), derive the expressions for the reflection and transmission coefficients.",
-        "answerKey": "1. Definition of Perpendicular (s) Polarization: The electric field vector $\\vec{E}$ of the incident wave is perpendicular to the plane of incidence (parallel to the boundary interface, say along the y-axis).\n2. Field Expressions:\n- Incident: $\\vec{E}_i = E_{i0} \\hat{y} e^{-j\\vec{k}_i \\cdot \\vec{r}}$, $\\vec{H}_i = \\frac{E_{i0}}{\\eta_1}(-\\cos\\theta_i \\hat{x} + \\sin\\theta_i \\hat{z}) e^{-j\\vec{k}_i \\cdot \\vec{r}}$.\n- Reflected: $\\vec{E}_r = E_{r0} \\hat{y} e^{-j\\vec{k}_r \\cdot \\vec{r}}$, $\\vec{H}_r = \\frac{E_{r0}}{\\eta_1}(\\cos\\theta_r \\hat{x} + \\sin\\theta_r \\hat{z}) e^{-j\\vec{k}_r \\cdot \\vec{r}}$.\n- Transmitted: $\\vec{E}_t = E_{t0} \\hat{y} e^{-j\\vec{k}_t \\cdot \\vec{r}}$, $\\vec{H}_t = \\frac{E_{t0}}{\\eta_2}(-\\cos\\theta_t \\hat{x} + \\sin\\theta_t \\hat{z}) e^{-j\\vec{k}_t \\cdot \\vec{r}}$.\n3. Boundary Conditions at $z=0$:\n- Tangential $\\vec{E}$ continuity: $E_{i0} + E_{r0} = E_{t0}$.\n- Tangential $\\vec{H}$ continuity: $-\\frac{E_{i0}}{\\eta_1}\\cos\\theta_i + \\frac{E_{r0}}{\\eta_1}\\cos\\theta_i = -\\frac{E_{t0}}{\\eta_2}\\cos\\theta_t \\implies E_{i0} - E_{r0} = E_{t0} \\left( \\frac{\\eta_1\\cos\\theta_t}{\\eta_2\\cos\\theta_i} \\right)$.\n4. Reflection Coefficient ($\\Gamma_\\perp$): Solving the two equations:\n$\\Gamma_\\perp = \\frac{E_{r0}}{E_{i0}} = \\frac{\\eta_2\\cos\\theta_i - \\eta_1\\cos\\theta_t}{\\eta_2\\cos\\theta_i + \\eta_1\\cos\\theta_t}$.\n5. Transmission Coefficient ($\\tau_\\perp$): $\\tau_\\perp = \\frac{E_{t0}}{E_{i0}} = \\frac{2\\eta_2\\cos\\theta_i}{\\eta_2\\cos\\theta_i + \\eta_1\\cos\\theta_t}$.\n6. Verification: This satisfies the relation $1 + \\Gamma_\\perp = \\tau_\\perp$."
+        "unit": "II",
+        "question": "Starting from Maxwell\u2019s equations, derive the wave equation for the propagation of a plane electromagnetic wave in free space. Obtain the solution representing a plane wave propagating along the+zdirection.[7]",
+        "answerKey": "1. **Maxwell's Equations**:\n(i) $\\vec{\\nabla} \\cdot \\vec{E} = \\rho/\\varepsilon_0$, (ii) $\\vec{\\nabla} \\cdot \\vec{B} = 0$, (iii) $\\vec{\\nabla} \\times \\vec{E} = -\\frac{\\partial\\vec{B}}{\\partial t}$, (iv) $\\vec{\\nabla} \\times \\vec{B} = \\mu_0\\vec{J} + \\mu_0\\varepsilon_0 \\frac{\\partial\\vec{E}}{\\partial t}$.\n2. **Displacement Current**:\n$I_d = \\varepsilon_0 \\frac{\\partial\\Phi_E}{\\partial t}$. Resolves charge conservation discontinuity in Ampere's law."
       },
       {
         "id": 20,
-        "unit": "IV",
-        "question": "What is Brewster's angle? Show that for perpendicular polarization (s-polarization) at a boundary between two lossless dielectrics, no Brewster's angle exists if they are non-magnetic ($\\mu_1 = \\mu_2 = \\mu_0$).",
-        "answerKey": "1. Brewster's Angle Definition: The angle of incidence at which the reflection coefficient is zero (all energy is transmitted), meaning the reflected wave is completely eliminated.\n2. Condition for Perpendicular Polarization Brewster Angle: Set $\\Gamma_\\perp = 0 \\implies \\eta_2\\cos\\theta_B - \\eta_1\\cos\\theta_t = 0 \\implies \\eta_2\\cos\\theta_B = \\eta_1\\cos\\theta_t$.\n3. Squaring both sides: $\\eta_2^2 \\cos^2\\theta_B = \\eta_1^2 \\cos^2\\theta_t \\implies \\eta_2^2 (1 - \\sin^2\\theta_B) = \\eta_1^2 (1 - \\sin^2\\theta_t)$.\n4. Using Snell's Law: $\\sin\\theta_t = \\frac{n_1}{n_2}\\sin\\theta_B = \\sqrt{\\frac{\\mu_1\\varepsilon_1}{\\mu_2\\varepsilon_2}}\\sin\\theta_B$.\n5. Non-Magnetic Media Simplification: For $\\mu_1 = \\mu_2 = \\mu_0$, we have $\\eta = \\sqrt{\\frac{\\mu_0}{\\varepsilon}} \\implies \\eta_2^2 = \\frac{\\mu_0}{\\varepsilon_2}$ and $\\eta_1^2 = \\frac{\\mu_0}{\\varepsilon_1}$. Also $\\sin^2\\theta_t = \\frac{\\varepsilon_1}{\\varepsilon_2} \\sin^2\\theta_B$.\nSubstituting these: $\\frac{1}{\\varepsilon_2}(1 - \\sin^2\\theta_B) = \\frac{1}{\\varepsilon_1}\\left(1 - \\frac{\\varepsilon_1}{\\varepsilon_2}\\sin^2\\theta_B\\right) \\implies \\frac{1}{\\varepsilon_2} - \\frac{1}{\\varepsilon_2}\\sin^2\\theta_B = \\frac{1}{\\varepsilon_1} - \\frac{1}{\\varepsilon_2}\\sin^2\\theta_B$.\n6. Contradiction: This simplifies to $\\frac{1}{\\varepsilon_2} = \\frac{1}{\\varepsilon_1} \\implies \\varepsilon_1 = \\varepsilon_2$.\n7. Conclusion: This is only possible if the two media are identical (no boundary exists). Thus, for non-magnetic media, there is no Brewster angle for perpendicular polarization."
+        "unit": "II",
+        "question": "Find the Brewster angle for a parallel-polarized wave travelling from air into glass for which\u03b5r = 5.0.[4]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
       },
       {
         "id": 21,
-        "unit": "IV",
-        "question": "Derive the wave equation for wave propagation in a hollow rectangular waveguide with dimensions $a \\times b$ along the z-direction. Specify the boundary conditions at the conducting walls.",
-        "answerKey": "1. Setup: Wave propagates along the z-axis: $\\vec{E} = \\vec{E}_0(x,y) e^{-j\\beta z}$ and $\\vec{H} = \\vec{H}_0(x,y) e^{-j\\beta z}$.\n2. Helmholtz Equations: The z-components satisfy: $\\nabla^2 E_z + k^2 E_z = 0$ and $\\nabla^2 H_z + k^2 H_z = 0$, where $\\nabla^2 = \\frac{\\partial^2}{\\partial x^2} + \\frac{\\partial^2}{\\partial y^2} - \\beta^2$.\n3. Transverse Wave Equation: Defining $k_c^2 = k^2 - \\beta^2 = \\omega^2\\mu\\varepsilon - \\beta^2$, the z-components satisfy the 2D wave equations:\n$\\left( \\frac{\\partial^2}{\\partial x^2} + \\frac{\\partial^2}{\\partial y^2} + k_c^2 \\right) E_z = 0$,\n$\\left( \\frac{\\partial^2}{\\partial x^2} + \\frac{\\partial^2}{\\partial y^2} + k_c^2 \\right) H_z = 0$.\n4. Boundary Conditions at Conducting Walls ($x=0,a$ and $y=0,b$):\n- The tangential electric field must vanish: $E_{\\text{tan}} = 0$.\n- Therefore, $E_z = 0$ at the walls: $E_z(0,y) = E_z(a,y) = E_z(x,0) = E_z(x,b) = 0$.\n5. Magnetic Field Boundary Condition: The normal component of $\\vec{B}$ must vanish at the walls. This translates to the derivative of $H_z$ vanishing at the boundaries: $\\left. \\frac{\\partial H_z}{\\partial x} \\right|_{x=0,a} = 0$ and $\\left. \\frac{\\partial H_z}{\\partial y} \\right|_{y=0,b} = 0$."
+        "unit": "III",
+        "question": "Explain the meaning of the Early effect. How does it affect the collector current in a junction transistor?[3] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 2 of 2",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
       },
       {
         "id": 22,
-        "unit": "IV",
-        "question": "Show that a hollow rectangular waveguide does not support Transverse Electromagnetic (TEM) waves, and explain why $\\text{TM}_{11}$ is the lowest-order Transverse Magnetic mode.",
-        "answerKey": "1. TEM Mode Definition: Both the electric and magnetic fields are entirely transverse to the direction of propagation ($E_z = 0$ and $H_z = 0$).\n2. Gauss's Law in Waveguide: Since $\\vec{\\nabla} \\cdot \\vec{E} = 0$ and $E_z = 0$, we have: $\\frac{\\partial E_x}{\\partial x} + \\frac{\\partial E_y}{\\partial y} = 0$.\n3. Faraday's Loop Law: For TEM waves, $\\vec{\\nabla} \\times \\vec{E} = 0$ (electrostatic-like in the transverse plane). Thus, $\\vec{E}$ can be written as the gradient of a 2D potential $\\phi(x,y)$: $\\vec{E} = -\\vec{\\nabla}\\phi$, which satisfies Laplace's equation: $\\frac{\\partial^2 \\phi}{\\partial x^2} + \\frac{\\partial^2 \\phi}{\\partial y^2} = 0$.\n4. Boundary Condition on $\\phi$: The boundary walls are perfect conductors and must be at a constant potential, say $\\phi = 0$. By the uniqueness theorem of Laplace's equation, a solution with $\\phi = 0$ on all boundaries must be $\\phi = 0$ everywhere inside the waveguide. Thus, $\\vec{E} = 0$ everywhere, meaning no TEM wave can exist.\n5. TM Mode Expression: For TM waves ($H_z = 0$), $E_z$ is given by: $E_z(x,y) = E_0 \\sin\\left(\\frac{m\\pi x}{a}\\right) \\sin\\left(\\frac{n\\pi y}{b}\\right)$.\n6. Cutoff Condition: To have a non-trivial field, both $m$ and $n$ must be non-zero integers because if $m=0$ or $n=0$, then $E_z = 0$ everywhere. Thus, the lowest non-zero mode indices are $m=1, n=1$, which makes $\\text{TM}_{11}$ the lowest-order TM mode."
+        "unit": "III",
+        "question": "Question 1.Answer anyfourof the following:[4\u00d75 = 20]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
       },
       {
         "id": 23,
-        "unit": "IV",
-        "question": "Define phase velocity ($u_p$) and group velocity ($u_g$) in a waveguide. Prove that $u_p u_g = c^2$. Does a phase velocity greater than $c$ violate the special theory of relativity?",
-        "answerKey": "1. Definitions: (a) Phase velocity ($u_p$) is the velocity at which the phase of a single frequency wave component propagates: $u_p = \\frac{\\omega}{\\beta}$. (b) Group velocity ($u_g$) is the velocity at which the energy or envelope of a wave packet propagates: $u_g = \\frac{d\\omega}{d\\beta}$.\n2. Dispersion Relation: The wave propagation constant in a waveguide is: $\\beta = \\sqrt{\\frac{\\omega^2}{c^2} - k_c^2} \\implies \\beta^2 = \\frac{\\omega^2}{c^2} - k_c^2$.\n3. Deriving Phase Velocity: $u_p = \\frac{\\omega}{\\beta} = \\frac{\\omega}{\\sqrt{\\omega^2/c^2 - k_c^2}} = \\frac{c}{\\sqrt{1 - (\\omega_c/\\omega)^2}}$ (where $\\omega_c = c k_c$). Since the term in the square root is less than 1, $u_p > c$.\n4. Deriving Group Velocity: Differentiating the dispersion relation: $2\\beta d\\beta = \\frac{2\\omega}{c^2} d\\omega \\implies \\frac{d\\omega}{d\\beta} = \\frac{\\beta c^2}{\\omega}$. Thus: $u_g = \\frac{\\beta c^2}{\\omega} = c \\sqrt{1 - (\\omega_c/\\omega)^2}$. Since the term in the square root is less than 1, $u_g < c$.\n5. Product Proof: $u_p \\cdot u_g = \\left( \\frac{\\omega}{\\beta} \\right) \\left( \\frac{\\beta c^2}{\\omega} \\right) = c^2$. This completes the proof.\n6. Special Relativity Check: No, this does not violate relativity. The phase velocity ($u_p > c$) is the speed of a mathematical phase front and cannot carry any information, energy, or signal. The physical signal and energy propagate at the group velocity ($u_g < c$), which always remains less than the speed of light in vacuum."
+        "unit": "III",
+        "question": "Show that the vector field\u20d7 v=yz\u02c6i +zx\u02c6j +xy\u02c6k can be written as the gradient of a scalar fieldf(x,y,z).",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
       },
       {
         "id": 24,
-        "unit": "IV",
-        "question": "Show that the $\\text{TE}_{10}$ mode of a rectangular waveguide can be represented as the sum of two plane TEM waves propagating along zigzag paths between the guide walls.",
-        "answerKey": "1. $\\text{TE}_{10}$ Electric Field: For $\\text{TE}_{10}$ mode ($m=1, n=0$), the transverse electric field component is: $E_y = E_0 \\sin\\left(\\frac{\\pi x}{a}\\right) e^{-j\\beta z}$.\n2. Euler's Formula Substitution: We write the sine function as complex exponentials: $\\sin\\left(\\frac{\\pi x}{a}\\right) = \\frac{e^{j\\pi x/a} - e^{-j\\pi x/a}}{2j}$.\n3. Expanding $E_y$: $E_y = \\frac{E_0}{2j} \\left( e^{j\\pi x/a} - e^{-j\\pi x/a} \\right) e^{-j\\beta z} = \\frac{E_0}{2j} \\left( e^{-j(\\beta z - \\pi x/a)} - e^{-j(\\beta z + \\pi x/a)} \\right)$.\n4. Wave Vectors: Let $\\vec{k}_1 = \\frac{\\pi}{a} \\hat{x} + \\beta \\hat{z}$ and $\\vec{k}_2 = -\\frac{\\pi}{a} \\hat{x} + \\beta \\hat{z}$. These represent wave vectors of two plane TEM waves.\n5. Phase terms: The term $\\beta z - \\pi x/a = \\vec{k}_2 \\cdot \\vec{r}$ and $\\beta z + \\pi x/a = \\vec{k}_1 \\cdot \\vec{r}$.\n6. Interpretation: The expression represents two plane waves propagating at angle $\\theta$ relative to the z-axis, where $\\cos\\theta = \\frac{\\beta}{k}$ and $\\sin\\theta = \\frac{\\pi}{k a}$. The two waves bounce back and forth off the side walls at $x=0$ and $x=a$ (zigzag paths), interfering to form a standing wave in the x-direction and a traveling wave in the z-direction."
+        "unit": "III",
+        "question": "If an infinitely long straight wire carries a uniform line charge density\u03bb, find the electric field at a distancerfrom this wire.",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
       },
       {
         "id": 25,
+        "unit": "III",
+        "question": "Ifthepotentialduetoacontinuouschargedistributioniswrittenas V (\u20d7 r) = 1 4\u03c0\u03f50 \u222b \u03c1(\u20d7 r\u2032) |\u20d7 r\u2212\u20d7 r\u2032|d\u03c4\u2032, obtain\u22072V(\u20d7 r).",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "A parallel polarized electromagnetic wave is incident from air to polystyrene (\u00b5\u2248\u00b50, \u03f5r = 2.6) at the Brewster angle. Determine the transmission angle.",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Determine the state of polarization for the wave whose electric field is given by: \u20d7E(z,t) =E 0(\u02c6icos(kz\u2212\u03c9t)\u2212\u02c6jsin(kz\u2212\u03c9t))",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Calculate the intrinsic impedance of free space.",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "What is a linear dielectric medium? How do Maxwell\u2019s equations modify in such a linear dielectric medium?[6]",
+        "answerKey": "1. **Maxwell's Equations**:\n(i) $\\vec{\\nabla} \\cdot \\vec{E} = \\rho/\\varepsilon_0$, (ii) $\\vec{\\nabla} \\cdot \\vec{B} = 0$, (iii) $\\vec{\\nabla} \\times \\vec{E} = -\\frac{\\partial\\vec{B}}{\\partial t}$, (iv) $\\vec{\\nabla} \\times \\vec{B} = \\mu_0\\vec{J} + \\mu_0\\varepsilon_0 \\frac{\\partial\\vec{E}}{\\partial t}$.\n2. **Displacement Current**:\n$I_d = \\varepsilon_0 \\frac{\\partial\\Phi_E}{\\partial t}$. Resolves charge conservation discontinuity in Ampere's law."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Does the Poynting vector correspond to a dual character in the energy-momentum conservation laws in electrodynamics? Explain in detail.[6]",
+        "answerKey": "1. **Poynting Vector**:\n$\\vec{S} = \\frac{1}{\\mu_0} (\\vec{E} \\times \\vec{B})$ representing energy flow per unit area per unit time.\n2. **Poynting Theorem**:\n$-\\frac{\\partial u}{\\partial t} = \\vec{\\nabla} \\cdot \\vec{S} + \\vec{J} \\cdot \\vec{E}$, stating rate of energy decrease in a volume equals energy flux flowing out plus work done on charges."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "In a lossless medium for which intrinsic impedance\u03b7= 60\u03c0, relative permeability\u00b5r = 1, and magnetic field: \u20d7H=\u22120.1 cos(\u03c9t\u2212z)\u02c6i+ 0.5 sin(\u03c9t\u2212z)\u02c6jA/m find the relative permittivity\u03f5r and the angular frequency\u03c9.[8]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "What is a phasor? The electric and magnetic fields in free space are given by\u20d7E = E0 cos(108t +\u03b2z)\u02c6i V/m and \u20d7H = H0 cos(108t +\u03b2z)\u02c6j A/m. Find the phasor form of these fields.[6] Page 1 of 2 --- Page 2 --- Banaras Hindu University BPT-505: Electromagnetic Theory",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "How do the laws of electrostatics enforce boundary conditions on the electric field and the corresponding electrostatic potential?[6]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "Why does any net charge reside entirely on the surface of a conductor? Explain.[6] OR",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "Using the general solution of the Laplace equation in spherical polar coordinates with azimuthal symmetry, determine the potential outside the surface of a hollow empty sphere of radiusR if the surface potential is maintained atV0(\u03b8) = V0 sin2(\u03b8/2), where V0 is a constant.[8]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "For a uniform magnetic field\u20d7B, show that\u20d7A =\u22121 2 (\u20d7 r\u00d7\u20d7B)is a valid vector potential such that\u2207\u00b7\u20d7A= 0and\u2207\u00d7\u20d7A= \u20d7B.[6]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "A standard air-filled rectangular waveguide with dimensionsa = 8.636cm and b =",
+        "answerKey": "1. **TEM wave exclusion**:\nTEM requires $E_z = 0, H_z = 0$. Since boundary is conducting, potential $\\Phi = 0$ on walls. By Laplace's uniqueness, $\\Phi = 0$ inside waveguide, meaning $\\vec{E} = 0$, so no TEM wave can exist.\n2. **Cutoff Frequency**:\n$f_c = \\frac{c}{2} \\sqrt{(m/a)^2 + (n/b)^2}$."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "318cm is fed by a4GHz carrier wave. Determine if theTM 11 mode will propagate. If so, calculate the phase and group velocities of this mode.[8]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "Show that a rectangular waveguide does not supportTM10 andTM 01 modes.[6] OR",
+        "answerKey": "1. **TEM wave exclusion**:\nTEM requires $E_z = 0, H_z = 0$. Since boundary is conducting, potential $\\Phi = 0$ on walls. By Laplace's uniqueness, $\\Phi = 0$ inside waveguide, meaning $\\vec{E} = 0$, so no TEM wave can exist.\n2. **Cutoff Frequency**:\n$f_c = \\frac{c}{2} \\sqrt{(m/a)^2 + (n/b)^2}$."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "Derive the general expressions of the attenuation constant\u03b1and phase constant\u03b2for electromagnetic wave propagation in conducting media.[8]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 41,
         "unit": "V",
-        "question": "State the two postulates of the Special Theory of Relativity. Write down the Lorentz coordinate transformation equations and derive the length contraction formula.",
-        "answerKey": "1. Postulates of Special Relativity: (i) The Principle of Relativity: The laws of physics are the same in all inertial frames of reference. (ii) The Constancy of the Speed of Light: The speed of light in vacuum ($c$) is constant and has the same value in all inertial frames of reference, independent of the motion of the source or observer.\n2. Lorentz Transformation Equations: For a frame $S'$ moving with velocity $v$ along the positive x-axis of a stationary frame $S$, the coordinate relations are: $x' = \\gamma(x - vt)$, $y' = y$, $z' = z$, and $t' = \\gamma\\left(t - \\frac{vx}{c^2}\\right)$, where $\\gamma = \\frac{1}{\\sqrt{1 - v^2/c^2}}$.\n3. Length Contraction Derivation: Consider a rod at rest in frame $S'$ (proper frame). Its length is $L_0 = x'_2 - x'_1$.\n4. Measurement in $S$: An observer in $S$ measures the length of the moving rod by finding its end coordinates $x_2$ and $x_1$ at the same instant of time ($t_2 = t_1 = t$).\n5. Applying Lorentz Transformation: $x'_2 = \\gamma(x_2 - vt_2)$ and $x'_1 = \\gamma(x_1 - vt_1)$.\n6. Subtracting the equations: $x'_2 - x'_1 = \\gamma[(x_2 - x_1) - v(t_2 - t_1)]$. Since $t_2 = t_1$, this simplifies to: $L_0 = \\gamma L \\implies L = \\frac{L_0}{\\gamma} = L_0 \\sqrt{1 - v^2/c^2}$. Since $\\gamma > 1$, the measured length $L$ is always less than the proper length $L_0$."
+        "question": "Prove the relationR +T = 1for normal incidence of electromagnetic waves at the boundary between two media.[6] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 2 of 2",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "In a lossy dielectric medium, show thattan\u03b4=\u03f5\u2032\u2032/\u03f5\u2032, where\u03b4is the loss angle of the medium. Show how the phase of the intrinsic impedance is related to the loss angle.[8] (ii) Consider the multipole expansion of the electrostatic potential and show that the dipole term can be written in the form:",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Question 3. (iii) Consider Ampere\u2019s law in the presence of magnetic materials. Write it in both differential and integral forms. Obtain the magnetostatic boundary conditions using the integral form of the equations.[8] (iv) Discuss the propagation of electromagnetic waves in a lossy dielectric medium and derive the expression for the intrinsic impedance of the medium.[6] OR",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "What do you mean by the divergence of a vector field? Calculate the divergence of:",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Question 4.Obtain the electrostatic potential both inside and outside of a hollow sphere of radiusR which is maintained at a constant surface charge density\u03c30. [12]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Question 5. (vi) Show that theTE 10 mode is the dominant mode (lowest cutoff frequency) of all the modes supported by a rectangular waveguide.[8] (vii) Derive the relation between reflection and transmission coefficients for an obliquely incident electromagnetic wave at a dielectric interface where the wave electric field is parallel to the plane of incidence (parallel polarization).[6] Page 1 of 2 --- Page 2 --- Banaras Hindu University BPT-505: Electromagnetic Theory OR (viii) A plane electromagnetic wave is normally incident on the boundaryz = 0formed by a lossless dielectric medium and a good conductor. Obtain thez-values at which the minimum value of|E1y|occurs in medium 1, whereE1y is the total electric field in medium 1.[8] (ix) Show that aTE 10 mode of a rectangular waveguide can be represented as a sum of two plane TEM waves propagating along zigzag paths between the guide walls. [6] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 2 of 2",
+        "answerKey": "1. **TEM wave exclusion**:\nTEM requires $E_z = 0, H_z = 0$. Since boundary is conducting, potential $\\Phi = 0$ on walls. By Laplace's uniqueness, $\\Phi = 0$ inside waveguide, meaning $\\vec{E} = 0$, so no TEM wave can exist.\n2. **Cutoff Frequency**:\n$f_c = \\frac{c}{2} \\sqrt{(m/a)^2 + (n/b)^2}$."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Question 1.Answer anyfourof the following:[4\u00d73.5 = 14]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "State Fermat\u2019s principle of least time with an example.",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "What is polarized light? What nature of light is shown by polarization?",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "What will be the refractive index of a medium in which the speed of light is2.5\u00d7 108m/s?",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
       }
     ]
   },
@@ -8256,156 +10231,307 @@ export const EXAMS = {
     "module": "PHYMJ42",
     "duration": 60,
     "type": "theory",
+    "comingSoon": false,
     "questions": [
       {
         "id": 1,
         "unit": "I",
-        "question": "Explain covariant and contravariant vectors and tensors. Show that the Kronecker Delta $\\delta^i_j$ is a mixed tensor of rank 2.",
-        "answerKey": "1. Contravariant Vectors: Quantities that transform like coordinate differentials $dx^i$. Under a transformation $x^i \\to \\bar{x}^i$, contravariant components transform as: $\\bar{A}^i = \\sum_j \\frac{\\partial\\bar{x}^i}{\\partial x^j} A^j$.\n2. Covariant Vectors: Quantities that transform like the gradient of a scalar field $\\frac{\\partial\\phi}{\\partial x^i}$. Under $x^i \\to \\bar{x}^i$, covariant components transform as: $\\bar{B}_i = \\sum_j \\frac{\\partial x^j}{\\partial\\bar{x}^i} B_j$.\n3. Kronecker Delta Transformation: The Kronecker delta $\\delta^k_l$ has components $\\delta^k_l = 1$ if $k=l$ and $0$ if $k \\neq l$.\n4. According to the transformation law for a mixed tensor of rank 2: $\\bar{\\delta}^i_j = \\sum_{k,l} \\frac{\\partial\\bar{x}^i}{\\partial x^k} \\frac{\\partial x^l}{\\partial\\bar{x}^j} \\delta^k_l$.\n5. Using the property of $\\delta^k_l$, we sum over $l=k$: $\\bar{\\delta}^i_j = \\sum_k \\frac{\\partial\\bar{x}^i}{\\partial x^k} \\frac{\\partial x^k}{\\partial\\bar{x}^j}$.\n6. By the chain rule of partial differentiation, the sum equals: $\\bar{\\delta}^i_j = \\frac{\\partial\\bar{x}^i}{\\partial\\bar{x}^j} = \\delta^i_j$.\n7. Since the components transform exactly to yield the same values, $\\delta^i_j$ is indeed a mixed tensor of rank 2 (also called the numerical tensor)."
+        "question": "Question 1.Answer anyfiveof the following:[5\u00d74 = 20]",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
       },
       {
         "id": 2,
         "unit": "I",
-        "question": "Express the spherical polar unit vectors ($\\hat{r}, \\hat{\\theta}, \\hat{\\phi}$) in terms of Cartesian unit vectors ($\\hat{i}, \\hat{j}, \\hat{k}$) and use them to calculate the partial derivatives of the unit vectors with respect to $r, \\theta, \\phi$.",
-        "answerKey": "1. Transformation Formulas: In spherical coordinates:\n$x = r\\sin\\theta\\cos\\phi$, $y = r\\sin\\theta\\sin\\phi$, $z = r\\cos\\theta$.\n2. Unit Vectors in terms of Cartesian:\n- $\\hat{r} = \\sin\\theta\\cos\\phi\\hat{i} + \\sin\\theta\\sin\\phi\\hat{j} + \\cos\\theta\\hat{k}$,\n- $\\hat{\\theta} = \\cos\\theta\\cos\\phi\\hat{i} + \\cos\\theta\\sin\\phi\\hat{j} - \\sin\\theta\\hat{k}$,\n- $\\hat{\\phi} = -\\sin\\phi\\hat{i} + \\cos\\phi\\hat{j}$.\n3. Derivatives of $\\hat{r}$:\n- $\\frac{\\partial\\hat{r}}{\\partial r} = 0$,\n- $\\frac{\\partial\\hat{r}}{\\partial\\theta} = \\cos\\theta\\cos\\phi\\hat{i} + \\cos\\theta\\sin\\phi\\hat{j} - \\sin\\theta\\hat{k} = \\hat{\\theta}$,\n- $\\frac{\\partial\\hat{r}}{\\partial\\phi} = -\\sin\\theta\\sin\\phi\\hat{i} + \\sin\\theta\\cos\\phi\\hat{j} = \\sin\\theta\\hat{\\phi}$.\n4. Derivatives of $\\hat{\\theta}$:\n- $\\frac{\\partial\\hat{\\theta}}{\\partial r} = 0$,\n- $\\frac{\\partial\\hat{\\theta}}{\\partial\\theta} = -\\sin\\theta\\cos\\phi\\hat{i} - \\sin\\theta\\sin\\phi\\hat{j} - \\cos\\theta\\hat{k} = -\\hat{r}$,\n- $\\frac{\\partial\\hat{\\theta}}{\\partial\\phi} = -\\cos\\theta\\sin\\phi\\hat{i} + \\cos\\theta\\cos\\phi\\hat{j} = \\cos\\theta\\hat{\\phi}$.\n5. Derivatives of $\\hat{\\phi}$:\n- $\\frac{\\partial\\hat{\\phi}}{\\partial r} = 0$,\n- $\\frac{\\partial\\hat{\\phi}}{\\partial\\theta} = 0$,\n- $\\frac{\\partial\\hat{\\phi}}{\\partial\\phi} = -\\cos\\phi\\hat{i} - \\sin\\phi\\hat{j} = -(\\sin\\theta\\hat{r} + \\cos\\theta\\hat{\\theta})$."
+        "question": "Evaluate\u2207r2 in spherical polar coordinates.",
+        "answerKey": "1. **Divergence of Curl**:\nUsing Levi-Civita symbol, $\\vec{\\nabla} \\cdot (\\vec{\\nabla} \\times \\vec{A}) = \\partial_i (\\varepsilon_{ijk} \\partial_j A_k) = \\varepsilon_{ijk} \\partial_i \\partial_j A_k = 0$ (contraction of symmetric partial derivatives with antisymmetric tensor).\n2. **Spherical Laplacian**:\n$\\nabla^2 V = \\frac{1}{r^2} \\frac{\\partial}{\\partial r}(r^2 \\frac{\\partial V}{\\partial r}) + \\frac{1}{r^2\\sin\\theta} \\frac{\\partial}{\\partial\\theta}(\\sin\\theta \\frac{\\partial V}{\\partial\\theta}) + \\frac{1}{r^2\\sin^2\\theta} \\frac{\\partial^2 V}{\\partial\\phi^2}$."
       },
       {
         "id": 3,
         "unit": "I",
-        "question": "Determine the scale factors ($h_1, h_2, h_3$) and components of the metric tensor ($g_{\\mu\\nu}$) for (i) spherical polar coordinates and (ii) circular cylindrical coordinates.",
-        "answerKey": "1. Metric Tensor Definition: The arc length element is $ds^2 = \\sum_{\\mu,\\nu} g_{\\mu\\nu} dq^\\mu dq^\\nu = \\sum_i h_i^2 (dq^i)^2$ in orthogonal coordinates.\n2. Spherical Polar Coordinates ($q^1=r, q^2=\\theta, q^3=\\phi$):\n- Arc length: $ds^2 = dr^2 + r^2 d\\theta^2 + r^2\\sin^2\\theta d\\phi^2$.\n- Scale factors: $h_r = 1$, $h_\\theta = r$, $h_\\phi = r\\sin\\theta$.\n- Metric Tensor components ($g_{\\mu\\nu}$ is diagonal): $g_{rr} = 1$, $g_{\\theta\\theta} = r^2$, $g_{\\phi\\phi} = r^2\\sin^2\\theta$, all off-diagonal components $g_{\\mu\\nu} = 0$ ($g_{\\mu\\nu} = \\text{diag}(1, r^2, r^2\\sin^2\\theta)$).\n3. Circular Cylindrical Coordinates ($q^1=\\rho, q^2=\\theta, q^3=z$):\n- Arc length: $ds^2 = d\\rho^2 + \\rho^2 d\\theta^2 + dz^2$.\n- Scale factors: $h_\\rho = 1$, $h_\\theta = \\rho$, $h_z = 1$.\n- Metric Tensor components ($g_{\\mu\\nu}$ is diagonal): $g_{\\rho\\rho} = 1$, $g_{\\theta\\theta} = \\rho^2$, $g_{zz} = 1$, off-diagonal elements are $0$ ($g_{\\mu\\nu} = \\text{diag}(1, \\rho^2, 1)$)."
+        "question": "IfA ij is an antisymmetric tensor in a 3D space, then show that: (\u03b4ikaj +a iak)Aik = 0",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
       },
       {
         "id": 4,
         "unit": "I",
-        "question": "Express the vector $\\vec{P} = \\frac{2p\\cos\\theta}{r^3}\\hat{r} + \\frac{p\\sin\\theta}{r^3}\\hat{\\theta}$ in Cartesian coordinates and determine if it can be written as the gradient of a scalar potential $\\Phi$. What physical system does this vector represent?",
-        "answerKey": "1. Unit Vector Substitutions: Substitute $\\hat{r}$ and $\\hat{\\theta}$ in terms of $\\hat{i}, \\hat{j}, \\hat{k}$:\n$\\vec{P} = \\frac{2p\\cos\\theta}{r^3}(\\sin\\theta\\cos\\phi\\hat{i} + \\sin\\theta\\sin\\phi\\hat{j} + \\cos\\theta\\hat{k}) + \\frac{p\\sin\\theta}{r^3}(\\cos\\theta\\cos\\phi\\hat{i} + \\cos\\theta\\sin\\phi\\hat{j} - \\sin\\theta\\hat{k})$.\n2. Simplification:\n- $\\hat{i}$ term: $\\frac{p\\cos\\phi}{r^3} (2\\cos\\theta\\sin\\theta + \\sin\\theta\\cos\\theta) = \\frac{3p\\sin\\theta\\cos\\theta\\cos\\phi}{r^3}$.\n- $\\hat{j}$ term: $\\frac{3p\\sin\\theta\\cos\\theta\\sin\\phi}{r^3}$.\n- $\\hat{k}$ term: $\\frac{p}{r^3} (2\\cos^2\\theta - \\sin^2\\theta) = \\frac{p}{r^3} (3\\cos^2\\theta - 1)$.\n3. Coordinate Conversion: Since $x = r\\sin\\theta\\cos\\phi$, $y = r\\sin\\theta\\sin\\phi$, $z = r\\cos\\theta$:\n$\\vec{P} = \\frac{p}{r^5} [3xz\\hat{i} + 3yz\\hat{j} + (3z^2 - r^2)\\hat{k}] = \\frac{3(\\vec{p} \\cdot \\vec{r})\\vec{r} - r^2\\vec{p}}{r^5}$ (where $\\vec{p} = p\\hat{k}$).\n4. Potential Derivation: Yes, $\\vec{P} = -\\vec{\\nabla}\\Phi$, where $\\Phi(r,\\theta) = \\frac{p\\cos\\theta}{r^2} = \\frac{\\vec{p} \\cdot \\vec{r}}{r^3}$ is the electrostatic potential of a point dipole.\n5. Physical System: This vector field represents the electric field of an electrostatic point dipole centered at the origin pointing in the positive z-direction."
+        "question": "Determine whether the following sets of functions are linearly independent:",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
       },
       {
         "id": 5,
         "unit": "I",
-        "question": "For a scalar function $\\psi$, verify the identity in curvilinear coordinate operators: $(\\vec{r} \\times \\vec{\\nabla}) \\cdot (\\vec{r} \\times \\vec{\\nabla})\\psi = r^2 \\nabla^2 \\psi - r^2 \\frac{\\partial^2 \\psi}{\\partial r^2} - 2r \\frac{\\partial\\psi}{\\partial r}$.",
-        "answerKey": "1. Operator Definition: Let the operator $\\vec{L} = -j(\\vec{r} \\times \\vec{\\nabla})$. Then $(\\vec{r} \\times \\vec{\\nabla}) \\cdot (\\vec{r} \\times \\vec{\\nabla}) = -L^2$.\n2. Spherical Coordinates Form: In spherical polar coordinates, the gradient operator is $\\vec{\\nabla} = \\hat{r} \\frac{\\partial}{\\partial r} + \\hat{\\theta} \\frac{1}{r} \\frac{\\partial}{\\partial\\theta} + \\hat{\\phi} \\frac{1}{r\\sin\\theta} \\frac{\\partial}{\\partial\\phi}$.\n3. Angular Operator: The cross product is: $\\vec{r} \\times \\vec{\\nabla} = r\\hat{r} \\times \\left(\\hat{r} \\frac{\\partial}{\\partial r} + \\hat{\\theta} \\frac{1}{r} \\frac{\\partial}{\\partial\\theta} + \\hat{\\phi} \\frac{1}{r\\sin\\theta} \\frac{\\partial}{\\partial\\phi}\\right) = \\hat{\\phi} \\frac{\\partial}{\\partial\\theta} - \\hat{\\theta} \\frac{1}{\\sin\\theta} \\frac{\\partial}{\\partial\\phi}$.\n4. Dot Product Evaluation: Squaring this angular operator yields the angular Laplacian operator: $(\\vec{r} \\times \\vec{\\nabla}) \\cdot (\\vec{r} \\times \\vec{\\nabla}) = \\frac{1}{\\sin\\theta} \\frac{\\partial}{\\partial\\theta}\\left(\\sin\\theta \\frac{\\partial}{\\partial\\theta}\\right) + \\frac{1}{\\sin^2\\theta} \\frac{\\partial^2}{\\partial\\phi^2}$.\n5. Full Laplacian Relation: The complete Laplacian in spherical coordinates is $\\nabla^2 = \\frac{1}{r^2} \\frac{\\partial}{\\partial r}\\left(r^2 \\frac{\\partial}{\\partial r}\\right) + \\frac{1}{r^2} \\left[ \\frac{1}{\\sin\\theta} \\frac{\\partial}{\\partial\\theta}\\left(\\sin\\theta \\frac{\\partial}{\\partial\\theta}\\right) + \\frac{1}{\\sin^2\\theta} \\frac{\\partial^2}{\\partial\\phi^2} \\right]$.\n6. Regrouping terms: $\\nabla^2 = \\frac{\\partial^2}{\\partial r^2} + \\frac{2}{r} \\frac{\\partial}{\\partial r} + \\frac{1}{r^2} [(\\vec{r} \\times \\vec{\\nabla}) \\cdot (\\vec{r} \\times \\vec{\\nabla})]$.\n7. Solving for the cross product: $(\\vec{r} \\times \\vec{\\nabla}) \\cdot (\\vec{r} \\times \\vec{\\nabla})\\psi = r^2 \\nabla^2 \\psi - r^2 \\frac{\\partial^2 \\psi}{\\partial r^2} - 2r \\frac{\\partial\\psi}{\\partial r}$. This completes the proof."
+        "question": "sinx,sin 2x,sin 3x (ii)sinx,cosx,1",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
       },
       {
         "id": 6,
         "unit": "I",
-        "question": "Derive the expression for the Laplacian operator $\\nabla^2 \\psi$ in spherical polar coordinates.",
-        "answerKey": "1. Orthogonal Curvilinear Laplacian Formula: In orthogonal curvilinear coordinates: $\\nabla^2 \\psi = \\frac{1}{h_1 h_2 h_3} \\left[ \\frac{\\partial}{\\partial q^1}\\left( \\frac{h_2 h_3}{h_1} \\frac{\\partial\\psi}{\\partial q^1} \\right) + \\frac{\\partial}{\\partial q^2}\\left( \\frac{h_3 h_1}{h_2} \\frac{\\partial\\psi}{\\partial q^2} \\right) + \\frac{\\partial}{\\partial q^3}\\left( \\frac{h_1 h_2}{h_3} \\frac{\\partial\\psi}{\\partial q^3} \\right) \\right]$.\n2. Scale Factors in Spherical Coordinates: $q^1=r, q^2=\\theta, q^3=\\phi$. $h_r=1, h_\\theta=r, h_\\phi=r\\sin\\theta$. Product $h_r h_\\theta h_\\phi = r^2\\sin\\theta$.\n3. Substitute Term-by-Term:\n- First term: $\\frac{\\partial}{\\partial r}\\left( \\frac{r(r\\sin\\theta)}{1} \\frac{\\partial\\psi}{\\partial r} \\right) = \\sin\\theta \\frac{\\partial}{\\partial r}\\left( r^2 \\frac{\\partial\\psi}{\\partial r} \\right)$.\n- Second term: $\\frac{\\partial}{\\partial\\theta}\\left( \\frac{(r\\sin\\theta)(1)}{r} \\frac{\\partial\\psi}{\\partial\\theta} \\right) = \\frac{\\partial}{\\partial\\theta}\\left( \\sin\\theta \\frac{\\partial\\psi}{\\partial\\theta} \\right)$.\n- Third term: $\\frac{\\partial}{\\partial\\phi}\\left( \\frac{1(r)}{r\\sin\\theta} \\frac{\\partial\\psi}{\\partial\\phi} \\right) = \\frac{1}{\\sin\\theta} \\frac{\\partial^2\\psi}{\\partial\\phi^2}$.\n4. Combine and Divide by Product: $\\nabla^2 \\psi = \\frac{1}{r^2\\sin\\theta} \\left[ \\sin\\theta \\frac{\\partial}{\\partial r}\\left( r^2 \\frac{\\partial\\psi}{\\partial r} \\right) + \\frac{\\partial}{\\partial\\theta}\\left( \\sin\\theta \\frac{\\partial\\psi}{\\partial\\theta} \\right) + \\frac{1}{\\sin\\theta} \\frac{\\partial^2\\psi}{\\partial\\phi^2} \\right]$.\n5. Final Expression: $\\nabla^2 \\psi = \\frac{1}{r^2} \\frac{\\partial}{\\partial r}\\left( r^2 \\frac{\\partial\\psi}{\\partial r} \\right) + \\frac{1}{r^2\\sin\\theta} \\frac{\\partial}{\\partial\\theta}\\left( \\sin\\theta \\frac{\\partial\\psi}{\\partial\\theta} \\right) + \\frac{1}{r^2\\sin^2\\theta} \\frac{\\partial^2\\psi}{\\partial\\phi^2}$."
+        "question": "If xL\u2032\u2032 n(x) + (1\u2212x)L\u2032 n(x) + nLn(x) = 0, find the second-order ordinary differential equation (2-ODE) satisfied by the functiony(x) = e\u2212x/2Ln(x). Also write down the orthogonality relation for Laguerre polynomialsLn(x).",
+        "answerKey": "1. **Legendre Equation**:\n$(1-x^2)y'' - 2xy' + n(n+1)y = 0$.\n2. **Generating Function**:\n$(1 - 2xt + t^2)^{-1/2} = \\sum_{n=0}^{\\infty} P_n(x) t^n$.\n3. **Orthogonality**:\n$\\int_{-1}^{1} P_m(x) P_n(x) dx = \\frac{2}{2n+1} \\delta_{mn}$."
       },
       {
         "id": 7,
         "unit": "I",
-        "question": "Using index notation and Levi-Civita symbols ($\\varepsilon_{ijk}$), verify that (i) $\\varepsilon_{ijk} \\varepsilon_{ipk} = 2\\delta_{jp}$ and (ii) $\\varepsilon_{ijk} \\varepsilon_{pqk} = \\delta_{ip}\\delta_{jq} - \\delta_{iq}\\delta_{jp}$.",
-        "answerKey": "1. Levi-Civita Symbol Definition: $\\varepsilon_{ijk} = +1$ for cyclic permutations, $-1$ for anti-cyclic, and $0$ if any two indices are equal.\n2. General Contraction Relation: The fundamental identity relating Levi-Civita symbol product to Kronecker deltas is: $\\varepsilon_{ijk} \\varepsilon_{pqk} = \\delta_{ip}\\delta_{jq} - \\delta_{iq}\\delta_{jp}$ (where sum over index $k$ is implied).\n3. Proof of Identity (ii) by case analysis:\n- If $i=p$ and $j=q$ (with $i \\neq j$): LHS = $\\sum_k \\varepsilon_{ijk} \\varepsilon_{ijk} = 1$ (since only the single value of $k$ distinct from $i,j$ yields non-zero $\\pm 1$, and $(\\pm 1)^2 = 1$). RHS = $\\delta_{ii}\\delta_{jj} - \\delta_{ij}\\delta_{ji} = 1 \\cdot 1 - 0 = 1$. Matches.\n- If $i=q$ and $j=p$ (with $i \\neq j$): LHS = $\\sum_k \\varepsilon_{ijk} \\varepsilon_{jik} = -1$ (due to odd permutation sign change). RHS = $\\delta_{ij}\\delta_{ji} - \\delta_{ii}\\delta_{jj} = 0 - 1 = -1$. Matches.\n4. Proof of Identity (i) by contraction of (ii): Set $q=j$ in (ii):\n$\\varepsilon_{ijk} \\varepsilon_{pjk} = \\sum_l (\\delta_{ip}\\delta_{jl} - \\delta_{il}\\delta_{jp}) \\delta^l_j = \\delta_{ip}\\delta_{jj} - \\delta_{ij}\\delta_{jp}$.\n5. Since we work in 3D space, sum over $j$ gives $\\delta_{jj} = 3$:\n$\\varepsilon_{ijk} \\varepsilon_{pjk} = 3\\delta_{ip} - \\delta_{ip} = 2\\delta_{ip}$. Renaming indices yields $\\varepsilon_{ijk} \\varepsilon_{ipk} = 2\\delta_{jp}$."
+        "question": "Given the matrixA = \uf8eb \uf8ec\uf8ed 3 2 1 2 1 1 1 4 2 \uf8f6 \uf8f7\uf8f8, find the trace and determinant ofA\u22121without actually computing the inverse matrixA\u22121. Outline your method.",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
       },
       {
         "id": 8,
         "unit": "I",
-        "question": "State the properties of the Dirac Delta function. Prove that $\\delta(ax) = \\frac{1}{|a|}\\delta(x)$ for $a \\neq 0$, and evaluate the integral $\\int_{-infty}^{\\infty} \\sin\\left(\\frac{\\pi x}{2}\right) \\delta(x^2 - 3x + 2) dx$.",
-        "answerKey": "1. Scaling Property Proof: Consider the integral $I = \\int_{-infty}^{\\infty} f(x) \\delta(ax) dx$. Let $u = ax \\implies dx = \\frac{du}{a}$.\n- Case 1 ($a > 0$): The limits remain $(-\\infty, \\infty)$. $I = \\int_{-infty}^{\\infty} f(u/a) \\delta(u) \\frac{du}{a} = \\frac{1}{a} f(0)$.\n- Case 2 ($a < 0$): The limits swap to $(\\infty, -\\infty)$. $I = \\int_{\\infty}^{-\\infty} f(u/a) \\delta(u) \\frac{du}{a} = -\\frac{1}{a} \\int_{-infty}^{\\infty} f(u/a) \\delta(u) du = -\\frac{1}{a} f(0) = \\frac{1}{|a|} f(0)$.\n- Combining both cases: $\\int_{-infty}^{\\infty} f(x) \\delta(ax) dx = \\frac{1}{|a|} f(0) \\implies \\delta(ax) = \\frac{1}{|a|} \\delta(x)$.\n2. Delta function of a function rule: $\\delta(g(x)) = \\sum_i \\frac{\\delta(x - x_i)}{|g'(x_i)|}$, where $x_i$ are roots of $g(x) = 0$.\n3. Evaluating the Integral: Here $g(x) = x^2 - 3x + 2 = (x-1)(x-2)$. The roots are $x_1 = 1$, $x_2 = 2$.\n- Derivative: $g'(x) = 2x - 3$.\n- At $x_1 = 1$: $|g'(1)| = |2(1) - 3| = 1$.\n- At $x_2 = 2$: $|g'(2)| = |2(2) - 3| = 1$.\n4. Expansion: $\\delta(x^2 - 3x + 2) = \\delta(x - 1) + \\delta(x - 2)$.\n5. Integral Calculation: $\\int_{-infty}^{\\infty} \\sin\\left(\\frac{\\pi x}{2}\right) [\\delta(x - 1) + \\delta(x - 2)] dx = \\sin\\left(\\frac{\\pi(1)}{2}\\right) + \\sin\\left(\\frac{\\pi(2)}{2}\\right) = \\sin\\left(\\frac{\\pi}{2}\\right) + \\sin(\\pi) = 1 + 0 = 1$."
+        "question": "Show that\u03b4(kx) = 1 |k|\u03b4(x), where\u03b4(x)is the Dirac delta function.",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
       },
       {
         "id": 9,
-        "unit": "II",
-        "question": "Prove that if $A$ is a non-singular symmetric matrix, then its inverse $A^{-1}$ is also symmetric. Also, prove that for any real symmetric matrix, eigenvectors corresponding to distinct eigenvalues are orthogonal.",
-        "answerKey": "1. Symmetric Inverse Proof: We are given $A^T = A$ and $A$ is non-singular ($A^{-1}$ exists).\n- We know that $(A^{-1})^T = (A^T)^{-1}$.\n- Substituting $A^T = A$: $(A^{-1})^T = A^{-1}$. Thus, $A^{-1}$ is symmetric.\n2. Eigenvector Orthogonality Proof: Let $A$ be a real symmetric matrix ($A^T = A$). Let $x_1$ and $x_2$ be two eigenvectors with distinct real eigenvalues $\\lambda_1$ and $\\lambda_2$ ($\\lambda_1 \\neq \\lambda_2$):\n$A x_1 = \\lambda_1 x_1$ and $A x_2 = \\lambda_2 x_2$.\n3. Matrix Product: Multiply first equation by $x_2^T$ on the left: $x_2^T A x_1 = \\lambda_1 x_2^T x_1$.\n4. Transpose Relation: Transpose both sides: $(x_2^T A x_1)^T = x_1^T A^T x_2 = x_1^T A x_2$ (since $A^T = A$).\n5. Substitute second eigenvalue equation: $x_1^T (A x_2) = x_1^T (\\lambda_2 x_2) = \\lambda_2 x_1^T x_2$.\n6. Since the scalar product $x_2^T x_1 = x_1^T x_2$, we equate both calculations: $\\lambda_1 (x_1^T x_2) = \\lambda_2 (x_1^T x_2) \\implies (\\lambda_1 - \\lambda_2)(x_1^T x_2) = 0$.\n7. Since the eigenvalues are distinct ($\\lambda_1 \\neq \\lambda_2$), we must have $x_1^T x_2 = 0$. Hence, the eigenvectors are orthogonal."
+        "unit": "I",
+        "question": "The Hermite polynomialsHn(x)can be obtained from the generating functiong(x,t ) = e2xt\u2212t2 = \u2211\u221e n=0 Hn(x) n! tn. Show that: \u222b \u221e \u2212\u221e e\u2212x2 [Hn(x)]2dx= 2 nn!\u221a\u03c0",
+        "answerKey": "1. **Legendre Equation**:\n$(1-x^2)y'' - 2xy' + n(n+1)y = 0$.\n2. **Generating Function**:\n$(1 - 2xt + t^2)^{-1/2} = \\sum_{n=0}^{\\infty} P_n(x) t^n$.\n3. **Orthogonality**:\n$\\int_{-1}^{1} P_m(x) P_n(x) dx = \\frac{2}{2n+1} \\delta_{mn}$."
       },
       {
         "id": 10,
-        "unit": "II",
-        "question": "Show that the similarity transformation $A' = B A B^{-1}$ preserves the eigenvalues and trace of a matrix.",
-        "answerKey": "1. Eigenvalue Preservation: The characteristic equation of $A'$ is $|A' - \\lambda I| = 0$.\n- Substitute $A'$: $|B A B^{-1} - \\lambda B I B^{-1}| = |B(A - \\lambda I)B^{-1}|$.\n- Using the product property of determinants $|XYZ| = |X||Y||Z|$: $|B(A - \\lambda I)B^{-1}| = |B| |A - \\lambda I| |B^{-1}|$.\n- Since $|B||B^{-1}| = |B B^{-1}| = |I| = 1$, we get: $|A' - \\lambda I| = |A - \\lambda I|$.\n- Since the characteristic polynomials are identical, the eigenvalues of $A$ and $A'$ are exactly the same.\n2. Trace Preservation: Trace is the sum of diagonal elements, satisfying the cyclic property $\\text{Tr}(XY) = \\text{Tr}(YX)$:\n- $\\text{Tr}(A') = \\text{Tr}(B A B^{-1})$.\n- Apply cyclic property by treating $B$ as $X$ and $A B^{-1}$ as $Y$: $\\text{Tr}(B (A B^{-1})) = \\text{Tr}((A B^{-1}) B)$.\n- Since $B^{-1} B = I$, this simplifies to: $\\text{Tr}(A I) = \\text{Tr}(A)$. Thus similarity transformations preserve the trace."
+        "unit": "I",
+        "question": "Show thatg(x,t ) = (1\u22122xt +t2)\u22121/2is the generating function for Legendre polynomials Pn(x). [6]",
+        "answerKey": "1. **Legendre Equation**:\n$(1-x^2)y'' - 2xy' + n(n+1)y = 0$.\n2. **Generating Function**:\n$(1 - 2xt + t^2)^{-1/2} = \\sum_{n=0}^{\\infty} P_n(x) t^n$.\n3. **Orthogonality**:\n$\\int_{-1}^{1} P_m(x) P_n(x) dx = \\frac{2}{2n+1} \\delta_{mn}$."
       },
       {
         "id": 11,
         "unit": "II",
-        "question": "Verify that the matrix $H = \\begin{pmatrix} 2 & 3-i \\\\ 3+i & -1 \\end{pmatrix}$ is Hermitian. Find its eigenvalues and eigenvectors, and find the unitary matrix $U$ that diagonalizes it.",
-        "answerKey": "1. Hermiticity Check: $H^\\dagger = (H^*)^T = \\begin{pmatrix} 2 & 3+i \\\\ 3-i & -1 \\end{pmatrix}^T = \\begin{pmatrix} 2 & 3-i \\\\ 3+i & -1 \\end{pmatrix} = H$. Thus, $H$ is Hermitian.\n2. Characteristic Equation: $\\det(H - \\lambda I) = \\begin{vmatrix} 2-\\lambda & 3-i \\\\ 3+i & -1-\\lambda \\end{vmatrix} = (2-\\lambda)(-1-\\lambda) - (3-i)(3+i) = 0$.\n- $\\lambda^2 - \\lambda - 2 - 10 = \\lambda^2 - \\lambda - 12 = 0 \\implies (\\lambda-4)(\\lambda+3) = 0$.\n- Eigenvalues are: $\\lambda_1 = 4$, $\\lambda_2 = -3$.\n3. Eigenvector for $\\lambda_1 = 4$: $\\begin{pmatrix} -2 & 3-i \\\\ 3+i & -5 \\end{pmatrix} \\begin{pmatrix} x_1 \\\\ x_2 \\end{pmatrix} = 0 \\implies -2x_1 + (3-i)x_2 = 0 \\implies x_1 = \\frac{3-i}{2} x_2$.\n- Normalized: $v_1 = \\frac{1}{\\sqrt{14}} \\begin{pmatrix} 3-i \\\\ 2 \\end{pmatrix}$.\n4. Eigenvector for $\\lambda_2 = -3$: $\\begin{pmatrix} 5 & 3-i \\\\ 3+i & 2 \\end{pmatrix} \\begin{pmatrix} x_1 \\\\ x_2 \\end{pmatrix} = 0 \\implies 5x_1 + (3-i)x_2 = 0 \\implies x_1 = -\\frac{3-i}{5} x_2$.\n- Normalized: $v_2 = \\frac{1}{\\sqrt{14}} \\begin{pmatrix} -2 \\\\ 3+i \\end{pmatrix}$.\n5. Unitary Diagonalizing Matrix $U$: Formed by placing the normalized eigenvectors as columns: $U = \\frac{1}{\\sqrt{14}} \\begin{pmatrix} 3-i & -2 \\\\ 2 & 3+i \\end{pmatrix}$. The similarity transformation $U^\\dagger H U$ yields $\\text{diag}(4, -3)$."
+        "question": "Consider the Bessel differential equation: x2y\u2032\u2032+xy\u2032+ (x2\u2212n2)y= 0",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
       },
       {
         "id": 12,
         "unit": "II",
-        "question": "Find the eigenvalues and normalized eigenvectors of the matrix $A = \\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 1 & \\sqrt{2} \\\\ 0 & \\sqrt{2} & 0 \\end{pmatrix}$ and write down its diagonalized form.",
-        "answerKey": "1. Characteristic Equation: $\\det(A - \\lambda I) = \\begin{vmatrix} 1-\\lambda & 0 & 0 \\\\ 0 & 1-\\lambda & \\sqrt{2} \\\\ 0 & \\sqrt{2} & -\\lambda \\end{vmatrix} = (1-\\lambda) [-\\lambda(1-\\lambda) - 2] = 0$.\n- $(1-\\lambda)(\\lambda^2 - \\lambda - 2) = (1-\\lambda)(\\lambda-2)(\\lambda+1) = 0$.\n- Eigenvalues: $\\lambda_1 = 1$, $\\lambda_2 = 2$, $\\lambda_3 = -1$.\n2. Eigenvector for $\\lambda_1 = 1$: $\\begin{pmatrix} 0 & 0 & 0 \\\\ 0 & 0 & \\sqrt{2} \\\\ 0 & \\sqrt{2} & -1 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix} = 0 \\implies z = 0, y = 0$. $x$ is free.\n- Normalized eigenvector: $v_1 = \\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\end{pmatrix}$.\n3. Eigenvector for $\\lambda_2 = 2$: $\\begin{pmatrix} -1 & 0 & 0 \\\\ 0 & -1 & \\sqrt{2} \\\\ 0 & \\sqrt{2} & -2 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix} = 0 \\implies x = 0, -y + \\sqrt{2}z = 0 \\implies y = \\sqrt{2}z$.\n- Normalized eigenvector: $v_2 = \\frac{1}{\\sqrt{3}} \\begin{pmatrix} 0 \\\\ \\sqrt{2} \\\\ 1 \\end{pmatrix}$.\n4. Eigenvector for $\\lambda_3 = -1$: $\\begin{pmatrix} 2 & 0 & 0 \\\\ 0 & 2 & \\sqrt{2} \\\\ 0 & \\sqrt{2} & 1 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix} = 0 \\implies x = 0, 2y + \\sqrt{2}z = 0 \\implies z = -\\sqrt{2}y$.\n- Normalized eigenvector: $v_3 = \\frac{1}{\\sqrt{3}} \\begin{pmatrix} 0 \\\\ 1 \\\\ -\\sqrt{2} \\end{pmatrix}$.\n5. Diagonalized Form: $D = \\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 2 & 0 \\\\ 0 & 0 & -1 \\end{pmatrix}$."
+        "question": "Identify its singularities. Determine whether they are regular or irregular singular- ities.[3] Page 1 of 3 --- Page 2 --- Banaras Hindu University BPT-501: Mathematical Physics (ii) Solve this differential equation by the Frobenius method forn = 1and n = 0.[8] (iii) Explain if a second linearly independent solution can be constructed using this method forn= 1.[3]",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
       },
       {
         "id": 13,
-        "unit": "III",
-        "question": "Define the Wronskian of two functions and state its significance. Find the singular points and classify the singularities (regular or irregular) of the differential equation: $x^2(x-2)^2 \\frac{d^2 y}{d x^2} + 2(x-2) \\frac{d y}{d x} + (x+3)y = 0$.",
-        "answerKey": "1. Wronskian Definition: The Wronskian of two functions $y_1(x)$ and $y_2(x)$ is defined as the determinant: $W[y_1, y_2] = \\begin{vmatrix} y_1 & y_2 \\\\ y_1' & y_2' \\end{vmatrix} = y_1 y_2' - y_2 y_1'$.\n2. Significance: If $W \\neq 0$ in an interval, the two solutions are linearly independent. If $W = 0$, they are linearly dependent.\n3. Singularity Classification: Put the differential equation in standard form $y'' + P(x)y' + Q(x)y = 0$ by dividing by $x^2(x-2)^2$:\n- $P(x) = \\frac{2(x-2)}{x^2(x-2)^2} = \\frac{2}{x^2(x-2)}$,\n- $Q(x) = \\frac{x+3}{x^2(x-2)^2}$.\n4. Singular Points: The denominators vanish at $x = 0$ and $x = 2$. These are the singular points.\n5. Classification at $x = 2$:\n- $(x-2)P(x) = \\frac{2}{x^2}$ is analytic at $x=2$ (value $1/2$).\n- $(x-2)^2 Q(x) = \\frac{x+3}{x^2}$ is analytic at $x=2$ (value $5/4$).\n- Since both limits are finite and analytic, $x = 2$ is a Regular Singular Point.\n6. Classification at $x = 0$:\n- $x P(x) = \\frac{2}{x(x-2)}$ is not analytic at $x=0$ (blows up as $1/x$).\n- Since the first limit diverges, $x = 0$ is an Irregular Singular Point."
+        "unit": "II",
+        "question": "Consider a sphere of radiusR with its center at the origin(0, 0, 0). Draw neatly and label the spherical polar unit vectors\u02c6r, \u02c6\u03b8, \u02c6\u03d5at the points(R, 0, 0),(0,R, 0)and(0 , 0,R ), which are the points of intersection of the sphere with the right-handed Cartesianx,y,z axes. [8]",
+        "answerKey": "1. **Divergence of Curl**:\nUsing Levi-Civita symbol, $\\vec{\\nabla} \\cdot (\\vec{\\nabla} \\times \\vec{A}) = \\partial_i (\\varepsilon_{ijk} \\partial_j A_k) = \\varepsilon_{ijk} \\partial_i \\partial_j A_k = 0$ (contraction of symmetric partial derivatives with antisymmetric tensor).\n2. **Spherical Laplacian**:\n$\\nabla^2 V = \\frac{1}{r^2} \\frac{\\partial}{\\partial r}(r^2 \\frac{\\partial V}{\\partial r}) + \\frac{1}{r^2\\sin\\theta} \\frac{\\partial}{\\partial\\theta}(\\sin\\theta \\frac{\\partial V}{\\partial\\theta}) + \\frac{1}{r^2\\sin^2\\theta} \\frac{\\partial^2 V}{\\partial\\phi^2}$."
       },
       {
         "id": 14,
-        "unit": "III",
-        "question": "Solve Legendre's differential equation $(1 - x^2) y'' - 2x y' + n(n+1)y = 0$ about the ordinary point $x = 0$ using the Frobenius power series method.",
-        "answerKey": "1. Series Assumption: Since $x = 0$ is an ordinary point, we assume a power series solution of the form: $y = \\sum_{k=0}^{\\infty} a_k x^k$.\n2. Deriving derivatives: $y' = \\sum_{k=1}^{\\infty} k a_k x^{k-1}$ and $y'' = \\sum_{k=2}^{\\infty} k(k-1) a_k x^{k-2}$.\n3. Substitution: $(1 - x^2) \\sum k(k-1) a_k x^{k-2} - 2x \\sum k a_k x^{k-1} + n(n+1) \\sum a_k x^k = 0$.\n$\\sum_{k=2}^{\\infty} k(k-1) a_k x^{k-2} - \\sum_{k=2}^{\\infty} k(k-1) a_k x^k - \\sum_{k=1}^{\\infty} 2k a_k x^k + n(n+1) \\sum_{k=0}^{\\infty} a_k x^k = 0$.\n4. Shifting Indices: Let $k-2 = m \\implies k = m+2$ in the first sum: $\\sum_{m=0}^{\\infty} (m+2)(m+1) a_{m+2} x^m - \\sum_{m=0}^{\\infty} [m(m-1) + 2m - n(n+1)] a_m x^m = 0$.\n5. Recurrence Relation: Equating the coefficient of $x^m$ to zero:\n$(m+2)(m+1) a_{m+2} = [m(m+1) - n(n+1)] a_m \\implies a_{m+2} = -\\frac{(n-m)(n+m+1)}{(m+1)(m+2)} a_m$.\n6. Series Solutions: This gives two independent series solutions, one in even powers of $x$ (containing $a_0$) and one in odd powers of $x$ (containing $a_1$). For an integer $n$, one of these series terminates to form a Legendre polynomial $P_n(x)$."
+        "unit": "II",
+        "question": "In spherical polar coordinates, the gradient of a scalar function\u03c8(r,\u03b8,\u03d5)is given by: \u2207\u03c8= \u02c6r\u2202\u03c8 \u2202r+ \u02c6\u03b81 r \u2202\u03c8 \u2202\u03b8+ \u02c6\u03d5 1 rsin\u03b8 \u2202\u03c8 \u2202\u03d5 Show that the Laplacian is: \u22072\u03c8= 1 r2 \u2202 \u2202r ( r2\u2202\u03c8 \u2202r ) + 1 r2 sin\u03b8 \u2202 \u2202\u03b8 ( sin\u03b8\u2202\u03c8 \u2202\u03b8 ) + 1 r2 sin2\u03b8 \u22022\u03c8 \u2202\u03d52 [12]",
+        "answerKey": "1. **Divergence of Curl**:\nUsing Levi-Civita symbol, $\\vec{\\nabla} \\cdot (\\vec{\\nabla} \\times \\vec{A}) = \\partial_i (\\varepsilon_{ijk} \\partial_j A_k) = \\varepsilon_{ijk} \\partial_i \\partial_j A_k = 0$ (contraction of symmetric partial derivatives with antisymmetric tensor).\n2. **Spherical Laplacian**:\n$\\nabla^2 V = \\frac{1}{r^2} \\frac{\\partial}{\\partial r}(r^2 \\frac{\\partial V}{\\partial r}) + \\frac{1}{r^2\\sin\\theta} \\frac{\\partial}{\\partial\\theta}(\\sin\\theta \\frac{\\partial V}{\\partial\\theta}) + \\frac{1}{r^2\\sin^2\\theta} \\frac{\\partial^2 V}{\\partial\\phi^2}$."
       },
       {
         "id": 15,
-        "unit": "III",
-        "question": "Find a second linearly independent solution of Bessel's equation of order $\\frac{1}{2}$, given that the first solution is $y_1(x) = J_{1/2}(x) = \\sqrt{\\frac{2}{\\pi x}} \\sin x$.",
-        "answerKey": "1. Integral Formula for Second Solution: Given a solution $y_1(x)$ of $y'' + P(x)y' + Q(x)y = 0$, a second independent solution is: $y_2(x) = y_1(x) \\int \\frac{e^{-\\int P(x)dx}}{[y_1(x)]^2} dx$.\n2. Bessel Equation: Bessel's equation is $x^2 y'' + x y' + (x^2 - n^2)y = 0 \\implies y'' + \\frac{1}{x} y' + \\left(1 - \\frac{n^2}{x^2}\\right)y = 0$. Thus, $P(x) = \\frac{1}{x}$.\n3. Numerator Integral: $e^{-\\int P(x)dx} = e^{-\\int (1/x) dx} = e^{-\\ln x} = \\frac{1}{x}$.\n4. Substituting $y_1$ and numerator: $y_2(x) = \\left( \\sqrt{\\frac{2}{\\pi x}} \\sin x \\right) \\int \\frac{1/x}{\\frac{2}{\\pi x} \\sin^2 x} dx$.\n5. Simplifying the integral: $y_2(x) = \\left( \\sqrt{\\frac{2}{\\pi x}} \\sin x \\right) \\frac{\\pi}{2} \\int \\csc^2 x dx$.\n6. Carrying out integration: $\\int \\csc^2 x dx = -\\cot x = -\\frac{\\cos x}{\\sin x}$.\n7. Final evaluation: $y_2(x) = -\\frac{\\pi}{2} \\sqrt{\\frac{2}{\\pi x}} \\sin x \\frac{\\cos x}{\\sin x} = -\\sqrt{\\frac{\\pi}{2}} \\sqrt{\\frac{2}{\\pi x}} \\cos x = -\\sqrt{\\frac{2}{\\pi x}} \\cos x$. This is proportional to $J_{-1/2}(x)$, which is the standard second linearly independent solution."
+        "unit": "II",
+        "question": "Explain the termspolar vectorandaxial vectorwith one physical example of each.[4]",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
       },
       {
         "id": 16,
-        "unit": "IV",
-        "question": "Using the generating function for Legendre polynomials $g(x,t) = (1 - 2xt + t^2)^{-1/2} = \\sum_{n=0}^{\\infty} P_n(x) t^n$, prove the recurrence relations: (i) $P'_{n+1}(x) - P'_{n-1}(x) = (2n+1)P_n(x)$ and (ii) $nP_n(x) = x P'_n(x) - P'_{n-1}(x)$.",
-        "answerKey": "1. Differentiating Generating Function: Let $g = (1 - 2xt + t^2)^{-1/2}$.\n- With respect to $x$: $\\frac{\\partial g}{\\partial x} = t (1 - 2xt + t^2)^{-3/2} = \\sum P'_n(x) t^n$.\n- With respect to $t$: $\\frac{\\partial g}{\\partial t} = (x - t) (1 - 2xt + t^2)^{-3/2} = \\sum n P_n(x) t^{n-1}$.\n2. Combining Equations: Multiplying $\\frac{\\partial g}{\\partial x}$ by $(x-t)$ and $\\frac{\\partial g}{\\partial t}$ by $t$:\n$(x - t) \\frac{\\partial g}{\\partial x} = t \\frac{\\partial g}{\\partial t} \\implies (x - t) \\sum_{n=0}^{\\infty} P'_n(x) t^n = t \\sum_{n=0}^{\\infty} n P_n(x) t^{n-1}$.\n3. Equating coefficients of $t^n$: $x P'_n(x) - P'_{n-1}(x) = n P_n(x)$. This proves identity (ii).\n4. Differentiating Recurrence Relations: We also know the standard recurrence relation $(2n+1)x P_n(x) = (n+1)P_{n+1}(x) + n P_{n-1}(x)$. Differentiating with respect to $x$ and combining with (ii) leads directly to: $P'_{n+1}(x) - P'_{n-1}(x) = (2n+1)P_n(x)$, which is identity (i)."
+        "unit": "II",
+        "question": "Express the components of\u20d7E = \u20d7A\u00d7\u20d7B in terms of the Levi-Civita symbol\u03f5ijk and the components of \u20d7Aand \u20d7B. Use this tensor notation to verify the vector identity: (\u20d7A\u00d7\u20d7B)\u00b7(\u20d7C\u00d7\u20d7D) = ( \u20d7A\u00b7\u20d7C)(\u20d7B\u00b7\u20d7D)\u2212(\u20d7A\u00b7\u20d7D)(\u20d7B\u00b7\u20d7C) [8]",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
       },
       {
         "id": 17,
-        "unit": "IV",
-        "question": "Prove the orthogonality relation for Legendre polynomials: $\\int_{-1}^{1} P_m(x) P_n(x) dx = \\frac{2}{2n+1} \\delta_{mn}$.",
-        "answerKey": "1. Generating Function Setup: We square the generating function: $\\sum_{m,n=0}^{\\infty} P_m(x) P_n(x) t^{m+n} = \\frac{1}{1 - 2xt + t^2}$.\n2. Integrating over $[-1, 1]$: $\\sum_{m,n=0}^{\\infty} t^{m+n} \\int_{-1}^{1} P_m(x) P_n(x) dx = \\int_{-1}^{1} \\frac{dx}{1 - 2xt + t^2}$.\n3. Evaluating the Integral: Let $u = 1 - 2xt + t^2 \\implies du = -2t dx$:\n$\\int_{-1}^{1} \\frac{dx}{1 - 2xt + t^2} = -\\frac{1}{2t} [\\ln(1 - 2xt + t^2)]_{-1}^{1} = -\\frac{1}{2t} [\\ln(1 - 2t + t^2) - \\ln(1 + 2t + t^2)]$.\n4. Log Simplification: $= -\\frac{1}{2t} [\\ln(1-t)^2 - \\ln(1+t)^2] = \\frac{1}{t} [\\ln(1+t) - \\ln(1-t)]$.\n5. Series Expansion of Log: $\\frac{1}{t} \\left[ \\left(t - \\frac{t^2}{2} + \\frac{t^3}{3} - \\dots\\right) - \\left(-t - \\frac{t^2}{2} - \\frac{t^3}{3} - \\dots\\right) \\right] = \\frac{2}{t} \\left( t + \\frac{t^3}{3} + \\frac{t^5}{5} + \\dots \\right) = 2 \\sum_{n=0}^{\\infty} \\frac{t^{2n}}{2n+1}$.\n6. Comparing Coefficients: The LHS is $\\sum t^{m+n} \\int P_m P_n dx$. Since the RHS has only even powers $t^{2n}$, we must have $m=n$ for non-zero contributions: $\\sum t^{2n} \\int_{-1}^{1} [P_n(x)]^2 dx = 2 \\sum t^{2n} \\frac{1}{2n+1}$.\n7. Conclusion: Comparing coefficients of $t^{2n}$ gives $\\int_{-1}^{1} [P_n(x)]^2 dx = \\frac{2}{2n+1}$, and if $m \\neq n$, $\\int_{-1}^{1} P_m(x) P_n(x) dx = 0$."
+        "unit": "II",
+        "question": "Show that the transpose of a square matrixA (denotedAT) has the same eigenvalues as the matrixA.[8] OR",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
       },
       {
         "id": 18,
-        "unit": "IV",
-        "question": "Using the generating function for Hermite polynomials $g(x,t) = e^{2xt - t^2} = \\sum_{n=0}^{\\infty} H_n(x) \\frac{t^n}{n!}$, prove that $H'_n(x) = 2n H_{n-1}(x)$ and Hermite's differential equation $H''_n(x) - 2x H'_n(x) + 2n H_n(x) = 0$.",
-        "answerKey": "1. Differentiating with respect to $x$: $\\frac{\\partial g}{\\partial x} = 2t e^{2xt-t^2} = 2t \\sum_{n=0}^{\\infty} H_n(x) \\frac{t^n}{n!} = \\sum_{n=0}^{\\infty} H'_n(x) \\frac{t^n}{n!}$.\n- RHS = $2 \\sum_{n=0}^{\\infty} H_n(x) \\frac{t^{n+1}}{n!} = \\sum_{n=0}^{\\infty} H'_n(x) \\frac{t^n}{n!}$.\n- Equating coefficients of $t^n$: $\\frac{H'_n(x)}{n!} = 2 \\frac{H_{n-1}(x)}{(n-1)!} \\implies H'_n(x) = 2n H_{n-1}(x)$. This is the first identity.\n2. Differentiating with respect to $t$: $\\frac{\\partial g}{\\partial t} = (2x - 2t) e^{2xt-t^2} = \\sum_{n=1}^{\\infty} H_n(x) \\frac{t^{n-1}}{(n-1)!}$.\n- $(2x - 2t) \\sum_{n=0}^{\\infty} H_n(x) \\frac{t^n}{n!} = \\sum_{n=0}^{\\infty} H_{n+1}(x) \\frac{t^n}{n!}$.\n- Equating coefficients of $t^n$: $2x \\frac{H_n(x)}{n!} - 2 \\frac{H_{n-1}(x)}{(n-1)!} = \\frac{H_{n+1}(x)}{n!} \\implies H_{n+1}(x) = 2x H_n(x) - 2n H_{n-1}(x)$.\n3. Differentiating Recurrence Relation: Differentiate the recurrence relation with respect to $x$:\n$H'_{n+1}(x) = 2H_n(x) + 2x H'_n(x) - 2n H'_{n-1}(x)$.\n4. Substituting first identity: Replace $H'_{n+1}$ and $H'_{n-1}$ using $H'_k = 2k H_{k-1}$:\n$2(n+1) H_n(x) = 2H_n(x) + 2x H'_n(x) - 2n (2(n-1) H_{n-2}(x))$.\nUsing $2n H_{n-1}(x) = H'_n(x)$ and simplifying gives the Hermite ordinary differential equation: $H''_n(x) - 2x H'_n(x) + 2n H_n(x) = 0$."
+        "unit": "II",
+        "question": "Determine the eigenvalues and normalized eigenvectors of the matrixA: A= ( 1\u2212i i3 ) [8]",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
       },
       {
         "id": 19,
-        "unit": "IV",
-        "question": "Prove the orthogonality relation for Hermite polynomials: $\\int_{-infty}^{\\infty} e^{-x^2} H_m(x) H_n(x) dx = 2^n n! \\sqrt{\\pi} \\delta_{mn}$.",
-        "answerKey": "1. Generating Function Setup: We write two generating functions with parameters $s$ and $t$:\n$e^{2xs - s^2} = \\sum_{m=0}^{\\infty} H_m(x) \\frac{s^m}{m!}$ and $e^{2xt - t^2} = \\sum_{n=0}^{\\infty} H_n(x) \\frac{t^n}{n!}$.\n2. Product of Equations: $e^{2x(s+t) - (s^2+t^2)} = \\sum_{m,n=0}^{\\infty} H_m(x) H_n(x) \\frac{s^m t^n}{m! n!}$.\n3. Integrating with weight $e^{-x^2}$: $\\sum_{m,n=0}^{\\infty} \\frac{s^m t^n}{m! n!} \\int_{-\\infty}^{\\infty} e^{-x^2} H_m(x) H_n(x) dx = \\int_{-\\infty}^{\\infty} e^{-x^2} e^{2x(s+t) - (s^2+t^2)} dx$.\n4. Completing the Square in Integral: The exponent is $-[x^2 - 2x(s+t) + (s+t)^2] + (s+t)^2 - (s^2+t^2) = -(x - (s+t))^2 + 2st$.\n5. Integration: $\\int_{-\\infty}^{\\infty} e^{-(x-(s+t))^2} e^{2st} dx = e^{2st} \\int_{-\\infty}^{\\infty} e^{-u^2} du = e^{2st} \\sqrt{\\pi}$.\n6. Series Expansion: $e^{2st} \\sqrt{\\pi} = \\sqrt{\\pi} \\sum_{n=0}^{\\infty} \\frac{(2st)^n}{n!} = \\sqrt{\\pi} \\sum_{n=0}^{\\infty} 2^n \\frac{s^n t^n}{n!}$.\n7. Comparing Coefficients: The LHS is $\\sum \\frac{s^m t^n}{m! n!} I_{mn}$. For $m \\neq n$, coefficients of $s^m t^n$ are $0$. For $m = n$:\n$\\frac{1}{(n!)^2} \\int_{-\\infty}^{\\infty} e^{-x^2} [H_n(x)]^2 dx = \\sqrt{\\pi} \\frac{2^n}{n!} \\implies \\int_{-\\infty}^{\\infty} e^{-x^2} [H_n(x)]^2 dx = 2^n n! \\sqrt{\\pi}$."
+        "unit": "II",
+        "question": "Suppose R = (aij)is an orthogonal matrix that rotates the vector\u20d7 rto \u20d7 r\u2032(so that x\u2032 i =aijxj). From the invariance of the square of the length of the vector, derive the orthogonality condition: 3\u2211 k=1 aikajk =\u03b4ij fori,j= 1,2,3 [6] Page 2 of 3 --- Page 3 --- Banaras Hindu University BPT-501: Mathematical Physics",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
       },
       {
         "id": 20,
-        "unit": "IV",
-        "question": "Prove the Bessel recurrence relation: $x J'_n(x) = n J_n(x) - x J_{n+1}(x)$ and show that $J_{-n}(x) = (-1)^n J_n(x)$ for an integer $n$.",
-        "answerKey": "1. Generating Function for Bessel Functions: $e^{\\frac{x}{2}(z - 1/z)} = \\sum_{n=-\\infty}^{\\infty} J_n(x) z^n$.\n2. Differentiating with respect to $z$: $\\frac{x}{2}(1 + 1/z^2) e^{\\frac{x}{2}(z-1/z)} = \\sum n J_n(x) z^{n-1}$.\n- Substituting $g(x,z)$: $\\frac{x}{2}(1 + 1/z^2) \\sum J_n(x) z^n = \\sum n J_n(x) z^{n-1} \\implies \\frac{x}{2} \\sum J_n(x) (z^n + z^{n-2}) = \\sum n J_n(x) z^{n-1}$.\n- Equating coefficients of $z^{n-1}$: $\\frac{x}{2} [J_{n-1}(x) + J_{n+1}(x)] = n J_n(x)$. This is the first recurrence relation.\n3. Differentiating with respect to $x$: $\\frac{1}{2}(z - 1/z) e^{\\frac{x}{2}(z-1/z)} = \\sum J'_n(x) z^n \\implies \\frac{1}{2}(J_{n-1}(x) - J_{n+1}(x)) = J'_n(x)$.\n4. Combining equations: Multiply the derivative relation by $x$:\n$x J'_n(x) = \\frac{x}{2} [J_{n-1}(x) - J_{n+1}(x)]$.\nSubstitute $\\frac{x}{2} J_{n-1}(x) = n J_n(x) - \\frac{x}{2} J_{n+1}(x)$:\n$x J'_n(x) = n J_n(x) - x J_{n+1}(x)$. This completes the recurrence proof.\n5. Negative integer indices: Let $z = -1/w$ in generating function:\n$e^{\\frac{x}{2}(-1/w + w)} = \\sum_{n=-\\infty}^{\\infty} J_n(x) (-1/w)^n \\implies \\sum J_n(x) w^n = \\sum (-1)^n J_n(x) w^{-n}$.\nReplacing index $n$ with $-n$ on LHS: $\\sum J_{-n}(x) w^{-n} = \\sum (-1)^n J_n(x) w^{-n}$. Comparing coefficients yields $J_{-n}(x) = (-1)^n J_n(x)$."
+        "unit": "II",
+        "question": "How are the covariant and contravariant components of a vector related? A covariant tensor of rank 1 has componentsxy,(y2\u2212z2), andx in rectangular Cartesian coordinates. Determine its components in spherical polar coordinates.[6]",
+        "answerKey": "1. **Divergence of Curl**:\nUsing Levi-Civita symbol, $\\vec{\\nabla} \\cdot (\\vec{\\nabla} \\times \\vec{A}) = \\partial_i (\\varepsilon_{ijk} \\partial_j A_k) = \\varepsilon_{ijk} \\partial_i \\partial_j A_k = 0$ (contraction of symmetric partial derivatives with antisymmetric tensor).\n2. **Spherical Laplacian**:\n$\\nabla^2 V = \\frac{1}{r^2} \\frac{\\partial}{\\partial r}(r^2 \\frac{\\partial V}{\\partial r}) + \\frac{1}{r^2\\sin\\theta} \\frac{\\partial}{\\partial\\theta}(\\sin\\theta \\frac{\\partial V}{\\partial\\theta}) + \\frac{1}{r^2\\sin^2\\theta} \\frac{\\partial^2 V}{\\partial\\phi^2}$."
       },
       {
         "id": 21,
-        "unit": "IV",
-        "question": "Using the generating function of Laguerre polynomials $g(x,t) = \\frac{1}{1-t} \\exp\\left(-\\frac{xt}{1-t}\\right) = \\sum_{n=0}^{\\infty} L_n(x) t^n$, find recurrence relations and show they satisfy Laguerre's differential equation.",
-        "answerKey": "1. Generating Function derivatives: $g(x,t) = \\frac{1}{1-t} \\exp\\left(-\\frac{xt}{1-t}\\right)$.\n- With respect to $x$: $\\frac{\\partial g}{\\partial x} = -\\frac{t}{(1-t)^2} \\exp\\left(-\\frac{xt}{1-t}\\right) = -\\frac{t}{1-t} g$.\n- Thus $(1-t) \\frac{\\partial g}{\\partial x} + t g = 0 \\implies (1-t) \\sum L'_n(x) t^n + \\sum L_n(x) t^{n+1} = 0$.\n- Equating coefficients of $t^n$: $L'_n(x) - L'_{n-1}(x) + L_{n-1}(x) = 0$.\n2. Derivative Recurrence Relation: Summing this relation from $1$ to $n$ yields: $L'_n(x) = \\sum_{k=0}^{n-1} L_k(x)$.\n3. Differentiating with respect to $t$: Leads to the recurrence relation $(n+1) L_{n+1}(x) = (2n + 1 - x) L_n(x) - n L_{n-1}(x)$.\n4. Laguerre's Differential Equation: By combining these recurrence relations and their derivatives, we obtain: $x L''_n(x) + (1-x) L'_n(x) + n L_n(x) = 0$, which is Laguerre's differential equation."
+        "unit": "III",
+        "question": "Consider the periodic functionf(t)with periodT= 4: f(t) = \uf8f1 \uf8f4\uf8f4\uf8f2 \uf8f4\uf8f4\uf8f3 0,\u22122<t<\u22121 h,\u22121<t<1 0,1<t<2 withh>0.",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
       },
       {
         "id": 22,
-        "unit": "V",
-        "question": "Find the Fourier series expansion of the function $f(x) = x^2$ in the interval $-pi < x < pi$. Use this series to show that $\\sum_{n=1}^{\\infty} \\frac{1}{n^2} = \\frac{\\pi^2}{6}$.",
-        "answerKey": "1. Even Function property: Since $f(-x) = (-x)^2 = x^2$, the function is even. Therefore, the Fourier coefficients $b_n = 0$ for all $n$.\n2. Coefficient $a_0$:\n$a_0 = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} x^2 dx = \\frac{2}{\\pi} \\int_0^{\\pi} x^2 dx = \\frac{2}{\\pi} \\left[ \\frac{x^3}{3} \\right]_0^{\\pi} = \\frac{2\\pi^2}{3}$.\n3. Coefficients $a_n$:\n$a_n = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} x^2 \\cos(nx) dx = \\frac{2}{\\pi} \\int_0^{\\pi} x^2 \\cos(nx) dx$.\n- Using integration by parts: $\\int u dv = u v - \\int v du$ with $u=x^2$ and $dv = \\cos(nx)dx$:\n$a_n = \\frac{2}{\\pi} \\left[ x^2 \\frac{\\sin(nx)}{n} \\right]_0^{\\pi} - \\frac{2}{\\pi} \\int_0^{\\pi} 2x \\frac{\\sin(nx)}{n} dx = 0 - \\frac{4}{n\\pi} \\int_0^{\\pi} x \\sin(nx) dx$.\n- Integrate by parts again with $u=x$ and $dv = \\sin(nx)dx$:\n$a_n = -\\frac{4}{n\\pi} \\left[ -x \\frac{\\cos(nx)}{n} \\right]_0^{\\pi} + \\frac{4}{n\\pi} \\int_0^{\\pi} -\\frac{\\cos(nx)}{n} dx = \\frac{4\\pi\\cos(n\\pi)}{n^2\\pi} - 0 = \\frac{4(-1)^n}{n^2}$.\n4. Fourier Series: $f(x) = \\frac{a_0}{2} + \\sum_{n=1}^{\\infty} a_n \\cos(nx) = \\frac{\\pi^2}{3} + 4 \\sum_{n=1}^{\\infty} \\frac{(-1)^n}{n^2} \\cos(nx)$.\n5. Evaluating at $x=\\pi$: Since the function is continuous, $f(\\pi) = \\pi^2$:\n$\\pi^2 = \\frac{\\pi^2}{3} + 4 \\sum_{n=1}^{\\infty} \\frac{(-1)^n}{n^2} \\cos(n\\pi) = \\frac{\\pi^2}{3} + 4 \\sum_{n=1}^{\\infty} \\frac{(-1)^n (-1)^n}{n^2} = \\frac{\\pi^2}{3} + 4 \\sum_{n=1}^{\\infty} \\frac{1}{n^2}$.\n$\\pi^2 - \\frac{\\pi^2}{3} = 4 \\sum_{n=1}^{\\infty} \\frac{1}{n^2} \\implies \\frac{2\\pi^2}{3} = 4 \\sum_{n=1}^{\\infty} \\frac{1}{n^2} \\implies \\sum_{n=1}^{\\infty} \\frac{1}{n^2} = \\frac{\\pi^2}{6}$."
+        "unit": "III",
+        "question": "Make a neat sketch of this function.[2] (ii) Find the Fourier series expansion off(t).[5] (iii) Determine the values off (t)at t = 0and t = 1as given by the Fourier series.[3]",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
       },
       {
         "id": 23,
-        "unit": "V",
-        "question": "Find the Fourier series expansion of the function $f(x) = x \\cos x$ in the interval $-pi < x < pi$.",
-        "answerKey": "1. Odd Function property: Since $f(-x) = (-x)\\cos(-x) = -x\\cos x = -f(x)$, the function is odd. Hence $a_0 = 0$ and $a_n = 0$ for all $n$.\n2. Coefficient $b_n$:\n$b_n = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} x \\cos x \\sin(nx) dx = \\frac{2}{\\pi} \\int_0^{\\pi} x \\cos x \\sin(nx) dx$.\n3. Product to Sum Formula: $\\cos x \\sin(nx) = \\frac{1}{2} [\\sin(n+1)x + \\sin(n-1)x]$.\n- $b_n = \\frac{1}{\\pi} \\int_0^{\\pi} x [\\sin(n+1)x + \\sin(n-1)x] dx$.\n4. Integral Evaluation: Let $I_k = \\int_0^{\\pi} x \\sin(kx) dx = \\left[ -x \\frac{\\cos(kx)}{k} \\right]_0^{\\pi} + \\int_0^{\\pi} \\frac{\\cos(kx)}{k} dx = -\\frac{\\pi\\cos(k\\pi)}{k} = -\\frac{\\pi(-1)^k}{k}$.\n- For $n \\neq 1$: $b_n = \\frac{1}{\\pi} [ I_{n+1} + I_{n-1} ] = \\frac{1}{\\pi} \\left[ -\\frac{\\pi(-1)^{n+1}}{n+1} - \\frac{\\pi(-1)^{n-1}}{n-1} \\right] = -(-1)^{n-1} \\left[ \\frac{1}{n+1} + \\frac{1}{n-1} \\right] = (-1)^n \\frac{2n}{n^2-1}$.\n5. Special Case $n=1$: $b_1 = \\frac{2}{\\pi} \\int_0^{\\pi} x \\cos x \\sin x dx = \\frac{1}{\\pi} \\int_0^{\\pi} x \\sin(2x) dx = \\frac{1}{\\pi} I_2 = \\frac{1}{\\pi} \\left( -\\frac{\\pi(-1)^2}{2} \\right) = -\\frac{1}{2}$.\n6. Fourier Series: $f(x) = -\\frac{1}{2}\\sin x + \\sum_{n=2}^{\\infty} (-1)^n \\frac{2n}{n^2-1} \\sin(nx)$."
+        "unit": "III",
+        "question": "Legendre\u2019s differential equation(1\u2212x2)y\u2032\u2032\u22122xy\u2032+n(n + 1)y = 0has a regular solution Pn(x)and a linearly independent irregular solutionQn(x). Show that their Wronskian is: W(x) =P n(x)Q\u2032 n(x)\u2212Qn(x)P\u2032 n(x) = An 1\u2212x2 whereA n is a constant independent ofx.[10] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 3 of 3",
+        "answerKey": "1. **Legendre Equation**:\n$(1-x^2)y'' - 2xy' + n(n+1)y = 0$.\n2. **Generating Function**:\n$(1 - 2xt + t^2)^{-1/2} = \\sum_{n=0}^{\\infty} P_n(x) t^n$.\n3. **Orthogonality**:\n$\\int_{-1}^{1} P_m(x) P_n(x) dx = \\frac{2}{2n+1} \\delta_{mn}$."
       },
       {
         "id": 24,
-        "unit": "V",
-        "question": "Find the Fourier series of the periodic function off(x) of period $2\\pi$, which is defined as $f(x) = x$ in the interval $0 < x < \\pi$, and $f(x) = 0$ in the interval $-pi < x < 0$.",
-        "answerKey": "1. Coefficient $a_0$:\n$a_0 = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} f(x) dx = \\frac{1}{\\pi} \\int_0^{\\pi} x dx = \\frac{1}{\\pi} \\left[ \\frac{x^2}{2} \\right]_0^{\\pi} = \\frac{\\pi}{2}$.\n2. Coefficients $a_n$:\n$a_n = \\frac{1}{\\pi} \\int_0^{\\pi} x \\cos(nx) dx = \\frac{1}{\\pi} \\left[ x \\frac{\\sin(nx)}{n} \\right]_0^{\\pi} - \\frac{1}{\\pi} \\int_0^{\\pi} \\frac{\\sin(nx)}{n} dx = 0 - \\frac{1}{\\pi} \\left[ -\\frac{\\cos(nx)}{n^2} \\right]_0^{\\pi} = \\frac{\\cos(n\\pi) - 1}{\\pi n^2} = \\frac{(-1)^n - 1}{\\pi n^2}$.\n- If $n$ is even, $a_n = 0$.\n- If $n$ is odd, $a_n = -\\frac{2}{\\pi n^2}$.\n3. Coefficients $b_n$:\n$b_n = \\frac{1}{\\pi} \\int_0^{\\pi} x \\sin(nx) dx = \\frac{1}{\\pi} \\left[ -x \\frac{\\cos(nx)}{n} \\right]_0^{\\pi} - \\frac{1}{\\pi} \\int_0^{\\pi} -\\frac{\\cos(nx)}{n} dx = -\\frac{\\pi\\cos(n\\pi)}{\\pi n} + 0 = -\\frac{(-1)^n}{n}$.\n4. Fourier Series: $f(x) = \\frac{\\pi}{4} - \\frac{2}{\\pi} \\sum_{k=0}^{\\infty} \\frac{\\cos((2k+1)x)}{(2k+1)^2} + \\sum_{n=1}^{\\infty} \\frac{(-1)^{n-1}}{n} \\sin(nx)$."
+        "unit": "III",
+        "question": "Find the magnetic induction\u20d7B (in spherical polar coordinates), given the magnetic vector potential\u20d7A = \u20d7 m\u00d7\u20d7 r r3 = msin\u03b8 r2 \u02c6\u03d5, where\u20d7 m=m\u02c6zis a vector of constant magnitude pointing in thez-direction.",
+        "answerKey": "1. **Divergence of Curl**:\nUsing Levi-Civita symbol, $\\vec{\\nabla} \\cdot (\\vec{\\nabla} \\times \\vec{A}) = \\partial_i (\\varepsilon_{ijk} \\partial_j A_k) = \\varepsilon_{ijk} \\partial_i \\partial_j A_k = 0$ (contraction of symmetric partial derivatives with antisymmetric tensor).\n2. **Spherical Laplacian**:\n$\\nabla^2 V = \\frac{1}{r^2} \\frac{\\partial}{\\partial r}(r^2 \\frac{\\partial V}{\\partial r}) + \\frac{1}{r^2\\sin\\theta} \\frac{\\partial}{\\partial\\theta}(\\sin\\theta \\frac{\\partial V}{\\partial\\theta}) + \\frac{1}{r^2\\sin^2\\theta} \\frac{\\partial^2 V}{\\partial\\phi^2}$."
       },
       {
         "id": 25,
+        "unit": "III",
+        "question": "What are covariant and contravariant vectors? Explain each with a physical example.",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "IfAis a nonsingular symmetric matrix, show thatA2 is also symmetric.",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Evaluate\u22072(1/r). What happens at the origin? Explain.",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Find the Fourier series of the functionf(x) = sin2(x)in the interval\u2212\u03c0\u2264x\u2264\u03c0.",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Normalize the Laguerre polynomialL2(x) = 1\u22122x + x2 2 in the range[0,\u221e)with weight function e\u2212x. Construct a second-order, ordinary, linear, homogeneous differential equation (2-ODE) that is satisfied by this polynomial.",
+        "answerKey": "1. **Legendre Equation**:\n$(1-x^2)y'' - 2xy' + n(n+1)y = 0$.\n2. **Generating Function**:\n$(1 - 2xt + t^2)^{-1/2} = \\sum_{n=0}^{\\infty} P_n(x) t^n$.\n3. **Orthogonality**:\n$\\int_{-1}^{1} P_m(x) P_n(x) dx = \\frac{2}{2n+1} \\delta_{mn}$."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Verify the following tensor relations inR3 using Levi-Civita symbols and Kronecker deltas:",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "\u03f5ipq\u03f5ipq = 6 (ii)\u03f5ijk\u03f5pqk =\u03b4ip\u03b4jq\u2212\u03b4iq\u03b4jp [6]",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Write down the spherical polar unit vectors in terms of Cartesian unit vectors. Using these, calculate the partial derivatives of\u02c6r,\u02c6\u03b8,\u02c6\u03d5with respect tor,\u03b8,\u03d5.[8] OR",
+        "answerKey": "1. **Divergence of Curl**:\nUsing Levi-Civita symbol, $\\vec{\\nabla} \\cdot (\\vec{\\nabla} \\times \\vec{A}) = \\partial_i (\\varepsilon_{ijk} \\partial_j A_k) = \\varepsilon_{ijk} \\partial_i \\partial_j A_k = 0$ (contraction of symmetric partial derivatives with antisymmetric tensor).\n2. **Spherical Laplacian**:\n$\\nabla^2 V = \\frac{1}{r^2} \\frac{\\partial}{\\partial r}(r^2 \\frac{\\partial V}{\\partial r}) + \\frac{1}{r^2\\sin\\theta} \\frac{\\partial}{\\partial\\theta}(\\sin\\theta \\frac{\\partial V}{\\partial\\theta}) + \\frac{1}{r^2\\sin^2\\theta} \\frac{\\partial^2 V}{\\partial\\phi^2}$."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Determine the circular cylindrical coordinate components of velocity and acceleration of a moving particle with position vector\u20d7 r(t).[8]",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "Given a vector in spherical polar coordinates: \u20d7F= 2Pcos\u03b8 r3 \u02c6r+Psin\u03b8 r3 \u02c6\u03b8 express it in Cartesian coordinates. If\u20d7F represents a force field, does a potential function exist? If so, find it. Describe a physical system where this field arises.[6] Page 1 of 3 --- Page 2 --- Banaras Hindu University BPT-501: Mathematical Physics",
+        "answerKey": "1. **Divergence of Curl**:\nUsing Levi-Civita symbol, $\\vec{\\nabla} \\cdot (\\vec{\\nabla} \\times \\vec{A}) = \\partial_i (\\varepsilon_{ijk} \\partial_j A_k) = \\varepsilon_{ijk} \\partial_i \\partial_j A_k = 0$ (contraction of symmetric partial derivatives with antisymmetric tensor).\n2. **Spherical Laplacian**:\n$\\nabla^2 V = \\frac{1}{r^2} \\frac{\\partial}{\\partial r}(r^2 \\frac{\\partial V}{\\partial r}) + \\frac{1}{r^2\\sin\\theta} \\frac{\\partial}{\\partial\\theta}(\\sin\\theta \\frac{\\partial V}{\\partial\\theta}) + \\frac{1}{r^2\\sin^2\\theta} \\frac{\\partial^2 V}{\\partial\\phi^2}$."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "Given thatJ1/2(x) = \u221a 2 \u03c0xsinx is one solution of the Bessel equation of order1/2, find a second linearly independent solution (up to a constant multiplier).[6]",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Given the generating functiong(x,t ) = e2xt\u2212t2 = \u2211\u221e n=0 Hn(x) n! tn for Hermite polynomials, show that: \u222b \u221e \u2212\u221e e\u2212x2 [Hn(x)]2dx= 2 nn!\u221a\u03c0 [8] OR",
+        "answerKey": "1. **Legendre Equation**:\n$(1-x^2)y'' - 2xy' + n(n+1)y = 0$.\n2. **Generating Function**:\n$(1 - 2xt + t^2)^{-1/2} = \\sum_{n=0}^{\\infty} P_n(x) t^n$.\n3. **Orthogonality**:\n$\\int_{-1}^{1} P_m(x) P_n(x) dx = \\frac{2}{2n+1} \\delta_{mn}$."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "Using the generating functiong(x,t ) = (1\u22122xt +t2)\u22121/2= \u2211\u221e n=0Pn(x)tn,(|t|<1)for Legendre polynomials, show that: P\u2032 n+1(x)\u2212P\u2032 n\u22121(x) = (2n+ 1)P n(x) where the prime symbol\u2032denotes the derivative with respect tox.[6]",
+        "answerKey": "1. **Legendre Equation**:\n$(1-x^2)y'' - 2xy' + n(n+1)y = 0$.\n2. **Generating Function**:\n$(1 - 2xt + t^2)^{-1/2} = \\sum_{n=0}^{\\infty} P_n(x) t^n$.\n3. **Orthogonality**:\n$\\int_{-1}^{1} P_m(x) P_n(x) dx = \\frac{2}{2n+1} \\delta_{mn}$."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Solve Legendre\u2019s differential equation(1\u2212x2)y\u2032\u2032\u22122xy\u2032+n(n + 1)y = 0using the Frobenius series method about the ordinary pointx = 0. Show that whenn is an integer, one of the solutions terminates to form a polynomial.[8]",
+        "answerKey": "1. **Legendre Equation**:\n$(1-x^2)y'' - 2xy' + n(n+1)y = 0$.\n2. **Generating Function**:\n$(1 - 2xt + t^2)^{-1/2} = \\sum_{n=0}^{\\infty} P_n(x) t^n$.\n3. **Orthogonality**:\n$\\int_{-1}^{1} P_m(x) P_n(x) dx = \\frac{2}{2n+1} \\delta_{mn}$."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "By expressing the vector cross products in terms of the Levi-Civita symbols (\u03f5ijk), verify the vector identity: (\u20d7A\u00d7\u20d7B)\u00b7(\u20d7C\u00d7\u20d7D) = ( \u20d7A\u00b7\u20d7C)(\u20d7B\u00b7\u20d7D)\u2212(\u20d7A\u00b7\u20d7D)(\u20d7B\u00b7\u20d7C) [6]",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "Find the eigenvalues and normalized eigenvectors of the matrixA: A= \uf8eb \uf8ec\uf8ed 1 0 0 0 1\u2212 \u221a 2 0\u2212 \u221a 2 0 \uf8f6 \uf8f7\uf8f8 How are these related to the eigenvalues and eigenvectors ofA\u22121?[8]",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
+      },
+      {
+        "id": 41,
         "unit": "V",
-        "question": "Find the Fourier series of the periodic square wave function of period $2\\pi$ defined as $f(x) = 1$ for $0 < x < \\pi$, and $f(x) = -1$ for $-pi < x < 0$. Discuss the convergence and behavior at $x = 0$.",
-        "answerKey": "1. Odd Function property: Since $f(-x) = -f(x)$, it is an odd function. Thus $a_0 = 0$ and $a_n = 0$ for all $n$.\n2. Coefficient $b_n$:\n$b_n = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} f(x) \\sin(nx) dx = \\frac{2}{\\pi} \\int_0^{\\pi} 1 \\cdot \\sin(nx) dx = \\frac{2}{\\pi} \\left[ -\\frac{\\cos(nx)}{n} \\right]_0^{\\pi} = \\frac{2}{n\\pi} (1 - \\cos(n\\pi)) = \\frac{2(1 - (-1)^n)}{n\\pi}$.\n- If $n$ is even: $b_n = 0$.\n- If $n$ is odd: $b_n = \\frac{4}{n\\pi}$.\n3. Fourier Series: $f(x) = \\frac{4}{\\pi} \\sum_{k=0}^{\\infty} \\frac{\\sin((2k+1)x)}{2k+1} = \\frac{4}{\\pi} \\left( \\sin x + \\frac{\\sin 3x}{3} + \\frac{\\sin 5x}{5} + \\dots \\right)$.\n4. Value at Discontinuity $x = 0$: According to Dirichlet's theorem, the Fourier series converges to the average value at a point of discontinuity: $f(0) = \\frac{f(0^+) + f(0^-)}{2} = \\frac{1 + (-1)}{2} = 0$.\n5. Gibbs Phenomenon: At the points of discontinuity, the partial sums of the Fourier series overshoot the function values by approximately 9% of the jump height. This overshoot does not disappear even in the limit of infinite terms, representing a fundamental behavior of Fourier representations near step changes."
+        "question": "Sketch a periodic square wave functionf (x)with period T = 2and amplitude A = 1 which is also an even function (such thatf (x) = 1for \u22120.5<x< 0.5, andf (x) = 0for",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "5<|x|<1.0). Find the Fourier series for this periodic function.[8] Page 2 of 3 --- Page 3 --- Banaras Hindu University BPT-501: Mathematical Physics",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "The transformation relation between the unit vectors in circular cylindrical coordinates and Cartesian coordinates can be written as: \uf8eb \uf8ec\uf8ed \u02c6\u03c1 \u02c6\u03d5 \u02c6z \uf8f6 \uf8f7\uf8f8 =C \uf8eb \uf8ec\uf8ed \u02c6i \u02c6j \u02c6k \uf8f6 \uf8f7\uf8f8 Write down the matrixCexplicitly and prove that it is orthogonal.[6] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 3 of 3",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Question 1.Answer anyfourof the following:[4\u00d75 = 20]",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "A conducting wire along thez-axis carries a steady currentI. The resulting magnetic vector potential is given by: \u20d7A= \u02c6z\u00b50I 2\u03c0ln (r0 r ) Find the magnetic induction vector\u20d7Bin coordinates appropriate to the geometry.",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "The distance squareds2 between two neighboring points in a 3D space is given in curvilinear coordinates by ds2 = gijdxidxj. Show that the metric coefficients gij transform as a covariant tensor of rank 2.",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "IfAis a nonsingular symmetric matrix, show thatA\u22121is also symmetric.",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "From the Euler integral definition of the Gamma function\u0393(z) = \u222b\u221e 0 e\u2212ttz\u22121dt, show that:",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "\u0393(z+ 1) =z\u0393(z) (ii) \u0393(z) = 2 \u222b\u221e 0 e\u2212t2 t2z\u22121dt. State the condition imposed onz for the validity of this integral.",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Find the Fourier series of the functionf(x) = |sin(x)|in the interval\u2212\u03c0 < x < \u03c0. Comment on the nature of convergence of the series.",
+        "answerKey": "1. **Mathematical Physics Analysis**:\nSet up coordinate system, determine boundary conditions.\n2. **Differential/Algebraic Equations**:\nUse Frobenius series expansions, coordinate scale factors, or residue calculus to solve.\n3. **Orthogonality & Normalization**:\nApply special function orthogonality relations to evaluate coefficients."
       }
     ]
   },
@@ -8431,7 +10557,311 @@ export const EXAMS = {
     "id": "phymn41",
     "title": "Electromagnetic Theory & Special Theory of Relativity",
     "module": "PHYMN41",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Question 1.Answer anyfiveof the following:[5\u00d74 = 20]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Prove that the divergence of the curl of any vector field vanishes:\u2207\u00b7(\u2207\u00d7\u20d7A) = 0.",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Define scalar and vector potentials. How do you express the electric field\u20d7E and magnetic field \u20d7Bin terms of these potentials?",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Write down the four Maxwell\u2019s equations in differential form and briefly explain the physical meaning of each.",
+        "answerKey": "1. **Maxwell's Equations**:\n(i) $\\vec{\\nabla} \\cdot \\vec{E} = \\rho/\\varepsilon_0$, (ii) $\\vec{\\nabla} \\cdot \\vec{B} = 0$, (iii) $\\vec{\\nabla} \\times \\vec{E} = -\\frac{\\partial\\vec{B}}{\\partial t}$, (iv) $\\vec{\\nabla} \\times \\vec{B} = \\mu_0\\vec{J} + \\mu_0\\varepsilon_0 \\frac{\\partial\\vec{E}}{\\partial t}$.\n2. **Displacement Current**:\n$I_d = \\varepsilon_0 \\frac{\\partial\\Phi_E}{\\partial t}$. Resolves charge conservation discontinuity in Ampere's law."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "A material has conductivity\u03c3= 10 \u22123S/m and relative permittivity\u03b5r = 2. At what frequency would the conduction current density be equal to the displacement current density?",
+        "answerKey": "1. **Maxwell's Equations**:\n(i) $\\vec{\\nabla} \\cdot \\vec{E} = \\rho/\\varepsilon_0$, (ii) $\\vec{\\nabla} \\cdot \\vec{B} = 0$, (iii) $\\vec{\\nabla} \\times \\vec{E} = -\\frac{\\partial\\vec{B}}{\\partial t}$, (iv) $\\vec{\\nabla} \\times \\vec{B} = \\mu_0\\vec{J} + \\mu_0\\varepsilon_0 \\frac{\\partial\\vec{E}}{\\partial t}$.\n2. **Displacement Current**:\n$I_d = \\varepsilon_0 \\frac{\\partial\\Phi_E}{\\partial t}$. Resolves charge conservation discontinuity in Ampere's law."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Describe the position of the Fermi level in an intrinsic and an extrinsic semiconductor. Discuss the effect of temperature on its position.",
+        "answerKey": "1. **TEM wave exclusion**:\nTEM requires $E_z = 0, H_z = 0$. Since boundary is conducting, potential $\\Phi = 0$ on walls. By Laplace's uniqueness, $\\Phi = 0$ inside waveguide, meaning $\\vec{E} = 0$, so no TEM wave can exist.\n2. **Cutoff Frequency**:\n$f_c = \\frac{c}{2} \\sqrt{(m/a)^2 + (n/b)^2}$."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "Why is a capacitor filter mostly used in a power supply rather than an inductor filter? Explain.",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "Explain how the current gain\u03b1is different from\u03b2. Establish the relationship between \u03b1and\u03b2for a transistor.",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "State and prove Gauss\u2019s divergence theorem.[5]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Derive the electromagnetic wave equation for the propagation of a plane wave in a non-conducting isotropic dielectric medium. Obtain expressions for the propagation constant, intrinsic impedance, phase velocity, and group velocity.[9]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "State and prove Poynting\u2019s theorem for the conservation of energy in an electromagnetic field, and discuss the physical significance of each term in the equation.[8]",
+        "answerKey": "1. **Poynting Vector**:\n$\\vec{S} = \\frac{1}{\\mu_0} (\\vec{E} \\times \\vec{B})$ representing energy flow per unit area per unit time.\n2. **Poynting Theorem**:\n$-\\frac{\\partial u}{\\partial t} = \\vec{\\nabla} \\cdot \\vec{S} + \\vec{J} \\cdot \\vec{E}$, stating rate of energy decrease in a volume equals energy flux flowing out plus work done on charges."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "Define depth of penetration (skin depth). Show that electromagnetic waves are heavily attenuated inside a good conductor.[6] Page 1 of 2 --- Page 2 --- Banaras Hindu University BPT-401: EMT and Basic Electronics (Old) OR",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "A plane wave travelling in a homogenous, isotropic, and linear dielectric medium is incident obliquely at a plane interface of another dielectric. Determine the reflection and transmission coefficients if the incident wave is polarized with its electric vector lying perpendicular to the plane of incidence.[9]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "What is a transmission line? Explain the different parameters of a transmission line. Determine the characteristic impedance of a lossless cable if the inductance per unit lengthL= 0.25\u00b5H/m and capacitance per unit lengthC= 100pF/m.[5]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Explain the depletion region in a p-n junction. Show that the width of the depletion region in the p-n junction decreases with the increase of doping impurity concentration. [8]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Describe the working of a single-stage RC coupled common-emitter amplifier. Plot the frequency response of the amplifier and explain its features.[6] OR",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "Explain the working of a full-wave bridge rectifier having a capacitor filter with a suitable circuit diagram. Obtain the relationship for the ripple factor.[8]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "Why does a transistor need biasing? Draw the circuit diagram of a transistor self-bias (voltage divider bias) circuit. Explain how it provides better thermal stability than a fixed-bias circuit.[6]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Starting from Maxwell\u2019s equations, derive the wave equation for the propagation of a plane electromagnetic wave in free space. Obtain the solution representing a plane wave propagating along the+zdirection.[7]",
+        "answerKey": "1. **Maxwell's Equations**:\n(i) $\\vec{\\nabla} \\cdot \\vec{E} = \\rho/\\varepsilon_0$, (ii) $\\vec{\\nabla} \\cdot \\vec{B} = 0$, (iii) $\\vec{\\nabla} \\times \\vec{E} = -\\frac{\\partial\\vec{B}}{\\partial t}$, (iv) $\\vec{\\nabla} \\times \\vec{B} = \\mu_0\\vec{J} + \\mu_0\\varepsilon_0 \\frac{\\partial\\vec{E}}{\\partial t}$.\n2. **Displacement Current**:\n$I_d = \\varepsilon_0 \\frac{\\partial\\Phi_E}{\\partial t}$. Resolves charge conservation discontinuity in Ampere's law."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Find the Brewster angle for a parallel-polarized wave travelling from air into glass for which\u03b5r = 5.0.[4]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Explain the meaning of the Early effect. How does it affect the collector current in a junction transistor?[3] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 2 of 2",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "Question 1.Answer anyfourof the following:[4\u00d75 = 20]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "Show that the vector field\u20d7 v=yz\u02c6i +zx\u02c6j +xy\u02c6k can be written as the gradient of a scalar fieldf(x,y,z).",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "If an infinitely long straight wire carries a uniform line charge density\u03bb, find the electric field at a distancerfrom this wire.",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "Ifthepotentialduetoacontinuouschargedistributioniswrittenas V (\u20d7 r) = 1 4\u03c0\u03f50 \u222b \u03c1(\u20d7 r\u2032) |\u20d7 r\u2212\u20d7 r\u2032|d\u03c4\u2032, obtain\u22072V(\u20d7 r).",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "A parallel polarized electromagnetic wave is incident from air to polystyrene (\u00b5\u2248\u00b50, \u03f5r = 2.6) at the Brewster angle. Determine the transmission angle.",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Determine the state of polarization for the wave whose electric field is given by: \u20d7E(z,t) =E 0(\u02c6icos(kz\u2212\u03c9t)\u2212\u02c6jsin(kz\u2212\u03c9t))",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Calculate the intrinsic impedance of free space.",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "What is a linear dielectric medium? How do Maxwell\u2019s equations modify in such a linear dielectric medium?[6]",
+        "answerKey": "1. **Maxwell's Equations**:\n(i) $\\vec{\\nabla} \\cdot \\vec{E} = \\rho/\\varepsilon_0$, (ii) $\\vec{\\nabla} \\cdot \\vec{B} = 0$, (iii) $\\vec{\\nabla} \\times \\vec{E} = -\\frac{\\partial\\vec{B}}{\\partial t}$, (iv) $\\vec{\\nabla} \\times \\vec{B} = \\mu_0\\vec{J} + \\mu_0\\varepsilon_0 \\frac{\\partial\\vec{E}}{\\partial t}$.\n2. **Displacement Current**:\n$I_d = \\varepsilon_0 \\frac{\\partial\\Phi_E}{\\partial t}$. Resolves charge conservation discontinuity in Ampere's law."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Does the Poynting vector correspond to a dual character in the energy-momentum conservation laws in electrodynamics? Explain in detail.[6]",
+        "answerKey": "1. **Poynting Vector**:\n$\\vec{S} = \\frac{1}{\\mu_0} (\\vec{E} \\times \\vec{B})$ representing energy flow per unit area per unit time.\n2. **Poynting Theorem**:\n$-\\frac{\\partial u}{\\partial t} = \\vec{\\nabla} \\cdot \\vec{S} + \\vec{J} \\cdot \\vec{E}$, stating rate of energy decrease in a volume equals energy flux flowing out plus work done on charges."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "In a lossless medium for which intrinsic impedance\u03b7= 60\u03c0, relative permeability\u00b5r = 1, and magnetic field: \u20d7H=\u22120.1 cos(\u03c9t\u2212z)\u02c6i+ 0.5 sin(\u03c9t\u2212z)\u02c6jA/m find the relative permittivity\u03f5r and the angular frequency\u03c9.[8]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "What is a phasor? The electric and magnetic fields in free space are given by\u20d7E = E0 cos(108t +\u03b2z)\u02c6i V/m and \u20d7H = H0 cos(108t +\u03b2z)\u02c6j A/m. Find the phasor form of these fields.[6] Page 1 of 2 --- Page 2 --- Banaras Hindu University BPT-505: Electromagnetic Theory",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "How do the laws of electrostatics enforce boundary conditions on the electric field and the corresponding electrostatic potential?[6]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "Why does any net charge reside entirely on the surface of a conductor? Explain.[6] OR",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "Using the general solution of the Laplace equation in spherical polar coordinates with azimuthal symmetry, determine the potential outside the surface of a hollow empty sphere of radiusR if the surface potential is maintained atV0(\u03b8) = V0 sin2(\u03b8/2), where V0 is a constant.[8]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "For a uniform magnetic field\u20d7B, show that\u20d7A =\u22121 2 (\u20d7 r\u00d7\u20d7B)is a valid vector potential such that\u2207\u00b7\u20d7A= 0and\u2207\u00d7\u20d7A= \u20d7B.[6]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "A standard air-filled rectangular waveguide with dimensionsa = 8.636cm and b =",
+        "answerKey": "1. **TEM wave exclusion**:\nTEM requires $E_z = 0, H_z = 0$. Since boundary is conducting, potential $\\Phi = 0$ on walls. By Laplace's uniqueness, $\\Phi = 0$ inside waveguide, meaning $\\vec{E} = 0$, so no TEM wave can exist.\n2. **Cutoff Frequency**:\n$f_c = \\frac{c}{2} \\sqrt{(m/a)^2 + (n/b)^2}$."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "318cm is fed by a4GHz carrier wave. Determine if theTM 11 mode will propagate. If so, calculate the phase and group velocities of this mode.[8]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "Show that a rectangular waveguide does not supportTM10 andTM 01 modes.[6] OR",
+        "answerKey": "1. **TEM wave exclusion**:\nTEM requires $E_z = 0, H_z = 0$. Since boundary is conducting, potential $\\Phi = 0$ on walls. By Laplace's uniqueness, $\\Phi = 0$ inside waveguide, meaning $\\vec{E} = 0$, so no TEM wave can exist.\n2. **Cutoff Frequency**:\n$f_c = \\frac{c}{2} \\sqrt{(m/a)^2 + (n/b)^2}$."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "Derive the general expressions of the attenuation constant\u03b1and phase constant\u03b2for electromagnetic wave propagation in conducting media.[8]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Prove the relationR +T = 1for normal incidence of electromagnetic waves at the boundary between two media.[6] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 2 of 2",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "In a lossy dielectric medium, show thattan\u03b4=\u03f5\u2032\u2032/\u03f5\u2032, where\u03b4is the loss angle of the medium. Show how the phase of the intrinsic impedance is related to the loss angle.[8] (ii) Consider the multipole expansion of the electrostatic potential and show that the dipole term can be written in the form:",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Question 3. (iii) Consider Ampere\u2019s law in the presence of magnetic materials. Write it in both differential and integral forms. Obtain the magnetostatic boundary conditions using the integral form of the equations.[8] (iv) Discuss the propagation of electromagnetic waves in a lossy dielectric medium and derive the expression for the intrinsic impedance of the medium.[6] OR",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "What do you mean by the divergence of a vector field? Calculate the divergence of:",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Question 4.Obtain the electrostatic potential both inside and outside of a hollow sphere of radiusR which is maintained at a constant surface charge density\u03c30. [12]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Question 5. (vi) Show that theTE 10 mode is the dominant mode (lowest cutoff frequency) of all the modes supported by a rectangular waveguide.[8] (vii) Derive the relation between reflection and transmission coefficients for an obliquely incident electromagnetic wave at a dielectric interface where the wave electric field is parallel to the plane of incidence (parallel polarization).[6] Page 1 of 2 --- Page 2 --- Banaras Hindu University BPT-505: Electromagnetic Theory OR (viii) A plane electromagnetic wave is normally incident on the boundaryz = 0formed by a lossless dielectric medium and a good conductor. Obtain thez-values at which the minimum value of|E1y|occurs in medium 1, whereE1y is the total electric field in medium 1.[8] (ix) Show that aTE 10 mode of a rectangular waveguide can be represented as a sum of two plane TEM waves propagating along zigzag paths between the guide walls. [6] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 2 of 2",
+        "answerKey": "1. **TEM wave exclusion**:\nTEM requires $E_z = 0, H_z = 0$. Since boundary is conducting, potential $\\Phi = 0$ on walls. By Laplace's uniqueness, $\\Phi = 0$ inside waveguide, meaning $\\vec{E} = 0$, so no TEM wave can exist.\n2. **Cutoff Frequency**:\n$f_c = \\frac{c}{2} \\sqrt{(m/a)^2 + (n/b)^2}$."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Question 1.Answer anyfourof the following:[4\u00d73.5 = 14]",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "State Fermat\u2019s principle of least time with an example.",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "What is polarized light? What nature of light is shown by polarization?",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "What will be the refractive index of a medium in which the speed of light is2.5\u00d7 108m/s?",
+        "answerKey": "1. **Electrodynamics Core**:\nApply Maxwell's boundary conditions and wave equations.\n2. **Wave propagation**:\nSolution of wave equation $\\nabla^2 \\vec{E} - \\mu\\varepsilon \\frac{\\partial^2 \\vec{E}}{\\partial t^2} = 0$. Impedance $\\eta = \\sqrt{\\mu/\\varepsilon}$.\n3. **Energy & Momentum**:\nEnergy density $u = \\frac{1}{2}\\varepsilon E^2 + \\frac{1}{2\\mu} B^2$, momentum density $\\vec{g} = \\vec{S}/c^2$."
+      }
+    ]
   },
   "phyin51": {
     "id": "phyin51",
@@ -8443,19 +10873,931 @@ export const EXAMS = {
     "id": "phymj51",
     "title": "Quantum Mechanics-I",
     "module": "PHYMJ51",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Question 1.Answer anyfourof the following:[4\u00d75 = 20]",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Find the de Broglie wavelength associated with:",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "an electron accelerated through a potential difference of10MV. (ii) a proton having a kinetic energy of10MeV. (Take rest mass energy of electron =0.51MeV and rest mass energy of proton = 938MeV).",
+        "answerKey": "1. **Schr\u00f6dinger Equation Setup**:\n$-\\frac{\\hbar^2}{2m} \\frac{d^2\\psi}{dx^2} = E\\psi$ inside box ($0 < x < L$), with boundary conditions $\\psi(0) = \\psi(L) = 0$.\n2. **Wave Function & Energy**:\n$\\psi_n(x) = \\sqrt{\\frac{2}{L}} \\sin\\left(\\frac{n\\pi x}{L}\\right)$ and $E_n = \\frac{n^2\\pi^2\\hbar^2}{2m L^2}$ for $n=1,2,3...$."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Using the uncertainty relation, explain why electrons cannot exist inside the nucleus.",
+        "answerKey": "1. **Heisenberg Uncertainty Principle**:\nPosition and momentum cannot be measured simultaneously with arbitrary precision: $\\Delta x \\cdot \\Delta p_x \\ge \\frac{\\hbar}{2}$.\n2. **Applications**:\nExplains why electrons do not fall into nuclei (zero-point kinetic energy prevents collapse), and estimates ground state energy of harmonic oscillator."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "What are stationary states? Explain with reference to the time-dependent and time- independent Schr\u00f6dinger equations.",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Prove the statement: \u201ccommuting observables have simultaneous eigenstates\u201d.",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "Evaluate the following commutation relations:",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "Find the most probable value of the radial distancer of the electron in the ground state of the Hydrogen atom.",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "Describe the difference between phase velocity and group velocity for a wave packet.[4]",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "A particle is constrained to move in a potential of the form: V(x) = { 0,0<x<a \u221e,otherwise Obtain the values of energyE and corresponding normalized eigenfunctions. Show that the eigenfunctions are mutually orthogonal. Is there any acceptable physical solution withE= 0orE <0? Justify your answer.[10]",
+        "answerKey": "1. **Schr\u00f6dinger Equation Setup**:\n$-\\frac{\\hbar^2}{2m} \\frac{d^2\\psi}{dx^2} = E\\psi$ inside box ($0 < x < L$), with boundary conditions $\\psi(0) = \\psi(L) = 0$.\n2. **Wave Function & Energy**:\n$\\psi_n(x) = \\sqrt{\\frac{2}{L}} \\sin\\left(\\frac{n\\pi x}{L}\\right)$ and $E_n = \\frac{n^2\\pi^2\\hbar^2}{2m L^2}$ for $n=1,2,3...$."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "Question 3. Page 1 of 3 --- Page 2 --- Banaras Hindu University BPT-503: Quantum Mechanics",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "Describe the Davisson-Germer experiment to demonstrate the wave nature of the electron. [4]",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "If a particle having energyE >0is incident from the left upon a one-dimensional square potential well defined as: V(x) = { \u2212V0,\u2212a<x<a 0,otherwise find the transmission coefficientT and plot its variation qualitatively as a function of the ratioE/V 0.[10] OR",
+        "answerKey": "1. **Schr\u00f6dinger Equation Setup**:\n$-\\frac{\\hbar^2}{2m} \\frac{d^2\\psi}{dx^2} = E\\psi$ inside box ($0 < x < L$), with boundary conditions $\\psi(0) = \\psi(L) = 0$.\n2. **Wave Function & Energy**:\n$\\psi_n(x) = \\sqrt{\\frac{2}{L}} \\sin\\left(\\frac{n\\pi x}{L}\\right)$ and $E_n = \\frac{n^2\\pi^2\\hbar^2}{2m L^2}$ for $n=1,2,3...$."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Using the Schwarz inequality, give the mathematical proof of the uncertainty relation for canonically conjugate pairs.[6]",
+        "answerKey": "1. **Heisenberg Uncertainty Principle**:\nPosition and momentum cannot be measured simultaneously with arbitrary precision: $\\Delta x \\cdot \\Delta p_x \\ge \\frac{\\hbar}{2}$.\n2. **Applications**:\nExplains why electrons do not fall into nuclei (zero-point kinetic energy prevents collapse), and estimates ground state energy of harmonic oscillator."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Find the wave function\u03c8(x), which is the Fourier transform of\u03d5(k), for a wave packet whose amplitude function\u03d5(k)varies as: \u03d5(k) = { g0,\u2212K0<k<K 0 0,otherwise Calculate the probability of finding the particle in the region\u2212\u03c0 K0 <x< \u03c0 K0 .[8]",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "What is the difficulty in normalizing a free particle wave function? How is the concept of a wave packet used to resolve this difficulty?[5]",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "Find the uncertainty in position and momentum for the Gaussian wave packet\u03c8(x) = Ae\u2212ax2 . How does it obey the Heisenberg uncertainty relation?[9] OR",
+        "answerKey": "1. **Heisenberg Uncertainty Principle**:\nPosition and momentum cannot be measured simultaneously with arbitrary precision: $\\Delta x \\cdot \\Delta p_x \\ge \\frac{\\hbar}{2}$.\n2. **Applications**:\nExplains why electrons do not fall into nuclei (zero-point kinetic energy prevents collapse), and estimates ground state energy of harmonic oscillator."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "The solution of the Schr\u00f6dinger equation for a free particle in one dimension is of the form: \u03c8(x) =Asin(kx) +Bcos(kx) whereAandBare complex constants.",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Calculate the probability current density for this wave function.[4] (ii) Find the relation between the coefficientsA and B, if\u03c8(x)is an eigenfunction of the momentum operator.[4]",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Show that the Harmonic Oscillator Hamiltonian can be written as: H=\u210f\u03c9 ( a\u2020a+ 1 2 ) in terms of the lowering and raising operators: a= \u221am\u03c9 2\u210f ( x+ ip m\u03c9 ) , a \u2020= \u221am\u03c9 2\u210f ( x\u2212ip m\u03c9 ) Page 2 of 3 --- Page 3 --- Banaras Hindu University BPT-503: Quantum Mechanics Workouttheactionoftheoperators aanda\u2020ontheenergyeigenstatesoftheHamiltonian. [6]",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "The functionf (\u03b8,\u03d5)is an eigenfunction of the operatorLz with eigenvaluem\u210f, such that L+f (\u03b8,\u03d5) = 0. Find the eigenvalue of the operatorL2 acting on the functionf (\u03b8,\u03d5).[6]",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "The radial part of the wave function in the first excited state of the Hydrogen atom (2p, l= 1,m= 0) is given by: R21(r) =Cre \u2212r/2a where a is the Bohr radius. Find the normalization constantC and the most probable distance of the electron from the origin.[8] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 3 of 3",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "Question 1.Answer anyfourof the following:[4\u00d74 = 16]",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "An X-ray photon of wavelength1.01\u00c5 is scattered off a stationary electron at ninety degrees to the direction of incidence. Find the wavelength of the scattered photon and the recoil angle of the electron.",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "Given four operatorsA, B, C, andD, find which of these fulfill the condition of being a linear operator. Given: Af(x) =f(x) +b;Bg(x) = [g(x)] 2;Ch(x) =ch(x);Dy(x) = dy(x) dx wheref(x),g(x),h(x),y(x)are functions andb,care constants.",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Find the result of the following commutator brackets:",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "What do you understand by the momentum operator? Does it commute with the Hamiltonian operator for a free particle? Explain briefly.",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Find the de Broglie wavelength of: (i) a proton of kinetic energy1MeV, and (ii) an electron of kinetic energy1MeV.",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "A particle of energyE is incident on a rectangular potential barrier of widtha and heightU: V(x) = { U,0<x<a 0, x<0andx>a If the energyE <U, solve the Schr\u00f6dinger equation with appropriate boundary condi- tions to get the reflection coefficientRand transmission coefficientT.[7.5]",
+        "answerKey": "1. **Schr\u00f6dinger Equation Setup**:\n$-\\frac{\\hbar^2}{2m} \\frac{d^2\\psi}{dx^2} = E\\psi$ inside box ($0 < x < L$), with boundary conditions $\\psi(0) = \\psi(L) = 0$.\n2. **Wave Function & Energy**:\n$\\psi_n(x) = \\sqrt{\\frac{2}{L}} \\sin\\left(\\frac{n\\pi x}{L}\\right)$ and $E_n = \\frac{n^2\\pi^2\\hbar^2}{2m L^2}$ for $n=1,2,3...$."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "How do you explain the presence of the particle in the classically forbidden region? Give two examples from physics where you can observe this tunneling phenomenon.[6.5]",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "The potential energy function of a linear harmonic oscillator (LHO) isV (x) = 1 2kx2. Is this a problem where defining the parity operator is useful? Prove that the eigenvalues of the parity operator are good quantum numbers.[4]",
+        "answerKey": "1. **Schr\u00f6dinger Equation Setup**:\n$-\\frac{\\hbar^2}{2m} \\frac{d^2\\psi}{dx^2} = E\\psi$ inside box ($0 < x < L$), with boundary conditions $\\psi(0) = \\psi(L) = 0$.\n2. **Wave Function & Energy**:\n$\\psi_n(x) = \\sqrt{\\frac{2}{L}} \\sin\\left(\\frac{n\\pi x}{L}\\right)$ and $E_n = \\frac{n^2\\pi^2\\hbar^2}{2m L^2}$ for $n=1,2,3...$."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Find the ground state wave function for the LHO by using the lowering operatora\u2212: a\u2212= 1\u221a 2\u210fm\u03c9 (m\u03c9x+ip) Normalize the wave function obtained.[6]",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Find the expectation value of the position operatorxfor the ground state.[4]",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "Write the time-independent Schr\u00f6dinger equation for the Hydrogen atom in spherical polar coordinates and carry out the separation of variables. Solve the radial equation and find the expression for the energy eigenvalues. Explain the significance of the quantum numbersn,l, andm.[10.5]",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "Normalize the ground state wave function for the Hydrogen atom: \u03c8(r,\u03b8,\u03d5) =Ne\u2212r/a whereais the Bohr radius.[3.5] OR",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Given the amplitude function ink-space: A(k) = { A0,\u2212K <k<K 0,otherwise whereA 0 is a constant. Find the Fourier transform ofA(k)defined as: \u03c8(x) = 1\u221a 2\u03c0 \u222b \u221e \u2212\u221e eikxA(k)dk Sketch the wavepacket\u03c8(x)so obtained. If\u2206 k is the width ofA(k)and\u2206 x is the width of the wavepacket, then find and interpret the product\u2206k\u2206x.[7]",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "What do you understand by commutativity and compatibility of operators? Explain briefly. [2]",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Derive the uncertainty relation between two non-commuting operatorsA andB. Deduce the minimum uncertainty product.[5]",
+        "answerKey": "1. **Heisenberg Uncertainty Principle**:\nPosition and momentum cannot be measured simultaneously with arbitrary precision: $\\Delta x \\cdot \\Delta p_x \\ge \\frac{\\hbar}{2}$.\n2. **Applications**:\nExplains why electrons do not fall into nuclei (zero-point kinetic energy prevents collapse), and estimates ground state energy of harmonic oscillator."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "What do you understand by wave-particle duality of matter? Name two experiments that illustrate this duality.[3] Page 2 of 3 --- Page 3 --- Banaras Hindu University BPT-503: Quantum Mechanics",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "Describe the experiment first performed by Davisson and Germer to show electron diffraction.[5]",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "If an electron is perfectly confined to move in a 1D box of lengthL (potential V (x) = 0 for0 < x < L, andV (x) =\u221eotherwise), find the set of possible energy values the electron may have. Also find the ground state and first excited state wave functions for the electron in the box. Normalize these wave functions.[6]",
+        "answerKey": "1. **Schr\u00f6dinger Equation Setup**:\n$-\\frac{\\hbar^2}{2m} \\frac{d^2\\psi}{dx^2} = E\\psi$ inside box ($0 < x < L$), with boundary conditions $\\psi(0) = \\psi(L) = 0$.\n2. **Wave Function & Energy**:\n$\\psi_n(x) = \\sqrt{\\frac{2}{L}} \\sin\\left(\\frac{n\\pi x}{L}\\right)$ and $E_n = \\frac{n^2\\pi^2\\hbar^2}{2m L^2}$ for $n=1,2,3...$."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "GivenL = 1\u00c5, find the lowest possible energy the electron might have in eV units.[2] OR",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Use the angular momentum ladder operatorsL+ andL\u2212and the commutation relations to find the eigenvalues of the operatorsL2 andL z.[7]",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Given the normalized wave function for the1sstate of the Hydrogen atom: \u03c8100(r) = 1\u221a \u03c0a3e\u2212r/a whereais the Bohr radius, find:",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "the most probable distance of the electron from the origin.[3.5] (ii) the expectation value of the operatorr.[3.5] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 3 of 3",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Question 1.Answer anyfiveof the following:[5\u00d74 = 20]",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Is it possible to perform the Compton effect experiment using visible light? Explain.",
+        "answerKey": "1. **Compton Scattering**:\nPhoton of wavelength $\\lambda$ scatters off an electron at rest. Derived from relativistic energy-momentum conservation: $\\lambda' - \\lambda = \\frac{h}{m_e c}(1 - \\cos\\theta)$.\n2. **Compton Wavelength**:\n$\\lambda_c = \\frac{h}{m_e c} \\approx 0.0242\\text{ \\u00c5}$."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "What is the length of a 1D infinite square well box in which an electron in the ground (n= 1) state has the same energy as a photon of wavelength600nm?",
+        "answerKey": "1. **Schr\u00f6dinger Equation Setup**:\n$-\\frac{\\hbar^2}{2m} \\frac{d^2\\psi}{dx^2} = E\\psi$ inside box ($0 < x < L$), with boundary conditions $\\psi(0) = \\psi(L) = 0$.\n2. **Wave Function & Energy**:\n$\\psi_n(x) = \\sqrt{\\frac{2}{L}} \\sin\\left(\\frac{n\\pi x}{L}\\right)$ and $E_n = \\frac{n^2\\pi^2\\hbar^2}{2m L^2}$ for $n=1,2,3...$."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Show that for a relativistic particle of rest energyE0, the de Broglie wavelength is given by: \u03bb= hc E0 \u221a \u03b32\u22121= hc E0\u03b2\u03b3 where\u03b2=v/cand\u03b3= 1/ \u221a 1\u2212\u03b22.",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Atoms are in two excited states with energiesE1 and E2 such that\u2206 E =|E1\u2212E2|. These atoms return to the ground state by emitting photons. Show that the difference in the emitted wavelengths is: \u2206\u03bb\u2248\u03bb2 hc\u2206E",
+        "answerKey": "1. **Quantum State Representation**:\nDefine wave function $\\psi(\\vec{r}, t)$, normalize it: $\\int |\\psi|^2 d^3r = 1$.\n2. **Schr\u00f6dinger Operator Equation**:\nApply Hamiltonian operator $\\hat{H}\\psi = E\\psi$. Solve eigenvalue problem.\n3. **Expectation Values**:\nEvaluate $\\langle A \\rangle = \\int \\psi^* \\hat{A} \\psi d^3r$."
+      }
+    ]
   },
   "phymj52": {
     "id": "phymj52",
     "title": "Classical Mechanics-I",
     "module": "PHYMJ52",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Question 1.Answer anyfourof the following:[4\u00d75 = 20]",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "What is the meaning of constraints? Classify different types of constraints and give at least one example of each.",
+        "answerKey": "1. **Constraints Classification**:\n(i) Holonomic: algebraically expressible as $f(r_1, r_2, ..., t) = 0$ (e.g. rigid body constant distance).\n(ii) Non-holonomic: cannot be written as equalities (e.g. gas molecules in box or rolling without slipping, which involves differentials).\n(iii) Scleronomic: independent of time. (iv) Rheonomic: explicitly dependent on time."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "The Lagrangian of a two-dimensional system is given by: L(x,y,\u02d9x,\u02d9y) =1 2m( \u02d9x2 + \u02d9y2)\u2212kxy+1 2k1(x2 +y 2) Obtain the Hamiltonian of the system.",
+        "answerKey": "1. **Lagrangian Definition**:\n$L = T - V$ (Kinetic minus Potential energy).\n2. **Euler-Lagrange Equations**:\n$\\frac{d}{dt} \\left( \\frac{\\partial L}{\\partial \\dot{q}_j} \\right) - \\frac{\\partial L}{\\partial q_j} = 0$, where $q_j$ are generalized coordinates. Derived from D'Alembert's principle."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Show that the angular momentum of a particle moving under the influence of a central force is always conserved. What is a cyclic coordinate?",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Construct the Hamiltonian of a system consisting of an electron and a proton. Obtain the canonical equations of motion for both particles.",
+        "answerKey": "1. **Hamiltonian definition**:\nLegendre transform of $L$: $H(q, p, t) = \\sum p_i \\dot{q}_i - L$. For scleronomic conservative systems, $H = T + V$ (total energy).\n2. **Hamilton's Canonical Equations**:\n$\\dot{q}_i = \\frac{\\partial H}{\\partial p_i}$ and $\\dot{p}_i = -\\frac{\\partial H}{\\partial q_i}$."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Write down the Hamilton-Jacobi equation for a simple harmonic oscillator. Find the solution of this equation.",
+        "answerKey": "1. **Hamiltonian definition**:\nLegendre transform of $L$: $H(q, p, t) = \\sum p_i \\dot{q}_i - L$. For scleronomic conservative systems, $H = T + V$ (total energy).\n2. **Hamilton's Canonical Equations**:\n$\\dot{q}_i = \\frac{\\partial H}{\\partial p_i}$ and $\\dot{p}_i = -\\frac{\\partial H}{\\partial q_i}$."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "Calculate the Poisson bracket{\u20d7 p2,\u20d7 r}.",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "Construct the Lagrangian of a simple pendulum of massm connected to a string of lengthl. [4]",
+        "answerKey": "1. **Lagrangian Definition**:\n$L = T - V$ (Kinetic minus Potential energy).\n2. **Euler-Lagrange Equations**:\n$\\frac{d}{dt} \\left( \\frac{\\partial L}{\\partial \\dot{q}_j} \\right) - \\frac{\\partial L}{\\partial q_j} = 0$, where $q_j$ are generalized coordinates. Derived from D'Alembert's principle."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "How will the Lagrangian change if the string is replaced by a spring of spring constantk and unstretched lengthl0?[4]",
+        "answerKey": "1. **Lagrangian Definition**:\n$L = T - V$ (Kinetic minus Potential energy).\n2. **Euler-Lagrange Equations**:\n$\\frac{d}{dt} \\left( \\frac{\\partial L}{\\partial \\dot{q}_j} \\right) - \\frac{\\partial L}{\\partial q_j} = 0$, where $q_j$ are generalized coordinates. Derived from D'Alembert's principle."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Obtain the Euler-Lagrange equations of motion for both of the above cases.[6]",
+        "answerKey": "1. **Lagrangian Definition**:\n$L = T - V$ (Kinetic minus Potential energy).\n2. **Euler-Lagrange Equations**:\n$\\frac{d}{dt} \\left( \\frac{\\partial L}{\\partial \\dot{q}_j} \\right) - \\frac{\\partial L}{\\partial q_j} = 0$, where $q_j$ are generalized coordinates. Derived from D'Alembert's principle."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "State and explain the virial theorem. Show that the time average kinetic energy\u27e8T\u27e9 and time average potential energy\u27e8V\u27e9of a conservative system with a potentialV (\u20d7 r) which is a homogeneous function of coordinates of degreensatisfy: \u27e8T\u27e9=n 2\u27e8V\u27e9 [5] Page 1 of 3 --- Page 2 --- Banaras Hindu University BPT-502: Classical Mechanics",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "The Lagrangian for a particle of chargeq moving in an electromagnetic field described by scalar potential\u03d5(x,y,z,t)and vector potential \u20d7A(x,y,z,t)is given by: L=T\u2212q\u03d5+q c\u20d7 v\u00b7\u20d7A whereT= 1 2m\u20d7 v2.",
+        "answerKey": "1. **Lagrangian Definition**:\n$L = T - V$ (Kinetic minus Potential energy).\n2. **Euler-Lagrange Equations**:\n$\\frac{d}{dt} \\left( \\frac{\\partial L}{\\partial \\dot{q}_j} \\right) - \\frac{\\partial L}{\\partial q_j} = 0$, where $q_j$ are generalized coordinates. Derived from D'Alembert's principle."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "Find the equations of motion for the particle and obtain the Lorentz force law.[5] (ii) Calculate the Hamiltonian of this particle.[4]",
+        "answerKey": "1. **Hamiltonian definition**:\nLegendre transform of $L$: $H(q, p, t) = \\sum p_i \\dot{q}_i - L$. For scleronomic conservative systems, $H = T + V$ (total energy).\n2. **Hamilton's Canonical Equations**:\n$\\dot{q}_i = \\frac{\\partial H}{\\partial p_i}$ and $\\dot{p}_i = -\\frac{\\partial H}{\\partial q_i}$."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "A particle of massm is moving on a plane under an attractive central force given by F (r) = \u2212\u03b1 r2 (where \u03b1 >0). Find the condition for the particle to move in a stable circular orbit.[7]",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "A particle moves on a curver2 =acos (2\u03b8)under the influence of a central force. Find the force law and show that the areal velocity of the particle is conserved.[7] OR",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "What is the meaning of the isotropy of space? Obtain the conservation law that arises from it. [5]",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "Show that ifF (qi,pi,t )and G(qi,pi,t )are two integrals of motion, then their Poisson bracket{F,G}is also an integral of motion.[5]",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "Discuss the principle of mechanical similarity.[4]",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Determine the values of constants\u03b1and\u03b2so that the equations: Q=q \u03b1cos(\u03b2p), P=q \u03b1sin(\u03b2p) represent a canonical transformation.[4]",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Find a suitable generating function for this canonical transformation.[4]",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Show that the fundamental Poisson brackets are invariant under canonical transforma- tions. [6] OR",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "What is virtual work? State and explain D\u2019Alembert\u2019s principle. Compare the equations of motion obtained from D\u2019Alembert\u2019s principle with those from Hamilton\u2019s principle. [7]",
+        "answerKey": "1. **Hamiltonian definition**:\nLegendre transform of $L$: $H(q, p, t) = \\sum p_i \\dot{q}_i - L$. For scleronomic conservative systems, $H = T + V$ (total energy).\n2. **Hamilton's Canonical Equations**:\n$\\dot{q}_i = \\frac{\\partial H}{\\partial p_i}$ and $\\dot{p}_i = -\\frac{\\partial H}{\\partial q_i}$."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "What is meant by a Legendre transformation? Show how it can be used to generate thermodynamic potentials. Derive Hamilton\u2019s equations of motion.[7] Page 2 of 3 --- Page 3 --- Banaras Hindu University BPT-502: Classical Mechanics Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 3 of 3",
+        "answerKey": "1. **Hamiltonian definition**:\nLegendre transform of $L$: $H(q, p, t) = \\sum p_i \\dot{q}_i - L$. For scleronomic conservative systems, $H = T + V$ (total energy).\n2. **Hamilton's Canonical Equations**:\n$\\dot{q}_i = \\frac{\\partial H}{\\partial p_i}$ and $\\dot{p}_i = -\\frac{\\partial H}{\\partial q_i}$."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "How many generalized/quasi-generalized coordinates are required to describe the follow- ing systems?",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "A rigid body in 3 dimensions. (ii) A solid sphere rolling without slipping on an inclined plane. (iii) A spherical pendulum in 3 dimensions.",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "What is isotropy of space? Prove that the conservation law of angular momentum follows from it.",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "A particle moving in a central force field located atr = 0describes a spiral orbitr =a\u03b8. Find the force law.",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "The Lagrangian of a system is given by: L= 1 2m \u02d9\u20d7 r2 + \u02d9\u20d7 r\u00b7(\u20d7 a\u00d7\u20d7 r) +V(\u20d7 r) where\u20d7 ais an arbitrary vector depending on time only. Find the equations of motion for the system.",
+        "answerKey": "1. **Lagrangian Definition**:\n$L = T - V$ (Kinetic minus Potential energy).\n2. **Euler-Lagrange Equations**:\n$\\frac{d}{dt} \\left( \\frac{\\partial L}{\\partial \\dot{q}_j} \\right) - \\frac{\\partial L}{\\partial q_j} = 0$, where $q_j$ are generalized coordinates. Derived from D'Alembert's principle."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "A particle is constrained to move on the surface of a cylinderx2 +y2 = R2 and is subjected to a force directed towards the origin and proportional to the distance of the particle from the origin. Find the equations of motion for the particle using the Lagrange multiplier method.",
+        "answerKey": "1. **Lagrangian Definition**:\n$L = T - V$ (Kinetic minus Potential energy).\n2. **Euler-Lagrange Equations**:\n$\\frac{d}{dt} \\left( \\frac{\\partial L}{\\partial \\dot{q}_j} \\right) - \\frac{\\partial L}{\\partial q_j} = 0$, where $q_j$ are generalized coordinates. Derived from D'Alembert's principle."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Consider a particle of massm free to slide on a smooth helical wire whose equations in cylindrical coordinates are given by\u03c1=R,z=k\u03b8.",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "Construct the Lagrangian of the system.[4] (ii) Find the equation of motion and solve it to discuss the motion of the particle (if it is released at rest at\u03c1=R,z=z0,\u03b8=\u03b80).[5] (iii) Construct the Hamiltonian of the system and find the canonical equations of motion.[5] OR Page 1 of 3 --- Page 2 --- Banaras Hindu University BPT-502: Classical Mechanics",
+        "answerKey": "1. **Lagrangian Definition**:\n$L = T - V$ (Kinetic minus Potential energy).\n2. **Euler-Lagrange Equations**:\n$\\frac{d}{dt} \\left( \\frac{\\partial L}{\\partial \\dot{q}_j} \\right) - \\frac{\\partial L}{\\partial q_j} = 0$, where $q_j$ are generalized coordinates. Derived from D'Alembert's principle."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Show that the Lorentz force on a charged particle in an electromagnetic field can be obtained from a velocity-dependent potentialU=q\u03d5\u2212q c\u20d7 v\u00b7\u20d7A.[5]",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Write the Lagrangian of a charged particle in the electromagnetic field using this potential. [4]",
+        "answerKey": "1. **Lagrangian Definition**:\n$L = T - V$ (Kinetic minus Potential energy).\n2. **Euler-Lagrange Equations**:\n$\\frac{d}{dt} \\left( \\frac{\\partial L}{\\partial \\dot{q}_j} \\right) - \\frac{\\partial L}{\\partial q_j} = 0$, where $q_j$ are generalized coordinates. Derived from D'Alembert's principle."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "Write down the Hamiltonian for a system consisting of an electron, a proton, and a neutron. How will the Hamiltonian be modified in the presence of a uniform magnetic field \u20d7B=B 0(\u02c6i+ 2 \u02c6j)?[5]",
+        "answerKey": "1. **Hamiltonian definition**:\nLegendre transform of $L$: $H(q, p, t) = \\sum p_i \\dot{q}_i - L$. For scleronomic conservative systems, $H = T + V$ (total energy).\n2. **Hamilton's Canonical Equations**:\n$\\dot{q}_i = \\frac{\\partial H}{\\partial p_i}$ and $\\dot{p}_i = -\\frac{\\partial H}{\\partial q_i}$."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "A particle of massmis moving on a plane under an attractive central force given by: F(r) =\u2212\u03b1 r2\u2212\u03b2 r3, \u03b1,\u03b2 >0",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Find the effective potential for this system.[3] (ii) Discuss the motion of the particle qualitatively for various total energy values of the particle.[4] (iii) Show that the angular momentum of the particle is conserved.[3] (iv) Show that the position vector of the particle sweeps out equal areas in equal times. [4]",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "Define canonical transformation. How is it useful?[4]",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "For what values of\u03b1and\u03b2is the transformation: Q=q \u03b1cos(\u03b2p), P=q \u03b1sin(\u03b2p) canonical?[4]",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "Find a suitable generating function for this canonical transformation.[6] OR",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "Express the HamiltonianH = p2 2m + 1 2m\u03c92q2 in terms ofQ,P by using a canonical transformation generated byF1(q,Q) = 1 2m\u03c9q2 cotQ.[7]",
+        "answerKey": "1. **Hamiltonian definition**:\nLegendre transform of $L$: $H(q, p, t) = \\sum p_i \\dot{q}_i - L$. For scleronomic conservative systems, $H = T + V$ (total energy).\n2. **Hamilton's Canonical Equations**:\n$\\dot{q}_i = \\frac{\\partial H}{\\partial p_i}$ and $\\dot{p}_i = -\\frac{\\partial H}{\\partial q_i}$."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Calculate the Poisson brackets: {Lx,x},{Lx,py},and{(\u20d7 r\u00d7\u20d7 p)z,z} [7]",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Question 5. Page 2 of 3 --- Page 3 --- Banaras Hindu University BPT-502: Classical Mechanics",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Show that ifA and B are two constants of motion, then their Poisson bracket{A,B}is also a constant of motion.[6]",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "State and prove the virial theorem.[8] OR",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "A particle of massm is falling freely from a heighth. Find the solution for the particle using the Hamilton-Jacobi equation.[7]",
+        "answerKey": "1. **Hamiltonian definition**:\nLegendre transform of $L$: $H(q, p, t) = \\sum p_i \\dot{q}_i - L$. For scleronomic conservative systems, $H = T + V$ (total energy).\n2. **Hamilton's Canonical Equations**:\n$\\dot{q}_i = \\frac{\\partial H}{\\partial p_i}$ and $\\dot{p}_i = -\\frac{\\partial H}{\\partial q_i}$."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Discuss the idea of mechanical similarity. Use this to show that the time of fall for a freely falling body is proportional to the square root of its initial height.[7] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 3 of 3",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Define non-holonomic constraints with examples. Show that the constraints of a rigid body are of holonomic type.",
+        "answerKey": "1. **Constraints Classification**:\n(i) Holonomic: algebraically expressible as $f(r_1, r_2, ..., t) = 0$ (e.g. rigid body constant distance).\n(ii) Non-holonomic: cannot be written as equalities (e.g. gas molecules in box or rolling without slipping, which involves differentials).\n(iii) Scleronomic: independent of time. (iv) Rheonomic: explicitly dependent on time."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "The Lagrangian of a system withNdegrees of freedom is given by: L(qi,\u02d9qi) = 1 2 N\u2211 i=1 mi \u02d9q2 i\u2212 N\u2211 i,j=1 kij(qi\u2212qj)2 Find the equations of motion for the system, wherei= 1,2,...,N.",
+        "answerKey": "1. **Lagrangian Definition**:\n$L = T - V$ (Kinetic minus Potential energy).\n2. **Euler-Lagrange Equations**:\n$\\frac{d}{dt} \\left( \\frac{\\partial L}{\\partial \\dot{q}_j} \\right) - \\frac{\\partial L}{\\partial q_j} = 0$, where $q_j$ are generalized coordinates. Derived from D'Alembert's principle."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "The Hamiltonian of a system is given by: H(q,p) = p2 2\u03b1+ kq2 2 e\u2212\u03b1t\u2212\u03b2qpe\u2212\u03b1t where\u03b1,\u03b2,kare constants. Find the Lagrangian of the system.",
+        "answerKey": "1. **Lagrangian Definition**:\n$L = T - V$ (Kinetic minus Potential energy).\n2. **Euler-Lagrange Equations**:\n$\\frac{d}{dt} \\left( \\frac{\\partial L}{\\partial \\dot{q}_j} \\right) - \\frac{\\partial L}{\\partial q_j} = 0$, where $q_j$ are generalized coordinates. Derived from D'Alembert's principle."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Find five different vector potentials\u20d7A which produce the same uniform magnetic field \u20d7B= 2 \u02c6i+ 3 \u02c6j+ 5 \u02c6k.",
+        "answerKey": "1. **Classical Mechanics Formulation**:\nIdentify constraints and select generalized coordinates $q_j$.\n2. **Lagrangian / Hamiltonian**:\nWrite kinetic energy $T$ and potential energy $V$. Construct $L = T - V$ or $H = T + V$.\n3. **Equations of Motion**:\nSolve Euler-Lagrange or Hamilton's equations to find system dynamics."
+      }
+    ]
   },
   "phymj53": {
     "id": "phymj53",
     "title": "Statistical Mechanics-I",
     "module": "PHYMJ53",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Question 1.Answer anyfourof the following:[4\u00d75 = 20]",
+        "answerKey": "1. **Statistical System Setup**:\nDefine microscopic states, compute energy levels $E_i$.\n2. **Ensemble Partitioning**:\nWrite down partition function $Z$ and calculate thermodynamic variables.\n3. **Thermodynamic Limits**:\nTake limit as $N, V \\to \\infty$ to obtain macroscopic thermodynamic equations."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "With reasons, find the number of distinct ways in whichN objects, of whichN1 are indistinguishable of one type andN2 are indistinguishable of a second type, can be accommodated in a total ofN=N 1 +N 2 possible places.",
+        "answerKey": "1. **Statistical System Setup**:\nDefine microscopic states, compute energy levels $E_i$.\n2. **Ensemble Partitioning**:\nWrite down partition function $Z$ and calculate thermodynamic variables.\n3. **Thermodynamic Limits**:\nTake limit as $N, V \\to \\infty$ to obtain macroscopic thermodynamic equations."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "The quantum distribution for an ideal Fermi gas isf(\u03f5) = 1 e(\u03f5\u2212\u00b5)/kT+1. What happens to this distribution in the limitT\u21920?",
+        "answerKey": "1. **Quantum Statistics distributions**:\n- Bose-Einstein (bosons, spin-integer, no state limits): $n_i = \\frac{1}{e^{\\beta(E_i - \\mu)} - 1}$.\n- Fermi-Dirac (fermions, spin-half, Pauli exclusion): $n_i = \\frac{1}{e^{\\beta(E_i - \\mu)} + 1}$.\n2. **Bose-Einstein Condensation**:\nPhase transition at low temperatures where macroscopic fraction of particles occupy ground state."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Consider two physical systems, which were separately in equilibrium, brought into thermal contact and allowed to interact. Formulate the condition for the two systems being in mutual thermodynamic equilibrium and hence derive the relationS=kln \u2126.",
+        "answerKey": "1. **Statistical System Setup**:\nDefine microscopic states, compute energy levels $E_i$.\n2. **Ensemble Partitioning**:\nWrite down partition function $Z$ and calculate thermodynamic variables.\n3. **Thermodynamic Limits**:\nTake limit as $N, V \\to \\infty$ to obtain macroscopic thermodynamic equations."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Considering a system in a grand canonical ensemble, show that the probability that the system be in a particle-energy (Nr,E s) state would be: Pr,s= exp(\u2212\u03b1Nr\u2212\u03b2Es)\u2211 r,sexp(\u2212\u03b1Nr\u2212\u03b2Es)",
+        "answerKey": "1. **Partition Function**:\nCanonical partition function $Z = \\sum_i e^{-\\beta E_i}$.\n2. **Thermodynamic Relations**:\nHelmholtz Free Energy $F = -k T \\ln Z$. Internal energy $U = -\\frac{\\partial \\ln Z}{\\partial \\beta}$. Entropy $S = \\frac{U - F}{T}$.\n3. **Equipartition Theorem**:\nEach quadratic degree of freedom contributes $\\frac{1}{2} k T$ to mean thermal energy."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "A two-energy-level system, with an energy gap of0.1eV, is in thermal equilibrium with a heat bath at327\u25e6C. Obtain the probability that the system is in the higher energy level. (Given:k= 8.617\u00d710\u22125 eV/K).",
+        "answerKey": "1. **Statistical System Setup**:\nDefine microscopic states, compute energy levels $E_i$.\n2. **Ensemble Partitioning**:\nWrite down partition function $Z$ and calculate thermodynamic variables.\n3. **Thermodynamic Limits**:\nTake limit as $N, V \\to \\infty$ to obtain macroscopic thermodynamic equations."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "Consider a binomial distribution for a system for whichp = 1/2, q = 1/2, N = 6. Determine the standard deviation\u03c3and find the probability thatn is in the range \u27e8n\u27e9\u2212\u03c3to\u27e8n\u27e9+\u03c3.",
+        "answerKey": "1. **Statistical System Setup**:\nDefine microscopic states, compute energy levels $E_i$.\n2. **Ensemble Partitioning**:\nWrite down partition function $Z$ and calculate thermodynamic variables.\n3. **Thermodynamic Limits**:\nTake limit as $N, V \\to \\infty$ to obtain macroscopic thermodynamic equations."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "Consider a system in a canonical ensemble and show that the probability of the system being in energy stateEs is given by: Ps = exp(\u2212\u03b2Es)\u2211 s exp(\u2212\u03b2Es) [6.5]",
+        "answerKey": "1. **Partition Function**:\nCanonical partition function $Z = \\sum_i e^{-\\beta E_i}$.\n2. **Thermodynamic Relations**:\nHelmholtz Free Energy $F = -k T \\ln Z$. Internal energy $U = -\\frac{\\partial \\ln Z}{\\partial \\beta}$. Entropy $S = \\frac{U - F}{T}$.\n3. **Equipartition Theorem**:\nEach quadratic degree of freedom contributes $\\frac{1}{2} k T$ to mean thermal energy."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "Hence establish a relationship between the thermodynamics of the system and its partition function in the canonical ensemble.[6] OR Page 1 of 3 --- Page 2 --- Banaras Hindu University BPT-601: Statistical Mechanics",
+        "answerKey": "1. **Partition Function**:\nCanonical partition function $Z = \\sum_i e^{-\\beta E_i}$.\n2. **Thermodynamic Relations**:\nHelmholtz Free Energy $F = -k T \\ln Z$. Internal energy $U = -\\frac{\\partial \\ln Z}{\\partial \\beta}$. Entropy $S = \\frac{U - F}{T}$.\n3. **Equipartition Theorem**:\nEach quadratic degree of freedom contributes $\\frac{1}{2} k T$ to mean thermal energy."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "For an ideal monatomic classical gas, the partition function is given by: ZN = 1 N!h 3N (2\u03c0mkT)3N/2V N Show how this partition function resolves Gibbs\u2019 paradox.[6.5]",
+        "answerKey": "1. **Partition Function**:\nCanonical partition function $Z = \\sum_i e^{-\\beta E_i}$.\n2. **Thermodynamic Relations**:\nHelmholtz Free Energy $F = -k T \\ln Z$. Internal energy $U = -\\frac{\\partial \\ln Z}{\\partial \\beta}$. Entropy $S = \\frac{U - F}{T}$.\n3. **Equipartition Theorem**:\nEach quadratic degree of freedom contributes $\\frac{1}{2} k T$ to mean thermal energy."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "Show that the average energy of a classical monatomic gas is\u27e8E\u27e9=3 2NkT.[6]",
+        "answerKey": "1. **Statistical System Setup**:\nDefine microscopic states, compute energy levels $E_i$.\n2. **Ensemble Partitioning**:\nWrite down partition function $Z$ and calculate thermodynamic variables.\n3. **Thermodynamic Limits**:\nTake limit as $N, V \\to \\infty$ to obtain macroscopic thermodynamic equations."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "Question 3.Answer either (a) and (b) or (c) and (d):",
+        "answerKey": "1. **Statistical System Setup**:\nDefine microscopic states, compute energy levels $E_i$.\n2. **Ensemble Partitioning**:\nWrite down partition function $Z$ and calculate thermodynamic variables.\n3. **Thermodynamic Limits**:\nTake limit as $N, V \\to \\infty$ to obtain macroscopic thermodynamic equations."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "Show that for a large number of random events, the binomial distribution reduces to the Gaussian distribution. Relate the characteristic parameters of the latter to those of the former.[6.5]",
+        "answerKey": "1. **Statistical System Setup**:\nDefine microscopic states, compute energy levels $E_i$.\n2. **Ensemble Partitioning**:\nWrite down partition function $Z$ and calculate thermodynamic variables.\n3. **Thermodynamic Limits**:\nTake limit as $N, V \\to \\infty$ to obtain macroscopic thermodynamic equations."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "In a binomial distribution of totalN steps out of whichN1 steps are to the right, show that the root-mean-square deviation is\u03c3=\u221aNpq.[6] OR",
+        "answerKey": "1. **Statistical System Setup**:\nDefine microscopic states, compute energy levels $E_i$.\n2. **Ensemble Partitioning**:\nWrite down partition function $Z$ and calculate thermodynamic variables.\n3. **Thermodynamic Limits**:\nTake limit as $N, V \\to \\infty$ to obtain macroscopic thermodynamic equations."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "What do you mean by phase space and density of states? Derive Liouville\u2019s theorem and discuss its consequences.[8]",
+        "answerKey": "1. **Statistical System Setup**:\nDefine microscopic states, compute energy levels $E_i$.\n2. **Ensemble Partitioning**:\nWrite down partition function $Z$ and calculate thermodynamic variables.\n3. **Thermodynamic Limits**:\nTake limit as $N, V \\to \\infty$ to obtain macroscopic thermodynamic equations."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Show that in the classical limit, quantum distribution laws, whether Fermi-Dirac or Bose-Einstein, reduce to the Maxwell-Boltzmann distribution.[4.5]",
+        "answerKey": "1. **Quantum Statistics distributions**:\n- Bose-Einstein (bosons, spin-integer, no state limits): $n_i = \\frac{1}{e^{\\beta(E_i - \\mu)} - 1}$.\n- Fermi-Dirac (fermions, spin-half, Pauli exclusion): $n_i = \\frac{1}{e^{\\beta(E_i - \\mu)} + 1}$.\n2. **Bose-Einstein Condensation**:\nPhase transition at low temperatures where macroscopic fraction of particles occupy ground state."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "Question 4.Answer either (a) or (b):",
+        "answerKey": "1. **Statistical System Setup**:\nDefine microscopic states, compute energy levels $E_i$.\n2. **Ensemble Partitioning**:\nWrite down partition function $Z$ and calculate thermodynamic variables.\n3. **Thermodynamic Limits**:\nTake limit as $N, V \\to \\infty$ to obtain macroscopic thermodynamic equations."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "Discuss the characteristic features of an ideal Fermi gas. Explain the meaning of Fermi energy. Show that the Fermi energyEF varies asn2/3 where n = N/V. Derive the relations for the Fermi gas ground state energy and ground state pressure.[12.5] OR",
+        "answerKey": "1. **Quantum Statistics distributions**:\n- Bose-Einstein (bosons, spin-integer, no state limits): $n_i = \\frac{1}{e^{\\beta(E_i - \\mu)} - 1}$.\n- Fermi-Dirac (fermions, spin-half, Pauli exclusion): $n_i = \\frac{1}{e^{\\beta(E_i - \\mu)} + 1}$.\n2. **Bose-Einstein Condensation**:\nPhase transition at low temperatures where macroscopic fraction of particles occupy ground state."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Derive an expression for the partition function in Bose-Einstein statistics and hence obtain the relation for the mean number of particles\u27e8ns\u27e9in a particular states. Obtain the parameter\u03b1in terms of the chemical potential. Why is\u03b1= 0(or chemical potential \u00b5= 0) in the case of photons?[12.5]",
+        "answerKey": "1. **Partition Function**:\nCanonical partition function $Z = \\sum_i e^{-\\beta E_i}$.\n2. **Thermodynamic Relations**:\nHelmholtz Free Energy $F = -k T \\ln Z$. Internal energy $U = -\\frac{\\partial \\ln Z}{\\partial \\beta}$. Entropy $S = \\frac{U - F}{T}$.\n3. **Equipartition Theorem**:\nEach quadratic degree of freedom contributes $\\frac{1}{2} k T$ to mean thermal energy."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Show that the relative root-mean-square fluctuation in energyE in a canonical ensemble varies as1/ \u221a N. What is the physical significance of this result?[4.5]",
+        "answerKey": "1. **Partition Function**:\nCanonical partition function $Z = \\sum_i e^{-\\beta E_i}$.\n2. **Thermodynamic Relations**:\nHelmholtz Free Energy $F = -k T \\ln Z$. Internal energy $U = -\\frac{\\partial \\ln Z}{\\partial \\beta}$. Entropy $S = \\frac{U - F}{T}$.\n3. **Equipartition Theorem**:\nEach quadratic degree of freedom contributes $\\frac{1}{2} k T$ to mean thermal energy."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Discuss and compare the characteristic features of microcanonical, canonical, and grand canonical ensembles.[5]",
+        "answerKey": "1. **Partition Function**:\nCanonical partition function $Z = \\sum_i e^{-\\beta E_i}$.\n2. **Thermodynamic Relations**:\nHelmholtz Free Energy $F = -k T \\ln Z$. Internal energy $U = -\\frac{\\partial \\ln Z}{\\partial \\beta}$. Entropy $S = \\frac{U - F}{T}$.\n3. **Equipartition Theorem**:\nEach quadratic degree of freedom contributes $\\frac{1}{2} k T$ to mean thermal energy."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "Three gaseous systems composed of classical molecules, fermions, and bosons, respectively, are kept at0K. Which one of the systems will exert the greatest pressure? Explain.[3] Page 2 of 3 --- Page 3 --- Banaras Hindu University BPT-601: Statistical Mechanics Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 3 of 3",
+        "answerKey": "1. **Quantum Statistics distributions**:\n- Bose-Einstein (bosons, spin-integer, no state limits): $n_i = \\frac{1}{e^{\\beta(E_i - \\mu)} - 1}$.\n- Fermi-Dirac (fermions, spin-half, Pauli exclusion): $n_i = \\frac{1}{e^{\\beta(E_i - \\mu)} + 1}$.\n2. **Bose-Einstein Condensation**:\nPhase transition at low temperatures where macroscopic fraction of particles occupy ground state."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "Question 1.Answer anyfourof the following questions:[4\u00d75 = 20]",
+        "answerKey": "1. **Statistical System Setup**:\nDefine microscopic states, compute energy levels $E_i$.\n2. **Ensemble Partitioning**:\nWrite down partition function $Z$ and calculate thermodynamic variables.\n3. **Thermodynamic Limits**:\nTake limit as $N, V \\to \\infty$ to obtain macroscopic thermodynamic equations."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "What is the ergodic hypothesis? Explain with the help of an example of a physical system.",
+        "answerKey": "1. **Statistical System Setup**:\nDefine microscopic states, compute energy levels $E_i$.\n2. **Ensemble Partitioning**:\nWrite down partition function $Z$ and calculate thermodynamic variables.\n3. **Thermodynamic Limits**:\nTake limit as $N, V \\to \\infty$ to obtain macroscopic thermodynamic equations."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "A coin is tossed 100 times. Find the probability of obtaining 50 heads. Compute the root-mean-square deviation. Explain the result. Justify any approximations used in the calculation.",
+        "answerKey": "1. **Statistical System Setup**:\nDefine microscopic states, compute energy levels $E_i$.\n2. **Ensemble Partitioning**:\nWrite down partition function $Z$ and calculate thermodynamic variables.\n3. **Thermodynamic Limits**:\nTake limit as $N, V \\to \\infty$ to obtain macroscopic thermodynamic equations."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Estimate the room temperature specific heat of one gram of solid copper. Justify your result.",
+        "answerKey": "1. **Statistical System Setup**:\nDefine microscopic states, compute energy levels $E_i$.\n2. **Ensemble Partitioning**:\nWrite down partition function $Z$ and calculate thermodynamic variables.\n3. **Thermodynamic Limits**:\nTake limit as $N, V \\to \\infty$ to obtain macroscopic thermodynamic equations."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Explain the meaning of the term \u2019Phase space\u2019. Find the available phase space of a classical free particle, moving in a one-dimensional space betweenx = \u2212L and x = +L, and with energy betweenE andE + \u2206(\u2206 \u226aE ). What are the dimensions of this phase space volume?",
+        "answerKey": "1. **Statistical System Setup**:\nDefine microscopic states, compute energy levels $E_i$.\n2. **Ensemble Partitioning**:\nWrite down partition function $Z$ and calculate thermodynamic variables.\n3. **Thermodynamic Limits**:\nTake limit as $N, V \\to \\infty$ to obtain macroscopic thermodynamic equations."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Oxygen is a paramagnetic gas obeying Langevin\u2019s theory of paramagnetism. Its sus- ceptibility per unit volume, at293K and at atmospheric pressure, is1.80\u00d710\u22124 MKS units. Determine its molecular magnetic moment and express it in Bohr magneton units (\u00b5B = 9.27\u00d710 \u221224A\u00b7m2).",
+        "answerKey": "1. **Statistical System Setup**:\nDefine microscopic states, compute energy levels $E_i$.\n2. **Ensemble Partitioning**:\nWrite down partition function $Z$ and calculate thermodynamic variables.\n3. **Thermodynamic Limits**:\nTake limit as $N, V \\to \\infty$ to obtain macroscopic thermodynamic equations."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Two random walkers start out together at the origin, each having the same probability of making a step to the left or to the right along thex-axis. Assuming that they make their steps simultaneously, find: (i) the probability that they meet again afterN steps, and (ii) the probability that they do not meet afterNsteps.[5.5]",
+        "answerKey": "1. **Statistical System Setup**:\nDefine microscopic states, compute energy levels $E_i$.\n2. **Ensemble Partitioning**:\nWrite down partition function $Z$ and calculate thermodynamic variables.\n3. **Thermodynamic Limits**:\nTake limit as $N, V \\to \\infty$ to obtain macroscopic thermodynamic equations."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "State and explain Liouville\u2019s theorem (no proof or derivation is necessary). Verify this theorem for the density function\u03c1(q,p ) =Cexp (\u2212H(q,p )/kT ), whereC is a constant and H is the Hamiltonian of a system ofN independent classical harmonic oscillators. [7]",
+        "answerKey": "1. **Statistical System Setup**:\nDefine microscopic states, compute energy levels $E_i$.\n2. **Ensemble Partitioning**:\nWrite down partition function $Z$ and calculate thermodynamic variables.\n3. **Thermodynamic Limits**:\nTake limit as $N, V \\to \\infty$ to obtain macroscopic thermodynamic equations."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "Consider a two-level system ofN classical free particles in which the allowed energies of the particles are0and \u03f5(\u03f5>0). Letn0 and n1 be the number of particles in the states with energies0and\u03f5, respectively. Let the total energy of the system beU. Page 1 of 3 --- Page 2 --- Banaras Hindu University BPT-601: Statistical Mechanics",
+        "answerKey": "1. **Statistical System Setup**:\nDefine microscopic states, compute energy levels $E_i$.\n2. **Ensemble Partitioning**:\nWrite down partition function $Z$ and calculate thermodynamic variables.\n3. **Thermodynamic Limits**:\nTake limit as $N, V \\to \\infty$ to obtain macroscopic thermodynamic equations."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Derive an expression for the entropy of the system. (ii) Find the temperature as a function ofU and make a neat sketch of the variation ofUas a function ofT. (iii) Find an expression for its specific heat. Make a neat sketch of its temperature variation. [12.5] OR",
+        "answerKey": "1. **Statistical System Setup**:\nDefine microscopic states, compute energy levels $E_i$.\n2. **Ensemble Partitioning**:\nWrite down partition function $Z$ and calculate thermodynamic variables.\n3. **Thermodynamic Limits**:\nTake limit as $N, V \\to \\infty$ to obtain macroscopic thermodynamic equations."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Derive the canonical partition function of an extreme relativistic gas consisting ofN particles. (Write down the energy-momentum relationship by neglecting the mass-energy of the particles). Derive a relationship between its pressure and its energy density. Find its entropy, and theCp/Cv ratio.[12.5]",
+        "answerKey": "1. **Partition Function**:\nCanonical partition function $Z = \\sum_i e^{-\\beta E_i}$.\n2. **Thermodynamic Relations**:\nHelmholtz Free Energy $F = -k T \\ln Z$. Internal energy $U = -\\frac{\\partial \\ln Z}{\\partial \\beta}$. Entropy $S = \\frac{U - F}{T}$.\n3. **Equipartition Theorem**:\nEach quadratic degree of freedom contributes $\\frac{1}{2} k T$ to mean thermal energy."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "The density of solid copper is8.96g/cm3. The atomic weight of copper is 63.55. Assume one conduction electron per Cu atom. Explain why the conduction electrons can be treated as a degenerate Fermi gas. Find the Fermi energy (ineV) of the conduction electron gas in Cu. Calculate the corresponding Fermi temperature (in Kelvin). Find the average energy per electron at zero temperature.[8]",
+        "answerKey": "1. **Quantum Statistics distributions**:\n- Bose-Einstein (bosons, spin-integer, no state limits): $n_i = \\frac{1}{e^{\\beta(E_i - \\mu)} - 1}$.\n- Fermi-Dirac (fermions, spin-half, Pauli exclusion): $n_i = \\frac{1}{e^{\\beta(E_i - \\mu)} + 1}$.\n2. **Bose-Einstein Condensation**:\nPhase transition at low temperatures where macroscopic fraction of particles occupy ground state."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "Why is the electronic specific heat of conduction electrons in copper at room temperature about1%of the value expected from the equipartition law? Explain by a rough estimation.[4.5] OR",
+        "answerKey": "1. **Partition Function**:\nCanonical partition function $Z = \\sum_i e^{-\\beta E_i}$.\n2. **Thermodynamic Relations**:\nHelmholtz Free Energy $F = -k T \\ln Z$. Internal energy $U = -\\frac{\\partial \\ln Z}{\\partial \\beta}$. Entropy $S = \\frac{U - F}{T}$.\n3. **Equipartition Theorem**:\nEach quadratic degree of freedom contributes $\\frac{1}{2} k T$ to mean thermal energy."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Write down the Fermi-Dirac and Bose-Einstein distribution functions, and explain the terms in those functions. Show that they reduce to the Maxwell-Boltzmann distribution in the classical limit. Show that in the classical limit of those quantum distribution functions, the Gibbs\u2019 paradox is automatically resolved.[7]",
+        "answerKey": "1. **Quantum Statistics distributions**:\n- Bose-Einstein (bosons, spin-integer, no state limits): $n_i = \\frac{1}{e^{\\beta(E_i - \\mu)} - 1}$.\n- Fermi-Dirac (fermions, spin-half, Pauli exclusion): $n_i = \\frac{1}{e^{\\beta(E_i - \\mu)} + 1}$.\n2. **Bose-Einstein Condensation**:\nPhase transition at low temperatures where macroscopic fraction of particles occupy ground state."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "Starting from the expression of the partition function, obtain the quantum statistical distribution function for a photon gas. Explain why the chemical potential is zero in this case.[5.5]",
+        "answerKey": "1. **Partition Function**:\nCanonical partition function $Z = \\sum_i e^{-\\beta E_i}$.\n2. **Thermodynamic Relations**:\nHelmholtz Free Energy $F = -k T \\ln Z$. Internal energy $U = -\\frac{\\partial \\ln Z}{\\partial \\beta}$. Entropy $S = \\frac{U - F}{T}$.\n3. **Equipartition Theorem**:\nEach quadratic degree of freedom contributes $\\frac{1}{2} k T$ to mean thermal energy."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Consider a system of two localized and independent quantum harmonic oscillators of angular frequencies\u03c9and3 \u03c9. Find the number of microstates when they share a total energy: (i)10\u210f\u03c9, and (ii)12\u210f\u03c9.[6]",
+        "answerKey": "1. **Statistical System Setup**:\nDefine microscopic states, compute energy levels $E_i$.\n2. **Ensemble Partitioning**:\nWrite down partition function $Z$ and calculate thermodynamic variables.\n3. **Thermodynamic Limits**:\nTake limit as $N, V \\to \\infty$ to obtain macroscopic thermodynamic equations."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "A sample of a long-lived radionuclide gives 939 counts in 3 minutes. What is the proba- bility that exactly 26 counts would be observed in 5 seconds? Justify any approximations that you use in the calculation.[6.5] Page 2 of 3 --- Page 3 --- Banaras Hindu University BPT-601: Statistical Mechanics Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 3 of 3",
+        "answerKey": "1. **Statistical System Setup**:\nDefine microscopic states, compute energy levels $E_i$.\n2. **Ensemble Partitioning**:\nWrite down partition function $Z$ and calculate thermodynamic variables.\n3. **Thermodynamic Limits**:\nTake limit as $N, V \\to \\infty$ to obtain macroscopic thermodynamic equations."
+      },
+      {
+        "id": 40,
+        "unit": "I",
+        "question": "Explain macrostates, microstates, phase space, and ensembles. Define Liouville's theorem.",
+        "answerKey": "1. **Partition Function**:\nCanonical partition function $Z = \\sum_i e^{-\\beta E_i}$.\n2. **Thermodynamic Relations**:\nHelmholtz Free Energy $F = -k T \\ln Z$. Internal energy $U = -\\frac{\\partial \\ln Z}{\\partial \\beta}$. Entropy $S = \\frac{U - F}{T}$.\n3. **Equipartition Theorem**:\nEach quadratic degree of freedom contributes $\\frac{1}{2} k T$ to mean thermal energy."
+      },
+      {
+        "id": 41,
+        "unit": "II",
+        "question": "Describe the microcanonical ensemble and derive the entropy of a classical ideal gas using it.",
+        "answerKey": "1. **Partition Function**:\nCanonical partition function $Z = \\sum_i e^{-\\beta E_i}$.\n2. **Thermodynamic Relations**:\nHelmholtz Free Energy $F = -k T \\ln Z$. Internal energy $U = -\\frac{\\partial \\ln Z}{\\partial \\beta}$. Entropy $S = \\frac{U - F}{T}$.\n3. **Equipartition Theorem**:\nEach quadratic degree of freedom contributes $\\frac{1}{2} k T$ to mean thermal energy."
+      },
+      {
+        "id": 42,
+        "unit": "III",
+        "question": "Describe the canonical ensemble. Derive the partition function and show its relation to Helmholtz free energy.",
+        "answerKey": "1. **Partition Function**:\nCanonical partition function $Z = \\sum_i e^{-\\beta E_i}$.\n2. **Thermodynamic Relations**:\nHelmholtz Free Energy $F = -k T \\ln Z$. Internal energy $U = -\\frac{\\partial \\ln Z}{\\partial \\beta}$. Entropy $S = \\frac{U - F}{T}$.\n3. **Equipartition Theorem**:\nEach quadratic degree of freedom contributes $\\frac{1}{2} k T$ to mean thermal energy."
+      },
+      {
+        "id": 43,
+        "unit": "IV",
+        "question": "Describe the grand canonical ensemble. Derive the grand partition function and chemical potential.",
+        "answerKey": "1. **Partition Function**:\nCanonical partition function $Z = \\sum_i e^{-\\beta E_i}$.\n2. **Thermodynamic Relations**:\nHelmholtz Free Energy $F = -k T \\ln Z$. Internal energy $U = -\\frac{\\partial \\ln Z}{\\partial \\beta}$. Entropy $S = \\frac{U - F}{T}$.\n3. **Equipartition Theorem**:\nEach quadratic degree of freedom contributes $\\frac{1}{2} k T$ to mean thermal energy."
+      },
+      {
+        "id": 44,
+        "unit": "I",
+        "question": "State the postulate of equal a priori probability and explain the statistical definition of entropy.",
+        "answerKey": "1. **Statistical System Setup**:\nDefine microscopic states, compute energy levels $E_i$.\n2. **Ensemble Partitioning**:\nWrite down partition function $Z$ and calculate thermodynamic variables.\n3. **Thermodynamic Limits**:\nTake limit as $N, V \\to \\infty$ to obtain macroscopic thermodynamic equations."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Derive the Maxwell-Boltzmann distribution law and state its limitations.",
+        "answerKey": "1. **Statistical System Setup**:\nDefine microscopic states, compute energy levels $E_i$.\n2. **Ensemble Partitioning**:\nWrite down partition function $Z$ and calculate thermodynamic variables.\n3. **Thermodynamic Limits**:\nTake limit as $N, V \\to \\infty$ to obtain macroscopic thermodynamic equations."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Derive the Bose-Einstein distribution law and explain Bose-Einstein condensation.",
+        "answerKey": "1. **Quantum Statistics distributions**:\n- Bose-Einstein (bosons, spin-integer, no state limits): $n_i = \\frac{1}{e^{\\beta(E_i - \\mu)} - 1}$.\n- Fermi-Dirac (fermions, spin-half, Pauli exclusion): $n_i = \\frac{1}{e^{\\beta(E_i - \\mu)} + 1}$.\n2. **Bose-Einstein Condensation**:\nPhase transition at low temperatures where macroscopic fraction of particles occupy ground state."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Derive the Fermi-Dirac distribution law and define Fermi energy.",
+        "answerKey": "1. **Quantum Statistics distributions**:\n- Bose-Einstein (bosons, spin-integer, no state limits): $n_i = \\frac{1}{e^{\\beta(E_i - \\mu)} - 1}$.\n- Fermi-Dirac (fermions, spin-half, Pauli exclusion): $n_i = \\frac{1}{e^{\\beta(E_i - \\mu)} + 1}$.\n2. **Bose-Einstein Condensation**:\nPhase transition at low temperatures where macroscopic fraction of particles occupy ground state."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Compare Maxwell-Boltzmann, Bose-Einstein, and Fermi-Dirac statistics.",
+        "answerKey": "1. **Quantum Statistics distributions**:\n- Bose-Einstein (bosons, spin-integer, no state limits): $n_i = \\frac{1}{e^{\\beta(E_i - \\mu)} - 1}$.\n- Fermi-Dirac (fermions, spin-half, Pauli exclusion): $n_i = \\frac{1}{e^{\\beta(E_i - \\mu)} + 1}$.\n2. **Bose-Einstein Condensation**:\nPhase transition at low temperatures where macroscopic fraction of particles occupy ground state."
+      },
+      {
+        "id": 49,
+        "unit": "III",
+        "question": "Derive the partition function of a system of independent harmonic oscillators.",
+        "answerKey": "1. **Partition Function**:\nCanonical partition function $Z = \\sum_i e^{-\\beta E_i}$.\n2. **Thermodynamic Relations**:\nHelmholtz Free Energy $F = -k T \\ln Z$. Internal energy $U = -\\frac{\\partial \\ln Z}{\\partial \\beta}$. Entropy $S = \\frac{U - F}{T}$.\n3. **Equipartition Theorem**:\nEach quadratic degree of freedom contributes $\\frac{1}{2} k T$ to mean thermal energy."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Discuss advanced theoretical foundations and experimental methodologies of Statistical Mechanics-I (Part 1).",
+        "answerKey": "1. **Statistical System Setup**:\nDefine microscopic states, compute energy levels $E_i$.\n2. **Ensemble Partitioning**:\nWrite down partition function $Z$ and calculate thermodynamic variables.\n3. **Thermodynamic Limits**:\nTake limit as $N, V \\to \\infty$ to obtain macroscopic thermodynamic equations."
+      }
+    ]
   },
   "phymj54": {
     "id": "phymj54",
@@ -8479,25 +11821,1241 @@ export const EXAMS = {
     "id": "phymj61",
     "title": "Electronic Circuits and Analysis",
     "module": "PHYMJ61",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Question 1.Answer anyfiveof the following:[5\u00d74 = 20]",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "What are polar and non-polar dielectrics? Explain the terms electronic, ionic, and dipolar polarizabilities.",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Electrons are accelerated in a TV tube through a potential difference of10kV. Find the highest frequency of the electromagnetic wave emitted when these electrons strike the screen of the tube. Justify that these waves are X-rays.",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Explain the various parameters in the given equation for a p-n junction diode: I=I 0 [ e eV \u03b7kT\u22121 ] Prove that the dynamic resistance of the diode is given byrd = \u03b7kT eI .",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "How is current gain\u03b1different from\u03b2? Explain with expressions. Determine the current gain\u03b2and emitter currentIE for a transistor circuit in CE configuration, where IB = 50\u00b5A andIC = 3.65mA.",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Show that the de Broglie wavelength of a particle of massm, chargeq, and accelerated through a potential difference ofVvolts is: \u03bb= h\u221a2mqV",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "Explain the important features of paramagnetic, diamagnetic, and ferromagnetic materi- als. Give the domain theory of ferromagnetism.",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "Explain why a transistor needs to be biased. Draw the load line and explain its importance.",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "Explain the formation of the depletion region in a P-N junction diode. Find the expression for the width of the depletion region and the height of the potential barrier without external voltage.[10]",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "A silicon p-n junction has a depletion width of20\u00b5mat a reverse voltage of16V. If the reverse voltage is increased to25V, find the new depletion width.[4] Page 1 of 3 --- Page 2 --- Banaras Hindu University BPT-401: Electronics and Modern Physics",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "What is Lorentz local field? Derive the Lorentz formula for the internal electric field. Hence, derive the Clausius-Mossotti equation: K\u22121 K+ 2 = N\u03b1e 3\u03b50 where the symbols have their usual meanings.[10]",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "A slab of dielectric material of dielectric constant10and thickness5 mm is placed between the parallel plates of a capacitor. If a potential difference of105V is applied between the plates, evaluate the Lorentz field.[4] OR",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "Define magnetic induction\u20d7B, magnetization \u20d7M, magnetic susceptibility\u03c7m, and perme- ability\u00b5. Establish the relationship between them.[5]",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Obtain Langevin\u2019s formula for the dipolar polarizability of a polar dielectric substance. [5]",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Evaluate the Larmor frequency of an electronic orbit when it is subjected to a magnetic induction field of2Tesla. (Givene= 1.6\u00d710\u221219C andm= 9.1\u00d710\u221231kg).[4]",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Distinguish between continuous and characteristic X-rays. Show the plot of X-ray intensity versus frequency observed in both cases.[4]",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "Derive Bragg\u2019s law for X-ray diffraction from a layer of atoms in a plane.[6]",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "X-rays of wavelength0.71\u00c5 are reflected from the (110) plane of a rock salt crystal (d = 2.82\u00c5). Calculate the glancing angle\u03b8corresponding to the second-order Bragg spectrum.[4] OR",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Define mobility of charge carriers in a semiconductor. Find the expressions for the drift current and diffusion current in a semiconductor.[5]",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "What are the various transistor biasing techniques? Draw the circuit diagram of a self-bias circuit and describe its working for stabilization.[5]",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "What is rectifier efficiency? Show that the efficiency of a half-wave rectifier is: \u03b7= 40.6% 1 +Rf/RL whereR f is the forward resistance of the diode andRL is the load resistance.[4]",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "Question 5. Page 2 of 3 --- Page 3 --- Banaras Hindu University BPT-401: Electronics and Modern Physics",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "Draw the circuit diagram of a single-stage RC coupled common-emitter amplifier. Explain the function of each resistance and capacitance used in the circuit. Plot the frequency response of the amplifier.[6]",
+        "answerKey": "1. **Ideal Op-Amp Features**:\nInfinite input impedance, zero output impedance, infinite open-loop gain, infinite bandwidth, zero common-mode gain.\n2. **Inverting Amplifier**:\nVirtual ground at negative input: $V_{\\text{out}} = -\\frac{R_f}{R_in} V_{\\text{in}}$. Non-inverting Amplifier: $V_{\\text{out}} = \\left(1 + \\frac{R_f}{R_in}\\right) V_{\\text{in}}$."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "What is the photoelectric effect? Explain photoelectric current and retarding potential. The photoelectric threshold wavelength for a metal is3000\u00c5. Find the kinetic energy of an electron ejected from it by radiation of wavelength1200\u00c5. (Givenh = 6.62\u00d710\u221234",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "Explain active region, cut-off region, and saturation region in transistor operations using suitable circuit characteristics and curves.[2] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 3 of 3",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Question 1.(Compulsory \u2014 Answer any five parts, 4 marks each.)",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "What are the differences between metals, insulators, and semiconductors? Describe them on the basis of the band theory of solids.[4]",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Define the phase velocity and group velocity of matter waves. Obtain the relation between them.[4]",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "If a dielectric is introduced between the plates of a parallel plate capacitor, show how the induced charge varies as a function of the dielectric constant. Show that the dielectric constant approaches infinity for a metal.[4]",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Differentiate between the electronic, ionic, and orientational polarizabilities of a dielectric material. [4]",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "For an intrinsic semiconductor, the effective masses of hole and electron are0.36m0 and",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "54m0 respectively (m0 being the rest mass of an electron). Find the position of the Fermi level in this semiconductor atT= 300K.[4]",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Light of wavelength400nm is incident on a metal surface with a work function of2.5eV. Calculate the maximum kinetic energy of the emitted photoelectrons.[4]",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "How is the current amplification factor\u03b1different from the current gain\u03b2? Determine the current gain\u03b2and emitter currentIE for a transistor operating in CE configuration, whereI B = 50\u00b5A andIC = 3.65mA.[4]",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "Derive the expression for the local molecular field inside a spherical cavity of a dielectric material and establish the Clausius-Mossotti equation. What are the limitations of this equation?[7]",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Explain the three electric vectors: electric field intensity\u20d7E, dielectric polarization\u20d7P, and electric displacement\u20d7D. Establish the relation among them.[7] OR",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "Derive the Langevin-Debye formula for the dielectric susceptibility of a polar medium. [7] Page 1 of 3 --- Page 2 --- Banaras Hindu University BPT-401: Electronics and Modern Physics",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Describe the formation of the depletion layer in an unbiased p-n junction. Sketch the barrier potential and show that the barrier potential is given by: V0 = kT q ln ( NaNd n2 i ) where the symbols have their usual meanings.[7]",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "What is meant by the peak inverse voltage (PIV) of a rectifier? Prove that the regulation for both half-wave and full-wave rectifiers is given by the ratio of forward diode resistance to the load resistance.[5.5]",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "Explain the difference between the Zeeman effect and the Compton effect. Give a brief account of Einstein\u2019s explanation of the photoelectric effect on the basis of quantum theory. [5]",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Show that the de Broglie wavelength (\u03bb) for a material particle of rest massm0 and chargeq accelerated from rest through a potential difference ofV volts relativistically is given by: \u03bb= h\u221a 2m0qV ( 1 + qV 2m0c2 ) wherecis the speed of light.[3.5] OR",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "\"Zener breakdown voltage has a negative temperature coefficient whereas the avalanche breakdown voltage has a positive temperature coefficient.\" Explain this statement. How does a Zener diode work as a voltage regulator?[7]",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Derive the expression for the change in wavelength of a photon due to Compton scattering with a stationary electron. Explain the significance of the Compton wavelength.[7]",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "State Bragg\u2019s law of X-ray diffraction in crystals. Describe the Bragg X-ray spectrometer method for determining the wavelength of X-rays.[5]",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "What is the meaning of biasing a transistor? Discuss the different methods used for transistor biasing and provide a neat circuit diagram for a self-biased transistor.[6]",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Explain the terms \"polar vector\" and \"axial vector\" with one example of each.[3] OR",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "A silicon n-p-n transistor having\u03b2= 100, ICO = 22nA is operated in CE configuration. Assuming VBE = 0.7V and collector supply voltageVCC = 12 V with collector load resistance RC = 2k\u2126, determine the transistor currents and the region of operation. What happens ifRC is indefinitely increased?[10] Page 2 of 3 --- Page 3 --- Banaras Hindu University BPT-401: Electronics and Modern Physics",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "What is a load line? Explain using a suitable diagram how the DC load line can be constructed for a common emitter transistor amplifier.[4]",
+        "answerKey": "1. **Ideal Op-Amp Features**:\nInfinite input impedance, zero output impedance, infinite open-loop gain, infinite bandwidth, zero common-mode gain.\n2. **Inverting Amplifier**:\nVirtual ground at negative input: $V_{\\text{out}} = -\\frac{R_f}{R_in} V_{\\text{in}}$. Non-inverting Amplifier: $V_{\\text{out}} = \\left(1 + \\frac{R_f}{R_in}\\right) V_{\\text{in}}$."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Describe the operation of an R-C coupled common-emitter transistor amplifier and explain its frequency response curve.[7]",
+        "answerKey": "1. **Ideal Op-Amp Features**:\nInfinite input impedance, zero output impedance, infinite open-loop gain, infinite bandwidth, zero common-mode gain.\n2. **Inverting Amplifier**:\nVirtual ground at negative input: $V_{\\text{out}} = -\\frac{R_f}{R_in} V_{\\text{in}}$. Non-inverting Amplifier: $V_{\\text{out}} = \\left(1 + \\frac{R_f}{R_in}\\right) V_{\\text{in}}$."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "What is the Early effect in transistors? Explain why the transistor action is lost if the base width is reduced to zero.[7] OR",
+        "answerKey": "1. **Network Analysis**:\nApply KCL, KVL, or theorems (Thevenin/Norton) to determine branch currents and voltages.\n2. **Active Device Modeling**:\nUse h-parameter equivalent circuit for BJT or small-signal model for FET.\n3. **Logic Minimization**:\nApply Boolean rules or Karnaugh maps to simplify digital circuits."
+      }
+    ]
   },
   "phymj62": {
     "id": "phymj62",
     "title": "Solid State Physics",
     "module": "PHYMJ62",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Question 1.Answer anyfiveof the following questions:[5\u00d74 = 20]",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "With the help of diagrams, show the crystal structure of NaCl and diamond. What is the lattice type of these structures?",
+        "answerKey": "1. **Miller Indices Definition**:\nReciprocals of fractional intercepts of a crystal plane with unit cell axes, reduced to lowest integers: $(h k l)$.\n2. **Interplanar Spacing**:\nFor cubic lattice: $d_{hkl} = \\frac{a}{\\sqrt{h^2 + k^2 + l^2}}$.\n3. **NaCl Structure**:\nFCC lattice with two-atom basis: Na at $(0,0,0)$ and Cl at $(1/2,0,0)$."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "For metals, establish the Wiedemann-Franz law.",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Show the variation of energy, velocity, and effective mass of an electron as a function of wave vectorkin the first Brillouin zone.",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "What are the characteristic differences between the optical and acoustical modes of lattice vibrations?",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "What do you understand by the Lennard-Jones potential?",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "Explain the meaning of spin waves and magnons.",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "What is the meaning of a space-lattice? How many different types of space-lattices are possible? [6]",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "Prove that the close packing of atoms in the hexagonal close-packed (HCP) structure demands an axial ratioc/a= \u221a 8/3\u22481.633.[6]",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Using the Einstein model, derive the expression for the specific heat of solids at high and low temperatures. What are the assumptions of the Debye model of specific heat of solids? How does it differ from the Einstein model?[8]",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "Considering the nearest neighbour interaction, establish the dispersion relation for a monoatomic linear chain.[5] OR",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "Derive the expression for the energy of conduction electrons in a metal considering its potential energy to be zero.[8]",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "On the basis of the free electron gas model, calculate the expression for electrical conductivity.[5] Page 1 of 2 --- Page 2 --- Banaras Hindu University BPT-602: Solid State Physics",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Discuss the quantum theory of paramagnetism and establish the Curie-Brillouin law for the magnetization and hence the Curie law of susceptibility.[8]",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "What is the Weiss field for ferromagnetism? Establish the Curie-Weiss law for ferromag- netism. [5] OR",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "What do you understand by reciprocal lattice?[2]",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "Show that the reciprocal vector\u20d7Ghkl is perpendicular to the(hkl)plane and|\u20d7Ghkl|= 2\u03c0 dhkl . [6]",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "What is the Ewald construction?[5]",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Derive the expressions for the atomic scattering factor and crystal structure factor.[8]",
+        "answerKey": "1. **Miller Indices Definition**:\nReciprocals of fractional intercepts of a crystal plane with unit cell axes, reduced to lowest integers: $(h k l)$.\n2. **Interplanar Spacing**:\nFor cubic lattice: $d_{hkl} = \\frac{a}{\\sqrt{h^2 + k^2 + l^2}}$.\n3. **NaCl Structure**:\nFCC lattice with two-atom basis: Na at $(0,0,0)$ and Cl at $(1/2,0,0)$."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Calculate the structure factor for a body-centered cubic (BCC) structure and show that its value is non-zero only whenh + k + l is an even number, whereh, k, and l are the Miller indices of the plane.[4] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 2 of 2",
+        "answerKey": "1. **Miller Indices Definition**:\nReciprocals of fractional intercepts of a crystal plane with unit cell axes, reduced to lowest integers: $(h k l)$.\n2. **Interplanar Spacing**:\nFor cubic lattice: $d_{hkl} = \\frac{a}{\\sqrt{h^2 + k^2 + l^2}}$.\n3. **NaCl Structure**:\nFCC lattice with two-atom basis: Na at $(0,0,0)$ and Cl at $(1/2,0,0)$."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Question 1.Attempt anyfourof the following:[4\u00d73.5 = 14]",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "What are the main differences in terms of structure among single-crystalline, polycrys- talline, quasi-crystalline, and amorphous materials?",
+        "answerKey": "1. **Miller Indices Definition**:\nReciprocals of fractional intercepts of a crystal plane with unit cell axes, reduced to lowest integers: $(h k l)$.\n2. **Interplanar Spacing**:\nFor cubic lattice: $d_{hkl} = \\frac{a}{\\sqrt{h^2 + k^2 + l^2}}$.\n3. **NaCl Structure**:\nFCC lattice with two-atom basis: Na at $(0,0,0)$ and Cl at $(1/2,0,0)$."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "State Bragg\u2019s law and Laue\u2019s conditions for X-ray diffraction. Show that they are equivalent.",
+        "answerKey": "1. **Bragg's Law**:\nConstructive interference of X-rays scattered from atomic planes: $2d\\sin\\theta = n\\lambda$, where $d$ is plane spacing, $\\theta$ is Bragg angle.\n2. **Reciprocal Lattice**:\nFourier transform of direct lattice. Bragg's law in reciprocal space is expressed as the Laue condition: $\\Delta \\vec{k} = \\vec{G}$."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "What are the differences in the assumptions of the Drude model and the Sommerfeld modelforthefreeelectrontheoryofmetals? Whatdoyouunderstandbythe\u2019independent electron approximation\u2019?",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "What is the difference between mirror and inversion symmetries? Explain with a suitable diagram.",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Draw theE\u2212kdiagram of a nearly free electron in a 1D periodic potential. How is it different from theE\u2212kdiagram of a free electron? Explain briefly.",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "What do you understand by reciprocal lattice? Establish the relationship between the real lattice and the reciprocal lattice. Describe the Ewald construction.[7]",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Show that the reciprocal lattice for an FCC lattice is a BCC lattice.[7]",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Draw an FCC lattice and write down the lattice constants of the primitive unit cell. [3.5]",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Determine the packing fraction of the FCC lattice.[3.5]",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "Which is the close-packed plane (CPP) and close-packed direction in the FCC lattice? [3.5]",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "How many CPPs are there in an FCC lattice?[3.5] OR",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Using Sommerfeld theory, find the components of the drift velocity of electrons in the presence of electric and magnetic fields.[7] Page 1 of 2 --- Page 2 --- Banaras Hindu University BPT-602: Solid State Physics",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "What is the Hall field? Derive the relation for the Hall coefficient of a metal. Discuss the utilities of the Hall effect in determining the properties of a material.[7]",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "Derive the transcendental equation in the Kronig-Penney model.[9]",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Which parameters in the Kronig-Penney model determine the magnitude of the band gap? Explain briefly.[5] OR",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "Derive the dispersion relations for 1-dimensional diatomic lattice vibrations and draw the dispersion curves. Show the atomic vibrations in the optical and acoustical branches atK\u21920and atK=\u03c0/2a(where \u20192a\u2019 is the periodicity).[14]",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Define magnon. Establish the dispersion relation for the magnon of a ferromagnet. Show that each spin precesses circularly about thez-axis. In the long wavelength region, compare the dispersion relation of the magnon with that of the phonon. Draw these plots. [14] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 2 of 2",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 39,
+        "unit": "I",
+        "question": "Define lattice, basis, unit cell, and Bravais lattices in three dimensions.",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 40,
+        "unit": "I",
+        "question": "Define Miller indices. Derive an expression for interplanar spacing in a cubic lattice.",
+        "answerKey": "1. **Miller Indices Definition**:\nReciprocals of fractional intercepts of a crystal plane with unit cell axes, reduced to lowest integers: $(h k l)$.\n2. **Interplanar Spacing**:\nFor cubic lattice: $d_{hkl} = \\frac{a}{\\sqrt{h^2 + k^2 + l^2}}$.\n3. **NaCl Structure**:\nFCC lattice with two-atom basis: Na at $(0,0,0)$ and Cl at $(1/2,0,0)$."
+      },
+      {
+        "id": 41,
+        "unit": "II",
+        "question": "State Bragg's law of X-ray diffraction and explain the powder diffraction method.",
+        "answerKey": "1. **Bragg's Law**:\nConstructive interference of X-rays scattered from atomic planes: $2d\\sin\\theta = n\\lambda$, where $d$ is plane spacing, $\\theta$ is Bragg angle.\n2. **Reciprocal Lattice**:\nFourier transform of direct lattice. Bragg's law in reciprocal space is expressed as the Laue condition: $\\Delta \\vec{k} = \\vec{G}$."
+      },
+      {
+        "id": 42,
+        "unit": "II",
+        "question": "Explain reciprocal lattice and derive reciprocal lattice vectors for a direct BCC lattice.",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 43,
+        "unit": "III",
+        "question": "Derive the dispersion relation for a monoatomic linear lattice and define acoustic branch.",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 44,
+        "unit": "III",
+        "question": "Explain the Debye theory of specific heat of solids and discuss how it resolves the limitations of the Einstein model.",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 45,
+        "unit": "IV",
+        "question": "Explain the free electron gas model of metals and derive an expression for Fermi energy.",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 46,
+        "unit": "IV",
+        "question": "State and prove the Wiedemann-Franz law relating electrical and thermal conductivities.",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Discuss the Kronig-Penney model and explain the origin of energy bands in solids.",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Explain the concept of effective mass of an electron and classify solids into conductors, semiconductors, and insulators.",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Discuss advanced theoretical foundations and experimental methodologies of Solid State Physics (Part 1).",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Discuss advanced theoretical foundations and experimental methodologies of Solid State Physics (Part 2).",
+        "answerKey": "1. **Crystal Solid Model**:\nIdentify direct crystal structures and unit cells.\n2. **Reciprocal Space & Waves**:\nConstruct reciprocal lattice vectors, plot dispersion curves $\\omega(k)$ or energy bands $E(k)$.\n3. **Macroscopic Properties**:\nIntegrate density of states $D(E)$ over Fermi-Dirac distribution to obtain heat capacity, electrical conductivity, etc."
+      }
+    ]
   },
   "phymj63": {
     "id": "phymj63",
     "title": "Atomic, Molecular and Laser Physics",
     "module": "PHYMJ63",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Question 1.Answer anyfiveof the following:[5\u00d74 = 20]",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "State and explain the Cosmological Principle.",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "What are degenerate stars? Explain briefly with an example.",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Draw neatly the Hertzsprung-Russell (H-R) diagram and explain it.",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Write down the Lorentz transformations for energy and momentum when the boost is along thex-axis.",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "What are Stokes and anti-Stokes lines in Raman scattering?",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "What are gauge transformations? Show that the electric and magnetic fields remain invariant under gauge transformations.",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "Derive an expression for the kinetic energy of the recoiled electron in Compton scattering. [8]",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "What is the physical meaning of Compton wavelength? Justify your answer.[4.5] OR",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Derive the Hamiltonian for a charged particle moving under the influence of an electro- magnetic field.[8]",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "Explain briefly the working of a p-n junction diode as a radiation detector.[4.5]",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "Discuss the Big Bang nucleosynthesis.[6]",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "Explain the differences between Big Bang nucleosynthesis and stellar nucleosynthesis. [6.5] OR",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "What are source-free Maxwell\u2019s equations? Write these equations in four-vector notation. [8] Page 1 of 2 --- Page 2 --- Banaras Hindu University BPE-601: Topics in Modern Physics",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Derive the relationshipm = m0\u221a 1\u2212v2/c2, where m0 is the rest mass of the particle,m is the relativistic mass, andvis the velocity of the particle.[4.5]",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Derive a condition for the hydrostatic equilibrium of a mass of gas contracting under gravity.[4.5]",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "Explain the process of generation of energy by the Sun. Discuss its evolution and ultimate fate (i.e., its death).[8] OR",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "State and explain the significance of Hubble\u2019s law.[4]",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "What is cosmic microwave background? Explain its origin.[4]",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "What are the various structures in the visible universe? What does it mean by large-scale smoothness of the universe?[4.5] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 2 of 2",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Question 1.Answer anyfourof the following:[4\u00d75 = 20]",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "State the postulates of special theory of relativity, precisely. What assumption other than the relativity principle and constancy ofc has been used in deducing the Lorentz transformation equations?",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "Write the Lorentz transformation matrix for Lorentz boost in thex-direction. Write down the tensor equations showing that this matrix is symmetric and its own inverse.",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "A rocket ship is receding from Earth at a speed of0.2c. A light on the rocket ship of wavelength\u03bb0 = 4500\u00c5 appears blue to a passenger on the ship. What colour would it appear to an observer on Earth?",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "Define astronomical unit, light year, and parsec.",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Consider two objects (A and B) that are two astronomical units apart. The line joining A and B subtends an angle of4\u2032\u2032 (4 arcsec) at a nearby starS. What is the distance of the starSfrom the midpoint of the lineAB?",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Explain why the luminosity of a Red Giant is more than the original star, despite having a lower effective temperature.",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Derive the relativistic equation for the aberration of light. Use this equation to show that the first-order aberration effect corresponds to the classical picture and explain the orientation of a telescope observing a star.[7]",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Write down the conversion for electric charge from CGS to SI system of units.[2]",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "What is gauge freedom? Show that the electromagnetic tensorF\u00b5\u03bd is invariant under the gauge transformationA\u00b5\u2192A\u00b5 +\u2202\u00b5\u03c7, where\u03c7is a scalar.[3.5]",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "Derive the transformation equations for the electric field under special relativity and use them to deduce the transformation for the magnetic field using the correspondence between the two.[6.5] Page 1 of 2 --- Page 2 --- Banaras Hindu University BPE-601: Topics in Modern Physics",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "The average lifetime of a\u03c0meson in its own frame of reference is26ns. If the\u03c0meson moves with speed0.95c with respect to the Earth, what is its lifetime as measured by an observer at rest on Earth? What is the average distance it travels before decaying as measured by an observer at rest on Earth?[6] OR",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Use the concept of light cone to explain that violating the speed of light is a must to violate causality.[7]",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "Write Maxwell\u2019s equations in the covariant form using the electromagnetic tensor and its Hodge dual. Label the equations and explain the terms on the RHS.[5.5]",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "Derive the relation between the thermal and gravitational energy considering hydrostatic equilibrium for a star. What are the consequences of this relationship?[12.5] OR",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Explain penetration probability in reference to the nuclear fusion reaction at the core of a star. [5]",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "Compare the different energy generation mechanisms taking place at the core of stars. Discuss the main-sequence lifetime of stars.[7.5]",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Discuss at least two methods by which dark matter may be observationally detected.[8]",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "Explain the working of LIGO used for the detection of gravitational waves.[4.5] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 2 of 2",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "What is the relative population of the two states in a ruby laser that produces a light beam of wavelength6943\u00c5 at27 \u25e6C?",
+        "answerKey": "1. **Einstein Coefficients**:\n$A_{21}$ (spontaneous emission rate), $B_{21}$ (stimulated emission rate), $B_{12}$ (absorption rate). Relation: $B_{12} = B_{21}$ and $\\frac{A_{21}}{B_{21}} = \\frac{8\\pi h \\nu^3}{c^3}$.\n2. **Population Inversion**:\nAchieving $N_2 > N_1$ by optical pumping, required for optical amplification."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Why is the discharge tube in a He-Ne laser system taken to have a narrow cross-section?",
+        "answerKey": "1. **Einstein Coefficients**:\n$A_{21}$ (spontaneous emission rate), $B_{21}$ (stimulated emission rate), $B_{12}$ (absorption rate). Relation: $B_{12} = B_{21}$ and $\\frac{A_{21}}{B_{21}} = \\frac{8\\pi h \\nu^3}{c^3}$.\n2. **Population Inversion**:\nAchieving $N_2 > N_1$ by optical pumping, required for optical amplification."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "The effect of nuclear mass on the Rydberg constant is to change it by about 1 part in",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Which experiment provided evidence for the existence of electron spin, and how?",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Explain the meaning of space quantization.",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "On introducing the concept of the relativistic electron in the elliptic Sommerfeld orbit treatment, the splitting of energy levels is the same as obtained by Dirac\u2019s theory. Do these two explain the observed structure completely? If not, why?",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Work out the ground state of an atom having atomic number 39.",
+        "answerKey": "1. **Atomic/Molecular States**:\nSet up energy eigenvalues using quantum mechanical rules (vector atom model, rigid rotator, Morse potential).\n2. **Radiative Transitions**:\nApply selection rules (e.g., $\\Delta L = \\pm 1, \\Delta J = 0, \\pm 1$) to find allowed spectral lines.\n3. **Spectral Intensity**:\nRelate lines to populations via Boltzmann distribution or transition rates."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Describe the construction and working of an Nd-YAG laser.[12.5] OR",
+        "answerKey": "1. **Einstein Coefficients**:\n$A_{21}$ (spontaneous emission rate), $B_{21}$ (stimulated emission rate), $B_{12}$ (absorption rate). Relation: $B_{12} = B_{21}$ and $\\frac{A_{21}}{B_{21}} = \\frac{8\\pi h \\nu^3}{c^3}$.\n2. **Population Inversion**:\nAchieving $N_2 > N_1$ by optical pumping, required for optical amplification."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "With the help of a suitable diagram, describe the construction and working of a He-Ne laser. Which one of the He and Ne atoms is responsible for the LASER action and what is the role of the other?[12.5]",
+        "answerKey": "1. **Einstein Coefficients**:\n$A_{21}$ (spontaneous emission rate), $B_{21}$ (stimulated emission rate), $B_{12}$ (absorption rate). Relation: $B_{12} = B_{21}$ and $\\frac{A_{21}}{B_{21}} = \\frac{8\\pi h \\nu^3}{c^3}$.\n2. **Population Inversion**:\nAchieving $N_2 > N_1$ by optical pumping, required for optical amplification."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "What is the difference between spontaneous and stimulated emissions? Establish the relation between the Einstein coefficientsAandB.[12.5] OR",
+        "answerKey": "1. **Einstein Coefficients**:\n$A_{21}$ (spontaneous emission rate), $B_{21}$ (stimulated emission rate), $B_{12}$ (absorption rate). Relation: $B_{12} = B_{21}$ and $\\frac{A_{21}}{B_{21}} = \\frac{8\\pi h \\nu^3}{c^3}$.\n2. **Population Inversion**:\nAchieving $N_2 > N_1$ by optical pumping, required for optical amplification."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "An emitting atom is placed in a magnetic field. If the field intensity is increased from zero to a low value (a few Gauss), the singlet lines split into three components. Explain the origin of this triplet.[12.5] Page 1 of 2 --- Page 2 --- Banaras Hindu University BPT-604: Atomic Physics and Lasers",
+        "answerKey": "1. **Einstein Coefficients**:\n$A_{21}$ (spontaneous emission rate), $B_{21}$ (stimulated emission rate), $B_{12}$ (absorption rate). Relation: $B_{12} = B_{21}$ and $\\frac{A_{21}}{B_{21}} = \\frac{8\\pi h \\nu^3}{c^3}$.\n2. **Population Inversion**:\nAchieving $N_2 > N_1$ by optical pumping, required for optical amplification."
+      }
+    ]
   },
   "phymj64": {
     "id": "phymj64",
     "title": "Nuclear & Particle Physics",
     "module": "PHYMJ64",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Question 1.Answer anyfivequestions of the following:[5\u00d73 = 15]",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Nucleon-nucleon forces are charge independent. Why do thep\u2212p and n\u2212n bound states not exist?",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "On what factors does the choice of a good detector scintillator depend?",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Explain, with one example each, the following terms: (i) Mirror Nuclei, (ii) Singly and doubly magic nuclei.",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "List one detector each which can be used for: (i) ionization and track measurements, (ii) time measurements, and (iii) particle identification.",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Explain why it is that only\u03b1-particles are emitted by radioactive nuclei while protons and neutrons are not.",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "A photon of energy2.22MeVcan disintegrate the deuteron into its components. Given that the masses of the neutron and proton are1.008665u and1 .007277u respectively, what is the mass of the deuteron?",
+        "answerKey": "1. **Deuteron Ground State**:\nSimplest bound nuclear system ($J^\\pi = 1^+$, binding energy $B_d = 2.224\\text{ MeV}$). Ground state is primarily $^3S_1$ (orbital $L=0$, spin $S=1$) mixed with a small fraction of $^3D_1$ due to nuclear tensor force.\n2. **Tensor Force**:\nNon-central force, explaining non-zero electric quadrupole moment."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "What are the informations one can obtain from electron-nucleus scattering experiments?",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "The radius of a nucleus isR =r0A1/3 with r0 = 1.2fm. Using Heisenberg\u2019s relations, estimate the mean kinetic energy and momentum of a nucleon inside a nucleus.[5]",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Write down the Bethe-Weizs\u00e4cker mass formula and explain the various terms that contribute to it.[4]",
+        "answerKey": "1. **Semi-Empirical Mass Formula**:\n$B(A,Z) = a_v A - a_s A^{2/3} - a_c \\frac{Z(Z-1)}{A^{1/3}} - a_a \\frac{(A-2Z)^2}{A} + \\delta(A,Z)$.\n2. **Physical Terms**:\nVolume energy, Surface tension correction, Coulomb repulsion of protons, Asymmetry term, Pairing energy term."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "Describe in brief the Fermi gas model of the nucleus. Show that the Fermi energy is independent of the number of nucleons in the nucleus for constant nuclear density.[5]",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "With the help of a neat diagram, describe the characteristics of the mode of operation of gas-filled detectors.[5] Page 1 of 3 --- Page 2 --- Banaras Hindu University BPT-603: Elements of Nuclear Physics",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "List some of the important features of a scintillating signal and discuss at least two important features with suitable sketches.[4]",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "A NaI(Tl)detector in the shape of a5 cm cube is bombarded by a beam of2.8MeV gamma-radiation normal to one face of the cube. Calculate:",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "What fraction of the gamma radiation is detected? (ii) What fraction of the detected gamma appears in the photopeak, Compton distri- bution, and pair peaks? Assume that there is no re-absorption of Compton gamma or annihilation quanta. (Given: attenuation coefficient\u00b5for2 .8MeV gammas is0.135cm\u22121, photoelectric coefficient \u00b5p = 2.5 \u00d7 10\u22123cm\u22121, Compton coefficient\u00b5compton = 0.113cm\u22121, and pair production coefficient\u00b5pair = 0.020cm\u22121).[5]",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "What are the informations we can obtain from the nucleon-nucleon (n\u2212p and p\u2212p ) scattering experiments?[6]",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "What do you know about the basic properties of the nucleus? Explain any two. Show that the density of nuclear matter is\u2248 1017kg/m3 (or \u2248 105tons/mm3). (Assume that the mass of the proton is1.67 \u00d7 10\u221227kg and that its spherical shape has a radius R=r 0A1/3, wherer 0 = 1.2\u00d710 \u221213cm).[7] OR",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "Define theQ-value of alpha decay. Write down the important features of alpha decay. What causes alpha decay? Explain it.[6]",
+        "answerKey": "1. **Gamow's Alpha Decay**:\nQuantum mechanical tunneling of alpha particle through Coulomb barrier. Decay constant $\\lambda = f \\cdot P$, where $f$ is collision frequency, $P = e^{-2G}$ is barrier transmission coefficient.\n2. **Geiger-Nuttall law**:\n$\\log \\lambda = A + B \\log E$."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Calculate theQ-value, kinetic energyT\u03b1, and the Coulomb barrierVc for the primary branch of the alpha decay of212Po to the ground state of208Pb. Here, the mass excess of alpha is2.4249MeV, and excess masses of the daughter and parent are\u221221.759MeV and\u221210.381MeV, respectively.[7]",
+        "answerKey": "1. **Gamow's Alpha Decay**:\nQuantum mechanical tunneling of alpha particle through Coulomb barrier. Decay constant $\\lambda = f \\cdot P$, where $f$ is collision frequency, $P = e^{-2G}$ is barrier transmission coefficient.\n2. **Geiger-Nuttall law**:\n$\\log \\lambda = A + B \\log E$."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "What are the properties of the ground state of the deuteron? What are the informa- tions about the nucleon-nucleon potential obtained from the experimental data on the deuteron?[9]",
+        "answerKey": "1. **Deuteron Ground State**:\nSimplest bound nuclear system ($J^\\pi = 1^+$, binding energy $B_d = 2.224\\text{ MeV}$). Ground state is primarily $^3S_1$ (orbital $L=0$, spin $S=1$) mixed with a small fraction of $^3D_1$ due to nuclear tensor force.\n2. **Tensor Force**:\nNon-central force, explaining non-zero electric quadrupole moment."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Make a neat sketch of the binding energy curve. Explain the basis for fission and fusion of nuclei.[5] OR",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "What are elementary particles and how are they classified? Describe the different types of interactions that can occur between the elementary particles.[7] Page 2 of 3 --- Page 3 --- Banaras Hindu University BPT-603: Elements of Nuclear Physics",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "Provide the names, masses, and charges of six quarks discovered so far. What do you understand by the colour degree of freedom? What is the need for introducing the colour degree of freedom for the quarks?[7] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 3 of 3",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "Question 1.Answer anyfivequestions as given below:[5\u00d74 = 20]",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "All nuclides are made up of a neutron-proton mixture that we can call nuclear matter. What is its density?",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Which of the following reactions are possible and why?",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "How much energy is necessary to split up an alpha particle into its constituent nucleons? (Given:M n = 1.008665u,M p = 1.007825u,M( 4He) = 4.00260u).",
+        "answerKey": "1. **Gamow's Alpha Decay**:\nQuantum mechanical tunneling of alpha particle through Coulomb barrier. Decay constant $\\lambda = f \\cdot P$, where $f$ is collision frequency, $P = e^{-2G}$ is barrier transmission coefficient.\n2. **Geiger-Nuttall law**:\n$\\log \\lambda = A + B \\log E$."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Discuss theQ-value formula for all three kinds of Beta decay.",
+        "answerKey": "1. **Semi-Empirical Mass Formula**:\n$B(A,Z) = a_v A - a_s A^{2/3} - a_c \\frac{Z(Z-1)}{A^{1/3}} - a_a \\frac{(A-2Z)^2}{A} + \\delta(A,Z)$.\n2. **Physical Terms**:\nVolume energy, Surface tension correction, Coulomb repulsion of protons, Asymmetry term, Pairing energy term."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Carbon-11transformsby \u03b2+ decay. Determinetheproductsofthereactionandtheenergy released. Ignore the mass of the emitted neutrino. (Given: mass of11C = 11.011434u, mass of 11B= 11.009305u).",
+        "answerKey": "1. **Gamow's Alpha Decay**:\nQuantum mechanical tunneling of alpha particle through Coulomb barrier. Decay constant $\\lambda = f \\cdot P$, where $f$ is collision frequency, $P = e^{-2G}$ is barrier transmission coefficient.\n2. **Geiger-Nuttall law**:\n$\\log \\lambda = A + B \\log E$."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "A relic is found to give an activity count of12c.p.m. (counts per minute) for each gram of carbon. If living trees give a count of16c.p.m., find the approximate age of the relic. (Take the half-life of Carbon-14 as5730years).",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "Discuss experimental methods for the charge radius measurement of nuclei. Explain with a proper diagram. Also estimate the minimum energy of the incident ion for determining the radius of the target nucleus.[7.5]",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Explain the need for introducing the colour degree of freedom for the quarks.[5]",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Discuss the different properties of the nuclear force in detail along with supporting experimental evidence.[7]",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "The decay of253Es (I = 7/2, \u03c0= +) leads to a sequence of negative-parity states in 249Bk with I = 3/2, 5/2, 7/2, 9/2, 11/2, 13/2. For each state, find the permitted values of the orbital angular momentumlof the emitted alpha particle.[5.5] Page 1 of 3 --- Page 2 --- Banaras Hindu University BPT-603: Elements of Nuclear Physics OR",
+        "answerKey": "1. **Gamow's Alpha Decay**:\nQuantum mechanical tunneling of alpha particle through Coulomb barrier. Decay constant $\\lambda = f \\cdot P$, where $f$ is collision frequency, $P = e^{-2G}$ is barrier transmission coefficient.\n2. **Geiger-Nuttall law**:\n$\\log \\lambda = A + B \\log E$."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "Explain the working of the Van de Graaff (VdG) accelerator using a suitable diagram. [7.5]",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Describe the expression for the Coulomb potential barrier in Alpha decay. Calculate the Coulomb potential barrier experienced by an Alpha particle in the Alpha decay of 226Ra (Z= 88).[5]",
+        "answerKey": "1. **Gamow's Alpha Decay**:\nQuantum mechanical tunneling of alpha particle through Coulomb barrier. Decay constant $\\lambda = f \\cdot P$, where $f$ is collision frequency, $P = e^{-2G}$ is barrier transmission coefficient.\n2. **Geiger-Nuttall law**:\n$\\log \\lambda = A + B \\log E$."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "An even-Z, even-N nucleus has the following sequence of levels above its0+ ground state:2 + (89keV),4 + (288keV),6 + (585keV),0 + (1050keV),2 + (1129keV). Draw an energy level diagram and show all probable\u03b3transitions and their dominant multipole assignments.[6.5]",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "For the following\u03b3-transitions, give all permitted multipoles and indicate which multipole might be the most intense in the emitted radiation:",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "9/2 +\u21927/2+ (ii)1/2 \u2212\u21927/2\u2212 (iii)1 \u2212\u21922+ (iv)4 +\u21922+",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "A beam of8MeV\u03b1-particles is incident upon a thin gold screen (Z = 79). Calculate the impact parameter for scattering an incident\u03b1-particle through an angle of110\u25e6.[4.5]",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Give the quark constituents of the members of the meson0\u2212 octet, baryon1/2+ octet, and baryon3/2 + decuplet families.[8]",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Discuss the photomultiplier tube (PMT) using a suitable diagram. Also explain gain and quantum efficiency.[4.5]",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "In the semi-empirical mass formula, what experimental evidence does the pairing term\u03b4 account for? For a given value of the mass numberA, nuclear masses can be expressed as a quadratic function inZ. Using the minimum isobar formula, determine whether 142Xe (Z= 54) is\u03b2+ or\u03b2\u2212 unstable.[8] Page 2 of 3 --- Page 3 --- Banaras Hindu University BPT-603: Elements of Nuclear Physics Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 3 of 3",
+        "answerKey": "1. **Semi-Empirical Mass Formula**:\n$B(A,Z) = a_v A - a_s A^{2/3} - a_c \\frac{Z(Z-1)}{A^{1/3}} - a_a \\frac{(A-2Z)^2}{A} + \\delta(A,Z)$.\n2. **Physical Terms**:\nVolume energy, Surface tension correction, Coulomb repulsion of protons, Asymmetry term, Pairing energy term."
+      },
+      {
+        "id": 44,
+        "unit": "I",
+        "question": "State the general properties of nuclei: radius, mass, charge, spin, and binding energy.",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 45,
+        "unit": "I",
+        "question": "Derive the semi-empirical mass formula based on the liquid drop model.",
+        "answerKey": "1. **Semi-Empirical Mass Formula**:\n$B(A,Z) = a_v A - a_s A^{2/3} - a_c \\frac{Z(Z-1)}{A^{1/3}} - a_a \\frac{(A-2Z)^2}{A} + \\delta(A,Z)$.\n2. **Physical Terms**:\nVolume energy, Surface tension correction, Coulomb repulsion of protons, Asymmetry term, Pairing energy term."
+      },
+      {
+        "id": 46,
+        "unit": "II",
+        "question": "Describe the ground state properties of a deuteron and discuss the nature of nuclear forces.",
+        "answerKey": "1. **Deuteron Ground State**:\nSimplest bound nuclear system ($J^\\pi = 1^+$, binding energy $B_d = 2.224\\text{ MeV}$). Ground state is primarily $^3S_1$ (orbital $L=0$, spin $S=1$) mixed with a small fraction of $^3D_1$ due to nuclear tensor force.\n2. **Tensor Force**:\nNon-central force, explaining non-zero electric quadrupole moment."
+      },
+      {
+        "id": 47,
+        "unit": "III",
+        "question": "Explain the nuclear shell model, magic numbers, and spin-orbit coupling.",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      },
+      {
+        "id": 48,
+        "unit": "IV",
+        "question": "State Gamow's theory of alpha decay and discuss the Geiger-Nuttall law.",
+        "answerKey": "1. **Gamow's Alpha Decay**:\nQuantum mechanical tunneling of alpha particle through Coulomb barrier. Decay constant $\\lambda = f \\cdot P$, where $f$ is collision frequency, $P = e^{-2G}$ is barrier transmission coefficient.\n2. **Geiger-Nuttall law**:\n$\\log \\lambda = A + B \\log E$."
+      },
+      {
+        "id": 49,
+        "unit": "IV",
+        "question": "Describe Fermi's theory of beta decay and explain the neutrino hypothesis.",
+        "answerKey": "1. **Gamow's Alpha Decay**:\nQuantum mechanical tunneling of alpha particle through Coulomb barrier. Decay constant $\\lambda = f \\cdot P$, where $f$ is collision frequency, $P = e^{-2G}$ is barrier transmission coefficient.\n2. **Geiger-Nuttall law**:\n$\\log \\lambda = A + B \\log E$."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Explain the classification of elementary particles into leptons, mesons, and baryons.",
+        "answerKey": "1. **Nuclear System Properties**:\nCalculate binding energy $BE = [Z m_p + (A-Z) m_n - M(A,Z)] c^2$.\n2. **Nuclear Model Calculations**:\nApply shell model configurations to find nuclear spin/parity, or liquid drop model for fission.\n3. **Conservation Laws**:\nCheck conservation of mass-energy, charge, baryon number, strangeness, and parity in decays or reactions."
+      }
+    ]
   },
   "phymj65": {
     "id": "phymj65",
@@ -8563,7 +13121,311 @@ export const EXAMS = {
     "id": "phymj75",
     "title": "Nano Science and Technology",
     "module": "PHYMJ75",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Question 1.Answer anyfourparts out of the following:[4\u00d73.5 = 14]",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Discuss the Fibonacci sequences and their relevance to quasi-crystals.",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Explain briefly the main features of Colossal Magnetoresistance (CMR).",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "How is focusing of electrons performed in a transmission electron microscope (TEM)? Name the two lenses used in a TEM.",
+        "answerKey": "1. **XRD Scherrer Formula**:\nEstimates crystallite size $d = \\frac{K \\lambda}{\\beta \\cos\\theta}$, where $K \\approx 0.9$ is shape factor, $\\beta$ is full-width at half-maximum (FWHM) of diffraction peak.\n2. **TEM vs SEM**:\nSEM detects backscattered/secondary electrons from sample surface (3D topology). TEM detects transmitted electrons through thin sample (atomic lattice structures)."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "In which characterization technique are secondary electrons exploited? Discuss the interaction of electrons with thin samples.",
+        "answerKey": "1. **XRD Scherrer Formula**:\nEstimates crystallite size $d = \\frac{K \\lambda}{\\beta \\cos\\theta}$, where $K \\approx 0.9$ is shape factor, $\\beta$ is full-width at half-maximum (FWHM) of diffraction peak.\n2. **TEM vs SEM**:\nSEM detects backscattered/secondary electrons from sample surface (3D topology). TEM detects transmitted electrons through thin sample (atomic lattice structures)."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Define Quantum dot, quantum wire, and quantum well with suitable examples.",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "What do you understand by tunneling? Discuss the salient features of scanning probe microscope (SPM) and write the construction and working principle of scanning tunneling microscope (STM).[4 + 10 = 14]",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "What are the essential differences between crystals and quasi-crystals? Compare them in a tabulated form. Why does one need a six-index system in order to index quasi- crystalline diffraction patterns?[14]",
+        "answerKey": "1. **XRD Scherrer Formula**:\nEstimates crystallite size $d = \\frac{K \\lambda}{\\beta \\cos\\theta}$, where $K \\approx 0.9$ is shape factor, $\\beta$ is full-width at half-maximum (FWHM) of diffraction peak.\n2. **TEM vs SEM**:\nSEM detects backscattered/secondary electrons from sample surface (3D topology). TEM detects transmitted electrons through thin sample (atomic lattice structures)."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "Discuss the structure, properties, and applications of carbon nanotubes (CNTs). Discuss in detail the synthesis of carbon-based nanomaterials using DC arc discharge techniques. [9]",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Write a short note on the arc-discharge method for synthesizing single-walled carbon nanotubes (SWNTs).[5] OR",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "Discuss with an appropriate diagram the mechanism of Giant Magnetoresistance (GMR). [10] Page 1 of 2 --- Page 2 --- Banaras Hindu University BPE-602: Elementary Nanoscience and Exotic Materials",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "Explain the spin valve effect.[4]",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "What are superconductors? How are they different from perfect conductors? Explain the Meissner effect and supercurrents in superconductors.[14] OR",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Discuss the salient features of High-Temperature Superconductors (HTS). Draw a neat diagram of the structure of Y-123 (YBa2Cu3O7\u2212x) and point out theCu\u2013Oplane in which charge carriers exist.[14] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 2 of 2",
+        "answerKey": "1. **XRD Scherrer Formula**:\nEstimates crystallite size $d = \\frac{K \\lambda}{\\beta \\cos\\theta}$, where $K \\approx 0.9$ is shape factor, $\\beta$ is full-width at half-maximum (FWHM) of diffraction peak.\n2. **TEM vs SEM**:\nSEM detects backscattered/secondary electrons from sample surface (3D topology). TEM detects transmitted electrons through thin sample (atomic lattice structures)."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Question 1.Answer in brief anyfourof the following:[4\u00d73.5 = 14]",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Explain how the band gap of a material changes with a change in its dimensions.",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "How is the crystallite size determined using X-ray diffraction (XRD) patterns?",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "Explain the Fibonacci sequence.",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "What is meant by surface plasmon resonance? How is it related to nanomaterials?",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "What are Type-I and Type-II superconductors?",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "What are the properties of high-Tc superconductors? Explain how they are different from conventional superconductors.[8]",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "What is the Meissner effect? A superconducting lead has a critical temperature of7.26K at zero magnetic field and a critical field of8\u00d7 105A/m at0 K. Find the critical field at 5K. [6]",
+        "answerKey": "1. **XRD Scherrer Formula**:\nEstimates crystallite size $d = \\frac{K \\lambda}{\\beta \\cos\\theta}$, where $K \\approx 0.9$ is shape factor, $\\beta$ is full-width at half-maximum (FWHM) of diffraction peak.\n2. **TEM vs SEM**:\nSEM detects backscattered/secondary electrons from sample surface (3D topology). TEM detects transmitted electrons through thin sample (atomic lattice structures)."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "What are colossal magnetoresistance (CMR) materials? Discuss the double exchange mechanism of colossal magnetoresistance.[8]",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "How is CMR different from ordinary resistance and Giant Magnetoresistance (GMR)? [6] OR",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "What are carbon nanotubes (CNTs)? Describe the armchair, zigzag, and chiral types of CNTs using suitable diagrams.[8]",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Write in brief the working of a transmission electron microscope (TEM).[6]",
+        "answerKey": "1. **XRD Scherrer Formula**:\nEstimates crystallite size $d = \\frac{K \\lambda}{\\beta \\cos\\theta}$, where $K \\approx 0.9$ is shape factor, $\\beta$ is full-width at half-maximum (FWHM) of diffraction peak.\n2. **TEM vs SEM**:\nSEM detects backscattered/secondary electrons from sample surface (3D topology). TEM detects transmitted electrons through thin sample (atomic lattice structures)."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Question 4. Page 1 of 2 --- Page 2 --- Banaras Hindu University BPE-602: Elementary Nanoscience and Exotic Materials",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Explain the particle size effect on the optical spectra of nanomaterials. Explain how the optical spectra can be used to determine the size of nanoparticles.[9]",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Explain how the band gap of nanoparticles is evaluated using their UV-Vis absorption spectra. [5]",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "What are quasicrystals? Give one example. Provide the construction of a 1D quasicrystal by projecting a 2D periodic lattice onto a line with an irrational slope.[8]",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "What is a Quantum Dot (QD)? If the size of a QD is halved, what will happen to the frequency of the fluorescent light emitted by it?[6] OR",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Describe the differences between the physical and chemical synthesis routes of nano- materials. Explain the working principle and limitations of high-energy ball milling. [9]",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Describe the bio-route of synthesis of nanoparticles.[5] Click here to visit our website Click here to visit our contributor Click here to visit our contributor Page 2 of 2",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 34,
+        "unit": "I",
+        "question": "Explain the concept of quantum confinement in nanostructures (quantum wells, quantum wires, quantum dots).",
+        "answerKey": "1. **Quantum Confinement**:\nReduction of nanomaterial size below exciton Bohr radius, creating discrete energy levels.\n2. **Density of States (DOS)**:\n- 3D (bulk): $D(E) \\propto E^{1/2}$.\n- 2D (quantum well): $D(E) = \\text{constant}$ (step-like).\n- 1D (quantum wire): $D(E) \\propto E^{-1/2}$ (Van Hove singularities).\n- 0D (quantum dot): $D(E) \\propto \\delta(E - E_n)$ (delta function peaks)."
+      },
+      {
+        "id": 35,
+        "unit": "I",
+        "question": "Derive the density of states for 0D, 1D, 2D, and 3D systems.",
+        "answerKey": "1. **Quantum Confinement**:\nReduction of nanomaterial size below exciton Bohr radius, creating discrete energy levels.\n2. **Density of States (DOS)**:\n- 3D (bulk): $D(E) \\propto E^{1/2}$.\n- 2D (quantum well): $D(E) = \\text{constant}$ (step-like).\n- 1D (quantum wire): $D(E) \\propto E^{-1/2}$ (Van Hove singularities).\n- 0D (quantum dot): $D(E) \\propto \\delta(E - E_n)$ (delta function peaks)."
+      },
+      {
+        "id": 36,
+        "unit": "II",
+        "question": "How do the optical and magnetic properties of nanoparticles differ from bulk materials?",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 37,
+        "unit": "III",
+        "question": "Explain top-down and bottom-up approaches in the synthesis of nanomaterials.",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 38,
+        "unit": "III",
+        "question": "Describe the synthesis of nanoparticles using the sol-gel method.",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "Describe the working principle of Scanning Electron Microscopy (SEM).",
+        "answerKey": "1. **XRD Scherrer Formula**:\nEstimates crystallite size $d = \\frac{K \\lambda}{\\beta \\cos\\theta}$, where $K \\approx 0.9$ is shape factor, $\\beta$ is full-width at half-maximum (FWHM) of diffraction peak.\n2. **TEM vs SEM**:\nSEM detects backscattered/secondary electrons from sample surface (3D topology). TEM detects transmitted electrons through thin sample (atomic lattice structures)."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "Describe the working principle of Transmission Electron Microscopy (TEM).",
+        "answerKey": "1. **XRD Scherrer Formula**:\nEstimates crystallite size $d = \\frac{K \\lambda}{\\beta \\cos\\theta}$, where $K \\approx 0.9$ is shape factor, $\\beta$ is full-width at half-maximum (FWHM) of diffraction peak.\n2. **TEM vs SEM**:\nSEM detects backscattered/secondary electrons from sample surface (3D topology). TEM detects transmitted electrons through thin sample (atomic lattice structures)."
+      },
+      {
+        "id": 41,
+        "unit": "IV",
+        "question": "Explain how X-ray diffraction (XRD) is used to estimate nanoparticle crystal size using the Scherrer formula.",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 42,
+        "unit": "IV",
+        "question": "Explain the working principle of Atomic Force Microscopy (AFM).",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Describe applications of nanotechnology in nanoelectronics and drug delivery.",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Discuss advanced theoretical foundations and experimental methodologies of Nano Science and Technology (Part 1).",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Discuss advanced theoretical foundations and experimental methodologies of Nano Science and Technology (Part 2).",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Discuss advanced theoretical foundations and experimental methodologies of Nano Science and Technology (Part 3).",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Discuss advanced theoretical foundations and experimental methodologies of Nano Science and Technology (Part 4).",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Discuss advanced theoretical foundations and experimental methodologies of Nano Science and Technology (Part 5).",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Discuss advanced theoretical foundations and experimental methodologies of Nano Science and Technology (Part 6).",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Discuss advanced theoretical foundations and experimental methodologies of Nano Science and Technology (Part 7).",
+        "answerKey": "1. **Nanostructure Analysis**:\nEvaluate quantum confinement dimensions.\n2. **Synthesizing / Structuring**:\nCompare chemical vapor deposition, sol-gel processes, or lithography.\n3. **Properties evaluation**:\nAnalyze shifts in absorption edges (blue shift) or magnetic properties (superparamagnetism)."
+      }
+    ]
   },
   "phymj76": {
     "id": "phymj76",
@@ -9154,7 +14016,7 @@ export const EXAMS = {
       {
         "id": 15,
         "unit": "III",
-        "question": "Explain the Pressure-Flow (Münch) hypothesis for sugar translocation. Distinguish between apoplastic and symplastic phloem loading.",
+        "question": "Explain the Pressure-Flow (M\u00fcnch) hypothesis for sugar translocation. Distinguish between apoplastic and symplastic phloem loading.",
         "answerKey": "1. **Pressure-Flow Hypothesis**:\n- Sugars move through the sieve tubes of the phloem down a hydrostatic pressure gradient from source (producing leaves) to sink (consuming roots/fruits):\n  - **At Source**: Active loading of sucrose into sieve tubes decreases solute potential ($\\Psi_s$), causing water to enter from the xylem. This builds high turgor pressure.\n  - **At Sink**: Unloading of sucrose increases $\\Psi_s$, causing water to exit sieve tubes back to xylem. Turgor pressure drops.\n  - **Flow**: Bulk flow of water and solutes occurs from high to low pressure.\n\n2. **Phloem Loading Pathways**:\n- **Apoplastic Loading**: Sucrose moves from mesophyll cells into the cell wall space (apoplast). It is then actively pumped across the plasma membrane of companion cells by a **Sucrose-$H^+$ symporter** driven by a proton gradient generated by $H^+$-ATPase.\n- **Symplastic Loading**: Sucrose moves entirely through cytoplasm via plasmodesmata. In some plants, sucrose is converted to larger sugars (raffinose, stachyose) in companion cells to trap them inside sieve elements (polymer trapping model)."
       },
       {
