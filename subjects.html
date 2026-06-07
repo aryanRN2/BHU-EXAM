@@ -208,875 +208,1201 @@
     import { EXAMS } from './js/exams-data.js?v=4';
 
     const EXAM_PYQS = {
-            "bobmj31": [
-                    {
-                            "title": "Plant Ecology and Physiology 2023-24 (Set A) PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BOB_301__Plant_Ecology_and_Physiology_2023_24.pdf",
-                            "description": "Official BOB-301 Plant Ecology and Physiology 2023-24 paper (Set A)"
-                    },
-                    {
-                            "title": "Plant Ecology and Physiology 2023-24 (Set B) PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BOB_301___Plant_Ecology_and_Physiology_2023_24.pdf",
-                            "description": "Official BOB-301 Plant Ecology and Physiology 2023-24 paper (Set B)"
-                    }
-            ],
-            "chemj41": [
-                    {
-                            "title": "Inorganic Chemistry II 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB_401_Inorganic_Chemistry_II_and_Organic_Chemistry_III_2013_14.pdf",
-                            "description": "Official CHB-401 Inorganic Chemistry-II and Organic Chemistry-II 2013-14 paper"
-                    },
-                    {
-                            "title": "Inorganic Chemistry II 2020-21 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB_401_Inorganic_Chemistry_II_and_Organic_Chemistry_III_2020_21.pdf",
-                            "description": "Official CHB-401 Inorganic Chemistry-II and Organic Chemistry-III 2020-21 paper"
-                    },
-                    {
-                            "title": "Inorganic Chemistry II 2021-22 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB_401_Inorganic_Chemistry_II_and_Organic_Chemistry_III_2021_22.pdf",
-                            "description": "Official CHB-401 Inorganic Chemistry-II and Organic Chemistry-III 2021-22 paper"
-                    },
-                    {
-                            "title": "Inorganic Chemistry II 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB_401_Inorganic_Chemistry_II_and_Organic_Chemistry_III_2022_23.pdf",
-                            "description": "Official CHB-401 Inorganic Chemistry-II and Organic Chemistry-III 2022-23 paper"
-                    }
-            ],
-            "glbmj41": [
-                    {
-                            "title": "Palaeontology and Stratigraphy 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/GLB_401__Palaeontology_and_Stratigraphy_2022_23.pdf",
-                            "description": "Official GLB-401 Palaeontology and Stratigraphy 2022-23 paper"
-                    },
-                    {
-                            "title": "Palaeontology and Stratigraphy 2018-19 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/GLB_401__Palaeontology_and_Stratigraphy_2018_19.pdf",
-                            "description": "Official GLB-401 Palaeontology and Stratigraphy 2018-19 paper"
-                    },
-                    {
-                            "title": "Palaeontology and Stratigraphy 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/GLB_401__Palaeontology_and_Stratigraphy_2013_14.pdf",
-                            "description": "Official GLB-401 Palaeontology and Stratigraphy 2013-14 paper"
-                    }
-            ],
-            "matmj11": [
-                    {
-                            "title": "CalculusI BSc-SemI 2016-17 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CalculusI_BSc-SemI_2016-17.pdf",
-                            "description": "Official CalculusI BSc-SemI 2016-17 paper"
-                    },
-                    {
-                            "title": "Calculus BSc-SemI 2016-17 Old PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Calculus_BSc-SemI_2016-17_Old.pdf",
-                            "description": "Official Calculus BSc-SemI 2016-17 Old paper"
-                    },
-                    {
-                            "title": "MTB-101 Calculus -I BA-SemI 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-101_Calculus-I_BA-SemI_2022-23.pdf",
-                            "description": "Official MTB-101 Calculus-I BA-SemI 2022-23 paper"
-                    },
-                    {
-                            "title": "MTB-101 Calculus -I BSc-SemI 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-101_Calculus-I_BSc-SemI_2023-24.pdf",
-                            "description": "Official MTB-101 Calculus-I BSc-SemI 2023-24 paper"
-                    }
-            ],
-            "matmj21": [
-                    {
-                            "title": "Algebra BSc-SemIII 2016-17 Old PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Algebra_BSc-SemIII_2016-17_Old.pdf",
-                            "description": "Official Algebra BSc-SemIII 2016-17 Old paper"
-                    },
-                    {
-                            "title": "MTB-301 Algebra-I SemIII 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-301_Algebra-I_SemIII_2023-24.pdf",
-                            "description": "Official MTB-301 Algebra-I SemIII 2023-24 paper"
-                    },
-                    {
-                            "title": "MTB-301 Algebra BSc-SemIII 2016-17 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-301_Algebra_BSc-SemIII_2016-17.pdf",
-                            "description": "Official MTB-301 Algebra BSc-SemIII 2016-17 paper"
-                    }
-            ],
-            "matmj31": [
-                    {
-                            "title": "Algebra BSc-SemIII 2016-17 Old PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Algebra_BSc-SemIII_2016-17_Old.pdf",
-                            "description": "Official Algebra BSc-SemIII 2016-17 Old paper"
-                    },
-                    {
-                            "title": "LinearAlgebra BSc-SemVI 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/LinearAlgebra_BSc-SemVI_2013-14.pdf",
-                            "description": "Official LinearAlgebra BSc-SemVI 2013-14 paper"
-                    },
-                    {
-                            "title": "LinearAlgebra SemVI 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/LinearAlgebra_SemVI_2022-23.pdf",
-                            "description": "Official LinearAlgebra SemVI 2022-23 paper"
-                    },
-                    {
-                            "title": "MTB-301 Algebra-I SemIII 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-301_Algebra-I_SemIII_2023-24.pdf",
-                            "description": "Official MTB-301 Algebra-I SemIII 2023-24 paper"
-                    },
-                    {
-                            "title": "MTB-301 Algebra BSc-SemIII 2016-17 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-301_Algebra_BSc-SemIII_2016-17.pdf",
-                            "description": "Official MTB-301 Algebra BSc-SemIII 2016-17 paper"
-                    }
-            ],
-            "matmj32": [
-                    {
-                            "title": "AnalysisII BSc-SemVI 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/AnalysisII_BSc-SemVI_2013-14.pdf",
-                            "description": "Official AnalysisII BSc-SemVI 2013-14 paper"
-                    },
-                    {
-                            "title": "MathematicalAnalysis SemV 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MathematicalAnalysis_SemV_2022-23.pdf",
-                            "description": "Official MathematicalAnalysis SemV 2022-23 paper"
-                    },
-                    {
-                            "title": "SetTheoryRealAnalysis SemVI 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/SetTheoryRealAnalysis_SemVI_2022-23.pdf",
-                            "description": "Official SetTheoryRealAnalysis SemVI 2022-23 paper"
-                    }
-            ],
-            "matmj41": [
-                    {
-                            "title": "CalculusII BA-SemII 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CalculusII_BA-SemII_2023-24.pdf",
-                            "description": "Official CalculusII BA-SemII 2023-24 paper"
-                    },
-                    {
-                            "title": "MTB-201 Calculus -III BA-SemII 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-201_Calculus-III_BA-SemII_2022-23.pdf",
-                            "description": "Official MTB-201 Calculus-III BA-SemII 2022-23 paper"
-                    },
-                    {
-                            "title": "MTB-201 Calculus -II BSc-SemII 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-201_Calculus-II_BSc-SemII_2013-14.pdf",
-                            "description": "Official MTB-201 Calculus-II BSc-SemII 2013-14 paper"
-                    },
-                    {
-                            "title": "MTB-201 Calculus -II BSc-SemII 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-201_Calculus-II_BSc-SemII_2023-24.pdf",
-                            "description": "Official MTB-201 Calculus-II BSc-SemII 2023-24 paper"
-                    },
-                    {
-                            "title": "MultivariableCalculus BSc-SemII 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MultivariableCalculus_BSc-SemII_2013-14.pdf",
-                            "description": "Official MultivariableCalculus BSc-SemII 2013-14 paper"
-                    }
-            ],
-            "matmj42": [
-                    {
-                            "title": "DiffGeometry SemV 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/DiffGeometry_SemV_2022-23.pdf",
-                            "description": "Official DiffGeometry SemV 2022-23 paper"
-                    },
-                    {
-                            "title": "GlobalDiffGeometry SemVI 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/GlobalDiffGeometry_SemVI_2022-23.pdf",
-                            "description": "Official GlobalDiffGeometry SemVI 2022-23 paper"
-                    },
-                    {
-                            "title": "VectorTensorAnalysis SemVI 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/VectorTensorAnalysis_SemVI_2022-23.pdf",
-                            "description": "Official VectorTensorAnalysis SemVI 2022-23 paper"
-                    }
-            ],
-            "matmj43": [
-                    {
-                            "title": "ODE 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/ode_2023-24.pdf",
-                            "description": "Official MTB-302 Ordinary Differential Equations 2023-24 paper"
-                    },
-                    {
-                            "title": "ODE 2024-25 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/ode_2024-25.pdf",
-                            "description": "Official MTB-302 Ordinary Differential Equations 2024-25 paper"
-                    },
-                    {
-                            "title": "MTB-302 Differential Equations  BA-SemIII 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-302_DiffEq_BA-SemIII_2023-24.pdf",
-                            "description": "Official MTB-302 DiffEq BA-SemIII 2023-24 paper"
-                    },
-                    {
-                            "title": "MTB-302 Differential Equations  BSc-SemIII 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-302_DiffEq_BSc-SemIII_2023-24.pdf",
-                            "description": "Official MTB-302 DiffEq BSc-SemIII 2023-24 paper"
-                    },
-                    {
-                            "title": "MTB-302 Differential Equations uations BSc-SemIII 2016-17 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-302_DiffEquations_BSc-SemIII_2016-17.pdf",
-                            "description": "Official MTB-302 DiffEquations BSc-SemIII 2016-17 paper"
-                    },
-                    {
-                            "title": "MTB-401 PDEs BA-SemIV 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-401_PDEs_BA-SemIV_2023-24.pdf",
-                            "description": "Official MTB-401 PDEs BA-SemIV 2023-24 paper"
-                    },
-                    {
-                            "title": "MTB-401 PDEs BSc-SemIV 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-401_PDEs_BSc-SemIV_2023-24.pdf",
-                            "description": "Official MTB-401 PDEs BSc-SemIV 2023-24 paper"
-                    },
-                    {
-                            "title": "PDEs BSc-SemIV 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/PDEs_BSc-SemIV_2013-14.pdf",
-                            "description": "Official PDEs BSc-SemIV 2013-14 paper"
-                    }
-            ],
-            "matmj44": [
-                    {
-                            "title": "MTB-202 StaticsDynamics BSc-SemII 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-202_StaticsDynamics_BSc-SemII_2013-14.pdf",
-                            "description": "Official MTB-202 StaticsDynamics BSc-SemII 2013-14 paper"
-                    },
-                    {
-                            "title": "MTB-202 StaticsDynamics BSc-SemII 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-202_StaticsDynamics_BSc-SemII_2023-24.pdf",
-                            "description": "Official MTB-202 StaticsDynamics BSc-SemII 2023-24 paper"
-                    },
-                    {
-                            "title": "Mechanics BSc-SemVI 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Mechanics_BSc-SemVI_2013-14.pdf",
-                            "description": "Official Mechanics BSc-SemVI 2013-14 paper"
-                    },
-                    {
-                            "title": "Mechanics SemV 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Mechanics_SemV_2022-23.pdf",
-                            "description": "Official Mechanics SemV 2022-23 paper"
-                    },
-                    {
-                            "title": "StaticsDynamics BA-SemII 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/StaticsDynamics_BA-SemII_2022-23.pdf",
-                            "description": "Official StaticsDynamics BA-SemII 2022-23 paper"
-                    },
-                    {
-                            "title": "StaticsDynamics BA-SemII 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/StaticsDynamics_BA-SemII_2023-24.pdf",
-                            "description": "Official StaticsDynamics BA-SemII 2023-24 paper"
-                    }
-            ],
-            "matmj51": [
-                    {
-                            "title": "AbstractAlgebra SemV 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/AbstractAlgebra_SemV_2022-23.pdf",
-                            "description": "Official AbstractAlgebra SemV 2022-23 paper"
-                    },
-                    {
-                            "title": "Algebra BSc-SemIII 2016-17 Old PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Algebra_BSc-SemIII_2016-17_Old.pdf",
-                            "description": "Official Algebra BSc-SemIII 2016-17 Old paper"
-                    },
-                    {
-                            "title": "MTB-301 Algebra-I SemIII 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-301_Algebra-I_SemIII_2023-24.pdf",
-                            "description": "Official MTB-301 Algebra-I SemIII 2023-24 paper"
-                    },
-                    {
-                            "title": "MTB-301 Algebra BSc-SemIII 2016-17 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-301_Algebra_BSc-SemIII_2016-17.pdf",
-                            "description": "Official MTB-301 Algebra BSc-SemIII 2016-17 paper"
-                    }
-            ],
-            "matmj52": [
-                    {
-                            "title": "AnalysisII BSc-SemVI 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/AnalysisII_BSc-SemVI_2013-14.pdf",
-                            "description": "Official AnalysisII BSc-SemVI 2013-14 paper"
-                    },
-                    {
-                            "title": "MathematicalAnalysis SemV 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MathematicalAnalysis_SemV_2022-23.pdf",
-                            "description": "Official MathematicalAnalysis SemV 2022-23 paper"
-                    },
-                    {
-                            "title": "SetTheoryRealAnalysis SemVI 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/SetTheoryRealAnalysis_SemVI_2022-23.pdf",
-                            "description": "Official SetTheoryRealAnalysis SemVI 2022-23 paper"
-                    }
-            ],
-            "matmj53": [
-                    {
-                            "title": "Geometry BSc-SemI 2016-17 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Geometry_BSc-SemI_2016-17.pdf",
-                            "description": "Official Geometry BSc-SemI 2016-17 paper"
-                    },
-                    {
-                            "title": "MTB-102 Geometry  BA-SemI 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-102_Geometry_BA-SemI_2022-23.pdf",
-                            "description": "Official MTB-102 Geometry BA-SemI 2022-23 paper"
-                    },
-                    {
-                            "title": "MTB-102 Geometry  BA-SemI 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-102_Geometry_BA-SemI_2023-24.pdf",
-                            "description": "Official MTB-102 Geometry BA-SemI 2023-24 paper"
-                    },
-                    {
-                            "title": "MTB-102 Geometry  BSc-SemI 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-102_Geometry_BSc-SemI_2023-24.pdf",
-                            "description": "Official MTB-102 Geometry BSc-SemI 2023-24 paper"
-                    }
-            ],
-            "matmj54": [
-                    {
-                            "title": "NumericalAnalysis BSc-SemVI 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/NumericalAnalysis_BSc-SemVI_2013-14.pdf",
-                            "description": "Official NumericalAnalysis BSc-SemVI 2013-14 paper"
-                    },
-                    {
-                            "title": "NumericalAnalysis SemVI 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/NumericalAnalysis_SemVI_2022-23.pdf",
-                            "description": "Official NumericalAnalysis SemVI 2022-23 paper"
-                    }
-            ],
-            "matmj610": [
-                    {
-                            "title": "DynamicalSystems SemVI 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/DynamicalSystems_SemVI_2022-23.pdf",
-                            "description": "Official DynamicalSystems SemVI 2022-23 paper"
-                    }
-            ],
-            "matmj62": [
-                    {
-                            "title": "ComplexAnalysis SemVI 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/ComplexAnalysis_SemVI_2022-23.pdf",
-                            "description": "Official ComplexAnalysis SemVI 2022-23 paper"
-                    }
-            ],
-            "matmj63": [
-                    {
-                            "title": "DiffGeometry SemV 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/DiffGeometry_SemV_2022-23.pdf",
-                            "description": "Official DiffGeometry SemV 2022-23 paper"
-                    },
-                    {
-                            "title": "GlobalDiffGeometry SemVI 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/GlobalDiffGeometry_SemVI_2022-23.pdf",
-                            "description": "Official GlobalDiffGeometry SemVI 2022-23 paper"
-                    }
-            ],
-            "matmj64": [
-                    {
-                            "title": "NumberTheory BSc-SemVI 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/NumberTheory_BSc-SemVI_2013-14.pdf",
-                            "description": "Official NumberTheory BSc-SemVI 2013-14 paper"
-                    },
-                    {
-                            "title": "NumberTheory SemVI 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/NumberTheory_SemVI_2022-23.pdf",
-                            "description": "Official NumberTheory SemVI 2022-23 paper"
-                    }
-            ],
-            "matmj65": [
-                    {
-                            "title": "OperationsResearch BSc-SemVI 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/OperationsResearch_BSc-SemVI_2013-14.pdf",
-                            "description": "Official OperationsResearch BSc-SemVI 2013-14 paper"
-                    },
-                    {
-                            "title": "OperationsResearch SemV 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/OperationsResearch_SemV_2022-23.pdf",
-                            "description": "Official OperationsResearch SemV 2022-23 paper"
-                    }
-            ],
-            "matmj66": [
-                    {
-                            "title": "RelativityII BSc-SemVI 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/RelativityII_BSc-SemVI_2013-14.pdf",
-                            "description": "Official RelativityII BSc-SemVI 2013-14 paper"
-                    },
-                    {
-                            "title": "Relativity SemV 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Relativity_SemV_2022-23.pdf",
-                            "description": "Official Relativity SemV 2022-23 paper"
-                    }
-            ],
-            "matmj68": [
-                    {
-                            "title": "CombinatorialMath SemV 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CombinatorialMath_SemV_2022-23.pdf",
-                            "description": "Official CombinatorialMath SemV 2022-23 paper"
-                    },
-                    {
-                            "title": "DiscreteMathematics SemVI 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/DiscreteMathematics_SemVI_2022-23.pdf",
-                            "description": "Official DiscreteMathematics SemVI 2022-23 paper"
-                    }
-            ],
-            "matmn11": [
-                    {
-                            "title": "CalculusI BSc-SemI 2016-17 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CalculusI_BSc-SemI_2016-17.pdf",
-                            "description": "Official CalculusI BSc-SemI 2016-17 paper"
-                    },
-                    {
-                            "title": "Calculus BSc-SemI 2016-17 Old PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Calculus_BSc-SemI_2016-17_Old.pdf",
-                            "description": "Official Calculus BSc-SemI 2016-17 Old paper"
-                    },
-                    {
-                            "title": "MTB-101 Calculus -I BA-SemI 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-101_Calculus-I_BA-SemI_2022-23.pdf",
-                            "description": "Official MTB-101 Calculus-I BA-SemI 2022-23 paper"
-                    },
-                    {
-                            "title": "MTB-101 Calculus -I BSc-SemI 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-101_Calculus-I_BSc-SemI_2023-24.pdf",
-                            "description": "Official MTB-101 Calculus-I BSc-SemI 2023-24 paper"
-                    }
-            ],
-            "matmn41": [
-                    {
-                            "title": "ODE 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/ode_2023-24.pdf",
-                            "description": "Official MTB-302 Ordinary Differential Equations 2023-24 paper"
-                    },
-                    {
-                            "title": "ODE 2024-25 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/ode_2024-25.pdf",
-                            "description": "Official MTB-302 Ordinary Differential Equations 2024-25 paper"
-                    },
-                    {
-                            "title": "MTB-302 Differential Equations  BA-SemIII 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-302_DiffEq_BA-SemIII_2023-24.pdf",
-                            "description": "Official MTB-302 DiffEq BA-SemIII 2023-24 paper"
-                    },
-                    {
-                            "title": "MTB-302 Differential Equations  BSc-SemIII 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-302_DiffEq_BSc-SemIII_2023-24.pdf",
-                            "description": "Official MTB-302 DiffEq BSc-SemIII 2023-24 paper"
-                    },
-                    {
-                            "title": "MTB-302 Differential Equations uations BSc-SemIII 2016-17 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-302_DiffEquations_BSc-SemIII_2016-17.pdf",
-                            "description": "Official MTB-302 DiffEquations BSc-SemIII 2016-17 paper"
-                    },
-                    {
-                            "title": "MTB-401 PDEs BA-SemIV 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-401_PDEs_BA-SemIV_2023-24.pdf",
-                            "description": "Official MTB-401 PDEs BA-SemIV 2023-24 paper"
-                    },
-                    {
-                            "title": "MTB-401 PDEs BSc-SemIV 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-401_PDEs_BSc-SemIV_2023-24.pdf",
-                            "description": "Official MTB-401 PDEs BSc-SemIV 2023-24 paper"
-                    },
-                    {
-                            "title": "PDEs BSc-SemIV 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/PDEs_BSc-SemIV_2013-14.pdf",
-                            "description": "Official PDEs BSc-SemIV 2013-14 paper"
-                    }
-            ],
-            "matmv31": [
-                    {
-                            "title": "ProgrammingInC SemV 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/ProgrammingInC_SemV_2022-23.pdf",
-                            "description": "Official ProgrammingInC SemV 2022-23 paper"
-                    }
-            ],
-            "matse11": [],
-            "phymj11": [
-                    {
-                            "title": "Mechanics and Relativity 2016-17 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-101_MechanicsandRelativity_SemI_2016-17.pdf",
-                            "description": "Official BPT-101 Mechanics and Relativity 2016-17 paper"
-                    },
-                    {
-                            "title": "Mechanics and Relativity 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-101_MechanicsandRelativity_SemI_2022-23.pdf",
-                            "description": "Official BPT-101 Mechanics and Relativity 2022-23 paper"
-                    },
-                    {
-                            "title": "Mechanics and Relativity 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-101_MechanicsandRelativity_SemI_2023-24.pdf",
-                            "description": "Official BPT-101 Mechanics and Relativity 2023-24 paper"
-                    }
-            ],
-            "phymj21": [
-                    {
-                            "title": "Thermal Physics 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-201_ThermalPhysics_SemII_2013-14.pdf",
-                            "description": "Official BPT-201 Thermal Physics 2013-14 paper"
-                    }
-            ],
-            "phymj31": [
-                    {
-                            "title": "Optics 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-301_Optics_SemIII_2022-23.pdf",
-                            "description": "Official BPT-301 Optics 2022-23 paper"
-                    },
-                    {
-                            "title": "Optics 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-301_Optics_SemIII_2023-24.pdf",
-                            "description": "Official BPT-301 Optics 2023-24 paper"
-                    }
-            ],
-            "phymj32": [
-                    {
-                            "title": "Electronic Devices and Circuits 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-504_ElectronicDevicesandCircuits_SemV_2013-14.pdf",
-                            "description": "Official BPT-504 Electronic Devices and Circuits 2013-14 paper"
-                    },
-                    {
-                            "title": "Electronic Devices and Circuits 2016-17 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-504_ElectronicDevicesandCircuits_SemV_2016-17.pdf",
-                            "description": "Official BPT-504 Electronic Devices and Circuits 2016-17 paper"
-                    },
-                    {
-                            "title": "Electronic Devices and Circuits 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-504_ElectronicDevicesandCircuits_SemV_2022-23.pdf",
-                            "description": "Official BPT-504 Electronic Devices and Circuits 2022-23 paper"
-                    }
-            ],
-            "phymj41": [
-                    {
-                            "title": "Electromagnetic Theory and Basic Electronics Old 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-401_ElectromagneticTheoryandBasicElectronicsOld_SemIV_2013-14.pdf",
-                            "description": "Official BPT-401 Electromagnetic Theory and Basic Electronics Old 2013-14 paper"
-                    },
-                    {
-                            "title": "Electromagnetic Theory 2016-17 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-505_ElectromagneticTheory_SemV_2016-17.pdf",
-                            "description": "Official BPT-505 Electromagnetic Theory 2016-17 paper"
-                    },
-                    {
-                            "title": "Electromagnetic Theory 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-505_ElectromagneticTheory_SemV_2022-23.pdf",
-                            "description": "Official BPT-505 Electromagnetic Theory 2022-23 paper"
-                    }
-            ],
-            "phymj42": [
-                    {
-                            "title": "Mathematical Physics 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-501_MathematicalPhysics_SemV_2013-14.pdf",
-                            "description": "Official BPT-501 Mathematical Physics 2013-14 paper"
-                    },
-                    {
-                            "title": "Mathematical Physics 2016-17 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-501_MathematicalPhysics_SemV_2016-17.pdf",
-                            "description": "Official BPT-501 Mathematical Physics 2016-17 paper"
-                    },
-                    {
-                            "title": "Mathematical Physics 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-501_MathematicalPhysics_SemV_2022-23.pdf",
-                            "description": "Official BPT-501 Mathematical Physics 2022-23 paper"
-                    }
-            ],
-            "phymj51": [
-                    {
-                            "title": "Quantum Mechanics 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-503_QuantumMechanics_SemV_2013-14.pdf",
-                            "description": "Official BPT-503 Quantum Mechanics 2013-14 paper"
-                    },
-                    {
-                            "title": "Quantum Mechanics 2016-17 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-503_QuantumMechanics_SemV_2016-17.pdf",
-                            "description": "Official BPT-503 Quantum Mechanics 2016-17 paper"
-                    },
-                    {
-                            "title": "Quantum Mechanics 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-503_QuantumMechanics_SemV_2022-23.pdf",
-                            "description": "Official BPT-503 Quantum Mechanics 2022-23 paper"
-                    }
-            ],
-            "phymj52": [
-                    {
-                            "title": "Classical Mechanics 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-502_ClassicalMechanics_SemV_2013-14.pdf",
-                            "description": "Official BPT-502 Classical Mechanics 2013-14 paper"
-                    },
-                    {
-                            "title": "Classical Mechanics 2016-17 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-502_ClassicalMechanics_SemV_2016-17.pdf",
-                            "description": "Official BPT-502 Classical Mechanics 2016-17 paper"
-                    },
-                    {
-                            "title": "Classical Mechanics 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-502_ClassicalMechanics_SemV_2022-23.pdf",
-                            "description": "Official BPT-502 Classical Mechanics 2022-23 paper"
-                    }
-            ],
-            "phymj53": [
-                    {
-                            "title": "Statistical Mechanics 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-601_StatisticalMechanics_SemVI_2013-14.pdf",
-                            "description": "Official BPT-601 Statistical Mechanics 2013-14 paper"
-                    },
-                    {
-                            "title": "Statistical Mechanics 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-601_StatisticalMechanics_SemVI_2022-23.pdf",
-                            "description": "Official BPT-601 Statistical Mechanics 2022-23 paper"
-                    }
-            ],
-            "phymj61": [
-                    {
-                            "title": "Electronics and Modern Physics 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-401_ElectronicsandModernPhysics_SemIV_2013-14.pdf",
-                            "description": "Official BPT-401 Electronics and Modern Physics 2013-14 paper"
-                    },
-                    {
-                            "title": "Electronics and Modern Physics 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-401_ElectronicsandModernPhysics_SemIV_2022-23.pdf",
-                            "description": "Official BPT-401 Electronics and Modern Physics 2022-23 paper"
-                    },
-                    {
-                            "title": "Electronics and Modern Physics 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-401_ElectronicsandModernPhysics_SemIV_2023-24.pdf",
-                            "description": "Official BPT-401 Electronics and Modern Physics 2023-24 paper"
-                    }
-            ],
-            "phymj62": [
-                    {
-                            "title": "Solid State Physics 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-602_SolidStatePhysics_SemVI_2013-14.pdf",
-                            "description": "Official BPT-602 Solid State Physics 2013-14 paper"
-                    },
-                    {
-                            "title": "Solid State Physics 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-602_SolidStatePhysics_SemVI_2022-23.pdf",
-                            "description": "Official BPT-602 Solid State Physics 2022-23 paper"
-                    }
-            ],
-            "phymj63": [
-                    {
-                            "title": "Topics in Modern Physics 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPE-601_TopicsinModernPhysics_SemVI_2013-14.pdf",
-                            "description": "Official BPE-601 Topics in Modern Physics 2013-14 paper"
-                    },
-                    {
-                            "title": "Topics in Modern Physics 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPE-601_TopicsinModernPhysics_SemVI_2022-23.pdf",
-                            "description": "Official BPE-601 Topics in Modern Physics 2022-23 paper"
-                    },
-                    {
-                            "title": "Atomic Physics and Lasers 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-604_AtomicPhysicsandLasers_SemVI_2013-14.pdf",
-                            "description": "Official BPT-604 Atomic Physics and Lasers 2013-14 paper"
-                    },
-                    {
-                            "title": "Atomic Physics and Lasers 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-604_AtomicPhysicsandLasers_SemVI_2022-23.pdf",
-                            "description": "Official BPT-604 Atomic Physics and Lasers 2022-23 paper"
-                    }
-            ],
-            "phymj64": [
-                    {
-                            "title": "Elements of Nuclear Physics 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-603_ElementsofNuclearPhysics_SemVI_2013-14.pdf",
-                            "description": "Official BPT-603 Elements of Nuclear Physics 2013-14 paper"
-                    },
-                    {
-                            "title": "Elements of Nuclear Physics 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-603_ElementsofNuclearPhysics_SemVI_2022-23.pdf",
-                            "description": "Official BPT-603 Elements of Nuclear Physics 2022-23 paper"
-                    }
-            ],
-            "phymj75": [
-                    {
-                            "title": "Elementary Nanoscience 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPE-602_ElementaryNanoscience_SemVI_2013-14.pdf",
-                            "description": "Official BPE-602 Elementary Nanoscience 2013-14 paper"
-                    },
-                    {
-                            "title": "Elementary Nanoscience 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPE-602_ElementaryNanoscience_SemVI_2022-23.pdf",
-                            "description": "Official BPE-602 Elementary Nanoscience 2022-23 paper"
-                    }
-            ],
-            "phymn11": [
-                    {
-                            "title": "Mechanics and Relativity 2016-17 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-101_MechanicsandRelativity_SemI_2016-17.pdf",
-                            "description": "Official BPT-101 Mechanics and Relativity 2016-17 paper"
-                    },
-                    {
-                            "title": "Mechanics and Relativity 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-101_MechanicsandRelativity_SemI_2022-23.pdf",
-                            "description": "Official BPT-101 Mechanics and Relativity 2022-23 paper"
-                    },
-                    {
-                            "title": "Mechanics and Relativity 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-101_MechanicsandRelativity_SemI_2023-24.pdf",
-                            "description": "Official BPT-101 Mechanics and Relativity 2023-24 paper"
-                    },
-                    {
-                            "title": "Ancillary Physics 2016-17 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BSCU7A_AncillaryPhysics_SemI_2016-17.pdf",
-                            "description": "Official BSCU7A Ancillary Physics 2016-17 paper"
-                    }
-            ],
-            "phymn21": [
-                    {
-                            "title": "Ancillary Physics-I 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BP-Anc-I_AncillaryPhysics-I_SemII_2013-14.pdf",
-                            "description": "Official BP-Anc-I Ancillary Physics-I 2013-14 paper"
-                    },
-                    {
-                            "title": "Thermal Physics 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-201_ThermalPhysics_SemII_2013-14.pdf",
-                            "description": "Official BPT-201 Thermal Physics 2013-14 paper"
-                    }
-            ],
-            "phymn41": [
-                    {
-                            "title": "Electromagnetic Theory and Basic Electronics Old 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-401_ElectromagneticTheoryandBasicElectronicsOld_SemIV_2013-14.pdf",
-                            "description": "Official BPT-401 Electromagnetic Theory and Basic Electronics Old 2013-14 paper"
-                    },
-                    {
-                            "title": "Electromagnetic Theory 2016-17 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-505_ElectromagneticTheory_SemV_2016-17.pdf",
-                            "description": "Official BPT-505 Electromagnetic Theory 2016-17 paper"
-                    },
-                    {
-                            "title": "Electromagnetic Theory 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-505_ElectromagneticTheory_SemV_2022-23.pdf",
-                            "description": "Official BPT-505 Electromagnetic Theory 2022-23 paper"
-                    },
-                    {
-                            "title": "Ancillary Physics-II 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BSC-07A_AncillaryPhysics-II_SemIV_2022-23.pdf",
-                            "description": "Official BSC-07A Ancillary Physics-II 2022-23 paper"
-                    },
-                    {
-                            "title": "Ancillary Physics-II 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BSC-07A_AncillaryPhysics-II_SemIV_2023-24.pdf",
-                            "description": "Official BSC-07A Ancillary Physics-II 2023-24 paper"
-                    },
-                    {
-                            "title": "Ancillary Physics-II 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/PHYSICS_AncillaryPhysics-II_SemIV_2013-14.pdf",
-                            "description": "Official PHYSICS Ancillary Physics-II 2013-14 paper"
-                    }
-            ],
-            "stamj21": [
-                    {
-                            "title": "Probability BSc-SemVI 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Probability_BSc-SemVI_2013-14.pdf",
-                            "description": "Official Probability BSc-SemVI 2013-14 paper"
-                    },
-                    {
-                            "title": "Probability SemV 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Probability_SemV_2022-23.pdf",
-                            "description": "Official Probability SemV 2022-23 paper"
-                    }
-            ],
-            "stamj31": [
-                    {
-                            "title": "Probability BSc-SemVI 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Probability_BSc-SemVI_2013-14.pdf",
-                            "description": "Official Probability BSc-SemVI 2013-14 paper"
-                    },
-                    {
-                            "title": "Probability SemV 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Probability_SemV_2022-23.pdf",
-                            "description": "Official Probability SemV 2022-23 paper"
-                    }
-            ],
-            "stamj41": [
-                    {
-                            "title": "Statistical Inference 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_301__STATISTICAL_INFERENCE_2022_23.pdf",
-                            "description": "Official STB-301 Statistical Inference 2022-23 paper"
-                    },
-                    {
-                            "title": "Statistical Inference Midterm 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_301__STATISTICAL_INFERENCE_Mideterm_2022_23.pdf",
-                            "description": "Official STB-301 Statistical Inference Midterm 2022-23 paper"
-                    },
-                    {
-                            "title": "Statistical Inference 2016-17 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_301__STATISTICAL_INFERENCE_2016_17.pdf",
-                            "description": "Official STB-301 Statistical Inference 2016-17 paper"
-                    },
-                    {
-                            "title": "Statistical Inference 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_301__STATISTICAL_INFERENCE_2013_14.pdf",
-                            "description": "Official STB-301 Statistical Inference 2013-14 paper"
-                    }
-            ],
-            "stamj42": [
-                    {
-                            "title": "Sample Surveys and Design of Experiments 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_401__Sample_Surveys_and_Design_of_Experiments_2023_24.pdf",
-                            "description": "Official STB-401 Sample Surveys and Design of Experiments 2023-24 paper"
-                    },
-                    {
-                            "title": "Sample Surveys and Design of Experiments 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_401__Sample_Surveys_and_Design_of_Experiments_2022_23.pdf",
-                            "description": "Official STB-401 Sample Surveys and Design of Experiments 2022-23 paper"
-                    }
-            ],
-            "stamj43": [
-                    {
-                            "title": "Applied Statistics 2024-25 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_501__Applied_Statistics_2024_25.pdf",
-                            "description": "Official STB-501 Applied Statistics 2024-25 paper"
-                    },
-                    {
-                            "title": "Applied Statistics 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_501___Applied_Statistics_2022_23.pdf",
-                            "description": "Official STB-501/STA-501 Applied Statistics 2022-23 paper"
-                    },
-                    {
-                            "title": "Applied Statistics 2016-17 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_501___Applied_Statistics_2016_17.pdf",
-                            "description": "Official STB-501/STA-501 Applied Statistics 2016-17 paper"
-                    }
-            ],
-            "stamj44": [
-                    {
-                            "title": "Practical based on Course No. STA-401 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STA_402__Practical_based_on_Course_No__STA_401_2022_23.pdf",
-                            "description": "Official STA-402 Practical based on Course No. STA-401 2022-23 paper"
-                    }
-            ],
-            "stamj45": [
-                    {
-                            "title": "Practical based on STB-401 2023-24 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_402__Practical_based_on_STB_401__SET_II__2023_24.pdf",
-                            "description": "Official STB-402 Practical based on STB-401 Set II 2023-24 paper"
-                    },
-                    {
-                            "title": "Practical based on STB-501 and STB-502 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STA505_Practical_based_on_Course_No_STB_501_and_STB_502_2022_23.pdf",
-                            "description": "Official STA-505 Practical based on Course No. STB-501 and STB-502 2022-23 paper"
-                    }
-            ],
-            "stamj53": [
-                    {
-                            "title": "Statistical Inference and Decision Theory 2024-25 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_502__Statistical_Inference_and_Decision_Theory_2024_25.pdf",
-                            "description": "Official STB-502 Statistical Inference and Decision Theory 2024-25 paper"
-                    }
-            ],
-            "stamn41": [
-                    {
-                            "title": "Statistical Inference 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_301__STATISTICAL_INFERENCE_2022_23.pdf",
-                            "description": "Official STB-301 Statistical Inference 2022-23 paper"
-                    },
-                    {
-                            "title": "Statistical Inference Midterm 2022-23 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_301__STATISTICAL_INFERENCE_Mideterm_2022_23.pdf",
-                            "description": "Official STB-301 Statistical Inference Midterm 2022-23 paper"
-                    },
-                    {
-                            "title": "Statistical Inference 2016-17 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_301__STATISTICAL_INFERENCE_2016_17.pdf",
-                            "description": "Official STB-301 Statistical Inference 2016-17 paper"
-                    },
-                    {
-                            "title": "Statistical Inference 2013-14 PDF",
-                            "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_301__STATISTICAL_INFERENCE_2013_14.pdf",
-                            "description": "Official STB-301 Statistical Inference 2013-14 paper"
-                    }
-            ]
-    };;
+        "bobmj31": [
+                {
+                        "title": "Plant Ecology and Physiology 2023-24 (Set A) PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BOB_301__Plant_Ecology_and_Physiology_2023_24.pdf",
+                        "description": "Official BOB-301 Plant Ecology and Physiology 2023-24 paper (Set A)"
+                },
+                {
+                        "title": "Plant Ecology and Physiology 2023-24 (Set B) PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BOB_301___Plant_Ecology_and_Physiology_2023_24.pdf",
+                        "description": "Official BOB-301 Plant Ecology and Physiology 2023-24 paper (Set B)"
+                }
+        ],
+        "chemj41": [
+                {
+                        "title": "Inorganic Chemistry II 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB_401_Inorganic_Chemistry_II_and_Organic_Chemistry_III_2013_14.pdf",
+                        "description": "Official CHB-401 Inorganic Chemistry-II and Organic Chemistry-II 2013-14 paper"
+                },
+                {
+                        "title": "Inorganic Chemistry II 2020-21 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB_401_Inorganic_Chemistry_II_and_Organic_Chemistry_III_2020_21.pdf",
+                        "description": "Official CHB-401 Inorganic Chemistry-II and Organic Chemistry-III 2020-21 paper"
+                },
+                {
+                        "title": "Inorganic Chemistry II 2021-22 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB_401_Inorganic_Chemistry_II_and_Organic_Chemistry_III_2021_22.pdf",
+                        "description": "Official CHB-401 Inorganic Chemistry-II and Organic Chemistry-III 2021-22 paper"
+                },
+                {
+                        "title": "Inorganic Chemistry II 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB_401_Inorganic_Chemistry_II_and_Organic_Chemistry_III_2022_23.pdf",
+                        "description": "Official CHB-401 Inorganic Chemistry-II and Organic Chemistry-III 2022-23 paper"
+                },
+                {
+                        "title": "Inorganic Chemistry I Iand Selected Topics Old 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-401_InorganicChemistryIIandSelectedTopicsOld_SemIV_2013-14.pdf",
+                        "description": "Official CHB-401 Inorganic Chemistry I Iand Selected Topics Old 2013-14 paper"
+                },
+                {
+                        "title": "Inorganicand Organic Chemistry I I 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-401_InorganicandOrganicChemistryII_SemIV_2013-14.pdf",
+                        "description": "Official CHB-401 Inorganicand Organic Chemistry I I 2013-14 paper"
+                },
+                {
+                        "title": "Inorganicand Organic Chemistry I I 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-401_InorganicandOrganicChemistryII_SemIV_2022-23.pdf",
+                        "description": "Official CHB-401 Inorganicand Organic Chemistry I I 2022-23 paper"
+                },
+                {
+                        "title": "Inorganicand Organic Chemistry I I 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-401_InorganicandOrganicChemistryII_SemIV_2023-24.pdf",
+                        "description": "Official CHB-401 Inorganicand Organic Chemistry I I 2023-24 paper"
+                }
+        ],
+        "glbmj41": [
+                {
+                        "title": "Palaeontology and Stratigraphy 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/GLB_401__Palaeontology_and_Stratigraphy_2022_23.pdf",
+                        "description": "Official GLB-401 Palaeontology and Stratigraphy 2022-23 paper"
+                },
+                {
+                        "title": "Palaeontology and Stratigraphy 2018-19 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/GLB_401__Palaeontology_and_Stratigraphy_2018_19.pdf",
+                        "description": "Official GLB-401 Palaeontology and Stratigraphy 2018-19 paper"
+                },
+                {
+                        "title": "Palaeontology and Stratigraphy 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/GLB_401__Palaeontology_and_Stratigraphy_2013_14.pdf",
+                        "description": "Official GLB-401 Palaeontology and Stratigraphy 2013-14 paper"
+                }
+        ],
+        "matmj11": [
+                {
+                        "title": "CalculusI BSc-SemI 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CalculusI_BSc-SemI_2016-17.pdf",
+                        "description": "Official CalculusI BSc-SemI 2016-17 paper"
+                },
+                {
+                        "title": "Calculus BSc-SemI 2016-17 Old PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Calculus_BSc-SemI_2016-17_Old.pdf",
+                        "description": "Official Calculus BSc-SemI 2016-17 Old paper"
+                },
+                {
+                        "title": "MTB-101 Calculus -I BA-SemI 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-101_Calculus-I_BA-SemI_2022-23.pdf",
+                        "description": "Official MTB-101 Calculus-I BA-SemI 2022-23 paper"
+                },
+                {
+                        "title": "MTB-101 Calculus -I BSc-SemI 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-101_Calculus-I_BSc-SemI_2023-24.pdf",
+                        "description": "Official MTB-101 Calculus-I BSc-SemI 2023-24 paper"
+                }
+        ],
+        "matmj21": [
+                {
+                        "title": "Algebra BSc-SemIII 2016-17 Old PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Algebra_BSc-SemIII_2016-17_Old.pdf",
+                        "description": "Official Algebra BSc-SemIII 2016-17 Old paper"
+                },
+                {
+                        "title": "MTB-301 Algebra-I SemIII 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-301_Algebra-I_SemIII_2023-24.pdf",
+                        "description": "Official MTB-301 Algebra-I SemIII 2023-24 paper"
+                },
+                {
+                        "title": "MTB-301 Algebra BSc-SemIII 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-301_Algebra_BSc-SemIII_2016-17.pdf",
+                        "description": "Official MTB-301 Algebra BSc-SemIII 2016-17 paper"
+                }
+        ],
+        "matmj31": [
+                {
+                        "title": "Algebra BSc-SemIII 2016-17 Old PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Algebra_BSc-SemIII_2016-17_Old.pdf",
+                        "description": "Official Algebra BSc-SemIII 2016-17 Old paper"
+                },
+                {
+                        "title": "LinearAlgebra BSc-SemVI 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/LinearAlgebra_BSc-SemVI_2013-14.pdf",
+                        "description": "Official LinearAlgebra BSc-SemVI 2013-14 paper"
+                },
+                {
+                        "title": "LinearAlgebra SemVI 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/LinearAlgebra_SemVI_2022-23.pdf",
+                        "description": "Official LinearAlgebra SemVI 2022-23 paper"
+                },
+                {
+                        "title": "MTB-301 Algebra-I SemIII 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-301_Algebra-I_SemIII_2023-24.pdf",
+                        "description": "Official MTB-301 Algebra-I SemIII 2023-24 paper"
+                },
+                {
+                        "title": "MTB-301 Algebra BSc-SemIII 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-301_Algebra_BSc-SemIII_2016-17.pdf",
+                        "description": "Official MTB-301 Algebra BSc-SemIII 2016-17 paper"
+                }
+        ],
+        "matmj32": [
+                {
+                        "title": "AnalysisII BSc-SemVI 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/AnalysisII_BSc-SemVI_2013-14.pdf",
+                        "description": "Official AnalysisII BSc-SemVI 2013-14 paper"
+                },
+                {
+                        "title": "MathematicalAnalysis SemV 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MathematicalAnalysis_SemV_2022-23.pdf",
+                        "description": "Official MathematicalAnalysis SemV 2022-23 paper"
+                },
+                {
+                        "title": "SetTheoryRealAnalysis SemVI 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/SetTheoryRealAnalysis_SemVI_2022-23.pdf",
+                        "description": "Official SetTheoryRealAnalysis SemVI 2022-23 paper"
+                }
+        ],
+        "matmj41": [
+                {
+                        "title": "CalculusII BA-SemII 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CalculusII_BA-SemII_2023-24.pdf",
+                        "description": "Official CalculusII BA-SemII 2023-24 paper"
+                },
+                {
+                        "title": "MTB-201 Calculus -III BA-SemII 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-201_Calculus-III_BA-SemII_2022-23.pdf",
+                        "description": "Official MTB-201 Calculus-III BA-SemII 2022-23 paper"
+                },
+                {
+                        "title": "MTB-201 Calculus -II BSc-SemII 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-201_Calculus-II_BSc-SemII_2013-14.pdf",
+                        "description": "Official MTB-201 Calculus-II BSc-SemII 2013-14 paper"
+                },
+                {
+                        "title": "MTB-201 Calculus -II BSc-SemII 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-201_Calculus-II_BSc-SemII_2023-24.pdf",
+                        "description": "Official MTB-201 Calculus-II BSc-SemII 2023-24 paper"
+                },
+                {
+                        "title": "MultivariableCalculus BSc-SemII 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MultivariableCalculus_BSc-SemII_2013-14.pdf",
+                        "description": "Official MultivariableCalculus BSc-SemII 2013-14 paper"
+                }
+        ],
+        "matmj42": [
+                {
+                        "title": "DiffGeometry SemV 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/DiffGeometry_SemV_2022-23.pdf",
+                        "description": "Official DiffGeometry SemV 2022-23 paper"
+                },
+                {
+                        "title": "GlobalDiffGeometry SemVI 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/GlobalDiffGeometry_SemVI_2022-23.pdf",
+                        "description": "Official GlobalDiffGeometry SemVI 2022-23 paper"
+                },
+                {
+                        "title": "VectorTensorAnalysis SemVI 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/VectorTensorAnalysis_SemVI_2022-23.pdf",
+                        "description": "Official VectorTensorAnalysis SemVI 2022-23 paper"
+                }
+        ],
+        "matmj43": [
+                {
+                        "title": "ODE 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/ode_2023-24.pdf",
+                        "description": "Official MTB-302 Ordinary Differential Equations 2023-24 paper"
+                },
+                {
+                        "title": "ODE 2024-25 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/ode_2024-25.pdf",
+                        "description": "Official MTB-302 Ordinary Differential Equations 2024-25 paper"
+                },
+                {
+                        "title": "MTB-302 Differential Equations  BA-SemIII 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-302_DiffEq_BA-SemIII_2023-24.pdf",
+                        "description": "Official MTB-302 DiffEq BA-SemIII 2023-24 paper"
+                },
+                {
+                        "title": "MTB-302 Differential Equations  BSc-SemIII 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-302_DiffEq_BSc-SemIII_2023-24.pdf",
+                        "description": "Official MTB-302 DiffEq BSc-SemIII 2023-24 paper"
+                },
+                {
+                        "title": "MTB-302 Differential Equations uations BSc-SemIII 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-302_DiffEquations_BSc-SemIII_2016-17.pdf",
+                        "description": "Official MTB-302 DiffEquations BSc-SemIII 2016-17 paper"
+                },
+                {
+                        "title": "MTB-401 PDEs BA-SemIV 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-401_PDEs_BA-SemIV_2023-24.pdf",
+                        "description": "Official MTB-401 PDEs BA-SemIV 2023-24 paper"
+                },
+                {
+                        "title": "MTB-401 PDEs BSc-SemIV 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-401_PDEs_BSc-SemIV_2023-24.pdf",
+                        "description": "Official MTB-401 PDEs BSc-SemIV 2023-24 paper"
+                },
+                {
+                        "title": "PDEs BSc-SemIV 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/PDEs_BSc-SemIV_2013-14.pdf",
+                        "description": "Official PDEs BSc-SemIV 2013-14 paper"
+                }
+        ],
+        "matmj44": [
+                {
+                        "title": "MTB-202 StaticsDynamics BSc-SemII 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-202_StaticsDynamics_BSc-SemII_2013-14.pdf",
+                        "description": "Official MTB-202 StaticsDynamics BSc-SemII 2013-14 paper"
+                },
+                {
+                        "title": "MTB-202 StaticsDynamics BSc-SemII 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-202_StaticsDynamics_BSc-SemII_2023-24.pdf",
+                        "description": "Official MTB-202 StaticsDynamics BSc-SemII 2023-24 paper"
+                },
+                {
+                        "title": "Mechanics BSc-SemVI 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Mechanics_BSc-SemVI_2013-14.pdf",
+                        "description": "Official Mechanics BSc-SemVI 2013-14 paper"
+                },
+                {
+                        "title": "Mechanics SemV 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Mechanics_SemV_2022-23.pdf",
+                        "description": "Official Mechanics SemV 2022-23 paper"
+                },
+                {
+                        "title": "StaticsDynamics BA-SemII 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/StaticsDynamics_BA-SemII_2022-23.pdf",
+                        "description": "Official StaticsDynamics BA-SemII 2022-23 paper"
+                },
+                {
+                        "title": "StaticsDynamics BA-SemII 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/StaticsDynamics_BA-SemII_2023-24.pdf",
+                        "description": "Official StaticsDynamics BA-SemII 2023-24 paper"
+                }
+        ],
+        "matmj51": [
+                {
+                        "title": "AbstractAlgebra SemV 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/AbstractAlgebra_SemV_2022-23.pdf",
+                        "description": "Official AbstractAlgebra SemV 2022-23 paper"
+                },
+                {
+                        "title": "Algebra BSc-SemIII 2016-17 Old PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Algebra_BSc-SemIII_2016-17_Old.pdf",
+                        "description": "Official Algebra BSc-SemIII 2016-17 Old paper"
+                },
+                {
+                        "title": "MTB-301 Algebra-I SemIII 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-301_Algebra-I_SemIII_2023-24.pdf",
+                        "description": "Official MTB-301 Algebra-I SemIII 2023-24 paper"
+                },
+                {
+                        "title": "MTB-301 Algebra BSc-SemIII 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-301_Algebra_BSc-SemIII_2016-17.pdf",
+                        "description": "Official MTB-301 Algebra BSc-SemIII 2016-17 paper"
+                }
+        ],
+        "matmj52": [
+                {
+                        "title": "AnalysisII BSc-SemVI 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/AnalysisII_BSc-SemVI_2013-14.pdf",
+                        "description": "Official AnalysisII BSc-SemVI 2013-14 paper"
+                },
+                {
+                        "title": "MathematicalAnalysis SemV 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MathematicalAnalysis_SemV_2022-23.pdf",
+                        "description": "Official MathematicalAnalysis SemV 2022-23 paper"
+                },
+                {
+                        "title": "SetTheoryRealAnalysis SemVI 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/SetTheoryRealAnalysis_SemVI_2022-23.pdf",
+                        "description": "Official SetTheoryRealAnalysis SemVI 2022-23 paper"
+                }
+        ],
+        "matmj53": [
+                {
+                        "title": "Geometry BSc-SemI 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Geometry_BSc-SemI_2016-17.pdf",
+                        "description": "Official Geometry BSc-SemI 2016-17 paper"
+                },
+                {
+                        "title": "MTB-102 Geometry  BA-SemI 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-102_Geometry_BA-SemI_2022-23.pdf",
+                        "description": "Official MTB-102 Geometry BA-SemI 2022-23 paper"
+                },
+                {
+                        "title": "MTB-102 Geometry  BA-SemI 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-102_Geometry_BA-SemI_2023-24.pdf",
+                        "description": "Official MTB-102 Geometry BA-SemI 2023-24 paper"
+                },
+                {
+                        "title": "MTB-102 Geometry  BSc-SemI 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-102_Geometry_BSc-SemI_2023-24.pdf",
+                        "description": "Official MTB-102 Geometry BSc-SemI 2023-24 paper"
+                }
+        ],
+        "matmj54": [
+                {
+                        "title": "NumericalAnalysis BSc-SemVI 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/NumericalAnalysis_BSc-SemVI_2013-14.pdf",
+                        "description": "Official NumericalAnalysis BSc-SemVI 2013-14 paper"
+                },
+                {
+                        "title": "NumericalAnalysis SemVI 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/NumericalAnalysis_SemVI_2022-23.pdf",
+                        "description": "Official NumericalAnalysis SemVI 2022-23 paper"
+                }
+        ],
+        "matmj610": [
+                {
+                        "title": "DynamicalSystems SemVI 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/DynamicalSystems_SemVI_2022-23.pdf",
+                        "description": "Official DynamicalSystems SemVI 2022-23 paper"
+                }
+        ],
+        "matmj62": [
+                {
+                        "title": "ComplexAnalysis SemVI 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/ComplexAnalysis_SemVI_2022-23.pdf",
+                        "description": "Official ComplexAnalysis SemVI 2022-23 paper"
+                }
+        ],
+        "matmj63": [
+                {
+                        "title": "DiffGeometry SemV 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/DiffGeometry_SemV_2022-23.pdf",
+                        "description": "Official DiffGeometry SemV 2022-23 paper"
+                },
+                {
+                        "title": "GlobalDiffGeometry SemVI 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/GlobalDiffGeometry_SemVI_2022-23.pdf",
+                        "description": "Official GlobalDiffGeometry SemVI 2022-23 paper"
+                }
+        ],
+        "matmj64": [
+                {
+                        "title": "NumberTheory BSc-SemVI 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/NumberTheory_BSc-SemVI_2013-14.pdf",
+                        "description": "Official NumberTheory BSc-SemVI 2013-14 paper"
+                },
+                {
+                        "title": "NumberTheory SemVI 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/NumberTheory_SemVI_2022-23.pdf",
+                        "description": "Official NumberTheory SemVI 2022-23 paper"
+                }
+        ],
+        "matmj65": [
+                {
+                        "title": "OperationsResearch BSc-SemVI 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/OperationsResearch_BSc-SemVI_2013-14.pdf",
+                        "description": "Official OperationsResearch BSc-SemVI 2013-14 paper"
+                },
+                {
+                        "title": "OperationsResearch SemV 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/OperationsResearch_SemV_2022-23.pdf",
+                        "description": "Official OperationsResearch SemV 2022-23 paper"
+                }
+        ],
+        "matmj66": [
+                {
+                        "title": "RelativityII BSc-SemVI 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/RelativityII_BSc-SemVI_2013-14.pdf",
+                        "description": "Official RelativityII BSc-SemVI 2013-14 paper"
+                },
+                {
+                        "title": "Relativity SemV 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Relativity_SemV_2022-23.pdf",
+                        "description": "Official Relativity SemV 2022-23 paper"
+                }
+        ],
+        "matmj68": [
+                {
+                        "title": "CombinatorialMath SemV 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CombinatorialMath_SemV_2022-23.pdf",
+                        "description": "Official CombinatorialMath SemV 2022-23 paper"
+                },
+                {
+                        "title": "DiscreteMathematics SemVI 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/DiscreteMathematics_SemVI_2022-23.pdf",
+                        "description": "Official DiscreteMathematics SemVI 2022-23 paper"
+                }
+        ],
+        "matmn11": [
+                {
+                        "title": "CalculusI BSc-SemI 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CalculusI_BSc-SemI_2016-17.pdf",
+                        "description": "Official CalculusI BSc-SemI 2016-17 paper"
+                },
+                {
+                        "title": "Calculus BSc-SemI 2016-17 Old PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Calculus_BSc-SemI_2016-17_Old.pdf",
+                        "description": "Official Calculus BSc-SemI 2016-17 Old paper"
+                },
+                {
+                        "title": "MTB-101 Calculus -I BA-SemI 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-101_Calculus-I_BA-SemI_2022-23.pdf",
+                        "description": "Official MTB-101 Calculus-I BA-SemI 2022-23 paper"
+                },
+                {
+                        "title": "MTB-101 Calculus -I BSc-SemI 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-101_Calculus-I_BSc-SemI_2023-24.pdf",
+                        "description": "Official MTB-101 Calculus-I BSc-SemI 2023-24 paper"
+                }
+        ],
+        "matmn41": [
+                {
+                        "title": "ODE 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/ode_2023-24.pdf",
+                        "description": "Official MTB-302 Ordinary Differential Equations 2023-24 paper"
+                },
+                {
+                        "title": "ODE 2024-25 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/ode_2024-25.pdf",
+                        "description": "Official MTB-302 Ordinary Differential Equations 2024-25 paper"
+                },
+                {
+                        "title": "MTB-302 Differential Equations  BA-SemIII 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-302_DiffEq_BA-SemIII_2023-24.pdf",
+                        "description": "Official MTB-302 DiffEq BA-SemIII 2023-24 paper"
+                },
+                {
+                        "title": "MTB-302 Differential Equations  BSc-SemIII 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-302_DiffEq_BSc-SemIII_2023-24.pdf",
+                        "description": "Official MTB-302 DiffEq BSc-SemIII 2023-24 paper"
+                },
+                {
+                        "title": "MTB-302 Differential Equations uations BSc-SemIII 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-302_DiffEquations_BSc-SemIII_2016-17.pdf",
+                        "description": "Official MTB-302 DiffEquations BSc-SemIII 2016-17 paper"
+                },
+                {
+                        "title": "MTB-401 PDEs BA-SemIV 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-401_PDEs_BA-SemIV_2023-24.pdf",
+                        "description": "Official MTB-401 PDEs BA-SemIV 2023-24 paper"
+                },
+                {
+                        "title": "MTB-401 PDEs BSc-SemIV 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-401_PDEs_BSc-SemIV_2023-24.pdf",
+                        "description": "Official MTB-401 PDEs BSc-SemIV 2023-24 paper"
+                },
+                {
+                        "title": "PDEs BSc-SemIV 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/PDEs_BSc-SemIV_2013-14.pdf",
+                        "description": "Official PDEs BSc-SemIV 2013-14 paper"
+                }
+        ],
+        "matmv31": [
+                {
+                        "title": "ProgrammingInC SemV 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/ProgrammingInC_SemV_2022-23.pdf",
+                        "description": "Official ProgrammingInC SemV 2022-23 paper"
+                }
+        ],
+        "matse11": [],
+        "phymj11": [
+                {
+                        "title": "Mechanics and Relativity 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-101_MechanicsandRelativity_SemI_2016-17.pdf",
+                        "description": "Official BPT-101 Mechanics and Relativity 2016-17 paper"
+                },
+                {
+                        "title": "Mechanics and Relativity 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-101_MechanicsandRelativity_SemI_2022-23.pdf",
+                        "description": "Official BPT-101 Mechanics and Relativity 2022-23 paper"
+                },
+                {
+                        "title": "Mechanics and Relativity 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-101_MechanicsandRelativity_SemI_2023-24.pdf",
+                        "description": "Official BPT-101 Mechanics and Relativity 2023-24 paper"
+                }
+        ],
+        "phymj21": [
+                {
+                        "title": "Thermal Physics 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-201_ThermalPhysics_SemII_2013-14.pdf",
+                        "description": "Official BPT-201 Thermal Physics 2013-14 paper"
+                }
+        ],
+        "phymj31": [
+                {
+                        "title": "Optics 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-301_Optics_SemIII_2022-23.pdf",
+                        "description": "Official BPT-301 Optics 2022-23 paper"
+                },
+                {
+                        "title": "Optics 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-301_Optics_SemIII_2023-24.pdf",
+                        "description": "Official BPT-301 Optics 2023-24 paper"
+                }
+        ],
+        "phymj32": [
+                {
+                        "title": "Electronic Devices and Circuits 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-504_ElectronicDevicesandCircuits_SemV_2013-14.pdf",
+                        "description": "Official BPT-504 Electronic Devices and Circuits 2013-14 paper"
+                },
+                {
+                        "title": "Electronic Devices and Circuits 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-504_ElectronicDevicesandCircuits_SemV_2016-17.pdf",
+                        "description": "Official BPT-504 Electronic Devices and Circuits 2016-17 paper"
+                },
+                {
+                        "title": "Electronic Devices and Circuits 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-504_ElectronicDevicesandCircuits_SemV_2022-23.pdf",
+                        "description": "Official BPT-504 Electronic Devices and Circuits 2022-23 paper"
+                }
+        ],
+        "phymj41": [
+                {
+                        "title": "Electromagnetic Theory and Basic Electronics Old 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-401_ElectromagneticTheoryandBasicElectronicsOld_SemIV_2013-14.pdf",
+                        "description": "Official BPT-401 Electromagnetic Theory and Basic Electronics Old 2013-14 paper"
+                },
+                {
+                        "title": "Electromagnetic Theory 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-505_ElectromagneticTheory_SemV_2016-17.pdf",
+                        "description": "Official BPT-505 Electromagnetic Theory 2016-17 paper"
+                },
+                {
+                        "title": "Electromagnetic Theory 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-505_ElectromagneticTheory_SemV_2022-23.pdf",
+                        "description": "Official BPT-505 Electromagnetic Theory 2022-23 paper"
+                }
+        ],
+        "phymj42": [
+                {
+                        "title": "Mathematical Physics 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-501_MathematicalPhysics_SemV_2013-14.pdf",
+                        "description": "Official BPT-501 Mathematical Physics 2013-14 paper"
+                },
+                {
+                        "title": "Mathematical Physics 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-501_MathematicalPhysics_SemV_2016-17.pdf",
+                        "description": "Official BPT-501 Mathematical Physics 2016-17 paper"
+                },
+                {
+                        "title": "Mathematical Physics 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-501_MathematicalPhysics_SemV_2022-23.pdf",
+                        "description": "Official BPT-501 Mathematical Physics 2022-23 paper"
+                }
+        ],
+        "phymj51": [
+                {
+                        "title": "Quantum Mechanics 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-503_QuantumMechanics_SemV_2013-14.pdf",
+                        "description": "Official BPT-503 Quantum Mechanics 2013-14 paper"
+                },
+                {
+                        "title": "Quantum Mechanics 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-503_QuantumMechanics_SemV_2016-17.pdf",
+                        "description": "Official BPT-503 Quantum Mechanics 2016-17 paper"
+                },
+                {
+                        "title": "Quantum Mechanics 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-503_QuantumMechanics_SemV_2022-23.pdf",
+                        "description": "Official BPT-503 Quantum Mechanics 2022-23 paper"
+                }
+        ],
+        "phymj52": [
+                {
+                        "title": "Classical Mechanics 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-502_ClassicalMechanics_SemV_2013-14.pdf",
+                        "description": "Official BPT-502 Classical Mechanics 2013-14 paper"
+                },
+                {
+                        "title": "Classical Mechanics 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-502_ClassicalMechanics_SemV_2016-17.pdf",
+                        "description": "Official BPT-502 Classical Mechanics 2016-17 paper"
+                },
+                {
+                        "title": "Classical Mechanics 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-502_ClassicalMechanics_SemV_2022-23.pdf",
+                        "description": "Official BPT-502 Classical Mechanics 2022-23 paper"
+                }
+        ],
+        "phymj53": [
+                {
+                        "title": "Statistical Mechanics 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-601_StatisticalMechanics_SemVI_2013-14.pdf",
+                        "description": "Official BPT-601 Statistical Mechanics 2013-14 paper"
+                },
+                {
+                        "title": "Statistical Mechanics 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-601_StatisticalMechanics_SemVI_2022-23.pdf",
+                        "description": "Official BPT-601 Statistical Mechanics 2022-23 paper"
+                }
+        ],
+        "phymj61": [
+                {
+                        "title": "Electronics and Modern Physics 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-401_ElectronicsandModernPhysics_SemIV_2013-14.pdf",
+                        "description": "Official BPT-401 Electronics and Modern Physics 2013-14 paper"
+                },
+                {
+                        "title": "Electronics and Modern Physics 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-401_ElectronicsandModernPhysics_SemIV_2022-23.pdf",
+                        "description": "Official BPT-401 Electronics and Modern Physics 2022-23 paper"
+                },
+                {
+                        "title": "Electronics and Modern Physics 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-401_ElectronicsandModernPhysics_SemIV_2023-24.pdf",
+                        "description": "Official BPT-401 Electronics and Modern Physics 2023-24 paper"
+                }
+        ],
+        "phymj62": [
+                {
+                        "title": "Solid State Physics 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-602_SolidStatePhysics_SemVI_2013-14.pdf",
+                        "description": "Official BPT-602 Solid State Physics 2013-14 paper"
+                },
+                {
+                        "title": "Solid State Physics 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-602_SolidStatePhysics_SemVI_2022-23.pdf",
+                        "description": "Official BPT-602 Solid State Physics 2022-23 paper"
+                }
+        ],
+        "phymj63": [
+                {
+                        "title": "Topics in Modern Physics 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPE-601_TopicsinModernPhysics_SemVI_2013-14.pdf",
+                        "description": "Official BPE-601 Topics in Modern Physics 2013-14 paper"
+                },
+                {
+                        "title": "Topics in Modern Physics 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPE-601_TopicsinModernPhysics_SemVI_2022-23.pdf",
+                        "description": "Official BPE-601 Topics in Modern Physics 2022-23 paper"
+                },
+                {
+                        "title": "Atomic Physics and Lasers 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-604_AtomicPhysicsandLasers_SemVI_2013-14.pdf",
+                        "description": "Official BPT-604 Atomic Physics and Lasers 2013-14 paper"
+                },
+                {
+                        "title": "Atomic Physics and Lasers 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-604_AtomicPhysicsandLasers_SemVI_2022-23.pdf",
+                        "description": "Official BPT-604 Atomic Physics and Lasers 2022-23 paper"
+                }
+        ],
+        "phymj64": [
+                {
+                        "title": "Elements of Nuclear Physics 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-603_ElementsofNuclearPhysics_SemVI_2013-14.pdf",
+                        "description": "Official BPT-603 Elements of Nuclear Physics 2013-14 paper"
+                },
+                {
+                        "title": "Elements of Nuclear Physics 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-603_ElementsofNuclearPhysics_SemVI_2022-23.pdf",
+                        "description": "Official BPT-603 Elements of Nuclear Physics 2022-23 paper"
+                }
+        ],
+        "phymj75": [
+                {
+                        "title": "Elementary Nanoscience 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPE-602_ElementaryNanoscience_SemVI_2013-14.pdf",
+                        "description": "Official BPE-602 Elementary Nanoscience 2013-14 paper"
+                },
+                {
+                        "title": "Elementary Nanoscience 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPE-602_ElementaryNanoscience_SemVI_2022-23.pdf",
+                        "description": "Official BPE-602 Elementary Nanoscience 2022-23 paper"
+                }
+        ],
+        "phymn11": [
+                {
+                        "title": "Mechanics and Relativity 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-101_MechanicsandRelativity_SemI_2016-17.pdf",
+                        "description": "Official BPT-101 Mechanics and Relativity 2016-17 paper"
+                },
+                {
+                        "title": "Mechanics and Relativity 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-101_MechanicsandRelativity_SemI_2022-23.pdf",
+                        "description": "Official BPT-101 Mechanics and Relativity 2022-23 paper"
+                },
+                {
+                        "title": "Mechanics and Relativity 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-101_MechanicsandRelativity_SemI_2023-24.pdf",
+                        "description": "Official BPT-101 Mechanics and Relativity 2023-24 paper"
+                },
+                {
+                        "title": "Ancillary Physics 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BSCU7A_AncillaryPhysics_SemI_2016-17.pdf",
+                        "description": "Official BSCU7A Ancillary Physics 2016-17 paper"
+                }
+        ],
+        "phymn21": [
+                {
+                        "title": "Ancillary Physics-I 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BP-Anc-I_AncillaryPhysics-I_SemII_2013-14.pdf",
+                        "description": "Official BP-Anc-I Ancillary Physics-I 2013-14 paper"
+                },
+                {
+                        "title": "Thermal Physics 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-201_ThermalPhysics_SemII_2013-14.pdf",
+                        "description": "Official BPT-201 Thermal Physics 2013-14 paper"
+                }
+        ],
+        "phymn41": [
+                {
+                        "title": "Electromagnetic Theory and Basic Electronics Old 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-401_ElectromagneticTheoryandBasicElectronicsOld_SemIV_2013-14.pdf",
+                        "description": "Official BPT-401 Electromagnetic Theory and Basic Electronics Old 2013-14 paper"
+                },
+                {
+                        "title": "Electromagnetic Theory 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-505_ElectromagneticTheory_SemV_2016-17.pdf",
+                        "description": "Official BPT-505 Electromagnetic Theory 2016-17 paper"
+                },
+                {
+                        "title": "Electromagnetic Theory 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-505_ElectromagneticTheory_SemV_2022-23.pdf",
+                        "description": "Official BPT-505 Electromagnetic Theory 2022-23 paper"
+                },
+                {
+                        "title": "Ancillary Physics-II 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BSC-07A_AncillaryPhysics-II_SemIV_2022-23.pdf",
+                        "description": "Official BSC-07A Ancillary Physics-II 2022-23 paper"
+                },
+                {
+                        "title": "Ancillary Physics-II 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BSC-07A_AncillaryPhysics-II_SemIV_2023-24.pdf",
+                        "description": "Official BSC-07A Ancillary Physics-II 2023-24 paper"
+                },
+                {
+                        "title": "Ancillary Physics-II 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/PHYSICS_AncillaryPhysics-II_SemIV_2013-14.pdf",
+                        "description": "Official PHYSICS Ancillary Physics-II 2013-14 paper"
+                }
+        ],
+        "stamj21": [
+                {
+                        "title": "Probability BSc-SemVI 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Probability_BSc-SemVI_2013-14.pdf",
+                        "description": "Official Probability BSc-SemVI 2013-14 paper"
+                },
+                {
+                        "title": "Probability SemV 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Probability_SemV_2022-23.pdf",
+                        "description": "Official Probability SemV 2022-23 paper"
+                }
+        ],
+        "stamj31": [
+                {
+                        "title": "Probability BSc-SemVI 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Probability_BSc-SemVI_2013-14.pdf",
+                        "description": "Official Probability BSc-SemVI 2013-14 paper"
+                },
+                {
+                        "title": "Probability SemV 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Probability_SemV_2022-23.pdf",
+                        "description": "Official Probability SemV 2022-23 paper"
+                }
+        ],
+        "stamj41": [
+                {
+                        "title": "Statistical Inference 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_301__STATISTICAL_INFERENCE_2022_23.pdf",
+                        "description": "Official STB-301 Statistical Inference 2022-23 paper"
+                },
+                {
+                        "title": "Statistical Inference Midterm 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_301__STATISTICAL_INFERENCE_Mideterm_2022_23.pdf",
+                        "description": "Official STB-301 Statistical Inference Midterm 2022-23 paper"
+                },
+                {
+                        "title": "Statistical Inference 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_301__STATISTICAL_INFERENCE_2016_17.pdf",
+                        "description": "Official STB-301 Statistical Inference 2016-17 paper"
+                },
+                {
+                        "title": "Statistical Inference 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_301__STATISTICAL_INFERENCE_2013_14.pdf",
+                        "description": "Official STB-301 Statistical Inference 2013-14 paper"
+                }
+        ],
+        "stamj42": [
+                {
+                        "title": "Sample Surveys and Design of Experiments 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_401__Sample_Surveys_and_Design_of_Experiments_2023_24.pdf",
+                        "description": "Official STB-401 Sample Surveys and Design of Experiments 2023-24 paper"
+                },
+                {
+                        "title": "Sample Surveys and Design of Experiments 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_401__Sample_Surveys_and_Design_of_Experiments_2022_23.pdf",
+                        "description": "Official STB-401 Sample Surveys and Design of Experiments 2022-23 paper"
+                }
+        ],
+        "stamj43": [
+                {
+                        "title": "Applied Statistics 2024-25 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_501__Applied_Statistics_2024_25.pdf",
+                        "description": "Official STB-501 Applied Statistics 2024-25 paper"
+                },
+                {
+                        "title": "Applied Statistics 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_501___Applied_Statistics_2022_23.pdf",
+                        "description": "Official STB-501/STA-501 Applied Statistics 2022-23 paper"
+                },
+                {
+                        "title": "Applied Statistics 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_501___Applied_Statistics_2016_17.pdf",
+                        "description": "Official STB-501/STA-501 Applied Statistics 2016-17 paper"
+                }
+        ],
+        "stamj44": [
+                {
+                        "title": "Practical based on Course No. STA-401 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STA_402__Practical_based_on_Course_No__STA_401_2022_23.pdf",
+                        "description": "Official STA-402 Practical based on Course No. STA-401 2022-23 paper"
+                }
+        ],
+        "stamj45": [
+                {
+                        "title": "Practical based on STB-401 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_402__Practical_based_on_STB_401__SET_II__2023_24.pdf",
+                        "description": "Official STB-402 Practical based on STB-401 Set II 2023-24 paper"
+                },
+                {
+                        "title": "Practical based on STB-501 and STB-502 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STA505_Practical_based_on_Course_No_STB_501_and_STB_502_2022_23.pdf",
+                        "description": "Official STA-505 Practical based on Course No. STB-501 and STB-502 2022-23 paper"
+                }
+        ],
+        "stamj53": [
+                {
+                        "title": "Statistical Inference and Decision Theory 2024-25 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_502__Statistical_Inference_and_Decision_Theory_2024_25.pdf",
+                        "description": "Official STB-502 Statistical Inference and Decision Theory 2024-25 paper"
+                }
+        ],
+        "stamn41": [
+                {
+                        "title": "Statistical Inference 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_301__STATISTICAL_INFERENCE_2022_23.pdf",
+                        "description": "Official STB-301 Statistical Inference 2022-23 paper"
+                },
+                {
+                        "title": "Statistical Inference Midterm 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_301__STATISTICAL_INFERENCE_Mideterm_2022_23.pdf",
+                        "description": "Official STB-301 Statistical Inference Midterm 2022-23 paper"
+                },
+                {
+                        "title": "Statistical Inference 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_301__STATISTICAL_INFERENCE_2016_17.pdf",
+                        "description": "Official STB-301 Statistical Inference 2016-17 paper"
+                },
+                {
+                        "title": "Statistical Inference 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/STB_301__STATISTICAL_INFERENCE_2013_14.pdf",
+                        "description": "Official STB-301 Statistical Inference 2013-14 paper"
+                }
+        ],
+        "chemd11": [
+                {
+                        "title": "Ancillary Chemistry I 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-02A_AncillaryChemistryI_SemII_2013-14.pdf",
+                        "description": "Official CHB-02A Ancillary Chemistry I 2013-14 paper"
+                },
+                {
+                        "title": "Ancillary Chemistry I 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-02A_AncillaryChemistryI_SemII_2023-24.pdf",
+                        "description": "Official CHB-02A Ancillary Chemistry I 2023-24 paper"
+                }
+        ],
+        "chemd21": [
+                {
+                        "title": "Ancillary Chemistry I I 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-04A_AncillaryChemistryII_SemIV_2013-14.pdf",
+                        "description": "Official CHB-04A Ancillary Chemistry I I 2013-14 paper"
+                },
+                {
+                        "title": "Ancillary Chemistry I I 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-04A_AncillaryChemistryII_SemIV_2022-23.pdf",
+                        "description": "Official CHB-04A Ancillary Chemistry I I 2022-23 paper"
+                },
+                {
+                        "title": "Ancillary Chemistry I I 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-04A_AncillaryChemistryII_SemIV_2023-24.pdf",
+                        "description": "Official CHB-04A Ancillary Chemistry I I 2023-24 paper"
+                }
+        ],
+        "chemj11": [
+                {
+                        "title": "Structureand Bonding 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-101_StructureandBonding_SemI_2016-17.pdf",
+                        "description": "Official CHB-101 Structureand Bonding 2016-17 paper"
+                },
+                {
+                        "title": "Structureand Bonding 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-101_StructureandBonding_SemI_2022-23.pdf",
+                        "description": "Official CHB-101 Structureand Bonding 2022-23 paper"
+                },
+                {
+                        "title": "Structureand Bonding 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-101_StructureandBonding_SemI_2023-24.pdf",
+                        "description": "Official CHB-101 Structureand Bonding 2023-24 paper"
+                }
+        ],
+        "chemn11": [
+                {
+                        "title": "Structureand Bonding 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-101_StructureandBonding_SemI_2016-17.pdf",
+                        "description": "Official CHB-101 Structureand Bonding 2016-17 paper"
+                },
+                {
+                        "title": "Structureand Bonding 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-101_StructureandBonding_SemI_2022-23.pdf",
+                        "description": "Official CHB-101 Structureand Bonding 2022-23 paper"
+                },
+                {
+                        "title": "Structureand Bonding 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-101_StructureandBonding_SemI_2023-24.pdf",
+                        "description": "Official CHB-101 Structureand Bonding 2023-24 paper"
+                }
+        ],
+        "chemj21": [
+                {
+                        "title": "Inorganicand Physical Chemistry I Old 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-201_InorganicandPhysicalChemistryIOld_SemII_2013-14.pdf",
+                        "description": "Official CHB-201 Inorganicand Physical Chemistry I Old 2013-14 paper"
+                },
+                {
+                        "title": "Inorganicand Physical Chemistry I 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-201_InorganicandPhysicalChemistryI_SemII_2013-14.pdf",
+                        "description": "Official CHB-201 Inorganicand Physical Chemistry I 2013-14 paper"
+                },
+                {
+                        "title": "Inorganicand Physical Chemistry I 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-201_InorganicandPhysicalChemistryI_SemII_2023-24.pdf",
+                        "description": "Official CHB-201 Inorganicand Physical Chemistry I 2023-24 paper"
+                }
+        ],
+        "chemn21": [
+                {
+                        "title": "Inorganicand Physical Chemistry I Old 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-201_InorganicandPhysicalChemistryIOld_SemII_2013-14.pdf",
+                        "description": "Official CHB-201 Inorganicand Physical Chemistry I Old 2013-14 paper"
+                },
+                {
+                        "title": "Inorganicand Physical Chemistry I 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-201_InorganicandPhysicalChemistryI_SemII_2013-14.pdf",
+                        "description": "Official CHB-201 Inorganicand Physical Chemistry I 2013-14 paper"
+                },
+                {
+                        "title": "Inorganicand Physical Chemistry I 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-201_InorganicandPhysicalChemistryI_SemII_2023-24.pdf",
+                        "description": "Official CHB-201 Inorganicand Physical Chemistry I 2023-24 paper"
+                }
+        ],
+        "chemj32": [
+                {
+                        "title": "Organicand Physical Chemistry I I 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-301_OrganicandPhysicalChemistryII_SemIII_2022-23.pdf",
+                        "description": "Official CHB-301 Organicand Physical Chemistry I I 2022-23 paper"
+                },
+                {
+                        "title": "Organicand Physical Chemistry I I 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-301_OrganicandPhysicalChemistryII_SemIII_2023-24.pdf",
+                        "description": "Official CHB-301 Organicand Physical Chemistry I I 2023-24 paper"
+                },
+                {
+                        "title": "Organicand Physical Chemistry 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-361_OrganicandPhysicalChemistry_SemIII_2016-17.pdf",
+                        "description": "Official CHB-361 Organicand Physical Chemistry 2016-17 paper"
+                }
+        ],
+        "chemj33": [
+                {
+                        "title": "Organicand Physical Chemistry I I 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-301_OrganicandPhysicalChemistryII_SemIII_2022-23.pdf",
+                        "description": "Official CHB-301 Organicand Physical Chemistry I I 2022-23 paper"
+                },
+                {
+                        "title": "Organicand Physical Chemistry I I 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-301_OrganicandPhysicalChemistryII_SemIII_2023-24.pdf",
+                        "description": "Official CHB-301 Organicand Physical Chemistry I I 2023-24 paper"
+                },
+                {
+                        "title": "Organicand Physical Chemistry 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-361_OrganicandPhysicalChemistry_SemIII_2016-17.pdf",
+                        "description": "Official CHB-361 Organicand Physical Chemistry 2016-17 paper"
+                }
+        ],
+        "chemj42": [
+                {
+                        "title": "Inorganic Chemistry I Iand Selected Topics Old 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-401_InorganicChemistryIIandSelectedTopicsOld_SemIV_2013-14.pdf",
+                        "description": "Official CHB-401 Inorganic Chemistry I Iand Selected Topics Old 2013-14 paper"
+                },
+                {
+                        "title": "Inorganicand Organic Chemistry I I 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-401_InorganicandOrganicChemistryII_SemIV_2013-14.pdf",
+                        "description": "Official CHB-401 Inorganicand Organic Chemistry I I 2013-14 paper"
+                },
+                {
+                        "title": "Inorganicand Organic Chemistry I I 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-401_InorganicandOrganicChemistryII_SemIV_2022-23.pdf",
+                        "description": "Official CHB-401 Inorganicand Organic Chemistry I I 2022-23 paper"
+                },
+                {
+                        "title": "Inorganicand Organic Chemistry I I 2023-24 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-401_InorganicandOrganicChemistryII_SemIV_2023-24.pdf",
+                        "description": "Official CHB-401 Inorganicand Organic Chemistry I I 2023-24 paper"
+                }
+        ],
+        "chemj51": [
+                {
+                        "title": "Analytical Chemistry I 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-501_AnalyticalChemistryI_SemV_2013-14.pdf",
+                        "description": "Official CHB-501 Analytical Chemistry I 2013-14 paper"
+                },
+                {
+                        "title": "Analytical Chemistry I 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-501_AnalyticalChemistryI_SemV_2016-17.pdf",
+                        "description": "Official CHB-501 Analytical Chemistry I 2016-17 paper"
+                },
+                {
+                        "title": "Analytical Chemistry I 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-501_AnalyticalChemistryI_SemV_2022-23.pdf",
+                        "description": "Official CHB-501 Analytical Chemistry I 2022-23 paper"
+                }
+        ],
+        "chemj52": [
+                {
+                        "title": "Inorganic Chemistry I I I 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-502_InorganicChemistryIII_SemV_2013-14.pdf",
+                        "description": "Official CHB-502 Inorganic Chemistry I I I 2013-14 paper"
+                },
+                {
+                        "title": "Inorganic Chemistry I I I 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-502_InorganicChemistryIII_SemV_2016-17.pdf",
+                        "description": "Official CHB-502 Inorganic Chemistry I I I 2016-17 paper"
+                },
+                {
+                        "title": "Inorganic Chemistry I I I 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-502_InorganicChemistryIII_SemV_2022-23.pdf",
+                        "description": "Official CHB-502 Inorganic Chemistry I I I 2022-23 paper"
+                }
+        ],
+        "chemj53": [
+                {
+                        "title": "Organic Chemistry I I I 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-503_OrganicChemistryIII_SemV_2013-14.pdf",
+                        "description": "Official CHB-503 Organic Chemistry I I I 2013-14 paper"
+                },
+                {
+                        "title": "Organic Chemistry I I I 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-503_OrganicChemistryIII_SemV_2016-17.pdf",
+                        "description": "Official CHB-503 Organic Chemistry I I I 2016-17 paper"
+                },
+                {
+                        "title": "Organic Chemistry I V 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-503_OrganicChemistryIV_SemV_2022-23.pdf",
+                        "description": "Official CHB-503 Organic Chemistry I V 2022-23 paper"
+                }
+        ],
+        "chemj54": [
+                {
+                        "title": "Physical Chemistry I I I 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-504_PhysicalChemistryIII_SemV_2013-14.pdf",
+                        "description": "Official CHB-504 Physical Chemistry I I I 2013-14 paper"
+                },
+                {
+                        "title": "Physical Chemistry I I I 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-504_PhysicalChemistryIII_SemV_2016-17.pdf",
+                        "description": "Official CHB-504 Physical Chemistry I I I 2016-17 paper"
+                },
+                {
+                        "title": "Physical Chemistry I I I 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-504_PhysicalChemistryIII_SemV_2022-23.pdf",
+                        "description": "Official CHB-504 Physical Chemistry I I I 2022-23 paper"
+                }
+        ],
+        "chemd31": [
+                {
+                        "title": "Environmental Chemistryand Nuclear Chemistry 2016-17 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-505_EnvironmentalChemistryandNuclearChemistry_SemV_2016-17.pdf",
+                        "description": "Official CHB-505 Environmental Chemistryand Nuclear Chemistry 2016-17 paper"
+                },
+                {
+                        "title": "Environmentaland Nuclear Chemistry 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-505_EnvironmentalandNuclearChemistry_SemV_2022-23.pdf",
+                        "description": "Official CHB-505 Environmentaland Nuclear Chemistry 2022-23 paper"
+                }
+        ],
+        "chemj61": [
+                {
+                        "title": "Analytical Chemistry I I 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-601_AnalyticalChemistryII_SemVI_2022-23.pdf",
+                        "description": "Official CHB-601 Analytical Chemistry I I 2022-23 paper"
+                },
+                {
+                        "title": "Analytical Chemistry I 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-601_AnalyticalChemistryI_SemVI_2013-14.pdf",
+                        "description": "Official CHB-601 Analytical Chemistry I 2013-14 paper"
+                }
+        ],
+        "chemj62": [
+                {
+                        "title": "Inorganic Chemistry I V 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-602_InorganicChemistryIV_SemVI_2013-14.pdf",
+                        "description": "Official CHB-602 Inorganic Chemistry I V 2013-14 paper"
+                },
+                {
+                        "title": "Inorganic Chemistry I V 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-602_InorganicChemistryIV_SemVI_2022-23.pdf",
+                        "description": "Official CHB-602 Inorganic Chemistry I V 2022-23 paper"
+                }
+        ],
+        "chemj63": [
+                {
+                        "title": "Organic Chemistry I V 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-603_OrganicChemistryIV_SemVI_2013-14.pdf",
+                        "description": "Official CHB-603 Organic Chemistry I V 2013-14 paper"
+                },
+                {
+                        "title": "Organic Chemistry V 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-603_OrganicChemistryV_SemVI_2022-23.pdf",
+                        "description": "Official CHB-603 Organic Chemistry V 2022-23 paper"
+                }
+        ],
+        "chemj64": [
+                {
+                        "title": "Physical Chemistry I V 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-604_PhysicalChemistryIV_SemVI_2013-14.pdf",
+                        "description": "Official CHB-604 Physical Chemistry I V 2013-14 paper"
+                },
+                {
+                        "title": "Physical Chemistry I V 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-604_PhysicalChemistryIV_SemVI_2022-23.pdf",
+                        "description": "Official CHB-604 Physical Chemistry I V 2022-23 paper"
+                }
+        ],
+        "chemj85": [
+                {
+                        "title": "Atomicand Molecular Structure 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-605_AtomicandMolecularStructure_SemVI_2022-23.pdf",
+                        "description": "Official CHB-605 Atomicand Molecular Structure 2022-23 paper"
+                },
+                {
+                        "title": "Atomicand Molecular Structure 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-608_AtomicandMolecularStructure_SemVI_2013-14.pdf",
+                        "description": "Official CHB-608 Atomicand Molecular Structure 2013-14 paper"
+                }
+        ],
+        "chemj8r5": [
+                {
+                        "title": "Atomicand Molecular Structure 2022-23 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-605_AtomicandMolecularStructure_SemVI_2022-23.pdf",
+                        "description": "Official CHB-605 Atomicand Molecular Structure 2022-23 paper"
+                },
+                {
+                        "title": "Atomicand Molecular Structure 2013-14 PDF",
+                        "file": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CHB-608_AtomicandMolecularStructure_SemVI_2013-14.pdf",
+                        "description": "Official CHB-608 Atomicand Molecular Structure 2013-14 paper"
+                }
+        ]
+};
+    ;;
 
     // 1. Read Practice Mode Type from Query Parameter
     const params = new URLSearchParams(window.location.search);
