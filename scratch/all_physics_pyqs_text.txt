@@ -1,0 +1,3449 @@
+=========================================
+FILE: BP-Anc-I_AncillaryPhysics-I_SemII_2013-14.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BP-Anc-I: Ancillary Physics-I
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester II Examination, 2013-14
+Paper No. BP-Anc-I: Ancillary Physics-I
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answerfivequestions including Question 1 which is compulsory. Symbols have
+their usual meanings.
+Question 1.Answer anysixof the following:[6×3 = 18]
+(a) The electromagnetic radiations in different wavelength/frequency ranges are used for
+different biological applications and in different biological processes. In each of the
+following three processes, which region of electromagnetic radiation is used?
+(i) Photosynthesis
+(ii) For killing bacteria
+(iii) For killing microbes in a food material
+(b) Why are some isotopes radioactive and others not? Can you predict which one will be
+radioactive?
+(c) List the cellular sensitivity of radiation in terms of most sensitive, less sensitive, and
+least sensitive.
+(d) Explain some of the important applications of elasticity in biology.
+(e) Define and give at least two examples of a perfectly elastic and a perfectly plastic body.
+(f) Explain why liquid drops are more nearly spherical as their radius decreases.
+(g) What do you know about Laplace’s Law?
+(h) Why is it better to use hot soapy water to wash clothes?
+Question 2.
+(a) Define the coefficient of viscosity and explain, with necessary theory, a method to find
+the viscosity of a liquid.[5]
+(b) Explain the phenomenon of photosynthesis briefly in terms of a simple chemical reaction.
+[4]
+(c) What are the various harmful effects of deep UV radiation on human beings? Describe
+any two of them in brief.[4]
+Question 3.
+(a) Explain the biological effects of radiations. How does ionizing radiation damage DNA?
+[5]
+Page 1 of 2
+--- Page 2 ---
+Banaras Hindu University BP-Anc-I: Ancillary Physics-I
+(b) What are the consequences of high doses of radiation over short periods of time? Explain
+in brief. [4]
+(c) Explain why raindrops falling under gravity do not acquire a very high velocity.[4]
+Question 4.
+(a) What do you understand by surface tension and angle of contact? State the condition
+under which the angle of contact is acute and obtuse. What will be the numerical value
+of the angle of contact when the liquid is said to wet the solid? What are the factors on
+which the angle of contact depends upon? What are the typical values of the angle of
+contact for a pair of:
+(i) clean glass and pure water,
+(ii) ordinary water and glass,
+(iii) ordinary water and greased glass surface,
+(iv) ordinary water and chromium?
+[8]
+(b) Explain the inflation mechanism of the alveoli and the role of surfactant in human
+respiration. We know that it is much more difficult to blow up a balloon for the first
+time. Why is that?[5]
+Question 5.
+(a) What do you understand by excess of pressure inside a liquid drop? Describe in detail
+Jaeger’s experimental method for the determination of surface tension. Explain the
+procedure, draw a neat sketch of the apparatus, and write precautions.[8]
+(b) Explain the behavior of a wire under increasing load with the help of a neat sketch and
+define yield-point, plastic-flow, and breaking-point.[5]
+Question 6.
+(a) A thin, circular wire of diameter40mm and total mass of0.70g is gently pulled vertically
+from a water surface by a sensitive spring (k = 0.70N/m). When the spring is stretched
+34mm from its equilibrium position in air, the ring is on the verge of being pulled free
+from the water surface. Find the coefficient of surface tension of water. Neglect the
+mass of water lifted.[8]
+(b) Show the non-linear elasticity behavior of tissue and explain it with the help of a
+stress-strain diagram.[8]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 2 of 2
+
+
+=========================================
+FILE: BPE-601_TopicsinModernPhysics_SemVI_2013-14.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPE-601: Topics in Modern Physics
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester VI Examination, 2013-14
+Paper No. BPE-601: Topics in Modern Physics
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answer all questions. Symbols have their usual meanings.
+Question 1.Answer anyfiveof the following:[5×4 = 20]
+(a) State and explain the Cosmological Principle.
+(b) What are degenerate stars? Explain briefly with an example.
+(c) Draw neatly the Hertzsprung-Russell (H-R) diagram and explain it.
+(d) Write down the Lorentz transformations for energy and momentum when the boost is
+along thex-axis.
+(e) What are Stokes and anti-Stokes lines in Raman scattering?
+(f) What are gauge transformations? Show that the electric and magnetic fields remain
+invariant under gauge transformations.
+Question 2.
+(a) Derive an expression for the kinetic energy of the recoiled electron in Compton scattering.
+[8]
+(b) What is the physical meaning of Compton wavelength? Justify your answer.[4.5]
+OR
+(a) Derive the Hamiltonian for a charged particle moving under the influence of an electro-
+magnetic field.[8]
+(b) Explain briefly the working of a p-n junction diode as a radiation detector.[4.5]
+Question 3.
+(a) Discuss the Big Bang nucleosynthesis.[6]
+(b) Explain the differences between Big Bang nucleosynthesis and stellar nucleosynthesis.
+[6.5]
+OR
+(a) What are source-free Maxwell’s equations? Write these equations in four-vector notation.
+[8]
+Page 1 of 2
+--- Page 2 ---
+Banaras Hindu University BPE-601: Topics in Modern Physics
+(b) Derive the relationshipm = m0√
+1−v2/c2, where m0 is the rest mass of the particle,m is
+the relativistic mass, andvis the velocity of the particle.[4.5]
+Question 4.
+(a) Derive a condition for the hydrostatic equilibrium of a mass of gas contracting under
+gravity.[4.5]
+(b) Explain the process of generation of energy by the Sun. Discuss its evolution and
+ultimate fate (i.e., its death).[8]
+OR
+(a) State and explain the significance of Hubble’s law.[4]
+(b) What is cosmic microwave background? Explain its origin.[4]
+(c) What are the various structures in the visible universe? What does it mean by large-scale
+smoothness of the universe?[4.5]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 2 of 2
+
+
+=========================================
+FILE: BPE-601_TopicsinModernPhysics_SemVI_2022-23.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPE-601: Topics in Modern Physics
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester VI Examination, 2022-23
+Paper No. BPE-601: Topics in Modern Physics
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answer all questions. Symbols have their usual meanings.
+Question 1.Answer anyfourof the following:[4×5 = 20]
+(a) State the postulates of special theory of relativity, precisely. What assumption other
+than the relativity principle and constancy ofc has been used in deducing the Lorentz
+transformation equations?
+(b) Write the Lorentz transformation matrix for Lorentz boost in thex-direction. Write
+down the tensor equations showing that this matrix is symmetric and its own inverse.
+(c) A rocket ship is receding from Earth at a speed of0.2c. A light on the rocket ship of
+wavelengthλ0 = 4500Å appears blue to a passenger on the ship. What colour would it
+appear to an observer on Earth?
+(d) Define astronomical unit, light year, and parsec.
+(e) Consider two objects (A and B) that are two astronomical units apart. The line joining
+A and B subtends an angle of4′′ (4 arcsec) at a nearby starS. What is the distance of
+the starSfrom the midpoint of the lineAB?
+(f) Explain why the luminosity of a Red Giant is more than the original star, despite having
+a lower effective temperature.
+Question 2.
+(a) Derive the relativistic equation for the aberration of light. Use this equation to show
+that the first-order aberration effect corresponds to the classical picture and explain the
+orientation of a telescope observing a star.[7]
+(b) Write down the conversion for electric charge from CGS to SI system of units.[2]
+(c) What is gauge freedom? Show that the electromagnetic tensorFµν is invariant under
+the gauge transformationAµ→Aµ +∂µχ, whereχis a scalar.[3.5]
+Question 3.
+(a) Derive the transformation equations for the electric field under special relativity and
+use them to deduce the transformation for the magnetic field using the correspondence
+between the two.[6.5]
+Page 1 of 2
+--- Page 2 ---
+Banaras Hindu University BPE-601: Topics in Modern Physics
+(b) The average lifetime of aπmeson in its own frame of reference is26ns. If theπmeson
+moves with speed0.95c with respect to the Earth, what is its lifetime as measured by
+an observer at rest on Earth? What is the average distance it travels before decaying as
+measured by an observer at rest on Earth?[6]
+OR
+(a) Use the concept of light cone to explain that violating the speed of light is a must to
+violate causality.[7]
+(b) Write Maxwell’s equations in the covariant form using the electromagnetic tensor and
+its Hodge dual. Label the equations and explain the terms on the RHS.[5.5]
+Question 4.
+(a) Derive the relation between the thermal and gravitational energy considering hydrostatic
+equilibrium for a star. What are the consequences of this relationship?[12.5]
+OR
+(a) Explain penetration probability in reference to the nuclear fusion reaction at the core of
+a star. [5]
+(b) Compare the different energy generation mechanisms taking place at the core of stars.
+Discuss the main-sequence lifetime of stars.[7.5]
+Question 5.
+(a) Discuss at least two methods by which dark matter may be observationally detected.[8]
+(b) Explain the working of LIGO used for the detection of gravitational waves.[4.5]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 2 of 2
+
+
+=========================================
+FILE: BPE-602_ElementaryNanoscience_SemVI_2013-14.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPE-602: Elementary Nanoscience and Exotic Materials
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester VI Examination, 2013-14
+Paper No. BPE-602: Elementary Nanoscience and Exotic Materials
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answer all questions. Symbols have their usual meanings.
+Question 1.Answer anyfourparts out of the following:[4×3.5 = 14]
+(a) Discuss the Fibonacci sequences and their relevance to quasi-crystals.
+(b) Explain briefly the main features of Colossal Magnetoresistance (CMR).
+(c) How is focusing of electrons performed in a transmission electron microscope (TEM)?
+Name the two lenses used in a TEM.
+(d) In which characterization technique are secondary electrons exploited? Discuss the
+interaction of electrons with thin samples.
+(e) Define Quantum dot, quantum wire, and quantum well with suitable examples.
+Question 2.
+(a) What do you understand by tunneling? Discuss the salient features of scanning probe
+microscope (SPM) and write the construction and working principle of scanning tunneling
+microscope (STM).[4 + 10 = 14]
+Question 3.
+(a) What are the essential differences between crystals and quasi-crystals? Compare them
+in a tabulated form. Why does one need a six-index system in order to index quasi-
+crystalline diffraction patterns?[14]
+Question 4.
+(a) Discuss the structure, properties, and applications of carbon nanotubes (CNTs). Discuss
+in detail the synthesis of carbon-based nanomaterials using DC arc discharge techniques.
+[9]
+(b) Write a short note on the arc-discharge method for synthesizing single-walled carbon
+nanotubes (SWNTs).[5]
+OR
+(a) Discuss with an appropriate diagram the mechanism of Giant Magnetoresistance (GMR).
+[10]
+Page 1 of 2
+--- Page 2 ---
+Banaras Hindu University BPE-602: Elementary Nanoscience and Exotic Materials
+(b) Explain the spin valve effect.[4]
+Question 5.
+(a) What are superconductors? How are they different from perfect conductors? Explain
+the Meissner effect and supercurrents in superconductors.[14]
+OR
+(a) Discuss the salient features of High-Temperature Superconductors (HTS). Draw a neat
+diagram of the structure of Y-123 (YBa2Cu3O7−x) and point out theCu–Oplane in
+which charge carriers exist.[14]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 2 of 2
+
+
+=========================================
+FILE: BPE-602_ElementaryNanoscience_SemVI_2022-23.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPE-602: Elementary Nanoscience and Exotic Materials
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester VI Examination, 2022-23
+Paper No. BPE-602: Elementary Nanoscience and Exotic Materials
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answer all questions. Symbols have their usual meanings.
+Question 1.Answer in brief anyfourof the following:[4×3.5 = 14]
+(a) Explain how the band gap of a material changes with a change in its dimensions.
+(b) How is the crystallite size determined using X-ray diffraction (XRD) patterns?
+(c) Explain the Fibonacci sequence.
+(d) What is meant by surface plasmon resonance? How is it related to nanomaterials?
+(e) What are Type-I and Type-II superconductors?
+Question 2.
+(a) What are the properties of high-Tc superconductors? Explain how they are different
+from conventional superconductors.[8]
+(b) What is the Meissner effect? A superconducting lead has a critical temperature of7.26K
+at zero magnetic field and a critical field of8× 105A/m at0 K. Find the critical field at
+5K. [6]
+Question 3.
+(a) What are colossal magnetoresistance (CMR) materials? Discuss the double exchange
+mechanism of colossal magnetoresistance.[8]
+(b) How is CMR different from ordinary resistance and Giant Magnetoresistance (GMR)?
+[6]
+OR
+(a) What are carbon nanotubes (CNTs)? Describe the armchair, zigzag, and chiral types of
+CNTs using suitable diagrams.[8]
+(b) Write in brief the working of a transmission electron microscope (TEM).[6]
+Question 4.
+Page 1 of 2
+--- Page 2 ---
+Banaras Hindu University BPE-602: Elementary Nanoscience and Exotic Materials
+(a) Explain the particle size effect on the optical spectra of nanomaterials. Explain how the
+optical spectra can be used to determine the size of nanoparticles.[9]
+(b) Explain how the band gap of nanoparticles is evaluated using their UV-Vis absorption
+spectra. [5]
+Question 5.
+(a) What are quasicrystals? Give one example. Provide the construction of a 1D quasicrystal
+by projecting a 2D periodic lattice onto a line with an irrational slope.[8]
+(b) What is a Quantum Dot (QD)? If the size of a QD is halved, what will happen to the
+frequency of the fluorescent light emitted by it?[6]
+OR
+(a) Describe the differences between the physical and chemical synthesis routes of nano-
+materials. Explain the working principle and limitations of high-energy ball milling.
+[9]
+(b) Describe the bio-route of synthesis of nanoparticles.[5]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 2 of 2
+
+
+=========================================
+FILE: BPT-101_MechanicsandRelativity_SemI_2016-17.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-101: Mechanics and Relativity
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester I Examination, 2016-17
+Paper No. BPT-101: Mechanics and Relativity
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answer all questions. Symbols have their usual meanings.
+Question 1.Answer anyfourof the following:[4×3.5 = 14]
+(a) What are fictitious (pseudo) forces and when do they come into play? Calculate the
+fictitious force and observed (total) force on a body of mass5kg in a frame of reference
+moving:
+(i) vertically upwards with an acceleration of4m/s2.
+(ii) vertically downwards with an acceleration of4m/s2.
+(Takeg= 9.8m/s 2).
+(b) What is the rest mass of a photon? Give arguments in support of your answer.
+(c) What are central forces? Show that the angular momentum of a particle moving under
+the influence of a central force always remains constant.
+(d) In a nuclear reactor, hydrogen (in the form of water or heavy water) is used as a
+moderator. Give reasons.
+(e) Obtain an expression for the time period of a compound pendulum and discuss its
+advantages over a simple pendulum.
+(f) What are damped and undamped oscillations? Discuss with examples. In an oscillatory
+LCR circuit,L = 0.2H and C = 1.2µF. What is the maximum value of resistanceR for
+the circuit to remain oscillatory?
+Question 2.
+(a) What is a cantilever? A cantilever of rectangular cross-section is loaded at its free end.
+Obtain an expression for the depression of the cantilever at its free end.[9]
+(b) Calculate Poisson’s ratio for silver. Given that Young’s modulus for silver is7.25 ×
+1010N/m2 and its bulk modulus is1.1×1011N/m2.[5]
+Question 3.
+(a) On the basis of the Lorentz transformation equations, discuss:
+(i) length contraction.
+Page 1 of 3
+--- Page 2 ---
+Banaras Hindu University BPT-101: Mechanics and Relativity
+(ii) time dilation.
+[10]
+(b) A proton of rest mass1.67×10−27 kg is moving with a velocity of0.9c. Find its relativistic
+mass and momentum.[4]
+OR
+(a) What are the assumptions in Poiseuille’s equation for the flow of a liquid through
+capillary tubes? Show that the coefficient of viscosity is given by:
+η=πPr4
+8VL
+where V is the volume of the liquid flowing per unit time and the other symbols have
+their usual meanings.[8]
+(b) Explain how you will determine the coefficient of viscosity of water by Poiseuille’s method
+in the laboratory. Discuss the effect of temperature on the viscosity of liquids.[6]
+Question 4.
+(a) What do you mean by relativistic mass? Derive the relativistic mass-energy relation
+E=mc 2 and discuss its physical importance.[8]
+(b) If the relativistic kinetic energy is given byK = mc2 −m 0c2, show that its classical
+value (whenv≪c) reduces to 1
+2m0v2.[6]
+OR
+(a) Derive an expression for the twisting couple per unit angular twist for a solid cylinder.
+Show that for cylinders of the same mass, material, and length, the twisting couple per
+unit twist is greater for a hollow cylinder than for a solid one.[8]
+(b) Obtain an expression for the horizontal deflection of a body falling freely under the
+action of gravity at a latitudeλdue to the Coriolis force.[6]
+Question 5.
+(a) Calculate the displacement suffered by a stone dropped from the top of a tower100m
+high due to the Coriolis force:
+(i) in latitude60 ◦N.
+(ii) at the equator.
+(Take angular velocity of the Earthω= 7.29×10−5 rad/s andg= 9.8m/s 2).[14]
+OR
+(a) What do you understand by the laboratory (L) and centre of mass (C) frames of
+reference? Discuss two-dimensional elastic collisions in both frames of reference. Discuss
+Page 2 of 3
+--- Page 3 ---
+Banaras Hindu University BPT-101: Mechanics and Relativity
+the advantages of studying collision processes in the centre of mass frame of reference.
+[14]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 3 of 3
+
+
+=========================================
+FILE: BPT-101_MechanicsandRelativity_SemI_2022-23.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-101: Mechanics and Relativity
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) — Semester I Examination, 2022-23
+Paper No. BPT-101: Mechanics and Relativity
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answerfivequestions including Question 1 which is compulsory. Symbols have
+their usual meanings.
+Question 1.(Compulsory — 3.5 marks each for (c)-(f), 3 marks each for (a)-(b). Answer
+any four parts.)
+(a) Find the amount of work done to increase the speed of an electron from0.6c to0 .8c.
+The rest mass of an electron is0.5MeV.[3]
+(b) The volume of a solid does not vary with pressure. Find Poisson’s ratio for the solid.[3]
+(c) Explain why a cantilever of uniform cross-section is more likely to break near the fixed
+end. [3.5]
+(d) Calculate the fictitious force and observed force acting on a body of mass6kg kept
+in frames of reference accelerated vertically upward and downward with acceleration
+490cm/s 2 and9.8m/s 2 respectively (takeg= 9.8m/s 2).[3.5]
+(e) Explain the phenomenon of twin paradox. Is aging reciprocal?[3.5]
+(f) How much faster than its present speed should the Earth rotate so that bodies lying on
+the equator may fly off into space?[3.5]
+Question 2.
+(a) Find the twisting couple per unit twist in the case of a hollow cylinder whose inner
+radius isR 1 and outer radius isR2.[5]
+(b) Derive the relation connecting Young’s modulus (Y), Bulk modulus (K) and Poisson’s
+ratio (σ) of a material.[5]
+(c) Calculate the mass of water flowing in 2 minutes through a tube0.2cm in inner diameter
+and40 cm long, if there is a constant pressure head of40cm of water. The coefficient of
+viscosity of water is0.0085CGS units.[4]
+Question 3.
+(a) Show that for a compound pendulum the centers of suspension and oscillation can be
+interchanged. Explain how a compound pendulum is superior to a simple pendulum.[6]
+Page 1 of 2
+--- Page 2 ---
+Banaras Hindu University BPT-101: Mechanics and Relativity
+(b) Derive the equation of motion of a moving coil galvanometer and discuss the conditions
+under which the motion is (i) deadbeat, (ii) critical and (iii) ballistic.[8]
+OR
+(a) Two particles of massesm1 and m2 collide and after collision move at anglesθ1 and θ2
+respectively. Show that in the centre of mass frame, the velocities of the particles do not
+change in magnitude after collision.[8]
+(b) What are the differences between elastic and inelastic collisions? Write down one example
+for both types of collisions.[6]
+Question 4.
+(a) In the experiment of meson decay, how are the observations in the Lab frame and the
+particle frame explained? Take the half-life of mesons =2.2µsand velocity =0.99c.[7]
+(b) Let the velocity of a particle bev. Discuss the energy distribution in three conditions:
+(i)v≪c, (ii)v∼cand (iii)v≈c.[7]
+OR
+(a) Consider the relativistic form of Newton’s second law of motion. Show that when the
+force ⃗Fis parallel to the velocity⃗ v:
+F=m 0
+(
+1− v2
+c2
+)−3/2
+dv
+dt
+wherem 0 is the rest mass of the object andvis its speed.[10]
+(b) Two spaceships approach each other, moving with the same speed as measured by a
+stationary observer on the Earth. Their relative speed is0.70c. Determine the velocity
+of each spaceship as measured by a stationary observer on the Earth.[4]
+Question 5.
+(a) What is the Coriolis force? Under what conditions does it come into play?[4]
+(b) Discuss in general terms the effect of the Coriolis force produced as a result of the
+Earth’s rotation.[6]
+(c) Calculate the values of the centrifugal and the Coriolis forces on a mass of20g placed at
+a distance of10cm from the axis of a rotating frame of reference, if the angular speed of
+rotation of the frame is10rad/s.[4]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 2 of 2
+
+
+=========================================
+FILE: BPT-101_MechanicsandRelativity_SemI_2023-24.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-101: Mechanics and Relativity
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester I Examination, 2023-24
+Paper No. BPT-101: Mechanics and Relativity
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answer all questions. Symbols have their usual meanings.
+Question 1.Answer anyfourof the following questions:[4×3.5 = 14]
+(a) According to an observer on Earth, a car covers1mile in50 s on a straight stretch of
+highway. How long will it take to cover this distance according to an observer with his
+own clock on a space ship receding (moving away) from Earth with a speed of0.95c: (i)
+perpendicular to the line of motion of the car, and (ii) along the same line of motion of
+the car?
+(b) A frame of referenceS′ rotates with uniform angular velocity⃗ ωwith respect to a
+stationary frameS having a common origin. Show that the relationship between the
+time derivatives is: (
+d⃗A
+dt
+)
+S
+=
+(
+d⃗A
+dt
+)
+S′
++⃗ ω×⃗A
+Obtain expressions for the centrifugal force and the Coriolis force acting on a particle
+moving in the rotating frame.
+(c) A particle moves under the influence of a force⃗F and has instantaneous velocity⃗ v. Show
+that ⃗F·⃗ v= dT
+dt, whereT is the kinetic energy of the particle. “Angular momentum and
+angular velocity of a rigid body are not always parallel.” Justify this statement.
+(d) Find the greatest length of a steel wire that can hang vertically without breaking.
+Breaking stress for steel is7.9×109dynes/cm2, and the density of steel is7.9g/cm3.
+(Takeg= 980cm/s 2).
+(e) Obtain the theoretical limiting values of Poisson’s ratioσusing the relations between
+Young’s modulus (Y), bulk modulus (K), and shear modulus (η).
+Question 2.
+(a) What do you understand by invariant quantities in the special theory of relativity?
+Derive the invariants for space-time interval (ds2) and energy-momentum (E2−p2c2).
+[7]
+(b) Describe the Michelson-Morley experiment. Why is it called the most famous “failed
+experiment”?[7]
+Question 3.
+Page 1 of 3
+--- Page 2 ---
+Banaras Hindu University BPT-101: Mechanics and Relativity
+(a) A uniform circular disc of radiusR oscillates in a vertical plane about a horizontal axis.
+Find the distance of the axis of rotation from the center of the disc for which the period
+of oscillation is minimum. What is the value of this minimum period?[7]
+(b) A capacitor charged to2V is discharged through a ballistic galvanometer, yielding a
+corrected deflection of9.6cm. If the current sensitivity is4.54×107div/A and the
+periodic time is12s, calculate the capacity of the capacitor.[7]
+OR
+(a) Derive the Lorentz velocity transformation equations between two inertial frames of
+reference moving with relative velocityValong thex-axis.[7]
+(b) Show from Lorentz transformations that two events simultaneous (t1 =t2) at different
+positions (x1̸=x2) in a reference frameS are not necessarily simultaneous in another
+reference frameS ′.[7]
+Question 4.
+(a) If two capillaries of radiir1 and r2 and lengthsl1 and l2 are joined in series, derive
+an expression for the rate of flow of liquid through the arrangement using Poiseuille’s
+formula. [8]
+(b) Let P be the stress (pressure) applied normally over an areaA of a body of volume
+V such that its volume decreases byv. Prove that the work done per unit volume is
+1
+2×stress×strain.[6]
+OR
+(a) If a body falls freely through a heighth from rest, show that the horizontal displacement
+of the body due to the Coriolis force at latitudeλis equal to:
+x= 2
+3ωcosλ
+√
+2h3
+g
+whereωis the angular velocity of the Earth.[8]
+(b) What are elastic and inelastic collisions? Two clay balls collide head-on in a perfectly
+inelastic collision. The first ball has a mass of0.5kg and an initial velocity of4m/s to
+the right. The second ball has a mass of0.25kg and an initial velocity of3m/s to the
+left. What is the decrease in kinetic energy during the collision?[6]
+Question 5.
+(a) Derive an expression for the twisting couple per unit angular twist for a hollow cylinder
+and explain why a hollow cylinder is stronger than a solid cylinder of the same length,
+mass, and material.[8]
+(b) Compare the loads required to produce equal depression in two beams made of the same
+material and having the same length and weight, with the only difference being that one
+has a circular cross-section while the other has a square cross-section.[6]
+Page 2 of 3
+--- Page 3 ---
+Banaras Hindu University BPT-101: Mechanics and Relativity
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 3 of 3
+
+
+=========================================
+FILE: BPT-201_ThermalPhysics_SemII_2013-14.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-201: Thermal Physics
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester II Examination, 2013-14
+Paper No. BPT-201: Thermal Physics
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answerfivequestions including Question 1 which is compulsory. Symbols have
+their usual meanings.
+Question 1.Answer anyfourof the following:[4×3.5 = 14]
+(a) Find the probability of an oxygen molecule having its velocity in the range99.5to
+100.5m/s at200 K. Given: molecular weight of oxygen = 32 and Avogadro number
+NA = 6.023×10 23/mol.
+(b) Find the change in entropy of the universe in converting1g of ice at0◦C into steam at
+100◦C. (Latent heat of fusion of ice =80cal/g, latent heat of vaporization =540cal/g).
+(c) Show that Gibbs function remains constant for an isobaric process carried out in such a
+way that the final temperature remains equal to the initial temperature at the conclusion
+of the thermodynamic process.
+(d) Discuss whether blackbody radiation inside an enclosure remains black even after
+adiabatic expansion.
+(e) The efficiency of a Carnot engine working in a reversible cycle between a source and a
+sink (temperature of sink =127◦C) is1/6. If the temperatures of source and sink are
+reduced by100 ◦C, find the efficiency of the Carnot engine.
+Question 2.
+(a) How are absolute zero and unit degree of temperature defined on the thermodynamic
+absolute scale of temperature?[5]
+(b) Discuss how Andrews’ experiments lead to the existence of critical constants for carbon
+dioxide gas undergoing liquefaction.[9]
+Question 3.
+(a) Show that the correction for volume due to the finite size of molecules for a van der
+Waals gas is four times the actual volume of all the molecules.[5]
+(b) Show that there is an increase in the entropy of the universe for an irreversible process.
+[4]
+(c) What are the Clausius and Kelvin-Planck statements of the second law of thermodynamics?
+Show that the Kelvin-Planck and Clausius statements of the second law of thermodynamics
+are equivalent.[5]
+Page 1 of 3
+--- Page 2 ---
+Banaras Hindu University BPT-201: Thermal Physics
+Question 4.
+(a) Show that for an ideal gas, internal energy is a function of temperature only and is
+independent of volume, while for a van der Waals gas it depends on volume also.[5]
+OR
+(a) Find an expression for the fall in temperature resulting from the adiabatic stretching of
+a liquid film, if there is a small increase in the surface area of the film and the volume of
+the film remains nearly constant.[4]
+(b) Show that:
+Cp −C v =T
+(∂p
+∂T
+)
+v
+(∂V
+∂T
+)
+p
+and hence deduce that for a van der Waals gas:
+Cp −C v ≈R
+[
+1 + 2a
+VRT
+]
+where the symbols have their usual meanings.[6]
+(c) Derive the Clausius-Clapeyron equation using the appropriate Maxwell’s thermodynamic
+relation. With the help of this relation, discuss the variation of boiling and melting
+points with pressure.[4]
+Question 5.
+(a) Explain the phenomenon of adiabatic demagnetization of a paramagnetic salt. How
+will you employ this phenomenon to produce very low temperatures? Is absolute zero
+attainable?[8]
+(b) Show that the Joule-Thomson expansion is an isenthalpic process and derive the expres-
+sion for the Joule-Thomson coefficient for a van der Waals gas:
+µJT =
+(∂T
+∂p
+)
+H
+= 1
+Cp
+[ 2a
+RT −b
+]
+where the symbols have their usual meanings.[6]
+OR
+(a) Show that the perfect gas scale and the absolute thermodynamic scale are identical.[6]
+(b) Derive the first and secondTdS equations using Maxwell’s thermodynamic relations.
+[4]
+(c) What is superfluidity with reference to liquid Helium? Discuss the phenomenon of second
+sound and the velocity of second sound.[4]
+Question 6.
+Page 2 of 3
+--- Page 3 ---
+Banaras Hindu University BPT-201: Thermal Physics
+(a) Obtain the Rayleigh-Jeans formula for the distribution of intensity in the emission
+spectrum of a black body. Comment on its success and failure.[10]
+(b) Define Boyle temperature. What is the relation between Boyle temperature, critical
+temperature, and temperature of inversion?[4]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 3 of 3
+
+
+=========================================
+FILE: BPT-301_Optics_SemIII_2022-23.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-301: Optics
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester III Examination, 2022-23
+Paper No. BPT-301: Optics
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answerfivequestions including Question 1 which is compulsory. Symbols have
+their usual meanings.
+Question 1.Answer anyfiveof the following:[5×4 = 20]
+(a) An interference pattern from two point sources (λ= 5000 Å) separated by a distance
+d = 0.05mm is produced on a screenPP′at a distanceD = 20 cm from sourceS1. The
+plane of the screenPP′is perpendicular to the line joiningS1 and S2. What will be the
+shape of the fringes? What will be the order and the nature of the central fringe?
+(b) A left circularly polarized beam (λ= 5893Å) is incident normally on a calcite crystal
+(no = 1.65836and ne = 1.48641) of thickness0.005141mm with its optic axis parallel to
+the surface. What will be the state of polarization of the emergent beam?
+(c) Discuss the state of polarization when thex- andy-components of the electric field are
+given by the following equations:
+Ex =E 0 sin(kz−ωt+π/4), E y =E 0 sin(kz−ωt−π/4)
+(d) In a double-slit diffraction experiment, consider a slit widthb = 5 × 10−2cm and
+a separation between identical points of the two slitsd = 0.1cm, illuminated by a
+monochromatic light of wavelength6× 10−5cm. How many interference minima will
+occur within the central diffraction maximum?
+(e) A straight edge is kept midway between a monochromatic source (λ= 5000Å) and a
+screen. The distance between the source and the screen is50cm. Calculate the distance
+of the first two maxima and the first two minima from the edge of the geometrical
+shadow.
+(f) Calculate the minimum number of lines in a grating that will resolve the sodium doublet
+(λ1 = 5890Å andλ2 = 5896Å) in the second order.
+(g) Using sodium light of wavelengthλ= 5893 Å, interference fringes are formed by reflection
+from a thin air wedge-shaped film. Ten fringes are observed in a distance of1cm when
+viewed perpendicularly. Calculate the angle of the wedge.
+Question 2.
+(a) In the figure of Lloyd’s mirror given below,S is a point source emitting waves of frequency
+6 × 1014Hz, AB is the mirror andLOM is the screen. The distancesSP, PA, AB and
+BO are1 mm,5 cm,5 cm and190 cm respectively. Determine the position of the region
+where the fringes will appear and the number of fringes in the region.[6]
+Page 1 of 3
+--- Page 2 ---
+Banaras Hindu University BPT-301: Optics
+(b) Discuss the working of a Michelson interferometer and show that the highest order
+fringe appears at the centre. How can the difference between two close wavelengths of a
+bichromatic source be calculated using a Michelson interferometer?[8]
+Question 3.
+(a) Discuss the intensity distribution of Fraunhofer diffraction due toN slits. Deduce the
+expression for the width of the principal maxima. How many minima and secondary
+maxima are present between two closest principal maxima?[8]
+(b) In the Newton’s ring arrangement, if the incident light consists of two wavelengths
+4000Å and4002 Å, calculate the distance from the point of contact at which the rings
+will disappear. The radius of curvature of the lens surface is400cm.[6]
+OR
+(a) Derive the expression and discuss the intensity distribution of a Fabry-Pérot interferom-
+eter. Discuss how the sharpness of the fringes depends on the reflectivity of the mirrors.
+Give a brief comment on the resolving power of a Fabry-Pérot interferometer.[8]
+(b) Discuss the Rayleigh criterion of resolving power. Find the resolving power of a micro-
+scope. [6]
+Question 4.
+(a) Explain the working of a Retardation Plate, a Quarter-Wave Plate (QWP), and a
+Half-Wave Plate (HWP).[6]
+(b) Discuss the construction and working of a Nicol prism.[4]
+(c) What is optical activity? Explain Fresnel’s theory of optical rotation. How is specific
+rotation experimentally determined using a Laurent half-shade polarimeter?[4]
+OR
+(a) The plane of polarization of a plane-polarized light is turned through an angle12.6◦
+passing through a10%sugar solution of length20 cm. Calculate the specific rotation.
+[6]
+(b) What are Einstein coefficients? Derive the relation between them.[8]
+Question 5.
+(a) Discuss the intensity distribution due to a single-slit diffraction and find the width of
+the central maximum.[14]
+Page 2 of 3
+--- Page 3 ---
+Banaras Hindu University BPT-301: Optics
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 3 of 3
+
+
+=========================================
+FILE: BPT-301_Optics_SemIII_2023-24.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-301: Optics
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester III Examination, 2023-24
+Paper No. BPT-301: Optics
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answerfivequestions including Question 1 which is compulsory. Symbols have
+their usual meanings.
+Question 1.Answer anyfiveof the following:[5×4 = 20]
+(a) In a Young’s double-slit experiment, interference fringes are formed using sodium light
+comprising two wavelengths5890Å and5896 Å. Obtain the regions on the screen where
+the fringe pattern will disappear. Assumed= 0.5mm andD= 100cm.
+(b) A plane-polarized light is incident perpendicularly on a quartz plate cut with faces
+parallel to the optic axis. Find the thickness of the quartz plate which introduces a
+phase difference of60◦between theeandorays.
+(c) A left circularly polarized beam (λ0 = 5893Å) is incident normally on a calcite crystal
+(with its optic axis cut parallel to the surface) of thickness0.005141mm. What will
+be the state of polarization of the emergent beam? For calcite,no = 1.65836and
+ne = 1.48641.
+(d) In a double-slit diffraction experiment, the slit widthb = 7 × 10−3 cm, the separation
+between identical points of the two slitsd = 7 × 10−2 cm, andλ= 6300Å. How many
+interference minima will occur within the first diffraction minima on either side of the
+central diffraction maximum? Which orders of interference maxima will be missing?
+(e) Show that a zone plate acts like a converging lens with multiple foci.
+(f) How can the central fringe be seen in a Lloyd’s mirror experiment? Show that the
+central fringe is sharper in a Lloyd’s mirror than in a Fresnel biprism experiment.
+(g) White light is reflected normally from a uniform oil film (n = 1.33). An interference
+maximum for6000 Å and a minimum for4500Å coincide. Calculate the thickness of the
+film.
+Question 2.
+(a) In a Michelson interferometer experiment performed with a source which consists of
+two wavelengths4882Å and4886 Å, through what distance does the mirror have to be
+moved between two successive positions of the disappearance of the fringes?[6]
+(b) Discuss the intensity distribution of a Fabry-Pérot interferometer and show that the
+larger the value ofR (reflectivity of the mirrors), the greater the difference between
+Imax andI min. In what way is it superior to the Michelson interferometer?[8]
+Page 1 of 3
+--- Page 2 ---
+Banaras Hindu University BPT-301: Optics
+Question 3.
+(a) Deduce the expression of the intensity distribution of Fraunhofer diffraction due to double
+slits. Discuss the nature of the intensity distribution and explain how the intensity falls
+off to zero on either side of the central fringe and gradually reappears.[8]
+(b) In a Newton’s ring arrangement withλ= 6.4 × 10−5 cm and the radius of curvature of
+the convex surface is100cm, if the lens is vertically raised up, discuss the change in the
+ring pattern as seen through the microscope.[6]
+OR
+(a) Consider a diffraction grating of width5cm with slits of width0.0001cm separated by a
+distance of0.0002cm. How many orders would be observable forλ= 5.5 × 10−5 cm?
+Calculate the width of the principal maximum. Would there be any missing orders?
+For this diffraction grating, calculate the dispersion and resolving power in the different
+orders. [8]
+(b) What is the Rayleigh criterion of resolving power? Find the resolving power of a grating.
+Discuss what happens if the number of grating elements is too large.[6]
+Question 4.
+(a) You are given a Nicol prism and a quarter-wave plate. Explain the method to produce
+and detect plane, elliptically, and circularly polarized light.[10]
+(b) What are the states of polarization when thex- andy-components of the electric field
+are given by the following equations:
+(i)E x =E 0 cos(ωt+kz), E y = E0
+2 cos(ωt+kz+π)
+(ii)E x =E 0 sin(ωt+kz), E y =E 0 cos(ωt+kz)
+[4]
+OR
+(a) Explain birefringence. What are quarter- and half-wave plates? What are their uses?[6]
+(b) Discuss the working of a biquartz polarimeter.[8]
+Question 5.
+(a) What are the differences between spontaneous and stimulated emission? Derive the
+relations between the Einstein coefficients.[8]
+(b) The length of a laser tube is150 mm and the gain factor of the laser material is
+0.0005per cm. If one of the cavity mirrors reflects 100 percent of the light, what is the
+required reflectance of the other cavity mirror?[6]
+Page 2 of 3
+--- Page 3 ---
+Banaras Hindu University BPT-301: Optics
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 3 of 3
+
+
+=========================================
+FILE: BPT-401_ElectromagneticTheoryandBasicElectronicsOld_SemIV_2013-14.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-401: EMT and Basic Electronics (Old)
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester IV Examination, 2013-14 (Old Course)
+Paper No. BPT-401: Electromagnetic Theory and Basic Electronics
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answerfivequestions including Question 1 which is compulsory. Symbols have
+their usual meanings.
+Question 1.Answer anyfiveof the following:[5×4 = 20]
+(a) Prove that the divergence of the curl of any vector field vanishes:∇·(∇×⃗A) = 0.
+(b) Define scalar and vector potentials. How do you express the electric field⃗E and magnetic
+field ⃗Bin terms of these potentials?
+(c) Write down the four Maxwell’s equations in differential form and briefly explain the
+physical meaning of each.
+(d) A material has conductivityσ= 10 −3S/m and relative permittivityεr = 2. At what
+frequency would the conduction current density be equal to the displacement current
+density?
+(e) Describe the position of the Fermi level in an intrinsic and an extrinsic semiconductor.
+Discuss the effect of temperature on its position.
+(f) Why is a capacitor filter mostly used in a power supply rather than an inductor filter?
+Explain.
+(g) Explain how the current gainαis different fromβ. Establish the relationship between
+αandβfor a transistor.
+Question 2.
+(a) State and prove Gauss’s divergence theorem.[5]
+(b) Derive the electromagnetic wave equation for the propagation of a plane wave in a
+non-conducting isotropic dielectric medium. Obtain expressions for the propagation
+constant, intrinsic impedance, phase velocity, and group velocity.[9]
+Question 3.
+(a) State and prove Poynting’s theorem for the conservation of energy in an electromagnetic
+field, and discuss the physical significance of each term in the equation.[8]
+(b) Define depth of penetration (skin depth). Show that electromagnetic waves are heavily
+attenuated inside a good conductor.[6]
+Page 1 of 2
+--- Page 2 ---
+Banaras Hindu University BPT-401: EMT and Basic Electronics (Old)
+OR
+(a) A plane wave travelling in a homogenous, isotropic, and linear dielectric medium is
+incident obliquely at a plane interface of another dielectric. Determine the reflection and
+transmission coefficients if the incident wave is polarized with its electric vector lying
+perpendicular to the plane of incidence.[9]
+(b) What is a transmission line? Explain the different parameters of a transmission line.
+Determine the characteristic impedance of a lossless cable if the inductance per unit
+lengthL= 0.25µH/m and capacitance per unit lengthC= 100pF/m.[5]
+Question 4.
+(a) Explain the depletion region in a p-n junction. Show that the width of the depletion
+region in the p-n junction decreases with the increase of doping impurity concentration.
+[8]
+(b) Describe the working of a single-stage RC coupled common-emitter amplifier. Plot the
+frequency response of the amplifier and explain its features.[6]
+OR
+(a) Explain the working of a full-wave bridge rectifier having a capacitor filter with a suitable
+circuit diagram. Obtain the relationship for the ripple factor.[8]
+(b) Why does a transistor need biasing? Draw the circuit diagram of a transistor self-bias
+(voltage divider bias) circuit. Explain how it provides better thermal stability than a
+fixed-bias circuit.[6]
+Question 5.
+(a) Starting from Maxwell’s equations, derive the wave equation for the propagation of a
+plane electromagnetic wave in free space. Obtain the solution representing a plane wave
+propagating along the+zdirection.[7]
+(b) Find the Brewster angle for a parallel-polarized wave travelling from air into glass for
+whichεr = 5.0.[4]
+(c) Explain the meaning of the Early effect. How does it affect the collector current in a
+junction transistor?[3]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 2 of 2
+
+
+=========================================
+FILE: BPT-401_ElectronicsandModernPhysics_SemIV_2013-14.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-401: Electronics and Modern Physics
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester IV Examination, 2013-14
+Paper No. BPT-401: Electronics and Modern Physics
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answerfivequestions including Question 1 which is compulsory. Symbols have
+their usual meanings.
+Question 1.Answer anyfiveof the following:[5×4 = 20]
+(a) What are polar and non-polar dielectrics? Explain the terms electronic, ionic, and
+dipolar polarizabilities.
+(b) Electrons are accelerated in a TV tube through a potential difference of10kV. Find the
+highest frequency of the electromagnetic wave emitted when these electrons strike the
+screen of the tube. Justify that these waves are X-rays.
+(c) Explain the various parameters in the given equation for a p-n junction diode:
+I=I 0
+[
+e
+eV
+ηkT−1
+]
+Prove that the dynamic resistance of the diode is given byrd = ηkT
+eI .
+(d) How is current gainαdifferent fromβ? Explain with expressions. Determine the
+current gainβand emitter currentIE for a transistor circuit in CE configuration, where
+IB = 50µA andIC = 3.65mA.
+(e) Show that the de Broglie wavelength of a particle of massm, chargeq, and accelerated
+through a potential difference ofVvolts is:
+λ= h√2mqV
+(f) Explain the important features of paramagnetic, diamagnetic, and ferromagnetic materi-
+als. Give the domain theory of ferromagnetism.
+(g) Explain why a transistor needs to be biased. Draw the load line and explain its
+importance.
+Question 2.
+(a) Explain the formation of the depletion region in a P-N junction diode. Find the expression
+for the width of the depletion region and the height of the potential barrier without
+external voltage.[10]
+(b) A silicon p-n junction has a depletion width of20µmat a reverse voltage of16V. If the
+reverse voltage is increased to25V, find the new depletion width.[4]
+Page 1 of 3
+--- Page 2 ---
+Banaras Hindu University BPT-401: Electronics and Modern Physics
+Question 3.
+(a) What is Lorentz local field? Derive the Lorentz formula for the internal electric field.
+Hence, derive the Clausius-Mossotti equation:
+K−1
+K+ 2 = Nαe
+3ε0
+where the symbols have their usual meanings.[10]
+(b) A slab of dielectric material of dielectric constant10and thickness5 mm is placed
+between the parallel plates of a capacitor. If a potential difference of105V is applied
+between the plates, evaluate the Lorentz field.[4]
+OR
+(a) Define magnetic induction⃗B, magnetization ⃗M, magnetic susceptibilityχm, and perme-
+abilityµ. Establish the relationship between them.[5]
+(b) Obtain Langevin’s formula for the dipolar polarizability of a polar dielectric substance.
+[5]
+(c) Evaluate the Larmor frequency of an electronic orbit when it is subjected to a magnetic
+induction field of2Tesla. (Givene= 1.6×10−19C andm= 9.1×10−31kg).[4]
+Question 4.
+(a) Distinguish between continuous and characteristic X-rays. Show the plot of X-ray
+intensity versus frequency observed in both cases.[4]
+(b) Derive Bragg’s law for X-ray diffraction from a layer of atoms in a plane.[6]
+(c) X-rays of wavelength0.71Å are reflected from the (110) plane of a rock salt crystal
+(d = 2.82Å). Calculate the glancing angleθcorresponding to the second-order Bragg
+spectrum.[4]
+OR
+(a) Define mobility of charge carriers in a semiconductor. Find the expressions for the drift
+current and diffusion current in a semiconductor.[5]
+(b) What are the various transistor biasing techniques? Draw the circuit diagram of a
+self-bias circuit and describe its working for stabilization.[5]
+(c) What is rectifier efficiency? Show that the efficiency of a half-wave rectifier is:
+η= 40.6%
+1 +Rf/RL
+whereR f is the forward resistance of the diode andRL is the load resistance.[4]
+Question 5.
+Page 2 of 3
+--- Page 3 ---
+Banaras Hindu University BPT-401: Electronics and Modern Physics
+(a) Draw the circuit diagram of a single-stage RC coupled common-emitter amplifier. Explain
+the function of each resistance and capacitance used in the circuit. Plot the frequency
+response of the amplifier.[6]
+(b) What is the photoelectric effect? Explain photoelectric current and retarding potential.
+The photoelectric threshold wavelength for a metal is3000Å. Find the kinetic energy of
+an electron ejected from it by radiation of wavelength1200Å. (Givenh = 6.62×10−34
+(b) Explain active region, cut-off region, and saturation region in transistor operations using
+suitable circuit characteristics and curves.[2]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 3 of 3
+
+
+=========================================
+FILE: BPT-401_ElectronicsandModernPhysics_SemIV_2022-23.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-401: Electronics and Modern Physics
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester IV Examination, 2022-23
+Paper No. BPT-401: Electronics and Modern Physics
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answerfivequestions including Question 1 which is compulsory. Symbols have
+their usual meanings.
+Question 1.(Compulsory — Answer any five parts, 4 marks each.)
+(a) What are the differences between metals, insulators, and semiconductors? Describe them
+on the basis of the band theory of solids.[4]
+(b) Define the phase velocity and group velocity of matter waves. Obtain the relation
+between them.[4]
+(c) If a dielectric is introduced between the plates of a parallel plate capacitor, show how the
+induced charge varies as a function of the dielectric constant. Show that the dielectric
+constant approaches infinity for a metal.[4]
+(d) Differentiate between the electronic, ionic, and orientational polarizabilities of a dielectric
+material. [4]
+(e) For an intrinsic semiconductor, the effective masses of hole and electron are0.36m0 and
+0.54m0 respectively (m0 being the rest mass of an electron). Find the position of the
+Fermi level in this semiconductor atT= 300K.[4]
+(f) Light of wavelength400nm is incident on a metal surface with a work function of2.5eV.
+Calculate the maximum kinetic energy of the emitted photoelectrons.[4]
+(g) How is the current amplification factorαdifferent from the current gainβ? Determine
+the current gainβand emitter currentIE for a transistor operating in CE configuration,
+whereI B = 50µA andIC = 3.65mA.[4]
+Question 2.
+(a) Derive the expression for the local molecular field inside a spherical cavity of a dielectric
+material and establish the Clausius-Mossotti equation. What are the limitations of this
+equation?[7]
+(b) Explain the three electric vectors: electric field intensity⃗E, dielectric polarization⃗P,
+and electric displacement⃗D. Establish the relation among them.[7]
+OR
+(a) Derive the Langevin-Debye formula for the dielectric susceptibility of a polar medium.
+[7]
+Page 1 of 3
+--- Page 2 ---
+Banaras Hindu University BPT-401: Electronics and Modern Physics
+(b) Describe the formation of the depletion layer in an unbiased p-n junction. Sketch the
+barrier potential and show that the barrier potential is given by:
+V0 = kT
+q ln
+(
+NaNd
+n2
+i
+)
+where the symbols have their usual meanings.[7]
+Question 3.
+(a) What is meant by the peak inverse voltage (PIV) of a rectifier? Prove that the regulation
+for both half-wave and full-wave rectifiers is given by the ratio of forward diode resistance
+to the load resistance.[5.5]
+(b) Explain the difference between the Zeeman effect and the Compton effect. Give a brief
+account of Einstein’s explanation of the photoelectric effect on the basis of quantum
+theory. [5]
+(c) Show that the de Broglie wavelength (λ) for a material particle of rest massm0 and
+chargeq accelerated from rest through a potential difference ofV volts relativistically is
+given by:
+λ= h√
+2m0qV
+(
+1 + qV
+2m0c2
+)
+wherecis the speed of light.[3.5]
+OR
+(a) "Zener breakdown voltage has a negative temperature coefficient whereas the avalanche
+breakdown voltage has a positive temperature coefficient." Explain this statement. How
+does a Zener diode work as a voltage regulator?[7]
+(b) Derive the expression for the change in wavelength of a photon due to Compton scattering
+with a stationary electron. Explain the significance of the Compton wavelength.[7]
+Question 4.
+(a) State Bragg’s law of X-ray diffraction in crystals. Describe the Bragg X-ray spectrometer
+method for determining the wavelength of X-rays.[5]
+(b) What is the meaning of biasing a transistor? Discuss the different methods used for
+transistor biasing and provide a neat circuit diagram for a self-biased transistor.[6]
+(c) Explain the terms "polar vector" and "axial vector" with one example of each.[3]
+OR
+(a) A silicon n-p-n transistor havingβ= 100, ICO = 22nA is operated in CE configuration.
+Assuming VBE = 0.7V and collector supply voltageVCC = 12 V with collector load
+resistance RC = 2kΩ, determine the transistor currents and the region of operation.
+What happens ifRC is indefinitely increased?[10]
+Page 2 of 3
+--- Page 3 ---
+Banaras Hindu University BPT-401: Electronics and Modern Physics
+(b) What is a load line? Explain using a suitable diagram how the DC load line can be
+constructed for a common emitter transistor amplifier.[4]
+Question 5.
+(a) Describe the operation of an R-C coupled common-emitter transistor amplifier and
+explain its frequency response curve.[7]
+(b) What is the Early effect in transistors? Explain why the transistor action is lost if the
+base width is reduced to zero.[7]
+OR
+(a) Show that the energy lost by a photon in Compton scattering with a free stationary
+electron can be written as:
+∆E= (hν)2(1−cosθ)
+m0c2 +hν(1−cosθ)
+where m0 is the rest mass of the electron,hνis the energy of the incident photon, andθ
+is the scattering angle of the photon.[7]
+(b) Calculate the maximum percentage of energy that can be lost by a1MeVphoton in a
+collision with a stationary electron (rest mass energy of electron is0.51MeV).[7]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 3 of 3
+
+
+=========================================
+FILE: BPT-401_ElectronicsandModernPhysics_SemIV_2023-24.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-401: Electronics and Modern Physics
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester IV Examination, 2023-24
+Paper No. BPT-401: Electronics and Modern Physics
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answerfivequestions including Question 1 which is compulsory. Symbols have
+their usual meanings.
+Question 1.Answer in brief anyfiveof the following:[5×4 = 20]
+(a) Show thatrn⃗ ris an irrotational vector for any value ofn, but is solenoidal only ifn =−3
+(where⃗ ris the position vector of a point).
+(b) Consider a cylindrically shaped section of silicon having length1mm and cross-sectional
+area0 .1mm2. Calculate its conductivity and resistance when: (i) it is purely intrinsic
+material, and (ii) it has a free electron density of8×1015cm−3. (Take the intrinsic
+carrier densityn i = 1.5×1010cm−3, mobility constantsµn = 1500cm 2/
+(b) Why are transistors in common-emitter configuration preferred over other configurations
+in amplifier circuits? Explain.
+(c) Describe the three electric vectors⃗E, ⃗P, and ⃗D. Find the relationship among them.
+(d) An electron has a de Broglie wavelength of0.02Å. Find its kinetic energy, phase velocity,
+and group velocity. (Given rest mass energy of electron =511keV).
+(e) Draw the circuit diagram to obtain a clipped signal through: (i) a series diode clipping
+circuit, and (ii) a shunt diode clipping circuit.
+(f) Electrons are accelerated by344V and are reflected by a crystal. If the first maximum
+is observed at60◦, calculate the interplanar spacing of the crystal. (h= 6.62×10−34
+Question 2.
+(a) Describe the electric fields in the spherical cavity of a dielectric. Derive the expression
+of the molecular field inside the spherical cavity and find the relation for the dielectric
+constant in terms of the polarizability. Give the Lorentz-Lorenz equation also.[8]
+(b) If a dielectric is introduced between the plates of a parallel plate capacitor, show that
+the induced chargeσ′varies with dielectric constantkas:
+σ′=σ
+(
+1−1
+k
+)
+Also, show thatk→∞for a metal dielectric. Here,σis the free charge density.[6]
+OR
+(a) Distinguish among electronic, ionic, and orientational polarizability. Explain their
+temperature dependence.[8]
+Page 1 of 3
+--- Page 2 ---
+Banaras Hindu University BPT-401: Electronics and Modern Physics
+(b) A dielectric material has relative permittivityεr = 6. Calculate the electric susceptibility
+χe and the polarization⃗Pwhen subjected to an electric field of104V/m.[6]
+Question 3.
+(a) If the barrier potentialV0 across a p-n junction diode in terms of donor and acceptor
+impurities is given as:
+V0 = kT
+e ln
+(
+NdNa
+n2
+i
+)
+where all the symbols have their usual meanings, show that the width of the depletion
+region decreases with the increase of these impurities.[8]
+(b) Explain the working of a center-tapped full-wave rectifier. How can its output be
+smoothened? Explain with a necessary filter circuit.[6]
+OR
+(a) What is a Zener diode? Explain the working of a Zener diode as a voltage regulator
+with a circuit diagram.[8]
+(b) Compare half-wave and full-wave rectifiers in terms of efficiency, ripple factor, and peak
+inverse voltage.[6]
+Question 4.
+(a) Describe the photoelectric effect. Give an account of Einstein’s explanation of the
+photoelectric effect. The photoelectric threshold wavelength for a metal is3000Å. Find
+the kinetic energy of the electron ejected from it by radiation of wavelength1200Å.[8]
+(b) What is the Compton effect? Obtain an expression for the shift in wavelength of an
+X-ray beam.[6]
+Question 5.
+(a) Draw the circuit diagram to study the output characteristics of a PNP transistor in
+common-emitter mode. Explain the transistor operation in saturation, active, and cut-off
+regions. [5]
+(b) What do you understand by bias stabilization in transistor circuits? Derive the expression
+for the stability factorSin terms of current gainβfor a CE amplifier.[5]
+(c) What is a load line? How can one determine the quiescent point (Q-point) using a load
+line in a CE amplifier? Why is it preferable to choose the operating point in the middle
+of the active region?[4]
+OR
+Page 2 of 3
+--- Page 3 ---
+Banaras Hindu University BPT-401: Electronics and Modern Physics
+(a) Compute the value ofRB in the biasing circuit given below so that the Q-point is fixed
+at IC = 8 mA and VCE = 3 V. Assume VBE = 0.3V, VCC = 9 V, RC = 250 Ω, and
+β= 80. [5]
+(b) Derive the Langevin-Debye equation for the total polarizability of a dielectric.[4]
+(c) State Gauss’s divergence theorem. Verify the divergence theorem for the vector field
+⃗V=x 2⃗i+y 2⃗j+z 2⃗ktaken over the unit cube0≤x,y,z≤1.[5]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 3 of 3
+
+
+=========================================
+FILE: BPT-501_MathematicalPhysics_SemV_2013-14.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-501: Mathematical Physics
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester V Examination, 2013-14
+Paper No. BPT-501: Mathematical Physics
+Time: 3 Hours Maximum Marks: 100
+Instructions: Answer all questions. Symbols have their usual meanings.
+Question 1.Answer anyfiveof the following:[5×4 = 20]
+(a) Evaluate∇r2 in spherical polar coordinates.
+(b) IfA ij is an antisymmetric tensor in a 3D space, then show that:
+(δikaj +a iak)Aik = 0
+(c) Determine whether the following sets of functions are linearly independent:
+(i)sinx,sin 2x,sin 3x
+(ii)sinx,cosx,1
+(d) If xL′′
+n(x) + (1−x)L′
+n(x) + nLn(x) = 0, find the second-order ordinary differential
+equation (2-ODE) satisfied by the functiony(x) = e−x/2Ln(x). Also write down the
+orthogonality relation for Laguerre polynomialsLn(x).
+(e) Given the matrixA =
+
+
+3 2 1
+2 1 1
+1 4 2
+
+, find the trace and determinant ofA−1without
+actually computing the inverse matrixA−1. Outline your method.
+(f) Show thatδ(kx) = 1
+|k|δ(x), whereδ(x)is the Dirac delta function.
+(g) The Hermite polynomialsHn(x)can be obtained from the generating functiong(x,t ) =
+e2xt−t2
+= ∑∞
+n=0
+Hn(x)
+n! tn. Show that:
+∫ ∞
+−∞
+e−x2
+[Hn(x)]2dx= 2 nn!√π
+Question 2.
+(a) Show thatg(x,t ) = (1−2xt +t2)−1/2is the generating function for Legendre polynomials
+Pn(x). [6]
+(b) Consider the Bessel differential equation:
+x2y′′+xy′+ (x2−n2)y= 0
+(i) Identify its singularities. Determine whether they are regular or irregular singular-
+ities.[3]
+Page 1 of 3
+--- Page 2 ---
+Banaras Hindu University BPT-501: Mathematical Physics
+(ii) Solve this differential equation by the Frobenius method forn = 1and n = 0.[8]
+(iii) Explain if a second linearly independent solution can be constructed using this
+method forn= 1.[3]
+Question 3.
+(a) Consider a sphere of radiusR with its center at the origin(0, 0, 0). Draw neatly and
+label the spherical polar unit vectorsˆr, ˆθ, ˆϕat the points(R, 0, 0),(0,R, 0)and(0 , 0,R ),
+which are the points of intersection of the sphere with the right-handed Cartesianx,y,z
+axes. [8]
+(b) In spherical polar coordinates, the gradient of a scalar functionψ(r,θ,ϕ)is given by:
+∇ψ= ˆr∂ψ
+∂r+ ˆθ1
+r
+∂ψ
+∂θ+ ˆϕ 1
+rsinθ
+∂ψ
+∂ϕ
+Show that the Laplacian is:
+∇2ψ= 1
+r2
+∂
+∂r
+(
+r2∂ψ
+∂r
+)
++ 1
+r2 sinθ
+∂
+∂θ
+(
+sinθ∂ψ
+∂θ
+)
++ 1
+r2 sin2θ
+∂2ψ
+∂ϕ2
+[12]
+Question 4.
+(a) Explain the termspolar vectorandaxial vectorwith one physical example of each.[4]
+(b) Express the components of⃗E = ⃗A×⃗B in terms of the Levi-Civita symbolϵijk and the
+components of ⃗Aand ⃗B. Use this tensor notation to verify the vector identity:
+(⃗A×⃗B)·(⃗C×⃗D) = ( ⃗A·⃗C)(⃗B·⃗D)−(⃗A·⃗D)(⃗B·⃗C)
+[8]
+(c) Show that the transpose of a square matrixA (denotedAT) has the same eigenvalues as
+the matrixA.[8]
+OR
+(a) Determine the eigenvalues and normalized eigenvectors of the matrixA:
+A=
+(
+1−i
+i3
+)
+[8]
+(b) Suppose R = (aij)is an orthogonal matrix that rotates the vector⃗ rto ⃗ r′(so that
+x′
+i =aijxj). From the invariance of the square of the length of the vector, derive the
+orthogonality condition:
+3∑
+k=1
+aikajk =δij fori,j= 1,2,3
+[6]
+Page 2 of 3
+--- Page 3 ---
+Banaras Hindu University BPT-501: Mathematical Physics
+(c) How are the covariant and contravariant components of a vector related? A covariant
+tensor of rank 1 has componentsxy,(y2−z2), andx in rectangular Cartesian coordinates.
+Determine its components in spherical polar coordinates.[6]
+Question 5.
+(a) Consider the periodic functionf(t)with periodT= 4:
+f(t) =
+
+
+
+0,−2<t<−1
+h,−1<t<1
+0,1<t<2
+withh>0.
+(i) Make a neat sketch of this function.[2]
+(ii) Find the Fourier series expansion off(t).[5]
+(iii) Determine the values off (t)at t = 0and t = 1as given by the Fourier series.[3]
+(b) Legendre’s differential equation(1−x2)y′′−2xy′+n(n + 1)y = 0has a regular solution
+Pn(x)and a linearly independent irregular solutionQn(x). Show that their Wronskian
+is:
+W(x) =P n(x)Q′
+n(x)−Qn(x)P′
+n(x) = An
+1−x2
+whereA n is a constant independent ofx.[10]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 3 of 3
+
+
+=========================================
+FILE: BPT-501_MathematicalPhysics_SemV_2016-17.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-501: Mathematical Physics
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester V Examination, 2016-17
+Paper No. BPT-501: Mathematical Physics
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answer all questions. Symbols have their usual meanings.
+Question 1.Answer anyfiveof the following:[5×4 = 20]
+(a) Find the magnetic induction⃗B (in spherical polar coordinates), given the magnetic
+vector potential⃗A = ⃗ m×⃗ r
+r3 = msinθ
+r2 ˆϕ, where⃗ m=mˆzis a vector of constant magnitude
+pointing in thez-direction.
+(b) What are covariant and contravariant vectors? Explain each with a physical example.
+(c) IfAis a nonsingular symmetric matrix, show thatA2 is also symmetric.
+(d) Evaluate∇2(1/r). What happens at the origin? Explain.
+(e) Find the Fourier series of the functionf(x) = sin2(x)in the interval−π≤x≤π.
+(f) Normalize the Laguerre polynomialL2(x) = 1−2x + x2
+2 in the range[0,∞)with weight
+function e−x. Construct a second-order, ordinary, linear, homogeneous differential
+equation (2-ODE) that is satisfied by this polynomial.
+Question 2.
+(a) Verify the following tensor relations inR3 using Levi-Civita symbols and Kronecker
+deltas:
+(i)ϵipqϵipq = 6
+(ii)ϵijkϵpqk =δipδjq−δiqδjp
+[6]
+(b) Write down the spherical polar unit vectors in terms of Cartesian unit vectors. Using
+these, calculate the partial derivatives ofˆr,ˆθ,ˆϕwith respect tor,θ,ϕ.[8]
+OR
+(a) Determine the circular cylindrical coordinate components of velocity and acceleration of
+a moving particle with position vector⃗ r(t).[8]
+(b) Given a vector in spherical polar coordinates:
+⃗F= 2Pcosθ
+r3 ˆr+Psinθ
+r3
+ˆθ
+express it in Cartesian coordinates. If⃗F represents a force field, does a potential function
+exist? If so, find it. Describe a physical system where this field arises.[6]
+Page 1 of 3
+--- Page 2 ---
+Banaras Hindu University BPT-501: Mathematical Physics
+Question 3.
+(a) Given thatJ1/2(x) =
+√
+2
+πxsinx is one solution of the Bessel equation of order1/2, find
+a second linearly independent solution (up to a constant multiplier).[6]
+(b) Given the generating functiong(x,t ) = e2xt−t2
+= ∑∞
+n=0
+Hn(x)
+n! tn for Hermite polynomials,
+show that: ∫ ∞
+−∞
+e−x2
+[Hn(x)]2dx= 2 nn!√π
+[8]
+OR
+(a) Using the generating functiong(x,t ) = (1−2xt +t2)−1/2= ∑∞
+n=0Pn(x)tn,(|t|<1)for
+Legendre polynomials, show that:
+P′
+n+1(x)−P′
+n−1(x) = (2n+ 1)P n(x)
+where the prime symbol′denotes the derivative with respect tox.[6]
+(b) Solve Legendre’s differential equation(1−x2)y′′−2xy′+n(n + 1)y = 0using the
+Frobenius series method about the ordinary pointx = 0. Show that whenn is an integer,
+one of the solutions terminates to form a polynomial.[8]
+Question 4.
+(a) By expressing the vector cross products in terms of the Levi-Civita symbols (ϵijk), verify
+the vector identity:
+(⃗A×⃗B)·(⃗C×⃗D) = ( ⃗A·⃗C)(⃗B·⃗D)−(⃗A·⃗D)(⃗B·⃗C)
+[6]
+(b) Find the eigenvalues and normalized eigenvectors of the matrixA:
+A=
+
+
+1 0 0
+0 1−
+√
+2
+0−
+√
+2 0
+
+
+How are these related to the eigenvalues and eigenvectors ofA−1?[8]
+Question 5.
+(a) Sketch a periodic square wave functionf (x)with period T = 2and amplitude A = 1
+which is also an even function (such thatf (x) = 1for −0.5<x< 0.5, andf (x) = 0for
+0.5<|x|<1.0). Find the Fourier series for this periodic function.[8]
+Page 2 of 3
+--- Page 3 ---
+Banaras Hindu University BPT-501: Mathematical Physics
+(b) The transformation relation between the unit vectors in circular cylindrical coordinates
+and Cartesian coordinates can be written as:
+
+
+ˆρ
+ˆϕ
+ˆz
+
+ =C
+
+
+ˆi
+ˆj
+ˆk
+
+
+Write down the matrixCexplicitly and prove that it is orthogonal.[6]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 3 of 3
+
+
+=========================================
+FILE: BPT-501_MathematicalPhysics_SemV_2022-23.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-501: Mathematical Physics
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester V Examination, 2022-23
+Paper No. BPT-501: Mathematical Physics
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answer all questions. Symbols have their usual meanings.
+Question 1.Answer anyfourof the following:[4×5 = 20]
+(a) A conducting wire along thez-axis carries a steady currentI. The resulting magnetic
+vector potential is given by:
+⃗A= ˆzµ0I
+2πln
+(r0
+r
+)
+Find the magnetic induction vector⃗Bin coordinates appropriate to the geometry.
+(b) The distance squareds2 between two neighboring points in a 3D space is given in
+curvilinear coordinates by ds2 = gijdxidxj. Show that the metric coefficients gij
+transform as a covariant tensor of rank 2.
+(c) IfAis a nonsingular symmetric matrix, show thatA−1is also symmetric.
+(d) From the Euler integral definition of the Gamma functionΓ(z) =
+∫∞
+0 e−ttz−1dt, show
+that:
+(i)Γ(z+ 1) =zΓ(z)
+(ii) Γ(z) = 2
+∫∞
+0 e−t2
+t2z−1dt. State the condition imposed onz for the validity of this
+integral.
+(e) Find the Fourier series of the functionf(x) = |sin(x)|in the interval−π < x < π.
+Comment on the nature of convergence of the series.
+Question 2.
+(a) Normalize the Laguerre polynomialL2(x) = 1−2x + x2
+2 in the range[0,∞)with weight
+function e−x. Construct a second-order, ordinary, linear, homogeneous differential
+equation (2-ODE) that is satisfied by this polynomial.[6]
+(b) Verify the following relations inR3 using Levi-Civita symbols:
+(i)ϵipqϵipq = 6
+(ii)ϵijkϵpqk =δipδjq−δiqδjp
+[8]
+OR
+(a) Write down the spherical polar unit vectors in terms of Cartesian unit vectors. Using
+these, calculate all the partial derivatives ofˆr,ˆθ,ˆϕwith respect tor,θ,ϕ.[8]
+Page 1 of 3
+--- Page 2 ---
+Banaras Hindu University BPT-501: Mathematical Physics
+(b) Given a force vector in spherical polar coordinates:
+⃗F= 2Pcosθ
+r3 ˆr+Psinθ
+r3
+ˆθ
+express it in Cartesian coordinates. Does a potential function exist for this force? If so,
+find it. Provide an example of a physics problem in which the above expression occurs.
+[6]
+Question 3.
+(a) Show that the Bessel function J1/2(x) =
+√
+2
+πxsinx satisfies the Bessel differential
+equation:
+x2y′′+xy′+
+(
+x2−1
+4
+)
+y= 0
+Find a second linearly independent solution of this equation.[7]
+(b) Given the generating functiong(x,t ) =e2xt−t2
+=∑∞
+n=0
+Hn(x)
+n! tn for Hermite polynomials,
+obtain the Rodrigues representation:
+Hn(x) = (−1)nex2 dn
+dxn
+(
+e−x2)
+[7]
+OR
+(a) Using the generating functiong(x,t ) = (1−2xt +t2)−1/2=∑∞
+n=0Pn(x)tn,(|t|<1)for
+Legendre polynomials, show that:
+(n+ 1)Pn+1(x) = (2n+ 1)xPn(x)−nPn−1(x)
+[6]
+(b) Solve(1 −x2)y′′−2xy′+ 12y = 0by the Frobenius series solution method aboutx = 0,
+and obtain two independent solutions.[8]
+Question 4.
+(a) By expressing the vector cross products in terms of the Levi-Civita symbols (ϵijk), verify
+the vector identity:
+⃗A×(⃗B×⃗C) = (⃗A·⃗C)⃗B−(⃗A·⃗B)⃗C
+[6]
+(b) Find the eigenvalues and normalized eigenvectors of the matrixA:
+A=
+
+
+4−1−1
+−1 4−1
+−1−1 4
+
+
+How are these related to the eigenvalues and eigenvectors ofA2?[8]
+Page 2 of 3
+--- Page 3 ---
+Banaras Hindu University BPT-501: Mathematical Physics
+Question 5.
+(a) Find the Fourier series expansion of the periodic functionf(x) = x2 in the interval
+−π < x < π. Comment on the nature of convergence of the series. Using this series,
+show that:
+(i) ∑∞
+n=1
+1
+n2 = π2
+6
+(ii) ∑∞
+n=1
+(−1)n+1
+n2 = π2
+12
+[9]
+(b) Provide one example each, with a brief explanation, of physics problems in which
+the following special functions and distributions occur: Legendre polynomials, Bessel
+functions, Hermite polynomials, Laguerre polynomials, Gamma function, and Dirac
+delta function.[5]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 3 of 3
+
+
+=========================================
+FILE: BPT-502_ClassicalMechanics_SemV_2013-14.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-502: Classical Mechanics
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester V Examination, 2013-14
+Paper No. BPT-502: Classical Mechanics
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answer all questions. Symbols have their usual meanings.
+Question 1.Answer anyfourof the following:[4×5 = 20]
+(a) What is the meaning of constraints? Classify different types of constraints and give at
+least one example of each.
+(b) The Lagrangian of a two-dimensional system is given by:
+L(x,y,˙x,˙y) =1
+2m( ˙x2 + ˙y2)−kxy+1
+2k1(x2 +y 2)
+Obtain the Hamiltonian of the system.
+(c) Show that the angular momentum of a particle moving under the influence of a central
+force is always conserved. What is a cyclic coordinate?
+(d) Construct the Hamiltonian of a system consisting of an electron and a proton. Obtain
+the canonical equations of motion for both particles.
+(e) Write down the Hamilton-Jacobi equation for a simple harmonic oscillator. Find the
+solution of this equation.
+(f) Calculate the Poisson bracket{⃗ p2,⃗ r}.
+Question 2.
+(a) Construct the Lagrangian of a simple pendulum of massm connected to a string of
+lengthl. [4]
+(b) How will the Lagrangian change if the string is replaced by a spring of spring constantk
+and unstretched lengthl0?[4]
+(c) Obtain the Euler-Lagrange equations of motion for both of the above cases.[6]
+Question 3.
+(a) State and explain the virial theorem. Show that the time average kinetic energy⟨T⟩
+and time average potential energy⟨V⟩of a conservative system with a potentialV (⃗ r)
+which is a homogeneous function of coordinates of degreensatisfy:
+⟨T⟩=n
+2⟨V⟩
+[5]
+Page 1 of 3
+--- Page 2 ---
+Banaras Hindu University BPT-502: Classical Mechanics
+(b) The Lagrangian for a particle of chargeq moving in an electromagnetic field described
+by scalar potentialϕ(x,y,z,t)and vector potential ⃗A(x,y,z,t)is given by:
+L=T−qϕ+q
+c⃗ v·⃗A
+whereT= 1
+2m⃗ v2.
+(i) Find the equations of motion for the particle and obtain the Lorentz force law.[5]
+(ii) Calculate the Hamiltonian of this particle.[4]
+Question 4.
+(a) A particle of massm is moving on a plane under an attractive central force given by
+F (r) = −α
+r2 (where α >0). Find the condition for the particle to move in a stable
+circular orbit.[7]
+(b) A particle moves on a curver2 =acos (2θ)under the influence of a central force. Find
+the force law and show that the areal velocity of the particle is conserved.[7]
+OR
+(a) What is the meaning of the isotropy of space? Obtain the conservation law that arises
+from it. [5]
+(b) Show that ifF (qi,pi,t )and G(qi,pi,t )are two integrals of motion, then their Poisson
+bracket{F,G}is also an integral of motion.[5]
+(c) Discuss the principle of mechanical similarity.[4]
+Question 5.
+(a) Determine the values of constantsαandβso that the equations:
+Q=q αcos(βp), P=q αsin(βp)
+represent a canonical transformation.[4]
+(b) Find a suitable generating function for this canonical transformation.[4]
+(c) Show that the fundamental Poisson brackets are invariant under canonical transforma-
+tions. [6]
+OR
+(a) What is virtual work? State and explain D’Alembert’s principle. Compare the equations
+of motion obtained from D’Alembert’s principle with those from Hamilton’s principle.
+[7]
+(b) What is meant by a Legendre transformation? Show how it can be used to generate
+thermodynamic potentials. Derive Hamilton’s equations of motion.[7]
+Page 2 of 3
+--- Page 3 ---
+Banaras Hindu University BPT-502: Classical Mechanics
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 3 of 3
+
+
+=========================================
+FILE: BPT-502_ClassicalMechanics_SemV_2016-17.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-502: Classical Mechanics
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester V Examination, 2016-17
+Paper No. BPT-502: Classical Mechanics
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answer all questions. Symbols have their usual meanings.
+Question 1.Answer anyfourof the following:[4×5 = 20]
+(a) How many generalized/quasi-generalized coordinates are required to describe the follow-
+ing systems?
+(i) A rigid body in 3 dimensions.
+(ii) A solid sphere rolling without slipping on an inclined plane.
+(iii) A spherical pendulum in 3 dimensions.
+(b) What is isotropy of space? Prove that the conservation law of angular momentum follows
+from it.
+(c) A particle moving in a central force field located atr = 0describes a spiral orbitr =aθ.
+Find the force law.
+(d) The Lagrangian of a system is given by:
+L= 1
+2m ˙⃗ r2 + ˙⃗ r·(⃗ a×⃗ r) +V(⃗ r)
+where⃗ ais an arbitrary vector depending on time only. Find the equations of motion for
+the system.
+(e) A particle is constrained to move on the surface of a cylinderx2 +y2 = R2 and is
+subjected to a force directed towards the origin and proportional to the distance of
+the particle from the origin. Find the equations of motion for the particle using the
+Lagrange multiplier method.
+Question 2.
+(a) Consider a particle of massm free to slide on a smooth helical wire whose equations in
+cylindrical coordinates are given byρ=R,z=kθ.
+(i) Construct the Lagrangian of the system.[4]
+(ii) Find the equation of motion and solve it to discuss the motion of the particle (if
+it is released at rest atρ=R,z=z0,θ=θ0).[5]
+(iii) Construct the Hamiltonian of the system and find the canonical equations of
+motion.[5]
+OR
+Page 1 of 3
+--- Page 2 ---
+Banaras Hindu University BPT-502: Classical Mechanics
+(a) Show that the Lorentz force on a charged particle in an electromagnetic field can be
+obtained from a velocity-dependent potentialU=qϕ−q
+c⃗ v·⃗A.[5]
+(b) Write the Lagrangian of a charged particle in the electromagnetic field using this potential.
+[4]
+(c) Write down the Hamiltonian for a system consisting of an electron, a proton, and a
+neutron. How will the Hamiltonian be modified in the presence of a uniform magnetic
+field ⃗B=B 0(ˆi+ 2 ˆj)?[5]
+Question 3.
+(a) A particle of massmis moving on a plane under an attractive central force given by:
+F(r) =−α
+r2−β
+r3, α,β >0
+(i) Find the effective potential for this system.[3]
+(ii) Discuss the motion of the particle qualitatively for various total energy values of
+the particle.[4]
+(iii) Show that the angular momentum of the particle is conserved.[3]
+(iv) Show that the position vector of the particle sweeps out equal areas in equal times.
+[4]
+Question 4.
+(a) Define canonical transformation. How is it useful?[4]
+(b) For what values ofαandβis the transformation:
+Q=q αcos(βp), P=q αsin(βp)
+canonical?[4]
+(c) Find a suitable generating function for this canonical transformation.[6]
+OR
+(a) Express the HamiltonianH = p2
+2m + 1
+2mω2q2 in terms ofQ,P by using a canonical
+transformation generated byF1(q,Q) = 1
+2mωq2 cotQ.[7]
+(b) Calculate the Poisson brackets:
+{Lx,x},{Lx,py},and{(⃗ r×⃗ p)z,z}
+[7]
+Question 5.
+Page 2 of 3
+--- Page 3 ---
+Banaras Hindu University BPT-502: Classical Mechanics
+(a) Show that ifA and B are two constants of motion, then their Poisson bracket{A,B}is
+also a constant of motion.[6]
+(b) State and prove the virial theorem.[8]
+OR
+(a) A particle of massm is falling freely from a heighth. Find the solution for the particle
+using the Hamilton-Jacobi equation.[7]
+(b) Discuss the idea of mechanical similarity. Use this to show that the time of fall for a
+freely falling body is proportional to the square root of its initial height.[7]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 3 of 3
+
+
+=========================================
+FILE: BPT-502_ClassicalMechanics_SemV_2022-23.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-502: Classical Mechanics
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester V Examination, 2022-23
+Paper No. BPT-502: Classical Mechanics
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answer all questions. Symbols have their usual meanings.
+Question 1.Answer anyfourof the following:[4×5 = 20]
+(a) Define non-holonomic constraints with examples. Show that the constraints of a rigid
+body are of holonomic type.
+(b) The Lagrangian of a system withNdegrees of freedom is given by:
+L(qi,˙qi) = 1
+2
+N∑
+i=1
+mi ˙q2
+i−
+N∑
+i,j=1
+kij(qi−qj)2
+Find the equations of motion for the system, wherei= 1,2,...,N.
+(c) The Hamiltonian of a system is given by:
+H(q,p) = p2
+2α+ kq2
+2 e−αt−βqpe−αt
+whereα,β,kare constants. Find the Lagrangian of the system.
+(d) Find five different vector potentials⃗A which produce the same uniform magnetic field
+⃗B= 2 ˆi+ 3 ˆj+ 5 ˆk.
+(e) Find the central force that will cause a point particle of massm to describe a circular
+orbit passing through the center of force.
+Question 2.
+(a) A particle of massm is constrained to move on the surface of a cylinderx2 +y2 =R2.
+The particle is subjected to a force directed towards the origin and proportional to the
+distance of the particle from the origin. Construct the Lagrangian of the system.[7]
+(b) What is meant byhomogeneity of space? Derive the conservation law that follows from
+it. [7]
+Question 3.
+(a) A particle of massm is sliding on a smooth wire whose equation in cylindrical coordinates
+is given byρ= (z +aθ)2, z =b, wherea,b are constants. Find the equation of motion
+for the particle using the Lagrange multiplier method.[8]
+Page 1 of 3
+--- Page 2 ---
+Banaras Hindu University BPT-502: Classical Mechanics
+(b) Write down the Lagrangian of a charged particle in an electromagnetic field. Construct
+the Hamiltonian for the system and hence obtain the canonical equations of motion.[6]
+OR
+(a) A particle of massmis moving on a plane under an attractive central force given by:
+F(r) =−α
+r2−β
+r3, α,β >0
+(i) Find the effective potential for this system and plot it approximately.[4]
+(ii) Discuss the motion of the particle qualitatively for various total energy values of
+the particle.[4]
+(iii) Show that the angular momentum of the particle is conserved.[3]
+(iv) Show that the position vector of the particle sweeps out equal areas in equal times.
+[3]
+Question 4.
+(a) Definecanonicaltransformation. Constructallpossiblegeneratingfunctions( F1,F 2,F 3,F 4)
+for the canonical transformation:
+Q= 1
+p, P=qp 2
+[7]
+(b) Calculate the Poisson bracket{vi,vj}, where vi and vj represent the i-th and j-th
+components of velocity of a charged particle in the magnetic field⃗B.[7]
+OR
+(a) Define normal coordinates and normal frequencies of an oscillating system. Find the
+normal modes in the vibration of a CO2 molecule, by considering a linear model of three
+massesO−C−O. What is the physical meaning of zero normal frequency?[9]
+(b) A particle of unit mass moves under a one-dimensional potential:
+V(x) =x 4−2x2 + 7
+Find the frequencies of small oscillations about the stable equilibrium positions of the
+mass. [5]
+Question 5.
+(a) In a dynamical system with two degrees of freedom, the Lagrangian is given by:
+L= ˙q2
+1 + ˙q2
+2
+2(a+bq 2)−(cq2
+1 +dq 2
+2)
+wherea,b,c,dare constants. Deduce the existence of a constant of motion.[6]
+Page 2 of 3
+--- Page 3 ---
+Banaras Hindu University BPT-502: Classical Mechanics
+(b) Consider a simple harmonic oscillator in one dimension with angular frequencyω. Show
+that the quantity:
+u(q,p,t) = ln(p+imωq)−iωt
+is a constant of motion.[6]
+(c) Find a suitable scaling under which the dynamics of the system described by:
+L( ˙q1,˙q2,q 1,q 2) = ˙q2
+1 + ˙q2
+2 + 5 ˙q1 ˙q2−3q2
+1−5q2
+2−11q1q2
+remains invariant.[8]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 3 of 3
+
+
+=========================================
+FILE: BPT-503_QuantumMechanics_SemV_2013-14.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-503: Quantum Mechanics
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester V Examination, 2013-14
+Paper No. BPT-503: Quantum Mechanics
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answer all questions. Symbols have their usual meanings.
+Question 1.Answer anyfourof the following:[4×5 = 20]
+(a) Find the de Broglie wavelength associated with:
+(i) an electron accelerated through a potential difference of10MV.
+(ii) a proton having a kinetic energy of10MeV.
+(Take rest mass energy of electron =0.51MeV and rest mass energy of proton =
+938MeV).
+(b) Using the uncertainty relation, explain why electrons cannot exist inside the nucleus.
+(c) What are stationary states? Explain with reference to the time-dependent and time-
+independent Schrödinger equations.
+(d) Prove the statement: “commuting observables have simultaneous eigenstates”.
+(e) Evaluate the following commutation relations:
+(i)[L x,y]
+(ii)[L z,px]
+(f) Find the most probable value of the radial distancer of the electron in the ground state
+of the Hydrogen atom.
+Question 2.
+(a) Describe the difference between phase velocity and group velocity for a wave packet.[4]
+(b) A particle is constrained to move in a potential of the form:
+V(x) =
+{
+0,0<x<a
+∞,otherwise
+Obtain the values of energyE and corresponding normalized eigenfunctions. Show that
+the eigenfunctions are mutually orthogonal. Is there any acceptable physical solution
+withE= 0orE <0? Justify your answer.[10]
+Question 3.
+Page 1 of 3
+--- Page 2 ---
+Banaras Hindu University BPT-503: Quantum Mechanics
+(a) Describe the Davisson-Germer experiment to demonstrate the wave nature of the electron.
+[4]
+(b) If a particle having energyE >0is incident from the left upon a one-dimensional square
+potential well defined as:
+V(x) =
+{
+−V0,−a<x<a
+0,otherwise
+find the transmission coefficientT and plot its variation qualitatively as a function of
+the ratioE/V 0.[10]
+OR
+(a) Using the Schwarz inequality, give the mathematical proof of the uncertainty relation
+for canonically conjugate pairs.[6]
+(b) Find the wave functionψ(x), which is the Fourier transform ofϕ(k), for a wave packet
+whose amplitude functionϕ(k)varies as:
+ϕ(k) =
+{
+g0,−K0<k<K 0
+0,otherwise
+Calculate the probability of finding the particle in the region−π
+K0
+<x< π
+K0
+.[8]
+Question 4.
+(a) What is the difficulty in normalizing a free particle wave function? How is the concept
+of a wave packet used to resolve this difficulty?[5]
+(b) Find the uncertainty in position and momentum for the Gaussian wave packetψ(x) =
+Ae−ax2
+. How does it obey the Heisenberg uncertainty relation?[9]
+OR
+(a) The solution of the Schrödinger equation for a free particle in one dimension is of the
+form:
+ψ(x) =Asin(kx) +Bcos(kx)
+whereAandBare complex constants.
+(i) Calculate the probability current density for this wave function.[4]
+(ii) Find the relation between the coefficientsA and B, ifψ(x)is an eigenfunction of
+the momentum operator.[4]
+(b) Show that the Harmonic Oscillator Hamiltonian can be written as:
+H=ℏω
+(
+a†a+ 1
+2
+)
+in terms of the lowering and raising operators:
+a=
+√mω
+2ℏ
+(
+x+ ip
+mω
+)
+, a †=
+√mω
+2ℏ
+(
+x−ip
+mω
+)
+Page 2 of 3
+--- Page 3 ---
+Banaras Hindu University BPT-503: Quantum Mechanics
+Workouttheactionoftheoperators aanda†ontheenergyeigenstatesoftheHamiltonian.
+[6]
+Question 5.
+(a) The functionf (θ,ϕ)is an eigenfunction of the operatorLz with eigenvaluemℏ, such that
+L+f (θ,ϕ) = 0. Find the eigenvalue of the operatorL2 acting on the functionf (θ,ϕ).[6]
+(b) The radial part of the wave function in the first excited state of the Hydrogen atom (2p,
+l= 1,m= 0) is given by:
+R21(r) =Cre −r/2a
+where a is the Bohr radius. Find the normalization constantC and the most probable
+distance of the electron from the origin.[8]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 3 of 3
+
+
+=========================================
+FILE: BPT-503_QuantumMechanics_SemV_2016-17.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-503: Quantum Mechanics
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester V Examination, 2016-17
+Paper No. BPT-503: Quantum Mechanics
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answer all questions. Symbols have their usual meanings.
+Question 1.Answer anyfourof the following:[4×4 = 16]
+(a) An X-ray photon of wavelength1.01Å is scattered off a stationary electron at ninety
+degrees to the direction of incidence. Find the wavelength of the scattered photon and
+the recoil angle of the electron.
+(b) Given four operatorsA, B, C, andD, find which of these fulfill the condition of being a
+linear operator. Given:
+Af(x) =f(x) +b;Bg(x) = [g(x)] 2;Ch(x) =ch(x);Dy(x) = dy(x)
+dx
+wheref(x),g(x),h(x),y(x)are functions andb,care constants.
+(c) Find the result of the following commutator brackets:
+(i)[L 2,L x]
+(ii)[x,L y]
+(d) What do you understand by the momentum operator? Does it commute with the
+Hamiltonian operator for a free particle? Explain briefly.
+(e) Find the de Broglie wavelength of: (i) a proton of kinetic energy1MeV, and (ii) an
+electron of kinetic energy1MeV.
+Question 2.
+(a) A particle of energyE is incident on a rectangular potential barrier of widtha and
+heightU:
+V(x) =
+{
+U,0<x<a
+0, x<0andx>a
+If the energyE <U, solve the Schrödinger equation with appropriate boundary condi-
+tions to get the reflection coefficientRand transmission coefficientT.[7.5]
+(b) How do you explain the presence of the particle in the classically forbidden region? Give
+two examples from physics where you can observe this tunneling phenomenon.[6.5]
+Question 3.
+Page 1 of 3
+--- Page 2 ---
+Banaras Hindu University BPT-503: Quantum Mechanics
+(a) The potential energy function of a linear harmonic oscillator (LHO) isV (x) = 1
+2kx2. Is
+this a problem where defining the parity operator is useful? Prove that the eigenvalues
+of the parity operator are good quantum numbers.[4]
+(b) Find the ground state wave function for the LHO by using the lowering operatora−:
+a−= 1√
+2ℏmω
+(mωx+ip)
+Normalize the wave function obtained.[6]
+(c) Find the expectation value of the position operatorxfor the ground state.[4]
+Question 4.
+(a) Write the time-independent Schrödinger equation for the Hydrogen atom in spherical
+polar coordinates and carry out the separation of variables. Solve the radial equation and
+find the expression for the energy eigenvalues. Explain the significance of the quantum
+numbersn,l, andm.[10.5]
+(b) Normalize the ground state wave function for the Hydrogen atom:
+ψ(r,θ,ϕ) =Ne−r/a
+whereais the Bohr radius.[3.5]
+OR
+(a) Given the amplitude function ink-space:
+A(k) =
+{
+A0,−K <k<K
+0,otherwise
+whereA 0 is a constant. Find the Fourier transform ofA(k)defined as:
+ψ(x) = 1√
+2π
+∫ ∞
+−∞
+eikxA(k)dk
+Sketch the wavepacketψ(x)so obtained. If∆ k is the width ofA(k)and∆ x is the width
+of the wavepacket, then find and interpret the product∆k∆x.[7]
+(b) What do you understand by commutativity and compatibility of operators? Explain
+briefly. [2]
+(c) Derive the uncertainty relation between two non-commuting operatorsA andB. Deduce
+the minimum uncertainty product.[5]
+Question 5.
+(a) What do you understand by wave-particle duality of matter? Name two experiments
+that illustrate this duality.[3]
+Page 2 of 3
+--- Page 3 ---
+Banaras Hindu University BPT-503: Quantum Mechanics
+(b) Describe the experiment first performed by Davisson and Germer to show electron
+diffraction.[5]
+(c) If an electron is perfectly confined to move in a 1D box of lengthL (potential V (x) = 0
+for0 < x < L, andV (x) =∞otherwise), find the set of possible energy values the
+electron may have. Also find the ground state and first excited state wave functions for
+the electron in the box. Normalize these wave functions.[6]
+(d) GivenL = 1Å, find the lowest possible energy the electron might have in eV units.[2]
+OR
+(a) Use the angular momentum ladder operatorsL+ andL−and the commutation relations
+to find the eigenvalues of the operatorsL2 andL z.[7]
+(b) Given the normalized wave function for the1sstate of the Hydrogen atom:
+ψ100(r) = 1√
+πa3e−r/a
+whereais the Bohr radius, find:
+(i) the most probable distance of the electron from the origin.[3.5]
+(ii) the expectation value of the operatorr.[3.5]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 3 of 3
+
+
+=========================================
+FILE: BPT-503_QuantumMechanics_SemV_2022-23.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-503: Quantum Mechanics
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester V Examination, 2022-23
+Paper No. BPT-503: Quantum Mechanics
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answer all questions. Symbols have their usual meanings.
+Question 1.Answer anyfiveof the following:[5×4 = 20]
+(a) Is it possible to perform the Compton effect experiment using visible light? Explain.
+(b) What is the length of a 1D infinite square well box in which an electron in the ground
+(n= 1) state has the same energy as a photon of wavelength600nm?
+(c) Show that for a relativistic particle of rest energyE0, the de Broglie wavelength is given
+by:
+λ= hc
+E0
+√
+γ2−1= hc
+E0βγ
+whereβ=v/candγ= 1/
+√
+1−β2.
+(d) Atoms are in two excited states with energiesE1 and E2 such that∆ E =|E1−E2|.
+These atoms return to the ground state by emitting photons. Show that the difference
+in the emitted wavelengths is:
+∆λ≈λ2
+hc∆E
+(e) Using the uncertainty principle, estimate the ground state energy of a one-dimensional
+linear harmonic oscillator described byH= p2
+2m + 1
+2mω2x2.
+(f) If⟨T⟩and⟨V⟩are the expectation values of the kinetic and potential energy operators
+for the wave functionψ(x), find the new expectation values of these operators if the
+wave function undergoes scaling toψ(αx), whereαis a real constant.
+(g) The normalized wave functionsψ1 and ψ2 correspond to the ground state and first
+excited state of a particle in a potential. If the operatorA acts such thatAψ1 =ψ2 and
+Aψ2 =ψ1, find the expectation value of the operatorAfor the stateΨ = 3ψ1+4ψ2
+5 .
+Question 2.For a particle of massm in a one-dimensional infinite potential box of lengthL
+(extending fromx= 0tox=L):
+(a) Find the wave functions and energy eigenvalues of the ground and the first excited states.
+[6.5]
+(b) Sketch the wave functions and probability densities for the ground and the first excited
+states. [5.5]
+Question 3.
+Page 1 of 3
+--- Page 2 ---
+Banaras Hindu University BPT-503: Quantum Mechanics
+(a) Normalize the wave functionψ(x,t ) = Ne−λ|x|e−iEt/ℏand determine the expectation
+values ofxandx 2.[6]
+(b) Show that the energy eigenvalueE must be greater than the minimum value of the po-
+tentialV (x)for any normalizable solution of the time-independent Schrödinger equation.
+[4]
+(c) Show that Planck’s constanthhas the same unit as angular momentum.[4]
+OR
+(a) The ground state wave function of an electron in a hydrogen atom is:
+ψ0(r) = 1√
+πa3
+0
+e−r/a0
+wherea 0 is the Bohr radius.
+(i) Show that the wave function is normalized.[4]
+(ii) Find the probability of finding the electron betweenr1 =a0/2and r2 = 3a0/2.[5]
+(iii) Determine the uncertainty in the radial position of the electron in the ground
+state. Use the expectation value⟨r⟩= 3a0/2and⟨r2⟩= 3a2
+0.[5]
+Question 4.
+(a) The first excited state of a particle in a linear harmonic oscillator is given by:
+ψ1(x) =
+(mω
+πℏ
+)1/4√
+2mω
+ℏ xe−mωx2/2ℏ
+Calculate the ground state wave function by applying the lowering operatora−.[9]
+(Hint:a −= 1√
+2mℏω(ip+mωx))
+(b) Let ⃗L and ⃗ pbe the angular and linear momentum operators, respectively, for a particle.
+Evaluate the commutation relations[Lz,py]and[x 2,p 2
+x].[5]
+Question 5.
+(a) A particle of massm is contained in a one-dimensional infinite well extending from
+x =−L/2to x =L/2. The particle is in its ground state given byψ0(x) =
+√
+2
+L cos
+(πx
+L
+)
+.
+The walls of the box are moved suddenly to form a box extending fromx =−Ltox =L.
+What is the probability that the particle will be in the ground state of the new box after
+this sudden expansion?[7]
+(b) Show that the angular momentum operatorsL2 and Lz commute. Prove that these
+operators share the same eigenstates.[7]
+OR
+Page 2 of 3
+--- Page 3 ---
+Banaras Hindu University BPT-503: Quantum Mechanics
+(a) Write down the Schrödinger equation for a linear harmonic oscillator and solve it using
+power series method to obtain the eigenvalues and eigenfunctions.[14]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 3 of 3
+
+
+=========================================
+FILE: BPT-504_ElectronicDevicesandCircuits_SemV_2013-14.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-504: Electronic Devices and Circuits
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester V Examination, 2013-14
+Paper No. BPT-504: Electronic Devices and Circuits
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answer all questions. Symbols have their usual meanings.
+Question 1.Answer in brief anyfiveof the following:[5×4 = 20]
+(a) What do you mean by the intrinsic standoff ratio (η) of a UJT? If the interbase resistance
+RBB = 8kΩand the base-1 resistanceR B1 = 4.8kΩ, find the value ofη.
+(b) An amplifier with a voltage gain ofAv = − 1000has a gain change of20%due to
+temperature change. Calculate the percentage change in gain of the feedback amplifier
+if a negative feedback fraction ofβ=−0.1is incorporated.
+(c) Differentiate among class A, class B, and class C amplifiers on the basis of their operating
+points and maximum theoretical efficiencies.
+(d) What is the main difference between oscillators and multivibrators? Draw the circuit
+diagram of a BJT-based astable multivibrator.
+(e) Give the truth table and Boolean expression for a XOR gate and implement it using
+NAND gates only.
+(f) Draw the circuit diagram of an envelope detector demodulator for an amplitude-
+modulated (AM) wave and explain its working qualitatively.
+Question 2.
+(a) Explain the construction, working, and characteristic curves of an enhancement-type
+MOSFET. How does it differ from a JFET? What is the significance of the threshold
+voltage (VT) in an enhancement mode MOSFET?[7]
+(b) Draw the circuit diagram of a non-inverting amplifier using an OP-AMP and derive the
+expression for its closed-loop voltage gain. How will you modify this circuit to act as a
+voltage follower?[7]
+Question 3.
+(a) Draw the hybrid model (h-parameter) equivalent circuit of a BJT in common-emitter
+(CE) configuration. Derive the expressions for its voltage gain, current gain, input
+impedance, and output admittance.[7]
+(b) Explain the working of a Silicon Controlled Rectifier (SCR) with the help of a two-
+transistor equivalent circuit. Explain why it is preferred to use silicon instead of
+germanium to construct a controlled rectifier.[7]
+Page 1 of 3
+--- Page 2 ---
+Banaras Hindu University BPT-504: Electronic Devices and Circuits
+OR
+(a) Explain in brief the high-frequency hybrid-πmodel of a CE BJT amplifier and discuss
+its advantages.[5]
+(b) Refer to the basic common-base BJT amplifier configuration. The h-parameter values
+for the transistor are:
+hib = 40 Ω, h rb = 3×10 −4, h f b =−0.99, h ob = 0.5µmhos
+Determine: (i) the current gain taking source resistanceRs = 600 Ωand load resistance
+RL = 10kΩinto account, and (ii) the input resistance.[5]
+(c) Give the construction and working of a Unijunction Transistor (UJT). Explain the
+condition under which a UJT exhibits negative resistance.[4]
+Question 4.
+(a) Draw the circuit diagram of a common-emitter BJT amplifier using RC coupling. Derive
+the equations to show that the gain of this amplifier decreases at the low-frequency
+range due to coupling and bypass capacitors.[5]
+(b) Give the truth table of a full adder. Obtain the Boolean expressions for sum (S) and
+carry (Co) from this table in Sum-of-Products (SOP) form. Simplify these expressions
+using a Karnaugh map (K-map) and implement the circuit using basic logic gates.[5]
+(c) The maximum and minimum amplitudes of an amplitude-modulated (AM) wave are
+10V and2 V respectively. Calculate the carrier amplitude and the modulation index.[4]
+Question 5.
+(a) Explain the working of a class B push-pull amplifier with a suitable circuit diagram.
+Show mathematically how a push-pull amplifier reduces even-harmonic distortions.[7]
+(b) What is meant by negative feedback in amplifiers? Find the closed-loop voltage gain,
+input resistance, and output resistance of a voltage-series feedback amplifier. Draw its
+equivalent BJT circuit diagram.[7]
+OR
+(a) Assume that it is desired to design a Colpitts oscillator so that its oscillation frequency
+is4 MHz. If the inductor isL = 50µHand the desired feedback fraction isβ= 1/20,
+calculate:
+(i) The required value of equivalent tank capacitance.[3]
+(ii) The required values for capacitancesC1 andC 2.[2]
+(iii) The minimum voltage gainAv required for the CE amplifier to sustain oscillations.
+[2]
+Page 2 of 3
+--- Page 3 ---
+Banaras Hindu University BPT-504: Electronic Devices and Circuits
+(b) Draw the basic RC phase shift oscillator circuit and explain its working. As per
+the Barkhausen criterion, what should be the minimum amplifier gain for sustained
+oscillations? What will be the frequency of oscillation? How are the loading effects of
+this circuit eliminated in a Wien bridge oscillator?[7]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 3 of 3
+
+
+=========================================
+FILE: BPT-504_ElectronicDevicesandCircuits_SemV_2016-17.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-504: Electronic Devices and Circuits
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester V Examination, 2016-17
+Paper No. BPT-504: Electronic Devices and Circuits
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answer all questions. Symbols have their usual meanings.
+Question 1.Answer in brief anyfiveof the following:[5×4 = 20]
+(a) What is the significance of the threshold voltage (VT) in an enhancement mode MOSFET?
+How is its magnitude reduced during fabrication?
+(b) Show that negative feedback improves the stability of the voltage gain of an amplifier
+against parameter variations.
+(c) Why is a Unijunction Transistor (UJT) not used as an amplifier? Explain the condition
+under which it is used as a relaxation oscillator.
+(d) What is meant by Common Mode Rejection Ratio (CMRR) in the case of an OP-AMP?
+Why should its value be ideally infinite?
+(e) Write the Boolean expression represented by the Karnaugh map (K-map) shown below
+and simplify it:
+A\BC 00 01 11 10
+0 1 1 0 0
+1 0 1 1 0
+(f) How is a Cathode Ray Oscilloscope (CRO) superior to ordinary measuring instruments?
+How does the Sync control help in obtaining a stationary pattern?
+Question 2.
+(a) With necessary theory and diagrams, explain the construction, working, and I-V char-
+acteristics of a Silicon Controlled Rectifier (SCR). Why can one not use germanium
+instead of silicon to construct a controlled rectifier?[7]
+(b) Explain the condition under which a UJT exhibits negative resistance.[3.5]
+(c) The firing voltage of a UJT is15V. It is connected to a series RC circuit to act as a
+relaxation oscillator withR = 50kΩand C = 2000pF. If the source voltage is40V,
+determine the time period of the saw-tooth voltage across the capacitorC.[3.5]
+Question 3.
+(a) Refer to the basic common-base BJT amplifier configuration. The h-parameter values
+for the transistor are:
+hib = 40 Ω, h rb = 3×10−4, h f b =−0.99, hob = 0.5µmhos
+Page 1 of 2
+--- Page 2 ---
+Banaras Hindu University BPT-504: Electronic Devices and Circuits
+Determine: (i) the closed-loop current gain taking source resistanceRs = 600 Ωand
+load resistanceR L = 10kΩinto account, and (ii) the input resistance.[6]
+(b) Explain in brief the high-frequency hybrid-πmodel of a CE transistor and discuss its
+advantages over the h-parameter model at high frequencies.[8]
+OR
+(a) What do you mean by power amplifiers? Give the circuit diagram of class A, class B,
+and class C power amplifiers. Show that the maximum efficiency of a class B push-pull
+amplifier is78.5%.[8]
+(b) What do you mean by non-linear distortion in a power amplifier circuit? Discuss a
+method to minimize such distortions.[6]
+Question 4.
+(a) What do you mean by the term Amplitude Modulation (AM)? Derive the expression for
+an amplitude-modulated wave and discuss its frequency spectrum.[8]
+(b) Give the truth table of a full adder. Obtain the Boolean expressions for sum (S) and
+carry (Co) from this table in SOP form. Simplify these expressions using a K-map and
+implement the circuit using basic logic gates.[6]
+Question 5.
+(a) What is meant by feedback in amplifiers? Differentiate between positive and negative
+feedback. Draw the circuit diagram of a current-series feedback amplifier and show that
+negative feedback increases the input resistance and output resistance of the amplifier.
+[8]
+(b) How does the feedback network of a Hartley oscillator differ from the feedback network
+of a Colpitts oscillator? What will be the oscillator frequency in the two cases?[6]
+OR
+(a) Explain the difference among astable, monostable, and bistable multivibrators in terms
+of their stable states and applications.[7]
+(b) Definetheparametersrelativeamplificationfactor( µ), drainresistance(rd), andtranscon-
+ductance (gm) in the case of a JFET amplifier, and establish the relationship among
+them. How is a JFET different from a bipolar junction transistor?[7]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 2 of 2
+
+
+=========================================
+FILE: BPT-504_ElectronicDevicesandCircuits_SemV_2022-23.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-504: Electronic Devices and Circuits
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester V Examination, 2022-23
+Paper No. BPT-504: Electronic Devices and Circuits
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answer all questions. Symbols have their usual meanings.
+Question 1.Answer anyfourof the following:[4×5 = 20]
+(a) What is the significance of the threshold voltage (VT) in an enhancement mode MOSFET?
+How is its magnitude reduced?
+(b) Differentiate among class A, class B, and class C power amplifiers based on their
+conduction angles and maximum theoretical efficiencies.
+(c) How does the tank circuit of an oscillator produce a phase shift of180◦? Explain with
+the help of a phasor diagram of the L-C circuit.
+(d) Draw the circuit diagram of a single-tuned BJT voltage amplifier. How can the quality
+factor (Q) and bandwidth be enhanced using a double-tuned voltage amplifier?
+(e) Discuss the power distribution in amplitude-modulated (AM) waves. For a modulation
+index ofm = 1(100%modulation), prove that the total sideband power is half of the
+carrier power.
+(f) Draw the Karnaugh map (K-map) for the Boolean expressionf(A,B,C,D ) =ABC +D.
+Question 2.
+(a) Explain the construction and working of an n-channel JFET and draw its drain and
+mutual characteristic curves. Define the parameters relative amplification factor (µ),
+drain resistance (rd), and transconductance (gm), and establish the relationship among
+them. [8]
+(b) Draw the circuit diagram of a non-inverting OP-AMP amplifier. What is the slew rate?
+How does it limit the high-frequency operation of an OP-AMP?[6]
+Question 3.
+(a) Draw the circuit diagram of a common-emitter (CE) BJT amplifier using RC coupling.
+Derive the expressions to show that the voltage gain of this amplifier decreases at the
+low-frequency range due to coupling capacitors.[8]
+(b) Refer to the basic common-base BJT amplifier configuration. The h-parameter values
+for the transistor are:
+hib = 40 Ω, h rb = 3×10 −4, h f b =−0.99, h ob = 0.5µmhos
+Page 1 of 3
+--- Page 2 ---
+Banaras Hindu University BPT-504: Electronic Devices and Circuits
+Determine: (i) the current gain taking source resistanceRs = 600 Ωand load resistance
+RL = 10kΩinto account, and (ii) the input resistance.[6]
+Question 4.
+(a) Draw the basic RC phase shift oscillator circuit and explain its working. As per the
+Barkhausen criterion, what should be the amplifier gain for sustained oscillations? What
+will be the frequency of oscillation?[7]
+(b) Assume that it is desired to design a Colpitts oscillator so that its oscillation frequency
+is4 MHz. If the inductor isL = 50µHand the desired feedback fraction isβ= 1/20,
+calculate:
+(i) The required value of equivalent tank capacitance.
+(ii) The required values for capacitancesC1 andC 2.
+(iii) The minimum voltage gainAv required for the CE amplifier to sustain oscillations.
+[7]
+OR
+(a) Draw the h-parameter equivalent circuit of a BJT in CE configuration and find the CE
+hybrid parameters in terms of the CC hybrid parameters.[8]
+(b) Draw and explain the circuit diagram for amplitude modulation using a transistor in
+CE configuration.[6]
+Question 5.
+(a) Discuss the importance of power amplifiers. Explain the working of a push-pull amplifier
+with a suitable circuit diagram. Discuss the various advantages and disadvantages of
+push-pull amplifiers.[8]
+(b) If an amplifier with a voltage gain ofAv = − 1000has a gain change of20%due
+to temperature change, calculate the change in gain of the feedback amplifier having
+feedback fractionβ=−0.1.[6]
+OR
+(a) Design a full adder using NAND gates only. Draw a logic circuit (using half and full
+adders) for adding two decimal numbers 7 and 17. Write down the results in binary.[8]
+(b) For a Unijunction Transistor (UJT) with interbase voltageVBB = 20V and intrinsic
+standoff ratioη= 0.65, determine: (i) base-1 resistance RB1 and base-2 resistance
+RB2 if RBB = 10kΩ, (ii) the peak-point voltageVP (assume diode barrier potential
+VD = 0.7V).[6]
+Page 2 of 3
+--- Page 3 ---
+Banaras Hindu University BPT-504: Electronic Devices and Circuits
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 3 of 3
+
+
+=========================================
+FILE: BPT-505_ElectromagneticTheory_SemV_2016-17.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-505: Electromagnetic Theory
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester V Examination, 2016-17
+Paper No. BPT-505: Electromagnetic Theory
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answer all questions. Symbols have their usual meanings.
+Question 1.Answer anyfourof the following:[4×5 = 20]
+(a) Show that the vector field⃗ v=yzˆi +zxˆj +xyˆk can be written as the gradient of a scalar
+fieldf(x,y,z).
+(b) If an infinitely long straight wire carries a uniform line charge densityλ, find the electric
+field at a distancerfrom this wire.
+(c) Ifthepotentialduetoacontinuouschargedistributioniswrittenas V (⃗ r) = 1
+4πϵ0
+∫ ρ(⃗ r′)
+|⃗ r−⃗ r′|dτ′,
+obtain∇2V(⃗ r).
+(d) A parallel polarized electromagnetic wave is incident from air to polystyrene (µ≈µ0,
+ϵr = 2.6) at the Brewster angle. Determine the transmission angle.
+(e) Determine the state of polarization for the wave whose electric field is given by:
+⃗E(z,t) =E 0(ˆicos(kz−ωt)−ˆjsin(kz−ωt))
+(f) Calculate the intrinsic impedance of free space.
+Question 2.
+(a) What is a linear dielectric medium? How do Maxwell’s equations modify in such a linear
+dielectric medium?[6]
+(b) Does the Poynting vector correspond to a dual character in the energy-momentum
+conservation laws in electrodynamics? Explain in detail.[6]
+Question 3.
+(a) In a lossless medium for which intrinsic impedanceη= 60π, relative permeabilityµr = 1,
+and magnetic field:
+⃗H=−0.1 cos(ωt−z)ˆi+ 0.5 sin(ωt−z)ˆjA/m
+find the relative permittivityϵr and the angular frequencyω.[8]
+(b) What is a phasor? The electric and magnetic fields in free space are given by⃗E =
+E0 cos(108t +βz)ˆi V/m and ⃗H = H0 cos(108t +βz)ˆj A/m. Find the phasor form of
+these fields.[6]
+Page 1 of 2
+--- Page 2 ---
+Banaras Hindu University BPT-505: Electromagnetic Theory
+Question 4.
+(a) How do the laws of electrostatics enforce boundary conditions on the electric field and
+the corresponding electrostatic potential?[6]
+(b) Why does any net charge reside entirely on the surface of a conductor? Explain.[6]
+OR
+(a) Using the general solution of the Laplace equation in spherical polar coordinates with
+azimuthal symmetry, determine the potential outside the surface of a hollow empty
+sphere of radiusR if the surface potential is maintained atV0(θ) = V0 sin2(θ/2), where
+V0 is a constant.[8]
+(b) For a uniform magnetic field⃗B, show that⃗A =−1
+2 (⃗ r×⃗B)is a valid vector potential
+such that∇·⃗A= 0and∇×⃗A= ⃗B.[6]
+Question 5.
+(a) A standard air-filled rectangular waveguide with dimensionsa = 8.636cm and b =
+4.318cm is fed by a4GHz carrier wave. Determine if theTM 11 mode will propagate. If
+so, calculate the phase and group velocities of this mode.[8]
+(b) Show that a rectangular waveguide does not supportTM10 andTM 01 modes.[6]
+OR
+(a) Derive the general expressions of the attenuation constantαand phase constantβfor
+electromagnetic wave propagation in conducting media.[8]
+(b) Prove the relationR +T = 1for normal incidence of electromagnetic waves at the
+boundary between two media.[6]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 2 of 2
+
+
+=========================================
+FILE: BPT-505_ElectromagneticTheory_SemV_2022-23.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-505: Electromagnetic Theory
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester V Examination, 2022-23
+Paper No. BPT-505: Electromagnetic Theory
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answer all questions. Symbols have their usual meanings.
+Question 1.Answer anyfourof the following:[4×5 = 20]
+(a) For the vector field:
+Question 2.
+(i) In a lossy dielectric medium, show thattanδ=ϵ′′/ϵ′, whereδis the loss angle of
+the medium. Show how the phase of the intrinsic impedance is related to the loss
+angle.[8]
+(ii) Consider the multipole expansion of the electrostatic potential and show that the
+dipole term can be written in the form:
+Question 3.
+(iii) Consider Ampere’s law in the presence of magnetic materials. Write it in both
+differential and integral forms. Obtain the magnetostatic boundary conditions
+using the integral form of the equations.[8]
+(iv) Discuss the propagation of electromagnetic waves in a lossy dielectric medium and
+derive the expression for the intrinsic impedance of the medium.[6]
+OR
+(v) What do you mean by the divergence of a vector field? Calculate the divergence
+of:
+Question 4.Obtain the electrostatic potential both inside and outside of a hollow
+sphere of radiusR which is maintained at a constant surface charge densityσ0.
+[12]
+Question 5.
+(vi) Show that theTE 10 mode is the dominant mode (lowest cutoff frequency) of all
+the modes supported by a rectangular waveguide.[8]
+(vii) Derive the relation between reflection and transmission coefficients for an obliquely
+incident electromagnetic wave at a dielectric interface where the wave electric field
+is parallel to the plane of incidence (parallel polarization).[6]
+Page 1 of 2
+--- Page 2 ---
+Banaras Hindu University BPT-505: Electromagnetic Theory
+OR
+(viii) A plane electromagnetic wave is normally incident on the boundaryz = 0formed
+by a lossless dielectric medium and a good conductor. Obtain thez-values at
+which the minimum value of|E1y|occurs in medium 1, whereE1y is the total
+electric field in medium 1.[8]
+(ix) Show that aTE 10 mode of a rectangular waveguide can be represented as a sum
+of two plane TEM waves propagating along zigzag paths between the guide walls.
+[6]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 2 of 2
+
+
+=========================================
+FILE: BPT-601_StatisticalMechanics_SemVI_2013-14.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-601: Statistical Mechanics
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester VI Examination, 2013-14
+Paper No. BPT-601: Statistical Mechanics
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answer all questions. Symbols have their usual meanings.
+Question 1.Answer anyfourof the following:[4×5 = 20]
+(a) With reasons, find the number of distinct ways in whichN objects, of whichN1 are
+indistinguishable of one type andN2 are indistinguishable of a second type, can be
+accommodated in a total ofN=N 1 +N 2 possible places.
+(b) The quantum distribution for an ideal Fermi gas isf(ϵ) = 1
+e(ϵ−µ)/kT+1. What happens to
+this distribution in the limitT→0?
+(c) Consider two physical systems, which were separately in equilibrium, brought into
+thermal contact and allowed to interact. Formulate the condition for the two systems
+being in mutual thermodynamic equilibrium and hence derive the relationS=kln Ω.
+(d) Considering a system in a grand canonical ensemble, show that the probability that the
+system be in a particle-energy (Nr,E s) state would be:
+Pr,s= exp(−αNr−βEs)∑
+r,sexp(−αNr−βEs)
+(e) A two-energy-level system, with an energy gap of0.1eV, is in thermal equilibrium with
+a heat bath at327◦C. Obtain the probability that the system is in the higher energy
+level. (Given:k= 8.617×10−5 eV/K).
+(f) Consider a binomial distribution for a system for whichp = 1/2, q = 1/2, N = 6.
+Determine the standard deviationσand find the probability thatn is in the range
+⟨n⟩−σto⟨n⟩+σ.
+Question 2.
+(a) Consider a system in a canonical ensemble and show that the probability of the system
+being in energy stateEs is given by:
+Ps = exp(−βEs)∑
+s exp(−βEs)
+[6.5]
+(b) Hence establish a relationship between the thermodynamics of the system and its
+partition function in the canonical ensemble.[6]
+OR
+Page 1 of 3
+--- Page 2 ---
+Banaras Hindu University BPT-601: Statistical Mechanics
+(a) For an ideal monatomic classical gas, the partition function is given by:
+ZN = 1
+N!h 3N (2πmkT)3N/2V N
+Show how this partition function resolves Gibbs’ paradox.[6.5]
+(b) Show that the average energy of a classical monatomic gas is⟨E⟩=3
+2NkT.[6]
+Question 3.Answer either (a) and (b) or (c) and (d):
+(a) Show that for a large number of random events, the binomial distribution reduces to the
+Gaussian distribution. Relate the characteristic parameters of the latter to those of the
+former.[6.5]
+(b) In a binomial distribution of totalN steps out of whichN1 steps are to the right, show
+that the root-mean-square deviation isσ=√Npq.[6]
+OR
+(a) What do you mean by phase space and density of states? Derive Liouville’s theorem
+and discuss its consequences.[8]
+(b) Show that in the classical limit, quantum distribution laws, whether Fermi-Dirac or
+Bose-Einstein, reduce to the Maxwell-Boltzmann distribution.[4.5]
+Question 4.Answer either (a) or (b):
+(a) Discuss the characteristic features of an ideal Fermi gas. Explain the meaning of Fermi
+energy. Show that the Fermi energyEF varies asn2/3 where n = N/V. Derive the
+relations for the Fermi gas ground state energy and ground state pressure.[12.5]
+OR
+(a) Derive an expression for the partition function in Bose-Einstein statistics and hence
+obtain the relation for the mean number of particles⟨ns⟩in a particular states. Obtain
+the parameterαin terms of the chemical potential. Why isα= 0(or chemical potential
+µ= 0) in the case of photons?[12.5]
+Question 5.
+(a) Show that the relative root-mean-square fluctuation in energyE in a canonical ensemble
+varies as1/
+√
+N. What is the physical significance of this result?[4.5]
+(b) Discuss and compare the characteristic features of microcanonical, canonical, and grand
+canonical ensembles.[5]
+(c) Three gaseous systems composed of classical molecules, fermions, and bosons, respectively,
+are kept at0K. Which one of the systems will exert the greatest pressure? Explain.[3]
+Page 2 of 3
+--- Page 3 ---
+Banaras Hindu University BPT-601: Statistical Mechanics
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 3 of 3
+
+
+=========================================
+FILE: BPT-601_StatisticalMechanics_SemVI_2022-23.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-601: Statistical Mechanics
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester VI Examination, 2022-23
+Paper No. BPT-601: Statistical Mechanics
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answer all questions. Symbols have their usual meanings.
+Question 1.Answer anyfourof the following questions:[4×5 = 20]
+(a) What is the ergodic hypothesis? Explain with the help of an example of a physical
+system.
+(b) A coin is tossed 100 times. Find the probability of obtaining 50 heads. Compute the
+root-mean-square deviation. Explain the result. Justify any approximations used in the
+calculation.
+(c) Estimate the room temperature specific heat of one gram of solid copper. Justify your
+result.
+(d) Explain the meaning of the term ’Phase space’. Find the available phase space of a
+classical free particle, moving in a one-dimensional space betweenx = −L and x = +L,
+and with energy betweenE andE + ∆(∆ ≪E ). What are the dimensions of this phase
+space volume?
+(e) Oxygen is a paramagnetic gas obeying Langevin’s theory of paramagnetism. Its sus-
+ceptibility per unit volume, at293K and at atmospheric pressure, is1.80×10−4 MKS
+units. Determine its molecular magnetic moment and express it in Bohr magneton units
+(µB = 9.27×10 −24A·m2).
+Question 2.
+(a) Two random walkers start out together at the origin, each having the same probability
+of making a step to the left or to the right along thex-axis. Assuming that they make
+their steps simultaneously, find: (i) the probability that they meet again afterN steps,
+and (ii) the probability that they do not meet afterNsteps.[5.5]
+(b) State and explain Liouville’s theorem (no proof or derivation is necessary). Verify this
+theorem for the density functionρ(q,p ) =Cexp (−H(q,p )/kT ), whereC is a constant
+and H is the Hamiltonian of a system ofN independent classical harmonic oscillators.
+[7]
+Question 3.
+(a) Consider a two-level system ofN classical free particles in which the allowed energies of
+the particles are0and ϵ(ϵ>0). Letn0 and n1 be the number of particles in the states
+with energies0andϵ, respectively. Let the total energy of the system beU.
+Page 1 of 3
+--- Page 2 ---
+Banaras Hindu University BPT-601: Statistical Mechanics
+(i) Derive an expression for the entropy of the system.
+(ii) Find the temperature as a function ofU and make a neat sketch of the variation
+ofUas a function ofT.
+(iii) Find an expression for its specific heat. Make a neat sketch of its temperature
+variation.
+[12.5]
+OR
+(a) Derive the canonical partition function of an extreme relativistic gas consisting ofN
+particles. (Write down the energy-momentum relationship by neglecting the mass-energy
+of the particles). Derive a relationship between its pressure and its energy density. Find
+its entropy, and theCp/Cv ratio.[12.5]
+Question 4.
+(a) The density of solid copper is8.96g/cm3. The atomic weight of copper is 63.55. Assume
+one conduction electron per Cu atom. Explain why the conduction electrons can be
+treated as a degenerate Fermi gas. Find the Fermi energy (ineV) of the conduction
+electron gas in Cu. Calculate the corresponding Fermi temperature (in Kelvin). Find
+the average energy per electron at zero temperature.[8]
+(b) Why is the electronic specific heat of conduction electrons in copper at room temperature
+about1%of the value expected from the equipartition law? Explain by a rough
+estimation.[4.5]
+OR
+(a) Write down the Fermi-Dirac and Bose-Einstein distribution functions, and explain the
+terms in those functions. Show that they reduce to the Maxwell-Boltzmann distribution
+in the classical limit. Show that in the classical limit of those quantum distribution
+functions, the Gibbs’ paradox is automatically resolved.[7]
+(b) Starting from the expression of the partition function, obtain the quantum statistical
+distribution function for a photon gas. Explain why the chemical potential is zero in
+this case.[5.5]
+Question 5.
+(a) Consider a system of two localized and independent quantum harmonic oscillators of
+angular frequenciesωand3 ω. Find the number of microstates when they share a total
+energy: (i)10ℏω, and (ii)12ℏω.[6]
+(b) A sample of a long-lived radionuclide gives 939 counts in 3 minutes. What is the proba-
+bility that exactly 26 counts would be observed in 5 seconds? Justify any approximations
+that you use in the calculation.[6.5]
+Page 2 of 3
+--- Page 3 ---
+Banaras Hindu University BPT-601: Statistical Mechanics
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 3 of 3
+
+
+=========================================
+FILE: BPT-602_SolidStatePhysics_SemVI_2013-14.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-602: Solid State Physics
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester VI Examination, 2013-14
+Paper No. BPT-602: Solid State Physics
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answer all questions. Symbols have their usual meanings.
+Question 1.Answer anyfiveof the following questions:[5×4 = 20]
+(a) With the help of diagrams, show the crystal structure of NaCl and diamond. What is
+the lattice type of these structures?
+(b) For metals, establish the Wiedemann-Franz law.
+(c) Show the variation of energy, velocity, and effective mass of an electron as a function of
+wave vectorkin the first Brillouin zone.
+(d) What are the characteristic differences between the optical and acoustical modes of
+lattice vibrations?
+(e) What do you understand by the Lennard-Jones potential?
+(f) Explain the meaning of spin waves and magnons.
+Question 2.
+(a) What is the meaning of a space-lattice? How many different types of space-lattices are
+possible? [6]
+(b) Prove that the close packing of atoms in the hexagonal close-packed (HCP) structure
+demands an axial ratioc/a=
+√
+8/3≈1.633.[6]
+Question 3.
+(a) Using the Einstein model, derive the expression for the specific heat of solids at high
+and low temperatures. What are the assumptions of the Debye model of specific heat of
+solids? How does it differ from the Einstein model?[8]
+(b) Considering the nearest neighbour interaction, establish the dispersion relation for a
+monoatomic linear chain.[5]
+OR
+(a) Derive the expression for the energy of conduction electrons in a metal considering its
+potential energy to be zero.[8]
+(b) On the basis of the free electron gas model, calculate the expression for electrical
+conductivity.[5]
+Page 1 of 2
+--- Page 2 ---
+Banaras Hindu University BPT-602: Solid State Physics
+Question 4.
+(a) Discuss the quantum theory of paramagnetism and establish the Curie-Brillouin law for
+the magnetization and hence the Curie law of susceptibility.[8]
+(b) What is the Weiss field for ferromagnetism? Establish the Curie-Weiss law for ferromag-
+netism. [5]
+OR
+(a) What do you understand by reciprocal lattice?[2]
+(b) Show that the reciprocal vector⃗Ghkl is perpendicular to the(hkl)plane and|⃗Ghkl|= 2π
+dhkl
+.
+[6]
+(c) What is the Ewald construction?[5]
+Question 5.
+(a) Derive the expressions for the atomic scattering factor and crystal structure factor.[8]
+(b) Calculate the structure factor for a body-centered cubic (BCC) structure and show that
+its value is non-zero only whenh + k + l is an even number, whereh, k, and l are the
+Miller indices of the plane.[4]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 2 of 2
+
+
+=========================================
+FILE: BPT-602_SolidStatePhysics_SemVI_2022-23.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-602: Solid State Physics
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester VI Examination, 2022-23
+Paper No. BPT-602: Solid State Physics
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answer all questions. Symbols have their usual meanings.
+Question 1.Attempt anyfourof the following:[4×3.5 = 14]
+(a) What are the main differences in terms of structure among single-crystalline, polycrys-
+talline, quasi-crystalline, and amorphous materials?
+(b) State Bragg’s law and Laue’s conditions for X-ray diffraction. Show that they are
+equivalent.
+(c) What are the differences in the assumptions of the Drude model and the Sommerfeld
+modelforthefreeelectrontheoryofmetals? Whatdoyouunderstandbythe’independent
+electron approximation’?
+(d) What is the difference between mirror and inversion symmetries? Explain with a suitable
+diagram.
+(e) Draw theE−kdiagram of a nearly free electron in a 1D periodic potential. How is it
+different from theE−kdiagram of a free electron? Explain briefly.
+Question 2.
+(a) What do you understand by reciprocal lattice? Establish the relationship between the
+real lattice and the reciprocal lattice. Describe the Ewald construction.[7]
+(b) Show that the reciprocal lattice for an FCC lattice is a BCC lattice.[7]
+Question 3.
+(a) Draw an FCC lattice and write down the lattice constants of the primitive unit cell.
+[3.5]
+(b) Determine the packing fraction of the FCC lattice.[3.5]
+(c) Which is the close-packed plane (CPP) and close-packed direction in the FCC lattice?
+[3.5]
+(d) How many CPPs are there in an FCC lattice?[3.5]
+OR
+(a) Using Sommerfeld theory, find the components of the drift velocity of electrons in the
+presence of electric and magnetic fields.[7]
+Page 1 of 2
+--- Page 2 ---
+Banaras Hindu University BPT-602: Solid State Physics
+(b) What is the Hall field? Derive the relation for the Hall coefficient of a metal. Discuss
+the utilities of the Hall effect in determining the properties of a material.[7]
+Question 4.
+(a) Derive the transcendental equation in the Kronig-Penney model.[9]
+(b) Which parameters in the Kronig-Penney model determine the magnitude of the band
+gap? Explain briefly.[5]
+OR
+(a) Derive the dispersion relations for 1-dimensional diatomic lattice vibrations and draw
+the dispersion curves. Show the atomic vibrations in the optical and acoustical branches
+atK→0and atK=π/2a(where ’2a’ is the periodicity).[14]
+Question 5.
+(a) Define magnon. Establish the dispersion relation for the magnon of a ferromagnet. Show
+that each spin precesses circularly about thez-axis. In the long wavelength region,
+compare the dispersion relation of the magnon with that of the phonon. Draw these
+plots. [14]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 2 of 2
+
+
+=========================================
+FILE: BPT-603_ElementsofNuclearPhysics_SemVI_2013-14.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-603: Elements of Nuclear Physics
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester VI Examination, 2013-14
+Paper No. BPT-603: Elements of Nuclear Physics
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answer all questions. Always draw necessary diagram or figure if needed.
+Symbols have their usual meanings.
+Question 1.Answer anyfivequestions of the following:[5×3 = 15]
+(a) Nucleon-nucleon forces are charge independent. Why do thep−p and n−n bound
+states not exist?
+(b) On what factors does the choice of a good detector scintillator depend?
+(c) Explain, with one example each, the following terms: (i) Mirror Nuclei, (ii) Singly and
+doubly magic nuclei.
+(d) List one detector each which can be used for: (i) ionization and track measurements, (ii)
+time measurements, and (iii) particle identification.
+(e) Explain why it is that onlyα-particles are emitted by radioactive nuclei while protons
+and neutrons are not.
+(f) A photon of energy2.22MeVcan disintegrate the deuteron into its components. Given
+that the masses of the neutron and proton are1.008665u and1 .007277u respectively,
+what is the mass of the deuteron?
+(g) What are the informations one can obtain from electron-nucleus scattering experiments?
+Question 2.
+(a) The radius of a nucleus isR =r0A1/3 with r0 = 1.2fm. Using Heisenberg’s relations,
+estimate the mean kinetic energy and momentum of a nucleon inside a nucleus.[5]
+(b) Write down the Bethe-Weizsäcker mass formula and explain the various terms that
+contribute to it.[4]
+(c) Describe in brief the Fermi gas model of the nucleus. Show that the Fermi energy is
+independent of the number of nucleons in the nucleus for constant nuclear density.[5]
+Question 3.
+(a) With the help of a neat diagram, describe the characteristics of the mode of operation
+of gas-filled detectors.[5]
+Page 1 of 3
+--- Page 2 ---
+Banaras Hindu University BPT-603: Elements of Nuclear Physics
+(b) List some of the important features of a scintillating signal and discuss at least two
+important features with suitable sketches.[4]
+(c) A NaI(Tl)detector in the shape of a5 cm cube is bombarded by a beam of2.8MeV
+gamma-radiation normal to one face of the cube. Calculate:
+(i) What fraction of the gamma radiation is detected?
+(ii) What fraction of the detected gamma appears in the photopeak, Compton distri-
+bution, and pair peaks?
+Assume that there is no re-absorption of Compton gamma or annihilation quanta. (Given:
+attenuation coefficientµfor2 .8MeV gammas is0.135cm−1, photoelectric coefficient
+µp = 2.5 × 10−3cm−1, Compton coefficientµcompton = 0.113cm−1, and pair production
+coefficientµpair = 0.020cm−1).[5]
+Question 4.
+(a) What are the informations we can obtain from the nucleon-nucleon (n−p and p−p )
+scattering experiments?[6]
+(b) What do you know about the basic properties of the nucleus? Explain any two. Show
+that the density of nuclear matter is≈ 1017kg/m3 (or ≈ 105tons/mm3). (Assume that
+the mass of the proton is1.67 × 10−27kg and that its spherical shape has a radius
+R=r 0A1/3, wherer 0 = 1.2×10 −13cm).[7]
+OR
+(a) Define theQ-value of alpha decay. Write down the important features of alpha decay.
+What causes alpha decay? Explain it.[6]
+(b) Calculate theQ-value, kinetic energyTα, and the Coulomb barrierVc for the primary
+branch of the alpha decay of212Po to the ground state of208Pb. Here, the mass excess
+of alpha is2.4249MeV, and excess masses of the daughter and parent are−21.759MeV
+and−10.381MeV, respectively.[7]
+Question 5.
+(a) What are the properties of the ground state of the deuteron? What are the informa-
+tions about the nucleon-nucleon potential obtained from the experimental data on the
+deuteron?[9]
+(b) Make a neat sketch of the binding energy curve. Explain the basis for fission and fusion
+of nuclei.[5]
+OR
+(a) What are elementary particles and how are they classified? Describe the different types
+of interactions that can occur between the elementary particles.[7]
+Page 2 of 3
+--- Page 3 ---
+Banaras Hindu University BPT-603: Elements of Nuclear Physics
+(b) Provide the names, masses, and charges of six quarks discovered so far. What do you
+understand by the colour degree of freedom? What is the need for introducing the colour
+degree of freedom for the quarks?[7]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 3 of 3
+
+
+=========================================
+FILE: BPT-603_ElementsofNuclearPhysics_SemVI_2022-23.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-603: Elements of Nuclear Physics
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester VI Examination, 2022-23
+Paper No. BPT-603: Elements of Nuclear Physics
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answer all questions. Symbols have their usual meanings.
+Question 1.Answer anyfivequestions as given below:[5×4 = 20]
+(a) All nuclides are made up of a neutron-proton mixture that we can call nuclear matter.
+What is its density?
+(b) Which of the following reactions are possible and why?
+(i)n+n→Λ 0 +K +
+(ii)p+p→K + + Σ +
+(c) How much energy is necessary to split up an alpha particle into its constituent nucleons?
+(Given:M n = 1.008665u,M p = 1.007825u,M( 4He) = 4.00260u).
+(d) Discuss theQ-value formula for all three kinds of Beta decay.
+(e) Carbon-11transformsby β+ decay. Determinetheproductsofthereactionandtheenergy
+released. Ignore the mass of the emitted neutrino. (Given: mass of11C = 11.011434u,
+mass of 11B= 11.009305u).
+(f) A relic is found to give an activity count of12c.p.m. (counts per minute) for each gram
+of carbon. If living trees give a count of16c.p.m., find the approximate age of the relic.
+(Take the half-life of Carbon-14 as5730years).
+Question 2.
+(a) Discuss experimental methods for the charge radius measurement of nuclei. Explain with
+a proper diagram. Also estimate the minimum energy of the incident ion for determining
+the radius of the target nucleus.[7.5]
+(b) Explain the need for introducing the colour degree of freedom for the quarks.[5]
+Question 3.
+(a) Discuss the different properties of the nuclear force in detail along with supporting
+experimental evidence.[7]
+(b) The decay of253Es (I = 7/2, π= +) leads to a sequence of negative-parity states in
+249Bk with I = 3/2, 5/2, 7/2, 9/2, 11/2, 13/2. For each state, find the permitted values
+of the orbital angular momentumlof the emitted alpha particle.[5.5]
+Page 1 of 3
+--- Page 2 ---
+Banaras Hindu University BPT-603: Elements of Nuclear Physics
+OR
+(a) Explain the working of the Van de Graaff (VdG) accelerator using a suitable diagram.
+[7.5]
+(b) Describe the expression for the Coulomb potential barrier in Alpha decay. Calculate
+the Coulomb potential barrier experienced by an Alpha particle in the Alpha decay of
+226Ra (Z= 88).[5]
+Question 4.
+(a) An even-Z, even-N nucleus has the following sequence of levels above its0+ ground
+state:2 + (89keV),4 + (288keV),6 + (585keV),0 + (1050keV),2 + (1129keV). Draw an
+energy level diagram and show all probableγtransitions and their dominant multipole
+assignments.[6.5]
+(b) For the followingγ-transitions, give all permitted multipoles and indicate which multipole
+might be the most intense in the emitted radiation:
+(i)9/2 +→7/2+
+(ii)1/2 −→7/2−
+(iii)1 −→2+
+(iv)4 +→2+
+(v)11/2 −→3/2+
+(vi)3 +→3+
+[6]
+OR
+(a) A beam of8MeVα-particles is incident upon a thin gold screen (Z = 79). Calculate the
+impact parameter for scattering an incidentα-particle through an angle of110◦.[4.5]
+(b) Give the quark constituents of the members of the meson0− octet, baryon1/2+ octet,
+and baryon3/2 + decuplet families.[8]
+Question 5.
+(a) Discuss the photomultiplier tube (PMT) using a suitable diagram. Also explain gain
+and quantum efficiency.[4.5]
+(b) In the semi-empirical mass formula, what experimental evidence does the pairing termδ
+account for? For a given value of the mass numberA, nuclear masses can be expressed
+as a quadratic function inZ. Using the minimum isobar formula, determine whether
+142Xe (Z= 54) isβ+ orβ− unstable.[8]
+Page 2 of 3
+--- Page 3 ---
+Banaras Hindu University BPT-603: Elements of Nuclear Physics
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 3 of 3
+
+
+=========================================
+FILE: BPT-604_AtomicPhysicsandLasers_SemVI_2013-14.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-604: Atomic Physics and Lasers
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester VI Examination, 2013-14
+Paper No. BPT-604: Atomic Physics and Lasers
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answer all questions. Symbols have their usual meanings.
+Question 1.Answer anyfiveof the following:[5×4 = 20]
+(a) What is the relative population of the two states in a ruby laser that produces a light
+beam of wavelength6943Å at27 ◦C?
+(b) Why is the discharge tube in a He-Ne laser system taken to have a narrow cross-section?
+(c) The effect of nuclear mass on the Rydberg constant is to change it by about 1 part in
+2000. Justify this statement.
+(d) Which experiment provided evidence for the existence of electron spin, and how?
+(e) Explain the meaning of space quantization.
+(f) On introducing the concept of the relativistic electron in the elliptic Sommerfeld orbit
+treatment, the splitting of energy levels is the same as obtained by Dirac’s theory. Do
+these two explain the observed structure completely? If not, why?
+(g) Work out the ground state of an atom having atomic number 39.
+Question 2.
+(a) Describe the construction and working of an Nd-YAG laser.[12.5]
+OR
+(a) With the help of a suitable diagram, describe the construction and working of a He-Ne
+laser. Which one of the He and Ne atoms is responsible for the LASER action and what
+is the role of the other?[12.5]
+Question 3.
+(a) What is the difference between spontaneous and stimulated emissions? Establish the
+relation between the Einstein coefficientsAandB.[12.5]
+OR
+(a) An emitting atom is placed in a magnetic field. If the field intensity is increased from
+zero to a low value (a few Gauss), the singlet lines split into three components. Explain
+the origin of this triplet.[12.5]
+Page 1 of 2
+--- Page 2 ---
+Banaras Hindu University BPT-604: Atomic Physics and Lasers
+Question 4.
+(a) What do you understand by Landé’s interval rule and what are normal and inverted
+multiplets? Explain with suitable examples.[7.5]
+(b) Find the ground state of an atom with two equivalentpelectrons.[5]
+Question 5.
+(a) Describe the Franck-Hertz experiment and its outcome.[4.5]
+(b) Discuss briefly the condition of phase matching in Second Harmonic Generation (SHG).
+[4]
+(c) Derive terms for5d6pelectrons underj−jcoupling scheme.[4]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 2 of 2
+
+
+=========================================
+FILE: BPT-604_AtomicPhysicsandLasers_SemVI_2022-23.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BPT-604: Atomic Physics and Lasers
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester VI Examination, 2022-23
+Paper No. BPT-604: Atomic Physics and Lasers
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answer all questions. Symbols have their usual meanings.
+Question 1.Answer anyfiveof the following:[5×4 = 20]
+(a) A muonic atom contains a nucleus of one proton and a negative muonµ− with charge
+−e and a mass 207 times as large as an electron mass. What is the wavelength of the
+first line in the Lyman series for such an atom?
+(b) In a Franck-Hertz type of experiment, atomic hydrogen is bombarded with electrons
+and excitation potentials are found at10.20V and12.10V.
+(i) Draw an energy-level diagram and show the possible spectral emissions accompa-
+nying these excitations.
+(ii) What are the wavelengths of the emitted photons?
+(c) Show that the selection rules for orbital angular momentum and orbital magnetic
+quantum number are∆l=±1and∆m l = 0,±1.
+(d) A beam of hydrogen atoms emitted from an oven at temperature400K is sent through
+a Stern-Gerlach magnet of length1m. The transverse magnetic field gradient is10T/m.
+Calculate the transverse deflection of the components of the beam at the point where
+the beam leaves the magnet. Take kinetic energy as2kT.
+(e) Show the suitability of a two-level atomic system for amplification of radiation in
+microwave and optical frequency regions.
+(f) Evaluate the ratio of the orbital magnetic dipole moment to the orbital angular momen-
+tum, µl/L, for an electron moving in an elliptical orbit of the Bohr-Sommerfeld atom.
+Compare the results with those of a circular orbit.
+(g) Consider the states in whichl = 4and s = 1/2. For the state with the largest possiblej
+and largest possiblemj, calculate: (i) the angle betweenL andS, (ii) the angle between
+µL andµS, and (iii) the angle betweenJand the+zaxis.
+Question 2.
+(a) The spin-orbit interaction energy is∆E = 1
+2m2c2
+1
+r
+dV(r)
+dr
+⃗S·⃗L and the term shift due to
+relativistic correction of mass for H-atom is∆Tr = Rα2Z4
+n3
+[
+1
+l+1/2 − 3
+4n
+]
+. Discuss the fine
+structure of theHαline showing clearly the splitting and possible transitions.[8.5]
+(b) Compute the ground state spectroscopic terms of carbon and oxygen atoms. How are
+normal and inverted multiplets different?[4]
+Page 1 of 2
+--- Page 2 ---
+Banaras Hindu University BPT-604: Atomic Physics and Lasers
+Question 3.
+(a) What is the Zeeman effect? Derive the expression for interaction energy in a magnetic
+field much less than the internal magnetic field and apply it to find the components of
+sodiumD 1 andD 2 lines.[8.5]
+(b) Compute the intensity ratio of the three components of the first line of the diffuse series.
+[4]
+Question 4.
+(a) Discuss the splitting of2P3/2 and 2S1/2 states of sodium atom in a strong magnetic field
+(greater than the internal magnetic field) and show the transitions. Is it the same as the
+normal Zeeman effect?[6.5]
+(b) In an atom obeying L-S coupling, there are two normal triplets. The separations between
+adjacent components of the lower triplet are20cm−1 and40 cm−1, and for the higher
+state triplet the separations are22cm−1 and33 cm−1. Determine the terms for the two
+triplet states and show the allowed transitions with the help of an energy level diagram.
+[6]
+Question 5.
+(a) What are the Einstein coefficients for absorption and emission processes between two
+levels? Compute the relation between them.[8]
+(b) What do you mean by molecular spectra? Explain in brief.[4.5]
+OR
+(a) Discuss the construction and working of a He-Ne Laser. With an energy level diagram,
+explain the reason for the narrow bore of the Laser tube.[8]
+(b) Discuss the rate equations for a three-level Laser system.[4.5]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 2 of 2
+
+
+=========================================
+FILE: BSC-07A_AncillaryPhysics-II_SemIV_2022-23.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BSC-07A: Ancillary Physics-II
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester IV Examination, 2022-23
+Paper No. BSC-07A: Ancillary Physics-II
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answerfivequestions including Question 1 which is compulsory. Symbols have
+their usual meanings.
+Question 1.Answer anyfourof the following:[4×3.5 = 14]
+(a) State Fermat’s principle of least time with an example.
+(b) What is polarized light? What nature of light is shown by polarization?
+(c) What will be the refractive index of a medium in which the speed of light is2.5× 108m/s?
+(d) Give an innovative example to explain entropy.
+(e) An ideal heat engine operating between the temperaturesT1 and T2 (T1 > T2) has
+efficiencyη. What would be the efficiency of the engine if you double the operating
+temperatures?
+(f) Deduce the unit of Boltzmann’s constant from the ideal gas equation.
+Question 2.
+(a) How do you define heat? Explain the heat capacity at constant volume and constant
+pressure. [6]
+(b) Write the formulae and use them to convert the boiling temperature of gold,2966◦C,
+into degrees Fahrenheit and Kelvin.[6]
+(c) What is the unit of pressure in the SI system of units?[2]
+Question 3.
+(a) Define Viscosity and Thermal conductivity and give an example for each.[6]
+(b) The heat capacity of0.125kg of water is measured to be523J/K at room temperature.
+Calculate the heat capacity of water per unit mass and per unit volume.[5]
+(c) Which law of thermodynamics makes sense in the biological process of Photosynthesis?
+Explain. [3]
+Question 4.
+Page 1 of 3
+--- Page 2 ---
+Banaras Hindu University BSC-07A: Ancillary Physics-II
+(a) What is thermal equilibrium? Use it to explain the Zeroth law of thermodynamics.[6]
+(b) What is the relation between free energy and work? Starting fromF =U−TS , where
+F is the Helmholtz function and other notations carry the usual meaning, express the
+entropy and pressure at constant volume and temperature, respectively.[6]
+(c) What are the state variables and how do you label different thermodynamic processes
+by fixing one of these variables?[2]
+Question 5.
+(a) Explain the differences between the following:
+(i) Concave and Convex mirrors
+(ii) Interference and Diffraction
+(iii) Real image and Virtual image
+[6]
+(b) Explain Young’s double-slit experiment with a neat ray diagram. Write the expression
+for the fringe-width of interference fringes. Why are all fringes of the same width?[6]
+(c) An object is kept at a position between the optical center and the focus of a convex lens.
+Show the image formation with the help of a neat diagram and write the properties of
+the image formed.[2]
+Question 6.
+(a) Explain the optical phenomena involved in the following statements:
+(i) Meters like ammeters and voltmeters use a mirror to avoid parallax error.
+(ii) A diamond sparkles more than a glass piece of the same shape and size.
+(iii) A cat’s eye or road stud helps drivers by improving night visibility.
+[6]
+(b) Inthedispersionoflightbyaprism, whichcolorismoredispersed? Explainquantitatively
+using the formula of minimum deviation angle.[5]
+(c) If the critical angle of a medium is30◦, find the polarizing angle for the medium.[3]
+Question 7.
+(a) In the figure shown below, when light falls on the vertical surfaceBC, it refracts along
+the directionBC. Find the incidence anglei. Givensin −1 (0.75) = 48.6◦.[5]
+Page 2 of 3
+--- Page 3 ---
+Banaras Hindu University BSC-07A: Ancillary Physics-II
+(b) What is farsightedness or hyperopia? How can it be removed? Explain with the help of
+a neat diagram.[5]
+(c) Find the critical angle for a ray of light passing from glass (µg = 1.5) to water (µw = 1.33).
+[4]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 3 of 3
+
+
+=========================================
+FILE: BSC-07A_AncillaryPhysics-II_SemIV_2023-24.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BSC-07A: Ancillary Physics-II
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester IV Examination, 2023-24
+Paper No. BSC-07A: Ancillary Physics-II
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answerfivequestions including Question 1 which is compulsory. Symbols have
+their usual meanings.
+Question 1.Answer anyfiveof the following:[5×4 = 20]
+(a) Define the interference and diffraction of light with suitable diagrams.
+(b) On which law of thermodynamics is a thermometer based? Explain your answer.
+(c) Discuss polarization by reflection with a suitable diagram.
+(d) How do you measure specific heat capacity? Why does sand heat up faster than water
+on beaches?
+(e) Explain one biological process that uses a law of thermodynamics.
+(f) Define the entropy of a system. In which thermodynamic process does the entropy not
+change and why?
+(g) Write the expression for the focal length and power of a thick lens of thicknesst and
+radii of curvatureR1 andR 2.
+(h) Consider a bacterium of mass10−12g. Find the mass of one mole of bacteria in units of
+elephant masses (assume an average elephant mass of6000kg).
+(i) Derive the ideal gas equation by using the empirical laws for gases. State one application
+of the ideal gas equation.
+Question 2.
+(a) Explain the diffraction pattern due to a straight edge with a suitable diagram and write
+the expressions for maximum and minimum intensities.[6]
+(b) Define polarization with a suitable diagram and discuss the difference between longitudi-
+nal and transverse waves.[8]
+Question 3.
+(a) Discuss the differences between a telescope and a microscope and their respective
+applications.[4]
+(b) What is the refractive index of a medium? The absolute refractive indices of glass and
+water are3/2and4 /3, respectively. If the speed of light in glass is2× 108m/s, calculate
+the speed of light in air and water.[5]
+Page 1 of 2
+--- Page 2 ---
+Banaras Hindu University BSC-07A: Ancillary Physics-II
+(c) Define Fresnel and Fraunhofer diffraction with suitable diagrams.[5]
+Question 4.
+(a) Explain Carnot’s cycle using a schematic diagram. A Carnot engine operates between
+reservoir temperatures of800K and300 K. Calculate the percentage efficiency of the
+engine. [9]
+(b) What is Brownian motion? Prove that heavier molecules exhibit slower Brownian motion.
+[5]
+Question 5.
+(a) Helmholtz free energy is given by F = U−T S , where U is internal energy, T is
+temperature and S is entropy. Deduce the expressions for entropy and pressure as
+negative rates of change of the Helmholtz function at fixed volume and temperature,
+respectively.[6]
+(b) State the first law of thermodynamics. Apply it to ideal gas expansion and comment on
+the result.[6]
+OR
+(a) Show that when unpolarized light passes through a polarizer, the intensity of the
+transmitted light is exactly half of the incident light intensity.[6]
+(b) What is a diffraction grating? If the width of each slit isb and the separation between the
+two slits isa, write the expression for the intensity distribution and draw the diffraction
+pattern. [6]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 2 of 2
+
+
+=========================================
+FILE: BSCU7A_AncillaryPhysics_SemI_2016-17.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University BSCU7A: Ancillary Physics
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester I Examination, 2016-17
+Paper No. BSCU7A: Ancillary Physics
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answerfivequestions including Question 1 which is compulsory. Symbols have
+their usual meanings.
+Question 1.Answer anysixof the following:[6×3 = 18]
+(a) What do you understand by streamline flow of a liquid?
+(b) What is the difference between stress and strain?
+(c) What should be done to reduce the surface tension of water?
+(d) Define the entropy of a system.
+(e) Give one example of the first law of thermodynamics.
+(f) What are the advantages and disadvantages of CO2 gas in the environment?
+(g) How is the image of an extended source formed by a convex lens?
+(h) What do you understand by the dispersion of light?
+Question 2.
+(a) What do you mean by Hooke’s law? Describe Young’s modulus of elasticity.[7]
+(b) Discuss Bernoulli’s theorem and its applications.[6]
+Question 3.
+(a) Define the surface tension of a liquid. Describe in detail the capillary action of a tube.
+[7]
+(b) What is Stokes’ law? Discuss the terminal velocity of a sphere falling in a fluid.[6]
+Question 4.
+(a) Discuss the second law of thermodynamics and its importance.[7]
+(b) Discuss the phenomenon of diffusion of gases. On what factors does it depend?[6]
+Question 5.
+(a) Define Helmholtz and Gibbs free energies with some examples.[7]
+(b) Discuss Fermat’s principle of least time.[6]
+Page 1 of 2
+--- Page 2 ---
+Banaras Hindu University BSCU7A: Ancillary Physics
+Question 6.
+(a) Discuss Young’s double-slit experiment and the conditions for maximum and minimum
+intensity.[7]
+(b) What is the difference between Fraunhofer and Fresnel diffraction?[6]
+Question 7.
+(a) Discuss the effect of radiation on biological systems.[7]
+(b) Discuss all parts of the electromagnetic spectrum.[6]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 2 of 2
+
+
+=========================================
+FILE: PHYSICS_AncillaryPhysics-II_SemIV_2013-14.pdf
+=========================================
+--- Page 1 ---
+Banaras Hindu University Ancillary Physics-II
+BANARAS HINDU UNIVERSITY
+B.Sc. (Hons.) Semester IV Examination, 2013-14
+Paper: BSC07A / BP Anc.-II: Ancillary Physics-II
+Time: 3 Hours Maximum Marks: 70
+Instructions: Answerfivequestions including Question 1 which is compulsory. Symbols have
+their usual meanings.
+Question 1.Answer anysixof the following:[6×3 = 18]
+(a) What do you mean by intensive and extensive properties?
+(b) Explain the dual nature of light with examples.
+(c) How can diffusion and Brownian motion be explained on the basis of random walk?
+(d) What will be the value of entropy atT = 0 K? Will a Carnot cycle work at this
+temperature?
+(e) Green light of wavelength5100Å from a narrow slit is incident on a double slit. If the
+overall separation of 10 fringes on a screen200cm away is2 cm, find the slit separation.
+(f) Explain various uses of polarization of light.
+(g) Define the power of a lens. Mention the formula for the power of a combination of two
+thin lenses.
+(h) What do you mean by thermal equilibrium? Which law of thermodynamics defines it?
+Question 2.
+(a) Explain various types of defects in the human eye. How can these defects be removed
+using different lenses?[5]
+(b) State and explain Fermat’s principle of extremum path with an example.[3]
+(c) Explain the differences between the Fresnel and Fraunhofer classes of diffraction.[5]
+Question 3.
+(a) Define the resolving power of an optical instrument. Obtain an expression for the
+resolving power of a telescope.[7]
+(b) A point source of light is located20cm in front of a convex mirror with a focal length of
+15cm. Determine the character and position of the image point.[6]
+Page 1 of 2
+--- Page 2 ---
+Banaras Hindu University Ancillary Physics-II
+Question 4.
+(a) Calculate the focal length of a plano-convex lens of which the radius of curvature of the
+curved surface is40cm and the refractive index isµ= 1.5.[5]
+(b) Explain the construction and working of a compound microscope using a proper ray
+diagram. [8]
+Question 5.
+(a) Establish the relations for thermodynamic variablesS, T, P, andV in terms of ther-
+modynamic potentialsU, F, H, andG, where the symbols have their usual meanings.
+[8]
+(b) What do you mean by an isothermal process? Show that in an isothermal expansion of
+an ideal gas,∆U= 0and∆H= 0.[5]
+Question 6.
+(a) Discuss the working of a Carnot engine and sketch its cycle on aP-V diagram. Explain
+the four processes involved.[6]
+(b) The efficiency of a Carnot engine can be increased in two ways: (i) by decreasing the
+temperature of the sinkT2 while keeping the temperature of the sourceT1 constant, or
+(ii) by increasing the temperature of the sourceT1 while keeping the temperature of the
+sinkT 2 constant. Which of these methods is more effective and why?[7]
+Question 7.
+(a) What is the difference between effusion and diffusion?[3]
+(b) State Graham’s law of diffusion.[3]
+(c) What do you mean by drift velocity and mean free path of a gas molecule?[4]
+(d) Why are water droplets formed when a bicycle tube bursts? Explain.[3]
+Click here to visit our website
+Click here to visit our contributor
+Click here to visit our contributor
+Page 2 of 2
+
+
