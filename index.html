@@ -246,8 +246,8 @@
         <!-- Bento Grid — fixed heights per row, no overflow -->
         <div class="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-5">
 
-            <!-- Row 1: Large card (8) + Tall side card (4) -->
-            <div onclick="window.location.href='legacy-pyq.html'" class="md:col-span-8 bento-card glass-panel rounded-2xl p-8 md:p-10 flex flex-col justify-end group cursor-pointer overflow-hidden relative min-h-[280px] md:min-h-[320px]">
+            <!-- Row 1: Two symmetric large cards (6 + 6) -->
+            <div onclick="window.location.href='legacy-pyq.html'" class="md:col-span-6 bento-card glass-panel rounded-2xl p-8 md:p-10 flex flex-col justify-end group cursor-pointer overflow-hidden relative min-h-[280px] md:min-h-[320px]">
                 <div class="absolute inset-0 z-0 opacity-[0.07] transition-opacity group-hover:opacity-[0.15] bg-gradient-to-br from-accent-bhu-saffron to-accent-neural-purple rounded-2xl"></div>
                 <!-- Decorative grid -->
                 <div class="absolute top-8 right-8 grid grid-cols-4 gap-2 opacity-10 group-hover:opacity-20 transition-opacity">
@@ -266,49 +266,68 @@
                 </div>
             </div>
 
-            <div class="md:col-span-4 bento-card glass-panel rounded-2xl p-8 flex flex-col justify-between group hover:bg-white/60 transition-colors min-h-[200px] md:min-h-[320px]">
+            <div onclick="window.location.href='nep-pyq.html'" class="md:col-span-6 bento-card glass-panel rounded-2xl p-8 md:p-10 flex flex-col justify-end group cursor-pointer overflow-hidden relative min-h-[280px] md:min-h-[320px]">
+                <div class="absolute inset-0 z-0 opacity-[0.07] transition-opacity group-hover:opacity-[0.15] bg-gradient-to-br from-accent-neural-emerald to-accent-neural-blue rounded-2xl"></div>
+                <!-- Decorative grid -->
+                <div class="absolute top-8 right-8 grid grid-cols-4 gap-2 opacity-10 group-hover:opacity-20 transition-opacity">
+                    <div class="w-2 h-2 bg-primary rounded-full"></div><div class="w-2 h-2 bg-primary rounded-full"></div><div class="w-2 h-2 bg-primary rounded-full"></div><div class="w-2 h-2 bg-primary rounded-full"></div>
+                    <div class="w-2 h-2 bg-primary rounded-full"></div><div class="w-2 h-2 bg-primary rounded-full"></div><div class="w-2 h-2 bg-primary rounded-full"></div><div class="w-2 h-2 bg-primary rounded-full"></div>
+                    <div class="w-2 h-2 bg-primary rounded-full"></div><div class="w-2 h-2 bg-primary rounded-full"></div><div class="w-2 h-2 bg-accent-neural-emerald rounded-full"></div><div class="w-2 h-2 bg-primary rounded-full"></div>
+                </div>
+                <div class="relative z-10">
+                    <span class="text-xs font-bold text-accent-neural-emerald mb-3 block uppercase tracking-widest">LaTeX Portal</span>
+                    <h3 class="text-2xl md:text-3xl font-bold mb-3 text-primary group-hover:text-accent-neural-emerald transition-colors">NEP Pattern PYQs (LaTeX)</h3>
+                    <p class="text-sm text-secondary max-w-md leading-relaxed mb-4">Access premium transcribed past year papers (Mathematics, Physics, Chemistry) in raw LaTeX format. View source code directly or download raw .tex files.</p>
+                    <div class="inline-flex items-center gap-1.5 text-xs font-bold text-primary group-hover:translate-x-1 transition-transform duration-200">
+                        <span>Browse NEP LaTeX Papers</span>
+                        <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 2: Four medium cards (3 + 3 + 3 + 3) -->
+            <div class="md:col-span-3 bento-card glass-panel rounded-2xl p-6 flex flex-col justify-between group hover:bg-white/60 transition-colors min-h-[200px]">
                 <span class="material-symbols-outlined text-primary text-3xl">psychology</span>
                 <div>
-                    <div class="inline-flex items-center gap-1.5 bg-accent-bhu-saffron/10 text-accent-bhu-saffron text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider mb-3">Live Now</div>
-                    <h4 class="text-xl font-bold text-primary mb-1">AEC Sem 4 Academic Writing</h4>
-                    <p class="text-xs text-secondary leading-relaxed">Complete syllabus including Plagiarism, Citations, and Document Formats.</p>
+                    <div class="inline-flex items-center gap-1.5 bg-accent-bhu-saffron/10 text-accent-bhu-saffron text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider mb-2">Live Now</div>
+                    <h4 class="text-lg font-bold text-primary mb-1 leading-snug">AEC Sem 4 Writing</h4>
+                    <p class="text-xs text-secondary leading-relaxed">Syllabus including Plagiarism, Citations, & Formatting.</p>
                 </div>
             </div>
 
-            <!-- Row 2: Dark download card (4) + Stats (4) + Responsive (4) -->
-            <div onclick="openBooksModal()" class="md:col-span-4 bento-card bg-primary text-on-primary rounded-2xl p-8 flex flex-col justify-between hover:bg-neutral-800 transition-colors cursor-pointer group min-h-[200px]">
-                <span class="material-symbols-outlined text-4xl text-accent-bhu-saffron group-hover:scale-110 transition-transform duration-300">library_books</span>
+            <div onclick="openBooksModal()" class="md:col-span-3 bento-card bg-primary text-on-primary rounded-2xl p-6 flex flex-col justify-between hover:bg-neutral-800 transition-colors cursor-pointer group min-h-[200px]">
+                <span class="material-symbols-outlined text-3xl text-accent-bhu-saffron group-hover:scale-110 transition-transform duration-300">library_books</span>
                 <div>
-                    <h4 class="text-xl font-bold text-white mb-1">Reference Books & Syllabus</h4>
-                    <p class="text-xs text-white/50 leading-relaxed">Free PDF downloads of official textbooks & semester guides.</p>
+                    <h4 class="text-lg font-bold text-white mb-1 leading-snug">Reference Books</h4>
+                    <p class="text-xs text-white/50 leading-relaxed">Free PDF downloads of official textbooks & guides.</p>
                 </div>
             </div>
 
-            <div class="md:col-span-4 bento-card glass-panel rounded-2xl p-8 flex flex-col justify-between min-h-[200px]">
+            <div class="md:col-span-3 bento-card glass-panel rounded-2xl p-6 flex flex-col justify-between min-h-[200px]">
                 <div class="flex items-baseline gap-2">
-                    <span class="text-5xl md:text-6xl font-bold text-primary stat-glow">100%</span>
+                    <span class="text-4xl md:text-5xl font-bold text-primary stat-glow">100%</span>
                 </div>
                 <div>
-                    <p class="text-xs font-bold text-secondary uppercase tracking-widest mb-2">Accuracy</p>
-                    <p class="text-sm text-secondary leading-relaxed">Every answer cross-checked against official department answer keys for high-fidelity study sessions.</p>
+                    <p class="text-xs font-bold text-secondary uppercase tracking-widest mb-1">Accuracy</p>
+                    <p class="text-xs text-secondary leading-relaxed">Cross-checked against department answer keys.</p>
                 </div>
             </div>
 
-            <div class="md:col-span-4 bento-card glass-panel rounded-2xl p-8 flex flex-col justify-between overflow-hidden relative min-h-[200px]">
-                <div class="flex gap-3 mb-6">
-                    <div class="w-12 h-12 rounded-xl glass-panel flex items-center justify-center shadow-sm">
-                        <span class="material-symbols-outlined text-primary">desktop_windows</span>
+            <div class="md:col-span-3 bento-card glass-panel rounded-2xl p-6 flex flex-col justify-between overflow-hidden relative min-h-[200px]">
+                <div class="flex gap-2 mb-4">
+                    <div class="w-8 h-8 rounded-lg glass-panel flex items-center justify-center shadow-sm">
+                        <span class="material-symbols-outlined text-primary text-sm">desktop_windows</span>
                     </div>
-                    <div class="w-12 h-12 rounded-xl glass-panel flex items-center justify-center shadow-sm">
-                        <span class="material-symbols-outlined text-primary">smartphone</span>
+                    <div class="w-8 h-8 rounded-lg glass-panel flex items-center justify-center shadow-sm">
+                        <span class="material-symbols-outlined text-primary text-sm">smartphone</span>
                     </div>
-                    <div class="w-12 h-12 rounded-xl glass-panel flex items-center justify-center shadow-sm">
-                        <span class="material-symbols-outlined text-primary">tablet</span>
+                    <div class="w-8 h-8 rounded-lg glass-panel flex items-center justify-center shadow-sm">
+                        <span class="material-symbols-outlined text-primary text-sm">tablet</span>
                     </div>
                 </div>
                 <div>
-                    <h4 class="text-xl font-bold text-primary mb-1">Responsive Learning</h4>
-                    <p class="text-sm text-secondary leading-relaxed">Works on lab workstations, laptops, or mobile devices on-the-go.</p>
+                    <h4 class="text-lg font-bold text-primary mb-1 leading-snug">Responsive</h4>
+                    <p class="text-xs text-secondary leading-relaxed">Works on workstations, laptops, or mobile devices.</p>
                 </div>
             </div>
 

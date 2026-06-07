@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>NEP Curriculum LaTeX PYQs | BHU Exam Prep</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "accent-bhu-saffron": "#F57C00",
+                        "accent-neural-purple": "#A855F7",
+                        "accent-neural-emerald": "#10B981",
+                        "accent-neural-blue": "#3B82F6",
+                        "background-warm": "#F7F7F5",
+                        "primary": "#000000",
+                        "secondary": "#5e5e5e",
+                        "border-subtle": "#E7E7E4",
+                        "on-background": "#1b1b1b"
+                    },
+                    borderRadius: {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem"
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background-warm text-on-background antialiased selection:bg-accent-neural-emerald/10 min-h-screen flex flex-col justify-between">
+
+<!-- TopNavBar -->
+<nav class="fixed top-0 left-0 right-0 z-50 bg-background-warm/80 backdrop-blur-xl border-b border-border-subtle shadow-sm h-16 md:h-20 w-full flex items-center">
+    <div class="max-w-7xl mx-auto px-4 md:px-8 flex justify-between items-center w-full">
+        <div class="flex items-center gap-3 md:gap-4">
+            <button onclick="window.location.href='index.html'" class="w-8 h-8 md:w-10 md:h-10 rounded-full border border-border-subtle hover:bg-neutral-100 transition-all flex items-center justify-center text-secondary hover:text-primary shrink-0 mr-1 md:mr-2" title="Back to Home">
+                <span class="material-symbols-outlined text-base md:text-lg">arrow_back</span>
+            </button>
+            <img src="images/logo.png" alt="BHU Logo" class="h-6 md:h-10 w-auto"/>
+            <span class="text-sm md:text-2xl font-bold tracking-tighter text-primary">BHU Exam Prep</span>
+        </div>
+    </div>
+</nav>
+
+<main class="relative pt-24 md:pt-40 pb-20 overflow-hidden flex-1 flex flex-col items-center justify-center">
+    <!-- Background atmosphere -->
+    <div class="neural-orb bg-accent-neural-emerald w-[500px] h-[500px] -top-20 -left-10 opacity-20 animate-float"></div>
+    <div class="neural-orb bg-accent-neural-blue w-[400px] h-[400px] bottom-10 -right-10 opacity-20 animate-float" style="animation-delay: -3s;"></div>
+
+    <div class="max-w-7xl w-full mx-auto px-4 md:px-8 relative z-10 flex flex-col items-center">
+        <!-- Header -->
+        <div class="text-center mb-12">
+            <span class="bg-accent-neural-emerald/10 text-accent-neural-emerald px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">NEP Academic Archive</span>
+            <h1 class="text-3xl md:text-5xl font-bold text-primary tracking-tight mt-4">NEP Curriculum LaTeX PYQs</h1>
+            <p class="text-sm md:text-base text-secondary max-w-xl mt-3 leading-relaxed">Select your stream or division below to access previous year question papers transcribed in high-fidelity LaTeX under the NEP curriculum.</p>
+        </div>
+
+        <!-- Stream Selector Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl w-full">
+            
+            <!-- Science Stream -->
+            <button onclick="window.location.href='nep-science.html'" class="p-6 md:p-8 rounded-2xl border border-border-subtle bg-white/60 backdrop-blur-md hover:border-accent-neural-emerald hover:bg-white transition-all duration-300 text-left flex flex-col justify-between min-h-[200px] group shadow-sm hover:shadow-md hover:scale-[1.02] active:scale-[0.98]">
+                <div class="w-12 h-12 rounded-xl bg-accent-neural-emerald/10 flex items-center justify-center text-accent-neural-emerald group-hover:bg-accent-neural-emerald group-hover:text-white transition-all duration-300">
+                    <span class="material-symbols-outlined text-2xl">science</span>
+                </div>
+                <div class="mt-6">
+                    <h3 class="font-bold text-lg text-primary group-hover:text-accent-neural-emerald transition-colors">Science Division</h3>
+                    <p class="text-xs text-secondary mt-1 leading-relaxed">Maths, Physics, Chemistry, Geology, Stats, Geography, Zoology, Botany...</p>
+                </div>
+            </button>
+
+            <!-- Art Stream -->
+            <button onclick="showComingSoonModal('Arts Division')" class="p-6 md:p-8 rounded-2xl border border-border-subtle bg-white/60 backdrop-blur-md hover:border-accent-neural-purple hover:bg-white transition-all duration-300 text-left flex flex-col justify-between min-h-[200px] group shadow-sm hover:shadow-md hover:scale-[1.02] active:scale-[0.98]">
+                <div class="w-12 h-12 rounded-xl bg-accent-neural-purple/10 flex items-center justify-center text-accent-neural-purple group-hover:bg-accent-neural-purple group-hover:text-white transition-all duration-300">
+                    <span class="material-symbols-outlined text-2xl">palette</span>
+                </div>
+                <div class="mt-6">
+                    <div class="flex items-center justify-between">
+                        <h3 class="font-bold text-lg text-primary group-hover:text-accent-neural-purple transition-colors">Arts Division</h3>
+                        <span class="bg-neutral-100 text-secondary text-[8px] font-bold px-2 py-0.5 rounded uppercase tracking-wider">Queue Active</span>
+                    </div>
+                    <p class="text-xs text-secondary mt-1 leading-relaxed">Literature, Philosophy, History, Sociology, Political Science, Economics...</p>
+                </div>
+            </button>
+
+            <!-- Commerce Stream -->
+            <button onclick="showComingSoonModal('Commerce Division')" class="p-6 md:p-8 rounded-2xl border border-border-subtle bg-white/60 backdrop-blur-md hover:border-accent-neural-blue hover:bg-white transition-all duration-300 text-left flex flex-col justify-between min-h-[200px] group shadow-sm hover:shadow-md hover:scale-[1.02] active:scale-[0.98]">
+                <div class="w-12 h-12 rounded-xl bg-accent-neural-blue/10 flex items-center justify-center text-accent-neural-blue group-hover:bg-accent-neural-blue group-hover:text-white transition-all duration-300">
+                    <span class="material-symbols-outlined text-2xl">payments</span>
+                </div>
+                <div class="mt-6">
+                    <div class="flex items-center justify-between">
+                        <h3 class="font-bold text-lg text-primary group-hover:text-accent-neural-blue transition-colors">Commerce Division</h3>
+                        <span class="bg-neutral-100 text-secondary text-[8px] font-bold px-2 py-0.5 rounded uppercase tracking-wider">Queue Active</span>
+                    </div>
+                    <p class="text-xs text-secondary mt-1 leading-relaxed">Financial Accounting, Business Statistics, Marketing, Taxation, Economics...</p>
+                </div>
+            </button>
+
+            <!-- IIT Stream -->
+            <button onclick="showComingSoonModal('IIT Engineering')" class="p-6 md:p-8 rounded-2xl border border-border-subtle bg-white/60 backdrop-blur-md hover:border-accent-neural-emerald hover:bg-white transition-all duration-300 text-left flex flex-col justify-between min-h-[200px] group shadow-sm hover:shadow-md hover:scale-[1.02] active:scale-[0.98]">
+                <div class="w-12 h-12 rounded-xl bg-accent-neural-emerald/10 flex items-center justify-center text-accent-neural-emerald group-hover:bg-accent-neural-emerald group-hover:text-white transition-all duration-300">
+                    <span class="material-symbols-outlined text-2xl">precision_manufacturing</span>
+                </div>
+                <div class="mt-6">
+                    <div class="flex items-center justify-between">
+                        <h3 class="font-bold text-lg text-primary group-hover:text-accent-neural-emerald transition-colors">IIT (Engineering)</h3>
+                        <span class="bg-neutral-100 text-secondary text-[8px] font-bold px-2 py-0.5 rounded uppercase tracking-wider">Queue Active</span>
+                    </div>
+                    <p class="text-xs text-secondary mt-1 leading-relaxed">IIT BHU Semester papers, Engineering Mathematics, Computer Science, Core Mechanics...</p>
+                </div>
+            </button>
+
+            <!-- IMS Stream -->
+            <button onclick="showComingSoonModal('IMS Medical')" class="p-6 md:p-8 rounded-2xl border border-border-subtle bg-white/60 backdrop-blur-md hover:border-red-500 hover:bg-white transition-all duration-300 text-left flex flex-col justify-between min-h-[200px] group shadow-sm hover:shadow-md hover:scale-[1.02] active:scale-[0.98]">
+                <div class="w-12 h-12 rounded-xl bg-red-500/10 flex items-center justify-center text-red-500 group-hover:bg-red-500 group-hover:text-white transition-all duration-300">
+                    <span class="material-symbols-outlined text-2xl">medical_services</span>
+                </div>
+                <div class="mt-6">
+                    <div class="flex items-center justify-between">
+                        <h3 class="font-bold text-lg text-primary group-hover:text-red-500 transition-colors">IMS (Medical Sciences)</h3>
+                        <span class="bg-neutral-100 text-secondary text-[8px] font-bold px-2 py-0.5 rounded uppercase tracking-wider">Queue Active</span>
+                    </div>
+                    <p class="text-xs text-secondary mt-1 leading-relaxed">Institute of Medical Sciences, MBBS semester guides, Anatomy, Physiology archives...</p>
+                </div>
+            </button>
+
+        </div>
+    </div>
+
+    <!-- Coming Soon Modal -->
+    <div id="comingSoonModal" onclick="if(event.target === this) closeComingSoonModal()" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/40 backdrop-blur-md opacity-0 transition-opacity duration-300 p-4">
+        <div class="bg-white rounded-2xl w-full max-w-md p-6 sm:p-8 shadow-2xl relative border border-border-subtle transform scale-95 transition-transform duration-300">
+            <button onclick="closeComingSoonModal()" class="absolute top-5 right-5 w-8 h-8 flex items-center justify-center rounded-full hover:bg-neutral-100 text-secondary hover:text-primary transition-colors">
+                <span class="material-symbols-outlined text-lg">close</span>
+            </button>
+            <div class="flex flex-col items-center text-center">
+                <div class="w-14 h-14 rounded-full bg-accent-neural-emerald/10 flex items-center justify-center text-accent-neural-emerald mb-4">
+                    <span class="material-symbols-outlined text-3xl">upload_file</span>
+                </div>
+                <h3 class="text-xl font-bold text-primary" id="modalStreamTitle">Division Archive</h3>
+                <p class="text-xs text-secondary mt-2 max-w-sm">This division's LaTeX archive is active on the upload queue. Provide the raw LaTeX sources or OCR datasets, and it will be populated immediately.</p>
+                <button onclick="closeComingSoonModal()" class="mt-6 bg-primary text-on-primary text-xs font-bold px-6 py-2.5 rounded-full hover:bg-neutral-800 active:scale-95 transition-all">
+                    Acknowledge
+                </button>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- Footer -->
+<footer class="w-full py-12 bg-background-warm border-t border-border-subtle">
+    <div class="max-w-7xl mx-auto px-4 md:px-8 flex flex-col md:flex-row justify-between items-center gap-8">
+        <div>
+            <span class="text-xs font-semibold tracking-wider text-primary mb-2 block uppercase">Banaras Hindu University</span>
+            <p class="text-xs text-secondary">© 2026 Banaras Hindu University. Prepared under NEP academic syllabus archive.</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    function showComingSoonModal(streamName) {
+        document.getElementById('modalStreamTitle').textContent = streamName + " LaTeX Archive";
+        const modal = document.getElementById('comingSoonModal');
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+        setTimeout(() => {
+            modal.classList.remove('opacity-0');
+            modal.querySelector('.bg-white').classList.remove('scale-95');
+        }, 10);
+    }
+
+    function closeComingSoonModal() {
+        const modal = document.getElementById('comingSoonModal');
+        modal.classList.add('opacity-0');
+        modal.querySelector('.bg-white').classList.add('scale-95');
+        setTimeout(() => {
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }, 300);
+    }
+    
+    // Floating orbs mouse tracking interaction
+    document.addEventListener('mousemove', (e) => {
+        const orbs = document.querySelectorAll('.neural-orb');
+        const mouseX = e.clientX / window.innerWidth;
+        const mouseY = e.clientY / window.innerHeight;
+
+        orbs.forEach((orb, index) => {
+            const speed = (index + 1) * 15;
+            const x = (mouseX - 0.5) * speed;
+            const y = (mouseY - 0.5) * speed;
+            orb.style.transform = `translate(${x}px, ${y}px)`;
+        });
+    });
+</script>
+
+</body>
+</html>
