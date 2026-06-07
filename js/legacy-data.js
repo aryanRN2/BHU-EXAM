@@ -932,88 +932,250 @@ export const LEGACY_PYQ_DATA = {
   ],
   "physics": [
     {
-      "title": "2022 2023 UG III SEM B.Sc. PHYSICS",
-      "fileName": "2022-2023_UG_III-SEM_B.Sc._PHYSICS.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fphysics%2F2022-2023_UG_III-SEM_B.Sc._PHYSICS.pdf",
-      "semester": 3
-    },
-    {
-      "title": "2022 2023 UG IV SEM B.Sc. PHYSICS",
-      "fileName": "2022-2023_UG_IV-SEM_B.Sc._PHYSICS.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fphysics%2F2022-2023_UG_IV-SEM_B.Sc._PHYSICS.pdf",
-      "semester": 4
-    },
-    {
-      "title": "2022 2023 UG I   SEM B.Sc. PHYSICS",
-      "fileName": "2022-2023_UG_I_-_SEM_B.Sc._PHYSICS.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fphysics%2F2022-2023_UG_I_-_SEM_B.Sc._PHYSICS.pdf",
+      "title": "Ancillary Physics (BSCU7A) (2016-17)",
+      "fileName": "BSCU7A_AncillaryPhysics_SemI_2016-17.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BSCU7A_AncillaryPhysics_SemI_2016-17.pdf",
       "semester": 1
     },
     {
-      "title": "2022 2023 UG V SEM B.Sc. PHYSICS",
-      "fileName": "2022-2023_UG_V-SEM_B.Sc._PHYSICS.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fphysics%2F2022-2023_UG_V-SEM_B.Sc._PHYSICS.pdf",
-      "semester": 5
-    },
-    {
-      "title": "2022 2023 UG VI SEM B.Sc. PHYSICS",
-      "fileName": "2022-2023_UG_VI-SEM_B.Sc._PHYSICS.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fphysics%2F2022-2023_UG_VI-SEM_B.Sc._PHYSICS.pdf",
-      "semester": 6
-    },
-    {
-      "title": "2023 24 UG I Sem B.Sc.   PHYSICS",
-      "fileName": "2023-24_UG_I-Sem_B.Sc._-_PHYSICS.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fphysics%2F2023-24_UG_I-Sem_B.Sc._-_PHYSICS.pdf",
+      "title": "Mechanics and Relativity (BPT-101) (2016-17)",
+      "fileName": "BPT-101_MechanicsandRelativity_SemI_2016-17.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-101_MechanicsandRelativity_SemI_2016-17.pdf",
       "semester": 1
     },
     {
-      "title": "2023 24 UG III Sem B.Sc.   PHYSICS",
-      "fileName": "2023-24_UG_III-Sem_B.Sc._-_PHYSICS.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fphysics%2F2023-24_UG_III-Sem_B.Sc._-_PHYSICS.pdf",
-      "semester": 3
+      "title": "Mechanics and Relativity (BPT-101) (2022-23)",
+      "fileName": "BPT-101_MechanicsandRelativity_SemI_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-101_MechanicsandRelativity_SemI_2022-23.pdf",
+      "semester": 1
     },
     {
-      "title": "2023 24 UG IV Sem B.Sc.   PHYSICS",
-      "fileName": "2023-24_UG_IV-Sem_B.Sc._-_PHYSICS.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fphysics%2F2023-24_UG_IV-Sem_B.Sc._-_PHYSICS.pdf",
-      "semester": 4
+      "title": "Mechanics and Relativity (BPT-101) (2023-24)",
+      "fileName": "BPT-101_MechanicsandRelativity_SemI_2023-24.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-101_MechanicsandRelativity_SemI_2023-24.pdf",
+      "semester": 1
     },
     {
-      "title": "even14 B.SC PHYSICS SEM II B.SC PHYSICS SEM II B.SC PHYSICS SEM II.pdf",
-      "fileName": "even14_B.SC-PHYSICS-SEM-II_B.SC-PHYSICS-SEM-II.pdf_B.SC-PHYSICS-SEM-II.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fphysics%2Feven14_B.SC-PHYSICS-SEM-II_B.SC-PHYSICS-SEM-II.pdf_B.SC-PHYSICS-SEM-II.pdf",
+      "title": "Ancillary Physics-I (BP-Anc-I) (2013-14)",
+      "fileName": "BP-Anc-I_AncillaryPhysics-I_SemII_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BP-Anc-I_AncillaryPhysics-I_SemII_2013-14.pdf",
       "semester": 2
     },
     {
-      "title": "even14 B.SC PHYSICS SEM IV B.SC PHYSICS SEM IV B.SC PHYSICS SEM IV.pdf",
-      "fileName": "even14_B.SC-PHYSICS-SEM-IV_B.SC-PHYSICS-SEM-IV.pdf_B.SC-PHYSICS-SEM-IV.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fphysics%2Feven14_B.SC-PHYSICS-SEM-IV_B.SC-PHYSICS-SEM-IV.pdf_B.SC-PHYSICS-SEM-IV.pdf",
+      "title": "Thermal Physics (BPT-201) (2013-14)",
+      "fileName": "BPT-201_ThermalPhysics_SemII_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-201_ThermalPhysics_SemII_2013-14.pdf",
+      "semester": 2
+    },
+    {
+      "title": "Optics (BPT-301) (2022-23)",
+      "fileName": "BPT-301_Optics_SemIII_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-301_Optics_SemIII_2022-23.pdf",
+      "semester": 3
+    },
+    {
+      "title": "Optics (BPT-301) (2023-24)",
+      "fileName": "BPT-301_Optics_SemIII_2023-24.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-301_Optics_SemIII_2023-24.pdf",
+      "semester": 3
+    },
+    {
+      "title": "Ancillary Physics-II (BSC-07A) (2022-23)",
+      "fileName": "BSC-07A_AncillaryPhysics-II_SemIV_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BSC-07A_AncillaryPhysics-II_SemIV_2022-23.pdf",
       "semester": 4
     },
     {
-      "title": "even14 B.SC PHYSICS SEM VI B.SC PHYSICS SEM VI B.SC PHYSICS SEM VI.pdf",
-      "fileName": "even14_B.SC-PHYSICS-SEM-VI_B.SC-PHYSICS-SEM-VI.pdf_B.SC-PHYSICS-SEM-VI.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fphysics%2Feven14_B.SC-PHYSICS-SEM-VI_B.SC-PHYSICS-SEM-VI.pdf_B.SC-PHYSICS-SEM-VI.pdf",
+      "title": "Ancillary Physics-II (BSC-07A) (2023-24)",
+      "fileName": "BSC-07A_AncillaryPhysics-II_SemIV_2023-24.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BSC-07A_AncillaryPhysics-II_SemIV_2023-24.pdf",
+      "semester": 4
+    },
+    {
+      "title": "Ancillary Physics-II (PHYSICS) (2013-14)",
+      "fileName": "PHYSICS_AncillaryPhysics-II_SemIV_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/PHYSICS_AncillaryPhysics-II_SemIV_2013-14.pdf",
+      "semester": 4
+    },
+    {
+      "title": "Electromagnetic Theory and Basic Electronics Old (BPT-401) (2013-14)",
+      "fileName": "BPT-401_ElectromagneticTheoryandBasicElectronicsOld_SemIV_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-401_ElectromagneticTheoryandBasicElectronicsOld_SemIV_2013-14.pdf",
+      "semester": 4
+    },
+    {
+      "title": "Electronics and Modern Physics (BPT-401) (2013-14)",
+      "fileName": "BPT-401_ElectronicsandModernPhysics_SemIV_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-401_ElectronicsandModernPhysics_SemIV_2013-14.pdf",
+      "semester": 4
+    },
+    {
+      "title": "Electronics and Modern Physics (BPT-401) (2022-23)",
+      "fileName": "BPT-401_ElectronicsandModernPhysics_SemIV_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-401_ElectronicsandModernPhysics_SemIV_2022-23.pdf",
+      "semester": 4
+    },
+    {
+      "title": "Electronics and Modern Physics (BPT-401) (2023-24)",
+      "fileName": "BPT-401_ElectronicsandModernPhysics_SemIV_2023-24.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-401_ElectronicsandModernPhysics_SemIV_2023-24.pdf",
+      "semester": 4
+    },
+    {
+      "title": "Classical Mechanics (BPT-502) (2013-14)",
+      "fileName": "BPT-502_ClassicalMechanics_SemV_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-502_ClassicalMechanics_SemV_2013-14.pdf",
+      "semester": 5
+    },
+    {
+      "title": "Classical Mechanics (BPT-502) (2016-17)",
+      "fileName": "BPT-502_ClassicalMechanics_SemV_2016-17.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-502_ClassicalMechanics_SemV_2016-17.pdf",
+      "semester": 5
+    },
+    {
+      "title": "Classical Mechanics (BPT-502) (2022-23)",
+      "fileName": "BPT-502_ClassicalMechanics_SemV_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-502_ClassicalMechanics_SemV_2022-23.pdf",
+      "semester": 5
+    },
+    {
+      "title": "Electromagnetic Theory (BPT-505) (2016-17)",
+      "fileName": "BPT-505_ElectromagneticTheory_SemV_2016-17.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-505_ElectromagneticTheory_SemV_2016-17.pdf",
+      "semester": 5
+    },
+    {
+      "title": "Electromagnetic Theory (BPT-505) (2022-23)",
+      "fileName": "BPT-505_ElectromagneticTheory_SemV_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-505_ElectromagneticTheory_SemV_2022-23.pdf",
+      "semester": 5
+    },
+    {
+      "title": "Electronic Devices and Circuits (BPT-504) (2013-14)",
+      "fileName": "BPT-504_ElectronicDevicesandCircuits_SemV_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-504_ElectronicDevicesandCircuits_SemV_2013-14.pdf",
+      "semester": 5
+    },
+    {
+      "title": "Electronic Devices and Circuits (BPT-504) (2016-17)",
+      "fileName": "BPT-504_ElectronicDevicesandCircuits_SemV_2016-17.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-504_ElectronicDevicesandCircuits_SemV_2016-17.pdf",
+      "semester": 5
+    },
+    {
+      "title": "Electronic Devices and Circuits (BPT-504) (2022-23)",
+      "fileName": "BPT-504_ElectronicDevicesandCircuits_SemV_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-504_ElectronicDevicesandCircuits_SemV_2022-23.pdf",
+      "semester": 5
+    },
+    {
+      "title": "Mathematical Physics (BPT-501) (2013-14)",
+      "fileName": "BPT-501_MathematicalPhysics_SemV_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-501_MathematicalPhysics_SemV_2013-14.pdf",
+      "semester": 5
+    },
+    {
+      "title": "Mathematical Physics (BPT-501) (2016-17)",
+      "fileName": "BPT-501_MathematicalPhysics_SemV_2016-17.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-501_MathematicalPhysics_SemV_2016-17.pdf",
+      "semester": 5
+    },
+    {
+      "title": "Mathematical Physics (BPT-501) (2022-23)",
+      "fileName": "BPT-501_MathematicalPhysics_SemV_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-501_MathematicalPhysics_SemV_2022-23.pdf",
+      "semester": 5
+    },
+    {
+      "title": "Quantum Mechanics (BPT-503) (2013-14)",
+      "fileName": "BPT-503_QuantumMechanics_SemV_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-503_QuantumMechanics_SemV_2013-14.pdf",
+      "semester": 5
+    },
+    {
+      "title": "Quantum Mechanics (BPT-503) (2016-17)",
+      "fileName": "BPT-503_QuantumMechanics_SemV_2016-17.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-503_QuantumMechanics_SemV_2016-17.pdf",
+      "semester": 5
+    },
+    {
+      "title": "Quantum Mechanics (BPT-503) (2022-23)",
+      "fileName": "BPT-503_QuantumMechanics_SemV_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-503_QuantumMechanics_SemV_2022-23.pdf",
+      "semester": 5
+    },
+    {
+      "title": "Atomic Physics and Lasers (BPT-604) (2013-14)",
+      "fileName": "BPT-604_AtomicPhysicsandLasers_SemVI_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-604_AtomicPhysicsandLasers_SemVI_2013-14.pdf",
       "semester": 6
     },
     {
-      "title": "odd14 B.SC PHYSICS SEM V B.SC PHYSICS SEM V.pdf",
-      "fileName": "odd14_B.SC-PHYSICS-SEM-V.pdf_B.SC-PHYSICS-SEM-V.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fphysics%2Fodd14_B.SC-PHYSICS-SEM-V.pdf_B.SC-PHYSICS-SEM-V.pdf",
-      "semester": 5
+      "title": "Atomic Physics and Lasers (BPT-604) (2022-23)",
+      "fileName": "BPT-604_AtomicPhysicsandLasers_SemVI_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-604_AtomicPhysicsandLasers_SemVI_2022-23.pdf",
+      "semester": 6
     },
     {
-      "title": "odd16 1st SEM B.SC PHYSICS",
-      "fileName": "odd16_1st_SEM_B.SC_PHYSICS.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fphysics%2Fodd16_1st_SEM_B.SC_PHYSICS.pdf",
-      "semester": 1
+      "title": "Elementary Nanoscience (BPE-602) (2013-14)",
+      "fileName": "BPE-602_ElementaryNanoscience_SemVI_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPE-602_ElementaryNanoscience_SemVI_2013-14.pdf",
+      "semester": 6
     },
     {
-      "title": "odd16 5th SEM B.Sc. PHYSICS",
-      "fileName": "odd16_5th_SEM_B.Sc._PHYSICS.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fphysics%2Fodd16_5th_SEM_B.Sc._PHYSICS.pdf",
-      "semester": 5
+      "title": "Elementary Nanoscience (BPE-602) (2022-23)",
+      "fileName": "BPE-602_ElementaryNanoscience_SemVI_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPE-602_ElementaryNanoscience_SemVI_2022-23.pdf",
+      "semester": 6
+    },
+    {
+      "title": "Elements of Nuclear Physics (BPT-603) (2013-14)",
+      "fileName": "BPT-603_ElementsofNuclearPhysics_SemVI_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-603_ElementsofNuclearPhysics_SemVI_2013-14.pdf",
+      "semester": 6
+    },
+    {
+      "title": "Elements of Nuclear Physics (BPT-603) (2022-23)",
+      "fileName": "BPT-603_ElementsofNuclearPhysics_SemVI_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-603_ElementsofNuclearPhysics_SemVI_2022-23.pdf",
+      "semester": 6
+    },
+    {
+      "title": "Solid State Physics (BPT-602) (2013-14)",
+      "fileName": "BPT-602_SolidStatePhysics_SemVI_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-602_SolidStatePhysics_SemVI_2013-14.pdf",
+      "semester": 6
+    },
+    {
+      "title": "Solid State Physics (BPT-602) (2022-23)",
+      "fileName": "BPT-602_SolidStatePhysics_SemVI_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-602_SolidStatePhysics_SemVI_2022-23.pdf",
+      "semester": 6
+    },
+    {
+      "title": "Statistical Mechanics (BPT-601) (2013-14)",
+      "fileName": "BPT-601_StatisticalMechanics_SemVI_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-601_StatisticalMechanics_SemVI_2013-14.pdf",
+      "semester": 6
+    },
+    {
+      "title": "Statistical Mechanics (BPT-601) (2022-23)",
+      "fileName": "BPT-601_StatisticalMechanics_SemVI_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPT-601_StatisticalMechanics_SemVI_2022-23.pdf",
+      "semester": 6
+    },
+    {
+      "title": "Topics in Modern Physics (BPE-601) (2013-14)",
+      "fileName": "BPE-601_TopicsinModernPhysics_SemVI_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPE-601_TopicsinModernPhysics_SemVI_2013-14.pdf",
+      "semester": 6
+    },
+    {
+      "title": "Topics in Modern Physics (BPE-601) (2022-23)",
+      "fileName": "BPE-601_TopicsinModernPhysics_SemVI_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/BPE-601_TopicsinModernPhysics_SemVI_2022-23.pdf",
+      "semester": 6
     }
   ],
   "statistics": [
