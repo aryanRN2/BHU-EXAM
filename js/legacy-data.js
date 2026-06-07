@@ -564,130 +564,370 @@ export const LEGACY_PYQ_DATA = {
   ],
   "maths": [
     {
-      "title": "2022 2023 UG II SEM BA MATHEMATICS",
-      "fileName": "2022-2023_UG_II-SEM_BA_MATHEMATICS.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2022-2023_UG_II-SEM_BA_MATHEMATICS.pdf",
-      "semester": 2
-    },
-    {
-      "title": "2022 2023 UG III SEM B.Sc. MATHEMATICS",
-      "fileName": "2022-2023_UG_III-SEM_B.Sc._MATHEMATICS.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2022-2023_UG_III-SEM_B.Sc._MATHEMATICS.pdf",
-      "semester": 3
-    },
-    {
-      "title": "2022 2023 UG IV SEM B.Sc. MATHEMATICS",
-      "fileName": "2022-2023_UG_IV-SEM_B.Sc._MATHEMATICS.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2022-2023_UG_IV-SEM_B.Sc._MATHEMATICS.pdf",
-      "semester": 4
-    },
-    {
-      "title": "2022 2023 UG IV SEM BA MATHEMATICS",
-      "fileName": "2022-2023_UG_IV-SEM_BA_MATHEMATICS.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2022-2023_UG_IV-SEM_BA_MATHEMATICS.pdf",
-      "semester": 4
-    },
-    {
-      "title": "2022 2023 UG I   SEM B.A. MATHEMATICS",
-      "fileName": "2022-2023_UG_I_-_SEM_B.A._MATHEMATICS.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2022-2023_UG_I_-_SEM_B.A._MATHEMATICS.pdf",
+      "title": "Calculus - BSc (2016-17) (Old)",
+      "fileName": "Calculus_BSc-SemI_2016-17_Old.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Calculus_BSc-SemI_2016-17_Old.pdf",
       "semester": 1
     },
     {
-      "title": "2022 2023 UG V SEM BA and B.Sc MATHEMATICS",
-      "fileName": "2022-2023_UG_V-SEM_BA_and_B.Sc_MATHEMATICS.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2022-2023_UG_V-SEM_BA_and_B.Sc_MATHEMATICS.pdf",
+      "title": "Calculus I - BSc (2016-17)",
+      "fileName": "CalculusI_BSc-SemI_2016-17.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CalculusI_BSc-SemI_2016-17.pdf",
+      "semester": 1
+    },
+    {
+      "title": "Calculus I (MTB-101) - BA (2022-23)",
+      "fileName": "MTB-101_Calculus-I_BA-SemI_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-101_Calculus-I_BA-SemI_2022-23.pdf",
+      "semester": 1
+    },
+    {
+      "title": "Calculus I (MTB-101) - BSc (2023-24)",
+      "fileName": "MTB-101_Calculus-I_BSc-SemI_2023-24.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-101_Calculus-I_BSc-SemI_2023-24.pdf",
+      "semester": 1
+    },
+    {
+      "title": "Geometry - BSc (2016-17)",
+      "fileName": "Geometry_BSc-SemI_2016-17.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Geometry_BSc-SemI_2016-17.pdf",
+      "semester": 1
+    },
+    {
+      "title": "Geometry (MTB-102) - BA (2022-23)",
+      "fileName": "MTB-102_Geometry_BA-SemI_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-102_Geometry_BA-SemI_2022-23.pdf",
+      "semester": 1
+    },
+    {
+      "title": "Geometry (MTB-102) - BA (2023-24)",
+      "fileName": "MTB-102_Geometry_BA-SemI_2023-24.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-102_Geometry_BA-SemI_2023-24.pdf",
+      "semester": 1
+    },
+    {
+      "title": "Geometry (MTB-102) - BSc (2023-24)",
+      "fileName": "MTB-102_Geometry_BSc-SemI_2023-24.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-102_Geometry_BSc-SemI_2023-24.pdf",
+      "semester": 1
+    },
+    {
+      "title": "Ancillary I - BSc (2013-14)",
+      "fileName": "AncillaryI_BSc-SemII_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/AncillaryI_BSc-SemII_2013-14.pdf",
+      "semester": 2
+    },
+    {
+      "title": "Ancillary I (MTB-203A) - BSc (2023-24)",
+      "fileName": "MTB-203A_AncillaryI_BSc-SemII_2023-24.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-203A_AncillaryI_BSc-SemII_2023-24.pdf",
+      "semester": 2
+    },
+    {
+      "title": "Ancillary I (MTB-AM-203) - BSc (2013-14)",
+      "fileName": "MTB-AM-203_AncillaryI_BSc-SemII_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-AM-203_AncillaryI_BSc-SemII_2013-14.pdf",
+      "semester": 2
+    },
+    {
+      "title": "Ancillary Maths - BSc (2013-14)",
+      "fileName": "AncillaryMaths_BSc-SemII_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/AncillaryMaths_BSc-SemII_2013-14.pdf",
+      "semester": 2
+    },
+    {
+      "title": "Calculus II - BA (2023-24)",
+      "fileName": "CalculusII_BA-SemII_2023-24.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CalculusII_BA-SemII_2023-24.pdf",
+      "semester": 2
+    },
+    {
+      "title": "Calculus II (MTB-201) - BSc (2013-14)",
+      "fileName": "MTB-201_Calculus-II_BSc-SemII_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-201_Calculus-II_BSc-SemII_2013-14.pdf",
+      "semester": 2
+    },
+    {
+      "title": "Calculus II (MTB-201) - BSc (2023-24)",
+      "fileName": "MTB-201_Calculus-II_BSc-SemII_2023-24.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-201_Calculus-II_BSc-SemII_2023-24.pdf",
+      "semester": 2
+    },
+    {
+      "title": "Calculus III (MTB-201) - BA (2022-23)",
+      "fileName": "MTB-201_Calculus-III_BA-SemII_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-201_Calculus-III_BA-SemII_2022-23.pdf",
+      "semester": 2
+    },
+    {
+      "title": "Multivariable Calculus - BSc (2013-14)",
+      "fileName": "MultivariableCalculus_BSc-SemII_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MultivariableCalculus_BSc-SemII_2013-14.pdf",
+      "semester": 2
+    },
+    {
+      "title": "Statics Dynamics - BA (2022-23)",
+      "fileName": "StaticsDynamics_BA-SemII_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/StaticsDynamics_BA-SemII_2022-23.pdf",
+      "semester": 2
+    },
+    {
+      "title": "Statics Dynamics - BA (2023-24)",
+      "fileName": "StaticsDynamics_BA-SemII_2023-24.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/StaticsDynamics_BA-SemII_2023-24.pdf",
+      "semester": 2
+    },
+    {
+      "title": "Statics Dynamics (MTB-202) - BSc (2013-14)",
+      "fileName": "MTB-202_StaticsDynamics_BSc-SemII_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-202_StaticsDynamics_BSc-SemII_2013-14.pdf",
+      "semester": 2
+    },
+    {
+      "title": "Statics Dynamics (MTB-202) - BSc (2023-24)",
+      "fileName": "MTB-202_StaticsDynamics_BSc-SemII_2023-24.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-202_StaticsDynamics_BSc-SemII_2023-24.pdf",
+      "semester": 2
+    },
+    {
+      "title": "Algebra - BSc (2016-17) (Old)",
+      "fileName": "Algebra_BSc-SemIII_2016-17_Old.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Algebra_BSc-SemIII_2016-17_Old.pdf",
+      "semester": 3
+    },
+    {
+      "title": "Algebra (MTB-301) - BSc (2016-17)",
+      "fileName": "MTB-301_Algebra_BSc-SemIII_2016-17.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-301_Algebra_BSc-SemIII_2016-17.pdf",
+      "semester": 3
+    },
+    {
+      "title": "Algebra I (MTB-301) (2023-24)",
+      "fileName": "MTB-301_Algebra-I_SemIII_2023-24.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-301_Algebra-I_SemIII_2023-24.pdf",
+      "semester": 3
+    },
+    {
+      "title": "Diff Eq (MTB-302) - BA (2023-24)",
+      "fileName": "MTB-302_DiffEq_BA-SemIII_2023-24.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-302_DiffEq_BA-SemIII_2023-24.pdf",
+      "semester": 3
+    },
+    {
+      "title": "Diff Eq (MTB-302) - BSc (2023-24)",
+      "fileName": "MTB-302_DiffEq_BSc-SemIII_2023-24.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-302_DiffEq_BSc-SemIII_2023-24.pdf",
+      "semester": 3
+    },
+    {
+      "title": "Diff Equations (MTB-302) - BSc (2016-17)",
+      "fileName": "MTB-302_DiffEquations_BSc-SemIII_2016-17.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-302_DiffEquations_BSc-SemIII_2016-17.pdf",
+      "semester": 3
+    },
+    {
+      "title": "Ancillary II - BSc (2013-14)",
+      "fileName": "AncillaryII_BSc-SemIV_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/AncillaryII_BSc-SemIV_2013-14.pdf",
+      "semester": 4
+    },
+    {
+      "title": "Ancillary Maths (MTB-AM-403) - BSc (2023-24)",
+      "fileName": "MTB-AM-403_AncillaryMaths_BSc-SemIV_2023-24.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-AM-403_AncillaryMaths_BSc-SemIV_2023-24.pdf",
+      "semester": 4
+    },
+    {
+      "title": "Math Methods - BSc (2013-14)",
+      "fileName": "MathMethods_BSc-SemIV_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MathMethods_BSc-SemIV_2013-14.pdf",
+      "semester": 4
+    },
+    {
+      "title": "Math Methods (MTB-402) - BA (2023-24)",
+      "fileName": "MTB-402_MathMethods_BA-SemIV_2023-24.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-402_MathMethods_BA-SemIV_2023-24.pdf",
+      "semester": 4
+    },
+    {
+      "title": "Math Methods (MTB-402) - BSc (2023-24)",
+      "fileName": "MTB-402_MathMethods_BSc-SemIV_2023-24.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-402_MathMethods_BSc-SemIV_2023-24.pdf",
+      "semester": 4
+    },
+    {
+      "title": "PDEs - BSc (2013-14)",
+      "fileName": "PDEs_BSc-SemIV_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/PDEs_BSc-SemIV_2013-14.pdf",
+      "semester": 4
+    },
+    {
+      "title": "PDEs (MTB-401) - BA (2023-24)",
+      "fileName": "MTB-401_PDEs_BA-SemIV_2023-24.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-401_PDEs_BA-SemIV_2023-24.pdf",
+      "semester": 4
+    },
+    {
+      "title": "PDEs (MTB-401) - BSc (2023-24)",
+      "fileName": "MTB-401_PDEs_BSc-SemIV_2023-24.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MTB-401_PDEs_BSc-SemIV_2023-24.pdf",
+      "semester": 4
+    },
+    {
+      "title": "Abstract Algebra (2022-23)",
+      "fileName": "AbstractAlgebra_SemV_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/AbstractAlgebra_SemV_2022-23.pdf",
       "semester": 5
     },
     {
-      "title": "2022 2023 UG VI SEM BA and B.Sc. MATHEMATICS",
-      "fileName": "2022-2023_UG_VI-SEM_BA_and_B.Sc._MATHEMATICS.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2022-2023_UG_VI-SEM_BA_and_B.Sc._MATHEMATICS.pdf",
-      "semester": 6
-    },
-    {
-      "title": "2023 24 UG I Sem B.Sc.   MATHEMATICS",
-      "fileName": "2023-24_UG_I-Sem_B.Sc._-_MATHEMATICS.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2023-24_UG_I-Sem_B.Sc._-_MATHEMATICS.pdf",
-      "semester": 1
-    },
-    {
-      "title": "2023 24 UG I Sem BA   MATHEMATICS",
-      "fileName": "2023-24_UG_I-Sem_BA_-_MATHEMATICS.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2023-24_UG_I-Sem_BA_-_MATHEMATICS.pdf",
-      "semester": 1
-    },
-    {
-      "title": "2023 24 UG II Sem B.Sc.   MATHEMATICS",
-      "fileName": "2023-24_UG_II-Sem_B.Sc._-_MATHEMATICS.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2023-24_UG_II-Sem_B.Sc._-_MATHEMATICS.pdf",
-      "semester": 2
-    },
-    {
-      "title": "2023 24 UG II Sem BA   MATHEMATICS",
-      "fileName": "2023-24_UG_II-Sem_BA_-_MATHEMATICS.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2023-24_UG_II-Sem_BA_-_MATHEMATICS.pdf",
-      "semester": 2
-    },
-    {
-      "title": "2023 24 UG III Sem B.Sc.   MATHEMATICS",
-      "fileName": "2023-24_UG_III-Sem_B.Sc._-_MATHEMATICS.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2023-24_UG_III-Sem_B.Sc._-_MATHEMATICS.pdf",
-      "semester": 3
-    },
-    {
-      "title": "2023 24 UG III Sem BA   MATHEMATICS",
-      "fileName": "2023-24_UG_III-Sem_BA_-_MATHEMATICS.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2023-24_UG_III-Sem_BA_-_MATHEMATICS.pdf",
-      "semester": 3
-    },
-    {
-      "title": "2023 24 UG IV Sem B.Sc.   MATHEMATICS",
-      "fileName": "2023-24_UG_IV-Sem_B.Sc._-_MATHEMATICS.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2023-24_UG_IV-Sem_B.Sc._-_MATHEMATICS.pdf",
-      "semester": 4
-    },
-    {
-      "title": "2023 24 UG IV Sem BA   MATHEMATICS",
-      "fileName": "2023-24_UG_IV-Sem_BA_-_MATHEMATICS.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2023-24_UG_IV-Sem_BA_-_MATHEMATICS.pdf",
-      "semester": 4
-    },
-    {
-      "title": "even14 B.A B.SC MATH SEM VI B.A B.SC MATH SEM VI B.A B.SC MATH SEM VI.pdf",
-      "fileName": "even14_B.A-B.SC-MATH-SEM-VI_B.A-B.SC-MATH-SEM-VI.pdf_B.A-B.SC-MATH-SEM-VI.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2Feven14_B.A-B.SC-MATH-SEM-VI_B.A-B.SC-MATH-SEM-VI.pdf_B.A-B.SC-MATH-SEM-VI.pdf",
-      "semester": 6
-    },
-    {
-      "title": "even14 B.SC MATH SEM II B.SC MATH SEM II B.SC MATH SEM II.pdf",
-      "fileName": "even14_B.SC-MATH-SEM-II_B.SC-MATH-SEM-II.pdf_B.SC-MATH-SEM-II.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2Feven14_B.SC-MATH-SEM-II_B.SC-MATH-SEM-II.pdf_B.SC-MATH-SEM-II.pdf",
-      "semester": 2
-    },
-    {
-      "title": "even14 B.SC MATH SEM IV B.SC MATH SEM IV B.SC MATH SEM IV.pdf",
-      "fileName": "even14_B.SC-MATH-SEM-IV_B.SC-MATH-SEM-IV.pdf_B.SC-MATH-SEM-IV.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2Feven14_B.SC-MATH-SEM-IV_B.SC-MATH-SEM-IV.pdf_B.SC-MATH-SEM-IV.pdf",
-      "semester": 4
-    },
-    {
-      "title": "odd14 B.A B.SC MATHMETICS SEM V B.A B.SC MATHMETICS SEM V.pdf",
-      "fileName": "odd14_B.A-B.SC-MATHMETICS-SEM-V.pdf_B.A-B.SC-MATHMETICS-SEM-V.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2Fodd14_B.A-B.SC-MATHMETICS-SEM-V.pdf_B.A-B.SC-MATHMETICS-SEM-V.pdf",
+      "title": "Combinatorial Math (2022-23)",
+      "fileName": "CombinatorialMath_SemV_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/CombinatorialMath_SemV_2022-23.pdf",
       "semester": 5
     },
     {
-      "title": "odd16 1st SEM B.SC MATHEMATICS",
-      "fileName": "odd16_1st_SEM_B.SC_MATHEMATICS.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2Fodd16_1st_SEM_B.SC_MATHEMATICS.pdf",
-      "semester": 1
+      "title": "Diff Geometry (2022-23)",
+      "fileName": "DiffGeometry_SemV_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/DiffGeometry_SemV_2022-23.pdf",
+      "semester": 5
     },
     {
-      "title": "odd16 3rd SEM B.Sc MATH",
-      "fileName": "odd16_3rd_SEM_B.Sc_MATH.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2Fodd16_3rd_SEM_B.Sc_MATH.pdf",
-      "semester": 3
+      "title": "Mathematical Analysis (2022-23)",
+      "fileName": "MathematicalAnalysis_SemV_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/MathematicalAnalysis_SemV_2022-23.pdf",
+      "semester": 5
+    },
+    {
+      "title": "Mechanics (2022-23)",
+      "fileName": "Mechanics_SemV_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Mechanics_SemV_2022-23.pdf",
+      "semester": 5
+    },
+    {
+      "title": "Operations Research (2022-23)",
+      "fileName": "OperationsResearch_SemV_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/OperationsResearch_SemV_2022-23.pdf",
+      "semester": 5
+    },
+    {
+      "title": "Probability (2022-23)",
+      "fileName": "Probability_SemV_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Probability_SemV_2022-23.pdf",
+      "semester": 5
+    },
+    {
+      "title": "Programming In C (2022-23)",
+      "fileName": "ProgrammingInC_SemV_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/ProgrammingInC_SemV_2022-23.pdf",
+      "semester": 5
+    },
+    {
+      "title": "Relativity (2022-23)",
+      "fileName": "Relativity_SemV_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Relativity_SemV_2022-23.pdf",
+      "semester": 5
+    },
+    {
+      "title": "Analysis II - BSc (2013-14)",
+      "fileName": "AnalysisII_BSc-SemVI_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/AnalysisII_BSc-SemVI_2013-14.pdf",
+      "semester": 6
+    },
+    {
+      "title": "Complex Analysis (2022-23)",
+      "fileName": "ComplexAnalysis_SemVI_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/ComplexAnalysis_SemVI_2022-23.pdf",
+      "semester": 6
+    },
+    {
+      "title": "Discrete Mathematics (2022-23)",
+      "fileName": "DiscreteMathematics_SemVI_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/DiscreteMathematics_SemVI_2022-23.pdf",
+      "semester": 6
+    },
+    {
+      "title": "Dynamical Systems (2022-23)",
+      "fileName": "DynamicalSystems_SemVI_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/DynamicalSystems_SemVI_2022-23.pdf",
+      "semester": 6
+    },
+    {
+      "title": "Global Diff Geometry (2022-23)",
+      "fileName": "GlobalDiffGeometry_SemVI_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/GlobalDiffGeometry_SemVI_2022-23.pdf",
+      "semester": 6
+    },
+    {
+      "title": "Linear Algebra - BSc (2013-14)",
+      "fileName": "LinearAlgebra_BSc-SemVI_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/LinearAlgebra_BSc-SemVI_2013-14.pdf",
+      "semester": 6
+    },
+    {
+      "title": "Linear Algebra (2022-23)",
+      "fileName": "LinearAlgebra_SemVI_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/LinearAlgebra_SemVI_2022-23.pdf",
+      "semester": 6
+    },
+    {
+      "title": "Mechanics - BSc (2013-14)",
+      "fileName": "Mechanics_BSc-SemVI_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Mechanics_BSc-SemVI_2013-14.pdf",
+      "semester": 6
+    },
+    {
+      "title": "Number Theory - BSc (2013-14)",
+      "fileName": "NumberTheory_BSc-SemVI_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/NumberTheory_BSc-SemVI_2013-14.pdf",
+      "semester": 6
+    },
+    {
+      "title": "Number Theory (2022-23)",
+      "fileName": "NumberTheory_SemVI_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/NumberTheory_SemVI_2022-23.pdf",
+      "semester": 6
+    },
+    {
+      "title": "Numerical Analysis - BSc (2013-14)",
+      "fileName": "NumericalAnalysis_BSc-SemVI_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/NumericalAnalysis_BSc-SemVI_2013-14.pdf",
+      "semester": 6
+    },
+    {
+      "title": "Numerical Analysis (2022-23)",
+      "fileName": "NumericalAnalysis_SemVI_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/NumericalAnalysis_SemVI_2022-23.pdf",
+      "semester": 6
+    },
+    {
+      "title": "Operations Research - BSc (2013-14)",
+      "fileName": "OperationsResearch_BSc-SemVI_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/OperationsResearch_BSc-SemVI_2013-14.pdf",
+      "semester": 6
+    },
+    {
+      "title": "Probability - BSc (2013-14)",
+      "fileName": "Probability_BSc-SemVI_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/Probability_BSc-SemVI_2013-14.pdf",
+      "semester": 6
+    },
+    {
+      "title": "Relativity II - BSc (2013-14)",
+      "fileName": "RelativityII_BSc-SemVI_2013-14.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/RelativityII_BSc-SemVI_2013-14.pdf",
+      "semester": 6
+    },
+    {
+      "title": "Set Theory Real Analysis (2022-23)",
+      "fileName": "SetTheoryRealAnalysis_SemVI_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/SetTheoryRealAnalysis_SemVI_2022-23.pdf",
+      "semester": 6
+    },
+    {
+      "title": "Vector Tensor Analysis (2022-23)",
+      "fileName": "VectorTensorAnalysis_SemVI_2022-23.pdf",
+      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/VectorTensorAnalysis_SemVI_2022-23.pdf",
+      "semester": 6
     }
   ],
   "physics": [
