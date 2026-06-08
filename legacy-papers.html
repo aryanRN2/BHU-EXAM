@@ -80,58 +80,6 @@
             </div>
         </div>
     </div>
-
-    <!-- AI Analysis Drawer / Panel -->
-    <div id="analysisDrawer" class="fixed inset-y-0 right-0 z-50 w-full max-w-lg bg-white shadow-2xl border-l border-border-subtle transform translate-x-full transition-transform duration-300 flex flex-col hidden">
-        <!-- Header -->
-        <div class="p-6 border-b border-border-subtle flex items-center justify-between bg-background-warm/50">
-            <div class="flex items-center gap-2 text-primary">
-                <span class="material-symbols-outlined text-accent-neural-purple text-2xl animate-pulse">auto_awesome</span>
-                <h3 class="font-bold text-lg">AI Paper Analyst</h3>
-            </div>
-            <button onclick="closeAnalysisDrawer()" class="w-8 h-8 rounded-full border border-border-subtle hover:bg-neutral-100 flex items-center justify-center text-secondary hover:text-primary transition-all">
-                <span class="material-symbols-outlined text-lg">close</span>
-            </button>
-        </div>
-        
-        <!-- Content -->
-        <div class="flex-1 overflow-y-auto p-6 space-y-6 custom-scrollbar" id="analysisContent">
-            <!-- Loading scanner state -->
-            <div id="analysisLoading" class="flex flex-col items-center justify-center py-20 text-center space-y-4">
-                <div class="relative w-16 h-16 flex items-center justify-center">
-                    <div class="absolute inset-0 bg-accent-neural-purple/10 rounded-full animate-ping"></div>
-                    <div class="w-10 h-10 rounded-full bg-accent-neural-purple/20 flex items-center justify-center text-accent-neural-purple">
-                        <span class="material-symbols-outlined text-2xl animate-spin">sync</span>
-                    </div>
-                </div>
-                <div>
-                    <h4 class="font-bold text-sm text-primary">Scanning Exam Questions...</h4>
-                    <p class="text-[10px] text-secondary mt-1 max-w-[200px] mx-auto">Evaluating syllabus mapping and difficulty distributions.</p>
-                </div>
-            </div>
-
-            <!-- Loaded analysis details -->
-            <div id="analysisData" class="hidden space-y-5">
-                <div class="p-4 bg-accent-neural-purple/[0.03] border border-accent-neural-purple/20 rounded-xl">
-                    <h5 class="text-xs font-bold text-accent-neural-purple uppercase tracking-wider mb-1">Target Paper</h5>
-                    <p class="font-bold text-sm text-primary" id="analysisPaperTitle">Paper Title Here</p>
-                </div>
-                
-                <div class="prose text-xs sm:text-sm text-secondary leading-relaxed space-y-4 font-normal" id="analysisText">
-                    <!-- Markdown rendered analysis details -->
-                </div>
-            </div>
-        </div>
-
-        <!-- Footer -->
-        <div class="p-6 border-t border-border-subtle bg-background-warm/30 text-center">
-            <p class="text-[10px] text-secondary">Feedback powered by BHU Exam Prep Neural Analytics engine.</p>
-        </div>
-    </div>
-
-    <!-- Drawer Backdrop -->
-    <div id="drawerBackdrop" onclick="closeAnalysisDrawer()" class="fixed inset-0 z-40 bg-black/40 backdrop-blur-sm opacity-0 transition-opacity duration-300 hidden"></div>
-
 </main>
 
 <!-- Footer -->
@@ -145,7 +93,7 @@
 </footer>
 
 <script type="module">
-    import { LEGACY_PYQ_DATA } from './js/legacy-data.js?v=5';
+    import { LEGACY_PYQ_DATA } from './js/legacy-data.js?v=6';
 
     const params = new URLSearchParams(window.location.search);
     const deptKey = params.get('dept') || 'maths';
@@ -223,12 +171,8 @@
                             </div>
                         </div>
                         <div class="flex items-center gap-2.5 w-full sm:w-auto shrink-0">
-                            <button onclick="openAIAnalysis('${p.title}', '${deptBadgeLabel}', ${semNum})" class="flex-grow sm:flex-grow-0 bg-accent-neural-purple/10 text-accent-neural-purple border border-accent-neural-purple/20 hover:bg-accent-neural-purple hover:text-white px-4 py-2 rounded-full font-bold text-xs flex items-center justify-center gap-1.5 transition-all duration-200 active:scale-95">
-                                <span class="material-symbols-outlined text-sm">auto_awesome</span>
-                                <span>AI Analysis</span>
-                            </button>
-                            <a href="pyq-viewer.html?file=${fileUrl}&title=${titleParam}" class="flex-grow sm:flex-grow-0 bg-primary text-white hover:bg-neutral-800 px-4 py-2 rounded-full font-bold text-xs flex items-center justify-center gap-1.5 transition-all duration-200 active:scale-95">
-                                <span class="material-symbols-outlined text-sm">visibility</span>
+                            <a href="${p.url}" target="_blank" rel="noopener" class="flex-grow sm:flex-grow-0 bg-primary text-white hover:bg-neutral-800 px-4 py-2 rounded-full font-bold text-xs flex items-center justify-center gap-1.5 transition-all duration-200 active:scale-95">
+                                <span class="material-symbols-outlined text-sm">picture_as_pdf</span>
                                 <span>View Paper</span>
                             </a>
                         </div>
@@ -290,196 +234,7 @@
         filterPapers();
     };
 
-    // AI Analysis Drawer Handlers
-    window.openAIAnalysis = async function(paperTitle, deptName, semNum) {
-        // Reset state
-        document.getElementById('analysisLoading').classList.remove('hidden');
-        document.getElementById('analysisData').classList.add('hidden');
-        
-        document.getElementById('analysisPaperTitle').textContent = paperTitle;
-        
-        // Open drawer
-        const drawer = document.getElementById('analysisDrawer');
-        const backdrop = document.getElementById('drawerBackdrop');
-        
-        drawer.classList.remove('hidden');
-        backdrop.classList.remove('hidden');
-        
-        setTimeout(() => {
-            drawer.classList.remove('translate-x-full');
-            backdrop.classList.remove('opacity-0');
-        }, 10);
 
-        try {
-            // Check if NVIDIA or HF keys are configured via config endpoint
-            const configRes = await fetch('/api/config');
-            const config = await configRes.json();
-            
-            const hasKeys = config.HF_API_KEY === 'configured' || config.NVIDIA_API_KEY === 'configured';
-            
-            if (hasKeys) {
-                // Live fetch
-                const prompt = `Perform a comprehensive academic analysis of the following BHU legacy curriculum question paper:
-Paper: ${paperTitle}
-Department: ${deptName}
-Semester: Semester ${semNum}
-
-Your analysis must include:
-1. ### Core Topics & Syllabus Weightage
-Breakdown of key mathematical/scientific domains covered in this paper.
-2. ### Exam Pattern & Difficulty Trends
-Analysis of the structure, mark distribution, and difficulty levels (Easy, Medium, Hard).
-3. ### Important & Repeated Questions
-Identify high-yield topics or questions that frequently appear.
-4. ### Preparation Strategy
-Clear advice on how to study for this specific semester exam based on these topics.
-
-Format the output strictly using clean Markdown (with bullet points and bold text) so it renders beautifully.`;
-
-                const messages = [
-                    {
-                        role: "system",
-                        content: "You are a university academic proctor and subject matter expert for Banaras Hindu University. You analyze legacy question papers, syllabus distributions, and exam patterns. Provide detailed, expert feedback using clean markdown formatting."
-                    },
-                    {
-                        role: "user",
-                        content: prompt
-                    }
-                ];
-
-                let url = '';
-                let headers = { 'Content-Type': 'application/json' };
-                let bodyPayload = {};
-
-                if (config.NVIDIA_API_KEY === 'configured') {
-                    url = 'https://integrate.api.nvidia.com/v1/chat/completions';
-                    bodyPayload = {
-                        model: "meta/llama-3-70b-instruct",
-                        messages: messages,
-                        max_tokens: 1024,
-                        temperature: 0.2
-                    };
-                } else {
-                    url = `https://api-inference.huggingface.co/models/meta-llama/Meta-Llama-3-8B-Instruct/v1/chat/completions`;
-                    bodyPayload = {
-                        model: "meta-llama/Meta-Llama-3-8B-Instruct",
-                        messages: messages
-                    };
-                }
-
-                const res = await fetch('/api/ai', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({
-                        url: url,
-                        apiKey: '',
-                        body: bodyPayload
-                    })
-                });
-
-                if (res.ok) {
-                    const responseData = await res.json();
-                    const aiText = responseData.choices[0].message.content;
-                    document.getElementById('analysisText').innerHTML = formatMarkdown(aiText);
-                    document.getElementById('analysisLoading').classList.add('hidden');
-                    document.getElementById('analysisData').classList.remove('hidden');
-                    return;
-                }
-            }
-        } catch (e) {
-            console.warn("Dynamic AI analysis failed or config unavailable, using highly realistic local proctor analyzer:", e);
-        }
-
-        // Fallback local analyzer if keys not configured or request fails
-        setTimeout(() => {
-            const localAnalysis = generateLocalAnalysis(paperTitle, deptName, semNum);
-            document.getElementById('analysisText').innerHTML = formatMarkdown(localAnalysis);
-            document.getElementById('analysisLoading').classList.add('hidden');
-            document.getElementById('analysisData').classList.remove('hidden');
-        }, 1500);
-    };
-
-    window.closeAnalysisDrawer = function() {
-        const drawer = document.getElementById('analysisDrawer');
-        const backdrop = document.getElementById('drawerBackdrop');
-        
-        drawer.classList.add('translate-x-full');
-        backdrop.classList.add('opacity-0');
-        
-        setTimeout(() => {
-            drawer.classList.add('hidden');
-            backdrop.classList.add('hidden');
-        }, 300);
-    };
-
-    function generateLocalAnalysis(paperTitle, deptName, semNum) {
-        // Compile a very specific mock report based on department
-        const topics = {
-            'Mathematics': ['Vector Spaces & Subspaces', 'Linear Transformations & Matrices', 'Partial Differential Equations', 'Multiple Integrals (Double & Triple)', 'Green\'s and Stokes\' Theorems', 'Limits, Continuity, and Differentiability in R^n'],
-            'Physics': ['Maxwell\'s Equations', 'Electromagnetic Wave Propagation in dielectric media', 'Lagrangian and Hamiltonian Dynamics', 'Interference and Diffraction of Light', 'Rotational Mechanics and Gyroscopes'],
-            'Chemistry': ['Transition Metal Complexes & Coordination Chemistry', 'Reaction Mechanisms in Organic Synthesis', 'Chemical Kinetics & Catalysis', 'Thermodynamics & Phase Equilibria', 'Spectroscopy (UV-Vis, IR, NMR) fundamentals'],
-            'Geography': ['Physical Geomorphology & Landforms', 'Climatology & Atmospheric Circulation', 'Human Settlement Geography', 'Agricultural Systems and Resources in India', 'Map Projections & Cartography'],
-            'Geology': ['Stratigraphy of Pre-Cambrian & Phanerozoic Belts', 'Invertebrate Palaeontology (Trilobites, Brachiopods)', 'Crystallography & Mineral Optical Properties', 'Structural Geology (Folds, Faults, Unconformities)'],
-            'Statistics': ['Hypothesis Testing & Neyman-Pearson Lemma', 'Sampling Techniques (SRSWR, Stratified, Systematic)', 'Probability Distributions (Normal, Binomial, Poisson)', 'Analysis of Variance (ANOVA) and Block Designs'],
-            'Computer Science': ['C Programming syntax and memory pointers', 'Data Structures (Linked Lists, Stacks, Binary Trees)', 'Object Oriented Programming Concepts', 'Operating Systems Process Scheduling & Deadlocks'],
-            'Zoology': ['Endocrine Glands & Hormonal Actions', 'Cell Biology Organelles & Cell Cycle', 'Classical Genetics & Mendelian Crosses', 'Comparative Anatomy of Vertebrates', 'Ecosystem Dynamics & Bio-geochemical Cycles'],
-            'Botany': ['Plant Water Relations & Transpiration', 'Photosynthesis (C3, C4, CAM pathways)', 'Fungi & Plant Pathology', 'Plant Anatomy (Secondary growth and tissue layers)', 'Ecology and Conservation Principles']
-        };
-
-        const deptTopics = topics[deptName] || ['Core Syllabus topics', 'Department specific exam targets', 'Practical reference guides'];
-
-        return `### Academic Evaluation Report
-This previous year question paper is from the legacy curriculum of BHU. It represents the standard core syllabus format with structured evaluation rubrics.
-
-### Core Topics & Syllabus Weightage
-* **${deptTopics[0] || 'Topic A'}** : ~25% weightage. High concentration of numerical calculations/proofs.
-* **${deptTopics[1] || 'Topic B'}** : ~20% weightage. Covers theoretical derivations and definitions.
-* **${deptTopics[2] || 'Topic C'}** : ~20% weightage. Emphasizes applications of key formulas/principles.
-* **${deptTopics[3] || 'Topic D'}** : ~15% weightage. Focuses on graphical representations or analytical proofs.
-
-### Exam Pattern & Difficulty Trends
-* **Structure**: The exam typically features Section A (Short compulsory questions, 5 marks each) and Section B (Long descriptive proofs/problems, 15 marks each).
-* **Difficulty Profile**: 
-  - **Easy (Recall)**: 30%. Basic definitions, statement of theorems, simple substitutions.
-  - **Medium (Apply)**: 50%. Intermediate derivations, multi-step problem solving.
-  - **Hard (Synthesize/Prove)**: 20%. Rigorous mathematical proofs, edge case scenarios.
-
-### Important & Repeated Questions
-1. **Explain the derivation of** the main differential/algebraic equations representing core theorems (e.g., Green's, Maxwell's, or ANOVA parameters).
-2. **Solve analytical problems** under boundary conditions or constraint systems.
-3. **Draft comparison studies** between different pathways, models, or configurations.
-
-### Preparation Strategy
-1. **Solve Sections Compulsorily**: Legacy papers often repeat Section A questions verbatim from the preceding 3-year cycle. Focus on these for high marks.
-2. **Master the Proofs**: Practice drawing flow diagrams and proving core formulas without skipping logical steps, as examiners give partial marks for layout.
-3. **Reference Textbooks**: Cross-check these topics with the official syllabus reference guides (such as Thomas' Calculus or department manuals) in the Reference Library.`;
-    }
-
-    function formatMarkdown(str) {
-        if (!str) return '';
-        let escaped = str.replace(/\r\n/g, '\n');
-        escaped = escaped
-            .replace(/&/g, "&amp;")
-            .replace(/</g, "&lt;")
-            .replace(/>/g, "&gt;");
-
-        // Code blocks
-        escaped = escaped.replace(/```(?:[a-z]+)?\n([\s\S]*?)\n```/g, '<pre class="bg-neutral-50 p-4 rounded-lg font-mono text-xs text-primary overflow-x-auto my-3">$1</pre>');
-        // Inline code
-        escaped = escaped.replace(/`(.*?)`/g, '<code class="bg-neutral-100 px-1.5 py-0.5 rounded font-mono text-xs text-accent-bhu-saffron">$1</code>');
-        // ATX headers
-        escaped = escaped.replace(/^\s*###\s+(.*?)\s*$/gm, '<h3 class="text-sm font-bold text-primary mt-4 mb-2">$1</h3>');
-        escaped = escaped.replace(/^\s*##\s+(.*?)\s*$/gm, '<h2 class="text-base font-bold text-primary mt-5 mb-2.5">$1</h2>');
-        escaped = escaped.replace(/^\s*#\s+(.*?)\s*$/gm, '<h1 class="text-lg font-black text-primary mt-6 mb-3">$1</h1>');
-        // Bold text
-        escaped = escaped.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-        // Bullet lists
-        escaped = escaped.replace(/^\s*[-*]\s+(.*?)$/gm, '<li class="ml-4 list-disc text-secondary mt-1">$1</li>');
-        // Normal line breaks to <br>
-        escaped = escaped.replace(/\n/g, '<br>');
-
-        return escaped;
-    }
 </script>
 
 </body>
