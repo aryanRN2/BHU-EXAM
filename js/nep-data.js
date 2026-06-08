@@ -41,7 +41,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Chemistry",
     "filePath": "aaa/chemistry/tex_files/CHB-02A_AncillaryChemistryI_SemII_2013-14.tex",
     "fileName": "CHB-02A_AncillaryChemistryI_SemII_2013-14.tex",
-    "nepCode": "CHEMD11",
+    "nepCode": "CHEMD21",
     "oldCode": "CHB-02A"
   },
   {
@@ -52,7 +52,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Chemistry",
     "filePath": "aaa/chemistry/tex_files/CHB-02A_AncillaryChemistryI_SemII_2023-24.tex",
     "fileName": "CHB-02A_AncillaryChemistryI_SemII_2023-24.tex",
-    "nepCode": "CHEMD11",
+    "nepCode": "CHEMD21",
     "oldCode": "CHB-02A"
   },
   {
@@ -124,7 +124,7 @@ export const NEP_LATEX_PYQ_DATA = [
   {
     "code": "CHB-04A",
     "subject": "Ancillary Chemistry II",
-    "semester": 4,
+    "semester": 2,
     "year": "2013-14",
     "department": "Chemistry",
     "filePath": "aaa/chemistry/tex_files/CHB-04A_AncillaryChemistryII_SemIV_2013-14.tex",
@@ -135,7 +135,7 @@ export const NEP_LATEX_PYQ_DATA = [
   {
     "code": "CHB-04A",
     "subject": "Ancillary Chemistry II",
-    "semester": 4,
+    "semester": 2,
     "year": "2022-23",
     "department": "Chemistry",
     "filePath": "aaa/chemistry/tex_files/CHB-04A_AncillaryChemistryII_SemIV_2022-23.tex",
@@ -146,7 +146,7 @@ export const NEP_LATEX_PYQ_DATA = [
   {
     "code": "CHB-04A",
     "subject": "Ancillary Chemistry II",
-    "semester": 4,
+    "semester": 2,
     "year": "2023-24",
     "department": "Chemistry",
     "filePath": "aaa/chemistry/tex_files/CHB-04A_AncillaryChemistryII_SemIV_2023-24.tex",
@@ -234,7 +234,7 @@ export const NEP_LATEX_PYQ_DATA = [
   {
     "code": "CHB-505",
     "subject": "Environmental Chemistry and Nuclear Chemistry",
-    "semester": 5,
+    "semester": 3,
     "year": "2016-17",
     "department": "Chemistry",
     "filePath": "aaa/chemistry/tex_files/CHB-505_EnvironmentalChemistryandNuclearChemistry_SemV_2016-17.tex",
@@ -245,7 +245,7 @@ export const NEP_LATEX_PYQ_DATA = [
   {
     "code": "CHB-505",
     "subject": "Environmental and Nuclear Chemistry",
-    "semester": 5,
+    "semester": 3,
     "year": "2022-23",
     "department": "Chemistry",
     "filePath": "aaa/chemistry/tex_files/CHB-505_EnvironmentalandNuclearChemistry_SemV_2022-23.tex",
@@ -355,12 +355,12 @@ export const NEP_LATEX_PYQ_DATA = [
   {
     "code": "CHB-601",
     "subject": "Analytical Chemistry I",
-    "semester": 6,
+    "semester": 5,
     "year": "2013-14",
     "department": "Chemistry",
     "filePath": "aaa/chemistry/tex_files/CHB-601_AnalyticalChemistryI_SemVI_2013-14.tex",
     "fileName": "CHB-601_AnalyticalChemistryI_SemVI_2013-14.tex",
-    "nepCode": "CHEMJ61",
+    "nepCode": "CHEMJ51",
     "oldCode": "CHB-601"
   },
   {
@@ -1224,34 +1224,34 @@ export const NEP_LATEX_PYQ_DATA = [
   {
     "code": "PHYSICS",
     "subject": "Ancillary Physics- II",
-    "semester": 4,
+    "semester": 2,
     "year": "2013-14",
     "department": "Physics",
     "filePath": "aaa/PHYSICS OUT/PHYSICS_AncillaryPhysics-II_SemIV_2013-14.tex",
     "fileName": "PHYSICS_AncillaryPhysics-II_SemIV_2013-14.tex",
-    "nepCode": "PHYMN41",
+    "nepCode": "PHYMN21",
     "oldCode": "BSC-07A"
   },
   {
     "code": "BSC-07A",
     "subject": "Ancillary Physics- II",
-    "semester": 4,
+    "semester": 2,
     "year": "2022-23",
     "department": "Physics",
     "filePath": "aaa/PHYSICS OUT/BSC-07A_AncillaryPhysics-II_SemIV_2022-23.tex",
     "fileName": "BSC-07A_AncillaryPhysics-II_SemIV_2022-23.tex",
-    "nepCode": "PHYMN41",
+    "nepCode": "PHYMN21",
     "oldCode": "BSC-07A"
   },
   {
     "code": "BSC-07A",
     "subject": "Ancillary Physics- II",
-    "semester": 4,
+    "semester": 2,
     "year": "2023-24",
     "department": "Physics",
     "filePath": "aaa/PHYSICS OUT/BSC-07A_AncillaryPhysics-II_SemIV_2023-24.tex",
     "fileName": "BSC-07A_AncillaryPhysics-II_SemIV_2023-24.tex",
-    "nepCode": "PHYMN41",
+    "nepCode": "PHYMN21",
     "oldCode": "BSC-07A"
   },
   {
@@ -1268,7 +1268,7 @@ export const NEP_LATEX_PYQ_DATA = [
   {
     "code": "BPT-401",
     "subject": "Electronics and Modern Physics",
-    "semester": 4,
+    "semester": 6,
     "year": "2013-14",
     "department": "Physics",
     "filePath": "aaa/PHYSICS OUT/BPT-401_ElectronicsandModernPhysics_SemIV_2013-14.tex",
@@ -1279,7 +1279,7 @@ export const NEP_LATEX_PYQ_DATA = [
   {
     "code": "BPT-401",
     "subject": "Electronics and Modern Physics",
-    "semester": 4,
+    "semester": 6,
     "year": "2022-23",
     "department": "Physics",
     "filePath": "aaa/PHYSICS OUT/BPT-401_ElectronicsandModernPhysics_SemIV_2022-23.tex",
@@ -1290,7 +1290,7 @@ export const NEP_LATEX_PYQ_DATA = [
   {
     "code": "BPT-401",
     "subject": "Electronics and Modern Physics",
-    "semester": 4,
+    "semester": 6,
     "year": "2023-24",
     "department": "Physics",
     "filePath": "aaa/PHYSICS OUT/BPT-401_ElectronicsandModernPhysics_SemIV_2023-24.tex",
@@ -1334,7 +1334,7 @@ export const NEP_LATEX_PYQ_DATA = [
   {
     "code": "BPT-505",
     "subject": "Electromagnetic Theory",
-    "semester": 5,
+    "semester": 4,
     "year": "2016-17",
     "department": "Physics",
     "filePath": "aaa/PHYSICS OUT/BPT-505_ElectromagneticTheory_SemV_2016-17.tex",
@@ -1345,7 +1345,7 @@ export const NEP_LATEX_PYQ_DATA = [
   {
     "code": "BPT-505",
     "subject": "Electromagnetic Theory",
-    "semester": 5,
+    "semester": 4,
     "year": "2022-23",
     "department": "Physics",
     "filePath": "aaa/PHYSICS OUT/BPT-505_ElectromagneticTheory_SemV_2022-23.tex",
@@ -1356,7 +1356,7 @@ export const NEP_LATEX_PYQ_DATA = [
   {
     "code": "BPT-504",
     "subject": "Electronic Devices and Circuits",
-    "semester": 5,
+    "semester": 3,
     "year": "2013-14",
     "department": "Physics",
     "filePath": "aaa/PHYSICS OUT/BPT-504_ElectronicDevicesandCircuits_SemV_2013-14.tex",
@@ -1367,7 +1367,7 @@ export const NEP_LATEX_PYQ_DATA = [
   {
     "code": "BPT-504",
     "subject": "Electronic Devices and Circuits",
-    "semester": 5,
+    "semester": 3,
     "year": "2016-17",
     "department": "Physics",
     "filePath": "aaa/PHYSICS OUT/BPT-504_ElectronicDevicesandCircuits_SemV_2016-17.tex",
@@ -1378,7 +1378,7 @@ export const NEP_LATEX_PYQ_DATA = [
   {
     "code": "BPT-504",
     "subject": "Electronic Devices and Circuits",
-    "semester": 5,
+    "semester": 3,
     "year": "2022-23",
     "department": "Physics",
     "filePath": "aaa/PHYSICS OUT/BPT-504_ElectronicDevicesandCircuits_SemV_2022-23.tex",
@@ -1389,7 +1389,7 @@ export const NEP_LATEX_PYQ_DATA = [
   {
     "code": "BPT-501",
     "subject": "Mathematical Physics",
-    "semester": 5,
+    "semester": 4,
     "year": "2013-14",
     "department": "Physics",
     "filePath": "aaa/PHYSICS OUT/BPT-501_MathematicalPhysics_SemV_2013-14.tex",
@@ -1400,7 +1400,7 @@ export const NEP_LATEX_PYQ_DATA = [
   {
     "code": "BPT-501",
     "subject": "Mathematical Physics",
-    "semester": 5,
+    "semester": 4,
     "year": "2016-17",
     "department": "Physics",
     "filePath": "aaa/PHYSICS OUT/BPT-501_MathematicalPhysics_SemV_2016-17.tex",
@@ -1411,7 +1411,7 @@ export const NEP_LATEX_PYQ_DATA = [
   {
     "code": "BPT-501",
     "subject": "Mathematical Physics",
-    "semester": 5,
+    "semester": 4,
     "year": "2022-23",
     "department": "Physics",
     "filePath": "aaa/PHYSICS OUT/BPT-501_MathematicalPhysics_SemV_2022-23.tex",
@@ -1543,7 +1543,7 @@ export const NEP_LATEX_PYQ_DATA = [
   {
     "code": "BPT-601",
     "subject": "Statistical Mechanics",
-    "semester": 6,
+    "semester": 5,
     "year": "2013-14",
     "department": "Physics",
     "filePath": "aaa/PHYSICS OUT/BPT-601_StatisticalMechanics_SemVI_2013-14.tex",
@@ -1554,7 +1554,7 @@ export const NEP_LATEX_PYQ_DATA = [
   {
     "code": "BPT-601",
     "subject": "Statistical Mechanics",
-    "semester": 6,
+    "semester": 5,
     "year": "2022-23",
     "department": "Physics",
     "filePath": "aaa/PHYSICS OUT/BPT-601_StatisticalMechanics_SemVI_2022-23.tex",
