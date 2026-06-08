@@ -1,0 +1,1321 @@
+--- Page 1 ---
+Total No. of Questions : 8] [Total No. of Printed Pages : 8
+
+Roll NO. v..ccccccececseseneas
+
+REF NO. 052729
+
+B. Sc. (Hons) Semester V Examination
+2022-23
+
+CHEMISTRY
+Paper No. CHB-501 : Analytical Chemistry-I
+Time : 3 hours Full Marks : 70
+
+(Write your Roll No. at the top immediately
+on the receipt of this question paper) ~
+
+The figures in the right-hand margin indicate marks
+Answer five questions including Question 1 which
+is compulsory
+
+1. Answer the following questions :
+{a} Occlusion is 1
+
+fi): the trapping of impurities in
+the mother liquor.
+
+fii) the trapping of impurities
+inside the precipitate
+
+(iti) the trapping of impurities
+outside the precipitate
+
+(iv) the trapping of impurities over
+
+. the surface of the precipitate
+
+D2(494)—600 (Turn Over)
+
+
+--- Page 2 ---
+(2)
+
+{b) Oxine is a ; 1
+fi) redox reagent
+(i) precipitating reagent
+(iii) a dye
+fiv) a drug
+
+(c) The water of crystallization in
+. Cu-SO,-5H,O could be determined
+
+by | ;
+fi} Malaprade reagent ;
+
+1
+
+fii} EDTA reagent
+(uti) Karl Fischer reagent |
+fiv) chloramine-T-reagent
+
+{d) Explain metallochromic indicators. 1
+
+(e) Which of the following reactions is
+
+not feasible? 1
+H .
+|
+R—C—OH .
+(i) | +103 —— Products
+R-C—OH
+H |
+
+D2(494) (Continued)
+
+
+--- Page 3 ---
+(g)
+
+D2(494)
+
+. example{s).
+Based. on the Q-test, predict
+
+(3)
+
+H
+K-08
+fi) H—C—OH +103 ——> Products
+H—C—OH .
+i
+H
+R-b_OH
+(iii) H-C—H +10; ——> Products
+R—C—OH
+
+(iv) | +10, —-—> Products
+
+“All precise measurements may not
+lead to accurate results.” Justify
+the statement with suitable
+
+whether the: value 5-70 mg L”
+
+should be rejected or retained.
+
+The values are 5°32, 5:21, 5-70,
+
+5°33, 5-44, 515 and 5-12 mg L”.
+
+(Given Q,,, =0-51) 2
+(Turn Over) |
+
+
+--- Page 4 ---
+(4)
+
+(fh) Brief the key features of GLP and
+GMP. ; 2
+fi) Define the following : » 1x3
+|
+
+fi) Ostwald ripening
+
+fii) Adsorption co-precipitation
+(itt) Nucleation and crystal growth.
+
+2. (a) Discuss various steps involved in
+gravimetric analysis. What is von
+Weimarn ratio? Define various
+terms used in it. Give the method
+for removal of impurities from
+precipitates. Discuss the role of
+digestion in the purification of
+gravimetric precipitates. 9
+
+(b) Explain homogeneous
+precipitations with suitable
+, example. 3
+
+(c) Define coprecipitation and
+'  ypost-precipitation with suitable
+examples. 2
+
+3. (a) Enumerate different types of
+
+organic precipitants and explain
+analytical utility of any two of the .
+following. Discuss desirable
+properties of a precipitate in
+
+D2(494) . (Continued)
+
+
+--- Page 5 ---
+(5)
+
+gravimetric analysis. Write the use
+of any two of the following organic
+precipitants in chemical analysis :
+
+fi) Dithizone
+fii) Oxine
+(iti) Cupferron. 12
+
+(b} What is the isomorphous
+replacement in the development of.
+precipitates? 2
+
+' 4 (a) How ‘can you minimize the
+magnitude of determinate errors in
+the chemical analysis? Write the
+differences between determinate
+and indeterminate errors. 10
+
+(b) What is outlier? How and when is
+Q-test applied in chemical analysisP 3
+
+{c) How do you measure the sensitivity
+of a particular method? 1
+
+5. (a) Explain the properties of the
+normal error curve with a neat —
+sketch of a typical normal .error
+curve. 4
+
+(b) Why are the relative values
+
+preferred over the absolute values
+
+. for the comparison of accuracy and
+D2(494) (Turn Over)
+
+
+--- Page 6 ---
+—(o)
+
+6. (a)
+
+(B)
+
+7. (a)
+
+D2(494)
+
+(6)
+
+precision? Calculate the absolute
+and relative precision parameters of
+the following set of results obtained
+during the determination of the
+cro content of industrial
+wastewater. 6°8, 7°7, 7:2, 7:3 and
+77 gL,
+
+Write the rules to decide the
+number of significant figures/
+decimal places in the answer of
+
+numerical computations like ©
+
+addition / subtraction, multiplica-
+tion/ division, logarithm and
+antilogarithm.
+
+Differentiate among technique,
+method, procedure and protocol
+and indicate the hierarchy _ of
+
+methodology.
+
+Describe the process of method
+validation emphasizing of the
+following terms :
+
+Selectivity, linearity, limit of
+detection, limit of quantitation,
+ruggedness or robustness and
+tests of significance,
+
+Discuss the role of Malaprade
+reagent in analytical chemistry.
+
+10
+
+(Continued)
+
+
+--- Page 7 ---
+r
+
+_ the estimation of vicinal diols using |
+
+(b)
+
+(c)
+
+8. (a)
+
+(7)
+
+How do you _ standardize this
+reagent? Give a brief account on
+
+this reagent by giving appropriate
+reactions and stochiometry.
+
+How can you estimate
+a-hydroxyamine using Malaprade
+reagent?
+
+Discuss any two titration
+procedures to standardize
+quadrivalent cerium. How can you
+estimate zinc using cerate titration?
+
+‘EDTA’ is a versatile reagent for
+
+complexometric ~ titrations.
+Elaborate the statement. Illustrate
+
+‘any two of the following using this
+
+titration :
+
+fi) Back titration
+
+’ fi) Replacement titration.
+
+(b)
+
+D2(494)
+
+(ii) - Direct titration.
+
+Discuss the ‘effect of pH in
+complexometric titrations of metal
+ions with EDTA.
+
+2
+
+(Turn Over)
+
+
+--- Page 8 ---
+(8)
+
+(co) How do you estimate the ,
+
+following?— _ 6'
+
+fi) Metal ions using potassium
+bromate as a reagent
+
+(ii) Nitrite using chloramine-T
+
+(iii) Anhydride using Kar] Fischer
+reagent.
+
+KKK
+
+D2(494)—600 | REF NO. 052729
+
+
+--- Page 9 ---
+Total No. of Questions : 8] _ [Total No. of Printed Pages : 7
+
+Roll No. oo... ccccscceeceereees
+
+REF NO. 052730
+
+. B. Sc. (Hons) Semester V Examination
+2022-23
+
+CHEMISTRY
+
+Paper No, CHB-502 : Inorganic Chemistry-III
+_Time:3hours . © Full Marks : 70
+
+(Write your Roll No. at the top immediately
+on the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+
+Answer five questions including Question 1
+which is compulsory
+
+1. Answer ail questions in brief :
+
+{a} What kind of electronic transitions
+are responsible for intense color of
+CdS and Fe,[Fe(CN),], ? 2
+
+(b) Calculate the number of
+microstates for p* and 4d®
+electronic configurations. 2
+
+(c) Define the parameter 4 and its
+
+. acceptable values for prediction of
+type of spinels. . 3
+D2(497)—600 (Turn Over)
+
+
+--- Page 10 ---
+(2)
+
+(a) Display the effect of a catalyst in
+any thermodynamically favored
+chemical reaction by drawing
+energy profile diagrams. 2
+
+fe} Which of the statement about
+EDTA complex of Mg”* and Ca”* is
+correct? 1
+
+(i) EDTA complex of Ca?* is more
+stable than Mg?*.
+
+(ii) EDTA complex of Mg?* is more
+stable than Ca?*.
+
+(iti) EDTA complex of Mg?* and
+Ca** are equally stable.
+
+(iv) None of the above is
+
+appropriate
+
+(ff Which is more stable between
+Ti(CH;), and Ti(CH,CH3), and
+why? ; 2
+
+{g) Comment on the structure of
+mercury phenylene. 2
+
+2. (a) Describe redistribution and
+hydrostannation reactions with
+examples. . 5
+
+D2(497) , (Continued)
+
+
+--- Page 11 ---
+(3)
+
+(P) Arrange the following ligands in
+order of their increasing field
+strength : 2
+
+Ox, OH”, H,0, pyr, en, NCS
+
+(c) Draw and describe the structural
+features of Li,(CH3)q. oe 5
+
+(a) Draw the structure of Ti(n'-CsHs)o
+(y°-CsHs). and write its IUPAC
+
+name. 2
+
+' 3. (a) How is Laporte Selection Rule
+relaxed in [Cr(NH,),Clf** and
+
+[CoCl, |?> ? . 2
+
+(b) Calculate CFSE (A)/A,) including
+pairing energy (wherever required)
+for the following complexes and
+show their respective d-orbital
+splitting diagram in ligand field : 8
+
+(i) [Co(H0),]°*
+(i) Na,[CuF,]
+(iii) [Fe(NHg)6]**
+(iv) [PtCl,]?~
+
+D2(497) ’ (Turn Over)
+
+
+--- Page 12 ---
+(4)
+
+‘(c) Predict the empirical formula of a
+metal complex using following
+- data :
+
+(i) kg /kg =3/8
+(ii). k,/ks =9/16
+
+where k3; and k, denote stepwise
+formation constants for 3rd and 4th
+steps of a chemical reaction,
+respectively. 4
+
+4. (a) Explain ‘trans-effect’? with proper
+reactions. Write down the theories
+of the trans-effect. Illustrate the
+importance of the same _ in
+preparation of two isomers of the
+following complexes : 8
+
+() ~PtCl,(NH,)(C2H.)
+(ti) Pt{Py)(NH4)(Br)(Cl)
+
+(b) Explain static and dynamic
+- Jahn-Teller distortion with the help
+of suitable examples. 4
+
+{c) Calculate the spin only magnetic
+moment for K,[NiF¢]. 2
+
+D2(497) (Continued)
+
+
+--- Page 13 ---
+(5)
+
+5. (a) In the following electronic spectra
+' of [Cr(NH3),Cl]**, assign the type of
+transitions tothe bandsa,bandc: 2
+
+uN
+
+oS (ef {L mol cm)
+
+200° 400. 600 A/nm
+(50000 cm") (25000 em™} (17000 em")
+
+(b) Write products of the following
+
+reactions : 8
+| Me Me
+() RpSn + _
+Hoc CHe
+EtpNH
+
+(ii) CpH + TiCL, ———>
+(iii) CpoTiRC] + CO —>
+
+Br |
+(iv) C >< + Bu3SnH —>
+: Cl
+
+(c) Calculate the ground state ‘Term
+Symbol’ for [Mn(H,0),]** and
+[CoCl,]*~. 4
+
+D2(497) (Turn Over)
+
+
+--- Page 14 ---
+6. (a)
+
+(b)
+(o)
+7. (a)
+(b)
+(c)
+
+8. (a)
+
+D2(497)
+
+(6)
+
+The enthalpy of hydration (AH) of
+Cr?* is -460 kcal/mol. In the
+
+-presence of CFSE, the value of AH
+
+is -—435 kcal/mol. Estimate the
+value of A, for [Cr(H,0),]?* in
+kcal/mol.
+
+Explain the structure and bonding
+in metal olefin complexes.
+
+Describe the factors affecting the
+magnitude of crystal field splitting.
+
+Explain. the mechanism of —
+
+hydrogenation .of alkenes using
+Wilkinson’s catalyst.
+
+Explain hole formalism with the
+help of Orgel energy level diagram.
+
+Predict the type of spinel in
+
+‘NiFe,O, on the basis of OSSE.
+
+Write short notes on the following : 3x2-
+
+fi) Preparation of organomercury
+compounds
+
+(ii) Metal Organic Chemical
+Vapour Deposition (MOCVD)
+
+2
+
+(Continued)
+
+
+--- Page 15 ---
+(b)
+
+(c)
+
+_— ‘
+
+D2(497)—600
+
+(7)
+
+{tti) _ Difference between
+thermodynamic and_ kinetic
+stability.
+
+In the electronic absorption spectra
+of [Ti(H0),]** along with the main
+absorption band at 20300 cm™, a
+shoulder band is also observed.
+
+Justify your answer with suitable -
+
+splitting diagrams.
+
+Describe the factors affecting the
+magnitude of crystal field splitting.
+
+kkk
+
+4
+
+REF NO. 052730
+
+
+--- Page 16 ---
+Total No. of Questions : 8] [Total No. of Printed Pages : 6
+
+Roll No. .....cceceeueeecennes
+
+REF NO. 052732
+
+B. Sc. (Hons) Semester V Examination
+2022-23
+
+CHEMISTRY
+
+Paper No. CHB-504 : Physical Chemistry-IIl
+Time : 3 hours Full Marks : 70
+
+(Write your Roll No, at the top immediately
+on the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+
+Answer five questions including Question 1
+which is compulsory
+
+1. (a) Clarify the statement with
+example : 2
+
+' “Molar volumes are always
+positive but partial molar
+volume need not be.”
+
+(b) What is Henry’s law constant?
+State its utilities. 2
+
+{c) What do you mean by quantum
+yield? How the quantum yields of
+primary and secondary Process
+may. vary? 3
+
+D2(506)—600 (Turn Over)
+
+
+--- Page 17 ---
+(2)
+
+(a) Brief about any three process of
+deactivation of a photochemically
+activated molecule. 3
+
+(e) Give two experimental evidences ©
+which validate the Debye-Htickel
+model of electrolyte solutions. 2
+
+(ff Explain how the energy ‘and
+therefore chemical potential, of any
+given reference ion get changed as a
+consequence of ion-ion interaction
+arising from surrounding ionic -
+atmosphere. 2
+
+~ 2. fa) What is ‘partial molar Gibbs energy’
+and how can it be determined?
+
+ie)
+
+{b) State the ‘fundamental equation of
+the chemical thermodynamics’ and
+show that. additional (non- —
+expansion) work can arise from the
+changing composition ofa system. '. 4
+
+(c) Why there should be an elevation of
+
+boiling point and depression of
+freeing point when a solute is .
+added in solvent? . 3
+
+(d) Show (with derivation of the final
+
+expression) that the depression of |
+freezing point is a_ colligative
+
+property. } 4
+D2(506) : (Continued)
+
+
+--- Page 18 ---
+(3)
+
+3. (a) What is ‘ideal-dilute solution’?
+Explain with the help of Henry’s
+and Raoult’s laws. 2
+
+(b) State (i) Gibbs-Duhem and
+fii) Duhem-Margules equations and
+their significances. _ 6
+_(c) State the physical significance of
+fugacity. Describe Lewis-Randall
+rule. 3
+
+(ad) Describe osmometry - and its
+applications in determination of
+mass of a macromolecule. 3
+
+4.-(a) Derive the rate expression of
+unimolecular surface reaction.
+Sketch the graph surface covered
+vs. pressure and explain what
+would be the order of reaction when
+pressure is high and pressure is
+low. 6
+
+(b) Dimerization of anthracene (Cy4Fio)
+occurred when its solution in
+benzene is irradiated with UV light.
+The mechanism is proposed as.
+below :
+
+A+ hy—5 a’
+A’ +A—2>4,
+A —8 , 44 hp"
+A, —>2A
+
+D2(506)—600 _ (Turn Over)
+
+
+--- Page 19 ---
+(4)
+
+If I, is the intensity of the. light
+
+‘ absorbed, derive an expression for
+
+the quantum yield of dimerization,
+
+' @( Ao).
+
+5. (a)
+
+-(b)
+
+(c)
+
+6. (a)
+
+D2(506)
+
+Discuss the influence of pH ‘and
+temperature, depicting the graph,
+on enzyme catalysed reactions.,
+
+Discuss the photochemical
+decomposition of HI and find out its
+quantum yield.
+
+Write Michaelis-Menten rate law
+defining the' terms involved and
+draw -the. Lineweaver-Burk plot,
+explaining what value could be
+obtained from its ‘slope and
+intercept.
+
+Calculate the ionic strength of the
+following solutions (assuming
+complete dissociation) :
+50 ml of 0-4 M BaCl,
+(ii) 50 ml of 0-2 M Al,(SO,)3 and
+50 ml of 0-2 M K,Fe(CN),
+
+(Continued)
+
+
+--- Page 20 ---
+(b)
+
+— (c)
+
+(5)
+
+What do you understand by
+thickness or radius of the ionic
+cloud that surrounds a reference
+ion? Show the variation of the
+thickness of the ionic cloud as a
+function of electrolyte
+concentration and prove that it has
+the: dimensions of length.
+
+Under which conditions limiting
+law for the mean activity coefficient
+of the electrolytes does fail? Write
+the assumptions in Debye-Hickel
+model which led unsatisfactory
+agreement of: this law with
+experimental measurements. Write
+
+' the modifications in limiting law
+
+which have been made to extend its
+
+. applicability.
+
+7. (a)
+
+(b)
+
+D2(506)
+
+Explain the migration of an ion due
+to an. externally applied
+electrostatic field. How does it differ
+from the transport of ions in the
+
+absence of any such electric field? '
+
+Obtain , the relaxation and
+electrophoretic components of drift
+
+velocity for a perturbed ionic cloud
+
+under electric field. Write the
+expression for net drift velocity and
+mobility of an ion subject to ion-ion
+interactions...
+
+6
+
+(Turn Over)
+
+
+--- Page 21 ---
+(6)
+
+(c) Explain giving examples increase in
+
+the conductivities of electrolytic
+
+* solutions with the application of
+high field, the Wien’s effect. 4
+
+8. Answer any two of the following : 2x7
+
+(a) What. do you mean by chemical
+actinometry? Discuss the use of
+any two chemical actinometers in
+the study of photochemical
+reactions. ,
+
+“ (b) Write about the thermodynamics of
+mixing of two ideal gases.
+
+(c) Explain ‘asymmetry of ionic cloud’
+and ‘electrophoretic. effect’ causing
+reduction in ionic mobility.
+
+kkk
+
+D2(506)—600 | REF NO, 052732
+
+
+--- Page 22 ---
+Total No. of Questions : 4+5] {Total No. of Printed Pages : 5
+
+Roll No. .....cceeeeeeeeeee ee
+
+REF NO. 052733 & 052734
+
+B. Sc. (Hons) Semester V Examination
+2022-23
+‘CHEMISTRY
+
+Paper No. CHB-505 : Environmental and
+Nuclear Chemistry
+(2012)
+
+Time : 3 hours Full Marks : 70
+
+(Write your Roll No. at the top immediately
+on the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+USE SEPARATE ANSWER BOOK FOR. EACH SECTION
+
+Section—A
+(Environmental Chemistry)
+(Marks : 35)
+
+Answer three questions including Question 1
+which is compulsory
+
+1. (a) Differentiate between the following :
+
+ft} Albedo and Tropopause
+
+' D2(513)—600 (Turn Over)
+
+
+--- Page 23 ---
+(2)
+
+fit} Receptor and Sink
+
+fiii) Lithosphere and,Biosphere. _,
+
+. (bj Briefly discuss about the following : 5*1
+
+‘fi) Sludge
+
+fii) Van Allen Belts
+fii) Pollution Pathways
+fiv) Soot
+
+(v) Contaminant.
+
+2. (a) Describe various environmental
+segments. How can we divide the
+major regions of atmosphere? State
+their respective altitudes and
+temperature ranges. What are the
+important chemical species in each
+region of atmosphere? 9
+
+(b) Discuss the buffering mechanism |!
+of seawater. How does it maintain
+pH of 8-140-2 all through the
+globe? > 3
+
+3. (a) Discuss various sources of water
+pollutants. Discuss the estimation |
+of DO, BOD and COD. 2+6.
+
+(b) Elaborate the reactions involved in
+photochemical smog formation and
+PAN formation. 4
+
+D2(513) ; (Continued)
+
+
+--- Page 24 ---
+(3)
+
+4. Account for any four of the following: 4x3
+
+(a) Minimata incident and Bhopal Gas
+Tragedy are - two worst
+environmental disasters on record .
+
+(b) Wastewater treatment of domestic
+effluents
+
+(c) Air pollution and important. air
+quality parameters
+
+(da) Auto-exhaust emissions and their
+controls °
+
+fe) Ozone hole
+
+(f) Microbially induced redox reactions
+‘in water body
+
+(g} Oxygen cycle and’ nitrogen cycle.
+Section—B
+(Nuclear Chemistry)
+(Marks : 35)
+
+Answer three questions including Question 1
+which is compulsory
+
+-
+
+1.. Answer the following :
+
+fa) What is the origin of binding energy
+which holds nucleons together in a
+nucleus? On, 2
+
+D2(513)—600 (Turn Over)
+
+
+--- Page 25 ---
+(b)
+
+(c)
+
+(a)
+
+(e)
+
+(b)
+
+(c)
+
+D2(513) ©
+
+(4)
+
+What is the basis of _ using
+radioisotope for the age
+
+determination of historic and
+
+archaeological organic samples?
+
+Using the masses H =1-0078 amu,
+n=1-0087 amu and 4,,. =4-0026
+amu, calculate the specific binding
+energy of 4;;. atom:
+
+Using the Bethe notation for the |
+
+nuclear reactions, complete the
+following reactions :
+
+ff) 40¢,(%,a)>
+
+(i) 197 (my)
+
+(iii) 27 q(yn)> |
+What do you understand by purity
+
+and strength of radioisotopes?
+
+Derive an expression for the decay
+constant for disintegration of a
+radioactive substance. How is this
+decay constant rélated to half-life?
+
+Define Curie and Becquerel units of
+radioactivity.
+
+Explain the process of nuclear
+fission and fission energy.
+
+‘2
+4°
+
+(Continued)
+
+
+--- Page 26 ---
+(5)
+
+3. (a) What are the different types of |
+
+nuclear reactions? Describe
+radiative capture and _ transfer
+reactions. 6
+
+(b) Show that the kinetic energy
+available for exciting the target
+nucleus: is the kinetic energy of
+projectile and the target on the
+Centre, of Mass System (CMS). 6
+
+. 4. (a) Write the precautions to be taken in —
+the use of radioisotopes as tracer. 4
+
+(b) How will you determine the
+structure: of S,02” ion ‘using
+radioisotopes as tracer? 4
+
+(c) Explain the use of radioisotopes in
+age determination of mineral and
+rock with suitable method. 4
+
+5. (a) What are two principal modes of
+interaction .of y radiation with
+. matter? Describe one of them in
+brief, 6
+
+(b) What is radiolysis? What are the
+possible products of radiolysis of
+“water and show how it generates
+hydrogen and oxygen? oom 6
+
+D2(513)—600 REF NO. 052733 & 052734
+
+
+--- Page 27 ---
+Total No. of Questions : 8] [Total No, of Printed Pages : 7
+
+Roll No. vecessereereens aecnna
+
+REF NO. 052731
+
+B. Sc. (Hons) Semester V Examination -
+
+2022-23
+. CHEMISTRY _
+" Paper No. CHB-503 : Organic Chemistry-IV
+(2012)
+Time : 3 hours ; Full Marks : 70
+
+(Write your Roll No. at the top immediately
+on the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+
+Answer five questions including Question 1
+
+which is compulsory
+1. (a) Predict the. product(s) of the
+following reactions : 2t+1+i+1
+. wy CF, a& r
+O° >) +. k 7
+
+D2(501)—600 . _ (Turn Over)
+
+
+--- Page 28 ---
+(2)
+
+Fe* >
+
+mis)
+“, hy 4 ‘ -
+
+{b} Michler’s ketone does not undergo
+
+(iii) | PhCHO
+
+photoreduction, Why? — 2
+(c) Explain with mechanism :° 3+3
+
+oe : | | .
+a : By LU ig, NBs Ch
+
+N” 2, ¥1,07
+
+3. KOH /MeOH
+.. NH, _—HNO2 ?
+@ : * Suni,o oo
+
+(@) Explain why in ground state CCl,
+prefers singlet state. 1
+
+2. (a) Discuss synthetic steps _ for the
+preparation of :
+{i) Cyclopentane from diethyl
+adipate 2
+(ii) Cyclohexane from diethyl
+succinate . 2
+
+D2(501)" (Continued)
+
+
+--- Page 29 ---
+(3)
+
+(ii) Cyclobutane using
+1,3-dibromo propane ad
+malonic ester, 3
+
+(b) Discuss the conformation’ of
+12 dimethyleyclohexane. 7
+
+3. (a) Describe Bayer’s strain theory and
+their limitation. 6
+
+(b) Discuss the structiire and stability
+of carbene. « 4
+
+(c) Describe inter- and intra-molecular
+insertion reactions of carbene. 4
+
+4. (a) Give the product of the following
+reactions: _- 2+2 °
+
+(i)
+
+CO one rms —e,
+
+H,/Ni 1
+COOH
+
+(ii)
+
+_ Da(sol) (Turn Over)
+
+
+--- Page 30 ---
+(4)
+
+(b) Write the correct stability order of |
+the following intermediate species: 2
+
+PhCH, ON .
+a | ®
+Ph® Ph Me0-CH;
+
+ti P r ” Pr “
+
+_ + ,;
+(c) Discuss the stability and geometry
+of cyclopropyl methyl cation. 3
+
+(a) Explain primary and secondary:
+KIE. How are they useful to predict
+the reaction mechanism? be)
+
+5. (a) Explain the formation of products
+
+with mechanism : 10
+a o _CH;COOOH
+
+ve Ph
+
+(ii) OH
+
+oc a
+
+D2(01) - . Continued)
+
+i
+
+*
+
+~~
+
+.
+
+. ‘
+|
+|
+
+
+--- Page 31 ---
+(5)
+
+—_——_—_—
+Oo Ac,O0
+
+. H Ph Conc. H,S0O,4
+(iv) UNCN, —_——_—_—— 94
+Ph H .
+(b} Describe the following reaction : 4
+
+oO :
+. fo
+OMe . 29 °
+1»
+99 i .
+
+6.-(a) Describe — regioselective and
+, chemoselective reactions with
+
+example. 3.
+
+(b) Discuss stereoselectivity in addition
+of a nucleophile to the carbonyl
+function. 7 5
+
+(c) Explain element of symmetry and
+symmetry operation in the given
+
+D2(501) ‘ (Turn Over)
+
+
+--- Page 32 ---
+(6)
+
+molecules : , 3
+
+; H Me Br H
+(i)
+
+Br ° Me
+Me H
+es Me
+(ii)
+Me H
+
+(dq) Discuss chemical method for
+resolution of racemic modification. 3
+
+va Predict the product(s) | of the following
+reactions with mechanism : 3+3+3+3+2.
+
+_NaOEt - .
+EtOH
+(i ) (EtO);P
+, ._—— ;
++ BrCH,COOE Nal :
+
+D2(501) , (Continued)
+
+
+--- Page 33 ---
+(7)
+
+. oO
+PhP
+i 3 9
+Gi) OH + Aga SE
+
+H DEAD
+Oo 1. NaN3
+— «
+(iv) Avg 2. C2]H,NH2
+
+HQ OH 5c)
+
+(v) H3C H poo ?
+Ph tH, Pyridine
+
+_ 8. (a) Describe Peterno-Buchi reaction. 4
+
+(b} Discuss the photochemical reaction
+of S(+) 5-methyl-2-heptanone. 2
+(c) Discuss the photochemistry _ of .
+1,3-butadiene. 4
+
+(d) Write the product of the folowing
+_ reactions : 2+2
+
+" SS -COOMe  Me,CO
+0
+(i) . _wo
+
+kkk
+
+D2(501)—600: - - REF NO. 052731

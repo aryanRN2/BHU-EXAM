@@ -1,0 +1,1368 @@
+--- Page 1 ---
+- Total No. of Questions :4+4] [Total No. of Printed Pages °B
+
+Roll NO. ..cccceeceeseeseevees
+
+REF NO. 058678 & 058679
+
+B. Sc. (Hons) Semester VI Examination
+. 2 022-23
+
+CHEMISTRY
+
+Paper No. CHB- 605 : Atomic and Molecular —
+Structure and Application
+of Spectroscopic
+Techniques
+
+Time : 3 hours Full Marks : 70
+
+(Write your Roll No. at the top immediately
+
+on the receipt of this question paper)
+
+The figures i in the right-hand margin indicate marks
+
+USE SEPARATE ANSWER BOOK FB OR EACH SECTION
+
+Section—A
+(Atomic and Molecular Structure)
+(Marks : 35)
+
+Answer three questions including Question 1
+which is compulsory
+
+1. (a) What do you, mean by the plane of
+symmetry? Explain different types
+of symmetry plane with a suitable
+example and sketch. 4°
+D2(778)—500 * (Turn Over}
+
+
+--- Page 2 ---
+aA
+
+(b)
+
+(c)
+
+(a)
+
+» (a)
+
+(2)
+
+Deduce the point group and give
+one example of a molecule that is
+linear as well as ‘centrosymmetric’.
+
+Write the Schrédinger equation for
+helium atom. ,
+
+What "is Born-Oppenheimer
+approximation? _ Using
+Born-Oppenheimer . approximation,
+
+derive -a simple form of the.
+
+Hamiltonian operator for hydrogen
+
+molecular ion (H1,,)..
+
+List the special point groups with
+
+their criteria along with suitable
+
+; examples.
+
+(b)
+
+(¢)
+
+- (a)
+
+(b)
+
+D2(778)
+
+Derive the point group of the
+following molecules :
+
+(fi) BF;, (ii) HCN, fii) Phenol,
+fiv} C,H, (Eclipsed form)
+
+Prove that $, = oh and S, =i witha
+suitable example and sketches.
+
+Write . the basic principles of
+Valence Bond (VB) theory and |
+
+Molecular Orbital (MO) theory.
+
+Using the concept of LCAO-MO
+theory, write the expected form of
+
+- 45> 4g
+
+|
+
+(Continued)
+
+
+--- Page 3 ---
+- (3)
+
+the lowest energy molecular orbital
+
+’ of hydrogen molecule (H.). How is it
+
+different from the expected form of
+
+- orbital obtained from Valence Bond
+. theory?
+
+)
+
+(d)
+
+4. (a)
+
+(b)
+
+()
+
+D2(778)
+
+Between LCAO-MO and VB, predict
+which theory provides nearer value
+of dissociation energy to that of the
+experimental value for H, molecule.
+Why? .
+
+Write the molecular electronic
+configuration of boron molecule
+(B,). Is ‘By, paramagnetic or
+diamagnetic? oo
+
+Write the Schrédinger equation for
+the H-atom in polar coordinates
+and obtain the angular and radial
+equations using the. method of
+separation of variables.
+
+What is hybridization? Using inter-
+
+nuclear axis along the z-axis, write
+the sp-hybridized orbitals of BeH,
+molecule. .
+
+Write a short note on - high
+
+symmetric point groups.
+
+2
+
+(Turn Over)
+
+
+--- Page 4 ---
+(4)
+
+(a) Deduce the point group and give.
+one éxample of a molecule that is
+
+non-linear, there. is . Cy,
+perpendicular to the principal axis .
+(C,,), as well as oh, is present... 4
+. Section—B
+(Application of Spectroscopic Techniques)
+(Marks : 35)
+
+Answer three questions including Question 1
+. . which i is compulsory
+
+1. fa) State Beer-Lambert Law. Give its
+mathematical expression and
+mention the terms _ involved.
+Explain molar | extinction
+coefficient. Yat1+1
+
+(b) Sketch the various types of
+stretching and bending vibrations
+_ observed in IR spectroscopy. 1%+1%
+
+{c) Define chemical shift and explain
+
+the term with ethanol as. an
+
+example., Also mention the factors
+which affect it. 2+1
+
+(ad) Define base’ peak and molecular ion
+in mass spectrometry. Suggest the
+fragmentation pattern of methanol,
+
+D2(778)_ . (Continued)
+
+
+--- Page 5 ---
+(5)
+
+sketch its mass spectrum, and
+mark the base peak and the
+molecular ion peak in its mass
+spectrum. (AtiA)+ 1%
+
+2. (a) As a consequence of increase in
+polarity of the solvent, the A,,,, of
+n— n” band of an a,B-unsaturated
+carbonyl compound observes
+bathochromic shift, whereas
+non band observes |
+hypsochromic shift. Explain with
+an appropriate energy level
+diagram. 3
+
+(b) Arrange the . following compounds
+in decreasing order of carbonyl
+frequencies with an appropriate
+
+justification ; 1%Z+1l%
+‘ Td
+1
+BK OCs
+O a OCH, SS
+OCH; NH,
+
+| D2(778) (Turn Over)
+
+
+--- Page 6 ---
+(6)
+
+_(c) Sketch neatly and interpret in
+detail the 1H NMR spectrum of the
+following compounds : LAt1l’”
+(i) Ethyl bromide
+(tit) Acetaldehyde.
+
+(dq) Sketch the mass spectrum of |
+l-bromopropane with proper
+fragmentation pattern. How an
+alkyl chloride can be distinguished
+form an alkyl bromide based on
+their mass spectrum? . 2+1
+
+3. (a) Define ‘the following terms with
+suitable example : 1+1+1
+fi)’ Auxochrome :
+fii) Hypsochromic shift
+(ti) Hyperchromic effect.
+
+(b) Discuss dilution effect on IR
+spectral properties of carboxylic
+‘ acids with a suitable example. How
+this can be used to differentiate
+‘inter- ‘and intra-molecular
+hydrogen bonding? ' 2+1
+(c) Sketch and interpret the '*C NMR
+spectra of the following
+compounds : lAtl%
+() 1-Butanol
+fii) Phenyl acetate.
+‘D2(778) (Continued)
+
+
+--- Page 7 ---
+(7)
+
+@ Sketch the mass spectrum of the -
+
+4. (a)
+
+* (b)
+
+D2(778)
+
+following compounds with proper
+fragmentation pattern : “t1Y%
+
+fi) 2-Methylbutane
+(i) sec-Butyl isopropyl ether.
+Use the Woodward-Fieser rules to
+
+predict the expected 2,.., for the
+following compounds : lAt1l?”
+
+(i)
+Amax (observed) : 283 nm
+
+(ii)
+max (observed) : 298 nm
+
+How the following pairs of
+
+compounds can be distinguished
+
+onthe basis of IR spectroscopyP—
+LAt1%
+
+fi) Propanal and acetone
+fi) Propionic: acid and_ ethyl
+~ acetate.
+(Turn Over)
+
+
+--- Page 8 ---
+(8)
+
+(co) On the basis of the. following |
+spectroscopic data, suggest the
+_ structure of the compound :. 3
+
+Molecular formula : CsH;NO
+
+_ IR(cm™’): 3428 (m), 2941-2857 (w),
+1681, (s), 1550 (m) and 1452: (w}
+‘H-NMR (6 in ppm) : 2°02 (singlet,
+3H); 2°70 (singlet, 3H) and 8-13
+
+~ (singlet, 1H)
+‘3C-NMR (6 in ppm) : 17-7, 26:5,
+171-2 ©
+
+(d) Explain McLafferty rearrangement
+
+with a suitable example. Suggest
+the structure and mass of the
+McLafferty rearrangement ion in
+the mass spectrum of the following
+compounds : 1+2
+(i) 1-Butanol
+
+(it) Ethyl propyl ketone.
+
+* kk
+
+D2(778)—500 REF NO. 058678 & 058679.
+
+
+--- Page 9 ---
+|
+
+{
+
+Total No. of Questions : 8] [Total No. of Printed Pages : 8
+
+Roll No. .....ccccecseeees —
+
+REF NO. 058677
+
+B. Sc. (Hons) Semester VI Examination
+2022-23 -
+
+CHEMISTRY
+
+Paper No. CHB-604 : Physical Chemistry-IV.
+Time : 3 hours , Fuil Marks : 70
+
+(Write your Roll No. at the top immediately
+on the receipt of this question paper) ..
+
+The figures in the right-hand margin indicate marks —
+Answer five questions including Question 1
+
+which is compulsory
+
+1. fa) Write the properties’ of. the
+acceptable - wave functions in
+Quantum Mechanics (QM). 2
+
+{b) Show that the linear momentum _
+
+operator along x-direction, P,, is a
+
+Hermitian operator. . 2
+(c) Write the conditions for
+
+orthonormality of a set of
+
+eigenfunctions. 1
+
+D2(774)—500 (Turn Over)
+
+
+--- Page 10 ---
+(2)
+
+- -— +—-
+
+(d) Characterize the following |
+' molecules in terms of linear, |
+spherical tops, symmetrical tops |
+‘and asymmetrical tops and
+
+mention the basis of |
+characterization : |
+f) Ps :
+fii} COS . |
+(iii) O, .
+|
+_ fiv) CHF, |
+fe) Mention the differences between
+overtones and -hot bands in a IR |
+spectrum. Depict- it with a |
+schematic diagram of a line '
+spectrum. , 3
+(ff) Choose a_ correct relationship |
+between the molecular partition |
+function q and canonical partition
+function Q: 1
+
+f) Ing=NinQ
+fi) Q” =(q*)?
+
+ss InQ
+] =o C—T—F7>e
+{iti) ing
+
+=|O
+
+(iv) q= _
+D2(774) (Continued)
+
+
+--- Page 11 ---
+(g)
+
+(h)
+
+2. (a)
+
+(3)
+
+Consider the three collections of
+particles (ensembles) named
+microcanonical, canonical and
+grand canonical. Which one
+physical property is constant in all
+three ensembles?
+
+(fi) Total number of particles’ NV
+(ti) Pressure p
+(iii) Volume V
+
+(iv) Temperature T,
+
+What is the ratio of translational
+
+partition function of D, and Hy,
+contained in identical vessels at the
+same temperature? ‘
+
+Consider an electron moving inside
+a’3-D box of the dimensions a, b
+and c along x,y and z directions,
+respectively, under V =0 inside the
+
+‘box, otherwise, V =, derive the
+
+expression for the normalised wave
+
+(b)
+
+D2(774)
+
+functions and the corresponding
+energy levels.
+
+Discuss the degeneracy of the first
+four energy levels of this system
+
+-when a=be=c.
+
+10
+
+4
+
+(Turn Over)
+
+
+--- Page 12 ---
+3. (a)
+
+(b)
+
+(d)
+
+4. (a)
+
+D2(774)
+
+(4)
+
+Coristruct a Hamiltonian operator
+for a 1-D harmonic oscillator and
+use ‘it to set up the Schrédinger
+equation for this system.
+
+Assuming the general solution for
+the normalised wave functions of it
+as
+
+v2 —
+wal8)=( 2 a2 e*/7H,, (8)
+
+where’ n=0,1,2,3,-, & = Bx,
+—-m<§< m, H,(€)= Hermite
+polynomial of degree n, derive the
+wave functions for the lowest and
+
+first excited states using Hols) =1
+and Hy(&) = 26.
+
+Check the normality of the yoy of
+this system.
+
+With a suitable’ diagram, discuss
+the important features of the wave
+functions of harmonic oscillators.
+
+Draw a harmonic and an
+anharmonic potential under the
+same set of axes and depict the
+
+vibrational levels for both. Explain
+
+the dissociation phenomenon of a
+diatomic molecule from the graph.
+
+2
+
+4
+
+(Continued)
+
+
+--- Page 13 ---
+(b)
+
+(c)
+
+(d)
+
+5. (a)
+
+(b}
+
+(5)
+
+Schematically represent the
+different vibrational modes of CO,
+
+and .H,O molecules. Identify IR
+
+active modes.
+
+Show that the lines in a rotational
+spectrum of a diatomic molecule
+
+are equi-spaced under rigid rotor .
+
+approximation.
+
+Show that for a rotational spectrum
+of a diatomic molecule, the
+rotational quantum number for the
+maximum populated level is given
+by
+
+ya f APY? 21.
+me \2Bhe 2
+
+The terms have their usual
+meanings.
+
+What is, nuclear shielding and
+describe its effects on the
+resonance frequency of a molecule
+in an atom in NMR spectroscopy.
+
+NMR spectra can be obtained for
+which of the following nuclei and
+why? |
+
+3
+
+0B 1p 120 130 14N, 1Syy 160, 170, 195
+
+D2(774) |
+
+(Turn Over)
+
+
+--- Page 14 ---
+(6)
+
+(c} What is Larmor precession? Show
+that the Larmor precessional
+‘frequency is the same as the
+frequency of separation between
+two spin energy levels for proton. 4
+
+(d) Illustrate the  Franck-Condon
+
+principle with the help of potential
+
+energy curves of ground and first
+
+excited electronic states. "3 - |
+
+~——
+
+6. (a) The partition function, g = 5,e7°%
+
+provides a near-universal |
+prescription for calculating the
+macroscopic thermodynamic
+
+properties of a system by statistical
+mechanics. What does the index i
+represent and -how should the
+above summation be performed? 2
+
+(b) Explain, why the sum in partition
+function (q) can be ‘approximated
+by an integral for translational and
+
+' rotational partition function. Under
+which situation this approximation
+would fail to be accurate? ‘4
+
+{c) Derive a relation between free
+energy and molecular partition
+function for an ideal gas. 4
+
+D2(774) (Continued)
+
+
+--- Page 15 ---
+(d)
+
+7. (a)
+
+(b)
+
+(c)
+
+- (d)
+
+D2(774)
+
+(7)
+
+Deduce an expression for
+translational partition function of a
+molecule of mass m free to move in
+three dimensions X,Y and Z.
+
+Four distinguishable molecules are
+distributed in two energy levels EF,
+and £, with degeneracy of 2 and 3,
+respectively. Calculate the number
+
+of microstates with 3 molecules in
+
+energy level #, and one in energy
+
+level E,.
+
+What is characteristic vibrational
+temperature of a diatomic
+molecule? Write its physical
+
+significance,
+
+For a gaseous equilibrium .
+aA(g)+ bB(g)= cC(g)+ dD(g)
+
+obtain the expression for
+equilibrium constant, K,, in terms
+of molecular partition functions.
+
+Using expression for Maxwell
+
+distribution of speeds‘ of gas - |
+
+molecules, derive an expression for
+the translational kinetic energy
+distribution. Show that the average
+translational KE is equal to 3k,T.
+
+5
+
+(Turn. Over)
+
+
+--- Page 16 ---
+(8)
+
+8. Answer any two of the following :
+
+(2) Write the postulates of QM. '
+Construct the Hamiltonian operator
+for a rigid rotor system and
+thereof -write the Schrédinger
+equation for it. ~ O44
+
+. (b). Write short notes on the following : 4+3
+fi) Chemical shift
+fi) The relaxation times in NMR
+spectroscopy.
+
+{c} Using S=kglnQ+(U -U,)/T
+and. applying the  Stirling’s |
+approximation, derive the Sackur-
+Tetrode equation for a monoatomic
+ideal gas. 7
+
+kak
+
+D2(774)—500 REF NO. 058677
+
+
+--- Page 17 ---
+Total No. of Questions : 8] [Total No. of Printed Pages : 5
+
+- -Roll No. ....: nL eaesvecaveseces
+
+REF NO. 058676
+
+B. Sc. (Hons) Semester VI Examination
+2022-23
+
+CHEMISTRY
+
+Paper No. CHB-603 : Organic Chemistry-V
+
+Time : 3 hours Full Marks : 70
+
+(Write your Roll No. at the top immediately
+on the receipt of this question paper)
+
+The figures in the nght-hand margin indicate marks
+
+Answer five questions including Question 1
+which is compulsory
+
+‘1. (a) Describe the bimetallic mechanism
+of’ Ziegler-Natta polymerization of
+CH,;,—CH=CH, with suitable
+catalyst. - 6
+
+- {b) Describe the mechanism of
+
+quinoline synthesis using suitable
+
+- a, B-unsaturated. carbonyl
+
+compound. Write the quinoline
+
+reduction products in acidic and
+neutral conditions usingH, and Pt. 8
+
+D2(770)—500 "(Turn Over)
+
+
+--- Page 18 ---
+2. (a)
+
+(b)
+
+(c)
+
+(d)
+
+(2)
+
+Differentiate between thermoplastic
+and thermosetting polymers with
+examples.
+
+Discuss the stability of a-helix and
+B-sheet structures of proteins.
+
+Write the products of methylation
+and hydrolysis with dil HCl of the
+sucrose.
+
+What is mercerized cotton? How do
+you convert cellulose into cellulose
+rayon? Give reactions and
+
+_methodologies.- . “. -
+
+3. (a)
+
+(b)
+
+(c)
+
+‘D2(770)
+
+Write down the reaction and
+mechanism of the
+
+Erlenmeyer-Pléchl azlactone |
+
+synthesis of a-amino acids.
+
+How do you synthesize the
+following tripeptide? Give the
+reactions only : ,
+
+eee he
+
+" H3C~ ~CHg
+
+an
+Qin
+ical
+
+How would you ascertain the
+presence of a-D-glucopyranosyl
+unit in- sucrose? Explain.
+
+4
+
+(Continued)
+
+
+--- Page 19 ---
+Gans @ 6 Syn? GOs! = eS oo
+
+"Omminse oak ae ee
+
+i ee =a te bel. We.” 0.
+
+4. fa)
+
+(b)
+
+(3)
+
+Write down the products of the
+following reactions : 2+2
+
+() HsC\__-COOH Lil, .,
+NH
+
+(i) HsC\_-COOH (1) PANCO, ,
+
+(2) HCI
+NH .
+
+Write down the reactions for.
+
+~ establishing the beta-linkages in
+
+(c)
+
+5. (a)
+
+(b}
+
+cellulose. 3
+
+Discuss the Merrifield polypeptide
+synthesis with the mechanism. - 7
+
+Write short notes on the following: 4x3
+{i} Electroluminescent polymer
+
+(ii) Step-growth polymerization
+
+(itt) Liquid crystal
+
+ftv) Conducting polymer.
+
+How do you synthesise «-terpineol
+
+from p-toluic acid? Write reaction
+stepwise. 2
+
+- D2(770)—500 oe (Turn Over)
+
+
+--- Page 20 ---
+(4)
+
+6. (a) Provide a suitable mechanism for
+_ the following transformation : ‘8
+
+RON
+KCN =o
+a of
+‘H
+
+(b) Elucidate the structure of citral a
+with chemical reaction. 6
+
+7. (a) Write short notes on the following : 3x4
+fi) Fischer Indole synthesis
+‘(iti) “Electrophilic substitution on
+
+: Indole is regiospecific.”
+Elaborate the statement with
+appropriate . justification.
+
+Predict the product(s} with
+suitable mechanism in the
+following reaction :
+
+—
+N
+
+N
+H
+
+(ii) Friedlander synthesis and its
+limitations.
+
+) Discuss the Pfitzinger synthesis of
+quinoline. — 2
+
+D2(770) . . (Continued)
+
+
+
+--- Page 21 ---
+(5)
+
+8. fa) Establish the structure of thyroxine
+with help of the chemical reactions. 6
+
+(b) How do you prove the zwitterionic
+nature of amino acids and their
+- isoelectric point? Explain it. 4
+
+(c) Discuss the mechanism for cationic
+polymerization of any suitable vinyl
+monomer. (4
+
+kkk
+
+D2(770)—500 REF NO. 058676
+
+
+--- Page 22 ---
+Total No. of Questions : 8] [Total No. of Printed Pages : 5
+
+Roll No. ccccesssseceees cece
+
+REF NO. 058675
+
+B. Sc. (Hons) Semester VI Examination
+2022-23 :
+
+CHEMISTRY
+
+Paper No. CHB-602 : Inorganic Chemistry-IV
+Time : 3 hours Fuil Marks : 70
+
+(Write your, Roll No. at the top immediately
+on the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+
+Answer five questions including Question 1
+vs which is compulsory
+
+1. (a) Write down the reactions involved
+
+for preparation of actinides. 2
+{b) What are Curie and Neel
+temperatures? 2
+
+(c) Write an example where a solvent
+molecule affects the magnetic
+
+moment of molecule. 2
+(a) What do you understand by twin
+
+elements? 2
+
+D2(767)—500 (Turn Over)
+
+
+--- Page 23 ---
+(2)
+
+fe) Using Orgel. diagram assign the
+electronic transitions to the
+absorption peaks mentioned for the
+complexes below : 2x3
+fi) [CoC], : 3300 cm”,
+5800 cm”, 15000 em”!
+
+fii) [V(H,O),]** : 17400 cm,
+37000 cm”!
+
+2. (a) Write electronic configurations for
+Sf series of elements and compare |
+their oxidation states with those of
+4f series of elements. 7
+
+(b) Why octahedral. complexes of Ni(II)
+have less magnetic moment than
+tetrahedral Ni(II), when both are
+having similar d® configuration? § 7
+
+3. (a) Which of the following conditions
+favour the — spin-cross over
+phenomenon to occur and why?— 3
+
+f) 10Dq<P
+fii) 10Dq2P
+(iii) 10Dq>P
+
+fiv) None of the above
+
+D2(767) | (Continued)
+
+
+--- Page 24 ---
+Lo 2 48)
+
+{b) Explain the magnetic property
+of tetrabutylammoniumcopper(I])
+chromium(III)-oxalate. 5
+
+(c) Why. are lower oxidation states
+more stable in 3d metals and .
+higher oxidation states are more
+stable in 4d and 5d metals? Give
+examples for transition metal
+complexes with stable 0, -1, -2 and
+-3 oxidation states. 6
+
+4. (a) Compare complex formation
+
+_ tendencies of lanthanides and
+actinides. - | 4
+
+(b) How to separate Pu and U from a
+solution of Uranium fuelelements? 4
+
+(c) [NiCl,P" is tetrahedral but
+
+[PdCl,]?- and [PtCl,]?" are. square
+
+planar although all of them have
+
+same number of d-electrons and
+coordination number. 4
+
+(d) What is pyramid of oxidation
+states? . 2
+
+5. (a) Calculate the ‘correct- molar
+magnetic susceptibility for
+CuSO, -5H,O from the givendata: 8
+Volume magnetic susceptibility for’
+CuSO, -5H,0 =1-70x10%
+D2(767)—500 (Turn Over}
+
+
+--- Page 25 ---
+(4).
+
+Molar mass = 250-18 g/mole
+Density = 2-29x10™ kg/m*
+
+Pascal constants for paramagnetic
+correction : Cu?* =-161x107!?
+H,O =-163 x10"
+
+Temperature = 20 °C
+So2- =-50 x10"
+
+(b) Which of the phenomena among
+paramagnetism, diamagnetism and
+ferromagnetism does not occur in
+liquid or gaseous state and why? 6
+
+6. (a) Describe the structure of
+haemoglobin and its cooperativity
+effect. * , o 77
+
+(b) Describe the ion exchange method |
+for the separation of lanthanides. 3
+
+{c) How does a _ non-equivalent
+magnetic site in a unit lattice
+influence the magnetic property of
+a bulk material? Give an example. 4
+
+7. (a) Comment on the Faraday method
+
+of determination for measuring
+
+magnetic susceptibility and _ its
+advantages. 6
+
+D2(767) (Continued)
+
+
+--- Page 26 ---
+(5)
+
+{b) Explain the spin-orbit . coupling
+conditions for 3d-metal ions with
+
+examples. ae)
+(c) Differentiate between magnetically
+
+diluted and non-diluted
+
+substances. 3
+
+8. (a) Describe the phenomenon where
+individual magnetic dipoles of
+metal ions use to couple through
+the electrons of intervening ligands. 5
+
+{b) How can Ce and Eu be separated
+. form a mixture of lanthanides? © 2
+
+{c) What is the significance of model .
+complexes? Discuss synthetic
+-model of oxyhaemoglobin in brief. 7
+
+kk
+
+D2(767)—S00 REF NO. 058675
+
+
+--- Page 27 ---
+Total No. of Questions : 8] [Total No. of Printed Pages 16
+
+Roll No. ...c....cceeeeeeee Lee
+
+REF NO. 058674
+
+B. Sc. (Hons) Semester VI Examination
+2022-23
+
+CHEMISTRY
+
+Paper No. CHB-601 : Analytical Chemistry-II
+Time: 3 hours *— Full Marks : 70
+
+(Write your Roll No. at the top immediately
+on the receipt of this question paper)
+
+The figures in.the right-hand margin indicate marks
+
+Answer five questions including Question 1
+which is compulsory
+
+1. Answer the following :
+
+(a) What is ‘distribution law’ ? 2
+. (b) Explain optical density and specific
+absorptivity. 2
+
+(ce) A sample in a 1:5 cm cell is -
+determined with a spectrometer to
+transmit 60% light at a certain
+wavelength. If the specific
+absorptivity of this substance at,
+this wavelength is 3-0 L-g™'-cm7!.
+-What is the concentration of the
+substance? ' 2
+
+D2(763)—500 (Turn Over)
+
+
+--- Page 28 ---
+(2)
+
+(ad) List the neutron sources. How is
+the sensitivity affected -by the
+“neutron flux of the source? 2
+
+fe) Explain the following : ; 6x1
+fi) Reverse phase  chromato-
+graphy
+(ii) Cation exchanger
+(ii) Retention time
+{iv) Radioactive half-life period
+(v) Decay constant
+
+(vi) Monochromator.
+
+2. (a) Define partition coefficient. How
+does it differ from the distribution
+ratio? 3
+
+(b) Discuss the role of pH and relevant
+
+. equilibria on the distribution ratio
+
+of a weak acid extracted from an
+aqueous phase to an organic phase. 5
+
+_(c) If 40 g butyric acid is to be
+extracted from 1000 mL of water
+with 1000 mL ether, then what will
+be the weight of the butyric acid
+extracted? The distribution
+coefficient for this system is 3 at ,
+
+D2(763) | (Continued)
+
+
+--- Page 29 ---
+(3)
+
+|
+|
+
+25 °C. However, if ether is used in
+two successive 500 mL portions,
+then what will be the amount of
+butyric acid extracted in the ether?. 6
+
+3. (a) Discuss the isotope dilution
+method applied in the
+radiochemical analysis along with
+their applications. 7
+
+(b) What is neutron activation
+analysis? Discuss its salient
+features. Write the advantages and
+disadvantages of the absolute
+activation analysis. 7
+
+4. (a) Classify chromatographic method.
+Write the general principle and
+applications of ion exchange
+.chromatography and thin layer
+chromatography. ° . 12
+
+(b) “Planar chromatography is superior
+to column chromatography for easy
+analysis of a sample.” Elaborate on
+this statement. 2
+
+5. (a) What is Craig concept of counter-
+~ current distribution? Enlist
+important solvent extraction
+systems and illustrate any two of
+them. , 10
+
+D2(763)—S00 (Turn Over)
+
+
+
+--- Page 30 ---
+(4)
+
+(b) Calculate the percentage
+distribution of a substance after
+three transfers in a Craig apparatus
+for which the volume of the
+stationary phase is 4-0 mL and the -
+volume of the mobile phase is
+8:0 mL. The distribution coefficient
+is 6:0, 4
+
+. 6 fa) State and derive Beer’s law. |
+Describe and ‘compare different -
+reasons for deviation from Beer’s
+_law. : 8
+
+(b) A solution containing the complex
+formed between Bi(III) and thiourea |
+has a molar absorptivity of
+9-32x10° Lmol™? cm™ at.470 nm.
+
+fi) What is the absorbance of a
+6-24x10° M solution of the
+complex at 470 nm in a
+1:00 cm cell?
+
+fii} What is the molar
+
+concentration of the complex
+
+in a solution that has the
+
+. absorbance described in
+
+« (i) when measured at 470 nm
+in a 5-00 cm cell? 4
+
+D2(763)} (Continued)
+
+
+
+--- Page 31 ---
+(5)
+
+(c) Potassium dichromate aqueous
+solution does ‘not obey Beer’s law
+upon dilution. Comment and
+suggest how. you would make this
+solution obey Beer’s law. 2
+
+7. Answer any four of the following: 4x3%
+
+fa) Describe the procedure _ to
+determine pK, of an acid-base
+indicator spectrophotometrically.
+
+{b) Prove that the minimum relative
+
+' error in ‘concentration theoretically
+occurs when transmittance is equal
+to 0:368.
+
+(ce) How do you quantitatively -
+estimate a  Cr(VI) — sample
+_ sp ectrophotometrically?
+
+(dq) How can you _ simultaneously
+analyze two absorbing species
+in a solution if both the
+absorbing species are showing.
+
+overlapping spectra during ©
+UV-visible molecular absorption
+measurements?
+
+(e) Write a note on photometric errors
+in spectrophotometry. ‘
+
+D2(763)) (Turn Over)
+
+
+--- Page 32 ---
+(6)
+
+8. Write short note on any three of the
+following : S+5+4
+(a) Paper chromatography
+(b) Multiple extractions
+(c}) Adsorption chromatography
+(ad) Calibration plot and Ringbom plot
+(e) Instrumental design of a
+
+spectrophotometer.
+
+kkk
+
+D2(763)—S00 REF NO. 058674
+
+i een te ~

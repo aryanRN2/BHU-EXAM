@@ -123,6 +123,48 @@ def get_code_mapping(code, filename, dept):
         
     return "N/A", code
 
+def get_math_code_mapping(code):
+    code_upper = code.upper()
+    if "MTB-101" in code_upper:
+        return "MATHJ11", "MTB-101"
+    elif "MTB-102" in code_upper:
+        return "MATHJ12", "MTB-102"
+    elif "MTB-201" in code_upper:
+        return "MATHJ21", "MTB-201"
+    elif "MTB-202" in code_upper:
+        return "MATHJ22", "MTB-202"
+    elif "MTB-203" in code_upper or "MTB-AM-203" in code_upper:
+        return "MATHD11", "MTB-203A / MTB-AM-203"
+    elif "MTB-301" in code_upper:
+        return "MATHJ31 / MATHJ32", "MTB-301"
+    elif "MTB-302" in code_upper:
+        return "MATHJ33 / MATHJ34", "MTB-302"
+    elif "MTB-401" in code_upper:
+        return "MATHJ41", "MTB-401"
+    elif "MTB-402" in code_upper:
+        return "MATHJ42", "MTB-402"
+    elif "MTB-AM-403" in code_upper:
+        return "MATHD21", "MTB-AM-403"
+    elif "MTB-502" in code_upper:
+        return "MATHJ52", "MTB-502"
+    elif "MTB-601" in code_upper:
+        return "MATHJ61", "MTB-601"
+    elif "MTB-602" in code_upper:
+        return "MATHJ62", "MTB-602"
+    elif "MTB-603" in code_upper:
+        return "MATHJ63", "MTB-603"
+    elif "MTB-611" in code_upper:
+        return "MATHJ64", "MTB-611"
+    
+    # Generic fallback pattern
+    match = re.search(r'MTB-(?:AM-)?(\d+)', code_upper)
+    if match:
+        num = match.group(1)
+        sem = num[0]
+        if len(num) >= 3:
+            return f"MATHJ{sem}1", code
+    return "N/A", code
+
 def scan_tex_files():
     data = []
     
@@ -192,6 +234,102 @@ def scan_tex_files():
                     # Let's handle some alternative patterns if any
                     print(f"Skipping Physics file due to pattern mismatch: {f}")
                     
+    # 3. Mathematics tex files
+    math_dir = "aaa/latest corrected maths pdf/final maths export latex"
+    if os.path.exists(math_dir):
+        for f in os.listdir(math_dir):
+            if f.endswith(".tex") and not f.startswith("test_"):
+                filepath = os.path.join(math_dir, f)
+                # Parse the file content to extract metadata
+                with open(filepath, 'r', encoding='utf-8') as file_obj:
+                    content = file_obj.read()
+                
+                # Extract code and subject
+                code = "MTB-Unknown"
+                subject = ""
+                
+                # Check for comment pattern: % Paper: MTB-101 : Calculus-I
+                comment_match = re.search(r'%\s*Paper:\s*(MTB-[A-Z0-9-]+)\s*:\s*([^\n]+)', content, re.IGNORECASE)
+                if comment_match:
+                    code = comment_match.group(1).strip()
+                    subject = comment_match.group(2).strip()
+                else:
+                    # Check for pdftitle: pdftitle={MTB-502: Abstract Algebra -- BHU PYQ}
+                    pdf_match = re.search(r'pdftitle\s*=\s*\{\s*(MTB-[A-Z0-9-]+)\s*:\s*([^}-]+)', content, re.IGNORECASE)
+                    if pdf_match:
+                        code = pdf_match.group(1).strip()
+                        subject = pdf_match.group(2).strip()
+                    else:
+                        # Check for fancyhead[R]: \fancyhead[R]{\small\textit{MTB-502: Abstract Algebra}}
+                        fancy_match = re.search(r'\\fancyhead\[R\]\s*\{\s*\\small\\textit\s*\{\s*(MTB-[A-Z0-9-]+)\s*:\s*([^}]+)', content, re.IGNORECASE)
+                        if fancy_match:
+                            code = fancy_match.group(1).strip()
+                            subject = fancy_match.group(2).strip()
+                        else:
+                            # Check for Paper No.: Paper No. MTB-502: Abstract Algebra
+                            paper_match = re.search(r'Paper\s*(?:No\.)?\s*(MTB-[A-Z0-9-]+)\s*:\s*([^}\n\\]+)', content, re.IGNORECASE)
+                            if paper_match:
+                                code = paper_match.group(1).strip()
+                                subject = paper_match.group(2).strip()
+                
+                # If subject is empty, try to parse from filename
+                if not subject:
+                    name_without_ext = f[:-4]
+                    parts = name_without_ext.split('_')
+                    if parts[0].startswith('MTB-'):
+                        code = parts[0]
+                        subject = camel_case_split(parts[1])
+                    else:
+                        subject = camel_case_split(parts[0])
+                        # Search for MTB code in file
+                        code_match = re.search(r'MTB-[A-Z0-9-]+', content)
+                        if code_match:
+                            code = code_match.group(0)
+                
+                # Parse Year
+                year = ""
+                # Try from filename first: e.g. MTB-101_Calculus-I_BSc-SemI_2023-24.tex or AbstractAlgebra_SemV_2022-23.tex
+                year_match = re.search(r'(\d{4}-\d{2}|\d{4}-\d{4})', f)
+                if year_match:
+                    year = year_match.group(1)
+                else:
+                    # Try from content: e.g. "Examination, 2023-24"
+                    exam_match = re.search(r'Examination,\s*(\d{4}-\d{2}|\d{4}-\d{4})', content)
+                    if exam_match:
+                        year = exam_match.group(1)
+                    else:
+                        year = "2023-24" # Default
+                
+                # Parse Semester
+                semester = 1
+                # Try from filename first
+                sem_match = re.search(r'Sem\s*([I|V]+)', f, re.IGNORECASE)
+                if sem_match:
+                    semester = parse_semester("Sem" + sem_match.group(1))
+                else:
+                    # Try from content
+                    sem_content_match = re.search(r'Semester\s*([I|V]+)', content, re.IGNORECASE)
+                    if sem_content_match:
+                        semester = parse_semester("Sem" + sem_content_match.group(1))
+                
+                # Clean subject
+                subject = subject.replace('--', '').replace('BHU PYQ', '').replace('BHU', '').strip()
+                
+                # Map codes
+                nep_code, old_code = get_math_code_mapping(code)
+                
+                data.append({
+                    "code": code,
+                    "subject": subject,
+                    "semester": semester,
+                    "year": year,
+                    "department": "Mathematics",
+                    "filePath": filepath,
+                    "fileName": f,
+                    "nepCode": nep_code,
+                    "oldCode": old_code
+                })
+
     # Sort data: department, semester, subject, year
     data.sort(key=lambda x: (x["department"], x["semester"], x["subject"], x["year"]))
     return data

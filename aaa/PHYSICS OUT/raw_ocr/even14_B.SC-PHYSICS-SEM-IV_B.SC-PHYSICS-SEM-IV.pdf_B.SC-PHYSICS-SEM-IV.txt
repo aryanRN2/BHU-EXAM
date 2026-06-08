@@ -1,0 +1,481 @@
+--- Page 1 ---
+Total No. of Questions : 5] {Total No. of Printed Pages : 5
+
+BS/Sem IV/126
+
+B. Sc. (Hons) Semester IV Examination
+
+2013-14
+PHYSICS
+Paper No. BPT-401 : Electronics and Modern
+Physics
+Time : 3 hours Full Marks : 70
+
+(Write your Roll No. at the top immediately on
+the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+Answer all questions
+
+The symbols have their usual meanings unless
+Specified otherwise
+
+Log Tables may be supplied on demand
+
+1. Answer any five of the following : 5x4
+
+(a) What are polar and non-polar
+dielectrics? Explain the terms
+electronic, ionic and dipolar
+polarisabilities.
+
+(b) Electrons are accelerated in a TV tube
+through a potential difference of 10 kV.
+
+D/4{337)—1200 (Turn Over)
+
+
+--- Page 2 ---
+D/4(337)
+
+(c)
+
+(a)
+
+(2)
+
+Find the highest frequency of the e.m.
+wave emitted when these electrons
+strike the screen of the tube. Justify
+that waves are X-rays.
+
+Explain the various parameters in the
+given equation for a p-n junction diode
+
+Vv
+t=i| p——_-1
+lp nkT
+Prove that dynamic resistance of diode
+*(r)
+is | —— |.
+el
+
+How is current gain a different from B ?
+Explain with expressions. Determine
+the current gain and emitter current
+for a transistor circuit in CE
+configuration, where I, =50 pA and
+
+Io =3-65 mA.
+
+(e)
+
+(g)
+
+Show that de Broglie wavelength of a
+particle of mass m, charge q and
+accelerated through a_ potential
+difference of v vast is
+
+h
+2mqu
+
+Explain important features of para-,
+dia- and ferromagnetic materials. Give
+domain theory of ferromagnetism. -
+Explain why a transistor is to be
+biased. Draw the load line and explain
+its importance.
+
+r=
+
+(Continued)
+
+
+--- Page 3 ---
+(3)
+
+2. (a) Explain the formation of depletion
+region in a P-N junction diode. Find
+the expression for width of depletion
+region and height of potential barrier
+without external voltage. 10
+
+(b) A silicon p-n junction has depletion
+width 20 ym at a reverse voltage of
+16 V. If the reverse voltage is increase
+to 25 V, find the new depletion width. 2%
+
+3. (a) What is Lorentz local field? Derive
+Lorentz formula with the concept of
+internal electric field. Derive the
+Clausius-Mosotti equation .
+
+K-1_ Na,
+K+2  3€
+
+where symbols have their usual
+meanings. 10%
+
+(b) A slab of dielectric material of
+dielectric constant 10 and thickness
+5 mm is placed between the parallel
+plates of a capacitor. If potential
+difference of 10° V is applied between,
+the plates, evaluate the Lorentz field. 2
+
+Or
+(a) Define magnetic induction,
+magnetisation, magnetic susceptibility
+and permeability. Establish relation
+
+between them. 5
+
+D/4(337}—1200 (Turn Over)
+
+
+--- Page 4 ---
+(4)
+
+(b) Obtain Langevin’s formula for dipolar
+polarizability of a polar dielectric
+substance. 5
+
+(c) Evaluate the Larmor frequency of an
+electronic orbit, when it is subjected to
+a magnetic induction field of
+2 Tesla. (Given e=1-6x10"!? c¢ and
+m=9-1x107*) kg.) Ye
+
+4. (a) Distinguish between continuous and
+characteristic X-rays. Show the plot of
+X-rays intensity versus frequency
+
+observed in both cases. 4
+{b) Derive Bragg’s law for X-ray diffraction
+from a layer of atoms in a plane. 6
+
+(c) X-rays of wavelength 0:71 A are
+reflected from the (110) plane of a rock
+salt crystal (d 1,9 =2'82 A). Calculate
+the glancing angle 6 corresponding to
+second-order Bragg spectrum. 2%
+
+Or
+
+(a) Define mobility of charge carriers in a
+semiconductor. Find the expression for
+the drift current and diffusion current
+
+in a semiconductor. 5
+‘ (b) What are various transistor biasing
+techniques? Draw the circuit diagram
+
+of a self-bias circuit and describe its
+working for the stabilisation, 5
+
+D/4(337) (Continued)
+
+
+--- Page 5 ---
+(5)
+
+(c) What is rectifier efficiency? Show that
+efficiency of a half-wave rectifier is
+
+40-6
+
+1+ ale
+
+R,
+
+%
+
+where R, is forward resistance and R,
+is load resistance. 2%
+
+5. (a) Draw the circuit diagram of a RC
+coupled amplifier. Explain the function
+of each resistance and capacitance
+used in the circuit. Plot the frequency
+response of the amplifier. 6
+
+(b) What is photoelectric effect? Explain
+Photoelectric current and retarding
+potential.
+
+The photoelectric threshold for a
+metal is 3000 A. Find the kinetic
+energy of an electron ejected from it by
+radiation of wavelength 1200 A. Given
+h =6-62x 1074 Js. 4
+
+(c} Explain active region, cut-off region
+and saturation region in transistor
+operation using suitable circuit and
+figure. 2%
+
+kk
+
+D/4(337)—1200 . BS/Sem IV/126
+
+
+--- Page 6 ---
+
+
+--- Page 7 ---
+Total No. of Printed Pagesa: 4]
+
+BS/Sem IV/127
+ROH NO. 00.0... eeee cc ecee
+
+B. Sc. (Hons.) Semester IV Examination, 2013-14
+PHYSICS
+(Ancillary)
+Paper : BSC07 ABP Anc.-ll
+(Ancillary Physics)
+
+Time : Three Hours ] { Full Marks : 70
+{Write your Roll No, at the top immediately on the
+
+receipt of this question paper.]
+Note: Attempt any five questions. Including Question
+No. 1 which is compulsory.
+1. Answer any six of the following : 6x3=18
+
+(a) What do you mean by intensive and extensive
+properties ?
+(b) Explain dual nature of light with example.
+
+{c) How diffusion, Brownian motion can be
+
+explained on the basis of random walk ?
+
+ae
+
+
+--- Page 8 ---
+BS/Sem IV/127
+
+(d)
+
+(e)
+
+(f)
+(g)
+
+(h)
+
+2. (a)
+
+(b)
+
+(c)
+
+3. (a)
+
+What will be the value of Entropy at T = 0 K ?
+
+Will Carnot cycle work at the temperature ?
+
+Green light of wave length 5100 A®° froma narrow
+slit is incident on double slit. If the overail
+separation of 10 fringes on a screen 200 cm away
+
+is 2 cm, find the slit separation.
+Explain various uses of polarization of light.
+
+Define the power of a lens. Mention the power of
+
+lens of combination of two lenses.
+
+What do you mean by thermal equilibrium ?
+Which law of thermodynamic defines it ?
+
+Explain various types of defects in Eye. How can
+
+these defects be removed using different lenses ?
+5+3+4+5=13
+
+State and explain Fermat's principle of extremum
+
+path with example.
+
+Explain the differences between Fresnel and
+*
+
+Fraunhoffer class of diffraction.
+
+Define the resolving power of an optical
+
+instrument. What is the resolving power of
+
+\elescope ? 74+6=123
+
+(2)
+
+
+--- Page 9 ---
+BS/Sem |V/127
+
+{b) A point source of light is located 20 cm in front of a
+
+(b
+
+5. (a
+
+{b
+
+=
+
+)
+
+=
+
+6. (a)
+
+(b
+
+=
+
+convex mirror with focal length 15 cm. Determine
+
+the character and position of image point.
+
+Calculate the focal length of a Plano convex
+mirror for which radius of curvature is 40 em and
+refractive index j1 = 1.5. $+8=13
+Explain the construction and working of
+
+compound microscope using proper diagram.
+
+Establish thermodynamic variables S, 1, P and V in
+terms of thermodynamic potentials, U, F, Hl and G,
+where symbols have their usual meaning. 8+5=13
+What do you mean by isothermal process ? Show
+thal in an isothermal expansion of an Ideal gas
+AU = 0 and AH = 0.
+
+Discuss the working of Carnot's Engine on P-V
+diagram. 6+7=13
+The efficiency of a Carnot Engine can be increased
+by two ways (i) by decreasing the temperature of
+sink I>, keeping the temperature of source 1;
+constant or (ii) by increasing the temperature of
+source T), keeping the temperature of sink T:
+constant. Which of these method will be more
+
+effective and why ?
+
+(3) P. TT...
+
+
+--- Page 10 ---
+HS/Sem IW/127
+7 (a) What is the difference béefween effusion and
+
+diffusion ? 343+4+3=13
+(hb) What is Graham's law of diffusion ?
+
+(ch What do you mean by drift velocity and mean
+
+free path ? .
+
+-
+
+(a) Why water droplets formed when a tube of cycle
+
+burst ?
+
+#2 100
+
+
+--- Page 11 ---
+BS/Sem IV/130 (Old)
+
+B.Sc. (Hons.) SEMESTER IV EXAMINATION 2013-14
+PHYSICS
+(Old Course)
+Paper : BPT - 401: Electromagnetic Theory and Basic Electronics
+
+Time : Three hours Max. Marks : 70
+
+(WRITE YOUR ROLL NO. AT THE TOP IMMEDIATELY ON THE RECEIPT OF THIS QUESTION PAPER)
+
+NOTE : ANSWER ALL QUESTIONS.
+
+1. Answer any five of the following : ox4
+a) Prove that divergence of the curl of any vector field vanishes. _
+b) Define Scalar and Vector potentials. How do you express E and B fields in terms of
+scalar and vector potentials?
+c) Write down the four Maxwell's equations in differential form and briefly explain the
+physical meaning of each Maxwell's equation.
+d) A material has g@ =107s/mand e= 2¢,. At what frequency the conduction
+current would be equal to the displacement current?
+¢) Describe the position of Fermi level in intrinsic and extrinsic semiconductor. Discuss
+the effect of temperature.
+f) Why the Capacitor filter is mostly used in a power supply rather than inductor filter?
+Explain.
+8) Explain how current gain ‘a’ is different from 'B', Establish a relation between ‘a’ & 'B'.
+of a transistor.
+2. a) State and prove Gauss's divergence theorem. 5
+b) Derive the wave equation for the propagation of an electromagnetic wave ina
+non-conducting dielectric medium and obtain the relation for propagation constant,
+intrinsic impedance phase velocity and group velocity. 7
+3. a) State and Prove Poynting theorem for conservation of energy in an electromagnetic
+field and discuss the physical significance of each term, 8
+b) Define depth of penetration (Skin depth)? Show that electromagnetic waves are
+heavily attenuated inside a conductor. At.
+OR
+a) Aplane wave travelling in a homogenous, isotropic and dielectric medium is incident
+obliquely at a plane interface of another dielectric, Determine the reflection and
+transmission coefficients if the incident wave is polarized with its electric vector lying
+in the plane perpendicular to the plane of incidence. 9
+b) — What is transmission line? Explain different parameters of a transmission line.
+
+Determine the characteristic impedance of a lossless cable if L = 0.25 wH/m and
+
+C= 100 PF/m. 34%
+
+P.T.O.
+
+
+--- Page 12 ---
+ur
+
+a)
+b)
+
+a)
+
+a)
+
+b)
+
+c)
+
+rm
+
+Explain the depletion region in a p-n junction. Show that the width of depletion region
+
+in the p-n junction decreases with increase of impurity. 72
+Describe the working of a R C Coupled amplifier with suitable diagram. Give the
+frequency response of the amplifier. 5
+OR
+Explain the working of a full wave rectifier having capacitor filter with suitable
+diagram. Obtain the necessary relationship for the ripple factor. 7¥2
+Why a transistor needs biasing? Explain. Draw the circuit diagram of a transistor with
+a self-bias. Explain how it is better than fixed bias circuit. @)
+
+Starting from the Maxwell's equation, derive the wave equation for the propagation of
+plane electromagnetic wave in free space and obtain the solution of the wave equation.
+
+5
+Find the Brewster angle for a parailel polarized wave travelling from air into glass for
+which ¢€,=5.0. Given that €, = 8.85x10°°F/m, pw, =4nx 10° H/m and
+
+C=3x10' m/s. 4
+Explain the meaning of Early effect? How does it affects the Collector Current in a
+transistor? 3h
+
+HEEHE

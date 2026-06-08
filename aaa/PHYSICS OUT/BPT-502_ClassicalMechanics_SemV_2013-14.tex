@@ -1,0 +1,118 @@
+% BHU PYQ -- Manually transcribed & error-corrected
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BPT-502: Classical Mechanics -- BHU PYQ},pdfauthor={Banaras Hindu University}}
+
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BPT-502: Classical Mechanics}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) Semester V Examination, 2013-14}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. BPT-502: Classical Mechanics}\\[4pt]
+  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer all questions. Symbols have their usual meanings.}
+\bigskip
+
+\noindent\textbf{Question 1.} Answer any \textbf{four} of the following: \pts{4 $\times$ 5 = 20}
+\begin{parts}
+  \item What is the meaning of constraints? Classify different types of constraints and give at least one example of each.
+  \item The Lagrangian of a two-dimensional system is given by:
+    \[ L(x, y, \dot{x}, \dot{y}) = \frac{1}{2} m (\dot{x}^2 + \dot{y}^2) - kxy + \frac{1}{2} k_1 (x^2 + y^2) \]
+    Obtain the Hamiltonian of the system.
+  \item Show that the angular momentum of a particle moving under the influence of a central force is always conserved. What is a cyclic coordinate?
+  \item Construct the Hamiltonian of a system consisting of an electron and a proton. Obtain the canonical equations of motion for both particles.
+  \item Write down the Hamilton-Jacobi equation for a simple harmonic oscillator. Find the solution of this equation.
+  \item Calculate the Poisson bracket $\{\vec{p}^2, \vec{r}\}$.
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 2.}
+\begin{parts}
+  \item Construct the Lagrangian of a simple pendulum of mass $m$ connected to a string of length $l$. \pts{4}
+  \item How will the Lagrangian change if the string is replaced by a spring of spring constant $k$ and unstretched length $l_0$? \pts{4}
+  \item Obtain the Euler-Lagrange equations of motion for both of the above cases. \pts{6}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 3.}
+\begin{parts}
+  \item State and explain the virial theorem. Show that the time average kinetic energy $\langle T \rangle$ and time average potential energy $\langle V \rangle$ of a conservative system with a potential $V(\vec{r})$ which is a homogeneous function of coordinates of degree $n$ satisfy:
+    \[ \langle T \rangle = \frac{n}{2} \langle V \rangle \] \pts{5}
+  \item The Lagrangian for a particle of charge $q$ moving in an electromagnetic field described by scalar potential $\phi(x,y,z,t)$ and vector potential $\vec{A}(x,y,z,t)$ is given by:
+    \[ L = T - q\phi + \frac{q}{c} \vec{v} \cdot \vec{A} \]
+    where $T = \frac{1}{2} m \vec{v}^2$.
+    \begin{parts}
+      \item Find the equations of motion for the particle and obtain the Lorentz force law. \pts{5}
+      \item Calculate the Hamiltonian of this particle. \pts{4}
+    \end{parts}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 4.}
+\begin{parts}
+  \item A particle of mass $m$ is moving on a plane under an attractive central force given by $F(r) = -\frac{\alpha}{r^2}$ (where $\alpha > 0$). Find the condition for the particle to move in a stable circular orbit. \pts{7}
+  \item A particle moves on a curve $r^2 = a \cos(2\theta)$ under the influence of a central force. Find the force law and show that the areal velocity of the particle is conserved. \pts{7}
+\end{parts}
+\hfill \textbf{OR}
+\begin{parts}
+  \item What is the meaning of the isotropy of space? Obtain the conservation law that arises from it. \pts{5}
+  \item Show that if $F(q_i, p_i, t)$ and $G(q_i, p_i, t)$ are two integrals of motion, then their Poisson bracket $\{F, G\}$ is also an integral of motion. \pts{5}
+  \item Discuss the principle of mechanical similarity. \pts{4}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Determine the values of constants $\alpha$ and $\beta$ so that the equations:
+    \[ Q = q^{\alpha} \cos(\beta p), \quad P = q^{\alpha} \sin(\beta p) \]
+    represent a canonical transformation. \pts{4}
+  \item Find a suitable generating function for this canonical transformation. \pts{4}
+  \item Show that the fundamental Poisson brackets are invariant under canonical transformations. \pts{6}
+\end{parts}
+\hfill \textbf{OR}
+\begin{parts}
+  \item What is virtual work? State and explain D'Alembert's principle. Compare the equations of motion obtained from D'Alembert's principle with those from Hamilton's principle. \pts{7}
+  \item What is meant by a Legendre transformation? Show how it can be used to generate thermodynamic potentials. Derive Hamilton's equations of motion. \pts{7}
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

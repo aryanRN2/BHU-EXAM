@@ -1,0 +1,124 @@
+% BHU PYQ -- Manually transcribed & error-corrected
+% Paper: MTB-201 : Calculus II
+% Exam: B.A. (Hons.) Semester II Examination, 2023-24
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={MTB-201: Calculus II -- BHU B.A. Sem II 2023-24}}
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{MTB-201: Calculus II}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.A. (Hons.) --- Semester II Examination, 2023-24}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. MTB-201: Calculus II}\\[4pt]
+  {\normalsize Time: 3 Hours \hfill Full Marks: 70}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer \textbf{five} questions including Question~1 which is compulsory. Figures in right-hand margin indicate marks.}
+\bigskip
+
+\noindent\textbf{Question 1.} \textit{(Compulsory --- 2 marks each.)}
+\begin{parts}
+  \item Determine the repeated limits of $f(x, y) = \frac{x-y}{x+y}$ at $(0, 0)$.
+  \item By using the definition of limit, show that $\lim_{(x,y) \to (1,2)} xy = 2$.
+  \item If $z = x^2 y^3$, where $x = t^2$ and $y = t$, then find $\frac{dz}{dt}$.
+  \item Investigate for maximum and minimum values the function given by $f(x) = \sin x + \cos 2x$.
+  \item If $f(x,y) = \begin{cases} \frac{xy}{\sqrt{x^2+y^2}}, & \text{if } x^2+y^2 \neq 0 \\ 0, & \text{if } x=y=0 \end{cases}$, then find $f_x(0,0)$ and $f_y(0,0)$.
+  \item Verify Euler's theorem for the function $u = x^3 \log(y/x)$.
+  \item Show that $\beta(m, n) = \frac{\Gamma(m)\Gamma(n)}{\Gamma(m+n)}$.
+  \item If $u^u v^v w^w = 1$, then show that $\frac{\partial^2 u}{\partial v \partial w} = -(u \log (eu))^{-1}$ when $u = v = w$.
+  \item Show that $\int_0^\infty e^{-x^2} \, dx = \frac{\sqrt{\pi}}{2}$.
+  \item Evaluate: $\int_1^e \int_0^{\log y} \int_1^{e^x} \log z \, dz \, dx \, dy$.
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 2.}
+\begin{parts}
+  \item Show that the function $f(x, y) = \sqrt{|xy|}$, where $(x, y) \in \mathbb{R}^2$, is continuous but not differentiable at the origin. \pts{6}
+  \item State and prove a sufficient condition for differentiability of a function of two variables. \pts{6}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 3.}
+\begin{parts}
+  \item State and prove Schwarz's theorem for a function of two variables. \pts{6}
+  \item Expand the function $f(x, y) = x^2y + 3y - 2$ by Taylor's theorem in powers of $(x - 1)$ and $(y + 2)$. \pts{6}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 4.}
+\begin{parts}
+  \item If $u = \tan^{-1}\left( \frac{xy}{\sqrt{1+x^2+y^2}} \right)$, then show that $\frac{\partial^2 u}{\partial x \partial y} = \frac{1}{(1+x^2+y^2)^{3/2}}$. \pts{6}
+  \item State and prove Euler's theorem for homogeneous functions. If $u = \tan^{-1}\left( \frac{x^3+y^3}{x-y} \right)$, $x \neq y$, then show that:
+  \[
+  x \frac{\partial u}{\partial x} + y \frac{\partial u}{\partial y} = \sin 2u
+  \] \pts{6}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Determine the points where the function $f(x, y) = x^4 + y^4 - 2x^2 + 4xy - 2y^2$ has a maximum or minimum. \pts{6}
+  \item Prove that of all rectangular parallelopipeds of a given volume, the cube has the least surface area. \pts{6}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 6.}
+\begin{parts}
+  \item Change the order of integration in the double integral:
+  \[
+  \int_0^{2a} \int_{\sqrt{2ax-x^2}}^{\sqrt{2ax}} f(x,y) \, dy \, dx \quad (a > 0)
+  \] \pts{6}
+  \item Transform the integral $\int_0^1 \int_0^{\sqrt{1-x^2}} y^2 (x^2+y^2) \, dy \, dx$ by changing to polar coordinates, and hence evaluate it. \pts{6}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 7.}
+\begin{parts}
+  \item State and prove Legendre's duplication formula. \pts{6}
+  \item Evaluate:
+  \[
+  \iiint x^{l-1} y^{m-1} z^{n-1} \, dx \, dy \, dz
+  \]
+  where $x, y, z$ are always positive but limited by the condition $x+y+z \le 1$. \pts{6}
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

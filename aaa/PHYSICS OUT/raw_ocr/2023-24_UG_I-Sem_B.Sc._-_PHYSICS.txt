@@ -1,0 +1,240 @@
+--- Page 1 ---
+Total No. of Questions : 5] [Total No. of Printed Pages : 6
+
+REF NO. 067356
+
+B. Sc. (Hons) Semester I Examination
+2023-24
+
+PHYSICS
+
+’ Paper No. BPT-101 : Mechanics and Relativity
+Time : 3 hours Full Marks : 70
+
+(Write your Roll No. at the top immediately
+on the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+
+Answer all questions
+
+1. Answer any four of the following
+questions : : 4x3 %
+
+(a) According to an observer on Earth,
+a car covers 1 mile in 50 sec ona
+straight stretch of highway. How
+long will it take to cover this
+distance according to an observer
+with his own clock on a space ship
+which is receding (going away) from
+Earth with a speed of 0-95 oc;
+(i) perpendicular to the line of
+motion of the car and (ii) along the
+same line of the motion of the car?
+
+D2(1120)—1300 (Turn Over)
+
+
+--- Page 2 ---
+(2)
+
+(b) A frame of reference S’ rotates with
+
+uniform angular velocity @ with
+respect to a stationary frame S
+having common origin, where
+
+@), lal, *4
+—| =|—]|] +@x( )
+dt); \dtJs,
+
+obtain expression for centrifugal
+force’ and Coriolis force for the
+motion of a particle with respect to
+the rotating frame.
+
+(c) A particle moves under the
+os
+
+influence of a force F and has
+
+instantaneous velocity v. Show that
+
+Ey
+dt
+where T is the kinetic energy of the
+particle. Angular momentum and
+angular velocity of a rigid body are
+| not always parallel. Justify the
+statement.
+
+' (d) Find the greatest length of a steel
+wire that can hang vertically
+without breaking. Breaking stress
+for steel is = 7-9x10°? dynes/cm?.
+Density of steel is 7-9 gm/cc. |
+
+D2(1120) (Continued)
+
+
+
+--- Page 3 ---
+(e)
+
+2. (a)
+
+(b)
+
+3. (a)
+
+2)
+
+D2(1120)—1300
+
+(3)
+
+Obtain the theoretical limiting
+values of Poisson’s ratio o using the
+
+relation between Young modulus
+
+(Y), bulk modulus (K) and rigidity
+modulus (n).
+
+What do you understand by
+invariant quantities in special
+theory of relativity? Derive the
+invariants for space-time and
+energy-momentum.
+
+Describe Michelson-Morley
+experiment. Why is it called the
+most famous ‘failed experiment’?
+
+A uniform circular disc of radius R
+oscillates in a vertical plane about a
+horizontal axis. Find the distance of
+the axis of rotation from the centre
+for which the period is minimum.
+What is the value of this period?
+
+A condenser charged to 2 volts is
+discharged through a_ ballistic
+galvanometer, when the corrected
+deflection is 9-6 cm and the current
+sensitivity is 4-54x107 mm/pA and
+periodic time is 12 seconds.
+Calculate the capacity of the
+condenser.
+
+7
+
+(Turn Over)
+
+
+
+--- Page 4 ---
+(a)
+
+(b)
+
+4. (a)
+
+(b)
+
+D2(1120)
+
+(4)
+
+Or
+
+Derive Lorentz velocity
+transformation equations between
+two inertial frames of reference
+moving with velocity V.
+
+Show from Lorentz transformation
+that two events. simultaneous
+(t, =t,) at different position (x, ¥ x.)
+in a reference frame S are not,
+necessarily, simultaneous in
+another reference frame S’.
+
+If two capillaries of radii r, and rp
+and length J, and /, are joined in
+series, derive an expression for the
+rate of flow of the liquid through the
+arrangement using  Poiseuille’s
+formula.
+
+Let p be the stress or pressure
+applied normally over an area A ofa
+body of volume V such that its
+volume decreases by v. Prove that
+the work done per unit volume is
+5x stress x strain.
+
+6
+
+(Continued) -
+
+
+--- Page 5 ---
+| (5)
+
+Or
+
+(a) If body to fall through a height, h,
+the horizontal displacement of the
+body due to Coriolis force at the
+equator is equal to
+
+1/2
+(=) h3/2 @
+9g
+
+where w is the angular velocity of
+the Earth. : 8
+
+(b) What is elastic and_ inelastic
+collision? Two clay balls collide
+head-on in a perfectly inelastic
+collision. The first ball has a mass
+of 0-5 kg and an initial velocity of
+4 m/s to the right. The second ball
+has a mass of 0:25 kg and an initial
+velocity of 3 m/s to the left. What is
+the decrease in kinetic energy
+during the collision? 6
+
+5. (a) Derive an expression for the
+twisting couple per unit angular
+twist for a hollow cylinder and
+explain why a hollow cylinder is
+stronger than a solid cylinder of the
+
+- same length, mass and material. 8
+
+D2(1120) (Turn Over)
+
+ee
+
+
+
+--- Page 6 ---
+(6)
+
+(b) Compare the load required to
+produce equal depression in two
+beams made of the same material
+and having the same length and
+weight with only difference that one
+has circular cross-section while the
+cross-section of the other is square. 6
+
+kkk
+
+D2(1120)—1300 REF NO. 067356
+
+ai J

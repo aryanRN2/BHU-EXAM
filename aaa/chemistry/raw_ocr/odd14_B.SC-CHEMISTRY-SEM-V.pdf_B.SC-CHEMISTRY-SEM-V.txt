@@ -1,0 +1,818 @@
+--- Page 1 ---
+Total No. of Printed Pages: 43
+
+BS/Sem V/209
+ROI NO. oo... cee ccecccees
+B. Sc. (Hons.) Semester V
+Examination, 2013-14
+CHEMISTRY
+Paper : CHB-501
+(Analytical Chemistry-!)
+
+Time : Three Hours ] [ Full Marks : 70
+[Write your Roll No. at the top immediately on the
+receipt of this question paper.]
+
+Note: Answer five questions including Question No. 1,
+which is compulsory.
+
+1. Distinguish between the following : 7x2
+fa
+
+(b) Accuracy and Precision.
+
+aad
+
+Co-precipitation and Post-precipitation.
+
+(c) Concentration window and Atmospheric
+window.
+(d) Eriochrome Black-T and Chloramine-T.
+
+(e) Pollutant and contaminant.
+
+P. T.O.
+
+
+--- Page 2 ---
+BS/Sem V/209
+
+(f)
+(g)
+
+2. (a)
+
+b
+
+SS
+
+3. (a)
+
+(b
+
+z=
+
+4. (a)
+
+Metaperiodate and paraperiodate.
+
+Absolute error and Relative error.
+
+Discuss Von Weirnarn theory of relative super
+saturation. What! are conditions for the
+quantitative precipitations ? 6
+
+What should be ithe desirable properties of
+organic precipitants ? Discuss the applications of
+oxine, a-nitroso-naphthol, and cup-feron in
+
+chemical analysis. 8
+
+Write the criteria of rejection of a data in chemical
+
+analysis. 7
+
+Five determinations of Vitamin-C content of a
+
+citrous fruit drink gave the following results (in
+
+mg/mL): 7
+0.220, 0.218, 0.219, 0.230, 0.215
+
+apply Q-test to see if 0.230 mg/mL value can be
+
+discarded 7 The value of rejection coefficient ‘Q'
+
+(n-5) is 0.64 at 90% confidence level.
+
+Distinguish between \determinate and indeterminate
+errors. 'A Gaussian/ or normal error, curve is a
+curve that shows the symmetrical distribution of
+data around the méan of an infiniie set of data’.
+Elaborate the statement. 8
+
+2)
+
+
+
+--- Page 3 ---
+BS/Sem V/209
+
+(b) What do you mean by significant figures. Apply
+computation rule to the following calculation so
+that significant figures are retained in the final
+results : 6
+(i) 3.4+ 0.020 + 7.31 = 10.730
+
+wy 24x 4.02
+(ii) “007 0.965
+
+(iii) log 4.000 10-5 = -4.3979400
+(iv) anlog 12.5 = 3.162277 x 1012
+
+5. Name the titration(s) which you recommend for the
+quantitative analysis of organic reactant(s) of the
+following reactions : 74+7
+
+() > OH + 3Bry > Br <>) OF 4 3B
+
+i
+R-C CH30H
+ec 20+ H,0 8" oRcooH
+
+i
+
+u
+
+How have the reagents used in above titrations come
+in the effect for the quantitative dnalysis ?
+
+6. Discuss the applications of any four of the following
+reagents in redox titrations. 4x 3%
+Arsenic (iii) oxide, Sodium thiosulfate, Potassium
+iodate, quadrivalent cerium, Malaprade reagent.
+
+(3) P.T.O.
+
+
+--- Page 4 ---
+BS/Sem V/209
+
+7. (a) Discuss the structural features of EDTA as a
+
+reagent in complexometric titrations. 6
+(b) Explain with specific examples : 8
+(i) EDTA displacement titration
+
+(ii) EDTA backititration
+
+(ii) Metallo chrbmic indicaior.
+'
+\ .
+
+8. Write explanatory notes on any two of the following :
+| 7+7
+(a) Global warming
+(b) Auto emissions)
+(c) Domestic Sewage treatment
+
+(d) Ozone-hole |
+
+|
+
+(4) 400
+
+
+--- Page 5 ---
+Total No. of Questions : 8] [Total No. of Printed Pages : 6
+
+BS/Sem V/210
+
+B. Sc. (Hons) Semester V Examination
+2013-14
+
+CHEMISTRY
+
+Paper No. CHB-502 : Inorganic Chemistry-III
+Time : 3 hours Full Marks : 70
+
+(Write your Roll No. at the top immediately on
+the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+
+Answer five questions including Question 1
+which is compulsory
+
+1. Answer the following :
+
+(a) The complex species Ti(H,0)2* ,Ticl2-,
+Ti(CN)§” and TiFZ~ absorb at 20300,
+13000, 22300 and 18900 cm,
+
+respectively. Arrange the ligands in
+
+order of increasing ability to split the d
+orbitals. 2
+
+(b) Cro2- acts as an oxidizing agent
+whereas MoOZ7 and WO2- do not.
+Why? 2
+
+D/4(7)—400 (Turn Over)
+
+
+--- Page 6 ---
+(c)
+
+(d)
+
+(e)
+
+2. (a)
+
+(b)
+
+_ “The chelate
+
+“(iii) Co(NH,)2*
+
+|
+
+[2
+The 3d-elements form stable
+complexes with N/O/F donor ligands
+while 4d'and! 5d form with P/S/Cl
+donor ligands.| Why?
+
+Starting from PPh3, NH; and
+[PtCl,]?", suggest an efficient method
+
+for the synthesis of cis- and trans-
+[PtCl2(PPh3)(NH3)}.
+
+Draw the structure of Ti(PhCH.)4 and
+highlight its main features.
+|
+
+| effect is an entropy
+effect.” Justify the statement.
+
+What factors are responsible for
+formation of [the high and low spin
+octahedral complexes? Calculate
+crystal field stabilization energy (Dq
+units) and spin-only magnetic moment
+(BM) for :
+
+f) Mn(H,0)2*
+
+(ii) ~Mn(CNny¢r
+
+fix) [Co(CN)4(H20)}
+
+Describe the /factors affecting stability
+of the metal jcomplexes in solution.
+
+
+
+--- Page 7 ---
+(3}
+
+(c) In the reaction involving formation of
+[Fe(bipy)3]?* from [(Fe(H,0),]2* and
+‘bipy’ the stepwise formation
+constants lie in the order K, >Ky<K3,
+which is not the expected trend.
+Explain why. 2
+
+(d) The 3d metals generally form both low
+and high spin complexes whereas 4d
+and 5d metals form low. spin
+complexes. 2
+
+3. (a) Define and explain Jahn-Teller (J-T)
+distortions. Calculate J-T stabilization
+energy for Cu(H,0)2* and Ti(H,0)3*
+and indicate the type of distortions
+shown by these complexes. Describe
+experimental evidences for J-T
+distortion. 8
+
+(b) In general, coordination of an olefin to
+metal centre is accompanied by
+(i lengthening of the C—C bond, (ii) A
+decrease in the Vo=c, (iti) loss of the
+planarity of olefin and (iv) symmetrical
+bonding. Explain these observations
+with a suitable example. : 6
+
+4. (a) Enumerate the limitations of valence
+bond theory. Discuss any twoofthem. | 4
+
+D/4(7)—400 (Turn Over)
+
+
+--- Page 8 ---
+(4)
+
+(b) Write main points of crystal field
+theory. Describe |splitting of d-orbitals
+in octahedral| and _ tetrahedral
+complexes. What is the relation
+between crystal field splitting energy of
+
+the above two, geometries? Show
+
+splitting of d-orbital in square planar
+
+complexes. 6
+
+(c) Comment on the/hydration energies of
+bivalent 3d metal ions. 4
+
+5. (a) The reaction between [PtCi(dien)]*
+(dien = diethylenetriamine) and I~ to
+afford —[PtI(dien)]* follows an
+associative mechanism. Highlight
+main features of such a reaction and
+give some evidences in favour of
+formation of a/trigonal bipyramidal
+intermediate in these reactions. 6
+
+(b) Describe in brief the reactions
+undergone by organotitanium
+compounds. Draw the structure of two
+compounds containing both o and x
+bonded ligands. 6
+
+(c) NiCl2* is tetrahedral while PdC12- and
+
+Ptcl?- are square planar, Give
+i}
+
+reasons. i 2
+
+Data (Continued)
+
+
+--- Page 9 ---
+6. (a)
+
+(b)
+
+(¢)
+
+7)
+
+(5)
+
+What is homogeneous catalyst?
+Discuss the factors responsible for
+catalytic activity. of Wilkinson’s
+catalyst. Describe the. mechanism of
+hydrogenation of an olefin involving
+Wilkinson’s catalyst.
+
+Describe in brief the synthesis of
+unsymmetrical aluminium compounds
+R AIR’. How one can account for short
+Al-Al distance in Al2Me,?
+
+Stability of lower oxidation states
+decreases and that of higher oxidation
+increases from 3d- ‘to 4d- to
+Sd-elements.
+
+Write and compare electronic .
+configurations of 3d-, 4d- and
+
+’ Sd-elements.
+
+(b)
+
+(c}
+
+8. (a)
+
+B/4(7)
+
+The organolithium compound tends to
+associate in solid state as well as in
+solution. Explain why.
+
+In what way solvent influences the rate
+
+of substitution reactions in square
+
+planar complexes? Discuss with the
+help of a suitable example.
+
+Describe the factors affecting crystal
+field splitting energy with suitable
+examples.
+
+(Turn Over)
+
+
+--- Page 10 ---
+(6)
+
+(b) What is haptacity and how is it
+designated? With the help of suitable
+examples, show that haptacity of a
+ligand varies from one organometallic
+compound to janother. 4
+
+(c) Describe synthesis of stereospecific
+propylene using Ziegler-Natta catalyst. 3
+
+kkk
+
+D/4(7)—400 | BS/Sem V/210
+
+
+--- Page 11 ---
+Total No. of Questions : 8] [Total No. of Printed Pages : 6
+
+150) [cr
+BS/Sem V/211
+
+B. Sc. (Hons) Semester V Examination
+2013-14
+
+CHEMISTRY
+Paper No. CHB-503 : Organic Chemistry-HI
+Time : 3 hours Full Marks : 70
+
+(Write your Roll No. at the top immediately on
+the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+Section—A
+Answer five questions including Question 1
+which is compulsory
+
+1. (a) Explain the following with suitable
+examples : 3x2
+() Chemoselective reaction
+(i) Hantzsch pyridine synthesis
+
+(wi) Alternant and non-alternant
+hydrocarbons,
+
+(b) Predict the product(s) and name the
+reaction in the following : 4x2
+
+H3C Ph
+Nw
+
+O.
+
+HySO,
+——>
+
+‘OH
+
+7
+
+D/4(56}—400 (Turn Over)
+
+
+--- Page 12 ---
+(i)
+
+(iii)
+
+(iv)
+
+2. (a) Discuss the
+
+(b)
+
+D/4(56)
+
+H,0"
+OH
+H Sodium percarbonate
+H | CF;CO3H
+H H
+f
+C—OEt
+CHy
+Nc-oEt |
+| NaOH/
+
++ CgHs—-CH=CHCOOEt
+
+EtOH
+
+(room temp., 4 days)
+
+significance of ‘energy
+
+transfer’ and finter-system crossing’ in
+
+organic
+
+photo-chemical
+
+transformations with suitable
+
+examples.
+Or
+
+What do you understand by ‘kinetic
+isotope effect’ and ‘salvent isotope
+effect’? Discuss significance of these
+
+effects in mechanistic
+
+studies.
+
+Discuss the} Fischer-Indole synthesis
+
+and the Nenitzescu synthesis. 6
+
+(Continued)
+
+
+--- Page 13 ---
+(3)
+
+Or
+
+Give mechanism of hydrogenation of
+an alkene with Wilkinson’s catalyst.
+
+3. What happens when—
+
+(a) a solution of benzophenone in
+isopropanol is irradiated with light of
+wavelength at 345 nm;
+
+(b) 2-pentanone is irradiated with uv light;
+
+(co) succinaldehyde is treated with
+ammonia;
+
+(a) pyridine is heated with KOH at 320 °C?
+4x3%
+
+4. (a) Using Cram’s tule, predict the major
+and minor products in Newman
+Projection Formula (both eclipsed and
+Staggered) from reaction of a-phenyl
+propionaldehyde with methyl
+magnesium bromide. , 7
+
+(b) Discuss in brief generation, stability
+
+and reactivity of free radicals and
+carbenes. 7
+
+5. (a). How can you Prepare cyclopentanone
+from adipic acid? 2
+
+(b) Compare stability of boat and chair
+conformation of a mono substituted
+cyclohexane. 4
+
+D/4(S6}—400 {Turn Over)
+
+
+--- Page 14 ---
+(4)
+
+(c}) What is resolution ’? Explain with
+particular reference to the use of chiral
+enantiomer. 8
+
+. Predict the following products : 7x2
+
+Lithium diisopropyl
+Amide (LDA), -70 °C
+
+. 0 °C
+(it) (9) + C4HoLi j00"e
+
+9 |
+My
+cH
+
+(iii) (\: Ln I —
+Cc
+
+ll
+fe)
+
+(1) Ob
+(iv) (2) HyO—Zn
+
+(vy) (CHa),C=NH + (Chanda.
+
+
+
+--- Page 15 ---
+(5)
+
+(vi) + (CH3)2S=CH, ———>»
+
+Or
+OMe
+
+Na in lig. NH3
+—_————>
+
+Il
+(vii) CHs—C—OC,H, -Na=EtoH ,
+
+7. (a) Complete the following reactions : 443
+) CH,CH—CH Conc. H2SO,
+[7 fn) [2 Cone: HaSOs, 4
+OH OH OH
+10
+On + A—pty cA,»
+NH
+(identify A—D)
+CH3
+(i) HeC—C—C_NHNH, HINOa, 4, 28°C, 5
+CHg {#20
+; C+CO,
+(identify A-C
+
+(b) Outline the mechanism of Mitsunobu
+reaction. Why is it more suitable for
+nucleophilic substitution for alcohols
+than general methods? . 5
+
+D/4(56) (Turn Over)
+
+
+--- Page 16 ---
+(6)
+
+(c) What happens when an unsubstituted
+amide is freated with sodium
+hypobromite? | 2
+
+|
+
+8. Outline mechanisms of the following
+
+reactions :- 4x3%
+
+(a) Pinacol-pinacplone rearrangement
+(b) Anti-Markovnicav addition
+
+(c) Michaelis-Arbuzov phosphonate
+synthesis
+
+(d) Hydroperoxide reaction.
+
+Leek
+
+D/4(56)—400 | BS/Sem V/211
+
+
+
+--- Page 17 ---
+Total No. of Questions : 8] [Total. No. of Printed Pages : 4
+
+Roll No. weececeeeeeeeeee
+BS/Sem V/212
+
+B. Sc. (Hons) Semester V Examination
+2013-14
+
+CHEMISTRY
+
+Paper No. CHB-504 : Physical Chemistry-III
+Time : 3 hours : Full Marks : 70
+
+(Write your Roll No. at the top immediately on
+the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+Answer five questions including Question 1
+which is compulsory
+
+1. Explain the following briefly :
+
+(a) How many types of three-dimensional
+unit cells exist and how many
+molecules are present in them? 3
+
+(b) Why electrolyte solutions are strongly
+non-ideal and how this non-ideality is
+accounted for? 3
+
+(c) Why are the activation energies of
+‘surface reactions much less compared
+to the homogeneous reactions? 2
+
+D/4(57)\—400 (Turn Over}
+
+
+--- Page 18 ---
+(a)
+
+(e)
+
+2. (a)
+
+(b)
+
+3. (a)
+
+(b)
+
+4. (a)
+
+D/4(87)
+
+(2)
+
+!
+Why does a solvent flow spontaneously
+into a solution separated by a semi-
+permeable membrane?
+
+Why all primary fission fragments
+display beta-activity and continue to
+decay till a stable nuclide isobaric with
+the primary fragment is reached?
+
+Discuss the | crystal structure of
+graphite and diamond and account for
+hardness of diamond and softness of
+graphite.
+
+On the basis of bonding, discuss
+different types of crystals with suitable
+examples.
+
+Discuss Gibbs’ adsorption isotherm
+and show how|BET equation is used to
+determine the surface area of
+catalysts.
+
+Discuss the laws of photochemical
+equivalent and outline the reasons for
+low and high quantum efficiency.
+
+Deduce the] expression for the
+elevation of boiling point when a solute
+is dissolved into a solvent and show
+how it could be used to determine the
+
+molecular weight of the solute.
+
+(Continued)
+
+
+--- Page 19 ---
+(3)
+
+(b) Discuss the concept and physical
+significance of activity and activity
+coefficient and outline the conditions
+under which reference and standard
+states are defined: 6
+
+5. (a) Give a qualitative idea of Debye-Hiickel
+theory of ion-ion interactions and
+show how these interactions are
+accounted for. 6
+
+(b) Write the D—H—O equation for the
+conductance of electrolyte solutions
+and discuss the effect of high
+frequency and high field on
+conductance. 6
+
+(c}) Calculate the ionic strength of a
+
+solution containing 0-008 molal BaCl,
+and 0-005 molal KCl. 2
+
+6. (a) Discuss the compound nucleus theory
+of nuclear reactions with suitable
+proof. 6
+
+(b) Discuss the conservation of quantities
+in nuclear reactions and show how the
+energy of reaction is determined. 6
+
+(c} The threshold energy for a nuclear
+reaction ?Be(a,n)!2C is 10-4 MeV.
+
+Calculate its Q-value. 2
+
+D/4(87) : (Turn Over)
+
+
+--- Page 20 ---
+(4)
+
+7. (a) Discuss the different modes of
+interaction of y-rays with matter. 5
+
+(b) Discuss the primary radiolytic
+products arid secondary chemical
+reactions on {the radiolysis of aqueous
+solution of ferrous sulphate (Fe?*). 5
+
+(c) Discuss the process of nuclear fission. 4
+8. Write short notes on any two of the
+following : | 2x7
+(a) Crystal systems
+(b) Michaelis-Menten equation
+(co) Duhem-Margules equation
+(d) Debye-Hiickel limiting law
+
+(e) Nuclear fission and stellar energy.
+
+kkk
+
+D/4sT|-40 Bs/Sen 20

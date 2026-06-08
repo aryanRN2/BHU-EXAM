@@ -1,0 +1,763 @@
+--- Page 1 ---
+Total No. of Printed Pages : 7]
+
+BS/Sem. V/265
+
+B. Sc. (Hons.) Semester V
+Examination, 2013
+
+PHYSICS
+Paper : BPT-501
+(Mathematical Physics)
+
+Time : Three Hours ] [ Full Marks : 100
+
+[Write your Roll No. at the top immediately on the
+receipt of this question paper.]
+
+Note : Answer all questions.
+1. Answer any five of the following : 5x4
+(a) Evaluate Vx? in spherical coordinates.
+
+(b) If Ajj is an antisymmetric tensor (in 3D space),
+then show that (6 ak +ai ak Van =0
+
+P.T.O.
+
+
+--- Page 2 ---
+BS/Sem
+(c)
+
+(d
+
+a
+
+(e)
+
+(f)
+
+2. (a) ,
+
+V/265
+
+Determine whether the following functions are
+linearly independent :
+
+(i) Sin x, Sin 2x, Sin 3x
+(ii) Sin x, Cos x, 1
+
+ie xLll (x) +(1-x)L}, (x) +L, (x) =0, find the
+2-ODE that is satisfied by y (x) =e*/°L)()-
+' n
+
+Write down the orthogonality relation for y_ (x).
+
+rPwohNnN
+
+3 1)
+Given A =| 2 1 |, can you find the trace and
+1 4
+
+the determinant af A?! without actually
+investing A ? If yes, find them, by outlining such
+a method.
+
+Show that 0 (kx) = Tia
+I
+
+The hermite polynotnials may be obtained from
+the generating function, defined as
+
+g(x,t) =e 2 YH),
+n=O nm
+
+IN
+
+
+--- Page 3 ---
+(b
+
+~S
+
+~
+
+(a
+
+3. (a)
+
+BS/Sem V/265
+
+Show that f et IH, (x)} ax =2"(n Me 64
+
+Show that g(x,t)=(1-2xt412)"/2 is the
+generating function for legendre polynomials. 6
+
+OR
+
+Given the following 2 - ODE:
+mt ( 2 2) -
+Vy txy tix -n° Jy =O
+
+(i) What are its singularities ? Find out if they
+are regular or irregular singularities. 24
+
+(ii) Solve this differential equation by Frobenius
+
+method for n = 1 and nas 8
+
+(iii) Can you construct a second independent
+solution using this method, for n = 1?
+Explain. 2
+
+Consider a sphere of radius R with its centre at
+the origin, (0, 0, 0). Draw neatly the spherical
+
+polar unit vectors, 7, 66 at the points (R, 0, 0), (0,
+R, 0) and (@, 0, R), ie, points of intersection of the
+
+(3) P.T.O.
+
+
+--- Page 4 ---
+BS/Sem V/265
+
+sphere with right handed Cartesian x, y, Z axes
+with the same origin. . 43
+
+(b) In spherical polar coordinates,
+
+g 6
+rsin® dp
+
+2 |m
+
+vare+ oy
+or 08
+
+Show that
+
+2
+VV y= 1 sino roy +2 sino)
+_ r*sin® ér\ or oO 08
+
+2 |
+et)
+sin ob
+
+Here wr, 0, 6) isa schlar function. 8
+
+4. (a) Explain the terms polar vector and axial vector”
+with one example of each. 4
+
+\ >a 72 3S
+(b) Express the components of E = AxB in terms of
+
+: > >
+€ yj and the components of A and B. Use this to
+verify the vector identify.
+
+a
+
+
+--- Page 5 ---
+BS/Sem V/265
+> 2>\fo Oo 73> > 3 PV> o>
+[A B)(é3) -(4.¢[8.3)-( Bf B.e) 64
+(c) Show that transpose of a square matrix A ie A’
+has the same ligen values as matrix A. 2
+OR
+
+(a) Determine the eigen values and eigen vectors of
+the matrix A, given as: 4
+
+Ac 1 odl4i
+“|1-i' 3
+
+Suppose A = fais} 23 is an orthogonal matrix that
+x,
+
+(b
+
+~~
+
+> >
+rotates the vector r to 7,. From the invariance of
+
+the (square of the) length of the vector, derive the
+orthogonality condition
+
+Lay Vix = Oj, j,k = 1,2,3. 4
+t
+
+(c) How the Co-variant and contra variant
+components of a vector are related ? A covariant
+
+tensor (rank-1) has components xy, (ay —z? )x 2
+in rectangular cartesian coordinates. Determine
+its components in spherical polar coordinates. 44
+
+(5) P.T.O.
+
+
+--- Page 6 ---
+BS/Sem V/265
+
+5. (a) (i) Find the Fourier series of the periodic
+function (period, T= 4)
+
+0,-2<t<-1
+f= sh, -1<t<1
+
+O} 1<t<z
+
+with h > 0. Make a neat sketch of this
+function. 6
+
+(ii) Determine the values of f(t) att =Oandt=1
+as given by thd Fourier series. 24
+
+(b) Legendre's differential equation
+(1-x?) "= 2xy'4,n(n+ Dy =0
+has a regular solution Pn (x) and an irregular
+solution Qn (x). Show that the wronskian of Pn (x}
+
+An
+1-x?
+
+and Qn (x) is giveniby We=
+
+with An independent of x 4
+Useful information : |
+|
+
+(i) Spherical polar unit
+
+(6)
+
+
+--- Page 7 ---
+BS/Sem V/265
+
+Vector:
+
+r= XsinOcoso+Hsin Osin $+ Zcos0
+6 = XcosO cos + fcosOsin b— sin
+$= -Xsinb + Fcosd
+
+(ii) The abbreviation 2 - ODE stands for second
+order, linear, homogeneous ordinary
+differential equation.
+
+(iii) for dx= Jn
+
+(7) 400
+
+
+--- Page 8 ---
+
+
+--- Page 9 ---
+Total No. of Questions : 5] (Total No. of Printed Pages : 5
+
+Roll No. .......... sebeseseees
+BS/Sem V/266
+
+B. Sc. (Hons) Semester V Examination
+
+2013-14
+PHYSICS.
+Paper No. BPT-502 : Classical Mechanics
+Time : 3 hours , Full Marks : 70
+
+(Write your Roll No. at the top immediately on
+the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+Answer all questions
+
+Symbols have their usual meanings
+1. Answer any four of the following : 4x5
+
+(a) What is the meaning of constraints?
+Classify different constraints with
+examples.
+
+(b) The Lagrangian of a two-dimensional
+system is given by
+
+L(x, y, % Y)=4m(x? +y?)-koxy +h ky x?
+
+Obtain the Hamiltonian.
+
+D/4(20)—400 (Turn Over)
+
+
+--- Page 10 ---
+(2)
+
+(c) Show that angular momentum of a
+particle moving under central force is
+always conserved. What is cyclic
+coordinate?
+
+(d) Construct the Hamiltonian of a system
+consist of an electron and a proton.
+Obtain the canonical equations of
+motions for bath the particles.
+
+(e) Write down | the Hamilton-Jacobi
+equation for | a simple harmonic
+oscillator. Find the solution of this
+
+equation.
+
+(f) Calculate the Poisson bracket
++, >
+{p?, 7}
+
+2. (a) Construct the Lagrangian of a simple
+pendulum of mass m connected with a
+string of length 1. 4
+|
+
+(b) How the Lagrangian will change if the
+string is replaced by a spring of spring
+constant k and rest length Ip? 4
+
+(c) Obtain Euler-Lagrange. equations of
+motion for both the cases. 4%
+
+3. (a) State and explain virial theorem. Show
+that the time|average kinetic energy (T)
+and time average potential energy (a)
+of a conservative system with a
+
+D/4(20) (Continued) |
+
+
+--- Page 11 ---
+(3)
+
+potential u is written as
+
+where E is the total energy of the
+system and u is a homogeneous
+function of coordinates of degreen. 3%
+
+(b) The Lagrangian for a particle of charge
+q moving in an electromagnetic field
+which can be obtained from the scalar
+
+potential (x, ¥,Zt) and vector
+Potential A(x, y, 2, t) is given as
+
+qz?
+L=T-qb+2V-a
+c
+
+where T is kinetic energy of the system
+>
+
+and V is the velocity of the Particle,
+
+() Find the equation of motion for
+
+the particle. Obtain Lorentz force
+law from this equation of motion.
+
+(i) Calculate the Hamiltonian of this
+Particle. 9
+
+4. (a) A particle of mass m is moving on a.
+plane under an attractive central force
+given by
+
+Fir)=-, a>0
+r
+
+Find the condition for the particle to
+move in a stable circular orbit. 7
+
+D/4(20)—400 (Turn Over)
+
+
+--- Page 12 ---
+(4);
+(b) A particle moves on a curve
+r? =acos 20, under the influence of a
+central force. fi) Fihd the force law and
+(i) Show that areal velocity of the
+particle is conserved. S%
+Or
+(a) What is the meaning of isotropy of
+space? Obtain th¢ conserved quantity
+arising from it. | | 5
+(b) Show that if F (qi, pi, t) and Gla, Pi #)
+are two integrals of motion, then so is
+their Poisson bracket. 3%
+
+if
+(c) Discuss the principle of mechanical
+|
+
+similarity. ! 4
+I
+5. (a) Determine the value of o. and 8 so that
+the equations |
+Q =a" cos Bp
+P =q"sin Bp
+are canonical. | 4
+(b) Find a suitable generating functional
+for this canonical transformation. 4
+(c) Show that fundamental Poisson
+brackets remain invariant under
+canonical transformations. 4%
+
+Db
+/4(20) (Continued)
+
+
+--- Page 13 ---
+(a)
+
+()
+
+(5)
+
+Or
+
+What is virtual work? State and
+explain D’Alembert’s principle.
+Compare the equations of motion
+obtained from D’Alembert’s principle
+with that of from Hamilton’s Principle. 6%
+
+What is meant by Legendre
+transformation? Show that it can be
+used to generate thermodynamic
+potentials. Derive the Hamilton’s
+equations of motion. 6
+
+ake
+
+D/4(20)—400 BS/Sem V/266
+
+
+--- Page 14 ---
+
+
+--- Page 15 ---
+BS/Sem V//268
+
+B.Sc. (Hons.) Semester V Examination 2013-2014
+
+Subject : Physics
+
+Paper No. : BPT-304_ : Electronics Devices and Circuits
+Full Marks : 70
+Time: Three Hours Pass Marks :
+
+The figures in the right hand margin indicate marks.
+Use of non-programmable calculator is allowed.
+
+Answer all questions
+
+Answer in brief any five of the following:
+
+(a) What do you meant by intrinsic standoff ratio of a UIT? If Mgg=201 and
+Vp= 140 what is the value of standoff ration.
+
+(b) fan amplifier with gain of -/000 has the gain change of 20% duc to
+temperature change. calculate the change in gain of feedback amplifier
+having feedback fraction f=-(). 7.
+
+ic) Difierentiate the class A. class B and class C amplifier on the basis o!
+their efficiency.
+
+(d) What ts the main difference between the oscillators and mutivibrators?
+
+Draw the circuit diagram of an astable multivibrator.
+
+(e) Give the truth table and Boolean expression for XOR gate and implement
+it using NAND gates only.
+
+(f) Draw the circuit diagram of demodulato- for amplitude modulated wave
+and explain its working qualitatively. ;
+
+(a) Explain the construction, working, and characteristics of an enhancement
+type MOSFET. How does it differ from JFET? What is the significance of
+
+threshold voltage in enhancement mode MOSFET
+
+(b) Draw the circuit diagram of a non-inverting amplifier using OPAMP and de
+derive the expression of voltage gain. How will you modify it to become a
+
+ine)
+
+voltage follower circuit?
+
+P,T.0.
+
+
+--- Page 16 ---
+BS/Sem V/268
+
+(a) Give the Hybrid model of a transistor in CE configuration and find out its
+voltage gain, current gain, input impedance, and output admittance in
+terms of hybrid parameters. Also, discuss the asymptotic value of current
+gain of this amplifier.
+
+(b) Explain the working of an SCR with the help of an equivalent circuit.
+Why it is possible to make a silicon controlled rectifier and not a
+germanium controlled rectifier.
+
+OR
+
+a) Explain in brief the high frequency Hybrid 2-model for CE transistor and
+discusses its advantages.
+
+tof
+
+we
+
+ta
+tol
+
+b) Refer to basic common base amplifier configuration of Fig. The h- 4
+
+parameter values for the transistor used in this circuit are as follows:
+hie=4K, hye=7x 10", hfe=100. b 5 mhos.
+Determine the following
+
+i) current gain taking source and load resistance is taken account
+
+ii) input resistance
+
+Seakn
+
+|
+
+Rs=60002
+
+I
+c) Give the construction and working df a UJT. Explain the condition under 3
+which a UST exhibit negative resistance.
+
+a) Draw the circuit diagram of a CE transistor amplifier using capacitor
+
+coupling. Derive the required equation to show the gain of this amplifier 5
+is decreases at low frequency range.
+
+b) Give the truth table of the full adder, obtain the Boolean expressions for
+sum, and carry from this table in OP form. Simplify these Boolean 5
+
+expressions using ‘K-map and ‘imple lent ‘the circuit of full adder using
+basic logic gate.” ‘
+
+c). The. maximuin and minimum amplitude of an amplitude modulated wave 2
+~“aré” 10V" and -2V~ respectively: ‘Calculate the carries amplitude and
+modulation index. i
+
+PTO.
+
+tole
+
+
+--- Page 17 ---
+ran)
+
+any
+
+BS/Sem V/268
+
+(a) Explain the working of a push pull amplifier with a suitable diagram,
+Show that how a push pull amplifier reduces the even harmonic
+
+distortions
+
+(by What is meant by negative feedback in amplifier? Find the voltage gain.
+input resistance. and ouput resistance of an amplifier when the voliage
+S negative feedback is incorporated. Draw the equivalent BJT mode!
+
+civcuit diagram of a voltage series feedback and explain its working.
+
+OR
+
+Assume that it is desired to design Colpitt’s oscillator so that its oscillator
+frequency is tidHe. if L is adjusted 59 “Hand the desired feedback
+fraction is B 0. Caiculate
+
+i) The required value of equivalent tank capacitance
+
+i) The required values for C; and C>.
+
+The minimum voltage gain 4) require for the common emitter
+amplifier to sustain oscillations
+
+iit)
+
+5! Draw the basic RC phase shift oscillator circuit and explain its working.
+As per Barkhausen criterion, what should be the amplifier gain for
+sustained oscillations? What will be the frequency of oscillation? How
+
+the disadvantages of this circuit are eliminated in Wein’s bridge
+
+osetlator?
+
+7
+
+boln
+
+~l
+
+Ay
+tata.
+
+
+--- Page 18 ---
+
+
+--- Page 19 ---
+Time : Three hours
+
+BS/Sem V/267
+ROU] No, oo. scc cee see cee ses ene ee cen cne teeee
+
+B.Sc. (Hons.) SEMESTER V EXAMINATION 2013-14
+PHYSICS
+
+Paper No. : BPT - 503 : Quantum Mechanics
+
+Max. Marks : 70
+
+(WRITE YOUR ROLL NO. AT THE TOP IMMEDIATELY ON THE RECEIPT OF THIS QUESTION
+PAPER)
+
+All questions are compulsory.
+
+1.
+
+Answer any four questions of the followingg: [4x 5]
+a) Find the de-Broglie wavelength associated with i) an electron accelerated through
+a potential difference 10 MV, and ii) a proton having kinetic energy of 10 MeV.
+
+(Mass of electron 0.51 MeV/c? and mass of proton 938 MeV, fe?)
+
+b) Using uncertainty reiation, explain that electron cannot exist inside the nucleus.
+c) What are stationary states? Explain with reference to Schrodinger equation.
+
+d) Prove the statement “commuting observables have simultaneous eigen states”.
+e) Evaluate the following commutation relations:
+
+b ew nes) i Tp. £,)
+
+Find out the most probable value of the radial distance of the electron in the
+ground state of the H-atom.
+
+=?
+
+a) Describe the difference between phase velociiy and group velocity for a wave
+
+packet. 4]
+b) Ifa particle is constrained to move in a potential of the form [8]
+m9
+Vix) = jor O<x<a
+Loe otherwise
+
+\
+Obtain the values of energy E and corresponding eigen functions. Show that the
+eigen functions are mutually orthogonal. !5 there arly acceptable solution with E=0 or
+E<0 ? Justify your answer. :
+aj Describe Davisson-Germer experiment to demonstrate the wave nature of electron.
+— ; _ - [4]
+5) lta particle having energy £>0 is incident from left upon a one dimensional
+square well potential defined as
+
+(=F, a -as< G
+
+y=! : for aox<
+
+i
+
+0 otherwise
+
+Find the transmission coefficient T and show its variation as ¢ function of the ratio,
+E
+[8}
+
+
+--- Page 20 ---
+OR
+
+a) Schwartz inequality, give the matijematical proof of uncertainty relation for
+
+canonically conjugate pairs. i {6]
+
+Wis, =O), the Fourier transform of g(k), for a wave packet whose
+
+amplitude function @(k) varies as givea below: {6}
+for ~Ky<k< Ky
+otherwise ,
+
+2, calculate the probability of finding ihe particle in the region, — ra ex< a
+N
+
+a
+0 Ko
+
+2) What is the difficulty in normalizing a free particle wave function? How the
+
+concept of wave packet can be used to resolve this? {4}
+
+b> Find the uncertainty in position and. momentum for the Gaussian wave packet
+
+Yixy= de® . How does it obey the Heisenberg uncertainty relation? {9}
+|
+
+OR
+
+a) The solution of the Schrodinger’s equation for the free particle in one dimension is
+of the form; : {4]
+W(x) = Asinixt Boos kx :
+
+where A and B are complex constants.
+1) Caloulate the probability current density for this wave function.
+
+ii) Find out the relation between the coefficients A and B, if V(x) is an eigen
+function of the ‘momentum operator...
+~ Taev: chat the Harmonic Oscillator Hamiltonian can be written as; (oy
+~  . le
+He=(aa+ Bite
+
+“y erms of lowering and raising operators,
+
+: 1 a i
+foe pee (OX TID) al= (max - ip).
+”) 2hme
+
+LAM e@
+
+= work out the action of the operators @ and at on the eigen states of the
+
+Hamiltonian. j
+|
+1
+!
+|
+!
+
+«. The function fC) is an eigen funetion of the operator L, with eigen value 4,
+
+such that L_f(%) = 0. Find the eigen yalue of the operator J? acting on the function
+ia
+
+i
+
+|
+
+ey The radial part of the wave function in first excited state of H-atom is given as,
+Rey eC F pe (93
+
+chere ‘a? is the Bohr’s radius fot H-atom.
+|

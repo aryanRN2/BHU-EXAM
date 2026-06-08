@@ -1,0 +1,202 @@
+--- Page 1 ---
+Total No. of Questions : 5] [Total No. of Printed Pages : 5 |
+
+Roll No. ...cccceeceeeeeeeceee
+
+REF NO. 056254
+
+B. Sc. (Hons) Semester I Examination
+2022-23
+
+PHYSICS
+
+Paper No. BPT-101 : Mechanics and Relativity
+Time :°3 hours Full Marks : 70
+
+(Write your Roll No. at the top immediately
+on the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+
+Answer all questions
+
+1. Answer any four of the following
+questions : . 4x3%
+
+(a) Find the amount of work done to
+increase the speed of. an electron
+from 0-6c to 0-8c, Rest mass of an
+electron is 0-5 MeV.
+
+(b) The volume of a solid does not vary
+with pressure. Find Poisson’s ratio
+for the solid.
+
+D2(741}—1200 (Turn Over)
+
+
+--- Page 2 ---
+(2)
+
+(o Explain why a cantilever of uniform
+cross-section is more likely to break
+near the fixed end.
+
+(d} Calculate the fictitious force and
+observed force acting on a body of
+mass 6 kg kept in frames of
+references accelerated vertically
+upward and downwards’ with
+acceleration 490 cm/sec? and
+9-8 m/sec” respectively (g = 9-8 m/
+sec’).
+
+fe) Explain the phenomenon of twin
+paradox. Is aging reciprocal?
+
+(f} How much faster than its present
+speed should the Earth rotate so
+that bodies lying on the equator
+may fly off into space? |
+
+2. (a) Find out the twisting couple per
+unit twist in case of a hollow
+cylinder whose inner-radius is Rl
+and outer-radius is R2. 5
+
+(b) Derive the relation connecting
+
+Young’s modulus (Y), Bulk
+modulus {K ) and Poisson’s ratio (co) -
+of a material. . 8
+
+-D2(741) (Continued)
+
+
+--- Page 3 ---
+(c)
+
+3. (a)
+
+(b)
+
+(a)
+
+(b)
+
+(3)
+
+Calculate the mass of water flowing
+in 2 minutes through a tube 0:2 cm
+in inner-diameter, 40 cm long if
+there is a constant pressure head of
+40 cm of water. the coefficient of
+viscosity of water is 0-0085 CGS
+units.
+
+Show that for a compound
+pendulum the centers of
+suspension and oscillation can be
+interchanged. Explain how a
+compound pendulum is superior to
+a simple pendulum.
+
+Derive the equation of motion of a
+
+moving coil galvanometer and
+
+discuss the conditions under which
+
+the motion is fi) deadbeat,
+
+(ii) critical and (ii) ballistic.
+Or
+
+Two particles of mass m, and m,
+collide and after collision move at
+angles 6, and 6, respectively. Show
+that in the centre of mass frame,
+velocities of the particles do not
+change after collision.
+
+‘What are the differences between
+
+elastic and inelastic collisions?
+Write down one example for both
+
+* types of collisions.
+
+D2(741)—1200
+
+10
+
+* 4
+(Turn Over)
+
+
+--- Page 4 ---
+(4)
+
+4. (a) In the experiment of meson decay,
+how does the observation in Lab © i
+frame and particle frame are
+explained? Half life of mesons '
+=2-2us and velocity =0-99c. 7
+
+(b) Let velocity of a particle be uv,
+Discuss energy distribution in three | :
+conditions fi) v<c, fii) v~c and
+fii) v=ce. 7 .
+
+Or
+
+fa} Consider the relativistic form of —
+Newton’s second law of motion,
+show that when F is parallel to v:
+
+Fa n(? —v? \~ dv
+
+c? dt
+where m is the mass of the object
+and v is its speed. . 10
+
+{b) Two spaceships approach each
+other, moving with the same speed
+as measured by a stationary ,
+observer on the Earth. Their
+relative speed is 0:70c. Determine
+the velocity of each spaceship as
+measured by stationary observer on
+Earth. 4
+
+D2(741) . (Continued)
+
+
+--- Page 5 ---
+(5)
+
+5. (a) What is Coriolis force? Under what
+
+(b)
+
+(¢)
+
+D2(74.1)—1200
+
+conditions, does it come into play?
+
+Discuss in general terms the effect
+of the Coriolis force produced as a
+result of the Earth’s rotation.
+
+Calculate the values of the
+centrifugal and the Coriolis forces
+on a mass of 20 g placed at a
+distance of 10 cm from the axis of a
+rotating frame of reference, if the
+angular speed of rotation of the-
+frame be 10 radians per second.
+
+he he kc
+
+REF NO, 056254

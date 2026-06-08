@@ -1,0 +1,112 @@
+% BHU PYQ -- Manually transcribed & error-corrected
+% Paper: MTB-603 : Numerical Analysis
+% Exam: B.A./B.Sc. (Hons) Semester VI Examination, 2022-23
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={MTB-603: Numerical Analysis -- BHU B.A./B.Sc. Sem VI 2022-23}}
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{MTB-603: Numerical Analysis}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.A./B.Sc. (Hons) --- Semester VI Examination, 2022-23}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. MTB-603: Numerical Analysis}\\[4pt]
+  {\normalsize Time: 3 Hours \hfill Full Marks: 50}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer \textbf{five} questions including Question~1 which is compulsory. Figures in right-hand margin indicate marks. Use of calculator is allowed. All symbols have their usual meanings.}
+\bigskip
+
+\noindent\textbf{Question 1.}
+\begin{parts}
+  \item A can is in the form of a right circular cylinder of radius $15\,\text{cm}$ and length $40\,\text{cm}$, surmounted by a hemisphere. If the scale used in taking measurements is short by $0.01\,\text{cm}$ per cm, find the percentage change in the volume of the can. \pts{2}
+  \item If $r = 3h(n^2 + 2)$, find the percentage error in $r$ at $h = 1$, given that the percentage error in $h$ is $0.5$\%. \pts{2}
+  \item Prove or disprove: (i) $\Delta = (1+\Delta)^{1/2}$, (ii) $\nabla\Delta = \nabla - \Delta$. \pts{2}
+  \item If $\Delta^2(\cos 2x) = A\cos 2(x+h)$, where $h$ is the interval of differencing, find the value of $A$. \pts{2}
+  \item Apply Simpson's rule to find $\int_0^{2.5} f(x)\,dx$, given:
+  \begin{center}
+  \begin{tabular}{|\1ccc}
+  \hline
+  $x$ & 0 & 0.5 & 1 & 2.5 \\
+  \hline
+  $f(x)$ & 0 & 0.25 & 1 & 2.25 \\
+  \hline
+  \end{tabular}
+  \end{center} \pts{2}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 2.}
+\begin{parts}
+  \item Apply the Secant method to find the numerically largest root, correct to two decimal places, of $x^3 - 5x + 3 = 0$. \pts{5}
+  \item Determine $p$, $q$, $r$ so that the iterative method $x_{n+1} = px_n + \dfrac{q}{x_n} + \dfrac{r}{x_n^2}$ has as high an order of convergence as possible for computing the cube root of $a$. \pts{5}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Use three iterations of the Birge-Vieta method (calculations to five decimal places) to find a real root of $x^3 - x + 1 = 0$, starting with initial approximation $x_0 = -1.5$. \pts{5}
+  \item Solve the system $3x + 5y + z = 7$,\ $x + y + 3z = 3$,\ $4x + y + 2z = 4$ using the Gauss-Jacobi method (correct to three decimal places) starting with $[0, 0, 0]^T$. \pts{5}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Apply Givens' method to find all eigenvalues of:
+  \[
+  A = \begin{pmatrix}-2 & -2 & 6 \\ -2 & 3 & 4 \\ 6 & 4 & -1\end{pmatrix}
+  \] \pts{5}
+  \item Using finite differences, find the sum of cubes of the first $m$ natural numbers. \pts{5}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Apply Lagrange's formula inversely to find the root of $f(x) = 0$, given $f(30) = -30$, $f(34) = -13$, $f(38) = 3$, $f(42) = 18$. \pts{5}
+  \item Using Newton's forward interpolation formula, estimate the number of workers earning wages between Rs.$10$ and Rs.$15$ per hour from the given frequency table. \pts{5}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 6.}
+\begin{parts}
+  \item Find the first and second derivatives of $y(x)$ at $x = 1.5$ from the given tabular data. \pts{5}
+  \item Obtain the error term in the Trapezoidal rule of numerical integration. \pts{5}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 7.}
+\begin{parts}
+  \item A reservoir discharges water through sluices at depth $h$ below the water surface with surface area $A$. The rate of fall of the surface is given by $\dfrac{dh}{dt} = -\dfrac{48\sqrt{h}}{A}$. Estimate the time taken for the water level to fall from $14\,\text{m}$ to $10\,\text{m}$ above the sluices using Simpson's rule. \pts{5}
+  \item Use the fourth-order Runge-Kutta method to evaluate $y(1.2)$ and $y(1.4)$, given $\dfrac{dy}{dx} = \dfrac{y}{x} + \dfrac{1}{x}$, $y(1) = 0$. \pts{5}
+\end{parts}
+
+\vfill\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+\end{document}

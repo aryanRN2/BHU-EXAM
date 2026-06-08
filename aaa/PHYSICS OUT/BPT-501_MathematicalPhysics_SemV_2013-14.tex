@@ -1,0 +1,129 @@
+% BHU PYQ -- Manually transcribed & error-corrected
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BPT-501: Mathematical Physics -- BHU PYQ},pdfauthor={Banaras Hindu University}}
+
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BPT-501: Mathematical Physics}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) Semester V Examination, 2013-14}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. BPT-501: Mathematical Physics}\\[4pt]
+  {\normalsize Time: 3 Hours\hfill Maximum Marks: 100}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer all questions. Symbols have their usual meanings.}
+\bigskip
+
+\noindent\textbf{Question 1.} Answer any \textbf{five} of the following: \pts{5 $\times$ 4 = 20}
+\begin{parts}
+  \item Evaluate $\nabla r^2$ in spherical polar coordinates.
+  \item If $A_{ij}$ is an antisymmetric tensor in a 3D space, then show that:
+    \[ (\delta_{ik} a_j + a_i a_k) A_{ik} = 0 \]
+  \item Determine whether the following sets of functions are linearly independent:
+    \begin{parts}
+      \item $\sin x$, $\sin 2x$, $\sin 3x$
+      \item $\sin x$, $\cos x$, $1$
+    \end{parts}
+  \item If $x L_n''(x) + (1-x) L_n'(x) + n L_n(x) = 0$, find the second-order ordinary differential equation (2-ODE) satisfied by the function $y(x) = e^{-x/2} L_n(x)$. Also write down the orthogonality relation for Laguerre polynomials $L_n(x)$.
+  \item Given the matrix $A = \begin{pmatrix} 3 & 2 & 1 \\ 2 & 1 & 1 \\ 1 & 4 & 2 \end{pmatrix}$, find the trace and determinant of $A^{-1}$ without actually computing the inverse matrix $A^{-1}$. Outline your method.
+  \item Show that $\delta(kx) = \frac{1}{|k|} \delta(x)$, where $\delta(x)$ is the Dirac delta function.
+  \item The Hermite polynomials $H_n(x)$ can be obtained from the generating function $g(x,t) = e^{2xt-t^2} = \sum_{n=0}^{\infty} \frac{H_n(x)}{n!} t^n$. Show that:
+    \[ \int_{-\infty}^{\infty} e^{-x^2} [H_n(x)]^2 \, dx = 2^n n! \sqrt{\pi} \]
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 2.}
+\begin{parts}
+  \item Show that $g(x,t) = (1 - 2xt + t^2)^{-1/2}$ is the generating function for Legendre polynomials $P_n(x)$. \pts{6}
+  \item Consider the Bessel differential equation:
+    \[ x^2 y'' + x y' + (x^2 - n^2) y = 0 \]
+    \begin{parts}
+      \item Identify its singularities. Determine whether they are regular or irregular singularities. \pts{3}
+      \item Solve this differential equation by the Frobenius method for $n = 1$ and $n = 0$. \pts{8}
+      \item Explain if a second linearly independent solution can be constructed using this method for $n = 1$. \pts{3}
+    \end{parts}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Consider a sphere of radius $R$ with its center at the origin $(0, 0, 0)$. Draw neatly and label the spherical polar unit vectors $\hat{r}$, $\hat{\theta}$, $\hat{\phi}$ at the points $(R, 0, 0)$, $(0, R, 0)$ and $(0, 0, R)$, which are the points of intersection of the sphere with the right-handed Cartesian $x, y, z$ axes. \pts{8}
+  \item In spherical polar coordinates, the gradient of a scalar function $\psi(r,\theta,\phi)$ is given by:
+    \[ \nabla \psi = \hat{r} \frac{\partial \psi}{\partial r} + \hat{\theta} \frac{1}{r} \frac{\partial \psi}{\partial \theta} + \hat{\phi} \frac{1}{r\sin\theta} \frac{\partial \psi}{\partial \phi} \]
+    Show that the Laplacian is:
+    \[ \nabla^2 \psi = \frac{1}{r^2} \frac{\partial}{\partial r} \left( r^2 \frac{\partial \psi}{\partial r} \right) + \frac{1}{r^2\sin\theta} \frac{\partial}{\partial \theta} \left( \sin\theta \frac{\partial \psi}{\partial \theta} \right) + \frac{1}{r^2\sin^2\theta} \frac{\partial^2 \psi}{\partial \phi^2} \] \pts{12}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Explain the terms \textit{polar vector} and \textit{axial vector} with one physical example of each. \pts{4}
+  \item Express the components of $\vec{E} = \vec{A} \times \vec{B}$ in terms of the Levi-Civita symbol $\epsilon_{ijk}$ and the components of $\vec{A}$ and $\vec{B}$. Use this tensor notation to verify the vector identity:
+    \[ (\vec{A} \times \vec{B}) \cdot (\vec{C} \times \vec{D}) = (\vec{A} \cdot \vec{C})(\vec{B} \cdot \vec{D}) - (\vec{A} \cdot \vec{D})(\vec{B} \cdot \vec{C}) \] \pts{8}
+  \item Show that the transpose of a square matrix $A$ (denoted $A^T$) has the same eigenvalues as the matrix $A$. \pts{8}
+\end{parts}
+\hfill \textbf{OR}
+\begin{parts}
+  \item Determine the eigenvalues and normalized eigenvectors of the matrix $A$:
+    \[ A = \begin{pmatrix} 1 & -i \\ i & 3 \end{pmatrix} \] \pts{8}
+  \item Suppose $R = (a_{ij})$ is an orthogonal matrix that rotates the vector $\vec{r}$ to $\vec{r}'$ (so that $x'_i = a_{ij} x_j$). From the invariance of the square of the length of the vector, derive the orthogonality condition:
+    \[ \sum_{k=1}^3 a_{ik} a_{jk} = \delta_{ij} \quad \text{for } i,j = 1,2,3 \] \pts{6}
+  \item How are the covariant and contravariant components of a vector related? A covariant tensor of rank 1 has components $xy$, $(y^2 - z^2)$, and $x$ in rectangular Cartesian coordinates. Determine its components in spherical polar coordinates. \pts{6}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Consider the periodic function $f(t)$ with period $T = 4$:
+    \[ f(t) = \begin{cases} 0, & -2 < t < -1 \\ h, & -1 < t < 1 \\ 0, & 1 < t < 2 \end{cases} \]
+    with $h > 0$.
+    \begin{parts}
+      \item Make a neat sketch of this function. \pts{2}
+      \item Find the Fourier series expansion of $f(t)$. \pts{5}
+      \item Determine the values of $f(t)$ at $t = 0$ and $t = 1$ as given by the Fourier series. \pts{3}
+    \end{parts}
+  \item Legendre's differential equation $(1-x^2) y'' - 2xy' + n(n+1)y = 0$ has a regular solution $P_n(x)$ and a linearly independent irregular solution $Q_n(x)$. Show that their Wronskian is:
+    \[ W(x) = P_n(x) Q_n'(x) - Q_n(x) P_n'(x) = \frac{A_n}{1-x^2} \]
+    where $A_n$ is a constant independent of $x$. \pts{10}
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

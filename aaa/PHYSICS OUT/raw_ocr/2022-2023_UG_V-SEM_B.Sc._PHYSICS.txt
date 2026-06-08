@@ -1,0 +1,1098 @@
+--- Page 1 ---
+Total No. of Questions : 5) [Total No. of Printed Pages : 5
+
+‘Roll No. cseansrcenensosonenes
+
+REF NO. 052708
+
+_ B. Sc. (Hons) Semester V Examination
+
+2022-23
+_ PHYSICS
+Paper No. BPT-505 .: Electromagnetic Theory
+Time : 3 hours . Full Marks : 70 .
+
+(Write your Roll No. at the top immediately
+on the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+Answer all questions
+
+All symbols have their usual meanings .
+unless specified otherwise
+
+1. Answer any four of the following : 4x5
+
+(a) For the vector ~
+
+> ; 9,4 A
+v =(2Qxz+ 3y* )a,+ (4yz7)a,
+
+D2(514)—600 (Turn Over)
+
+
+--- Page 2 ---
+(2)
+
+calculate the line integral for the
+curve fiv) in the given figure :
+
+(b) If r is the unit vector defined as
+
+‘_? [2 2 a 9
+r=rj/r,r=yx*+y> +z°. Compute
+
+A > A
+
+(r-V)r.
+
+{c}) Show that Maxwell’s equations in
+electrodynamics are consistent with
+continuity equation. -
+
+(d) Find the skin depth of copper with
+o =5-8x10’ mho/m, p=, at
+frequency 10° Hz.
+
+(e) In a non-magnetic medium,
+E =4sin (2xx107t-0-8x)a, V/m.
+Compute the time average power
+carried by the wave.
+
+D2(514) (Continued)
+
+
+--- Page 3 ---
+ff
+
+2. (a)
+
+(b)
+
+3. (a)
+
+D2(514)—600
+
+magnitude oof the
+
+{3)
+
+In a lossy dielectric medium, show
+
+that 5 = 6,, where 6 is the loss angle
+
+of the medium and 6, is the phase
+of the intrinsic impedance y
+
+Consider the multipole expansion
+
+. of the potential in electrostatics and
+
+show that the ‘dipole term’ can be
+
+1 pr
+4nmeo
+
+written in the form V =
+
+- «
+where p is the dipole moment.
+
+Consider the Ampere’s law in the
+-presence of magnetic materials.
+
+Write it in both differential and
+integral forms. Obtain the
+magneto-statics boundary
+
+_ condition using the integral form of
+
+the equation.
+
+Discuss the propagation of eé.m.
+wave in lossy dielectric medium
+and. derive the expression for the
+intrinsic
+impedance of the medium.
+
+2’,
+
+i
+
+7
+
+(Turn Over)
+
+
+--- Page 4 ---
+(4)
+
+(b) In a lossless medium for which
+_. 1=607,u,=1 and
+
+H =—0-1cos(@t-z)a,+ 0-5sin (ot-z)a,A/m.
+
+Calculate the angular frequency -
+(o). ' Ss
+
+4. Obtain the electrostatic potential both
+inside and outside of a hollow sphere
+which is maintained at a constant
+surface charge density 09. 12
+
+Or
+
+(a) What do you mean by divergence of
+a vector? Calculate the divergence
+of
+
+> _ 2% 2,% “A .
+Ug =Y Ayt (Axy+zZ )ayt+2yza, 5
+
+(b) Explain the meaning of the gauge
+transformation. Write the Lorentz.
+gauge condition and show that both
+-electrostatic and vector potentials :
+-obey the wave equation in the
+Lorentz gauge in the absence of |
+‘sources. 7
+
+5. (a) Show that TM,, is the lowest order
+mode of all the TM,,, modes
+supported by the rectangular
+
+~ waveguide. 17
+
+D2(514) (Continued)
+
+
+--- Page 5 ---
+©. (5)
+
+(b) Derive the relation between
+reflection. and transmission
+coefficients for an’ obliquely
+incident e.m. wave in which wave
+electric field is parallel to the plane
+of incidence. 7
+
+Or
+
+(a) A plane e.m. wave normally
+‘incident on the boundary z=0.
+formed by a lossless dielectric
+medium and a good conductor.
+Obtain the zvalues at which
+minimum value of |£,| occurs in|
+the medium 1, where £, is the total
+electric. field in medium 1. 8
+
+(b) Show that a TE,, mode of a
+rectangular waveguide can be
+represented as a sum of two plane ©
+TEM waves propagating along
+zigzag’ paths between the guide
+walls. . 6
+
+kkk
+
+D2(514)—600 REF NO. 052708
+
+
+--- Page 6 ---
+Total No. of Questions : 5] [Total No: of Printed Pages : 6
+
+Roll No. ...... caeecueenseees
+
+‘REF NO. 052706
+
+B. Sc. (Hons) Semester V Examination
+2022-23
+
+PHYSICS
+
+Paper No. BPT-503 : Quantum Mechanics
+Time : 3 hours - Full Marks : 70
+
+{Write your Roll No. at the top immediately
+on the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks |
+
+Answer all questions
+
+1. Answer any five of the following : 5x4
+
+(a) Is it possible to perform the
+Compton effect experiment with
+visible light? Explain.
+
+(b) What is the length of a 1D box in
+
+which an electron in n=1 state has
+
+- the same’ energy as a photon of
+wavelength 600 nm?
+
+(c) Show that for a relativistic particle
+of rest energy.E, the de Broglie
+
+D2(499)—600 (Turn Over)
+
+
+--- Page 7 ---
+(@)
+
+(2)
+
+wavelength is given by
+
+a (Aya 224x107? =
+"  Eg(MeV) B*
+
+where B = u/c.
+
+Atoms are in two excited states with
+energies E, and £, such that
+
+_ SE =|E, - £2 | These. atoms return
+
+to the: ground state by emitting
+
+_photons. Show that the emitted
+
+{e}
+
+D2(499)
+
+wavelength differs by
+
+42
+Aw. =— AE
+he.
+
+Using the . uncertainty principle,
+
+find the ground state energy of the
+harmonic oscillator
+
+(HW = p?/am+ 4 mo? x?)
+
+If T and V are the expectation
+values of the kinetic and potential
+energy operators for the wave
+
+function y (x), then what would be.
+
+the expectation values of these
+operators if thé wave function
+changes to y{ax)?
+
+(Continued)
+
+
+--- Page 8 ---
+(3)
+
+(g) The normalized wave functions y,
+and yw. correspond to the ground
+state and the first excited state of a
+particle in a potential. If the
+
+operator A acts as ‘such that
+A A
+AW, =Y, and Aw, =y,. What is
+the expectation value of operator A
+for the wave function
+_ SY1 + FY 9 -
+)
+2. For a particle in a 1-d box—
+
+{a) find the ground and the first
+excited states; " 6%
+
+(b) Sketch the wave function and
+probability density for the ground
+
+and the first excited states. 6
+3. (a) Normalize the | wave function.
+
+y (x, t) = Ne le Set. and
+
+determine the expectation values of
+
+x and x? 6
+
+(b} Show that the energy eigenvalue E
+must be greater than the minimum
+value of the potential V (x) for each
+normalizable solution of a time
+independent Schrédinger equation. 4
+
+D2(499)—600 (Turn Over)
+
+
+--- Page 9 ---
+(4)
+
+{c) Show that Planck’s constant h has
+the unit of angular momentum. 2%
+
+Or
+
+The ground state wave function of an
+electron in a hydrogen atom is
+
+-r
+1 Qo
+
+Val) = re a
+0
+
+where a) is the Bohr radius.
+
+(a) Show that the wave function is
+normalized. * — ; 3
+
+(b). Find the probability of finding the
+electron between AS =@,/2 and
+To = 3a /2. 9%
+
+(c) Determine the uncertainty in the
+radial position of the electron in the
+ground state. Use < r>=3a,/2. 4
+
+' 4, (a) First excited state of the particle
+
+moving in harmonic oscillator is
+given by
+
+1/4 mo
+mo 2m. -a,*
+(4) (=) h
+
+D2(499) (Continued)
+
+
+--- Page 10 ---
+(5)
+
+Calculate the ground state wave
+function by applying the lowering
+operator a_. 12
+Hint: a = 1 (ip +mox)
+mh
+
+&
+
+(b) Let L and p be the angular and
+
+‘linear momentum operators,
+respectively, for a particle. Evaluate
+
+[L,, Py] and [X?, p?]. 5.
+
+5. (a) A particle of mass mis contained in
+
+' a one-dimensional infinite well
+
+extending from x =-L/2 to x=L/2.
+
+The particle is in its ground ‘state
+
+given by $9(x)=cos(x/L). The
+
++ walls of the box are moved
+
+_suddenly to form a box extending
+
+from x=-L to x=L. What is the
+
+probability that the particle will be
+
+in ground state after this sudden
+expansion? 6%
+
+(b) Show that L? and L. commute.
+
+Prove that these operators share
+the same eigenstates. 6
+
+D2(499) (Turn Over)
+
+
+--- Page 11 ---
+(6)
+
+Or
+
+" Write down the Schrédinger equation
+for a linear harmonic oscillator and
+solve it to obtain the eigenvalues and
+eigenfunctions. _, 12%
+
+kak
+
+D2(499)—600 REF NO. 052706
+
+ee
+
+
+--- Page 12 ---
+Total No. of Questions : 5] [Total No. of Printed Pages : 6
+
+REF NO. 052707
+
+B. Sc. (Hons) Semester V Examination
+2022-23
+
+PHYSICS
+
+Paper No. BPT-504 : Electronic Devices
+and Circuits
+
+Time : 3 hours Full Marks : 70
+
+(Write your Roll No. at the top immediately
+on the receipt of this question paper) .
+
+The figures in the right-hand margin indicate marks
+
+Answer all questions -
+
+1. Answer any four of the following : 4x5
+
+(a) What is the significance of
+threshold voltage in enhancement
+mode - MOSFET? How is its
+magnitude reduced?
+
+(b) Differentiate among the class A,
+class B’ and class C amplifiers
+based on their efficiency.
+
+D2(508)—600 st (Turn Over)
+
+
+--- Page 13 ---
+(2)
+
+(c}) How does the tank circuit of an
+oscillator produce a phase shift of
+180° ? Explain with the help of
+phase diagram of the L-C circuit.
+
+(dq) Draw the circuit diagram of single
+voltage-tuned voltage amplifiers.
+How quality factor can be enhanced
+using a double-tuned voltage
+amplifier? -
+
+(e) Discuss the power in amplitude-
+
+'. modulated . waves. For 100%
+modulation index, prove that the
+total sideband power is half of the
+carrier power.
+
+(if) Draw the Karnaugh map for the
+expression f (a, b, c,d) =abe+d.
+
+2. (a) Explain the construction and
+working of JFET and draw its
+characteristics curves. Define the
+amplification factor, pw, drain
+resistance, ry, transconductance,
+gm and establish the relationship
+among these parameters. 8
+(b) Draw the circuit diagram of
+OP-AMP in non-inverting. What is
+slew rate? How does it limit the
+high frequency operation of an
+OP-AMP ? , 4%
+D2(508) (Continued)
+
+
+--- Page 14 ---
+(3)
+
+3. (a) Draw the circuit diagram of a CE.
+amplifier using capacitor coupling.
+Derive the required equation to
+show the gain of this amplifier
+decreases at the low-frequency
+‘Tange.
+
+'(b) Refer to the basic common base:
+amplifier configuration of the
+figure. The h-parameter values for
+the transistor used in this circuit
+are as follows : ; 4%
+
+Rie = 4K, hye =7x107, hfe =100, ho, = 50u mhos
+Determine the following :
+
+ft} Current gain taking source
+and load resistance is taken |
+into account.
+
+_ {ti Input resistance
+
+Rs = 600 2
+
++
+
+4. (a) Draw’ the basic RC phase shift
+oscillator circuit and explain its
+
+D2(508)—600 Te  (Turri Over)
+
+
+--- Page 15 ---
+()
+
+(4)
+
+working. As per Barkhausen’s
+criterion, what. should be the
+amplifier gain for sustained
+oscillations? What will be the
+frequency of oscillation? -
+
+Assume that it is desired to design
+Colpitt’s oscillator so that its
+oscillator frequency is 4 MHz. If Lis
+adjusted ‘5OuH and the desired
+feedback fraction is B=1/20.
+Calculate—
+
+fj) The required value’ of
+equivalent tank capacitance;
+
+fii} The required values for C, and:
+
+Ca}
+
+. fii) The minimum voltage gain Ay
+
+(a)
+
+D2(508)
+
+require for the common
+emitter amplifier to sustain
+oscillations.
+
+Or
+
+Draw the h-parameter equivalent
+circuit of a transistor in CE
+configuration and find thé CE
+hybrid parameters in terms of the
+CC hybrid parameters for a given
+transistor.
+
+4",
+
+4
+'
+
+8 |
+
+(Continued)
+
+
+
+--- Page 16 ---
+{5}
+
+(b) Draw and explain the circuit
+diagram for amplitude modulation
+using a transistor in CE
+configuration. 4%
+
+5. (a) Discuss the importance of a power
+amplifier. Explain the working of a
+push-pull amplifier with a suitable
+diagram. Discuss the various
+advantages and disadvantages: of
+‘push-pull amplifiers. 8
+
+(b) If an amplifier with gain of -1000
+has a gain change of 20% due to
+temperature change, calculate the
+change in gain of the feedback
+amplifier having feedback fraction
+B =-0-1. - 4%
+
+Or
+
+fa) Design a full adder using NAND
+only. Draw a logic circuit (using .
+half and full adders) for adding two
+
+decimal numbers 7 and 17. Write
+down the results in binary. 8
+
+(b) For a Unijunction Transistor (UJT)
+with Vip = 20 V, n=0-65,
+
+D2(508) © * (Turn Over)
+
+
+--- Page 17 ---
+(6)
+
+determine the following : Ah,
+(Rep
+(ii) Rep
+(ii) V rer
+fiv) Vp.
+kkk
+
+D2(508)—600 ‘REF NO.'052707
+
+
+--- Page 18 ---
+_ Total No. of Questions : 5] {Total No. of Printed Pages : 6,
+
+REF NO. 052705
+
+B. Sc. (Hons) Semester V Examination
+2022-23
+
+PHYSICS
+
+Paper No. BPT-502 : Classical Mechanics °
+Time : 3 hours Full Marks : ‘70
+
+(Write your Roll No. at the top immediately
+on the receipt of this question paper)
+
+‘The figures in the right-hand margin indicate marks
+Answer all questions
+
+Symbols have their usual meanings
+
+1. Answer any four of the following : 4x5
+
+(a) Define non-conservative
+constraints with examples. Show
+that constraints of a rigid body is
+conservative type.
+
+(b) Lagrangian of a system with WN
+degrees of freedom is given by
+
+lo ag
+L( qi, 4) = 52 m,4? “ak2, (a: -4@,)°
+
+D2(496)—600 (Turn Over)
+
+
+--- Page 19 ---
+(2)
+
+Find the equations of motion for
+the system, where i=1,2,:.- N,
+| f=12,--N
+
+(c) The Hamiltonian of a ‘system is
+given by
+2. kq?
+H(q, p)=2- +t -pape-*
+2c 2
+
+a,B are constants.
+
+Find the Lagrangian of the,
+system.
+
+(d) Find five different vector potentials '
+which produce | the Same, uniform
+
+magnetic field B= 2i +3 h
+
+fe) Find the central force that will
+cause-a point particle of mass m to
+describe a circular orbit passing
+through the center of the force.
+
+2. (a) A particle of mass m is constraints
+
+to move on the surface of a cylinder
+x?+y?=R*. The particle is
+subjected to a force directed ,
+towards the origin and proportional
+to the distance of the particle from
+the ° origin. Construct the
+Lagrangian of the system. 7
+
+D2(496) (Continued)
+
+
+--- Page 20 ---
+(3)
+
+(b) What is meant by ‘homogeneity of
+space’? Derive the conservation law
+follows from it. | ts)
+
+' 3. fa) A particle of. mass m is sliding a
+smooth wire whose equation in
+cylindrical coordinates are given by
+p=(z+ao)*, z=b, a,b are
+constraints. Find the equation of
+motion for the particle using
+Lagrange multiplier’s method. 7
+
+(b) Write down the Lagrangian of a
+charged particle in . the
+electromagnetic field. Construct the
+
+- Hamiltonian for the system and
+hence obtain the canonical
+equations of motion. , 6
+‘ Or
+A particle of mass m is moving on a
+
+plane under attractive central force
+given by
+
+P(r)=%-4, a, B > 0
+
+(a) Find: the effective potential for this
+-system and plot it approximately. 3
+
+D2(496)—600 . (Turn Over)
+
+
+--- Page 21 ---
+(4)
+
+(b) Discuss the motion of the particle
+qualitatively for various total energy
+
+of the particle. 4
+(c} Show that angular momentum of .
+the particle is conserved. - 3
+
+(d) Show that position vector of the
+particle sweeps equal area in equal |
+time. ' 3
+
+4. (a) Define canonical transformation.
+Construct all possible generating
+functionals for the canonical
+transformation ~
+
+Q=+; P=qp*
+Pp
+
+(b) Calculate the Poisson bracket '
+{v;, v;}, where v; and v; represent
+the i-th and #th components of ©
+velocity of a charged particle in the
+
+_s
+magnetic. field B. 7
+
+Or
+
+. (a) Define normal coordinates and
+normal frequencies of a oscillating
+system. Find the normal modes in
+
+D2(496) (Continued)
+
+
+--- Page 22 ---
+(5)
+
+the vibration of CO, molecule, by
+considering the following model of
+
+It: - ‘
+O Cc re)
+OO 220e, 2000-6
+
+ke ke
+What is the physical meaning of ©
+“zero normal frequency? 9
+
+(b)-A particle of unit mass moves
+under one-dimensional potential
+1
+
+b(x)= 2x5 “5% -= x + 7x? +24x+9
+
+Find the frequencies of small
+oscillation about the equilibrium —
+position of the mass. - 4
+
+5. (a) In a dynamical- system with two
+degrees of freedom the Lagrangian
+
+is given by
+2 at+bq, 2 ee a
+
+a, b,c, d are constants. Deduce the
+existence of a constant of motion. 3
+
+D2(496) (Turn Over}
+
+
+--- Page 23 ---
+(6)
+
+(b) Consider. a simple harmonic
+
+(¢)
+
+oscillator in one dimension with
+angular frequency w. Show that a
+quantity
+
+u(q, p,t)=In (p+ imaq)~iot
+
+is constant of motion.
+
+Find a suitable scaling under which
+
+the dynamics of the -system
+described by
+
+L (Qi; Ga; qi da)
+
+D2(496)—600
+
+= GG +q? +5 - 34142 —5qy ~11q2
+
+remain invariant.
+
+* kk
+
+REF NO. 052705
+
+
+--- Page 24 ---
+Total No. of Questions : 5] [Total No. of Printed Pages : 6
+
+Roll No. .....cccceseueseneees
+
+REF NO. 052704 .
+
+B. Sc. (Hons) Semester V Examination
+2022-23
+
+- PHYSICS
+
+Paper No, BPT-501 : Mathematical Physics
+Time : 3 hours Full Marks : 70
+
+(Write your Roll No. at the top immediately
+on the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+Answer all questions -
+Unless otherwise specified the mathematical
+symbols have their usual meanings
+1. Answer any four of the following: 4x5 _
+
+(a) A conducting wire along the z-axis
+carries a current I. The resulting
+magnetic vector potential is given
+by
+
+A=ghe in (2)
+2n fe)
+
+D2(493)—600 (Turn Over)
+
+
+--- Page 25 ---
+(2)
+
+>
+Find the magnetic induction B (in
+- coordinates appropriate to the
+geometry of the problem). '
+
+(b}) The distance (ds) between two
+neighbouring points in (3D) space,
+is given by ds* = g,ax'dx®. Show
+that (the quantities) g;, transforms
+as a covariant tensor.
+
+(c) If A is a (nonsingular) symmetric
+matrix, then show that Aq! is also
+symmetric.
+
+(da) From the Euler integral definition of
+the Gamma function (IT (z)), show
+that—
+
+f) V(z+lj=2r(Q;
+(i) T(z)=2]e e& tf 22-lae
+
+In this integral, what is the
+condition that is imposed on 2?
+
+(e}) Find the Fourier series of the
+function Jsin(x)[, (-m< x< 2m).
+Comment on the nature of
+convergence of the series.
+
+D2(493) (Continued)
+
+
+--- Page 26 ---
+i
+
+Taetttco. Be Shh.
+
+“—
+
+-t sg & .
+a Gets a |
+
+ff
+
+2. (a)
+
+(b)
+
+(a)
+
+(b)
+
+D2(493)—600
+
+C3)
+
+Normalize the Laguerre polynomial
+x2
+L,(x)=1-2x+ >
+
+Construct . a second-order,
+ordinary, linear, homogeneous
+differential equation (2-ODE) that is
+satisfied by this polynomial.
+Verify the following (in R*) :
+
+Sing® jpg = 253
+
+EiKE pqk = 545 —8 ipdig
+Write down the spherical polar unit
+vectors in terms of Cartesian unit
+vectors. Using these calculate all
+the partial derivatives of 7, 6, with
+respect to r, 6, @.
+Or
+
+Determine the circular cylindrical
+coordinate components of velocity
+and acceleration of a moving
+
+particle with position vector T(t).
+Given a vector in spherical
+coordinates :
+
+> A i A
+
+Pe 2P cos8 a Psind 6
+
+r? . r?
+
+(Turn Over)
+
+
+--- Page 27 ---
+(4)
+
+express it in’Cartesian coordinates.
+
+If F is a force, does a potential |
+exist? If so, find it out. Provide an
+example of a Physics problem in
+which the above expression occurs. 6
+
+3. (a) Find the Bessel equation that is ©
+satisfied by
+
+Jia (x) = = [2 costa
+
+Find a linearly independent second
+solution of the same differential
+equation. 7
+
+(b) Given the generating function
+
+g(x thee ht =S° OH 2)
+
+obtain | the ° Rodrigues
+representation of H, (x). 6
+Or-
+
+(a) Using the generating function 1
+
+1 ©
+
+for Legendre polynomials, show
+that—
+
+(n+1)P,.1(%) =(2n+1) xP, (x)—nP,_1(x) 5
+- D2(493) (Continued)
+
+P,(x)t", (|t|<1)
+
+
+
+--- Page 28 ---
+(5)
+
+(b) Solve (1—x?)y"-2Qxy'+12y=0, by
+series solution method (about x =0)
+and obtain two independent
+
+- solutions. — 8
+
+4. (a) By expressing the vector cross
+products in terms of the Levi-Civita
+symbols (é,.), verify that—
+
+>
+
+4
+(b) Find the eigenvalues ‘and
+(normalized) eigenvectors of A:
+4 -1 -l
+Az=|/-1 4 -l
+-1 -1 4
+How are these related to
+- the eigenvalues and eigenvectors
+of A ? . 8
+5. (a) Find the Fourier series of f (x) =
+(-n<-x<7). Comment on _ the
+nature of convergence of the series.
+Using the series, evaluate—
+0 Dag
+eo (-1
+{it) ys “1 7
+
+D2(493) ‘ (Turn Over)
+
+
+--- Page 29 ---
+(6)
+
+(b) Provide one example each, with
+brief explanation, of Physics
+problems in which the special
+functions, namely, Legendre,
+Bessel, Hermite, Laguerre, Gamma
+and Dirac Delta function, occur. 5
+
+kkk
+
+D2(493)—600 , : REF NO, 052704

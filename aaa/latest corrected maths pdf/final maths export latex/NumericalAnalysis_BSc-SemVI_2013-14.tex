@@ -1,0 +1,120 @@
+% BHU PYQ -- Manually transcribed & error-corrected
+% Paper: MTB-603 : Numerical Analysis
+% Exam: B.A./B.Sc. (Hons) Semester VI Examination, 2013-14
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={MTB-603: Numerical Analysis -- BHU B.A./B.Sc. Sem VI 2013-14}}
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{MTB-603: Numerical Analysis}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.A./B.Sc. (Hons) --- Semester VI Examination, 2013-14}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. MTB-603: Numerical Analysis}\\[4pt]
+  {\normalsize Time: 3 Hours \hfill Full Marks: 50}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer \textbf{five} questions including Question~1 which is compulsory. Figures in right-hand margin indicate marks. Use of calculator is allowed.}
+\bigskip
+
+\noindent\textbf{Question 1.}
+\begin{parts}
+  \item Using the Newton-Raphson method, derive the iterative formula $x_{n+1} = \dfrac{1}{3}\!\left(2x_n + \dfrac{N}{x_n^2}\right)$ to calculate the cube root of $N$. \pts{2}
+  \item Find the value of $y(3)$ if $y(0)=1$, $y(1)=3$, $y(2)=9$, $y(4)=81$. \pts{2}
+  \item Prove that $\Delta\bigl[\ln f(x)\bigr] = \ln\!\left(1 + \dfrac{\Delta f(x)}{f(x)}\right)$. \pts{2}
+  \item Define an ill-conditioned matrix. Give an example. \pts{2}
+  \item What are the differences between Euler's method and the modified Euler's method for solving first-order initial value problems? \pts{2}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 2.}
+\begin{parts}
+  \item A real root of $f(x) = x^3 - 2x - 5 = 0$ lies in $(2, 3)$. Perform four iterations of the Regula-Falsi (False Position) method to find this root, writing results to four decimal places. \pts{5}
+  \item Obtain the order of convergence of the Secant method. \pts{5}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Derive the Lagrange interpolation formula to approximate a given function by an $n$-th degree polynomial. \pts{5}
+  \item From the following table, find $x$ (correct to two decimal places) for which $y$ is maximum, and also find the maximum value of $y$:
+  \begin{center}
+  \begin{tabular}{|c|c|c|c|c|}\hline
+  $x$ & 1.2 & 1.3 & 1.4 & 1.5 \\\hline
+  $y$ & 0.9320 & 0.9636 & 0.9855 & 0.9975 \\\hline
+  \end{tabular}
+  \end{center} \pts{5}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Obtain the error in Simpson's three-eighth rule of numerical integration. \pts{5}
+  \item Evaluate $\int_0^1 \dfrac{1}{1 + x^2}\,dx$ using Simpson's one-third rule with six equal sub-intervals (to four decimal places). \pts{5}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 5.}
+\begin{parts}
+  \item From the Taylor series for $y(x)$, find $y(0.1)$ correct to four decimal places, given that $\dfrac{dy}{dx} = x^2 - y^2$, $y(0) = 1$. \pts{5}
+  \item Use the fourth-order Runge-Kutta method to solve $\dfrac{dy}{dx} = x + y^2$, $y(0) = 1$, with step size $h = 0.1$ on $[0, 0.2]$ to four decimal places. \pts{5}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 6.}
+\begin{parts}
+  \item Using the Gauss-Jacobi iterative method, solve the system:
+  \[
+  x + 5y + 2z = -6,\quad 4x + y + z = 2,\quad x + 2y + 3z = -4
+  \]
+  starting with initial approximation $[0.5,\ -0.5,\ -0.5]^T$, correct to three decimal places. \pts{5}
+  \item Solve the following system using Gaussian elimination:
+  \[
+  \begin{pmatrix}2 & 1 & 1 \\ 4 & 0 & 2 \\ 3 & 2 & 2\end{pmatrix}
+  \begin{pmatrix}x_1\\x_2\\x_3\end{pmatrix}
+  =
+  \begin{pmatrix}2\\3\\-1\end{pmatrix}
+  \] \pts{5}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 7.}
+\begin{parts}
+  \item Describe the Jacobi rotation method to reduce a symmetric matrix to diagonal form. \pts{5}
+  \item Find the largest eigenvalue and corresponding eigenvector of:
+  \[
+  A = \begin{pmatrix}4 & 1 & 0 \\ 1 & 20 & 1 \\ 0 & 1 & 4\end{pmatrix}
+  \]
+  correct to three decimal places using the power method. \pts{5}
+\end{parts}
+
+\vfill\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+\end{document}

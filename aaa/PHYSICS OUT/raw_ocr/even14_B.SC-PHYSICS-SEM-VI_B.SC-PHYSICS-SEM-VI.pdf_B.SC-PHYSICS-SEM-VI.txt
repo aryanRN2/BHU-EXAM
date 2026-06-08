@@ -1,0 +1,694 @@
+--- Page 1 ---
+Total No. of Printed Pages : 3]
+
+BS/Sem VI/251
+FROM NO. ....ceeeecceeeessee
+B. Sc. (Hons.) Semester VI
+
+Examination, 2013-14
+PHYSICS
+Paper No. : BPT-602
+(Solid State Physics)
+
+Time : Three hours | [ Full Marks :70
+
+[Write your Roll No, at the top immediately on the
+receipt of this question paper.]
+
+Note: Attempt all questions. The figures in the right hand
+
+side indicate marks.
+1, Answer any five of the following questions : 5x4
+
+(a) With the help of diagram show the crystal
+structure of NaCl and diamond. What is the
+lattice type of these structures 7
+
+(b) For metals establish the Wiedemann-Franz law.
+
+P. T.0.
+
+
+--- Page 2 ---
+BS/Sem VI/251
+
+(c)
+
+(d
+
+~
+
+(e)
+
+(b)
+
+3. (a)
+
+(b)
+
+{a)
+
+Show the variation of energy, velocity and
+effective mass of an electron as a function of wave
+vector k in first Brillouin zone.
+
+What are characteristic difference between Optical
+and Acoustical modes of lattice vibrations ?
+
+What do you understand by Lennard-Jone
+potential ?
+
+Explain the meaning of spin waves and magnon.
+
+What is the meaning of space-lattice ? How many
+different types of space-lattices are possible? 6
+
+Prove that the close packing of atoms in the
+hexagonal close packed (hep) structure demands
+
+an axcal ratio % = i% 6
+
+Using Einstein model, derive the expression of
+specific heat of solids at high and low
+temperatures. What are the assumptions of Debye
+model of specific heat of solid ? How does it differ
+from Einstein model ? 8
+
+Considering the nearest neighbour interaction,
+establish the dispersion relation for mono-atomic
+linear chain. 5
+
+OR
+
+Derive _the expression for the energy of
+conduction electrons in a metal considering its
+
+potential energy to zero. 8
+
+
+--- Page 3 ---
+(b)
+
+4. (a)
+
+(b)
+
+5. (a)
+(b)
+
+(c)
+
+{a)
+
+(b)
+
+BS/Sem VI/251
+
+On the basis of free electron gas model, calculate
+the expression for electrical conductivity. 5
+Discuss the quantum theory of paramagnctism
+and establish the Curie-Brillouin law for the
+magnetization and hence the Curie-law of
+susceptibility. 8
+What is Weiss field for ferromagnetism ?
+Establish the = Curie Weiss aw for
+ferromagnetism. 5
+What do you understand by reciprocal lattice? 2
+
+Show that the reciprocal vector Tre is
+perpendicular to (hkl) plane and Iti | ~
+
+he
+
+where symbols have their usual meaning. 6
+
+What is Ewald construction ? 4
+OR
+
+Derive the expressions for atomic scattering factor
+
+and crystal structure factor, 8
+
+Calculate the structure factor for a body centred
+cubic structure and show that its value in non-
+zero only when h+k+1 is even number, h, k and |
+are Miller indicies of plane, 4
+
+(3) 600
+
+
+--- Page 4 ---
+
+
+--- Page 5 ---
+Total No, of Printed Pages : 4]
+
+BS/Sem VI/253
+TT
+
+B. SC. (Hons.) Semester VI
+Examination, 2013-14
+
+PHYSICS
+Paper : BPT - 604
+
+(Atomic Physics and Lasers)
+Time : Three hours | { Full Marks : 70
+Note; Answer all the questions. The figures in the right-
+hand margin indicate the marks.
+1. Answer any five of the following : 5x4
+
+(a) Whatis relative population of two states in a ruby
+laser that produces a light beam of wavelength
+6943 A® at 27°C ?
+
+(b) Why the discharge tube in a He-Ne laser system is
+
+taken to have narrow cross-section ?
+
+P.T. QO.
+
+
+--- Page 6 ---
+BS/Sem VV/253
+
+(c)
+
+(d
+
+=
+
+(g)
+
+The effect of nuclear - mass on the Rydberg
+constant is to change it by about 1 part in 2000,
+
+justify this statement.
+
+Which experiment did provide evidence for the
+
+existence of electron spin and how ?
+Explain the meaning of space quantization.
+
+On introducing the concept of relativistic electron
+in elliptic Sommertield orbit treatment the
+splitting of energy levels is same as obtained by
+Dirac's theory. Do these two explain the observed
+
+structure completely, if not, why ?
+
+Work out the ground state of an atom having
+
+atomic number 39.
+
+2. Describe the construction and working of an Nd-YAG
+laser. 12
+
+OR
+
+With the help of a suitable diagram describe
+construction and working of a He-Ne laser. Which one
+
+
+--- Page 7 ---
+BS/Sem VI/253
+
+of the He and Ne atoms is responsible for the LASER
+action and what is the role of the other ?
+
+3. What is the difference between Spontancous and
+stimulated emissions ? Establish relation between the
+Einstein's coefficients A and B. 12
+
+OR
+
+An emitting atom is placed in a magnetic field. If field
+intensity is increased from zero to a low value (a few
+R Gauss) the singlet lines split into three components.
+
+Explain the origin of this triplet.
+
+4. (a) What do you understand by Lande’s interval rule
+and what are normal and inverted multiples,
+
+explain with suitable example ? 7
+
+(b) Find out the ground state of an atom with two
+
+equivalent P electrons. 6
+
+5. (a) Describe Franck - Hertz experiment and its out
+
+come. 4
+
+(3) PF:
+
+
+--- Page 8 ---
+BS/Sem VI/253
+
+(b) Discuss briefly the condition of phase matching in
+SHG. 4
+(c) Derive Terms for 5d6p electrons under jj coupling
+
+scheme. 5
+
+
+--- Page 9 ---
+ex>em ViZou
+Roll No. ......
+
+B.Sc. (Hons.) SEMESTER VI EXAMINATION 2013-14
+PHYSICS
+Paper : BPT - 601 : Statistical Mechanics
+
+Time : Three hours Max. Marks : 70
+(WRITE YOUR ROLL NO. AT THE TOP LMMEDIATELY ON THE RECEIPT OF THIS QUESTION PAPER)
+
+NOTE : ANSWER ALL QUESTIONS. SYMBOLS HAVE THEIR USUAL MEANINGS. THE FIGURES
+IN THE RIGHT HAND MARGIN INDICATE MARKS.
+
+1. Answer any four of the following : 4x5
+a) Withreasons find the number of distinct ways in which N objects, of which N4_ are
+indistinguishable of one type and Y4_ of second type, can be accommodated ina
+total of N= T)4+N-_ possible places.
+b) The quantum distribution for an ideal Fermi gas is
+
+Fe@=[eem, t]
+
+What happens to such distribution in the limit T —4 0?
+
+c) Consider that two physical systems, which were separately in equilibrium, are
+brought in thermal contact and allowed to interact. For the condition for two systems
+being in mutual thermodynamic equilibrium and hence derive the relation
+
+S=kin 2
+
+d) Considering a system in a grand canonical ensemble. Show that the probability that
+the system be ina particle-energy (My Eg) state would be
+7
+
+R __exP(-%Ny—BEs)
+9 exp(-& Ny— BES) |
+Nv Es
+
+e) Twoenergy levels system, with energy gap 0.1 eV, is in thermal equilibrium with a
+heat bath at experts 327°C. Obtain the probability that the system is in higher
+energy level (given e* = 7.359).
+
+f) Consider a binomial distribution for a system for which p = i q= N =6.
+Determine the standard deviation and find the probability that nis in the range
+<n>-@F to<n>+ oO (given g-2 =Npg).
+
+2. Consider a system in canonical ensemble and show that -
+
+a) _ the probability of system being in energy state Fs would be
+
+exp (-B EBs
+b= = exp(- PEs)
+Es
+
+Hence establish a relationship between the thermodynamics of system and statistics :
+
+ensemble. P.T.O.
+
+
+--- Page 10 ---
+b)
+
+2
+
+For an ideal monatomic classical gas the partition function is given by 4¥2
+
+_ N
+nl = aa [fs nme Dd”)
+
+Answer either (a) and (b) or (c) and (a)
+
+a)
+
+b)
+
+d)
+
+Show that for large number of random events the binomia! distribution reduces to
+Gaussian distribution. Relate the characteristic parameter of the latter to those of the
+former. 642
+In a binomial distribution of total N steps out of which N4_ steps are to the right show
+
+that y
+——- > :
+( 4 fn
+pe Iz
+where is the root-mean square deviation and \, the
+meanof Y\y 6
+What do you mean by phase space and density of states? Derive Liouville's theorem
+and discuss its consequences, 8
+Show that in the classical limit, quantum distribution laws, whether Fermi Dirac or
+Bose Einstein, reduce to the Maxwell-Boltzmann distribution. 42
+
+Answer either (a) or (b).
+
+a)
+
+b)
+
+a)
+b)
+
+c)
+
+Discuss the characteristic features of an ideal Fermi gas. Explain the meaning of Fermi
+energy. Show that the Fermi energy Eg variesas 7/3 ~~ where n= N/V.
+
+Derive relation for the Fermi fexngiinatios ground state energy and ground state
+pressure. 12¥2
+Derive an expression for the partition function in Bose-Einstein statistics and hence
+obtain the relation for the mean number of particles Wg ina particular state s. Obtain
+the parameter © in terms of chemical potential. Why o = 0 in the case of photons? 12!
+
+Show that the relative root mean square fluctuation in energy E in a canonical
+
+ensemble varies as {/{N . What is the physical significance of this result? 4%
+Discuss and compare the characteristic features of micro canonical, canonical and
+grand canonical ensembles. 5
+
+Three gaseous systems composed of classical molecules, fermions and bosons,
+respectively, are kept at OK. Which one of the system will exert greatest pressure?
+Explain. 4
+
+ob Oh
+
+
+--- Page 11 ---
+BS/Sem VI/252
+
+B.Sc. (Hons.) Semester VI Examination, 2013-14
+3 Physics
+PT-603: Elements of N Sic:
+Time: - Three Hours mon Nuclear Physics Full Marks: 70
+arks:
+
+Note: Answer all questions. Always draw necessary diagram of figure if needed,
+
+1. Answer any five questions of the following: 5x3
+
+(a) Nucleon - nucleon forces are charge independent. Why the p-p and n-n
+bound states do not exist?
+
+(b)On what factors the choice of a good detector scintillator depends?
+
+(c) Explain with one example each, the following terms: (a) Mirror Nuclei (b)
+Singly and doubly magic nuclei.
+
+{d} List one each detector which can be used for ionization & track
+measurements, time measurements and particle identification.
+
+{e) Explain why is that only a-particles are emitted by radioactive nuclei
+while protons and neutrons are not.
+
+({f} A photon of energy 2.22 MeV can disintegrate the deuteron into its
+components, Given that the masses of the neutron and proton are 1.008665
+u and 1.007277 u, what is the mass of the deuteron?
+
+(g} What are the informations one can obtain from electron nucleus
+scattering experiment.
+
+2 {aJThe radius of a nucleus is R =r A!/3 with m = 1.2 fm. Using Heisenberg’s
+relations, estimate the mean kinetic energy and momentum of a nucleon
+inside a nucleus. (5)
+
+(b) Write down the Bethe-Weizsacker mass formula and explain the
+various terms that contribute to it. (4)
+
+(c} Describe in brief the Fermi gas model of the nucleus. Show that the
+Fermi energy is independent of the number of nucleons in the nucleus for
+constant nuclear density. (5)
+
+3 (a) With the help of a neat diagram, describe the characteristics of the
+mode of operation of gas-filled detectors. (5)
+
+(b) List some of the important features of a scintillating signal and discuss at
+least two important features with suitable sketch. (4)
+
+ATO.
+
+
+--- Page 12 ---
+(c} A Nal{Tl} detector in the shape of 5 cm cube is bombarded by a beam of
+2.8 MeV gamma-radiation normal to one face of the cube. Calculate
+
+i. What fraction of the gamma radiation is detected?
+
+ii. What fraction of the detected gamma appears in the photo peak,
+Compten distribution and pair peaks? Assume that there is no re-
+absorption of Compton gamma or annihilation quanta. (5}
+
+4 (a) What are the informations we can obtain from the nucleon-nucleon (n-
+p and p-p) scattering experiments. (6)
+
+(b) What do you know about the basic properties of the nucleus? Explain
+any two. Show that the density of nuclear matter is ~105 tons / mm,
+{Assume that the mass of the proton is 1.67 x 10 - 2” kg and that its
+
+spherical shape has a radius R = rmA1/3, where ro = 1.2 x 10- 13 cm. (7)
+OR
+
+4 (a) Define the Q, value of alpha decay. Write down the important features
+
+of alpha decay. What causes alpha decay? Explain it. {6}
+
+(b} Calculate the Q, - value, kinetic energy T,, and the Coulomb barrier Vc,
+for the primary branch of the alpha decay of ?!2Po to the ground state of
+208Pbh, Here Mass of alpha is 2.4249 MeV and excess masses of daughter and
+parent are - 21.759 MeV and - 10.381 MeV, respectively. (|)
+
+S (a) What are the properties of the ground state of deuteron? What are the
+informations about the nucleon-nucleon potential from the experimental
+
+data on deuteron nucleus? (9)
+
+5 {b) Make a neat sketch of binding energy curve. Explain the basis for
+
+fission and fusion of nuclei, (5)
+OR
+
+5 (a) What are elementary particles and how are they classified? Describe
+the different types of interactions that can occur between the elementary
+particles. (7)
+
+9 (b) Provide the names, masses and charges of six quarks discovered so fa
+What do you understand by colour degree of freedom? What is the need fi
+introducing the colour degree of freedom for the quarks? {7}
+Values of some parameters and constants:
+
+i. Mass of electron = 9.1x107! kg
+
+ii. Mass of proton = 1.007825u
+
+iii. Mass of neutron = 1.008665u
+
+iv. Attenuation coefficient (1) for 2.8 MeV gammas= 0.135 cm*
+
+¥ meet coefficient (Hp) for photoelectric effect= 2.5x107 cm?
+
+“2 oe €nuation coefficient (tcompton) for Compton scattering= () 113 cm"
+
+: ttenuation coefficient (u,.) for pair production= 0.020 cm “m
+
+
+--- Page 13 ---
+BS/Sem V1/254
+Roll No, ...... cee ceeceeceneee eee eee
+
+B.Sc. (Hons.) SEMESTER VI EXAMINATION 2013-14
+PHYSICS
+(Elective)
+Paper : BPE - 601: Topics in Modern Physics
+Time : Three hours Max. Marks : 70
+
+(WRITE YOUR ROLI. NO. AT THE TOP IMMEDIATELY ON THE RECEIPT OF THIS QUESTION PAPER)
+
+NOTE : ANSWER ALL QUESTIONS. UNLESS SPECIFIED OTHERWISE, THE DIFFERENT
+SYMBOLS HAVE THEIR USUAL MEANINGS.
+
+4
+to
+co)
+
+Answe: any five of the foliowiig: 5x4
+
+{a} State and explain the cosmological principle.
+
+(b} What are degenerate stars? Explain briefly with
+an cxample.
+
+iy Drow neeliv the Herizsprung-Russel diagram
+and explain it.
+
+{lj Wrse down the Lorentz transformations for the
+cnergy and momenta when the boost is along
+xranis.
+
+ic} What are Stokes’ and anti-Stokes’ lines in
+Raman scattering?
+
+(f) What are gauge transformations? Show that,
+the electric and magnetic fields remain
+
+invariant under gauge transformations.
+
+(aj Derive an expression for the kinetic energy of
+
+the recoiled electron in Compton scattering. 8
+
+‘b Wher is the physical meaning of Comptor:
+
+Wavelength? Justify your answer. 4.5
+
+4.8.
+
+
+--- Page 14 ---
+ras
+
+(2)
+
+|
+
+ta) Discuss Lhe Big bang nucieosvnthesis.
+
+db; Explain Une differences between Big bang
+
+n
+
+nucleosynthesis and stellar nucleosynthesis. a.
+
+ln: igerive the Hamiltonian for a charged particle
+moving under the influence of an
+eiectromagnetic field.
+
+(y! Explain briefly the working of a p-n junction
+
+ou
+
+slinde as a radiation detector. 4,
+OR
+
+Whal are source-free Maxwell's equations?
+
+{a
+Wrjie Lhese “quations in four-vector notation. 8
+
+ny a: é My .
+
+(yy Gerwve the reiadionship, M = —==s, where mo 1s
+
+ye
+
+a
+ce
+
+1
+tie rest mass of the particie, m is the
+relativistic mass, v is the velocity of the
+
+particle. 4.5
+
+{a} Derive a condition for the hydrostatic
+equilibrium of a mass of gas contracting under -
+gravity. - 45
+
+i») Explain the process of generation of energy by
+the Sun. Discuss its evolution and ultimate
+fate {le., its deavh).
+
+OR
+taj State and explain the significance of Hubble’s
+law? 4
+ib} What is cosmic microwave background?
+Explain its origin. 4
+ic) What are the various structures in the visible
+universe? What does it mean by large scale
+
+sinoothneasa of the usaiverue?
+——><;
+
+
+
+--- Page 15 ---
+BS/Sem V1/255
+ROH No. coe ese sees cee cesses css cae cove
+
+B. Sc. (Hons.) Semester VI Examination, 2013-14
+PHYSICS
+Paper: BPE 602
+
+(Elementary Nanoscience and Exotic Maierials)
+
+Time: Three hours Full Marks: 70
+
+[Write your Roll No. at the top immediately on the receipt of this question paper]
+
+Now. The figures in the right hana side indicate marks assigned io a question.
+Answer all questions. Only interna! choice within a question is there,
+
+I, Answer any four parts out of the following: (4x312)
+
+(a) Discuss the Fibonacci sequences, and their relevance to quasi crystals?
+
+(b) Explain briefly the main features of Colossal magnetoresistance.
+
+(c) How focusing ef electrons are nerformed in transmission electron microscope (TEM)? Name the
+£ pe
+
+two lenses used in TEM.
+(d) In which characterization technique secondary electrons are exploited? Discuss the interaction of
+
+electrons with thin samples?
+(e} Define Quantum dot, quantum wire and quantum weil with suitable exampie?
+
+Question 2: What do you understand by tunneling? Discuss the salient teature of scanning prabe
+microscope (SPM) and write the construction and working principle of scanning tunneling microscope
+
+(STM).
+(4+10)
+
+Question 3: What are essential differences between crystals and quasi-crystal. Compare them in
+
+tabulated form. Why one need six index systemf in order to index quasi-crystailine diffraction patterns.
+(14)
+
+Question4: (a) Discuss the structure, properties and applications of carbon nanotubes (CNT}? Discuss
+in detail the synthesis of carbon based nario matzrials using DC arc discharge techniques.
+: (9)
+
+i hod ; sizing single wal tubes
+ri -discharge method for synthesizing single walled carbon nano’
+(b) Write a short note on are-discharg aa
+
+SWNT)?
+P.T.0.
+
+
+--- Page 16 ---
+f
+Question 4 (a): Discuss with appropriate diagram, the mechanism of Giant magneto resistance?
+(10)
+
+(b) Explain the spin valve effect? (04)
+
+Question 5: What are super conductors? How they are different from perfect conductors? Explain
+Meisner effect and super currents in super conductors.
+(14)
+
+OR
+of High Temperature Superconductors. Draw a neat diagram of
+
+Question 5 : Discuss salient features
+the Cu - O plane in which charge carriers exists.
+
+the structure of Y - 123 and point out
+
+g
+—— oo

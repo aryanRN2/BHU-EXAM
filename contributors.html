@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Contributors | BHU Exam Prep</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "accent-neural-emerald": "#10B981",
+                        "secondary": "#5e5e5e",
+                        "background-warm": "#F7F7F5",
+                        "accent-neural-purple": "#A855F7",
+                        "accent-bhu-saffron": "#F57C00",
+                        "surface": "#f9f9f9",
+                        "on-surface": "#1b1b1b",
+                        "accent-neural-blue": "#3B82F6",
+                        "background": "#f9f9f9",
+                        "outline": "#7e7576",
+                        "on-background": "#1b1b1b",
+                        "primary": "#000000",
+                        "on-primary": "#ffffff",
+                        "border-subtle": "#E7E7E4"
+                    },
+                    borderRadius: {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                    spacing: {
+                        "gutter": "32px",
+                        "unit": "8px",
+                        "container-max": "1280px",
+                        "section-gap-mobile": "80px",
+                        "section-gap-desktop": "180px",
+                        "padding-edge": "32px"
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .neural-orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            z-index: 0;
+            pointer-events: none;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0) scale(1); }
+            50% { transform: translateY(-20px) scale(1.05); }
+        }
+        .animate-float {
+            animation: float 8s ease-in-out infinite;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+        }
+    </style>
+</head>
+<body class="bg-background-warm text-on-background antialiased min-h-screen flex flex-col justify-between selection:bg-accent-bhu-saffron/10">
+
+<!-- TopNavBar -->
+<nav class="fixed top-0 left-0 right-0 z-50 bg-background-warm/80 backdrop-blur-xl border-b border-border-subtle shadow-sm h-16 md:h-20 w-full flex items-center">
+    <div class="max-w-container-max mx-auto px-6 md:px-padding-edge flex justify-between items-center w-full">
+        <div class="flex items-center gap-3 md:gap-4">
+            <button onclick="window.location.href='index.html'" class="w-8 h-8 md:w-10 md:h-10 rounded-full border border-border-subtle hover:bg-neutral-100 transition-all flex items-center justify-center text-secondary hover:text-primary shrink-0 mr-1 md:mr-2" title="Back Home">
+                <span class="material-symbols-outlined text-base md:text-lg">home</span>
+            </button>
+            <img src="images/logo.png" alt="BHU Logo" class="h-6 md:h-10 w-auto"/>
+            <span class="text-sm md:text-2xl font-bold tracking-tighter text-primary hidden sm:block">BHU Exam Prep</span>
+        </div>
+        <div class="flex items-center gap-4">
+            <a href="subjects.html" class="hidden md:flex items-center gap-2 bg-primary text-white text-xs font-bold px-5 py-2.5 rounded-full hover:bg-neutral-800 transition-all duration-200 hover:scale-105 active:scale-95">
+                <span class="material-symbols-outlined text-sm">rocket_launch</span>
+                Start Exam
+            </a>
+        </div>
+    </div>
+</nav>
+
+<main class="relative pt-28 md:pt-40 pb-20 overflow-hidden flex-1 flex flex-col items-center">
+    <!-- Animated background orbs -->
+    <div class="neural-orb animate-float bg-accent-bhu-saffron w-[500px] h-[500px] -top-32 -left-16 opacity-30"></div>
+    <div class="neural-orb animate-float bg-accent-neural-purple w-[450px] h-[450px] top-40 -right-16 opacity-20" style="animation-delay: -3s;"></div>
+
+    <div class="max-w-4xl mx-auto px-4 md:px-8 text-center flex flex-col items-center relative z-10 w-full">
+        <p class="text-xs font-bold uppercase tracking-[0.2em] text-accent-bhu-saffron mb-4">The Team</p>
+        <h1 class="text-4xl sm:text-5xl lg:text-[4.5rem] font-bold mb-6 text-primary leading-[1.08] tracking-tight">
+            Contributors
+        </h1>
+        <p class="text-base md:text-lg text-secondary max-w-xl mb-12 leading-relaxed">
+            Meet the people who made BHU Exam Prep possible. Dedicated to providing quality resources to students.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 w-full text-left">
+            <!-- Aryan Maurya -->
+            <div onclick="window.location.href='https://me-aryan.vercel.app'" class="bento-card glass-panel rounded-2xl p-6 flex flex-col justify-between group hover:bg-white/60 transition-colors min-h-[200px] cursor-pointer active:scale-[0.99]">
+                <div class="flex justify-between items-start">
+                    <span class="material-symbols-outlined text-primary text-3xl">code</span>
+                    <span class="text-xs font-bold text-accent-neural-emerald bg-accent-neural-emerald/10 px-3 py-1 rounded-full border border-accent-neural-emerald/20">16,573 pt</span>
+                </div>
+                <div>
+                    <div class="inline-flex items-center gap-1.5 bg-accent-neural-emerald/10 text-accent-neural-emerald text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider mb-2">Developer</div>
+                    <h4 class="text-lg font-bold text-primary mb-1 leading-snug">Aryan Maurya</h4>
+                    <p class="text-xs text-secondary leading-relaxed">Creator & Maintainer of the website.</p>
+                </div>
+            </div>
+            
+            <!-- Qashan -->
+            <div onclick="window.location.href='https://quashan-me.vercel.app'" class="bento-card glass-panel rounded-2xl p-6 flex flex-col justify-between group hover:bg-white/60 transition-colors min-h-[200px] cursor-pointer active:scale-[0.99]">
+                <div class="flex justify-between items-start">
+                    <span class="material-symbols-outlined text-primary text-3xl">folder_open</span>
+                    <span class="text-xs font-bold text-accent-bhu-saffron bg-accent-bhu-saffron/10 px-3 py-1 rounded-full border border-accent-bhu-saffron/20">945 pt</span>
+                </div>
+                <div>
+                    <div class="inline-flex items-center gap-1.5 bg-accent-bhu-saffron/10 text-accent-bhu-saffron text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider mb-2">Resource Contributor</div>
+                    <h4 class="text-lg font-bold text-primary mb-1 leading-snug">Qashan</h4>
+                    <p class="text-xs text-secondary leading-relaxed">Contributes resources across all subjects.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Minor Contributors Section -->
+        <div class="w-full mt-10 md:mt-12 text-left">
+            <h3 class="text-xs font-bold text-secondary uppercase tracking-widest mb-6 border-b border-border-subtle pb-2">Minor Contributors</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full text-left">
+                <!-- Nitin Maurya -->
+                <div class="bento-card glass-panel rounded-2xl p-5 flex items-center justify-between group hover:bg-white/60 transition-colors">
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 rounded-full bg-accent-neural-purple/10 flex items-center justify-center flex-shrink-0 text-accent-neural-purple">
+                            <span class="material-symbols-outlined text-lg">volunteer_activism</span>
+                        </div>
+                        <div>
+                            <h4 class="text-sm font-bold text-primary leading-tight mb-0.5">Nitin Maurya</h4>
+                            <p class="text-[10px] text-secondary">Passive financial support</p>
+                        </div>
+                    </div>
+                    <span class="text-xs font-bold text-accent-neural-purple bg-accent-neural-purple/10 px-2.5 py-1 rounded-full border border-accent-neural-purple/20">100 pt</span>
+                </div>
+
+                <!-- Ayush Singh -->
+                <div class="bento-card glass-panel rounded-2xl p-5 flex items-center justify-between group hover:bg-white/60 transition-colors">
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 rounded-full bg-accent-neural-blue/10 flex items-center justify-center flex-shrink-0 text-accent-neural-blue">
+                            <span class="material-symbols-outlined text-lg">volunteer_activism</span>
+                        </div>
+                        <div>
+                            <h4 class="text-sm font-bold text-primary leading-tight mb-0.5">Ayush Singh</h4>
+                            <p class="text-[10px] text-secondary">Passive financial support</p>
+                        </div>
+                    </div>
+                    <span class="text-xs font-bold text-accent-neural-blue bg-accent-neural-blue/10 px-2.5 py-1 rounded-full border border-accent-neural-blue/20">100 pt</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="w-full py-10 bg-background-warm border-t border-border-subtle mt-auto">
+    <div class="max-w-container-max mx-auto px-6 md:px-padding-edge flex flex-col md:flex-row justify-between items-center gap-6">
+        <div class="flex items-center gap-3">
+            <img src="images/logo.png" alt="BHU Logo" class="h-7 w-auto opacity-60"/>
+            <div>
+                <div class="text-xs font-semibold tracking-wider text-primary uppercase">Banaras Hindu University</div>
+                <p class="text-xs text-secondary">© 2026 BHU Exam Prep. Prepared under academic guidance.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // Floating orbs mouse parallax
+    document.addEventListener('mousemove', (e) => {
+        const orbs = document.querySelectorAll('.neural-orb');
+        const mouseX = e.clientX / window.innerWidth;
+        const mouseY = e.clientY / window.innerHeight;
+        orbs.forEach((orb, index) => {
+            const speed = (index + 1) * 15;
+            const x = (mouseX - 0.5) * speed;
+            const y = (mouseY - 0.5) * speed;
+            orb.style.transform = `translate(${x}px, ${y}px)`;
+        });
+    });
+</script>
+</body>
+</html>

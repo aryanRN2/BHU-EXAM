@@ -205,7 +205,13 @@
 
 <script type="module">
     import { StateManager } from './js/state-manager.js?v=4';
-    import { EXAMS } from './js/exams-data.js?v=4';
+    import { EXAMS as RAW_EXAMS } from './js/exams-data.js?v=4';
+
+    // Shallow copy EXAMS to make it mutable
+    const EXAMS = {};
+    Object.keys(RAW_EXAMS).forEach(key => {
+        EXAMS[key] = { ...RAW_EXAMS[key] };
+    });
 
     const EXAM_PYQS = {
         "bobmj31": [
@@ -1401,8 +1407,70 @@
                         "description": "Official CHB-608 Atomicand Molecular Structure 2013-14 paper"
                 }
         ]
-};
-    ;;
+    };
+
+    // Merge redundant Major and Minor courses for Mathematics, Physics, and Chemistry
+    const titleToKeys = {};
+    Object.keys(EXAMS).forEach(key => {
+        const exam = EXAMS[key];
+        if (!exam.title) return;
+        const isTargetDept = key.startsWith('mat') || key.startsWith('phy') || key.startsWith('chem');
+        if (!isTargetDept) return;
+        
+        const normTitle = exam.title.toLowerCase().trim();
+        if (!titleToKeys[normTitle]) {
+            titleToKeys[normTitle] = [];
+        }
+        titleToKeys[normTitle].push(key);
+    });
+
+    Object.keys(titleToKeys).forEach(title => {
+        const keys = titleToKeys[title];
+        if (keys.length <= 1) return;
+        
+        // Sort keys: prefer major over minor, and shorter keys
+        keys.sort((a, b) => {
+            const aHasMj = a.includes('mj') ? 1 : 0;
+            const bHasMj = b.includes('mj') ? 1 : 0;
+            if (aHasMj !== bHasMj) return bHasMj - aHasMj;
+            return a.length - b.length;
+        });
+        
+        const primaryKey = keys[0];
+        const primaryExam = EXAMS[primaryKey];
+        
+        // Collect all unique modules
+        const modulesSet = new Set();
+        if (primaryExam.module) modulesSet.add(primaryExam.module);
+        
+        // Merge PYQs
+        let mergedPyqs = [];
+        const seenPyqFiles = new Set();
+        const addPyqsOfKey = (k) => {
+            const list = EXAM_PYQS[k] || [];
+            list.forEach(p => {
+                if (!seenPyqFiles.has(p.file)) {
+                    seenPyqFiles.add(p.file);
+                    mergedPyqs.push(p);
+                }
+            });
+        };
+        addPyqsOfKey(primaryKey);
+        
+        for (let i = 1; i < keys.length; i++) {
+            const secKey = keys[i];
+            const secExam = EXAMS[secKey];
+            
+            if (secExam.module) modulesSet.add(secExam.module);
+            addPyqsOfKey(secKey);
+            
+            // Delete from EXAMS so it is not rendered or searched
+            delete EXAMS[secKey];
+        }
+        
+        primaryExam.module = Array.from(modulesSet).join(' / ');
+        EXAM_PYQS[primaryKey] = mergedPyqs;
+    });
 
     // 1. Read Practice Mode Type from Query Parameter
     const params = new URLSearchParams(window.location.search);

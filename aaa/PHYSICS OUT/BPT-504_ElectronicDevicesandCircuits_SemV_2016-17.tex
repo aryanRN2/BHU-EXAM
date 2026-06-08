@@ -1,0 +1,114 @@
+% BHU PYQ -- Manually transcribed & error-corrected
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BPT-504: Electronic Devices and Circuits -- BHU PYQ},pdfauthor={Banaras Hindu University}}
+
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BPT-504: Electronic Devices and Circuits}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) Semester V Examination, 2016-17}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. BPT-504: Electronic Devices and Circuits}\\[4pt]
+  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer all questions. Symbols have their usual meanings.}
+\bigskip
+
+\noindent\textbf{Question 1.} Answer in brief any \textbf{five} of the following: \pts{5 $\times$ 4 = 20}
+\begin{parts}
+  \item What is the significance of the threshold voltage ($V_T$) in an enhancement mode MOSFET? How is its magnitude reduced during fabrication?
+  \item Show that negative feedback improves the stability of the voltage gain of an amplifier against parameter variations.
+  \item Why is a Unijunction Transistor (UJT) not used as an amplifier? Explain the condition under which it is used as a relaxation oscillator.
+  \item What is meant by Common Mode Rejection Ratio (CMRR) in the case of an OP-AMP? Why should its value be ideally infinite?
+  \item Write the Boolean expression represented by the Karnaugh map (K-map) shown below and simplify it:
+    \[
+    \begin{array}{c|c|c|c|c}
+      A \backslash BC & 00 & 01 & 11 & 10 \\ \hline
+      0 & 1 & 1 & 0 & 0 \\ \hline
+      1 & 0 & 1 & 1 & 0
+    \end{array}
+    \]
+  \item How is a Cathode Ray Oscilloscope (CRO) superior to ordinary measuring instruments? How does the Sync control help in obtaining a stationary pattern?
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 2.}
+\begin{parts}
+  \item With necessary theory and diagrams, explain the construction, working, and I-V characteristics of a Silicon Controlled Rectifier (SCR). Why can one not use germanium instead of silicon to construct a controlled rectifier? \pts{7}
+  \item Explain the condition under which a UJT exhibits negative resistance. \pts{3.5}
+  \item The firing voltage of a UJT is $15\,\text{V}$. It is connected to a series RC circuit to act as a relaxation oscillator with $R = 50\,\text{k}\Omega$ and $C = 2000\,\text{pF}$. If the source voltage is $40\,\text{V}$, determine the time period of the saw-tooth voltage across the capacitor $C$. \pts{3.5}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Refer to the basic common-base BJT amplifier configuration. The h-parameter values for the transistor are:
+    \[ h_{ib} = 40\,\Omega, \quad h_{rb} = 3 \times 10^{-4}, \quad h_{fb} = -0.99, \quad h_{ob} = 0.5\,\mu\text{mhos} \]
+    Determine: (i) the closed-loop current gain taking source resistance $R_s = 600\,\Omega$ and load resistance $R_L = 10\,\text{k}\Omega$ into account, and (ii) the input resistance. \pts{6}
+  \item Explain in brief the high-frequency hybrid-$\pi$ model of a CE transistor and discuss its advantages over the h-parameter model at high frequencies. \pts{8}
+\end{parts}
+\hfill \textbf{OR}
+\begin{parts}
+  \item What do you mean by power amplifiers? Give the circuit diagram of class A, class B, and class C power amplifiers. Show that the maximum efficiency of a class B push-pull amplifier is $78.5\%$. \pts{8}
+  \item What do you mean by non-linear distortion in a power amplifier circuit? Discuss a method to minimize such distortions. \pts{6}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 4.}
+\begin{parts}
+  \item What do you mean by the term Amplitude Modulation (AM)? Derive the expression for an amplitude-modulated wave and discuss its frequency spectrum. \pts{8}
+  \item Give the truth table of a full adder. Obtain the Boolean expressions for sum ($S$) and carry ($C_o$) from this table in SOP form. Simplify these expressions using a K-map and implement the circuit using basic logic gates. \pts{6}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 5.}
+\begin{parts}
+  \item What is meant by feedback in amplifiers? Differentiate between positive and negative feedback. Draw the circuit diagram of a current-series feedback amplifier and show that negative feedback increases the input resistance and output resistance of the amplifier. \pts{8}
+  \item How does the feedback network of a Hartley oscillator differ from the feedback network of a Colpitts oscillator? What will be the oscillator frequency in the two cases? \pts{6}
+\end{parts}
+\hfill \textbf{OR}
+\begin{parts}
+  \item Explain the difference among astable, monostable, and bistable multivibrators in terms of their stable states and applications. \pts{7}
+  \item Define the parameters relative amplification factor ($\mu$), drain resistance ($r_d$), and transconductance ($g_m$) in the case of a JFET amplifier, and establish the relationship among them. How is a JFET different from a bipolar junction transistor? \pts{7}
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

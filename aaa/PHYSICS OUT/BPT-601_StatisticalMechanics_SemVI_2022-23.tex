@@ -1,0 +1,106 @@
+% BHU PYQ -- Manually transcribed & error-corrected
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BPT-601: Statistical Mechanics -- BHU PYQ},pdfauthor={Banaras Hindu University}}
+
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BPT-601: Statistical Mechanics}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) Semester VI Examination, 2022-23}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. BPT-601: Statistical Mechanics}\\[4pt]
+  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer all questions. Symbols have their usual meanings.}
+\bigskip
+
+\noindent\textbf{Question 1.} Answer any \textbf{four} of the following questions: \pts{4 $\times$ 5 = 20}
+\begin{parts}
+  \item What is the ergodic hypothesis? Explain with the help of an example of a physical system.
+  \item A coin is tossed 100 times. Find the probability of obtaining 50 heads. Compute the root-mean-square deviation. Explain the result. Justify any approximations used in the calculation.
+  \item Estimate the room temperature specific heat of one gram of solid copper. Justify your result.
+  \item Explain the meaning of the term 'Phase space'. Find the available phase space of a classical free particle, moving in a one-dimensional space between $x = -L$ and $x = +L$, and with energy between $E$ and $E + \Delta$ ($\Delta \ll E$). What are the dimensions of this phase space volume?
+  \item Oxygen is a paramagnetic gas obeying Langevin's theory of paramagnetism. Its susceptibility per unit volume, at $293\,\text{K}$ and at atmospheric pressure, is $1.80 \times 10^{-4}$ MKS units. Determine its molecular magnetic moment and express it in Bohr magneton units ($\mu_B = 9.27 \times 10^{-24}\,\text{A}\cdot\text{m}^2$).
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 2.}
+\begin{parts}
+  \item Two random walkers start out together at the origin, each having the same probability of making a step to the left or to the right along the $x$-axis. Assuming that they make their steps simultaneously, find: (i) the probability that they meet again after $N$ steps, and (ii) the probability that they do not meet after $N$ steps. \pts{5.5}
+  \item State and explain Liouville’s theorem (no proof or derivation is necessary). Verify this theorem for the density function $\rho(q, p) = C \exp(-H(q, p)/kT)$, where $C$ is a constant and $H$ is the Hamiltonian of a system of $N$ independent classical harmonic oscillators. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Consider a two-level system of $N$ classical free particles in which the allowed energies of the particles are $0$ and $\epsilon$ ($\epsilon > 0$). Let $n_0$ and $n_1$ be the number of particles in the states with energies $0$ and $\epsilon$, respectively. Let the total energy of the system be $U$.
+    \begin{parts}
+      \item Derive an expression for the entropy of the system.
+      \item Find the temperature as a function of $U$ and make a neat sketch of the variation of $U$ as a function of $T$.
+      \item Find an expression for its specific heat. Make a neat sketch of its temperature variation.
+    \end{parts} \pts{12.5}
+\end{parts}
+\hfill \textbf{OR}
+\begin{parts}
+  \item Derive the canonical partition function of an extreme relativistic gas consisting of $N$ particles. (Write down the energy-momentum relationship by neglecting the mass-energy of the particles). Derive a relationship between its pressure and its energy density. Find its entropy, and the $C_p/C_v$ ratio. \pts{12.5}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 4.}
+\begin{parts}
+  \item The density of solid copper is $8.96\,\text{g/cm}^3$. The atomic weight of copper is 63.55. Assume one conduction electron per Cu atom. Explain why the conduction electrons can be treated as a degenerate Fermi gas. Find the Fermi energy (in $\text{eV}$) of the conduction electron gas in Cu. Calculate the corresponding Fermi temperature (in Kelvin). Find the average energy per electron at zero temperature. \pts{8}
+  \item Why is the electronic specific heat of conduction electrons in copper at room temperature about $1\%$ of the value expected from the equipartition law? Explain by a rough estimation. \pts{4.5}
+\end{parts}
+\hfill \textbf{OR}
+\begin{parts}
+  \item Write down the Fermi-Dirac and Bose-Einstein distribution functions, and explain the terms in those functions. Show that they reduce to the Maxwell-Boltzmann distribution in the classical limit. Show that in the classical limit of those quantum distribution functions, the Gibbs’ paradox is automatically resolved. \pts{7}
+  \item Starting from the expression of the partition function, obtain the quantum statistical distribution function for a photon gas. Explain why the chemical potential is zero in this case. \pts{5.5}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Consider a system of two localized and independent quantum harmonic oscillators of angular frequencies $\omega$ and $3\omega$. Find the number of microstates when they share a total energy: (i) $10\,\hbar\omega$, and (ii) $12\,\hbar\omega$. \pts{6}
+  \item A sample of a long-lived radionuclide gives 939 counts in 3 minutes. What is the probability that exactly 26 counts would be observed in 5 seconds? Justify any approximations that you use in the calculation. \pts{6.5}
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

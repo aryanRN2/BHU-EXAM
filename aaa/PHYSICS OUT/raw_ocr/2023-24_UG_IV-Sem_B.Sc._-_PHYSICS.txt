@@ -1,0 +1,404 @@
+--- Page 1 ---
+Total No. of Questions : 5]. [Total No. of Printed Pages : 6
+
+MO Gs ica ae
+
+REF NO. 076671
+
+B. Sc. (Hons) Semester IV Examination
+2023-24
+
+PHYSICS
+
+Paper No. BPT-401 : Electronics and Modern
+Physics
+
+Time : 3 hours Full Marks : 70
+
+(Write your Roll No. at the top immediately
+on the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+
+Answer all questions -
+
+1. Answer in brief any five of the following
+questions : 5x4.
+
+(a) Show that r"r is an irrotational
+vector for any value of n, but is
+solenoidal only if n=-3 (r is the
+position vector of a point).
+
+(b) Consider a _ cylindrically shaped
+section of silicon having length
+1 mm and cross-sectional area
+0-1 mm?. Calculate its conductivity
+
+D24(135)—1500 (Turn Over)
+
+
+--- Page 2 ---
+(2)
+
+and resistance when (i) it is purely
+intrinsic material and (ii) it has free
+electron density 8 x10'° cm” *. Take
+the intrinsic carrier density
+
+n; =1-5x10'°cm"?, mobility
+constants Hn =1500 cm?/V s and
+p = 900 cm 21V s.
+
+(c) a transistors in common-emitter
+configuration are preferred over
+other configurations in amplifier |
+circuits? Explain.
+
+(d) Describe the three electric vectors
+
+> 3 >
+E, P and D. Find the relation among
+them.
+
+(e) An electron has de _ Broglie
+wavelength 0-02 A. Find the kinetic
+energy, phase velocity and group
+velocity. (Given rest mass energy of
+electron =511 KeV).
+
+(f) Draw the circuit diagram to obtain
+the below-mentioned clipping
+signal for a given input sinusoidal
+signal through (i) a series diode
+clipping circuit and (ii) a shunt
+diode slipping circuit :
+
+D24(135) (Continued)
+
+
+--- Page 3 ---
+(3)
+
+(g) Electrons are accelerated by 344 V
+and are reflected by a crystal. If the
+first maximum is observed at 60°,
+calculate the inter-planer spacing
+of the crystal. (h = 6-62 x10° ** J-s)
+
+2. (a) Describe the electric fields in the
+spherical cavity of a dielectric.
+Derive the expression of the
+molecular field inside the spherical
+cavity and find the relation for
+dielectric constant in terms of the
+polarizibility. Give the Lorentz-
+Lorenz equation also. 8
+
+(b) If a dielectric is introduced between
+the plates of a parallel plate
+capacitor, show that the induced
+charge varies with dielectric
+constant as
+
+o’\
+k=(1-<]
+o
+
+Also, show that k > o for a metal
+
+dielectric. Here k,o and o’ are the
+
+dielectric constant, free charge and
+
+induced charge, respectively. 4%
+Or.
+
+(b) Distinguish among the electronic,
+ionic and  .__ orientational
+polarizability. 4%
+
+D24(135)—1500 - (Turn Over)
+
+
+--- Page 4 ---
+(4)
+
+3. (a) If the barrier potential across a p-n
+junction diode in terms of donor
+and acceptor impurities is given as
+
+. De
+
+where all the symbols have their
+usual meanings then show that the
+width of depletion region decreases
+with increase of these impurities. v4
+
+(b) Explain the working of a central tap
+full-wave rectifier. How its output
+can be smoothened? Explain with a
+
+necessary circuit. Si
+
+Or
+
+(b) What is Zener diode? Explain the
+working of the Zener diode as
+voltage regulator. : 5%
+
+4. (a) Describe the photoelectric effect.
+Give an account of Einstein’s
+explanation of photoelectric effect.
+The photoelectric threshold for a
+
+- metal is 3000 A. Find the kinetic
+energy of electron ejected from it by
+radiation of wavelength 1200 A. 6%
+
+D24(135) (Continued)
+
+
+
+--- Page 5 ---
+(5)
+
+(b) ‘What is Compton effect? Obtain an
+expression for the shift in
+wavelength of X-ray beam. 6
+
+5. (a) Draw the circuit diagram to study
+the output characteristic of a P-N-P
+transistor in a common-emitter
+mode. Explain the transistor
+operation in saturation, active and
+cut-off regions. 4%
+
+(b) What do you understand by bias
+stabilization in transistor circuits?
+Derive the expression for stability
+factor in terms of current gain f for
+a CE amplifier. 4
+
+(c) What is load line? How can one
+determine the -quiescent point
+(Q-point) using load line in a CE
+amplifier? Why is it preferable to
+choose the operating point in the
+middle of the active region? Justify
+your answer. 4
+
+Or
+
+(a) Compute the value of R, in the
+biasing circuit given below so that
+the Q-point is fixed at J, =8 mA
+
+D24(135) (Turn Over)
+
+eee eee
+
+
+
+--- Page 6 ---
+(6)
+
+and Vo, =3 V. Assume Vgp, =0-3 V
+and fp =80: 3
+-Voo -9V
+
+Rp 2502
+
+500 2 100 pF
+
+(b) Derive the Langevin-Debye
+equation for total polarizability of a
+dielectric. 4%
+
+(c) What is Gauss divergence theorem?
+' Verify divergence theorem for the
+vector V=x7i+y?j+z’k taken
+
+over the cube O< x% y,2<1. 5
+
+kkk
+
+| D24(135)—1500 © REF NO. 076671
+
+8
+’
+
+|
+
+
+--- Page 7 ---
+Total No. of Questions : 5] | [Total No. of Printed Pages : 4
+
+FOE INO’ ois. oscepecsctncdees
+
+REF NO. 076685
+
+B. Sc. (Hons) Semester IV Examination
+2023-24
+
+PHYSICS
+Paper No. BSC-07A : Ancillary Physics-II _
+: Time : 3 hours Full Marks : 70
+
+(Write your Roll No. at the top immediately
+on the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+Answer all questions
+1. Answer any five of the following
+questions : 5x4
+
+(a) Define the interference and
+diffraction of _— with a suitable
+diagram.
+
+(b) On which law of thermodynamics, a
+‘thermometer’ is based on? Explain
+your answer.
+
+(c) Discuss the _ polarization by
+reflection with a suitable diagram.
+
+D24(95)—300 (Turn Over)
+
+;
+
+a a er
+
+
+
+--- Page 8 ---
+(d)
+
+(e)
+
+(9)
+
+(b)
+
+(2)
+
+How do you measure specific heat
+capacity? Why does sand heat up
+faster than water on the beaches?
+
+Explain one biological process that
+uses any law of thermodynamics.
+
+Define the entropy of a system. In ©
+
+which thermodynamic process, the
+entropy does not change and why?
+
+Write the expression for the focal
+length and power for a thick lens of
+thickness t and _ radius. of
+curvatures R, and R,.
+
+Consider a bacterium has a mass
+10°'? gm. Find the mass of one
+mole of bacteria in the units of
+elephant-masses (elephants have a
+mass ~ 6000 kg).
+
+Derive ideal gas equation by using
+the empirical laws for gases. State
+
+one application of the ideal gas
+
+(a)
+
+D24(95)
+
+equation.
+Or
+
+Explain the diffraction pattern due
+to the straight edge with a suitable
+diagram and write the expression
+for the maximum and minimum
+intensity.
+
+6
+
+(Continued)
+
+
+
+--- Page 9 ---
+(3)
+
+(b) Define polarization with a suitable
+diagram and discuss the difference
+between longitudinal and
+transverse waves. 6
+
+3. (a) Discuss the difference between a
+telescope and a microscope and
+their applications. 4
+
+(b) What is refractive index of a
+medium? The absolute refractive
+indices of glass and water are 4 and
+3, respectively. If the speed of light
+in glass is 2x10° m/s, calculate the
+speed of light in air and water. 5
+
+(c) Define Fresnel and Fraunhofer
+diffraction with suitable diagrams. 5
+
+4. (a) Explain Carnot’s cycle using a
+schematic diagram. A Carnot
+engine operates between’ the
+reservoir temperatures 800 K and
+300 K. Calculate the percentage
+efficiency of the engine. ¢
+
+(b) What is Brownian motion? Prove |
+that the heavier molecules do
+slower Brownian motion. 5
+
+D24(95) _ (Turn Over)
+
+
+--- Page 10 ---
+(4)
+
+5. (a) Helmholtz energy is given by
+F=U-TS, where U is _ internal
+energy, T is temperature and S is
+entropy. Deduce the expression for
+entropy and pressure as negative
+rate of change of Helmholtz
+function at fixed volume and
+temperature, respectively. 6
+
+(b) State the first law of
+thermodynamics. Apply it to the
+ideal gas expansion and comment
+on the result. 6
+
+Or
+
+(a) Show that when an unpolarized
+light passes through a polarizer,
+the intensity of the transmitted
+light will be exactly half that of the
+incident light. 6
+
+(b) What is diffraction grating? If the
+size of the slit is b and the
+separation between the two slits is
+a, write the expression for
+maximum intensity and draw the
+intensity pattern. 6
+
+kkk
+
+D24(95)—300 | REF NO. 076685
+

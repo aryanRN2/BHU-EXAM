@@ -58,14 +58,14 @@
         <div class="text-center mb-12">
             <span class="bg-accent-neural-emerald/15 text-accent-neural-emerald px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">Science Division</span>
             <h1 class="text-3xl md:text-5xl font-bold text-primary tracking-tight mt-4">Select Department</h1>
-            <p class="text-sm md:text-base text-secondary max-w-xl mt-3 leading-relaxed">Pick a science department below to view its transcribed past year exam papers in raw LaTeX format.</p>
+            <p class="text-sm md:text-base text-secondary max-w-xl mt-3 leading-relaxed">Pick a science department below to view its past year exam papers in compiled PDF format.</p>
         </div>
 
         <!-- Department Grid -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl w-full">
             
             <!-- Mathematics -->
-            <button onclick="showComingSoonModal('Mathematics')" class="p-5 md:p-6 rounded-xl border border-border-subtle bg-white/60 backdrop-blur-md hover:border-accent-bhu-saffron hover:bg-white transition-all duration-300 text-left flex items-center gap-5 group shadow-sm hover:shadow-md hover:scale-[1.01] active:scale-[0.99]">
+            <button onclick="window.location.href='nep-papers.html?dept=maths'" class="p-5 md:p-6 rounded-xl border border-border-subtle bg-white/60 backdrop-blur-md hover:border-accent-bhu-saffron hover:bg-white transition-all duration-300 text-left flex items-center gap-5 group shadow-sm hover:shadow-md hover:scale-[1.01] active:scale-[0.99]">
                 <div class="w-12 h-12 rounded-lg bg-accent-bhu-saffron/10 flex items-center justify-center text-accent-bhu-saffron group-hover:bg-accent-bhu-saffron group-hover:text-white transition-all duration-300 shrink-0">
                     <span class="material-symbols-outlined text-2xl">calculate</span>
                 </div>
@@ -198,8 +198,8 @@
                     <span class="material-symbols-outlined text-3xl">upload_file</span>
                 </div>
                 <h3 class="text-xl font-bold text-primary" id="modalDeptTitle">Department</h3>
-                <p class="text-xs text-secondary mt-2 max-w-sm">The LaTeX transcription for this department is active on the upload queue. Provide the raw LaTeX sources or OCR datasets, and it will be populated immediately.</p>
-                <button onclick="closeComingSoonModal()" class="mt-6 bg-primary text-on-primary text-xs font-bold px-6 py-2.5 rounded-full hover:bg-neutral-800 active:scale-95 transition-all">
+                <p class="text-xs text-secondary mt-2 max-w-sm">This department's archive is active on the upload queue. New papers will be populated immediately upon review.</p>
+                <button onclick="closeComingSoonModal()" class="mt-6 bg-primary text-white text-xs font-bold px-6 py-2.5 rounded-full hover:bg-neutral-800 active:scale-95 transition-all">
                     Acknowledge
                 </button>
             </div>
@@ -219,7 +219,7 @@
 
 <script>
     function showComingSoonModal(deptName) {
-        document.getElementById('modalDeptTitle').textContent = deptName + " LaTeX Archive";
+        document.getElementById('modalDeptTitle').textContent = deptName + " Archive";
         const modal = document.getElementById('comingSoonModal');
         modal.classList.remove('hidden');
         modal.classList.add('flex');

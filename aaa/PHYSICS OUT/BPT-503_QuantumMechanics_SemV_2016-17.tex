@@ -1,0 +1,129 @@
+% BHU PYQ -- Manually transcribed & error-corrected
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BPT-503: Quantum Mechanics -- BHU PYQ},pdfauthor={Banaras Hindu University}}
+
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BPT-503: Quantum Mechanics}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) Semester V Examination, 2016-17}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. BPT-503: Quantum Mechanics}\\[4pt]
+  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer all questions. Symbols have their usual meanings.}
+\bigskip
+
+\noindent\textbf{Question 1.} Answer any \textbf{four} of the following: \pts{4 $\times$ 4 = 16}
+\begin{parts}
+  \item An X-ray photon of wavelength $1.01\,\text{\AA}$ is scattered off a stationary electron at ninety degrees to the direction of incidence. Find the wavelength of the scattered photon and the recoil angle of the electron.
+  \item Given four operators $A$, $B$, $C$, and $D$, find which of these fulfill the condition of being a linear operator. Given:
+    \[ Af(x) = f(x) + b; \quad Bg(x) = [g(x)]^2; \quad Ch(x) = c h(x); \quad Dy(x) = \frac{dy(x)}{dx} \]
+    where $f(x), g(x), h(x), y(x)$ are functions and $b, c$ are constants.
+  \item Find the result of the following commutator brackets:
+    \begin{parts}
+      \item $[L^2, L_x]$
+      \item $[x, L_y]$
+    \end{parts}
+  \item What do you understand by the momentum operator? Does it commute with the Hamiltonian operator for a free particle? Explain briefly.
+  \item Find the de Broglie wavelength of: (i) a proton of kinetic energy $1\,\text{MeV}$, and (ii) an electron of kinetic energy $1\,\text{MeV}$.
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 2.}
+\begin{parts}
+  \item A particle of energy $E$ is incident on a rectangular potential barrier of width $a$ and height $U$:
+    \[ V(x) = \begin{cases} U, & 0 < x < a \\ 0, & x < 0 \text{ and } x > a \end{cases} \]
+    If the energy $E < U$, solve the Schr\"{o}dinger equation with appropriate boundary conditions to get the reflection coefficient $R$ and transmission coefficient $T$. \pts{7.5}
+  \item How do you explain the presence of the particle in the classically forbidden region? Give two examples from physics where you can observe this tunneling phenomenon. \pts{6.5}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 3.}
+\begin{parts}
+  \item The potential energy function of a linear harmonic oscillator (LHO) is $V(x) = \frac{1}{2} k x^2$. Is this a problem where defining the parity operator is useful? Prove that the eigenvalues of the parity operator are good quantum numbers. \pts{4}
+  \item Find the ground state wave function for the LHO by using the lowering operator $a_-$:
+    \[ a_- = \frac{1}{\sqrt{2\hbar m\omega}} (m\omega x + ip) \]
+    Normalize the wave function obtained. \pts{6}
+  \item Find the expectation value of the position operator $x$ for the ground state. \pts{4}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Write the time-independent Schr\"{o}dinger equation for the Hydrogen atom in spherical polar coordinates and carry out the separation of variables. Solve the radial equation and find the expression for the energy eigenvalues. Explain the significance of the quantum numbers $n$, $l$, and $m$. \pts{10.5}
+  \item Normalize the ground state wave function for the Hydrogen atom:
+    \[ \psi(r, \theta, \phi) = N e^{-r/a} \]
+    where $a$ is the Bohr radius. \pts{3.5}
+\end{parts}
+\hfill \textbf{OR}
+\begin{parts}
+  \item Given the amplitude function in $k$-space:
+    \[ A(k) = \begin{cases} A_0, & -K < k < K \\ 0, & \text{otherwise} \end{cases} \]
+    where $A_0$ is a constant. Find the Fourier transform of $A(k)$ defined as:
+    \[ \psi(x) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} e^{ikx} A(k) \, dk \]
+    Sketch the wavepacket $\psi(x)$ so obtained. If $\Delta k$ is the width of $A(k)$ and $\Delta x$ is the width of the wavepacket, then find and interpret the product $\Delta k \Delta x$. \pts{7}
+  \item What do you understand by commutativity and compatibility of operators? Explain briefly. \pts{2}
+  \item Derive the uncertainty relation between two non-commuting operators $A$ and $B$. Deduce the minimum uncertainty product. \pts{5}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 5.}
+\begin{parts}
+  \item What do you understand by wave-particle duality of matter? Name two experiments that illustrate this duality. \pts{3}
+  \item Describe the experiment first performed by Davisson and Germer to show electron diffraction. \pts{5}
+  \item If an electron is perfectly confined to move in a 1D box of length $L$ (potential $V(x) = 0$ for $0 < x < L$, and $V(x) = \infty$ otherwise), find the set of possible energy values the electron may have. Also find the ground state and first excited state wave functions for the electron in the box. Normalize these wave functions. \pts{6}
+  \item Given $L = 1\,\text{\AA}$, find the lowest possible energy the electron might have in eV units. \pts{2}
+\end{parts}
+\hfill \textbf{OR}
+\begin{parts}
+  \item Use the angular momentum ladder operators $L_+$ and $L_-$ and the commutation relations to find the eigenvalues of the operators $L^2$ and $L_z$. \pts{7}
+  \item Given the normalized wave function for the $1s$ state of the Hydrogen atom:
+    \[ \psi_{100}(r) = \frac{1}{\sqrt{\pi a^3}} e^{-r/a} \]
+    where $a$ is the Bohr radius, find:
+    \begin{parts}
+      \item the most probable distance of the electron from the origin. \pts{3.5}
+      \item the expectation value of the operator $r$. \pts{3.5}
+    \end{parts}
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

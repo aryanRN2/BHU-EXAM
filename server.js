@@ -32,7 +32,8 @@ const mimeTypes = {
     '.jpg': 'image/jpeg',
     '.svg': 'image/svg+xml',
     '.json': 'application/json',
-    '.ico': 'image/x-icon'
+    '.ico': 'image/x-icon',
+    '.pdf': 'application/pdf'
 };
 
 const server = http.createServer(async (req, res) => {
@@ -121,7 +122,13 @@ const server = http.createServer(async (req, res) => {
     }
 
     // 4. Serve static files
-    let filePath = path.join(__dirname, parsedUrl.pathname === '/' ? 'index.html' : parsedUrl.pathname);
+    let decodedPathname;
+    try {
+        decodedPathname = decodeURIComponent(parsedUrl.pathname);
+    } catch (e) {
+        decodedPathname = parsedUrl.pathname;
+    }
+    let filePath = path.join(__dirname, decodedPathname === '/' ? 'index.html' : decodedPathname);
     
     // Safety check to prevent directory traversal
     if (!filePath.startsWith(__dirname)) {

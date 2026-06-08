@@ -1,0 +1,110 @@
+% BHU PYQ -- Manually transcribed
+% Paper: MTB-301 : Algebra
+% Exam: B.Sc. (Hons.) Semester III Examination, 2016-17
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip,array,booktabs}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={MTB-301 Algebra -- BHU B.Sc. Sem III 2016-17}}
+
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{MTB-301: Algebra}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc.\ (Hons.) --- Semester III Examination, 2016-17}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No.\ MTB-301: Algebra \textnormal{(New Course)}}\\[4pt]
+  {\normalsize Time: 3 Hours \hfill Maximum Marks: 70}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer \textbf{five} questions including Question~1 which is compulsory. Figures in right-hand margin indicate marks.}
+\bigskip
+
+\noindent\textbf{Question 1.} \textit{(Compulsory --- 2 marks each.)}
+\begin{parts}
+  \item If $A$ and $B$ are square matrices of the same order, show that $(B^*AB)$ is Hermitian or Skew-Hermitian according as $A$ is Hermitian or Skew-Hermitian.
+  \item Define rank of a matrix. What is the rank of a $4\times4$ singular matrix?
+  \item Let $G$ be a group and let $a\in G$. Show that $o(a)=o(a^{-1})$.
+  \item State Lagrange's theorem for finite groups.
+  \item Show that in a group $G$, if $(ab)^2=a^2b^2$ for all $a,b\in G$, then $G$ is abelian.
+  \item Show that every group of prime order is cyclic.
+  \item Show that a subgroup of index 2 is a normal subgroup.
+  \item Let $G=\langle a\rangle$ be cyclic of order 13. Find the inverses of $a^5$ and $a^9$ and the orders of all four elements.
+  \item Find a regular permutation group isomorphic to $G=\{e,a,a^2,a^3\}$.
+  \item Let $H,K\leq G$ with $|H|=14$, $|K|=21$, and $H\cap K\neq\{e\}$. Show $H\cap K\trianglelefteq H$.
+  \item Show that a bijection $f:G\to G'$ that preserves the operation is an isomorphism.
+\end{parts}
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 2.}
+\begin{parts}
+  \item Show that every square matrix can be expressed uniquely as $P+Q$ where $P$ is Hermitian and $Q$ is Skew-Hermitian.\pts{6}
+  \item Show that a square matrix $A$ is invertible if and only if $|A|\neq0$. Further show that if $A,B$ are non-singular of the same order then $(AB)^{-1}=B^{-1}A^{-1}$.\pts{6}
+\end{parts}
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Reduce the matrix to Echelon form and find its rank:\pts{6}
+
+    \leavevmode\[
+      A = \begin{pmatrix} 2 & -2 & 0 & 6 \\ 4 & 2 & 0 & 2 \\ 1 & 2 & 0 & 3 \\ 1 & -2 & 1 & 2 \end{pmatrix}.
+    \]
+  \item Discuss for all values of $\lambda$ the system $x+y+4z=6$, $x+2y-2z=6$, $\lambda x+y+z=6$ as regards existence and nature of solutions.\pts{6}
+\end{parts}
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Prove that a semigroup $(G,*)$ is a group if and only if the equations $ax=b$ and $ya=b$ have solutions in $G$.\pts{6}
+  \item Prove that a group with four or fewer elements is necessarily abelian. What can you say about groups of orders 5 and 6?\pts{6}
+\end{parts}
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Define the order of an element of a group.
+    \begin{parts}
+      \item Let $G$ be a finite abelian group. Show that $o(ab)$ divides $\mathrm{lcm}(o(a),o(b))$.
+      \item If $a\in G$ has order $n$, show $a^m=e$ if and only if $n\mid m$.
+    \end{parts}\pts{6}
+  \item Let $f:G\to G'$ be a group homomorphism. Show $f$ is injective if and only if $\ker f=\{e\}$.\pts{6}
+\end{parts}
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 6.}
+\begin{parts}
+  \item Define even and odd permutations. Of the $n!$ permutations on $n$ symbols, show $\tfrac{n!}{2}$ are even and $\tfrac{n!}{2}$ are odd.\pts{6}
+  \item Show that the order of a cyclic group equals the order of its generator. Find the number of generators of $U(16)$.\pts{6}
+\end{parts}
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 7.}
+\begin{parts}
+  \item Prove that $H\trianglelefteq G$ if and only if the product of two right cosets of $H$ in $G$ is again a right coset.\pts{6}
+  \item State and prove the Fundamental Theorem of Homomorphism for groups.\pts{6}
+\end{parts}
+
+\vfill\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+\end{document}

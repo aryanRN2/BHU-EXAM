@@ -1,0 +1,118 @@
+% BHU PYQ -- Manually transcribed & error-corrected
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BPT-501: Mathematical Physics -- BHU PYQ},pdfauthor={Banaras Hindu University}}
+
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BPT-501: Mathematical Physics}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) Semester V Examination, 2016-17}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. BPT-501: Mathematical Physics}\\[4pt]
+  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer all questions. Symbols have their usual meanings.}
+\bigskip
+
+\noindent\textbf{Question 1.} Answer any \textbf{five} of the following: \pts{5 $\times$ 4 = 20}
+\begin{parts}
+  \item Find the magnetic induction $\vec{B}$ (in spherical polar coordinates), given the magnetic vector potential $\vec{A} = \frac{\vec{m} \times \vec{r}}{r^3} = \frac{m \sin\theta}{r^2} \hat{\phi}$, where $\vec{m} = m \hat{z}$ is a vector of constant magnitude pointing in the $z$-direction.
+  \item What are covariant and contravariant vectors? Explain each with a physical example.
+  \item If $A$ is a nonsingular symmetric matrix, show that $A^2$ is also symmetric.
+  \item Evaluate $\nabla^2 (1/r)$. What happens at the origin? Explain.
+  \item Find the Fourier series of the function $f(x) = \sin^2(x)$ in the interval $-\pi \le x \le \pi$.
+  \item Normalize the Laguerre polynomial $L_2(x) = 1 - 2x + \frac{x^2}{2}$ in the range $[0, \infty)$ with weight function $e^{-x}$. Construct a second-order, ordinary, linear, homogeneous differential equation (2-ODE) that is satisfied by this polynomial.
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 2.}
+\begin{parts}
+  \item Verify the following tensor relations in $\mathbb{R}^3$ using Levi-Civita symbols and Kronecker deltas:
+    \begin{parts}
+      \item $\epsilon_{ipq} \epsilon_{ipq} = 6$
+      \item $\epsilon_{ijk} \epsilon_{pqk} = \delta_{ip} \delta_{jq} - \delta_{iq} \delta_{jp}$
+    \end{parts} \pts{6}
+  \item Write down the spherical polar unit vectors in terms of Cartesian unit vectors. Using these, calculate the partial derivatives of $\hat{r}, \hat{\theta}, \hat{\phi}$ with respect to $r, \theta, \phi$. \pts{8}
+\end{parts}
+\hfill \textbf{OR}
+\begin{parts}
+  \item Determine the circular cylindrical coordinate components of velocity and acceleration of a moving particle with position vector $\vec{r}(t)$. \pts{8}
+  \item Given a vector in spherical polar coordinates:
+    \[ \vec{F} = \frac{2P \cos\theta}{r^3} \hat{r} + \frac{P \sin\theta}{r^3} \hat{\theta} \]
+    express it in Cartesian coordinates. If $\vec{F}$ represents a force field, does a potential function exist? If so, find it. Describe a physical system where this field arises. \pts{6}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Given that $J_{1/2}(x) = \sqrt{\frac{2}{\pi x}} \sin x$ is one solution of the Bessel equation of order $1/2$, find a second linearly independent solution (up to a constant multiplier). \pts{6}
+  \item Given the generating function $g(x, t) = e^{2xt - t^2} = \sum_{n=0}^{\infty} \frac{H_n(x)}{n!} t^n$ for Hermite polynomials, show that:
+    \[ \int_{-\infty}^{\infty} e^{-x^2} [H_n(x)]^2 \, dx = 2^n n! \sqrt{\pi} \] \pts{8}
+\end{parts}
+\hfill \textbf{OR}
+\begin{parts}
+  \item Using the generating function $g(x,t) = (1-2xt+t^2)^{-1/2} = \sum_{n=0}^{\infty} P_n(x)t^n$, $(|t| < 1)$ for Legendre polynomials, show that:
+    \[ P'_{n+1}(x) - P'_{n-1}(x) = (2n+1)P_n(x) \]
+    where the prime symbol $'$ denotes the derivative with respect to $x$. \pts{6}
+  \item Solve Legendre's differential equation $(1-x^2)y'' - 2xy' + n(n+1)y = 0$ using the Frobenius series method about the ordinary point $x=0$. Show that when $n$ is an integer, one of the solutions terminates to form a polynomial. \pts{8}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 4.}
+\begin{parts}
+  \item By expressing the vector cross products in terms of the Levi-Civita symbols ($\epsilon_{ijk}$), verify the vector identity:
+    \[ (\vec{A} \times \vec{B}) \cdot (\vec{C} \times \vec{D}) = (\vec{A} \cdot \vec{C})(\vec{B} \cdot \vec{D}) - (\vec{A} \cdot \vec{D})(\vec{B} \cdot \vec{C}) \] \pts{6}
+  \item Find the eigenvalues and normalized eigenvectors of the matrix $A$:
+    \[ A = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & -\sqrt{2} \\ 0 & -\sqrt{2} & 0 \end{pmatrix} \]
+    How are these related to the eigenvalues and eigenvectors of $A^{-1}$? \pts{8}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Sketch a periodic square wave function $f(x)$ with period $T=2$ and amplitude $A=1$ which is also an even function (such that $f(x) = 1$ for $-0.5 < x < 0.5$, and $f(x) = 0$ for $0.5 < |x| < 1.0$). Find the Fourier series for this periodic function. \pts{8}
+  \item The transformation relation between the unit vectors in circular cylindrical coordinates and Cartesian coordinates can be written as:
+    \[ \begin{pmatrix} \hat{\rho} \\ \hat{\phi} \\ \hat{z} \end{pmatrix} = C \begin{pmatrix} \hat{i} \\ \hat{j} \\ \hat{k} \end{pmatrix} \]
+    Write down the matrix $C$ explicitly and prove that it is orthogonal. \pts{6}
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

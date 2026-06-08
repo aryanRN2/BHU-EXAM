@@ -1,0 +1,111 @@
+% BHU PYQ -- Manually transcribed & error-corrected
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BPT-504: Electronic Devices and Circuits -- BHU PYQ},pdfauthor={Banaras Hindu University}}
+
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BPT-504: Electronic Devices and Circuits}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) Semester V Examination, 2022-23}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. BPT-504: Electronic Devices and Circuits}\\[4pt]
+  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer all questions. Symbols have their usual meanings.}
+\bigskip
+
+\noindent\textbf{Question 1.} Answer any \textbf{four} of the following: \pts{4 $\times$ 5 = 20}
+\begin{parts}
+  \item What is the significance of the threshold voltage ($V_T$) in an enhancement mode MOSFET? How is its magnitude reduced?
+  \item Differentiate among class A, class B, and class C power amplifiers based on their conduction angles and maximum theoretical efficiencies.
+  \item How does the tank circuit of an oscillator produce a phase shift of $180^\circ$? Explain with the help of a phasor diagram of the L-C circuit.
+  \item Draw the circuit diagram of a single-tuned BJT voltage amplifier. How can the quality factor ($Q$) and bandwidth be enhanced using a double-tuned voltage amplifier?
+  \item Discuss the power distribution in amplitude-modulated (AM) waves. For a modulation index of $m = 1$ ($100\%$ modulation), prove that the total sideband power is half of the carrier power.
+  \item Draw the Karnaugh map (K-map) for the Boolean expression $f(A, B, C, D) = ABC + D$.
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 2.}
+\begin{parts}
+  \item Explain the construction and working of an n-channel JFET and draw its drain and mutual characteristic curves. Define the parameters relative amplification factor ($\mu$), drain resistance ($r_d$), and transconductance ($g_m$), and establish the relationship among them. \pts{8}
+  \item Draw the circuit diagram of a non-inverting OP-AMP amplifier. What is the slew rate? How does it limit the high-frequency operation of an OP-AMP? \pts{6}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Draw the circuit diagram of a common-emitter (CE) BJT amplifier using RC coupling. Derive the expressions to show that the voltage gain of this amplifier decreases at the low-frequency range due to coupling capacitors. \pts{8}
+  \item Refer to the basic common-base BJT amplifier configuration. The h-parameter values for the transistor are:
+    \[ h_{ib} = 40\,\Omega, \quad h_{rb} = 3 \times 10^{-4}, \quad h_{fb} = -0.99, \quad h_{ob} = 0.5\,\mu\text{mhos} \]
+    Determine: (i) the current gain taking source resistance $R_s = 600\,\Omega$ and load resistance $R_L = 10\,\text{k}\Omega$ into account, and (ii) the input resistance. \pts{6}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Draw the basic RC phase shift oscillator circuit and explain its working. As per the Barkhausen criterion, what should be the amplifier gain for sustained oscillations? What will be the frequency of oscillation? \pts{7}
+  \item Assume that it is desired to design a Colpitts oscillator so that its oscillation frequency is $4\,\text{MHz}$. If the inductor is $L = 50\,\mu\text{H}$ and the desired feedback fraction is $\beta = 1/20$, calculate:
+    \begin{parts}
+      \item The required value of equivalent tank capacitance.
+      \item The required values for capacitances $C_1$ and $C_2$.
+      \item The minimum voltage gain $A_v$ required for the CE amplifier to sustain oscillations.
+    \end{parts} \pts{7}
+\end{parts}
+\hfill \textbf{OR}
+\begin{parts}
+  \item Draw the h-parameter equivalent circuit of a BJT in CE configuration and find the CE hybrid parameters in terms of the CC hybrid parameters. \pts{8}
+  \item Draw and explain the circuit diagram for amplitude modulation using a transistor in CE configuration. \pts{6}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Discuss the importance of power amplifiers. Explain the working of a push-pull amplifier with a suitable circuit diagram. Discuss the various advantages and disadvantages of push-pull amplifiers. \pts{8}
+  \item If an amplifier with a voltage gain of $A_v = -1000$ has a gain change of $20\%$ due to temperature change, calculate the change in gain of the feedback amplifier having feedback fraction $\beta = -0.1$. \pts{6}
+\end{parts}
+\hfill \textbf{OR}
+\begin{parts}
+  \item Design a full adder using NAND gates only. Draw a logic circuit (using half and full adders) for adding two decimal numbers 7 and 17. Write down the results in binary. \pts{8}
+  \item For a Unijunction Transistor (UJT) with interbase voltage $V_{BB} = 20\,\text{V}$ and intrinsic standoff ratio $\eta = 0.65$, determine: (i) base-1 resistance $R_{B1}$ and base-2 resistance $R_{B2}$ if $R_{BB} = 10\,\text{k}\Omega$, (ii) the peak-point voltage $V_P$ (assume diode barrier potential $V_D = 0.7\,\text{V}$). \pts{6}
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

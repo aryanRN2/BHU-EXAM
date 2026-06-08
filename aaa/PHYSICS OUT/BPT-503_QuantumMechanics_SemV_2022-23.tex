@@ -1,0 +1,117 @@
+% BHU PYQ -- Manually transcribed & error-corrected
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BPT-503: Quantum Mechanics -- BHU PYQ},pdfauthor={Banaras Hindu University}}
+
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BPT-503: Quantum Mechanics}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) Semester V Examination, 2022-23}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. BPT-503: Quantum Mechanics}\\[4pt]
+  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer all questions. Symbols have their usual meanings.}
+\bigskip
+
+\noindent\textbf{Question 1.} Answer any \textbf{five} of the following: \pts{5 $\times$ 4 = 20}
+\begin{parts}
+  \item Is it possible to perform the Compton effect experiment using visible light? Explain.
+  \item What is the length of a 1D infinite square well box in which an electron in the ground ($n=1$) state has the same energy as a photon of wavelength $600\,\text{nm}$?
+  \item Show that for a relativistic particle of rest energy $E_0$, the de Broglie wavelength is given by:
+    \[ \lambda = \frac{hc}{E_0 \sqrt{\gamma^2 - 1}} = \frac{hc}{E_0 \beta \gamma} \]
+    where $\beta = v/c$ and $\gamma = 1/\sqrt{1-\beta^2}$.
+  \item Atoms are in two excited states with energies $E_1$ and $E_2$ such that $\Delta E = |E_1 - E_2|$. These atoms return to the ground state by emitting photons. Show that the difference in the emitted wavelengths is:
+    \[ \Delta\lambda \approx \frac{\lambda^2}{hc} \Delta E \]
+  \item Using the uncertainty principle, estimate the ground state energy of a one-dimensional linear harmonic oscillator described by $H = \frac{p^2}{2m} + \frac{1}{2}m\omega^2 x^2$.
+  \item If $\langle T \rangle$ and $\langle V \rangle$ are the expectation values of the kinetic and potential energy operators for the wave function $\psi(x)$, find the new expectation values of these operators if the wave function undergoes scaling to $\psi(\alpha x)$, where $\alpha$ is a real constant.
+  \item The normalized wave functions $\psi_1$ and $\psi_2$ correspond to the ground state and first excited state of a particle in a potential. If the operator $A$ acts such that $A\psi_1 = \psi_2$ and $A\psi_2 = \psi_1$, find the expectation value of the operator $A$ for the state $\Psi = \frac{3\psi_1 + 4\psi_2}{5}$.
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 2.} For a particle of mass $m$ in a one-dimensional infinite potential box of length $L$ (extending from $x=0$ to $x=L$):
+\begin{parts}
+  \item Find the wave functions and energy eigenvalues of the ground and the first excited states. \pts{6.5}
+  \item Sketch the wave functions and probability densities for the ground and the first excited states. \pts{5.5}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Normalize the wave function $\psi(x,t) = N e^{-\lambda |x|} e^{-iEt/\hbar}$ and determine the expectation values of $x$ and $x^2$. \pts{6}
+  \item Show that the energy eigenvalue $E$ must be greater than the minimum value of the potential $V(x)$ for any normalizable solution of the time-independent Schr\"{o}dinger equation. \pts{4}
+  \item Show that Planck's constant $h$ has the same unit as angular momentum. \pts{4}
+\end{parts}
+\hfill \textbf{OR}
+\begin{parts}
+  \item The ground state wave function of an electron in a hydrogen atom is:
+    \[ \psi_0(r) = \frac{1}{\sqrt{\pi a_0^3}} e^{-r/a_0} \]
+    where $a_0$ is the Bohr radius.
+    \begin{parts}
+      \item Show that the wave function is normalized. \pts{4}
+      \item Find the probability of finding the electron between $r_1 = a_0/2$ and $r_2 = 3a_0/2$. \pts{5}
+      \item Determine the uncertainty in the radial position of the electron in the ground state. Use the expectation value $\langle r \rangle = 3a_0/2$ and $\langle r^2 \rangle = 3a_0^2$. \pts{5}
+    \end{parts}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 4.}
+\begin{parts}
+  \item The first excited state of a particle in a linear harmonic oscillator is given by:
+    \[ \psi_1(x) = \left( \frac{m\omega}{\pi\hbar} \right)^{1/4} \sqrt{\frac{2m\omega}{\hbar}} x e^{-m\omega x^2 / 2\hbar} \]
+    Calculate the ground state wave function by applying the lowering operator $a_-$. \pts{9} \\
+    (Hint: $a_- = \frac{1}{\sqrt{2m\hbar\omega}} (ip + m\omega x)$)
+  \item Let $\vec{L}$ and $\vec{p}$ be the angular and linear momentum operators, respectively, for a particle. Evaluate the commutation relations $[L_z, p_y]$ and $[x^2, p_x^2]$. \pts{5}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 5.}
+\begin{parts}
+  \item A particle of mass $m$ is contained in a one-dimensional infinite well extending from $x = -L/2$ to $x = L/2$. The particle is in its ground state given by $\psi_0(x) = \sqrt{\frac{2}{L}} \cos\left( \frac{\pi x}{L} \right)$. The walls of the box are moved suddenly to form a box extending from $x = -L$ to $x = L$. What is the probability that the particle will be in the ground state of the new box after this sudden expansion? \pts{7}
+  \item Show that the angular momentum operators $L^2$ and $L_z$ commute. Prove that these operators share the same eigenstates. \pts{7}
+\end{parts}
+\hfill \textbf{OR}
+\begin{parts}
+  \item Write down the Schr\"{o}dinger equation for a linear harmonic oscillator and solve it using power series method to obtain the eigenvalues and eigenfunctions. \pts{14}
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

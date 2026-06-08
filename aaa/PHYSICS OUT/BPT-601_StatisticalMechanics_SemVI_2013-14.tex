@@ -1,0 +1,112 @@
+% BHU PYQ -- Manually transcribed & error-corrected
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BPT-601: Statistical Mechanics -- BHU PYQ},pdfauthor={Banaras Hindu University}}
+
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BPT-601: Statistical Mechanics}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) Semester VI Examination, 2013-14}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. BPT-601: Statistical Mechanics}\\[4pt]
+  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer all questions. Symbols have their usual meanings.}
+\bigskip
+
+\noindent\textbf{Question 1.} Answer any \textbf{four} of the following: \pts{4 $\times$ 5 = 20}
+\begin{parts}
+  \item With reasons, find the number of distinct ways in which $N$ objects, of which $N_1$ are indistinguishable of one type and $N_2$ are indistinguishable of a second type, can be accommodated in a total of $N = N_1 + N_2$ possible places.
+  \item The quantum distribution for an ideal Fermi gas is $f(\epsilon) = \frac{1}{e^{(\epsilon - \mu)/kT} + 1}$. What happens to this distribution in the limit $T \to 0$?
+  \item Consider two physical systems, which were separately in equilibrium, brought into thermal contact and allowed to interact. Formulate the condition for the two systems being in mutual thermodynamic equilibrium and hence derive the relation $S = k \ln \Omega$.
+  \item Considering a system in a grand canonical ensemble, show that the probability that the system be in a particle-energy ($N_r, E_s$) state would be:
+    \[ P_{r,s} = \frac{\exp(-\alpha N_r - \beta E_s)}{\sum_{r,s} \exp(-\alpha N_r - \beta E_s)} \]
+  \item A two-energy-level system, with an energy gap of $0.1\,\text{eV}$, is in thermal equilibrium with a heat bath at $327^\circ\text{C}$. Obtain the probability that the system is in the higher energy level. (Given: $k = 8.617 \times 10^{-5}\,\text{eV/K}$).
+  \item Consider a binomial distribution for a system for which $p = 1/2$, $q = 1/2$, $N = 6$. Determine the standard deviation $\sigma$ and find the probability that $n$ is in the range $\langle n \rangle - \sigma$ to $\langle n \rangle + \sigma$.
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 2.}
+\begin{parts}
+  \item Consider a system in a canonical ensemble and show that the probability of the system being in energy state $E_s$ is given by:
+    \[ P_s = \frac{\exp(-\beta E_s)}{\sum_s \exp(-\beta E_s)} \] \pts{6.5}
+  \item Hence establish a relationship between the thermodynamics of the system and its partition function in the canonical ensemble. \pts{6}
+\end{parts}
+\hfill \textbf{OR}
+\begin{parts}
+  \item For an ideal monatomic classical gas, the partition function is given by:
+    \[ Z_N = \frac{1}{N! h^{3N}} (2\pi m k T)^{3N/2} V^N \]
+    Show how this partition function resolves Gibbs' paradox. \pts{6.5}
+  \item Show that the average energy of a classical monatomic gas is $\langle E \rangle = \frac{3}{2} N k T$. \pts{6}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 3.} Answer either (a) and (b) or (c) and (d):
+\begin{parts}
+  \item Show that for a large number of random events, the binomial distribution reduces to the Gaussian distribution. Relate the characteristic parameters of the latter to those of the former. \pts{6.5}
+  \item In a binomial distribution of total $N$ steps out of which $N_1$ steps are to the right, show that the root-mean-square deviation is $\sigma = \sqrt{Npq}$. \pts{6}
+\end{parts}
+\hfill \textbf{OR}
+\begin{parts}
+  \item What do you mean by phase space and density of states? Derive Liouville's theorem and discuss its consequences. \pts{8}
+  \item Show that in the classical limit, quantum distribution laws, whether Fermi-Dirac or Bose-Einstein, reduce to the Maxwell-Boltzmann distribution. \pts{4.5}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 4.} Answer either (a) or (b):
+\begin{parts}
+  \item Discuss the characteristic features of an ideal Fermi gas. Explain the meaning of Fermi energy. Show that the Fermi energy $E_F$ varies as $n^{2/3}$ where $n = N/V$. Derive the relations for the Fermi gas ground state energy and ground state pressure. \pts{12.5}
+\end{parts}
+\hfill \textbf{OR}
+\begin{parts}
+  \item Derive an expression for the partition function in Bose-Einstein statistics and hence obtain the relation for the mean number of particles $\langle n_s \rangle$ in a particular state $s$. Obtain the parameter $\alpha$ in terms of the chemical potential. Why is $\alpha = 0$ (or chemical potential $\mu = 0$) in the case of photons? \pts{12.5}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Show that the relative root-mean-square fluctuation in energy $E$ in a canonical ensemble varies as $1/\sqrt{N}$. What is the physical significance of this result? \pts{4.5}
+  \item Discuss and compare the characteristic features of microcanonical, canonical, and grand canonical ensembles. \pts{5}
+  \item Three gaseous systems composed of classical molecules, fermions, and bosons, respectively, are kept at $0\,\text{K}$. Which one of the systems will exert the greatest pressure? Explain. \pts{3}
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

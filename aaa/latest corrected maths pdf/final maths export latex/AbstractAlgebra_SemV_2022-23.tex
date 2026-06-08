@@ -1,0 +1,109 @@
+% BHU PYQ -- Manually transcribed & error-corrected
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={MTB-502: Abstract Algebra -- BHU PYQ},pdfauthor={Banaras Hindu University}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{MTB-502: Abstract Algebra}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.A./B.Sc. (Hons.) Semester V Examination, 2022-23}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. MTB-502: Abstract Algebra}\\[4pt]
+  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: Answer \textbf{five} questions including Question~1 which is compulsory. Symbols have their usual meanings.}
+
+\bigskip
+\medskip\noindent\textbf{Question 1.}
+\begin{parts}
+  \item If $G$ is the Klein four-group, then show that $\operatorname{Aut}(G) \cong S_3$. \pts{3}
+  \item Define characteristic of a ring. Does there exist a ring with characteristic $n$, for every $n \ge 0$? \pts{2}
+  \item If $f : R \to R'$ is an onto ring homomorphism, then show that if $R$ is commutative, so is $R'$. \pts{2}
+  \item What is the quotient field of a finite integral domain? \pts{2}
+  \item Define commutator of a group $G$. Show that for $G = S_3$, the commutator subgroup $G'$ is $A_3$. \pts{3}
+  \item Define group action on a set. Let $H$ be a normal subgroup of $G$ and $A = H$. Define $*: G \times A \to A$ by $g * a = gag^{-1}$ for $g \in G, a \in A$. Show that $*$ is a group action. \pts{2}
+\end{parts}
+
+\medskip\noindent\textbf{Question 2.}
+\begin{parts}
+  \item Let $\operatorname{Aut}(G)$ be the set of all automorphisms of $G$ and $\operatorname{Inn}(G)$ be the set of all inner automorphisms of $G$. Show that $\operatorname{Aut}(G)$ is a group with respect to composition of mappings and $\operatorname{Inn}(G)$ is a normal subgroup of $\operatorname{Aut}(G)$. \pts{8}
+  \item Let $G$ be an infinite cyclic group. Find the order of $\operatorname{Aut}(G)$. \pts{6}
+\end{parts}
+
+\medskip\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Let $G$ be any group and $S$ be any set. Prove that any group homomorphism from $G$ to $\operatorname{A}(S)$, the symmetric group of $S$, defines an action of $G$ on $S$, and conversely every action of $G$ on $S$ induces a homomorphism $G \to \operatorname{A}(S)$. Deduce from this Cayley's theorem. \pts{8}
+  \item
+  \begin{parts}
+    \item Show that the order of the group of automorphisms of a finite group of order $n$ is a divisor of $n!$. \pts{3}
+    \item Let $G$ be a group. Show that the commutator subgroup $G'$ of $G$ is the smallest subgroup of $G$ such that $G/G'$ is abelian. \pts{3}
+  \end{parts}
+\end{parts}
+
+\medskip\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Define a unit in a ring. Show that in a ring $R$ with unity $1$, the units form a group under multiplication. Find the group of units in $\mathbb{Z}_8$. Is this group isomorphic to the Klein four-group? \pts{1+4+3+2}
+  \item Prove that a commutative ring $R$ is without zero divisors if and only if for all $a, b, c \in R$, if $ab = ac$ and $a \neq 0$, then $b = c$. \pts{4}
+\end{parts}
+
+\medskip\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Define characteristic of a ring. Show that the characteristic of an integral domain is either prime or zero. \pts{1+5}
+  \item Define prime ideal and maximal ideal of a ring. Find all prime ideals and maximal ideals in the ring $\mathbb{Z}_6$. \pts{1+1+6}
+\end{parts}
+
+\medskip\noindent\textbf{Question 6.}
+\begin{parts}
+  \item Let $R$ be a commutative ring with unity. Show that an ideal $M$ of $R$ is a maximal ideal of $R$ if and only if the quotient ring $R/M$ is a field. \pts{6}
+  \item Define the quotient field of an integral domain. Give an example to show that non-isomorphic integral domains may have isomorphic fields of quotients. \pts{1+2}
+  \item State and prove the Fundamental Theorem of Ring Homomorphism. \pts{5}
+\end{parts}
+
+\medskip\noindent\textbf{Question 7.}
+\begin{parts}
+  \item Let $f(x)$ be any polynomial and $g(x)$ be a non-zero polynomial in the polynomial domain $F[x]$ over a field $F$. Show that there exist unique polynomials $q(x)$ and $r(x)$ in $F[x]$ such that
+  \[ f(x) = g(x)q(x) + r(x) \]
+  where either $r(x) = 0$ or $\deg r(x) < \deg g(x)$. \pts{8}
+  \item Show that every Euclidean domain is a principal ideal domain. \pts{6}
+\end{parts}
+
+
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

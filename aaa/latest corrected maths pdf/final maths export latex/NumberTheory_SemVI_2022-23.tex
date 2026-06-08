@@ -1,0 +1,107 @@
+% BHU PYQ -- Manually transcribed & error-corrected
+% Paper: MTB-607 : Number Theory
+% Exam: B.A./B.Sc. (Hons) Semester VI Examination, 2022-23
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={MTB-607: Number Theory -- BHU B.A./B.Sc. Sem VI 2022-23}}
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{MTB-607: Number Theory}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.A./B.Sc. (Hons) --- Semester VI Examination, 2022-23}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. MTB-607: Number Theory}\\[4pt]
+  {\normalsize Time: 3 Hours \hfill Full Marks: 70}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer \textbf{five} questions including Question~1 which is compulsory. Figures in right-hand margin indicate marks.}
+\bigskip
+
+\noindent\textbf{Question 1.}
+\begin{parts}
+  \item State the Peano axioms and the well-ordering principle for natural numbers. \pts{3}
+  \item Show that $\dfrac{a(a^2+2)}{3}$ is an integer for all $a \ge 1$. \pts{2}
+  \item Define the quadratic residue mod $n$. Show that $Q_n$ is a subgroup of $U_n$. \pts{3}
+  \item Find the least non-negative residue of $3^{51} \pmod{23}$. \pts{2}
+  \item Solve the congruence $18k \equiv 42 \pmod{50}$ (if a solution exists). \pts{2}
+  \item Show that if $(a,b,c)$ is a primitive Pythagorean triple, then exactly one of $a$ and $b$ is even and exactly one of them is divisible by $3$. \pts{2}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 2.}
+\begin{parts}
+  \item If $a$ and $b$ are integers with $b \ne 0$, show that there exist unique integers $q$ and $r$ such that $a = qb + r$, where $0 \le r < |b|$. \pts{8}
+  \item Establish the validity of the Euclidean algorithm. \pts{6}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Show that there exist arbitrarily large gaps between consecutive prime numbers. \pts{4}
+  \item Justify whether the following statements are True or False:
+  \begin{parts}
+    \item There is a polynomial $f(x)$ with integer coefficients such that $f(n)$ is prime for every $n \in \mathbb{Z}$.
+    \item There is an arithmetic progression which consists solely of prime numbers.
+  \end{parts} \pts{8}
+  \item State the Prime Number Theorem. \pts{2}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Let $n = p_1^{a_1} p_2^{a_2} \cdots p_k^{a_k}$, where $p_1, p_2, \dots, p_k$ are distinct primes. Show that $a \equiv b \pmod{n}$ if and only if $a \equiv b \pmod{p_i^{a_i}}$ for $i = 1, 2, \dots, k$. \pts{4}
+  \item Use part (a) to express the congruence $13x \equiv 71 \pmod{380}$ as a system of congruences, and solve this system using the Chinese Remainder Theorem. \pts{10}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Show that an integer $n$ is prime if and only if $(n-1)! \equiv -1 \pmod{n}$. \pts{7}
+  \item Show that Euler's $\phi$-function is multiplicative. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 6.}
+\begin{parts}
+  \item Show that for each positive integer $n \ge 1$: $n = \displaystyle\sum_{d \mid n} \phi(d)$. \pts{7}
+  \item Show that there are no positive integer solutions $x, y, z$ of $x^4 + y^4 = z^2$. Hence conclude Fermat's Last Theorem for $n = 4$. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 7.}
+Let $p$ be an odd prime. Show that:
+\begin{parts}
+  \item If $g$ is a primitive root mod $p$, then either $g$ or $g + p$ is a primitive root mod $p^2$. \pts{7}
+  \item If $h$ is a primitive root mod $p^2$, then $h$ is also a primitive root mod $p^e$ for $e \ge 2$. \pts{7}
+\end{parts}
+
+\vfill\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+\end{document}

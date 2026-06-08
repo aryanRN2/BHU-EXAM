@@ -1,0 +1,212 @@
+--- Page 1 ---
+10. 72-06
+
+sf
+
+Le les
+Ms Jess! a ek
+
+B.Sc. (Hons.) Semester | Examination, 2016 - 17
+Subject: Physics (old course)
+Paper No.-BSCU7A: Ancillary Physics
+
+Time: Three hours Full Marks: 70
+
+Note: The figures in the right hand margin indicate marks assigned to a question or a part
+thereof.
+
+Answer any five questions including question no.1, which is compulsory.
+
+1. Answer any six out of the following: 6x3
+(ayWhat do you understand by streamline flow of liquid?
+
+(b) What is the difference between stress and strain?
+
+(c) What should be done to reduce the surface tension of water?
+
+(d) Define the entropy of a system.
+
+(e) Give one example of First law of thermodynamics.
+
+(£) What are the advantages and disadvantages of CO? gas of environment?
+
+(g) How the image of an extended source is formed by convex lens?
+
+(h) What do you understand by dispersion of light?
+
+2(a) What do you mean by Hooke’s law? Describe the Young’s modulus of elasticity. 7
+2(b) Discuss the Bernoulli’s theorem and its applications. 6°
+
+3(a) Define the surface tension of a liquid. Describe in detail the capillarity action of atube. 7
+3(b) What is Stoke’s law? Discuss about the terminal velocity of a sphere falling ina fluid. 6
+
+4(a) Discuss the second law of thermodynamics and its importance. 7
+4(b) Discuss the phenomena of diffusion of gases. On what factors it depends. 6
+5(a) Define the Helmoholtz and Gibbs free energy with some examples. 7
+5(b) Discuss the Fermat’s principle of least time. 6
+
+6(a) Discuss the Yong’s double slit experiment and condition of maximum and minimum
+
+intensity. 7
+6(b) What is the difference between Fraunhoter and Fresnel diffraction? 6
+7(a) Discuss the effect of radiation on the biological systems. 7,
+7(b) Discuss about all part of Electromagnetic spectrum. 6
+
+-_— s< —_—
+
+
+--- Page 2 ---
+
+
+--- Page 3 ---
+Total Printed Pages : 4] | ROUND: ossscasmsnsave
+
+BS/Sem 1/84
+
+B. Sc. (Hons.) Semester | Examination, 2016-17
+
+PHYSICS
+Paper: BPT-101
+(Mechanics and Relativity)
+Time: Three Hours] ——__ [ Full Marks : 70
+
+[Write your Roll No. at the top immediately on the
+receipt of this question paper.]
+
+Note: Answer all questions. The figures in the right-hand
+side indicate marks.
+
+1. Answer any four of the following : 4 x34
+
+(a) What are fictitious forces and when do they come
+into play ? Calculate the fictitious force and
+observed (total) force on a body of mass 5 kg ina
+frame of reference moving (i) vertically upwards
+(ii) vertically downwards with an accelearation
+4m/sec’. (Take g = 9.8 m/sec’)
+
+(b) What is the rest mass of a photon ? Give your
+comment in support of your answer.
+
+(c) What are central forces ? Show that the angular
+momentum of a particle moving under the
+influence of central forces always remains
+
+constant.
+
+P.T.O.
+
+
+--- Page 4 ---
+BS/Sem 1/84
+
+(d)
+
+(e)
+
+(f)
+
+(b)
+
+(a)
+
+In a nuclear reactor, hydrogen is used as
+moderator. Give reasons.
+
+Obtain an expression for the time period of
+compound pendulum and discuss its superiority
+over simple pendulum.
+
+What are damped and undamped oscillations ?
+Discuss with example. In an oscillatory circuit
+L=02H,C =1.2 pF. What is the maximum value
+of resistance for the circuit to be oscillatory ?
+
+What is Cantilever ? A cantilever having
+rectangular cross-section is loaded at its free end.
+Obtain an expression for the depression at the free
+end of the cantilever. 1+8=9
+
+Calculate the Poisson's ratio for silver. Given
+Young's modulus for silver is 7.25 x 10'°N/m’ and
+bulk modulus is 11 x 10°N/m?. 5
+
+On the basis of Lorentz transformations discuss
+(a) length contraction (b) time dilation. 10
+A proton of rest mass 1.67 x 10° gms is moving
+with velocity 0.9 C. Find its mass and momentum.
+
+4
+
+OR
+
+What are the assumptions of Poiseuille's equation
+for flow of liquid through capillary tubes ? Show
+that the coefficient of viscosity is given by the
+expression : 8
+
+(2)
+
+
+--- Page 5 ---
+ie hee
+
+(b)
+
+BS/Sem 1/84
+
+_ Pr’
+
+8VL
+where V is the volume of the liquid flowing per
+unit time and symbols have their usual meaning.
+
+y
+
+How will you determine the coefficient of
+viscosity of water by Poiseuille's method in the
+laboratory. Discuss the effect of temperature on
+viscosity. 6
+
+What do you mean by relativistic mass ? Derive
+mass energy relation and discuss its importance. 5
+
+If kinetic energy K = mc* —mgc” , then prove that
+
+its classical value (when v << c) reduces to
+
+J
+
+smo where : 3
+Mg
+
+Derive an expression for the twisting couple per
+unit twist for a solid cylinder. Show that for the
+cylinders of mass, material and length, twisting
+couple per unit twist is greater for hollow
+cylinder than for a solid one. 6
+
+. Obtain an expression for horizontal displacement of
+an object falling freely under the action of gravity in
+latitude 6.
+
+Calculate the displacement suffered by a stone
+dropped from the top of a tower 100 m high (i) in
+latitude 60°N, (ii) at the equator. (Angular velocity of
+earth about the axis = 7.2 x 10° rad/sec and g = 9.8
+m/sec’). 14
+
+(3) P.T.O.
+
+
+--- Page 6 ---
+BS/Sem 1/84
+OR
+
+What do you understand by laboratory and centre of
+mass frame of reference ? Discuss two dimensional
+elastic collision in both the frames of reference.
+Discuss the advantages of studying collision process
+in centre of mass frame of reference. 14
+
+(4) 1200

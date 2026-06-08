@@ -1,0 +1,127 @@
+% BHU PYQ -- Manually transcribed & error-corrected
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={MTB-606: Complex Analysis -- BHU PYQ},pdfauthor={Banaras Hindu University}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{MTB-606: Complex Analysis}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.A./B.Sc. (Hons.) Semester V Examination, 2022-23}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. MTB-606: Complex Analysis}\\[4pt]
+  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: Answer \textbf{five} questions including Question~1 which is compulsory. Symbols have their usual meanings.}
+
+\medskip\noindent\textbf{Question 1.}
+\begin{parts}
+  \item Let $z = (x,y)$ be a non-zero complex number. Show that the multiplicative inverse of $z$ is:
+  \[ z^{-1} = \left( \frac{x}{x^2 + y^2}, \frac{-y}{x^2 + y^2} \right) \] \pts{2}
+  \item Let $z_1, z_2 \in \mathbb{C}$. Show that $|z_1 - z_2| \ge ||z_1| - |z_2||$. \pts{2}
+  \item Define the stereographic projection of $\mathbb{C}$ on $S^2 \setminus \{(0,0,1)\}$. Find its equations. \pts{2}
+  \item Define $f(z) = z/\overline{z}$ for all $z \in \mathbb{C} \setminus \{0\}$. Discuss the existence of the limit $\lim_{z \to 0} f(z)$. \pts{2}
+  \item Find the radius of convergence of the power series:
+  \[ \sum_{n=0}^{\infty} \frac{z^n}{n!} \] \pts{2}
+  \item Let $S$ be a non-empty subset of $\mathbb{C}$ with $\operatorname{int}(S) \neq \emptyset$, and $f : S \to \mathbb{C}$ be a function. Explain the differentiability of $f$ at $z_0 \in \operatorname{int}(S)$. \pts{2}
+  \item Define a harmonic function and give two examples of harmonic functions. \pts{2}
+  \item Discuss polygonally connected sets and open connected sets. Write two sets which are polygonally connected in $\mathbb{C}$. \pts{2}
+  \item Let $f : [a,b] \to \mathbb{C}$ be a continuous complex-valued function. Show that:
+  \[ \left| \int_{a}^{b} f(t) \,dt \right| \le \int_{a}^{b} |f(t)| \,dt \] \pts{2}
+  \item Evaluate the integral $\int_{C} dz$, where $C = \{\gamma(t) : t \in [a,b]\}$ is any rectifiable curve with $\gamma(a) = \alpha$ and $\gamma(b) = \beta$. \pts{2}
+  \item Evaluate $\int_{C} \frac{e^z}{z(z-2)} \,dz$, where $C$ is the boundary of the annulus between the circles $|z| = 1$ and $|z| = 3$. \pts{2}
+\end{parts}
+
+\medskip\noindent\textbf{Question 2.}
+\begin{parts}
+  \item Let $f(z) = |z|^2$ for all $z \in \mathbb{C}$. Prove that $f$ is differentiable only at $z=0$. Also, show that $f$ is nowhere analytic. \pts{4}
+  \item Let $f(z) = u(x,y) + iv(x,y)$ be analytic in $D = \{z \in \mathbb{C} : |z| < 1\}$ such that its real part is $u(x,y) = x^3 - 3xy^2$. Find the imaginary part $v(x,y)$ of $f(z)$. Furthermore, find $f(z)$ in terms of $z$. \pts{5}
+  \item Discuss $n$-th roots of a complex number $z$. Hence find the fifth roots of $(1+i)$. \pts{5}
+\end{parts}
+
+\medskip\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Let $D$ be a non-empty subset of $\mathbb{C}$ and $z_0 \in D$. Let $f, g : D \to \mathbb{C}$ be functions such that $\lim_{z \to z_0} f(z) = w_0$ and $\lim_{z \to z_0} g(z) = W_0$. Show that:
+  \[ \lim_{z \to z_0} f(z)g(z) = w_0 W_0 \] \pts{4}
+  \item Suppose that $f(z) = u(x,y) + iv(x,y)$, $z = x + iy$, and $z_0 = x_0 + iy_0$, $w_0 = u_0 + iv_0$. Show that:
+  \[ \lim_{z \to z_0} f(z) = w_0 \iff \lim_{(x,y) \to (x_0,y_0)} u(x,y) = u_0 \text{ and } \lim_{(x,y) \to (x_0,y_0)} v(x,y) = v_0 \] \pts{4}
+  \item Discuss the relation between continuity, differentiability and analyticity of a complex variable function at a point of its domain. Explain the implications between them and give supportive examples. \pts{6}
+\end{parts}
+
+\medskip\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Let $D$ be a non-empty open set in $\mathbb{C}$ and $z_0 = x_0 + iy_0 \in D$. Let the function $f(z) = u(x,y) + iv(x,y)$ for all $z = x+iy \in D$. Suppose that:
+  \begin{parts}
+    \item the first-order partial derivatives of $u$ and $v$ with respect to $x$ and $y$ exist everywhere in a neighborhood of $z_0$;
+    \item these partial derivatives are continuous at $(x_0, y_0)$ and satisfy the Cauchy-Riemann equations: $u_x = v_y$ and $u_y = -v_x$ at $(x_0, y_0)$.
+  \end{parts}
+  Show that $f'(z_0)$ exists and $f'(z_0) = u_x(x_0, y_0) + i v_x(x_0, y_0)$. \pts{5}
+  \item State and prove Cauchy Integral Formula. \pts{5}
+  \item Let $f(z) = u + iv$ be an analytic function. Show that
+  \[ \left( \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} \right) |f(z)|^2 = 4 |f'(z)|^2 \] \pts{4}
+\end{parts}
+
+\medskip\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Suppose that a function $f(z) = u(x,y)+iv(x,y)$ and its conjugate $\overline{f(z)} = u(x,y)-iv(x,y)$ are defined in a given domain $D$ such that both $f(z)$ and $\overline{f(z)}$ are analytic in $D$. Show that $f(z)$ is constant in $D$. \pts{5}
+  \item Let $f$ be an analytic function in a simply connected domain $D$. Then, along any simple closed contour $C$ in $D$, show that
+  \[ \int_{C} f(z) \,dz = 0 \] \pts{5}
+  \item State and prove Liouville's theorem. \pts{4}
+\end{parts}
+
+\medskip\noindent\textbf{Question 6.}
+\begin{parts}
+  \item State and prove the Fundamental Theorem of Algebra. \pts{6}
+  \item Evaluate
+  \[ \int_{C} \frac{1}{(z-a)^m} \,dz, \quad m = 1, 2, \dots, N \]
+  where $C$ is a simple closed contour containing the point $a$ inside it. \pts{8}
+\end{parts}
+
+\medskip\noindent\textbf{Question 7.}
+\begin{parts}
+  \item State and prove Taylor's theorem for analytic function of complex variable. \pts{7}
+  \item Find all possible Taylor's and Laurent series expansions of the function
+  \[ f(z) = \frac{1}{(z+1)(z+3)} \]
+  about the point $z = 1$. \pts{7}
+\end{parts}
+
+
+
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

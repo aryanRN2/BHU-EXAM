@@ -1,0 +1,131 @@
+% BHU PYQ -- Manually transcribed & error-corrected
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BPT-503: Quantum Mechanics -- BHU PYQ},pdfauthor={Banaras Hindu University}}
+
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BPT-503: Quantum Mechanics}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) Semester V Examination, 2013-14}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. BPT-503: Quantum Mechanics}\\[4pt]
+  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer all questions. Symbols have their usual meanings.}
+\bigskip
+
+\noindent\textbf{Question 1.} Answer any \textbf{four} of the following: \pts{4 $\times$ 5 = 20}
+\begin{parts}
+  \item Find the de Broglie wavelength associated with:
+    \begin{parts}
+      \item an electron accelerated through a potential difference of $10\,\text{MV}$.
+      \item a proton having a kinetic energy of $10\,\text{MeV}$.
+    \end{parts}
+    (Take rest mass energy of electron = $0.51\,\text{MeV}$ and rest mass energy of proton = $938\,\text{MeV}$).
+  \item Using the uncertainty relation, explain why electrons cannot exist inside the nucleus.
+  \item What are stationary states? Explain with reference to the time-dependent and time-independent Schr\"{o}dinger equations.
+  \item Prove the statement: ``commuting observables have simultaneous eigenstates''.
+  \item Evaluate the following commutation relations:
+    \begin{parts}
+      \item $[L_x, y]$
+      \item $[L_z, p_x]$
+    \end{parts}
+  \item Find the most probable value of the radial distance $r$ of the electron in the ground state of the Hydrogen atom.
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 2.}
+\begin{parts}
+  \item Describe the difference between phase velocity and group velocity for a wave packet. \pts{4}
+  \item A particle is constrained to move in a potential of the form:
+    \[ V(x) = \begin{cases} 0, & 0 < x < a \\ \infty, & \text{otherwise} \end{cases} \]
+    Obtain the values of energy $E$ and corresponding normalized eigenfunctions. Show that the eigenfunctions are mutually orthogonal. Is there any acceptable physical solution with $E=0$ or $E<0$? Justify your answer. \pts{10}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Describe the Davisson-Germer experiment to demonstrate the wave nature of the electron. \pts{4}
+  \item If a particle having energy $E > 0$ is incident from the left upon a one-dimensional square potential well defined as:
+    \[ V(x) = \begin{cases} -V_0, & -a < x < a \\ 0, & \text{otherwise} \end{cases} \]
+    find the transmission coefficient $T$ and plot its variation qualitatively as a function of the ratio $E/V_0$. \pts{10}
+\end{parts}
+\hfill \textbf{OR}
+\begin{parts}
+  \item Using the Schwarz inequality, give the mathematical proof of the uncertainty relation for canonically conjugate pairs. \pts{6}
+  \item Find the wave function $\psi(x)$, which is the Fourier transform of $\phi(k)$, for a wave packet whose amplitude function $\phi(k)$ varies as:
+    \[ \phi(k) = \begin{cases} g_0, & -K_0 < k < K_0 \\ 0, & \text{otherwise} \end{cases} \]
+    Calculate the probability of finding the particle in the region $-\frac{\pi}{K_0} < x < \frac{\pi}{K_0}$. \pts{8}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 4.}
+\begin{parts}
+  \item What is the difficulty in normalizing a free particle wave function? How is the concept of a wave packet used to resolve this difficulty? \pts{5}
+  \item Find the uncertainty in position and momentum for the Gaussian wave packet $\psi(x) = A e^{-a x^2}$. How does it obey the Heisenberg uncertainty relation? \pts{9}
+\end{parts}
+\hfill \textbf{OR}
+\begin{parts}
+  \item The solution of the Schr\"{o}dinger equation for a free particle in one dimension is of the form:
+    \[ \psi(x) = A \sin(kx) + B \cos(kx) \]
+    where $A$ and $B$ are complex constants.
+    \begin{parts}
+      \item Calculate the probability current density for this wave function. \pts{4}
+      \item Find the relation between the coefficients $A$ and $B$, if $\psi(x)$ is an eigenfunction of the momentum operator. \pts{4}
+    \end{parts}
+  \item Show that the Harmonic Oscillator Hamiltonian can be written as:
+    \[ H = \hbar\omega \left( a^{\dagger}a + \frac{1}{2} \right) \]
+    in terms of the lowering and raising operators:
+    \[ a = \sqrt{\frac{m\omega}{2\hbar}} \left( x + \frac{ip}{m\omega} \right), \quad a^{\dagger} = \sqrt{\frac{m\omega}{2\hbar}} \left( x - \frac{ip}{m\omega} \right) \]
+    Work out the action of the operators $a$ and $a^{\dagger}$ on the energy eigenstates of the Hamiltonian. \pts{6}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 5.}
+\begin{parts}
+  \item The function $f(\theta,\phi)$ is an eigenfunction of the operator $L_z$ with eigenvalue $m\hbar$, such that $L_+ f(\theta,\phi) = 0$. Find the eigenvalue of the operator $L^2$ acting on the function $f(\theta,\phi)$. \pts{6}
+  \item The radial part of the wave function in the first excited state of the Hydrogen atom ($2p$, $l=1$, $m=0$) is given by:
+    \[ R_{21}(r) = C r e^{-r/2a} \]
+    where $a$ is the Bohr radius. Find the normalization constant $C$ and the most probable distance of the electron from the origin. \pts{8}
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

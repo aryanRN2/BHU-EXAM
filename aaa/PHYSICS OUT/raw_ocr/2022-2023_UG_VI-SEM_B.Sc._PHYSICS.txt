@@ -1,0 +1,1229 @@
+--- Page 1 ---
+Total No. of Questions :5] [Total No. of Printed Pages : 4
+
+Roll No. ....... aeevevecerense
+
+REF NO. 059434 -
+
+B. Sc. (Hons) Semester VI Examination
+2022-23
+
+PHYSICS
+
+Paper No. BPE- 602 : Elementary Nanoscience
+and Exotic Materials _
+Time : 3 hours Full Marks : 70
+
+(Write your Roll No. at the top immediately
+on the receipt of this question paper)
+The figures in the right-hand margin indicate marks
+Answer all questions
+1. Answer in brief any four of the
+following : 4x3'%
+
+(a) Explain how band gap of a material.
+changes with change in _ its
+dimensions.
+
+(b) How is the crystallite size
+determined by using X-ray
+diffraction patterns?
+
+(c). Explain Fibonacci sequence.
+
+D2(824)—500 . (Turn Over)
+
+
+--- Page 2 ---
+@
+
+(e)
+
+2. (a)
+
+(0)
+
+3. (a)
+
+ (b)
+
+(a)
+
+D2(824)
+
+(2)
+
+What is meant by the surface
+‘plasmon resonance?’ How is it,
+related to the nanomaterials?
+
+What are Type-I and Type-Il
+superconductors?
+
+What-are the properties of high Tc
+superconductors? Explain how
+they are different from conventional
+superconductors.
+
+What is the Meissner effect? A
+superconducting lead has a critical
+temperature of 7:26 K at zero
+magnetic field and a critical field of.
+8x10° A/m at OK. Find the critical
+field at 5 K.
+
+What are colossal magneto-
+resistance materials? Discuss the
+double exchange mechanism of
+colossal magnetoresistance.
+
+How is CMR different from ordinary
+resistance and GMR ?
+
+Or
+What. are carbon nanotubes?
+Describe the arm chair, zig-zag and
+
+chiral types of CNTs using suitable.
+diagram.
+
+' 8
+
+9
+
+5
+
+8
+
+(Continued)
+
+
+--- Page 3 ---
+(3)
+
+(b) Write in brief the working ofTEM. 6.
+
+4. (a) Explain the particle size effect on
+the optical spectra of the
+‘nanomaterials. Explain how the.
+optical spectra can be used to
+‘determine the size of the
+nanoparticles. 9
+
+(b) Explain. how the band gap of the
+nanoparticles is evaluated using
+their UV-Vis absorptidn spectra. 5
+
+5. (a) What are quasicrystals? Give one
+
+example. Provide the construction
+
+of a 1D quasicrystal. by projecting a
+
+2D periodic lattice onto a line with
+irrational slope.. 8
+
+(b) What is Quantum Dot (QD) ? If the
+
+size of a QD is halved, what will
+
+happen to the frequency of the
+fluorescent light emitted by it? 6.
+
+Or
+
+{a) Describe the differences between
+the physical and chemical
+synthesis routes of nanomaterials.
+Explain the working principle and
+limitation of high energy ball
+
+- D2(824) 7 (Turn Over)
+
+
+--- Page 4 ---
+(4)
+(b) Describe the bio-route of synthesis *
+of nanoparticles. 5
+
+tok
+
+D2(824)—500 | REF NO. 059434
+
+
+--- Page 5 ---
+‘Total No. .of Questions : 5] [Total No. of Printed Pages : 4
+
+Roll No. ....... veccaueevenses
+
+REF NO. 059430
+
+B. Sc. (Hons) Semester VI Examination
+2022-23
+
+PHYSICS
+
+Paper No. BPE-601 : Topics in Modern Physics
+Time : 3 hours Full Marks : 70
+
+(Write your Roll No. at the top immediately
+on the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+Answer all questions
+1. Answer any four of the following : 4x5
+
+(a) State the postulates of special
+theory of relativity, precisely. What
+assumption other than the relative
+principle and constancy of ¢ has
+
+_ been used in deducing the Lorentz
+transformation equations?
+
+(b) Write the Lorentz transformation
+matrix for Lorentz boost in
+x-direction. Write down the tensor
+equations showing that this matrix
+is symmetric and its own inverse.
+
+D2(823)—500 (Turn Over)
+
+
+--- Page 6 ---
+(co)
+
+(d)
+
+(e)
+
+(2)
+
+A rocket ship is receding from
+Earth at a speed on 0-2c. A light in
+the rocket ship of wavelength
+%=4500 ‘A appears blue to a
+passenger on the ship. What colour
+
+would it appear to an observer on
+
+Earth?
+
+Define astronomical unit, light year
+and parsec.
+
+Consider two objects (A and B) that
+are two astronomical units apart.
+The line joining A and B subtends
+an angle of 4” (4 arcsec) onto a
+
+‘ nearby star S. What is the distance
+
+2. (a)
+
+D2(823)
+
+of the star S from the midpoint of
+the line AB ?
+
+Explain why ‘the luminosity of a
+Red Giant is more than the original
+star, despite of having lower
+effective temperature. .
+
+Derive the relativistic equation for
+
+. the aberration of light. Use this
+
+equation to show that the first-
+
+order aberration effect corresponds .
+
+to the classical picture and explain
+the orientation of telescope
+observing a star.
+
+7
+
+(Continued)
+
+
+--- Page 7 ---
+(3) -
+
+ns
+
+(b) Write down the conversion for
+electric charge from CGS. to SI
+system of units. 2
+
+(c) What is gauge freedom? Show that,
+the electromagnetic tensor F,, is
+invariant under the gauge
+
+“transformation Ay > Ay Oy
+where y is a scalar. ‘ 3%,
+3. fa) Derive ’ the” transformation
+
+equations for the electric field
+under special relativity and use it to
+deduce the transformation for the
+magnetic field using the
+correspondence between the two. 6%
+
+(b) The average lifetime of a x meson in
+its own frame of reference is 26 ns.
+If the x meson moves with speed .
+0-95c with respect. to the Earth,
+what is its lifetirne as measured by
+- an observer at rest on Earth? What
+is the average distance it travels
+before decaying as measured by an
+observer at rest on Earth? 6
+
+Or
+(a) Use the concept of light cone to
+
+explain that violating the speed of
+light is a must to violate causality. 7
+
+D2(823) (Turn Over)
+
+
+--- Page 8 ---
+(4)
+
+(b) Write the Maxwell’s equations in
+
+' the covariant form using the,
+electromagnetic. tensor and _ its
+Hodge dual. Label the equations
+and explain the terms in the RHS. 5%
+
+. Derive the relation between the thermal
+and gravitational energy’ considering
+hydrostatic equilibrium for a star. What
+are the ° consequences of this
+relationship? 12%
+
+Or
+
+(a) Explain penetration probability in
+reference to the nuclear fusion -
+
+reaction at the core of a star. 5
+
+(b) Compare the different energy
+generation mechanisms taking
+place at the core of stars. Discuss
+the main-sequence lifetime of stars. 7%
+
+. (a) Discuss at least two methods by
+which dark matter may be
+
+observationally detected. 8
+
+(b) Explain the working of LIGO used
+for the detection of gravitational
+waves. ; » 4%
+
+kek
+
+D2(823}—500 REF NO. 059430
+
+
+--- Page 9 ---
+Total No. of Questions : 5} [Total No. of Printed Pages: 5
+
+Roll No, ....cccceeeceeneenens
+
+REF NO. 059454
+
+B. Sc. (Hons) Semester VI Examination —
+2022-23
+
+PHYSICS
+
+Paper No. BPT-604 : Atomic Physics and Laser
+
+Time : 3: hours , Full Marks : 70
+
+(Write your Roll No. at the top immediately
+on the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+Answer all questions
+Planck’s constant h = 6-62 x10" ** Joule-sec
+Boltzmann's constant k =1-38 10723 Joule/°K
+Bohr magneton 1, =9:27x10°** Joule/Tesla
+
+1. Answer any five of the following: 5x4
+
+fa) Amuonic atom contains a nucleus:
+of one proton and a negative nuon
+u> with charge —e and a mass 207
+times as large as an electron mass. |
+What is the wavelength of the first -
+line inthe Lyman series for such an
+atom?
+
+D2(814)—500 (Turn Over)
+
+
+--- Page 10 ---
+(2)
+
+(b) In a Franck-Hertz type of
+experiment, atomic hydrogen is
+bombarded with electrons and
+excitation potentials are found at
+10:20 V and 12:10 V. {i} Draw an
+
+_ energy-level diagram and show the
+
+possible spectral emissions
+accompanying these excitations.
+fii) What are the wavelengths of. the
+emitted photons?
+
+(c) Show that-the selection rules for
+orbital angular momentum and
+orbital magnetic quantum number
+Al=+1 and Am, =0,+1.
+
+(da) A beam of hydrogen atoms emitted
+from an oven at temperature 400 °K
+is sent through a Stern-Gerlach
+magnet. of length 1 m..- The
+transverse magnetic field gradient .
+is 10 Tesla/m. Calculate. the
+transverse deflection of the
+components of the beam at the
+point where the beam leaves the
+magnet. Take kinetic energy as
+2kT,
+
+fe) Show the suitability of two-level
+atomic system for amplification of
+radiation in microwave and optical
+frequency regions.
+
+D2(814) (Continued)
+
+
+--- Page 11 ---
+i)
+
+(g)
+
+(3)
+
+Evaluate the ratio of the orbital
+magnetic dipole moment to the
+orbital angular momentum, p,/L,
+for an electron moving in an
+elliptical orbit of the Bohr-
+Sommerfeld atom. Compare the
+results with those of a circular
+orbit. .
+
+Consider the states in which 1=4
+and s=1/2. For the state with the
+largest possible j and largest
+possible m ;, calculate (i) the angle
+between L and S, fii) the angle
+between 1, and p, and (iii) the angle
+
+_. between J and the +2 axis.
+
+2. (a)
+
+The spin-orbit interaction energy
+; ~ 4.1 aV(r)
+AE = —: SL
+Qm2c? r_— dr
+
+and the term shift due to relativistic
+correction of mass H-atom
+
+274
+AT, = Ra °Z 1 3
+8 I+1/2 4n.
+
+n
+
+Discuss the fine structure of Hy
+
+_ line showing clearly the splitting
+
+and possible transitions. . 8Ys-
+
+D2(814)—500 (Turn Over)
+
+
+--- Page 12 ---
+(4)
+
+(b) Compute the ground © state
+spectroscopic terms of carbon and
+oxygen atoms. How normal and
+inverted multiplates are different? 4
+
+3. (a) What is Zeeman effect? Derive the
+expression for interaction energy in
+’ a magnetic field much less than the
+internal magnetic field and apply it
+to find the components of sodium
+
+D, and Dy lines. <— 8%
+
+(b) Compute the intensity ratio of the
+three components of first line of
+diffuse ‘series. 4
+
+4. (a) Discuss the splitting of °P,,. and
+*Sij2 States of sodium. atom in
+
+strong magnetic field (greater than
+
+the internal magnetic field) and
+
+show the transitions. Is it same as ©
+‘normal Zeeman effect? 7
+
+(b) In an atom, obeying L-S coupling,
+there are two normal triplets. The
+separations between adjacent
+
+components of lower triplet are 20
+and 40 cm! and for the higher
+state triplet the separations are
+22 cm? and 33 cm™!. Determine
+
+D2(814) - (Continued) |
+
+
+--- Page 13 ---
+(5)
+
+the terms for the two triplet states
+and show the allowed transitions
+with the help of an energy level
+diagram. o%
+
+_ 5. fa) What are Einstein coefficients for
+absorption and emission process
+between two levels? Compute the
+
+relation: between them. 8
+(b)-What do you mean by molecular
+spectra? Explain, in brief. 4h
+Or
+
+fa) Discuss the construction and
+working of a He-Ne Laser. With
+energy level diagram, explain
+reason for the narrow bore of the
+
+Laser tube. 8
+(b) Discuss the rate equations for a
+three-level Laser system. 4%
+he te
+
+D2(814)—500 . ’ REF NO. 059454
+
+
+--- Page 14 ---
+Total No. of Questions : 5] [Total No. of Printed Pages : 5
+
+Roll No. cecsceseseeees veneaes
+
+REF NO. 059454
+
+B. Sc. (Hons) Semester VI Examination
+2022-23
+
+PHYSICS
+
+Paper No. BPT-604 : Atomic Physics and Laser
+Time : 3 hours ' Full Marks : 70
+
+(Write your Roll No. at the top immediately
+on the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks *
+
+Answer all questions
+Planck’s constant h =.6-62 x10" ** Joule-sec -
+Boltzmann’s constant k =1-38x10"** Joule/°K
+"Bohr magneton pL, =9-27x10">** Joule/Tesla
+
+1. Answer any five of the following : 5x4
+
+fa} A muonic atom contains a nucleus
+of one proton and a negative nuon
+ut with charge —e and a mass 207
+times as large as an electron mass.
+What is the wavelength of the -first
+line in the Lyman series for such an
+atom? .
+
+D2(814)—500 (Turn Over)
+
+
+--- Page 15 ---
+(2).
+
+_ In a Franck-Hertz type of
+. experiment, atomic hydrogen is
+- bombarded with electrons and
+excitation potentials are found at
+10°20 V and 12:10 V. fi) Draw an
+energy-level diagram and show the
+possible ~- spectral emissions
+accompanying these excitations.
+’ (ti) What are the wavelengths of the
+emitted photons?
+
+(c) Show that the selection rules for —
+orbital angular momentum and
+orbital magnetic quantum number
+Al=+1 and Am, =0, £1.
+
+(d) A beam of hydrogen atoms. emitted
+from an oven at temperature 400 °K
+is sent through a Stern-Gerlach
+magnet of length 1 m. The ~
+transverse magnetic field gradient
+is 10 Tesla/m. Calculate the
+transverse deflection of the
+components of the beam at the
+point where the beam leaves the
+magnet. Take kinetic energy as
+2kT.
+
+fe) Show the suitability of two-level
+atomic system for amplification of
+radiation in microwave and optical -
+frequency régions.
+
+D2(814) , (Continued) )
+
+ee
+
+
+--- Page 16 ---
+(3)
+
+| f? Evaluate the ratio of the orbital
+
+| magnetic dipole moment to the
+orbital angular momentum, 1,/L,
+
+’ for an electron moving in an -
+elliptical orbit of the Bohr-
+Sommerfeld atom. Compare the
+results with those of a circular
+orbit. |
+
+j
+
+|
+
+|
+
+|
+
+|
+
+| (9) Consider the states in which 1=4
+
+| and s=1/2. For the state with the
+
+| largest possible j and largest
+
+possible m;, calculate (i) the angle
+
+, between L and S, (ii) the angle
+‘ between 1, and p, and (iii) the angle
+
+| between J and the +2 axis.
+
+;
+
+2. fa) The spin-orbit interaction. energy
+
+1 1 dV aV(r).
+AE = - SL
+Qm2c2 r dr
+
+and the term shift due to relativistic
+correction of mass H-atom
+
+Discuss the fine structure of H,
+line showing clearly the splitting
+and possible transitions. — | 8%
+
+D2(814)—500 i; (Turn Over)
+
+
+--- Page 17 ---
+(4)
+
+(b) Compute the ground _ state |
+spectroscopic terms of carbon and |
+‘+ oxygen atoms. How normal and :
+inverted multiplates are different? 4 )
+
+3. fa} What is Zeeman effect? Derive the
+expression jor interaction energy in
+a magnetic field much less than the °
+internal magnetic field and apply it ©
+to find the components of sodium
+D, and Dz, lines. 8%
+
+{b} Compute the intensity ratio of the
+_ three components of first line of
+_ diffuse series. 4
+
+4. (a) Discuss the splitting of ?P, jo and
+*Sij2 states of sodium atom -in
+
+strong magnetic field (greater than
+the internal magnetic: field) and
+show the transitions. Is it same as
+normal Zeeman effect? ms 7
+
+. (b) In an atom, obeying L-S coupling,
+there are two normal triplets. The
+separations between adjacent
+components of lower triplet are 20
+and 40‘cm™ and for the higher
+
+' state triplet the separations are
+22 cm™ and 33 cm”. Determine
+
+D2(814) (Continued)
+
+
+
+--- Page 18 ---
+(5)
+
+the terms for the two triplet states
+and show the allowed transitions
+with the help of an energy level
+diagram. . 5%
+
+5. (a) What are Einstein coefficients for
+absorption and emission process
+‘between two levels? Compute the
+relation between them. 8
+
+(b) What do you mean by molecular
+spectra? Explain, in brief. — 42
+Or
+fa} Discuss the construction and
+working of a He-Ne Laser. With
+energy level diagram, explain
+reason for the narrow bore of the
+
+Laser tube. 8
+fb) Discuss the rate equations for a
+three-level Laser system. 4'%
+tok.
+
+D2(814)—500 - “REF NO. 059454
+
+
+--- Page 19 ---
+Total No. of Questions : 5] [Total No. of Printed.Pages : 5
+
+ROLL NO, .ocececccccceeeseenes
+REF NO. 059450
+
+B. Sc. (Hons) Semester VI Examination
+
+2022-23
+PHYSICS ;
+Paper No. BPT-603 : Elements of.Nuclear
+Physics
+Time : 3 hours ; Fuil Marks : 70
+
+(Write your Roll No. at the top immediately
+on the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+Answer all questions .
+
+1. Answer any five questions as given
+below : : . Ox4
+
+(a) All nuclides as made up of a -
+neutron-proton mixture that, we
+can call nuclear matter. What is its
+density?
+
+(b) Which of the following reactions are
+possible and why?—’
+
+f) nt+n>h+K*
+fii) p+p->K* +>x* . |
+D2(811)—500 : (Turn Over)
+
+
+--- Page 20 ---
+(c)
+
+(2)
+
+How much energy is necessary to
+split up an Alpha particle into its
+constituent nucleons?
+
+(M, =1- 008665u; My, =1:- 007825u,
+
+(d)
+
+(e)
+
+M (*He) = 4-00260u)
+
+Discuss the Q-value formula for all:
+
+three kinds of Beta decay.
+
+Carbon-11 transforms by f* decay.
+Determine the products of the
+reaction and the energy released.
+Ignore the mass of the emitted
+neutrino. The‘mass of Carbon-1 lis
+11-01 1434u.
+
+A relic is found ‘to give an activity
+
+count of 12 c.p.m. . (counts. per
+
+2. (a)
+
+D2(811)
+
+minute) for each gram of carbon. If
+living trees give a count of
+
+(16 c.p.m., find the approximate age.
+of the relic.
+
+Discuss experimental methods for
+
+charge radius measurement of
+nuclei. Explain it with proper
+diagram. Also’ estimate the
+minimum energy of the incident ion
+for determining the radius of the
+target nucleus.
+
+Tf
+
+(Continued)
+
+
+--- Page 21 ---
+(3)
+
+(b) Explain the néed for introducing
+the colour degree of freedom for the
+quarks. 5
+
+3. (a) Discuss the different properties of.
+nuclear force in detail and
+supporting experimental evidence. 7
+
+(b) The. decay of *%Es(l=7/2,2=+)
+leads to a sequence of negative-
+parity states in 74°Bk with I= 3/2,
+
+5/2, 7/2,9/2,11/2,13/2. For each
+
+state, find the permitted values
+
+of I,. . 5%
+Or
+
+(a) Explain the working of the VdG
+accelerator using suitable diagram. 7%
+
+(b) Describe the expression of Coulomb
+potential barrier in Alpha decay.
+Calculate the Coulomb potential
+barrier experienced by an Alpha
+particle in Alpha decay of |.
+-226Rn (Z = 86). , 5
+
+4. (a) An even-Z, even-N nucleus has the
+following: sequence of levels above
+its O* ground state : 2* (89 keV),
+4* (288 keV), 6* (585 keV),
+
+D2(811)—500 ‘ (Turn Over)
+
+
+--- Page 22 ---
+~~:
+
+(b
+
+(a)
+
+(4)
+
+Qt (1050 keV), 2* (1129 keV). Draw
+
+an energy level diagram and show
+all probable y transitions and. their
+dominant multipole assignments. | 64%
+
+For the following y-transitions, give
+all permitted . multipoles and
+indicate which multipole might be
+the most intense in the emitted
+radiation : 6
+fi) 9/27 > 7/2* ar
+fii) 1f2° > 7/2- | |
+(iii) 1° + 2*
+fiv) 4° > 2*
+(v) 11/27 = 3/2*
+(vi) 3* > 3*
+
+Or
+A beam of 8 MeV a-particles is
+incident upon a thin gold screen-
+(Z=79). Calculate the impact
+
+parameter for scattering an
+incident a-particle through an
+
+_ angle of 110°. — 4Y%,
+
+D2(811)
+
+(Continued)
+
+
+--- Page 23 ---
+(5).
+
+{b) Give the quark constituents of the
+members of the meson O° octet,
+baryon 1/2* octet and baryon 3/2"
+decuplet families. 8
+
+5. (a) Discuss about PMT using suitable
+diagram. Also explain about gain.
+and quantum efficiency. 4
+
+(b) In the semi-empirical mass
+formula, what experimental
+evidence does the pairing term 6
+account for? For a given value of
+the mass number A, nuclear
+masses can be expressed as a
+quadratic function in Z. Using the
+minimum isobar — formula,
+determine whether the -
+
+- 142Xe(Z.=54)isB* orB™ unstable. gy,
+
+kokok
+
+D2(81N)—500 REF NO. 059450
+
+
+--- Page 24 ---
+Total Printed Pages :4] [ROUT No, ssccsecsseesseessesennes
+
+59438
+B, Sc, (Hons.) Semester-V!
+Examination, 2022-23
+PHYSICS
+Paper : BPT-601
+(Statistical Mechanics)
+Time : Three Hours } { Full Marks : 70
+
+[ Write your Roll No, at the top immediately on the
+
+receipt of this question paper.]
+
+Note: All questions are compulsory.
+
+1. Answer any four of the following questions :
+
+(a)
+
+| 5x 4=20
+What is ergodic hypothesis ? Explain with the
+help of an example of a physical system.
+
+(b) A coin is tossed 100 times. Find the probability
+
+(¢)
+(d)
+
+of obtaining 50 heads. Compute the root-mean-
+square deviation. Explain the result. Justify any
+approximations used in the calculation.
+
+Estimate the room temperature specific heat of
+one gram of solid copper. Justify your result.
+Explain the meaning of the term ‘Phase space’.
+Find the available phase space of a classical free
+particle, moving in a one-dimensional space
+between x = -L and x = +L, and with energy
+between E and E + A (A << E). What are the
+dimensions of this phase space volume ?
+
+Oxygen is a paramagnetic gas obeying Langevin's
+theory of paramagnetism. Its susceptibility per
+unit volume, at 293 K and at atmospheric
+
+P.T.O.
+
+
+--- Page 25 ---
+59438
+
+pressure, is 1.80 x 10° MKS units. Determine its
+molecular magnetic moment and express it) in
+
+‘Bohr magneton units (pg = 9.27 x 10724 amp- m? ).
+
+2. (a) Two random walkers start out together at the
+
+origin each having the same probability ' of
+
+making a step to the Jeft or to the right along the
+x-axis. Assuming that they make their steps
+simultaneously, find (i) the probability that they
+meet again after N steps, (ii) they do not meet
+after N steps. 5
+
+(b) State and explain Liouville’s theorem (No proof, or
+derivation is necessary). Verify this theorem for
+the density function p(q, p) = C exp(-H (q, p)/kT)
+where C is a constant and H is the Hamiltonian
+of a system of N independent classical harmonic
+oscillators. 7
+
+. Consider a two-level system of N (classical) free
+particles in which the allowed energies of the particles
+are 0 and ¢ (e > 0). Let np and ni be the number of
+particles in the states with energies 0 and ‘¢,
+respectively. Let the total energy of the system be U. |
+
+(i) Derive an expression for the entropy of the
+system.
+
+(ii) Find the temperature as a function of U and
+make a neat sketch of the variation of U as a
+function of T.
+
+(iii) Find an expression for its specific heat. Make!a
+neat sketch of its temperature variation. 13
+
+OR
+(2)
+
+
+--- Page 26 ---
+59438
+
+Derive the canonical partition function of an extreme
+relativistic gas consisting of N particles. (Write down
+the energy-momentum relationship by neglecting the
+mass-energy of the particles). Derive a relationship
+between its pressure and its energy density. Find its
+
+entropy, and the a ratio.
+
+4. (a)
+
+(b)
+
+(a)
+
+v
+
+The density of solid copper is 8.96 gm/ cnt.
+Atomic weight of copper is 63.55. Assume one
+conduction electron per Cu atom. Explain why
+the conduction electrons can be treated as a
+degenerate Fermi gas. Find the Fermi energy (in
+eV) of the conduction electron gas in Cu.
+Calculate the corresponding Fermi temperature
+(in Kelvin). Find the average energy per electron
+at zero temperature.
+
+Why is the electronic specific heat of conduction
+electrons in copper, at room temperature is about
+1% of the value expected from the equipartition
+law ? Explain by a rough estimation. 5
+
+OR
+
+Write down the Fermi-Dirac and Bose-Einstein
+distribution functions, and explain the terms in
+those functions. Show that they reduce to the
+Maxwell-Boltzmann distribution in the classical
+limit. Show that in the classical limit of those
+quantum distribution functions the Gibbs’
+paradox is automatically resolved {ie., the
+partition function is not the same as the MB
+partition function for distinguishable particles). 7
+
+(3) P.T.O.
+
+
+--- Page 27 ---
+59438
+
+(b) Starting from the expression of partition function,
+
+5. (a)
+
+obtain the quantum statistical distribution
+function for a photon gas. Explain why the
+chemical potential is zero in this case. 6
+
+Consider a system of two _ localized and
+independent quantum harmonic oscillators ' of
+angular frequencies w and 3. Find the number
+of microstates when they share a total energy :
+(i) 10 Aw and (ii) 12 ho. 6
+
+A sample of a long-lived radionuclide gives 939
+counts in 3 minutes. What is the probability that
+exactly 26 counts would be observed in 5
+seconds ? Justify any approximations that you use
+in the calculation. 6
+Some useful Information: |
+Boltzmann's constant, ky = 1.38 x 10-7] /K
+Avogadro number, N , = 6.022 x 10 mole!
+Electron mass, m, =9.11x 19°3! kg
+
+Planck's constant, ! =6.62 x 1074 Js
+Permeability of vacuum, fg = 47 x 10°7 H/m
+1 atmosphere = 1.0 x 10°N/m?
+
+mt =3.141592
+
+Stirling's formula: nl=n"e"" J2nn
+
+(4) 500
+
+
+--- Page 28 ---
+nn 2
+,
+
+Total Printed Pages :3] [ROI NO. sesscssssssscseseesee
+
+59444
+B. Sc, (Hons.) Semester-VI
+Examination, 2022-23
+PHYSICS
+Paper : BPT-602
+(Solid State Physics)
+Time: Three Hours] { Full Marks : 70
+
+{ Write your Roll No, at the top immediately on the
+receipt of this question paper.]
+
+Note: Ali questions are compulsory (internal choice are
+
+there). All questions carry equal marks.
+
+1. Attempt any four of the following : 4x3.5
+
+(a) What are main differences in terms of structure
+
+among single crystalline, polycrystalline, quasi-
+crystalline and amorphous materials ?
+
+(b) State Bragg's law and Laue's condition for X-ray
+diffraction. Show that they are equivalent.
+
+(c) What are differences in the assumptions of the
+Drudes model and the Sommerfeld's model
+for free electron theory of metals ? What do you
+understand by ‘independent electron
+approximation’ ?
+
+(d) What is the difference between mirror and
+inversion symmetries ? Explain with suitable
+diagram.
+
+
+--- Page 29 ---
+59444
+
+{e)
+
+2. (i)
+
+3. (i)
+
+(i)
+
+Draw the E-k diagram of a nearly free electron in a
+1D periodic potential. How is it different
+from the E-k diagram of a free electron? Explain
+briefly. |
+
+What do you understand by reciprocal lattice ?
+Establish relationship between the _ real
+lattice and the reciprocal lattice. Describe Ewald
+construction. (ii)Show that the reciprocal lattice
+
+for FCC lattice is a BCC lattice. | 14
+
+Draw a FCC lattice and write down the lattice
+constants of the primitive unit cell. (ii) Determine
+the packing fraction of this FCC lattice. (iii) Which
+is the closed-packed plane (CCP) and close-
+packed direction in FCC lattice ? (iv) How many
+CCPs are there in a FCC lattice ? | 14
+
+OR
+
+Using Sommerfeld theory, find out the
+components of the drift velocity of electrons in
+presence of electric and magnetic field. (ii) What is
+Hall field ? Derive the relation for the Hall
+coefficient of metal. Discuss utilities of Hall effects
+in determining properties of a material. 14
+
+4. Derive the transcendental equation in the Kronig-
+Penny model. Which parameters in the Kronig-Penny
+model determine the magnitude of the band gap?
+Explain briefly. 14
+
+(2)
+
+
+--- Page 30 ---
+59444
+OR
+
+Derive the dispersion relations for ]-dimensional
+diatomic lattice vibrations and draw dispersion curves.
+Show the atomic vibrations in optical and acoustical
+branches at K + 0 and at K = x/2a (where ‘2a’ is the
+periodicity). 14
+
+Define magnon. Establish the dispersion relation for
+the magnon of a ferromagnet. Show that each spin
+precesses circularly about the z-axis. At long
+wavelength region, compare the dispersion relation of
+magnon with that of phonon. Draw these plots. 14
+
+(3) 500

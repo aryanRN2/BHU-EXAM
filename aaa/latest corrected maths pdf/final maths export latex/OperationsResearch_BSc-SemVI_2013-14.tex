@@ -1,0 +1,143 @@
+% BHU PYQ -- Manually transcribed & error-corrected
+% Paper: MTB-605 : Operations Research
+% Exam: B.A./B.Sc. (Hons) Semester VI Examination, 2013-14
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={MTB-605: Operations Research -- BHU B.A./B.Sc. Sem VI 2013-14}}
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{MTB-605: Operations Research}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.A./B.Sc. (Hons) --- Semester VI Examination, 2013-14}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. MTB-605: Operations Research}\\[4pt]
+  {\normalsize Time: 3 Hours \hfill Full Marks: 70}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer \textbf{five} questions including Question~1 which is compulsory. Figures in right-hand margin indicate marks.}
+\bigskip
+
+\noindent\textbf{Question 1.}
+\begin{parts}
+  \item Describe degeneracy in the solution of a transportation problem. \pts{2}
+  \item Define a hyperplane and a polytope. \pts{2}
+  \item Test whether $S = \{(x,y): x \le 4,\, y \ge 2\}$ is convex or not. \pts{2}
+  \item Discuss loops and their properties in the context of solving a transportation problem. \pts{2}
+  \item In the two-phase method for solving the LPP: Minimize $2x_1 + 3x_2$ subject to $4x_1 + 2x_2 \ge 12$, $x_1 + 4x_2 \ge 6$, $x_1, x_2 \ge 0$, construct the table for Phase-I. \pts{2}
+  \item Prove that a hyperplane is a convex set. \pts{2}
+  \item Consider optimization with equality constraints. Construct the Lagrange function and write the necessary conditions for stationary points. \pts{2}
+  \item Write conditions on the Hessian matrix for a stationary point to be a saddle point. \pts{2}
+  \item Write the dual of the primal: Maximize $Z = 3x_1 + 5x_2$ subject to $x_1 + 2x_2 + x_3 = 5$, $-x_1 + 3x_2 + x_4 = 2$, $x_1, x_2, x_3, x_4 \ge 0$. \pts{2}
+  \item Transform into standard form: Minimize $Z = 2x_1 + 3x_2 - x_3$ subject to $|x_1 + x_2| \le 4$, $x_1 + x_2 + x_3 \ge 5$, $x_1 \ge 0$, $x_2, x_3$ unrestricted. \pts{2}
+  \item Examine whether $(1, 0, 1)$ is a basic solution of $x_1 + x_2 + x_3 = 2$, $x_1 - x_2 + x_3 = 2$. \pts{2}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 2.}
+\begin{parts}
+  \item Prove that the set of all convex combinations of a finite number of points of a set $S \subset \mathbb{R}^n$ is a convex set. \pts{5}
+  \item Let $x_1 = 1$, $x_2 = 2$, $x_3 = 1$, $x_4 = 0$ be a feasible solution to $11x_1 + 2x_2 - 9x_3 + 4x_4 = 6$, $15x_1 + 3x_2 - 12x_3 + 5x_4 = 9$. Reduce this to a basic feasible solution. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Show that the set of all feasible solutions to the LPP $Z = C^T x$ subject to $Ax = b$, $x \ge 0$ is a convex set. \pts{5}
+  \item Solve the LPP using the Big-M (penalty) method: Maximize $Z = 2x_1 + x_2 + 3x_3$ subject to $x_1 + x_2 + 2x_3 \le 5$, $2x_1 + 3x_2 + 4x_3 = 12$, $x_1, x_2, x_3 \ge 0$. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Prove that the dual of a dual is the primal. \pts{5}
+  \item Find the dual of the LPP: Maximize $Z = 5x_1 + 12x_2 + 4x_3$ subject to $x_1 + 2x_2 + x_3 \le 5$, $2x_1 - x_2 + 3x_3 \le 2$, $x_1, x_2, x_3 \ge 0$, and hence solve it. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Find the Initial Basic Feasible Solution (IBFS) by Vogel's Approximation Method (VAM) and the matrix minima method for the transportation problem below. Do they differ?
+  \begin{center}
+  \begin{tabular}{|ccccc|c}
+  \hline
+   & $D_1$ & $D_2$ & $D_3$ & $D_4$ & $D_5$ & Supply \\
+  \hline
+  $S_1$ & 2 & 3 & 4 & 5 & 6 & 8 \\
+  $S_2$ & 3 & 4 & 5 & 6 & 7 & 9 \\
+  $S_3$ & 4 & 5 & 6 & 7 & 8 & 13 \\
+  \hline
+  Demand & 10 & 3 & 4 & 13 & & \\
+  \hline
+  \end{tabular}
+  \end{center} \pts{5}
+  \item Solve the LPP using the revised simplex method: Maximize $f = -4x_1 - 3x_2$ subject to $5x_1 + x_2 \ge 11$, $-2x_1 - x_2 \le -8$, $x_1 + 2x_2 \ge 7$, $x_1, x_2 \ge 0$. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 6.}
+\begin{parts}
+  \item State and prove the necessary condition(s) for extreme points of $f: \mathbb{R}^n \to \mathbb{R}$ with continuous partial derivatives. \pts{5}
+  \item Using Karush-Kuhn-Tucker (KKT) conditions, solve: Maximize $f(\mathbf{x}) = x_1^2 + x_2^2 + 5x_1 x_2 x_3$ subject to $x_1^2 - x_2^2 + x_3^2 = 10$, $x_1^2 - x_2^2 + 4x_3^2 \ge 20$. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 7.}
+\begin{parts}
+  \item Solve the assignment problem to \textit{maximize} the expected return of assigning a job to a machine:
+  \begin{center}
+  \begin{tabular}{|cccc}
+  \hline
+   & $M_1$ & $M_2$ & $M_3$ & $M_4$ \\
+  \hline
+  $J_1$ & 42 & 35 & 28 & 21 \\
+  $J_2$ & 30 & 25 & 20 & 15 \\
+  $J_3$ & 30 & 25 & 20 & 15 \\
+  \hline
+  \end{tabular}
+  \end{center} \pts{5}
+  \item Find the least-cost transportation schedule using the NWC method for IBFS and then the UV (MODI) method for the optimal allocation:
+  \begin{center}
+  \begin{tabular}{|cccc|c}
+  \hline
+   & $W_1$ & $W_2$ & $W_3$ & $W_4$ & Supply \\
+  \hline
+  $F_1$ & 45 & 24 & 21 & 12 & 500 \\
+  $F_2$ & 35 & 20 & 14 & 16 & 400 \\
+  $F_3$ & 42 & 16 & 21 & 19 & 710 \\
+  \hline
+  Demand & 300 & 250 & 350 & 400 & \\
+  \hline
+  \end{tabular}
+  \end{center} \pts{7}
+\end{parts}
+
+\vfill\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+\end{document}

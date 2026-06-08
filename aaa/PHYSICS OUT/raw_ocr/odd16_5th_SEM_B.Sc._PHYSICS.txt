@@ -1,0 +1,824 @@
+--- Page 1 ---
+Total Printed Pages : 8 } E ROLL NOs: sssscssesssesscessoserees
+
+BS/Sem V/96
+
+B. Sc. (Hons.) Semester V
+Examination, 2016-17
+
+PHYSICS
+Paper : BPT-503
+
+(Quantum Mechanics)
+
+Time : Three Hours ] { Full. Marks : 70
+
+[Write your Roll No. at the top immediately on the
+receipt of this question paper.]
+
+Note: Answer all questions. Questions No. 1 is
+
+compulsory. All symbols have their usual meaning.
+
+(The numbers on the right hand side margin are the marks
+
+assigned each question.)
+
+1. Answer any four of the following : 4x4=16
+
+(a) An X-ray photon of wavelength 1.01 angstrom is
+scattered off a stationary electron at ninety
+
+degrees to the direction of incidence. Find the’
+
+P. T, O.
+
+
+--- Page 2 ---
+BS/Sem V/96
+
+(b)
+
+(c)
+
+(d)
+
+2. (a)
+
+wavelength of the scattered photon and the angle
+
+of scattering of the electron.
+
+Given four operators A, B, C and D, find which of
+these fulfill the condition of being a linear —
+operator. Given :
+
+Af(x) = f() + b ; Bg(x) = {gx)P? ; CH() = CH(x) 5
+Dy(x) = dy(x)/dx.
+
+where f(x), g(x), y(x) and '¥(x) are functions and
+
+b and c are constants.
+Find the result of the following commutators :
+[L2, LxJ and [x, La]
+
+What do you understand by the momentum
+operator ? Does it commute with the Hamiltonian
+
+operator for a free particle ? Explain briefly.
+Find the de Broglie wavelength of a proton of
+
+energy 1 MeV and an electron of energy 1 MeV.
+
+A particle of energy E is incident on a barrier of
+
+width ‘a’ and height 'U'. That is :
+
+V(x) = U between 0 < x <a and V(x) =0 forx <0 and x >a.
+
+(2)
+
+
+--- Page 3 ---
+(b)
+
+If the energy E < U, solve the Schrodinger
+Equation with appropriate boundary conditions
+to get reflection coefficient 'r' and transmission
+coefficient 't’.
+
+How do you explain the presence of the particle
+in the classically forbidden region ? Can you give
+
+two examples from Physics where you can
+
+observe this phenomenon ? 6.5
+
+The linear harmonic oscillator (LHO) has the.
+
+potential energy function :
+V(x) = (k/2)x’
+
+Is this a problem where defining the parity
+operator is useful ? Prove that the eigenvalues of
+
+the parity operator are good quantum numbers. 2
+
+Find the ground state wavefunction for the LHO
+by using the a-operator defined on the last page.
+
+Normalize the wavefunction obtained. 3
+
+Find the expectation value of the x operator for
+
+the ground state. 2
+
+(3) P.T.0.
+
+
+--- Page 4 ---
+BS/Sem V/96
+
+3. (a),
+
+(b)
+
+(a)
+
+Write the time-independent Schrodinger Eyuabon
+for the Hydrogen atom and carry out the
+separation of variables. Solve the radial equation
+and find the expression for energy eigenvalues.
+Explain the significance of the quantum numbers
+
+n, land m. 10
+
+Normalize the ground state wave functions for
+
+the Hydrogen atom,
+P(r, 8, b) = Nexp(-r/a)
+where a is the Bohr or atomic unit of length. 3.5
+OR
+Given a functions :
+A(k) = A where A is a constant for-K<k<+K
+
+and A(k) = 0 for all other values of k.
+
+Find the Fourier Transform of A(k) as defined :
+
+(x) = (1/2n)°% [exp (ikx) A(k)dx
+
+Sketch the wavepacket ‘Y(x) so obtained. If Ak is
+the width of A(k) and Ax is the width of the
+
+(4)
+
+
+--- Page 5 ---
+(c)
+
+4. (a)
+
+{c)
+
+V(x)
+
+Do/oeil vig
+wavepacket, then find and interpret the product
+
+AkAx. 5
+
+Hint : [A(k) may be taken as the amplitude
+
+-function and k is the wave vector]
+
+What do you understand by commutavity and
+
+compatibility ? Explain briefly. 1.5
+
+Derive the Uncertainty Relation between two
+non-communting operators A and B. Deduce the
+
+minimum uncertainty product. 7
+
+What do you understand by wave-particle duality
+or duality of matter ? Name two experiments that
+
+illustrate this duality. 2
+
+Describe the experiment first performed by
+Davisson and Germer to show electron
+
+diffraction. 4
+
+If an electron is perfectly confined to move in a
+box of length L, that is, it is moving under a
+
+potential :
+
+=0 0<x<Land V(x)=>«atx=Oandx=L
+
+(5) P.T.O.
+
+
+--- Page 6 ---
+DoO/oeHl Vi9O
+
+5. (a)
+
+find the set of possible energy values the electron
+may have. Also find the ground state and first
+excited state wavefunctions for the electron in the’
+
+box. Normalize these wavefucntions. 5.5
+
+Give L = 1A, find the lowest possible energy the
+
+electron might have in eV units. 2
+
+Use the angular momentum ladder operators L,
+
+and L- and the given commutation relations to
+find the eigenvalues and infer the eigenfunctions
+
+of the operators L’ and L,
+L. = Lx +iLy; L- = L. - iL, and [L’, L.] =0
+
+[Lx, Ly] = ih L, for cyclic order (x, y, Zz) h= J
+Tl
+
+[Li, Lj] = (ih/27) Ly for cyclic (i, j, k) 7
+
+Given the normalized wavefunction for the 1 $
+
+state of the Hydrogen atom :
+Rioo (r) = (1/na*) exp(-r 7 a)
+
+where a is the Bohr or atomic unit of length.
+
+(6)
+
+
+--- Page 7 ---
+(a)
+
+(d)
+
+BS/Sem V/96
+Find the (i) most probable distance of the electron
+from the origin and (ii) the expectation value of
+
+the operator r. 6.5
+OR
+
+Write the expression for the expectation value of
+an operator. How do you interpret the
+
+expectation value in terms of observables ? 16
+
+Derive the two Ehrenfest's relations, What is their
+
+significance in Quantum Mechanics ? 5
+
+Write the expression for the probability current in
+one dimension and derive the continuity equation
+for probability density. What is the physical
+
+interpretation of this equation ? 4
+Given (x) = A(exp (+ kx) + Bexp(—kx)
+
+Find the probability current from __ this
+
+wavefucntion. 2
+
+Find the momentum of a photon with energy of
+
+1 GeV. {
+a, = (1/2hma)”” [mex — ip]
+a (1/2hmo)**. [mex + ip]
+
+(7) P.T.O.
+
+
+--- Page 8 ---
+BS/Sem V/96
+
+Mass of proton = 1.673 x 10 kg;
+Mass of electron = 9.11 x 10" kg
+(h/2n) = 6.582 x 107! eV-sec = 1.054 x 10 Joule-se
+Boltzmann constant:
+k = 8.62 x 10° eV/K = 1” joule/K
+
+I(n, a) =] x"exp(-ax’)dx = 1, 3, 5.....(n+1)....(n/ a)°5/(2a)"/?2,
+
+(8) . 500
+
+
+--- Page 9 ---
+BS/Sem Vv/94
+
+BONG sssceccs cmsmsrmsumens sae
+B.Sc. (Hons.) SEMESTER V EXAMINATION 2016-17
+PHYSICS
+BPT - 501 : Mathematical Physics
+Time : Three hours Max. Marks : 70
+
+(WRITE YOUR ROLL NO. AT THE TOP IMMEDIATELY ON THE RECEIPT OF THIS QUESTION PAPER:
+
+Answer all questions. The figure in the right hand
+margin indicates marks.
+Unless otherwise specified the mathematical
+
+symbols have their usual meanings.
+
+1, Answer any five of the following: 5x 4= 20
+(a} Find the magnetic induction B (in spherical
+polar coordinates), given the magnetic vector
+potential A = ae Here m = mé, ie., a vector
+of constant magnitude pointing in the z
+direction.
+{b) What are covariant and contravariant vectors?
+Explain with a physics example each. i
+{c) If A is a (nonsingular) symmetric matrix, show
+that A? is also symmetric.
+(d} Evaluate v5. What happens at the origin?
+Explain.
+{e) Find the Fourier series of the function sin?{x),
+(-msxen). \
+(f) Normalize the Laguerre polynomial, L2(x) = 1- :
+
+2
+ax+5, Construct a second order, ordinary,
+
+
+--- Page 10 ---
+2)
+
+linear, homogeneous differential equation (2-
+
+ODE) that is satisfied by this polynomial.
+
+{a) Verify the following (in R%): 6
+€ipg€ipq = 254;
+EijkEpgk = Sipdjq — Sip Sig
+
+(b) Write down the spherical polar unit vectors in
+terms of Cartesian unit vectors. Using these
+calculate the partial derivatives of #,6,@ with
+respect to r,9,@. 62
+
+(OR)
+
+(a) Determine the circular cylindrical coordinate
+components of velocity and acceleration of a
+moving particle with position vector F(t). 6
+
+(b) Given a vector in spherical coordinates:
+
+*#+~—6, express it in Cartesian
+
+coordinates. 6%
+
+(a) JQ) = [Zsine) is one solution of Bessel
+
+equation. Find a linearly independent second
+solution (up to a constant). 5
+
+(b) Given the generating _ function g(%, t) =
+
+enet2te = eo Ha(x), show that
+Soe [H,Gd]* dx = 2"! Va. 72
+(OR)
+
+(a) Using the generating function
+
+(x,t) = = = YP, (x)e”, (It] < 0),
+
+V1-2xt+t?
+
+for Legendre Polynomials, show that
+
+—--(@)
+
+
+--- Page 11 ---
+1S)
+
+Prt’ (x) — Paoi' (x) = (2n + 1)P, (x).
+
+(Here ‘ stands for derivative with respect to x). 5
+(b) Solve (1 — x?) y" — 2xy' + n(n + Dy = 0, using
+
+the Frobenius method (about ‘x=0). Show that
+
+for integral values of n one of the solutions
+
+results in a polynomial. 7M.
+
+(a) By expressing the vector cross products in
+terms of the Levi-Civita symbols (Eijx), verify
+that (4x B).(¢xD)= (B.D)(A.2)- BAB). 5
+
+(b) Find the eigenvalues and (normalized)
+
+eigenvectors of A:
+
+10 0
+A=]0 1 “3.
+0 v2 O
+
+How are these related to the eigenvalues and
+
+eigenvectors of A-!? 2
+
+(a) Sketch a periodic square wave function that is
+also an even function. Choose the period to be
+2, and amplitude to be 1 (for half the period it
+is O and for the other half it is 1). Find the
+Fourier series for this periodic function. 642
+(b) The transformation relation between the unit
+vectors in circular cylindrical coordinates and
+
+Cartesian coordinates can be written as:
+
+p x
+@ =0 (3) Write down the matrix C and show
+3 5
+
+Zz.
+that it is orthogonal. 6
+
+Useful information: i x"e*dx =n! (n an integer}
+
+o—
+
+
+--- Page 12 ---
+
+
+--- Page 13 ---
+4/Sem V/9b
+ROM NO besiscanee core sons
+
+B.Sc.(Hons.) SEMESTER V EXAMINATION 2016-17
+Physics
+BPT-502 : Classical Mechanics
+
+Time : Three Hours Kuli Marks © 7@
+
+(Write your Roli No. at the top immediately on the receipt of this question pope
+
+Note : Answer All questions.
+
+Ql
+(a)
+
+(b)
+{c)
+
+(d)
+
+(e)
+
+2. (a)
+
+(i)
+(ii)
+
+(b)
+
+2. (a)
+
+(b)
+
+{c)
+
+Answer any Four of the following by
+How many generalized/quasigeneralized coordinates are required to describe tr:
+
+Rigid body in 3 dimension (ii) a solid sphere rolling with out slipping on a incined
+
+plane (iii) a spherical pendulm in 3 dimension.
+
+What is iso tropy of space? Prove the conservation law follows from it.
+
+A particle moving in a central force field located at r= 0 describes a Spiral.r¢
+
+Find the force law.
+
+‘The lagrangian of a system is given by
+
+LEE N=4mMH+A DP +H). F+UM,.
+
+a(t) and b (t) are arbitary vectos depend on time only.
+Find the equatious of motion for the system.
+
+A particle is coustraints to move on the surface of a cylinder and subjected to @ lores
+directed towards origin and propotional to the distance of the particle from th:
+origin. Find the quations of motion for the particle using Lagrange's multiplicr
+method.
+
+Consider a particle of man m is free to slide on a smoth helical wire whose ie: 3
+equations are f -k,Ze ag?
+
+Construct the Lagrangian of the system
+
+Find the equation of motion and solve it to discuss the motion of the particle (iL is
+
+released atrestat f 2R G20 720
+
+Construct the Hamiltonian of the system and find cononical equations of mo ton.
+OR
+
+Show that Lorent force for a charge particle in the clectro-magnetic field cat re
+
+obtained from a velocity dependent potential.
+
+Write the Lagrangian for a charge particle in the electro-magnetic ficld using thy ni!
+potential in part (a).
+
+Write down the Hamiltonian for a sysiem consisting an electron. a priton anda
+neutron. I low the Hamiltonian will be modified in presence of a uniform mx gneve
+field B= Bo (1+ 21)
+
+
+--- Page 14 ---
+Q.3
+
+(a)
+(b)
+
+(c)
+éd)
+
+4. (a)
+tb)
+
+(c)
+
+(d)
+
+(e)
+
+5. (a)
+
+(b)
+
+A particle of man m is moving ona plaue under an attractive central force given by
+Frys 4 ap >o
+a
+Find the effective potential for this system.
+Discuss the motion of the particle qualitatively for various total energy of the
+particle.
+Show that angular momentm of the particle is conserved.
+Show that position vector of the particle sweeps out equal area in equal time.
+
+Define canonical transformation. How it is useful?
+
+For what values of @ and B de the
+
+Q=q" cos B
+
+P=q" sin Bp
+
+is cononical?
+
+Find a suitable generating funetional for this canonical tranformation.
+
+mw? q?
+
+ami 2
+in terms of Q. P by using a canonical tranformation generated by Fy (gq, Q) = 4
+mw¢q? cot Q.
+
+Express the Haniltonian H =
+
+Calculata the Poisson Bracket
+iP bot Peay ae
+uv ck pe. (rx pp. Z}
+
+Shwo that if A and B are wo constants of motion then 1A. Bj ts also a constant of
+motion.
+
+State and prove virial theorem.
+OR
+
+A particle of man m is falling treely from a height h. Find the solution for the
+particle using Hamilton's Jacobi equation for it.
+
+Discuss the idea of mechanical similarity. U'se this to show that time of fall for a
+treely falling body is proportional to the square root of its amplitude.
+
+24444
+
+3+3
+
+Wt
+wo
+
+AV 4a}
+
+T15
+
+
+--- Page 15 ---
+BS/Ser| V'97
+
+B.Sc. (Hons.) Semester V Examination 2016-2017
+Subject : Physics
+
+Paper No. : BPT-504_ : Electronics Devices and Circuits
+Full Marks 70)
+
+Time: Three Hours Pass Marks :
+The figures in the right hand margin indicate marks.
+Use of non-programmable calculator is allowed.
+
+Answer all questions
+
+Q.1 Answer in brief any five of the following:
+
+(a) What is the significance of threshold voltage in enhancement mode
+MOSFET?
+
+(b) Show that negative feedback improves the stability of the gain of a
+ampiifier.
+
+(c) Why UJT is not used as amplifier? Explain the condition under which it!
+used as relaxation oscillator.
+
+(d) What is meant by the CMRR in the case of OP-AMP? Why should it.
+
+value be very large?
+
+(e) Write the Boolean function represented by the K-map shown in figure an!
+
+simplify:
+BC BC BC BC
+= 1
+8] 1
+A \t 1 |
+Ali lo 1 fa
+(f) How cathode ray oscilloscope (CRO) is superior to ordinary measurirg
+
+instruments? How does Syne control help in obtaining a staan
+
+pattern?
+
+pT.G.
+
+
+--- Page 16 ---
+BS/Sem V/97
+
+(a) With necessary theory and diagrams, explain the construction, working 7
+and I-V characteristic of SCR. Why one cannot use germanium as a
+controlled rectifier?
+
+(b) Explain the condition under which a UJT exhibits negative resistance. 3
+
+(c) The firing voltage of UJT is I5V. It is connected to a series RC circuit 2.5
+such that it behave like an oscillator with R=50KQ and C=2000pf. If the
+source voltage is 40V. Determine the time period of the saw- tooth
+voltage across C.
+
+(a) Refer to basic common base amplifier configuration of Fig. shown below, 6
+the h-parameter values for the transistor used in this circuit are as follows:
+hy=4KQ, h,.=7x10", he=100, hye=50u mhos.
+
+Determine the following:
+i) current gain taking source and load resistance into account
+li) input resistance
+
+$ SRLEIKQ
+
+= f
+
++] i |
+
+(b) Explain in brief the high frequency Hybrid -mode! for CE transistor and ~ 2
+discuss its advantages.
+Or
+
+(a) What do you mean by power amplifiers? Give the circuit diagram of class
+A, class B and class C power amplifiers. Show that the maximum °>
+efficiency in class B amplifier is 78.5%.
+
+(b) What do you mean by non-linear distortion in a power amplifier circuit? 6
+Discuss a method to minimize such distortions.
+
+a) What do you mean by the term Amplitude Modulation? Derive the ¢
+expression of an amplitude modulated wave and discuss the frequency
+spectrum of the same.
+
+Give the truth table of the full adder and obtain the Boolean expressions
+for sum and carry from this table in SOP form. Simplify these Boolean 6
+expressions using K-map and implement the circuit of full adder using
+basic logic gate
+
+A)
+
+
+--- Page 17 ---
+Q.5
+
+BS/Sem 4/97
+
+(a) What is meant by feedback in the case of amplifier? How many type of
+
+feedback do you know? Draw tbe circuit diagram of a current series
+feedback amplifier. Show that the negative feedback improves the input
+and output resistances of an amplifier.
+
+(b) How does the feedback network of a Hartley oscillator differ from the
+feedback network of Colpitt’s oscillator? What will be the osciilator
+frequency in two cases?
+
+Or
+
+(a) Explain the difference among astable, monostable and _ bistable
+multivibrators.
+
+(b) Define the parameters 2, ra, and gm in the case of FET amplifier and
+establish the relationship among these parameters. How a FET is different
+from a bipolar transistor?
+
+i
+
+~~
+
+n
+
+
+--- Page 18 ---
+
+
+--- Page 19 ---
+BS/Sem V/45
+
+B.Sc. (Hons.) SEMESTER V EXAMINATION 2016-17
+PHYSICS
+BPT - 505: Electromagnetic Theory
+Time : Three hours Max. Marks : 7)
+
+(WRITE YOUR ROLL NO. AT THE TOP IMMEDIATELY ON THE RECEIPT OF THIS QUESTION PAPER:
+
+The figures in the right-hand margin indicate marks
+Answer all questions
+
+Mathematical symbols used in the text carry their usual meaning
+
+lL. 4x5
+(a) Show that the vector field ¥ = a,yz+ a, 2x + G, xy can be written as a gradiout of a
+scalar field f(x, y, Z).
+(b) If an infinitely long straight wire carries a uniform line charges p, what soula be
+
+the electric field at a distance z from this wire.
+
+(c) Ifa potential due to a continuous charge distribution is written as V@o = sar. f4dz:
+
+4MEg* “t
+
+obtain V?V(r).
+
+(d) A polarized wave is incident from air to polystyrene with uw * uo. 6 7 2.6 @ at
+Brewster angle. Determine the transmission angle.
+
+(e) Determine the state of the polarization for the wave whose electric field is given bs
+E(z,1)= F, (a, cos(ke - ot) - a, sin(ke - at))
+
+()) Calculate the intrinsic impedance of the free space.
+
+7
+(a) What is a linear medium? How do the Maxwell’s equatiorg modify in sich a linear
+dielectric. : 6
+(b) Does the Poynting vector correspond to dual character in the energy nomentum
+conservation in electrodynamics? Ifso, explain. 6
+3%
+(a) In a lossless medium for which 7 = 60n, uy = 1, and H=—-O.1. cos(m - z)a, +
+0.5 sin(wt — z) a, A/m, find the values of ¢, and w? 6
+
+(b) What is a phasor? The electric and magnetic fields in free space are given >)
+
+oe
+2g
+
+
+--- Page 20 ---
+(22
+
+E= = cos(108t + Bz)a, Vim and H = Ho cos(10%t + z)a,A/m. Find the phasor
+& “ p 2
+form of electric and magnetic fields. 6
+4,
+(a) How do the laws of electrostatics enforce boundary conditions on electric field arid
+the corresponding potentials? 6
+(b) Why does any net charge resides on the surface of a conductor? Explain. 6
+OR
+(a) Using the general solution of Laplace equation in the spherical polar co-ordinate with
+azimuthal symmetry, determine the potential. outside the surface of a hollow empty
+sphere of radius R if the surface potential is Vo(@) = k sin?(@/2), k, is a parameter.
+6
+(b) For a uniform B, show that A = — {i x B)such that V.A =OandV xA=B. 6
+5.
+
+(a) A standard air filled rectangular waveguide with dimensions a ~8.636cem,h 4.318
+cm is fed by a 4-GHz carrier wave from a co-axial cable. Determine if a 1’M:,; mode
+will be propagated. If so, calculate the phase and group velocities.
+
+6
+
+(b) Show that a rectangular waveguide does not support TM10 and TMO01 modes. 8
+
+OR
+
+(a) Derive the general expressions of the attenuation (a) and phase constants(/?) for the
+
+conducting media. 8
+
+(b) Prove that 1+ Jj) = 4 (sage
+t
+
+). where all symbols have their usual meaning. 6
+
+— o ——

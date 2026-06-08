@@ -1,0 +1,106 @@
+% BHU PYQ -- Manually transcribed & error-corrected
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BPT-401: Electromagnetic Theory and Basic Electronics (Old Course) -- BHU PYQ},pdfauthor={Banaras Hindu University}}
+
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BPT-401: EMT and Basic Electronics (Old)}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) Semester IV Examination, 2013-14 (Old Course)}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. BPT-401: Electromagnetic Theory and Basic Electronics}\\[4pt]
+  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer \textbf{five} questions including Question~1 which is compulsory. Symbols have their usual meanings.}
+\bigskip
+
+\noindent\textbf{Question 1.} Answer any \textbf{five} of the following: \pts{5 $\times$ 4 = 20}
+\begin{parts}
+  \item Prove that the divergence of the curl of any vector field vanishes: $\nabla \cdot (\nabla \times \vec{A}) = 0$.
+  \item Define scalar and vector potentials. How do you express the electric field $\vec{E}$ and magnetic field $\vec{B}$ in terms of these potentials?
+  \item Write down the four Maxwell's equations in differential form and briefly explain the physical meaning of each.
+  \item A material has conductivity $\sigma = 10^{-3}\,\text{S/m}$ and relative permittivity $\varepsilon_r = 2$. At what frequency would the conduction current density be equal to the displacement current density?
+  \item Describe the position of the Fermi level in an intrinsic and an extrinsic semiconductor. Discuss the effect of temperature on its position.
+  \item Why is a capacitor filter mostly used in a power supply rather than an inductor filter? Explain.
+  \item Explain how the current gain $\alpha$ is different from $\beta$. Establish the relationship between $\alpha$ and $\beta$ for a transistor.
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 2.}
+\begin{parts}
+  \item State and prove Gauss's divergence theorem. \pts{5}
+  \item Derive the electromagnetic wave equation for the propagation of a plane wave in a non-conducting isotropic dielectric medium. Obtain expressions for the propagation constant, intrinsic impedance, phase velocity, and group velocity. \pts{9}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 3.}
+\begin{parts}
+  \item State and prove Poynting's theorem for the conservation of energy in an electromagnetic field, and discuss the physical significance of each term in the equation. \pts{8}
+  \item Define depth of penetration (skin depth). Show that electromagnetic waves are heavily attenuated inside a good conductor. \pts{6}
+\end{parts}
+\hfill \textbf{OR}
+\begin{parts}
+  \item A plane wave travelling in a homogenous, isotropic, and linear dielectric medium is incident obliquely at a plane interface of another dielectric. Determine the reflection and transmission coefficients if the incident wave is polarized with its electric vector lying perpendicular to the plane of incidence. \pts{9}
+  \item What is a transmission line? Explain the different parameters of a transmission line. Determine the characteristic impedance of a lossless cable if the inductance per unit length $L = 0.25\,\mu\text{H/m}$ and capacitance per unit length $C = 100\,\text{pF/m}$. \pts{5}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Explain the depletion region in a p-n junction. Show that the width of the depletion region in the p-n junction decreases with the increase of doping impurity concentration. \pts{8}
+  \item Describe the working of a single-stage RC coupled common-emitter amplifier. Plot the frequency response of the amplifier and explain its features. \pts{6}
+\end{parts}
+\hfill \textbf{OR}
+\begin{parts}
+  \item Explain the working of a full-wave bridge rectifier having a capacitor filter with a suitable circuit diagram. Obtain the relationship for the ripple factor. \pts{8}
+  \item Why does a transistor need biasing? Draw the circuit diagram of a transistor self-bias (voltage divider bias) circuit. Explain how it provides better thermal stability than a fixed-bias circuit. \pts{6}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Starting from Maxwell's equations, derive the wave equation for the propagation of a plane electromagnetic wave in free space. Obtain the solution representing a plane wave propagating along the $+z$ direction. \pts{7}
+  \item Find the Brewster angle for a parallel-polarized wave travelling from air into glass for which $\varepsilon_r = 5.0$. \pts{4}
+  \item Explain the meaning of the Early effect. How does it affect the collector current in a junction transistor? \pts{3}
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

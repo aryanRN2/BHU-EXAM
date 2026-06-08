@@ -1,0 +1,118 @@
+% BHU PYQ -- Manually transcribed & error-corrected
+% Paper: MTB-511 : Probability
+% Exam: B.A./B.Sc. (Hons) Semester V Examination, 2022-23
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={MTB-511: Probability -- BHU B.A./B.Sc. Sem V 2022-23}}
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{MTB-511: Probability}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.A./B.Sc. (Hons) --- Semester V Examination, 2022-23}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. MTB-511: Probability}\\[4pt]
+  {\normalsize Time: 3 Hours \hfill Full Marks: 70}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer \textbf{five} questions including Question~1 which is compulsory. Figures in right-hand margin indicate marks.}
+\bigskip
+
+\noindent\textbf{Question 1.}
+\begin{parts}
+  \item Explain the axiomatic definition of probability. \pts{2}
+  \item Define $\sigma$-algebra with a suitable example. \pts{2}
+  \item If $\phi$ is the empty set, prove that $P(\phi) = 0$. \pts{2}
+  \item If $X$ is a binomial random variable with $E(X) = 2$ and $\text{Var}(X) = 4$, evaluate $P(X = 5)$. \pts{2}
+  \item Define the cumulative distribution function. \pts{2}
+  \item A card is drawn at random from a well-shuffled deck. Find the probability that it is a Spade or a King. \pts{2}
+  \item Define the partition of a sample space with an example. \pts{2}
+  \item Define entropy $H(X)$ and sample mean $M_n(X)$. \pts{2}
+  \item Explain mutual information $I(X;Y)$ for bivariate random variables. \pts{2}
+  \item Define joint density function and marginal density function for bivariate random variables. \pts{2}
+  \item If $X \sim N(\mu, \sigma^2)$, prove that all odd-order central moments are zero, i.e., $\mu_{2r+1} = E[(X-\mu)^{2r+1}] = 0$ for $r = 0, 1, 2, \dots$ \pts{2}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 2.}
+\begin{parts}
+  \item Let a random variable $X$ have the following probability distribution:
+  \begin{center}
+  \begin{tabular}{|c|cccccccc|}
+  \hline
+  $x$ & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\\hline
+  $P(x)$ & 0 & $k$ & $2k$ & $2k$ & $3k$ & $k^2$ & $2k^2$ & $7k^2+k$ \\\hline
+  \end{tabular}
+  \end{center}
+  Find (i) the value of $k$, (ii) $P(1.5 < X < 4.5 \mid X > 2)$, and (iii) the CDF of $X$. \pts{4}
+  \item The CDF of a random variable $X$ is given by $F(x) = 0$ if $x < 0$; $F(x) = 1 - \dfrac{(3-x)^2}{9}$ if $0 \le x < 3$; $F(x) = 1$ if $x \ge 3$. Find the PDF of $X$ and evaluate $P(|X| < 1)$ using both PDF and CDF. \pts{4}
+  \item The joint density function of $X$ and $Y$ is $f(x,y) = 6(1-x-y)$ for $x \ge 0$, $y \ge 0$, $x + y < 1$, and $0$ otherwise. Find the marginal density functions and verify whether $X$ and $Y$ are independent. \pts{4}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 3.}
+\begin{parts}
+  \item A first box contains $a$ white and $b$ black balls; a second box contains $c$ white and $d$ black balls. One ball is transferred from the first to the second, then one ball is drawn from the second. Find the probability that it is white. \pts{2}
+  \item The PDF of a random variable $X$ is $f(x) = kx(2-x)$ for $0 < x < 2$. Find $k$, the mean, variance, and CDF. \pts{4}
+  \item State and prove the Central Limit Theorem. \pts{6}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Prove that the Poisson distribution is a limiting case of the binomial distribution. \pts{4}
+  \item Find the MGF of a random variable $X$ uniformly distributed on $(a, b)$ and hence find its mean and variance. \pts{4}
+  \item If $X \sim \text{Exp}(\lambda)$, find its mean, variance, and MGF. \pts{4}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Let $X$, $Y$, $Z$ be jointly continuous with joint PDF $f(x,y,z) = k(x + 2y + 3z)$ for $0 < x, y, z < 1$, and $0$ otherwise. Find $k$ and the marginal PDFs of $X$, $Y$, $Z$. \pts{4}
+  \item If $X$ is binomial$(n, p)$, prove that its mean is $\mu = np$, variance $\sigma^2 = npq$, and that the central moments satisfy the recurrence $\mu_{r+1} = pq\left[r\mu_{r-1} + \dfrac{d\mu_r}{dp}\right]$. \pts{4}
+  \item Prove the memoryless property of the exponential distribution. \pts{4}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 6.}
+\begin{parts}
+  \item The joint density of $X$ and $Y$ is $f(x,y) = Cxy$ for $0 < x < 1$, $0 < y < 1$, and $0$ elsewhere. Find: (i) $C$; (ii) marginal densities of $X$ and $Y$; (iii) whether $X$ and $Y$ are independent; (iv) $P(X + Y \le 1)$. \pts{6}
+  \item If $X \sim N(\mu, \sigma^2)$, prove that $E(X) = \mu$ and $\text{Var}(X) = \sigma^2$. Also determine the MGF $M_X(t)$. \pts{6}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 7.}
+\begin{parts}
+  \item Let the joint PDF of $(X,Y)$ be $f(x,y) = \dfrac{8}{15}(x + y^2)$ for $0 < x < 1$, $0 < y < 1$, and $0$ otherwise. Obtain the marginal PDF of $X$, the conditional PDF of $Y$ given $X = 0.8$, and evaluate $E(Y \mid X = 0.8)$. \pts{6}
+  \item If $X$ has PDF $f(x) = \dfrac{1}{2}e^{-|x|}$ for $-\infty < x < \infty$, show that the MGF of $X$ is $M_X(t) = \dfrac{1}{1-t^2}$, which exists for $|t| < 1$. Hence find the mean and variance of $X$. \pts{6}
+\end{parts}
+
+\vfill\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+\end{document}

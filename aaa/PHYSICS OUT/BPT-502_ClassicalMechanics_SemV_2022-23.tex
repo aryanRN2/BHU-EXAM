@@ -1,0 +1,123 @@
+% BHU PYQ -- Manually transcribed & error-corrected
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BPT-502: Classical Mechanics -- BHU PYQ},pdfauthor={Banaras Hindu University}}
+
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BPT-502: Classical Mechanics}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) Semester V Examination, 2022-23}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. BPT-502: Classical Mechanics}\\[4pt]
+  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer all questions. Symbols have their usual meanings.}
+\bigskip
+
+\noindent\textbf{Question 1.} Answer any \textbf{four} of the following: \pts{4 $\times$ 5 = 20}
+\begin{parts}
+  \item Define non-holonomic constraints with examples. Show that the constraints of a rigid body are of holonomic type.
+  \item The Lagrangian of a system with $N$ degrees of freedom is given by:
+    \[ L(q_i, \dot{q}_i) = \frac{1}{2} \sum_{i=1}^N m_i \dot{q}_i^2 - \sum_{i,j=1}^N k_{ij} (q_i - q_j)^2 \]
+    Find the equations of motion for the system, where $i = 1, 2, \dots, N$.
+  \item The Hamiltonian of a system is given by:
+    \[ H(q, p) = \frac{p^2}{2\alpha} + \frac{kq^2}{2} e^{-\alpha t} - \beta q p e^{-\alpha t} \]
+    where $\alpha, \beta, k$ are constants. Find the Lagrangian of the system.
+  \item Find five different vector potentials $\vec{A}$ which produce the same uniform magnetic field $\vec{B} = 2\hat{i} + 3\hat{j} + 5\hat{k}$.
+  \item Find the central force that will cause a point particle of mass $m$ to describe a circular orbit passing through the center of force.
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 2.}
+\begin{parts}
+  \item A particle of mass $m$ is constrained to move on the surface of a cylinder $x^2 + y^2 = R^2$. The particle is subjected to a force directed towards the origin and proportional to the distance of the particle from the origin. Construct the Lagrangian of the system. \pts{7}
+  \item What is meant by \textit{homogeneity of space}? Derive the conservation law that follows from it. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 3.}
+\begin{parts}
+  \item A particle of mass $m$ is sliding on a smooth wire whose equation in cylindrical coordinates is given by $\rho = (z + a\theta)^2$, $z = b$, where $a, b$ are constants. Find the equation of motion for the particle using the Lagrange multiplier method. \pts{8}
+  \item Write down the Lagrangian of a charged particle in an electromagnetic field. Construct the Hamiltonian for the system and hence obtain the canonical equations of motion. \pts{6}
+\end{parts}
+\hfill \textbf{OR}
+\begin{parts}
+  \item A particle of mass $m$ is moving on a plane under an attractive central force given by:
+    \[ F(r) = -\frac{\alpha}{r^2} - \frac{\beta}{r^3}, \quad \alpha,\beta > 0 \]
+    \begin{parts}
+      \item Find the effective potential for this system and plot it approximately. \pts{4}
+      \item Discuss the motion of the particle qualitatively for various total energy values of the particle. \pts{4}
+      \item Show that the angular momentum of the particle is conserved. \pts{3}
+      \item Show that the position vector of the particle sweeps out equal areas in equal times. \pts{3}
+    \end{parts}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Define canonical transformation. Construct all possible generating functions ($F_1, F_2, F_3, F_4$) for the canonical transformation:
+    \[ Q = \frac{1}{p}, \quad P = q p^2 \] \pts{7}
+  \item Calculate the Poisson bracket $\{v_i, v_j\}$, where $v_i$ and $v_j$ represent the $i$-th and $j$-th components of velocity of a charged particle in the magnetic field $\vec{B}$. \pts{7}
+\end{parts}
+\hfill \textbf{OR}
+\begin{parts}
+  \item Define normal coordinates and normal frequencies of an oscillating system. Find the normal modes in the vibration of a CO$_2$ molecule, by considering a linear model of three masses $O - C - O$. What is the physical meaning of zero normal frequency? \pts{9}
+  \item A particle of unit mass moves under a one-dimensional potential:
+    \[ V(x) = x^4 - 2x^2 + 7 \]
+    Find the frequencies of small oscillations about the stable equilibrium positions of the mass. \pts{5}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 5.}
+\begin{parts}
+  \item In a dynamical system with two degrees of freedom, the Lagrangian is given by:
+    \[ L = \frac{\dot{q}_1^2 + \dot{q}_2^2}{2 (a + b q_2)} - (c q_1^2 + d q_2^2) \]
+    where $a, b, c, d$ are constants. Deduce the existence of a constant of motion. \pts{6}
+  \item Consider a simple harmonic oscillator in one dimension with angular frequency $\omega$. Show that the quantity:
+    \[ u(q, p, t) = \ln(p + i m\omega q) - i \omega t \]
+    is a constant of motion. \pts{6}
+  \item Find a suitable scaling under which the dynamics of the system described by:
+    \[ L(\dot{q}_1, \dot{q}_2, q_1, q_2) = \dot{q}_1^2 + \dot{q}_2^2 + 5\dot{q}_1\dot{q}_2 - 3q_1^2 - 5q_2^2 - 11q_1 q_2 \]
+    remains invariant. \pts{8}
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

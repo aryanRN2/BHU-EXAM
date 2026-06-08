@@ -192,9 +192,12 @@
                     </div>
                 </button>
                 <!-- Mid Term -->
-                <button onclick="selectPracticeMode('midterm')" class="p-5 md:p-6 rounded-2xl border border-neutral-800 bg-black text-white hover:border-accent-neural-purple hover:bg-neutral-900 transition-all duration-300 text-left flex flex-col gap-3 group hover:shadow-[0_8px_30px_rgba(168,85,247,0.15)] hover:scale-[1.02] active:scale-[0.98]">
-                    <div class="w-10 h-10 rounded-full bg-accent-neural-purple/10 border border-accent-neural-purple/30 flex items-center justify-center text-accent-neural-purple group-hover:bg-accent-neural-purple group-hover:text-white group-hover:border-transparent transition-all duration-300">
-                        <span class="material-symbols-outlined text-lg">edit_calendar</span>
+                <button onclick="alert('Mid Term Preparation is coming soon!')" class="p-5 md:p-6 rounded-2xl border border-neutral-800 bg-black text-white hover:border-accent-neural-purple hover:bg-neutral-900 transition-all duration-300 text-left flex flex-col gap-3 group hover:shadow-[0_8px_30px_rgba(168,85,247,0.15)] hover:scale-[1.02] active:scale-[0.98]">
+                    <div class="flex justify-between items-start w-full">
+                        <div class="w-10 h-10 rounded-full bg-accent-neural-purple/10 border border-accent-neural-purple/30 flex items-center justify-center text-accent-neural-purple group-hover:bg-accent-neural-purple group-hover:text-white group-hover:border-transparent transition-all duration-300">
+                            <span class="material-symbols-outlined text-lg">edit_calendar</span>
+                        </div>
+                        <span class="text-[8px] font-bold text-white/70 bg-white/10 px-2 py-0.5 rounded uppercase tracking-wider mt-1">Coming Soon</span>
                     </div>
                     <div>
                         <h4 class="font-bold text-sm text-white group-hover:text-accent-neural-purple transition-colors">Mid Term Preparation</h4>
@@ -202,9 +205,12 @@
                     </div>
                 </button>
                 <!-- Lab Practice -->
-                <button onclick="selectPracticeMode('lab')" class="p-5 md:p-6 rounded-2xl border border-neutral-800 bg-black text-white hover:border-accent-neural-blue hover:bg-neutral-900 transition-all duration-300 text-left flex flex-col gap-3 group hover:shadow-[0_8px_30px_rgba(59,130,246,0.15)] hover:scale-[1.02] active:scale-[0.98]">
-                    <div class="w-10 h-10 rounded-full bg-accent-neural-blue/10 border border-accent-neural-blue/30 flex items-center justify-center text-accent-neural-blue group-hover:bg-accent-neural-blue group-hover:text-white group-hover:border-transparent transition-all duration-300">
-                        <span class="material-symbols-outlined text-lg">science</span>
+                <button onclick="alert('Lab Preparation is coming soon!')" class="p-5 md:p-6 rounded-2xl border border-neutral-800 bg-black text-white hover:border-accent-neural-blue hover:bg-neutral-900 transition-all duration-300 text-left flex flex-col gap-3 group hover:shadow-[0_8px_30px_rgba(59,130,246,0.15)] hover:scale-[1.02] active:scale-[0.98]">
+                    <div class="flex justify-between items-start w-full">
+                        <div class="w-10 h-10 rounded-full bg-accent-neural-blue/10 border border-accent-neural-blue/30 flex items-center justify-center text-accent-neural-blue group-hover:bg-accent-neural-blue group-hover:text-white group-hover:border-transparent transition-all duration-300">
+                            <span class="material-symbols-outlined text-lg">science</span>
+                        </div>
+                        <span class="text-[8px] font-bold text-white/70 bg-white/10 px-2 py-0.5 rounded uppercase tracking-wider mt-1">Coming Soon</span>
                     </div>
                     <div>
                         <h4 class="font-bold text-sm text-white group-hover:text-accent-neural-blue transition-colors">Lab Preparation</h4>
@@ -275,30 +281,33 @@
                     <div class="w-2 h-2 bg-primary rounded-full"></div><div class="w-2 h-2 bg-primary rounded-full"></div><div class="w-2 h-2 bg-accent-neural-emerald rounded-full"></div><div class="w-2 h-2 bg-primary rounded-full"></div>
                 </div>
                 <div class="relative z-10">
-                    <span class="text-xs font-bold text-accent-neural-emerald mb-3 block uppercase tracking-widest">LaTeX Portal</span>
-                    <h3 class="text-2xl md:text-3xl font-bold mb-3 text-primary group-hover:text-accent-neural-emerald transition-colors">NEP Pattern PYQs (LaTeX)</h3>
-                    <p class="text-sm text-secondary max-w-md leading-relaxed mb-4">Access premium transcribed past year papers (Mathematics, Physics, Chemistry) in raw LaTeX format. View source code directly or download raw .tex files.</p>
+                    <span class="text-xs font-bold text-accent-neural-emerald mb-3 block uppercase tracking-widest">NEP Portal</span>
+                    <h3 class="text-2xl md:text-3xl font-bold mb-3 text-primary group-hover:text-accent-neural-emerald transition-colors">NEP Pattern PYQs</h3>
+                    <p class="text-sm text-secondary max-w-md leading-relaxed mb-4">Access premium transcribed past year papers (Mathematics, Physics, Chemistry) in high-quality compiled PDF format.</p>
                     <div class="inline-flex items-center gap-1.5 text-xs font-bold text-primary group-hover:translate-x-1 transition-transform duration-200">
-                        <span>Browse NEP LaTeX Papers</span>
+                        <span>Browse NEP Papers</span>
                         <span class="material-symbols-outlined text-sm">arrow_forward</span>
                     </div>
                 </div>
             </div>
 
             <!-- Row 2: Four medium cards (3 + 3 + 3 + 3) -->
-            <div class="md:col-span-3 bento-card glass-panel rounded-2xl p-6 flex flex-col justify-between group hover:bg-white/60 transition-colors min-h-[200px]">
-                <span class="material-symbols-outlined text-primary text-3xl">psychology</span>
+            <div onclick="window.location.href='contributors.html'" class="md:col-span-3 bento-card glass-panel rounded-2xl p-6 flex flex-col justify-between group hover:bg-white/60 transition-colors min-h-[200px] cursor-pointer">
+                <span class="material-symbols-outlined text-primary text-3xl group-hover:scale-110 transition-transform duration-300">group</span>
                 <div>
-                    <div class="inline-flex items-center gap-1.5 bg-accent-bhu-saffron/10 text-accent-bhu-saffron text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider mb-2">Live Now</div>
-                    <h4 class="text-lg font-bold text-primary mb-1 leading-snug">AEC Sem 4 Writing</h4>
-                    <p class="text-xs text-secondary leading-relaxed">Syllabus including Plagiarism, Citations, & Formatting.</p>
+                    <div class="inline-flex items-center gap-1.5 bg-accent-neural-emerald/10 text-accent-neural-emerald text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider mb-2">The Team</div>
+                    <h4 class="text-lg font-bold text-primary mb-1 leading-snug">Contributors</h4>
+                    <p class="text-xs text-secondary leading-relaxed">Meet the developers and resource contributors.</p>
                 </div>
             </div>
 
-            <div onclick="openBooksModal()" class="md:col-span-3 bento-card bg-primary text-on-primary rounded-2xl p-6 flex flex-col justify-between hover:bg-neutral-800 transition-colors cursor-pointer group min-h-[200px]">
-                <span class="material-symbols-outlined text-3xl text-accent-bhu-saffron group-hover:scale-110 transition-transform duration-300">library_books</span>
+            <div onclick="alert('Reference Books and Notes are coming soon!')" class="md:col-span-3 bento-card bg-primary text-on-primary rounded-2xl p-6 flex flex-col justify-between hover:bg-neutral-800 transition-colors cursor-pointer group min-h-[200px]">
+                <div class="flex justify-between items-start">
+                    <span class="material-symbols-outlined text-3xl text-accent-bhu-saffron group-hover:scale-110 transition-transform duration-300">library_books</span>
+                    <span class="text-[10px] font-bold text-white/70 bg-white/10 px-2 py-1 rounded-full uppercase tracking-wider">Coming Soon</span>
+                </div>
                 <div>
-                    <h4 class="text-lg font-bold text-white mb-1 leading-snug">Reference Books</h4>
+                    <h4 class="text-lg font-bold text-white mb-1 leading-snug">Reference Book and Notes</h4>
                     <p class="text-xs text-white/50 leading-relaxed">Free PDF downloads of official textbooks & guides.</p>
                 </div>
             </div>

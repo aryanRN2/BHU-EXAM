@@ -1,0 +1,1182 @@
+--- Page 1 ---
+Total No. of Questions : 8] [Total No. of Printed Pages : 7
+
+BS/Sem VI/215
+
+B. Sc. (Hons) Semester VI Examination
+
+2013-14
+CHEMISTRY
+Paper No. CHB-601 : Analytical Chemistry-I
+Time : 3 hours Full Marks : 70
+
+(Write your Roll No. at the top immediately on
+the receipt of this question paper)
+The figures in the right-hand margin indicate marks
+Answer five questions including Question 1
+which is compulsory
+1. Choose the correct answers of the
+following : 14x]
+(a) Beer’s law is obeyed only with a
+(i) oblong cell
+(ii) rectangular cell
+(iii) cylindrical cell
+(iv) conical cell
+(b} The units of transmittance and molar
+absorptivity are
+@ cm'g'L and no unit,
+respectively
+D/4(195)—500 (Turn Over)
+
+
+--- Page 2 ---
+(2)
+
+fii) both have no units
+
+(ii) cm7!L mol and cm™ mol fee
+respectively
+
+(iv) no unit and cm! mol”? L
+
+{c) Which one of the following is 2-D
+
+chromatography?
+f) GC
+(ii) HPLC’
+
+(iii) Paper chromatography
+(iv) lon-exchange chromatography
+
+(d) The efficiency of a chromatographic
+column can be increased by
+
+(i) increasing plate height
+(ii) decreasing plate height
+(iti) increasing length of the column
+
+(iv) decreasing length of the column
+
+(e) Which of the following is a correct
+relation?
+
+fi) log %T = a> 100
+(ii) log %T atx 100
+t
+
+D/4(195) (Continued)
+
+
+--- Page 3 ---
+(3)
+
+(ii) A=2-0-log%T
+(iv) A=log %T-2
+(f) Beer’s law is obeyed in the case of an
+aqueous solution of a weak acid, if
+() — solution is made acidic
+(ii) solution is made basic
+(iit) solution is made neutral
+(iv) solution is made dilute
+
+(g) The distribution constant (K) for iodine
+between an organic solvent and water
+is 85. What is concentration of Ig
+remaining in aqueous layer after
+extraction of SO mL of 1.00103 M1,
+with the 50:0 mL of the organic
+solvent?
+
+f) 1-00x103 uw
+
+fi) 5-28x10-7 M
+
+(ti) 1-16x10°% y
+fiv) 5-29x10-!
+
+(fh) A 7-25x10-> M KMNO, solution has
+
+transmittance 10% when measured in
+a cell at a wavelength of 525 nm, The
+absorbance of this solution is
+
+f) 2:00
+D/4(195) (Turn Over)
+
+
+--- Page 4 ---
+(4)
+
+fii) 1-00
+(iii) 0-20
+fiv) 0-10
+
+fi) The photometric error is minimum
+when the transmittance is about
+
+(i) 0-368
+(ii) 0-300
+(iii) 0-312
+fiv) 0-325
+
+(jj) Adsorption chromatography is a best
+separation technique for
+
+(i) charged species
+
+(ii) non-polar compounds
+(iii) ion-pairs
+
+{iv) halide compounds
+
+(k) The half-life, ty;2, can be correlated
+with the decay constant (i) of a
+radioactive isotope by the expression f
+
+(i) tyyg =A
+(ii) tyjg eH
+
+fii) t c=
+) tia ey
+
+D/4(1
+/4(198) (Continued)
+
+
+--- Page 5 ---
+
+
+--- Page 6 ---
+(7)
+
+(c) Compound X_ exhibits a molar
+absorptivity of 2-45x10* at 450 nm.
+What concentration of X in a solution
+causes a 25% decrease in the radiant
+power at 450 nm (cell length 10cm)? 4
+
+7. (2) What is Ringbom-Ayres plot? Discuss
+its advantages and limitations. 6
+
+(b) Give an account of photometric errors
+in spectrophotometry. 8
+
+8. Illustrate one-component and two-
+component analysis using a
+spectrophotometer. Discuss the unit of a
+spectrophotometer with the help of a block
+diagram. 14
+
+kak
+
+D/4(195}-500 BS/Sem VI/215
+
+
+--- Page 7 ---
+(6)
+
+(b) Forth millilitres of 0-20 M butyric acid
+is extracted with 20 mL ether. After the
+layers are separated, it was found that
+1-0 mmol butyric acid remained in the
+aqueous ._ layer. Calculate _ the
+distribution ratio.
+
+3. Illustrate the following solvent-extraction
+
+techniques : 4x3%
+
+(a) Multiple extraction
+(b) Synergic extraction
+(c) lon-pair extraction
+(a) Chelate extraction.
+4. Classify chromatographic methods. Write
+
+the general principle and methodology of
+ion-exchange chromatography.
+
+5. Write short notes on any two of the
+following :
+(a) Radio analytical methods
+(b) Craig counter-current distribution
+(c) Partition chromatography
+(d) Adsorption chromatography.
+
+6. (a) State and derive Beer’s law.
+(b) Write limitations of Beer’s law.
+
+D/4(195) (Continued)
+
+
+--- Page 8 ---
+(5)
+
+() The solute polarities are in the
+order A>B>C. In_ reverse-phase
+chromatography the order of elution
+will be
+(i) A>B>C
+fii) C>B>A
+fii) B>C>A
+fv) B>A>C
+
+(m) Which technique does not involve
+phase separation?
+
+(i) Fractional distillation
+fii) Solvent extraction
+(iii) Gas chromatography
+(iv) IR spectroscopy
+
+(n) The iron (III) can be extracted from HCi
+into diethyl ether as
+
+f) FeCl,
+
+(i) FeCl,
+
+fii) {(CgHs)O : H", FeCl4[(CgHs)20] 2}
+fiv} [(C2H5)20]2 FeCl -2H"
+
+2. (a) Differentiate between ‘distribution
+coefficient’ and ‘distribution ratio’, 6
+
+DMs Du Oe
+
+
+--- Page 9 ---
+Total No. of Questions : 8] [Total No. of Printed Pages : 5
+
+RODENG j sciscsesseiesnvsssnse
+BS/Sem VI/216
+
+B. Sc. (Hons) Semester VI Examination
+2013-14
+
+CHEMISTRY
+Paper No. CHB-602 : Inorganic Chemistry-IV
+
+Time : 3 hours Full Marks : 70
+
+(Write your Roll No. at the top immediately on
+the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+
+Answer five questions including Question 1
+which is compulsory
+
+1. (a) What are  microstates? Evaluate
+number of microstates and derive all
+the spectroscopic states for d* metal
+ion. , 3
+
+(b) Comment on the structure and
+magnetic properties of
+Nay[Fe(CN);NO]. 2
+
+(c) Indicate the geometry around the
+metal ions in the following complexes
+on the basis of magnetic moment
+data: 2
+
+fi) — Ni(ll) complex, 4-0 BM
+
+D/4(209}—S00 (Turn Over)
+
+
+--- Page 10 ---
+(2)
+
+fii) Ni(II) complex, 0:0 BM
+{iii) Nif(il) complex, 2:9 BM
+{iv) Co(II) complex, 46 BM
+
+(d) Draw the structure of the compound
+obtained by reaction of uranyl nitrate
+with sodium acetate and acetic acid. 2
+
+(e) Compare the electronic configurations
+of first five actinides with those of the
+corresponding lanthanides. 2
+
+(f} Describe the nature of Co—C band
+present in methyl cobalamin. Why is
+Co(I) complex of vitamin B,2 known as
+supernucleophile? 3
+
+2. {a) Account for the following : 5x2
+
+fi) —Ni[P(CgHs5)2(CH2C¢Hs5)]2 Bra
+shows magnetic moment 2:7 BM.
+
+(ii) Bis-(acetylacetonato) nickel (II), is
+blue at room temperature and red
+at 200 °C.
+
+(iii) Bis-(N-methyl  salicylaldiminato)
+nickel (II) is paramagnetic in solid
+state and diamagnetic in benzene
+solution.
+
+(iv) Law spin octahedral complexes of
+Cr(ll) and Mn(IH) show magnetic
+moment 36 BM and that of
+Q,(IV) shows 1:2 BM.
+
+D/4(209) (Continued)
+
+
+--- Page 11 ---
+(3)
+
+(vy) Pu(lll) and Amiill} show
+anomalous magnetic properties.
+
+(6) Explain the observed molar extinction
+coefficient (1mol!cm7!) for the
+
+complexes TiC12~ (10000), CoCl?-
+(S00), Ti(H0)* (10), MnBr2~ (4) and
+Mn(H,0)g* (0:02). 4
+
+3. (a) Describe Gouy method for
+determination of magnetic
+susceptibility. Mention the advantages
+and disadvantages of this method over
+Faraday method. 5
+
+(b) What is spin-crossover phenomenon?
+Discuss the factors responsible for this
+phenomenon giving suitable examples, 6
+
+(c} Write the reaction occurring during
+synthesis of *9py and 8py jin
+nuclear reactor. 3
+
+4. fa) Draw Orgel energy level diagrams for
+Ti*, Cr3*, Fe?* and Cn2* in
+octahedral and tetrahedral complexes.
+Predict number of absorption bands
+and give their assignments. How are
+two geometries for each metal ion
+distinguished? 8
+
+D/4(209)—s00 (Turn Over)
+
+
+--- Page 12 ---
+(4)
+
+(b) Account for the following : 3
+{i} KMnO, shows violet colour
+
+(ii) HgCly is white while Hgl, has
+dark colour.
+
+(c) What are selection rules for intra-
+
+ligand transitions? Describe various
+
+types of these transitions giving
+examples. 3
+
+5. (a) Give a brief account of charge transfer
+
+transitions in electronic spectra of : 6
+fi) Ruclg-, Ruclg- and OsX3
+(X =Cl, Br, 1)
+
+(ii) Cr(CO)g,Mo(CO)¢ and Ni(CN)2°.
+
+(b) The d-d transitions appear broad. Give
+reasons. 2
+
+(c) Why does Fe(O-phen)3* show light
+pink colour?
+
+(d) Energy of absorption band of the
+complexes of type Fe (M)L2
+[M-=macrocycle, L =NH3, imidazole
+CH3CN, P(OEt), and (CH3CN, CO)
+increases in the order NH3 < imidazole
+< CHCN)< P(OEt}3 < (CH3CN, CO). 2
+
+fe) Draw the structures of UF, and
+((CgHg)2Puk. 2
+
+D/4(209) (Continued)
+
+
+--- Page 13 ---
+(5)
+
+6. (a) How is thorium extracted from
+monazite ore? 4
+
+(b) How are the trans uranium elements
+separated from residue of spent
+uranium rod? 4
+
+(c) Write the compositions and structures
+of uranyl nitrate obtained by
+crystallization in different conditions. 2
+
+(a) Compare complex formation tendency
+
+of actinides with lanthanides. 2
+(e) Comment on electronic spectrum of
+ust complexes. 2
+
+7. (a) Describe the biological roles of
+copper(II) ion in enzymes and proteins. 7
+
+(b) What is ‘corrin ring’ ? How does it bind
+
+with Co(III) ion in the active site
+Structure of cyano cobalamin? 7
+
+8. (a) Write down the active site structure of
+myoglobin and haemoglobin. How does
+PH effect the O2 carrying Property of
+myoglobin? -
+(b) Describe the Beometry of oxy
+haemoglobin. How does it differ from
+the structure of deoxy haemoglobin? 7
+
+wae
+
+D/4(209)—s00 BS/Sem VI/216
+
+
+--- Page 14 ---
+
+
+--- Page 15 ---
+Total No. of Questions : 8] [Total No. of Printed Pages : 3
+
+Roll No. .......ccceeceeseseee
+BS/Sem V1/217
+
+B. Sc. (Hons) Semester VI Examination
+2013-14
+
+CHEMISTRY
+Paper No. CHB-603 ; Organic Chemistry-IV
+
+Time : 3 hours Full Marks : 70
+
+(Write your Roll No. at the top immediately on
+the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+
+Answer five questions including Question 1
+which is compulsory
+
+1, Explain in brief the following terms : 7x2
+
+(a) Dipolar nature of amino acids
+(b) Structure of fluorescein
+
+(c) Synthetic rubber
+
+(d) Isoprene rule
+
+(e) Cyclic anomers of D-glucose
+() Epimers and anomers
+
+(g) Mutarotation.
+
+D/4(220)—500 (Turn Over]
+
+
+--- Page 16 ---
+2. (a)
+
+(b)
+
+(c)
+
+3. (a)
+
+(b)
+
+4. (a)
+
+(b)
+
+(c)
+
+5. (a)
+
+(b)
+
+6. (a)
+
+D/4(a20)
+
+(2)
+
+Explain the glucose and fructose give
+the same osazone.
+
+Explain the starch is soluble in warm
+water whereas cellulose is completely
+insoluble in water.
+
+Write the synthesis of citral starting
+from acetone.
+
+Write the general characteristics and
+secondary structure of protein.
+
+Discuss the  solution-phase and
+solid-phase peptide synthesis.
+Establish the structure of indigotin by
+its synthesis.
+
+How will you prove that geraniol has
+the trans configuration?
+
+Describe reducing and non-reducing
+sugar with proper examples.
+
+Write the important properties and
+
+applications of rubber.
+
+Elucidate pyanose structure to glucose
+with the help of suitable chemical
+evidences.
+
+Write the synthesis of D-(+)-glucose
+starting from D-(+)-glyceraldehyde.
+
+-
+
+(Continued
+
+
+--- Page 17 ---
+(3)
+
+(b) Discuss synthesis and uses of
+sulphanilamide.
+
+(c) Discuss synthesis of chloroquine.
+7. (a) Describe Darapsky and _ Strecker
+synthesis of amino acids. 5
+(b) Write a method for the synthesis of
+each proline, cysteine and aspartic
+acid. 9
+8. Write short notes on the following : 14
+(a) Chloroamphenicol
+(6) Aspirin
+{c) Phenylbutazone
+(d) Biodegradable polymers.
+
+kk
+
+D/4(220}—500 BS/Sem VI/217
+
+
+--- Page 18 ---
+
+
+--- Page 19 ---
+Total No. of Questions : 8] [Total No. of Printed Pages : 7
+
+Roll Navsceneeoenes:,
+BS/Sem VI/218
+
+B. Sc. (Hons) Semester VI Examination
+
+2013-14
+CHEMISTRY .
+Paper No. CHB-604 : Physical Chemistry-IV
+Time : 3 hours Full Marks : 70
+
+(Write your Roll No. at the top immediately on
+the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+
+Answer five questions including Question 1
+which is compulsory
+
+1. (a) Which of the following molecules can
+show microwave spectrum and why? 2
+
+(b) When does a continuum: appear in
+
+electronic spectrum of a_ diatomic
+molecule? 1
+
+(c) How many spin states are expected for
+a nucleus having I=3 in a magnetic
+field? 1
+
+D/4(226)—S00 (Turn Over}
+
+
+--- Page 20 ---
+(2)
+
+(d) Protons of CH3I appear at 130 Hzina
+50 MHz NMR instrument. At what
+frequency would these be observed
+when recorded in a 600 MHz NMR
+instrument? 1
+
+(e) Explain the conditions a function
+should satisfy for becoming a well-
+behaved wave function in quantum
+chemistry. 3
+
+() Explain with a suitable example the
+basic difference between ‘state’ and
+‘energy level’ for a Quantum
+Mechanical (QM) system. Q+1
+
+(g) What do you mean by the
+characteristic rotation temperature of
+a diatomic molecule? . 1
+
+(h) Write the partition function for a two-
+level system with the triply degenerate
+lower state (energy 0) and non-
+degenerate upper state (energy 2 J/
+mol) at 27 °C. 2
+
+2. (a) What is linear operator? Write the
+condition, necessary for an operator,
+to become a Hermitian one. 2
+
+(b) State the postulates of quantum
+mechanics. 4
+
+D/4(226} (Continued)
+
+
+--- Page 21 ---
+(3)
+
+(c) Write the Schrédinger equation for
+one-dimensional harmonic oscillator
+and the general expressions of its
+energy levels and wave functions.
+Explain the terms therein. Find the
+lowest two wave functions and sketch
+them neatly on the potential energy
+
+diagram. 1+3+4
+3. (a) Write the time-dependent Schrodinger
+wave equation. Under — which
+conditions, you can transform it into
+the time-independent form? ; 3
+
+(b) fi) Write the time-independent
+Schrédinger wave equation for a
+particle of mass m confined to
+move along a one-dimensional
+box of length a with potential
+V(x)=0 within 0<x<@
+
+(ii) Show that energy of the system is
+quantized.
+
+(it) Show that its wave functions are
+of the form Bsin ( =) where B
+a
+is a constant.
+
+(iv) Calculate the normalization
+constant value of this wave
+function.
+
+(v} Sketch neatly the lowest two
+wave functions. 1+44+1+3+2
+
+D/4(226) (Turn Over)
+
+
+--- Page 22 ---
+(4)
+
+4. (a) What are the factors that determine
+the intensity of a spectral line? 2
+
+(b) How would you classify rotating
+molecules on the basis of their three
+principal moments of inertia? 2
+
+(c) How would you evaluate two bond
+lengths in linear OCS molecule using
+microwave spectral data? 2
+
+(d) Write the expression for the zero point
+energy of an anharmonic oscillator and
+explain the terms involved. 2
+
+(e) Explain with appropriate equation, for
+CO molecule, the spacing between
+lines in P branch increases while that
+of for R branches decreases. 2
+
+(f) Sketch and explain the normal modes
+of HO molecule. 2
+
+(g) Define the term magnetogyric ratio for
+a nucleus. How does it affect the
+sensitivity of NMR measurement? 2
+
+5. (a) What is the natural line width of a
+spectrum? 2
+(b) Derive the expression
+Vj+j+1=2B (J +1)
+and find the selection rule for rigid
+diatomic rotator. 2
+
+D/4(226} (Continued)
+
+
+--- Page 23 ---
+(5)
+
+(c) “Even though selection rule for
+anharmonic oscillator includes
+Av=+1,+2,+3,---, only the transition
+originating from v=0 is considered.”
+Validate the statement. 2
+
+(@) State and illustrate the Franck-
+Condon principle using suitable
+diagram. 4
+
+(e) What are relaxation times in NMR?
+
+What are the relaxation processes for
+nuclei? 2
+
+( Calculate the magnetic field (Bo)
+corresponding to a precession
+frequency of 400 MHz for a proton,
+
+(y =26-7x10" T7! 74) 2
+
+6. (a) What is molecular partition function? 2
+
+(b) Obtain an expression for molecular
+translational partition function (g,,) of
+an ideal gas. 6
+
+(c}) Using the above expression for Gers
+obtain a relation between molar
+entropy of an ideal monoatomic gas
+and its pressure and molecular mass. 6
+
+7. (a) Derive a relation between free energy
+and molecular partition function for an
+ideal gas. 3
+
+D/4(226) (Turn Over)
+
+
+--- Page 24 ---
+(6)
+
+(b) Using the above relation, obtain an
+expression for the equilibrium
+constant of a gaseous reaction
+
+aA(g) = bB(g) 4
+
+(c) Calculate the translational, rotational
+and vibrational molecular partition
+functions of ideal HCI gas at 298 K and
+1 bar, given that the bond length is
+1-275 A and the masses of 'H and *°Cl
+are 1:008 am.u. and 34:97 am.u.,
+respectively. The frequency of vibration
+in wave number (v) is 2886 cm™!.
+[Given 1 amu. =1-661x10" kg,
+1 bar =10° N m7’, 1 A =10°° m,
+kp =1-381x10 J K"!, h=6-626
+x1034 J s, ec {velocity of light)
+=3-00x108!° cm s7) 7
+
+8. Answer any two of the following :
+
+fa) (i) What are the factors causing the
+width of a spectral line? 2
+
+(ii) The spacing between the lines in
+the microwave spectrum of HCl
+molecule is 6-35x10!! Hz.
+Calculate the bond length (in A).
+(Given p =1-6x107*” kg, h=6-6
+
+x10 Js, o=3x100m es |
+
+D/4(226) (Continued}
+
+
+--- Page 25 ---
+(7)
+
+(iit) Fundamental and Ist overtone
+vibrational bands for HCl
+molecule appear at 2886 and
+5668 cm}, respectively,
+Calculate the equilibrium
+oscillation frequency and
+anharmonicity constant. 3
+
+(b) Using the Maxwell distribution of
+speeds, show that most probable speed
+(Ymp) average speed (Vay) and root
+mean square speed ( Vem.s.) are related
+as 1:1-128:1-224, ?
+
+(ce) Derive Boltzmann distribution law, 7
+
+(d) Show that () eigenvalues of the
+Hermitian Operators are real and
+(ti) eigenfunctions of Hermitian
+operator are orthogonal for a
+non-degenerate state. 7
+
+kkk
+
+D/4(226)—s00 BS/Sem VI/218
+
+
+--- Page 26 ---
+
+
+--- Page 27 ---
+Total No. of Questions : 445) [Total No. of Printed Pages: 8
+
+BS/Sem VI/219 (AB)
+
+B. Sc. (Hons) Semester VI Examination
+2013-14
+
+CHEMISTRY
+(Elective Paper)
+Paper No. CHB-608 : Atomic and Molecular
+
+Structure and Application of
+Spectroscopic Techniques
+
+Time : 3 hours Full Marks : 70
+
+(Write your Roll No. at the top immediately on
+the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+USE SEPARATE ANSWER BOOK FOR EACH SECTION
+Section—A
+(Atomic and Molecular Structure}
+(Marks : 35)
+
+Answer three questions including Question 1
+
+which is compulsory
+
+1. fa) Indicate the point group of following
+molecules : 4
+
+fi) CoH,
+
+D/4(227)—5S00 (Turn Over}
+
+
+--- Page 28 ---
+(2)
+
+(ii) CoH2
+(ii) CgHsOH
+fiv) CHCl,
+
+(b) Sketch the symmetry elements present
+in the following molecules : 2
+
+(i) H,O
+(ii) CHCl,
+
+(c) Write R,® and ® equations and
+mention their significance. 3
+
+(d) Write the basic principles of valence
+bond theory. 2
+
+2. (a) State Pauli’s antisymmetric rule. Write
+the Hamiltonian and complete wave
+function for H™ in the form of Slater
+determinant. 4
+
+(b) Deduce the expression
+
+_fwava
+viva
+where the terms have their usual
+meanings. 2
+
+(c) Considering y=@Y,+t@2Y2 as one.
+electron molecular orbital wave
+function for H3 , derive the expressions
+
+for energies (Es and E,) associated
+
+D/4(227) (Continued)
+
+
+--- Page 29 ---
+3. (a)
+
+(b)
+
+(c)
+
+4. (a)
+
+(d)
+
+D/4(227)
+
+(3)
+
+with bonding and antibonding
+molecular orbitals. Also explain the
+terms involved in these energy
+expressions,
+
+Derive Schrédinger’s wave equation,
+for hydrogen atom like ions with
+atomic number Z, in the form
+
+Hy =Ey, and mention the significance
+of y and y?,
+For the 2s-state of hydrogen atom like
+
+ions with atomic number Z, orbital
+wave function is given as
+
+3/2 Zz
+4V2n | ao a
+
+where ap the Bohr’s radius. Calculate
+the nodal distance (r, ). Also show that
+as Z increases, 7, decreases.
+
+What do you mean by hybridisation?
+Mention its significance. Derive the
+expressions for sp hybrid orbitals
+formed by the combination of one 2s
+and one 2p atomic orbitals.
+
+Indicate all the symmetry operations
+present in BCl; molecule and find out
+its molecular symmetry point group.
+Explain improper axis of symmetry
+(Sn) with one example.
+
+6
+
+4
+
+(Turn Over)
+
+
+--- Page 30 ---
+(4)
+
+(c) Find out the molecular point group of
+
+H,0>. 2
+Or
+
+(a) Sketch different rotational axis of
+symmetry present in CH, molecule
+and write all possible symmetry
+operations corresponding to each of
+these axes. 5
+
+(b) Explain different types of symmetry
+planes, showing proper sketch with a
+molecular example. a
+
+(c) Indicate the symmetry elements of the
+CyH2Cly molecule for all possible
+geometries. 3
+
+Section—B
+(Application of Spectroscopic Techniques)
+(Marks : 35)
+Answer three questions including Question 1
+which is compulsory
+1. Answer the following : 1+2+2Qe 141414241
+
+(a) Differentiate between Finger-Print
+region and group frequency region.
+
+(b) Define chemical shift and spin-spin
+splitting in NMR.
+
+(c) Sketch the various types of bending
+vibrations.
+
+D/4(227) (Continued)
+
+
+--- Page 31 ---
+(a) Why is TMS used as reference in
+NMR ?
+
+fe) Describe characteristic feature of d-d
+transitions.
+
+() What is ‘Fermi resonance’ in IR
+spectra?
+
+(g) What is Lambert-Beer law? Explain
+each term in the expression.
+
+(h) What are metastable ions?
+
+2. (a) How will you distinguish the following
+pairs with the help of IR
+
+spectroscopy?— 6
+
+(j 1-Hexyne and 3-Hexyne
+
+(i) Propiophenone and
+3-phenylpropenal
+
+(tii) Cis-cinamic acid and
+
+Trans-cinamic acid
+(iv) Methyl benzoate and Phenyl
+acetate.
+
+(6) Distinguish between alkane, alkene
+and alkyne with the help of IR
+spectroscopy. How many IR bands are
+expected for l-octene? Mention the IR
+region of their occurrence.
+
+{c} Define the following :
+(i) Symmetric and Asymmetric
+stretching
+
+D/4(227) (Turn Over)
+
+
+--- Page 32 ---
+3. (a)
+
+(b)
+
+(c)
+
+(d)
+
+4. (a)
+
+cy Oo Cy oR
+
+D/4(227)
+
+(6)
+
+(ii) Dilution effect on inter and
+intramolecular hydrogen
+bondings.
+
+Write the basic principles of the origin
+of NMR signal?
+
+How many 'H signals do you expect in
+their NMR spectra for the following?
+Also explain the splitting pattern in the
+signal where possible :
+
+fi) 1-Nitropropane
+
+(ii) _1,1,2-Trichloroethane
+(iii) 1,1-Dibromoethane
+(iv) Ethoxy acetic acid.
+
+Sketch and interpret in detail the 'H
+NMR spectra of ethyl bromide and
+benzyl alcohol.
+
+How many '°C signals do you expect in
+136 NMR spectra of pyridine and
+2-butenol?
+
+Applying | Woodward-Fieser _ rule,
+calculate the absorption maxima
+(A max) for the following compounds :
+
+2
+
+(Continued)
+
+
+--- Page 33 ---
+(7)
+
+() Amax Of n> 2" transition in acetone is
+observed at 279 nm in n-hexane and at
+264 nm in water, Interpret the
+observation using an energy level
+diagram. 3
+
+(c) Define the following with example : 4
+fy) Chromophore
+(i) Auxochrome
+(ii) Bathochromic shift
+(iv) Hypsochromic shift.
+
+(ad) Suggest the structure complying the
+
+following data : 3
+Mol. formula : C4gHgNO
+
+NMR : 3 Signals : doublet § =] -05
+septet =2-]
+singlet 8-12
+
+IR (em“') : 3500, 3202, 2960 and
+1682.
+
+5. (a) Describe EI and CI methods in mass
+Spectrometry. 4
+
+(b) Calculate the expected mass of the
+metastable ions Produced when
+m/z 77 decomposes by loss of
+HC CH to m/z 51, 2
+
+D/4(227) : (Turn Over)
+
+
+--- Page 34 ---
+(8)
+
+(c) Predict the masses of the two ions
+produced in the mass spectrum of
+2-hexene by §-fragmentation. 2
+
+(ad) What are the masses of the ions
+produced in the mass spectra of
+4-n-butyl toluene by Mc Lafferty
+rearrangement and benzylic fission? 4
+
+ka
+
+D!4(227}—500 BS/Sem V1/219 (AB)

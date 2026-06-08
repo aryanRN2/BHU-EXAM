@@ -1,0 +1,340 @@
+--- Page 1 ---
+Total No. of Questions : 4+4] [Total No. of Printed Pages : 9
+
+SPL TOS, 5s oe ssseec iste
+
+REF NO. 066806 & 066815
+
+B. Sc. (Hons) Semester III
+Examination 2023-24
+
+CHEMISTRY
+Paper No. CHB-301 : Organic Chemistry-Il
+and Physical
+Chemistry-II
+Time : 3 hours Full Marks : 70
+
+(Write your Roll No. at the top immediately
+on the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+USE SEPARATE ANSWER BOOK FOR EACH SECTION
+
+Section—A
+(Organic Chemistry-I])
+(Marks : 35)
+
+Answer three questions including Question 1
+which is compulsory
+
+1. (a) Classify the following molecules as
+
+D2(1069)—1500 (Turn Over)
+
+
+
+--- Page 2 ---
+(2)
+
+aromatic, antiaromatic or
+nonaromatic : 2
+
+(b) Identify the structures A and B
+along with mechanism. 2
+
+ZN -
+ae CH3MgBr H
+— > 4 —____>B
+THF Water
+
+(c) Arrange the following compounds
+in decreasing order of acid strength
+with suitable reasons : 3
+
+H H
+
+D2(1069) (Continued)
+
+
+--- Page 3 ---
+(3)
+
+H H
+(ii) (iv)
+a. CH;
+H
+(v)
+Br
+
+(dq) Draw the molecular orbital picture
+of benzene. How would you explain
+that carbon-carbon bond lengths
+
+are identical? 2
+(e) What is DDT? How can it be
+synthesized? eo 2
+
+2. (a) Compare and provide an
+explanation for the _ relative
+reactivity of acid chloride, acid
+anhydride, amide and ester, using
+a suitable example. 3
+
+(b) What are conjugation and hyper- —
+conjugation? Explain all types of
+conjugation and hyperconjugation
+with examples. iS
+
+D2(1069) : (Turn Over)
+
+
+
+--- Page 4 ---
+(4)
+
+(c) Discuss the following reactions
+along with mechanisms : 3+3
+
+(i) Beckmann rearrangement
+
+(ii) Baeyer-Villiger oxidation.
+
+3. (a) Provide suitable mechanism for the
+following reaction : 3
+
+ay lige Com
+
+(b) Identify the products (A-G) in the
+
+following reaction sequence : 3
+CO, HCI BOZCW C02 8
+AICl3, Cucl
+
+N
+H
+1. NaOH _ SOCIl,
+2.HCl © i
+HCN heat RNH,}
+NaCN | Et3N
+HCl, Water cS E
+a
+
+heat
+
+(c) Explain why benzoic acid in an
+' alkaline medium yields ortho/para
+products in electrophilic aromatic
+
+D2(1069) (Continued)
+
+
+
+--- Page 5 ---
+(5)
+
+substitution reactions, while .
+
+aniline in an acidic medium
+exclusively produces meta
+products. 3
+
+(d) Describe the synthesis of Novolac
+and Bakelite from phenol, including
+the reactions and mechanisms
+involved. 3
+
+4. (a) An organic compound (A) with the
+molecular formula C,H,O reacts
+with neutral FeCl, in an aqueous
+medium, producing a blue color
+that changes overtime. When
+compound (A) is treated with
+carbon tetrachloride in an alkaline
+medium, yielding two products, (B)
+and (C), both with the same
+molecular formula C7;H,O,. Identify
+the specific structures of (A), (B)
+and(C)with suitable mechanisms. 4
+
+(b) Write the products of the following
+
+reactions with mechanisms : a+?
+NH—OH NO
+S)
+fi) ey MeO/MeOH
+
+D2(1069)—1500 (Turn Over)
+
+
+
+--- Page 6 ---
+(6)
+
+NH, NO
+
+S)
+(ii) = MeO/MeOH
+
+(c) Identify the products from the:
+following reactions and discuss the
+product’s formation mechanism: 4
+
+; Op Cocl ;
+COC]... UNG.
+
+-Section—B
+(Physical Chemistry-I])
+(Marks : 35)
+
+Answer three questions including Question 1
+which is compulsory
+
+1. Answer the following
+
+(a) Define transport number. Why
+transport no. of H® is very high in
+aqueous solution? 2
+
+(b) What do you mean by a reversible
+and irreversible electrochemical
+cellP Give example. 2
+
+D2(1069) (Continued)
+
+
+
+--- Page 7 ---
+(c)
+
+(d)
+
+- (e)
+- (a)
+
+(b)
+
+(c)
+
+(7)
+
+Construct a cell from which one
+can measure the standard
+
+reduction potential of
+Ag* (aq) + e-— Ag(s) half-cell .
+reaction.
+
+Why glass electrodes are kept
+immersed in a_ slightly acidic
+solution when not in use?
+
+What is Miller indices?
+
+With increase in dilution, specific
+conductance of a weak electrolyte |
+decreases while equivalent
+conductivity increases. Why? :
+
+Derive the relation between ionic
+mobility and ion conductance.
+
+A 0-02 (N) aqueous solution of KCl
+placed in a conductivity cell at
+
+° 25 °C shows a resistance of,
+
+D2(1069)
+
+380 ohm. Specific conductance of
+0-02 (N) aqueous solution of KCl at
+25 °C is 0:00276 ohm” cm™'. The
+same cell filled with 0-01 (N) acetic
+acid (HAc) shows a resistance of
+6434 ohm. Calculate the degree of
+dissociation of 0-01 (N) acetic acid
+at 25°C.
+
+(Turn Over)
+
+
+--- Page 8 ---
+(8)
+
+The -equivalent conductivity —of
+NaAc, HCl and NaCl at infinite
+dilution at 25 °C are given as 91-0,
+426-2 and 1265 ohm 'cm7equiv™!
+respectively. 4
+
+(dq) Draw with brief explanation the
+approximate curve for the
+conductometric titration of NH,OH
+solution with HBr solution as.
+titrant. 2
+
+3. (a) Show that for a solution of single ©
+electrolyte
+
+u,
+u, +U_
+
+es
+
++
+
+All the notations have their usual
+meanings. 3
+(b) For the concentration cell
+Ag | AgCl(s) | HCl(a,)|HCl(a,)| AgCl(s)| Ag
+Write the various processes at the
+
+two electrodes and at the liquid
+junction. 3
+
+(c) The e.m.f. of the cell (temperature
+25 °C), glass electrode | buffer
+solution | calomel electrode was
+0:0232 V when buffer pH was 2:5.
+
+D2(1069) (Continued)
+
+
+--- Page 9 ---
+(9)
+
+The e.m.f. was increased to 0:112 V
+when another buffer solution was
+used. What was the pH of the
+second buffer? 3
+
+(d) How buffer solution can resist pH
+upon addition of small amount of
+acid or base? 3
+
+4. (a) Describe the procedure to
+determine the equilibrium constant
+of KI+I, =KI,; in aqueous medium
+using Nernst distribution law. 2%
+(b) Draw the phase diagram of H,O
+system and find the number of
+degree of freedom at the triple point
+- of water. 2%
+(c) Starting from Clapeyron equation,
+deduce the Clausius-Clapeyron
+equation mentioning the necessary
+assumption. 2
+(da) Write the Bragg equation explaining
+the terms. 2
+(e) Solid A has face centered cubic
+* lattice with the length of the cube
+a =3-65 A. Another solid B has a
+body centered cubic lattive with
+a=2-90 A. Calculate the ratio of
+densities of two solids. 3
+
+eke
+D2(1069)—1500 REF NO. 066806 & 066815
+
+
+
+--- Page 10 ---

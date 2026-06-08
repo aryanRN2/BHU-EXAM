@@ -1,0 +1,212 @@
+--- Page 1 ---
+Total No. of Questions : 5] [Total No. of Printed Pages : 6
+
+Wo
+
+REF NO. 067407
+
+B. Sc. (Hons) Semester III
+Examination 2023-24
+
+PHYSICS
+Paper No. BPT-301 : Optics
+Time : 3 hours Full Marks : 70
+
+(Write your Roll No. at the top immediately
+on the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+
+Answer all questions
+
+1. Answer any five of the following
+questions : 5x4
+(a) In the Young’s double holes
+
+experiment, interference fringes are
+formed using sodium light
+comprising two wavelengths 5890 A
+and 5896 A. Obtain the regions on
+the screen where the fringe pattern
+will disappear. Assume d =0:5 mm
+and D=100 cm.
+
+D2(1127)—1300 (Turn Over)
+
+
+--- Page 2 ---
+(2)
+
+(b) A plane polarized light is incident
+perpendicularly on a quartz plate
+cut with faces parallel to optic axis.
+Find the thickness of quartz plate, —
+which introduces phase difference
+of 60° between e and o rays.
+
+(c) A left circularly polarized beam
+(Ao =5893A) is incident normally
+on a calcite crystal (with its optic
+axis cut parallel to the surface) of
+thickness 0:005141 mm. What will
+be state of polarization of the
+emergent beam? For calcite crystal
+Mo =1-65836 and p, =1-48641.
+
+(dZ) In a double-slit diffraction
+experiment the slit width
+b=7x10-* cm, the separation
+between identical points of two slits
+d=7x10°? cm. and 1=6300 A.
+How many interference minima will
+occur within the first diffraction
+minima on either side of central
+diffraction maximum? Which
+orders of interference maxima will
+be missing?
+
+(e) Show that a zone plate acts like a
+converging lens of multiple foci.
+
+D2(1127) (Continued)
+
+
+--- Page 3 ---
+i)
+
+(9)
+
+2. (a)
+
+(b)
+
+(3)
+
+How can central fringe be seen in
+Lloyd’s mirror experiment? Show
+that the central fringe is sharper in
+Lloyd’s mirror than in biprism
+
+experiment.
+
+White light is reflected normally
+from a uniform oil film (1 =1-33).
+An interference maximum for
+6000 A and a minimum for 4500 A
+coincide. Calculate the thickness of
+the film.
+
+The Michelson interferometer
+experiment is performed with a
+source which consists of two
+wavelengths 4882 A and 4886 A.
+Through what distance does the
+mirror has to be moved between
+two positions of the disappearance
+of the fringe?
+
+Discuss the intensity distribution of
+Febry-Pérot interferometer and
+show that the larger is the value of
+R (reflectivity of mirror), greater is
+the difference between I,,,, and
+Imin« IN which way it is superior
+
+than Michelson interferometer? 8%
+
+D2(1127)—1300 . (Turn Over)
+
+
+--- Page 4 ---
+(4)
+
+. 3. (a) Deduce the expression of intensity
+distribution of — Fraunhoffer
+diffraction due to double slits.
+Discuss the nature of intensity
+distribution and explain how the
+intensity falls off to zero on either
+side of central fringe and gradually
+reappear. 8%
+
+(b) In the Newton’s ring arrangement
+with 4 =6-4x10°° cm and radius
+of convex surface is 100 cm. If the
+lens is vertically raised up, discuss
+the ring pattern as seen through:
+the microscope. | 4
+Or
+
+(a) Consider a diffraction grating of.
+width 5 cm with slits of width
+0:0001 cm separated by a distance
+of 0:0002 cm. How many orders
+would be observable for
+A =5-5x10°° cm? Calculate the
+width of the principal maximum.
+Would there be any missing orders?
+For this’ diffraction grating,
+calculate the dispersion and
+resolving power in the different
+orders. 8
+
+D2(1127) (Continued)
+
+
+--- Page 5 ---
+(5)
+
+(b) What is the Rayleigh criterion of
+resolving power? Find resolving
+power of a grating. Discuss what
+happens if the number of grating
+elements is too large. 4%
+
+4. (a) You are given a Nicol prism and a
+quarter-wave plate. Explain the
+method to produce and detect
+plane, elliptically and circularly
+polarized light. 81
+
+(b) What are the states of polarization
+when the x- and y-components of
+electric field are given by following
+equations : 4
+(i) E, =E,.cos(ot+ kz),
+
+E, =E,/2cos(@t+ kz+n)
+(ii) E, =E,sin(ot+ kz),
+E, =E,cos(ot + kz)
+
+Or
+
+(a) Explain birefringence. What are
+quarter- and _ half-wave plates?
+What are their uses? 6
+
+(b) Discuss the working of a biquartz
+polarimeter. ee 6%
+
+D2(1127) | (Turn Over)
+
+
+--- Page 6 ---
+(6)
+
+5. (a) What are the differences between
+spontaneous and stimulated
+emission? Derive the _ relations
+between Einstein coefficients. 8%
+
+(b) The length of a Laser tube is
+150 mm and the gain factor of the
+Laser material is 00005 per cm. If
+one of the cavity mirrors reflects
+100 percent light, what is the
+required reflectance of the other
+cavity mirror? 4
+
+kkk
+
+D2(1127)—1300 c REF NO. 067407
+

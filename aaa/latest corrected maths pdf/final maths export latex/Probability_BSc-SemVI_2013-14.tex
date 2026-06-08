@@ -1,0 +1,121 @@
+% BHU PYQ -- Manually transcribed & error-corrected
+% Paper: MTB-607 : Probability
+% Exam: B.A./B.Sc. (Hons) Semester VI Examination, 2013-14
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={MTB-607: Probability -- BHU B.A./B.Sc. Sem VI 2013-14}}
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{MTB-607: Probability}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.A./B.Sc. (Hons) --- Semester VI Examination, 2013-14}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. MTB-607: Probability}\\[4pt]
+  {\normalsize Time: 3 Hours \hfill Full Marks: 70}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer \textbf{five} questions including Question~1 which is compulsory. All questions are of equal value.}
+\bigskip
+
+\noindent\textbf{Question 1.}
+\begin{parts}
+  \item An experiment consists of tossing a coin until a head appears. Find its sample space. If the coin is fair, what is the probability that the coin will be tossed at most $10$ times? \pts{3}
+  \item Two fair dice are tossed. Find the probability that:
+  \begin{parts}
+    \item the sum is at least $3$;
+    \item the sum is at most $10$.
+  \end{parts} \pts{3}
+  \item If $X$ is a random variable with pdf:
+  \[
+  f(x) = \begin{cases} C(1 - x^2), & 0 \le x \le 1 \\ 0, & \text{otherwise} \end{cases}
+  \]
+  find the value of $C$. \pts{2}
+  \item If $X$ is uniformly distributed over $(-1, 1)$, find the pdf of $X$ and calculate $E[X^2]$. \pts{2}
+  \item If the moment generating function of a random variable $X$ is $M_X(t) = \dfrac{e^t}{2 - e^t}$, find the probability mass function of $X$ and calculate $P(X = 1)$. \pts{3}
+  \item If $X_1, X_2, \dots, X_{10}$ are independent binomial random variables each with mean $1$, use Markov's inequality to find a bound for $P(X_1 + X_2 + \cdots + X_{10} \ge 15)$. \pts{2}
+  \item Suppose $p(x, y)$, the joint pmf of $X$ and $Y$, is given by $p(1,1) = 0.5$, $p(1,2) = 0.1$, $p(2,1) = 0.1$, $p(2,2) = 0.3$. Find the conditional pmf of $X$ given $Y = 2$. \pts{3}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 2.}
+\begin{parts}
+  \item Sixty percent of families own a car, thirty percent own a house, and twenty percent own both. If a family is randomly chosen, find the probability that the family owns a car or a house but not both. Assuming the chosen family owns a car, what is the probability it does not own a house? \pts{7}
+  \item Define the Poisson random variable. Prove that the Poisson distribution is the limiting case of the binomial distribution. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Define the expectation of a random variable. Calculate $E[X]$ and $E[X^2]$ when $X$ is normally distributed with parameters $\mu$ and $\sigma^2$. \pts{7}
+  \item Define jointly distributed random variables. If $X$ and $Y$ are jointly distributed and $a, b \in \mathbb{R}$, prove that $E[aX + bY] = aE[X] + bE[Y]$. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Define and give an example of independent random variables. If $X$ and $Y$ are independent Poisson random variables with parameters $\lambda_1$ and $\lambda_2$, find the probability distribution of $X + Y$. \pts{7}
+  \item Define the moment generating function of a random variable. Calculate the mgf of an exponential random variable $X$. Hence find the mean and variance of $X$. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 5.}
+\begin{parts}
+  \item State and prove Chebyshev's inequality. Suppose the weekly production in a factory is a random variable with mean $500$ and variance $100$. What can be said about the probability that this week's production is between $400$ and $600$ items? \pts{7}
+  \item Define conditional expectation. If the joint density of $X$ and $Y$ is:
+  \[
+  f(x,y) = \begin{cases} 6xy(2-x-y), & 0 < x < 1,\, 0 < y < 1 \\ 0, & \text{otherwise} \end{cases}
+  \]
+  find the conditional expectation of $X$ given $Y = y$ for $0 < y < 1$. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 6.}
+\begin{parts}
+  \item Define conditional variance. If $X$ and $Y$ are two random variables, prove that:
+  \[
+  \operatorname{Var}(X) = E[\operatorname{Var}(X \mid Y)] + \operatorname{Var}(E[X \mid Y])
+  \] \pts{7}
+  \item Define probability by conditioning. $n$ people have been invited to a party beginning at time $0$. Arrival times of $n$ guests are independent exponential random variables with mean $2$, and the host arrives at a time uniformly distributed on $[0, 2]$.
+  \begin{parts}
+    \item Find the probability that exactly $k$ guests arrive before the host.
+    \item Find the expected number of guests who arrive before the host.
+  \end{parts} \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 7.}
+\begin{parts}
+  \item In an election, candidate $A$ receives $m$ votes and candidate $B$ receives $n$ votes ($m > n$). Assuming all orderings are equally likely, show that the probability that $A$ is always ahead of $B$ in the vote count is $\dfrac{m - n}{m + n}$. \pts{7}
+  \item Define the entropy of a system. Prove that the entropy is maximum if all events are equally probable. When is the entropy minimum? Explain. \pts{7}
+\end{parts}
+
+\vfill\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+\end{document}

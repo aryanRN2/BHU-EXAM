@@ -1,0 +1,661 @@
+--- Page 1 ---
+Total No. of Questions ; 4+4) [Total No. of Printed Pages : 7
+
+Roll No. occ.
+BS/Sem 11/8 (AB)
+
+B. Se. (Hons) Semester 11 Examination
+
+2013-14
+CHEMISTRY
+Paper No. CHB-201 : Inorganic Chemistry-I and
+Physical Chemistry-]
+Time : 3 hours Full Marks : 70
+
+{Write your Roll No. at the top immediately on
+the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+USE SEPARATE ANSWER BOOK FOR EACH SECTION
+Section—A
+(Inorganic Chemistry-))
+
+(Marks : 35)
+
+Answer three questions including Question 1
+which is compulsory
+
+1. (a) Write ‘the formula for converting
+Mulliken’s electronegativity values into
+Pauling’s values in units of kJ/mol. 2
+
+(b) Write the formula relating reduction
+potential to Gibbs free energy and
+explain the terms involved.
+
+D/4(211}—1500 (Turn Over)
+
+1
+
+
+--- Page 2 ---
+(2)
+
+(c} Give a valid reason for the solubility of
+BeF, in water while all the other
+fluorides of the family are insoluble. 1
+
+(d) Write the structures of BeCl, in
+vapour phase. | 1
+
+(e) Write the molecular formula of ‘Borax’
+and draw its structure. 2
+
+if) Write’ the formula of Beryl. To which
+class of silicates does it belong? 1
+
+(g) Name the anhydride of HNO, and
+draw its gas phase structure
+(symmetrical form only). 1
+
+(h) Draw the structure Be(BH4)2 and
+mention the number of 3c-2e bonds
+present in it. , 2
+
+2. (a) Write the value of 4H which is
+considered as the origin of Pauling’s
+scale of electronegativity. 1
+
+(b) Draw the qualitative graph with
+complete details that relates % ionic
+character of a bond with
+electronegativity difference of the
+bonded atoms. 2
+
+(c) Calculate the lattice energy (U) that
+may be liberated in the formation of
+sodium chloride crystal, based upon
+
+the following data, Write the
+
+D/4(211) (Continued)
+
+
+--- Page 3 ---
+(3)
+
+appropriate equation and explain the
+terms involved :
+
+Data : AH; = 381-2; AH, = 108-4;
+
+IE = 495.4; Hq =(2x120-9);
+FA =348.-6, [All the values are in
+kJ/mol.] 3
+
+(ad) Define ‘electrochemical series’, Answer
+the following questions, giving reasons,
+based on the values (E° in volts) given
+below : 3
+
+Zn?* /2n : -0-76; Fe?* / Fe ; 0-44;
+Cu?+ /Cu: +0-35; Ag* /Ag: +0-80
+
+() Whether Zn metal can be
+replaced from ZnSO, solution by
+any other metal?
+
+(ii) Whether Cu metal can be
+replaced from a solution of
+CuSo,?
+
+(e) On the basis of electronic
+configuration of molecular orbitals,
+show that superoxide ion
+paramagnetic. 3
+
+3. (a) How is basic beryllium acetate
+Prepared? Draw its structure neatly.
+Explain the spatial arrangement of Be
+atoms and attachments. 4
+
+D/4(211) (Turn Over)
+
+
+--- Page 4 ---
+(4)
+
+(b) Answer the following with respect to
+diborane : 2
+
+(i) Name the ‘experiment/ physical
+property” which confirmed that
+rotation between the two B atoms
+is hindered.
+
+(ii) Give two experimental evidences
+which support that four H atoms
+are in a different environment
+from the other two.
+
+(c) Draw the structure of hydrazine.
+Mention how the molecule acquires a
+non-eclipsed conformation. 2
+
+(d) Name the paramagnetic oxide on N
+that exists as monomer and dimer.
+Write the structure jn its dimeric state. 1
+
+(e) Name the oxide of P in which all its
+
+valence electrons are used for bonding,
+
+draw its gaseous state structure and
+discuss the bonding. 3
+
+4. {a) State the hybridization, draw structure
+and mention the shape of the
+polyhalide ion, Clg. Name the
+positions occupied by lone pairs of
+electrons. 3
+
+(b) Mention the hybridization present in
+Cl,0, molecule and draw its
+
+structure. 2
+
+D/4(211) (Continued)
+
+
+--- Page 5 ---
+(5)
+
+(c} Show hybrid orbitals, draw structure
+and mention shape of the following
+
+compounds : 4
+f) XeO,F,
+(i) XeO3F,
+
+{@) How do you name [XeO,]*- ion? Show
+
+hybrid orbitals, mention the number of
+o- and n-bonds and draw structure of
+
+the ion. 3
+Section—B
+(Physical Chemistry-I)
+(Marks : 35)
+
+Answer three questions including Question 1
+which is compulsory
+
+1. (a) How the mean free path is related to
+temperature and pressure of the gas? 2
+
+(b) The activation energy for a chemical
+reaction is zero and the temperature of
+the reaction is raised by 10°. The
+following three alternate answers are
+given :
+fi) The rate of reaction increases by
+
+2-3 times
+
+D/4(211) | (Turn Over}
+
+
+--- Page 6 ---
+(6)
+
+(ii) The rate of reaction does not
+change :
+. (iii) None of the above two are correct
+Provide the correct answer. 2
+
+(c) What is the influence of temperature
+on surface tension and viscosity of a
+
+liquid? 2
+(d) Define critical, Boyle’s and inversion
+temperatures. 3
+
+(e) Heat change (q) is a path dependent
+thermodynamic quantity. State the
+conditions under which q .becomes
+path independent. 2
+
+2. (a) Derive an expression of rate constant
+
+for first-order reaction and give its unit
+
+and mention two examples of the
+
+reaction. Define half-life of such
+"reactions. 5
+
+{b) What is temperature coefficient and
+
+demonstrate how Arrhenius equation
+
+can be used to determine the
+
+activation energy and frequency
+factor? 5
+
+,
+
+(c) In an enzyme solution, sucrose
+undergoes fermentation. If O1 M
+solution of sucrose is reduced to
+0-05 M in 10 hour and to 0-025 M in
+
+20 hours, what is the order of the
+reaction and what is the rate
+constant? 2
+
+ni ‘
+AIAN A\ INantinnadl
+
+
+--- Page 7 ---
+(7)
+
+3. (a) Derive Kirchhoff’s equation, 4
+
+(6) Show that the entropy change in
+isothermal reversible Processes is zero
+while it is positive in spontaneous
+(irreversible) processes. 3
+
+(c} For reversible isothermal and adiabatic
+expansion of an ideal gas demonstrate
+how thermodynamic quantities
+(w,g, AU and AH) can be estimated. 5
+
+4. (a) Using the kinetic gas equation, deduce
+the Avogadro law. 2
+
+(b) Write the van der Waals’ equation and
+discuss its applicability, 5
+
+(c) Describe the capillary rise method to
+determine the surface tension of a
+given liquid, 5
+
+wee
+
+D/4(211)—1500 BS/Sem II/8 (AB)
+
+
+--- Page 8 ---
+
+
+--- Page 9 ---
+Total No. of Questions : 8] [Total No. of Printed Pages ; 4
+
+Rol Nosscussgeces.,.
+BS/Sem 11/10
+
+B. Sc. (Hons) Semester JI Examination
+2013-14.
+
+CHEMISTRY
+Paper No. CHB-02A : Ancillary Chemistry-I
+Time : 3 hours Full Marks : 70
+
+(Write your Roll No. at the top immediately on
+the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+Answer five questions including Question 1
+
+which is compulsory
+
+1. Answer the following questions : 7x2
+
+(a) Write an application of Nessler’s
+Teagent.
+
+(b) Write the structure of monomers for
+Nylon 66 and Nylon 6.
+
+(c) Work out the oxidation no. of
+underlined elements in the following
+compounds :
+
+CH3;—CH,—OH, CH,Cl,
+
+D/4(189)—400 (Turn Ov:.
+
+
+--- Page 10 ---
+(2)
+
+(d) Indicate the reducing and oxidizing
+agents in the following reactions :
+
+CH, +4Cly ——>CCl, + 4HCl
+
+(e) Write the composition of stainless
+steel.
+
+() What is slag? Write its chemical
+formula.
+
+(g) Write the name and formulae of two
+important ores of iron.
+
+2. Differentiate between the following pairs: 7x2
+(a) Distillation and Fractional distillation
+(b) Covalent and Polar-covalent bonds
+(c) Fehling’s and Benedict’s solution
+({d) Coenzymes and Prosthetic group
+(e) Reducing and Oxidizing agent
+
+(f) a andB forms of glucose in terms of
+their structure only
+
+(g) Entropy and Enthalpy.
+
+3. Write short notes on the following : 4+4+4+2
+(a) Raney nickel and its applications
+
+(b) Cyclic structure of glucose and
+anomeric carbon
+
+p/sa(189
+) (Continued)
+
+
+--- Page 11 ---
+(3)
+
+(c) Primary structure of proteins and
+molecular disease
+
+(ad) Melting point as the purity criterion of
+a crystalline compound. -
+
+4. Comment upon role of metals in our life.
+How is iron recovered from its ores? Write
+the chemical reactions involved. Comment
+upon the pig iron, cast-iron and wrought
+iron. 14
+
+5. Explain the following giving chemical
+reaction involved : 44+44+4+2
+
+(a) Rusting of iron and its prevention
+(b) Synthesis of rayon
+
+(c) Synthesis of artificial rubber
+
+(2) Synthesis of polyester.
+
+6. How are the molecules formed from their
+constituent atoms? What are the different
+ways of union of atoms to form a molecule?
+How does a supramolecule differ from a
+molecule? Give three examples of
+Supramolecular formation. - 14
+
+7. What do you mean by chromatography?
+How are many types of chromatographies
+possible on the basis of different types of
+stationary and mobile phases? Give one
+application of any one type of
+chromatography. 14
+
+D/4(189) (Turn Over)
+
+
+--- Page 12 ---
+(4)
+
+8. Why are enzymes also called as
+biocatalysts? Describe the different types
+of enzyme. What is cofactor? Describe the
+denaturation of enzymes in very brief. 14
+
+xwe*
+
+D/4(189)—400 BS/Sem II/10
+
+
+--- Page 13 ---
+Total No. of Questions : 4+4] [Total No. of Printed Pages : 5
+
+Roll Noy nsnercs
+
+BS/Sem II/14 (AB) Old
+
+B. Sc. (Hons) Semester II Examination
+2013-14
+
+CHEMISTRY
+(Old Course}
+
+Paper No. CHB-201 : Inorganic Chemistry-I and
+Physical Chemistry-I
+
+Time : 3 hours Full Marks : 70
+
+(Write your Roll No. at the top immediately on
+the receipt of this question paper)
+
+The figures in the right-hand margin indicate marks
+USE SEPARATE ANSWER BOOK FOR EACH SECTION
+
+Section—A
+(Inorganic Chemistry-I}
+(Marks : 35}
+
+Answer three questions including Question 1
+which is compulsory
+
+1. (a) Define ionization energy. Show
+graphically how ionization energy
+varies with atomic number. 2
+
+D/4(210)—200 (Turn Over)
+
+
+--- Page 14 ---
+(2)
+
+(b) What is electrode potential? Explain
+the term with the help of a Born-Haber
+type cycle. 3-
+
+(c) What happens when alkali metal
+(Li*, Na*, K*) tetrahydroborates are
+treated with water? 1
+
+(d) Draw the structures of (i) Cryptand
+2,2,2, (ii) Benzo-18-crown-6 and
+(iii) Basic beryllium acetate. 3
+
+fe) Draw and explain the structure of
+XeF 5. : 2
+
+2. (a) How many types of alkali metal oxides
+are known? Potassium superoxide is
+used in spacecrafts to remove CO2 and
+produce O,. Write the balanced
+chemical equation of this reaction. 3
+
+(b) Compare the complex formation
+tendencies of alkali metal and alkaline
+earth metal ions giving suitable
+examples. 5
+
+(c) Draw the structure of orthoboric acid
+which involves hydrogen bonding.
+What happens when (i) orthoboric acid
+is heated and fii) orthoboric acid is
+heated with a transition metal oxide? 3
+
+(d) Draw the structure of AICI;. 1
+
+D/4(210) (Continued)
+
+
+--- Page 15 ---
+3. (a)
+
+(b)
+
+(¢)
+
+(a)
+
+(b)
+
+(c)
+
+(a)
+
+(e)
+
+D/4(210}—200
+
+(3)
+
+Derive Born-Lande equation. Explain
+the terms involved in the equation.
+How is solubility of an ionic solid
+decided?
+
+For the satisfactory titration of
+orthoboric acid solution with NaOH,
+why is it essential to use a diol?
+
+Draw the _ structures of the
+borohydrides of beryllium and
+aluminum.
+
+Draw the structures of BeH, and
+BeCl, and comment on _ their
+similarities and differences in terms of
+their structure and bonding.
+
+Describe the principles of silicate
+structures and list the type of silicates.
+
+What is meant by back bonding?
+Explain giving suitable examples.
+
+What are the various reasons for color
+of transition metal ions (or their
+solutions)?
+
+Calculate the spin only magnetic
+moments (in BM) for the following
+complexes :
+
+() — K4{Fe(CN).]
+fi) [Ni(NH3)5 ]JCl2
+Classify the oxo-acids of sulfur.
+
+2
+
+(Turn Over)
+
+
+--- Page 16 ---
+(4)
+
+Section—B
+(Physical Chemistry-I)
+
+(Marks : 35)
+
+Answer three questions including Question 1
+
+1. (a)
+(b)
+
+(c)
+
+(4)
+
+(e)
+
+2. (a)
+
+(b)
+
+D/4(210}
+
+which is compulsory
+What is surface active agent?
+
+Define critical and Boyle’s
+temperatures.
+
+Show that maximum work is
+obtainable in reversible isothermal
+expansion of gas and also explain that
+the work obtained in the expansion
+against vacuum is zero.
+
+What is the difference between ionic
+mobility and speed of an ion?
+
+What are nuclear forces and what are
+nuclear constituents?
+
+Discuss the acid-base indicator with a
+suitable example.
+
+What are the assumptions of kinetic
+theory of gases? Derive an expression
+for the pressure of a gas.
+
+Describe the principle of
+corresponding states.
+
+4
+
+(Continued)
+
+
+--- Page 17 ---
+(5)
+
+3. (a) Define surface tension of a liquid.
+Discuss one experimental method of
+determination of surface tension. What
+is influence of temperature on the
+surface tension, if the value of surface
+tension may be zero also? 8
+
+(6) Calculate the height to which water
+will rise in a glass capillary if the
+radius of the capillary is 0-02 cm.
+The surface tension of water is
+72:8 dynes cm7!. 4
+
+4. (a) Derive Kohlrausch law and discuss its
+applications. 4
+
+(b) Define Cp and Cy and establish the
+relationship Cp -Cy =R for an ideal
+gas. 4
+
+(c) For a reaction
+
+H2F2 (9g) H2(g)+F2(g)
+
+AU =-14-2 kcal/mole at 25 OH
+Calculate AH for the reaction. 2
+
+(a) Define binding energy.
+
+eke
+
+D/4(210)—200  BS/Sem II/14 (AB) Old
+
+
+--- Page 18 ---

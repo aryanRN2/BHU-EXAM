@@ -9,3 +9,7 @@ pull-stitch.js
 pull-stitch.mjs
 .env
 **/*.pdf
+*.aux
+*.out
+*.toc
+*.synctex.gz

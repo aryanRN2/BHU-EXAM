@@ -1,0 +1,413 @@
+--- Page 1 ---
+61406
+
+(c) Show that the energy lost by a photon in
+
+Compton scattering with a free stationary
+
+electron can be written as: 4.5
+
+hy slumb) , where ent™. and @ is the
+«(1 —cos 8) Mpc
+
+recoil angle of photon.
+
+(7) 1200 -
+
+
+--- Page 2 ---
+
+
+--- Page 3 ---
+Time : Three hours
+
+REFNO059522
+ROME No. .1seonsnnscscessesssessessosncsooe
+B.Sc. (Hons.) SEMESTER IV EXAMINATION 2022-23
+PHYSICS
+BSC -07A: Ancillary Physics - IT
+, Max. Marks : 70
+
+(WRITE YOUR ROLL NO. AT THE TOP IMMEDIATELY ON THE RECEIPT OF THIS QUESTION PAPER)
+
+Instructions
+
+The Question Paper contains 07 questions out of which you are required to answer any 05
+questions. ,
+
+The first question is compulsory.
+
+The question paper is of 70 marks with each question carrying 14 marks.
+
+1. Answer any four questions: (4%3.5)
+
+(a) State Fermat’s principle of least time with an example.
+
+° (b) What is polarized light? What nature of light is shown by polarization?
+— (©) _What will be the refractive index of the medium in which the speed of light is 2.5
+x10° m/s? ae Sn a
+
+(d) Give an innovative example to explain entropy.
+
+(e) An idea! heat engine operating between the temperatures 7; and 72 (Z| > 72) has
+efficiency n. What would be the efficiency of the engine if you double the operating
+temperatures?
+
+(f) | Deduce the unit of Boltzmann’s constant from the ideal gas equation. a
+
+2. (a) Howdo you define heat? Explain the heat capacity at constant volume and constant
+pressure. (6)
+
+(b) Write the formulae and use them to convert the boiling temperature of gold, 2966 °C,
+into degrees Fahrenheit and Kelvin. , (6)
+
+(c) Whatis the unit of pressure in the SI system of units? ‘ (2)
+
+PTO.
+
+
+--- Page 4 ---
+(a)
+(b)
+
+()
+
+(a)
+
+(b)
+
+(c)
+
+(a)
+
+(b)
+
+(a)
+
+{b)
+
+(c)
+
+@
+
+Define Viscosity and Thermal conductivity and give an example for each.
+
+The heat capacity of 0.125 kg of water is measured to be 523 J/K at room
+
+temperature. Calculate the heat capacity of water per unit mass and per unit volume.
+
+Which law of thermodynamics makes sense in the biological. process of
+s
+
+Photosynthesis? Explain.
+
+What is thermal equilibrium? Use it to explain the Zeroth law of thermodynamics.
+
+What is the relation between free energy and work? Starting from F = U— TS, where
+
+F is Helmholtz function and other notations carry the usual meaning; express the
+
+entropy and pressure at constant volume and temperature, respectively.
+
+What are the state variables and how do you label different thermodynamic processes
+
+by fixing one of these variables?
+
+Explain the differences between the following: .
+
+(i) Concave and Convex mirrors
+
+(ii) Interference and Diffraction
+(tii) Real image and Virtual image
+Explain Young's double-slit experiment with a neat ray diagram. Write the expression
+\
+for fringe-width of interference fringes. Why are all fridges of the same width?
+An object is kept at a position between the optical center and the focus of a convex
+lens. Show the image formation with the help of a neat diagram and write the
+properties of the image formed.
+Explain the optical phenomena involved in the following statements:
+(i) Meters like ammeters and voltmeters use a mirror to avoid parallax error.
+(ii) A diamond sparkles more than a glass piece of the same shape and size.
+(iii) A cat's eye or road stud helps drivers by improving night visibility. -
+In the dispersion of light by a prism, which color is more dispersed? Explain
+
+quantitatively using the formula of minimum deviation angle.
+
+f
+
+4
+
+(6)
+
+(5)
+
+(3)
+
+(6)
+
+(6)
+
+2)
+
+(6)
+
+(44242)
+
+(5)
+
+6)
+
+@)
+
+—- -(3)
+
+
+--- Page 5 ---
+@
+
+(a) In the figure shown below, when light falls on the vertical surface BC, it refracts
+
+along the direction BC. Find the incidence angle i. Given sin’'(0.75) = 48.6°.
+
+(5)
+
+(b) What is farsightedness or hyperopia? How it can be removed? Explain with the help
+of a neat diagram. . (5)
+(c) If the critical angle of a medium is 30°, find the polarizing angle for the medium. . (4)
+
+
+
+--- Page 6 ---
+
+
+--- Page 7 ---
+Total Printed Pages :7 J PROT NO ew ciccctcrnsssiscocssscoses
+
+61406
+B. Sc. (Hons.) Semester - IV
+Examination, 2022-23
+PHYSICS
+Paper : BPT-401
+(Electronics and Modern Physics)
+Time : Three Hours J { Full Marks : 76
+
+[Write your Roll No. at the top immediately on the
+
+receipt of this question paper.]
+
+Note: Answer all the questions.
+
+1. Answer in brief any five of the following questions :
+5x4=20
+
+(a) What are the differences between metal,
+insulator and semiconductor ? Describe on the
+
+basis of band theory of solids.
+
+(b) What are the group velocity and phase velocity
+of matter waves ? Obtain the relation between
+
+them.
+
+P. T.O.
+
+
+--- Page 8 ---
+61406
+(c)
+
+(d)
+
+(e)
+
+(f)
+
+_&)
+
+If a dielectric is introduced between the plates of
+
+_a parallel plate capacitor, show how the induced
+
+charge varies as a function of the dielectric
+constant. Also show that the dielectric constant
+approaches infinite (0) for a metal dielectric.
+
+Differentiate between the electronic, ionic and
+
+orientational polazibility.
+
+For an intrinsic semiconductor, the effective
+masses of hole and electron are 0.36 moand 0.54
+mo respectively (mo being the rest mass of an
+electron). Find the position of the Fermi level in
+
+this semiconductor at T = 300 °K.
+
+Light with a wavelength of 400 nm is incident on
+a metal surface with a work function of 2.5 eV.
+Calculate the maximum kinetic energy (K.E.) of
+
+the emitted electrons.
+
+How the current amplification factor @ is
+different from current gain # ? Determine the
+current gain and emitter current for a transistor
+circuit in CE configuration, where Ip = 50 pA and
+Ic = 3.65 mA.
+
+(2)
+
+
+--- Page 9 ---
+2.
+
+3.
+
+(a)
+
+(b)
+
+(b)
+
+(a)
+
+61406
+
+Derive the expression of the molecular field
+inside the spherical cavity and find the relation
+of a dielectric constant in terms of the
+polarizibility. What are the limitations of
+
+Clausius-Mossotti equation ?
+
+Explain the three electric vectors, electric field
+intensity (E), dielectric polarization (P) and
+electric displacement (D). Establish a relation
+
+among them. 5.5
+
+OR
+
+Derive the Langevin - Debye theory for
+dielectric susceptibility of polar medium. 5.5
+
+Describe the formation of the depletion layer in a
+p-n junction. Sketch the barrier potential and
+prove that the barrier potential r
+
+Where k is Boltzmann's constant, T is the
+temperature in Kelvin, q is the charge of an
+
+electron, Na is the acceptor concentration in the
+
+(3) P.T.O.
+
+
+--- Page 10 ---
+61406
+
+)
+
+(b)
+
+(a)
+
+(b)
+
+p-region, Np is the donor concentration in the
+
+n-region, and #; is the intrinsic carrier
+i
+
+concentration.
+
+|
+What is meant by peak inverse voltage ‘of a
+
+rectifier ? Prove that the regulation for iboth
+halfwave and full-wave rectifier is given by the
+ratio of forward diode resistance and load
+
+resistance. | 5.5
+
+|
+OR |
+‘Zener breakdown voltage has a negative
+temperature coefficient whereas the avalanche
+break breakdown voltage has a positive
+temperature coefficient’. Explain. How Zener
+
+diode works as a voltage regulator ? : 5.5
+|
+What is difference between the showman
+effect and Compton effect ? Give an account of
+Einstein's explanation of photoelectric effect on
+the basis of quantum theory. 5
+
+- I
+Show that the de Broglie wavelength (4) for a
+
+material particle of rest mass mo and charge q,
+
+(4)
+
+
+--- Page 11 ---
+(c)
+
+(a)
+
+(c)
+
+61406
+
+accelerated from the rest through a potential
+
+difference of V volts relativistically is given by
+
+where c is speed of
+
+light. 4,5
+
+What is the Bragg's law of X-ray diffraction in
+crystals ? Describe the X-ray spectrometer
+method for determining the wavelength of
+
+X-rays. 3
+
+What is the meaning of biasing a transistor ?
+Discuss different methods for transistor biasing.
+
+Provide the circuit of a self-bias transistor. 6
+
+What is the Early effect ? Explain why transistor
+
+action is lost if the base width tends to zero. 3
+
+Describe the operation of an R-C coupled
+amplifier and explain its frequency response
+
+curve. 3.5
+
+(5) P: TsO,
+
+
+--- Page 12 ---
+61406
+OR
+
+(a) A silicon n-p-n transistor having £ = 100,
+Ico = 22nA_ is operated in CE configuration.
+Assuming Vpz = 0.7V determine the transistor
+corenis iand, the region of operation of the
+transistor. What happens if the resentence Rc is
+
+indefinitely increased ?
+
+(b) What is a load line ? Explain using suitable
+diagram how load line can be constructed for a
+
+common emitter transistor amplifier. 4
+
+(6)

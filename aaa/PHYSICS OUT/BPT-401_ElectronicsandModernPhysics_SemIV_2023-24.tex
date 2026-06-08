@@ -1,0 +1,116 @@
+% BHU PYQ -- Manually transcribed & error-corrected
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BPT-401: Electronics and Modern Physics -- BHU PYQ},pdfauthor={Banaras Hindu University}}
+
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BPT-401: Electronics and Modern Physics}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) Semester IV Examination, 2023-24}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. BPT-401: Electronics and Modern Physics}\\[4pt]
+  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer \textbf{five} questions including Question~1 which is compulsory. Symbols have their usual meanings.}
+\bigskip
+
+\noindent\textbf{Question 1.} Answer in brief any \textbf{five} of the following: \pts{5 $\times$ 4 = 20}
+\begin{parts}
+  \item Show that $r^n \vec{r}$ is an irrotational vector for any value of $n$, but is solenoidal only if $n = -3$ (where $\vec{r}$ is the position vector of a point).
+  \item Consider a cylindrically shaped section of silicon having length $1\,\text{mm}$ and cross-sectional area $0.1\,\text{mm}^2$. Calculate its conductivity and resistance when: (i) it is purely intrinsic material, and (ii) it has a free electron density of $8 \times 10^{15}\,\text{cm}^{-3}$. (Take the intrinsic carrier density $n_i = 1.5 \times 10^{10}\,\text{cm}^{-3}$, mobility constants $\mu_n = 1500\,\text{cm}^2/\text{V\cdot s}$ and $\mu_p = 900\,\text{cm}^2/\text{V\cdot s}$).
+  \item Why are transistors in common-emitter configuration preferred over other configurations in amplifier circuits? Explain.
+  \item Describe the three electric vectors $\vec{E}$, $\vec{P}$, and $\vec{D}$. Find the relationship among them.
+  \item An electron has a de Broglie wavelength of $0.02\,\text{\AA}$. Find its kinetic energy, phase velocity, and group velocity. (Given rest mass energy of electron = $511\,\text{keV}$).
+  \item Draw the circuit diagram to obtain a clipped signal through: (i) a series diode clipping circuit, and (ii) a shunt diode clipping circuit.
+  \item Electrons are accelerated by $344\,\text{V}$ and are reflected by a crystal. If the first maximum is observed at $60^\circ$, calculate the interplanar spacing of the crystal. ($h = 6.62 \times 10^{-34}\,\text{J\cdot s}$).
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 2.}
+\begin{parts}
+  \item Describe the electric fields in the spherical cavity of a dielectric. Derive the expression of the molecular field inside the spherical cavity and find the relation for the dielectric constant in terms of the polarizability. Give the Lorentz-Lorenz equation also. \pts{8}
+  \item If a dielectric is introduced between the plates of a parallel plate capacitor, show that the induced charge $\sigma'$ varies with dielectric constant $k$ as:
+    \[ \sigma' = \sigma \left( 1 - \frac{1}{k} \right) \]
+    Also, show that $k \to \infty$ for a metal dielectric. Here, $\sigma$ is the free charge density. \pts{6}
+\end{parts}
+\hfill \textbf{OR}
+\begin{parts}
+  \item Distinguish among electronic, ionic, and orientational polarizability. Explain their temperature dependence. \pts{8}
+  \item A dielectric material has relative permittivity $\varepsilon_r = 6$. Calculate the electric susceptibility $\chi_e$ and the polarization $\vec{P}$ when subjected to an electric field of $10^4\,\text{V/m}$. \pts{6}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 3.}
+\begin{parts}
+  \item If the barrier potential $V_0$ across a p-n junction diode in terms of donor and acceptor impurities is given as:
+    \[ V_0 = \frac{kT}{e} \ln \left( \frac{N_d N_a}{n_i^2} \right) \]
+    where all the symbols have their usual meanings, show that the width of the depletion region decreases with the increase of these impurities. \pts{8}
+  \item Explain the working of a center-tapped full-wave rectifier. How can its output be smoothened? Explain with a necessary filter circuit. \pts{6}
+\end{parts}
+\hfill \textbf{OR}
+\begin{parts}
+  \item What is a Zener diode? Explain the working of a Zener diode as a voltage regulator with a circuit diagram. \pts{8}
+  \item Compare half-wave and full-wave rectifiers in terms of efficiency, ripple factor, and peak inverse voltage. \pts{6}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Describe the photoelectric effect. Give an account of Einstein's explanation of the photoelectric effect. The photoelectric threshold wavelength for a metal is $3000\,\text{\AA}$. Find the kinetic energy of the electron ejected from it by radiation of wavelength $1200\,\text{\AA}$. \pts{8}
+  \item What is the Compton effect? Obtain an expression for the shift in wavelength of an X-ray beam. \pts{6}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Draw the circuit diagram to study the output characteristics of a PNP transistor in common-emitter mode. Explain the transistor operation in saturation, active, and cut-off regions. \pts{5}
+  \item What do you understand by bias stabilization in transistor circuits? Derive the expression for the stability factor $S$ in terms of current gain $\beta$ for a CE amplifier. \pts{5}
+  \item What is a load line? How can one determine the quiescent point (Q-point) using a load line in a CE amplifier? Why is it preferable to choose the operating point in the middle of the active region? \pts{4}
+\end{parts}
+\hfill \textbf{OR}
+\begin{parts}
+  \item Compute the value of $R_B$ in the biasing circuit given below so that the Q-point is fixed at $I_C = 8\,\text{mA}$ and $V_{CE} = 3\,\text{V}$. Assume $V_{BE} = 0.3\,\text{V}$, $V_{CC} = 9\,\text{V}$, $R_C = 250\,\Omega$, and $\beta = 80$. \pts{5}
+  \item Derive the Langevin-Debye equation for the total polarizability of a dielectric. \pts{4}
+  \item State Gauss's divergence theorem. Verify the divergence theorem for the vector field $\vec{V} = x^2 \vec{i} + y^2 \vec{j} + z^2 \vec{k}$ taken over the unit cube $0 \le x, y, z \le 1$. \pts{5}
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}
