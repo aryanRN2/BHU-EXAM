@@ -114,3 +114,14 @@ body {
 .material-symbols-outlined.fill {
   font-variation-settings: 'FILL' 1, 'wght' 300, 'GRAD' 0, 'opsz' 24;
 }
+
+/* MathJax mobile responsiveness */
+mjx-container {
+  max-width: 100% !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  scrollbar-width: none; /* Hide scrollbar for clean look on Firefox */
+}
+mjx-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome/Safari */
+}
