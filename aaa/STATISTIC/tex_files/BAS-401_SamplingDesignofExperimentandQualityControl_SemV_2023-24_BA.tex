@@ -1,0 +1,103 @@
+% BHU PYQ -- Auto-generated & error-corrected
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BAS-401: Sampling, Design of Experiment and Quality Control -- BHU PYQ},pdfauthor={Banaras Hindu University}}
+
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BAS-401: Sampling, Design of Experiment \& QC}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.A. (Hons.) Semester V Examination, 2023-24}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. BAS-401: Sampling, Design of Experiment and Quality Control}\\[4pt]
+  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer \textbf{five} questions including Question~1 which is compulsory. Symbols have their usual meanings.}
+\bigskip
+
+\medskip\noindent\textbf{Question 1.}
+\begin{parts}
+  \item Distinguish between sampling and census methods of data collection. \pts{6}
+  \item In the case of simple random sampling without replacement (SRSWOR), prove that the probability of selecting any specified unit in the sample at any draw is $n/N$, where $N$ is the population size and $n$ is the size of the sample drawn. \pts{8}
+\end{parts}
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 2.}
+\begin{parts}
+  \item In usual notations, prove that in the case of SRSWOR, the variance of the sample mean is given by:
+  \[
+  Var(\bar{y}_n) = \frac{N-n}{Nn} S^2
+  \] \pts{7}
+  \item If $\bar{y}_n$ is the sample mean of a random sample of size $n$ drawn from a population of size $N$ by the method of SRSWOR, prove that it is an unbiased estimator of the population mean, i.e.,
+  \[
+  E(\bar{y}_n) = \bar{Y}_N
+  \] \pts{7}
+\end{parts}
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 3.}
+Define allocation, proportional allocation, and Neyman allocation in stratified random sampling. Derive the expression for the variance of the stratified sample mean estimator:
+\[
+\bar{y}_{st} = \sum_{i=1}^{k} W_i \bar{y}_i
+\]
+under proportional allocation, where $W_i = N_i/N$ and $\bar{y}_i$ is the sample mean of the $i$-th stratum drawn using SRSWOR. \pts{14}
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 4.}
+Define linear systematic sampling. Prove that the systematic sample mean $\bar{y}_{sys}$ is an unbiased estimator of the population mean $\bar{Y}_N$. Also prove that:
+\[
+Var(\bar{y}_{sys}) = \frac{N-1}{N} S^2 - \frac{k(n-1)}{N} S^2_{wsy}
+\]
+where the symbols have their usual meanings. \pts{14}
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 5.}
+Describe cluster sampling. In the case of equal cluster sampling, prove that the sample mean $\bar{y}_{cl}$ is an unbiased estimator of the population mean $\bar{Y}_N$. Also, write down the expression of $Var(\bar{y}_{cl})$ in terms of the intra-class correlation coefficient $\rho$. \pts{14}
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 6.}
+Give the layout of a Completely Randomized Design (CRD) and discuss the complete statistical analysis, including the ANOVA table and tests of hypothesis, for a CRD. \pts{14}
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 7.}
+Explain the three basic principles of experimental designs: replication, randomisation, and local control. Further, explain the situations in which a Randomized Block Design (RBD) is considered as an improvement over a Completely Randomized Design (CRD). \pts{14}
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 8.}
+What do you understand by Control Charts for fraction defective ($p$-chart)? Explain its construction, setting up of control limits, and discuss the underlying theoretical probability distribution on which these control limits are based. \pts{14}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

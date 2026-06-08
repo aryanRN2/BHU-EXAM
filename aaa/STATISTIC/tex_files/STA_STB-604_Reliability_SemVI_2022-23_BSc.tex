@@ -1,0 +1,118 @@
+% BHU PYQ -- Auto-generated & error-corrected
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={STA/STB-604: Reliability -- BHU PYQ},pdfauthor={Banaras Hindu University}}
+
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{STA/STB-604: Reliability}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.A./B.Sc. (Hons.) Semester VI Examination, 2022-23}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. STA/STB-604: Reliability}\\[4pt]
+  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer any \textbf{five} questions. All questions carry equal marks. Symbols have their usual meanings.}
+\bigskip
+
+\medskip\noindent\textbf{Question 1.}
+\begin{parts}
+  \item Define the hazard rate function $h(t)$ and the reliability function $R(t)$, with their interpretations in real-life situations. Consider the reliability function for the lifetime of an electronic item:
+  \[
+    R(t) = 1 - e^{-at}, \quad t \geq 0, \quad a > 0,
+  \]
+  where lifetime $t$ is measured in hours. Derive the probability density function and the hazard rate function. \pts{7}
+  \item Define the Mean Time to System Failure (MTSF). Explain its role in reliability analysis. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 2.}
+\begin{parts}
+  \item A life-test was terminated at the 10th failure out of 13 electronic items. The observed times (in days) are: 22, 50, 88, 100, 132, 154, 176, 250, 300, 300$^+$, 300$^+$, 300$^+$, where $^+$ indicates censored data. Assuming that the failure times follow the exponential distribution, obtain the MLEs of mean failure time, hazard rate, and reliability for $t = 20, 50, 100$ and 150 days. \pts{7}
+  \item Giving an example, explain the importance of the $k$-out-of-$m$ system. Derive the expressions of $R(t)$ and MTSF for a 2-out-of-3 system when component lifetimes follow the exponential distribution with mean 10 hours. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Let $X$ be the lifetime of an electronic item following the Weibull distribution with scale parameter $\alpha = 4$ and shape parameter $\beta = 2$. The failure times (in appropriate units) observed are: 1.18, 1.07, 0.55, 0.76, 0.20, 0.21, 0.71, 0.36, 0.15, 2.22, 3.34, 0.44, 1.91, 0.15, 0.03, 1.45, 1.33, 1.42, 0.77, 0.32. Obtain the MLEs of mean, variance, and reliability of the distribution. \pts{7}
+  \item Let $X$ be an i.i.d.\ random variable representing the lifetime of a system, and define $R(t) = P[X > t]$. Derive the UMVUE of $R(t)$ and mean lifetime when $X$ follows the exponential distribution with mean $\theta$. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Discuss series-parallel and parallel-series systems. Giving a suitable example, show that the series-parallel system provides higher reliability than the parallel-series system. \pts{7}
+  \item What do you mean by censoring in reliability studies? Discuss its various types (Type-I, Type-II, random) with an example for each. Obtain the MLE of Weibull parameters in the case of Type-I censored data. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Derive the maximum likelihood estimator of MTSF assuming that the Type-II censored sample follows the exponential distribution with mean life $\theta$. Also derive the distribution of the MLE of MTSF. \pts{7}
+  \item Discuss the log-normal distribution with its important properties and applications to reliability estimation over the normal distribution. Derive the maximum likelihood estimates of the mean and variance of the system whose lifetime follows the log-normal distribution. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 6.}
+\begin{parts}
+  \item Discuss various shapes of the hazard function (bathtub, increasing, decreasing, constant) encountered in practice. Give an example for each shape. \pts{7}
+  \item Define total time on test (TTT) for life testing, with and without replacement. For the failure times (in days): 22, 50, 88, 100, 132, 154, 176, 250, 300, 300$^+$, 300$^+$, 300$^+$, obtain the total time on test. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 7.}
+\begin{parts}
+  \item Let $X_{(1)} \leq X_{(2)} \leq \cdots \leq X_{(r)}$ be a failure-censored sample from the exponential distribution with mean $\theta$. Test the hypothesis $H_0: R(t) = R_0$ against $H_1: R(t) \neq R_0$ using the likelihood ratio test. \pts{7}
+  \item Let $X_{(1)}, X_{(2)}, \ldots, X_{(n)}$ be the ordered failure times from the exponential distribution. Obtain exact confidence intervals for the mean lifetime, hazard function, and reliability at a given time point $t_0$. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 8.}
+\begin{parts}
+  \item Define the Weibull distribution. Derive its mean and variance. Write its advantages over the exponential distribution as a failure-time distribution. \pts{7}
+  \item What is a parallel system? Show that the reliability of a parallel system increases as the number of components increases. Derive the expression of $R(t)$ and MTSF for a parallel system with 2 identical independent components that have a constant hazard rate $c$. \pts{7}
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

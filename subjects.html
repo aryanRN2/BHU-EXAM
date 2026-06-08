@@ -1414,7 +1414,7 @@
     Object.keys(EXAMS).forEach(key => {
         const exam = EXAMS[key];
         if (!exam.title) return;
-        const isTargetDept = key.startsWith('mat') || key.startsWith('phy') || key.startsWith('chem');
+        const isTargetDept = key.startsWith('mat') || key.startsWith('phy') || key.startsWith('chem') || key.startsWith('sta');
         if (!isTargetDept) return;
         
         const normTitle = exam.title.toLowerCase().trim();

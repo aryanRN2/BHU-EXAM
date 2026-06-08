@@ -1,0 +1,142 @@
+% BHU PYQ -- Auto-generated & error-corrected
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BSC-13A: Statistical Inference, Sampling and Design of Experiments -- BHU PYQ},pdfauthor={Banaras Hindu University}}
+
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BSC-13A: Inference, Sampling \& Design of Exp}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) Semester V Examination, 2023-24}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. BSC-13A: Statistical Inference, Sampling and Design of Experiments}\\[4pt]
+  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer \textbf{five} questions including Question~1 which is compulsory. Symbols have their usual meanings.}
+\bigskip
+
+\medskip\noindent\textbf{Question 1.}
+\begin{parts}
+  \item State the additive and multiplicative theorems of probability, and briefly explain their significance. \pts{7}
+  \item Explain and define the terms: "Random Experiment", "Sample space", "Event", "Probability", "Probability Distribution", and "Statistical Hypothesis". \pts{7}
+\end{parts}
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 2.}
+\begin{parts}
+  \item Assume the random variable $Y$ has a continuous uniform distribution defined on the interval $[0, 2]$, i.e.,
+  \[
+  f(y) = \begin{cases}
+    \frac{1}{2}, & 0 < y < 2 \\
+    0, & \text{otherwise}
+  \end{cases}
+  \]
+  \begin{parts}
+    \item Find $P(Y < 1)$.
+    \item Find the mean of this distribution.
+  \end{parts} \pts{7}
+  \item Define the terms "population", "sampling unit", and "sampling frame", and explain their significance in sampling theory. \pts{7}
+\end{parts}
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Suppose that $Y$ is a normally distributed random variable with mean $\mu_Y = 10$ and standard deviation $\sigma_Y = 2$, and $X$ is an independent normally distributed random variable with mean $\mu_X = 5$ and standard deviation $\sigma_X = 1$. Find the values of:
+  \begin{parts}
+    \item $P(Y > 12 \text{ and } X > 4)$
+    \item $P(Y > 12 \text{ or } X > 4)$
+    \item $P(Y > 10 \text{ and } X < 5)$
+  \end{parts} \pts{7}
+  \item What is simple random sampling (SRS)? Explain how a simple random sample is selected from a population. What are its advantages and limitations? \pts{7}
+\end{parts}
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Two boxes labelled $B_1$ and $B_2$ containing candies are placed on a table. Box $B_1$ contains 7 red candies and 4 green candies. Box $B_2$ contains 3 red candies and 10 orange candies. The boxes are arranged so that the probability of selecting box $B_1$ is $\frac{1}{3}$ and the probability of selecting box $B_2$ is $\frac{2}{3}$. A blindfolded person draws a candy. What is the probability that the candy came from box $B_1$ given that it is a red candy? \pts{7}
+  \item Explain the Chi-square ($\chi^2$) test of goodness of fit. What are the key assumptions for conducting a Chi-square test? \pts{7}
+\end{parts}
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 5.}
+\begin{parts}
+  \item What is hypothesis testing, and why is it an important statistical tool in research? Discuss the concepts of null hypothesis, alternative hypothesis, Type I error, and Type II error. \pts{6}
+  \item Weight losses (in kg) of 12 persons in an experimental one-week diet program are given as:
+  \[
+  3.0, \quad 1.4, \quad 0.2, \quad -1.2, \quad 5.3, \quad 1.7, \quad 3.7, \quad 5.9, \quad 0.2, \quad 3.6, \quad 3.7, \quad -2.0
+  \]
+  Do these results indicate that a significant mean weight loss was achieved at the $\alpha = 0.05$ level of significance? \pts{8}
+  
+  \textbf{Critical values of Student's $t$-distribution for one-tailed test (probability $p = 0.90$):}
+  \begin{center}
+  \begin{tabular}{|l|ccccc|}
+  \hline
+  \textbf{Degrees of Freedom ($\nu$)} & 9 & 10 & 11 & 12 & 13 \\ \hline
+  \textbf{Critical Value ($t_{0.90, \nu}$)} & 1.383 & 1.372 & 1.363 & 1.356 & 1.350 \\ \hline
+  \end{tabular}
+  \end{center}
+\end{parts}
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 6.}
+\begin{parts}
+  \item Define 'random variable' and explain its significance in probability theory. Differentiate between discrete and continuous random variables, providing examples of each. \pts{7}
+  \item Explain the normal distribution along with its important applications. Discuss its key properties. \pts{7}
+\end{parts}
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 7.}
+\begin{parts}
+  \item What do you understand by the binomial distribution? Discuss its key properties, including the formula for calculating binomial probabilities. \pts{7}
+  \item What are the key steps involved in conducting stratified random sampling, and what factors should be considered when determining the strata? \pts{7}
+\end{parts}
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 8.}
+Indicate whether the following statements are \textbf{True} or \textbf{False}. If false, specify what change will make the statement true:
+\begin{parts}
+  \item One of the assumptions underlying the use of the (pooled) two-sample $t$-test is that the samples are drawn from populations having equal means.
+  \item In the two-sample $t$-test, the number of degrees of freedom for the test statistic decreases as sample sizes increase.
+  \item If every observation is multiplied by 2, then the $t$-statistic is multiplied by 2.
+  \item The $\chi^2$ distribution is used for making inferences about two population variances.
+  \item It is not necessary to have equal sample sizes for the paired $t$-test.
+  \item If the test statistic falls in the rejection region, the null hypothesis has been proven to be true.
+  \item When the test statistic is $t$ and the number of degrees of freedom is very large ($\nu > 30$), the critical value of $t$ is very close to that of the standard normal variable $Z$.
+\end{parts}
+\pts{14}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

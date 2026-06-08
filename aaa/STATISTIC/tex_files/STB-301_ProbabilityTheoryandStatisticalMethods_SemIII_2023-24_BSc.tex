@@ -1,0 +1,108 @@
+% BHU PYQ -- Manually transcribed & error-corrected
+% Paper: STB-301: Probability Theory and Statistical Methods
+% Exam: B.Sc. (Hons.) Semester III Examination, 2023-24
+
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={STB-301: Probability Theory and Statistical Methods -- BHU PYQ},pdfauthor={Banaras Hindu University}}
+
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{STB-301: Probability Theory and Statistical Methods}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) Semester III Examination, 2023-24}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. STB-301: Probability Theory and Statistical Methods}\\[4pt]
+  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer \textbf{five} questions including Question~1 which is compulsory. Symbols have their usual meanings.}
+\bigskip
+
+\noindent\textbf{Question 1.} \textit{(Compulsory)}
+\begin{parts}
+  \item Distinguish between standard deviation and standard error. If $X_i \sim N(\mu, \sigma^2)$ for $i = 1,2,\dots,n$, find the standard error of the sample mean $\bar{X}$ and the sample variance $S^2$.\pts{4}
+  \item What do you mean by sample proportion? Derive the sampling distribution of the sample proportion and obtain its standard error.\pts{10}
+\end{parts}
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 2.}
+\begin{parts}
+  \item What are the different criteria of a good estimator? Explain them briefly.\pts{6}
+  \item If $X_1, X_2, \dots, X_n$ is a random sample from a normal population $N(\mu, \sigma^2)$, show that the sample variance $S^2 = \frac{1}{n-1}\sum_{i=1}^n (X_i - \bar{X})^2$ is an unbiased and consistent estimator for the parameter $\sigma^2$.\pts{8}
+\end{parts}
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 3.}
+\begin{parts}
+  \item What do you mean by simple and composite hypothesis? A random sample of size $n=1$ is taken from an exponential distribution with parameter $\lambda$ (pdf $f(x) = \lambda e^{-\lambda x}, x > 0$). If $x \geq 1$ is the critical region for testing the hypothesis $H_0: \lambda = 2$ against $H_1: \lambda = 1$, find the type-I error, type-II error and the power of the test.\pts{8}
+  \item Define $\chi^2$ (chi-square) distribution, derive the expression of its probability density function, and show that the skewness of the $\chi^2$ distribution with $n$ degrees of freedom is $\sqrt{8/n}$.\pts{6}
+\end{parts}
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Define Student's $t$-distribution. Obtain the even order moments of the $t$-distribution and discuss the shape of the distribution.\pts{6}
+  \item Define Fisher's $F$-distribution and show that if $t \sim t(n)$, then $t^2 \sim F(1,n)$.\pts{4}
+  \item Describe the $\chi^2$ goodness-of-fit test for testing independence of attributes.\pts{4}
+\end{parts}
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 5.}
+\begin{parts}
+  \item What do you mean by paired $t$-test? State the test of significance for the paired $t$-test.\dots\pts{6}
+  \item Explain the testing procedure for testing the equality of two variances from two independent normal populations.\pts{8}
+\end{parts}
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 6.}
+\begin{parts}
+  \item Describe the importance of the Central Limit Theorem. State the test of significance for a single proportion in the case of a large sample. Also compute the probable limits for the population proportion.\pts{8}
+  \item What is Fisher's $Z$-transformation? Describe any application of this transformation.\pts{6}
+\end{parts}
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 7.}
+\begin{parts}
+  \item Define order statistics along with its various applications. Obtain the probability distribution of the $r$-th order statistics $X_{(r)}$.\pts{6}
+  \item Let $X_1, X_2, \dots, X_n$ be a random sample from a continuous uniform distribution $U(0, \theta)$. Obtain the probability density function of the smallest and largest order statistics. Also compute the mean and variance of these distributions.\pts{8}
+\end{parts}
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 8.}
+\noindent Explain the various advantages and disadvantages of non-parametric tests. Describe the sign test and run test in detail.\pts{14}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

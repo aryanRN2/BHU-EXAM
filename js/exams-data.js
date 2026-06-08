@@ -5561,13 +5561,621 @@ export const EXAMS = {
     "id": "stamd11",
     "title": "Elementary Statistics",
     "module": "STAMD11",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Write the definition of statistics with its limitations.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Define the terms: Categorical Variable; Discrete and Continuous data; Interval and Ratio scale of measurement",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "What is.difference between Primary \\& Secondary data?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Discuss different ways of presenting the data with examples. a",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Write different steps in preparing grouped frequency distribution table. ;:",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "What are different ways of presenting the data graphically?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "What is the purpose of measures of central tendency and variability?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "What are the different measures of central tendency?Discuss the measures with their merits and demerits.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "Define coefficient of variation?What purpose does it serve?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Discuss absolute and relative measures'of dispersion.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": ". Define moments. Distinguish between raw and central moments.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "What do you mean by positively and negatively skewed distribution. Also discuss various measures of skewness.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "What is scatter diagram?How is it useful in the study of correlation?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Distinguish between linear and non-linear correlation. Mention important properties of correlation coefficient. Write short notes on any two of the following:",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Yule's Coefficient of Association",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Uses of Regression Analysis",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 17,
+        "unit": "I",
+        "question": "Define Statistics and explain its scope and limitations in different fields.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 18,
+        "unit": "I",
+        "question": "Distinguish between primary and secondary data. Explain various methods of collecting primary data.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 19,
+        "unit": "I",
+        "question": "Discuss various types of scales of measurement: nominal, ordinal, interval, and ratio scales.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 20,
+        "unit": "I",
+        "question": "What is a questionnaire? State the main points to be considered in drafting a questionnaire.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 21,
+        "unit": "II",
+        "question": "Explain frequency distribution and cumulative frequency distributions with examples.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 22,
+        "unit": "II",
+        "question": "Describe graphical representation of data: histograms, frequency polygons, and ogives.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "Define measures of central tendency. What are the characteristics of a good average?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "Explain arithmetic mean, median, and mode, and write their relative merits and demerits.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "State and prove the algebraic properties of the arithmetic mean.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Define partition values. Explain how quartiles, deciles, and percentiles are computed.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 27,
+        "unit": "IV",
+        "question": "Define dispersion and write down various absolute and relative measures of dispersion.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 28,
+        "unit": "IV",
+        "question": "Define range, quartile deviation, and mean deviation, and compare their properties.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 29,
+        "unit": "V",
+        "question": "What is skewness? Explain Karl Pearson's and Bowley's measures of skewness.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 30,
+        "unit": "V",
+        "question": "Define kurtosis. Differentiate between leptokurtic, mesokurtic, and platykurtic distributions.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 31,
+        "unit": "V",
+        "question": "Describe the stem-and-leaf display and box plot methods for exploratory data analysis.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 32,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Elementary Statistics (Part 1).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 33,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Elementary Statistics (Part 2).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 34,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Elementary Statistics (Part 3).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 35,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Elementary Statistics (Part 4).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 36,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Elementary Statistics (Part 5).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 37,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Elementary Statistics (Part 6).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 38,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Elementary Statistics (Part 7).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 39,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Elementary Statistics (Part 8).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 40,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Elementary Statistics (Part 9).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Elementary Statistics (Part 10).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Elementary Statistics (Part 11).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Elementary Statistics (Part 12).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Elementary Statistics (Part 13).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Elementary Statistics (Part 14).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Elementary Statistics (Part 15).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Elementary Statistics (Part 16).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Elementary Statistics (Part 17).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Elementary Statistics (Part 18).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Elementary Statistics (Part 19).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      }
+    ]
   },
   "stamj11": {
     "id": "stamj11",
     "title": "Descriptive Statistics",
     "module": "STAMJ11",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Write down the definition of Statistics. Explain in brief the nature and scope of statistics along with its limitations.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Explain with examples nominal scale, ordinal scale, interval scale, and ratio scale of measurement.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "What do you mean by primary and secondary data? Write in brief the sources of secondary data. Describe the schedule method of collecting primary data.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Describe various diagrammatical methods for the representation of data.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Define Quartile, Decile, and Percentile of a frequency distribution. Calculate $Q_1$, $D_5$, and $P_{90}$ for the following distribution: \\begin{center} \\begin{tabular}{|l|c|c|c|c|c|} \\hline Class & 20--30 & 30--40 & 40--50 & 50--60 & 60--70 \\hline Frequency & 12 & 25 & 40 & 15 & 8 \\hline \\end{tabular} \\end{center}",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Define raw and central moments for grouped data. Explain Skewness and Kurtosis and discuss their various measures.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "What do you mean by regression? Write the expression for the two regression lines. Given the two regression equations: \\[ 8X - 10Y = -46.6 \\quad \\text{and} \\quad 40X - 18Y = 214 \\] calculate the mean values of $X$ and $Y$, and the correlation coefficient between them.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "Ten competitors in a musical contest were ranked by three judges $A$, $B$, and $C$ in the following order: \\begin{center} \\begin{tabular}{|l|cccccccccc|} \\hline Judge A & 1 & 6 & 5 & 10 & 3 & 2 & 4 & 9 & 7 & 8 Judge B & 3 & 5 & 8 & 4 & 7 & 10& 2 & 1 & 6 & 9 Judge C & 6 & 4 & 9 & 8 & 1 & 2 & 3 & 10& 5 & 7 \\hline \\end{tabular} \\end{center} Using the rank correlation method, discuss which pair of judges has the nearest approach to common likings in music.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "Define primary and secondary data sets. Also mention its important sources.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "What are the different types of the measurement scale?Describe each with suitable example.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "What do you mean by ungrouped frequency distribution?In an opinion survey, the household size of different families living in Gokul Dham Colony of Varanasi district is recorded as;",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "What are the different types of classification available to represent the raw data set?Explain with suitable example.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "Describe the meaning and utility of histogram and Ogive.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Define quartiles, deciles and percentiles?Compute different quartiles for the Income in Rs. (in 000) | 5-10 10-15 20-25 25-30 No. of Workers 10",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "State the advantages of graphical representation of data. Explain the histogram with an example.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Differentiate between primary data and secondary data. Describe the different sources of secondary data in India.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "Describe the different measures of central tendency. Briefly explain the meaning of an outlier. Using an example, show how an outlier can affect the value of the arithmetic mean.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "Define median for ungrouped data when the number of observations is even. Derive the expression to obtain the median for a continuous frequency distribution.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "State the relative and absolute measures of dispersion and describe the main difference between mean deviation and standard deviation.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Define the relation between moments about the mean in terms of moments about an arbitrary point, and vice versa.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Describe the absolute measures of skewness. Explain the coefficient of skewness based upon moments ($\\beta_1$ and $\\gamma_1$).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "Discuss the limitations of the classical definition of probability. For any two events $E_1$ and $E_2$, show that: \\[ P(E_1 \\cup E_2) = P(E_1) + P(E_2) - P(E_1 \\cap E_2). \\] Also, for events $E_1, E_2, \\ldots, E_n$, show that: (1) $P(E_1 \\cap E_2 \\cap \\cdots \\cap E_n) \\geq P(E_1) + P(E_2) + \\cdots + P(E_n) - (n-1)$ (2) $P(E_1 \\cup E_2 \\cup \\cdots \\cup E_n) \\leq P(E_1) + P(E_2) + \\cdots + P(E_n)$",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "For any three events $E_1$, $E_2$ and $E_3$, show that: \\[ P(E_1 \\cup E_2 \\mid E_3) = P(E_1 \\mid E_3) + P(E_2 \\mid E_3) - P(E_1 \\cap E_2 \\mid E_3). \\]",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "In two companies A and B, a student of Statistics has applied for a job. The probability of his selection in company A is $0.7$ and of his rejection in company B is $0.5$. The probability of at least one of his applications being rejected is $0.6$. What is the probability that he will be selected in exactly one of the companies?",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "What do you understand by the distribution function of a random variable? Describe the important properties of a distribution function.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "What do you mean by a probability density function (p.d.f.)? Let $X$ be a continuous random variable with p.d.f.\\ given by: \\[ f(x) = \\begin{cases} px, & 0 < x < 1 p, & 1 \\leq x < 2 -px + 3p, & 2 \\leq x < 3 0, & \\text{otherwise} \\end{cases} \\] (1) Determine the constant $p$. (2) Determine the cumulative distribution function (CDF). (3) If three independent observations are made, what is the probability that exactly one of these three numbers is larger than $1.5$?",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Describe the conditional probability distribution function. The joint probability distribution of two random variables $X$ and $Y$ is given below: \\begin{center} \\begin{tabular}{c|cccc} \\hline $X \\backslash Y$ & $1$ & $2$ & $3$ & $4$ \\hline $1$ & $1/9$ & $1/2$ & $1/18$ & $1/36$ $2$ & $1/2$ & $1/2$ & $1/8$ & $1/36$ $3$ & $5/36$ & $1/36$ & $1/36$ & $1/36$ $4$ & $1/36$ & $1/18$ & $1/36$ & $5/36$ \\hline \\end{tabular} \\end{center} Find the conditional distribution of $X$ given $Y = 1$.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Show that the mathematical expectation of the sum of $n$ random variables is equal to the sum of their individual expectations, provided all expectations exist.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Explain the method of constructing a frequency polygon.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Define the difference between nominal and ratio scale with suitable examples.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "Describe the characteristics to be satisfied by an ideal measure of central tendency. Show that the sum of the squares of the deviations of a set of values is minimum when taken about their mean.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Describe the geometric mean of the combined groups.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "What do you understand by the mode of data? Derive the expression of the mode for a continuous frequency distribution.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "Derive the expression for the variance of the combination of two series.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "What do you mean by standard deviation? Show that for any discrete distribution, standard deviation is not less than the mean deviation from the mean.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Describe the relative positions of mean, median and mode in the figures for positively and negatively skewed distributions. Explain the method of measuring kurtosis of a frequency distribution.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "What is the subjective approach to probability? Suppose $E_1$ and $E_2$ are two events and $E_2 \\subseteq E_1$, then show that: (1) $P(E_1 \\cap E_2^c) = P(E_1) - P(E_2)$ (2) $P(E_2) \\le P(E_1)$",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "State and derive the addition theorem of probability for $n$ events.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "What do you understand by conditional probability? State and prove Bayes' theorem.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "A factory produces a certain type of product by two types of machines. Past records show that Machine I produces 40\\% of the items of product and Machine II produces 60\\% of the items. Further, 5\\% of the items produced by Machine I are defective, and only 1\\% produced by Machine II are defective. If a defective item is drawn at random, what is the probability that it was produced by Machine II?",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Describe the multiplication theorem of probability for independent events. Suppose $E_1$ and $E_2$ are two independent events, then show that $E_1^c$ and $E_2^c$ are also independent.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "What do you mean by a continuous distribution function? Discuss the properties of a continuous distribution function.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "The joint probability distribution of two random variables $X$ and $Y$ is given below: \\begin{center} \\renewcommand{\\arraystretch}{1.2} \\begin{tabular}{c|cccccc} $Y \\setminus X$ & 1 & 2 & 3 & 4 & 5 & 6 \\hline 0 & 0 & 0 & $1/32$ & $1/16$ & $1/16$ & $3/32$ 1 & $1/16$ & $1/16$ & $1/8$ & $1/8$ & $1/8$ & $1/8$ 2 & $1/32$ & $1/32$ & $1/64$ & $1/64$ & 0 & $1/32$ \\end{tabular} \\end{center} (1) Find the marginal distribution of $X$. (2) Find the conditional distribution of $Y$ given the value of $X=2$.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Describe the meaning of mathematical expectation of a random variable. Show that the mathematical expectation of the product of a number of independent random variables is equal to the product of their expectations.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "What are the methods of obtaining Vital Statistics? Also give the uses of Vital Statistics.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Give a brief history of the Census of India.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "What do you mean by a life table? Discuss the relationships among the various columns of a complete life table.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Define Gross Reproduction Rate (GRR) and Net Reproduction Rate (NRR). Explain how far they can be considered as indices of population growth. Interpret the following: (1) $\\text{GRR} = 2.10$, $\\text{NRR} = 1.10$ (2) $\\text{GRR} = 1.15$, $\\text{NRR} = 1.10$ (3) $\\text{GRR} = 1.75$, $\\text{NRR} = 1.80$",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Define crude death rate and point out its limitations. Explain clearly the standardised death rates, including the methods of their computation.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Discuss about the logistic curve used for measuring the growth of a population.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      }
+    ]
   },
   "stamj12": {
     "id": "stamj12",
@@ -5579,7 +6187,311 @@ export const EXAMS = {
     "id": "stamn11",
     "title": "Descriptive Statistics",
     "module": "STAMN11",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Write down the definition of Statistics. Explain in brief the nature and scope of statistics along with its limitations.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Explain with examples nominal scale, ordinal scale, interval scale, and ratio scale of measurement.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "What do you mean by primary and secondary data? Write in brief the sources of secondary data. Describe the schedule method of collecting primary data.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Describe various diagrammatical methods for the representation of data.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Define Quartile, Decile, and Percentile of a frequency distribution. Calculate $Q_1$, $D_5$, and $P_{90}$ for the following distribution: \\begin{center} \\begin{tabular}{|l|c|c|c|c|c|} \\hline Class & 20--30 & 30--40 & 40--50 & 50--60 & 60--70 \\hline Frequency & 12 & 25 & 40 & 15 & 8 \\hline \\end{tabular} \\end{center}",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Define raw and central moments for grouped data. Explain Skewness and Kurtosis and discuss their various measures.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "What do you mean by regression? Write the expression for the two regression lines. Given the two regression equations: \\[ 8X - 10Y = -46.6 \\quad \\text{and} \\quad 40X - 18Y = 214 \\] calculate the mean values of $X$ and $Y$, and the correlation coefficient between them.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "Ten competitors in a musical contest were ranked by three judges $A$, $B$, and $C$ in the following order: \\begin{center} \\begin{tabular}{|l|cccccccccc|} \\hline Judge A & 1 & 6 & 5 & 10 & 3 & 2 & 4 & 9 & 7 & 8 Judge B & 3 & 5 & 8 & 4 & 7 & 10& 2 & 1 & 6 & 9 Judge C & 6 & 4 & 9 & 8 & 1 & 2 & 3 & 10& 5 & 7 \\hline \\end{tabular} \\end{center} Using the rank correlation method, discuss which pair of judges has the nearest approach to common likings in music.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "Define primary and secondary data sets. Also mention its important sources.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "What are the different types of the measurement scale?Describe each with suitable example.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "What do you mean by ungrouped frequency distribution?In an opinion survey, the household size of different families living in Gokul Dham Colony of Varanasi district is recorded as;",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "What are the different types of classification available to represent the raw data set?Explain with suitable example.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "Describe the meaning and utility of histogram and Ogive.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Define quartiles, deciles and percentiles?Compute different quartiles for the Income in Rs. (in 000) | 5-10 10-15 20-25 25-30 No. of Workers 10",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "State the advantages of graphical representation of data. Explain the histogram with an example.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Differentiate between primary data and secondary data. Describe the different sources of secondary data in India.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "Describe the different measures of central tendency. Briefly explain the meaning of an outlier. Using an example, show how an outlier can affect the value of the arithmetic mean.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "Define median for ungrouped data when the number of observations is even. Derive the expression to obtain the median for a continuous frequency distribution.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "State the relative and absolute measures of dispersion and describe the main difference between mean deviation and standard deviation.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Define the relation between moments about the mean in terms of moments about an arbitrary point, and vice versa.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Describe the absolute measures of skewness. Explain the coefficient of skewness based upon moments ($\\beta_1$ and $\\gamma_1$).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "Discuss the limitations of the classical definition of probability. For any two events $E_1$ and $E_2$, show that: \\[ P(E_1 \\cup E_2) = P(E_1) + P(E_2) - P(E_1 \\cap E_2). \\] Also, for events $E_1, E_2, \\ldots, E_n$, show that: (1) $P(E_1 \\cap E_2 \\cap \\cdots \\cap E_n) \\geq P(E_1) + P(E_2) + \\cdots + P(E_n) - (n-1)$ (2) $P(E_1 \\cup E_2 \\cup \\cdots \\cup E_n) \\leq P(E_1) + P(E_2) + \\cdots + P(E_n)$",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "For any three events $E_1$, $E_2$ and $E_3$, show that: \\[ P(E_1 \\cup E_2 \\mid E_3) = P(E_1 \\mid E_3) + P(E_2 \\mid E_3) - P(E_1 \\cap E_2 \\mid E_3). \\]",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "In two companies A and B, a student of Statistics has applied for a job. The probability of his selection in company A is $0.7$ and of his rejection in company B is $0.5$. The probability of at least one of his applications being rejected is $0.6$. What is the probability that he will be selected in exactly one of the companies?",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "What do you understand by the distribution function of a random variable? Describe the important properties of a distribution function.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "What do you mean by a probability density function (p.d.f.)? Let $X$ be a continuous random variable with p.d.f.\\ given by: \\[ f(x) = \\begin{cases} px, & 0 < x < 1 p, & 1 \\leq x < 2 -px + 3p, & 2 \\leq x < 3 0, & \\text{otherwise} \\end{cases} \\] (1) Determine the constant $p$. (2) Determine the cumulative distribution function (CDF). (3) If three independent observations are made, what is the probability that exactly one of these three numbers is larger than $1.5$?",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Describe the conditional probability distribution function. The joint probability distribution of two random variables $X$ and $Y$ is given below: \\begin{center} \\begin{tabular}{c|cccc} \\hline $X \\backslash Y$ & $1$ & $2$ & $3$ & $4$ \\hline $1$ & $1/9$ & $1/2$ & $1/18$ & $1/36$ $2$ & $1/2$ & $1/2$ & $1/8$ & $1/36$ $3$ & $5/36$ & $1/36$ & $1/36$ & $1/36$ $4$ & $1/36$ & $1/18$ & $1/36$ & $5/36$ \\hline \\end{tabular} \\end{center} Find the conditional distribution of $X$ given $Y = 1$.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Show that the mathematical expectation of the sum of $n$ random variables is equal to the sum of their individual expectations, provided all expectations exist.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Explain the method of constructing a frequency polygon.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Define the difference between nominal and ratio scale with suitable examples.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "Describe the characteristics to be satisfied by an ideal measure of central tendency. Show that the sum of the squares of the deviations of a set of values is minimum when taken about their mean.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Describe the geometric mean of the combined groups.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "What do you understand by the mode of data? Derive the expression of the mode for a continuous frequency distribution.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "Derive the expression for the variance of the combination of two series.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "What do you mean by standard deviation? Show that for any discrete distribution, standard deviation is not less than the mean deviation from the mean.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Describe the relative positions of mean, median and mode in the figures for positively and negatively skewed distributions. Explain the method of measuring kurtosis of a frequency distribution.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "What is the subjective approach to probability? Suppose $E_1$ and $E_2$ are two events and $E_2 \\subseteq E_1$, then show that: (1) $P(E_1 \\cap E_2^c) = P(E_1) - P(E_2)$ (2) $P(E_2) \\le P(E_1)$",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "State and derive the addition theorem of probability for $n$ events.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "What do you understand by conditional probability? State and prove Bayes' theorem.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "A factory produces a certain type of product by two types of machines. Past records show that Machine I produces 40\\% of the items of product and Machine II produces 60\\% of the items. Further, 5\\% of the items produced by Machine I are defective, and only 1\\% produced by Machine II are defective. If a defective item is drawn at random, what is the probability that it was produced by Machine II?",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Describe the multiplication theorem of probability for independent events. Suppose $E_1$ and $E_2$ are two independent events, then show that $E_1^c$ and $E_2^c$ are also independent.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "What do you mean by a continuous distribution function? Discuss the properties of a continuous distribution function.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "The joint probability distribution of two random variables $X$ and $Y$ is given below: \\begin{center} \\renewcommand{\\arraystretch}{1.2} \\begin{tabular}{c|cccccc} $Y \\setminus X$ & 1 & 2 & 3 & 4 & 5 & 6 \\hline 0 & 0 & 0 & $1/32$ & $1/16$ & $1/16$ & $3/32$ 1 & $1/16$ & $1/16$ & $1/8$ & $1/8$ & $1/8$ & $1/8$ 2 & $1/32$ & $1/32$ & $1/64$ & $1/64$ & 0 & $1/32$ \\end{tabular} \\end{center} (1) Find the marginal distribution of $X$. (2) Find the conditional distribution of $Y$ given the value of $X=2$.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Describe the meaning of mathematical expectation of a random variable. Show that the mathematical expectation of the product of a number of independent random variables is equal to the product of their expectations.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "What are the methods of obtaining Vital Statistics? Also give the uses of Vital Statistics.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Give a brief history of the Census of India.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "What do you mean by a life table? Discuss the relationships among the various columns of a complete life table.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Define Gross Reproduction Rate (GRR) and Net Reproduction Rate (NRR). Explain how far they can be considered as indices of population growth. Interpret the following: (1) $\\text{GRR} = 2.10$, $\\text{NRR} = 1.10$ (2) $\\text{GRR} = 1.15$, $\\text{NRR} = 1.10$ (3) $\\text{GRR} = 1.75$, $\\text{NRR} = 1.80$",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Define crude death rate and point out its limitations. Explain clearly the standardised death rates, including the methods of their computation.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Discuss about the logistic curve used for measuring the growth of a population.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      }
+    ]
   },
   "stamn12": {
     "id": "stamn12",
@@ -5597,77 +6509,621 @@ export const EXAMS = {
     "id": "stamd21",
     "title": "Inferential Statistics",
     "module": "STAMD21",
-    "comingSoon": true
-  },
-  "stamj21": {
-    "id": "stamj21",
-    "title": "Introduction to Probability Theory",
-    "module": "STAMJ21",
+    "duration": 60,
+    "type": "theory",
     "comingSoon": false,
     "questions": [
       {
         "id": 1,
         "unit": "I",
-        "question": "Prove from the axioms of probability that for any two events $A$ and $B$, $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$.",
-        "answerKey": "1. **Decompose the Union**:\nWe can write $A \\cup B$ as the union of two disjoint events:\n$$A \\cup B = A \\cup (B \\setminus A)$$\n- Since $A$ and $B \\setminus A$ are mutually exclusive, by the third axiom of probability:\n  $$P(A \\cup B) = P(A) + P(B \\setminus A)$$\n\n2. **Decompose Event $B$**:\n- We can also write $B$ as the union of two disjoint events:\n  $$B = (B \\cap A) \\cup (B \\setminus A)$$\n- Since $B \\cap A$ and $B \\setminus A$ are mutually exclusive, by the third axiom:\n  $$P(B) = P(B \\cap A) + P(B \\setminus A) \\implies P(B \\setminus A) = P(B) - P(A \\cap B)$$\n\n3. **Substitute**:\n- Substitute $P(B \\setminus A)$ back into the first equation:\n  $$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$\n- This completes the proof."
+        "question": "Define parameter, statistic, and sampling distribution of a statistic.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 2,
         "unit": "I",
-        "question": "Two cards are drawn at random from a standard deck of 52 cards. What is the probability that both are aces, given that at least one is an ace?",
-        "answerKey": "1. **Define Events**:\n- Let $A$ be the event that both cards are aces.\n- Let $B$ be the event that at least one card is an ace.\n- We want to find the conditional probability $P(A | B) = \\frac{P(A \\cap B)}{P(B)}$.\n\n2. **Calculate Probabilities**:\n- Total ways to draw 2 cards: $\\binom{52}{2} = \\frac{52 \\times 51}{2} = 1326$.\n- Event $A$ (both are aces): $\\binom{4}{2} = 6$ ways.\n- Event $B$ (at least one ace): can be calculated as $1 - P(\\text{no aces})$:\n  - Ways to draw no aces: $\\binom{48}{2} = \\frac{48 \\times 47}{2} = 1128$.\n  - Ways to draw at least one ace: $1326 - 1128 = 198$ ways.\n\n3. **Conditional Probability**:\n- Note that if both are aces, then at least one is an ace. Thus, $A \\subseteq B \\implies A \\cap B = A$.\n- $$P(A | B) = \\frac{\\text{Ways for } A}{\\text{Ways for } B} = \\frac{6}{198} = \\frac{1}{33}$$\n- The probability is $\\frac{1}{33}$ (approximately $0.0303$)."
+        "question": "Explain the concept of standard error and write its utility in statistical analysis.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 3,
-        "unit": "I",
-        "question": "State and prove Bayes' Theorem.",
-        "answerKey": "1. **Statement**:\nLet $\\{E_1, E_2, \\dots, E_n\\}$ be a set of mutually exclusive and exhaustive events partition of sample space $S$. For any event $A$ with $P(A) > 0$:\n$$P(E_i | A) = \\frac{P(A | E_i) P(E_i)}{\\sum_{j=1}^n P(A | E_j) P(E_j)}$$\n\n2. **Proof**:\n- By definition of conditional probability:\n  $$P(E_i | A) = \\frac{P(E_i \\cap A)}{P(A)}$$\n- Using the multiplication rule: $P(E_i \\cap A) = P(A | E_i) P(E_i)$.\n- Using the Law of Total Probability, since $\\{E_j\\}$ partition $S$:\n  $$P(A) = \\sum_{j=1}^n P(A \\cap E_j) = \\sum_{j=1}^n P(A | E_j) P(E_j)$$\n- Substitute these into the first equation to obtain Bayes\\' formula:\n  $$P(E_i | A) = \\frac{P(A | E_i) P(E_i)}{\\sum_{j=1}^n P(A | E_j) P(E_j)}$$"
+        "unit": "II",
+        "question": "Explain the terms: null hypothesis, alternative hypothesis, simple and composite hypotheses.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 4,
         "unit": "II",
-        "question": "Let $X$ be a discrete random variable with probability mass function $p(x) = c x^2$ for $x = 1, 2, 3, 4$, and $0$ otherwise. Find the value of $c$, $P(X \\ge 3)$, and $E(X)$.",
-        "answerKey": "1. **Find $c$**:\n- The sum of all probabilities must be 1:\n  $$\\sum_{x=1}^4 p(x) = 1 \\implies c(1^2 + 2^2 + 3^2 + 4^2) = 1$$\n  $$c(1 + 4 + 9 + 16) = 1 \\implies 30 c = 1 \\implies c = \\frac{1}{30}$$\n\n2. **Find $P(X \\geq 3)$**:\n- $$P(X \\geq 3) = p(3) + p(4) = c(3^2) + c(4^2) = c(9 + 16) = 25 c = \\frac{25}{30} = \\frac{5}{6}$$\n\n3. **Find $E(X)$**:\n- By definition of expectation:\n  $$E(X) = \\sum_{x=1}^4 x \\cdot p(x) = \\sum_{x=1}^4 x (c x^2) = c \\sum_{x=1}^4 x^3$$\n  $$E(X) = \\frac{1}{30} (1^3 + 2^3 + 3^3 + 4^3) = \\frac{1}{30} (1 + 8 + 27 + 64) = \\frac{100}{30} = \\frac{10}{3} \\approx 3.333$$"
+        "question": "Distinguish between Type I and Type II errors. Define size and power of a test.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 5,
         "unit": "II",
-        "question": "Let $X$ be a continuous random variable with probability density function $f(x) = 3x^2$ for $0 < x < 1$. Find the CDF $F(x)$, $E(X)$, and $Var(X)$.",
-        "answerKey": "1. **Find CDF $F(x)$**:\n- By definition, $F(x) = \\int_{-\\infty}^x f(t) dt$. For $0 < x < 1$:\n  $$F(x) = \\int_0^x 3t^2 dt = [t^3]_0^x = x^3$$\n- Thus, $F(x) = 0$ for $x \\leq 0$, $x^3$ for $0 < x < 1$, and $1$ for $x \\geq 1$.\n\n2. **Find Expectation $E(X)$**:\n- $$E(X) = \\int_0^1 x f(x) dx = \\int_0^1 x (3x^2) dx = \\int_0^1 3x^3 dx = [\\frac{3}{4}x^4]_0^1 = \\frac{3}{4}$$\n\n3. **Find Variance $Var(X)$**:\n- First compute $E(X^2)$:\n  $$E(X^2) = \\int_0^1 x^2 f(x) dx = \\int_0^1 x^2 (3x^2) dx = \\int_0^1 3x^4 dx = [\\frac{3}{5}x^5]_0^1 = \\frac{3}{5}$$\n- Now compute variance:\n  $$Var(X) = E(X^2) - (E(X))^2 = \\frac{3}{5} - \\left(\\frac{3}{4}\\right)^2 = \\frac{3}{5} - \\frac{9}{16} = \\frac{48 - 45}{80} = \\frac{3}{80} = 0.0375$$"
+        "question": "Describe the procedure of testing of hypothesis. What is critical region?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 6,
         "unit": "III",
-        "question": "Prove that for any two independent random variables $X$ and $Y$, $E(XY) = E(X)E(Y)$ and $Var(X + Y) = Var(X) + Var(Y)$.",
-        "answerKey": "1. **Proof of $E(XY) = E(X)E(Y)$**:\n- For continuous variables with joint PDF $f(x, y)$ (since independent, $f(x,y) = f_X(x) f_Y(y)$):\n  $$E(XY) = \\int_{-\\infty}^{\\infty} \\int_{-\\infty}^{\\infty} x y f_X(x) f_Y(y) dx dy = \\left( \\int_{-\\infty}^{\\infty} x f_X(x) dx \\right) \\left( \\int_{-\\infty}^{\\infty} y f_Y(y) dy \\right) = E(X)E(Y)$$\n\n2. **Proof of $Var(X+Y) = Var(X) + Var(Y)$**:\n- By definition of variance:\n  $$Var(X+Y) = E[(X+Y - E(X+Y))^2] = E[((X - E(X)) + (Y - E(Y)))^2]$$\n  $$= E[(X - E(X))^2] + E[(Y - E(Y))^2] + 2 E[(X - E(X))(Y - E(Y))]$$\n- Since $X$ and $Y$ are independent:\n  $$E[(X - E(X))(Y - E(Y))] = E[X - E(X)] E[Y - E(Y)] = 0 \\cdot 0 = 0$$\n- Therefore:\n  $$Var(X+Y) = Var(X) + Var(Y)$$"
+        "question": "Explain the large sample test for testing the significance of a single mean.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 7,
-        "unit": "III",
-        "question": "Define the Moment Generating Function (MGF) $M_X(t)$ and prove that $M_X^{(r)}(0) = E(X^r)$.",
-        "answerKey": "1. **Definition of MGF**:\nThe Moment Generating Function of $X$ is defined as:\n$$M_X(t) = E(e^{tX})$$\n\n2. **Proof using Taylor Series Expansion**:\n- Expand the exponential term $e^{tX}$ as a power series:\n  $$e^{tX} = \\sum_{r=0}^{\\infty} \\frac{(tX)^r}{r!} = 1 + tX + \\frac{t^2 X^2}{2!} + \\dots + \\frac{t^r X^r}{r!} + \\dots$$\n- Apply expectation to both sides (using linearity of expectation):\n  $$M_X(t) = E(e^{tX}) = 1 + t E(X) + \\frac{t^2}{2!} E(X^2) + \\dots + \\frac{t^r}{r!} E(X^r) + \\dots$$\n- Differentiating $r$ times with respect to $t$:\n  $$M_X^{(r)}(t) = E(X^r) + t E(X^{r+1}) + \\dots$$\n- Evaluate at $t = 0$:\n  $$M_X^{(r)}(0) = E(X^r)$$\n- This completes the proof."
+        "unit": "IV",
+        "question": "Describe the t-test for testing the significance of the difference between two sample means.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 8,
-        "unit": "III",
-        "question": "State and prove Chebyshev's Inequality.",
-        "answerKey": "1. **Statement**:\nLet $X$ be a random variable with mean $\\mu$ and variance $\\sigma^2$. Then for any $k > 0$:\n$$P(|X - \\mu| \\geq k) \\leq \\frac{\\sigma^2}{k^2}$$\n\n2. **Proof (Continuous Case)**:\n- By definition of variance:\n  $$\\sigma^2 = \\int_{-\\infty}^{\\infty} (x - \\mu)^2 f(x) dx$$\n- Since $(x - \\mu)^2 \\geq 0$, we can restrict the integration to the region $S = \\{x : |x - \\mu| \\geq k\\}$:\n  $$\\sigma^2 \\geq \\int_{|x - \\mu| \\geq k} (x - \\mu)^2 f(x) dx$$\n- In this region, $(x - \\mu)^2 \\geq k^2$. Substitute this into the integral:\n  $$\\sigma^2 \\geq \\int_{|x - \\mu| \\geq k} k^2 f(x) dx = k^2 \\int_{|x - \\mu| \\geq k} f(x) dx$$\n- Since $\\int_{|x - \\mu| \\geq k} f(x) dx = P(|X - \\mu| \\geq k)$:\n  $$\\sigma^2 \\geq k^2 P(|X - \\mu| \\geq k) \\implies P(|X - \\mu| \\geq k) \\leq \\frac{\\sigma^2}{k^2}$$\n- This completes the proof."
+        "unit": "IV",
+        "question": "Explain the paired t-test for dependent samples with a real-life example.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 9,
         "unit": "IV",
-        "question": "If $X$ and $Y$ have the joint probability density function $f(x, y) = 2$ for $0 < x < y < 1$, find the conditional expectation $E(X | Y = y)$.",
-        "answerKey": "1. **Find Marginal PDF of $Y$**:\n- For a given $y \\in (0, 1)$, $x$ varies from $0$ to $y$:\n  $$f_Y(y) = \\int_0^y f(x, y) dx = \\int_0^y 2 dx = [2x]_0^y = 2y$$\n- Thus, $f_Y(y) = 2y$ for $0 < y < 1$.\n\n2. **Find Conditional PDF of $X$ given $Y=y$**:\n- $$f_{X|Y}(x | y) = \\frac{f(x, y)}{f_Y(y)} = \\frac{2}{2y} = \\frac{1}{y} \\quad \\text{for } 0 < x < y$$\n\n3. **Compute Conditional Expectation**:\n- $$E(X | Y = y) = \\int_0^y x f_{X|Y}(x | y) dx = \\int_0^y x \\left(\\frac{1}{y}\\right) dx = \\frac{1}{y} \\left[ \\frac{x^2}{2} \\right]_0^y = \\frac{1}{y} \\frac{y^2}{2} = \\frac{y}{2}$$\n- Therefore, $E(X | Y = y) = y/2$."
+        "question": "Describe the F-test for testing the equality of two population variances.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 10,
+        "unit": "V",
+        "question": "Explain the chi-square test for goodness of fit and write its assumptions.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 11,
+        "unit": "V",
+        "question": "Explain the chi-square test for independence of attributes in a contingency table.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 12,
+        "unit": "I",
+        "question": "Explain the concept of interval estimation. How does it differ from point estimation?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 13,
+        "unit": "I",
+        "question": "Define confidence interval and confidence coefficient with a suitable example.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 14,
         "unit": "IV",
-        "question": "Prove that if $A$ and $B$ are independent events, then $A^c$ and $B^c$ are also independent.",
-        "answerKey": "1. **Definition of Independence**:\n- Since $A$ and $B$ are independent, $P(A \\cap B) = P(A) P(B)$.\n\n2. **Evaluate $P(A^c \\cap B^c)$**:\n- By De Morgan's Law:\n  $$P(A^c \\cap B^c) = P((A \\cup B)^c) = 1 - P(A \\cup B)$$\n- Apply addition rule for probability:\n  $$P(A^c \\cap B^c) = 1 - [ P(A) + P(B) - P(A \\cap B) ]$$\n- Substitute $P(A \\cap B) = P(A) P(B)$:\n  $$P(A^c \\cap B^c) = 1 - P(A) - P(B) + P(A)P(B)$$\n- Factor the expression:\n  $$P(A^c \\cap B^c) = (1 - P(A)) - P(B)(1 - P(A)) = (1 - P(A))(1 - P(B))$$\n- Since $1 - P(A) = P(A^c)$ and $1 - P(B) = P(B^c)$:\n  $$P(A^c \\cap B^c) = P(A^c) P(B^c)$$\n- Therefore, $A^c$ and $B^c$ are independent."
+        "question": "State the assumptions of Student's t-test and discuss its robustness.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 15,
+        "unit": "III",
+        "question": "Describe how to test the significance of a single correlation coefficient in large samples.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 16,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 1).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 17,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 2).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 18,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 3).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 19,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 4).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 20,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 5).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 21,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 6).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 22,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 7).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 23,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 8).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 24,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 9).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 25,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 10).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 26,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 11).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 27,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 12).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 28,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 13).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 29,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 14).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 30,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 15).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 31,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 16).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 32,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 17).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 33,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 18).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 34,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 19).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 35,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 20).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 36,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 21).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 37,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 22).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 38,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 23).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 39,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 24).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 40,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 25).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 26).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 27).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 28).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 29).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 30).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 31).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 32).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 33).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 34).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Inferential Statistics (Part 35).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       }
-    ],
+    ]
+  },
+  "stamj21": {
+    "id": "stamj21",
+    "title": "Introduction to Probability Theory",
+    "module": "STAMJ21",
+    "duration": 60,
     "type": "theory",
-    "duration": 180
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Define probability of an event. State and prove the addition law of probability for $n$ events.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Two cards are drawn from a pack of ordinary playing cards. Find the probability that the second card drawn is a heart.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Equally likely events",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Mutually exclusive events",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Independent and dependent events",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "State and prove Bayes' theorem.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "In a bolt factory, machines A, B, and C manufacture 25\\%, 35\\%, and 40\\% of the total output respectively. Of their outputs, 5\\%, 4\\%, and 2\\% respectively are defective bolts. A bolt is taken at random and found to be defective. What is the probability that the bolt came from machine A?",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "Define discrete and continuous random variables with appropriate examples.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "Find the probability distribution function for the number of heads when 3 balanced coins are tossed.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Explain the concept of a random variable. What is a cumulative distribution function (c.d.f.) and what are its properties?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "Define mathematical expectation of a random variable.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "For what value of $A$, the function defined below will be a probability density function (p.d.f.)? \\[ f(x) = \\begin{cases} A x^2 (1 - x), & 0 \\le x \\le 1 0, & \\text{otherwise} \\end{cases} \\] Also find $E(X)$, $E(X^2)$, $Var(X)$, and $P\\left(\\frac{1}{4} < X < \\frac{1}{2}\\right)$.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "What is a binomial experiment and what are its properties? Derive the mean and variance of a binomial distribution.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Let $X$ have a binomial distribution with parameters $n=4$ and $p=\\frac{1}{3}$. Find $P(X = 1)$ and $P(X = 3)$.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Describe a Poisson distribution. Derive its mean and variance.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Derive the recurrence relation for the moments of binomial and Poisson distributions.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "Properties of a good estimator",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "Null and alternative hypotheses, and simple and composite hypotheses",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Two types of errors in hypothesis testing",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Any one application of Chi-square statistic in significance testing",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Any one application of $F$-statistic in significance testing",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "Define the probability of an event. State and prove the addition law of probability for $n$ events.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "A card is drawn at random from a deck of ordinary playing cards. What is the probability that it is a diamond, a face card, or a king?",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "What do you understand by conditional probability? State and prove Bayes' theorem.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "If two fair dice are thrown, what is the probability of getting: (1) a double six, (2) a sum of 8 or more dots.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Explain the concept of a random variable. Differentiate between discrete and continuous random variables. What is a distribution function and what are its properties?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Given the following probability density function: $$f(x) = A (4x - 2x^2), \\quad 0 < x < 2$$ and $0$ otherwise. Calculate the value of $A$ so that $f(x)$ is a probability density function.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Explain the concepts of Probability Mass Function (p.m.f.) and Probability Density Function (p.d.f.). Define $E(X)$, the expected value of a random variable $X$.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Find the probability distribution of the sum of the dots when two fair dice are thrown. Use the probability distribution to find the probabilities of obtaining: (1) a sum of 8 or 11, (2) a sum that is greater than 8, (3) a sum that is greater than 5 but less than or equal to 10.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Define the Binomial distribution and derive its mean and variance.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "A fair coin is tossed 5 times. Find the probabilities of obtaining various numbers of heads.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Define Poisson distribution and derive its mean and variance.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Write down the steps involved in fitting a Poisson distribution to a given frequency data.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "Define Normal distribution and derive its mean and variance.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "What do you mean by Point Estimation? Explain the desirable properties of a good point estimator.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Null Hypothesis and Alternative Hypothesis",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "Simple Hypothesis and Composite Hypothesis",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Acceptance Region and Rejection Region",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "Type-I Error and Type-II Error",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "One-tailed test and two-tailed test",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Define mathematical expectation. If $X$ is a random variable, then prove that $|E(X)| \\le E(|X|)$.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Write a note on linear and non-linear correlation. Also show that Karl Pearson's coefficient of correlation lies between -1 and +1.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "If $X_1$, $X_2$, and $X_3$ are uncorrelated variables each having the same variance, obtain the correlation coefficient between $X_1 + X_2$ and $X_2 + X_3$.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "A random variable $X$ can assume any positive integral value $n$ with a probability proportional to $1/3^n$. Find the expectation of $X$.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Define intra-class correlation and derive the expression for the intra-class correlation coefficient.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Define convergence in probability. Let $X_1, X_2, \\dots, X_n$ be i.i.d. random variables with probability density function $f(x) = e^{-x}, x > 0$. Show that $Y_n \\to 0$ in probability, where $Y_n = \\min(X_1, X_2, \\dots, X_n)$.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "For the joint distribution of two-dimensional random variables $(X, Y)$ given by: \\[ f(x, y) = e^{-(x+y)}, \\quad x > 0, \\ y > 0 \\] Show that the characteristic function of $X+Y$ is equal to the product of the characteristic functions of $X$ and $Y$.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Find the value of the correlation coefficient for the data set $(X, Y)$ in which $Y$ has the same constant value corresponding to any value of $X$.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "For two variables $X$ and $Y$ with the same mean, the two regression equations are $y = ax + b$ and $x = \\alpha y + \\beta$. Find the mean and show that $\\frac{b}{\\beta} = \\frac{1-a}{1-\\alpha}$.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Define the consistency of data. If data has three attributes, give the conditions of the consistency of the data.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      }
+    ]
   },
   "stamj22": {
     "id": "stamj22",
@@ -5679,7 +7135,311 @@ export const EXAMS = {
     "id": "stamn21",
     "title": "Introduction to Probability Theory",
     "module": "STAMN21",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Define probability of an event. State and prove the addition law of probability for $n$ events.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Two cards are drawn from a pack of ordinary playing cards. Find the probability that the second card drawn is a heart.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Equally likely events",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Mutually exclusive events",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Independent and dependent events",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "State and prove Bayes' theorem.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "In a bolt factory, machines A, B, and C manufacture 25\\%, 35\\%, and 40\\% of the total output respectively. Of their outputs, 5\\%, 4\\%, and 2\\% respectively are defective bolts. A bolt is taken at random and found to be defective. What is the probability that the bolt came from machine A?",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "Define discrete and continuous random variables with appropriate examples.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "Find the probability distribution function for the number of heads when 3 balanced coins are tossed.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Explain the concept of a random variable. What is a cumulative distribution function (c.d.f.) and what are its properties?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "Define mathematical expectation of a random variable.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "For what value of $A$, the function defined below will be a probability density function (p.d.f.)? \\[ f(x) = \\begin{cases} A x^2 (1 - x), & 0 \\le x \\le 1 0, & \\text{otherwise} \\end{cases} \\] Also find $E(X)$, $E(X^2)$, $Var(X)$, and $P\\left(\\frac{1}{4} < X < \\frac{1}{2}\\right)$.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "What is a binomial experiment and what are its properties? Derive the mean and variance of a binomial distribution.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Let $X$ have a binomial distribution with parameters $n=4$ and $p=\\frac{1}{3}$. Find $P(X = 1)$ and $P(X = 3)$.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Describe a Poisson distribution. Derive its mean and variance.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Derive the recurrence relation for the moments of binomial and Poisson distributions.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "Properties of a good estimator",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "Null and alternative hypotheses, and simple and composite hypotheses",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Two types of errors in hypothesis testing",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Any one application of Chi-square statistic in significance testing",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Any one application of $F$-statistic in significance testing",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "Define the probability of an event. State and prove the addition law of probability for $n$ events.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "A card is drawn at random from a deck of ordinary playing cards. What is the probability that it is a diamond, a face card, or a king?",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "What do you understand by conditional probability? State and prove Bayes' theorem.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "If two fair dice are thrown, what is the probability of getting: (1) a double six, (2) a sum of 8 or more dots.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Explain the concept of a random variable. Differentiate between discrete and continuous random variables. What is a distribution function and what are its properties?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Given the following probability density function: $$f(x) = A (4x - 2x^2), \\quad 0 < x < 2$$ and $0$ otherwise. Calculate the value of $A$ so that $f(x)$ is a probability density function.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Explain the concepts of Probability Mass Function (p.m.f.) and Probability Density Function (p.d.f.). Define $E(X)$, the expected value of a random variable $X$.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Find the probability distribution of the sum of the dots when two fair dice are thrown. Use the probability distribution to find the probabilities of obtaining: (1) a sum of 8 or 11, (2) a sum that is greater than 8, (3) a sum that is greater than 5 but less than or equal to 10.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Define the Binomial distribution and derive its mean and variance.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "A fair coin is tossed 5 times. Find the probabilities of obtaining various numbers of heads.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Define Poisson distribution and derive its mean and variance.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Write down the steps involved in fitting a Poisson distribution to a given frequency data.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "Define Normal distribution and derive its mean and variance.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "What do you mean by Point Estimation? Explain the desirable properties of a good point estimator.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Null Hypothesis and Alternative Hypothesis",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "Simple Hypothesis and Composite Hypothesis",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Acceptance Region and Rejection Region",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "Type-I Error and Type-II Error",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "One-tailed test and two-tailed test",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Define mathematical expectation. If $X$ is a random variable, then prove that $|E(X)| \\le E(|X|)$.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Write a note on linear and non-linear correlation. Also show that Karl Pearson's coefficient of correlation lies between -1 and +1.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "If $X_1$, $X_2$, and $X_3$ are uncorrelated variables each having the same variance, obtain the correlation coefficient between $X_1 + X_2$ and $X_2 + X_3$.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "A random variable $X$ can assume any positive integral value $n$ with a probability proportional to $1/3^n$. Find the expectation of $X$.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Define intra-class correlation and derive the expression for the intra-class correlation coefficient.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Define convergence in probability. Let $X_1, X_2, \\dots, X_n$ be i.i.d. random variables with probability density function $f(x) = e^{-x}, x > 0$. Show that $Y_n \\to 0$ in probability, where $Y_n = \\min(X_1, X_2, \\dots, X_n)$.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "For the joint distribution of two-dimensional random variables $(X, Y)$ given by: \\[ f(x, y) = e^{-(x+y)}, \\quad x > 0, \\ y > 0 \\] Show that the characteristic function of $X+Y$ is equal to the product of the characteristic functions of $X$ and $Y$.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Find the value of the correlation coefficient for the data set $(X, Y)$ in which $Y$ has the same constant value corresponding to any value of $X$.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "For two variables $X$ and $Y$ with the same mean, the two regression equations are $y = ax + b$ and $x = \\alpha y + \\beta$. Find the mean and show that $\\frac{b}{\\beta} = \\frac{1-a}{1-\\alpha}$.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Define the consistency of data. If data has three attributes, give the conditions of the consistency of the data.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      }
+    ]
   },
   "stamn22": {
     "id": "stamn22",
@@ -5697,83 +7457,931 @@ export const EXAMS = {
     "id": "stamd31",
     "title": "Basics of Sample Survey and Design of Experiment",
     "module": "STAMD31",
-    "comingSoon": true
-  },
-  "stamj31": {
-    "id": "stamj31",
-    "title": "Basics of Probability Distribution",
-    "module": "STAMJ31",
+    "duration": 60,
+    "type": "theory",
     "comingSoon": false,
     "questions": [
       {
         "id": 1,
         "unit": "I",
-        "question": "Derive the mean and variance of a Binomial distribution with parameters $n$ and $p$.",
-        "answerKey": "1. **Mean derivation using Expectation**:\nLet $X = \\sum_{i=1}^n X_i$, where $X_i$ are independent Bernoulli trials with $P(X_i = 1) = p$ and $P(X_i = 0) = 1-p$.\n- Mean $E(X_i) = 1(p) + 0(q) = p$.\n- By linearity of expectation:\n  $$E(X) = E\\left( \\sum_{i=1}^n X_i \\right) = \\sum_{i=1}^n E(X_i) = n p$$\n\n2. **Variance derivation**:\n- Since the $X_i$ are independent, the variance of the sum is the sum of the variances:\n  $$Var(X) = Var\\left( \\sum_{i=1}^n X_i \\right) = \\sum_{i=1}^n Var(X_i)$$\n- Calculate $Var(X_i) = E(X_i^2) - (E(X_i))^2$:\n  - $E(X_i^2) = 1^2(p) + 0^2(q) = p$.\n  - $Var(X_i) = p - p^2 = p(1-p) = pq$.\n- Therefore:\n  $$Var(X) = n p q$$\n- Mean is $np$ and Variance is $npq$ (where $q = 1-p$)."
+        "question": "Explain the difference between census and sample survey. Discuss the advantages of sampling.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 2,
         "unit": "I",
-        "question": "Prove that the Poisson distribution is a limiting case of the Binomial distribution as $n \\to \\infty$ and $p \\to 0$ such that $np = \\lambda$ (constant).",
-        "answerKey": "1. **Binomial Probability Mass Function**:\n$$P(X = k) = \\binom{n}{k} p^k (1-p)^{n-k}$$\n- Substitute $p = \\lambda/n$:\n  $$P(X = k) = \\frac{n!}{k!(n-k)!} \\left( \\frac{\\lambda}{n} \\right)^k \\left( 1 - \\frac{\\lambda}{n} \\right)^{n-k}$$\n  $$= \\frac{\\lambda^k}{k!} \\left[ \\frac{n(n-1)\\dots(n-k+1)}{n^k} \\right] \\left( 1 - \\frac{\\lambda}{n} \\right)^n \\left( 1 - \\frac{\\lambda}{n} \\right)^{-k}$$\n\n2. **Take Limit as $n \\to \\infty$**:\n- Term 1: $\\lim_{n \\to \\infty} \\frac{n(n-1)\\dots(n-k+1)}{n^k} = \\lim_{n \\to \\infty} 1 \\left(1 - \\frac{1}{n}\\right) \\dots \\left(1 - \\frac{k-1}{n}\\right) = 1$.\n- Term 2: $\\lim_{n \\to \\infty} \\left( 1 - \\frac{\\lambda}{n} \\right)^n = e^{-\\lambda}$.\n- Term 3: $\\lim_{n \\to \\infty} \\left( 1 - \\frac{\\lambda}{n} \\right)^{-k} = 1$.\n\n3. **Result**:\n- Combining limits:\n  $$P(X = k) = \\frac{\\lambda^k e^{-\\lambda}}{k!}$$\n- This is the PMF of the Poisson distribution."
+        "question": "Define sampling and non-sampling errors and explain how they can be controlled.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 3,
-        "unit": "I",
-        "question": "Prove that the Geometric distribution satisfies the memoryless property.",
-        "answerKey": "1. **Geometric Distribution Setup**:\nLet $X \\sim \\text{Geo}(p)$ represent the number of trials until the first success. $P(X = k) = q^{k-1}p$ for $k = 1, 2, \\dots$.\n- First, find $P(X > s)$:\n  $$P(X > s) = \\sum_{k=s+1}^{\\infty} q^{k-1}p = p q^s \\sum_{j=0}^{\\infty} q^j = p q^s \\frac{1}{1-q} = q^s$$\n\n2. **Conditional Probability Evaluation**:\n- We want to evaluate $P(X > s+t | X > s)$:\n  $$P(X > s+t | X > s) = \\frac{P(X > s+t \\text{ and } X > s)}{P(X > s)} = \\frac{P(X > s+t)}{P(X > s)}$$\n  $$= \\frac{q^{s+t}}{q^s} = q^t$$\n- Since $P(X > t) = q^t$, we have:\n  $$P(X > s+t | X > s) = P(X > t)$$\n- This proves the memoryless property."
+        "unit": "II",
+        "question": "Explain simple random sampling. Distinguish between SRSWR and SRSWOR.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 4,
         "unit": "II",
-        "question": "Derive the Moment Generating Function (MGF) of a Normal distribution $N(\\mu, \\sigma^2)$.",
-        "answerKey": "1. **MGF Definition**:\n$$M_X(t) = E(e^{tX}) = \\int_{-\\infty}^{\\infty} e^{tx} \\frac{1}{\\sigma \\sqrt{2\\pi}} e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}} dx$$\n\n2. **Change of Variable**:\n- Let $z = \\frac{x-\\mu}{\\sigma} \\implies x = \\mu + \\sigma z, dx = \\sigma dz$:\n  $$M_X(t) = \\int_{-\\infty}^{\\infty} e^{t(\\mu + \\sigma z)} \\frac{1}{\\sqrt{2\\pi}} e^{-z^2/2} dz$$\n  $$= e^{\\mu t} \\int_{-\\infty}^{\\infty} \\frac{1}{\\sqrt{2\\pi}} e^{t\\sigma z - z^2/2} dz$$\n\n3. **Completing the Square**:\n- $t\\sigma z - z^2/2 = -\\frac{1}{2}(z^2 - 2t\\sigma z) = -\\frac{1}{2}( (z - t\\sigma)^2 - t^2\\sigma^2 ) = -\\frac{1}{2}(z - t\\sigma)^2 + \\frac{1}{2} t^2 \\sigma^2$.\n- Substitute this back:\n  $$M_X(t) = e^{\\mu t} e^{\\frac{1}{2}t^2\\sigma^2} \\int_{-\\infty}^{\\infty} \\frac{1}{\\sqrt{2\\pi}} e^{-\\frac{1}{2}(z-t\\sigma)^2} dz$$\n- The integral evaluates to 1 because it represents the total area under a normal PDF with mean $t\\sigma$ and variance 1.\n- Therefore:\n  $$M_X(t) = e^{\\mu t + \\frac{1}{2}t^2\\sigma^2}$$"
+        "question": "Describe stratified random sampling and discuss proportional and Neyman optimum allocations.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 5,
         "unit": "II",
-        "question": "Prove that for a Normal distribution, all odd-order central moments $\\mu_{2k+1}$ are zero.",
-        "answerKey": "1. **Central Moment Definition**:\nThe $n$-th central moment of $X \\sim N(\\mu, \\sigma^2)$ is given by:\n$$\\mu_n = E[(X - \\mu)^n] = \\int_{-\\infty}^{\\infty} (x-\\mu)^n \\frac{1}{\\sigma \\sqrt{2\\pi}} e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}} dx$$\n\n2. **Change of Variable**:\n- Let $y = x - \\mu \\implies dx = dy$:\n  $$\\mu_n = \\frac{1}{\\sigma \\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} y^n e^{-\\frac{y^2}{2\\sigma^2}} dy$$\n\n3. **Even and Odd Integrands**:\n- Let $g(y) = y^n e^{-\\frac{y^2}{2\\sigma^2}}$.\n- If $n = 2k+1$ (odd), then:\n  $$g(-y) = (-y)^{2k+1} e^{-\\frac{(-y)^2}{2\\sigma^2}} = -y^{2k+1} e^{-\\frac{y^2}{2\\sigma^2}} = -g(y)$$\n- Thus, the integrand $g(y)$ is an **odd function**.\n- The integral of any odd function over symmetric limits $(-\\infty, \\infty)$ is identically zero.\n- Therefore, $\\mu_{2k+1} = 0$ for all integers $k \\geq 0$."
+        "question": "Explain systematic sampling and compare its efficiency with simple random sampling.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 6,
+        "unit": "III",
+        "question": "State the basic principles of design of experiments: replication, randomization, and local control.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 7,
+        "unit": "IV",
+        "question": "Describe the analysis of variance (ANOVA) technique for one-way classified data.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 8,
+        "unit": "IV",
+        "question": "Describe the analysis of variance (ANOVA) technique for two-way classified data.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 9,
+        "unit": "V",
+        "question": "Describe the layout, statistical model, and analysis of Completely Randomized Design (CRD).",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 10,
+        "unit": "V",
+        "question": "Describe the layout, statistical model, and analysis of Randomized Block Design (RBD).",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Explain the concept of local control and show how it increases the precision of an experiment.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 12,
+        "unit": "IV",
+        "question": "Define a contrast and orthopedic contrasts in analysis of variance.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 13,
+        "unit": "V",
+        "question": "Discuss the estimation of a single missing plot in a Randomized Block Design.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 14,
+        "unit": "III",
+        "question": "Explain the role of randomization in avoiding systematic bias in designs.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 15,
+        "unit": "V",
+        "question": "Compare the efficiencies of CRD and RBD.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 16,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 1).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 17,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 2).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 18,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 3).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 19,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 4).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 20,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 5).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 21,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 6).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 22,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 7).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 23,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 8).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 24,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 9).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 25,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 10).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 26,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 11).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 27,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 12).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 28,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 13).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 29,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 14).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 30,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 15).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 31,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 16).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 32,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 17).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 33,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 18).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 34,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 19).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 35,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 20).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 36,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 21).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 37,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 22).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 38,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 23).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 39,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 24).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 40,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 25).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 26).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 27).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 28).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 29).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 30).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 31).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 32).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 33).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 34).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Basics of Sample Survey and Design of Experiment (Part 35).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      }
+    ]
+  },
+  "stamj31": {
+    "id": "stamj31",
+    "title": "Basics of Probability Distribution",
+    "module": "STAMJ31",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "What are the general rules of forming a frequency distribution? With the help of examples, explain the terms: (i) 'less than type' and 'greater than type' cumulative frequencies, (ii) width of a class interval, and (iii) mid-value of a class.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Represent the following data by means of a histogram and cumulative frequency curve (ogive): \\begin{center} \\begin{tabular}{|l|c|c|c|c|c|c|c|} \\hline Weekly Wages (Rs) & 10--15 & 15--20 & 20--25 & 25--30 & 30--40 & 40--60 & 60--80 \\hline No. of Workers & 8 & 19 & 27 & 15 & 12 & 12 & 8 \\hline \\end{tabular} \\end{center}",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "What do you mean by central tendency of the data? Define mean, median, and mode as measures of central tendency.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Determine the missing frequency in the following incomplete distribution when its mode is 35: \\begin{center} \\begin{tabular}{|l|c|c|c|c|c|c|c|} \\hline Class Interval & 0--10 & 10--20 & 20--30 & 30--40 & 40--50 & 50--60 & 60--70 \\hline Frequency & 10 & 12 & ? & 20 & 14 & 12 & 10 \\hline \\end{tabular} \\end{center}",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "What do you mean by dispersion? Explain mean deviation and standard deviation with their relative merits and demerits.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Define the coefficient of variation. The number of employees, average wages per employee, and variance of wages for two factories are given below. Find in which factory is there greater variation in the distribution of wages per employee: \\begin{center} \\begin{tabular}{|l|cc|} \\hline & Factory A & Factory B \\hline No. of Employees & 100 & 200 Average Wages (Rs) & 120 & 80 Variance of Wages & 16 & 25 \\hline \\end{tabular} \\end{center}",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "Define raw and central moments for grouped data. Calculate the first four central moments from the following set of raw data values: \\[ 2, \\quad 4, \\quad 6, \\quad 8, \\quad 10 \\]",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "What do you mean by skewness and kurtosis? The first four central moments of a set of data were found to be $\\mu_1 = 0$, $\\mu_2 = 9$, $\\mu_3 = -4$, and $\\mu_4 = 122$ respectively. What would you infer about the skewness and kurtosis of this data?",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "Define Karl Pearson's correlation coefficient and mention its main properties.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Explain Spearman's rank correlation coefficient. Calculate Spearman's coefficient of correlation from the following data: \\begin{center} \\begin{tabular}{|l|cccccccc|} \\hline Rank by X & 1 & 5 & 6 & 2 & 3 & 7 & 4 & 8 Rank by Y & 3 & 7 & 8 & 1 & 2 & 6 & 5 & 4 \\hline \\end{tabular} \\end{center}",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "Explain the use of scatter diagrams in studying the correlation between two variables. Plot the scatter diagram for the following data and comment: \\begin{center} \\begin{tabular}{|l|cccccc|} \\hline X & 1 & 2 & 3 & 4 & 5 & 6 Y & 10 & 20 & 30 & 40 & 50 & 60 \\hline \\end{tabular} \\end{center}",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "What do you mean by regression? Write down the expression for the two regression lines and show how the regression coefficients are related to the correlation coefficient. State their main properties.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "A six-faced ordinary die is thrown once. Find the probability of getting an outcome of: (i) less than 3 spots, and (ii) more than 2 spots.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "State and prove the additive and multiplicative theorems of probability.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Normal distribution and its properties",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Probability mass function (p.m.f.) and probability density function (p.d.f.)",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "Explain the concept of sampling distribution with a suitable example. Suppose $X_1, X_2, \\dots, X_n$ is a random sample of size $n$ from a population with finite mean $\\mu$ and variance $\\sigma^2$. Show that: $$E(\\bar{X}) = \\mu \\quad \\text{and} \\quad V(\\bar{X}) = \\frac{\\sigma^2}{n}$$ where $\\bar{X} = \\frac{1}{n} \\sum_{i=1}^n X_i$ is the sample mean.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "Let $X_1, X_2, \\dots, X_n$ be a random sample from a Bernoulli distribution with parameter $p$. Show that the sampling distribution of $S = \\sum_{i=1}^n X_i$ is a binomial distribution.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Define the probabilities of Type I and Type II errors. A sample of size 1 is taken from an exponential distribution with parameter $\\lambda$. To test $H_0: \\lambda = 1$ against $H_1: \\lambda > 1$, suppose the critical region is considered as $x > 2$. Find the probabilities of Type I and Type II errors.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Define the null and alternative hypotheses with examples. Explain with illustrations how to specify the null and alternative hypotheses in a hypothesis testing problem.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Write the density function of the $t$-distribution. Mention its distributional properties. Also, define Student's $t$-statistic and its use.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "What is $F$-distribution? Explain the testing procedure for testing the equality of two variances of two independent normal populations.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "State the weak law of large numbers (WLLN). Let $X_1, X_2, \\dots, X_n$ be a sequence of independent and identically distributed random variables with a common Bernoulli distribution with parameter $p$. Show that the sequence of sample means $\\{\\bar{X}_n\\}$ obeys the WLLN.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "State the central limit theorem (CLT). Suppose $X_1, X_2, \\dots, X_n$ is a random sample of size $n$ from a population with finite mean $5$ and variance $16$. When $n$ is large, say $n = 40$, obtain the probability $P[\\bar{X} < 5]$.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "Define order statistics with examples in real-life applications. Show that the $r$-th order statistic from a uniform distribution $U[0,1]$ follows a Beta distribution.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Let $X_1, X_2, \\dots, X_n$ be a random sample from a normal population with mean $\\mu$ and variance $\\sigma^2$. Show that the sampling distribution of the sample mean $\\bar{X}$ is also a normal distribution.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "What are the advantages and disadvantages of non-parametric tests over parametric tests?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Write the Mann-Whitney-Wilcoxon test statistic. To compare the mileage distributions of two brands of tires, the following mileages (in 1000 miles) were obtained for eight tires of each brand: \\begin{center} \\begin{tabular}{l|cccccccc} Brand A & 32.1 & 20.6 & 17.8 & 28.4 & 19.6 & 21.4 & 19.9 & 30.1 Brand B & 19.8 & 27.6 & 30.8 & 27.6 & 34.1 & 18.7 & 16.9 & 17.9 \\end{tabular} \\end{center} Test the null hypothesis that the two samples come from the same population using the Mann-Whitney-Wilcoxon test.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Uses of $\\chi^2$ (chi-square) distribution.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Test of independence of two attributes.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "Fisher's $Z$ transformation.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Explain the procedure of testing for the significance of the sample correlation coefficient $r$ in random sampling from a bivariate normal distribution.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Nine students held their breath, once after breathing normally and relaxing for one minute, and once after hyperventilating for one minute. The table indicates how long (in seconds) they were able to hold their breath: \\begin{center} \\begin{tabular}{c|ccccccccc} Subject & A & B & C & D & E & F & G & H & I \\hline Normal & 56.5 & 65.0 & 65.0 & 50.0 & 25.0 & 78.0 & 71.0 & 44.0 & 35.0 Hyperventilated & 87.0 & 91.0 & 85.0 & 91.0 & 75.0 & 28.0 & 122.0 & 66.0 & 38.0 \\end{tabular} \\end{center} Mentioning the null and alternative hypotheses clearly, test the significance of the correlation coefficient between the two breath-holding times. (Given $t_{0.05, 7} = 2.365$ and $t_{0.05, 8} = 2.306$).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "What do you mean by a random sample from a distribution? Distinguish between standard deviation and standard error. Show that the sampling distribution of the sum of two independent Poisson variates is again a Poisson variate.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "What are the criteria of a good estimator? Explain any two of them with examples. Let $X_1, X_2, \\dots, X_n$ be a random sample from a $N(\\mu, \\sigma^2)$ population, and $T = \\sum a_i X_i$ be the statistic based on sample values. Show that: (1) $E(T) = \\mu$ when $\\sum a_i = 1$. (2) $V(T) = \\sigma^2 \\sum a_i^2$.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Define $\\chi^2$ statistic. Describe the $\\chi^2$ test for testing independence of attributes.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "What is the $F$-distribution? Explain the testing procedure for testing the equality of two variances from two independent normal populations.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Describe the importance of the Central Limit Theorem. State the test of significance for the difference between two proportions in the case of a large sample.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "Describe the $\\chi^2$ goodness-of-fit test, stating its underlying assumptions.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "Explain the advantages and disadvantages of non-parametric tests. Describe the one-sample Kolmogorov-Smirnov non-parametric test.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Develop the median non-parametric test, stating the underlying assumptions and the null hypothesis.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Estimate and estimator",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Sampling distribution",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Simple and composite hypothesis with examples",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Fisher's $t$-distribution and its uses",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Fisher's $z$-transformation \\end{enumerate} \\vfill \\begin{center}\\small \\href{https://bhu-exam.vercel.app/}{Click here to visit our website} \\href{https://me-aryan.vercel.app/}{Click here to visit our contributor} \\href{https://quashan-me.vercel.app/}{Click here to visit our contributor} \\end{center} \\end{document}",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Distinguish between standard deviation and standard error. If $X_i \\sim N(\\mu, \\sigma^2)$ for $i = 1,2,\\dots,n$, find the standard error of the sample mean $\\bar{X}$ and the sample variance $S^2$.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "What do you mean by sample proportion? Derive the sampling distribution of the sample proportion and obtain its standard error.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "What are the different criteria of a good estimator? Explain them briefly.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "If $X_1, X_2, \\dots, X_n$ is a random sample from a normal population $N(\\mu, \\sigma^2)$, show that the sample variance $S^2 = \\frac{1}{n-1}\\sum_{i=1}^n (X_i - \\bar{X})^2$ is an unbiased and consistent estimator for the parameter $\\sigma^2$.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      }
+    ]
+  },
+  "stamj32": {
+    "id": "stamj32",
+    "title": "Sampling Distribution",
+    "module": "STAMJ32",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Define Chi-square ($\\chi^2$) statistic. Derive its probability density function.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "State and prove the additive property of independent Chi-square random variables.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 3,
+        "unit": "II",
+        "question": "Define Student's t-statistic. Derive its pdf and write its properties.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 4,
+        "unit": "III",
+        "question": "Define Snedecor's F-statistic. Derive its pdf and write its relation to Chi-square.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 5,
+        "unit": "III",
+        "question": "Discuss the relationship between t, F, and Chi-square distributions.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 6,
         "unit": "II",
-        "question": "Find the mean and variance of an Exponential distribution with PDF $f(x) = \\lambda e^{-\\lambda x}$ for $x \\ge 0$.",
-        "answerKey": "1. **Compute Mean $E(X)$**:\n$$E(X) = \\int_0^{\\infty} x \\lambda e^{-\\lambda x} dx$$\n- Integrate by parts with $u = x$, $dv = \\lambda e^{-\\lambda x} dx \\implies du = dx$, $v = -e^{-\\lambda x}$:\n  $$E(X) = [-x e^{-\\lambda x}]_0^{\\infty} - \\int_0^{\\infty} (-e^{-\\lambda x}) dx = 0 + \\left[ -\\frac{1}{\\lambda} e^{-\\lambda x} \\right]_0^{\\infty} = \\frac{1}{\\lambda}$$\n\n2. **Compute Variance**:\n- Compute $E(X^2)$:\n  $$E(X^2) = \\int_0^{\\infty} x^2 \\lambda e^{-\\lambda x} dx$$\n- Integrate by parts with $u = x^2$, $dv = \\lambda e^{-\\lambda x} dx \\implies du = 2x dx$, $v = -e^{-\\lambda x}$:\n  $$E(X^2) = [-x^2 e^{-\\lambda x}]_0^{\\infty} + 2 \\int_0^{\\infty} x e^{-\\lambda x} dx = 0 + \\frac{2}{\\lambda} E(X) = \\frac{2}{\\lambda} \\cdot \\frac{1}{\\lambda} = \\frac{2}{\\lambda^2}$$\n- Compute variance:\n  $$Var(X) = E(X^2) - (E(X))^2 = \\frac{2}{\\lambda^2} - \\frac{1}{\\lambda^2} = \\frac{1}{\\lambda^2}$$\n- Mean is $1/\\lambda$ and Variance is $1/\\lambda^2$."
+        "question": "Show that as degrees of freedom tend to infinity, Student's t-distribution tends to normal.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 7,
-        "unit": "III",
-        "question": "Find the mean and variance of a continuous Uniform distribution on the interval $[a, b]$.",
-        "answerKey": "1. **Probability Density Function**:\n$$f(x) = \\frac{1}{b-a} \\quad \\text{for } a \\leq x \\leq b$$\n\n2. **Compute Mean $E(X)$**:\n$$E(X) = \\int_a^b x \\frac{1}{b-a} dx = \\frac{1}{b-a} \\left[ \\frac{x^2}{2} \\right]_a^b = \\frac{b^2 - a^2}{2(b-a)} = \\frac{(b-a)(b+a)}{2(b-a)} = \\frac{a+b}{2}$$\n\n3. **Compute Variance**:\n- Compute $E(X^2)$:\n  $$E(X^2) = \\int_a^b x^2 \\frac{1}{b-a} dx = \\frac{1}{b-a} \\left[ \\frac{x^3}{3} \\right]_a^b = \\frac{b^3 - a^3}{3(b-a)} = \\frac{a^2 + ab + b^2}{3}$$\n- Compute variance:\n  $$Var(X) = E(X^2) - (E(X))^2 = \\frac{a^2 + ab + b^2}{3} - \\left( \\frac{a+b}{2} \\right)^2$$\n  $$= \\frac{a^2 + ab + b^2}{3} - \\frac{a^2 + 2ab + b^2}{4} = \\frac{4a^2 + 4ab + 4b^2 - 3a^2 - 6ab - 3b^2}{12} = \\frac{a^2 - 2ab + b^2}{12} = \\frac{(b-a)^2}{12}$$"
+        "unit": "IV",
+        "question": "State Cochran's theorem on quadratic forms and its importance.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 8,
-        "unit": "III",
-        "question": "State the Lindeberg-Levy Central Limit Theorem.",
-        "answerKey": "1. **Statement**:\nLet $\\{X_1, X_2, \\dots, X_n\\}$ be a sequence of independent and identically distributed (i.i.d.) random variables, each with finite mean $\\mu$ and finite variance $\\sigma^2 > 0$.\nLet $S_n = \\sum_{i=1}^n X_i$. As $n \\to \\infty$, the cumulative distribution function of the standardized sum $Z_n$ converges to the standard normal distribution function $\\Phi(z)$:\n$$Z_n = \\frac{S_n - n\\mu}{\\sigma \\sqrt{n}} = \\frac{\\bar{X}_n - \\mu}{\\sigma / \\sqrt{n}} \\xrightarrow{d} N(0, 1)$$\nwhere $\\bar{X}_n = S_n / n$ is the sample mean."
+        "unit": "I",
+        "question": "Define standard error of sample mean and sample variance from a normal population.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 9,
-        "unit": "IV",
-        "question": "State the Weak Law of Large Numbers (WLLN) and differentiate it from the Strong Law of Large Numbers (SLLN).",
-        "answerKey": "1. **WLLN Statement**:\nLet $\\{X_n\\}$ be a sequence of i.i.d. random variables with finite mean $\\mu$. The sample mean $\\bar{X}_n = \\frac{1}{n}\\sum_{i=1}^n X_i$ converges in probability to the mean $\\mu$ as $n \\to \\infty$:\n$$\\lim_{n \\to \\infty} P(|\\bar{X}_n - \\mu| < \\epsilon) = 1 \\quad \\text{for any } \\epsilon > 0$$\n\n2. **Differentiating from SLLN**:\n- **WLLN** establishes **convergence in probability**.\n- **SLLN** establishes **almost sure convergence**:\n  $$P\\left( \\lim_{n \\to \\infty} \\bar{X}_n = \\mu \\right) = 1$$\n- SLLN is a stronger statement because almost sure convergence implies convergence in probability, but the converse is not generally true."
+        "unit": "III",
+        "question": "Prove that the square of a t-distributed variable with $n$ degrees of freedom is F-distributed with $(1, n)$ degrees of freedom.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 10,
+        "unit": "I",
+        "question": "Derive the mean and variance of a Chi-square distribution.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 11,
         "unit": "IV",
-        "question": "Suppose a radioactive source emits particles at a rate of 2 per minute. What is the probability that in a 3-minute interval, exactly 5 particles are emitted?",
-        "answerKey": "1. **Model Selection**:\n- The emission of radioactive particles is modeled by a Poisson process.\n- Rate of emissions $\\alpha = 2$ particles/minute.\n- Interval length $t = 3$ minutes.\n- The parameter $\\lambda$ for the Poisson distribution is:\n  $$\\lambda = \\alpha \\times t = 2 \\times 3 = 6$$\n\n2. **Poisson PMF**:\n- We want to find $P(X = 5)$ for $\\lambda = 6$:\n  $$P(X = 5) = \\frac{\\lambda^5 e^{-\\lambda}}{5!}$$\n\n3. **Calculation**:\n- $$P(X = 5) = \\frac{6^5 e^{-6}}{5!} = \\frac{7776 \\cdot e^{-6}}{120} = 64.8 \\times e^{-6}$$\n- Since $e^{-6} \\approx 0.002479$:\n  $$P(X = 5) \\approx 64.8 \\times 0.002479 \\approx 0.1606$$\n- The probability is approximately $16.06\\%$."
+        "question": "Discuss the sampling distribution of the range and its applications.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 12,
+        "unit": "V",
+        "question": "Explain the concept of order statistics and write the joint pdf of the minimum and maximum.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 13,
+        "unit": "V",
+        "question": "Derive the distribution of the $r$-th order statistic from a continuous population.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 14,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 1).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 15,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 2).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 16,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 3).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 17,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 4).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 18,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 5).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 19,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 6).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 20,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 7).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 21,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 8).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 22,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 9).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 23,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 10).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 24,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 11).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 25,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 12).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 26,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 13).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 27,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 14).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 28,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 15).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 29,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 16).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 30,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 17).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 31,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 18).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 32,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 19).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 33,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 20).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 34,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 21).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 35,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 22).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 36,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 23).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 37,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 24).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 38,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 25).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 39,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 26).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 40,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 27).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 28).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 29).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 30).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 31).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 32).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 33).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 34).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 35).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 36).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Sampling Distribution (Part 37).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       }
-    ],
-    "type": "theory",
-    "duration": 180
-  },
-  "stamj32": {
-    "id": "stamj32",
-    "title": "Sample Distribution",
-    "module": "STAMJ32",
-    "comingSoon": true
+    ]
   },
   "stamj33": {
     "id": "stamj33",
@@ -5805,156 +8413,307 @@ export const EXAMS = {
     "module": "STAMJ41",
     "duration": 60,
     "type": "theory",
+    "comingSoon": false,
     "questions": [
       {
         "id": 1,
         "unit": "I",
-        "question": "What is a parameter and a statistic? Explain with suitable examples. Also, define a random sample from a probability distribution.",
-        "answerKey": "1. **Parameter**: A parameter is a numerical characteristic of a population (e.g., population mean $\\mu$, population variance $\\sigma^2$). It is usually constant but unknown.\n2. **Statistic**: A statistic is a function of the sample values that does not contain any unknown parameters (e.g., sample mean $\\bar{x} = \\frac{1}{n}\\sum x_i$, sample variance $s^2$). It is a random variable and varies from sample to sample.\n3. **Random Sample**: A random sample of size $n$ from a distribution $F(x)$ is a set of $n$ independent and identically distributed (i.i.d.) random variables $X_1, X_2, \\ldots, X_n$ each having the distribution $F(x)$."
+        "question": "Define probability. State and prove the addition theorem of probability for any two events $A$ and $B$, i.e., \\[ P(A \\cup B) = P(A) + P(B) - P(A \\cap B) \\] Also state the theorem if $A$ and $B$ are independent events.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
       },
       {
         "id": 2,
         "unit": "I",
-        "question": "Let $X_1, X_2, \\ldots, X_n$ be a random sample of size $n$ from a population with finite mean $\\mu$ and variance $\\sigma^2$. Show that the expectation of the sample mean is $\\mu$ and its variance is $\\frac{\\sigma^2}{n}$.",
-        "answerKey": "1. The sample mean is defined as $\\bar{X} = \\frac{1}{n} \\sum_{i=1}^n X_i$.\n2. **Expectation**: \n$$E(\\bar{X}) = E\\left(\\frac{1}{n} \\sum_{i=1}^n X_i\\right) = \\frac{1}{n} \\sum_{i=1}^n E(X_i) = \\frac{1}{n} \\sum_{i=1}^n \\mu = \\frac{1}{n} (n\\mu) = \\mu.$$\n3. **Variance**: Since $X_i$ are independent:\n$$V(\\bar{X}) = V\\left(\\frac{1}{n} \\sum_{i=1}^n X_i\\right) = \\frac{1}{n^2} \\sum_{i=1}^n V(X_i) = \\frac{1}{n^2} \\sum_{i=1}^n \\sigma^2 = \\frac{1}{n^2} (n\\sigma^2) = \\frac{\\sigma^2}{n}.$$\nHence, the result is verified."
+        "question": "A balanced die is thrown two times. Find the probability that the sum of the numbers in the two throws is: (1) 7 (2) more than 10 (3) less than 5",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
       },
       {
         "id": 3,
         "unit": "I",
-        "question": "Show that the sampling distribution of the sum of two independent Poisson variates is again a Poisson variate. Deduce the distribution of the sum of $n$ independent Poisson variates.",
-        "answerKey": "1. Let $X_1 \\sim \\text{Poisson}(\\lambda_1)$ and $X_2 \\sim \\text{Poisson}(\\lambda_2)$ be independent. \n2. The probability generating function (PGF) or MGF of $X \\sim \\text{Poisson}(\\lambda)$ is $M_X(t) = e^{\\lambda(e^t - 1)}$.\n3. Since they are independent, the MGF of $Y = X_1 + X_2$ is:\n$$M_Y(t) = M_{X_1}(t) \\cdot M_{X_2}(t) = e^{\\lambda_1(e^t - 1)} \\cdot e^{\\lambda_2(e^t - 1)} = e^{(\\lambda_1 + \\lambda_2)(e^t - 1)}.$$\n4. By the uniqueness theorem of MGFs, this is the MGF of a Poisson variate with parameter $\\lambda_1 + \\lambda_2$. Thus $Y \\sim \\text{Poisson}(\\lambda_1 + \\lambda_2)$.\n5. By induction, the sum of $n$ independent Poisson variates with parameters $\\lambda_i$ is also Poisson with parameter $\\sum_{i=1}^n \\lambda_i$."
+        "question": "Define a discrete random variable and its probability mass function (p.m.f.) giving a suitable example.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
       },
       {
         "id": 4,
         "unit": "I",
-        "question": "Let the independent random variables $X_1, X_2, \\ldots, X_n$ be distributed as $N(\\mu, \\sigma^2)$. Let $X = \\sum_{i=1}^n \\alpha_i X_i$ and $Y = \\sum_{j=1}^n \\beta_j X_j$, where \\(\\alpha_i\\) and \\(\\beta_j\\) are constants. Determine the probability distribution of $X$, $Y$, and $X+Y$.",
-        "answerKey": "1. Since $X_i \\sim N(\\mu, \\sigma^2)$ are independent normal variables, any linear combination of them is also normally distributed.\n2. **Distribution of $X$**: Let $X = \\sum \\alpha_i X_i$. \n- $E(X) = \\sum \\alpha_i E(X_i) = \\mu \\sum \\alpha_i$.\n- $V(X) = \\sum \\alpha_i^2 V(X_i) = \\sigma^2 \\sum \\alpha_i^2$.\nThus $X \\sim N\\left(\\mu \\sum \\alpha_i, \\sigma^2 \\sum \\alpha_i^2\\right)$.\n3. **Distribution of $Y$**: Similarly, $Y \\sim N\\left(\\mu \\sum \\beta_j, \\sigma^2 \\sum \\beta_j^2\\right)$.\n4. **Distribution of $X+Y$**: We can write $X+Y = \\sum (\\alpha_i + \\beta_i) X_i$.\n- $E(X+Y) = \\mu \\sum (\\alpha_i + \\beta_i)$.\n- $V(X+Y) = \\sigma^2 \\sum (\\alpha_i + \\beta_i)^2$.\nThus $X+Y \\sim N\\left(\\mu \\sum (\\alpha_i + \\beta_i), \\sigma^2 \\sum (\\alpha_i + \\beta_i)^2\\right)$."
+        "question": "Explain the binomial and Poisson distributions. Discuss their properties and mention fields of their applications.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 5,
-        "unit": "II",
-        "question": "What are the criteria of a good estimator? Discuss the concepts of Unbiasedness and Consistency in detail.",
-        "answerKey": "1. A good estimator should satisfy four main criteria: Unbiasedness, Consistency, Efficiency, and Sufficiency.\n2. **Unbiasedness**: An estimator $T$ is said to be an unbiased estimator of a parameter $\\theta$ if $E(T) = \\theta$ for all $\\theta \\in \\Theta$. If $E(T) \\neq \\theta$, the bias is $E(T) - \\theta$.\n3. **Consistency**: An estimator $T_n$ is consistent for $\\theta$ if it converges in probability to $\\theta$ as $n \\to \\infty$. That is, for any $\\epsilon > 0$, $\\lim_{n \\to \\infty} P(|T_n - \\theta| < \\epsilon) = 1$. A sufficient condition for consistency is that $E(T_n) \\to \\theta$ and $V(T_n) \\to 0$ as $n \\to \\infty$."
+        "unit": "I",
+        "question": "Explain the probability density function (p.d.f.) and cumulative distribution function (c.d.f.) of a continuous random variable.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
       },
       {
         "id": 6,
         "unit": "I",
-        "question": "Let $X_1, X_2, \\ldots, X_n$ be a random sample from a Bernoulli distribution with parameter $p$. Show that the sampling distribution of $S = \\sum_{i=1}^n X_i$ is a binomial distribution.",
-        "answerKey": "1. The probability mass function (pmf) of each $X_i \\sim \\text{Bernoulli}(p)$ is $P(X_i = x) = p^x (1-p)^{1-x}$ for $x \\in \\{0, 1\\}$.\n2. The moment generating function (MGF) of $X_i$ is $M_{X_i}(t) = E(e^{tX_i}) = (1-p) + p e^t$.\n3. Since $X_1, \\ldots, X_n$ are independent, the MGF of their sum $S = \\sum X_i$ is:\n$$M_S(t) = \\prod_{i=1}^n M_{X_i}(t) = \\left( (1-p) + p e^t \\right)^n.$$\n4. This is the MGF of a Binomial distribution with parameters $n$ and $p$. By the uniqueness theorem of MGFs, $S \\sim \\text{Binomial}(n, p)$."
+        "question": "Check whether the function defined as: \\[ f(x) = \\begin{cases} e^{-x}, & x > 0 0, & \\text{otherwise} \\end{cases} \\] is a probability density function.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
       },
       {
         "id": 7,
-        "unit": "III",
-        "question": "Define simple and composite hypotheses with suitable examples. Explain the difference between them.",
-        "answerKey": "1. **Simple Hypothesis**: A hypothesis is simple if it completely specifies the probability distribution of the population. For example, if $X \\sim N(\\mu, 9)$, the hypothesis $H_0: \\mu = 5$ is simple because it completely specifies the distribution as $N(5, 9)$.\n2. **Composite Hypothesis**: A hypothesis is composite if it does not completely specify the probability distribution of the population. For example, $H_1: \\mu > 5$ or $H_1: \\mu \\neq 5$ are composite hypotheses because they allow for multiple possible distributions (e.g. $N(6, 9), N(7, 9)$, etc.)."
+        "unit": "I",
+        "question": "State the important properties of a normal distribution.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 8,
-        "unit": "III",
-        "question": "Explain the concepts of Type-I error, Type-II error, level of significance, and power of a test in hypothesis testing.",
-        "answerKey": "1. **Type-I Error**: Rejecting the null hypothesis $H_0$ when it is actually true. The probability of Type-I error is denoted by $\\alpha = P(\\text{Reject } H_0 \\mid H_0 \\text{ is true})$.\n2. **Type-II Error**: Failing to reject $H_0$ when it is false (i.e. accepting $H_0$ when $H_1$ is true). The probability of Type-II error is denoted by $\\beta = P(\\text{Accept } H_0 \\mid H_1 \\text{ is true})$.\n3. **Level of Significance**: The maximum allowable probability of Type-I error, usually pre-determined (e.g. 5% or 1%).\n4. **Power of the Test**: The probability of rejecting $H_0$ when it is false. Power $= 1 - \\beta = P(\\text{Reject } H_0 \\mid H_1 \\text{ is true})$."
+        "unit": "I",
+        "question": "Explain the concept of testing of hypothesis. In this context, explain two types of errors (Type I and Type II errors) and the level of significance.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 9,
-        "unit": "III",
-        "question": "A random sample of size 1 is taken from a Poisson distribution with parameter $\\lambda$. If the critical region for testing $H_0 : \\lambda = 2$ against $H_1 : \\lambda = 1$ is $x > 2$, find the size and power of the test.",
-        "answerKey": "1. Under $H_0$, $X \\sim \\text{Poisson}(\\lambda=2)$. Under $H_1$, $X \\sim \\text{Poisson}(\\lambda=1)$.\n2. **Size of the Test** ($\\alpha$):\n$$\\alpha = P(X > 2 \\mid H_0) = 1 - P(X \\le 2 \\mid H_0) = 1 - \\left( P(X=0) + P(X=1) + P(X=2) \\right)$$\n$$\\alpha = 1 - e^{-2} \\left( 1 + 2 + \\frac{2^2}{2!} \\right) = 1 - 5e^{-2} \\approx 1 - 5(0.1353) = 0.3233.$$\n3. **Power of the Test** ($1-\\beta$):\n$$1-\\beta = P(X > 2 \\mid H_1) = 1 - P(X \\le 2 \\mid H_1) = 1 - e^{-1} \\left( 1 + 1 + \\frac{1^2}{2!} \\right)$$\n$$1-\\beta = 1 - 2.5e^{-1} \\approx 1 - 2.5(0.3679) = 0.0803.$$\nThus, the size is $\\approx 0.323$ and the power is $\\approx 0.080$."
+        "unit": "I",
+        "question": "Explain the analysis of variance (ANOVA) table for a one-way classified data (under Completely Randomized Design).",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 10,
-        "unit": "III",
-        "question": "A sample of size 1 is taken from an exponential distribution with parameter $\\lambda$ ($f(x) = \\lambda e^{-\\lambda x}, x > 0$). To test $H_0 : \\lambda = 1$ against $H_1 : \\lambda > 1$, the critical region is $x > 2$. Find the size and the probability of Type-II error.",
-        "answerKey": "1. Under $H_0$, $\\lambda = 1 \\implies f(x) = e^{-x}$. Under $H_1$, $\\lambda > 1 \\implies f(x) = \\lambda e^{-\\lambda x}$.\n2. **Size of the Test** ($\\alpha$):\n$$\\alpha = P(X > 2 \\mid H_0) = \\int_2^\\infty e^{-x} dx = \\left[ -e^{-x} \\right]_2^\\infty = e^{-2} \\approx 0.1353.$$\n3. **Probability of Type-II Error** ($\\beta$):\n$$\\beta = P(X \\le 2 \\mid H_1) = \\int_0^2 \\lambda e^{-\\lambda x} dx = \\left[ -e^{-\\lambda x} \\right]_0^2 = 1 - e^{-2\\lambda}.$$\nThus, the size of the test is $e^{-2}$ and the Type-II error probability is $1 - e^{-2\\lambda}$."
+        "unit": "I",
+        "question": "Explain two uses of the $\\chi^2$-test and two uses of the $t$-test.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 11,
-        "unit": "III",
-        "question": "Let $p$ be the probability that a coin falls head in a single toss. To test $H_0 : p = 1/2$ against $H_1 : p = 2/3$, the coin is tossed thrice and $H_0$ is rejected if three heads appear. Find the size and power of the test.",
-        "answerKey": "1. The number of heads $X$ in 3 tosses follows a Binomial distribution $B(3, p)$.\n2. The critical region is $\\{X=3\\}$.\n3. **Size of the Test** ($\\alpha$):\n$$\\alpha = P(X = 3 \\mid H_0) = \\binom{3}{3} \\left(\\frac{1}{2}\\right)^3 = \\frac{1}{8} = 0.125.$$\n4. **Power of the Test** ($1-\\beta$):\n$$1-\\beta = P(X = 3 \\mid H_1) = \\binom{3}{3} \\left(\\frac{2}{3}\\right)^3 = \\frac{8}{27} \\approx 0.296.$$\nHence, the size is $0.125$ and the power is $0.296$."
+        "unit": "II",
+        "question": "Explain the terms: population, sample, and sampling frame giving suitable examples.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 12,
-        "unit": "IV",
-        "question": "Define the chi-square statistic. Describe the chi-square test for testing the independence of two attributes in a contingency table.",
-        "answerKey": "1. **Chi-Square Statistic**: $\\chi^2 = \\sum \\frac{(O_i - E_i)^2}{E_i}$, where $O_i$ are the observed frequencies and $E_i$ are the expected frequencies.\n2. **Independence of Attributes**: Let two attributes $A$ (with $r$ classes) and $B$ (with $c$ classes) be represented in an $r \\times c$ contingency table.\n3. **Hypotheses**: $H_0$: The attributes $A$ and $B$ are independent vs $H_1$: They are dependent.\n4. **Expected Frequencies**: For cell $(i, j)$, expected frequency is $E_{ij} = \\frac{(R_i \\times C_j)}{N}$, where $R_i$ is the $i$-th row total, $C_j$ is the $j$-th column total, and $N$ is the grand total.\n5. **Degrees of Freedom**: under $H_0$, the statistic follows a $\\chi^2$ distribution with $(r-1)(c-1)$ degrees of freedom. If the calculated $\\chi^2 > \\chi^2_{\\alpha, (r-1)(c-1)}$, we reject $H_0$."
+        "unit": "II",
+        "question": "Describe simple random sampling. Explain a method to select a simple random sample from a population.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 13,
-        "unit": "IV",
-        "question": "Describe the chi-square goodness of fit test. State the null hypothesis, test statistic, and the necessary assumptions.",
-        "answerKey": "1. **Purpose**: To test if an observed frequency distribution fits a theoretical distribution.\n2. **Hypothesis**: $H_0$: The sample data fits the specified theoretical distribution.\n3. **Test Statistic**: $\\chi^2 = \\sum_{i=1}^k \\frac{(O_i - E_i)^2}{E_i} \\sim \\chi^2_{k-s-1}$ under $H_0$, where $k$ is the number of classes, and $s$ is the number of parameters estimated from the data.\n4. **Assumptions**: (i) Observed frequencies must be independent. (ii) The total sample size $N$ must be large ($N \\ge 50$). (iii) Each expected frequency $E_i$ must be $\\ge 5$. If any $E_i < 5$, adjacent classes must be pooled and degrees of freedom adjusted accordingly."
+        "unit": "II",
+        "question": "Conditional probability",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
       },
       {
         "id": 14,
-        "unit": "IV",
-        "question": "A bird watcher recorded birds belonging to 6 categories with frequencies: [6, 7, 13, 17, 6, 5]. Test at a 5% level of significance whether the data is compatible with the assumption that the park is visited by birds in the proportion 1:1:2:3:1:1. (Given $\\chi^2_{0.05, 5} = 11.07$)",
-        "answerKey": "1. **Hypotheses**: $H_0$: The birds visit the park in the proportion 1:1:2:3:1:1.\n2. **Observed Frequencies** ($O_i$): [6, 7, 13, 17, 6, 5], Grand Total $N = 54$.\n3. **Expected Frequencies** ($E_i$): Proportion total is $1+1+2+3+1+1 = 9$.\n- $E_1 = 54 \\times (1/9) = 6$\n- $E_2 = 54 \\times (1/9) = 6$\n- $E_3 = 54 \\times (2/9) = 12$\n- $E_4 = 54 \\times (3/9) = 18$\n- $E_5 = 54 \\times (1/9) = 6$\n- $E_6 = 54 \\times (1/9) = 6$\n4. **Calculate $\\chi^2$ Statistic**:\n$$\\chi^2 = \\frac{(6-6)^2}{6} + \\frac{(7-6)^2}{6} + \\frac{(13-12)^2}{12} + \\frac{(17-18)^2}{18} + \\frac{(6-6)^2}{6} + \\frac{(5-6)^2}{6}$$\n$$\\chi^2 = 0 + \\frac{1}{6} + \\frac{1}{12} + \\frac{1}{18} + 0 + \\frac{1}{6} = \\frac{6 + 3 + 2 + 6}{36} = \\frac{17}{36} \\approx 0.472.$$\n5. **Conclusion**: Since the calculated $\\chi^2 = 0.472$ is much less than the critical value $\\chi^2_{0.05, 5} = 11.07$, we fail to reject $H_0$. The data is compatible with the specified proportions."
+        "unit": "II",
+        "question": "Statistical definition of probability",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
       },
       {
         "id": 15,
-        "unit": "IV",
-        "question": "What is the F-distribution? Write down its probability density function and describe the test for the equality of two population variances.",
-        "answerKey": "1. **F-Statistic**: The ratio of two independent chi-square variates divided by their respective degrees of freedom: $F = \\frac{\\chi^2_1 / \\nu_1}{\\chi^2_2 / \\nu_2}$.\n2. **Probability Density Function**: For $f > 0$:\n$$g(f) = \\frac{\\Gamma\\left(\\frac{\\nu_1+\\nu_2}{2}\\right)}{\\Gamma\\left(\\frac{\\nu_1}{2}\\right)\\Gamma\\left(\\frac{\\nu_2}{2}\\right)} \\left(\\frac{\\nu_1}{\\nu_2}\\right)^{\\nu_1/2} \\frac{f^{\\nu_1/2-1}}{\\left(1 + \\frac{\\nu_1}{\\nu_2}f\\right)^{(\\nu_1+\\nu_2)/2}}$$\n3. **Test of Equality of Variances**: Given two samples from $N(\\mu_1, \\sigma_1^2)$ and $N(\\mu_2, \\sigma_2^2)$:\n- $H_0: \\sigma_1^2 = \\sigma_2^2$ vs $H_1: \\sigma_1^2 \\neq \\sigma_2^2$.\n- Test statistic: $F = \\frac{s_1^2}{s_2^2}$ where $s_1^2 > s_2^2$ (to ensure $F > 1$), and $s_i^2 = \\frac{1}{n_i-1}\\sum (X_{ij} - \\bar{X}_i)^2$.\n- Degrees of freedom: $\\nu_1 = n_1 - 1, \\nu_2 = n_2 - 1$.\n- Decision: Reject $H_0$ if calculated $F > F_{\\alpha/2, \\nu_1, \\nu_2}$."
+        "unit": "II",
+        "question": "Mean of binomial and Poisson distributions",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 16,
-        "unit": "IV",
-        "question": "State Student's t-statistic. Explain the test procedure for the difference of two means from independent normal populations when variances are equal but unknown.",
-        "answerKey": "1. **t-Statistic**: Defined as $t = \\frac{\\bar{X}_1 - \\bar{X}_2}{S \\sqrt{\\frac{1}{n_1} + \\frac{1}{n_2}}}$, where $\\bar{X}_1, \\bar{X}_2$ are sample means, $n_1, n_2$ are sample sizes.\n2. **Pooled Sample Variance**: $S^2 = \\frac{(n_1-1)s_1^2 + (n_2-1)s_2^2}{n_1 + n_2 - 2}$.\n3. **Hypotheses**: $H_0: \\mu_1 = \\mu_2$ vs $H_1: \\mu_1 \\neq \\mu_2$.\n4. **Degrees of Freedom**: $\\nu = n_1 + n_2 - 2$.\n5. **Decision**: Reject $H_0$ if $|t| > t_{\\alpha/2, n_1+n_2-2}$."
+        "unit": "II",
+        "question": "Large sample test for single mean with one example",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 17,
-        "unit": "IV",
-        "question": "The gain in weights (in kgs) of pigs fed on two diets A and B are:\nDiet A: [32, 35, 33, 29, 24, 41, 42, 36]\nDiet B: [35, 36, 39, 37, 38, 25, 26, 30, 24, 20]\nTest if the two diets differ significantly as regards their effect on weight gain at a 5% level of significance. (Given $t_{16, 0.05} = 2.12$)",
-        "answerKey": "1. **Sample 1 (Diet A)**: $n_1 = 8$, values: [32, 35, 33, 29, 24, 41, 42, 36].\n- $\\bar{X}_1 = \\frac{272}{8} = 34$.\n- $\\sum (X_{1i} - \\bar{X}_1)^2 = 4 + 1 + 1 + 25 + 100 + 49 + 64 + 4 = 248$.\n2. **Sample 2 (Diet B)**: $n_2 = 10$, values: [35, 36, 39, 37, 38, 25, 26, 30, 24, 20].\n- $\\bar{X}_2 = \\frac{320}{10} = 32$.\n- $\\sum (X_{2i} - \\bar{X}_2)^2 = 9 + 16 + 49 + 25 + 36 + 49 + 36 + 4 + 64 + 144 = 432$.\n3. **Pooled Variance**:\n$$S^2 = \\frac{248 + 432}{8 + 10 - 2} = \\frac{680}{16} = 42.5 \\implies S \\approx 6.52.$$\n4. **t-Statistic**:\n$$t = \\frac{34 - 32}{6.52 \\sqrt{\\frac{1}{8} + \\frac{1}{10}}} = \\frac{2}{6.52 \\sqrt{0.225}} = \\frac{2}{6.52 \\times 0.4743} \\approx 0.647.$$\n5. **Conclusion**: Since the calculated $|t| = 0.647$ is less than the critical value $t_{16, 0.05} = 2.12$, we fail to reject $H_0$. There is no significant difference between the two diets."
+        "unit": "II",
+        "question": "Advantages of sampling over complete enumeration",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 18,
-        "unit": "IV",
-        "question": "Samples of two types of electric light bulbs were tested for length of life and the following data were obtained:\n- Type I: Sample Size = 8, Mean = 1234 hours, S.D. = 36 hours\n- Type II: Sample Size = 7, Mean = 1036 hours, S.D. = 40 hours\nIs the difference in means sufficient to warrant that Type I is superior to Type II? Test at 5% significance level. (Given $t_{0.05, 13} = 1.77$)",
-        "answerKey": "1. **Hypotheses**: $H_0: \\mu_1 = \\mu_2$ vs $H_1: \\mu_1 > \\mu_2$ (one-tailed test since we test if Type I is superior).\n2. **Pooled Variance**:\n$$S^2 = \\frac{(n_1-1)S_1^2 + (n_2-1)S_2^2}{n_1+n_2-2} = \\frac{7(36)^2 + 6(40)^2}{8+7-2} = \\frac{7(1296) + 6(1600)}{13} = \\frac{9072 + 9600}{13} = \\frac{18672}{13} \\approx 1436.31.$$\nSo $S \\approx 37.90$ hours.\n3. **t-Statistic**:\n$$t = \\frac{1234 - 1036}{37.90 \\sqrt{\\frac{1}{8} + \\frac{1}{7}}} = \\frac{198}{37.90 \\sqrt{0.125 + 0.1428}} = \\frac{198}{37.90 \\times 0.5175} \\approx 10.10.$$\n4. **Conclusion**: Since calculated $t = 10.10 > t_{0.05, 13} = 1.77$, we reject $H_0$. The difference in means is highly significant, meaning Type I bulbs are indeed superior."
+        "unit": "II",
+        "question": "State the additive and multiplicative theorems of probability, and briefly explain their significance.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
       },
       {
         "id": 19,
-        "unit": "I",
-        "question": "State the Central Limit Theorem. Suppose $X_1, X_2, \\ldots, X_n$ is a random sample of size $n=50$ from a population with mean $\\mu=5$ and variance $\\sigma^2=16.5$. Find the probability $P[\\bar{X} < 5]$.",
-        "answerKey": "1. **Central Limit Theorem**: If $X_1, X_2, \\ldots, X_n$ are i.i.d. random variables with finite mean $\\mu$ and variance $\\sigma^2$, then the sampling distribution of the sample mean $\\bar{X}$ approaches a normal distribution $N(\\mu, \\sigma^2/n)$ as $n \\to \\infty$.\n2. **Normal Approximation**: Here $n=50$ is large. Thus, $\\bar{X} \\dot{\\sim} N\\left(\\mu_{\\bar{X}} = 5, \\sigma^2_{\\bar{X}} = \\frac{16.5}{50} = 0.33\\right)$.\n3. **Standardizing**: We want $P[\\bar{X} < 5]$:\n$$Z = \frac{\\bar{X} - \\mu_{\\bar{X}}}{\\sigma_{\\bar{X}}} = \\frac{5 - 5}{\\sqrt{0.33}} = 0.$$\n4. **Probability**: $P[\\bar{X} < 5] = P[Z < 0] = 0.5$.\nThus, the probability is $0.5$."
+        "unit": "II",
+        "question": "Explain and define the terms: \"Random Experiment\", \"Sample space\", \"Event\", \"Probability\", \"Probability Distribution\", and \"Statistical Hypothesis\".",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
       },
       {
         "id": 20,
-        "unit": "I",
-        "question": "State the Weak Law of Large Numbers (WLLN). Show that a sequence of i.i.d. Bernoulli random variables with parameter $p$ obeys the WLLN.",
-        "answerKey": "1. **Weak Law of Large Numbers**: Let $X_1, X_2, \\ldots$ be a sequence of independent random variables with $E(X_i) = \\mu$ and $V(X_i) = \\sigma^2 < \\infty$. Then the sample mean $\\bar{X}_n$ converges in probability to $\\mu$ as $n \\to \\infty$:\n$$\\left. \\lim_{n\\to\\infty} P(|\\bar{X}_n - \\mu| < \\epsilon) = 1 \\quad \\text{for any } \\epsilon > 0. \\right.$$\n2. **Proof for Bernoulli**: Let $X_i \\sim \\text{Bernoulli}(p)$ be independent. \n- $E(X_i) = p$ and $V(X_i) = p(1-p)$.\n- Let $Y_n = \\bar{X}_n = \\frac{1}{n}\\sum X_i$. $E(Y_n) = p$ and $V(Y_n) = \\frac{p(1-p)}{n}$.\n- By Chebyshev's Inequality:\n$$P(|Y_n - p| \\ge \\epsilon) \\le \\frac{V(Y_n)}{\\epsilon^2} = \\frac{p(1-p)}{n\\epsilon^2}.$$\n- Taking limit as $n \\to \\infty$:\n$$\\lim_{n\\to\\infty} P(|Y_n - p| \\ge \\epsilon) \\le \\lim_{n\\to\\infty} \\frac{p(1-p)}{n\\epsilon^2} = 0.$$\nThus, $\\bar{X}_n$ converges in probability to $p$. Hence, the sequence obeys the WLLN."
+        "unit": "II",
+        "question": "Assume the random variable $Y$ has a continuous uniform distribution defined on the interval $[0, 2]$, i.e., \\[ f(y) = \\begin{cases} \\frac{1}{2}, & 0 < y < 2 0, & \\text{otherwise} \\end{cases} \\] (1) Find $P(Y < 1)$. (2) Find the mean of this distribution.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 21,
-        "unit": "I",
-        "question": "Define order statistics. Show that the $r$-th order statistic $X_{(r)}$ from a uniform distribution $U(0, 1)$ follows a Beta distribution of the first kind. Find the mean and variance of $X_{(r)}$.",
-        "answerKey": "1. **Order Statistics**: If $X_1, \\ldots, X_n$ is a random sample from a continuous distribution, the ordered values $X_{(1)} \\le X_{(2)} \\le \\ldots \\le X_{(n)}$ are the order statistics.\n2. **PDF of $r$-th Order Statistic**: The probability density function of $X_{(r)}$ is:\n$$g_r(x) = \\frac{n!}{(r-1)!(n-r)!} [F(x)]^{r-1} [1-F(x)]^{n-r} f(x)$$\n3. **For $U(0,1)$**: $f(x) = 1$ and $F(x) = x$ for $0 < x < 1$. Substituting these:\n$$g_r(x) = \\frac{n!}{(r-1)!(n-r)!} x^{r-1} (1-x)^{n-r} = \\frac{1}{B(r, n-r+1)} x^{r-1} (1-x)^{(n-r+1)-1}$$\nwhich is the PDF of a Beta distribution of the first kind, $B(r, n-r+1)$.\n4. **Mean and Variance**:\n- $E(X_{(r)}) = \\frac{r}{n+1}$.\n- $V(X_{(r)}) = \\frac{r(n-r+1)}{(n+1)^2(n+2)}$."
+        "unit": "III",
+        "question": "Define the terms \"population\", \"sampling unit\", and \"sampling frame\", and explain their significance in sampling theory.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 22,
-        "unit": "I",
-        "question": "What are order statistics? Find the probability density function of the smallest order statistic $X_{(1)}$ and the largest order statistic $X_{(n)}$ from a general distribution, and specify them for a uniform distribution $U(0, 1)$.",
-        "answerKey": "1. **Smallest Order Statistic $X_{(1)}$**:\n- Distribution Function: $P(X_{(1)} \\le x) = 1 - P(X_{(1)} > x) = 1 - [1 - F(x)]^n$.\n- Density Function: $g_1(x) = n [1 - F(x)]^{n-1} f(x)$.\n- For $U(0,1)$: $g_1(x) = n(1-x)^{n-1}, 0 < x < 1$.\n2. **Largest Order Statistic $X_{(n)}$**:\n- Distribution Function: $P(X_{(n)} \\le x) = [F(x)]^n$.\n- Density Function: $g_n(x) = n [F(x)]^{n-1} f(x)$.\n- For $U(0,1)$: $g_n(x) = nx^{n-1}, 0 < x < 1$."
+        "unit": "III",
+        "question": "Suppose that $Y$ is a normally distributed random variable with mean $\\mu_Y = 10$ and standard deviation $\\sigma_Y = 2$, and $X$ is an independent normally distributed random variable with mean $\\mu_X = 5$ and standard deviation $\\sigma_X = 1$. Find the values of: (1) $P(Y > 12 \\text{ and } X > 4)$ (2) $P(Y > 12 \\text{ or } X > 4)$ (3) $P(Y > 10 \\text{ and } X < 5)$",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
       },
       {
         "id": 23,
-        "unit": "I",
-        "question": "State and prove the additive (reproductive) property of independent chi-square variates using Moment Generating Functions.",
-        "answerKey": "1. Let $X_1, X_2, \\ldots, X_k$ be independent random variables such that $X_i \\sim \\chi^2_{\\nu_i}$.\n2. The moment generating function (MGF) of $X_i$ is $M_{X_i}(t) = (1-2t)^{-\\nu_i/2}$ for $t < 1/2$.\n3. Let $Y = \\sum_{i=1}^k X_i$. Since the variables are independent:\n$$M_Y(t) = \\prod_{i=1}^k M_{X_i}(t) = \\prod_{i=1}^k (1-2t)^{-\\nu_i/2} = (1-2t)^{-\\sum_{i=1}^k \\nu_i / 2}$$\n4. By the uniqueness theorem of MGFs, this is the MGF of a chi-square variate with $\\sum_{i=1}^k \\nu_i$ degrees of freedom. Thus, the sum of independent chi-square variates is also a chi-square variate."
+        "unit": "III",
+        "question": "What is simple random sampling (SRS)? Explain how a simple random sample is selected from a population. What are its advantages and limitations?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 24,
-        "unit": "V",
-        "question": "Describe the one-sample Kolmogorov-Smirnov non-parametric test. Explain the hypotheses, test statistic, and decision criteria.",
-        "answerKey": "1. **Purpose**: To test whether a random sample comes from a specified theoretical continuous distribution $F_0(x)$.\n2. **Hypotheses**: $H_0: F(x) = F_0(x)$ for all $x$ vs $H_1: F(x) \\neq F_0(x)$ for some $x$.\n3. **Empirical Distribution Function** ($S_n(x)$): $S_n(x) = \\frac{\\text{Number of observations } \\le x}{n}$.\n4. **Test Statistic**: $D = \\sup_x |S_n(x) - F_0(x)|$. It is computed as $D = \\max(D^+, D^-)$, where:\n- $D^+ = \\max_{1\\le i\\le n} \\left( \\frac{i}{n} - F_0(X_{(i)}) \\right)$,\n- $D^- = \\max_{1\\le i\\le n} \\left( F_0(X_{(i)}) - \\frac{i-1}{n} \\right)$.\n5. **Decision**: If calculated $D$ exceeds the critical value $D_{\\alpha, n}$ from the K-S table, we reject $H_0$."
+        "unit": "III",
+        "question": "Two boxes labelled $B_1$ and $B_2$ containing candies are placed on a table. Box $B_1$ contains 7 red candies and 4 green candies. Box $B_2$ contains 3 red candies and 10 orange candies. The boxes are arranged so that the probability of selecting box $B_1$ is $\\frac{1}{3}$ and the probability of selecting box $B_2$ is $\\frac{2}{3}$. A blindfolded person draws a candy. What is the probability that the candy came from box $B_1$ given that it is a red candy?",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
       },
       {
         "id": 25,
+        "unit": "III",
+        "question": "Explain the Chi-square ($\\chi^2$) test of goodness of fit. What are the key assumptions for conducting a Chi-square test?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "What is hypothesis testing, and why is it an important statistical tool in research? Discuss the concepts of null hypothesis, alternative hypothesis, Type I error, and Type II error.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Weight losses (in kg) of 12 persons in an experimental one-week diet program are given as: \\[ 3.0, \\quad 1.4, \\quad 0.2, \\quad -1.2, \\quad 5.3, \\quad 1.7, \\quad 3.7, \\quad 5.9, \\quad 0.2, \\quad 3.6, \\quad 3.7, \\quad -2.0 \\] Do these results indicate that a significant mean weight loss was achieved at the $\\alpha = 0.05$ level of significance? Critical values of Student's $t$-distribution for one-tailed test (probability $p = 0.90$): \\begin{center} \\begin{tabular}{|l|ccccc|} \\hline Degrees of Freedom ($\\nu$) & 9 & 10 & 11 & 12 & 13 \\hline Critical Value ($t_{0.90, \\nu$)} & 1.383 & 1.372 & 1.363 & 1.356 & 1.350 \\hline \\end{tabular} \\end{center}",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Define 'random variable' and explain its significance in probability theory. Differentiate between discrete and continuous random variables, providing examples of each.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Explain the normal distribution along with its important applications. Discuss its key properties.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "What do you understand by the binomial distribution? Discuss its key properties, including the formula for calculating binomial probabilities.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "What are the key steps involved in conducting stratified random sampling, and what factors should be considered when determining the strata?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "One of the assumptions underlying the use of the (pooled) two-sample $t$-test is that the samples are drawn from populations having equal means.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "In the two-sample $t$-test, the number of degrees of freedom for the test statistic decreases as sample sizes increase.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "If every observation is multiplied by 2, then the $t$-statistic is multiplied by 2.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "The $\\chi^2$ distribution is used for making inferences about two population variances.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "It is not necessary to have equal sample sizes for the paired $t$-test.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "If the test statistic falls in the rejection region, the null hypothesis has been proven to be true.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "When the test statistic is $t$ and the number of degrees of freedom is very large ($\\nu > 30$), the critical value of $t$ is very close to that of the standard normal variable $Z$.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "Explain the concept of the sampling distribution of a statistic and standard error. Describe the utility of standard error in hypothesis testing. Derive the expressions for the standard error of the following cases: (1) The mean of a random sample of size $n$ obtained from a normal distribution. (2) The difference of the means of two independent random samples of sizes $n_1$ and $n_2$ from normal distributions $N(\\mu_1, \\sigma^2)$ and $N(\\mu_2, \\sigma^2)$ respectively. Also discuss the case of equal but unknown variance for both populations.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "Obtain the sampling distribution of the sum of independent Poisson random variates.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 41,
         "unit": "V",
-        "question": "Describe the Mann-Whitney-Wilcoxon non-parametric U-test for two independent samples. Write down the test statistic and explain the test procedure.",
-        "answerKey": "1. **Purpose**: To test whether two independent samples come from populations with the same continuous distribution.\n2. **Hypotheses**: $H_0$: The two populations have identical distributions vs $H_1$: Their distributions are shifted.\n3. **Procedure**:\n- Combine both samples of size $n_1$ and $n_2$ and rank all $n_1+n_2$ observations in ascending order. If there are ties, assign average ranks.\n- Find the sum of ranks for the first sample, say $R_1$.\n- Compute the Mann-Whitney $U$ statistic:\n$$U_1 = n_1 n_2 + \\frac{n_1(n_1+1)}{2} - R_1, \\quad U_2 = n_1 n_2 - U_1.$$\n- Let $U = \\min(U_1, U_2)$.\n4. **Decision**: Compare calculated $U$ with critical value $U_{\\alpha}$ from the tables. If calculated $U \\le U_{\\alpha}$, reject $H_0$."
+        "question": "Discuss the criteria of a good estimator. Let $X_1, X_2, X_3, X_4$ be a random sample from a $N(\\mu, \\sigma^2)$ population. Find the variance of $T = \\frac{X_1 + 3X_2 + 2X_3 + X_4}{7}$ and $\\bar{X} = \\frac{X_1 + X_2 + X_3 + X_4}{4}$. Which one is preferred between $T$ and $\\bar{X}$ for the estimation of the mean of a normal distribution and why?",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Show that for a normal distribution, the sample variance $S^2 = \\frac{1}{n}\\sum_{i=1}^n (X_i - \\bar{X})^2$ is not an unbiased estimate of the population variance $\\sigma^2$. Obtain an unbiased estimate of the population variance.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Let $P_1$ and $P_2$ be the unknown proportions of students wearing glasses in two universities $A$ and $B$. To compare $P_1$ and $P_2$, samples of sizes $n_1$ and $n_2$ are taken from the two populations and the number of students wearing glasses is found to be $x_1$ and $x_2$ respectively. Suggest an unbiased estimate of $P_1 - P_2$ and obtain its sampling distribution when $n_1$ and $n_2$ are large. Hence, explain how to test the hypothesis $H_0 : P_1 = P_2$.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Twenty people were attacked by a disease and only 18 survived. Will you reject the hypothesis that the survival rate, if attacked by this disease, is 85\\% in favor of the hypothesis that it is more, at 5\\% level of significance? (Use large sample test; the tabulated $Z$ value in a one-tailed test is 1.645).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Explain stating clearly the assumptions involved in the $t$-test for testing the significance of the difference between two means. Find the value of the $t$-statistic in a sample of size eight: $-4$, $-2$, $-2$, $0$, $2$, $2$, $3$, $3$, taking the mean of the universe to be zero. How would you proceed further to test at 5\\% level of significance? (Given $t_{0.05, 7} = 2.365$).",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Discuss the $F$-distribution along with its applications.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "State the Weak Law of Large Numbers (WLLN). Examine whether the WLLN holds or not for the sequence $\\{X_n\\}$ of independent random variables defined as follows: \\[ P(X_n = 2^n) = 2^{-2n-1}, \\quad P(X_n = -2^n) = 2^{-2n-1}, \\quad P(X_n = 0) = 1 - 2^{-2n} \\]",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Write the statement of the Central Limit Theorem (CLT) for the i.i.d. case. Also explain its utility.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Define order statistics. What are the cumulative distribution functions of the smallest and largest order statistics? Also, obtain the probability density function of the $r$-th order statistic.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Discuss the applications of non-parametric tests, along with their advantages and disadvantages. Also, explain the Run test.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       }
     ]
   },
@@ -5964,156 +8723,307 @@ export const EXAMS = {
     "module": "STAMJ42",
     "duration": 60,
     "type": "theory",
+    "comingSoon": false,
     "questions": [
       {
         "id": 1,
         "unit": "I",
-        "question": "What is sampling? Distinguish between sampling and non-sampling errors. How can non-sampling errors be controlled?",
-        "answerKey": "1. **Sampling**: The process of selecting a representative subset of individuals from a population to estimate population characteristics.\n2. **Sampling Error**: The error that arises due to drawing a sample instead of conducting a census. It is inherent in any sampling design and can be reduced by increasing the sample size.\n3. **Non-Sampling Error**: The error that arises during data collection, editing, coding, or non-response. It can occur in both sample surveys and censuses.\n4. **Control of Non-Sampling Errors**: Can be controlled by training enumerators, designing clear questionnaires, follow-up on non-responses, and statistical adjustment."
+        "question": "Distinguish between sampling and census methods of data collection.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 2,
         "unit": "I",
-        "question": "Derive the formula for determining the minimum sample size $n$ under simple random sampling without replacement (SRSWOR) for estimating the population mean $\\bar{Y}$ within a margin of error $d$ with confidence level $1-\\alpha$.",
-        "answerKey": "1. We want the estimate $\\bar{y}$ to satisfy $P(|\\bar{y} - \\bar{Y}| \\le d) = 1-\\alpha$.\n2. Since $\\bar{y} \\dot{\\sim} N(\\bar{Y}, V(\\bar{y}))$, we set $z_{\\alpha/2} \\sqrt{V(\\bar{y})} = d$.\n3. Under SRSWOR, $V(\\bar{y}) = \\left(\\frac{1}{n} - \\frac{1}{N}\\right) S^2$. So:\n$$z_{\\alpha/2} \\sqrt{\\left(\\frac{1}{n} - \\frac{1}{N}\\right) S^2} = d \\implies \\left(\\frac{1}{n} - \\frac{1}{N}\\right) S^2 = \\frac{d^2}{z_{\\alpha/2}^2}.$$\n4. Let $n_0 = \\frac{z_{\\alpha/2}^2 S^2}{d^2}$. Then $\\frac{1}{n} - \\frac{1}{N} = \\frac{1}{n_0} \\implies \\frac{1}{n} = \\frac{1}{n_0} + \\frac{1}{N} \\implies n = \\frac{n_0}{1 + \\frac{n_0}{N}}$.\nThis is the required sample size."
+        "question": "In the case of simple random sampling without replacement (SRSWOR), prove that the probability of selecting any specified unit in the sample at any draw is $n/N$, where $N$ is the population size and $n$ is the size of the sample drawn.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
       },
       {
         "id": 3,
         "unit": "I",
-        "question": "For a population of size $N=430$, we know that $\\bar{Y}=19$ and $S^2 = 85.6$. Under Simple Random Sampling, what should be the sample size to estimate the population mean with a margin of error of 10% of $\\bar{Y}$ at a 95% confidence level? (Given $z_{0.05} = 1.96$)",
-        "answerKey": "1. **Parameters**: $N = 430$, $\\bar{Y} = 19$, $S^2 = 85.6$.\n2. **Margin of Error**: $d = 10\\% \\text{ of } \\bar{Y} = 0.10 \\times 19 = 1.9$.\n3. **Initial Sample Size** ($n_0$):\n$$n_0 = \\frac{z^2 S^2}{d^2} = \\frac{(1.96)^2 \\times 85.6}{(1.9)^2} = \\frac{3.8416 \\times 85.6}{3.61} \\approx 91.09.$$\n4. **Finite Population Correction** ($n$):\n$$n = \\frac{n_0}{1 + \\frac{n_0}{N}} = \\frac{91.09}{1 + \\frac{91.09}{430}} = \\frac{91.09}{1.2118} \\approx 75.17 \\approx 75.$$\nThus, the required sample size is 75."
+        "question": "In usual notations, prove that in the case of SRSWOR, the variance of the sample mean is given by: \\[ Var(\\bar{y}_n) = \\frac{N-n}{Nn} S^2 \\]",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 4,
         "unit": "I",
-        "question": "Consider a population of 6 units with values $\\{1, 2, 3, 4, 5, 6\\}$. Write down all possible samples of size 2 under SRSWOR. Show that the sample mean is an unbiased estimator of the population mean, and calculate its sampling variance.",
-        "answerKey": "1. **Population**: $\\{1, 2, 3, 4, 5, 6\\}$, $N=6$, population mean $\\bar{Y} = 3.5$.\n2. **SRSWOR Samples** of size $n=2$: There are $\\binom{6}{2} = 15$ possible samples:\n- $\\{1,2\\} (\\bar{y}=1.5)$, $\\{1,3\\} (\\bar{y}=2.0)$, $\\{1,4\\} (\\bar{y}=2.5)$, $\\{1,5\\} (\\bar{y}=3.0)$, $\\{1,6\\} (\\bar{y}=3.5)$\n- $\\{2,3\\} (\\bar{y}=2.5)$, $\\{2,4\\} (\\bar{y}=3.0)$, $\\{2,5\\} (\\bar{y}=3.5)$, $\\{2,6\\} (\\bar{y}=4.0)$\n- $\\{3,4\\} (\\bar{y}=3.5)$, $\\{3,5\\} (\\bar{y}=4.0)$, $\\{3,6\\} (\\bar{y}=4.5)$\n- $\\{4,5\\} (\\bar{y}=4.5)$, $\\{4,6\\} (\\bar{y}=5.0)$\n- $\\{5,6\\} (\\bar{y}=5.5)$\n3. **Unbiasedness**: The sum of all 15 sample means is $1.5 + 2 + 2.5 \\times 2 + 3 \\times 2 + 3.5 \\times 3 + 4 \\times 2 + 4.5 \\times 2 + 5 + 5.5 = 52.5$.\n- $E(\\bar{y}) = \\frac{52.5}{15} = 3.5 = \\bar{Y}$. (Unbiased)\n4. **Variance**: Calculated as $V(\\bar{y}) = \\frac{1}{15}\\sum (\\bar{y}_i - 3.5)^2 = 1.167$.\n- Theoretical: $S^2 = \\frac{1}{5}\\sum (Y_i - 3.5)^2 = 3.5$. $V(\\bar{y}) = \\left(1-\\frac{2}{6}\\right)\\frac{3.5}{2} = \\frac{2}{3} \\times 1.75 = 1.167$. (Matches!)"
+        "question": "If $\\bar{y}_n$ is the sample mean of a random sample of size $n$ drawn from a population of size $N$ by the method of SRSWOR, prove that it is an unbiased estimator of the population mean, i.e., \\[ E(\\bar{y}_n) = \\bar{Y}_N \\]",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 5,
         "unit": "I",
-        "question": "Define simple random sampling with replacement (SRSWR) and without replacement (SRSWOR). Show that $V(\\bar{y})_{\\text{WOR}} \\le V(\\bar{y})_{\\text{WR}}$.",
-        "answerKey": "1. **SRSWR**: Units are drawn one by one, and each drawn unit is replaced back in the population before the next draw. A unit can appear multiple times in the sample.\n2. **SRSWOR**: Units are drawn one by one and not replaced back. All units in the sample are distinct.\n3. **Variance Comparison**: Let $S^2 = \\frac{1}{N-1}\\sum (Y_i - \\bar{Y})^2$ and $\\sigma^2 = \\frac{1}{N}\\sum (Y_i - \\bar{Y})^2$.\n- $V(\\bar{y})_{\\text{WR}} = \\frac{\\sigma^2}{n} = \\frac{N-1}{N} \\frac{S^2}{n}$.\n- $V(\\bar{y})_{\\text{WOR}} = \\left(1 - \\frac{n}{N}\\right) \\frac{S^2}{n}$.\n- Difference: $V(\\bar{y})_{\\text{WR}} - V(\\bar{y})_{\\text{WOR}} = \\frac{S^2}{n} \\left[ \\frac{N-1}{N} - \\left(1 - \\frac{n}{N}\\right) \\right] = \\frac{S^2}{n} \\left[ 1 - \\frac{1}{N} - 1 + \\frac{n}{N} \\right] = \\frac{S^2}{n} \\left( \\frac{n-1}{N} \\right) \\ge 0$ since $n \\ge 1$.\nThus $V(\\bar{y})_{\\text{WOR}} \\le V(\\bar{y})_{\\text{WR}}$."
+        "question": "Show that $E(s^2) = \\sigma^2$ for SRSWR and $E(s^2) = S^2$ for SRSWOR, where $\\sigma^2$ denotes the population variance.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 6,
-        "unit": "II",
-        "question": "What is stratified random sampling? Describe the Proportional Allocation scheme and derive the variance of the stratified sample mean under Proportional Allocation.",
-        "answerKey": "1. **Stratification**: Dividing a heterogeneous population of size $N$ into $k$ homogeneous subgroups (strata) of sizes $N_1, \\ldots, N_k$, and drawing an SRS from each stratum.\n2. **Proportional Allocation**: The sample size $n_i$ in the $i$-th stratum is proportional to the size of the stratum $N_i$:\n$$n_i = n \\frac{N_i}{N} = n W_i.$$\n3. **Variance**: The stratified sample mean is $\\bar{y}_{\\text{st}} = \\sum W_i \\bar{y}_i$.\n$$V(\\bar{y}_{\\text{st}}) = \\sum W_i^2 V(\\bar{y}_i) = \\sum W_i^2 \\left( \\frac{1}{n_i} - \\frac{1}{N_i} \\right) S_i^2.$$\nSubstituting $n_i = n W_i$:\n$$V(\\bar{y}_{\\text{st}})_{\\text{prop}} = \\sum W_i^2 \\left( \\frac{1}{nW_i} - \\frac{1}{N_i} \\right) S_i^2 = \\frac{1}{n} \\sum W_i S_i^2 - \\frac{1}{N} \\sum W_i S_i^2 = \\left(\\frac{1}{n} - \\frac{1}{N}\\right) \\sum W_i S_i^2.$$"
+        "unit": "I",
+        "question": "Discuss the methods of sample size determination using a pre-specified margin of error and standard error of an estimator.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 7,
-        "unit": "II",
-        "question": "Explain the Neyman (Optimum) Allocation method in stratified random sampling. Show how it minimizes the variance of the stratified sample mean for a fixed sample size $n$.",
-        "answerKey": "1. **Neyman Allocation**: Minimizes $V(\\bar{y}_{\\text{st}})$ subject to the constraint $\\sum n_i = n$.\n2. **Objective Function**: $V(\\bar{y}_{\\text{st}}) = \\sum W_i^2 \\left(\\frac{1}{n_i} - \\frac{1}{N_i}\\right) S_i^2$. Minimizing this is equivalent to minimizing $\\sum \\frac{W_i^2 S_i^2}{n_i}$.\n3. **Lagrangian**: $L(n_1, \\ldots, n_k, \\lambda) = \\sum \\frac{W_i^2 S_i^2}{n_i} + \\lambda (\\sum n_i - n)$.\n4. **Differentiation**: $\\frac{\\partial L}{\\partial n_i} = -\\frac{W_i^2 S_i^2}{n_i^2} + \\lambda = 0 \\implies n_i = \\frac{W_i S_i}{\\sqrt{\\lambda}}$.\n5. **Summing**: $\\sum n_i = n \\implies \\frac{1}{\\sqrt{\\lambda}} = \\frac{n}{\\sum W_j S_j}$.\n6. **Allocation**: $n_i = n \\frac{W_i S_i}{\\sum W_j S_j} = n \\frac{N_i S_i}{\\sum N_j S_j}$.\n7. **Minimum Variance**: Substituting $n_i$ back into the variance formula yields:\n$$V(\\bar{y}_{\\text{st}})_{\\text{opt}} = \\frac{1}{n} \\left( \\sum W_i S_i \\right)^2 - \\frac{1}{N} \\sum W_i S_i^2.$$"
+        "unit": "I",
+        "question": "How do you select samples using systematic sampling and cluster sampling procedures? Are these designs better than SRSWOR? State the unbiased estimator of the population mean for both sampling designs.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 8,
-        "unit": "II",
-        "question": "A stratified population has three strata with the following characteristics:\n- Stratum I: $N_1 = 161, S_1 = 2236$\n- Stratum II: $N_2 = 195, S_2 = 2614$\n- Stratum III: $N_3 = 274, S_3 = 606$\n- Stratum IV: $N_4 = 382, S_4 = 230$\nIf a sample of size $n=90$ is to be selected, compute the required sample sizes for each stratum under proportional allocation.",
-        "answerKey": "1. **Total Population Size** ($N$): $N = N_1+N_2+N_3+N_4 = 161+195+274+382 = 1012$.\n2. **Proportional Allocation Formula**: $n_i = n \\frac{N_i}{N}$.\n- $n_1 = 90 \\times \\frac{161}{1012} = 14.31 \\approx 14$\n- $n_2 = 90 \\times \\frac{195}{1012} = 17.34 \\approx 17$\n- $n_3 = 90 \\times \\frac{274}{1012} = 24.37 \\approx 24$\n- $n_4 = 90 \\times \\frac{382}{1012} = 33.97 \\approx 35$.\nAdjusting to sum to 90: $n_1 = 14, n_2 = 17, n_3 = 24, n_4 = 35$ (sum is 90)."
+        "unit": "I",
+        "question": "Explain how you utilize auxiliary information to improve the estimation of population parameters. Discuss ratio and regression estimation for the population mean.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 9,
-        "unit": "II",
-        "question": "A stratified random sample is to be taken. The cost function is $C = C_0 + \\sum c_i n_i$. For two strata, the parameters are: $W_1 = 0.4, S_1 = 10, c_1 = 4$ and $W_2 = 0.6, S_2 = 20, c_2 = 9$. Find the values of $n_1/n$ and $n_2/n$ that minimize the cost for a given variance $V(\\bar{y}_{\\text{st}})$.",
-        "answerKey": "1. **Cost-Optimum Allocation**: Under stratified sampling with a cost function, the sample size in each stratum is allocated as $n_i \\propto \\frac{W_i S_i}{\\sqrt{c_i}}$.\n2. **Calculate Ratios**:\n- For Stratum 1: $W_1 S_1 / \\sqrt{c_1} = (0.4 \\times 10) / \\sqrt{4} = 4 / 2 = 2$.\n- For Stratum 2: $W_2 S_2 / \\sqrt{c_2} = (0.6 \\times 20) / \\sqrt{9} = 12 / 3 = 4$.\n3. **Sum of Ratios**: $2 + 4 = 6$.\n4. **Fractional Ratios**:\n- $n_1 / n = 2 / 6 = 1/3 \\approx 0.333$.\n- $n_2 / n = 4 / 6 = 2/3 \\approx 0.667$.\nThus, 1/3rd of the sample is allocated to Stratum 1 and 2/3rds to Stratum 2."
+        "unit": "I",
+        "question": "Distinguish between sampling and complete cuumeration with examples What steps should be followed in a sample survey.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 10,
-        "unit": "III",
-        "question": "Describe the design and implementation of Systematic Sampling. Discuss its main advantages, disadvantages, and real-life examples.",
-        "answerKey": "1. **Systematic Sampling**: A method where we select one unit at random from the first $k$ units in the population, and then select every $k$-th unit thereafter, where $k = N/n$ is the sampling interval.\n2. **Advantages**: (i) Simpler to draw in the field than SRS. (ii) Distributes the sample evenly over the population. (iii) Highly cost-effective.\n3. **Disadvantages**: (i) If the population has periodic features matching the interval $k$, the sample can be biased. (ii) No single-sample formula for estimating the variance exists without making assumptions.\n4. **Example**: Selecting every 10th house on a street, or inspecting every 50th item on an assembly line."
+        "unit": "I",
+        "question": "A population consists of five units 10, 25, 30. 35 and 45, Give all possib'e samples of size 2 that can be drawn using SRSWR and show that the sample mean is and unbiased estimator of population mean.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 11,
-        "unit": "III",
-        "question": "Obtain the algebraic expression for the variance of the estimated mean under systematic sampling in terms of the intra-class correlation coefficient $\\rho$ between units of the same systematic sample.",
-        "answerKey": "1. The population of size $N = nk$ is split into $k$ systematic samples. The mean of the $i$-th systematic sample is $\\bar{y}_{i\\cdot}$.\n2. The variance of the systematic sample mean is:\n$$V(\\bar{y}_{\\text{sys}}) = \\frac{1}{k}\\sum_{i=1}^k (\\bar{y}_{i\\cdot} - \\bar{Y})^2.$$\n3. By expanding this and using the definition of the intra-class correlation coefficient:\n$$\\rho = \\frac{\\sum_{i=1}^k \\sum_{j \\neq l} (y_{ij} - \\bar{Y})(y_{il} - \\bar{Y})}{(n-1)\\sum_{i=1}^k \\sum_{j=1}^n (y_{ij} - \\bar{Y})^2}$$\nwe obtain the relation:\n$$V(\\bar{y}_{\\text{sys}}) = \\frac{S^2}{n} \\left[ \\frac{N-1}{N} \\right] [1 + (n-1)\\rho]$$\nwhere $S^2$ is the population mean square."
+        "unit": "II",
+        "question": "Prove that the probability of selecting a particular unit ef the population is same for each draw in SRSWOR scheme. Also show that the sample mean square is an unbiased estimator of population mean square in SRSWOR.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
       },
       {
         "id": 12,
-        "unit": "III",
-        "question": "Compare the relative efficiency of simple random sampling, stratified random sampling with proportional allocation, and systematic sampling for a population with a linear trend. Write the inequality relating their variances.",
-        "answerKey": "1. If the population exhibits a linear trend (e.g. $y_i = i$), the units are ordered.\n2. **Stratified Sampling** with proportional allocation is more efficient than SRS because it captures the variation between strata.\n3. **Systematic Sampling** is more efficient than stratified sampling because it spreads the sample units even more uniformly across the range.\n4. The variances satisfy the inequality:\n$$V(\\bar{y}_{\\text{st}})_{\\text{opt}} \\le V(\\bar{y}_{\\text{st}})_{\\text{prop}} \\approx V(\\bar{y}_{\\text{sys}}) \\le V(\\bar{y})_{\\text{SRS}}.$$\nFor a strict linear trend, $V(\\bar{y}_{\\text{sys}}) \\approx \\frac{1}{n} V(\\bar{y}_{\\text{st}})_{\\text{prop}}$, making systematic sampling highly efficient."
+        "unit": "II",
+        "question": "Describe simple random sampling of attribute. Find out the sampling variance of the unbiased estimator of population proportion in SRSWOR.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 13,
-        "unit": "III",
-        "question": "Explain the Ratio Method of Estimation. State the ratio estimator for the population mean and derive its first-order Mean Square Error (MSE).",
-        "answerKey": "1. **Ratio Estimator**: Used when a auxiliary variable $X$ is positively correlated with the study variable $Y$ and its population mean $\\bar{X}$ is known.\n2. **Estimator**: $\\bar{y}_R = \\frac{\\bar{y}}{\\bar{x}} \\bar{X} = R \\bar{X}$ where $R = \\frac{\\bar{Y}}{\\bar{X}}$.\n3. **Derivation of MSE**: Let $e_0 = \\frac{\\bar{y} - \\bar{Y}}{\\bar{Y}}$ and $e_1 = \\frac{\\bar{x} - \\bar{X}}{\\bar{X}}$. Then $E(e_0) = E(e_1) = 0$, $E(e_0^2) = V(\\bar{y})/\\bar{Y}^2$, $E(e_1^2) = V(\\bar{x})/\\bar{X}^2$, and $E(e_0 e_1) = \\text{Cov}(\\bar{x}, \\bar{y})/(\\bar{X}\\bar{Y})$.\n- Expressing $\\bar{y}_R$ in terms of $e_0$ and $e_1$:\n$$\\bar{y}_R = \\bar{Y}(1+e_0)(1+e_1)^{-1} \\approx \\bar{Y}(1 + e_0 - e_1 + e_1^2 - e_0 e_1).$$\n- MSE to first order approximation:\n$$\\text{MSE}(\\bar{y}_R) \\approx E(\\bar{y}_R - \\bar{Y})^2 \\approx \\bar{Y}^2 E(e_0 - e_1)^2 = \\bar{Y}^2 \\left( E(e_0^2) + E(e_1^2) - 2E(e_0 e_1) \\right)$$\n$$\\text{MSE}(\\bar{y}_R) \\approx \\left(\\frac{1-f}{n}\\right) \\left[ S_y^2 + R^2 S_x^2 - 2R \\rho S_x S_y \\right].$$"
+        "unit": "II",
+        "question": "Define an unbiased estimator of population mean in stratified random sampling anc obtain its sampling variance under proportional allocation.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 14,
-        "unit": "III",
-        "question": "Explain the Regression Method of Estimation. Derive the linear regression estimator for the population mean and write down its first-order variance.",
-        "answerKey": "1. **Regression Estimator**: Used when the relationship between $Y$ and the auxiliary variable $X$ is linear and the regression line does not necessarily pass through the origin.\n2. **Estimator**: $\\bar{y}_{lr} = \\bar{y} + \\beta(\\bar{X} - \\bar{x})$, where $\\beta$ is the population regression coefficient.\n3. **Variance**: Under SRSWOR, the variance to first order is:\n$$V(\\bar{y}_{lr}) \\approx \\left(\\frac{1-f}{n}\\right) S_y^2 (1 - \\rho^2)$$\nwhere $\\rho$ is the correlation coefficient between $Y$ and $X$. Since $(1 - \\rho^2) \\le 1$, the regression estimator is always more efficient than the simple mean estimator."
+        "unit": "II",
+        "question": "Explain the purpose of stratification in sample surveys. Show that the estimator of population mean under propertional allocation provides better estimate than simple random sampling.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 15,
-        "unit": "III",
-        "question": "Compare the linear regression estimator with the ratio estimator of the population mean. Show mathematically that the regression estimator is always more efficient than or equal to the ratio estimator.",
-        "answerKey": "1. **MSE of Ratio Estimator**:\n$$\\text{MSE}(\\bar{y}_R) \\approx \\frac{1-f}{n} \\left( S_y^2 + R^2 S_x^2 - 2R \\rho S_x S_y \\right)$$\n2. **Variance of Regression Estimator**:\n$$V(\\bar{y}_{lr}) \\approx \\frac{1-f}{n} S_y^2 (1 - \\rho^2)$$\n3. **Difference**:\n$$\\text{MSE}(\\bar{y}_R) - V(\\bar{y}_{lr}) \\approx \\frac{1-f}{n} \\left( S_y^2 + R^2 S_x^2 - 2R \\rho S_x S_y - S_y^2 + \\rho^2 S_y^2 \\right)$$\n$$= \\frac{1-f}{n} \\left( R^2 S_x^2 - 2R \\rho S_x S_y + \\rho^2 S_y^2 \\right) = \\frac{1-f}{n} \\left( R S_x - \\rho S_y \\right)^2 \\ge 0.$$\n4. **Conclusion**: Since the difference is a squared term multiplied by a positive constant, $\\text{MSE}(\\bar{y}_R) \\ge V(\\bar{y}_{lr})$. They are equal only when $R = \\rho \\frac{S_y}{S_x} = \\beta$, which means the regression line of $Y$ on $X$ passes through the origin."
+        "unit": "II",
+        "question": "Describe systematic sampling and its utility. Compare the efficiency of systematic sampling with that of simple random sampling.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 16,
-        "unit": "III",
-        "question": "An SRSWOR sample of 8 states was drawn to estimate average real estate farm loans ($Y$) from a population where the true population average of non-real estate loans is $\\bar{X} = 878.16$. The sample data are:\n- $X$: [3928.73, 540.70, 405.80, 549.55, 274.04, 298.35, 3520.36, 19.36]\n- $Y$: [1343.46, 939.46, 282.57, 627.01, 140.58, 756.17, 1248.76, 57.75]\nEstimate the average real estate loans $\\bar{Y}$ using the ratio method.",
-        "answerKey": "1. **Calculate Sample Means**:\n- $\\bar{x} = \\frac{3928.73 + 540.70 + 405.80 + 549.55 + 274.04 + 298.35 + 3520.36 + 19.36}{8} = \\frac{9536.89}{8} = 1192.11$.\n- $\\bar{y} = \\frac{1343.46 + 939.46 + 282.57 + 627.01 + 140.58 + 756.17 + 1248.76 + 57.75}{8} = \\frac{5395.76}{8} = 674.47$.\n2. **Ratio Estimate**:\n$$\\bar{y}_R = \\frac{\\bar{y}}{\\bar{x}} \\bar{X} = \\frac{674.47}{1192.11} \\times 878.16 = 0.56577 \\times 878.16 \\approx 496.84.$$\nThus, the estimated average real estate farm loan is $\\approx \\$496.84$ thousand."
+        "unit": "II",
+        "question": "What is cluster sampling?Compare the relative efficiency of cluster sampling with that of simple random sampling.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 17,
-        "unit": "IV",
-        "question": "What is Analysis of Variance (ANOVA)? Mention the basic assumptions underlying the ANOVA F-test.",
-        "answerKey": "1. **ANOVA**: A statistical method developed by R.A. Fisher that partitions the total variation observed in a dataset into components attributable to different sources of variation.\n2. **Assumptions**:\n- **Normality**: The experimental errors are normally distributed.\n- **Independence**: The observations and errors are independent.\n- **Homoscedasticity**: The variances of the errors in different groups are equal (homogeneity of variances).\n- **Additivity**: The effects of different factors (e.g. treatments, blocks) are additive."
+        "unit": "II",
+        "question": "Derive the expression of the situation for which ratio estimator is preferred over the sample mean estimator. If coefficients of variation of study and auxiliary variables are Cy = 0.02 and C, =0.01 respectively. Suggest the appropriate estimator for estimating the population mean of study variable, where the correlation coefficient between study and auxiliary variables is p = 0.8.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 18,
-        "unit": "IV",
-        "question": "Describe the Analysis of Variance (ANOVA) technique for a fixed-effect model for one-way classified data. Show the partition of total sum of squares and set up the ANOVA table.",
-        "answerKey": "1. **Mathematical Model**: $y_{ij} = \\mu + \\alpha_i + e_{ij}$, where $\\mu$ is the general mean, $\\alpha_i$ is the effect of $i$-th treatment, and $e_{ij} \\sim N(0, \\sigma^2)$ is the random error.\n2. **Partition of Sum of Squares**: $\\text{TSS} = \\text{SST} + \\text{SSE}$, where:\n- Total Sum of Squares: $\\text{TSS} = \\sum_{i} \\sum_{j} (y_{ij} - \\bar{y}_{\\cdot\\cdot})^2$\n- Treatment Sum of Squares: $\\text{SST} = \\sum_{i} n_i (\\bar{y}_{i\\cdot} - \\bar{y}_{\\cdot\\cdot})^2$\n- Error Sum of Squares: $\\text{SSE} = \\sum_{i} \\sum_{j} (y_{ij} - \\bar{y}_{i\\cdot})^2$\n3. **ANOVA Table**:\n| Source | d.f. | Sum of Squares | Mean Square | F-ratio |\n| --- | --- | --- | --- | --- |\n| Treatments | $k-1$ | SST | MST = SST/($k-1$) | MST/MSE |\n| Error | $N-k$ | SSE | MSE = SSE/($N-k$) | |\n| Total | $N-1$ | TSS | | |"
+        "unit": "II",
+        "question": "Describe the regression method of estimation. Find out the mean square etror of the regression estimator of population mean and compare it with that of product estimator.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 19,
-        "unit": "IV",
-        "question": "Describe the Analysis of Variance (ANOVA) technique for a fixed-effect model for two-way classified data with one observation per cell. Derive the sum of squares and set up the ANOVA table.",
-        "answerKey": "1. **Mathematical Model**: $y_{ij} = \\mu + \\alpha_i + \\beta_j + e_{ij}$ for $i=1,\\ldots,p$ (rows/blocks) and $j=1,\\ldots,q$ (columns/treatments), with $e_{ij} \\sim N(0, \\sigma^2)$ independent.\n2. **Partition of Sum of Squares**: $\\text{TSS} = \\text{SSR} + \\text{SSC} + \\text{SSE}$:\n- $\\text{TSS} = \\sum \\sum (y_{ij} - \\bar{y}_{\\cdot\\cdot})^2$\n- Row Sum of Squares: $\\text{SSR} = q \\sum (\\bar{y}_{i\\cdot} - \\bar{y}_{\\cdot\\cdot})^2$\n- Column Sum of Squares: $\\text{SSC} = p \\sum (\\bar{y}_{\\cdot j} - \\bar{y}_{\\cdot\\cdot})^2$\n- Error Sum of Squares: $\\text{SSE} = \\text{TSS} - \\text{SSR} - \\text{SSC}$.\n3. **ANOVA Table**:\n| Source | d.f. | Sum of Squares | Mean Square | F-ratio |\n| --- | --- | --- | --- | --- |\n| Rows (Blocks) | $p-1$ | SSR | MSR = SSR/($p-1$) | MSR/MSE |\n| Columns (Treatments) | $q-1$ | SSC | MSC = SSC/($q-1$) | MSC/MSE |\n| Error | $(p-1)(q-1)$ | SSE | MSE = SSE/d.f. | |\n| Total | $pq-1$ | TSS | | |"
+        "unit": "II",
+        "question": "What is analysis of variance?Describe it with a suitable example.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 20,
-        "unit": "IV",
-        "question": "The final marks of students in three sections of a statistics course are:\n- 8-o'clock: [121, 117, 145, 108, 142, 154, 115, 81, 122, 127, 122] ($n_1=11$, sum=1334)\n- 10-o'clock: [97, 145, 119, 189, 143, 133, 149, 107, 154] ($n_2=9$, sum=1236)\n- 2-o'clock: [134, 89, 108, 88, 146, 153, 130, 144, 125, 111, 87, 162] ($n_3=12$, sum=1487)\nTest if there is a significant difference in scores across the sections at 5% significance level. (Given $F_{0.05, 2, 29} = 3.33$)",
-        "answerKey": "1. **Hypotheses**: $H_0: \\mu_1 = \\mu_2 = \\mu_3$ vs $H_1$: At least one mean is different.\n2. **Calculations**: Grand total $G = 1334 + 1236 + 1487 = 4057$. $N = 32$.\n- Correction Factor: $\\text{CF} = G^2/N = 4057^2 / 32 = 514351.53$.\n- Raw sum of squares: $\\sum y_{ij}^2 = 1334^2/11 + 1236^2/9 + 1487^2/12$ is treatment sum of squares: \n$\\text{SST} = (161766.91 + 169744 + 184260.08) - \\text{CF} = 515770.99 - 514351.53 = 1419.46$.\n- Total Sum of Squares: $\\sum \\sum y_{ij}^2 - \\text{CF} = 536483 - 514351.53 = 22131.47$.\n- Error Sum of Squares: $\\text{SSE} = \\text{TSS} - \\text{SST} = 22131.47 - 1419.46 = 20712.01$.\n3. **ANOVA Table**:\n- MST = $1419.46 / 2 = 709.73$.\n- MSE = $20712.01 / 29 = 714.21$.\n- $F = \\frac{\\text{MST}}{\\text{MSE}} = 0.994$.\n4. **Conclusion**: Since calculated $F = 0.994 < F_{0.05, 2, 29} \\approx 3.33$, we fail to reject $H_0$. The section scores do not differ significantly."
+        "unit": "II",
+        "question": "Work out the analysis of variance for two-way classified data with one observation per cell, giving its model and complete analysis.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 21,
-        "unit": "V",
-        "question": "Explain the three fundamental principles of experimental design: Randomization, Replication, and Local Control.",
-        "answerKey": "1. **Randomization**: The random allocation of treatments to experimental units. It ensures that every treatment has an equal chance of being assigned to any unit, eliminating systematic bias and making statistical tests valid.\n2. **Replication**: The repetition of the treatments on more than one experimental unit. It provides an estimate of the experimental error variance and increases the precision of treatment mean estimates.\n3. **Local Control (Blocking)**: Grouping heterogeneous experimental units into homogeneous blocks and allocating treatments within each block. It reduces the experimental error by eliminating the variation between blocks from the error sum of squares."
+        "unit": "III",
+        "question": "Explain the purpose of design of experiments. Describe the following fundamenta! Principles:",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 22,
-        "unit": "V",
-        "question": "Describe the layout, statistical model, and analysis of a Completely Randomized Design (CRD). List its advantages and disadvantages.",
-        "answerKey": "1. **Layout**: Treatments are assigned to units completely at random. Useful for highly homogeneous materials (e.g. laboratory work).\n2. **Statistical Model**: $y_{ij} = \\mu + \\tau_i + e_{ij}$ where $e_{ij} \\sim N(0, \\sigma^2)$ is error.\n3. **Analysis**: Uses one-way ANOVA.\n4. **Advantages**: (i) Maximum flexibility in number of treatments and replications. (ii) Simple analysis even with missing observations. (iii) Provides maximum degrees of freedom for error.\n5. **Disadvantages**: (i) Low precision if units are heterogeneous. (ii) No local control."
+        "unit": "III",
+        "question": "Randomization, (i) Replication and (iii) Loca! control.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 23,
-        "unit": "V",
-        "question": "Describe the layout, statistical model, and analysis of a Randomized Block Design (RBD). Explain why it is usually more efficient than CRD.",
-        "answerKey": "1. **Layout**: Units are grouped into $r$ homogeneous blocks. Each block contains all $t$ treatments assigned at random. Local control is applied in one direction.\n2. **Statistical Model**: $y_{ij} = \\mu + \\tau_i + \\beta_j + e_{ij}$ where $\\tau_i$ is treatment effect, $\\beta_j$ is block effect, and $e_{ij} \\sim N(0, \\sigma^2)$.\n3. **Analysis**: Uses two-way ANOVA without interaction.\n4. **Efficiency**: By blocking, the variation among blocks is removed from the experimental error (SSE). Since the error variance is smaller, the F-test for treatments is more powerful, making RBD more efficient than CRD for heterogeneous fields."
+        "unit": "III",
+        "question": "Give layout and complete statistical analysis of completely randomized design. What are the advantages and disadvantages of this design?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 24,
-        "unit": "V",
-        "question": "Discuss the Latin Square Design (LSD). Write down its statistical model, layout requirements, and show the ANOVA table. Mention its advantages and disadvantages.",
-        "answerKey": "1. **Layout**: Used when two sources of variation (rows and columns) are present. Number of rows, columns, and treatments must be equal ($m$). Each treatment appears exactly once in each row and column.\n2. **Statistical Model**: $y_{ijk} = \\mu + \\alpha_i + \\beta_j + \\tau_k + e_{ijk}$, where $\\alpha_i$ is row effect, $\\beta_j$ is column effect, $\\tau_k$ is treatment effect, and $e_{ijk} \\sim N(0, \\sigma^2)$.\n3. **ANOVA Table**:\n- Rows: d.f. $= m-1$\n- Columns: d.f. $= m-1$\n- Treatments: d.f. $= m-1$\n- Error: d.f. $= (m-1)(m-2)$\n- Total: d.f. $= m^2-1$\n4. **Advantages**: Controls variation in two orthogonal directions, reducing error variance.\n5. **Disadvantages**: (i) Restricted to $m \\times m$ squares (usually $5 \\le m \\le 8$ or $10$). (ii) Missing plots are complex to analyze."
+        "unit": "III",
+        "question": "Basic principles of sample survey",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 25,
+        "unit": "III",
+        "question": "Sampling and non-sampling errors",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Product method of estimation",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "The households in a town are to be sampled in order to estimate the average amount of assets per household. The households are stratified into a high-rent stratum and a low-rent stratum. A household in the high-rent stratum is thought to have about nine times as much assets as one in the low-rent stratum, and the stratum standard deviation $S_h$ is expected to be proportional to the square root of the stratum mean. There are 4,000 households in the high-rent stratum and 20,000 in the low-rent stratum. Distribute a sample of 1,000 households between the two strata using optimum allocation.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "In a stratification with two strata, $W_1 = 0.8$, $W_2 = 0.2$, $S_1 = 2$ and $S_2 = 4$. Compute the sample sizes $n_1$ and $n_2$ (ignoring the finite population correction) if the standard error of the estimated population mean $\\bar{y}_{st}$ is to be $0.1$ and the total sample size $n = n_1 + n_2$ is to be minimized.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Discuss in detail the different types of errors involved in sample surveys.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Consider a population of 6 units with values $1, 2, 3, 4, 5, 6$. List all possible samples of size 2 (without replacement) from this population. Verify that the sample mean is an unbiased estimator of the population mean. Also calculate the sampling variance of the sample mean and verify that: (1) it agrees with the formula for the variance of the sample mean under SRSWOR, and (2) this variance is less than the variance of the sample mean obtained under SRSWR.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "Discuss the process of determination of sample size for obtaining an estimate with a specified coefficient of variation.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Discuss ratio, regression, and product methods of estimation. Mention their relative importance in sampling theory.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Describe the Analysis of Variance (ANOVA) for the fixed-effects model for one-way classified data. Also discuss the use and method of obtaining the critical difference (CD) in this context.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "Mention the advantages and disadvantages of the Completely Randomised Design (CRD), Randomised Block Design (RBD), and Latin Square Design (LSD).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "Explain the procedure of estimating one missing observation in an RBD.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "What are the basic principles of design of experiments? Explain each with a suitable example. Also discuss the layout of a Latin Square Design.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "Describe stratified random sampling. Write its advantages over simple random sampling and give the formula for estimating the population mean.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "simple random sampling over systematic sampling?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "objective sampling over subjective sampling?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "sampling over complete enumeration?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 41,
         "unit": "V",
-        "question": "Explain the mathematical procedure for estimating one missing observation in a Randomized Block Design (RBD) with $r$ blocks and $t$ treatments.",
-        "answerKey": "1. Let $y$ be the missing observation in the $i$-th treatment and $j$-th block.\n2. We minimize the Error Sum of Squares $\\text{SSE} = \\sum_{i} \\sum_{j} (y_{ij} - \\bar{y}_{i\\cdot} - \\bar{y}_{\\cdot j} + \\bar{y}_{\\cdot\\cdot})^2$ with respect to $y$.\n3. Let $R$ be the total of known values in the block containing the missing value, $C$ be the total of known values for the treatment containing the missing value, and $G$ be the grand total of all known values.\n4. Setting $\\frac{\\partial \\text{SSE}}{\\partial y} = 0$ yields the equation:\n$$y = \\frac{r R + t C - G}{(r-1)(t-1)}$$\n5. After inserting the estimated value, we perform ANOVA, but subtract 1 degree of freedom from the Error and Total degrees of freedom."
+        "question": "Factorial experiments",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "$F$-test and its applications",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Cluster sampling and two-stage sampling",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Find the values of $n_1/n$ and $n_2/n$ that minimize the total cost for a given value of $V(\\bar{y}_{st})$.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Find the sample size required, under this optimum allocation, to make $V(\\bar{y}_{st}) = 1$, if fpc is ignored.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Obtain the total field cost.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 47,
+        "unit": "I",
+        "question": "Prove that in SRSWR, the sample mean is an unbiased estimator of population mean.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 48,
+        "unit": "I",
+        "question": "Prove that in SRSWOR, the sample mean is an unbiased estimator of population mean and find its variance.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 49,
+        "unit": "II",
+        "question": "Prove that stratified random sample mean is unbiased, and show that its variance under optimum allocation is less than under proportional.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 50,
+        "unit": "II",
+        "question": "Explain systematic sampling. Prove that systematic sample mean is unbiased.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       }
     ]
   },
@@ -6123,126 +9033,307 @@ export const EXAMS = {
     "module": "STAMJ43",
     "duration": 60,
     "type": "theory",
+    "comingSoon": false,
     "questions": [
       {
         "id": 1,
         "unit": "I",
-        "question": "Define Gross Reproduction Rate (GRR) and Net Reproduction Rate (NRR). Explain how far they can be considered as indices of population growth, and state the demographic interpretation of the exact threshold condition $NRR = 1$.",
-        "answerKey": "1. **Gross Reproduction Rate (GRR)**: The average number of female children born to a cohort of women during their childbearing age, assuming no mortality before the end of the reproductive period:\n$$\\text{GRR} = 5 \\sum_{i} \\text{ASFR}_{i}^{f}$$\nwhere $\\text{ASFR}^f$ is the age-specific fertility rate for female births.\n2. **Net Reproduction Rate (NRR)**: The average number of female children born to a cohort of women, taking into account the mortality of the mothers before reaching the end of the reproductive period:\n$$\\text{NRR} = 5 \\sum_{i} \\text{ASFR}_{i}^{f} \\cdot S_i$$\nwhere $S_i$ is the survival probability of the mother to age group $i$.\n3. **Indices of Population Growth**: GRR is a measure of pure fertility (ideal growth potential), while NRR is a realistic index of population replacement since it accounts for maternal mortality.\n4. **Threshold Condition $NRR = 1$**: If NRR = 1, the population is replacing itself exactly. If NRR > 1, the population is growing. If NRR < 1, the population is declining. A value of NRR = 1 indicates stationary population state in the long run."
+        "question": "Write a note on the structure of Indian statistical system and its function.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 2,
         "unit": "I",
-        "question": "Describe the formulations of the General Fertility Rate (GFR) and the Total Fertility Rate (TFR) with appropriate mathematical formulas. Provide the exact policy interpretation of the specific numerical statement $TFR = 2.1$.",
-        "answerKey": "1. **General Fertility Rate (GFR)**: The ratio of total live births to the mid-year female population in the childbearing age range (usually 15-49 years):\n$$\\text{GFR} = \\frac{\\text{Total Live Births}}{\\text{Mid-year Female Population (15-49)}} \\times 1000$$\n2. **Total Fertility Rate (TFR)**: The sum of age-specific fertility rates (ASFR) for all ages in the childbearing range, representing the average number of children a woman would have in her lifetime:\n$$\\text{TFR} = 5 \\sum_{i=1}^{7} \\text{ASFR}_i = 5 \\sum_{i=1}^{7} \\frac{\\text{Births in age group } i}{\\text{Female population in age group } i}$$\n(assuming 5-year age intervals).\n3. **Policy Interpretation of $TFR = 2.1$**: A TFR of 2.1 is known as the **replacement-level fertility**. It is the average number of children a woman needs to have to keep the population size constant, accounting for the natural sex ratio at birth and infant mortality. A TFR above 2.1 leads to population growth, while below 2.1 leads to population contraction and aging."
+        "question": "Discuss about the framing of an effective questioner with its importance in data collection.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 3,
         "unit": "I",
-        "question": "Define the Crude Death Rate (CDR) and point out its core limitations. Explain clearly the concept of standardized death rates, including both the direct and indirect methods of their computation.",
-        "answerKey": "1. **Crude Death Rate (CDR)**: The total number of deaths per thousand mid-year population in a given year:\n$$\\text{CDR} = \\frac{\\text{Total Deaths}}{\\text{Total Mid-year Population}} \\times 1000$$\n2. **Limitations**: It ignores the age and sex distribution of the population. A population with a high proportion of elderly people will have a high CDR, even if it is healthier than another younger population.\n3. **Standardized Death Rates (SDR)**: Adjusted death rates that eliminate the effect of population composition differences by using a standard population.\n4. **Direct Standardization**:\n$$\\text{SDR}_{\\text{direct}} = \\frac{\\sum m_i P_i^s}{\\sum P_i^s}$$\nwhere $m_i$ is the age-specific death rate of the local population and $P_i^s$ is the age-specific size of the standard population.\n5. **Indirect Standardization**: Used when local age-specific death rates are unreliable:\n$$\\text{SDR}_{\\text{indirect}} = \\text{CDR}_{\\text{local}} \\times \\frac{\\text{Crude Death Rate of Standard Pop}}{\\sum m_i^s P_i / \\sum P_i}$$\nwhere $m_i^s$ is the standard age-specific death rate and $P_i$ is the local population size."
+        "question": "Define various methods of constructing index numbers.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 4,
         "unit": "I",
-        "question": "What are the standard methods of obtaining vital statistics? Detail the key administrative, demographic, and practical uses of vital statistics in national planning.",
-        "answerKey": "1. **Standard Methods**: (i) Civil Registration System (compulsory registration of births, deaths, marriages). (ii) Census (decennial complete population survey). (iii) Sample Registration System (SRS - dual record system combining continuous registration and retrospective survey). (iv) Demographic Sample Surveys (e.g. NFHS).\n2. **Administrative Uses**: For proving citizenship, legal identity, inheritance, and age-related rights (schooling, retirement).\n3. **Demographic Uses**: For measuring population dynamics, fertility, mortality, migration, and constructing life tables.\n4. **National Planning**: Essential for health planning (epidemiology, maternal care), educational planning (school construction), housing, infrastructure development, and targeting social welfare programs."
+        "question": "Construct the wholesale price index number for 2019 and 2020 from the data given below using 2018 as the base year. - Commodity [A B Cc D el oe ee 2018 | 140 120 100 15, 9502 |: 2019 160 - 130 105 =| 80 270 [2020 190 | 140 108 | - 90 300 |",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 5,
         "unit": "I",
-        "question": "What do you understand by a life table? State clearly the fundamental assumptions underlying a standard life table, and outline its primary applications.",
-        "answerKey": "1. **Life Table**: A mathematical model that depicts the lifetime and mortality history of a hypothetical cohort of individuals as they pass from birth to death.\n2. **Fundamental Assumptions**:\n- The cohort is closed to migration.\n- The cohort decreases solely due to death.\n- The cohort consists of a fixed radix (usually $l_0 = 100,000$ births).\n- Deaths are spread uniformly over each year of age (except the first year).\n- The age-specific mortality rates remain constant.\n3. **Applications**: (i) Constructing life insurance policies and premium rates. (ii) Public health research to evaluate health interventions and healthcare systems. (iii) Demographic forecasting of population structure. (iv) Evaluating human longevity and life expectancy trends."
+        "question": "Define the various columns of a life table with their advantages.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 6,
         "unit": "I",
-        "question": "Describe the mathematical definitions and interrelations of the various columns ($l_x, d_x, q_x, p_x, L_x, T_x, e_x^0$) of a complete life table.",
-        "answerKey": "1. **Definitions and Formulas**:\n- $l_x$: Number of survivors at exact age $x$ ($l_0$ is the radix).\n- $d_x$: Number of deaths between ages $x$ and $x+1$: $d_x = l_x - l_{x+1}$.\n- $q_x$: Probability of dying between ages $x$ and $x+1$: $q_x = d_x / l_x$.\n- $p_x$: Probability of surviving from age $x$ to $x+1$: $p_x = 1 - q_x = l_{x+1} / l_x$.\n- $L_x$: Number of person-years lived by the cohort between ages $x$ and $x+1$: $L_x = \\frac{l_x + l_{x+1}}{2}$ (assuming linear deaths).\n- $T_x$: Total number of person-years lived after exact age $x$: $T_x = \\sum_{y=x}^{\\infty} L_y$.\n- $e_x^0$: Life expectancy at exact age $x$: $e_x^0 = T_x / l_x$.\n2. **Key Interrelations**: $l_{x+1} = l_x(1-q_x)$, $T_x = T_{x+1} + L_x$, and $e_x^0 = \\frac{l_x + l_{x+1}}{2l_x} + \\frac{T_{x+1}}{l_x}$."
+        "question": "Define the various measures of mortality with their merits and demerits.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 7,
-        "unit": "II",
-        "question": "Discuss the mathematical framework of the logistic curve used for modeling and measuring the growth of biological populations. Explain the significance of the asymptote.",
-        "answerKey": "1. **Logistic Growth Model**: Formulated by Verhulst to describe population growth under resource limits:\n$$P(t) = \\frac{K}{1 + e^{a - bt}}$$\nwhere $P(t)$ is the population at time $t$, $K$ is the carrying capacity (upper asymptote), and $a, b > 0$ are constants.\n2. **Differential Equation**: The rate of growth is proportional to the population size and the fraction of resources remaining:\n$$\\frac{dP}{dt} = b P \\left(1 - \\frac{P}{K}\\right)$$\n3. **Properties**: The curve is S-shaped (sigmoidal) and symmetric. The point of inflection occurs at $P(t) = K/2$ where the growth rate transitions from acceleration to deceleration.\n4. **Asymptote Significance**: The parameter $K$ represents the maximum sustainable population size (carrying capacity) given environmental and resource constraints. It represents the long-term stable limit of the population."
+        "unit": "I",
+        "question": "Discuss about the various component of the time series.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 8,
-        "unit": "III",
-        "question": "Discuss the economic importance, applications, and structural limitations of index numbers.",
-        "answerKey": "1. **Index Numbers**: Statistical measures designed to show changes in a variable or group of related variables (e.g. price, quantity) over time.\n2. **Economic Importance and Applications**:\n- **Inflation Measurement**: Using Consumer Price Index (CPI) to measure purchasing power.\n- **Policy Formulation**: Determining dearness allowance (DA), wage adjustments, and interest rates.\n- **Economic Indicators**: Measuring industrial production trends (IIP) and agricultural yields.\n- **National Income Deflator**: Converting nominal GDP to real GDP.\n3. **Structural Limitations**:\n- **Formula Bias**: Different formulas (Laspeyres, Paasche) yield different results.\n- **Quality Changes**: Fails to capture improvements in goods over time.\n- **Base Year Obsolescence**: Outdated base years do not reflect current consumption patterns.\n- **Sampling Error**: Based on samples of commodities, which may not be fully representative."
+        "unit": "I",
+        "question": "Define the method of moving averages to measure the trend. The following table gives the number of workers employed in a small industry during the years 2011-2020. Calculate the four-yearly moving average: 019 | 90 | 2017 490 2018",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 9,
-        "unit": "III",
-        "question": "What is a price index number? Explain the precise operational meaning of the current year and the base year, and discuss the criteria for choosing a base year.",
-        "answerKey": "1. **Price Index Number**: A measure of relative changes in prices of commodities between two time periods.\n2. **Current Year**: The year for which the price index is being calculated, denoted by subscript $1$ (e.g., $p_1, q_1$).\n3. **Base Year**: The year chosen as the point of comparison, assigned a value of 100, and denoted by subscript $0$ (e.g., $p_0, q_0$).\n4. **Criteria for Choosing a Base Year**:\n- **Normal Year**: The base year must be economically stable, free from abnormalities like wars, droughts, severe depressions, or pandemics.\n- **Recent Year**: It should not be too far in the past, as consumption habits and product availability change over time.\n- **Data Availability**: The base year must have reliable, comprehensive price and quantity data."
+        "unit": "I",
+        "question": "Prove that Fisher's ideal index number lies between Laspeyre's and Paasche's index number.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 10,
-        "unit": "III",
-        "question": "What is meant by the cost of living index number (CPI)? Describe step-by-step the statistical procedure followed in its preparation, and explain the significance of conducting a family budget enquiry.",
-        "answerKey": "1. **Cost of Living Index (CPI)**: A specialized index reflecting changes in the retail prices of goods and services consumed by a specific class of consumers.\n2. **Preparation Steps**:\n- **Define Scope**: Identify the group of consumers (e.g. industrial workers, urban non-manual).\n- **Family Budget Enquiry**: Conduct a survey to determine the consumption basket and weights of commodities.\n- **Price Collection**: Collect regular, reliable retail prices from representative markets.\n- **Calculate Index**: Use either the Aggregate Expenditure Method (similar to Laspeyres) or Family Budget Method (Weighted Average of Price Relatives):\n$$I = \\frac{\\sum W I_p}{\\sum W} \\quad \\text{where } I_p = \\frac{p_1}{p_0} \\times 100 \\text{ and } W = p_0 q_0.$$\n3. **Significance of Family Budget Enquiry**: It reveals the actual consumption patterns, ensuring the weights assigned to commodities match their true budget share for the target group."
+        "unit": "I",
+        "question": "Explain how the 'principle of least square' is used to estimate trend in time series.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 11,
-        "unit": "III",
-        "question": "Discuss the various axiomatic tests of index numbers: Time Reversal, Factor Reversal, and Circular tests.",
-        "answerKey": "1. **Time Reversal Test (TRT)**: The index number formula should work consistently backward and forward in time:\n$$P_{01} \\times P_{10} = 1$$\nwhere $P_{01}$ is the index for year 1 with base 0, and $P_{10}$ is the index for year 0 with base 1.\n2. **Factor Reversal Test (FRT)**: Interchanging the price and quantity factors in the index formula should yield the true value ratio index:\n$$P_{01} \\times Q_{01} = \\frac{\\sum p_1 q_1}{\\sum p_0 q_0}$$\nwhere $Q_{01}$ is the quantity index.\n3. **Circular Test**: An extension of TRT to multiple periods ($0, 1, 2$):\n$$P_{01} \\times P_{12} \\times P_{20} = 1.$$\n(Note: Fisher's index satisfies TRT and FRT but not the Circular test. Only simple geometric mean index and Kelly's fixed-weight index satisfy the Circular test)."
+        "unit": "II",
+        "question": "Stable and Stationary Population",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 12,
-        "unit": "III",
-        "question": "Mathematically prove that Fisher's ideal index number satisfies both the Time Reversal Test and the Factor Reversal Test.",
-        "answerKey": "1. Fisher's Ideal Index: $P_{01} = \\sqrt{ \\frac{\\sum p_1 q_0}{\\sum p_0 q_0} \\times \\frac{\\sum p_1 q_1}{\\sum p_0 q_1} }$.\n2. **Time Reversal Test Proof**:\n- $P_{10} = \\sqrt{ \\frac{\\sum p_0 q_1}{\\sum p_1 q_1} \\times \\frac{\\sum p_0 q_0}{\\sum p_1 q_0} }$.\n- Multiplying:\n$$P_{01} \\times P_{10} = \\sqrt{ \\frac{\\sum p_1 q_0}{\\sum p_0 q_0} \\times \\frac{\\sum p_1 q_1}{\\sum p_0 q_1} \\times \\frac{\\sum p_0 q_1}{\\sum p_1 q_1} \\times \\frac{\\sum p_0 q_0}{\\sum p_1 q_0} } = \\sqrt{1} = 1.$$\nThus, TRT is satisfied.\n3. **Factor Reversal Test Proof**:\n- Interchanging $p$ and $q$ gives the Quantity Index $Q_{01}$:\n$$Q_{01} = \\sqrt{ \\frac{\\sum q_1 p_0}{\\sum q_0 p_0} \\times \\frac{\\sum q_1 p_1}{\\sum q_0 p_1} } = \\sqrt{ \\frac{\\sum p_0 q_1}{\\sum p_0 q_0} \\times \\frac{\\sum p_1 q_1}{\\sum p_1 q_0} }.$$\n- Multiplying:\n$$P_{01} \\times Q_{01} = \\sqrt{ \\frac{\\sum p_1 q_0}{\\sum p_0 q_0} \\frac{\\sum p_1 q_1}{\\sum p_0 q_1} \\frac{\\sum p_0 q_1}{\\sum p_0 q_0} \\frac{\\sum p_1 q_1}{\\sum p_1 q_0} } = \\sqrt{ \\left(\\frac{\\sum p_1 q_1}{\\sum p_0 q_0}\\right)^2 } = \\frac{\\sum p_1 q_1}{\\sum p_0 q_0}.$$\nThus, FRT is satisfied. Since it satisfies both tests, Fisher's index is called 'ideal'."
+        "unit": "I",
+        "question": "Define index numbers. What are the problems in construction of index numbers?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 13,
-        "unit": "IV",
-        "question": "What is industrial quality control? Describe the main underlying principles of statistical quality control (SQC) charts, and explain the choice of 3-sigma control limits.",
-        "answerKey": "1. **Industrial Quality Control**: The application of statistical techniques to measure, monitor, and maintain the quality of manufactured products within specified tolerances.\n2. **Principles of SQC Charts**: Introduced by Walter Shewhart. Processes vary due to:\n- **Chance Causes**: Natural, random, unavoidable variations in stable processes.\n- **Assignable Causes**: Non-random, identifiable variations (e.g. tool wear, raw material defect, operator error).\n3. **Shewhart Control Chart Structure**: Consists of a Central Line (CL), Upper Control Limit (UCL), and Lower Control Limit (LCL). If points fall outside the limits, the process is deemed 'out of control' (assignable causes are present).\n4. **Choice of 3-Sigma Limits**: Under a normal distribution, the probability of a sample point falling outside $\\mu \\pm 3\\sigma$ by pure chance is very small ($P(|Z| > 3) = 0.0027$). This balances the two types of risks: looking for trouble when there is none (Type I error) and missing trouble when it is present (Type II error)."
+        "unit": "I",
+        "question": "Explain Laspeyres', Paasche's, and Fisher's ideal index numbers.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 14,
-        "unit": "IV",
-        "question": "Discuss the detailed statistical construction of control charts for the process mean (X-bar chart) and standard deviation (s-chart).",
-        "answerKey": "1. **X-bar Chart (Process Mean)**: Monitors process centering. Let samples of size $n$ be drawn with mean $\\bar{X}$ and standard deviation $\\sigma$.\n- Center Line: $\\text{CL} = \\bar{\\bar{X}}$ (grand mean).\n- Control Limits: $\\text{UCL}_X = \\bar{\\bar{X}} + A_2 \\bar{R}$ or $\\bar{\\bar{X}} + 3 \\frac{\\sigma}{\\sqrt{n}}$ where $A_2$ is a constant.\n- LCL: $\\text{LCL}_X = \\bar{\\bar{X}} - A_2 \\bar{R}$ or $\\bar{\\bar{X}} - 3 \\frac{\\sigma}{\\sqrt{n}}$.\n2. **s-Chart (Process Dispersion)**: Monitors process variability by computing standard deviations of samples.\n- Center Line: $\\text{CL}_s = c_4 \\sigma$ or $\\bar{s}$ where $c_4$ is a constant based on $n$.\n- Control Limits: $\\text{UCL}_s = B_4 \\bar{s}$ and $\\text{LCL}_s = B_3 \\bar{s}$ (where $B_3, B_4$ are standard constants).\n- Alternatively, using $\\sigma$: $\\text{UCL}_s = B_6 \\sigma$ and $\\text{LCL}_s = B_5 \\sigma$."
+        "unit": "I",
+        "question": "State and explain the Time Reversal Test and Factor Reversal Test for index numbers.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 15,
-        "unit": "IV",
-        "question": "Discuss in detail the underlying distribution, statistical foundations, and construction of fraction defective (p) charts and number of defects (c) charts.",
-        "answerKey": "1. **p-Chart (Fraction Defective)**: Monitors the proportion of defective items. Based on the **Binomial Distribution**.\n- Center Line: $\\text{CL} = \\bar{p} = \\frac{\\text{Total Defectives}}{\\text{Total Inspected}}$.\n- Standard Error: $\\text{SE}(p) = \\sqrt{\\frac{\\bar{p}(1-\\bar{p})}{n}}$.\n- Limits: $\\text{UCL}_p = \\bar{p} + 3 \\sqrt{\\frac{\\bar{p}(1-\\bar{p})}{n}}$ and $\\text{LCL}_p = \\max\\left(0, \\bar{p} - 3 \\sqrt{\\frac{\\bar{p}(1-\\bar{p})}{n}}\\right)$.\n2. **c-Chart (Number of Defects)**: Monitors the count of defects per unit area/time. Based on the **Poisson Distribution** (where mean = variance = $c$).\n- Center Line: $\\text{CL} = \\bar{c} = \\frac{\\text{Total Defects}}{\\text{Total Units}}$.\n- Limits: $\\text{UCL}_c = \\bar{c} + 3\\sqrt{\\bar{c}}$ and $\\text{LCL}_c = \\max\\left(0, \\bar{c} - 3\\sqrt{\\bar{c}}\\right)$."
+        "unit": "II",
+        "question": "What is time series? Explain the components of a time series: trend, seasonal, cyclical, and irregular.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 16,
-        "unit": "IV",
-        "question": "What is the probabilistic theory behind assuming a Poisson distribution in the case of the c-chart? Specify the control limits.",
-        "answerKey": "1. **Poisson Foundation**: The $c$-chart is used to monitor defects on continuous products (e.g. rolls of paper, fabrics, paint surfaces).\n2. **Conditions**: The potential number of locations for a defect is very large (approaching infinity), whereas the probability of a defect at any specific point is extremely small (approaching zero). \n3. Under these conditions ($n \\to \\infty$, $p \\to 0$ with $np = \\lambda$ constant), the Binomial distribution converges to the **Poisson distribution**:\n$$P(X=x) = \\frac{e^{-c} c^x}{x!}$$\nwhere $c$ is the average count of defects per unit.\n4. **Control Limits**: Using Shewhart 3-sigma limits and the fact that for Poisson, $\\sigma^2 = c \\implies \\sigma = \\sqrt{c}$:\n- $\\text{UCL}_c = \\bar{c} + 3\\sqrt{\\bar{c}}$\n- $\\text{CL} = \\bar{c}$\n- $\\text{LCL}_c = \\max(0, \\bar{c} - 3\\sqrt{\\bar{c}})$."
+        "unit": "II",
+        "question": "Describe the method of moving averages for determining trend in a time series.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 17,
-        "unit": "IV",
-        "question": "Discuss the structural construction and cross-interpretation of the mean and range (X-bar, R) control charts.",
-        "answerKey": "1. **X-bar Chart**: Monitors the mean of the process. It detects shifts in the central tendency (e.g., changes due to machines going out of alignment).\n- $\\text{UCL} = \\bar{\\bar{X}} + A_2 \\bar{R}$, $\\text{LCL} = \\bar{\\bar{X}} - A_2 \\bar{R}$.\n2. **R-Chart (Range)**: Monitors the variability/dispersion of the process (the range of values $R = X_{\\max} - X_{\\min}$).\n- $\\text{CL} = \\bar{R}$, $\\text{UCL} = D_4 \\bar{R}$, $\\text{LCL} = D_3 \\bar{R}$.\n3. **Cross-Interpretation**: A process can only be considered in control if **both** charts are in control. If only the X-bar chart is out of control, the process has shifted but variability remains stable. If the R-chart is out of control, the process variance has increased (indicating unstable quality), making the limits of the X-bar chart unreliable."
+        "unit": "II",
+        "question": "Explain the method of least squares for fitting linear and quadratic trends to time series data.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 18,
-        "unit": "V",
-        "question": "What do you mean by a time series? Describe its practical and forecasting uses in business planning and economic data analysis.",
-        "answerKey": "1. **Time Series**: A sequence of numerical data points indexed in chronological order, usually at uniform intervals (e.g. daily, monthly, yearly).\n2. **Practical Uses**:\n- **Understanding Past Behavior**: Helps evaluate historical progress and patterns.\n- **Forecasting**: Predicting future values (e.g. sales, stock prices, demand) for strategic planning.\n- **Policy Evaluation**: Assessing the impact of past interventions (e.g. tariff changes, advertising campaigns).\n- **Comparative Analysis**: Comparing different time-series datasets (e.g. inflation vs unemployment over time)."
+        "unit": "III",
+        "question": "Define vital statistics. Explain the measurement of mortality: CDR, SDR, and Infant Mortality Rate.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 19,
-        "unit": "V",
-        "question": "Write short notes on the different structural components of a time series, explaining the factors behind each.",
-        "answerKey": "1. **Secular Trend (T)**: Long-term smooth pattern of growth or decline over a long period. Caused by population growth, technological advances, or changing habits.\n2. **Seasonal Variation (S)**: Rhythmic, periodic fluctuations occurring within a year. Caused by climate changes (weather seasons) or social customs (festivals, holidays).\n3. **Cyclical Variation (C)**: Long-term wave-like oscillations around the trend line (business cycles). Typically spans 2 to 10 years and goes through phases of expansion, peak, contraction, and trough.\n4. **Irregular Fluctuation (I)**: Erratic, unpredictable, random variations. Caused by unexpected events like floods, strikes, wars, earthquakes, or political changes."
+        "unit": "III",
+        "question": "Explain fertility measurements: CBR, GFR, ASFR, and TFR.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 20,
+        "unit": "III",
+        "question": "Define Gross Reproduction Rate (GRR) and Net Reproduction Rate (NRR) and write their significance.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 21,
+        "unit": "IV",
+        "question": "What is a Life Table? Describe its components and columns.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 22,
+        "unit": "IV",
+        "question": "Explain the construction of a complete life table from mortality data.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 23,
         "unit": "V",
-        "question": "Using clear real-life examples, explain the core differences between seasonal variations and cyclical variations in a time series.",
-        "answerKey": "1. **Seasonal Variations**:\n- **Periodicity**: Occur within a fixed, short period (always $\\le$ one year).\n- **Predictability**: Rhythmic and highly predictable.\n- **Causes**: Weather patterns, holidays, or festivals.\n- **Example**: Surge in ice cream sales during summer, or high clothing sales during Diwali.\n2. **Cyclical Variations**:\n- **Periodicity**: Occur over longer periods (usually 2 to 10 years, varying in duration).\n- **Predictability**: Oscillatory but non-periodic, making them harder to predict.\n- **Causes**: Business cycle dynamics, inflation, and general economic factors.\n- **Example**: The global housing market booms followed by recessions (e.g., 2008 financial crash)."
+        "question": "Discuss the demand analysis. State the law of demand and explain price elasticity of demand.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 24,
+        "unit": "I",
+        "question": "Describe the method of family budget surveys for constructing consumer price index numbers.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 25,
+        "unit": "II",
+        "question": "Discuss the ratio-to-trend and link-relative methods of determining seasonal indices.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 26,
+        "unit": "I",
+        "question": "Show that Fisher's index number satisfies both Time Reversal and Factor Reversal tests.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 27,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Applied Statistics (Part 1).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 28,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Applied Statistics (Part 2).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 29,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Applied Statistics (Part 3).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 30,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Applied Statistics (Part 4).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 31,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Applied Statistics (Part 5).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 32,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Applied Statistics (Part 6).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 33,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Applied Statistics (Part 7).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 34,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Applied Statistics (Part 8).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 35,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Applied Statistics (Part 9).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 36,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Applied Statistics (Part 10).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 37,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Applied Statistics (Part 11).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 38,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Applied Statistics (Part 12).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 39,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Applied Statistics (Part 13).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 40,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Applied Statistics (Part 14).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Applied Statistics (Part 15).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Applied Statistics (Part 16).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Applied Statistics (Part 17).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Applied Statistics (Part 18).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Applied Statistics (Part 19).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Applied Statistics (Part 20).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Applied Statistics (Part 21).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Applied Statistics (Part 22).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Applied Statistics (Part 23).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Applied Statistics (Part 24).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       }
     ]
   },
@@ -6306,156 +9397,307 @@ export const EXAMS = {
     "module": "STAMN41",
     "duration": 60,
     "type": "theory",
+    "comingSoon": false,
     "questions": [
       {
         "id": 1,
         "unit": "I",
-        "question": "What is a parameter and a statistic? Explain with suitable examples. Also, define a random sample from a probability distribution.",
-        "answerKey": "1. **Parameter**: A parameter is a numerical characteristic of a population (e.g., population mean $\\mu$, population variance $\\sigma^2$). It is usually constant but unknown.\n2. **Statistic**: A statistic is a function of the sample values that does not contain any unknown parameters (e.g., sample mean $\\bar{x} = \\frac{1}{n}\\sum x_i$, sample variance $s^2$). It is a random variable and varies from sample to sample.\n3. **Random Sample**: A random sample of size $n$ from a distribution $F(x)$ is a set of $n$ independent and identically distributed (i.i.d.) random variables $X_1, X_2, \\ldots, X_n$ each having the distribution $F(x)$."
+        "question": "Explain the concept of the sampling distribution of a statistic and standard error. Describe the utility of standard error in hypothesis testing. Derive the expressions for the standard error of the following cases: (1) The mean of a random sample of size $n$ obtained from a normal distribution. (2) The difference of the means of two independent random samples of sizes $n_1$ and $n_2$ from normal distributions $N(\\mu_1, \\sigma^2)$ and $N(\\mu_2, \\sigma^2)$ respectively. Also discuss the case of equal but unknown variance for both populations.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
       },
       {
         "id": 2,
         "unit": "I",
-        "question": "Let $X_1, X_2, \\ldots, X_n$ be a random sample of size $n$ from a population with finite mean $\\mu$ and variance $\\sigma^2$. Show that the expectation of the sample mean is $\\mu$ and its variance is $\\frac{\\sigma^2}{n}$.",
-        "answerKey": "1. The sample mean is defined as $\\bar{X} = \\frac{1}{n} \\sum_{i=1}^n X_i$.\n2. **Expectation**: \n$$E(\\bar{X}) = E\\left(\\frac{1}{n} \\sum_{i=1}^n X_i\\right) = \\frac{1}{n} \\sum_{i=1}^n E(X_i) = \\frac{1}{n} \\sum_{i=1}^n \\mu = \\frac{1}{n} (n\\mu) = \\mu.$$\n3. **Variance**: Since $X_i$ are independent:\n$$V(\\bar{X}) = V\\left(\\frac{1}{n} \\sum_{i=1}^n X_i\\right) = \\frac{1}{n^2} \\sum_{i=1}^n V(X_i) = \\frac{1}{n^2} \\sum_{i=1}^n \\sigma^2 = \\frac{1}{n^2} (n\\sigma^2) = \\frac{\\sigma^2}{n}.$$\nHence, the result is verified."
+        "question": "Obtain the sampling distribution of the sum of independent Poisson random variates.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
       },
       {
         "id": 3,
         "unit": "I",
-        "question": "Show that the sampling distribution of the sum of two independent Poisson variates is again a Poisson variate. Deduce the distribution of the sum of $n$ independent Poisson variates.",
-        "answerKey": "1. Let $X_1 \\sim \\text{Poisson}(\\lambda_1)$ and $X_2 \\sim \\text{Poisson}(\\lambda_2)$ be independent. \n2. The probability generating function (PGF) or MGF of $X \\sim \\text{Poisson}(\\lambda)$ is $M_X(t) = e^{\\lambda(e^t - 1)}$.\n3. Since they are independent, the MGF of $Y = X_1 + X_2$ is:\n$$M_Y(t) = M_{X_1}(t) \\cdot M_{X_2}(t) = e^{\\lambda_1(e^t - 1)} \\cdot e^{\\lambda_2(e^t - 1)} = e^{(\\lambda_1 + \\lambda_2)(e^t - 1)}.$$\n4. By the uniqueness theorem of MGFs, this is the MGF of a Poisson variate with parameter $\\lambda_1 + \\lambda_2$. Thus $Y \\sim \\text{Poisson}(\\lambda_1 + \\lambda_2)$.\n5. By induction, the sum of $n$ independent Poisson variates with parameters $\\lambda_i$ is also Poisson with parameter $\\sum_{i=1}^n \\lambda_i$."
+        "question": "Discuss the criteria of a good estimator. Let $X_1, X_2, X_3, X_4$ be a random sample from a $N(\\mu, \\sigma^2)$ population. Find the variance of $T = \\frac{X_1 + 3X_2 + 2X_3 + X_4}{7}$ and $\\bar{X} = \\frac{X_1 + X_2 + X_3 + X_4}{4}$. Which one is preferred between $T$ and $\\bar{X}$ for the estimation of the mean of a normal distribution and why?",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 4,
         "unit": "I",
-        "question": "Let the independent random variables $X_1, X_2, \\ldots, X_n$ be distributed as $N(\\mu, \\sigma^2)$. Let $X = \\sum_{i=1}^n \\alpha_i X_i$ and $Y = \\sum_{j=1}^n \\beta_j X_j$, where \\(\\alpha_i\\) and \\(\\beta_j\\) are constants. Determine the probability distribution of $X$, $Y$, and $X+Y$.",
-        "answerKey": "1. Since $X_i \\sim N(\\mu, \\sigma^2)$ are independent normal variables, any linear combination of them is also normally distributed.\n2. **Distribution of $X$**: Let $X = \\sum \\alpha_i X_i$. \n- $E(X) = \\sum \\alpha_i E(X_i) = \\mu \\sum \\alpha_i$.\n- $V(X) = \\sum \\alpha_i^2 V(X_i) = \\sigma^2 \\sum \\alpha_i^2$.\nThus $X \\sim N\\left(\\mu \\sum \\alpha_i, \\sigma^2 \\sum \\alpha_i^2\\right)$.\n3. **Distribution of $Y$**: Similarly, $Y \\sim N\\left(\\mu \\sum \\beta_j, \\sigma^2 \\sum \\beta_j^2\\right)$.\n4. **Distribution of $X+Y$**: We can write $X+Y = \\sum (\\alpha_i + \\beta_i) X_i$.\n- $E(X+Y) = \\mu \\sum (\\alpha_i + \\beta_i)$.\n- $V(X+Y) = \\sigma^2 \\sum (\\alpha_i + \\beta_i)^2$.\nThus $X+Y \\sim N\\left(\\mu \\sum (\\alpha_i + \\beta_i), \\sigma^2 \\sum (\\alpha_i + \\beta_i)^2\\right)$."
+        "question": "Show that for a normal distribution, the sample variance $S^2 = \\frac{1}{n}\\sum_{i=1}^n (X_i - \\bar{X})^2$ is not an unbiased estimate of the population variance $\\sigma^2$. Obtain an unbiased estimate of the population variance.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 5,
-        "unit": "II",
-        "question": "What are the criteria of a good estimator? Discuss the concepts of Unbiasedness and Consistency in detail.",
-        "answerKey": "1. A good estimator should satisfy four main criteria: Unbiasedness, Consistency, Efficiency, and Sufficiency.\n2. **Unbiasedness**: An estimator $T$ is said to be an unbiased estimator of a parameter $\\theta$ if $E(T) = \\theta$ for all $\\theta \\in \\Theta$. If $E(T) \\neq \\theta$, the bias is $E(T) - \\theta$.\n3. **Consistency**: An estimator $T_n$ is consistent for $\\theta$ if it converges in probability to $\\theta$ as $n \\to \\infty$. That is, for any $\\epsilon > 0$, $\\lim_{n \\to \\infty} P(|T_n - \\theta| < \\epsilon) = 1$. A sufficient condition for consistency is that $E(T_n) \\to \\theta$ and $V(T_n) \\to 0$ as $n \\to \\infty$."
+        "unit": "I",
+        "question": "Let $P_1$ and $P_2$ be the unknown proportions of students wearing glasses in two universities $A$ and $B$. To compare $P_1$ and $P_2$, samples of sizes $n_1$ and $n_2$ are taken from the two populations and the number of students wearing glasses is found to be $x_1$ and $x_2$ respectively. Suggest an unbiased estimate of $P_1 - P_2$ and obtain its sampling distribution when $n_1$ and $n_2$ are large. Hence, explain how to test the hypothesis $H_0 : P_1 = P_2$.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 6,
         "unit": "I",
-        "question": "Let $X_1, X_2, \\ldots, X_n$ be a random sample from a Bernoulli distribution with parameter $p$. Show that the sampling distribution of $S = \\sum_{i=1}^n X_i$ is a binomial distribution.",
-        "answerKey": "1. The probability mass function (pmf) of each $X_i \\sim \\text{Bernoulli}(p)$ is $P(X_i = x) = p^x (1-p)^{1-x}$ for $x \\in \\{0, 1\\}$.\n2. The moment generating function (MGF) of $X_i$ is $M_{X_i}(t) = E(e^{tX_i}) = (1-p) + p e^t$.\n3. Since $X_1, \\ldots, X_n$ are independent, the MGF of their sum $S = \\sum X_i$ is:\n$$M_S(t) = \\prod_{i=1}^n M_{X_i}(t) = \\left( (1-p) + p e^t \\right)^n.$$\n4. This is the MGF of a Binomial distribution with parameters $n$ and $p$. By the uniqueness theorem of MGFs, $S \\sim \\text{Binomial}(n, p)$."
+        "question": "Twenty people were attacked by a disease and only 18 survived. Will you reject the hypothesis that the survival rate, if attacked by this disease, is 85\\% in favor of the hypothesis that it is more, at 5\\% level of significance? (Use large sample test; the tabulated $Z$ value in a one-tailed test is 1.645).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 7,
-        "unit": "III",
-        "question": "Define simple and composite hypotheses with suitable examples. Explain the difference between them.",
-        "answerKey": "1. **Simple Hypothesis**: A hypothesis is simple if it completely specifies the probability distribution of the population. For example, if $X \\sim N(\\mu, 9)$, the hypothesis $H_0: \\mu = 5$ is simple because it completely specifies the distribution as $N(5, 9)$.\n2. **Composite Hypothesis**: A hypothesis is composite if it does not completely specify the probability distribution of the population. For example, $H_1: \\mu > 5$ or $H_1: \\mu \\neq 5$ are composite hypotheses because they allow for multiple possible distributions (e.g. $N(6, 9), N(7, 9)$, etc.)."
+        "unit": "I",
+        "question": "Explain stating clearly the assumptions involved in the $t$-test for testing the significance of the difference between two means. Find the value of the $t$-statistic in a sample of size eight: $-4$, $-2$, $-2$, $0$, $2$, $2$, $3$, $3$, taking the mean of the universe to be zero. How would you proceed further to test at 5\\% level of significance? (Given $t_{0.05, 7} = 2.365$).",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 8,
-        "unit": "III",
-        "question": "Explain the concepts of Type-I error, Type-II error, level of significance, and power of a test in hypothesis testing.",
-        "answerKey": "1. **Type-I Error**: Rejecting the null hypothesis $H_0$ when it is actually true. The probability of Type-I error is denoted by $\\alpha = P(\\text{Reject } H_0 \\mid H_0 \\text{ is true})$.\n2. **Type-II Error**: Failing to reject $H_0$ when it is false (i.e. accepting $H_0$ when $H_1$ is true). The probability of Type-II error is denoted by $\\beta = P(\\text{Accept } H_0 \\mid H_1 \\text{ is true})$.\n3. **Level of Significance**: The maximum allowable probability of Type-I error, usually pre-determined (e.g. 5% or 1%).\n4. **Power of the Test**: The probability of rejecting $H_0$ when it is false. Power $= 1 - \\beta = P(\\text{Reject } H_0 \\mid H_1 \\text{ is true})$."
+        "unit": "I",
+        "question": "Discuss the $F$-distribution along with its applications.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 9,
-        "unit": "III",
-        "question": "A random sample of size 1 is taken from a Poisson distribution with parameter $\\lambda$. If the critical region for testing $H_0 : \\lambda = 2$ against $H_1 : \\lambda = 1$ is $x > 2$, find the size and power of the test.",
-        "answerKey": "1. Under $H_0$, $X \\sim \\text{Poisson}(\\lambda=2)$. Under $H_1$, $X \\sim \\text{Poisson}(\\lambda=1)$.\n2. **Size of the Test** ($\\alpha$):\n$$\\alpha = P(X > 2 \\mid H_0) = 1 - P(X \\le 2 \\mid H_0) = 1 - \\left( P(X=0) + P(X=1) + P(X=2) \\right)$$\n$$\\alpha = 1 - e^{-2} \\left( 1 + 2 + \\frac{2^2}{2!} \\right) = 1 - 5e^{-2} \\approx 1 - 5(0.1353) = 0.3233.$$\n3. **Power of the Test** ($1-\\beta$):\n$$1-\\beta = P(X > 2 \\mid H_1) = 1 - P(X \\le 2 \\mid H_1) = 1 - e^{-1} \\left( 1 + 1 + \\frac{1^2}{2!} \\right)$$\n$$1-\\beta = 1 - 2.5e^{-1} \\approx 1 - 2.5(0.3679) = 0.0803.$$\nThus, the size is $\\approx 0.323$ and the power is $\\approx 0.080$."
+        "unit": "I",
+        "question": "State the Weak Law of Large Numbers (WLLN). Examine whether the WLLN holds or not for the sequence $\\{X_n\\}$ of independent random variables defined as follows: \\[ P(X_n = 2^n) = 2^{-2n-1}, \\quad P(X_n = -2^n) = 2^{-2n-1}, \\quad P(X_n = 0) = 1 - 2^{-2n} \\]",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
       },
       {
         "id": 10,
-        "unit": "III",
-        "question": "A sample of size 1 is taken from an exponential distribution with parameter $\\lambda$ ($f(x) = \\lambda e^{-\\lambda x}, x > 0$). To test $H_0 : \\lambda = 1$ against $H_1 : \\lambda > 1$, the critical region is $x > 2$. Find the size and the probability of Type-II error.",
-        "answerKey": "1. Under $H_0$, $\\lambda = 1 \\implies f(x) = e^{-x}$. Under $H_1$, $\\lambda > 1 \\implies f(x) = \\lambda e^{-\\lambda x}$.\n2. **Size of the Test** ($\\alpha$):\n$$\\alpha = P(X > 2 \\mid H_0) = \\int_2^\\infty e^{-x} dx = \\left[ -e^{-x} \\right]_2^\\infty = e^{-2} \\approx 0.1353.$$\n3. **Probability of Type-II Error** ($\\beta$):\n$$\\beta = P(X \\le 2 \\mid H_1) = \\int_0^2 \\lambda e^{-\\lambda x} dx = \\left[ -e^{-\\lambda x} \\right]_0^2 = 1 - e^{-2\\lambda}.$$\nThus, the size of the test is $e^{-2}$ and the Type-II error probability is $1 - e^{-2\\lambda}$."
+        "unit": "I",
+        "question": "Write the statement of the Central Limit Theorem (CLT) for the i.i.d. case. Also explain its utility.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 11,
-        "unit": "III",
-        "question": "Let $p$ be the probability that a coin falls head in a single toss. To test $H_0 : p = 1/2$ against $H_1 : p = 2/3$, the coin is tossed thrice and $H_0$ is rejected if three heads appear. Find the size and power of the test.",
-        "answerKey": "1. The number of heads $X$ in 3 tosses follows a Binomial distribution $B(3, p)$.\n2. The critical region is $\\{X=3\\}$.\n3. **Size of the Test** ($\\alpha$):\n$$\\alpha = P(X = 3 \\mid H_0) = \\binom{3}{3} \\left(\\frac{1}{2}\\right)^3 = \\frac{1}{8} = 0.125.$$\n4. **Power of the Test** ($1-\\beta$):\n$$1-\\beta = P(X = 3 \\mid H_1) = \\binom{3}{3} \\left(\\frac{2}{3}\\right)^3 = \\frac{8}{27} \\approx 0.296.$$\nHence, the size is $0.125$ and the power is $0.296$."
+        "unit": "II",
+        "question": "Define order statistics. What are the cumulative distribution functions of the smallest and largest order statistics? Also, obtain the probability density function of the $r$-th order statistic.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
       },
       {
         "id": 12,
-        "unit": "IV",
-        "question": "Define the chi-square statistic. Describe the chi-square test for testing the independence of two attributes in a contingency table.",
-        "answerKey": "1. **Chi-Square Statistic**: $\\chi^2 = \\sum \\frac{(O_i - E_i)^2}{E_i}$, where $O_i$ are the observed frequencies and $E_i$ are the expected frequencies.\n2. **Independence of Attributes**: Let two attributes $A$ (with $r$ classes) and $B$ (with $c$ classes) be represented in an $r \\times c$ contingency table.\n3. **Hypotheses**: $H_0$: The attributes $A$ and $B$ are independent vs $H_1$: They are dependent.\n4. **Expected Frequencies**: For cell $(i, j)$, expected frequency is $E_{ij} = \\frac{(R_i \\times C_j)}{N}$, where $R_i$ is the $i$-th row total, $C_j$ is the $j$-th column total, and $N$ is the grand total.\n5. **Degrees of Freedom**: under $H_0$, the statistic follows a $\\chi^2$ distribution with $(r-1)(c-1)$ degrees of freedom. If the calculated $\\chi^2 > \\chi^2_{\\alpha, (r-1)(c-1)}$, we reject $H_0$."
+        "unit": "II",
+        "question": "Discuss the applications of non-parametric tests, along with their advantages and disadvantages. Also, explain the Run test.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 13,
-        "unit": "IV",
-        "question": "Describe the chi-square goodness of fit test. State the null hypothesis, test statistic, and the necessary assumptions.",
-        "answerKey": "1. **Purpose**: To test if an observed frequency distribution fits a theoretical distribution.\n2. **Hypothesis**: $H_0$: The sample data fits the specified theoretical distribution.\n3. **Test Statistic**: $\\chi^2 = \\sum_{i=1}^k \\frac{(O_i - E_i)^2}{E_i} \\sim \\chi^2_{k-s-1}$ under $H_0$, where $k$ is the number of classes, and $s$ is the number of parameters estimated from the data.\n4. **Assumptions**: (i) Observed frequencies must be independent. (ii) The total sample size $N$ must be large ($N \\ge 50$). (iii) Each expected frequency $E_i$ must be $\\ge 5$. If any $E_i < 5$, adjacent classes must be pooled and degrees of freedom adjusted accordingly."
+        "unit": "II",
+        "question": "Errors, Critical Region, Level of Significance, and Power of a test in hypothesis testing.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 14,
-        "unit": "IV",
-        "question": "A bird watcher recorded birds belonging to 6 categories with frequencies: [6, 7, 13, 17, 6, 5]. Test at a 5% level of significance whether the data is compatible with the assumption that the park is visited by birds in the proportion 1:1:2:3:1:1. (Given $\\chi^2_{0.05, 5} = 11.07$)",
-        "answerKey": "1. **Hypotheses**: $H_0$: The birds visit the park in the proportion 1:1:2:3:1:1.\n2. **Observed Frequencies** ($O_i$): [6, 7, 13, 17, 6, 5], Grand Total $N = 54$.\n3. **Expected Frequencies** ($E_i$): Proportion total is $1+1+2+3+1+1 = 9$.\n- $E_1 = 54 \\times (1/9) = 6$\n- $E_2 = 54 \\times (1/9) = 6$\n- $E_3 = 54 \\times (2/9) = 12$\n- $E_4 = 54 \\times (3/9) = 18$\n- $E_5 = 54 \\times (1/9) = 6$\n- $E_6 = 54 \\times (1/9) = 6$\n4. **Calculate $\\chi^2$ Statistic**:\n$$\\chi^2 = \\frac{(6-6)^2}{6} + \\frac{(7-6)^2}{6} + \\frac{(13-12)^2}{12} + \\frac{(17-18)^2}{18} + \\frac{(6-6)^2}{6} + \\frac{(5-6)^2}{6}$$\n$$\\chi^2 = 0 + \\frac{1}{6} + \\frac{1}{12} + \\frac{1}{18} + 0 + \\frac{1}{6} = \\frac{6 + 3 + 2 + 6}{36} = \\frac{17}{36} \\approx 0.472.$$\n5. **Conclusion**: Since the calculated $\\chi^2 = 0.472$ is much less than the critical value $\\chi^2_{0.05, 5} = 11.07$, we fail to reject $H_0$. The data is compatible with the specified proportions."
+        "unit": "II",
+        "question": "$\\chi^2$-test for independence of attributes.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 15,
-        "unit": "IV",
-        "question": "What is the F-distribution? Write down its probability density function and describe the test for the equality of two population variances.",
-        "answerKey": "1. **F-Statistic**: The ratio of two independent chi-square variates divided by their respective degrees of freedom: $F = \\frac{\\chi^2_1 / \\nu_1}{\\chi^2_2 / \\nu_2}$.\n2. **Probability Density Function**: For $f > 0$:\n$$g(f) = \\frac{\\Gamma\\left(\\frac{\\nu_1+\\nu_2}{2}\\right)}{\\Gamma\\left(\\frac{\\nu_1}{2}\\right)\\Gamma\\left(\\frac{\\nu_2}{2}\\right)} \\left(\\frac{\\nu_1}{\\nu_2}\\right)^{\\nu_1/2} \\frac{f^{\\nu_1/2-1}}{\\left(1 + \\frac{\\nu_1}{\\nu_2}f\\right)^{(\\nu_1+\\nu_2)/2}}$$\n3. **Test of Equality of Variances**: Given two samples from $N(\\mu_1, \\sigma_1^2)$ and $N(\\mu_2, \\sigma_2^2)$:\n- $H_0: \\sigma_1^2 = \\sigma_2^2$ vs $H_1: \\sigma_1^2 \\neq \\sigma_2^2$.\n- Test statistic: $F = \\frac{s_1^2}{s_2^2}$ where $s_1^2 > s_2^2$ (to ensure $F > 1$), and $s_i^2 = \\frac{1}{n_i-1}\\sum (X_{ij} - \\bar{X}_i)^2$.\n- Degrees of freedom: $\\nu_1 = n_1 - 1, \\nu_2 = n_2 - 1$.\n- Decision: Reject $H_0$ if calculated $F > F_{\\alpha/2, \\nu_1, \\nu_2}$."
+        "unit": "II",
+        "question": "Kolmogorov-Smirnov (K-S) test.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 16,
-        "unit": "IV",
-        "question": "State Student's t-statistic. Explain the test procedure for the difference of two means from independent normal populations when variances are equal but unknown.",
-        "answerKey": "1. **t-Statistic**: Defined as $t = \\frac{\\bar{X}_1 - \\bar{X}_2}{S \\sqrt{\\frac{1}{n_1} + \\frac{1}{n_2}}}$, where $\\bar{X}_1, \\bar{X}_2$ are sample means, $n_1, n_2$ are sample sizes.\n2. **Pooled Sample Variance**: $S^2 = \\frac{(n_1-1)s_1^2 + (n_2-1)s_2^2}{n_1 + n_2 - 2}$.\n3. **Hypotheses**: $H_0: \\mu_1 = \\mu_2$ vs $H_1: \\mu_1 \\neq \\mu_2$.\n4. **Degrees of Freedom**: $\\nu = n_1 + n_2 - 2$.\n5. **Decision**: Reject $H_0$ if $|t| > t_{\\alpha/2, n_1+n_2-2}$."
+        "unit": "II",
+        "question": "Fisher's $Z$-transformation and its applications.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 17,
-        "unit": "IV",
-        "question": "The gain in weights (in kgs) of pigs fed on two diets A and B are:\nDiet A: [32, 35, 33, 29, 24, 41, 42, 36]\nDiet B: [35, 36, 39, 37, 38, 25, 26, 30, 24, 20]\nTest if the two diets differ significantly as regards their effect on weight gain at a 5% level of significance. (Given $t_{16, 0.05} = 2.12$)",
-        "answerKey": "1. **Sample 1 (Diet A)**: $n_1 = 8$, values: [32, 35, 33, 29, 24, 41, 42, 36].\n- $\\bar{X}_1 = \\frac{272}{8} = 34$.\n- $\\sum (X_{1i} - \\bar{X}_1)^2 = 4 + 1 + 1 + 25 + 100 + 49 + 64 + 4 = 248$.\n2. **Sample 2 (Diet B)**: $n_2 = 10$, values: [35, 36, 39, 37, 38, 25, 26, 30, 24, 20].\n- $\\bar{X}_2 = \\frac{320}{10} = 32$.\n- $\\sum (X_{2i} - \\bar{X}_2)^2 = 9 + 16 + 49 + 25 + 36 + 49 + 36 + 4 + 64 + 144 = 432$.\n3. **Pooled Variance**:\n$$S^2 = \\frac{248 + 432}{8 + 10 - 2} = \\frac{680}{16} = 42.5 \\implies S \\approx 6.52.$$\n4. **t-Statistic**:\n$$t = \\frac{34 - 32}{6.52 \\sqrt{\\frac{1}{8} + \\frac{1}{10}}} = \\frac{2}{6.52 \\sqrt{0.225}} = \\frac{2}{6.52 \\times 0.4743} \\approx 0.647.$$\n5. **Conclusion**: Since the calculated $|t| = 0.647$ is less than the critical value $t_{16, 0.05} = 2.12$, we fail to reject $H_0$. There is no significant difference between the two diets."
+        "unit": "I",
+        "question": "Explain the concept of point estimation. What are the criteria of a good estimator?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 18,
-        "unit": "IV",
-        "question": "Samples of two types of electric light bulbs were tested for length of life and the following data were obtained:\n- Type I: Sample Size = 8, Mean = 1234 hours, S.D. = 36 hours\n- Type II: Sample Size = 7, Mean = 1036 hours, S.D. = 40 hours\nIs the difference in means sufficient to warrant that Type I is superior to Type II? Test at 5% significance level. (Given $t_{0.05, 13} = 1.77$)",
-        "answerKey": "1. **Hypotheses**: $H_0: \\mu_1 = \\mu_2$ vs $H_1: \\mu_1 > \\mu_2$ (one-tailed test since we test if Type I is superior).\n2. **Pooled Variance**:\n$$S^2 = \\frac{(n_1-1)S_1^2 + (n_2-1)S_2^2}{n_1+n_2-2} = \\frac{7(36)^2 + 6(40)^2}{8+7-2} = \\frac{7(1296) + 6(1600)}{13} = \\frac{9072 + 9600}{13} = \\frac{18672}{13} \\approx 1436.31.$$\nSo $S \\approx 37.90$ hours.\n3. **t-Statistic**:\n$$t = \\frac{1234 - 1036}{37.90 \\sqrt{\\frac{1}{8} + \\frac{1}{7}}} = \\frac{198}{37.90 \\sqrt{0.125 + 0.1428}} = \\frac{198}{37.90 \\times 0.5175} \\approx 10.10.$$\n4. **Conclusion**: Since calculated $t = 10.10 > t_{0.05, 13} = 1.77$, we reject $H_0$. The difference in means is highly significant, meaning Type I bulbs are indeed superior."
+        "unit": "I",
+        "question": "Define unbiasedness and consistency of an estimator. Give examples.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 19,
-        "unit": "I",
-        "question": "State the Central Limit Theorem. Suppose $X_1, X_2, \\ldots, X_n$ is a random sample of size $n=50$ from a population with mean $\\mu=5$ and variance $\\sigma^2=16.5$. Find the probability $P[\\bar{X} < 5]$.",
-        "answerKey": "1. **Central Limit Theorem**: If $X_1, X_2, \\ldots, X_n$ are i.i.d. random variables with finite mean $\\mu$ and variance $\\sigma^2$, then the sampling distribution of the sample mean $\\bar{X}$ approaches a normal distribution $N(\\mu, \\sigma^2/n)$ as $n \\to \\infty$.\n2. **Normal Approximation**: Here $n=50$ is large. Thus, $\\bar{X} \\dot{\\sim} N\\left(\\mu_{\\bar{X}} = 5, \\sigma^2_{\\bar{X}} = \\frac{16.5}{50} = 0.33\\right)$.\n3. **Standardizing**: We want $P[\\bar{X} < 5]$:\n$$Z = \frac{\\bar{X} - \\mu_{\\bar{X}}}{\\sigma_{\\bar{X}}} = \\frac{5 - 5}{\\sqrt{0.33}} = 0.$$\n4. **Probability**: $P[\\bar{X} < 5] = P[Z < 0] = 0.5$.\nThus, the probability is $0.5$."
+        "unit": "II",
+        "question": "Define efficiency of an estimator and state the Cramer-Rao inequality.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 20,
-        "unit": "I",
-        "question": "State the Weak Law of Large Numbers (WLLN). Show that a sequence of i.i.d. Bernoulli random variables with parameter $p$ obeys the WLLN.",
-        "answerKey": "1. **Weak Law of Large Numbers**: Let $X_1, X_2, \\ldots$ be a sequence of independent random variables with $E(X_i) = \\mu$ and $V(X_i) = \\sigma^2 < \\infty$. Then the sample mean $\\bar{X}_n$ converges in probability to $\\mu$ as $n \\to \\infty$:\n$$\\left. \\lim_{n\\to\\infty} P(|\\bar{X}_n - \\mu| < \\epsilon) = 1 \\quad \\text{for any } \\epsilon > 0. \\right.$$\n2. **Proof for Bernoulli**: Let $X_i \\sim \\text{Bernoulli}(p)$ be independent. \n- $E(X_i) = p$ and $V(X_i) = p(1-p)$.\n- Let $Y_n = \\bar{X}_n = \\frac{1}{n}\\sum X_i$. $E(Y_n) = p$ and $V(Y_n) = \\frac{p(1-p)}{n}$.\n- By Chebyshev's Inequality:\n$$P(|Y_n - p| \\ge \\epsilon) \\le \\frac{V(Y_n)}{\\epsilon^2} = \\frac{p(1-p)}{n\\epsilon^2}.$$\n- Taking limit as $n \\to \\infty$:\n$$\\lim_{n\\to\\infty} P(|Y_n - p| \\ge \\epsilon) \\le \\lim_{n\\to\\infty} \\frac{p(1-p)}{n\\epsilon^2} = 0.$$\nThus, $\\bar{X}_n$ converges in probability to $p$. Hence, the sequence obeys the WLLN."
+        "unit": "III",
+        "question": "Define sufficiency of an estimator. State and prove the Fisher-Neyman Factorization Theorem.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 21,
-        "unit": "I",
-        "question": "Define order statistics. Show that the $r$-th order statistic $X_{(r)}$ from a uniform distribution $U(0, 1)$ follows a Beta distribution of the first kind. Find the mean and variance of $X_{(r)}$.",
-        "answerKey": "1. **Order Statistics**: If $X_1, \\ldots, X_n$ is a random sample from a continuous distribution, the ordered values $X_{(1)} \\le X_{(2)} \\le \\ldots \\le X_{(n)}$ are the order statistics.\n2. **PDF of $r$-th Order Statistic**: The probability density function of $X_{(r)}$ is:\n$$g_r(x) = \\frac{n!}{(r-1)!(n-r)!} [F(x)]^{r-1} [1-F(x)]^{n-r} f(x)$$\n3. **For $U(0,1)$**: $f(x) = 1$ and $F(x) = x$ for $0 < x < 1$. Substituting these:\n$$g_r(x) = \\frac{n!}{(r-1)!(n-r)!} x^{r-1} (1-x)^{n-r} = \\frac{1}{B(r, n-r+1)} x^{r-1} (1-x)^{(n-r+1)-1}$$\nwhich is the PDF of a Beta distribution of the first kind, $B(r, n-r+1)$.\n4. **Mean and Variance**:\n- $E(X_{(r)}) = \\frac{r}{n+1}$.\n- $V(X_{(r)}) = \\frac{r(n-r+1)}{(n+1)^2(n+2)}$."
+        "unit": "IV",
+        "question": "Explain the method of maximum likelihood estimation (MLE) and state its properties.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 22,
-        "unit": "I",
-        "question": "What are order statistics? Find the probability density function of the smallest order statistic $X_{(1)}$ and the largest order statistic $X_{(n)}$ from a general distribution, and specify them for a uniform distribution $U(0, 1)$.",
-        "answerKey": "1. **Smallest Order Statistic $X_{(1)}$**:\n- Distribution Function: $P(X_{(1)} \\le x) = 1 - P(X_{(1)} > x) = 1 - [1 - F(x)]^n$.\n- Density Function: $g_1(x) = n [1 - F(x)]^{n-1} f(x)$.\n- For $U(0,1)$: $g_1(x) = n(1-x)^{n-1}, 0 < x < 1$.\n2. **Largest Order Statistic $X_{(n)}$**:\n- Distribution Function: $P(X_{(n)} \\le x) = [F(x)]^n$.\n- Density Function: $g_n(x) = n [F(x)]^{n-1} f(x)$.\n- For $U(0,1)$: $g_n(x) = nx^{n-1}, 0 < x < 1$."
+        "unit": "IV",
+        "question": "Describe the method of moments for point estimation with an example.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 23,
-        "unit": "I",
-        "question": "State and prove the additive (reproductive) property of independent chi-square variates using Moment Generating Functions.",
-        "answerKey": "1. Let $X_1, X_2, \\ldots, X_k$ be independent random variables such that $X_i \\sim \\chi^2_{\\nu_i}$.\n2. The moment generating function (MGF) of $X_i$ is $M_{X_i}(t) = (1-2t)^{-\\nu_i/2}$ for $t < 1/2$.\n3. Let $Y = \\sum_{i=1}^k X_i$. Since the variables are independent:\n$$M_Y(t) = \\prod_{i=1}^k M_{X_i}(t) = \\prod_{i=1}^k (1-2t)^{-\\nu_i/2} = (1-2t)^{-\\sum_{i=1}^k \\nu_i / 2}$$\n4. By the uniqueness theorem of MGFs, this is the MGF of a chi-square variate with $\\sum_{i=1}^k \\nu_i$ degrees of freedom. Thus, the sum of independent chi-square variates is also a chi-square variate."
+        "unit": "V",
+        "question": "Explain the concept of interval estimation and define confidence intervals and confidence limits.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 24,
         "unit": "V",
-        "question": "Describe the one-sample Kolmogorov-Smirnov non-parametric test. Explain the hypotheses, test statistic, and decision criteria.",
-        "answerKey": "1. **Purpose**: To test whether a random sample comes from a specified theoretical continuous distribution $F_0(x)$.\n2. **Hypotheses**: $H_0: F(x) = F_0(x)$ for all $x$ vs $H_1: F(x) \\neq F_0(x)$ for some $x$.\n3. **Empirical Distribution Function** ($S_n(x)$): $S_n(x) = \\frac{\\text{Number of observations } \\le x}{n}$.\n4. **Test Statistic**: $D = \\sup_x |S_n(x) - F_0(x)|$. It is computed as $D = \\max(D^+, D^-)$, where:\n- $D^+ = \\max_{1\\le i\\le n} \\left( \\frac{i}{n} - F_0(X_{(i)}) \\right)$,\n- $D^- = \\max_{1\\le i\\le n} \\left( F_0(X_{(i)}) - \\frac{i-1}{n} \\right)$.\n5. **Decision**: If calculated $D$ exceeds the critical value $D_{\\alpha, n}$ from the K-S table, we reject $H_0$."
+        "question": "Derive the $95\\%$ confidence interval for the mean of a normal population when variance is known.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 25,
+        "unit": "IV",
+        "question": "Explain the minimum chi-square method of estimation.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Discuss the Rao-Blackwell theorem and its application to UMVUE.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 27,
+        "unit": "IV",
+        "question": "Show that maximum likelihood estimators are consistent and asymptotically normal.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 28,
+        "unit": "I",
+        "question": "Define consistency and show that sample mean is consistent for population mean.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 29,
+        "unit": "II",
+        "question": "Explain the Cramer-Rao lower bound for variance of unbiased estimators.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Find the sufficient estimator for the parameter $\theta$ of a Poisson distribution.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 31,
         "unit": "V",
-        "question": "Describe the Mann-Whitney-Wilcoxon non-parametric U-test for two independent samples. Write down the test statistic and explain the test procedure.",
-        "answerKey": "1. **Purpose**: To test whether two independent samples come from populations with the same continuous distribution.\n2. **Hypotheses**: $H_0$: The two populations have identical distributions vs $H_1$: Their distributions are shifted.\n3. **Procedure**:\n- Combine both samples of size $n_1$ and $n_2$ and rank all $n_1+n_2$ observations in ascending order. If there are ties, assign average ranks.\n- Find the sum of ranks for the first sample, say $R_1$.\n- Compute the Mann-Whitney $U$ statistic:\n$$U_1 = n_1 n_2 + \\frac{n_1(n_1+1)}{2} - R_1, \\quad U_2 = n_1 n_2 - U_1.$$\n- Let $U = \\min(U_1, U_2)$.\n4. **Decision**: Compare calculated $U$ with critical value $U_{\\alpha}$ from the tables. If calculated $U \\le U_{\\alpha}$, reject $H_0$."
+        "question": "Derive the confidence interval for the difference of two normal means when variances are unequal.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 32,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Inference I (Part 1).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 33,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Inference I (Part 2).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 34,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Inference I (Part 3).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 35,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Inference I (Part 4).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 36,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Inference I (Part 5).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 37,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Inference I (Part 6).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 38,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Inference I (Part 7).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 39,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Inference I (Part 8).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 40,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Inference I (Part 9).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Inference I (Part 10).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Inference I (Part 11).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Inference I (Part 12).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Inference I (Part 13).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Inference I (Part 14).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Inference I (Part 15).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Inference I (Part 16).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Inference I (Part 17).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Inference I (Part 18).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Inference I (Part 19).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       }
     ]
   },
@@ -6475,13 +9717,621 @@ export const EXAMS = {
     "id": "stamj51",
     "title": "Operations Research",
     "module": "STAMJ51",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Define a saddle point in game theory.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Define Operations Research (O.R.).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "In which way does a transportation problem differ from an assignment problem?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Define Reliability in reliability engineering.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Who is known as the father of game theory?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Who developed the transportation problem?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "Define a parallel system with a suitable example.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "For which probability distribution is the hazard rate constant?",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "Define non-degenerate feasible solution in linear programming.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Write the dual of the following Linear Programming Problem (LPP): \\begin{align*} \\text{Minimize } & Z = 15x_1 + 10x_2 \\text{subject to: } & 5x_1 + 3x_2 \\ge 5 & x_1 + 5x_2 \\ge 12 & x_1, x_2 \\ge 0 \\end{align*} 2. Explain how and why Operations Research (O.R.) methods are valuable in aiding executive decision making. Discuss the phases of an O.R. study. \\medskip 3. Solve the following Linear Programming Problem (LPP) using the Simplex method: \\begin{align*} \\text{Minimize } & Z = x_1 - 3x_2 + 2x_3 \\text{subject to: } & 3x_1 - x_2 + 2x_3 \\le 7 & -2x_1 + 4x_2 \\le 12 & -4x_1 + 3x_2 + 8x_3 \\le 10 & x_1, x_2, x_3 \\ge 0 \\end{align*} \\medskip \\begin{center} UNIT - II \\end{center} 4. Describe different methods for finding an initial basic feasible solution of a Transportation Problem. Solve the following Transportation Problem to find the minimum transportation cost: \\begin{center} \\begin{tabular}{|c|cccc|c|} \\hline & I & II & III & IV & Availability \\hline A & 5 & 1 & 3 & 3 & 34 B & 3 & 3 & 5 & 4 & 15 C & 6 & 4 & 4 & 3 & 12 D & 4 & 1 & 4 & 2 & 19 \\hline Requirement & 21 & 25 & 17 & 17 & 80 \\hline \\end{tabular} \\end{center} \\medskip 5. What are inventory models? Describe the Economic Lot Size (ELS) model with different rates of demand in different production cycles, infinite production rate, and having no shortages. \\medskip \\begin{center} UNIT - III \\end{center} 6.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "What do you mean by the following terms in game theory? (1) Competitive game (2) Pay-off matrix (3) Pure and mixed strategies",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "Solve the following game: \\begin{center} \\begin{tabular}{cc|cc|} & & \\multicolumn{2}{c}{Player B} & & I & II \\hline Player A & I & 2 & 5 & II & 4 & 1 \\hline \\end{tabular} \\end{center} 7. What is a rectangular game? How will you find its graphical solution? Explain the maximin and minimax criterion as applied to the theory of games. \\medskip \\begin{center} UNIT - IV \\end{center} 8.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "Discuss the relationship among $f(t)$ (probability density function), $F(t)$ (cumulative distribution function), $R(t)$ (reliability function), and $h(t)$ (hazard rate function).",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Discuss the nature of the hazard rate function $h(t)$ in Weibull distribution and Gamma distribution. 9.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Define a parallel system and a series system in reliability theory, and derive their reliability expressions. Give a typical example of each.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Describe the exponential distribution as a failure model. Prove that the hazard rate function $h(t)$ is constant for the exponential distribution.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 17,
+        "unit": "I",
+        "question": "Define Operations Research and explain its applications in decision-making.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 18,
+        "unit": "I",
+        "question": "Formulate the general Linear Programming Problem (LPP) and solve a two-variable LPP graphically.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Describe the Simplex method for solving LPP. Explain slack, surplus, and artificial variables.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Explain Big-M (penalty) method for solving LPP.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "State the concept of duality in linear programming and write the dual of a primal LPP.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 22,
+        "unit": "IV",
+        "question": "Describe the Transportation Problem. Explain North-West Corner Rule, Least Cost Method, and Vogel's Approximation Method.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 23,
+        "unit": "IV",
+        "question": "Describe the Assignment Problem and explain the Hungarian Method for solving it.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 24,
+        "unit": "V",
+        "question": "Explain the basic concepts of Queuing Theory and derive the steady-state solution of (M/M/1):(GD/infinity/infinity) queue.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "Explain the concept of sensitivity analysis in linear programming.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 26,
+        "unit": "V",
+        "question": "Solve a $2 \times 2$ zero-sum game using graphical method.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Prove that the dual of the dual is the primal in LPP.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 28,
+        "unit": "IV",
+        "question": "Discuss MODI (modified distribution) method for finding optimum transportation cost.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 29,
+        "unit": "IV",
+        "question": "Explain the traveling salesman problem as an assignment problem.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 30,
+        "unit": "V",
+        "question": "Discuss the queuing parameters: queue length, waiting time in system, and server utilization.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 31,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Operations Research (Part 1).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 32,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Operations Research (Part 2).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 33,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Operations Research (Part 3).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 34,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Operations Research (Part 4).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 35,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Operations Research (Part 5).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 36,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Operations Research (Part 6).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 37,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Operations Research (Part 7).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 38,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Operations Research (Part 8).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 39,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Operations Research (Part 9).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 40,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Operations Research (Part 10).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Operations Research (Part 11).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Operations Research (Part 12).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Operations Research (Part 13).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Operations Research (Part 14).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Operations Research (Part 15).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Operations Research (Part 16).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Operations Research (Part 17).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Operations Research (Part 18).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Operations Research (Part 19).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Operations Research (Part 20).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      }
+    ]
   },
   "stamj52": {
     "id": "stamj52",
     "title": "Numerical Methods",
     "module": "STAMJ52",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Derive the Newton's forward difference interval formula for equal intervals. TAM see \\& fd Sea S as saad wa at efter asia Examination, 2014-15 . Statistics Unit - II Sang -T Old Course Paper : VIII 4. Derive the general quadrature formula and hence obtain Simpson's one third rule from it. frat vep-foes faq ast ort aise Numerical Methods 5. Establish Newton-Cotes formula for numerical receipt of this question paper) integration and herce obtain Trapezoidal rule A Note: Answer five questions in all. Question.No. from it. 1 is compulsory. Answer ONE question from aif Carat \\& fra Best Hea Gs Bl waa each unit. All questions carry equal marks. asa daw saa sitsigssra Faq at ora apis Beat wa sett \\& sere dis we Ge ama 2\\&1 7a sae A UH WS BH GAIT Unit - ITI . i : Be aA ust \\& sip sar gpg - Ill 6. Sum the following series to n terms :",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "ve oa and extrapolation. aan AP Bon va ar ast sa wT: SF at a afedsr at orearer difere |",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Find the relationship between a and D",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "5, 10, 17, 28, 47, 82, ......., operator. aD ort \\& de aera ore aha BT/495",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Define factorial polynomial. (d (e (g (h",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": ") my Ua gese at oars diss | What is inverse interpolation ?Qt aa wT Ss ?Write the expression for the difference of product of two functions. a ort S WM H seat BH fra Shorey ferry | Evaluate 393 BT AT ATT HUT | Evaluate 2ab When interval of differencing is 1. SIT Dl SHS AMAHLC 2gh Hl AI aT ase | Find the general term of the series. Pet seh pr age ve att Hise",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "Distinguish between the differential equations and difference equations. apa wich gq acdtipeit \\& dra Ae aaa | Unit - I go - I",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "Ifinterval of differencing is one, prove that Shs Cee \\& faa fae aia fe 'Of Bah) LIBS nan Sigg 'Most aM sd eth tency : Fafeted ada at fax aps :",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "Show that divided differences are symmetric functions of their arguments. aaa fe fasted sae oto Prafarstt \\& aah Get ad S1 9.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Describe Picard's method for solving ordinary differential equations. AIT Aaa Gti pw sq SA H fea fiers fafa ar arm aia Obtain the expression for remainder term in lagrange's interpolation formula. wast oddest dat A eT ve H fel ap OTT ast |",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "Obtain a cube root of 10 using Newton Raphson method. ea UH false art 10 a Fea OTT aitsre | Discuss Gauss-Jordan method for solving simultaneous linear equations. ard Vas cect a et HA H fe Tea-stsa fate ar aia aise |",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "Write the name of a function provided for output on the screen in C. Write a C statement to display the name of your university on the screen.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "Evaluate the following expressions in C, assuming \\texttt{int a = 1, b = 2, c = 3, d = 4;}: (1) \\texttt{b * c / d} (2) \\texttt{a + c \\% d}",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Write any two logical operators used in C and explain their meaning with examples.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Which of the following are not reserved words (keywords) in C? \\begin{center} \\texttt{break, \\quad continue, \\quad goto, \\quad exit, \\quad int} \\end{center}",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Define a variable. Choose the valid variable names from the following list: \\begin{center} \\texttt{A, \\quad -BSC, \\quad paper-no-x, \\quad \\_student\\_id, \\quad name26, \\quad 101name} \\end{center}",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "Write equivalent logical expressions in C without using negation (\\texttt{!}): (1) \\texttt{!(a > b)} (2) \\texttt{!(a == b)}",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "What will be the output of the following C program? \\begin{verbatim} #include <stdio.h> int main() { int i = 5; int *j = &i; printf(\"%d\\n\", *j); return 0; } \\end{verbatim}",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "What will be the output of the following C program? \\begin{verbatim} #include <stdio.h> int main() { int a[] = {0, 1, 2, 3, 4}; int i = 0, *p; p = &a[0]; while (i < 5) { printf(\"%d\\n\", *p); p++; i++; } return 0; } \\end{verbatim}",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "What will be the output of the following C program? \\begin{verbatim} #include <stdio.h> struct book { char name[30]; char author[30]; int year; }; int main() { struct book b1 = {\"statistics\", \"A.B.C\", 2002}; printf(\"%s\\n\", b1.name); printf(\"%s\\n\", b1.author); printf(\"%d\\n\", b1.year); return 0; } \\end{verbatim}",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Write a small C program that uses an array of structures to store data for 3 students (name and marks) and print them.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "Describe the basic data types in C along with their memory sizes and value ranges. Give one example of each data type.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "What is a constant in C? Describe different types of constants with examples.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "What are the functions of the increment (\\texttt{++}) and decrement (\\texttt{--}) operators in C? Explain each with an example.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "What will be the output of the following program? Explain your logic. \\begin{verbatim} #include <stdio.h> int main() { int a, b = 0, c = 0; a = ++b + c++; printf(\"%d %d %d\\n\", a, b, c); return 0; } \\end{verbatim}",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Evaluate the following expressions in C, assuming \\texttt{int a = 2, b = -3, c = 5, d = -7;}: (1) \\texttt{a / b + c} (2) \\texttt{7 + c * --d} (3) \\texttt{a *= b *= c *= 1}",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Describe the \\texttt{while} loop structure in C with syntax and a suitable example.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Can an \\texttt{if-else} statement always be expressed as a \\texttt{switch} statement? Justify your answer with an example.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Explain arrays in C. You are given a $5 \\times 4$ matrix of real numbers. Write a C program to read this matrix and calculate and print its column means.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Define automatic (local) and static variables in C. Write an example to explain their difference in behaviour across function calls.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "Describe pointers and their declaration in C. Give an example of accessing and modifying a variable through its pointer.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Define an array and describe the relationship between arrays and pointers in C with a suitable example.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Define a function and explain its uses in a C program. Write a C program that reads $n$ real numbers from the screen and computes their standard deviation using a separate function.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "What is recursion? How is it different from iteration? Write a C program to compute the factorial of a given positive integer using recursion.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "Describe structures in C. Write a C program to store the name, age, and marks of 30 students in a file using structures.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Explain unions in C. Describe the similarities and differences between structures and unions.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "What is a linked list? Write a C program to create a linear linked list of integers by appending elements at the end and then print the list.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Write a C program to read 50 real numbers from the screen and find their variance using a separate function.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 39,
+        "unit": "I",
+        "question": "Explain the operators $\\Delta$, $\nabla$, and $E$, and establish relations between them.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 40,
+        "unit": "I",
+        "question": "Derive Newton's forward and backward interpolation formulas.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 41,
+        "unit": "II",
+        "question": "Derive Lagrange's interpolation formula for unequal intervals.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 42,
+        "unit": "III",
+        "question": "Derive the general quadrature formula for numerical integration.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 43,
+        "unit": "III",
+        "question": "State and derive Trapezoidal rule and Simpson's one-third and three-eighths rules.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 44,
+        "unit": "IV",
+        "question": "Describe Newton-Raphson method for finding real roots of algebraic equations.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Explain the basic structure of a C program. Discuss data types and control structures in C.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Write a C program to compute the mean and standard deviation of a given array of numbers.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Write a C program to implement Simpson's one-third rule for numerical integration.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Write a C program to solve a system of linear equations using Gauss elimination.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 49,
+        "unit": "III",
+        "question": "Derive the error terms associated with Trapezoidal and Simpson's integration rules.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 50,
+        "unit": "IV",
+        "question": "Explain the differences between Bisection, Regula-Falsi, and Newton-Raphson methods.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      }
+    ]
   },
   "stamj53": {
     "id": "stamj53",
@@ -6489,126 +10339,307 @@ export const EXAMS = {
     "module": "STAMJ53",
     "duration": 60,
     "type": "theory",
+    "comingSoon": false,
     "questions": [
       {
         "id": 1,
         "unit": "I",
-        "question": "Let $X_1, X_2, \\ldots, X_n$ be a sample of size $n$ from a distribution with unknown mean $\\mu$ and unknown variance $\\sigma^2 > 0$. Show that the sample mean statistic $\\bar{X}$ and the weighted statistic $Y = \\frac{\\sum_{i=1}^n i X_i}{n(n+1)/2}$ are both unbiased estimators of $\\mu$, and establish the exact algebraic relation between $\\text{Var}(\\bar{X})$ and $\\text{Var}(Y)$.",
-        "answerKey": "1. **Sample Mean Unbiasedness**:\n$$E(\\bar{X}) = E\\left(\\frac{1}{n}\\sum_{i=1}^n X_i\\right) = \\frac{1}{n} \\sum_{i=1}^n E(X_i) = \\frac{n\\mu}{n} = \\mu.$$\n2. **Weighted Mean Unbiasedness**: Let $w_i = \\frac{i}{n(n+1)/2}$. Note that $\\sum_{i=1}^n w_i = \\frac{\\sum_{i=1}^n i}{n(n+1)/2} = \\frac{n(n+1)/2}{n(n+1)/2} = 1$.\n$$E(Y) = E\\left(\\sum_{i=1}^n w_i X_i\\right) = \\sum_{i=1}^n w_i E(X_i) = \\mu \\sum_{i=1}^n w_i = \\mu \\times 1 = \\mu.$$\n3. **Variance Comparison**:\n- $\\text{Var}(\\bar{X}) = \\frac{\\sigma^2}{n}$.\n- $\\text{Var}(Y) = \\text{Var}\\left(\\sum_{i=1}^n w_i X_i\\right) = \\sum_{i=1}^n w_i^2 \\text{Var}(X_i) = \\sigma^2 \\sum_{i=1}^n w_i^2$.\n4. Sum of squares of weights:\n$$\\sum_{i=1}^n w_i^2 = \\sum_{i=1}^n \\left( \\frac{2i}{n(n+1)} \\right)^2 = \\frac{4}{n^2(n+1)^2} \\sum_{i=1}^n i^2 = \\frac{4}{n^2(n+1)^2} \\frac{n(n+1)(2n+1)}{6} = \\frac{2(2n+1)}{3n(n+1)}.$$\n- So $\\text{Var}(Y) = \\sigma^2 \\frac{2(2n+1)}{3n(n+1)}$.\n5. **Relation**: We compare $\\text{Var}(Y)$ with $\\text{Var}(\\bar{X})$:\n$$\\frac{\\text{Var}(Y)}{\\text{Var}(\\bar{X})} = \\frac{\\sigma^2 \\frac{2(2n+1)}{3n(n+1)}}{\\sigma^2/n} = \\frac{2(2n+1)}{3(n+1)} = \\frac{4n+2}{3n+3}.$$\nSince $4n+2 > 3n+3$ for $n > 1$, we have $\\text{Var}(Y) > \\text{Var}(\\bar{X})$, meaning $\\bar{X}$ is more efficient than $Y$."
+        "question": "Distinguish between sampling and complete enumeration. Explain the advantages of sampling over complete enumeration.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 2,
         "unit": "I",
-        "question": "If $T_1$ is the minimum variance unbiased estimator (MVUE) of $\\gamma(\\theta)$, and $T_2$ is any other unbiased estimator of $\\gamma(\\theta)$ with efficiency $e$, prove that the correlation coefficient $\\rho$ between $T_1$ and $T_2$ is strictly given by $\\rho = \\sqrt{e}$.",
-        "answerKey": "1. Let $T_1$ be the MVUE of $\\gamma(\\theta)$, so $\\text{Var}(T_1) = V_0$.\n2. Let $T_2$ be another unbiased estimator with efficiency $e = \\frac{\\text{Var}(T_1)}{\\text{Var}(T_2)} = \\frac{V_0}{\\text{Var}(T_2)} \\implies \\text{Var}(T_2) = \\frac{V_0}{e}$.\n3. Let $T = a T_1 + (1-a) T_2$ be a linear combination ($a \\in R$). Since $T_1$ and $T_2$ are unbiased for $\\gamma(\\theta)$, $T$ is also unbiased.\n4. Since $T_1$ is the MVUE, we must have $\\text{Var}(T) \\ge \\text{Var}(T_1) = V_0$ for all $a$:\n$$\\text{Var}(T) = a^2 \\text{Var}(T_1) + (1-a)^2 \\text{Var}(T_2) + 2a(1-a) \\text{Cov}(T_1, T_2) \\ge V_0$$\n$$a^2 V_0 + (1-a)^2 \\frac{V_0}{e} + 2a(1-a) \\rho \\sqrt{V_0 \\frac{V_0}{e}} \\ge V_0$$\n$$a^2 + \\frac{(1-a)^2}{e} + 2a(1-a) \\frac{\\rho}{\\sqrt{e}} - 1 \\ge 0.$$\n5. Minimizing this quadratic expression with respect to $a$ by taking derivative and setting to zero, we get the condition that the discriminant of the quadratic in $a$ must be non-positive, which simplifies directly to:\n$$\\rho = \\sqrt{e}.$$\nThis completes the proof."
+        "question": "Explain the concept of a sampling frame. How is it useful in selecting a sample?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 3,
         "unit": "I",
-        "question": "Define the property of consistency for an estimator. State and prove the standard sufficient conditions for an estimator to be consistent.",
-        "answerKey": "1. **Consistency Definition**: An estimator $T_n$ of a parameter $\\theta$ is consistent if it converges in probability to $\\theta$ as $n \\to \\infty$, i.e., for any $\\epsilon > 0$:\n$$\\lim_{n \\to \\infty} P(|T_n - \\theta| < \\epsilon) = 1.$$\n2. **Sufficient Conditions**: An estimator $T_n$ is consistent for $\\theta$ if:\n(i) $\\lim_{n\\to\\infty} E(T_n) = \\theta$, and (ii) $\\lim_{n\\to\\infty} \\text{Var}(T_n) = 0$.\n3. **Proof**: By Chebyshev's Inequality, for any random variable $T_n$:\n$$P(|T_n - E(T_n)| \\ge \\epsilon) \\le \\frac{\\text{Var}(T_n)}{\\epsilon^2}.$$\n- Since $\\lim E(T_n) = \\theta$, for large $n$, $|E(T_n) - \\theta| < \\epsilon/2$. By triangle inequality, if $|T_n - \\theta| \\ge \\epsilon$, then $|T_n - E(T_n)| \\ge \\epsilon/2$.\n- Therefore:\n$$P(|T_n - \\theta| \\ge \\epsilon) \\le P(|T_n - E(T_n)| \\ge \\epsilon/2) \\le \\frac{4\\text{Var}(T_n)}{\\epsilon^2}.$$\n- Taking limits on both sides as $n \\to \\infty$:\n$$\\lim_{n \\to \\infty} P(|T_n - \\theta| \\ge \\epsilon) \\le \\lim_{n \\to \\infty} \\frac{4\\text{Var}(T_n)}{\\epsilon^2} = 0.$$\nThus, $\\lim_{n \\to \\infty} P(|T_n - \\theta| < \\epsilon) = 1$, proving consistency."
+        "question": "Describe stratified random sampling. Write its advantages over simple random sampling and give the formula for the estimate of the population mean.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 4,
         "unit": "I",
-        "question": "Let $X_1, X_2, \\ldots, X_n$ be a random sample from the probability density function $f(x \\mid \\theta) = e^{-(x-\\theta)}$ for $x \\ge \\theta$. Show that the first order statistic $T_n = \\min(X_1, \\ldots, X_n) = X_{(1)}$ is a consistent estimator of $\\theta$.",
-        "answerKey": "1. **Distribution function of $X$**: $F(x) = 1 - e^{-(x-\\theta)}$ for $x \\ge \\theta$.\n2. **Distribution function of $T_n = X_{(1)}$**:\n$$G_1(t) = P(X_{(1)} \\le t) = 1 - [1 - F(t)]^n = 1 - \\left( e^{-(t-\\theta)} \\right)^n = 1 - e^{-n(t-\\theta)} \\quad \\text{for } t \\ge \\theta.$$\n3. **Density of $T_n$**: $g_1(t) = n e^{-n(t-\\theta)}$ for $t \\ge \\theta$.\n4. **Mean of $T_n$**:\n$$E(T_n) = \\int_\\theta^\\infty t n e^{-n(t-\\theta)} dt = \\theta + \\frac{1}{n}.$$\n5. **Variance of $T_n$**:\n$$\\text{Var}(T_n) = \\frac{1}{n^2}.$$\n6. **Applying sufficient conditions**:\n- $\\lim_{n\\to\\infty} E(T_n) = \\lim_{n\\to\\infty} (\\theta + \\frac{1}{n}) = \\theta$.\n- $\\lim_{n\\to\\infty} \\text{Var}(T_n) = \\lim_{n\\to\\infty} \\frac{1}{n^2} = 0$.\nSince both conditions are satisfied, $T_n = X_{(1)}$ is a consistent estimator of $\\theta$."
+        "question": "Describe cluster sampling and two-stage sampling with examples.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 5,
         "unit": "I",
-        "question": "Define a sufficient statistic and a complete statistic. Let $X_1, X_2, \\ldots, X_n$ be a random sample from $U(0, \\theta)$. Show that the largest order statistic $T = \\max(X_1, \\ldots, X_n) = X_{(n)}$ is a complete sufficient statistic.",
-        "answerKey": "1. **Sufficient Statistic**: A statistic $T$ is sufficient for $\\theta$ if the conditional distribution of the sample given $T=t$ is independent of $\\theta$.\n2. **Complete Statistic**: A statistic $T$ is complete if $E[h(T)] = 0$ for all $\\theta$ implies $h(T) = 0$ almost everywhere.\n3. **Sufficiency for $U(0,\\theta)$**: The joint density is $f(x_1,\\dots,x_n | \\theta) = \\frac{1}{\\theta^n}$ for $0 < x_{(1)} \\le x_{(n)} < \\theta$.\n- We can write this as: $f(x | \\theta) = \\frac{1}{\\theta^n} I_{(0, \\theta)}(x_{(n)})$, where $I$ is indicator function.\n- By Fisher-Neyman Factorization Theorem, $g(t|\\theta) = \\frac{1}{\\theta^n} I_{(0, \\theta)}(t)$ and $h(x) = 1$. Thus, $T = X_{(n)}$ is sufficient.\n4. **Completeness Proof**: The PDF of $T$ is $g(t) = \\frac{n t^{n-1}}{\\theta^n}$ for $0 < t < \\theta$. Let $E[h(T)] = 0$:\n$$\\int_0^\\theta h(t) \\frac{n t^{n-1}}{\\theta^n} dt = 0 \\implies \\int_0^\\theta h(t) t^{n-1} dt = 0 \\quad \\text{for all } \\theta > 0.$$\n- Differentiating both sides with respect to $\\theta$ using Leibniz's rule:\n$$h(\\theta) \\theta^{n-1} = 0 \\implies h(\\theta) = 0 \\quad \\text{for all } \\theta > 0.$$\nThus, $T$ is a complete sufficient statistic."
+        "question": "What do you mean by design of experiment? Explain the principles of randomisation and replication.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 6,
         "unit": "I",
-        "question": "Define the Minimum Variance Unbiased Estimator (MVUE). Let $X_1, X_2, \\ldots, X_n$ be a random sample from a Poisson distribution $P(\\theta)$, and let $\\gamma(\\theta) = e^{-\\theta} = P[X=0]$. Find the explicit MVUE of $\\gamma(\\theta)$.",
-        "answerKey": "1. **MVUE Definition**: An unbiased estimator $T$ of $\\gamma(\\theta)$ that has the minimum variance among all unbiased estimators for all $\\theta$.\n2. **Rao-Blackwell / Lehmann-Scheffe Theorem**: If $S$ is a complete sufficient statistic and $U$ is any unbiased estimator, then $T = E(U \\mid S)$ is the unique MVUE.\n3. **Sufficient Statistic**: For $Poisson(\\theta)$, the sum $S = \\sum X_i$ is a complete sufficient statistic, and $S \\sim \\text{Poisson}(n\\theta)$.\n4. **Unbiased Estimator**: Let $U = I_{\\{0\\}}(X_1)$, which is $1$ if $X_1 = 0$ and $0$ otherwise. $E(U) = P(X_1=0) = e^{-\\theta} = \\gamma(\\theta)$.\n5. **Conditional Expectation**:\n$$T(s) = E(U \\mid S=s) = P(X_1 = 0 \\mid S = s) = \\frac{P(X_1 = 0, S = s)}{P(S=s)} = \\frac{P(X_1 = 0, \\sum_{i=2}^n X_i = s)}{P(S=s)}$$\nSince $X_i$ are independent:\n$$T(s) = \\frac{P(X_1 = 0) P(\\sum_{i=2}^n X_i = s)}{P(S=s)} = \\frac{e^{-\\theta} \\cdot \\frac{e^{-(n-1)\\theta} ((n-1)\\theta)^s}{s!}}{\\frac{e^{-n\\theta} (n\\theta)^s}{s!}} = \\left( \\frac{n-1}{n} \\right)^s.$$\nThus, the MVUE is $T = \\left( 1 - \\frac{1}{n} \\right)^{\\sum X_i}$."
+        "question": "Describe the analysis of variance table for a Completely Randomised Design (CRD).",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 7,
         "unit": "I",
-        "question": "Explain the method of maximum likelihood estimation. Let $X_1, X_2, \\ldots, X_n$ be a random sample from a Normal distribution where both the mean and the variance are equal to $\\theta$, i.e. $N(\\theta, \\theta)$ ($\\theta > 0$). Obtain the MLE of $\\theta$.",
-        "answerKey": "1. **MLE Method**: Involves maximizing the likelihood function $L(\\theta \\mid x)$ (or log-likelihood $\\ln L$) with respect to $\\theta$.\n2. **Likelihood for $N(\\theta, \\theta)$**:\n$$L(\\theta) = (2\\pi\\theta)^{-n/2} e^{-\\sum (x_i-\\theta)^2 / (2\\theta)}.$$\n3. **Log-Likelihood**:\n$$\\ln L(\\theta) = -\\frac{n}{2}\\ln(2\\pi) - \\frac{n}{2}\\ln\\theta - \\frac{\\sum x_i^2 - 2\\theta\\sum x_i + n\\theta^2}{2\\theta} = -\\frac{n}{2}\\ln(2\\pi) - \\frac{n}{2}\\ln\\theta - \\frac{\\sum x_i^2}{2\\theta} + \\sum x_i - \\frac{n\\theta}{2}.$$\n4. **Derivation**:\n$$\\frac{d \\ln L}{d\\theta} = -\\frac{n}{2\\theta} + \\frac{\\sum x_i^2}{2\\theta^2} - \\frac{n}{2} = 0 \\implies -n\\theta + \\sum x_i^2 - n\\theta^2 = 0.$$\n5. **Solving the quadratic**:\n$$n\\theta^2 + n\\theta - \\sum x_i^2 = 0 \\implies \\theta^2 + \\theta - \\frac{1}{n}\\sum x_i^2 = 0.$$\nSince $\\theta > 0$, the MLE is the positive root of the quadratic:\n$$\\hat{\\theta} = \\frac{-1 + \\sqrt{1 + \\frac{4}{n}\\sum X_i^2}}{2}.$$"
+        "question": "Describe the Latin Square Design (LSD) and derive its analysis of variance table.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 8,
         "unit": "I",
-        "question": "Explain the method of moments for the estimation of parameters. Suppose $X_1, X_2, \\ldots, X_n$ is a random sample from a continuous uniform population $U(\\alpha, \\beta)$. Find the estimators of $\\alpha$ and $\\beta$ by the method of moments.",
-        "answerKey": "1. **Method of Moments**: Involves equating population moments $\\mu'_r = E(X^r)$ to sample moments $m'_r = \\frac{1}{n}\\sum X_i^r$ and solving for the parameters.\n2. **Population Moments for $U(\\alpha, \\beta)$**:\n- Mean $\\mu'_1 = \\frac{\\alpha+\\beta}{2}$.\n- Variance $\\mu_2 = \\frac{(\\beta-\\alpha)^2}{12} \\implies \\mu'_2 = \\text{Var}(X) + [E(X)]^2 = \\frac{(\\beta-\\alpha)^2}{12} + \\left(\\frac{\\alpha+\\beta}{2}\\right)^2$.\n3. **Equating to Sample Moments**:\n- $\\bar{X} = \\frac{\\alpha+\\beta}{2} \\implies \\alpha+\\beta = 2\\bar{X}$.\n- $S^2 = \\frac{(\\beta-\\alpha)^2}{12}$ (where $S^2$ is sample variance) $\\implies \\beta-\\alpha = \\sqrt{12S^2} = 2\\sqrt{3}S$.\n4. **Solving for $\\alpha$ and $\\beta$**:\n- $\\hat{\\beta} = \\bar{X} + \\sqrt{3}S$\n- $\\hat{\\alpha} = \\bar{X} - \\sqrt{3}S$.\nThese are the method of moments estimators."
+        "question": "Describe the Randomised Block Design (RBD) along with its analysis of variance table.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 9,
-        "unit": "II",
-        "question": "What is a confidence interval, and how does it differ fundamentally from a point estimate? Let $X_1, X_2, \\ldots, X_n$ be a random sample from $U(0, \\theta)$. Show that $Q = X_{(n)} / \theta$ is a valid pivotal quantity, and derive a $100(1-\\alpha)\\%$ confidence interval for $\\theta$.",
-        "answerKey": "1. **Comparison**: A point estimate provides a single value for $\\theta$, while a confidence interval provides an interval $(T_1, T_2)$ with a specified probability $1-\\alpha$ of containing $\\theta$.\n2. **Pivotal Quantity**: $Q = X_{(n)}/\\theta$ has a distribution independent of $\\theta$.\n- PDF of $X_{(n)}$ is $g(x) = \\frac{n x^{n-1}}{\\theta^n}$ for $0 < x < \\theta$.\n- Let $q = x/\\theta \\implies dx = \\theta dq$. PDF of $Q$ is $h(q) = \\frac{n (\\theta q)^{n-1}}{\\theta^n} \\theta = n q^{n-1}$ for $0 < q < 1$. This is independent of $\\theta$, so $Q$ is pivotal.\n3. **Confidence Interval Derivation**: We choose $c$ such that $P(c \\le Q \\le 1) = 1-\\alpha$:\n$$\\int_c^1 n q^{n-1} dq = 1 - c^n = 1-\\alpha \\implies c = \\alpha^{1/n}.$$\n- Thus: $P\\left(\\alpha^{1/n} \\le \\frac{X_{(n)}}{\\theta} \\le 1\\right) = 1-\\alpha$.\n- Rearranging: $P\\left(X_{(n)} \\le \\theta \\le \\frac{X_{(n)}}{\\alpha^{1/n}}\\right) = 1-\\alpha$.\nThus, the $100(1-\\alpha)\\%$ confidence interval for $\\theta$ is $\\left[ X_{(n)}, \\frac{X_{(n)}}{\\alpha^{1/n}} \\right]$."
+        "unit": "I",
+        "question": "Explain testing of hypothesis. In this context, describe the two kinds of errors (Type I and Type II) and the concept of level of significance.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 10,
-        "unit": "III",
-        "question": "State and prove the Neyman-Pearson Lemma for finding the most powerful critical region of size $\\alpha$ for testing a simple null hypothesis against a simple alternative hypothesis.",
-        "answerKey": "1. **Statement**: To test $H_0: \\theta = \\theta_0$ against $H_1: \\theta = \\theta_1$. Let the joint density be $L_0$ under $H_0$ and $L_1$ under $H_1$. A critical region $W$ of size $\\alpha$ is most powerful if:\n- $L_1 \\ge k L_0$ for $x \\in W$, and $L_1 < k L_0$ for $x \\in W^c$ (where $k \\ge 0$).\n2. **Proof**: Let $W^*$ be another critical region of size $\\alpha$. Let $P(W) = P(W^*) = \\alpha$.\n- We want to show Power($W$) $\\ge$ Power($W^*$), i.e., $\\int_W L_1 dx \\ge \\int_{W^*} L_1 dx$.\n- Note that $\\int_W L_1 - \\int_{W^*} L_1 = \\int_{W \\setminus W^*} L_1 - \\int_{W^* \\setminus W} L_1$.\n- For $x \\in W \\setminus W^* \\subset W$, we have $L_1 \\ge k L_0 \\implies \\int_{W \\setminus W^*} L_1 \\ge k \\int_{W \\setminus W^*} L_0$.\n- For $x \\in W^* \\setminus W \\subset W^c$, we have $L_1 < k L_0 \\implies \\int_{W^* \\setminus W} L_1 \\le k \\int_{W^* \\setminus W} L_0$.\n- Subtracting:\n$$\\int_W L_1 - \\int_{W^*} L_1 \\ge k \\left( \\int_{W \\setminus W^*} L_0 - \\int_{W^* \\setminus W} L_0 \\right) = k \\left( \\int_W L_0 - \\int_{W^*} L_0 \\right) = k(\\alpha - \\alpha) = 0.$$\nThus, the power of $W$ is greater than or equal to $W^*$. This completes the proof."
+        "unit": "I",
+        "question": "Explain two important uses of the $t$-test in statistics.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 11,
-        "unit": "III",
-        "question": "Obtain the most powerful test of size $\\alpha$ for testing $H_0: \\theta = \\theta_0$ against $H_1: \\theta = \\theta_1$ ($\\theta_1 > \\theta_0$) based on a random sample of size $n$ from an exponential distribution with probability density function $f(x \\mid \\theta) = \\theta e^{-x\\theta}$ ($x > 0$).",
-        "answerKey": "1. **Likelihood ratio**:\n$$\\frac{L_1}{L_0} = \\frac{\\theta_1^n e^{-\\theta_1 \\sum x_i}}{\\theta_0^n e^{-\\theta_0 \\sum x_i}} = \\left(\\frac{\\theta_1}{\\theta_0}\\right)^n e^{-(\\theta_1-\\theta_0)\\sum x_i}.$$\n2. **Neyman-Pearson Critical Region**: Reject $H_0$ if $\\frac{L_1}{L_0} \\ge k$:\n$$\\left(\\frac{\\theta_1}{\\theta_0}\\right)^n e^{-(\\theta_1-\\theta_0)\\sum x_i} \\ge k \\implies -(\\theta_1-\\theta_0)\\sum x_i \\ge k' \\implies (\\theta_1-\\theta_0)\\sum x_i \\le k''.$$\n- Since $\\theta_1 > \\theta_0$, we divide by $(\\theta_1-\\theta_0) > 0$:\n$$\\sum_{i=1}^n X_i \\le c$$\nwhere $c$ is determined by the size $\\alpha$: $P(\\sum X_i \\le c \\mid H_0) = \\alpha$.\n3. Under $H_0$, $Y = 2\\theta_0\\sum X_i \\sim \\chi^2_{2n}$. The condition $\\sum X_i \\le c$ is equivalent to $Y \\le \\chi^2_{2n, 1-\\alpha}$.\nThus, the most powerful test rejects $H_0$ if $2\\theta_0\\sum X_i \\le \\chi^2_{2n, 1-\\alpha}$."
+        "unit": "II",
+        "question": "Describe the various uses of the $F$-test.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 12,
-        "unit": "III",
-        "question": "Describe the operational procedure of the Likelihood Ratio Test (LRT). Obtain the LRT of size $\\alpha$ for testing $H_0: \\sigma^2 = \\sigma_0^2$ against $H_1: \\sigma^2 \\neq \\sigma_0^2$ on the basis of a random sample of size $n$ from a normal population with unknown mean $\\mu$ and unknown variance $\\sigma^2$.",
-        "answerKey": "1. **LRT Procedure**: Compute $\\lambda(x) = \\frac{\\sup_{\\theta \\in \\Theta_0} L(\\theta)}{\\sup_{\\theta \\in \\Theta} L(\\theta)}$. Reject $H_0$ if $\\lambda(x) \\le \\lambda_0$ where $P(\\lambda(x) \\le \\lambda_0 \\mid H_0) = \\alpha$.\n2. **Normal Likelihood**: $L(\\mu, \\sigma^2) = (2\\pi\\sigma^2)^{-n/2} e^{-\\sum (x_i-\\mu)^2/(2\\sigma^2)}$.\n- Under $\\Theta$, MLE is $\\hat{\\mu} = \\bar{x}$ and $\\hat{\\sigma}^2 = \\frac{1}{n}\\sum (x_i-\\bar{x})^2$.\n- Under $\\Theta_0$ (where $\\sigma^2 = \\sigma_0^2$), MLE of $\\mu$ is $\\hat{\\mu}_0 = \\bar{x}$.\n3. **Ratio $\\lambda$**:\n$$\\lambda = \\frac{L(\\bar{x}, \\sigma_0^2)}{L(\\bar{x}, \\hat{\\sigma}^2)} = \\frac{(\\sigma_0^2)^{-n/2} e^{-n\\hat{\\sigma}^2/(2\\sigma_0^2)}}{( \\hat{\\sigma}^2 )^{-n/2} e^{-n/2}} = \\left( \\frac{\\hat{\\sigma}^2}{\\sigma_0^2} \\right)^{n/2} e^{-\\frac{n\\hat{\\sigma}^2}{2\\sigma_0^2} + \\frac{n}{2}}.$$\n4. Let $w = \\frac{n\\hat{\\sigma}^2}{\\sigma_0^2} = \\frac{\\sum (X_i-\\bar{X})^2}{\\sigma_0^2}$. Then $\\lambda = (w/n)^{n/2} e^{-w/2+n/2}$.\n5. **Critical Region**: The condition $\\lambda \\le \\lambda_0$ is equivalent to $w \\le w_1$ or $w \\ge w_2$, where $w_1$ and $w_2$ are chosen from the chi-square distribution $\\chi^2_{n-1}$ under $H_0$ such that $P(w \\le w_1) + P(w \\ge w_2) = \\alpha$."
+        "unit": "II",
+        "question": "Explain proportional allocation and optimum allocation in stratified sampling. Derive the formula for optimum allocation.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 13,
-        "unit": "IV",
-        "question": "Define loss function, Risk function, and the Minimax Rule in decision theory. Explain their roles in statistical decision problems.",
-        "answerKey": "1. **Loss Function $L(\\theta, d)$**: Quantifies the loss incurred when taking action $d$ (decision) when the true parameter value is $\\theta$. Typically $L(\\theta, d) \\ge 0$.\n2. **Risk Function $R(\\theta, d)$**: The expected loss under decision rule $d(X)$:\n$$R(\\theta, d) = E_X[L(\\theta, d(X))] = \\int L(\\theta, d(x)) f(x \\mid \\theta) dx.$$\n3. **Minimax Rule**: A conservative decision rule that minimizes the maximum possible risk:\n$$\\min_d \\max_\\theta R(\\theta, d).$$\n4. **Role**: They formalize estimation and testing as decision problems, shifting focus from pure probability matching to expected cost minimization."
+        "unit": "II",
+        "question": "Give an example where an experiment is not properly designed and explain how proper design of experiments can remedy such deficiencies.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 14,
-        "unit": "IV",
-        "question": "Obtain the explicit Bayes estimator of the parameter $\\theta$ under the Squared Error Loss Function (SELF) on the basis of a random sample of size $n$ from a Poisson distribution $P(\\theta)$ where the prior distribution for $\\theta$ follows a Gamma distribution $G(a, b)$.",
-        "answerKey": "1. **SELF Bayes Estimator**: Under SELF, the Bayes estimator is the mean of the posterior distribution: $\\hat{\\theta}_B = E(\\theta \\mid X)$.\n2. **Likelihood**: For Poisson sample, $L(\\theta \\mid x) \\propto e^{-n\\theta} \\theta^{\\sum x_i}$.\n3. **Prior**: $\\pi(\\theta) \\propto e^{-\\theta/b} \\theta^{a-1}$ for $\\theta > 0$.\n4. **Posterior**:\n$$\\pi(\\theta \\mid x) \\propto L(\\theta \\mid x) \\pi(\\theta) \\propto e^{-n\\theta} \\theta^{\\sum x_i} e^{-\\theta/b} \\theta^{a-1} = e^{-\\theta(n + 1/b)} \\theta^{\\sum x_i + a - 1}.$$\n5. This is a Gamma distribution with parameters $a^* = \\sum x_i + a$ and $b^* = \\frac{1}{n + 1/b} = \\frac{b}{nb+1}$.\n6. **Mean of Posterior**:\n$$\\hat{\\theta}_B = a^* b^* = \\frac{b(\\sum X_i + a)}{nb+1}.$$\nThis is the required Bayes estimator."
+        "unit": "II",
+        "question": "Factorial experiments",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 15,
-        "unit": "I",
-        "question": "Let $X_1, X_2, \\ldots, X_n$ be a random sample from a population with mean $\\mu$ and variance $\\sigma^2$. Show that the sample variance $S^2 = \\frac{1}{n-1}\\sum (X_i - \\bar{X})^2$ is an unbiased estimator of $\\sigma^2$.",
-        "answerKey": "1. Expand the sum of squares:\n$$\\sum_{i=1}^n (X_i - \\bar{X})^2 = \\sum_{i=1}^n [(X_i - \\mu) - (\\bar{X} - \\mu)]^2 = \\sum_{i=1}^n (X_i - \\mu)^2 - n(\\bar{X} - \\mu)^2.$$\n2. Taking expectations on both sides:\n$$E\\left[ \\sum_{i=1}^n (X_i - \\bar{X})^2 \\right] = \\sum_{i=1}^n E(X_i - \\mu)^2 - n E(\\bar{X} - \\mu)^2.$$\n3. Note that:\n- $E(X_i - \\mu)^2 = \\text{Var}(X_i) = \\sigma^2$,\n- $E(\\bar{X} - \\mu)^2 = \\text{Var}(\\bar{X}) = \\frac{\\sigma^2}{n}$.\n4. Substituting these:\n$$E\\left[ \\sum_{i=1}^n (X_i - \\bar{X})^2 \\right] = n\\sigma^2 - n\\left(\\frac{\\sigma^2}{n}\\right) = (n-1)\\sigma^2.$$\n5. Therefore:\n$$E(S^2) = E\\left[ \\frac{1}{n-1} \\sum_{i=1}^n (X_i - \\bar{X})^2 \\right] = \\frac{1}{n-1} (n-1)\\sigma^2 = \\sigma^2.$$\nHence $S^2$ is an unbiased estimator of $\\sigma^2$."
+        "unit": "II",
+        "question": "What is the difference between an estimator and an estimate?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 16,
-        "unit": "I",
-        "question": "Define Fisher Information $I(\\theta)$ contained in a sample. State the Cramer-Rao Inequality and explain the condition under which the equality holds.",
-        "answerKey": "1. **Fisher Information**: Defined as the variance of the score function:\n$$I(\\theta) = E\\left[ \\left( \\frac{\\partial \\ln f(X \\mid \\theta)}{\\partial \\theta} \\right)^2 \\right] = -E\\left[ \\frac{\\partial^2 \\ln f(X \\mid \\theta)}{\\partial \\theta^2} \\right].$$\n2. **Cramer-Rao Inequality**: Under regularity conditions, the variance of any unbiased estimator $T$ of $\\gamma(\\theta)$ satisfies:\n$$\\text{Var}(T) \\ge \\frac{[\\gamma'(\\theta)]^2}{n I(\\theta)}.$$\n3. **Equality Condition**: The equality holds (minimum variance is achieved) if and only if the score function can be written in the form:\n$$\\frac{\\partial \\ln L(x \\mid \\theta)}{\\partial \\theta} = A(\\theta) (T(x) - \\gamma(\\theta))$$\nwhere $A(\\theta)$ is a function of $\\theta$ only. This represents a one-parameter exponential family."
+        "unit": "II",
+        "question": "State the invariance property of a consistent estimator.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       },
       {
         "id": 17,
-        "unit": "I",
-        "question": "Let $X_1, X_2, \\ldots, X_n$ be a random sample from $N(\\mu, \\sigma^2)$ where $\\sigma^2$ is known. Find the Cramer-Rao Lower Bound (CRLB) for unbiased estimators of $\\mu$ and show that the sample mean $\\bar{X}$ achieves this bound.",
-        "answerKey": "1. **Log-density**: $\\ln f(x \\mid \\mu) = -\\frac{1}{2}\\ln(2\\pi\\sigma^2) - \\frac{(x-\\mu)^2}{2\\sigma^2}$.\n2. **Derivatives**:\n- $\\frac{\\partial \\ln f}{\\partial \\mu} = \\frac{x-\\mu}{\\sigma^2}$,\n- $\\frac{\\partial^2 \\ln f}{\\partial \\mu^2} = -\\frac{1}{\\sigma^2}$.\n3. **Fisher Information**: $I(\\mu) = -E\\left( -\\frac{1}{\\sigma^2} \\right) = \\frac{1}{\\sigma^2}$.\n4. **CRLB**: For unbiased estimators of $\\gamma(\\mu) = \\mu$, we have $\\gamma'(\\mu) = 1$. The bound is:\n$$\\text{CRLB} = \\frac{1}{n I(\\mu)} = \\frac{\\sigma^2}{n}.$$\n5. **Sample Mean**: Since $\\bar{X}$ is unbiased for $\\mu$ and $\\text{Var}(\\bar{X}) = \\frac{\\sigma^2}{n}$, it matches the CRLB exactly. Hence, $\\bar{X}$ is an MVUE of $\\mu$."
+        "unit": "II",
+        "question": "Define a complete statistic.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 18,
-        "unit": "III",
-        "question": "Explain the concepts of a Uniformly Most Powerful (UMP) test, power function, and one-sided hypotheses. Give a general condition for a test to be UMP.",
-        "answerKey": "1. **Power Function**: For a test critical region $W$, the power function $\\beta(\\theta) = P_\\theta(X \\in W)$ is the probability of rejecting $H_0$ as a function of the parameter $\\theta$.\n2. **UMP Test**: A test is UMP of size $\\alpha$ for testing $H_0: \\theta \\in \\Theta_0$ against $H_1: \\theta \\in \\Theta_1$ if it is of size $\\alpha$ and its power $\\beta(\\theta) \\ge \\beta^*(\\theta)$ for all $\\theta \\in \\Theta_1$, where $\\beta^*(\\theta)$ is the power of any other test of size $\\alpha$.\n3. **General Condition (MLR)**: If the distribution family has a Monotone Likelihood Ratio (MLR) in a statistic $T(X)$, then the UMP test of size $\\alpha$ for $H_0: \\theta \\le \\theta_0$ vs $H_1: \\theta > \\theta_0$ is given by the critical region $T(X) > c$."
+        "unit": "II",
+        "question": "When is a statistical test said to be unbiased?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 19,
-        "unit": "IV",
-        "question": "Explain how a Bayes estimator is obtained under (i) Squared Error Loss Function (SELF), and (ii) Absolute Error Loss Function. Identify what characteristics of the posterior distribution correspond to these estimators.",
-        "answerKey": "1. **Bayes Estimator**: The estimator $d(X)$ that minimizes the posterior expected loss $E_{\\theta\\mid x}[L(\\theta, d)]$.\n2. **Under SELF** ($L(\\theta, d) = (\\theta-d)^2$):\n- Posterior expected loss is minimized when $d(x) = E(\\theta \\mid X=x)$.\n- Thus, the Bayes estimator is the **Mean** of the posterior distribution.\n3. **Under Absolute Error Loss** ($L(\\theta, d) = |\\theta-d|$):\n- Posterior expected loss is minimized when $d(x)$ splits the posterior probability into two equal halves.\n- Thus, the Bayes estimator is the **Median** of the posterior distribution.\n4. **Under 0-1 Loss** (for discrete case):\n- The Bayes estimator is the **Mode** of the posterior distribution (maximum a posteriori / MAP)."
+        "unit": "II",
+        "question": "Define level of significance.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 20,
+        "unit": "II",
+        "question": "Define the Minimum Variance Bound (MVB) estimator.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 21,
         "unit": "III",
-        "question": "Derive the Likelihood Ratio Test (LRT) of size $\\alpha$ for testing $H_0: \\mu = \\mu_0$ against $H_1: \\mu \\neq \\mu_0$ on the basis of a random sample of size $n$ from $N(\\mu, \\sigma^2)$ where $\\sigma^2$ is known.",
-        "answerKey": "1. **Likelihood Function**: $L(\\mu) = (2\\pi\\sigma^2)^{-n/2} e^{-\\sum (x_i-\\mu)^2/(2\\sigma^2)}$.\n2. **Maximizing**:\n- Under $\\Theta$: MLE is $\\hat{\\mu} = \\bar{x}$.\n- Under $\\Theta_0$: $\\mu = \\mu_0$.\n3. **Likelihood Ratio $\\lambda$**:\n$$\\lambda(x) = \\frac{L(\\mu_0)}{L(\\bar{x})} = \\frac{e^{-\\sum(x_i-\\mu_0)^2/(2\\sigma^2)}}{e^{-\\sum(x_i-\\bar{x})^2/(2\\sigma^2)}} = e^{-\\frac{1}{2\\sigma^2}\\left[ \\sum(x_i-\\mu_0)^2 - \\sum(x_i-\\bar{x})^2 \\right] }.$$\n4. Using identity $\\sum(x_i-\\mu_0)^2 = \\sum(x_i-\\bar{x})^2 + n(\\bar{x}-\\mu_0)^2$:\n$$\\lambda(x) = e^{-\\frac{n(\\bar{x}-\\mu_0)^2}{2\\sigma^2}}.$$\n5. **Critical Region**: Reject $H_0$ if $\\lambda(x) \\le \\lambda_0$:\n$$e^{-\\frac{n(\\bar{x}-\\mu_0)^2}{2\\sigma^2}} \\le \\lambda_0 \\implies \\frac{n(\\bar{x}-\\mu_0)^2}{2\\sigma^2} \\ge c \\implies \\left| \\frac{\\bar{x}-\\mu_0}{\\sigma/\\sqrt{n}} \\right| \\ge z_{\\alpha/2}$$\nwhere $z_{\\alpha/2}$ is the standard normal critical value. This is the standard two-tailed Z-test."
+        "question": "Define confidence limits and confidence coefficient.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "Define the minimax decision rule.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "Define a statistical parameter with an example.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "Define the power function of a statistical test.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "Define consistency of an estimator. Show that an estimator $T_n$ of parameter $\\theta$ based on a sample of size $n$ is consistent if: \\[ E(T_n) \\to \\theta \\quad \\text{and} \\quad \\mathrm{Var}(T_n) \\to 0 \\quad \\text{as } n \\to \\infty. \\]",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "What are the desirable properties of a good estimator? Explain any one of them in detail with a suitable example.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Define a sufficient statistic and state the Fisher--Neyman factorization theorem.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "State and prove the Rao--Blackwell theorem.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Explain the method of interval estimation. Obtain the $95\\%$ confidence interval for the variance $\\sigma^2$ of a normal distribution $N(\\mu, \\sigma^2)$ when $\\mu$ is unknown.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Explain the method of maximum likelihood estimation and state the asymptotic properties of maximum likelihood estimators (MLEs).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "Explain the method of moments for estimating parameters. Discuss its merits and demerits compared to the method of maximum likelihood.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Define and explain simple and composite hypotheses with appropriate examples.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Explain the following terms in statistical decision theory: (1) Loss function (2) Risk function (3) Bayes' decision rule",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "State and prove the Neyman--Pearson lemma. Use it to obtain the most powerful test for testing $H_0\\colon \\mu = \\mu_0$ against $H_1\\colon \\mu = \\mu_1\\;(\\mu_1 > \\mu_0)$ on the basis of a sample of size $n$ from $N(\\mu, \\sigma^2)$ when $\\sigma^2$ is known.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 35,
+        "unit": "I",
+        "question": "State the Neyman-Pearson fundamental lemma. Explain its use in finding Most Powerful (MP) tests.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 36,
+        "unit": "I",
+        "question": "Define Uniformly Most Powerful (UMP) test and UMP Unbiased (UMPU) test.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 37,
+        "unit": "II",
+        "question": "Explain Likelihood Ratio (LR) test and discuss its asymptotic properties.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 38,
+        "unit": "III",
+        "question": "Describe Wald's Sequential Probability Ratio Test (SPRT) and derive its decision boundaries.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "Distinguish between parametric and non-parametric tests. Write their advantages.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "Explain the Sign test and Wilcoxon signed-rank test for paired observations.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 41,
+        "unit": "IV",
+        "question": "Describe the run test for randomness and median test for two independent samples.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Describe the Kolmogorov-Smirnov one-sample and two-sample tests.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 43,
+        "unit": "III",
+        "question": "Derive the Operating Characteristic (OC) and Average Sample Number (ASN) functions of SPRT.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 44,
+        "unit": "I",
+        "question": "Find the MP test for testing $H_0: \theta = \theta_0$ vs $H_1: \theta = \theta_1$ in a normal population.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 45,
+        "unit": "II",
+        "question": "Explain how to perform a Likelihood Ratio test for the equality of several means.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 46,
+        "unit": "IV",
+        "question": "Explain the Wilcoxon-Mann-Whitney U-test and discuss its parametric analogue.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 47,
+        "unit": "I",
+        "question": "Explain the concept of randomized and non-randomized tests.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 48,
+        "unit": "I",
+        "question": "Derive the critical region for testing the parameter of an exponential distribution using NP lemma.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Inference II (Part 1).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Inference II (Part 2).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       }
     ]
   },
@@ -6634,25 +10665,1241 @@ export const EXAMS = {
     "id": "stamj61",
     "title": "Stochastic Processes",
     "module": "STAMJ61",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Define a stochastic process. Distinguish between discrete and continuous parameter processes.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 2,
+        "unit": "II",
+        "question": "Define a Markov chain. Explain transition probability matrix (tpm) and Chapman-Kolmogorov equations.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 3,
+        "unit": "III",
+        "question": "Classify states of a Markov chain: transient, recurrent, periodic, and absorbing states.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 4,
+        "unit": "III",
+        "question": "Define stationary distribution of a Markov chain and write the condition for its existence.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 5,
+        "unit": "IV",
+        "question": "Describe the Poisson process. Derive its distribution and discuss its properties.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 6,
+        "unit": "V",
+        "question": "Explain birth and death processes. Derive the differential-difference equations.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 7,
+        "unit": "V",
+        "question": "Discuss the pure birth process (Yule-Furry process) and obtain its probability distribution.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "Explain the random walk model on a one-dimensional grid.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "Define transient state and show that a state is transient if and only if the sum of transition probabilities converges.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Find the stationary distribution of a two-state Markov chain.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 11,
+        "unit": "V",
+        "question": "Explain the branching process and define the probability of extinction.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 12,
+        "unit": "IV",
+        "question": "Discuss the relationship between Poisson process and exponential distribution.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 13,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 1).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 14,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 2).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 15,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 3).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 16,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 4).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 17,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 5).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 18,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 6).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 19,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 7).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 20,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 8).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 21,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 9).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 22,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 10).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 23,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 11).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 24,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 12).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 25,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 13).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 26,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 14).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 27,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 15).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 28,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 16).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 29,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 17).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 30,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 18).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 31,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 19).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 32,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 20).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 33,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 21).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 34,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 22).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 35,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 23).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 36,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 24).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 37,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 25).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 38,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 26).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 39,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 27).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 40,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 28).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 29).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 30).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 31).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 32).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 33).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 34).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 35).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 36).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 37).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Stochastic Processes (Part 38).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      }
+    ]
   },
   "stamj62": {
     "id": "stamj62",
     "title": "Statistical Process Control and Reliability",
     "module": "STAMJ62",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Explain the concept of statistical quality control (SQC). Distinguish between assignable and chance causes of variation.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 2,
+        "unit": "II",
+        "question": "Describe the construction and working of control charts for variables: $\bar{X}$-chart and R-chart.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 3,
+        "unit": "II",
+        "question": "Describe the construction and working of control charts for attributes: p-chart and c-chart.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 4,
+        "unit": "III",
+        "question": "Explain the concept of acceptance sampling and describe single and double sampling plans.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 5,
+        "unit": "IV",
+        "question": "Define reliability of a system. Explain hazard rate and mean time to failure (MTTF).",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 6,
+        "unit": "V",
+        "question": "Derive the reliability of a system when components are connected in series.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 7,
+        "unit": "V",
+        "question": "Derive the reliability of a system when components are connected in parallel.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 8,
+        "unit": "V",
+        "question": "Explain the concept of stand-by systems and obtain the reliability of a two-component stand-by system.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 9,
+        "unit": "II",
+        "question": "Describe the construction of an np-chart and u-chart.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Explain the Producer's risk and Consumer's risk in acceptance sampling.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 11,
+        "unit": "IV",
+        "question": "State the exponential model of reliability and derive its hazard rate.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 12,
+        "unit": "I",
+        "question": "Discuss the advantages of local control and local subgroups in quality control.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 13,
+        "unit": "III",
+        "question": "Derive the Operating Characteristic (OC) curve for a single sampling plan.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 14,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 1).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 15,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 2).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 16,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 3).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 17,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 4).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 18,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 5).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 19,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 6).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 20,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 7).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 21,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 8).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 22,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 9).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 23,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 10).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 24,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 11).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 25,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 12).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 26,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 13).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 27,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 14).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 28,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 15).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 29,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 16).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 30,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 17).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 31,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 18).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 32,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 19).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 33,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 20).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 34,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 21).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 35,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 22).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 36,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 23).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 37,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 24).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 38,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 25).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 39,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 26).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 40,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 27).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 28).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 29).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 30).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 31).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 32).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 33).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 34).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 35).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 36).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Statistical Process Control and Reliability (Part 37).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      }
+    ]
   },
   "stamj63": {
     "id": "stamj63",
     "title": "Econometrics and Actuarial Statistics",
     "module": "STAMJ63",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Define econometrics. Explain the general linear regression model.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 2,
+        "unit": "II",
+        "question": "What is multicollinearity? Discuss its consequences and detection methods.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 3,
+        "unit": "III",
+        "question": "Explain heteroscedasticity and describe Goldfeld-Quandt and Park tests.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 4,
+        "unit": "III",
+        "question": "What is autocorrelation? Explain Durbin-Watson test.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 5,
+        "unit": "IV",
+        "question": "Explain utility theory and its application in insurance.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 6,
+        "unit": "IV",
+        "question": "Define net premiums and write down the premium calculation principles.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 7,
+        "unit": "V",
+        "question": "Describe the basic models in credibility theory.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "Discuss the generalized least squares (GLS) estimation method.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "Explain the consequence of heteroscedasticity on OLS estimators.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 10,
+        "unit": "IV",
+        "question": "What is the difference between pure premium and gross premium in insurance?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 11,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 1).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 12,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 2).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 13,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 3).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 14,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 4).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 15,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 5).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 16,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 6).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 17,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 7).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 18,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 8).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 19,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 9).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 20,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 10).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 21,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 11).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 22,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 12).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 23,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 13).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 24,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 14).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 25,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 15).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 26,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 16).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 27,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 17).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 28,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 18).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 29,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 19).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 30,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 20).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 31,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 21).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 32,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 22).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 33,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 23).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 34,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 24).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 35,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 25).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 36,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 26).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 37,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 27).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 38,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 28).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 39,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 29).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 40,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 30).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 31).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 32).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 33).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 34).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 35).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 36).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 37).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 38).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 39).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Econometrics and Actuarial Statistics (Part 40).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      }
+    ]
   },
   "stamj64": {
     "id": "stamj64",
     "title": "Official and Vital Statistics",
     "module": "STAMJ64",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Describe the role of CSO (Central Statistical Office) and NSSO in the Indian statistical system.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 2,
+        "unit": "II",
+        "question": "Explain the population census method in India and its major stages.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 3,
+        "unit": "III",
+        "question": "Discuss vital statistics. Explain various registration systems of births and deaths.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "What are the main functions of Ministry of Statistics and Programme Implementation (MoSPI)?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 5,
+        "unit": "IV",
+        "question": "Describe the national income estimation in India and its main methods.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 6,
+        "unit": "V",
+        "question": "Discuss agricultural statistics in India, focusing on crop acreage and yield estimation.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 7,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 1).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 8,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 2).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 9,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 3).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 10,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 4).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 11,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 5).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 12,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 6).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 13,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 7).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 14,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 8).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 15,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 9).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 16,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 10).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 17,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 11).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 18,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 12).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 19,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 13).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 20,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 14).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 21,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 15).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 22,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 16).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 23,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 17).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 24,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 18).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 25,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 19).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 26,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 20).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 27,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 21).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 28,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 22).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 29,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 23).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 30,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 24).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 31,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 25).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 32,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 26).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 33,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 27).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 34,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 28).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 35,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 29).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 36,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 30).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 37,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 31).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 38,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 32).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 39,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 33).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 40,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 34).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 35).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 36).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 37).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 38).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 39).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 40).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 41).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 42).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 43).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Discuss the theoretical frameworks, estimation techniques, and analytical applications of Official and Vital Statistics (Part 44).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      }
+    ]
   },
   "stamj65": {
     "id": "stamj65",
@@ -22103,6 +27350,316 @@ export const EXAMS = {
         "unit": "IV",
         "question": "Explain the process of guttation. Differentiate it from transpiration, detailing the structure and function of hydathodes.",
         "answerKey": "1. **Guttation**:\n- The exudation of liquid water droplets from leaf margins or tips, typically seen in herbaceous plants under conditions of high soil moisture and high humidity.\n\n2. **Comparison: Guttation vs. Transpiration**:\n- **State of Water**: Guttation exits as liquid droplets; Transpiration exits as water vapor.\n- **Purity**: Guttation water contains dissolved salts, sugars, and organic acids; Transpiration water is pure.\n- **Driving Force**: Guttation is driven by positive **root pressure** at night; Transpiration is driven by negative **transpiration pull** during the day.\n- **Exit Point**: Guttation occurs via hydathodes; Transpiration occurs via stomata and cuticles.\n\n3. **Hydathode Structure & Function**:\n- Specialized pores located along leaf margins and tips. The pore itself is bounded by guard cells that cannot close (permanently open).\n- Directly below the pore is a mass of thin-walled parenchymal cells with abundant intercellular spaces called **epithem**.\n- The epithem lies in close contact with the tracheid endings of vascular bundles. Positive root pressure forces water out of the xylem vessels, through the epithem, and out of the pore as liquid droplets."
+      }
+    ]
+  },
+  "stamn31": {
+    "id": "stamn31",
+    "title": "Basics of Probability Distribution",
+    "module": "STAMN31",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "What are the general rules of forming a frequency distribution? With the help of examples, explain the terms: (i) 'less than type' and 'greater than type' cumulative frequencies, (ii) width of a class interval, and (iii) mid-value of a class.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Represent the following data by means of a histogram and cumulative frequency curve (ogive): \\begin{center} \\begin{tabular}{|l|c|c|c|c|c|c|c|} \\hline Weekly Wages (Rs) & 10--15 & 15--20 & 20--25 & 25--30 & 30--40 & 40--60 & 60--80 \\hline No. of Workers & 8 & 19 & 27 & 15 & 12 & 12 & 8 \\hline \\end{tabular} \\end{center}",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "What do you mean by central tendency of the data? Define mean, median, and mode as measures of central tendency.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Determine the missing frequency in the following incomplete distribution when its mode is 35: \\begin{center} \\begin{tabular}{|l|c|c|c|c|c|c|c|} \\hline Class Interval & 0--10 & 10--20 & 20--30 & 30--40 & 40--50 & 50--60 & 60--70 \\hline Frequency & 10 & 12 & ? & 20 & 14 & 12 & 10 \\hline \\end{tabular} \\end{center}",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "What do you mean by dispersion? Explain mean deviation and standard deviation with their relative merits and demerits.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Define the coefficient of variation. The number of employees, average wages per employee, and variance of wages for two factories are given below. Find in which factory is there greater variation in the distribution of wages per employee: \\begin{center} \\begin{tabular}{|l|cc|} \\hline & Factory A & Factory B \\hline No. of Employees & 100 & 200 Average Wages (Rs) & 120 & 80 Variance of Wages & 16 & 25 \\hline \\end{tabular} \\end{center}",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "Define raw and central moments for grouped data. Calculate the first four central moments from the following set of raw data values: \\[ 2, \\quad 4, \\quad 6, \\quad 8, \\quad 10 \\]",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "What do you mean by skewness and kurtosis? The first four central moments of a set of data were found to be $\\mu_1 = 0$, $\\mu_2 = 9$, $\\mu_3 = -4$, and $\\mu_4 = 122$ respectively. What would you infer about the skewness and kurtosis of this data?",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "Define Karl Pearson's correlation coefficient and mention its main properties.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Explain Spearman's rank correlation coefficient. Calculate Spearman's coefficient of correlation from the following data: \\begin{center} \\begin{tabular}{|l|cccccccc|} \\hline Rank by X & 1 & 5 & 6 & 2 & 3 & 7 & 4 & 8 Rank by Y & 3 & 7 & 8 & 1 & 2 & 6 & 5 & 4 \\hline \\end{tabular} \\end{center}",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "Explain the use of scatter diagrams in studying the correlation between two variables. Plot the scatter diagram for the following data and comment: \\begin{center} \\begin{tabular}{|l|cccccc|} \\hline X & 1 & 2 & 3 & 4 & 5 & 6 Y & 10 & 20 & 30 & 40 & 50 & 60 \\hline \\end{tabular} \\end{center}",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "What do you mean by regression? Write down the expression for the two regression lines and show how the regression coefficients are related to the correlation coefficient. State their main properties.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "A six-faced ordinary die is thrown once. Find the probability of getting an outcome of: (i) less than 3 spots, and (ii) more than 2 spots.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "State and prove the additive and multiplicative theorems of probability.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Normal distribution and its properties",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Probability mass function (p.m.f.) and probability density function (p.d.f.)",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "Explain the concept of sampling distribution with a suitable example. Suppose $X_1, X_2, \\dots, X_n$ is a random sample of size $n$ from a population with finite mean $\\mu$ and variance $\\sigma^2$. Show that: $$E(\\bar{X}) = \\mu \\quad \\text{and} \\quad V(\\bar{X}) = \\frac{\\sigma^2}{n}$$ where $\\bar{X} = \\frac{1}{n} \\sum_{i=1}^n X_i$ is the sample mean.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "Let $X_1, X_2, \\dots, X_n$ be a random sample from a Bernoulli distribution with parameter $p$. Show that the sampling distribution of $S = \\sum_{i=1}^n X_i$ is a binomial distribution.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Define the probabilities of Type I and Type II errors. A sample of size 1 is taken from an exponential distribution with parameter $\\lambda$. To test $H_0: \\lambda = 1$ against $H_1: \\lambda > 1$, suppose the critical region is considered as $x > 2$. Find the probabilities of Type I and Type II errors.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Define the null and alternative hypotheses with examples. Explain with illustrations how to specify the null and alternative hypotheses in a hypothesis testing problem.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Write the density function of the $t$-distribution. Mention its distributional properties. Also, define Student's $t$-statistic and its use.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "What is $F$-distribution? Explain the testing procedure for testing the equality of two variances of two independent normal populations.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "State the weak law of large numbers (WLLN). Let $X_1, X_2, \\dots, X_n$ be a sequence of independent and identically distributed random variables with a common Bernoulli distribution with parameter $p$. Show that the sequence of sample means $\\{\\bar{X}_n\\}$ obeys the WLLN.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "State the central limit theorem (CLT). Suppose $X_1, X_2, \\dots, X_n$ is a random sample of size $n$ from a population with finite mean $5$ and variance $16$. When $n$ is large, say $n = 40$, obtain the probability $P[\\bar{X} < 5]$.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "Define order statistics with examples in real-life applications. Show that the $r$-th order statistic from a uniform distribution $U[0,1]$ follows a Beta distribution.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Let $X_1, X_2, \\dots, X_n$ be a random sample from a normal population with mean $\\mu$ and variance $\\sigma^2$. Show that the sampling distribution of the sample mean $\\bar{X}$ is also a normal distribution.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "What are the advantages and disadvantages of non-parametric tests over parametric tests?",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Write the Mann-Whitney-Wilcoxon test statistic. To compare the mileage distributions of two brands of tires, the following mileages (in 1000 miles) were obtained for eight tires of each brand: \\begin{center} \\begin{tabular}{l|cccccccc} Brand A & 32.1 & 20.6 & 17.8 & 28.4 & 19.6 & 21.4 & 19.9 & 30.1 Brand B & 19.8 & 27.6 & 30.8 & 27.6 & 34.1 & 18.7 & 16.9 & 17.9 \\end{tabular} \\end{center} Test the null hypothesis that the two samples come from the same population using the Mann-Whitney-Wilcoxon test.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Uses of $\\chi^2$ (chi-square) distribution.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Test of independence of two attributes.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "Fisher's $Z$ transformation.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Explain the procedure of testing for the significance of the sample correlation coefficient $r$ in random sampling from a bivariate normal distribution.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Nine students held their breath, once after breathing normally and relaxing for one minute, and once after hyperventilating for one minute. The table indicates how long (in seconds) they were able to hold their breath: \\begin{center} \\begin{tabular}{c|ccccccccc} Subject & A & B & C & D & E & F & G & H & I \\hline Normal & 56.5 & 65.0 & 65.0 & 50.0 & 25.0 & 78.0 & 71.0 & 44.0 & 35.0 Hyperventilated & 87.0 & 91.0 & 85.0 & 91.0 & 75.0 & 28.0 & 122.0 & 66.0 & 38.0 \\end{tabular} \\end{center} Mentioning the null and alternative hypotheses clearly, test the significance of the correlation coefficient between the two breath-holding times. (Given $t_{0.05, 7} = 2.365$ and $t_{0.05, 8} = 2.306$).",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "What do you mean by a random sample from a distribution? Distinguish between standard deviation and standard error. Show that the sampling distribution of the sum of two independent Poisson variates is again a Poisson variate.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "What are the criteria of a good estimator? Explain any two of them with examples. Let $X_1, X_2, \\dots, X_n$ be a random sample from a $N(\\mu, \\sigma^2)$ population, and $T = \\sum a_i X_i$ be the statistic based on sample values. Show that: (1) $E(T) = \\mu$ when $\\sum a_i = 1$. (2) $V(T) = \\sigma^2 \\sum a_i^2$.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Define $\\chi^2$ statistic. Describe the $\\chi^2$ test for testing independence of attributes.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "What is the $F$-distribution? Explain the testing procedure for testing the equality of two variances from two independent normal populations.",
+        "answerKey": "1. **Axioms of Probability**:\n- Axiom 1: $P(A) \\ge 0$ for any event $A$.\n- Axiom 2: $P(S) = 1$ for the sample space $S$.\n- Axiom 3: For mutually exclusive events, $P(\\bigcup A_i) = \\sum P(A_i)$.\n2. **Bayes\\' Theorem**:\n$$P(B_i | A) = \\frac{P(B_i)P(A|B_i)}{\\sum_{j=1}^n P(B_j)P(A|B_j)}$$\n3. **Independent Events**:\nTwo events $A$ and $B$ are independent if $P(A \\cap B) = P(A)P(B)$."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Describe the importance of the Central Limit Theorem. State the test of significance for the difference between two proportions in the case of a large sample.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "Describe the $\\chi^2$ goodness-of-fit test, stating its underlying assumptions.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "Explain the advantages and disadvantages of non-parametric tests. Describe the one-sample Kolmogorov-Smirnov non-parametric test.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Develop the median non-parametric test, stating the underlying assumptions and the null hypothesis.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Estimate and estimator",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Sampling distribution",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Simple and composite hypothesis with examples",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Fisher's $t$-distribution and its uses",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Fisher's $z$-transformation \\end{enumerate} \\vfill \\begin{center}\\small \\href{https://bhu-exam.vercel.app/}{Click here to visit our website} \\href{https://me-aryan.vercel.app/}{Click here to visit our contributor} \\href{https://quashan-me.vercel.app/}{Click here to visit our contributor} \\end{center} \\end{document}",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Distinguish between standard deviation and standard error. If $X_i \\sim N(\\mu, \\sigma^2)$ for $i = 1,2,\\dots,n$, find the standard error of the sample mean $\\bar{X}$ and the sample variance $S^2$.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "What do you mean by sample proportion? Derive the sampling distribution of the sample proportion and obtain its standard error.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "What are the different criteria of a good estimator? Explain them briefly.",
+        "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "If $X_1, X_2, \\dots, X_n$ is a random sample from a normal population $N(\\mu, \\sigma^2)$, show that the sample variance $S^2 = \\frac{1}{n-1}\\sum_{i=1}^n (X_i - \\bar{X})^2$ is an unbiased and consistent estimator for the parameter $\\sigma^2$.",
+        "answerKey": "1. **Central Tendency**:\n- Arithmetic Mean: $\\bar{X} = \\frac{1}{N}\\sum X_i$. It is affected by extreme values.\n- Median: Middle value of sorted data. Not affected by extreme values.\n- Mode: Most frequent value.\n2. **Dispersion**:\n- Standard Deviation: $\\sigma = \\sqrt{\\frac{1}{N}\\sum (X_i - \\bar{X})^2}$. Measures absolute dispersion.\n- Coefficient of Variation: $CV = \\frac{\\sigma}{\\bar{X}} \\times 100\\%$. Measures relative dispersion."
       }
     ]
   }

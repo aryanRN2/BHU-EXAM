@@ -1,0 +1,134 @@
+% BHU PYQ -- Auto-generated & error-corrected
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={STA/STB-601: Numerical Analysis -- BHU PYQ},pdfauthor={Banaras Hindu University}}
+
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{STA/STB-601: Numerical Analysis}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.A./B.Sc. (Hons.) Semester VI Examination, 2022-23}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. STA/STB-601: Numerical Analysis}\\[4pt]
+  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer any \textbf{five} questions. All questions carry equal marks. Symbols have their usual meanings.}
+\bigskip
+
+\medskip\noindent\textbf{Question 1.}
+\begin{parts}
+  \item Find a polynomial that fits the data in the following table:
+  \begin{center}
+  \begin{tabular}{c|cccc}
+  \toprule
+  $x$ & 0 & 1 & 2 & 3 \\
+  \midrule
+  $f(x)$ & 2 & 6 & 12 & 20 \\
+  \bottomrule
+  \end{tabular}
+  \end{center}
+  Also prove that $\Delta^n(x^n) = n!$ where $n$ is a positive integer. \pts{7}
+  \item Show that the difference operator $\Delta$ is a linear operator. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 2.}
+\begin{parts}
+  \item State and prove Newton's backward interpolation formula and give its importance. \pts{7}
+  \item State and prove Bessel's interpolation formula. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Show that divided differences are symmetric in their arguments. \pts{7}
+  \item Derive the error term in the Lagrange interpolation formula. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Define a homogeneous linear difference equation. Discuss its solution under the different cases of roots of the characteristic equation. \pts{7}
+  \item Let $\phi(E) = a_0 E^n + a_1 E^{n-1} + \cdots + a_n$. Prove that:
+  \begin{parts}
+    \item $\phi(E)\,\beta^k = \phi(\beta)\,\beta^k$
+    \item The particular solution of the equation $\phi(E)\,\beta^k = p^k$ is given by $\dfrac{p^k}{\phi(p)}$, provided $\phi(p) \neq 0$.
+  \end{parts}
+  Also solve the difference equation $y_{k+2} - 3y_{k+1} + 2y_k = 4^k$. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Prove the fundamental theorem of sum calculus (summation by parts). \pts{7}
+  \item Find $\Delta^{-1}(x \cdot a^x)$, $a \neq 1$. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 6.}
+\begin{parts}
+  \item Prove that $1^3 + 2^3 + \cdots + n^3 = \left[\dfrac{n(n+1)}{2}\right]^2$. \pts{7}
+  \item Discuss the problem of numerical differentiation. Suppose that $x_0, x_1, \ldots, x_n$ are distinct numbers in some interval $J$ and the function $f$ is $(n+1)$ times differentiable. Obtain an $(n+1)$-point formula to approximate $f'(x_j)$ using Lagrange's formula. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 7.}
+\begin{parts}
+  \item Determine the value of $h$ that will ensure an approximation error of less than $0.00002$ when approximating $\displaystyle\int_0^{\pi} \sin(x)\,dx$ using:
+  \begin{parts}
+    \item Composite Trapezoidal rule
+    \item Composite Simpson's $1/3$ rule
+  \end{parts}\pts{7}
+  \item Show that Simpson's $1/3$ rule for numerical integration is more accurate than Simpson's $3/8$ rule. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 8.}
+\begin{parts}
+  \item Discuss the Runge--Kutta formula for finding a numerical solution of differential equations. Write the expression for the fourth-order Runge--Kutta formula. \pts{7}
+  \item Discuss the improved Euler's method. Taking $h = 0.05$, approximate the solution of the initial value problem $\dfrac{dy}{dx} = x + y$, $y(0) = 1$, at $x = 0.05$ (execute only the first iteration). \pts{7}
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

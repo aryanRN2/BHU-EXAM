@@ -1,0 +1,136 @@
+% BHU PYQ -- Auto-generated & error-corrected
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={STA/STB-603: Elements of Stochastic Processes -- BHU PYQ},pdfauthor={Banaras Hindu University}}
+
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{STA/STB-603: Elements of Stochastic Processes}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.A./B.Sc. (Hons.) Semester VI Examination, 2022-23}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. STA/STB-603: Elements of Stochastic Processes}\\[4pt]
+  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer any \textbf{five} questions. All questions carry equal marks. Symbols have their usual meanings.}
+\bigskip
+
+\medskip\noindent\textbf{Question 1.}
+\begin{parts}
+  \item What do you mean by a random (stochastic) process? Also describe the classification of random processes according to state space and time domain. \pts{7}
+  \item Explain the various classifications of states of a Markov chain (communicating, accessible, transient, recurrent, periodic, aperiodic, ergodic). \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 2.}
+\begin{parts}
+  \item Define a wide-sense stationary (WSS) process with an example. If a process is strict-sense stationary (SSS), show that its mean is constant and its autocorrelation depends only on the time lag. \pts{7}
+  \item Show that the process $X(t) = A\cos\lambda t + B\sin\lambda t$, where $A$ and $B$ are random variables, is wide-sense stationary if:
+  \begin{parts}
+    \item $E(A) = E(B) = 0$
+    \item $E(A^2) = E(B^2)$
+    \item $E(AB) = 0$
+  \end{parts}\pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Explain the terms state space and parameter space. Discuss with suitable examples where both state space and parameter space are discrete. \pts{7}
+  \item Consider a time-homogeneous Markov chain with state space $S = \{0, 1, 2\}$ and transition matrix:
+  \[
+    P = \begin{pmatrix} \frac{1}{2} & \frac{1}{4} & \frac{1}{4} \\[4pt] \frac{1}{3} & \frac{1}{3} & \frac{1}{3} \\[4pt] \frac{1}{4} & \frac{1}{4} & \frac{1}{2} \end{pmatrix}
+  \]
+  \begin{parts}
+    \item Verify that each row sums to 1 and the matrix represents a valid transition matrix.
+    \item Draw the transition graph for this process.
+  \end{parts}\pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Let $X_n$ be a random variable representing the weather of a particular place on a given day: $X_n = 0$ if the day is rainy and $X_n = 1$ if the day is sunny. The one-step transition probability matrix is:
+  \[
+    P = \begin{pmatrix} 0.6 & 0.4 \\ 0.2 & 0.8 \end{pmatrix}
+  \]
+  Find the weather of the day in the distant future (steady-state distribution). \pts{7}
+  \item Three boys A, B, and C are throwing a ball to each other. A always throws to B and B always throws to C, but C is equally likely to throw to B or to A. Show that the process is Markovian. Find the transition probability matrix and classify the states. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 5.}
+
+Derive the formula associated with the Gambler's Ruin Problem. A gambler starts with initial capital of Rs.\ 12, and his probability of winning each round is $0.35$. His opponent starts with Rs.\ 8. Find:
+\begin{parts}
+  \item The probability of ruin for the first gambler.
+  \item The expected duration of the game.
+  \item Also find the expected duration of the game when the probability of winning is $0.5$ for each gambler.
+\end{parts}\pts{14}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 6.}
+\begin{parts}
+  \item Define a Poisson process. Show that the difference of two independent Poisson processes is not a Poisson process. \pts{7}
+  \item Describe the time-dependent Poisson process. Also find its mean and standard deviation. \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 7.}
+
+Discuss the linear birth process (Yule--Furry process) and the pure birth process, with their assumptions and uses. \pts{14}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 8.} Define the following terms:\pts{14}
+\begin{parts}
+  \item Aperiodic chain
+  \item $n$-step transition probability
+  \item Persistent (recurrent) state
+  \item Periodicity of a state
+  \item Ergodicity
+  \item Probability of extinction in a branching process
+  \item Cross-correlation function
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

@@ -1,0 +1,151 @@
+% BHU PYQ -- Auto-generated & error-corrected
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={STA/STB-503: Programming with C -- BHU PYQ},pdfauthor={Banaras Hindu University}}
+
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{STA/STB-503: Programming with C}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.A./B.Sc. (Hons.) Semester V Examination, 2022-23}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. STA/STB-503: Programming with C}\\[4pt]
+  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer any \textbf{five} questions. All questions carry equal marks. Symbols have their usual meanings.}
+\bigskip
+
+\medskip\noindent\textbf{Question 1.}
+\begin{parts}
+  \item Explain type conversions in C expressions with examples. Discuss how operator precedence and associativity rules are applied. \pts{7}
+  \item Determine the value of each of the following logical expressions, given \texttt{int a = 5, b = 10, c = -1}:
+  \begin{parts}
+    \item \texttt{a > b \&\& a < c}
+    \item \texttt{a < b \&\& a > c}
+    \item \texttt{a == c || b > a}
+    \item \texttt{b > 15 \&\& c < 0 || a > 0}
+  \end{parts}\pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 2.}
+\begin{parts}
+  \item Describe the different forms of the \texttt{if-else} statement. How do they differ? Write a C program to calculate the mean of 10 numbers entered by the user. \pts{7}
+  \item Write the output of the following program:
+\begin{verbatim}
+#include <stdio.h>
+int main() {
+    int x = 100;
+    printf("%d\n", 10 + x++ - 4);
+    printf("%d\n", 10 + --x + x);
+    return 0;
+}
+\end{verbatim}\pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Define one-dimensional and two-dimensional arrays in C. Explain how a one-dimensional array is declared and initialized. Write a C program to find the transpose of a matrix. \pts{7}
+  \item What is the output of the following program?
+\begin{verbatim}
+#include <stdio.h>
+int main() {
+    int m[] = {1, 2, 3, 4, 5};
+    int x, y = 0;
+    for (x = 0; x < 5; x++)
+        y = y + m[x];
+    printf("%d", y);
+    return 0;
+}
+\end{verbatim}\pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Discuss how string variables are declared and initialized in C. Explain how strings are read from the terminal and written to the screen. Write a C program (without using library string functions) to copy one string into another and count the number of characters copied. \pts{7}
+  \item Given \texttt{char string1[10] = "abc"}, \texttt{string2[20] = "def"}, \texttt{string3[30]}, \texttt{string4[40]}, write the output of the following statements:
+\begin{verbatim}
+printf("%s", strcpy(string3, string1));
+printf("%s", strcat(strcat(strcpy(string4, string1), "or"), string2));
+printf("%d %d", strlen(string2) + strlen(string3), strlen(string4));
+\end{verbatim}\pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Explain the different categories of functions in C with proper examples. Discuss the relevance of storage classes on the scope, visibility, and lifetime of variables. Write a C program that uses a function to sort an array of integers. \pts{7}
+  \item What are user-defined functions? State three advantages of using functions. What is the purpose of a \texttt{return} statement? \pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 6.}
+\begin{parts}
+  \item The Fibonacci numbers are defined recursively as: $F_1 = 1$, $F_2 = 2$, $F_n = F_{n-1} + F_{n-2}$ for $n > 2$. Write a C program containing a recursive function to generate and print the first 20 Fibonacci numbers. \pts{7}
+  \item What is printed when the following program is executed?
+\begin{verbatim}
+#include <stdio.h>
+int f(int);
+int main() {
+    printf("%d\n", f(7));
+    return 0;
+}
+int f(int x) {
+    if (x <= 4) return x;
+    return f(x - 1) + f(x - 2);
+}
+\end{verbatim}\pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}
+
+\medskip\noindent\textbf{Question 7.} With examples and programs, explain the following concepts in C. Give a typical use case for each:\pts{14}
+\begin{parts}
+  \item Structures
+  \item Array of structures
+  \item Nested structures
+  \item Unions (include similarities and differences with structures, and rules for initializing)
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

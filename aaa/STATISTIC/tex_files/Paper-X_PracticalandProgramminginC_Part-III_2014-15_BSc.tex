@@ -1,0 +1,195 @@
+% BHU PYQ -- Auto-generated & error-corrected
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={Paper-X: Practical and Programming in C (Old Course) -- BHU PYQ},pdfauthor={Banaras Hindu University}}
+
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{Paper-X: Practical and Programming in C}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.A./B.Sc. (Hons.) Part-III Examination, 2014-15}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper No. Paper-X: Practical and Programming in C (Old Course)}\\[4pt]
+  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Question No.\ 1 is compulsory. Answer \textbf{five} questions in all, selecting one question from each Unit. Symbols have their usual meanings.}
+\bigskip
+
+%------------------------------------------------------------
+\medskip\noindent\textbf{Question 1 (Compulsory).} Answer all parts briefly:\pts{20}
+
+\begin{parts}
+  \item Write the name of a function provided for output on the screen in C. Write a C statement to display the name of your university on the screen. \pts{2}
+  \item Evaluate the following expressions in C, assuming \texttt{int a = 1, b = 2, c = 3, d = 4;}:
+  \begin{parts}
+    \item \texttt{b * c / d}
+    \item \texttt{a + c \% d}
+  \end{parts}\pts{2}
+  \item Write any two logical operators used in C and explain their meaning with examples. \pts{2}
+  \item Which of the following are \textbf{not} reserved words (keywords) in C?
+  \begin{center}
+    \texttt{break, \quad continue, \quad goto, \quad exit, \quad int}
+  \end{center}\pts{2}
+  \item Define a variable. Choose the \textbf{valid} variable names from the following list:
+  \begin{center}
+    \texttt{A, \quad -BSC, \quad paper-no-x, \quad \_student\_id, \quad name26, \quad 101name}
+  \end{center}\pts{2}
+  \item Write equivalent logical expressions in C \textbf{without} using negation (\texttt{!}):
+  \begin{parts}
+    \item \texttt{!(a > b)}
+    \item \texttt{!(a == b)}
+  \end{parts}\pts{2}
+  \item What will be the output of the following C program?
+\begin{verbatim}
+#include <stdio.h>
+int main() {
+    int i = 5;
+    int *j = &i;
+    printf("%d\n", *j);
+    return 0;
+}
+\end{verbatim}\pts{2}
+  \item What will be the output of the following C program?
+\begin{verbatim}
+#include <stdio.h>
+int main() {
+    int a[] = {0, 1, 2, 3, 4};
+    int i = 0, *p;
+    p = &a[0];
+    while (i < 5) {
+        printf("%d\n", *p);
+        p++;
+        i++;
+    }
+    return 0;
+}
+\end{verbatim}\pts{2}
+  \item What will be the output of the following C program?
+\begin{verbatim}
+#include <stdio.h>
+struct book {
+    char name[30];
+    char author[30];
+    int year;
+};
+int main() {
+    struct book b1 = {"statistics", "A.B.C", 2002};
+    printf("%s\n", b1.name);
+    printf("%s\n", b1.author);
+    printf("%d\n", b1.year);
+    return 0;
+}
+\end{verbatim}\pts{2}
+  \item Write a small C program that uses an \textit{array of structures} to store data for 3 students (name and marks) and print them. \pts{2}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.3pt}
+\begin{center}\textbf{UNIT I}\end{center}
+
+\medskip\noindent\textbf{Question 2.}
+\begin{parts}
+  \item Describe the basic data types in C along with their memory sizes and value ranges. Give one example of each data type. \pts{6.5}
+  \item What is a constant in C? Describe different types of constants with examples. \pts{7}
+\end{parts}
+
+\medskip\noindent\textbf{Question 3.}
+\begin{parts}
+  \item What are the functions of the increment (\texttt{++}) and decrement (\texttt{--}) operators in C? Explain each with an example. \pts{6}
+  \item What will be the output of the following program? Explain your logic.
+\begin{verbatim}
+#include <stdio.h>
+int main() {
+    int a, b = 0, c = 0;
+    a = ++b + c++;
+    printf("%d %d %d\n", a, b, c);
+    return 0;
+}
+\end{verbatim}\pts{3}
+  \item Evaluate the following expressions in C, assuming \texttt{int a = 2, b = -3, c = 5, d = -7;}:
+  \begin{parts}
+    \item \texttt{a / b + c}
+    \item \texttt{7 + c * --d}
+    \item \texttt{a *= b *= c *= 1}
+  \end{parts}\pts{4.5}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.3pt}
+\begin{center}\textbf{UNIT II}\end{center}
+
+\medskip\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Describe the \texttt{while} loop structure in C with syntax and a suitable example. \pts{6.5}
+  \item Can an \texttt{if-else} statement always be expressed as a \texttt{switch} statement? Justify your answer with an example. \pts{7}
+\end{parts}
+
+\medskip\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Explain arrays in C. You are given a $5 \times 4$ matrix of real numbers. Write a C program to read this matrix and calculate and print its column means. \pts{7}
+  \item Define automatic (local) and static variables in C. Write an example to explain their difference in behaviour across function calls. \pts{6.5}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.3pt}
+\begin{center}\textbf{UNIT III}\end{center}
+
+\medskip\noindent\textbf{Question 6.}
+\begin{parts}
+  \item Describe pointers and their declaration in C. Give an example of accessing and modifying a variable through its pointer. \pts{6.5}
+  \item Define an array and describe the relationship between arrays and pointers in C with a suitable example. \pts{7}
+\end{parts}
+
+\medskip\noindent\textbf{Question 7.}
+\begin{parts}
+  \item Define a function and explain its uses in a C program. Write a C program that reads $n$ real numbers from the screen and computes their standard deviation using a separate function. \pts{7}
+  \item What is recursion? How is it different from iteration? Write a C program to compute the factorial of a given positive integer using recursion. \pts{6.5}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.3pt}
+\begin{center}\textbf{UNIT IV}\end{center}
+
+\medskip\noindent\textbf{Question 8.}
+\begin{parts}
+  \item Describe structures in C. Write a C program to store the name, age, and marks of 30 students in a file using structures. \pts{7}
+  \item Explain unions in C. Describe the similarities and differences between structures and unions. \pts{6.5}
+\end{parts}
+
+\medskip\noindent\textbf{Question 9.}
+\begin{parts}
+  \item What is a linked list? Write a C program to create a linear linked list of integers by appending elements at the end and then print the list. \pts{7}
+  \item Write a C program to read 50 real numbers from the screen and find their variance using a separate function. \pts{6.5}
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+  \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+  \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]
+  \href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}
