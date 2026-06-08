@@ -159,16 +159,100 @@
     const targetDept = (deptLabels[deptKey] || deptKey).toLowerCase();
     const activePapers = NEP_LATEX_PYQ_DATA.filter(p => p.department.toLowerCase() === targetDept || p.department.toLowerCase() === deptKey.toLowerCase());
 
-    // Group papers by semester (1 to 6)
-    function groupPapersBySemester(papers) {
-        const groups = { 1: [], 2: [], 3: [], 4: [], 5: [], 6: [] };
+    const NEP_COURSE_NAMES = {
+        // Mathematics
+        'MATMD11': 'Basic Mathematics-I',
+        'MATMJ11': 'Calculus',
+        'MATMN11': 'Calculus',
+        'MATMJ11 / MATMN11': 'Calculus',
+        'MATSE11': 'Ethics in Academia and Mathematical Exploration',
+        'MATMD21': 'Basic Mathematics-II',
+        'MATMJ21': 'Algebra',
+        'MATMN21': 'Algebra',
+        'MATMJ21 / MATMN21': 'Algebra',
+        'MATSE21': 'LaTeX Typesetting for Beginners',
+        'MATMD31': 'Basic Mathematics-III',
+        'MATMJ31': 'Linear Algebra',
+        'MATMJ32': 'Analysis',
+        'MATMV31': 'Python for Mathematical Applications',
+        'MATSE31': 'SageMath for Beginners',
+        'MATMJ41': 'Calculus of several variables',
+        'MATMJ42': 'Vector and Tensor Analysis',
+        'MATMJ43': 'Differential Equations',
+        'MATMJ44': 'Mechanics',
+        'MATMN41': 'Differential Equataons',
+        'MATIN51': 'Internship to be done during vacation',
+        'MATMJ51': 'Abstract Algebra',
+        'MATMJ52': 'Metric Spaces',
+        'MATMJ53': 'Analytic Geometry',
+        'MATMJ54': 'Numerical Analysis',
+        'MATMV51': 'Optimization Techniques',
+        'MATMJ61': 'Measure and integration',
+        'MATMJ610': 'Dynamical System',
+        'MATMJ611': 'Data Structures',
+        'MATMJ612': 'Analytical Visualization',
+        'MATMJ613': 'Graph Theory',
+        'MATMJ614': 'Vedic Mathematics',
+        'MATMJ62': 'Complex Analysis',
+        'MATMJ63': 'Differential Geometry',
+        'MATMJ64': 'Number Theory',
+        'MATMJ65': 'Linear Programming and Applications',
+        'MATMJ66': 'Special Theory of Relativity',
+        'MATMJ67': 'Space Dynamics',
+        'MATMJ68': 'Discrete Mathematics',
+        'MATMJ69': 'Mathematical Modelling',
+        'MATMJ12': 'Geometry',
+        // Physics
+        'PHYMJ11 / PHYMN11': 'Mechanics and Relativity',
+        'PHYMJ11': 'Mechanics and Relativity',
+        'PHYMN11': 'Ancillary Physics',
+        'PHYMJ21 / PHYMN21': 'Thermal Physics and Electromagnetism',
+        'PHYMJ21': 'Thermal Physics and Electromagnetism',
+        'PHYMJ31': 'Optics and Oscillations',
+        'PHYMJ32': 'Basic Instrumentation Skills',
+        'PHYMJ41': 'Modern Physics and Quantum Mechanics',
+        'PHYMJ42': 'Electricity and Magnetism',
+        'PHYMJ51': 'Classical Mechanics',
+        'PHYMJ52': 'Quantum Mechanics',
+        'PHYMJ53': 'Statistical Mechanics',
+        'PHYMJ61': 'Atomic and Molecular Physics',
+        'PHYMJ62': 'Solid State Physics',
+        'PHYMJ63': 'Topics in Modern Physics',
+        'PHYMJ64': 'Elements of Nuclear Physics',
+        // Chemistry
+        'CHEMJ11 / CHEMN11': 'Structure and Bonding',
+        'CHEMJ11': 'Structure and Bonding',
+        'CHEMN11': 'Structure and Bonding',
+        'CHEMD11': 'Ancillary Chemistry I',
+        'CHEMJ21 / CHEMN21': 'Inorganic and Physical Chemistry I',
+        'CHEMJ21': 'Inorganic and Physical Chemistry I',
+        'CHEMN21': 'Inorganic and Physical Chemistry I',
+        'CHEMJ32 / CHEMJ33': 'Organic and Physical Chemistry',
+        'CHEMD21': 'Ancillary Chemistry II',
+        'CHEMJ41 / CHEMJ42': 'Inorganic and Organic Chemistry II',
+        'CHEMJ51': 'Analytical Chemistry I',
+        'CHEMD31': 'Environmental and Nuclear Chemistry',
+        'CHEMJ52': 'Inorganic Chemistry III',
+        'CHEMJ53': 'Organic Chemistry III',
+        'CHEMJ54': 'Physical Chemistry III',
+        'CHEMJ61': 'Analytical Chemistry II',
+        'CHEMJ85 / CHEMJ8R5': 'Atomic and Molecular Structure',
+        'CHEMJ62': 'Inorganic Chemistry IV',
+        'CHEMJ63': 'Organic Chemistry IV',
+        'CHEMJ64': 'Physical Chemistry IV'
+    };
+
+    // Group papers by semester (1 to 6) and then by nepCode
+    function groupPapersBySemesterAndCode(papers) {
+        const groups = { 1: {}, 2: {}, 3: {}, 4: {}, 5: {}, 6: {} };
         papers.forEach(p => {
             const sem = p.semester || 1;
-            if (groups[sem]) {
-                groups[sem].push(p);
-            } else {
-                groups[1].push(p); // default fallback
+            const targetSem = groups[sem] ? sem : 1;
+            const code = p.nepCode || 'General';
+            if (!groups[targetSem][code]) {
+                groups[targetSem][code] = [];
             }
+            groups[targetSem][code].push(p);
         });
         return groups;
     }
@@ -180,7 +264,7 @@
         const loader = document.getElementById('loader');
         if (loader) loader.classList.add('hidden');
 
-        const grouped = groupPapersBySemester(papersToRender);
+        const grouped = groupPapersBySemesterAndCode(papersToRender);
         let hasAnyPaper = false;
 
         const semRoman = {
@@ -193,52 +277,73 @@
         };
 
         for (let semNum = 1; semNum <= 6; semNum++) {
-            const papersList = grouped[semNum];
-            if (papersList.length === 0) continue;
+            const codesMap = grouped[semNum];
+            const codesList = Object.keys(codesMap);
+            if (codesList.length === 0) continue;
             hasAnyPaper = true;
 
-            let papersMarkup = '';
-            papersList.forEach(p => {
-                const pdfPath = p.filePath.replace('.tex', '.pdf');
-                const fileUrl = encodeURIComponent(pdfPath);
-                const titleParam = encodeURIComponent(p.subject + ' (' + p.code + ') ' + p.year);
+            let semesterGroupsHTML = '';
+            
+            // Sort codes so they display logically
+            codesList.sort().forEach(nepCode => {
+                const papersList = codesMap[nepCode];
+                if (papersList.length === 0) return;
                 
-                papersMarkup += `
-                    <div class="glass-card p-5 rounded-xl border border-border-subtle flex flex-col md:flex-row items-start md:items-center justify-between gap-4 hover:shadow-sm transition-all">
-                        <div class="flex items-start gap-4">
-                            <div class="w-10 h-10 rounded-lg bg-accent-neural-emerald/10 flex items-center justify-center text-accent-neural-emerald shrink-0">
-                                <span class="material-symbols-outlined text-2xl">code_blocks</span>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-sm text-primary leading-tight">${p.subject}</h4>
-                                <div class="flex flex-wrap gap-2 mt-2">
-                                    <span class="bg-accent-bhu-saffron/10 text-accent-bhu-saffron text-[10px] px-2 py-0.5 rounded font-bold uppercase tracking-wide">NEP: ${p.nepCode}</span>
-                                    <span class="bg-neutral-100 text-secondary text-[10px] px-2 py-0.5 rounded font-bold uppercase tracking-wide">Old: ${p.oldCode}</span>
-                                    <span class="bg-neutral-100 text-secondary text-[10px] px-2 py-0.5 rounded font-bold uppercase tracking-wide">Year: ${p.year}</span>
+                const courseName = NEP_COURSE_NAMES[nepCode] || papersList[0].subject || 'Course';
+                
+                let papersMarkup = '';
+                papersList.forEach(p => {
+                    const pdfPath = p.filePath.replace('.tex', '.pdf');
+                    const fileUrl = encodeURIComponent(pdfPath);
+                    const titleParam = encodeURIComponent(p.subject + ' (' + p.code + ') ' + p.year);
+                    
+                    papersMarkup += `
+                        <div class="glass-card p-4 rounded-lg border border-border-subtle/70 bg-white/50 flex flex-col md:flex-row items-start md:items-center justify-between gap-3 hover:shadow-sm transition-all">
+                            <div class="flex items-start gap-3">
+                                <div class="w-8 h-8 rounded-lg bg-accent-neural-emerald/10 flex items-center justify-center text-accent-neural-emerald shrink-0">
+                                    <span class="material-symbols-outlined text-xl">picture_as_pdf</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-xs text-primary leading-tight">${p.subject} (${p.year})</h4>
+                                    <p class="text-[10px] text-secondary mt-1">
+                                        New Paper Code: <span class="font-semibold text-accent-bhu-saffron">${p.nepCode}</span> / Old Paper Code: <span class="font-semibold text-primary/80">${p.oldCode}</span>
+                                    </p>
                                 </div>
                             </div>
+                            <div class="flex items-center gap-2 w-full md:w-auto shrink-0 justify-end">
+                                <a href="pyq-viewer.html?file=${fileUrl}&title=${titleParam}" class="bg-primary text-white hover:bg-neutral-800 px-4 py-2 rounded-full font-bold text-[10px] flex items-center gap-1.5 transition-all duration-200 active:scale-95 shadow-sm">
+                                    <span class="material-symbols-outlined text-xs">visibility</span>
+                                    <span>View Compiled PDF</span>
+                                </a>
+                            </div>
                         </div>
-                        <div class="flex items-center gap-2.5 w-full md:w-auto shrink-0 self-stretch md:self-auto justify-end">
-                            <a href="pyq-viewer.html?file=${fileUrl}&title=${titleParam}" class="flex-grow md:flex-grow-0 bg-primary text-white hover:bg-neutral-800 px-6 py-2.5 rounded-full font-bold text-sm flex items-center justify-center gap-2 transition-all duration-200 active:scale-95 shadow-sm">
-                                <span class="material-symbols-outlined text-base">visibility</span>
-                                <span>Compiled PDF</span>
-                            </a>
+                    `;
+                });
+                
+                semesterGroupsHTML += `
+                    <div class="border border-border-subtle bg-white/60 rounded-xl p-4 md:p-5 space-y-3 shadow-sm">
+                        <div class="flex flex-wrap items-center justify-between border-b border-border-subtle/50 pb-2">
+                            <div class="flex items-center gap-2.5">
+                                <span class="w-2 h-2 rounded-full bg-accent-neural-emerald"></span>
+                                <h3 class="font-extrabold text-xs text-accent-neural-emerald uppercase tracking-wider">${nepCode} &mdash; ${courseName}</h3>
+                            </div>
+                            <span class="bg-accent-neural-emerald/5 text-accent-neural-emerald text-[9px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider">${papersList.length} Papers</span>
+                        </div>
+                        <div class="space-y-3">
+                            ${papersMarkup}
                         </div>
                     </div>
                 `;
             });
 
             const semesterHTML = `
-                <div class="border border-border-subtle bg-white/40 backdrop-blur-md rounded-2xl p-6 md:p-8 space-y-4">
-                    <div class="flex items-center justify-between border-b border-border-subtle/50 pb-3">
-                        <div class="flex items-center gap-3">
-                            <span class="w-2.5 h-2.5 rounded-full bg-accent-neural-emerald"></span>
-                            <h2 class="font-bold text-lg md:text-xl text-primary">${semRoman[semNum]}</h2>
-                        </div>
-                        <span class="bg-primary/5 text-secondary text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">${papersList.length} Papers</span>
+                <div class="border border-border-subtle bg-white/20 backdrop-blur-md rounded-2xl p-5 md:p-6 space-y-4">
+                    <div class="flex items-center gap-3 border-b border-border-subtle pb-2">
+                        <span class="w-3.5 h-3.5 rounded-full bg-accent-bhu-saffron"></span>
+                        <h2 class="font-bold text-lg md:text-xl text-primary">${semRoman[semNum]}</h2>
                     </div>
                     <div class="space-y-4">
-                        ${papersMarkup}
+                        ${semesterGroupsHTML}
                     </div>
                 </div>
             `;
