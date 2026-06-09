@@ -1,0 +1,167 @@
+% BHU PYQ -- Professional Exam Template
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={CS-105: Discrete Mathematics -- BHU PYQ}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{CS-105: Discrete Mathematics}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\lstset{
+  basicstyle=\small\ttfamily,
+  frame=single,
+  breaklines=true,
+  columns=flexible,
+  keepspaces=true
+}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) Semester VI Examination, 2022-23}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper: CS-105 --- Discrete Mathematics}\\[4pt]
+  {\normalsize Time: Three hours \hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: ATTEMPT ANY FIVE QUESTIONS. THE FIGURES IN THE RIGHT-HAND MARGIN INDICATE}
+
+\bigskip
+
+\medskip\noindent\textbf{Question 1.}
+\begin{parts}
+  \item Define a set. Give another representation of the following sets:\pts{4}
+  \begin{parts}
+    \item $\{x \mid x \text{ is an integer and } 5 \le x \le 12\}$
+    \item $\{2, 4, 8, \dots\}$
+    \item All the countries of the world.
+    \item $\{x \mid x \text{ is an integer and } x^2 = 2\}$
+  \end{parts}
+  \item Define number theoretic, total, and partial function. Give one example of each.\pts{6}
+  \item Let a relation be defined over a finite set. Answer the following considering the matrix representation of the relation:\pts{4}
+  \begin{parts}
+    \item How to check that the relation is a function.
+    \item How to check that the relation is a one-to-one function.
+    \item How to check that the relation is an onto function.
+    \item How to check that the relation is a one-to-one and onto function.
+  \end{parts}
+\end{parts}
+
+\medskip\noindent\textbf{Question 2.}
+\begin{parts}
+  \item Define partial order relation, POSET, and Lattice.\pts{4}
+  \item Let $X = \{1, 2, 3, 4, 6, 8, 12, 24\}$ and the relation $\le$ be such that $x \le y$ if $x$ divides $y$. Answer the following questions for the POSET $(X, \le)$:\pts{10}
+  \begin{parts}
+    \item List all ordered pairs of relation $\le$.
+    \item Give relation matrix of the relation $\le$.
+    \item Find the matrix of inverse relation of $\le$ from matrix of relation $\le$.
+    \item Draw the Hasse diagram of $(X, \le)$.
+    \item Find the maximal and minimal element, if it exists.
+    \item Find the greatest and least element, if they exist.
+    \item Find all upper bounds of $\{2, 6\}$.
+    \item Find the least upper bound of $\{2, 6\}$, if it exists.
+    \item Find all lower bounds of $\{4, 6\}$.
+    \item Find the greatest lower bound of $\{4, 6\}$, if it exists.
+  \end{parts}
+\end{parts}
+
+\medskip\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Show that the conclusion ``If I do not finish writing the program, then I will wake up feeling refreshed'', logically follows from the premises: ``If you send E-mail message, then I will finish writing the program,'' ``If you do not send me an E-mail message, then I will go to sleep early,'' and ``If I will go to sleep early, then I will wake up feeling refreshed.''\pts{4}
+  \item Write the negation of the premises and conclusion given in 3(a).\pts{4}
+  \item Describe the procedure proof by contradiction. Using the procedure proof by contradiction, show that the conclusion $Q$ logically follows from the premises $P$ and $P \to Q$.\pts{6}
+\end{parts}
+
+\medskip\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Indicate the variables that are free and bound in the following statements. Also show the scope of the quantifiers:\pts{5}
+  \begin{parts}
+    \item $(\forall x)P(x, y)$
+    \item $(\forall x)(P(x) \to Q(x))$
+    \item $(\forall x)(P(x) \to (\exists y)R(x, y))$
+    \item $(\forall x)(P(x) \to R(x)) \lor (\forall x)(P(x) \to Q(x))$
+    \item $(\exists x)P(x) \land Q(x)$
+  \end{parts}
+  \item Discuss the limitation of propositional calculus, and how it is overcome in predicate calculus.\pts{4}
+  \item Suppose the domain of the propositional function $P(x)$ consists of the finite set $\{x_1, x_2, x_3, \dots, x_n\}$. Express the following statements without using quantifiers:\pts{5}
+  \[ \exists x P(x), \quad \forall x P(x), \quad \neg\exists x P(x), \quad \exists x\neg P(x), \quad \forall x\neg P(x) \]
+\end{parts}
+
+\medskip\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Define an Euler circuit in a graph. Give necessary and sufficient condition that a connected graph have an Euler circuit.\pts{3}
+  \item Does the Hasse diagram given in question 2(b)(iv) have an Euler circuit? If yes, give at least one Euler circuit present in this graph.\pts{2}
+  \item Define Hamiltonian circuit in a graph. If they exist, give necessary and sufficient conditions (or necessary or sufficient condition) that a connected graph have a Hamiltonian circuit.\pts{3}
+  \item Prove that in a graph the number of nodes with odd degree must be even.\pts{6}
+\end{parts}
+
+\medskip\noindent\textbf{Question 6.}
+\begin{parts}
+  \item Can five houses be connected to two utilities without connection crossings? Justify your answer with proper reasoning.\pts{4}
+  \item For which values of $n$ the following graphs are planar:\pts{4}
+  \begin{parts}
+    \item $K_n$
+    \item $W_n$
+    \item $K_{m, n}$
+    \item $Q_n$
+  \end{parts}
+  \item For which value of $n$ are these graphs bipartite? And also find their chromatic number:\pts{4}
+  \begin{parts}
+    \item $K_n$
+    \item $C_n$
+    \item $K_{m, n}$
+    \item $Q_n$
+  \end{parts}
+  \item Find the chromatic number of the Hasse diagram of the POSET given in question 2(a).\pts{2}
+\end{parts}
+
+\medskip\noindent\textbf{Question 7.}
+\begin{parts}
+  \item Define phrase-structured grammar and describe the Chomsky classification of phrase-structured grammar.\pts{5}
+  \item Let $G = (V, T, P, S)$ be the phrase-structured grammar with $V = \{0, 1, A, B, S\}$, $T = \{0, 1\}$, and set of productions $P = \{S \to 0A, S \to 1A, A \to 0B, B \to 1A, B \to 1\}$. Answer the following:\pts{9}
+  \begin{parts}
+    \item Show that $10101$ belongs to the language generated by $G$.
+    \item Show that $10110$ does not belong to the language generated by $G$.
+    \item What is the language generated by $G$?
+  \end{parts}
+\end{parts}
+
+\medskip\noindent\textbf{Question 8.}
+\begin{parts}
+  \item Give formal definition of a finite state machine which produces an output. Model a two-input logical AND gate using any finite state machine.\pts{6}
+  \item Show that the total number of one-to-one functions from $A$ to $B$ is $n(n-1)(n-2)\dots(n-m+1)$, where $|A| = m$ and $|B| = n$.\pts{3}
+  \item Model any problem of your choice using a recurrence relation and also give the solution of the modelled problem.\pts{5}
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+\end{document}

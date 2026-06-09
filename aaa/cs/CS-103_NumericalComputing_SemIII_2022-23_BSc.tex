@@ -1,0 +1,140 @@
+% BHU PYQ -- Professional Exam Template
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={CS-103: Numerical Computing -- BHU PYQ}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{CS-103: Numerical Computing}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\lstset{
+  basicstyle=\small\ttfamily,
+  frame=single,
+  breaklines=true,
+  columns=flexible,
+  keepspaces=true
+}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) Semester III Examination, 2022-23}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper: CS-103 --- Numerical Computing}\\[4pt]
+  {\normalsize Time: Three hours \hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: ATTEMPT ANY FIVE QUESTIONS. THE FIGURES IN THE RIGHT-HAND MARGIN INDICATE}
+
+\bigskip
+
+\medskip\noindent\textbf{Question 1.}
+\begin{parts}
+  \item Express the following decimal numbers in binary, octal and hexadecimal:\pts{6}
+  \begin{parts}
+    \item 22.623
+    \item -10.215
+  \end{parts}
+  \item What are the three different types of errors encountered in numerical calculations? Explain each of them briefly.\pts{3}
+  \item Determine the roots of the following equation using Newton-Raphson method correct to three decimal places:\pts{5}
+  \[ x^3 - 5x + 3 = 0 \]
+\end{parts}
+
+\medskip\noindent\textbf{Question 2.}
+\begin{parts}
+  \item Derive the Regula-Falsi method for calculation of roots of non-linear equation. Write the steps of calculation of roots using this method. Discuss the scenario where this method would give large errors.\pts{8}
+  \item Calculate the roots of the following equation using Regula-Falsi method, correct to three decimal places:\pts{6}
+  \[ x^3 + x^2 + x + 7 = 0 \]
+\end{parts}
+
+\medskip\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Describe the LU decomposition method for solving system of linear equations.\pts{2}
+  \item Use the LU decomposition method to solve the following system of linear equations:\pts{7}
+  \[
+  \begin{aligned}
+    5x - 2y + z &= 4 \\
+    7x + y - 5z &= 8 \\
+    3x + 7y + 4z &= 10
+  \end{aligned}
+  \]
+  \item Describe the method of diagonalization of a real symmetric matrix using Jacobi method.\pts{5}
+\end{parts}
+
+\medskip\noindent\textbf{Question 4.} For the matrix $A$ given below, calculate:
+\[ A = \begin{bmatrix} 4 & 3 & 2 \\ 2 & 3 & 4 \\ 1 & 2 & 1 \end{bmatrix} \]
+\begin{parts}
+  \item The largest Eigen value and the corresponding Eigen vector.\pts{7}
+  \item Inverse of the matrix.\pts{7}
+\end{parts}
+
+\medskip\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Derive Simpson's $1/3^{\text{rd}}$ Rule for numerical integration.\pts{4}
+  \item Integrate the following function using:
+  \[ I = \int_{0}^{1} \frac{1}{1+x} \, dx \]
+  \begin{parts}
+    \item Trapezoidal Rule
+    \item Simpson's $1/3^{\text{rd}}$ Rule
+  \end{parts}
+  using $h = 0.125$. Also compare the results obtained in each case with the actual value of the integral.\pts{10}
+\end{parts}
+
+\medskip\noindent\textbf{Question 6.}
+\begin{parts}
+  \item Derive the Newton-Gregory forward interpolation formula.\pts{4}
+  \item Use Newton's Divided difference method to calculate $f(0.25)$ and $f(0.27)$ for the following tabulated function:\pts{8}
+  \begin{center}
+  \begin{tabular}{|c|c|c|c|c|c|c|}
+    \hline
+    $x$ & 0.20 & 0.22 & 0.24 & 0.26 & 0.28 & 0.30 \\
+    \hline
+    $f(x)$ & 1.6596 & 1.6698 & 1.6804 & 1.6912 & 1.7024 & 1.7139 \\
+    \hline
+  \end{tabular}
+  \end{center}
+  \item State two applications of interpolation.\pts{2}
+\end{parts}
+
+\medskip\noindent\textbf{Question 7.}
+\begin{parts}
+  \item Use Picard's method to solve the differential equation:
+  \[ \frac{dy}{dx} = 1 + xy, \quad y(0) = 1 \]
+  Find the value of $y$ for $x = 0.5$ correct to 3 decimal places.\pts{7}
+  \item Use Predictor-Corrector method to solve the following differential equation:
+  \[ \frac{dy}{dx} = y(1 + x^2), \quad y(0) = 1 \]
+  Use $h = 0.05$ and compute $y(0.3)$ correct to 3 decimal places.\pts{7}
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+\end{document}

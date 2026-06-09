@@ -1,0 +1,143 @@
+% BHU PYQ -- Professional Exam Template
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={CSB-504: Operating System Concepts -- BHU PYQ}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{CSB-504: Operating System Concepts}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\lstset{
+  basicstyle=\small\ttfamily,
+  frame=single,
+  breaklines=true,
+  columns=flexible,
+  keepspaces=true
+}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) Semester V Examination, 2013-14}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper: CSB-504 --- Operating System Concepts}\\[4pt]
+  {\normalsize Time: Three Hours \hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: Answer five questions in all, including Question No.1, which is compulsory. Figures on the right-hand side}
+
+\bigskip
+
+Paper: CSB-504 (Operating System Concepts)
+Note: Answer five questions in all, including Question No.1, which is compulsory. Figures on the right-hand side
+
+\medskip\noindent\textbf{Question 1.} Answer all the parts
+\begin{parts}
+  \item Briefly explain the main design goals of an operating System.\pts{3}
+  \item What are the differences a process and a thread? Describe some benefits\pts{4}
+  using threads.
+  \item Explain the difference between internal and external fragmentation. Why\pts{4}
+  should they be avoided?
+  \item List the four conditions for the occurrence of a deadlock and describe the\pts{5}
+  resource-allocation graph.
+  \item Briefly discuss the terms: Dynamic Loading, Busy form of waiting, and\pts{6}
+  Monitor.
+\end{parts}
+
+\medskip\noindent\textbf{Question 2.} (a) Briefly explain the different process states and transition among the states\pts{2}
+with transition diagram.
+\begin{parts}
+  \item Explain the terms Process Contro! Block and Context Switching.\pts{4}
+  \item There are five processes A to E to run. Their arrival times are 0,1,3,9 and 12 (6}
+  seconds, respectively. Their processing times are 3, 5, 2, 5 and 5 seconds,
+  respectively. What is average turn-around times using First-Come-First-
+  Served, Shortest-Job-First and Round-Robin (with 1 second Time Quantum)
+  Scheduling?
+\end{parts}
+
+\medskip\noindent\textbf{Question 3.} (a) Discuss Paging Memory Management Scheme with an illustrative example {8)
+and explain the hardware support required for Paging.
+\begin{parts}
+  \item Consider a paging system with the page table stored in memory.\pts{4}
+  \item tfa memory reference takes 200 nanoseconds, how long does a paged
+  memory reference take?
+  \begin{parts}
+    \item if we add TLBs and 75 percent of all page-table references are found in
+    TLBs, what is the effective memory reference time? {assume that
+    finding a page-table entry in TLBs is 10 times faster than that of the
+    memory)
+  \end{parts}
+\end{parts}
+
+\medskip\noindent\textbf{Question 4.} (a) What is Demand Paging? Explain the steps involved in Page fault handling.\pts{4}
+\begin{parts}
+  \item Briefly describe Belady’s anomaly. |\pts{2}
+  \item A small computer has 4 frames. A process makes the following list of page\pts{6}
+  references 1, 2, 3, 4, 1,5, 2, 3, 1, 2. How nany page faults occur using FIFO,
+  Second Chance and Least-Recently Used page replacement algorithms?
+\end{parts}
+
+\medskip\noindent\textbf{Question 5.} (a) Describe the physical and logical views of a disk storage system.\pts{3}
+\begin{parts}
+  \item Consider the following sequence of disk track requests: 27, 129, 110, 186,\pts{9}
+  147, 41, 10, 64 and 120. Assume that initially the head is at track 30 and is
+  moving in the direction of decreasing track number. Compute the number of
+  PTO,
+  tracks the head traverses using FIFO, SSF and Elevator algorithms.
+\end{parts}
+
+\medskip\noindent\textbf{Question 6.} (a) Explain the contiguous and linked file allocation methods with major and the\pts{6}
+FAT scheme for linked allocation.
+\begin{parts}
+  \item Explain the concepts involved in maintaining the file system security {2)
+  \item Consider a swapping system in which memory consist of the following hole\pts{4}
+  sizes in memory order: 10K, 4K, 20K, 18K, 7K, 12K, and 15K. What hole is
+  taken for successive segment requests of
+  \item 12K
+  \begin{parts}
+    \item 10K
+    \item 9K
+    Using First-fit, best-fit, worst-fit and next-fit strategies.
+    7 Write notes on any three of the followings 3x4=12
+  \end{parts}
+  \item Disk free space management schemes .
+  \item Types of Operating System
+  \item Semaphore
+  \item Deadlock Recovery
+  \item 
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

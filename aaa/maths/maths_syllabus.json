@@ -1,0 +1,1066 @@
+{
+  "department": "Department of Mathematics",
+  "university": "Banaras Hindu University",
+  "programme": "B.Sc. (Hons.) Mathematics",
+  "semesters": [
+    {
+      "semester": 1,
+      "papers": [
+        {
+          "code": "MATMD11",
+          "name": "Basic Mathematics-I",
+          "credits": 3,
+          "course_type": "Multidisciplinary",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Matrices, matrix addition, and multiplication. Determinants. Elementary row and column operations, Echelon form, rank of a matrix. The inverse of a matrix. Solution of a system of linear equations using matrices and determinants."
+            },
+            {
+              "unit": 2,
+              "topics": "Geometric and Arithmetic Sequences, Monotone Sequences, Limit of a Se- quence, Discrete Difference Equations, Linear Difference Equation with Con- stant Coefficients, Introduction to Pharmacokinetics."
+            },
+            {
+              "unit": 3,
+              "topics": "Limit of a Function, Limit Properties, Right and Left Limits, Continuity, Inter- mediate Value Theorem, Average Rate of Change, Estimating Rates of Change for Data, Velocity, Examples of Rates of Change. Texts/References"
+            }
+          ]
+        },
+        {
+          "code": "MATMJ11",
+          "name": "Calculus",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Series: Sequences and their limits. Theorems on limits. Convergent and divergent sequences. Monotone Sequences. Subsequences and the Bolzano- Weierstrass Theorem."
+            },
+            {
+              "unit": 2,
+              "topics": "Series: The Cauchy Criterion. Convergent, Divergent, and Oscillatory series. Comparison test. D'Alembert's ratio test. Raabe’s test. Cauchy's n th root test."
+            },
+            {
+              "unit": 3,
+              "topics": "Limit and Continuity: Limits of functions. Algebra of limits. Continuity and uniform continuity of functions. Intermediate value theorem. Differentiability. Chain rule of differentiation."
+            },
+            {
+              "unit": 4,
+              "topics": "Darboux's theorem, Rolle’s theorem, and Mean value theorems. Leibnitz the- orem. Taylor's and Maclaurin's theorems. Maxima and Minima of functions. Nowhere differentiable fiinctions."
+            },
+            {
+              "unit": 5,
+              "topics": "Curvature. Asymptotes. Concavity and Convexity: Point of Inflexion, Singular Points. Tracing of plane curves (Cartesian and polar). Definite Integral as the limit of sum."
+            }
+          ]
+        },
+        {
+          "code": "MATMN11",
+          "name": "Calculus",
+          "credits": 4,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Series: Sequences and their limits. Theorems on limits. Convergent and divergent sequences. Monotone Sequences. Subsequences and the Bolzano- Weierstrass Theorem."
+            },
+            {
+              "unit": 2,
+              "topics": "Series: The Cauchy Criterion. Convergent, Divergent, and Oscillatory series. Comparison test. D'‘Alembert's ratio test. Raabe’s test. Cauchy's n th root test."
+            },
+            {
+              "unit": 3,
+              "topics": "Limit and Continuity: Limits of functions. Algebra of limits. Continuity and uniform continuity of functions. Intermediate value theorem. Differentiability. Chain rule of differentiation."
+            },
+            {
+              "unit": 4,
+              "topics": "Darboux's theorem, Rolle’s theorem, and Mean value theorems. Leibnitz the- orem. Taylor's and Maclaurin's theorems. Maxima and Minima of functions. Nowhere differentiable fiinctions."
+            },
+            {
+              "unit": 5,
+              "topics": "Curvature. Asymptotes. Concavity and Convexity: Point of Inflexion, Singular Points. Tracing of plane curves (Cartesian and polar). Definite Integral as the limit of sum. Texts/References"
+            }
+          ]
+        },
+        {
+          "code": "MATSE11",
+          "name": "Ethics in Academia and Mathematical Exploration",
+          "credits": 3,
+          "course_type": "Skill Enhancement",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Ethics in Higher Education and Academic Research. Ethics of Publication. Ethical Practices in Science Outreach. Ethical Issues Associated with Gender-Bias."
+            },
+            {
+              "unit": 2,
+              "topics": "Six proofs of the infinity of primes. Binomial coefficients are (almost) never powers. Representing numbers as sums of two squares. Three applications of Euler's formula. Sets, functions, and the continuum hypothesis. In praise of in equalities."
+            },
+            {
+              "unit": 3,
+              "topics": "Some irrational numbers. The golden mean and other roots. e: The queen of growth and decay. Logarithms. Infinite series: Fractals and the myth of forever. Fibonacci Numbers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "papers": [
+        {
+          "code": "MATMD21",
+          "name": "Basic Mathematics-II",
+          "credits": 3,
+          "course_type": "Multidisciplinary",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Concept of a Derivative, Limit Definition of a Derivative of a Function, Deriva- tives of Exponential Functions, Derivatives of Trigonometric Functions, Deriva- tives and Continuity, Derivatives of Logarithmic Functions."
+            },
+            {
+              "unit": 2,
+              "topics": "The Chain Rule for the Composition of Functions, Quotient and Reciprocal Rules, Exponential Models, Higher Derivatives. IIl Maxima and Minima, First Derivative Test, Mean Value Theorem, Concavity, Optimization Problems."
+            }
+          ]
+        },
+        {
+          "code": "MATMJ21",
+          "name": "Algebra",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": null
+        },
+        {
+          "code": "MATMN21",
+          "name": "Algebra",
+          "credits": 4,
+          "course_type": "Minor",
+          "syllabus": null
+        },
+        {
+          "code": "MATSE21",
+          "name": "LaTeX Typesetting for Beginners",
+          "credits": 3,
+          "course_type": "Unknown",
+          "syllabus": null
+        }
+      ]
+    },
+    {
+      "semester": 3,
+      "papers": [
+        {
+          "code": "MATMD31",
+          "name": "Basic Mathematics-III",
+          "credits": 3,
+          "course_type": "Multidisciplinary",
+          "syllabus": null
+        },
+        {
+          "code": "MATMJ31",
+          "name": "Linear Algebra",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Vector spaces, Subspaces, Span, Bases, Dimension, sum and quotient of Vector spaces, Maps of vector spaces, Linear transformations, Ilsomorphism, Rank and nullity, Dual space, Transpose, and annihilator."
+            },
+            {
+              "unit": 2,
+              "topics": "Matrix of a linear Transformation, similar matrices, change of basis, Rank of Matrix, Normal form, System of linear equations and their solutions."
+            },
+            {
+              "unit": 3,
+              "topics": "Inner product spaces and their properties, orthogonality, and orthonormaliza- tion, Orthogonal complement Adjoint of a linear transformation."
+            },
+            {
+              "unit": 4,
+              "topics": "Orthogonal and Unitary transformations. Hermitian and skew Hermitian ma- trices. Invariant subspaces, Eigenvalues and eigenvectors, Characteristic poly- nomial, Cayley-Hamilton Theorem."
+            },
+            {
+              "unit": 5,
+              "topics": "Diagonalization and triangularization, Cyclic Subspaces, Nilpotent transforma- tions, Canonical Forms. Bilinear form, matrix representation, Quadratic forms, and application to classification of curves and surfaces."
+            }
+          ]
+        },
+        {
+          "code": "MATMJ32",
+          "name": "Analysis",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "The Real numbers: The Algebraic and Order Properties of R. Absolute Value and Real Line."
+            },
+            {
+              "unit": 2,
+              "topics": "The Completeness Property of R. Applications of the Supremum Property. Limit superior and limit inferior of sequences. Monotone convergence theorem."
+            },
+            {
+              "unit": 3,
+              "topics": "Alternating series, absolute convergent series. Dirichlet’s and Abel's test. Rie- mann Integral, Integrability of continuous and monotonic Functions."
+            },
+            {
+              "unit": 4,
+              "topics": "Fundamental theorem of integral calculus, Mean Value theorems of integral calculus."
+            },
+            {
+              "unit": 5,
+              "topics": "Improper integrals and their convergence. Comparison test, Abel's and Dirich- let's test, Integral as a function of a parameter and its applications."
+            }
+          ]
+        },
+        {
+          "code": "MATMV31",
+          "name": "Python for Mathematical Applications",
+          "credits": 4,
+          "course_type": "Minor (VOC)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Fundamental concepts: Literals, variables and identifiers, strings, operators, expressions and data types, Control structures"
+            },
+            {
+              "unit": 2,
+              "topics": "Boolean expressions, selection control, iterative control Lists: List structures, Lists, (sequences), iterating over lists; Changing, adding, removing elements, Tuples,"
+            },
+            {
+              "unit": 3,
+              "topics": "Dictionaries and sets Functions: Program routines, calling value-returning func- tions, calling non value-returning functions, parameter passing, return values, variable scope."
+            }
+          ]
+        },
+        {
+          "code": "MATSE31",
+          "name": "SageMath for Beginners",
+          "credits": 3,
+          "course_type": "Skill Enhancement",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to SageMath: Overview of SageMath: What is it and why use it?, Installing SageMath (locally or using SageMathCell/CoCalc)., Introduction to the SageMath interface and basic commands., Creating and running SageMath notebooks. Arithmetic operations and basic functions. Algebra with SageMath: Working with symbolic expressions and variables. Simplifying expressions, ex-panding, and factoring. Solving algebraic equations (linear, quadratic, polynomial). Working with systems of equations. Introduction to matrices and basic matrix operations. Functions and Graphing: Defining and evaluating functionsin SageMath. Plotting functions: basic plots, multiple plots, and customizing milata Farnlauinn naan nannnlans, avanhn. nalau"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 4,
+      "papers": [
+        {
+          "code": "MATMJ41",
+          "name": "Calculus of several variables",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Euclidean n-space Rn. Euclidean norm and Euclidean distance. Tangent spaces in Rn. Open sets in R n. i} Functions from Rn to Rm. Limit of sequences in Rm. Limit and continuity of functions from R ntoR m. Partial derivatives and directional derivatives. Gradient of a function. Derivatives of functions between Euclidean space spaces."
+            },
+            {
+              "unit": 3,
+              "topics": "First differential and Jacobian matrix. Change of Variables. Chain Rule. Mean Value Theorem. Euler's Theorem. Inverse Function Theorem and Implicit Function Theorem (Constant Rank Theorem optional)."
+            },
+            {
+              "unit": 4,
+              "topics": "Hessian matrix, Second differentials and Taylor Series. Maxima, Minima and Saddles. Lagrange Multipliers."
+            },
+            {
+              "unit": 5,
+              "topics": "Integration: Fubini's Theorem. Applications to area, surface area and volume. Beta and Gamma functions. Dirichlet's theorem, Liouville’s theorem."
+            }
+          ]
+        },
+        {
+          "code": "MATMJ42",
+          "name": "Vector and Tensor Analysis",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Differential operators: The concept of Gradient, Divergence, and Curl. Helmholtz decomposition."
+            },
+            {
+              "unit": 2,
+              "topics": "Vector Integration: Line, surface, and volume integrals. Integral Theorems: Green's theorem in the plane, Gauss divergence theorems, Stokes’ theorem, Green's formulas, and application of these theorems/formulas."
+            },
+            {
+              "unit": 3,
+              "topics": "Curvilinear Coordinates: Curvilinear and orthogonal curvilinear coordinate sys- tems and unit vectors. Arc lengths. Volume elements. Gradient, Divergence, and Curl in curvilinear coordinate systems. Some special orthogonal curvilinear coordinate systems."
+            },
+            {
+              "unit": 4,
+              "topics": "Tensor Analysis: Contravariant and covariant tensors, mixed tensors, coordi- nate transformation, and physical laws. Contraction, symmetric, and skew-symmetric tensors. metric tensor, length, and angle between two curves."
+            },
+            {
+              "unit": 5,
+              "topics": "Christoffel symbols. Transformation laws of Christoffel symbols. Geodesics. Gradient, Divergence and Curl in tensor form, Derivation."
+            }
+          ]
+        },
+        {
+          "code": "MATMJ43",
+          "name": "Differential Equations",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Differential Equations: Linear differential equations of first order. First order higher degree equations solvable for x, y, z. Singular solution and envelopes."
+            },
+            {
+              "unit": 2,
+              "topics": "Linear differential equations with constant coefficients, homogeneous linear differential equations."
+            },
+            {
+              "unit": 3,
+              "topics": "Qualitative behaviour of solutions. Method of variation of parameters, linear differential equations of second order with variable coefficients, series solution."
+            },
+            {
+              "unit": 4,
+              "topics": "Partial Differential Equations: Formation of partial differential equations, Lin- ear partial differential equations of first order and its classifications, Lagrange’s method."
+            },
+            {
+              "unit": 5,
+              "topics": "Non-linear PDE of first order: Charpit's method. Linear partial differential equation of second and higher order of homogeneous and non-homogeneous forms with constant coefficients, Linear partial differential equations reducible to equations with constant coefficients."
+            }
+          ]
+        },
+        {
+          "code": "MATMJ44",
+          "name": "Mechanics",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Laws of vectors in two-dimension(2D): Application to mechanics, Concurrent forces in a plane, System of parallel forces, Coplanar forces, Theory of couples, Resultant Force and couple, Moment of a force about a point and about a line, Moment of a couple,Varignon's theorem."
+            },
+            {
+              "unit": 2,
+              "topics": "Equilibrium of forces in 2D: Reduction and analytical conditions for the equilibrium of a system of forces acting on a particle and a rigid body, Different forms of the equilibrium conditions; Virtual displacement and virtual work, Principle of virtual work, Deduction of necessary and sufficient conditions for the equilibrium of a system of forces acting on a particle or different points of a rigid body. Application of Hooke’s law related to virtual work."
+            }
+          ]
+        },
+        {
+          "code": "MATMN41",
+          "name": "Differential Equations",
+          "credits": 4,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Differential Equations: Linear differential equations of first order. First order higher degree equations solvable for x, y, z. Singular solution and envelopes."
+            },
+            {
+              "unit": 2,
+              "topics": "Linear differential equations with constant coefficients, homogeneous linear differential equations."
+            },
+            {
+              "unit": 3,
+              "topics": "Qualitative behaviour of solutions. Method of variation of parameters, linear differential equations of second order with variable coefficients, series solution."
+            },
+            {
+              "unit": 4,
+              "topics": "Partial Differential Equations: Formation of partial differential equations, Lin- ear partial differential equations of first order and its classifications, Lagrange’s method."
+            },
+            {
+              "unit": 5,
+              "topics": "Non-linear PDE of first order: Charpit's method. Linear partial differential equation of second and higher order of homogeneous and non-homogeneous forms with constant coefficients, Linear partial differential equations reducible to equations with constant coefficients."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 5,
+      "papers": [
+        {
+          "code": "MATIN51",
+          "name": "Internship to be done during vacation",
+          "credits": 2,
+          "course_type": "Minor",
+          "syllabus": null
+        },
+        {
+          "code": "MATMJ51",
+          "name": "Abstract Algebra",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Homomorphism, Ilsomorphism. Subgroup, group generated by a subset, center of a group, coset, Lagrange theorem applications: Euler's theorem, Fermat and Wilson Theorem."
+            },
+            {
+              "unit": 2,
+              "topics": "Product of groups, Normal subgroup, quotient group, Fundamental theorem of homomorphism, first and second isomorphism theorems, Commutator and abelianization."
+            },
+            {
+              "unit": 3,
+              "topics": "Symmetric group, cycles, transpositions, even and odd permutations, Alternat- ing group and normal subgroups of Sn."
+            },
+            {
+              "unit": 4,
+              "topics": "Group action: regular and conjugations, orbits, isotropy, class equation, con- jugacy class, groups of order p"
+            }
+          ]
+        },
+        {
+          "code": "MATMJ52",
+          "name": "Metric Spaces",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Definition of a Metric Space: Metric, examples, and basic properties. Open and Closed Sets: Definitions, examples, and properties within metric spaces. Neighborhoods and Convergence: Understanding neighborhoods, limit points, and convergent sequences. Topology induced by a metric. Interior, Closure, and Boundary: Definitions and their significance in metric spaces."
+            },
+            {
+              "unit": 2,
+              "topics": "Compactness: Heine-Borel Theorem, sequential compactness, and compact sub- sets. Connectedness: Connected and disconnected sets, path-connected spaces. The subspace of a metric space, Completeness, and Compactness."
+            },
+            {
+              "unit": 3,
+              "topics": "Cantor's intersection theorem. Construction of real numbers as the completion af the incamnlete metric snace of rationals."
+            }
+          ]
+        },
+        {
+          "code": "MATMJ53",
+          "name": "Analytic Geometry",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Polar coordinators, Polar Equation: Distance between two points. Polar equa- tion of a straight line. Polar equation of a circle. Polar equation of a conic. Equations of chord, tangent, normal, chord of contact of a Conic."
+            },
+            {
+              "unit": 2,
+              "topics": "Plane and straight line: Plane and straight line in R 3 by using vector method."
+            },
+            {
+              "unit": 3,
+              "topics": "Sphere: Equation of a sphere. Plane section of sphere. Equations of circle. Sphere passing through a given circle. Equation of tangent plane. Angle of intersection of two sphere."
+            },
+            {
+              "unit": 4,
+              "topics": "Cone and Cylinder: Cone with vertex as origin. Condition for the general equation of second degree to represent a cone. Equation of Right circular cone. Equation of tangent plane to a cone. Condition of tangency. Reciprocal cone. Enveloping cylinder, Right circular cylinder."
+            },
+            {
+              "unit": 5,
+              "topics": "Conicoids: Central conicoids. Paraboloids. Equation of tangent plane and normal to a conicoid. Condition of tangency. Cone through six normals. Plane sections of conicoids. Enveloping cone and enveloping cylinder. Classification of quadrics."
+            }
+          ]
+        },
+        {
+          "code": "MATMJ54",
+          "name": "Numerical Analysis",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Errors and their computations; Numerical solutions of nonlinear equations: Bi- section method, Regula-Falsi, Secant method, Newton-Raphson, fixed point it- eration, Rate of convergence of iterative methods;"
+            },
+            {
+              "unit": 2,
+              "topics": "Roots of Polynomials: Birge-Vieta method; System of linear equations: Gauss elimination method, Gauss-Jordan method, Jacobi iterative method, Gauss- Seidal iterative method; Eigen value computation: Power method; Finite differences;"
+            },
+            {
+              "unit": 3,
+              "topics": "Interpolation: Newton's forward and backward interpolation, Lagrange’s interpolation, Newton's divided difference interpolation; Numerical differentiation;"
+            },
+            {
+              "unit": 4,
+              "topics": "Numerical integration: Trapezoidal rule, Simpson's one-third rule, Simpson's three-eighth rule, Boole’s rule and Weddle’s rule; Errors in quadrature formulae;"
+            },
+            {
+              "unit": 5,
+              "topics": "Numerical solution to ordinary differential equations of first order: Euler's method, Modified Euler's method, Runge- Kutta second and fourth order, Im- plicit Runge-Kutta second order; Predictor Corrector methods: Milne Simpson method, Adams-Bashforth method."
+            }
+          ]
+        },
+        {
+          "code": "MATMV51",
+          "name": "Optimization Techniques",
+          "credits": 4,
+          "course_type": "Minor (VOC)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Real life Applications and Model Formulation of Linear Programming problems, Graphical Methods, convex set, extreme points, Canonical and Standard Form, Slack, Surplus and artificial Variables, basic feasible solution, The Simplex Method, Two-Phase Method, Big-M Method."
+            },
+            {
+              "unit": 2,
+              "topics": "Duality in Linear Programming, dual simplex method, Transportation Prob- lem, North-West Corner Method, Least Cost Method, Vogel's Approximation Method, MODI method, assignment problem, Hungarian Method."
+            },
+            {
+              "unit": 3,
+              "topics": "Unconstrained Optimization, local and global minimizers, first and second-order necessary optimality conditions, second- order sufficient optimality condition,steepest alan nann bmn nthnda thn anni nantbn nvanaAi ant"
+            },
+            {
+              "unit": 4,
+              "topics": "Constrained Optimization, feasible directions, descent directions, Lagrangian function, Fritz-John optimality conditions, constraint qualifications, Karush-Kuhn-Tucker optimality conditions, convex functions and properties, sufficient optimality conditions, applications."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 6,
+      "papers": [
+        {
+          "code": "MATMJ61",
+          "name": "Measure and integration",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Measures and outer measures. Measure induced by an outer measure, Extension of a measure. Uniqueness of Extension, Completion of a measure. Lebesgue outer measure. Measurable sets."
+            },
+            {
+              "unit": 2,
+              "topics": "Non-Lebesgue measurable sets. Regularity. Measurable functions. Borel and Lebesgue measurability. Integration of non- negative functions. The general integral. Convergence theorems. Riemann and Lebesgue integrals."
+            },
+            {
+              "unit": 3,
+              "topics": "Signed measure. Hahn and Jordan decomposition theorems. Absolutely contin- uous and singular measures."
+            },
+            {
+              "unit": 4,
+              "topics": "Radon-Nikodym theorem. Labesgue decomposition. Riesz representation theo- rem. Extension theorem (Carathedory). Lebesgue-Stieltjes integral."
+            },
+            {
+              "unit": 5,
+              "topics": "Product measures. Fubini’s theorem. Baire sets. Baire measure. Continu- ous functions with compact support. Regularity of measures on locally compact spaces. Integration of continuous functions with compact support. Reisz-Markoff theorem."
+            }
+          ]
+        },
+        {
+          "code": "MATMJ610",
+          "name": "Dynamical System",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Linear dynamical systems: preliminary concepts, autonomous and non-autonomous systems, diagonalization. I! Fundamental theorem of linear systems."
+            },
+            {
+              "unit": 3,
+              "topics": "Jordan canonical forms, stable, unstable, and center subspaces, nonhomogeneous linear systems."
+            },
+            {
+              "unit": 4,
+              "topics": "Non-linear dynamical systems: solutions to initial value problem, existence and uniqueness of solutions, linearization, phase space, classification of critical points."
+            },
+            {
+              "unit": 5,
+              "topics": "Applications of Dynamical Systems. Applications in physics (e.g., pendulum, chaotic systems). Applications in biology (e.g., population dynamics). Applications in economics and engineering. Tavte/Rafaranrac"
+            }
+          ]
+        },
+        {
+          "code": "MATMJ611",
+          "name": "Data Structures",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "C Fundamentals, Arrays, Strings, Structures, Linked Lists (Singly Linked Lists, Circular Linked Lists, Doubly Linked Lists, Circular Doubly Linked Lists)."
+            },
+            {
+              "unit": 2,
+              "topics": "Stacks, Array Representation of Stacks, Operations on a Stack, Linked Rep- resentation of Stacks, Operations on a Linked Stack, Evaluation of arithmetic expressions: Polish Notations, Queues, Array Representation of Queues, Linked Representation of Queues, Types of Queues (Circular Queues, Deques, Priority Queues)."
+            },
+            {
+              "unit": 3,
+              "topics": "Hashing and Collision: Motivation of Hashing, Hash Tables, Hash Functions, Different Hash Functions, Collision Resolution by Open Addressing, Collision Resolution by Chaining, Pros and Cons of Hachina Annlicatinne af Hachina"
+            }
+          ]
+        },
+        {
+          "code": "MATMJ612",
+          "name": "Analytical Visualization",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Elementary and Special functions (Step-side, Heaviside, delta, jump function), Asymptotes, Curvature (2D, 3D), Maxima- Minima, Tangent, and Normal, Roll’s Theorem. Mean-Value theorem. Fixed Point Theorem, Fractals, Fi- bonacci sequence."
+            },
+            {
+              "unit": 2,
+              "topics": "Convergence of sequence, Golden Ratio. Geometry: Conic Section, Sphere, Cone, Cylinder, Coincides, Right circular cylinder, Cardroid, Curve and surface inR 3, Geodesics of Hyperbolic space, Sphere, Meshing. Differential Equation: Rotation of Vectors, Kepler's Law, S.H.M., ODE and its phase portrait, Bessel and Legendre functions, Laplace Transform, Fourier Transform, Fourier Series, PDE and Phase-Portrait. Mechanics: Moment of inertia, Compound Pendulum, Angular Momentum."
+            },
+            {
+              "unit": 3,
+              "topics": "Basic course of simulation using MATLAB: MATLAB programming, Overview of MATLAB environment, commands and operations, Variables and data types, Scripts and functions, Basic plotting, Loops and execution control (if-else, switch-case, loops), Functions and their creation, Debugging and error handling, File input and output."
+            },
+            {
+              "unit": 4,
+              "topics": "Vectors and Matrices: Creating and manipulating vectors and matrices, Ma- Goethe) con er oe ee ete eal ee ee ee ee ee"
+            }
+          ]
+        },
+        {
+          "code": "MATMJ613",
+          "name": "Graph Theory",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "The Introduction: Graphs, Degree of a vertex, Paths and Cycles, Connectivity, Examples of Graphs such as bipartite graphs, Planar and non planar graphs, Contraction, Minor, Trees and Forests, distances."
+            },
+            {
+              "unit": 2,
+              "topics": "Matching Covering and Packing: Matching, in a graph and matching in a bi-partite graph. Assignment problems, Covering and Packing, Covering by paths and cycles, Tutte’s theorem. II| Coloring: Edge and vertex colorings, 4 and 5 colorable graphs, List coloring, Perfect graphs. Flows: Flow in a network, group valued flows, Tutte’s flow conjecture, k-Flows, Supply and demand problems."
+            },
+            {
+              "unit": 3,
+              "topics": "Coloring: Edge and vertex colorings, 4 and 5 colorable graphs, List coloring, Perfect graphs. Flows: Flow in a network, group valued flows, Tutte’s flow conjecture, k-Flows, Supply and demand problems."
+            },
+            {
+              "unit": 4,
+              "topics": "Extremal graph theory: Minors, Hadwigers Conjecture, Regularity, Stzemeredi’s Regularity Lemma, Using the regularity lemma, partitions using paths and cy-cles. Ramsey Theory: Ramser Numbers, Induced Ramsey Theorem, Ramsey property and connectivity, Sperner’s Lemma."
+            },
+            {
+              "unit": 5,
+              "topics": "Random Graphs: Definition, Existence and expectation, probabilistic methods, properties of almost all graphs, Threshold function."
+            }
+          ]
+        },
+        {
+          "code": "MATMJ614",
+          "name": "Vedic Mathematics",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Multiplication in arithmetic: Nikhilam sutra, Antyayordasake’pi sutra Multiplication: Urdhvatiryak Concept of bijanka, and Verification of all the operations by Bijanka, Square in arithmetic by Yavadunam, Ekadhikena sutra, Dwandvayoga sutra, Cube in arithmetic by sutras Nikhilam and Anurupyena sutra, Square root of four or -five-digit numbers Cube root Applications of Meru-prastar in higher order powers I! Decimal and fraction, division by Nikhilam sutram, division of 1/19, 1/29 by Ekadhikenpurven sutram, division by Paravartya sutram, division by Anuru-peyana sutram, division of polynomials, factors of general second-degree equation by Lopsthapanabhyam sutram."
+            },
+            {
+              "unit": 3,
+              "topics": "Multiplication of linear, quadratic, and cubic nahsnamiale in ana wariahla (llrdchwvatirvale"
+            }
+          ]
+        },
+        {
+          "code": "MATMJ62",
+          "name": "Complex Analysis",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "The complex plane and open set, domain, and region in a complex plane. Stereographic projection. Linear transformations, the transformation w = 1/z, M ?obius transformations and its geometric properties, Conformal mappings."
+            },
+            {
+              "unit": 2,
+              "topics": "Schwarz’ theorem, Riemann mapping theorem and its applications. Functions of complex variables and their mapping properties. Elementary functions: the exponential, logarithmic, and trigonometric functions. Limits, continuity, dif- ferentiability, and analyticity of functions of a complex variable. The Cauchy- Riemann equations and sufficient conditions for differentiability and analyticity.Harmonic functions. IIl Complex integration: Line integration, Green's thearem antiderivative theo-"
+            }
+          ]
+        },
+        {
+          "code": "MATMJ63",
+          "name": "Differential Geometry",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Curves in R2 and R3: Basic Definitions and Examples. Arc Length. Curvature and the Frenet-Serret Apparatus. The Fundamental Existence and Uniqueness Theorem for Curves. Bishop frames."
+            },
+            {
+              "unit": 2,
+              "topics": "Non-Unit Speed Curves. The Rotation Index of a Plane Curve, Convex Curves, The Isoperimetric Inequality, Mukhopadhyay Theorem (The Four-Vertex The- orem). Fenchel’s Theorem, The Fary-Milnor Theorem."
+            },
+            {
+              "unit": 3,
+              "topics": "Surfaces in R3: Basic Definitions and Examples. The First Fundamental Form. Arc length of curves on surfaces. Normal curvature. Geodesic curvature. Gauss and Weingarten Formulas."
+            },
+            {
+              "unit": 4,
+              "topics": "Geodesics, Parallel Vector Fields Along a Curve, and Parallelism. The Second Fundamental Form and the Weingarten Map, Principal, Gaussian, and Mean Curvatures. Casorati curvature."
+            },
+            {
+              "unit": 5,
+              "topics": "lsometries of surfaces, Gauss's Theorema Egregium, The Fundamental Theorem of Surfaces, Surfaces of Constant Gaussian Curvature. Exponential map, Gauss Lemma, Geodesic Coordinates. The Gauss- Bonnet Formula and the Gauss- Bonnet Theorem (description only)."
+            }
+          ]
+        },
+        {
+          "code": "MATMJ64",
+          "name": "Number Theory",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Divisibility, prime numbers, greatest common divisor (GCD), least common multiple (LCM). Fundamental Theorem of Arithmetic: Unique factorization in integers. Euclidean Algorithm: Computing GCD, extended Euclidean algorithm."
+            },
+            {
+              "unit": 2,
+              "topics": "Congruences and Modular Arithmetic: Definitions, properties. Linear Congru- ences: Solvability, algorithms. Chinese Remainder Theorem: Statement andapplications. Diophantine Equations Linear Diophantine Equations: Solving equations of the form ax + by = c."
+            },
+            {
+              "unit": 3,
+              "topics": "Fermat's Last Theorem: Historical context, basic proof ideas. Pell’s Equa- tion: Methods of solving, applications. Quadratic Residues and Quadratic Reciprocity Quadratic"
+            }
+          ]
+        },
+        {
+          "code": "MATMJ65",
+          "name": "Linear Programming and Applications",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Linear Programming: Applications and Model Formulation, Graphical Solu- tion Methods, The Simplex Method, Two- Phase Method, Big-M Method, Some Complications and Their Resolution, Different types of Linear Programming Solutions."
+            },
+            {
+              "unit": 2,
+              "topics": "Theory of Simplex Method: Canonical and Standard Form of LP Problem, Slack, Surplus and artificial Variables, basic solution, degenerate solution, Re- duction of Feasible Solution to a Basic Feasible Solution, Improving a Basic Feasible Solution, Alternative Optimal Solutions, Unbounded Solution, Opti- mality Condition, Unrestricted Variables, Degeneracy and its Resolution."
+            },
+            {
+              "unit": 3,
+              "topics": "Duality in Linear Programming, Formulation af M..al lina ann Nenanvannnnninan"
+            }
+          ]
+        },
+        {
+          "code": "MATMJ66",
+          "name": "Special Theory of Relativity",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Review of Newtonian mechanics: Inertial frames. Speed of light and Gallilean relativity. Michelson-Morley experiment. Lorentz- Fitzgerold contraction hy- pothesis. Relative character of space and time. Postulates of special theory of relativity. Lorentz transformation equations and its geometrical interpretation. Group properties of Lorentz transformations."
+            },
+            {
+              "unit": 2,
+              "topics": "Relativistic kinematics: Composition of parallel velocities. Length contraction.Time dilation. Transformation equations for components of velocity and accel- eration of a particle and Lorentz contraction factor."
+            },
+            {
+              "unit": 3,
+              "topics": "Geometrical representation of space-time: Four dimensional Minkowskian space- binn an Af nanananial veAlabtiuth. Tinnan TILA LAKE LILA"
+            }
+          ]
+        },
+        {
+          "code": "MATMJ67",
+          "name": "Space Dynamics",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Celestial Mechanics Overview of space dynamics and its im- portance in aerospace engineering Kepler's laws of planetary motion Two-body problem: orbit determination, orbital elements. Orbital Mechanics Keplerian orbits: elliptical, circular, parabolic, hyperbolic Orbital parameters and their significance Orbital maneuvers: Hohmann transfer, inclination change, ren-dezvous maneuvers. I! Perturbation Theory Effects of perturbations: gravitational, atmospheric, solar radiation pressure Perturbation analysis: secular effects, periodic effects Methods of orbit determination considering perturbations."
+            },
+            {
+              "unit": 3,
+              "topics": "Orbital Mechanics in Special Cases Restricted three-body problem: Lagrange"
+            }
+          ]
+        },
+        {
+          "code": "MATMJ68",
+          "name": "Discrete Mathematics",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Counting techniques. Lattices as partially ordered sets and as algebraic systems. I! Duality, Distributive, complemented and complete lattices. 9 IIl Boolean algebras and their basic properties. Boolean functions and expressions. Application of Boolean algebra to switching circuits (using AND, OR and NOT gates)."
+            },
+            {
+              "unit": 4,
+              "topics": "Graphs and Planar Graphs: Graphs, Multi- graphs, Weighted Graphs, Directed graphs. Paths and circuits."
+            },
+            {
+              "unit": 5,
+              "topics": "Matrix representation of graphs. Eulerian paths and circuits. Planar graphs. Euler's formula. Trees and spanning trees. Texts/References"
+            }
+          ]
+        },
+        {
+          "code": "MATMJ69",
+          "name": "Mathematical Modelling",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "System of differential equations; Fixed points and their stability; Basic idea of bifurcations."
+            },
+            {
+              "unit": 2,
+              "topics": "Introduction to modeling: Elementary mathematical models and General modeling ideas."
+            },
+            {
+              "unit": 3,
+              "topics": "Role of mathematics in problem-solving; Concepts of mathematical modeling; system approach; formulation, Analysis of models."
+            },
+            {
+              "unit": 4,
+              "topics": "Discrete and Continuous-time models: cell growth model, logistic model, preypredator model."
+            },
+            {
+              "unit": 5,
+              "topics": "Introduction to infectious diseases: Simple epidemic models such as SIS, SIR,etc. Texts/References"
+            }
+          ]
+        },
+        {
+          "code": "MATMV61",
+          "name": "Formal Languages and Automata Theory",
+          "credits": 4,
+          "course_type": "Minor (VOC)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction: Alphabet, languages and grammars, productions and derivation, Language generated by a grammar, Chomsky hierarchy. Regular languages and finite automata: Deterministic and non- deterministic finite automata, acceptance of language by finite automata, properties of regular languages, equivalence and minimization of finite automata, Moore and Mealy machines, regular expressions, regular grammars, Pumping lemma."
+            },
+            {
+              "unit": 2,
+              "topics": "Context-free and context-sensitive languages: Context-free grammars (CFGs) and languages (CFLs), parse trees, ambiguity in CFG, Chomsky and Greibach normal forms, Pumping lemma for CFLs, closure properties mf CTI A Deen A Ansan Arrbannanta. Cantarst"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 7,
+      "papers": [
+        {
+          "code": "MATMJ71",
+          "name": "Topology",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Open sets. Neighborhoods. Interior, Exterior, and Boundary. Limit points and Derived set. Closed sets and Closure. Bases and Subbases."
+            },
+            {
+              "unit": 2,
+              "topics": "Continuous Mappings. Homeomorphism. Induced and coinduced topologies. Subspace topology, Product topology, and Quotient topology. Identification Spaces (Cone, Mbius Strip, Projective plane, Torus, Klein bottle etc.)."
+            },
+            {
+              "unit": 3,
+              "topics": "Separable spaces, Lindel ?0f spaces, First countable spaces and Second count- able spaces. Cantor-Bendixson Theorem. Compactness, Compactifications and Paracompactness."
+            },
+            {
+              "unit": 4,
+              "topics": "Separation axioms: Hausdorff space, Regular spaces, Completely regular spaces, Tychonoff spaces, Normal spaces, T4 space. Urysohn’'s lemma, Tietze's exten- sion theorem, Urysohn's embedding and Metrization theorem. Connectedness, Locally Connected Spaces, Components, Path connectedness and Locally path connectedness."
+            },
+            {
+              "unit": 5,
+              "topics": "Homotopy of maps and paths, Fundamental group, Covering Spaces, Cov- ering transformations, Simply Connectedness, Universal Cover, Van Kampen Theorem. Texts/References"
+            }
+          ]
+        },
+        {
+          "code": "MATMJ72",
+          "name": "Advanced Algebra",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "lsomorphism theorems for groups, Symmetric groups, Alternating groups, Dihedral groups, Matrix groups, lsometry groups of R2 and R3, Internal and External direct product and their relationship, Indecomposable groups."
+            },
+            {
+              "unit": 2,
+              "topics": "Action of a group G on a set, Stabilizer subgroups and orbit decomposition, Class equation of an action, Sylow subgroups, Sylow's Theorem lI, Il and Ill, p-groups, Examples and applications, Groups of order pq, Direct and inverse images of Sylow subgroups."
+            },
+            {
+              "unit": 3,
+              "topics": "Rings, Examples and properties, Subrings, Homomorphism, Ideals and Quotient rings, Integral domain, Polynomial rings, Field of fraction, Division rings, Fields, subfields. Characteristic of a ring and field, Prime subfields Field extensions."
+            }
+          ]
+        },
+        {
+          "code": "MATMJ73",
+          "name": "Functional Analysis",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Normed linear spaces and Banach spaces. The Lp-space. Convex functions. Jensen's inequality. Holder and Minkowski inequalities."
+            },
+            {
+              "unit": 2,
+              "topics": "Completeness of Lp. Convergence in measure, Almost uniform convergence. Bounded linear transformations. B(X, Y ) as a normed linear space. IIl Open mapping and closed graph theorems. Uniform boundedness principle and its consequences. Hahn-Banach theorem and its application. Dual spaces with examples. Separability. Reflexive spaces. Weak convergence. Compact operators."
+            },
+            {
+              "unit": 3,
+              "topics": "Open mapping and closed graph theorems. Uniform boundedness principle and its consequences. Hahn-Banach theorem and its application. Dual spaces with examples. Separability. Reflexive spaces. Weak convergence. Compact operators."
+            },
+            {
+              "unit": 4,
+              "topics": "Inner product spaces, Hilbert spaces. Orthonormal sets. Bessel’s inequality. Complete orthonormal sets and Parseval's identity. Structure of Hilbert spaces. Proiection theorem."
+            },
+            {
+              "unit": 5,
+              "topics": "Riesz representation theorem. Riesz-Fischer theorem. Adjoint of an operator on a Hilbert space. Reflexivity of Hilbert spaces. Self-adjoint operators. Positive, projection, normal, and unitary operators. ee Oe A me ne ee"
+            }
+          ]
+        },
+        {
+          "code": "MATMJ74",
+          "name": "Differentiable Manifolds",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Differentiable manifolds - Definitions and examples. Differentiable maps. Jaco- bian matrix. Tangent spaces. Vector fields. Integral curves."
+            },
+            {
+              "unit": 2,
+              "topics": "Submanifolds. Distributions and integrability. 1-parameter group of transfor- mations. Tensors and forms."
+            },
+            {
+              "unit": 3,
+              "topics": "The Koszul connection. Covariant, Lie and Exterior derivatives. Geodesics and curvature."
+            },
+            {
+              "unit": 4,
+              "topics": "Lie Groups and Lie Algebra. Fibre bundles 15 Texts/References"
+            }
+          ]
+        },
+        {
+          "code": "MATMJ7R1",
+          "name": "Topology",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": null
+        },
+        {
+          "code": "MATMJ7R2",
+          "name": "Advanced Algebra",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": null
+        },
+        {
+          "code": "MATMJ7R3",
+          "name": "Functional Analysis",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": null
+        },
+        {
+          "code": "MATMJ7R4",
+          "name": "Differentiable Manifolds",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": null
+        },
+        {
+          "code": "MATMN71",
+          "name": "Topology",
+          "credits": 4,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Open sets. Neighborhoods. Interior, Exterior, and Boundary. Limit points and Derived set. Closed sets and Closure. Bases and Subbases."
+            },
+            {
+              "unit": 2,
+              "topics": "Continuous Mappings. Homeomorphism. Induced and coinduced topologies. Subspace topology, Product topology, and Quotient topology. Identification Spaces (Cone, Mbius Strip, Projective plane, Torus, Klein bottle etc.)."
+            },
+            {
+              "unit": 3,
+              "topics": "Separable spaces, Lindel ?0f spaces, First countable spaces and Second countable spaces. Cantor-Bendixson Theorem. Compactness, Compactifications and Paracompactness."
+            },
+            {
+              "unit": 4,
+              "topics": "Separation axioms: Hausdorff space, Regular spaces, Completely regular spaces, lychonoff spaces, Normal spaces, T4 space. Urysohn’s lemma, Tietze's extension theorem, Urysohn's embedding and Metrization theorem. Connectedness, Locally Connected Spaces, Components, Path connectedness and Locally path connectedness."
+            },
+            {
+              "unit": 5,
+              "topics": "Homotopy of maps and paths, Fundamental group, Covering Spaces, Covering transformations, Simply Connectedness, Universal Cover, Van KampenTheorem. Texts/References"
+            }
+          ]
+        },
+        {
+          "code": "MATMN7R1",
+          "name": "Topology",
+          "credits": 4,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Open sets. Neighborhoods. Interior, Exterior, and Boundary. Limit points and Derived set. Closed sets and Closure. Bases and Subbases."
+            },
+            {
+              "unit": 2,
+              "topics": "Continuous Mappings. Homeomorphism. Induced and coinduced topologies. Subspace topology, Product topology, and Quotient topology. Identification Spaces (Cone, Mbius Strip, Projective plane, Torus, Klein bottle etc.)."
+            },
+            {
+              "unit": 3,
+              "topics": "Separable spaces, Lindel ?0f spaces, First countable spaces and Second countable spaces. Cantor-Bendixson Theorem. Compactness, Compactifications and Paracompactness."
+            },
+            {
+              "unit": 4,
+              "topics": "Separation axioms: Hausdorff space, Regular spaces, Completely regular spaces, lychonoff spaces, Normal spaces, T4 space. Urysohn’s lemma, Tietze's extension theorem, Urysohn's embedding and Metrization theorem. Connectedness, Locally Connected Spaces, Components, Path connectedness and Locally path connectedness."
+            },
+            {
+              "unit": 5,
+              "topics": "Homotopy of maps and paths, Fundamental group, Covering Spaces, Covering transformations, Simply Connectedness, Universal Cover, Van KampenTheorem. Texts/References"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 8,
+      "papers": [
+        {
+          "code": "MATDS8R1",
+          "name": "Dissertation",
+          "credits": 12,
+          "course_type": "Dissertation",
+          "syllabus": null
+        },
+        {
+          "code": "MATMJ81",
+          "name": "Geometric Topology",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": null
+        },
+        {
+          "code": "MATMJ810",
+          "name": "Information and Coding Theory",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": null
+        },
+        {
+          "code": "MATMJ811",
+          "name": "Algebraic Geometry",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": null
+        }
+      ]
+    }
+  ]
+}

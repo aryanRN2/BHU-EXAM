@@ -1,0 +1,123 @@
+% BHU PYQ -- Professional Exam Template
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={CS-109: Data Communication -- BHU PYQ}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{CS-109: Data Communication}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\lstset{
+  basicstyle=\small\ttfamily,
+  frame=single,
+  breaklines=true,
+  columns=flexible,
+  keepspaces=true
+}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) Semester VI Examination, 2022-23}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper: CS-109 --- Data Communication}\\[4pt]
+  {\normalsize Time: Three hours \hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: ANSWER ANY FIVE QUESTIONS, ALL QUESTIONS CARRY EQUAL MARKS.}
+
+\bigskip
+
+CS - 109 : Data Communication
+
+\medskip\noindent\textbf{Question 1.} Write a short note on any four out of six techniques/protocols: 3.5x4=14
+
+\medskip\noindent\textbf{Question 2.} Amplitude Modulation(AM) ,
+
+\medskip\noindent\textbf{Question 5.} Frequency-Division Multiplexing (FDM) : : ‘
+\begin{parts}
+  \item Delta Modulation (DM)
+  \item Cyclic Redundancy Check (CRC) .
+  \item High Level Data Link Control (HDLC) .
+  \item Direct Sequence Spread Spectrum (DSSS)
+\end{parts}
+
+\medskip\noindent\textbf{Question 2.}
+\_ a) What is wireless (unguided) transmission media? What are the three major types of wireless
+- transmission media, describe each in detail. 7 Cee 6 “
+\begin{parts}
+  \item What are circuit-switched and packet-switched networks? Discuss differences among them. 8
+\end{parts}
+
+\medskip\noindent\textbf{Question 3.} .
+\begin{parts}
+  \item What is the result of scrambling the sequence 11100000000000 using one of the following
+  scrambling techniques? Assume that the last non-zero signal level has been positive. 6
+  \item B8ZS (ii) HDB3 (The number of nonzero pulses is odd after the last substitution)
+  \item What is the purpose of Pulse Code Modulation (PCM) technique? Describe the components of a
+  PCM encoder with an example. c 8:
+\end{parts}
+
+\medskip\noindent\textbf{Question 4.} . .
+\begin{parts}
+  \item Describe the following mechanisms for modulating digital data into an analog signal with examples:
+  Amplitude shift keying (ASK), Frequency shift keying (FSK), Phase shift keying (PSK), and
+  Quadrature amplitude modulation (QAM). 6
+  \item Station 4 needs to send a message consisting of 9 packets to Station B using asliding window
+  (window size 3) and go-back-n error control strategy. All packets are ready and immediately
+  available for transmission. If every Sth packet that A transmits gets lost (but no acks from B ever get
+  lost), then what is the total number of packets that A will transmit for sending the message to B?
+  Explain through diagram. 8
+\end{parts}
+
+\medskip\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Discuss Frequency Hopping Spread Spectrum (FHSS) with a suitable diagram. 6
+  \item A sender needs to send the four data items given in hexadecimal: 3456, ABCC, 02BC, and EEEE.
+  Answer the following questions: 8
+  : i. Calculate the checksum at the sender site.
+  ii, Calculate the checksum at the receiver site if the second data item is changed to ABCE.
+  \textasciitilde{} iil. ‘Find the checksum at the receiver site if the second data item is changed to ABCE and the
+  third data item is changed to 02BA.
+\end{parts}
+
+\medskip\noindent\textbf{Question 6.}
+\begin{parts}
+  \item What is data link control? Describe the key components of data link control. 6
+  \item Why we need flow and error control? Discuss the sfop-and-wait flow control technique with an
+  example. 8
+  Seek END eee eRe |
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+\end{document}

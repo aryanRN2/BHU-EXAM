@@ -41,7 +41,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Chemistry",
     "filePath": "aaa/chemistry/tex_files/CHB-02A_AncillaryChemistryI_SemII_2013-14.tex",
     "fileName": "CHB-02A_AncillaryChemistryI_SemII_2013-14.tex",
-    "nepCode": "CHEMD21",
+    "nepCode": "CHEMD11",
     "oldCode": "CHB-02A"
   },
   {
@@ -52,41 +52,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Chemistry",
     "filePath": "aaa/chemistry/tex_files/CHB-02A_AncillaryChemistryI_SemII_2023-24.tex",
     "fileName": "CHB-02A_AncillaryChemistryI_SemII_2023-24.tex",
-    "nepCode": "CHEMD21",
+    "nepCode": "CHEMD11",
     "oldCode": "CHB-02A"
-  },
-  {
-    "code": "CHB-04A",
-    "subject": "Ancillary Chemistry II",
-    "semester": 2,
-    "year": "2013-14",
-    "department": "Chemistry",
-    "filePath": "aaa/chemistry/tex_files/CHB-04A_AncillaryChemistryII_SemIV_2013-14.tex",
-    "fileName": "CHB-04A_AncillaryChemistryII_SemIV_2013-14.tex",
-    "nepCode": "CHEMD21",
-    "oldCode": "CHB-04A"
-  },
-  {
-    "code": "CHB-04A",
-    "subject": "Ancillary Chemistry II",
-    "semester": 2,
-    "year": "2022-23",
-    "department": "Chemistry",
-    "filePath": "aaa/chemistry/tex_files/CHB-04A_AncillaryChemistryII_SemIV_2022-23.tex",
-    "fileName": "CHB-04A_AncillaryChemistryII_SemIV_2022-23.tex",
-    "nepCode": "CHEMD21",
-    "oldCode": "CHB-04A"
-  },
-  {
-    "code": "CHB-04A",
-    "subject": "Ancillary Chemistry II",
-    "semester": 2,
-    "year": "2023-24",
-    "department": "Chemistry",
-    "filePath": "aaa/chemistry/tex_files/CHB-04A_AncillaryChemistryII_SemIV_2023-24.tex",
-    "fileName": "CHB-04A_AncillaryChemistryII_SemIV_2023-24.tex",
-    "nepCode": "CHEMD21",
-    "oldCode": "CHB-04A"
   },
   {
     "code": "CHB-201",
@@ -122,28 +89,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CHB-201"
   },
   {
-    "code": "CHB-505",
-    "subject": "Environmental Chemistry and Nuclear Chemistry",
-    "semester": 3,
-    "year": "2016-17",
-    "department": "Chemistry",
-    "filePath": "aaa/chemistry/tex_files/CHB-505_EnvironmentalChemistryandNuclearChemistry_SemV_2016-17.tex",
-    "fileName": "CHB-505_EnvironmentalChemistryandNuclearChemistry_SemV_2016-17.tex",
-    "nepCode": "CHEMD31",
-    "oldCode": "CHB-505"
-  },
-  {
-    "code": "CHB-505",
-    "subject": "Environmental and Nuclear Chemistry",
-    "semester": 3,
-    "year": "2022-23",
-    "department": "Chemistry",
-    "filePath": "aaa/chemistry/tex_files/CHB-505_EnvironmentalandNuclearChemistry_SemV_2022-23.tex",
-    "fileName": "CHB-505_EnvironmentalandNuclearChemistry_SemV_2022-23.tex",
-    "nepCode": "CHEMD31",
-    "oldCode": "CHB-505"
-  },
-  {
     "code": "CHB-361",
     "subject": "Organic and Physical Chemistry",
     "semester": 3,
@@ -175,6 +120,39 @@ export const NEP_LATEX_PYQ_DATA = [
     "fileName": "CHB-301_OrganicandPhysicalChemistryII_SemIII_2023-24.tex",
     "nepCode": "CHEMJ32 / CHEMJ33",
     "oldCode": "CHB-301 / CHB-361"
+  },
+  {
+    "code": "CHB-04A",
+    "subject": "Ancillary Chemistry II",
+    "semester": 4,
+    "year": "2013-14",
+    "department": "Chemistry",
+    "filePath": "aaa/chemistry/tex_files/CHB-04A_AncillaryChemistryII_SemIV_2013-14.tex",
+    "fileName": "CHB-04A_AncillaryChemistryII_SemIV_2013-14.tex",
+    "nepCode": "CHEMD21",
+    "oldCode": "CHB-04A"
+  },
+  {
+    "code": "CHB-04A",
+    "subject": "Ancillary Chemistry II",
+    "semester": 4,
+    "year": "2022-23",
+    "department": "Chemistry",
+    "filePath": "aaa/chemistry/tex_files/CHB-04A_AncillaryChemistryII_SemIV_2022-23.tex",
+    "fileName": "CHB-04A_AncillaryChemistryII_SemIV_2022-23.tex",
+    "nepCode": "CHEMD21",
+    "oldCode": "CHB-04A"
+  },
+  {
+    "code": "CHB-04A",
+    "subject": "Ancillary Chemistry II",
+    "semester": 4,
+    "year": "2023-24",
+    "department": "Chemistry",
+    "filePath": "aaa/chemistry/tex_files/CHB-04A_AncillaryChemistryII_SemIV_2023-24.tex",
+    "fileName": "CHB-04A_AncillaryChemistryII_SemIV_2023-24.tex",
+    "nepCode": "CHEMD21",
+    "oldCode": "CHB-04A"
   },
   {
     "code": "CHB-401",
@@ -254,15 +232,26 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CHB-501"
   },
   {
-    "code": "CHB-601",
-    "subject": "Analytical Chemistry I",
+    "code": "CHB-505",
+    "subject": "Environmental Chemistry and Nuclear Chemistry",
     "semester": 5,
-    "year": "2013-14",
+    "year": "2016-17",
     "department": "Chemistry",
-    "filePath": "aaa/chemistry/tex_files/CHB-601_AnalyticalChemistryI_SemVI_2013-14.tex",
-    "fileName": "CHB-601_AnalyticalChemistryI_SemVI_2013-14.tex",
-    "nepCode": "CHEMJ51",
-    "oldCode": "CHB-601"
+    "filePath": "aaa/chemistry/tex_files/CHB-505_EnvironmentalChemistryandNuclearChemistry_SemV_2016-17.tex",
+    "fileName": "CHB-505_EnvironmentalChemistryandNuclearChemistry_SemV_2016-17.tex",
+    "nepCode": "CHEMD31",
+    "oldCode": "CHB-505"
+  },
+  {
+    "code": "CHB-505",
+    "subject": "Environmental and Nuclear Chemistry",
+    "semester": 5,
+    "year": "2022-23",
+    "department": "Chemistry",
+    "filePath": "aaa/chemistry/tex_files/CHB-505_EnvironmentalandNuclearChemistry_SemV_2022-23.tex",
+    "fileName": "CHB-505_EnvironmentalandNuclearChemistry_SemV_2022-23.tex",
+    "nepCode": "CHEMD31",
+    "oldCode": "CHB-505"
   },
   {
     "code": "CHB-502",
@@ -365,6 +354,17 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "CHB-601",
+    "subject": "Analytical Chemistry I",
+    "semester": 6,
+    "year": "2013-14",
+    "department": "Chemistry",
+    "filePath": "aaa/chemistry/tex_files/CHB-601_AnalyticalChemistryI_SemVI_2013-14.tex",
+    "fileName": "CHB-601_AnalyticalChemistryI_SemVI_2013-14.tex",
+    "nepCode": "CHEMJ61",
+    "oldCode": "CHB-601"
+  },
+  {
+    "code": "CHB-601",
     "subject": "Analytical Chemistry II",
     "semester": 6,
     "year": "2022-23",
@@ -463,6 +463,919 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CHB-604"
   },
   {
+    "code": "GEN-101",
+    "subject": "Communicati on Skills",
+    "semester": 1,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/GEN-101_CommunicationSkills_SemI_2022-23_BVoc.tex",
+    "fileName": "GEN-101_CommunicationSkills_SemI_2022-23_BVoc.tex",
+    "nepCode": "GEN11",
+    "oldCode": "GEN-101"
+  },
+  {
+    "code": "BVCA-101b",
+    "subject": "Introducti on To Computers",
+    "semester": 1,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-101b_IntroductionToComputers_SemI_2022-23_BVoc.tex",
+    "fileName": "BVCA-101b_IntroductionToComputers_SemI_2022-23_BVoc.tex",
+    "nepCode": "BVCA11",
+    "oldCode": "BVCA-101b"
+  },
+  {
+    "code": "BVCA-101",
+    "subject": "Introducti on To Computers",
+    "semester": 1,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-101_IntroductionToComputers_SemI_2022-23_BVoc.tex",
+    "fileName": "BVCA-101_IntroductionToComputers_SemI_2022-23_BVoc.tex",
+    "nepCode": "BVCA11",
+    "oldCode": "BVCA-101"
+  },
+  {
+    "code": "BVCA-102",
+    "subject": "Office Automation",
+    "semester": 1,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-102_OfficeAutomation_SemI_2022-23_BVoc.tex",
+    "fileName": "BVCA-102_OfficeAutomation_SemI_2022-23_BVoc.tex",
+    "nepCode": "BVCA12",
+    "oldCode": "BVCA-102"
+  },
+  {
+    "code": "BVCA-103b",
+    "subject": "PC Hardware Troubleshooting",
+    "semester": 1,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-103b_PCHardwareTroubleshooting_SemI_2022-23_BVoc.tex",
+    "fileName": "BVCA-103b_PCHardwareTroubleshooting_SemI_2022-23_BVoc.tex",
+    "nepCode": "BVCA13",
+    "oldCode": "BVCA-103b"
+  },
+  {
+    "code": "BVCA-103",
+    "subject": "PC Hardware Troubleshooting",
+    "semester": 1,
+    "year": "2022-23a",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-103_PCHardwareTroubleshooting_SemI_2022-23a_BVoc.tex",
+    "fileName": "BVCA-103_PCHardwareTroubleshooting_SemI_2022-23a_BVoc.tex",
+    "nepCode": "BVCA13",
+    "oldCode": "BVCA-103"
+  },
+  {
+    "code": "CS-101",
+    "subject": "Problem Solving C",
+    "semester": 1,
+    "year": "2016-17",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/CS-101_BCS-101_ProblemSolvingC_SemI_2016-17_BSc.tex",
+    "fileName": "CS-101_BCS-101_ProblemSolvingC_SemI_2016-17_BSc.tex",
+    "nepCode": "CSMJ11 / CSMN11",
+    "oldCode": "CS-101"
+  },
+  {
+    "code": "BVCA-104",
+    "subject": "Problem Solving C",
+    "semester": 1,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-104_ProblemSolvingC_SemI_2022-23_BVoc.tex",
+    "fileName": "BVCA-104_ProblemSolvingC_SemI_2022-23_BVoc.tex",
+    "nepCode": "BVCA14",
+    "oldCode": "BVCA-104"
+  },
+  {
+    "code": "CS-101",
+    "subject": "Problem Solving Through C",
+    "semester": 1,
+    "year": "2023-24",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/CS-101_ProblemSolvingThroughC_SemI_2023-24_BSc.tex",
+    "fileName": "CS-101_ProblemSolvingThroughC_SemI_2023-24_BSc.tex",
+    "nepCode": "CSMJ11 / CSMN11",
+    "oldCode": "CS-101"
+  },
+  {
+    "code": "BCS-201",
+    "subject": "Digital Logic Circuits",
+    "semester": 2,
+    "year": "2013-14",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BCS-201_DigitalLogicCircuits_SemII_2013-14_BSc.tex",
+    "fileName": "BCS-201_DigitalLogicCircuits_SemII_2013-14_BSc.tex",
+    "nepCode": "CSMJ21 / CSMN21",
+    "oldCode": "BCS-201"
+  },
+  {
+    "code": "CS-102",
+    "subject": "Digital Logics And Circuits",
+    "semester": 2,
+    "year": "2023-24",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/CS-102_DigitalLogicsAndCircuits_SemII_2023-24_BSc.tex",
+    "fileName": "CS-102_DigitalLogicsAndCircuits_SemII_2023-24_BSc.tex",
+    "nepCode": "CSMJ21 / CSMN21",
+    "oldCode": "CS-102"
+  },
+  {
+    "code": "BCS-203",
+    "subject": "Fundamentals Of Computers",
+    "semester": 2,
+    "year": "2013-14",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BCS-203_FundamentalsOfComputers_SemII_2013-14_BSc.tex",
+    "fileName": "BCS-203_FundamentalsOfComputers_SemII_2013-14_BSc.tex",
+    "nepCode": "CSMD11",
+    "oldCode": "BCS-203"
+  },
+  {
+    "code": "BVCA-201",
+    "subject": "Introducti on To Databases",
+    "semester": 2,
+    "year": "2021-22",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-201_IntroductionToDatabases_SemII_2021-22_BVoc.tex",
+    "fileName": "BVCA-201_IntroductionToDatabases_SemII_2021-22_BVoc.tex",
+    "nepCode": "BVCA21",
+    "oldCode": "BVCA-201"
+  },
+  {
+    "code": "BVCA-201",
+    "subject": "Introducti on To Databases",
+    "semester": 2,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-201_IntroductionToDatabases_SemII_2022-23_BVoc.tex",
+    "fileName": "BVCA-201_IntroductionToDatabases_SemII_2022-23_BVoc.tex",
+    "nepCode": "BVCA21",
+    "oldCode": "BVCA-201"
+  },
+  {
+    "code": "CS-102",
+    "subject": "Object Oriented Programming",
+    "semester": 2,
+    "year": "2023-24",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/CS-102_ObjectOrientedProgramming_SemII_2023-24_BSc.tex",
+    "fileName": "CS-102_ObjectOrientedProgramming_SemII_2023-24_BSc.tex",
+    "nepCode": "CSMJ22 / CSMN22",
+    "oldCode": "CS-102"
+  },
+  {
+    "code": "BVCA-202",
+    "subject": "Problem Solving AI",
+    "semester": 2,
+    "year": "2021-22",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-202_ProblemSolvingAI_SemII_2021-22_BVoc.tex",
+    "fileName": "BVCA-202_ProblemSolvingAI_SemII_2021-22_BVoc.tex",
+    "nepCode": "BVCA22",
+    "oldCode": "BVCA-202"
+  },
+  {
+    "code": "BVCA-202",
+    "subject": "Problem Solving AI",
+    "semester": 2,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-202_ProblemSolvingAI_SemII_2022-23_BVoc.tex",
+    "fileName": "BVCA-202_ProblemSolvingAI_SemII_2022-23_BVoc.tex",
+    "nepCode": "BVCA22",
+    "oldCode": "BVCA-202"
+  },
+  {
+    "code": "GEN-202",
+    "subject": "Programming In Python",
+    "semester": 2,
+    "year": "2021-22",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/GEN-202_ProgrammingInPython_SemII_2021-22_BVoc.tex",
+    "fileName": "GEN-202_ProgrammingInPython_SemII_2021-22_BVoc.tex",
+    "nepCode": "GEN22",
+    "oldCode": "GEN-202"
+  },
+  {
+    "code": "BVCA-205",
+    "subject": "Skill Training Python",
+    "semester": 2,
+    "year": "2021-22",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-205_SkillTrainingPython_SemII_2021-22_BVoc.tex",
+    "fileName": "BVCA-205_SkillTrainingPython_SemII_2021-22_BVoc.tex",
+    "nepCode": "BVCA25",
+    "oldCode": "BVCA-205"
+  },
+  {
+    "code": "BVCA-205",
+    "subject": "Skill Training Python",
+    "semester": 2,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-205_SkillTrainingPython_SemII_2022-23_BVoc.tex",
+    "fileName": "BVCA-205_SkillTrainingPython_SemII_2022-23_BVoc.tex",
+    "nepCode": "BVCA25",
+    "oldCode": "BVCA-205"
+  },
+  {
+    "code": "BVCA-204",
+    "subject": "Tech Entrepreneurship IPR",
+    "semester": 2,
+    "year": "2021-22",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-204_TechEntrepreneurshipIPR_SemII_2021-22_BVoc.tex",
+    "fileName": "BVCA-204_TechEntrepreneurshipIPR_SemII_2021-22_BVoc.tex",
+    "nepCode": "BVCA24",
+    "oldCode": "BVCA-204"
+  },
+  {
+    "code": "BVCA-204",
+    "subject": "Tech Entrepreneurship IPR",
+    "semester": 2,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-204_TechEntrepreneurshipIPR_SemII_2022-23_BVoc.tex",
+    "fileName": "BVCA-204_TechEntrepreneurshipIPR_SemII_2022-23_BVoc.tex",
+    "nepCode": "BVCA24",
+    "oldCode": "BVCA-204"
+  },
+  {
+    "code": "BVCA-203",
+    "subject": "Technical Documentati on Communication",
+    "semester": 2,
+    "year": "2021-22",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-203_TechnicalDocumentationCommunication_SemII_2021-22_BVoc.tex",
+    "fileName": "BVCA-203_TechnicalDocumentationCommunication_SemII_2021-22_BVoc.tex",
+    "nepCode": "BVCA23",
+    "oldCode": "BVCA-203"
+  },
+  {
+    "code": "GEN-201",
+    "subject": "Website Designing",
+    "semester": 2,
+    "year": "2021-22",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/GEN-201_WebsiteDesigning_SemII_2021-22_BVoc.tex",
+    "fileName": "GEN-201_WebsiteDesigning_SemII_2021-22_BVoc.tex",
+    "nepCode": "GEN21",
+    "oldCode": "GEN-201"
+  },
+  {
+    "code": "BVCA-301",
+    "subject": "Analog Digital Communication",
+    "semester": 3,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-301_AnalogDigitalCommunication_SemIII_2022-23_BVoc.tex",
+    "fileName": "BVCA-301_AnalogDigitalCommunication_SemIII_2022-23_BVoc.tex",
+    "nepCode": "BVCA31",
+    "oldCode": "BVCA-301"
+  },
+  {
+    "code": "BVCA-301b",
+    "subject": "Analog Digital Communication",
+    "semester": 3,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-301b_AnalogDigitalCommunication_SemIII_2022-23_BVoc.tex",
+    "fileName": "BVCA-301b_AnalogDigitalCommunication_SemIII_2022-23_BVoc.tex",
+    "nepCode": "BVCA31",
+    "oldCode": "BVCA-301b"
+  },
+  {
+    "code": "BVCA-301",
+    "subject": "Analog Digital Communication",
+    "semester": 3,
+    "year": "2023-24",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-301_AnalogDigitalCommunication_SemIII_2023-24_BVoc.tex",
+    "fileName": "BVCA-301_AnalogDigitalCommunication_SemIII_2023-24_BVoc.tex",
+    "nepCode": "BVCA31",
+    "oldCode": "BVCA-301"
+  },
+  {
+    "code": "BVCA-306",
+    "subject": "GEN",
+    "semester": 3,
+    "year": "2023-24",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-306_GEN_SemIII_2023-24_BVoc.tex",
+    "fileName": "BVCA-306_GEN_SemIII_2023-24_BVoc.tex",
+    "nepCode": "BVCA36",
+    "oldCode": "BVCA-306"
+  },
+  {
+    "code": "BVCA-304",
+    "subject": "Java Applet Programming",
+    "semester": 3,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-304_JavaAppletProgramming_SemIII_2022-23_BVoc.tex",
+    "fileName": "BVCA-304_JavaAppletProgramming_SemIII_2022-23_BVoc.tex",
+    "nepCode": "BVCA34",
+    "oldCode": "BVCA-304"
+  },
+  {
+    "code": "BVCA-304",
+    "subject": "Java Applet Programming",
+    "semester": 3,
+    "year": "2023-24",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-304_JavaAppletProgramming_SemIII_2023-24_BVoc.tex",
+    "fileName": "BVCA-304_JavaAppletProgramming_SemIII_2023-24_BVoc.tex",
+    "nepCode": "BVCA34",
+    "oldCode": "BVCA-304"
+  },
+  {
+    "code": "BVCA-305",
+    "subject": "Network Config Management",
+    "semester": 3,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-305_NetworkConfigManagement_SemIII_2022-23_BVoc.tex",
+    "fileName": "BVCA-305_NetworkConfigManagement_SemIII_2022-23_BVoc.tex",
+    "nepCode": "BVCA35",
+    "oldCode": "BVCA-305"
+  },
+  {
+    "code": "BVCA-305",
+    "subject": "Network Config Management",
+    "semester": 3,
+    "year": "2023-24",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-305_NetworkConfigManagement_SemIII_2023-24_BVoc.tex",
+    "fileName": "BVCA-305_NetworkConfigManagement_SemIII_2023-24_BVoc.tex",
+    "nepCode": "BVCA35",
+    "oldCode": "BVCA-305"
+  },
+  {
+    "code": "BCS-301",
+    "subject": "Numerical Computing",
+    "semester": 3,
+    "year": "2016-17",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BCS-301_NumericalComputing_SemIII_2016-17_BSc.tex",
+    "fileName": "BCS-301_NumericalComputing_SemIII_2016-17_BSc.tex",
+    "nepCode": "CSMJ31 / CSMN31",
+    "oldCode": "CS-103"
+  },
+  {
+    "code": "CS-103",
+    "subject": "Numerical Computing",
+    "semester": 3,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/CS-103_NumericalComputing_SemIII_2022-23_BSc.tex",
+    "fileName": "CS-103_NumericalComputing_SemIII_2022-23_BSc.tex",
+    "nepCode": "CSMJ31 / CSMN31",
+    "oldCode": "CS-103"
+  },
+  {
+    "code": "CS-103",
+    "subject": "Numerical Computing",
+    "semester": 3,
+    "year": "2023-24",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/CS-103_NumericalComputing_SemIII_2023-24_BSc.tex",
+    "fileName": "CS-103_NumericalComputing_SemIII_2023-24_BSc.tex",
+    "nepCode": "CSMJ31 / CSMN31",
+    "oldCode": "CS-103"
+  },
+  {
+    "code": "BVCA-303",
+    "subject": "Programming In Linux",
+    "semester": 3,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-303_ProgrammingInLinux_SemIII_2022-23_BVoc.tex",
+    "fileName": "BVCA-303_ProgrammingInLinux_SemIII_2022-23_BVoc.tex",
+    "nepCode": "BVCA33",
+    "oldCode": "BVCA-303"
+  },
+  {
+    "code": "BVCA-303",
+    "subject": "Programming In Linux",
+    "semester": 3,
+    "year": "2022-23b",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-303_ProgrammingInLinux_SemIII_2022-23b_BVoc.tex",
+    "fileName": "BVCA-303_ProgrammingInLinux_SemIII_2022-23b_BVoc.tex",
+    "nepCode": "BVCA33",
+    "oldCode": "BVCA-303"
+  },
+  {
+    "code": "BVCA-303",
+    "subject": "Programming In Linux",
+    "semester": 3,
+    "year": "2023-24",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-303_ProgrammingInLinux_SemIII_2023-24_BVoc.tex",
+    "fileName": "BVCA-303_ProgrammingInLinux_SemIII_2023-24_BVoc.tex",
+    "nepCode": "BVCA33",
+    "oldCode": "BVCA-303"
+  },
+  {
+    "code": "BVCA-302",
+    "subject": "Robotics Arduino",
+    "semester": 3,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-302_RoboticsArduino_SemIII_2022-23_BVoc.tex",
+    "fileName": "BVCA-302_RoboticsArduino_SemIII_2022-23_BVoc.tex",
+    "nepCode": "BVCA32",
+    "oldCode": "BVCA-302"
+  },
+  {
+    "code": "BVCA-302",
+    "subject": "Robotics Arduino",
+    "semester": 3,
+    "year": "2023-24",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-302_RoboticsArduino_SemIII_2023-24_BVoc.tex",
+    "fileName": "BVCA-302_RoboticsArduino_SemIII_2023-24_BVoc.tex",
+    "nepCode": "BVCA32",
+    "oldCode": "BVCA-302"
+  },
+  {
+    "code": "BVCA-404",
+    "subject": "Android Development",
+    "semester": 4,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-404_AndroidDevelopment_SemIV_2022-23_BVoc.tex",
+    "fileName": "BVCA-404_AndroidDevelopment_SemIV_2022-23_BVoc.tex",
+    "nepCode": "BVCA44",
+    "oldCode": "BVCA-404"
+  },
+  {
+    "code": "BVCA-404",
+    "subject": "Android Development",
+    "semester": 4,
+    "year": "2023-24",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-404_AndroidDevelopment_SemIV_2023-24_BVoc.tex",
+    "fileName": "BVCA-404_AndroidDevelopment_SemIV_2023-24_BVoc.tex",
+    "nepCode": "BVCA44",
+    "oldCode": "BVCA-404"
+  },
+  {
+    "code": "BVCA-403b",
+    "subject": "Cloud Computing",
+    "semester": 4,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-403b_CloudComputing_SemIV_2022-23_BVoc.tex",
+    "fileName": "BVCA-403b_CloudComputing_SemIV_2022-23_BVoc.tex",
+    "nepCode": "BVCA43",
+    "oldCode": "BVCA-403b"
+  },
+  {
+    "code": "BVCA-403",
+    "subject": "Cloud Computing",
+    "semester": 4,
+    "year": "2022-23a",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-403_CloudComputing_SemIV_2022-23a_BVoc.tex",
+    "fileName": "BVCA-403_CloudComputing_SemIV_2022-23a_BVoc.tex",
+    "nepCode": "BVCA43",
+    "oldCode": "BVCA-403"
+  },
+  {
+    "code": "BVCA-403",
+    "subject": "Cloud Computing",
+    "semester": 4,
+    "year": "2023-24",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-403_CloudComputing_SemIV_2023-24_BVoc.tex",
+    "fileName": "BVCA-403_CloudComputing_SemIV_2023-24_BVoc.tex",
+    "nepCode": "BVCA43",
+    "oldCode": "BVCA-403"
+  },
+  {
+    "code": "BVCA-401",
+    "subject": "Cloud Computing",
+    "semester": 4,
+    "year": "2023-24",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-401_CloudComputing_SemIV_2023-24_BVoc.tex",
+    "fileName": "BVCA-401_CloudComputing_SemIV_2023-24_BVoc.tex",
+    "nepCode": "BVCA41",
+    "oldCode": "BVCA-401"
+  },
+  {
+    "code": "BCS-401",
+    "subject": "Computer Org Arch",
+    "semester": 4,
+    "year": "2013-14",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BCS-401_ComputerOrgArch_SemIV_2013-14_BSc.tex",
+    "fileName": "BCS-401_ComputerOrgArch_SemIV_2013-14_BSc.tex",
+    "nepCode": "CSMJ41 / CSMN41",
+    "oldCode": "CS-104"
+  },
+  {
+    "code": "CS-104b",
+    "subject": "Computer Org Arch",
+    "semester": 4,
+    "year": "2023-24",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/CS-104b_ComputerOrgArch_SemIV_2023-24_BSc.tex",
+    "fileName": "CS-104b_ComputerOrgArch_SemIV_2023-24_BSc.tex",
+    "nepCode": "CSMJ41 / CSMN41",
+    "oldCode": "CS-104"
+  },
+  {
+    "code": "CS-104",
+    "subject": "Computer Org Arch",
+    "semester": 4,
+    "year": "2023-24",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/CS-104_ComputerOrgArch_SemIV_2023-24_BSc.tex",
+    "fileName": "CS-104_ComputerOrgArch_SemIV_2023-24_BSc.tex",
+    "nepCode": "CSMJ41 / CSMN41",
+    "oldCode": "CS-104"
+  },
+  {
+    "code": "CS-104",
+    "subject": "Computer Organizati on Architecture",
+    "semester": 4,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/CS-104_ComputerOrganizationArchitecture_SemIV_2022-23_BSc.tex",
+    "fileName": "CS-104_ComputerOrganizationArchitecture_SemIV_2022-23_BSc.tex",
+    "nepCode": "CSMJ41 / CSMN41",
+    "oldCode": "CS-104"
+  },
+  {
+    "code": "CS-105",
+    "subject": "Computer Organizati on Architecture",
+    "semester": 4,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/CS-105_ComputerOrganizationArchitecture_SemIV_2022-23_BSc.tex",
+    "fileName": "CS-105_ComputerOrganizationArchitecture_SemIV_2022-23_BSc.tex",
+    "nepCode": "CSMJ41 / CSMN41",
+    "oldCode": "CS-105"
+  },
+  {
+    "code": "GEN-402",
+    "subject": "Data Structures Algorithms",
+    "semester": 4,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/GEN-402_DataStructuresAlgorithms_SemIV_2022-23_BVoc.tex",
+    "fileName": "GEN-402_DataStructuresAlgorithms_SemIV_2022-23_BVoc.tex",
+    "nepCode": "GEN42",
+    "oldCode": "GEN-402"
+  },
+  {
+    "code": "BVCA-402",
+    "subject": "Database Management",
+    "semester": 4,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-402_DatabaseManagement_SemIV_2022-23_BVoc.tex",
+    "fileName": "BVCA-402_DatabaseManagement_SemIV_2022-23_BVoc.tex",
+    "nepCode": "BVCA42",
+    "oldCode": "BVCA-402"
+  },
+  {
+    "code": "BVCA-402",
+    "subject": "Database Management",
+    "semester": 4,
+    "year": "2023-24",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-402_DatabaseManagement_SemIV_2023-24_BVoc.tex",
+    "fileName": "BVCA-402_DatabaseManagement_SemIV_2023-24_BVoc.tex",
+    "nepCode": "BVCA42",
+    "oldCode": "BVCA-402"
+  },
+  {
+    "code": "CS-105",
+    "subject": "Discrete Mathematics",
+    "semester": 4,
+    "year": "2023-24",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/CS-105_DiscreteMathematics_SemIV_2023-24_BSc.tex",
+    "fileName": "CS-105_DiscreteMathematics_SemIV_2023-24_BSc.tex",
+    "nepCode": "CSMJ42 / CSMN42",
+    "oldCode": "CS-105"
+  },
+  {
+    "code": "BCS-403",
+    "subject": "Fundamentals Of Computing",
+    "semester": 4,
+    "year": "2013-14",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BCS-403_FundamentalsOfComputing_SemIV_2013-14_BSc.tex",
+    "fileName": "BCS-403_FundamentalsOfComputing_SemIV_2013-14_BSc.tex",
+    "nepCode": "CSMD11",
+    "oldCode": "BCS-403"
+  },
+  {
+    "code": "BVCA-405",
+    "subject": "Informati on Security",
+    "semester": 4,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-405_InformationSecurity_SemIV_2022-23_BVoc.tex",
+    "fileName": "BVCA-405_InformationSecurity_SemIV_2022-23_BVoc.tex",
+    "nepCode": "BVCA45",
+    "oldCode": "BVCA-405"
+  },
+  {
+    "code": "BVCA-405",
+    "subject": "Informati on Security",
+    "semester": 4,
+    "year": "2023-24",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-405_InformationSecurity_SemIV_2023-24_BVoc.tex",
+    "fileName": "BVCA-405_InformationSecurity_SemIV_2023-24_BVoc.tex",
+    "nepCode": "BVCA45",
+    "oldCode": "BVCA-405"
+  },
+  {
+    "code": "BSC-044",
+    "subject": "Intro To Computer Programming C",
+    "semester": 4,
+    "year": "2013-14",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BSC-044_IntroToComputerProgrammingC_SemIV_2013-14_BSc.tex",
+    "fileName": "BSC-044_IntroToComputerProgrammingC_SemIV_2013-14_BSc.tex",
+    "nepCode": "CSMJ11 / CSMN11",
+    "oldCode": "CS-101"
+  },
+  {
+    "code": "BVCA-201",
+    "subject": "Introducti on To Databases",
+    "semester": 4,
+    "year": "2023-24",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-201_IntroductionToDatabases_SemIV_2023-24_BVoc.tex",
+    "fileName": "BVCA-201_IntroductionToDatabases_SemIV_2023-24_BVoc.tex",
+    "nepCode": "BVCA21",
+    "oldCode": "BVCA-201"
+  },
+  {
+    "code": "CSB-401",
+    "subject": "Numerical Computing",
+    "semester": 4,
+    "year": "2013-14",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/CSB-401_NumericalComputing_SemIV_2013-14_BSc.tex",
+    "fileName": "CSB-401_NumericalComputing_SemIV_2013-14_BSc.tex",
+    "nepCode": "CSMJ31 / CSMN31",
+    "oldCode": "CS-103"
+  },
+  {
+    "code": "CS-403",
+    "subject": "Programming For Problem Solving",
+    "semester": 4,
+    "year": "2023-24",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/CS-403_ProgrammingForProblemSolving_SemIV_2023-24_BSc.tex",
+    "fileName": "CS-403_ProgrammingForProblemSolving_SemIV_2023-24_BSc.tex",
+    "nepCode": "CSMD11",
+    "oldCode": "CS-403"
+  },
+  {
+    "code": "GEN-401",
+    "subject": "Real Analysis",
+    "semester": 4,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/GEN-401_RealAnalysis_SemIV_2022-23_BVoc.tex",
+    "fileName": "GEN-401_RealAnalysis_SemIV_2022-23_BVoc.tex",
+    "nepCode": "GEN41",
+    "oldCode": "GEN-401"
+  },
+  {
+    "code": "GEN-401",
+    "subject": "Real Analysis",
+    "semester": 4,
+    "year": "2023-24",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/GEN-401_RealAnalysis_SemIV_2023-24_BVoc.tex",
+    "fileName": "GEN-401_RealAnalysis_SemIV_2023-24_BVoc.tex",
+    "nepCode": "GEN41",
+    "oldCode": "GEN-401"
+  },
+  {
+    "code": "BVCA-401",
+    "subject": "Web Technology",
+    "semester": 4,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BVCA-401_WebTechnology_SemIV_2022-23_BVoc.tex",
+    "fileName": "BVCA-401_WebTechnology_SemIV_2022-23_BVoc.tex",
+    "nepCode": "BVCA41",
+    "oldCode": "BVCA-401"
+  },
+  {
+    "code": "CS-109",
+    "subject": "Data Communication",
+    "semester": 5,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/CS-109_DataCommunication_SemV_2022-23_BSc.tex",
+    "fileName": "CS-109_DataCommunication_SemV_2022-23_BSc.tex",
+    "nepCode": "CSMJ61",
+    "oldCode": "CS-109"
+  },
+  {
+    "code": "CS-108",
+    "subject": "Data Structures Algorithms",
+    "semester": 5,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/CS-108_DataStructuresAlgorithms_SemV_2022-23_BSc.tex",
+    "fileName": "CS-108_DataStructuresAlgorithms_SemV_2022-23_BSc.tex",
+    "nepCode": "CSMJ53",
+    "oldCode": "CS-108"
+  },
+  {
+    "code": "CS-107",
+    "subject": "Database Management Systems",
+    "semester": 5,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/CS-107_DatabaseManagementSystems_SemV_2022-23_BSc.tex",
+    "fileName": "CS-107_DatabaseManagementSystems_SemV_2022-23_BSc.tex",
+    "nepCode": "CSMJ52",
+    "oldCode": "CS-107"
+  },
+  {
+    "code": "BCS-503",
+    "subject": "Discrete Math Structures",
+    "semester": 5,
+    "year": "2016-17",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BCS-503_DiscreteMathStructures_SemV_2016-17_BSc.tex",
+    "fileName": "BCS-503_DiscreteMathStructures_SemV_2016-17_BSc.tex",
+    "nepCode": "CSMJ42 / CSMN42",
+    "oldCode": "BCS-503"
+  },
+  {
+    "code": "CSB-503",
+    "subject": "Discrete Mathematical Structure",
+    "semester": 5,
+    "year": "2013-14",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/CSB-503_DiscreteMathematicalStructure_SemV_2013-14_BSc.tex",
+    "fileName": "CSB-503_DiscreteMathematicalStructure_SemV_2013-14_BSc.tex",
+    "nepCode": "CSMJ42 / CSMN42",
+    "oldCode": "BCS-503"
+  },
+  {
+    "code": "CSB-502",
+    "subject": "Net Centric Computing",
+    "semester": 5,
+    "year": "2013-14",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/CSB-502_NetCentricComputing_SemV_2013-14_BSc.tex",
+    "fileName": "CSB-502_NetCentricComputing_SemV_2013-14_BSc.tex",
+    "nepCode": "CSMJ61",
+    "oldCode": "CS-109"
+  },
+  {
+    "code": "BCS-501",
+    "subject": "Net Centric Computing",
+    "semester": 5,
+    "year": "2016-17",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BCS-501_NetCentricComputing_SemV_2016-17_BSc.tex",
+    "fileName": "BCS-501_NetCentricComputing_SemV_2016-17_BSc.tex",
+    "nepCode": "CSMJ61",
+    "oldCode": "CS-109"
+  },
+  {
+    "code": "CSB-501",
+    "subject": "Object Oriented Programming Using C++",
+    "semester": 5,
+    "year": "2013-14",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/CSB-501_ObjectOrientedProgrammingUsingC++_SemV_2013-14_BSc.tex",
+    "fileName": "CSB-501_ObjectOrientedProgrammingUsingC++_SemV_2013-14_BSc.tex",
+    "nepCode": "CSMJ22 / CSMN22",
+    "oldCode": "CSB-501"
+  },
+  {
+    "code": "CSB-504",
+    "subject": "Operating System Concepts",
+    "semester": 5,
+    "year": "2013-14",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/CSB-504_OperatingSystemConcepts_SemV_2013-14_BSc.tex",
+    "fileName": "CSB-504_OperatingSystemConcepts_SemV_2013-14_BSc.tex",
+    "nepCode": "CSMJ51",
+    "oldCode": "CS-106"
+  },
+  {
+    "code": "BCS-502",
+    "subject": "Operating System Concepts",
+    "semester": 5,
+    "year": "2016-17",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BCS-502_OperatingSystemConcepts_SemV_2016-17_BSc.tex",
+    "fileName": "BCS-502_OperatingSystemConcepts_SemV_2016-17_BSc.tex",
+    "nepCode": "CSMJ51",
+    "oldCode": "CS-106"
+  },
+  {
+    "code": "CS-106",
+    "subject": "Operating System Concepts",
+    "semester": 5,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/CS-106_OperatingSystemConcepts_SemV_2022-23_BSc.tex",
+    "fileName": "CS-106_OperatingSystemConcepts_SemV_2022-23_BSc.tex",
+    "nepCode": "CSMJ51",
+    "oldCode": "CS-106"
+  },
+  {
+    "code": "BCS-504A",
+    "subject": "System Analys is Design",
+    "semester": 5,
+    "year": "2016-17",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/BCS-504A_SystemAnalysisDesign_SemV_2016-17_BSc.tex",
+    "fileName": "BCS-504A_SystemAnalysisDesign_SemV_2016-17_BSc.tex",
+    "nepCode": "CSMJ54",
+    "oldCode": "BCS-504A"
+  },
+  {
+    "code": "CSB-602",
+    "subject": "Data And File Structures",
+    "semester": 6,
+    "year": "2013-14",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/CSB-602_DataAndFileStructures_SemVI_2013-14_BSc.tex",
+    "fileName": "CSB-602_DataAndFileStructures_SemVI_2013-14_BSc.tex",
+    "nepCode": "CSMJ53",
+    "oldCode": "CS-108"
+  },
+  {
+    "code": "CS-109",
+    "subject": "Data Communication",
+    "semester": 6,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/CS-109_DataCommunication_SemVI_2022-23_BSc.tex",
+    "fileName": "CS-109_DataCommunication_SemVI_2022-23_BSc.tex",
+    "nepCode": "CSMJ61",
+    "oldCode": "CS-109"
+  },
+  {
+    "code": "CSB-601",
+    "subject": "Database Management System",
+    "semester": 6,
+    "year": "2013-14",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/CSB-601_DatabaseManagementSystem_SemVI_2013-14_BSc.tex",
+    "fileName": "CSB-601_DatabaseManagementSystem_SemVI_2013-14_BSc.tex",
+    "nepCode": "CSMJ52",
+    "oldCode": "CS-107"
+  },
+  {
+    "code": "CS-105",
+    "subject": "Discrete Mathematics",
+    "semester": 6,
+    "year": "2022-23",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/CS-105_DiscreteMathematics_SemVI_2022-23_BSc.tex",
+    "fileName": "CS-105_DiscreteMathematics_SemVI_2022-23_BSc.tex",
+    "nepCode": "CSMJ42 / CSMN42",
+    "oldCode": "CS-105"
+  },
+  {
+    "code": "CSB-604C",
+    "subject": "Operati on Research",
+    "semester": 6,
+    "year": "2013-14",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/CSB-604C_OperationResearch_SemVI_2013-14_BSc.tex",
+    "fileName": "CSB-604C_OperationResearch_SemVI_2013-14_BSc.tex",
+    "nepCode": "CSMJ64",
+    "oldCode": "CSB-604C"
+  },
+  {
+    "code": "CSB-603A",
+    "subject": "System Analys is And Design",
+    "semester": 6,
+    "year": "2013-14",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/CSB-603A_SystemAnalysisAndDesign_SemVI_2013-14_BSc.tex",
+    "fileName": "CSB-603A_SystemAnalysisAndDesign_SemVI_2013-14_BSc.tex",
+    "nepCode": "CSMJ54",
+    "oldCode": "BCS-504A"
+  },
+  {
     "code": "MTB-102",
     "subject": "Calculus",
     "semester": 1,
@@ -470,7 +1383,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/Calculus_BSc-SemI_2016-17_Old.tex",
     "fileName": "Calculus_BSc-SemI_2016-17_Old.tex",
-    "nepCode": "MATMJ11 / MATMN11",
+    "nepCode": "MATHJ12",
     "oldCode": "MTB-102"
   },
   {
@@ -481,19 +1394,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/CalculusI_BSc-SemI_2016-17.tex",
     "fileName": "CalculusI_BSc-SemI_2016-17.tex",
-    "nepCode": "MATMJ11 / MATMN11",
+    "nepCode": "MATHJ11",
     "oldCode": "MTB-101"
-  },
-  {
-    "code": "MTB-201",
-    "subject": "Calculus II",
-    "semester": 1,
-    "year": "2023-24",
-    "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/CalculusII_BA-SemII_2023-24.tex",
-    "fileName": "CalculusII_BA-SemII_2023-24.tex",
-    "nepCode": "MATMJ11 / MATMN11",
-    "oldCode": "MTB-201"
   },
   {
     "code": "MTB-101",
@@ -503,7 +1405,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-101_Calculus-I_BA-SemI_2022-23.tex",
     "fileName": "MTB-101_Calculus-I_BA-SemI_2022-23.tex",
-    "nepCode": "MATMJ11 / MATMN11",
+    "nepCode": "MATHJ11",
     "oldCode": "MTB-101"
   },
   {
@@ -514,74 +1416,52 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-101_Calculus-I_BSc-SemI_2023-24.tex",
     "fileName": "MTB-101_Calculus-I_BSc-SemI_2023-24.tex",
-    "nepCode": "MATMJ11 / MATMN11",
+    "nepCode": "MATHJ11",
     "oldCode": "MTB-101"
   },
   {
-    "code": "MTB-201",
-    "subject": "Calculus-II",
+    "code": "MTB-102",
+    "subject": "Geometry",
     "semester": 1,
-    "year": "2023-24",
+    "year": "2016-17",
     "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-201_Calculus-II_BSc-SemII_2023-24.tex",
-    "fileName": "MTB-201_Calculus-II_BSc-SemII_2023-24.tex",
-    "nepCode": "MATMJ11 / MATMN11",
-    "oldCode": "MTB-201"
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/Geometry_BSc-SemI_2016-17.tex",
+    "fileName": "Geometry_BSc-SemI_2016-17.tex",
+    "nepCode": "MATHJ12",
+    "oldCode": "MTB-102"
   },
   {
-    "code": "MTB-201",
-    "subject": "Calculus-II (New Course)",
-    "semester": 1,
-    "year": "2013-14",
-    "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-201_Calculus-II_BSc-SemII_2013-14.tex",
-    "fileName": "MTB-201_Calculus-II_BSc-SemII_2013-14.tex",
-    "nepCode": "MATMJ11 / MATMN11",
-    "oldCode": "MTB-201"
-  },
-  {
-    "code": "MTB-201",
-    "subject": "Calculus-III",
+    "code": "MTB-102",
+    "subject": "Geometry",
     "semester": 1,
     "year": "2022-23",
     "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-201_Calculus-III_BA-SemII_2022-23.tex",
-    "fileName": "MTB-201_Calculus-III_BA-SemII_2022-23.tex",
-    "nepCode": "MATMJ11 / MATMN11",
-    "oldCode": "MTB-201"
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-102_Geometry_BA-SemI_2022-23.tex",
+    "fileName": "MTB-102_Geometry_BA-SemI_2022-23.tex",
+    "nepCode": "MATHJ12",
+    "oldCode": "MTB-102"
   },
   {
-    "code": "MTB-301",
-    "subject": "Algebra",
-    "semester": 2,
-    "year": "2016-17",
-    "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-301_Algebra_BSc-SemIII_2016-17.tex",
-    "fileName": "MTB-301_Algebra_BSc-SemIII_2016-17.tex",
-    "nepCode": "MATMJ21 / MATMN21",
-    "oldCode": "MTB-301"
-  },
-  {
-    "code": "MTB-Unknown",
-    "subject": "Algebra",
-    "semester": 2,
-    "year": "2016-17",
-    "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/Algebra_BSc-SemIII_2016-17_Old.tex",
-    "fileName": "Algebra_BSc-SemIII_2016-17_Old.tex",
-    "nepCode": "MATMJ21 / MATMN21",
-    "oldCode": "MTB-Unknown"
-  },
-  {
-    "code": "MTB-301",
-    "subject": "Algebra-I",
-    "semester": 2,
+    "code": "MTB-102",
+    "subject": "Geometry",
+    "semester": 1,
     "year": "2023-24",
     "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-301_Algebra-I_SemIII_2023-24.tex",
-    "fileName": "MTB-301_Algebra-I_SemIII_2023-24.tex",
-    "nepCode": "MATMJ21 / MATMN21",
-    "oldCode": "MTB-301"
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-102_Geometry_BA-SemI_2023-24.tex",
+    "fileName": "MTB-102_Geometry_BA-SemI_2023-24.tex",
+    "nepCode": "MATHJ12",
+    "oldCode": "MTB-102"
+  },
+  {
+    "code": "MTB-102",
+    "subject": "Geometry",
+    "semester": 1,
+    "year": "2023-24",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-102_Geometry_BSc-SemI_2023-24.tex",
+    "fileName": "MTB-102_Geometry_BSc-SemI_2023-24.tex",
+    "nepCode": "MATHJ12",
+    "oldCode": "MTB-102"
   },
   {
     "code": "MTB-AM-203",
@@ -591,7 +1471,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/AncillaryI_BSc-SemII_2013-14.tex",
     "fileName": "AncillaryI_BSc-SemII_2013-14.tex",
-    "nepCode": "MATMD21",
+    "nepCode": "MATHD11",
     "oldCode": "MTB-203A / MTB-AM-203"
   },
   {
@@ -602,7 +1482,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-AM-203_AncillaryI_BSc-SemII_2013-14.tex",
     "fileName": "MTB-AM-203_AncillaryI_BSc-SemII_2013-14.tex",
-    "nepCode": "MATMD21",
+    "nepCode": "MATHD11",
     "oldCode": "MTB-203A / MTB-AM-203"
   },
   {
@@ -613,19 +1493,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-203A_AncillaryI_BSc-SemII_2023-24.tex",
     "fileName": "MTB-203A_AncillaryI_BSc-SemII_2023-24.tex",
-    "nepCode": "MATMD21",
+    "nepCode": "MATHD11",
     "oldCode": "MTB-203A / MTB-AM-203"
-  },
-  {
-    "code": "MTB-AM-403",
-    "subject": "Ancillary Mathematics II",
-    "semester": 2,
-    "year": "2023-24",
-    "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-AM-403_AncillaryMaths_BSc-SemIV_2023-24.tex",
-    "fileName": "MTB-AM-403_AncillaryMaths_BSc-SemIV_2023-24.tex",
-    "nepCode": "MATMD21",
-    "oldCode": "MTB-AM-403"
   },
   {
     "code": "MTB-Unknown",
@@ -635,96 +1504,195 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/AncillaryMaths_BSc-SemII_2013-14.tex",
     "fileName": "AncillaryMaths_BSc-SemII_2013-14.tex",
-    "nepCode": "MATMD21",
+    "nepCode": "N/A",
     "oldCode": "MTB-Unknown"
   },
   {
-    "code": "MTB-601",
-    "subject": "Analysis-II",
-    "semester": 3,
+    "code": "MTB-201",
+    "subject": "Calculus II",
+    "semester": 2,
+    "year": "2023-24",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/CalculusII_BA-SemII_2023-24.tex",
+    "fileName": "CalculusII_BA-SemII_2023-24.tex",
+    "nepCode": "MATHJ21",
+    "oldCode": "MTB-201"
+  },
+  {
+    "code": "MTB-201",
+    "subject": "Calculus-II",
+    "semester": 2,
+    "year": "2023-24",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-201_Calculus-II_BSc-SemII_2023-24.tex",
+    "fileName": "MTB-201_Calculus-II_BSc-SemII_2023-24.tex",
+    "nepCode": "MATHJ21",
+    "oldCode": "MTB-201"
+  },
+  {
+    "code": "MTB-201",
+    "subject": "Calculus-II (New Course)",
+    "semester": 2,
     "year": "2013-14",
     "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/AnalysisII_BSc-SemVI_2013-14.tex",
-    "fileName": "AnalysisII_BSc-SemVI_2013-14.tex",
-    "nepCode": "MATMJ32",
-    "oldCode": "MTB-601"
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-201_Calculus-II_BSc-SemII_2013-14.tex",
+    "fileName": "MTB-201_Calculus-II_BSc-SemII_2013-14.tex",
+    "nepCode": "MATHJ21",
+    "oldCode": "MTB-201"
+  },
+  {
+    "code": "MTB-201",
+    "subject": "Calculus-III",
+    "semester": 2,
+    "year": "2022-23",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-201_Calculus-III_BA-SemII_2022-23.tex",
+    "fileName": "MTB-201_Calculus-III_BA-SemII_2022-23.tex",
+    "nepCode": "MATHJ21",
+    "oldCode": "MTB-201"
+  },
+  {
+    "code": "MTB-202",
+    "subject": "Multivariable Calculus",
+    "semester": 2,
+    "year": "2013-14",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MultivariableCalculus_BSc-SemII_2013-14.tex",
+    "fileName": "MultivariableCalculus_BSc-SemII_2013-14.tex",
+    "nepCode": "MATHJ22",
+    "oldCode": "MTB-202"
+  },
+  {
+    "code": "MTB-202",
+    "subject": "Statics & Dynamics",
+    "semester": 2,
+    "year": "2023-24",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-202_StaticsDynamics_BSc-SemII_2023-24.tex",
+    "fileName": "MTB-202_StaticsDynamics_BSc-SemII_2023-24.tex",
+    "nepCode": "MATHJ22",
+    "oldCode": "MTB-202"
+  },
+  {
+    "code": "MTB-202",
+    "subject": "Statics Dynamics",
+    "semester": 2,
+    "year": "2013-14",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-202_StaticsDynamics_BSc-SemII_2013-14.tex",
+    "fileName": "MTB-202_StaticsDynamics_BSc-SemII_2013-14.tex",
+    "nepCode": "MATHJ22",
+    "oldCode": "MTB-202"
+  },
+  {
+    "code": "MTB-202",
+    "subject": "Statics and Dynamics",
+    "semester": 2,
+    "year": "2022-23",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/StaticsDynamics_BA-SemII_2022-23.tex",
+    "fileName": "StaticsDynamics_BA-SemII_2022-23.tex",
+    "nepCode": "MATHJ22",
+    "oldCode": "MTB-202"
+  },
+  {
+    "code": "MTB-202",
+    "subject": "Statics and Dynamics",
+    "semester": 2,
+    "year": "2023-24",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/StaticsDynamics_BA-SemII_2023-24.tex",
+    "fileName": "StaticsDynamics_BA-SemII_2023-24.tex",
+    "nepCode": "MATHJ22",
+    "oldCode": "MTB-202"
+  },
+  {
+    "code": "MTB-301",
+    "subject": "Algebra",
+    "semester": 3,
+    "year": "2016-17",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-301_Algebra_BSc-SemIII_2016-17.tex",
+    "fileName": "MTB-301_Algebra_BSc-SemIII_2016-17.tex",
+    "nepCode": "MATHJ31 / MATHJ32",
+    "oldCode": "MTB-301"
   },
   {
     "code": "MTB-Unknown",
-    "subject": "Ancillary II",
+    "subject": "Algebra",
     "semester": 3,
-    "year": "2013-14",
+    "year": "2016-17",
     "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/AncillaryII_BSc-SemIV_2013-14.tex",
-    "fileName": "AncillaryII_BSc-SemIV_2013-14.tex",
-    "nepCode": "MATMD31",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/Algebra_BSc-SemIII_2016-17_Old.tex",
+    "fileName": "Algebra_BSc-SemIII_2016-17_Old.tex",
+    "nepCode": "N/A",
     "oldCode": "MTB-Unknown"
   },
   {
-    "code": "MTB-602",
-    "subject": "Linear Algebra",
+    "code": "MTB-301",
+    "subject": "Algebra-I",
     "semester": 3,
-    "year": "2013-14",
+    "year": "2023-24",
     "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/LinearAlgebra_BSc-SemVI_2013-14.tex",
-    "fileName": "LinearAlgebra_BSc-SemVI_2013-14.tex",
-    "nepCode": "MATMJ31",
-    "oldCode": "MTB-602"
-  },
-  {
-    "code": "MTB-602",
-    "subject": "Linear Algebra",
-    "semester": 3,
-    "year": "2022-23",
-    "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/LinearAlgebra_SemVI_2022-23.tex",
-    "fileName": "LinearAlgebra_SemVI_2022-23.tex",
-    "nepCode": "MATMJ31",
-    "oldCode": "MTB-602"
-  },
-  {
-    "code": "MTB-501",
-    "subject": "Mathematical Analysis",
-    "semester": 3,
-    "year": "2022-23",
-    "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MathematicalAnalysis_SemV_2022-23.tex",
-    "fileName": "MathematicalAnalysis_SemV_2022-23.tex",
-    "nepCode": "MATMJ32",
-    "oldCode": "MTB-501"
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-301_Algebra-I_SemIII_2023-24.tex",
+    "fileName": "MTB-301_Algebra-I_SemIII_2023-24.tex",
+    "nepCode": "MATHJ31 / MATHJ32",
+    "oldCode": "MTB-301"
   },
   {
     "code": "MTB-302",
     "subject": "Differential Equations",
-    "semester": 4,
+    "semester": 3,
     "year": "2023-24",
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-302_DiffEq_BSc-SemIII_2023-24.tex",
     "fileName": "MTB-302_DiffEq_BSc-SemIII_2023-24.tex",
-    "nepCode": "MATMJ43",
+    "nepCode": "MATHJ33 / MATHJ34",
     "oldCode": "MTB-302"
   },
   {
     "code": "MTB-302",
     "subject": "Differential Equations",
-    "semester": 4,
+    "semester": 3,
     "year": "2023-24",
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-302_DiffEq_BA-SemIII_2023-24.tex",
     "fileName": "MTB-302_DiffEq_BA-SemIII_2023-24.tex",
-    "nepCode": "MATMJ43",
+    "nepCode": "MATHJ33 / MATHJ34",
     "oldCode": "MTB-302"
   },
   {
     "code": "MTB-302",
     "subject": "Differential Equations (New & Old Course)",
-    "semester": 4,
+    "semester": 3,
     "year": "2016-17",
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-302_DiffEquations_BSc-SemIII_2016-17.tex",
     "fileName": "MTB-302_DiffEquations_BSc-SemIII_2016-17.tex",
-    "nepCode": "MATMJ43",
+    "nepCode": "MATHJ33 / MATHJ34",
     "oldCode": "MTB-302"
+  },
+  {
+    "code": "MTB-Unknown",
+    "subject": "Ancillary II",
+    "semester": 4,
+    "year": "2013-14",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/AncillaryII_BSc-SemIV_2013-14.tex",
+    "fileName": "AncillaryII_BSc-SemIV_2013-14.tex",
+    "nepCode": "N/A",
+    "oldCode": "MTB-Unknown"
+  },
+  {
+    "code": "MTB-AM-403",
+    "subject": "Ancillary Mathematics II",
+    "semester": 4,
+    "year": "2023-24",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-AM-403_AncillaryMaths_BSc-SemIV_2023-24.tex",
+    "fileName": "MTB-AM-403_AncillaryMaths_BSc-SemIV_2023-24.tex",
+    "nepCode": "MATHD21",
+    "oldCode": "MTB-AM-403"
   },
   {
     "code": "MTB-402",
@@ -734,7 +1702,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/MathMethods_BSc-SemIV_2013-14.tex",
     "fileName": "MathMethods_BSc-SemIV_2013-14.tex",
-    "nepCode": "MATMJ42",
+    "nepCode": "MATHJ42",
     "oldCode": "MTB-402"
   },
   {
@@ -745,7 +1713,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-402_MathMethods_BSc-SemIV_2023-24.tex",
     "fileName": "MTB-402_MathMethods_BSc-SemIV_2023-24.tex",
-    "nepCode": "MATMJ42",
+    "nepCode": "MATHJ42",
     "oldCode": "MTB-402"
   },
   {
@@ -756,41 +1724,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-402_MathMethods_BA-SemIV_2023-24.tex",
     "fileName": "MTB-402_MathMethods_BA-SemIV_2023-24.tex",
-    "nepCode": "MATMJ42",
+    "nepCode": "MATHJ42",
     "oldCode": "MTB-402"
-  },
-  {
-    "code": "MTB-505",
-    "subject": "Mechanics",
-    "semester": 4,
-    "year": "2022-23",
-    "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/Mechanics_SemV_2022-23.tex",
-    "fileName": "Mechanics_SemV_2022-23.tex",
-    "nepCode": "MATMJ44",
-    "oldCode": "MTB-505"
-  },
-  {
-    "code": "MTB-604",
-    "subject": "Mechanics",
-    "semester": 4,
-    "year": "2013-14",
-    "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/Mechanics_BSc-SemVI_2013-14.tex",
-    "fileName": "Mechanics_BSc-SemVI_2013-14.tex",
-    "nepCode": "MATMJ44",
-    "oldCode": "MTB-604"
-  },
-  {
-    "code": "MTB-202",
-    "subject": "Multivariable Calculus",
-    "semester": 4,
-    "year": "2013-14",
-    "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MultivariableCalculus_BSc-SemII_2013-14.tex",
-    "fileName": "MultivariableCalculus_BSc-SemII_2013-14.tex",
-    "nepCode": "MATMJ41",
-    "oldCode": "MTB-202"
   },
   {
     "code": "MTB-401",
@@ -800,7 +1735,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/PDEs_BSc-SemIV_2013-14.tex",
     "fileName": "PDEs_BSc-SemIV_2013-14.tex",
-    "nepCode": "MATMJ43",
+    "nepCode": "MATHJ41",
     "oldCode": "MTB-401"
   },
   {
@@ -811,7 +1746,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-401_PDEs_BSc-SemIV_2023-24.tex",
     "fileName": "MTB-401_PDEs_BSc-SemIV_2023-24.tex",
-    "nepCode": "MATMJ43",
+    "nepCode": "MATHJ41",
     "oldCode": "MTB-401"
   },
   {
@@ -822,63 +1757,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-401_PDEs_BA-SemIV_2023-24.tex",
     "fileName": "MTB-401_PDEs_BA-SemIV_2023-24.tex",
-    "nepCode": "MATMJ43",
+    "nepCode": "MATHJ41",
     "oldCode": "MTB-401"
-  },
-  {
-    "code": "MTB-202",
-    "subject": "Statics & Dynamics",
-    "semester": 4,
-    "year": "2023-24",
-    "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-202_StaticsDynamics_BSc-SemII_2023-24.tex",
-    "fileName": "MTB-202_StaticsDynamics_BSc-SemII_2023-24.tex",
-    "nepCode": "MATMJ44",
-    "oldCode": "MTB-202"
-  },
-  {
-    "code": "MTB-202",
-    "subject": "Statics Dynamics",
-    "semester": 4,
-    "year": "2013-14",
-    "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-202_StaticsDynamics_BSc-SemII_2013-14.tex",
-    "fileName": "MTB-202_StaticsDynamics_BSc-SemII_2013-14.tex",
-    "nepCode": "MATMJ44",
-    "oldCode": "MTB-202"
-  },
-  {
-    "code": "MTB-202",
-    "subject": "Statics and Dynamics",
-    "semester": 4,
-    "year": "2022-23",
-    "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/StaticsDynamics_BA-SemII_2022-23.tex",
-    "fileName": "StaticsDynamics_BA-SemII_2022-23.tex",
-    "nepCode": "MATMJ44",
-    "oldCode": "MTB-202"
-  },
-  {
-    "code": "MTB-202",
-    "subject": "Statics and Dynamics",
-    "semester": 4,
-    "year": "2023-24",
-    "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/StaticsDynamics_BA-SemII_2023-24.tex",
-    "fileName": "StaticsDynamics_BA-SemII_2023-24.tex",
-    "nepCode": "MATMJ44",
-    "oldCode": "MTB-202"
-  },
-  {
-    "code": "MTB-605",
-    "subject": "Vector and Tensor Analysis",
-    "semester": 4,
-    "year": "2022-23",
-    "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/VectorTensorAnalysis_SemVI_2022-23.tex",
-    "fileName": "VectorTensorAnalysis_SemVI_2022-23.tex",
-    "nepCode": "MATMJ42",
-    "oldCode": "MTB-605"
   },
   {
     "code": "MTB-502",
@@ -888,96 +1768,107 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/AbstractAlgebra_SemV_2022-23.tex",
     "fileName": "AbstractAlgebra_SemV_2022-23.tex",
-    "nepCode": "MATMJ51",
+    "nepCode": "MATHJ52",
     "oldCode": "MTB-502"
-  },
-  {
-    "code": "MTB-102",
-    "subject": "Geometry",
-    "semester": 5,
-    "year": "2016-17",
-    "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/Geometry_BSc-SemI_2016-17.tex",
-    "fileName": "Geometry_BSc-SemI_2016-17.tex",
-    "nepCode": "MATMJ53",
-    "oldCode": "MTB-102"
-  },
-  {
-    "code": "MTB-102",
-    "subject": "Geometry",
-    "semester": 5,
-    "year": "2022-23",
-    "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-102_Geometry_BA-SemI_2022-23.tex",
-    "fileName": "MTB-102_Geometry_BA-SemI_2022-23.tex",
-    "nepCode": "MATMJ53",
-    "oldCode": "MTB-102"
-  },
-  {
-    "code": "MTB-102",
-    "subject": "Geometry",
-    "semester": 5,
-    "year": "2023-24",
-    "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-102_Geometry_BA-SemI_2023-24.tex",
-    "fileName": "MTB-102_Geometry_BA-SemI_2023-24.tex",
-    "nepCode": "MATMJ53",
-    "oldCode": "MTB-102"
-  },
-  {
-    "code": "MTB-102",
-    "subject": "Geometry",
-    "semester": 5,
-    "year": "2023-24",
-    "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-102_Geometry_BSc-SemI_2023-24.tex",
-    "fileName": "MTB-102_Geometry_BSc-SemI_2023-24.tex",
-    "nepCode": "MATMJ53",
-    "oldCode": "MTB-102"
-  },
-  {
-    "code": "MTB-603",
-    "subject": "Numerical Analysis",
-    "semester": 5,
-    "year": "2013-14",
-    "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/NumericalAnalysis_BSc-SemVI_2013-14.tex",
-    "fileName": "NumericalAnalysis_BSc-SemVI_2013-14.tex",
-    "nepCode": "MATMJ54",
-    "oldCode": "MTB-603"
-  },
-  {
-    "code": "MTB-603",
-    "subject": "Numerical Analysis",
-    "semester": 5,
-    "year": "2022-23",
-    "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/NumericalAnalysis_SemVI_2022-23.tex",
-    "fileName": "NumericalAnalysis_SemVI_2022-23.tex",
-    "nepCode": "MATMJ54",
-    "oldCode": "MTB-603"
-  },
-  {
-    "code": "MTB-601",
-    "subject": "Set Theory and Metric Spaces",
-    "semester": 5,
-    "year": "2022-23",
-    "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/SetTheoryRealAnalysis_SemVI_2022-23.tex",
-    "fileName": "SetTheoryRealAnalysis_SemVI_2022-23.tex",
-    "nepCode": "MATMJ52",
-    "oldCode": "MTB-601"
   },
   {
     "code": "MTB-507",
     "subject": "Combinatorial Mathematics",
-    "semester": 6,
+    "semester": 5,
     "year": "2022-23",
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/CombinatorialMath_SemV_2022-23.tex",
     "fileName": "CombinatorialMath_SemV_2022-23.tex",
-    "nepCode": "MATMJ68",
+    "nepCode": "MATHJ51",
     "oldCode": "MTB-507"
+  },
+  {
+    "code": "MTB-504",
+    "subject": "Differential Geometry",
+    "semester": 5,
+    "year": "2022-23",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/DiffGeometry_SemV_2022-23.tex",
+    "fileName": "DiffGeometry_SemV_2022-23.tex",
+    "nepCode": "MATHJ51",
+    "oldCode": "MTB-504"
+  },
+  {
+    "code": "MTB-501",
+    "subject": "Mathematical Analysis",
+    "semester": 5,
+    "year": "2022-23",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MathematicalAnalysis_SemV_2022-23.tex",
+    "fileName": "MathematicalAnalysis_SemV_2022-23.tex",
+    "nepCode": "MATHJ51",
+    "oldCode": "MTB-501"
+  },
+  {
+    "code": "MTB-505",
+    "subject": "Mechanics",
+    "semester": 5,
+    "year": "2022-23",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/Mechanics_SemV_2022-23.tex",
+    "fileName": "Mechanics_SemV_2022-23.tex",
+    "nepCode": "MATHJ51",
+    "oldCode": "MTB-505"
+  },
+  {
+    "code": "MTB-506",
+    "subject": "Operations Research",
+    "semester": 5,
+    "year": "2022-23",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/OperationsResearch_SemV_2022-23.tex",
+    "fileName": "OperationsResearch_SemV_2022-23.tex",
+    "nepCode": "MATHJ51",
+    "oldCode": "MTB-506"
+  },
+  {
+    "code": "MTB-511",
+    "subject": "Probability",
+    "semester": 5,
+    "year": "2022-23",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/Probability_SemV_2022-23.tex",
+    "fileName": "Probability_SemV_2022-23.tex",
+    "nepCode": "MATHJ51",
+    "oldCode": "MTB-511"
+  },
+  {
+    "code": "MTB-503",
+    "subject": "Programming in C",
+    "semester": 5,
+    "year": "2022-23",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/ProgrammingInC_SemV_2022-23.tex",
+    "fileName": "ProgrammingInC_SemV_2022-23.tex",
+    "nepCode": "MATHJ51",
+    "oldCode": "MTB-503"
+  },
+  {
+    "code": "MTB-509",
+    "subject": "Special Theory of Relativity-I",
+    "semester": 5,
+    "year": "2022-23",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/Relativity_SemV_2022-23.tex",
+    "fileName": "Relativity_SemV_2022-23.tex",
+    "nepCode": "MATHJ51",
+    "oldCode": "MTB-509"
+  },
+  {
+    "code": "MTB-601",
+    "subject": "Analysis-II",
+    "semester": 6,
+    "year": "2013-14",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/AnalysisII_BSc-SemVI_2013-14.tex",
+    "fileName": "AnalysisII_BSc-SemVI_2013-14.tex",
+    "nepCode": "MATHJ61",
+    "oldCode": "MTB-601"
   },
   {
     "code": "MTB-606",
@@ -987,19 +1878,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/ComplexAnalysis_SemVI_2022-23.tex",
     "fileName": "ComplexAnalysis_SemVI_2022-23.tex",
-    "nepCode": "MATMJ62",
+    "nepCode": "MATHJ61",
     "oldCode": "MTB-606"
-  },
-  {
-    "code": "MTB-504",
-    "subject": "Differential Geometry",
-    "semester": 6,
-    "year": "2022-23",
-    "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/DiffGeometry_SemV_2022-23.tex",
-    "fileName": "DiffGeometry_SemV_2022-23.tex",
-    "nepCode": "MATMJ63",
-    "oldCode": "MTB-504"
   },
   {
     "code": "MTB-604",
@@ -1009,7 +1889,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/DiscreteMathematics_SemVI_2022-23.tex",
     "fileName": "DiscreteMathematics_SemVI_2022-23.tex",
-    "nepCode": "MATMJ68",
+    "nepCode": "MATHJ61",
     "oldCode": "MTB-604"
   },
   {
@@ -1020,7 +1900,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/DynamicalSystems_SemVI_2022-23.tex",
     "fileName": "DynamicalSystems_SemVI_2022-23.tex",
-    "nepCode": "MATMJ610",
+    "nepCode": "MATHJ64",
     "oldCode": "MTB-611"
   },
   {
@@ -1031,8 +1911,41 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/GlobalDiffGeometry_SemVI_2022-23.tex",
     "fileName": "GlobalDiffGeometry_SemVI_2022-23.tex",
-    "nepCode": "MATMJ63",
+    "nepCode": "MATHJ61",
     "oldCode": "MTB-608"
+  },
+  {
+    "code": "MTB-602",
+    "subject": "Linear Algebra",
+    "semester": 6,
+    "year": "2013-14",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/LinearAlgebra_BSc-SemVI_2013-14.tex",
+    "fileName": "LinearAlgebra_BSc-SemVI_2013-14.tex",
+    "nepCode": "MATHJ62",
+    "oldCode": "MTB-602"
+  },
+  {
+    "code": "MTB-602",
+    "subject": "Linear Algebra",
+    "semester": 6,
+    "year": "2022-23",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/LinearAlgebra_SemVI_2022-23.tex",
+    "fileName": "LinearAlgebra_SemVI_2022-23.tex",
+    "nepCode": "MATHJ62",
+    "oldCode": "MTB-602"
+  },
+  {
+    "code": "MTB-604",
+    "subject": "Mechanics",
+    "semester": 6,
+    "year": "2013-14",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/Mechanics_BSc-SemVI_2013-14.tex",
+    "fileName": "Mechanics_BSc-SemVI_2013-14.tex",
+    "nepCode": "MATHJ61",
+    "oldCode": "MTB-604"
   },
   {
     "code": "MTB-606",
@@ -1042,7 +1955,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/NumberTheory_BSc-SemVI_2013-14.tex",
     "fileName": "NumberTheory_BSc-SemVI_2013-14.tex",
-    "nepCode": "MATMJ64",
+    "nepCode": "MATHJ61",
     "oldCode": "MTB-606"
   },
   {
@@ -1053,19 +1966,30 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/NumberTheory_SemVI_2022-23.tex",
     "fileName": "NumberTheory_SemVI_2022-23.tex",
-    "nepCode": "MATMJ64",
+    "nepCode": "MATHJ61",
     "oldCode": "MTB-607"
   },
   {
-    "code": "MTB-506",
-    "subject": "Operations Research",
+    "code": "MTB-603",
+    "subject": "Numerical Analysis",
+    "semester": 6,
+    "year": "2013-14",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/NumericalAnalysis_BSc-SemVI_2013-14.tex",
+    "fileName": "NumericalAnalysis_BSc-SemVI_2013-14.tex",
+    "nepCode": "MATHJ63",
+    "oldCode": "MTB-603"
+  },
+  {
+    "code": "MTB-603",
+    "subject": "Numerical Analysis",
     "semester": 6,
     "year": "2022-23",
     "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/OperationsResearch_SemV_2022-23.tex",
-    "fileName": "OperationsResearch_SemV_2022-23.tex",
-    "nepCode": "MATMJ65",
-    "oldCode": "MTB-506"
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/NumericalAnalysis_SemVI_2022-23.tex",
+    "fileName": "NumericalAnalysis_SemVI_2022-23.tex",
+    "nepCode": "MATHJ63",
+    "oldCode": "MTB-603"
   },
   {
     "code": "MTB-605",
@@ -1075,19 +1999,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/OperationsResearch_BSc-SemVI_2013-14.tex",
     "fileName": "OperationsResearch_BSc-SemVI_2013-14.tex",
-    "nepCode": "MATMJ65",
+    "nepCode": "MATHJ61",
     "oldCode": "MTB-605"
-  },
-  {
-    "code": "MTB-511",
-    "subject": "Probability",
-    "semester": 6,
-    "year": "2022-23",
-    "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/Probability_SemV_2022-23.tex",
-    "fileName": "Probability_SemV_2022-23.tex",
-    "nepCode": "MATMJ610",
-    "oldCode": "MTB-511"
   },
   {
     "code": "MTB-607",
@@ -1097,30 +2010,19 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/Probability_BSc-SemVI_2013-14.tex",
     "fileName": "Probability_BSc-SemVI_2013-14.tex",
-    "nepCode": "MATMJ610",
+    "nepCode": "MATHJ61",
     "oldCode": "MTB-607"
   },
   {
-    "code": "MTB-503",
-    "subject": "Programming in C",
+    "code": "MTB-601",
+    "subject": "Set Theory and Metric Spaces",
     "semester": 6,
     "year": "2022-23",
     "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/ProgrammingInC_SemV_2022-23.tex",
-    "fileName": "ProgrammingInC_SemV_2022-23.tex",
-    "nepCode": "MATMJ611",
-    "oldCode": "MTB-503"
-  },
-  {
-    "code": "MTB-509",
-    "subject": "Special Theory of Relativity-I",
-    "semester": 6,
-    "year": "2022-23",
-    "department": "Mathematics",
-    "filePath": "aaa/latest corrected maths pdf/final maths export latex/Relativity_SemV_2022-23.tex",
-    "fileName": "Relativity_SemV_2022-23.tex",
-    "nepCode": "MATMJ66",
-    "oldCode": "MTB-509"
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/SetTheoryRealAnalysis_SemVI_2022-23.tex",
+    "fileName": "SetTheoryRealAnalysis_SemVI_2022-23.tex",
+    "nepCode": "MATHJ61",
+    "oldCode": "MTB-601"
   },
   {
     "code": "MTB-609",
@@ -1130,8 +2032,19 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/RelativityII_BSc-SemVI_2013-14.tex",
     "fileName": "RelativityII_BSc-SemVI_2013-14.tex",
-    "nepCode": "MATMJ66",
+    "nepCode": "MATHJ61",
     "oldCode": "MTB-609"
+  },
+  {
+    "code": "MTB-605",
+    "subject": "Vector and Tensor Analysis",
+    "semester": 6,
+    "year": "2022-23",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/VectorTensorAnalysis_SemVI_2022-23.tex",
+    "fileName": "VectorTensorAnalysis_SemVI_2022-23.tex",
+    "nepCode": "MATHJ61",
+    "oldCode": "MTB-605"
   },
   {
     "code": "BSCU7A",
@@ -1189,39 +2102,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BP-Anc-I"
   },
   {
-    "code": "PHYSICS",
-    "subject": "Ancillary Physics- II",
-    "semester": 2,
-    "year": "2013-14",
-    "department": "Physics",
-    "filePath": "aaa/PHYSICS OUT/PHYSICS_AncillaryPhysics-II_SemIV_2013-14.tex",
-    "fileName": "PHYSICS_AncillaryPhysics-II_SemIV_2013-14.tex",
-    "nepCode": "PHYMN21",
-    "oldCode": "BSC-07A"
-  },
-  {
-    "code": "BSC-07A",
-    "subject": "Ancillary Physics- II",
-    "semester": 2,
-    "year": "2022-23",
-    "department": "Physics",
-    "filePath": "aaa/PHYSICS OUT/BSC-07A_AncillaryPhysics-II_SemIV_2022-23.tex",
-    "fileName": "BSC-07A_AncillaryPhysics-II_SemIV_2022-23.tex",
-    "nepCode": "PHYMN21",
-    "oldCode": "BSC-07A"
-  },
-  {
-    "code": "BSC-07A",
-    "subject": "Ancillary Physics- II",
-    "semester": 2,
-    "year": "2023-24",
-    "department": "Physics",
-    "filePath": "aaa/PHYSICS OUT/BSC-07A_AncillaryPhysics-II_SemIV_2023-24.tex",
-    "fileName": "BSC-07A_AncillaryPhysics-II_SemIV_2023-24.tex",
-    "nepCode": "PHYMN21",
-    "oldCode": "BSC-07A"
-  },
-  {
     "code": "BPT-201",
     "subject": "Thermal Physics",
     "semester": 2,
@@ -1231,39 +2111,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "fileName": "BPT-201_ThermalPhysics_SemII_2013-14.tex",
     "nepCode": "PHYMJ21 / PHYMN21",
     "oldCode": "BPT-201"
-  },
-  {
-    "code": "BPT-504",
-    "subject": "Electronic Devices and Circuits",
-    "semester": 3,
-    "year": "2013-14",
-    "department": "Physics",
-    "filePath": "aaa/PHYSICS OUT/BPT-504_ElectronicDevicesandCircuits_SemV_2013-14.tex",
-    "fileName": "BPT-504_ElectronicDevicesandCircuits_SemV_2013-14.tex",
-    "nepCode": "PHYMJ32",
-    "oldCode": "BPT-504"
-  },
-  {
-    "code": "BPT-504",
-    "subject": "Electronic Devices and Circuits",
-    "semester": 3,
-    "year": "2016-17",
-    "department": "Physics",
-    "filePath": "aaa/PHYSICS OUT/BPT-504_ElectronicDevicesandCircuits_SemV_2016-17.tex",
-    "fileName": "BPT-504_ElectronicDevicesandCircuits_SemV_2016-17.tex",
-    "nepCode": "PHYMJ32",
-    "oldCode": "BPT-504"
-  },
-  {
-    "code": "BPT-504",
-    "subject": "Electronic Devices and Circuits",
-    "semester": 3,
-    "year": "2022-23",
-    "department": "Physics",
-    "filePath": "aaa/PHYSICS OUT/BPT-504_ElectronicDevicesandCircuits_SemV_2022-23.tex",
-    "fileName": "BPT-504_ElectronicDevicesandCircuits_SemV_2022-23.tex",
-    "nepCode": "PHYMJ32",
-    "oldCode": "BPT-504"
   },
   {
     "code": "BPT-301",
@@ -1288,26 +2135,37 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BPT-301"
   },
   {
-    "code": "BPT-505",
-    "subject": "Electromagnetic Theory",
+    "code": "PHYSICS",
+    "subject": "Ancillary Physics- II",
     "semester": 4,
-    "year": "2016-17",
+    "year": "2013-14",
     "department": "Physics",
-    "filePath": "aaa/PHYSICS OUT/BPT-505_ElectromagneticTheory_SemV_2016-17.tex",
-    "fileName": "BPT-505_ElectromagneticTheory_SemV_2016-17.tex",
-    "nepCode": "PHYMJ41 / PHYMN41",
-    "oldCode": "BPT-505"
+    "filePath": "aaa/PHYSICS OUT/PHYSICS_AncillaryPhysics-II_SemIV_2013-14.tex",
+    "fileName": "PHYSICS_AncillaryPhysics-II_SemIV_2013-14.tex",
+    "nepCode": "PHYMN41",
+    "oldCode": "BSC-07A"
   },
   {
-    "code": "BPT-505",
-    "subject": "Electromagnetic Theory",
+    "code": "BSC-07A",
+    "subject": "Ancillary Physics- II",
     "semester": 4,
     "year": "2022-23",
     "department": "Physics",
-    "filePath": "aaa/PHYSICS OUT/BPT-505_ElectromagneticTheory_SemV_2022-23.tex",
-    "fileName": "BPT-505_ElectromagneticTheory_SemV_2022-23.tex",
-    "nepCode": "PHYMJ41 / PHYMN41",
-    "oldCode": "BPT-505"
+    "filePath": "aaa/PHYSICS OUT/BSC-07A_AncillaryPhysics-II_SemIV_2022-23.tex",
+    "fileName": "BSC-07A_AncillaryPhysics-II_SemIV_2022-23.tex",
+    "nepCode": "PHYMN41",
+    "oldCode": "BSC-07A"
+  },
+  {
+    "code": "BSC-07A",
+    "subject": "Ancillary Physics- II",
+    "semester": 4,
+    "year": "2023-24",
+    "department": "Physics",
+    "filePath": "aaa/PHYSICS OUT/BSC-07A_AncillaryPhysics-II_SemIV_2023-24.tex",
+    "fileName": "BSC-07A_AncillaryPhysics-II_SemIV_2023-24.tex",
+    "nepCode": "PHYMN41",
+    "oldCode": "BSC-07A"
   },
   {
     "code": "BPT-401",
@@ -1321,37 +2179,37 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BPT-401"
   },
   {
-    "code": "BPT-501",
-    "subject": "Mathematical Physics",
+    "code": "BPT-401",
+    "subject": "Electronics and Modern Physics",
     "semester": 4,
     "year": "2013-14",
     "department": "Physics",
-    "filePath": "aaa/PHYSICS OUT/BPT-501_MathematicalPhysics_SemV_2013-14.tex",
-    "fileName": "BPT-501_MathematicalPhysics_SemV_2013-14.tex",
-    "nepCode": "PHYMJ42",
-    "oldCode": "BPT-501"
+    "filePath": "aaa/PHYSICS OUT/BPT-401_ElectronicsandModernPhysics_SemIV_2013-14.tex",
+    "fileName": "BPT-401_ElectronicsandModernPhysics_SemIV_2013-14.tex",
+    "nepCode": "PHYMJ61",
+    "oldCode": "BPT-401"
   },
   {
-    "code": "BPT-501",
-    "subject": "Mathematical Physics",
-    "semester": 4,
-    "year": "2016-17",
-    "department": "Physics",
-    "filePath": "aaa/PHYSICS OUT/BPT-501_MathematicalPhysics_SemV_2016-17.tex",
-    "fileName": "BPT-501_MathematicalPhysics_SemV_2016-17.tex",
-    "nepCode": "PHYMJ42",
-    "oldCode": "BPT-501"
-  },
-  {
-    "code": "BPT-501",
-    "subject": "Mathematical Physics",
+    "code": "BPT-401",
+    "subject": "Electronics and Modern Physics",
     "semester": 4,
     "year": "2022-23",
     "department": "Physics",
-    "filePath": "aaa/PHYSICS OUT/BPT-501_MathematicalPhysics_SemV_2022-23.tex",
-    "fileName": "BPT-501_MathematicalPhysics_SemV_2022-23.tex",
-    "nepCode": "PHYMJ42",
-    "oldCode": "BPT-501"
+    "filePath": "aaa/PHYSICS OUT/BPT-401_ElectronicsandModernPhysics_SemIV_2022-23.tex",
+    "fileName": "BPT-401_ElectronicsandModernPhysics_SemIV_2022-23.tex",
+    "nepCode": "PHYMJ61",
+    "oldCode": "BPT-401"
+  },
+  {
+    "code": "BPT-401",
+    "subject": "Electronics and Modern Physics",
+    "semester": 4,
+    "year": "2023-24",
+    "department": "Physics",
+    "filePath": "aaa/PHYSICS OUT/BPT-401_ElectronicsandModernPhysics_SemIV_2023-24.tex",
+    "fileName": "BPT-401_ElectronicsandModernPhysics_SemIV_2023-24.tex",
+    "nepCode": "PHYMJ61",
+    "oldCode": "BPT-401"
   },
   {
     "code": "BPT-502",
@@ -1387,6 +2245,94 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BPT-502"
   },
   {
+    "code": "BPT-505",
+    "subject": "Electromagnetic Theory",
+    "semester": 5,
+    "year": "2016-17",
+    "department": "Physics",
+    "filePath": "aaa/PHYSICS OUT/BPT-505_ElectromagneticTheory_SemV_2016-17.tex",
+    "fileName": "BPT-505_ElectromagneticTheory_SemV_2016-17.tex",
+    "nepCode": "PHYMJ41 / PHYMN41",
+    "oldCode": "BPT-505"
+  },
+  {
+    "code": "BPT-505",
+    "subject": "Electromagnetic Theory",
+    "semester": 5,
+    "year": "2022-23",
+    "department": "Physics",
+    "filePath": "aaa/PHYSICS OUT/BPT-505_ElectromagneticTheory_SemV_2022-23.tex",
+    "fileName": "BPT-505_ElectromagneticTheory_SemV_2022-23.tex",
+    "nepCode": "PHYMJ41 / PHYMN41",
+    "oldCode": "BPT-505"
+  },
+  {
+    "code": "BPT-504",
+    "subject": "Electronic Devices and Circuits",
+    "semester": 5,
+    "year": "2013-14",
+    "department": "Physics",
+    "filePath": "aaa/PHYSICS OUT/BPT-504_ElectronicDevicesandCircuits_SemV_2013-14.tex",
+    "fileName": "BPT-504_ElectronicDevicesandCircuits_SemV_2013-14.tex",
+    "nepCode": "PHYMJ32",
+    "oldCode": "BPT-504"
+  },
+  {
+    "code": "BPT-504",
+    "subject": "Electronic Devices and Circuits",
+    "semester": 5,
+    "year": "2016-17",
+    "department": "Physics",
+    "filePath": "aaa/PHYSICS OUT/BPT-504_ElectronicDevicesandCircuits_SemV_2016-17.tex",
+    "fileName": "BPT-504_ElectronicDevicesandCircuits_SemV_2016-17.tex",
+    "nepCode": "PHYMJ32",
+    "oldCode": "BPT-504"
+  },
+  {
+    "code": "BPT-504",
+    "subject": "Electronic Devices and Circuits",
+    "semester": 5,
+    "year": "2022-23",
+    "department": "Physics",
+    "filePath": "aaa/PHYSICS OUT/BPT-504_ElectronicDevicesandCircuits_SemV_2022-23.tex",
+    "fileName": "BPT-504_ElectronicDevicesandCircuits_SemV_2022-23.tex",
+    "nepCode": "PHYMJ32",
+    "oldCode": "BPT-504"
+  },
+  {
+    "code": "BPT-501",
+    "subject": "Mathematical Physics",
+    "semester": 5,
+    "year": "2013-14",
+    "department": "Physics",
+    "filePath": "aaa/PHYSICS OUT/BPT-501_MathematicalPhysics_SemV_2013-14.tex",
+    "fileName": "BPT-501_MathematicalPhysics_SemV_2013-14.tex",
+    "nepCode": "PHYMJ42",
+    "oldCode": "BPT-501"
+  },
+  {
+    "code": "BPT-501",
+    "subject": "Mathematical Physics",
+    "semester": 5,
+    "year": "2016-17",
+    "department": "Physics",
+    "filePath": "aaa/PHYSICS OUT/BPT-501_MathematicalPhysics_SemV_2016-17.tex",
+    "fileName": "BPT-501_MathematicalPhysics_SemV_2016-17.tex",
+    "nepCode": "PHYMJ42",
+    "oldCode": "BPT-501"
+  },
+  {
+    "code": "BPT-501",
+    "subject": "Mathematical Physics",
+    "semester": 5,
+    "year": "2022-23",
+    "department": "Physics",
+    "filePath": "aaa/PHYSICS OUT/BPT-501_MathematicalPhysics_SemV_2022-23.tex",
+    "fileName": "BPT-501_MathematicalPhysics_SemV_2022-23.tex",
+    "nepCode": "PHYMJ42",
+    "oldCode": "BPT-501"
+  },
+  {
     "code": "BPT-503",
     "subject": "Quantum Mechanics",
     "semester": 5,
@@ -1420,28 +2366,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BPT-503"
   },
   {
-    "code": "BPT-601",
-    "subject": "Statistical Mechanics",
-    "semester": 5,
-    "year": "2013-14",
-    "department": "Physics",
-    "filePath": "aaa/PHYSICS OUT/BPT-601_StatisticalMechanics_SemVI_2013-14.tex",
-    "fileName": "BPT-601_StatisticalMechanics_SemVI_2013-14.tex",
-    "nepCode": "PHYMJ53",
-    "oldCode": "BPT-601"
-  },
-  {
-    "code": "BPT-601",
-    "subject": "Statistical Mechanics",
-    "semester": 5,
-    "year": "2022-23",
-    "department": "Physics",
-    "filePath": "aaa/PHYSICS OUT/BPT-601_StatisticalMechanics_SemVI_2022-23.tex",
-    "fileName": "BPT-601_StatisticalMechanics_SemVI_2022-23.tex",
-    "nepCode": "PHYMJ53",
-    "oldCode": "BPT-601"
-  },
-  {
     "code": "BPT-604",
     "subject": "Atomic Physics and Lasers",
     "semester": 6,
@@ -1462,39 +2386,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "fileName": "BPT-604_AtomicPhysicsandLasers_SemVI_2022-23.tex",
     "nepCode": "PHYMJ63",
     "oldCode": "BPT-604"
-  },
-  {
-    "code": "BPT-401",
-    "subject": "Electronics and Modern Physics",
-    "semester": 6,
-    "year": "2013-14",
-    "department": "Physics",
-    "filePath": "aaa/PHYSICS OUT/BPT-401_ElectronicsandModernPhysics_SemIV_2013-14.tex",
-    "fileName": "BPT-401_ElectronicsandModernPhysics_SemIV_2013-14.tex",
-    "nepCode": "PHYMJ61",
-    "oldCode": "BPT-401"
-  },
-  {
-    "code": "BPT-401",
-    "subject": "Electronics and Modern Physics",
-    "semester": 6,
-    "year": "2022-23",
-    "department": "Physics",
-    "filePath": "aaa/PHYSICS OUT/BPT-401_ElectronicsandModernPhysics_SemIV_2022-23.tex",
-    "fileName": "BPT-401_ElectronicsandModernPhysics_SemIV_2022-23.tex",
-    "nepCode": "PHYMJ61",
-    "oldCode": "BPT-401"
-  },
-  {
-    "code": "BPT-401",
-    "subject": "Electronics and Modern Physics",
-    "semester": 6,
-    "year": "2023-24",
-    "department": "Physics",
-    "filePath": "aaa/PHYSICS OUT/BPT-401_ElectronicsandModernPhysics_SemIV_2023-24.tex",
-    "fileName": "BPT-401_ElectronicsandModernPhysics_SemIV_2023-24.tex",
-    "nepCode": "PHYMJ61",
-    "oldCode": "BPT-401"
   },
   {
     "code": "BPE-602",
@@ -1561,6 +2452,28 @@ export const NEP_LATEX_PYQ_DATA = [
     "fileName": "BPT-602_SolidStatePhysics_SemVI_2022-23.tex",
     "nepCode": "PHYMJ62",
     "oldCode": "BPT-602"
+  },
+  {
+    "code": "BPT-601",
+    "subject": "Statistical Mechanics",
+    "semester": 6,
+    "year": "2013-14",
+    "department": "Physics",
+    "filePath": "aaa/PHYSICS OUT/BPT-601_StatisticalMechanics_SemVI_2013-14.tex",
+    "fileName": "BPT-601_StatisticalMechanics_SemVI_2013-14.tex",
+    "nepCode": "PHYMJ53",
+    "oldCode": "BPT-601"
+  },
+  {
+    "code": "BPT-601",
+    "subject": "Statistical Mechanics",
+    "semester": 6,
+    "year": "2022-23",
+    "department": "Physics",
+    "filePath": "aaa/PHYSICS OUT/BPT-601_StatisticalMechanics_SemVI_2022-23.tex",
+    "fileName": "BPT-601_StatisticalMechanics_SemVI_2022-23.tex",
+    "nepCode": "PHYMJ53",
+    "oldCode": "BPT-601"
   },
   {
     "code": "BPE-601",

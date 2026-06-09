@@ -1,0 +1,246 @@
+% BHU PYQ -- Professional Exam Template
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BVCA-205: Skill Training Python -- BHU PYQ}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BVCA-205: Skill Training Python}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\lstset{
+  basicstyle=\small\ttfamily,
+  frame=single,
+  breaklines=true,
+  columns=flexible,
+  keepspaces=true
+}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Voc. Semester II Examination, 2021-22}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper: BVCA-205 --- Skill Training Python}\\[4pt]
+  {\normalsize Time: Three Hours \hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: Attempt all questions. Symbols have their usual meanings.}
+
+\bigskip
+
+Paper : BVCA-205 :
+Skill Training in Python
+
+\bigskip\noindent{\large\bfseries PART --- A}
+\rule{\linewidth}{0.4pt}\smallskip
+
+: {Multiple Choice Type Questions and Short
+| Questions) 10x2=20
+
+\medskip\noindent\textbf{Question 1.} Which of the following is a Python tuple ?
+\begin{parts}
+  \item (1, 2, 3}
+  \item 4
+  \item [1, 2, 3]
+  \item (2, 2, 3)
+\end{parts}
+
+\medskip\noindent\textbf{Question 2.} Which one of the following is not a keyword in
+Python language ?
+\begin{parts}
+  \item Pass ,
+  \item eval :
+  \item essert
+  \item nonlocal |
+\end{parts}
+
+\medskip\noindent\textbf{Question 3.} In object oriented programming, what is the
+: relation of an object to a class ? |
+\begin{parts}
+  \item class is an instance of an object |
+  \item object is a child of a class
+  \item objectis a method ofaclass -\_ |
+  \item object is an instance of a class | )
+\end{parts}
+
+\medskip\noindent\textbf{Question 4.} What will be the output of the following python :
+code snippet ?
+print (type (5/2))
+print (type (5//2)) a
+\begin{parts}
+  \item float and int
+  \item float and float .
+  \item int and int
+  \item int and float
+  2
+  S. What will be the output of the following python
+  code snippet ? ' "
+  print (2**4+(5+5)** (1+1))
+  \item Error
+  \item 28
+  \item 118
+  \item 116
+\end{parts}
+
+\medskip\noindent\textbf{Question 6.} What will be the output of the following Python
+code ? .
+i=l |
+while True:
+f
+to if i\% 3.==0:
+break
+print (i)
+it=1 °
+\begin{parts}
+  \item 123
+  \item Error °
+  * (c} 12
+  \item None of the mentioned s,
+\end{parts}
+
+\medskip\noindent\textbf{Question 7.} Which one of the following has the same |
+precedence level ? |
+\begin{parts}
+  \item Addition and Subtraction —
+  ' (b) Multiplication, Division and Addition
+  \item Multiplication, Division, Addition and .
+  Subtraction
+  \item Addition and Multiplication |
+\end{parts}
+
+\medskip\noindent\textbf{Question 8.} What will be the datatype of the test in the
+. below code snippet ? °
+test = 10
+print (type (test)) |
+test = “testbook"
+print (type(test))
+\begin{parts}
+  \item str and int
+  \item int and int SO :
+  \item str and str
+  \item int and str
+\end{parts}
+
+\medskip\noindent\textbf{Question 9.} What is the meaning >>> in Python Language ? é
+\begin{parts}
+  \item Interpreter is ready to take instruction |
+  \item Compiler is ready to take instruction
+  \item Three right shift |
+  \item Three left shit
+  4
+\end{parts}
+
+\medskip\noindent\textbf{Question 10.} What is output of print (math.pow (3,2)) ?
+\begin{parts}
+  \item 9.0
+  \item None
+  \item 9
+  \item None of the mentioned oo
+  | Part - B
+  (Internal Choice - Either or Type Questions)
+  5x4=20
+\end{parts}
+
+\medskip\noindent\textbf{Question 11.} What are the common built - in data types in
+, Python ?
+: . OR
+. How to read and write into python files ?
+| Explain with the program.
+
+\medskip\noindent\textbf{Question 12.} Explain the concept of overriding the methods .
+with the program. :
+7 OR
+Write a python program to create a lambda
+function that returns a square value of a given
+program. .
+
+\medskip\noindent\textbf{Question 13.} Write a python program to create a static
+method that calculates the square root value
+of a given number.
+: a OR
+| Explain values and items method used in
+dictionary with example.
+
+\medskip\noindent\textbf{Question 14.} What is the difference between Python Arrays,
+- lists and tuple with some proper example ?
+\centerline{\textbf{OR}}
+Write a python program to define student class. |
+and create an object to it. Also, display the !
+students details.
+
+\medskip\noindent\textbf{Question 15.} What are the key features of Python over the |
+. other programming language ?
+OR — |
+Write a function that accept two values and |
+find their sum. | :
+* 6 ,
+7 Part - C
+| (Open choice - 3 out of 4 Questions)
+3x 10=30
+
+\medskip\noindent\textbf{Question 16.} List the operators that python supports. Explain
+the relational and logical operators along with
+their precedence while evaluating an
+expression.
+
+\medskip\noindent\textbf{Question 17.} Write short notes on :
+\begin{parts}
+  \item Debugging
+  \item Exception handling .,
+\end{parts}
+
+\medskip\noindent\textbf{Question 18.} Write a python program to retrieve the elements
+from 2D' array and display them using two
+different loop. .
+
+\medskip\noindent\textbf{Question 19.} Discuss the technical strengths of python. What
+is the difference between list and tuples in
+Python ?
+kK
+v 300
+4
+| F
+4 '
+| ‘
+}
+t
+‘
+‘
+x |
+°
+4 |
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

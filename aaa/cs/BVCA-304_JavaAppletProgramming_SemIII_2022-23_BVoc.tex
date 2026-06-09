@@ -1,0 +1,219 @@
+% BHU PYQ -- Professional Exam Template
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BVCA-304: Java Applet Programming -- BHU PYQ}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BVCA-304: Java Applet Programming}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\lstset{
+  basicstyle=\small\ttfamily,
+  frame=single,
+  breaklines=true,
+  columns=flexible,
+  keepspaces=true
+}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Voc. Semester III Examination, 2022-23}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper: BVCA-304 --- Java Applet Programming}\\[4pt]
+  {\normalsize Time: Three hours \hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: ANSWER ALL SECTIONS, CANDIDATES ARE REQUIRED TO WRITE THEIR ANSWERS IN THEIR}
+
+\bigskip
+
+— REENO057601
+COMPUTER APPLICATION
+BVCA - 304 : Java Applet Programming
+NOTE: ANSWER ALL SECTIONS, CANDIDATES ARE REQUIRED TO WRITE THEIR ANSWERS IN THEIR
+OWN WORDS AS FAR AS PRACTICABLE.
+Section - A |
+Long Answer type questions to be answered in about 750 words each: 15x2=30 Marks
+
+\medskip\noindent\textbf{Question 1.} What are Data types and Variables in Java. Differentiate between static, instance and local variables. Why |
+keywords cannot be used as variables?
+\centerline{\textbf{OR}}
+
+\medskip\noindent\textbf{Question 2.} Discuss about if else Statement and Switch Statement. Write a program to display days of week fora
+number using Switch Statement. (Let us suppose days of week are assigned numbers as Sunday-0, Monday-1, |
+Tuesday-2 and so on. So, if user enters 2 value 4, the output should be Thursday)
+
+\medskip\noindent\textbf{Question 3.} a)What are arrays? Explain its types and also discuss the ways to initialize them.
+\begin{parts}
+  \item Write a program to find the maximum element in an array of 20 integer values. |
+OR
+\end{parts}
+
+\medskip\noindent\textbf{Question 4.} Explain about for, while and do-while loop structures in Java with example. What is the difference
+between entry-controlled loops and exit-controlled loops?
+
+\bigskip\noindent{\large\bfseries SECTION --- B}
+\rule{\linewidth}{0.4pt}\smallskip
+
+Short Answer type questions to be answered in about 550 words each Any Six: 5x6=30 Marks
+
+\medskip\noindent\textbf{Question 1.} How to read data using Scanner class in java? State at least three methods defined in the Scanner class to
+read data.
+
+\medskip\noindent\textbf{Question 2.} What is concatenation of Strings? Write a program to concatenate two strings.
+
+\medskip\noindent\textbf{Question 3.} Differentiate between break and continue statement with example.
+
+\medskip\noindent\textbf{Question 4.} What are the features of Java Programming Language?
+
+\medskip\noindent\textbf{Question 5.} Write a program to check whether the number is prime or not.
+
+\medskip\noindent\textbf{Question 6.} Define JDK and JVM. Why Java is considered as platform independent language?
+
+\medskip\noindent\textbf{Question 7.} What is a Constructor? Explain its types.
+
+\medskip\noindent\textbf{Question 8.} What is an Object and how is it created? Create a Class Student with at least three attributes and create
+two objects of the class Student.
+
+\bigskip\noindent{\large\bfseries SECTION --- C}
+\rule{\linewidth}{0.4pt}\smallskip
+
+Answer the following questions in a word: 10x1 Marks i
+
+\medskip\noindent\textbf{Question 1.} 1) Who invented Java Programming?
+\begin{parts}
+  \item Guido van Rossum
+  \item James Gosling
+  \item Dennis Ritchie
+  \item Bjarne Stroustrup
+  PF:
+  (2) 5,
+  \begin{parts}
+    \item \_\_\_ is used to find and fix bugs in the Java programs. | :
+  \end{parts}
+  \item JVM .
+  \item JRE
+  \item JDK |
+  \item JDB
+  \begin{parts}
+    \item What does an Eclipse IDE allow? '
+  \end{parts}
+  \item Editing the program
+  \item Compiling the program '
+  \item Both Editing and Compiling the program |
+  \item Editing, Building, Debugging and Compiling the program.
+  \begin{parts}
+    \item SDK stands for\_\_
+  \end{parts}
+  \item Software Design Kit
+  \item Serial Development Kit
+  \item Software Development Kit
+  \item Serial Design Kit
+  \begin{parts}
+    \item Which of the following is not an OOPS concept in Java?
+  \end{parts}
+  \item Polymorphism
+  \item Inheritance |
+  \item Compilation i
+  \item Encapsulation
+  \begin{parts}
+    \item What will be the output of the following Java program? {
+    Classvariable\_scope :
+    {
+  \end{parts}
+\begin{lstlisting}[language=C]
+publicstaticvoidmain(String ares|]}) |
+{
+int x; i
+x=5; |
+{
+int y = 6;
+System.out.print(x + ““ +y);
+}
+System.out.printin(x + “” + y); |
+}
+}
+\end{lstlisting}
+  \item Compilation error
+  \item Runtime error :
+  \item 5656
+  \item 565
+  amt)
+  a rr SR
+  , @)
+  \begin{parts}
+    \item What will be the output of the following Java program?
+    Class output
+    {
+  \end{parts}
+\begin{lstlisting}[language=C]
+publicstaticvoidmain(String args[])
+{
+StringBuffer s1 = newStringBuffer(“Quiz”);
+StringBuffer s2 = s1.reverse(); ‘
+System.out.printIn(s2); ;
+}
+} j
+\end{lstlisting}
+  \item QuizziuQ
+  \item ziuQQuiz
+  \item Quiz
+  \item ziuQ
+  \begin{parts}
+    \item In which memory a String is stored, when we create a string using new operator?
+  \end{parts}
+  \item Stack
+  \item String memory
+  \item Heap memory
+  \item Random storage space
+  \begin{parts}
+    \item Which keyword is used for accessing the features of a package?
+  \end{parts}
+  \item package
+  \item import
+  \item extends
+  \item export .
+  \begin{parts}
+    \item Which of these values is returned by read{} method is end of file (EOF) is encountered?
+  \end{parts}
+  \item 0 |
+  \item 1 : |
+  \item -1 i
+  \item Null ‘
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

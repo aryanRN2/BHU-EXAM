@@ -1,0 +1,117 @@
+% BHU PYQ -- Professional Exam Template
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={CSB-602: Data and File Structures -- BHU PYQ}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{CSB-602: Data and File Structures}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc.\ (Hons.) Semester VI Examination, 2013--14}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper: CSB-602 --- Data and File Structures}\\[4pt]
+  {\normalsize Time: Three Hours \hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: Answer \textbf{five} questions in all, including Question~1 which is compulsory. Figures on the right-hand side indicate marks.}
+
+\bigskip
+
+\noindent\textbf{Question 1.} Answer \textbf{all} parts:\pts{$3\times6=18$}
+\begin{parts}
+  \item Define the terms: Abstract Data Types (ADT) and Data Structure.
+  \item State the advantages of using postfix notation over infix notation.
+  \item Define Double-ended Queue (Deque).
+  \item What is a Binary Heap? Distinguish between Max-Heap and Min-Heap.
+  \item List the basic operations carried out on a linked list.
+  \item Briefly discuss the following terms: Tree, Degree of a node, and Height of a tree.
+  \item What do you mean by collision in hashing? Briefly explain any two collision resolution methods.
+\end{parts}
+
+\bigskip
+
+\noindent\textbf{Question 2.}\pts{$2+5+6=13$}
+\begin{parts}
+  \item Define ADT Array.
+  \item What is a sparse matrix? Give a structure for its efficient representation.
+  \item Give an algorithm for addition of two sparse matrices stored in the representation you proposed above.
+\end{parts}
+
+\bigskip
+
+\noindent\textbf{Question 3.}\pts{$2+6+5=13$}
+\begin{parts}
+  \item What are the two important criteria to be satisfied by any recursive function?
+  \item Explain the implementation of a stack using an array with algorithms for all operations on a stack.
+  \item Write an algorithm to convert an infix expression to a postfix expression, and explain it through an example.
+\end{parts}
+
+\bigskip
+
+\noindent\textbf{Question 4.}\pts{$3+10=13$}
+\begin{parts}
+  \item What do you mean by order of growth in reference to time complexity of an algorithm?
+  \item Explain the quick sort algorithm with an example. Also mention any three strategies for choosing a pivot element.
+\end{parts}
+
+\bigskip
+
+\noindent\textbf{Question 5.}\pts{$4+9=13$}
+\begin{parts}
+  \item Define full binary tree and complete binary tree with an example for each.
+  \item Explain binary tree traversals (in-order, pre-order, post-order) with recursive algorithms.
+\end{parts}
+
+\bigskip
+
+\noindent\textbf{Question 6.}\pts{$7+6=13$}
+\begin{parts}
+  \item Explain Breadth First Search (BFS) traversal on a graph with an example.
+  \item Write an algorithm for adding two polynomials using a linked list.
+\end{parts}
+
+\bigskip
+
+\noindent\textbf{Question 7.} Write notes on any \textbf{two} of the following:\pts{$6.5\times2=13$}
+\begin{parts}
+  \item Hashing
+  \item Binary Search Algorithm (Iterative and Recursive)
+  \item Sequential and Index-Sequential file organization techniques
+  \item External sorting methods with an example
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+\end{document}

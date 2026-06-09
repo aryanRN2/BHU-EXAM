@@ -1,0 +1,116 @@
+% BHU PYQ -- Professional Exam Template
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BCS-504A: System Analysis Design -- BHU PYQ}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BCS-504A: System Analysis Design}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\lstset{
+  basicstyle=\small\ttfamily,
+  frame=single,
+  breaklines=true,
+  columns=flexible,
+  keepspaces=true
+}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) Semester V Examination, 2016-17}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper: BCS-504A --- System Analysis Design}\\[4pt]
+  {\normalsize Time: Three hours \hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: ANSWER ANY FIVE QUESTIONS AND THE FIGURES IN THE RIGHT HAND MARGIN INDICATE:}
+
+\bigskip
+
+\medskip\noindent\textbf{Question 1.}
+\begin{parts}
+  \item Write the IEEE definitions of the following terms in connection with software: \pts{6}
+  \begin{parts}
+    \item Error
+    \item Fault
+    \item Failure
+  \end{parts}
+  \item Design an ER diagram for a Library Management System. Specify all constraints that should hold on the database. Make sure that it has at least three entity types, two relationship types, a weak entity type, a superclass/subclass relationship, and an $n$-ary ($n > 2$) relationship type. \pts{8}
+\end{parts}
+
+\medskip\noindent\textbf{Question 2.}
+\begin{parts}
+  \item Describe software crisis and the goals of software engineering. \pts{7}
+  \item Write four important attributes of software products and differentiate them from hardware products. \pts{7}
+\end{parts}
+
+\medskip\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Compare prototyping and iterative software development process models by listing their strengths and weaknesses. \pts{7}
+  \item Describe at least five important characteristics of an SRS. \pts{7}
+\end{parts}
+
+\medskip\noindent\textbf{Question 4.}
+\begin{parts}
+  \item What is the role of problem analysis in software development? Explain the use of Data Flow Diagrams in problem analysis with an example. \pts{7}
+  \item What are use cases? Where are these use cases used during the software development process? Explain through an example. \pts{7}
+\end{parts}
+
+\medskip\noindent\textbf{Question 5.}
+\begin{parts}
+  \item What do you understand by a module? What are the modularization criteria used for function-oriented design to produce modular designs? \pts{7}
+  \item Explain all four major steps of structured design methodology using one example. \pts{7}
+\end{parts}
+
+\medskip\noindent\textbf{Question 6.}
+\begin{parts}
+  \item Write the purpose of the following diagrams of UML used in object-oriented design: \pts{6}
+  \begin{parts}
+    \item Class diagram
+    \item Interaction diagram
+    \item Activity diagram
+  \end{parts}
+  \item What do you understand by test cases and test criteria? Write the differences between black-box and white-box testing. \pts{8}
+\end{parts}
+
+\medskip\noindent\textbf{Question 7.} Write short notes on the following: \pts{14}
+\begin{parts}
+  \item Test oracle
+  \item Software maintenance
+  \item Data dictionary
+  \item Open-closed principle
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+\end{document}

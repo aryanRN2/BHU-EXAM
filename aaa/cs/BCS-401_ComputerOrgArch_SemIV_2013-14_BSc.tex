@@ -1,0 +1,143 @@
+% BHU PYQ -- Professional Exam Template
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BCS-401: Computer Org & Arch -- BHU PYQ}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BCS-401: Computer Org & Arch}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\lstset{
+  basicstyle=\small\ttfamily,
+  frame=single,
+  breaklines=true,
+  columns=flexible,
+  keepspaces=true
+}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) Semester IV Examination, 2013-14}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper: BCS-401 --- Computer Org & Arch}\\[4pt]
+  {\normalsize Time: Three hours \hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: ANSWER ALL QUESTIONS.}
+
+\bigskip
+
+ROU NOs esesesnsssaseneacenoereass
+NOTE : ANSWER ALL QUESTIONS.
+
+\medskip\noindent\textbf{Question 1.} Answer in brief any four parts from the foliowing : 4x3=14
+\begin{parts}
+  \item What are the functions of program counter/ instruction pointer and stack pcinter in
+  any CPU? Explain with suitable examples.
+  \item What are meant by static and dynamic RAM and what are the advantages of one over
+  the other?
+  \item What is meant by DMA and how is it realized by means of the DMA interface and
+  CPU?
+  \item What is meant by a procedure (subroutine)? Differentiate between (i) subroutine and
+  interrupt subroutine (ii) NEAR and FAR procedures.
+  \item What is the difference between instructions and directives? Explain with example the
+  functions performed by the ASSUME and DW directives.
+\end{parts}
+
+\medskip\noindent\textbf{Question 2.} a) What is meant by the addressing modes of any CPU? Explain with suitabie examples
+the addressing modes of 8086 CPU. 5
+\centerline{\textbf{OR}}
+What are the functions of ALU in any CPU? Explain the construction and working of
+one bit (stage) ALU. How will you design the ALU of 8 bit CPU using one bit ALU's?
+te)
+\begin{parts}
+  \item What is meant by flag (status) register in any CPU? Differentiate between the control
+  and conditional flags in the flag register. Find the status of different conditional flags
+  of after the performance of the addition of hexadecimal numbers 5439H and 456AH
+  by the ALU of 8086, 5
+  \item Mention the difference between hardwired and microprogrammed Control] Unit. 4
+\end{parts}
+
+\medskip\noindent\textbf{Question 3.} a) What is meant by memory hierarchy and what is its need in a large computer systern?
+Explain in brief the cache memory organization and its advantages. 3
+\begin{parts}
+  \item What is meant by virtual memory and what is its need? Differentiate between the
+  logical memory address and physical memory address. Explain the method of
+  physical memory address calculation in protected virtual addressing mode of a CPU
+  with 20 address lines and 16 bit segment registers. 5
+  \item Differentiate between mask ROM, PROM, EPROM, EEPROM and flash memory,
+  Mention in brief different applications of ROM, 4
+  2
+\end{parts}
+
+\medskip\noindent\textbf{Question 4.} a) Whatis meant by interrupt? Name and explain in brief the different types of
+interrupts that are possible in any computer system. What is meant by priority of
+interrupts? Name the different methods of assigning priority to interrupts and explain
+any one of these methods. 5
+\centerline{\textbf{OR}}
+What is the need of I/O interface in computer organization? Write in brief about
+synchronous and asynchronous serial data communication. Explain the need of
+MODEM for computer data communication to long distances. 5
+\begin{parts}
+  \item Differentiate between simple I/O, strobed I/O and handshaking modes of 1/O data
+  transfer. Explain in brief the different modes of operation of programmable peripheral
+  interface 8255. Find the control word that must be written in the control register of
+  8255 for using it in simple 1/O mode with Port A as input Port B as output Port Cupper
+  as output and Port Ciower as input. 5
+  c} What is meant by 1/O processor? Explain in brief about its use in computer
+  organization. 4
+\end{parts}
+
+\medskip\noindent\textbf{Question 5.} a) Explain the operations performed on executing the following instructions : 5
+\begin{parts}
+  \item MOV AL, [BX]
+  \begin{parts}
+    \item IDIVCX
+    \item TEST DX, [BP] [D1]
+    \item ROR AX, CL and
+    \item JBE NEXT where NEXT is a label and [CL] = 04
+  \end{parts}
+  \item Write an assembly language program to multiply the unsigned hexadecimal numbers
+  2A and 3C stored as data somewhere in memory. The product is also to be stored in
+  memory. Comments should follow each statement to explain the program. 5
+  \item | What is meant by string manipulation instructions and where are these used? Explain
+  the functions performed by the instructions CMPSW and SCASB. 4
+\end{parts}
+\centerline{\textbf{OR}}
+What is meant by a MACRO and how is it defined and called? Explain with suitable
+example the meaning of MACRO expansion. 4
+2 aE
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+\end{document}

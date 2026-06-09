@@ -134,7 +134,7 @@
 <nav class="fixed top-0 left-0 right-0 z-50 bg-background-warm/80 backdrop-blur-xl border-b border-border-subtle shadow-sm h-16 md:h-20 w-full flex items-center">
     <div class="max-w-container-max mx-auto px-4 md:px-padding-edge flex justify-between items-center w-full">
         <div class="flex items-center gap-3 md:gap-4">
-            <button onclick="window.location.href='subjects.html'" class="w-8 h-8 md:w-10 md:h-10 rounded-full border border-border-subtle hover:bg-surface-panel transition-all flex items-center justify-center text-secondary hover:text-primary shrink-0 mr-1 md:mr-2" title="Back to Subjects">
+            <button onclick="goBack()" class="w-8 h-8 md:w-10 md:h-10 rounded-full border border-border-subtle hover:bg-surface-panel transition-all flex items-center justify-center text-secondary hover:text-primary shrink-0 mr-1 md:mr-2" title="Back">
                 <span class="material-symbols-outlined text-base md:text-lg">arrow_back</span>
             </button>
             <img src="images/logo.png" alt="BHU Logo" class="h-6 md:h-10 w-auto"/>
@@ -197,9 +197,9 @@
         </div>
 
         <!-- Ad / Info Sidebar -->
-        <aside class="w-full lg:w-80 flex flex-col gap-6 shrink-0">
+        <aside class="hidden w-full lg:w-80 flex flex-col gap-6 shrink-0">
             <!-- Details card -->
-            <div class="bg-white rounded-2xl border border-border-subtle p-6 shadow-sm space-y-4">
+            <div class="hidden bg-white rounded-2xl border border-border-subtle p-6 shadow-sm space-y-4">
                 <h3 class="font-bold text-sm text-primary uppercase tracking-wider border-b border-border-subtle pb-2">Document Details</h3>
                 <div class="space-y-3 text-xs">
                     <div>
@@ -218,7 +218,7 @@
             </div>
 
             <!-- ADVERTISEMENT SLOT (Targeted for Google Ads / AdSense in the future) -->
-            <div class="bg-white rounded-2xl border border-border-subtle p-6 shadow-sm flex-grow flex flex-col justify-between min-h-[300px]">
+            <div class="hidden bg-white rounded-2xl border border-border-subtle p-6 shadow-sm flex-grow flex flex-col justify-between min-h-[300px]">
                 <div class="space-y-2">
                     <h3 class="font-bold text-xs text-secondary uppercase tracking-[0.15em] border-b border-border-subtle pb-2 flex items-center justify-between">
                         <span>Advertisement</span>
@@ -250,12 +250,24 @@
             <p class="text-xs text-secondary">© 2026 Banaras Hindu University Mock Portal. Under guidance of Academic Team.</p>
         </div>
         <div class="flex gap-6">
-            <a class="text-xs text-secondary hover:text-primary underline" href="subjects.html">Exit Viewer</a>
+            <a class="text-xs text-secondary hover:text-primary underline cursor-pointer" onclick="goBack()">Exit Viewer</a>
         </div>
     </div>
 </footer>
 
 <script type="module">
+    window.goBack = function() {
+        if (document.referrer && document.referrer.includes(window.location.hostname)) {
+            if (window.history.length > 1) {
+                window.history.back();
+            } else {
+                window.location.href = document.referrer;
+            }
+        } else {
+            window.location.href = 'subjects.html';
+        }
+    };
+
     let currentMode = 'native'; // 'native' or 'pdf'
     let hasLatex = false;
 

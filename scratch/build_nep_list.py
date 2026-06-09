@@ -121,6 +121,67 @@ def get_code_mapping(code, filename, dept):
             return "PHYMN41", "BSC-07A"
         return "N/A", code
         
+    elif dept == "Computer Science":
+        if code_upper in ["CS-101", "BSC-044"] or "CS-101" in code_upper:
+            return "CSMJ11 / CSMN11", "CS-101"
+        elif "CS-102" in code_upper:
+            if "DIGITAL" in filename_upper:
+                return "CSMJ21 / CSMN21", "CS-102"
+            elif "OBJECT" in filename_upper or "OOP" in filename_upper:
+                return "CSMJ22 / CSMN22", "CS-102"
+            return "CSMJ21 / CSMN21", "CS-102"
+        elif "BCS-201" in code_upper:
+            return "CSMJ21 / CSMN21", "BCS-201"
+        elif "BCS-203" in code_upper:
+            return "CSMD11", "BCS-203"
+        elif "CS-103" in code_upper or "BCS-301" in code_upper or "CSB-401" in code_upper:
+            return "CSMJ31 / CSMN31", "CS-103"
+        elif "CS-104" in code_upper or "BCS-401" in code_upper:
+            return "CSMJ41 / CSMN41", "CS-104"
+        elif "CS-105" in code_upper:
+            if "DISCRETE" in filename_upper:
+                return "CSMJ42 / CSMN42", "CS-105"
+            elif "COMPUTER" in filename_upper:
+                return "CSMJ41 / CSMN41", "CS-105"
+            return "CSMJ42 / CSMN42", "CS-105"
+        elif "BCS-403" in code_upper:
+            return "CSMD11", "BCS-403"
+        elif "CS-106" in code_upper or "BCS-502" in code_upper or "CSB-504" in code_upper:
+            return "CSMJ51", "CS-106"
+        elif "CS-107" in code_upper or "CSB-601" in code_upper:
+            return "CSMJ52", "CS-107"
+        elif "CS-108" in code_upper or "CSB-602" in code_upper:
+            return "CSMJ53", "CS-108"
+        elif "CS-109" in code_upper or "BCS-501" in code_upper or "CSB-502" in code_upper:
+            return "CSMJ61", "CS-109"
+        elif "BCS-503" in code_upper or "CSB-503" in code_upper:
+            return "CSMJ42 / CSMN42", "BCS-503"
+        elif "BCS-504A" in code_upper or "CSB-603A" in code_upper:
+            return "CSMJ54", "BCS-504A"
+        elif "CSB-501" in code_upper:
+            return "CSMJ22 / CSMN22", "CSB-501"
+        elif "CSB-604C" in code_upper:
+            return "CSMJ64", "CSB-604C"
+        elif "CS-403" in code_upper:
+            return "CSMD11", "CS-403"
+        elif code_upper.startswith("BVCA-"):
+            digits = re.findall(r'\d+', code_upper)
+            if digits:
+                num = digits[0]
+                sem = num[0]
+                paper = num[-1]
+                return f"BVCA{sem}{paper}", code
+            return "BVCA11", code
+        elif code_upper.startswith("GEN-"):
+            digits = re.findall(r'\d+', code_upper)
+            if digits:
+                num = digits[0]
+                sem = num[0]
+                paper = num[-1]
+                return f"GEN{sem}{paper}", code
+            return "GEN11", code
+        return "N/A", code
+        
     return "N/A", code
 
 def get_math_code_mapping(code):
@@ -329,6 +390,44 @@ def scan_tex_files():
                     "nepCode": nep_code,
                     "oldCode": old_code
                 })
+
+    # 4. Computer Science tex files
+    cs_dir = "aaa/cs"
+    if os.path.exists(cs_dir):
+        for f in os.listdir(cs_dir):
+            if f.endswith(".tex") and not f.startswith("test_"):
+                filepath = os.path.join(cs_dir, f)
+                name_without_ext = f[:-4]
+                parts = name_without_ext.split("_")
+                if len(parts) >= 4 or f.startswith("CS-101_BCS-101"):
+                    if f.startswith("CS-101_BCS-101"):
+                        code = "CS-101"
+                        subject_raw = "ProblemSolvingC"
+                        sem_raw = "SemI"
+                        year = "2016-17"
+                    else:
+                        code = parts[0]
+                        subject_raw = parts[1]
+                        sem_raw = parts[2]
+                        year = parts[3]
+                    
+                    subject = camel_case_split(subject_raw)
+                    semester = parse_semester(sem_raw)
+                    nep_code, old_code = get_code_mapping(code, f, "Computer Science")
+                    
+                    data.append({
+                        "code": code,
+                        "subject": subject,
+                        "semester": semester,
+                        "year": year,
+                        "department": "Computer Science",
+                        "filePath": filepath,
+                        "fileName": f,
+                        "nepCode": nep_code,
+                        "oldCode": old_code
+                    })
+                else:
+                    print(f"Skipping Computer Science file due to pattern mismatch: {f}")
 
     # Sort data: department, semester, subject, year
     data.sort(key=lambda x: (x["department"], x["semester"], x["subject"], x["year"]))

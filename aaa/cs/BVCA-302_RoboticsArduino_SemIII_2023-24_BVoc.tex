@@ -1,0 +1,199 @@
+% BHU PYQ -- Professional Exam Template
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BVCA-302: Robotics Arduino -- BHU PYQ}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BVCA-302: Robotics Arduino}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\lstset{
+  basicstyle=\small\ttfamily,
+  frame=single,
+  breaklines=true,
+  columns=flexible,
+  keepspaces=true
+}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Voc. Semester III Examination, 2023-24}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper: BVCA-302 --- Robotics Arduino}\\[4pt]
+  {\normalsize Time: Three hours \hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: | 1. Attempt any two out of four questions in Section A.}
+
+\bigskip
+
+- BGI INO. cia dhatjecssissosncoeditarcenrtpotterse
+BVCA-302 : Robotics with Arduino
+ee ee
+| Instructions:
+| 1. Attempt any two out of four questions in Section A. (2*12=24 Marks)
+
+\medskip\noindent\textbf{Question 2.} Attempt any six out of nine questions in Section B (6*6=36 Marks)
+
+\medskip\noindent\textbf{Question 3.} Attempt all 10 questions in Section C (1*10=10 Marks )
+
+\bigskip\noindent{\large\bfseries SECTION --- A}
+\rule{\linewidth}{0.4pt}\smallskip
+
+(Long Answer Type questions to be answered in about 500 words each)
+
+\medskip\noindent\textbf{Question 1.} Explain the fundamental components and functions of both hydraulic and
+| pneumatic systems used in robotics. Provide a detailed comparison between the
+two systems, highlighting their similarities and differences. Additionally, discuss
+- the advantages and limitations of each system in the context of robotics
+applications. :
+| 2) Discuss the components and operation of a machine vision system used in
+| robotics. Explain the role of lighting, cameras, frame grabbers, and computer
+= ‘ processors in capturing and processing visual data for robot guidance and control.
+| Provide examples of machine vision applications in industrial automation and
+| robotics.
+‘ 3) Explain the basic components of a hydraulic system and their functions. Provide
+examples of applications where hydraulic systems are commonly used.
+| 4) Describe the operation of a pneumatic system, including its basic components
+and their functions. Discuss how a compressor generates compressed air, and
+how pneumatic actuators convert this energy into mechanical power.
+| : SECTION-B
+| 5. Answer any six of the following in about 200 words each:
+: (a) Define the term "robotics" and explain its significance in modern industrial
+automation. Provide examples of industries where robotics is commonly utilized,
+highlighting its impact on productivity and quality improvement.
+\begin{parts}
+  \item Explain the concept of degrees of freedom in industrial robots. Describe how
+  degrees of freedom are related to the robot's ability to perform various tasks and
+  navigate its work envelope efficiently.
+  \item Explain the historical development of robotics from its origins in science fiction
+  to its modern applications in industries. Highlight key milestones and
+  technological advancements that have shaped the field.
+  \item Discuss the advantages and disadvantages of different drive systems used in .
+  industrial robots, including hydraulic drive, electric drive, and pneumatic drive.
+  Provide examples of scenarios where each drive system is preferred based on
+  performance requirements.
+  \item Define actuators and sensors in the context of robotics. Explain their respective
+  roles in robotic systems and provide examples of each. Discuss how actuators
+  and sensors work together to enable robotic motion and perception in industrial
+  and non-industrial applications.
+  \item Discuss the importance of precision in robot movement and its components:
+  P.T. 0.
+  spatial resolution, accuracy, and repeatability.
+  \item (c) Differentiate between fixed automation, programmable automation, and flexible
+  automation. Provide examples of industries where each type of automation is
+  commonly employed, and discuss their respective advantages and limitations. |
+  \item Explain the concept of ROS (Robot Operating System) and its significance in
+  robotics development.
+  \item Describe the various types of motors used in robotics, including DC motors, AC
+  motors, stepper motors, and servomotors.
+\end{parts}
+
+\bigskip\noindent{\large\bfseries SECTION --- C}
+\rule{\linewidth}{0.4pt}\smallskip
+
+\medskip\noindent\textbf{Question 6.} Answer the following objective type questions:
+\begin{parts}
+  \item In robot motion planning, what is the purpose of the "configuration space"?
+  \item The physical space occupied by the robot
+  \item The space of all possible joint configurations of the robot
+  \item The workspace where the robot performs tasks
+  \item The space-time continuum in which the robot operates
+  \begin{parts}
+    \item What is the role of the "end effector" in a robot manipulator?
+    ‘ a) To control the robot's motion
+  \end{parts}
+  \item To provide feedback to the operator
+  \item To act as the hand or tool of the robot
+  \item To process sensor data
+  \begin{parts}
+    \item Which type of robot programming involves specifying the desired end-effector
+    positions and orientations without detailing the intermediate joint motions?
+  \end{parts}
+  \item Motion Planning
+  \_ b) Trajectory Planning
+  \item Inverse Kinematics
+  \item Forward Kinematics
+  \begin{parts}
+    \item What does the term "ROS package" refer to in the Robot Operating System
+    (ROS)?
+  \end{parts}
+  \item A physical package containing robot components
+  \item A collection of software libraries, tools, and configuration files
+  \item The payload carried by a robot
+  \item A unit of measurement for robot speed :
+  (Vv) Which concept in robotics involves a robot's ability to recover from errors or
+  unexpected events without human intervention?
+  \item Fault Tolerance
+  \item Redundancy
+  \item Closed-Loop Control
+  \item Safety Interlock
+  \begin{parts}
+    \item In the context of swarm robotics, what does the term "stigmergy" refer to?
+  \end{parts}
+  \item Communication through direct signalling
+  \item Cooperation based on the use of pheromones or environmental cues
+  \item Hierarchical control structure
+  \item Swarm navigation using GPS
+  | (vii) What is the origin of the term "robot"?
+  . wine Count - - @
+  >)
+  \item Greek
+  \item Czechoslovakia
+  \item German
+  \begin{parts}
+    \item When did the modern technology of industrial robotics begin?
+  \end{parts}
+  \item 1920
+  \item 1960
+  \item 1980
+  \item 2000
+  \begin{parts}
+    \item How is robotics defined as industrial automation?
+  \end{parts}
+  \item A subset of automation
+  \item Unrelated to automation
+  \item Only involves computer programming
+  \begin{parts}
+    \item What is another name for the Cartesian coordinate configurable robot?
+  \end{parts}
+  \item Spherical robot
+   b) XYZ robot :
+  \item Rectangular robot
+  \item Hyperbolic robot
+  = RRR EERE KKK KER EE
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+\end{document}

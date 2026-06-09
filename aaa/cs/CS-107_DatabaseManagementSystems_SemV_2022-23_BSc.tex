@@ -1,0 +1,137 @@
+% BHU PYQ -- Professional Exam Template
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={CS-107: Database Management Systems -- BHU PYQ}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{CS-107: Database Management Systems}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\lstset{
+  basicstyle=\small\ttfamily,
+  frame=single,
+  breaklines=true,
+  columns=flexible,
+  keepspaces=true
+}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) Semester V Examination, 2022-23}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper: CS-107 --- Database Management Systems}\\[4pt]
+  {\normalsize Time: Three hours \hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: Answer any Five questions. Each question carrying 14 marks.}
+
+\bigskip
+
+\medskip\noindent\textbf{Question 1.} A. Describe the three-schema architecture. Why do we need mappings between schema levels?\pts{6}
+\begin{parts}
+  \item Discuss the main characteristics of the database approach and how it differs from traditional file systems.
+\end{parts}
+
+\medskip\noindent\textbf{Question 2.} A. Explain the differences among an entity, an entity type, and an entity set.\pts{6}
+\begin{parts}
+  \item Consider the following set of requirements for a university database that is used to keep track of students' transcripts.\pts{8}
+  
+  “The university keeps track of each student's name, student number, social security number, current address and phone, permanent address and phones, birthdate, sex, class (freshman, sophomore, $\dots$, graduate), major department, minor department (if any), and degree program (B.A., B.S., $\dots$, Ph.D.). Some user applications need to refer to the city, state, and zip code of the student's permanent address and to the student's last name. Both social security number and student number have unique values for each student.
+  
+  \textbullet\ Each department is described by a name, department code, office number, office phone, and college. Both name and code have unique values for each department.
+  
+  \textbullet\ Each course has a course name, description, course number, number of semester hours, level, and offering department. The value of course number is unique for each course.
+  
+  \textbullet\ Each section has an instructor, semester, year, course, and section number. The section number distinguishes sections of the same course that are taught during the same semester/year; its values are 1, 2, 3, $\dots$, up to the number of sections taught during each semester.
+  
+  \textbullet\ A grade report has a student, section, letter grade, and numeric grade (0, 1, 2, 3, or 4).
+  
+  Design an ER schema for this application and draw an ER diagram for that schema. Specify key attributes of each entity type and structural constraints on each relationship type. Note any unspecified requirements and make appropriate assumptions to make the specification complete.”
+\end{parts}
+
+\medskip\noindent\textbf{Question 3.} A. Discuss the entity integrity and referential integrity constraints. Why is each considered important?\pts{6}
+\begin{parts}
+  \item Consider the following six relations for an order processing database application in a company:\pts{8}
+  \begin{center}
+    \begin{tabular}{l}
+      CUSTOMER (\underline{Cust\#}, Cname, City) \\
+      ORDER (\underline{Order\#}, Odate, Cust\#, Ord\_Amt) \\
+      ORDER\_ITEM (\underline{Order\#}, \underline{Item\#}, Qty) \\
+      ITEM (\underline{Item\#}, Unit\_price) \\
+      SHIPMENT (\underline{Order\#}, \underline{Warehouse\#}, Ship\_date) \\
+      WAREHOUSE (\underline{Warehouse\#}, City)
+    \end{tabular}
+  \end{center}
+  Here, \text{Ord\_Amt} refers to the total dollar amount of an order; \text{Odate} is the date the order was placed; \text{Ship\_date} is the date an order is shipped from the warehouse. Assume that an order can be shipped from several warehouses. Specify the foreign keys for the above schema, stating any assumptions you make. Then specify the following queries in relational algebra:
+  \begin{parts}
+    \item List the \text{Order\#} and \text{Ship\_date} for all orders shipped from Warehouse number `W2'.
+    \item List the Warehouse information from which the Customer named `Jose Lopez' was supplied his orders. Produce a listing: \text{Order\#}, \text{Warehouse\#}.
+    \item Produce a listing: \text{CUSTNAME}, \text{\#OFORDERS}, \text{AVG\_ORDER\_AMT}, where the middle column is the total number of orders by the customer and the last column is the average order amount for that customer.
+    \item List the orders that were not shipped within 30 days of ordering.
+  \end{parts}
+\end{parts}
+\medskip\noindent\textbf{Question 4.} A. What is Join operation in SQL? Discuss each type of Join operation with an example.\pts{6}
+\begin{parts}
+  \item Consider the following employee database, where the primary keys are underlined. Give an expression in SQL for each of the following queries.\pts{8}
+  \begin{center}
+    \begin{tabular}{l}
+      Employee (\underline{employee-name}, street, city) \\
+      Works (\underline{employee-name}, company-name, salary) \\
+      Company (\underline{company-name}, city) \\
+      Manages (\underline{employee-name}, manager-name)
+    \end{tabular}
+  \end{center}
+  \begin{parts}
+    \item Find the names of all employees who work for First Bank Corporation.
+    \item Find the names and cities of residence of all employees who work for First Bank Corporation.
+    \item Find the names, street addresses, and cities of residence of all employees who work for First Bank Corporation and earn more than \$10,000.
+    \item Find all employees in the database who live in the same cities as the companies for which they work.
+  \end{parts}
+\end{parts}
+
+\medskip\noindent\textbf{Question 5.} A. Compute the closure of the set of functional dependencies $F = \{A \to BC, CD \to E, B \to D, E \to A\}$ for relation schema $R = (A, B, C, D, E)$. List the candidate keys for $R$.\pts{6}
+\begin{parts}
+  \item Consider the universal relation $R = \{A, B, C, D, E, F, G, H, I, J\}$ and the set of functional dependencies $F = \{AB \to C, AD \to E, B \to F, F \to GH, D \to H\}$. What is the key for $R$? Decompose $R$ into 2NF, then 3NF relations.\pts{8}
+\end{parts}
+
+\medskip\noindent\textbf{Question 6.} A. Discuss the ACID properties of the transaction in detail.\pts{6}
+\begin{parts}
+  \item Discuss the different measures of transaction equivalence. What is the difference between conflict equivalence and view equivalence?\pts{8}
+\end{parts}
+\centerline{*** END ***}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

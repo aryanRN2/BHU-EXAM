@@ -1,0 +1,154 @@
+% BHU PYQ -- Professional Exam Template
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BCS-502: Operating System Concepts -- BHU PYQ}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BCS-502: Operating System Concepts}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\lstset{
+  basicstyle=\small\ttfamily,
+  frame=single,
+  breaklines=true,
+  columns=flexible,
+  keepspaces=true
+}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) Semester V Examination, 2016-17}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper: BCS-502 --- Operating System Concepts}\\[4pt]
+  {\normalsize Time: Three Hours \hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: Answer five questions in all, including Question No.1, which is compulsory. Figures or 8 Pets}
+
+\bigskip
+
+Saal Av
+Paper: BCS-502 {Operating System Concents:
+Time: Three Hours te bya
+Note: Answer five questions in all, including Question No.1, which is compulsory. Figures or 8 Pets
+
+\medskip\noindent\textbf{Question 1.} Answer any six of the followings: a
+\begin{parts}
+  \item Define the term Operating System and distinguish between internal anc geo
+  views of an operating system.
+  \item What are the main design goals of an operating System? Expiain them in oriet
+  \item What is starvation problem? Mention which scheduling algorithms suffer fror: t>
+  problem.
+  \item Distinguish between a process and a thread. State the major advantages cf tj aveng
+  threads.
+  \item What is System Resource-Allocation Graph? Describe.
+  \item When Dynamic Loading and Dynamic Linking are required?
+  \item Briefly discuss about any three free-space management schemes for disk.
+\end{parts}
+
+\medskip\noindent\textbf{Question 2.} (a) Briefly explain the different process states and transition among the states with. ‘
+transition diagram.
+\begin{parts}
+  \item Explain the three-level scheduling, which may coexist ina complex operating syster). =
+  \item Consider the following five processes, with the length of the CPU burst giver itt
+  milliseconds: ee 1G
+  C Process \_ \_\_ Burst Time |
+  ee ee
+  ee ee ee
+  ee ee
+  a |
+  ee
+  illustrate the First Come First Serve (FCFS), Non-Preemptive Shortest Job First (S fF) and
+  Round Robin (RR) (Time Quantum=10 milliseconds) scheduling algorithms using Ganit
+  Chart. Which algorithm will give the minimum average time?
+\end{parts}
+
+\medskip\noindent\textbf{Question 3.} (a) What do you mean by memory fragmentation? Differentiate between interral and {
+external memory fragmentation.
+\begin{parts}
+  \item Define the notion of Logical and Physical Addresses. How is logical address transiacec to a
+  physical address in Paging? Explain with a neat diagram
+\end{parts}
+
+\medskip\noindent\textbf{Question 4.} (a) What is Demand Paging? Explain the steps involved in Page fault handling.
+\begin{parts}
+  \item What is Belady's anomaly? Illustrate this anomatous behavior in FCFS with a suite! le
+  example.
+  \item Explain the Working Set Model. Explain how it is used for enhancing effective mes 10"
+  bandwidth in practice.
+\end{parts}
+
+\medskip\noindent\textbf{Question 5.} (a) Describe the physical and logical views of a disk storage system. (a)
+\begin{parts}
+  \item Suppose that a disk drive has 5,000 cylinders, numbered 0 to 4999. The drive is currently
+  serving a request at cylinder 143, and the previous request was at cylinder 125. The .
+  queue of pending requests, in FIFC order is \P4
+  86, 1470, 913, 1774, 948, 1509, 1622, 1756, 130
+  Starting from the current head position, whai is the total distance { in cylinders) inat the
+  disk arm moves to satisfy all the pending requests for each of the following disk
+  scheduling algorithms
+  \item FCFS
+  \begin{parts}
+    \item SSTF
+    \item SCAN
+  \end{parts}
+\end{parts}
+
+\medskip\noindent\textbf{Question 6.} (a) Describe the deadlock detection algorithm for a system with multiple instances of {6}
+Resource Types.
+\begin{parts}
+  \item Consider the following snapshot of a system: (1+4+2}
+  Allocation Max Available
+  ABCD ABCD ABCD
+  PO 0012 001322 1520
+  P1 1000 1750
+  PA LS 8 Be GS
+  P3 0632 0652
+  P4.0014 0656
+  Answer the following questions using the banker's algorithm:
+  \item What is the content of the matrix Need?
+  \item Is the system in a safe state?
+  \item ifa request from process P1 arrives for (0, 4, 2, 0), can the request be granted
+  immediately?
+  7 Write notes on the followings: 3+44+3+3
+  \item Dining Philosopher Problem.
+  \item Critical Section and Semaphores.
+  \item Indexed File Allocation Method.
+  \item Directory Structure.
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

@@ -1,0 +1,136 @@
+% BHU PYQ -- Professional Exam Template
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={CS-105: Computer Organization Architecture -- BHU PYQ}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{CS-105: Computer Organization Architec}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\lstset{
+  basicstyle=\small\ttfamily,
+  frame=single,
+  breaklines=true,
+  columns=flexible,
+  keepspaces=true
+}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) Semester IV Examination, 2022-23}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper: CS-105 --- Computer Organization Architecture}\\[4pt]
+  {\normalsize Time: Three hours \hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: Answer five questions in all including Question No. 1, which is compulsory. Answers should be brief}
+
+\bigskip
+
+CS-104/CS-105 : Computer Organization and Architecture
+| Note: Answer five questions in all including Question No. 1, which is compulsory. Answers should be brief
+and to the point and may be supplemented with neat Sketches, wherever required. Terms and abbreviations
+have their standard meaning. Figures on the right-hand side margin indicate Max. Mark for each question,
+
+\medskip\noindent\textbf{Question 1.} (a) A 4-way set-associative cache memory unit with a capacity of 32 KB is built 7
+using a block size of 16 words. The word length is 32 bits. The size of the
+physical address space is 8 GB. Find the number of bits required for the TAG
+field with explanation.
+\begin{parts}
+  \item Explain the stack and its operations with suitable example. Explain its relevance 7
+  in computer organization.
+\end{parts}
+
+\medskip\noindent\textbf{Question 2.} (a) Draw a block diagram of an 8-bit ALU with 4-bit status register and explain its 6
+working.
+\begin{parts}
+  \item Draw a diagram of a bus system for 4 registers of 4 bits each using multiplexer. 4
+  at (c) Design a 4-bit adder-subtractor and explain its working. 4
+\end{parts}
+
+\medskip\noindent\textbf{Question 3.} (a) An instruction is stored in location 300 with its address field at location 301. The address field has the value 400. A processor register R1 contains the number 200. Evaluate the effective address if the addressing mode of the instruction is:\pts{6}
+\begin{parts}
+  \item Direct
+  \item Immediate
+  \item Relative
+  \item Register indirect
+\end{parts}
+\begin{parts}
+  \item What is the difference between isolated I/O and memory mapped I/O?\pts{4}
+  \item Write short notes on Strobe control and Handshaking.\pts{4}
+\end{parts}
+
+\medskip\noindent\textbf{Question 4.} (a) How to evaluate the arithmetic statement X = A+B+C*(D+E+F) 6
+\begin{parts}
+  \item Using a general register computer with three eddress instruction.
+  \begin{parts}
+    \item | Using a general register computer with two address instruction.
+    (iti) | Using a general register computer with one address instruction.
+  \end{parts}
+  \item Why I/O interface is required? Give any three reasons. 4
+  \item What is memory hierarchy and why do we need it? Explain. 4
+\end{parts}
+
+\medskip\noindent\textbf{Question 5.} (a) Explain the working of DMA (Direct Memory Access) with the block diagram. 8
+\begin{parts}
+  \item Differentiate between Horizontal and Vertical Microinstruction format for 6
+  a microprogrammed control unit.
+  i P.T- 0
+  da
+\end{parts}
+
+\medskip\noindent\textbf{Question 6.} (a) What are the basic differences among a branch instruction, a call sub-routine 5
+instruction and a program interrupt?
+\begin{parts}
+  \item What is an interrupt? Explain its major types. 5 :
+  \item A computer has 32-bit instructions and 10-bit addresses. If there are 158 two- 4
+  . address instructions, how many one address instructions can be formulated? (c)
+\end{parts}
+
+\medskip\noindent\textbf{Question 7.} (a) We have to provide a memory capacity of 2048 bytes using 256 x 8 Ram chips. 8
+\begin{parts}
+  \item How many chips are required? (ii) How. many lines of the address bus must be
+  used to access 2048 bytes of memory? (iii) How many of lines in (ii) will be
+  common to all chips? (iv) How many lines must be decoded for chip select?
+  Specify the size of decoders.
+  \item Explain shift micro operations with suitable block diagrams and examples. Also 6
+  mention how to detect overflow condition in the arithmetic shift micro operation.
+  —\_\_—\_—\_—\_— ee |
+  oe\pts{2}
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

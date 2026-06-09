@@ -1,0 +1,161 @@
+% BHU PYQ -- Professional Exam Template
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BVCA-303: Programming In Linux -- BHU PYQ}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BVCA-303: Programming In Linux}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\lstset{
+  basicstyle=\small\ttfamily,
+  frame=single,
+  breaklines=true,
+  columns=flexible,
+  keepspaces=true
+}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Voc. Semester III Examination, 2023-24}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper: BVCA-303 --- Programming In Linux}\\[4pt]
+  {\normalsize Time: Three hours \hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: Answer the questions in each section as instructed. All questions carry marks as indicated.}
+
+\bigskip
+
+TROMIN Ossian stettcattrskonessseossoeaseaplity
+BVCA-303 : Programming in Linux
+
+\bigskip\noindent{\large\bfseries SECTION --- A}
+\rule{\linewidth}{0.4pt}\smallskip
+
+Note: Long-Answer Questions each in 500 words approximately (Answer any 2 out of 2x12=24
+4; Each question carries 12 marks.
+!) Explain the architecture of Linux, emphasizing the roles of the kernel, shell, and file system.
+
+\medskip\noindent\textbf{Question 2.} Describe the Linux file system hierarchy in detail, providing examples of directories at each level.
+Explain the purpose and usage of essential file system management commands such as Is, cp, mv, and
+rm. Illustrate their functionality with practical examples,
+
+\medskip\noindent\textbf{Question 3.} Discuss the significance of Linux commands in performing various tasks efficiently. Explain how
+commands like touch, grep, we, and cat contribute to file manipulation, searching, and text
+processing. Provide examples to demonstrate the practical utility of these commands in everyday naan
+computing tasks.
+
+\medskip\noindent\textbf{Question 4.} Compare and contrast the advantages and disadvantages of using Linux as an operating system.
+Provide real-world examples to support your arguments.
+
+\bigskip\noindent{\large\bfseries SECTION --- B}
+\rule{\linewidth}{0.4pt}\smallskip
+
+\medskip\noindent\textbf{Question 5.} Answer any six of the following in about 200 words each : 6x6=36
+| (a) Write a shell script to print a pattern of asterisks (*) in the following manner:
+| *
+| *
+| Ke OK
+\begin{parts}
+  \item Develop a shell script that accepts two numbers as input and performs addition, subtraction,
+  multiplication, and division on them.
+  (C) Discuss the significance of pipes in Linux. Provide an example scenario where pipes are used
+  effectively with multiple commands. ’ :
+  \item Discuss the purpose of the mkdir command in Linux. Provide an example demonstrating its usage
+  in creating directories.
+  (€) Define the tee command in Linux and explain its functionality.
+  \item What is the purpose of the cat command in Linux? How does it differ from other file viewing
+  commands?
+  \item Explain the significance of the banner command in Linux. How can it be used to display text in a
+  visually appealing manner?
+  \item Discuss the functionality of the grep command in Linux.
+  \_(i) Describe the significance of the cal command in Linux. How does it differ from other calendar-
+  related commands? Provide an example demonstrating its usage.
+  P.T.0.
+\end{parts}
+
+\bigskip\noindent{\large\bfseries SECTION --- C}
+\rule{\linewidth}{0.4pt}\smallskip
+
+\medskip\noindent\textbf{Question 6.} Answer the following questions in a word or sentence each: 1x10=10
+\begin{parts}
+  \item Which command is used to display the current working directory in Linux? i ,
+  : (a) Is (b)PWD (c)cal (d)cp
+  \begin{parts}
+    \item Which command is used to create a new directory in Linux?
+  \end{parts}
+  \item mkdir (b)touch (c)rm  (d)mv
+  \begin{parts}
+    \item What does the man command do in Linux?
+  \end{parts}
+  \item Displays the manual page of acommand (b) Moves files or directories
+  \item Creates a new file (d) Counts the number of words in a file
+  \begin{parts}
+    \item What does the head command do in Linux?
+  \end{parts}
+  \item Displays the first part of a file (b) Displays the last part of a file
+  \item Searches for a pattern in a file (d) Counts the number of lines in a file
+  \begin{parts}
+    \item Which command is used to count lines in a file in Linux?
+  \end{parts}
+  \item we (b) sort (c) grep (d) banner |
+  \begin{parts}
+    \item What is the purpose of the grep command in Linux?
+  \end{parts}
+  \item Displays the calendar for the current month (b) Displays the current date and time
+  \item Counts the number of lines in a file (d) Searches for a pattern in a file
+  \begin{parts}
+    \item Which command is used to count the number of words in a file in Linux?
+  \end{parts}
+  \item wv (b) we (c) ps (d) tee
+  \begin{parts}
+    \item What is the function of the sort command in Linux?
+  \end{parts}
+  \item Displays the sorted content of a file (b) Moves files or directories
+  \item Counts the number of lines in a file (d) Searches for a pattern in a file
+  \begin{parts}
+    \item Which command is used to display the last part of a file in Linux?
+  \end{parts}
+  \item head (b) tail (c) who (d) be
+  \begin{parts}
+    \item What does the mkdir command do in Linux?
+  \end{parts}
+  \item Removes a directory (b) Creates a new directory
+  \item Moves files or directories (d) Displays the manual page of a command
+  ARK
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+\end{document}

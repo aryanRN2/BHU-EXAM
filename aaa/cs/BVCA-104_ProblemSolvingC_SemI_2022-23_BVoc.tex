@@ -1,0 +1,182 @@
+% BHU PYQ -- Professional Exam Template
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BVCA-104: Problem Solving C -- BHU PYQ}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BVCA-104: Problem Solving C}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\lstset{
+  basicstyle=\small\ttfamily,
+  frame=single,
+  breaklines=true,
+  columns=flexible,
+  keepspaces=true
+}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Voc. Semester I Examination, 2022-23}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper: BVCA-104 --- Problem Solving C}\\[4pt]
+  {\normalsize Time: Three Hours \hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: Answer all Sections. Candidates are required to}
+
+\bigskip
+
+Paper : BVCA-104
+(Skill Training in R)
+eee EE Mar FIO
+RR —
+Note: Answer all Sections. Candidates are required to
+write their answers in their own words as far as
+practicable.
+
+\bigskip\noindent{\large\bfseries SECTION --- A}
+\rule{\linewidth}{0.4pt}\smallskip
+
+| Note: Long Answer type questions to be answered in
+| about 750 words each : 15x 2=30
+
+\medskip\noindent\textbf{Question 1.} List out the different control structures in R
+Programming with general syntaxes and brief
+explanation. Write R code to the function by using
+if-else command.
+| foyy)=x+y if x<y
+=(1-x-y) if x>y
+0 if x=y
+P.T.0O.
+\centerline{\textbf{OR}}
+
+\medskip\noindent\textbf{Question 2.} Define nested if-else and nested loop statements with
+general syntaxes and explanation. Write R codes for
+finding a maximum number from the given three
+numbers. a
+
+\medskip\noindent\textbf{Question 3.} | Write a brief note on R. Write R codes for computing
+matrix inverse for 3 x 3 matrix. !
+\centerline{\textbf{OR}}
+
+\medskip\noindent\textbf{Question 4.} Illustrate arithmetic, logical and relational operators |
+with an example for each. Write R programme for the |
+factorial function using a for-loop.
+
+\bigskip\noindent{\large\bfseries SECTION --- B}
+\rule{\linewidth}{0.4pt}\smallskip
+
+Note: Short Answer type questions to be answered in
+about 550 words each (any six): . 5x6=30 !
+
+\medskip\noindent\textbf{Question 1.} Write general syntax of R functions that are used to |
+create bar and pie charts. Show the percentage of |
+students registered in Data Science, R Programming |
+and Machine learning subjects using these charts. |
+The percentages are 30\%, 40\% and 30\% in data i
+science, R programming and Machine learning,
+respectively.
+
+\medskip\noindent\textbf{Question 2.} Giving a suitable example for each, explain the uses
+of the following operators
+"\%x\%", "\%*\%", "\%\%", "\%/\%" and "\%in\%".
+
+\medskip\noindent\textbf{Question 3.} Using function() command, write R codes to enter the following mathematical expressions in R:
+\begin{parts}
+  \item $y = 10^x + \sqrt{x}\log_{10}(x)$
+  \item $y = e^{x/2} - \sin(x)\tan(|x|^4)$
+\end{parts}
+
+\medskip\noindent\textbf{Question 4.} State important features of R.
+
+\medskip\noindent\textbf{Question 5.} Differentiate between vector, list, Matrix and Data
+frame with general syntaxes and examples. .
+
+\medskip\noindent\textbf{Question 6.} Write all R codes to perform correlation and
+regression analysis for the following data set.
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+\textbf{Height (inches)} & 60 & 62 & 65 & 68 & 70 & 72 \\ \hline
+\textbf{Weight (lbs)} & 110 & 120 & 140 & 160 & 170 & 190 \\ \hline
+\end{tabular}
+\end{center}
+
+
+\medskip\noindent\textbf{Question 7.} Write R syntaxes to apply t-test (Single sample and
+Two sample) and Chi-square test. For illustration,
+you may take data of your choice.
+
+\medskip\noindent\textbf{Question 8.} Explain the use of next break and stop functions.
+Give an example for each.
+
+\bigskip\noindent{\large\bfseries SECTION --- C}
+\rule{\linewidth}{0.4pt}\smallskip
+
+Note: Answer the following questions in a word :
+10x1=10
+
+\medskip\noindent\textbf{Question 1.} How do you enter integer, complex, character and
+numeric data in R?
+
+\medskip\noindent\textbf{Question 2.} Write R code to enter the following data in R using
+seq() and rep(); 1.0, 1.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0.
+\pts{3}
+
+\medskip\noindent\textbf{Question 3.} Write general syntax of the import/export of CSV
+file.
+
+\medskip\noindent\textbf{Question 4.} Write a code to compute sum, mean and product of a
+given vector of elements.
+
+\medskip\noindent\textbf{Question 5.} Write R code to add a legend in R plot. ............
+
+\medskip\noindent\textbf{Question 6.} How do you set the margin of the plot in R ?
+
+\medskip\noindent\textbf{Question 7.} Risan implementation of .............. Language.
+
+\medskip\noindent\textbf{Question 8.} Write R code to extract a column of a data frame.
+
+\medskip\noindent\textbf{Question 9.} Write down the output of the codes :
+N=1: 15; (which(N>=6 \& N<10)).
+
+\medskip\noindent\textbf{Question 10.} Write down the output of the codes :
+x = letters[1:10]; x[seq(2, 10, by=2)]
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}
