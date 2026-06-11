@@ -1,0 +1,482 @@
+{
+  "ggrmd11": {
+    "title": "Introduction to Earth System",
+    "module": "GGRMD11",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj11": {
+    "title": "Physical Geography",
+    "module": "GGRMJ11",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj12": {
+    "title": "Map Reading and Interpretation",
+    "module": "GGRMJ12",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmn11": {
+    "title": "Physical Geography",
+    "module": "GGRMN11",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmn12": {
+    "title": "Map Reading and Interpretation",
+    "module": "GGRMN12",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrse11": {
+    "title": "Man and Environment",
+    "module": "GGRSE11",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmd21": {
+    "title": "Environmental Ethics and Sustainability",
+    "module": "GGRMD21",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj21": {
+    "title": "Human Geography",
+    "module": "GGRMJ21",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj22": {
+    "title": "Practical - Map Projection and Weather Map",
+    "module": "GGRMJ22",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmn21": {
+    "title": "Human Geography",
+    "module": "GGRMN21",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmn22": {
+    "title": "Map Projection and Weather Map",
+    "module": "GGRMN22",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrse21": {
+    "title": "Basics of Remote Sensing",
+    "module": "GGRSE21",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmd31": {
+    "title": "Global Environmental Challenges",
+    "module": "GGRMD31",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj31": {
+    "title": "Economic Geography",
+    "module": "GGRMJ31",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj32": {
+    "title": "Surveying",
+    "module": "GGRMJ32",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj33": {
+    "title": "Geography of India",
+    "module": "GGRMJ33",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmv31": {
+    "title": "Basics of Geographical Information System",
+    "module": "GGRMV31",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrse31": {
+    "title": "Geography of Tourism",
+    "module": "GGRSE31",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj41": {
+    "title": "Evolution of Geographical Thought",
+    "module": "GGRMJ41",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj42": {
+    "title": "Environmental Geography",
+    "module": "GGRMJ42",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj43": {
+    "title": "Geomorphology",
+    "module": "GGRMJ43",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj44": {
+    "title": "Advanced Map Projection and Geological Map",
+    "module": "GGRMJ44",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrin51": {
+    "title": "Internship1",
+    "module": "GGRIN51",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj51": {
+    "title": "Climatology",
+    "module": "GGRMJ51",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj52": {
+    "title": "World Regional Geography",
+    "module": "GGRMJ52",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj53": {
+    "title": "Population Geography",
+    "module": "GGRMJ53",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj54": {
+    "title": "Cartographic Techniques",
+    "module": "GGRMJ54",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmv51": {
+    "title": "Hazards & Disaster Risk Reduction",
+    "module": "GGRMV51",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj61": {
+    "title": "Advanced Remote Sensing & Geographical Information System",
+    "module": "GGRMJ61",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj62": {
+    "title": "Oceanography",
+    "module": "GGRMJ62",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj63": {
+    "title": "Remote Sensing and Geographical Information System",
+    "module": "GGRMJ63",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj64": {
+    "title": "Quantitative Methods in Geography",
+    "module": "GGRMJ64",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj65a": {
+    "title": "Hydrology",
+    "module": "GGRMJ65A",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj65b": {
+    "title": "Geography of Settlement",
+    "module": "GGRMJ65B",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj65c": {
+    "title": "Resource Geography",
+    "module": "GGRMJ65C",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj65d": {
+    "title": "Social Geography",
+    "module": "GGRMJ65D",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj65e": {
+    "title": "Cultural Geography",
+    "module": "GGRMJ65E",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmv61": {
+    "title": "Geography of Health and Wellbeing",
+    "module": "GGRMV61",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrin71": {
+    "title": "Internship-2",
+    "module": "GGRIN71",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrin7r1": {
+    "title": "Internship-2",
+    "module": "GGRIN7R1",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj71": {
+    "title": "Research Methodology",
+    "module": "GGRMJ71",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj72": {
+    "title": "Environmental Studies",
+    "module": "GGRMJ72",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj73": {
+    "title": "Geographical Field Training and Report Writing",
+    "module": "GGRMJ73",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj74a": {
+    "title": "Advanced Geographical Thought",
+    "module": "GGRMJ74A",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj74b": {
+    "title": "Advances in Population Studies",
+    "module": "GGRMJ74B",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj74c": {
+    "title": "Urban Geography",
+    "module": "GGRMJ74C",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj74d": {
+    "title": "Regional Planning",
+    "module": "GGRMJ74D",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj74e": {
+    "title": "Advanced Geographical Information System",
+    "module": "GGRMJ74E",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj74f": {
+    "title": "Rural and Urban Planning",
+    "module": "GGRMJ74F",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj74g": {
+    "title": "Geography of Migration & Diaspora",
+    "module": "GGRMJ74G",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj7r1": {
+    "title": "Research Methodology",
+    "module": "GGRMJ7R1",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj7r2": {
+    "title": "Environmental Studies",
+    "module": "GGRMJ7R2",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj7r3": {
+    "title": "Geographical Field Training and Report Writing",
+    "module": "GGRMJ7R3",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj7r4a": {
+    "title": "Advanced Geographical Thought",
+    "module": "GGRMJ7R4A",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj7r4b": {
+    "title": "Advances in Population Studies",
+    "module": "GGRMJ7R4B",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj7r4c": {
+    "title": "Urban Geography",
+    "module": "GGRMJ7R4C",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj7r4d": {
+    "title": "Regional Planning",
+    "module": "GGRMJ7R4D",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj7r4e": {
+    "title": "Advanced Geographical Information System",
+    "module": "GGRMJ7R4E",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj7r4f": {
+    "title": "Rural and Urban Planning",
+    "module": "GGRMJ7R4F",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj7r4g": {
+    "title": "Geography of Migration & Diaspora",
+    "module": "GGRMJ7R4G",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmn71": {
+    "title": "Research Methodology",
+    "module": "GGRMN71",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmn7r1": {
+    "title": "Research Methodology",
+    "module": "GGRMN7R1",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrds8r1": {
+    "title": "Dissertation",
+    "module": "GGRDS8R1",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj81": {
+    "title": "Advanced Surveying",
+    "module": "GGRMJ81",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj82": {
+    "title": "Environmental Quality Analysis",
+    "module": "GGRMJ82",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj83a": {
+    "title": "Biogeography",
+    "module": "GGRMJ83A",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj83b": {
+    "title": "Advanced Remote Sensing",
+    "module": "GGRMJ83B",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj83c": {
+    "title": "Advances in Urban Planning",
+    "module": "GGRMJ83C",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj83d": {
+    "title": "Industrial Geography",
+    "module": "GGRMJ83D",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj83e": {
+    "title": "Gender Geography",
+    "module": "GGRMJ83E",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj83f": {
+    "title": "Agriculture Geography",
+    "module": "GGRMJ83F",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj83g": {
+    "title": "Environmental Hazards & Disaster Risk Reduction",
+    "module": "GGRMJ83G",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj83h": {
+    "title": "Ecotourism & Geoheritage",
+    "module": "GGRMJ83H",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj83i": {
+    "title": "Fluvial Geomorphology",
+    "module": "GGRMJ83I",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj8r1": {
+    "title": "Advanced Surveying",
+    "module": "GGRMJ8R1",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmj8r2": {
+    "title": "Environmental Quality Analysis",
+    "module": "GGRMJ8R2",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmn81": {
+    "title": "Advanced Surveying",
+    "module": "GGRMN81",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmn82": {
+    "title": "Environmental Quality Analysis",
+    "module": "GGRMN82",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmn8r1": {
+    "title": "Advanced Surveying",
+    "module": "GGRMN8R1",
+    "comingSoon": true,
+    "questions_count": 0
+  },
+  "ggrmn8r2": {
+    "title": "Environmental Quality Analysis",
+    "module": "GGRMN8R2",
+    "comingSoon": true,
+    "questions_count": 0
+  }
+}

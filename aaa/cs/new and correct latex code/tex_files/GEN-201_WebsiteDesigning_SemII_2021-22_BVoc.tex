@@ -1,0 +1,184 @@
+% BHU PYQ -- Professional Exam Template
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={GEN-201: Website Designing -- BHU PYQ}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{GEN-201: Website Designing}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\lstset{
+  basicstyle=\small\ttfamily,
+  frame=single,
+  breaklines=true,
+  columns=flexible,
+  keepspaces=true
+}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Voc. Semester II Examination, 2021-22}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper: GEN-201 --- Website Designing}\\[4pt]
+  {\normalsize Time: Three hours \hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: THERE ARE THREE SECTIONS. ALL SECTIONS ARE COMPULSORY.}
+
+\bigskip
+
+GEN - 201 : Website Designing
+NOTE : THERE ARE THREE SECTIONS. ALL SECTIONS ARE COMPULSORY.
+
+\bigskip\noindent{\large\bfseries SECTION --- A: Multiple Choice Questions}\pts{$2 \times 10 = 20$}
+\rule{\linewidth}{0.4pt}\smallskip
+
+\medskip\noindent\textbf{Question 1.} Answer the following multiple choice questions:
+\begin{parts}
+  \item The correct sequence of HTML tags for starting a webpage is:
+  \begin{parts}
+    \item \texttt{<html>}, \texttt{<head>}, \texttt{<title>}, \texttt{<body>}
+    \item \texttt{<head>}, \texttt{<title>}, \texttt{<html>}, \texttt{<body>}
+    \item \texttt{<html>}, \texttt{<body>}, \texttt{<title>}, \texttt{<head>}
+    \item \texttt{<html>}, \texttt{<head>}, \texttt{<body>}, \texttt{<title>}
+  \end{parts}
+
+  \item What will happen if the following JavaScript code is executed?
+  \begin{lstlisting}
+var count = 0;
+while (count < 10) {
+    console.log(count);
+    count++;
+}
+  \end{lstlisting}
+  \begin{parts}
+    \item An error is displayed.
+    \item An exception is thrown.
+    \item The values of count variable are stored in a particular location.
+    \item The values of count from 0 to 9 are displayed in the console.
+  \end{parts}
+
+  \item How to create a hyperlink in HTML?
+  \begin{parts}
+    \item \texttt{<a href="http://www.javatpoint.com">javaTpoint.com</a>}
+    \item \texttt{<a url="www.javatpoint.com">javaTpoint.com</a>}
+    \item \texttt{<a link="www.javatpoint.com">javaTpoint.com</a>}
+    \item \texttt{<a>www.javatpoint.com</a>}
+  \end{parts}
+
+  \item How to create a checkbox in HTML?
+  \begin{parts}
+    \item \texttt{<input type="checkbox">}
+    \item \texttt{<input type="button">}
+    \item \texttt{<checkbox>}
+    \item \texttt{<input type="check">}
+  \end{parts}
+
+  \item Which of the following is the correct way to start an ordered list with a numeric value of 4?
+  \begin{parts}
+    \item \texttt{<ol type="1" start="4">}
+    \item \texttt{<ol type="1" initial="4">}
+    \item \texttt{<ol type="1" begin="4">}
+    \item \texttt{<ol type="1" num="4">}
+  \end{parts}
+
+  \item Which of the following is the correct syntax to make the background-color of all paragraph elements yellow?
+  \begin{parts}
+    \item \texttt{p \{background-color: yellow;\}}
+    \item \texttt{p \{background-color: \#yellow;\}}
+    \item \texttt{all \{background-color: yellow;\}}
+    \item \texttt{all p \{background-color: \#yellow;\}}
+  \end{parts}
+
+  \item The CSS property used to specify the transparency of an element is:
+  \begin{parts}
+    \item \texttt{opacity}
+    \item \texttt{filter}
+    \item \texttt{visibility}
+    \item \texttt{overlay}
+  \end{parts}
+
+  \item Which of the following syntax is correct in CSS to make each word of a sentence start with a capital letter?
+  \begin{parts}
+    \item \texttt{text-transform: capitalize;}
+    \item \texttt{text-style: capital;}
+    \item \texttt{transform: capitalize;}
+    \item \texttt{text-transform: capital;}
+  \end{parts}
+
+  \item In JavaScript, the \texttt{x === y} statement implies that:
+  \begin{parts}
+    \item Both x and y are equal in value and data type.
+    \item Both x and y are equal in value, type, and reference address.
+    \item Both x and y are equal in value only.
+    \item Both are not the same.
+  \end{parts}
+\end{parts}
+
+\bigskip\noindent{\large\bfseries SECTION --- B: Short Answer Questions}\pts{$5 \times 6 = 30$}
+\rule{\linewidth}{0.4pt}\smallskip
+
+\medskip\noindent\textbf{Question 2.} What is the difference between DIV and SPAN in HTML? Explain with examples.
+\centerline{\textbf{OR}}
+What is the difference between class selectors and id selectors? Explain with examples.
+
+\medskip\noindent\textbf{Question 3.} What is the purpose of the z-index and how is it used?
+\centerline{\textbf{OR}}
+What is HTML? How is a website created with the help of HTML \& JavaScript?
+
+\medskip\noindent\textbf{Question 4.} What is the difference between CSS2 and CSS3?
+\centerline{\textbf{OR}}
+What are Event Bubbling and Event Capturing?
+
+\medskip\noindent\textbf{Question 5.} In how many ways can you create an array in JS?
+\centerline{\textbf{OR}}
+State the difference between the operators ``=='' and ``==='' with examples.
+
+\bigskip\noindent{\large\bfseries SECTION --- C: Long Answer Questions}\pts{$10 \times 3 = 30$}
+\rule{\linewidth}{0.4pt}\smallskip
+
+\noindent\textit{Instructions: Answer any three questions.}
+
+\medskip\noindent\textbf{Question 6.} Explain the step-by-step process of creating a responsive website.
+
+\medskip\noindent\textbf{Question 7.} Name some new features which were not present in HTML but are added to HTML5.
+
+\medskip\noindent\textbf{Question 8.} What is JavaScript and what are the scopes of a variable in JavaScript?
+
+\medskip\noindent\textbf{Question 9.} What is CSS? Also explain the different ways CSS can be included in HTML.
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

@@ -1,0 +1,146 @@
+% BHU PYQ -- Professional Exam Template
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BCS-503: Discrete Mathematical Structures -- BHU PYQ}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BCS-503: Discrete Math Structures}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\lstset{
+  basicstyle=\small\ttfamily,
+  frame=single,
+  breaklines=true,
+  columns=flexible,
+  keepspaces=true
+}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) Semester V Examination, 2016-17}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper: BCS-503 --- Discrete Mathematical Structures}\\[4pt]
+  {\normalsize Time: Three Hours \hfill Full Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: Answer any five questions. Terms/Symbols used have their standard meanings.}
+
+\bigskip
+
+\medskip\noindent\textbf{Question 1.} Define the following terminologies and explain with appropriate examples: \pts{$2\times7=14$}
+\begin{parts}
+  \item Poset
+  \item Regular Graph
+  \item Clique
+  \item Fundamental Circuit
+  \item Bipartite Graph
+  \item Minimal Covering
+  \item De Morgan's Law
+\end{parts}
+
+\medskip\noindent\textbf{Question 2.}
+\begin{parts}
+  \item Explain partition of a set and equivalence classes with a suitable example. \pts{3}
+  \item What is a Hasse Diagram? Draw the Hasse Diagram for the relation $R$ on set $A = \{a, b, c, d, e\}$ where $R$ is given as:
+  \[ R = \{\langle a, a \rangle, \langle a, c \rangle, \langle a, d \rangle, \langle a, e \rangle, \langle b, b \rangle, \langle b, c \rangle, \langle b, d \rangle, \langle b, e \rangle, \langle c, c \rangle, \langle c, d \rangle, \langle c, e \rangle, \langle d, d \rangle, \langle e, e \rangle\} \] \pts{4}
+  \item Find the inverse of the function $f(x) = 4e^{x+2}$. \pts{3}
+  \item A mobile manufacturing company assembled $30$ mobiles. The features available are Bluetooth, Wi-Fi and 4G network. It is known that $15$ of the mobiles have Bluetooth, $8$ of them have Wi-Fi, $6$ of them have 4G network, and $3$ of them have all three features. Find at least how many mobiles do not have any features at all. \pts{4}
+\end{parts}
+
+\medskip\noindent\textbf{Question 3.}
+\begin{parts}
+  \item For an algebraic system $(A, \lor, \land)$ defined by a lattice $(A, \le)$, show that: \pts{5}
+  \begin{parts}
+    \item $a \le a \lor b$, $a \land b \le a$
+    \item $a \lor (a \land b) = a$, $a \land (a \lor b) = a$ where $a, b \in A$.
+  \end{parts}
+  \item Define Boolean lattice and Boolean algebra. Prove that an element in a Boolean lattice has a unique complement. \pts{5}
+  \item Given a function $f: \{0, 1\}^3 \to \{0, 1\}$ defined as:
+  \begin{align*}
+    f(0,0,0) &= 1, & f(0,0,1) &= 0, \\
+    f(0,1,0) &= 1, & f(0,1,1) &= 0, \\
+    f(1,0,0) &= 0, & f(1,0,1) &= 0, \\
+    f(1,1,0) &= 0, & f(1,1,1) &= 1.
+  \end{align*}
+  Express the function in disjunctive normal form and conjunctive normal form of Boolean expression. \pts{4}
+\end{parts}
+
+\medskip\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Determine whether each of the following compound propositions is a tautology or not: \pts{3}
+  \begin{parts}
+    \item $(\neg p \land \neg q) \to (p \to q)$
+    \item $(p \to q) \to (p \land \neg q)$
+    \item $[p \land (p \to \neg q)] \to q$
+  \end{parts}
+  \item Show that $\neg (p \lor (\neg p \land q)) \equiv \neg p \land \neg q$ and $\neg \forall x (P(x) \to Q(x)) \equiv \exists x (P(x) \land \neg Q(x))$ without truth table. \pts{4}
+  \item Solve the following recurrence relations: \pts{7}
+  \begin{parts}
+    \item $4 a_r - 20 a_{r-1} + 17 a_{r-2} - 4 a_{r-3} = 0$
+    \item $a_r + 5 a_{r-1} + 6 a_{r-2} = 3^r - 2r + 1$
+  \end{parts}
+\end{parts}
+
+\medskip\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Prove that the number of vertices of odd degree in a graph is always even. \pts{3}
+  \item Draw the graphs of the following types: \pts{5}
+  \begin{parts}
+    \item Graph is both Hamiltonian and Eulerian.
+    \item Graph is Eulerian but not Hamiltonian.
+    \item Graph is Hamiltonian but not Eulerian.
+  \end{parts}
+  \item What is meant by center of a graph? Prove that a tree may have one or two centers. \pts{2}
+  \item What will be the minimum and maximum possible height of a binary tree with $n$ vertices? \pts{2}
+  \item What are the Kuratowski's two graphs? Also draw these two graphs. \pts{2}
+\end{parts}
+
+\medskip\noindent\textbf{Question 6.}
+\begin{parts}
+  \item How to prove that a graph is non-planar? Show with an example. \pts{4}
+  \item What is geometric dual of a graph? If $r$ and $\mu$ denote the rank and nullity of a graph $G$, and if $r^*$ and $\mu^*$ denote the same for the dual graph $G^*$, then prove that $r^* = \mu$ and $\mu^* = r$. \pts{4}
+  \item Let $G = (V, E)$ be a connected weighted and undirected graph, where $V = \{a, b, c, d, e, f, g\}$ is the set of vertices and
+  \[ E = \{\langle (a, b), 3 \rangle, \langle (a, c), 2 \rangle, \langle (b, d), 1 \rangle, \langle (c, d), 5 \rangle, \langle (c, f), 7 \rangle, \langle (d, e), 3 \rangle, \langle (d, f), 6 \rangle, \langle (e, g), 8 \rangle, \langle (f, g), 4 \rangle\} \]
+  is the set of edges along with weights. Find the minimal spanning tree of $G$ using Kruskal's and Prim's algorithms with demonstration of steps in both methods. \pts{6}
+\end{parts}
+
+\medskip\noindent\textbf{Question 7.}
+\begin{parts}
+  \item What is chromatic partitioning? Explain with an example. \pts{3}
+  \item What is chromatic polynomial? Find the chromatic polynomial of a complete graph of $n$ vertices and a tree of $n$ vertices. \pts{5}
+  \item Explain the reduced incidence matrix $A_f$, fundamental circuit matrix $B_f$, and fundamental cutset matrix $C_f$ of a connected graph. Use a common graph and common spanning tree to explain these matrices. What is the relationship among them? \pts{6}
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+\end{document}

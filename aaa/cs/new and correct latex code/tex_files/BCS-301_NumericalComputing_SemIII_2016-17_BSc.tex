@@ -1,0 +1,136 @@
+% BHU PYQ -- Professional Exam Template
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BCS-301: Numerical Computing -- BHU PYQ}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BCS-301: Numerical Computing}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc.\ (Hons.) Semester III Examination, 2016--17}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper: BCS-301 --- Numerical Computing}\\[4pt]
+  {\normalsize Time: 3 Hours \hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: Answer \textbf{five} questions including Question~1 which is compulsory. Use of calculator is allowed. All undefined symbols have their usual meanings. Each question carries \textbf{14 marks}.}
+
+\bigskip
+
+\noindent\textbf{Question 1.} (Compulsory --- attempt all parts)\pts{$2\times7=14$}
+\begin{parts}
+  \item Explain different types of errors with an example.
+  \item If the first significant figure of a number is $k$ and the number is correct to $n$ significant figures, prove that the relative error is less than $\dfrac{1}{2k \times 10^{n-1}}$.
+  \item Prove that the Newton--Raphson process has second-order (quadratic) convergence.
+  \item Given that the equation $x^3 - 7 = 69$ has a root between 5 and 8, apply the method of Regula-Falsi (False Position) to determine it.
+  \item Define Finite Differences. Explain Forward, Backward, and Central differences with examples.
+  \item Evaluate $\Delta\tan^{-1}x$.
+  \item State the conditions under which the Gauss--Seidel iteration method converges.
+\end{parts}
+
+\bigskip
+
+\noindent\textbf{Question 2.}\pts{$6+8=14$}
+\begin{parts}
+  \item Find a real root of the equation $x^3 - 2x - 5 = 0$ using the Bisection Method, correct to three decimal places.
+  \item From the following table, estimate the number of students who obtained marks between 40 and 45 using Newton's Forward Interpolation Formula:
+  \begin{center}
+  \begin{tabular}{|c|c|c|c|c|c|}
+  \hline
+  Marks & 30--40 & 40--50 & 50--60 & 60--70 & 70--80 \\
+  \hline
+  No.\ of Students & 31 & 42 & 51 & 35 & 31 \\
+  \hline
+  \end{tabular}
+  \end{center}
+\end{parts}
+
+\bigskip
+
+\noindent\textbf{Question 3.}\pts{$6+8=14$}
+\begin{parts}
+  \item Apply the Gauss Elimination method to solve the following system of equations, correct to three decimal places:
+  \[
+    x + y + z = 9, \quad 2x - 3y + 4z = 13, \quad 3x + 4y + 5z = 40
+  \]
+  \item Apply the Gauss--Jordan method to solve the following system, correct to three decimal places:
+  \[
+    x + 4y - z = -5, \quad x + y - 6z = -12, \quad 3x - y - z = 4
+  \]
+\end{parts}
+
+\bigskip
+
+\noindent\textbf{Question 4.} The table gives the distance $y$ (in nautical miles) of the visible horizon for given heights $x$ (in feet) above the earth's surface:\pts{$6+8=14$}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
+\hline
+$x$ (ft)  & 100   & 150   & 200   & 250   & 300   & 350   & 400   \\
+\hline
+$y$ (mi.) & 10.63 & 13.03 & 15.04 & 16.81 & 18.42 & 19.90 & 21.27 \\
+\hline
+\end{tabular}
+\end{center}
+Find the values of $y$ when:
+\begin{parts}
+  \item $x = 218$ ft
+  \item $x = 410$ ft
+\end{parts}
+
+\bigskip
+
+\noindent\textbf{Question 5.} Evaluate $\displaystyle\int_0^1 \frac{1}{1+x^2}\,dx$ using the following rules and compare with the actual value:\pts{$3+4+4+3=14$}
+\begin{parts}
+  \item Trapezoidal Rule
+  \item Simpson's $\tfrac{1}{3}$ Rule
+  \item Simpson's $\tfrac{3}{8}$ Rule
+  \item Weddle's Rule
+\end{parts}
+
+\bigskip
+
+\noindent\textbf{Question 6.} Using the Runge--Kutta method of fourth order, solve $\dfrac{dy}{dx} = x + y$ with $y(0)=1$ at $x = 0.2$ and $x = 0.4$.\pts{14}
+
+\bigskip
+
+\noindent\textbf{Question 7.}\pts{$6+8=14$}
+\begin{parts}
+  \item Apply Milne's method to find a solution of the differential equation $y' = x - y^2$ in the range $0 \le x \le 1$ for the boundary condition $y = 0$ at $x = 0$.
+  \item Given $\dfrac{dx}{dy} = x^2(1+y)$ and $y(1)=1$,\ $y(1.1)=1.233$,\ $y(1.2)=1.548$,\ $y(1.3)=1.979$, evaluate $y(1.4)$ by the Adams--Bashforth method.
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+\end{document}

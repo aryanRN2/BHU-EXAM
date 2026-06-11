@@ -1,0 +1,119 @@
+% BHU PYQ -- Professional Exam Template
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BVCA-405: Android Programming -- BHU PYQ}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BVCA-405: Android Programming}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\lstset{
+  basicstyle=\small\ttfamily,
+  frame=single,
+  breaklines=true,
+  columns=flexible,
+  keepspaces=true
+}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Voc. Semester IV Examination, 2022-23}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper: BVCA-405 --- Android Programming}\\[4pt]
+  {\normalsize Time: Three Hours \hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: Answer the questions in each section as instructed. All questions carry marks as indicated.}
+
+\bigskip
+
+\noindent{\large\bfseries SECTION --- A}
+\rule{\linewidth}{0.4pt}\smallskip
+
+Long-Answer Questions. Answer any two questions: \hfill \textbf{2 $\times$ 12 = 24 Marks}
+
+\medskip
+\noindent\textbf{Question 1.} Discuss the Android Architecture. Explain the importance and functions of the different layers in detail.
+
+\medskip
+\noindent\textbf{Question 2.} Write a Flutter code snippet to create a simple application with a single page containing a centered ``Hello, Flutter!'' text. Also explain the concept of state management in Flutter and discuss the different approaches, providing examples of when to use each.
+
+\medskip
+\noindent\textbf{Question 3.} Write the Flutter code to build an application with the following specifications:
+\begin{parts}
+  \item The first page of the application should have an AppBar with the text ``Flutter App''.
+  \item The first page should have a body with the text ``First Page'' and an image from the assets folder named ``flutter.jpg''.
+  \item The application should have a floating action button at the bottom of the screen which navigates to the second page.
+  \item The second page should contain an AppBar with the text ``Second Page'' and a back button that returns to the homepage.
+  \item The second page should have a body with the text ``Second Page'' and an image from the assets folder named ``second.jpg''.
+\end{parts}
+
+\medskip
+\noindent\textbf{Question 4.} What is ART (Android Run Time)? Discuss the features and inner working of ART in detail.
+
+\bigskip\noindent{\large\bfseries SECTION --- B}
+\rule{\linewidth}{0.4pt}\smallskip
+
+\noindent\textbf{Question 5.} Attempt any six parts (Answer in about 200 words each): \hfill \textbf{6 $\times$ 6 = 36 Marks}
+\begin{parts}
+  \item What is the \texttt{AndroidManifest.xml} file? Write down its purpose and list its key components.
+  \item What is an APK file? Discuss in detail how you can build an APK file in Flutter.
+  \item Discuss the directory structure of a standard Android project.
+  \item What is the use of the \texttt{ListView.builder} widget in Flutter? Explain its different components using an example.
+  \item What are the key differences between Dalvik Virtual Machine (DVM) and Android Runtime (ART)?
+  \item What is Flutter? Write down some of the main disadvantages of using the Flutter framework.
+  \item What is the purpose of the \texttt{pubspec.yaml} file in a Flutter project? Explain the process of adding external dependencies (packages) using this file with an example.
+  \item Discuss the importance of using \texttt{async} and \texttt{await} in Flutter when working with asynchronous operations. Provide a code example.
+  \item Write a Flutter Dart code snippet to create a simple app that displays a list of items with images and text. Include the widget tree, data source, and any relevant packages.
+\end{parts}
+
+\bigskip\noindent{\large\bfseries SECTION --- C}
+\rule{\linewidth}{0.4pt}\smallskip
+
+\noindent\textbf{Question 6.} Attempt all parts: \hfill \textbf{10 $\times$ 1 = 10 Marks}
+\begin{parts}
+  \item Which programming language is primarily used for Flutter app development?
+  \item Which programming language is primarily used for native Android app development?
+  \item Which Flutter command is used to create a new project?
+  \item Which Flutter widget is commonly used for creating scrollable lists of items?
+  \item Which file format is commonly used for storing persistent relational database data in Android?
+  \item What is the purpose of the \texttt{setState} method in Flutter?
+  \item What is the primary advantage of using Flutter for cross-platform app development?
+  \item Which Flutter widget is used for navigation between different screens or pages in an app?
+  \item What is the primary role of the \texttt{main.dart} file in a Flutter project?
+  \item What was the name of the first commercial Android smartphone?
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+\end{document}

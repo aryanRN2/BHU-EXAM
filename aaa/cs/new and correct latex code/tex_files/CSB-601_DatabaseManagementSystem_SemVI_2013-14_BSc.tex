@@ -1,0 +1,138 @@
+% BHU PYQ -- Professional Exam Template
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={CSB-601: Database Management System -- BHU PYQ}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{CSB-601: Database Management System}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\lstset{
+  basicstyle=\small\ttfamily,
+  frame=single,
+  breaklines=true,
+  columns=flexible,
+  keepspaces=true
+}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc.\ (Hons.) Semester VI Examination, 2013--14}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper: CSB-601 --- Database Management System}\\[4pt]
+  {\normalsize Time: Three Hours \hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: Answer any \textbf{five} questions including Question~1 which is compulsory. Terms and symbols used have their standard meaning.}
+
+\bigskip
+
+\noindent\textbf{Question 1.} Fill in the blanks:\pts{10}
+\begin{parts}
+  \item The number of attributes in a relation is called the \underline{\hspace{3cm}} of the relation.
+  \item Immunity of the external schemas to changes in the internal schema is referred to as \underline{\hspace{3cm}}.
+  \item When one column of a table refers to the values in another column of the same table, it introduces a \underline{\hspace{3cm}} integrity constraint.
+  \item The virtual page table never changes during the execution of a transaction --- this property is called \underline{\hspace{3cm}}.
+  \item Along with the \texttt{GROUP BY} clause, one can use the \underline{\hspace{3cm}} clause to define a condition on the group of tuples.
+  \item \underline{\hspace{3cm}} and \underline{\hspace{3cm}} are two unary operations in relational algebra.
+  \item 4NF is based on the concept of \underline{\hspace{3cm}} dependency.
+  \item A schedule $S$ is not conflict serializable if the precedence graph contains \underline{\hspace{3cm}}.
+  \item \underline{\hspace{3cm}} and \underline{\hspace{3cm}} are the two desirable properties of relational schema decomposition.
+  \item \underline{\hspace{3cm}} is an abstraction through which relationships are treated as higher-level entities.
+\end{parts}
+
+\bigskip
+
+\noindent\textbf{Question 2.}\pts{$3+4+3+5=15$}
+\begin{parts}
+  \item Explain the difference between primary key and superkey.
+  \item What are multi-valued attributes, and how can they be handled within the database design?
+  \item What is meant by a recursive relationship type? Give an example.
+  \item Define cardinality ratio. Draw an ER diagram to illustrate different cases of cardinality ratio.
+\end{parts}
+
+\bigskip
+
+\noindent\textbf{Question 3.}\pts{$6+6+3=15$}
+\begin{parts}
+  \item What is the lossless-join property of decomposition? Suppose that we decompose the schema $R = (A, B, C, D, E)$ into $R_1 = (A, B, C)$ and $R_2 = (A, D, E)$. Check whether this decomposition is lossy or lossless if the following set $F$ of functional dependencies holds: $F = \{A \to BC,\ CD \to E,\ B \to D,\ E \to A\}$.
+  \item Define full, partial, and transitive functional dependencies. Explain the normal form based on transitive functional dependency with a suitable example.
+  \item Define multi-valued functional dependency.
+\end{parts}
+
+\bigskip
+
+\noindent\textbf{Question 4.}\pts{$6+6+3=15$}
+\begin{parts}
+  \item Discuss the immediate update technique of recovery. How is it different from the deferred update technique? Why is it called the UNDO/REDO method?
+  \item What is the two-phase locking protocol? What are some variations of the two-phase locking protocol? Why is strict two-phase locking often preferred?
+  \item What is a recoverable schedule? Why is recoverability of schedules desirable?
+\end{parts}
+
+\bigskip
+
+\noindent\textbf{Question 5.}\pts{$5+10=15$}
+\begin{parts}
+  \item With a suitable example, explain the difference between natural join, equi-join, and Cartesian product operations.
+  \item Consider the following relational database. Answer each of the queries in SQL:
+
+  \smallskip
+  \texttt{Branch}(\underline{bname}, bcity, assets)\\
+  \texttt{Customer}(\underline{cname}, street, ccity)\\
+  \texttt{Depositor}(\underline{cname}, \underline{account\#})\\
+  \texttt{Account}(\underline{bname}, \underline{account\#}, balance)
+
+  \begin{enumerate}[label=(\roman*)]
+    \item Find account numbers of accounts with balances between Rs.\,70,000 and Rs.\,1,00,000.
+    \item Find all customers whose street includes the substring ``main''.
+    \item Find branches and their average balances where the average balance is more than Rs.\,2,000.
+    \item Delete the records of all accounts with balances below the average.
+    \item Increase all balances by 10\% whose balance is greater than the average.
+  \end{enumerate}
+\end{parts}
+
+\bigskip
+
+\noindent\textbf{Question 6.}\pts{$6+3+6+5+4+6=30$}
+\begin{parts}
+  \item Describe the ANSI/SPARC three-level architecture. How are these three levels related to the concept of physical and logical data independence?
+  \item Describe the steps of query processing with a flow diagram.
+  \item Explain any three heuristic rules for query optimization through examples.
+  \item Define weak entity type. Explain how it is handled in relational database designing.
+  \item Explain the Select and Project operators in Relational Algebra through an example.
+  \item What are the database security issues? What is the difference between discretionary and mandatory access control?
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+\end{document}

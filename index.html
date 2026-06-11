@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html class="scroll-smooth" lang="en">
+
 <head>
-    <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>BHU Exam Prep | Banaras Hindu University Mock Exams</title>
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="styles.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
     <script id="tailwind-config">
         tailwind.config = {
             darkMode: "class",
@@ -90,20 +92,32 @@
     <style>
         /* Badge pill animation */
         @keyframes badge-pulse {
-            0%, 100% { box-shadow: 0 0 0 0 rgba(245,124,0,0.3); }
-            50% { box-shadow: 0 0 0 6px rgba(245,124,0,0); }
+
+            0%,
+            100% {
+                box-shadow: 0 0 0 0 rgba(245, 124, 0, 0.3);
+            }
+
+            50% {
+                box-shadow: 0 0 0 6px rgba(245, 124, 0, 0);
+            }
         }
-        .badge-pulse { animation: badge-pulse 2.5s ease-in-out infinite; }
+
+        .badge-pulse {
+            animation: badge-pulse 2.5s ease-in-out infinite;
+        }
 
         /* Smooth section divider */
         .section-wave {
             position: relative;
         }
+
         .section-wave::before {
             content: '';
             position: absolute;
             top: -1px;
-            left: 0; right: 0;
+            left: 0;
+            right: 0;
             height: 80px;
             background: linear-gradient(to bottom, #F7F7F5, transparent);
             pointer-events: none;
@@ -112,11 +126,12 @@
 
         /* Bento hover lift */
         .bento-card {
-            transition: transform 0.25s cubic-bezier(0.4,0,0.2,1), box-shadow 0.25s cubic-bezier(0.4,0,0.2,1);
+            transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
         }
+
         .bento-card:hover {
             transform: translateY(-3px);
-            box-shadow: 0 16px 48px rgba(0,0,0,0.07);
+            box-shadow: 0 16px 48px rgba(0, 0, 0, 0.07);
         }
 
         /* Gradient text */
@@ -129,443 +144,583 @@
 
         /* Stats counter glow */
         .stat-glow {
-            text-shadow: 0 0 30px rgba(245,124,0,0.2);
+            text-shadow: 0 0 30px rgba(245, 124, 0, 0.2);
         }
     </style>
 </head>
-<body class="bg-background-warm text-on-background antialiased selection:bg-accent-bhu-saffron/10 min-h-screen flex flex-col">
 
-<!-- ═══════════════════════════ NAVBAR ═══════════════════════════ -->
-<nav class="fixed top-0 left-0 right-0 z-50 bg-background-warm/80 backdrop-blur-xl border-b border-border-subtle h-16 md:h-20 w-full flex items-center">
-    <div class="max-w-container-max mx-auto px-6 md:px-padding-edge flex justify-between items-center w-full">
-        <div class="flex items-center gap-3 md:gap-4">
-            <img src="images/logo.png" alt="BHU Logo" class="h-7 md:h-10 w-auto"/>
-            <span class="text-base md:text-2xl font-bold tracking-tighter text-primary">BHU Exam Prep</span>
-            <div class="hidden md:flex gap-6 ml-8">
-                <a class="text-primary font-bold border-b-2 border-primary pb-1 text-sm" href="#">Home</a>
-                <a class="text-secondary font-medium hover:text-primary transition-colors duration-200 text-sm" href="#features">Features</a>
-                <a class="text-secondary font-medium hover:text-primary transition-colors duration-200 text-sm" href="subjects.html">Mock Exams</a>
+<body
+    class="bg-background-warm text-on-background antialiased selection:bg-accent-bhu-saffron/10 min-h-screen flex flex-col">
+
+    <!-- ═══════════════════════════ NAVBAR ═══════════════════════════ -->
+    <nav
+        class="fixed top-0 left-0 right-0 z-50 bg-background-warm/80 backdrop-blur-xl border-b border-border-subtle h-16 md:h-20 w-full flex items-center">
+        <div class="max-w-container-max mx-auto px-6 md:px-padding-edge flex justify-between items-center w-full">
+            <div class="flex items-center gap-3 md:gap-4">
+                <img src="images/logo.png" alt="BHU Logo" class="h-7 md:h-10 w-auto" />
+                <span class="text-base md:text-2xl font-bold tracking-tighter text-primary">BHU Exam Prep</span>
+                <div class="hidden md:flex gap-6 ml-8">
+                    <a class="text-primary font-bold border-b-2 border-primary pb-1 text-sm" href="#">Home</a>
+                    <a class="text-secondary font-medium hover:text-primary transition-colors duration-200 text-sm"
+                        href="#features">Features</a>
+                    <a class="text-secondary font-medium hover:text-primary transition-colors duration-200 text-sm"
+                        href="subjects.html">Mock Exams</a>
+                </div>
             </div>
+            <a href="subjects.html"
+                class="hidden md:flex items-center gap-2 bg-primary text-white text-xs font-bold px-5 py-2.5 rounded-full hover:bg-neutral-800 transition-all duration-200 hover:scale-105 active:scale-95">
+                <span class="material-symbols-outlined text-sm">rocket_launch</span>
+                Start Exam
+            </a>
+            <!-- Mobile menu button -->
+            <a href="subjects.html"
+                class="flex md:hidden items-center gap-1.5 bg-primary text-white text-xs font-bold px-4 py-2 rounded-full">
+                <span class="material-symbols-outlined text-sm">rocket_launch</span>
+                Start
+            </a>
         </div>
-        <a href="subjects.html" class="hidden md:flex items-center gap-2 bg-primary text-white text-xs font-bold px-5 py-2.5 rounded-full hover:bg-neutral-800 transition-all duration-200 hover:scale-105 active:scale-95">
-            <span class="material-symbols-outlined text-sm">rocket_launch</span>
-            Start Exam
-        </a>
-        <!-- Mobile menu button -->
-        <a href="subjects.html" class="flex md:hidden items-center gap-1.5 bg-primary text-white text-xs font-bold px-4 py-2 rounded-full">
-            <span class="material-symbols-outlined text-sm">rocket_launch</span>
-            Start
-        </a>
-    </div>
-</nav>
+    </nav>
 
-<!-- ═══════════════════════════ HERO ═══════════════════════════ -->
-<main class="relative pt-28 md:pt-40 pb-20 md:pb-32 overflow-hidden flex-1">
-    <!-- Animated background orbs -->
-    <div class="neural-orb animate-float bg-accent-bhu-saffron w-[500px] h-[500px] -top-32 -left-16 opacity-30"></div>
-    <div class="neural-orb animate-float bg-accent-neural-purple w-[450px] h-[450px] top-40 -right-16 opacity-20" style="animation-delay: -3s;"></div>
-    <div class="neural-orb animate-float bg-accent-neural-emerald w-[350px] h-[350px] bottom-0 left-1/2 opacity-20" style="animation-delay: -6s;"></div>
+    <!-- ═══════════════════════════ HERO ═══════════════════════════ -->
+    <main class="relative pt-28 md:pt-40 pb-20 md:pb-32 overflow-hidden flex-1">
+        <!-- Animated background orbs -->
+        <div class="neural-orb animate-float bg-accent-bhu-saffron w-[500px] h-[500px] -top-32 -left-16 opacity-30">
+        </div>
+        <div class="neural-orb animate-float bg-accent-neural-purple w-[450px] h-[450px] top-40 -right-16 opacity-20"
+            style="animation-delay: -3s;"></div>
+        <div class="neural-orb animate-float bg-accent-neural-emerald w-[350px] h-[350px] bottom-0 left-1/2 opacity-20"
+            style="animation-delay: -6s;"></div>
 
-    <div class="max-w-4xl mx-auto px-6 md:px-padding-edge text-center flex flex-col items-center relative z-10">
+        <div class="max-w-4xl mx-auto px-6 md:px-padding-edge text-center flex flex-col items-center relative z-10">
 
-        <h1 class="text-4xl sm:text-5xl lg:text-[4.5rem] font-bold mb-6 text-primary leading-[1.08] tracking-tight">
-            Online Mock Exam Portal<br class="hidden sm:block"/>
-            <span class="text-neutral-400">for BHU Preparation.</span>
-        </h1>
+            <h1 class="text-4xl sm:text-5xl lg:text-[4.5rem] font-bold mb-6 text-primary leading-[1.08] tracking-tight">
+                Online Mock Exam Portal<br class="hidden sm:block" />
+                <span class="text-neutral-400">for BHU Preparation.</span>
+            </h1>
 
-        <p class="text-base md:text-lg text-secondary max-w-xl mb-12 leading-relaxed">
-            High-fidelity, secure mock assessments with real BHU curriculum questions. Instant AI-powered evaluation.
-        </p>
+            <p class="text-base md:text-lg text-secondary max-w-xl mb-12 leading-relaxed">
+                High-fidelity, secure mock assessments with real BHU curriculum questions. Instant AI-powered
+                evaluation.
+            </p>
 
-        <!-- Preparation mode selector -->
-        <div class="space-y-4 w-full max-w-3xl">
-            <p class="text-xs font-bold uppercase tracking-[0.2em] text-secondary/70">Select your preparation mode:</p>
-            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 md:gap-4">
-                <!-- End Sem -->
-                <button onclick="selectPracticeMode('endterm')" class="p-5 md:p-6 rounded-2xl border border-neutral-800 bg-black text-white hover:border-accent-bhu-saffron hover:bg-neutral-900 transition-all duration-300 text-left flex flex-col gap-3 group hover:shadow-[0_8px_30px_rgba(245,124,0,0.15)] hover:scale-[1.02] active:scale-[0.98]">
-                    <div class="w-10 h-10 rounded-full bg-accent-bhu-saffron/10 border border-accent-bhu-saffron/30 flex items-center justify-center text-accent-bhu-saffron group-hover:bg-accent-bhu-saffron group-hover:text-white group-hover:border-transparent transition-all duration-300">
-                        <span class="material-symbols-outlined text-lg">school</span>
-                    </div>
-                    <div>
-                        <h4 class="font-bold text-sm text-white group-hover:text-accent-bhu-saffron transition-colors">End Sem Preparation</h4>
-                        <p class="text-[11px] text-neutral-400 mt-0.5 group-hover:text-neutral-300 transition-colors">Comprehensive syllabus review</p>
-                    </div>
-                </button>
-                <!-- Mid Term -->
-                <button onclick="alert('Mid Term Preparation is coming soon!')" class="p-5 md:p-6 rounded-2xl border border-neutral-800 bg-black text-white hover:border-accent-neural-purple hover:bg-neutral-900 transition-all duration-300 text-left flex flex-col gap-3 group hover:shadow-[0_8px_30px_rgba(168,85,247,0.15)] hover:scale-[1.02] active:scale-[0.98]">
-                    <div class="flex justify-between items-start w-full">
-                        <div class="w-10 h-10 rounded-full bg-accent-neural-purple/10 border border-accent-neural-purple/30 flex items-center justify-center text-accent-neural-purple group-hover:bg-accent-neural-purple group-hover:text-white group-hover:border-transparent transition-all duration-300">
-                            <span class="material-symbols-outlined text-lg">edit_calendar</span>
+            <!-- Preparation mode selector -->
+            <div class="space-y-4 w-full max-w-3xl">
+                <p class="text-xs font-bold uppercase tracking-[0.2em] text-secondary/70">Select your preparation mode:
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 md:gap-4">
+                    <!-- End Sem -->
+                    <button onclick="selectPracticeMode('endterm')"
+                        class="p-5 md:p-6 rounded-2xl border border-neutral-800 bg-black text-white hover:border-accent-bhu-saffron hover:bg-neutral-900 transition-all duration-300 text-left flex flex-col gap-3 group hover:shadow-[0_8px_30px_rgba(245,124,0,0.15)] hover:scale-[1.02] active:scale-[0.98]">
+                        <div
+                            class="w-10 h-10 rounded-full bg-accent-bhu-saffron/10 border border-accent-bhu-saffron/30 flex items-center justify-center text-accent-bhu-saffron group-hover:bg-accent-bhu-saffron group-hover:text-white group-hover:border-transparent transition-all duration-300">
+                            <span class="material-symbols-outlined text-lg">school</span>
                         </div>
-                        <span class="text-[8px] font-bold text-white/70 bg-white/10 px-2 py-0.5 rounded uppercase tracking-wider mt-1">Coming Soon</span>
-                    </div>
-                    <div>
-                        <h4 class="font-bold text-sm text-white group-hover:text-accent-neural-purple transition-colors">Mid Term Preparation</h4>
-                        <p class="text-[11px] text-neutral-400 mt-0.5 group-hover:text-neutral-300 transition-colors">Mid-semester checkpoint</p>
-                    </div>
-                </button>
-                <!-- Lab Practice -->
-                <button onclick="alert('Lab Preparation is coming soon!')" class="p-5 md:p-6 rounded-2xl border border-neutral-800 bg-black text-white hover:border-accent-neural-blue hover:bg-neutral-900 transition-all duration-300 text-left flex flex-col gap-3 group hover:shadow-[0_8px_30px_rgba(59,130,246,0.15)] hover:scale-[1.02] active:scale-[0.98]">
-                    <div class="flex justify-between items-start w-full">
-                        <div class="w-10 h-10 rounded-full bg-accent-neural-blue/10 border border-accent-neural-blue/30 flex items-center justify-center text-accent-neural-blue group-hover:bg-accent-neural-blue group-hover:text-white group-hover:border-transparent transition-all duration-300">
-                            <span class="material-symbols-outlined text-lg">science</span>
+                        <div>
+                            <h4
+                                class="font-bold text-sm text-white group-hover:text-accent-bhu-saffron transition-colors">
+                                End Sem Preparation</h4>
+                            <p
+                                class="text-[11px] text-neutral-400 mt-0.5 group-hover:text-neutral-300 transition-colors">
+                                Comprehensive syllabus review</p>
                         </div>
-                        <span class="text-[8px] font-bold text-white/70 bg-white/10 px-2 py-0.5 rounded uppercase tracking-wider mt-1">Coming Soon</span>
+                    </button>
+                    <!-- Mid Term -->
+                    <button onclick="alert('Mid Term Preparation is coming soon!')"
+                        class="p-5 md:p-6 rounded-2xl border border-neutral-800 bg-black text-white hover:border-accent-neural-purple hover:bg-neutral-900 transition-all duration-300 text-left flex flex-col gap-3 group hover:shadow-[0_8px_30px_rgba(168,85,247,0.15)] hover:scale-[1.02] active:scale-[0.98]">
+                        <div class="flex justify-between items-start w-full">
+                            <div
+                                class="w-10 h-10 rounded-full bg-accent-neural-purple/10 border border-accent-neural-purple/30 flex items-center justify-center text-accent-neural-purple group-hover:bg-accent-neural-purple group-hover:text-white group-hover:border-transparent transition-all duration-300">
+                                <span class="material-symbols-outlined text-lg">edit_calendar</span>
+                            </div>
+                            <span
+                                class="text-[8px] font-bold text-white/70 bg-white/10 px-2 py-0.5 rounded uppercase tracking-wider mt-1">Coming
+                                Soon</span>
+                        </div>
+                        <div>
+                            <h4
+                                class="font-bold text-sm text-white group-hover:text-accent-neural-purple transition-colors">
+                                Mid Term Preparation</h4>
+                            <p
+                                class="text-[11px] text-neutral-400 mt-0.5 group-hover:text-neutral-300 transition-colors">
+                                Mid-semester checkpoint</p>
+                        </div>
+                    </button>
+                    <!-- Lab Practice -->
+                    <button onclick="alert('Lab Preparation is coming soon!')"
+                        class="p-5 md:p-6 rounded-2xl border border-neutral-800 bg-black text-white hover:border-accent-neural-blue hover:bg-neutral-900 transition-all duration-300 text-left flex flex-col gap-3 group hover:shadow-[0_8px_30px_rgba(59,130,246,0.15)] hover:scale-[1.02] active:scale-[0.98]">
+                        <div class="flex justify-between items-start w-full">
+                            <div
+                                class="w-10 h-10 rounded-full bg-accent-neural-blue/10 border border-accent-neural-blue/30 flex items-center justify-center text-accent-neural-blue group-hover:bg-accent-neural-blue group-hover:text-white group-hover:border-transparent transition-all duration-300">
+                                <span class="material-symbols-outlined text-lg">science</span>
+                            </div>
+                            <span
+                                class="text-[8px] font-bold text-white/70 bg-white/10 px-2 py-0.5 rounded uppercase tracking-wider mt-1">Coming
+                                Soon</span>
+                        </div>
+                        <div>
+                            <h4
+                                class="font-bold text-sm text-white group-hover:text-accent-neural-blue transition-colors">
+                                Lab Preparation</h4>
+                            <p
+                                class="text-[11px] text-neutral-400 mt-0.5 group-hover:text-neutral-300 transition-colors">
+                                Practical & theory calculations</p>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ═══════════════════════════ FEATURES / BENTO ═══════════════════════════ -->
+    <section id="features" class="py-20 md:py-28 bg-white border-t border-border-subtle">
+        <div class="max-w-container-max mx-auto px-6 md:px-padding-edge">
+
+            <!-- Section header -->
+            <div class="text-center mb-14 md:mb-20">
+                <p class="text-xs font-bold uppercase tracking-[0.2em] text-accent-bhu-saffron mb-4">Platform
+                    Capabilities</p>
+                <h2 class="text-3xl md:text-5xl font-bold mb-5 tracking-tight">Designed for academic depth.</h2>
+                <p class="text-base text-secondary max-w-xl mx-auto leading-relaxed">BHU Exam Prep manages the structure
+                    so you can focus on mastering your university syllabi through active recall.</p>
+            </div>
+
+            <!-- Bento Grid — fixed heights per row, no overflow -->
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-5">
+
+                <!-- Row 1: Two symmetric large cards (6 + 6) -->
+                <div onclick="window.location.href='legacy-pyq.html'"
+                    class="md:col-span-6 bento-card glass-panel rounded-2xl p-8 md:p-10 flex flex-col justify-end group cursor-pointer overflow-hidden relative min-h-[280px] md:min-h-[320px]">
+                    <div
+                        class="absolute inset-0 z-0 opacity-[0.07] transition-opacity group-hover:opacity-[0.15] bg-gradient-to-br from-accent-bhu-saffron to-accent-neural-purple rounded-2xl">
+                    </div>
+                    <!-- Decorative grid -->
+                    <div
+                        class="absolute top-8 right-8 grid grid-cols-4 gap-2 opacity-10 group-hover:opacity-20 transition-opacity">
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                        <div class="w-2 h-2 bg-accent-bhu-saffron rounded-full"></div>
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                    </div>
+                    <div class="relative z-10">
+                        <span
+                            class="text-xs font-bold text-accent-bhu-saffron mb-3 block uppercase tracking-widest">Academic
+                            Archive</span>
+                        <h3
+                            class="text-2xl md:text-3xl font-bold mb-3 text-primary group-hover:text-accent-bhu-saffron transition-colors">
+                            Old Education Policy PYQs</h3>
+                        <p class="text-sm text-secondary max-w-md leading-relaxed mb-4">Access previous year question
+                            papers, official syllabus details, and legacy study resources aligned with the curriculum
+                            before the NEP implementation.</p>
+                        <div
+                            class="inline-flex items-center gap-1.5 text-xs font-bold text-primary group-hover:translate-x-1 transition-transform duration-200">
+                            <span>Browse Legacy Papers</span>
+                            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div onclick="window.location.href='nep-pyq.html'"
+                    class="md:col-span-6 bento-card glass-panel rounded-2xl p-8 md:p-10 flex flex-col justify-end group cursor-pointer overflow-hidden relative min-h-[280px] md:min-h-[320px]">
+                    <div
+                        class="absolute inset-0 z-0 opacity-[0.07] transition-opacity group-hover:opacity-[0.15] bg-gradient-to-br from-accent-neural-emerald to-accent-neural-blue rounded-2xl">
+                    </div>
+                    <!-- Decorative grid -->
+                    <div
+                        class="absolute top-8 right-8 grid grid-cols-4 gap-2 opacity-10 group-hover:opacity-20 transition-opacity">
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                        <div class="w-2 h-2 bg-accent-neural-emerald rounded-full"></div>
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                    </div>
+                    <div class="relative z-10">
+                        <span
+                            class="text-xs font-bold text-accent-neural-emerald mb-3 block uppercase tracking-widest">NEP
+                            Portal</span>
+                        <h3
+                            class="text-2xl md:text-3xl font-bold mb-3 text-primary group-hover:text-accent-neural-emerald transition-colors">
+                            NEP Pattern PYQs</h3>
+                        <p class="text-sm text-secondary max-w-md leading-relaxed mb-4">Access premium transcribed past
+                            year papers (Mathematics, Physics, Chemistry) in high-quality compiled PDF format.</p>
+                        <div
+                            class="inline-flex items-center gap-1.5 text-xs font-bold text-primary group-hover:translate-x-1 transition-transform duration-200">
+                            <span>Browse NEP Papers</span>
+                            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2: Four medium cards (3 + 3 + 3 + 3) -->
+                <div onclick="window.location.href='contributors.html'"
+                    class="md:col-span-3 bento-card glass-panel rounded-2xl p-6 flex flex-col justify-between group hover:bg-white/60 transition-colors min-h-[200px] cursor-pointer">
+                    <span
+                        class="material-symbols-outlined text-primary text-3xl group-hover:scale-110 transition-transform duration-300">group</span>
+                    <div>
+                        <div
+                            class="inline-flex items-center gap-1.5 bg-accent-neural-emerald/10 text-accent-neural-emerald text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider mb-2">
+                            The Team</div>
+                        <h4 class="text-lg font-bold text-primary mb-1 leading-snug">Contributors</h4>
+                        <p class="text-xs text-secondary leading-relaxed">Meet the developers and resource contributors.
+                        </p>
+                    </div>
+                </div>
+
+                <div onclick="alert('Reference Books and Notes are coming soon!')"
+                    class="md:col-span-3 bento-card bg-primary text-on-primary rounded-2xl p-6 flex flex-col justify-between hover:bg-neutral-800 transition-colors cursor-pointer group min-h-[200px]">
+                    <div class="flex justify-between items-start">
+                        <span
+                            class="material-symbols-outlined text-3xl text-accent-bhu-saffron group-hover:scale-110 transition-transform duration-300">library_books</span>
+                        <span
+                            class="text-[10px] font-bold text-white/70 bg-white/10 px-2 py-1 rounded-full uppercase tracking-wider">Coming
+                            Soon</span>
                     </div>
                     <div>
-                        <h4 class="font-bold text-sm text-white group-hover:text-accent-neural-blue transition-colors">Lab Preparation</h4>
-                        <p class="text-[11px] text-neutral-400 mt-0.5 group-hover:text-neutral-300 transition-colors">Practical & theory calculations</p>
+                        <h4 class="text-lg font-bold text-white mb-1 leading-snug">Reference Book and Notes</h4>
+                        <p class="text-xs text-white/50 leading-relaxed">Free PDF downloads of official textbooks &
+                            guides.</p>
                     </div>
+                </div>
+
+                <div
+                    class="md:col-span-3 bento-card glass-panel rounded-2xl p-6 flex flex-col justify-between min-h-[200px]">
+                    <div class="flex items-baseline gap-2">
+                        <span class="text-4xl md:text-5xl font-bold text-primary stat-glow">100%</span>
+                    </div>
+                    <div>
+                        <p class="text-xs font-bold text-secondary uppercase tracking-widest mb-1">Accuracy</p>
+                        <p class="text-xs text-secondary leading-relaxed">Cross-checked against department answer keys.
+                        </p>
+                    </div>
+                </div>
+
+                <div
+                    class="md:col-span-3 bento-card glass-panel rounded-2xl p-6 flex flex-col justify-between overflow-hidden relative min-h-[200px]">
+                    <div class="flex gap-2 mb-4">
+                        <div class="w-8 h-8 rounded-lg glass-panel flex items-center justify-center shadow-sm">
+                            <span class="material-symbols-outlined text-primary text-sm">desktop_windows</span>
+                        </div>
+                        <div class="w-8 h-8 rounded-lg glass-panel flex items-center justify-center shadow-sm">
+                            <span class="material-symbols-outlined text-primary text-sm">smartphone</span>
+                        </div>
+                        <div class="w-8 h-8 rounded-lg glass-panel flex items-center justify-center shadow-sm">
+                            <span class="material-symbols-outlined text-primary text-sm">tablet</span>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold text-primary mb-1 leading-snug">Responsive</h4>
+                        <p class="text-xs text-secondary leading-relaxed">Works on workstations, laptops, or mobile
+                            devices.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════ STATS STRIP ═══════════════════════════ -->
+    <section class="py-12 bg-background-warm border-y border-border-subtle">
+        <div class="max-w-container-max mx-auto px-6 md:px-padding-edge">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <div class="text-3xl md:text-4xl font-bold text-primary mb-1">8</div>
+                    <div class="text-xs text-secondary font-medium uppercase tracking-wide">Departments</div>
+                </div>
+                <div>
+                    <div class="text-3xl md:text-4xl font-bold text-primary mb-1">282+</div>
+                    <div class="text-xs text-secondary font-medium uppercase tracking-wide">Transcribed PYQs</div>
+                </div>
+                <div>
+                    <div class="text-3xl md:text-4xl font-bold text-primary mb-1">36,479+</div>
+                    <div class="text-xs text-secondary font-medium uppercase tracking-wide">Lines of LaTeX</div>
+                </div>
+                <div>
+                    <div class="text-3xl md:text-4xl font-bold text-primary mb-1">4,624+</div>
+                    <div class="text-xs text-secondary font-medium uppercase tracking-wide">Questions</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════ CTA ═══════════════════════════ -->
+    <section class="py-24 md:py-32 bg-neutral-900 text-white relative overflow-hidden">
+        <div class="neural-orb bg-accent-bhu-saffron w-[700px] h-[400px] -bottom-32 left-1/4 opacity-[0.08]"></div>
+        <div class="neural-orb bg-accent-neural-purple w-[400px] h-[400px] -top-20 right-0 opacity-[0.06]"></div>
+        <div class="max-w-container-max mx-auto px-6 md:px-padding-edge text-center relative z-10">
+            <p class="text-xs font-bold uppercase tracking-[0.2em] text-accent-bhu-saffron mb-6">Ready to prepare?</p>
+            <h2 class="text-3xl md:text-5xl font-bold mb-6 max-w-3xl mx-auto leading-tight">Upholding institutional
+                excellence at Banaras Hindu University.</h2>
+            <p class="text-sm md:text-base text-neutral-400 mb-10 max-w-xl mx-auto leading-relaxed">Elevate your
+                preparation standards. Get instant diagnostic feedback on your test results.</p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <button onclick="window.location.href='subjects.html'"
+                    class="bg-white text-primary px-10 py-4 rounded-full font-bold text-sm hover:scale-105 active:scale-95 transition-all shadow-xl hover:bg-neutral-100 w-full sm:w-auto">
+                    Start Mock Exam
                 </button>
             </div>
         </div>
-    </div>
-</main>
+    </section>
 
-<!-- ═══════════════════════════ FEATURES / BENTO ═══════════════════════════ -->
-<section id="features" class="py-20 md:py-28 bg-white border-t border-border-subtle">
-    <div class="max-w-container-max mx-auto px-6 md:px-padding-edge">
 
-        <!-- Section header -->
-        <div class="text-center mb-14 md:mb-20">
-            <p class="text-xs font-bold uppercase tracking-[0.2em] text-accent-bhu-saffron mb-4">Platform Capabilities</p>
-            <h2 class="text-3xl md:text-5xl font-bold mb-5 tracking-tight">Designed for academic depth.</h2>
-            <p class="text-base text-secondary max-w-xl mx-auto leading-relaxed">BHU Exam Prep manages the structure so you can focus on mastering your university syllabi through active recall.</p>
-        </div>
-
-        <!-- Bento Grid — fixed heights per row, no overflow -->
-        <div class="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-5">
-
-            <!-- Row 1: Two symmetric large cards (6 + 6) -->
-            <div onclick="window.location.href='legacy-pyq.html'" class="md:col-span-6 bento-card glass-panel rounded-2xl p-8 md:p-10 flex flex-col justify-end group cursor-pointer overflow-hidden relative min-h-[280px] md:min-h-[320px]">
-                <div class="absolute inset-0 z-0 opacity-[0.07] transition-opacity group-hover:opacity-[0.15] bg-gradient-to-br from-accent-bhu-saffron to-accent-neural-purple rounded-2xl"></div>
-                <!-- Decorative grid -->
-                <div class="absolute top-8 right-8 grid grid-cols-4 gap-2 opacity-10 group-hover:opacity-20 transition-opacity">
-                    <div class="w-2 h-2 bg-primary rounded-full"></div><div class="w-2 h-2 bg-primary rounded-full"></div><div class="w-2 h-2 bg-primary rounded-full"></div><div class="w-2 h-2 bg-primary rounded-full"></div>
-                    <div class="w-2 h-2 bg-primary rounded-full"></div><div class="w-2 h-2 bg-primary rounded-full"></div><div class="w-2 h-2 bg-primary rounded-full"></div><div class="w-2 h-2 bg-primary rounded-full"></div>
-                    <div class="w-2 h-2 bg-primary rounded-full"></div><div class="w-2 h-2 bg-primary rounded-full"></div><div class="w-2 h-2 bg-accent-bhu-saffron rounded-full"></div><div class="w-2 h-2 bg-primary rounded-full"></div>
-                </div>
-                <div class="relative z-10">
-                    <span class="text-xs font-bold text-accent-bhu-saffron mb-3 block uppercase tracking-widest">Academic Archive</span>
-                    <h3 class="text-2xl md:text-3xl font-bold mb-3 text-primary group-hover:text-accent-bhu-saffron transition-colors">Old Education Policy PYQs</h3>
-                    <p class="text-sm text-secondary max-w-md leading-relaxed mb-4">Access previous year question papers, official syllabus details, and legacy study resources aligned with the curriculum before the NEP implementation.</p>
-                    <div class="inline-flex items-center gap-1.5 text-xs font-bold text-primary group-hover:translate-x-1 transition-transform duration-200">
-                        <span>Browse Legacy Papers</span>
-                        <span class="material-symbols-outlined text-sm">arrow_forward</span>
-                    </div>
-                </div>
-            </div>
-
-            <div onclick="window.location.href='nep-pyq.html'" class="md:col-span-6 bento-card glass-panel rounded-2xl p-8 md:p-10 flex flex-col justify-end group cursor-pointer overflow-hidden relative min-h-[280px] md:min-h-[320px]">
-                <div class="absolute inset-0 z-0 opacity-[0.07] transition-opacity group-hover:opacity-[0.15] bg-gradient-to-br from-accent-neural-emerald to-accent-neural-blue rounded-2xl"></div>
-                <!-- Decorative grid -->
-                <div class="absolute top-8 right-8 grid grid-cols-4 gap-2 opacity-10 group-hover:opacity-20 transition-opacity">
-                    <div class="w-2 h-2 bg-primary rounded-full"></div><div class="w-2 h-2 bg-primary rounded-full"></div><div class="w-2 h-2 bg-primary rounded-full"></div><div class="w-2 h-2 bg-primary rounded-full"></div>
-                    <div class="w-2 h-2 bg-primary rounded-full"></div><div class="w-2 h-2 bg-primary rounded-full"></div><div class="w-2 h-2 bg-primary rounded-full"></div><div class="w-2 h-2 bg-primary rounded-full"></div>
-                    <div class="w-2 h-2 bg-primary rounded-full"></div><div class="w-2 h-2 bg-primary rounded-full"></div><div class="w-2 h-2 bg-accent-neural-emerald rounded-full"></div><div class="w-2 h-2 bg-primary rounded-full"></div>
-                </div>
-                <div class="relative z-10">
-                    <span class="text-xs font-bold text-accent-neural-emerald mb-3 block uppercase tracking-widest">NEP Portal</span>
-                    <h3 class="text-2xl md:text-3xl font-bold mb-3 text-primary group-hover:text-accent-neural-emerald transition-colors">NEP Pattern PYQs</h3>
-                    <p class="text-sm text-secondary max-w-md leading-relaxed mb-4">Access premium transcribed past year papers (Mathematics, Physics, Chemistry) in high-quality compiled PDF format.</p>
-                    <div class="inline-flex items-center gap-1.5 text-xs font-bold text-primary group-hover:translate-x-1 transition-transform duration-200">
-                        <span>Browse NEP Papers</span>
-                        <span class="material-symbols-outlined text-sm">arrow_forward</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Row 2: Four medium cards (3 + 3 + 3 + 3) -->
-            <div onclick="window.location.href='contributors.html'" class="md:col-span-3 bento-card glass-panel rounded-2xl p-6 flex flex-col justify-between group hover:bg-white/60 transition-colors min-h-[200px] cursor-pointer">
-                <span class="material-symbols-outlined text-primary text-3xl group-hover:scale-110 transition-transform duration-300">group</span>
+    <!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+    <footer class="w-full py-10 bg-background-warm border-t border-border-subtle">
+        <div
+            class="max-w-container-max mx-auto px-6 md:px-padding-edge flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center gap-3">
+                <img src="images/logo.png" alt="BHU Logo" class="h-7 w-auto opacity-60" />
                 <div>
-                    <div class="inline-flex items-center gap-1.5 bg-accent-neural-emerald/10 text-accent-neural-emerald text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider mb-2">The Team</div>
-                    <h4 class="text-lg font-bold text-primary mb-1 leading-snug">Contributors</h4>
-                    <p class="text-xs text-secondary leading-relaxed">Meet the developers and resource contributors.</p>
-                </div>
-            </div>
-
-            <div onclick="alert('Reference Books and Notes are coming soon!')" class="md:col-span-3 bento-card bg-primary text-on-primary rounded-2xl p-6 flex flex-col justify-between hover:bg-neutral-800 transition-colors cursor-pointer group min-h-[200px]">
-                <div class="flex justify-between items-start">
-                    <span class="material-symbols-outlined text-3xl text-accent-bhu-saffron group-hover:scale-110 transition-transform duration-300">library_books</span>
-                    <span class="text-[10px] font-bold text-white/70 bg-white/10 px-2 py-1 rounded-full uppercase tracking-wider">Coming Soon</span>
-                </div>
-                <div>
-                    <h4 class="text-lg font-bold text-white mb-1 leading-snug">Reference Book and Notes</h4>
-                    <p class="text-xs text-white/50 leading-relaxed">Free PDF downloads of official textbooks & guides.</p>
-                </div>
-            </div>
-
-            <div class="md:col-span-3 bento-card glass-panel rounded-2xl p-6 flex flex-col justify-between min-h-[200px]">
-                <div class="flex items-baseline gap-2">
-                    <span class="text-4xl md:text-5xl font-bold text-primary stat-glow">100%</span>
-                </div>
-                <div>
-                    <p class="text-xs font-bold text-secondary uppercase tracking-widest mb-1">Accuracy</p>
-                    <p class="text-xs text-secondary leading-relaxed">Cross-checked against department answer keys.</p>
-                </div>
-            </div>
-
-            <div class="md:col-span-3 bento-card glass-panel rounded-2xl p-6 flex flex-col justify-between overflow-hidden relative min-h-[200px]">
-                <div class="flex gap-2 mb-4">
-                    <div class="w-8 h-8 rounded-lg glass-panel flex items-center justify-center shadow-sm">
-                        <span class="material-symbols-outlined text-primary text-sm">desktop_windows</span>
+                    <div class="text-xs font-semibold tracking-wider text-primary uppercase">Banaras Hindu University
                     </div>
-                    <div class="w-8 h-8 rounded-lg glass-panel flex items-center justify-center shadow-sm">
-                        <span class="material-symbols-outlined text-primary text-sm">smartphone</span>
-                    </div>
-                    <div class="w-8 h-8 rounded-lg glass-panel flex items-center justify-center shadow-sm">
-                        <span class="material-symbols-outlined text-primary text-sm">tablet</span>
-                    </div>
-                </div>
-                <div>
-                    <h4 class="text-lg font-bold text-primary mb-1 leading-snug">Responsive</h4>
-                    <p class="text-xs text-secondary leading-relaxed">Works on workstations, laptops, or mobile devices.</p>
+                    <p class="text-xs text-secondary">© 2026 BHU Exam Prep. Prepared under academic guidance.</p>
                 </div>
             </div>
-
-        </div>
-    </div>
-</section>
-
-<!-- ═══════════════════════════ STATS STRIP ═══════════════════════════ -->
-<section class="py-12 bg-background-warm border-y border-border-subtle">
-    <div class="max-w-container-max mx-auto px-6 md:px-padding-edge">
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div>
-                <div class="text-3xl md:text-4xl font-bold text-primary mb-1">8+</div>
-                <div class="text-xs text-secondary font-medium uppercase tracking-wide">Departments</div>
-            </div>
-            <div>
-                <div class="text-3xl md:text-4xl font-bold text-primary mb-1">282+</div>
-                <div class="text-xs text-secondary font-medium uppercase tracking-wide">Transcribed PYQs</div>
-            </div>
-            <div>
-                <div class="text-3xl md:text-4xl font-bold text-primary mb-1">36,479+</div>
-                <div class="text-xs text-secondary font-medium uppercase tracking-wide">Lines of LaTeX</div>
-            </div>
-            <div>
-                <div class="text-3xl md:text-4xl font-bold text-primary mb-1">4,624+</div>
-                <div class="text-xs text-secondary font-medium uppercase tracking-wide">Questions</div>
+            <div class="flex gap-6">
+                <a class="text-xs text-secondary hover:text-primary transition-colors" href="privacy.html">Privacy
+                    Policy</a>
+                <a class="text-xs text-secondary hover:text-primary transition-colors" href="terms.html">Terms of
+                    Service</a>
+                <a class="text-xs text-secondary hover:text-primary transition-colors" href="#"
+                    onclick="handlePlaceholderClick(event)">Student Manual</a>
             </div>
         </div>
-    </div>
-</section>
+    </footer>
 
-<!-- ═══════════════════════════ CTA ═══════════════════════════ -->
-<section class="py-24 md:py-32 bg-neutral-900 text-white relative overflow-hidden">
-    <div class="neural-orb bg-accent-bhu-saffron w-[700px] h-[400px] -bottom-32 left-1/4 opacity-[0.08]"></div>
-    <div class="neural-orb bg-accent-neural-purple w-[400px] h-[400px] -top-20 right-0 opacity-[0.06]"></div>
-    <div class="max-w-container-max mx-auto px-6 md:px-padding-edge text-center relative z-10">
-        <p class="text-xs font-bold uppercase tracking-[0.2em] text-accent-bhu-saffron mb-6">Ready to prepare?</p>
-        <h2 class="text-3xl md:text-5xl font-bold mb-6 max-w-3xl mx-auto leading-tight">Upholding institutional excellence at Banaras Hindu University.</h2>
-        <p class="text-sm md:text-base text-neutral-400 mb-10 max-w-xl mx-auto leading-relaxed">Elevate your preparation standards. Get instant diagnostic feedback on your test results.</p>
-        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <button onclick="window.location.href='subjects.html'" class="bg-white text-primary px-10 py-4 rounded-full font-bold text-sm hover:scale-105 active:scale-95 transition-all shadow-xl hover:bg-neutral-100 w-full sm:w-auto">
-                Start Mock Exam
+    <!-- ═══════════════════════════ BOOKS MODAL ═══════════════════════════ -->
+    <div id="booksModal" onclick="if(event.target === this) closeBooksModal()"
+        class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/40 backdrop-blur-md opacity-0 transition-opacity duration-300 p-4 overflow-y-auto">
+        <div
+            class="bg-white rounded-2xl w-full max-w-2xl p-6 sm:p-8 shadow-2xl relative border border-border-subtle transform scale-95 transition-transform duration-300 my-auto max-h-[90vh] overflow-y-auto">
+            <button onclick="closeBooksModal()"
+                class="absolute top-5 right-5 w-8 h-8 flex items-center justify-center rounded-full hover:bg-surface-container text-secondary hover:text-primary transition-colors">
+                <span class="material-symbols-outlined text-lg">close</span>
             </button>
-        </div>
-    </div>
-</section>
-
-
-<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
-<footer class="w-full py-10 bg-background-warm border-t border-border-subtle">
-    <div class="max-w-container-max mx-auto px-6 md:px-padding-edge flex flex-col md:flex-row justify-between items-center gap-6">
-        <div class="flex items-center gap-3">
-            <img src="images/logo.png" alt="BHU Logo" class="h-7 w-auto opacity-60"/>
-            <div>
-                <div class="text-xs font-semibold tracking-wider text-primary uppercase">Banaras Hindu University</div>
-                <p class="text-xs text-secondary">© 2026 BHU Exam Prep. Prepared under academic guidance.</p>
+            <div class="flex flex-col items-center mb-8">
+                <div
+                    class="w-12 h-12 rounded-full bg-accent-bhu-saffron/10 flex items-center justify-center text-accent-bhu-saffron mb-3">
+                    <span class="material-symbols-outlined text-2xl">library_books</span>
+                </div>
+                <h3 class="text-2xl font-bold text-primary text-center">Reference Library</h3>
+                <p class="text-xs text-secondary mt-1 text-center">Download official textbooks & syllabi for BHU
+                    preparation</p>
             </div>
-        </div>
-        <div class="flex gap-6">
-            <a class="text-xs text-secondary hover:text-primary transition-colors" href="privacy.html">Privacy Policy</a>
-            <a class="text-xs text-secondary hover:text-primary transition-colors" href="terms.html">Terms of Service</a>
-            <a class="text-xs text-secondary hover:text-primary transition-colors" href="#" onclick="handlePlaceholderClick(event)">Student Manual</a>
-        </div>
-    </div>
-</footer>
-
-<!-- ═══════════════════════════ BOOKS MODAL ═══════════════════════════ -->
-<div id="booksModal" onclick="if(event.target === this) closeBooksModal()" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/40 backdrop-blur-md opacity-0 transition-opacity duration-300 p-4 overflow-y-auto">
-    <div class="bg-white rounded-2xl w-full max-w-2xl p-6 sm:p-8 shadow-2xl relative border border-border-subtle transform scale-95 transition-transform duration-300 my-auto max-h-[90vh] overflow-y-auto">
-        <button onclick="closeBooksModal()" class="absolute top-5 right-5 w-8 h-8 flex items-center justify-center rounded-full hover:bg-surface-container text-secondary hover:text-primary transition-colors">
-            <span class="material-symbols-outlined text-lg">close</span>
-        </button>
-        <div class="flex flex-col items-center mb-8">
-            <div class="w-12 h-12 rounded-full bg-accent-bhu-saffron/10 flex items-center justify-center text-accent-bhu-saffron mb-3">
-                <span class="material-symbols-outlined text-2xl">library_books</span>
-            </div>
-            <h3 class="text-2xl font-bold text-primary text-center">Reference Library</h3>
-            <p class="text-xs text-secondary mt-1 text-center">Download official textbooks & syllabi for BHU preparation</p>
-        </div>
-        <div class="space-y-6">
-            <div>
-                <h4 class="text-xs font-bold text-secondary uppercase tracking-widest mb-3 border-b border-border-subtle pb-1">Multivariable Calculus (MATMJ41)</h4>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div class="p-4 rounded-xl border border-border-subtle bg-background-warm/50 flex flex-col justify-between gap-3 hover:shadow-sm transition-all text-left">
-                        <div>
-                            <h5 class="font-bold text-sm text-primary">Thomas' Calculus</h5>
-                            <p class="text-[10px] text-secondary mt-1">14th Edition • Primary reference for limits, multiple integrals, and vector calculus.</p>
+            <div class="space-y-6">
+                <div>
+                    <h4
+                        class="text-xs font-bold text-secondary uppercase tracking-widest mb-3 border-b border-border-subtle pb-1">
+                        Multivariable Calculus (MATMJ41)</h4>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div
+                            class="p-4 rounded-xl border border-border-subtle bg-background-warm/50 flex flex-col justify-between gap-3 hover:shadow-sm transition-all text-left">
+                            <div>
+                                <h5 class="font-bold text-sm text-primary">Thomas' Calculus</h5>
+                                <p class="text-[10px] text-secondary mt-1">14th Edition • Primary reference for limits,
+                                    multiple integrals, and vector calculus.</p>
+                            </div>
+                            <a href="https://archive.org/download/thomas-calculus-14th-edition/Thomas%27%20Calculus%20%2814th%20Edition%29.pdf"
+                                target="_blank"
+                                class="w-full bg-primary text-on-primary py-2 rounded-full font-bold text-xs flex items-center justify-center gap-2 hover:bg-neutral-800 active:scale-95 transition-all">
+                                <span class="material-symbols-outlined text-sm">download</span>
+                                <span>Download PDF</span>
+                            </a>
                         </div>
-                        <a href="https://archive.org/download/thomas-calculus-14th-edition/Thomas%27%20Calculus%20%2814th%20Edition%29.pdf" target="_blank" class="w-full bg-primary text-on-primary py-2 rounded-full font-bold text-xs flex items-center justify-center gap-2 hover:bg-neutral-800 active:scale-95 transition-all">
-                            <span class="material-symbols-outlined text-sm">download</span>
-                            <span>Download PDF</span>
-                        </a>
-                    </div>
-                    <div class="p-4 rounded-xl border border-border-subtle bg-background-warm/50 flex flex-col justify-between gap-3 hover:shadow-sm transition-all text-left">
-                        <div>
-                            <h5 class="font-bold text-sm text-primary">Stewart Calculus</h5>
-                            <p class="text-[10px] text-secondary mt-1">7th Edition • Excellent reference for partial derivatives, Lagrange multipliers, and Green's Theorem.</p>
+                        <div
+                            class="p-4 rounded-xl border border-border-subtle bg-background-warm/50 flex flex-col justify-between gap-3 hover:shadow-sm transition-all text-left">
+                            <div>
+                                <h5 class="font-bold text-sm text-primary">Stewart Calculus</h5>
+                                <p class="text-[10px] text-secondary mt-1">7th Edition • Excellent reference for partial
+                                    derivatives, Lagrange multipliers, and Green's Theorem.</p>
+                            </div>
+                            <a href="https://archive.org/download/stewart-calculus-7e/stewart-calculus-7e.pdf"
+                                target="_blank"
+                                class="w-full bg-primary text-on-primary py-2 rounded-full font-bold text-xs flex items-center justify-center gap-2 hover:bg-neutral-800 active:scale-95 transition-all">
+                                <span class="material-symbols-outlined text-sm">download</span>
+                                <span>Download PDF</span>
+                            </a>
                         </div>
-                        <a href="https://archive.org/download/stewart-calculus-7e/stewart-calculus-7e.pdf" target="_blank" class="w-full bg-primary text-on-primary py-2 rounded-full font-bold text-xs flex items-center justify-center gap-2 hover:bg-neutral-800 active:scale-95 transition-all">
-                            <span class="material-symbols-outlined text-sm">download</span>
-                            <span>Download PDF</span>
-                        </a>
                     </div>
                 </div>
-            </div>
-            <div>
-                <h4 class="text-xs font-bold text-secondary uppercase tracking-widest mb-3 border-b border-border-subtle pb-1">Academic Writing (AEC)</h4>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div class="p-4 rounded-xl border border-border-subtle bg-background-warm/50 flex flex-col justify-between gap-3 hover:shadow-sm transition-all text-left">
-                        <div>
-                            <h5 class="font-bold text-sm text-primary">Academic Writing Handbook</h5>
-                            <p class="text-[10px] text-secondary mt-1">A comprehensive guide for formatting, citations, and plagiarism prevention.</p>
+                <div>
+                    <h4
+                        class="text-xs font-bold text-secondary uppercase tracking-widest mb-3 border-b border-border-subtle pb-1">
+                        Academic Writing (AEC)</h4>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div
+                            class="p-4 rounded-xl border border-border-subtle bg-background-warm/50 flex flex-col justify-between gap-3 hover:shadow-sm transition-all text-left">
+                            <div>
+                                <h5 class="font-bold text-sm text-primary">Academic Writing Handbook</h5>
+                                <p class="text-[10px] text-secondary mt-1">A comprehensive guide for formatting,
+                                    citations, and plagiarism prevention.</p>
+                            </div>
+                            <a href="https://archive.org/download/academic-writing-handbook-for-international-students/academic-writing-handbook-for-international-students.pdf"
+                                target="_blank"
+                                class="w-full bg-primary text-on-primary py-2 rounded-full font-bold text-xs flex items-center justify-center gap-2 hover:bg-neutral-800 active:scale-95 transition-all">
+                                <span class="material-symbols-outlined text-sm">download</span>
+                                <span>Download PDF</span>
+                            </a>
                         </div>
-                        <a href="https://archive.org/download/academic-writing-handbook-for-international-students/academic-writing-handbook-for-international-students.pdf" target="_blank" class="w-full bg-primary text-on-primary py-2 rounded-full font-bold text-xs flex items-center justify-center gap-2 hover:bg-neutral-800 active:scale-95 transition-all">
-                            <span class="material-symbols-outlined text-sm">download</span>
-                            <span>Download PDF</span>
-                        </a>
-                    </div>
-                    <div class="p-4 rounded-xl border border-border-subtle bg-background-warm/50 flex flex-col justify-between gap-3 hover:shadow-sm transition-all text-left">
-                        <div>
-                            <h5 class="font-bold text-sm text-primary">BHU Course Syllabus</h5>
-                            <p class="text-[10px] text-secondary mt-1">Official course syllabus guidelines and exam structure reference sheet.</p>
+                        <div
+                            class="p-4 rounded-xl border border-border-subtle bg-background-warm/50 flex flex-col justify-between gap-3 hover:shadow-sm transition-all text-left">
+                            <div>
+                                <h5 class="font-bold text-sm text-primary">BHU Course Syllabus</h5>
+                                <p class="text-[10px] text-secondary mt-1">Official course syllabus guidelines and exam
+                                    structure reference sheet.</p>
+                            </div>
+                            <button onclick="downloadMockSyllabus()"
+                                class="w-full bg-accent-bhu-saffron text-white py-2 rounded-full font-bold text-xs flex items-center justify-center gap-2 hover:bg-amber-600 active:scale-95 transition-all">
+                                <span class="material-symbols-outlined text-sm">download_for_offline</span>
+                                <span>Download Syllabus</span>
+                            </button>
                         </div>
-                        <button onclick="downloadMockSyllabus()" class="w-full bg-accent-bhu-saffron text-white py-2 rounded-full font-bold text-xs flex items-center justify-center gap-2 hover:bg-amber-600 active:scale-95 transition-all">
-                            <span class="material-symbols-outlined text-sm">download_for_offline</span>
-                            <span>Download Syllabus</span>
-                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- ═══════════════════════════ POLICY MODAL ═══════════════════════════ -->
-<div id="policyModal" onclick="if(event.target === this) closePolicyModal()" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/40 backdrop-blur-md opacity-0 transition-opacity duration-300 p-4 overflow-y-auto">
-    <div class="bg-white rounded-2xl w-full max-w-2xl p-6 sm:p-8 shadow-2xl relative border border-border-subtle transform scale-95 transition-transform duration-300 my-auto max-h-[90vh] overflow-y-auto">
-        <button onclick="closePolicyModal()" class="absolute top-5 right-5 w-8 h-8 flex items-center justify-center rounded-full hover:bg-surface-container text-secondary hover:text-primary transition-colors">
-            <span class="material-symbols-outlined text-lg">close</span>
-        </button>
-        <div class="flex flex-col items-center mb-8">
-            <div class="w-12 h-12 rounded-full bg-accent-bhu-saffron/10 flex items-center justify-center text-accent-bhu-saffron mb-3">
-                <span class="material-symbols-outlined text-2xl">history_edu</span>
+    <!-- ═══════════════════════════ POLICY MODAL ═══════════════════════════ -->
+    <div id="policyModal" onclick="if(event.target === this) closePolicyModal()"
+        class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/40 backdrop-blur-md opacity-0 transition-opacity duration-300 p-4 overflow-y-auto">
+        <div
+            class="bg-white rounded-2xl w-full max-w-2xl p-6 sm:p-8 shadow-2xl relative border border-border-subtle transform scale-95 transition-transform duration-300 my-auto max-h-[90vh] overflow-y-auto">
+            <button onclick="closePolicyModal()"
+                class="absolute top-5 right-5 w-8 h-8 flex items-center justify-center rounded-full hover:bg-surface-container text-secondary hover:text-primary transition-colors">
+                <span class="material-symbols-outlined text-lg">close</span>
+            </button>
+            <div class="flex flex-col items-center mb-8">
+                <div
+                    class="w-12 h-12 rounded-full bg-accent-bhu-saffron/10 flex items-center justify-center text-accent-bhu-saffron mb-3">
+                    <span class="material-symbols-outlined text-2xl">history_edu</span>
+                </div>
+                <h3 class="text-2xl font-bold text-primary text-center">Old Education Policy PYQs</h3>
+                <p class="text-xs text-secondary mt-1 text-center">Previous year question papers and legacy syllabus
+                    resources</p>
             </div>
-            <h3 class="text-2xl font-bold text-primary text-center">Old Education Policy PYQs</h3>
-            <p class="text-xs text-secondary mt-1 text-center">Previous year question papers and legacy syllabus resources</p>
-        </div>
-        
-        <div class="bg-accent-bhu-saffron/5 border border-accent-bhu-saffron/20 rounded-xl p-4 mb-6 flex items-start gap-3">
-            <span class="material-symbols-outlined text-accent-bhu-saffron shrink-0">info</span>
-            <div class="text-xs text-on-surface/80 leading-relaxed">
-                <strong>Upload Queue:</strong> This workstation section is ready to link your legacy question papers. Provide your PDF links or question bank content, and they will be placed here immediately.
-            </div>
-        </div>
 
-        <div class="space-y-6">
-            <div>
-                <h4 class="text-xs font-bold text-secondary uppercase tracking-widest mb-3 border-b border-border-subtle pb-1">Legacy Papers & Mock Sheets</h4>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <!-- Paper 1 -->
-                    <div class="p-4 rounded-xl border border-border-subtle bg-background-warm/50 flex flex-col justify-between gap-3 hover:shadow-sm transition-all text-left">
-                        <div>
-                            <span class="bg-accent-bhu-saffron/10 text-accent-bhu-saffron px-2.5 py-0.5 rounded text-[8px] font-bold uppercase tracking-wider">Queue Active</span>
-                            <h5 class="font-bold text-sm text-primary mt-2">Legacy Syllabus Paper I</h5>
-                            <p class="text-[10px] text-secondary mt-1">Ready for your PYQ content. Send your PDF link/text to place it here.</p>
+            <div
+                class="bg-accent-bhu-saffron/5 border border-accent-bhu-saffron/20 rounded-xl p-4 mb-6 flex items-start gap-3">
+                <span class="material-symbols-outlined text-accent-bhu-saffron shrink-0">info</span>
+                <div class="text-xs text-on-surface/80 leading-relaxed">
+                    <strong>Upload Queue:</strong> This workstation section is ready to link your legacy question
+                    papers. Provide your PDF links or question bank content, and they will be placed here immediately.
+                </div>
+            </div>
+
+            <div class="space-y-6">
+                <div>
+                    <h4
+                        class="text-xs font-bold text-secondary uppercase tracking-widest mb-3 border-b border-border-subtle pb-1">
+                        Legacy Papers & Mock Sheets</h4>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <!-- Paper 1 -->
+                        <div
+                            class="p-4 rounded-xl border border-border-subtle bg-background-warm/50 flex flex-col justify-between gap-3 hover:shadow-sm transition-all text-left">
+                            <div>
+                                <span
+                                    class="bg-accent-bhu-saffron/10 text-accent-bhu-saffron px-2.5 py-0.5 rounded text-[8px] font-bold uppercase tracking-wider">Queue
+                                    Active</span>
+                                <h5 class="font-bold text-sm text-primary mt-2">Legacy Syllabus Paper I</h5>
+                                <p class="text-[10px] text-secondary mt-1">Ready for your PYQ content. Send your PDF
+                                    link/text to place it here.</p>
+                            </div>
+                            <button onclick="alert('Ready to upload! Provide the PYQs to replace this placeholder.')"
+                                class="w-full bg-primary text-on-primary py-2 rounded-full font-bold text-xs flex items-center justify-center gap-2 hover:bg-neutral-800 active:scale-95 transition-all">
+                                <span class="material-symbols-outlined text-sm">upload</span>
+                                <span>Upload/Provide PYQ</span>
+                            </button>
                         </div>
-                        <button onclick="alert('Ready to upload! Provide the PYQs to replace this placeholder.')" class="w-full bg-primary text-on-primary py-2 rounded-full font-bold text-xs flex items-center justify-center gap-2 hover:bg-neutral-800 active:scale-95 transition-all">
-                            <span class="material-symbols-outlined text-sm">upload</span>
-                            <span>Upload/Provide PYQ</span>
-                        </button>
-                    </div>
-                    <!-- Paper 2 -->
-                    <div class="p-4 rounded-xl border border-border-subtle bg-background-warm/50 flex flex-col justify-between gap-3 hover:shadow-sm transition-all text-left">
-                        <div>
-                            <span class="bg-accent-bhu-saffron/10 text-accent-bhu-saffron px-2.5 py-0.5 rounded text-[8px] font-bold uppercase tracking-wider">Queue Active</span>
-                            <h5 class="font-bold text-sm text-primary mt-2">Legacy Syllabus Paper II</h5>
-                            <p class="text-[10px] text-secondary mt-1">Ready for your PYQ content. Send your PDF link/text to place it here.</p>
+                        <!-- Paper 2 -->
+                        <div
+                            class="p-4 rounded-xl border border-border-subtle bg-background-warm/50 flex flex-col justify-between gap-3 hover:shadow-sm transition-all text-left">
+                            <div>
+                                <span
+                                    class="bg-accent-bhu-saffron/10 text-accent-bhu-saffron px-2.5 py-0.5 rounded text-[8px] font-bold uppercase tracking-wider">Queue
+                                    Active</span>
+                                <h5 class="font-bold text-sm text-primary mt-2">Legacy Syllabus Paper II</h5>
+                                <p class="text-[10px] text-secondary mt-1">Ready for your PYQ content. Send your PDF
+                                    link/text to place it here.</p>
+                            </div>
+                            <button onclick="alert('Ready to upload! Provide the PYQs to replace this placeholder.')"
+                                class="w-full bg-primary text-on-primary py-2 rounded-full font-bold text-xs flex items-center justify-center gap-2 hover:bg-neutral-800 active:scale-95 transition-all">
+                                <span class="material-symbols-outlined text-sm">upload</span>
+                                <span>Upload/Provide PYQ</span>
+                            </button>
                         </div>
-                        <button onclick="alert('Ready to upload! Provide the PYQs to replace this placeholder.')" class="w-full bg-primary text-on-primary py-2 rounded-full font-bold text-xs flex items-center justify-center gap-2 hover:bg-neutral-800 active:scale-95 transition-all">
-                            <span class="material-symbols-outlined text-sm">upload</span>
-                            <span>Upload/Provide PYQ</span>
-                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<script type="module">
-    import { StateManager } from './js/state-manager.js?v=4';
+    <script type="module">
+        import { StateManager } from './js/state-manager.js?v=4';
 
-    window.handlePlaceholderClick = function(event) {
-        if (event) { event.preventDefault(); event.stopPropagation(); }
-        if (confirm("I am working on it! Would you like to visit my portfolio website: https://me-aryan.vercel.app?")) {
-            window.location.href = "https://me-aryan.vercel.app";
-        }
-    };
+        window.handlePlaceholderClick = function (event) {
+            if (event) { event.preventDefault(); event.stopPropagation(); }
+            if (confirm("I am working on it! Would you like to visit my portfolio website: https://me-aryan.vercel.app?")) {
+                window.location.href = "https://me-aryan.vercel.app";
+            }
+        };
 
-    window.selectPracticeMode = function(mode) {
-        window.location.href = `subjects.html?type=${mode}`;
-    };
+        window.selectPracticeMode = function (mode) {
+            window.location.href = `subjects.html?type=${mode}`;
+        };
 
-    window.openBooksModal = function() {
-        const modal = document.getElementById('booksModal');
-        modal.classList.remove('hidden');
-        modal.classList.add('flex');
-        setTimeout(() => {
-            modal.classList.remove('opacity-0');
-            modal.querySelector('.bg-white').classList.remove('scale-95');
-        }, 10);
-    };
+        window.openBooksModal = function () {
+            const modal = document.getElementById('booksModal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            setTimeout(() => {
+                modal.classList.remove('opacity-0');
+                modal.querySelector('.bg-white').classList.remove('scale-95');
+            }, 10);
+        };
 
-    window.closeBooksModal = function() {
-        const modal = document.getElementById('booksModal');
-        modal.classList.add('opacity-0');
-        modal.querySelector('.bg-white').classList.add('scale-95');
-        setTimeout(() => {
-            modal.classList.add('hidden');
-            modal.classList.remove('flex');
-        }, 300);
-    };
+        window.closeBooksModal = function () {
+            const modal = document.getElementById('booksModal');
+            modal.classList.add('opacity-0');
+            modal.querySelector('.bg-white').classList.add('scale-95');
+            setTimeout(() => {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
+            }, 300);
+        };
 
-    window.openPolicyModal = function() {
-        const modal = document.getElementById('policyModal');
-        modal.classList.remove('hidden');
-        modal.classList.add('flex');
-        setTimeout(() => {
-            modal.classList.remove('opacity-0');
-            modal.querySelector('.bg-white').classList.remove('scale-95');
-        }, 10);
-    };
+        window.openPolicyModal = function () {
+            const modal = document.getElementById('policyModal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            setTimeout(() => {
+                modal.classList.remove('opacity-0');
+                modal.querySelector('.bg-white').classList.remove('scale-95');
+            }, 10);
+        };
 
-    window.closePolicyModal = function() {
-        const modal = document.getElementById('policyModal');
-        modal.classList.add('opacity-0');
-        modal.querySelector('.bg-white').classList.add('scale-95');
-        setTimeout(() => {
-            modal.classList.add('hidden');
-            modal.classList.remove('flex');
-        }, 300);
-    };
+        window.closePolicyModal = function () {
+            const modal = document.getElementById('policyModal');
+            modal.classList.add('opacity-0');
+            modal.querySelector('.bg-white').classList.add('scale-95');
+            setTimeout(() => {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
+            }, 300);
+        };
 
-    window.downloadMockSyllabus = function() {
-        const text = `================================================
+        window.downloadMockSyllabus = function () {
+            const text = `================================================
 BANARAS HINDU UNIVERSITY (BHU)
 OFFICIAL SYLLABUS & PREPARATION GUIDE
 ================================================
@@ -585,30 +740,31 @@ OFFICIAL SYLLABUS & PREPARATION GUIDE
 
 ================================================
 Mock Workstation Active. Happy Prep!`;
-        const blob = new Blob([text], { type: 'text/plain' });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = 'BHU_Syllabus_Guide.txt';
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        URL.revokeObjectURL(url);
-    };
+            const blob = new Blob([text], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'BHU_Syllabus_Guide.txt';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        };
 
-    // Floating orbs mouse parallax
-    document.addEventListener('mousemove', (e) => {
-        const orbs = document.querySelectorAll('.neural-orb');
-        const mouseX = e.clientX / window.innerWidth;
-        const mouseY = e.clientY / window.innerHeight;
-        orbs.forEach((orb, index) => {
-            const speed = (index + 1) * 15;
-            const x = (mouseX - 0.5) * speed;
-            const y = (mouseY - 0.5) * speed;
-            orb.style.transform = `translate(${x}px, ${y}px)`;
+        // Floating orbs mouse parallax
+        document.addEventListener('mousemove', (e) => {
+            const orbs = document.querySelectorAll('.neural-orb');
+            const mouseX = e.clientX / window.innerWidth;
+            const mouseY = e.clientY / window.innerHeight;
+            orbs.forEach((orb, index) => {
+                const speed = (index + 1) * 15;
+                const x = (mouseX - 0.5) * speed;
+                const y = (mouseY - 0.5) * speed;
+                orb.style.transform = `translate(${x}px, ${y}px)`;
+            });
         });
-    });
-</script>
+    </script>
 
 </body>
+
 </html>

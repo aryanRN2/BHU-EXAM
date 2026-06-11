@@ -1,0 +1,153 @@
+% BHU PYQ -- Professional Exam Template
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={CS-101: Problem Solving through C -- BHU PYQ}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{CS-101/BCS-101: Problem Solving through C}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\lstset{
+  basicstyle=\small\ttfamily,
+  frame=single,
+  breaklines=true,
+  columns=flexible,
+  keepspaces=true
+}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) I Semester Examination, 2016-17}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Subject: Computer Science}\\[4pt]
+  {\large\bfseries Paper: CS-101 (Problem Solving through C Programming) /}\\[2pt]
+  {\large\bfseries BCS-101 (Introduction to Computer Programming Through C)}\\[4pt]
+  {\normalsize Time: Three hours \hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: Answer any five questions, including Question No. 1, which is compulsory. All undefined symbols have their usual meanings.}
+
+\bigskip
+
+\medskip\noindent\textbf{Question 1.} Attempt all questions: \pts{$2\times9=18$}
+\begin{parts}
+  \item Define Algorithm. What are its characteristics?
+  \item What is the difference between `=' operator and `==' operator?
+  \item When is the register storage class most useful? Give a suitable example.
+  \item What is the role of a Preprocessor in `C' programming?
+  \item Why is the `\&' operator not used with array name in a \texttt{scanf()} statement?
+  \item What do you mean by `$\to$' operator in C? When is it used?
+  \item What will be the output of the following code?
+\begin{lstlisting}[language=C]
+void main()
+{
+    int a=3, b=4;
+    b %= 3+4;
+    a *= a+5;
+    printf("%d %d", b, a);
+}
+\end{lstlisting}
+  \item Consider the following code segment and write its final output:
+\begin{lstlisting}[language=C]
+void main()
+{
+    int x=3, z;
+    z = x / ++x;
+    printf("x=%d z=%d", x, z);
+}
+\end{lstlisting}
+  \item What is the output of the following code?
+\begin{lstlisting}[language=C]
+void main()
+{
+    int a=30, b=0, c;
+    c = (a != 10) && (b = 0);
+    printf("c = %d", c);
+}
+\end{lstlisting}
+\end{parts}
+
+\medskip\noindent\textbf{Question 2.}
+\begin{parts}
+  \item What is the difference between top-down approach and bottom-up approach of programming? \pts{2}
+  \item Draw a flowchart to find the roots of a quadratic equation $ax^2 + bx + c = 0$. \pts{4}
+  \item List the rules for naming a variable in C. \pts{2}
+  \item Explain the difference between nested if-else clause and else if clause used in C language. \pts{5}
+\end{parts}
+
+\medskip\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Define function. What do you mean by function prototype? Is it always compulsory to write function prototype statement while using a function in a `C' program? Justify your answer with one example. \pts{5}
+  \item Describe the two ways of passing arguments to function? When do you prefer to use each of them? \pts{4}
+  \item Write a program using function to find $m^n$ where $m, n \ge 0$. \pts{4}
+\end{parts}
+
+\medskip\noindent\textbf{Question 4.}
+\begin{parts}
+  \item State the difference between automatic and static storage class variables by using appropriate example. \pts{4}
+  \item Write your own function for the following operations on string: \pts{6}
+  \begin{parts}
+    \item Comparison of two strings
+    \item Copy one string into another string
+  \end{parts}
+  \item What is the use of enumerated data type in `C' programming? \pts{3}
+\end{parts}
+
+\medskip\noindent\textbf{Question 5.}
+\begin{parts}
+  \item How are 2D array elements stored in computer memory in `C' programming? \pts{2}
+  \item Write a `C' program to find out transpose of a given matrix. \pts{4}
+  \item What is meant by the following terms? Give examples of use of each of them. \pts{7}
+  \begin{parts}
+    \item Array of pointers
+    \item Pointer to Array
+  \end{parts}
+\end{parts}
+
+\medskip\noindent\textbf{Question 6.}
+\begin{parts}
+  \item Explain the difference between a `Structure' and a `Union' with suitable examples. \pts{4}
+  \item How do you pass parameters to main() function in a `C' program? Explain with a suitable example. \pts{4}
+  \item Can a structure be used within another structure? Give appropriate example to support your answer. \pts{5}
+\end{parts}
+
+\medskip\noindent\textbf{Question 7.}
+\begin{parts}
+  \item What is the need of dynamic memory allocation? Explain the role of \texttt{realloc()} function with its proper syntax. \pts{5}
+  \item Define Macro. In what situation is it better to use Macro instead of using Function? \pts{3}
+  \item What is conditional compilation? How does it help a programmer? Explain with an example. \pts{5}
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+\end{document}

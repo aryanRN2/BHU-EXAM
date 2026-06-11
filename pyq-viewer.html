@@ -7,13 +7,104 @@
     <!-- Tailwind CSS with Forms and Container Queries -->
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <!-- Google Fonts: Plus Jakarta Sans for UI, Lora for Academic LaTeX Papers -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
     <!-- Link external custom styles -->
     <link rel="stylesheet" href="styles.css"/>
+    <style>
+        /* UI Typography */
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif !important;
+        }
+
+        /* Custom premium paper sheet layout & shadows */
+        .paper-sheet {
+            box-shadow: 
+                0 0 0 1px rgba(0, 0, 0, 0.05),
+                0 4px 6px -1px rgba(0, 0, 0, 0.02),
+                0 15px 35px -5px rgba(0, 0, 0, 0.2),
+                0 30px 60px -15px rgba(0, 0, 0, 0.25);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        /* Premium Studio Backdrop backlight aura behind the paper sheet */
+        .studio-backlight {
+            position: relative;
+        }
+        .studio-backlight::before {
+            content: '';
+            position: absolute;
+            top: 5%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90%;
+            height: 85%;
+            background: radial-gradient(circle, rgba(139, 92, 246, 0.05) 0%, rgba(59, 130, 246, 0.02) 50%, transparent 100%);
+            filter: blur(80px);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        /* Print Mode Optimizations */
+        @media print {
+            body {
+                background: white !important;
+                color: black !important;
+                font-family: 'Lora', Georgia, serif !important;
+            }
+            /* Hide all interactive components, buttons, sidebar, header, loaders */
+            header, footer, aside, button, #toggleViewBtn, #fullscreenIcon, .neural-orb, .px-4.py-3, #viewerLoader {
+                display: none !important;
+            }
+            /* Re-style workspace layout to be direct standard page margins for printing */
+            main, .flex-grow, #viewerContentArea, #nativeRenderArea {
+                display: block !important;
+                background: white !important;
+                padding: 0 !important;
+                margin: 0 !important;
+                height: auto !important;
+                min-height: auto !important;
+                overflow: visible !important;
+                width: 100% !important;
+                position: static !important;
+            }
+            .studio-backlight::before {
+                display: none !important;
+            }
+            /* Standard LaTeX printable layout style on A4 */
+            #renderedLatexContent {
+                box-shadow: none !important;
+                border: none !important;
+                padding: 0 !important;
+                margin: 0 !important;
+                max-width: 100% !important;
+                min-height: auto !important;
+                font-size: 11pt !important;
+                line-height: 1.6 !important;
+                color: black !important;
+                background: white !important;
+            }
+            /* Prevent orphan headings and section headers */
+            h1, h2, h3, h4, .text-extrabold {
+                page-break-after: avoid !important;
+                break-after: avoid !important;
+            }
+            /* Prevent item breaks inside list entries, paragraphs, tables */
+            li, p, tr, table {
+                page-break-inside: avoid !important;
+                break-inside: avoid !important;
+            }
+        }
+    </style>
     <script id="tailwind-config">
         tailwind.config = {
             darkMode: "class",
             theme: {
                 extend: {
+                    fontFamily: {
+                        sans: ["'Plus Jakarta Sans'", "sans-serif"],
+                        serif: ["'Lora'", "Georgia", "serif"],
+                    },
                     colors: {
                         "on-secondary-fixed": "#1b1c1c",
                         "surface-dim": "#dadada",
@@ -127,63 +218,47 @@
         };
     </script>
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script" async></script>
+    <!-- TikZJax for LaTeX TikZ diagrams rendering -->
+    <link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
+    <script src="https://tikzjax.com/v1/tikzjax.js" async></script>
 </head>
 <body class="bg-background-warm text-on-background antialiased selection:bg-accent-bhu-saffron/10 min-h-screen flex flex-col">
 
-<!-- TopNavBar -->
-<nav class="fixed top-0 left-0 right-0 z-50 bg-background-warm/80 backdrop-blur-xl border-b border-border-subtle shadow-sm h-16 md:h-20 w-full flex items-center">
-    <div class="max-w-container-max mx-auto px-4 md:px-padding-edge flex justify-between items-center w-full">
-        <div class="flex items-center gap-3 md:gap-4">
-            <button onclick="goBack()" class="w-8 h-8 md:w-10 md:h-10 rounded-full border border-border-subtle hover:bg-surface-panel transition-all flex items-center justify-center text-secondary hover:text-primary shrink-0 mr-1 md:mr-2" title="Back">
-                <span class="material-symbols-outlined text-base md:text-lg">arrow_back</span>
-            </button>
-            <img src="images/logo.png" alt="BHU Logo" class="h-6 md:h-10 w-auto"/>
-            <span class="text-sm md:text-2xl font-bold tracking-tighter text-primary">BHU Exam Prep</span>
-        </div>
-        <div class="flex items-center gap-3">
-            <span class="bg-accent-bhu-saffron/15 text-accent-bhu-saffron px-2.5 py-0.5 md:px-3 md:py-1 rounded-full text-[10px] md:text-xs font-bold uppercase tracking-wider hidden sm:inline-block">PYQ Portal</span>
-        </div>
-    </div>
-</nav>
-
 <!-- Main Workstation -->
-<main class="relative pt-20 md:pt-28 pb-6 md:pb-10 px-4 md:px-padding-edge max-w-container-max w-full mx-auto flex-grow flex flex-col">
+<main class="relative pt-4 md:pt-6 pb-6 md:pb-10 px-4 md:px-padding-edge max-w-container-max w-full mx-auto flex-grow flex flex-col">
     <!-- Parallax background orbs -->
     <div class="neural-orb bg-accent-bhu-saffron w-[400px] h-[400px] -top-20 -left-10 opacity-20"></div>
     <div class="neural-orb bg-accent-neural-purple w-[300px] h-[300px] bottom-10 -right-10 opacity-20"></div>
 
     <div class="flex flex-col lg:flex-row gap-6 items-stretch flex-grow">
         <!-- PDF Viewer Panel -->
-        <div class="flex-grow bg-white rounded-2xl border border-border-subtle shadow-sm flex flex-col overflow-hidden min-h-[400px] sm:min-h-[500px] h-[60vh] lg:h-auto">
-            <div class="px-4 py-3 sm:px-6 sm:py-4 border-b border-border-subtle flex justify-between items-center bg-white">
-                <div class="flex items-center gap-2.5 sm:gap-3 min-w-0">
-                    <div class="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-red-100 flex items-center justify-center text-red-600 shrink-0">
-                        <span class="material-symbols-outlined text-xs sm:text-sm">picture_as_pdf</span>
+        <div class="flex-grow bg-white rounded-2xl border border-neutral-200 shadow-md flex flex-col overflow-hidden" style="min-height: calc(100dvh - 140px);">
+            <div class="px-4 py-3 sm:px-6 sm:py-4.5 border-b border-neutral-200/80 flex justify-between items-center bg-white/90 backdrop-blur-md sticky top-0 z-30 shadow-sm transition-all duration-300">
+                <div class="flex items-center gap-2.5 sm:gap-3.5 min-w-0">
+                    <button onclick="goBack()" class="w-9 h-9 rounded-full border border-neutral-200 hover:bg-neutral-50 hover:border-neutral-300 hover:text-neutral-900 active:scale-95 transition-all flex items-center justify-center text-neutral-500 shrink-0 mr-1 shadow-sm" title="Back">
+                        <span class="material-symbols-outlined text-sm font-bold">arrow_back</span>
+                    </button>
+                    <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white shrink-0 shadow-md shadow-indigo-500/10">
+                        <span class="material-symbols-outlined text-sm">description</span>
                     </div>
                     <div class="min-w-0">
-                        <h1 id="pdfTitle" class="font-bold text-xs sm:text-sm text-primary truncate">Loading Document...</h1>
-                        <p class="text-[9px] sm:text-[10px] text-secondary font-medium uppercase tracking-wider mt-0.5">BHU Academic Archive</p>
+                        <h1 id="pdfTitle" class="font-bold text-xs sm:text-sm text-neutral-900 truncate">Loading Document...</h1>
+                        <p class="text-[9px] sm:text-[10px] text-neutral-500 font-semibold uppercase tracking-wider mt-0.5">BHU Academic Archive</p>
                     </div>
                 </div>
                 <div class="shrink-0 ml-2 flex items-center gap-2">
-                    <button id="toggleViewBtn" onclick="toggleNativeView()" class="hidden bg-white text-primary border border-border-subtle text-[10px] sm:text-xs font-bold px-3 py-1.5 sm:px-4 sm:py-2 rounded-full hover:bg-neutral-50 transition-all flex items-center gap-1.5 active:scale-95" title="Toggle View Mode">
-                        <span class="material-symbols-outlined text-xs sm:text-sm" id="toggleViewIcon">picture_as_pdf</span>
-                        <span id="toggleViewText">View PDF</span>
-                    </button>
-                    <button onclick="toggleFullscreen()" class="bg-primary text-white text-[10px] sm:text-xs font-bold px-3 py-1.5 sm:px-4 sm:py-2 rounded-full hover:bg-neutral-800 transition-all flex items-center gap-1 sm:gap-1.5 active:scale-95" title="View Fullscreen">
-                        <span class="material-symbols-outlined text-xs sm:text-sm" id="fullscreenIcon">fullscreen</span>
+                    <button onclick="toggleFullscreen()" class="bg-neutral-950 text-white text-[10px] sm:text-xs font-semibold px-3.5 py-2 rounded-full hover:bg-neutral-900 transition-all flex items-center gap-1.5 active:scale-95 shadow-sm hover:shadow-md active:shadow-sm" title="View Fullscreen">
+                        <span class="material-symbols-outlined text-xs sm:text-sm text-white/90" id="fullscreenIcon">fullscreen</span>
                         <span id="fullscreenText">Fullscreen</span>
                     </button>
                 </div>
             </div>
             <!-- Embedded Content Area -->
-            <div class="flex-grow bg-neutral-100 relative flex flex-col overflow-auto" id="viewerContentArea">
-                <!-- PDF Frame -->
-                <iframe id="pdfIframe" src="" class="w-full h-full border-none absolute inset-0 hidden" allowfullscreen></iframe>
+            <div class="flex-grow bg-neutral-50 relative flex flex-col overflow-auto" id="viewerContentArea">
                 
                 <!-- Native Render Panel -->
-                <div id="nativeRenderArea" class="w-full min-h-full bg-neutral-200/50 p-4 sm:p-8 overflow-y-auto hidden flex flex-col items-center">
-                    <div id="renderedLatexContent" class="w-full max-w-[850px] min-h-[1100px] bg-white shadow-[0_4px_24px_rgba(0,0,0,0.12)] border border-neutral-300 rounded-sm p-4 sm:p-8 md:p-16 prose prose-neutral max-w-none text-primary leading-relaxed selection:bg-accent-bhu-saffron/10 tex2jax_process font-serif shrink-0">
+                <div id="nativeRenderArea" class="w-full min-h-full bg-neutral-100 p-3 sm:p-6 md:p-10 overflow-y-auto hidden flex flex-col items-center relative studio-backlight">
+                    <div id="renderedLatexContent" class="w-full max-w-[850px] min-h-[600px] sm:min-h-[900px] md:min-h-[1100px] bg-white paper-sheet border border-neutral-200/30 rounded-sm p-4 sm:p-10 md:p-16 lg:p-20 prose prose-neutral max-w-none text-neutral-900 leading-relaxed selection:bg-accent-bhu-saffron/20 tex2jax_process font-serif shrink-0 relative z-10">
                         <!-- Rendered LaTeX HTML will go here -->
                     </div>
                 </div>
@@ -272,13 +347,133 @@
     let hasLatex = false;
 
     // LaTeX parsing engine to transform raw LaTeX documents to clean semantic HTML
+    // Parse tabular environments to standard HTML tables
+    function parseTabular(tabularTex) {
+        // Extract column alignment spec
+        const colsMatch = tabularTex.match(/\\begin\{tabular\}\s*\{([^}]*)\}/i);
+        if (!colsMatch) return '';
+        
+        const startIndex = colsMatch.index + colsMatch[0].length;
+        const endIndex = tabularTex.lastIndexOf('\\end{tabular}');
+        if (endIndex === -1) return '';
+        let content = tabularTex.substring(startIndex, endIndex);
+        
+        // Clean lines: remove comments
+        content = content.replace(/%.*$/gm, '');
+        
+        // Split into rows by \\
+        const rawRows = content.split(/\\\\/);
+        let htmlRows = '';
+        
+        rawRows.forEach(row => {
+            let line = row.trim();
+            // Skip clean-up macros
+            line = line.replace(/\\toprule/g, '');
+            line = line.replace(/\\midrule/g, '');
+            line = line.replace(/\\bottomrule/g, '');
+            line = line.replace(/\\hline/g, '');
+            line = line.trim();
+            
+            if (!line) return;
+            
+            const cells = line.split('&');
+            let htmlCells = '';
+            cells.forEach(cell => {
+                const cellText = cell.trim();
+                htmlCells += `<td class="border border-neutral-300 px-4 py-2 text-center text-xs sm:text-sm font-medium text-primary">${cellText}</td>`;
+            });
+            htmlRows += `<tr class="hover:bg-neutral-50 transition-colors">${htmlCells}</tr>`;
+        });
+        
+        return `<div class="overflow-x-auto my-6 flex justify-center"><table class="border-collapse border border-neutral-300 shadow-sm max-w-full bg-white my-2">${htmlRows}</table></div>`;
+    }
+
+    // LaTeX parsing engine to transform raw LaTeX documents to clean semantic HTML
     function parseLatex(latex) {
+        function findBalancedClosingBrace(str, startIndex) {
+            let depth = 1;
+            for (let i = startIndex; i < str.length; i++) {
+                if (str[i] === '{') depth++;
+                else if (str[i] === '}') {
+                    depth--;
+                    if (depth === 0) return i;
+                }
+            }
+            return -1;
+        }
+
+        function replaceCommandWithBalancedBraces(content, commandPrefix, replacementGenerator) {
+            let res = content;
+            let idx = 0;
+            const lowerPrefix = commandPrefix.toLowerCase();
+            while (true) {
+                const matchIndex = res.toLowerCase().indexOf(lowerPrefix, idx);
+                if (matchIndex === -1) break;
+                
+                const openingBraceIndex = res.indexOf('{', matchIndex + commandPrefix.length - 1);
+                if (openingBraceIndex !== -1 && openingBraceIndex < matchIndex + commandPrefix.length + 5) {
+                    const closingBraceIndex = findBalancedClosingBrace(res, openingBraceIndex + 1);
+                    if (closingBraceIndex !== -1) {
+                        const innerContent = res.substring(openingBraceIndex + 1, closingBraceIndex);
+                        const replacement = replacementGenerator(innerContent);
+                        res = res.substring(0, matchIndex) + replacement + res.substring(closingBraceIndex + 1);
+                        idx = matchIndex + replacement.length;
+                        continue;
+                    }
+                }
+                idx = matchIndex + 1;
+            }
+            return res;
+        }
+
+        function replaceHrefCommand(content) {
+            let res = content;
+            let idx = 0;
+            while (true) {
+                const matchIndex = res.toLowerCase().indexOf('\\href{', idx);
+                if (matchIndex === -1) break;
+                
+                const openingBrace1 = res.indexOf('{', matchIndex);
+                if (openingBrace1 !== -1) {
+                    const closingBrace1 = findBalancedClosingBrace(res, openingBrace1 + 1);
+                    if (closingBrace1 !== -1) {
+                        const url = res.substring(openingBrace1 + 1, closingBrace1);
+                        let nextOpenIndex = res.indexOf('{', closingBrace1 + 1);
+                        if (nextOpenIndex !== -1 && nextOpenIndex < closingBrace1 + 5) {
+                            const closingBrace2 = findBalancedClosingBrace(res, nextOpenIndex + 1);
+                            if (closingBrace2 !== -1) {
+                                const text = res.substring(nextOpenIndex + 1, closingBrace2);
+                                const replacement = `<a href="${url}" target="_blank" class="text-primary hover:underline font-semibold">${text}</a>`;
+                                res = res.substring(0, matchIndex) + replacement + res.substring(closingBrace2 + 1);
+                                idx = matchIndex + replacement.length;
+                                continue;
+                            }
+                        }
+                    }
+                }
+                idx = matchIndex + 1;
+            }
+            return res;
+        }
+
+        // Extract tikzpicture environments to avoid any formatting corruption
+        const tikzPictures = [];
+        let body = latex.replace(/\\begin\{tikzpicture\}[\s\S]*?\\end\{tikzpicture\}/g, (match) => {
+            const placeholder = `__TIKZ_PICTURE_${tikzPictures.length}__`;
+            tikzPictures.push(match);
+            return placeholder;
+        });
+
+        // Parse tabular environments to standard HTML tables
+        body = body.replace(/\\begin\{tabular\}[\s\S]*?\\end\{tabular\}/gi, (match) => {
+            return parseTabular(match);
+        });
+
         // 1. Extract content inside \begin{document} ... \end{document}
-        const docStart = latex.indexOf('\\begin{document}');
-        const docEnd = latex.indexOf('\\end{document}');
-        let body = latex;
+        const docStart = body.indexOf('\\begin{document}');
+        const docEnd = body.indexOf('\\end{document}');
         if (docStart !== -1 && docEnd !== -1) {
-            body = latex.substring(docStart + '\\begin{document}'.length, docEnd);
+            body = body.substring(docStart + '\\begin{document}'.length, docEnd);
         }
         
         // 2. Remove comments
@@ -288,8 +483,22 @@
         // --- GLOBAL REPLACEMENTS BEFORE SPLITTING BY MATH BLOCKS ---
         // Prevents layout macros containing math symbols (like \pts{5 $\times$ 2 = 10}) from being split and corrupted.
 
-        // Clean printed style for instructions (no colored box)
-        body = body.replace(/\\noindent\\textit\{Instructions:\s*([\s\S]*?)\}/gi, '<div class="my-4 text-xs sm:text-sm italic text-neutral-800"><strong class="not-italic font-bold">Instructions:</strong> $1</div>');
+        // Clean printed style for instructions (no colored box) using balanced braces
+        body = replaceCommandWithBalancedBraces(body, '\\noindent\\textit{Instructions:', (inner) => {
+            return `<div class="my-4 text-xs sm:text-sm italic text-neutral-800"><strong class="not-italic font-bold">Instructions:</strong> ${inner}</div>`;
+        });
+        body = replaceCommandWithBalancedBraces(body, '\\noindent\\textit{Note:', (inner) => {
+            return `<div class="my-4 text-xs sm:text-sm italic text-neutral-800"><strong class="not-italic font-bold">Note:</strong> ${inner}</div>`;
+        });
+        body = replaceCommandWithBalancedBraces(body, '\\textit{Instructions:', (inner) => {
+            return `<div class="my-4 text-xs sm:text-sm italic text-neutral-800"><strong class="not-italic font-bold">Instructions:</strong> ${inner}</div>`;
+        });
+        body = replaceCommandWithBalancedBraces(body, '\\textit{Note:', (inner) => {
+            return `<div class="my-4 text-xs sm:text-sm italic text-neutral-800"><strong class="not-italic font-bold">Note:</strong> ${inner}</div>`;
+        });
+
+        // Parse href link commands
+        body = replaceHrefCommand(body);
 
         // Marks command \pts{...} in LaTeX style (aligned to right margin in brackets)
         body = body.replace(/\\pts\{([\s\S]*?)\}/g, '<span class="inline-block float-right text-xs sm:text-sm italic font-normal text-neutral-700">[$1]</span>');
@@ -309,6 +518,14 @@
         body = body.replace(/\\textit\{([\s\S]*?)\}/g, '<span class="italic">$1</span>');
         body = body.replace(/\\textrm\{([\s\S]*?)\}/g, '<span class="font-serif">$1</span>');
         body = body.replace(/\{\\bfseries\s*([\s\S]*?)\}/g, '<strong>$1</strong>');
+        // Underline and hspace parsing using balanced braces
+        body = replaceCommandWithBalancedBraces(body, '\\underline', (inner) => {
+            return `<span class="border-b border-neutral-900 pb-0.5">${inner}</span>`;
+        });
+        body = replaceCommandWithBalancedBraces(body, '\\hspace', (inner) => {
+            const cleaned = inner.trim();
+            return `<span class="inline-block" style="width: ${cleaned}; min-width: 1em;"></span>`;
+        });
 
         // Section headings (matches A-D and Roman numerals to avoid matching plain words like 'which')
         body = body.replace(/SECTION\s+([A-D]|[IVX]+)\b/gi, '<span class="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-primary border-b-2 border-primary/20 pb-1">SECTION $1</span>');
@@ -316,6 +533,24 @@
         // Standard OR choices dividers
         body = body.replace(/\\hfill\s*\\textbf\{OR\}/gi, '<div class="text-center font-bold my-4 text-xs sm:text-sm text-secondary uppercase tracking-widest">— OR —</div>');
         body = body.replace(/\\textbf\{OR\}/gi, '<div class="text-center font-bold my-4 text-xs sm:text-sm text-secondary uppercase tracking-widest">— OR —</div>');
+
+        // \centerline{...} — centered line, commonly used for "OR", section titles, etc.
+        body = replaceCommandWithBalancedBraces(body, '\\centerline', (inner) => {
+            const trimmed = inner.trim();
+            // Special styling for OR separators
+            if (/^\s*(\\textbf\{)?OR\}?\s*$/.test(trimmed) || trimmed === 'OR') {
+                return '<div class="text-center font-bold my-3 text-xs sm:text-sm text-secondary uppercase tracking-widest">— OR —</div>';
+            }
+            return `<div class="text-center my-2">${trimmed}</div>`;
+        });
+        // Fallback regex for any remaining \centerline{...} not caught by balanced-brace handler
+        body = body.replace(/\\centerline\{([^}]*)\}/g, (match, inner) => {
+            const trimmed = inner.trim();
+            if (trimmed === 'OR' || trimmed === '\\textbf{OR}') {
+                return '<div class="text-center font-bold my-3 text-xs sm:text-sm text-secondary uppercase tracking-widest">— OR —</div>';
+            }
+            return `<div class="text-center my-2">${trimmed}</div>`;
+        });
 
         // Split text by math delimiters to process non-math text formatting
         const mathRegex = /(\$\$[\s\S]*?\$\$|\$[\s\S]*?\$|(?<!\\)\\\[[\s\S]*?\\\]|(?<!\\)\\\([\s\S]*?\\\))/g;
@@ -388,37 +623,111 @@
         
         let processedBody = parts.join('');
         
-        // 9. Nested Parts list parsing (on the processed body)
-        let listDepth = 0;
+        // 9. Robust list environment parser supporting parts, romanparts, enumerate, and itemize (with nested stack)
+        let listStack = [];
         const lines = processedBody.split('\n');
         let parsedHtml = '';
         
         for (let i = 0; i < lines.length; i++) {
             let line = lines[i];
+            let trimmed = line.trim();
             
-            if (line.includes('\\begin{parts}')) {
-                listDepth++;
-                const listClass = listDepth === 1 ? 'list-[lower-alpha]' : 'list-[lower-roman]';
-                parsedHtml += `<ol class="${listClass} pl-6 sm:pl-8 my-3 space-y-3">`;
+            // Check for list start
+            let beginIdx = line.indexOf('\\begin{parts}');
+            if (beginIdx === -1) beginIdx = line.indexOf('\\begin{romanparts}');
+            if (beginIdx === -1) beginIdx = line.indexOf('\\begin{enumerate}');
+            if (beginIdx === -1) beginIdx = line.indexOf('\\begin{itemize}');
+            
+            if (beginIdx !== -1) {
+                // Keep text preceding list start command on same line
+                const textBefore = line.substring(0, beginIdx);
+                if (textBefore.trim()) {
+                    parsedHtml += textBefore + '\n';
+                }
+                
+                const beginCmd = line.substring(beginIdx);
+                let listTag = 'ol';
+                let listClass = 'list-decimal';
+                
+                if (beginCmd.includes('itemize')) {
+                    listTag = 'ul';
+                    listClass = 'list-disc';
+                } else if (beginCmd.includes('romanparts') || beginCmd.includes('label=(\\roman*)') || beginCmd.includes('label=\\roman*')) {
+                    listClass = 'list-[lower-roman]';
+                } else if (beginCmd.includes('parts') || beginCmd.includes('label=(\\alph*)') || beginCmd.includes('label=\\alph*')) {
+                    listClass = 'list-[lower-alpha]';
+                } else if (beginCmd.includes('label=\\arabic*')) {
+                    listClass = 'list-decimal';
+                } else {
+                    listClass = beginCmd.includes('parts') ? 'list-[lower-alpha]' : 'list-decimal';
+                }
+                
+                listStack.push(listTag);
+                parsedHtml += `<${listTag} class="${listClass} pl-6 sm:pl-8 my-3 space-y-2">`;
+                
+                // If there's text after the \begin{...} on the same line, append it
+                const matchBegin = beginCmd.match(/\\begin\{[a-zA-Z]+\}(?:\[.*?\])?/);
+                if (matchBegin) {
+                    const textAfter = beginCmd.substring(matchBegin[0].length);
+                    if (textAfter.trim()) {
+                        parsedHtml += textAfter + '\n';
+                    }
+                }
                 continue;
             }
             
-            if (line.includes('\\end{parts}')) {
-                listDepth = Math.max(0, listDepth - 1);
-                parsedHtml += `</ol>`;
+            // Check for list end
+            let endIdx = line.indexOf('\\end{parts}');
+            if (endIdx === -1) endIdx = line.indexOf('\\end{romanparts}');
+            if (endIdx === -1) endIdx = line.indexOf('\\end{enumerate}');
+            if (endIdx === -1) endIdx = line.indexOf('\\end{itemize}');
+            
+            if (endIdx !== -1) {
+                // Keep text preceding list end command on same line
+                const textBefore = line.substring(0, endIdx);
+                if (textBefore.trim()) {
+                    if (textBefore.trim().startsWith('\\item')) {
+                        let itemContent = textBefore.replace('\\item', '').trim();
+                        parsedHtml += `<li class="pl-2 text-xs sm:text-sm text-neutral-900 leading-relaxed">${itemContent}</li>`;
+                    } else {
+                        parsedHtml += textBefore + '\n';
+                    }
+                }
+                
+                const closedTag = listStack.pop() || 'ol';
+                parsedHtml += `</${closedTag}>`;
+                
+                const endCmd = line.substring(endIdx);
+                const matchEnd = endCmd.match(/\\end\{[a-zA-Z]+\}/);
+                if (matchEnd) {
+                    const textAfter = endCmd.substring(matchEnd[0].length);
+                    if (textAfter.trim()) {
+                        parsedHtml += textAfter + '\n';
+                    }
+                }
                 continue;
             }
             
-            if (line.trim().startsWith('\\item')) {
+            // Check for item
+            if (trimmed.startsWith('\\item')) {
                 let itemContent = line.replace('\\item', '');
-                while (i + 1 < lines.length && 
-                       !lines[i + 1].trim().startsWith('\\item') && 
-                       !lines[i + 1].includes('\\begin{parts}') && 
-                       !lines[i + 1].includes('\\end{parts}')) {
+                while (i + 1 < lines.length) {
+                    const nextLine = lines[i + 1].trim();
+                    if (nextLine.startsWith('\\item') || 
+                        nextLine.includes('\\begin{parts}') || 
+                        nextLine.includes('\\begin{romanparts}') || 
+                        nextLine.includes('\\begin{enumerate}') || 
+                        nextLine.includes('\\begin{itemize}') || 
+                        nextLine.includes('\\end{parts}') || 
+                        nextLine.includes('\\end{romanparts}') || 
+                        nextLine.includes('\\end{enumerate}') || 
+                        nextLine.includes('\\end{itemize}')) {
+                        break;
+                    }
                     i++;
                     itemContent += ' ' + lines[i];
                 }
-                parsedHtml += `<li class="pl-2 text-xs sm:text-sm text-primary leading-relaxed">${itemContent.trim()}</li>`;
+                parsedHtml += `<li class="pl-2 text-xs sm:text-sm text-neutral-900 leading-relaxed">${itemContent.trim()}</li>`;
                 continue;
             }
             
@@ -429,6 +738,13 @@
         const vfillIndex = parsedHtml.indexOf('\\vfill');
         if (vfillIndex !== -1) {
             parsedHtml = parsedHtml.substring(0, vfillIndex);
+        }
+        
+        // Restore tikzpictures
+        for (let i = 0; i < tikzPictures.length; i++) {
+            const rawTikz = tikzPictures[i];
+            const htmlTikz = `<div class="flex justify-center my-6"><script type="text/tikz">${rawTikz}<\/script></div>`;
+            parsedHtml = parsedHtml.replace(`__TIKZ_PICTURE_${i}__`, htmlTikz);
         }
         
         return parsedHtml;
@@ -449,22 +765,13 @@
         // Set content and references
         document.getElementById('pdfTitle').textContent = decodeURIComponent(title);
         
-        // Construct absolute URL (needed for Google Docs viewer)
-        const absoluteUrl = file.startsWith('http') ? file : window.location.origin + '/' + file;
-        
-        // Detect mobile user agent
-        const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-        
-        if (isMobile) {
-            document.getElementById('pdfIframe').src = `https://docs.google.com/gview?url=${encodeURIComponent(absoluteUrl)}&embedded=true`;
-        } else {
-            document.getElementById('pdfIframe').src = file;
-        }
+        const decodedFile = decodeURIComponent(file);
+        // Defer PDF iframe loading to showPdfView() to avoid loading original PDF when LaTeX is available
 
         // Try to load LaTeX file dynamically
-        const decodedFile = decodeURIComponent(file);
-        const filename = decodedFile.split('/').pop().replace('.pdf', '');
-        let texUrl = decodedFile.replace('.pdf', '.tex');
+        const filename = decodedFile.split('/').pop().replace('.pdf', '').replace('.tex', '');
+        const isTexOnly = decodedFile.endsWith('.tex');
+        let texUrl = isTexOnly ? decodedFile : decodedFile.replace('.pdf', '.tex');
 
         document.getElementById('loaderText').textContent = "Rendering LaTeX document...";
 
@@ -476,25 +783,58 @@
             }
         }, 3000);
 
-        fetch(texUrl)
-            .then(res => {
-                if (res.ok) return res.text();
-                // If it fails, try the latest corrected maths folder path
-                return fetch(`aaa/latest corrected maths pdf/final maths export latex/${filename}.tex`)
-                    .then(res2 => {
-                        if (res2.ok) return res2.text();
-                        throw new Error("LaTeX source not found");
-                    });
-            })
+        function fetchEncryptedTex(filePath) {
+            return fetch(`/api/pyq?file=${encodeURIComponent(filePath)}`)
+                .then(res => {
+                    if (!res.ok) throw new Error("Failed to fetch encrypted tex");
+                    return res.json();
+                })
+                .then(json => {
+                    if (!json.data) throw new Error("Invalid response format");
+                    const key = 'BHU_EXAM_PREP_KEY_2026';
+                    const encryptedText = atob(json.data);
+                    let decrypted = '';
+                    for (let i = 0; i < encryptedText.length; i++) {
+                        decrypted += String.fromCharCode(encryptedText.charCodeAt(i) ^ key.charCodeAt(i % key.length));
+                    }
+                    return decrypted;
+                });
+        }
+
+        // Build a comprehensive ordered list of local LaTeX search paths.
+        // When the primary texUrl fails (e.g. it was a Supabase PDF URL), we try
+        // every local department folder before giving up and falling back to PDF-only mode.
+        const localTexFallbacks = [
+            `aaa/chemistry/tex_files/${filename}.tex`,       // Chemistry
+            `aaa/cs/${filename}.tex`,                         // Computer Science (BSc/BVoc)
+            `aaa/geology/${filename}.tex`,                    // Geology
+            `aaa/geography/${filename}.tex`,                  // Geography
+            `aaa/STATISTIC/tex_files/${filename}.tex`,        // Statistics
+            `aaa/PHYSICS OUT/${filename}.tex`,                // Physics
+            `aaa/latest corrected maths pdf/final maths export latex/${filename}.tex`, // Maths
+            `aaa/all science pyq/${filename}.tex`,            // All-science archive
+        ];
+
+        let fetchChain = fetchEncryptedTex(texUrl);
+        for (const fallbackPath of localTexFallbacks) {
+            fetchChain = fetchChain.catch(() => fetchEncryptedTex(fallbackPath));
+        }
+
+        fetchChain
             .then(latexCode => {
                 hasLatex = true;
                 const htmlContent = parseLatex(latexCode);
                 document.getElementById('renderedLatexContent').innerHTML = htmlContent;
                 window.latexLoaded = true;
                 
-                // Show toggle button
-                const toggleBtn = document.getElementById('toggleViewBtn');
-                toggleBtn.classList.remove('hidden');
+                // Trigger TikZJax processing if available
+                if (window.TikZJax && typeof window.TikZJax.process === 'function') {
+                    try {
+                        window.TikZJax.process();
+                    } catch (e) {
+                        console.warn("TikZJax process error:", e);
+                    }
+                }
                 
                 // Trigger MathJax typeset if ready
                 if (window.mathjaxReady) {
@@ -513,54 +853,41 @@
                 }
             })
             .catch(err => {
-                console.log("Falling back to PDF view:", err.message);
+                console.log("Error loading document:", err.message);
                 clearTimeout(safetyTimeout);
-                showPdfView();
+                showErrorView(err.message);
             });
     });
 
-    function showNativeView() {
-        currentMode = 'native';
+    function showErrorView(message) {
         document.getElementById('viewerLoader').classList.add('hidden');
-        document.getElementById('pdfIframe').classList.add('hidden');
         
         const nativeArea = document.getElementById('nativeRenderArea');
         nativeArea.classList.remove('hidden');
         nativeArea.classList.add('flex');
         
-        const toggleBtn = document.getElementById('toggleViewBtn');
-        toggleBtn.classList.remove('hidden');
-        document.getElementById('toggleViewIcon').textContent = 'picture_as_pdf';
-        document.getElementById('toggleViewText').textContent = 'View PDF';
+        document.getElementById('renderedLatexContent').innerHTML = `
+            <div class="text-center py-16 px-4">
+                <div class="w-16 h-16 rounded-full bg-red-50 text-red-500 flex items-center justify-center mx-auto mb-6 shadow-sm">
+                    <span class="material-symbols-outlined text-3xl">error_outline</span>
+                </div>
+                <h2 class="text-xl font-bold text-neutral-900 mb-2">Failed to load document</h2>
+                <p class="text-sm text-neutral-500 max-w-md mx-auto mb-6">The document could not be loaded because the LaTeX source code is missing or corrupted.</p>
+                <button onclick="goBack()" class="px-5 py-2 rounded-full bg-neutral-900 text-white text-xs font-semibold hover:bg-neutral-800 transition-all active:scale-95 shadow-sm">
+                    Go Back
+                </button>
+            </div>
+        `;
     }
 
-    function showPdfView() {
-        currentMode = 'pdf';
+    function showNativeView() {
+        currentMode = 'native';
         document.getElementById('viewerLoader').classList.add('hidden');
         
         const nativeArea = document.getElementById('nativeRenderArea');
-        nativeArea.classList.add('hidden');
-        nativeArea.classList.remove('flex');
-        
-        document.getElementById('pdfIframe').classList.remove('hidden');
-        
-        const toggleBtn = document.getElementById('toggleViewBtn');
-        if (hasLatex) {
-            toggleBtn.classList.remove('hidden');
-            document.getElementById('toggleViewIcon').textContent = 'menu_book';
-            document.getElementById('toggleViewText').textContent = 'Web Render';
-        } else {
-            toggleBtn.classList.add('hidden');
-        }
+        nativeArea.classList.remove('hidden');
+        nativeArea.classList.add('flex');
     }
-
-    window.toggleNativeView = function() {
-        if (currentMode === 'native') {
-            showPdfView();
-        } else {
-            showNativeView();
-        }
-    };
 
     window.toggleFullscreen = function() {
         const viewer = document.getElementById('viewerContentArea');

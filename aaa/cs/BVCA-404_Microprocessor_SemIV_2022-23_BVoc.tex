@@ -1,0 +1,121 @@
+% BHU PYQ -- Professional Exam Template
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BVCA-404: Microprocessor -- BHU PYQ}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BVCA-404: Microprocessor}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\lstset{
+  basicstyle=\small\ttfamily,
+  frame=single,
+  breaklines=true,
+  columns=flexible,
+  keepspaces=true
+}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Voc. Semester IV Examination, 2022-23}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper: BVCA-404 --- Microprocessor}\\[4pt]
+  {\normalsize Time: Three Hours \hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: Answer the questions in each section as instructed. All questions carry marks as indicated.}
+
+\bigskip
+
+\noindent{\large\bfseries SECTION --- A}
+\rule{\linewidth}{0.4pt}\smallskip
+
+Long-Answer Questions. Answer any two questions: \hfill \textbf{2 $\times$ 12 = 24 Marks}
+
+\medskip
+\noindent\textbf{Question 1.} Explain the architecture of the 8085 microprocessor, describing each component and how they interact with each other.
+
+\medskip
+\noindent\textbf{Question 2.} Discuss the various types of addressing modes in the 8085 microprocessor, providing a suitable example for each.
+
+\medskip
+\noindent\textbf{Question 3.} Explain the role of the stack and the stack pointer in the 8085 microprocessor. Illustrate your explanation with practical examples.
+
+\medskip
+\noindent\textbf{Question 4.} Describe the differences between a microprocessor and a microcontroller, with emphasis on the 8085 as a specific example of a microprocessor.
+
+\bigskip\noindent{\large\bfseries SECTION --- B}
+\rule{\linewidth}{0.4pt}\smallskip
+
+\noindent\textbf{Question 5.} Attempt any six parts (Answer in about 200 words each): \hfill \textbf{6 $\times$ 6 = 36 Marks}
+\begin{parts}
+  \item Briefly explain the function of the Arithmetic Logic Unit (ALU) in the 8085 microprocessor.
+  \item List and explain the status of any three flags in the 8085 microprocessor's flag register.
+  \item Define the terms ``Opcode'' and ``Operand'' with respect to the 8085 microprocessor's instruction format.
+  \item Explain the purpose and classifications of the instruction set in a microprocessor.
+  \item If a program starts at memory location \texttt{2000H}, and the first instruction is \texttt{LDA 2050H}, what will be the content of the accumulator and the program counter after this instruction is executed?
+  \item Write an assembly language program for the 8085 microprocessor to add two 8-bit numbers stored at memory locations \texttt{3000H} and \texttt{3001H}, and store the result in memory location \texttt{3002H}.
+  \item Given that the stack pointer (SP) is initially at \texttt{4000H}, what will be its value after executing the following sequence of instructions?
+  \begin{lstlisting}[language={[x86masm]Assembler}]
+PUSH H
+PUSH D
+POP H
+  \end{lstlisting}
+  \item Explain the memory address accessed by the instruction sequence:
+  \begin{lstlisting}[language={[x86masm]Assembler}]
+LXI H, 4050H
+MOV A, M
+  \end{lstlisting}
+  \item What is interrupt-driven I/O and how is it implemented in the 8085 microprocessor?
+\end{parts}
+
+\bigskip\noindent{\large\bfseries SECTION --- C}
+\rule{\linewidth}{0.4pt}\smallskip
+
+\noindent\textbf{Question 6.} Attempt all parts: \hfill \textbf{10 $\times$ 1 = 10 Marks}
+\begin{parts}
+  \item What does the acronym ALU stand for?
+  \item Name the register that stores the result of an arithmetic or logical operation in the 8085 microprocessor.
+  \item What is the size of the data bus in the 8085 microprocessor?
+  \item Which pin on the 8085 microprocessor is used for a non-maskable hardware interrupt?
+  \item How many machine cycles does the register-to-register \texttt{MOV} instruction require?
+  \item How do you initialize the stack pointer in the 8085 microprocessor?
+  \item What does the \texttt{HLT} instruction do?
+  \item Which flag is set if an arithmetic or logical operation results in zero in the 8085 microprocessor?
+  \item What is the opcode (in hex) for the \texttt{NOP} instruction in the 8085 microprocessor?
+  \item How many bytes does the \texttt{LDA} instruction occupy?
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+\end{document}

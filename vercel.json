@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "src": "/(.*)\\.tex",
+      "status": 403,
+      "headers": {
+        "Content-Type": "text/plain"
+      },
+      "dest": "/403"
+    }
+  ]
+}

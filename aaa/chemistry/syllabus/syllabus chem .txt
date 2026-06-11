@@ -1,0 +1,675 @@
+Semester 1
+Basic Principles of Chemistry and Its Applications in Daily Life
+CHEMD11
+1. Basic Principles of Chemistry: Atoms, molecules, and their electronic structures. Types 
+of Chemical bonding. Basic concept of Hybridization. Energetics of bond formation, 
+Types of intermolecular/intramolecular forces, and molecular association for the 
+formation of materials.              
+                                                                                                
+2. Chemical Reactions: Thermodynamic basis of chemical changes. Enthalpy, entropy, 
+and free energy change during a chemical reaction. Types of Chemical Reactions. 
+The concept of oxidation number, Reducing and oxidizing agents.    
+ 
+3. Applications of Chemistry in daily life : 
+a) Dyes and pigments: General idea about the chemistry of dyes, Classification of dyes, Origin of the colors in the dyes and pigments, and application in garment and printing industries.                                                                                                                   
+ b) Polymers: Natural and synthetic polymers, synthesis, properties, and applications. 
+(Examples: polyester, rubber, nylon, bakelite, etc). Introduction to biopolymers. 
+Application of synthetic polymers in surgical treatments and transplantations. 
+c) Food and beverage industry: use of preservatives, food adulteration, flavor 
+enhancers, artificial sweetening agents, and antioxidants. 
+d) Fragrance: Basic principles, types of fragrances, and their applications. 
+e) Cleansing agents: Soaps, detergents, Surfactants, and underlying chemistry of cleansing agents.
+
+Basic Concepts of Chemistry-I
+CHEMJ11
+1.Atomic Structure: 
+Wave-particle duality, Heisenberg uncertainty principle, Schrodinger wave equation, 
+Eigenvalues and Eigenfunctions, significance of Ψ and Ψ2 Radial and angular wave 
+functions, Multi-electron system: Concept of Effective Nuclear Charge (Slater's rules). 
+ 
+2. Atomic properties and their periodic trends: 
+A brief introduction to the modern periodic table (Block wise). Atomic size (Covalent, 
+Ionic and van der Waal's radii; Lanthanide contraction), Electron loss, and electron gain 
+enthalpies. Inert pair effect. Electronegativity (Pauling, Mulliken, Allred Rochow's 
+methods of determination): As a criterion of bond type. Lattice energy and its 
+determination: a) Born-Haber cycle b) Born Lande equation c) Comparison of 
+experimental and theoretical values. Solvation/Hydration energy (Solubility of ionic 
+solids in water). Covalency in ionic compounds (Fajan's rules). Redox reaction, 
+Standard electrode potential and its determination. Electrochemical series and its 
+applications Latimer and Frost diagrams; specific illustrative examples. 
+ 
+3. Gaseous State: 
+Kinetic theory of gases and ideal gas laws, Maxwell distribution of speed, Equipartition 
+of Energy collisions in a gas: collision number, collision diameter and mean free path, 
+behaviour of real gases: van der Waals equation and its applicability, the critical state: 
+critical constants, law of corresponding states. 
+ 
+4. Liquid State: 
+Surface tension, capillary action, measurement of surface tension, viscosity of liquids 
+and its measurement, temperature effect on surface tension and viscosity 
+ 
+5. Solid State: 
+Crystal lattices, space lattice, unit cell, crystal systems, law of rational indices, Miller 
+indices, Bragg's equation, crystal structure of NaCl, graphite and diamond. 
+ 
+6. Chemical Thermodynamics and its Applications: 
+First law of Thermodynamics, Thermodynamic quantities (w, q, ΔU and ΔH) for 
+isothermal and adiabatic reversible expansion of ideal gases, Kirchoff's relations, Joule 
+effect, Joule-Thomson effect, Joule-Thomson coefficient of real (van der Waals) gases. 
+Second Law of Thermodynamics, Carnot cycle, concept of entropy and its physical
+significance, entropy changes for an ideal gas, entropy changes at constant pressure and 
+volume, entropy change in spontaneous processes, free energy and maximum work 
+functions, conditions for spontaneous changes and equilibrium, Gibbs-Helmholtz 
+equation, Maxwell relations. Statement of third law of Thermodynamics 
+
+Lab Work - I
+CHEMJ12
+1. Redox titrations: 
+(a) Redox Titrimetric Estimations Based on Iodometry 
+(b) Redox Titrimetric Estimations with standard K2Cr 2O 7 solution 
+2. (a) Determination of Surface Tension of liquids. 
+(b) Determination of Viscosity Coefficients of liquids. 
+or 
+Inorganic/Organic Chemistry Laboratory: 
+1. Preparation of molecular models using wire and beads to study 
+(a) Various hybridization geometries 
+(b) Isomerism 
+2. Identification of Metal ions by borax bead test 
+3. Preparation of some simple and double salts. 
+4. Study of displacement of ions in aqueous solutions (e.g. Cu2+ by Zn) 
+5. Preparation of m-dinitrobenzene from nitrobenzene 
+6. Preparation of acetanilide from aniline 
+
+Basic Concepts of Chemistry-I
+CHEMN11
+1.Atomic Structure: 
+Wave-particle duality, Heisenberg uncertainty principle, Schrodinger wave equation, Eigenvalues and Eigenfunctions, significance of Ψ and Ψ2 Radial and angular wave functions, Multi-electron system: Concept of Effective Nuclear Charge (Slater’s rules). 
+ 
+2. Atomic properties and their periodic trends: 
+A brief introduction to the modern periodic table (Block wise).Atomic size (Covalent, 
+Ionic and van der Waals radii; Lanthanide contraction), Electron loss, and electron gain 
+enthalpies. Inert pair effect. Electronegativity (Pauling, Mulliken, Allred Rochows 
+methods of determination): As a criterion of bond type. Lattice energy and its 
+determination: a) Born-Haber cycle b) Born Lande equation c) Comparison of 
+experimental and theoretical values. Solvation/Hydration energy (Solubility of ionic 
+solids in water). Covalency in ionic compounds (Fajans rules). Redox reaction, 
+Standard electrode potential and its determination. Electrochemical series and its 
+applications Latimer and Frost diagrams; specific illustrative example. 
+ 
+3. Gaseous State: 
+Kinetic theory of gases and ideal gas laws, Maxwell distribution of speed, Equipartition 
+of Energy collisions in a gas: collision number, collision diameter and mean free path, 
+behaviour of real gases: van der Waals equation and its applicability, the critical state: 
+critical constants, law of corresponding states. 
+ 
+4. Liquid State: 
+Surface tension, capillary action, measurement of surface tension, viscosity of liquids 
+and its measurement, temperature effect on surface tension and viscosity 
+ 
+5. Solid State: 
+Crystal lattices, space lattice, unit cell, crystal systems, law of rational indices, Miller 
+indices, Braggs equation, crystal structure of NaCl, graphite and diamond 
+ 
+6. Chemical Thermodynamics and its Applications: 
+First law of Thermodynamics, Thermodynamic quantities (w, q, ΔU and ΔH)  for 
+isothermal and adiabatic reversible expansion of ideal gases, Kirchoff's relations, Joule 
+effect, Joule-Thomson effect, Joule-Thomson coefficient of real (van der Waals) gases. 
+ 
+Second Law of Thermodynamics, Carnot cycle, concept of entropy and its physical 
+significance, entropy changes for an ideal gas, entropy changes at constant pressure and 
+volume, entropy change in spontaneous processes, free energy and maximum work 
+functions, conditions for spontaneous changes and equilibrium, Gibbs-Helmholtz 
+equation, Maxwell relations. Statement of third law of Thermodynamics.  
+
+Lab Work - I
+CHEMN12
+1. Redox titrations: 
+(a) Redox Titrimetric Estimations Based on Iodometry 
+(b) Redox Titrimetric Estimations with standard K2Cr 2O 7 solution 
+ 
+2. (a) Determination of Surface Tension of liquids. 
+(b) Determination of Viscosity Coefficients of liquids.
+OR 
+Inorganic/Organic Chemistry Laboratory: 
+1. Preparation of molecular models using wire and beads to study 
+(a) Various hybridization geometries 
+(b) Isomerism 
+2. Identification of Metal ions by borax bead test 
+3. Preparation of some simple and double salts. 
+4. Study of displacement of ions in aqueous solutions (e.g. Cu2+ by Zn) 
+5. Preparation of m-dinitrobenzene from nitrobenzene 
+6. Preparation of acetanilide from aniline 
+
+Quality Control in Chemical Analysis
+CHESE11
+1. Statistical Quality Control Techniques: 
+Statistical treatment of data, Control charts, Performance Evaluation uncertainties in 
+measurement, Validation of analytical methods, Elements of quality Assurance, 
+Principles of Good Laboratory Practices, Good manufacturing Practices in Drugs and 
+Pharmaceutical Industries, Accreditation of QC laboratories, Tools and Mechanisms 
+ICH Guidelines on Drug substances and Products. 
+ 
+2. Quality Management and Standards: 
+Quality Management System(QMS), Quality management concepts and principles: ISO 
+9001:2000 QMS, Case studies on ISO 9001: 2000 in chemical industries. ISO 14000 
+Series of Standards. Total Quality Management (TQM) in Chemical Industry. Six Sigma 
+Approach to Quality: Applying Six Sigma to chemical Industries.
+
+Semester 2
+
+Energy & Metallurgy
+CHEMD21
+1. Photosynthesis: Introduction- a key process for life on earth, Light reaction, Dark reaction, 
+Factors affecting photosynthesis, Photorespiration, artificial photosynthesis.  
+ 
+2. Energy Sources and storage: Introduction to renewable (green) and non-renewable sources of energy. Requirement and consumption of energy in India. Worldwide potential of these sources. Understanding (i) Definition (ii) source (iii) advantages/disadvantages (iv) 
+environmental aspects (v) future scope/sustainability along with specific attributes of each of the following types: 
+ 
+Non-Renewable: 
+a) Thermal-Oil, natural gas, and coal 
+Oil - Origin, composition, specification, and characteristics of petroleum products 
+Natural gas - Classification (natural and synthetic gas), Natural gas reserves - India and World 
+Coal: Coal reserves- India and World, Origin, composition, Action of heat on coal, Coal derived 
+chemicals 
+b) Nuclear energy - Radioactivity, Different types of radiation, Nuclear fission, Basic 
+components of Nuclear power reactor. 
+ 
+Renewable: 
+a) Solar energy - Importance, storage, applications (solar cooker, solar weather heater, solar 
+greenhouses, solar cell, absorption air conditioning) 
+b) Biomass energy - biomass conversion, biogas generation (types of plants needed, plant wastes, 
+materials), Utilisation of biogas, energy farming (biomass production for energy) 
+c) Fuel Cell 
+d) Li-ion battery 
+3. Metals and Metallurgy: Role of metals in our life with special mention of Iron and Copper, 
+Recovery of Iron and copper from its ores, Stainless Steel, corrosion of metals, and its 
+prevention.  
+
+Basic Concepts of Chemistry-II
+CHEMJ21
+1. Chemical Bonding: 
+i) A comparative account of the Valence Bond (VB) and Molecular Orbital (MO) 
+approach of H2 molecule. Molecular orbital treatment of Homonuclear diatomic 
+molecules of elements of first and second period and Heteronuclear (CO, NO) diatomic 
+molecules. Illustration of HOMO and LUMO. 
+ii) Concept of Hybridization, Bent's Rule, VSEPR theory applied to the compounds of s 
+and p block elements. 
+iii) An introduction to multi-center bonding with illustrative examples of Li-alkyls and 
+diborane. 
+iv) Concept of multiple bonding (p  p and p  -d) with illustrative examples of BF3, 
+P4O10, (Me3Si)3N and SiF4 
+ 
+2. Ionic Bonding: 
+A brief introduction to Crystal Packing, Radius Ratio rule, and its exceptions Structures 
+of a few representative crystal types (Rock salt, Zinc blende, Wurtzite, Rutile, Brookite 
+and Anatase). 
+ 
+3. Metallic Bonding: 
+Theories of bonding in metal: Valence Bond, Free electron, and Band theories.  
+ 
+4.Weak Interactions: 
+Brief introduction to Hydrogen bonding and other weak interactions: Effects on physical 
+and chemical properties. 
+ 
+5. Electronic and Field Effect: 
+Electronic (electromeric, inductive, resonance, mesomeric effect, and hyperconjugation) 
+and steric effects on the acidity/basicity of organic molecules. 
+ 
+6. Stereochemistry: 
+Fischer, Saw-horse and Newman projection formulae. Chirality-optical activity, 
+enantiomerism and diasteroisomerism involving one and two chiral centers. 
+Configuration: D/L, erythrose/threose, R/S nomenclatures; geometrical isomerism - E/Z 
+nomenclatures. Conformations of n-butane. 
+ 
+7. Hydrocarbons: 
+i. Alkenes: Addition reactions (electrophilic and free radical), hydration, hydroxylation, 
+hydroboration, epoxidation, ozonolysis and polymerization. Addition reactions of 
+conjugated dienes and Diels-Alder reaction. 
+ii. Alkynes: Reduction, electrophilic addition, acidity and metal acetylides 
+ 
+8. Alkyl Halides: 
+Nucleophilic substitution: SN1, SN2 and SNi, Eliminations reactions: E1, E2, and E1cB 
+mechanisms. Elimination versus substitution reactions. Preparation and synthetic 
+applications of Grignard reagents. 
+ 
+9. Alcohols and Ethers: 
+Preparation and reactions of primary, secondary, and tertiary alcohols and ethers. 
+ 
+10. Active methylene compounds: 
+Preparation and synthetic applications of ethyl acetoacetate and diethyl malonate. (L)
+
+Lab Work - II
+CHEMJ22
+1. Redox titrations: 
+(a) Redox Titrimetric Estimations Based on Iodometry 
+(b) Redox Titrimetric Estimations with standard K2Cr 2O 7 solution. 
+ 
+2. (a) Determination of Surface Tension of liquids. 
+(b) Determination of Viscosity Coefficients of liquids. 
+or 
+Inorganic/Organic Chemistry Laboratory: 
+1. Preparation of molecular models using wire and beads to study 
+(a) Various hybridization geometries 
+(b) Isomerism 
+2. Identification of Metal ions by borax bead test 
+3. Preparation of some simple and double salts. 
+4. Study of displacement of ions in aqueous solutions (e.g. Cu2+ by Zn) 
+5. Preparation of m-dinitrobenzene from nitrobenzene 
+6. Preparation of acetanilide from aniline 
+
+Basic Concepts of Chemistry-II
+CHEMN21
+1. Chemical Bonding: 
+i) A comparative account of the Valence Bond (VB) and Molecular Orbital (MO) 
+approach of H2 molecule. Molecular orbital treatment of Homonuclear diatomic 
+molecules of elements of first and second period and Heteronuclear (CO, NO) diatomic molecules. Illustration of HOMO and LUMO. 
+ii) Concept of Hybridization, Bents Rule, VSEPR theory applied to the compounds of s and p block elements. 
+iii) An introduction to multi-center bonding with illustrative examples of Li-alkyls and 
+diborane. 
+iv) Concept of multiple bonding (p-p and pd) with illustrative examples of BF3, 
+P4O10, (Me3Si)3N and SiF4. 
+ 
+2. Ionic Bonding: 
+A brief introduction to Crystal Packing, Radius Ratio rule, and its exceptions Structures 
+of a few representative crystal types (Rock salt, Zinc blende, Wurtzite, Rutile, Brookite 
+and Anatase). 
+ 
+3. Metallic Bonding: 
+Theories of bonding in metal: Valence Bond, Free electron, and Band theories. 
+ 
+4. Weak Interactions: 
+Brief introduction to Hydrogen bonding and other weak interactions: Effects on physical 
+and chemical properties.  
+ 
+5. Electronic and Field Effect: 
+Electronic (electromeric, inductive, resonance, mesomeric effect, and hyperconjugation) 
+and steric effects on the acidity/basicity and reactivity of organic molecules. 
+ 
+6. Stereochemistry: 
+Fischer, Saw-horse and Newman projection formulae. Chirality-optical activity, 
+enantiomerism and diasteroisomerism involving one and two chiral centers. 
+Configuration: D/L, erythrose/threose, R/S nomenclatures; geometrical isomerism - E/Z nomenclatures. Conformations of n-butane. 
+ 
+7. Hydrocarbons: 
+i. Alkenes: Addition reactions (electrophilic and free radical), hydration, hydroxylation, hydroboration, epoxidation, ozonolysis and polymerization. Addition reactions of conjugated dienes and Diels–Alder reaction. ii. Alkynes: Reduction, electrophilic addition, acidity and metal acetylides. 
+ 
+8. Alkyl Halides: 
+Nucleophilic substitution: SN1, SN2 and SNi, Eliminations reactions: E1, E2, and E1cB mechanisms. Elimination versus substitution reactions. Preparation and synthetic applications of Grignard reagents. 
+ 
+9. Alcohols and Ethers: 
+Preparation and reactions of primary, secondary, and tertiary alcohols and ethers. 
+ 
+10. Active methylene compounds: 
+Preparation and synthetic applications of ethyl acetoacetate and diethyl malonate. (L). 
+
+Lab Work - II
+CHEMN22
+1. Redox titrations: 
+(a) Redox Titrimetric Estimations Based on Iodometry 
+(b) Redox Titrimetric Estimations with standard K2Cr2O7 solution 
+2. (a) Determination of Surface Tension of liquids. 
+(b) Determination of Viscosity Coefficients of liquids. 
+OR 
+ 
+Inorganic/Organic Chemistry Laboratory: 
+1. Preparation of molecular models using wire and beads to study 
+(a) Various hybridization geometries 
+(b) Isomerism 
+2. Identification of Metal ions by borax bead test 
+3. Preparation of some simple and double salts. 
+4. Study of displacement of ions in aqueous solutions (e.g. Cu2+ by Zn) 
+5. Preparation of m-dinitrobenzene from nitrobenzene 
+6. Preparation of acetanilide from aniline.
+
+Instrumentation in Chemical Industry
+CHESE21
+1. Thermoanalytical methods: 
+Thermoanalytical methods: thermogravimetry, factors affecting thermogravimetric 
+curves, derivative thermogravimetry (DTG), thermobalance. Applications of 
+thermogravimetry, differential thermal analysis (DTA), factors affecting DTA curves, 
+instrumentation, and application of DTA. Differential scanning calorimetry (DSC), 
+theory, instrumentation, applications of DSC, thermometric titrations, and principal 
+classification. 
+ 
+2. Electrochemical Analysis: 
+Potentiometry  fundamentals, reference electrodes (hydrogen, calomel, silver, and 
+silver chloride electrode).Indicator and ion selective electrode, instrumentation and 
+measurement of cell and emf-conductance and conductometric titrations. 
+ 
+3. Structure Analysis: 
+Diffraction Techniques: Elementary theory (Neutron. Electron and X-ray diffraction), 
+instrumentation, and applications of X-ray methods (emission, absorption, diffraction, 
+and fluorescence methods). 
+Spectroscopic Techniques: Atomic absorption, Spectroscopy, Atomic emission 
+spectrometry, UV-visible molecular absorption spectrometry, Molecular luminescence 
+spectroscopy (fluorescence, phosphorescence, chemiluminescence).
+
+Semester 3
+Environmental Chemistry
+CHEMD31
+1. Introduction: Concept and scope of environmental chemistry, Pollution versus contamination, Receptor, Sink, and pathways of a pollutant. Terminology (DO, BOD, COD,TLV) used in environmental analysis and their estimation. 
+ 
+2. Environmental Segments: 
+Atmosphere- Regions of atmosphere, Carbon Footprint, Greenhouse effect, and Global warming, ozone hole.Hydrosphere- Microorganisms in aquatic chemical reactions, eutrophication versus oligotrophication. 
+Lithosphere- Soil profile, soil properties, organic and inorganic components of soil, micro- andmacro-nutrients.Biosphere.  
+ 
+3. Natural cycles of the environment:Hydrological cycle, oxygen cycle, nitrogen cycle, phosphate cycle, and sulfur cycle.  
+ 
+4. Pollution:Sources of air pollution, Auto exhaust emission, and its prevention. Air quality parameters, EL-Nino phenomenon, Water pollution, Acid rains, Waste water treatment: domestic and industrial effluents. Water quality parameters. Recent environmental concerns in the national and global context.  
+
+Inorganic Chemistry - I
+CHEMJ31
+1. Chemistry of main group elements with special references of the following 
+Flame colorations of alkali and alkaline earth metals. Complexes of alkali and alkaline 
+earth metals (the idea of complexation, examples having inorganic, organic chelating 
+ligands, crowns, electrides, and crypts.). Difference between the first and the other 
+members of the group [Be and other elements, B and other elements]. Metalloids. 
+Allotropes (of C, N, P, O, and S) 
+Hydrides, Halides, Hydroxides, Oxo-acids and their salts, and Oxide With special 
+emphasis on 
+(i) Relevant structures  
+(ii) Acidity and Basicity 
+(iii) Redox behaviour 
+(iv) Stabilities  
+(v) Classification and typical examples, and  
+(vi) General methods of preparation of the aforementioned genres.                                                                       
+ 
+2. Industrial Chemistry: 
+Silicates with examples of practical utilities (Zeolites. Application in Molecular sieves) 
+Glass, Ceramics, Refractories, Cement, Fertilizers(Nitrogenous and Phosphate 
+fertilizers). 
+                 
+Organic Chemistry - I
+CHEMJ32
+1. Chemistry of Carbonyl compounds: 
+Preparations and reactions - addition and condensation reactions, Cannizzaro, Perkin, 
+Aldol, Benzoin, Haloform, Mannich, and Baylis-Hillman reaction. Important reactions 
+of acids, HVZ reaction, relative reactivity of acid chlorides, acid anhydrides, amides, 
+and esters.       
+                                                                        
+ 2. Chemistry of Phosphorous and Sulphur Ylides: 
+Preparation and Reactions. Wittig reaction, Arbuzov rearrangement, Horner- 
+Woodsworth Emons Modification. 
+                                              
+3. Aromaticity: 
+A general concept of aromaticity antiaromaticity and homoaromaticity. Molecular 
+orbital picture of benzene.Benzenoid and non-benzenoid systems, alternant and non- 
+alternant hydrocarbons.   
+ 
+ 4. Aromatic Electrophilic Substitution: 
+Mechanism of nitration, halogenation, sulphonation, and Friedel-Crafts (alkylation and 
+acylation) reactions. Effects of substituents on ortho/para ratio, orientation and 
+reactivity.                                                                                
+5. Preparation and Reactions of Phenols.                                   
+
+Physical Chemistry - I
+CHEMJ33
+1. Electrochemistry: Arrhenius theory of electrolytic dissociation; Conductance of 
+electrolytes in solution; Ionic conductance, transference number, Determination of 
+transport number by moving boundary method. 
+Kohlrausch's law of independent migration of ions, ion conductance and ionic mobility, 
+applications of conductance measurements, conductometric titrations. 
+ 
+2. Chemical Cells and Electromotive Force: Types of Electrodes and electrode
+
+reactions, Electrode potential, Standard Electrode potentials, Electrochemical cells, 
+EMF and chemical cell reactions. Free energy, enthalpy and entropy changes of cell 
+reactions; Concentration cells with and without liquid junction, liquid junction potential, 
+salt bridges, applications of EMF measurements.Glass electrode and determination of 
+pH of a solution. Potentiometric titrations: acid-base and redox. Buffer Solutions, 
+Acid-base Indicators. 
+ 
+3. Phase Equilibria: Thermodynamics of phase transition, Clapeyron-Clausius 
+equation, phase rule, phase diagrams of one-component (water) and two components 
+(phenol-water and Pb-Ag) systems, distribution law, application to cases for dissociation 
+and association, determination of equilibrium constant (KI + I2 = KI3). 
+ 
+4. Chemical Kinetics: 
+Rate laws for zero, first, and second and Pseudo first-order reactions, steady state 
+approximation, temperature dependence of rates of chemical reactions, Collision theory, 
+qualitative concepts of transition state theory. 
+
+Qualitative Analysis and Thermochemistry
+CHEMJ34
+1(a) Systematic semimicroanalysis of inorganic salts 
+Mixtures containing 2 cations and 2 anions 
+1(b). Qualitative analysis of simple organic compounds: 
+Preliminary Test 
+Element detection 
+Functional group Test 
+Melting point measurement 
+ 
+2. Thermochemistry: 
+Determination of water equivalent of a calorimeter and the enthalpy of neutralization of 
+hydrochloric acid with sodium hydroxide. 
+Determination of enthalpy of ionization of ethanoic acid. 
+Determination of integral enthalpy of solution of salts
+
+Industrial Chemistry-I
+CHEMV31
+1. Introduction to Cosmetics, Soaps, and Detergents: 
+Definition and classification of cosmetics, soaps, and detergents, Historical development 
+and cultural significance, Regulatory framework and quality standards. 
+ 
+2. Cosmetics: 
+Types of cosmetics (skincare, makeup, haircare, etc.), Cosmetic ingredients and their 
+functions (emollients, emulsifiers, preservatives, etc.), Formulation and manufacturing 
+processes, Packaging and labelling requirements. 
+ 
+3. Soaps: 
+Saponification process and soap chemistry, Types of soaps (bar, liquid, transparent, etc.), Specialty soaps (medicated, herbal, etc.), Soap additives and fragrances. 
+ 
+4. Detergents: 
+Types of detergents (household, industrial, personal care, etc.), Surfactants and their role in detergency, Formulation and production processes, Environmental considerations and biodegradability. 
+ 
+5. Safety, Regulation and Consumer Awareness: 
+Safety considerations in cosmetic and detergent production, Regulatory agencies and 
+compliance requirements, Consumer awareness and product labelling.           
+
+Industrial Chemistry Lab Work-I
+CHEMV32
+Preparation of Soaps, Detergents, and various types of cosmetics.
+
+Synthetic Methodologies
+CHESE31
+1. Purification and drying of solvents: 
+Water and common non-aqueous solvents. Distillation (including fractional distillation 
+and distillation under low pressure). Removal of hazardous impurities from solvents. 
+Drying of non-aqueous solvents. 
+ 
+2. Synthesis: 
+Preparation of sodium solution in liquid ammonia and its application. Synthesis and 
+Applications of Grignard Reagent. 
+ 
+3. Click Chemistry: Regioselectivity in Click Chemistry, CuAAC, RuAAC, 
+Bioorthogonal Chemistry, Organocatalyzed Click, Sufex, Thiol-ene Click, and Their 
+Applications. 
+ 
+4. Reduction using metal hydrides.
+
+Semester 4
+
+Inorganic Chemistry - II
+CHEMJ41
+1. Acids and Bases: Brønsted–Lowry, Lux-Flood and Solvent system concepts of 
+acids and bases, leveling effect, Lewis concept of acids and bases and factors affecting 
+their strength, HSAB theory applications: Characteristics of hard-soft acids and bases 
+and borderline cases. Prediction of the feasibility of reactions and stability of 
+compounds, bonding preferences, occurrence of metals as ores in nature, and symbiosis. 
+Super-acids and frustrated acid-base pairs. 
+2. Non-aqueous Solvent: Significance of a solvent towards chemical reactions and 
+limitations of water as a solvent. Classification and solvent physical properties for being 
+an effective reaction medium, viz. melting and boiling points, heat of fusion and 
+vaporization, dielectric constant, dipole moment, and viscosity. Liquid NH3 as a non- 
+aqueous solvent, chemical reactions, and alkali metal solutions in liquid NH3. A brief 
+introduction to solvent-free, ionic liquid, and green synthesis. 
+ 
+3. Transition Metal Chemistry: Characteristics of d-block elements with special 
+reference to 3d transition series (electronic configuration, oxidation state, color, spin- 
+only magnetic moment, complex formation, and catalytic properties. 
+ 
+4. Coordination compounds: Molecular addition compounds: double salts and 
+coordination compounds. Definition of ligand, denticity. Werner's theory, 
+nomenclature of coordination complexes. Sidgwick's EAN concept and Valence Bond 
+Theory, outer/inner orbital complexes. Geometrical isomerism of coordination 
+compounds with coordination nos. 4 and 6 (Ma6, Ma5b, Ma4b2, Ma3b3, M(aa)3, M(aa)2b2 
+type). Optical isomerism. 
+ 
+5. Lanthanides: Separation of Lanthanide elements (Various methods in brief). 
+Comparative study of lanthanide elements with respect to electronic configuration, 
+atomic and ionic radii, oxidation state, lanthanide contraction, and complex formation 
+tendency. 
+ 
+6. Actinides: Occurrence and preparation of actinide elements. Special 
+reference/method to the enrichment of Uranium. Comparative study of actinide elements 
+with respect to electronic configuration, atomic and ionic radii, oxidation states, 
+compounds, and complex formation tendency.   
+
+Organic Chemistry - II
+CHEMJ42
+1. Nitrogen containing compounds: Preparation and reactions of nitrobenzene and 
+aniline. Preparation and synthetic applications of Diazonium salts. 
+ 
+2. Heterocyclic Compounds: Nomenclature of heterocyclic compounds, synthesis and 
+reactions of furan, pyrrole, thiophene, pyridine, indole and quinoline. 
+ 
+3. Polynuclear Hydrocarbons: Chemistry of naphthalene and anthracene. 
+ 
+3. Colour and Constitution: Synthesis of malachite green, fluorescein, Indigotin.  
+ 
+4. Alicyclic compounds: Cycloalkanes, general synthesis, Bayer's strain theory. Cyclohexane: 
+chair and boat conformations, conformation of mono substituted and disubstituted cyclohexanes. 
+ 
+5. Protection and Deprotection of Functional Groups: protection of NH group, OH group, 
+diols, carbonyl groups, carboxyl groups, double bonds and triple bonds. 
+ 
+6. Carbohydrates: Characteristic reactions of aldoses and ketoses. Glucose-structure (Open 
+and Cyclic), Mutarotation, anomeric effect, iminosugar and sialic acids. Sucrose, starch and 
+cellulose (Structural aspects only), glycosylation reactions.      
+
+Physical Chemistry - II
+CHEMJ43
+1. Thermodynamics of Solutions: Partial molal quantities, chemical potential of a 
+mixture of ideal gases, Gibbs-Duhem equation, chemical potential of real gases and 
+fugacity, activity and activity coefficient, variation of fugacity with temperature and 
+pressure, Lewis-Randall rule, thermodynamic functions of mixing (ΔGmix, ΔSmix, ΔVmix,ΔHmix), ideal solutions and their characteristic properties, Duhem-Margules equation
+
+and its applications, Henry and Raoult's laws, thermodynamics of colligative properties, 
+relative lowering of vapour pressure, freezing point depression, elevation of boiling 
+point and osmotic pressure, van't Hoff equation, measurement of osmotic pressure and 
+determination of molecular weight of macromolecules. 
+ 
+2. Surface and Photochemistry: Langmuir adsorption isotherm, Multi-layer 
+adsorption-BET equation (no derivation) and its application to surface area 
+measurements; Gibbs Adsorption isotherm, surface reactions: kinetics of unimolecular 
+surface reactions, inhibition and activation energy, nature of surface. Enzyme kinetics 
+(Michaelis-Menten equation), 
+Photochemical reactions: quantum efficiency, reasons for low and high quantum 
+efficiency, kinetics of photochemical reactions: decomposition of HI, H2-Br2 reaction, 
+photostationary state: dimerisation of anthracene, Stern-Volmer relation. 
+ 
+3. Nuclear Chemistry: Radioactivity: general characteristics of radioactive decay 
+kinetics, artificial radioactivity, detection and measurement of radioactivity: GM 
+counter. Nuclear Reactions: Types of nuclear reactions, conservation of linear momentum and 
+mass- energy in nuclear reactions, nuclear reaction cross section. Compound nucleus 
+theory and its experimental verification. 
+Radio chemistry: Probing by isotopes, preparation of radioisotopes, radiochemical 
+principles in use of tracers, some typical applications: chemical, physicochemical and 
+analytical applications, age determination. 
+Radiation Chemistry: Interaction of nuclear radiations with matter- charged particle, 
+neutrons and gamma rays. Radiolysis of water and aqueous solutions, radiation 
+dosimetry.      
+
+Techniques in Chemistry
+CHEMJ44
+1. Introduction to Separation and Instrumental Methods 
+Distillation, Crystallization, Precipitation, Extraction, Chromatography, Introductory 
+ideas of UV-visible spectroscopy, Infrared Spectroscopy, and NMR Spectroscopy. 
+ 
+2. General Introduction to Analysis, and Stoichiometric Calculations 
+Qualitative and quantitative analysis, primary standard, secondary standard, preparation 
+of standard solutions, molarity, normality, molality, weight/weight percentage, 
+weight/volume percentage, and ppm. 
+ 
+3. Concepts of Acid-Base Equilibria and Titrations 
+General concepts of acids and bases, strength of conjugate acid/base pair, acid-base 
+equilibria in water, pH calculations for strong acids and strong bases, concepts of acid- 
+base titration, complexometric titration, redox titration, and precipitation titration, 
+indicators.                   
+
+Physical Chemistry Lab Work
+CHEMJ45
+1. Complexometric titrations with EDTA: Mg2+, Zn2+ estimation. 
+ 
+2. Determination of the hardness of water. 
+ 
+3. Kinetics study of acid catalysed hydrolysis of methyl acetate. 
+ 
+4. Determination of pH of a given buffer by colour matching method. 
+ 
+5. Determination of Critical Solution Temperature (CST) of Phenol-Water system. 
+ 
+6. Effect of impurity on Critical Solution Temperature of Phenol-Water system 
+
+Organic and Inorganic Chemistry Lab Work
+CHEMJ46
+A. Preparation of organic compounds: 
+1. Acetanilide from aniline 
+2. p-Bromo acetanilide from acetanilide 
+3. Phthalic anhydride from phthalic acid 
+4. Preparation of phenyl–azo–β-naphthol (an Azo dye). 
+5. Preparation of aniline yellow (p-amino-azobenzene). 
+6. Preparation of Schiff base (Salicylaldehyde and aniline) 
+ 
+B. Preparation of Some Inorganic complexes (Including those using the prepared Schiff 
+base as ligand) Purification by recrystallization of the compounds. 
+ 
+C. Preparation of standard solutions (both primary and secondary) of a particular 
+normality/molarity. 
+ 
+D. Application of Separation and Purification Techniques. 
+
+Physical Chemistry - II
+CHEMN41
+1. Thermodynamics of Solutions: Partial molal quantities, chemical potential of a
+mixture of ideal gases, Gibbs-Duhem equation, chemical potential of real gases and 
+fugacity, activity and activity coefficient, variation of fugacity with temperature and 
+pressure, Lewis-Randall rule, thermodynamic functions of mixing (ΔGmix, ΔSmix, ΔVmix, ΔHmix) , ideal solutions and their characteristic properties, Duhem-Margules equation 
+and its applications, Henry and Raoults laws, thermodynamics of colligative properties, 
+relative lowering of vapour pressure, freezing point depression, elevation of boiling 
+point and osmotic pressure, vant Hoff equation, measurement of osmotic pressure and 
+determination of molecular weight of macromolecules. 
+ 
+2. Surface and Photochemistry: Langmuir adsorption isotherm, Multi-layer 
+adsorption-BET equation (no derivation) and its application to surface area 
+measurements; Gibbs Adsorption isotherm, surface reactions: kinetics of unimolecular 
+surface reactions, inhibition and activation energy, nature of surface. Enzyme kinetics 
+(Michaelis-Menten equation), Photochemical reactions: quantum efficiency, reasons for low and high quantum efficiency, kinetics of photochemical reactions: decomposition of HI, H2-Br2 reaction, photostationary state: dimerisation of anthracene, Stern-Volmer relation. 
+ 
+3. Nuclear Chemistry: Radioactivity: general characteristics of radioactive decay 
+kinetics, artificial radioactivity, detection and measurement of radioactivity: GM 
+counter.  
+Nuclear Reactions: Types of nuclear reactions, conservation of linear momentum and 
+mass- energy in nuclear reactions, nuclear reaction cross section. Compound nucleus 
+theory and its experimental verification. 
+Radio chemistry: Probing by isotopes, preparation of radioisotopes, radiochemical 
+principles in use of tracers, some typical applications: chemical, physicochemical and 
+analytical applications, age determination. 
+Radiation Chemistry: Interaction ofnuclear radiations with matter- charged particle, 
+neutrons and gamma rays. Radiolysis of water and aqueous solutions, radiation 
+dosimetry.       
+
+Techniques in Chemistry
+CHEMN42
+1. Introduction to Separation and Instrumental Methods 
+Distillation, Crystallization, Precipitation, Extraction, Chromatography, Introductory 
+ideas of UV-visible spectroscopy, Infrared Spectroscopy, and NMR Spectroscopy. 
+ 
+2. General Introduction to Analysis, and Stoichiometric Calculations 
+Qualitative and quantitative analysis, primary standard, secondary standard, preparation 
+of standard solutions, molarity, normality, molality, weight/weight percentage, 
+weight/volume percentage, and ppm. 
+ 
+3. Concepts of Acid-Base Equilibria and Titrations 
+General concepts of acids and bases, strength of conjugate acid/base pair, acid-base 
+equilibria in water, pH calculations for strong acids and strong bases, concepts of acid-base titration, complexometric  titration, redox titration, and precipitation titration, indicators.

@@ -1,0 +1,143 @@
+% BHU PYQ -- Professional Exam Template
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,
+  pdftitle={BVCA-402: Probability and Statistics -- BHU PYQ}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{BVCA-402: Probability and Statistics}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\lstset{
+  basicstyle=\small\ttfamily,
+  frame=single,
+  breaklines=true,
+  columns=flexible,
+  keepspaces=true
+}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Voc. Semester IV Examination, 2023-24}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Paper: BVCA-402 --- Probability and Statistics}\\[4pt]
+  {\normalsize Time: Three Hours \hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: Answer the questions in each section as instructed. All questions carry marks as indicated.}
+
+\bigskip
+
+\noindent{\large\bfseries SECTION --- A}
+\rule{\linewidth}{0.4pt}\smallskip
+
+Long-Answer Questions. Answer any two questions: \hfill \textbf{2 $\times$ 12 = 24 Marks}
+
+\medskip
+\noindent\textbf{Question 1.} Derive the mean and variance of the Normal distribution $N(\mu, \sigma^2)$.
+
+\medskip
+\noindent\textbf{Question 2.} What is a simple linear regression model? Obtain the ordinary least squares expressions for the estimators $\beta_0$ and $\beta_1$.
+
+\medskip
+\noindent\textbf{Question 3.} What is a cumulative distribution function? Explain the properties of the distribution function with their mathematical proofs.
+
+\medskip
+\noindent\textbf{Question 4.} What is a likelihood function? Explain the theory of how to obtain the maximum likelihood estimator (MLE) of the parameter of any distribution. In random sampling from a Normal distribution $N(\mu, \sigma^2)$, find the maximum likelihood estimator (MLE) for:
+\begin{parts}
+  \item $\mu$ when $\sigma^2$ is known,
+  \item $\sigma^2$ when $\mu$ is known.
+\end{parts}
+
+\bigskip\noindent{\large\bfseries SECTION --- B}
+\rule{\linewidth}{0.4pt}\smallskip
+
+\noindent\textbf{Question 5.} Attempt any six parts (Answer in about 200 words each): \hfill \textbf{6 $\times$ 6 = 36 Marks}
+\begin{parts}
+  \item Calculate the mean and standard deviation of the continuous random variable $X$ if its probability density function $f(x)$ is given by:
+  \[ f(x) = \begin{cases} \frac{3}{56}x^2 & \text{if } 2 < x < 4 \\ 0 & \text{otherwise} \end{cases} \]
+  \item From a city population, the probability of selecting:
+  \begin{parts}
+    \item a male or a smoker is $7/10$,
+    \item a male smoker is $2/5$,
+    \item a male, if a smoker is already selected, is $2/3$.
+  \end{parts}
+  Find the probability of selecting:
+  \begin{parts}
+    \item a non-smoker,
+    \item a male,
+    \item a smoker, if a male is first selected.
+  \end{parts}
+  \item The contents of three urns I, II, and III are as follows:
+  \begin{itemize}[label=--,leftmargin=1.5em,itemsep=2pt]
+    \item Urn I: 1 white, 2 black, and 3 red balls
+    \item Urn II: 2 white, 1 black, and 1 red balls
+    \item Urn III: 4 white, 5 black, and 3 red balls
+  \end{itemize}
+  One urn is chosen at random and two balls are drawn from it. They happen to be white and red. What is the probability that they come from:
+  \begin{parts}
+    \item Urn I,
+    \item Urn II,
+    \item Urn III?
+  \end{parts}
+  \item Define the chi-square test statistic. What are the essential conditions for the validity of the chi-square test?
+  \item What are non-parametric tests? Define the Kolmogorov-Smirnov statistic.
+  \item For any three events $A$, $B$, and $C$, prove the following:
+  \begin{parts}
+    \item $P(A \cup B \mid C) = P(A \mid C) + P(B \mid C) - P(A \cap B \mid C)$
+    \item $P(B \mid A) \le P(C \mid A)$ provided that $B \subseteq C$ and $P(A) > 0$.
+  \end{parts}
+  \item Discuss statistical hypothesis. Define null and alternative hypothesis with an illustrative example.
+  \item State and define Chebyshev's inequality and Markov's inequality.
+  \item Define Statistics. According to you, where can it be applied? Give at least three practical examples.
+\end{parts}
+
+\bigskip\noindent{\large\bfseries SECTION --- C}
+\rule{\linewidth}{0.4pt}\smallskip
+
+\noindent\textbf{Question 6.} Attempt all parts: \hfill \textbf{10 $\times$ 1 = 10 Marks}
+\begin{parts}
+  \item In an experiment, a coin is tossed five times. Write down the sample space.
+  \item State the additive property of the Poisson distribution.
+  \item Define the Weak Law of Large Numbers (WLLN).
+  \item Define Type-II error in hypothesis testing.
+  \item Who discovered the Normal distribution?
+  \item Write down the probability density function (PDF) of a standard normal variate.
+  \item Give two practical examples of a Poisson distribution.
+  \item For any three events $A$, $B$, and $C$, write the expression for $P(A \cup B \cup C)$.
+  \item Define exhaustive events.
+  \item Write down the mean and variance of a standard normal variate.
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
+\end{center}
+\end{document}
