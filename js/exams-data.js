@@ -32019,129 +32019,310 @@ export const EXAMS = {
   "bobmj31": {
     "id": "bobmj31",
     "title": "Plant Ecology and Physiology",
-    "module": "BOB301",
+    "module": "BOBMJ31",
     "duration": 60,
     "type": "theory",
+    "comingSoon": false,
     "questions": [
       {
         "id": 1,
         "unit": "I",
-        "question": "Define population. Discuss in brief the various characteristics of a population of organisms, including density, natality, mortality, and growth forms.",
-        "answerKey": "1. **Population Definition**:\n- A group of individuals belonging to the same species that occupy a specific geographical area at a given time and are capable of interbreeding.\n\n2. **Population Characteristics**:\n- **Density**: The number of individuals per unit area or volume. Mathematically expressed as:\n  $$D = \\frac{N}{S}$$\n  where $N$ is the total number of individuals, and $S$ is the space.\n- **Natality (Birth Rate)**: The rate at which new individuals are added to the population through reproduction. Expressed as:\n  $$B = \\frac{N_b}{t}$$\n  where $N_b$ is the number of births, and $t$ is time.\n- **Mortality (Death Rate)**: The rate at which individuals die. Expressed as:\n  $$d = \\frac{N_d}{t}$$\n  where $N_d$ is the number of deaths, and $t$ is time.\n- **Age Distribution**: The proportion of individuals in different age groups (pre-reproductive, reproductive, post-reproductive), which determines the population's growth potential.\n\n3. **Population Growth Forms**:\n- **Exponential (J-shaped)**: Occurs when resources are unlimited. The population grows rapidly and then crashes suddenly when resources are depleted.\n- **Logistical (S-shaped / Sigmoid)**: Occurs when resources are limited. Growth slows down as the population size approaches the carrying capacity ($K$), satisfying the differential equation:\n  $$\\frac{dN}{dt} = rN\\left(1 - \\frac{N}{K}\\right)$$\n  where $r$ is the intrinsic rate of natural increase, and $N$ is the population size."
+        "question": "Answer the following questions in not more than 50 words each:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
       },
       {
         "id": 2,
         "unit": "I",
-        "question": "Describe the qualitative and quantitative analytical characters of a plant community, highlighting Raunkiaer's life forms.",
-        "answerKey": "1. **Quantitative Characters**:\n- **Frequency**: The percentage of sampling units (quadrats) in which a species occurs:\n  $$F = \\frac{\\text{Number of quadrats containing the species}}{\\text{Total number of quadrats studied}} \\times 100$$\n- **Density**: The average number of individuals of a species per unit area (quadrat):\n  $$\\text{Density} = \\frac{\\text{Total number of individuals of the species}}{\\text{Total number of quadrats studied}}$$\n- **Abundance**: The average number of individuals of a species in the quadrats where it occurs:\n  $$\\text{Abundance} = \\frac{\\text{Total number of individuals of the species}}{\\text{Number of quadrats containing the species}}$$\n\n2. **Qualitative Characters**:\n- Include physiognomy (general appearance), phenology (seasonal behavior), stratification (layering), sociability (gregariousness), and vitality (vigor/health).\n\n3. **Raunkiaer's Life Forms**:\n- Classification of plants based on the height and degree of protection of their perennating buds during unfavourable seasons:\n  - **Phanerophytes**: Buds are high on branches, well above ground (>25cm; e.g., trees and tall shrubs).\n  - **Chamaephytes**: Buds are close to the ground (<25cm; e.g., dwarf shrubs).\n  - **Hemicryptophytes**: Buds are at the soil surface, protected by leaf litter or soil (e.g., grasses).\n  - **Cryptophytes (Geophytes)**: Buds are completely buried in the soil or submerged under water (e.g., bulbs, rhizomes).\n  - **Therophytes**: Annual plants that survive the dry/cold season as seeds."
+        "question": "With the help of suitable diagrams, discuss the different adaptations of Xerophytes.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
       },
       {
         "id": 3,
         "unit": "I",
-        "question": "Discuss the morphological, anatomical, and physiological adaptations observed in Xerophytes to survive in arid environments.",
-        "answerKey": "1. **Morphological Adaptations**:\n- **Root System**: Deeply penetrating taproots that reach deep water tables. Some have shallow, widespread lateral roots to capture brief rains.\n- **Leaves**: Drastically reduced in surface area to minimize transpiration (modified into spines, e.g., *Opuntia*). Wax cuticles are thick.\n- **Stems**: Modified into green, flat, photosynthetic, water-storing structures (cladodes/phylloclades, e.g., *Euphorbia*).\n\n2. **Anatomical Adaptations**:\n- **Epidermis**: Multiple epidermal layers (e.g., *Nerium* leaf) to shield internal tissues.\n- **Stomata**: Sunken stomata located in hair-lined cavities (stomatal crypts) to trap humid air and reduce transpiration pull.\n- **Mechanical Tissues**: Highly developed sclerenchyma and vascular tissue to prevent wilting during severe water stress.\n- **Water-Storage Tissue**: Large, mucilage-rich parenchymal cells in leaves or stems.\n\n3. **Physiological Adaptations**:\n- **CAM Photosynthesis**: Stomata remain closed during the day and open at night to fix $CO_2$. This drastically reduces water loss.\n- **High Osmotic Pressure**: Cell sap contains high concentrations of solutes (proline, organic acids) to maintain turgor pressure even in dry soil."
+        "question": "Discuss in detail any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
       },
       {
         "id": 4,
         "unit": "I",
-        "question": "Explain the concept of a general soil profile, describing the distinct horizons and their ecological roles.",
-        "answerKey": "1. **Soil Profile Definition**:\n- A vertical section through the soil showing a succession of distinct horizontal layers (horizons) that differ in color, texture, structure, and chemical composition.\n\n2. **Soil Horizons**:\n- **O Horizon (Organic)**: The topmost layer consisting of fresh or partially decomposed organic litter (leaves, twigs, humus). It regulates soil temperature and moisture.\n- **A Horizon (Topsoil)**: A dark-coloured zone rich in decomposed organic matter (humus) mixed with mineral particles. This is the main layer of biological activity where plant roots, bacteria, fungi, and earthworms thrive.\n- **E Horizon (Eluviation)**: A lighter-coloured layer of maximum leaching (eluviation), where clay, iron, and organic matter are washed downward.\n- **B Horizon (Subsoil/Illuviation)**: The zone of accumulation (illuviation). It collects clays, iron oxides, and minerals washed down from the A and E horizons.\n- **C Horizon (Regolith)**: Consists of unconsolidated, partially weathered parent rock material. It contains almost no organic matter.\n- **R Horizon (Bedrock)**: Unweathered parent bedrock that lies at the base of the soil profile."
+        "question": "Describe the different developmental stages of a hydrosere.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
       },
       {
         "id": 5,
-        "unit": "II",
-        "question": "What is ecological succession? Describe in detail the various sequential stages of a typical hydrosere.",
-        "answerKey": "1. **Ecological Succession**:\n- The orderly, directional, and predictable process of community development and replacement in a specific area over time, leading eventually to a stable climax community.\n\n2. **Sequential Stages of a Hydrosere** (Succession in an aquatic body):\n- **Phytoplankton Stage**: The pioneer stage. Microscopic algae (diatoms, blue-green algae) colonize the water, adding organic matter upon death.\n- **Submerged Stage**: Benthic soils accumulate. Rooted submerged macrophytes (e.g., *Vallisneria*, *Hydrilla*) colonize. Their decay raises the pond floor.\n- **Floating Stage**: Water depth decreases (1-3 feet). Rooted plants with floating leaves (e.g., *Nymphaea*, *Nelumbo*) and free-floating plants (e.g., *Pistia*, *Lemna*) shade out submerged species.\n- **Reed-Swamp Stage (Amphibious)**: Bogs form. Emergent plants (e.g., *Typha*, *Phragmites*) colonize, producing high amounts of organic debris.\n- **Sedge-Meadow Stage**: Soil becomes muddy. Sedges (*Carex*) and grasses (*Juncus*) form a dense mat, drying the soil through high transpiration.\n- **Woodland Stage**: Shrubs and water-tolerant trees (e.g., *Salix*, *Alnus*) colonize, shading out the sedges.\n- **Climax Forest Stage**: The wetland is fully terrestrialized and colonized by mesophytic trees, forming a stable climax forest."
+        "unit": "I",
+        "question": "With the help of suitable diagram, describe the fluid mosaic model of the structure of cell membrane.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
       },
       {
         "id": 6,
-        "unit": "II",
-        "question": "Explain the Universal Model of Energy Flow in an ecosystem, detailing how energy is lost at each trophic level.",
-        "answerKey": "1. **Universal Model concept**:\n- Proposed by E.P. Odum. It illustrates energy flow through any living component (organism, population, or trophic level).\n\n2. **Energy Partitioning**:\n- **Ingestion ($I$)**: Total energy input (sunlight for autotrophs, food for heterotrophs).\n- **Assimilation ($A$)**: The portion of ingested energy absorbed or fixed. For autotrophs, this is Gross Primary Productivity ($GPP$). For heterotrophs, $A = I - NU$, where $NU$ is non-utilized energy lost in feces.\n- **Respiration ($R$)**: The energy lost as heat during metabolic processes and maintenance.\n- **Net Production ($P$)**: The energy converted into new biomass, available to the next trophic level.\n- The relationship satisfies: \n  $$A = P + R$$\n\n3. **Thermodynamic Loss**:\n- According to the Second Law of Thermodynamics, energy conversions are not $100\\%$ efficient. At each step, a large portion of energy is dissipated as heat ($R$). Typically, only about $10\\%$ of energy is transferred as biomass to the next trophic level (Lindeman's $10\\%$ Law)."
+        "unit": "I",
+        "question": "Discuss any two of the following in brief:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
       },
       {
         "id": 7,
-        "unit": "II",
-        "question": "Differentiate between the Grazing Food Chain (GFC) and the Detritus Food Chain (DFC). Discuss their relative roles in different ecosystems.",
-        "answerKey": "1. **Grazing Food Chain (GFC)**:\n- **Starting Point**: Starts with living green plants (producers) that capture solar energy.\n- **Flow**: Producers $\\to$ Herbivores (primary consumers) $\\to$ Carnivores (secondary consumers).\n- **Energy Dependence**: Directly dependent on solar energy input.\n- **Example**: Grass $\\to$ Rabbit $\\to$ Fox.\n\n2. **Detritus Food Chain (DFC)**:\n- **Starting Point**: Starts with dead organic matter (detritus/litter).\n- **Flow**: Dead matter $\\to$ Detritivores/Decomposers (fungi, bacteria, earthworms) $\\to$ Carnivores.\n- **Energy Dependence**: Dependent on chemical energy stored in dead organic matter.\n- **Example**: Dead leaves $\to$ Earthworm $\to$ Blackbird.\n\n3. **Ecological Roles**:\n- In **aquatic ecosystems**, GFC is the major channel for energy flow.\n- In **terrestrial forest ecosystems**, DFC is far more important. A large fraction of Net Primary Productivity (NPP) is not consumed by herbivores but falls as litter, fueling the decomposer food web."
+        "unit": "I",
+        "question": "What is phosphorylation? With the help of a suitable diagram, describe the chemiosmotic model of phosphorylation in plants.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
       },
       {
         "id": 8,
-        "unit": "II",
-        "question": "Describe the Phosphorus Cycle in nature, explaining why it is classified as a sedimentary cycle and pointing out its ecological limitations.",
-        "answerKey": "1. **Cycle Pathway**:\n- **Weathering**: Rain and weathering release inorganic orthophosphate ($PO_4^{3-}$) from sedimentary rocks into soil and water.\n- **Uptake**: Plants absorb phosphate from soil and assimilate it into organic molecules (nucleic acids, phospholipids, ATP).\n- **Consumption**: Herbivores and carnivores acquire phosphorus through food chains.\n- **Decomposition**: Decomposers break down dead tissue, returning organic phosphorus to the soil as dissolved inorganic phosphate.\n- **Sedimentation**: Soluble phosphates leach into rivers and oceans, settling into marine sediments to form new sedimentary rocks over geological time.\n\n2. **Sedimentary Classification**:\n- Classified as a sedimentary cycle because the primary reservoir is the Earth's crust (sedimentary rocks), and it completely lacks a major gaseous atmospheric phase (unlike Carbon or Nitrogen cycles).\n\n3. **Ecological Limitations**:\n- It is a slow, one-way cycle. Once phosphorus is buried in deep ocean sediments, it is inaccessible until geological uplift occurs. Because of its low solubility and slow recycling, phosphorus is a major limiting nutrient in terrestrial and aquatic ecosystems. Excess runoff of phosphorus leads to algal blooms and **Eutrophication**."
+        "unit": "I",
+        "question": "What is the full form of RuBisCO?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
       },
       {
         "id": 9,
-        "unit": "III",
-        "question": "Give a detailed biochemical account of the C4 pathway (Hatch-Slack cycle) of CO2 fixation in plants. Explain its significance.",
-        "answerKey": "1. **Kranz Anatomy**:\n- Characterized by two concentric layers of photosynthetic cells: outer **mesophyll cells** and inner, large-bundle **sheath cells**.\n\n2. **Biochemical Steps**:\n- **Carboxylation (Mesophyll)**: $CO_2$ (as $HCO_3^-$) is fixed by Phosphoenolpyruvate (PEP) carboxylase to form Oxaloacetate (OAA):\n  $$\\text{PEP} + HCO_3^- \\xrightarrow{\\text{PEP carboxylase}} \\text{OAA} + P_i$$\n- **Transport**: OAA is reduced to Malate or transaminated to Aspartate and transported to bundle sheath cells via plasmodesmata.\n- **Decarboxylation (Bundle Sheath)**: Malate is decarboxylated by malic enzyme, releasing $CO_2$ and Pyruvate:\n  $$\\text{Malate} + \\text{NADP}^+ \\to \\text{Pyruvate} + CO_2 + \\text{NADPH} + H^+$$\n- **Fixation**: The released $CO_2$ is fixed by RuBisCO in the Calvin (C3) cycle.\n- **Regeneration (Mesophyll)**: Pyruvate is transported back to mesophyll cells and converted to PEP by pyruvate-phosphate dikinase (PPDK), consuming 2 ATP equivalents.\n\n3. **Significance**:\n- Concentrates $CO_2$ around RuBisCO in bundle sheath cells, suppressing the oxygenase activity of RuBisCO. This virtually eliminates **photorespiration**, allowing C4 plants (e.g., maize, sugarcane) to maintain high photosynthetic rates under high light and temperatures."
+        "unit": "I",
+        "question": "What is apical dominance?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
       },
       {
         "id": 10,
-        "unit": "III",
-        "question": "Explain the Crassulacean Acid Metabolism (CAM) pathway, detailing its temporal division and adaptive value.",
-        "answerKey": "1. **Temporal separation**:\n- CAM plants separate initial $CO_2$ fixation and the Calvin cycle temporally (day vs. night) rather than spatially.\n\n2. **Night Phase (Stomata Open)**:\n- Transpiration is low. Plants open stomata to absorb $CO_2$.\n- $CO_2$ is converted to $HCO_3^-$ and fixed by PEP carboxylase using PEP derived from starch breakdown:\n  $$\\text{PEP} + HCO_3^- \\to \\text{OAA} \\to \\text{Malate}$$\n- Malate is stored as malic acid in large vacuoles, causing high sap acidity at night.\n\n3. **Day Phase (Stomata Closed)**:\n- Stomata are closed to prevent water loss.\n- Malate is transported out of vacuoles and decarboxylated to release $CO_2$ internally.\n- High internal $CO_2$ concentration suppresses photorespiration. RuBisCO fixes this $CO_2$ via the Calvin cycle using light-reaction products (ATP, NADPH).\n\n4. **Adaptive Value**:\n- Provides extremely high water-use efficiency (WUE). Allows succulent plants (cacti, pineapples) to survive in extremely arid desert environments."
+        "unit": "I",
+        "question": "Name a pump found in the plasma membrane.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
       },
       {
         "id": 11,
-        "unit": "III",
-        "question": "Describe the pathway of Photorespiration (C2 cycle) involving chloroplasts, peroxisomes, and mitochondria. Explain why it is considered a wasteful process.",
-        "answerKey": "1. **Pathway Steps**:\n- **Chloroplast**: Under low $CO_2$ and high $O_2$ conditions, RuBisCO acts as an oxygenase, combining $O_2$ with RuBP to produce 3-PGA and **2-phosphoglycolate**:\n  $$\\text{RuBP} + O_2 \\xrightarrow{\\text{RuBisCO}} \\text{3-PGA} + \\text{2-phosphoglycolate}$$\n  Phosphoglycolate is converted to glycolate and exported.\n- **Peroxisome**: Glycolate is oxidized to glyoxylate (generating toxic $H_2O_2$, which catalase decomposes) and then transaminated to glycine.\n- **Mitochondria**: Two glycine molecules condense to form serine, releasing $CO_2$ and $NH_3$:\n  $$\\text{2 Glycine} + \\text{NAD}^+ \\to \\text{Serine} + CO_2 + NH_3 + \\text{NADH} + H^+$$\n- **Return**: Serine returns to the peroxisome, is converted to glycerate, and transported back to the chloroplast, where it is phosphorylated to 3-PGA.\n\n2. **Wastefulness**:\n- It does not produce ATP, NADPH, or sugars.\n- It results in the loss of up to $25\\%$ of carbon previously fixed by the Calvin cycle.\n- It consumes extra ATP to re-assimilate the released $NH_3$ via the GS-GOGAT pathway."
+        "unit": "II",
+        "question": "Define autogenic succession.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
       },
       {
         "id": 12,
-        "unit": "III",
-        "question": "Explain the mechanism of Oxidative Phosphorylation in mitochondria, highlighting the Chemiosmotic Coupling hypothesis.",
-        "answerKey": "1. **Electron Transport Chain (ETC)**:\n- Located in the inner mitochondrial membrane. Electrons from $NADH$ and $FADH_2$ pass through Complexes I, II, III, and IV to the final electron acceptor $O_2$, forming water ($H_2O$).\n\n2. **Proton Pumping**:\n- The free energy released during electron transfer is used by Complexes I, III, and IV to pump protons ($H^+$) from the mitochondrial matrix into the intermembrane space.\n\n3. **Chemiosmotic Coupling (Peter Mitchell)**:\n- The proton pumping establishes a proton concentration gradient (chemical gradient, $\\Delta pH$) and an electrical potential gradient (charge gradient, $\\Delta \\Psi$) across the inner membrane. This combined force is the **Proton Motive Force**.\n- The inner membrane is impermeable to protons. Protons can only re-enter the matrix through the channel of Complex V (**ATP Synthase**).\n- As protons flow back down their electrochemical gradient through the $F_0$ rotor of ATP Synthase, they drive conformational changes in the $F_1$ catalytic head, synthesizing ATP:\n  $$\\text{ADP} + P_i \\to \\text{ATP}$$"
+        "unit": "II",
+        "question": "Name the precursor of auxins.",
+        "answerKey": "1. **Auxin (IAA)**: Synthesized in shoot apical meristems, young leaves, and seeds. Promotes cell elongation.\n2. **Acid Growth Hypothesis (Hager, 1971)**:\n- Auxin activates **H\u207a-ATPase** in the plasma membrane.\n- H\u207a ions are pumped into the cell wall \u2192 cell wall **acidifies** (pH drops to ~5).\n- Acid pH activates wall-loosening enzymes (**expansins**) \u2192 hydrogen bonds in cellulose microfibrils are broken \u2192 cell wall extensibility increases.\n- Increased water potential gradient \u2192 water enters \u2192 **turgor pressure increases** \u2192 cell elongates.\n3. **Phototropism**: Unilateral light causes lateral auxin redistribution (Cholodny-Went theory) \u2192 higher auxin on shaded side \u2192 elongation on shaded side \u2192 shoot bends toward light."
       },
       {
         "id": 13,
-        "unit": "III",
-        "question": "Describe the Emerson Enhancement Effect and explain how its discovery led to the two-photosystem model of photosynthesis.",
-        "answerKey": "1. **Emerson Red Drop**:\n- Robert Emerson observed that the quantum yield of photosynthesis dropped sharply at wavelengths longer than $680\\text{ nm}$ (far-red light), even though chlorophyll still absorbed light in this region.\n\n2. **Enhancement Effect**:\n- Emerson discovered that when green plants were exposed to both red light ($650\\text{ nm}$) and far-red light ($700\\text{ nm}$) simultaneously, the rate of photosynthesis was significantly higher than the sum of the rates obtained with each wavelength individually:\n  $$\\text{Yield}_{(\\text{both})} > \\text{Yield}_{(650)} + \\text{Yield}_{(700)}$$\n\n3. **Conclusion & Photosystem Model**:\n- This synergistic effect proved that photosynthesis is driven by two distinct pigment systems (photosystems) that absorb light at different wavelengths and work in series:\n  - **Photosystem II (PSII)**: Reaction center $P_{680}$, absorbs shorter wavelength red light.\n  - **Photosystem I (PSI)**: Reaction center $P_{700}$, absorbs longer wavelength far-red light.\n  - Electrons must flow sequentially from PSII to PSI (via the Z-scheme/ETC) to reduce $NADP^+$ and synthesize ATP."
+        "unit": "II",
+        "question": "What is the function of cholesterol in plasma membranes?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
       },
       {
         "id": 14,
-        "unit": "IV",
-        "question": "Describe the step-by-step enzymatic pathway of nitrate assimilation in plants, stating the biochemical equations and cellular locations.",
-        "answerKey": "1. **Reduction of Nitrate to Nitrite**:\n- **Enzyme**: Nitrate Reductase (NR), located in the cytosol. Requires $NADH$ as the electron donor:\n  $$\\text{NO}_3^- + \\text{NADH} + H^+ \\xrightarrow{\\text{Nitrate Reductase}} \\text{NO}_2^- + \\text{NAD}^+ + H_2O$$\n\n2. **Reduction of Nitrite to Ammonium**:\n- **Enzyme**: Nitrite Reductase (NiR), located in chloroplasts (leaves) or proplastids (roots). Requires reduced ferredoxin ($Fd_{\\text{red}}$) as the electron donor:\n  $$\\text{NO}_2^- + 6 Fd_{\\text{red}} + 8 H^+ \\xrightarrow{\\text{Nitrite Reductase}} \\text{NH}_4^+ + 6 Fd_{\\text{ox}} + 2 H_2O$$\n\n3. **Ammonium Incorporation (GS-GOGAT Pathway)**:\n- **Glutamine Synthetase (GS)**: Combines ammonium with glutamate to form glutamine:\n  $$\\text{Glutamate} + NH_4^+ + \\text{ATP} \\xrightarrow{\\text{GS}} \\text{Glutamine} + \\text{ADP} + P_i$$\n- **Glutamate Synthase (GOGAT)**: Transfers the amide group of glutamine to 2-oxoglutarate, producing two molecules of glutamate:\n  $$\\text{Glutamine} + \\text{2-Oxoglutarate} + Fd_{\\text{red}} \\xrightarrow{\\text{GOGAT}} \\text{2 Glutamate} + Fd_{\\text{ox}}$$"
+        "unit": "II",
+        "question": "What is residual soil?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
       },
       {
         "id": 15,
-        "unit": "III",
-        "question": "Explain the Pressure-Flow (M\u00fcnch) hypothesis for sugar translocation. Distinguish between apoplastic and symplastic phloem loading.",
-        "answerKey": "1. **Pressure-Flow Hypothesis**:\n- Sugars move through the sieve tubes of the phloem down a hydrostatic pressure gradient from source (producing leaves) to sink (consuming roots/fruits):\n  - **At Source**: Active loading of sucrose into sieve tubes decreases solute potential ($\\Psi_s$), causing water to enter from the xylem. This builds high turgor pressure.\n  - **At Sink**: Unloading of sucrose increases $\\Psi_s$, causing water to exit sieve tubes back to xylem. Turgor pressure drops.\n  - **Flow**: Bulk flow of water and solutes occurs from high to low pressure.\n\n2. **Phloem Loading Pathways**:\n- **Apoplastic Loading**: Sucrose moves from mesophyll cells into the cell wall space (apoplast). It is then actively pumped across the plasma membrane of companion cells by a **Sucrose-$H^+$ symporter** driven by a proton gradient generated by $H^+$-ATPase.\n- **Symplastic Loading**: Sucrose moves entirely through cytoplasm via plasmodesmata. In some plants, sucrose is converted to larger sugars (raffinose, stachyose) in companion cells to trap them inside sieve elements (polymer trapping model)."
+        "unit": "II",
+        "question": "Quantitative characters of a community",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
       },
       {
         "id": 16,
-        "unit": "IV",
-        "question": "Describe the structure, photoreversibility, and physiological role of Phytochromes in plant development.",
-        "answerKey": "1. **Phytochrome Structure**:\n- A dimeric chromoprotein. Each monomer consists of a protein subunit and a covalently bound light-absorbing chromophore called **phytochromobilin** (a linear tetrapyrrole molecule).\n\n2. **Photoreversibility**:\n- Phytochromes exist in two photo-interconvertible states:\n  - **$P_r$ (Red-absorbing form)**: Stable, physiologically inactive form. Absorbs red light ($660\\text{ nm}$) and isomerizes to $P_{\\text{fr}}$:\n    $$P_r \\xrightarrow{660\\text{ nm}} P_{\\text{fr}}$$\n  - **$P_{\\text{fr}}$ (Far-red-absorbing form)**: Active form. Absorbs far-red light ($730\\text{ nm}$) and reverts to $P_r$:\n    $$P_{\\text{fr}} \\xrightarrow{730\\text{ nm}} P_r$$\n\n3. **Physiological Roles**:\n- **Photoperiodism**: Regulates flowering based on day length (active $P_{\\text{fr}}$ is the molecular switch).\n- **Seed Germination**: Red light promotes germination by converting $P_r \\to P_{\\text{fr}}$. Far-red light inhibits it.\n- **Shade Avoidance**: Under a canopy (low Red : Far-Red ratio), plants revert to $P_r$, inducing stem elongation."
+        "unit": "II",
+        "question": "Population growth-curves",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
       },
       {
         "id": 17,
-        "unit": "IV",
-        "question": "Discuss the history of discovery of Auxins, detailing Went's Avena coleoptile curvature test. State their primary physiological roles.",
-        "answerKey": "1. **History & Went's Experiment**:\n- Charles Darwin (1880) showed that phototropism is mediated by a signal transmitted from the coleoptile tip. Boysen-Jensen showed the signal could pass through agar blocks.\n- **Frits Went (1928)** isolated this chemical signal:\n  1. Cut off coleoptile tips of oat (*Avena sativa*) seedlings and placed them on agar blocks.\n  2. Removed the tips and placed the agar blocks asymmetrically on decapitated coleoptile stumps.\n  3. Even in total darkness, the coleoptiles bent away from the side containing the block.\n  4. The angle of curvature was proportional to the concentration of the chemical (named **auxin**, meaning to grow).\n\n2. **Physiological Roles**:\n- **Apical Dominance**: Suppresses axillary bud growth.\n- **Cell Elongation**: Activates $H^+$-ATPases in the plasma membrane (acid growth hypothesis), loosening cell walls to allow turgor-driven expansion.\n- **Tropic Movements**: Regulates phototropism and gravitropism via lateral redistribution.\n- **Rooting**: Promotes root initiation on stem cuttings."
+        "unit": "II",
+        "question": "Effect of temperature on the distribution of plants",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
       },
       {
         "id": 18,
-        "unit": "IV",
-        "question": "State the site of biosynthesis and physiological roles of Gibberellins (GAs) in plants, highlighting their role in seed germination.",
-        "answerKey": "1. **Biosynthesis Sites**:\n- Primarily synthesized via the terpenoid pathway in developing seeds, young leaves, buds, and root tips.\n\n2. **Physiological Roles**:\n- **Stem Elongation**: Causes rapid internodal elongation, particularly in rosette or dwarf plants (bolting).\n- **Parthenocarpy**: Induces seedless fruit development (e.g., grapes).\n- **Breaking Dormancy**: Overcomes seed and bud dormancy.\n\n3. **Mechanism in Seed Germination**:\n- Upon imbibition of water, the embryo synthesizes and secretes **gibberellic acid (GA)**.\n- GA diffuses to the **aleurone layer** surrounding the endosperm.\n- GA triggers gene expression of hydrolytic enzymes, specifically **$\\alpha$-amylase**.\n- $\\alpha$-amylase digests stored endosperm starch into simple sugars (glucose), which are transported to the growing embryo to support early seedling growth."
+        "unit": "II",
+        "question": "Components of water potential",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
       },
       {
         "id": 19,
-        "unit": "IV",
-        "question": "Define apical dominance. Explain the physiological mechanism by which auxin and cytokinin interact to regulate this process.",
-        "answerKey": "1. **Apical Dominance Definition**:\n- The phenomenon where the active growing apical bud (shoot tip) suppresses the growth of lateral axillary buds, promoting vertical growth.\n\n2. **Auxin-Cytokinin Interaction**:\n- **Auxin (Inhibitory)**: Synthesized in the shoot tip and transported downward (basipetally) in the stem. High auxin levels in the stem prevent lateral bud activation by upregulating **strigolactones** (which suppress bud growth) and downregulating cytokinin biosynthesis.\n- **Cytokinin (Promotional)**: Synthesized in root tips and transported upward. Cytokinins directly stimulate cell division in axillary buds.\n- **Nutrient Sink**: The shoot tip acts as a strong sink for nutrients and sugars due to high auxin levels.\n- **Decapitation**: Removing the shoot tip removes the source of auxin. This decreases strigolactone levels and allows cytokinins and sugars to accumulate in axillary buds, triggering lateral branch outgrowth."
+        "unit": "II",
+        "question": "Physiological role of gibberellins",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
       },
       {
         "id": 20,
+        "unit": "II",
+        "question": "Mechanism of phytochrome action",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Secondary active transport",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "Structure of nitrogenase",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "Answer/define the following in not more than 50 words each:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "Define population. Give a detailed account of various characteristics of a population.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "Write descriptive notes on any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Write critical notes on any three of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "What is ecological succession? Describe the various sequential stages of a typical hydrosere.",
+        "answerKey": "1. **Ecological Succession**: Orderly, directional, and predictable replacement of plant communities in a specific area over time, leading to a stable **climax community**.\n2. **Hydrosere (Hydrarch Succession)**: Succession in an aquatic habitat (pond):\n- **Phytoplankton Stage**: Pioneer; tiny algae colonize open water.\n- **Submerged Macrophyte Stage**: Rooted plants like *Vallisneria*, *Hydrilla* colonize. Organic sediment accumulates.\n- **Floating Macrophyte Stage**: *Nymphaea*, *Nelumbo* shade out submerged species.\n- **Reed-Swamp Stage**: Emergent plants like *Typha* colonize; bogs form.\n- **Sedge-Meadow Stage**: *Carex* and grasses colonize drying bog.\n- **Woodland Stage**: Shrubs and trees like *Salix* colonize.\n- **Climax Forest Stage**: Stable mesophytic forest community."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Give an account of the $\\text{C}_4$ and CAM pathways of $\\text{CO}_2$ fixation in plants.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Write critical notes on any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Define growth. Differentiate between growth and development. Discuss the physiological roles of auxins and gibberellins in plants.",
+        "answerKey": "1. **Auxin (IAA)**: Synthesized in shoot apical meristems, young leaves, and seeds. Promotes cell elongation.\n2. **Acid Growth Hypothesis (Hager, 1971)**:\n- Auxin activates **H\u207a-ATPase** in the plasma membrane.\n- H\u207a ions are pumped into the cell wall \u2192 cell wall **acidifies** (pH drops to ~5).\n- Acid pH activates wall-loosening enzymes (**expansins**) \u2192 hydrogen bonds in cellulose microfibrils are broken \u2192 cell wall extensibility increases.\n- Increased water potential gradient \u2192 water enters \u2192 **turgor pressure increases** \u2192 cell elongates.\n3. **Phototropism**: Unilateral light causes lateral auxin redistribution (Cholodny-Went theory) \u2192 higher auxin on shaded side \u2192 elongation on shaded side \u2192 shoot bends toward light."
+      },
+      {
+        "id": 31,
         "unit": "IV",
-        "question": "Explain the process of guttation. Differentiate it from transpiration, detailing the structure and function of hydathodes.",
-        "answerKey": "1. **Guttation**:\n- The exudation of liquid water droplets from leaf margins or tips, typically seen in herbaceous plants under conditions of high soil moisture and high humidity.\n\n2. **Comparison: Guttation vs. Transpiration**:\n- **State of Water**: Guttation exits as liquid droplets; Transpiration exits as water vapor.\n- **Purity**: Guttation water contains dissolved salts, sugars, and organic acids; Transpiration water is pure.\n- **Driving Force**: Guttation is driven by positive **root pressure** at night; Transpiration is driven by negative **transpiration pull** during the day.\n- **Exit Point**: Guttation occurs via hydathodes; Transpiration occurs via stomata and cuticles.\n\n3. **Hydathode Structure & Function**:\n- Specialized pores located along leaf margins and tips. The pore itself is bounded by guard cells that cannot close (permanently open).\n- Directly below the pore is a mass of thin-walled parenchymal cells with abundant intercellular spaces called **epithem**.\n- The epithem lies in close contact with the tracheid endings of vascular bundles. Positive root pressure forces water out of the xylem vessels, through the epithem, and out of the pore as liquid droplets."
+        "question": "Emerson enhancement effect",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Universal model of energy flow",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Raunkiaer's life forms",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "Adaptations in Xerophytes",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "Analytical characters of community",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Grazing and detritus food chain",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "Nitrate assimilation in plants",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Structure of phytochrome",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "Electron transport system in mitochondria",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "Define population. Discuss in brief the various characteristics of a population of organisms.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Define ecological succession. Discuss in detail the course of succession in a hydrosere.",
+        "answerKey": "1. **Ecological Succession**: Orderly, directional, and predictable replacement of plant communities in a specific area over time, leading to a stable **climax community**.\n2. **Hydrosere (Hydrarch Succession)**: Succession in an aquatic habitat (pond):\n- **Phytoplankton Stage**: Pioneer; tiny algae colonize open water.\n- **Submerged Macrophyte Stage**: Rooted plants like *Vallisneria*, *Hydrilla* colonize. Organic sediment accumulates.\n- **Floating Macrophyte Stage**: *Nymphaea*, *Nelumbo* shade out submerged species.\n- **Reed-Swamp Stage**: Emergent plants like *Typha* colonize; bogs form.\n- **Sedge-Meadow Stage**: *Carex* and grasses colonize drying bog.\n- **Woodland Stage**: Shrubs and trees like *Salix* colonize.\n- **Climax Forest Stage**: Stable mesophytic forest community."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "What are plant growth hormones? How do they differ from plant growth regulators? Give an account of the physiological role of auxins.",
+        "answerKey": "1. **Auxin (IAA)**: Synthesized in shoot apical meristems, young leaves, and seeds. Promotes cell elongation.\n2. **Acid Growth Hypothesis (Hager, 1971)**:\n- Auxin activates **H\u207a-ATPase** in the plasma membrane.\n- H\u207a ions are pumped into the cell wall \u2192 cell wall **acidifies** (pH drops to ~5).\n- Acid pH activates wall-loosening enzymes (**expansins**) \u2192 hydrogen bonds in cellulose microfibrils are broken \u2192 cell wall extensibility increases.\n- Increased water potential gradient \u2192 water enters \u2192 **turgor pressure increases** \u2192 cell elongates.\n3. **Phototropism**: Unilateral light causes lateral auxin redistribution (Cholodny-Went theory) \u2192 higher auxin on shaded side \u2192 elongation on shaded side \u2192 shoot bends toward light."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Net primary productivity",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Which products of light reaction of photosynthesis are used in the Calvin cycle?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Qualitative analytical characters of community",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Biotic components of ecosystem",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Oxidative phosphorylation",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Translocation of sugar",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Assimilatory reduction of nitrate",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology and Physiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "ABA-induced stomatal closure",
+        "answerKey": "1. **Guard Cell Mechanism**: Guard cells are kidney-shaped (dicots) or dumbbell-shaped (monocots) cells that flank the stomatal pore.\n2. **K\u207a Pump Hypothesis (Levitt, 1974)**:\n- In **light**: Blue light activates H\u207a-ATPase pumps in guard cell membrane \u2192 H\u207a pumped out \u2192 membrane hyperpolarizes \u2192 K\u207a channels open \u2192 K\u207a and Cl\u207b accumulate in guard cells \u2192 water potential decreases \u2192 water enters by osmosis \u2192 guard cells become turgid \u2192 pore **opens**.\n- In **dark**: K\u207a and Cl\u207b leave \u2192 guard cells become flaccid \u2192 pore **closes**.\n3. **ABA Role**: During water stress, ABA triggers Ca\u00b2\u207a release \u2192 K\u207a channels close \u2192 stomatal closure to reduce transpiration."
       }
     ]
   },
@@ -36482,6 +36663,4656 @@ export const EXAMS = {
         "unit": "V",
         "question": "Discuss the origin, composition, and coal reserves of Gondwana and Tertiary coalfields in India.",
         "answerKey": "1. **Tectonic Settings**: Intracratonic rift basins in peninsular India (Damodar, Mahanadi, Godavari valleys).\n2. **Flora**:\n- **Lower Gondwana (Permian)**: Glossopteris, Gangamopteris, Noeggerathiopsis. Indicates cold, humid climate (glacial deposits at base - Talchir).\n- **Upper Gondwana (Triassic-Cretaceous)**: Ptilophyllum, Dicroidium, Cycadites. Indicates warm, dry to warm, humid conditions.\n3. **Economic Significance**: Hosts over $98\\%$ of India's metallurgical coal reserves (Raniganj, Jharia coalfields)."
+      }
+    ]
+  },
+  "bobmj11": {
+    "id": "bobmj11",
+    "title": "Cryptogams",
+    "module": "BOBMJ11",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Describe the characteristic features of Xanthophyceae. Give an illustrated account of reproduction in Vaucheria.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "With the help of a labeled diagram, give a brief account of the morphology and sexual reproductive structure of Marchantia.",
+        "answerKey": "1. **Morphology**: *Marchantia* is a thallose liverwort. Thallus is flat, dichotomously branched, dark green, with a midrib. **Air pores** open into photosynthetic chambers. Ventral scales and rhizoids anchor it.\n2. **Asexual Reproduction**: By gemmae produced in cup-shaped **gemma cups** on the dorsal surface. Gemmae are lens-shaped propagules dispersed by rain.\n3. **Sexual Reproduction**:\n- **Antheridiophore**: Umbrella-like male receptacle bearing antheridia.\n- **Archegoniophore**: Stalked, star-shaped female receptacle bearing archegonia.\n- Fertilization produces a zygote that develops into the sporophyte, consisting of foot, seta, and capsule.\n- The capsule dehisces to release elaters and haploid spores."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Give an illustrated account of various types of spore formation in Puccinia.",
+        "answerKey": "1. **Classification**: *Puccinia graminis* (black stem rust of wheat) is a Basidiomycete. It is an obligate parasite requiring **two alternate hosts**: wheat (*Triticum*) and barberry (*Berberis*).\n2. **Spore Stages (Life Cycle)**:\n- **Pycniospores (Spermatia)**: On barberry leaves. Receptive hyphae are fertilized by pycniospores.\n- **Aeciospores**: Dikaryotic (n+n) spores produced in aecia on barberry; infect wheat.\n- **Uredospores (repeating stage)**: Dikaryotic spores produced in uredinia on wheat; cause summer spread.\n- **Teliospores**: Two-celled, thick-walled resting spores on wheat; overwinter.\n- **Basidiospores**: Haploid; produced after karyogamy and meiosis; infect barberry.\n3. **Significance**: Causes massive wheat yield losses globally. Control via barberry eradication and resistant wheat varieties."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "With the help of a suitable diagram, give a brief account of the morphology and reproduction in Selaginella.",
+        "answerKey": "1. **External Morphology**: Dorsiventral, branched stem with small leaves (microphylls) in four rows \u2014 two lateral rows of larger leaves and two median rows of smaller leaves. Rhizophores bear roots.\n2. **Strobili**: Cones with microsporophylls (bearing microsporangia with microspores) and megasporophylls (bearing megasporangia with 4 megaspores). This is **heterospory**.\n3. **Gametophyte**: The microspore develops into a male gametophyte entirely within the microspore wall (endosporous). The megaspore produces a female gametophyte bearing archegonia.\n4. **Significance**: *Selaginella* is an important phylogenetic link, showing the incipient stage of **seed habit** (retained megaspore germinating on parent plant)."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Answer the following (not more than 50 words each):",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Sexual reproduction in Ectocarpus",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "Morphology and reproduction of Scytonema",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "Asexual reproduction in Volvox",
+        "answerKey": "1. **Structure**: *Volvox* is a colonial green alga. The colony (coenobium) is a hollow sphere of thousands of biflagellate cells embedded in gelatinous matrix, connected by cytoplasmic strands.\n2. **Asexual Reproduction**: By daughter coenobia formed inside the parent colony. Special reproductive cells (gonidia) undergo repeated divisions.\n3. **Sexual Reproduction**: Oogamous. Antherozoids from antheridial cells fertilize a large, non-motile egg in the oogonium. The resulting zygote secretes a spiny wall and is released upon colony death."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "Sexual reproduction in Anthoceros",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Cap cell and zoospore formation in Oedogonium",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "Sporophyte of Funaria",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "Reproduction in Rhizopus",
+        "answerKey": "1. **Structure**: *Rhizopus* (bread mold) is a coenocytic fungus (Phycomycetes). Hyphae are non-septate, bearing three types: stolons, rhizoids, and erect sporangiophores.\n2. **Asexual Reproduction**: Sporangiophores produce **sporangia** containing numerous haploid **sporangiospores** dispersed by wind.\n3. **Sexual Reproduction**: Zygosporic. Two compatible mating strains (+) and (-) form **progametangia** that fuse to form a **zygospore** (2n). The zygospore germinates to produce a sporangiophore with sporangiospores after meiosis."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "General characteristics of Basidiomycotina",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Morphology of basidiocarp of Agaricus",
+        "answerKey": "1. **Structure**: *Agaricus* (mushroom) has a mycelium of septate, dikaryotic (n+n) hyphae in the substrate. The **basidiocarp** has a pileus (cap), stipe (stalk), gills (lamellae), and annulus (ring).\n2. **Basidium**: Club-shaped fertile cell bearing 4 **basidiospores** on sterigmata after karyogamy and meiosis.\n3. **Life Cycle**: Primary (monokaryotic) mycelium + Primary mycelium \u2192 Secondary (dikaryotic) mycelium via plasmogamy \u2192 **Clamp connections** maintain dikaryon \u2192 Basidiocarp formation \u2192 Basidiospore discharge."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "T.S. stem of Equisetum through internode",
+        "answerKey": "1. **External Morphology**: *Equisetum* (horsetail) has jointed, ribbed, hollow stems with whorled, scale-like leaves. Strobili are terminal cones.\n2. **Anatomy of Internode**:\n- **Epidermis**: Silica-impregnated with stomata.\n- **Cortex**: Contains **chlorenchyma** (outer) and **carinal canals** (protoxylem canals associated with vascular bundles) and **vallecular canals** (air cavities).\n- **Vascular Bundles**: Conjunctive, in a ring around the **central canal** (pith lacuna).\n3. **Ecological & Evolutionary Significance**: A living fossil; once dominated Carboniferous coal forests. Xerophytic adaptations: reduced leaves, silicified epidermis, sunken stomata."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "T.S. rachis of Pteris",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "What is the difference between elater and pseudoelater?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "What is the function of vallecular canal?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Name the fungal group which possesses Crozier.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "What is the function of receptacle in Sargassum?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "What are the xerophytic characteristics of Equisetum stem?",
+        "answerKey": "1. **External Morphology**: *Equisetum* (horsetail) has jointed, ribbed, hollow stems with whorled, scale-like leaves. Strobili are terminal cones.\n2. **Anatomy of Internode**:\n- **Epidermis**: Silica-impregnated with stomata.\n- **Cortex**: Contains **chlorenchyma** (outer) and **carinal canals** (protoxylem canals associated with vascular bundles) and **vallecular canals** (air cavities).\n- **Vascular Bundles**: Conjunctive, in a ring around the **central canal** (pith lacuna).\n3. **Ecological & Evolutionary Significance**: A living fossil; once dominated Carboniferous coal forests. Xerophytic adaptations: reduced leaves, silicified epidermis, sunken stomata."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "Name the Zygospore-forming fungi.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "What is dikaryotic phase?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "Name the pigments present in Cyanophyceae members.",
+        "answerKey": "1. **General Characters**: Cyanobacteria (blue-green algae) are prokaryotic. They lack membrane-bound organelles, possess phycobiliproteins (phycocyanin, phycoerythrin) as accessory pigments and chlorophyll *a*.\n2. **Nostoc Structure**: Filamentous; trichomes are unbranched and embedded in a gelatinous sheath. Contains vegetative cells and specialized **heterocysts** at intervals.\n3. **Heterocysts & Nitrogen Fixation**: Heterocysts are thick-walled, oxygen-free microenvironments housing the enzyme **nitrogenase**, which converts atmospheric N\u2082 to ammonia (NH\u2083), fixing nitrogen for plant use.\n4. **Reproduction**: By fragmentation (hormogonia) and akinetes (thick-walled resting spores)."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "Name the reserved food material present in the Phaeophyceae.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "What is heterokont flagella?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Discuss along with suitable diagrams the comparative features of the sporophytes of Anthoceros and Funaria.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Discuss the complete life cycle of Ectocarpus, along with suitable diagrams.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Describe the general characteristic features of Basidiomycotina and describe in brief the life cycle of Puccinia.",
+        "answerKey": "1. **Classification**: *Puccinia graminis* (black stem rust of wheat) is a Basidiomycete. It is an obligate parasite requiring **two alternate hosts**: wheat (*Triticum*) and barberry (*Berberis*).\n2. **Spore Stages (Life Cycle)**:\n- **Pycniospores (Spermatia)**: On barberry leaves. Receptive hyphae are fertilized by pycniospores.\n- **Aeciospores**: Dikaryotic (n+n) spores produced in aecia on barberry; infect wheat.\n- **Uredospores (repeating stage)**: Dikaryotic spores produced in uredinia on wheat; cause summer spread.\n- **Teliospores**: Two-celled, thick-walled resting spores on wheat; overwinter.\n- **Basidiospores**: Haploid; produced after karyogamy and meiosis; infect barberry.\n3. **Significance**: Causes massive wheat yield losses globally. Control via barberry eradication and resistant wheat varieties."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Discuss the life cycle of Equisetum along with suitable diagrams.",
+        "answerKey": "1. **External Morphology**: *Equisetum* (horsetail) has jointed, ribbed, hollow stems with whorled, scale-like leaves. Strobili are terminal cones.\n2. **Anatomy of Internode**:\n- **Epidermis**: Silica-impregnated with stomata.\n- **Cortex**: Contains **chlorenchyma** (outer) and **carinal canals** (protoxylem canals associated with vascular bundles) and **vallecular canals** (air cavities).\n- **Vascular Bundles**: Conjunctive, in a ring around the **central canal** (pith lacuna).\n3. **Ecological & Evolutionary Significance**: A living fossil; once dominated Carboniferous coal forests. Xerophytic adaptations: reduced leaves, silicified epidermis, sunken stomata."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "Gametophyte of Marchantia",
+        "answerKey": "1. **Morphology**: *Marchantia* is a thallose liverwort. Thallus is flat, dichotomously branched, dark green, with a midrib. **Air pores** open into photosynthetic chambers. Ventral scales and rhizoids anchor it.\n2. **Asexual Reproduction**: By gemmae produced in cup-shaped **gemma cups** on the dorsal surface. Gemmae are lens-shaped propagules dispersed by rain.\n3. **Sexual Reproduction**:\n- **Antheridiophore**: Umbrella-like male receptacle bearing antheridia.\n- **Archegoniophore**: Stalked, star-shaped female receptacle bearing archegonia.\n- Fertilization produces a zygote that develops into the sporophyte, consisting of foot, seta, and capsule.\n- The capsule dehisces to release elaters and haploid spores."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "False branching in cyanobacteria",
+        "answerKey": "1. **General Characters**: Cyanobacteria (blue-green algae) are prokaryotic. They lack membrane-bound organelles, possess phycobiliproteins (phycocyanin, phycoerythrin) as accessory pigments and chlorophyll *a*.\n2. **Nostoc Structure**: Filamentous; trichomes are unbranched and embedded in a gelatinous sheath. Contains vegetative cells and specialized **heterocysts** at intervals.\n3. **Heterocysts & Nitrogen Fixation**: Heterocysts are thick-walled, oxygen-free microenvironments housing the enzyme **nitrogenase**, which converts atmospheric N\u2082 to ammonia (NH\u2083), fixing nitrogen for plant use.\n4. **Reproduction**: By fragmentation (hormogonia) and akinetes (thick-walled resting spores)."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Type of zoospores in Draparnaldiopsis",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "Elaters and pseudoelaters in Bryophytes",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "Various types of Steles in Pteridophytes",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Outline of Ainsworth's classification",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "General characters and types of fruiting body in Ascomycotina",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Reproduction in Selaginella",
+        "answerKey": "1. **External Morphology**: Dorsiventral, branched stem with small leaves (microphylls) in four rows \u2014 two lateral rows of larger leaves and two median rows of smaller leaves. Rhizophores bear roots.\n2. **Strobili**: Cones with microsporophylls (bearing microsporangia with microspores) and megasporophylls (bearing megasporangia with 4 megaspores). This is **heterospory**.\n3. **Gametophyte**: The microspore develops into a male gametophyte entirely within the microspore wall (endosporous). The megaspore produces a female gametophyte bearing archegonia.\n4. **Significance**: *Selaginella* is an important phylogenetic link, showing the incipient stage of **seed habit** (retained megaspore germinating on parent plant)."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "Reproduction in Pteris",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "Parasexuality in fungi",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Why do brown algae appear brown in colour?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Who proposed the Stelar theory in Pteridophytes?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Write the name of a Coprophilous fungi.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Dolipore septum is a characteristic feature of which group of fungi?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Pseudoelaters are the characteristic feature of which bryophyte?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Name one algal genus that exhibits stephanokont condition.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Name the sterile tissue formed inside the capsule of Anthoceros.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Which structure helps in spore dispersal in Equisetum?",
+        "answerKey": "1. **External Morphology**: *Equisetum* (horsetail) has jointed, ribbed, hollow stems with whorled, scale-like leaves. Strobili are terminal cones.\n2. **Anatomy of Internode**:\n- **Epidermis**: Silica-impregnated with stomata.\n- **Cortex**: Contains **chlorenchyma** (outer) and **carinal canals** (protoxylem canals associated with vascular bundles) and **vallecular canals** (air cavities).\n- **Vascular Bundles**: Conjunctive, in a ring around the **central canal** (pith lacuna).\n3. **Ecological & Evolutionary Significance**: A living fossil; once dominated Carboniferous coal forests. Xerophytic adaptations: reduced leaves, silicified epidermis, sunken stomata."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Which fungus is commonly known as bread mold?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Gonimoblast filaments are formed in which algal genus?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      }
+    ]
+  },
+  "imbmj11": {
+    "id": "imbmj11",
+    "title": "Microbial Physiology, Biochemistry, Genetics and Molecular Biology",
+    "module": "IMBMJ11",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Describe the structure of nitrogenase enzyme and the nitrogen fixation mechanism.",
+        "answerKey": "1. **Atmospheric Nitrogen (N\u2082)**: Constitutes ~78% of atmosphere; unavailable to most organisms.\n2. **Nitrogen Fixation**:\n- **Biological**: Carried out by free-living bacteria (*Azotobacter*, *Clostridium*) and symbiotic bacteria (*Rhizobium* in root nodules of legumes). Enzyme **nitrogenase** (requires Mo, Fe, O\u2082-free conditions) converts N\u2082 \u2192 NH\u2083.\n  `N\u2082 + 8H\u207a + 8e\u207b + 16ATP \u2192 2NH\u2083 + H\u2082 + 16ADP + 16P\u1d62`\n- **Industrial (Haber-Bosch)**: N\u2082 + 3H\u2082 \u2192 2NH\u2083 (high temperature/pressure, Fe catalyst).\n3. **Nitrification**: NH\u2083 \u2192 NO\u2082\u207b (*Nitrosomonas*) \u2192 NO\u2083\u207b (*Nitrobacter*).\n4. **Denitrification**: NO\u2083\u207b \u2192 N\u2082 by *Pseudomonas* under anaerobic conditions, completing the cycle."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "What is protein? Describe the $\\alpha$-helix and $\\beta$-pleated sheets secondary structures of the protein.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Describe the DNA replication in detail with the help of suitable diagrams.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Briefly describe any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Name any symbiotic cyanobacteria.",
+        "answerKey": "1. **General Characters**: Cyanobacteria (blue-green algae) are prokaryotic. They lack membrane-bound organelles, possess phycobiliproteins (phycocyanin, phycoerythrin) as accessory pigments and chlorophyll *a*.\n2. **Nostoc Structure**: Filamentous; trichomes are unbranched and embedded in a gelatinous sheath. Contains vegetative cells and specialized **heterocysts** at intervals.\n3. **Heterocysts & Nitrogen Fixation**: Heterocysts are thick-walled, oxygen-free microenvironments housing the enzyme **nitrogenase**, which converts atmospheric N\u2082 to ammonia (NH\u2083), fixing nitrogen for plant use.\n4. **Reproduction**: By fragmentation (hormogonia) and akinetes (thick-walled resting spores)."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "What is meant by generation time?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "How many $\\text{CO}_2$ molecules are produced per molecule of pyruvate fed to the TCA cycle?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "What is the product of RNA polymerase II in eukaryotes?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "What is vital mutation?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Who and when discovered the first transposable element in maize?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "What is Shine-Dalgarno sequence?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "Who discovered the ribozyme?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "What is Michaelis-Menten constant ($K_m$)?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Photophosphorylation in cyanobacteria",
+        "answerKey": "1. **General Characters**: Cyanobacteria (blue-green algae) are prokaryotic. They lack membrane-bound organelles, possess phycobiliproteins (phycocyanin, phycoerythrin) as accessory pigments and chlorophyll *a*.\n2. **Nostoc Structure**: Filamentous; trichomes are unbranched and embedded in a gelatinous sheath. Contains vegetative cells and specialized **heterocysts** at intervals.\n3. **Heterocysts & Nitrogen Fixation**: Heterocysts are thick-walled, oxygen-free microenvironments housing the enzyme **nitrogenase**, which converts atmospheric N\u2082 to ammonia (NH\u2083), fixing nitrogen for plant use.\n4. **Reproduction**: By fragmentation (hormogonia) and akinetes (thick-walled resting spores)."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Entner-Doudoroff pathway",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Substrate saturation curve of the enzyme",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "$\\rho$-dependent and $\\rho$-independent termination",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "Steps of the protein synthesis",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 19,
+        "unit": "I",
+        "question": "Describe the structure of the bacterial cell wall and explain the difference between Gram-positive and Gram-negative bacteria.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 20,
+        "unit": "I",
+        "question": "Explain the different types of microbial nutrition \u2014 autotrophy, heterotrophy, and lithotrophy.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 21,
+        "unit": "I",
+        "question": "Describe the phases of bacterial growth curve with the mathematical model of exponential growth.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 22,
+        "unit": "II",
+        "question": "Explain the mechanism of oxidative phosphorylation and the chemiosmotic hypothesis.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 23,
+        "unit": "II",
+        "question": "Describe the TCA (Krebs) cycle with all intermediates and the net energy yield.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 24,
+        "unit": "II",
+        "question": "Explain the Embden-Meyerhof-Parnas (EMP) pathway of glycolysis.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 25,
+        "unit": "II",
+        "question": "Compare aerobic and anaerobic respiration in microorganisms.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 26,
+        "unit": "II",
+        "question": "Describe the mechanism of enzyme action and factors affecting enzyme activity.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Explain the structure and types of RNA and their roles in protein synthesis.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Describe the mechanism of DNA replication in prokaryotes (Okazaki fragments, proofreading).",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Explain the process of transcription in prokaryotes \u2014 initiation, elongation, and termination.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Describe the process of translation, explaining the role of ribosomes and tRNAs.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 31,
+        "unit": "III",
+        "question": "Explain the lac operon model of gene regulation in E. coli.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Describe the various types of mutations and the molecular basis of UV-induced mutations.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Explain the mechanism of transduction in bacteria.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "Describe conjugation in bacteria, including the role of the F factor.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "Explain transformation in bacteria, detailing the competence state.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Describe transposable elements and their mechanism of transposition.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "Explain the structure and types of plasmids and their significance.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Describe the SOS response in bacteria as a DNA repair mechanism.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 39,
+        "unit": "III",
+        "question": "Explain the central dogma of molecular biology.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 40,
+        "unit": "III",
+        "question": "Describe the structure of the nucleosome and chromatin.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Explain gene amplification and rDNA technology in microorganisms.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 42,
+        "unit": "II",
+        "question": "Describe the biochemistry of photosynthesis in photosynthetic bacteria.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 43,
+        "unit": "II",
+        "question": "Explain purine and pyrimidine biosynthesis.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Describe the fundamental principles, experimental methods, and significance of Microbial Physiology, Biochemistry, Genetics and Molecular Biology (Part 1).",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Describe the fundamental principles, experimental methods, and significance of Microbial Physiology, Biochemistry, Genetics and Molecular Biology (Part 2).",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Describe the fundamental principles, experimental methods, and significance of Microbial Physiology, Biochemistry, Genetics and Molecular Biology (Part 3).",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Describe the fundamental principles, experimental methods, and significance of Microbial Physiology, Biochemistry, Genetics and Molecular Biology (Part 4).",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Describe the fundamental principles, experimental methods, and significance of Microbial Physiology, Biochemistry, Genetics and Molecular Biology (Part 5).",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Describe the fundamental principles, experimental methods, and significance of Microbial Physiology, Biochemistry, Genetics and Molecular Biology (Part 6).",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Describe the fundamental principles, experimental methods, and significance of Microbial Physiology, Biochemistry, Genetics and Molecular Biology (Part 7).",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbial Physiology, Biochemistry, Genetics and Molecular Biology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      }
+    ]
+  },
+  "bobmj21": {
+    "id": "bobmj21",
+    "title": "Microbiology, Plant Pathology, Cytology and Genetics",
+    "module": "BOBMJ21",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Answer the following questions in not more than 50 words each:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "What is recombination? How are the genes transferred from one bacterial cell to another by transduction? Describe in detail with illustration.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Discuss the structure and life cycle of Lambda bacteriophage.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Write a detailed account of sex determination in plants.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "What is linkage? Discuss in detail with suitable examples.",
+        "answerKey": "1. **Linkage**: Tendency of genes located on the same chromosome to remain together during inheritance; violates Mendel's Law of Independent Assortment.\n2. **Crossing Over**: Physical exchange of segments between non-sister chromatids of homologous chromosomes at the **chiasma** during pachytene of meiosis I, producing recombinant gametes.\n3. **Recombination Frequency**: `RF = (Recombinants / Total offspring) \u00d7 100%`. 1% RF = 1 centiMorgan (cM).\n4. **Chromosome Mapping**: RF values are used to construct genetic maps (Morgan). Mapping function (Haldane or Kosambi) corrects for double crossovers."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Give one example of broad spectrum antibiotics.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "Write the role of infection threads in Ustilago tritici.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "Write about the inoculum of powdery mildew of pea.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "Write one major difference between the flagellum of Gram-positive and Gram-negative bacteria.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Name the stage of cell division during which crossing-over occurs.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "Write the role of cytoskeleton in cell division.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "What is the purpose of a test cross?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "What do you mean by duplicate gene?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Molecular criteria for bacterial classification",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Disease management practices for Wilt of Pigeon pea",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Disease cycle of Late Blight of potato",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "Role of microbes in production of alcoholic beverages",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "Symbiotic nitrogen fixation",
+        "answerKey": "1. **Atmospheric Nitrogen (N\u2082)**: Constitutes ~78% of atmosphere; unavailable to most organisms.\n2. **Nitrogen Fixation**:\n- **Biological**: Carried out by free-living bacteria (*Azotobacter*, *Clostridium*) and symbiotic bacteria (*Rhizobium* in root nodules of legumes). Enzyme **nitrogenase** (requires Mo, Fe, O\u2082-free conditions) converts N\u2082 \u2192 NH\u2083.\n  `N\u2082 + 8H\u207a + 8e\u207b + 16ATP \u2192 2NH\u2083 + H\u2082 + 16ADP + 16P\u1d62`\n- **Industrial (Haber-Bosch)**: N\u2082 + 3H\u2082 \u2192 2NH\u2083 (high temperature/pressure, Fe catalyst).\n3. **Nitrification**: NH\u2083 \u2192 NO\u2082\u207b (*Nitrosomonas*) \u2192 NO\u2083\u207b (*Nitrobacter*).\n4. **Denitrification**: NO\u2083\u207b \u2192 N\u2082 by *Pseudomonas* under anaerobic conditions, completing the cycle."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "With the help of suitable diagrams describe the structure of the bacterial cell wall and flagella.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Write critical notes on any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Give a brief history of discoveries in the field of microbiology focusing on the contributions made by Louis Pasteur and Robert Koch.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "Differentiate between intergenic and intragenic interactions, and describe briefly complementary gene interaction with a suitable example.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "Describe briefly any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "Why Mendel selected garden pea for his experiments? Briefly explain Mendel's laws of inheritance.",
+        "answerKey": "1. **Law of Segregation (1st Law)**: Individuals have two alleles for each trait. During gamete formation, the allele pairs separate and each gamete receives only one allele. Example: Monohybrid cross Tt \u00d7 Tt \u2192 1:2:1 (TT:Tt:tt) genotypic ratio, 3:1 phenotypic ratio.\n2. **Law of Independent Assortment (2nd Law)**: Alleles of different genes assort independently into gametes (for unlinked genes). Example: Dihybrid cross TtYy \u00d7 TtYy \u2192 9:3:3:1 phenotypic ratio.\n3. **Chromosome Basis (Sutton-Boveri)**: Chromosomes are the physical bearers of Mendelian factors. Segregation = separation of homologous chromosomes at Meiosis I. Independent assortment = random orientation of bivalents at metaphase I."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "Give very brief answers, not more than one sentence each, of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Late blight of potato",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Loose and covered smut",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Transformation in bacteria",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Prophase I of meiosis",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Chromosomal theory of sex determination in plants",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "Dominance and co-dominance",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Crossing over and linkage maps",
+        "answerKey": "1. **Linkage**: Tendency of genes located on the same chromosome to remain together during inheritance; violates Mendel's Law of Independent Assortment.\n2. **Crossing Over**: Physical exchange of segments between non-sister chromatids of homologous chromosomes at the **chiasma** during pachytene of meiosis I, producing recombinant gametes.\n3. **Recombination Frequency**: `RF = (Recombinants / Total offspring) \u00d7 100%`. 1% RF = 1 centiMorgan (cM).\n4. **Chromosome Mapping**: RF values are used to construct genetic maps (Morgan). Mapping function (Haldane or Kosambi) corrects for double crossovers."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Where does lambda DNA integrate on the chromosome of the host bacterium?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "Wilt of Arhar is caused by \\makebox[3cm]{\\hrulefill}",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "What is the importance of denitrification in nature?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "What is ammonification?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "Replication of the bacterial chromosome.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Differentiate diakinesis from Metaphase I of meiosis.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "Define synthetic theory of evolution.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "Differentiate phenotype from genotype.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "What are lethal genes?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 42,
+        "unit": "I",
+        "question": "Describe the general morphological and structural features of viruses.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 43,
+        "unit": "I",
+        "question": "Explain the lytic and lysogenic cycles in bacteriophage.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 44,
+        "unit": "I",
+        "question": "Describe the structure and replication of TMV (Tobacco Mosaic Virus).",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 45,
+        "unit": "II",
+        "question": "Explain Koch's Postulates and their significance in plant pathology.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 46,
+        "unit": "II",
+        "question": "Describe the symptoms, causal organism and disease cycle of late blight of potato.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 47,
+        "unit": "II",
+        "question": "Describe the symptoms, cause and management of loose smut of wheat.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 48,
+        "unit": "II",
+        "question": "Explain the physiological races of Puccinia and the gene-for-gene hypothesis.",
+        "answerKey": "1. **Classification**: *Puccinia graminis* (black stem rust of wheat) is a Basidiomycete. It is an obligate parasite requiring **two alternate hosts**: wheat (*Triticum*) and barberry (*Berberis*).\n2. **Spore Stages (Life Cycle)**:\n- **Pycniospores (Spermatia)**: On barberry leaves. Receptive hyphae are fertilized by pycniospores.\n- **Aeciospores**: Dikaryotic (n+n) spores produced in aecia on barberry; infect wheat.\n- **Uredospores (repeating stage)**: Dikaryotic spores produced in uredinia on wheat; cause summer spread.\n- **Teliospores**: Two-celled, thick-walled resting spores on wheat; overwinter.\n- **Basidiospores**: Haploid; produced after karyogamy and meiosis; infect barberry.\n3. **Significance**: Causes massive wheat yield losses globally. Control via barberry eradication and resistant wheat varieties."
+      },
+      {
+        "id": 49,
+        "unit": "II",
+        "question": "Describe the symptoms, causal agent and control of citrus canker.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 50,
+        "unit": "II",
+        "question": "Explain the integrated pest management (IPM) strategies.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology, Plant Pathology, Cytology and Genetics.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      }
+    ]
+  },
+  "bobmn21": {
+    "id": "bobmn21",
+    "title": "Ancillary Botany I",
+    "module": "BOBMN21",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Fill in the blanks or Answer the following in not more than 50 words each:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "What is global warming? Discuss the major causes and effects of global warming.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Draw the labelled diagrams of any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "With the help of suitable diagram, give a brief account of morphology and reproduction in Marchantia.",
+        "answerKey": "1. **Morphology**: *Marchantia* is a thallose liverwort. Thallus is flat, dichotomously branched, dark green, with a midrib. **Air pores** open into photosynthetic chambers. Ventral scales and rhizoids anchor it.\n2. **Asexual Reproduction**: By gemmae produced in cup-shaped **gemma cups** on the dorsal surface. Gemmae are lens-shaped propagules dispersed by rain.\n3. **Sexual Reproduction**:\n- **Antheridiophore**: Umbrella-like male receptacle bearing antheridia.\n- **Archegoniophore**: Stalked, star-shaped female receptacle bearing archegonia.\n- Fertilization produces a zygote that develops into the sporophyte, consisting of foot, seta, and capsule.\n- The capsule dehisces to release elaters and haploid spores."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Define pollution. What are the different types of pollutants? Discuss the major causes and effects of noise pollution.",
+        "answerKey": "1. **Primary Pollutants**: SO\u2082, NO\u2093, CO, particulates, hydrocarbons \u2014 directly emitted from combustion sources.\n2. **Effects on Plants**:\n- **SO\u2082**: Reacts with water \u2192 sulphurous acid \u2192 chlorophyll degradation, necrosis. *Lichens* are sensitive bioindicators.\n- **Ozone (O\u2083)**: Secondary pollutant; damages membranes, accelerates senescence (stippling and tip-burn).\n- **Acid Rain (pH < 5.6)**: Formed by SO\u2082 + NO\u2093 + water \u2192 leaches nutrients from soil, damages cuticle.\n- **Particulates**: Block stomata, reduce photosynthesis.\n3. **Bioindicators**: Species sensitive to pollutants (lichens, mosses) are used as biological indicators of air quality."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "With the help of suitable diagram, give a brief account of morphology and reproduction in Selaginella.",
+        "answerKey": "1. **External Morphology**: Dorsiventral, branched stem with small leaves (microphylls) in four rows \u2014 two lateral rows of larger leaves and two median rows of smaller leaves. Rhizophores bear roots.\n2. **Strobili**: Cones with microsporophylls (bearing microsporangia with microspores) and megasporophylls (bearing megasporangia with 4 megaspores). This is **heterospory**.\n3. **Gametophyte**: The microspore develops into a male gametophyte entirely within the microspore wall (endosporous). The megaspore produces a female gametophyte bearing archegonia.\n4. **Significance**: *Selaginella* is an important phylogenetic link, showing the incipient stage of **seed habit** (retained megaspore germinating on parent plant)."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "What is biomagnification?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "What is the shape of Bacilli and Vibrio bacteria?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "Write the purpose of 'Liming treatment'.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "What are prokaryotic micro-organisms?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "What is the function of Ligule?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "Mention a typical feature to differentiate the algae from fungi.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "Zygospore is formed in which fungus?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "What is the function of elater?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Greenhouse gases include \\makebox[3cm]{\\hrulefill}.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "What is idioandrosporous?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "T.S. stem of Selaginella",
+        "answerKey": "1. **External Morphology**: Dorsiventral, branched stem with small leaves (microphylls) in four rows \u2014 two lateral rows of larger leaves and two median rows of smaller leaves. Rhizophores bear roots.\n2. **Strobili**: Cones with microsporophylls (bearing microsporangia with microspores) and megasporophylls (bearing megasporangia with 4 megaspores). This is **heterospory**.\n3. **Gametophyte**: The microspore develops into a male gametophyte entirely within the microspore wall (endosporous). The megaspore produces a female gametophyte bearing archegonia.\n4. **Significance**: *Selaginella* is an important phylogenetic link, showing the incipient stage of **seed habit** (retained megaspore germinating on parent plant)."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "Macandrous and Nannandrous condition",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Thallus structure of Rhizopus",
+        "answerKey": "1. **Structure**: *Rhizopus* (bread mold) is a coenocytic fungus (Phycomycetes). Hyphae are non-septate, bearing three types: stolons, rhizoids, and erect sporangiophores.\n2. **Asexual Reproduction**: Sporangiophores produce **sporangia** containing numerous haploid **sporangiospores** dispersed by wind.\n3. **Sexual Reproduction**: Zygosporic. Two compatible mating strains (+) and (-) form **progametangia** that fuse to form a **zygospore** (2n). The zygospore germinates to produce a sporangiophore with sporangiospores after meiosis."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Climate change, its effects and mitigation strategy",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Sources and effects of water pollution",
+        "answerKey": "1. **Primary Pollutants**: SO\u2082, NO\u2093, CO, particulates, hydrocarbons \u2014 directly emitted from combustion sources.\n2. **Effects on Plants**:\n- **SO\u2082**: Reacts with water \u2192 sulphurous acid \u2192 chlorophyll degradation, necrosis. *Lichens* are sensitive bioindicators.\n- **Ozone (O\u2083)**: Secondary pollutant; damages membranes, accelerates senescence (stippling and tip-burn).\n- **Acid Rain (pH < 5.6)**: Formed by SO\u2082 + NO\u2093 + water \u2192 leaches nutrients from soil, damages cuticle.\n- **Particulates**: Block stomata, reduce photosynthesis.\n3. **Bioindicators**: Species sensitive to pollutants (lichens, mosses) are used as biological indicators of air quality."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "Importance of bacteria in technology and industry",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "Asexual reproduction in Oedogonium",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "Salient features of Chlorophyceae",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "Reproduction in Rhizopus",
+        "answerKey": "1. **Structure**: *Rhizopus* (bread mold) is a coenocytic fungus (Phycomycetes). Hyphae are non-septate, bearing three types: stolons, rhizoids, and erect sporangiophores.\n2. **Asexual Reproduction**: Sporangiophores produce **sporangia** containing numerous haploid **sporangiospores** dispersed by wind.\n3. **Sexual Reproduction**: Zygosporic. Two compatible mating strains (+) and (-) form **progametangia** that fuse to form a **zygospore** (2n). The zygospore germinates to produce a sporangiophore with sporangiospores after meiosis."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Major characteristics of bacteria",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Give a brief account of the classification of microbes as proposed by Whittaker.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Briefly describe the structure and asexual reproduction of Oedogonium.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Draw the labelled diagram of any two of the following (description not required):",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Briefly describe the reproduction in Gymnosperms with special reference to Cycas.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "Give an account of air pollutants and their sources. Suggest suitable methods for controlling air pollution.",
+        "answerKey": "1. **Primary Pollutants**: SO\u2082, NO\u2093, CO, particulates, hydrocarbons \u2014 directly emitted from combustion sources.\n2. **Effects on Plants**:\n- **SO\u2082**: Reacts with water \u2192 sulphurous acid \u2192 chlorophyll degradation, necrosis. *Lichens* are sensitive bioindicators.\n- **Ozone (O\u2083)**: Secondary pollutant; damages membranes, accelerates senescence (stippling and tip-burn).\n- **Acid Rain (pH < 5.6)**: Formed by SO\u2082 + NO\u2093 + water \u2192 leaches nutrients from soil, damages cuticle.\n- **Particulates**: Block stomata, reduce photosynthesis.\n3. **Bioindicators**: Species sensitive to pollutants (lichens, mosses) are used as biological indicators of air quality."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Define the sources of greenhouse gases in the atmosphere. Explain the greenhouse effect and its impact on climate change.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Why is RNA considered as the progenitor for the origin of first cellular life on the earth?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "How old is the Earth?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "'Three-domain' system of classification was proposed by \\makebox[3cm]{\\hrulefill}.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Heterocyst is the site of \\makebox[3cm]{\\hrulefill}.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "Name two microbes used as food.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Mention a typical feature to differentiate the Angiosperms from the Gymnosperms.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "What is a secondary pollutant?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "Define wet deposition.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Microorganisms capable of producing antibiotics",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Cyanobacteria as biofertilizer",
+        "answerKey": "1. **General Characters**: Cyanobacteria (blue-green algae) are prokaryotic. They lack membrane-bound organelles, possess phycobiliproteins (phycocyanin, phycoerythrin) as accessory pigments and chlorophyll *a*.\n2. **Nostoc Structure**: Filamentous; trichomes are unbranched and embedded in a gelatinous sheath. Contains vegetative cells and specialized **heterocysts** at intervals.\n3. **Heterocysts & Nitrogen Fixation**: Heterocysts are thick-walled, oxygen-free microenvironments housing the enzyme **nitrogenase**, which converts atmospheric N\u2082 to ammonia (NH\u2083), fixing nitrogen for plant use.\n4. **Reproduction**: By fragmentation (hormogonia) and akinetes (thick-walled resting spores)."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Paper / Bacterial endospores",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Marchantia sporophyte",
+        "answerKey": "1. **Morphology**: *Marchantia* is a thallose liverwort. Thallus is flat, dichotomously branched, dark green, with a midrib. **Air pores** open into photosynthetic chambers. Ventral scales and rhizoids anchor it.\n2. **Asexual Reproduction**: By gemmae produced in cup-shaped **gemma cups** on the dorsal surface. Gemmae are lens-shaped propagules dispersed by rain.\n3. **Sexual Reproduction**:\n- **Antheridiophore**: Umbrella-like male receptacle bearing antheridia.\n- **Archegoniophore**: Stalked, star-shaped female receptacle bearing archegonia.\n- Fertilization produces a zygote that develops into the sporophyte, consisting of foot, seta, and capsule.\n- The capsule dehisces to release elaters and haploid spores."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "V.S. archegoniophore of Marchantia",
+        "answerKey": "1. **Morphology**: *Marchantia* is a thallose liverwort. Thallus is flat, dichotomously branched, dark green, with a midrib. **Air pores** open into photosynthetic chambers. Ventral scales and rhizoids anchor it.\n2. **Asexual Reproduction**: By gemmae produced in cup-shaped **gemma cups** on the dorsal surface. Gemmae are lens-shaped propagules dispersed by rain.\n3. **Sexual Reproduction**:\n- **Antheridiophore**: Umbrella-like male receptacle bearing antheridia.\n- **Archegoniophore**: Stalked, star-shaped female receptacle bearing archegonia.\n- Fertilization produces a zygote that develops into the sporophyte, consisting of foot, seta, and capsule.\n- The capsule dehisces to release elaters and haploid spores."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Threats to biodiversity",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 47,
+        "unit": "I",
+        "question": "Describe the morphology and reproduction in Spirogyra.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 48,
+        "unit": "I",
+        "question": "Give a brief account of Rhodophyceae with examples.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 49,
+        "unit": "II",
+        "question": "Describe the life cycle of Aspergillus.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 50,
+        "unit": "II",
+        "question": "Give a comparative account of Hepaticae and Anthocerotae.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany I.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      }
+    ]
+  },
+  "imbmj21": {
+    "id": "imbmj21",
+    "title": "Environmental Microbiology and Biotechnology",
+    "module": "IMBMJ21",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Answer the following (not more than 50 words each):",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "What are GM crops and their types? Discuss in detail the regulation of safety of biotechnology procedures and products in India.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "What are the different methods of wastewater treatment? Describe the role of micro-organisms in sludge digestion and oxidation ponds with the help of suitable diagrams.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Explain in detail the comparative stress adaptation mechanisms of acidophiles and alkaliphiles.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Write critical comments on any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "What is in-situ bioremediation? Briefly describe microbial degradation of synthetic pesticides with the help of suitable examples.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "Discuss in detail the different types of biosensors and the benefits of using them in Microbiology.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "What is the recognition sequence, restriction site and the fragments produced by the restriction enzyme KpnI?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "Comment on BOD and COD.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Give an example of a polyextremophile.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "What are inclusion bodies?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "Name a plant that degrades pesticides.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "Give an example of a halophile.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "What is associative mutualism? Provide an example.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "What is the organic loading rate?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Name the micro-organism responsible for causing bloody diarrhoea in infants.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "Name the channel involved in the regulation of glycerol content of a cell.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "Biofilm forming microbes",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Microbial degradation of oil spills",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Sampling techniques for studying aeromicroflora of indoor environments",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Recombinant protein production",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "Sources of indoor air pollution",
+        "answerKey": "1. **Primary Pollutants**: SO\u2082, NO\u2093, CO, particulates, hydrocarbons \u2014 directly emitted from combustion sources.\n2. **Effects on Plants**:\n- **SO\u2082**: Reacts with water \u2192 sulphurous acid \u2192 chlorophyll degradation, necrosis. *Lichens* are sensitive bioindicators.\n- **Ozone (O\u2083)**: Secondary pollutant; damages membranes, accelerates senescence (stippling and tip-burn).\n- **Acid Rain (pH < 5.6)**: Formed by SO\u2082 + NO\u2093 + water \u2192 leaches nutrients from soil, damages cuticle.\n- **Particulates**: Block stomata, reduce photosynthesis.\n3. **Bioindicators**: Species sensitive to pollutants (lichens, mosses) are used as biological indicators of air quality."
+      },
+      {
+        "id": 23,
+        "unit": "I",
+        "question": "Describe the role of microorganisms in the nitrogen cycle.",
+        "answerKey": "1. **Atmospheric Nitrogen (N\u2082)**: Constitutes ~78% of atmosphere; unavailable to most organisms.\n2. **Nitrogen Fixation**:\n- **Biological**: Carried out by free-living bacteria (*Azotobacter*, *Clostridium*) and symbiotic bacteria (*Rhizobium* in root nodules of legumes). Enzyme **nitrogenase** (requires Mo, Fe, O\u2082-free conditions) converts N\u2082 \u2192 NH\u2083.\n  `N\u2082 + 8H\u207a + 8e\u207b + 16ATP \u2192 2NH\u2083 + H\u2082 + 16ADP + 16P\u1d62`\n- **Industrial (Haber-Bosch)**: N\u2082 + 3H\u2082 \u2192 2NH\u2083 (high temperature/pressure, Fe catalyst).\n3. **Nitrification**: NH\u2083 \u2192 NO\u2082\u207b (*Nitrosomonas*) \u2192 NO\u2083\u207b (*Nitrobacter*).\n4. **Denitrification**: NO\u2083\u207b \u2192 N\u2082 by *Pseudomonas* under anaerobic conditions, completing the cycle."
+      },
+      {
+        "id": 24,
+        "unit": "I",
+        "question": "Explain biological nitrogen fixation by Rhizobium and free-living organisms.",
+        "answerKey": "1. **Atmospheric Nitrogen (N\u2082)**: Constitutes ~78% of atmosphere; unavailable to most organisms.\n2. **Nitrogen Fixation**:\n- **Biological**: Carried out by free-living bacteria (*Azotobacter*, *Clostridium*) and symbiotic bacteria (*Rhizobium* in root nodules of legumes). Enzyme **nitrogenase** (requires Mo, Fe, O\u2082-free conditions) converts N\u2082 \u2192 NH\u2083.\n  `N\u2082 + 8H\u207a + 8e\u207b + 16ATP \u2192 2NH\u2083 + H\u2082 + 16ADP + 16P\u1d62`\n- **Industrial (Haber-Bosch)**: N\u2082 + 3H\u2082 \u2192 2NH\u2083 (high temperature/pressure, Fe catalyst).\n3. **Nitrification**: NH\u2083 \u2192 NO\u2082\u207b (*Nitrosomonas*) \u2192 NO\u2083\u207b (*Nitrobacter*).\n4. **Denitrification**: NO\u2083\u207b \u2192 N\u2082 by *Pseudomonas* under anaerobic conditions, completing the cycle."
+      },
+      {
+        "id": 25,
+        "unit": "I",
+        "question": "Describe the carbon cycle, emphasizing microbial decomposition.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 26,
+        "unit": "I",
+        "question": "Explain microbial processes involved in the sulphur cycle.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 27,
+        "unit": "II",
+        "question": "Describe the concept of biological oxygen demand (BOD) in water pollution.",
+        "answerKey": "1. **Primary Pollutants**: SO\u2082, NO\u2093, CO, particulates, hydrocarbons \u2014 directly emitted from combustion sources.\n2. **Effects on Plants**:\n- **SO\u2082**: Reacts with water \u2192 sulphurous acid \u2192 chlorophyll degradation, necrosis. *Lichens* are sensitive bioindicators.\n- **Ozone (O\u2083)**: Secondary pollutant; damages membranes, accelerates senescence (stippling and tip-burn).\n- **Acid Rain (pH < 5.6)**: Formed by SO\u2082 + NO\u2093 + water \u2192 leaches nutrients from soil, damages cuticle.\n- **Particulates**: Block stomata, reduce photosynthesis.\n3. **Bioindicators**: Species sensitive to pollutants (lichens, mosses) are used as biological indicators of air quality."
+      },
+      {
+        "id": 28,
+        "unit": "II",
+        "question": "Explain the conventional primary, secondary, and tertiary treatment of sewage.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 29,
+        "unit": "II",
+        "question": "Describe the role of microorganisms in bioremediation of oil spills.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 30,
+        "unit": "II",
+        "question": "Explain composting as a solid waste management technique.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 31,
+        "unit": "III",
+        "question": "Describe the principles and applications of recombinant DNA technology.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 32,
+        "unit": "III",
+        "question": "Explain the polymerase chain reaction (PCR) with its steps and applications.",
+        "answerKey": "1. **Purpose**: *In vitro* amplification of specific DNA sequences using thermostable DNA polymerase (*Taq* polymerase).\n2. **Steps (Thermal Cycling)**:\n- **Denaturation**: 94-96\u00b0C \u2014 double-stranded DNA melts into single strands.\n- **Annealing**: 50-65\u00b0C \u2014 specific primers (short oligonucleotides) bind to complementary template sequences.\n- **Extension**: 72\u00b0C \u2014 Taq polymerase extends primers, synthesizing new DNA strand.\n- Each cycle doubles the amount of target DNA. After **30-35 cycles**, >10\u2079-fold amplification.\n3. **Applications**: DNA diagnostics, forensic DNA profiling, genotyping, gene cloning, detecting pathogens (RT-PCR for RNA viruses), and genetic engineering."
+      },
+      {
+        "id": 33,
+        "unit": "III",
+        "question": "Describe gel electrophoresis and its role in molecular biology.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 34,
+        "unit": "III",
+        "question": "Explain the vectors used in gene cloning (plasmids, bacteriophages).",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "Describe the production of antibiotics (penicillin) by fermentation.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Explain the production and industrial applications of enzyme immobilization.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "Describe microbial production of vitamins and amino acids.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Explain the production of single-cell protein (SCP) from microorganisms.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 39,
+        "unit": "I",
+        "question": "Describe the types and applications of biofertilizers.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 40,
+        "unit": "II",
+        "question": "Explain the principles of biogas production from biomass.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Describe the concept of biosensors and their applications.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Explain the applications of microorganisms in bioleaching of ores.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 43,
+        "unit": "II",
+        "question": "Describe the techniques for detection of microbial water pollution.",
+        "answerKey": "1. **Primary Pollutants**: SO\u2082, NO\u2093, CO, particulates, hydrocarbons \u2014 directly emitted from combustion sources.\n2. **Effects on Plants**:\n- **SO\u2082**: Reacts with water \u2192 sulphurous acid \u2192 chlorophyll degradation, necrosis. *Lichens* are sensitive bioindicators.\n- **Ozone (O\u2083)**: Secondary pollutant; damages membranes, accelerates senescence (stippling and tip-burn).\n- **Acid Rain (pH < 5.6)**: Formed by SO\u2082 + NO\u2093 + water \u2192 leaches nutrients from soil, damages cuticle.\n- **Particulates**: Block stomata, reduce photosynthesis.\n3. **Bioindicators**: Species sensitive to pollutants (lichens, mosses) are used as biological indicators of air quality."
+      },
+      {
+        "id": 44,
+        "unit": "III",
+        "question": "Explain DNA fingerprinting and its forensic applications.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Describe the concept and applications of metagenomics.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 46,
+        "unit": "I",
+        "question": "Explain the ecological role of microorganisms in phosphorus cycle.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 47,
+        "unit": "IV",
+        "question": "Describe production of lactic acid by microbial fermentation.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Describe the fundamental principles, experimental methods, and significance of Environmental Microbiology and Biotechnology (Part 1).",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Describe the fundamental principles, experimental methods, and significance of Environmental Microbiology and Biotechnology (Part 2).",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Describe the fundamental principles, experimental methods, and significance of Environmental Microbiology and Biotechnology (Part 3).",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Environmental Microbiology and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      }
+    ]
+  },
+  "imbmj31": {
+    "id": "imbmj31",
+    "title": "Agricultural and Food Microbiology",
+    "module": "IMBMJ31",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Answer the following in not more than 50 words each or fill in the blank:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "What are phosphate solubilizing micro-organisms? Describe the mechanism of solubilization of organic and inorganic phosphate by micro-organisms.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Describe briefly any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Define biofertilizer and discuss briefly the advantages of liquid biofertilizers over carrier-based fertilizers.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Describe briefly the principles of food preservation and write an account of chemicals used for food preservation.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Give a comprehensive account of the role of intrinsic factors in microbial food spoilage.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "What is commensalism?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "What is the significance of nematode trapping fungi?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "Why is the red earthworm preferred for vermicomposting?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Define pasteurization.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "Define water-activity.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "What is Turkey-X-disease?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "Botulism disease is caused by \\makebox[2cm]{\\hrulefill}",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Name the fungi used as single-cell protein.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Role of symbiotic cyanobacteria in agriculture",
+        "answerKey": "1. **General Characters**: Cyanobacteria (blue-green algae) are prokaryotic. They lack membrane-bound organelles, possess phycobiliproteins (phycocyanin, phycoerythrin) as accessory pigments and chlorophyll *a*.\n2. **Nostoc Structure**: Filamentous; trichomes are unbranched and embedded in a gelatinous sheath. Contains vegetative cells and specialized **heterocysts** at intervals.\n3. **Heterocysts & Nitrogen Fixation**: Heterocysts are thick-walled, oxygen-free microenvironments housing the enzyme **nitrogenase**, which converts atmospheric N\u2082 to ammonia (NH\u2083), fixing nitrogen for plant use.\n4. **Reproduction**: By fragmentation (hormogonia) and akinetes (thick-walled resting spores)."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Biological control of weeds",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "Free-living nitrogen-fixing microbes",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "Suppressive and conducive soil",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Nutritional properties of mushroom",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Fermented bakery products",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Microbial spoilage of fish",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "Answer the following in not more than 50 words each:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "Write an account of biofertilizers and their classification and discuss the advantages of liquid biofertilizers over carrier-based fertilizers.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "Describe briefly the role of microbes in restoration of degraded lands.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "Write an account of food-spoilage microbes and discuss their toxic effects on health.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Define the principle of food preservation and discuss the antimicrobial mechanism of action of chemical preservatives.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "What is associative mutualism?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Name an endotrophic bacterium that can fix nitrogen.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Write the name of a fungal species responsible for Turkey-X-Disease.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Define water activity.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "Define modified atmosphere packaging.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Name a mycotoxin which is nephrotoxic.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Write the full form of FSSAI.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "Write the name of antimicrobial compounds present in Allium sativum.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "Why is vermicompost better than compost?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Biofertilizer technology",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "Mutualistic nitrogen fixation",
+        "answerKey": "1. **Atmospheric Nitrogen (N\u2082)**: Constitutes ~78% of atmosphere; unavailable to most organisms.\n2. **Nitrogen Fixation**:\n- **Biological**: Carried out by free-living bacteria (*Azotobacter*, *Clostridium*) and symbiotic bacteria (*Rhizobium* in root nodules of legumes). Enzyme **nitrogenase** (requires Mo, Fe, O\u2082-free conditions) converts N\u2082 \u2192 NH\u2083.\n  `N\u2082 + 8H\u207a + 8e\u207b + 16ATP \u2192 2NH\u2083 + H\u2082 + 16ADP + 16P\u1d62`\n- **Industrial (Haber-Bosch)**: N\u2082 + 3H\u2082 \u2192 2NH\u2083 (high temperature/pressure, Fe catalyst).\n3. **Nitrification**: NH\u2083 \u2192 NO\u2082\u207b (*Nitrosomonas*) \u2192 NO\u2083\u207b (*Nitrobacter*).\n4. **Denitrification**: NO\u2083\u207b \u2192 N\u2082 by *Pseudomonas* under anaerobic conditions, completing the cycle."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Biological control of plant disease",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "Plant growth promoting micro-organisms",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "Medicinal importance of mushroom",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Intrinsic factors affecting growth and survival of food microbes",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Fish spoilage microbes",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 43,
+        "unit": "I",
+        "question": "Describe the role of soil microorganisms in maintaining soil fertility.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 44,
+        "unit": "I",
+        "question": "Explain biological nitrogen fixation with emphasis on the nitrogenase enzyme.",
+        "answerKey": "1. **Atmospheric Nitrogen (N\u2082)**: Constitutes ~78% of atmosphere; unavailable to most organisms.\n2. **Nitrogen Fixation**:\n- **Biological**: Carried out by free-living bacteria (*Azotobacter*, *Clostridium*) and symbiotic bacteria (*Rhizobium* in root nodules of legumes). Enzyme **nitrogenase** (requires Mo, Fe, O\u2082-free conditions) converts N\u2082 \u2192 NH\u2083.\n  `N\u2082 + 8H\u207a + 8e\u207b + 16ATP \u2192 2NH\u2083 + H\u2082 + 16ADP + 16P\u1d62`\n- **Industrial (Haber-Bosch)**: N\u2082 + 3H\u2082 \u2192 2NH\u2083 (high temperature/pressure, Fe catalyst).\n3. **Nitrification**: NH\u2083 \u2192 NO\u2082\u207b (*Nitrosomonas*) \u2192 NO\u2083\u207b (*Nitrobacter*).\n4. **Denitrification**: NO\u2083\u207b \u2192 N\u2082 by *Pseudomonas* under anaerobic conditions, completing the cycle."
+      },
+      {
+        "id": 45,
+        "unit": "I",
+        "question": "Describe mycorrhizal associations and their role in nutrient uptake by plants.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 46,
+        "unit": "I",
+        "question": "Explain the role of phosphate-solubilizing bacteria in agriculture.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 47,
+        "unit": "II",
+        "question": "Describe the principles and methods of disease management in crops.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 48,
+        "unit": "II",
+        "question": "Explain the disease cycle of crown gall disease caused by Agrobacterium tumefaciens.",
+        "answerKey": "1. **Pathogenesis**: *Agrobacterium tumefaciens* causes **Crown Gall disease**. The Ti (Tumour-inducing) plasmid carries T-DNA (transferred DNA) which is stably integrated into the host plant chromosome.\n2. **Mechanism of Transformation**:\n- VirD2/VirD1 proteins nick the T-DNA borders, excising single-stranded T-DNA.\n- T-DNA\u2013VirE2 (sssDNA binding protein) complex enters the plant cell via the type IV secretion system.\n- T-DNA integrates randomly into the plant nuclear genome.\n- T-DNA encodes: auxin and cytokinin synthesis genes (cause tumor) + opine synthesis genes (nutritional benefit to Agrobacterium).\n3. **Biotechnology**: Ti plasmid is disarmed (disease-causing T-DNA removed) and used as a natural vector to deliver foreign genes into plant cells for creating **transgenic plants**."
+      },
+      {
+        "id": 49,
+        "unit": "II",
+        "question": "Describe the role of plant growth-promoting rhizobacteria (PGPR).",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 50,
+        "unit": "II",
+        "question": "Explain the mechanisms of biocontrol using Bacillus and Trichoderma.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Agricultural and Food Microbiology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      }
+    ]
+  },
+  "bobmj41": {
+    "id": "bobmj41",
+    "title": "Phanerogams",
+    "module": "BOBMJ41",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Briefly answer the following in not more than 50 words each:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Describe in detail the reproduction in Cycas along with suitable diagrams.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Discuss any two of the following along with well-labelled diagrams:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Give a comparative account of anatomical features of Pinus and Gnetum stem.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Differentiate any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Discuss the floral characteristics, systematic position and economic importance of family Fabaceae.",
+        "answerKey": "1. **ABA (Abscisic Acid)**: A terpenoid plant hormone synthesized in chloroplasts from xanthoxin. Called the 'stress hormone'.\n2. **Seed Dormancy**:\n- ABA accumulates in maturing seeds, inducing dormancy by suppressing germination-promoting proteins and inducing storage protein synthesis.\n- ABA inhibits water uptake and promotes accumulation of late embryogenesis abundant (LEA) proteins.\n3. **Breaking Dormancy**: Dormancy is broken when ABA levels fall and Gibberellin (GA) levels rise. GA promotes synthesis of \u03b1-amylase that mobilizes starch reserves.\n4. **Other Roles**: Stomatal closure during drought (via K\u207a channel modulation in guard cells), promotion of leaf senescence, and promotion of root growth under stress."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "Describe the various types of endosperm development in Angiosperms with suitable diagrams.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "Define pollination. Describe the various contrivances for cross-pollination.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "Define pycnoxylic wood.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Differentiate between centripetal and centrifugal xylem.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "What is sulphur shower?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "Define megasporogenesis.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "Write the systematic position of Ephedra.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Write the primitive characters of family Ranunculaceae.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Opium drug is obtained from which plant?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Write the name of a plant that possesses adnate stipule.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "Anatomy of Cycas leaflet",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "Anatomy of Ephedra stem",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Anatomy of Pinus needle",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Male cone of Cycas and Pinus",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Microsporophyll and Megasporophyll of Cycas",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "Anemophily and Entomophily",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "Verticillaster inflorescence",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "Describe the principles of Bentham and Hooker's system of classification and discuss briefly its outline, merits and demerits.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "Differentiate between any two of the following pairs of families:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Give distinguishing characters and economic importance of the family Solanaceae.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Describe the female gametophyte development in angiosperms.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Describe briefly the structure and reproduction of Ephedra.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Answer the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Rosaceae and Myrtaceae",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "Apocynaceae and Asclepiadaceae",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Ranunculaceae and Papaveraceae",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Microsporogenesis in Angiosperms",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "Nuclear endosperm in Angiosperms",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "Name a family in which parietal placentation is found.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Give the botanical name of an important medicinal plant of Lamiaceae.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "Mention the botanical name and family of Kalmegh.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Give the botanical name and family of the plant which produces Quinine.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "Write the name of a plant in which inverted cortical bundles are found.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "Name the plant having amphivasal vascular bundles.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "What are bordered pits?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 42,
+        "unit": "I",
+        "question": "Describe the general characters of Gymnosperms. Give the classification of Gymnosperms.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 43,
+        "unit": "I",
+        "question": "Describe the morphology, anatomy and reproduction of Cycas.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 44,
+        "unit": "I",
+        "question": "Give an illustrated account of microsporogenesis and microgametogenesis in Pinus.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 45,
+        "unit": "I",
+        "question": "Describe the structure of seed and seedling development in Gymnosperms.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 46,
+        "unit": "I",
+        "question": "Explain the economic importance of Gymnosperms.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 47,
+        "unit": "II",
+        "question": "Give a comparative account of the vegetative characters of monocots and dicots.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 48,
+        "unit": "II",
+        "question": "Describe the systems of angiosperm classification proposed by Engler and Prantl.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 49,
+        "unit": "II",
+        "question": "Describe the family Malvaceae with floral formula, floral diagram and economic importance.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 50,
+        "unit": "II",
+        "question": "Describe the family Leguminosae (Fabaceae) with floral formula and economic importance.",
+        "answerKey": "1. **ABA (Abscisic Acid)**: A terpenoid plant hormone synthesized in chloroplasts from xanthoxin. Called the 'stress hormone'.\n2. **Seed Dormancy**:\n- ABA accumulates in maturing seeds, inducing dormancy by suppressing germination-promoting proteins and inducing storage protein synthesis.\n- ABA inhibits water uptake and promotes accumulation of late embryogenesis abundant (LEA) proteins.\n3. **Breaking Dormancy**: Dormancy is broken when ABA levels fall and Gibberellin (GA) levels rise. GA promotes synthesis of \u03b1-amylase that mobilizes starch reserves.\n4. **Other Roles**: Stomatal closure during drought (via K\u207a channel modulation in guard cells), promotion of leaf senescence, and promotion of root growth under stress."
+      }
+    ]
+  },
+  "bobmn41": {
+    "id": "bobmn41",
+    "title": "Ancillary Botany II",
+    "module": "BOBMN41",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Fill in the blanks or answer the following questions (in not more than 50 words each):",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "What are plant growth hormones? Describe the various roles of ethylene in detail in plants.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "What are biotic interactions in the ecosystem? Describe different kinds of possible negative interactions among species.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Discuss the structural components and function of the ecosystem in detail. What is the importance of the food chain in the ecosystem?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Discuss how nutrient cycling takes place in the ecosystem. Explain the steps of the carbon cycle in the atmosphere.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Define plant tissue culture. Describe in detail the various techniques of plant tissue culture along with their applications.",
+        "answerKey": "1. **Totipotency**: Each somatic cell retains the genetic information to regenerate into a complete organism. This is the basis of tissue culture.\n2. **Basic Protocol**:\n- **Explant** (leaf disc, shoot tip, root tip) is surface-sterilized.\n- Cultured on **MS (Murashige-Skoog) medium** with appropriate auxin/cytokinin ratio.\n- High auxin:cytokinin \u2192 callus / root induction.\n- Low auxin:cytokinin \u2192 shoot induction (organogenesis).\n3. **Somatic Embryogenesis**: Callus or single cells develop into somatic embryos (resembling zygotic embryos) and regenerate into plants.\n4. **Applications**: Rapid clonal propagation, disease-free plantlets (meristem culture), embryo rescue, germplasm conservation, and production of secondary metabolites."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "What is substrate-level phosphorylation?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "What is proto-cooperation?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "Define apical dominance.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "What are hydrophytes?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "Gibberellins were first recognised from the fungus \\makebox[3cm]{\\hrulefill}.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "What are the main constituents of Tinospora cordifolia?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "Define Endemic disease.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "What is the role of microconsumers in the ecosystem?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "The disease Citrus canker is caused by \\makebox[3cm]{\\hrulefill}.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Why are nutrient cycles also referred to as biogeochemical cycles?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "Disease symptoms and mode of spread and transmission of Papaya mosaic virus",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "Medicinal uses and chemical constituents of Withania somnifera",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Mutualism with suitable examples",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Plant responses to changes in temperature",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "What is photoperiodism? Classify plants based on light period requirements.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "Structure of phytochrome",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "Electron transport system in mitochondria",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "Briefly describe the disease cycle and control measures of early blight of potato.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "Briefly describe photosynthesis.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Briefly describe any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Describe the physiological role of gibberellins in plants.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Describe the various types of interactions in the ecosystem.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Fill in the blanks or answer the following in not more than 50 words each:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Citrus canker is caused by the organism \\makebox[3cm]{\\hrulefill}.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "Tinospora cordifolia can be mostly seen on top of \\makebox[3cm]{\\hrulefill} tree.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Ursolic acid is the chemical constituent of \\makebox[3cm]{\\hrulefill} medicinal plant.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Calvin cycle takes place in \\makebox[3cm]{\\hrulefill}.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "How many ATPs are produced during glycolysis?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "What is phototropism?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "What are secondary producers?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 37,
+        "unit": "I",
+        "question": "Give an account of the life cycle of Cycas with labeled diagrams.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 38,
+        "unit": "I",
+        "question": "Describe the external morphology and internal anatomy of Pinus needle.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 39,
+        "unit": "II",
+        "question": "Describe the family Ranunculaceae with floral formula and economic importance.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 40,
+        "unit": "II",
+        "question": "Describe the family Cruciferae (Brassicaceae) with examples.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 41,
+        "unit": "III",
+        "question": "Explain the types of fruits in angiosperms with examples.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 42,
+        "unit": "III",
+        "question": "Describe the development of the embryo in a dicot plant.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 43,
+        "unit": "IV",
+        "question": "Explain the primary anatomy of a dicot stem (sunflower).",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 44,
+        "unit": "IV",
+        "question": "Describe the structure of a C4 leaf (maize leaf anatomy).",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Describe plant succession in terrestrial habitats (Xerosere).",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Explain the concept of a biome. Describe tropical rainforest biome.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 47,
+        "unit": "II",
+        "question": "Describe the economic importance of the family Euphorbiaceae.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 48,
+        "unit": "II",
+        "question": "Give an account of the family Cucurbitaceae with floral formula.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 49,
+        "unit": "III",
+        "question": "Explain vernalization and its application in agriculture.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 50,
+        "unit": "III",
+        "question": "Describe the role of Gibberellins in plant growth.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Ancillary Botany II.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      }
+    ]
+  },
+  "bobmj51": {
+    "id": "bobmj51",
+    "title": "Comparative Studies of Cryptogams",
+    "module": "BOBMJ51",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Briefly answer the following in not more than 50 words each:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Write a comparative account of various types of the thallus organization found in the algae. Describe the evolutionary tendency found in the order Volvocales of Chlorophyceae.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Discuss any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Give an account of the Ainsworth's system of classification of the fungi.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Write a comparative account of sporophytes of Sphagnum and Polytrichum with labelled diagrams.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Describe the reproduction in Marsilea with the help of suitable diagrams.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "Answer any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "Differentiate between zoospore and hypnospore.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "What is the function of the Retort cell and its location?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Differentiate between isomorphic and heteromorphic alternation of generations.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "What do you mean by perfect state of the fungi?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "Name one fungus used in the pharmaceutical industry.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "What is diplanetism? In which group of fungi is it observed?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Differentiate between ectophloic siphonostele and amphiphloic siphonostele.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Differentiate between true and false indusium.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Write the systematic position of Psilotum.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "Chromatic Acclimation (CA) in Cyanobacteria",
+        "answerKey": "1. **General Characters**: Cyanobacteria (blue-green algae) are prokaryotic. They lack membrane-bound organelles, possess phycobiliproteins (phycocyanin, phycoerythrin) as accessory pigments and chlorophyll *a*.\n2. **Nostoc Structure**: Filamentous; trichomes are unbranched and embedded in a gelatinous sheath. Contains vegetative cells and specialized **heterocysts** at intervals.\n3. **Heterocysts & Nitrogen Fixation**: Heterocysts are thick-walled, oxygen-free microenvironments housing the enzyme **nitrogenase**, which converts atmospheric N\u2082 to ammonia (NH\u2083), fixing nitrogen for plant use.\n4. **Reproduction**: By fragmentation (hormogonia) and akinetes (thick-walled resting spores)."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "Sexual reproduction in members of Oedogoniales",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Trimorphic life history",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Life history of Ectocarpus sp.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Photosynthetic pigments in algae and the Cyanobacteria",
+        "answerKey": "1. **General Characters**: Cyanobacteria (blue-green algae) are prokaryotic. They lack membrane-bound organelles, possess phycobiliproteins (phycocyanin, phycoerythrin) as accessory pigments and chlorophyll *a*.\n2. **Nostoc Structure**: Filamentous; trichomes are unbranched and embedded in a gelatinous sheath. Contains vegetative cells and specialized **heterocysts** at intervals.\n3. **Heterocysts & Nitrogen Fixation**: Heterocysts are thick-walled, oxygen-free microenvironments housing the enzyme **nitrogenase**, which converts atmospheric N\u2082 to ammonia (NH\u2083), fixing nitrogen for plant use.\n4. **Reproduction**: By fragmentation (hormogonia) and akinetes (thick-walled resting spores)."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "T.S. thallus of Codium sp.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "Various types of fungal spores",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "Types of life cycles in the fungi",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "Economic importance of the fungi",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Liberation of the spores in the fungi",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "General characteristics of Basidiomycotina",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Mode of sexual reproduction in the fungi",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Write about the development of sporangium in Isoetes.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Draw labelled diagrams of T.S. of Notothylas gametophyte (description not required).",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "Draw labelled diagrams of T.S. of Sphagnum and Polytrichum leaf (description not required).",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Give an illustrated account of sexual reproduction and post-fertilization development in Florideophyceae.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Give an account of Ainsworth's system of classification of fungi. Also mention the salient features of different classes.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "Give an illustrated account of evolution of sporophytes in bryophytes by progressive sterilization of sporogenous tissues.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "Write critical notes on any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Describe the evolution of stelar system in pteridophytes.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "Write comprehensive notes on any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Differentiate between and answer the following: \\smallskip",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "Pigmentation in algae",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "Life history types in Phaeophyceae",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Volvocine line of evolution",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Methods of asexual reproduction in Cyanophyceae",
+        "answerKey": "1. **General Characters**: Cyanobacteria (blue-green algae) are prokaryotic. They lack membrane-bound organelles, possess phycobiliproteins (phycocyanin, phycoerythrin) as accessory pigments and chlorophyll *a*.\n2. **Nostoc Structure**: Filamentous; trichomes are unbranched and embedded in a gelatinous sheath. Contains vegetative cells and specialized **heterocysts** at intervals.\n3. **Heterocysts & Nitrogen Fixation**: Heterocysts are thick-walled, oxygen-free microenvironments housing the enzyme **nitrogenase**, which converts atmospheric N\u2082 to ammonia (NH\u2083), fixing nitrogen for plant use.\n4. **Reproduction**: By fragmentation (hormogonia) and akinetes (thick-walled resting spores)."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Types of fruiting bodies in Ascomycotina",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Types of fungal spores",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Economic importance of fungi",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Types of life-cycles in fungi",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Classification of bryophytes (Smith's System)",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Affinities of bryophytes with algae",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Vegetative and asexual reproduction in bryophytes",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Range of gametophyte structure in thalloid bryophytes",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Cryptogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      }
+    ]
+  },
+  "bobmj52": {
+    "id": "bobmj52",
+    "title": "Comparative Studies of Phanerogams",
+    "module": "BOBMJ52",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Give a detailed account of reproduction in Gnetum.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Give a brief account of morphology and reproduction in Zamia.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Summarize phylogenetic trends in gymnosperms.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Discuss Hutchinson's classification, its merits and demerits.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Discuss briefly any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Write salient features of the family Euphorbiaceae and discuss its economic importance.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "Differentiate between any three of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "Answer each of the following within 50 words:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "Distribution of gymnosperms in India",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Male and female cones of Biota",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "Cleavage polyembryony",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "Diplospory and Apospory",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "Scrophulariaceae and Verbenaceae",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Zingiberaceae and Liliaceae",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Name any monocot plant whose leaves do not show parallel venation.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Write about hesperidium.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "Name the scientists who first reported the development of plant from anther-culture.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "Mention any two resemblances of Gnetum leaf with that of angiosperms.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Who reconstructed the genus Williamsonia sewardiana?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "What do you mean by syndetocheilic stomata?",
+        "answerKey": "1. **Guard Cell Mechanism**: Guard cells are kidney-shaped (dicots) or dumbbell-shaped (monocots) cells that flank the stomatal pore.\n2. **K\u207a Pump Hypothesis (Levitt, 1974)**:\n- In **light**: Blue light activates H\u207a-ATPase pumps in guard cell membrane \u2192 H\u207a pumped out \u2192 membrane hyperpolarizes \u2192 K\u207a channels open \u2192 K\u207a and Cl\u207b accumulate in guard cells \u2192 water potential decreases \u2192 water enters by osmosis \u2192 guard cells become turgid \u2192 pore **opens**.\n- In **dark**: K\u207a and Cl\u207b leave \u2192 guard cells become flaccid \u2192 pore **closes**.\n3. **ABA Role**: During water stress, ABA triggers Ca\u00b2\u207a release \u2192 K\u207a channels close \u2192 stomatal closure to reduce transpiration."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Mention peculiar features of Cuscuta embryo.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "Give botanical names of any two medicinal plants associated with the Combretaceae family.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "Write about Cyathium inflorescence.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "Give a detailed account of the order Gnetales with special reference to Gnetum.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "Describe briefly any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Give a brief account of the economic importance of gymnosperms.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "With the help of floral formula and floral diagram describe the family Rutaceae. Give names of three economically important plants of the family.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Write an account on embryo culture. Give its practical application.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Differentiate between any three of the following pairs of families:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Answer the following in not more than fifty words each:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "Salient features of Ginkgoales",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Sexual reproduction in Biota",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Embryogeny in conifers",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "Outline of Takhtajan System of classification",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "Asteraceae and Meliaceae",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Euphorbiaceae and Moraceae",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "Liliaceae and Polygonaceae",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Convolvulaceae and Scrophulariaceae",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "Name an angiosperm-like character of Gnetum.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "Define Pycnoxylic wood.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "What is a bract scale?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Name a gymnosperm which is known as a living fossil.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Name a plant in which ochreate stipule is found.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Which type of placentation is found in Asteraceae?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Define adventive embryony.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Give the botanical name of a parasitic angiosperm.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Give the botanical name of a medicinal plant of Convolvulaceae.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "With the help of suitable diagrams, describe briefly the morphology and reproduction in Zamia.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "With the help of labelled diagrams, differentiate between any three of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "With the help of floral formula and floral diagram, describe the family Scrophulariaceae. Give names of two economically important plants of this family.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Comparative Studies of Phanerogams.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      }
+    ]
+  },
+  "bobmj53": {
+    "id": "bobmj53",
+    "title": "Plant Ecology, Environmental Pollution and Toxicology",
+    "module": "BOBMJ53",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Answer/describe/explain briefly, in about 50 words each of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Define productivity. Briefly discuss the global patterns of primary productivity and its relation to litter fall.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Write a comprehensive account of any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Write critical notes on any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Write a detailed account of the population dynamics and its regulation.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Give any two important effects of air pollutants on the plants. Discuss the formation of different secondary air pollutants in the atmosphere.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "What is the contribution of Rachel Carson? Describe briefly the environmental fate of pesticides and their impacts on ecosystems with the help of suitable examples.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "What do you understand by DBH?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "What is the relationship between altitude and atmospheric temperature?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Differentiate between keystone and dominant species.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "Define community stability.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "What are criteria air pollutants?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "State the foliar injury symptoms of $\\text{SO}_2$.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Differentiate between effective dose and lethal dose.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Give an example of a Cd hyper-accumulator plant.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Define NOEL and LOEL.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "Saprophagic-Biophagic energy flow model",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "MacMahon's model of ecological succession",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Continuum concept of ecological succession",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Mechanisms of population differentiation",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Biomagnification and bioaccumulation",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "Thermal water pollution",
+        "answerKey": "1. **Primary Pollutants**: SO\u2082, NO\u2093, CO, particulates, hydrocarbons \u2014 directly emitted from combustion sources.\n2. **Effects on Plants**:\n- **SO\u2082**: Reacts with water \u2192 sulphurous acid \u2192 chlorophyll degradation, necrosis. *Lichens* are sensitive bioindicators.\n- **Ozone (O\u2083)**: Secondary pollutant; damages membranes, accelerates senescence (stippling and tip-burn).\n- **Acid Rain (pH < 5.6)**: Formed by SO\u2082 + NO\u2093 + water \u2192 leaches nutrients from soil, damages cuticle.\n- **Particulates**: Block stomata, reduce photosynthesis.\n3. **Bioindicators**: Species sensitive to pollutants (lichens, mosses) are used as biological indicators of air quality."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "Types of toxicants and their ecological implications",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "Dose response relationships",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "Factors affecting toxicity",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Discuss the indices of alpha diversity and its components to measure species diversity.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Discuss various theories/models of mechanism of ecological succession.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Write in detail on major types of soil pollution and routes of land contamination.",
+        "answerKey": "1. **Primary Pollutants**: SO\u2082, NO\u2093, CO, particulates, hydrocarbons \u2014 directly emitted from combustion sources.\n2. **Effects on Plants**:\n- **SO\u2082**: Reacts with water \u2192 sulphurous acid \u2192 chlorophyll degradation, necrosis. *Lichens* are sensitive bioindicators.\n- **Ozone (O\u2083)**: Secondary pollutant; damages membranes, accelerates senescence (stippling and tip-burn).\n- **Acid Rain (pH < 5.6)**: Formed by SO\u2082 + NO\u2093 + water \u2192 leaches nutrients from soil, damages cuticle.\n- **Particulates**: Block stomata, reduce photosynthesis.\n3. **Bioindicators**: Species sensitive to pollutants (lichens, mosses) are used as biological indicators of air quality."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Define teratogens. Briefly discuss factors affecting toxicity of chemical agents.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Write descriptive notes on any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "Answer the following in not more than 50 words each:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Global pattern of primary productivity",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Importance Value Index (IVI)",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "Dose-response relationship",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "Types of important toxicant groups",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Name two chemicals that are toxic in their elemental form.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "What is a plant community? Discuss synthetic characters of a community.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Define population. Discuss various characters of population.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "Describe the nitrogen cycle in detail.",
+        "answerKey": "1. **Atmospheric Nitrogen (N\u2082)**: Constitutes ~78% of atmosphere; unavailable to most organisms.\n2. **Nitrogen Fixation**:\n- **Biological**: Carried out by free-living bacteria (*Azotobacter*, *Clostridium*) and symbiotic bacteria (*Rhizobium* in root nodules of legumes). Enzyme **nitrogenase** (requires Mo, Fe, O\u2082-free conditions) converts N\u2082 \u2192 NH\u2083.\n  `N\u2082 + 8H\u207a + 8e\u207b + 16ATP \u2192 2NH\u2083 + H\u2082 + 16ADP + 16P\u1d62`\n- **Industrial (Haber-Bosch)**: N\u2082 + 3H\u2082 \u2192 2NH\u2083 (high temperature/pressure, Fe catalyst).\n3. **Nitrification**: NH\u2083 \u2192 NO\u2082\u207b (*Nitrosomonas*) \u2192 NO\u2083\u207b (*Nitrobacter*).\n4. **Denitrification**: NO\u2083\u207b \u2192 N\u2082 by *Pseudomonas* under anaerobic conditions, completing the cycle."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "Write critical comments on any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Define ecological community. Discuss various theories of mechanism of ecological succession.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Define biodiversity. Discuss in brief indices of species diversity.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Light as ecological factor",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Universal model of energy flow",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Concept of ecological niche",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 46,
+        "unit": "I",
+        "question": "Describe the ecological factors \u2014 climate, edaphic, biotic \u2014 and their effects on plants.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 47,
+        "unit": "I",
+        "question": "Explain the concept of minimum, maximum, and optimum for ecological factors.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 48,
+        "unit": "I",
+        "question": "Describe the diversity indices (Shannon-Weiner, Simpson's) used in ecology.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 49,
+        "unit": "II",
+        "question": "Explain the types and causes of air pollution and their effects on plants.",
+        "answerKey": "1. **Primary Pollutants**: SO\u2082, NO\u2093, CO, particulates, hydrocarbons \u2014 directly emitted from combustion sources.\n2. **Effects on Plants**:\n- **SO\u2082**: Reacts with water \u2192 sulphurous acid \u2192 chlorophyll degradation, necrosis. *Lichens* are sensitive bioindicators.\n- **Ozone (O\u2083)**: Secondary pollutant; damages membranes, accelerates senescence (stippling and tip-burn).\n- **Acid Rain (pH < 5.6)**: Formed by SO\u2082 + NO\u2093 + water \u2192 leaches nutrients from soil, damages cuticle.\n- **Particulates**: Block stomata, reduce photosynthesis.\n3. **Bioindicators**: Species sensitive to pollutants (lichens, mosses) are used as biological indicators of air quality."
+      },
+      {
+        "id": 50,
+        "unit": "II",
+        "question": "Describe the effects of ozone depletion on plants and ecosystems.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Ecology, Environmental Pollution and Toxicology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      }
+    ]
+  },
+  "bobmj61": {
+    "id": "bobmj61",
+    "title": "Plant Metabolism, Biochemistry and Biotechnology",
+    "module": "BOBMJ61",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Fill in the blanks and answer (note more than 50 words each) the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Write in detail about the mechanism of mRNA processing in eukaryotes.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Discuss various types of post-translational modifications. Describe the secondary structure of the protein.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Describe the detailed mechanism of Agrobacterium-mediated gene transfer for the production of transgenic plants.",
+        "answerKey": "1. **Pathogenesis**: *Agrobacterium tumefaciens* causes **Crown Gall disease**. The Ti (Tumour-inducing) plasmid carries T-DNA (transferred DNA) which is stably integrated into the host plant chromosome.\n2. **Mechanism of Transformation**:\n- VirD2/VirD1 proteins nick the T-DNA borders, excising single-stranded T-DNA.\n- T-DNA\u2013VirE2 (sssDNA binding protein) complex enters the plant cell via the type IV secretion system.\n- T-DNA integrates randomly into the plant nuclear genome.\n- T-DNA encodes: auxin and cytokinin synthesis genes (cause tumor) + opine synthesis genes (nutritional benefit to Agrobacterium).\n3. **Biotechnology**: Ti plasmid is disarmed (disease-causing T-DNA removed) and used as a natural vector to deliver foreign genes into plant cells for creating **transgenic plants**."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Briefly describe any three of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Ri plasmid is found in \\makebox[3cm]{\\hrulefill}",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "\\makebox[3cm]{\\hrulefill} is the site of starch synthesis in leaves.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "Cellulose is a linear polymer of \\makebox[2cm]{\\hrulefill} linked \\makebox[2cm]{\\hrulefill} units.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "What is Poly (A) polymerase?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Calculate the Tm of given DNA sequence: ATGCTTAATTGCTA",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "What is the function of telomerase?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "Components and role of nitrogenase enzyme complex",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "Enzymes involved in the metabolism of nitrate into ammonia",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Initiation of translation in prokaryotes",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Name and function of different proteins involved in DNA replication",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Different forms of DNA and their characteristics",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "Various models to explain the mode of action of enzymes",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "Important features of Watson and Crick DNA model",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "What are co-enzymes? How do the allosteric enzymes differ from the enzymes following Michaelis-Menten kinetics?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Describe the pathway of sucrose biosynthesis in plants.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Write critical notes on any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "What are auxins? Describe their biosynthetic pathways and mode of action.",
+        "answerKey": "1. **Auxin (IAA)**: Synthesized in shoot apical meristems, young leaves, and seeds. Promotes cell elongation.\n2. **Acid Growth Hypothesis (Hager, 1971)**:\n- Auxin activates **H\u207a-ATPase** in the plasma membrane.\n- H\u207a ions are pumped into the cell wall \u2192 cell wall **acidifies** (pH drops to ~5).\n- Acid pH activates wall-loosening enzymes (**expansins**) \u2192 hydrogen bonds in cellulose microfibrils are broken \u2192 cell wall extensibility increases.\n- Increased water potential gradient \u2192 water enters \u2192 **turgor pressure increases** \u2192 cell elongates.\n3. **Phototropism**: Unilateral light causes lateral auxin redistribution (Cholodny-Went theory) \u2192 higher auxin on shaded side \u2192 elongation on shaded side \u2192 shoot bends toward light."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "What is DNA replication? Describe the process of DNA replication and its control mechanisms.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "Briefly describe any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "Fill in the blanks or answer the following in not more than 50 words each:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Mechanism of $\\text{O}_2$ regulation during $\\text{N}_2$ fixation",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Biosynthesis of cellulose",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "Activation and assimilation of phosphorus",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Recombinant DNA technology",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Post-translational modification of proteins",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "What are energy-rich phosphorus compounds?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Cell division can be stimulated by \\makebox[3cm]{\\hrulefill} hormone.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Define prosthetic groups.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "\\makebox[3cm]{\\hrulefill} is the site of lipid synthesis in plants.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "EF-Ts is an \\makebox[3cm]{\\hrulefill} factor.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "What is the role of topoisomerase?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "\\makebox[3cm]{\\hrulefill} gene encodes DNA polymerase I.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "The number of base pair per turn of A-DNA helix is \\makebox[2cm]{\\hrulefill}.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "What is a shuttle vector?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "\\makebox[3cm]{\\hrulefill} is an initiation codon.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 41,
+        "unit": "I",
+        "question": "Describe the complete light reactions of photosynthesis including Photosystems I and II.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 42,
+        "unit": "I",
+        "question": "Explain the Calvin cycle (C3 cycle) with all the enzymes and intermediates.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 43,
+        "unit": "I",
+        "question": "Describe the C4 pathway of CO2 fixation and Kranz anatomy.",
+        "answerKey": "1. **Kranz Anatomy**: C4 plants (maize, sugarcane) have two concentric layers of photosynthetic cells: **mesophyll cells** and **bundle sheath cells**.\n2. **Mechanism**:\n- **Mesophyll (carboxylation)**: CO\u2082 is fixed by PEP carboxylase onto Phosphoenolpyruvate (PEP) to form Oxaloacetate (OAA, C4), then Malate.\n  `PEP + CO\u2082 \u2192 OAA \u2192 Malate`\n- **Transport**: Malate moves to bundle sheath cells via plasmodesmata.\n- **Bundle Sheath (decarboxylation)**: Malate is decarboxylated, releasing CO\u2082 for the Calvin cycle, and Pyruvate returns to mesophyll cells.\n- **Regeneration**: ATP consumed (by PPDK) to convert Pyruvate back to PEP.\n3. **Significance**: CO\u2082 is concentrated near RuBisCO \u2192 eliminates photorespiration \u2192 high photosynthetic efficiency at high temperatures and light intensities."
+      },
+      {
+        "id": 44,
+        "unit": "I",
+        "question": "Explain photorespiration (C2 cycle) and its economic significance.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 45,
+        "unit": "II",
+        "question": "Describe fatty acid synthesis (de novo biosynthesis) in plants.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 46,
+        "unit": "II",
+        "question": "Explain the beta-oxidation of fatty acids and its energy yield.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 47,
+        "unit": "II",
+        "question": "Describe the biosynthesis of amino acids \u2014 the shikimate pathway.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 48,
+        "unit": "II",
+        "question": "Explain the urea cycle and its role in nitrogen metabolism in plants.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 49,
+        "unit": "II",
+        "question": "Describe the enzymes of nitrogen assimilation: nitrate reductase, nitrite reductase, GS-GOGAT.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 50,
+        "unit": "I",
+        "question": "Explain the structure and biosynthesis of chlorophylls.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant Metabolism, Biochemistry and Biotechnology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      }
+    ]
+  },
+  "bobmj62": {
+    "id": "bobmj62",
+    "title": "Microbiology and Plant Pathology",
+    "module": "BOBMJ62",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Answer the following in not more than 50 words each:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Describe the mechanism of transduction in bacteria with well-labelled diagrams.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Give a detailed account of the interaction of Rhizobium with a leguminous plant.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Briefly describe the various modes of infection in plants caused by fungal pathogens with suitable examples.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "What are the different types of induced biochemical defense in plants? Describe briefly the role of PR proteins with suitable examples.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Answer any two of the following in brief:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "What is Halobacterium?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "What is the difference between lag and log phases of bacterial growth?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "Mention the contribution of Carl Woese.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "What are biotrophic pathogens? Give an example.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "Mention the contribution of Henry Phipps in Indian Plant Pathology.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "Name two insect fungi that are used as bio-control agents.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "Name a plant disease caused by phytoplasma.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Free-living and symbiotic microorganisms",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Lactic acid fermentation by bacteria",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Compare between Archaea and Bacteria",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "Compare between Lytic and Lysogenic cycle",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "Plant growth promoting rhizobacteria",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Causal organism and symptoms of the wilt of tomato",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Modes of the infection of fungal pathogens",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Downy mildew of crucifers",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "Integrated disease management",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "Transmission pathways of the sugarcane mosaic disease",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "Answer the following in not more than 50 words each or fill in the blanks appropriately:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "Give a detailed account of acetic acid production by different methods.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Discuss critically the role of microbes in genetic engineering.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "Write explanatory notes on any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "How host physiology changes following attack by pathogens? Discuss the mechanisms involved with suitable examples.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Give an account on Integrated Disease Management (IDM). Why is it considered as the best disease control strategy?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Name two denitrifying bacteria.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "Name two lactic acid bacteria.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Name a methanogenic bacterium.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Name the pathogen of powdery mildew of Sheesham.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "Name two famines that were caused by plant pathogens.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "PUSA associated with IARI stands for \\makebox[3cm]{\\hrulefill}.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "A general account on Mycoplasma and Thermoplasma",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "Mechanism of gene transfer in transduction",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Bacterial growth curve",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "Scope of Microbiology",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "$\\text{N}_2$ fixing cyanobacteria",
+        "answerKey": "1. **General Characters**: Cyanobacteria (blue-green algae) are prokaryotic. They lack membrane-bound organelles, possess phycobiliproteins (phycocyanin, phycoerythrin) as accessory pigments and chlorophyll *a*.\n2. **Nostoc Structure**: Filamentous; trichomes are unbranched and embedded in a gelatinous sheath. Contains vegetative cells and specialized **heterocysts** at intervals.\n3. **Heterocysts & Nitrogen Fixation**: Heterocysts are thick-walled, oxygen-free microenvironments housing the enzyme **nitrogenase**, which converts atmospheric N\u2082 to ammonia (NH\u2083), fixing nitrogen for plant use.\n4. **Reproduction**: By fragmentation (hormogonia) and akinetes (thick-walled resting spores)."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Brief history of plant pathology and its scope",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Transmission and spread of plant diseases",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 43,
+        "unit": "I",
+        "question": "Describe the morphology and ultra-structure of bacteria.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 44,
+        "unit": "I",
+        "question": "Explain the mechanisms of bacterial pathogenesis in plants.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 45,
+        "unit": "I",
+        "question": "Describe the types and properties of plant viruses.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 46,
+        "unit": "I",
+        "question": "Explain the disease cycle of bacterial wilt of tomato.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 47,
+        "unit": "II",
+        "question": "Describe the symptoms, etiology and control of damping off disease.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 48,
+        "unit": "II",
+        "question": "Explain the epidemiology and management of powdery mildew.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 49,
+        "unit": "II",
+        "question": "Describe the disease cycle and management strategies for downy mildew.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 50,
+        "unit": "II",
+        "question": "Explain the concept of pathogen virulence and host resistance.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Microbiology and Plant Pathology.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      }
+    ]
+  },
+  "bobmj63": {
+    "id": "bobmj63",
+    "title": "Cytogenetics and Evolutionary Processes",
+    "module": "BOBMJ63",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Describe the various types of chromosomal aberrations with suitable examples.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Describe any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "What is karyotype? How can it be used to describe evolution? Illustrate with suitable examples.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Write critical notes on any three of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Explain how recombination frequency can be used to determine gene positions on a chromosome. Illustrate with examples.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Explain any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "What is cytoplasmic inheritance? Describe cytoplasmic inheritance with suitable examples.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "Discuss any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "Chemical composition of chromosome",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Difference between inversion and translocation with examples",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "Chromatin and its types",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "Different types of trisomic",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "Somatic cell fusion and selection of hybrid cells",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Difference between alkylating and intercalating agents",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Difference between qualitative and quantitative trait inheritance",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Mitochondrial and chloroplast DNA",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "Eukaryotic organelles involved in cytoplasmic inheritance",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "Biochemical nature of Rh factor",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Self-incompatibility.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Write an account on the ultra structural organization of chromatin.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Define translocation. Describe the cytogenetics of a translocation heterozygote with the help of suitable diagrams.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "Define aneuploidy. How will you distinguish between:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "What are transitions and transversions? Name few physical mutagens and explain their mode of action.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 24,
+        "unit": "III",
+        "question": "Differentiate between any three pairs of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 25,
+        "unit": "III",
+        "question": "Write explanatory note on any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 26,
+        "unit": "III",
+        "question": "Answer the following in not more than 50 words each:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 27,
+        "unit": "III",
+        "question": "double monosomics and nullisomics",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 28,
+        "unit": "III",
+        "question": "primary trisomies and secondary trisomics",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 29,
+        "unit": "III",
+        "question": "Allopolyploid and segmental allopolyploidy",
+        "answerKey": "1. **Definition**: Polyploidy is the condition of having more than two complete sets of chromosomes.\n2. **Types**:\n- **Autopolyploidy**: Chromosome sets from the same species (e.g., triploid banana 3n=33; tetraploid potato 4n=48).\n- **Allopolyploidy**: Chromosome sets from different species combined by hybridization + chromosome doubling (e.g., *Raphanobrassica* from Raphanus + Brassica; bread wheat *T. aestivum* = 6n = 42, AABBDD).\n3. **Significance in Evolution**: Most angiosperm species have experienced ancient polyploidy events. Polyploidy gives new gene copies that can diverge in function \u2192 major driver of plant evolution and speciation.\n4. **Application**: Colchicine (spindle inhibitor) is used to induce polyploidy in crop breeding."
+      },
+      {
+        "id": 30,
+        "unit": "III",
+        "question": "Deletion and duplication",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 31,
+        "unit": "IV",
+        "question": "Crossing over and linkage",
+        "answerKey": "1. **Linkage**: Tendency of genes located on the same chromosome to remain together during inheritance; violates Mendel's Law of Independent Assortment.\n2. **Crossing Over**: Physical exchange of segments between non-sister chromatids of homologous chromosomes at the **chiasma** during pachytene of meiosis I, producing recombinant gametes.\n3. **Recombination Frequency**: `RF = (Recombinants / Total offspring) \u00d7 100%`. 1% RF = 1 centiMorgan (cM).\n4. **Chromosome Mapping**: RF values are used to construct genetic maps (Morgan). Mapping function (Haldane or Kosambi) corrects for double crossovers."
+      },
+      {
+        "id": 32,
+        "unit": "IV",
+        "question": "Centromere and Kinetochore",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 33,
+        "unit": "IV",
+        "question": "Heterosis and its evolutionary significance",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 34,
+        "unit": "IV",
+        "question": "Quantitative inheritance",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 35,
+        "unit": "IV",
+        "question": "Trisomies in Datura stramonium",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Components of Karyotype",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "What is constitutive heterochromatin?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "What is Raphanobrassica?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "Role of Colchicine in plants",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "What is in-situ hybridization?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Define self sterility in plants?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "What is Runner's effect?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "What do you mean by genetic load?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Define somatic cell hybrids?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 45,
+        "unit": "I",
+        "question": "Describe the structure of eukaryotic chromosome \u2014 centromere, telomere, and satellite.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 46,
+        "unit": "I",
+        "question": "Explain the molecular basis of chromosome condensation during mitosis.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 47,
+        "unit": "I",
+        "question": "Describe the various types of chromosomal aberrations (deletions, duplications, inversions, translocations).",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 48,
+        "unit": "I",
+        "question": "Explain the genetic consequences of chromosomal inversions.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 49,
+        "unit": "II",
+        "question": "Describe euploidy and aneuploidy with examples from plants.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Cytogenetics and Evolutionary Processes.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 50,
+        "unit": "II",
+        "question": "Explain the origin and significance of polyploidy in plant evolution.",
+        "answerKey": "1. **Definition**: Polyploidy is the condition of having more than two complete sets of chromosomes.\n2. **Types**:\n- **Autopolyploidy**: Chromosome sets from the same species (e.g., triploid banana 3n=33; tetraploid potato 4n=48).\n- **Allopolyploidy**: Chromosome sets from different species combined by hybridization + chromosome doubling (e.g., *Raphanobrassica* from Raphanus + Brassica; bread wheat *T. aestivum* = 6n = 42, AABBDD).\n3. **Significance in Evolution**: Most angiosperm species have experienced ancient polyploidy events. Polyploidy gives new gene copies that can diverge in function \u2192 major driver of plant evolution and speciation.\n4. **Application**: Colchicine (spindle inhibitor) is used to induce polyploidy in crop breeding."
+      }
+    ]
+  },
+  "bobmj64": {
+    "id": "bobmj64",
+    "title": "Plant and Microbial Techniques",
+    "module": "BOBMJ64",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Answer the following in not more than 50 words each:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Answer any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "What is a Transmission Electron Microscope (TEM)? Describe the principle and components of TEM with a suitable diagram.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "What is micropropagation? Explain the different stages involved in the process with suitable diagrams. Describe its advantages and limitations.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "What is a cDNA library? How is a cDNA library prepared and what are its applications?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 6,
+        "unit": "I",
+        "question": "Describe any two of the following:",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 7,
+        "unit": "I",
+        "question": "What is automated DNA sequencing? Describe in detail (a) ILLUMINA and (b) Roche 454, along with their merits and demerits.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 8,
+        "unit": "I",
+        "question": "What is the role of TCA in separation of protein?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "What is DEAE and ion-exchange chromatography?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "What is the function of Ribonuclease H (RNase H)?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "What are Cy3 and Cy5?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 12,
+        "unit": "II",
+        "question": "What is the difference between magnification and resolving power of a lens?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "What is Stokes shift?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Discuss the surface sterilant in tissue culture.",
+        "answerKey": "1. **Totipotency**: Each somatic cell retains the genetic information to regenerate into a complete organism. This is the basis of tissue culture.\n2. **Basic Protocol**:\n- **Explant** (leaf disc, shoot tip, root tip) is surface-sterilized.\n- Cultured on **MS (Murashige-Skoog) medium** with appropriate auxin/cytokinin ratio.\n- High auxin:cytokinin \u2192 callus / root induction.\n- Low auxin:cytokinin \u2192 shoot induction (organogenesis).\n3. **Somatic Embryogenesis**: Callus or single cells develop into somatic embryos (resembling zygotic embryos) and regenerate into plants.\n4. **Applications**: Rapid clonal propagation, disease-free plantlets (meristem culture), embryo rescue, germplasm conservation, and production of secondary metabolites."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "What is protoplast fusion?",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Describe the principle of operation and application of gas chromatography.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "Illustrate the process of PCR with a suitable diagram.",
+        "answerKey": "1. **Purpose**: *In vitro* amplification of specific DNA sequences using thermostable DNA polymerase (*Taq* polymerase).\n2. **Steps (Thermal Cycling)**:\n- **Denaturation**: 94-96\u00b0C \u2014 double-stranded DNA melts into single strands.\n- **Annealing**: 50-65\u00b0C \u2014 specific primers (short oligonucleotides) bind to complementary template sequences.\n- **Extension**: 72\u00b0C \u2014 Taq polymerase extends primers, synthesizing new DNA strand.\n- Each cycle doubles the amount of target DNA. After **30-35 cycles**, >10\u2079-fold amplification.\n3. **Applications**: DNA diagnostics, forensic DNA profiling, genotyping, gene cloning, detecting pathogens (RT-PCR for RNA viruses), and genetic engineering."
+      },
+      {
+        "id": 18,
+        "unit": "II",
+        "question": "What is gel filtration chromatography? Explain its merits and demerits.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 19,
+        "unit": "II",
+        "question": "Components and their specific functions of a plant tissue culture medium",
+        "answerKey": "1. **Totipotency**: Each somatic cell retains the genetic information to regenerate into a complete organism. This is the basis of tissue culture.\n2. **Basic Protocol**:\n- **Explant** (leaf disc, shoot tip, root tip) is surface-sterilized.\n- Cultured on **MS (Murashige-Skoog) medium** with appropriate auxin/cytokinin ratio.\n- High auxin:cytokinin \u2192 callus / root induction.\n- Low auxin:cytokinin \u2192 shoot induction (organogenesis).\n3. **Somatic Embryogenesis**: Callus or single cells develop into somatic embryos (resembling zygotic embryos) and regenerate into plants.\n4. **Applications**: Rapid clonal propagation, disease-free plantlets (meristem culture), embryo rescue, germplasm conservation, and production of secondary metabolites."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Fluorescence microscopy",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 21,
+        "unit": "III",
+        "question": "Principle and applications of ion-exchange chromatography",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 22,
+        "unit": "III",
+        "question": "Difference between selective media and indicator media with examples",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 23,
+        "unit": "III",
+        "question": "Principle of operation and general scheme of a mass spectrometer",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 24,
+        "unit": "I",
+        "question": "Describe the principles and steps of plant tissue culture technique.",
+        "answerKey": "1. **Totipotency**: Each somatic cell retains the genetic information to regenerate into a complete organism. This is the basis of tissue culture.\n2. **Basic Protocol**:\n- **Explant** (leaf disc, shoot tip, root tip) is surface-sterilized.\n- Cultured on **MS (Murashige-Skoog) medium** with appropriate auxin/cytokinin ratio.\n- High auxin:cytokinin \u2192 callus / root induction.\n- Low auxin:cytokinin \u2192 shoot induction (organogenesis).\n3. **Somatic Embryogenesis**: Callus or single cells develop into somatic embryos (resembling zygotic embryos) and regenerate into plants.\n4. **Applications**: Rapid clonal propagation, disease-free plantlets (meristem culture), embryo rescue, germplasm conservation, and production of secondary metabolites."
+      },
+      {
+        "id": 25,
+        "unit": "I",
+        "question": "Explain the preparation and sterilization of culture media for plant tissue culture.",
+        "answerKey": "1. **Totipotency**: Each somatic cell retains the genetic information to regenerate into a complete organism. This is the basis of tissue culture.\n2. **Basic Protocol**:\n- **Explant** (leaf disc, shoot tip, root tip) is surface-sterilized.\n- Cultured on **MS (Murashige-Skoog) medium** with appropriate auxin/cytokinin ratio.\n- High auxin:cytokinin \u2192 callus / root induction.\n- Low auxin:cytokinin \u2192 shoot induction (organogenesis).\n3. **Somatic Embryogenesis**: Callus or single cells develop into somatic embryos (resembling zygotic embryos) and regenerate into plants.\n4. **Applications**: Rapid clonal propagation, disease-free plantlets (meristem culture), embryo rescue, germplasm conservation, and production of secondary metabolites."
+      },
+      {
+        "id": 26,
+        "unit": "I",
+        "question": "Describe the technique of anther culture and its application in plant breeding.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 27,
+        "unit": "I",
+        "question": "Explain the technique of protoplast isolation, culture and fusion.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 28,
+        "unit": "II",
+        "question": "Describe the light microscopy \u2014 compound microscope, fluorescence microscopy.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 29,
+        "unit": "II",
+        "question": "Explain the principles and applications of electron microscopy (TEM and SEM).",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 30,
+        "unit": "II",
+        "question": "Describe the technique of chromatography \u2014 TLC, column, and HPLC.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 31,
+        "unit": "II",
+        "question": "Explain gel electrophoresis \u2014 agarose and polyacrylamide gel electrophoresis (PAGE).",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 32,
+        "unit": "III",
+        "question": "Describe the technique of DNA extraction from plant material.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 33,
+        "unit": "III",
+        "question": "Explain the Southern blotting technique.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 34,
+        "unit": "III",
+        "question": "Describe the Western blotting technique and its applications.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 35,
+        "unit": "III",
+        "question": "Explain the PCR technique \u2014 steps, variations, and applications.",
+        "answerKey": "1. **Purpose**: *In vitro* amplification of specific DNA sequences using thermostable DNA polymerase (*Taq* polymerase).\n2. **Steps (Thermal Cycling)**:\n- **Denaturation**: 94-96\u00b0C \u2014 double-stranded DNA melts into single strands.\n- **Annealing**: 50-65\u00b0C \u2014 specific primers (short oligonucleotides) bind to complementary template sequences.\n- **Extension**: 72\u00b0C \u2014 Taq polymerase extends primers, synthesizing new DNA strand.\n- Each cycle doubles the amount of target DNA. After **30-35 cycles**, >10\u2079-fold amplification.\n3. **Applications**: DNA diagnostics, forensic DNA profiling, genotyping, gene cloning, detecting pathogens (RT-PCR for RNA viruses), and genetic engineering."
+      },
+      {
+        "id": 36,
+        "unit": "IV",
+        "question": "Describe the principles and applications of DNA sequencing (Sanger method).",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 37,
+        "unit": "IV",
+        "question": "Explain next-generation sequencing (NGS) techniques.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 38,
+        "unit": "IV",
+        "question": "Describe microbial culturing techniques \u2014 solid and liquid media.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 39,
+        "unit": "IV",
+        "question": "Explain the differential staining techniques for bacteria (Gram stain, acid-fast stain).",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 40,
+        "unit": "IV",
+        "question": "Describe the haemocytometer and methods of counting microbial populations.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Explain fermentation technology \u2014 batch, fed-batch, and continuous culture.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Describe the principles of centrifugation and ultracentrifugation.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Explain spectrophotometry and its applications in quantifying biological molecules.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Describe the ELISA technique and its applications in detection.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Explain flow cytometry and its applications in plant biology.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 46,
+        "unit": "II",
+        "question": "Describe the technique of confocal laser scanning microscopy (CLSM).",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 47,
+        "unit": "III",
+        "question": "Explain FISH (Fluorescence In Situ Hybridization) in chromosome mapping.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 48,
+        "unit": "III",
+        "question": "Describe the technique of radioactive labeling and autoradiography.",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Describe the fundamental principles, experimental methods, and significance of Plant and Microbial Techniques (Part 1).",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Describe the fundamental principles, experimental methods, and significance of Plant and Microbial Techniques (Part 2).",
+        "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
       }
     ]
   }
