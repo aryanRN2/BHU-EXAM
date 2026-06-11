@@ -7,6 +7,27 @@
     <title>SCIQB | BHU PYQs, BHU Syllabi, and Banaras Hindu University Mock Exams</title>
     <meta name="description" content="Prepare for Banaras Hindu University (BHU) semester exams with SCIQB. Access BHU PYQs (previous year question papers) in LaTeX, updated BHU syllabi, and practice with active recall mock exams." />
     <meta name="keywords" content="bhu pyq, bhu syllabus, bhu exam, banaras hindu university, bhu mock exam, bhu exam prep, bhu active recall, bhu question papers, sciqb" />
+    <!-- JSON-LD Structured Data for Search Engine Optimization (SEO) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "SCIQB",
+      "url": "https://sciqb.com/",
+      "description": "High-fidelity mock exam portal and LaTeX previous year question papers for Banaras Hindu University (BHU) semester exam preparation.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://sciqb.com/subjects.html?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "provider": {
+        "@type": "EducationalOrganization",
+        "name": "Banaras Hindu University",
+        "alternateName": "BHU",
+        "url": "https://www.bhu.ac.in/"
+      }
+    }
+    </script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
         rel="stylesheet" />
@@ -159,32 +180,66 @@
         class="fixed top-0 left-0 right-0 z-50 bg-background-warm/80 backdrop-blur-xl border-b border-border-subtle h-16 md:h-20 w-full flex items-center">
         <div class="max-w-container-max mx-auto px-6 md:px-padding-edge flex justify-between items-center w-full">
             <div class="flex items-center gap-3 md:gap-4">
-                
-                <span class="text-base md:text-2xl font-bold tracking-tighter text-primary">SCIQB</span>
+                <a href="#" class="flex items-center gap-1.5 group">
+                    <span class="text-xl md:text-2xl font-black tracking-tight text-primary uppercase transition-transform group-hover:scale-[1.01] duration-200">SCIQB</span>
+                </a>
                 <div class="hidden md:flex gap-6 ml-8">
-                    <a class="text-primary font-bold border-b-2 border-primary pb-1 text-sm" href="#">Home</a>
-                    <a class="text-secondary font-medium hover:text-primary transition-colors duration-200 text-sm"
-                        href="#features">Features</a>
-                    <a class="text-secondary font-medium hover:text-primary transition-colors duration-200 text-sm"
-                        href="subjects.html">Mock Exams</a>
+                    <a class="text-primary font-bold text-sm relative py-2" href="#">
+                        Home
+                        <span class="absolute bottom-0 left-0 w-full h-0.5 bg-primary rounded-full"></span>
+                    </a>
+                    <a class="text-secondary font-medium hover:text-primary transition-colors duration-200 text-sm relative py-2 group"
+                        href="#features">
+                        Features
+                        <span class="absolute bottom-0 left-0 w-full h-0.5 bg-primary rounded-full scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-250"></span>
+                    </a>
+                    <a class="text-secondary font-medium hover:text-primary transition-colors duration-200 text-sm relative py-2 group"
+                        href="subjects.html">
+                        Mock Exams
+                        <span class="absolute bottom-0 left-0 w-full h-0.5 bg-primary rounded-full scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-250"></span>
+                    </a>
+                    <a class="text-secondary font-medium hover:text-primary transition-colors duration-200 text-sm relative py-2 group"
+                        href="nep-pyq.html">
+                        NEP PYQs
+                        <span class="absolute bottom-0 left-0 w-full h-0.5 bg-primary rounded-full scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-250"></span>
+                    </a>
+                    <a class="text-secondary font-medium hover:text-primary transition-colors duration-200 text-sm relative py-2 group"
+                        href="legacy-pyq.html">
+                        Old PYQs
+                        <span class="absolute bottom-0 left-0 w-full h-0.5 bg-primary rounded-full scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-250"></span>
+                    </a>
                 </div>
             </div>
-            <a href="subjects.html"
-                class="hidden md:flex items-center gap-2 bg-primary text-white text-xs font-bold px-5 py-2.5 rounded-full hover:bg-neutral-800 transition-all duration-200 hover:scale-105 active:scale-95">
-                <span class="material-symbols-outlined text-sm">rocket_launch</span>
-                Start Exam
-            </a>
-            <!-- Mobile menu button -->
-            <a href="subjects.html"
-                class="flex md:hidden items-center gap-1.5 bg-primary text-white text-xs font-bold px-4 py-2 rounded-full">
-                <span class="material-symbols-outlined text-sm">rocket_launch</span>
-                Start
-            </a>
+            <!-- Mobile Menu Toggle Button -->
+            <button onclick="toggleMobileMenu()" class="flex md:hidden items-center justify-center p-2 rounded-lg border border-border-subtle hover:bg-neutral-100 text-secondary hover:text-primary transition-all">
+                <span id="mobileMenuIcon" class="material-symbols-outlined text-xl">menu</span>
+            </button>
         </div>
     </nav>
 
+    <!-- Mobile Navigation Menu Overlay -->
+    <div id="mobileMenu" class="fixed inset-x-0 top-16 z-40 hidden flex-col bg-background-warm/95 backdrop-blur-xl border-b border-border-subtle px-6 py-6 md:hidden transition-all duration-300 transform -translate-y-4 opacity-0">
+        <div class="flex flex-col gap-4">
+            <a class="text-primary font-bold text-base border-b border-border-subtle pb-2.5" href="#" onclick="toggleMobileMenu()">
+                Home
+            </a>
+            <a class="text-secondary font-semibold text-base hover:text-primary transition-colors border-b border-border-subtle pb-2.5" href="#features" onclick="toggleMobileMenu()">
+                Features
+            </a>
+            <a class="text-secondary font-semibold text-base hover:text-primary transition-colors border-b border-border-subtle pb-2.5" href="subjects.html">
+                Mock Exams
+            </a>
+            <a class="text-secondary font-semibold text-base hover:text-primary transition-colors border-b border-border-subtle pb-2.5" href="nep-pyq.html">
+                NEP PYQs
+            </a>
+            <a class="text-secondary font-semibold text-base hover:text-primary transition-colors pb-1" href="legacy-pyq.html">
+                Old PYQs
+            </a>
+        </div>
+    </div>
+
     <!-- ═══════════════════════════ HERO ═══════════════════════════ -->
-    <main class="relative pt-28 md:pt-40 pb-20 md:pb-32 overflow-hidden flex-1">
+    <main class="relative pt-24 md:pt-36 pb-20 md:pb-32 overflow-hidden flex-1">
         <!-- Animated background orbs -->
         <div class="neural-orb animate-float bg-accent-bhu-saffron w-[500px] h-[500px] -top-32 -left-16 opacity-30">
         </div>
@@ -195,76 +250,74 @@
 
         <div class="max-w-4xl mx-auto px-6 md:px-padding-edge text-center flex flex-col items-center relative z-10">
 
-            <h1 class="text-4xl sm:text-5xl lg:text-[4.5rem] font-bold mb-6 text-primary leading-[1.08] tracking-tight">
-                Online Mock Exam Portal<br class="hidden sm:block" />
-                <span class="text-neutral-400">for BHU Preparation.</span>
+            <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold mb-6 text-primary leading-[1.08] tracking-tight">
+                SCIQB Assessment Engine
             </h1>
 
-            <p class="text-base md:text-lg text-secondary max-w-xl mb-12 leading-relaxed">
-                High-fidelity, secure mock assessments with real BHU curriculum questions. Instant AI-powered
-                evaluation.
+            <p class="text-base sm:text-lg md:text-xl text-secondary max-w-2xl mb-12 leading-relaxed">
+                Tailored for BHU Academic Excellence. High-fidelity, secure mock assessments with real BHU curriculum questions and instant AI-powered evaluation.
             </p>
 
             <!-- Preparation mode selector -->
             <div class="space-y-4 w-full max-w-3xl">
-                <p class="text-xs font-bold uppercase tracking-[0.2em] text-secondary/70">Select your preparation mode:
-                </p>
-                <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 md:gap-4">
+                <p class="text-xs font-bold uppercase tracking-[0.2em] text-secondary/70">Select your preparation mode:</p>
+                <div class="flex overflow-x-auto snap-x snap-mandatory scrollbar-none gap-3 pb-4 -mx-6 px-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:overflow-x-visible sm:px-0 sm:mx-0">
                     <!-- End Sem -->
                     <button onclick="selectPracticeMode('endterm')"
-                        class="p-5 md:p-6 rounded-2xl border border-neutral-800 bg-black text-white hover:border-accent-bhu-saffron hover:bg-neutral-900 transition-all duration-300 text-left flex flex-col gap-3 group hover:shadow-[0_8px_30px_rgba(245,124,0,0.15)] hover:scale-[1.02] active:scale-[0.98]">
-                        <div
-                            class="w-10 h-10 rounded-full bg-accent-bhu-saffron/10 border border-accent-bhu-saffron/30 flex items-center justify-center text-accent-bhu-saffron group-hover:bg-accent-bhu-saffron group-hover:text-white group-hover:border-transparent transition-all duration-300">
-                            <span class="material-symbols-outlined text-lg">school</span>
+                        class="p-5 md:p-6 rounded-2xl border border-border-subtle bg-white text-primary hover:border-accent-bhu-saffron hover:shadow-[0_8px_30px_rgba(245,124,0,0.08)] transition-all duration-300 text-left flex flex-col gap-3 group hover:scale-[1.02] active:scale-[0.98] min-h-[140px] snap-start shrink-0 w-[290px] sm:w-auto">
+                        <div class="flex justify-between items-start w-full">
+                            <div
+                                class="w-10 h-10 rounded-full bg-accent-bhu-saffron/10 border border-accent-bhu-saffron/30 flex items-center justify-center text-accent-bhu-saffron group-hover:bg-accent-bhu-saffron group-hover:text-white group-hover:border-transparent transition-all duration-300">
+                                <span class="material-symbols-outlined text-lg">school</span>
+                            </div>
+                            <span class="text-[8px] font-bold text-accent-bhu-saffron bg-accent-bhu-saffron/10 px-2 py-0.5 rounded uppercase tracking-wider mt-1">Trending</span>
                         </div>
                         <div>
                             <h4
-                                class="font-bold text-sm text-white group-hover:text-accent-bhu-saffron transition-colors">
+                                class="font-bold text-sm text-primary group-hover:text-accent-bhu-saffron transition-colors">
                                 End Sem Preparation</h4>
                             <p
-                                class="text-[11px] text-neutral-400 mt-0.5 group-hover:text-neutral-300 transition-colors">
+                                class="text-[11px] text-secondary mt-0.5 group-hover:text-secondary/80 transition-colors">
                                 Comprehensive syllabus review</p>
                         </div>
                     </button>
                     <!-- Mid Term -->
                     <button onclick="alert('Mid Term Preparation is coming soon!')"
-                        class="p-5 md:p-6 rounded-2xl border border-neutral-800 bg-black text-white hover:border-accent-neural-purple hover:bg-neutral-900 transition-all duration-300 text-left flex flex-col gap-3 group hover:shadow-[0_8px_30px_rgba(168,85,247,0.15)] hover:scale-[1.02] active:scale-[0.98]">
+                        class="p-5 md:p-6 rounded-2xl border border-border-subtle bg-white/40 backdrop-blur-sm text-secondary/70 opacity-60 hover:opacity-85 hover:border-accent-neural-purple/20 transition-all duration-300 text-left flex flex-col gap-3 group min-h-[140px] cursor-not-allowed snap-start shrink-0 w-[290px] sm:w-auto">
                         <div class="flex justify-between items-start w-full">
                             <div
-                                class="w-10 h-10 rounded-full bg-accent-neural-purple/10 border border-accent-neural-purple/30 flex items-center justify-center text-accent-neural-purple group-hover:bg-accent-neural-purple group-hover:text-white group-hover:border-transparent transition-all duration-300">
+                                class="w-10 h-10 rounded-full bg-accent-neural-purple/5 border border-accent-neural-purple/20 flex items-center justify-center text-accent-neural-purple/70">
                                 <span class="material-symbols-outlined text-lg">edit_calendar</span>
                             </div>
                             <span
-                                class="text-[8px] font-bold text-white/70 bg-white/10 px-2 py-0.5 rounded uppercase tracking-wider mt-1">Coming
-                                Soon</span>
+                                class="text-[8px] font-bold text-neutral-500 bg-neutral-200/50 px-2 py-0.5 rounded uppercase tracking-wider mt-1">Coming Soon</span>
                         </div>
                         <div>
                             <h4
-                                class="font-bold text-sm text-white group-hover:text-accent-neural-purple transition-colors">
+                                class="font-bold text-sm text-secondary">
                                 Mid Term Preparation</h4>
                             <p
-                                class="text-[11px] text-neutral-400 mt-0.5 group-hover:text-neutral-300 transition-colors">
+                                class="text-[11px] text-secondary/70 mt-0.5">
                                 Mid-semester checkpoint</p>
                         </div>
                     </button>
                     <!-- Lab Practice -->
                     <button onclick="alert('Lab Preparation is coming soon!')"
-                        class="p-5 md:p-6 rounded-2xl border border-neutral-800 bg-black text-white hover:border-accent-neural-blue hover:bg-neutral-900 transition-all duration-300 text-left flex flex-col gap-3 group hover:shadow-[0_8px_30px_rgba(59,130,246,0.15)] hover:scale-[1.02] active:scale-[0.98]">
+                        class="p-5 md:p-6 rounded-2xl border border-border-subtle bg-white/40 backdrop-blur-sm text-secondary/70 opacity-60 hover:opacity-85 hover:border-accent-neural-blue/20 transition-all duration-300 text-left flex flex-col gap-3 group min-h-[140px] cursor-not-allowed snap-start shrink-0 w-[290px] sm:w-auto">
                         <div class="flex justify-between items-start w-full">
                             <div
-                                class="w-10 h-10 rounded-full bg-accent-neural-blue/10 border border-accent-neural-blue/30 flex items-center justify-center text-accent-neural-blue group-hover:bg-accent-neural-blue group-hover:text-white group-hover:border-transparent transition-all duration-300">
+                                class="w-10 h-10 rounded-full bg-accent-neural-blue/5 border border-accent-neural-blue/20 flex items-center justify-center text-accent-neural-blue/70">
                                 <span class="material-symbols-outlined text-lg">science</span>
                             </div>
                             <span
-                                class="text-[8px] font-bold text-white/70 bg-white/10 px-2 py-0.5 rounded uppercase tracking-wider mt-1">Coming
-                                Soon</span>
+                                class="text-[8px] font-bold text-neutral-500 bg-neutral-200/50 px-2 py-0.5 rounded uppercase tracking-wider mt-1">Coming Soon</span>
                         </div>
                         <div>
                             <h4
-                                class="font-bold text-sm text-white group-hover:text-accent-neural-blue transition-colors">
+                                class="font-bold text-sm text-secondary">
                                 Lab Preparation</h4>
                             <p
-                                class="text-[11px] text-neutral-400 mt-0.5 group-hover:text-neutral-300 transition-colors">
+                                class="text-[11px] text-secondary/70 mt-0.5">
                                 Practical & theory calculations</p>
                         </div>
                     </button>
@@ -401,11 +454,11 @@
                 <div
                     class="md:col-span-3 bento-card glass-panel rounded-2xl p-6 flex flex-col justify-between min-h-[200px]">
                     <div class="flex items-baseline gap-2">
-                        <span class="text-4xl md:text-5xl font-bold text-primary stat-glow">100%</span>
+                        <span class="text-3xl md:text-4xl font-bold text-primary stat-glow tracking-tight">Daily Audits</span>
                     </div>
                     <div>
-                        <p class="text-xs font-bold text-secondary uppercase tracking-widest mb-1">Accuracy</p>
-                        <p class="text-xs text-secondary leading-relaxed">Cross-checked against department answer keys.
+                        <p class="text-xs font-bold text-secondary uppercase tracking-widest mb-1">Accuracy Promise</p>
+                        <p class="text-[11px] sm:text-xs text-secondary leading-relaxed">We actively refine our solution keys every day. While not yet perfect, we iterate constantly to achieve maximum precision.
                         </p>
                     </div>
                 </div>
@@ -483,10 +536,7 @@
         <div
             class="max-w-container-max mx-auto px-6 md:px-padding-edge flex flex-col md:flex-row justify-between items-center gap-6">
             <div class="flex items-center gap-3">
-                
                 <div>
-                    <div class="text-xs font-semibold tracking-wider text-primary uppercase">Banaras Hindu University
-                    </div>
                     <p class="text-xs text-secondary">© 2026 SCIQB. Prepared under academic guidance.</p>
                 </div>
             </div>
@@ -679,6 +729,34 @@
 
         window.selectPracticeMode = function (mode) {
             window.location.href = `subjects.html?type=${mode}`;
+        };
+
+        let isMobileMenuOpen = false;
+        let menuTimeout = null;
+        window.toggleMobileMenu = function () {
+            const menu = document.getElementById('mobileMenu');
+            const icon = document.getElementById('mobileMenuIcon');
+            isMobileMenuOpen = !isMobileMenuOpen;
+            
+            if (menuTimeout) clearTimeout(menuTimeout);
+            
+            if (isMobileMenuOpen) {
+                menu.classList.remove('hidden');
+                menu.classList.add('flex');
+                setTimeout(() => {
+                    menu.classList.remove('opacity-0', '-translate-y-4');
+                    menu.classList.add('opacity-100', 'translate-y-0');
+                }, 10);
+                icon.textContent = 'close';
+            } else {
+                menu.classList.remove('opacity-100', 'translate-y-0');
+                menu.classList.add('opacity-0', '-translate-y-4');
+                icon.textContent = 'menu';
+                menuTimeout = setTimeout(() => {
+                    menu.classList.remove('flex');
+                    menu.classList.add('hidden');
+                }, 300);
+            }
         };
 
         window.openBooksModal = function () {

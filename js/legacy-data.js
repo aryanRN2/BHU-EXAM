@@ -563,12 +563,7 @@ export const LEGACY_PYQ_DATA = {
     }
   ],
   "maths": [
-    {
-      "title": "2023 24 UG I Sem B.Sc.   MATHEMATICS",
-      "fileName": "2023-24_UG_I-Sem_B.Sc._-_MATHEMATICS.pdf",
-      "url": "https://sajmognuphnrvivtmuux.supabase.co/storage/v1/object/public/pyq-pdfs/science%2Fmaths%2F2023-24_UG_I-Sem_B.Sc._-_MATHEMATICS.pdf",
-      "semester": 1
-    },
+
     {
       "title": "2022 2023 UG I   SEM B.A. MATHEMATICS",
       "fileName": "2022-2023_UG_I_-_SEM_B.A._MATHEMATICS.pdf",

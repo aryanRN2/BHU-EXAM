@@ -101,7 +101,7 @@
                 <span class="material-symbols-outlined text-base md:text-lg">arrow_back</span>
             </button>
             
-            <span class="text-sm md:text-2xl font-bold tracking-tighter text-primary">BHU Exam Prep</span>
+            <span class="text-xl md:text-2xl font-black tracking-tight text-primary uppercase">SCIQB</span>
         </div>
     </div>
 </nav>
@@ -185,11 +185,9 @@
     </div>
 </main>
 
-<!-- Footer -->
 <footer class="w-full py-12 bg-background-warm border-t border-border-subtle mt-auto">
     <div class="max-w-container-max mx-auto px-padding-edge flex flex-col md:flex-row justify-between items-center gap-8">
         <div>
-            <span class="text-xs font-semibold tracking-wider text-primary mb-2 block uppercase">Banaras Hindu University</span>
             <p class="text-xs text-secondary">© 2026 Banaras Hindu University. Prepared under academic guidance.</p>
         </div>
         <div class="flex gap-8">
@@ -2251,11 +2249,14 @@
         container.innerHTML = '';
         
         const keys = Object.keys(examsToRender).sort((a, b) => {
-            const aLive = (mode === 'endterm') && !examsToRender[a].comingSoon;
-            const bLive = (mode === 'endterm') && !examsToRender[b].comingSoon;
-            if (aLive && !bLive) return -1;
-            if (!aLive && bLive) return 1;
-            return 0;
+            const getPriority = (key) => {
+                const isLive = (mode === 'endterm') && !examsToRender[key].comingSoon;
+                const hasPyqs = EXAM_PYQS[key] && EXAM_PYQS[key].length > 0;
+                if (isLive) return 1;
+                if (hasPyqs) return 2;
+                return 3;
+            };
+            return getPriority(a) - getPriority(b);
         });
         if (keys.length === 0) {
             container.innerHTML = `

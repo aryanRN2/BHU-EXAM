@@ -336,5 +336,5 @@ function serveFile(filePath, res) {
 }
 
 server.listen(PORT, () => {
-    console.log(`BHU Exam Prep Server running at http://localhost:${PORT}`);
+    console.log(`SCIQB Server running at http://localhost:${PORT}`);
 });

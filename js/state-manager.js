@@ -1,4 +1,4 @@
-// State Manager for BHU Exam Prep website using localStorage
+// State Manager for SCIQB website using localStorage
 
 export const StateManager = {
   // --- USER SESSION ---
