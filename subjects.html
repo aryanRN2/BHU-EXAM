@@ -2341,6 +2341,19 @@
     // Initial render
     renderSubjects(EXAMS);
 
+    // Derive a searchable department tag from key prefix
+    function getDeptTag(key) {
+        if (key.startsWith('bob') || key.startsWith('imb')) return 'botany';
+        if (key.startsWith('glb')) return 'geology';
+        if (key.startsWith('ggr')) return 'geography';
+        if (key.startsWith('chem')) return 'chemistry';
+        if (key.startsWith('phy')) return 'physics';
+        if (key.startsWith('mat')) return 'mathematics maths';
+        if (key.startsWith('sta')) return 'statistics';
+        if (key.startsWith('imb')) return 'microbiology industrial microbiology botany';
+        return '';
+    }
+
     window.filterSubjects = function() {
         const query = document.getElementById('subjectSearchInput').value.toLowerCase().trim();
         const clearBtn = document.getElementById('clearSearchBtn');
@@ -2356,7 +2369,8 @@
             const exam = EXAMS[key];
             const title = exam.title.toLowerCase();
             const module = (exam.module || '').toLowerCase();
-            if (title.includes(query) || module.includes(query) || key.includes(query)) {
+            const dept = getDeptTag(key);
+            if (title.includes(query) || module.includes(query) || key.includes(query) || dept.includes(query)) {
                 filtered[key] = exam;
             }
         });
