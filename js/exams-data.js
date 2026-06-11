@@ -14747,19 +14747,19 @@ export const EXAMS = {
       {
         "id": 18,
         "unit": "II",
-        "question": "What will be the output of the following C program? \\begin{verbatim} #include <stdio.h> int main() { int i = 5; int *j = &i; printf(\"%d\\n\", *j); return 0; } \\end{verbatim}",
+        "question": "What will be the output of the following C program?\n```c\n#include <stdio.h>\nint main() {\n    int i = 5;\n    int *j = &i;\n    printf(\"%d\\n\", *j);\n    return 0;\n}\n```",
         "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 19,
         "unit": "II",
-        "question": "What will be the output of the following C program? \\begin{verbatim} #include <stdio.h> int main() { int a[] = {0, 1, 2, 3, 4}; int i = 0, *p; p = &a[0]; while (i < 5) { printf(\"%d\\n\", *p); p++; i++; } return 0; } \\end{verbatim}",
+        "question": "What will be the output of the following C program?\n```c\n#include <stdio.h>\nint main() {\n    int a[] = {0, 1, 2, 3, 4};\n    int i = 0, *p;\n    p = &a[0];\n    while (i < 5) {\n        printf(\"%d\\n\", *p);\n        p++;\n        i++;\n    }\n    return 0;\n}\n```",
         "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
         "id": 20,
         "unit": "II",
-        "question": "What will be the output of the following C program? \\begin{verbatim} #include <stdio.h> struct book { char name[30]; char author[30]; int year; }; int main() { struct book b1 = {\"statistics\", \"A.B.C\", 2002}; printf(\"%s\\n\", b1.name); printf(\"%s\\n\", b1.author); printf(\"%d\\n\", b1.year); return 0; } \\end{verbatim}",
+        "question": "What will be the output of the following C program?\n```c\n#include <stdio.h>\nstruct book {\n    char name[30];\n    char author[30];\n    int year;\n};\nint main() {\n    struct book b1 = {\"statistics\", \"A.B.C\", 2002};\n    printf(\"%s\\n\", b1.name);\n    printf(\"%s\\n\", b1.author);\n    printf(\"%d\\n\", b1.year);\n    return 0;\n}\n```",
         "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {
@@ -14789,7 +14789,7 @@ export const EXAMS = {
       {
         "id": 25,
         "unit": "III",
-        "question": "What will be the output of the following program? Explain your logic. \\begin{verbatim} #include <stdio.h> int main() { int a, b = 0, c = 0; a = ++b + c++; printf(\"%d %d %d\\n\", a, b, c); return 0; } \\end{verbatim}",
+        "question": "What will be the output of the following program? Explain your logic.\n```c\n#include <stdio.h>\nint main() {\n    int a, b = 0, c = 0;\n    a = ++b + c++;\n    printf(\"%d %d %d\\n\", a, b, c);\n    return 0;\n}\n```",
         "answerKey": "1. **Pearson Correlation Coefficient**:\n$$r = \\frac{\\sum(X-\\bar{X})(Y-\\bar{Y})}{\\sqrt{\\sum(X-\\bar{X})^2 \\sum(Y-\\bar{Y})^2}}$$\nIt lies between $-1$ and $+1$.\n2. **Regression Lines**:\n- Line of Y on X: $Y - \\bar{Y} = b_{yx}(X - \\bar{X})$ where $b_{yx} = r \\frac{\\sigma_y}{\\sigma_x}$.\n- Line of X on Y: $X - \\bar{X} = b_{xy}(Y - \\bar{Y})$ where $b_{xy} = r \\frac{\\sigma_x}{\\sigma_y}$."
       },
       {

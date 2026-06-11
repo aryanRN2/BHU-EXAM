@@ -157,7 +157,7 @@
             <button onclick="toggleGridSidebar()" class="lg:hidden w-10 h-10 rounded-full border border-border-subtle hover:bg-surface-panel transition-all flex items-center justify-center text-secondary hover:text-primary shrink-0" title="Question Grid">
                 <span class="material-symbols-outlined text-lg">grid_on</span>
             </button>
-            <img src="images/logo.png" alt="BHU Logo" class="h-6 sm:h-8 w-auto shrink-0"/>
+            
             <span class="text-xs sm:text-base font-bold tracking-tighter text-primary truncate max-w-[80px] sm:max-w-none">BHU Exam Prep</span>
             <div class="h-6 w-[1px] bg-border-subtle hidden sm:block"></div>
             <div class="hidden sm:flex flex-col">
@@ -527,7 +527,7 @@
         
         // Update badge and text
         document.getElementById('questionBadge').textContent = `Question ${index + 1} of ${questions.length}`;
-        document.getElementById('questionText').textContent = q.question;
+        document.getElementById('questionText').innerHTML = formatMarkdown(q.question);
 
         // Render figure if it exists
         const figureContainer = document.getElementById('questionFigureContainer');
