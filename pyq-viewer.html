@@ -465,9 +465,22 @@
             return res;
         }
 
+        // Extract verbatim environments to preserve code blocks and avoid MathJax formatting errors
+        const verbatimBlocks = [];
+        let body = latex.replace(/\\begin\{verbatim\*?\}([\s\S]*?)\\end\{verbatim\*?\}/gi, (match, inner) => {
+            const escaped = inner
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;');
+            const htmlBlock = `<pre class="bg-neutral-50 border border-neutral-200 rounded-lg p-3.5 sm:p-5 font-mono text-xs overflow-x-auto text-neutral-800 leading-normal my-5 select-all">${escaped}</pre>`;
+            const placeholder = `__VERBATIM_BLOCK_${verbatimBlocks.length}__`;
+            verbatimBlocks.push(htmlBlock);
+            return placeholder;
+        });
+
         // Extract tikzpicture environments to avoid any formatting corruption
         const tikzPictures = [];
-        let body = latex.replace(/\\begin\{tikzpicture\}[\s\S]*?\\end\{tikzpicture\}/g, (match) => {
+        body = body.replace(/\\begin\{tikzpicture\}[\s\S]*?\\end\{tikzpicture\}/g, (match) => {
             const placeholder = `__TIKZ_PICTURE_${tikzPictures.length}__`;
             tikzPictures.push(match);
             return placeholder;
@@ -754,6 +767,11 @@
             const rawTikz = tikzPictures[i];
             const htmlTikz = `<div class="flex justify-center my-6"><script type="text/tikz">${rawTikz}<\/script></div>`;
             parsedHtml = parsedHtml.replace(`__TIKZ_PICTURE_${i}__`, htmlTikz);
+        }
+
+        // Restore verbatim blocks
+        for (let i = 0; i < verbatimBlocks.length; i++) {
+            parsedHtml = parsedHtml.replace(`__VERBATIM_BLOCK_${i}__`, verbatimBlocks[i]);
         }
         
         return parsedHtml;
