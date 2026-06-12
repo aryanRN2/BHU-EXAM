@@ -41315,5 +41315,6861 @@ export const EXAMS = {
         "answerKey": "1. **Core Concept**:\n- Covers an important topic within Plant and Microbial Techniques.\n2. **Key Definitions & Mechanisms**:\n- Define the central concept with precise botanical terminology.\n- Describe the structural, physiological, or genetic mechanism involved.\n3. **Diagrams**: Draw and label the relevant structures (e.g., cell organelles, life cycle stages, anatomical cross-sections) to support the answer.\n4. **Significance / Applications**:\n- Explain the ecological, evolutionary, or applied significance of the concept in the context of Plant Sciences."
       }
     ]
+  },
+  "zobmj11": {
+    "id": "zobmj11",
+    "title": "Animal Diversity and Animal Form & Function",
+    "module": "ZOOMJ11 / ZOOMN11",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Binomial Nomenclature",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Describe the structure and function of gills in fishes. Explain the role of mammalian lung in gas exchange.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Claspers are accessory sex organ found in birds and mammals.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Motor neurons carry commands from the brain or spinal cord to muscles and glands.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Water vascular system is found in Asterias.",
+        "answerKey": "1. **Water Vascular (Ambulacral) System**: Specialized hydrostatic system in starfish (Echinodermata) used for locomotion, respiration, and food capture.\n2. **Pathway of Water**:\n- Madreporite $\\to$ Stone canal $\\to$ Ring canal $\\to$ Radial canals (along arms) $\\to$ Lateral canals $\\to$ Tube feet.\n3. **Tube Feet Mechanism**:\n- Each tube foot has an **ampulla** (muscular sac) and a **podium** (sucker).\n- Contraction of the ampulla forces water into the podium, extending it. Contact with substratum and retraction pulls the animal forward."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Answer the following parts: \\begin{parts} \\item State whether the following statements are True or False. Give a brief justification for each:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Answer the following parts: \\begin{parts} \\item Define the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Mechanism of parthenogenesis in honeybees",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 9,
+        "unit": "II",
+        "question": "Archaeopteryx is the connecting link between reptiles and birds.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 10,
+        "unit": "II",
+        "question": "Enumerate salient features of the animals belonging to Phylum Mollusca. Classify this phylum up to its different classes with their examples.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Answer the following: \\begin{parts} \\item Classify class Mammalia or Amphibia up to their orders giving salient features and examples of each.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Amphibians use a negative pressure pump mechanism for ventilating their lungs.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 13,
+        "unit": "III",
+        "question": "Describe flight adaptations in birds.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 14,
+        "unit": "III",
+        "question": "Differentiate between mitosis and meiosis showing clearly the changes in DNA content at each phase of division.",
+        "answerKey": "1. **Mitosis**: Equational division producing two genetically identical diploid daughter cells. Stages: Prophase, Metaphase (chromosomes align at plate), Anaphase (sister chromatids separate), Telophase.\n2. **Meiosis**: Reductional division producing four genetically diverse haploid gametes. Consists of Meiosis I (homologous chromosomes separate) and Meiosis II (sister chromatids separate).\n3. **Genetic Variation**: Driven by crossing over (Pachynene stage of Prophase I) and independent assortment during Metaphase I."
+      },
+      {
+        "id": 15,
+        "unit": "III",
+        "question": "Describe different types of scales in fishes.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Discuss different types of asexual reproduction in animals.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 17,
+        "unit": "IV",
+        "question": "Describe the salient features of class Amphibia OR Reptilia and classify it up to orders, giving characteristic features with suitable examples.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 18,
+        "unit": "IV",
+        "question": "Answer the following parts: \\begin{parts} \\item State whether the following statements are True or False. Justify your answer in 2--3 sentences:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 19,
+        "unit": "IV",
+        "question": "Intracellular digestion",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 20,
+        "unit": "IV",
+        "question": "With the help of an appropriate diagram, explain how birds maintain continuous unidirectional airflow through their lungs. \\begin{center} \\begin{tikzpicture}[scale=1.1, >=Stealth, every node/.style={font=\\small}] % Nodes \\node[draw, rounded corners, thick, fill=blue!10, minimum width=2cm, minimum height=1cm, align=center] (post) at (3,0) {Posterior Air Sacs}; \\node[draw, rounded corners, thick, fill=orange!10, minimum width=2.2cm, minimum height=1cm, align=center] (lung) at (0,1) {Lungs (Gas Exchange)}; \\node[draw, rounded corners, thick, fill=red!10, minimum width=2cm, minimum height=1cm, align=center] (ant) at (-3,0) {Anterior Air Sacs}; % Trachea (Inlet/Outlet) \\node (trachea) at (0,-1.5) [draw, fill=gray!10, rounded corners] {Trachea / Outside}; % Flow arrows \\draw[->, thick, blue, line width=1.2pt] (trachea) to[out=45, in=270] node[right, pos=0.6] {Inspiration} (post); \\draw[->, thick, blue, line width=1.2pt] (post) to[out=135, in=0] (lung); \\draw[->, thick, red, line width=1.2pt] (lung) to[out=180, in=45] (ant); \\draw[->, thick, red, line width=1.2pt] (ant) to[out=270, in=135] node[left, pos=0.4] {Expiration} (trachea); \\end{tikzpicture} \\end{center}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 21,
+        "unit": "V",
+        "question": "Classify phylum Cnidaria OR Echinodermata up to classes, giving characteristic features and suitable examples of each class.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 22,
+        "unit": "V",
+        "question": "What is species concept? Discuss typological and biological species concept.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 23,
+        "unit": "V",
+        "question": "Describe the role of the vestibular apparatus in the maintenance of body equilibrium in humans, with supportive diagrams. \\begin{center} \\begin{tikzpicture}[scale=1.2, >=Stealth, every node/.style={font=\\small}] % Semicircular canals (lateral, anterior, posterior) % Anterior canal (vertical, sagittal-ish) \\draw[thick, fill=blue!5!white, fill opacity=0.5] (0,0) to[out=90,in=180] (0.6,1.2) to[out=0,in=90] (1.2,0) to[out=270,in=0] (0.6,-0.2) to[out=180,in=270] (0,0); % Posterior canal (vertical, frontal-ish) \\draw[thick, fill=green!5!white, fill opacity=0.5] (0.3,0) to[out=90,in=180] (1.1,0.9) to[out=0,in=90] (1.7,-0.2) to[out=270,in=0] (1.1,-0.5) to[out=180,in=270] (0.3,0); % Lateral canal (horizontal) \\draw[thick, fill=yellow!5!white, fill opacity=0.5] (-0.4,-0.4) to[out=150,in=90] (-0.8,-0.8) to[out=270,in=210] (0.2,-1.2) to[out=30,in=270] (0.6,-0.8) to[out=90,in=330] (-0.4,-0.4); % Utricle and Saccule \\draw[thick, fill=orange!10!white] (0.4,-0.6) circle (0.3) node {Utricle}; \\draw[thick, fill=orange!20!white] (0.5,-1.2) circle (0.25) node {Saccule}; % Ampullae (swollen parts at base of canals) \\draw[fill=blue!30!white] (0.05,0.05) circle (0.1) node[left=2pt] {Ampulla}; \\draw[fill=green!30!white] (0.35,-0.05) circle (0.1); \\draw[fill=yellow!30!white] (-0.45,-0.45) circle (0.1); % Connect to nerve \\draw[double, ->, thick] (0.75,-0.9) -- (1.5,-0.9) node[right] {Vestibular Nerve}; % Labels \\node[above] at (0.6,1.2) {Anterior Canal}; \\node[above right] at (1.1,0.9) {Posterior Canal}; \\node[left] at (-0.8,-0.8) {Lateral Canal}; \\end{tikzpicture} \\end{center}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 24,
+        "unit": "V",
+        "question": "Answer the following: \\begin{parts} \\item Describe the structure and function of fish gills. With the help of diagram, explain the mechanism of counter current gas exchange.",
+        "answerKey": "1. **Nephron Structure**: Structural and functional unit of kidney. Comprises Bowman's capsule, Glomerulus (filtration), PCT, Loop of Henle, DCT, and Collecting duct.\n2. **Counter-Current Multiplier System**:\n- Maintained by the Loop of Henle and **Vasa Recta**.\n- Descending limb is permeable to water, concentrating the filtrate. Ascending limb actively pumps out NaCl, diluting the filtrate and building a hyper-osmotic renal medullary interstitium.\n- This allows collecting ducts to reabsorb water, producing concentrated urine."
+      },
+      {
+        "id": 25,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Write whether the following statements are True or False, giving reasons in 2--3 sentences:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 26,
+        "unit": "V",
+        "question": "Answer the following: \\begin{parts} \\item Explain why birds are called as glorified reptiles.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 27,
+        "unit": "V",
+        "question": "Write notes on the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 28,
+        "unit": "V",
+        "question": "Cyclostomes are acraniates with paired fins and a bony skeleton.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 29,
+        "unit": "V",
+        "question": "Significance of meiosis.",
+        "answerKey": "1. **Mitosis**: Equational division producing two genetically identical diploid daughter cells. Stages: Prophase, Metaphase (chromosomes align at plate), Anaphase (sister chromatids separate), Telophase.\n2. **Meiosis**: Reductional division producing four genetically diverse haploid gametes. Consists of Meiosis I (homologous chromosomes separate) and Meiosis II (sister chromatids separate).\n3. **Genetic Variation**: Driven by crossing over (Pachynene stage of Prophase I) and independent assortment during Metaphase I."
+      },
+      {
+        "id": 30,
+        "unit": "V",
+        "question": "Function of rough endoplasmic reticulum",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 31,
+        "unit": "V",
+        "question": "Birds are glorified reptiles.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 32,
+        "unit": "V",
+        "question": "Discontinuous feeders are active and mobile in nature.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 33,
+        "unit": "V",
+        "question": "Crocodiles have two aortae, the right arising from the left ventricle and the left from the right ventricle.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 34,
+        "unit": "V",
+        "question": "Eukaryotic cells have cell wall made-up of peptidoglycans.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 35,
+        "unit": "V",
+        "question": "All chordates are vertebrates but all vertebrates are not chordates.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 36,
+        "unit": "V",
+        "question": "The myelin sheath is an extension of a cell organelle.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 37,
+        "unit": "V",
+        "question": "Explain the circulatory system of a cockroach.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 38,
+        "unit": "V",
+        "question": "Closed circulatory system is present in Earthworm.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 39,
+        "unit": "V",
+        "question": "Classify phylum Mollusca up to classes giving characteristic features and examples of each class.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 40,
+        "unit": "V",
+        "question": "The lung fish belong to subclass Sarcopterygii.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "State whether the following statements are True or False. Give a brief justification for each: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Describe the patterns of nervous system in non-chordates with supporting well labelled diagram.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Parasitic adaptations in Platyhelminthes",
+        "answerKey": "1. **Taenia (Tapeworm) Adaptations**:\n- **Morphological**: Scolex with hooks and suckers for attachment; thick protective tegument resisting host digestive enzymes; complete loss of digestive system (nutrients absorbed directly through body surface).\n- **Physiological**: Anaerobic respiration; high reproductive capacity (proglottid maturation and self-fertilization)."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Colloblasts are found in Cnidarians.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "With the help of well labelled diagram explain the structure and functions of mammalian kidney. Describe the role of protonephridia in the process of excretion.",
+        "answerKey": "1. **Nephron Structure**: Structural and functional unit of kidney. Comprises Bowman's capsule, Glomerulus (filtration), PCT, Loop of Henle, DCT, and Collecting duct.\n2. **Counter-Current Multiplier System**:\n- Maintained by the Loop of Henle and **Vasa Recta**.\n- Descending limb is permeable to water, concentrating the filtrate. Ascending limb actively pumps out NaCl, diluting the filtrate and building a hyper-osmotic renal medullary interstitium.\n- This allows collecting ducts to reabsorb water, producing concentrated urine."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "State whether the following statements are True or False and give brief reasons in support of your answer: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Classify phylum protozoa up to classes giving characteristic features and examples of each class.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Accessory sex organs in mammals.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Homozygous loss of function of an oncogene leads to the transformation of cells from normal to cancerous state.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Give an account of salient features of phylum Porifera. Classify up to classes giving characteristic features and examples of each class.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 51,
+        "unit": "V",
+        "question": "Pseudocoelomate and coelomate.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 52,
+        "unit": "V",
+        "question": "Sequential hermaphroditism",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 53,
+        "unit": "V",
+        "question": "Describe the structure and function of protonephridial excretory system with suitable diagrams and examples.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 54,
+        "unit": "V",
+        "question": "Describe water vascular system of Echinoderms.",
+        "answerKey": "1. **Water Vascular (Ambulacral) System**: Specialized hydrostatic system in starfish (Echinodermata) used for locomotion, respiration, and food capture.\n2. **Pathway of Water**:\n- Madreporite $\\to$ Stone canal $\\to$ Ring canal $\\to$ Radial canals (along arms) $\\to$ Lateral canals $\\to$ Tube feet.\n3. **Tube Feet Mechanism**:\n- Each tube foot has an **ampulla** (muscular sac) and a **podium** (sucker).\n- Contraction of the ampulla forces water into the podium, extending it. Contact with substratum and retraction pulls the animal forward."
+      },
+      {
+        "id": 55,
+        "unit": "V",
+        "question": "Animals that display radial symmetry are triploblastic.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 56,
+        "unit": "V",
+        "question": "Complete separation of ventricle facilitates double circulation.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 57,
+        "unit": "V",
+        "question": "Balanoglossus belong to class Pterobranchia of Phylum Hemichordata.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 58,
+        "unit": "V",
+        "question": "Classify class Mammalia or Amphibia up to their orders giving salient features and examples of each.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 59,
+        "unit": "V",
+        "question": "The presynaptic cell transmits signals from specialized enlarged regions of its axon's branches, called synaptic cleft.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 60,
+        "unit": "V",
+        "question": "Give an account of the phonoreception in mammals.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 61,
+        "unit": "V",
+        "question": "Bidder's canal is present in aves.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 62,
+        "unit": "V",
+        "question": "Strobilation is a special type of transverse fission.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 63,
+        "unit": "V",
+        "question": "Flame cells are present in vertebrates for excretion.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 64,
+        "unit": "V",
+        "question": "With the help of a suitable example, elucidate the food capturing mechanism associated with filter feeding.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 65,
+        "unit": "V",
+        "question": "State whether the following statements are True or False. Justify your answer in 2--3 sentences each: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 66,
+        "unit": "V",
+        "question": "Describe the feeding mechanisms in herbivorous and carnivorous animals citing suitable examples.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 67,
+        "unit": "V",
+        "question": "Development in deuterostomes is marked by radial cleavage and enterocoely.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 68,
+        "unit": "V",
+        "question": "Apposition image is formed in nocturnal insects.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 69,
+        "unit": "V",
+        "question": "Canal system of Poriferans.",
+        "answerKey": "1. **Canal System Concept**: Unique water circulation system in sponges (Phylum Porifera) essential for food gathering, respiration, and excretion.\n2. **Asconoid System** (Simplest):\n- Path: Ostia $\\to$ Spongocoel (lined with choanocytes) $\\to$ Osculum.\n3. **Syconoid System**:\n- Path: Incurrent canals $\\to$ Prosopyles $\\to$ Radial canals (lined with choanocytes) $\\to$ Apopyles $\\to$ Spongocoel $\\to$ Osculum.\n4. **Leuconoid System** (Most complex):\n- Path: Incurrent canals $\\to$ Flagellated chambers $\\to$ Excurrent canals $\\to$ Osculum."
+      },
+      {
+        "id": 70,
+        "unit": "V",
+        "question": "Longer the loop of nephron more water and ions can be reabsorbed.",
+        "answerKey": "1. **Nephron Structure**: Structural and functional unit of kidney. Comprises Bowman's capsule, Glomerulus (filtration), PCT, Loop of Henle, DCT, and Collecting duct.\n2. **Counter-Current Multiplier System**:\n- Maintained by the Loop of Henle and **Vasa Recta**.\n- Descending limb is permeable to water, concentrating the filtrate. Ascending limb actively pumps out NaCl, diluting the filtrate and building a hyper-osmotic renal medullary interstitium.\n- This allows collecting ducts to reabsorb water, producing concentrated urine."
+      },
+      {
+        "id": 71,
+        "unit": "V",
+        "question": "Flightless and flying birds.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 72,
+        "unit": "V",
+        "question": "Protozoans belong to subphylum Cnidospora and Sporozoa produce same kind of spores.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 73,
+        "unit": "V",
+        "question": "Protostomes and Deuterostomes",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 74,
+        "unit": "V",
+        "question": "Differentiate between the following: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 75,
+        "unit": "V",
+        "question": "Define the following: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 76,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Classify phylum Cnidaria OR Echinodermata up to classes, giving characteristic features and suitable examples of each class.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 77,
+        "unit": "V",
+        "question": "Tentaculata and Nuda.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 78,
+        "unit": "V",
+        "question": "The secondary host of Fasciola hepatica is sheep.",
+        "answerKey": "1. **Life History of Fasciola hepatica**: Digenetic parasite (primary host: sheep/cattle; secondary host: snail *Lymnaea*).\n2. **Larval Stages**:\n- **Miracidium**: Free-swimming ciliated larva, enters snail.\n- **Sporocyst**: Sac-like structure inside snail, produces Rediae.\n- **Redia**: Has mouth and gut, produces Cercariae.\n- **Cercaria**: Free-swimming tadpole-like larva, leaves snail and encysts on vegetation.\n- **Metacercaria**: Encysted infective stage ingested by sheep."
+      },
+      {
+        "id": 79,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Describe the structure and functions of a nephron, giving emphasis on the counter-current exchange mechanism.",
+        "answerKey": "1. **Nephron Structure**: Structural and functional unit of kidney. Comprises Bowman's capsule, Glomerulus (filtration), PCT, Loop of Henle, DCT, and Collecting duct.\n2. **Counter-Current Multiplier System**:\n- Maintained by the Loop of Henle and **Vasa Recta**.\n- Descending limb is permeable to water, concentrating the filtrate. Ascending limb actively pumps out NaCl, diluting the filtrate and building a hyper-osmotic renal medullary interstitium.\n- This allows collecting ducts to reabsorb water, producing concentrated urine."
+      },
+      {
+        "id": 80,
+        "unit": "V",
+        "question": "Classify phylum Mollusca or Echinodermata up to their classes giving characteristic features and suitable examples of each class.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 81,
+        "unit": "V",
+        "question": "Polytene chromosomes are interphase chromosomes.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 82,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Describe the role of the vestibular apparatus in the maintenance of body equilibrium in humans, with supportive diagrams.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 83,
+        "unit": "V",
+        "question": "Image formation in a student's compound microscope",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 84,
+        "unit": "V",
+        "question": "Freshwater fishes have aglomerular kidney.",
+        "answerKey": "1. **Nephron Structure**: Structural and functional unit of kidney. Comprises Bowman's capsule, Glomerulus (filtration), PCT, Loop of Henle, DCT, and Collecting duct.\n2. **Counter-Current Multiplier System**:\n- Maintained by the Loop of Henle and **Vasa Recta**.\n- Descending limb is permeable to water, concentrating the filtrate. Ascending limb actively pumps out NaCl, diluting the filtrate and building a hyper-osmotic renal medullary interstitium.\n- This allows collecting ducts to reabsorb water, producing concentrated urine."
+      },
+      {
+        "id": 85,
+        "unit": "V",
+        "question": "Retrogressive metamorphosis.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 86,
+        "unit": "V",
+        "question": "Structure and function of gills",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 87,
+        "unit": "V",
+        "question": "Photoreception in rod cells",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 88,
+        "unit": "V",
+        "question": "Skull types in Reptiles",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 89,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item State whether the following statements are True or False and give brief reasons in support of your answer:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 90,
+        "unit": "V",
+        "question": "Cellular respiration occurs on the inner layer of plasma membrane of alveolar cells only.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 91,
+        "unit": "V",
+        "question": "Explain why birds are called as glorified reptiles.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 92,
+        "unit": "V",
+        "question": "Explain some of the advantages brought about through the evolution of bilateral symmetry and coelom formation.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 93,
+        "unit": "V",
+        "question": "Illustrate how the sorting of lysosomal proteins takes place and discuss the function of a lysosome.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 94,
+        "unit": "V",
+        "question": "Illustrate structure and function of peroxisome.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 95,
+        "unit": "V",
+        "question": "Give a comparative account of adult and larval form of an ascidian (Herdmania).",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 96,
+        "unit": "V",
+        "question": "With the help of diagrams, explain various methods of asexual reproduction. Comment on its advantages and disadvantages.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 97,
+        "unit": "V",
+        "question": "Discuss the distinguishing features of lizards and snakes with at least three examples of each group.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 98,
+        "unit": "V",
+        "question": "Discuss the general characters of Hemichordata and enumerate its various classes with suitable examples.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 99,
+        "unit": "V",
+        "question": "Cnidoblasts are the stinging cells found in Ctenophora.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 100,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Describe the salient features of class Amphibia OR Reptilia and classify it up to orders, giving characteristic features with suitable examples.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 101,
+        "unit": "V",
+        "question": "Write whether the following statements are True or False, giving reasons in 2--3 sentences: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 102,
+        "unit": "V",
+        "question": "Univalvia and Bivalvia",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 103,
+        "unit": "V",
+        "question": "Describe the canal system in Phylum Porifera.",
+        "answerKey": "1. **Canal System Concept**: Unique water circulation system in sponges (Phylum Porifera) essential for food gathering, respiration, and excretion.\n2. **Asconoid System** (Simplest):\n- Path: Ostia $\\to$ Spongocoel (lined with choanocytes) $\\to$ Osculum.\n3. **Syconoid System**:\n- Path: Incurrent canals $\\to$ Prosopyles $\\to$ Radial canals (lined with choanocytes) $\\to$ Apopyles $\\to$ Spongocoel $\\to$ Osculum.\n4. **Leuconoid System** (Most complex):\n- Path: Incurrent canals $\\to$ Flagellated chambers $\\to$ Excurrent canals $\\to$ Osculum."
+      },
+      {
+        "id": 104,
+        "unit": "V",
+        "question": "Classify phylum Echinodermata up to classes giving characteristic features and examples of each class.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 105,
+        "unit": "V",
+        "question": "Honey bees belong to class Crustacea of phylum Arthropoda.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 106,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Differentiate between the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 107,
+        "unit": "V",
+        "question": "Answer the following: \\begin{parts} \\item With the help of diagrams, explain various methods of asexual reproduction. Comment on its advantages and disadvantages.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 108,
+        "unit": "V",
+        "question": "Differentiate between cartilaginous and bony fishes.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 109,
+        "unit": "V",
+        "question": "Prototheria and Eutheria.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 110,
+        "unit": "V",
+        "question": "Axon terminals are involved in the formation of synapse.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 111,
+        "unit": "V",
+        "question": "Canal system of Poriferans",
+        "answerKey": "1. **Canal System Concept**: Unique water circulation system in sponges (Phylum Porifera) essential for food gathering, respiration, and excretion.\n2. **Asconoid System** (Simplest):\n- Path: Ostia $\\to$ Spongocoel (lined with choanocytes) $\\to$ Osculum.\n3. **Syconoid System**:\n- Path: Incurrent canals $\\to$ Prosopyles $\\to$ Radial canals (lined with choanocytes) $\\to$ Apopyles $\\to$ Spongocoel $\\to$ Osculum.\n4. **Leuconoid System** (Most complex):\n- Path: Incurrent canals $\\to$ Flagellated chambers $\\to$ Excurrent canals $\\to$ Osculum."
+      },
+      {
+        "id": 112,
+        "unit": "V",
+        "question": "Describe the structure and function of fish gills. With the help of diagram, explain the mechanism of counter current gas exchange.",
+        "answerKey": "1. **Nephron Structure**: Structural and functional unit of kidney. Comprises Bowman's capsule, Glomerulus (filtration), PCT, Loop of Henle, DCT, and Collecting duct.\n2. **Counter-Current Multiplier System**:\n- Maintained by the Loop of Henle and **Vasa Recta**.\n- Descending limb is permeable to water, concentrating the filtrate. Ascending limb actively pumps out NaCl, diluting the filtrate and building a hyper-osmotic renal medullary interstitium.\n- This allows collecting ducts to reabsorb water, producing concentrated urine."
+      },
+      {
+        "id": 113,
+        "unit": "V",
+        "question": "Draw a labeled flow chart diagram to depict biogenesis of ribosomes (no descriptions required).",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 114,
+        "unit": "V",
+        "question": "Describe the structure and functions of a nephron, giving emphasis on the counter-current exchange mechanism. \\begin{center} \\begin{tikzpicture}[scale=1.0, >=Stealth, every node/.style={font=\\small}] % Descending Limb (moves down) \\draw[thick, ->] (0,2.5) -- (0,0.5) node[midway, left=2pt, align=right] {Descending Limb (Permeable to $H_2O$)}; % Hairpin turn \\draw[thick] (0,0.5) to[out=270, in=270, looseness=2] (2.0,0.5); % Ascending Limb (moves up) \\draw[thick, ->] (2.0,0.5) -- (2.0,2.5) node[midway, right=2pt, align=left] {Ascending Limb (Active NaCl transport)}; % Interstitial fluid Osmolarity gradient \\draw[thick, gray, dashed] (-1.8,2.0) -- (3.8,2.0); \\draw[thick, gray, dashed] (-1.8,1.0) -- (3.8,1.0); \\node[left, gray] at (-1.8,2.3) {Cortex}; \\node[left, gray] at (-1.8,1.5) {Outer Medulla}; \\node[left, gray] at (-1.8,0.5) {Inner Medulla}; \\node at (-0.4,2.2) {300}; \\node at (2.4,2.2) {300}; \\node at (-0.4,1.5) {600}; \\node at (2.4,1.5) {600}; \\node at (-0.4,0.7) {900}; \\node at (2.4,0.7) {900}; \\node at (1.0,-0.3) {1200 mOsm/L}; % Flow indicators \\node at (-0.3,1.5) {$\\downarrow$}; \\node at (2.3,1.5) {$\\uparrow$}; \\end{tikzpicture} \\end{center}",
+        "answerKey": "1. **Nephron Structure**: Structural and functional unit of kidney. Comprises Bowman's capsule, Glomerulus (filtration), PCT, Loop of Henle, DCT, and Collecting duct.\n2. **Counter-Current Multiplier System**:\n- Maintained by the Loop of Henle and **Vasa Recta**.\n- Descending limb is permeable to water, concentrating the filtrate. Ascending limb actively pumps out NaCl, diluting the filtrate and building a hyper-osmotic renal medullary interstitium.\n- This allows collecting ducts to reabsorb water, producing concentrated urine."
+      },
+      {
+        "id": 115,
+        "unit": "V",
+        "question": "Petromyzon and Myxine",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 116,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item State whether the following statements are True or False. Justify your answer in 2-3 sentences each:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 117,
+        "unit": "V",
+        "question": "Phonoreception in fish.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 118,
+        "unit": "V",
+        "question": "State whether the following statements are True or False. Justify your answer in 2--3 sentences: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 119,
+        "unit": "V",
+        "question": "Answer the following parts:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 120,
+        "unit": "V",
+        "question": "State whether the following statements are True or False. Justify your answer in 2-3 sentences each: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 121,
+        "unit": "V",
+        "question": "With the help of a suitable diagram describe the function of mammalian kidney.",
+        "answerKey": "1. **Nephron Structure**: Structural and functional unit of kidney. Comprises Bowman's capsule, Glomerulus (filtration), PCT, Loop of Henle, DCT, and Collecting duct.\n2. **Counter-Current Multiplier System**:\n- Maintained by the Loop of Henle and **Vasa Recta**.\n- Descending limb is permeable to water, concentrating the filtrate. Ascending limb actively pumps out NaCl, diluting the filtrate and building a hyper-osmotic renal medullary interstitium.\n- This allows collecting ducts to reabsorb water, producing concentrated urine."
+      },
+      {
+        "id": 122,
+        "unit": "V",
+        "question": "Draw a labeled diagram of ommatidium and write its function.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 123,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item State whether the following statements are True or False. Justify your answer in 2--3 sentences each:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 124,
+        "unit": "V",
+        "question": "Describe the classification of animal kingdom up to phylum level with diagnostic characters.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 125,
+        "unit": "V",
+        "question": "Explain the structure of a typical animal cell with a neat labeled diagram.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 126,
+        "unit": "V",
+        "question": "Give a detailed account of the nervous system of non-chordates.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 127,
+        "unit": "V",
+        "question": "State the general properties of chordates and compare them with non-chordates.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 128,
+        "unit": "V",
+        "question": "Describe the mechanisms of digestion and absorption in mammals.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      }
+    ]
+  },
+  "zobmj21": {
+    "id": "zobmj21",
+    "title": "Fundamentals of Cell Biology and Biochemistry",
+    "module": "ZOOMJ21 / ZOOMN21",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Construct a Michaelis-Menten kinetic plot for an enzyme and define Km of the enzyme.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "phosphate groups, hydrophobic",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "twice as much DNA as a haploid gamete",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Process of transport across plasma membrane",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "The two strands of DNA are held together by phospho-diester bonds.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Shine-Dalgarno sequence helps in DNA-replication.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Phospholipids as component of lipid bi-layer.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Activation energy-based concept of enzyme catalysis",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 9,
+        "unit": "II",
+        "question": "Answer the following parts: \\begin{parts} \\item Describe diagrammatically the process of replication in E. coli.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 10,
+        "unit": "II",
+        "question": "Answer the following parts: \\begin{parts} \\item What is cell theory? Explain the tenets of cell theory.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "$\\dfrac{0.61 \\lambda}{\\sin \\theta}$",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Indicate whether the following statements are true or false. Justify your answer in 2--3 sentences: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 13,
+        "unit": "III",
+        "question": "Parental care in amphibians",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 14,
+        "unit": "III",
+        "question": "Answer the following: \\begin{parts} \\item Discuss the different types of intra-molecular interaction which stabilizes 3D structure of a protein.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 15,
+        "unit": "III",
+        "question": "What is the role of the inner mitochondrial membrane in ATP synthesis?",
+        "answerKey": "1. **Structure**: Double-membraned organelle. Outer membrane is smooth; inner membrane is folded into **cristae** containing ATP synthase complexes (F0-F1 particles).\n2. **Function**: Powerhouse of the cell. Site of aerobic cellular respiration, including Krebs cycle (matrix) and Electron Transport Chain (inner membrane).\n3. **Semiautonomous nature**: Possesses circular DNA and 70S ribosomes."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Polymorphonuclear leukocytes",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 17,
+        "unit": "IV",
+        "question": "Explain the various steps of the ribosome biogenesis in detail using well-labelled flow chart diagram.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 18,
+        "unit": "IV",
+        "question": "Write detailed notes on the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 19,
+        "unit": "IV",
+        "question": "Endoplasmic reticulum is involved only in lipid metabolism.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 20,
+        "unit": "IV",
+        "question": "Intracellular digestion",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 21,
+        "unit": "V",
+        "question": "The tails of the phospholipids of the plasma membrane are composed of and . \\begin{choices}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 22,
+        "unit": "V",
+        "question": "Explain the fluid Mosaic Model of Plasma membrane with the help of labeled diagram.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 23,
+        "unit": "V",
+        "question": "Illustrate Hersey \\& Chase experiment to show that DNA serves as genetic material.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 24,
+        "unit": "V",
+        "question": "None of the above \\end{choices}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 25,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Draw a neat labeled diagram of an ommatidium. Describe the mechanism of photoreception in insect.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 26,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item What are cytoskeletons? Explain any cytoskeleton in detail.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 27,
+        "unit": "V",
+        "question": "State and write the best option in the following:{2} = 1$} \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 28,
+        "unit": "V",
+        "question": "Write notes on the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 29,
+        "unit": "V",
+        "question": "Spiracle regulates tracheal respiration in aquatic insects.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 30,
+        "unit": "V",
+        "question": "Answer the following: \\begin{parts} \\item Discuss the characteristic properties of peptide bond.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 31,
+        "unit": "V",
+        "question": "What is cell theory? Explain the tenets of cell theory.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 32,
+        "unit": "V",
+        "question": "Resolving power of a microscope is: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 33,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Select and write the best options in the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 34,
+        "unit": "V",
+        "question": "Which one of the following enzymes is a transferase? \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 35,
+        "unit": "V",
+        "question": "fatty acid groups, hydrophobic \\end{choices}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 36,
+        "unit": "V",
+        "question": "$\\dfrac{\\mu \\sin \\theta}{0.61}$",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 37,
+        "unit": "V",
+        "question": "Lampbrush chromosomes and their functions.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 38,
+        "unit": "V",
+        "question": "Resolving power of a microscope is a function of: \\begin{choices}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 39,
+        "unit": "V",
+        "question": "Describe the basic structure of immunoglobulin with suitable diagram. Discuss the characteristic features and functions of different types of immunoglobulins.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 40,
+        "unit": "V",
+        "question": "Characteristics of a peptide bond",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Lampbrush chromosome.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "What is Michaelis Constant (Km)? Illustrate the mechanism of enzyme action by explaining the binding of substrate to enzyme.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Peptidoglycan is a heteropolysaccharide of alternating NAG-NAM of $\\beta$ (1-4) linkages in the bacterial cell wall.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Majority of human cancers prevalent worldwide are caused due to viruses.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Functions of mitochondria",
+        "answerKey": "1. **Structure**: Double-membraned organelle. Outer membrane is smooth; inner membrane is folded into **cristae** containing ATP synthase complexes (F0-F1 particles).\n2. **Function**: Powerhouse of the cell. Site of aerobic cellular respiration, including Krebs cycle (matrix) and Electron Transport Chain (inner membrane).\n3. **Semiautonomous nature**: Possesses circular DNA and 70S ribosomes."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Parthenogenesis occurs in mammals.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "What is nerve net? Explain the pattern of nervous system in invertebrates with labeled diagrams.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Discuss the different types of intra-molecular interaction which stabilizes 3D structure of a protein.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Illustrate the functions of Golgi body.",
+        "answerKey": "1. **Structure**: Composed of flattened membrane-bound sacs called **cisternae**, with a cis-face (receiving side) and trans-face (shipping side).\n2. **Function**: Modifies, packages, and sorts proteins and lipids received from the endoplasmic reticulum. Forms lysosomes and secretes vesicles."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Answer the following: \\begin{parts} \\item Explain the various steps of the ribosome biogenesis in detail using well-labelled flow chart diagram.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 51,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Describe the structure and function of vertebrate lungs. Explain the double ventilation process in bird.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 52,
+        "unit": "V",
+        "question": "Polytene chromosomes are found in amphibian oocytes and are giant meiotic prophase chromosomes.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 53,
+        "unit": "V",
+        "question": "Water molecules are held together by intra-ionic interactions.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 54,
+        "unit": "V",
+        "question": "There is an asymmetrical distribution of charge in water molecule. Hydrogen nucleus draws electrons from oxygen nucleus which results in a net positive charge.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 55,
+        "unit": "V",
+        "question": "T cells \\end{choices}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 56,
+        "unit": "V",
+        "question": "Polytene chromosome are found in amphibian oocytes.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 57,
+        "unit": "V",
+        "question": "Describe the transcription initiation assembly in prokaryotes.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 58,
+        "unit": "V",
+        "question": "Cerebrosides are derivatives of sphingolipids.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 59,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Define the following terms:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 60,
+        "unit": "V",
+        "question": "Biogenesis of ribosome",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 61,
+        "unit": "V",
+        "question": "Describe the structure and function of vertebrate lungs. Explain the double ventilation process in bird.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 62,
+        "unit": "V",
+        "question": "Select and write the best options in the following:{2} = 2$} \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 63,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Indicate whether the following statements are true or false. Justify your answer in 2--3 sentences:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 64,
+        "unit": "V",
+        "question": "Longitudinal binary fission",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 65,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item With all possible details draw $\\alpha$-helix structure of a protein.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 66,
+        "unit": "V",
+        "question": "A fatty acid with $18:3 \\; (\\Delta^{9, 12, 15})$ composition",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 67,
+        "unit": "V",
+        "question": "Glycosylation of lipids and proteins takes place in endosomes and nucleus, respectively.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 68,
+        "unit": "V",
+        "question": "Synaptonemal complex and its role in chromosome pairing",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 69,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item State and write the best option in the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 70,
+        "unit": "V",
+        "question": "State whether the following statements are True or False and give brief justification in support of your answer: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 71,
+        "unit": "V",
+        "question": "Describe the process of transcription in prokaryotes with well-labeled diagrams.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 72,
+        "unit": "V",
+        "question": "What are cytoskeletons? Explain any cytoskeleton in detail.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 73,
+        "unit": "V",
+        "question": "Disulphide bonds are found in tertiary structure of proteins.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 74,
+        "unit": "V",
+        "question": "Draw a neat labeled diagram of an ommatidium. Describe the mechanism of photoreception in insect.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 75,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item State whether the following statements are True or False and give brief justification in support of your answer:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 76,
+        "unit": "V",
+        "question": "$\\dfrac{0.61 \\lambda}{\\mu \\sin \\theta}$",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 77,
+        "unit": "V",
+        "question": "four times as much as a haploid gamete",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 78,
+        "unit": "V",
+        "question": "numerical aperture lens system",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 79,
+        "unit": "V",
+        "question": "phosphate groups, hydrophilic",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 80,
+        "unit": "V",
+        "question": "as much as a haploid gamete",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 81,
+        "unit": "V",
+        "question": "Ammonia is a major nitrogenous waste in aquatic animals.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 82,
+        "unit": "V",
+        "question": "With all possible details draw $\\alpha$-helix structure of a protein.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 83,
+        "unit": "V",
+        "question": "Illustrate stepwise events during transcription of a gene in prokaryotic system.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 84,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Construct a Michaelis-Menten kinetic plot for an enzyme and define Km of the enzyme.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 85,
+        "unit": "V",
+        "question": "Applications of recombinant DNA techniques.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 86,
+        "unit": "V",
+        "question": "B cells are an essential component of the humoral immune response.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 87,
+        "unit": "V",
+        "question": "What are disaccharides? Describe the structures and functions of any three important disaccharides.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 88,
+        "unit": "V",
+        "question": "wavelength of light used",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 89,
+        "unit": "V",
+        "question": "Amylopectin is a heteropolysaccharide.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 90,
+        "unit": "V",
+        "question": "Each hair cell in fish ear has single kinocilium.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 91,
+        "unit": "V",
+        "question": "Acetylcholine esterase",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 92,
+        "unit": "V",
+        "question": "Discuss the characteristic properties of peptide bond.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 93,
+        "unit": "V",
+        "question": "Ester linkages of triglycerides can be hydrolyzed by acid or alkali.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 94,
+        "unit": "V",
+        "question": "Select and write the most correct alternative for the following:{2} = 1$} \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 95,
+        "unit": "V",
+        "question": "Answer the following: \\begin{parts} \\item Describe the basic structure of immunoglobulin with suitable diagram. Discuss the characteristic features and functions of different types of immunoglobulins.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 96,
+        "unit": "V",
+        "question": "wavelength of light used and numerical aperture of lens system \\end{choices}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 97,
+        "unit": "V",
+        "question": "Explain the role of Golgi complex in sorting of lysosomal enzymes.",
+        "answerKey": "1. **Structure**: Composed of flattened membrane-bound sacs called **cisternae**, with a cis-face (receiving side) and trans-face (shipping side).\n2. **Function**: Modifies, packages, and sorts proteins and lipids received from the endoplasmic reticulum. Forms lysosomes and secretes vesicles."
+      },
+      {
+        "id": 98,
+        "unit": "V",
+        "question": "Differentiate between reducing and non-reducing sugars.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 99,
+        "unit": "V",
+        "question": "After meiosis-I daughter cells will have: \\begin{choices}",
+        "answerKey": "1. **Mitosis**: Equational division producing two genetically identical diploid daughter cells. Stages: Prophase, Metaphase (chromosomes align at plate), Anaphase (sister chromatids separate), Telophase.\n2. **Meiosis**: Reductional division producing four genetically diverse haploid gametes. Consists of Meiosis I (homologous chromosomes separate) and Meiosis II (sister chromatids separate).\n3. **Genetic Variation**: Driven by crossing over (Pachynene stage of Prophase I) and independent assortment during Metaphase I."
+      },
+      {
+        "id": 100,
+        "unit": "V",
+        "question": "DNA Pol activity is primer dependent.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 101,
+        "unit": "V",
+        "question": "Which of the following do not participate in innate immunity? \\begin{choices}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 102,
+        "unit": "V",
+        "question": "What is Chromatin? Explain how chromatin are organized in a nucleus.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 103,
+        "unit": "V",
+        "question": "fatty acid groups, hydrophilic",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 104,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Select and write the most correct alternative for the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 105,
+        "unit": "V",
+        "question": "Four-step events of chain elongation during protein synthesis in prokaryotes.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 106,
+        "unit": "V",
+        "question": "Describe diagrammatically the process of replication in E. coli.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 107,
+        "unit": "V",
+        "question": "Define the following terms: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 108,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Describe the process of transcription in prokaryotes with well-labeled diagrams.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 109,
+        "unit": "V",
+        "question": "Elucidate the following in diagrammatic form only:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 110,
+        "unit": "V",
+        "question": "Unsaturated fatty acid",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 111,
+        "unit": "V",
+        "question": "Sympathetic nervous system.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 112,
+        "unit": "V",
+        "question": "Explain the structure and function of primary and accessory sex organs of mammals.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 113,
+        "unit": "V",
+        "question": "Describe the structure of cell membrane and explain fluid mosaic model.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 114,
+        "unit": "V",
+        "question": "Explain the structure and functions of mitochondria.",
+        "answerKey": "1. **Structure**: Double-membraned organelle. Outer membrane is smooth; inner membrane is folded into **cristae** containing ATP synthase complexes (F0-F1 particles).\n2. **Function**: Powerhouse of the cell. Site of aerobic cellular respiration, including Krebs cycle (matrix) and Electron Transport Chain (inner membrane).\n3. **Semiautonomous nature**: Possesses circular DNA and 70S ribosomes."
+      },
+      {
+        "id": 115,
+        "unit": "V",
+        "question": "Describe the pathway of glycolysis with all intermediates and enzymes.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 116,
+        "unit": "V",
+        "question": "Explain the mechanism of oxidative phosphorylation and ATP synthesis.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 117,
+        "unit": "V",
+        "question": "Compare mitosis and meiosis with the help of suitable diagrams.",
+        "answerKey": "1. **Mitosis**: Equational division producing two genetically identical diploid daughter cells. Stages: Prophase, Metaphase (chromosomes align at plate), Anaphase (sister chromatids separate), Telophase.\n2. **Meiosis**: Reductional division producing four genetically diverse haploid gametes. Consists of Meiosis I (homologous chromosomes separate) and Meiosis II (sister chromatids separate).\n3. **Genetic Variation**: Driven by crossing over (Pachynene stage of Prophase I) and independent assortment during Metaphase I."
+      }
+    ]
+  },
+  "zobmn21": {
+    "id": "zobmn21",
+    "title": "Ancillary Biology (Animal Biology)",
+    "module": "ZOOMN21",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Class $\\to$ Order $\\to$ Genus $\\to$ Species",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Residual volume of lung",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Answer the following parts: \\begin{parts} \\item Give an example of Natural selection. Discuss it in brief.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Immune response mediated by T-cells and B-cells.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Reverse translation is also a way of genetic information flow.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Macrophages produce antibodies.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Prosthetic groups in enzyme are small non-protein molecules and metal ions that participate directly in catalysis.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "alternate form of same gene",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 9,
+        "unit": "II",
+        "question": "the genes present on same chromosomes",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 10,
+        "unit": "II",
+        "question": "Select and write the best option in the following:{2} = 4$} \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Transferase catalyses geometric or structural changes within a single molecule.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "the two genes on two different chromosomes",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 13,
+        "unit": "III",
+        "question": "Phylum $\\to$ Class $\\to$ Order $\\to$ Genus",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 14,
+        "unit": "III",
+        "question": "The pH inside stomach is 8.9.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 15,
+        "unit": "III",
+        "question": "Describe the mechanism of enzyme action.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Phylum $\\to$ Class $\\to$ Family $\\to$ Order",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 17,
+        "unit": "IV",
+        "question": "Chromosome number becomes half in first meiotic division.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 18,
+        "unit": "IV",
+        "question": "Class $\\to$ Order $\\to$ Family $\\to$ Genus",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 19,
+        "unit": "IV",
+        "question": "a pair of different genes",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 20,
+        "unit": "IV",
+        "question": "Law of heterozygosity",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 21,
+        "unit": "V",
+        "question": "Illustrate the counter current mechanism in Kidney during urine formation.",
+        "answerKey": "1. **Nephron Structure**: Structural and functional unit of kidney. Comprises Bowman's capsule, Glomerulus (filtration), PCT, Loop of Henle, DCT, and Collecting duct.\n2. **Counter-Current Multiplier System**:\n- Maintained by the Loop of Henle and **Vasa Recta**.\n- Descending limb is permeable to water, concentrating the filtrate. Ascending limb actively pumps out NaCl, diluting the filtrate and building a hyper-osmotic renal medullary interstitium.\n- This allows collecting ducts to reabsorb water, producing concentrated urine."
+      },
+      {
+        "id": 22,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Prepare a chart to show the major events that occur in different phases of meiosis.",
+        "answerKey": "1. **Mitosis**: Equational division producing two genetically identical diploid daughter cells. Stages: Prophase, Metaphase (chromosomes align at plate), Anaphase (sister chromatids separate), Telophase.\n2. **Meiosis**: Reductional division producing four genetically diverse haploid gametes. Consists of Meiosis I (homologous chromosomes separate) and Meiosis II (sister chromatids separate).\n3. **Genetic Variation**: Driven by crossing over (Pachynene stage of Prophase I) and independent assortment during Metaphase I."
+      },
+      {
+        "id": 23,
+        "unit": "V",
+        "question": "Prepare a chart to show the major events that occur in different phases of meiosis.",
+        "answerKey": "1. **Mitosis**: Equational division producing two genetically identical diploid daughter cells. Stages: Prophase, Metaphase (chromosomes align at plate), Anaphase (sister chromatids separate), Telophase.\n2. **Meiosis**: Reductional division producing four genetically diverse haploid gametes. Consists of Meiosis I (homologous chromosomes separate) and Meiosis II (sister chromatids separate).\n3. **Genetic Variation**: Driven by crossing over (Pachynene stage of Prophase I) and independent assortment during Metaphase I."
+      },
+      {
+        "id": 24,
+        "unit": "V",
+        "question": "Give an example of Natural selection. Discuss it in brief.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 25,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Select and write the best option in the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 26,
+        "unit": "V",
+        "question": "Cell membrane is mainly made up of phosphoprotein bilayer.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 27,
+        "unit": "V",
+        "question": "Law of independent assortment",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 28,
+        "unit": "V",
+        "question": "Which of the following is not in the correct order of hierarchy for classification? \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 29,
+        "unit": "V",
+        "question": "Classification of living organisms reflects their evolutionary relationship.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 30,
+        "unit": "V",
+        "question": "Illustrate the following with labelled diagram:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 31,
+        "unit": "V",
+        "question": "Describe the Darwinian theory of natural selection and its significance.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 32,
+        "unit": "V",
+        "question": "Explain the structure of an eukaryotic cell with a labeled diagram.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 33,
+        "unit": "V",
+        "question": "Compare the processes of mitosis and meiosis in detail.",
+        "answerKey": "1. **Mitosis**: Equational division producing two genetically identical diploid daughter cells. Stages: Prophase, Metaphase (chromosomes align at plate), Anaphase (sister chromatids separate), Telophase.\n2. **Meiosis**: Reductional division producing four genetically diverse haploid gametes. Consists of Meiosis I (homologous chromosomes separate) and Meiosis II (sister chromatids separate).\n3. **Genetic Variation**: Driven by crossing over (Pachynene stage of Prophase I) and independent assortment during Metaphase I."
+      },
+      {
+        "id": 34,
+        "unit": "V",
+        "question": "Describe the mechanism of enzyme action and factors affecting it.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 35,
+        "unit": "V",
+        "question": "Explain the counter current mechanism in kidney during urine formation.",
+        "answerKey": "1. **Nephron Structure**: Structural and functional unit of kidney. Comprises Bowman's capsule, Glomerulus (filtration), PCT, Loop of Henle, DCT, and Collecting duct.\n2. **Counter-Current Multiplier System**:\n- Maintained by the Loop of Henle and **Vasa Recta**.\n- Descending limb is permeable to water, concentrating the filtrate. Ascending limb actively pumps out NaCl, diluting the filtrate and building a hyper-osmotic renal medullary interstitium.\n- This allows collecting ducts to reabsorb water, producing concentrated urine."
+      }
+    ]
+  },
+  "zobmj31": {
+    "id": "zobmj31",
+    "title": "Basic Genetics, Evolution and Developmental Biology",
+    "module": "ZOOMJ31",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Matings between purple starfish of identical genotype produced offspring as follows: 18 pink, 54 purple, and 24 albino. \\begin{parts}",
+        "answerKey": "1. **Water Vascular (Ambulacral) System**: Specialized hydrostatic system in starfish (Echinodermata) used for locomotion, respiration, and food capture.\n2. **Pathway of Water**:\n- Madreporite $\\to$ Stone canal $\\to$ Ring canal $\\to$ Radial canals (along arms) $\\to$ Lateral canals $\\to$ Tube feet.\n3. **Tube Feet Mechanism**:\n- Each tube foot has an **ampulla** (muscular sac) and a **podium** (sucker).\n- Contraction of the ampulla forces water into the podium, extending it. Contact with substratum and retraction pulls the animal forward."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "\\underline{\\hspace{3cm}} is the condition of having an extra set of chromosomes in an organism.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "inheritance of genes located on different chromosomes",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Chromosome 1 of an individual undergoes paracentric inversion. What will be the consequences of meiosis in case crossing-over occurs in the inverted part of chromosomes in a heterozygous condition? Write the answers with the help of diagrams.",
+        "answerKey": "1. **Mitosis**: Equational division producing two genetically identical diploid daughter cells. Stages: Prophase, Metaphase (chromosomes align at plate), Anaphase (sister chromatids separate), Telophase.\n2. **Meiosis**: Reductional division producing four genetically diverse haploid gametes. Consists of Meiosis I (homologous chromosomes separate) and Meiosis II (sister chromatids separate).\n3. **Genetic Variation**: Driven by crossing over (Pachynene stage of Prophase I) and independent assortment during Metaphase I."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Describe ornithine cycle of urea formation.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Counter current flow mechanism is found only in fishes.",
+        "answerKey": "1. **Nephron Structure**: Structural and functional unit of kidney. Comprises Bowman's capsule, Glomerulus (filtration), PCT, Loop of Henle, DCT, and Collecting duct.\n2. **Counter-Current Multiplier System**:\n- Maintained by the Loop of Henle and **Vasa Recta**.\n- Descending limb is permeable to water, concentrating the filtrate. Ascending limb actively pumps out NaCl, diluting the filtrate and building a hyper-osmotic renal medullary interstitium.\n- This allows collecting ducts to reabsorb water, producing concentrated urine."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Name any two species of exotic fish.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Discuss the mechanism of branchial respiration in fishes.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 9,
+        "unit": "II",
+        "question": "Give a detailed account of the process of gastrulation in frog with neat and labeled diagrams. \\begin{center} \\begin{tikzpicture}[scale=1.2, >=Stealth, every node/.style={font=\\small}] % Outline of gastrulating embryo \\draw[thick, fill=gray!5] (0,0) circle (1.5); % Blastocoel (shrinking cavity at top-left) \\draw[thick, fill=cyan!15] (-0.8,0.6) circle (0.4) node {\\scriptsize Blastocoel}; % Archenteron (growing cavity from right/bottom) \\draw[thick, fill=orange!15] (0.8,-0.2) to[out=90, in=0] (0,0.5) to[out=180, in=90] (-0.5,0.1) to[out=270, in=180] (0,-0.5) to[out=0, in=270] (0.8,-0.2); \\node at (0.2,0.15) {\\scriptsize Archenteron}; % Yolk Plug \\draw[thick, fill=yellow!30!white] (1.1,-0.6) ellipse (0.25 and 0.4); \\node[right] at (1.4,-0.6) {\\scriptsize Yolk Plug}; % Blastopore Lip (Dorsal and Ventral) \\draw[fill=black] (1.0,-0.2) circle (0.05) node[above right] {\\scriptsize Dorsal Lip}; \\draw[fill=black] (1.2,-1.0) circle (0.05) node[below right] {\\scriptsize Ventral Lip}; % Ectoderm (outer layer) \\draw[line width=1.5pt, blue] (0,1.5) arc (90:315:1.5); \\node[left, blue] at (-1.5,0) {\\scriptsize Ectoderm}; % Endoderm (yolk cells) \\node at (0.2,-0.9) {\\scriptsize Endoderm}; \\end{tikzpicture} \\end{center}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 10,
+        "unit": "II",
+        "question": "Molecular responses to thyroid hormones during metamorphosis",
+        "answerKey": "1. **Hormones Concept**: Chemical messengers secreted directly into blood by ductless **endocrine glands** to regulate physiological activities.\n2. **Pituitary Gland (Master Gland)**:\n- **Adenohypophysis (Anterior)**: Secretes GH, TSH, ACTH, FSH, LH, and Prolactin.\n- **Neurohypophysis (Posterior)**: Releases Oxytocin and Vasopressin (ADH) synthesized by hypothalamus.\n3. **Feedback Mechanism**: Homeostasis maintained by negative feedback loops (e.g., high thyroid hormone levels inhibit TSH and TRH secretion)."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Answer the following parts: \\begin{parts} \\item Define the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Polygeny and pleiotropy refer to one and the same phenomenon.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 13,
+        "unit": "III",
+        "question": "Antibiotic resistance in bacteria",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 14,
+        "unit": "III",
+        "question": "A box has 8 red, 7 blue and 6 green balls. If one ball is picked up randomly, what is the probability that it is neither red nor green?",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 15,
+        "unit": "III",
+        "question": "What are the genotypes of the parents and the offspring (use your own symbols)?",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Match the items in Column-I with Column-II: \\begin{center} \\begin{tabular}{llp{1cm}ll} \\hline \\multicolumn{2}{c}{Column-I} & & \\multicolumn{2}{c}{Column-II} \\hline (i) & Acrosomal reaction & & (1) & Morphogenetic movement (ii) & Cortical reaction & & (2) & Amphioxus (iii) & Epiboly & & (3) & Calcium wave (iv) & Area opaca & & (4) & Hyaluronidase (v) & Microlecithal egg & & (5) & Chick embryo \\hline \\end{tabular} \\end{center}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 17,
+        "unit": "IV",
+        "question": "Explain how lethal alleles disrupt Mendelian phenotypic ratios.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 18,
+        "unit": "IV",
+        "question": "Describe various types of cattle sheds and their advantages.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 19,
+        "unit": "IV",
+        "question": "Give an illustrated account of external fertilization in sea urchin.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 20,
+        "unit": "IV",
+        "question": "Pebrine is the disease of silk.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 21,
+        "unit": "V",
+        "question": "An allele that masks the expression of another allele",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 22,
+        "unit": "V",
+        "question": "Glucagon is a hyperglycemic hormone.",
+        "answerKey": "1. **Hormones Concept**: Chemical messengers secreted directly into blood by ductless **endocrine glands** to regulate physiological activities.\n2. **Pituitary Gland (Master Gland)**:\n- **Adenohypophysis (Anterior)**: Secretes GH, TSH, ACTH, FSH, LH, and Prolactin.\n- **Neurohypophysis (Posterior)**: Releases Oxytocin and Vasopressin (ADH) synthesized by hypothalamus.\n3. **Feedback Mechanism**: Homeostasis maintained by negative feedback loops (e.g., high thyroid hormone levels inhibit TSH and TRH secretion)."
+      },
+      {
+        "id": 23,
+        "unit": "V",
+        "question": "Name any two diseases of poultry.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 24,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Give an account of induced breeding in fish.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 25,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Write short note on XX/XY sex chromosome system.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 26,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Give a detailed account of the process of gastrulation in frog with neat and labeled diagrams.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 27,
+        "unit": "V",
+        "question": "Define the process of regeneration and describe the limb regeneration in amphibians.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 28,
+        "unit": "V",
+        "question": "The process by which cells become specialized in structure and function is called \\makebox[3cm]{\\hrulefill}.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 29,
+        "unit": "V",
+        "question": "Stabilizing selection",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 30,
+        "unit": "V",
+        "question": "Write whether the following statements are True or False. Justify your answers: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 31,
+        "unit": "V",
+        "question": "One variety of plant having leaves with cuts on them was crossed with plants having normal leaves. All the F1 progeny produced cut leaves. Two of the F1 plants were interbred to produce F2. The F2 had 248 cut leaves and 16 normal leaves. Describe the phenomenon that determines the leaf pattern.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 32,
+        "unit": "V",
+        "question": "Which type of inheritance is it, dominant or recessive? Justify.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 33,
+        "unit": "V",
+        "question": "A $t(9;22)$ chromosome translocation is seen in chronic myeloid leukemia.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 34,
+        "unit": "V",
+        "question": "Affected males have affected fathers.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 35,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Illustrate meiotic consequences in an individual heterozygous for a reciprocal translocation.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 36,
+        "unit": "V",
+        "question": "The phenotypic ratio of $1:2:1$ is characteristic of the $F_2$ of a monohybrid cross where complete dominance is not there.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 37,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Give an illustrated account of external fertilization in sea urchin.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 38,
+        "unit": "V",
+        "question": "Preformation and Epigenesis",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 39,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item What is Neo-Darwinism and Modern Synthesis of Evolution and how it has redefined the old theory?",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 40,
+        "unit": "V",
+        "question": "Peking man belonged to Homo habilis species that originated in China.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Describe the different morphogenetic movements during gastrulation.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Describe various types of cattle sheds and their advantages.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item With the help of suitable diagrams, describe the process of spermiogenesis.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Name any two breeds of indigenous cow.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Autonomous specification and Syncytial specification",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Discuss in detail the mechanism of sex determination in Drosophila and humans.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "What is cleavage? Describe the different types of cleavage on the basis of pattern with suitable examples.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Discuss in detail the mechanism of sex determination in Drosophila and humans.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "State whether the following statements are True or False, giving reasons for your answer: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Describe the different housing systems in poultry farming.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 51,
+        "unit": "V",
+        "question": "A gene that masks the expression of another gene",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 52,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Select and write the correct choice in the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 53,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item State whether the following statements are True or False, giving reasons for your answer:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 54,
+        "unit": "V",
+        "question": "Lac is produced in large quantities by male lac insect.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 55,
+        "unit": "V",
+        "question": "Testosterone is produced by Sertoli cells of the testis.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 56,
+        "unit": "V",
+        "question": "Monohybrid crosses revealed the phenomenon of incomplete dominance.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 57,
+        "unit": "V",
+        "question": "A man of blood type A, whose mother had blood type O, marries a woman of blood type B, whose father was blood type O. The chances of this couple's having a child with blood type O are: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 58,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Describe the process of three germ layers formation in chick.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 59,
+        "unit": "V",
+        "question": "Affected males can transmit the disease to their sons. \\end{enumerate}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 60,
+        "unit": "V",
+        "question": "Enlist the major structures observed in developing human embryo, which replicates its phylogenetic lineage.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 61,
+        "unit": "V",
+        "question": "Chromosomal basis of sex determination",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 62,
+        "unit": "V",
+        "question": "What is Hardy-Weinberg equilibrium? Discuss the various factors that disturb the Hardy-Weinberg equilibrium.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 63,
+        "unit": "V",
+        "question": "Industrial melanism is an example of: \\begin{enumerate}[label=(\\arabic*),leftmargin=*]",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 64,
+        "unit": "V",
+        "question": "An allele that changes the genotype of another allele",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 65,
+        "unit": "V",
+        "question": "Briefly describe the phenomenon of cytoplasmic inheritance.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 66,
+        "unit": "V",
+        "question": "Calcitonin is produced by parafollicular cells of the parathyroid gland.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 67,
+        "unit": "V",
+        "question": "Draw a well labelled diagram of Graafian follicle. Write important biological actions of estrogen.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 68,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item ``Increase and decrease in individual chromosome number in an individual can cause syndromes.'' Justify the statement with examples.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 69,
+        "unit": "V",
+        "question": "Which one of the following is not the specific feature of an X-linked recessive pedigree? \\begin{enumerate}[label=(\\arabic*),leftmargin=*]",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 70,
+        "unit": "V",
+        "question": "Na$^+$-K$^+$ pump provides an additional contribution to the resting potential.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 71,
+        "unit": "V",
+        "question": "Shivering is associated with protection against hot environment.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 72,
+        "unit": "V",
+        "question": "What epistatic ratio is shown by these offsprings?",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 73,
+        "unit": "V",
+        "question": "Fast block to polyspermy",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 74,
+        "unit": "V",
+        "question": "Chromosomal theory of inheritance",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 75,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item The pedigree represents the pattern of inheritance. Look at the pedigree and answer the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 76,
+        "unit": "V",
+        "question": "Zona glomerulosa cells of adrenal gland secrete glucocorticoids.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 77,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Match the items in Column-I with Column-II:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 78,
+        "unit": "V",
+        "question": "Write short note on XX/XY sex chromosome system.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 79,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Define the following terms:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 80,
+        "unit": "V",
+        "question": "polygenic inheritance",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 81,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Select and write the best option from the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 82,
+        "unit": "V",
+        "question": "Endocrine mode of hormone delivery",
+        "answerKey": "1. **Hormones Concept**: Chemical messengers secreted directly into blood by ductless **endocrine glands** to regulate physiological activities.\n2. **Pituitary Gland (Master Gland)**:\n- **Adenohypophysis (Anterior)**: Secretes GH, TSH, ACTH, FSH, LH, and Prolactin.\n- **Neurohypophysis (Posterior)**: Releases Oxytocin and Vasopressin (ADH) synthesized by hypothalamus.\n3. **Feedback Mechanism**: Homeostasis maintained by negative feedback loops (e.g., high thyroid hormone levels inhibit TSH and TRH secretion)."
+      },
+      {
+        "id": 83,
+        "unit": "V",
+        "question": "Worker honey bees are produced from the fertile eggs laid by the queen.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 84,
+        "unit": "V",
+        "question": "The pedigree represents the pattern of inheritance. Look at the pedigree and answer the following: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 85,
+        "unit": "V",
+        "question": "The idea of survival of the fittest was first proposed by Lamarck.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 86,
+        "unit": "V",
+        "question": "Describe the chemical digestion of proteins in animals.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 87,
+        "unit": "V",
+        "question": "Primitive streak is formed during the process of \\makebox[3cm]{\\hrulefill}.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 88,
+        "unit": "V",
+        "question": "Directional selection",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 89,
+        "unit": "V",
+        "question": "Define the role of organiser in amphibian embryo development.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 90,
+        "unit": "V",
+        "question": "Various castes of honey bee",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 91,
+        "unit": "V",
+        "question": "Define the following: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 92,
+        "unit": "V",
+        "question": "Is it autosomal or sex-linked? Justify.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 93,
+        "unit": "V",
+        "question": "External fertilization",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 94,
+        "unit": "V",
+        "question": "Select and write the correct choice in the following: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 95,
+        "unit": "V",
+        "question": "``Increase and decrease in individual chromosome number in an individual can cause syndromes.'' Justify the statement with examples.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 96,
+        "unit": "V",
+        "question": "Affected males have unaffected parents.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 97,
+        "unit": "V",
+        "question": "What is Neo-Darwinism and Modern Synthesis of Evolution and how it has redefined the old theory?",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 98,
+        "unit": "V",
+        "question": "Darwin finches are examples of adaptive radiation.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 99,
+        "unit": "V",
+        "question": "Radial cleavage and Spiral cleavage",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 100,
+        "unit": "V",
+        "question": "Describe the process of three germ layers formation in chick.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 101,
+        "unit": "V",
+        "question": "Regeneration in Hydra",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 102,
+        "unit": "V",
+        "question": "Select and write the best option from the following:{2} = 2$} \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 103,
+        "unit": "V",
+        "question": "location of chromosomes in an interphase cell",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 104,
+        "unit": "V",
+        "question": "Using suitable examples, explain the features of codominance and incomplete dominance.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 105,
+        "unit": "V",
+        "question": "Describe the structure of the parathyroid gland. Comment upon the role of parathormone in Ca$^{2+}$ homeostasis.",
+        "answerKey": "1. **Hormones Concept**: Chemical messengers secreted directly into blood by ductless **endocrine glands** to regulate physiological activities.\n2. **Pituitary Gland (Master Gland)**:\n- **Adenohypophysis (Anterior)**: Secretes GH, TSH, ACTH, FSH, LH, and Prolactin.\n- **Neurohypophysis (Posterior)**: Releases Oxytocin and Vasopressin (ADH) synthesized by hypothalamus.\n3. **Feedback Mechanism**: Homeostasis maintained by negative feedback loops (e.g., high thyroid hormone levels inhibit TSH and TRH secretion)."
+      },
+      {
+        "id": 106,
+        "unit": "V",
+        "question": "Differentiate between the evolutionary theories of Lamarck and Darwin.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 107,
+        "unit": "V",
+        "question": "Briefly write about the key concepts of Darwinism and the evolutionary significance of variations.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 108,
+        "unit": "V",
+        "question": "Artificial selection \\end{enumerate}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 109,
+        "unit": "V",
+        "question": "Illustrate meiotic consequences in an individual heterozygous for a reciprocal translocation.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 110,
+        "unit": "V",
+        "question": "A gene that changes the genotype of another gene",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 111,
+        "unit": "V",
+        "question": "When two heterozygous tall pea plants are crossed, \\underline{\\hspace{2cm}} percent of the offsprings are short.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 112,
+        "unit": "V",
+        "question": "Very slight difference in survival brought about by minute changes in the genotype can result in substantial evolutionary change over a period of time. Explain.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 113,
+        "unit": "V",
+        "question": "Draw a well-labelled diagram of the fate map of a frog embryo. \\begin{center} \\begin{tikzpicture}[scale=1.5, >=Stealth, every node/.style={font=\\small}] % Outer boundary \\draw[thick] (0,0) circle (1.5); % Fill areas % Ectoderm: 0 to 180 degrees \\fill[blue!15] (0,0) -- (0:1.5) arc (0:180:1.5) -- cycle; % Mesoderm (Marginal zone) \\fill[red!15] (0,0) -- (180:1.5) arc (180:220:1.5) to[out=40, in=140] (320:1.5) arc (320:360:1.5) -- cycle; % Endoderm (Vegetal pole) \\fill[yellow!15] (0,0) -- (220:1.5) arc (220:320:1.5) -- cycle; % Overlay borders \\draw[thick] (0:1.5) arc (0:180:1.5); \\draw[thick] (180:1.5) arc (180:220:1.5); \\draw[thick] (320:1.5) arc (320:360:1.5); \\draw[thick] (220:1.5) arc (220:320:1.5); \\draw[thick] (180:1.5) to[out=-10, in=190] (0:1.5); \\draw[thick] (220:1.5) to[out=10, in=170] (320:1.5); % Labels \\node at (0, 0.7) {Ectoderm (Epidermal/Neural)}; \\node at (0, -0.2) {Mesoderm (Notochord/Somites)}; \\node at (0, -0.9) {Endoderm}; % Annotation arrows \\draw[<-] (0.5, 0.9) -- (1.8, 1.2) node[right] {Animal Pole}; \\draw[<-] (0, -1.2) -- (1.0, -1.6) node[right] {Vegetal Pole}; \\end{tikzpicture} \\end{center}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 114,
+        "unit": "V",
+        "question": "Describe the structure and different parts of pituitary gland and name the hormones secreted by them.",
+        "answerKey": "1. **Hormones Concept**: Chemical messengers secreted directly into blood by ductless **endocrine glands** to regulate physiological activities.\n2. **Pituitary Gland (Master Gland)**:\n- **Adenohypophysis (Anterior)**: Secretes GH, TSH, ACTH, FSH, LH, and Prolactin.\n- **Neurohypophysis (Posterior)**: Releases Oxytocin and Vasopressin (ADH) synthesized by hypothalamus.\n3. **Feedback Mechanism**: Homeostasis maintained by negative feedback loops (e.g., high thyroid hormone levels inhibit TSH and TRH secretion)."
+      },
+      {
+        "id": 115,
+        "unit": "V",
+        "question": "A pedigree chart is shown below. Write whether the inheritance of the trait shown is sex linked or autosomal and dominant or recessive. What feature of the pedigree did you use to determine the inheritance. Write possible genotypes of each individual assuming the name of the alleles to be A and a: \\begin{center} \\begin{tikzpicture}[ male/.style={rectangle,draw,minimum size=6mm,thick}, female/.style={circle,draw,minimum size=6mm,thick}, affected/.style={fill=black}, mating/.style={draw,thick}, sibling/.style={draw,thick} ] % Generation labels \\node at (-6.5, 2) {I}; \\node at (-6.5, 0) {II}; \\node at (-6.5, -1.5) {III}; % Generation I \\node[male] (I1) at (-0.64, 2) {}; \\node[female] (I2) at (0.64, 2) {}; \\draw[thick] (I1) -- (I2); \\coordinate (I-mid) at (0, 2); \\coordinate (I-drop) at (0, 1); \\draw[thick] (I-mid) -- (I-drop); % Sibling line for Gen II \\draw[thick] (-4, 1) -- (4, 1); % Gen II Children connections \\draw[thick] (-4, 1) -- (-4, 0); \\draw[thick] (-2.4, 1) -- (-2.4, 0); \\draw[thick] (-0.8, 1) -- (-0.8, 0); \\draw[thick] (0.8, 1) -- (0.8, 0); \\draw[thick] (2.4, 1) -- (2.4, 0); \\draw[thick] (4, 1) -- (4, 0); % Gen II Nodes % 1st child (male) and spouse (female) \\node[male] (II2) at (-4, 0) {}; \\node[female] (II1) at (-5.2, 0) {}; \\draw[thick] (II1) -- (II2); \\coordinate (II-mid1) at (-4.6, 0); \\coordinate (II-drop1) at (-4.6, -0.6); \\draw[thick] (II-mid1) -- (II-drop1); \\draw[thick] (-5.2, -0.6) -- (-4, -0.6); \\draw[thick] (-5.2, -0.6) -- (-5.2, -1.5); \\draw[thick] (-4, -0.6) -- (-4, -1.5); \\node[female] (III1) at (-5.2, -1.5) {}; \\node[male] (III2) at (-4, -1.5) {}; % 2nd and 3rd children (females) \\node[female] (II3) at (-2.4, 0) {}; \\node[female] (II4) at (-0.8, 0) {}; % 4th child (male, affected) \\node[male, affected] (II5) at (0.8, 0) {}; % 5th child (male) \\node[male] (II6) at (2.4, 0) {}; % 6th child (female, affected) and spouse (male) \\node[female, affected] (II7) at (4, 0) {}; \\node[male] (II8) at (5.2, 0) {}; \\draw[thick] (II7) -- (II8); \\coordinate (II-mid2) at (4.6, 0); \\coordinate (II-drop2) at (4.6, -0.6); \\draw[thick] (II-mid2) -- (II-drop2); \\draw[thick] (4, -0.6) -- (5.2, -0.6); \\draw[thick] (4, -0.6) -- (4, -1.5); \\draw[thick] (5.2, -0.6) -- (5.2, -1.5); \\node[male] (III3) at (4, -1.5) {}; \\node[female] (III4) at (5.2, -1.5) {}; \\end{tikzpicture} \\end{center}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 116,
+        "unit": "V",
+        "question": "Give an account of induced breeding in fish.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 117,
+        "unit": "V",
+        "question": "Role of Nieuwkoop center in the formation of dorsal-ventral axis in frog",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 118,
+        "unit": "V",
+        "question": "Pearl formation in natural condition.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 119,
+        "unit": "V",
+        "question": "Resting membrane potential.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 120,
+        "unit": "V",
+        "question": "The function of the Hensen's node is equivalent to the dorsal lip of the amphibian blastopore.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 121,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Write whether the following statements are True or False. Justify your answers:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 122,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item What is Hardy-Weinberg equilibrium? Discuss the various factors that disturb the Hardy-Weinberg equilibrium.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 123,
+        "unit": "V",
+        "question": "A cross was made between three unlinked genes, $AaBbCc \\times AaBbCc$. What would be the frequency of $AABBCC$ individuals? \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 124,
+        "unit": "V",
+        "question": "Disease affects mainly males.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 125,
+        "unit": "V",
+        "question": "Write a brief note on the functions of egg membranes.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 126,
+        "unit": "V",
+        "question": "Regeneration blastema",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 127,
+        "unit": "V",
+        "question": "Nieuwkoop centre is also called as primary organiser of amphibian.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 128,
+        "unit": "V",
+        "question": "Give an account of various kinds of proteins involved in muscle contraction.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 129,
+        "unit": "V",
+        "question": "Describe the functions of various types of leukocytes found in the blood.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 130,
+        "unit": "V",
+        "question": "Write a note on sericulture.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 131,
+        "unit": "V",
+        "question": "Define the following terms: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 132,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item A pedigree chart is shown below. Write whether the inheritance of the trait shown is sex linked or autosomal and dominant or recessive. What feature of the pedigree did you use to determine the inheritance. Write possible genotypes of each individual assuming the name of the alleles to be A and a:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 133,
+        "unit": "V",
+        "question": "Lac processing and its uses",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 134,
+        "unit": "V",
+        "question": "Answer the following parts:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 135,
+        "unit": "V",
+        "question": "Define the following terms in one/two sentences each: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 136,
+        "unit": "V",
+        "question": "With the help of suitable diagrams, describe the process of spermiogenesis. \\begin{center} \\begin{tikzpicture}[scale=1.1, >=Stealth, every node/.style={font=\\small}] % Sperm Structure Drawing % Head (Acrosome + Nucleus) \\draw[thick, fill=blue!10!white] (0,0) to[out=90,in=180] (0.8,0.4) to[out=0,in=90] (1.6,0) -- (1.6,-0.4) to[out=270,in=0] (0.8,-0.8) to[out=180,in=270] (0,-0.4) -- cycle; \\draw[thick, fill=red!30!white] (0,0) to[out=90,in=180] (0.5,0.3) to[out=0,in=270] (0.8,-0.2) to[out=180,in=270] (0,-0.4) -- cycle; \\node at (0.4,-0.1) {\\scriptsize Acrosome}; \\node at (1.1,-0.2) {\\scriptsize Nucleus}; % Neck / Centriole \\draw[thick, fill=gray!30!white] (1.6,-0.15) rectangle (1.8,-0.25); \\node[above] at (1.7,0.2) {\\scriptsize Neck}; % Midpiece (Mitochondria) \\draw[thick, fill=orange!20!white] (1.8,-0.1) rectangle (3.5,-0.3); \\draw[thick, decorate, decoration={snake, amplitude=1pt, segment length=3pt}] (1.8,-0.2) -- (3.5,-0.2); \\node at (2.65,-0.5) {\\scriptsize Midpiece (Mitochondria)}; % Tail (Flagellum) \\draw[thick] (3.5,-0.2) -- (7.0,-0.2) node[right] {\\scriptsize Tail (Flagellum)}; % Head label \\draw[thick, <->] (0,-1.0) -- (1.6,-1.0) node[midway, below] {Head}; \\end{tikzpicture} \\end{center}",
+        "answerKey": "1. **Structure**: Double-membraned organelle. Outer membrane is smooth; inner membrane is folded into **cristae** containing ATP synthase complexes (F0-F1 particles).\n2. **Function**: Powerhouse of the cell. Site of aerobic cellular respiration, including Krebs cycle (matrix) and Electron Transport Chain (inner membrane).\n3. **Semiautonomous nature**: Possesses circular DNA and 70S ribosomes."
+      },
+      {
+        "id": 137,
+        "unit": "V",
+        "question": "State Mendel's laws of inheritance and explain them with examples.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 138,
+        "unit": "V",
+        "question": "Describe the structure of DNA and its replication mechanism.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 139,
+        "unit": "V",
+        "question": "Explain the concept of linkage and crossing over in genetics.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 140,
+        "unit": "V",
+        "question": "Describe the various stages of embryonic development in frog.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 141,
+        "unit": "V",
+        "question": "Explain the synthetic theory of organic evolution with evidence.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      }
+    ]
+  },
+  "zobmj41": {
+    "id": "zobmj41",
+    "title": "Fundamental Endocrinology and Developmental Biology",
+    "module": "ZOOMJ41 / ZOOMJ42",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Answer the following parts: \\begin{parts} \\item Explain Natural selection in action, giving a suitable example.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Positive feedback mechanism.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Describe the process of graft tissue preparation and nucleus implantation in oysters for pearl formation.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Hackle and cape feathers of hen usually have pointed ends.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Draw a labelled diagram of pituitary gland. Describe the various parts of this gland and biological actions of the glycoprotein hormones.",
+        "answerKey": "1. **Hormones Concept**: Chemical messengers secreted directly into blood by ductless **endocrine glands** to regulate physiological activities.\n2. **Pituitary Gland (Master Gland)**:\n- **Adenohypophysis (Anterior)**: Secretes GH, TSH, ACTH, FSH, LH, and Prolactin.\n- **Neurohypophysis (Posterior)**: Releases Oxytocin and Vasopressin (ADH) synthesized by hypothalamus.\n3. **Feedback Mechanism**: Homeostasis maintained by negative feedback loops (e.g., high thyroid hormone levels inhibit TSH and TRH secretion)."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Kappa particles are involved in infective inheritance in Paramecium.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Answer the following parts: \\begin{parts} \\item Define the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Female silk moths survive about 3 years.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 9,
+        "unit": "II",
+        "question": "Answer the following parts: \\begin{parts} \\item Justify whether the following statements are True or False:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 10,
+        "unit": "II",
+        "question": "Answer the following parts: \\begin{parts} \\item Draw a neat and well-labeled diagram of the adrenal gland. Also mention the biological actions of all the adrenocortical hormones.",
+        "answerKey": "1. **Hormones Concept**: Chemical messengers secreted directly into blood by ductless **endocrine glands** to regulate physiological activities.\n2. **Pituitary Gland (Master Gland)**:\n- **Adenohypophysis (Anterior)**: Secretes GH, TSH, ACTH, FSH, LH, and Prolactin.\n- **Neurohypophysis (Posterior)**: Releases Oxytocin and Vasopressin (ADH) synthesized by hypothalamus.\n3. **Feedback Mechanism**: Homeostasis maintained by negative feedback loops (e.g., high thyroid hormone levels inhibit TSH and TRH secretion)."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Describe the major trends in human evolution.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Write whether the following statements are True or False. Justify your answers in 2-3 sentences each: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 13,
+        "unit": "III",
+        "question": "Glucagon is a hypoglycemic hormone.",
+        "answerKey": "1. **Hormones Concept**: Chemical messengers secreted directly into blood by ductless **endocrine glands** to regulate physiological activities.\n2. **Pituitary Gland (Master Gland)**:\n- **Adenohypophysis (Anterior)**: Secretes GH, TSH, ACTH, FSH, LH, and Prolactin.\n- **Neurohypophysis (Posterior)**: Releases Oxytocin and Vasopressin (ADH) synthesized by hypothalamus.\n3. **Feedback Mechanism**: Homeostasis maintained by negative feedback loops (e.g., high thyroid hormone levels inhibit TSH and TRH secretion)."
+      },
+      {
+        "id": 14,
+        "unit": "III",
+        "question": "An O child of A and O parents",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 15,
+        "unit": "III",
+        "question": "Write an essay on milk and milk products.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Answer the following parts: \\begin{parts} \\item Write whether the following statements are True or False. Justify your answers in 2-3 sentences each:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 17,
+        "unit": "IV",
+        "question": "Renin-angiotensin-aldosterone system",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 18,
+        "unit": "IV",
+        "question": "Answer the following parts: \\begin{parts} \\item State whether the following statements are True or False. Justify your answer in 2--3 sentences:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 19,
+        "unit": "IV",
+        "question": "Dominance and epistasis",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 20,
+        "unit": "IV",
+        "question": "Describe the phenomenon of embryonic induction illustrating Spemann and Mangold's experiments.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 21,
+        "unit": "V",
+        "question": "Advantages of group living",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 22,
+        "unit": "V",
+        "question": "An AB child of A and O parents",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 23,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Briefly discuss the advantages and disadvantages of cage poultry rearing method.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 24,
+        "unit": "V",
+        "question": "Male and female lac insects reside in similar shaped resin cells.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 25,
+        "unit": "V",
+        "question": "Numerous cortical granules are found within the central cytoplasm of the ovum.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 26,
+        "unit": "V",
+        "question": "Penetrance and expressivity.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 27,
+        "unit": "V",
+        "question": "Write notes on the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 28,
+        "unit": "V",
+        "question": "Define law of segregation and explain its chromosomal basis.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 29,
+        "unit": "V",
+        "question": "Paracrine mode of delivery",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 30,
+        "unit": "V",
+        "question": "Explain Natural selection in action, giving a suitable example.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 31,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Describe the process of external fertilization in sea urchin.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 32,
+        "unit": "V",
+        "question": "Define hormones and classify them according to their structural and functional similarities.",
+        "answerKey": "1. **Hormones Concept**: Chemical messengers secreted directly into blood by ductless **endocrine glands** to regulate physiological activities.\n2. **Pituitary Gland (Master Gland)**:\n- **Adenohypophysis (Anterior)**: Secretes GH, TSH, ACTH, FSH, LH, and Prolactin.\n- **Neurohypophysis (Posterior)**: Releases Oxytocin and Vasopressin (ADH) synthesized by hypothalamus.\n3. **Feedback Mechanism**: Homeostasis maintained by negative feedback loops (e.g., high thyroid hormone levels inhibit TSH and TRH secretion)."
+      },
+      {
+        "id": 33,
+        "unit": "V",
+        "question": "Chalkbrood disease in honeybee is caused by protozoan.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 34,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item If an individual is heterozygous for a paracentric inversion, what will be the consequences following meiosis?",
+        "answerKey": "1. **Mitosis**: Equational division producing two genetically identical diploid daughter cells. Stages: Prophase, Metaphase (chromosomes align at plate), Anaphase (sister chromatids separate), Telophase.\n2. **Meiosis**: Reductional division producing four genetically diverse haploid gametes. Consists of Meiosis I (homologous chromosomes separate) and Meiosis II (sister chromatids separate).\n3. **Genetic Variation**: Driven by crossing over (Pachynene stage of Prophase I) and independent assortment during Metaphase I."
+      },
+      {
+        "id": 35,
+        "unit": "V",
+        "question": "Sertoli cells and Leydig cells",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 36,
+        "unit": "V",
+        "question": "Draw a neat and well-labeled diagram of the adrenal gland. Also mention the biological actions of all the adrenocortical hormones. \\begin{center} \\begin{tikzpicture}[scale=1.3, >=Stealth, every node/.style={font=\\small}] % Concentric zones of adrenal gland \\draw[thick, fill=yellow!10!white] (0,0) circle (2.2); % Capsule / Outer border \\draw[thick, fill=orange!25!white] (0,0) circle (1.9); % Zona Glomerulosa \\draw[thick, fill=orange!15!white] (0,0) circle (1.5); % Zona Fasciculata \\draw[thick, fill=orange!5!white] (0,0) circle (1.0); % Zona Reticularis \\draw[thick, fill=red!10!white] (0,0) circle (0.5); % Medulla % Medulla text \\node at (0,0) {Medulla}; % Labels and Callout lines \\draw[<-, thick] (0, 2.05) -- (2.8, 2.5) node[right, align=left] {Capsule (Protective outer layer)}; \\draw[<-, thick] (0.8, 1.5) -- (2.8, 1.7) node[right, align=left] {Zona Glomerulosa (Secretes Mineralocorticoids - Aldosterone)}; \\draw[<-, thick] (0.7, 1.0) -- (2.8, 0.7) node[right, align=left] {Zona Fasciculata (Secretes Glucocorticoids - Cortisol)}; \\draw[<-, thick] (0.5, 0.5) -- (2.8, -0.3) node[right, align=left] {Zona Reticularis (Secretes Androgens - DHEA)}; \\draw[<-, thick] (0.1, -0.2) -- (2.8, -1.3) node[right, align=left] {Adrenal Medulla (Secretes Epinephrine / Norepinephrine)}; \\end{tikzpicture} \\end{center}",
+        "answerKey": "1. **Hormones Concept**: Chemical messengers secreted directly into blood by ductless **endocrine glands** to regulate physiological activities.\n2. **Pituitary Gland (Master Gland)**:\n- **Adenohypophysis (Anterior)**: Secretes GH, TSH, ACTH, FSH, LH, and Prolactin.\n- **Neurohypophysis (Posterior)**: Releases Oxytocin and Vasopressin (ADH) synthesized by hypothalamus.\n3. **Feedback Mechanism**: Homeostasis maintained by negative feedback loops (e.g., high thyroid hormone levels inhibit TSH and TRH secretion)."
+      },
+      {
+        "id": 37,
+        "unit": "V",
+        "question": "Significance of homology and analogy in the evolutionary studies",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 38,
+        "unit": "V",
+        "question": "Define the role of organizer in amphibian embryo development.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 39,
+        "unit": "V",
+        "question": "An A child of A and B parents",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 40,
+        "unit": "V",
+        "question": "Superficial cleavage is found in most of the insects.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Describe the process of external fertilization in sea urchin.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Preservation methods of prawn.",
+        "answerKey": "1. **Reproductive System of Palaemon (Prawn)**: Dioecious (separate sexes).\n2. **Male System**:\n- Pair of elongated testes located above the hepato-pancreas.\n- Vas deferens carries sperm to seminal vesicles.\n- Sperms are released via male genital pores on 5th walking legs.\n3. **Female System**:\n- Pair of crescent-shaped ovaries.\n- Oviducts open via female genital pores on 3rd walking legs.\n- Fertilization is external, and females carry eggs on their pleopods."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Beer consumption causes frequent urination by suppressing oxytocin.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Higher variation in the sequence of amino acids between different groups of organisms indicates closer phylogenetic relationship.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Discuss the role of pituitary hormones.",
+        "answerKey": "1. **Hormones Concept**: Chemical messengers secreted directly into blood by ductless **endocrine glands** to regulate physiological activities.\n2. **Pituitary Gland (Master Gland)**:\n- **Adenohypophysis (Anterior)**: Secretes GH, TSH, ACTH, FSH, LH, and Prolactin.\n- **Neurohypophysis (Posterior)**: Releases Oxytocin and Vasopressin (ADH) synthesized by hypothalamus.\n3. **Feedback Mechanism**: Homeostasis maintained by negative feedback loops (e.g., high thyroid hormone levels inhibit TSH and TRH secretion)."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Justify whether the following statements are True or False: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Define hormones and classify them according to their structural and functional similarities.",
+        "answerKey": "1. **Hormones Concept**: Chemical messengers secreted directly into blood by ductless **endocrine glands** to regulate physiological activities.\n2. **Pituitary Gland (Master Gland)**:\n- **Adenohypophysis (Anterior)**: Secretes GH, TSH, ACTH, FSH, LH, and Prolactin.\n- **Neurohypophysis (Posterior)**: Releases Oxytocin and Vasopressin (ADH) synthesized by hypothalamus.\n3. **Feedback Mechanism**: Homeostasis maintained by negative feedback loops (e.g., high thyroid hormone levels inhibit TSH and TRH secretion)."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Fibroin is a major glycoprotein of silk.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Describe the differential role of parathormone in calcium and phosphate homeostasis.",
+        "answerKey": "1. **Hormones Concept**: Chemical messengers secreted directly into blood by ductless **endocrine glands** to regulate physiological activities.\n2. **Pituitary Gland (Master Gland)**:\n- **Adenohypophysis (Anterior)**: Secretes GH, TSH, ACTH, FSH, LH, and Prolactin.\n- **Neurohypophysis (Posterior)**: Releases Oxytocin and Vasopressin (ADH) synthesized by hypothalamus.\n3. **Feedback Mechanism**: Homeostasis maintained by negative feedback loops (e.g., high thyroid hormone levels inhibit TSH and TRH secretion)."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Define law of segregation and explain its chromosomal basis.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 51,
+        "unit": "V",
+        "question": "How is G-banding performed and how does this banding help in karyotyping? How are the bands numbered on chromosomes?",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 52,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Select the best option in the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 53,
+        "unit": "V",
+        "question": "Insulin promotes synthesis of fatty acids in the liver and inhibits lipolysis.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 54,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Describe the fate map of chick embryo with the help of a figure.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 55,
+        "unit": "V",
+        "question": "Physiological functions of testosterone",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 56,
+        "unit": "V",
+        "question": "State whether the following statements are True or False. Justify your answer in 2--3 sentences each: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 57,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Define the following terms:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 58,
+        "unit": "V",
+        "question": "Explain the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 59,
+        "unit": "V",
+        "question": "Criticism on Lamarckism.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 60,
+        "unit": "V",
+        "question": "If an individual is heterozygous for a paracentric inversion, what will be the consequences following meiosis?",
+        "answerKey": "1. **Mitosis**: Equational division producing two genetically identical diploid daughter cells. Stages: Prophase, Metaphase (chromosomes align at plate), Anaphase (sister chromatids separate), Telophase.\n2. **Meiosis**: Reductional division producing four genetically diverse haploid gametes. Consists of Meiosis I (homologous chromosomes separate) and Meiosis II (sister chromatids separate).\n3. **Genetic Variation**: Driven by crossing over (Pachynene stage of Prophase I) and independent assortment during Metaphase I."
+      },
+      {
+        "id": 61,
+        "unit": "V",
+        "question": "Eusocial organization.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 62,
+        "unit": "V",
+        "question": "Define the following: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 63,
+        "unit": "V",
+        "question": "Neurohormones and Neurotransmitters",
+        "answerKey": "1. **Hormones Concept**: Chemical messengers secreted directly into blood by ductless **endocrine glands** to regulate physiological activities.\n2. **Pituitary Gland (Master Gland)**:\n- **Adenohypophysis (Anterior)**: Secretes GH, TSH, ACTH, FSH, LH, and Prolactin.\n- **Neurohypophysis (Posterior)**: Releases Oxytocin and Vasopressin (ADH) synthesized by hypothalamus.\n3. **Feedback Mechanism**: Homeostasis maintained by negative feedback loops (e.g., high thyroid hormone levels inhibit TSH and TRH secretion)."
+      },
+      {
+        "id": 64,
+        "unit": "V",
+        "question": "Draw a well-labelled diagram of histology of ovary. Mention the chemical nature and biological actions of each hormone produced by the ovary.",
+        "answerKey": "1. **Hormones Concept**: Chemical messengers secreted directly into blood by ductless **endocrine glands** to regulate physiological activities.\n2. **Pituitary Gland (Master Gland)**:\n- **Adenohypophysis (Anterior)**: Secretes GH, TSH, ACTH, FSH, LH, and Prolactin.\n- **Neurohypophysis (Posterior)**: Releases Oxytocin and Vasopressin (ADH) synthesized by hypothalamus.\n3. **Feedback Mechanism**: Homeostasis maintained by negative feedback loops (e.g., high thyroid hormone levels inhibit TSH and TRH secretion)."
+      },
+      {
+        "id": 65,
+        "unit": "V",
+        "question": "If a homozygous tall plant is crossed with a heterozygous tall plant, which of the following is the most likely outcome for the progeny? \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 66,
+        "unit": "V",
+        "question": "Polygenic inheritance.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 67,
+        "unit": "V",
+        "question": "An O child of A parents",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 68,
+        "unit": "V",
+        "question": "Describe amphibian regeneration in detail.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 69,
+        "unit": "V",
+        "question": "How does the pineal gland coordinate daily rhythms? Explain with the help of a flowchart. \\begin{center} \\begin{tikzpicture}[scale=1.0, >=Stealth, every node/.style={font=\\small, draw, rounded corners, fill=blue!5, align=center, minimum height=0.8cm}] % Flowchart Nodes \\node (light) at (0,4) {Environmental Light / Dark Cycle}; \\node (retina) at (0,2.5) {Retina (Photoreceptors)}; \\node (scn) at (0,1) {Suprachiasmatic Nucleus (SCN) (Circadian Pacemaker)}; \\node (scg) at (0,-0.5) {Superior Cervical Ganglion (SCG)}; \\node (pineal) at (0,-2) {Pineal Gland}; \\node (melatonin) at (0,-3.5) {Melatonin Secretion (High in Dark, Low in Light)}; \\node (rhythms) at (0,-5) [fill=green!10] {Regulation of Circadian Rhythms (Sleep-wake cycle, body temp)}; % Connective Arrows \\draw[->, thick] (light) -- (retina); \\draw[->, thick] (retina) -- node[draw=none, fill=none, right] {Retinohypothalamic Tract} (scn); \\draw[->, thick] (scn) -- (scg); \\draw[->, thick] (scg) -- node[draw=none, fill=none, right] {Sympathetic pathway} (pineal); \\draw[->, thick] (pineal) -- (melatonin); \\draw[->, thick] (melatonin) -- (rhythms); \\end{tikzpicture} \\end{center}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 70,
+        "unit": "V",
+        "question": "Thyroid hormone increases BMR of all the tissues present in the body.",
+        "answerKey": "1. **Hormones Concept**: Chemical messengers secreted directly into blood by ductless **endocrine glands** to regulate physiological activities.\n2. **Pituitary Gland (Master Gland)**:\n- **Adenohypophysis (Anterior)**: Secretes GH, TSH, ACTH, FSH, LH, and Prolactin.\n- **Neurohypophysis (Posterior)**: Releases Oxytocin and Vasopressin (ADH) synthesized by hypothalamus.\n3. **Feedback Mechanism**: Homeostasis maintained by negative feedback loops (e.g., high thyroid hormone levels inhibit TSH and TRH secretion)."
+      },
+      {
+        "id": 71,
+        "unit": "V",
+        "question": "Describe the steps of fish culture, mode of breeding and methods of fish preservation.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 72,
+        "unit": "V",
+        "question": "During which geological period gigantic dinosaurs, Archaeopteryx and early mammals coexisted? \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 73,
+        "unit": "V",
+        "question": "Channels of communication.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 74,
+        "unit": "V",
+        "question": "Write about the economic importance of honeybees.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 75,
+        "unit": "V",
+        "question": "Briefly discuss the advantages and disadvantages of cage poultry rearing method.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 76,
+        "unit": "V",
+        "question": "Calcium homeostasis \\begin{center} \\begin{tikzpicture}[scale=0.9, >=Stealth, every node/.style={font=\\small, align=center}] % High/Low blood calcium levels loop \\node (normal) at (0,0) [draw, rounded corners, fill=gray!10] {Normal Blood $Ca^{2+$ Level} ($\\approx 10\\text{ mg/dL}$)}; % Low blood calcium pathway \\node (low) at (-3.5, 1.5) [draw, rounded corners, fill=red!5] {Low Blood $Ca^{2+}$}; \\node (pth) at (-3.5, 3.2) [draw, rounded corners, fill=orange!5] {Parathyroid Gland releases PTH}; \\node (pth-act) at (-3.5, 4.8) [draw, rounded corners, fill=orange!10] {Reabsorption from kidney Ca release from bone Absorption in intestine}; % High blood calcium pathway \\node (high) at (3.5, 1.5) [draw, rounded corners, fill=blue!5] {High Blood $Ca^{2+}$}; \\node (calcitonin) at (3.5, 3.2) [draw, rounded corners, fill=cyan!5] {Thyroid Gland releases Calcitonin}; \\node (calc-act) at (3.5, 4.8) [draw, rounded corners, fill=cyan!10] {Deposition in bones Excretion in kidney}; % Connections \\draw[->, thick] (normal) to[out=135, in=270] (low); \\draw[->, thick] (low) -- (pth); \\draw[->, thick] (pth) -- (pth-act); \\draw[->, thick] (pth-act) to[out=0, in=90] (normal); \\draw[->, thick] (normal) to[out=45, in=270] (high); \\draw[->, thick] (high) -- (calcitonin); \\draw[->, thick] (calcitonin) -- (calc-act); \\draw[->, thick] (calc-act) to[out=180, in=90] (normal); \\end{tikzpicture} \\end{center}",
+        "answerKey": "1. **Nephron Structure**: Structural and functional unit of kidney. Comprises Bowman's capsule, Glomerulus (filtration), PCT, Loop of Henle, DCT, and Collecting duct.\n2. **Counter-Current Multiplier System**:\n- Maintained by the Loop of Henle and **Vasa Recta**.\n- Descending limb is permeable to water, concentrating the filtrate. Ascending limb actively pumps out NaCl, diluting the filtrate and building a hyper-osmotic renal medullary interstitium.\n- This allows collecting ducts to reabsorb water, producing concentrated urine."
+      },
+      {
+        "id": 77,
+        "unit": "V",
+        "question": "Define the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 78,
+        "unit": "V",
+        "question": "Leghorn, Minorca and Ancona are good egg layers.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 79,
+        "unit": "V",
+        "question": "Sex chromosome systems",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 80,
+        "unit": "V",
+        "question": "Select the best option in the following:{2} = 1$} \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 81,
+        "unit": "V",
+        "question": "25 tall : 50 dwarf : 25 tall",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 82,
+        "unit": "V",
+        "question": "Discuss about different diseases of a cattle caused by bacteria with emphasis on symptoms and treatments.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 83,
+        "unit": "V",
+        "question": "Chief cells of the parathyroid gland are only sensitive to calcium conjugated with anions like sulphates and citrates.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 84,
+        "unit": "V",
+        "question": "If allelic frequency of A = 60\\% and that of a = 40\\% in a Mendelian population, then the genotype frequencies will be : AA = 48\\%, Aa = 16\\% and aa = 36\\%.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 85,
+        "unit": "V",
+        "question": "Paracrine and Autocrine modes of hormone delivery.",
+        "answerKey": "1. **Hormones Concept**: Chemical messengers secreted directly into blood by ductless **endocrine glands** to regulate physiological activities.\n2. **Pituitary Gland (Master Gland)**:\n- **Adenohypophysis (Anterior)**: Secretes GH, TSH, ACTH, FSH, LH, and Prolactin.\n- **Neurohypophysis (Posterior)**: Releases Oxytocin and Vasopressin (ADH) synthesized by hypothalamus.\n3. **Feedback Mechanism**: Homeostasis maintained by negative feedback loops (e.g., high thyroid hormone levels inhibit TSH and TRH secretion)."
+      },
+      {
+        "id": 86,
+        "unit": "V",
+        "question": "Care-soliciting behaviour",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 87,
+        "unit": "V",
+        "question": "Absence of thyroid hormone causes retardation of general body growth.",
+        "answerKey": "1. **Hormones Concept**: Chemical messengers secreted directly into blood by ductless **endocrine glands** to regulate physiological activities.\n2. **Pituitary Gland (Master Gland)**:\n- **Adenohypophysis (Anterior)**: Secretes GH, TSH, ACTH, FSH, LH, and Prolactin.\n- **Neurohypophysis (Posterior)**: Releases Oxytocin and Vasopressin (ADH) synthesized by hypothalamus.\n3. **Feedback Mechanism**: Homeostasis maintained by negative feedback loops (e.g., high thyroid hormone levels inhibit TSH and TRH secretion)."
+      },
+      {
+        "id": 88,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Discuss about different diseases of a cattle caused by bacteria with emphasis on symptoms and treatments.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 89,
+        "unit": "V",
+        "question": "A test cross is performed to find out the genotype of an individual.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 90,
+        "unit": "V",
+        "question": "Negative and Positive feedback mechanisms",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 91,
+        "unit": "V",
+        "question": "While carrying out a dihybrid cross the scientist observed a F2 phenotypic ratio of 9:3:4. Explain the phenomenon.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 92,
+        "unit": "V",
+        "question": "Drosophila having XY and XXY genotypes are males.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 93,
+        "unit": "V",
+        "question": "Describe the neurohypophysial hormone family.",
+        "answerKey": "1. **Hormones Concept**: Chemical messengers secreted directly into blood by ductless **endocrine glands** to regulate physiological activities.\n2. **Pituitary Gland (Master Gland)**:\n- **Adenohypophysis (Anterior)**: Secretes GH, TSH, ACTH, FSH, LH, and Prolactin.\n- **Neurohypophysis (Posterior)**: Releases Oxytocin and Vasopressin (ADH) synthesized by hypothalamus.\n3. **Feedback Mechanism**: Homeostasis maintained by negative feedback loops (e.g., high thyroid hormone levels inhibit TSH and TRH secretion)."
+      },
+      {
+        "id": 94,
+        "unit": "V",
+        "question": "Environmental factors affect thyroid hormone secretions.",
+        "answerKey": "1. **Hormones Concept**: Chemical messengers secreted directly into blood by ductless **endocrine glands** to regulate physiological activities.\n2. **Pituitary Gland (Master Gland)**:\n- **Adenohypophysis (Anterior)**: Secretes GH, TSH, ACTH, FSH, LH, and Prolactin.\n- **Neurohypophysis (Posterior)**: Releases Oxytocin and Vasopressin (ADH) synthesized by hypothalamus.\n3. **Feedback Mechanism**: Homeostasis maintained by negative feedback loops (e.g., high thyroid hormone levels inhibit TSH and TRH secretion)."
+      },
+      {
+        "id": 95,
+        "unit": "V",
+        "question": "Write an essay on the diseases of silkworms.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 96,
+        "unit": "V",
+        "question": "The majority of oocytes within the adult human ovary are maintained in the zygotene stage of meiotic prophase, often referred to as the dictyate state.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 97,
+        "unit": "V",
+        "question": "Describe the fate map of chick embryo with the help of a figure.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 98,
+        "unit": "V",
+        "question": "Define the following terms: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 99,
+        "unit": "V",
+        "question": "State whether the following statements are True or False. Justify your answer in 2--3 sentences: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 100,
+        "unit": "V",
+        "question": "What are different types of silk? Briefly elaborate the different stages in the mulberry silk production.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 101,
+        "unit": "V",
+        "question": "Hormones and behaviour",
+        "answerKey": "1. **Hormones Concept**: Chemical messengers secreted directly into blood by ductless **endocrine glands** to regulate physiological activities.\n2. **Pituitary Gland (Master Gland)**:\n- **Adenohypophysis (Anterior)**: Secretes GH, TSH, ACTH, FSH, LH, and Prolactin.\n- **Neurohypophysis (Posterior)**: Releases Oxytocin and Vasopressin (ADH) synthesized by hypothalamus.\n3. **Feedback Mechanism**: Homeostasis maintained by negative feedback loops (e.g., high thyroid hormone levels inhibit TSH and TRH secretion)."
+      },
+      {
+        "id": 102,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Define the role of organizer in amphibian embryo development.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 103,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Write an essay on the diseases of silkworms.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 104,
+        "unit": "V",
+        "question": "Insulin is a hyperglycemic hormone.",
+        "answerKey": "1. **Hormones Concept**: Chemical messengers secreted directly into blood by ductless **endocrine glands** to regulate physiological activities.\n2. **Pituitary Gland (Master Gland)**:\n- **Adenohypophysis (Anterior)**: Secretes GH, TSH, ACTH, FSH, LH, and Prolactin.\n- **Neurohypophysis (Posterior)**: Releases Oxytocin and Vasopressin (ADH) synthesized by hypothalamus.\n3. **Feedback Mechanism**: Homeostasis maintained by negative feedback loops (e.g., high thyroid hormone levels inhibit TSH and TRH secretion)."
+      },
+      {
+        "id": 105,
+        "unit": "V",
+        "question": "Write about the slow block and fast block to polyspermy.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 106,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item State whether the following statements are True or False. Justify your answer in 2--3 sentences each:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 107,
+        "unit": "V",
+        "question": "Describe the anatomy and hormones secreted by pituitary gland.",
+        "answerKey": "1. **Hormones Concept**: Chemical messengers secreted directly into blood by ductless **endocrine glands** to regulate physiological activities.\n2. **Pituitary Gland (Master Gland)**:\n- **Adenohypophysis (Anterior)**: Secretes GH, TSH, ACTH, FSH, LH, and Prolactin.\n- **Neurohypophysis (Posterior)**: Releases Oxytocin and Vasopressin (ADH) synthesized by hypothalamus.\n3. **Feedback Mechanism**: Homeostasis maintained by negative feedback loops (e.g., high thyroid hormone levels inhibit TSH and TRH secretion)."
+      },
+      {
+        "id": 108,
+        "unit": "V",
+        "question": "Explain the feedback mechanism of hormone action with examples.",
+        "answerKey": "1. **Hormones Concept**: Chemical messengers secreted directly into blood by ductless **endocrine glands** to regulate physiological activities.\n2. **Pituitary Gland (Master Gland)**:\n- **Adenohypophysis (Anterior)**: Secretes GH, TSH, ACTH, FSH, LH, and Prolactin.\n- **Neurohypophysis (Posterior)**: Releases Oxytocin and Vasopressin (ADH) synthesized by hypothalamus.\n3. **Feedback Mechanism**: Homeostasis maintained by negative feedback loops (e.g., high thyroid hormone levels inhibit TSH and TRH secretion)."
+      },
+      {
+        "id": 109,
+        "unit": "V",
+        "question": "Describe the stages of spermatogenesis and oogenesis in mammals.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 110,
+        "unit": "V",
+        "question": "Explain the process of fertilization and prevention of polyspermy.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 111,
+        "unit": "V",
+        "question": "Describe the types of placenta in mammals based on histology.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      }
+    ]
+  },
+  "zobmn41": {
+    "id": "zobmn41",
+    "title": "Biology: Applied Zoology (Ancillary Course)",
+    "module": "ZOOMN41",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Write a detailed note with illustration on the life cycle of the Lac insect.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Attraction and repulsion cage mechanism",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Brackish Water Aquaculture",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "State whether the following statements are True or False, giving reasons in 2-3 sentences each: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Cirrhinus cirrhosus is among India's major indigenous carp.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Explain the process of sericulture. Add a note on its importance and scope in India.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Write a note about the different difficulties faced by pearl farmers.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Karan Swiss is developed at the National Dairy Research Institute of India (NDRI), Karnal by crossing of Brown Swiss and Sindhi breeds of cow.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 9,
+        "unit": "II",
+        "question": "Drone bees are unable to guard the hive against intruders.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 10,
+        "unit": "II",
+        "question": "What is the composition of milk?",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "State whether the following statements are True or False. Justify your answer in 2--3 sentences each: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Give a description of social organization in honeybee, focusing on the division of labour in particular.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 13,
+        "unit": "III",
+        "question": "Answer the following parts: \\begin{parts} \\item Illustrate the steps of making transgenic animals with the help of a suitable diagram.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 14,
+        "unit": "III",
+        "question": "Answer the following parts: \\begin{parts} \\item State whether the following statements are True or False, giving reasons in 2-3 sentences each:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 15,
+        "unit": "III",
+        "question": "Bombyx mori produces Tasar silk.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Discuss the various tasks that worker honeybees perform in the colony. Discuss the way honey is prepared from nectar.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 17,
+        "unit": "IV",
+        "question": "Lac, the commercial resin of animal origin, is secreted only by the larvae of Laccifer lacca.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 18,
+        "unit": "IV",
+        "question": "What are the applications for byproducts derived from apiculture?",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 19,
+        "unit": "IV",
+        "question": "Write an essay on indigenous breeds of bovine.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 20,
+        "unit": "IV",
+        "question": "Write an essay on milk and milk products.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 21,
+        "unit": "V",
+        "question": "Low-temperature-longer-time pasteurization",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 22,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Write an essay on indigenous breeds of bovine.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 23,
+        "unit": "V",
+        "question": "Spectacled Cobra is found in North-East India.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 24,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Write an essay on major disadvantages of using chemicals in controlling of insect pests.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 25,
+        "unit": "V",
+        "question": "Describe the reproductive system and the process of egg formation in a hen with the help of suitable diagrams.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 26,
+        "unit": "V",
+        "question": "Snake venom and Bee venom.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 27,
+        "unit": "V",
+        "question": "Illustrate the steps of making transgenic animals with the help of a suitable diagram.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 28,
+        "unit": "V",
+        "question": "Koinobiont parasitoid",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 29,
+        "unit": "V",
+        "question": "Write an essay on major disadvantages of using chemicals in controlling of insect pests.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 30,
+        "unit": "V",
+        "question": "Streptococcus thermophilus is used as a starter in curd, yogurt and cheese.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 31,
+        "unit": "V",
+        "question": "Describe different methods of preservation and processing of prawn.",
+        "answerKey": "1. **Reproductive System of Palaemon (Prawn)**: Dioecious (separate sexes).\n2. **Male System**:\n- Pair of elongated testes located above the hepato-pancreas.\n- Vas deferens carries sperm to seminal vesicles.\n- Sperms are released via male genital pores on 5th walking legs.\n3. **Female System**:\n- Pair of crescent-shaped ovaries.\n- Oviducts open via female genital pores on 3rd walking legs.\n- Fertilization is external, and females carry eggs on their pleopods."
+      },
+      {
+        "id": 32,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Write a note about the different difficulties faced by pearl farmers.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 33,
+        "unit": "V",
+        "question": "Write briefly about botanical insecticides.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 34,
+        "unit": "V",
+        "question": "Write a note on the nutritive values of chicken.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 35,
+        "unit": "V",
+        "question": "How are transgenic animals made? Discuss their importance with one example.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 36,
+        "unit": "V",
+        "question": "Lac is mentioned in Mahabharata.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 37,
+        "unit": "V",
+        "question": "India doesn't offer a huge potential for aquaculture development.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 38,
+        "unit": "V",
+        "question": "How is silk produced and what is its economic importance?",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 39,
+        "unit": "V",
+        "question": "The GloFish is a genetically modified fish produced by integrating the Green Fluorescent Protein (GFP) gene from firefly into the embryo of Zebrafish (Danio rerio).",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 40,
+        "unit": "V",
+        "question": "Finfish and Shellfish",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "DDT is good for the environment.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item State whether the following statements are True or False. Justify your answer in 2--3 sentences each:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Discuss snake milking process in brief.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Describe the life cycle and pathogenicity of Entamoeba histolytica.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Explain the symptoms, transmission and control of malaria.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Describe the social organization and communication in honeybees.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Explain the techniques and significance of sericulture.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Describe the culture of lac insect and economic importance of lac.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      }
+    ]
+  },
+  "zobmj51": {
+    "id": "zobmj51",
+    "title": "Functional Anatomy of Non-chordates",
+    "module": "ZOOMJ51",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Describe the structure of polyp in Obelia with a neat diagram.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Give a detailed account of male and female reproductive system of Palaemon.",
+        "answerKey": "1. **Reproductive System of Palaemon (Prawn)**: Dioecious (separate sexes).\n2. **Male System**:\n- Pair of elongated testes located above the hepato-pancreas.\n- Vas deferens carries sperm to seminal vesicles.\n- Sperms are released via male genital pores on 5th walking legs.\n3. **Female System**:\n- Pair of crescent-shaped ovaries.\n- Oviducts open via female genital pores on 3rd walking legs.\n- Fertilization is external, and females carry eggs on their pleopods."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Surface tegument of Fasciola consists of microtriches for absorption of readymade food in host.",
+        "answerKey": "1. **Life History of Fasciola hepatica**: Digenetic parasite (primary host: sheep/cattle; secondary host: snail *Lymnaea*).\n2. **Larval Stages**:\n- **Miracidium**: Free-swimming ciliated larva, enters snail.\n- **Sporocyst**: Sac-like structure inside snail, produces Rediae.\n- **Redia**: Has mouth and gut, produces Cercariae.\n- **Cercaria**: Free-swimming tadpole-like larva, leaves snail and encysts on vegetation.\n- **Metacercaria**: Encysted infective stage ingested by sheep."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Describe the various larval forms of Fasciola.",
+        "answerKey": "1. **Life History of Fasciola hepatica**: Digenetic parasite (primary host: sheep/cattle; secondary host: snail *Lymnaea*).\n2. **Larval Stages**:\n- **Miracidium**: Free-swimming ciliated larva, enters snail.\n- **Sporocyst**: Sac-like structure inside snail, produces Rediae.\n- **Redia**: Has mouth and gut, produces Cercariae.\n- **Cercaria**: Free-swimming tadpole-like larva, leaves snail and encysts on vegetation.\n- **Metacercaria**: Encysted infective stage ingested by sheep."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Discuss the different types of larva in Echinoderms with labelled sketch.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Aplacophoran and Polyplacophoran foot.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Hydrozoa and Scyphozoa",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Answer the following parts: \\begin{parts} \\item Define the following terms:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 9,
+        "unit": "II",
+        "question": "Illustrate the life history of Ascaris. Add a note on its pathogenicity.",
+        "answerKey": "1. **Life History of Ascaris lumbricoides**: Monogenetic human intestinal roundworm. Infection occurs by ingesting embryonated eggs containing L2 larvae.\n2. **Migration Pathway**:\n- Ingested eggs hatch in the small intestine.\n- Larvae penetrate the intestinal wall $\\to$ Portal circulation $\\to$ Liver $\\to$ Heart $\\to$ Lungs (undergo 2nd & 3rd moults).\n- Migrate up the trachea $\\to$ Pharynx $\\to$ Swallowed back into the intestine where they mature (4th moult).\n3. **Pathogenicity**: Causes **Ascariasis**, characterized by abdominal pain, intestinal blockage, nutritional deficiency, and pulmonary symptoms (Loeffler's syndrome)."
+      },
+      {
+        "id": 10,
+        "unit": "II",
+        "question": "Nereis and Heteronereis",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Hydrostatic system of Asterias.",
+        "answerKey": "1. **Water Vascular (Ambulacral) System**: Specialized hydrostatic system in starfish (Echinodermata) used for locomotion, respiration, and food capture.\n2. **Pathway of Water**:\n- Madreporite $\\to$ Stone canal $\\to$ Ring canal $\\to$ Radial canals (along arms) $\\to$ Lateral canals $\\to$ Tube feet.\n3. **Tube Feet Mechanism**:\n- Each tube foot has an **ampulla** (muscular sac) and a **podium** (sucker).\n- Contraction of the ampulla forces water into the podium, extending it. Contact with substratum and retraction pulls the animal forward."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Bipinnaria and Pluteus",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 13,
+        "unit": "III",
+        "question": "Illustrate the life cycle of Ascaris. Mention the pathogenesis caused by Ascaris.",
+        "answerKey": "1. **Life History of Ascaris lumbricoides**: Monogenetic human intestinal roundworm. Infection occurs by ingesting embryonated eggs containing L2 larvae.\n2. **Migration Pathway**:\n- Ingested eggs hatch in the small intestine.\n- Larvae penetrate the intestinal wall $\\to$ Portal circulation $\\to$ Liver $\\to$ Heart $\\to$ Lungs (undergo 2nd & 3rd moults).\n- Migrate up the trachea $\\to$ Pharynx $\\to$ Swallowed back into the intestine where they mature (4th moult).\n3. **Pathogenicity**: Causes **Ascariasis**, characterized by abdominal pain, intestinal blockage, nutritional deficiency, and pulmonary symptoms (Loeffler's syndrome)."
+      },
+      {
+        "id": 14,
+        "unit": "III",
+        "question": "Trochophore larva \\begin{center} \\begin{tikzpicture}[scale=0.9, >=Stealth, every node/.style={font=\\small}] % Pear-shaped body \\draw[fill=orange!5, draw=orange!50!black, very thick] (0, 2) to[out=0, in=90] (1.8, 0.3) to[out=-90, in=45] (0.4, -1.8) to[out=225, in=-45] (-0.4, -1.8) to[out=135, in=-90] (-1.8, 0.3) to[out=90, in=180] (0, 2) -- cycle; % Apical tuft \\foreach \\angle in {70, 80, 90, 100, 110} { \\draw[thick, gray] (0, 2) -- ({1.2*cos(\\angle)}, {2 + 1.2*sin(\\angle)}); } \\node[above=0.6cm] at (0, 2) {Apical Tuft}; % Prototroch \\draw[ultra thick, blue!80!black] (-1.8, 0.3) -- (1.8, 0.3); \\foreach \\x in {-1.7, -1.4, -1.1, -0.8, -0.5, -0.2, 0.1, 0.4, 0.7, 1.0, 1.3, 1.6} { \\draw[thick, blue] (\\x, 0.3) -- (\\x, 0.6); } \\node[right, blue!80!black] at (1.8, 0.45) {Prototroch}; % Gut \\draw[fill=yellow!20, draw=yellow!60!black, thick] (-0.6, 0) to[out=-90, in=180] (0, -0.8) to[out=0, in=-90] (0.6, -0.2) to[out=90, in=0] (0, 0.4) to[out=180, in=90] (-0.6, 0); \\node[font=\\scriptsize] at (0, -0.2) {Stomach}; % Mouth \\draw[thick] (-1.2, -0.2) -- (-0.6, 0); \\node[left, font=\\scriptsize] at (-1.2, -0.2) {Mouth}; % Anus \\draw[thick] (0, -1.8) -- (0, -1.4); \\node[below, font=\\scriptsize] at (0, -1.8) {Anus}; \\end{tikzpicture} \\end{center}",
+        "answerKey": "1. **Trochophore Larva**: Free-swimming, pear-shaped ciliated larval form characteristic of marine annelids and molluscs.\n2. **Features**: Has an apical tuft of sensory cilia at the top, a band of cilia (prototroch) for locomotion and feeding, a complete digestive tract (mouth, stomach, anus), and protonephridia."
+      },
+      {
+        "id": 15,
+        "unit": "III",
+        "question": "Describe the structure of Euglena with a neat diagram. Comment on euglenoid movement.",
+        "answerKey": "1. **Structure of Euglena viridis**: Unicellular flagellate protist. Spindle-shaped body with a flexible proteinaceous **pellicle**.\n2. **Key Organelles**:\n- **Flagellum**: Long hair-like structure emerging from the reservoir for locomotion.\n- **Stigma (Eyespot)**: Red-pigmented photoreceptor for phototaxis.\n- **Contractile Vacuole**: Osmo-regulation.\n- **Chloroplasts**: Perform photosynthesis in light.\n3. **Locomotion**:\n- **Flagellar**: Propulsive movement by flagellum.\n- **Euglenoid movement (Metaboly)**: Peristaltic wave of contraction and expansion of the body."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Polypoid phase is dominant phase in Aurelia.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 17,
+        "unit": "IV",
+        "question": "Parasitic adaptation of Fasciola",
+        "answerKey": "1. **Life History of Fasciola hepatica**: Digenetic parasite (primary host: sheep/cattle; secondary host: snail *Lymnaea*).\n2. **Larval Stages**:\n- **Miracidium**: Free-swimming ciliated larva, enters snail.\n- **Sporocyst**: Sac-like structure inside snail, produces Rediae.\n- **Redia**: Has mouth and gut, produces Cercariae.\n- **Cercaria**: Free-swimming tadpole-like larva, leaves snail and encysts on vegetation.\n- **Metacercaria**: Encysted infective stage ingested by sheep."
+      },
+      {
+        "id": 18,
+        "unit": "IV",
+        "question": "Genital papilla is only found in male Ascaris.",
+        "answerKey": "1. **Life History of Ascaris lumbricoides**: Monogenetic human intestinal roundworm. Infection occurs by ingesting embryonated eggs containing L2 larvae.\n2. **Migration Pathway**:\n- Ingested eggs hatch in the small intestine.\n- Larvae penetrate the intestinal wall $\\to$ Portal circulation $\\to$ Liver $\\to$ Heart $\\to$ Lungs (undergo 2nd & 3rd moults).\n- Migrate up the trachea $\\to$ Pharynx $\\to$ Swallowed back into the intestine where they mature (4th moult).\n3. **Pathogenicity**: Causes **Ascariasis**, characterized by abdominal pain, intestinal blockage, nutritional deficiency, and pulmonary symptoms (Loeffler's syndrome)."
+      },
+      {
+        "id": 19,
+        "unit": "IV",
+        "question": "Young and Mature trophozoite of Monocystis",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 20,
+        "unit": "IV",
+        "question": "Fertilium is produced by male heteronereis.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 21,
+        "unit": "V",
+        "question": "Protonephridia and Nephridia.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 22,
+        "unit": "V",
+        "question": "Coelom in Unio is schizocoelic.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 23,
+        "unit": "V",
+        "question": "Write the name of different types of canal system in sponges with example. Explain the Syconoid type of canal system with a neat diagram.",
+        "answerKey": "1. **Canal System Concept**: Unique water circulation system in sponges (Phylum Porifera) essential for food gathering, respiration, and excretion.\n2. **Asconoid System** (Simplest):\n- Path: Ostia $\\to$ Spongocoel (lined with choanocytes) $\\to$ Osculum.\n3. **Syconoid System**:\n- Path: Incurrent canals $\\to$ Prosopyles $\\to$ Radial canals (lined with choanocytes) $\\to$ Apopyles $\\to$ Spongocoel $\\to$ Osculum.\n4. **Leuconoid System** (Most complex):\n- Path: Incurrent canals $\\to$ Flagellated chambers $\\to$ Excurrent canals $\\to$ Osculum."
+      },
+      {
+        "id": 24,
+        "unit": "V",
+        "question": "With the help of neat labeled diagrams, explain different types of canal system in sponges.",
+        "answerKey": "1. **Canal System Concept**: Unique water circulation system in sponges (Phylum Porifera) essential for food gathering, respiration, and excretion.\n2. **Asconoid System** (Simplest):\n- Path: Ostia $\\to$ Spongocoel (lined with choanocytes) $\\to$ Osculum.\n3. **Syconoid System**:\n- Path: Incurrent canals $\\to$ Prosopyles $\\to$ Radial canals (lined with choanocytes) $\\to$ Apopyles $\\to$ Spongocoel $\\to$ Osculum.\n4. **Leuconoid System** (Most complex):\n- Path: Incurrent canals $\\to$ Flagellated chambers $\\to$ Excurrent canals $\\to$ Osculum."
+      },
+      {
+        "id": 25,
+        "unit": "V",
+        "question": "Gametocyst in Monocystis is generated from sporozoite.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 26,
+        "unit": "V",
+        "question": "Define the following terms: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 27,
+        "unit": "V",
+        "question": "Canal system and Water vascular system",
+        "answerKey": "1. **Canal System Concept**: Unique water circulation system in sponges (Phylum Porifera) essential for food gathering, respiration, and excretion.\n2. **Asconoid System** (Simplest):\n- Path: Ostia $\\to$ Spongocoel (lined with choanocytes) $\\to$ Osculum.\n3. **Syconoid System**:\n- Path: Incurrent canals $\\to$ Prosopyles $\\to$ Radial canals (lined with choanocytes) $\\to$ Apopyles $\\to$ Spongocoel $\\to$ Osculum.\n4. **Leuconoid System** (Most complex):\n- Path: Incurrent canals $\\to$ Flagellated chambers $\\to$ Excurrent canals $\\to$ Osculum."
+      },
+      {
+        "id": 28,
+        "unit": "V",
+        "question": "Parasitic adaptations in Taenia",
+        "answerKey": "1. **Taenia (Tapeworm) Adaptations**:\n- **Morphological**: Scolex with hooks and suckers for attachment; thick protective tegument resisting host digestive enzymes; complete loss of digestive system (nutrients absorbed directly through body surface).\n- **Physiological**: Anaerobic respiration; high reproductive capacity (proglottid maturation and self-fertilization)."
+      },
+      {
+        "id": 29,
+        "unit": "V",
+        "question": "The correct sequence of larval stages in the development of Fasciola is Miracidia, Radiae, Sporocyst, Metacercaria and Cercaria.",
+        "answerKey": "1. **Life History of Fasciola hepatica**: Digenetic parasite (primary host: sheep/cattle; secondary host: snail *Lymnaea*).\n2. **Larval Stages**:\n- **Miracidium**: Free-swimming ciliated larva, enters snail.\n- **Sporocyst**: Sac-like structure inside snail, produces Rediae.\n- **Redia**: Has mouth and gut, produces Cercariae.\n- **Cercaria**: Free-swimming tadpole-like larva, leaves snail and encysts on vegetation.\n- **Metacercaria**: Encysted infective stage ingested by sheep."
+      },
+      {
+        "id": 30,
+        "unit": "V",
+        "question": "Discuss the structure and significance of Trochophore larva in Annelida.",
+        "answerKey": "1. **Trochophore Larva**: Free-swimming, pear-shaped ciliated larval form characteristic of marine annelids and molluscs.\n2. **Features**: Has an apical tuft of sensory cilia at the top, a band of cilia (prototroch) for locomotion and feeding, a complete digestive tract (mouth, stomach, anus), and protonephridia."
+      },
+      {
+        "id": 31,
+        "unit": "V",
+        "question": "Describe water vascular system of starfish and mention the role of this system in its life.",
+        "answerKey": "1. **Water Vascular (Ambulacral) System**: Specialized hydrostatic system in starfish (Echinodermata) used for locomotion, respiration, and food capture.\n2. **Pathway of Water**:\n- Madreporite $\\to$ Stone canal $\\to$ Ring canal $\\to$ Radial canals (along arms) $\\to$ Lateral canals $\\to$ Tube feet.\n3. **Tube Feet Mechanism**:\n- Each tube foot has an **ampulla** (muscular sac) and a **podium** (sucker).\n- Contraction of the ampulla forces water into the podium, extending it. Contact with substratum and retraction pulls the animal forward."
+      },
+      {
+        "id": 32,
+        "unit": "V",
+        "question": "Theories of origin of Metazoa",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 33,
+        "unit": "V",
+        "question": "In Fasciola the germ cells of Cercaria gives rise to Metacercaria.",
+        "answerKey": "1. **Life History of Fasciola hepatica**: Digenetic parasite (primary host: sheep/cattle; secondary host: snail *Lymnaea*).\n2. **Larval Stages**:\n- **Miracidium**: Free-swimming ciliated larva, enters snail.\n- **Sporocyst**: Sac-like structure inside snail, produces Rediae.\n- **Redia**: Has mouth and gut, produces Cercariae.\n- **Cercaria**: Free-swimming tadpole-like larva, leaves snail and encysts on vegetation.\n- **Metacercaria**: Encysted infective stage ingested by sheep."
+      },
+      {
+        "id": 34,
+        "unit": "V",
+        "question": "Describe the different types of canal system in sponges with neat diagrams.",
+        "answerKey": "1. **Canal System Concept**: Unique water circulation system in sponges (Phylum Porifera) essential for food gathering, respiration, and excretion.\n2. **Asconoid System** (Simplest):\n- Path: Ostia $\\to$ Spongocoel (lined with choanocytes) $\\to$ Osculum.\n3. **Syconoid System**:\n- Path: Incurrent canals $\\to$ Prosopyles $\\to$ Radial canals (lined with choanocytes) $\\to$ Apopyles $\\to$ Spongocoel $\\to$ Osculum.\n4. **Leuconoid System** (Most complex):\n- Path: Incurrent canals $\\to$ Flagellated chambers $\\to$ Excurrent canals $\\to$ Osculum."
+      },
+      {
+        "id": 35,
+        "unit": "V",
+        "question": "Explain the life history and larval stages of Fasciola hepatica.",
+        "answerKey": "1. **Life History of Fasciola hepatica**: Digenetic parasite (primary host: sheep/cattle; secondary host: snail *Lymnaea*).\n2. **Larval Stages**:\n- **Miracidium**: Free-swimming ciliated larva, enters snail.\n- **Sporocyst**: Sac-like structure inside snail, produces Rediae.\n- **Redia**: Has mouth and gut, produces Cercariae.\n- **Cercaria**: Free-swimming tadpole-like larva, leaves snail and encysts on vegetation.\n- **Metacercaria**: Encysted infective stage ingested by sheep."
+      },
+      {
+        "id": 36,
+        "unit": "V",
+        "question": "Illustrate the structure of Euglena viridis and describe its movement.",
+        "answerKey": "1. **Structure of Euglena viridis**: Unicellular flagellate protist. Spindle-shaped body with a flexible proteinaceous **pellicle**.\n2. **Key Organelles**:\n- **Flagellum**: Long hair-like structure emerging from the reservoir for locomotion.\n- **Stigma (Eyespot)**: Red-pigmented photoreceptor for phototaxis.\n- **Contractile Vacuole**: Osmo-regulation.\n- **Chloroplasts**: Perform photosynthesis in light.\n3. **Locomotion**:\n- **Flagellar**: Propulsive movement by flagellum.\n- **Euglenoid movement (Metaboly)**: Peristaltic wave of contraction and expansion of the body."
+      },
+      {
+        "id": 37,
+        "unit": "V",
+        "question": "Give a detailed account of male and female reproductive systems of Palaemon.",
+        "answerKey": "1. **Reproductive System of Palaemon (Prawn)**: Dioecious (separate sexes).\n2. **Male System**:\n- Pair of elongated testes located above the hepato-pancreas.\n- Vas deferens carries sperm to seminal vesicles.\n- Sperms are released via male genital pores on 5th walking legs.\n3. **Female System**:\n- Pair of crescent-shaped ovaries.\n- Oviducts open via female genital pores on 3rd walking legs.\n- Fertilization is external, and females carry eggs on their pleopods."
+      },
+      {
+        "id": 38,
+        "unit": "V",
+        "question": "Describe the water vascular system of starfish and its role in locomotion.",
+        "answerKey": "1. **Water Vascular (Ambulacral) System**: Specialized hydrostatic system in starfish (Echinodermata) used for locomotion, respiration, and food capture.\n2. **Pathway of Water**:\n- Madreporite $\\to$ Stone canal $\\to$ Ring canal $\\to$ Radial canals (along arms) $\\to$ Lateral canals $\\to$ Tube feet.\n3. **Tube Feet Mechanism**:\n- Each tube foot has an **ampulla** (muscular sac) and a **podium** (sucker).\n- Contraction of the ampulla forces water into the podium, extending it. Contact with substratum and retraction pulls the animal forward."
+      }
+    ]
+  },
+  "zobmj52": {
+    "id": "zobmj52",
+    "title": "Functional Anatomy of Chordates",
+    "module": "ZOOMJ52",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Explain the evolution of cerebellum in vertebrates.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "The oviduct is modified Wolffian duct in vertebrates.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Mammalian lungs are structurally similar to avian lungs and have more efficient system of oxygen transport.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Bipartite and Bicornuate uterus.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Muscle contraction consists of the cyclic attachment and detachment of the: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Dermatocranium forms the jaws in gnathostomes.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Between trachea and alveolar sacs, airways divide 20 times and the first 16 generations of passages form the conducting zone of the airways.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Answer the following parts: \\begin{parts} \\item Answer whether the given statements are True or False with 2-3 lines justification:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 9,
+        "unit": "II",
+        "question": "Answer whether the given statements are True or False with 2-3 lines justification: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 10,
+        "unit": "II",
+        "question": "Answer the following parts: \\begin{parts} \\item Indicate whether the following statements are True or False. Justify your answer precisely:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Tree like arborescent organs act as accessory respiratory organ in Anabas.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Hepatic portal system.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 13,
+        "unit": "III",
+        "question": "Compare cross-current and counter-current mechanism of gaseous exchange with suitable examples and well-labelled diagram.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 14,
+        "unit": "III",
+        "question": "State whether the following statements are True or False. Justify your answers in 1 or 2 sentences each: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 15,
+        "unit": "III",
+        "question": "$\\beta$-chains of oxy-haemoglobin",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Select and write the most suitable answer for the following:{2} = 1$} \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 17,
+        "unit": "IV",
+        "question": "Cholesterol is composed of more than one fatty acids.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 18,
+        "unit": "IV",
+        "question": "Describe (in diagrammatic form only) four step events of chain elongation during prokaryotic protein synthesis.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 19,
+        "unit": "IV",
+        "question": "tropomyosin to G-actin",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 20,
+        "unit": "IV",
+        "question": "What are aortic arches? How are they modified in Reptilia and Aves? Explain its evolutionary advantage in these classes.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 21,
+        "unit": "V",
+        "question": "Indicate whether the following statements are True or False. Justify your answer precisely: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 22,
+        "unit": "V",
+        "question": "myosin head to G-actin",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 23,
+        "unit": "V",
+        "question": "$\\beta$-chains of deoxyhaemoglobin",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 24,
+        "unit": "V",
+        "question": "With the help of neat labelled diagrams, explain different types of jaw suspensorium in vertebrates.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 25,
+        "unit": "V",
+        "question": "Restriction endonucleases.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 26,
+        "unit": "V",
+        "question": "Ceruminous glands are modified Sudoriferous glands.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 27,
+        "unit": "V",
+        "question": "Write the reactions producing FADH$_2$ and GTP during the TCA cycle.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 28,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Select and write the most suitable answer for the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 29,
+        "unit": "V",
+        "question": "Walls of afferent arteries contain rennin-secreting juxtaglomerular cells.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 30,
+        "unit": "V",
+        "question": "`Shine Dalgarno' sequences determine initiation of prokaryotic transcription.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 31,
+        "unit": "V",
+        "question": "Cycloid scales are derived from lamellar bone component.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 32,
+        "unit": "V",
+        "question": "Give an account of different types of kidney tubules in vertebrates.",
+        "answerKey": "1. **Nephron Structure**: Structural and functional unit of kidney. Comprises Bowman's capsule, Glomerulus (filtration), PCT, Loop of Henle, DCT, and Collecting duct.\n2. **Counter-Current Multiplier System**:\n- Maintained by the Loop of Henle and **Vasa Recta**.\n- Descending limb is permeable to water, concentrating the filtrate. Ascending limb actively pumps out NaCl, diluting the filtrate and building a hyper-osmotic renal medullary interstitium.\n- This allows collecting ducts to reabsorb water, producing concentrated urine."
+      },
+      {
+        "id": 33,
+        "unit": "V",
+        "question": "Explain the following in brief:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 34,
+        "unit": "V",
+        "question": "ATP to actin-myosin complex",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 35,
+        "unit": "V",
+        "question": "In human, Hering-Breuer reflex is not activated until tidal volume increases to greater than around 1.5 L.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 36,
+        "unit": "V",
+        "question": "Hepatic portal system",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 37,
+        "unit": "V",
+        "question": "Construct LB-plot of the enzyme kinetics.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 38,
+        "unit": "V",
+        "question": "Name and describe the functional kidney found in amniotes. Describe the urinogenital system and their ducts in male and female vertebrates with well-labelled diagram.",
+        "answerKey": "1. **Nephron Structure**: Structural and functional unit of kidney. Comprises Bowman's capsule, Glomerulus (filtration), PCT, Loop of Henle, DCT, and Collecting duct.\n2. **Counter-Current Multiplier System**:\n- Maintained by the Loop of Henle and **Vasa Recta**.\n- Descending limb is permeable to water, concentrating the filtrate. Ascending limb actively pumps out NaCl, diluting the filtrate and building a hyper-osmotic renal medullary interstitium.\n- This allows collecting ducts to reabsorb water, producing concentrated urine."
+      },
+      {
+        "id": 39,
+        "unit": "V",
+        "question": "$\\alpha$-chains of deoxyhaemoglobin",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 40,
+        "unit": "V",
+        "question": "Opisthonephros is also called head kidney due to its anterior position.",
+        "answerKey": "1. **Nephron Structure**: Structural and functional unit of kidney. Comprises Bowman's capsule, Glomerulus (filtration), PCT, Loop of Henle, DCT, and Collecting duct.\n2. **Counter-Current Multiplier System**:\n- Maintained by the Loop of Henle and **Vasa Recta**.\n- Descending limb is permeable to water, concentrating the filtrate. Ascending limb actively pumps out NaCl, diluting the filtrate and building a hyper-osmotic renal medullary interstitium.\n- This allows collecting ducts to reabsorb water, producing concentrated urine."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Illustrate arrangement of ETS at inner mitochondrial membrane.",
+        "answerKey": "1. **Structure**: Double-membraned organelle. Outer membrane is smooth; inner membrane is folded into **cristae** containing ATP synthase complexes (F0-F1 particles).\n2. **Function**: Powerhouse of the cell. Site of aerobic cellular respiration, including Krebs cycle (matrix) and Electron Transport Chain (inner membrane).\n3. **Semiautonomous nature**: Possesses circular DNA and 70S ribosomes."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Secodont condition and Lophodont condition",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Digital cornifications",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item State whether the following statements are True or False. Justify your answers in 1 or 2 sentences each:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Illustrate the general features of integument in aquatic vertebrates. How does the organisation of the integument in these organisms (such as sharks) allow lateral bending of the body without distorting the body shape?",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Describe the evolution of jaws in gnathostomes highlighting the suitable modifications in structure and their advantages.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Formation of ES complex is a compulsory step of enzyme catalysis.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "$\\alpha$-chains of oxy-haemoglobin",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Describe the role of respiratory muscles in breathing.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Illustrate stepwise formation of transcription initiation complex for RNA pol II activity.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 51,
+        "unit": "V",
+        "question": "Amphicoelous vertebra",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 52,
+        "unit": "V",
+        "question": "Answer the following parts:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 53,
+        "unit": "V",
+        "question": "In Agnathans gill system also function as a food-collecting system.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 54,
+        "unit": "V",
+        "question": "One DNA Pol-III complex catalyzes DNA synthesis simultaneously at both strands of the parental DNA.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 55,
+        "unit": "V",
+        "question": "What are the different types of synapse? Describe the process of nerve impulse propagation in a myelinated nerve-fiber.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 56,
+        "unit": "V",
+        "question": "With the help of a neat diagram, depict the different compartments of a ruminant stomach and their characteristics. Explain the mechanism behind the passage of food through these compartments.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 57,
+        "unit": "V",
+        "question": "Describe the role of pancreatic juice in digestion of proteins and carbohydrates.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 58,
+        "unit": "V",
+        "question": "What are aortic arches? Give an account of modifications in aortic arches from elasmobranchs to anurans with the help of neat labelled diagrams.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 59,
+        "unit": "V",
+        "question": "Describe the role of Ca$^{2+}$ during muscle contraction with suitable diagrams.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 60,
+        "unit": "V",
+        "question": "Crescent shaped cusps are characterised by Lophodont dentition.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 61,
+        "unit": "V",
+        "question": "Give an illustrated account of gill system in shark.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 62,
+        "unit": "V",
+        "question": "globular head portion of myosin to the F-actin filament",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 63,
+        "unit": "V",
+        "question": "Describe the anatomical structure and affinities of Balanoglossus.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 64,
+        "unit": "V",
+        "question": "Explain retrogressive metamorphosis in Herdmania with diagrams.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 65,
+        "unit": "V",
+        "question": "Give a comparative account of the brain of different vertebrates.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 66,
+        "unit": "V",
+        "question": "Describe the respiratory system and mechanism of flight in birds.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 67,
+        "unit": "V",
+        "question": "Explain the origin, evolution and classification of mammals.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      }
+    ]
+  },
+  "zobmj53": {
+    "id": "zobmj53",
+    "title": "Biochemistry and Molecular Biology",
+    "module": "ZOOMJ53",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "DNA-polymerase-$\\gamma$ and DNA-polymerase-$\\delta$.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "In sea urchin, cleavage is: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Discuss the following: \\begin{parts} \\item Write one cycle of sequence of reactions of a peptide with the Edman's reagent.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Describe the mechanism of induction and determination during vertebrate eye formation.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Write one cycle of sequence of reactions of a peptide with the Edman's reagent.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Gastrin is secreted from: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "With the help of well-labeled diagrams, explain the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Cholesterol \\begin{center} \\begin{tikzpicture}[scale=0.5, >=Stealth] % Ring A \\draw[thick] (0,2) -- (1.5,3) -- (3,2) -- (3,0) -- (1.5,-1) -- (0,0) -- cycle; \\node at (1.5,1) {A}; \\draw[thick] (0,0) -- (-1,-0.5) node[left] {HO}; % Ring B \\draw[thick] (3,2) -- (4.5,3) -- (6,2) -- (6,0) -- (4.5,-1) -- (3,0); \\node at (4.5,1) {B}; % Ring C \\draw[thick] (6,2) -- (7.5,3.5) -- (9,2.5) -- (9,0.5) -- (7.5,-1) -- (6,0); \\node at (7.5,1.2) {C}; % Ring D \\draw[thick] (9,2.5) -- (10.5,3) -- (11.5,1.5) -- (10.2,0) -- (9,0.5); \\node at (9.9,1.3) {D}; % Methyl groups \\draw[thick] (3,2) -- (3,3.5) node[above] {CH$_3$}; \\draw[thick] (9,2.5) -- (9,4.0) node[above] {CH$_3$}; % Side chain \\draw[thick] (10.5,3) -- (11.5,4.2) -- (13,4.2) -- (14,5.4) -- (15.5,5.4) node[right] {CH(CH$_3$)(CH$_2$)$_3$CH(CH$_3$)$_2$}; \\end{tikzpicture} \\end{center}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 9,
+        "unit": "II",
+        "question": "Illustrate the organization of the pyruvate dehydrogenase complex and its functions.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 10,
+        "unit": "II",
+        "question": "$(\\text{pK}_1 + \\text{pK}_2)/2$ is a common formulae to calculate pI of all types of $\\alpha$-amino acids.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Explain the primary level structural constraints of protein folding and the mechanism by which a protein undergoes the folding process.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Animal cells have stored glycogen rather than starch.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 13,
+        "unit": "III",
+        "question": "Write pay-off reactions of the glycolytic pathway.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 14,
+        "unit": "III",
+        "question": "Describe the roles of RNA-bound and RNA-free protein complexes in spliceosome mediated splicing.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 15,
+        "unit": "III",
+        "question": "State whether the following statements are True or False. Give brief justification for your answer: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Answer the following parts: \\begin{parts} \\item Compare stabilization of $\\alpha$-helix and $\\beta$-pleated sheet structures of polypeptides.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 17,
+        "unit": "IV",
+        "question": "Differentiate between the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 18,
+        "unit": "IV",
+        "question": "Answer the following parts: \\begin{parts} \\item Represent steps of one cycle of Edman's reaction with a polypeptide chain.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 19,
+        "unit": "IV",
+        "question": "Describe initiation of replication in eukaryotes with a suitable diagram. \\begin{center} \\begin{tikzpicture}[scale=0.8, >=Stealth, every node/.style={font=\\footnotesize}] % Parental DNA strands \\draw[very thick, gray] (-5, 0.8) to[out=0, in=180] (-3, 0.8); \\draw[very thick, gray] (-5, -0.8) to[out=0, in=180] (-3, -0.8); % Replication bubble \\draw[very thick, blue] (-3, 0.8) to[out=30, in=150] (0, 2) to[out=-30, in=210] (3, 0.8); \\draw[very thick, blue] (-3, -0.8) to[out=-30, in=-150] (0, -2) to[out=30, in=-210] (3, -0.8); \\draw[very thick, gray] (3, 0.8) -- (5, 0.8); \\draw[very thick, gray] (3, -0.8) -- (5, -0.8); % Origin of replication \\draw[dashed, red, thick] (0, 2.2) -- (0, -2.2) node[below] {Origin of Replication (Ori)}; % MCM Helicase \\draw[fill=yellow!60, draw=yellow!80!black, thick] (-3, 0) circle (0.35) node {MCM}; \\draw[fill=yellow!60, draw=yellow!80!black, thick] (3, 0) circle (0.35) node {MCM}; % Direction of unwinding \\draw[->, thick] (-2.5, 0) -- (-3.5, 0); \\draw[->, thick] (2.5, 0) -- (3.5, 0); % RNA Primers and New Strands \\draw[red, very thick] (-1, 1.4) -- (-2, 1.1) node[midway, above] {Primer}; \\draw[green!60!black, ->, very thick] (-1, 1.4) -- (-0.2, 1.6); \\draw[red, very thick] (0.5, -1.5) -- (0, -1.6); \\draw[green!60!black, ->, very thick] (0, -1.6) -- (-2.2, -0.9); \\end{tikzpicture} \\end{center}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 20,
+        "unit": "IV",
+        "question": "Answer the following parts: \\begin{parts} \\item Explain chemiosmotic concept of ATP synthesis.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 21,
+        "unit": "V",
+        "question": "Hypophysial portal vessel is a vascular link between median eminence and pars distalis.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 22,
+        "unit": "V",
+        "question": "Smooth muscle relaxation",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 23,
+        "unit": "V",
+        "question": "Represent the transcription initiation complex on Promoter Type-II.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 24,
+        "unit": "V",
+        "question": "CPSF facilitates initiation of end replication of DNA.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 25,
+        "unit": "V",
+        "question": "Describe compositions and functions of the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 26,
+        "unit": "V",
+        "question": "Describe the mechanism of Hormonal control of amphibian metamorphosis.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 27,
+        "unit": "V",
+        "question": "B-DNA and A-DNA are covalently closed circular DNA.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 28,
+        "unit": "V",
+        "question": "The primitive streak is derived from the anterior epiblast cells and central cells of the posterior marginal zone.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 29,
+        "unit": "V",
+        "question": "Answer the following: \\begin{parts} \\item Indicating all possible details, illustrate the chemiosmotic theory of oxidative phosphorylation.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 30,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item State whether the following statements are True or False, giving brief reasons within 3--4 lines:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 31,
+        "unit": "V",
+        "question": "Formation of pre-initiation complex at promoter for RNA Pol II",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 32,
+        "unit": "V",
+        "question": "pI of an acidic amino acid is determined by $\\text{pI} = (\\text{pK}_1 + \\text{pK}_2 + \\text{pK}_{\\text{R}})/3$.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 33,
+        "unit": "V",
+        "question": "Gastrulation in sea urchin",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 34,
+        "unit": "V",
+        "question": "Compare stabilization of $\\alpha$-helix and $\\beta$-pleated sheet structures of polypeptides.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 35,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item State whether the following statements are True or False with brief justification:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 36,
+        "unit": "V",
+        "question": "Regulatory enzymes kinetics show a hyperbola curve.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 37,
+        "unit": "V",
+        "question": "Not bound to any proteins",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 38,
+        "unit": "V",
+        "question": "State whether the following statements are True or False, giving brief reasons within 3--4 lines: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 39,
+        "unit": "V",
+        "question": "Carnitine shuttle aids in oxidative phosphorylation.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 40,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Write whether the following statements are True or False. Justify your answer:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Vaginal smear shows mainly leucocytes during oestrus phase of the oestrous cycle.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "SeqA binds to RNA to initiate transcription.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Cloning and Expression vectors",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Write whether the following statements are True or False. Justify your answer: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "CPSF inhibits capping of RNA.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item State whether the following statements are True or False. Give brief justification for your answer:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "SD-sequences help in transcription.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Cerebrosides are derivatives of sphingolipids.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Discuss morphogenetic gradients in sea urchin eggs.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Explain the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 51,
+        "unit": "V",
+        "question": "A disulphide bond in a protein is generated between a cys and a met residue.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 52,
+        "unit": "V",
+        "question": "Answer the following: \\begin{parts} \\item Write the chemical reactions representing oxidative decarboxylation during Krebs cycle.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 53,
+        "unit": "V",
+        "question": "Both contraction and relaxation of smooth muscles",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 54,
+        "unit": "V",
+        "question": "A sigmoidal kinetics is shown by a multimeric enzyme.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 55,
+        "unit": "V",
+        "question": "Describe the biological actions of Testosterone and regulation of its secretion in the testis.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 56,
+        "unit": "V",
+        "question": "Indicating all possible details, illustrate the chemiosmotic theory of oxidative phosphorylation. \\begin{center} \\begin{tikzpicture}[scale=0.9, >=Stealth, every node/.style={font=\\small}] % Membranes (IMM) \\draw[fill=gray!10, draw=gray, thick] (-5, 1.5) rectangle (5, 2.3); \\node[left] at (-5, 1.9) {IMM}; % Compartments \\node[above] at (0, 2.5) {Intermembrane Space (High $\\text{H^+$)}}; \\node[below] at (0, 0.5) {Mitochondrial Matrix (Low $\\text{H^+$)}}; % Proton pump arrows \\draw[->, ultra thick, red!80!black] (-3.5, 1.2) -- (-3.5, 2.6) node[above] {$\\text{H}^+$}; \\draw[->, ultra thick, red!80!black] (-1.5, 1.2) -- (-1.5, 2.6) node[above] {$\\text{H}^+$}; \\draw[->, ultra thick, red!80!black] (1.5, 1.2) -- (1.5, 2.6) node[above] {$\\text{H}^+$}; % Complexes \\draw[fill=blue!20, draw=blue!50!black, rounded corners, thick] (-4, 1.3) rectangle (-3, 2.5) node[pos=0.5, align=center] {Complex I}; \\draw[fill=blue!20, draw=blue!50!black, rounded corners, thick] (-2, 1.3) rectangle (-1, 2.5) node[pos=0.5, align=center] {Complex III}; \\draw[fill=blue!20, draw=blue!50!black, rounded corners, thick] (1, 1.3) rectangle (2, 2.5) node[pos=0.5, align=center] {Complex IV}; % Electron flow \\draw[->, dashed, ultra thick, orange] (-4.2, 1.7) to[out=30,in=150] (-3.5, 1.7) to[out=-30,in=210] (-2.5, 1.7) to[out=30,in=150] (-1.5, 1.7) to[out=-30,in=210] (0, 1.7) to[out=30,in=150] (1.5, 1.7) node[right, black] {$e^-$}; % ATP Synthase \\draw[fill=green!20, draw=green!50!black, thick] (3.2, 1.5) rectangle (3.8, 2.3) node[pos=0.5] {$F_o$}; \\draw[fill=green!20, draw=green!50!black, thick] (3.5, 1.5) -- (3.5, 0.9); \\draw[fill=green!30, draw=green!50!black, circle, thick] (3.5, 0.6) circle (0.45) node {$F_1$}; % Proton flow \\draw[->, ultra thick, blue!80!black] (3.5, 2.5) -- (3.5, 1.5) to[out=-90, in=90] (3.8, 1.1) to[out=-90, in=0] (3.5, 0.2) node[below] {$\\text{H}^+$}; % Reaction \\node[left] at (2.8, 0.6) {$\\text{ADP} + \\text{P}_i$}; \\draw[->, thick] (2.8, 0.6) -- (3.0, 0.6); \\node[right] at (4.0, 0.6) {$\\text{ATP}$}; \\end{tikzpicture} \\end{center}",
+        "answerKey": "1. **Structure**: Double-membraned organelle. Outer membrane is smooth; inner membrane is folded into **cristae** containing ATP synthase complexes (F0-F1 particles).\n2. **Function**: Powerhouse of the cell. Site of aerobic cellular respiration, including Krebs cycle (matrix) and Electron Transport Chain (inner membrane).\n3. **Semiautonomous nature**: Possesses circular DNA and 70S ribosomes."
+      },
+      {
+        "id": 57,
+        "unit": "V",
+        "question": "Mechanism of termination of translation in prokaryotes.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 58,
+        "unit": "V",
+        "question": "Magnesium and potassium act as the initiator of the cortical granule reaction.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 59,
+        "unit": "V",
+        "question": "State whether the following statements are True or False with brief justification: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 60,
+        "unit": "V",
+        "question": "No effect on smooth muscle",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 61,
+        "unit": "V",
+        "question": "The cells of outer layer of optic cup proliferates and generates light sensitive photo receptor neurons.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 62,
+        "unit": "V",
+        "question": "Primosome and Replisome.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 63,
+        "unit": "V",
+        "question": "Represent steps of one cycle of Edman's reaction with a polypeptide chain.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 64,
+        "unit": "V",
+        "question": "With the help of at least two examples, justify the statement, ``Quaternary structure provides functional diversity to the protein''.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 65,
+        "unit": "V",
+        "question": "Explain chemiosmotic concept of ATP synthesis.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 66,
+        "unit": "V",
+        "question": "Smooth muscle contraction",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 67,
+        "unit": "V",
+        "question": "Thyroxine-binding globulin",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 68,
+        "unit": "V",
+        "question": "Answer the following: \\begin{parts} \\item Illustrate the organization of the pyruvate dehydrogenase complex and its functions.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 69,
+        "unit": "V",
+        "question": "Using Lineweaver-Burk equation, justify all the kinetic parameters shown in the LB plot.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 70,
+        "unit": "V",
+        "question": "Sea urchin fertilization",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 71,
+        "unit": "V",
+        "question": "LB plot helps in better determination of the kinetics parameters of an enzyme. \\begin{center} \\begin{tikzpicture}[scale=1.1, >=Stealth] % Axes \\draw[->, thick] (-3.5,0) -- (4,0) node[right] {$\\frac{1}{[\\text{S}]}$}; \\draw[->, thick] (0,-0.5) -- (0,4) node[above] {$\\frac{1}{v_0}$}; % Plot line \\draw[ultra thick, blue!70!black] (-2.5, 0.3) -- (3, 3.6); % Important points \\filldraw[red!80!black] (-2.0,0) circle (2pt); \\node[below left, red!80!black] at (-2.0,0) {$-\\frac{1}{K_m}$}; \\filldraw[red!80!black] (0,1.2) circle (2pt); \\node[above right, red!80!black] at (0,1.2) {$\\frac{1}{V_{\\max}}$}; % Slope indicator \\draw[<->, thick, gray] (1, 1.8) -- (2, 1.8) -- (2, 2.4); \\node[right] at (2, 2.1) {$\\text{Slope} = \\frac{K_m}{V_{\\max}}$}; \\node[below right] at (0,0) {$0$}; \\end{tikzpicture} \\end{center}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 72,
+        "unit": "V",
+        "question": "Artificially imposed electrochemical gradient can help in ATP synthesis in vitro in absence of succinate and oxygen.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 73,
+        "unit": "V",
+        "question": "Write de-carboxylation reactions of the TCA cycle.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 74,
+        "unit": "V",
+        "question": "$\\alpha$-helix of a protein is stabilized mainly by intrachain disulphide bonds.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 75,
+        "unit": "V",
+        "question": "Illustrate the process of initiation of translation in eukaryotes.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 76,
+        "unit": "V",
+        "question": "HDL are known as ``good cholesterol''.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 77,
+        "unit": "V",
+        "question": "Write the chemical reactions representing oxidative decarboxylation during Krebs cycle.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 78,
+        "unit": "V",
+        "question": "Uncompetitive and Non-Competitive enzyme inhibition.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 79,
+        "unit": "V",
+        "question": "Diabetes insipidus is caused due to deficiency of relaxin.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 80,
+        "unit": "V",
+        "question": "Explain the regulation of glucocorticoid secretion. Why is the glucocorticoid essential for adrenaline synthesis? Comment upon General Adaptation Syndrome.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 81,
+        "unit": "V",
+        "question": "Answer the following parts:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 82,
+        "unit": "V",
+        "question": "Answer the following: \\begin{parts} \\item Explain the primary level structural constraints of protein folding and the mechanism by which a protein undergoes the folding process.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 83,
+        "unit": "V",
+        "question": "Describe the classification, structure and properties of proteins.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 84,
+        "unit": "V",
+        "question": "Explain the double helical structure of DNA and its replication.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 85,
+        "unit": "V",
+        "question": "Describe the process of transcription and RNA processing in eukaryotes.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 86,
+        "unit": "V",
+        "question": "Explain the mechanism of translation and genetic code features.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 87,
+        "unit": "V",
+        "question": "Describe the regulation of gene expression in prokaryotes (lac operon).",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      }
+    ]
+  },
+  "zobmj54": {
+    "id": "zobmj54",
+    "title": "Biotechniques",
+    "module": "ZOOMJ54",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "In gel electrophoresis, the detergent sodium dodecyl is used to: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "The electrochemical potential between two liquids is measured by pH meter.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Bright field and Dark field microscope",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Answer the following parts: \\begin{parts} \\item Select and write the best options in the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "$\\text{R}_{\\text{f}}$ value",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Geiger-Muller counter can detect only beta particles.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "SEM produces more resolution than TEM.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Differential centrifugation is based on the difference in the size of biological particles of different densities.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 9,
+        "unit": "II",
+        "question": "Ethidium bromide is commonly used to detect proteins in PAGE.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 10,
+        "unit": "II",
+        "question": "Describe the general composition of cell culture media. Comment upon their uses and significance.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "In SDS-PAGE, acrylamide determines \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Write down the procedure of DNA extraction using mammalian tissue. Describe the principle and application of DNA-gel electrophoresis.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 13,
+        "unit": "III",
+        "question": "Describe different types of animal cell culture. Write down a stepwise procedure to initiate culture from animal tissues.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 14,
+        "unit": "III",
+        "question": "Describe briefly the hematoxylin and eosin staining methods of paraffin-embedded tissue sections.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 15,
+        "unit": "III",
+        "question": "DMSO is not required in culture medium during cryopreservation.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "relative centrifugal force",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 17,
+        "unit": "IV",
+        "question": "Select and write the best options in the following: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 18,
+        "unit": "IV",
+        "question": "Describe with a labeled diagram, the working principles and applications of the fluorescence microscope.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 19,
+        "unit": "IV",
+        "question": "Select and write the best options in the following:{2} = 2$} \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 20,
+        "unit": "IV",
+        "question": "Write down the principle of centrifugation. Discuss the applications of analytical centrifugation.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 21,
+        "unit": "V",
+        "question": "Paper and Thin layer chromatography",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 22,
+        "unit": "V",
+        "question": "Critical point drying",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 23,
+        "unit": "V",
+        "question": "50 ml formaldehyde (10\\%) and 50 ml distilled water",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 24,
+        "unit": "V",
+        "question": "Define radioactivity. Explain the various methods used for the detection and measurement of radioactivity.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 25,
+        "unit": "V",
+        "question": "50 ml formaldehyde (40\\%) and 50 ml distilled water",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 26,
+        "unit": "V",
+        "question": "10 ml formaldehyde (10\\%) and 90 ml distilled water",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 27,
+        "unit": "V",
+        "question": "Describe in detail with labeled diagram the principle and application of phase-contrast microscope.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 28,
+        "unit": "V",
+        "question": "adjust the pH of protein",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 29,
+        "unit": "V",
+        "question": "What is microtomy? Enumerate the procedure for the preparation of histological HE stained slides.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 30,
+        "unit": "V",
+        "question": "Answer the following: \\begin{parts} \\item Write down the factors that affect the fixation of biological tissue samples.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 31,
+        "unit": "V",
+        "question": "What do you understand by electrophoretic mobility? Discuss the procedure of electrophoretic separation of nucleic acids.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 32,
+        "unit": "V",
+        "question": "In a phase-contrast microscope, the undiffracted or background light is retarded by the phase plate.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 33,
+        "unit": "V",
+        "question": "Write down the factors that affect the fixation of biological tissue samples.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 34,
+        "unit": "V",
+        "question": "Serum is not an important requirement for adherent cell culture.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 35,
+        "unit": "V",
+        "question": "The wavelength of electrons is dependent on the accelerating voltage.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 36,
+        "unit": "V",
+        "question": "electrophoretic mobility",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 37,
+        "unit": "V",
+        "question": "Spectrophotometer \\begin{center} \\begin{tikzpicture}[scale=0.85, >=Stealth, every node/.style={font=\\footnotesize}] % Light source \\draw[fill=yellow!20, draw=yellow!80!black, thick] (-5, 0) circle (0.4) node {Light}; \\draw[->, thick, orange] (-4.6, 0) -- (-3.4, 0); % Collimator Lens \\draw[fill=blue!10, draw=blue!50!black, thick] (-3.4, -0.6) to[out=45, in=-45] (-3.4, 0.6) to[out=225, in=135] (-3.4, -0.6) -- cycle; \\node[below=0.7cm] at (-3.4, 0) {Lens}; \\draw[->, thick, orange] (-3.2, 0) -- (-2, 0); % Monochromator Prism \\draw[fill=gray!20, draw=gray!80!black, thick] (-2, -0.6) -- (-1.2, 0.8) -- (-0.4, -0.6) -- cycle; \\node[above=0.8cm] at (-1.2, -0.6) {Prism}; % Light dispersion \\draw[thick, red] (-1.2, 0.1) -- (0.5, 0.2); \\draw[thick, green!60!black] (-1.2, 0.1) -- (0.5, 0.0); \\draw[thick, blue] (-1.2, 0.1) -- (0.5, -0.2); % Slit \\draw[ultra thick, black] (0.5, 0.5) -- (0.5, 0.1); \\draw[ultra thick, black] (0.5, -0.5) -- (0.5, -0.1); \\node[below=0.6cm] at (0.5, 0) {Slit}; % Selected wavelength \\draw[thick, green!60!black, ->] (0.5, 0) -- (1.5, 0); % Cuvette \\draw[fill=cyan!15, draw=cyan!80!black, thick] (1.5, -0.5) rectangle (2.5, 0.5) node[pos=0.5, align=center] {Sample Cuvette}; \\draw[thick, green!60!black, ->] (2.5, 0) -- (3.8, 0); % Detector \\draw[fill=gray!30, draw=black, thick] (3.8, -0.4) rectangle (4.6, 0.4) node[pos=0.5, align=center] {Photo- detector}; \\draw[->, thick] (4.6, 0) -- (5.5, 0); % Digital Display \\draw[fill=black!10, draw=black, thick] (5.5, -0.4) rectangle (7, 0.4) node[pos=0.5, align=center] {Digital Display}; \\end{tikzpicture} \\end{center}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 38,
+        "unit": "V",
+        "question": "10 ml formaldehyde (40\\%) and 90 ml distilled water",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 39,
+        "unit": "V",
+        "question": "make the protein positively charged",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 40,
+        "unit": "V",
+        "question": "make the protein negatively charged",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "What is radioactivity? Describe the measurement and safety aspects of radioactivity.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Write down the principle of centrifugation. Describe the various types of centrifuges used for the separation of biomolecules.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Describe the principles and applications of spectrophotometry.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Explain the technique and applications of PCR (Polymerase Chain Reaction).",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Describe the principles of agarose and polyacrylamide gel electrophoresis.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Explain the working and applications of chromatography techniques.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Describe the methods and applications of recombinant DNA technology.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      }
+    ]
+  },
+  "zobmj55": {
+    "id": "zobmj55",
+    "title": "Environmental Biology and Systematics",
+    "module": "ZOOMJ55",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Hexavalent chromium is not a pollutant and is beneficial to humans.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "DNA-DNA hybridization is a more reliable method to establish genetic similarity between two species than comparing their nucleotide sequences of certain common genes.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "What is a species? Discuss different types of species concepts and specify which one of the concepts finds maximum acceptance from biologists, giving the reasons for its acceptance.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Binomial nomenclature",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Energy flow is a multidirectional process.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "What is solid waste pollution? Describe various methods of solid waste management along with their advantages.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "The oceans are biological deserts.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Write whether the following statements are True or False. Justify your answer in 2-3 sentences each: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 9,
+        "unit": "II",
+        "question": "Write an essay on population characteristics.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 10,
+        "unit": "II",
+        "question": "Gross primary productivity",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Positive interactions",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Discuss various molecular techniques which are employed to identify different species of animals.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 13,
+        "unit": "III",
+        "question": "Answer the following parts: \\begin{parts} \\item Define the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 14,
+        "unit": "III",
+        "question": "State whether the following statements are true or false. Give brief justification: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 15,
+        "unit": "III",
+        "question": "Write an essay on the nature, structure, and attributes of a biological community.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Describe the principle and methods of soil conservation.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 17,
+        "unit": "IV",
+        "question": "Define air pollution. Describe its main sources, type of pollutants and its impact on the air pollution.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 18,
+        "unit": "IV",
+        "question": "Stratospheric ozone forms naturally and helps shield us from ultraviolet radiation of sunlight.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 19,
+        "unit": "IV",
+        "question": "Tribe comes between order and class of the taxonomic category.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 20,
+        "unit": "IV",
+        "question": "Invasive exotic species are the main threat to biodiversity.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 21,
+        "unit": "V",
+        "question": "Tribe is a lower taxonomic category that comes between genus and species.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 22,
+        "unit": "V",
+        "question": "Define the following: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 23,
+        "unit": "V",
+        "question": "Standing crop amounts living material in different tropic level.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 24,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Write whether the following statements are True or False. Justify your answer in 2-3 sentences each:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 25,
+        "unit": "V",
+        "question": "Frequency, abundance and density are the qualitative characteristics of a community.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 26,
+        "unit": "V",
+        "question": "Semicolon is always used in between author's name and the year.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 27,
+        "unit": "V",
+        "question": "What do you understand by Zoological classification? Describe the various kinds of Zoological classification.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 28,
+        "unit": "V",
+        "question": "Rain water is the major source of fresh water resource.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 29,
+        "unit": "V",
+        "question": "The transport of oxygen from lungs to other parts of the body is facilitated by carboxyhaemoglobin.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 30,
+        "unit": "V",
+        "question": "A paratype is a single specimen selected by the author of a species as its type.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 31,
+        "unit": "V",
+        "question": "Energy flow in ecosystem",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 32,
+        "unit": "V",
+        "question": "Biological species concept.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 33,
+        "unit": "V",
+        "question": "Morphological characters",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 34,
+        "unit": "V",
+        "question": "Discuss the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 35,
+        "unit": "V",
+        "question": "Write notes on the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 36,
+        "unit": "V",
+        "question": "Biodiversity conservation",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 37,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item State whether the following statements are true or false. Give brief justification:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 38,
+        "unit": "V",
+        "question": "Predation is a kind of interaction.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 39,
+        "unit": "V",
+        "question": "Discuss different level of biodiversity and also write about the main threats to biodiversity.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 40,
+        "unit": "V",
+        "question": "Write an essay on the aquatic ecosystems.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Phylogenetic tree \\begin{center} \\begin{tikzpicture}[scale=1.0, >=Stealth, every node/.style={font=\\small}] \\draw[thick] (0,0) -- (4,0); \\draw[thick] (1,0) -- (2,1) node[above] {Species A}; \\draw[thick] (2,0) -- (3.5,1.5); \\draw[thick] (2.8,0.8) -- (2.2,1.4) node[above] {Species B}; \\draw[thick] (3.5,1.5) -- (3,2) node[above] {Species C}; \\draw[thick] (3.5,1.5) -- (4,2) node[above] {Species D}; \\node[below] at (2,0) {Common Ancestor}; \\end{tikzpicture} \\end{center}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Typification is the grouping of objects or information based on similarities.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Define ecosystem and explain energy flow through different trophic levels.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Describe the various types of ecological adaptations in desert animals.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Explain the principles of animal taxonomy and taxonomic hierarchy.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Describe the concept of species and mechanisms of speciation.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Explain the impacts of global warming and ozone depletion on biodiversity.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      }
+    ]
+  },
+  "zobmj61": {
+    "id": "zobmj61",
+    "title": "Mammalian Physiology",
+    "module": "ZOOMJ61",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Explain the complete process of digestion, absorption and assimilation of major dietary carbohydrates.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "What is impedance match? Briefly explain how this is achieved.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Almost 50\\% of the digestion of amylase takes place in buccal cavity.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "State whether the following statements are True or False with proper justification: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Answer the following: \\begin{parts} \\item What is membrane potential? Explain, how this is achieved using a suitable diagram.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Explain, how deficiency of vitamin $\\text{B}_{12}$ may lead to Pernicious anaemia.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Counter-current mechanism is the main adaptation for the concentration of urine. Explain the mechanism emphasizing on the anatomical features of the loop of Henle and the role of ADH.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "What is the organ of Corti? Describe its structure and mechanism of function in hearing.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 9,
+        "unit": "II",
+        "question": "Answer the following parts: \\begin{parts} \\item State whether the following statements are True or False, giving reasons in 2--3 sentences:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 10,
+        "unit": "II",
+        "question": "Answer the following: \\begin{parts} \\item A person has met with an accident and has suffered heavy blood loss. Enumerate how the Renin-angiotensin-aldosterone system would respond to regulate blood pressure and fluid balance.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "What is Bohr's effect? Explain it by drawing a schematic graph representing the effect of $\\text{CO}_2$ on the oxygen binding affinity of haemoglobin. How is blood pH related to this phenomenon? \\begin{center} \\begin{tikzpicture}[scale=1.0, >=Stealth] \\draw[->, thick] (0,0) -- (6.5,0) node[right] {$P_{\\text{O}_2}\\text{ (mmHg)}$}; \\draw[->, thick] (0,0) -- (0,5.5) node[above] {$\\% \\text{ Hb Saturation}$}; \\foreach \\y/\\l in {1.25/25, 2.5/50, 3.75/75, 5.0/100} { \\draw (1pt,\\y) -- (-3pt,\\y) node[left, font=\\scriptsize] {\\l}; } \\foreach \\x/\\l in {1.2/20, 2.4/40, 3.6/60, 4.8/80, 6.0/100} { \\draw (\\x,1pt) -- (\\x,-3pt) node[below, font=\\scriptsize] {\\l}; } \\draw[ultra thick, blue] (0,0) to[out=25, in=230] (2.4, 3.0) to[out=50, in=190] (4.8, 4.8) to[out=10, in=180] (6.0, 5.0); \\node[blue, right] at (4.5, 4.2) {Normal pH (7.4)}; \\draw[ultra thick, red, dashed] (0,0) to[out=15, in=220] (2.8, 2.2) to[out=40, in=195] (5.0, 4.3) to[out=15, in=180] (6.0, 4.7); \\node[red, right] at (4.5, 2.6) {Low pH / High $\\text{CO}_2$}; \\node[red, right] at (4.5, 2.15) {(Bohr Effect)}; \\draw[->, ultra thick, black!60!green] (2.2, 2.8) -- (3.0, 2.3) node[midway, above right, font=\\scriptsize] {Shift}; \\end{tikzpicture} \\end{center}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Ostracoderms were primitive jawed vertebrates.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 13,
+        "unit": "III",
+        "question": "Describe the cellular content of platelets. How do they contribute towards the formation of a platelet plug?",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 14,
+        "unit": "III",
+        "question": "cGMP-gated Na channel in the cone cell is opened during scotopic vision.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 15,
+        "unit": "III",
+        "question": "What is membrane potential? Explain, how this is achieved using a suitable diagram. \\begin{center} \\begin{tikzpicture}[scale=0.9, >=Stealth, every node/.style={font=\\small}] \\draw[fill=gray!10, draw=gray, thick] (-4, 1.0) rectangle (4, 1.8); \\node at (0, 1.4) {Lipid Bilayer (Membrane)}; \\node[above] at (-2, 2.0) {ECF (Extracellular)}; \\node[above] at (2, 2.0) {High $\\text{Na}^+$, Low $\\text{K}^+$}; \\node[below] at (-2, 0.8) {ICF (Intracellular)}; \\node[below] at (2, 0.8) {Low $\\text{Na}^+$, High $\\text{K}^+$, $\\text{A}^-$}; \\draw[fill=orange!35, draw=orange!60!black, thick] (-2, 0.9) rectangle (-0.8, 1.9) node[pos=0.5, align=center, font=\\scriptsize] {$\\text{Na}^+/\\text{K}^+$ Pump}; \\draw[->, thick, red] (-1.8, 0.7) -- (-1.8, 2.1) node[above, font=\\scriptsize] {$3\\text{Na}^+$}; \\draw[<-, thick, blue] (-1.0, 0.7) -- (-1.0, 2.1) node[below, font=\\scriptsize] {$2\\text{K}^+$}; \\draw[fill=blue!30, draw=blue!60!black, thick] (1.5, 0.9) rectangle (2.5, 1.9) node[pos=0.5, align=center, font=\\scriptsize] {$\\text{K}^+$ Leak Channel}; \\draw[->, ultra thick, blue] (2.0, 0.7) -- (2.0, 2.1) node[above, font=\\scriptsize] {$\\text{K}^+$}; \\node[above, red] at (-3.5, 2.0) {++++}; \\node[below, blue] at (-3.5, 0.8) {----}; \\end{tikzpicture} \\end{center}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Draw a suitably labeled diagram of the human eye retina. Describe the basis of activation of rhodopsin and genesis of photoreceptor potential during dim light vision.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 17,
+        "unit": "IV",
+        "question": "Explain the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 18,
+        "unit": "IV",
+        "question": "State whether the following statements are True or False, giving reasons in 2--3 sentences: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 19,
+        "unit": "IV",
+        "question": "Afferent and Efferent branchial arteries",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 20,
+        "unit": "IV",
+        "question": "Role of amphibians in biological control.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 21,
+        "unit": "V",
+        "question": "Give an illustrated account of morphological and anatomical changes that have occurred during the course of vertebrate origin.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 22,
+        "unit": "V",
+        "question": "Answer the following: \\begin{parts} \\item Using a systemic representation, enumerate the events occurring at the neuromuscular junction. Explain, how the above events are associated with Myasthenia Gravis.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 23,
+        "unit": "V",
+        "question": "All the absorption of lipids takes place in small intestine.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 24,
+        "unit": "V",
+        "question": "Heterocoelous vertebra possesses convexities on both side.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 25,
+        "unit": "V",
+        "question": "Discuss the changes that have occurred in cerebral hemisphere from fishes to mammals.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 26,
+        "unit": "V",
+        "question": "The visual axis of the human eye crosses through optic disc during image formation.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 27,
+        "unit": "V",
+        "question": "A person has met with an accident and has suffered heavy blood loss. Enumerate how the Renin-angiotensin-aldosterone system would respond to regulate blood pressure and fluid balance.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 28,
+        "unit": "V",
+        "question": "ATPase action is associated with entire myosin filament.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 29,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item State whether the following statements are True or False with proper justification:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 30,
+        "unit": "V",
+        "question": "Transport of sodium ions across luminal membrane involves only antiport transport mechanism.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 31,
+        "unit": "V",
+        "question": "Answer the following: \\begin{parts} \\item Arrange the respiratory quotients of proteins, carbohydrates and lipids in increasing order and explain the reason behind this difference. Can there be a metabolic situation where the respiratory quotient is more than 1.0? If yes, mention it. If no, explain why.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 32,
+        "unit": "V",
+        "question": "Answer the following: \\begin{parts} \\item Explain the complete process of digestion, absorption and assimilation of major dietary carbohydrates.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 33,
+        "unit": "V",
+        "question": "The initial phase of the repolarization event in the action potential is achieved by opening of the voltage-gated potassium channel.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 34,
+        "unit": "V",
+        "question": "Proteins are completely broken into amino acids before absorption.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 35,
+        "unit": "V",
+        "question": "Mullerian and Wolffian ducts",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 36,
+        "unit": "V",
+        "question": "Spiral valve in the intestine is found in shark fishes.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 37,
+        "unit": "V",
+        "question": "Arrange the respiratory quotients of proteins, carbohydrates and lipids in increasing order and explain the reason behind this difference. Can there be a metabolic situation where the respiratory quotient is more than 1.0? If yes, mention it. If no, explain why.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 38,
+        "unit": "V",
+        "question": "Answer the following: \\begin{parts} \\item What is the organ of Corti? Describe its structure and mechanism of function in hearing.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 39,
+        "unit": "V",
+        "question": "Using a systemic representation, enumerate the events occurring at the neuromuscular junction. Explain, how the above events are associated with Myasthenia Gravis.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 40,
+        "unit": "V",
+        "question": "Give an account of various types of feathers found in birds.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Write notes on the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Describe the different types of jaw suspensorium in vertebrates.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Osteoblast cells form dentine layer of the tooth.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Draw a labeled sketch of a Glutamatergic synapse and briefly describe the mode of its functioning. \\begin{center} \\begin{tikzpicture}[scale=0.9, >=Stealth, every node/.style={font=\\small}] \\draw[very thick, gray] (-3, 3) to[out=-20, in=180] (-1, 2) -- (1, 2) to[out=0, in=200] (3, 3); \\node[above] at (-2, 2.7) {Presynaptic}; \\draw[very thick, gray] (-3, 0) to[out=20, in=180] (-1, 1) -- (1, 1) to[out=0, in=160] (3, 0); \\node[below] at (-2, 0.3) {Postsynaptic}; \\draw[fill=yellow!20, draw=yellow!80!black] (-0.8, 2.5) circle (0.25); \\draw[fill=yellow!20, draw=yellow!80!black] (0.8, 2.6) circle (0.25); \\draw[fill=yellow!20, draw=yellow!80!black] (0, 2.3) circle (0.25); \\node[font=\\scriptsize] at (0, 2.3) {Glu}; \\draw[very thick, gray, fill=yellow!10] (0.3, 2.0) to[out=-90, in=90] (0.3, 1.85) to[out=-180, in=0] (-0.3, 1.85) to[out=90, in=-90] (-0.3, 2.0); \\foreach \\pos in {(-0.2, 1.5), (0.1, 1.6), (0.4, 1.4), (-0.5, 1.3), (0, 1.2), (0.3, 1.2)} { \\fill[red] \\pos circle (1.5pt); } \\node[red, right] at (0.5, 1.5) {Glutamate}; \\draw[fill=blue!30, draw=blue!80!black, thick] (-1.2, 0.9) rectangle (-0.6, 1.2) node[pos=0.5, font=\\scriptsize] {AMPA}; \\draw[fill=green!30, draw=green!80!black, thick] (0.6, 0.9) rectangle (1.2, 1.2) node[pos=0.5, font=\\scriptsize] {NMDA}; \\fill[gray] (0.9, 1.3) circle (2pt) node[above, font=\\scriptsize] {$\\text{Mg}^{2+}$}; \\draw[->, thick, orange] (-2.5, 3.2) -- (-2.5, 2.2) node[left] {$\\text{Ca}^{2+}$}; \\end{tikzpicture} \\end{center}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Accessory respiratory organs in fishes",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Describe the mechanism of breathing and transport of oxygen and CO2.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Explain the cardiac cycle and regulation of heart beat in mammals.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Describe the mechanism of urine formation and counter current system.",
+        "answerKey": "1. **Nephron Structure**: Structural and functional unit of kidney. Comprises Bowman's capsule, Glomerulus (filtration), PCT, Loop of Henle, DCT, and Collecting duct.\n2. **Counter-Current Multiplier System**:\n- Maintained by the Loop of Henle and **Vasa Recta**.\n- Descending limb is permeable to water, concentrating the filtrate. Ascending limb actively pumps out NaCl, diluting the filtrate and building a hyper-osmotic renal medullary interstitium.\n- This allows collecting ducts to reabsorb water, producing concentrated urine."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Explain the transmission of nerve impulses along a myelinated nerve fiber.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Describe the mechanism of muscle contraction (sliding filament theory).",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      }
+    ]
+  },
+  "zobmj62": {
+    "id": "zobmj62",
+    "title": "Cell Biology, Genetics and Evolution",
+    "module": "ZOOMJ62",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "In the pituitary, TRH-R2 mediates the TRH signal.",
+        "answerKey": "1. **Hormones Concept**: Chemical messengers secreted directly into blood by ductless **endocrine glands** to regulate physiological activities.\n2. **Pituitary Gland (Master Gland)**:\n- **Adenohypophysis (Anterior)**: Secretes GH, TSH, ACTH, FSH, LH, and Prolactin.\n- **Neurohypophysis (Posterior)**: Releases Oxytocin and Vasopressin (ADH) synthesized by hypothalamus.\n3. **Feedback Mechanism**: Homeostasis maintained by negative feedback loops (e.g., high thyroid hormone levels inhibit TSH and TRH secretion)."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Answer the following parts: \\begin{parts} \\item Write whether the following statements are True or False, giving reasons for your answer in 3--4 lines:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Answer the following parts: \\begin{parts} \\item Define signal peptides. Explain entry and passage of proteins through ER.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "The endoplasmic reticulum lumen is full of soluble Luminal resident proteins and enzymes, whereas the resident proteins in the Golgi apparatus are all membrane bound.",
+        "answerKey": "1. **Structure**: Composed of flattened membrane-bound sacs called **cisternae**, with a cis-face (receiving side) and trans-face (shipping side).\n2. **Function**: Modifies, packages, and sorts proteins and lipids received from the endoplasmic reticulum. Forms lysosomes and secretes vesicles."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Active transport and Passive transport.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Write short notes on the following: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Oxytocin exerts myotropic action on the uterus.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "What is molecular phylogeny? How can DNA sequences or proteins be used to establish phylogenetic relationships among the different group of animals?",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 9,
+        "unit": "II",
+        "question": "The lac genes would be expressed continuously.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 10,
+        "unit": "II",
+        "question": "The lac genes would be expressed efficiently only in the presence of lactose.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Higher dopamine level suppresses milk release from lactating female.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Relaxin inhibits matrix metalloproteinases and collagenase activity of the pubic symphysis peripartum.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 13,
+        "unit": "III",
+        "question": "Answer the following parts: \\begin{parts} \\item The height of a plant is controlled by two pairs of alleles assorting independently, A, a and B, b. Each dominant allele, A and B contribute 40 cm to the height and each recessive alleles a and b contribute 10 cm to the height. Assuming that these loci have additive effects, what will be the height of the F$_1$ progeny from a cross of AABB $\\times$ aabb? How many phenotypic classes are possible in F$_2$ progeny? And also mention the range of height of F$_2$ progeny.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 14,
+        "unit": "III",
+        "question": "Out of 800 progeny of a three-point testcross there were 12 double crossover recombinants, whereas 20 had been expected on the basis of no interference. The interference is: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 15,
+        "unit": "III",
+        "question": "Answer the following parts: \\begin{parts} \\item State whether the following statements are True or False, giving reasons in 2--3 sentences:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Describe the various means of prezygotic reproductive isolation.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 17,
+        "unit": "IV",
+        "question": "Two-point testcrosses revealed the following map results: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 18,
+        "unit": "IV",
+        "question": "Write whether the following statements are True or False, giving reasons for your answer in 3--4 lines: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 19,
+        "unit": "IV",
+        "question": "State whether the following statements are True or False, giving reasons in 2--3 sentences: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 20,
+        "unit": "IV",
+        "question": "A person is diagnosed with hyperglycemia, glycosuria and polydipsia. Give an account of the hormonal dysfunction and mechanism of pathophysiological consequences.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 21,
+        "unit": "V",
+        "question": "endoplasmic reticulum",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 22,
+        "unit": "V",
+        "question": "Explain the biosynthesis of mineralocorticoids. Comment upon the functions of aldosterone and regulation of its release.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 23,
+        "unit": "V",
+        "question": "Frameshift mutations are more detrimental than base substitution mutations.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 24,
+        "unit": "V",
+        "question": "Describe the three types of tetrad that can be obtained from tetrad analysis of Neurospora. How can one distinguish whether the two genes are linked or on different chromosomes on the basis of type of the tetrads observed?",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 25,
+        "unit": "V",
+        "question": "Hardy Weinberg law of equilibrium.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 26,
+        "unit": "V",
+        "question": "The lac genes would never be expressed efficiently.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 27,
+        "unit": "V",
+        "question": "Eohippus possessed 3 toes in fore- and hind-limbs.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 28,
+        "unit": "V",
+        "question": "Lutein cells show higher CYP 19 activity as compared to dominant follicular granulosa cells.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 29,
+        "unit": "V",
+        "question": "The lac genes would be expressed efficiently only in the absence of lactose.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 30,
+        "unit": "V",
+        "question": "Retrograde transport and Anterograde transport",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 31,
+        "unit": "V",
+        "question": "Write whether the following statements are True or False giving valid reasons for your answer: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 32,
+        "unit": "V",
+        "question": "metabolic dsyfunction",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 33,
+        "unit": "V",
+        "question": "Adoptive colouration.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 34,
+        "unit": "V",
+        "question": "Explain the events in different phases of cell cycle. Describe the genetic regulation of the cell cycle.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 35,
+        "unit": "V",
+        "question": "Briefly write on triplet repeat expansion disorder taking Huntington's disease as an example. How is it different from a multifactorial disease?",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 36,
+        "unit": "V",
+        "question": "Allopatric speciation",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 37,
+        "unit": "V",
+        "question": "The androgen receptor is found in almost every tissue in primates, not just the classical androgen-dependent organs. As a result, androgens have a wide range of effects on a wide range of targets. Discuss.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 38,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Describe the various means of prezygotic reproductive isolation.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 39,
+        "unit": "V",
+        "question": "Explain the following: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 40,
+        "unit": "V",
+        "question": "Biosynthesis of thyroid hormone \\begin{center} \\begin{tikzpicture}[scale=0.9, >=Stealth, every node/.style={font=\\small}] % Membranes \\draw[thick, gray] (-3, -3) -- (-3, 3) node[above, black] {Basolateral}; \\draw[thick, gray] (1.5, -3) -- (1.5, 3) node[above, black] {Apical}; % Labels \\node at (-4.2, 2.5) {Blood}; \\node at (-0.8, 2.5) {Follicular Cell}; \\node at (2.8, 2.5) {Colloid}; % NIS \\draw[fill=orange!30, thick] (-3.2, 0.5) rectangle (-2.8, 1.3) node[pos=0.5, left=0.1cm] {NIS}; \\draw[->, thick] (-4.0, 1.1) -- (-2.4, 1.1) node[right, font=\\scriptsize] {$\\text{I}^-$}; \\draw[->, thick] (-4.0, 0.7) -- (-2.4, 0.7) node[right, font=\\scriptsize] {$\\text{Na}^+$}; % Pendrin \\draw[fill=orange!30, thick] (1.3, 0.5) rectangle (1.7, 1.3) node[pos=0.5, right=0.1cm] {Pendrin}; \\draw[->, thick] (0.8, 0.9) -- (2.2, 0.9) node[right] {$\\text{I}^-$}; % TG \\draw[fill=yellow!20, thick] (-2, -1.5) rectangle (-0.5, -0.7) node[pos=0.5, font=\\scriptsize] {TG Synth}; \\draw[->, thick, dashed] (-1.25, -0.7) -- (1.0, -1.2) -- (2.0, -1.2) node[right] {TG}; % TPO \\node[draw, fill=blue!10, rounded corners, font=\\scriptsize] at (2.5, -0.2) {TPO}; \\node[font=\\scriptsize, align=center] at (2.8, 0.5) {$\\text{TG} + \\text{I}^- \\rightarrow \\text{MIT/DIT}$ $\\text{MIT} + \\text{DIT} \\rightarrow \\text{T}_3/\\text{T}_4$}; % Endocytosis \\draw[->, thick] (2.8, -1.8) to[out=180, in=-45] (0.5, -2.2) node[above left, font=\\scriptsize] {Endocytosis}; \\draw[->, thick] (-0.2, -2.2) -- (-3.8, -2.2) node[left] {$\\text{T}_3, \\text{T}_4$}; \\end{tikzpicture} \\end{center}",
+        "answerKey": "1. **Hormones Concept**: Chemical messengers secreted directly into blood by ductless **endocrine glands** to regulate physiological activities.\n2. **Pituitary Gland (Master Gland)**:\n- **Adenohypophysis (Anterior)**: Secretes GH, TSH, ACTH, FSH, LH, and Prolactin.\n- **Neurohypophysis (Posterior)**: Releases Oxytocin and Vasopressin (ADH) synthesized by hypothalamus.\n3. **Feedback Mechanism**: Homeostasis maintained by negative feedback loops (e.g., high thyroid hormone levels inhibit TSH and TRH secretion)."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "Define signal peptides. Explain entry and passage of proteins through ER.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Describe the structure of Lampbrush chromosome and explain its significance in the study of gene expression.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "minimal media + glucose + methionine",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Amino acid glycine is encoded by CGA. A single base substitution changes it to a nonsense codon. Specify the base change that would have taken place to convert it into a nonsense codon. Is this change a transversion or transition? Distinguish between the two.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Multivesicular Bodies (MVBs) are found in: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "A transposable element has a deletion in the transposase gene. What will be the consequence of this deletion? Under what conditions can this transposable element jump in the genome?",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Describe in detail the on and off mechanisms of $\\text{G}\\alpha_{\\text{q}}$ signalling pathway.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Acidosis is one of the factors responsible for hypocalcemic state.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Juxtaglomerular apparatus",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item What is molecular phylogeny? How can DNA sequences or proteins be used to establish phylogenetic relationships among the different group of animals?",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 51,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item State whether the following statements are True or False with reason in not more than 2-3 lines each:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 52,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Describe the structure of Lampbrush chromosome and explain its significance in the study of gene expression.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 53,
+        "unit": "V",
+        "question": "Discuss how the hypothalamus serves as the major regulator of the adenohypophysis.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 54,
+        "unit": "V",
+        "question": "The on/off switch of sxl gene of Drosophila is not sensitive to the X : A ratio.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 55,
+        "unit": "V",
+        "question": "inclusion bodies in the neurons",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 56,
+        "unit": "V",
+        "question": "multifactorial causes",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 57,
+        "unit": "V",
+        "question": "B --- C 11 map units.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 58,
+        "unit": "V",
+        "question": "Toothed birds originated in Cambrian period and became extinct by the end of Cretaceous period.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 59,
+        "unit": "V",
+        "question": "minimal media + glucose",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 60,
+        "unit": "V",
+        "question": "State whether the following statements are True or False with reason in not more than 2-3 lines each: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 61,
+        "unit": "V",
+        "question": "Lysosome contains only hydrolases.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 62,
+        "unit": "V",
+        "question": "minimal media + lactose + methionine",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 63,
+        "unit": "V",
+        "question": "Chromosomal polymorphism.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 64,
+        "unit": "V",
+        "question": "The height of a plant is controlled by two pairs of alleles assorting independently, A, a and B, b. Each dominant allele, A and B contribute 40 cm to the height and each recessive alleles a and b contribute 10 cm to the height. Assuming that these loci have additive effects, what will be the height of the F$_1$ progeny from a cross of AABB $\\times$ aabb? How many phenotypic classes are possible in F$_2$ progeny? And also mention the range of height of F$_2$ progeny.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 65,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Write whether the following statements are True or False giving valid reasons for your answer:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 66,
+        "unit": "V",
+        "question": "SCN, SON, ARC and PVN neurons are located in tuberal region of hypothalamus.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 67,
+        "unit": "V",
+        "question": "Amino acid glycine is encoded by CGA. A single base substitution changes it to a nonsense codon. Specify the base change that would have taken place to convert it into a nonsense codon. Is this change a transversion or transition? Distinguish between the two.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 68,
+        "unit": "V",
+        "question": "Describe the biosynthesis and biological actions of melatonin.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 69,
+        "unit": "V",
+        "question": "Describe the structure and functions of Golgi apparatus and lysosomes.",
+        "answerKey": "1. **Structure**: Composed of flattened membrane-bound sacs called **cisternae**, with a cis-face (receiving side) and trans-face (shipping side).\n2. **Function**: Modifies, packages, and sorts proteins and lipids received from the endoplasmic reticulum. Forms lysosomes and secretes vesicles."
+      },
+      {
+        "id": 70,
+        "unit": "V",
+        "question": "Explain the molecular mechanism of cell cycle regulation (CDKs/cyclins).",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 71,
+        "unit": "V",
+        "question": "Describe the chromosomal basis of sex determination in animals.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 72,
+        "unit": "V",
+        "question": "Explain the concepts of gene mutations and DNA repair mechanisms.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 73,
+        "unit": "V",
+        "question": "Describe the geological time scale and evolutionary history of horse.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      }
+    ]
+  },
+  "zobmj63": {
+    "id": "zobmj63",
+    "title": "Immunology, Microbiology, Environmental Biology and Biotechniques",
+    "module": "ZOOMJ63",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "How is `trp' operon regulated by attenuation? \\begin{center} \\begin{tikzpicture}[scale=0.9, >=Stealth, every node/.style={font=\\small}] \\begin{scope}[shift={(0,0)}] \\node[above] at (1.2, 3.2) {High Trp (Termination)}; \\draw[fill=gray!30, draw=gray, rounded corners] (-0.8, 0.2) rectangle (0.8, 1.0) node[pos=0.5] {Ribosome}; \\draw[very thick] (-1.5, 0) -- (0.8, 0); \\draw[very thick, red] (0.8, 0) to[out=45, in=-95] (1.1, 1.5) to[out=85, in=-85] (1.1, 2.5) to[out=95, in=85] (0.7, 2.5) to[out=-95, in=135] (0.9, 1.5) to[out=-45, in=135] (1.3, 0); \\draw[very thick] (1.3, 0) -- (2.2, 0) node[right] {UUUUUU}; \\foreach \\y in {1.6, 1.8, 2.0, 2.2, 2.4} { \\draw[gray, thin] (0.95, \\y) -- (1.05, \\y); } \\node[right, red] at (1.2, 2.0) {3:4 Loop}; \\end{scope} \\begin{scope}[shift={(5.0,0)}] \\node[above] at (1.2, 3.2) {Low Trp (Antitermination)}; \\draw[fill=gray!30, draw=gray, rounded corners] (-1.5, 0.2) rectangle (-0.2, 1.0) node[pos=0.5, align=center, font=\\tiny] {Stalled Ribosome}; \\draw[very thick] (-1.8, 0) -- (-0.2, 0); \\draw[very thick, green!60!black] (-0.2, 0) to[out=45, in=-95] (0.1, 1.5) to[out=85, in=-85] (0.1, 2.5) to[out=95, in=85] (-0.3, 2.5) to[out=-95, in=135] (-0.1, 1.5) to[out=-45, in=135] (0.3, 0); \\draw[very thick] (0.3, 0) -- (1.5, 0) node[right] {Region 4}; \\foreach \\y in {1.6, 1.8, 2.0, 2.2, 2.4} { \\draw[gray, thin] (-0.05, \\y) -- (0.05, \\y); } \\node[right, green!60!black] at (0.2, 2.0) {2:3 Loop}; \\end{scope} \\end{tikzpicture} \\end{center}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Describe the energy flow in a forest ecosystem.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Transposons and Retrotransposons.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Population characteristics",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Explain the organization of chromatin and its compaction into metaphase chromosome.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Answer the following parts: \\begin{parts} \\item Describe the energy flow in a forest ecosystem.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Integrins and Cadherins.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "First division segregation and Second division segregation in Neurospora",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 9,
+        "unit": "II",
+        "question": "Primary and secondary lymphoid organs.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 10,
+        "unit": "II",
+        "question": "Define the importance of: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "What is tissue fixation? Write down the procedure of preparation of a stained histological slide.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Answer the following: \\begin{parts} \\item What are G-proteins? Explain how G-protein signalling is regulated and activates second messengers.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 13,
+        "unit": "III",
+        "question": "Clostridium produces \\underline{\\hspace{2.5cm}} or \\underline{\\hspace{2.5cm}} which breaks the collagen network and causes gas gangrene.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 14,
+        "unit": "III",
+        "question": "Microarray technology",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 15,
+        "unit": "III",
+        "question": "What is meant by critical concentration for F-actin polymerization? Explain its role as treadmilling.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Lactose present and glucose present.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 17,
+        "unit": "IV",
+        "question": "State whether the following statement is True or False, giving reasons in not more than 2--3 sentences: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 18,
+        "unit": "IV",
+        "question": "How does B cell activate and secrete the antibodies?",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 19,
+        "unit": "IV",
+        "question": "Explain how gene regulation occurs via changes in DNA or chromatin structure.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 20,
+        "unit": "IV",
+        "question": "Benefits of biodiversity.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 21,
+        "unit": "V",
+        "question": "What are G-proteins? Explain how G-protein signalling is regulated and activates second messengers.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 22,
+        "unit": "V",
+        "question": "Insulin receptors are an example of enzyme-coupled receptors.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 23,
+        "unit": "V",
+        "question": "Write short notes on the following: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 24,
+        "unit": "V",
+        "question": "Give an account of mineral conservation.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 25,
+        "unit": "V",
+        "question": "UV-visible spectrophotometer is routinely used in the quantitative determination of biological macromolecules.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 26,
+        "unit": "V",
+        "question": "Antigen processing and presentation",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 27,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Define the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 28,
+        "unit": "V",
+        "question": "State whether the following statements are True or False. Justify your answer in brief:{2} = 3$} \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 29,
+        "unit": "V",
+        "question": "What do you mean by culture media? State its importance for different types of animal cell culture.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 30,
+        "unit": "V",
+        "question": "IgM antibody is the most abundant and can cross the placenta.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 31,
+        "unit": "V",
+        "question": "What is a `three-point test cross'? Explain how genetic crosses are designed in Drosophila to derive a linkage map of three genes.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 32,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Describe the principle and application of fluorescence microscope.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 33,
+        "unit": "V",
+        "question": "Regulatory transcription factors bind to core promoter of a gene.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 34,
+        "unit": "V",
+        "question": "Write whether the following statements are True or False giving reasons in 2-3 sentences each: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 35,
+        "unit": "V",
+        "question": "Elaborate the different ways through which a cell can be transformed.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 36,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item State whether the following statement is True or False, giving reasons in not more than 2--3 sentences:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 37,
+        "unit": "V",
+        "question": "FG-repeats at nuclear pore complex.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 38,
+        "unit": "V",
+        "question": "Tight junction and Gap junction",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 39,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item State whether the following statements are True or False. Justify your answer in brief:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 40,
+        "unit": "V",
+        "question": "Chromatographic separations are based on wavelength.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 41,
+        "unit": "V",
+        "question": "The total amount of photosynthetic energy captured by autotrophs in a given period of time is called \\underline{\\hspace{3cm}}.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 42,
+        "unit": "V",
+        "question": "Answer the following: \\begin{parts} \\item Explain the organization of chromatin and its compaction into metaphase chromosome.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 43,
+        "unit": "V",
+        "question": "Describe with the help of a labelled diagram, the sex-determination pathway in human. \\begin{center} \\begin{tikzpicture}[scale=0.85, >=Stealth, every node/.style={font=\\small}] % Male path \\node[draw, fill=blue!10, thick, rounded corners] (xy) at (-3, 3) {XY Chromosomes}; \\node[draw, fill=blue!10, thick, rounded corners] (sry) at (-3, 1.8) {SRY Gene on Y}; \\node[draw, fill=blue!20, thick, rounded corners] (gonadM) at (-3, 0.6) {Bipotential Gonad}; \\node[draw, fill=blue!30, thick, rounded corners] (testis) at (-3, -0.6) {Testes}; \\node[draw, fill=blue!10, thick, rounded corners] (sertoli) at (-4.2, -1.8) {Sertoli Cells}; \\node[draw, fill=blue!10, thick, rounded corners] (leydig) at (-1.8, -1.8) {Leydig Cells}; \\node[draw, fill=blue!15, thick, rounded corners] (amh) at (-4.2, -3.0) {AMH}; \\node[draw, fill=blue!15, thick, rounded corners] (testo) at (-1.8, -3.0) {Testosterone}; \\node[draw, fill=blue!40, thick, rounded corners] (male) at (-3, -4.2) {Male Phenotype}; \\draw[->, thick] (xy) -- (sry); \\draw[->, thick] (sry) -- (gonadM); \\draw[->, thick] (gonadM) -- (testis); \\draw[->, thick] (testis) -- (sertoli); \\draw[->, thick] (testis) -- (leydig); \\draw[->, thick] (sertoli) -- (amh); \\draw[->, thick] (leydig) -- (testo); \\draw[->, thick] (amh) -- (male); \\draw[->, thick] (testo) -- (male); % Female path \\node[draw, fill=red!10, thick, rounded corners] (xx) at (3, 3) {XX Chromosomes}; \\node[draw, fill=red!10, thick, rounded corners] (nosry) at (3, 1.8) {No SRY Gene}; \\node[draw, fill=red!20, thick, rounded corners] (gonadF) at (3, 0.6) {Bipotential Gonad}; \\node[draw, fill=red!30, thick, rounded corners] (ovary) at (3, -0.6) {Ovaries}; \\node[draw, fill=red!15, thick, rounded corners] (noamh) at (1.8, -2.2) {No AMH}; \\node[draw, fill=red!15, thick, rounded corners] (notesto) at (4.2, -2.2) {No Testosterone}; \\node[draw, fill=red!40, thick, rounded corners] (female) at (3, -4.2) {Female Phenotype}; \\draw[->, thick] (xx) -- (nosry); \\draw[->, thick] (nosry) -- (gonadF); \\draw[->, thick] (gonadF) -- (ovary); \\draw[->, thick] (ovary) -- (noamh); \\draw[->, thick] (ovary) -- (notesto); \\draw[->, thick] (noamh) -- (female); \\draw[->, thick] (notesto) -- (female); \\end{tikzpicture} \\end{center}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 44,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Differentiate between the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 45,
+        "unit": "V",
+        "question": "Antimicrobial drug susceptibility testing",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 46,
+        "unit": "V",
+        "question": "Carrier transporters follow simple Michaelis-Menten kinetics of substrate transport.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 47,
+        "unit": "V",
+        "question": "Define the following: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 48,
+        "unit": "V",
+        "question": "Lactose present and glucose absent",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 49,
+        "unit": "V",
+        "question": "Polygenic inheritance.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 50,
+        "unit": "V",
+        "question": "Differentiate between the following: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 51,
+        "unit": "V",
+        "question": "Cell mediated immunity is brought about by \\underline{\\hspace{2cm}} cells.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 52,
+        "unit": "V",
+        "question": "Archaea and Bacteria.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 53,
+        "unit": "V",
+        "question": "Eukaryotic transcription unit \\begin{center} \\begin{tikzpicture}[scale=0.85, >=Stealth, every node/.style={font=\\small}] \\draw[thick] (-4, 0) -- (6, 0); \\draw[fill=blue!30, draw=blue!80!black, thick] (-2.5, -0.2) rectangle (-1.2, 0.2) node[pos=0.5, font=\\scriptsize] {Promoter}; \\draw[->, ultra thick, black] (-0.5, 0) -- (-0.5, 0.6) -- (0.2, 0.6) node[right] {+1 (TSS)}; \\draw[fill=green!40!black!20, draw=green!40!black, thick] (0.5, -0.3) rectangle (1.8, 0.3) node[pos=0.5] {Exon 1}; \\draw[thick] (1.8, 0) -- (2.8, 0) node[midway, above] {Intron 1}; \\draw[fill=green!40!black!20, draw=green!40!black, thick] (2.8, -0.3) rectangle (4.2, 0.3) node[pos=0.5] {Exon 2}; \\draw[fill=red!20, draw=red!80!black, thick] (4.8, -0.2) rectangle (5.6, 0.2) node[pos=0.5, font=\\tiny] {Poly(A)}; \\end{tikzpicture} \\end{center}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 54,
+        "unit": "V",
+        "question": "In what way can DNA damage freeze a potentially dividing cell population at the restriction point?",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 55,
+        "unit": "V",
+        "question": "Answer the following: \\begin{parts} \\item Explain how mutations can be detected using the ClB technique in Drosophila.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 56,
+        "unit": "V",
+        "question": "Proteome is larger than genome of a given species.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 57,
+        "unit": "V",
+        "question": "Describe the principle and application of fluorescence microscope.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 58,
+        "unit": "V",
+        "question": "Answer the following: \\begin{parts} \\item What is a `three-point test cross'? Explain how genetic crosses are designed in Drosophila to derive a linkage map of three genes.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 59,
+        "unit": "V",
+        "question": "Cytolytic toxins and Enterotoxins",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 60,
+        "unit": "V",
+        "question": "Explain how mutations can be detected using the ClB technique in Drosophila.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 61,
+        "unit": "V",
+        "question": "The average number of new individuals produced by a population in a given time is called biotic potential.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 62,
+        "unit": "V",
+        "question": "How does SRP regulate co-translational protein transport across ER? In what way is the topology of the membrane-spanning polypeptide maintained during membrane insertion?",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 63,
+        "unit": "V",
+        "question": "Answer the following: \\begin{parts} \\item What is meant by critical concentration for F-actin polymerization? Explain its role as treadmilling.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 64,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Write whether the following statements are True or False giving reasons in 2-3 sentences each:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 65,
+        "unit": "V",
+        "question": "Tautomeric shifts within the bases that make up the nucleic acids are the most common cause of point mutations.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 66,
+        "unit": "V",
+        "question": "Biodegradation of xenobiotics.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 67,
+        "unit": "V",
+        "question": "Describe in brief the `general organisation of human genome'.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 68,
+        "unit": "V",
+        "question": "Opportunistic pathogen",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 69,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item What do you mean by culture media? State its importance for different types of animal cell culture.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 70,
+        "unit": "V",
+        "question": "Answer the following parts: \\begin{parts} \\item Define the importance of:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 71,
+        "unit": "V",
+        "question": "Attenuated micro-organism",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 72,
+        "unit": "V",
+        "question": "Describe the structure of an antibody molecule with a labeled diagram.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 73,
+        "unit": "V",
+        "question": "Explain the differences between humoral and cell-mediated immune responses.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 74,
+        "unit": "V",
+        "question": "Describe the lytic and lysogenic cycles of bacteriophages.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 75,
+        "unit": "V",
+        "question": "Explain the role of microorganisms in nitrogen cycle and waste treatment.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 76,
+        "unit": "V",
+        "question": "Describe the principles and applications of ELISA in disease diagnosis.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      }
+    ]
+  },
+  "zobmj64": {
+    "id": "zobmj64",
+    "title": "Evolution and Animal Behaviour",
+    "module": "ZOOMJ64",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Answer the following parts: \\begin{parts} \\item Define the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Tandem repeat polymorphism",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Write a note on genetic control of behaviour.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Describe the patterns of different social behaviours in animals.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "An animal making new associations between previously learned tasks to solve a new problem is known as latent learning.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Natural selection as mode of evolution.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Give a brief account of different types of fossils. Add a note on the significance of fossil study.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Define the following: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 9,
+        "unit": "II",
+        "question": "Learned behaviour is inherited, automatic and inflexible.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 10,
+        "unit": "II",
+        "question": "Relative dating and Radioactive dating",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "The chronological evolution of horse",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Answer the following parts: \\begin{parts} \\item State whether the following statements are True or False. Justify your answer in 2-3 sentences each:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 13,
+        "unit": "III",
+        "question": "Answer the following: \\begin{parts} \\item Write a note on genetic control of behaviour.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 14,
+        "unit": "III",
+        "question": "Concealing and Alluring mimicry.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 15,
+        "unit": "III",
+        "question": "Founder effect and Bottleneck effect",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Sympatric speciation.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 17,
+        "unit": "IV",
+        "question": "Write notes on the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 18,
+        "unit": "IV",
+        "question": "State whether the following statements are True or False. Justify your answer in 2-3 sentences each: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 19,
+        "unit": "IV",
+        "question": "Costs and benefits of group living",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 20,
+        "unit": "IV",
+        "question": "A fixed action pattern is a changeable series of actions triggered without any stimulus.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 21,
+        "unit": "V",
+        "question": "Giving suitable examples, explain various isolating mechanisms that hinder interbreeding between the species.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 22,
+        "unit": "V",
+        "question": "Describe different modes of communication in animals.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 23,
+        "unit": "V",
+        "question": "Describe the evidence of evolution from embryology and fossil record.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 24,
+        "unit": "V",
+        "question": "Explain the concept of natural selection and industrial melanism.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 25,
+        "unit": "V",
+        "question": "Describe the various types of learning behavior in animals with examples.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 26,
+        "unit": "V",
+        "question": "Explain the social organization and communication in social insects.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 27,
+        "unit": "V",
+        "question": "Describe biological rhythms and migration behavior in birds.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      }
+    ]
+  },
+  "zobmj65": {
+    "id": "zobmj65",
+    "title": "Immunology and Parasitology",
+    "module": "ZOOMJ65",
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Discuss the asexual cycle of Plasmodium vivax. Comment on the clinical manifestations and control measures of the disease.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Herd immunity is achieved in highly contagious disease when 40\\% of population is vaccinated.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "State whether the following statements are True or False. Justify your answer in 2--3 sentences each: \\begin{parts}",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Describe the mechanism of antigen processing and presentation via MHC class I and class II to T lymphocytes.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 5,
+        "unit": "I",
+        "question": "Intestinal amoebiasis.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Describe the life cycle and pathogenesis of Diphyllobothrium latum. Briefly discuss its treatment and prophylactic measures.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Tachyzoite and Bradyzoite.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Discuss the properties of an ideal vaccine.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 9,
+        "unit": "II",
+        "question": "Endotoxin and Exotoxin",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 10,
+        "unit": "II",
+        "question": "Host-parasite coevolution",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Unembryonated eggs of Paragonimus westermani are coughed up and voided in sputum.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Graves' disease affects the thyroid gland.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 13,
+        "unit": "III",
+        "question": "B-cell epitopes are always presented with MHC.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 14,
+        "unit": "III",
+        "question": "Answer the following: \\begin{parts} \\item Discuss the properties of an ideal vaccine.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 15,
+        "unit": "III",
+        "question": "Type II hypersensitivity is mediated by immune complex.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Individual suffering from trichinosis develops myositis, fever, periorbital oedema within a week.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 17,
+        "unit": "IV",
+        "question": "Write notes on the following:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 18,
+        "unit": "IV",
+        "question": "Discuss the structure of immunoglobulin and describe the function of IgG, IgA and IgM.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 19,
+        "unit": "IV",
+        "question": "Answer the following parts: \\begin{parts} \\item State whether the following statements are True or False. Justify your answer in 2--3 sentences each:",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 20,
+        "unit": "IV",
+        "question": "Describe the cells and organs of the mammalian immune system.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 21,
+        "unit": "V",
+        "question": "Explain the structure and classes of immunoglobulins.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      },
+      {
+        "id": 22,
+        "unit": "V",
+        "question": "Describe the life cycle, pathogenicity and control of Ascaris lumbricoides.",
+        "answerKey": "1. **Life History of Ascaris lumbricoides**: Monogenetic human intestinal roundworm. Infection occurs by ingesting embryonated eggs containing L2 larvae.\n2. **Migration Pathway**:\n- Ingested eggs hatch in the small intestine.\n- Larvae penetrate the intestinal wall $\\to$ Portal circulation $\\to$ Liver $\\to$ Heart $\\to$ Lungs (undergo 2nd & 3rd moults).\n- Migrate up the trachea $\\to$ Pharynx $\\to$ Swallowed back into the intestine where they mature (4th moult).\n3. **Pathogenicity**: Causes **Ascariasis**, characterized by abdominal pain, intestinal blockage, nutritional deficiency, and pulmonary symptoms (Loeffler's syndrome)."
+      },
+      {
+        "id": 23,
+        "unit": "V",
+        "question": "Explain the host-parasite relationships and parasitic adaptations.",
+        "answerKey": "1. **Taenia (Tapeworm) Adaptations**:\n- **Morphological**: Scolex with hooks and suckers for attachment; thick protective tegument resisting host digestive enzymes; complete loss of digestive system (nutrients absorbed directly through body surface).\n- **Physiological**: Anaerobic respiration; high reproductive capacity (proglottid maturation and self-fertilization)."
+      },
+      {
+        "id": 24,
+        "unit": "V",
+        "question": "Describe the modes of transmission and prevention of parasitic diseases.",
+        "answerKey": "1. **Zoology Core Principle**:\n- Apply fundamental animal biology concepts (anatomy, physiology, cell biology, genetics, or ecology).\n2. **Mechanisms & Structures**:\n- Detail structural anatomy or biochemical/physiological pathways with precise terminology.\n- Emphasize evolutionary adaptations and functional relationships.\n3. **Diagrams**:\n- Essential to include labeled sketches showing anatomical cross-sections, body systems, or cellular diagrams.\n4. **Significance**:\n- Analyze the ecological, evolutionary, or clinical relevance of the topic in animal science."
+      }
+    ]
   }
 };
