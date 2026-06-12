@@ -106,7 +106,7 @@
                     <span class="text-xs font-bold text-accent-neural-emerald bg-accent-neural-emerald/10 px-3 py-1 rounded-full border border-accent-neural-emerald/20">96,742 pt</span>
                 </div>
                 <div>
-                    <div class="inline-flex items-center gap-1.5 bg-accent-neural-emerald/10 text-accent-neural-emerald text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider mb-2">Founder & CEO</div>
+                    <div class="inline-flex items-center gap-1.5 bg-accent-neural-emerald/10 text-accent-neural-emerald text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider mb-2">Founder & Developer</div>
                     <h4 class="text-lg font-bold text-primary mb-1 leading-snug">Aryan Maurya</h4>
                     <p class="text-xs text-secondary leading-relaxed">Creator & Maintainer of the website.</p>
                 </div>
@@ -128,49 +128,18 @@
 
         <!-- Supporters Section -->
         <div class="w-full mt-10 md:mt-12 text-left">
-            <h3 class="text-xs font-bold text-secondary uppercase tracking-widest mb-6 border-b border-border-subtle pb-2">Supporters</h3>
-            <div class="grid grid-cols-1 gap-4 w-full text-left">
-                <!-- Nitin Maurya -->
-                <div class="bento-card glass-panel rounded-2xl p-5 flex items-center justify-between group hover:bg-white/60 transition-colors">
-                    <div class="flex items-center gap-4">
-                        <div class="w-10 h-10 rounded-full bg-accent-neural-purple/10 flex items-center justify-center flex-shrink-0 text-accent-neural-purple">
-                            <span class="material-symbols-outlined text-lg">volunteer_activism</span>
-                        </div>
-                        <div>
-                            <h4 class="text-sm font-bold text-primary leading-tight mb-0.5">Nitin Maurya</h4>
-                            <p class="text-[10px] text-secondary">Passive financial support</p>
-                        </div>
-                    </div>
-                    <span class="text-xs font-bold text-accent-neural-purple bg-accent-neural-purple/10 px-2.5 py-1 rounded-full border border-accent-neural-purple/20">100 pt</span>
+            <div class="flex items-center justify-between border-b border-border-subtle pb-2 mb-6">
+                <h3 class="text-xs font-bold text-secondary uppercase tracking-widest">Supporters</h3>
+                <div class="flex items-center gap-1.5">
+                    <span class="material-symbols-outlined text-xs text-secondary">sort</span>
+                    <select id="supporterSort" onchange="sortSupporters()" class="text-[10px] bg-transparent border-none text-secondary font-bold focus:ring-0 cursor-pointer uppercase tracking-wider p-0 pr-6">
+                        <option value="points" selected class="text-primary bg-white">Most Contribution</option>
+                        <option value="earliest" class="text-primary bg-white">Earliest</option>
+                    </select>
                 </div>
-
-                <!-- Ayush Singh -->
-                <div class="bento-card glass-panel rounded-2xl p-5 flex items-center justify-between group hover:bg-white/60 transition-colors">
-                    <div class="flex items-center gap-4">
-                        <div class="w-10 h-10 rounded-full bg-accent-neural-blue/10 flex items-center justify-center flex-shrink-0 text-accent-neural-blue">
-                            <span class="material-symbols-outlined text-lg">volunteer_activism</span>
-                        </div>
-                        <div>
-                            <h4 class="text-sm font-bold text-primary leading-tight mb-0.5">Ayush Singh</h4>
-                            <p class="text-[10px] text-secondary">Passive financial support</p>
-                        </div>
-                    </div>
-                    <span class="text-xs font-bold text-accent-neural-blue bg-accent-neural-blue/10 px-2.5 py-1 rounded-full border border-accent-neural-blue/20">100 pt</span>
-                </div>
-
-                <!-- Vivek Giri -->
-                <div class="bento-card glass-panel rounded-2xl p-5 flex items-center justify-between group hover:bg-white/60 transition-colors">
-                    <div class="flex items-center gap-4">
-                        <div class="w-10 h-10 rounded-full bg-accent-bhu-saffron/10 flex items-center justify-center flex-shrink-0 text-accent-bhu-saffron">
-                            <span class="material-symbols-outlined text-lg">volunteer_activism</span>
-                        </div>
-                        <div>
-                            <h4 class="text-sm font-bold text-primary leading-tight mb-0.5">Vivek Giri</h4>
-                            <p class="text-[10px] text-secondary">Passive financial support</p>
-                        </div>
-                    </div>
-                    <span class="text-xs font-bold text-accent-bhu-saffron bg-accent-bhu-saffron/10 px-2.5 py-1 rounded-full border border-accent-bhu-saffron/20">100 pt</span>
-                </div>
+            </div>
+            <div id="supportersContainer" class="grid grid-cols-1 gap-4 w-full text-left">
+                <!-- Dynamically populated -->
             </div>
         </div>
     </div>
@@ -196,6 +165,92 @@
             orb.style.transform = `translate(${x}px, ${y}px)`;
         });
     });
+
+    // Supporters data & logic
+    const SUPPORTERS = [
+        {
+            name: "Nitin Maurya",
+            description: "Passive financial support",
+            points: 100,
+            iconBg: "bg-accent-neural-purple/10",
+            iconColor: "text-accent-neural-purple",
+            badgeBorder: "border-accent-neural-purple/20",
+            badgeBg: "bg-accent-neural-purple/10",
+            index: 0
+        },
+        {
+            name: "Ayush Singh",
+            description: "Passive financial support",
+            points: 100,
+            iconBg: "bg-accent-neural-blue/10",
+            iconColor: "text-accent-neural-blue",
+            badgeBorder: "border-accent-neural-blue/20",
+            badgeBg: "bg-accent-neural-blue/10",
+            index: 1
+        },
+        {
+            name: "Vivek Giri",
+            description: "Passive financial support",
+            points: 100,
+            iconBg: "bg-accent-bhu-saffron/10",
+            iconColor: "text-accent-bhu-saffron",
+            badgeBorder: "border-accent-bhu-saffron/20",
+            badgeBg: "bg-accent-bhu-saffron/10",
+            index: 2
+        },
+        {
+            name: "Pintu Kumar",
+            description: "Contributed on resources",
+            points: 8623,
+            iconBg: "bg-accent-neural-emerald/10",
+            iconColor: "text-accent-neural-emerald",
+            badgeBorder: "border-accent-neural-emerald/20",
+            badgeBg: "bg-accent-neural-emerald/10",
+            index: 3
+        }
+    ];
+
+    function renderSupporters(list) {
+        const container = document.getElementById('supportersContainer');
+        if (!container) return;
+        container.innerHTML = '';
+        list.forEach(sup => {
+            const itemHtml = `
+                <div class="bento-card glass-panel rounded-2xl p-5 flex items-center justify-between group hover:bg-white/60 transition-colors">
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 rounded-full ${sup.iconBg} flex items-center justify-center flex-shrink-0 ${sup.iconColor}">
+                            <span class="material-symbols-outlined text-lg">volunteer_activism</span>
+                        </div>
+                        <div>
+                            <h4 class="text-sm font-bold text-primary leading-tight mb-0.5">${sup.name}</h4>
+                            <p class="text-[10px] text-secondary">${sup.description}</p>
+                        </div>
+                    </div>
+                    <span class="text-xs font-bold ${sup.iconColor} ${sup.badgeBg} px-2.5 py-1 rounded-full border ${sup.badgeBorder}">${sup.points.toLocaleString()} pt</span>
+                </div>
+            `;
+            container.insertAdjacentHTML('beforeend', itemHtml);
+        });
+    }
+
+    window.sortSupporters = function() {
+        const sortBy = document.getElementById('supporterSort').value;
+        const sorted = [...SUPPORTERS];
+        if (sortBy === 'earliest') {
+            sorted.sort((a, b) => a.index - b.index);
+        } else if (sortBy === 'points') {
+            sorted.sort((a, b) => {
+                if (b.points !== a.points) {
+                    return b.points - a.points;
+                }
+                return a.index - b.index;
+            });
+        }
+        renderSupporters(sorted);
+    };
+
+    // Initial render
+    sortSupporters();
 </script>
 </body>
 </html>
