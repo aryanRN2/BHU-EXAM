@@ -1,0 +1,1925 @@
+{
+  "department": "Department of Chemistry",
+  "university": "Banaras Hindu University",
+  "programme": "B.Sc. (Hons.) Chemistry",
+  "semesters": [
+    {
+      "semester": 1,
+      "papers": [
+        {
+          "code": "CHEMD11",
+          "name": "Basic Principles of Chemistry and Its Applications in Daily Life",
+          "credits": 3,
+          "course_type": "Multidisciplinary",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Basic Principles of Chemistry: Atoms, molecules, and their electronic structures. Types of Chemical bonding. Basic concept of Hybridization. Energetics of bond formation, Types of intermolecular/intramolecular forces, and molecular association for the formation of materials."
+            },
+            {
+              "unit": 2,
+              "topics": "Chemical Reactions: Thermodynamic basis of chemical changes. Enthalpy, entropy, and free energy change during a chemical reaction. Types of Chemical Reactions. The concept of oxidation number, Reducing and oxidizing agents."
+            },
+            {
+              "unit": 3,
+              "topics": "Applications of Chemistry in daily life : a) Dyes and pigments: General idea about the chemistry of dyes, Classification of dyes, Origin of the colors in the dyes and pigments, and application in garment and printing industries. b) Polymers: Natural and synthetic polymers, synthesis, properties, and applications. (Examples: polyester, rubber, nylon, bakelite, etc). Introduction to biopolymers. Application of synthetic polymers in surgical treatments and transplantations. c) Food and beverage industry: use of preservatives, food adulteration, flavor enhancers, artificial sweetening agents, and antioxidants. d) Fragrance: Basic principles, types of fragrances, and their applications. e) Cleansing agents: Soaps, detergents, Surfactants, and underlying chemistry of cleansing agents."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ11",
+          "name": "Basic Concepts of Chemistry-|",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Atomic Structure: Wave-particle duality, Heisenberg uncertainty principle, Schrodinger wave equation, Eigenvalues and Eigenfunctions, significance of Y and 2 Radial and angular wave functions, Multi-electron system: Concept of Effective Nuclear Charge (Slater's rules)."
+            },
+            {
+              "unit": 2,
+              "topics": "Atomic properties and their periodic trends: A brief introduction to the modern periodic table (Block wise). Atomic size (Covalent, lonic and van der Waal's radii; Lanthanide contraction), Electron loss, and electron gain enthalpies. Inert pair effect. Electronegativity (Pauling, Mulliken, Allred Rochow's methods of determination): As a criterion of Loawal bien | Abbi AR AR AeA An al iba enthalpies. Inert pair effect. Electronegativity (Pauling, Mulliken, Allred Rochow's methods of determination): As a criterion of bond type. Lattice energy and its determination: a) Born-Haber cycle b) Born Lande equation c) Comparison of experimental and theoretical values. Solvation/Hydration energy (Solubility of ionic solids in water). Covalency in ionic compounds (Fajan's rules). Redox reaction, Standard electrode potential and its determination. Electrochemical series and its applications Latimer and Frost diagrams; specific illustrative examples."
+            },
+            {
+              "unit": 3,
+              "topics": "Gaseous State: Kinetic theory of gases and ideal gas laws, Maxwell distribution of speed, Equipartition of Energy collisions in a gas: collision number, collision diameter and mean free path, behaviour of real gases: van der Waals equation and its applicability, the critical state: critical constants, law of corresponding states."
+            },
+            {
+              "unit": 4,
+              "topics": "Liquid State: Surface tension, capillary action, measurement of surface tension, viscosity of liquids and its measurement, temperature effect on surface tension and viscosity & Solid State: Crystal lattices, space lattice, unit cell, crystal systems, law of rational indices, Miller indices, Bragg's equation, crystal structure of NaCl, graphite and diamond."
+            },
+            {
+              "unit": 6,
+              "topics": "Chemical Thermodynamics and its Applications: First law of Thermodynamics, Thermodynamic quantities (w, gq, AU and AH) for isothermal and adiabatic reversible expansion of ideal gases, Kirchoff's relations, Joule effect, Joule-Thomson effect, Joule-Thomson coefficient of real (van der Waals) gases. Second Law of Thermodynamics, Carnot cycle, concept of entropy and its physical significance, entropy changes for an ideal gas, entropy changes at constant pressure and volume, entropy change in spontaneous processes, free energy and maximum work functions, conditions for spontaneous changes and equilibrium, Gibbs-Helmholtz equation, Maxwell relations. Statement of third law of Thermodynamics"
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ12",
+          "name": "Lab Work - |",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Preparation of molecular models using wire and beads to study (a) Various hybridization geometries (b) Isomerism"
+            },
+            {
+              "unit": 2,
+              "topics": "Identification of Metal ions by borax bead test"
+            },
+            {
+              "unit": 3,
+              "topics": "Preparation of some simple and double salts."
+            },
+            {
+              "unit": 4,
+              "topics": "Study of displacement of ions in aqueous solutions (e.g. Cu2+ by Zn)"
+            },
+            {
+              "unit": 5,
+              "topics": "Preparation of m-dinitrobenzene from nitrobenzene"
+            },
+            {
+              "unit": 6,
+              "topics": "Preparation of acetanilide from aniline Note: Experiments may be added/ modified subject to availability of facilities."
+            }
+          ]
+        },
+        {
+          "code": "CHEMN11",
+          "name": "Basic Concepts of Chemistry-|",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Atomic Structure: Wave-particle duality, Heisenberg uncertainty principle, Schrodinger wave equation, Eigenvalues and Eigenfunctions, significance of Y and 2 Radial and angular wave functions, Multi-electron system: Concept of Effective Nuclear Charge (Slater's rules)."
+            },
+            {
+              "unit": 2,
+              "topics": "Atomic properties and their periodic trends: A brief introduction to the modern periodic table (Block wise).Atomic size (Covalent, lonic and van der Waals radii; Lanthanide contraction), Electron loss, and electron gain enthalpies. Inert pair effect. Electronegativity (Pauling, Mulliken, Allred Rochows methods of determination): As a criterion of Loawal bien | Abbi AR AR AeA An al iba CIILIIdlpIes. IIerlL Pall CIICCL. CLECLIOTIEYALIVILY (Pauling, Mulliken, Allred Rochows methods of determination): As a criterion of bond type. Lattice energy and its determination: a) Born-Haber cycle b) Born Lande equation c) Comparison of experimental and theoretical values. Solvation/Hydration energy (Solubility of ionic solids in water). Covalency in ionic compounds (Fajans rules). Redox reaction, Standard electrode potential and its determination. Electrochemical series and its applications Latimer and Frost diagrams; specific illustrative example."
+            },
+            {
+              "unit": 3,
+              "topics": "Gaseous State: Kinetic theory of gases and ideal gas laws, Maxwell distribution of speed, Equipartition of Energy collisions in a gas: collision number, collision diameter and mean free path, behaviour of real gases: van der Waals equation and its applicability, the critical state: critical constants, law of corresponding states."
+            },
+            {
+              "unit": 4,
+              "topics": "Liquid State: Surface tension, capillary action, measurement of surface tension, viscosity of liquids and its measurement, temperature effect on surface tension and viscosity"
+            },
+            {
+              "unit": 5,
+              "topics": "Solid State: Crystal lattices, space lattice, unit cell, crystal systems, law of rational indices, Miller indices, Braggs equation, crystal structure of NaCl, graphite and diamond"
+            },
+            {
+              "unit": 6,
+              "topics": "Chemical Thermodynamics and its Applications: First law of Thermodynamics, Thermodynamic quantities (w, g, AU and AH) for isothermal and adiabatic reversible expansion of ideal gases, Kirchoff's relations, Joule effect, Joule-Thomson effect, Joule-Thomson coefficient of real (van der Waals) gases. Second Law of Thermodynamics, Carnot cycle, concept of entropy and its physical significance, entropy changes for an ideal gas, entropy changes at constant pressure and volume, entropy change in spontaneous processes, free energy and maximum work functions, conditions for spontaneous changes and equilibrium, Gibbs-Helmholtz equation, Maxwell relations. Statement of third law of Thermodynamics."
+            }
+          ]
+        },
+        {
+          "code": "CHEMN12",
+          "name": "Lab Work - |",
+          "credits": 1,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Preparation of molecular models using wire and beads to study (a) Various hybridization geometries (b) Isomerism"
+            },
+            {
+              "unit": 2,
+              "topics": "Identification of Metal ions by borax bead test Z Dranaratian af cama cimnla and dahlia"
+            },
+            {
+              "unit": 3,
+              "topics": "Preparation of some simple and double salts."
+            },
+            {
+              "unit": 4,
+              "topics": "Study of displacement of ions in aqueous solutions (e.g. Cu2+ by Zn)"
+            },
+            {
+              "unit": 5,
+              "topics": "Preparation of m-dinitrobenzene from nitrobenzene"
+            },
+            {
+              "unit": 6,
+              "topics": "Preparation of acetanilide from aniline Note: Experiments may be added/ modified subject to availability of facilities."
+            }
+          ]
+        },
+        {
+          "code": "CHESE11",
+          "name": "Quality Control in Chemical Analysis",
+          "credits": 3,
+          "course_type": "Skill Enhancement",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Statistical Quality Control Techniques: Statistical treatment of data, Control charts, Performance Evaluation uncertainties in measurement, Validation of analytical methods, Elements of quality Assurance, Principles of Good Laboratory Practices, Good manufacturing Practices in Drugs and Pharmaceutical Industries, Accreditation of QC laboratories, Tools and Mechanisms ICH Guidelines on Drug substances and Products."
+            },
+            {
+              "unit": 2,
+              "topics": "Quality Management and Standards: Quality Management System(QMS), Quality management concepts and principles: ISO 9001:2000 QMS, Case studies on ISO 9001: 2000 in chemical industries. ISO 14000 Series of Standards. Total Quality Management (TQM) in Chemical Industry. Six Sigma Approach to Quality: Applying Six Sigma to chemical Industries."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "papers": [
+        {
+          "code": "CHEMD21",
+          "name": "Energy & Metallurgy",
+          "credits": 3,
+          "course_type": "Multidisciplinary",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Photosynthesis: Introduction- a key process for life on earth, Light reaction, Dark reaction, Factors affecting photosynthesis, Photorespiration, artificial photosynthesis."
+            },
+            {
+              "unit": 2,
+              "topics": "Energy Sources and storage: Introduction to renewable (green) and non-renewable sources of energy. Requirement and consumption of energy in India. Worldwide potential of these sources. Understanding (i) Definition (ii) source (iii) advantages/ disadvantages (iv) environmental aspects (v) future scope/ sustainability along with specific attributes of each of the following types: Non-Renewable: a) Thermal-Oil, natural gas, and coal Oil = Orinin camnacitinn cnarifiratinn and Non-Renewable: a) Thermal-Oil, natural gas, and coal Oil - Origin, composition, specification, and characteristics of petroleum products Natural gas - Classification (natural and synthetic gas), Natural gas reserves - India and World Coal: Coal reserves- India and World, Origin, composition, Action of heat on coal, Coal derived chemicals b) Nuclear energy - Radioactivity, Different types of radiation, Nuclear fission, Basic components of Nuclear power reactor. Renewable: a) Solar energy - Importance, storage, applications (solar cooker, solar weather heater, solar greenhouses, solar cell, absorption air conditioning) b) Biomass energy - biomass conversion, biogas generation (types of plants needed, plant wastes, materials), Utilisation of biogas, energy farming (biomass production for energy) c) Fuel Cell d) Li-ion battery"
+            },
+            {
+              "unit": 3,
+              "topics": "Metals and Metallurgy: Role of metals in our life with special mention of Iron and Copper, Recovery of Iron and copper from its ores, Stainless Steel, corrosion of metals, and its prevention."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ21",
+          "name": "Basic Concepts of Chemistry - Il",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Chemical Bonding: i) A comparative account of the Valence Bond (VB) and Molecular Orbital (MO) approach of H2 molecule. Molecular orbital treatment of Homonuclear diatomic molecules of elements of first and second period and Heteronuclear (CO, NO) diatomic molecules. Illustration of HOMO and LUMO. ii) Concept of Hybridization, Bent's Rule, VSEPR theory applied to the compounds of s and p block elements. iii) An introduction to multi-center bonding with illustrative examples of Li-alkyls and diborane. iv) Concept of multiple bonding (p p and p -d) with illustrative examples of BF3, P4010, (Me3Si)3N and SiF4"
+            },
+            {
+              "unit": 2,
+              "topics": "lonic Bonding: A brief introduction to Crystal Packing, Radius Ratio rule, and its exceptions Structures of a few representative crystal types (Rock salt, Zinc blende, Wurtzite, Rutile, Brookite and Anatase)."
+            },
+            {
+              "unit": 3,
+              "topics": "Metallic Bonding: Theories of bonding in metal: Valence Bond, Free electron, and Band theories."
+            },
+            {
+              "unit": 4,
+              "topics": "Weak Interactions: Brief introduction to Hydrogen bonding and other weak interactions: Effects on physical and chemical properties."
+            },
+            {
+              "unit": 5,
+              "topics": "Electronic and Field Effect: Electronic (electromeric, inductive, resonance, mesomeric effect, and hyperconjugation) and steric effects on the acidity/basicity of organic molecules."
+            },
+            {
+              "unit": 6,
+              "topics": "Stereochemistry: Fischer, Saw-horse and Newman projection formulae. Chirality-optical activity, enantiomerism and diasteroisomerism involving one and two chiral centers. Configuration: D/L, erythrose/threose, R/S nomenclatures; geometrical isomerism - E/Z nomenclatures. Conformations of n-butane."
+            },
+            {
+              "unit": 7,
+              "topics": "Hydrocarbons: i. Alkenes: Addition reactions (electrophilic and free radical), hydration, hydroxylation, hydroboration, epoxidation, ozonolysis and polymerization. Addition reactions of conjugated dienes and Diels-Alder reaction. ii. Alkynes: Reduction, electrophilic addition, acidity and metal acetylides"
+            },
+            {
+              "unit": 8,
+              "topics": "Alkyl Halides: Nucleophilic substitution: SN1, SN2 and SNi, Eliminations reactions: E1, E2, and E1cB mechanisms. Elimination versus substitution reactions. Preparation and synthetic applications of Grignard reagents."
+            },
+            {
+              "unit": 9,
+              "topics": "Alcohols and Ethers: Preparation and reactions of primary, secondary, and tertiary alcohols and ethers."
+            },
+            {
+              "unit": 10,
+              "topics": "Active methylene compounds: Preparation and synthetic applications of ethyl acetoacetate and diethyl malonate. (L)"
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ22",
+          "name": "Lab Work - II",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Preparation of molecular models using wire and beads to study (a) Various hybridization geometries (b) Isomerism"
+            },
+            {
+              "unit": 2,
+              "topics": "Identification of Metal ions by borax bead test Z Dranaratian af cama cimnla and dahlia"
+            },
+            {
+              "unit": 3,
+              "topics": "Preparation of some simple and double salts."
+            },
+            {
+              "unit": 4,
+              "topics": "Study of displacement of ions in aqueous solutions (e.g. Cu2+ by Zn)"
+            },
+            {
+              "unit": 5,
+              "topics": "Preparation of m-dinitrobenzene from nitrobenzene"
+            },
+            {
+              "unit": 6,
+              "topics": "Preparation of acetanilide from aniline Note: Experiments may be added/ modified subject to availability of facilities."
+            }
+          ]
+        },
+        {
+          "code": "CHEMN21",
+          "name": "Basic Concepts of Chemistry - Il",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Chemical Bonding: i) A comparative account of the Valence Bond (VB) and Molecular Orbital (MO) approach of H2 molecule. Molecular orbital treatment of Homonuclear diatomic molecules of elements of first and second period and Heteronuclear (CO, NO) diatomic molecules. Illustration of HOMO and LUMO. ii) Concept of Hybridization, Bents Rule, VSEPR theory applied to the compounds of s and p block elements. iii) An introduction to multi-center bonding with illustrative examples of Li-alkyls and diborane. iv) Concept of multiple bonding (p-p and pd) with illustrative examples of BF3, P4010, (Me3Si)3N and SiF4."
+            },
+            {
+              "unit": 2,
+              "topics": "lonic Bonding: A brief introduction to Crystal Packing, Radius Ratio rule, and its exceptions Structures of a few representative crystal types (Rock salt, Zinc blende, Wurtzite, Rutile, Brookite and Anatase)."
+            },
+            {
+              "unit": 3,
+              "topics": "Metallic Bonding: Theories of bonding in metal: Valence Bond, Free electron, and Band theories."
+            },
+            {
+              "unit": 4,
+              "topics": "Weak Interactions: Brief introduction to Hydrogen bonding and other weak interactions: Effects on physical and chemical properties."
+            },
+            {
+              "unit": 5,
+              "topics": "Electronic and Field Effect: Electronic (electromeric, inductive, resonance, mesomeric effect, and hyperconjugation) and steric effects on the acidity/basicity and reactivity of organic molecules."
+            },
+            {
+              "unit": 6,
+              "topics": "Stereochemistry: Fischer, Saw-horse and Newman projection formulae. Chirality-optical activity, enantiomerism and diasteroisomerism involving one and two chiral centers. Configuration: D/L, erythrose/threose, R/S nomenclatures; geometrical isomerism - E/Z nomenclatures. Conformations of n-butane."
+            },
+            {
+              "unit": 7,
+              "topics": "Hydrocarbons: i. Alkenes: Addition reactions (electrophilic and free radical), hydration, hydroxylation, hydroboration, epoxidation, ozonolysis and polymerization. Addition reactions of conjugated dienes and Diels-Alder reaction. ii. Alkynes: Reduction, electrophilic addition, acidity and metal acetylides."
+            },
+            {
+              "unit": 8,
+              "topics": "Alkyl Halides: Nucleophilic substitution: SN1, SN2 and SNi, Eliminations reactions: E1, E2, and E1cB mechanisms. Elimination versus substitution reactions. Preparation and synthetic applications of Grignard reagents."
+            },
+            {
+              "unit": 9,
+              "topics": "Alcohols and Ethers: Preparation and reactions of primary, secondary, and tertiary alcohols and ethers."
+            },
+            {
+              "unit": 10,
+              "topics": "Active methylene compounds: Preparation and synthetic applications of ethyl acetoacetate and diethyl malonate. (L)."
+            }
+          ]
+        },
+        {
+          "code": "CHEMN22",
+          "name": "Lab Work - II",
+          "credits": 1,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Preparation of molecular models using wire and beads to study (a) Various hybridization geometries (b) Isomerism"
+            },
+            {
+              "unit": 2,
+              "topics": "Identification of Metal ions by borax bead test Z Dranaratian af cama cimnla and dahlia"
+            },
+            {
+              "unit": 3,
+              "topics": "Preparation of some simple and double salts."
+            },
+            {
+              "unit": 4,
+              "topics": "Study of displacement of ions in aqueous solutions (e.g. Cu2+ by Zn)"
+            },
+            {
+              "unit": 5,
+              "topics": "Preparation of m-dinitrobenzene from nitrobenzene"
+            },
+            {
+              "unit": 6,
+              "topics": "Preparation of acetanilide from aniline. Note: Experiments may be added/ modified subject to availability of facilities."
+            }
+          ]
+        },
+        {
+          "code": "CHESE21",
+          "name": "Instrumentation in Chemical Industry",
+          "credits": 3,
+          "course_type": "Skill Enhancement",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Thermoanalytical methods: Thermoanalytical methods: thermogravimetry, factors affecting thermogravimetric curves, derivative thermogravimetry (DTG), thermobalance. Applications of thermogravimetry, differential thermal analysis (DTA), factors affecting DTA curves, instrumentation, and application of DTA. Differential scanning calorimetry (DSC), theory, instrumentation, applications of DSC, thermometric titrations, and principal classification."
+            },
+            {
+              "unit": 2,
+              "topics": "Electrochemical Analysis: Potentiometry fundamentals, reference electrodes (hydrogen, calomel, silver, and silver chloride electrode).Indicator and ion selective electrode, instrumentation and measurement of cell and emf-conductance and conductometric titrations."
+            },
+            {
+              "unit": 3,
+              "topics": "Structure Analysis: Diffraction Techniques: Elementary theory (Neutron. Electron and X-ray diffraction), instrumentation, and applications of X-ray methods (emission, absorption, diffraction, and fluorescence methods). Spectroscopic Techniques: Atomic absorption, Spectroscopy, Atomic emission spectrometry, UV-visible molecular absorption spectrometry, Molecular luminescence spectroscopy (fluorescence, phosphorescence, chemiluminescence)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 3,
+      "papers": [
+        {
+          "code": "CHEMD31",
+          "name": "Environmental Chemistry",
+          "credits": 3,
+          "course_type": "Multidisciplinary",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction: Concept and scope of environmental chemistry, Pollution versus contamination, Receptor, Sink, and pathways of a pollutant. Terminology (DO, BOD, COD,TLV) used in environmental analysis and their estimation."
+            },
+            {
+              "unit": 2,
+              "topics": "Environmental Segments: Atmosphere- Regions of atmosphere, Carbon Footprint, Greenhouse effect, and Global warming, ozone hole.Hydrosphere- Microorganisms in aquatic chemical reactions, eutrophication versus oligotrophication. Lithosphere- Soil profile, soil properties, organic and inorganic components of soil, micro- andmacro-nutrients.Biosphere. Z Rladiseanl avsalan Af ban"
+            },
+            {
+              "unit": 3,
+              "topics": "Natural cycles of the environment:Hydrological cycle, oxygen cycle, nitrogen cycle, phosphate cycle, and sulfur cycle."
+            },
+            {
+              "unit": 4,
+              "topics": "Pollution:Sources of air pollution, Auto exhaust emission, and its prevention. Air quality parameters, EL-Nino phenomenon, Water pollution, Acid rains, Waste water treatment: domestic and industrial effluents. Water quality parameters. Recent environmental concerns in the national and global context."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ31",
+          "name": "Inorganic Chemistry - |",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Chemistry of main group elements with special references of the following Flame colorations of alkali and alkaline earth metals. Complexes of alkali and alkaline earth metals (the idea of complexation, examples having inorganic, organic chelating ligands, crowns, electrides, and crypts.). Difference between the first and the other members of the group [Be and other elements, B and other elements]. Metalloids. Allotropes (of C, N, P, O, and S) Hydrides, Halides, Hydroxides, Oxo-acids and their salts, and Oxide With special emphasis on (i) Relevant structures (ii) Acidity and Basicity (iii) Redox behaviour (iv) Stabilities (v) Classification and typical examples, and (vi) General methods of preparation of the aforementioned genres."
+            },
+            {
+              "unit": 2,
+              "topics": "Industrial Chemistry: Silicates with examples of practical utilities (Zeolites. Application in Molecular sieves) Glass, Ceramics, Refractories, Cement, Fertilizers(Nitrogenous and Phosphate fertilizers)."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ32",
+          "name": "Organic Chemistry - |",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Chemistry of Carbonyl compounds: Preparations and reactions - addition and condensation reactions, Cannizzaro, Perkin, Aldol, Benzoin, Haloform, Mannich, and Baylis-Hillman reaction. Important reactions of acids, HVZ reaction, relative reactivity of acid chlorides, acid anhydrides, amides, and esters."
+            },
+            {
+              "unit": 2,
+              "topics": "Chemistry of Phosphorous and Sulphur Ylides: Preparation and Reactions. Wittig reaction, Arbuzov rearrangement, Horner- Woodsworth Emons Modification."
+            },
+            {
+              "unit": 3,
+              "topics": "Aromaticity: A general concept of aromaticity antiaromaticity and homoaromaticity. Molecular orbital picture of benzene.Benzenoid and non-benzenoid systems, alternant and non- alternant hydrocarbons."
+            },
+            {
+              "unit": 4,
+              "topics": "Aromatic Electrophilic Substitution: Mechanism of nitration, halogenation, sulphonation, and Friedel-Crafts (alkylation and acylation) reactions. Effects of substituents on ortho/para ratio, orientation and reactivity."
+            },
+            {
+              "unit": 5,
+              "topics": "Preparation and Reactions of Phenols."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ33",
+          "name": "Physical Chemistry - |",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Electrochemistry: Arrhenius theory of electrolytic dissociation; Conductance of electrolytes in solution; lonic conductance, transference number, Determination of transport number by moving boundary method. Kohlrausch's law of independent migration of ions, ion conductance and ionic mobility, applications of conductance measurements, conductometric titrations."
+            },
+            {
+              "unit": 2,
+              "topics": "Chemical Cells and Electromotive Force: Types of Electrodes and electrode reactions, Electrode potential, Standard Electrode potentials, Electrochemical cells, EMF and chemical cell reactions. Free energy, enthalpy and entropy changes of cell reactions; Concentration cells with and vuritharit liana tunctian liquid iinetian Types of Electrodes and electrode reactions, Electrode potential, Standard Electrode potentials, Electrochemical cells, EMF and chemical cell reactions. Free energy, enthalpy and entropy changes of cell reactions; Concentration cells with and without liquid junction, liquid junction potential, salt bridges, applications of EMF measurements.Glass electrode and determination of pH of a solution. Potentiometric titrations: acid-base and redox. Buffer Solutions, Acid-base Indicators."
+            },
+            {
+              "unit": 3,
+              "topics": "Phase Equilibria: Thermodynamics of phase transition, Clapeyron-Clausius equation, phase rule, phase diagrams of one- component (water) and two components (phenol-water and Pb-Ag) systems, distribution law, application to cases for dissociation and association, determination of equilibrium constant (KI + 12 = KI3)."
+            },
+            {
+              "unit": 4,
+              "topics": "Chemical Kinetics: Rate laws for zero, first, and second and Pseudo first-order reactions, steady state approximation, temperature dependence of rates of chemical reactions, Collision theory, qualitative concepts of transition state theory."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ34",
+          "name": "Qualitative Analysis and Thermochemistry",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 2,
+              "topics": "Thermochemistry: Determination of water equivalent of a calorimeter and the enthalpy of neutralization hydrochloric acid with sodium hydroxide. Determination of enthalpy of ionization of ethanoic acid. Determination of integral enthalpy of solution of salts"
+            }
+          ]
+        },
+        {
+          "code": "CHEMV31",
+          "name": "Industrial Chemistry-|",
+          "credits": 3,
+          "course_type": "Minor (VOC)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Cosmetics, Soaps, and Detergents: Definition and classification of cosmetics, soaps, and detergents, Historical development and cultural significance, Regulatory framework and quality standards."
+            },
+            {
+              "unit": 2,
+              "topics": "Cosmetics: Types of cosmetics (skincare, makeup, haircare, etc.), Cosmetic ingredients and their functions (emollients, emulsifiers, preservatives, etc.), Formulation and manufacturing processes, Packaging and labelling requirements."
+            },
+            {
+              "unit": 3,
+              "topics": "Soaps: Saponification process and soap chemistry, Types of soaps (bar, liquid, transparent, etc.), Specialty soaps (medicated, herbal, etc.), Soap additives and fragrances."
+            },
+            {
+              "unit": 4,
+              "topics": "Detergents: Types of detergents (household, industrial, personal care, etc.), Surfactants and their role in detergency, Formulation and production processes, Environmental considerations and biodegradability."
+            },
+            {
+              "unit": 5,
+              "topics": "Safety, Regulation and Consumer Awareness: Safety considerations in cosmetic and detergent production, Regulatory agencies and compliance requirements, Consumer awareness and product labelling."
+            }
+          ]
+        },
+        {
+          "code": "CHEMV32",
+          "name": "Industrial Chemistry Lab Work - I",
+          "credits": 1,
+          "course_type": "Minor (VOC)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Preparation of Soaps, Detergents, and various types of cosmetics."
+            }
+          ]
+        },
+        {
+          "code": "CHESE31",
+          "name": "Synthetic Methodologies",
+          "credits": 3,
+          "course_type": "Skill Enhancement",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Purification and drying of solvents: Water and common non-aqueous solvents. Distillation (including fractional distillation and distillation under low pressure). Removal of hazardous impurities from solvents. Drying of non-aqueous solvents."
+            },
+            {
+              "unit": 2,
+              "topics": "Synthesis: Preparation of sodium solution in liquid ammonia and its application. Synthesis and Applications of Grignard Reagent."
+            },
+            {
+              "unit": 3,
+              "topics": "Click Chemistry: Regioselectivity in Click Chemistry, CUAAC, RUAAC, Bioorthogonal Chemistry, Organocatalyzed Click, Sufex, Thiol-ene Click, and Their Applications."
+            },
+            {
+              "unit": 4,
+              "topics": "Reduction using metal hydrides."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 4,
+      "papers": [
+        {
+          "code": "CHEMJ41",
+          "name": "Inorganic Chemistry - II",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Acids and Bases: Br@nsted-Lowry, Lux- Flood and Solvent system concepts of acids and bases, leveling effect, Lewis concept of acids and bases and factors affecting their strength, HSAB theory applications: Characteristics of hard-soft acids and bases and borderline cases. Prediction of the feasibility of reactions and stability of compounds, bonding preferences, occurrence of metals as ores in nature, and symbiosis. Super-acids and frustrated acid-base pairs."
+            },
+            {
+              "unit": 2,
+              "topics": "Non-aqueous Solvent: Significance of a solvent towards chemical reactions and limitations of water as a solvent. Classification and solvent physical properties for being an effective reaction medium, viz. melting and boiling points, heat of fusion and vaporization, dielectric constant, dipole moment, and viscosity. Liquid NH3 as a non- aqueous solvent, chemical reactions, and alkali metal solutions in liquid NH3. A brief introduction to solvent-free, ionic liquid, and green synthesis."
+            },
+            {
+              "unit": 3,
+              "topics": "Transition Metal Chemistry: Characteristics of d-block elements with special reference to 3d transition series (electronic configuration, oxidation state, color, spin- only magnetic moment, complex formation, and catalytic properties."
+            },
+            {
+              "unit": 4,
+              "topics": "Coordination compounds: Molecular addition compounds: double salts and coordination compounds. Definition of ligand, denticity. Werner's theory, nomenclature of coordination complexes. Sidgwick's EAN concept and Valence Bond Theory, outer/inner orbital complexes. Geometrical isomerism of coordination compounds with coordination nos. 4 and 6 (Ma6, Ma5b, Ma4b2, Ma3b3, M(aa)3, M(aa)2b2 type). Optical isomerism."
+            },
+            {
+              "unit": 5,
+              "topics": "Lanthanides: Separation of Lanthanide elements (Various methods in brief). Comparative study of lanthanide elements with respect to electronic configuration, atomic and ionic radii, oxidation state, lanthanide contraction, and complex formation tendency."
+            },
+            {
+              "unit": 6,
+              "topics": "Actinides: Occurrence and preparation of actinide elements. Special reference/method to the enrichment of Uranium. Comparative study of actinide elements with respect to electronic configuration, atomic and ionic radii, oxidation states, compounds, and complex formation tendency."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ42",
+          "name": "Organic Chemistry - II",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Nitrogen containing compounds: Preparation and reactions of nitrobenzene and aniline. Preparation and synthetic applications of Diazonium salts."
+            },
+            {
+              "unit": 2,
+              "topics": "Heterocyclic Compounds: Nomenclature of heterocyclic compounds, synthesis and reactions of furan, pyrrole, thiophene, pyridine, indole and quinoline."
+            },
+            {
+              "unit": 3,
+              "topics": "Colour and Constitution: Synthesis of malachite green, fluorescein, Indigotin."
+            },
+            {
+              "unit": 4,
+              "topics": "Alicyclic compounds: Cycloalkanes, general synthesis, Bayer's strain theory. Cyclohexane: chair and boat conformations, conformation of mono substituted and disubstituted cyclohexanes."
+            },
+            {
+              "unit": 5,
+              "topics": "Protection and Deprotection of Functional Groups: protection of NH group, OH group, diols, carbonyl groups, carboxyl groups, double bonds and triple bonds."
+            },
+            {
+              "unit": 6,
+              "topics": "Carbohydrates: Characteristic reactions of aldoses and ketoses. Glucose-structure (Open and Cyclic), Mutarotation, anomeric effect, iminosugar and sialic acids. Sucrose, starch and cellulose (Structural aspects only), glycosylation reactions."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ43",
+          "name": "Physical Chemistry - Il",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Thermodynamics of Solutions: Partial molal quantities, chemical potential of a mixture of ideal gases, Gibbs-Duhem equation, chemical potential of real gases and fugacity, activity and activity coefficient, variation of fugacity with temperature and pressure, Lewis-Randall rule, thermodynamic functions of mixing (AGmix, ASmix, AVmix,AHmix), ideal solutions and their characteristic properties, Duhem-Margules equation and its applications, Henry and Raoult's laws, thermodynamics of colligative properties, relative lowering of vapour pressure, freezing point depression, elevation of boiling point and osmotic pressure, van't Hoff equation, measurement of osmotic pressure and datarminatian af malaciilar wainht af determination of molecular weight of macromolecules."
+            },
+            {
+              "unit": 2,
+              "topics": "Surface and Photochemistry: Langmuir adsorption isotherm, Multi-layer adsorption-BET equation (no derivation) and its application to surface area measurements; Gibbs Adsorption isotherm, surface reactions: kinetics of unimolecular surface reactions, inhibition and activation energy, nature of surface. Enzyme kinetics (Michaelis-Menten equation), Photochemical reactions: quantum efficiency, reasons for low and high quantum efficiency, kinetics of photochemical reactions: decomposition of HI, H2-Br2 reaction, photostationary state: dimerisation of anthracene, Stern-Volmer relation."
+            },
+            {
+              "unit": 3,
+              "topics": "Nuclear Chemistry: Radioactivity: general characteristics of radioactive decay kinetics, artificial radioactivity, detection and measurement of radioactivity: GM counter. Nuclear Reactions: Types of nuclear reactions, conservation of linear momentum and mass- energy in nuclear reactions, nuclear reaction cross section. Compound nucleus theory and its experimental verification. Radio chemistry: Probing by isotopes, preparation of radioisotopes, radiochemical principles in use of tracers, some typical applications: chemical, physicochemical and analytical applications, age determination. Radiation Chemistry: Interaction of nuclear radiations with matter- charged particle, neutrons and gamma rays. Radiolysis of water and aqueous solutions, radiation dosimetry."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ44",
+          "name": "Techniques in Chemistry",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Separation and Instrumental Methods Distillation, Crystallization, Precipitation, Extraction, Chromatography, Introductory ideas of UV-visible spectroscopy, Infrared Spectroscopy, and NMR Spectroscopy."
+            },
+            {
+              "unit": 2,
+              "topics": "General Introduction to Analysis, and Stoichiometric Calculations Qualitative and quantitative analysis, primary standard, secondary standard, preparation of standard solutions, molarity, normality, molality, weight/weight percentage, weight/volume percentage, and ppm."
+            },
+            {
+              "unit": 3,
+              "topics": "Concepts of Acid-Base Equilibria and Titrations General concepts of acids and bases, strength of conjugate acid/base pair, acid-base equilibria in water, pH calculations for strong acids and strong bases, concepts of acid- base titration, complexometric titration, redox titration, and precipitation titration, indicators."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ45",
+          "name": "Physical Chemistry Lab Work",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Complexometric titrations with EDTA: Mg2+, Zn2+ estimation."
+            },
+            {
+              "unit": 2,
+              "topics": "Determination of the hardness of water."
+            },
+            {
+              "unit": 3,
+              "topics": "Kinetics study of acid catalysed hydrolysis of methyl acetate."
+            },
+            {
+              "unit": 4,
+              "topics": "Determination of pH of a given buffer by colour matching method."
+            },
+            {
+              "unit": 5,
+              "topics": "Determination of Critical Solution Temperature (CST) of Phenol-Water system."
+            },
+            {
+              "unit": 6,
+              "topics": "Effect of impurity on Critical Solution Temperature of Phenol-Water system Note: Experiments may be added/ modified subject to availability of facilities."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ46",
+          "name": "Organic and Inorganic Chemistry Lab Work",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Acetanilide from aniline"
+            },
+            {
+              "unit": 2,
+              "topics": "p-Bromo acetanilide from acetanilide"
+            },
+            {
+              "unit": 3,
+              "topics": "Phthalic anhydride from phthalic acid"
+            },
+            {
+              "unit": 4,
+              "topics": "Preparation of phenyl-azo-B-naphthol (an Azo dye)."
+            },
+            {
+              "unit": 5,
+              "topics": "Preparation of aniline yellow (p-amino- azobenzene)."
+            },
+            {
+              "unit": 6,
+              "topics": "Preparation of Schiff base (Salicylaldehyde and aniline) B. Preparation of Some Inorganic complexes (Including those using the prepared Schiff base as ligand) Purification by recrystallization of the compounds. C. Preparation of standard solutions (both primary and secondary) of a particular normality/molarity. D. Application of Separation and Purification Techniques. Note: Experiments may be added/ modified subject to availability of facilities."
+            }
+          ]
+        },
+        {
+          "code": "CHEMN41",
+          "name": "Physical Chemistry - Il",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Thermodynamics of Solutions: Partial molal quantities, chemical potential of a mixture of ideal gases, Gibbs-Duhem equation, chemical potential of real gases and fugacity, activity and activity coefficient, variation of fugacity with temperature and pressure, Lewis-Randall rule, thermodynamic functions of mixing (AGmix, ASmix, AVmix, AHmix) , ideal solutions and their characteristic properties, Duhem-Margules equation and its applications, Henry and Raoults laws, thermodynamics of colligative properties, relative lowering of vapour pressure, freezing point depression, elevation of boiling point and osmotic pressure, vant Hoff equation, measurement of osmotic pressure and datarminatian af malaciilar wainht af WNETMOAYNdaMmiCs OF COLUIQALIVe PrOperlies, relative lowering of vapour pressure, freezing point depression, elevation of boiling point and osmotic pressure, vant Hoff equation, measurement of osmotic pressure and determination of molecular weight of macromolecules."
+            },
+            {
+              "unit": 2,
+              "topics": "Surface and Photochemistry: Langmuir adsorption isotherm, Multi-layer adsorption-BET equation (no derivation) and its application to surface area measurements; Gibbs Adsorption isotherm, surface reactions: kinetics of unimolecular surface reactions, inhibition and activation energy, nature of surface. Enzyme kinetics (Michaelis-Menten equation), Photochemical reactions: quantum efficiency, reasons for low and high quantum efficiency, kinetics of photochemical reactions: decomposition of HI, H2-Br2 reaction, photostationary state: dimerisation of anthracene, Stern-Volmer relation."
+            },
+            {
+              "unit": 3,
+              "topics": "Nuclear Chemistry: Radioactivity: general characteristics of radioactive decay kinetics, artificial radioactivity, detection and measurement of radioactivity: GM counter. Nuclear Reactions: Types of nuclear reactions, conservation of linear momentum and mass- energy in nuclear reactions, nuclear reaction cross section. Compound nucleus theory and its experimental verification. Radio chemistry: Probing by isotopes, preparation of radioisotopes, radiochemical principles in use of tracers, some typical applications: chemical, physicochemical and analytical applications, age determination. Radiation Chemistry: Interaction ofnuclear radiations with matter- charged particle, neutrons and gamma rays. Radiolysis of water and aqueous solutions, radiation dosimetry."
+            }
+          ]
+        },
+        {
+          "code": "CHEMN42",
+          "name": "Techniques in Chemistry",
+          "credits": 1,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Separation and Instrumental Methods Distillation, Crystallization, Precipitation, Extraction, Chromatography, Introductory ideas of UV-visible spectroscopy, Infrared Spectroscopy, and NMR Spectroscopy."
+            },
+            {
+              "unit": 2,
+              "topics": "General Introduction to Analysis, and Stoichiometric Calculations Qualitative and quantitative analysis, primary standard, secondary standard, preparation of standard solutions, molarity, normality, molality, weight/weight percentage, weight/volume percentage, and ppm."
+            },
+            {
+              "unit": 3,
+              "topics": "Concepts of Acid-Base Equilibria and Titrations General concepts of acids and bases, strength of conjugate acid/base pair, acid-base equilibria in water, pH calculations for strong acids and strong bases, concepts of acid-base titration, complexometric titration, redox titration, and precipitation titration, indicators."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 5,
+      "papers": [
+        {
+          "code": "CHEMIN51",
+          "name": "Internship",
+          "credits": 3,
+          "course_type": "Internship",
+          "syllabus": null
+        },
+        {
+          "code": "CHEMJ51",
+          "name": "Analytical Chemistry - |",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Statistical Evaluation: Chemical analysis, Classification of analytical methods, Steps in a quantitative analysis, Quantitative range, Determinate and indeterminate errors, Normal error curve, Accuracy and Precision, Relative error, Relative standard deviation, Methods for minimizing errors, Criteria for rejection of observation, Significant figures and computation rules, Error propagation."
+            },
+            {
+              "unit": 2,
+              "topics": "Recent trends for chemical analysis: Method selection, method validation, sample preparation, Analytical validation of results, LOD and LOQ, Good lab practice, Good manufacturing practice."
+            },
+            {
+              "unit": 3,
+              "topics": "Precipitation: Desirable properties of gravimetric precipitates, Formation of gravimetric precipitates, Conditions for quantitative precipitations, Contamination in precipitates, Method for removal of impurities in precipitates, Steps involved in quantitative precipitation, Organic precipitants (oxine, dithizone, a-nitroso- (naphthol, cupferon, dimethyl glyoxime) in chemical analysis."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ52",
+          "name": "Inorganic Chemistry - III",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Theories of Metal-Ligand bonding: Crystal- field theory and crystal-field splitting in octahedral, tetrahedral, and square planar complexes. Jahn-Teller distortion. Factors affecting the crystal-field splitting, Spinel, Inverse spinel, OSSE, Spectrochemical and Nephelauxetic series. Concept of Metal-ligand orbital overlap: ligand field theory, molecular orbital theory with referenceto octahedral 3d transition metal complexes (without -bonding, and with - bonding)."
+            },
+            {
+              "unit": 2,
+              "topics": "Electronic Spectra of Transition Metal Complexes: Types of electronic transitions; static and dynamic electronic transitions, selection rules for d-d transitions, spectroscopic ground states. Explanation of electronic spectra on the basis of Orgel energy level diagrams for d1-d10 ) states. Charge transfer spectra; electronic spectra of octahedral and tetrahedral Co(II) and Ni(II) complexes and calculation of ligand-field parameters."
+            },
+            {
+              "unit": 3,
+              "topics": "Thermodynamic and Kinetic aspects of Metal Complexes: A brief outline of thermodynamic and kinetic stabilities of metal complexes and factors affecting their stability. Substitution reactions of square-planar complexes, Trans effect."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ53",
+          "name": "Organic Chemistry - III",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Stereochemistry: Symmetry elements, symmetry operations, racemates, racemization, resolution (chemical and enzymatic), pro-chirality, concept of homotopic and heterotopic, pro-stereoisomerism with suitable examples of one and two chiral centers. Asymmetric induction, Cram's rule: Addition of nucleophile to carbonyl function. Aldol reaction (achiral-achiral). Regioselective, chemoselective, stereospecific and stereoselective reactions. Estimation of optical purity (ee and de). Axial chirality (e. g., allenes, biphenyls and spiranes)."
+            },
+            {
+              "unit": 2,
+              "topics": "Reactive intermediates: Generation, stability and reactivity of carbocations, carbanions, free-radicals, carbenes, and nitrenes."
+            },
+            {
+              "unit": 3,
+              "topics": "Isotope effect: Isotopic substitution in a molecule, primary and secondary kinetic isotope effects, solvent isotopic effect and their importance in mechanistic studies."
+            },
+            {
+              "unit": 4,
+              "topics": "Name reactions: Michael addition, Mitsunobu reaction, Birch reduction, Wagner- Meerwein, Baeyer-Villiger oxidation, Robinson annulation, Pinacol-pinacolone rearrangement, Wolff rearrangement, dienone-phenol rearrangement, benzidine rearrangement, Favorskii rearrangement. Hofmann, Curtius, & Schmidt rearrangements, Click chemistry."
+            },
+            {
+              "unit": 5,
+              "topics": "Photochemistry: Principles of photochemistry, Energy (inter and intramolecular) transfer, Photosensitisation, Singlet and Triplet state photochemical reactions of 1,3- butadiene, cis-trans isomerism, Inter and intramolecular cycloaddition reactions, Di- mmethane rearrangement. Photochemical reaction of carbonyl compounds: Photo reduction, Norrish type-I cleavage of acyclic and cyclic compounds, Norrish type-ll cleavage. Photocyclo-addition reaction: Paterno-Buchi reaction. Photo-Fries rearrangement"
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ54",
+          "name": "Physical Chemistry - III",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Elementary Quantum Mechanics: quantum mechanical operators, Hamiltonian operator, Schrédinger wave equation and its importance, Eigen functions, Eigen values, physical interpretation of the wave function, orthogonality of wave functions, Heisenberg's uncertainty principle, the particle in a one-dimensional box problem and its solutions, particle in a three dimensional box, degeneracy, rigid rotor and harmonic oscillator."
+            },
+            {
+              "unit": 2,
+              "topics": "Molecular Symmetry: Symmetry elements and operations. Point groups. Matrix representation of symmetry elements and point groups, matrices of C3v and C4v point groups, Structure of character tables, determination of symmetry species for translations and rotations."
+            },
+            {
+              "unit": 3,
+              "topics": "Molecular Spectroscopy: Region of electromagnetic spectrum, Interaction of electromagnetic radiation with molecules and various types of spectra, signal to noise ratio and resolving power, width and intensity of spectral transitions, Born Oppenheimer approximation, pure rotational spectra, diatomic rigid rotor molecules, effect of isotope substitution, vibrational and vibration- rotational spectra of diatomic molecules, harmonic oscillator-rigid rotor approximation, anharmonicity effect, normal modes of vibration, infrared spectra of linear and bent AB2 molecules, Franck-Condon principle, electronic spectra of diatomic molecules, vibrational structure. Nuclear Magnetic Resonance Spectroscopy: Introduction, chemical shifts, spin-spin splitting, relaxation times."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ55",
+          "name": "Physical Chemistry Lab Work",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Composition determination of an unknown binary liquid mixture from surface tension-composition curve."
+            },
+            {
+              "unit": 2,
+              "topics": "Composition determination of an unknown binary liquid mixture from viscosity- composition curve."
+            },
+            {
+              "unit": 3,
+              "topics": "Conductometric titration of strong acid against strong alkali."
+            },
+            {
+              "unit": 4,
+              "topics": "Conductometric titration of weak acid against strong alkali."
+            },
+            {
+              "unit": 5,
+              "topics": "Potentiometric titration of strong acid against strong alkali. L Chisahs BRA Lin abian Af bn RA Anbal bin"
+            },
+            {
+              "unit": 6,
+              "topics": "Study the kinetics of the catalytic decomposition of H202 by chemical method."
+            },
+            {
+              "unit": 7,
+              "topics": "Verify Lambert-Beer's law and determine the concentration of an unknown CuSO4/ KMnO4/ K2Cr207 solution. Note: Experiments may be added/ modified subject to availability of facilities."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ56",
+          "name": "Systematic Organic Analysis",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Systematic identification of organic compounds and derivatization Note: Experiments may be added/ modified subject to availability of facilities."
+            }
+          ]
+        },
+        {
+          "code": "CHEMV51",
+          "name": "Food Adulteration and Detection",
+          "credits": 3,
+          "course_type": "Minor (VOC)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Food Adulteration: Definition and types of food adulteration, Historical perspective and global prevalence, Impact of food adulteration on public health and economy."
+            },
+            {
+              "unit": 2,
+              "topics": "Common Adulterants in Food: Adulteration in staple foods (e.g., grains, pulses), Adulteration in dairy products, Adulteration in edible oils and fats, Adulteration in spices and condiments."
+            },
+            {
+              "unit": 3,
+              "topics": "Methods of Food Adulteration Detection: Chemical methods (e.g., spectroscopy, chromatography), Physical methods (e.g., microscopy, texture analysis), Biological methods (e.g., DNA-based techniques)."
+            },
+            {
+              "unit": 4,
+              "topics": "Quality Assessment Parameters: Sensory evaluation, Nutritional analysis, Microbiological quality, Physical and chemical attributes."
+            },
+            {
+              "unit": 5,
+              "topics": "Food Safety Regulations and Standards: International and national regulatory bodies (e.g., FDA, FSSAI), Food safety standards (e.g., ISO, HACCP), Compliance and enforcement mechanisms."
+            },
+            {
+              "unit": 6,
+              "topics": "Case Studies and Real-world Applications: Notable incidents of food adulteration, Success stories in quality assurance and adulteration prevention."
+            }
+          ]
+        },
+        {
+          "code": "CHEMV52",
+          "name": "Food Adulteration and Detection Lab Work",
+          "credits": 1,
+          "course_type": "Minor (VOC)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Qualitative/quantitative analysis of food samples for moisture content, carbohydrates, proteins, fats, ash etc. Characterization of various adulterants. Identification of adulterants in real samples."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 6,
+      "papers": [
+        {
+          "code": "CHEMJ61",
+          "name": "Analytical Chemistry - II",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Solvent Extraction and Chromatography: Distribution law, Single extraction, Multiple extraction, Craig concept of counter- current distribution, Important solvent systems: chelate extraction, synergic extraction, extraction by solvation, ion-pair extraction, Basics and classification of chromatographic methods, paper chromatography, adsorption chromatography, and ion-exchange chromatography."
+            },
+            {
+              "unit": 2,
+              "topics": "Analytical Reagents: Theoretical and practical aspects of the use of EDTA, cerate, iodate, bromate, chloramine-T, Karl Fischer and Malaprade (periodate) reagents in chemical analysis. Z Owantuananhkabanwnaton Danuln lavas anal"
+            },
+            {
+              "unit": 3,
+              "topics": "Spectrophotometry: Beer's law and application, Nomenclature and units, General instrumentations for spectrophotometry, Spectrophotometric determinations of one component (iron, chromium, and manganese) and two components (overlapping and non-overlapping) systems, Spectrophotometric determination of dissociation constants of indicator, Photometric errors."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ62",
+          "name": "Inorganic Chemistry - IV",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Magnetic Properties of Transition Metal Complexes: Types of magnetic behavior, methods of determining magnetic susceptibility, L-S and J-J coupling, orbital contribution to magnetic moments. Correlation of magnetic moment data and stereochemistry of Co(II) and Ni(II) complexes; anomalous magnetic moments."
+            },
+            {
+              "unit": 2,
+              "topics": "Chemistry of Second and Third Transition Series: A general comparative treatment of 4d and 5d elements with their 3danalogs in respect of ionic radii, oxidation states, complex formation tendency, magnetic behavior, and electronic spectral properties."
+            },
+            {
+              "unit": 3,
+              "topics": "Organometallic Chemistry: Definition, nomenclature, and classification of organometallic compounds. Preparation, properties, bonding, and applications of alkyls and aryls of Li, Al, Sn, and Ti. Preparation, structure, and properties. Bonding in metal carbonyls, variants of CO bridging, vibrational spectra of metal Carbonyls. A brief account of metal-ethylenic complexes. Concept of catalyst designing. Homogeneous hydrogenation (Wilkinson's catalyst) Heterogeneous (Ziegler-Natta catalyst) catalyst, a brief introduction to catalytic cycle."
+            },
+            {
+              "unit": 4,
+              "topics": "Functional materials: Structural and applicative aspects in brief: Diamond, Graphite, Graphene, CNT, Graphyne, Quantum dots, Fullerene (C60). Intercalation compounds and Clathrates. Soft Materials."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ63",
+          "name": "Organic Chemistry - IV",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Amino acids and Peptides: Amino acids - preparations, physical properties, dipolar nature, isoelectric point, chemical reactions, and configuration. Peptides: peptide linkage, peptide synthesis and structure of poly peptides, C and N terminal amino acid determination. Proteins: General characteristics and secondary structure."
+            },
+            {
+              "unit": 2,
+              "topics": "Polymers: Types of polymers and polymerization process: Addition (radical, ionic), step growth (condensation), and stereo- controlled (coordination) polymerization mechanisms. Synthesis and uses of following polymers: (i) Plastics: PVC, PE, and Teflon, (ii) Specialty polymers: Conducting & electroluminescent (Organic light emitting diodes), Liquid crystals (iii) Natural and synthetic rubber (iv) Fibers: Rayon, Polyester, Polyamides (v) Foaming agent and plasticizers (vi) Biodegradable polymers."
+            },
+            {
+              "unit": 3,
+              "topics": "Terpenes: Occurrence, isolation and classification. lsoprene rule of terpenes. Structure and synthesis of Citral, a-terpinol,l, and camphor."
+            },
+            {
+              "unit": 4,
+              "topics": "Vitamin and hormones: Chemical constitution and synthesis of vitamin A, vitamin C and thyroxin."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ64",
+          "name": "Physical Chemistry - IV",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Electrochemistry: Theory of strong electrolytes: qualitative idea of Debye-Hickel theory of ion-ion interactions, Debye-Hickel limiting law for activity coefficient of ions in electrolyte solution (derivation not required), its modification for concentrated solutions, Debye-Hiickel-Onsager (D-H-O) theory of electrolytic conductance: qualitative idea of electrophoretic and relaxation effects, D-H-O equation for conductance of electrolyte solutions. Effect of high frequency and high field on conductance."
+            },
+            {
+              "unit": 2,
+              "topics": "Advanced Chemical Kinetics: Kinetics of complex reactions (reversible, simultaneous, and consecutive), chain reactions; dynamic chain (Hydrogen-Bromine reaction, decomposition of ethane), branched-chain (Hydrogen-Oxygen reaction), oscillatory reactions (Belousov-Zhabotinskii reaction), experimental techniques for fast reactions (stopped-flow, temperature- jump and flash photolysis)."
+            },
+            {
+              "unit": 3,
+              "topics": "Molecular Statistics: The Boltzmann distribution, Maxwell-Boltzmann distribution law for the distribution of molecular energies, partition functions, thermodynamic quantities from partition functions, Sackur- Tetrode equation for molar entropy of monatomic gases, rotational and vibrational partition functions, calculation of Gibbs free energy changes and equilibrium constant in terms of partition functions."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ65",
+          "name": "Physical Chemistry Lab Work",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Order of reaction of 12 / Acetone / H+"
+            },
+            {
+              "unit": 2,
+              "topics": "Study of the kinetics of acid-catalyzed hydrolysis of sugar by chemical method."
+            },
+            {
+              "unit": 3,
+              "topics": "Conductometric titration of KCl with AgNO3."
+            },
+            {
+              "unit": 4,
+              "topics": "Conductometric titration of a mixture of weak and strong acids."
+            },
+            {
+              "unit": 5,
+              "topics": "Distribution coefficient of acetic acid between n-butanoland water solvents."
+            },
+            {
+              "unit": 6,
+              "topics": "Potentiometric titration of a redox system (ferrous ammonium sulfate with K2Cr207). T MWAtanuwninantian Af vcnlatisn abennathn AL biasan"
+            },
+            {
+              "unit": 7,
+              "topics": "Determination of relative strengths of two acids by studying the kinetics of acid- catalyzed ester hydrolysis."
+            },
+            {
+              "unit": 8,
+              "topics": "Determination of relative strengths of two FeCl3 solutions by studying the kinetics of FeCl3 - catalysed H202 decomposition gasometrically."
+            },
+            {
+              "unit": 9,
+              "topics": "Determination isosbestic point and indicator constant"
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ66",
+          "name": "Quantitative Inorganic Analysis",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Quantitative estimation of Metal ions by Gravimetric method (Fe3+, Ba2+, Ni2+, Co2+, Hg2+) Separation and identification of metal ions by paper chromatography"
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ67",
+          "name": "Organic Chemistry Lab Work",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Preparation of SBT from thiourea"
+            },
+            {
+              "unit": 2,
+              "topics": "Preparation of Phthalimide from phthalic anhydride"
+            },
+            {
+              "unit": 3,
+              "topics": "Preparation of dibenzylidene acetone from benzaldehyde"
+            },
+            {
+              "unit": 4,
+              "topics": "Preparation of hippuric acid from glycine"
+            },
+            {
+              "unit": 5,
+              "topics": "Preparation of benzyl from benzoin"
+            },
+            {
+              "unit": 6,
+              "topics": "Preparation of Benzilic acid from benzyl"
+            }
+          ]
+        },
+        {
+          "code": "CHEMV61",
+          "name": "Industrial Chemistry - Il",
+          "credits": 3,
+          "course_type": "Minor (VOC)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Pigments, Dyes, and Paints: Definition, Historical development and classification and their significance. Chemical structures and properties."
+            },
+            {
+              "unit": 2,
+              "topics": "Pigments: Inorganic vs. Organic pigments, Pigment synthesis and manufacturing processes, Colorimetry and color spaces, Applications in paints, plastics, printing inks, and more."
+            },
+            {
+              "unit": 3,
+              "topics": "Dyes: Classification of dyes (acid, basic, direct, etc.), Dyeing processes (fiber, yarn, fabric, etc.), Dye synthesis and application techniques, Environmental considerations and regulations. A Painte: Twnac af nainte famiuileinn anamal"
+            },
+            {
+              "unit": 4,
+              "topics": "Paints: Types of paints (emulsion, enamel, lacquer, etc.), Formulation and composition of paints, Paint application methods (brushing, spraying, etc.), Surface preparation and finishing techniques."
+            },
+            {
+              "unit": 5,
+              "topics": "Environmental impacts and sustainability: Environmental considerations in pigment, dye, and paint production, Waste management and pollution control, Green alternatives and sustainable practices."
+            }
+          ]
+        },
+        {
+          "code": "CHEMV62",
+          "name": "Industrial Chemistry Lab Work - II",
+          "credits": 1,
+          "course_type": "Minor (VOC)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Isolation of Pigments from plants Synthesis of Dyes Preparation of a few Paint samples"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 7,
+      "papers": [
+        {
+          "code": "CHEMJ71",
+          "name": "Analytical Chemistry - III",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Analytical chemometrics: Propagation of measurement uncertainties (inaccuracy and imprecision).Useful statistical test: test of significance, the F test, the student 't' test, the chi-test, the correlation coefficient, confidence limit of the mean, comparison of two standard values, comparison of standard deviation with average deviation, comparison of mean with true values, significant figures, regression analysis (least square method for linear and non-linear plots), statistics of sampling and detection limit evaluation. Chemometrics for modeling and parameter estimation, factor analysis, resolution and pattern recognition. DV Ten antunnannt af Dariilihbuian. CalhsaAnta anal CUNMUSIIUS UNL UL WIS HiGal, CUlparisurt Ul two standard values, comparison of standard deviation with average deviation, comparison of mean with true values, significant figures, regression analysis (least square method for linear and non-linear plots), statistics of sampling and detection limit evaluation. Chemometrics for modeling and parameter estimation, factor analysis, resolution and pattern recognition."
+            },
+            {
+              "unit": 2,
+              "topics": "Treatment of Equilibria: Solvents and solutions, general treatment of equilibria in aqueous medium involving monoprotic weak acid and weak base, and salts of weak acids and weak bases. Activity and concentration, Effect of electrolytes on chemical equilibria, Calculation of pH, Constructing titration curves from charge balance and mass balance equations, Acid-base titrations and theory of pH indicators, Complexation equilibria and complexometric titrations, Redox equilibria and redox titration, Theory of redox indicators, Precipitation reaction and precipitation titrations and theory of adsorption indicators."
+            },
+            {
+              "unit": 3,
+              "topics": "Spectrophotometric Determination of Stoichiometry of Complexes: Job's method of continuous variation, mole ratio and slope ratio analysis, Advantages and limitations, typical examples."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ72",
+          "name": "Inorganic Chemistry - V",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Symmetry-based concepts of energy level diagrams of metal complexes: Symmetry elements and operations, determination of point group of a molecule, Group representations, Features of specific character tables in reference to Orgel diagrams, Symmetry-based concepts of Orgel energy level diagrams of metal complexes. Introduction to Tanabe-Sugano diagrams (d2 configuration)."
+            },
+            {
+              "unit": 2,
+              "topics": "Bioinorganic chemistry: Metal ions in biological processes. Biological role of iron. Oxygen transport with reference to hemoglobin and myoglobin. Synthetic model complexes for oxygen transport. Cytochromes and iron-sulfur proteins: Electron Transfer reactions. Photosystems, Role of metalloenzymes. Biological role of alkali metal ions, and their transport with special reference to Nat /K+ ATPase. Vitamin B12. Nitrogen Fixation."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ73",
+          "name": "Organic Chemistry - V",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Nucleophilic Substitution and addition reactions: Mechanism and Stereochemistry of SN1, SN2, SNi& SN2' reactions. The effect of substrate structure, nucleophile, leaving group, temperature, and reaction medium. Phase transfer catalysis (Basic concept); epoxidation of unsaturated ketone, nucleophilic addition to C=X bond, solid- liquid phase transfer catalysis."
+            },
+            {
+              "unit": 2,
+              "topics": "Elimination reactions: The E1, E2 and E1cB mechanisms, Orientation of the double bond. Hofmann versus Saytzeff elimination, Pyrolytic syn-elimination, Competition between substitution and elimination reactions. Stereoselective olefination reactions: Peterson, Julia and Petasis. Olefin metathesis (RCM) using Ru catalysis."
+            },
+            {
+              "unit": 3,
+              "topics": "Neighbouring Group Participation: Evidences of N.G.P.; the phenonium ion, participation by ? and ? bonds. Classical versus non-classical carbonium ions."
+            },
+            {
+              "unit": 4,
+              "topics": "Aromatic nucleophilic substitution (SNAr): Benzyne Mechanism, Reactivity and effect of leaving group. Chichibabin reaction, von Richter rearrangement, Sommelet Hauser rearrangement, and Smile rearrangement."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ74",
+          "name": "Physical Chemistry - V",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Atomic structure: The Hydrogen atom, atomic orbitals, variation theorem, Secular determinant, He-atom, electron spin, Slater determinant, antisymmetry rule, and Pauli's exclusion principle, many-electron atoms: SCF method,atomic term symbols."
+            },
+            {
+              "unit": 2,
+              "topics": "Molecular structure: Born-Oppenheimer approximation, molecular orbital treatment for H2+ MO treatment of homo- and heteronuclear diatomic molecules, electronic terms of diatomic molecules, VB approach, comparison of the MO and VB theories, Huckel MO treatment of simple and conjugated polyenes. Siinnactad Ranke:"
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ75",
+          "name": "Material Chemistry",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction: Materials and their classification, inorganic and organic materials."
+            },
+            {
+              "unit": 2,
+              "topics": "Inorganic materials: Design and synthesis of inorganic materials, requirements and constraints, combination properties of composites, solid state reactions for synthesis inorganic materials: ceramic methods, precursor method and sol-gel synthesis, physical and chemical vapour depositions; carbides, nitrides, structural and functional ceramics, intermetallics; ceramic superconductors, magnetic ceramics."
+            },
+            {
+              "unit": 3,
+              "topics": "Organic materials: Molecular electronics: molecular materials for electronics and molecular scale electronics: Molecular properties, molecular arrangement. and molecular interactions, piezoelectric and pyroelectric organic materials; molecular magnets based on transition metal complexes and organic ferromagnets, organic non- linear optical materials: photochromic organic materials and their classes; conducting polymers: polyacetylene, polypyrrole, polyaniline, and polythiophene; conductive change transfer materials: TTFTCNQ, metal dithiolate systems, fullerenes. Langmuir- Blodgett films, molecular electronic logic, and architectures."
+            },
+            {
+              "unit": 4,
+              "topics": "Nanomaterials: Fundamentals of nanoscience: definition, nano versus bulk, quantum confinement: nanoscale in 1D, 2D, and 3D with examples, synthesis of nanomaterials: top-down and bottom-up approaches, size and shape-dependent optical properties of semiconducting (CdSe) and plasmonic metal nanoparticles, nanoclusters, and nanowires, nanoparticles, concept of magnetic nanoparticles, applications of nanomaterials."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ76",
+          "name": "Physical Chemistry Lab Work",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Study of the kinetics of inversion of cane sugar catalysed by acid polarimetrically."
+            },
+            {
+              "unit": 2,
+              "topics": "Verification of Debye-Huckel-Onsager equation A = AO - S C1/2 1/2 for strong uni-univalent electrolyte."
+            },
+            {
+              "unit": 3,
+              "topics": "Energy of activation of acid catalyzed hydrolysis of methyl acetate."
+            },
+            {
+              "unit": 4,
+              "topics": "To study the effect of ionic strength on the reaction between S2082- and lions."
+            },
+            {
+              "unit": 5,
+              "topics": "Conductometric titration of a triple mixture (HCL+NH4CI+KCl) with (i) NaOH and (ii) AgNO3. L VaAvifinantiaw af ban AlAcRnaAb laias AL Ala Abe AAA"
+            },
+            {
+              "unit": 6,
+              "topics": "Verification of the Nernst law of electrode potential."
+            },
+            {
+              "unit": 7,
+              "topics": "Potentiometric titration of a polybasic acid. Note: Experiments may be added/ modified subject to availability of facilities."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ77",
+          "name": "Inorganic Chemistry Lab Work",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Quantitative estimation of metal ions (two) by gravimetric/ titrimetric/ spectrophotometric methods"
+            },
+            {
+              "unit": 2,
+              "topics": "Study of symmetry elements and point groups using models Note: Experiments may be added/ modified subject to availability of facilities."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ78",
+          "name": "Organic Chemistry Lab Work",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Separation of Organic mixture and their identification Note: Experiments may be added/ modified subject to availability of facilities."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ7R1",
+          "name": "Analytical Chemistry - III",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Analytical chemometrics: Propagation of measurement uncertainties (inaccuracy and imprecision).Useful statistical test: test of significance, the F test, the student @t@ test, the chi-test, the correlation coefficient, confidence limit of the mean, comparison of two standard values, comparison of standard deviation with average deviation, comparison of mean with true values, significant figures, regression analysis (least square method for linear and non-linear plots), statistics of sampling and detection limit evaluation. Chemometrics for modeling and parameter estimation, factor analysis, resolution and pattern recognition."
+            },
+            {
+              "unit": 2,
+              "topics": "Treatment of Equilibria: Solvents and solutions, general treatment of equilibria in aqueous medium involving monoprotic weak acid and weak base, and salts of weak acids and weak bases. Activity and concentration, Effect of electrolytes on chemical equilibria, Calculation of pH, Constructing titration curves from charge balance and mass balance equations, Acid-base titrations and theory of pH indicators, Complexation equilibria and complexometric titrations, Redox equilibria and redox titration, Theory of redox indicators, Precipitation reaction and precipitation titrations and theory of adsorption indicators."
+            },
+            {
+              "unit": 3,
+              "topics": "Spectrophotometric Determination of Stoichiometry of Complexes: 7 Job@s method of continuous variation, mole ratio and slope ratio analysis, Advantages and limitations, typical examples."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ7R2",
+          "name": "Inorganic Chemistry - V",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Symmetry-based concepts of energy level diagrams of metal complexes: Symmetry elements and operations, determination of point group of a molecule, Group representations, Features of specific character tables in reference to Orgel diagrams, Symmetry-based concepts of Orgel energy level diagrams of metal complexes. Introduction to Tanabe-Sugano diagrams (d2 configuration)."
+            },
+            {
+              "unit": 2,
+              "topics": "Bioinorganic chemistry: Metal ions in biological processes. Biological role of iron. Oxygen transport with reference to hemoglobin and myoglobin. Synthetic model complexes for oxygen transport. Cytochromes and iron-sulfur proteins: Electron Transfer reactions. Photosystems, Role of metalloenzymes. Biological role of alkali metal ions, and their transport with special reference to Nat+/K+ ATPase. Vitamin B12. Nitrogen Fixation."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ7R3",
+          "name": "Organic Chemistry - V",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Nucleophilic Substitution and addition reactions: Mechanism and Stereochemistry of SN1, SN2, SNi& SN2 reactions. The effect of substrate structure, nucleophile, leaving group, temperature, and reaction medium. Phase transfer catalysis (Basic concept); epoxidation of unsaturated ketone, nucleophilic addition to C=X bond, solid- liquid phase transfer catalysis."
+            },
+            {
+              "unit": 2,
+              "topics": "Elimination reactions: The E1, E2 and E1cB mechanisms, Orientation of the double bond. Hofmann versus Saytzeff elimination, Pyrolytic syn-elimination, Competition between substitution and elimination reactions. Stereoselective olefination reactions: Peterson, Julia and Petasis. Olefin metathesis (RCM) using Ru catalysis."
+            },
+            {
+              "unit": 3,
+              "topics": "Neighbouring Group Participation: Evidences of N.G.P.; the phenonium ion, participation by m and o bonds. Classical versus non-classical carbonium ions."
+            },
+            {
+              "unit": 4,
+              "topics": "Aromatic nucleophilic substitution (SNAr): Benzyne Mechanism, Reactivity and effect of leaving group. Chichibabin reaction, von Richter rearrangement, Sommelet Hauser rearrangement, and Smile rearrangement."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ7R4",
+          "name": "Physical Chemistry - V",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Atomic structure: The Hydrogen atom, atomic orbitals, variation theorem, Secular determinant, He-atom, electron spin, Slater determinant, antisymmetry rule, and Pauli's exclusion principle, many-electron atoms: SCF method,atomic term symbols."
+            },
+            {
+              "unit": 2,
+              "topics": "Molecular structure: Born-Oppenheimer approximation, molecular orbital treatment for H2+ MO treatment of homo- and heteronuclear diatomic molecules, electronic terms of diatomic molecules, VB approach, comparison of the MO and VB theories, Huckel MO treatment of simple and conjugated polyenes. Siinnactad Ranke:"
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ7R5",
+          "name": "Material Chemistry",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction: Materials and their classification, inorganic and organic materials."
+            },
+            {
+              "unit": 2,
+              "topics": "Inorganic materials: Design and synthesis of inorganic materials, requirements and constraints, combination properties of composites, solid state reactions for synthesis inorganic materials: ceramic methods, precursor method and sol-gel synthesis, physical and chemical vapour depositions; carbides, nitrides, structural and functional ceramics, intermetallics; ceramic superconductors, magnetic ceramics."
+            },
+            {
+              "unit": 3,
+              "topics": "Organic materials: Molecular electronics: molecular materials for electronics and molecular scale electronics: Molecular properties, molecular arrangement. and molecular interactions, piezoelectric and pyroelectric organic materials; molecular magnets based on transition metal complexes and organic ferromagnets, organic non- linear optical materials: photochromic organic materials and their classes; conducting polymers: polyacetylene, polypyrrole, polyaniline, and polythiophene; conductive change transfer materials: TTFTCNQ, metaldithiolate systems, fullerenes. Langmuir- Blodgett films, molecular electronic logic, and architectures."
+            },
+            {
+              "unit": 4,
+              "topics": "Nanomaterials: Fundamentals of nanoscience: definition, nano versus bulk, quantum confinement: nanoscale in 1D, 2D, and 3D with examples, synthesis of nanomaterials: top-down and bottom-up approaches, size and shape-dependent optical properties of semiconducting (CdSe) and plasmonic metal nanoparticles, nanoclusters, and nanowires, nanoparticles, concept of magnetic nanoparticles, applications of nanomaterials."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ7R6",
+          "name": "Physical Chemistry Lab Work",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Study of the kinetics of inversion of cane sugar catalysed by acid polarimetrically."
+            },
+            {
+              "unit": 2,
+              "topics": "Verification of Debye-Hiickel-Onsager equation A = AO - S C1/2 for strong uni- univalent electrolyte uni-univalent electrolyte."
+            },
+            {
+              "unit": 3,
+              "topics": "Energy of activation of acid catalyzed hydrolysis of methyl acetate."
+            },
+            {
+              "unit": 4,
+              "topics": "To study the effect of ionic strength on the reaction between S2082- and I- ions."
+            },
+            {
+              "unit": 5,
+              "topics": "Conductometric titration of a triple mixture (HCL+NH4CI+KCl) with (i) NaOH and (ii) AgNO3. L VaAvifinantiaw af ban AlAcRnaAb laias AL Ala Abe AAA"
+            },
+            {
+              "unit": 6,
+              "topics": "Verification of the Nernst law of electrode potential."
+            },
+            {
+              "unit": 7,
+              "topics": "Potentiometric titration of a polybasic acid. Note: Experiments may be added/ modified subject to availability of facilities."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ7R7",
+          "name": "Inorganic Chemistry Lab Work",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Quantitative estimation of metal ions (two) by gravimetric/ titrimetric/ spectrophotometric methods."
+            },
+            {
+              "unit": 2,
+              "topics": "Study of symmetry elements and point groups using models. Note: Experiments may be added/ modified subject to availability of facilities."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ7R8",
+          "name": "Organic Chemistry Lab Work",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Separation of Organic mixture and their identification Note: Experiments may be added/ modified subject to availability of facilities."
+            }
+          ]
+        },
+        {
+          "code": "CHEMN72",
+          "name": "Inorganic Chemistry - V",
+          "credits": 2,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Symmetry-based concepts of energy level diagrams of metal complexes: Symmetry elements and operations, determination of point group of a molecule, Group representations, Features of specific character tables in reference to Orgel diagrams, Symmetry-based concepts of Orgel energy level diagrams of metal complexes. Introduction to Tanabe-Sugano diagrams (d2 configuration)."
+            },
+            {
+              "unit": 2,
+              "topics": "Bioinorganic chemistry: Metal ions in biological processes. Biological role of iron. Oxygen transport with reference to hemoglobin and myoglobin. Synthetic model complexes for oxygen transport. Cytochromes and iron-sulfur proteins: Electron Transfer reactions. Photosystems, Role of metalloenzymes. Biological role of alkali metal ions, and their transport with special reference to Nat+/K+ ATPase. Vitamin B12. Nitrogen Fixation."
+            }
+          ]
+        },
+        {
+          "code": "CHEMN7R1",
+          "name": "Analytical Chemistry - III",
+          "credits": 2,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Analytical chemometrics: Propagation of measurement uncertainties (inaccuracy and imprecision).Useful statistical test: test of significance, the F test, the student @t@ test, the chi-test, the correlation coefficient, confidence limit of the mean, comparison of two standard values, comparison of standard deviation with average deviation, comparison of mean with true values, significant figures, regression analysis (least square method for linear and non-linear plots), statistics of sampling and detection limit evaluation. Chemometrics for modeling and parameter estimation, factor analysis, resolution and pattern recognition. contidence umit of the mean, comparison of two standard values, comparison of standard deviation with average deviation, comparison of mean with true values, significant figures, regression analysis (least square method for linear and non-linear plots), statistics of sampling and detection limit evaluation. Chemometrics for modeling and parameter estimation, factor analysis, resolution and pattern recognition."
+            },
+            {
+              "unit": 2,
+              "topics": "Treatment of Equilibria: Solvents and solutions, general treatment of equilibria in aqueous medium involving monoprotic weak acid and weak base, and salts of weak acids and weak bases. Activity and concentration, Effect of electrolytes on chemical equilibria, Calculation of pH, Constructing titration curves from charge balance and mass balance equations, Acid-base titrations and theory of pH indicators, Complexation equilibria and complexometric titrations, Redox equilibria and redox titration, Theory of redox indicators, Precipitation reaction and precipitation titrations and theory of adsorption indicators."
+            },
+            {
+              "unit": 3,
+              "topics": "Spectrophotometric Determination of Stoichiometry of Complexes: Jobs method of continuous variation, mole ratio and slope ratio analysis, Advantages and limitations, typical examples."
+            }
+          ]
+        },
+        {
+          "code": "CHEMN7R2",
+          "name": "Inorganic Chemistry - V",
+          "credits": 2,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Symmetry-based concepts of energy level diagrams of metal complexes: Symmetry elements and operations, determination of point group of a molecule, Group representations, Features of specific character tables in reference to Orgel diagrams, Symmetry-based concepts of Orgel energy level diagrams of metal complexes. Introduction to Tanabe-Sugano diagrams (d2 configuration)"
+            },
+            {
+              "unit": 2,
+              "topics": "Bioinorganic chemistry: Metal ions in biological processes. Biological role of iron. Oxygen transport with reference to hemoglobin and myoglobin. Synthetic model complexes for oxygen transport. Cytochromes and iron-sulfur proteins: Electron Transfer reactions. Photosystems, Role of metalloenzymes. Biological role of alkali metal ions, and their transport with special reference to Nat+/K+ ATPase. Vitamin B12.Nitrogen Fixation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 8,
+      "papers": [
+        {
+          "code": "CHEDS8R1",
+          "name": "Dissertation",
+          "credits": 12,
+          "course_type": "Dissertation",
+          "syllabus": null
+        },
+        {
+          "code": "CHEMJ81",
+          "name": "Analytical Chemistry - IV",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Electrochemical methods: Origin of polargraphy, Current-voltage relationship, Theory of polarographic waves (DC and sampled DC (tast) polarograms), Instrumentation, Ilkovic equation, Qualitative and quantitative applications."
+            },
+            {
+              "unit": 2,
+              "topics": "Separation Methods: Principle of chromatography, Classifications of chromatography, Techniques of planar and column chromatography, Gas chromatography, High-performance liquid chromatography ."
+            },
+            {
+              "unit": 3,
+              "topics": "Thermal Analysis: Theory, methodology and applications of thermogravimetric analysis (TGA), Differential Thermal Analysis (DTA), and Differential scanning calorimetry (DSC). Principles, techniques and applications of thermometric titration methods."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ82",
+          "name": "Inorganic Chemistry - VI",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Kinetics and Mechanism of Substitution Reactions: Nature of substitution reactions; prediction of reactivity of octahedral, tetrahedral and square-planar complexes in terms of crystal field activation energy and structure preference energy; rates of reactions; acidhydrolysis, base hydrolysis and anation reactions."
+            },
+            {
+              "unit": 2,
+              "topics": "Electron Transfer Reactions: Mechanism and rate laws; various types of electron transfer reactions, Marcus-Husch theory, correlation between thermal and optical electron transfer reactions; identification of intervalence transfer bands in solution."
+            },
+            {
+              "unit": 3,
+              "topics": "Characterization of Inorganic Compounds: Vibrational, NMR, Uv-vis, and Mass spectroscopic techniques"
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ83",
+          "name": "Organic Chemistry - VI",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Asymmetric Synthesis: Enolization (Lithium and Boron enolate), Stereoselective Aldol condensation reaction (chiral enolate& achiral aldehyde and achiral enolate and chiral aldehyde). The chiral pool, chiral auxiliaries, chiral catalysts and reagents, and enantiomeric excess."
+            },
+            {
+              "unit": 2,
+              "topics": "Pericyclic Reactions: Woodward-Hoffmann rules and molecular orbitals; Electrocylic reactions; Cycloaddition reactions, 1,3-Dipolar cycloaddition and cheletropic reactions; Sigmatropic rearrangements; Group transfer reactions: Ene reactions."
+            },
+            {
+              "unit": 3,
+              "topics": "Modern organic synthesis: Retrosynthesis, Umpolung, Domino reactions and functional group interconversion."
+            },
+            {
+              "unit": 4,
+              "topics": "Formation of Carbon-Carbon Bonds via Organometallic reagents: Organozinc, Organocopper, and Organoborane reagents, Palladium catalyzed coupling reactions (Heck, Sonogashira, and Suzuki)."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ84",
+          "name": "Physical Chemistry - VI",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Advanced Electrochemistry: Metal/ Electrolyte interface: OHP and IHP, potential profile across double layer region, potential difference across electrified interface; structure of the double layer: Helmholtz- Perrin, Gouy-Chapman, and Stern models. Butler-Volmer equation under near equilibrium and non-equilibrium conditions, exchange current density, Tafel plot, polarizable and non-polarizable interfaces. Semiconductor (SC)/electrolyte interface: Creation of space charge region, capacity of space-charge, Mott-Schottky plots for n-type and p-type semiconductors, determination of flat-band potential and donor/acceptor densities, application of SC/electrolyte interface in solar cells, Fuel Cell, Battery. Cyclic voltammetry (CV) technique basics and annplications. space-charge, Mott-Schottky plots for n-type and p-type semiconductors, determination of flat-band potential and donor/acceptor densities, application of SC/electrolyte interface in solar cells, Fuel Cell, Battery. Cyclic voltammetry (CV) technique basics and applications."
+            },
+            {
+              "unit": 2,
+              "topics": "Polymer Chemistry: Introduction, Classification of Polymers & Intermolecular forces of Polymers. Different types of molecular weight of polymer, polydispersity Index, Determination of molecular weight of polymers. Thermodynamic Aspects of Polymerization. Mechanism of Living Radical Polymerizations: Nitroxide mediated polymerization (NMP), Metal-catalyzed Living Radical Polymerization, Reversible Addition-Fragmentation Chain Transfer (RAFT) Radical Polymerization. Coordination polymerization, Ring-opening polymerization. Thermal and mechanical properties of polymers: Glass transition temperature, melting temperature, Rheological properties, industrial polymers."
+            },
+            {
+              "unit": 3,
+              "topics": "Micelles and Colloids: Surface active agents and their classification, micellization, hydrophobic interaction, critical miceller concentration (cmc), factors affecting cmc of surfactants, thermodynamics of micellization, phase separation and mass action models, reverse micelles, solubilization. Stability and properties of colloids. Zeta potential, Stern double layer, Tyndall effect."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ85",
+          "name": "Advanced Spectroscopy",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "UV-Vis spectroscopy: m-m* and n-m** electronic transitions, effects of substituents, conjugation and chain length (on Amax & amp; Emax ) of conjugated polyenes and polyones, Woodward- Feiser rules for calculating Amax."
+            },
+            {
+              "unit": 2,
+              "topics": "IR spectroscopy: Molecular vibrations and IR absorption, the functional groups and fingerprint regions, the effect of bond orders on C-C, C-O, C-N bands; ring size and electronic effects. H-bonding and dilution effect."
+            },
+            {
+              "unit": 3,
+              "topics": "NMR spectroscopy: The chemical shifts, diamagnetic shielding, anisotropic effect, 1 H- 1H spin-spin splitting, and coupling constant, Interpretation of NMR spectra (1H &; 13C NMR)."
+            },
+            {
+              "unit": 4,
+              "topics": "Mass spectrometry: Basics, mass spectra of straight and branched chain alkanes, molecular ion, base and isotope peaks, fragmentation pattern of alkyl halides, ethers, alcohols and ketones, Mc Lafferty rearrangement."
+            },
+            {
+              "unit": 5,
+              "topics": "Identification of simple organic molecules using spectral data (UV-Vis, IR, NMR, and Mass)."
+            },
+            {
+              "unit": 6,
+              "topics": "Raman spectroscopy: Rayleigh Scattering, Raman scattering effect, classical treatment of Raman scattering, rotational Raman transitions and rotation-vibrational Raman transitions."
+            },
+            {
+              "unit": 7,
+              "topics": "Fluorescence spectroscopy: Instrumentation, fluorophores, solvent and environmental effect on fluorescence, quenching of fluorescence, fluorescence anisotropy, time-resolved fluorescence spectroscopy (TCSPC)."
+            },
+            {
+              "unit": 8,
+              "topics": "Lasers: laser action, characteristics, pulsed lasers, non-linear effects, harmonic generation, examples of lasers: He-Ne, Nd- YAG. Single molecule spectroscopy: Principle, instrumentation and application."
+            },
+            {
+              "unit": 9,
+              "topics": "Electron Paramagnetic Resonance Spectroscopy: Introduction to electron spin resonance, Hyperfine splitting, Factors affecting hyperfine splitting, EPR of hydrogen, organic radicals in solution."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ86",
+          "name": "Physical Chemistry Lab Work",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Determination of the rate constant for the decomposition of bezene diazonium chloride by gasometric method."
+            },
+            {
+              "unit": 2,
+              "topics": "Degree of hydrolysis of urea-hydrochloride by kinetics method."
+            },
+            {
+              "unit": 3,
+              "topics": "Conductometric study of the kinetics of saponification of ethyl acetate."
+            },
+            {
+              "unit": 4,
+              "topics": "Determination of Critical Micelle Concentration (CMC) of a Surfactant by conductometry."
+            },
+            {
+              "unit": 5,
+              "topics": "Electrochemical Impedance study of metal/ solution interface."
+            },
+            {
+              "unit": 6,
+              "topics": "Cyclic Voltammetry of the [Fe(CN)6]3 -/ [Fe(CN)6]4 - system."
+            },
+            {
+              "unit": 7,
+              "topics": "Analysis of halide mixture by differential potentiometry."
+            },
+            {
+              "unit": 8,
+              "topics": "Fluorescence quenching of organic flit aeawn Lanna"
+            },
+            {
+              "unit": 9,
+              "topics": "FRET for suitable donor - acceptor pair."
+            },
+            {
+              "unit": 10,
+              "topics": "Determination of molecular weight by viscometry: Polyacrylamide-aq.NaNO2 solution/Polyvinyl pyrolidone in water."
+            },
+            {
+              "unit": 11,
+              "topics": "Analysis of the given (i) vibrational- rotational, (ii) FTIR, and (iii) NMR spectra of a Compound Note: Experiments may be added/ modified subject to availability of facilities."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ87",
+          "name": "Inorganic Chemistry Lab Work",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Synthesis of some coordination complexes (Including those involving more than one step)."
+            },
+            {
+              "unit": 2,
+              "topics": "Conductivity and spectroscopic studies of the complexes Note: Experiments may be added/ modified subject to availability of facilities."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ88",
+          "name": "Organic Chemistry Lab Work",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Preparation of m-nitroaniline from nitrobenzene"
+            },
+            {
+              "unit": 2,
+              "topics": "Preparation of anthranilic acid from phthalic anhydride."
+            },
+            {
+              "unit": 3,
+              "topics": "Preparation of 2-phenylindole from phenylhydrazine."
+            },
+            {
+              "unit": 4,
+              "topics": "Preparation of methyl red dye"
+            },
+            {
+              "unit": 5,
+              "topics": "Preparation of thioxazole. Note: Experiments may be added/ modified subject to availability of facilities"
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ8R1",
+          "name": "Analytical Chemistry - IV",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Electrochemical methods: Origin of polargraphy, Current-voltage relationship, Theory of polarographic waves (DC and sampled DC (tast) polarograms), Instrumentation, Ilkovic equation, Qualitative and quantitative applications."
+            },
+            {
+              "unit": 2,
+              "topics": "Separation Methods: Principle of chromatography, Classifications of chromatography, Techniques of planar and column chromatography, Gas chromatography, High-performance liquid chromatography ."
+            },
+            {
+              "unit": 3,
+              "topics": "Thermal Analysis: Theory, methodology and applications of thermogravimetric analysis (TGA), Differential Thermal Analysis (DTA), and Differential scanning calorimetry (DSC). Principles, techniques and applications of thermometric titration methods."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ8R2",
+          "name": "Inorganic Chemistry - VI",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Kinetics and Mechanism of Substitution Reactions: Nature of substitution reactions; prediction of reactivity of octahedral, tetrahedral and square-planar complexes in terms of crystal field activation energy and structure preference energy; rates of reactions; acid hydrolysis, base hydrolysis and anation reactions."
+            },
+            {
+              "unit": 2,
+              "topics": "Electron Transfer Reactions: Mechanism and rate laws; various types of electron transfer reactions, Marcus-Husch theory, correlation between thermal and optical electron transfer reactions; identification of intervalence transfer bands in solution."
+            },
+            {
+              "unit": 3,
+              "topics": "Characterization of Inorganic Compounds: Vibrational, NMR, Uv-vis, and Mass spectroscopic techniques."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ8R3",
+          "name": "Organic Chemistry - VI",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Asymmetric Synthesis: Enolization (Lithium and Boron enolate), Stereoselective Aldol condensation reaction (chiral enolate& achiral aldehyde and achiral enolate and chiral aldehyde). The chiral pool, chiral auxiliaries, chiral catalysts and reagents, and enantiomeric excess."
+            },
+            {
+              "unit": 2,
+              "topics": "Pericyclic Reactions: Woodward-Hoffmann rules and molecular orbitals; Electrocylic reactions; Cycloaddition reactions, 1,3-Dipolar cycloaddition and cheletropic reactions; Sigmatropic rearrangements; Group transfer reactions: Ener eactions."
+            },
+            {
+              "unit": 3,
+              "topics": "Modern organic synthesis: Retrosynthesis, Umpolung, Domino reactions and fiinctinnal araiin intarcanvarcinn"
+            },
+            {
+              "unit": 4,
+              "topics": "Formation of Carbon-Carbon Bonds via Organometallic reagents: Organozinc, Organocopper, and Organoborane reagents, Palladium catalyzed coupling reactions (Heck, Sonogashira, and Suzuki)."
+            }
+          ]
+        },
+        {
+          "code": "CHEMJ8R4",
+          "name": "Physical Chemistry - VI",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Advanced Electrochemistry: Metal/ Electrolyte interface: OHP and IHP, potential profile across double layer region, potential difference across electrified interface; structure of the double layer: Helmholtz- Perrin, Gouy-Chapman, and Stern models. Butler-Volmer equation under near equilibrium and non-equilibrium conditions, exchange current density, Tafel plot, polarizable and non-polarizable interfaces. Semiconductor (SC)/electrolyte interface: Creation of space charge region, capacity of space-charge, Mott-Schottky plots for n-type and p-type semiconductors, determination of flat-band potential and donor/acceptor densities, application of SC/electrolyte interface in solar cells, Fuel Cell, Battery. Cyclic voltammetry (CV) technique basics and annlicatinne and p-type semiconductors, determination of flat-band potential and donor/acceptor densities, application of SC/electrolyte interface in solar cells, Fuel Cell, Battery. Cyclic voltammetry (CV) technique basics and applications."
+            },
+            {
+              "unit": 2,
+              "topics": "Polymer Chemistry: Introduction, Classification of Polymers & Intermolecular forces of Polymers. Different types of molecular weight of polymer, polydispersity Index, Determination of molecular weight of polymers. Thermodynamic Aspects of Polymerization. Mechanism of Living Radical Polymerizations: Nitroxide mediated polymerization (NMP), Metal-catalyzed Living Radical Polymerization, Reversible Addition-Fragmentation Chain Transfer (RAFT) Radical Polymerization. Coordination polymerization, Ring-opening polymerization. Thermal and mechanical properties of polymers: Glass transition temperature, melting temperature, Rheological properties, industrial polymers."
+            },
+            {
+              "unit": 3,
+              "topics": "Micelles and Colloids: Surface active agents and their classification, micellization, hydrophobic interaction, critical miceller concentration (cmc), factors affecting cmc of surfactants, thermodynamics of micellization, phase separation and mass action models, reverse micelles, solubilization. Stability and properties of colloids. Zeta potential, Stern double layer, Tyndal effect."
+            }
+          ]
+        },
+        {
+          "code": "CHEMN8R1",
+          "name": "Organic Chemistry - VI",
+          "credits": 2,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Asymmetric Synthesis: Enolization (Lithium and Boron enolate), Stereoselective Aldol condensation reaction (chiral enolate& achiral aldehyde and achiral enolate and chiral aldehyde). The chiral pool, chiral auxiliaries, chiral catalysts and reagents, and enantiomeric excess."
+            },
+            {
+              "unit": 2,
+              "topics": "Pericyclic Reactions: Woodward-Hoffmann rules and molecular orbitals; Electrocylic reactions; Cycloaddition reactions, 1,3-Dipolar cycloaddition and cheletropic reactions; Sigmatropic rearrangements; Group transfer reactions: Ene reactions."
+            },
+            {
+              "unit": 3,
+              "topics": "Modern organic synthesis: Retrosynthesis, Umpolung, Domino reactions and functional group interconversion."
+            },
+            {
+              "unit": 4,
+              "topics": "Formation of Carbon-Carbon Bonds via Organometallic reagents: Organozinc, Organocopper, and Organoborane reagents, Palladium catalyzed coupling reactions (Heck, Sonogashira, and Suzuki)."
+            }
+          ]
+        },
+        {
+          "code": "CHEMN8R2",
+          "name": "Physical Chemistry - VI",
+          "credits": 2,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Advanced Electrochemistry: Metal/ Electrolyte interface: OHP and IHP, potential profile across double layer region, potential difference across electrified interface; structure of the double layer: Helmholtz- Perrin, Gouy-Chapman, and Stern models. Butler-Volmer equation under near equilibrium and non-equilibrium conditions, exchange current density, Tafel plot, polarizable and non-polarizable interfaces. Semiconductor (SC)/electrolyte interface: Creation of space charge region, capacity of space-charge, Mott-Schottky plots for n-type and p-type semiconductors, determination of flat-band potential and donor/acceptor densities, application of SC/electrolyte interface in solar cells, Fuel Cell, Battery. Cyclic voltammetry (CV) technique basics and annplications. CredliOl Ol sVdle Ciidryge FEYIOI, CapdaCily Ol space-charge, Mott-Schottky plots for n-type and p-type semiconductors, determination of flat-band potential and donor/acceptor densities, application of SC/electrolyte interface in solar cells, Fuel Cell, Battery. Cyclic voltammetry (CV) technique basics and applications."
+            },
+            {
+              "unit": 2,
+              "topics": "Polymer Chemistry: Introduction, Classification of Polymers & Intermolecular forces of Polymers. Different types of molecular weight of polymer, polydispersity Index, Determination of molecular weight of polymers. Thermodynamic Aspects of Polymerization. Mechanism of Living Radical Polymerizations: Nitroxide mediated polymerization (NMP), Metal-catalyzed Living Radical Polymerization, Reversible Addition-Fragmentation Chain Transfer (RAFT) Radical Polymerization. Coordination polymerization, Ring-opening polymerization. Thermal and mechanical properties of polymers: Glass transition temperature, melting temperature, Rheological properties, industrial polymers."
+            },
+            {
+              "unit": 3,
+              "topics": "Micelles and Colloids: Surface active agents and their classification, micellization, hydrophobic interaction, critical miceller concentration (cmc), factors affecting cmc of surfactants, thermodynamics of micellization, phase separation and mass action models, reverse micelles, solubilization. Stability and properties of colloids. Zeta potential, Stern double layer, Tyndall effect."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
