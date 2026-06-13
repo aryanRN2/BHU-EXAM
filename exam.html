@@ -517,6 +517,7 @@
         StateManager.updateActiveExam({ currentQuestionIndex: index });
 
         const q = questions[index];
+        const isRevealed = !!revealedQuestions[q.id];
         
         if (shouldScrollToTop) {
             const mainEl = document.querySelector('main');
@@ -555,7 +556,7 @@
             toolbelt.classList.remove('hidden');
             const revealBtn = document.querySelector('button[onclick="revealActiveAnswer()"]');
             if (revealBtn) {
-                if (examState.type === 'theory') {
+                if (isRevealed) {
                     revealBtn.classList.add('hidden');
                 } else {
                     revealBtn.classList.remove('hidden');
@@ -569,8 +570,6 @@
 
         if (examState.type === 'theory') {
             const savedEvaluation = examState.answers[q.id] || null;
-            const textAnswer = savedEvaluation ? (savedEvaluation.textAnswer || '') : '';
-            const isRevealed = !!revealedQuestions[q.id];
             const showGradingDisplay = (savedEvaluation && savedEvaluation.evaluated) || isRevealed;
             const hasGraded = savedEvaluation && savedEvaluation.evaluated;
             
@@ -593,55 +592,9 @@
             }
             
             let uploadInterfaceHTML = `
-                <div class="space-y-6">
-                    <!-- API KEY CONFIGURATION PROMPT -->
-                    <div id="apiKeyConfigBanner" class="p-4 bg-amber-500/10 border border-amber-500/20 rounded-lg text-xs text-amber-800 flex flex-col gap-2 ${hfApiKey && !hfApiKey.includes('YOUR_HF_API_KEY') ? 'hidden' : ''}">
-                        <div class="flex items-center gap-2 font-bold">
-                            <span class="material-symbols-outlined text-sm">warning</span>
-                            <span>AI API Key Required</span>
-                        </div>
-                        <p>To enable AI grading, configure an AI API Key in the <code>.env</code> file, or paste it below to save in local storage:</p>
-                        <div class="flex gap-2">
-                            <input type="password" id="tempApiKeyInput" class="flex-grow px-3 py-1.5 rounded border border-amber-300 text-xs focus:outline-none focus:border-amber-500 text-primary" placeholder="Enter API Key...">
-                            <button onclick="saveTempApiKey()" class="bg-amber-600 text-white px-4 py-1.5 rounded font-bold text-xs hover:bg-amber-700 active:scale-95 transition-all shrink-0">Save Key</button>
-                        </div>
-                    </div>
-
-                    <!-- WRITTEN ANSWER INTERFACE -->
-                    <div class="flex flex-col gap-3">
-                        <label for="theoryTextAnswer" class="text-xs font-bold text-secondary uppercase tracking-widest">Write Your Answer</label>
-                        <textarea id="theoryTextAnswer" rows="6" oninput="handleTheoryTextChange(this)"
-                                  class="w-full p-4 bg-white border border-border-subtle rounded-lg text-sm focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary transition-all text-primary placeholder-neutral-400 custom-scrollbar"
-                                  placeholder="Type your detailed solution/answer here..."
-                                  spellcheck="false"
-                                  autocorrect="off"
-                                  autocapitalize="off"
-                                  autocomplete="off"
-                                  data-gramm="false"
-                                  data-enable-grammarly="false"
-                                  data-monica-ignore="true"
-                                  data-quillbot-ignore="true"
-                                  data-ignore="true">${textAnswer}</textarea>
-                    </div>
-
+                <div class="space-y-6 animate-fade-in">
                     <!-- ACTION BUTTON & GRADING FEEDBACK -->
                     <div class="flex flex-col gap-4">
-                        <!-- AI Evaluate Button -->
-                        <button id="aiEvaluateBtn" onclick="evaluateSolution()" class="${textAnswer.trim().length > 0 ? 'flex' : 'hidden'} w-full bg-primary text-on-primary py-4 rounded-full font-bold text-sm hover:scale-[1.01] active:scale-95 transition-all justify-center items-center gap-2 shadow-md hover:bg-neutral-800 disabled:opacity-50 disabled:pointer-events-none">
-                            <span class="material-symbols-outlined text-lg">auto_awesome</span>
-                            <span>${savedEvaluation && savedEvaluation.evaluated ? 'Submit Again & Re-Grade' : 'Grade & Analyze Answer'}</span>
-                        </button>
-
-                        <!-- Loading state -->
-                        <div id="aiEvaluateLoading" class="hidden flex-col items-center justify-center py-6 gap-2">
-                            <div class="relative w-10 h-10 flex items-center justify-center">
-                                <div class="absolute inset-0 bg-primary/10 rounded-full animate-ping"></div>
-                                <span class="material-symbols-outlined text-2xl text-primary animate-pulse">auto_awesome</span>
-                            </div>
-                            <p id="evaluatingStatusText" class="text-xs font-bold text-primary animate-pulse">Evaluating solution with AI...</p>
-                            <p class="text-[10px] text-secondary">Checking calculations and grading rubrics...</p>
-                        </div>
-
                         <!-- Grade Display -->
                         <div id="theoryGradingDisplay" class="${showGradingDisplay ? 'flex' : 'hidden'} flex-col gap-4">
                             <div class="p-5 bg-accent-neural-emerald/[0.03] border border-accent-neural-emerald/20 rounded-lg ${hasGraded ? 'flex' : 'hidden'} items-center justify-between">
@@ -820,268 +773,6 @@
             checkApiKeyBanner();
             alert("API Key saved locally!");
             renderQuestion(examState.currentQuestionIndex);
-        }
-    };
-
-    window.handleTheoryTextChange = function(textarea) {
-        const val = textarea.value;
-        const q = questions[examState.currentQuestionIndex];
-        
-        examState.answers[q.id] = examState.answers[q.id] || {
-            evaluated: false,
-            marks: 0,
-            suggestions: '',
-            hasImage: false,
-            textAnswer: '',
-            tutorChat: []
-        };
-        
-        examState.answers[q.id].textAnswer = val;
-        StateManager.updateActiveExam({ answers: examState.answers });
-        
-        const evalBtn = document.getElementById('aiEvaluateBtn');
-        if (evalBtn) {
-            if (val.trim().length > 0) {
-                evalBtn.classList.remove('hidden');
-                evalBtn.classList.add('flex');
-            } else {
-                evalBtn.classList.add('hidden');
-                evalBtn.classList.remove('flex');
-            }
-        }
-    };
-
-    window.evaluateSolution = async function() {
-        const q = questions[examState.currentQuestionIndex];
-        const currentAnswerState = examState.answers[q.id] || {};
-        const textAnswer = currentAnswerState.textAnswer || '';
-        
-        if (!textAnswer.trim()) {
-            alert('Please type your answer before submitting for grading.');
-            return;
-        }
-
-        const isNvidia = nvidiaApiKey && !nvidiaApiKey.includes('YOUR_NVIDIA_API_KEY');
-        const isHF = hfApiKey && !hfApiKey.includes('YOUR_HF_API_KEY');
-        const isMock = !isNvidia && !isHF;
-
-        // Show loading state
-        document.getElementById('aiEvaluateBtn').classList.add('hidden');
-        document.getElementById('aiEvaluateBtn').classList.remove('flex');
-        document.getElementById('aiEvaluateLoading').classList.remove('hidden');
-        document.getElementById('aiEvaluateLoading').classList.add('flex');
-        
-        const gradeDisplay = document.getElementById('theoryGradingDisplay');
-        if (gradeDisplay) {
-            gradeDisplay.classList.add('hidden');
-            gradeDisplay.classList.remove('flex');
-        }
-        
-        const statusTextEl = document.getElementById('evaluatingStatusText');
-        if (statusTextEl) {
-            statusTextEl.textContent = "Evaluating solution with AI...";
-        }
-
-        const scanner = document.getElementById('scannerOverlay');
-        if (scanner) {
-            scanner.classList.remove('hidden');
-        }
-
-        if (isMock) {
-            try {
-                // Simulate AI grading with a premium delay
-                await new Promise(resolve => setTimeout(resolve, 2000));
-                
-                // Generate some detailed mock feedback based on the question and text
-                const mockFeedback = generateMockFeedback(q, "");
-
-                examState.answers[q.id] = {
-                    evaluated: true,
-                    marks: mockFeedback.marks,
-                    suggestions: mockFeedback.suggestions,
-                    hasImage: false,
-                    textAnswer: textAnswer,
-                    tutorChat: []
-                };
-                
-                StateManager.updateActiveExam({ answers: examState.answers });
-                await renderQuestion(examState.currentQuestionIndex, false);
-                
-                setTimeout(() => {
-                    const displayEl = document.getElementById('theoryGradingDisplay');
-                    if (displayEl) {
-                        displayEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-                    }
-                }, 100);
-            } catch (err) {
-                console.error('Mock AI Grading failed:', err);
-            } finally {
-                if (scanner) {
-                    scanner.classList.add('hidden');
-                }
-            }
-            return;
-        }
-
-        try {
-            const promptText = `You are a university professor grading an exam.
-Grade the student's solution for the following question.
-
-[QUESTION]
-${q.question}
-
-[REFERENCE SOLUTION & RUBRIC]
-${q.answerKey}
-
-[STUDENT'S ANSWER]
-${textAnswer}
-
-Perform the grading by following these exact steps in your response:
-
-STEP 1: [PROBLEM ANALYSIS]
-Analyze the question and the reference solution to identify the core mathematical conditions, definitions, and proof steps required.
-
-STEP 2: [SOLUTION EVALUATION]
-Compare the student's typed answer against the required proof steps.
-Verify every step for calculation errors, logical gaps, or missing definitions.
-
-STEP 3: [FINAL EVALUATION JSON]
-Provide the final grade and feedback. You MUST output a JSON object at the very end of your response inside a \`\`\`json ... \`\`\` block:
-{
-  "marks": number, // integer from 0 to 10
-  "suggestions": string // markdown-formatted suggestions/feedback (avoid HTML tags, use standard markdown bullets/bold)
-}`;
-
-            const messages = [
-                {
-                    role: "user",
-                    content: [
-                        {
-                            type: "text",
-                            text: promptText
-                        }
-                    ]
-                }
-            ];
-
-            let url = '';
-            let headers = { 'Content-Type': 'application/json' };
-            let bodyPayload = {};
-
-            if (isNvidia) {
-                url = 'https://integrate.api.nvidia.com/v1/chat/completions';
-                headers['Authorization'] = `Bearer ${nvidiaApiKey}`;
-                bodyPayload = {
-                    model: "meta/llama-3.2-11b-vision-instruct",
-                    messages: messages,
-                    max_tokens: 1024,
-                    temperature: 0.15
-                };
-            } else {
-                url = `https://api-inference.huggingface.co/models/Qwen/Qwen2-VL-7B-Instruct/v1/chat/completions`;
-                headers['Authorization'] = `Bearer ${hfApiKey}`;
-                bodyPayload = {
-                    model: "Qwen/Qwen2-VL-7B-Instruct",
-                    messages: messages
-                };
-            }
-
-            const passKey = isNvidia ? (nvidiaApiKey !== 'configured' ? nvidiaApiKey : '') : (hfApiKey !== 'configured' ? hfApiKey : '');
-            const res = await fetch('/api/ai', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    url: url,
-                    apiKey: passKey,
-                    body: bodyPayload
-                })
-            });
-
-            if (!res.ok) {
-                const errText = await res.text();
-                throw new Error(`API Error: ${res.status} - ${errText}`);
-            }
-
-            const data = await res.json();
-            let textResponse = data.choices[0].message.content.trim();
-            
-            // Clean Markdown code blocks if the model wrapped it in ```json ... ```
-            if (textResponse.includes('```')) {
-                const parts = textResponse.split('```');
-                for (let part of parts) {
-                    let cleaned = part.trim();
-                    if (cleaned.startsWith('json')) {
-                        cleaned = cleaned.substring(4).trim();
-                    }
-                    if (cleaned.startsWith('{')) {
-                        textResponse = cleaned;
-                        break;
-                    }
-                }
-            }
-            
-            // Regex fallback to extract JSON object
-            const jsonMatch = textResponse.match(/\{[\s\S]*\}/);
-            if (jsonMatch) {
-                textResponse = jsonMatch[0];
-            }
-
-            const parsed = JSON.parse(textResponse);
-
-            // Save to examState
-            examState.answers[q.id] = {
-                evaluated: true,
-                marks: typeof parsed.marks === 'number' ? parsed.marks : parseInt(parsed.marks) || 0,
-                suggestions: parsed.suggestions || 'No feedback provided.',
-                hasImage: true,
-                imageName: fileName,
-                tutorChat: []
-            };
-            
-            StateManager.updateActiveExam({ answers: examState.answers });
-            await renderQuestion(examState.currentQuestionIndex, false);
-
-            setTimeout(() => {
-                const displayEl = document.getElementById('theoryGradingDisplay');
-                if (displayEl) {
-                    displayEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-                }
-            }, 100);
-            
-        } catch (error) {
-            console.warn('AI Grading failed, falling back to mock professor evaluation:', error);
-            try {
-                const mockFeedback = generateMockFeedback(q, fileName);
-
-                examState.answers[q.id] = {
-                    evaluated: true,
-                    marks: mockFeedback.marks,
-                    suggestions: mockFeedback.suggestions,
-                    hasImage: true,
-                    imageName: fileName,
-                    tutorChat: []
-                };
-                
-                StateManager.updateActiveExam({ answers: examState.answers });
-                await renderQuestion(examState.currentQuestionIndex, false);
-
-                setTimeout(() => {
-                    const displayEl = document.getElementById('theoryGradingDisplay');
-                    if (displayEl) {
-                        displayEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-                    }
-                }, 100);
-            } catch (fallbackErr) {
-                console.error('Mock fallback failed:', fallbackErr);
-                alert(`AI Grading failed: ${error.message}`);
-                document.getElementById('aiEvaluateBtn').classList.remove('hidden');
-                document.getElementById('aiEvaluateBtn').classList.add('flex');
-                document.getElementById('aiEvaluateLoading').classList.add('hidden');
-            }
-        } finally {
-            if (scanner) {
-                scanner.classList.add('hidden');
-            }
         }
     };
 
