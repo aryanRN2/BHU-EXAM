@@ -464,8 +464,7 @@
     document.getElementById('examModuleTitle').textContent = examData.module;
     
     // Generate mock Session Code
-    const cleanName = user.name.replace(/\s+/g, '').slice(0,4).toUpperCase();
-    document.getElementById('sessionCodeSpan').textContent = `${examState.examId.toUpperCase()}-${cleanName}`;
+    document.getElementById('sessionCodeSpan').textContent = `${examState.examId.toUpperCase()}-SCIQB`;
 
     // 2. Setup Timer Countdown Loop
     let countdownInterval = setInterval(() => {
