@@ -1,0 +1,997 @@
+{
+  "department": "Department of Statistics",
+  "university": "Banaras Hindu University",
+  "programme": "B.Sc. (Hons.) Statistics",
+  "semesters": [
+    {
+      "semester": 1,
+      "papers": [
+        {
+          "code": "STAMD11",
+          "name": "Elementary Statistics",
+          "credits": 3,
+          "course_type": "Multidisciplinary",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Data Types and Measurement Scales: Understanding different data types (nominal, ordinal, interval, ratio), Identifying appropriate measurement scales for variables, Implications of measurement scales on descriptive statistics."
+            },
+            {
+              "unit": 2,
+              "topics": "Data Visualization for Descriptive Statistics: Diagrammatic and Graphical representation of data (bar plots, histograms, box plots), Interpreting visual representations of data distributions, using summary statistics in conjunction with graphs. Introduction to Exploratory Data Analysis (EDA): Overview of EDA and its importance in data analysis, The EDA process and its key components, Understanding the role of EDA in decisinn-makina Diagrammatic and Graphical representation of data (bar plots, histograms, box plots), Interpreting visual representations of data distributions, using summary statistics in conjunction with graphs. Introduction to Exploratory Data Analysis (EDA): Overview of EDA and its importance in data analysis, The EDA process and its key components, Understanding the role of EDA in decision-making."
+            },
+            {
+              "unit": 3,
+              "topics": "Measures of Central Tendency: Mean median, and mode, weighted mean and its application, selecting appropriate measures for different data distributions. Measures of Dispersion: Range and interquartile range, Quantiles and percentiles, Variance and standard deviation, Coefficient of variation, Skewness and kurtosis. Summary statistics and data distributions."
+            },
+            {
+              "unit": 4,
+              "topics": "Exploring Relationships and Dependencies: Cross-tabulation and contingency tables, Scatter plots and measures of correlation coefficients (Pearson, Spearman), Interpreting relationships and dependencies between variables. Regression Analysis: Simple and multiple linear regression, interpreting regression coefficients and making predictions"
+            }
+          ]
+        },
+        {
+          "code": "STAMJ11",
+          "name": "Descriptive Statistics",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Origin of Statistics & its application area, Data and its sources: primary and secondary. Data collection methods: designing a questionnaire and schedule. Scales of measurements. Types of variable: discrete variable, continuous variable, qualitative variable, quantitative variable. Construction and properties of tables. Distribution of variables. Discrete distribution, continuous distribution, cumulative distribution."
+            },
+            {
+              "unit": 2,
+              "topics": "Graphical summarization of data: histogram, frequency polygon, frequency curve, ogives, stem-and-leaf plot, box plot, bar chart, multiple bar chart, stack bar plot, pie chart, line chart, diagrammatic and graphical representation of grouped data, frequency and cumulative frequency distribution and their applications."
+            },
+            {
+              "unit": 3,
+              "topics": "Concept of central tendency and its measures, partition values, dispersion and relative dispersion, moments, Sheppards correction for moments, skewness, kurtosis and their measures. Bivariate data: Scatter diagram, measurement of covariation, standardized covariation (product moment correlation coefficient) with assumptions and its properties, Soearman's correlation, point biserial correlation, biserial correlation, coefficient of determination."
+            },
+            {
+              "unit": 4,
+              "topics": "Theory of attributes: Independence and Association of attributes, various measures of association for two-way classified data."
+            },
+            {
+              "unit": 5,
+              "topics": "Regression: purpose and scope, simple linear regression and concept of error, principle of least square and fitting of linear regression. Properties of regression equations, properties of regression coefficients, predicted and residual variances."
+            }
+          ]
+        },
+        {
+          "code": "STAMJ12",
+          "name": "Practical based on STAMJ11",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Origin of Statistics & its application area, Data and its sources: primary and secondary. Data collection methods: designing a questionnaire and schedule. Scales of measurements. Types of variable: discrete variable, continuous variable, qualitative variable, quantitative variable. Construction and properties of tables. Distribution of variables. Discrete distribution, continuous distribution, cumulative distribution."
+            },
+            {
+              "unit": 2,
+              "topics": "Graphical summarization of data: histogram, frequency polygon, frequency curve, ogives, stem-and-leaf plot, box plot, bar chart, multiple bar chart, stack bar plot, pie chart, line chart, diagrammatic and graphical representation of grouped data, frequency and cumulative frequency distribution and their applications."
+            },
+            {
+              "unit": 3,
+              "topics": "Concept of central tendency and its measures, partition values, dispersion and relative dispersion, moments, Sheppards correction for moments, skewness, kurtosis and their measures. Bivariate data: Scatter diagram, measurement of covariation, standardized covariation (product moment correlation coefficient) with assumptions and its properties, Soearman's correlation, point biserial correlation, biserial correlation, coefficient of determination."
+            },
+            {
+              "unit": 4,
+              "topics": "Theory of attributes: Independence and Association of attributes, various measures of association for two way classified data."
+            },
+            {
+              "unit": 5,
+              "topics": "Regression: purpose and scope, simple linear regression and concept of error, principle of least square and fitting of linear regression. Properties of regression equations, properties of regression coefficients, predicted and residual variances."
+            }
+          ]
+        },
+        {
+          "code": "STAMN11",
+          "name": "Descriptive Statistics",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Origin of Statistics & its application area, Data and its sources: primary and secondary. Data collection methods: designing a questionnaire and schedule. Scales of measurements. Types of variable: discrete variable, continuous variable, qualitative variable, quantitative variable. Construction and properties of tables. Distribution of variables. Discrete distribution, continuous distribution, cumulative distribution."
+            },
+            {
+              "unit": 2,
+              "topics": "Graphical summarization of data: histogram, frequency polygon, frequency curve, ogives, stem-and-leaf plot, box plot, bar chart, multiple bar chart, stack bar plot, pie chart, line chart, diagrammatic and graphical representation of grouped data, frequency and cumulative frequency distribution and their applications."
+            },
+            {
+              "unit": 3,
+              "topics": "Concept of central tendency and its measures, partition values, dispersion and relative dispersion, moments, Sheppards correction for moments, skewness, kurtosis and their measures. Bivariate data: Scatter diagram, measurement of covariation, standardized covariation (product moment correlation coefficient) with assumptions and its properties, Spearman's correlation, point biserial correlation, biserial correlation, coefficient of determination."
+            },
+            {
+              "unit": 4,
+              "topics": "Theory of attributes: Independence and Association of attributes, various measures of association for two way classified data."
+            },
+            {
+              "unit": 5,
+              "topics": "Regression: purpose and scope, simple linear regression and concept of error, principle of least square and fitting of linear regression. Properties of regression equations, properties of regression coefficients, predicted and residual variances."
+            }
+          ]
+        },
+        {
+          "code": "STAMN12",
+          "name": "Practical based on STAMN11",
+          "credits": 1,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Paper will be based on numerical problems on different units of Paper STAMN11 Unit 1&ll Unit Ill Unit IV&V"
+            }
+          ]
+        },
+        {
+          "code": "STASE11",
+          "name": "Data Analysis using Excel",
+          "credits": 3,
+          "course_type": "Skill Enhancement",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "How to use variables; enter data, copy and paste cells, and format text in Excel. Auto sum, fill, sort, filter, find, replace, and conditional formatting functions to your data. Create tables and pivot tables for data handling. Manipulate data with new variables, if statements, and other operators. Use freeze and name functions for data analysis."
+            },
+            {
+              "unit": 2,
+              "topics": "Create frequency distributions and graphs for your data. Decorate and export your graphs to other applications. Compute descriptive statistics, correlation, regression, and probability with Excel functions. Interpret thn van. lbn Lau AA ATA AR nanlinn"
+            },
+            {
+              "unit": 3,
+              "topics": "Test hypotheses with t tests, chi-square tests, ANOVA, and other methods. Rank and calculate percentiles for your data. Import and export data from different sources to Excel. Link and consolidate data across workbooks and worksheets. Analyze data from multiple sources."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "papers": [
+        {
+          "code": "STAMD21",
+          "name": "Inferential Statistics",
+          "credits": 3,
+          "course_type": "Multidisciplinary",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Overview of statistical methods and their applications. Probability and Probability Distributions: Fundamentals of probability theory, Discrete and continuous probability distributions, Binomial, Poisson and Normal distribution and its properties, Sampling distributions standard error and Central Limit Theorem."
+            },
+            {
+              "unit": 2,
+              "topics": "Statistical Inference-Estimation; Point estimation and interval estimation, Confidence intervals for population parameters, Sample size determination for estimation."
+            },
+            {
+              "unit": 3,
+              "topics": "Hypothesis Testing: Introduction to hypothesis testing, Z-test, One-sample and two-sample t-tests, Categorical Data Analysis: Chi-square test of independence of attributes, Chi-square test of goodness-of- fit, Chi-square test for contingency tables, Log-linear models for categorical data analysis, Interpreting and reporting results for categorical data."
+            },
+            {
+              "unit": 4,
+              "topics": "Nonparametric Methods: Wilcoxon signed- rank test, Mann-Whitney U test, Kruskal-Wallis test, Interpreting nonparametric test results."
+            }
+          ]
+        },
+        {
+          "code": "STAMJ21",
+          "name": "Introduction to Probability Theory",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Review of combinatorial analysis. Random experiment: Trial, sample point, sample space, elementary events, events, equally likely, disjoint events, mutually exclusive events and exhaustive events. Classical and relative frequency approach to probability, axiomatic approach to probability, merits and demerits of these approaches, properties of probability. Conditional probability and independence, total and compound probability theorems, partition of sample space, Bayes theorem and its applications"
+            },
+            {
+              "unit": 2,
+              "topics": "Random Variable: Concept of discrete random variable, distribution function, probability mass function, joint probability mass function of several discrete random variables, marginal and conditional probability mass functions. Continuous random variable, probability density function, joint density function of two continuous variables, marginal and conditional probability density functions."
+            },
+            {
+              "unit": 3,
+              "topics": "Expectation of random variables and its properties, conditional expectation, moments in terms of expectation, conditional expectations."
+            },
+            {
+              "unit": 4,
+              "topics": "Moments and cumulants, moment generating function, cumulant generating function, probability generating functions, Probability inequalities (Markov@s and Chebychev@s)."
+            },
+            {
+              "unit": 5,
+              "topics": "Basic idea and properties of some theoretical probability distributions: Binomial, Poisson and Normal distributions."
+            }
+          ]
+        },
+        {
+          "code": "STAMN22",
+          "name": "Practical based on STAMN21",
+          "credits": 1,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 3,
+              "topics": "IV8V"
+            }
+          ]
+        },
+        {
+          "code": "STASE21",
+          "name": "Data Analysis using SPSS",
+          "credits": 3,
+          "course_type": "Skill Enhancement",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "How to use SPSS interface, terms, and data formats? Import and export data from different sources. Navigate data editor and variable view. Data types and measurement levels. Data Entry and Manipulation, Recode and transform variables. Merge and append datasets. Descriptive Statistics: central tendency, variability, etc. Frequency distributions and histograms. Cross-tabulate variables and make contingency tables. Function for descriptive analysis."
+            },
+            {
+              "unit": 2,
+              "topics": "Data Visualization: Create and customize charts and graphs. Add data labels and annotations. Export charts and graphs from SPSS. Transform variables (standardize, normalize, etc.). Create new variables in SPSS. Compute and recode variables. Run frequency analysis and descriptive statistics on specific variables."
+            },
+            {
+              "unit": 3,
+              "topics": "Parametric Tests: Independent and paired t-tests, one-way ANOVA, etc. Nonparametric Tests: chi-square test, Mann- Whitney U test, Wilcoxon signed-rank test, Kruskal-Wallis test, etc. Correlation and Regression: Pearsons and Spearmans correlation coefficients, simple and multiple linear regression analysis. Check assumptions and interpret results of regression analysis. Generate scatter plots and regression output."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 3,
+      "papers": [
+        {
+          "code": "STAMD31",
+          "name": "Basics of Sample Survey and Design of Experiment",
+          "credits": 3,
+          "course_type": "Multidisciplinary",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Concept of population and sample, need for sampling, complete enumeration versus sampling. Basic concepts in sampling, sampling and Non-sampling errors."
+            },
+            {
+              "unit": 2,
+              "topics": "Concept of probability and non-probability sampling and their applications: Simple random sampling with and without replacement, Stratified random sampling, proportional and optimum allocation, Systematic sampling (when population size (N) is an integer multiple of sampling size (n))."
+            },
+            {
+              "unit": 3,
+              "topics": "Analysis of Variance (ANOVA); One-way ANOVA and post hoc tests, Two- way ANOVA, Assumptions and limitations of ANOVA, Interpreting ANOVA results and performing follow-up analyses."
+            },
+            {
+              "unit": 4,
+              "topics": "Experimental Design: Principles of experimental design, Completely Randomized Design (CRD), and Randomized Block Design (RBD). Randomized controlled trials, Factorial designs and interaction effects, interpreting experimental design results."
+            }
+          ]
+        },
+        {
+          "code": "STAMJ31",
+          "name": "Basics of Probability Distribution",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Standard discrete and continuous distributions: binomial, Poisson, geometric, negative binomial, hypergeometric, uniform, normal, beta, exponential, and gamma distributions."
+            },
+            {
+              "unit": 2,
+              "topics": "Moment generating function, probability generating function of above distributions, bivariate normal distributions with properties and their applications. Additive property and applications of above distributions"
+            },
+            {
+              "unit": 3,
+              "topics": "Distribution of function of univariate and bivariate random variables using moment generating function, distribution function and linear transformation method."
+            },
+            {
+              "unit": 4,
+              "topics": "Correlation and Regression of bivariate continuous random variables. Regression functions and their properties"
+            },
+            {
+              "unit": 5,
+              "topics": "Bivariate normal distribution: Marginal distribution, conditional distribution and simple problems based on bivariate normal distribution."
+            }
+          ]
+        },
+        {
+          "code": "STAMJ32",
+          "name": "Sample Distribution",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Concept of population and their types, simple random sample from a distribution, statistic and its sampling distribution, standard error, Construction of sampling distribution of statistic; derivation of distribution of sample mean, sample variance and sample proportions"
+            },
+            {
+              "unit": 2,
+              "topics": "Derivation of some more sampling distributions viz. Chi-square distribution, t-distribution, F-distribution, Z-distribution and their properties with applications."
+            },
+            {
+              "unit": 3,
+              "topics": "Order statistics: Definition and distributions of different order statistics viz. smallest, largest, rth etc. Joint distribution of order statistics and distribution of Range and median along with their applications."
+            }
+          ]
+        },
+        {
+          "code": "STASE31",
+          "name": "Data Analysis using R",
+          "credits": 3,
+          "course_type": "Skill Enhancement",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to R: Overview of R and its uses in data analysis, Installing R and R Studio, Introduction to R packages. Basic R syntax and data structures: Using R as a calculator: arithmetic operations, vectors and matrices, data frames for tabular data, indexing and subsetting data structures. Data manipulation: selecting columns and filtering rows, sorting data, adding and modifying variables, summarizing data with basic descriptive statistics."
+            },
+            {
+              "unit": 2,
+              "topics": "Data import and export: reading data from csv and excel files, exporting data to different formats, handling missing values during data import. Data visualization: Basic plots (scatter plots, bar plots, line plots), customizing plot aesthetics (labels, titles, colors), adding multiple plots on one canvas. Control structures and functions: conditional statements (if-else), loops (for, while). IIl Writing and using functions: Applying functions to data, basic statistical analysis, descriptive statistics (mean, median, standard deviation), hypothesis tests (t-tests, chi-square tests), correlation analysis, basic regression models."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 4,
+      "papers": [
+        {
+          "code": "STAMJ41",
+          "name": "Statistical Inference I",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Elementary idea of point estimation of parameters, properties of good estimator: unbiasedness, consistency, efficiency, & sufficiency with simple illustrative examples. Idea of Confidence interval estimation."
+            },
+            {
+              "unit": 2,
+              "topics": "Concepts of statistical hypotheses: null and alternative hypothesis, critical region, two types of errors, level of significance, p- value and power of a test. One and two tailed tests. Statement of Law of Large Numbers and Central Limit Theorem."
+            },
+            {
+              "unit": 3,
+              "topics": "Small Sample tests: t-test for single Mean, difference of Means and Paired t-test. chi-square test for Goodness of fit and independence of attributes. F-test for Equality of variances."
+            },
+            {
+              "unit": 4,
+              "topics": "Large sample Tests: Large sample tests for single mean and difference of two means. Confidence intervals for mean(s). Large sample test for single proportion, difference of proportions, Standard deviation(s) and Correlation coefficient(s)."
+            },
+            {
+              "unit": 5,
+              "topics": "Non-parametric tests- Definition, advantages and disadvantages, Sign, Run, Median tests, Spearman's rank correlation test, Wilcoxon Mann-Whitney test, Kolmogorov Smirnov - one sample and two sample tests."
+            }
+          ]
+        },
+        {
+          "code": "STAMJ42",
+          "name": "Sample Surveys and Design of Experiment",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Concept of population and sample, need for sampling, complete enumeration versus sampling, Basic concepts in sampling, sampling and non-sampling errors. Acquaintance with the working (questionnaires, sampling design, methods followed in field investigation, principal findings, etc.) of NSSO and other agencies undertaking sample surveys."
+            },
+            {
+              "unit": 2,
+              "topics": "Concept of probability and non-probability sampling. Simple random sampling with and without replacement, estimation of population mean, population proportions and their standard errors. Stratified random sampling, proportional and optimum allocation, comparison with simple random sampling for fixed sample size."
+            },
+            {
+              "unit": 3,
+              "topics": "Systematic sampling (when population size (N) is an integer multiple of sampling size (n)). Estimation of population mean and standard error of this estimate, comparison with simple random sampling."
+            },
+            {
+              "unit": 4,
+              "topics": "Elementary idea of cluster sampling. Use of auxiliary information, ratio, product and regression methods of estimation."
+            },
+            {
+              "unit": 5,
+              "topics": "Analysis of variance for one way and two- way classifications (with one observation per cell), need for design of experiments, basic principles of experimental design: randomization, replication and local control, complete analysis and layout of completely randomized design, randomized block design and Latin square design. Factorial experiments: 22 and23 factorial experiments."
+            }
+          ]
+        },
+        {
+          "code": "STAMJ43",
+          "name": "Applied Statistics",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Time Series Analysis: A realization of stochastic process, nature of time series data, Stationary and non-stationary time series, moving averages, different components: secular trend, seasonal, cyclic and random"
+            },
+            {
+              "unit": 2,
+              "topics": "Classical decomposition model, Differencing approach, time series models: Introduction to some time series models such as AR, MA and ARMA, ARIMA model"
+            },
+            {
+              "unit": 3,
+              "topics": "Index Numbers: Price relatives and quantity or volume relatives, Link and chain relatives composition of index numbers; Laspeyre's, Paasche@s, Marshal Edgeworths and Fishers index numbers; chain base index number, tests for index number, cost of living index number."
+            },
+            {
+              "unit": 4,
+              "topics": "Theory and analysis of consumers demand, law of demand, price elasticity of demand, estimation of demand curves, forms of demand functions, Engels curve, income elasticity of demand"
+            },
+            {
+              "unit": 5,
+              "topics": "Analysis of income and allied distributions: Pareto distribution, graphical test, fitting of Pareto law, illustration, lognormal distribution and properties, Lorenz curve, Ginis coefficient"
+            }
+          ]
+        },
+        {
+          "code": "STAMJ44",
+          "name": "Practical based on STAMJ41",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Paper will be based on numerical problems of Paper STAMJ41 Paper and Unit Il, V&V"
+            }
+          ]
+        },
+        {
+          "code": "STAMJ45",
+          "name": "Practical based on STAMJ42 and STAMJ43",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Paper will be based on numerical problems of Paper STAMJ42 &STAMJ43 Paper STAMJ42 Unit | to V Paper STAMJ43 Unit | to V"
+            }
+          ]
+        },
+        {
+          "code": "STAMN41",
+          "name": "Statistical Inference I",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Elementary idea of point estimation of parameters, properties of good estimator: unbiasedness, consistency, efficiency, & sufficiency with simple illustrative examples. Idea of Confidence interval estimation"
+            },
+            {
+              "unit": 2,
+              "topics": "Concepts of statistical hypotheses: null and alternative hypothesis, critical region, two types of errors, level of significance, p-value and power of a test. One and two tailed tests. Statement of Law of Large Numbers and Central Limit Theorem."
+            },
+            {
+              "unit": 3,
+              "topics": "Small Sample tests: t-test for single Mean, difference of Means and Paired t-test. chi-square test for Goodness of fit and independence of attributes. F-test for Equality of variances."
+            },
+            {
+              "unit": 4,
+              "topics": "Large sample Tests: Large sample tests for single mean and difference of two means. Confidence intervals for mean(s). Large sample test for single proportion, difference of proportions, Standard deviation(s) and Correlation coefficient(s)."
+            },
+            {
+              "unit": 5,
+              "topics": "Non-parametric tests- Definition, advantages and disadvantages, Sign, Run, Median tests, Spearman's rank correlation test, Wilcoxon Mann-Whitney test, Kolmogorov Smirnov - one sample and two sample tests."
+            }
+          ]
+        },
+        {
+          "code": "STAMN42",
+          "name": "Practical based on STAMN41",
+          "credits": 1,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Paper will be based on numerical problems of Paper STAMN41 Unit Ill, IV &V"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 5,
+      "papers": [
+        {
+          "code": "STAIN51",
+          "name": "Internship",
+          "credits": 2,
+          "course_type": "Internship",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "The student will do summer internship work either in campus or outside of the campus."
+            }
+          ]
+        },
+        {
+          "code": "STAMJ51",
+          "name": "Operations Research",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Definitions and scope of operation research, different types of models in operations research their construction and general method of solution."
+            },
+            {
+              "unit": 2,
+              "topics": "Elements of linear programming problem (LPP): Canonical and standard forms, formulation of LPP, graphical method to solve two variable LPP, solution of LPP using simplex procedure, use of artificial variables in LPP, generation of extreme point solutions, principle of duality in LPP, statement and proof of duality theorem, simple problems based on duality theorem."
+            },
+            {
+              "unit": 3,
+              "topics": "Transportation problem (TP): different methods of finding initial feasible solution of a TP, UV method of finding optimal solution of a TP, Problems of degeneracy, and special cases of TP. Assignment problem: Hungarian method to find optimal assignment, special cases of assignment problem."
+            },
+            {
+              "unit": 4,
+              "topics": "Inventory Control: Definitions of various costs involved in inventory control. Deterministic Economic Lot Size problems with and without shortages."
+            },
+            {
+              "unit": 5,
+              "topics": "Theory of games: Two person zero-sum games, pure and mixed strategies, saddle point, maximin-minimax principle of rectangular games, games without saddle point, dominance and modified dominance property to reduce the game matrix and solution to rectangular game with mixed strategy, graphical solution of 2xN and Mx2 games, reduction of game problems to a LPP. Theory of Network - PERT, CPM."
+            }
+          ]
+        },
+        {
+          "code": "STAMJ52",
+          "name": "Numerical Methods",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "What is numerical analysis? Calculus of Finite differences. Operators: A, V, 5, E and D and their relationships. factorial polynomials, separation of symbols, differences of zero. Taylors series."
+            },
+            {
+              "unit": 2,
+              "topics": "Interpolation and polynomial approximation Weierstarss theorem, extrapolation, Newton-Gregory's forward and backward interpolation formulae for equally-spaced arguments, divided differences and their properties, Newton's formula for divided difference, Lagrange's formula for unequal intervals, central difference formula due to Gauss, Stirling, Bessel, Laplace and Everett, remainder terms in interpolation formula. error analveie due to Gauss, Stirling, Bessel, Laplace and Everett, remainder terms in interpolation formula. error analysis."
+            },
+            {
+              "unit": 3,
+              "topics": "Inverse interpolation: Different methods of inverse interpolation. Numerical differentiation: Three-point formulae and five-point formulae Numerical Integration: General Quadrature formula: Trapezoidal rule, Simpsons one-third and three-eight rules, Weddles rule, Newton-Cotes formula. Truncation error in the numerical integration formulae."
+            },
+            {
+              "unit": 4,
+              "topics": "Summation of series: Series whose general term is (i) the first difference of a function (ii) in geometric progression and (iii) a product of two functions. Difference equation: Linear difference equations (homogeneous and non- homogeneous) with constant coefficients."
+            },
+            {
+              "unit": 5,
+              "topics": "Numerical solutions of differential equations: Euler's method, Milnes method, Picards method and Runge-Kutta method. Method of solving linear and transcendental equations: Regula-falsi, bisection method, fixed-point iteration method, Newton-Raphson method, error analysis"
+            }
+          ]
+        },
+        {
+          "code": "STAMJ53",
+          "name": "Statistical Inference II",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Properties of point estimators: unbiasedness, consistency of estimators and sufficient conditions for consistency, relative efficiency of an estimator, asymptotic efficiency, Cramer-Rao lower bound, sufficiency, factorization theorem (without proof), concept of complete sufficient statistics, minimum variance unbiased estimator, Rao-Blackwell and Lehmann-Scheffe Theorems."
+            },
+            {
+              "unit": 2,
+              "topics": "Methods of point estimation : moments, maximum likelihood, minimum chi- square, least square with examples, CAN and BAN estimators, point estimates of location and scale parameters, regression coefficient, correlation coefficient and other useful parameters."
+            },
+            {
+              "unit": 3,
+              "topics": "General method for constructing confidence intervals, shortest confidence intervals, confidence intervals for the parameters of univariate normal, two independent normal distributions and exponential distributions. error in the numerical integration formulae."
+            },
+            {
+              "unit": 4,
+              "topics": "Testing of statistical hypotheses, critical region, size and power of a test, most powerful test, randomized and non randomized test, Neyman Pearson lemma and its applications, Uniformly most powerful test, unbiased test, uniformly most powerful unbiased test, Likelihood ratio test, statement of its properties and applications."
+            },
+            {
+              "unit": 5,
+              "topics": "Elementary idea about decision theory: Loss function, risk function, estimation and testing viewed as decision problems. Bayes rule."
+            }
+          ]
+        },
+        {
+          "code": "STAMJ54",
+          "name": "Practical based on STAMJ51, STAMJ52, STAMJ53",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Paper will be based on numerical problems of Paper STAMJ51, STAMJ52 & STAMJ53 Paper STAMJ51unit | to V Paper STAMJ52 unit | to V Paper STAMJ53 unit | to V"
+            }
+          ]
+        },
+        {
+          "code": "STAMV51",
+          "name": "Structure and Visualization of Data",
+          "credits": 3,
+          "course_type": "Minor (VOC)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Overview of data. scales of measurement, types variables. Data collection methods, and preparing data. Sources of data (surveys, web scraping, databases).Data structures: Arrays, lists, tables, and databases Data types and formats (CSV,SQL).Data normalization and schema design case studies of effective and ineffective visualizations."
+            },
+            {
+              "unit": 2,
+              "topics": "Data cleaning exercise using Excel. Basic chart types: Bar, error bars, line, pie, and scatter plots. Explore advanced visualization methods. Heatmaps, histograms, box plots."
+            },
+            {
+              "unit": 3,
+              "topics": "Numerical descriptors and their roles in data analysis for univariate and bivariate data. Measures of Inequalities"
+            },
+            {
+              "unit": 4,
+              "topics": "Time series analysis basics, Plotting trends, seasonality, and anomalies, Tools for time series data visualization."
+            },
+            {
+              "unit": 5,
+              "topics": "Explore visualization techniques for large datasets. Key performance indicators (KPls) and business metrics, Creating executive dashboards Communicating insights to stakeholders."
+            }
+          ]
+        },
+        {
+          "code": "STAMV52",
+          "name": "Practical based on STAMV51",
+          "credits": 1,
+          "course_type": "Minor (VOC)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Paper will be based on numerical problems of Paper STAMV51 Unit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 6,
+      "papers": [
+        {
+          "code": "STAMJ61",
+          "name": "Stochastic Processes",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to stochastic processes: Definition and examples of stochastic process, Classification of SPs according to state space and time domain. Types of stochastic processes: independent process, Bernoulli process, processes with independent increments, processes with stationary increments, Markov processes, counting processes, second-order processes, Gaussian processes, martingales, Brownian motion. Stationary process: weakly stationary and strongly stationary processes. Elementary problems and applications."
+            },
+            {
+              "unit": 2,
+              "topics": "Markov chains: definition and examples of Markov chain (MC), transition probability matrix, order of Markov chain, Markov chain as graphs, higher transition probabilities, classification of states, basic limit theorem of Markov chain. Finite state Markov chains, Chapman-Kolmogorov equations, calculation of n-step transition probability and its limit. Classification of states, aperiodic & irreducible MC, recurrent & transient MC, concept of total probability with recursion, absorption probability, mean hitting time, mean return time, stationary distribution. Random walk and gamblers ruin problem."
+            },
+            {
+              "unit": 3,
+              "topics": "Discrete state space continuous time MC: Kolmogorov forward and backward equations, jump probability, transition probability, generator matrix and its stationary distribution. Statistical inference in MC and Markov processes."
+            },
+            {
+              "unit": 4,
+              "topics": "Counting processes: Poisson process and related inter-arrival time distribution, superposition and decomposition of Poisson process, nonhomogeneous Poisson process. birth and death process, queuing model as a case of counting process."
+            }
+          ]
+        },
+        {
+          "code": "STAMJ62",
+          "name": "Statistical Process Control and Reliability",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Statistical process and product control: Quality of a product, need for quality control, basic concept of process control, process capability and product control, general theory of control charts, causes of variation in quality, control limits, sub-grouping summary of out- of-control criteria. I| Charts for attributes: p-chart, np-chart, c- chart, Charts for variables: R-chart, o-charts. x-bar chart."
+            },
+            {
+              "unit": 2,
+              "topics": "Charts for attributes: p-chart, np-chart, c- chart, Charts for variables: R-chart, o-charts. x-bar chart."
+            },
+            {
+              "unit": 3,
+              "topics": "Life testing and reliability theory: Basic concepts of life testing experiments, reliability, hazard function, mean time to system failure and their inter- relationship. System reliability concepts: Parallel, series, series-parallel, parallel-series, bridge and k-out of- n systems. Concept of Redundancy and Preventive maintenance"
+            },
+            {
+              "unit": 4,
+              "topics": "Elementary notion of censored data, type | and type II censoring schemes. Point and interval estimation procedures: exponential, Weibull, gamma, lognormal. UMVUE of reliability function and reliability hypothesis testing for exponential distribution. Stress-strength reliability and its estimation for the exponential distribution."
+            }
+          ]
+        },
+        {
+          "code": "STAMJ63",
+          "name": "Econometrics and Actuarial Statistics",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Nature of econometrics, the general linear model (GLM) and its extensions, ordinary least squares (OLS) estimation and prediction, generalized least squares (GLS) estimation and prediction, heteroscedastic disturbances, pure and mixed estimation."
+            },
+            {
+              "unit": 2,
+              "topics": "Autocorrelation, its consequences and tests. Multicollinearity problem, its implications and tools for handling the problem, ridge regression. Instrumental variable estimation, errors in variables."
+            },
+            {
+              "unit": 3,
+              "topics": "Expected value principle, utility and utility function, insurance and utility theory, mutually advantageous situation for insurance, survival function, time-until-death for a person, future life time, curtate future lifetime, force of mortality, relation of life table function to the survival function, Life table examples, deterministic survivorship group."
+            },
+            {
+              "unit": 4,
+              "topics": "Nominal and effective rates of interest and discount, force of interest and discount, compound interest, accumulation factor, insurance payable at the moment of death and at end of the year of death, concept of annuities, continuous and discrete life annuities, concept of premiums, continuous and"
+            }
+          ]
+        },
+        {
+          "code": "STAMJ64",
+          "name": "Official and Vital Statistics",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Indian and International statistical systems. role, function and activities of central and state statistical organizations, organization of large-scale sample surveys, role of national sample survey organization general and special data dissemination systems."
+            },
+            {
+              "unit": 2,
+              "topics": "System of collection of agricultural statistics, crop forecasting and estimation, productivity, fragmentation of holdings, support prices, buffer stocks, impact of irrigation projects. Statistics related to industries, foreign trade, balance of payment, cost of living, inflation, educational and other social abtabiabian balance of payment, cost of living, inflation, educational and other social statistics. IIl Some basic demographic concepts. Components of population change. Historical trends in population situation in the world. Brief description of Demographic transition theory. Sources of Demographic Data: Population census; Uses and limitations; Indian Censuses, Vital registration system, National Sample Surveys, Sample Registration System, Demographic Health Surveys (DHS) and other sample surveys."
+            },
+            {
+              "unit": 4,
+              "topics": "Measurement of Mortality and Life Table: Crude death rate, Standardized death rates, Age-specific death rates, Infant Mortality rate, Death rate by cause, Complete life table and its main features, Uses of life table. Maternal Mortality rate"
+            },
+            {
+              "unit": 5,
+              "topics": "Basic terms and concepts used in the study of fertility. Measurement of Fertility: Crude birth rate, general fertility rate, age specific birth rate, total fertility rate, gross reproduction rate, net reproduction rate. Concepts of population projections; population estimates and forecasts uses of population projections. Mathematical methods of measuring population projection. Population growth in developed and developing countries, evaluation and performance of family welfare programmes, projections of labour force and manpower."
+            }
+          ]
+        },
+        {
+          "code": "STAMJ65",
+          "name": "Practical based on STAMJ61, STAMJ62, STAMJ64",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Paper will be based on numerical problems of Paper STAMJ61, STAMJ62 &STAMJ64 Paper and Unit Paper STAMJ61 Unit | to IV Paper STAMJ62 Unit | to IV Paper STAMJ64 Unit | to V"
+            }
+          ]
+        },
+        {
+          "code": "STAMV61",
+          "name": "Data Driven Decision Making",
+          "credits": 3,
+          "course_type": "Minor (VOC)",
+          "syllabus": null
+        }
+      ]
+    },
+    {
+      "semester": 7,
+      "papers": [
+        {
+          "code": "STAMJ71",
+          "name": "Linear Models and Regression Analysis",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Gauss-Markov linear models, estimable functions, error and estimation space, normal equations and least square estimators, estimation of error variance, estimation with correlated observations, properties of least square estimators, generalized inverse of a matrix and solution of normal equations, variances and covariances of least square estimators."
+            },
+            {
+              "unit": 2,
+              "topics": "One way and two-way classifications, fixed, random and mixed effects models. Analysis of variance (two-way classification only), Multiple comparison tests due to Tukey, Scheffe and Student-Newmann-Keuls."
+            },
+            {
+              "unit": 3,
+              "topics": "Simple linear regression, multiple regression, fit of polynomials and use of orthogonal polynomials. Residuals and their plots as tests for departure from assumptions such as fitness of the model, normality, homogeneity of variances and detection of outliers and Remedies."
+            },
+            {
+              "unit": 4,
+              "topics": "Multicollinearity, ridge regression, subset selection of explanatory variables, Mallow-Cp Statistics and its applications."
+            }
+          ]
+        },
+        {
+          "code": "STAMJ72",
+          "name": "Measure and Probability Theory",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Classes of sets, fields, sigma field, minimal sigma field, Borel sigma field, sequence of sets, limsup and liminf of a sequence of sets, measure, probability measure, properties of measure, Caratheodory extension theorem, Lebesgue and Lebesgue - Steiltzes measures."
+            },
+            {
+              "unit": 2,
+              "topics": "Inverse function and their properties, measurable functions, random variables, sequence of random variables, Integration of a measurable function with respect to a measure, monotone convergence theorem, Fatou@s lemma, dominated convergence theorem."
+            },
+            {
+              "unit": 3,
+              "topics": "Characteristic function, uniqueness theorem, Levy@s continuity theorem, Convergence in distribution, Convergence in probability, almost sure convergence."
+            },
+            {
+              "unit": 4,
+              "topics": "Borel-Cantelli lemma, independence of random variables, weak law and strong law of large numbers for the sequences of independently and identically distributed and non- i.i.d. random variables; Central limit theorem due Lindeberg- Levy for i.i.d. random variables, Liapounav's CLT for sequence of non- i.i.d. random variables."
+            }
+          ]
+        },
+        {
+          "code": "STAMJ73",
+          "name": "Survey Sampling",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Fixed population and super-population approaches. Distinct features of finite population sampling, Probability sampling design and estimators along with basic statistical properties. Review of some important results in SRSWOR and SRSWR. Estimation of population mean/Total in stratified population, Allocation problem in stratified random sampling in case of fixed cost and also for specified precision. Expression for variance of stratified sample mean in case of fixed cost, Post stratification, Double sampling with post stratification, Deep stratification, Controlled sampling. I| Ratio, product and regression methods of estimation. Estimation of population mean, evaluation of bias and variance/MSE to the first order of approximation, comparison with simple random sampling. Double sampling scheme, Some double sampling estimators for mean using auxiliary character (Ratio, regression and product) method of estimation, Some unbiased ratio type estimators for population mean."
+            },
+            {
+              "unit": 3,
+              "topics": "Unequal probability sampling: PPSWR/WOR methods (including Lahiris scheme) and Des Raj estimator, Murthy estimator (for n=2). Horvitz Thompson Estimator of finite population total/mean, Expression for Variance (HTE) and its unbiased estimator, Issue of non-negative variance estimation, IIPS Scheme of sampling due to Midzuno-Sen."
+            },
+            {
+              "unit": 4,
+              "topics": "Concept of cluster sampling, two stage sampling, Non-sampling error with special reference to non-response problems."
+            }
+          ]
+        },
+        {
+          "code": "STAMJ74",
+          "name": "Advanced Statistical Inference",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Extension of Cramer-Rao inequality for multi-parameter case, Bhattacharya bounds."
+            },
+            {
+              "unit": 2,
+              "topics": "Ideas of sufficient, minimal complete- sufficient statistics, sufficiency when the range of variable depends on a parameter, minimum variance unbiased estimators, Rao-Blackwell, Lehman- Scheffe and Basu theorem."
+            },
+            {
+              "unit": 3,
+              "topics": "MLE and its asymptotic properties, Interval estimation by confidence sets, Neyman theory, uniformly most accurate intervals."
+            },
+            {
+              "unit": 4,
+              "topics": "Neyman-Pearson lemma, generalized Neyman-Pearson lemma, monotone likelihood ratio families, UMP tests for one and two sided alternatives, admissibility and unbiasedness of tests, type A and type A! tests, similar tests, tests having Neyman structure, likelihood ratio test (LRT) asymptotic distribution of LRT statistic."
+            }
+          ]
+        },
+        {
+          "code": "STAMJ75",
+          "name": "Practical based on STAMJ71",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Paper will be based on numerical problems of Paper STAMJ71, STAMJ73, STAMJ74 as per following distribution Unit"
+            }
+          ]
+        },
+        {
+          "code": "STAMJ7R1",
+          "name": "Linear Models and Regression Analysis",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Gauss-Markov linear models, estimable functions, error and estimation space, normal equations and least square estimators, estimation of error variance, estimation with correlated observations, properties of least square estimators, generalized inverse of a matrix and solution of normal equations, variances and covariances of least square estimators."
+            },
+            {
+              "unit": 2,
+              "topics": "One way and two-way classifications, fixed, random and mixed effects models. Analysis of variance (two-way classification only), Multiple comparison tests due to Tukey, Scheffe and Student-Newmann-Keuls."
+            },
+            {
+              "unit": 3,
+              "topics": "Simple linear regression, multiple regression, fit of polynomials and use of orthogonal polynomials. Residuals and their plots as tests for departure from assumptions such as fitness of the model, normality, homogeneity of variances and detection of outliers and Remedies."
+            },
+            {
+              "unit": 4,
+              "topics": "Multicollinearity, ridge regression, subset selection of explanatory variables, Mallow-Cp Statistics and its applications."
+            }
+          ]
+        },
+        {
+          "code": "STAMJ7R2",
+          "name": "Measure and Probability Theory",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Classes of sets, fields, sigma field, minimal sigma field, Borel sigma field, sequence of sets, limsup and liminf of a sequence of sets, measure, probability measure, properties of measure, Caratheodory extension theorem, Lebesgue and Lebesgue - Steiltzes measures."
+            },
+            {
+              "unit": 2,
+              "topics": "Inverse function and their properties, measurable functions, random variables, sequence of random variables, Integration of a measurable function with respect to a measure, monotone convergence theorem, Fatou@s lemma, dominated convergence theorem."
+            },
+            {
+              "unit": 3,
+              "topics": "Characteristic function, uniqueness theorem, Levy@s continuity theorem, Convergence in distribution, Convergence in probability, almost sure convergence."
+            },
+            {
+              "unit": 4,
+              "topics": "Borel-Cantelli lemma, independence of random variables, weak law and strong law of large numbers for the sequences of independently and identically distributed and non- i.i.d. random variables; Central limit theorem due Lindeberg- Levy for i.i.d. random variables, Liapounav's CLT for sequence of non- i.i.d. random variables."
+            }
+          ]
+        },
+        {
+          "code": "STAMJ7R3",
+          "name": "Survey Sampling",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Fixed population and super-population approaches. Distinct features of finite population sampling, Probability sampling design and estimators along with basic statistical properties. Review of some important results in SRSWOR and SRSWR. Estimation of population mean/Total in stratified population, Allocation problem in stratified random sampling in case of fixed cost and also for specified precision. Expression for variance of stratified sample mean in case of fixed cost, Post stratification, Double sampling with post stratification, Deep stratification, Controlled sampling. I| Ratio, product and regression methods of estimation. Estimation of population maan avaliatinn af hiae and varianral/MCF ta Allocation problem in stratified random sampling in case of fixed cost and also for specified precision. Expression for variance of stratified sample mean in case of fixed cost, Post stratification, Double sampling with post stratification, Deep stratification, Controlled sampling. I| Ratio, product and regression methods of estimation. Estimation of population mean, evaluation of bias and variance/MSE to the first order of approximation, comparison with simple random sampling. Double sampling scheme, Some double sampling estimators for mean using auxiliary character (Ratio, regression and product) method of estimation, Some unbiased ratio type estimators for population mean."
+            },
+            {
+              "unit": 3,
+              "topics": "Unequal probability sampling: PPSWR/WOR methods (including Lahiris scheme) and Des Raj estimator, Murthy estimator (for n=2). Horvitz Thompson Estimator of finite population total/mean, Expression for Variance (HTE) and its unbiased estimator, Issue of non-negative variance estimation, IIPS Scheme of sampling due to Midzuno-Sen."
+            },
+            {
+              "unit": 4,
+              "topics": "Concept of cluster sampling, two stage sampling, Non-sampling error with special reference to non-response problems."
+            }
+          ]
+        },
+        {
+          "code": "STAMJ7R4",
+          "name": "Advanced Statistical Inference",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Extension of Cramer-Rao inequality for multi-parameter case, Bhattacharya bounds."
+            },
+            {
+              "unit": 2,
+              "topics": "Ideas of sufficient, minimal complete- sufficient statistics, sufficiency when the range of variable depends on a parameter, minimum variance unbiased estimators, Rao-Blackwell, Lehman- Scheffe and Basu theorem."
+            },
+            {
+              "unit": 3,
+              "topics": "MLE and its asymptotic properties, Interval estimation by confidence sets, Neyman theory, uniformly most accurate intervals."
+            },
+            {
+              "unit": 4,
+              "topics": "Neyman-Pearson lemma, generalized Neyman-Pearson lemma, monotone likelihood ratio families, UMP tests for one and two sided alternatives, admissibility and unbiasedness of tests, type A and type A! tests, similar tests, tests having Neyman structure, likelihood ratio test (LRT) asymptotic distribution of LRT statistic."
+            }
+          ]
+        },
+        {
+          "code": "STAMJ7R5",
+          "name": "Practical based on STAMJ7R1",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Paper will be based on numerical problems of Paper STAMJ7R1, STAMJ7R3, STAMJ7R4 as per following distribution. Unit Number of Practical"
+            }
+          ]
+        },
+        {
+          "code": "STAMN71",
+          "name": "Linear Models & Regression Analysis",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Gauss-Markov linear models, estimable functions, error and estimation space, normal equations and least square estimators, estimation of error variance, estimation with correlated observations, properties of least square estimators, generalized inverse of a matrix and solution of normal equations, variances and covariances of least square estimators."
+            },
+            {
+              "unit": 2,
+              "topics": "One way and two-way classifications, fixed, random and mixed effects models. Analysis of variance (two-way classification only), Multiple comparison tests due to Tukey, Scheffe and Student-Newmann-Keuls."
+            },
+            {
+              "unit": 3,
+              "topics": "Simple linear regression, multiple regression, fit of polynomials and use of orthogonal polynomials. Residuals and their plots as tests for departure from assumptions such as fitness of the model, normality, homogeneity of variances and detection of outliers and Remedies"
+            },
+            {
+              "unit": 4,
+              "topics": "Multicollinearity, ridge regression, subset selection of explanatory variables, Mallow-Cp Statistics and its applications."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
