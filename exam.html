@@ -612,7 +612,16 @@
                         <label for="theoryTextAnswer" class="text-xs font-bold text-secondary uppercase tracking-widest">Write Your Answer</label>
                         <textarea id="theoryTextAnswer" rows="6" oninput="handleTheoryTextChange(this)"
                                   class="w-full p-4 bg-white border border-border-subtle rounded-lg text-sm focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary transition-all text-primary placeholder-neutral-400 custom-scrollbar"
-                                  placeholder="Type your detailed solution/answer here...">${textAnswer}</textarea>
+                                  placeholder="Type your detailed solution/answer here..."
+                                  spellcheck="false"
+                                  autocorrect="off"
+                                  autocapitalize="off"
+                                  autocomplete="off"
+                                  data-gramm="false"
+                                  data-enable-grammarly="false"
+                                  data-monica-ignore="true"
+                                  data-quillbot-ignore="true"
+                                  data-ignore="true">${textAnswer}</textarea>
                     </div>
 
                     <!-- ACTION BUTTON & GRADING FEEDBACK -->
