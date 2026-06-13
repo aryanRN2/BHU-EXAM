@@ -2516,7 +2516,7 @@
                 const typeLabel = exam.type === 'theory' ? 'Theory' : 'MCQ';
                 const countText = isLive ? `${exam.questions.length} Questions &bull; ${typeLabel}` : 'Practice Exam Coming Soon';
                 const badgeClass = isLive ? 'bg-accent-neural-emerald/15 text-accent-neural-emerald' : 'bg-accent-bhu-saffron/15 text-accent-bhu-saffron';
-                const activeLabel = isLive ? (exam.type === 'theory' ? 'AI Grading Active' : 'Multiple Choice') : 'PYQs Available';
+                const activeLabel = isLive ? (exam.type === 'theory' ? 'Theory Practice' : 'Multiple Choice') : 'PYQs Available';
                 
                 cardMarkup = `
                     <div onclick="selectSubject('${key}')" class="glass-panel p-6 rounded-lg group hover:bg-white/60 transition-all duration-300 cursor-pointer border border-accent-bhu-saffron/20 hover:shadow-md flex items-center justify-between gap-4">
@@ -2654,7 +2654,7 @@
                             <span class="font-bold text-sm text-secondary">Start Preparation Exam</span>
                             <span class="bg-neutral-200 text-neutral-600 px-2 py-0.5 rounded text-[9px] font-bold uppercase tracking-wider">COMING SOON</span>
                         </div>
-                        <p class="text-xs text-secondary mt-1">Practice exam with live AI grading is coming soon for this subject.</p>
+                        <p class="text-xs text-secondary mt-1">Preparation exam is coming soon for this subject.</p>
                     </div>
                 </div>
 `;
@@ -2669,7 +2669,7 @@
                             <span class="font-bold text-sm text-primary">Start Preparation Exam</span>
                             <span class="material-symbols-outlined text-sm text-secondary group-hover:text-primary group-hover:translate-x-0.5 transition-transform">arrow_forward</span>
                         </div>
-                        <p class="text-xs text-secondary mt-1">Prepare with 10 random questions, live countdown, and instant AI grading.</p>
+                        <p class="text-xs text-secondary mt-1">Prepare with important questions and live countdown.</p>
                     </div>
                 </button>
 `;
