@@ -28,13 +28,29 @@
         }
 
         /* Custom premium paper sheet layout & shadows */
+        @media (min-width: 640px) {
+            .paper-sheet {
+                box-shadow:
+                    0 0 0 1px rgba(0, 0, 0, 0.05),
+                    0 4px 6px -1px rgba(0, 0, 0, 0.02),
+                    0 15px 35px -5px rgba(0, 0, 0, 0.2),
+                    0 30px 60px -15px rgba(0, 0, 0, 0.25);
+            }
+        }
         .paper-sheet {
-            box-shadow:
-                0 0 0 1px rgba(0, 0, 0, 0.05),
-                0 4px 6px -1px rgba(0, 0, 0, 0.02),
-                0 15px 35px -5px rgba(0, 0, 0, 0.2),
-                0 30px 60px -15px rgba(0, 0, 0, 0.25);
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* Fullscreen styling fixes */
+        #pdfViewerPanel:fullscreen,
+        #pdfViewerPanel:-webkit-full-screen {
+            width: 100vw !important;
+            height: 100vh !important;
+            min-height: 100vh !important;
+            max-width: none !important;
+            max-height: none !important;
+            border-radius: 0 !important;
+            margin: 0 !important;
         }
 
         /* Premium Studio Backdrop backlight aura behind the paper sheet */
@@ -258,6 +274,8 @@
     <!-- TikZJax for LaTeX TikZ diagrams rendering -->
     <link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
     <script src="https://tikzjax.com/v1/tikzjax.js" async></script>
+    <!-- Vercel Web Analytics -->
+    <script defer src="/_vercel/insights/script.js"></script>
 </head>
 
 <body
@@ -313,9 +331,9 @@
 
                     <!-- Native Render Panel -->
                     <div id="nativeRenderArea"
-                        class="w-full min-h-full bg-neutral-100 p-3 sm:p-6 md:p-10 overflow-y-auto custom-scrollbar hidden flex flex-col items-center relative studio-backlight min-w-0">
+                        class="w-full min-h-full bg-neutral-100 p-0 sm:p-6 md:p-10 overflow-y-auto custom-scrollbar hidden flex flex-col items-center relative studio-backlight min-w-0">
                         <div id="renderedLatexContent"
-                            class="w-full max-w-[850px] min-h-[600px] sm:min-h-[900px] md:min-h-[1100px] bg-white paper-sheet border border-neutral-200/30 rounded-sm p-4 sm:p-10 md:p-16 lg:p-20 prose prose-neutral max-w-none text-neutral-900 leading-relaxed selection:bg-accent-bhu-saffron/20 tex2jax_process font-serif relative z-10">
+                            class="w-full max-w-[850px] min-h-[600px] sm:min-h-[900px] md:min-h-[1100px] shrink-0 bg-white paper-sheet border-0 sm:border border-neutral-200/30 rounded-none sm:rounded-sm p-4 sm:p-10 md:p-16 lg:p-20 prose prose-neutral max-w-none text-neutral-900 leading-relaxed selection:bg-accent-bhu-saffron/20 tex2jax_process font-serif relative z-10">
                             <!-- Rendered LaTeX HTML will go here -->
                         </div>
                     </div>
