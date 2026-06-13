@@ -9692,13 +9692,261 @@ export const EXAMS = {
     "id": "ggrmd11",
     "title": "Introduction to Earth System",
     "module": "GGRMD11",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Describe briefly the solar system.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Discuss in brief volcanoes with examples.",
+        "answerKey": "1. **Wegener's Continental Drift Theory (1912)**:\n- Proposed that all landmasses were once joined in a supercontinent called **Pangaea**, surrounded by the ocean **Panthalassa**.\n- Pangaea broke up during the Mesozoic era; fragments drifted to form current continents.\n- **Evidence**: Jigsaw fit of South America and Africa, matching fossil distributions (Mesosaurus, Glossopteris), geological match of rock strata across oceans, and paleoclimatic data (tillites in India/Africa).\n2. **Plate Tectonics Theory**:\n- Describes the earth's lithosphere as broken into major and minor rigid plates floating on the semi-fluid asthenosphere.\n- **Plate Boundaries**:\n  - *Divergent (Constructive)*: Plates move apart, creating mid-ocean ridges and new crust (e.g., Mid-Atlantic Ridge).\n  - *Convergent (Destructive)*: Plates collide, causing subduction and trench formation, or folding to form fold mountains (e.g., Himalayas).\n  - *Transform (Conservative)*: Plates slide past each other, causing strike-slip faulting and earthquakes (e.g., San Andreas Fault).\n3. **Volcanism**: Magma rising through fractures in the crust. Associated primarily with convergent subduction zones (Pacific Ring of Fire) and divergent plate boundaries."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Describe Indian Ocean currents.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Cyclones and Anticyclones.",
+        "answerKey": "1. **Cyclones (Low-Pressure Systems)**:\n- Low-pressure centers with winds blowing inward in a spiral fashion (counter-clockwise in Northern Hemisphere, clockwise in Southern Hemisphere due to Coriolis force).\n- **Tropical Cyclones**: Form over warm oceans ($>27^\\circ\\text{C}$); driven by latent heat of condensation. Have a calm central 'eye', violent winds, and torrential rains. No fronts.\n- **Temperate (Frontal) Cyclones**: Form in mid-latitudes due to the convergence of warm tropical and cold polar air masses, creating distinct warm and cold fronts. Cover large areas and cause gradual rainfall.\n2. **Anticyclones (High-Pressure Systems)**:\n- High-pressure centers with winds blowing outward (clockwise in Northern Hemisphere, counter-clockwise in Southern Hemisphere). Characterized by sinking air, dry conditions, clear skies, and calm weather."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Explain briefly the relevance of rotation.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Describe the composition and structure of the atmosphere.",
+        "answerKey": "1. **Atmospheric Composition**:\n- Major gases: Nitrogen ($78.08\\%$), Oxygen ($20.95\\%$), Argon ($0.93\\%$), Carbon Dioxide ($0.04\\%$).\n- Variable components: Water vapor, aerosols, ozone.\n2. **Vertical Thermal Structure**:\n- **Troposphere**: Lowest layer (0-12 km). Temperature decreases with height at the Normal Lapse Rate of $6.5^\\circ\\text{C}$ per km. Contains $99\\%$ of water vapor and all weather phenomena.\n- **Stratosphere**: Extends to 50 km. Temperature increases with height due to UV absorption by the ozone layer (ozonosphere). Very stable, ideal for jet aircraft.\n- **Mesosphere**: Extends to 80 km. Temperature decreases to the lowest levels ($-90^\\circ\\text{C}$). Meteors burn up here.\n- **Thermosphere / Ionosphere**: Extends to 600 km. Temperature rises rapidly due to X-ray and UV absorption. Contains ionized particles that reflect radio waves.\n- **Exosphere**: Merges into outer space."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "What is weathering? Give a detailed account of various types of weathering.",
+        "answerKey": "1. **Weathering**: The in-situ disintegration and decomposition of rocks without transport.\n- **Mechanical Weathering**: Physical breakdown. Includes frost action (freeze-thaw cycle), thermal expansion/contraction (exfoliation), and pressure release (sheeting).\n- **Chemical Weathering**: Alteration of mineral composition. Includes carbonation (carbonic acid dissolving limestone), oxidation (rusting of iron-rich minerals), hydrolysis (water reacting with feldspar to form clay), and hydration.\n- **Biological Weathering**: Disintegration caused by plant roots, burrowing animals, and organic acids from lichens/mosses.\n2. **Erosion**: The active wearing away and transportation of rock materials by agents like running water, wind, glaciers, and waves.\n3. **Soil Formation**: Weathering is the first step in soil development, creating the parent material (regolith)."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Present a detailed account of the landforms of river erosion and deposition with a well-labeled diagram.",
+        "answerKey": "1. **Weathering**: The in-situ disintegration and decomposition of rocks without transport.\n- **Mechanical Weathering**: Physical breakdown. Includes frost action (freeze-thaw cycle), thermal expansion/contraction (exfoliation), and pressure release (sheeting).\n- **Chemical Weathering**: Alteration of mineral composition. Includes carbonation (carbonic acid dissolving limestone), oxidation (rusting of iron-rich minerals), hydrolysis (water reacting with feldspar to form clay), and hydration.\n- **Biological Weathering**: Disintegration caused by plant roots, burrowing animals, and organic acids from lichens/mosses.\n2. **Erosion**: The active wearing away and transportation of rock materials by agents like running water, wind, glaciers, and waves.\n3. **Soil Formation**: Weathering is the first step in soil development, creating the parent material (regolith)."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "What is insolation? Discuss the factors influencing the distribution of insolation.",
+        "answerKey": "1. **Insolation (Incoming Solar Radiation)**:\n- Solar energy reaching the Earth's surface as short-wave radiation.\n- **Factors Influencing Distribution**: Angle of incidence (sun's rays are vertical at equator, oblique at poles), duration of daylight (day length), atmospheric transparency (clouds, dust), and land-sea distribution.\n2. **Heat Budget of the Earth**:\n- The balance between incoming solar radiation (short-wave) and outgoing terrestrial radiation (long-wave).\n- Assuming 100 units of solar energy reach the top of the atmosphere:\n  - **Albedo (Reflected directly)**: 35 units (27 from clouds, 6 from atmosphere, 2 from snow/land). This energy does not heat the Earth.\n  - **Absorbed by Atmosphere**: 14 units.\n  - **Absorbed by Earth's Surface**: 51 units.\n  - **Terrestrial Radiation (Outgoing)**: The earth radiates back 51 units (17 directly to space, 34 absorbed by atmosphere which is eventually radiated back into space). Balance is maintained at $0$ net gain, preserving stable global temperatures."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Discuss the tetrahedral theory of the origin of the ocean basin.",
+        "answerKey": "1. **Lowthian Green's Tetrahedral Theory (1875)**:\n- A historical geomorphological theory attempting to explain the distribution of land and water bodies on the earth's surface.\n2. **Key Concepts**:\n- Assumes that as the Earth cooled and contracted, the outer crust collapsed inward over a shrinking core.\n- Since a sphere has the largest volume for a given surface area, and a tetrahedron has the smallest, a contracting sphere would naturally tend to deform toward a tetrahedral shape.\n- The four corners (vertices) of the tetrahedron remained as high landmasses (shields), while the flat faces formed the depressions where water collected to become oceans.\n- Explains why oceans are antipodal to landmasses (e.g., Arctic ocean antipodal to Antarctica).\n3. **Scientific Criticism**:\n- Discarded in modern geology because the Earth's gravity prevents it from maintaining a non-spherical tetrahedral shape, and the theory ignores isostasy and continental drift."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Explain the distribution of salinity and temperature in oceanic water.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Explain the binary star hypothesis of Russell associated with the origin of the earth.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 13,
+        "unit": "IV",
+        "question": "Metamorphic Rocks.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 14,
+        "unit": "IV",
+        "question": "Physical Weathering.",
+        "answerKey": "1. **Weathering**: The in-situ disintegration and decomposition of rocks without transport.\n- **Mechanical Weathering**: Physical breakdown. Includes frost action (freeze-thaw cycle), thermal expansion/contraction (exfoliation), and pressure release (sheeting).\n- **Chemical Weathering**: Alteration of mineral composition. Includes carbonation (carbonic acid dissolving limestone), oxidation (rusting of iron-rich minerals), hydrolysis (water reacting with feldspar to form clay), and hydration.\n- **Biological Weathering**: Disintegration caused by plant roots, burrowing animals, and organic acids from lichens/mosses.\n2. **Erosion**: The active wearing away and transportation of rock materials by agents like running water, wind, glaciers, and waves.\n3. **Soil Formation**: Weathering is the first step in soil development, creating the parent material (regolith)."
+      },
+      {
+        "id": 15,
+        "unit": "IV",
+        "question": "Rotation and Revolution.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Describe the interior structure of the Earth.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 17,
+        "unit": "V",
+        "question": "Describe the works of River and present a detailed account of landforms associated with them.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 18,
+        "unit": "V",
+        "question": "Classify rocks on the basis of origin and present the characteristics of Igneous rocks.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 19,
+        "unit": "V",
+        "question": "What is Insolation? Discuss the factors affecting the distribution of insolation.",
+        "answerKey": "1. **Insolation (Incoming Solar Radiation)**:\n- Solar energy reaching the Earth's surface as short-wave radiation.\n- **Factors Influencing Distribution**: Angle of incidence (sun's rays are vertical at equator, oblique at poles), duration of daylight (day length), atmospheric transparency (clouds, dust), and land-sea distribution.\n2. **Heat Budget of the Earth**:\n- The balance between incoming solar radiation (short-wave) and outgoing terrestrial radiation (long-wave).\n- Assuming 100 units of solar energy reach the top of the atmosphere:\n  - **Albedo (Reflected directly)**: 35 units (27 from clouds, 6 from atmosphere, 2 from snow/land). This energy does not heat the Earth.\n  - **Absorbed by Atmosphere**: 14 units.\n  - **Absorbed by Earth's Surface**: 51 units.\n  - **Terrestrial Radiation (Outgoing)**: The earth radiates back 51 units (17 directly to space, 34 absorbed by atmosphere which is eventually radiated back into space). Balance is maintained at $0$ net gain, preserving stable global temperatures."
+      },
+      {
+        "id": 20,
+        "unit": "V",
+        "question": "Give an account of composition and structure of atmosphere.",
+        "answerKey": "1. **Atmospheric Composition**:\n- Major gases: Nitrogen ($78.08\\%$), Oxygen ($20.95\\%$), Argon ($0.93\\%$), Carbon Dioxide ($0.04\\%$).\n- Variable components: Water vapor, aerosols, ozone.\n2. **Vertical Thermal Structure**:\n- **Troposphere**: Lowest layer (0-12 km). Temperature decreases with height at the Normal Lapse Rate of $6.5^\\circ\\text{C}$ per km. Contains $99\\%$ of water vapor and all weather phenomena.\n- **Stratosphere**: Extends to 50 km. Temperature increases with height due to UV absorption by the ozone layer (ozonosphere). Very stable, ideal for jet aircraft.\n- **Mesosphere**: Extends to 80 km. Temperature decreases to the lowest levels ($-90^\\circ\\text{C}$). Meteors burn up here.\n- **Thermosphere / Ionosphere**: Extends to 600 km. Temperature rises rapidly due to X-ray and UV absorption. Contains ionized particles that reflect radio waves.\n- **Exosphere**: Merges into outer space."
+      }
+    ]
   },
   "ggrmj11": {
     "id": "ggrmj11",
     "title": "Physical Geography",
     "module": "GGRMJ11",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Describe briefly the solar system.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Discuss in brief volcanoes with examples.",
+        "answerKey": "1. **Wegener's Continental Drift Theory (1912)**:\n- Proposed that all landmasses were once joined in a supercontinent called **Pangaea**, surrounded by the ocean **Panthalassa**.\n- Pangaea broke up during the Mesozoic era; fragments drifted to form current continents.\n- **Evidence**: Jigsaw fit of South America and Africa, matching fossil distributions (Mesosaurus, Glossopteris), geological match of rock strata across oceans, and paleoclimatic data (tillites in India/Africa).\n2. **Plate Tectonics Theory**:\n- Describes the earth's lithosphere as broken into major and minor rigid plates floating on the semi-fluid asthenosphere.\n- **Plate Boundaries**:\n  - *Divergent (Constructive)*: Plates move apart, creating mid-ocean ridges and new crust (e.g., Mid-Atlantic Ridge).\n  - *Convergent (Destructive)*: Plates collide, causing subduction and trench formation, or folding to form fold mountains (e.g., Himalayas).\n  - *Transform (Conservative)*: Plates slide past each other, causing strike-slip faulting and earthquakes (e.g., San Andreas Fault).\n3. **Volcanism**: Magma rising through fractures in the crust. Associated primarily with convergent subduction zones (Pacific Ring of Fire) and divergent plate boundaries."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Describe Indian Ocean currents.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Cyclones and Anticyclones.",
+        "answerKey": "1. **Cyclones (Low-Pressure Systems)**:\n- Low-pressure centers with winds blowing inward in a spiral fashion (counter-clockwise in Northern Hemisphere, clockwise in Southern Hemisphere due to Coriolis force).\n- **Tropical Cyclones**: Form over warm oceans ($>27^\\circ\\text{C}$); driven by latent heat of condensation. Have a calm central 'eye', violent winds, and torrential rains. No fronts.\n- **Temperate (Frontal) Cyclones**: Form in mid-latitudes due to the convergence of warm tropical and cold polar air masses, creating distinct warm and cold fronts. Cover large areas and cause gradual rainfall.\n2. **Anticyclones (High-Pressure Systems)**:\n- High-pressure centers with winds blowing outward (clockwise in Northern Hemisphere, counter-clockwise in Southern Hemisphere). Characterized by sinking air, dry conditions, clear skies, and calm weather."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Explain briefly the relevance of rotation.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Describe the composition and structure of the atmosphere.",
+        "answerKey": "1. **Atmospheric Composition**:\n- Major gases: Nitrogen ($78.08\\%$), Oxygen ($20.95\\%$), Argon ($0.93\\%$), Carbon Dioxide ($0.04\\%$).\n- Variable components: Water vapor, aerosols, ozone.\n2. **Vertical Thermal Structure**:\n- **Troposphere**: Lowest layer (0-12 km). Temperature decreases with height at the Normal Lapse Rate of $6.5^\\circ\\text{C}$ per km. Contains $99\\%$ of water vapor and all weather phenomena.\n- **Stratosphere**: Extends to 50 km. Temperature increases with height due to UV absorption by the ozone layer (ozonosphere). Very stable, ideal for jet aircraft.\n- **Mesosphere**: Extends to 80 km. Temperature decreases to the lowest levels ($-90^\\circ\\text{C}$). Meteors burn up here.\n- **Thermosphere / Ionosphere**: Extends to 600 km. Temperature rises rapidly due to X-ray and UV absorption. Contains ionized particles that reflect radio waves.\n- **Exosphere**: Merges into outer space."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "What is weathering? Give a detailed account of various types of weathering.",
+        "answerKey": "1. **Weathering**: The in-situ disintegration and decomposition of rocks without transport.\n- **Mechanical Weathering**: Physical breakdown. Includes frost action (freeze-thaw cycle), thermal expansion/contraction (exfoliation), and pressure release (sheeting).\n- **Chemical Weathering**: Alteration of mineral composition. Includes carbonation (carbonic acid dissolving limestone), oxidation (rusting of iron-rich minerals), hydrolysis (water reacting with feldspar to form clay), and hydration.\n- **Biological Weathering**: Disintegration caused by plant roots, burrowing animals, and organic acids from lichens/mosses.\n2. **Erosion**: The active wearing away and transportation of rock materials by agents like running water, wind, glaciers, and waves.\n3. **Soil Formation**: Weathering is the first step in soil development, creating the parent material (regolith)."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Present a detailed account of the landforms of river erosion and deposition with a well-labeled diagram.",
+        "answerKey": "1. **Weathering**: The in-situ disintegration and decomposition of rocks without transport.\n- **Mechanical Weathering**: Physical breakdown. Includes frost action (freeze-thaw cycle), thermal expansion/contraction (exfoliation), and pressure release (sheeting).\n- **Chemical Weathering**: Alteration of mineral composition. Includes carbonation (carbonic acid dissolving limestone), oxidation (rusting of iron-rich minerals), hydrolysis (water reacting with feldspar to form clay), and hydration.\n- **Biological Weathering**: Disintegration caused by plant roots, burrowing animals, and organic acids from lichens/mosses.\n2. **Erosion**: The active wearing away and transportation of rock materials by agents like running water, wind, glaciers, and waves.\n3. **Soil Formation**: Weathering is the first step in soil development, creating the parent material (regolith)."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "What is insolation? Discuss the factors influencing the distribution of insolation.",
+        "answerKey": "1. **Insolation (Incoming Solar Radiation)**:\n- Solar energy reaching the Earth's surface as short-wave radiation.\n- **Factors Influencing Distribution**: Angle of incidence (sun's rays are vertical at equator, oblique at poles), duration of daylight (day length), atmospheric transparency (clouds, dust), and land-sea distribution.\n2. **Heat Budget of the Earth**:\n- The balance between incoming solar radiation (short-wave) and outgoing terrestrial radiation (long-wave).\n- Assuming 100 units of solar energy reach the top of the atmosphere:\n  - **Albedo (Reflected directly)**: 35 units (27 from clouds, 6 from atmosphere, 2 from snow/land). This energy does not heat the Earth.\n  - **Absorbed by Atmosphere**: 14 units.\n  - **Absorbed by Earth's Surface**: 51 units.\n  - **Terrestrial Radiation (Outgoing)**: The earth radiates back 51 units (17 directly to space, 34 absorbed by atmosphere which is eventually radiated back into space). Balance is maintained at $0$ net gain, preserving stable global temperatures."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Discuss the tetrahedral theory of the origin of the ocean basin.",
+        "answerKey": "1. **Lowthian Green's Tetrahedral Theory (1875)**:\n- A historical geomorphological theory attempting to explain the distribution of land and water bodies on the earth's surface.\n2. **Key Concepts**:\n- Assumes that as the Earth cooled and contracted, the outer crust collapsed inward over a shrinking core.\n- Since a sphere has the largest volume for a given surface area, and a tetrahedron has the smallest, a contracting sphere would naturally tend to deform toward a tetrahedral shape.\n- The four corners (vertices) of the tetrahedron remained as high landmasses (shields), while the flat faces formed the depressions where water collected to become oceans.\n- Explains why oceans are antipodal to landmasses (e.g., Arctic ocean antipodal to Antarctica).\n3. **Scientific Criticism**:\n- Discarded in modern geology because the Earth's gravity prevents it from maintaining a non-spherical tetrahedral shape, and the theory ignores isostasy and continental drift."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Explain the distribution of salinity and temperature in oceanic water.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Explain the binary star hypothesis of Russell associated with the origin of the earth.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 13,
+        "unit": "IV",
+        "question": "Metamorphic Rocks.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 14,
+        "unit": "IV",
+        "question": "Physical Weathering.",
+        "answerKey": "1. **Weathering**: The in-situ disintegration and decomposition of rocks without transport.\n- **Mechanical Weathering**: Physical breakdown. Includes frost action (freeze-thaw cycle), thermal expansion/contraction (exfoliation), and pressure release (sheeting).\n- **Chemical Weathering**: Alteration of mineral composition. Includes carbonation (carbonic acid dissolving limestone), oxidation (rusting of iron-rich minerals), hydrolysis (water reacting with feldspar to form clay), and hydration.\n- **Biological Weathering**: Disintegration caused by plant roots, burrowing animals, and organic acids from lichens/mosses.\n2. **Erosion**: The active wearing away and transportation of rock materials by agents like running water, wind, glaciers, and waves.\n3. **Soil Formation**: Weathering is the first step in soil development, creating the parent material (regolith)."
+      },
+      {
+        "id": 15,
+        "unit": "IV",
+        "question": "Rotation and Revolution.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Describe the interior structure of the Earth.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 17,
+        "unit": "V",
+        "question": "Describe the works of River and present a detailed account of landforms associated with them.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 18,
+        "unit": "V",
+        "question": "Classify rocks on the basis of origin and present the characteristics of Igneous rocks.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 19,
+        "unit": "V",
+        "question": "What is Insolation? Discuss the factors affecting the distribution of insolation.",
+        "answerKey": "1. **Insolation (Incoming Solar Radiation)**:\n- Solar energy reaching the Earth's surface as short-wave radiation.\n- **Factors Influencing Distribution**: Angle of incidence (sun's rays are vertical at equator, oblique at poles), duration of daylight (day length), atmospheric transparency (clouds, dust), and land-sea distribution.\n2. **Heat Budget of the Earth**:\n- The balance between incoming solar radiation (short-wave) and outgoing terrestrial radiation (long-wave).\n- Assuming 100 units of solar energy reach the top of the atmosphere:\n  - **Albedo (Reflected directly)**: 35 units (27 from clouds, 6 from atmosphere, 2 from snow/land). This energy does not heat the Earth.\n  - **Absorbed by Atmosphere**: 14 units.\n  - **Absorbed by Earth's Surface**: 51 units.\n  - **Terrestrial Radiation (Outgoing)**: The earth radiates back 51 units (17 directly to space, 34 absorbed by atmosphere which is eventually radiated back into space). Balance is maintained at $0$ net gain, preserving stable global temperatures."
+      },
+      {
+        "id": 20,
+        "unit": "V",
+        "question": "Give an account of composition and structure of atmosphere.",
+        "answerKey": "1. **Atmospheric Composition**:\n- Major gases: Nitrogen ($78.08\\%$), Oxygen ($20.95\\%$), Argon ($0.93\\%$), Carbon Dioxide ($0.04\\%$).\n- Variable components: Water vapor, aerosols, ozone.\n2. **Vertical Thermal Structure**:\n- **Troposphere**: Lowest layer (0-12 km). Temperature decreases with height at the Normal Lapse Rate of $6.5^\\circ\\text{C}$ per km. Contains $99\\%$ of water vapor and all weather phenomena.\n- **Stratosphere**: Extends to 50 km. Temperature increases with height due to UV absorption by the ozone layer (ozonosphere). Very stable, ideal for jet aircraft.\n- **Mesosphere**: Extends to 80 km. Temperature decreases to the lowest levels ($-90^\\circ\\text{C}$). Meteors burn up here.\n- **Thermosphere / Ionosphere**: Extends to 600 km. Temperature rises rapidly due to X-ray and UV absorption. Contains ionized particles that reflect radio waves.\n- **Exosphere**: Merges into outer space."
+      }
+    ]
   },
   "ggrmj12": {
     "id": "ggrmj12",
@@ -9710,7 +9958,131 @@ export const EXAMS = {
     "id": "ggrmn11",
     "title": "Physical Geography",
     "module": "GGRMN11",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Describe briefly the solar system.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Discuss in brief volcanoes with examples.",
+        "answerKey": "1. **Wegener's Continental Drift Theory (1912)**:\n- Proposed that all landmasses were once joined in a supercontinent called **Pangaea**, surrounded by the ocean **Panthalassa**.\n- Pangaea broke up during the Mesozoic era; fragments drifted to form current continents.\n- **Evidence**: Jigsaw fit of South America and Africa, matching fossil distributions (Mesosaurus, Glossopteris), geological match of rock strata across oceans, and paleoclimatic data (tillites in India/Africa).\n2. **Plate Tectonics Theory**:\n- Describes the earth's lithosphere as broken into major and minor rigid plates floating on the semi-fluid asthenosphere.\n- **Plate Boundaries**:\n  - *Divergent (Constructive)*: Plates move apart, creating mid-ocean ridges and new crust (e.g., Mid-Atlantic Ridge).\n  - *Convergent (Destructive)*: Plates collide, causing subduction and trench formation, or folding to form fold mountains (e.g., Himalayas).\n  - *Transform (Conservative)*: Plates slide past each other, causing strike-slip faulting and earthquakes (e.g., San Andreas Fault).\n3. **Volcanism**: Magma rising through fractures in the crust. Associated primarily with convergent subduction zones (Pacific Ring of Fire) and divergent plate boundaries."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Describe Indian Ocean currents.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Cyclones and Anticyclones.",
+        "answerKey": "1. **Cyclones (Low-Pressure Systems)**:\n- Low-pressure centers with winds blowing inward in a spiral fashion (counter-clockwise in Northern Hemisphere, clockwise in Southern Hemisphere due to Coriolis force).\n- **Tropical Cyclones**: Form over warm oceans ($>27^\\circ\\text{C}$); driven by latent heat of condensation. Have a calm central 'eye', violent winds, and torrential rains. No fronts.\n- **Temperate (Frontal) Cyclones**: Form in mid-latitudes due to the convergence of warm tropical and cold polar air masses, creating distinct warm and cold fronts. Cover large areas and cause gradual rainfall.\n2. **Anticyclones (High-Pressure Systems)**:\n- High-pressure centers with winds blowing outward (clockwise in Northern Hemisphere, counter-clockwise in Southern Hemisphere). Characterized by sinking air, dry conditions, clear skies, and calm weather."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Explain briefly the relevance of rotation.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Describe the composition and structure of the atmosphere.",
+        "answerKey": "1. **Atmospheric Composition**:\n- Major gases: Nitrogen ($78.08\\%$), Oxygen ($20.95\\%$), Argon ($0.93\\%$), Carbon Dioxide ($0.04\\%$).\n- Variable components: Water vapor, aerosols, ozone.\n2. **Vertical Thermal Structure**:\n- **Troposphere**: Lowest layer (0-12 km). Temperature decreases with height at the Normal Lapse Rate of $6.5^\\circ\\text{C}$ per km. Contains $99\\%$ of water vapor and all weather phenomena.\n- **Stratosphere**: Extends to 50 km. Temperature increases with height due to UV absorption by the ozone layer (ozonosphere). Very stable, ideal for jet aircraft.\n- **Mesosphere**: Extends to 80 km. Temperature decreases to the lowest levels ($-90^\\circ\\text{C}$). Meteors burn up here.\n- **Thermosphere / Ionosphere**: Extends to 600 km. Temperature rises rapidly due to X-ray and UV absorption. Contains ionized particles that reflect radio waves.\n- **Exosphere**: Merges into outer space."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "What is weathering? Give a detailed account of various types of weathering.",
+        "answerKey": "1. **Weathering**: The in-situ disintegration and decomposition of rocks without transport.\n- **Mechanical Weathering**: Physical breakdown. Includes frost action (freeze-thaw cycle), thermal expansion/contraction (exfoliation), and pressure release (sheeting).\n- **Chemical Weathering**: Alteration of mineral composition. Includes carbonation (carbonic acid dissolving limestone), oxidation (rusting of iron-rich minerals), hydrolysis (water reacting with feldspar to form clay), and hydration.\n- **Biological Weathering**: Disintegration caused by plant roots, burrowing animals, and organic acids from lichens/mosses.\n2. **Erosion**: The active wearing away and transportation of rock materials by agents like running water, wind, glaciers, and waves.\n3. **Soil Formation**: Weathering is the first step in soil development, creating the parent material (regolith)."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Present a detailed account of the landforms of river erosion and deposition with a well-labeled diagram.",
+        "answerKey": "1. **Weathering**: The in-situ disintegration and decomposition of rocks without transport.\n- **Mechanical Weathering**: Physical breakdown. Includes frost action (freeze-thaw cycle), thermal expansion/contraction (exfoliation), and pressure release (sheeting).\n- **Chemical Weathering**: Alteration of mineral composition. Includes carbonation (carbonic acid dissolving limestone), oxidation (rusting of iron-rich minerals), hydrolysis (water reacting with feldspar to form clay), and hydration.\n- **Biological Weathering**: Disintegration caused by plant roots, burrowing animals, and organic acids from lichens/mosses.\n2. **Erosion**: The active wearing away and transportation of rock materials by agents like running water, wind, glaciers, and waves.\n3. **Soil Formation**: Weathering is the first step in soil development, creating the parent material (regolith)."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "What is insolation? Discuss the factors influencing the distribution of insolation.",
+        "answerKey": "1. **Insolation (Incoming Solar Radiation)**:\n- Solar energy reaching the Earth's surface as short-wave radiation.\n- **Factors Influencing Distribution**: Angle of incidence (sun's rays are vertical at equator, oblique at poles), duration of daylight (day length), atmospheric transparency (clouds, dust), and land-sea distribution.\n2. **Heat Budget of the Earth**:\n- The balance between incoming solar radiation (short-wave) and outgoing terrestrial radiation (long-wave).\n- Assuming 100 units of solar energy reach the top of the atmosphere:\n  - **Albedo (Reflected directly)**: 35 units (27 from clouds, 6 from atmosphere, 2 from snow/land). This energy does not heat the Earth.\n  - **Absorbed by Atmosphere**: 14 units.\n  - **Absorbed by Earth's Surface**: 51 units.\n  - **Terrestrial Radiation (Outgoing)**: The earth radiates back 51 units (17 directly to space, 34 absorbed by atmosphere which is eventually radiated back into space). Balance is maintained at $0$ net gain, preserving stable global temperatures."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Discuss the tetrahedral theory of the origin of the ocean basin.",
+        "answerKey": "1. **Lowthian Green's Tetrahedral Theory (1875)**:\n- A historical geomorphological theory attempting to explain the distribution of land and water bodies on the earth's surface.\n2. **Key Concepts**:\n- Assumes that as the Earth cooled and contracted, the outer crust collapsed inward over a shrinking core.\n- Since a sphere has the largest volume for a given surface area, and a tetrahedron has the smallest, a contracting sphere would naturally tend to deform toward a tetrahedral shape.\n- The four corners (vertices) of the tetrahedron remained as high landmasses (shields), while the flat faces formed the depressions where water collected to become oceans.\n- Explains why oceans are antipodal to landmasses (e.g., Arctic ocean antipodal to Antarctica).\n3. **Scientific Criticism**:\n- Discarded in modern geology because the Earth's gravity prevents it from maintaining a non-spherical tetrahedral shape, and the theory ignores isostasy and continental drift."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Explain the distribution of salinity and temperature in oceanic water.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Explain the binary star hypothesis of Russell associated with the origin of the earth.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 13,
+        "unit": "IV",
+        "question": "Metamorphic Rocks.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 14,
+        "unit": "IV",
+        "question": "Physical Weathering.",
+        "answerKey": "1. **Weathering**: The in-situ disintegration and decomposition of rocks without transport.\n- **Mechanical Weathering**: Physical breakdown. Includes frost action (freeze-thaw cycle), thermal expansion/contraction (exfoliation), and pressure release (sheeting).\n- **Chemical Weathering**: Alteration of mineral composition. Includes carbonation (carbonic acid dissolving limestone), oxidation (rusting of iron-rich minerals), hydrolysis (water reacting with feldspar to form clay), and hydration.\n- **Biological Weathering**: Disintegration caused by plant roots, burrowing animals, and organic acids from lichens/mosses.\n2. **Erosion**: The active wearing away and transportation of rock materials by agents like running water, wind, glaciers, and waves.\n3. **Soil Formation**: Weathering is the first step in soil development, creating the parent material (regolith)."
+      },
+      {
+        "id": 15,
+        "unit": "IV",
+        "question": "Rotation and Revolution.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Describe the interior structure of the Earth.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 17,
+        "unit": "V",
+        "question": "Describe the works of River and present a detailed account of landforms associated with them.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 18,
+        "unit": "V",
+        "question": "Classify rocks on the basis of origin and present the characteristics of Igneous rocks.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 19,
+        "unit": "V",
+        "question": "What is Insolation? Discuss the factors affecting the distribution of insolation.",
+        "answerKey": "1. **Insolation (Incoming Solar Radiation)**:\n- Solar energy reaching the Earth's surface as short-wave radiation.\n- **Factors Influencing Distribution**: Angle of incidence (sun's rays are vertical at equator, oblique at poles), duration of daylight (day length), atmospheric transparency (clouds, dust), and land-sea distribution.\n2. **Heat Budget of the Earth**:\n- The balance between incoming solar radiation (short-wave) and outgoing terrestrial radiation (long-wave).\n- Assuming 100 units of solar energy reach the top of the atmosphere:\n  - **Albedo (Reflected directly)**: 35 units (27 from clouds, 6 from atmosphere, 2 from snow/land). This energy does not heat the Earth.\n  - **Absorbed by Atmosphere**: 14 units.\n  - **Absorbed by Earth's Surface**: 51 units.\n  - **Terrestrial Radiation (Outgoing)**: The earth radiates back 51 units (17 directly to space, 34 absorbed by atmosphere which is eventually radiated back into space). Balance is maintained at $0$ net gain, preserving stable global temperatures."
+      },
+      {
+        "id": 20,
+        "unit": "V",
+        "question": "Give an account of composition and structure of atmosphere.",
+        "answerKey": "1. **Atmospheric Composition**:\n- Major gases: Nitrogen ($78.08\\%$), Oxygen ($20.95\\%$), Argon ($0.93\\%$), Carbon Dioxide ($0.04\\%$).\n- Variable components: Water vapor, aerosols, ozone.\n2. **Vertical Thermal Structure**:\n- **Troposphere**: Lowest layer (0-12 km). Temperature decreases with height at the Normal Lapse Rate of $6.5^\\circ\\text{C}$ per km. Contains $99\\%$ of water vapor and all weather phenomena.\n- **Stratosphere**: Extends to 50 km. Temperature increases with height due to UV absorption by the ozone layer (ozonosphere). Very stable, ideal for jet aircraft.\n- **Mesosphere**: Extends to 80 km. Temperature decreases to the lowest levels ($-90^\\circ\\text{C}$). Meteors burn up here.\n- **Thermosphere / Ionosphere**: Extends to 600 km. Temperature rises rapidly due to X-ray and UV absorption. Contains ionized particles that reflect radio waves.\n- **Exosphere**: Merges into outer space."
+      }
+    ]
   },
   "ggrmn12": {
     "id": "ggrmn12",
@@ -9722,7 +10094,131 @@ export const EXAMS = {
     "id": "ggrse11",
     "title": "Man and Environment",
     "module": "GGRSE11",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Aquatic Ecosystem",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Ecological Pyramid",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Describe the bases of classification of human race.",
+        "answerKey": "1. **Human Races Classification**:\n- A race is a biological group sharing inheritable physical characteristics.\n- **Indicators**: Skin color, stature, head shape (Cephalic Index), nasal index, hair form, eye shape.\n- **Major World Groups**: Caucasoid (Europe/West Asia), Mongoloid (East Asia/Americas), Negroid (Africa), Australoid.\n2. **The Bushmen (San Tribe)**:\n- Indigenous hunter-gatherers of the Kalahari Desert in Southern Africa.\n- **Adaptation**: Highly adapted to arid environments. Live in small nomadic bands. Diet consists of wild game, roots, and water-rich melons (tsama). Use poison-tipped arrows. Shelter in temporary windbreaks.\n3. **Human Migration**:\n- The movement of people from one place to another.\n- **Push Factors**: Drive people away (war, famine, lack of jobs, natural disasters).\n- **Pull Factors**: Attract people (higher wages, political stability, better education, pleasant climate)."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Present a detailed account of the habitat and economy of Bushman.",
+        "answerKey": "1. **Human Races Classification**:\n- A race is a biological group sharing inheritable physical characteristics.\n- **Indicators**: Skin color, stature, head shape (Cephalic Index), nasal index, hair form, eye shape.\n- **Major World Groups**: Caucasoid (Europe/West Asia), Mongoloid (East Asia/Americas), Negroid (Africa), Australoid.\n2. **The Bushmen (San Tribe)**:\n- Indigenous hunter-gatherers of the Kalahari Desert in Southern Africa.\n- **Adaptation**: Highly adapted to arid environments. Live in small nomadic bands. Diet consists of wild game, roots, and water-rich melons (tsama). Use poison-tipped arrows. Shelter in temporary windbreaks.\n3. **Human Migration**:\n- The movement of people from one place to another.\n- **Push Factors**: Drive people away (war, famine, lack of jobs, natural disasters).\n- **Pull Factors**: Attract people (higher wages, political stability, better education, pleasant climate)."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Explain the various stages of the evolution of man.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Describe the major characteristics of Rain forest biome.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "What do you mean by environment? Discuss its various components.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Discuss the role of forest conservation for healthy environment.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 9,
+        "unit": "I",
+        "question": "Define ecosystem and explain the flow of energy through different trophic levels.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 10,
+        "unit": "I",
+        "question": "Explain the dynamic relationship between man and environment over different historical stages.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 11,
+        "unit": "II",
+        "question": "Discuss the causes, consequences, and control measures of deforestation.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Describe the phenomenon of global warming and its impact on the global climate.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 13,
+        "unit": "IV",
+        "question": "Explain the concept of sustainable development and suggest measures for its achievement.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Discuss the impact of industrialization and urbanization on water resources.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 15,
+        "unit": "I",
+        "question": "Describe the structure and functions of food chains and food webs in an ecosystem.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Explain the causes and mitigation strategies for desertification in arid regions.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 17,
+        "unit": "III",
+        "question": "Discuss the concept of acid rain, its sources, and its ecological consequences.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 18,
+        "unit": "I",
+        "question": "Explain the biogeochemical cycles, focusing on the carbon and nitrogen cycles.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 19,
+        "unit": "IV",
+        "question": "Discuss environmental ethics and the role of local communities in biodiversity conservation.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Describe the causes and impact of air pollution on human health in urban areas.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      }
+    ]
   },
   "ggrmd21": {
     "id": "ggrmd21",
@@ -9734,7 +10230,131 @@ export const EXAMS = {
     "id": "ggrmj21",
     "title": "Human Geography",
     "module": "GGRMJ21",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Scope of Human Geography",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Determinism and Possibilism",
+        "answerKey": "1. **Environmental Determinism**:\n- The school of thought that physical environment (climate, topography, soil) strictly controls and shapes human behavior, culture, and capabilities.\n- Key proponents: Friedrich Ratzel, Ellen Churchill Semple, Ellsworth Huntington.\n- View: Humans are passive products of nature (e.g., hot climates produce lazy populations, temperate climates produce active minds).\n2. **Possibilism**:\n- Developed as a reaction to determinism, arguing that the environment sets limits but humans have choices and can adapt, modify, and conquer constraints using technology.\n- Key proponents: Lucien Febvre, Paul Vidal de la Blache.\n- View: 'There are no necessities, but everywhere possibilities; and man, as master of these possibilities, is the judge of their use.'\n3. **Neo-Determinism (Stop-and-Go Determinism)**:\n- Proposed by Griffith Taylor. A middle path stating that man is like a traffic controller: he can accelerate, slow down, or direct development, but cannot change the natural laws of the environment entirely. Promotes environmental sustainability."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Important indicators of classification of races",
+        "answerKey": "1. **Human Races Classification**:\n- A race is a biological group sharing inheritable physical characteristics.\n- **Indicators**: Skin color, stature, head shape (Cephalic Index), nasal index, hair form, eye shape.\n- **Major World Groups**: Caucasoid (Europe/West Asia), Mongoloid (East Asia/Americas), Negroid (Africa), Australoid.\n2. **The Bushmen (San Tribe)**:\n- Indigenous hunter-gatherers of the Kalahari Desert in Southern Africa.\n- **Adaptation**: Highly adapted to arid environments. Live in small nomadic bands. Diet consists of wild game, roots, and water-rich melons (tsama). Use poison-tipped arrows. Shelter in temporary windbreaks.\n3. **Human Migration**:\n- The movement of people from one place to another.\n- **Push Factors**: Drive people away (war, famine, lack of jobs, natural disasters).\n- **Pull Factors**: Attract people (higher wages, political stability, better education, pleasant climate)."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Types of migration",
+        "answerKey": "1. **Human Races Classification**:\n- A race is a biological group sharing inheritable physical characteristics.\n- **Indicators**: Skin color, stature, head shape (Cephalic Index), nasal index, hair form, eye shape.\n- **Major World Groups**: Caucasoid (Europe/West Asia), Mongoloid (East Asia/Americas), Negroid (Africa), Australoid.\n2. **The Bushmen (San Tribe)**:\n- Indigenous hunter-gatherers of the Kalahari Desert in Southern Africa.\n- **Adaptation**: Highly adapted to arid environments. Live in small nomadic bands. Diet consists of wild game, roots, and water-rich melons (tsama). Use poison-tipped arrows. Shelter in temporary windbreaks.\n3. **Human Migration**:\n- The movement of people from one place to another.\n- **Push Factors**: Drive people away (war, famine, lack of jobs, natural disasters).\n- **Pull Factors**: Attract people (higher wages, political stability, better education, pleasant climate)."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Functional Classification of Towns",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Discuss the concepts of Human Geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Explain the dynamic relationships between man and environment.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Give an account of habitat, economy and society of the Bushman.",
+        "answerKey": "1. **Human Races Classification**:\n- A race is a biological group sharing inheritable physical characteristics.\n- **Indicators**: Skin color, stature, head shape (Cephalic Index), nasal index, hair form, eye shape.\n- **Major World Groups**: Caucasoid (Europe/West Asia), Mongoloid (East Asia/Americas), Negroid (Africa), Australoid.\n2. **The Bushmen (San Tribe)**:\n- Indigenous hunter-gatherers of the Kalahari Desert in Southern Africa.\n- **Adaptation**: Highly adapted to arid environments. Live in small nomadic bands. Diet consists of wild game, roots, and water-rich melons (tsama). Use poison-tipped arrows. Shelter in temporary windbreaks.\n3. **Human Migration**:\n- The movement of people from one place to another.\n- **Push Factors**: Drive people away (war, famine, lack of jobs, natural disasters).\n- **Pull Factors**: Attract people (higher wages, political stability, better education, pleasant climate)."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "What is human agglomeration? Discuss the characteristics of any one human agglomeration of the world.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Explain the causes and consequences of world population growth.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Present an account of types and regional patterns of rural settlement.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Discuss house types in India by giving suitable examples.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 13,
+        "unit": "IV",
+        "question": "Characteristics of Negroid.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 14,
+        "unit": "IV",
+        "question": "Trend of world population growth.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 15,
+        "unit": "IV",
+        "question": "Functional classification of urban settlement.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Development of human geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 17,
+        "unit": "V",
+        "question": "Habitat of Tharus.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 18,
+        "unit": "V",
+        "question": "Describe the meaning and scope of human geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 19,
+        "unit": "V",
+        "question": "Discuss the salient aspects of 'Determinism' and 'Possibilism'.",
+        "answerKey": "1. **Environmental Determinism**:\n- The school of thought that physical environment (climate, topography, soil) strictly controls and shapes human behavior, culture, and capabilities.\n- Key proponents: Friedrich Ratzel, Ellen Churchill Semple, Ellsworth Huntington.\n- View: Humans are passive products of nature (e.g., hot climates produce lazy populations, temperate climates produce active minds).\n2. **Possibilism**:\n- Developed as a reaction to determinism, arguing that the environment sets limits but humans have choices and can adapt, modify, and conquer constraints using technology.\n- Key proponents: Lucien Febvre, Paul Vidal de la Blache.\n- View: 'There are no necessities, but everywhere possibilities; and man, as master of these possibilities, is the judge of their use.'\n3. **Neo-Determinism (Stop-and-Go Determinism)**:\n- Proposed by Griffith Taylor. A middle path stating that man is like a traffic controller: he can accelerate, slow down, or direct development, but cannot change the natural laws of the environment entirely. Promotes environmental sustainability."
+      },
+      {
+        "id": 20,
+        "unit": "V",
+        "question": "Analyse the factors affecting the population distribution in the world.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      }
+    ]
   },
   "ggrmj22": {
     "id": "ggrmj22",
@@ -9746,7 +10366,131 @@ export const EXAMS = {
     "id": "ggrmn21",
     "title": "Human Geography",
     "module": "GGRMN21",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Scope of Human Geography",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Determinism and Possibilism",
+        "answerKey": "1. **Environmental Determinism**:\n- The school of thought that physical environment (climate, topography, soil) strictly controls and shapes human behavior, culture, and capabilities.\n- Key proponents: Friedrich Ratzel, Ellen Churchill Semple, Ellsworth Huntington.\n- View: Humans are passive products of nature (e.g., hot climates produce lazy populations, temperate climates produce active minds).\n2. **Possibilism**:\n- Developed as a reaction to determinism, arguing that the environment sets limits but humans have choices and can adapt, modify, and conquer constraints using technology.\n- Key proponents: Lucien Febvre, Paul Vidal de la Blache.\n- View: 'There are no necessities, but everywhere possibilities; and man, as master of these possibilities, is the judge of their use.'\n3. **Neo-Determinism (Stop-and-Go Determinism)**:\n- Proposed by Griffith Taylor. A middle path stating that man is like a traffic controller: he can accelerate, slow down, or direct development, but cannot change the natural laws of the environment entirely. Promotes environmental sustainability."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Important indicators of classification of races",
+        "answerKey": "1. **Human Races Classification**:\n- A race is a biological group sharing inheritable physical characteristics.\n- **Indicators**: Skin color, stature, head shape (Cephalic Index), nasal index, hair form, eye shape.\n- **Major World Groups**: Caucasoid (Europe/West Asia), Mongoloid (East Asia/Americas), Negroid (Africa), Australoid.\n2. **The Bushmen (San Tribe)**:\n- Indigenous hunter-gatherers of the Kalahari Desert in Southern Africa.\n- **Adaptation**: Highly adapted to arid environments. Live in small nomadic bands. Diet consists of wild game, roots, and water-rich melons (tsama). Use poison-tipped arrows. Shelter in temporary windbreaks.\n3. **Human Migration**:\n- The movement of people from one place to another.\n- **Push Factors**: Drive people away (war, famine, lack of jobs, natural disasters).\n- **Pull Factors**: Attract people (higher wages, political stability, better education, pleasant climate)."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Types of migration",
+        "answerKey": "1. **Human Races Classification**:\n- A race is a biological group sharing inheritable physical characteristics.\n- **Indicators**: Skin color, stature, head shape (Cephalic Index), nasal index, hair form, eye shape.\n- **Major World Groups**: Caucasoid (Europe/West Asia), Mongoloid (East Asia/Americas), Negroid (Africa), Australoid.\n2. **The Bushmen (San Tribe)**:\n- Indigenous hunter-gatherers of the Kalahari Desert in Southern Africa.\n- **Adaptation**: Highly adapted to arid environments. Live in small nomadic bands. Diet consists of wild game, roots, and water-rich melons (tsama). Use poison-tipped arrows. Shelter in temporary windbreaks.\n3. **Human Migration**:\n- The movement of people from one place to another.\n- **Push Factors**: Drive people away (war, famine, lack of jobs, natural disasters).\n- **Pull Factors**: Attract people (higher wages, political stability, better education, pleasant climate)."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Functional Classification of Towns",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Discuss the concepts of Human Geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Explain the dynamic relationships between man and environment.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Give an account of habitat, economy and society of the Bushman.",
+        "answerKey": "1. **Human Races Classification**:\n- A race is a biological group sharing inheritable physical characteristics.\n- **Indicators**: Skin color, stature, head shape (Cephalic Index), nasal index, hair form, eye shape.\n- **Major World Groups**: Caucasoid (Europe/West Asia), Mongoloid (East Asia/Americas), Negroid (Africa), Australoid.\n2. **The Bushmen (San Tribe)**:\n- Indigenous hunter-gatherers of the Kalahari Desert in Southern Africa.\n- **Adaptation**: Highly adapted to arid environments. Live in small nomadic bands. Diet consists of wild game, roots, and water-rich melons (tsama). Use poison-tipped arrows. Shelter in temporary windbreaks.\n3. **Human Migration**:\n- The movement of people from one place to another.\n- **Push Factors**: Drive people away (war, famine, lack of jobs, natural disasters).\n- **Pull Factors**: Attract people (higher wages, political stability, better education, pleasant climate)."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "What is human agglomeration? Discuss the characteristics of any one human agglomeration of the world.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Explain the causes and consequences of world population growth.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Present an account of types and regional patterns of rural settlement.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Discuss house types in India by giving suitable examples.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 13,
+        "unit": "IV",
+        "question": "Characteristics of Negroid.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 14,
+        "unit": "IV",
+        "question": "Trend of world population growth.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 15,
+        "unit": "IV",
+        "question": "Functional classification of urban settlement.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Development of human geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 17,
+        "unit": "V",
+        "question": "Habitat of Tharus.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 18,
+        "unit": "V",
+        "question": "Describe the meaning and scope of human geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 19,
+        "unit": "V",
+        "question": "Discuss the salient aspects of 'Determinism' and 'Possibilism'.",
+        "answerKey": "1. **Environmental Determinism**:\n- The school of thought that physical environment (climate, topography, soil) strictly controls and shapes human behavior, culture, and capabilities.\n- Key proponents: Friedrich Ratzel, Ellen Churchill Semple, Ellsworth Huntington.\n- View: Humans are passive products of nature (e.g., hot climates produce lazy populations, temperate climates produce active minds).\n2. **Possibilism**:\n- Developed as a reaction to determinism, arguing that the environment sets limits but humans have choices and can adapt, modify, and conquer constraints using technology.\n- Key proponents: Lucien Febvre, Paul Vidal de la Blache.\n- View: 'There are no necessities, but everywhere possibilities; and man, as master of these possibilities, is the judge of their use.'\n3. **Neo-Determinism (Stop-and-Go Determinism)**:\n- Proposed by Griffith Taylor. A middle path stating that man is like a traffic controller: he can accelerate, slow down, or direct development, but cannot change the natural laws of the environment entirely. Promotes environmental sustainability."
+      },
+      {
+        "id": 20,
+        "unit": "V",
+        "question": "Analyse the factors affecting the population distribution in the world.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      }
+    ]
   },
   "ggrmn22": {
     "id": "ggrmn22",
@@ -9758,7 +10502,131 @@ export const EXAMS = {
     "id": "ggrse21",
     "title": "Basics of Remote Sensing",
     "module": "GGRSE21",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Principal and Nadir Points",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Rayleigh Scattering",
+        "answerKey": "1. **Atmospheric Scattering**:\n- Occurs when electromagnetic radiation (EMR) interacts with gases, dust, and aerosols in the atmosphere, deflecting it from its path.\n- **Rayleigh Scattering**: Occurs when particles are much smaller than EMR wavelength (e.g., nitrogen and oxygen molecules). Intensity is inversely proportional to the fourth power of wavelength ($I \\propto 1/\\lambda^4$). This explains why the sky is blue (shorter blue wavelengths scatter more) and orange/red at sunset (longer path length filters out blue).\n- **Mie Scattering**: Occurs when particles are roughly equal in size to EMR wavelength (e.g., water droplets, dust, pollen). Affects longer wavelengths more than Rayleigh scattering; causes clouds/haze to appear white/grey because all visible wavelengths are scattered equally.\n- **Non-Selective Scattering**: Occurs when particles are much larger than EMR wavelength (e.g., large water droplets, ice crystals). Scatters all wavelengths non-selectively.\n2. **Impact on Remote Sensing**:\n- Scattering reduces contrast in satellite images, producing an atmospheric 'haze' that must be corrected using digital image processing before analysis."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Passive Remote Sensing",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Advantages of Remote Sensing",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Define Remote sensing and describe various Processes involved in it.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Define Electro Magnetic Radiation (EMR) and describe its interaction with atmosphere.",
+        "answerKey": "1. **Electromagnetic Radiation (EMR)**:\n- EMR is a dynamic form of energy propagating through space as wave-particle packets (photons). Governed by wave equations where velocity is speed of light ($c = \\nu \\lambda$).\n2. **Atmospheric Interaction**:\n- **Absorption**: Major atmospheric gases ($CO_2$, $H_2O$, $O_3$) absorb specific EMR wavelengths, creating 'absorption bands'. Wavelength bands where EMR passes unabsorbed are called **Atmospheric Windows** (essential for sensors).\n- **Scattering**: Redirection of EMR by particles (Rayleigh, Mie, non-selective).\n3. **Earth Surface Interaction**:\n- When EMR hits earth features, it is divided into: **Reflection** ($R$), **Absorption** ($A$), and **Transmission** ($T$). So, $I = R + A + T$.\n- **Spectral Signatures**: Different materials reflect energy differently across wavelengths. E.g., healthy green vegetation reflects strongly in the Near-Infrared (NIR) band due to mesophyll structure, but absorbs Red light for photosynthesis. Water absorbs almost all NIR radiation, making it appear black."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "What do you understand by Spectral Signature? Discuss the main features of the spectral reflectance of vegetation, water, and soil.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Describe the various types of aerial photographs.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "Discuss in detail the various elements of image interpretation.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Explain the different types of sensor resolution with examples.",
+        "answerKey": "1. **Remote Sensing Sensors**:\n- **Active Sensors**: Provide their own energy source for illumination (e.g., RADAR, LiDAR, SONAR). Can operate day and night and penetrate clouds.\n- **Passive Sensors**: Detect natural energy (reflected sunlight or thermal emission) from the Earth's surface (e.g., multispectral cameras, radiometers). Restricted to daylight and clear weather.\n2. **Resolutions in Remote Sensing**:\n- **Spatial Resolution**: The size of the smallest object distinguishable on the ground (pixel size, e.g., 10m vs. 30m).\n- **Spectral Resolution**: The ability of a sensor to define fine wavelength intervals (number and width of spectral bands).\n- **Radiometric Resolution**: The sensitivity of the sensor to small differences in electromagnetic energy (measured in bits, e.g., 8-bit = 256 levels, 11-bit = 2048 levels).\n- **Temporal Resolution**: The revisit time (revisit frequency) of the satellite over the same geographic location (e.g., every 16 days).\n3. **Platforms**:\n- Air-borne (balloons, UAVs/drones, aircraft) for local high-resolution surveys.\n- Space-borne (satellites in Sun-synchronous or Geostationary orbits) for regional and global monitoring."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Mention the general characteristics of remote sensing platforms.",
+        "answerKey": "1. **Remote Sensing Sensors**:\n- **Active Sensors**: Provide their own energy source for illumination (e.g., RADAR, LiDAR, SONAR). Can operate day and night and penetrate clouds.\n- **Passive Sensors**: Detect natural energy (reflected sunlight or thermal emission) from the Earth's surface (e.g., multispectral cameras, radiometers). Restricted to daylight and clear weather.\n2. **Resolutions in Remote Sensing**:\n- **Spatial Resolution**: The size of the smallest object distinguishable on the ground (pixel size, e.g., 10m vs. 30m).\n- **Spectral Resolution**: The ability of a sensor to define fine wavelength intervals (number and width of spectral bands).\n- **Radiometric Resolution**: The sensitivity of the sensor to small differences in electromagnetic energy (measured in bits, e.g., 8-bit = 256 levels, 11-bit = 2048 levels).\n- **Temporal Resolution**: The revisit time (revisit frequency) of the satellite over the same geographic location (e.g., every 16 days).\n3. **Platforms**:\n- Air-borne (balloons, UAVs/drones, aircraft) for local high-resolution surveys.\n- Space-borne (satellites in Sun-synchronous or Geostationary orbits) for regional and global monitoring."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Elucidate on the application of remote sensing in resource mapping.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 13,
+        "unit": "IV",
+        "question": "Characteristics of oblique aerial photographs.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 14,
+        "unit": "IV",
+        "question": "Electromagnetic radiation.",
+        "answerKey": "1. **Electromagnetic Radiation (EMR)**:\n- EMR is a dynamic form of energy propagating through space as wave-particle packets (photons). Governed by wave equations where velocity is speed of light ($c = \\nu \\lambda$).\n2. **Atmospheric Interaction**:\n- **Absorption**: Major atmospheric gases ($CO_2$, $H_2O$, $O_3$) absorb specific EMR wavelengths, creating 'absorption bands'. Wavelength bands where EMR passes unabsorbed are called **Atmospheric Windows** (essential for sensors).\n- **Scattering**: Redirection of EMR by particles (Rayleigh, Mie, non-selective).\n3. **Earth Surface Interaction**:\n- When EMR hits earth features, it is divided into: **Reflection** ($R$), **Absorption** ($A$), and **Transmission** ($T$). So, $I = R + A + T$.\n- **Spectral Signatures**: Different materials reflect energy differently across wavelengths. E.g., healthy green vegetation reflects strongly in the Near-Infrared (NIR) band due to mesophyll structure, but absorbs Red light for photosynthesis. Water absorbs almost all NIR radiation, making it appear black."
+      },
+      {
+        "id": 15,
+        "unit": "IV",
+        "question": "Sun-synchronous satellites.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Use of association in visual image interpretation.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 17,
+        "unit": "V",
+        "question": "Explain the interaction mechanism of electromagnetic radiations with the atmosphere.",
+        "answerKey": "1. **Electromagnetic Radiation (EMR)**:\n- EMR is a dynamic form of energy propagating through space as wave-particle packets (photons). Governed by wave equations where velocity is speed of light ($c = \\nu \\lambda$).\n2. **Atmospheric Interaction**:\n- **Absorption**: Major atmospheric gases ($CO_2$, $H_2O$, $O_3$) absorb specific EMR wavelengths, creating 'absorption bands'. Wavelength bands where EMR passes unabsorbed are called **Atmospheric Windows** (essential for sensors).\n- **Scattering**: Redirection of EMR by particles (Rayleigh, Mie, non-selective).\n3. **Earth Surface Interaction**:\n- When EMR hits earth features, it is divided into: **Reflection** ($R$), **Absorption** ($A$), and **Transmission** ($T$). So, $I = R + A + T$.\n- **Spectral Signatures**: Different materials reflect energy differently across wavelengths. E.g., healthy green vegetation reflects strongly in the Near-Infrared (NIR) band due to mesophyll structure, but absorbs Red light for photosynthesis. Water absorbs almost all NIR radiation, making it appear black."
+      },
+      {
+        "id": 18,
+        "unit": "V",
+        "question": "Explain the characteristics of different platforms used in remote sensing.",
+        "answerKey": "1. **Remote Sensing Sensors**:\n- **Active Sensors**: Provide their own energy source for illumination (e.g., RADAR, LiDAR, SONAR). Can operate day and night and penetrate clouds.\n- **Passive Sensors**: Detect natural energy (reflected sunlight or thermal emission) from the Earth's surface (e.g., multispectral cameras, radiometers). Restricted to daylight and clear weather.\n2. **Resolutions in Remote Sensing**:\n- **Spatial Resolution**: The size of the smallest object distinguishable on the ground (pixel size, e.g., 10m vs. 30m).\n- **Spectral Resolution**: The ability of a sensor to define fine wavelength intervals (number and width of spectral bands).\n- **Radiometric Resolution**: The sensitivity of the sensor to small differences in electromagnetic energy (measured in bits, e.g., 8-bit = 256 levels, 11-bit = 2048 levels).\n- **Temporal Resolution**: The revisit time (revisit frequency) of the satellite over the same geographic location (e.g., every 16 days).\n3. **Platforms**:\n- Air-borne (balloons, UAVs/drones, aircraft) for local high-resolution surveys.\n- Space-borne (satellites in Sun-synchronous or Geostationary orbits) for regional and global monitoring."
+      },
+      {
+        "id": 19,
+        "unit": "V",
+        "question": "Write a note on digital image processing techniques.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 20,
+        "unit": "V",
+        "question": "Describe the steps and procedures involved in image interpretation.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      }
+    ]
   },
   "ggrmd31": {
     "id": "ggrmd31",
@@ -9770,7 +10638,131 @@ export const EXAMS = {
     "id": "ggrmj31",
     "title": "Economic Geography",
     "module": "GGRMJ31",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Classification of economic activities",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Concept of Economic Geography",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Distribution of Sugar Industry in India",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Subsistence Farming",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Major Sea routes of the world",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Describe the nature and scope of Economic Geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "What is the concept of resource? Describe its various classifications.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Give an account of the agricultural regions of the world proposed by Derwent Whittlesey.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "Explain the factors responsible for the location of iron and steel industry.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Describe the production and distributional pattern of fishing in the world.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Examine the role of WTO in the promotion of International trade.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Explain the effect of globalization on developing countries of the world.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 13,
+        "unit": "IV",
+        "question": "Spatial Organization",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 14,
+        "unit": "IV",
+        "question": "Soil types of the world",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 15,
+        "unit": "IV",
+        "question": "World Trade Organization",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Discuss the meaning and scope of Economic Geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 17,
+        "unit": "V",
+        "question": "``Resources are not but they become''. Elucidate the statement with suitable examples.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 18,
+        "unit": "V",
+        "question": "Explain the Agricultural land use model of Von Thunen and its applicability in the recent world.",
+        "answerKey": "1. **von Th\u00fcnen's Agricultural Location Theory (1826)**:\n- Explains the spatial pattern of agricultural land use surrounding a central market city.\n2. **Key Assumptions**:\n- An 'Isolated State' with one central market city, surrounded by a flat, featureless plain (isotropic surface).\n- Transportation is by horse/wagon, and costs are proportional to distance and weight.\n- Farmers seek to maximize profit ($R = Y(P - C) - YFm$, where $R$ is locational rent, $m$ is distance, $F$ is transport rate).\n3. **Concentric Zones**:\n- **Zone 1 (Market Gardening & Milk)**: Highly perishable, heavy products with high transport costs, located closest to city.\n- **Zone 2 (Forestry/Firewood)**: Timber is heavy and expensive to transport, located near the city for fuel.\n- **Zone 3 (Grain Farming)**: Less perishable, lighter transport cost.\n- **Zone 4 (Three-field system)**: Extensive arable crops.\n- **Zone 5 (Three-field fallow)**: Extensive agriculture.\n- **Zone 6 (Livestock Ranching)**: Animal herds transport themselves to market, locating furthest away where land is cheap."
+      },
+      {
+        "id": 19,
+        "unit": "V",
+        "question": "Discuss the major characteristics of Whittlesey's agricultural regions.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 20,
+        "unit": "V",
+        "question": "Explain the factors influencing the development and distribution of the cotton textile industry of the United Kingdom and Japan.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      }
+    ]
   },
   "ggrmj32": {
     "id": "ggrmj32",
@@ -9782,7 +10774,131 @@ export const EXAMS = {
     "id": "ggrmj33",
     "title": "Geography of India",
     "module": "GGRMJ33",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Describe the physiography of the Inner Himalaya.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Describe the impact of El Ni\u00f1o on the Indian Monsoon.",
+        "answerKey": "1. **Indian Monsoon Origin**:\n- A seasonal reversal of winds accompanied by corresponding changes in precipitation.\n2. **Mechanisms and Theories**:\n- **Thermal Concept (Halley)**: Differential heating of land and sea. In summer, the Asian landmass heats up, forming a low-pressure zone, while the Indian Ocean is high pressure, causing winds to blow from sea to land (South-West Monsoon).\n- **Dynamic Concept (Flohn)**: Shift of the Inter-Tropical Convergence Zone (ITCZ) northward to the plains in summer, pulling equatorial winds.\n- **Jet Stream Theory (Yin / Koteswaram)**: The northward shift of the Subtropical Westerly Jet Stream behind the Himalayas allows the Tropical Easterly Jet Stream to establish over India, initiating the monsoon surge.\n- **ENSO / El Ni\u00f1o**: Warm waters in eastern Pacific weaken the Indian monsoon, whereas **La Ni\u00f1a** enhances it."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Write short notes on tea cultivation in India.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Write short notes on Special Economic Zones (SEZs) in India.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Discuss in brief the major cultural zones of India as identified by N. K. Bose.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Describe the geological evolution of the Indo-Gangetic Plains.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Describe the various types of soils of India.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Discuss the regional distribution of the means of irrigation in India.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "Critically examine the positive and negative impacts of the Green Revolution in India.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Write an essay on the composition and recent trends of trade in India.",
+        "answerKey": "1. **Demographic Transition Theory**:\n- Describes the transition from high birth and death rates to low birth and death rates as a country develops economically.\n2. **Stages of Transition**:\n- **Stage 1 (High Stationary)**: High birth and death rates due to poor health care and lack of family planning. Population grows slowly.\n- **Stage 2 (Early Expanding)**: Death rates fall rapidly due to medical improvements, but birth rates remain high. Population explodes.\n- **Stage 3 (Late Expanding)**: Birth rates begin to fall due to urbanization, literacy, and family planning. Population growth slows.\n- **Stage 4 (Low Stationary)**: Low birth and death rates. Stable, slow population growth.\n- **Stage 5 (Declining)**: Death rates exceed birth rates, leading to population decline (e.g., Japan, Germany)."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Describe the planning regions of India as suggested by P. Sen Gupta.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Discuss the geographical characteristics of the Thar Desert.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 13,
+        "unit": "I",
+        "question": "Divide India into major physiographic regions and discuss the features of the Great Himalayas.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 14,
+        "unit": "I",
+        "question": "Provide a comparative account of the Himalayan and Peninsular river systems of India.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Discuss the origin, mechanism, and characteristics of the Indian Summer Monsoon.",
+        "answerKey": "1. **Indian Monsoon Origin**:\n- A seasonal reversal of winds accompanied by corresponding changes in precipitation.\n2. **Mechanisms and Theories**:\n- **Thermal Concept (Halley)**: Differential heating of land and sea. In summer, the Asian landmass heats up, forming a low-pressure zone, while the Indian Ocean is high pressure, causing winds to blow from sea to land (South-West Monsoon).\n- **Dynamic Concept (Flohn)**: Shift of the Inter-Tropical Convergence Zone (ITCZ) northward to the plains in summer, pulling equatorial winds.\n- **Jet Stream Theory (Yin / Koteswaram)**: The northward shift of the Subtropical Westerly Jet Stream behind the Himalayas allows the Tropical Easterly Jet Stream to establish over India, initiating the monsoon surge.\n- **ENSO / El Ni\u00f1o**: Warm waters in eastern Pacific weaken the Indian monsoon, whereas **La Ni\u00f1a** enhances it."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Classify the soils of India and discuss the problems and conservation of Indian soils.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 17,
+        "unit": "II",
+        "question": "Discuss the distribution and classification of natural vegetation in India.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 18,
+        "unit": "III",
+        "question": "Explain the problems, prospects, and regional distribution of rice cultivation in India.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 19,
+        "unit": "IV",
+        "question": "Discuss the production, distribution, and conservation of iron ore resources in India.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 20,
+        "unit": "IV",
+        "question": "Explain the distribution and growth patterns of population in India.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      }
+    ]
   },
   "ggrmv31": {
     "id": "ggrmv31",
@@ -9800,7 +10916,131 @@ export const EXAMS = {
     "id": "ggrmj41",
     "title": "Evolution of Geographical Thought",
     "module": "GGRMJ41",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Approaches to the study of Geography",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Concept of space in Geography",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Quantitative Revolution",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Geography in ancient India",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Write a note on geography as a science.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Describe the fundamental concepts of geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Discuss the philosophy and contribution of Humboldt in geography.",
+        "answerKey": "1. **Alexander von Humboldt (1769-1859)**:\n- German naturalist and founder of modern geography. Traveled extensively in Central/South America.\n- Author of *Kosmos*, describing the universe as a unified whole. Developed the concept of **Isotherms** to compare temperatures globally, studied vegetation zones by altitude, and emphasized empirical fieldwork.\n2. **Carl Ritter (1779-1859)**:\n- Contemporary of Humboldt and first Professor of Geography at Berlin University. Author of *Erdkunde*.\n- Emphasized a regional approach and adopted a **Teleological** view (believing the earth was designed by God as a perfect home for humans). Focused on historical relationships between nature and human history."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Describe the main contributions of Greek geographers.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "Discuss the dualism and dichotomy in geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Write a comment on the contribution of American school of thought in Geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Discuss the evolution of geography as a discipline in India.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Discuss the recent trends in Indian geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 13,
+        "unit": "IV",
+        "question": "Geography as a discipline",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 14,
+        "unit": "IV",
+        "question": "Relevance of Geography",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 15,
+        "unit": "IV",
+        "question": "Dualism in Geography",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Contributions of H.J. Mackinder",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 17,
+        "unit": "V",
+        "question": "La tradition Vidalienne",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 18,
+        "unit": "V",
+        "question": "Explain the field of Geography in your own words.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 19,
+        "unit": "V",
+        "question": "Discuss the approaches to Geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 20,
+        "unit": "V",
+        "question": "Describe the contributions of the Indian scholars to classical Geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      }
+    ]
   },
   "ggrmj42": {
     "id": "ggrmj42",
@@ -9812,7 +11052,131 @@ export const EXAMS = {
     "id": "ggrmj43",
     "title": "Geomorphology",
     "module": "GGRMJ43",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Uniformitarianism",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Kober's view on mountain building",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Agricultural practices in the Middle Ganga Plain",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Describe the nature and scope of Geomorphology.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Critically examine the theories proposed by Airy and Pratt on Isostasy.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Describe the views of Wegener's continental drift theory.",
+        "answerKey": "1. **Wegener's Continental Drift Theory (1912)**:\n- Proposed that all landmasses were once joined in a supercontinent called **Pangaea**, surrounded by the ocean **Panthalassa**.\n- Pangaea broke up during the Mesozoic era; fragments drifted to form current continents.\n- **Evidence**: Jigsaw fit of South America and Africa, matching fossil distributions (Mesosaurus, Glossopteris), geological match of rock strata across oceans, and paleoclimatic data (tillites in India/Africa).\n2. **Plate Tectonics Theory**:\n- Describes the earth's lithosphere as broken into major and minor rigid plates floating on the semi-fluid asthenosphere.\n- **Plate Boundaries**:\n  - *Divergent (Constructive)*: Plates move apart, creating mid-ocean ridges and new crust (e.g., Mid-Atlantic Ridge).\n  - *Convergent (Destructive)*: Plates collide, causing subduction and trench formation, or folding to form fold mountains (e.g., Himalayas).\n  - *Transform (Conservative)*: Plates slide past each other, causing strike-slip faulting and earthquakes (e.g., San Andreas Fault).\n3. **Volcanism**: Magma rising through fractures in the crust. Associated primarily with convergent subduction zones (Pacific Ring of Fire) and divergent plate boundaries."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Explain the main factors helping in the development of a river valley.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Discuss the development of landforms in an aeolian region.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "Discuss the types and patterns of drainage.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Illustrate the main geomorphic features of the Uttarakhand Himalaya.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 11,
+        "unit": "I",
+        "question": "Discuss the interior structure of the earth based on seismological evidence.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 12,
+        "unit": "I",
+        "question": "Critically examine Wegener's theory of Continental Drift and its evidence.",
+        "answerKey": "1. **Wegener's Continental Drift Theory (1912)**:\n- Proposed that all landmasses were once joined in a supercontinent called **Pangaea**, surrounded by the ocean **Panthalassa**.\n- Pangaea broke up during the Mesozoic era; fragments drifted to form current continents.\n- **Evidence**: Jigsaw fit of South America and Africa, matching fossil distributions (Mesosaurus, Glossopteris), geological match of rock strata across oceans, and paleoclimatic data (tillites in India/Africa).\n2. **Plate Tectonics Theory**:\n- Describes the earth's lithosphere as broken into major and minor rigid plates floating on the semi-fluid asthenosphere.\n- **Plate Boundaries**:\n  - *Divergent (Constructive)*: Plates move apart, creating mid-ocean ridges and new crust (e.g., Mid-Atlantic Ridge).\n  - *Convergent (Destructive)*: Plates collide, causing subduction and trench formation, or folding to form fold mountains (e.g., Himalayas).\n  - *Transform (Conservative)*: Plates slide past each other, causing strike-slip faulting and earthquakes (e.g., San Andreas Fault).\n3. **Volcanism**: Magma rising through fractures in the crust. Associated primarily with convergent subduction zones (Pacific Ring of Fire) and divergent plate boundaries."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "Explain the concept of Isostasy as proposed by Pratt and Airy.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 14,
+        "unit": "III",
+        "question": "Discuss the plate tectonics theory, explaining convergent, divergent, and transform boundaries.",
+        "answerKey": "1. **Wegener's Continental Drift Theory (1912)**:\n- Proposed that all landmasses were once joined in a supercontinent called **Pangaea**, surrounded by the ocean **Panthalassa**.\n- Pangaea broke up during the Mesozoic era; fragments drifted to form current continents.\n- **Evidence**: Jigsaw fit of South America and Africa, matching fossil distributions (Mesosaurus, Glossopteris), geological match of rock strata across oceans, and paleoclimatic data (tillites in India/Africa).\n2. **Plate Tectonics Theory**:\n- Describes the earth's lithosphere as broken into major and minor rigid plates floating on the semi-fluid asthenosphere.\n- **Plate Boundaries**:\n  - *Divergent (Constructive)*: Plates move apart, creating mid-ocean ridges and new crust (e.g., Mid-Atlantic Ridge).\n  - *Convergent (Destructive)*: Plates collide, causing subduction and trench formation, or folding to form fold mountains (e.g., Himalayas).\n  - *Transform (Conservative)*: Plates slide past each other, causing strike-slip faulting and earthquakes (e.g., San Andreas Fault).\n3. **Volcanism**: Magma rising through fractures in the crust. Associated primarily with convergent subduction zones (Pacific Ring of Fire) and divergent plate boundaries."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Critically examine Kober's geosynclinal theory of mountain building.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Discuss Holmes' thermal convection current theory of mountain building.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 17,
+        "unit": "IV",
+        "question": "Differentiate between endogenetic and exogenetic earth movements with examples.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 18,
+        "unit": "IV",
+        "question": "Describe the cycle of erosion as proposed by William Morris Davis.",
+        "answerKey": "1. **Weathering**: The in-situ disintegration and decomposition of rocks without transport.\n- **Mechanical Weathering**: Physical breakdown. Includes frost action (freeze-thaw cycle), thermal expansion/contraction (exfoliation), and pressure release (sheeting).\n- **Chemical Weathering**: Alteration of mineral composition. Includes carbonation (carbonic acid dissolving limestone), oxidation (rusting of iron-rich minerals), hydrolysis (water reacting with feldspar to form clay), and hydration.\n- **Biological Weathering**: Disintegration caused by plant roots, burrowing animals, and organic acids from lichens/mosses.\n2. **Erosion**: The active wearing away and transportation of rock materials by agents like running water, wind, glaciers, and waves.\n3. **Soil Formation**: Weathering is the first step in soil development, creating the parent material (regolith)."
+      },
+      {
+        "id": 19,
+        "unit": "IV",
+        "question": "Explain the Penckian model of landform development and compare it with Davis' model.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 20,
+        "unit": "V",
+        "question": "Describe the landforms associated with karst (groundwater) topography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      }
+    ]
   },
   "ggrmj44": {
     "id": "ggrmj44",
@@ -9830,19 +11194,391 @@ export const EXAMS = {
     "id": "ggrmj51",
     "title": "Climatology",
     "module": "GGRMJ51",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Characteristics of troposphere",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Ferrel's law of wind deflection",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Thermodynamic modification of air mass",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Varves as evidence of climatic change",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Discuss the meaning and scope of climatology.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "What is meant by temperature? Describe the factors affecting the uneven distribution of temperature over the earth surface.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Explain the various forces which determine the velocity and direction of wind near the earth surface.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Define jet stream and mention the role of jet streams in the origin of Indian monsoon.",
+        "answerKey": "1. **Indian Monsoon Origin**:\n- A seasonal reversal of winds accompanied by corresponding changes in precipitation.\n2. **Mechanisms and Theories**:\n- **Thermal Concept (Halley)**: Differential heating of land and sea. In summer, the Asian landmass heats up, forming a low-pressure zone, while the Indian Ocean is high pressure, causing winds to blow from sea to land (South-West Monsoon).\n- **Dynamic Concept (Flohn)**: Shift of the Inter-Tropical Convergence Zone (ITCZ) northward to the plains in summer, pulling equatorial winds.\n- **Jet Stream Theory (Yin / Koteswaram)**: The northward shift of the Subtropical Westerly Jet Stream behind the Himalayas allows the Tropical Easterly Jet Stream to establish over India, initiating the monsoon surge.\n- **ENSO / El Ni\u00f1o**: Warm waters in eastern Pacific weaken the Indian monsoon, whereas **La Ni\u00f1a** enhances it."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "Discuss any one of the theories of precipitation formation and also mention the types of precipitation.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Give an account of the source regions, characteristics and types of fronts.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Describe the origin and weather associated with temperate cyclones.",
+        "answerKey": "1. **Cyclones (Low-Pressure Systems)**:\n- Low-pressure centers with winds blowing inward in a spiral fashion (counter-clockwise in Northern Hemisphere, clockwise in Southern Hemisphere due to Coriolis force).\n- **Tropical Cyclones**: Form over warm oceans ($>27^\\circ\\text{C}$); driven by latent heat of condensation. Have a calm central 'eye', violent winds, and torrential rains. No fronts.\n- **Temperate (Frontal) Cyclones**: Form in mid-latitudes due to the convergence of warm tropical and cold polar air masses, creating distinct warm and cold fronts. Cover large areas and cause gradual rainfall.\n2. **Anticyclones (High-Pressure Systems)**:\n- High-pressure centers with winds blowing outward (clockwise in Northern Hemisphere, counter-clockwise in Southern Hemisphere). Characterized by sinking air, dry conditions, clear skies, and calm weather."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Elucidate the causes and consequences of global warming.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 13,
+        "unit": "IV",
+        "question": "Southern Oscillation",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 14,
+        "unit": "IV",
+        "question": "Temperature Inversion",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 15,
+        "unit": "IV",
+        "question": "Define climatology and discuss its meaning and scope.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Explain the process of heating and cooling of the atmosphere.",
+        "answerKey": "1. **Atmospheric Composition**:\n- Major gases: Nitrogen ($78.08\\%$), Oxygen ($20.95\\%$), Argon ($0.93\\%$), Carbon Dioxide ($0.04\\%$).\n- Variable components: Water vapor, aerosols, ozone.\n2. **Vertical Thermal Structure**:\n- **Troposphere**: Lowest layer (0-12 km). Temperature decreases with height at the Normal Lapse Rate of $6.5^\\circ\\text{C}$ per km. Contains $99\\%$ of water vapor and all weather phenomena.\n- **Stratosphere**: Extends to 50 km. Temperature increases with height due to UV absorption by the ozone layer (ozonosphere). Very stable, ideal for jet aircraft.\n- **Mesosphere**: Extends to 80 km. Temperature decreases to the lowest levels ($-90^\\circ\\text{C}$). Meteors burn up here.\n- **Thermosphere / Ionosphere**: Extends to 600 km. Temperature rises rapidly due to X-ray and UV absorption. Contains ionized particles that reflect radio waves.\n- **Exosphere**: Merges into outer space."
+      },
+      {
+        "id": 17,
+        "unit": "V",
+        "question": "Describe the composition and structure of the atmosphere.",
+        "answerKey": "1. **Atmospheric Composition**:\n- Major gases: Nitrogen ($78.08\\%$), Oxygen ($20.95\\%$), Argon ($0.93\\%$), Carbon Dioxide ($0.04\\%$).\n- Variable components: Water vapor, aerosols, ozone.\n2. **Vertical Thermal Structure**:\n- **Troposphere**: Lowest layer (0-12 km). Temperature decreases with height at the Normal Lapse Rate of $6.5^\\circ\\text{C}$ per km. Contains $99\\%$ of water vapor and all weather phenomena.\n- **Stratosphere**: Extends to 50 km. Temperature increases with height due to UV absorption by the ozone layer (ozonosphere). Very stable, ideal for jet aircraft.\n- **Mesosphere**: Extends to 80 km. Temperature decreases to the lowest levels ($-90^\\circ\\text{C}$). Meteors burn up here.\n- **Thermosphere / Ionosphere**: Extends to 600 km. Temperature rises rapidly due to X-ray and UV absorption. Contains ionized particles that reflect radio waves.\n- **Exosphere**: Merges into outer space."
+      },
+      {
+        "id": 18,
+        "unit": "V",
+        "question": "Discuss the role of jet streams in the origin of Indian monsoon.",
+        "answerKey": "1. **Indian Monsoon Origin**:\n- A seasonal reversal of winds accompanied by corresponding changes in precipitation.\n2. **Mechanisms and Theories**:\n- **Thermal Concept (Halley)**: Differential heating of land and sea. In summer, the Asian landmass heats up, forming a low-pressure zone, while the Indian Ocean is high pressure, causing winds to blow from sea to land (South-West Monsoon).\n- **Dynamic Concept (Flohn)**: Shift of the Inter-Tropical Convergence Zone (ITCZ) northward to the plains in summer, pulling equatorial winds.\n- **Jet Stream Theory (Yin / Koteswaram)**: The northward shift of the Subtropical Westerly Jet Stream behind the Himalayas allows the Tropical Easterly Jet Stream to establish over India, initiating the monsoon surge.\n- **ENSO / El Ni\u00f1o**: Warm waters in eastern Pacific weaken the Indian monsoon, whereas **La Ni\u00f1a** enhances it."
+      },
+      {
+        "id": 19,
+        "unit": "V",
+        "question": "Explain the source regions, types and weather associated with fronts.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 20,
+        "unit": "V",
+        "question": "Critically evaluate Thornthwaite's world classification of climate.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      }
+    ]
   },
   "ggrmj52": {
     "id": "ggrmj52",
     "title": "World Regional Geography",
     "module": "GGRMJ52",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Concept of development",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Least developed world",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Description of any two soils of the U.S.A.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Climate of China",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Iron and steel industry of the U.S.A.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Give an account of the bases and classification of the world into developed and developing countries with examples.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Discuss the major characteristics of developed and developing countries with examples.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Describe the physiographic characteristics of the U.S.A.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "Describe the different types and factors influencing agriculture in China.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Give a reasoned account of the distribution pattern of population in China.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "What do you understand by an agricultural region? Describe any two agricultural regions of the U.S.A.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Delimit China into different geographical regions and describe the salient features of any two.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 13,
+        "unit": "IV",
+        "question": "Concept of Region.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 14,
+        "unit": "IV",
+        "question": "Bases of classification of world into developing countries.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 15,
+        "unit": "IV",
+        "question": "Difference between developed \\& developing countries.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Power resources of China.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 17,
+        "unit": "V",
+        "question": "Discuss the distinct characteristics of the developed \\& developing countries of the world.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 18,
+        "unit": "V",
+        "question": "Discuss the physiography of China in detail.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 19,
+        "unit": "V",
+        "question": "Discuss the vegetation of USA in detail.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 20,
+        "unit": "V",
+        "question": "Discuss the population characteristics of USA.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      }
+    ]
   },
   "ggrmj53": {
     "id": "ggrmj53",
     "title": "Population Geography",
     "module": "GGRMJ53",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Vital Registration",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Demographic transition theory",
+        "answerKey": "1. **Demographic Transition Theory**:\n- Describes the transition from high birth and death rates to low birth and death rates as a country develops economically.\n2. **Stages of Transition**:\n- **Stage 1 (High Stationary)**: High birth and death rates due to poor health care and lack of family planning. Population grows slowly.\n- **Stage 2 (Early Expanding)**: Death rates fall rapidly due to medical improvements, but birth rates remain high. Population explodes.\n- **Stage 3 (Late Expanding)**: Birth rates begin to fall due to urbanization, literacy, and family planning. Population growth slows.\n- **Stage 4 (Low Stationary)**: Low birth and death rates. Stable, slow population growth.\n- **Stage 5 (Declining)**: Death rates exceed birth rates, leading to population decline (e.g., Japan, Germany)."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Population problems and planning",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Significance of age and sex structure",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Explain the concepts of systematic and regional approaches in studying population geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Discuss the concept of urbanization.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Explain the causes and consequences of world population growth.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Describe the major sources of population data.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "Explain the determinants of fertility.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Discuss the indicators and patterns of human resource development in the world.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Define population density and discuss the relative significance of various density types.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Give an account of the 'Population Policy 2000' of India.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 13,
+        "unit": "I",
+        "question": "Discuss the nature, scope, and development of Population Geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 14,
+        "unit": "I",
+        "question": "Explain the global factors influencing the uneven distribution and density of population.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Critically analyze Malthusian theory of population growth and its criticisms.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Explain the Demographic Transition Theory and discuss its stages and applicability.",
+        "answerKey": "1. **Demographic Transition Theory**:\n- Describes the transition from high birth and death rates to low birth and death rates as a country develops economically.\n2. **Stages of Transition**:\n- **Stage 1 (High Stationary)**: High birth and death rates due to poor health care and lack of family planning. Population grows slowly.\n- **Stage 2 (Early Expanding)**: Death rates fall rapidly due to medical improvements, but birth rates remain high. Population explodes.\n- **Stage 3 (Late Expanding)**: Birth rates begin to fall due to urbanization, literacy, and family planning. Population growth slows.\n- **Stage 4 (Low Stationary)**: Low birth and death rates. Stable, slow population growth.\n- **Stage 5 (Declining)**: Death rates exceed birth rates, leading to population decline (e.g., Japan, Germany)."
+      },
+      {
+        "id": 17,
+        "unit": "III",
+        "question": "Discuss the trends and consequences of rapid population growth in developing nations.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 18,
+        "unit": "III",
+        "question": "Discuss the age-sex composition of population and its socioeconomic implications.",
+        "answerKey": "1. **Demographic Transition Theory**:\n- Describes the transition from high birth and death rates to low birth and death rates as a country develops economically.\n2. **Stages of Transition**:\n- **Stage 1 (High Stationary)**: High birth and death rates due to poor health care and lack of family planning. Population grows slowly.\n- **Stage 2 (Early Expanding)**: Death rates fall rapidly due to medical improvements, but birth rates remain high. Population explodes.\n- **Stage 3 (Late Expanding)**: Birth rates begin to fall due to urbanization, literacy, and family planning. Population growth slows.\n- **Stage 4 (Low Stationary)**: Low birth and death rates. Stable, slow population growth.\n- **Stage 5 (Declining)**: Death rates exceed birth rates, leading to population decline (e.g., Japan, Germany)."
+      },
+      {
+        "id": 19,
+        "unit": "IV",
+        "question": "Define migration and explain Lee's push-pull theory of migration.",
+        "answerKey": "1. **Human Races Classification**:\n- A race is a biological group sharing inheritable physical characteristics.\n- **Indicators**: Skin color, stature, head shape (Cephalic Index), nasal index, hair form, eye shape.\n- **Major World Groups**: Caucasoid (Europe/West Asia), Mongoloid (East Asia/Americas), Negroid (Africa), Australoid.\n2. **The Bushmen (San Tribe)**:\n- Indigenous hunter-gatherers of the Kalahari Desert in Southern Africa.\n- **Adaptation**: Highly adapted to arid environments. Live in small nomadic bands. Diet consists of wild game, roots, and water-rich melons (tsama). Use poison-tipped arrows. Shelter in temporary windbreaks.\n3. **Human Migration**:\n- The movement of people from one place to another.\n- **Push Factors**: Drive people away (war, famine, lack of jobs, natural disasters).\n- **Pull Factors**: Attract people (higher wages, political stability, better education, pleasant climate)."
+      },
+      {
+        "id": 20,
+        "unit": "IV",
+        "question": "Discuss the causes, trends, and patterns of rural-urban migration in developing countries.",
+        "answerKey": "1. **Human Races Classification**:\n- A race is a biological group sharing inheritable physical characteristics.\n- **Indicators**: Skin color, stature, head shape (Cephalic Index), nasal index, hair form, eye shape.\n- **Major World Groups**: Caucasoid (Europe/West Asia), Mongoloid (East Asia/Americas), Negroid (Africa), Australoid.\n2. **The Bushmen (San Tribe)**:\n- Indigenous hunter-gatherers of the Kalahari Desert in Southern Africa.\n- **Adaptation**: Highly adapted to arid environments. Live in small nomadic bands. Diet consists of wild game, roots, and water-rich melons (tsama). Use poison-tipped arrows. Shelter in temporary windbreaks.\n3. **Human Migration**:\n- The movement of people from one place to another.\n- **Push Factors**: Drive people away (war, famine, lack of jobs, natural disasters).\n- **Pull Factors**: Attract people (higher wages, political stability, better education, pleasant climate)."
+      }
+    ]
   },
   "ggrmj54": {
     "id": "ggrmj54",
@@ -9866,7 +11602,131 @@ export const EXAMS = {
     "id": "ggrmj62",
     "title": "Oceanography",
     "module": "GGRMJ62",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Active Plate Margin",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Circulation of Indian Ocean currents",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Deep Ocean Mission (DOM)",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Maritime security in the Indian Ocean",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Define Oceanography and discuss its meaning and scope.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Describe the major characteristics of relief features of the ocean basin.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "``Temperature, salinity, and density differences in oceanic water are the prime causes of ocean circulation''. Elaborate the statement.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "How are tides caused? Describe any two major theories.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "Present a critical description of various theories explaining the origin of coral reefs.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Classify oceanic deposits and describe their distribution.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Discuss the emerging trends in the geopolitics of the Indian Ocean.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 12,
+        "unit": "I",
+        "question": "Describe the general bottom topography of the Atlantic Ocean.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "Discuss the factors influencing the horizontal and vertical distribution of salinity in oceans.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 14,
+        "unit": "III",
+        "question": "Describe the currents of the Pacific Ocean and explain their impact on regional climate.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 15,
+        "unit": "III",
+        "question": "Explain the origin and features of ocean tides.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Critically examine Darwin's subsidence theory of the origin of coral reefs.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 17,
+        "unit": "IV",
+        "question": "Explain Daly's glacial control theory of the origin of coral reefs.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 18,
+        "unit": "V",
+        "question": "Classify marine deposits based on their origin and discuss pelagic deposits.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 19,
+        "unit": "I",
+        "question": "Describe the bottom topography of the Indian Ocean.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 20,
+        "unit": "II",
+        "question": "Discuss the factors affecting the temperature distribution of ocean waters.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      }
+    ]
   },
   "ggrmj63": {
     "id": "ggrmj63",
@@ -9890,7 +11750,131 @@ export const EXAMS = {
     "id": "ggrmj65b",
     "title": "Geography of Settlement",
     "module": "GGRMJ65B",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Rural and Urban morphology",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Evolution of towns in India",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Slums and squatter settlement",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Urban housing shortage",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Explain the approaches to the study of Settlement Geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Evaluate human settlements as a 'system'.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Write a critical account of Christaller's Central Place Theory.",
+        "answerKey": "1. **Walter Christaller's Central Place Theory (1933)**:\n- Explains the size, spacing, and functional hierarchy of towns and service settlements in a region.\n2. **Core Concepts**:\n- **Central Place**: A settlement providing goods and services to its surrounding tributary area.\n- **Range of a Good**: The maximum distance a consumer is willing to travel to purchase a service.\n- **Threshold**: The minimum population/market size required to make a business profitable.\n- **Hexagonal Market Areas**: Overlapping circles deform into hexagons to cover space efficiently without gaps or overlap.\n3. **Hierarchical Principles**:\n- **$K=3$ (Marketing Principle)**: Lower-order centers serve $1/3$ of the market area of surrounding centers. The network hierarchy is $1, 3, 9, 27...$\n- **$K=4$ (Transport Principle)**: Lower-order centers lie along the main transport routes connecting higher-order centers, serving $1/2$ of their market. Hierarchy: $1, 4, 16, 64...$\n- **$K=7$ (Administrative Principle)**: The administrative boundary of lower-order centers is completely enclosed within the higher-order region to prevent administrative disputes. Hierarchy: $1, 7, 49, 343...$"
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "What physical and non-physical factors affect rural settlements?",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "Discuss the types and regional patterns of rural houses.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Discuss the models related to the internal structure of cities.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Discuss the status of rural housing planning and policies in India.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Indian cities are constantly battling with the increasing need for housing facilities. In this context explain the problems of urban housing and related remedial policies.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 13,
+        "unit": "I",
+        "question": "Discuss the definition, nature, and scope of Settlement Geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 14,
+        "unit": "I",
+        "question": "Differentiate between rural and urban settlements in terms of structure and function.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Discuss the physical and socio-economic factors affecting the location of rural settlements.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Describe the major types (clustered, dispersed, semi-sprinkled) and geometric patterns of rural settlements.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 17,
+        "unit": "III",
+        "question": "Critically examine Walter Christaller's Central Place Theory (marketing, transport, and administrative principles).",
+        "answerKey": "1. **Walter Christaller's Central Place Theory (1933)**:\n- Explains the size, spacing, and functional hierarchy of towns and service settlements in a region.\n2. **Core Concepts**:\n- **Central Place**: A settlement providing goods and services to its surrounding tributary area.\n- **Range of a Good**: The maximum distance a consumer is willing to travel to purchase a service.\n- **Threshold**: The minimum population/market size required to make a business profitable.\n- **Hexagonal Market Areas**: Overlapping circles deform into hexagons to cover space efficiently without gaps or overlap.\n3. **Hierarchical Principles**:\n- **$K=3$ (Marketing Principle)**: Lower-order centers serve $1/3$ of the market area of surrounding centers. The network hierarchy is $1, 3, 9, 27...$\n- **$K=4$ (Transport Principle)**: Lower-order centers lie along the main transport routes connecting higher-order centers, serving $1/2$ of their market. Hierarchy: $1, 4, 16, 64...$\n- **$K=7$ (Administrative Principle)**: The administrative boundary of lower-order centers is completely enclosed within the higher-order region to prevent administrative disputes. Hierarchy: $1, 7, 49, 343...$"
+      },
+      {
+        "id": 18,
+        "unit": "III",
+        "question": "Discuss August L\u00f6sch's modification of the Central Place Theory.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 19,
+        "unit": "IV",
+        "question": "Describe the concentric zone model of urban land use proposed by E.W. Burgess.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 20,
+        "unit": "IV",
+        "question": "Explain the multiple nuclei model of urban structure proposed by Harris and Ullman.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      }
+    ]
   },
   "ggrmj65c": {
     "id": "ggrmj65c",
@@ -9950,13 +11934,261 @@ export const EXAMS = {
     "id": "ggrmj74a",
     "title": "Advanced Geographical Thought",
     "module": "GGRMJ74A",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Approaches to the study of Geography",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Concept of space in Geography",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Quantitative Revolution",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Geography in ancient India",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Write a note on geography as a science.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Describe the fundamental concepts of geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Discuss the philosophy and contribution of Humboldt in geography.",
+        "answerKey": "1. **Alexander von Humboldt (1769-1859)**:\n- German naturalist and founder of modern geography. Traveled extensively in Central/South America.\n- Author of *Kosmos*, describing the universe as a unified whole. Developed the concept of **Isotherms** to compare temperatures globally, studied vegetation zones by altitude, and emphasized empirical fieldwork.\n2. **Carl Ritter (1779-1859)**:\n- Contemporary of Humboldt and first Professor of Geography at Berlin University. Author of *Erdkunde*.\n- Emphasized a regional approach and adopted a **Teleological** view (believing the earth was designed by God as a perfect home for humans). Focused on historical relationships between nature and human history."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Describe the main contributions of Greek geographers.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "Discuss the dualism and dichotomy in geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Write a comment on the contribution of American school of thought in Geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Discuss the evolution of geography as a discipline in India.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Discuss the recent trends in Indian geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 13,
+        "unit": "IV",
+        "question": "Geography as a discipline",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 14,
+        "unit": "IV",
+        "question": "Relevance of Geography",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 15,
+        "unit": "IV",
+        "question": "Dualism in Geography",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Contributions of H.J. Mackinder",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 17,
+        "unit": "V",
+        "question": "La tradition Vidalienne",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 18,
+        "unit": "V",
+        "question": "Explain the field of Geography in your own words.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 19,
+        "unit": "V",
+        "question": "Discuss the approaches to Geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 20,
+        "unit": "V",
+        "question": "Describe the contributions of the Indian scholars to classical Geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      }
+    ]
   },
   "ggrmj74b": {
     "id": "ggrmj74b",
     "title": "Advances in Population Studies",
     "module": "GGRMJ74B",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Vital Registration",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Demographic transition theory",
+        "answerKey": "1. **Demographic Transition Theory**:\n- Describes the transition from high birth and death rates to low birth and death rates as a country develops economically.\n2. **Stages of Transition**:\n- **Stage 1 (High Stationary)**: High birth and death rates due to poor health care and lack of family planning. Population grows slowly.\n- **Stage 2 (Early Expanding)**: Death rates fall rapidly due to medical improvements, but birth rates remain high. Population explodes.\n- **Stage 3 (Late Expanding)**: Birth rates begin to fall due to urbanization, literacy, and family planning. Population growth slows.\n- **Stage 4 (Low Stationary)**: Low birth and death rates. Stable, slow population growth.\n- **Stage 5 (Declining)**: Death rates exceed birth rates, leading to population decline (e.g., Japan, Germany)."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Population problems and planning",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Significance of age and sex structure",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Explain the concepts of systematic and regional approaches in studying population geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Discuss the concept of urbanization.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Explain the causes and consequences of world population growth.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Describe the major sources of population data.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "Explain the determinants of fertility.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Discuss the indicators and patterns of human resource development in the world.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Define population density and discuss the relative significance of various density types.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Give an account of the 'Population Policy 2000' of India.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 13,
+        "unit": "I",
+        "question": "Discuss the nature, scope, and development of Population Geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 14,
+        "unit": "I",
+        "question": "Explain the global factors influencing the uneven distribution and density of population.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Critically analyze Malthusian theory of population growth and its criticisms.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Explain the Demographic Transition Theory and discuss its stages and applicability.",
+        "answerKey": "1. **Demographic Transition Theory**:\n- Describes the transition from high birth and death rates to low birth and death rates as a country develops economically.\n2. **Stages of Transition**:\n- **Stage 1 (High Stationary)**: High birth and death rates due to poor health care and lack of family planning. Population grows slowly.\n- **Stage 2 (Early Expanding)**: Death rates fall rapidly due to medical improvements, but birth rates remain high. Population explodes.\n- **Stage 3 (Late Expanding)**: Birth rates begin to fall due to urbanization, literacy, and family planning. Population growth slows.\n- **Stage 4 (Low Stationary)**: Low birth and death rates. Stable, slow population growth.\n- **Stage 5 (Declining)**: Death rates exceed birth rates, leading to population decline (e.g., Japan, Germany)."
+      },
+      {
+        "id": 17,
+        "unit": "III",
+        "question": "Discuss the trends and consequences of rapid population growth in developing nations.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 18,
+        "unit": "III",
+        "question": "Discuss the age-sex composition of population and its socioeconomic implications.",
+        "answerKey": "1. **Demographic Transition Theory**:\n- Describes the transition from high birth and death rates to low birth and death rates as a country develops economically.\n2. **Stages of Transition**:\n- **Stage 1 (High Stationary)**: High birth and death rates due to poor health care and lack of family planning. Population grows slowly.\n- **Stage 2 (Early Expanding)**: Death rates fall rapidly due to medical improvements, but birth rates remain high. Population explodes.\n- **Stage 3 (Late Expanding)**: Birth rates begin to fall due to urbanization, literacy, and family planning. Population growth slows.\n- **Stage 4 (Low Stationary)**: Low birth and death rates. Stable, slow population growth.\n- **Stage 5 (Declining)**: Death rates exceed birth rates, leading to population decline (e.g., Japan, Germany)."
+      },
+      {
+        "id": 19,
+        "unit": "IV",
+        "question": "Define migration and explain Lee's push-pull theory of migration.",
+        "answerKey": "1. **Human Races Classification**:\n- A race is a biological group sharing inheritable physical characteristics.\n- **Indicators**: Skin color, stature, head shape (Cephalic Index), nasal index, hair form, eye shape.\n- **Major World Groups**: Caucasoid (Europe/West Asia), Mongoloid (East Asia/Americas), Negroid (Africa), Australoid.\n2. **The Bushmen (San Tribe)**:\n- Indigenous hunter-gatherers of the Kalahari Desert in Southern Africa.\n- **Adaptation**: Highly adapted to arid environments. Live in small nomadic bands. Diet consists of wild game, roots, and water-rich melons (tsama). Use poison-tipped arrows. Shelter in temporary windbreaks.\n3. **Human Migration**:\n- The movement of people from one place to another.\n- **Push Factors**: Drive people away (war, famine, lack of jobs, natural disasters).\n- **Pull Factors**: Attract people (higher wages, political stability, better education, pleasant climate)."
+      },
+      {
+        "id": 20,
+        "unit": "IV",
+        "question": "Discuss the causes, trends, and patterns of rural-urban migration in developing countries.",
+        "answerKey": "1. **Human Races Classification**:\n- A race is a biological group sharing inheritable physical characteristics.\n- **Indicators**: Skin color, stature, head shape (Cephalic Index), nasal index, hair form, eye shape.\n- **Major World Groups**: Caucasoid (Europe/West Asia), Mongoloid (East Asia/Americas), Negroid (Africa), Australoid.\n2. **The Bushmen (San Tribe)**:\n- Indigenous hunter-gatherers of the Kalahari Desert in Southern Africa.\n- **Adaptation**: Highly adapted to arid environments. Live in small nomadic bands. Diet consists of wild game, roots, and water-rich melons (tsama). Use poison-tipped arrows. Shelter in temporary windbreaks.\n3. **Human Migration**:\n- The movement of people from one place to another.\n- **Push Factors**: Drive people away (war, famine, lack of jobs, natural disasters).\n- **Pull Factors**: Attract people (higher wages, political stability, better education, pleasant climate)."
+      }
+    ]
   },
   "ggrmj74c": {
     "id": "ggrmj74c",
@@ -9968,7 +12200,131 @@ export const EXAMS = {
     "id": "ggrmj74d",
     "title": "Regional Planning",
     "module": "GGRMJ74D",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Local-level planning",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Participatory planning",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "National capital region",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Discuss the meaning and scope of regional development and planning.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Examine the theory of regional development of either Myrdal or Perroux.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Describe various approaches to regional development.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Explain the evolution of regional Planning in India with examples.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "What is multi-level planning? Discuss its significance for development planning in India.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "\"Infrastructure plays key role in regional development\". Explain with suitable examples.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Discuss the patterns of regional development and imbalances in India and identify the factors responsible for them.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Critically examine the development planning of either Eastern Uttar Pradesh or North-East India.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Scope of regional planning",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 13,
+        "unit": "IV",
+        "question": "Role of participatory approach in regional planning",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 14,
+        "unit": "IV",
+        "question": "Concept of growth pole",
+        "answerKey": "1. **Perroux's Growth Pole Theory (1955)**:\n- States that economic development does not appear everywhere at once, but rather at specific 'growth poles' (centers) with key industries, and eventually diffuses outward.\n- **Trickle-Down Effect**: Spread of growth to surrounding regions through demand for raw materials and labor.\n- **Polarization Effect**: Concentration of capital, skilled labor, and resources from backward regions into the growth center, increasing regional disparity.\n2. **Myrdal's Cumulative Causation**: States that market forces tend to increase regional inequalities rather than decrease them, through backwash and spread effects."
+      },
+      {
+        "id": 15,
+        "unit": "IV",
+        "question": "Concept of regional development",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Evolution of regional planning in India",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 17,
+        "unit": "V",
+        "question": "Discuss the different approaches of regional planning.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 18,
+        "unit": "V",
+        "question": "Explain the concept of multi-level planning with special reference to India.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 19,
+        "unit": "V",
+        "question": "Describe the causes and pattern of regional disparities in India.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 20,
+        "unit": "V",
+        "question": "Discuss the role of industry and transport in regional development.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      }
+    ]
   },
   "ggrmj74e": {
     "id": "ggrmj74e",
@@ -10010,13 +12366,261 @@ export const EXAMS = {
     "id": "ggrmj7r4a",
     "title": "Advanced Geographical Thought",
     "module": "GGRMJ7R4A",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Approaches to the study of Geography",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Concept of space in Geography",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Quantitative Revolution",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Geography in ancient India",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Write a note on geography as a science.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Describe the fundamental concepts of geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Discuss the philosophy and contribution of Humboldt in geography.",
+        "answerKey": "1. **Alexander von Humboldt (1769-1859)**:\n- German naturalist and founder of modern geography. Traveled extensively in Central/South America.\n- Author of *Kosmos*, describing the universe as a unified whole. Developed the concept of **Isotherms** to compare temperatures globally, studied vegetation zones by altitude, and emphasized empirical fieldwork.\n2. **Carl Ritter (1779-1859)**:\n- Contemporary of Humboldt and first Professor of Geography at Berlin University. Author of *Erdkunde*.\n- Emphasized a regional approach and adopted a **Teleological** view (believing the earth was designed by God as a perfect home for humans). Focused on historical relationships between nature and human history."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Describe the main contributions of Greek geographers.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "Discuss the dualism and dichotomy in geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Write a comment on the contribution of American school of thought in Geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Discuss the evolution of geography as a discipline in India.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Discuss the recent trends in Indian geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 13,
+        "unit": "IV",
+        "question": "Geography as a discipline",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 14,
+        "unit": "IV",
+        "question": "Relevance of Geography",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 15,
+        "unit": "IV",
+        "question": "Dualism in Geography",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Contributions of H.J. Mackinder",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 17,
+        "unit": "V",
+        "question": "La tradition Vidalienne",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 18,
+        "unit": "V",
+        "question": "Explain the field of Geography in your own words.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 19,
+        "unit": "V",
+        "question": "Discuss the approaches to Geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 20,
+        "unit": "V",
+        "question": "Describe the contributions of the Indian scholars to classical Geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      }
+    ]
   },
   "ggrmj7r4b": {
     "id": "ggrmj7r4b",
     "title": "Advances in Population Studies",
     "module": "GGRMJ7R4B",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Vital Registration",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Demographic transition theory",
+        "answerKey": "1. **Demographic Transition Theory**:\n- Describes the transition from high birth and death rates to low birth and death rates as a country develops economically.\n2. **Stages of Transition**:\n- **Stage 1 (High Stationary)**: High birth and death rates due to poor health care and lack of family planning. Population grows slowly.\n- **Stage 2 (Early Expanding)**: Death rates fall rapidly due to medical improvements, but birth rates remain high. Population explodes.\n- **Stage 3 (Late Expanding)**: Birth rates begin to fall due to urbanization, literacy, and family planning. Population growth slows.\n- **Stage 4 (Low Stationary)**: Low birth and death rates. Stable, slow population growth.\n- **Stage 5 (Declining)**: Death rates exceed birth rates, leading to population decline (e.g., Japan, Germany)."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Population problems and planning",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Significance of age and sex structure",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Explain the concepts of systematic and regional approaches in studying population geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Discuss the concept of urbanization.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Explain the causes and consequences of world population growth.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Describe the major sources of population data.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "Explain the determinants of fertility.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Discuss the indicators and patterns of human resource development in the world.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Define population density and discuss the relative significance of various density types.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Give an account of the 'Population Policy 2000' of India.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 13,
+        "unit": "I",
+        "question": "Discuss the nature, scope, and development of Population Geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 14,
+        "unit": "I",
+        "question": "Explain the global factors influencing the uneven distribution and density of population.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Critically analyze Malthusian theory of population growth and its criticisms.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Explain the Demographic Transition Theory and discuss its stages and applicability.",
+        "answerKey": "1. **Demographic Transition Theory**:\n- Describes the transition from high birth and death rates to low birth and death rates as a country develops economically.\n2. **Stages of Transition**:\n- **Stage 1 (High Stationary)**: High birth and death rates due to poor health care and lack of family planning. Population grows slowly.\n- **Stage 2 (Early Expanding)**: Death rates fall rapidly due to medical improvements, but birth rates remain high. Population explodes.\n- **Stage 3 (Late Expanding)**: Birth rates begin to fall due to urbanization, literacy, and family planning. Population growth slows.\n- **Stage 4 (Low Stationary)**: Low birth and death rates. Stable, slow population growth.\n- **Stage 5 (Declining)**: Death rates exceed birth rates, leading to population decline (e.g., Japan, Germany)."
+      },
+      {
+        "id": 17,
+        "unit": "III",
+        "question": "Discuss the trends and consequences of rapid population growth in developing nations.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 18,
+        "unit": "III",
+        "question": "Discuss the age-sex composition of population and its socioeconomic implications.",
+        "answerKey": "1. **Demographic Transition Theory**:\n- Describes the transition from high birth and death rates to low birth and death rates as a country develops economically.\n2. **Stages of Transition**:\n- **Stage 1 (High Stationary)**: High birth and death rates due to poor health care and lack of family planning. Population grows slowly.\n- **Stage 2 (Early Expanding)**: Death rates fall rapidly due to medical improvements, but birth rates remain high. Population explodes.\n- **Stage 3 (Late Expanding)**: Birth rates begin to fall due to urbanization, literacy, and family planning. Population growth slows.\n- **Stage 4 (Low Stationary)**: Low birth and death rates. Stable, slow population growth.\n- **Stage 5 (Declining)**: Death rates exceed birth rates, leading to population decline (e.g., Japan, Germany)."
+      },
+      {
+        "id": 19,
+        "unit": "IV",
+        "question": "Define migration and explain Lee's push-pull theory of migration.",
+        "answerKey": "1. **Human Races Classification**:\n- A race is a biological group sharing inheritable physical characteristics.\n- **Indicators**: Skin color, stature, head shape (Cephalic Index), nasal index, hair form, eye shape.\n- **Major World Groups**: Caucasoid (Europe/West Asia), Mongoloid (East Asia/Americas), Negroid (Africa), Australoid.\n2. **The Bushmen (San Tribe)**:\n- Indigenous hunter-gatherers of the Kalahari Desert in Southern Africa.\n- **Adaptation**: Highly adapted to arid environments. Live in small nomadic bands. Diet consists of wild game, roots, and water-rich melons (tsama). Use poison-tipped arrows. Shelter in temporary windbreaks.\n3. **Human Migration**:\n- The movement of people from one place to another.\n- **Push Factors**: Drive people away (war, famine, lack of jobs, natural disasters).\n- **Pull Factors**: Attract people (higher wages, political stability, better education, pleasant climate)."
+      },
+      {
+        "id": 20,
+        "unit": "IV",
+        "question": "Discuss the causes, trends, and patterns of rural-urban migration in developing countries.",
+        "answerKey": "1. **Human Races Classification**:\n- A race is a biological group sharing inheritable physical characteristics.\n- **Indicators**: Skin color, stature, head shape (Cephalic Index), nasal index, hair form, eye shape.\n- **Major World Groups**: Caucasoid (Europe/West Asia), Mongoloid (East Asia/Americas), Negroid (Africa), Australoid.\n2. **The Bushmen (San Tribe)**:\n- Indigenous hunter-gatherers of the Kalahari Desert in Southern Africa.\n- **Adaptation**: Highly adapted to arid environments. Live in small nomadic bands. Diet consists of wild game, roots, and water-rich melons (tsama). Use poison-tipped arrows. Shelter in temporary windbreaks.\n3. **Human Migration**:\n- The movement of people from one place to another.\n- **Push Factors**: Drive people away (war, famine, lack of jobs, natural disasters).\n- **Pull Factors**: Attract people (higher wages, political stability, better education, pleasant climate)."
+      }
+    ]
   },
   "ggrmj7r4c": {
     "id": "ggrmj7r4c",
@@ -10028,7 +12632,131 @@ export const EXAMS = {
     "id": "ggrmj7r4d",
     "title": "Regional Planning",
     "module": "GGRMJ7R4D",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Local-level planning",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Participatory planning",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "National capital region",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Discuss the meaning and scope of regional development and planning.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Examine the theory of regional development of either Myrdal or Perroux.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Describe various approaches to regional development.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Explain the evolution of regional Planning in India with examples.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "What is multi-level planning? Discuss its significance for development planning in India.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "\"Infrastructure plays key role in regional development\". Explain with suitable examples.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Discuss the patterns of regional development and imbalances in India and identify the factors responsible for them.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 11,
+        "unit": "III",
+        "question": "Critically examine the development planning of either Eastern Uttar Pradesh or North-East India.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 12,
+        "unit": "III",
+        "question": "Scope of regional planning",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 13,
+        "unit": "IV",
+        "question": "Role of participatory approach in regional planning",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 14,
+        "unit": "IV",
+        "question": "Concept of growth pole",
+        "answerKey": "1. **Perroux's Growth Pole Theory (1955)**:\n- States that economic development does not appear everywhere at once, but rather at specific 'growth poles' (centers) with key industries, and eventually diffuses outward.\n- **Trickle-Down Effect**: Spread of growth to surrounding regions through demand for raw materials and labor.\n- **Polarization Effect**: Concentration of capital, skilled labor, and resources from backward regions into the growth center, increasing regional disparity.\n2. **Myrdal's Cumulative Causation**: States that market forces tend to increase regional inequalities rather than decrease them, through backwash and spread effects."
+      },
+      {
+        "id": 15,
+        "unit": "IV",
+        "question": "Concept of regional development",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Evolution of regional planning in India",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 17,
+        "unit": "V",
+        "question": "Discuss the different approaches of regional planning.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 18,
+        "unit": "V",
+        "question": "Explain the concept of multi-level planning with special reference to India.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 19,
+        "unit": "V",
+        "question": "Describe the causes and pattern of regional disparities in India.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 20,
+        "unit": "V",
+        "question": "Discuss the role of industry and transport in regional development.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      }
+    ]
   },
   "ggrmj7r4e": {
     "id": "ggrmj7r4e",
@@ -10112,7 +12840,131 @@ export const EXAMS = {
     "id": "ggrmj83f",
     "title": "Agriculture Geography",
     "module": "GGRMJ83F",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Describe physical factors affecting agriculture.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Explain organic farming and its significance in agriculture.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Discuss various approaches in study of agricultural geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Discuss the meaning and scope of agricultural geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Write a critical essay on commercial farming with suitable example from India.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Discuss the suitable measures for optimum agricultural productivity with example.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Elaborate the evolving patterns of World agricultural regions.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Define agro-climatic regions and relate with crop combination.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "Explain the role of land reforms for agriculture in India with examples.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Discuss the agricultural policies in context to futuristic agriculture.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 11,
+        "unit": "I",
+        "question": "Discuss the nature, scope, and significance of Agricultural Geography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 12,
+        "unit": "I",
+        "question": "Explain the physical and socio-economic determinants of agricultural land use.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "Critically analyze von Th\u00fcnen's model of agricultural location.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 14,
+        "unit": "II",
+        "question": "Discuss the Whittlesey classification of major agricultural regions of the world.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 15,
+        "unit": "III",
+        "question": "Explain the concept of agricultural productivity and techniques to measure it.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 16,
+        "unit": "IV",
+        "question": "Discuss the regional characteristics and problems of subsistence crop farming.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 17,
+        "unit": "IV",
+        "question": "Explain the features, distribution, and problems of plantation agriculture in the tropics.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 18,
+        "unit": "V",
+        "question": "Discuss the concept of agricultural regionalization and its methods.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 19,
+        "unit": "V",
+        "question": "Discuss the environmental impacts of the Green Revolution, including soil degradation and groundwater depletion.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 20,
+        "unit": "III",
+        "question": "Explain the concept of food security and discuss global challenges to food availability.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      }
+    ]
   },
   "ggrmj83g": {
     "id": "ggrmj83g",
@@ -10130,7 +12982,131 @@ export const EXAMS = {
     "id": "ggrmj83i",
     "title": "Fluvial Geomorphology",
     "module": "GGRMJ83I",
-    "comingSoon": true
+    "duration": 60,
+    "type": "theory",
+    "comingSoon": false,
+    "questions": [
+      {
+        "id": 1,
+        "unit": "I",
+        "question": "Uniformitarianism",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 2,
+        "unit": "I",
+        "question": "Kober's view on mountain building",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 3,
+        "unit": "I",
+        "question": "Agricultural practices in the Middle Ganga Plain",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 4,
+        "unit": "I",
+        "question": "Describe the nature and scope of Geomorphology.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 5,
+        "unit": "II",
+        "question": "Critically examine the theories proposed by Airy and Pratt on Isostasy.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 6,
+        "unit": "II",
+        "question": "Describe the views of Wegener's continental drift theory.",
+        "answerKey": "1. **Wegener's Continental Drift Theory (1912)**:\n- Proposed that all landmasses were once joined in a supercontinent called **Pangaea**, surrounded by the ocean **Panthalassa**.\n- Pangaea broke up during the Mesozoic era; fragments drifted to form current continents.\n- **Evidence**: Jigsaw fit of South America and Africa, matching fossil distributions (Mesosaurus, Glossopteris), geological match of rock strata across oceans, and paleoclimatic data (tillites in India/Africa).\n2. **Plate Tectonics Theory**:\n- Describes the earth's lithosphere as broken into major and minor rigid plates floating on the semi-fluid asthenosphere.\n- **Plate Boundaries**:\n  - *Divergent (Constructive)*: Plates move apart, creating mid-ocean ridges and new crust (e.g., Mid-Atlantic Ridge).\n  - *Convergent (Destructive)*: Plates collide, causing subduction and trench formation, or folding to form fold mountains (e.g., Himalayas).\n  - *Transform (Conservative)*: Plates slide past each other, causing strike-slip faulting and earthquakes (e.g., San Andreas Fault).\n3. **Volcanism**: Magma rising through fractures in the crust. Associated primarily with convergent subduction zones (Pacific Ring of Fire) and divergent plate boundaries."
+      },
+      {
+        "id": 7,
+        "unit": "II",
+        "question": "Explain the main factors helping in the development of a river valley.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 8,
+        "unit": "II",
+        "question": "Discuss the development of landforms in an aeolian region.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 9,
+        "unit": "III",
+        "question": "Discuss the types and patterns of drainage.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 10,
+        "unit": "III",
+        "question": "Illustrate the main geomorphic features of the Uttarakhand Himalaya.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 11,
+        "unit": "I",
+        "question": "Discuss the interior structure of the earth based on seismological evidence.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 12,
+        "unit": "I",
+        "question": "Critically examine Wegener's theory of Continental Drift and its evidence.",
+        "answerKey": "1. **Wegener's Continental Drift Theory (1912)**:\n- Proposed that all landmasses were once joined in a supercontinent called **Pangaea**, surrounded by the ocean **Panthalassa**.\n- Pangaea broke up during the Mesozoic era; fragments drifted to form current continents.\n- **Evidence**: Jigsaw fit of South America and Africa, matching fossil distributions (Mesosaurus, Glossopteris), geological match of rock strata across oceans, and paleoclimatic data (tillites in India/Africa).\n2. **Plate Tectonics Theory**:\n- Describes the earth's lithosphere as broken into major and minor rigid plates floating on the semi-fluid asthenosphere.\n- **Plate Boundaries**:\n  - *Divergent (Constructive)*: Plates move apart, creating mid-ocean ridges and new crust (e.g., Mid-Atlantic Ridge).\n  - *Convergent (Destructive)*: Plates collide, causing subduction and trench formation, or folding to form fold mountains (e.g., Himalayas).\n  - *Transform (Conservative)*: Plates slide past each other, causing strike-slip faulting and earthquakes (e.g., San Andreas Fault).\n3. **Volcanism**: Magma rising through fractures in the crust. Associated primarily with convergent subduction zones (Pacific Ring of Fire) and divergent plate boundaries."
+      },
+      {
+        "id": 13,
+        "unit": "II",
+        "question": "Explain the concept of Isostasy as proposed by Pratt and Airy.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 14,
+        "unit": "III",
+        "question": "Discuss the plate tectonics theory, explaining convergent, divergent, and transform boundaries.",
+        "answerKey": "1. **Wegener's Continental Drift Theory (1912)**:\n- Proposed that all landmasses were once joined in a supercontinent called **Pangaea**, surrounded by the ocean **Panthalassa**.\n- Pangaea broke up during the Mesozoic era; fragments drifted to form current continents.\n- **Evidence**: Jigsaw fit of South America and Africa, matching fossil distributions (Mesosaurus, Glossopteris), geological match of rock strata across oceans, and paleoclimatic data (tillites in India/Africa).\n2. **Plate Tectonics Theory**:\n- Describes the earth's lithosphere as broken into major and minor rigid plates floating on the semi-fluid asthenosphere.\n- **Plate Boundaries**:\n  - *Divergent (Constructive)*: Plates move apart, creating mid-ocean ridges and new crust (e.g., Mid-Atlantic Ridge).\n  - *Convergent (Destructive)*: Plates collide, causing subduction and trench formation, or folding to form fold mountains (e.g., Himalayas).\n  - *Transform (Conservative)*: Plates slide past each other, causing strike-slip faulting and earthquakes (e.g., San Andreas Fault).\n3. **Volcanism**: Magma rising through fractures in the crust. Associated primarily with convergent subduction zones (Pacific Ring of Fire) and divergent plate boundaries."
+      },
+      {
+        "id": 15,
+        "unit": "II",
+        "question": "Critically examine Kober's geosynclinal theory of mountain building.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 16,
+        "unit": "II",
+        "question": "Discuss Holmes' thermal convection current theory of mountain building.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 17,
+        "unit": "IV",
+        "question": "Differentiate between endogenetic and exogenetic earth movements with examples.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 18,
+        "unit": "IV",
+        "question": "Describe the cycle of erosion as proposed by William Morris Davis.",
+        "answerKey": "1. **Weathering**: The in-situ disintegration and decomposition of rocks without transport.\n- **Mechanical Weathering**: Physical breakdown. Includes frost action (freeze-thaw cycle), thermal expansion/contraction (exfoliation), and pressure release (sheeting).\n- **Chemical Weathering**: Alteration of mineral composition. Includes carbonation (carbonic acid dissolving limestone), oxidation (rusting of iron-rich minerals), hydrolysis (water reacting with feldspar to form clay), and hydration.\n- **Biological Weathering**: Disintegration caused by plant roots, burrowing animals, and organic acids from lichens/mosses.\n2. **Erosion**: The active wearing away and transportation of rock materials by agents like running water, wind, glaciers, and waves.\n3. **Soil Formation**: Weathering is the first step in soil development, creating the parent material (regolith)."
+      },
+      {
+        "id": 19,
+        "unit": "IV",
+        "question": "Explain the Penckian model of landform development and compare it with Davis' model.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      },
+      {
+        "id": 20,
+        "unit": "V",
+        "question": "Describe the landforms associated with karst (groundwater) topography.",
+        "answerKey": "1. **Core Geographical Analysis**:\n- Examine the spatial patterns, physical processes, and human interactions shaping the geographical feature or region under study.\n2. **Physical and Human Dynamics**:\n- Analyze variables such as climate, geologic forces, and resources, and relate them to human activities, settlement patterns, and economic organizations.\n3. **Verification**:\n- Ensure spatial relationships, map references, and structural hierarchies are consistent, and cross-reference with established geographical models and theories."
+      }
+    ]
   },
   "ggrmj8r1": {
     "id": "ggrmj8r1",

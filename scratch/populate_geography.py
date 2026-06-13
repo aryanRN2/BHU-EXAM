@@ -692,7 +692,7 @@ def main():
     EXAMS = json.loads(js_content[json_start:json_end+1])
 
     # Populate active geography keys
-    print("Populating and padding questions to 50...")
+    print("Populating and padding questions to 20...")
     for unique_key, active_list in UNIQUE_TO_ACTIVE.items():
         raw_qs = raw_questions.get(unique_key, [])
         standard_qs = GEOGRAPHY_SYLLABI.get(unique_key, {}).get("standard_questions", [])
@@ -708,7 +708,7 @@ def main():
 
         # Pad with standard syllabus questions
         std_idx = 0
-        while len(final_questions) < 50 and std_idx < len(standard_qs):
+        while len(final_questions) < 20 and std_idx < len(standard_qs):
             q_text, unit = standard_qs[std_idx]
             q_norm = q_text.lower().strip()
             if q_norm not in seen:
@@ -716,16 +716,16 @@ def main():
                 final_questions.append((q_text, unit))
             std_idx += 1
 
-        # Fallback pad if still fewer than 50
+        # Fallback pad if still fewer than 20
         fallback_idx = 1
         title_text = GEOGRAPHY_SYLLABI.get(unique_key, {}).get("title", unique_key.upper())
-        while len(final_questions) < 50:
+        while len(final_questions) < 20:
             q_text = f"Discuss the spatial distributions, theoretical frameworks, and research methodologies of {title_text} (Part {fallback_idx})."
             final_questions.append((q_text, "V"))
             fallback_idx += 1
 
-        # Slice to exactly 50
-        final_questions = final_questions[:50]
+        # Slice to exactly 20
+        final_questions = final_questions[:20]
 
         # Structure questions array
         formatted_questions = []
@@ -736,8 +736,8 @@ def main():
                 unit = item[1]
             else:
                 q_text = item
-                # Distribute units evenly
-                unit_num = (idx // 10) + 1
+                # Distribute units evenly across the 20 questions (4 per unit)
+                unit_num = (idx // 4) + 1
                 unit_romans = {1: "I", 2: "II", 3: "III", 4: "IV", 5: "V"}
                 unit = unit_romans.get(unit_num, "V")
 

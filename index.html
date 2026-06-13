@@ -208,6 +208,11 @@
                         Old PYQs
                         <span class="absolute bottom-0 left-0 w-full h-0.5 bg-primary rounded-full scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-250"></span>
                     </a>
+                    <a class="text-secondary font-medium hover:text-primary transition-colors duration-200 text-sm relative py-2 group"
+                        href="contributors.html">
+                        Contribution
+                        <span class="absolute bottom-0 left-0 w-full h-0.5 bg-primary rounded-full scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-250"></span>
+                    </a>
                 </div>
             </div>
             <!-- Mobile Menu Toggle Button -->
@@ -232,8 +237,11 @@
             <a class="text-secondary font-semibold text-base hover:text-primary transition-colors border-b border-border-subtle pb-2.5" href="nep-pyq.html">
                 NEP PYQs
             </a>
-            <a class="text-secondary font-semibold text-base hover:text-primary transition-colors pb-1" href="legacy-pyq.html">
+            <a class="text-secondary font-semibold text-base hover:text-primary transition-colors border-b border-border-subtle pb-2.5" href="legacy-pyq.html">
                 Old PYQs
+            </a>
+            <a class="text-secondary font-semibold text-base hover:text-primary transition-colors pb-1" href="contributors.html">
+                Contribution
             </a>
         </div>
     </div>
@@ -457,14 +465,16 @@
                     </div>
                 </div>
 
-                <div
-                    class="md:col-span-3 bento-card glass-panel rounded-2xl p-6 flex flex-col justify-between min-h-[200px]">
-                    <div class="flex items-baseline gap-2">
-                        <span class="text-3xl md:text-4xl font-bold text-primary stat-glow tracking-tight">Daily Audits</span>
-                    </div>
+                <div onclick="window.location.href='syllabus.html'"
+                    class="md:col-span-3 bento-card glass-panel rounded-2xl p-6 flex flex-col justify-between group hover:bg-white/60 transition-colors min-h-[200px] cursor-pointer">
+                    <span
+                        class="material-symbols-outlined text-primary text-3xl group-hover:scale-110 transition-transform duration-300">menu_book</span>
                     <div>
-                        <p class="text-xs font-bold text-secondary uppercase tracking-widest mb-1">Accuracy Promise</p>
-                        <p class="text-[11px] sm:text-xs text-secondary leading-relaxed">We actively refine our solution keys every day. While not yet perfect, we iterate constantly to achieve maximum precision.
+                        <div
+                            class="inline-flex items-center gap-1.5 bg-accent-neural-blue/10 text-accent-neural-blue text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider mb-2">
+                            Curriculum</div>
+                        <h4 class="text-lg font-bold text-primary mb-1 leading-snug">Official Syllabus</h4>
+                        <p class="text-xs text-secondary leading-relaxed">Access official university syllabus, papers, course credits & course structures.
                         </p>
                     </div>
                 </div>

@@ -1,0 +1,1014 @@
+{
+  "department": "Department of Physics",
+  "university": "Banaras Hindu University",
+  "programme": "B.Sc. (Hons.) Physics",
+  "semesters": [
+    {
+      "semester": 1,
+      "papers": [
+        {
+          "code": "PHYMD11",
+          "name": "Physics in Everyday Life",
+          "credits": 3,
+          "course_type": "Multidisciplinary",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Motion and Fluids Skating and effect of forces, Use of Ramps in day-to-day life, Seesaw and Merry-go-round, Bumping Cars at the Mall, Roller Coasters, Bicycles, Launch of Spacecrafts, Orbits, Switching orbits. Air pressure, Gas (hot air) Balloons, Buoyancy, Water distribution from Overhead Tank, Using hoses for cleaning and gardening, Flow of blood in veins, Aerodynamics of balls (cricket and golf), Airplanes."
+            },
+            {
+              "unit": 2,
+              "topics": "Heat Celsius, Kelvin and Fahrenheit, Thermometer, Heat transfer (conduction, convection and radiation), Solid, Liquid and Gas (example of water and concept of Latent Heat), Pressure cooking, Staying warm in extreme colds, Air canditinnar"
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ11",
+          "name": "Mechanics & General Properties of Matter",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Fundamentals: Motion of a particle under an external force, conservative and non- conservative forces, work done by a non- conservative force, law of conservation of energy. Frames of references: Inertial and non-inertial frames, Transformation equations (Inclined and Rotating frames), Centrifugal and Coriolis force, Effect of centrifugal and Coriolis force due to earth rotation. Gravitation : Motion of a particle under gravitational force, inertial and gravitational mass, gravitational potential, and fields due to a spherical shell and a solid sphere."
+            },
+            {
+              "unit": 2,
+              "topics": "System of particles : Dynamics of a system of particles subject to external forces, Centre af mace lahnrataryw frama and rantra af mace"
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ12",
+          "name": "Physical Laboratory I",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "1. To determine the Stefans constant. 2. To study the forward/reverse characteristics of the PN junction diode 3. To determine the modulus of rigidity of a wire using Maxwell's needle method. 4. To study series resonant L. C. R. circuits. 5. To determine the Youngs modulus of the material of a metallic bar by bending of beam method. 6. To determine the acceleration due to gravity using the compound pendulum."
+            },
+            {
+              "unit": 2,
+              "topics": "1. To determine the focal length of a combination of lenses 2. To determine the modulus of rigidity using Bartrons apparatus. 3. To determine the viscosity of liquid using Poiseuilles method."
+            }
+          ]
+        },
+        {
+          "code": "PHYMN11",
+          "name": "Mechanics & General Properties of Matter",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Fundamentals: Motion of a particle under an external force, conservative and non- conservative forces, work done by a non- conservative force, law of conservation of energy. Frames of references: Inertial and non-inertial frames, Transformation equations (Inclined and Rotating frames), Centrifugal and Coriolis force, Effect of centrifugal and Coriolis force due to earth rotation. Gravitation : Motion of a particle under gravitational force, inertial and gravitational mass, gravitational potential, and fields due to a spherical shell and a solid sphere."
+            },
+            {
+              "unit": 2,
+              "topics": "System of particles : Dynamics of a system of particles subject to external forces, Centre af mace lahnrataryw frama and rantra af mace"
+            }
+          ]
+        },
+        {
+          "code": "PHYMN12",
+          "name": "Physics Laboratory-I",
+          "credits": 1,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "1. To determine the Stefans constant. 2. To study the forward/reverse characteristics of the PN junction diode 3. To determine the modulus of rigidity of a wire using Maxwell's needle method. 4. To study series resonant L. C. R. circuits. 5. To determine the Youngs modulus of the material of a metallic bar by bending of beam method. 6. To determine the acceleration due to gravity using the compound pendulum."
+            },
+            {
+              "unit": 2,
+              "topics": "1. To determine the focal length of a combination of lenses 2. To determine the modulus of rigidity using Bartrons apparatus. 3. To determine the viscosity of liquid using Poiseuilles method."
+            }
+          ]
+        },
+        {
+          "code": "PHYSE11",
+          "name": "Mathematical Problem Solving Skills",
+          "credits": 3,
+          "course_type": "Skill Enhancement",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Functions: Linear, quadratic, trigonometric, exponential and logarithmic functions, visualization and graph plotting; graphical method to find the roots; functions of more than one variables, partial derivatives, maxima and minima."
+            },
+            {
+              "unit": 2,
+              "topics": "Taylor series: Taylor series for elementary functions (e.g., exponential, trigonometric), applications of Taylor series. Numerical methods: Roots of transcendental equations using Bi-section and Newton- Raphson methods."
+            },
+            {
+              "unit": 3,
+              "topics": "Differential equations: Techniques for solving first-order ODEs: integrating factors; Introduction to higher order and partial differential equations."
+            },
+            {
+              "unit": 4,
+              "topics": "Vector Calculus: Vectors in two and three dimensions, concept of Gradient, Divergence and Curl with examples."
+            },
+            {
+              "unit": 5,
+              "topics": "Probability theory: Concepts of probability, probability density functions, normalization, mean and variance, examples of Gaussian and Maxwells distribution of speeds."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "papers": [
+        {
+          "code": "PHYMD21",
+          "name": "Indian Contributions in Physical Science: Ancient to Modern",
+          "credits": 3,
+          "course_type": "Multidisciplinary",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Beginnings of Indian Science: Harappan astronomy and technology, physics and astronomy in the Vedas: Shatapatha Brahmana and Taittiriya Samhita , Sulba Sutras : Baudhayana and growth of geometry, decimal system, Bakshali manuscript and invention of the zero, concept of large and small numbers and scales; Shankhya and Vaisheshik Shastras , Bhagavata Purana."
+            },
+            {
+              "unit": 2,
+              "topics": "Golden period of Hindu Science: Aryabhata and the heliocentric hypothesis, Varahamihira, Brahmagupta, Sridhara and Bhaskara, Surya siddhanta , Jain science, Kerala school of mathematics, Sawai Jai Singh and late Hindu astronomy, LaaAliaw aanlawalaun anal avan"
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ21",
+          "name": "Thermal Physics",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Thermodynamics: Brief revision of the Zeroth law and the First law of thermodynamics, quasistatic, reversible and irreversible processes, work done in isothermal and adiabatic processes, Carnots cycle and Carnots theorem, the Second law of thermodynamics, The thermodynamic temperature scale."
+            },
+            {
+              "unit": 2,
+              "topics": "Entropy: Entropy as a thermodynamic variable, Entropy change in reversible and irreversible processes. Entropy and disorder, Principle of increase of entropy, Entropy and unavailable energy, Entropy of ideal gases, S-T diagram."
+            },
+            {
+              "unit": 3,
+              "topics": "Thermodynamic functions and Applications : Internal energy, Enthalpy, Helmholtz free enerav. and Gibbs free enerav. Maxwell"
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ22",
+          "name": "Physical Laboratory II",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "1. To determine the Stefans constant. 2. To study the forward/reverse characteristics of the PN junction diode 3. To determine the modulus of rigidity of a wire using Maxwell's needle method. 4. To study series resonant L. C. R. circuits. 5. To determine the Youngs modulus of the material of a metallic bar by bending of beam method. 6. To determine the acceleration due to gravity using the compound pendulum."
+            },
+            {
+              "unit": 2,
+              "topics": "1. To determine the focal length of a combination of lenses 2. To determine the modulus of rigidity using Bartrons apparatus. 3. To determine the viscosity of liquid using Poiseuilles method."
+            }
+          ]
+        },
+        {
+          "code": "PHYMN21",
+          "name": "Thermal Physics",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Thermodynamics: Brief revision of the Zeroth law and the First law of thermodynamics, quasistatic, reversible and irreversible processes, work done in isothermal and adiabatic processes, Carnots cycle and Carnots theorem, the Second law of thermodynamics, The thermodynamic temperature scale."
+            },
+            {
+              "unit": 2,
+              "topics": "Entropy: Entropy as a thermodynamic variable, Entropy change in reversible and irreversible processes. Entropy and disorder, Principle of increase of entropy, Entropy and unavailable energy, Entropy of ideal gases, S-T diagram."
+            },
+            {
+              "unit": 3,
+              "topics": "Thermodynamic functions and Applications : Internal energy, Enthalpy, Helmholtz free energy, and Gibbs free energy, Maxwell thermodynamical relations and their applications. TdS eauations. Criteria of"
+            }
+          ]
+        },
+        {
+          "code": "PHYMN22",
+          "name": "Physics Laboratory-II",
+          "credits": 1,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "1. To determine the Stefans constant. 2. To study the forward/reverse characteristics of the PN junction diode 3. To determine the modulus of rigidity of a wire using Maxwell's needle method. 4. To study series resonant L. C. R. circuits. 5. To determine the Youngs modulus of the material of a metallic bar by bending of beam method. 6. To determine the acceleration due to gravity using the compound pendulum."
+            },
+            {
+              "unit": 2,
+              "topics": "1. To determine the focal length of a combination of lenses 2. To determine the modulus of rigidity using Bartrons apparatus. 3. To determine the viscosity of liquid using Poiseuilles method."
+            }
+          ]
+        },
+        {
+          "code": "PHYSE21",
+          "name": "Energy Conversion and Storage for Sustainable Development",
+          "credits": 3,
+          "course_type": "Skill Enhancement",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Energy Conservation and Storage: Introduction to energy conservation technologies. Overview of energy storage systems, Importance of sustainable development and renewable energy."
+            },
+            {
+              "unit": 2,
+              "topics": "Energy Conversion Technologies: Photovoltaic systems and solar panels, Wind turbines and wind energy conversion systems, Bioenergy technologies, Hydropower technologies, and Geothermal power generation. Energy Storage Technologies: Basics of secondary batteries, electrodes for secondary batteries, battery technologies and awnwnliantianan LihucAleananw abavcanan anal Casal aAAalla"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 3,
+      "papers": [
+        {
+          "code": "PHYMD31",
+          "name": "Historical Developments of Physical Science",
+          "credits": 3,
+          "course_type": "Multidisciplinary",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Beginnings of Physical Science in the Ancient World: Neolithic period, early developments in ancient Egypt, Chaldaea, Iran, India and China, Greek science: Pythagoras, Thales, Empedocles, Plato, Aristotle, Ptolemy and Aristarchus of Samos, doctrine of four elements, atomism in Greece and India, motion paradox of Zeno, Lucretius and Pliny, Archimedes, Eratosthenes, invention of the zero, development of trigonometry in India, Julian calendar, John Philoponus."
+            },
+            {
+              "unit": 2,
+              "topics": "Physical Science in the Mediaeval World: dark ages in Europe and India, the Venerable Bede, Roger Bacon, Albertus Magnus, Ockhams razor, Buridans theory of impetus, CPunanauian anlanalau lAlannian naatanan. al_Diusint"
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ31",
+          "name": "Wave & Wave Optics",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Oscillation & Waves: Oscillation and concept of phase. Difference between oscillation and waves, characteristics of waves (energy, intensity, and their representation in terms of amplitude), progressive waves, Differential equation of wave motion, Plane waves in 3- Dimentions, superposition of waves, stationary waves, Concept of wave-fronts, phase velocity and group velocity."
+            },
+            {
+              "unit": 2,
+              "topics": "Wave optics: Nature of light: Elementary ideas of e.m. theory of light, wave-particle duality. Characteristics of a light wave. Fresnel reflection and transmission coefficient. Basic idea about: coherence, coherence length, coherence time, bandwidth, mono- chromaticity, and temporal and spatial coherence."
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ32",
+          "name": "Physics of Semiconductors and Devices",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Physics of Semiconductors: Physical basis for band formation in solids and difference between metal, insulator and semiconductor. Intrinsic and extrinsic semiconductors, Fermi-Dirac distribution, Fermi level, Concept of effective mass, density of states. Thermal generation and recombination of electron hole pairs. Einsteins relation between mobility and diffusion. Drift and diffusion currents."
+            },
+            {
+              "unit": 2,
+              "topics": "P-N junction and Zener diode: Depletion width and potential barrier, Diode equation, junction capacitance, I-V characteristics. Application of P-N junction diode as Rectifiers, ripple factor, Passive filbauan"
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ33",
+          "name": "Physical Laboratory III",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "1. Newtons Ring (Determination of wavelength of monochromatic source) 2. Diffraction grating (Determination of wavelength of monochromatic source using spectrometer) 3. Determination of specific rotation of cane sugar (polarimeter) 4. Andersons bridge (determination of self inductance) 5. Phase shift measurement (C-R; L-R; L-C-R) 6. Plancks Constant (using different filters) 7. Polarization using Wave-plate"
+            },
+            {
+              "unit": 2,
+              "topics": "1. Fresnels biprism (Determination of wavelength of monochromatic source) 2. Resolving power of grating 3. Diffraction by thin wire (measurement of thickness) 4. To determine Mutual inductance of a pair of coils 5. Input and output characteristics of P-N-P transistor 6. Fourier analysis (square, triangle and half wave) 7. Measurement of Energy band gap of a semiconductor (P-N Diode) Extra 1. Malus Law (polarization) 2. Lloyds Mirror Experiment"
+            }
+          ]
+        },
+        {
+          "code": "PHYMV31",
+          "name": "Applied Electronics and Fiber Optics",
+          "credits": 3,
+          "course_type": "Minor (VOC)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Electronics measurement tools: Conversion of Galvanometer to Voltameter/ Ammeter and their uses. Multimeters and their types, features and components. Practical applications of multimeters in electrical troubleshooting. Safety precautions when using a multimeter. LCR meter, Signal measurement by CRO and DSO. Calibration techniques of electronic instruments and error analysis."
+            },
+            {
+              "unit": 2,
+              "topics": "Basic electronic components: Active and passive electronic components, transformer, basic of semiconductors, working principle of semiconductor diodes, applications of diodes in rectification, reverse current protection and switching, Zener diodes and voltage regulation. Bipolar Junction Transistor (BJT) and their applications, Operation of n-p-n and p-n-p transistors, Biasing of BJT. Introduction to LED, Photodiode, FET, JFET, MOSFET, CMOS and VMOS."
+            },
+            {
+              "unit": 3,
+              "topics": "Fiber optics communication: Basic concepts of optical fibers and their structure. Types of optical fibers (single-mode and multi-mode). Signal propagation and losses in optical fibers. Laser and its application in communication. Study of optical fiber tools (OTDR, OSA, Power meter, Stripper, Splicer, fiber coupler and detectors)"
+            }
+          ]
+        },
+        {
+          "code": "PHYMV32",
+          "name": "Minor Vocational Laboratory-1",
+          "credits": 1,
+          "course_type": "Minor (VOC)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "1. Conversion of Galvanometer to Voltmeter and Ammeter 2. Construction and Response Analysis of a Parallel Resonance Circuit Using Soldering Techniques. 3. Design of a Regulated Power Supply using Zener Diode. 4. Estimation of Gain and Bandwidth in RC- Coupled Common Emitter (CE) Amplifier. 5. Study of Bending Loss and Splicing Loss in Single-Mode and Multi-Mode Optical Fiber. 6. Study of Electrical and Optical Characteristics of Light Emitting Diodes (LEDs) and PIN Photodetector."
+            }
+          ]
+        },
+        {
+          "code": "PHYSE31",
+          "name": "Computational Physics: Programming and Data Analysis",
+          "credits": 3,
+          "course_type": "Skill Enhancement",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Python Programming Introduction to Python: Why Python?, Setting up the environment: Anaconda, Jupyter Notebook, Python syntax, variables, and data types, Basic operations and expressions; Conditional statements: if, elif, else; Loops: for, while; Functions: defining, calling, and scope; Lists, tuples, and sets; Dictionaries: key-value pairs; Strings: operations and methods; Working with files: reading from and writing to files, SciPy for scientific computing."
+            },
+            {
+              "unit": 2,
+              "topics": "Data Handling & Manipulation Overview of Python libraries for data analysis: NumPy, Pandas, Matplotlib, Seaborn, Installing and importing libraries, Introduction ba RAliewn Dae Avenir A eeans Am Avatianans tnalarsinan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 4,
+      "papers": [
+        {
+          "code": "PHYMJ41",
+          "name": "Electromagnetic theory & Special Theory of Relativity",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Vector Calculus: Concept of gradient, divergence and curl operators; Gradient, Gauss divergence, Stokes theorem and related problems."
+            },
+            {
+              "unit": 2,
+              "topics": "Electrodynamics : Concept and charge and current densities, Electrostatics, Coulomb and Gauss Law(Divergence and curl of electrostatic field ), Magnetostatics, Ampere's law(Divergence and curl of magnetostatic field); Electrodynamics: Concept of electromotive force and electric field, Faradays law of electromagnetic induction, Generalized Ampere's law and the concept of Displacement current awa thn AltA Rf AAR AA DA abiaw Af aawntinssihs"
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ42",
+          "name": "Mathematical Physics-I",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Curvilinear Coordinates: Orthogonal curvilinear coordinates, differential operators (without derivations), concept of a metric, spherical and cylindrical coordinates and their unit vectors."
+            },
+            {
+              "unit": 2,
+              "topics": "Tensors: Introduction to tensors, cartesian, covariant, contravariant and mixed tensors, contractions and direct products. Examples: symmetric, anti-symmetric, isotropic, and pseudo tensors."
+            },
+            {
+              "unit": 3,
+              "topics": "Matrices: Orthogonal, Hermitian, and unitary matrices, inverse of a matrix, (orthogonal) similarity transformations, eigen value problems and diagonalization of matrices (Examples of non- deaenerate and deaenerate cases)."
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ43",
+          "name": "Computational Physics",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Computers and Programming: 1. Computer architecture overview 2. Programming Languages: Compiled (Fortran, C) vs. interpreted languages (python) 3. Representation on a computer: Integer representation, floating-point representation, Machine precision 4. Errors in Computation 5. Programming and visualization"
+            },
+            {
+              "unit": 2,
+              "topics": "Numerical Methods: 1. Data Analysis (Random Variables, Random number Generator, Moment calculations) 2. Polynomial data fitting 3. Root finding 4. Numerical Differentiation and Interpolation 5. Numerical Integration 6. Differential Eauations"
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ44",
+          "name": "Physical Laboratory IV",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "1. Newtons Ring (Determination of wavelength of monochromatic source) 2. Diffraction grating (Determination of wavelength of monochromatic source using spectrometer) 3. Determination of specific rotation of cane sugar (polarimeter) 4. Andersons bridge (determination of self inductance) 5. Phase shift measurement (C-R; L-R; L-C-R) 6. Plancks Constant (using different filters) 7. Polarization using Wave-plate"
+            },
+            {
+              "unit": 2,
+              "topics": "1. Fresnels biprism (Determination of wavelength of monochromatic source) 2. Resolving power of grating 3. Diffraction by thin wire (measurement of thickness) 4. To determine Mutual inductance of a pair of coils 5. Input and output characteristics of P-N-P transistor 6. Fourier analysis (square, triangle and half wave) 7. Measurement of Energy band gap of a semiconductor (P-N Diode) Extra 1. Malus Law (polarization) 2. Lloyds Mirror Experiment"
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ45",
+          "name": "Computer Laboratory",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Experiments 1. Polynomial data fitting 2. Root finding 3. Differential Equations 4. Numerical Integration 5. Linear Algebra: Eigen value Problems 6. Optimization Techniques"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 5,
+      "papers": [
+        {
+          "code": "PHYIN51",
+          "name": "Internship",
+          "credits": 2,
+          "course_type": "Internship",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "[Students can do internship after first to fourth semester during summer vacation]"
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ51",
+          "name": "Quantum Mechanics-I",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Birth of Quantum Mechanics: Brief discussions on photoelectric effect, Compton effect and hydrogen spectra. de Broglie hypothesis, wave-particle duality, double slit experiment, uncertainty principle, Schrdinger equation, Wave function, Normalization, Probability current density and conservation of probability, Statistical interpretation."
+            },
+            {
+              "unit": 2,
+              "topics": "Wave mechanics: Time independent Schrdinger equation, stationary states, general solution of time dependent Schrdinger equation, problems of infinite square well, free particle, wave packet, group velocity and phase velocity, finite square well and finite barrier, tunneling, delta function well, harmonic oscillator."
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ52",
+          "name": "Classical Mechanics-I",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Lagrangian formulation: System of particles, Constraints, Degrees of freedom, Generalized coordinates, Virtual displacement, D'Alemberts principle and Lagrange's equation, Velocity dependent potential of electro-magnetic field. Variational principle, Hamilton's principle, Euler- Lagrange's equation, Lagrangian for simple systems, Lagrangian for a relativistic particle, Cyclic coordinates, symmetries and conservation laws. Advantages of Lagrangian: electro- mechanical analogies, Raleigh Dissipation function, Lagrange's undetermined multipliers, Lagrange's equation for non-holonomic systems, Virial theorem, Principle of mechanical similaritv."
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ53",
+          "name": "Statistical Mechanics-I",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Elementary Probability Theory: Random walk problem, Probability distributions, moments of distributions (mean and dispersion) Central limit theorem, examples and related problems."
+            },
+            {
+              "unit": 2,
+              "topics": "Basic concepts of statistical physics and applications: Phase space, Density of states, Liouville's theorem, Ergodicity, Postulates of statistical mechanics, microstates and macrostates, microcanonical ensembles, relation between statistical and thermodynamic parameters, classical ideal gas, Gibbs paradox. Canonical ensemble, Partition function, thermodynamic functions, fluctuations, Examples: classical ideal gas, Harmonic oscillator, Lanaevin baramaanetism. statistical"
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ54",
+          "name": "Physics Laboratory-V",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "1. Magnetic susceptibility measurement. 2. Measurement of Cauchys constants. 3. Measurement of Hall coefficient and carrier density. 4. Geiger-Mller counter characteristics. 5. Design of Zener regulated power supply. 6. SCR characteristics and its use as a phase control rectifier. 7. Experiment on negative feedback. 8. Characteristics of FET and its application as amplifier. 9. Experiments on operational amplifier."
+            },
+            {
+              "unit": 2,
+              "topics": "1. Characteristics of MOSFET and its application as an amplifier. 2. Characteristics of UJT and its application as a relaxation oscillator. 3. Positive feedback- Hartlev and phase shift"
+            }
+          ]
+        },
+        {
+          "code": "PHYMV51",
+          "name": "Hands-on Training on Tooling, Welding, Electronics, Instrumentation and Machine shop",
+          "credits": 3,
+          "course_type": "Minor (VOC)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Types of tool Basic Hand tools (hammers, hacksaw, file, torsion tools, etc.), Semi-precision measurement tools, Precision measurement tools (Vernier calipers, micrometer, etc.), Power tools (drills, saw, grinders, sander, etc.), Hydraulic and Pneumatic tools, Health and safety practices, Hands-on training and DIY projects."
+            },
+            {
+              "unit": 2,
+              "topics": "Basic Electronics Study of different electronic components: Resistance, capacitance, inductor, diode, LED display devices, transistor, electromagnetic"
+            }
+          ]
+        },
+        {
+          "code": "PHYMV52",
+          "name": "Minor Vocational Laboratory",
+          "credits": 1,
+          "course_type": "Minor (VOC)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Any five experiments 1. Measurements with Multimeter, Clampmeter, and Wattmeter. 2. Make Car battery jumper cables. 3. Solder wires together, alligator clips, and connectors. 4. Soldering/de-soldering of resistors, capacitors, and ICs in PCBs. 5. Assembling BNC cables. 6. Spot weld wire to wire. 7. Welding of tee joints. 8. Temperature sensor using thermocouples. Experiments will be added or deleted periodically"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 6,
+      "papers": [
+        {
+          "code": "PHYMJ61",
+          "name": "Electronic circuits and Analysis",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Superposition, Thevenin, Norton and Maximum Power Transfer Theorems, Network elements, Network graphs, Nodal and Mesh analysis. Two-port network parameters: Z, Y, and h parameters."
+            },
+            {
+              "unit": 2,
+              "topics": "Hybrid parameter model of transistor, analysis of transistor amplifier (with and without RS and RL) using h- parameters, AC circuit analysis, Transient analysis, Zero and Poles, Bode Plots, Simplified hybrid model. Single stage amplifier in CE, CB and CC modes. RC coupled CE amplifier and its frequency response."
+            },
+            {
+              "unit": 3,
+              "topics": "Tuned voltage amplifiers. Power amplifier and ite claccifiratinn dictartinn and"
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ62",
+          "name": "Solid State Physics",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Lattice Vibrations: Vibrational modes of continuous medium."
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ63",
+          "name": "Atomic, Molecular and Laser Physics",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Atomic Physics: Brief review of Bohr and Sommerfeld model of atom. Effect of finite nuclear mass in Hertz and Stern Gerlach experiments Significance of four quantum numbers and concept of atomic orbitals."
+            },
+            {
+              "unit": 2,
+              "topics": "One valence electron atom: Orbital magnetic dipole moment, Orbital, spin and total angular momenta, Larmor precession, Vector model of atom, Electronic configuration and atomic states, Spin- orbit interaction and fine structure, Intensity of spectral lines, General selection rules, Lamb shift and Retherford experiment, Hyperfine structure of lines Two valence electron atoms LS and JJ coupling schemes and resulting spectra. Snactraecnnic tarme af anitivalant and nan"
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ64",
+          "name": "Nuclear & Particle physics",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction of Nucleus: Properties of Nuclei: Mass, Charge, Size, Constituent of nuclei, Binding energy, Separation energy, Chart of Nuclei; Spin and Parity, Magnetic Dipole Moment. Properties of Nuclear Force: Saturation, Strong, Short range, Spin dependence, charge independence. Models: Liquid Drop Model, Bethe-Weizsaecker Mass formula, Stability of nuclei, Basic idea of Shell model."
+            },
+            {
+              "unit": 2,
+              "topics": "Nuclear Decay Processes: Basics of nuclear decay: Types of nuclear decay, Decay laws and radioactivity, Half-life and Mean life time. Alpha decay: Energy spectrum, Q-value, Gamaure thanry af alnha daravw"
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ65",
+          "name": "Soft Matter Physics",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to interactions, structure and phase transition in soft matter: Intermolecular forces, Concepts of broken symmetry, rigidity, and long-wavelength fluctuations. Order parameter, structure factor, density correlation functions, Basics of phase transition (1st and 2nd order), gas-liquid transition."
+            },
+            {
+              "unit": 2,
+              "topics": "Soft Matter Systems: Liquid crystals: Introduction, liquid crystal phases and transitions, Distorted nematic ordering, response to electric and magnetic fields, Topological defects. Polymers: Model systems and chain statistics, polymers in solvents and melts, coil- globule transition, visco-elasticity, gelation. Colloids: Stability of colloidal systems, Poisson-Boltzmann theory, DLVO theory, Depletion interactions, Electro-kinetic effects."
+            },
+            {
+              "unit": 3,
+              "topics": "Diffusion processes: Fick@s laws, Diffusion Equation, Random walks, Brownian motion, Langevin and Fokker-Plank equations"
+            },
+            {
+              "unit": 4,
+              "topics": "Elasticity in soft matter: Classical theory, stress tensor, generalized elasticity, elastic- free energies for nematics, smectics, membranes, rubber elasticity in polymers"
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ66",
+          "name": "Space Physics",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Positional Astronomy: Astronomical Coordinate Systems, measurement of astronomical parameters (mass, radius, time, distance, luminosity measurements), Solar and Sidereal day, Optical telescopes and designs. Detection method of radio-wave, X-ray, gamma-ray, gravitational wave."
+            },
+            {
+              "unit": 2,
+              "topics": "The Sun: Structure of the Sun: Solar interior, solar atmosphere; Solar structures, Sun spots and their properties, Prominences, Solar Flares; CME, Solar cycle, Solar magnetic field; Solar Wind: Properties of solar wind, Magnetic field frozen into solar wind, Heliosphere. IIl The Planets and Earth: Defining planets; Terrestrial planets. Giant planets: Minor"
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ67",
+          "name": "Physics Laboratory-VI",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "1. Magnetic susceptibility measurement. 2. Measurement of Cauchy@s constants. 3. Measurement of Hall coefficient and carrier density. 4. Geiger-M ?ller counter characteristics. 5. Design of Zener regulated power supply. 6. SCR characteristics and its use as a phase control rectifier. 7. Experiment on negative feedback. 8. Characteristics of FET and its application as amplifier. 9. Experiments on operational amplifier."
+            },
+            {
+              "unit": 2,
+              "topics": "1. Characteristics of MOSFET and its application as an amplifier. 2. Characteristics of UJT and its application as a relaxation oscillator. 4. Positive feedhack- Hartlev and nhase shift"
+            }
+          ]
+        },
+        {
+          "code": "PHYMV61",
+          "name": "Artificial Intelligence and Machine learning",
+          "credits": 4,
+          "course_type": "Minor (VOC)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Artificial Intelligence Definition and history of Al, Different Al applications and use cases, Overview of Al subfields (Machine Learning, Natural Language Processing, Computer Vision, etc.), Essential Mathematics for Al."
+            },
+            {
+              "unit": 2,
+              "topics": "Python for Al Introduction to Jupyter Lab for interactive coding, Python basics and data structures, Working with libraries: NumPy, SciPy, and Pandas. Plotting Tools: Matplotlib and Seaborn IIl Machine Learning Fundamentals Understanding supervised, unsupervised, and reinforcement learning, Regression and classification algorithms, Evaluating model narfarmancra Intradiictian ta Ceilcit-laarn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 7,
+      "papers": [
+        {
+          "code": "PHYMJ71",
+          "name": "Classical Mechanics-Il",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Rigid body dynamics: Degrees of freedom of a free rigid body, Angular momentum and kinetic energy of a rigid body, Moment of inertia tensor, Eigen values of inertia tensor, principal moments of inertia, products of inertia, The kinematics of rigid body motion, Euler angles, infinitesimal rotations, rigid body equations of motion, Spherical top, Symmetric, Precession of equinoxes and of satellite orbits"
+            },
+            {
+              "unit": 2,
+              "topics": "Non-linear dvnamics:"
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ710",
+          "name": "Physics Laboratory- B",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "1. Design of CE Amplifier 2. Experiment with Differential Amplifier 3. Experiment with Operational Amplifier 4. Transmission Line Trainer 5. Combinational Logic 6. Design of a Regulated Power Supply 7. Multivibrators using CE Amplifier 8. Experiment with Timer (IC-555) 9. Application of Operational Amplifier 10. Counter and Shift Register"
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ711",
+          "name": "Physics Laboratory-C",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "1. Matrix Algebra 2. Bisection method for finding roots 3. Newton - Raphson method for finding roots 4. Simpson - 1/3 rule of Integration 5. Least-squares fit"
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ72",
+          "name": "Mathematical Physics- II",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Theory of Functions of a Complex Variable: Analyticity and Cauchy-Riemann Conditions, Cauchys integral theorem and formula, Taylor series and Laurent series expansion, Zeros and singular points, Multivalued functions, Branch Points and Cuts, Riemann Sheets and surfaces, Residues, Residue theorem, Jordans Lemma, evaluation of definite integrals, Cauchy principal value, dispersion relations (Kramers-Kroenig relations)."
+            },
+            {
+              "unit": 2,
+              "topics": "Integral Transforms: Fourier Transform: Fourier Integral, Sine, Cosine and Complex transforms with examples, Fourier Inverse Transform. Definition, Properties and Representations of Dirac Nalta Fiinctinn Dranartiac anf Fantiriar"
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ73",
+          "name": "Quantum Mechanics-Il",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Linear Vector Space and Representation Theory: Linear vector space and Hilbert space, Dirac Bra - Ket notation, Representations: operator and matrix methods, Matrix representation of Observables and states, Determination of eigenvalues and eigenstate for observables using matrix representations, Schwartz inequality and Gram-Schmidt orthogonalization, Measurement, observables and uncertainty relations, Change of basis and unitary transformations, Coordinate and momentum representations."
+            },
+            {
+              "unit": 2,
+              "topics": "Theory of Angular Momentum: Symmetry, invariance and conservation laws, relation between rotation and angular momentum, commutation rules, Matrix reoresentations. addition of anaular momenta"
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ74",
+          "name": "Advanced Topics in Integrated Circuits, Digital Systems, Embedded Architectures, and Antenna",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Integrated Circuits and Fabrication: Semiconductor surfaces and Metal/ Semiconductor Contact, MOS (Capacitor, Accumulation, Depletion and Inversion). Fabrication of ICs (Planar, Monolithic, Active and Passive Including MOS)."
+            },
+            {
+              "unit": 2,
+              "topics": "Timer (IC-555): Internal Structure (Block Diagram) Operation, Astable, Monostable and Applications. Op-Amp (IC-741): Internal Structure (Block Diagram) Slew Rate, Frequency Response and Compensation, Applications (Linear and Non- Linear)."
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ75",
+          "name": "Nano Science and Technology",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Nanoparticles: Synthesis and Properties: Method of Synthesis: RF Plasma, Chemical Methods, Pulsed Laser Methods, Biological Methods: Synthesis using micro-organisms, Metal Nanoclusters, Magic Numbers, Modeling of Nanoparticles, Bulk to Nano Transitions."
+            },
+            {
+              "unit": 2,
+              "topics": "Carbon Nanostructures: Nature of Carbon Clusters, Discovery and structure of C 60, Superconductivity in C60, Carbon Nanotubes: Synthesis, Structure, Electrical and Mechanical Properties. Graphene: Discovery, Synthesis and Structural Characterization through TEM, Elementary Concept of its applications. Other 2D materials: evnthacic and nranartiac"
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ76",
+          "name": "Advanced Molecular Spectroscopy",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Rotational spectra: Rotational symmetry of molecules; rotational spectra of linear, symmetric top, spherical and asymmetric top molecules; rotational selection rules for linear molecules; effect of nuclear spin on the rotational spectra."
+            },
+            {
+              "unit": 2,
+              "topics": "Vibrational Spectra: Vibrational spectra of a diatomic molecule as a harmonic and anharmonic oscillator; vibrational-rotational (IR and Raman) spectra of linear and symmetric top molecules."
+            },
+            {
+              "unit": 3,
+              "topics": "Electronic Spectra: Electronic transitions; Basics of Absorption, Fluorescence and Phosphorescence; Jablonski diagram; A brief discussion of molecular states; The Franck- Condon principle; Dissociation energy. Vihranic intaractinn and Harzvhara Tallar"
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ77",
+          "name": "Nuclear Models and Reactions",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Nuclear Models: Shell Model: Properties of Single particle states, Energy, spin and parities, Population of excited states in nuclei, Qualitative discussion and estimates of reduced transition rates, Magnetic moments and Schmidt Lines. Collective Model: Bohrs Collective model for even-even spherical, collective vibrational and rotational excitations."
+            },
+            {
+              "unit": 2,
+              "topics": "Nuclear Force and Nuclear Reactions: Nuclear Force: Deuteron problem, Tensor force, S and D states, Neutron-Proton and proton-proton scattering, Effective range theory, Spin-dependence of nuclear forces, Charge indanandancra and charna esmmatrv af"
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ78",
+          "name": "Plasma Astrophysics and Physics of Interstellar Medium",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Overall structure of Plasma Physics and Astrophysics , Classification of Celestial Objects, Typical examples of Celestial Objects, Magnetized and nonmagnetized plasma, theory of turbulence"
+            },
+            {
+              "unit": 2,
+              "topics": "Fundamental processes in Hydrostatic and Magnetostatic Objects , Dynamo theory, Magneto-hydrodynamic waves and instabilities, Magneto-convection, Magneto- buoyancy, Parker instability, Theory of Magnetic reconnection, Fractal Nature of Current Sheet, Fundamental processes in Gravitational Objects"
+            },
+            {
+              "unit": 3,
+              "topics": "Atomic and Radiation Physics of Plasmas , Theory of Radiative Transfer, Nonlinear steepening and Shocks, Particle Acceleration, Cosmic Rays"
+            },
+            {
+              "unit": 4,
+              "topics": "The Interstellar objects , mass budget of Interstellar medium (ISM), Physics and Chemistry of ISM, Gas Cooling/heating, Interstellar Polycyclic Aromatic Hydrocarbon Molecules, HIl regions, Photodissociation Regions, Molecular clouds, Interstellar Shocks"
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ79",
+          "name": "Physics Laboratory- A",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "1. Determine the ratio e/m for an electron by measuring the normal Zeeman splitting of the yellow line of neon using a Spectrometer. 2. Determine the Lande-g factor for a given sample (DPPH) using the electron spin resonance spectrometer. 3. In Fabry-Perot Interferometer setup, determine the wavelength of source, determine the gap between Fabry-Perot etalon at different micrometer reading and find the finesse. 4. Determine the resistivity of a given semiconductor at different temperatures using Four-probe method and calculate the energy band gap of the semiconductor. 5. Determine the first excitation potential energy of Argon atom using Franck Hertz experiment. 6. In the Experiment of Faraday Effect show that magnetic rotation follows the cos2 law of intensity and determine the value of Verdict constant. 7. Study the Kerr effect in Lithium Niobate crystal. 8. Record the emission spectrum of the given lamp and fluorescence spectrum of the dye solution using a Spectrometer. Determine the red shift and quantum yield of Dye."
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ7R1",
+          "name": "Classical Mechanics-Il",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Rigid body dynamics: Degrees of freedom of a free rigid body, Angular momentum and kinetic energy of a rigid body, Moment of inertia tensor, Eigen values of inertia tensor, principal moments of inertia, products of inertia, The kinematics of rigid body motion, Euler angles, infinitesimal rotations, rigid body equations of motion, Spherical top, Symmetric, Precession of equinoxes and of satellite orbits"
+            },
+            {
+              "unit": 2,
+              "topics": "Canonical transformation : Generating functionals, Applications. Hamilton-Jacobi Theory and solution of Keplers problem. Action angle variables, Solutions for periodic systems."
+            },
+            {
+              "unit": 3,
+              "topics": "Non-linear dynamics: Non-linear equation of motions; phase diaaram. loaistic maps. flows. Limit cvcles."
+            }
+          ]
+        },
+        {
+          "code": "PHYMJ7R2",
+          "name": "Mathematical Physics- II",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Theory of Functions of a Complex Variable: Analyticity and Cauchy-Riemann Conditions, Cauchy@s integral theorem and formula, Taylor series and Laurent series expansion, Zeros and singular points, Multivalued functions, Branch Points and Cuts, Riemann Sheets and surfaces, Residues, Residue theorem, Jordans Lemma, evaluation of definite integrals, Cauchy principal value, dispersion relations (Kramers-Kroenig relations)."
+            },
+            {
+              "unit": 2,
+              "topics": "Integral Transforms: Fourier Transform: Fourier Integral, Sine, Cosine and Complex transforms with examples, Fourier Inverse Transform. Definition, Properties and Representations of Dirac Delta Function, Properties of Fourier Trancfarme Trancfarme af darivativiac"
+            }
+          ]
+        },
+        {
+          "code": "PHYMN7R3",
+          "name": "Quantum Mechanics-Il",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Linear Vector Space and Representation Theory: Linear vector space and Hilbert space, Dirac Bra - Ket notation, Representations: operator and matrix methods, Matrix representation of Observables and states, Determination of eigenvalues and eigenstate for observables using matrix representations, Schwartz inequality and Gram-Schmidt orthogonalization, Measurement, observables and uncertainty relations, Change of basis and unitary transformations, Coordinate and momentum representations."
+            },
+            {
+              "unit": 2,
+              "topics": "Theory of Angular Momentum: Symmetry, invariance and conservation laws, relation between rotation and angular momentum, commutation rules, Matrix reoresentations. addition of anaular momenta"
+            }
+          ]
+        },
+        {
+          "code": "PHYMN7R4",
+          "name": "Advanced Topics in Integrated Circuits, Digital Systems, Embedded Architectures, and Antenna",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Integrated Circuits and Fabrication: Semiconductor surfaces and Metal/ Semiconductor Contact, MOS (Capacitor, Accumulation, Depletion and Inversion). Fabrication of ICs (Planar, Monolithic, Active and Passive Including MOS)."
+            },
+            {
+              "unit": 2,
+              "topics": "Timer (IC-555): Internal Structure (Block Diagram) Operation, Astable, Monostable and Applications. Op-Amp (IC-741): Internal Structure (Block Diagram) Slew Rate, Frequency Response and Compensation, Applications (Linear and Non- Linear)."
+            }
+          ]
+        },
+        {
+          "code": "PHYMN7R5",
+          "name": "Nano Science and Technology",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Nanoparticles: Synthesis and Properties: Method of Synthesis: RF Plasma, Chemical Methods, Pulsed Laser Methods, Biological Methods: Synthesis using micro-organisms, Metal Nanoclusters, Magic Numbers, Modeling of Nanoparticles, Bulk to Nano Transitions."
+            },
+            {
+              "unit": 2,
+              "topics": "Carbon Nanostructures: Nature of Carbon Clusters, Discovery and structure of C 60, Superconductivity in C60, Carbon Nanotubes: Synthesis, Structure, Electrical and Mechanical Properties. Graphene: Discovery, Synthesis and Structural Characterization through TEM, Elementary Concept of its applications. Other 2D materials: evnthacic and nranartiac"
+            }
+          ]
+        },
+        {
+          "code": "PHYMN7R6",
+          "name": "Advanced Molecular Spectroscopy",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Rotational spectra: Rotational symmetry of molecules; rotational spectra of linear, symmetric top, spherical and asymmetric top molecules; rotational selection rules for linear molecules; effect of nuclear spin on the rotational spectra."
+            },
+            {
+              "unit": 2,
+              "topics": "Vibrational Spectra: Vibrational spectra of a diatomic molecule as a harmonic and anharmonic oscillator; vibrational-rotational (IR and Raman) spectra of linear and symmetric top molecules."
+            },
+            {
+              "unit": 3,
+              "topics": "Electronic Spectra: Electronic transitions; Basics of Absorption, Fluorescence and Phosphorescence; Jablonski diagram; A brief discussion of molecular states; The Franck- Condon principle; Dissociation energy. Vihranic intaractinn and Harzvhara Tallar"
+            }
+          ]
+        },
+        {
+          "code": "PHYMN7R7",
+          "name": "Nuclear Models and Reactions",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Nuclear Models: Shell Model: Properties of Single particle states, Energy, spin and parities, Population of excited states in nuclei, Qualitative discussion and estimates of reduced transition rates, Magnetic moments and Schmidt Lines. Collective Model: Bohrs Collective model for even-even spherical, collective vibrational and rotational excitations."
+            },
+            {
+              "unit": 2,
+              "topics": "Nuclear Force and Nuclear Reactions: Nuclear Force: Deuteron problem, Tensor force, S and D states, Neutron-Proton and proton-proton scattering, Effective range theory, Spin-dependence of nuclear forces, Charge indanandancra and charna esmmatrv af"
+            }
+          ]
+        },
+        {
+          "code": "PHYMN7R8",
+          "name": "Plasma Astrophysics and Physics of Interstellar Medium",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Overall structure of Plasma Physics and Astrophysics , Classification of Celestial Objects, Typical examples of Celestial Objects, Magnetized and nonmagnetized plasma, theory of turbulence"
+            },
+            {
+              "unit": 2,
+              "topics": "Fundamental processes in Hydrostatic and Magnetostatic Objects , Dynamo theory, Magneto-hydrodynamic waves and instabilities, Magneto-convection, Magneto- buoyancy, Parker instability, Theory of Magnetic reconnection, Fractal Nature of Current Sheet, Fundamental processes in Gravitational Objects"
+            },
+            {
+              "unit": 3,
+              "topics": "Atomic and Radiation Physics of Plasmas , Theory of Radiative Transfer, Nonlinear steepening and Shocks, Particle Acceleration, Cosmic Rays"
+            },
+            {
+              "unit": 4,
+              "topics": "The Interstellar objects , mass budget of Interstellar medium (ISM), Physics and Chemistry of ISM, Gas Cooling/heating, Interstellar Polycyclic Aromatic Hydrocarbon Molecules, HIl regions, Photodissociation Regions, Molecular clouds, Interstellar Shocks"
+            }
+          ]
+        },
+        {
+          "code": "PHYMN7R9",
+          "name": "Physics Laboratory",
+          "credits": 1,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "1. Determine the ratio e/m for an electron by measuring the normal Zeeman splitting of the yellow line of neon using a Spectrometer. 2. Determine the Lande-g factor for a given sample (DPPH) using the electron spin resonance spectrometer. 3. In Fabry-Perot Interferometer setup, determine the wavelength of source, determine the gap between Fabry-Perot etalon at different micrometer reading and find the finesse. 4. Determine the resistivity of a given semiconductor at different temperatures using Four-probe method and calculate the energy band gap of the semiconductor. 5. Determine the first excitation potential energy of Argon atom using Franck Hertz experiment. 6. In the Experiment of Faraday Effect show that magnetic rotation follows the cos2 law of intensity and determine the value of Verdict constant. 7. Study the Kerr effect in Lithium Niobate crystal. 8. Record the emission spectrum of the given lamp and fluorescence spectrum of the dye solution using a Spectrometer. Determine the red shift and quantum yield of Dye."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

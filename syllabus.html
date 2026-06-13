@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Syllabus Catalog | SCIQB</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "background-flat": "#FAF9F6",
+                        "border-subtle": "#E7E7E4",
+                        "primary": "#000000",
+                        "secondary": "#5E5E5E",
+                        "accent-blue": "#2563EB",
+                        "accent-saffron": "#D97706"
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #FAF9F6;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-background-flat text-neutral-900 antialiased selection:bg-neutral-200 min-h-screen flex flex-col justify-between">
+
+<!-- TopNavBar -->
+<nav class="fixed top-0 left-0 right-0 z-50 bg-[#FAF9F6]/90 backdrop-blur-md border-b border-neutral-200/60 h-16 w-full flex items-center">
+    <div class="max-w-4xl mx-auto px-6 flex justify-between items-center w-full">
+        <div class="flex items-center gap-3">
+            <button onclick="navigateBack()" class="w-8 h-8 rounded-full border border-neutral-200/60 hover:bg-neutral-100 transition-all flex items-center justify-center text-neutral-600 hover:text-neutral-900 shrink-0" id="navBackBtn" title="Back">
+                <span class="material-symbols-outlined text-sm font-semibold">arrow_back</span>
+            </button>
+            <span class="text-lg font-bold tracking-tight text-neutral-900 uppercase">SCIQB</span>
+        </div>
+        <div class="flex items-center">
+            <span class="text-[9px] font-bold text-neutral-500 bg-neutral-100 px-2.5 py-1 rounded border border-neutral-200/60 uppercase tracking-wider">Curriculum Catalog</span>
+        </div>
+    </div>
+</nav>
+
+<main class="relative pt-24 pb-20 flex-1 flex flex-col items-center">
+    <!-- VIEW 1: Directory Selection View -->
+    <div id="directoryView" class="max-w-2xl w-full mx-auto px-6 relative z-10 flex flex-col transition-all duration-300">
+        <!-- Header -->
+        <div class="mb-10 text-left">
+            <h1 class="text-2xl md:text-3xl font-extrabold text-neutral-900 tracking-tight">Syllabus Catalog</h1>
+            <p class="text-xs text-neutral-500 mt-2 leading-relaxed">Official syllabus structures, course credits, and unit breakdowns for Banaras Hindu University (BHU) undergraduate studies.</p>
+        </div>
+
+        <!-- Search Directory -->
+        <div class="w-full mb-8 relative">
+            <span class="material-symbols-outlined absolute left-3.5 top-1/2 -translate-y-1/2 text-neutral-400 text-sm">search</span>
+            <input type="text" id="dirSearchInput" placeholder="Filter departments..." 
+                   class="w-full pl-9 pr-8 py-2 bg-white border border-neutral-200 rounded-lg text-xs focus:outline-none focus:ring-1 focus:ring-neutral-400 focus:border-neutral-400 transition-all text-neutral-900 placeholder-neutral-400"
+                   oninput="filterDirectory()"/>
+            <button onclick="clearDirSearch()" id="clearDirBtn" class="absolute right-3.5 top-1/2 -translate-y-1/2 text-neutral-400 hover:text-neutral-600 hidden">
+                <span class="material-symbols-outlined text-sm">close</span>
+            </button>
+        </div>
+
+        <!-- Departments List -->
+        <div class="border border-neutral-200/80 bg-white rounded-lg divide-y divide-neutral-200/60 overflow-hidden shadow-sm" id="departmentsGrid">
+            <!-- Dynamically populated -->
+        </div>
+    </div>
+
+    <!-- VIEW 2: Detailed Syllabus Viewer -->
+    <div id="syllabusView" class="max-w-2xl w-full mx-auto px-6 relative z-10 flex-col transition-all duration-300 hidden">
+        <!-- Back navigation link -->
+        <button onclick="backToDirectory()" class="flex items-center gap-1.5 text-xs font-bold text-neutral-500 hover:text-neutral-900 transition-colors mb-6 self-start">
+            <span class="material-symbols-outlined text-xs">arrow_back</span>
+            <span>Back to Departments</span>
+        </button>
+
+        <!-- Syllabus Header -->
+        <div class="border-b border-neutral-200/80 pb-6 mb-8 flex flex-col gap-4">
+            <div>
+                <div class="flex items-center gap-2">
+                    <span class="text-[8px] font-bold text-neutral-600 bg-neutral-100 px-2 py-0.5 rounded border border-neutral-200/40 uppercase tracking-wider shrink-0" id="syllabusDeptBadge">Mathematics</span>
+                    <span class="text-[10px] text-neutral-400" id="syllabusUniversity">Banaras Hindu University</span>
+                </div>
+                <h1 class="text-xl md:text-2xl font-bold text-neutral-900 tracking-tight mt-2.5" id="syllabusTitle">Department of Mathematics</h1>
+                <p class="text-xs text-neutral-500 mt-0.5" id="syllabusProgramme">B.Sc. (Hons.) Mathematics Program Curriculum</p>
+            </div>
+
+            <!-- Subject/Code Search -->
+            <div class="w-full relative shrink-0">
+                <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-neutral-400 text-xs">search</span>
+                <input type="text" id="paperSearchInput" placeholder="Filter courses by name, code or type..." 
+                       class="w-full pl-8.5 pr-8 py-2 bg-white border border-neutral-200 rounded-lg text-xs focus:outline-none focus:ring-1 focus:ring-neutral-400 focus:border-neutral-400 transition-all text-neutral-900 placeholder-neutral-400"
+                       oninput="filterPapers()"/>
+                <button onclick="clearPaperSearch()" id="clearPaperBtn" class="absolute right-3 top-1/2 -translate-y-1/2 text-neutral-400 hover:text-neutral-600 hidden">
+                    <span class="material-symbols-outlined text-xs">close</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Dynamic Loader -->
+        <div class="flex flex-col items-center justify-center py-12 gap-3" id="syllabusLoader">
+            <div class="w-6 h-6 border-2 border-neutral-400 border-t-transparent rounded-full animate-spin"></div>
+            <span class="text-[10px] text-neutral-500 font-medium">Loading syllabus structure...</span>
+        </div>
+
+        <!-- Syllabus Structure Container -->
+        <div id="semestersContainer" class="space-y-8">
+            <!-- Populated dynamically -->
+        </div>
+    </div>
+</main>
+
+<!-- Footer -->
+<footer class="w-full py-8 bg-[#FAF9F6] border-t border-neutral-200/60">
+    <div class="max-w-2xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+        <p class="text-[10px] text-neutral-400">© 2026 SCIQB. Prepared under BHU UG Academic Curriculum Guideline.</p>
+        <div class="flex gap-4">
+            <a class="text-[10px] text-neutral-400 hover:text-neutral-600 underline" href="privacy.html">Privacy Policy</a>
+            <a class="text-[10px] text-neutral-400 hover:text-neutral-600 underline" href="terms.html">Terms of Service</a>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // State management
+    let activeDeptKey = null;
+    let syllabusData = null;
+
+    // Load JSON mappings
+    const JSON_PATH_MAP = {
+        'maths': 'aaa/maths/maths_syllabus.json',
+        'chemistry': 'aaa/chemistry/chemistry_syllabus.json',
+        'physics': 'aaa/PHYSICS OUT/physics_syllabus.json'
+    };
+
+    // Full 59 departments list from University Directory
+    const DEPARTMENTS = [
+        { key: "aihc", name: "A.I.H.C. & Archaeology", faculty: "Faculty of Arts", active: false, icon: "history" },
+        { key: "arabic", name: "Arabic", faculty: "Faculty of Arts", active: false, icon: "translate" },
+        { key: "bengali", name: "Bengali", faculty: "Faculty of Arts", active: false, icon: "translate" },
+        { key: "bharat_adhyayan", name: "Bharat Adhyayan Kendra", faculty: "Faculty of Arts", active: false, icon: "menu_book" },
+        { key: "bhojpuri", name: "Bhojpuri Adhyayan Kendra", faculty: "Faculty of Arts", active: false, icon: "menu_book" },
+        { key: "english", name: "English", faculty: "Faculty of Arts", active: false, icon: "translate" },
+        { key: "foreign_languages", name: "Foreign Languages", faculty: "Faculty of Arts", active: false, icon: "translate" },
+        { key: "french", name: "French Studies", faculty: "Faculty of Arts", active: false, icon: "translate" },
+        { key: "german", name: "German Studies", faculty: "Faculty of Arts", active: false, icon: "translate" },
+        { key: "hindi", name: "Hindi", faculty: "Faculty of Arts", active: false, icon: "translate" },
+        { key: "history_art", name: "History of Art", faculty: "Faculty of Arts", active: false, icon: "history" },
+        { key: "indian_languages", name: "Indian Languages", faculty: "Faculty of Arts", active: false, icon: "translate" },
+        { key: "linguistics", name: "Linguistics", faculty: "Faculty of Arts", active: false, icon: "translate" },
+        { key: "malaviya_moolya", name: "Malaviya Moolya Anusheelan Kendra", faculty: "Faculty of Arts", active: false, icon: "menu_book" },
+        { key: "marathi", name: "Marathi", faculty: "Faculty of Arts", active: false, icon: "translate" },
+        { key: "museology", name: "Museology", faculty: "Faculty of Arts", active: false, icon: "museum" },
+        { key: "pali", name: "Pali & Buddhist Studies", faculty: "Faculty of Arts", active: false, icon: "menu_book" },
+        { key: "persian", name: "Persian", faculty: "Faculty of Arts", active: false, icon: "translate" },
+        { key: "philosophy", name: "Philosophy & Religion", faculty: "Faculty of Arts", active: false, icon: "menu_book" },
+        { key: "sanskrit", name: "Sanskrit", faculty: "Faculty of Arts", active: false, icon: "translate" },
+        { key: "telugu", name: "Telugu", faculty: "Faculty of Arts", active: false, icon: "translate" },
+        { key: "tourism", name: "Tourism", faculty: "Faculty of Arts", active: false, icon: "map" },
+        { key: "urdu", name: "Urdu", faculty: "Faculty of Arts", active: false, icon: "translate" },
+        { key: "commerce", name: "Commerce", faculty: "Faculty of Commerce", active: false, icon: "payments" },
+        { key: "env_sustainable", name: "Environment and Sustainable Development", faculty: "Faculty of Environment & Sustainable Development", active: false, icon: "nature" },
+        { key: "dance", name: "Dance", faculty: "Faculty of Performing Arts", active: false, icon: "palette" },
+        { key: "instrumental_music", name: "Instrumental Music", faculty: "Faculty of Performing Arts", active: false, icon: "music_note" },
+        { key: "musicology", name: "Musicology", faculty: "Faculty of Performing Arts", active: false, icon: "music_note" },
+        { key: "vocal_music", name: "Vocal Music", faculty: "Faculty of Performing Arts", active: false, icon: "music_note" },
+        { key: "buddha_jain", name: "Buddha & Jain Darshan", faculty: "Faculty of Sanskrit Vidya Dharma Vijnan Sankay", active: false, icon: "auto_stories" },
+        { key: "dharmagam", name: "Dharmagam", faculty: "Faculty of Sanskrit Vidya Dharma Vijnan Sankay", active: false, icon: "auto_stories" },
+        { key: "dharmashastra", name: "Dharmashastra & Mimansa", faculty: "Faculty of Sanskrit Vidya Dharma Vijnan Sankay", active: false, icon: "auto_stories" },
+        { key: "jyotish", name: "Jyotish", faculty: "Faculty of Sanskrit Vidya Dharma Vijnan Sankay", active: false, icon: "star" },
+        { key: "sahitya", name: "Sahitya", faculty: "Faculty of Sanskrit Vidya Dharma Vijnan Sankay", active: false, icon: "auto_stories" },
+        { key: "vaidic_darshan", name: "Vaidic Darshan", faculty: "Faculty of Sanskrit Vidya Dharma Vijnan Sankay", active: false, icon: "auto_stories" },
+        { key: "veda", name: "Veda", faculty: "Faculty of Sanskrit Vidya Dharma Vijnan Sankay", active: false, icon: "auto_stories" },
+        { key: "vyakarana", name: "Vyakarana", faculty: "Faculty of Sanskrit Vidya Dharma Vijnan Sankay", active: false, icon: "auto_stories" },
+        { key: "biochemistry", name: "Biochemistry", faculty: "Faculty of Science", active: false, icon: "science" },
+        { key: "botany", name: "Botany", faculty: "Faculty of Science", active: false, icon: "eco" },
+        { key: "genetic_disorder", name: "Centre for Genetic Disorder", faculty: "Faculty of Science", active: false, icon: "biotech" },
+        { key: "chemistry", name: "Chemistry", faculty: "Faculty of Science", active: true, icon: "science" },
+        { key: "computerscience", name: "Computer Science", faculty: "Faculty of Science", active: false, icon: "terminal" },
+        { key: "dst_cims", name: "DST-CIMS", faculty: "Faculty of Science", active: false, icon: "calculate" },
+        { key: "geography", name: "Geography", faculty: "Faculty of Science", active: false, icon: "public" },
+        { key: "geology", name: "Geology", faculty: "Faculty of Science", active: false, icon: "terrain" },
+        { key: "geophysics", name: "Geophysics", faculty: "Faculty of Science", active: false, icon: "public" },
+        { key: "maths", name: "Mathematics", faculty: "Faculty of Science", active: true, icon: "calculate" },
+        { key: "molecular_genetics", name: "Molecular And Human Genetics", faculty: "Faculty of Science", active: false, icon: "biotech" },
+        { key: "physics", name: "Physics", faculty: "Faculty of Science", active: true, icon: "insights" },
+        { key: "biotech", name: "School of Bio-Technology", faculty: "Faculty of Science", active: false, icon: "biotech" },
+        { key: "statistics", name: "Statistics", faculty: "Faculty of Science", active: false, icon: "bar_chart" },
+        { key: "zoology", name: "Zoology", faculty: "Faculty of Science", active: false, icon: "pets" },
+        { key: "social_inclusion", name: "Centre for the Study of Social Inclusion", faculty: "Faculty of Social Sciences", active: false, icon: "groups" },
+        { key: "womens_studies", name: "Centre for Women's Studies and Development", faculty: "Faculty of Social Sciences", active: false, icon: "groups" },
+        { key: "economics", name: "Economics", faculty: "Faculty of Social Sciences", active: false, icon: "trending_up" },
+        { key: "history", name: "History", faculty: "Faculty of Social Sciences", active: false, icon: "history" },
+        { key: "peace_research", name: "Malaviya Centre for Peace Research", faculty: "Faculty of Social Sciences", active: false, icon: "groups" },
+        { key: "political_science", name: "Political Science", faculty: "Faculty of Social Sciences", active: false, icon: "public" },
+        { key: "psychology", name: "Psychology", faculty: "Faculty of Social Sciences", active: false, icon: "psychology" }
+    ];
+
+    function renderDirectory() {
+        const grid = document.getElementById('departmentsGrid');
+        if (!grid) return;
+        
+        let html = '';
+        // Sort active departments to the top
+        const sortedDepts = [...DEPARTMENTS].sort((a, b) => (b.active ? 1 : 0) - (a.active ? 1 : 0));
+        
+        sortedDepts.forEach(dept => {
+            if (dept.active) {
+                html += `
+                    <div onclick="loadSyllabus('${dept.key}')" data-dept-name="${dept.name}" class="p-5 hover:bg-neutral-50/60 transition-colors cursor-pointer flex items-center justify-between group">
+                        <div class="flex items-center gap-3.5 flex-1 min-w-0">
+                            <div class="w-9 h-9 rounded bg-neutral-100 flex items-center justify-center text-neutral-600 group-hover:bg-neutral-200/60 transition-colors shrink-0">
+                                <span class="material-symbols-outlined text-lg">${dept.icon}</span>
+                            </div>
+                            <div class="min-w-0 flex-1">
+                                <h3 class="font-bold text-xs text-neutral-800 truncate">${dept.name}</h3>
+                                <p class="text-[10px] text-neutral-400 mt-0.5 truncate">${dept.faculty}</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-2 shrink-0">
+                            <span class="text-[8px] font-bold text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200/40 uppercase tracking-wider shrink-0">Active</span>
+                            <span class="material-symbols-outlined text-sm text-neutral-400 group-hover:translate-x-0.5 transition-transform">chevron_right</span>
+                        </div>
+                    </div>
+                `;
+            } else {
+                html += `
+                    <div data-dept-name="${dept.name}" class="p-5 flex items-center justify-between opacity-60 bg-neutral-50/10">
+                        <div class="flex items-center gap-3.5 flex-1 min-w-0">
+                            <div class="w-9 h-9 rounded bg-neutral-100 flex items-center justify-center text-neutral-400 shrink-0">
+                                <span class="material-symbols-outlined text-lg">${dept.icon}</span>
+                            </div>
+                            <div class="min-w-0 flex-1">
+                                <h3 class="font-bold text-xs text-neutral-700 truncate">${dept.name}</h3>
+                                <p class="text-[10px] text-neutral-400 mt-0.5 truncate">${dept.faculty}</p>
+                            </div>
+                        </div>
+                        <span class="text-[8px] font-bold text-neutral-400 bg-neutral-100 px-1.5 py-0.5 rounded uppercase tracking-wider shrink-0">Coming Soon</span>
+                    </div>
+                `;
+            }
+        });
+        
+        grid.innerHTML = html;
+    }
+
+    // Initialize check for URL parameters
+    window.addEventListener('DOMContentLoaded', () => {
+        renderDirectory();
+        const params = new URLSearchParams(window.location.search);
+        const deptParam = params.get('dept');
+        if (deptParam && JSON_PATH_MAP[deptParam]) {
+            loadSyllabus(deptParam);
+        } else {
+            showDirectory();
+        }
+    });
+
+    // Handle browser back button
+    window.addEventListener('popstate', (event) => {
+        if (event.state && event.state.dept) {
+            loadSyllabus(event.state.dept, false);
+        } else {
+            showDirectory(false);
+        }
+    });
+
+    function showDirectory(updateHistory = true) {
+        activeDeptKey = null;
+        syllabusData = null;
+
+        document.getElementById('directoryView').classList.remove('hidden');
+        document.getElementById('directoryView').classList.add('flex');
+        document.getElementById('syllabusView').classList.add('hidden');
+        document.getElementById('syllabusView').classList.remove('flex');
+        document.getElementById('navBackBtn').setAttribute('onclick', "window.location.href='index.html'");
+        document.getElementById('navBackBtn').setAttribute('title', "Back to Home");
+
+        if (updateHistory) {
+            history.pushState(null, '', 'syllabus.html');
+        }
+    }
+
+    function backToDirectory() {
+        showDirectory();
+    }
+
+    function navigateBack() {
+        if (activeDeptKey) {
+            showDirectory();
+        } else {
+            window.location.href = 'index.html';
+        }
+    }
+
+    async function loadSyllabus(deptKey, updateHistory = true) {
+        if (!JSON_PATH_MAP[deptKey]) return;
+        activeDeptKey = deptKey;
+
+        // View states transition
+        document.getElementById('directoryView').classList.add('hidden');
+        document.getElementById('directoryView').classList.remove('flex');
+        document.getElementById('syllabusView').classList.remove('hidden');
+        document.getElementById('syllabusView').classList.add('flex');
+        
+        document.getElementById('navBackBtn').setAttribute('onclick', "backToDirectory()");
+        document.getElementById('navBackBtn').setAttribute('title', "Back to Departments");
+
+        document.getElementById('syllabusLoader').classList.remove('hidden');
+        document.getElementById('syllabusLoader').classList.add('flex');
+        document.getElementById('semestersContainer').innerHTML = '';
+
+        if (updateHistory) {
+            history.pushState({ dept: deptKey }, '', `?dept=${deptKey}`);
+        }
+
+        try {
+            const response = await fetch(JSON_PATH_MAP[deptKey]);
+            if (!response.ok) throw new Error("Network response was not ok");
+            syllabusData = await response.json();
+            renderSyllabus();
+        } catch (error) {
+            console.error("Error loading syllabus data:", error);
+            document.getElementById('semestersContainer').innerHTML = `
+                <div class="p-8 text-center border border-neutral-200 rounded-lg text-neutral-400 bg-white shadow-sm w-full">
+                    <span class="material-symbols-outlined text-3xl mb-2 text-neutral-300">error_outline</span>
+                    <p class="text-xs font-semibold">Failed to load syllabus content. Please try again later.</p>
+                </div>
+            `;
+            document.getElementById('syllabusLoader').classList.add('hidden');
+        }
+    }
+
+    function renderSyllabus() {
+        document.getElementById('syllabusLoader').classList.add('hidden');
+        document.getElementById('syllabusLoader').classList.remove('flex');
+
+        if (!syllabusData) return;
+
+        // Set department titles
+        const deptBadge = syllabusData.department.replace("Department of ", "");
+        document.getElementById('syllabusDeptBadge').textContent = deptBadge;
+        document.getElementById('syllabusUniversity').textContent = syllabusData.university;
+        document.getElementById('syllabusTitle').textContent = syllabusData.department;
+        document.getElementById('syllabusProgramme').textContent = `${syllabusData.programme} Structure`;
+
+        // Render structure
+        filterPapers();
+    }
+
+    function filterPapers() {
+        if (!syllabusData) return;
+
+        const query = document.getElementById('paperSearchInput').value.toLowerCase().trim();
+        const clearBtn = document.getElementById('clearPaperBtn');
+
+        if (query) {
+            clearBtn.classList.remove('hidden');
+        } else {
+            clearBtn.classList.add('hidden');
+        }
+
+        const semestersContainer = document.getElementById('semestersContainer');
+        semestersContainer.innerHTML = '';
+
+        let hasAnyMatch = false;
+
+        const semRoman = {
+            1: 'Semester I',
+            2: 'Semester II',
+            3: 'Semester III',
+            4: 'Semester IV',
+            5: 'Semester V',
+            6: 'Semester VI'
+        };
+
+        syllabusData.semesters.forEach(sem => {
+            const filteredPapers = sem.papers.filter(paper => {
+                const name = paper.name.toLowerCase();
+                const code = paper.code.toLowerCase();
+                const type = (paper.course_type || '').toLowerCase();
+                return name.includes(query) || code.includes(query) || type.includes(query);
+            });
+
+            if (filteredPapers.length === 0) return;
+            hasAnyMatch = true;
+
+            let papersHTML = '';
+
+            filteredPapers.forEach(paper => {
+                const hasSyllabus = paper.syllabus && paper.syllabus.length > 0;
+                let syllabusBreakdownHTML = '';
+
+                if (hasSyllabus) {
+                    let unitsHTML = '';
+                    paper.syllabus.forEach(u => {
+                        unitsHTML += `
+                            <div class="text-left flex flex-col gap-0.5">
+                                <h5 class="text-[10px] font-bold text-neutral-800">Unit ${u.unit}</h5>
+                                <p class="text-xs text-neutral-500 leading-relaxed font-normal">${u.topics}</p>
+                            </div>
+                        `;
+                    });
+
+                    syllabusBreakdownHTML = `
+                        <div id="breakdown-${paper.code}" class="hidden flex-col gap-4 mt-3 pt-3 border-t border-neutral-100 transition-all duration-300">
+                            <div class="flex flex-col gap-4 border-l-2 border-neutral-200 pl-4 py-0.5">
+                                ${unitsHTML}
+                            </div>
+                        </div>
+                    `;
+                }
+
+                const cursorClass = hasSyllabus ? 'cursor-pointer hover:bg-neutral-50/50' : '';
+                const clickHandler = hasSyllabus ? `onclick="toggleSyllabusBreakdown('${paper.code}', event)"` : '';
+
+                papersHTML += `
+                    <div class="p-4 bg-white border border-neutral-200 rounded-lg flex flex-col shadow-[0_1px_2px_rgba(0,0,0,0.02)] transition-all ${cursorClass}" ${clickHandler}>
+                        <div class="flex items-center justify-between gap-3 text-[10px] text-neutral-500 font-medium">
+                            <div class="flex items-center gap-1.5">
+                                <span class="font-mono font-bold text-neutral-800">${paper.code}</span>
+                                <span>•</span>
+                                <span class="capitalize">${paper.course_type || 'Core'}</span>
+                            </div>
+                            <span class="text-neutral-400">${paper.credits} Credits</span>
+                        </div>
+                        
+                        <div class="text-left mt-2 flex justify-between items-start gap-4">
+                            <h3 class="font-bold text-xs text-neutral-800 leading-snug">${paper.name}</h3>
+                            ${hasSyllabus ? `
+                                <span class="material-symbols-outlined text-neutral-400 text-sm shrink-0 transition-transform duration-200" id="icon-${paper.code}">keyboard_arrow_down</span>
+                            ` : `
+                                <span class="text-[9px] font-medium text-neutral-400 uppercase tracking-widest shrink-0">Pending</span>
+                            `}
+                        </div>
+                        
+                        ${syllabusBreakdownHTML}
+                    </div>
+                `;
+            });
+
+            const isExpanded = query.length > 0;
+            const displayClass = isExpanded ? 'flex' : 'hidden';
+            const arrowIcon = isExpanded ? 'keyboard_arrow_up' : 'keyboard_arrow_down';
+
+            const semesterHTML = `
+                <div class="space-y-3">
+                    <div onclick="toggleSemester(${sem.semester})" class="flex items-center justify-between border-b border-neutral-200/80 pb-2 cursor-pointer hover:border-neutral-400 transition-colors group">
+                        <div class="flex items-center gap-2">
+                            <h2 class="font-bold text-sm text-neutral-900 tracking-tight">${semRoman[sem.semester]}</h2>
+                            <span class="text-[9px] font-semibold text-neutral-400 bg-neutral-100 px-1.5 py-0.2 rounded border border-neutral-200/40">${filteredPapers.length} Courses</span>
+                        </div>
+                        <span class="material-symbols-outlined text-neutral-400 group-hover:text-neutral-700 text-base transition-transform duration-200" id="sem-icon-${sem.semester}">${arrowIcon}</span>
+                    </div>
+                    <div id="sem-content-${sem.semester}" class="${displayClass} flex-col gap-3">
+                        ${papersHTML}
+                    </div>
+                </div>
+            `;
+
+            semestersContainer.insertAdjacentHTML('beforeend', semesterHTML);
+        });
+
+        if (!hasAnyMatch) {
+            semestersContainer.innerHTML = `
+                <div class="p-8 text-center border border-neutral-200 rounded-lg text-neutral-400 bg-white shadow-sm w-full">
+                    <span class="material-symbols-outlined text-3xl mb-2 text-neutral-300">search_off</span>
+                    <p class="text-xs font-semibold">No course modules match your search filter.</p>
+                </div>
+            `;
+        }
+    }
+
+    window.toggleSemester = function(semNum) {
+        const content = document.getElementById(`sem-content-${semNum}`);
+        const icon = document.getElementById(`sem-icon-${semNum}`);
+
+        if (content.classList.contains('hidden')) {
+            content.classList.remove('hidden');
+            content.classList.add('flex');
+            icon.textContent = 'keyboard_arrow_up';
+        } else {
+            content.classList.add('hidden');
+            content.classList.remove('flex');
+            icon.textContent = 'keyboard_arrow_down';
+        }
+    };
+
+    window.toggleSyllabusBreakdown = function(paperCode, event) {
+        if (event) {
+            event.stopPropagation();
+        }
+        const breakdown = document.getElementById(`breakdown-${paperCode}`);
+        const icon = document.getElementById(`icon-${paperCode}`);
+
+        if (breakdown.classList.contains('hidden')) {
+            breakdown.classList.remove('hidden');
+            breakdown.classList.add('flex');
+            icon.textContent = 'keyboard_arrow_up';
+        } else {
+            breakdown.classList.add('hidden');
+            breakdown.classList.remove('flex');
+            icon.textContent = 'keyboard_arrow_down';
+        }
+    };
+
+    window.clearPaperSearch = function() {
+        document.getElementById('paperSearchInput').value = '';
+        filterPapers();
+    };
+
+    // Directory Selection View filtering
+    window.filterDirectory = function() {
+        const query = document.getElementById('dirSearchInput').value.toLowerCase().trim();
+        const clearBtn = document.getElementById('clearDirBtn');
+        const grid = document.getElementById('departmentsGrid');
+        const cards = grid.children;
+
+        if (query) {
+            clearBtn.classList.remove('hidden');
+        } else {
+            clearBtn.classList.add('hidden');
+        }
+
+        for (let i = 0; i < cards.length; i++) {
+            const card = cards[i];
+            const deptName = card.getAttribute('data-dept-name').toLowerCase();
+            if (deptName.includes(query)) {
+                card.style.display = '';
+            } else {
+                card.style.display = 'none';
+            }
+        }
+    };
+
+    window.clearDirSearch = function() {
+        document.getElementById('dirSearchInput').value = '';
+        filterDirectory();
+    };
+</script>
+</body>
+</html>
