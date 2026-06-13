@@ -569,7 +569,7 @@
 
         if (examState.type === 'theory') {
             const savedEvaluation = examState.answers[q.id] || null;
-            const imageBase64 = window.uploadedImages && window.uploadedImages[q.id] ? window.uploadedImages[q.id] : null;
+            const textAnswer = savedEvaluation ? (savedEvaluation.textAnswer || '') : '';
             const isRevealed = !!revealedQuestions[q.id];
             const showGradingDisplay = (savedEvaluation && savedEvaluation.evaluated) || isRevealed;
             const hasGraded = savedEvaluation && savedEvaluation.evaluated;
@@ -607,59 +607,18 @@
                         </div>
                     </div>
 
-                    <!-- UPLOAD INTERFACE -->
-                    <div class="flex flex-col gap-4">
-                        <div class="grid grid-cols-2 gap-4">
-                            <!-- Camera trigger -->
-                            <button onclick="triggerCameraUpload()" class="flex flex-col items-center justify-center p-6 border-2 border-dashed border-border-subtle rounded-lg bg-white hover:bg-surface-panel/30 hover:border-primary/20 transition-all duration-300 group">
-                                <span class="material-symbols-outlined text-3xl text-secondary group-hover:text-primary group-hover:scale-110 transition-transform mb-2">photo_camera</span>
-                                <span class="text-xs font-bold text-primary">Capture Answer</span>
-                                <span class="text-[9px] text-secondary mt-1">Using Device Camera</span>
-                            </button>
-                            <!-- Gallery trigger -->
-                            <button onclick="triggerGalleryUpload()" class="flex flex-col items-center justify-center p-6 border-2 border-dashed border-border-subtle rounded-lg bg-white hover:bg-surface-panel/30 hover:border-primary/20 transition-all duration-300 group">
-                                <span class="material-symbols-outlined text-3xl text-secondary group-hover:text-primary group-hover:scale-110 transition-transform mb-2">upload_file</span>
-                                <span class="text-xs font-bold text-primary">Upload from Gallery</span>
-                                <span class="text-[9px] text-secondary mt-1">JPEG, PNG</span>
-                            </button>
-                        </div>
-                        <input type="file" accept="image/*" capture="environment" id="theoryCameraInput" class="hidden" onchange="handleTheoryFileChange(this)">
-                        <input type="file" accept="image/*" id="theoryGalleryInput" class="hidden" onchange="handleTheoryFileChange(this)">
-                    </div>
-
-                    <!-- PREVIEW AREA -->
-                    <div id="theoryPreviewContainer" class="${imageBase64 ? 'flex' : 'hidden'} flex-col gap-3">
-                        <h4 class="text-xs font-bold text-secondary uppercase tracking-widest">Your Uploaded Solution</h4>
-                        <div class="relative rounded-lg overflow-hidden border border-border-subtle bg-white max-h-80 flex items-center justify-center p-2 group">
-                            <img id="theoryImagePreview" class="max-h-76 w-auto object-contain rounded" src="${imageBase64 || ''}">
-                            <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
-                                <button onclick="triggerGalleryUpload()" class="p-2.5 rounded-full bg-white text-primary hover:scale-105 active:scale-95 transition-all" title="Change Image">
-                                    <span class="material-symbols-outlined text-lg">edit</span>
-                                </button>
-                                <button onclick="removeUploadedImage()" class="p-2.5 rounded-full bg-white text-error hover:scale-105 active:scale-95 transition-all" title="Remove Image">
-                                    <span class="material-symbols-outlined text-lg">delete</span>
-                                </button>
-                            </div>
-                            <!-- Scanner overlay for loading state -->
-                            <div id="scannerOverlay" class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-transparent via-accent-bhu-saffron to-transparent shadow-[0_0_8px_#F57C00] hidden"></div>
-                        </div>
-                        <!-- Always-visible Reset/Change actions for accessibility & touch devices -->
-                        <div class="flex gap-3 justify-center mt-1">
-                            <button onclick="triggerGalleryUpload()" class="flex items-center gap-1.5 px-4 py-2 rounded-full border border-border-subtle bg-white hover:bg-neutral-50 text-xs font-bold text-primary shadow-sm active:scale-95 transition-all" title="Upload another image">
-                                <span class="material-symbols-outlined text-base">sync</span>
-                                Change Image
-                            </button>
-                            <button onclick="removeUploadedImage()" class="flex items-center gap-1.5 px-4 py-2 rounded-full border border-error/20 bg-white hover:bg-error/[0.02] text-xs font-bold text-error shadow-sm active:scale-95 transition-all" title="Remove the current solution">
-                                <span class="material-symbols-outlined text-base">delete</span>
-                                Remove & Reset
-                            </button>
-                        </div>
+                    <!-- WRITTEN ANSWER INTERFACE -->
+                    <div class="flex flex-col gap-3">
+                        <label for="theoryTextAnswer" class="text-xs font-bold text-secondary uppercase tracking-widest">Write Your Answer</label>
+                        <textarea id="theoryTextAnswer" rows="6" oninput="handleTheoryTextChange(this)"
+                                  class="w-full p-4 bg-white border border-border-subtle rounded-lg text-sm focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary transition-all text-primary placeholder-neutral-400 custom-scrollbar"
+                                  placeholder="Type your detailed solution/answer here...">${textAnswer}</textarea>
                     </div>
 
                     <!-- ACTION BUTTON & GRADING FEEDBACK -->
                     <div class="flex flex-col gap-4">
                         <!-- AI Evaluate Button -->
-                        <button id="aiEvaluateBtn" onclick="evaluateSolution()" class="${imageBase64 ? 'flex' : 'hidden'} w-full bg-primary text-on-primary py-4 rounded-full font-bold text-sm hover:scale-[1.01] active:scale-95 transition-all justify-center items-center gap-2 shadow-md hover:bg-neutral-800 disabled:opacity-50 disabled:pointer-events-none">
+                        <button id="aiEvaluateBtn" onclick="evaluateSolution()" class="${textAnswer.trim().length > 0 ? 'flex' : 'hidden'} w-full bg-primary text-on-primary py-4 rounded-full font-bold text-sm hover:scale-[1.01] active:scale-95 transition-all justify-center items-center gap-2 shadow-md hover:bg-neutral-800 disabled:opacity-50 disabled:pointer-events-none">
                             <span class="material-symbols-outlined text-lg">auto_awesome</span>
                             <span>${savedEvaluation && savedEvaluation.evaluated ? 'Submit Again & Re-Grade' : 'Grade & Analyze Answer'}</span>
                         </button>
@@ -855,74 +814,41 @@
         }
     };
 
-    window.triggerCameraUpload = function() {
-        const input = document.getElementById('theoryCameraInput');
-        if (input) input.value = '';
-        input.click();
-    };
-
-    window.triggerGalleryUpload = function() {
-        const input = document.getElementById('theoryGalleryInput');
-        if (input) input.value = '';
-        input.click();
-    };
-
-    window.handleTheoryFileChange = async function(input) {
-        if (!input.files || !input.files[0]) return;
-        const file = input.files[0];
-        
-        // Validate file size is under 5MB
-        if (file.size > 5 * 1024 * 1024) {
-            alert("File is too large. Please upload an image smaller than 5MB.");
-            input.value = "";
-            return;
-        }
-        
-        // Convert to base64
-        const reader = new FileReader();
-        reader.onload = async (e) => {
-            const base64 = e.target.result;
-            const q = questions[examState.currentQuestionIndex];
-            
-            // Save to in-memory session cache
-            window.uploadedImages = window.uploadedImages || {};
-            window.uploadedImages[q.id] = base64;
-            
-            // Initialize or update answer metadata
-            examState.answers[q.id] = {
-                evaluated: false,
-                marks: 0,
-                suggestions: '',
-                hasImage: true,
-                imageName: file.name,
-                tutorChat: []
-            };
-            
-            StateManager.updateActiveExam({ answers: examState.answers });
-            renderQuestion(examState.currentQuestionIndex);
-        };
-        reader.readAsDataURL(file);
-    };
-
-    window.removeUploadedImage = async function() {
-        if (!confirm('Are you sure you want to remove this solution?')) return;
+    window.handleTheoryTextChange = function(textarea) {
+        const val = textarea.value;
         const q = questions[examState.currentQuestionIndex];
         
-        if (window.uploadedImages) {
-            delete window.uploadedImages[q.id];
-        }
+        examState.answers[q.id] = examState.answers[q.id] || {
+            evaluated: false,
+            marks: 0,
+            suggestions: '',
+            hasImage: false,
+            textAnswer: '',
+            tutorChat: []
+        };
         
-        delete examState.answers[q.id];
+        examState.answers[q.id].textAnswer = val;
         StateManager.updateActiveExam({ answers: examState.answers });
-        renderQuestion(examState.currentQuestionIndex);
+        
+        const evalBtn = document.getElementById('aiEvaluateBtn');
+        if (evalBtn) {
+            if (val.trim().length > 0) {
+                evalBtn.classList.remove('hidden');
+                evalBtn.classList.add('flex');
+            } else {
+                evalBtn.classList.add('hidden');
+                evalBtn.classList.remove('flex');
+            }
+        }
     };
 
     window.evaluateSolution = async function() {
         const q = questions[examState.currentQuestionIndex];
-        const imageBase64 = window.uploadedImages && window.uploadedImages[q.id] ? window.uploadedImages[q.id] : null;
+        const currentAnswerState = examState.answers[q.id] || {};
+        const textAnswer = currentAnswerState.textAnswer || '';
         
-        if (!imageBase64) {
-            alert('No image uploaded for this question.');
+        if (!textAnswer.trim()) {
+            alert('Please type your answer before submitting for grading.');
             return;
         }
 
@@ -952,23 +878,20 @@
             scanner.classList.remove('hidden');
         }
 
-        const currentAnswerState = examState.answers[q.id] || {};
-        const fileName = currentAnswerState.imageName || '';
-
         if (isMock) {
             try {
                 // Simulate AI grading with a premium delay
                 await new Promise(resolve => setTimeout(resolve, 2000));
                 
-                // Generate some detailed mock feedback based on the question and filename
-                const mockFeedback = generateMockFeedback(q, fileName);
+                // Generate some detailed mock feedback based on the question and text
+                const mockFeedback = generateMockFeedback(q, "");
 
                 examState.answers[q.id] = {
                     evaluated: true,
                     marks: mockFeedback.marks,
                     suggestions: mockFeedback.suggestions,
-                    hasImage: true,
-                    imageName: fileName,
+                    hasImage: false,
+                    textAnswer: textAnswer,
                     tutorChat: []
                 };
                 
@@ -992,8 +915,8 @@
         }
 
         try {
-            const promptText = `You are a university mathematics professor grading an exam for a Multivariable Calculus course (Paper Code: MATMJ41).
-Grade the student's handwritten or typed solution for the following question.
+            const promptText = `You are a university professor grading an exam.
+Grade the student's solution for the following question.
 
 [QUESTION]
 ${q.question}
@@ -1001,23 +924,22 @@ ${q.question}
 [REFERENCE SOLUTION & RUBRIC]
 ${q.answerKey}
 
+[STUDENT'S ANSWER]
+${textAnswer}
+
 Perform the grading by following these exact steps in your response:
 
 STEP 1: [PROBLEM ANALYSIS]
 Analyze the question and the reference solution to identify the core mathematical conditions, definitions, and proof steps required.
 
-STEP 2: [EXTRACTED TEXT FROM IMAGE]
-Analyze the student's uploaded image. Extract and transcribe the handwritten or typed text, equations, and mathematical steps written by the student in the image.
-
-STEP 3: [SOLUTION EVALUATION]
-Compare the student's extracted text against the required proof steps.
-CRITICAL RELEVANCE CHECK: If the student's uploaded image does not contain a solution to this question (e.g. if it is a random screenshot of a different webpage, an image of unrelated text, a landscape, or a syllabus list), you MUST grade this answer 0 (zero) out of 10.
+STEP 2: [SOLUTION EVALUATION]
+Compare the student's typed answer against the required proof steps.
 Verify every step for calculation errors, logical gaps, or missing definitions.
 
-STEP 4: [FINAL EVALUATION JSON]
+STEP 3: [FINAL EVALUATION JSON]
 Provide the final grade and feedback. You MUST output a JSON object at the very end of your response inside a \`\`\`json ... \`\`\` block:
 {
-  "marks": number, // integer from 0 to 10 (MUST be 0 if the image is unrelated/irrelevant)
+  "marks": number, // integer from 0 to 10
   "suggestions": string // markdown-formatted suggestions/feedback (avoid HTML tags, use standard markdown bullets/bold)
 }`;
 
@@ -1028,12 +950,6 @@ Provide the final grade and feedback. You MUST output a JSON object at the very 
                         {
                             type: "text",
                             text: promptText
-                        },
-                        {
-                            type: "image_url",
-                            image_url: {
-                                url: imageBase64
-                            }
                         }
                     ]
                 }
@@ -1177,13 +1093,13 @@ Provide the final grade and feedback. You MUST output a JSON object at the very 
         let savedEvaluation = {};
         
         try {
-            const imageBase64 = window.uploadedImages && window.uploadedImages[q.id] ? window.uploadedImages[q.id] : null;
-            if (!imageBase64) {
-                alert('No image uploaded for this question.');
+            savedEvaluation = examState.answers[q.id] || {};
+            const textAnswer = savedEvaluation.textAnswer || '';
+            if (!textAnswer.trim()) {
+                alert('No answer written for this question.');
                 return;
             }
             
-            savedEvaluation = examState.answers[q.id] || {};
             savedEvaluation.tutorChat = savedEvaluation.tutorChat || [];
             
             // Append user message locally
@@ -1218,24 +1134,18 @@ Provide the final grade and feedback. You MUST output a JSON object at the very 
                 return;
             }
 
-            // Build message log for Hugging Face
+            // Build message log for Hugging Face/NVIDIA
             const messages = [
                 {
                     role: "system",
-                    content: "You are a university mathematics assistant tutoring a student on a Multivariable Calculus course (Paper Code: MATMJ41). Answer the student's follow-up questions about their graded solution. Keep explanations clear, rigorous, and use LaTeX inline math equations ($...$) for formatting equations."
+                    content: "You are a university proctoring assistant tutoring a student on their exam. Answer the student's follow-up questions about their graded solution. Keep explanations clear, rigorous, and use LaTeX inline math equations ($...$) for formatting equations."
                 },
                 {
                     role: "user",
                     content: [
                         {
                             type: "text",
-                            text: `Original Question: ${q.question}\nReference Solution & Rubric: ${q.answerKey}\nInitial AI Feedback:\n- Marks: ${savedEvaluation.marks}/10\n- Suggestions: ${savedEvaluation.suggestions}`
-                        },
-                        {
-                            type: "image_url",
-                            image_url: {
-                                url: imageBase64
-                            }
+                            text: `Original Question: ${q.question}\nReference Solution: ${q.answerKey}\nStudent Answer: ${textAnswer}\nInitial AI Feedback:\n- Marks: ${savedEvaluation.marks}/10\n- Suggestions: ${savedEvaluation.suggestions}`
                         }
                     ]
                 }
