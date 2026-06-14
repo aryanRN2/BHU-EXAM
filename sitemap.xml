@@ -2,63 +2,84 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Home Page -->
   <url>
-    <loc>https://sciqb.com/</loc>
+    <loc>https://www.sciqb.com/</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <!-- Subjects / Active Recall Mock Exams -->
   <url>
-    <loc>https://sciqb.com/subjects.html</loc>
+    <loc>https://www.sciqb.com/subjects.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
+  <!-- NEP Curriculum Streams -->
+  <url>
+    <loc>https://www.sciqb.com/nep-pyq.html</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
   <!-- NEP Science Board -->
   <url>
-    <loc>https://sciqb.com/nep-science.html</loc>
+    <loc>https://www.sciqb.com/nep-science.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- NEP Question Papers -->
   <url>
-    <loc>https://sciqb.com/nep-papers.html</loc>
+    <loc>https://www.sciqb.com/nep-papers.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Legacy Curriculum Streams -->
+  <url>
+    <loc>https://www.sciqb.com/legacy-pyq.html</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
   <!-- Legacy Science Board -->
   <url>
-    <loc>https://sciqb.com/legacy-science.html</loc>
+    <loc>https://www.sciqb.com/legacy-science.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <!-- Legacy Question Papers -->
   <url>
-    <loc>https://sciqb.com/legacy-papers.html</loc>
+    <loc>https://www.sciqb.com/legacy-papers.html</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <!-- Syllabus Catalog -->
+  <url>
+    <loc>https://www.sciqb.com/syllabus.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <!-- Contributors -->
   <url>
-    <loc>https://sciqb.com/contributors.html</loc>
+    <loc>https://www.sciqb.com/contributors.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <!-- Privacy Policy -->
   <url>
-    <loc>https://sciqb.com/privacy.html</loc>
+    <loc>https://www.sciqb.com/privacy.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <!-- Terms and Conditions -->
   <url>
-    <loc>https://sciqb.com/terms.html</loc>
+    <loc>https://www.sciqb.com/terms.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
