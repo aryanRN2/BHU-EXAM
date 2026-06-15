@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Lecture Notes & Reference Books | SCIQB</title>
+    <meta name="description" content="Access official lecture notes, class presentations, and reference textbooks for Banaras Hindu University (BHU) courses under the NEP academic syllabus." />
+    <meta name="keywords" content="bhu notes, lecture notes, class notes, bhu exams, multivariable calculus notes, differential equations notes, mechanics notes, bhu sciqb" />
+    <link rel="canonical" href="https://www.sciqb.com/notes.html" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "accent-bhu-saffron": "#F57C00",
+                        "accent-neural-purple": "#A855F7",
+                        "accent-neural-emerald": "#10B981",
+                        "accent-neural-blue": "#3B82F6",
+                        "background-warm": "#F7F7F5",
+                        "primary": "#000000",
+                        "secondary": "#5e5e5e",
+                        "border-subtle": "#E7E7E4",
+                        "on-background": "#1b1b1b"
+                    },
+                    borderRadius: {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem"
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Vercel Web Analytics -->
+    <script defer src="/_vercel/insights/script.js"></script>
+    
+    <style>
+        /* View Transitions CSS for Directional Sliding Animations */
+        @keyframes slide-to-left {
+            to { transform: translateX(-100%); opacity: 0; }
+        }
+        @keyframes slide-from-right {
+            from { transform: translateX(100%); opacity: 0; }
+        }
+        @keyframes slide-to-right {
+            to { transform: translateX(100%); opacity: 0; }
+        }
+        @keyframes slide-from-left {
+            from { transform: translateX(-100%); opacity: 0; }
+        }
+
+        /* Set up animations */
+        ::view-transition-old(root) {
+            animation: 0.35s cubic-bezier(0.4, 0, 0.2, 1) both;
+        }
+        ::view-transition-new(root) {
+            animation: 0.35s cubic-bezier(0.4, 0, 0.2, 1) both;
+        }
+
+        /* Apply forward animations */
+        html:active-view-transition-type(forward)::view-transition-old(root) {
+            animation-name: slide-to-left;
+        }
+        html:active-view-transition-type(forward)::view-transition-new(root) {
+            animation-name: slide-from-right;
+        }
+
+        /* Apply backward animations */
+        html:active-view-transition-type(backward)::view-transition-old(root) {
+            animation-name: slide-to-right;
+        }
+        html:active-view-transition-type(backward)::view-transition-new(root) {
+            animation-name: slide-from-left;
+        }
+
+        /* Respect motion settings */
+        @media (prefers-reduced-motion: reduce) {
+            ::view-transition-group(root) {
+                animation: none !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-background-warm text-on-background antialiased selection:bg-accent-bhu-saffron/10 min-h-screen flex flex-col justify-between">
+
+<!-- TopNavBar -->
+<nav class="fixed top-0 left-0 right-0 z-50 bg-background-warm/80 backdrop-blur-xl border-b border-border-subtle shadow-sm h-16 md:h-20 w-full flex items-center">
+    <div class="max-w-7xl mx-auto px-4 md:px-8 flex justify-between items-center w-full">
+        <div class="flex items-center gap-3 md:gap-4">
+            <button id="nav-back-btn" onclick="goBack()" class="w-8 h-8 md:w-10 md:h-10 rounded-full border border-border-subtle hover:bg-neutral-100 transition-all flex items-center justify-center text-secondary hover:text-primary shrink-0 mr-1 md:mr-2" title="Back">
+                <span class="material-symbols-outlined text-base md:text-lg">arrow_back</span>
+            </button>
+            <span class="text-xl md:text-2xl font-black tracking-tight text-primary uppercase">SCIQB</span>
+        </div>
+        
+        <!-- Breadcrumbs Navigation -->
+        <div class="hidden sm:flex items-center gap-2 text-xs text-secondary/80 font-medium font-sans">
+            <a href="index.html" class="hover:text-primary transition-colors">Home</a>
+            <span class="material-symbols-outlined text-xs shrink-0 select-none text-secondary/40">chevron_right</span>
+            <span id="breadcrumb-trail" class="flex items-center gap-2">
+                <span class="text-primary font-semibold">Select Institute</span>
+            </span>
+        </div>
+    </div>
+</nav>
+
+<main class="relative pt-24 md:pt-40 pb-20 overflow-hidden flex-1 flex flex-col items-center justify-start min-h-[70vh]">
+    <!-- Background atmosphere with orbs -->
+    <div class="neural-orb bg-accent-bhu-saffron w-[500px] h-[500px] -top-20 -left-10 opacity-15 animate-float"></div>
+    <div class="neural-orb bg-accent-neural-blue w-[400px] h-[400px] bottom-10 -right-10 opacity-15 animate-float" style="animation-delay: -3s;"></div>
+
+    <div class="max-w-7xl w-full mx-auto px-4 md:px-8 relative z-10 flex flex-col items-center">
+        <!-- Header -->
+        <div class="text-center mb-10 md:mb-14 max-w-2xl">
+            <span id="header-badge" class="bg-accent-bhu-saffron/10 text-accent-bhu-saffron px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">Reference Library</span>
+            <h1 id="page-title" class="text-3xl md:text-5xl font-bold text-primary tracking-tight mt-4 transition-all duration-300">Select Institute</h1>
+            <p id="page-description" class="text-sm md:text-base text-secondary mt-3 leading-relaxed transition-all duration-300">Choose an academic institute below to access class notes, reference books, and presentation slides.</p>
+        </div>
+
+        <!-- STEP 1: Select Institute -->
+        <div id="step-institute" class="w-full max-w-5xl">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Institute of Science (Active) -->
+                <button onclick="selectInstitute('Science')" class="p-6 md:p-8 rounded-2xl border border-border-subtle bg-white/60 backdrop-blur-md hover:border-accent-bhu-saffron hover:bg-white transition-all duration-300 text-left flex flex-col justify-between min-h-[220px] group shadow-sm hover:shadow-md hover:scale-[1.02] active:scale-[0.98]">
+                    <div class="w-12 h-12 rounded-xl bg-accent-bhu-saffron/10 flex items-center justify-center text-accent-bhu-saffron group-hover:bg-accent-bhu-saffron group-hover:text-white transition-all duration-300">
+                        <span class="material-symbols-outlined text-2xl">science</span>
+                    </div>
+                    <div class="mt-6">
+                        <div class="flex items-center justify-between">
+                            <h3 class="font-bold text-lg text-primary group-hover:text-accent-bhu-saffron transition-colors">Institute of Science</h3>
+                            <span class="bg-emerald-500/10 text-emerald-600 text-[9px] font-bold px-2.5 py-0.5 rounded-full uppercase tracking-wider">Active</span>
+                        </div>
+                        <p class="text-xs text-secondary mt-2 leading-relaxed">Mathematics, Physics, Chemistry, Zoology, Botany, Geophysics...</p>
+                    </div>
+                </button>
+
+                <!-- Institute of Technology (IIT BHU) - Disabled -->
+                <div onclick="showToast('Institute of Technology notes are coming soon!')" class="p-6 md:p-8 rounded-2xl border border-border-subtle bg-white/30 backdrop-blur-md text-left flex flex-col justify-between min-h-[220px] shadow-sm opacity-80 cursor-pointer group hover:border-neutral-300 transition-colors">
+                    <div class="w-12 h-12 rounded-xl bg-accent-neural-blue/5 flex items-center justify-center text-accent-neural-blue/50 group-hover:bg-accent-neural-blue/10 transition-colors">
+                        <span class="material-symbols-outlined text-2xl">precision_manufacturing</span>
+                    </div>
+                    <div class="mt-6">
+                        <div class="flex items-center justify-between">
+                            <h3 class="font-bold text-lg text-primary/60">Institute of Technology</h3>
+                            <span class="bg-neutral-200/60 text-secondary text-[8px] font-bold px-2 py-0.5 rounded uppercase tracking-wider">Coming Soon</span>
+                        </div>
+                        <p class="text-xs text-secondary/60 mt-2 leading-relaxed">Computer Science, Mechanical, Electronics, Civil, Chemical engineering materials...</p>
+                    </div>
+                </div>
+
+                <!-- Institute of Medical Sciences (IMS) - Disabled -->
+                <div onclick="showToast('Medical Sciences library notes are coming soon!')" class="p-6 md:p-8 rounded-2xl border border-border-subtle bg-white/30 backdrop-blur-md text-left flex flex-col justify-between min-h-[220px] shadow-sm opacity-80 cursor-pointer group hover:border-neutral-300 transition-colors">
+                    <div class="w-12 h-12 rounded-xl bg-red-500/5 flex items-center justify-center text-red-500/50 group-hover:bg-red-500/10 transition-colors">
+                        <span class="material-symbols-outlined text-2xl">medical_services</span>
+                    </div>
+                    <div class="mt-6">
+                        <div class="flex items-center justify-between">
+                            <h3 class="font-bold text-lg text-primary/60">IMS (Medical Sciences)</h3>
+                            <span class="bg-neutral-200/60 text-secondary text-[8px] font-bold px-2 py-0.5 rounded uppercase tracking-wider">Coming Soon</span>
+                        </div>
+                        <p class="text-xs text-secondary/60 mt-2 leading-relaxed">Anatomy, Physiology, Biochemistry, Pathology, Pharmacology lectures...</p>
+                    </div>
+                </div>
+
+                <!-- Commerce - Disabled -->
+                <div onclick="showToast('Commerce syllabus and class notes are coming soon!')" class="p-6 md:p-8 rounded-2xl border border-border-subtle bg-white/30 backdrop-blur-md text-left flex flex-col justify-between min-h-[220px] shadow-sm opacity-80 cursor-pointer group hover:border-neutral-300 transition-colors">
+                    <div class="w-12 h-12 rounded-xl bg-accent-neural-purple/5 flex items-center justify-center text-accent-neural-purple/50 group-hover:bg-accent-neural-purple/10 transition-colors">
+                        <span class="material-symbols-outlined text-2xl">payments</span>
+                    </div>
+                    <div class="mt-6">
+                        <div class="flex items-center justify-between">
+                            <h3 class="font-bold text-lg text-primary/60">Commerce & Management</h3>
+                            <span class="bg-neutral-200/60 text-secondary text-[8px] font-bold px-2 py-0.5 rounded uppercase tracking-wider">Coming Soon</span>
+                        </div>
+                        <p class="text-xs text-secondary/60 mt-2 leading-relaxed">Accounting, Business Studies, Statistics, Auditing, Corporate Law lectures...</p>
+                    </div>
+                </div>
+
+                <!-- Arts - Disabled -->
+                <div onclick="showToast('Arts and Humanities notes are coming soon!')" class="p-6 md:p-8 rounded-2xl border border-border-subtle bg-white/30 backdrop-blur-md text-left flex flex-col justify-between min-h-[220px] shadow-sm opacity-80 cursor-pointer group hover:border-neutral-300 transition-colors">
+                    <div class="w-12 h-12 rounded-xl bg-amber-600/5 flex items-center justify-center text-amber-600/50 group-hover:bg-amber-600/10 transition-colors">
+                        <span class="material-symbols-outlined text-2xl">palette</span>
+                    </div>
+                    <div class="mt-6">
+                        <div class="flex items-center justify-between">
+                            <h3 class="font-bold text-lg text-primary/60">Faculty of Arts</h3>
+                            <span class="bg-neutral-200/60 text-secondary text-[8px] font-bold px-2 py-0.5 rounded uppercase tracking-wider">Coming Soon</span>
+                        </div>
+                        <p class="text-xs text-secondary/60 mt-2 leading-relaxed">Literature, Philosophy, Linguistics, History, Sociology, Political Science...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- STEP 2: Select Department (Science Division) -->
+        <div id="step-department" class="w-full max-w-5xl hidden">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Mathematics (Active) -->
+                <button onclick="selectDepartment('Mathematics')" class="p-5 md:p-6 rounded-xl border border-border-subtle bg-white/60 backdrop-blur-md hover:border-accent-bhu-saffron hover:bg-white transition-all duration-300 text-left flex items-center gap-5 group shadow-sm hover:shadow-md hover:scale-[1.01] active:scale-[0.99]">
+                    <div class="w-12 h-12 rounded-lg bg-accent-bhu-saffron/10 flex items-center justify-center text-accent-bhu-saffron group-hover:bg-accent-bhu-saffron group-hover:text-white transition-all duration-300 shrink-0">
+                        <span class="material-symbols-outlined text-2xl">calculate</span>
+                    </div>
+                    <div class="flex-grow">
+                        <div class="flex items-center justify-between">
+                            <h3 class="font-bold text-base text-primary group-hover:text-accent-bhu-saffron transition-colors">Mathematics</h3>
+                            <span class="bg-emerald-500/10 text-emerald-600 text-[8px] font-bold px-2 py-0.5 rounded uppercase tracking-wider shrink-0">Active</span>
+                        </div>
+                        <p class="text-[11px] text-secondary mt-0.5">Calculus, Diff Equations, Vector & Tensor, Mechanics...</p>
+                    </div>
+                </button>
+
+                <!-- Physics - Disabled -->
+                <div onclick="showToast('Physics lecture notes are coming soon!')" class="p-5 md:p-6 rounded-xl border border-border-subtle bg-white/30 backdrop-blur-md text-left flex items-center gap-5 shadow-sm opacity-85 cursor-pointer group hover:border-neutral-300 transition-colors">
+                    <div class="w-12 h-12 rounded-lg bg-accent-neural-purple/5 flex items-center justify-center text-accent-neural-purple/50 shrink-0">
+                        <span class="material-symbols-outlined text-2xl">insights</span>
+                    </div>
+                    <div class="flex-grow">
+                        <div class="flex items-center justify-between">
+                            <h3 class="font-bold text-base text-primary/60">Physics</h3>
+                            <span class="bg-neutral-200/60 text-secondary text-[8px] font-bold px-2 py-0.5 rounded uppercase tracking-wider shrink-0">Soon</span>
+                        </div>
+                        <p class="text-[11px] text-secondary/60 mt-0.5">Quantum, Electromagnetism, Optics, Thermodynamics...</p>
+                    </div>
+                </div>
+
+                <!-- Chemistry - Disabled -->
+                <div onclick="showToast('Chemistry lecture notes are coming soon!')" class="p-5 md:p-6 rounded-xl border border-border-subtle bg-white/30 backdrop-blur-md text-left flex items-center gap-5 shadow-sm opacity-85 cursor-pointer group hover:border-neutral-300 transition-colors">
+                    <div class="w-12 h-12 rounded-lg bg-accent-neural-blue/5 flex items-center justify-center text-accent-neural-blue/50 shrink-0">
+                        <span class="material-symbols-outlined text-2xl">science</span>
+                    </div>
+                    <div class="flex-grow">
+                        <div class="flex items-center justify-between">
+                            <h3 class="font-bold text-base text-primary/60">Chemistry</h3>
+                            <span class="bg-neutral-200/60 text-secondary text-[8px] font-bold px-2 py-0.5 rounded uppercase tracking-wider shrink-0">Soon</span>
+                        </div>
+                        <p class="text-[11px] text-secondary/60 mt-0.5">Organic mechanisms, Inorganic structures, Physical...</p>
+                    </div>
+                </div>
+
+                <!-- Botany - Disabled -->
+                <div onclick="showToast('Botany notes are coming soon!')" class="p-5 md:p-6 rounded-xl border border-border-subtle bg-white/30 backdrop-blur-md text-left flex items-center gap-5 shadow-sm opacity-85 cursor-pointer group hover:border-neutral-300 transition-colors">
+                    <div class="w-12 h-12 rounded-lg bg-accent-neural-emerald/5 flex items-center justify-center text-accent-neural-emerald/50 shrink-0">
+                        <span class="material-symbols-outlined text-2xl">eco</span>
+                    </div>
+                    <div class="flex-grow">
+                        <div class="flex items-center justify-between">
+                            <h3 class="font-bold text-base text-primary/60">Botany</h3>
+                            <span class="bg-neutral-200/60 text-secondary text-[8px] font-bold px-2 py-0.5 rounded uppercase tracking-wider shrink-0">Soon</span>
+                        </div>
+                        <p class="text-[11px] text-secondary/60 mt-0.5">Plant water relations, anatomy, cell biology, genetics...</p>
+                    </div>
+                </div>
+
+                <!-- Zoology - Disabled -->
+                <div onclick="showToast('Zoology lecture notes are coming soon!')" class="p-5 md:p-6 rounded-xl border border-border-subtle bg-white/30 backdrop-blur-md text-left flex items-center gap-5 shadow-sm opacity-85 cursor-pointer group hover:border-neutral-300 transition-colors">
+                    <div class="w-12 h-12 rounded-lg bg-red-500/5 flex items-center justify-center text-red-500/50 shrink-0">
+                        <span class="material-symbols-outlined text-2xl">pets</span>
+                    </div>
+                    <div class="flex-grow">
+                        <div class="flex items-center justify-between">
+                            <h3 class="font-bold text-base text-primary/60">Zoology</h3>
+                            <span class="bg-neutral-200/60 text-secondary text-[8px] font-bold px-2 py-0.5 rounded uppercase tracking-wider shrink-0">Soon</span>
+                        </div>
+                        <p class="text-[11px] text-secondary/60 mt-0.5">Animal physiology, developmental biology, ecology...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- STEP 3: Semester & Lecture Notes -->
+        <div id="step-notes" class="w-full max-w-5xl hidden">
+            <!-- Semester Selectors -->
+            <div class="flex items-center gap-2 overflow-x-auto pb-4 mb-8 scrollbar-none border-b border-border-subtle w-full">
+                <button onclick="showToast('Semester I notes are coming soon!')" class="px-4 py-2 text-xs font-bold rounded-full border border-border-subtle bg-white/60 text-secondary hover:bg-neutral-100 transition-all shrink-0">Semester I</button>
+                <button onclick="showToast('Semester II notes are coming soon!')" class="px-4 py-2 text-xs font-bold rounded-full border border-border-subtle bg-white/60 text-secondary hover:bg-neutral-100 transition-all shrink-0">Semester II</button>
+                <button onclick="showToast('Semester III notes are coming soon!')" class="px-4 py-2 text-xs font-bold rounded-full border border-border-subtle bg-white/60 text-secondary hover:bg-neutral-100 transition-all shrink-0">Semester III</button>
+                <button class="px-5 py-2 text-xs font-bold rounded-full border border-accent-bhu-saffron bg-accent-bhu-saffron text-white transition-all shrink-0 shadow-sm shadow-accent-bhu-saffron/20">Semester IV</button>
+                <button onclick="showToast('Semester V notes are coming soon!')" class="px-4 py-2 text-xs font-bold rounded-full border border-border-subtle bg-white/60 text-secondary hover:bg-neutral-100 transition-all shrink-0">Semester V</button>
+                <button onclick="showToast('Semester VI notes are coming soon!')" class="px-4 py-2 text-xs font-bold rounded-full border border-border-subtle bg-white/60 text-secondary hover:bg-neutral-100 transition-all shrink-0">Semester VI</button>
+                <button onclick="showToast('Semester VII notes are coming soon!')" class="px-4 py-2 text-xs font-bold rounded-full border border-border-subtle bg-white/60 text-secondary hover:bg-neutral-100 transition-all shrink-0">Semester VII</button>
+                <button onclick="showToast('Semester VIII notes are coming soon!')" class="px-4 py-2 text-xs font-bold rounded-full border border-border-subtle bg-white/60 text-secondary hover:bg-neutral-100 transition-all shrink-0">Semester VIII</button>
+            </div>
+
+            <!-- Notes Cards Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
+                <!-- Course 1: MATMJ41 -->
+                <div class="p-6 rounded-2xl border border-border-subtle bg-white/60 backdrop-blur-md flex flex-col justify-between min-h-[200px] hover:border-accent-bhu-saffron/40 hover:bg-white transition-all duration-300 group shadow-sm">
+                    <div>
+                        <div class="flex items-start justify-between">
+                            <span class="bg-accent-bhu-saffron/10 text-accent-bhu-saffron text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">MATMJ41 (Major)</span>
+                            <span class="flex items-center gap-1 text-[10px] font-semibold text-secondary bg-neutral-100 px-2 py-1 rounded-full">
+                                <span class="material-symbols-outlined text-[12px] fill">picture_as_pdf</span>
+                                43.9 MB
+                            </span>
+                        </div>
+                        <h3 class="font-bold text-lg text-primary mt-4 group-hover:text-accent-bhu-saffron transition-colors">Several Variable Calculus</h3>
+                        <p class="text-xs text-secondary mt-2 leading-relaxed">KM Sir class notes covering limits, continuity, differentiability of functions of several variables, multiple integrals, and Stokes/Green's/Divergence theorems.</p>
+                    </div>
+                    <div class="mt-6 flex gap-3">
+                        <a href="/api/download-pdf?file=NOTES/MATHS/SEMESTER%204/KM%20Sir%20class%20notes.pdf" target="_blank" class="flex-1 text-center bg-primary text-white py-2.5 rounded-xl font-bold text-xs hover:bg-neutral-800 transition-all active:scale-[0.98] flex items-center justify-center gap-2">
+                            <span class="material-symbols-outlined text-sm">visibility</span>
+                            View Notes
+                        </a>
+                        <a href="/api/download-pdf?file=NOTES/MATHS/SEMESTER%204/KM%20Sir%20class%20notes.pdf" download="MATMJ41_Several_Variable_Calculus.pdf" class="px-4 bg-neutral-100 text-secondary py-2.5 rounded-xl font-bold text-xs hover:bg-neutral-200 hover:text-primary transition-all active:scale-[0.98] flex items-center justify-center" title="Download">
+                            <span class="material-symbols-outlined text-sm">download</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Course 2: MATMJ42 -->
+                <div class="p-6 rounded-2xl border border-border-subtle bg-white/60 backdrop-blur-md flex flex-col justify-between min-h-[200px] hover:border-accent-bhu-saffron/40 hover:bg-white transition-all duration-300 group shadow-sm">
+                    <div>
+                        <div class="flex items-start justify-between">
+                            <span class="bg-accent-bhu-saffron/10 text-accent-bhu-saffron text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">MATMJ42 (Major)</span>
+                            <span class="flex items-center gap-1 text-[10px] font-semibold text-secondary bg-neutral-100 px-2 py-1 rounded-full">
+                                <span class="material-symbols-outlined text-[12px] fill">picture_as_pdf</span>
+                                27.2 MB
+                            </span>
+                        </div>
+                        <h3 class="font-bold text-lg text-primary mt-4 group-hover:text-accent-bhu-saffron transition-colors">Vector and Tensor Analysis</h3>
+                        <p class="text-xs text-secondary mt-2 leading-relaxed">Lecture notes covering vector differentiation, vector integrations, curvilinear coordinates, and an introduction to Cartesian tensors and tensor fields.</p>
+                    </div>
+                    <div class="mt-6 flex gap-3">
+                        <a href="/api/download-pdf?file=NOTES/MATHS/SEMESTER%204/Vector%20and%20Tensor%20Analysis%20notes.pdf" target="_blank" class="flex-1 text-center bg-primary text-white py-2.5 rounded-xl font-bold text-xs hover:bg-neutral-800 transition-all active:scale-[0.98] flex items-center justify-center gap-2">
+                            <span class="material-symbols-outlined text-sm">visibility</span>
+                            View Notes
+                        </a>
+                        <a href="/api/download-pdf?file=NOTES/MATHS/SEMESTER%204/Vector%20and%20Tensor%20Analysis%20notes.pdf" download="MATMJ42_Vector_Tensor_Analysis.pdf" class="px-4 bg-neutral-100 text-secondary py-2.5 rounded-xl font-bold text-xs hover:bg-neutral-200 hover:text-primary transition-all active:scale-[0.98] flex items-center justify-center" title="Download">
+                            <span class="material-symbols-outlined text-sm">download</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Course 3: MATMJ43 -->
+                <div class="p-6 rounded-2xl border border-border-subtle bg-white/60 backdrop-blur-md flex flex-col justify-between min-h-[200px] hover:border-accent-bhu-saffron/40 hover:bg-white transition-all duration-300 group shadow-sm">
+                    <div>
+                        <div class="flex items-start justify-between">
+                            <span class="bg-accent-bhu-saffron/10 text-accent-bhu-saffron text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">MATMJ43 (Major)</span>
+                            <span class="flex items-center gap-1 text-[10px] font-semibold text-secondary bg-neutral-100 px-2 py-1 rounded-full">
+                                <span class="material-symbols-outlined text-[12px] fill">picture_as_pdf</span>
+                                37.9 MB
+                            </span>
+                        </div>
+                        <h3 class="font-bold text-lg text-primary mt-4 group-hover:text-accent-bhu-saffron transition-colors">Differential Equations (Major)</h3>
+                        <p class="text-xs text-secondary mt-2 leading-relaxed">Official lecture series notes for Ordinary Differential Equations (ODEs) and Partial Differential Equations (PDEs), including power series solutions and boundary value problems.</p>
+                    </div>
+                    <div class="mt-6 flex gap-3">
+                        <a href="/api/download-pdf?file=NOTES/MATHS/SEMESTER%204/Differential%20equation%20notes.pdf" target="_blank" class="flex-1 text-center bg-primary text-white py-2.5 rounded-xl font-bold text-xs hover:bg-neutral-800 transition-all active:scale-[0.98] flex items-center justify-center gap-2">
+                            <span class="material-symbols-outlined text-sm">visibility</span>
+                            View Notes
+                        </a>
+                        <a href="/api/download-pdf?file=NOTES/MATHS/SEMESTER%204/Differential%20equation%20notes.pdf" download="MATMJ43_Differential_Equations.pdf" class="px-4 bg-neutral-100 text-secondary py-2.5 rounded-xl font-bold text-xs hover:bg-neutral-200 hover:text-primary transition-all active:scale-[0.98] flex items-center justify-center" title="Download">
+                            <span class="material-symbols-outlined text-sm">download</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Course 4: Mechanics -->
+                <div class="p-6 rounded-2xl border border-border-subtle bg-white/60 backdrop-blur-md flex flex-col justify-between min-h-[200px] hover:border-accent-bhu-saffron/40 hover:bg-white transition-all duration-300 group shadow-sm">
+                    <div>
+                        <div class="flex items-start justify-between">
+                            <span class="bg-accent-bhu-saffron/10 text-accent-bhu-saffron text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Mechanics</span>
+                            <span class="flex items-center gap-1 text-[10px] font-semibold text-secondary bg-neutral-100 px-2 py-1 rounded-full">
+                                <span class="material-symbols-outlined text-[12px] fill">picture_as_pdf</span>
+                                30.7 MB
+                            </span>
+                        </div>
+                        <h3 class="font-bold text-lg text-primary mt-4 group-hover:text-accent-bhu-saffron transition-colors">Dynamics & Statics</h3>
+                        <p class="text-xs text-secondary mt-2 leading-relaxed">Comprehensive study notes on forces in three dimensions, virtual work, stable and unstable equilibrium, common catenary, rectinlinear motion, and central orbits.</p>
+                    </div>
+                    <div class="mt-6 flex gap-3">
+                        <!-- Note the exact path format with the space before .pdf -->
+                        <a href="/api/download-pdf?file=NOTES/MATHS/SEMESTER%204/MECHANICS%20class%20notes%20.pdf" target="_blank" class="flex-1 text-center bg-primary text-white py-2.5 rounded-xl font-bold text-xs hover:bg-neutral-800 transition-all active:scale-[0.98] flex items-center justify-center gap-2">
+                            <span class="material-symbols-outlined text-sm">visibility</span>
+                            View Notes
+                        </a>
+                        <a href="/api/download-pdf?file=NOTES/MATHS/SEMESTER%204/MECHANICS%20class%20notes%20.pdf" download="Mechanics_Class_Notes.pdf" class="px-4 bg-neutral-100 text-secondary py-2.5 rounded-xl font-bold text-xs hover:bg-neutral-200 hover:text-primary transition-all active:scale-[0.98] flex items-center justify-center" title="Download">
+                            <span class="material-symbols-outlined text-sm">download</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Course 5: MATMN41 -->
+                <div class="p-6 rounded-2xl border border-border-subtle bg-white/60 backdrop-blur-md flex flex-col justify-between min-h-[200px] hover:border-accent-bhu-saffron/40 hover:bg-white transition-all duration-300 group shadow-sm">
+                    <div>
+                        <div class="flex items-start justify-between">
+                            <span class="bg-accent-bhu-saffron/10 text-accent-bhu-saffron text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">MATMN41 (Minor)</span>
+                            <span class="flex items-center gap-1 text-[10px] font-semibold text-secondary bg-neutral-100 px-2 py-1 rounded-full">
+                                <span class="material-symbols-outlined text-[12px] fill">picture_as_pdf</span>
+                                37.9 MB
+                            </span>
+                        </div>
+                        <h3 class="font-bold text-lg text-primary mt-4 group-hover:text-accent-bhu-saffron transition-colors">Differential Equations (Minor)</h3>
+                        <p class="text-xs text-secondary mt-2 leading-relaxed">Lecture notes matching the Minor stream syllabus, detailing ordinary differential equations, orthogonal trajectories, Laplace transforms, and basic PDEs.</p>
+                    </div>
+                    <div class="mt-6 flex gap-3">
+                        <a href="/api/download-pdf?file=NOTES/MATHS/SEMESTER%204/Differential%20equation%20notes.pdf" target="_blank" class="flex-1 text-center bg-primary text-white py-2.5 rounded-xl font-bold text-xs hover:bg-neutral-800 transition-all active:scale-[0.98] flex items-center justify-center gap-2">
+                            <span class="material-symbols-outlined text-sm">visibility</span>
+                            View Notes
+                        </a>
+                        <a href="/api/download-pdf?file=NOTES/MATHS/SEMESTER%204/Differential%20equation%20notes.pdf" download="MATMN41_Differential_Equations_Minor.pdf" class="px-4 bg-neutral-100 text-secondary py-2.5 rounded-xl font-bold text-xs hover:bg-neutral-200 hover:text-primary transition-all active:scale-[0.98] flex items-center justify-center" title="Download">
+                            <span class="material-symbols-outlined text-sm">download</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex flex-col gap-2 max-w-sm pointer-events-none"></div>
+</main>
+
+<!-- Footer -->
+<footer class="w-full py-12 bg-background-warm border-t border-border-subtle">
+    <div class="max-w-7xl mx-auto px-4 md:px-8 flex flex-col md:flex-row justify-between items-center gap-8">
+        <div>
+            <p class="text-xs text-secondary">© 2026 Banaras Hindu University. Prepared under NEP academic syllabus archive.</p>
+        </div>
+        <div class="flex items-center gap-6">
+            <a class="text-xs text-secondary hover:text-primary transition-colors" href="index.html">
+                Main Portal
+            </a>
+            <a class="text-xs text-secondary hover:text-primary transition-colors" href="nep-pyq.html">
+                PYQs Page
+            </a>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // State management: Step tracking
+    let currentStep = 1;
+    let selectedInst = "";
+    let selectedDept = "";
+
+    const steps = {
+        1: {
+            id: 'step-institute',
+            title: 'Select Institute',
+            desc: 'Choose an academic institute below to access class notes, reference books, and presentation slides.',
+            badge: 'Reference Library',
+            breadcrumbs: `<span class="text-primary font-semibold">Select Institute</span>`
+        },
+        2: {
+            id: 'step-department',
+            title: 'Select Department',
+            desc: 'Pick a science department below to view its semester-wise lecture notes and references.',
+            badge: 'Science Division',
+            breadcrumbs: `<a href="#" onclick="transitionToStep(1, 'backward'); return false;" class="hover:text-primary transition-colors">Select Institute</a>
+                          <span class="material-symbols-outlined text-xs shrink-0 select-none text-secondary/40">chevron_right</span>
+                          <span class="text-primary font-semibold">Science</span>`
+        },
+        3: {
+            id: 'step-notes',
+            title: 'Mathematics notes',
+            desc: 'Access classroom notes compiled from lectures by Banaras Hindu University faculties.',
+            badge: 'Mathematics Division',
+            breadcrumbs: `<a href="#" onclick="transitionToStep(1, 'backward'); return false;" class="hover:text-primary transition-colors">Select Institute</a>
+                          <span class="material-symbols-outlined text-xs shrink-0 select-none text-secondary/40">chevron_right</span>
+                          <a href="#" onclick="transitionToStep(2, 'backward'); return false;" class="hover:text-primary transition-colors">Science</a>
+                          <span class="material-symbols-outlined text-xs shrink-0 select-none text-secondary/40">chevron_right</span>
+                          <span class="text-primary font-semibold">Mathematics Notes</span>`
+        }
+    };
+
+    function selectInstitute(name) {
+        if (name === 'Science') {
+            selectedInst = name;
+            transitionToStep(2, 'forward');
+        } else {
+            showToast(`${name} division notes are coming soon!`);
+        }
+    }
+
+    function selectDepartment(name) {
+        if (name === 'Mathematics') {
+            selectedDept = name;
+            transitionToStep(3, 'forward');
+        } else {
+            showToast(`${name} notes are coming soon!`);
+        }
+    }
+
+    function goBack() {
+        if (currentStep === 3) {
+            transitionToStep(2, 'backward');
+        } else if (currentStep === 2) {
+            transitionToStep(1, 'backward');
+        } else {
+            window.location.href = 'index.html';
+        }
+    }
+
+    function transitionToStep(targetStep, direction) {
+        const updateDOM = () => {
+            // Hide all steps
+            Object.keys(steps).forEach(s => {
+                document.getElementById(steps[s].id).classList.add('hidden');
+            });
+            // Show target step
+            document.getElementById(steps[targetStep].id).classList.remove('hidden');
+            
+            // Update Title, Subtitle, Badge, and Breadcrumbs
+            document.getElementById('page-title').textContent = steps[targetStep].title;
+            document.getElementById('page-description').textContent = steps[targetStep].desc;
+            document.getElementById('header-badge').textContent = steps[targetStep].badge;
+            document.getElementById('breadcrumb-trail').innerHTML = steps[targetStep].breadcrumbs;
+            
+            // Scroll to top of page/main container smoothly
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+
+            // Update local state
+            currentStep = targetStep;
+        };
+
+        // Feature detect browser support for View Transitions API
+        if (!document.startViewTransition) {
+            updateDOM();
+            return;
+        }
+
+        // Start view transition with directional animation type
+        document.startViewTransition({
+            update: updateDOM,
+            types: [direction]
+        });
+    }
+
+    // Dynamic toast notification utility
+    function showToast(message) {
+        const container = document.getElementById('toast-container');
+        
+        const toast = document.createElement('div');
+        toast.className = "bg-neutral-900/95 text-white/95 backdrop-blur-md text-xs font-semibold px-4 py-3 rounded-xl border border-neutral-800 shadow-xl opacity-0 translate-y-2 transition-all duration-300 flex items-center gap-2 pointer-events-auto cursor-pointer";
+        toast.innerHTML = `
+            <span class="material-symbols-outlined text-accent-bhu-saffron text-sm shrink-0">info</span>
+            <span>${message}</span>
+        `;
+        
+        container.appendChild(toast);
+        
+        // Trigger show animation
+        setTimeout(() => {
+            toast.classList.remove('opacity-0', 'translate-y-2');
+        }, 50);
+        
+        // Automatically hide and remove after 3.5 seconds
+        const hideTimeout = setTimeout(() => {
+            toast.classList.add('opacity-0', 'translate-y-2');
+            setTimeout(() => {
+                toast.remove();
+            }, 300);
+        }, 3500);
+
+        // Allow manual dismiss on click
+        toast.addEventListener('click', () => {
+            clearTimeout(hideTimeout);
+            toast.classList.add('opacity-0', 'translate-y-2');
+            setTimeout(() => {
+                toast.remove();
+            }, 300);
+        });
+    }
+
+    // Floating neural orbs parallax interaction
+    document.addEventListener('mousemove', (e) => {
+        const orbs = document.querySelectorAll('.neural-orb');
+        const mouseX = e.clientX / window.innerWidth;
+        const mouseY = e.clientY / window.innerHeight;
+
+        orbs.forEach((orb, index) => {
+            const speed = (index + 1) * 12;
+            const x = (mouseX - 0.5) * speed;
+            const y = (mouseY - 0.5) * speed;
+            orb.style.transform = `translate(${x}px, ${y}px)`;
+        });
+    });
+</script>
+
+</body>
+</html>

@@ -412,19 +412,17 @@
                     </div>
                 </div>
 
-                <div onclick="alert('Reference Books and Notes are coming soon!')"
+                <div onclick="window.location.href='notes.html'"
                     class="md:col-span-3 bento-card bg-primary text-on-primary rounded-2xl p-6 flex flex-col justify-between hover:bg-neutral-800 transition-colors cursor-pointer group min-h-[200px]">
                     <div class="flex justify-between items-start">
                         <span
                             class="material-symbols-outlined text-3xl text-accent-bhu-saffron group-hover:scale-110 transition-transform duration-300">library_books</span>
                         <span
-                            class="text-[10px] font-bold text-white/70 bg-white/10 px-2 py-1 rounded-full uppercase tracking-wider">Coming
-                            Soon</span>
+                            class="text-[10px] font-bold text-emerald-400 bg-emerald-400/10 px-2 py-0.5 rounded-full uppercase tracking-wider">Active</span>
                     </div>
                     <div>
                         <h4 class="text-lg font-bold text-white mb-1 leading-snug">Reference Book and Notes</h4>
-                        <p class="text-xs text-white/50 leading-relaxed">Free PDF downloads of official textbooks &
-                            guides.</p>
+                        <p class="text-xs text-white/50 leading-relaxed">Free PDF downloads of official textbooks & class notes.</p>
                     </div>
                 </div>
 
@@ -578,98 +576,6 @@
         </div>
     </footer>
 
-    <!-- ═══════════════════════════ BOOKS MODAL ═══════════════════════════ -->
-    <div id="booksModal" onclick="if(event.target === this) closeBooksModal()"
-        class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/40 backdrop-blur-md opacity-0 transition-opacity duration-300 p-4 overflow-y-auto">
-        <div
-            class="bg-white rounded-2xl w-full max-w-2xl p-6 sm:p-8 shadow-2xl relative border border-border-subtle transform scale-95 transition-transform duration-300 my-auto max-h-[90vh] overflow-y-auto">
-            <button onclick="closeBooksModal()"
-                class="absolute top-5 right-5 w-8 h-8 flex items-center justify-center rounded-full hover:bg-surface-container text-secondary hover:text-primary transition-colors">
-                <span class="material-symbols-outlined text-lg">close</span>
-            </button>
-            <div class="flex flex-col items-center mb-8">
-                <div
-                    class="w-12 h-12 rounded-full bg-accent-bhu-saffron/10 flex items-center justify-center text-accent-bhu-saffron mb-3">
-                    <span class="material-symbols-outlined text-2xl">library_books</span>
-                </div>
-                <h3 class="text-2xl font-bold text-primary text-center">Reference Library</h3>
-                <p class="text-xs text-secondary mt-1 text-center">Download official textbooks & syllabi for BHU
-                    preparation</p>
-            </div>
-            <div class="space-y-6">
-                <div>
-                    <h4
-                        class="text-xs font-bold text-secondary uppercase tracking-widest mb-3 border-b border-border-subtle pb-1">
-                        Multivariable Calculus (MATMJ41)</h4>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <div
-                            class="p-4 rounded-xl border border-border-subtle bg-background-warm/50 flex flex-col justify-between gap-3 hover:shadow-sm transition-all text-left">
-                            <div>
-                                <h5 class="font-bold text-sm text-primary">Thomas' Calculus</h5>
-                                <p class="text-[10px] text-secondary mt-1">14th Edition • Primary reference for limits,
-                                    multiple integrals, and vector calculus.</p>
-                            </div>
-                            <a href="https://archive.org/download/thomas-calculus-14th-edition/Thomas%27%20Calculus%20%2814th%20Edition%29.pdf"
-                                target="_blank"
-                                class="w-full bg-primary text-on-primary py-2 rounded-full font-bold text-xs flex items-center justify-center gap-2 hover:bg-neutral-800 active:scale-95 transition-all">
-                                <span class="material-symbols-outlined text-sm">download</span>
-                                <span>Download PDF</span>
-                            </a>
-                        </div>
-                        <div
-                            class="p-4 rounded-xl border border-border-subtle bg-background-warm/50 flex flex-col justify-between gap-3 hover:shadow-sm transition-all text-left">
-                            <div>
-                                <h5 class="font-bold text-sm text-primary">Stewart Calculus</h5>
-                                <p class="text-[10px] text-secondary mt-1">7th Edition • Excellent reference for partial
-                                    derivatives, Lagrange multipliers, and Green's Theorem.</p>
-                            </div>
-                            <a href="https://archive.org/download/stewart-calculus-7e/stewart-calculus-7e.pdf"
-                                target="_blank"
-                                class="w-full bg-primary text-on-primary py-2 rounded-full font-bold text-xs flex items-center justify-center gap-2 hover:bg-neutral-800 active:scale-95 transition-all">
-                                <span class="material-symbols-outlined text-sm">download</span>
-                                <span>Download PDF</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <h4
-                        class="text-xs font-bold text-secondary uppercase tracking-widest mb-3 border-b border-border-subtle pb-1">
-                        Academic Writing (AEC)</h4>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <div
-                            class="p-4 rounded-xl border border-border-subtle bg-background-warm/50 flex flex-col justify-between gap-3 hover:shadow-sm transition-all text-left">
-                            <div>
-                                <h5 class="font-bold text-sm text-primary">Academic Writing Handbook</h5>
-                                <p class="text-[10px] text-secondary mt-1">A comprehensive guide for formatting,
-                                    citations, and plagiarism prevention.</p>
-                            </div>
-                            <a href="https://archive.org/download/academic-writing-handbook-for-international-students/academic-writing-handbook-for-international-students.pdf"
-                                target="_blank"
-                                class="w-full bg-primary text-on-primary py-2 rounded-full font-bold text-xs flex items-center justify-center gap-2 hover:bg-neutral-800 active:scale-95 transition-all">
-                                <span class="material-symbols-outlined text-sm">download</span>
-                                <span>Download PDF</span>
-                            </a>
-                        </div>
-                        <div
-                            class="p-4 rounded-xl border border-border-subtle bg-background-warm/50 flex flex-col justify-between gap-3 hover:shadow-sm transition-all text-left">
-                            <div>
-                                <h5 class="font-bold text-sm text-primary">BHU Course Syllabus</h5>
-                                <p class="text-[10px] text-secondary mt-1">Official course syllabus guidelines and exam
-                                    structure reference sheet.</p>
-                            </div>
-                            <button onclick="downloadMockSyllabus()"
-                                class="w-full bg-accent-bhu-saffron text-white py-2 rounded-full font-bold text-xs flex items-center justify-center gap-2 hover:bg-amber-600 active:scale-95 transition-all">
-                                <span class="material-symbols-outlined text-sm">download_for_offline</span>
-                                <span>Download Syllabus</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- ═══════════════════════════ POLICY MODAL ═══════════════════════════ -->
     <div id="policyModal" onclick="if(event.target === this) closePolicyModal()"
         class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/40 backdrop-blur-md opacity-0 transition-opacity duration-300 p-4 overflow-y-auto">
@@ -779,77 +685,6 @@
             }
         };
 
-        window.openBooksModal = function () {
-            const modal = document.getElementById('booksModal');
-            modal.classList.remove('hidden');
-            modal.classList.add('flex');
-            setTimeout(() => {
-                modal.classList.remove('opacity-0');
-                modal.querySelector('.bg-white').classList.remove('scale-95');
-            }, 10);
-        };
-
-        window.closeBooksModal = function () {
-            const modal = document.getElementById('booksModal');
-            modal.classList.add('opacity-0');
-            modal.querySelector('.bg-white').classList.add('scale-95');
-            setTimeout(() => {
-                modal.classList.add('hidden');
-                modal.classList.remove('flex');
-            }, 300);
-        };
-
-        window.openPolicyModal = function () {
-            const modal = document.getElementById('policyModal');
-            modal.classList.remove('hidden');
-            modal.classList.add('flex');
-            setTimeout(() => {
-                modal.classList.remove('opacity-0');
-                modal.querySelector('.bg-white').classList.remove('scale-95');
-            }, 10);
-        };
-
-        window.closePolicyModal = function () {
-            const modal = document.getElementById('policyModal');
-            modal.classList.add('opacity-0');
-            modal.querySelector('.bg-white').classList.add('scale-95');
-            setTimeout(() => {
-                modal.classList.add('hidden');
-                modal.classList.remove('flex');
-            }, 300);
-        };
-
-        window.downloadMockSyllabus = function () {
-            const text = `================================================
-BANARAS HINDU UNIVERSITY (BHU)
-OFFICIAL SYLLABUS & PREPARATION GUIDE
-================================================
-
-1. MULTIVARIABLE CALCULUS (MATMJ41)
-- Partial Derivatives & Chain Rule
-- Directional Derivatives & Tangents
-- Lagrange Multipliers (Optimization)
-- Multiple Integrals (Double/Triple)
-- Green's, Stokes', and Divergence Theorems
-
-2. ACADEMIC WRITING (AEC SEM 4)
-- Academic Integrity & Plagiarism Prevention
-- Citation Styles (APA, MLA, Chicago, Harvard)
-- Digital Document Layouts & Styles
-- Collaboration and Version Control
-
-================================================
-Mock Workstation Active. Happy Prep!`;
-            const blob = new Blob([text], { type: 'text/plain' });
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = 'BHU_Syllabus_Guide.txt';
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
-            URL.revokeObjectURL(url);
-        };
 
         // Floating orbs mouse parallax
         document.addEventListener('mousemove', (e) => {
