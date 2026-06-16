@@ -1,0 +1,1629 @@
+{
+  "department": "Department of Geography",
+  "university": "Banaras Hindu University",
+  "programme": "B.Sc. (Hons.) Geography",
+  "semesters": [
+    {
+      "semester": 1,
+      "papers": [
+        {
+          "code": "GGRMD11",
+          "name": "Introduction to Earth System",
+          "credits": 3,
+          "course_type": "Multidisciplinary",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "The Earth System: Earth’s Movement; Rotation, Revolution; Interiorof the earth. Gradational processes; wind, river and glacier; Types ofrocks. 15 295 Course B.Sc./B.A.FirstYear:Semester-I Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": "Atmosphere: Composition and structure; Insolation; Distribution of temperature; Pressure belts and wind systems, seasonalandlocalwinds. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Hydrosphere: Origin of ocean basin; Temperature and salinity of ocean water; Ocean currents; Coral reefs and tides. 15 SEC-Skill Enhancement Course, AEC Ability Enhancement Course; VAC Value Added Course: MD-Multidisciplinary Course1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ11",
+          "name": "Physical Geography",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "The Earth System: Earth in the solar system; Hypotheses Of the origin of the Earth (Jeans and Jeffreys, Russel) ;Interior of earth. Rocks:origin and classification; Gradational processes; Works of running water, wind, glacier. 15 291 Course B.Sc./B.A.FirstYear:Semester-I Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": "Atmosphere: Composition and structure of atmosphere; Insolation; Temperature: vertical and horizontal distribution; Pressure belts and wind systems, Seasonal and local winds. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Hydrosphere: Theories of origin of ocean basin (Tetrahedral);Temperatureandsalinityofoceanwater;Oceancu rrents;Tides;Coralreefs. 15 SEC-Skill Enhancement Course, AEC Ability Enhancement Course; VAC Value Added Course: MD-Multidisciplinary Course1Credit (Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ12",
+          "name": "Map Reading and Interpretation",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "ScalesandRelieffeatures:Constructionofscale:simple,diagonal and comparative;Representation of relief features by contours; 15 292 Course B.Sc./B.A.FirstYear:Semester-I Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": "Profiles and Topographical Map: Profiles (serial, super imposed, projected and composite). Indexing, numbering and scale system, Interpretation of topographical sheet. 15 SEC-Skill Enhancement Course, AEC Ability Enhancement Course; VAC Value Added Course: MD-Multidisciplinary Course1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMN11",
+          "name": "Physical Geography",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "TheEarthSystem:Earthinthesolarsystem;Hypothesesoftheorigin oftheEarth(JeansandJeffreys,Russel);Interioroftheearth.Rocks:or iginandclassification;Gradationalprocesses;Worksofrunningwate r,wind,glacier 15 293 Course B.Sc./ B.A.FirstYear:Semester-I CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "Atmosphere: Composition and structure of atmosphere; Insolation; Temperature: vertical and horizontal distribution;Pressurebelts and wind systems, Seasonal and localwinds 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Hydrosphere:Theories of origin of ocean basin (Tetrahedral); Temperature and salinity of ocean water; Ocean currents;Tides;Coralreefs 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMN12",
+          "name": "Map Reading and Interpretation",
+          "credits": 1,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "ScalesandRelieffeatures:Constructionofscale:simple,diagonal and comparative;Representation of Relief features by contours; 15 294 Course B.Sc./B.A.FirstYear:Semester-I Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": "ProfilesandTopographicalMap:Profiles(serial,superimposed, projected and composite). Indexing, numbering and scale system, Interpretation of topographical sheet. 15 SEC-Skill Enhancement Course, AEC Ability Enhancement Course; VAC Value Added Course: MD-Multidisciplinary Course1 Credit (Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRSE11",
+          "name": "Man and Environment",
+          "credits": 3,
+          "course_type": "Skill Enhancement",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Evolution of Man; Human Race: Bases and classification; Human Adaptation in different environment :selected tribes. 15 296 Course B.Sc./B.A.FirstYear:Semester-II CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "Man’sinteractionwithenvironment,Biomes:Meaningandtypes ;MajorBiomes:Rainforest,Savannah,Tundra. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Environment: Meaning and Components ; Food Pyramid; Forms and Functions of Ecosystems: Terrestrial, Aquatic; Biodiversity;ClimaticChange;EnvironmentalConservationand Management. 15 SEC-Skill Enhancement Course, AEC Ability Enhancement Course; VAC Value Added Course: MD-Multidisciplinary Course1 Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "papers": [
+        {
+          "code": "GGRMD21",
+          "name": "Environmental Ethics and Sustainability",
+          "credits": 3,
+          "course_type": "Multidisciplinary",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "EnvironmentalEthics:Concept and meaning; science, ethics and environment;Moraltheories- anthropocentrism,biocentrism, ecocentrism, deepecology; Population growth and resource linkages; Ecological niche. 15 301 Course B.Sc./B.A.FirstYear:Semester-II CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "Decolonial Environmentalism; Idea of green development; Biodiversity and natural capital assessment; Environmental justice and activism; Environmental legislations in India; Indian traditional knowledge system and ecological values; 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Sustainability:Conceptandtypes;Majorapproaches;Sustainable habitat;Biodiversity challenges and restoration; Regional threats of climate change and mitigation; Geopolitics of food production; Principles of sustainability; Implications and impacts of Sustainable Development Goals. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ21",
+          "name": "Human Geography",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Human Geography: Nature, scope and Approaches of human geography ;Schools of thought in human geography :determinism, possibilism, neo-determinismand Probabilism. 15 297 Course B.Sc./B.A.FirstYear:Semester-II CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "HumanRaceandSociety:EvolutionandClassificationofraces;Ch aracteristicsofracesandtheirbroaddistribution;Humanadaptationt oenvironment;Eskimo,Masai,Bushman;Indiatribes:Tharu,Naga, Bhil. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "PopulationandSettlements:PopulationGrowthandMajorhumana gglomerations;DemographicTransitionTheory;Migration:Types, Causesand Consequences; Rural settlement: characteristics, types and patterns in India :Urban settlements: evolution and classification. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ22",
+          "name": "Map Projection and Weather Map",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Map Projection (Perspective Projection):Introduction and Classification of Map projections; Cylindrical: equal area; Bonne’s; Zenithal Projection: Gnomonic, Stereographic and Orthographic 15 298 Course B.Sc./B.A.FirstYear:Semester-II CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "Weather Map: Introduction to weather map, Conventionalsignandsymbols;InterpretationofIndiandailyweather map:JulyOctoberandJanuarymonths 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMN21",
+          "name": "Human Geography",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Human Geography: Nature, scope and Approaches of human geography; Schools of thought in human geography: determinism, possibilism, neo-determinism and Probabilism. 15 299 Course B.Sc./B.A.FirstYear:Semester-II CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "Human Raceand Society: Evolution and Classification of races; Characteristics of races and their broad distribution; Human adaptation to environment; Eskimo, Masai, Bushman; Indiatribes: Tharu, Naga, Bhil. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Population and Settlement: Population Growth and Major human agglomerations; Demographic TransitionTheory; Migration: Types, Causes andConsequences; Ruralsettlement: characteristics, types and patterns in India: Urban settlements: evolution and classification. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-Multidisciplinary Course1Credit (Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMN22",
+          "name": "Map Projection and Weather Map",
+          "credits": 1,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Map Projection (Graphical): Introduction and Classification of Map projections; Cylindrical: equal area; Bonne’s; Zenithal Projection: Gnomonic, Stereographic and Orthographic. 15 300 Course B.Sc./B.A.FirstYear:Semester-II CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "Weather Map: Introduction to weather map, Conventional sign and symbols; Interpretation of Indian daily weather map: July,October and January months. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRSE21",
+          "name": "Basics of Remote Sensing",
+          "credits": 3,
+          "course_type": "Skill Enhancement",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "RemoteSensing:ConceptandScope;Electro-magnetic Radiation: Characteristics, Spectral regions and Bands; Interaction with earth surface features and atmosphere; Spectral Signature 15 302 Course B.Sc./B.A.SecondYear:Semester-III Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": "Types of Remote Sensing: Air borne and Space borne; Aerial photos:Types and Characteristics;RemoteSensing satellites: Platforms and sensors 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Visual and Digital image processing techniques: Remote Sensing application in resource mapping and environmental monitoring 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 3,
+      "papers": [
+        {
+          "code": "GGRMD31",
+          "name": "Global Environmental Challenges",
+          "credits": 3,
+          "course_type": "Multidisciplinary",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "LandRelatedIssues:Populationexplosion,Biodiversityloss,Land degradation and desertification, Soil and waterdegradation,Solid waste, Food and water insecurity; Energycrisis; Forced migration; Infectious disease and pandemic. 15 307 Course B.Sc./B.A.SecondYear:Semester-III CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "Atmosphere Related Issues: AirPollution, Green house gases and ozone depletion, Atomicradiation, Global warming, Flood and famine.ClimateChange. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Ocean Related Issues: Melting icecaps and sealevelrise, Ocean acidification, Overfishing, Commercial whaling, Protecting ocean sanctuaries, Conflicts on territorial water. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ31",
+          "name": "Economic Geography",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "ConceptualAspects:Meaning,conceptandscopeofEconomicGe ography;Classificationofeconomicactivity;LocationalTheories: Agriculture(VonThunen),Industry(Weber) 15 303 Course B.Sc./B.A.SecondYear:Semester-III CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "Primary activities: Agriculture, Fishing, Forestry, and mining ; Agricultural Region of D. Whittlesey; Secondary activities: Types and locational factors of industries ;Iron and Steel and Cotton textiles industry; Industrial regions of World; 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Tertiary and other specialized activities: World transportation: Sea routes and major trans-continental railways; International trade and World Trade Organization(WTO):patterns and trends; Special Economic Zones (SEZs) and Technology Parks 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ32",
+          "name": "Surveying",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "BasicsofSurveying:Meaningandscope;Chain& Tape,PlainTable ;IndianClinometer 15 304 Course B.Sc./B.A.SecondYear:Semester-III CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "ModernSurveying: Prismatic Compass,GPS 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ33",
+          "name": "Geography of India",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Physiography and Resources: Geology; Physiographic division; Drainage systems; Climate and climatic regions; Soils and natural vegetation; Mineral and power resources: iron ore and coal. 15 305 Course B.Sc./B.A.SecondYear:Semester-III Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": "Agriculture:Meansofirrigation;Majorcrops:rice,wheat,co tton,sugarcaneandtea;Agriculturalregions;GreenRevoluti onanditsconsequences;Multipurposeprojects:Damodarval ley and Bhakhra Nangal. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Industry, Transport, and Trade: Major industries: iron and steel, cotton textile and sugar; Transport network and trade: structure and recent trends; Special Economic Zones ( S E Z s ) and Exclusive Economic Zones (EEZs) 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Regionalization: Geographical Region: R.L.Singh; Economic Region: P.SenGupta and Cultural Region: N.K.Bose ;Regional studies: Garhwal Himalaya Region, Middle Ganga PlainandIndianDesert. 15 SEC-Skill Enhancement Course, AEC Ability Enhancement Course; VAC Value Added Course: MD- Multidisciplinary Course1 Credit (Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMV31",
+          "name": "Basics of Geographical Information System",
+          "credits": 4,
+          "course_type": "Minor (Vocational)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Fundamentals of Geographical Information System: Definition, Evolution of GIS, Components of Geographical Information System; Recent advances in GIS; Coordinate systems, Datums and projections in GIS; GIS Software(OpenSource and commercial) 15 306 Course B.Sc./B.A.SecondYear:Semester-III CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "GeographicalInformationSystemData:RasterandVectordatam odels;DataBaseManagementSystem(DBMS):DataSources;Data Quality:meaning,measures,componentsandmanagement;Geogra phicalInformationSystem Data Standards: meaning, classification, and components. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "GeographicalInformationSystemDataAnalysis:RasterDataAn alysis: Local, neighbourhood and regional operations- overlay analysis, map algebra; Vector Data Analysis: Concept of Topology; Proximity Analysis: Buffering, Thiessen Polygon; Essentials of Map Composition. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Applications of Geographical Information System:Land use/Land Cover Mapping, geological and geomorphological; Water Resource Management, Disaster Management and Mitigation 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRSE31",
+          "name": "Geography of Tourism",
+          "credits": 3,
+          "course_type": "Skill Enhancement",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Conceptual: Nature, and Scope of Geography of Tourism; Data sources;Typology of Tourism: developed and developing world; Tourism as an industry; Drivers of Tourism; Tourism and Regional Economy; Concept of heritage an ditstypes. 15 308 Course B.Sc./B.A.SecondYear:Semester-IV CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "System of Tourism and Impacts: Tourism Multiplier and Forecasting Methods; Trends and Pattern of tourism in the World; Models of Ecotourism; Impacts of Tourism- Socio-cultural problems and Environmental degradation. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "PolicyandPlanning for Heritage-Tourism inIndia: Of Cultural Heritage: Conservation and Revitalization; Legislation and Acts; Sustainable Tourism Development Planning; Role of tourism in development. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 4,
+      "papers": [
+        {
+          "code": "GGRMJ41",
+          "name": "Evolution of Geographical Thought",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Geography and Geographical Concepts: Early origins of geographical thinking regarding philosophies; Age of exploration and impact of discoveries. 309 Course B.Sc./B.A.SecondYear:Semester-IV CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "Schools of Geography: Evolution of geographical thinking and disciplinary trends in Germany, France, Britain and United States of America;"
+            },
+            {
+              "unit": 3,
+              "topics": "ContemporaryThemes:Positivism, Quantitative Revolution, Behaviouralism, Humanism, Radicalism, Feminism, Post- Modernism and Post Colonialism."
+            },
+            {
+              "unit": 4,
+              "topics": "Geography in India: Geographical knowledge in ancient India, Teaching and Research in geography during colonial and post- colonial periods; Geography teaching and researchin21stcentury: challenges and opportunities; Geography inplanning, policy and regional development. SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ42",
+          "name": "Environmental Geography",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Concept:Natureand scope of environmental geography; Environment and its components; Ecosystem; Biodiversity; Biogeochemical cycles;Ecological succession; Deep Ecology. 15 310 Course B.Sc./B.A.SecondYear:Semester-IV CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "Man-Environment Relationship: Approaches (deterministic, possibilistic and ecological); Historical evolution; Human ecological Adaption; Forms and functions of ecosystems(terrestrial and aquatic). 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Global Environmental challenges: Environmental degradation; pollution; hazards and disaster (FloodTechnological);GlobalandRegionalEcologicalChange;Ur banheatisland;Climatic change. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Environmental Management: Environmental 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ43",
+          "name": "Geomorphology",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Basic Concepts: Meaning, nature, scope and aspects of geomorphology; Principles and basis of geological time- scale;Fundamental concepts: uniform itarianism and dynamic equilibrium; Relief and differential rate of the geomorphic process. 15 311 Course B.Sc./B.A.SecondYear:Semester-IV CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "Instability of the Earth: Isostasy (Airy and Pratt); plate tectonics;Folded andFaultedstructureand topography, earthquake, volcanicity, masswasting; The cycle of erosion:contributionsofDavisandPenck. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "GradationProcesses:Geomorphicagentsandprocesses:fluvial,ae olian,glacial,peri-glacial, marine and karst; Types and patterns of drainage, Channel: types and pattern. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "AppliedGeomorphologyandRegionalLandscape:Geomorphol ogyandeconomicdeposits;Geomorphologyinengineeringconstruc tion;Geomorphologyingroundwaterstudies,Geomorphologyands oil;RegionalgeomorphologyofUttarakhandHimalaya,Chhotanag purplateauandMiddleGangaPlain 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ44",
+          "name": "Advanced Map Projection and Geological Map",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Map Projection (Mathematical): Meaning, Classification and scope of map projections; Conical: Sinusoidal, Interrupted Sinusoidal and Mollweide; Cylindrical: Mercator’s and Gall’sprojection; International projections 30 312 Course B.Sc./B.A.ThirdYear:Semester-V CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "Geological Map: Elements of geological maps; Beds and bedding plane; Strike, Dip; Completion of outcrop ;geological structure(uniclinal,folded,faultedandunconformable)andtheirdesc ription. 30 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 5,
+      "papers": [
+        {
+          "code": "GGRIN51",
+          "name": "Internship1",
+          "credits": 2,
+          "course_type": "Internship",
+          "syllabus": [
+            {
+              "unit": 6,
+              "topics": "Major"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ51",
+          "name": "Climatology",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Basics of Climatology: Meaning and scope; Development and recent trends in climatology; Subdivisions of climatology; Elements of weather and climate; Data sources for climatological studies. 15 313 Course B.Sc./B.A.ThirdYear:Semester-V Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": "Functions of Atmosphere: Composition and structure of atmosphere;insolation; Heat budget; Air stability; Laws of horizontal motion; general atmospheric circulation; AirMasses: classification and characteristics 15"
+            },
+            {
+              "unit": 3,
+              "topics": "WeatherPhenomena:CloudsandPrecipitation:formationandtype s;Fronts:sourceregions,typesandassociated weather; Cyclones: tropical and temperate; Monsoon, jet-stream and their significance with reference to India. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "ClimateandHumanResponse:Climaticclassification:Köppenan dThornthwaite;Climatechange: causes, evidence and hypotheses, impacts and mitigation 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ52",
+          "name": "World Regional Geography",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Concepts:Region and Regionalization; Bases of Regionalization; Typesof Regions; Bases & Approaches of classification and characteristics of Developed and Developing World; Levels of Development: Developed, Developing,Under- developed and Least developed World 15 314 Course B.Sc./B.A.ThirdYear:Semester-V CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "Major Regions of the World: Natural regions, Climatic regions, Cultural regions, Agricultural regions, Industrial regions,Population resource regions 15"
+            },
+            {
+              "unit": 3,
+              "topics": "RegionalStudyofJapanandBrazil:Physiography,Climate,Soil,V egetation,Mineral,PowerResources(IronoreandCoal),Industriesan dPopulation 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Regional study of South Asia: Physiography, Climate, Soil, Vegetation,MineralandPowerResources,Population,StrategicImp ortanceofSouthAsia. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ53",
+          "name": "Population Geography",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "BasicConcepts:Meaning,scopeanddevelopmentofpopulationgeo graphy;RelationshipofPopulationgeographywithotherbranchesof socialsciences;Sourcesandtypesofpopulationdata:census,samples urvey,vitalregistrationsystem. 15 315 Course B.Sc./B.A.ThirdYear:Semester-V CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "PopulationDynamics:Measures,trendsandpatternofFertilityand Mortality;Concept,types,determinantsandconsequencesofMigrat ion;Theoriesof population growth: Malthusian, Demographic Transition Theory; 15"
+            },
+            {
+              "unit": 3,
+              "topics": "World Population:Populationdistributionand growth; Population agglomerations; Urbanization trends and patterns; Human Resource Development: indicators and patterns; Population problems. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "PopulationCharacteristicsinIndia:Population distribution, Density And Growth; Literacy; Age and Sex composition; Population Policies of India. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ54",
+          "name": "Cartographic Techniques",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Representation of Data: Nature and types of data; Representationof data:bar diagram, histogram, frequency curve, linegraph, ogive, piechart; Trafficflow diagram; Slope analysis: Smith and Wentworthmethods. 30 316 Course B.Sc./B.A.ThirdYear:Semester-V CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "Distribution Maps and Diagrams: Rain fall dispersion diagram, water balance graph Distribution maps: dot, isopleth, choropleth, choro chromatic and choros chematic. Graded and nongraded shadings. 30 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMV51",
+          "name": "Hazards & Disaster Risk Reduction",
+          "credits": 4,
+          "course_type": "Minor (Vocational)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Disasters: Concepts, and definitions (Disaster, Hazard, Vulnerability, Resilience, Risks; Disasters: Classification; Causes, Impacts & Approaches to Disaster Risk Reduction: Social, economic, political, environmental, health, psychosocial, etc. 15 317 Course B.Sc./B.A.ThirdYear:Semester-V CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "Differential impacts: in terms of caste, class, gender, age, location, disability Global trends in disasters; Disaster management cycle: prevention, mitigation and preparedness; myths and social responces. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Disaster Risk Management in India: Community based Disaster Risk Reduction, Structural- nonstructural measures; Hazard and vulnerability profile of India, Institutional arrangements, Disastermitigation. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Case Studies: Landslide, Cloud burst, Mitigation,Response and Preparedness, Disaster Mitigation Act and Policy, Other related policies, plans , programs and legislation. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 6,
+      "papers": [
+        {
+          "code": "GGRMJ61",
+          "name": "Advanced Remote Sensing and Geographical Information System",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "BasicsofRemoteSensing:Definition,scope,andhistoryofDevelop ment;Types of Remote Sensing: basis and classification; Electromagnetic Radiation(EMR): Characteristics and spectral bands; EMR interaction with the Atmosphere ,and Earth’s Surface (Land,soilandwater); Atmospheric Windows; Spectral Signature;Acquisitionofremotesensingdata 15 318 5. Panigrahi,N.(2009).GeographicalInformationScience.UniversitiesPress. 6. Rees,W.G.(2012).PhysicalPrinciplesofRemote Sensing.CambridgeUniversityPress. 7. Sabins,F.F.(2007).RemoteSensing:PrinciplesandApplications.WavelandP ress. Learning"
+            },
+            {
+              "unit": 2,
+              "topics": "Remote Sensing Processes: Platforms and Sensors: Types and characteristics;AerialPhotographs:Typesanditsgeometry;Remote SensingData:Types,characteristicsand sources; Image Resolution; Satellite Data Interpretation: Visual and digital image interpretation ;Interpretation keys, Techniques in image interpretation 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Fundamentals of GIS: Definition, Evolution and Components of Geographical information system; Recent advances in Geographical Information System;Coordinate systems, Datums and projections in Geographical InformationSystem;Raster and Vector data models; GIS data quality, errors, input, geo- referencing,digitization,editing,query,andoutput.Typesand characteristicsofmap,contentsandlayoutinGeographicalInformatio nSystem. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "ApplicationsofRemoteSensingandGeographicalInformation System: Land use/Land Cover Mapping ,Geological and geomorphological mappingandwaterresourcemanagement,. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ62",
+          "name": "Oceanography",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Basic Concepts: Meaning and scope of oceanography; Origin of oceans; Ocean basins: continental shelf, continental slope,deepseaplains, ocean deeps, submarine canyons. 15 319 Learning"
+            },
+            {
+              "unit": 2,
+              "topics": "Properties and Circulation: Physical and chemical properties of sea water: temperature, density, salinity; Circulation of ocean water:tidesandcurrents. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "MarineLifeandDeposits:Classificationanddistributiono fmarinedeposits,Coralreefs:origin,types,characteristicsan dtheories. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "HumanOceanRelation:Mineralandenergyresources;Ind ian Ocean Realm;Geo-politicsofIndianocean;Maritime security; Global warming and sea level change. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ63",
+          "name": "Remote Sensing and Geographical Information SystemTechniques",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "RemoteSensingDataCollectionandInterpretation:Datasources; Elements of Aerial Photo and Satellite Image Interpretation; Preparation of the maticmaps viz. Land use/ Land cover, and geomorphological mapping 30 320 Course B.Sc./B.A.ThirdYear:Semester-VI Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": "Geographical Information System Data and its Analysis: Data sources:Bhuvan; Image Registration, Creation of Personal Geodatabase: Digitizationand creation of shape files: Point, Line and Polygon, adding attributes Data error corrections; Spatialandnon-Spatial Data Query; Spatial analysis methods (overlay,buffering,andinterpolation) 30 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ64",
+          "name": "Quantitative Methods in Geography",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Central Tendency and Dispersion: Frequency distribution; Mean, median, mode; Measures of dispersion: mean deviation, standard deviation, Coefficient of variation. 30 321 Course B.Sc./B.A.ThirdYear:Semester-VI Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": "Correlation and Regression: Correlation (Karl Pearson and Spearman) and Scatter diagram; Regression analysis; Location quotient, Lorenz curve, Gini Coefficient. 30 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ65A",
+          "name": "Hydrology",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Bases of Hydrology: Nature, scope and development to Hydrology; Hydrological cycle; Man’s Influence on the hydrological cycle; Precipitation: formation process, types, characteristics and measurements. 15 322 Course B.Sc./B.A.ThirdYear:Semester-VI CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "Water Losses: Interception: factors Affecting 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Water Disposition: Infiltration: infiltration process and factors controlling infiltration; Soil moisture and its zones: storage of soil moisture, factors affectingsoilmoisturestorage;Runoff:itssourcesandcomp onents,factorsaffectingrunoff;Riverregimes. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Assessment and Conservation: Stream flow measurement: interpretation of steam flow data, Hydrograph: components and separation; Ground water: oMJurrence, storage, recharge and discharge; Floods: estimation and control; Appraisal of water resources; Water policies and conservation in India. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ65B",
+          "name": "Geography of Settlement",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Conceptual Introduction: Defining human settlements; Nature and scope of Settlement Geography; Concep to frural and urban Settlements; Origin and Growth of urban settlements; Concept of megacities,globalcityandedgescity. 15 323 Course B.Sc./B.A.ThirdYear:Semester-VI CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "Location,MorphologyandGrowth:Site,Situation,TypesandPatte rns;InternalMorphologyofRuralandUrbanSettlements; Ecological Processes of Settlement Growth;Rural-urban fringe;Umlandandhinterland 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Distributional Characteristics of Settlements: Size and spacing of cities:Rank-sizerule, Law of Primate City; Functional classification of urban settlements; Settlement Hierarchy-Christaller’s Central Place Theory; AugustLosch’s Theory 15"
+            },
+            {
+              "unit": 4,
+              "topics": "UrbanRegionandPlanningCharacteristicsofMetropolitanregio n–AcaseofDelhi and Varanasi; Rural Housing Planning and Policies; Conceptof urban planning 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ65C",
+          "name": "Resource Geography",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Basic Concepts: Nature and scope of Resource Geography; Concept and classification of resources; Distribution and pattern of resources: Land, water, minerals (Ironore, Bauxite, Copper) and power resources; Non-conventional sources of energy, Scientific and technological innovation and resources. 15 324 Learning"
+            },
+            {
+              "unit": 2,
+              "topics": "Human Resource and Locational Aspects: Human Resource: concept, classification, determinants and problems;Theoriesofagriculturalandindustriallocation:V onThunen,Weber,LoschandHoover 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Problems and Conservation of Resource: Nature and Production of Resources; Resource Scarcity; World energy utilization and its crisis; Sustainable development, Resource conservation; National Policies and Programmes on Natural Resources in India: Land, Forest and Water 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Regional Perspectives: World economic development; Concept of developed and developing nations; Concepts of North-South and First, Second, Third and FourthWorlds 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ65D",
+          "name": "Social Geography",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Concept and Approaches: Meaning of social geography; Concepts: society, community, social structure and relations; Social differentiation and stratification: space, social space, social morphology, social-spatial, spatial justice, Spatial inclusion and exclusion; 15 325 Course B.Sc./B.A.ThirdYear:Semester-VI Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": "Social differentiation and region formation: Bases of social region formation: ethnicity, tribes, dialect, language and religion. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Regional basis of Indian Society: Peopling of India; Evolution of social regions; Tribes: Characteristics and their distribution; Caste: concept, characteristics and classification, Linguistic regions of India; Particularly Vulnerable Tribes Groups (PVTGs), Unity in diversity. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Geography of Social Well-being in India: Concepts of social wellbeing; Social geographical perspectives on crime, healthcare, education and housing; Geography of men and women; Social impact assessment; Social policies and planning. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ65E",
+          "name": "Cultural Geography",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "ConceptsandApproaches:Meaning of cultural geography; Concepts:culture, society, civilization, cultural hearth, cultural area, core, domain, sphere, cultural realm, place-making and cultural landscape; Approaches to the study of cultural geography; 15 326 Course B.Sc./B.A.ThirdYear:Semester-VI Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": "EvolutionofCulture:Evolutionofearlyhumangroups;Beginn ingsofcivilizations;Processofformationofculturalregions:cul turalregionsoftheworld,vernacularregions;Evolutionofcultur al landscapes: globalization and culture. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Cultural processes: Language and dialect: Classification and regions, language and identity, language and nationalism; Language in the landscape: Religions: religion,identityandconflict,religiouslandscapes 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Geographical basis of Indian Culture:Linguistic and dialect regions of India; Multi lingual states; Folk cultures; Geography of food and house type ;Geography pilgrimage; Cultural regions of India. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMV61",
+          "name": "Geography of Health and Well being",
+          "credits": 4,
+          "course_type": "Minor (Vocational)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Geography of Health as a sub-discipline of Human Geography: Definition, scope, approaches, historical development and key contributors ; Determinants of health; Quality of life: Concept and measurement; Disease burden; Epidemiological transition. 15 327 Course B.Sc./B.A.FourthYear:Semester-VII CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "Spatial Patterns: Disease burden at global, regional and national scales; Globalization, migration, and spatial diffusion of diseases; Geographical in equality in provision, a MJess, and use of health care services. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Environment and Health: Disease ecology, Impact of clean air, adequate water, improved sanitation and hygiene on health; built environment and health; Therapeutic land scapes; climate change and health. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Indian Context: Public health system, National health policy, Major health and disease control programs: National Programme for Prevention & Control of Non-Communicable Diseases(NP-NCD), Revised National Tuberculosis Control Programme (RNTCP), National Vector Borne Disease Control Programme, National Health Mission, Ayushman-Bharat. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 7,
+      "papers": [
+        {
+          "code": "GGRIN71",
+          "name": "Internship2",
+          "credits": 2,
+          "course_type": "Internship",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Internship2 2 Total Credits 20 Semester Courses Paper Code Name of the Paper Credits VIII Major"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ71",
+          "name": "Research Methodology",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Research in Geography: Concept and significance of research in geography; Production of geographical knowledge; Philosophy and Geography: Ontology, Epistemology, Methodology and Methods;PositivistandNon-PositivistResearch 15 328 Course B.Sc./B.A.FourthYear:Semester-VII CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "ResearchProcessandDesign:ResearchProcess;Researchdesigns :quantitative(experimentalandsurvey),qualitative(ethnography,g roundedtheory,casestudy,phenomenological),mixedmethod(seq uential,concurrent,and transformative);EthicsinResearch. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Data Collection Methods: Primary data collection: questionnaires, observation,key information interviews, in- depth interviews, focus group discussion; Sources of data; Samplingandsamplesizedetermination;Qualitycontrolchecks; 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Data Analysis and Dissemination: Data analysis: Quantitative (variables, scales, univariate, bivariate, and multivariate analysis), Qualitative (thematic analysis); Writing reports and research papers: structure,referencing,plagiarism. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ72",
+          "name": "Environmental Studies",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Environmentalconcepts:Meaning,typesandcomponentsoftheen vironment;ApproachestoEnvironmentalStudies;Ecosystem:comp onentsandclassification;Geo-biochemical cycles: carbon, nitrogen and phosphorus. 15 329 Course B.Sc./B.A.FourthYear:Semester-VII Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": "NaturalResourcesandBiodiversity:Distributionandclassificatio nofNatural Resources: Land, Water,Forest and Energy; Biodiversity:Extinctionandconservation;Biomesoftheworld. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Environmental problems and management: Environmental Issues in Tropical, Temperate and Polar Ecosystems; Pollution: air, water, soil and solid waste; Hazards: earthquake and flood; Environmentalmonitoring;Environmentaleducation,Environmen tal policiesandlegislations. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "TrendsinEnvironmentalstudies:Environmentalconflicts;Enviro nmentandgeopolitics;transnationalmovement;Environmentaljusti ce;Environmentalgeoinformatics:Environmentalsurveillance;Env ironmentalmapping. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ73",
+          "name": "Geographical Field Training and Report writing",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Principles of Field Training: Meaning and objectives of field training; Field as a laboratory of geography; Bases of selection of field, Contents of field training: physical, social, economic and cultural; Field training techniques; Field training-based report writing 30 330 Course B.Sc./B.A.FourthYear:Semester-VII CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "Field Visit: Students will visit any one of the following geographical regions of physical and human interest for field training: Himalayan Region, Vindhyan Plateau, Thar Desert and Aravali Hills, Coastal region, East and North-easternIndia. 30 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ74A",
+          "name": "Advanced Geographical Thought",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Basic Concepts: Nature of geographical knowledge; Man-environment interaction: new environmentalism; Concepts: space,place,environment,time And Spatial organization Culture and; cultural and scape. 15 331 Learning"
+            },
+            {
+              "unit": 2,
+              "topics": "Modern Approaches: Quantitative geography; B Humanistic geography: phenomenology and exist entialism; Contributions of Carl SauerandYi-Fu Tuan. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Contemporary Trends: Qualitative paradigm; Post- modernism and Post- structuralism; Social theory and De/reconstruction Welfare/Marxist; /Radical geography; Contributions of David Harvey;Feministgeography. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "TrendsofIndianGeography:ColonialandPostcolonialgeography ;Contributions of Indian geographers ;Impact of thoughts of Gandhi,NehruandAmbedkaronIndiangeography;Indiangeograph y:issuesandchallenges. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ74B",
+          "name": "Advances in Population Studies",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "BasicsofPopulationStudies:Meaning,ScopeandapproachestoPop ulationstudies;SourcesofPopulationdatawithspecialreferencetoIn dia;DemographicDividend; Recent trends in population studies. 15 332 Learning"
+            },
+            {
+              "unit": 2,
+              "topics": "PopulationDistribution,DensityandGrowth:Factors,Determin antsandPatterns;TheoriesofPopulationGrowth:Malthusiantheory and Demographic Transition Theory; Concept of Under, Over and OptimumPopulation;PopulationResourceRegion. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Population Composition and Migration: Age-Sex, Literacy, Rural-Urban, OMJupation structure; Fertility; Mortality; Migration: Concept,Types,DeterminantsandTheories; 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Population policies and issues:PopulationPoliciesin DevelopedandDevelopingcountriesincludingIndia;Contemporary Issues in Population Geography-Ageing Population, Sex Ratio, Diseases, Epidemics and Population Problems; Population and Environment Interface; Population and Development: Human Development Index; New Research areas in Population Geography; 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ74C",
+          "name": "Urban Geography",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Bases:Nature,scopeandrecenttrendsinurbangeography;Urbanpop ulation:characteristics,processesandtrends;Methodologyinurbans tudies;Origin and Evolution of Urban settlements:bazaar-based and colonial based; distribution of urbancentres. 15 333 10. Stanley,B.,Jack, W.andDonald,Z.(eds.)(2003):CitiesoftheWorld. RowmanandLittlefield, NewYorkandOxford. 11. Tripathi,V.K.,Jha,D.K.andHarshwardhanR.(eds.)(2018):AdvancesinUrbanStudiesinIn"
+            },
+            {
+              "unit": 2,
+              "topics": "Characteristics:Characteristicsofcitiesindifferenthistoricalperio ds:pre- industrial,industrialandpost- industrial; Functional classification of urban centres urban transportation; National Urban Information System. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Spatiality and Models:Size and spacing ofcities:rank-size rule ;law of theprimatecity;Urbanhierarchies; Central place theory (ChristallerandLoch);Urbanlanduseandfunctionalmorphology:fu nctionalareasandperi-urban areas; Theories of urban structure: Burgess,Hoyt, Harris and Ullman, Mann, andWhite. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Issues and Planning: Urban sprawl; urban problems: environmental, poverty,inequality, slums, transportation, housing, segregation and crime; Planned cities: Chandigarh and Jaipur; ConceptofsmartcityinIndia;NationalUrbanPolicy; MasterPlan:AcasestudyofVaranasi. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ74D",
+          "name": "Regional Planning",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "ConceptualBackground:Concept,Natureandscopeofregionalpla nning; Theories and approachesof regional planning, Concept of Planning region,PlanningregionsofIndia;Decentralizedplanning 15 334 7. Sanyal,B.M.(2001):DecentralizedPlanning:ThemesandIssues.ConceptPublish ingCompany,NewDelhi. 8. Sharma, P. V., Rao, V. L., and Pathak, C. R. (eds.) (2000): Sustainable Regional Development (with specialreference to Andhra Pradesh). Regional Science Association, Kolkata and School of Economics, AndhraUniversity, Vishakhapatnam. 9. Sundaram,K.V.(1997):DecentralizedMultilevelPlanning:PrinciplesandPracti ce(AsianandAfricanExperiences).Concept Publishing Company,NewDelhi. 10. Sundaram,K.V.(2004):TheTroddenPath:EssaysonRegionalandMicroLevelPla nning.AnaunyaPublications.,NewDelhi. Learning"
+            },
+            {
+              "unit": 2,
+              "topics": "Regional Development: Regional imbalances and in equalities inIndia;Regional planning and national development; Economic development and regional development; Role of agriculture, industry and infrastructure in regional development. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Regional Planning: Evolution of Regional Planning in India; Regional planning and National development; Planning for regional development,Integratedregionalplanning,Multi-level planning, Surveyforplanning:diagnostic,techno-Economic and regional 15"
+            },
+            {
+              "unit": 4,
+              "topics": "PlanningandPolicyinIndia:RegionaldevelopmentstrategyinIndi a;ChangingparadigmofplanninginIndia.Nationalandstatelevelpla nning,Locallevelplanning;NationalCapitalRegion;PlanningforEa sternUttarPradesh.NitiAayog. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ74E",
+          "name": "Advanced Geographical Information System",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Concepts of Geographical Information System: Development of GeographicalInformation System, Terminologies; Data types, characteristics and sources;DataModels-Conceptual, Logical, and Physical;DataStructures-Hierarchical, Relational and Objectoriented 15 335"
+            },
+            {
+              "unit": 2,
+              "topics": "DataBaseandStandards:DataBaseManagementSystem(DBMS );DataQuality:meaning,measures,componentsandmanagement; Geographical Information System Data Standards: meaning, classification, and components. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Spatial Data Analysis: Raster Data Analysis: Local; neighborhood and regional operations-Overlay Analysis, Map Algebra;VectorDataAnalysis:ConceptofTopologyandTopologi calAnalysis;ProximityAnalysis:Buffering,ThiessenPolygon; Network Analysis; Multi-Criteria Analysis; Data Interpolation: IDW and Kriging. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Recent Advances and Applications: Web GIS, Global Positioning System (GPS)and Mobile mapping; Machine learning; Artificial Intelligence (AI); Geographical Information System Software and programming.; Geographical Information System Applications: Land Use Planning, Site Suitability Analysis, Water Resource Management, Disaster Management and Mitigation. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ74F",
+          "name": "Rural and Urban Planning",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "ConceptofRuralPlanning:Conceptandapproachesofruralplanni ng;Policiesandprogrammesofruraldevelopment;Basicinfrastruct uresforruraldevelopment;Decentralizedplanning;Socialimpactas sessmentanalysisforruralplanning;Urban- rurallinkageapproachtoplanning. 15"
+            },
+            {
+              "unit": 2,
+              "topics": "ApproachestoRuralPlanning:Landuseplanning:concepts,princi plesandclassification; Carrying capacity of land; Agricultural efficiency; Rural land patterns and issues of land acquisitioninIndia;Ruralinfrastructure;MicrofinanceandMicroEnt erprises;Locallevelplanning;PURA;VillageInformationSystem 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Concept of Urban Planning: Concept and approaches of urban planning; Techniques and methods of urban planning: Urban land use: patterns and models; Urban renewal and redevelopment; Urban governance: Urban infrastructure; Master plan: A case study of Varanasi. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Approaches to Urban Planning: Garden cities, City as an organism, New and satellite town, global city, sustainable smart cities; Transportation planning: Mass transit system; Heritage conservation; Urban planning: A case study of Chandigarh; National Urban Information system. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ74G",
+          "name": "Geography of Migration and Diaspora",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "BasicConcepts:Meaning,DefinitionsandTypesofMigrationandDi aspora;CausesandConsequencesofMigration;LawsandTheories 15"
+            },
+            {
+              "unit": 2,
+              "topics": "Internal Migration: Spatial Dimension of Internal Migration in India: Inter-State andIntra-State; Trends and Patterns of Internal Migration; Reasons, Streams and Consequences of Internal Migration. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "International Migration and Diaspora: Determinants of International Migration; Globalization, International Migration and Diaspora; Illegal Migration: Causes and Consequences; Role of Organizations: International Organization for Migration(IOM),United Nations High Commissioner for Refugees(UNHCR) 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Indian Diaspora: Indian Diaspora across Continents and Countries; Indian Diaspora: Identity, Ethnicity, Citizenship,PeopleofIndianOrigin,Remittances;Challengesfaced byIndianDiaspora. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ7R1",
+          "name": "Research Methodology",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Major Credits&Hourof Teaching Theory Practical Cumulative Credits 4 Hour of Teaching (Total) 60 CourseObjectives  Tointroducetheconceptandsignificanceofresearchgeography.  Toexplainthephilosophyandgeographyrelations.  Tointroducestudentsaboutresearchprocessanddesignanddatacollection  Toacquaintthestudentswithdataanalysis,reportwritingandstructure. CourseContent Thecoursecontentisdividedinto4Units. Units CourseContent Hr.of Teaching Research in Geography: Concept and significance of research in geography; Production of geographical knowledge; Philosophy and Geography: Ontology, Epistemology, Methodology andMethods;PositivistandNon-PositivistResearch 15"
+            },
+            {
+              "unit": 2,
+              "topics": "Research Process and Design :ResearchProcess;Researchdesigns:quantitative(experimentalan dsurvey),qualitative(ethnography,groundedtheory,casestudy,ph enomenological),mixedmethod(sequential,concurrent,andtransf ormative);EthicsinResearch 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Data Collection Methods: Primary data collection: questionnaires ,bservation,key information interviews, in-depth interviews, focus group discussion; Sources of secondary data; Sampling and sample size determination;Quality control checks;Data cleaning. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Data Analysis and Dissemination: Data analysis: Quantitative (variables, scales, univariate, bivariate, and multi variateanalysis) , Qualitative (thematicanalysis); Writing reports and research papers:structure,referencing,plagiarism. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-Multidisciplinary Course1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ7R2",
+          "name": "Environmental Studies",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Major Credits&Hourof Teaching Theory Practical Cumulative Credits 4 Hour of Teaching (Total) 60 CourseObjectives  Tointroducestudentstotypesandcomponentsofenvironment. Environmentalconcepts:Meaning,typesandcomponentsoftheen vironment;ApproachestoEnvironmentalStudies;Ecosystem:com ponentsandclassification;Geo-biochemical cycles: carbon, nitrogen and phosphorus. 15"
+            },
+            {
+              "unit": 2,
+              "topics": "NaturalResourcesandBiodiversity:Distribution and classification of NaturalResources: Land, Water, Forest and Energy; Biodiversity: Extinction and conservation; Biomes of the world. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Environmental problems and management: EnvironmentalIssuesin Tropical, Temperate and PolarEcosystems;Pollution:air,water,soilandsolidwaste;Hazards :earthquakeandflood;Environmentalmonitoring;Environmentale ducation,Environmentalpoliciesandlegislations. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "TrendsinEnvironmentalstudies:Environmental conflicts; Environment and geopolitics; transnational movement; Environmental justice; Environmental geoinformatics: Environmentalsurveillance;Environmentalmapping. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ7R3",
+          "name": "Geographical Field Training and Report Writing",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Major Credits&Hourof Teaching Theory Practical Cumulative Credits 2 Principles of Field Training: Meaning and objectives of field training; Fieldasa laboratory of geography; Contents of field training: physical, social, economic and cultural; Field trainingtechniques;Field training-based report writing. 30"
+            },
+            {
+              "unit": 2,
+              "topics": "Field Visit: Students will visit any one of the following geographical regionsof physical and human interest for field training: Himalayan Region, VindhyanPlateau, Thar Desert and Aravali Hills, Coastal region, East and North-easternIndia. 30 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ7R4A",
+          "name": "Advanced Geographical Thought",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Major Credits&Hourof Teaching Theory Practical Cumulative Credits 4 Hour of Teaching (Total) 60 CourseObjectives  Tointroducestudentstherecentnatureofgeographicalknowledge.  Toexplainnewenvironmentalismandmajorapproachesingeography.  Tounderstandvariousparadigmsandcontributionsofgeographers. Basic Concepts: Nature of geographical knowledge;Man-environment interaction: new environmentalism; Concepts: space, place, environment, time and spatial organisation; Culture and culturall and scape. 15"
+            },
+            {
+              "unit": 2,
+              "topics": "Modern Approaches: Quantitative geography; B Humanistic geography: phenomenology and existentialism; Contributions of CarlSauer and Yi-FuTuan. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Contemporary Trends: Qualitative paradigm; post- modernism and post-structuralism; Socialtheory and De/reconstruction. Welfare/Marxist/ Radical geography: contributions of David Harvey,Feministgeography. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "TrendsofIndianGeography:Colonial and Postcolonial geography;Contributions of Indian geographers; Impact of thoughts of Gandhi, Nehru and Ambedkar on Indian geography; Indian geography: issues and challenges. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ7R4B",
+          "name": "Advances in Population Studies",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Major Credits&Hourof Teaching Theory Practical Cumulative Credits 4 Hour of BasicsofPopulationStudies:Meaning,ScopeandapproachestoPo pulationstudies;SourcesofPopulationdatawithspecialreferenceto India;DemographicDividend;Recenttrendsinpopulationstudies. 15 354 Course B.Sc./B.A.FourthYear:Semester-VII CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "Population Distribution, Density and Growth: Factors, Determinants and Patterns; Theories of Population Growth: Malthusian theory and Demographic Transition Theory; Concept of Under, Over and Optimum Population; Population Resource Region. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "PopulationCompositionandMigration:Age-Sex, Literacy, Rural-Urban, Occupation structure; Fertility; Mortality; Migration: Concept, Types, Determinants and Theories; 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Population policies and issues: Population Policies in Developed and Developingcountries (A Case of India); Contemporary Issues in Population Geography- AgeingPopulation, Sex Ratio, Diseases, Epidemics and Population Problems; Population and Environment Interface; Population and Development: Human Development Index; New Research areas inPopulation Geography; 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ7R4C",
+          "name": "Urban Geography",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Bases:Nature,scopeandrecenttrendsinurbangeography;Urbanpo pulation:characteristics, processes and trends; Methodology in urban studies; Origin and evolutionofurbansettlements:bazaar- based and colonial based;distributionofurbancentres. 15 355  Tomakestudentsawareaboutvariousfactorsaffectingurbanpopulation.  Acquaintedtheknowledgeofcomposition,urbanstructureandfunctions.  Studentshouldunderstandcontemporaryurbanpopulationissues,policiesandplanning. Course B.Sc./B.A.FourthYear:Semester-VII CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "Characteristics:Characteristicsofcitiesindifferenthistoricalperio ds:pre-industrial,industrialandpost- industrial;Functionalclassificationofurbancentresurbantransport ation;NationalUrbanInformationSystem. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Spatiality and Models: Size and spacing of cities: rank-size rule; law of the primate city; Urban hierarchies; Central place theory (Christaller and Loch); Urban land use and functional morphology: functionalareasandperi-urbanareas; Theories of urban structure: Burgess ,Hoyt, Harris and Ullman, Mann, and White. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "IssuesandPlanning:Urbansprawl;urbanproblems:environmenta l,poverty,inequality,slums,transportation,housing,segregationan dcrime;Plannedcities:Chandigarh and Jaipur; smart city in India; National Urban Policy; Master Plan: A case study of Varanasi. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ7R4D",
+          "name": "Regional Planning",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "ConceptualBackground:Concept,Natureandscopeofregionalpl anning;Theories and approaches of regional planning, Concept of Planning region, Planning regions of India; Decentralized planning 15 356 ce(AsianandAfricanExperiences).Concept PublishingCompany,NewDelhi. 10. Sundaram,K.V.(2004):TheTroddenPath:EssaysonRegionalandMicroLevelPlan ning.AnaunyaPublications.,NewDelhi. Learning 357 BANARAS HINDU UNIVERSITY Department of Home Science Faculty of Science SYLLABI B.Sc. (Hons.) Programme In Home Science 358 DEPARTMENT OF HOME SCIENCE BANARAS HINDU UNIVERSITY, VARANASI-221005 Syllabus NEP Course Structure for Four Year Undergraduate Home Science Program Semester Course code Course name Credits Semester - I"
+            },
+            {
+              "unit": 2,
+              "topics": "RegionalDevelopment:RegionalimbalancesandinequalitiesinIn dia;Regionalplanningandnationaldevelopment;Economicdevelo pmentandregionaldevelopment;Role of agriculture, industry and infrastructure in regional development. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "RegionalPlanning:EvolutionofRegionalPlanninginIndia;Regio nalplanning and National development; Planning for regional development,Integratedregionalplanning,Multi-level planning, Survey for planning:diagnostic,techno-economicandregional 15"
+            },
+            {
+              "unit": 4,
+              "topics": "PlanningandPolicyinIndia:Regional development strategy in India;Changing paradigm of planning in India.National and state level planning,Locallevelplanning;NationalCapitalRegion; Planning for Eastern Uttar Pradesh. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-Multidisciplinary Course1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ7R4E",
+          "name": "Advanced Geographical Information System",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Concepts of Geographical Information System: Development of GeographicalInformation System, Terminologies; Data types, characteristics and sources;DataModels-Conceptual, Logical, and Physical;DataStructures-Hierarchical, Relational and Objectoriented 15 335"
+            },
+            {
+              "unit": 2,
+              "topics": "DataBaseandStandards:DataBaseManagementSystem(DBMS );DataQuality:meaning,measures,componentsandmanagement; Geographical Information System Data Standards: meaning, classification, and components. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Spatial Data Analysis: Raster Data Analysis: Local; neighborhood and regional operations-Overlay Analysis, Map Algebra;VectorDataAnalysis:ConceptofTopologyandTopologi calAnalysis;ProximityAnalysis:Buffering,ThiessenPolygon; Network Analysis; Multi-Criteria Analysis; Data Interpolation: IDW and Kriging. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Recent Advances and Applications: Web GIS, Global Positioning System (GPS)and Mobile mapping; Machine learning; Artificial Intelligence (AI); Geographical Information System Software and programming.; Geographical Information System Applications: Land Use Planning, Site Suitability Analysis, Water Resource Management, Disaster Management and Mitigation. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ7R4F",
+          "name": "Rural and Urban Planning",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "ConceptofRuralPlanning:Conceptandapproachesofruralplanni ng;Policiesandprogrammesofruraldevelopment;Basicinfrastruct uresforruraldevelopment;Decentralizedplanning;Socialimpactas sessmentanalysisforruralplanning;Urban- rurallinkageapproachtoplanning. 15"
+            },
+            {
+              "unit": 2,
+              "topics": "ApproachestoRuralPlanning:Landuseplanning:concepts,princi plesandclassification; Carrying capacity of land; Agricultural efficiency; Rural land patterns and issues of land acquisitioninIndia;Ruralinfrastructure;MicrofinanceandMicroEnt erprises;Locallevelplanning;PURA;VillageInformationSystem 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Concept of Urban Planning: Concept and approaches of urban planning; Techniques and methods of urban planning: Urban land use: patterns and models; Urban renewal and redevelopment; Urban governance: Urban infrastructure; Master plan: A case study of Varanasi. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Approaches to Urban Planning: Garden cities, City as an organism, New and satellite town, global city, sustainable smart cities; Transportation planning: Mass transit system; Heritage conservation; Urban planning: A case study of Chandigarh; National Urban Information system. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ7R4G",
+          "name": "Geography of Migration and Diaspora",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "BasicConcepts:Meaning,DefinitionsandTypesofMigrationandDi aspora;CausesandConsequencesofMigration;LawsandTheories 15"
+            },
+            {
+              "unit": 2,
+              "topics": "Internal Migration: Spatial Dimension of Internal Migration in India: Inter-State andIntra-State; Trends and Patterns of Internal Migration; Reasons, Streams and Consequences of Internal Migration. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "International Migration and Diaspora: Determinants of International Migration; Globalization, International Migration and Diaspora; Illegal Migration: Causes and Consequences; Role of Organizations: International Organization for Migration(IOM),United Nations High Commissioner for Refugees(UNHCR) 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Indian Diaspora: Indian Diaspora across Continents and Countries; Indian Diaspora: Identity, Ethnicity, Citizenship,PeopleofIndianOrigin,Remittances;Challengesfaced byIndianDiaspora. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMN71",
+          "name": "Research Methodology",
+          "credits": 4,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Minor Credits&Hourof Teaching Theory Practical Cumulative Credits 4 Hour of Teaching (Total) 60 CourseObjectives  Tointroducetheconceptandsignificanceofresearchgeography.  Toexplainthephilosophyandgeographyrelations.  Tointroducestudentsaboutresearchprocessanddesignanddatacollection. ResearchinGeography:Conceptandsignificanceofresearching eography;Productionofgeographicalknowledge;Philosophyand Geography:Ontology,Epistemology,MethodologyandMethods; PositivistandNon-PositivistResearch 15 339 Course B.Sc./B.A.FourthYear:Semester-VII Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": "ResearchProcessandDesign:ResearchProcess;Researchdesig ns:quantitative(experimental and survey), qualitative (ethnography, grounded theory, case study, phenomenological), mixed method (sequential, concurrent, and transformative);Ethics in Research 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Data Collection Methods: Primary data collection: questionnaires, observation, key information interviews ,in- depth interviews, focus group discussion; Sources of secondary data; Sampling and sample size determination; Quality control checks; Data cleaning. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Data Analysis and Dissemination: Data analysis: Quantitative (variables, scales,univariate, bivariate, and multivariate analysis), Qualitative (thematic analysis); Writing reports and research papers: structure, referencing, plagiarism. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 8,
+      "papers": [
+        {
+          "code": "GGRDS8R1",
+          "name": "Dissertation",
+          "credits": 12,
+          "course_type": "Dissertation",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Dissertation 12 Minor"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ81",
+          "name": "Advanced Surveying",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Advanced Surveying 2 Major"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ82",
+          "name": "Environmental Quality Analysis",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Environmental Quality Analysis 2 Elective (Any Three)"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ83A",
+          "name": "Biogeography",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": null
+        },
+        {
+          "code": "GGRMJ83B",
+          "name": "Advanced Remote Sensing",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": null
+        },
+        {
+          "code": "GGRMJ83C",
+          "name": "Advances in Urban Planning",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "ConceptualandTheoreticalBackground:Changingformsofurba nisation;Growthofcities; Stages of urban development; Evolution of urban planning; Objects of urban planning, Economic justification for urban planning; Principles of urban planning 15 340 7. Gavsker,KapilKumar(2012): India’sUrbanDevelopment-Revitalizing PlanninginNeoliberalTimes&IntegratingGovernance,LambertAcademic Publishing, Germany 8. Kundu,A(1992):UrbanDevelopment andUrbanResearchinIndia,KhannaPublication,NewDelhi 9. MayerH.M.andKohn,C.F.(eds.)(1958):ReadingsinUrbanGeography,UniversityofChica goPress,Chicago 10. Prasad, Sheela and Kapil Kumar Gavsker (2016): ‘The New ‘Love’ Story of the Taj Mahal- Urban Planning in the Age ofHeritageTourisminAgra’, Economic andPolitical Weekly,LI(5):40-48 11. Ramachandran,R.(1989):UrbanisationandUrbanSystemsinIndia,Oxford,NewDelhi. 12. Singh,K.and Steinberg, F.(eds.)(1987), Urban Indiain Crisis, New Age International, NewDelhi Learning"
+            },
+            {
+              "unit": 2,
+              "topics": "UrbanTransitions:Urbanrevolution;FordistandPost-Fordistcity; Land economics and urban restructuring; Paradigmsin urban planning; Post modern urbanism; New urbanism; Cities and globalization;Impactsoflargeurbanprojects;Realestateandcities; Righttothecity; 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Governance and Management: Inclusive city challenge; Local urban governance; Climate change and urban resilience; Urbanecologyandsustainableurbandevelopment; Measuring sustainability; Smart urban growth; Urban ecology in sustainable urban development; Problems and remedies of urbanization; Local Agenda 21 and urban management; 15"
+            },
+            {
+              "unit": 4,
+              "topics": "CasesofUrbanPracticesinIndia:Natureofurbanregenerationand renewal;Spatiality of the slum (re)development; Transport :transit -oriented development; and Peri-urban growth; Urban participatory process under the CAA; Urban planning reforms 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ83D",
+          "name": "Industrial Geography",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Basic Concepts: Meaning and scope of industrial geography; Recent trends in industrial geography; Classification of industries; Concept of industrialization, industrial complex and industrial estate; Role of industries in regional development. 15 341"
+            },
+            {
+              "unit": 2,
+              "topics": "Location Factors and Theories: Factors of industrial location; Linkage in industries; Theories of industrial location: Weber, Hoover, Lösch and Smith. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "The spatial arrangement of Industries: Localization anddistributionofiron&steel,cottontextileandsugarindustrie s;Basesofidentificationofindustrialregions;Industrialregion softheU.S.A. and West Europe. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Industrialization in India: Industrial development and policies; Industrial regions and complexes; Impact of globalization on industries; Problems of industrialization; Environmental impact of industrialization; Tourism as an industry; Tourism in Uttar Pradesh. Special economic zones. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ83E",
+          "name": "Gender Geography",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Conceptualizing Gender: Meaning and Scope of Gender Geography, Basic Concepts: sex,gender, sexuality, power, gender inequality; Feminism; Waves of feminism; Feminism inIndia;HistoryofIndianWomen’sMovement. 15 343 Course B.Sc./B.A.FourthYear:Semester-VIII Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": "Gender and Development: Approaches to women and development: WID, WAD& GAD; Gender empowerment measures(GEM); Sustainable development and gender, Global gendergap(GGP); Womenand natural resource management(NRM), Gendermainstreaming;Genderbudgeting. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Gender, Identity and Space: Socio-spatial construction of gender: class, caste, religion, sexuality and age; Public and private spaces: gender and work, gender and migration, sexual harassment: domestic and at work places; Legislative 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Gendered Nature of House work; Girls Education; Women’s Employment; Feminization of Poverty; Gender Violence; Women in Decision Making; HumanTrafficking. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ83F",
+          "name": "Agriculture Geography",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "BasicConcepts:Meaningandscopeofagriculturalgeography;App roachestoagricultural geography; Physical, cultural and institutional factors affecting agricultural distribution and productivity. 15 344 Course B.Sc./B.A.FourthYear:Semester-VIII CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "Agricultural Patterns: Crop concentration and crop diversification;Delineationofcropcombinationregions;Agricultu ralregionsoftheworld;AgriculturalSystems(subsistence,plantati onandcommercialfarming). 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Land use and Productivity: Concepts of agricultural land-use and carrying capacity; Model of Agricultural Land use (Von Thunen);Land use pattern and planning; Measures Of agricultural efficiency and productivity. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Indian Agriculture: Agro-climatic regions of India; Reforms in Indian agriculture with special reference to land and institutional reforms; Agricultural revolutions in India; Organic and contract farming; Agricultural planning and policies inIndia. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ83G",
+          "name": "Environmental Hazards and Disaster Risk Reduction",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "UnderstandingEnvironmentalHazards:ConceptsandDefinitio nofEnvironmentalHazards,Disaster,Risk,andResilience,Basesof ClassificationandTypesofHazards,Characteristics,spatio- temporal distribution, impact sand risk reduction measures of Major geological hazards: Volcanic eruption, Earthquakes,TsunamiandLandslides; Majorhydro-meteoro logica hazards: Floods,Drought,Cyclones,Cloudburs. 15 345 CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "Disaster Risk Reduction Process: Paradigm and approachesindisaster management, Concepts of Disaster Risk Reduction, Disaster Management Cycle, Pre-disasterstage- preparedness, prevention, mitigation; On disasterstage- response,Post-disasterstage-Relief,Recovery,Rehabilitation. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "TechniquesandMethods:Processofhazardidentificationandmap ping,Indicatorsandfactorsofvulnerability,Riskassessmentprocess 15"
+            },
+            {
+              "unit": 4,
+              "topics": "International and National initiatives: UN and its Programmes: International Decade ofNatural Disaster Reduction (IDNDR), International Strategy for Disaster Risk Reduction(ISDR), Hyogo Framework for Action (HFA) – 2005,Major hazards profileofIndia: Flood, drought, earthquake, tsunami,cyclones;Institutions:NationalDisasterManagementAut hority (NDMA), National Institute of Disaster Management (NIDM),Policy: Disaster managementact 2005, Disaster management system in India. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ83H",
+          "name": "Ecotourism & Geoheritage",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Conceptual:Nature,and Scope of Geography of eco-tourism; Dat sources; Typology of Tourism:developed and developing world; Tourism asanindustry; Drivers of Tourism; Tourism and Regional Economy; Conceptof heritage and its types. 15 346 CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "SystemofTourismandImpacts; Tourism Multiplier and Forecasting Methods; Trends and Pattern of tourism in theWorld; Models of Ecotourism; Impacts of Tourism-Socio- cultural problems and Environmental degradation. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Concept of Historic Urban Landscapes; Concept and Classification of heritage;Built heritage conservation; Cultural heritage-based tourism; Major National Parks, Beaches and Resorts of India; Built Heritage Conservation; Cultural Heritage Based Tourism; Legislation and Acts; SustainableTourismDevelopment Planning 15"
+            },
+            {
+              "unit": 4,
+              "topics": "PolicyandPlanningforHeritage;Tourism in India; Characteristics of Tourism Plan; Cases of Cultural Heritage:ConservationandRevitalization;LegislationandActs;Su stainableTourismDevelopmentPlanning. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ83I",
+          "name": "Fluvial Geomorphology",
+          "credits": 4,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "OverviewofRiverProcessesandHydraulics: Drainage basin evolution; divide, channel network, overview of open-channel flow& Geometry overlandflow, nodes and their classification; erosion and transport in river channel, Typesof flow. 15 347 Learning"
+            },
+            {
+              "unit": 2,
+              "topics": "ChannelMorphology&FluvialDepositionalEnvironment:T hebank-full channel: Hydraulic geometry, Flowregimesanddominantdischarge;Aggradationinthefluvialsy stem:aggradationasanormalphaseofvalleyevolution,Climaticch ange,alluvialvalleys,terrace,Riverlongprofiles:Gradedstreams, base level, downstream fining channel alluvium, bar, Multi- threadchannels,avulsions,floodplains,DeltaandAlluvialfans. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "LargeRiverintheTropics: Channel characteristics, hydrology and morphology, recent problems of Amazon, Zambezi, Ganga-Brahmaputra system,Kosi. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "River Management & Restoration: River health assessment, framework and principles, indicators, management and operational issues, casestudies, Impact of Climatic & anthropogenic change on river. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ8R1",
+          "name": "Advanced Surveying",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Advanced Surveying 2 Major"
+            }
+          ]
+        },
+        {
+          "code": "GGRMJ8R2",
+          "name": "Environmental Quality Analysis",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Environmental Quality Analysis 2 Major"
+            }
+          ]
+        },
+        {
+          "code": "GGRMN81",
+          "name": "Advanced Surveying",
+          "credits": 2,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "SurveyInstruments:Theodolite,DumpyLevel,TotalStationand GPS;Fundamentals of Total Station: parts, characteristics, advantages anddisadvantages; Working Principles: settings, measurement (angular andlinear),open and closedtraverse 30 348 Course B.Sc./B.A.FourthYear:Semester-VIII CourseTitle"
+            },
+            {
+              "unit": 2,
+              "topics": "GPSSurvey: Elements and segments; GPSSatellites: Global Navigation Satellite System (GNSS), Indian Regional Navigation SatelliteSystem(IRNSS);MobileMapping; location- basedsurvey(LBS). 30 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMN82",
+          "name": "Environmental Quality Analysis",
+          "credits": 2,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Soil and water analysis: Soil health kundali: Calcium, magnesium, nitrogen,oxygen, humus, phosphorus, alkalinity and salinity, moisture (wet and dry),Water quality analysis: temperature, pH, DO, BOD and Water Quality Index(surfaceandgroundwater), Pointand non-pointsources ofpollution. 30"
+            },
+            {
+              "unit": 2,
+              "topics": "Air and Noise analysis and Solid waste: Air quality analysis:SO2,NO2,CO2, PM 2.5, PM 10, Air Quality Index; Noise levels: Indoor and outdoor(Peak andnonpeakhours of day andnight);MeasuringEMRby electric, magnetic, ultrasonic equipment; Solidwaste: Environmental ImpactAssessmentof awaste disposal and processingsite. 30 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+            }
+          ]
+        },
+        {
+          "code": "GGRMN8R1",
+          "name": "Advanced Surveying",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Advanced Surveying 2 Minor"
+            }
+          ]
+        },
+        {
+          "code": "GGRMN8R2",
+          "name": "Environmental Quality Analysis",
+          "credits": 1,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Environmental Quality Analysis 2 Total Credits 20 290 Course B.Sc./B.A.FirstYear:Semester-I Course Title"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

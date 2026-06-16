@@ -1,0 +1,1291 @@
+{
+  "department": "Department of Computer Science",
+  "university": "Banaras Hindu University",
+  "programme": "B.Sc. (Hons.) Computer Science",
+  "semesters": [
+    {
+      "semester": 1,
+      "papers": [
+        {
+          "code": "CSCMD11",
+          "name": "Fundamentals of Computing",
+          "credits": 3,
+          "course_type": "Multidisciplinary",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Computers: Characteristics of Computers, Evolution of Computing, Introduction to Computer Hardware/Software, Binary Number Systems, Types of Computer Software. 10 158 Semester–II"
+            },
+            {
+              "unit": 2,
+              "topics": "Problem Solving Techniques using Computers: Algorithm, Flow Charts, Pseudo code, Introduction to Low-Level, Assembly and High-Level Languages. 10"
+            },
+            {
+              "unit": 3,
+              "topics": "Introduction to Operating System: Concept, Functions, Types, Single-user/Multi-user operating system, Architectural differences Introduction to Memory: Memory Hierarchy and Management, Cache Memory, Primary Memory, Secondary Memory. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Introduction to Computer Networks, Internet, World Wide Web: Basic of Computer networks; LAN, WAN; Concept of Internet; Applications of Internet; connecting to internet; What is ISP; Knowing the Internet; World Wide Web; Web Browsing software, Search Engines; Understanding URL; Domain name; IP Address. 10"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ11",
+          "name": "Introduction to Programming using C",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Programming, Program Concept, Characteristics of Programming, Stages in Program Development, Algorithms, Flowcharts, Types of Programming Methodologies, Introduction to C Programming Basic Program Structure in C, Variables and Assignments, Input and Output, Selection and Repetition Statements. 15 156"
+            },
+            {
+              "unit": 2,
+              "topics": "User defined functions, Standard library functions, Passing values between functions, Calling convention: Call by value and Call by reference, Recursive functions. Introduction to Arrays, Declaration and Referring Arrays, Arrays in Memory, Initializing Arrays. Arrays in Functions, Multi-Dimensional Arrays. 10"
+            },
+            {
+              "unit": 3,
+              "topics": "Introduction to String, Declaration and Initialization, Reading and Writing Strings, Arrays of Strings, String and Function, Standard String Library Functions. Basics of Pointers, Pointers and One-dimensional Arrays, Pointer Arithmetic, Pointers as Function Arguments, Pointers and Strings, Pointers and two-dimensional arrays, Arrays of Pointers, Storage Classes. 10"
+            },
+            {
+              "unit": 4,
+              "topics": "Basics of Structures, Structures and Functions, Arrays of Structures, Pointers to Structures, Unions, Preprocessor, File Inclusion, Macro, Conditional Compilation, Dynamic Memory Allocation, Command Line Arguments, File Handling. 10"
+            }
+          ]
+        },
+        {
+          "code": "CSCSE11",
+          "name": "Web Designing*",
+          "credits": 3,
+          "course_type": "Skill Enhancement",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "HTML: Overview, Basic Tags, Elements, Attributes, Formatting, Phrase Tags, Meta Tags, Comments, Images, Tables, Lists, Text Links, Image Links, Email Links, Frames, Iframes, Blocks, Backgrounds, Colors, Fonts, Forms, Embed Multimedia, Marquees, Style Sheet, Layouts. 8 157"
+            },
+            {
+              "unit": 2,
+              "topics": "CSS: Overview, Syntax, Inclusion, Measurement Units, Colors, Background, Fonts, Text, Images, Links, Tables, Borders, Margins, Lists, Paddings, Cursors, Outlines, Dimension, Scrollbars, Visibility, Positioning, Layers, Filters, Media, Printing, Layouts, Validations 8"
+            },
+            {
+              "unit": 3,
+              "topics": "JAVASCRIPT: Overview, Syntax, Enabling, Placement, Variables, Operators, If-Else, Switch- Case, While Loop, For Loop, For-in Loop, Loop Control, Functions, Events, Cookies, Page Redirect, Dialog Box, Void Keyword, Page Printing, Objects, Number, Boolean, String, Arrays, Date, Math, Errors and Exceptions, Form Validation, Animation, Multimedia 7"
+            },
+            {
+              "unit": 4,
+              "topics": "PHP: Introducing PHP, Using Variables and Operators, Controlling Program Flow, Working with Arrays, Using Functions and Classes, Working with Files and Directories, Working with Databases and SQL, Working with XML, Working with Cookies, Sessions, and Headers, Handling Errors, Securing PHP, Extending PHP. 7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "papers": [
+        {
+          "code": "CSCMD21",
+          "name": "Introduction to Information Technology",
+          "credits": 3,
+          "course_type": "Multidisciplinary",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Computers: Introduction, Definition, Characteristics of computer, Evolution of Computer, Capabilities and limitations of computer. Basic Computer Organization: Role of input-output devices in a computer system. Input Units: Keyboard, Terminals and its types. Pointing Devices, Scanners and its types, Voice Recognition Systems, Vision Input System, Touch Screen, and Output Units: Monitors and its types. Printers: Impact Printers and its types. Non Impact Printers and its types, Plotters, types of plotters, Sound cards, Speakers. 10 161 Semester III"
+            },
+            {
+              "unit": 2,
+              "topics": "Storage Fundamentals: Primary Vs Secondary Storage, Data storage & retrieval methods. Primary Storage: RAM, ROM, PROM, EPROM, EEPROM. Secondary Storage: Magnetic Tapes, Magnetic Disks. Cartridge tape, hard disks, Floppy disks Optical Disks, Compact Disks, Zip Drive, Flash Drives. Software (S/W): Software and its needs, Types of S/W. System Software: Operating System, Utility Programs Programming Language: Machine Language, Assembly Language, High Level Language their advantages & disadvantages. Application S/W and its types: Word Processing, Spread Sheets Presentation, Graphics, DBMS S/W. 10"
+            },
+            {
+              "unit": 3,
+              "topics": "Operating System: Functions, Measuring System Performance, Assemblers, Compilers and Interpreters. Batch Processing, Multiprogramming, Multi Tasking, Multiprocessing, Time Sharing, DOS, Windows, Unix/Linux. Data Communication: Communication Process, Data Transmission speed, Communication Types (modes), Data Transmission Medias, Modem and its working, characteristics, Types of Networks, LAN Topologies, Computer Protocols, Concepts relating to networking. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Business Data Processing: Introduction, data storage hierarchy, Method of organizing data, File Types, File Organization, File Utilities.Computer Arithmetic: Binary, Binary Arithmetic, Number System: Positional & Non Positional, Binary, Octal, Decimal, Hexadecimal, Converting from one number system to another, Converting from one number system to another , Converting from one number system to another. 10"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ21",
+          "name": "Data Structures and Algorithms",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Defining a Data Structure: Types of Data Structures. Linear Structures: Array, List, Stack, Queue, Applications of arrays, lists, stacks and queues. 13 159"
+            },
+            {
+              "unit": 2,
+              "topics": "Non-Linear Data Structures: Tree, Tree Traversals, Binary Tree, Applications of Trees, Binary Search Tree, Graph, Shortest Path, Spanning Tree, Hashing and Collision Resolution Techniques. 12"
+            },
+            {
+              "unit": 3,
+              "topics": "Introduction to Algorithm Analysis and Design: Time Complexity Analysis, Asymptotic Notations, Introduction to Design Techniques such as Greedy, Divide and Conquer, Dynamic Programming, Backtracking, Branch and Bound. 10"
+            },
+            {
+              "unit": 4,
+              "topics": "Searching and Sorting: Linear Search, Binary Search, Bubble Sort, Selection Sort, Insertion Sort and Quick Sort. 10"
+            }
+          ]
+        },
+        {
+          "code": "CSCSE21",
+          "name": "Mobile Application Development*",
+          "credits": 3,
+          "course_type": "Skill Enhancement",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Android: The Android Platform, Android SDK, Eclipse Installation, Android Installation, Building you First Android application, Understanding Anatomy of Android Application, Android Manifest file 8 160"
+            },
+            {
+              "unit": 2,
+              "topics": "Android Application Design Essentials: Anatomy of an Android applications, Android terminologies, Application Context, Activities, Services, Intents, Receiving and Broadcasting Intents, Android Manifest File and its common settings, Using Intent Filter, Permissions. 8"
+            },
+            {
+              "unit": 3,
+              "topics": "Android User Interface Design Essentials: User Interface Screen elements, Designing User Interfaces with Layouts, Drawing and Working with Animation. Testing Android applications,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 3,
+      "papers": [
+        {
+          "code": "CSCMD31",
+          "name": "Introduction to Cyber Security",
+          "credits": 3,
+          "course_type": "Multidisciplinary",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction History of Internet, Cyber Crime, Information Security, Computer Ethics and Security Policies, Guidelines to choose web browsers, Securing web browser, Antiviruses, Email security, Guidelines for setting up a Secure password, Two-steps authentication ,Password Manager, Wi-Fi Security. 15 166 Semester –IV"
+            },
+            {
+              "unit": 2,
+              "topics": "Social media, Smart Phone and basic Windows security: Guidelines for social media security, best practices for safer Social, Introduction to mobile phones, Smartphone Security, Android Security, IOS Security, Basic Security for Windows User Account Password, etc 10"
+            },
+            {
+              "unit": 3,
+              "topics": "Cyber Security Initiatives in India and online Banking Security: IT Security Act, Cyber Security Initiatives in India, Cyber Security Exercise, Cyber Security Incident Handling. 10"
+            },
+            {
+              "unit": 4,
+              "topics": "Cyber Security Assurance, Online Banking Security, Mobile Banking Security, Security of Debit and Credit Card , UPI Security, Security of Micro ATMs, e-wallet Security Guidelines, Security Guidelines for Point of Sales(POS). 10"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ31",
+          "name": "Digital Logic and Circuit Design",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Number System: Weighted and Unweighted Codes, Binary, Octal, and Hexadecimal numbers; Fixed and Floating Point Number Representations, number base conversion, Complements, Binary Arithmetic: Addition, Subtraction, Multiplication and Division, BCD Code. 10 162"
+            },
+            {
+              "unit": 2,
+              "topics": "Boolean algebra and Logic Gates: Introduction to Boolean algebra, laws of Boolean algebra, logic gates, universal logic gates, POS and SOP notations, Canonical logic forms. Simplification of Boolean Functions: Laws of Boolean algebra and K-Maps, Tabulation Method. 12"
+            },
+            {
+              "unit": 3,
+              "topics": "Combinational Circuits: Design Procedure of Combinational Circuits, Adders, Subtractors, Code Converters, Magnitude Comparator, Encoder, Decoder, Multiplexer, Demultiplexer, ROM. 12"
+            },
+            {
+              "unit": 4,
+              "topics": "Sequential Circuits: Flip-Flops: SR, D, JK, T, Master/Slave F/F, Edge-trigerred F/F, Excitation Tables; Registers, Counters: synchronous and asynchronous, Design of Counters, Shift Registers, RAM. 11"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ33",
+          "name": "Object Oriented Programming",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Object Oriented Programming 3 1 4 Major"
+            }
+          ]
+        },
+        {
+          "code": "CSCMV31",
+          "name": "IT Tools and Applications",
+          "credits": 3,
+          "course_type": "Minor (Vocational)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Word Processing Word processing concepts: saving, closing, Opening an existing document, Selecting text, Editing text, Finding and replacing text, printing documents, Creating and Printing Merged Documents, Character and Paragraph Formatting, Page Design and Layout. Editing and Profiling Tools: Checking and correcting spellings, Handling Graphics, Creating Tables and Charts, Document Templates and Wizards. Applications in different domains. 12 165"
+            },
+            {
+              "unit": 2,
+              "topics": "Spreadsheet Package Spreadsheet Concepts, Creating, Saving and Editing a Workbook, Inserting, Deleting Work Sheets, entering data in a cell / formula Copying and Moving from selected cells, handling operators in Formulae, Functions: Mathematical, Logical, statistical, text, financial, Date and Time functions, Using Function Wizard. Formatting a Worksheet: Formatting Cells – changing data alignment, changing date, number, character or currency format, changing font, adding borders and colors, Printing worksheets, Charts and Graphs – Creating, Previewing, Modifying Charts. Integrating word processor, spread sheets, web pages. Applications in different domains. 14"
+            },
+            {
+              "unit": 3,
+              "topics": "Presentation Package Creating, Opening and Saving Presentations, Creating the Look of Your Presentation, Working in Different Views, Working with Slides, Adding and Formatting Text, Formatting Paragraphs, Checking Spelling and Correcting Typing Mistakes, Making Notes Pages and Handouts, Drawing and Working with Objects, Adding Clip Art and other pictures, Designing Slide Shows, Running and Controlling a Slide Show, Printing Presentations. Applications in different domains. 10"
+            },
+            {
+              "unit": 4,
+              "topics": "Data Base Operations Data Manipulation-Concept: Database, Relational Database, Integrity. Operations: Creating, dropping, manipulating table structure. Manipulation of Data: Query, Data Entry Form, Reports. Applications in different domains. 9"
+            }
+          ]
+        },
+        {
+          "code": "CSCSE31",
+          "name": "Python Programming*",
+          "credits": 3,
+          "course_type": "Skill Enhancement",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Computers and Programming: Introduction, Hardware and Software, How Computers Store Data, How a Program Works, Python Installation, Input, Processing, and Output: Displaying Output with the print Function, Comments, Variables, Reading Input from the Keyboard, Performing Calculations, More About Data Output. 8 164"
+            },
+            {
+              "unit": 2,
+              "topics": "Decision Structures and Boolean Logic: The if Statement, The if-else Statement, Comparing Strings, Nested Decision Structures and the if-elif-else Statement, Logical Operators, Boolean Variables. Repetition Structures: Introduction to Repetition Structures, The while Loop: A Condition- Controlled Loop, The for Loop: A Count-Controlled Loop, Calculating a Running Total, Sentinels, Input Validation Loops, Nested Loops 8"
+            },
+            {
+              "unit": 3,
+              "topics": "Functions: Introduction to Functions, Defining and Calling a Void Function, Designing a Program to Use Functions, Local Variables, Passing Arguments to Functions, Global Variables and Global Constants, Introduction to Value-Returning Functions: Generating Random Numbers, Writing Your Own Value-Returning Functions, Recursion, The math Module, Storing Functions in Modules Lists and Tuples: Sequences, Introduction to Lists, List Slicing, Finding Items in Lists with the in Operator, List Methods and Useful Built-in Functions, Copying Lists, Processing Lists, Two- Dimensional Lists, Tuples, Plotting List Data with the matplotlib Package. 7"
+            },
+            {
+              "unit": 4,
+              "topics": "More About Strings:Basic String Operations, String Slicing, Testing, Searching, and Manipulating Strings. Dictionaries and Sets: Dictionaries, Sets, Serializing Objects. Files and Exceptions: Introduction to File Input and Output, Using Loops to Process Files, Processing Records, Exceptions Object-Oriented Programming:Procedural and Object-Oriented Programming, Classes, Working with Instances, Techniques for Designing Classes, Introduction to Inheritance, Polymorphism. 7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 4,
+      "papers": [
+        {
+          "code": "CSCMJ41",
+          "name": "Mathematics for Computer Science",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Set, set operations, relation, matrix and graph representation of relation, Properties of relation, and Partial order relations. Hasse diagram, lattice, and Boolean algebra. Number theoretic function, and recursion. 10 167"
+            },
+            {
+              "unit": 2,
+              "topics": "Propositional calculus / statement calculus – statement, logic connective, statement formula and truth table, well formed formula, tautology, contradiction, substitution instance, equivalence of formula, duality law, tautological implication, functionally complete set of connectives, satisfiability, decision problem, normal forms. Theory of inference for propositional calculus. Predicate calculus: Limitation of propositional calculus, statement representation using predicate and quantifier. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Probability: Sample Space and Events, Axioms of Probability, Conditional Probability. Random Variables and Expectations: Random variables, Jointly Distributed Random variables, Expectation, Variance, Co-variance, Probability Distributions. Parameter Estimation-Maximum Likelihood Estimates; Regression Analysis; Applications, Markov Process, Poisson Process. 10"
+            },
+            {
+              "unit": 4,
+              "topics": "Basic Concepts of Graphs and Trees, Adjacency and Incidence Matrices, Planar Graphs, Graph Coloring, Eulerian and Hamiltonian graphs, Applications of Graph Theoretic Concepts to Computer Science. 10"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ42",
+          "name": "Database Management System",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction: Database Systems, View of Data Models, Database Languages, DBMS Architecture, Database Users and Data Independence. ER Modeling: relation types, role and Structural Constraints, Extended ER Modeling Features, Design of an ER Database Schema, Reduction of ER Schema to Tables. 15 168"
+            },
+            {
+              "unit": 2,
+              "topics": "Relational Model: Relational Model Concepts, Relational Algebra. Introduction to SQL: SQL data types and literals, Types of SQL commands, SQL operators, Tables, views and indexes, Queries and sub queries, Aggregate functions. 10"
+            },
+            {
+              "unit": 3,
+              "topics": "Relational Database Design: Functional and Multi-valued Dependencies, Desirable Properties of Decomposition, Normalization up to 3 NF and BCNF. 10"
+            },
+            {
+              "unit": 4,
+              "topics": "Transaction Management, Concurrency Control, Recovery Techniques, Security, Introduction to Query Processing and Query Optimization. Data warehousing, Data mining, Distributed databases, Big Data and NoSQL. 10"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ44",
+          "name": "Object Oriented Programming",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Object Oriented Concepts: Objects and Classes, Bottom up approach, OO design principles, OO Design and Modeling. 8 163"
+            },
+            {
+              "unit": 2,
+              "topics": "Basic OO language Constructs: Primitive Data Types and Operations, Selection Statements, Loops, Arrays, Strings, Objects and Classes, Inheritance and method overriding, Polymorphism. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Java Language Fundamentals: Object Design: constructors, instance variables, methods. Memory models, scope, streams and I/O programming, Inner classes, Interfaces and packages, Exception Handling, Multithreading. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Advanced Concepts: Creating GUIs and Displaying Data, Event Driven Programming. Frameworks: The framework concept, Frameworks in the Java API: Collections Framework, Graphics Framework. 7"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ45",
+          "name": "Numerical Computing",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Errors in Computer Arithmetic, Normalization. Bisection, False position and Newton-Raphson methods for solution of nonlinear equations. Errors in the solutions, Convergence of Solutions. 10 170 Semester –V"
+            },
+            {
+              "unit": 2,
+              "topics": "Gauss, Gauss-Siedel and Iterative methods for system of linear equations. Ill conditioned system, Pivotal Condensation, Matrix Inversion, Eigen-values, Eigen-vector, Diagonalization of Real Symmetric Matrix by Jacobi's Method. 10"
+            },
+            {
+              "unit": 3,
+              "topics": "Introduction to Finite Differences, Polynomial Interpolation using Newton's and Lagrange's formulae.Numerical Differentiation: Numerical Integration: Trapezoidal Rule, Simpson's Rule, Weddle's Rule, Gauss Quadrature Formula. Error in numerical Integration. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Numerical Solution of differential Equations: Picards Method, Taylor’s Series Method, Euler’s Method, Modified Euler’s Method, Runge-Kutta Method, Predictor-Corrector Method. 10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 5,
+      "papers": [
+        {
+          "code": "CSCIN51",
+          "name": "Internship",
+          "credits": 2,
+          "course_type": "Internship",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Internship - - 2 Internship From other Departments - - 4 Minor(VOC-2) Total Credits 20"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ51",
+          "name": "Operating System Concepts",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction: Definition, Design Goals, Evolution; Batch processing, Multiprogramming, Timesharing; Real-time operations; Structure and Functions of Operating System. Process Management: Process states, State Transitions, Process Control Structure, Context Switching, Process Scheduling, Threads. 10 171"
+            },
+            {
+              "unit": 2,
+              "topics": "Memory Management: Address Binding, Dynamic Loading and Linking Concepts, Logical and Physical Addresses, Contiguous Allocation, Fragmentation, Paging, Segmentation, Combined Systems, Virtual Memory, Demand Paging, Page fault, Page replacement algorithms, Global Vs Local Allocation, Thrashing, Working Set Model. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Concurrent Processes: Process Interaction, Shared Data and Critical Section, Mutual Exclusion, Busy form of waiting, Lock and unlock primitives, Synchronization, Classical Problems of Synchronization, Semaphores, Monitors, Conditional Critical Regions, System Deadlock, Wait for Graph, Deadlock Handling Techniques: Prevention, Avoidance, Detection and Recovery. 10"
+            },
+            {
+              "unit": 4,
+              "topics": "File and Secondary Storage Management: File Attributes, File Types, File Access Methods, Directory Structure, Allocation Methods, Free Space management; Disk Structure, Logical and Physical View, Disk Head Scheduling. 10"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ53",
+          "name": "Design and Analysis of Algorithms",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Algorithms: Time and Space complexity, Average and Worst-case analysis, Asymptotic notation, Master theorem Recurrence equations and their solution. 10 172"
+            },
+            {
+              "unit": 2,
+              "topics": "Algorithmic Techniques: Search techniques (backtracking and bounding), Search Trees, Sorting algorithms – Heapsort, Quick sort, Sorting in linear time (radix sort, bucket sort). 12"
+            },
+            {
+              "unit": 3,
+              "topics": "Algorithmic Paradigms: Greedy algorithms (Activity-selection problem, Huffman coding, Knapsack, Shortest path and Minimum Spanning tree in graphs), Divide and Conquer – Merge Sort, Integer Multiplication, Solving Recurrence-substitution method and recursion-tree,; Dynamic programming (0/1 Knapsack Problems, Traveling Salesman problem, Matrix multiplication, Shortest paths algorithms,, Optimal binary search trees). 12"
+            },
+            {
+              "unit": 4,
+              "topics": "Computational complexity: Problem classes: P, NP, NP-complete, NP-hard, Examples of NP- complete problems, Cook's theorem. 11"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ55",
+          "name": "Theory of Computation",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Alphabets, string, language, basic operations on language, concatenation, union, Kleene star. Finite Automata (FA): Non deterministic FA and deterministic FA, NFA with ε- moves, Regular Expressions, Equivalence of regular expression and FA, Pumping lemma, closure properties, FA minimization: Myhill-Nerode theorem and Equivalence theorem, Formal Language and Grammar: Production systems, Finite automata with output, Regular grammar. 15 173"
+            },
+            {
+              "unit": 2,
+              "topics": "Context free grammars, Normal forms, Simplification of CFG, Derivation trees and ambiguity. Pushdown automata: Acceptance by empty store and final state, Deterministic pushdown automata, Equivalence between pushdown automata and context-free grammars, Pumping lemma for CFL, Closure properties of CFL. 10"
+            },
+            {
+              "unit": 3,
+              "topics": "Turing machine as a model of computation, configuration of simple Turing machine, Church Turing Thesis, Universal Turing Machine, decidability, halting problem, context sensitive languages and linear bounded automata, Chomsky Hierarchy. 10"
+            },
+            {
+              "unit": 4,
+              "topics": "Undecidability: A Language that is not Recursively Enumerable (RE), an Undecidable Problem that is RE, Undecidable Problems about Turing Machine. Post’s Correspondence Problem, The Classes P and NP. 10"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ56",
+          "name": "Swayam Course",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Swayam Course The course must be selected with dept approval. - - 2 Major"
+            }
+          ]
+        },
+        {
+          "code": "CSCMV51",
+          "name": "Introduction to Multimedia",
+          "credits": 3,
+          "course_type": "Minor (Vocational)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Multimedia What is multimedia, Components of multimedia, Web and Internet multimedia applications, Transition from conventional media to digital media. Computer Fonts and Hypertext: Usage of text in Multimedia, Families and faces of fonts, outline fonts, bitmap fonts International character sets and hypertext, Digital fonts techniques. 12 174 Semester VI"
+            },
+            {
+              "unit": 2,
+              "topics": "Audio fundamentals and representations Digitization of sound, frequency and bandwidth, decibel system, data rate, audio file format, Sound synthesis, MIDI, wavetable, Compression and transmission of audio on Internet, Adding sound to your multimedia project, Audio software and hardware. 12"
+            },
+            {
+              "unit": 3,
+              "topics": "Image fundamentals and representations Colour Science , Colour Models, Colour palettes, Dithering, 2D Graphics, Image Compression and File Formats :GIF, JPEG, JPEG 2000,PNG, TIFF, EXIF, PS, PDF, Basic Image Processing [Can Use Photoshop], Use of image editing software, White balance correction, Dynamic range correction, Gamma correction, Photo Retouching. 11"
+            },
+            {
+              "unit": 4,
+              "topics": "Video and Animation Video Basics, How Video Works, Broadcast Video Standards, Analog video, Digital video, Video Recording and Tape formats, Shooting and Editing Video (Use Adobe Premier for editing), Video Compression and File Formats. Video compression based on motion compensation, MPEG-1, MPEG-2, MPEG-4, MPEG-7, MPEG-21, Animation: Cell Animation, Computer Animation, Morphing. 10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 6,
+      "papers": [
+        {
+          "code": "CSCMJ61",
+          "name": "Software Engineering",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction: Software crisis, Software development Projects, Exploratory software development, Emergence of Software Engineering, Software life-cycle models: Waterfall model and its extensions, Rapid Application Development (RAD), Agile Development, Spiral Model etc. CMM, Software Quality, role of metrics and measurement. Requirements Analysis and Specification: SRS Building Process, Specification Languages, Validation of SRS, metrics, monitoring and control, Object Oriented analysis. 15 175"
+            },
+            {
+              "unit": 2,
+              "topics": "Software Project Management: Responsibilities & Complexities of Software project Management, Project Planning, Matrices for Project size estimation, Project Estimation techniques: Empirical, Heuristic, and analytical Estimation techniques, Project Scheduling techniques: Activity Network, CPM, PERT Chart, Gantt Chart, Organization & Team Structure, Risk Management, and Configuration Management. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Software Architecture & Design: Role of Software Architecture, Architecture Views, Component and Connector View, Architecture Styles for C&C View, Architecture Evaluation. Software Design and Implementation: Overview of the design Concepts, Cohesion and Coupling, Software design Approaches: Function Oriented and Object-Oriented design concepts, Design Metrics, Design Translation Process. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Software Testing and Reliability: Basic concepts & terminologies of coding and testing, Techniques of testing, Debugging approaches, Software Maintenance, Software Reliability and Availability Models & Metrics, Software Reengineering, Software Reuse. Introduction to IEEE Standards, Case Studies. 15"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ62",
+          "name": "Compiler Design",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction: Translators, Various phases of compiler, tool based approach to compiler construction. Lexical analysis: token, lexeme and patterns, difficulties in lexical analysis, error reporting, implementation, regular definition, transition diagrams, LEX. 10 176"
+            },
+            {
+              "unit": 2,
+              "topics": "Syntax Analysis:Top Down parsing (recursive descent parsing, predictive parsing), operator precedence parsing, bottom-up parsing (SLR, LALR, Canonical LR), YACC. Syntax directed definitions: inherited and synthesized attributes, dependency graph, evaluation order, bottom-up and top-down evaluation of attributes, L-attributed and S attributed Definitions. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Type checking: type system, type expressions, structural and name equivalence of types, type conversion, overloaded functions and operators, polymorphic functions. Run time system: storage organization, activation tree, activation record, parameter passing, dynamic storage allocation, symbol table: hashing, linked list, tree structures. 10"
+            },
+            {
+              "unit": 4,
+              "topics": "Intermediate code generation: Intermediate Representation, Translation of Declarations, Assignments, Control Flow, Boolean Expressions and Procedure Calls. Code generation and Optimization: Basic blocks and flow graphs, code generation, DAG representation of programs, code generation from DAGs, Loop Optimization, Global Optimization, Loop Optimization, Peep-Hole optimization. 10"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ64",
+          "name": "Computer Networks",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction:Network Definition; Network Topologies; Network Classifications; Layered Network Architecture; Overview of OSI Reference Model; Overview of TCP/IP Protocol Suite. Physical Layer:Analog and Digital Signals; Digital to Digital Conversion Schemes; Analog to Digital Conversion Schemes; Parallel and Serial transmission; Digital to Analog Conversion Schemes; Analog to Analog Conversion Schemes; Multiplexing and Spread Spectrum; Transmission Media; Circuit Switching and Packet Switching. 15 177"
+            },
+            {
+              "unit": 2,
+              "topics": "Data Link Layer: Error Detection and Error Correction Techniques; Data Link Control- Framing and Flow control; Error Recovery Protocols- Stop and Wait ARQ, Go-Back-N ARQ, Selective-Repeat ARQ; HDLC; Point to Point Protocol. Multiple Access: Random Access Protocols; Controlled Access Protocols; Channelization - FDMA, TDMA and CDMA. 10"
+            },
+            {
+              "unit": 3,
+              "topics": "Networks Layer: Logical Addressing; Internet protocols; Address Mapping and Error Reporting; Delivery, Forwarding, and Routing. 10"
+            },
+            {
+              "unit": 4,
+              "topics": "Transport Layer:Process-to-Process Delivery: UDP, TCP, and SCTP; Congestion Control and Quality of Service. Application Layer:Domain Name System; Remote Logging, Electronic Mail, and File Transfer; WWW, HTTP, and SNMP. 10"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ66",
+          "name": "Artificial Intelligence",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction: Intelligent Agents – Agents and environments - Good behavior - The nature of environments- Structure of agents- Problem Solving - Problem solving agents- Example problems- Searching for solutions- Uniformed search strategies- Avoiding repeated states 11 178"
+            },
+            {
+              "unit": 2,
+              "topics": "Searching Techniques: Informed search strategies- Heuristic function- Local search algorithms and optimistic problems- Local search in continuous spaces- Online search agents and unknown environments- Constraint satisfaction problems (CSP)- Backtracking search and Local search for CSP – Structure of problems- Adversarial Search – Games- Optimal decisions in games – Alpha – Beta Pruning 11"
+            },
+            {
+              "unit": 3,
+              "topics": "Knowledge Representation: First order logic – Representation revisited- Syntax and semantics for first order logic Using first order logic-Knowledge engineering in first order logic- Inference in First order logic – prepositional versus first order logic- Unification and lifting- Forward chaining – backward chaining- Resolution 12"
+            },
+            {
+              "unit": 4,
+              "topics": "Knowlwdge in Learning: Learning from observations - Forms of learning - Inductive learning-Learning decision trees - Ensemble learning- Knowledge in learning – Logical formulation of learning – Explanation based learning – Learning using relevant information – Inductive logic programming- Statistical learning methods- Learning with complete data- Learning with hidden variable - EM algorithm 11"
+            }
+          ]
+        },
+        {
+          "code": "CSCMV61",
+          "name": "Data Analysis and Visualization",
+          "credits": 3,
+          "course_type": "Minor (Vocational)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Data Science and Python: Overview of Data Science, Exploratory Data Analysis (EDA), and the Data Science Process.Introduction to Python for Data Analysis: Python Shell (iPython), Jupyter Notebook, and key Python libraries (NumPy, pandas, matplotlib, SciPy, scikit-learn, statsmodels). 10 179 Semester- VII"
+            },
+            {
+              "unit": 2,
+              "topics": "Data Handling with Pandas: Basics of Pandas: Data structures, arrays, vectorized computation, and essential functionality. Data Operations: Summarizing data, computing descriptive statistics, and handling data loading, storage, and file formats. Data Handling Techniques: Reading/writing text data, web scraping, binary formats, interacting with web APIs, and databases. Data Cleaning: Managing missing data, data transformation, and string manipulation. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Data Wrangling and Visualization: Data Wrangling: Hierarchical indexing, combining and merging datasets, reshaping, and pivoting. Data Visualization: Basics of matplotlib, plotting with pandas and seaborn, and other visualization tools. 10"
+            },
+            {
+              "unit": 4,
+              "topics": "Advanced Data Analysis: Data Aggregation: Group by mechanics, aggregation techniques, split-apply-combine, and pivot tables. Time Series Analysis: Handling date/time data, time series basics, date ranges, frequencies, shifting, time zones, and resampling. Advanced Pandas: Working with categorical data, advanced GroupBy operations, and method chaining techniques. 10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 7,
+      "papers": [
+        {
+          "code": "CSCMJ71",
+          "name": "Machine Learning",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Supervised Learning (Regression/Classification): Overview for ML, Supervised Learning, Unsupervised Learning, Problems, Data, and Tools. Linear Regression, Polynomial Regression, Features, Scaling, Cost Function, Gradient Descent, Learning Rate. Distance- based methods, Nearest-Neighbours, Decision Trees, Naïve Bayes, Linear Regression, Logistic Regression, Generalized Linear Models-Support Vector Machines, Nonlinearity and Kernel Multi- class/Structured Outputs, Ranking 10 180"
+            },
+            {
+              "unit": 2,
+              "topics": "Unsupervised Learning:K-means Clustering, PCA and kernel PCA -Matrix Factorization and Matrix Completion-Generative Models (mixture models and latent factor models), Expectation Maximization, Dimensionality Reduction. 10"
+            },
+            {
+              "unit": 3,
+              "topics": "Performance Evaluation: Evaluating Machine Learning algorithms and Model Selection, Performance Measure, Error Analysis, Confusion Matrix, Precision and Recall Tradeoff, F1 Score, Macro F1, Accuracy, Skewed Classes Introduction to Statistical Learning Theory, Ensemble Methods (Boosting, Bagging, Random Forests). 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Modelling and Applications: Sparse Modeling and Estimation, Modeling Sequence/Time- Series Data, Feature Representation Learning. Discriminative vs. Generative Models, Marginalization, Conditioning, Normalization, and Conditional Independence, Bayes Theorem, Markov Random Field, Naïve Bayes Model, Decision Tree, Recent trends in various learning techniques of machine learning and classification methods for IOT applications. 10"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ73",
+          "name": "Research Methodology",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Research Foundations:Research: Meaning, Characteristics, Objectives, Types, Variables, Steps of research, Hypothesis, Data, Interdisciplinary research, Tran disciplinary research and Multidisciplinary research.Literature:Primary, Secondary and Tertiary sources, Problem identification, Scholarly databases, Types of research papers.Research Metrics: Journal level Metrics and Author level metrics, Publication Identifiers, Abstracting Databases, and Publishers.Terminology: Conference, Symposium, Congress, Seminar, Workshop, Colloquium, Patents. 8 181"
+            },
+            {
+              "unit": 2,
+              "topics": "Research and Publication Ethics:Introduction to Philosophy and Ethics; Ethics with respect to science and research, intellectual honesty, and research integrity; Falsification, Fabrication, and Plagiarism (FFP); plagiarism types, use of plagiarism software and open-source software tools; Usesand misuses of AI tools in researchand its boundary,; Copyrights; duplicate and redundant publications, salami slicing; selective reporting and misrepresentation of data; Definition, introduction, and importance of publication ethics; conflict of interest; Publication misconduct definition, problems that lead to unethical behavior and vice-versa, types; violation of publication ethics, authorship, and contributor ship; identification of publication misconduct, complaints, and appeals; predatory publishers and journals; subject-specific ethical issues, FFP and authorship; Complaints and appeals regarding fraud from India and abroad. 10"
+            },
+            {
+              "unit": 3,
+              "topics": "Tools and Applications. Meaning and Importance of Data, Sources of Data, Use of Secondary Data, Data Collection Techniques, Observation Method, Experimentation, Simulation. Types of Data, Measurement of Scales and Indices, Pilot Studies and Pre-tests. 6"
+            },
+            {
+              "unit": 4,
+              "topics": "Technical Paper Writing: Writing Research Papers, Synopsis, Thesis, Reports and Project Proposals; Formatting, Appendices, Citation Formats and Style; General Conventions, Issues, Plagiarism and Copyrights. Reference Managers. Format and Style of Referencing. 6"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ75",
+          "name": "Operations Research & Practical",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Theory of Optimization & Linear Programming: Features of OR, Modeling in Operations Research, Classification of Models, General Solution Methods for O.R Models, Scientific Method in OR, Methodology of OR, Applications, Opportunities and Shortcomings of O.R. Applications of operation research in economics, Finance and decision making, Formulation of Mathematical Model of Linear Programming Problem. 10 182"
+            },
+            {
+              "unit": 2,
+              "topics": "Graphical Solution and Simplex Method Graphical Solution: Solution of Linear Programming Problem by Graphical Method, Special Cases: (i) Alternate Optima (ii) Unbounded Solution (iii) Infeasible Solution Simplex Method: Introduction to Simplex Method- Maximization and Minimization, Duality, primal to dual conversion only. 10"
+            },
+            {
+              "unit": 3,
+              "topics": "Transportation Models & Assignment Models: Balanced and Unbalanced Models of Transportation, Initial Basic Feasible Solutions (i). North-West Corner Method, (ii) Row Minima Method, (iii) Column Minima Method (iv) Matrix Minima Method, (v) Vogel’s Approximation Method, Modi Method, Degeneracy. Balanced and Unbalanced Assignment Models, Hungarian Method, Maximization and Minimization. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Game Theory & Queuing Theory: Game Theory: Two-Person Zero sum Games, Some Basic Terms, The Maximin-Minimax Principle, Games without Saddle Points (Mixed Strategies), Graphical solution of 2 × n and m × 2 Games, algebraic method. Queuing Theory: Introduction; Basic Definitions and Notations; Axiomatic Derivation of the Arrival & Departure (Poisson Queue). Pure Birth and Death Models; Poisson Queue Models: M/M/1 : ∞ /FIFO and M/M/1: N/ FIFO. Network Analysis: Shortest Path; Dijkstra Algorithm; Floyd Algorithm; Maximal Flow Problem (Ford-Fulkerson); PERT-CPM (Cost Analysis, Crashing, Resource Allocation excluded). 10"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ76",
+          "name": "Cloud Computing & Practical",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Parallel and Distributed Computing; Introduction to Cloud Computing; Characteristics and benefits of cloud computing; Historical developments and evolution of cloud computing: Distributed Systems, Virtualization, Web 2.0, Service-oriented computing, Utility Computing; Cloud Computing Reference Model. 12 183"
+            },
+            {
+              "unit": 2,
+              "topics": "Introduction to virtualization; Characteristics of virtualized environments; Taxonomy of virtualization techniques; Virtualization and cloud computing; Pros and cons of virtualization; Technology examples: Xen: paravirtualization, VMware: full virtualization, Microsoft Hyper-V. 9"
+            },
+            {
+              "unit": 3,
+              "topics": "Cloud Computing Architecture; Service models: Infrastructure as a Service (IaaS), Platform as a Service (PaaS), Software as a Service (SaaS); Deployment models: Public, Private, Hybrid, Community; IaaS: Introduction to IaaS, Resource Virtualization i.e. Server, Storage and Network virtualization; PaaS: Introduction to PaaS, Cloud platform & Management of Computation and Storage; SaaS: Introduction to SaaS, Cloud Services, Web services, Web 2.0, Web OS; Case studies related to IaaS, PaaS and SaaS. 12"
+            },
+            {
+              "unit": 4,
+              "topics": "Economics of the cloud; Open Challenges in Cloud Computing; Introduction to emerging computing paradigms and research challenges: Edge Computing, Mobile Cloud Computing, Fog Computing etc.; Introduction to IoT Cloud; Study on simulators related to cloud computing and emerging computing paradigms. 12"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ77",
+          "name": "Soft Computing & Practical",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Soft Computing:Concept of computing systems, Soft computing versus Hard computing, Characteristics of Soft computing, Some applications of Soft computing techniques 10 184"
+            },
+            {
+              "unit": 2,
+              "topics": "An Introduction to Artificial Neural Network: Fundamental concepts, Evolution of NN, BasicModels of ANN, connections and learning, Terminologies such as weights, Bias, Threshold,Learning Rate etc., McCulloch-Pitts Neuron, Heb Network; Supervised Learning Network: Perceptron Network, Adaptive Linear Neuron, Multiple Adaptive Linear Neurons, BackPropagation Network, Radial Basis Function Network; Associate Memory Networks:Introduction and training algorithm for pattern association, Auto-associative Memory Network, Hetro-associative Memory Network, Bidirectional associative memory, Hopfield Network;Unsupervised Learning Network: Introduction; Fixed Weight Competitive Nets; Kohonen Self-Organizing Feature Maps; Adaptive Resonance Theory; Applications of ANN: Applications:such as recognition of characters, fabric defect identification etc. 10"
+            },
+            {
+              "unit": 3,
+              "topics": "Introduction to Fuzzy Logic: Classical Sets, Fuzzy Sets: operations and properties. Operations on fuzzy relations; Membership functions: Features, fuzzification, methods of membership value assignments; Defuzzification: Introduction; Lambda-Cuts for fuzzy sets and fuzzy relations; Defuzzification methods; Fuzzy Rules: Introduction; formation of rules, decomposition and aggregation of rules; fuzzy reasoning; Fuzzy inference systems (FIS) and applications: FIS methods: Mamdani and Sugeno; Applications: such as fuzzy logic control etc. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Genetic Algorithms: Concept of Genetics and Evolution and its application to probabilistic search techniques, Basic GA framework and different GA architectures, GA operators: Encoding, Crossover, Selection, Mutation, etc., Solving single objective optimization problems using GAs. 10"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ78",
+          "name": "Network Security and Cryptography & Practical",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction: Computer Security Concepts, The OSI Security Architecture, Security Attacks, Security Services, Security Mechanisms, A Model for Network Security. Symmetric Encryption and Message Confidentiality: Symmetric Encryption Principles, Traditional Ciphers, Stream Ciphers and Block Ciphers, Modern Symmetric Block Ciphers: DES, AES, Cipher Block Modes of Operation. 15 185"
+            },
+            {
+              "unit": 2,
+              "topics": "Public-Key Cryptography and Message Authentication: Approaches to Message Authentication, Secure Hash Functions, Message Authentication Codes, Public-Key Cryptography Principles, Public-Key Cryptography Algorithms: RSA, Digital Signatures. 10"
+            },
+            {
+              "unit": 3,
+              "topics": "Key Distribution and User Authentication: Symmetric Key Distribution Using Symmetric Encryption, Kerberos, Key Distribution Using Asymmetric Encryption, X.509 Certificates. Transport-Level Security: Web Security Considerations, Secure Socket Layer and Transport Layer Security, HTTPS, Secure Shell (SSH). 10"
+            },
+            {
+              "unit": 4,
+              "topics": "IP Security: Overview of IP Security (IPSec), IP Security Architecture, Modes of Operation, Security Associations (SA), Authentication Header (AH), Encapsulating Security Payload (ESP), Internet Key Exchange. Electronic Mail Security: Threats to E-Mail, Requirements and Solutions, Encryption for Secure E-Mail, Secure E-Mail System. 10"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ79",
+          "name": "Heuristics & Metaheuristics & Practical",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Computability Theory: NP-Complete problems; Landscape and Search Space: topologies, meaning and importance; Traditional vs Heuristic Search; Greedy algorithms and Exact Methods; Single solution Metaheuristics; Review of Single State Methods: Hill Climbing, Tabu Search, Iterated Local Search. Models for optimization: (i) Single-Objective Optimization; (ii) Constrained Optimization; (iii) Multi-Objective Optimization; (iv) Optimization under Uncertainty; (v) Dynamic Optimization. 10 186"
+            },
+            {
+              "unit": 2,
+              "topics": "Bio-Inspired Algorithms: (i) Common concepts; (a) Selection methods; (b) Reproduction; (c) Replacement strategies; (ii) Genetic Algorithmss; (ii) Genetic Programmings (iii) AIS; (iv) Swarm Intelligence: Particle Swarm Optimization, Ant Colony Optimization, Artificial Bee Colony; (v) Differential Evolution ; and (vi) Estimation of Distribution Algorithms. 10"
+            },
+            {
+              "unit": 3,
+              "topics": "Hybrid Metaheuristics; Parallel Metaheuristics; Multi Objective Optimization by Metaheuristics; Machine Learning; Metaheuristics. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Metaheuristics application examples in: Network Sciences; Games; Internet of Things; Computer Security; Robotics; Art and Design. 10"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ7R10",
+          "name": "Parallel Computing & Practical",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Parallel Computing: Supercomputers and grand challenge problems, Modern Parallel Computers, Data Dependence Graph, Data Parallelism, Functional Parallelism, Pipelining and Data Clustering. 10 189"
+            },
+            {
+              "unit": 2,
+              "topics": "Interconnection Networks: Switch Network Topologies, Direct and Indirect Network Topology, Bus, Star, Ring, Mesh, Tree, Binary Tree Network, Hyper Tree Network, Hybrid, Hypercube, Perfect Shuffle Network, Torus and Butterfly Network. 10"
+            },
+            {
+              "unit": 3,
+              "topics": "Performance Analysis: Introduction, Execution Time, Speedup, Linear and Superliner Speedup, Efficacy and Efficiency, Amdahl’s Law and Amdahl Effect, Gustafson-Barsis’s Law, Minsky's Conjecture, The Karp-Flatt Metric, The Isoefficiency Metric, Isoefficiency Relation, Cost and Scalability. 10"
+            },
+            {
+              "unit": 4,
+              "topics": "Parallel Computational Models: Flynn’s Taxonomy, PRAM, EREW, CREW, ERCW, CRCW,Simulating CRCW, CREW & EREW, PRAM algorithms. Introduction to Parallel Algorithms: Parallel Programming Models, PVM, MPI Paradigms, Parallel Programming Language, Brent’s Theorem, Simple parallel programs in MPI environments, Parallel algorithms on network, Addition of Matrices, Multiplication of Matrices. 15"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ7R11",
+          "name": "Image Processing & Practical",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Digital Image Fundamental: Elements of Visual Perception- Structure of the human eye, Image formation in the eye, brightness adaptation and discrimination; light and electromagnetic spectrum, image sensing and acquisition, image sampling and quantization, basic relationships between pixels, linear and nonlinear operations. 10 190 Semester- VIII"
+            },
+            {
+              "unit": 2,
+              "topics": "Image Enhancement: Point processing: Contrast stretching, power-law and gamma transformation. Histogram processing: histogram equalization and matching. Filtering and Restoration: Degradation function and Noise Models, Spatial Domain Filtering: Correlation and Convolution, Smoothing Linear and Nonlinear Filters, Sharpening Linear and Nonlinear Filters. Frequency Domain Filtering: Filtering: Low-pass (Smoothing) & High-Pass (Sharpening), Homomorphic Filtering, Periodic Noise Reduction and Inverse Filtering & Wiener Filtering. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Image Reconstruction from Projections: Transmission tomography, reflection tomography, emission tomography, magnetic resonance imaging, and projection based image processing. Radon transform, back projection operator, projection theorem, inverse radon transform, convolution filter back projection, reconstruction from blurred noisy projections, Fourier reconstruction, fan-beam reconstruction. 10"
+            },
+            {
+              "unit": 4,
+              "topics": "Image Compression: Introduction, Error criterion- objective and subjective criterion,Lossy compression- transform domain compression, JPEG compression, block truncation compression, vector quantization compression; Lossless compression- Huffman coding, arithmetic coding, transformed coding, run-length coding.. 10"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ7R12",
+          "name": "Swayam Course",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Swayam Course The course must be selected with dept approval. - - 2 Major From other departments - - 4 Minor Total Credits 20 154 VIII Semester Code Course Title T P C Course Category"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ7R8",
+          "name": "Knowledge & Data Discovery & Practical",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Knowledge & Data Discovery 3 1"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ7R9",
+          "name": "Distributed Systems & Practical",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction: Definition, Goals, Types of Distributed Systems, Distributed Computing Systems, Distributed Information Systems, Distributed Pervasive Systems, System Architectures, Architectures versus Middleware, Self-Management in Distributed. Processes & Communication: Threads, Threads in Distributed Systems, Virtualization, Clients, Servers, Code Migration, Remote Procedure Call, Message-Oriented Communication, Stream- Oriented Communication, Multicast Communication. 13 188"
+            },
+            {
+              "unit": 2,
+              "topics": "Naming: Names, Identifiers, Addresses, Flat Naming, Structured Naming, Attribute-Based Naming. Synchronization: Clock Synchronization, Logical Clocks, Mutual Exclusion, Centralized Algorithm, Decentralized Algorithm, Distributed Algorithm, Token Ring Algorithm, Global Positioning of Nodes, Election Algorithms. 12"
+            },
+            {
+              "unit": 3,
+              "topics": "Consistency, Replication & Fault Tolerance: Introduction, Reasons for Replication, Replication as Scaling Technique, Data-Centric Consistency Models, Client-Centric Consistency Models, Replica Management, Consistency Protocols, Process Resilience, Reliable Client-Server Communication, Reliable Group Communication, Distributed Commit, Recovery. 10"
+            },
+            {
+              "unit": 4,
+              "topics": "Distributed Shared Memory & File Systems: Hardware DSM, Design issues in DSM Systems, Implementation issues, Heterogeneous and Other DSM Systems, Distributed File Systems, File Service Architecture, Case Study: Sun Network File System, The Andrew File System. 10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 8,
+      "papers": [
+        {
+          "code": "CSCDS8R1",
+          "name": "Project/Dissertation",
+          "credits": 12,
+          "course_type": "Dissertation",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Project/Dissertation - - 12 From other departments - - 4 Minor Total Credits 20 The students from Computer Science Major may have choice to choose any one of the following in place"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ81",
+          "name": "Deep Learning",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Deep Learning 3 1 4 Major/Minor Electives (Any two)"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ810",
+          "name": "Big Data Analytics",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Big Data Analytics 3 1"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ811",
+          "name": "Quantum Computing",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Quantum Computing 3 1"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ812",
+          "name": "Swayam Course",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Swayam Course The course must be selected with dept approval. - - 4 Major From other departments - - 4 Minor Total Credits 2 0 VIII Semester (Research) Code Course Title T P C Course Category"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ82",
+          "name": "Internet of Things",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Internet of Things 3 1 8 Major"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ83",
+          "name": "Blockchain Technology",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Blockchain Technology 3 1"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ84",
+          "name": "Information Retrieval",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Information Retrieval 3 1"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ85",
+          "name": "Statistical Pattern Recognition",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Statistical Pattern Recognition 3 1"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ86",
+          "name": "Image Analysis and Computer Vision",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Image Analysis and Computer Vision 3 1"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ87",
+          "name": "Natural Language Processing",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Natural Language Processing 3 1"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ88",
+          "name": "Data Compression",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Data Compression 3 1"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ89",
+          "name": "Mobile Adhoc Networks",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Mobile Adhoc Networks 3 1"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ8R1",
+          "name": "Deep Learning",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Linear Algebra Review: Brief review of concepts from Linear Algebra. Optimization: Types of errors, bias-variance tradeoff, overfitting, underfitting, a brief review of concepts from Vector Calculus and optimization, variants of gradient descent, momentum. Logistic Regression: Basic concepts of regression and classification problems, linear models addressing regression and classification, maximum likelihood, logistic regression classifiers. 10 191"
+            },
+            {
+              "unit": 2,
+              "topics": "Neural Networks: Basic concepts of artificial neurons, single and multilayer perceptrons, perceptron learning algorithm, its convergence proof, different activation functions, softmax crossentropy loss function. 10"
+            },
+            {
+              "unit": 3,
+              "topics": "Recurrent Neural Networks: Discussion on Recurrent Neural Networks (RNNs), Long-Short, Term Memory (LSTM) architectures, and basics of word embedding. ConvNets: Basic concepts of Convolutional Neural Networks starting from filetering. Convolution and pooling operation and arithmetics of these. ConvNet Architectures: Discussions on famous convnet architectures AlexNet, ZFNet, VGG, C3D, GoogLeNet, ResNet, MobileNetv1. 15"
+            },
+            {
+              "unit": 4,
+              "topics": "Introduction to Deep Reinforcement Learning, Autoencoders (standard, denoising, contractive, etc). 10"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ8R10",
+          "name": "Big Data Analytics & Practical",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Big Data Analytics: Nuances of big data, Value, Issues, Case for Big data, Big data options Team challenge, Big data sources, Acquisition, Nuts and Bolts of Big data. Features of Big Data, Security, Compliance, auditing and protection, Evolution of Big data, Best Practices for Big data Analytics, Big data characteristics, Volume, Veracity, Velocity, Variety 10 199"
+            },
+            {
+              "unit": 2,
+              "topics": "Data Analysis: Evolution of analytics, Scalability, Analytic methods, analytic tools, Pentaho Analysis approaches, Statistical significance, Business approaches, Analytic innovation, Traditional approaches, Iterative. 10"
+            },
+            {
+              "unit": 3,
+              "topics": "Stream Computing: Introduction to Streams Concepts, Stream data model and architecture , Stream Computing, Sampling data in a stream, Filtering streams, Counting distinct elements in a stream, Estimating moments, Counting oneness in a window, Decaying window , Real-time Analytics Platform(RTAP) and applications. Data stage, Statistical analysis, Intelligent scheduler. 12"
+            },
+            {
+              "unit": 4,
+              "topics": "Predictive Analytics: Predictive Analytics, Supervised, Unsupervised learning, Neural networks, Kohen models, Normal, Deviations from normal patterns, Normal behaviors, Expert options, Variable entry , Mining Frequent item sets, Market based model, Apriori Algorithm, Handling large data sets in Main memory, Limited Pass algorithm, Counting frequent itemsets in a stream, Clustering Techniques, Hierarchical, K-Means Clustering high dimensional data. Frameworks and Applications: IBM for Big Data, Map Reduce Framework, Hadoop, Hive, Shading, and Hadoop Distributed file systems, Hbase. 13"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ8R11",
+          "name": "Quantum Computing & Practical",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Quantum Computing: Introduction of computing and Quantum Computing- Need of Quantum Computing-Deutsch’s algorithm. 08 200 BANARAS HINDU UNIVERSITY Centre For Genetic Disorder Faculty of Science SYLLABI B.Sc. Programme In Centre For Genetic Disorder 201 B.Sc. Courses (under NEP) Centre for Genetic Disorders, Institute of Science BANARAS HINDU UNIVERSITY Skill Enhancement Courses (SEC)  Semester-I"
+            },
+            {
+              "unit": 2,
+              "topics": "Linear Operators and Spectral Decomposition: Operators: Matrices as linear operators, Examples of matrices, Kernel, image and rank. Operations on matrices: Trace, Entry-wise multiplication, Inverse, Eigen values and eigen-vectors. Spectralde composition: Hermitian matrix, Unitary matrix, Positive semi-definite matrix, Singular value decomposition, Simultaneously diagonalizable matrices. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Operator Functions, Tensor Products and Postulates of Quantum mechanics: Operator functions, Tensor product, Direct sum, State of a system, Evolution of the system, Measurement of the system, Composite Systems, Quantum Teleportation. 10"
+            },
+            {
+              "unit": 4,
+              "topics": "Computation, Quantum and Classical: Classical circuits-Quantum circuits–Algorithms: Randomized algorithms, Approximation algorithms. Deutsch-Josza, Fourier Transform and Phase Estimation: Deutsch-Jozsaalgorithm: Bernstein- Vazirani algorithm- Fourier transform: Discrete Fourier transform, Fast Fourier transform- Quantum discrete Fourier transform- Phase estimation. 12"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ8R2",
+          "name": "Internet of Things & Practical",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to IoT: Genesis of IoT, IoT and Digitization, IoT Challenges, Comparing IoT architectures, a simplified IoT architecture, The core IoT functional Stack, IoT data management and compute stack. 11 192"
+            },
+            {
+              "unit": 2,
+              "topics": "Engineering for IoT Networks: Sensors, Actuators, Smart Objects, Sensor Networks, IoT Access Technologies, IP as the IoT Network Layer, Applications protocols for IoT. 12"
+            },
+            {
+              "unit": 3,
+              "topics": "Data and Analytics for IoT: An introduction to data analytics for IoT, Machine Learning, Big data analytics tools and technology, edge streaming analytics, network analytics. 12"
+            },
+            {
+              "unit": 4,
+              "topics": "IoT in Industry: Manufacturing, Oil and Gas, Utilities, Smart and Connected Cities, Transportation, Mining, Public Safety. 10"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ8R3",
+          "name": "Block chain Technology & Practical",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Basics: Distributed Database, Two General Problem, Byzantine General problem and Fault Tolerance, Hadoop Distributed File System, Distributed Hash Table, ASIC resistance, Turing Complete. Cryptography: Hash function, Digital Signature - ECDSA, Memory Hard Algorithm, Zero Knowledge Proof. 10 193"
+            },
+            {
+              "unit": 2,
+              "topics": "Blockchain: Introduction, Advantage over the conventional distributed database, Blockchain Network, Mining Mechanism, Distributed Consensus, Merkle Patricia Tree, Gas Limit, Transactions and Fee, Anonymity, Reward, Chain Policy, Life of Blockchain application, Soft and Hard Fork, Private and Public blockchain. 10"
+            },
+            {
+              "unit": 3,
+              "topics": "Distributed Consensus: Nakamoto consensus, Proof of Work, Proof of Stake, Proof of Burn, Difficulty Level, Sybil Attack, Energy Utilization, PBFT and its variants. 10"
+            },
+            {
+              "unit": 4,
+              "topics": "Cryptocurrency: History, Distributed Ledger, Bitcoin protocols - Mining strategy and rewards, Ethereum - Construction, DAO, Smart Contract, GHOST, Vulnerability, Attacks, Sidechain, Namecoin. Blockchain Applications: Internet of Things, Medical Record Management System, Domain Name Service and future of Blockchain. 15"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ8R4",
+          "name": "Information Retrieval & Practical",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction Information Retrieval: Information retrieval process, Indexing, Information retrieval model, Boolean retrieval model. Dictionary and Postings: Tokenization, Stop words, Stemming, Inverted index, Skip pointers, Phrase queries. 10 194"
+            },
+            {
+              "unit": 2,
+              "topics": "Tolerant Retrieval: Wild card queries, Permuterm index, Bigram index, Spelling correction, Edit distance, Jaccard coefficient, Soundex. Term Weighting and Vector Space Model: Wild card queries, Permuterm index, Bigram index, Spelling correction, Edit distance, JaccardJaccard coefficient, Soundex. 10"
+            },
+            {
+              "unit": 3,
+              "topics": "Evaluation: Precision, Recall, F-measure, E-measure, Normalized recall, Evaluation problems. Latent Semantic Indexing: Eigen vectors, Singular value decomposition, Lowrank approximation, Problems with Lexical Semantics.Query Expansion: Relevance feedback, Rocchio algorithm, Probabilistic relevance feedback, Query Expansion and its types, Query drift. Probabilistic Information Retrieval: Probabilistic relevance feedback, Probability ranking principle, Binary Independence Model, Bayesian network for text retrieval. 13"
+            },
+            {
+              "unit": 4,
+              "topics": "XML Indexing and Search: Data vs. Text-centric XML, Text-Centric XML retrieval, Structural terms. Content BasedImage Retrieval: Introduction to content Based Image retrieval, Challenges in Image retrieval, Image representation, Indexing and retrieving images, Relevance feedback. Introduction to video retrieval. 12"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ8R5",
+          "name": "Statistical Pattern Recognition & Practical",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction: Description of patterns, Probabilistic formulation of PR, Geometrical interpretation, Applications of PR, Scope of statistical PR. Elementary Bayes decision theory, statistical criterion and discriminant functions, linear decision functions, piecewise linear decision functions, minimum distance classifier, nonlinear classification theory, multiple pattern classification. 10 195"
+            },
+            {
+              "unit": 2,
+              "topics": "Representation of patterns and Feature Selection: Representation of binary random patterns – Orthogonal series expansion procedures, and Markov dependence considerations.KL expansion of patterns and its properties.Information measures of feature effectiveness, Distance measure and performance bounds, Multiclass distance measures, Feature selection criterion, Evaluation of feature subset, Algorithm of dimensionality reduction, dimensionality and sample size. 10"
+            },
+            {
+              "unit": 3,
+              "topics": "Supervised and Unsupervised Learning : Bayesian estimation for Gaussian patterns, Comments on supervised Bayesian estimation, parameter estimation of slowly varying patterns, Bayes solution to unsupervised estimation, Estimation of mixture parameters, and decision-directed estimation. Graph theoretic method, component analysis – ICA, PCA, Artificial neural network. Recursive Algorithm using stochastic approximation. 12"
+            },
+            {
+              "unit": 4,
+              "topics": "Nonparametric methods and compound decision theory: Basic concepts and tools, Sample set construction, Nearest – Neighbor decision procedure, compound decision procedure, nonparametric estimation of multivariate density function, and nonparametric feature selection.Cluster and Mode-Seeking Techniques: Distance and similarity measures, clustering methods. Sequential pattern recognition systems: Bayes sequential decision procedure and the computational problems, Feature-ordering and selection problems, and nonparametric sequential ranking procedure. Contextual analysis in pattern recognition. 13"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ8R6",
+          "name": "Image Analysis and Computer Vision & Practical",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Image Analysis and Computer Vision 3 1"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ8R7",
+          "name": "Natural Language Processing & Practical",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction- Human languages, models, ambiguity, processing paradigms; Phases in natural language processing, applications, Text representation in computers, encoding schemes; Linguistics resources- Introduction to corpus, elements in balanced corpus, TreeBank, PropBank, WordNet, VerbNet etc., Resource management with XML, Management of linguistic data with the help of GATE, NLTK. 10 197"
+            },
+            {
+              "unit": 2,
+              "topics": "Regular expressions, Finite State Automata, word recognition, lexicon, Morphology, acquisition models, Finite State Transducer, N-grams, smoothing, entropy, HMM, ME, SVM, CRF; Part of Speech tagging- Stochastic POS tagging, HMM, Transformation based tagging (TBL), Handling of unknown words, named entities, multi word expressions. 12"
+            },
+            {
+              "unit": 3,
+              "topics": "A survey on natural language grammars, lexeme, phonemes, phrases and idioms, word order, agreement, tense, aspect and mood and agreement, Context Free Grammar, spoken language syntax; Parsing- Unification, probabilistic parsing, TreeBank, Semantics- Meaning representation, semantic analysis, lexical semantics, WordNet. 11"
+            },
+            {
+              "unit": 4,
+              "topics": "Word Sense Disambiguation- Selectional restriction, machine learning approaches, dictionary based approaches; Discourse- Reference resolution, constraints on co-reference, algorithm for pronoun resolution, text coherence, discourse structure; Applications of NLP- Spell-checking, Summarization; Information Retrieval- Vector space model, term weighting, homonymy, polysemy, synonymy, improving user queries; Machine Translation– Overview. 12"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ8R8",
+          "name": "Data Compression & Practical",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Data Compression: Overview of data compression, History and significance, Basic concepts and terminology. Information Theory and Entropy: Fundamentals of information theory, Entropy and information content, Source coding theorem, Applications and examples. 10 198"
+            },
+            {
+              "unit": 2,
+              "topics": "Lossless Compression Techniques: Huffman coding, Arithmetic coding, Run-length encoding (RLE), Lempel-Ziv-Welch (LZW) compression. Lossy Compression: Fundamentals of lossy compression, Quantization techniques, Rate- distortion theory. 10"
+            },
+            {
+              "unit": 3,
+              "topics": "Transform Coding: Discrete Cosine Transform, Wavelet transforms. Image Compression Standards: JPEG and JPEG-2000, Advanced image compression, Compression performance and quality metrics. 10"
+            },
+            {
+              "unit": 4,
+              "topics": "Video Compression Techniques: Video coding basics, Motion estimation and compensation, Standards: H.264, H.265 (HEVC). Machine Learning in Data Compression: Neural network-based compression, Autoencoders for image compression. 15"
+            }
+          ]
+        },
+        {
+          "code": "CSCMJ8R9",
+          "name": "Mobile Adhoc Networks",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Mobile Adhoc Networks 3 1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

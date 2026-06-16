@@ -1,0 +1,2955 @@
+{
+  "department": "Department of Botany",
+  "university": "Banaras Hindu University",
+  "programme": "B.Sc. (Hons.) Botany",
+  "semesters": [
+    {
+      "semester": 1,
+      "papers": [
+        {
+          "code": "BOTMD11",
+          "name": "Elements of Ecology",
+          "credits": 2,
+          "course_type": "Multidisciplinary",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to ecology 4.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": "Types of population interactions 4.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": "Ecosystem: Components, types and function 8.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": "Significance ofbiodiversity 7.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": "Ecological adaptation: Hydrophytes and xerophytes 7.0 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTMD12",
+          "name": "Lab Work Based on Paper BOTMD11",
+          "credits": 3,
+          "course_type": "Multidisciplinary",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Soil properties analysis:  soil texture  pH  Carbonate and nitrate content 10.0 h 13 Course Title AE1: Offered by Institute/University (2 Credits) Category of Course5 Major / Minor / Minor (Vocational) / SEC / AEC / VAC / MD/Internship/Dissertation Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": "Demonstration of instruments involved in measurement of abiotic factors 10.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": "Ecological study of plant adaptations in response to:  Hydrophytes  Xerophytes 10.0 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ11",
+          "name": "Cryptogams",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "General characteristics and classification of cryptogams 5.0 h 9 3. Morris I (1967) Introduction to Algae, Hutchinson University Library, London. 4. Lee RE (2018) Phycology, Fifth Edition. Cambridge University Press, New Delhi. 5. Smith GM (1972) Cryptogamic Botany Vol I and II, Tata McGraw Hill Publishing Co Ltd, New Delhi. 6. Alexopolous CJ, Mims CW, Blackwell M (2007 Reprinted in 2013) Introductory Mycology 4th edition,Wiley, India, New Delhi.. 7. Parihar NS (1973) An Introduction to Embryophyta, Vol I (Bryophyta) and Vol II (Pteridophyta), Central Book Department, Allahabad. 8. Rashid A (2011, reprinted in 2019) An Introduction to Pteridophyta 2nd edition, Vikas Publishing House Pvt Ltd, Noida. 9. Gangulee HC, Kar AK (2015) College Botany VolII(Algae, Fungi, Brophyta, Pteridophyta), New Central Book Agency, Kolkata. 10. Kumar HD (2007) Introductory Phycology, 2nd edition, Affiliated East-West Press Pvt. Ltd., New Delhi 11. Dubey HC (2017) An Introduction to Fungi, 3rd edition, Vikash Publication House Pvt Ltd, Noida. 12. Bold HC, Wynne MJ (1985) Introduction to the Algae, 2nd edition, Prentice-Hall Inc, New Jersey. 13. L.E. Graham, J.M. Graham (1009) Algae, 2nd Edition, Benjamin Cummings. 14. J. Weber and RW Weber (2007, reprinted in 1016). Introduction to Fungi. Cambridge, New Delhi. Learning"
+            },
+            {
+              "unit": 2,
+              "topics": "Structure, reproduction and life cycles of representative genera of algae:  Chlorophyceae: Volvox, Oedogonium  Xanthophyceae: Vaucheria  Phaeophyceae: Ectocarpus  Rhodophyceae: Polysiphonia  Cyanophyceae: Nostoc, Scytonema 12.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": "Structure, reproduction and life cycles of representative genera of fungi:  Mastigomycotina:Albugo  Zygomycotina: Rhizopus  Ascomycotina: Peziza  Basidiomycotina: Agaricus  Deuteromycotina: Cercospora, Alternaria 12.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": "Structure, reproduction and life cycles of representative genera of Bryophytes:  Hepaticopsida: Marchantia  Anthocerotopsida: Anthoceros  Bryopsida: Funaria 8.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": "Structure, reproduction and life cycles of representative genera of Pteridophytes:  Lycophyta: Selaginella  Sphenophyta: Equisetum  Filicophyta: Pteris 8.0 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ12",
+          "name": "Lab Work Based on Paper BOTMJ11",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "General instructions for staining, slide preparation, and microscopic observation 6.0 h 10 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": "Observation of morphological and reproductive structure of following Algae: Volvox Oedogonium Vaucheria Ectocarpus Polysiphonia Nostoc Scytonema 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": "Observation of morphological and reproductive structure of following Fungi: Albugo Rhizopus Peziza Agaricus Cercospora Alternaria 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": "Observation of morphological and reproductive structure of following Bryophytes: Marchantia Anthoceros Funaria 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": "Observation of morphological and reproductive structure of following Pteridophytes: Selaginella Equisetum Pteris 6.0 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN11",
+          "name": "Cryptogams",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "General characteristics and classification of cryptogams 5.0 h 11 7 Parihar NS (1973) An Introduction to Embryophyta, Vol I (Bryophyta) and Vol II (Pteridophyta), Central Book Department, Allahabad. 8 Rashid A (2011, reprinted in 2019) An Introduction to Pteridophyta 2nd edition, Vikas Publishing House Pvt Ltd, Noida. 9 Gangulee HC, Kar AK (2015) College Botany VolII(Algae, Fungi, Brophyta, Pteridophyta), New Central Book Agency, Kolkata. 10 Kumar HD (2007) Introductory Phycology, 2nd edition, Affiliated East-West Press Pvt. Ltd., New Delhi 11 Dubey HC (2017) An Introduction to Fungi, 3rd edition, Vikash Publication House Pvt Ltd, Noida. 12 Bold HC, Wynne MJ (1985) Introduction to the Algae, 2nd edition, Prentice-Hall Inc, New Jersey. 13 L.E. Graham, J.M. Graham (1009) Algae, 2nd Edition, Benjamin Cummings. 14 J. Weber and RW Weber (2007, reprinted in 1016). Introduction to Fungi. Cambridge, New Delhi. Learning"
+            },
+            {
+              "unit": 2,
+              "topics": "Structure, reproduction and life cycles of representative genera of algae:  Chlorophyceae: Volvox, Oedogonium  Xanthophyceae: Vaucheria  Phaeophyceae: Ectocarpus  Rhodophyceae: Polysiphonia  Cyanophyceae: Nostoc, Scytonema 12.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": "Structure, reproduction and life cycles of representative genera of fungi:  Mastigomycotina:Albugo  Zygomycotina: Rhizopus  Ascomycotina: Peziza  Basidiomycotina: Agaricus  Deuteromycotina: Cercospora , Alternaria 12.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": "Structure, reproduction and life cycles of representative genera of Bryophytes:  Hepaticopsida: Marchantia  Anthocerotopsida: Anthoceros  Bryopsida: Funaria 8.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": "Structure, reproduction and life cycles of representative genera of Pteridophytes:  Lycophyta: Selaginella  Sphenophyta: Equisetum  Filicophyta: Pteris 8.0 h Texts /"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN12",
+          "name": "Lab Work Based on Paper BOTMN11",
+          "credits": 1,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "General instructions for staining, slide preparation, and microscopic observation 6.0 h 12 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": "Observation of morphological and reproductive structure of following Algae: Volvox Oedogonium Vaucheria Ectocarpus Polysiphonia Nostoc Scytonema 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": "Observation of morphological and reproductive structure of following Fungi: Albugo Rhizopus Peziza Agaricus Cercospora Alternaria 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": "Observation of morphological and reproductive structure of following Bryophytes: Marchantia Anthoceros Funaria 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": "Observation of morphological and reproductive structure of following Pteridophytes: Selaginella Equisetum Pteris 6.0 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTSE11",
+          "name": "Waste Management",
+          "credits": 2,
+          "course_type": "Skill Enhancement",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to solid and liquid wastes Electronic and Medical Wastes 5.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": "Solid wastes: Electronic and Medical Wastes, Characteristics, segregation and management 9.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": "Liquid wastes: Characteristics and management 9.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": "Waste management: Rules and regulations 7.0 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTSE12",
+          "name": "Lab Work Based on Paper BOTSE11",
+          "credits": 1,
+          "course_type": "Skill Enhancement",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Collection of solid wastes 6.0 h 14 Course Title VA1: Offered by Institute/University(2 Credits) Category of Course8 Major / Minor / Minor (Vocational) / SEC / AEC / VAC -1/ MD/Internship/Dissertation Course Title VA2: Offered by Institute/University(2 Credits) Category of Course9 Major / Minor / Minor (Vocational) / SEC / AEC / VAC -2/ MD/Internship/Dissertation SEMESTER: II Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": "Segregation of solid wastes 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": "Visit to solid waste treatment plants 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": "Visit to wastewater treatment plants 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": "Water quality analysis 6.0 h 5 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 6 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 7 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "papers": [
+        {
+          "code": "BOTMD21",
+          "name": "Herbal Medicine",
+          "credits": 2,
+          "course_type": "Multidisciplinary",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Fundamentals of herbal medicine:MateriaMedica- an introduction to herbal medicine; herbal medicine an integral part of complementary, alternative and integrative medicine 4.0 h 18 IBH. 11. HW Youngken (2018). A Text Book of Pharmacognosy, Palala Press. Learning"
+            },
+            {
+              "unit": 2,
+              "topics": " Standardization of herbal drugs:Pharmacognostical and organoleptic study of the herbal medicines; Factors affecting the quality of herbs ingredients, adulterations of herbal drugs, deterioration of herbal drugs, substitution of herbs, counterfeiting of herbal medicine 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Analysis of herbal drugs: Chromatographic analysis of herbal drugs using TLC, High-Performance Thin-Layer Chromatography (HPTLC), HPLC 5.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Commercial cultivation, diagnostic features, bioactive molecules and therapeutic values of some common medicinal plants: Giloy, Brahmi, Safed Musli, Aola, Kalmegh, Satavari, Bel, Sarpgandha, Ashwagandha, Aloe, Tulsi, Neem 7.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Herbs and drug action: Neuro-promontory drugs, Cardiovascular drugs, Nutraceuticals and medicinal foods; anti-inflammatory drugs and anticancer drugs  Conservation of medicinal plants  Bioprospection, biopiracy and protection of traditional medicinal knowledge 8.0 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTMD22",
+          "name": "Lab Work Based on Paper BOTMD21",
+          "credits": 2,
+          "course_type": "Multidisciplinary",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Identification and medicinal value of locally available medicinal plants 10.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Locally available crude herbal raw materials and its histo- anatomical analysis 10.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Methods of extraction of drugs from crud herbal raw materials: Maceration, Decoction, and Hot continuous extraction (Soxhlet) 10.0 h Course Title AE2: Offered by Institute/University (2 Credits) Category of Course16 Major / Minor / Minor (Vocational) / SEC / AEC-2/ VAC / MD/Internship/Dissertation Course Title"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ21",
+          "name": "General Microbiology",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " History and scope of microbiology  Microbes in extreme environment 8.0 h 15 Texts/"
+            },
+            {
+              "unit": 2,
+              "topics": " Position of microorganisms in the living world; Ecological, morphological, physiological, biochemical and molecular criteria for the classification of bacteria (scheme not required) 7.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Structure of a bacterial cell: flagella, cell envelope, cell membrane, chromosome, plasmid and endospore  Structure of bacteriophages T4 and Lambda; Lysogenic and lytic cycle 8.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " A brief account of genetic recombination in bacteria (transformation, conjugation and transduction)  Role of microorganisms in carbon and nitrogen cycling 10.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Microorganisms and their role in the production of antibiotics  Role of microbes in alcohol and beverages production  Microbes in xenobiotic degradation  Microorganisms and human health 12.0 h 8 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 9 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 10 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 11 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ22",
+          "name": "Lab Work Based on Paper BOTMJ21",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Study of free-living nitrogen fixing cyanobacteria (Nostoc, Anabaena and Aulosira) 6.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Study of symbiotic nitrogen fixers in Cycas and Azolla plants 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Calibration of microscope using ocular and stage micrometers, and the measurement of dimensions of microbial cells 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Study of cyanobacterial blooms  Gram’s staining of bacteria 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Demonstration of equipment’s (autoclave, laminar flow, thermal cycler, spectrophotometer and bacteriological incubators) 6.0 h Course Title"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN21",
+          "name": "General Microbiology",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " History and scope of microbiology  Microbes in extreme environment 8.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Position of microorganisms in the living world; Ecological, morphological, physiological, biochemical and molecular criteria for 7.0 h 12 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 13 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
+            },
+            {
+              "unit": 3,
+              "topics": " Structure of a bacterial cell: flagella, cell envelope, cell membrane, chromosome, plasmid and endospore  Structure of bacteriophages T4 and Lambda; Lysogenic and lytic cycle 8.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " A brief account of genetic recombination in bacteria (transformation, conjugation and transduction)  Role of microorganisms in carbon and nitrogen cycling 10.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Microorganisms and their role in the production of antibiotics  Role of microbes in alcohol and beverages production  Microbes in xenobiotic degradation  Microorganisms and human health 12.0 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN22",
+          "name": "Lab Work Based on Paper BOTMN21",
+          "credits": 1,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Study of free-living nitrogen fixing cyanobacteria (Nostoc, Anabaena and Aulosira) 6.0 h 17 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Study of symbiotic nitrogen fixers in Cycas and Azolla plants 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Calibration of microscope using ocular and stage micrometers, and the measurement of dimensions of microbial cells 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Study of cyanobacterial blooms  Gram’s staining of bacteria 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Demonstration of equipments (autoclave, laminar flow, thermal cycler, spectrophotometer and bacteriological incubators) 6.0 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTSE21",
+          "name": "Preservation and Management of Microbial Resource",
+          "credits": 2,
+          "course_type": "Skill Enhancement",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Microbial Resources Types of microorganisms, their roles in the environment, and importance in various industries, Ecological, industrial, and biotechnological importance of preserving microbial diversity, Definition, examples, and the concept of microbial genetic resources. 6.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": "Techniques for Preserving Microbial Cultures Refrigeration, storage on agar slants, and sub-culturing, Cryopreservation, 6.0 h 16 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 17 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 18 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
+            },
+            {
+              "unit": 3,
+              "topics": "Microbial Culture Collections Standards and protocols for maintaining microbial collections, Examples of major culture collections (e.g., ATCC, DSMZ) and their significance in research and industry, Importance of accurate documentation and information systems in managing culture collections. 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": "Legal and Ethical Considerations Patents, copyrights, and trademarks related to microbial resources, Guidelines for the safe handling and transport of microbial cultures, Access and benefit-sharing, biopiracy, and compliance with the Nagoya Protocol. 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": "Microbial Resource Management Real-world examples of microbial resource management in research and industry, Management and preservation of microbial cultures, including creating a mini-culture collection. 6.0 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTSE22",
+          "name": "Lab Work Based on PaperBOTSE21",
+          "credits": 2,
+          "course_type": "Skill Enhancement",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Isolation and Culturing of Microorganisms, Techniques for isolating microorganisms from soil, water, and air samples 10.0 h 20 SEMESTER: III Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": "Preservation of Microorganisms by freezing with glycerol. Preparation of cryoprotectants, Freezing and storage techniques for bacteria, fungi and algae 10.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": "Lyophilization (Freeze-Drying) methods for preservation 5.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": "Examination of successful microbial resource management project 5.0 h Course Title VA3: Offered by Institute/University(2 Credits) Category of Course19 Major / Minor / Minor (Vocational) / SEC / AEC / VAC-3/ MD/Internship/Dissertation Course Title VA4: Offered by Institute/University(2 Credits) Category of Course20 Major / Minor / Minor (Vocational) / SEC / AEC / VAC-4/ MD/Internship/Dissertation 19 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 20 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 3,
+      "papers": [
+        {
+          "code": "BOTMD31",
+          "name": "Industrial Microbiology",
+          "credits": 2,
+          "course_type": "Multidisciplinary",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Introduction to Industrial Microbiology:Definition and scope of industrial microbiology, historical development and milestones, microorganisms and their role in industrial processes, importance of industrial microbiology in the modern world  Microbial Growth and Physiology:Microbial cell structure and function, growth phases and factors influencing microbial growth, measurement of microbial growth, microbial metabolism and energy production 6.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Microbial Biotechnology:Microbial biotechnology in the context of agriculture, environment, pharmaceuticals and energy - An Overview. Industrial applications of genetic engineering for production of biopharmaceuticals and industrial enzymes; synthetic biology and its industrial implications 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Food and Beverage Microbiology:Microorganisms as source of food such as single cell protein, curd, yogurt, bakery products and mushrooms; biotechnological advancements in the food industry, fermentation processes, basic design of a fermenter and production of alcohol, vinegar, organic acids and amino acids 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Microbes in spoilage of foods and food products: Cereals, vegetables, pickles, fish and dairy products, food safety, quality control and food preservation  Microbes as source of enzyme and energy:Microbial production of industria enzymes, amylase, cellulase, protease, lipase, microbes as a source of bioplastic and biofuels (ethanol, methane and biogas 6.0 h 27 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 28 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
+            },
+            {
+              "unit": 5,
+              "topics": " Pharmaceutical microbiology:Biopharmaceutical production of vaccines, antibiotics, interferons; microbial contamination in pharmaceuticals, sterilization techniques and aseptic processing, quality control and regulatory considerations  Safety and Regulations:Biosafety in industrial microbiology, ethical considerations in microbiology, regulatory guidelines and its compliance 6.0 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTMD32",
+          "name": "Lab Work Based on Paper BOTMD31",
+          "credits": 2,
+          "course_type": "Multidisciplinary",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Study of growth behaviour of bacteria and determination of generation time (g)  Enumeration of bacteria from environmental sample using serial dilution method 6.0 h 26 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Qualitative detection of microorganisms producing amylase, cellulose, protease and lipase 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Qualitative detection of microorganisms which ferment carbohydrates 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Testing antibiotic sensitivity of microorganisms (Disc diffusion method) 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Methylene blue reduction test to assess quality of milk samples 6.0 h Course Title AE3: Offered by Institute/University (2 Credits) Category of Course29 Major / Minor / Minor (Vocational) / SEC / AEC-3 / VAC / MD/Internship/Dissertation 29 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ31",
+          "name": "Cytology and Genetics",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Introduction to cell: Cell as the basic unit of life, cell theory, prokaryotic and eukaryotic cell, differences between plant and animal cell  Structural organization and function of intracellular organelles  Cell wall: primary and secondary structure, middle lamella, plasmodesmata, apoplast and symplast and their functions  Cell membrane: chemical composition, membrane models, function  Cytoskeleton: microtubules, microfilaments and intermediate filaments, structure and their functions.  Endomembrane system: endoplasmic reticulum, Golgi apparatus, lysosomes, peroxisomes, vacuoles 10.0 h 21 Paramecium  Sex determination: Basis of sex determination, sex determination in plants, chromosome theory of sex determination, sex linked characters Texts/"
+            },
+            {
+              "unit": 2,
+              "topics": " Other organelles: mitochondria, chloroplast and ribosomes  Ultrastructure of nucleus: nuclear envelope, NPC, nucleolus, chromatin and chromosomes, DNA packaging, euchromatin and heterochromatin, special types of chromosomes- polytene chromosomes, lamp brush chromosomes, B chromosomes 10.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Cell division: Cell cycle, mitosis and meiosis, control and regulation of cell cycle, significance of meiosis 5.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Basic Principles of Genetics: Pre-Mendalian concepts of Genetics, Mendel’s experiments, law of segregation and law of independent assortment  Neo Mendelism: Intergenic and intragenic gene interactions, incomplete dominance and Co-dominance, lethal alleles, epistasis, complementary gene, supplementary gene, inhibitory gene, duplicate gene, multiple allelism 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Linkage, Crossing over and Genetic mapping: Chromosomal theory of inheritance, Linkage and crossing over, Cytological basis of crossing over, crossing over and linkage map  Intragenic mapping and modern concept of gene  Extra-Nuclear Inheritance: Chloroplast and mitochondrial genomes, chloroplast inheritance and variegation in Four O’clock plant, mitochondrial inheritance in Neurospora and petites in yeast, maternal effect; shell coiling in Snails and Kappa particles in 14.0 h 21 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 22 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ32",
+          "name": "Lab Work Based on Paper BOTMJ31",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Acquaintance with cytochemical techniques: fixative and stains  Study of prokaryotic (cyanobacteria) and eukaryotic cells (onion peel) 6.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Mitosis in root tip of onion 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Meiosis in flower bud of onion 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Demonstration of Mendel’s law using Chi-square test (Monohybrid and Dihybrid Crosses) 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Study of epistasis using Chi-square test  Demonstration and construction of linkage map using suitable data 6.0 h Course Title"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ33",
+          "name": "Plant Anatomy and Embryology",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Category of Course23 Major/ Minor / Minor (Vocational) / SEC / AEC / VAC / MD/Internship/Dissertation Credits24& Hour of Teaching Theory Practical Cumulative Credits 3 1 4 23 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course  Classification of tissues: simple and complex Organization of shoot apex: Apical cell theory, Histogen theory, Tunica Corpus theory 9.0 h 23 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Structure of dicot and monocot leaf, Kranz anatomy  Structure of dicot and monocot stem  Structure, function and seasonal activity of cambium; secondary growth in root and stem 10.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Anatomy of stem and root with special reference to plants showing anomalies: Nyctanthes, Bignonia, Strychnos, Boerhaavia, Dracaena; Root- Tinospora 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Flower structure and reproduction  Microsporangium and microsporogenesis  Megasporangium and megasporogenesis  Male gametophyte 10.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Female gametophyte  Pollination and fertilization  Endosperm (different modes of development)  Embryogeny (development of typical dicot and monocot embryo) 10.0 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ34",
+          "name": "Lab Work Based on Paper BOTMJ33",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " T.S. of stems:Nyctanthes, Bignonia, Strychnos, Boerhaavia and Dracaena 15.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " T.S of Tinospora root 5.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " T.S of dicot leaf and monocot leaf 5.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Adaptive Anatomy of xerophytes and hydrophytes 5.0 h Course Title"
+            }
+          ]
+        },
+        {
+          "code": "BOTMV31",
+          "name": "Mushroom Cultivation",
+          "credits": 3,
+          "course_type": "Minor (Vocational)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Introduction to Mushroom Cultivation 7.0 h 24 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Mushroom Identification: Edible and medicinal mushroom species 8.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Cultivation Methods: Substrate preparation, spawning, casing and outdoor cultivation methods 8.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Environmental Factors affecting mushroom cultivation  Common diseases and pests affecting mushroom cultivation and its control strategies 12.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Harvesting, handling, packaging, and storage of mushrooms  Economic and nutritional importance of mushrooms 10.0 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTMV32",
+          "name": "Lab Work Based on Paper BOTMV31",
+          "credits": 3,
+          "course_type": "Minor (Vocational)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Hands-on lab sessions on substrate preparation 10.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Spawning and casing layer application 10.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Field visits and case Studies 10.0 h Course Title"
+            }
+          ]
+        },
+        {
+          "code": "BOTSE31",
+          "name": "Ethnobotany",
+          "credits": 2,
+          "course_type": "Skill Enhancement",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " History and scope of ethnobotany  Ethnobotanical studies: Traditional literature and other sources, tools and techniques (Sampling of informants, data collection, interviews & group discussion, data analysis) 6.0 h 27 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Importance of ethnobotanical flora and its conservation strategies  Medico-ethnobotany: ethnomedicine preparation, their uses 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Traditional knowledge of some plants of ethnobotanical importance: Ocimum, Withania, Andrographis, Terminalia, Phyllanthus, Eclipta, Artemesia, Moringa  Role of ethnic practices in biodiversity conservation: ethnic groups, religious practices, sacred place, sacred groves, community protocols 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Ethnobotany and its relevance in contemporary research  Importance of ethnobotanical flora and its conservation strategies 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Traditional Herbal Medicine  Role of Ethnobotany in sustainable development 6.0 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTSE32",
+          "name": "Lab Work Based on Paper BOTSE31",
+          "credits": 1,
+          "course_type": "Skill Enhancement",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Preparation of herbarium of 10 ethnobotanical plants 10.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Local visit to identify the plants used in traditional medicine 10.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " People-plant interaction: Collection of data about traditional uses of local plants from common people 10.0 h SEMESTER: IV Course Title"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 4,
+      "papers": [
+        {
+          "code": "BOTMJ41",
+          "name": "Angiosperm Taxonomy",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Systematics: Principles, outline, merits and demerits of classification; Bentham and Hooker’s system, Hutchinson system 8.0 h 28 Texts/"
+            },
+            {
+              "unit": 2,
+              "topics": " Distinguishing characteristics of the following families and their economic importance: a. Dicots: Ranunculaceae, Papaveraceae, Myrtaceae, Apiaceae, Cucurbitaceae, Rubiaceae, Apocynaceae, Asclepiadaceae, Solanaceae, Acanthaceae, Lamiaceae, Euphorbiaceae, Asteraceae b. Monocots: Zingeberaceae,Poaceae, Cyperaceae 20.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Botanical nomenclature: International code of nomenclature; principles: rules and recommendations; priority; typification; rules of effective and valid publications; retention and choice of names  Numerical Taxonomy: characters and attributes, OTUs, coding, cluster analysis, merits and demerits 8.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Embryology in relation to taxonomy  Chemotaxonomy: Role of phytochemicals (non-protein amino acids, alkaloids, betalins, cynogenicglucosides) andtechniques in chemotaxonomy 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Basic idea on molecular approaches to angiosperm taxonomy; APG system of classification 3.0 h 32 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 33 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ42",
+          "name": "Lab Work Based on Paper BOTMJ41",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Taxonomic description of plants of the following families: Ranunculaceae, Papaveraceae, Myrtaceae, Apiaceae, Cucurbitaceae, Rubiaceae, Apocynaceae, Asclepiadaceae, Solanaceae, Acanthaceae, Lamiaceae, Euphorbiaceae,Asteraceae, Zingeberaceae,Poaceae, Cyperaceae 20.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Plant collection: submission of at least 25 herbarium sheets 10.0 h Course Title"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ43",
+          "name": "Gymnosperm and Paleobotany",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Characteristic features and classification of Gymnosperms General accounts of Progymnospermopsida and Pteridospermales (Lyginopterisplant; Sphenopteris leaf, Lygonopterisstem, Crossotheca male organ and Lagenostoma female organ) 6.0 h 34 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 35 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
+            },
+            {
+              "unit": 2,
+              "topics": "Glossopteridales: General account of Glossopteris plant (Vertebraria root, Araucarioxilon trunk, Glossopteris leaf, Glossothecamale organ, Dictyopteridium female organ) 7.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": "Morphology, anatomy and reproduction of Cycas, Pinus and Ephedra 16.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " An elementary knowledge of Paleobotany: Geological timescale  Evolutionary trends; origin and evolution of different plant groups 8.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": "Fossils, Types of fossils, Process of fossilization, Importance of fossils 8.0 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ44",
+          "name": "Lab Work Based on Paper BOTMJ43",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Cycas - General morphology of vegetative and reproductive structures, anatomy (coralloid root,leaflet, rachis, permanent slides), and reproduction (megasporophyll, male cone, section ofmicrosporophyll, permanent slides of ovule and microsporophyll) 10.0 h 30 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Pinus - General morphology of vegetative and reproductive structures, anatomy (T.S of shoots,needle, permanent slides), reproduction (male cone, female cone, sections of megasporophyll and microsporophyll, permanent slides) 10.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Ephedra - General morphology of vegetative and reproductive structures, anatomy (stem, reproductive structures) 10.0 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ45",
+          "name": "Plant Ecology",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Introduction to ecology  Abiotic environment: Atmosphere, temperature, water, light and soil (structure and soil profile) 8.0 h 31"
+            },
+            {
+              "unit": 2,
+              "topics": " Biotic environment: Interactions among plants, animals and man; interactions among plants growing in a community; interactions among plants and microorganisms 8.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Plant adaptations in response to water availability, light and temperature  Population: Concepts, attributes and dynamics 9.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Community Ecology: Analytical and synthetic characters (Frequency, density, cover, IVI, life forms, biological spectrum, phenology, sociability) 8.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Ecosystem Ecology: Ecosystem structure (abiotic and biotic components, food chain, food web, ecological pyramids); ecosystem function (models of energy flow), biogeochemical cycles (carbon, nitrogen, and phosphorus)  Ecological succession: General process, mechanisms and patterns (Hydrosere and Xerosere) 12.0 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ46",
+          "name": "Lab Work Based on Paper BOTMJ45",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " To study soil properties by spot tests: texture, pH, CO3--, NO3-, base deficiency and reductivity 6.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Demonstration of the working and use of the instruments for measuring the environmental factors: Temperature: Ordinary Thermometer, Maximum-Minimum Thermometer. Moisture: Rain Gauge, Psychrometer Wind velocity: Anemometer Light intensity: Lux meter 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Determination of minimal size of sample lot by species-area curve  Charting of vegetation to find out coverage 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Study of community structure by quadrat method with respect to following: Density Frequency 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Study of following ecological adaptations: Hydrophytes: Nymphaea leaf, Hydrilla stem Xerophytes: Nerium leaf, Muehlenbekia, Casuarina Epiphytes: Vanda Parasites: Cuscuta with host 6.0 h Course Title"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ47",
+          "name": "Microbial Resource",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Category of Course38 Major/ Minor / Minor (Vocational) / SEC / AEC /VAC / MD/Internship/Dissertation Credits39& Hour of Teaching Theory Practical Cumulative Credits 1 1 2 Hour of Teaching 15 30 45 Course Objectives This course aims to provide students with an in-depth understanding of microbial resources and their applications for human welfare. It covers the role of microbes in food production, including fermented foods, probiotics, and single-cell proteins, as well as their use in the production of enzymes, amino acids, and biofuels. Students will explore the medical applications of microbes, such as antibiotic production and resistance. The course also addresses microbial contributions to crop improvement, waste management through composting, and bioremediation. By the end of the course, students will be equipped to apply microbial knowledge to various industries and environmental solutions. 38 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 39 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours  Introduction to microbial world applications for human welfare  Microbes as edible foods: Microorganism involved in fermented foods production-fermented milk, Probiotics, Cheese production, Production of alcoholic beverages; Single Cell Protein (SCP): microorganisms used, raw material used as substrate, condition for growth and production; nutritive value and uses of SCP; Baker’s yeast: Production and mold cultures; Edible mushroom and nutritional value 2.0 h 33 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Microbes in industries: Microorganism involved in the production of enzymes, amino acids, organic acids, biopolymers and biofuel; biotransformation 3.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Microbes as medical products: Microorganism as a source of antibiotics, mode of action of antibiotics and microbial resistance against antibiotics 3.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Crop improvement using microbes: Nitrogen fixing microorganisms (Cyanobacteria and Bactria), biological nitrogen fixation, bio pesticides, phosphate solubilizing bacteria, mycorrhiza, plant growth promoting rhizobacteria (PGPR) 3.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Microbes in composting of solid wastes: Waste water treatment, anaerobic digestion, methane production  Bioremediation and microbes: Process and organisms involved, Constraints and priorities of bioremediation, microbial degradation of hydrocarbons, microbial leaching of ores and metals, biotransformation of xenobiotics, biodegradable plastics and super bug 4.0 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ48",
+          "name": "Lab Work Based on Paper BOTMJ47",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Study of free living nitrogen fixing cyanobacteria: Nostoc, Anabaena, Aulosira 6.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Study of symbiotic nitrogen fixers in Cycas and Azolla 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Study and enumeration of soil bacteria/microflora using MPN  Methylene blue reduction test of milk 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Demonstration of certain metabolic activates: Fermentation of carbohydrates Catalase activity 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Determination of minimum inhibitory concentrations of antibiotics and toxins 6.0 h Course Title"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN41",
+          "name": "Angiosperm Taxonomy",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Systematics: Principles, outline, merits and demerits of classification; Bentham and Hooker’s system, Hutchinson system 8.0 h 34 Texts/"
+            },
+            {
+              "unit": 2,
+              "topics": " Distinguishing characteristics of the following families and their economic importance: a. Dicots: Ranunculaceae, Papaveraceae, Myrtaceae, Apiaceae, Cucurbitaceae, Rubiaceae, Apocynaceae, Asclepiadaceae, Solanaceae, Acanthaceae, Lamiaceae, Euphorbiaceae, Asteraceae b. Monocots: Zingeberaceae,Poaceae, Cyperaceae 20.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Botanical nomenclature: International code of nomenclature; principles: rules and recommendations; priority; typification; rules of effective and valid publications; retention and choice of names  Numerical Taxonomy: characters and attributes, OTUs, coding, cluster analysis, merits and demerits 8.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Embryology in relation to taxonomy  Chemotaxonomy: Role of phytochemicals (non-protein amino acids, alkaloids, betalins, cynogenicglucosides) andtechniques in chemotaxonomy 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Basic idea on molecular approaches to angiosperm taxonomy; APG system of classification 3.0 h 40 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 41 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN42",
+          "name": "Lab Work Based on Paper BOTMN41",
+          "credits": 1,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Taxonomic description of plants of the following families: Ranunculaceae, Papaveraceae, Myrtaceae, Apiaceae, Cucurbitaceae, Rubiaceae, Apocynaceae, Asclepiadaceae, Solanaceae, Acanthaceae, Lamiaceae, Euphorbiaceae,Asteraceae, Zingeberaceae,Poaceae, Cyperaceae 20.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Plant collection: submission of at least 25 herbarium sheets 10.0 h Course Title"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN43",
+          "name": "Gymnosperm and Paleobotany",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Characteristic features and classification of Gymnosperms  General accounts of Progymnospermopsida and Pteridospermales (Lyginopterisplant;Sphenopteris leaf, Lygonopterisstem, Crossotheca male organ and Lagenostoma female organ) 6.0 h 42 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 43 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
+            },
+            {
+              "unit": 2,
+              "topics": " Glossopteridales: General account of Glossopteris plant (Vertebraria root, Araucarioxilon trunk, Glossopteris leaf, Glossothecamale organ, Dictyopteridium female organ) 7.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Morphology, anatomy and reproduction of Cycas, Pinus and Ephedra 16.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " An elementary knowledge of Paleobotany: Geological timescale  Evolutionary trends; origin and evolution of different plant groups 8.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Fossils, Types of fossils, Process of fossilization, Importance of fossils 8.0 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN44",
+          "name": "Lab Work Based on Paper BOTMN43",
+          "credits": 1,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Cycas - General morphology of vegetative and reproductive structures, anatomy (coralloid root,leaflet, rachis, permanent slides), and reproduction (megasporophyll, male cone, section ofmicrosporophyll, permanent slides of ovule and microsporophyll) 10.0 h 36 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Pinus - General morphology of vegetative and reproductive structures, anatomy (T.S of shoots,needle, permanent slides), reproduction (male cone, female cone, sections of megasporophyll and microsporophyll, permanent slides) 10.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Ephedra - General morphology of vegetative and reproductive structures, anatomy (stem, reproductive structures) 10.0 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN45",
+          "name": "Lab Work Based on",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Introduction to ecology  Abiotic environment: Atmosphere, temperature, water, light and soil (structure and soil profile) 8.0 h 37 atmosphere, temperature, water, light, and soil structure on plant life. Students will gain insights into biotic interactions among plants, animals, and microorganisms, and how plants adapt to environmental variables such as water availability, light, and temperature. They will be able to describe population dynamics, community ecology metrics, and ecosystem functions, including energy flow and biogeochemical cycles. Additionally, students will grasp the processes and patterns of ecological succession, enabling them to assess and manage plant communities effectively. Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Biotic environment: Interactions among plants, animals and man; interactions among plants growing in a community; interactions among plants and microorganisms 8.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Plant adaptations in response to water availability, light and temperature  Population: Concepts, attributes and dynamics 9.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Community Ecology: Analytical and synthetic characters (Frequency, density, cover, IVI, life forms, biological spectrum, phenology, sociability) 8.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Ecosystem Ecology: Ecosystem structure (abiotic and biotic components, food chain, food web, ecological pyramids); ecosystem function (models of energy flow), biogeochemical cycles (carbon, nitrogen, and phosphorus)  Ecological succession: General process, mechanisms and patterns (Hydrosere and Xerosere) 12.0 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN46",
+          "name": "Lab Work Based on Paper BOTMN45",
+          "credits": 2,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " To study soil properties by spot tests: texture, pH, CO3--, NO3-, base deficiency and reductivity 6.0 h 38 SEMESTER-V Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Demonstration of the working and use of the instruments for measuring the environmental factors: Temperature: Ordinary Thermometer, Maximum-Minimum Thermometer Moisture: Rain Gauge, Psychrometer Wind velocity: Anemometer Light intensity: Lux meter 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Determination of minimal size of sample lot by species-area curve  Charting of vegetation to find out coverage 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Study of community structure by quadrat method with respect to following: Density Frequency 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Study of following ecological adaptations: Hydrophytes: Nymphaea leaf, Hydrilla stem Xerophytes: Nerium leaf, Muehlenbekia, Casuarina Epiphytes: Vanda Parasites: Cuscuta with host 6.0 h Course Title AE4: Offered by Institute/University (2 Credits) Category of Course46 Major / Minor / Minor (Vocational) / SEC / AEC-4/ VAC / MD/Internship/Dissertation 46 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 5,
+      "papers": [
+        {
+          "code": "BOTIN51",
+          "name": "Internship to be done during vacation",
+          "credits": 2,
+          "course_type": "Internship",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "2 Internship Total Credits Paper/Course Credit Name of paper Semester VI (20 Credits) High Level Course"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ51",
+          "name": "Plant Physiology",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Plant Water Relations: Permeability, osmosis, water potential  Transport of Water, Solutes and Translocation: Uptake, transport and translocation of water, ions, solutes from soil, passive and active transports 7.0 h 39 New York. 6. Walter Larcher (4th edition) (2003) Physiological Plant Ecology: Ecophysiology and Stress Physiology of Functional Groups Springer Verlag, Berlin. 7. Hans Mohr and Peter Schopfer (2010) Plant Physiology Springer Verlag, Berlin. 8. Edwin Oxlade (2007) Plant Physiology: The Structure of Plants Explained Glmp Ltd, Abergele, United Kingdom. 9. Kochhar SL and Gujral SK (2020) Plant Physiology: Theory and Applications, Second Edition, Springer Learning"
+            },
+            {
+              "unit": 2,
+              "topics": " Phloem transport; composition of photo-assimilates translocated by phloem, mechanism of phloem transport, phloem loading and unloading  Transpiration: foliar transpiration, guttation, plant anti-transpirants, factors affecting transpiration, significance of transpiration 8.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Photosynthesis:Light harvesting complexes, absorption and action spectrum, light reaction, dark reaction, photorespiration, Hatch- Slack Pathway, CAM Pathway, comparison of C3, C4 and CAM plants, factors affecting photosynthesis 8.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Respiration: Glycolysis, oxidative decarboxylation of pyruvate to acetyl CoA, citric acid cycle (Krebs Cycle), regulation of respiratory pathways, respiratory quotient  Plant photoreceptors: Phytochromes, cryptochromes, photoperiodism 12.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Plant growth regulation: Plant hormones and plant growth regulators, auxins, gibberellins, cytokinins, abscisic acid, ethylene, polyamines, salicylic acid, nitric oxide, jasmonates, brassinosteroids  Fruit ripening: Plant senescence, programmed cell death 10.0 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ52",
+          "name": "Lab Work Based on Paper BOTMJ51",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Measurement of osmotic concentration of cell sap by plasmolytic method (Tradescantia leaf epidermal peel/ potato tuber cylinders)  Effect of temperature, organic solvent and salt on permeability of cells membrane of beet root (Beta vulgaris) 6.0 h 40 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Determination of the rate of transpiration by varying environmental factors  Determination of the rate of photosynthesis in terms of oxygen evolution of an aquatic plant (Hydrilla): with varying light intensity, wavelengths of light and CO2 concentrations 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Extraction, separation and study of the properties of photosynthetic pigments by paper chromatography 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Isolation of chloroplasts and demonstration of photoreduction of dye [2,6-dichloro-phenol indophenols (DCPIP) 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Determination of RQ of different plant tissues (pipette manometer method)  Fruit ripening experiment: ethephon treatment of climacteric and non- climacteric fruits and their observation 6.0 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ53",
+          "name": "Plant Pathology",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Introduction to Plant Pathology and Historicaldevelopments  Plant Pathogens: Viruses, Bacteria, Fungi and Nematodes; Characteristics, disease symptoms, mode of infection and disease cycle 10.0 h 41 equipped to apply integrated disease management strategies and utilize recent molecular tools for disease diagnosis. Overall, they will be prepared to address plant pathology challenges effectively in agricultural and research settings. Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Plant defense mechanisms: Structural, biochemical and molecular mechanism 10.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Disease symptoms, cycle and management of Virus (TMV), bacteria (Citrus canker), fungi (Late blight of potato, Powdery mildew of pea, wilt of Arhar and smut of wheat) 7.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Disease Management Strategies: Traditional, biological and chemical methods of disease control, integrated disease management (IDM), engineering approaches and resistant varieties 10.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Recent Trends and molecular tools in disease diagnosis 8.0 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ54",
+          "name": "Lab Work Based on Paper BOTMJ53",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Study of the following plant pathogens: Sclerospora graminicola Peronospora parasiticia Erysiphe polygoni Uromyces pisi Melampsora lini Ustilago Tolyposporium penicillariae Fusarium oxysporum 24.0 h 42 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Symptoms of bacterial blight 2.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Symptoms of mosaic 2.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Little leaf of brinjal 2.0 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ55",
+          "name": "Recombinant DNA Technology",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Isolation of DNA (genomic and plasmid) and RNA, qualitative and quantitative analyses of nucleic acids, labeling of nucleic acids, reverse-transcription  DNA modifying enzymes: Endonucleases, exonucleases, ligase, types and nomenclature of restriction enzymes, isoschizomers and neoschizomers, polymerases, Klenow fragment, phosphatase, transcriptase, transferase, topoisomerase, telomerase, in vitro translation 10.0 h 43 Texts/"
+            },
+            {
+              "unit": 2,
+              "topics": " Transgenic plant production, principle of Agrobacterium mediated gene transfer, Ti and Ri plasmids, CRISPR-Cas system, genetically modified crops and their importance 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Plasmid vectors, cloning and expression vectors, construction of genomic and cDNA libraries, joining of DNA fragments to vectors, restriction digestion, dephosphorylation, cohesive and blunt end ligation, adaptors, linkers, transformation, transduction, conjugation, electroporation 10.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Selection, screening and analysis of recombinants, antibiotics and their resistance cassettes, colony PCR, restriction fragments length polymorphism, RAPD 10.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Basic components of vector and its engineering, shuttle vector, gene expression in bacteria, yeast, insects and mammalian cells, codon optimization, promoters, reporter genes, gene silencing, targeted and random mutagenesis  Biosafety regulations 9.0 h 51 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 52 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ56",
+          "name": "Lab Work Based on Paper BOTMJ55",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Extraction of genomic DNA  Qualitative and quantitative analyses of extracted genomic DNA 6.0 h 44 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Extraction of plasmid DNA 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Qualitative and quantitative analyses of extracted plasmid DNA 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Restriction digestion of plasmid DNA 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Transformation and selection of plasmid DNA in E. coli 6.0 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ57",
+          "name": "Plant and Microbial Techniques",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Principles of light-, bright- and dark-field microscopy, fluorescence and phase-contrast microscopy  Basics of scanning and transmission electron microscopy 3.5 h 45 demonstrate proficiency in chromatography, electrophoresis, PCR, and DNA sequencing techniques. Students will gain hands-on experience in plant cell and tissue culture, microbial culture, and cryopreservation. Additionally, they will be adept at using bioinformatics tools for sequence analysis, including BLAST and multiple sequence alignment. This knowledge will enable them to conduct sophisticated research and solve complex problems in plant and microbial sciences. Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Spectrophotometry: UV-Visible, fluorescence and nanodrop spectrophotometer  Principles of centrifugation, sedimentation and equilibrium, factors affecting sedimentation velocity, gradient centrifugation, ultracentrifugation 3.5 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Chromatography techniques: TLC, HPLC, GC, mass spectrometry  Electrophoresis: agarose gel electrophoresis, SDS-PAGE and 2-D gel electrophoresis 3.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " PCR, site directed mutagenesis, microarray and RNA sequencing  DNA sequencing: dideoxy nucleotide and automated sequencing methods 2.5 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Basic concept of plant cell and tissue culture, microbial culture and cryopreservation  Bioinformatics tools and their applications: BLAST, multiple sequence alignment 2.5 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ58",
+          "name": "Lab Work Based on Paper BOTMJ57",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Analysis of DNA and RNA samples by spectrophotometer 6.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Demonstration of PCR and Gel Documentation system 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Analysis of samples by fluorescence spectrophotometer 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Study of different biological samples by microscopic techniques 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Nucleic acids and protein sequence analysis using bioinformatics tools 6.0 h Course Title"
+            }
+          ]
+        },
+        {
+          "code": "BOTMV51",
+          "name": "Herbarium Preparation and Preservation",
+          "credits": 3,
+          "course_type": "Minor (Vocational)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Introduction to herbarium: History of herbarium, objectives of herbarium  Role of herbarium in teaching and research, types of herbaria, functions of herbarium  Important herbaria of the world and India 10.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Herbarium techniques:Collection of the specimen (plants)  Pressingand drying of the specimen, Herbarium pests, Poisoning of specimens or protection of plants from insects or pests, Mounting, stitching, and labelling of specimen, Storage of herbarium sheets 9.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Maintenance of herbaria:Fumigation, heating, chemical treatment, handling of specimens, challenges in maintenance  Collection, identification, and preservation of different types of algae and lichens  Collection, identification, and preservation of fungi 9.0 h 55 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 56 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
+            },
+            {
+              "unit": 4,
+              "topics": " Collection, identification, and preservation of gymnosperms  Collection, identification, and preservation of angiosperms  Botanical Nomenclature: Binomial nomenclature, Taxonomical hierarchy, Concept of ICN, Principles and rules of ICN, Ranks, and names, Typification, and principle of priority 9.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Virtual herbarium: Goal of virtual herbarium, importance, Techniques used, Herbarium based databases, Specimens imaging, and Digitalization 8 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTMV52",
+          "name": "Lab Work Based on Paper BOTMV51",
+          "credits": 3,
+          "course_type": "Minor (Vocational)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Local field visit to study and identify the local flora and vegetation  Collection, and preservation of algal and lichens samples  Demonstration of herbarium techniques  Collection, and preservation of fungal samples 10.0 h 47 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Collection, and preservation of bryophytes samples  Collection, and preservation of pteridophyte samples  Collection, and preservation of bryophytes samples  Collection, and preservation of pteridophyte samples 10.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Collection, and preservation of gymnosperm samples  Collection, and preservation of angiosperm samples 10.0 h"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 6,
+      "papers": [
+        {
+          "code": "BOTMJ61",
+          "name": "Comparative Cryptogams",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Classification (Fritsch's system) and general characteristics of major classes  Pigmentation and storage products  Thallus organization and evolutionary tendencies 8.0 h 48 49 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Reproduction and life history types with reference to Chlorophyceae, Phaeophyceae, Rhodophyceae and Cyanophyceae 8.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " General features of fungi and their classification (Ainsworth's system)  Structure, reproduction and life cycles of representative classes of fungi 9.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Types of fungal spores and mode of their liberation  Evolutionary trends in fungi 7.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Classification of Bryophyta and Pteridophyta  Life histories of bryophytes with reference to Cyathodium, Notothylus, Sphagnum  General account of evolution of sporophyta  Life history of PsilotumandMarsileaGeneral account on stelar evolution in Pteridophyta 13.0 h Texts/ 1. Fritsch FE (1935) The Structure and Reproduction of the Algae, Vol I, Cambridge University Press, Cambridge. 57 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 58 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 59 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ62",
+          "name": "Lab Work Based on Paper BOTMJ61",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Study of the following genera of Algae: Pandorina, Eudorina, Scenedesmus, Hydrodictyon, Ulva, Pithophora, Coleochaete, Oedocladium, Cosmarium, Codium, Bryopsis, Padina, Batrachospermum, Gloeotrichia, Aulosira 10.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": "Study of the following genera of Fungi: Saccharomyces,Synchytrium, Protomyces, Peronospora,Phyllactinia, Puccinia, Ustilago, Helminthosporium, Alternaria 10.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": "Study of the following genera of Bryophyta: Cyathodium, Notothylus, Sphagnum 5.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": "Pteridophyta: Psilotum, Marsilea 5.0 h Course Title"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ63",
+          "name": "Comparative Phanerogams",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Classification of Gymnosperm (K R Sporne) and general account of morphology, anatomy and reproduction of the following: Cycadales (Zamia), Ginkgoales (Ginkgo), Coniferales (Biota) and Gnetales (Gnetum) 14.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " General account of Williamsonia and Pentaxyl  Phylogenetic trends in Gymnosperms  World distribution of living Gymnosperms 8.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Classification of Angiosperms (Hutchinson’s) and general account of numerical taxonomy 7.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Distinguishing characters of the following families and their economic importance: Mangoliaceae, Rutaceae, Combretaceae, Asteraceae, Convolvulaceae, Scrophulariaceae, Verbenaceae, Polygonaceae, Euphorbiaceae, Zingiberaceae, Liliaceae and Cyperaceae 12.0 h 60 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 61 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
+            },
+            {
+              "unit": 5,
+              "topics": " Molecular approach to taxonomy and Angiosperm phylogeny group (APG) 4.0 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ64",
+          "name": "Lab Work Based on Paper BOTMJ63",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Study of morphology, anatomy and reproductive structure of Zamia, Biota,Ginkgo andGnetum 10.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Study of fossils, viz., Williamsonia (Bucklandia, Ptilophyllum) and Pentaxylon 10.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Taxonomic description of plant families: Rutaceae, Combretaceae, Asteraceae, Convolvulaceae, Scrophulariaceae,Verbenaceae, Polygonaceae, Euphorbiaceae, Liliaceae, Cyperaceae 5.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Plant collection: Identification, preservation and submission of at least 25 herbarium sheets 5.0 h Course Title"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ65",
+          "name": "Biodiversity and Biostatistics",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Category of Course62 Major / Minor / Minor (Vocational) / SEC / AEC /VAC / MD/Internship/Dissertation Credits63& Hour of Teaching Theory Practical Cumulative Credits 3 1 4 Hour of Teaching 45 30 75 62 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 63 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours  Introduction to biodiversity  Levels of biodiversity: Genetic, species and ecosystem 10.0 h 52 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Biodiversity and ecosystem functions: Concepts and Hypotheses  Biodiversity and ecosystem services: Provisioning, regulatory, supporting and cultural 5.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Threats to biodiversity: Causes of biodiversity loss, species extinction, vulnerability of species to extinction, IUCN threat categories, Red data book  Strategies for biodiversity conservation: Principles of biodiversity conservation, in-situ and ex-situ conservation strategies 8.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Sampling methods and experimental design  Concepts of central tendency, normal distribution and variability  Contingency tables and chi-square test  Comparison of means: t-test, multiple range tests 10.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Correlation and regression analyses  Analysis of variance: One-way  Introduction to multivariate methods: Parametric and non-parametric ordination, statistical packages for data analyses 12.0 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ66",
+          "name": "Lab Work Based on Paper BOTMJ65",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Analysis of species-area relations  Analysis of herbaceous species richness in protected and unprotected grasslands 6.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Analysis of herbaceous species evenness in protected and unprotected grasslands  To assess alpha diversity of protected and unprotected grasslands 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " To assess beta diversity in protected and unprotected grasslands  To analyze gamma diversity across grassland communities  To estimate mean, standard deviation, standard error and variance 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " To estimate chi-square test for association analysis  To estimate t-test for differentiating the means  Determination of one way analysis of variance 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " To establish correlation between variables  To establish regression equation between variables 6.0 h Course Title"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ67",
+          "name": "Cytogenetics and Evolutionary Processes",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Chromosome structure and karyotype:Physical, chemical, and molecular organization of chromosomes; Classical and modern concepts, Karyotype symmetry and asymmetry, Karyotype classification and estimation, Karyotype evolutionary factors and trends in natural plant population 5.0 h 54 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Banding techniques and chromosome manipulations:Classical banding techniques, The International System for Human Cytogenomic Nomenclature (ISCN), chromosome linearization and differentiation of selected gymnosperms and angiosperms, Genomic level or whole genome manipulations, Chromosome level (addition and substitution) manipulations, applications 7.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Threats to biodiversity: Causes of biodiversity loss, speChromosome rearrangements: Meiotic configuration and genetic consequences of 11.0 h 64 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 65 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
+            },
+            {
+              "unit": 4,
+              "topics": " Mutagens and mutagenesis:Basic concepts of mutation, Mutation types, Molecular basis of mutations, Chemical mutagens (Base analogs, deaminating, hydroxylating, alkylating, and intercalating agents), and Physical mutagens (Ionising and Non-ionising radiations)  Chromatin remodelling and epigenetics: Concept and scope of epigenetics, Components of chromatin remodelling complexes, Assembly and disassembly of nucleosome, DNA methylation and histone modifications, Techniques for studying epigenetics mechanisms, and the biological significance of epigenetics: genomic imprinting, paramutation, and silencing 12.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Quantitative genetics:Concept of quantitative inheritance, genes, and environment, the multiple factor hypothesis, partitioning the phenotypic variance, Broad-Sense Heritability, Narrow-Sense Heritability, quantitative trait loci, and QTL analysis  Population and evolutionary genetics:Population, gene pool, allele frequency, Hardy-Weinberg principle (Allele frequencies and genotype frequencies), selection, mutation, migration, genetic drift, linkage disequilibrium, and speciation 10.0 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ68",
+          "name": "Lab Work Based on Paper BOTMJ67",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Preparation of metaphase squashes and karyotype analysis in Allium, Vicia, and Aloe  Karyotype analysis using microphotographs of metaphase squashes and preparation of ideograms of suitable plant materials 6.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " To study the effects of Colchicine: a) C-mitosis, b) polyploidy 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " To study the permanent translocation heterozygote in suitable plant material 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Study of; a) mitotic index and b) mitotic phase index 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Demonstration of QTL mapping  Demonstration of Hardy-Weinberg equilibrium using available data 6.0 h Course Title"
+            }
+          ]
+        },
+        {
+          "code": "BOTMV61",
+          "name": "Plant Micropropagation",
+          "credits": 3,
+          "course_type": "Minor (Vocational)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Introduction to In vitroplant micropropagation: Historical perspectives, principles of plant tissue culture, Laboratory organization  Media preparation: Constituents, Types of media, Steps of media preparation, Precaution 9.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Maintenance of aseptic conditions, Explant selection and preparation, Surface sterilization  Cellular totipotency and differentiation: Concept of cellular totipotency and differentiation, role of plant growth regulators 9.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Stages of micropropagation: Preparatory, Culture initiation, Multiplication, Plantlet formation, Hardening and acclimatization  Types of micropropagation: Meristem culture, Organogenesis and Somatic embryogenesis 9.0 h 66 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 67 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
+            },
+            {
+              "unit": 4,
+              "topics": " Problems associated with micropropagation: Contamination, recalcitrance, vitrification, off types, high costs, somaclonal variations  Haploid plant production: parasexual hybridization significance of Androgensis and Gynogenesis, In-vitro fertilization 9.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Industrial and other applications of micropropagation: Production of disease-free plants, Suspension cultures, Hairy root cultures.Use of bioreactorsfor commercial production of bioactive compounds 9.0 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTMV62",
+          "name": "Lab Work Based on Paper BOTMV61",
+          "credits": 3,
+          "course_type": "Minor (Vocational)",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Stock preparation of Murashige and Skoog Medium 5.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Media preparation 5.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Explant preparation and surface sterilization 10.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " To initiate culture by inoculating explants in different combinations of auxins and cytokinins 10.0 h Honours without Research Degree SEMESTER-VII Course Title"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 7,
+      "papers": [
+        {
+          "code": "BOTMJ71",
+          "name": "Plant Biochemistry and Molecular Biology",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Biosynthesis of carbon compounds: sucrose, starch, cellulose  Sulphur and phosphorus metabolism: Activation and assimilation of sulphur, energy-rich phosphorus compounds; ATP synthesis 10.0 h 57 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Nitrogen metabolism: components, types and substrate of enzyme nitrogenase, biochemistry of nitrogen fixation; Nitrate metabolism: Uptake and reduction into ammonia, ammonia assimilation 8.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " DNA: Structure and properties of different forms of DNA, DNA replication in prokaryotes and eukaryotes, DNA damage and repair 8.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " RNA:Structure and properties of different forms of RNA, transcription in prokaryotes and eukaryotes, mRNA processing-5’ cap formation- 3’end processing and polyadenylation, splicing, nuclear export of mRNA 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Protein: Basic aspects of protein conformation, translation in prokaryotes and eukaryotes (activation of amino acids, initiation, elongation, termination and release of peptides), post-translational modification of proteins  Enzymes: Mechanism of enzyme action, coenzymes, allosteric enzyme, isozymes  Molecular tools and techniques: Basic principles of electrophoresis and blotting, cloning vectors, molecular cloning of nucleic acid fragments 13.0 h Texts/Reference s 1. Berg JM et al. (2018) Biochemistry, 8th edition, WH Freeman & Company, New York. 2. Cox MM, Nelson DL (2021) Lehninger Principle of Biochemistry, 8th edition MacMillan, Worth Publishers,London. 3. Devlin TM (2011) Textbook of Biochemistry, 7th edition, John Wiley & Sons, Inc, New York. 4. Voet D, Voet JG and Pratt CW (2018) Biochemistry, 5th Edition, John Wiley & Sons, Inc, New York. 5. Zubay GL (1998) Biochemistry, 4th edition, Wm C Brown Publishers, Dubuque, Iowa. 6. Dubey RC (2013) A Text Book of Biotechnology 4th edition, S Chand & Co Ltd, New Delhi. 7. Wilson K, Walker J (2018) Principle & Techniques of Biochemistry and Molecular Biology, 8th edition, Cambridge University Press, Cambridge. 8. Bowsher C & Tobin A (2021) Plant Biochemistry, 2nd Edition, Taylor & Francis Inc, CRC press. 9. Arthur M. Lesk (2016) Introduction to Protein Science Architecture Function and Genomics, Oxford University press, London Suggested websites https://academic.oup.com/aob/article/105/7/1141/148741 https://dx.doi.org/10.1016/B978-0-12-800180-6.00001-3 https://doi:10.1016/j.molp.2016.05.004 https://doi.org/10.1093/jn/130.5.1081 https://academic.oup.com/jxb/article/68/10/2463/2967464 https://epgp.inflibnet.ac.in/Home/ViewSubject?catid=2 https://epgp.inflibnet.ac.in/epgpdata/uploads/epgp_content/food_technology/food_chemistry/16. protein_ structure_and_denaturation/et/40_et_m16.pdf https://www.youtube.com/watch?v=MODnIkQvyz0 https://www.youtube.com/watch?v=AeVDoDp3llI Learning"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ71R",
+          "name": "Plant Biochemistry and Molecular Biology",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Category of Course96 Major/ Minor / Minor (Vocational) / SEC / AEC /VAC/ MD/Internship/Dissertation Credits97& Hour of Teaching Theory Practical Cumulative Credits 3 1 4 Hour of Teaching 45 30 75 Course Objectives The course objective is to provide students with a comprehensive understanding of plant biochemistry and molecular biology. Students will learn the biosynthesis of key carbon compounds, including sucrose, starch, and cellulose, and delve into sulfur and phosphorus metabolism, including ATP synthesis. They will gain insight into nitrogen metabolism, including the biochemistry of nitrogen fixation and nitrate reduction. The course will cover the structure and replication of DNA, RNA transcription and processing, and protein synthesis and modification. Additionally, students will explore enzyme mechanisms and molecular tools and techniques such as electrophoresis and cloning vectors. 96 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 97 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours  Biosynthesis of carbon compounds: sucrose, starch, cellulose  Sulphur and phosphorus metabolism: Activation and assimilation of sulphur, energy-rich phosphorus compounds; ATP synthesis 8.0 h 81 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Nitrogen metabolism: components, types and substrate of enzyme nitrogenase, biochemistry of nitrogen fixation; Nitrate metabolism: Uptake and reduction into ammonia, ammonia assimilation 8.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " DNA: Structure and properties of different forms of DNA, DNA replication in prokaryotes and eukaryotes, DNA damage and repair 8.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " RNA:Structure and properties of different forms of RNA, transcription in prokaryotes and eukaryotes, mRNA processing-5’ cap formation- 3’end processing and polyadenylation, splicing, nuclear export of mRNA 8.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Protein: Basic aspects of protein conformation, translation in prokaryotes and eukaryotes (activation of amino acids, initiation, elongation, termination and release of peptides), post-translational modification of proteins  Enzymes: Mechanism of enzyme action, coenzymes, allosteric enzyme, isozymes  Molecular tools and techniques: Basic principles of electrophoresis and blotting, cloning vectors, molecular cloning of nucleic acid fragments 13.0 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ72",
+          "name": "Lab Work Based on Paper BOTMJ71",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Chromatographic separation and comparative analysis of photosynthetic pigments in plants  Chromatographic separation of amino acids 6.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Preparation of standard graph and estimation of DNA by diphenylamine test  Preparation of standard graph and estimation of RNA by Orcinol test 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Preparation of standard graph and estimation of protein by Bradford method  Study on the effects of light/dark on the nitrate reductase enzyme 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " To study the time dependent activity of urease enzyme.  Study on the effects of different concentrations of urea on urease activity 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Determination of different concentrations of urease enzyme on its activity  Preparation of standard graph and estimation of carbohydrates by anthrone reagent method  Demonstration of electrophoretic and blotting instruments 6.0 h Course Title"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ72R",
+          "name": "Lab Work Based on Paper BOTMJ71R",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Chromatographic separation and comparative analysis of photosynthetic pigments in plants  Chromatographic separation of amino acids 6.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Preparation of standard graph and estimation of DNA by diphenylamine test  Preparation of standard graph and estimation of RNA by Orcinol test 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Preparation of standard graph and estimation of protein by Bradford method  Study on the effects of light/dark on the nitrate reductase enzyme 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " To study the time dependent activity of urease enzyme.  Study on the effects of different concentrations of urea on urease activity 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Determination of different concentrations of urease enzyme on its activity  Preparation of standard graph and estimation of carbohydrates by anthrone reagent method  Demonstration of electrophoretic and blotting instruments 6.0 h Course Title"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ73",
+          "name": "Plant Biotechnology and Genetic Engineering",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Plant Biotechnology: Introduction, History, Model plants, Scope and applications  Recombinant DNA technology: Vectors, restriction enzymes, molecular probes, genomic and cDNA libraries 8.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Plant Cell, Tissue and Organ Culture (a) History, concept of totipotency, nutritional requirements of culture, mediapreparation, aseptic condition, applications and limitations (b) Regeneration Protocols: Single Cell Culture, Organogenesis and Somatic Embryogenesis, Factors and significance (c) Protoplast Culture and Fusion: Protoplast isolation and culture, Protoplast fusion, methods and factors, Applications 8.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Techniques for plant transformation 8.0 h 68 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 69 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
+            },
+            {
+              "unit": 4,
+              "topics": " Transgenic plants, some genetically modified plants (Flavr Savr tomato, Bt brinjal, Bt corn, Bt cotton, Golden rice, virus resistant plants, pest resistant plants) and molecular forming, applications and limitations (ethical and environmental issues) 9.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Gene expression and its regulation in plants: Transcription factors and cis-regulatory elements (CREs), epigenetic mechanisms of transcriptional regulation, translational control, programmed DNA rearrangements.  Gene editing and its applications: Zinc-finger nucleases (ZFNs), transcription  activator-like effector nucleases (TALENs), CRISPR/Cas systems 12.0 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ73R",
+          "name": "Plant Biotechnology and Genetic Engineering",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Plant Biotechnology: Introduction, History, Model plants, Scope and applications  Recombinant DNA technology: Vectors, restriction enzymes, molecular probes, genomic and cDNA libraries 8.5 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Plant Cell, Tissue and Organ Culture (a) History, concept of totipotency, nutritional requirements of culture, mediapreparation, aseptic condition, applications and limitations (b) Regeneration Protocols: Single Cell Culture, Organogenesis and Somatic embryogenesis, factors and significance 8.5 h 98 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 99 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
+            },
+            {
+              "unit": 3,
+              "topics": " Techniques for plant transformation (a) Indirect gene transfer methods (Agrobacterium tumefaciens, and Agrobacterium rhizogenes mediated transfer) (b)Direct Gene transfer methods (electroporation, particle bombardment, microinjection, PEG, silicon carbide) 8.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Transgenic plants, some genetically modified plants (Flavr Savr tomato, Bt brinjal, Bt corn, Bt cotton, Golden rice, virus resistant plants, pest resistant plants) and molecular forming, applications and limitations (ethical and environmental issues) 8.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Gene expression and its regulation in plants: Transcription factors and cis-regulatory elements (CREs), epigenetic mechanisms of transcriptional regulation, translational control, programmed DNA rearrangements.  Gene editing and its applications: Zinc-finger nucleases (ZFNs), transcription activator-like effector nucleases (TALENs), CRISPR/Cas systems 12.0 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ74",
+          "name": "Lab Work Based on Paper BOTMJ73",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Medium preparation of Murashige and Skoog  Surface sterilization and inoculation of nodal explants on MS medium 6.0 h 59 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " To raise suspension culture by using friable calli 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " To initiate hairy root culture 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Floral dip method of plant transformation (Arabidopsis thaliana) and screening for gene transfer (plasmid isolation &amp; transformation, screening through PCR and agarose gel electrophoresis) 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Synthetic seed preparation 6.0 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ74R",
+          "name": "Lab Work Based on paper BOTMJ73R",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Medium preparation of Murashige and Skoog  Surface sterilization and inoculation of nodal explants on MS medium 6.0 h 83 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " To raise suspension culture by using friable calli 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " To initiate hairy root culture 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Floral dip method of plant transformation (Arabidopsis thaliana) and screening for gene transfer (plasmid isolation &amp; transformation, screening through PCR and agarose gel electrophoresis) 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Synthetic seed preparation 6.0 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ75",
+          "name": "Field Excursion",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "2 Field Excursion"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ75R",
+          "name": "Ecosystem Dynamics",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Introduction: Introduction to ecosystem dynamics  Community organization: Holistic, Reductionist, continuum concepts and related theories, Synthetic approach 9.0 h 84 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Ecosystem development: Mechanism and concepts of ecological succession, pattern of ecosystem attributes along successional stages, Concept and models of succession 9.5 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Ecosystem processes: Energy flow models, Net primary productivity, functional metabolic ratio, ecological efficiencies, decomposition, herbivory and carnivory 9.5 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Nutrient dynamics: Nutrient cycling and models, nutrient import, export and retention, nutrient use efficiency, nutrient resorption and retranslocation, nutrient conserving adaptation in oligotrophic soils 9.5 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Ecosystem stability, complexity and sustainability  Man and ecosystem dynamics 7.5 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ76",
+          "name": "Photoecophysiology",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Light-regulated growth and development in cyanobacteria: Phytochrome-related photosensor and light perception, Photomorphogenesis, Complementary chromatic acclimation, Light quality and quantity dependent changes in light-harvesting complex, Signal transduction, Photoregulation of morphology 9.5 h 70 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 71 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours 72 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 73 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
+            },
+            {
+              "unit": 2,
+              "topics": " Molecular mechanisms of photodamage and photoprotection: Photo- induced damage to microbes; genetical, biochemical and molecular aspects of mycosporine-like amino acids (MAAs) and scytonemin production, ecological and economical implications 9.5 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Light-regulated plant growth and development: Photoreceptors and light perception, Physiological responses, Photomorphogenesis, Circadian clock, Signal transduction, Seed germination, Hypocotyl elongation 6.5 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Light signalling dynamics in plants: Phytochromes, Cryptochromes, PIFs, Phototropins, UV resistance locus8 (UVR8), HY5, COP1, SUMOylation, Chloroplast movement  Light harvesting in plants and cyanobacteria: Photosynthetic pigments and phycobilisomes, State transition, photochemical quenching (PQ), non-photochemical quenching (NPQ), photoinhibition, orange carotenoid protein (OCP), xanthophyll cycle, principle of PAM fluorometry 13.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Carbon concentrating mechanisms (CCM) in plants and cyanobacteria: Photorespiration, Components of CCM, Pyrenoids, Carboxysome, RuBISCO, Carbonic anhydrase 6.5 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ76R",
+          "name": "Lab work based on paper BOTMJ75R",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Estimation of herbaceous species biomass  Analysis of species composition (based on IVI) 10.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Quantification of dominance 5.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Estimation of soil carbon 5.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Estimation of total nitrogen 5.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Estimation of Chlorophyll content 5.0 h Course Title"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ77",
+          "name": "Lab Work Based on Paper BOTMJ76",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Effects of light and dark on seed germination  Hypocotyl length measurements in light and dark grown seedlings 6.0 h 61 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Photosynthetic pigments analysis in light and dark grown seedlings  Growth measurement of cyanobacteria under white light, blue light, red light and UVR 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Extraction and quantification of photosynthetic pigments from cyanobacteria grown under different light conditions 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Extraction and spectrophotometric analysis of mycosporine-like amino acids in cyanobacteria 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Extraction and spectrophotometric analysis of scytonemin in cyanobacteria 6.0 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ77R",
+          "name": "Field Excursion",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "2 Field Excursion"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ78",
+          "name": "Research Methodology",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Research Methodology Understanding research, its significance, and different types of research, Steps involved in the research process, Ethical considerations and plagiarism, Identifying and defining research problems, Types of research designs 6.0 h 62 9. Introduction to Research Methods: A Hands-On Approach\" by Bora Pajo Suggested Websites https://bio-protocol.org/en https://conductscience.com/microbiology-techniques"
+            },
+            {
+              "unit": 2,
+              "topics": "Literature Review Role and significance of literature review in research, Identifying and accessing various sources of literature. Methods for effective literature review, Importance and methods of citation and referencing 4.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": "Data Collection Methods Techniques for collecting primary data (surveys, interviews, observations, experiments), Utilizing secondary data sources, understanding different sampling techniques (random, stratified, cluster), Designing and using questionnaires, interview guides, and other tools, Reliability and validity in data collection 7.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": "Data Analysis and Interpretation Statistical methods for analysing quantitative data, Techniques for analysing qualitative data, Introduction to statistical software (SPSS, R) and qualitative analysis tools, making sense of data and drawing conclusions, Effective ways to present data using tables, graphs, and charts 7.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": "Research Reporting and Presentation Structure and components of a research report (introduction, methodology, results, discussion, conclusion), Guidelines for writing a thesis or dissertation, writing research papers and articles for journals, Techniques for presenting research findings orally and visually, Understanding the publication process and choosing appropriate journals 6.0 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ78R",
+          "name": "Research Methodology",
+          "credits": 2,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Introduction to Research Methodology Understanding research, its significance, and different types of research, Steps involved in the research process, Ethical considerations and plagiarism, Identifying and defining research problems, Types of research designs 6.0 h 86 Creswell and J. David Creswell 5. Qualitative Inquiry and Research Design: Choosing Among Five Approaches\" by John W. Creswell and Cheryl N. Poth 6. Research Methods: The Essential Knowledge Base\" by William M. Trochim and James P. Donnelly 7. Research Methods in Education\" by Louis Cohen, Lawrence Manion, and Keith Morrison 8. Practical Research: Planning and Design\" by Paul D. Leedy and Jeanne Ellis Ormrod 9. Introduction to Research Methods: A Hands-On Approach\" by Bora Pajo Suggested Websites https://bio-protocol.org/en https://conductscience.com/microbiology-techniques Learning"
+            },
+            {
+              "unit": 2,
+              "topics": "Literature Review Role and significance of literature review in research, Identifying and accessing various sources of literature. Methods for effective literature review, Importance and methods of citation and referencing 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": "Data Collection Methods Techniques for collecting primary data (surveys, interviews, observations, experiments), Utilizing secondary data sources, understanding different sampling techniques (random, stratified, cluster), Designing and using questionnaires, interview guides, and other tools, Reliability and validity in data collection 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": "Data Analysis and Interpretation Statistical methods for analysing quantitative data, Techniques for analysing qualitative data, Introduction to statistical software (SPSS, R) and qualitative analysis tools, making sense of data and drawing conclusions, Effective ways to present data using tables, graphs, and charts 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": "Research Reporting and Presentation Structure and components of a research report (introduction, methodology, results, discussion, conclusion), Guidelines for writing a thesis or dissertation, writing research papers and articles for journals, Techniques for presenting research findings orally and visually, Understanding the publication process and choosing appropriate journals 6.0 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN71",
+          "name": "Plant Biochemistry and Molecular Biology",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Biosynthesis of carbon compounds: sucrose, starch, cellulose  Sulphur and phosphorus metabolism: Activation and assimilation of sulphur, energy-rich phosphorus compounds; ATP synthesis 10.0 h 63 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Nitrogen metabolism: components, types and substrate of enzyme nitrogenase, biochemistry of nitrogen fixation; Nitrate metabolism: Uptake and reduction into ammonia, ammonia assimilation 8.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " DNA: Structure and properties of different forms of DNA, DNA replication in prokaryotes and eukaryotes, DNA damage and repair 8.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " RNA:Structure and properties of different forms of RNA, transcription in prokaryotes and eukaryotes, mRNA processing-5’ cap formation- 3’end processing and polyadenylation, splicing, nuclear export of mRNA 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Protein: Basic aspects of protein conformation, translation in prokaryotes and eukaryotes (activation of amino acids, initiation, elongation, termination and release of peptides), post-translational modification of proteins  Enzymes: Mechanism of enzyme action, coenzymes, allosteric enzyme, isozymes  Molecular tools and techniques: Basic principles of electrophoresis and blotting, cloning vectors, molecular cloning of nucleic acid fragments 13.0 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN71R",
+          "name": "Plant Biochemistry and Molecular Biology",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Biosynthesis of carbon compounds: sucrose, starch, cellulose Sulphur and phosphorus metabolism: Activation and assimilation of sulphur, energy-rich phosphorus compounds; ATP synthesis 8.0 h 87 initiation, elongation, termination and release of peptides), post-translational modification of proteins Enzymes: Mechanism of enzyme action, coenzymes, allosteric enzyme, isozymes Molecular tools and techniques: Basic principles of electrophoresis and blotting, cloning vectors, molecular cloning of nucleic acid fragments Texts/"
+            },
+            {
+              "unit": 2,
+              "topics": "Nitrogen metabolism: components, types and substrate of enzyme nitrogenase, biochemistry of nitrogen fixation; Nitrate metabolism: Uptake and reduction into ammonia, ammonia assimilation 8.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": "DNA: Structure and properties of different forms of DNA, DNA replication in prokaryotes and eukaryotes, DNA damage and repair 8.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": "RNA:Structure and properties of different forms of RNA, transcription in prokaryotes and eukaryotes, mRNA processing-5’ cap formation- 3’end processing and polyadenylation, splicing, nuclear export of mRNA 8.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": "Protein: Basic aspects of protein conformation, translation in prokaryotes and eukaryotes (activation of amino acids, 13.0 h 106 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 107 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN72",
+          "name": "Lab Work Based on Paper BOTMN71",
+          "credits": 1,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Chromatographic separation and comparative analysis of photosynthetic pigments in plants  Chromatographic separation of amino acids 6.0 h 64 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Preparation of standard graph and estimation of DNA by diphenylamine test  Preparation of standard graph and estimation of RNA by Orcinol test 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Preparation of standard graph and estimation of protein by Bradford method  Study on the effects of light/dark on the nitrate reductase enzyme 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " To study the time dependent activity of urease enzyme  Study on the effects of different concentrations of urea on urease activity 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Determination of different concentrations of urease enzyme on its activity  Preparation of standard graph and estimation of carbohydrates by anthrone reagent method  Demonstration of electrophoretic and blotting instruments 6.0 h Texts/Reference s 1. Berg JM et al. (2018) Biochemistry, 8th edition, WH Freeman & Company, New York. 2. Cox MM, Nelson DL (2021) Lehninger Principle of Biochemistry, 8th edition MacMillan, Worth Publishers,London. 3. Devlin TM (2011) Textbook of Biochemistry, 7th edition, John Wiley & Sons, Inc, New York. 4. Voet D, Voet JG and Pratt CW (2018) Biochemistry, 5th Edition, John Wiley & Sons, Inc, New York. 5. Zubay GL (1998) Biochemistry, 4th edition, Wm C Brown Publishers, Dubuque, Iowa. 6. Dubey RC (2013) A Text Book of Biotechnology 4th edition, S Chand & Co Ltd, New Delhi. 7. Wilson K, Walker J (2018) Principle & Techniques of Biochemistry and Molecular Biology, 8th edition, Cambridge University Press, Cambridge. 8. Bowsher C & Tobin A (2021) Plant Biochemistry, 2nd Edition, Taylor & Francis Inc, CRC press. 9. Arthur M. Lesk (2016) Introduction to Protein Science Architecture Function and Genomics, Oxford University press, London Suggested websites https://academic.oup.com/aob/article/105/7/1141/148741 https://dx.doi.org/10.1016/B978-0-12-800180-6.00001-3 https://doi:10.1016/j.molp.2016.05.004 https://doi.org/10.1093/jn/130.5.1081 https://academic.oup.com/jxb/article/68/10/2463/2967464 https://epgp.inflibnet.ac.in/Home/ViewSubject?catid=2 https://epgp.inflibnet.ac.in/epgpdata/uploads/epgp_content/food_technology/food_chemistry/16. protein_ structure_and_denaturation/et/40_et_m16.pdf https://www.youtube.com/watch?v=MODnIkQvyz0 https://www.youtube.com/watch?v=AeVDoDp3llI Learning"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN72R",
+          "name": "Lab Work Based on Paper BOTMN71R",
+          "credits": 1,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Chromatographic separation and comparative analysis of photosynthetic pigments in plants  Chromatographic separation of amino acids 6.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Preparation of standard graph and estimation of DNA by diphenylamine test  Preparation of standard graph and estimation of RNA by Orcinol test 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Preparation of standard graph and estimation of protein by Bradford method  Study on the effects of light/dark on the nitrate reductase enzyme 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " To study the time dependent activity of urease enzyme  Study on the effects of different concentrations of urea on urease activity 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Determination of different concentrations of urease enzyme on its activity  Preparation of standard graph and estimation of carbohydrates by anthrone reagent method  Demonstration of electrophoretic and blotting instruments 6.0 h Course Title"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN73",
+          "name": "Plant Biotechnology and Genetic Engineering",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Plant Biotechnology: Introduction, History, Model plants, Scope and applications  Recombinant DNA technology: Vectors, restriction enzymes, molecular probes, genomic and cDNA libraries 8.0 h 65"
+            },
+            {
+              "unit": 2,
+              "topics": " Plant Cell, Tissue and Organ Culture (a) History, concept of totipotency, nutritional requirements of culture, mediapreparation, aseptic condition, applications and limitations (b) Regeneration Protocols: Single Cell Culture, Organogenesis and Somatic embryogenesis, Factors and significance (c) Protoplast Culture and Fusion: Protoplast isolation and culture, Protoplast fusion, methods and factors, applications 8.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Techniques for plant transformation (a) Indirect gene transfer methods (Agrobacterium tumefaciens, and Agrobacterium rhizogenes mediated transfer) (b) Direct Gene transfer methods (electroporation, particle bombardment, microinjection, PEG, silicon carbide) 8.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Transgenic plants, some genetically modified plants (Flavr Savr tomato, Bt brinjal, Bt corn, Bt cotton, Golden rice, virus resistant plants, pest resistant plants) and molecular forming, applications and limitations (ethical and environmental issues) 9.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Gene expression and its regulation in plants: Transcription factors and cis-regulatory elements (CREs), epigenetic mechanisms of transcriptional regulation, translational control, programmed DNA rearrangements.  Gene editing and its applications: Zinc-finger nucleases (ZFNs), transcription  activator-like effector nucleases (TALENs), CRISPR/Cas systems 12.0 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN73R",
+          "name": "Plant Biotechnology and Genetic Engineering",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Plant Biotechnology: Introduction, History, Model plants, Scope and applications  Recombinant DNA technology: Vectors, restriction enzymes, molecular probes, genomic and cDNA libraries 8.5 h 89"
+            },
+            {
+              "unit": 2,
+              "topics": " Plant Cell, Tissue and Organ Culture (a) History, concept of totipotency, nutritional requirementsof culture, mediapreparation, aseptic condition, applications and limitations (b) Regeneration Protocols: Single Cell Culture, Organogenesis and SomaticEmbryogenesis, Factors and significance (c) Protoplast Culture and Fusion: Protoplast isolation and culture, Protoplastfusion, methods and factors, applications 8.5 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Techniques for plant transformation (a) Indirect gene transfer methods (Agrobacterium tumefaciens, and Agrobacterium rhizogenes mediated transfer) (b) Direct Gene transfer methods (electroporation, particle bombardment, microinjection, PEG, silicon carbide) 8.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Transgenic plants, some genetically modified plants (Flavr Savr tomato, Bt brinjal, Bt corn, Bt cotton, Golden rice, virus resistant plants, pest resistant plants) and molecular forming, applications and limitations (ethical and environmental issues) 8.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Gene expression and its regulation in plants: Transcription factors and cis-regulatory elements (CREs), epigenetic mechanisms of transcriptional regulation, translational control, programmed DNA rearrangements  Gene editing and its applications: Zinc-finger nucleases (ZFNs), transcription activator-like effector nucleases (TALENs), CRISPR/Cas systems 12.0 h 108 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 109 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN74",
+          "name": "Lab Work Based on Paper BOTMN73",
+          "credits": 1,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Medium preparation of Murashige and Skoog  Surface sterilization and inoculation of nodal explants on MS medium 6 h 6.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " To raise suspension culture by using friable calli 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " To initiate hairy root culture 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Floral dip method of plant transformation (Arabidopsis thaliana) and screening for gene transfer (plasmid isolation &amp; transformation, screening through PCR and agarose gel electrophoresis) 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Synthetic seed preparation 6.0 h Course Title"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN74R",
+          "name": "Lab Work Based on Paper BOTMN73R",
+          "credits": 1,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Medium preparation of Murashige and Skoog  Surface sterilization and inoculation of nodal explants on MS medium 6.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " To raise suspension culture by using friable calli. 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " To initiate hairy root culture 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Floral dip method of plant transformation (Arabidopsis thaliana) and screening for gene transfer (plasmid isolation &amp; transformation, screening through PCR and agarose gel electrophoresis) 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Synthetic seed preparation 6.0 h Course Title"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN75R",
+          "name": "Lab work based on paper",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Category of Course110 Major/ Minor/ Minor (Vocational) / SEC / AEC /VAC/ MD/Internship/Dissertation Credits111& Hour of Teaching Theory Practical Cumulative Credits 3 1 4 Hour of Teaching 45 30 75 Course Objectives This course aims to provide students with a comprehensive understanding of ecosystem dynamics, including the organization and development of communities, mechanisms of ecological succession, and the evolution of ecosystems. Students will explore energy flow models, primary productivity, and nutrient cycling within ecosystems. The course covers ecosystem stability, complexity, and sustainability, and examines the interactions between human activities and ecosystem dynamics. By integrating theoretical concepts and practical applications, students will develop insights into maintaining and managing ecosystem health and functionality. 110 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 111 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours  Introduction: Introduction to ecosystem dynamics.  Community organization: Holistic, Reductionist, continuum concepts and related theories, Synthetic approach 9.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Ecosystem development: Mechanism and concepts of ecological succession, pattern of ecosystem attributes along successional stages, Evolution of ecosystem 9.5 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Ecosystem processes: Energy flow models, Net primary productivity, functional metabolic ratio, ecological efficiencies, decomposition, herbivory and carnivory 9.5 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Nutrient dynamics: Nutrient cycling and models, nutrient import, export and retention, nutrient use efficiency, nutrient resorption and retranslocation, nutrient conserving adaptation in oligotrophic soils 9.5 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Ecosystem stability, complexity and sustainability  Man and ecosystem dynamics 7.5 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN76",
+          "name": "Lab Work Based on Paper BOTMN71",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Light-regulated growth and development in cyanobacteria: Phytochrome-related photosensor and light perception, Photomorphogenesis, Complementary chromatic acclimation, Light quality and quantity dependent changes in light-harvesting complex, Signal transduction, Photoregulation of morphology 9.5 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Molecular mechanisms of photodamage and photoprotection: Photo- induced damage to microbes; genetical, biochemical and molecular aspects of mycosporine-like amino acids (MAAs) and scytonemin 9.5 h 78 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 79 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
+            },
+            {
+              "unit": 3,
+              "topics": " Light-regulated plant growth and development: Photoreceptors and light perception, Physiological responses, Photomorphogenesis, Circadian clock, Signal transduction, Seed germination, Hypocotyl elongation 6.5 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Light signalling dynamics in plants: Phytochromes, Cryptochromes, PIFs, Phototropins, UV resistance locus8 (UVR8), HY5, COP1, SUMOylation, Chloroplast movement  Light harvesting in plants and cyanobacteria: Photosynthetic pigments and phycobilisomes, State transition, photochemical quenching (PQ), non-photochemical quenching (NPQ), photoinhibition, orange carotenoid protein (OCP), xanthophyll cycle, principle of PAM fluorometry 13.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Carbon concentrating mechanisms (CCM) in plants and cyanobacteria: Photorespiration, Components of CCM, Pyrenoids, Carboxysome, RuBISCO, Carbonic anhydrase 6.5 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN76R",
+          "name": "Lab Work Based on Paper BOTMN75R",
+          "credits": 1,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Estimation of herbaceous species biomass  Analysis of species composition (based on IVI) 10.0 h 91 SEMESTER-VIII Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Quantification of dominance 5.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Estimation of soil carbon 5.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Estimation of total nitrogen 5.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Estimation of Chlorophyll content 5.0 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN77",
+          "name": "Lab Work Based on Paper BOTMN76",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Effects of light and dark on seed germination  Hypocotyl length measurements in light and dark grown seedlings 6.0 h 67 SEMESTER-VIII Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Photosynthetic pigments analysis in light and dark grown seedlings  Growth measurement of cyanobacteria under white light, blue light, red light and UVR 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Extraction and quantification of photosynthetic pigments from cyanobacteria grown under different light conditions 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Extraction and spectrophotometric analysis of mycosporine-like amino acids in cyanobacteria 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Extraction and spectrophotometric analysis of scytonemin in cyanobacteria 6.0 h"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semester": 8,
+      "papers": [
+        {
+          "code": "BOTDS81R",
+          "name": "Dissertation",
+          "credits": 12,
+          "course_type": "Dissertation",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "12 Dissertation/Project"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ81",
+          "name": "Microbiology",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Introduction to Archaea and Bacteria: A general account of Halobacteria, Thermoplasma, Agrobacterium  Growth and nutrition: Growth kinetics, Batch and continuous cultures, Nutritional classification of microorganisms, Assimilation of Sulfur and phosphate 10.0 h 68 5. Frobisher, Hinsdill, Crabtree and Goodheart (1974). Fundamentals of Microbiology. Saunders’ International Students Edition. Toppan Company Ltd. Singapore 6. Joanne M. Willey, Linda M. Sherwood, C.J. Woolverton (2017). Prescott’s Microbiology. 10thEdition. McGraw Hills. International Edition. Singapore. 7. Michael J. Pelczer JR, ECS Chan and NoelR. Krieg (1986, reprint 2011). Microbiology, Vth Edition, Tata McGraw Hills, India Learning"
+            },
+            {
+              "unit": 2,
+              "topics": " Energy Metabolism: Autotrophs and heterotrophs, hydrogen bacteria, purple non-sulphur bacteria and cyanobacteria  A detailed account of different types of viruses; structure of bacteriophages, LPP1, TMV and retroviruses. Lytic cycle in T4 phages and its regulation; lysogeny and its regulation in lambda phage; a brief account of viroids and prions 11.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Modes of genetic exchange in microbes: Transformation, Transduction, Conjugation, Evolutionary Significance  Repression and activation of Lac operon 7.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Quorum sensing: Role of Quorum sensing in bioluminescence and virulence  Role of Microbes in preparation of antibiotics, secondary metabolites, bioremediation and soil fertility 8.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Fermentation technology for production of lactic acid and acetic acid  Nitrogen fixation by free-living and symbiotic microorganisms, Rhizobium-legume interaction, genetics of nodulation 9.0 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ82",
+          "name": "Lab Work Based on Paper BOTMJ81",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Staining of microorganisms and endospore  Preparation of culture medium, sterilization and cultivation of bacteria 5.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Study of growth of unicellular microorganism by turbidometric method  Methylene blue reduction test of milk 10.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Demonstration of certain metabolic activities: Fermentation of carbohydrates, Catalase activity 5.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Determination of minimum inhibitory concentrations and LC50 of antibiotics. 5.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Determination of beta-galactosidase activity for degradation of ONPG in E. coli grown in different combination of sugar 5.0 h Course Title"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ82R",
+          "name": "Aquatic Ecology",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Hydrological cycle; Watershed hydrology  Aquatic primary productivity and its measurement 10.0 h 92 Applications of Limnology. Elesiever. 4. Polunin NVC 2010. Aquatic ecosystems, Cambridge university press. Learning"
+            },
+            {
+              "unit": 2,
+              "topics": " Aquatic food webs; trophic cascade  Lakes: General characteristics, ecological zonation in lakes, thermal stratification, water circulation 11.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Diversity of phytoplankton and zooplankton, concept of nutrient limitation  General account of benthic and periphytic communities 8.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Eutrophication: Causes and consequences, indices of eutrophy, control of eutrophication  Rivers: Characteristics of lotic systems; River continuum concept 7.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Estuaries: General account of estuaries, types and significance  Oceans: Ecological zonation in marine environment, marine biota, coral reefs 9.0 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ83",
+          "name": "Stress Biology",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Category of Course82 Major/ Minor / Minor (Vocational) / SEC / AEC /VAC/ MD/Internship/Dissertation Credits83& Hour of Teaching Theory Practical Cumulative Credits 3 1 4 Hour of Teaching 45 30 75 Course Objectives This course aims to provide a comprehensive understanding of stress biology in extremophiles, cyanobacteria, and plants. Students will explore the molecular phylogenetics of these organisms, mechanisms of reactive oxygen species (ROS) generation and control, and the impact of abiotic stresses such as drought, salinity, and temperature. Emphasis will be placed on the photosynthetic system's adaptations, functional genomics, proteomics, and metabolomics related to stress responses. Additionally, the course covers gene mining for stress tolerance and the application of green chemistry for biofuel and bioactive compound production using photosynthetic organisms. 82 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 83 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours  Distribution of extremophiles, cyanobacteria and plants across environmental gradients, molecular phylogenetic analysis  Reactive oxygen species (ROS), generation, impacts on nucleic acid, proteins, lipids and its molecular control and anti-oxidant processe 11.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Abiotic stress tolerance and signaling: Drought, salinity, ultraviolet radiation, light, temperatures, desiccation and heavy metals, HSPs 9.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Photosynthetic system: light harvesting complex, chlorophyll, phycobiliproteins, carotenoids and light harvesting proteins (LHCs), genetic regulation and adjustments during abiotic stresses. 9.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Functional genomics, proteomics and metabolomics of cyanobacteria and plants with reference to stress responsive gene/proteins 5.5 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Gene mining from cyanobacterial and plant model system for the development of stress tolerant crops  Green chemistry using photosynthetic organisms for production of biofuels and bioactive compounds 10.5 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ83R",
+          "name": "Lab Work Based on Paper BOTMJ82R",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " To determine the pH of given water samples  To estimate free CO2 in given water samples 6.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " To estimate the chloride concentration in given water samples  To determine the total hardness of the water samples 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " To measure the dissolve oxygen (DO) in water samples  To estimate the nitrate concentration in water samples 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " To estimate the phosphate concentration in given water samples  To measure the biological oxygen demand (BOD) in given water samples 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " To estimate the primary productivity in given water samples 6.0 h Course Title"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ84",
+          "name": "Lab Work Based on Paper BOTMJ83",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Demonstration of CYANOBASE, Phytozome, Tair, and retrieving of gene sequences for multiple sequence alignment for candidate gene for making phylogenetic tree using (MEGA 5.0, CLUSTAL X etc)  Determination of LC50 doses of selected abiotic stresses in cyanoacterium Anabaena sp PCC 7120 and Arabidopsis thaliana 10.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Determination of lipid per-oxidation and hydrogen peroxide content in stressed and non-stressed photosynthetic organisms  SDS-PAGE profiling of controlled and selected abiotic stress exposed model photosynthetic organisms in order to monitor stressed induced proteins 5.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " DNA isolation, primer designing and PCR amplification of 16S and 18S rDNA sequences from photosynthetic organisms 5.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Lipid assay from stressed and non-stressed photosynthetic organisms 5.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Study of fluorescence spectra of control and stressed model cyanobacterium and plant using PAM fluorometry 5.0 h Course Title"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ85",
+          "name": "Ecology, Environmental Pollution and Toxicology",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Population: Patterns of population dispersion, population growth, r and k-selection strategies, population regulation, mechanisms of differentiation  Community: Continuum and discreet community concepts, community characteristics and their analyses, species diversity and indices, concept of ecological niche 10.5 h 71 8. Raffaelli DG, Frid CLJ, 2010. Ecosystem Ecology: A New Synthesis. Cambridge University Press"
+            },
+            {
+              "unit": 2,
+              "topics": " Ecosystem: Concept, components and organization; primary productivity and its measurement; energy flow  Ecological succession: Mechanisms; individualistic and holistic models of succession; trends of succession, concept of climax 9.5 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Water Pollution: Sources and kinds, impact of pollution on aquatic ecosystems, eutrophication 7.5 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Air Pollution: Sources and kinds, impact of air pollutants (SO2, NO2 and particulate) on plants and ecosystems  Soil Pollution: Sources and kinds, impact of heavy metals and pesticides on plants and ecosystems 9.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Ecotoxicology: Concept of toxicity, types of toxicants, dose-response relationship, chronic and acute toxicity, indices of toxicity, factors affecting toxicity; biomagnification 8.5 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ86",
+          "name": "Lab Work Based on Paper BOTMJ85",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Determination of the minimal size of sample plot for vegetation analysis by species-area curve method 6.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Study of frequency of herbaceous species in grassland and to compare the frequency distribution with Raunkiaer’s Standard Frequency Diagram.  Estimation of the density and abundance of species in protected and grazed grasslands 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Estimation of Importance Value Index (IVI) for grassland species on the basis of frequency, density and biomass  Determination of water holding capacity of polluted soil samples 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Determination of foliar dust deposition in samples collected from different sites exposed to air pollution  Assessment of leaf area injury in foliar samples collected from sites exposed to air pollution 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Measurement of the dissolved oxygen content of different water samples  Estimation of the total alkalinity of different water samples 6.0 h Course Title"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ87",
+          "name": "Plant Diseases and Protection",
+          "credits": 3,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": "Category of Course86 Major/ Minor / Minor (Vocational) / SEC / AEC /VAC/ MD/Internship/Dissertation Credits87& Hour of Teaching Theory Practical Cumulative Credits 3 1 4 Hour of Teaching 45 30 75 Course Objectives The objective of this course is to provide students with a comprehensive understanding of plant diseases, including historical epidemics, physiology of parasitism, and the role of effectors and elicitors in disease development. Students will learn about factors influencing disease progression and study specific diseases such as green ear disease and rust. The course will cover the molecular mechanisms of plant immunity, pathogen virulence, and modern engineering techniques for disease resistance, including RNA interference and gene editing. Additionally, students will gain insights into epidemiology, disease management strategies, and the importance of biosecurity and intellectual property in plant protection. 86 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 87 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours  Historical account of major plant disease epidemics  Physiology of Parasitism and role of effectors in host-pathogen interaction and disease development  Role of elicitor (enzyme, toxin, growth regulator, and polysaccharides) in plant disease development 10.5 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Factors regulating disease development and disease cycle of following diseases: Green ear disease of bajara, downey mildew of cucurbits, rust of linseed, smut of bajara , wilt of Arhar, root knot nematodes, viral/viriods disease, little leaf of brinjal 15.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Molecular basis of plant Immunity and pathogen virulence: Effector- triggered immunity (ETI), Pattern-triggered immunity (PTI), and pathogen-associated molecular patterns (PAMPs) 10.5 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Engineering for disease resistance: RNA interferences, Agrobacterium mediated plant transformation, gene editing 4.5 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Epidemiology, disease spread and management: Biosecurity, Intellectual property rights (IPR) and Intellectual Property Management (IPM) 4.5 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMJ88",
+          "name": "Lab Work Based on Paper BOTMJ87",
+          "credits": 1,
+          "course_type": "Major",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Study of symptoms and cause of following plant diseases, namely wart of potato, downy mildew of cucurbits, wart of sesame, stem gall on coriander, linseed rust, tikka disease of groundnut, red rot of sugarcane, bacterial blight of rice, yellow vein mosaic of bhindi, and other local diseases on crops 10.0 h 73 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Preparation of media and slants for isolation of pathogens 5.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " In-vitro Isolation of pathogenic fungi  Identification of pathogenic organism of local disease using Koch’s postulates 5.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " To Study synergism/antagonism between pathogen in culture medium 5.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Symptoms of bacterial blight, mosaic and little leaf of brinjal 5.0 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN81",
+          "name": "Microbiology",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Introduction to Archaea and Bacteria: A general account of Halobacteria, Thermoplasma, Agrobacterium  Growth and nutrition: Growth kinetics, Batch and continuous cultures, Nutritional classification of microorganisms, Assimilation of Sulfur and phosphate 10.0 h 74 7. Michael J. Pelczer JR, ECS Chan and NoelR. Krieg (1986, reprint 2011). Microbiology, Vth Edition, Tata McGraw Hills, India"
+            },
+            {
+              "unit": 2,
+              "topics": " Energy Metabolism: Autotrophs and heterotrophs, hydrogen bacteria, purple non-sulphur bacteria and cyanobacteria  A detailed account of different types of viruses; structure of bacteriophages, LPP1, TMV and retroviruses. Lytic cycle in T4 phages and its regulation; lysogeny and its regulation in lambda phage; a brief account of viroids and prions 11.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Modes of genetic exchange in microbes: Transformation, Transduction, Conjugation, Evolutionary Significance  Repression and activation of Lac operon 7.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Quorum sensing: Role of Quorum sensing in bioluminescence and virulence  Role of Microbes in preparation of antibiotics, secondary metabolites, bioremediation and soil fertility 8.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Fermentation technology for production of lactic acid and acetic acid  Nitrogen fixation by free-living and symbiotic microorganisms, Rhizobium-legume interaction, genetics of nodulation 9.0 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN82",
+          "name": "Lab Work Based on Paper BOTMN81",
+          "credits": 1,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Staining of microorganisms and endospore  Preparation of culture medium, sterilization and cultivation of bacteria 5.0 h 75 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Study of growth of unicellular microorganism by turbidometric method  Methylene blue reduction test of milk 1.0.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Demonstration of certain metabolic activities: Fermentation of carbohydrates, Catalase activity 5.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Determination of minimum inhibitory concentrations and LC50 of antibiotics 5.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Determination of beta-galactosidase activity for degradation of ONPG in E. coli grown in different combination of sugar 5.0 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN83",
+          "name": "Stress Biology",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Distribution of extremophiles, cyanobacteria and plants across environmental gradients, molecular phylogenetic analysis  Reactive oxygen species (ROS), generation, impacts on nucleic acid, proteins, lipids and its molecular control and anti-oxidant processes 11.0 h 76 Course Title"
+            },
+            {
+              "unit": 2,
+              "topics": " Abiotic stress tolerance and signaling: Drought, salinity, ultraviolet radiation, light, temperatures, desiccation and heavy metals 9.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Photosynthetic system: light harvesting complex, chlorophyll, phycobiliproteins, carotenoids and light harvesting proteins (LHCs), genetic regulation and adjustments during abiotic stresses 9.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Functional genomics, proteomics and metabolomics of cyanobacteria and plants with reference to stress responsive gene/proteins 5.5 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Gene mining from cyanobacterial and plant model system for the development of stress tolerant crops  Green chemistry using photosynthetic organisms for production of biofuels and bioactive compounds 10.5 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN84",
+          "name": "Lab Work Based on Paper BOTMN83",
+          "credits": 1,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Demonstration of CYANOBASE, Phytozome, Tair, and retrieving of gene sequences for multiple sequence alignment for candidate gene for making phylogenetic tree using (MEGA 5.0, CLUSTAL X etc)  Determination of LC50 doses of selected abiotic stresses in cyanoacterium Anabaena sp PCC 7120 and Arabidopsis thaliana 10.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Determination of lipid per-oxidation and hydrogen peroxide content in stressed and non-stressed photosynthetic organisms  SDS-PAGE profiling of controlled and selected abiotic stress exposed model photosynthetic organisms in order to monitor stressed induced proteins 5.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " DNA isolation, primer designing and PCR amplification of 16S and 18S rDNA sequences from photosynthetic organisms 5.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Lipid assay from stressed and non-stressed photosynthetic organisms 5.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Study of fluorescence spectra of control and stressed model cyanobacterium and plant using PAM fluorometry 5.0 h Course Title"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN84R",
+          "name": "Aquatic Ecology",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Hydrological cycle; Watershed hydrology  Aquatic primary productivity and its measurement 10.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Aquatic food webs; trophic cascade  Lakes: General characteristics, ecological zonation inlakes, thermal stratification, water circulation 11.0 h 116 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 117 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
+            },
+            {
+              "unit": 3,
+              "topics": " Diversity of phytoplankton and zooplankton, concept of nutrient limitation  General account of benthic and periphytic communities 8.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Eutrophication: Causes and consequences, indices of eutrophy, control of eutrophication  Rivers: Characteristics of lotic systems; River continuum concept. 7.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Estuaries: General account of estuaries, types and significance  Oceans: Ecological zonation in marine environment, marine biota, coral reefs 9.0 h Texts/"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN85",
+          "name": "Ecology,Pollution and Toxicology",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Population: Patterns of population dispersion, population growth, r and k-selection strategies, population regulation, mechanisms of differentiation  Community: Continuum and discreet community concepts, community characteristics and their analyses, species diversity and indices, concept of ecological niche 10.5 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Ecosystem: Concept, components and organization; primary productivity and its measurement; energy flow  Ecological succession: Mechanisms; individualistic and holistic models 9.5 h 92 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 93 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
+            },
+            {
+              "unit": 3,
+              "topics": " Water Pollution: Sources and kinds, impact of pollution on aquatic ecosystems, eutrophication 7.5 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Air Pollution: Sources and kinds, impact of air pollutants (SO2, NO2 and particulate) on plants and ecosystems  Soil Pollution: Sources and kinds, impact of heavy metals and pesticides on plants and ecosystems 9.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Ecotoxicology: Concept of toxicity, types of toxicants, dose-response relationship, chronic and acute toxicity, indices of toxicity, factors affecting toxicity; biomagnification 8.5 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN85R",
+          "name": "Lab Work Based on Paper BOTMN84R",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " To determine the pH of given water samples  To estimate free CO2 in given water samples 6.0 h 94 BANARAS HINDU UNIVERSITY Department of Biochemistry Faculty of Science SYLLABI B.Sc. Programme In Biochemistry 95 Multidisciplinary Courses:"
+            },
+            {
+              "unit": 2,
+              "topics": " To estimate the chloride concentration in given water samples  To determine the total hardness of the water samples 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " To measure the dissolve oxygen (DO) in water samples  To estimate the nitrate concentration in water samples 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " To estimate the phosphate concentration in given water samples  To measure the biological oxygen demand (BOD) in given water samples 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " To estimate the primary productivity in given water samples 6.0 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN86",
+          "name": "Lab Work Based on Paper BOTMN85",
+          "credits": 1,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Determination of the minimal size of sample plot for vegetation analysis by species-area curve method 6.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Study of frequency of herbaceous species in grassland and to compare the frequency distribution with Raunkiaer’s Standard Frequency Diagram  Estimation of the density and abundance of species in protected and grazed grasslands 6.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Estimation of Importance Value Index (IVI) for grassland species on the basis of frequency, density and biomass  Determination of water holding capacity of polluted soil samples 6.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Determination of foliar dust deposition in samples collected from different sites exposed to air pollution  Assessment of leaf area injury in foliar samples collected from sites exposed to air pollution 6.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Measurement of the dissolved oxygen content of different water samples  Estimation of the total alkalinity of different water samples 6.0 h Course Title"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN87",
+          "name": "Plant Diseases and Protection",
+          "credits": 3,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Historical account of major plant disease epidemics  Physiology of Parasitism and role of effectors in host-pathogen interaction and disease development  Role of elicitor (enzyme, toxin, growth regulator, and polysaccharides) in plant disease development 10.5 h 79 9. Anne Marte Tronsmo, David B. Collinge, Annika Djurle, Lisa Munk, Jonathan Yuen, Arne Tronsmo (2020). Plant pathology and plant diseases, CABI Publication."
+            },
+            {
+              "unit": 2,
+              "topics": " Factors regulating disease development and disease cycle of following diseases: Green ear disease of bajara, downey mildew of cucurbits, rust of linseed, smut of bajara , wilt of Arhar, root knot nematodes, viral/viriods disease, little leaf of brinjal 15.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " Molecular basis of plant Immunity and pathogen virulence: Effector- triggered immunity (ETI), Pattern-triggered immunity (PTI), and pathogen-associated molecular patterns (PAMPs) 10.5 h"
+            },
+            {
+              "unit": 4,
+              "topics": " Engineering for disease resistance: RNA interferences, Agrobacterium mediated plant transformation, gene editing, 4.5 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Epidemiology, disease spread and management: Biosecurity, Intellectual property rights (IPR) andIntellectual Property Management (IPM) 4.5 h"
+            }
+          ]
+        },
+        {
+          "code": "BOTMN88",
+          "name": "Lab Work Based on Paper BOTMN87",
+          "credits": 1,
+          "course_type": "Minor",
+          "syllabus": [
+            {
+              "unit": 1,
+              "topics": " Study of symptoms and cause of following plant diseases, namely wart of potato, downy mildew of cucurbits, wart of sesame, stem gall on coriander, linseed rust, tikka disease of groundnut, red rot of sugarcane, bacterial blight of rice, yellow vein mosaic of bhindi, and other local diseases on crops 10.0 h"
+            },
+            {
+              "unit": 2,
+              "topics": " Preparation of media and slants for isolation of pathogens 5.0 h"
+            },
+            {
+              "unit": 3,
+              "topics": " In-vitro Isolation of pathogenic fungi.  Identification of pathogenic organism of local disease using Koch’s postulates 5.0 h"
+            },
+            {
+              "unit": 4,
+              "topics": " To Study synergism /antagonism between pathogen in culture medium 5.0 h"
+            },
+            {
+              "unit": 5,
+              "topics": " Symptoms of bacterial blight, mosaic and little leaf of brinjal 5.0 h Honours with Research Degree SEMESTER-VII Course Title"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

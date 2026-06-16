@@ -139,10 +139,15 @@
 
     // Load JSON mappings
     const JSON_PATH_MAP = {
-        'maths': 'aaa/maths/maths_syllabus.json',
-        'chemistry': 'aaa/all science pyq/chemistry_syllabus.json',
-        'physics': 'aaa/PHYSICS OUT/physics_syllabus.json',
-        'statistics': 'aaa/STATISTIC/tex_files/statistics_syllabus.json'
+        'maths': 'SYLLABUS/maths_syllabus.json',
+        'chemistry': 'SYLLABUS/chemistry_syllabus.json',
+        'physics': 'SYLLABUS/physics_syllabus.json',
+        'statistics': 'SYLLABUS/statistics_syllabus.json',
+        'botany': 'SYLLABUS/botany_syllabus.json',
+        'computerscience': 'SYLLABUS/computer_science_syllabus.json',
+        'geography': 'SYLLABUS/geography_syllabus.json',
+        'geology': 'SYLLABUS/geology_syllabus.json',
+        'zoology': 'SYLLABUS/zoology_syllabus.json'
     };
 
     // Full 59 departments list from University Directory
@@ -185,20 +190,20 @@
         { key: "veda", name: "Veda", faculty: "Faculty of Sanskrit Vidya Dharma Vijnan Sankay", active: false, icon: "auto_stories" },
         { key: "vyakarana", name: "Vyakarana", faculty: "Faculty of Sanskrit Vidya Dharma Vijnan Sankay", active: false, icon: "auto_stories" },
         { key: "biochemistry", name: "Biochemistry", faculty: "Faculty of Science", active: false, icon: "science" },
-        { key: "botany", name: "Botany", faculty: "Faculty of Science", active: false, icon: "eco" },
+        { key: "botany", name: "Botany", faculty: "Faculty of Science", active: true, icon: "eco" },
         { key: "genetic_disorder", name: "Centre for Genetic Disorder", faculty: "Faculty of Science", active: false, icon: "biotech" },
         { key: "chemistry", name: "Chemistry", faculty: "Faculty of Science", active: true, icon: "science" },
-        { key: "computerscience", name: "Computer Science", faculty: "Faculty of Science", active: false, icon: "terminal" },
+        { key: "computerscience", name: "Computer Science", faculty: "Faculty of Science", active: true, icon: "terminal" },
         { key: "dst_cims", name: "DST-CIMS", faculty: "Faculty of Science", active: false, icon: "calculate" },
-        { key: "geography", name: "Geography", faculty: "Faculty of Science", active: false, icon: "public" },
-        { key: "geology", name: "Geology", faculty: "Faculty of Science", active: false, icon: "terrain" },
+        { key: "geography", name: "Geography", faculty: "Faculty of Science", active: true, icon: "public" },
+        { key: "geology", name: "Geology", faculty: "Faculty of Science", active: true, icon: "terrain" },
         { key: "geophysics", name: "Geophysics", faculty: "Faculty of Science", active: false, icon: "public" },
         { key: "maths", name: "Mathematics", faculty: "Faculty of Science", active: true, icon: "calculate" },
         { key: "molecular_genetics", name: "Molecular And Human Genetics", faculty: "Faculty of Science", active: false, icon: "biotech" },
         { key: "physics", name: "Physics", faculty: "Faculty of Science", active: true, icon: "insights" },
         { key: "biotech", name: "School of Bio-Technology", faculty: "Faculty of Science", active: false, icon: "biotech" },
         { key: "statistics", name: "Statistics", faculty: "Faculty of Science", active: true, icon: "bar_chart" },
-        { key: "zoology", name: "Zoology", faculty: "Faculty of Science", active: false, icon: "pets" },
+        { key: "zoology", name: "Zoology", faculty: "Faculty of Science", active: true, icon: "pets" },
         { key: "social_inclusion", name: "Centre for the Study of Social Inclusion", faculty: "Faculty of Social Sciences", active: false, icon: "groups" },
         { key: "womens_studies", name: "Centre for Women's Studies and Development", faculty: "Faculty of Social Sciences", active: false, icon: "groups" },
         { key: "economics", name: "Economics", faculty: "Faculty of Social Sciences", active: false, icon: "trending_up" },
@@ -383,7 +388,9 @@
             3: 'Semester III',
             4: 'Semester IV',
             5: 'Semester V',
-            6: 'Semester VI'
+            6: 'Semester VI',
+            7: 'Semester VII',
+            8: 'Semester VIII'
         };
 
         syllabusData.semesters.forEach(sem => {
