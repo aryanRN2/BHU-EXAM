@@ -480,7 +480,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-101_IntroductionToComputers_SemI_2022-23_BVoc.tex",
     "fileName": "BVCA-101_IntroductionToComputers_SemI_2022-23_BVoc.tex",
-    "nepCode": "BVCA11",
+    "nepCode": "CSCMD11",
     "oldCode": "BVCA-101"
   },
   {
@@ -491,7 +491,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-102_FundamentalsOfArtificialIntelligence_SemI_2022-23_BVoc.tex",
     "fileName": "BVCA-102_FundamentalsOfArtificialIntelligence_SemI_2022-23_BVoc.tex",
-    "nepCode": "BVCA12",
+    "nepCode": "CSCMV31",
     "oldCode": "BVCA-102"
   },
   {
@@ -502,7 +502,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-103b_AppliedMathematics_SemI_2022-23_BVoc.tex",
     "fileName": "BVCA-103b_AppliedMathematics_SemI_2022-23_BVoc.tex",
-    "nepCode": "BVCA13",
+    "nepCode": "CSCMD11",
     "oldCode": "BVCA-103b"
   },
   {
@@ -513,7 +513,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-103_AppliedMathematics_SemI_2022-23a_BVoc.tex",
     "fileName": "BVCA-103_AppliedMathematics_SemI_2022-23a_BVoc.tex",
-    "nepCode": "BVCA13",
+    "nepCode": "CSCMD11",
     "oldCode": "BVCA-103"
   },
   {
@@ -524,7 +524,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/CS-101_BCS-101_ProblemSolvingC_SemI_2016-17_BSc.tex",
     "fileName": "CS-101_BCS-101_ProblemSolvingC_SemI_2016-17_BSc.tex",
-    "nepCode": "CSMJ11 / CSMN11",
+    "nepCode": "CSCMJ11",
     "oldCode": "CS-101"
   },
   {
@@ -535,7 +535,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-104_SkillTrainingInR_SemI_2022-23_BVoc.tex",
     "fileName": "BVCA-104_SkillTrainingInR_SemI_2022-23_BVoc.tex",
-    "nepCode": "BVCA14",
+    "nepCode": "CSCMJ11",
     "oldCode": "BVCA-104"
   },
   {
@@ -546,7 +546,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/CS-101_ProblemSolvingThroughC_SemI_2023-24_BSc.tex",
     "fileName": "CS-101_ProblemSolvingThroughC_SemI_2023-24_BSc.tex",
-    "nepCode": "CSMJ11 / CSMN11",
+    "nepCode": "CSCMJ11",
     "oldCode": "CS-101"
   },
   {
@@ -557,7 +557,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BCS-201_DigitalLogicCircuits_SemII_2013-14_BSc.tex",
     "fileName": "BCS-201_DigitalLogicCircuits_SemII_2013-14_BSc.tex",
-    "nepCode": "CSMJ21 / CSMN21",
+    "nepCode": "CSCMJ31",
     "oldCode": "BCS-201"
   },
   {
@@ -568,7 +568,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/CS-102_DigitalLogicsAndCircuits_SemII_2023-24_BSc.tex",
     "fileName": "CS-102_DigitalLogicsAndCircuits_SemII_2023-24_BSc.tex",
-    "nepCode": "CSMJ21 / CSMN21",
+    "nepCode": "CSCMJ31",
     "oldCode": "CS-102"
   },
   {
@@ -579,7 +579,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BCS-203_FundamentalsOfComputers_SemII_2013-14_BSc.tex",
     "fileName": "BCS-203_FundamentalsOfComputers_SemII_2013-14_BSc.tex",
-    "nepCode": "CSMD11",
+    "nepCode": "CSCMD11",
     "oldCode": "BCS-203"
   },
   {
@@ -590,7 +590,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-201_IntroductionToDatabases_SemII_2021-22_BVoc.tex",
     "fileName": "BVCA-201_IntroductionToDatabases_SemII_2021-22_BVoc.tex",
-    "nepCode": "BVCA21",
+    "nepCode": "CSCMJ42",
     "oldCode": "BVCA-201"
   },
   {
@@ -601,7 +601,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-201_IntroductionToDatabases_SemII_2022-23_BVoc.tex",
     "fileName": "BVCA-201_IntroductionToDatabases_SemII_2022-23_BVoc.tex",
-    "nepCode": "BVCA21",
+    "nepCode": "CSCMJ42",
     "oldCode": "BVCA-201"
   },
   {
@@ -612,7 +612,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/CS-102_ObjectOrientedProgramming_SemII_2023-24_BSc.tex",
     "fileName": "CS-102_ObjectOrientedProgramming_SemII_2023-24_BSc.tex",
-    "nepCode": "CSMJ22 / CSMN22",
+    "nepCode": "CSCMJ32",
     "oldCode": "CS-102"
   },
   {
@@ -623,7 +623,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-202_ProblemSolvingAI_SemII_2021-22_BVoc.tex",
     "fileName": "BVCA-202_ProblemSolvingAI_SemII_2021-22_BVoc.tex",
-    "nepCode": "BVCA22",
+    "nepCode": "CSCMJ64",
     "oldCode": "BVCA-202"
   },
   {
@@ -634,7 +634,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-202_ProblemSolvingAI_SemII_2022-23_BVoc.tex",
     "fileName": "BVCA-202_ProblemSolvingAI_SemII_2022-23_BVoc.tex",
-    "nepCode": "BVCA22",
+    "nepCode": "CSCMJ64",
     "oldCode": "BVCA-202"
   },
   {
@@ -645,7 +645,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/GEN-202_ProgrammingInPython_SemII_2021-22_BVoc.tex",
     "fileName": "GEN-202_ProgrammingInPython_SemII_2021-22_BVoc.tex",
-    "nepCode": "GEN22",
+    "nepCode": "CSCSE31",
     "oldCode": "GEN-202"
   },
   {
@@ -656,7 +656,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-205_SkillTrainingPython_SemII_2021-22_BVoc.tex",
     "fileName": "BVCA-205_SkillTrainingPython_SemII_2021-22_BVoc.tex",
-    "nepCode": "BVCA25",
+    "nepCode": "CSCSE31",
     "oldCode": "BVCA-205"
   },
   {
@@ -667,7 +667,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-205_SkillTrainingPython_SemII_2022-23_BVoc.tex",
     "fileName": "BVCA-205_SkillTrainingPython_SemII_2022-23_BVoc.tex",
-    "nepCode": "BVCA25",
+    "nepCode": "CSCSE31",
     "oldCode": "BVCA-205"
   },
   {
@@ -711,7 +711,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/GEN-201_WebsiteDesigning_SemII_2021-22_BVoc.tex",
     "fileName": "GEN-201_WebsiteDesigning_SemII_2021-22_BVoc.tex",
-    "nepCode": "GEN21",
+    "nepCode": "CSCSE11",
     "oldCode": "GEN-201"
   },
   {
@@ -722,7 +722,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-301_AnalogDigitalCommunication_SemIII_2022-23_BVoc.tex",
     "fileName": "BVCA-301_AnalogDigitalCommunication_SemIII_2022-23_BVoc.tex",
-    "nepCode": "BVCA31",
+    "nepCode": "CSCMJ63",
     "oldCode": "BVCA-301"
   },
   {
@@ -733,7 +733,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-301b_AnalogDigitalCommunication_SemIII_2022-23_BVoc.tex",
     "fileName": "BVCA-301b_AnalogDigitalCommunication_SemIII_2022-23_BVoc.tex",
-    "nepCode": "BVCA31",
+    "nepCode": "CSCMJ63",
     "oldCode": "BVCA-301b"
   },
   {
@@ -744,7 +744,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-301_AnalogDigitalCommunication_SemIII_2023-24_BVoc.tex",
     "fileName": "BVCA-301_AnalogDigitalCommunication_SemIII_2023-24_BVoc.tex",
-    "nepCode": "BVCA31",
+    "nepCode": "CSCMJ63",
     "oldCode": "BVCA-301"
   },
   {
@@ -766,7 +766,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-304_JavaAppletProgramming_SemIII_2022-23_BVoc.tex",
     "fileName": "BVCA-304_JavaAppletProgramming_SemIII_2022-23_BVoc.tex",
-    "nepCode": "BVCA34",
+    "nepCode": "CSCMJ32",
     "oldCode": "BVCA-304"
   },
   {
@@ -777,7 +777,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-304_JavaAppletProgramming_SemIII_2023-24_BVoc.tex",
     "fileName": "BVCA-304_JavaAppletProgramming_SemIII_2023-24_BVoc.tex",
-    "nepCode": "BVCA34",
+    "nepCode": "CSCMJ32",
     "oldCode": "BVCA-304"
   },
   {
@@ -788,7 +788,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-305_NetworkConfigManagement_SemIII_2022-23_BVoc.tex",
     "fileName": "BVCA-305_NetworkConfigManagement_SemIII_2022-23_BVoc.tex",
-    "nepCode": "BVCA35",
+    "nepCode": "CSCMJ63",
     "oldCode": "BVCA-305"
   },
   {
@@ -799,7 +799,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-305_NetworkConfigManagement_SemIII_2023-24_BVoc.tex",
     "fileName": "BVCA-305_NetworkConfigManagement_SemIII_2023-24_BVoc.tex",
-    "nepCode": "BVCA35",
+    "nepCode": "CSCMJ63",
     "oldCode": "BVCA-305"
   },
   {
@@ -810,7 +810,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BCS-301_NumericalComputing_SemIII_2016-17_BSc.tex",
     "fileName": "BCS-301_NumericalComputing_SemIII_2016-17_BSc.tex",
-    "nepCode": "CSMJ31 / CSMN31",
+    "nepCode": "CSCMJ44",
     "oldCode": "CS-103"
   },
   {
@@ -821,7 +821,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/CS-103_NumericalComputing_SemIII_2022-23_BSc.tex",
     "fileName": "CS-103_NumericalComputing_SemIII_2022-23_BSc.tex",
-    "nepCode": "CSMJ31 / CSMN31",
+    "nepCode": "CSCMJ44",
     "oldCode": "CS-103"
   },
   {
@@ -832,7 +832,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/CS-103_NumericalComputing_SemIII_2023-24_BSc.tex",
     "fileName": "CS-103_NumericalComputing_SemIII_2023-24_BSc.tex",
-    "nepCode": "CSMJ31 / CSMN31",
+    "nepCode": "CSCMJ44",
     "oldCode": "CS-103"
   },
   {
@@ -843,7 +843,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-303_ProgrammingInLinux_SemIII_2022-23_BVoc.tex",
     "fileName": "BVCA-303_ProgrammingInLinux_SemIII_2022-23_BVoc.tex",
-    "nepCode": "BVCA33",
+    "nepCode": "CSCMJ51",
     "oldCode": "BVCA-303"
   },
   {
@@ -854,7 +854,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-303_ProgrammingInLinux_SemIII_2023-24_BVoc.tex",
     "fileName": "BVCA-303_ProgrammingInLinux_SemIII_2023-24_BVoc.tex",
-    "nepCode": "BVCA33",
+    "nepCode": "CSCMJ51",
     "oldCode": "BVCA-303"
   },
   {
@@ -865,7 +865,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-302_RoboticsArduino_SemIII_2022-23_BVoc.tex",
     "fileName": "BVCA-302_RoboticsArduino_SemIII_2022-23_BVoc.tex",
-    "nepCode": "BVCA32",
+    "nepCode": "CSCMJ82",
     "oldCode": "BVCA-302"
   },
   {
@@ -876,7 +876,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-302_RoboticsArduino_SemIII_2023-24_BVoc.tex",
     "fileName": "BVCA-302_RoboticsArduino_SemIII_2023-24_BVoc.tex",
-    "nepCode": "BVCA32",
+    "nepCode": "CSCMJ82",
     "oldCode": "BVCA-302"
   },
   {
@@ -887,7 +887,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-404_Microprocessor_SemIV_2022-23_BVoc.tex",
     "fileName": "BVCA-404_Microprocessor_SemIV_2022-23_BVoc.tex",
-    "nepCode": "BVCA44",
+    "nepCode": "CSCMJ43",
     "oldCode": "BVCA-404"
   },
   {
@@ -898,7 +898,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-404_Microprocessor_SemIV_2023-24_BVoc.tex",
     "fileName": "BVCA-404_Microprocessor_SemIV_2023-24_BVoc.tex",
-    "nepCode": "BVCA44",
+    "nepCode": "CSCMJ43",
     "oldCode": "BVCA-404"
   },
   {
@@ -942,7 +942,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-401_CloudComputing_SemIV_2023-24_BVoc.tex",
     "fileName": "BVCA-401_CloudComputing_SemIV_2023-24_BVoc.tex",
-    "nepCode": "BVCA41",
+    "nepCode": "CSCMJ74",
     "oldCode": "BVCA-401"
   },
   {
@@ -953,7 +953,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BCS-401_ComputerOrgArch_SemIV_2013-14_BSc.tex",
     "fileName": "BCS-401_ComputerOrgArch_SemIV_2013-14_BSc.tex",
-    "nepCode": "CSMJ41 / CSMN41",
+    "nepCode": "CSCMJ43",
     "oldCode": "CS-104"
   },
   {
@@ -964,7 +964,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/CS-104b_ComputerOrgArch_SemIV_2023-24_BSc.tex",
     "fileName": "CS-104b_ComputerOrgArch_SemIV_2023-24_BSc.tex",
-    "nepCode": "CSMJ41 / CSMN41",
+    "nepCode": "CSCMJ43",
     "oldCode": "CS-104"
   },
   {
@@ -975,7 +975,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/CS-104_ComputerOrgArch_SemIV_2023-24_BSc.tex",
     "fileName": "CS-104_ComputerOrgArch_SemIV_2023-24_BSc.tex",
-    "nepCode": "CSMJ41 / CSMN41",
+    "nepCode": "CSCMJ43",
     "oldCode": "CS-104"
   },
   {
@@ -986,7 +986,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/CS-104_ComputerOrganizationArchitecture_SemIV_2022-23_BSc.tex",
     "fileName": "CS-104_ComputerOrganizationArchitecture_SemIV_2022-23_BSc.tex",
-    "nepCode": "CSMJ41 / CSMN41",
+    "nepCode": "CSCMJ43",
     "oldCode": "CS-104"
   },
   {
@@ -997,7 +997,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/CS-105_ComputerOrganizationArchitecture_SemIV_2022-23_BSc.tex",
     "fileName": "CS-105_ComputerOrganizationArchitecture_SemIV_2022-23_BSc.tex",
-    "nepCode": "CSMJ41 / CSMN41",
+    "nepCode": "CSCMJ43",
     "oldCode": "CS-105"
   },
   {
@@ -1008,7 +1008,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/GEN-402_DataStructuresAlgorithms_SemIV_2022-23_BVoc.tex",
     "fileName": "GEN-402_DataStructuresAlgorithms_SemIV_2022-23_BVoc.tex",
-    "nepCode": "GEN42",
+    "nepCode": "CSCMJ21",
     "oldCode": "GEN-402"
   },
   {
@@ -1019,7 +1019,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-402_ProbabilityAndStatistics_SemIV_2022-23_BVoc.tex",
     "fileName": "BVCA-402_ProbabilityAndStatistics_SemIV_2022-23_BVoc.tex",
-    "nepCode": "BVCA42",
+    "nepCode": "CSCMJ42",
     "oldCode": "BVCA-402"
   },
   {
@@ -1030,7 +1030,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-402_ProbabilityAndStatistics_SemIV_2023-24_BVoc.tex",
     "fileName": "BVCA-402_ProbabilityAndStatistics_SemIV_2023-24_BVoc.tex",
-    "nepCode": "BVCA42",
+    "nepCode": "CSCMJ42",
     "oldCode": "BVCA-402"
   },
   {
@@ -1041,7 +1041,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/CS-105_DiscreteMathematics_SemIV_2023-24_BSc.tex",
     "fileName": "CS-105_DiscreteMathematics_SemIV_2023-24_BSc.tex",
-    "nepCode": "CSMJ42 / CSMN42",
+    "nepCode": "CSCMJ41",
     "oldCode": "CS-105"
   },
   {
@@ -1052,7 +1052,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BCS-403_FundamentalsOfComputing_SemIV_2013-14_BSc.tex",
     "fileName": "BCS-403_FundamentalsOfComputing_SemIV_2013-14_BSc.tex",
-    "nepCode": "CSMD11",
+    "nepCode": "CSCMD11",
     "oldCode": "BCS-403"
   },
   {
@@ -1063,7 +1063,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-405_AndroidProgramming_SemIV_2022-23_BVoc.tex",
     "fileName": "BVCA-405_AndroidProgramming_SemIV_2022-23_BVoc.tex",
-    "nepCode": "BVCA45",
+    "nepCode": "CSCMD31",
     "oldCode": "BVCA-405"
   },
   {
@@ -1074,7 +1074,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-405_AndroidProgramming_SemIV_2023-24_BVoc.tex",
     "fileName": "BVCA-405_AndroidProgramming_SemIV_2023-24_BVoc.tex",
-    "nepCode": "BVCA45",
+    "nepCode": "CSCMD31",
     "oldCode": "BVCA-405"
   },
   {
@@ -1085,7 +1085,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BSC-044_IntroToComputerProgrammingC_SemIV_2013-14_BSc.tex",
     "fileName": "BSC-044_IntroToComputerProgrammingC_SemIV_2013-14_BSc.tex",
-    "nepCode": "CSMJ11 / CSMN11",
+    "nepCode": "CSCMJ11",
     "oldCode": "CS-101"
   },
   {
@@ -1096,7 +1096,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-201_IntroductionToDatabases_SemII_2023-24_BVoc.tex",
     "fileName": "BVCA-201_IntroductionToDatabases_SemII_2023-24_BVoc.tex",
-    "nepCode": "BVCA21",
+    "nepCode": "CSCMJ42",
     "oldCode": "BVCA-201"
   },
   {
@@ -1107,7 +1107,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/CSB-401_NumericalComputing_SemIV_2013-14_BSc.tex",
     "fileName": "CSB-401_NumericalComputing_SemIV_2013-14_BSc.tex",
-    "nepCode": "CSMJ31 / CSMN31",
+    "nepCode": "CSCMJ44",
     "oldCode": "CS-103"
   },
   {
@@ -1118,7 +1118,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/CS-403_ProgrammingForProblemSolving_SemIV_2023-24_BSc.tex",
     "fileName": "CS-403_ProgrammingForProblemSolving_SemIV_2023-24_BSc.tex",
-    "nepCode": "CSMD11",
+    "nepCode": "CSCMJ11",
     "oldCode": "CS-403"
   },
   {
@@ -1129,7 +1129,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/GEN-401_RealAnalysis_SemIV_2022-23_BVoc.tex",
     "fileName": "GEN-401_RealAnalysis_SemIV_2022-23_BVoc.tex",
-    "nepCode": "GEN41",
+    "nepCode": "CSCMJ41",
     "oldCode": "GEN-401"
   },
   {
@@ -1140,7 +1140,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/GEN-401_RealAnalysis_SemIV_2023-24_BVoc.tex",
     "fileName": "GEN-401_RealAnalysis_SemIV_2023-24_BVoc.tex",
-    "nepCode": "GEN41",
+    "nepCode": "CSCMJ41",
     "oldCode": "GEN-401"
   },
   {
@@ -1151,7 +1151,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-401_CloudComputing_SemIV_2022-23_BVoc.tex",
     "fileName": "BVCA-401_CloudComputing_SemIV_2022-23_BVoc.tex",
-    "nepCode": "BVCA41",
+    "nepCode": "CSCMJ74",
     "oldCode": "BVCA-401"
   },
   {
@@ -1162,7 +1162,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/CS-109_DataCommunication_SemV_2022-23_BSc.tex",
     "fileName": "CS-109_DataCommunication_SemV_2022-23_BSc.tex",
-    "nepCode": "CSMJ61",
+    "nepCode": "CSCMJ63",
     "oldCode": "CS-109"
   },
   {
@@ -1173,7 +1173,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/CS-108_DataStructuresAlgorithms_SemV_2022-23_BSc.tex",
     "fileName": "CS-108_DataStructuresAlgorithms_SemV_2022-23_BSc.tex",
-    "nepCode": "CSMJ53",
+    "nepCode": "CSCMJ21",
     "oldCode": "CS-108"
   },
   {
@@ -1184,7 +1184,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/CS-107_DatabaseManagementSystems_SemV_2022-23_BSc.tex",
     "fileName": "CS-107_DatabaseManagementSystems_SemV_2022-23_BSc.tex",
-    "nepCode": "CSMJ52",
+    "nepCode": "CSCMJ42",
     "oldCode": "CS-107"
   },
   {
@@ -1195,7 +1195,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BCS-503_DiscreteMathStructures_SemV_2016-17_BSc.tex",
     "fileName": "BCS-503_DiscreteMathStructures_SemV_2016-17_BSc.tex",
-    "nepCode": "CSMJ42 / CSMN42",
+    "nepCode": "CSCMJ41",
     "oldCode": "BCS-503"
   },
   {
@@ -1206,7 +1206,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/CSB-503_DiscreteMathematicalStructure_SemV_2013-14_BSc.tex",
     "fileName": "CSB-503_DiscreteMathematicalStructure_SemV_2013-14_BSc.tex",
-    "nepCode": "CSMJ42 / CSMN42",
+    "nepCode": "CSCMJ41",
     "oldCode": "BCS-503"
   },
   {
@@ -1217,7 +1217,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/CSB-502_NetCentricComputing_SemV_2013-14_BSc.tex",
     "fileName": "CSB-502_NetCentricComputing_SemV_2013-14_BSc.tex",
-    "nepCode": "CSMJ61",
+    "nepCode": "CSCMJ63",
     "oldCode": "CS-109"
   },
   {
@@ -1228,7 +1228,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BCS-501_NetCentricComputing_SemV_2016-17_BSc.tex",
     "fileName": "BCS-501_NetCentricComputing_SemV_2016-17_BSc.tex",
-    "nepCode": "CSMJ61",
+    "nepCode": "CSCMJ63",
     "oldCode": "CS-109"
   },
   {
@@ -1239,7 +1239,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/CSB-501_ObjectOrientedProgrammingUsingC++_SemV_2013-14_BSc.tex",
     "fileName": "CSB-501_ObjectOrientedProgrammingUsingC++_SemV_2013-14_BSc.tex",
-    "nepCode": "CSMJ22 / CSMN22",
+    "nepCode": "CSCMJ32",
     "oldCode": "CSB-501"
   },
   {
@@ -1250,7 +1250,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/CSB-504_OperatingSystemConcepts_SemV_2013-14_BSc.tex",
     "fileName": "CSB-504_OperatingSystemConcepts_SemV_2013-14_BSc.tex",
-    "nepCode": "CSMJ51",
+    "nepCode": "CSCMJ51",
     "oldCode": "CS-106"
   },
   {
@@ -1261,7 +1261,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BCS-502_OperatingSystemConcepts_SemV_2016-17_BSc.tex",
     "fileName": "BCS-502_OperatingSystemConcepts_SemV_2016-17_BSc.tex",
-    "nepCode": "CSMJ51",
+    "nepCode": "CSCMJ51",
     "oldCode": "CS-106"
   },
   {
@@ -1272,7 +1272,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/CS-106_OperatingSystemConcepts_SemV_2022-23_BSc.tex",
     "fileName": "CS-106_OperatingSystemConcepts_SemV_2022-23_BSc.tex",
-    "nepCode": "CSMJ51",
+    "nepCode": "CSCMJ51",
     "oldCode": "CS-106"
   },
   {
@@ -1283,7 +1283,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BCS-504A_SystemAnalysisDesign_SemV_2016-17_BSc.tex",
     "fileName": "BCS-504A_SystemAnalysisDesign_SemV_2016-17_BSc.tex",
-    "nepCode": "CSMJ54",
+    "nepCode": "CSCMJ61",
     "oldCode": "BCS-504A"
   },
   {
@@ -1294,7 +1294,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/CSB-602_DataAndFileStructures_SemVI_2013-14_BSc.tex",
     "fileName": "CSB-602_DataAndFileStructures_SemVI_2013-14_BSc.tex",
-    "nepCode": "CSMJ53",
+    "nepCode": "CSCMJ21",
     "oldCode": "CS-108"
   },
   {
@@ -1305,7 +1305,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/CS-109_DataCommunication_SemVI_2022-23_BSc.tex",
     "fileName": "CS-109_DataCommunication_SemVI_2022-23_BSc.tex",
-    "nepCode": "CSMJ61",
+    "nepCode": "CSCMJ63",
     "oldCode": "CS-109"
   },
   {
@@ -1316,7 +1316,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/CSB-601_DatabaseManagementSystem_SemVI_2013-14_BSc.tex",
     "fileName": "CSB-601_DatabaseManagementSystem_SemVI_2013-14_BSc.tex",
-    "nepCode": "CSMJ52",
+    "nepCode": "CSCMJ42",
     "oldCode": "CS-107"
   },
   {
@@ -1327,7 +1327,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/CS-105_DiscreteMathematics_SemVI_2022-23_BSc.tex",
     "fileName": "CS-105_DiscreteMathematics_SemVI_2022-23_BSc.tex",
-    "nepCode": "CSMJ42 / CSMN42",
+    "nepCode": "CSCMJ41",
     "oldCode": "CS-105"
   },
   {
@@ -1338,7 +1338,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/CSB-604C_OperationResearch_SemVI_2013-14_BSc.tex",
     "fileName": "CSB-604C_OperationResearch_SemVI_2013-14_BSc.tex",
-    "nepCode": "CSMJ64",
+    "nepCode": "CSCMJ73",
     "oldCode": "CSB-604C"
   },
   {
@@ -1349,7 +1349,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/CSB-603A_SystemAnalysisAndDesign_SemVI_2013-14_BSc.tex",
     "fileName": "CSB-603A_SystemAnalysisAndDesign_SemVI_2013-14_BSc.tex",
-    "nepCode": "CSMJ54",
+    "nepCode": "CSCMJ61",
     "oldCode": "BCS-504A"
   },
   {
@@ -1371,7 +1371,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/GEN-301_DigitalLogicAndProcessors_SemIII_2022-23_BVoc.tex",
     "fileName": "GEN-301_DigitalLogicAndProcessors_SemIII_2022-23_BVoc.tex",
-    "nepCode": "CSCMJ3G1",
+    "nepCode": "CSCMJ31",
     "oldCode": "GEN-301"
   },
   {
@@ -1382,7 +1382,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/GEN-302_IntroductionToIoT_SemIII_2022-23_BVoc.tex",
     "fileName": "GEN-302_IntroductionToIoT_SemIII_2022-23_BVoc.tex",
-    "nepCode": "CSCMJ3G2",
+    "nepCode": "CSCMJ82",
     "oldCode": "GEN-302"
   },
   {
