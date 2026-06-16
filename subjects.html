@@ -2399,7 +2399,7 @@
     Object.keys(EXAMS).forEach(key => {
         const exam = EXAMS[key];
         if (!exam.title) return;
-        const isTargetDept = key.startsWith('mat') || key.startsWith('phy') || key.startsWith('chem') || key.startsWith('sta') || key.startsWith('ggr') || key.startsWith('bob') || key.startsWith('imb') || key.startsWith('zob') || key.startsWith('zob') || key.startsWith('zob');
+        const isTargetDept = key.startsWith('mat') || key.startsWith('phy') || key.startsWith('chem') || key.startsWith('sta') || key.startsWith('ggr') || key.startsWith('bob') || key.startsWith('imb') || key.startsWith('zob') || key.startsWith('csc');
         if (!isTargetDept) return;
         
         const normTitle = exam.title.toLowerCase().trim();
@@ -2575,9 +2575,8 @@
 
     // Derive a searchable department tag from key prefix
     function getDeptTag(key) {
+        if (key.startsWith('csc')) return 'computer science cs computerscience';
         if (key.startsWith('bob') || key.startsWith('imb')) return 'botany';
-        if (key.startsWith('zob')) return 'zoology';
-        if (key.startsWith('zob')) return 'zoology';
         if (key.startsWith('zob')) return 'zoology';
         if (key.startsWith('glb')) return 'geology';
         if (key.startsWith('ggr')) return 'geography';
@@ -2585,7 +2584,6 @@
         if (key.startsWith('phy')) return 'physics';
         if (key.startsWith('mat')) return 'mathematics maths';
         if (key.startsWith('sta')) return 'statistics';
-        if (key.startsWith('imb')) return 'microbiology industrial microbiology botany';
         return '';
     }
 
