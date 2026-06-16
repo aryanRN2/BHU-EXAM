@@ -121,298 +121,70 @@
             <p id="page-description" class="text-sm md:text-base text-secondary mt-3 leading-relaxed transition-all duration-300">Choose an academic institute below to access class notes, reference books, and presentation slides.</p>
         </div>
 
-        <!-- STEP 1: Select Institute -->
-        <div id="step-institute" class="w-full max-w-5xl">
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Institute of Science (Active) -->
-                <button onclick="selectInstitute('Science')" class="p-6 md:p-8 rounded-2xl border border-border-subtle bg-white/60 backdrop-blur-md hover:border-accent-bhu-saffron hover:bg-white transition-all duration-300 text-left flex flex-col justify-between min-h-[220px] group shadow-sm hover:shadow-md hover:scale-[1.02] active:scale-[0.98]">
-                    <div class="w-12 h-12 rounded-xl bg-accent-bhu-saffron/10 flex items-center justify-center text-accent-bhu-saffron group-hover:bg-accent-bhu-saffron group-hover:text-white transition-all duration-300">
-                        <span class="material-symbols-outlined text-2xl">science</span>
-                    </div>
-                    <div class="mt-6">
-                        <div class="flex items-center justify-between">
-                            <h3 class="font-bold text-lg text-primary group-hover:text-accent-bhu-saffron transition-colors">Institute of Science</h3>
-                            <span class="bg-emerald-500/10 text-emerald-600 text-[9px] font-bold px-2.5 py-0.5 rounded-full uppercase tracking-wider">Active</span>
-                        </div>
-                        <p class="text-xs text-secondary mt-2 leading-relaxed">Mathematics, Physics, Chemistry, Zoology, Botany, Geophysics...</p>
-                    </div>
-                </button>
-
-                <!-- Institute of Technology (IIT BHU) - Disabled -->
-                <div onclick="showToast('Institute of Technology notes are coming soon!')" class="p-6 md:p-8 rounded-2xl border border-border-subtle bg-white/30 backdrop-blur-md text-left flex flex-col justify-between min-h-[220px] shadow-sm opacity-80 cursor-pointer group hover:border-neutral-300 transition-colors">
-                    <div class="w-12 h-12 rounded-xl bg-accent-neural-blue/5 flex items-center justify-center text-accent-neural-blue/50 group-hover:bg-accent-neural-blue/10 transition-colors">
-                        <span class="material-symbols-outlined text-2xl">precision_manufacturing</span>
-                    </div>
-                    <div class="mt-6">
-                        <div class="flex items-center justify-between">
-                            <h3 class="font-bold text-lg text-primary/60">Institute of Technology</h3>
-                            <span class="bg-neutral-200/60 text-secondary text-[8px] font-bold px-2 py-0.5 rounded uppercase tracking-wider">Coming Soon</span>
-                        </div>
-                        <p class="text-xs text-secondary/60 mt-2 leading-relaxed">Computer Science, Mechanical, Electronics, Civil, Chemical engineering materials...</p>
+        <!-- Directory Explorer (Google Drive Style) -->
+        <div id="directory-explorer" class="w-full max-w-5xl bg-white/40 backdrop-blur-md border border-border-subtle rounded-2xl p-5 md:p-6 shadow-sm flex flex-col gap-5 relative z-10 transition-all duration-300">
+            
+            <!-- Explorer Toolbar -->
+            <div class="flex flex-col sm:flex-row justify-between items-stretch sm:items-center gap-4 border-b border-border-subtle pb-4">
+                <!-- Back Button & Current Folder Details -->
+                <div class="flex items-center gap-3">
+                    <button onclick="navigateUp()" id="back-btn" class="w-9 h-9 rounded-full border border-border-subtle bg-white/80 hover:bg-neutral-100 flex items-center justify-center text-secondary hover:text-primary transition-all shrink-0 disabled:opacity-40 disabled:hover:bg-white/80 disabled:cursor-not-allowed" title="Go Back">
+                        <span class="material-symbols-outlined text-lg">arrow_back</span>
+                    </button>
+                    <div>
+                        <h2 id="explorer-title" class="text-base font-bold text-primary leading-tight">Select Institute</h2>
+                        <p id="explorer-count" class="text-[10px] text-secondary mt-0.5">5 folders, 0 files</p>
                     </div>
                 </div>
-
-                <!-- Institute of Medical Sciences (IMS) - Disabled -->
-                <div onclick="showToast('Medical Sciences library notes are coming soon!')" class="p-6 md:p-8 rounded-2xl border border-border-subtle bg-white/30 backdrop-blur-md text-left flex flex-col justify-between min-h-[220px] shadow-sm opacity-80 cursor-pointer group hover:border-neutral-300 transition-colors">
-                    <div class="w-12 h-12 rounded-xl bg-red-500/5 flex items-center justify-center text-red-500/50 group-hover:bg-red-500/10 transition-colors">
-                        <span class="material-symbols-outlined text-2xl">medical_services</span>
-                    </div>
-                    <div class="mt-6">
-                        <div class="flex items-center justify-between">
-                            <h3 class="font-bold text-lg text-primary/60">Institute of Medical Sciences</h3>
-                            <span class="bg-neutral-200/60 text-secondary text-[8px] font-bold px-2 py-0.5 rounded uppercase tracking-wider">Coming Soon</span>
-                        </div>
-                        <p class="text-xs text-secondary/60 mt-2 leading-relaxed">Anatomy, Physiology, Biochemistry, Pathology, Pharmacology lectures...</p>
+                
+                <!-- Search -->
+                <div class="flex items-center gap-3 flex-1 sm:justify-end">
+                    <div class="relative w-full max-w-xs">
+                        <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-secondary/60 text-sm">search</span>
+                        <input type="text" id="explorer-search" oninput="handleSearch(this.value)" placeholder="Search in this folder..." class="w-full pl-9 pr-4 py-2 border border-border-subtle rounded-xl bg-white/80 text-xs text-primary placeholder:text-secondary/60 focus:outline-none focus:ring-1 focus:ring-accent-bhu-saffron focus:border-accent-bhu-saffron transition-all"/>
                     </div>
                 </div>
+            </div>
 
-                <!-- Commerce - Disabled -->
-                <div onclick="showToast('Commerce syllabus and class notes are coming soon!')" class="p-6 md:p-8 rounded-2xl border border-border-subtle bg-white/30 backdrop-blur-md text-left flex flex-col justify-between min-h-[220px] shadow-sm opacity-80 cursor-pointer group hover:border-neutral-300 transition-colors">
-                    <div class="w-12 h-12 rounded-xl bg-accent-neural-purple/5 flex items-center justify-center text-accent-neural-purple/50 group-hover:bg-accent-neural-purple/10 transition-colors">
-                        <span class="material-symbols-outlined text-2xl">payments</span>
-                    </div>
-                    <div class="mt-6">
-                        <div class="flex items-center justify-between">
-                            <h3 class="font-bold text-lg text-primary/60">Commerce & Management</h3>
-                            <span class="bg-neutral-200/60 text-secondary text-[8px] font-bold px-2 py-0.5 rounded uppercase tracking-wider">Coming Soon</span>
-                        </div>
-                        <p class="text-xs text-secondary/60 mt-2 leading-relaxed">Accounting, Business Studies, Statistics, Auditing, Corporate Law lectures...</p>
-                    </div>
+            <!-- Folders Grid Section -->
+            <div id="folders-section" class="flex flex-col gap-3">
+                <h3 class="text-[10px] font-bold text-secondary uppercase tracking-wider">Folders</h3>
+                <div id="folders-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                    <!-- Dynamically populated -->
                 </div>
+            </div>
 
-                <!-- Arts - Disabled -->
-                <div onclick="showToast('Arts and Humanities notes are coming soon!')" class="p-6 md:p-8 rounded-2xl border border-border-subtle bg-white/30 backdrop-blur-md text-left flex flex-col justify-between min-h-[220px] shadow-sm opacity-80 cursor-pointer group hover:border-neutral-300 transition-colors">
-                    <div class="w-12 h-12 rounded-xl bg-amber-600/5 flex items-center justify-center text-amber-600/50 group-hover:bg-amber-600/10 transition-colors">
-                        <span class="material-symbols-outlined text-2xl">palette</span>
-                    </div>
-                    <div class="mt-6">
-                        <div class="flex items-center justify-between">
-                            <h3 class="font-bold text-lg text-primary/60">Faculty of Arts</h3>
-                            <span class="bg-neutral-200/60 text-secondary text-[8px] font-bold px-2 py-0.5 rounded uppercase tracking-wider">Coming Soon</span>
-                        </div>
-                        <p class="text-xs text-secondary/60 mt-2 leading-relaxed">Literature, Philosophy, Linguistics, History, Sociology, Political Science...</p>
-                    </div>
+            <!-- Files List Section -->
+            <div id="files-section" class="flex flex-col gap-3">
+                <div class="flex items-center justify-between">
+                    <h3 class="text-[10px] font-bold text-secondary uppercase tracking-wider">Files</h3>
                 </div>
+                
+                <!-- Desktop Header -->
+                <div class="hidden sm:grid grid-cols-12 gap-4 px-4 py-2 text-[10px] font-bold text-secondary uppercase tracking-wider border-b border-border-subtle bg-neutral-50/50 rounded-lg">
+                    <div class="col-span-6">Name</div>
+                    <div class="col-span-3">Subject Code</div>
+                    <div class="col-span-1 text-center">Size</div>
+                    <div class="col-span-2 text-right">Actions</div>
+                </div>
+                
+                <!-- Files Container -->
+                <div id="files-container" class="flex flex-col gap-2">
+                    <!-- Dynamically populated -->
+                </div>
+            </div>
+            
+            <!-- Empty State -->
+            <div id="empty-state" class="hidden flex-col items-center justify-center py-16 text-center">
+                <span class="material-symbols-outlined text-secondary/30 text-5xl mb-3">folder_open</span>
+                <p class="text-xs text-secondary font-semibold">No folders or files found</p>
+                <p class="text-[10px] text-secondary/70 mt-1">Try refining your search query</p>
             </div>
         </div>
 
-        <!-- STEP 2: Select Department (Science Division) -->
-        <div id="step-department" class="w-full max-w-5xl hidden">
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Mathematics (Active) -->
-                <button onclick="selectDepartment('Mathematics')" class="p-5 md:p-6 rounded-xl border border-border-subtle bg-white/60 backdrop-blur-md hover:border-accent-bhu-saffron hover:bg-white transition-all duration-300 text-left flex items-center gap-5 group shadow-sm hover:shadow-md hover:scale-[1.01] active:scale-[0.99]">
-                    <div class="w-12 h-12 rounded-lg bg-accent-bhu-saffron/10 flex items-center justify-center text-accent-bhu-saffron group-hover:bg-accent-bhu-saffron group-hover:text-white transition-all duration-300 shrink-0">
-                        <span class="material-symbols-outlined text-2xl">calculate</span>
-                    </div>
-                    <div class="flex-grow">
-                        <div class="flex items-center justify-between">
-                            <h3 class="font-bold text-base text-primary group-hover:text-accent-bhu-saffron transition-colors">Mathematics</h3>
-                            <span class="bg-emerald-500/10 text-emerald-600 text-[8px] font-bold px-2 py-0.5 rounded uppercase tracking-wider shrink-0">Active</span>
-                        </div>
-                        <p class="text-[11px] text-secondary mt-0.5">Calculus, Diff Equations, Vector & Tensor, Mechanics...</p>
-                    </div>
-                </button>
-
-                <!-- Physics - Disabled -->
-                <div onclick="showToast('Physics lecture notes are coming soon!')" class="p-5 md:p-6 rounded-xl border border-border-subtle bg-white/30 backdrop-blur-md text-left flex items-center gap-5 shadow-sm opacity-85 cursor-pointer group hover:border-neutral-300 transition-colors">
-                    <div class="w-12 h-12 rounded-lg bg-accent-neural-purple/5 flex items-center justify-center text-accent-neural-purple/50 shrink-0">
-                        <span class="material-symbols-outlined text-2xl">insights</span>
-                    </div>
-                    <div class="flex-grow">
-                        <div class="flex items-center justify-between">
-                            <h3 class="font-bold text-base text-primary/60">Physics</h3>
-                            <span class="bg-neutral-200/60 text-secondary text-[8px] font-bold px-2 py-0.5 rounded uppercase tracking-wider shrink-0">Soon</span>
-                        </div>
-                        <p class="text-[11px] text-secondary/60 mt-0.5">Quantum, Electromagnetism, Optics, Thermodynamics...</p>
-                    </div>
-                </div>
-
-                <!-- Chemistry - Disabled -->
-                <div onclick="showToast('Chemistry lecture notes are coming soon!')" class="p-5 md:p-6 rounded-xl border border-border-subtle bg-white/30 backdrop-blur-md text-left flex items-center gap-5 shadow-sm opacity-85 cursor-pointer group hover:border-neutral-300 transition-colors">
-                    <div class="w-12 h-12 rounded-lg bg-accent-neural-blue/5 flex items-center justify-center text-accent-neural-blue/50 shrink-0">
-                        <span class="material-symbols-outlined text-2xl">science</span>
-                    </div>
-                    <div class="flex-grow">
-                        <div class="flex items-center justify-between">
-                            <h3 class="font-bold text-base text-primary/60">Chemistry</h3>
-                            <span class="bg-neutral-200/60 text-secondary text-[8px] font-bold px-2 py-0.5 rounded uppercase tracking-wider shrink-0">Soon</span>
-                        </div>
-                        <p class="text-[11px] text-secondary/60 mt-0.5">Organic mechanisms, Inorganic structures, Physical...</p>
-                    </div>
-                </div>
-
-                <!-- Botany - Disabled -->
-                <div onclick="showToast('Botany notes are coming soon!')" class="p-5 md:p-6 rounded-xl border border-border-subtle bg-white/30 backdrop-blur-md text-left flex items-center gap-5 shadow-sm opacity-85 cursor-pointer group hover:border-neutral-300 transition-colors">
-                    <div class="w-12 h-12 rounded-lg bg-accent-neural-emerald/5 flex items-center justify-center text-accent-neural-emerald/50 shrink-0">
-                        <span class="material-symbols-outlined text-2xl">eco</span>
-                    </div>
-                    <div class="flex-grow">
-                        <div class="flex items-center justify-between">
-                            <h3 class="font-bold text-base text-primary/60">Botany</h3>
-                            <span class="bg-neutral-200/60 text-secondary text-[8px] font-bold px-2 py-0.5 rounded uppercase tracking-wider shrink-0">Soon</span>
-                        </div>
-                        <p class="text-[11px] text-secondary/60 mt-0.5">Plant water relations, anatomy, cell biology, genetics...</p>
-                    </div>
-                </div>
-
-                <!-- Zoology - Disabled -->
-                <div onclick="showToast('Zoology lecture notes are coming soon!')" class="p-5 md:p-6 rounded-xl border border-border-subtle bg-white/30 backdrop-blur-md text-left flex items-center gap-5 shadow-sm opacity-85 cursor-pointer group hover:border-neutral-300 transition-colors">
-                    <div class="w-12 h-12 rounded-lg bg-red-500/5 flex items-center justify-center text-red-500/50 shrink-0">
-                        <span class="material-symbols-outlined text-2xl">pets</span>
-                    </div>
-                    <div class="flex-grow">
-                        <div class="flex items-center justify-between">
-                            <h3 class="font-bold text-base text-primary/60">Zoology</h3>
-                            <span class="bg-neutral-200/60 text-secondary text-[8px] font-bold px-2 py-0.5 rounded uppercase tracking-wider shrink-0">Soon</span>
-                        </div>
-                        <p class="text-[11px] text-secondary/60 mt-0.5">Animal physiology, developmental biology, ecology...</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- STEP 3: Semester & Lecture Notes -->
-        <div id="step-notes" class="w-full max-w-5xl hidden">
-            <!-- Semester Selectors -->
-            <div class="flex items-center gap-2 overflow-x-auto pb-4 mb-8 scrollbar-none border-b border-border-subtle w-full">
-                <button onclick="showToast('Semester I notes are coming soon!')" class="px-4 py-2 text-xs font-bold rounded-full border border-border-subtle bg-white/60 text-secondary hover:bg-neutral-100 transition-all shrink-0">Semester I</button>
-                <button onclick="showToast('Semester II notes are coming soon!')" class="px-4 py-2 text-xs font-bold rounded-full border border-border-subtle bg-white/60 text-secondary hover:bg-neutral-100 transition-all shrink-0">Semester II</button>
-                <button onclick="showToast('Semester III notes are coming soon!')" class="px-4 py-2 text-xs font-bold rounded-full border border-border-subtle bg-white/60 text-secondary hover:bg-neutral-100 transition-all shrink-0">Semester III</button>
-                <button class="px-5 py-2 text-xs font-bold rounded-full border border-accent-bhu-saffron bg-accent-bhu-saffron text-white transition-all shrink-0 shadow-sm shadow-accent-bhu-saffron/20">Semester IV</button>
-                <button onclick="showToast('Semester V notes are coming soon!')" class="px-4 py-2 text-xs font-bold rounded-full border border-border-subtle bg-white/60 text-secondary hover:bg-neutral-100 transition-all shrink-0">Semester V</button>
-                <button onclick="showToast('Semester VI notes are coming soon!')" class="px-4 py-2 text-xs font-bold rounded-full border border-border-subtle bg-white/60 text-secondary hover:bg-neutral-100 transition-all shrink-0">Semester VI</button>
-                <button onclick="showToast('Semester VII notes are coming soon!')" class="px-4 py-2 text-xs font-bold rounded-full border border-border-subtle bg-white/60 text-secondary hover:bg-neutral-100 transition-all shrink-0">Semester VII</button>
-                <button onclick="showToast('Semester VIII notes are coming soon!')" class="px-4 py-2 text-xs font-bold rounded-full border border-border-subtle bg-white/60 text-secondary hover:bg-neutral-100 transition-all shrink-0">Semester VIII</button>
-            </div>
-
-            <!-- Notes Cards Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
-                <!-- Course 1: MATMJ41 -->
-                <div class="p-6 rounded-2xl border border-border-subtle bg-white/60 backdrop-blur-md flex flex-col justify-between min-h-[200px] hover:border-accent-bhu-saffron/40 hover:bg-white transition-all duration-300 group shadow-sm">
-                    <div>
-                        <div class="flex items-start justify-between">
-                            <span class="bg-accent-bhu-saffron/10 text-accent-bhu-saffron text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">MATMJ41 (Major)</span>
-                            <span class="flex items-center gap-1 text-[10px] font-semibold text-secondary bg-neutral-100 px-2 py-1 rounded-full">
-                                <span class="material-symbols-outlined text-[12px] fill">picture_as_pdf</span>
-                                43.9 MB
-                            </span>
-                        </div>
-                        <h3 class="font-bold text-lg text-primary mt-4 group-hover:text-accent-bhu-saffron transition-colors">Several Variable Calculus</h3>
-                        <p class="text-xs text-secondary mt-2 leading-relaxed">KM Sir class notes covering limits, continuity, differentiability of functions of several variables, multiple integrals, and Stokes/Green's/Divergence theorems.</p>
-                    </div>
-                    <div class="mt-6 flex gap-3">
-                        <a href="/api/download-pdf?file=NOTES/MATHS/SEMESTER%204/KM%20Sir%20class%20notes.pdf" target="_blank" class="flex-1 text-center bg-primary text-white py-2.5 rounded-xl font-bold text-xs hover:bg-neutral-800 transition-all active:scale-[0.98] flex items-center justify-center gap-2">
-                            <span class="material-symbols-outlined text-sm">visibility</span>
-                            View Notes
-                        </a>
-                        <a href="/api/download-pdf?file=NOTES/MATHS/SEMESTER%204/KM%20Sir%20class%20notes.pdf" download="MATMJ41_Several_Variable_Calculus.pdf" class="px-4 bg-neutral-100 text-secondary py-2.5 rounded-xl font-bold text-xs hover:bg-neutral-200 hover:text-primary transition-all active:scale-[0.98] flex items-center justify-center" title="Download">
-                            <span class="material-symbols-outlined text-sm">download</span>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Course 2: MATMJ42 -->
-                <div class="p-6 rounded-2xl border border-border-subtle bg-white/60 backdrop-blur-md flex flex-col justify-between min-h-[200px] hover:border-accent-bhu-saffron/40 hover:bg-white transition-all duration-300 group shadow-sm">
-                    <div>
-                        <div class="flex items-start justify-between">
-                            <span class="bg-accent-bhu-saffron/10 text-accent-bhu-saffron text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">MATMJ42 (Major)</span>
-                            <span class="flex items-center gap-1 text-[10px] font-semibold text-secondary bg-neutral-100 px-2 py-1 rounded-full">
-                                <span class="material-symbols-outlined text-[12px] fill">picture_as_pdf</span>
-                                27.2 MB
-                            </span>
-                        </div>
-                        <h3 class="font-bold text-lg text-primary mt-4 group-hover:text-accent-bhu-saffron transition-colors">Vector and Tensor Analysis</h3>
-                        <p class="text-xs text-secondary mt-2 leading-relaxed">Lecture notes covering vector differentiation, vector integrations, curvilinear coordinates, and an introduction to Cartesian tensors and tensor fields.</p>
-                    </div>
-                    <div class="mt-6 flex gap-3">
-                        <a href="/api/download-pdf?file=NOTES/MATHS/SEMESTER%204/Vector%20and%20Tensor%20Analysis%20notes.pdf" target="_blank" class="flex-1 text-center bg-primary text-white py-2.5 rounded-xl font-bold text-xs hover:bg-neutral-800 transition-all active:scale-[0.98] flex items-center justify-center gap-2">
-                            <span class="material-symbols-outlined text-sm">visibility</span>
-                            View Notes
-                        </a>
-                        <a href="/api/download-pdf?file=NOTES/MATHS/SEMESTER%204/Vector%20and%20Tensor%20Analysis%20notes.pdf" download="MATMJ42_Vector_Tensor_Analysis.pdf" class="px-4 bg-neutral-100 text-secondary py-2.5 rounded-xl font-bold text-xs hover:bg-neutral-200 hover:text-primary transition-all active:scale-[0.98] flex items-center justify-center" title="Download">
-                            <span class="material-symbols-outlined text-sm">download</span>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Course 3: MATMJ43 -->
-                <div class="p-6 rounded-2xl border border-border-subtle bg-white/60 backdrop-blur-md flex flex-col justify-between min-h-[200px] hover:border-accent-bhu-saffron/40 hover:bg-white transition-all duration-300 group shadow-sm">
-                    <div>
-                        <div class="flex items-start justify-between">
-                            <span class="bg-accent-bhu-saffron/10 text-accent-bhu-saffron text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">MATMJ43 (Major)</span>
-                            <span class="flex items-center gap-1 text-[10px] font-semibold text-secondary bg-neutral-100 px-2 py-1 rounded-full">
-                                <span class="material-symbols-outlined text-[12px] fill">picture_as_pdf</span>
-                                37.9 MB
-                            </span>
-                        </div>
-                        <h3 class="font-bold text-lg text-primary mt-4 group-hover:text-accent-bhu-saffron transition-colors">Differential Equations (Major)</h3>
-                        <p class="text-xs text-secondary mt-2 leading-relaxed">Official lecture series notes for Ordinary Differential Equations (ODEs) and Partial Differential Equations (PDEs), including power series solutions and boundary value problems.</p>
-                    </div>
-                    <div class="mt-6 flex gap-3">
-                        <a href="/api/download-pdf?file=NOTES/MATHS/SEMESTER%204/Differential%20equation%20notes.pdf" target="_blank" class="flex-1 text-center bg-primary text-white py-2.5 rounded-xl font-bold text-xs hover:bg-neutral-800 transition-all active:scale-[0.98] flex items-center justify-center gap-2">
-                            <span class="material-symbols-outlined text-sm">visibility</span>
-                            View Notes
-                        </a>
-                        <a href="/api/download-pdf?file=NOTES/MATHS/SEMESTER%204/Differential%20equation%20notes.pdf" download="MATMJ43_Differential_Equations.pdf" class="px-4 bg-neutral-100 text-secondary py-2.5 rounded-xl font-bold text-xs hover:bg-neutral-200 hover:text-primary transition-all active:scale-[0.98] flex items-center justify-center" title="Download">
-                            <span class="material-symbols-outlined text-sm">download</span>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Course 4: Mechanics -->
-                <div class="p-6 rounded-2xl border border-border-subtle bg-white/60 backdrop-blur-md flex flex-col justify-between min-h-[200px] hover:border-accent-bhu-saffron/40 hover:bg-white transition-all duration-300 group shadow-sm">
-                    <div>
-                        <div class="flex items-start justify-between">
-                            <span class="bg-accent-bhu-saffron/10 text-accent-bhu-saffron text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Mechanics</span>
-                            <span class="flex items-center gap-1 text-[10px] font-semibold text-secondary bg-neutral-100 px-2 py-1 rounded-full">
-                                <span class="material-symbols-outlined text-[12px] fill">picture_as_pdf</span>
-                                30.7 MB
-                            </span>
-                        </div>
-                        <h3 class="font-bold text-lg text-primary mt-4 group-hover:text-accent-bhu-saffron transition-colors">Dynamics & Statics</h3>
-                        <p class="text-xs text-secondary mt-2 leading-relaxed">Comprehensive study notes on forces in three dimensions, virtual work, stable and unstable equilibrium, common catenary, rectinlinear motion, and central orbits.</p>
-                    </div>
-                    <div class="mt-6 flex gap-3">
-                        <!-- Note the exact path format with the space before .pdf -->
-                        <a href="/api/download-pdf?file=NOTES/MATHS/SEMESTER%204/MECHANICS%20class%20notes%20.pdf" target="_blank" class="flex-1 text-center bg-primary text-white py-2.5 rounded-xl font-bold text-xs hover:bg-neutral-800 transition-all active:scale-[0.98] flex items-center justify-center gap-2">
-                            <span class="material-symbols-outlined text-sm">visibility</span>
-                            View Notes
-                        </a>
-                        <a href="/api/download-pdf?file=NOTES/MATHS/SEMESTER%204/MECHANICS%20class%20notes%20.pdf" download="Mechanics_Class_Notes.pdf" class="px-4 bg-neutral-100 text-secondary py-2.5 rounded-xl font-bold text-xs hover:bg-neutral-200 hover:text-primary transition-all active:scale-[0.98] flex items-center justify-center" title="Download">
-                            <span class="material-symbols-outlined text-sm">download</span>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Course 5: MATMN41 -->
-                <div class="p-6 rounded-2xl border border-border-subtle bg-white/60 backdrop-blur-md flex flex-col justify-between min-h-[200px] hover:border-accent-bhu-saffron/40 hover:bg-white transition-all duration-300 group shadow-sm">
-                    <div>
-                        <div class="flex items-start justify-between">
-                            <span class="bg-accent-bhu-saffron/10 text-accent-bhu-saffron text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">MATMN41 (Minor)</span>
-                            <span class="flex items-center gap-1 text-[10px] font-semibold text-secondary bg-neutral-100 px-2 py-1 rounded-full">
-                                <span class="material-symbols-outlined text-[12px] fill">picture_as_pdf</span>
-                                37.9 MB
-                            </span>
-                        </div>
-                        <h3 class="font-bold text-lg text-primary mt-4 group-hover:text-accent-bhu-saffron transition-colors">Differential Equations (Minor)</h3>
-                        <p class="text-xs text-secondary mt-2 leading-relaxed">Lecture notes matching the Minor stream syllabus, detailing ordinary differential equations, orthogonal trajectories, Laplace transforms, and basic PDEs.</p>
-                    </div>
-                    <div class="mt-6 flex gap-3">
-                        <a href="/api/download-pdf?file=NOTES/MATHS/SEMESTER%204/Differential%20equation%20notes.pdf" target="_blank" class="flex-1 text-center bg-primary text-white py-2.5 rounded-xl font-bold text-xs hover:bg-neutral-800 transition-all active:scale-[0.98] flex items-center justify-center gap-2">
-                            <span class="material-symbols-outlined text-sm">visibility</span>
-                            View Notes
-                        </a>
-                        <a href="/api/download-pdf?file=NOTES/MATHS/SEMESTER%204/Differential%20equation%20notes.pdf" download="MATMN41_Differential_Equations_Minor.pdf" class="px-4 bg-neutral-100 text-secondary py-2.5 rounded-xl font-bold text-xs hover:bg-neutral-200 hover:text-primary transition-all active:scale-[0.98] flex items-center justify-center" title="Download">
-                            <span class="material-symbols-outlined text-sm">download</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!-- Toast Notification Container -->
+        <div id="toast-container" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex flex-col gap-2 max-w-sm pointer-events-none"></div>
     </div>
-
-    <!-- Toast Notification Container -->
-    <div id="toast-container" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex flex-col gap-2 max-w-sm pointer-events-none"></div>
 </main>
 
 <!-- Footer -->
@@ -433,109 +205,540 @@
 </footer>
 
 <script>
-    // State management: Step tracking
-    let currentStep = 1;
-    let selectedInst = "";
-    let selectedDept = "";
-
-    const steps = {
-        1: {
-            id: 'step-institute',
-            title: 'Select Institute',
-            desc: 'Choose an academic institute below to access class notes, reference books, and presentation slides.',
-            badge: 'Reference Library',
-            breadcrumbs: `<span class="text-primary font-semibold">Select Institute</span>`
-        },
-        2: {
-            id: 'step-department',
-            title: 'Select Department',
-            desc: 'Pick a science department below to view its semester-wise lecture notes and references.',
-            badge: 'Science Division',
-            breadcrumbs: `<a href="#" onclick="transitionToStep(1, 'backward'); return false;" class="hover:text-primary transition-colors">Select Institute</a>
-                          <span class="material-symbols-outlined text-xs shrink-0 select-none text-secondary/40">chevron_right</span>
-                          <span class="text-primary font-semibold">Science</span>`
-        },
-        3: {
-            id: 'step-notes',
-            title: 'Mathematics notes',
-            desc: 'Access classroom notes compiled from lectures by Banaras Hindu University faculties.',
-            badge: 'Mathematics Division',
-            breadcrumbs: `<a href="#" onclick="transitionToStep(1, 'backward'); return false;" class="hover:text-primary transition-colors">Select Institute</a>
-                          <span class="material-symbols-outlined text-xs shrink-0 select-none text-secondary/40">chevron_right</span>
-                          <a href="#" onclick="transitionToStep(2, 'backward'); return false;" class="hover:text-primary transition-colors">Science</a>
-                          <span class="material-symbols-outlined text-xs shrink-0 select-none text-secondary/40">chevron_right</span>
-                          <span class="text-primary font-semibold">Mathematics Notes</span>`
+    // Directory structure & data for the document explorer
+    const DIRECTORY_DATA = {
+        name: "Root",
+        type: "folder",
+        children: {
+            "science": {
+                name: "Institute of Science",
+                type: "folder",
+                icon: "science",
+                color: "text-accent-bhu-saffron",
+                bg: "bg-accent-bhu-saffron/10",
+                badgeBorder: "border-accent-bhu-saffron/20",
+                badgeBg: "bg-accent-bhu-saffron/10",
+                description: "Mathematics, Physics, Chemistry, Zoology, Botany, Geophysics...",
+                status: "Active",
+                children: {
+                    "mathematics": {
+                        name: "Mathematics",
+                        type: "folder",
+                        icon: "calculate",
+                        color: "text-accent-bhu-saffron",
+                        bg: "bg-accent-bhu-saffron/10",
+                        badgeBorder: "border-accent-bhu-saffron/20",
+                        badgeBg: "bg-accent-bhu-saffron/10",
+                        description: "Calculus, Differential Equations, Vector & Tensor, Mechanics...",
+                        status: "Active",
+                        children: {
+                            "sem1": { name: "Semester I", type: "folder", icon: "folder", status: "Coming Soon" },
+                            "sem2": { name: "Semester II", type: "folder", icon: "folder", status: "Coming Soon" },
+                            "sem3": { name: "Semester III", type: "folder", icon: "folder", status: "Coming Soon" },
+                            "sem4": {
+                                name: "Semester IV",
+                                type: "folder",
+                                icon: "folder",
+                                status: "Active",
+                                children: {
+                                    "calculus": {
+                                        name: "Several Variable Calculus - KM Sir Class Notes - Notes by Himanshu",
+                                        type: "file",
+                                        code: "MATMJ41 (Major)",
+                                        size: "43.9 MB",
+                                        format: "pdf",
+                                        description: "KM Sir class notes covering limits, continuity, differentiability of functions of several variables, multiple integrals, and Stokes/Green\'s/Divergence theorems.",
+                                        path: "NOTES/MATHS/SEMESTER 4/KM Sir class notes.pdf",
+                                        downloadName: "MATMJ41_Several_Variable_Calculus.pdf"
+                                    },
+                                    "vector": {
+                                        name: "Vector and Tensor Analysis - Notes by Himanshu",
+                                        type: "file",
+                                        code: "MATMJ42 (Major)",
+                                        size: "27.2 MB",
+                                        format: "pdf",
+                                        description: "Lecture notes covering vector differentiation, vector integrations, curvilinear coordinates, and an introduction to Cartesian tensors and tensor fields.",
+                                        path: "NOTES/MATHS/SEMESTER 4/Vector and Tensor Analysis notes.pdf",
+                                        downloadName: "MATMJ42_Vector_Tensor_Analysis.pdf"
+                                    },
+                                    "diff_eq_major": {
+                                        name: "Differential Equations (Major) - Notes by Himanshu",
+                                        type: "file",
+                                        code: "MATMJ43 (Major)",
+                                        size: "37.9 MB",
+                                        format: "pdf",
+                                        description: "Official lecture series notes for Ordinary Differential Equations (ODEs) and Partial Differential Equations (PDEs), including power series solutions and boundary value problems.",
+                                        path: "NOTES/MATHS/SEMESTER 4/Differential equation notes.pdf",
+                                        downloadName: "MATMJ43_Differential_Equations.pdf"
+                                    },
+                                    "mechanics": {
+                                        name: "Dynamics & Statics (Mechanics Class Notes) - Notes by Himanshu",
+                                        type: "file",
+                                        code: "Mechanics",
+                                        size: "30.7 MB",
+                                        format: "pdf",
+                                        description: "Comprehensive study notes on forces in three dimensions, virtual work, stable and unstable equilibrium, common catenary, rectilinear motion, and central orbits.",
+                                        path: "NOTES/MATHS/SEMESTER 4/MECHANICS class notes .pdf",
+                                        downloadName: "Mechanics_Class_Notes.pdf"
+                                    },
+                                    "diff_eq_minor": {
+                                        name: "Differential Equations (Minor) - Notes by Himanshu",
+                                        type: "file",
+                                        code: "MATMN41 (Minor)",
+                                        size: "37.9 MB",
+                                        format: "pdf",
+                                        description: "Lecture notes matching the Minor stream syllabus, detailing ordinary differential equations, orthogonal trajectories, Laplace transforms, and basic PDEs.",
+                                        path: "NOTES/MATHS/SEMESTER 4/Differential equation notes.pdf",
+                                        downloadName: "MATMN41_Differential_Equations_Minor.pdf"
+                                    }
+                                }
+                            },
+                            "sem5": { name: "Semester V", type: "folder", icon: "folder", status: "Coming Soon" },
+                            "sem6": { name: "Semester VI", type: "folder", icon: "folder", status: "Coming Soon" },
+                            "sem7": { name: "Semester VII", type: "folder", icon: "folder", status: "Coming Soon" },
+                            "sem8": { name: "Semester VIII", type: "folder", icon: "folder", status: "Coming Soon" }
+                        }
+                    },
+                    "physics": { name: "Physics", type: "folder", icon: "insights", status: "Coming Soon", description: "Quantum, Electromagnetism, Optics, Thermodynamics..." },
+                    "chemistry": {
+                        name: "Chemistry",
+                        type: "folder",
+                        icon: "science",
+                        color: "text-accent-bhu-saffron",
+                        bg: "bg-accent-bhu-saffron/10",
+                        badgeBorder: "border-accent-bhu-saffron/20",
+                        badgeBg: "bg-accent-bhu-saffron/10",
+                        description: "Organic mechanisms, Inorganic structures, Physical...",
+                        status: "Active",
+                        children: {
+                            "sem1": { name: "Semester I", type: "folder", icon: "folder", status: "Coming Soon" },
+                            "sem2": { name: "Semester II", type: "folder", icon: "folder", status: "Coming Soon" },
+                            "sem3": { name: "Semester III", type: "folder", icon: "folder", status: "Coming Soon" },
+                            "sem4": {
+                                name: "Semester IV",
+                                type: "folder",
+                                icon: "folder",
+                                status: "Active",
+                                children: {
+                                    "organic": {
+                                        name: "Organic Chemistry - Notes by Pintu",
+                                        type: "file",
+                                        code: "CHEMJ42 (Major)",
+                                        size: "36.0 MB",
+                                        format: "pdf",
+                                        description: "Lecture notes covering organic chemistry topics under CHEMJ42.",
+                                        path: "NOTES/CHEMISTRY/SEMESTER 4/organic chemistry notes.pdf",
+                                        downloadName: "CHEMJ42_Organic_Chemistry.pdf"
+                                    },
+                                    "physical": {
+                                        name: "Physical Chemistry - Notes by Pintu",
+                                        type: "file",
+                                        code: "CHEMJ43 (Major)",
+                                        size: "25.0 MB",
+                                        format: "pdf",
+                                        description: "Lecture notes covering physical chemistry topics under CHEMJ43.",
+                                        path: "NOTES/CHEMISTRY/SEMESTER 4/physical chemistry notes.pdf",
+                                        downloadName: "CHEMJ43_Physical_Chemistry.pdf"
+                                    },
+                                    "physical_lab": {
+                                        name: "Physical Lab - Notes by Pintu",
+                                        type: "file",
+                                        code: "CHEMJ45 (Major)",
+                                        size: "64.0 MB",
+                                        format: "pdf",
+                                        description: "Practical notes and lab records for physical chemistry lab under CHEMJ45.",
+                                        path: "NOTES/CHEMISTRY/SEMESTER 4/physical lab notes.pdf",
+                                        downloadName: "CHEMJ45_Physical_Lab.pdf"
+                                    },
+                                    "organic_inorganic_lab": {
+                                        name: "Organic and Inorganic Lab - Notes by Pintu",
+                                        type: "file",
+                                        code: "CHEMJ46 (Major)",
+                                        size: "45.0 MB",
+                                        format: "pdf",
+                                        description: "Practical notes and lab records for organic and inorganic chemistry lab under CHEMJ46.",
+                                        path: "NOTES/CHEMISTRY/SEMESTER 4/organic and inorganic lab notes.pdf",
+                                        downloadName: "CHEMJ46_Organic_Inorganic_Lab.pdf"
+                                    }
+                                }
+                            },
+                            "sem5": { name: "Semester V", type: "folder", icon: "folder", status: "Coming Soon" },
+                            "sem6": { name: "Semester VI", type: "folder", icon: "folder", status: "Coming Soon" },
+                            "sem7": { name: "Semester VII", type: "folder", icon: "folder", status: "Coming Soon" },
+                            "sem8": { name: "Semester VIII", type: "folder", icon: "folder", status: "Coming Soon" }
+                        }
+                    },
+                    "botany": { name: "Botany", type: "folder", icon: "eco", status: "Coming Soon", description: "Plant water relations, anatomy, cell biology, genetics..." },
+                    "zoology": { name: "Zoology", type: "folder", icon: "pets", status: "Coming Soon", description: "Animal physiology, developmental biology, ecology..." }
+                }
+            },
+            "technology": {
+                name: "Institute of Technology",
+                type: "folder",
+                icon: "precision_manufacturing",
+                color: "text-accent-neural-blue",
+                bg: "bg-accent-neural-blue/10",
+                badgeBorder: "border-accent-neural-blue/20",
+                badgeBg: "bg-accent-neural-blue/10",
+                description: "Computer Science, Mechanical, Electronics, Civil, Chemical engineering materials...",
+                status: "Coming Soon"
+            },
+            "medical": {
+                name: "Institute of Medical Sciences",
+                type: "folder",
+                icon: "medical_services",
+                color: "text-red-500",
+                bg: "bg-red-500/10",
+                badgeBorder: "border-red-500/20",
+                badgeBg: "bg-red-500/10",
+                description: "Anatomy, Physiology, Biochemistry, Pathology, Pharmacology lectures...",
+                status: "Coming Soon"
+            },
+            "commerce": {
+                name: "Commerce & Management",
+                type: "folder",
+                icon: "payments",
+                color: "text-accent-neural-purple",
+                bg: "bg-accent-neural-purple/10",
+                badgeBorder: "border-accent-neural-purple/20",
+                badgeBg: "bg-accent-neural-purple/10",
+                description: "Accounting, Business Studies, Statistics, Auditing, Corporate Law lectures...",
+                status: "Coming Soon"
+            },
+            "arts": {
+                name: "Faculty of Arts",
+                type: "folder",
+                icon: "palette",
+                color: "text-amber-600",
+                bg: "bg-amber-600/10",
+                badgeBorder: "border-amber-600/20",
+                badgeBg: "bg-amber-600/10",
+                description: "Literature, Philosophy, Linguistics, History, Sociology, Political Science...",
+                status: "Coming Soon"
+            }
         }
     };
 
-    function selectInstitute(name) {
-        if (name === 'Science') {
-            selectedInst = name;
-            transitionToStep(2, 'forward');
-        } else {
-            showToast(`${name} division notes are coming soon!`);
-        }
-    }
+    // State
+    let currentPath = [];
+    let searchQuery = "";
 
-    function selectDepartment(name) {
-        if (name === 'Mathematics') {
-            selectedDept = name;
-            transitionToStep(3, 'forward');
-        } else {
-            showToast(`${name} notes are coming soon!`);
-        }
-    }
-
-    function goBack() {
-        if (currentStep === 3) {
-            transitionToStep(2, 'backward');
-        } else if (currentStep === 2) {
-            transitionToStep(1, 'backward');
-        } else {
-            window.location.href = 'index.html';
-        }
-    }
-
-    function transitionToStep(targetStep, direction) {
-        const updateDOM = () => {
-            // Hide all steps
-            Object.keys(steps).forEach(s => {
-                document.getElementById(steps[s].id).classList.add('hidden');
-            });
-            // Show target step
-            document.getElementById(steps[targetStep].id).classList.remove('hidden');
-            
-            // Update Title, Subtitle, Badge, and Breadcrumbs
-            document.getElementById('page-title').textContent = steps[targetStep].title;
-            document.getElementById('page-description').textContent = steps[targetStep].desc;
-            document.getElementById('header-badge').textContent = steps[targetStep].badge;
-            document.getElementById('breadcrumb-trail').innerHTML = steps[targetStep].breadcrumbs;
-            
-            // Scroll to top of page/main container smoothly
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-
-            // Update local state
-            currentStep = targetStep;
-        };
-
-        // Feature detect browser support for View Transitions API
-        if (!document.startViewTransition) {
-            updateDOM();
+    // Navigation function
+    function navigateTo(key) {
+        let node = getNodeAtPath(currentPath);
+        let targetNode = node.children[key];
+        
+        if (targetNode.status === "Coming Soon") {
+            showToast(`${targetNode.name} resources are coming soon!`);
             return;
         }
 
-        // Start view transition with directional animation type
-        document.startViewTransition({
-            update: updateDOM,
-            types: [direction]
+        currentPath.push(key);
+        searchQuery = "";
+        const searchInput = document.getElementById("explorer-search");
+        if (searchInput) searchInput.value = "";
+        
+        // Use view transition if available
+        if (document.startViewTransition) {
+            document.startViewTransition({
+                update: renderDirectory,
+                types: ['forward']
+            });
+        } else {
+            renderDirectory();
+        }
+    }
+
+    function navigateUp() {
+        if (currentPath.length === 0) return;
+        currentPath.pop();
+        searchQuery = "";
+        const searchInput = document.getElementById("explorer-search");
+        if (searchInput) searchInput.value = "";
+
+        if (document.startViewTransition) {
+            document.startViewTransition({
+                update: renderDirectory,
+                types: ['backward']
+            });
+        } else {
+            renderDirectory();
+        }
+    }
+
+    function navigateToLevel(levelIndex) {
+        if (levelIndex >= currentPath.length) return;
+        currentPath = currentPath.slice(0, levelIndex + 1);
+        searchQuery = "";
+        const searchInput = document.getElementById("explorer-search");
+        if (searchInput) searchInput.value = "";
+
+        if (document.startViewTransition) {
+            document.startViewTransition({
+                update: renderDirectory,
+                types: ['backward']
+            });
+        } else {
+            renderDirectory();
+        }
+    }
+
+    function navigateToRoot() {
+        currentPath = [];
+        searchQuery = "";
+        const searchInput = document.getElementById("explorer-search");
+        if (searchInput) searchInput.value = "";
+
+        if (document.startViewTransition) {
+            document.startViewTransition({
+                update: renderDirectory,
+                types: ['backward']
+            });
+        } else {
+            renderDirectory();
+        }
+    }
+
+    // Helper to traverse tree
+    function getNodeAtPath(path) {
+        let node = DIRECTORY_DATA;
+        for (let segment of path) {
+            if (node.children && node.children[segment]) {
+                node = node.children[segment];
+            }
+        }
+        return node;
+    }
+
+    // Count folders and files inside a node
+    function countContents(node) {
+        let folders = 0;
+        let files = 0;
+        if (node.children) {
+            for (let key in node.children) {
+                if (node.children[key].type === "folder") {
+                    folders++;
+                } else if (node.children[key].type === "file") {
+                    files++;
+                }
+            }
+        }
+        return { folders, files };
+    }
+
+    // Handle back nav globally
+    window.goBack = function() {
+        if (currentPath.length > 0) {
+            navigateUp();
+        } else {
+            window.location.href = 'index.html';
+        }
+    };
+
+    // Handle real-time search
+    window.handleSearch = function(query) {
+        searchQuery = query.toLowerCase().trim();
+        renderDirectory();
+    };
+
+    // Recursively find matching files
+    function searchFilesRecursive(node, query) {
+        let results = [];
+        if (node.type === "file") {
+            if (node.name.toLowerCase().includes(query) || 
+                (node.code && node.code.toLowerCase().includes(query)) ||
+                (node.description && node.description.toLowerCase().includes(query))) {
+                results.push(node);
+            }
+        } else if (node.type === "folder" && node.children) {
+            for (let key in node.children) {
+                results = results.concat(searchFilesRecursive(node.children[key], query));
+            }
+        }
+        return results;
+    }
+
+    // Render the dynamic explorer
+    function renderDirectory() {
+        const node = getNodeAtPath(currentPath);
+        
+        // Elements
+        const titleEl = document.getElementById("explorer-title");
+        const countEl = document.getElementById("explorer-count");
+        const backBtn = document.getElementById("back-btn");
+        const foldersSection = document.getElementById("folders-section");
+        const foldersGrid = document.getElementById("folders-grid");
+        const filesSection = document.getElementById("files-section");
+        const filesContainer = document.getElementById("files-container");
+        const emptyState = document.getElementById("empty-state");
+        const breadcrumbEl = document.getElementById("breadcrumb-trail");
+        const pageTitle = document.getElementById("page-title");
+        const pageDesc = document.getElementById("page-description");
+        const badgeEl = document.getElementById("header-badge");
+
+        // Update titles
+        const isRoot = currentPath.length === 0;
+        titleEl.textContent = isRoot ? "SCIQB Workspace" : node.name;
+        backBtn.disabled = isRoot;
+
+        // Header section styling
+        if (isRoot) {
+            pageTitle.textContent = "Select Institute";
+            pageDesc.textContent = "Choose an academic institute below to access class notes, reference books, and presentation slides.";
+            badgeEl.textContent = "Reference Library";
+        } else {
+            pageTitle.textContent = node.name;
+            pageDesc.textContent = node.description || `Browse directories and resources in ${node.name}.`;
+            badgeEl.textContent = currentPath.length === 1 ? "Institute View" : currentPath.length === 2 ? "Department View" : "Folder View";
+        }
+
+        // Render Breadcrumbs
+        let breadcrumbsHtml = `<a href="#" onclick="navigateToRoot(); return false;" class="hover:text-primary transition-colors">Home</a>`;
+        let accumulatedPath = [];
+        currentPath.forEach((segment, index) => {
+            accumulatedPath.push(segment);
+            const pathNode = getNodeAtPath(accumulatedPath);
+            breadcrumbsHtml += `
+                <span class="material-symbols-outlined text-xs shrink-0 select-none text-secondary/40">chevron_right</span>
+                <a href="#" onclick="navigateToLevel(${index}); return false;" class="hover:text-primary transition-colors ${index === currentPath.length - 1 ? 'text-primary font-semibold' : ''}">${pathNode.name}</a>
+            `;
         });
+        breadcrumbEl.innerHTML = breadcrumbsHtml;
+
+        // Process search/filter logic
+        let foldersToRender = [];
+        let filesToRender = [];
+        let isSearching = searchQuery.length > 0;
+
+        if (isSearching) {
+            // In search mode, filter folders at this level
+            if (node.children) {
+                for (let key in node.children) {
+                    const item = node.children[key];
+                    if (item.type === "folder" && item.name.toLowerCase().includes(searchQuery)) {
+                        foldersToRender.push({ key, ...item });
+                    }
+                }
+            }
+            // And recursively find files matching query starting from current folder
+            filesToRender = searchFilesRecursive(node, searchQuery);
+        } else {
+            // Normal display
+            if (node.children) {
+                for (let key in node.children) {
+                    const item = node.children[key];
+                    if (item.type === "folder") {
+                        foldersToRender.push({ key, ...item });
+                    } else if (item.type === "file") {
+                        filesToRender.push(item);
+                    }
+                }
+            }
+        }
+
+        // Update Item Count label
+        if (isSearching) {
+            countEl.textContent = `Search results: ${foldersToRender.length} folders, ${filesToRender.length} files`;
+        } else {
+            countEl.textContent = `${foldersToRender.length} folders, ${filesToRender.length} files`;
+        }
+
+        // Render Folders
+        foldersGrid.innerHTML = "";
+        if (foldersToRender.length > 0) {
+            foldersSection.classList.remove("hidden");
+            foldersToRender.forEach(folder => {
+                const isComingSoon = folder.status === "Coming Soon";
+                const iconColor = folder.color || "text-secondary";
+                const iconBg = folder.bg || "bg-neutral-100";
+                
+                const cardHtml = `
+                    <div onclick="navigateTo('${folder.key}')" class="flex items-center gap-3 p-3.5 rounded-xl border border-border-subtle bg-white/45 hover:bg-white/90 hover:border-neutral-300 transition-all cursor-pointer group select-none active:scale-[0.99] shadow-sm">
+                        <div class="w-10 h-10 rounded-lg flex items-center justify-center ${iconBg} ${iconColor} group-hover:scale-105 transition-transform shrink-0">
+                            <span class="material-symbols-outlined text-xl fill-current">${folder.icon || 'folder'}</span>
+                        </div>
+                        <div class="min-w-0 flex-1">
+                            <div class="flex items-center justify-between gap-1.5">
+                                <h4 class="text-xs font-bold text-primary truncate group-hover:text-primary transition-colors leading-tight">${folder.name}</h4>
+                                ${isComingSoon ? '<span class="text-[7px] font-bold text-secondary/60 bg-neutral-200/50 px-1.5 py-0.5 rounded uppercase tracking-wider shrink-0">Soon</span>' : ''}
+                            </div>
+                            <p class="text-[9px] text-secondary/70 truncate mt-0.5">${folder.description || 'Browse folders'}</p>
+                        </div>
+                    </div>
+                `;
+                foldersGrid.insertAdjacentHTML("beforeend", cardHtml);
+            });
+        } else {
+            foldersSection.classList.add("hidden");
+        }
+
+        // Render Files
+        filesContainer.innerHTML = "";
+        if (filesToRender.length > 0) {
+            filesSection.classList.remove("hidden");
+            filesToRender.forEach(file => {
+                const viewUrl = `/api/download-pdf?file=${encodeURIComponent(file.path)}`;
+                const downloadUrl = `/api/download-pdf?file=${encodeURIComponent(file.path)}`;
+                
+                const fileHtml = `
+                    <!-- Desktop row / Mobile card -->
+                    <div class="grid grid-cols-1 sm:grid-cols-12 gap-3 sm:gap-4 items-center px-4 py-3 sm:py-2.5 rounded-xl border border-border-subtle bg-white/45 hover:bg-white/90 hover:border-neutral-300 transition-all shadow-sm">
+                        <!-- File Icon & Name -->
+                        <div class="col-span-1 sm:col-span-6 flex items-center gap-3 min-w-0">
+                            <div class="w-8 h-8 rounded-lg flex items-center justify-center bg-red-50 text-red-500 shrink-0">
+                                <span class="material-symbols-outlined text-lg fill-current">picture_as_pdf</span>
+                            </div>
+                            <div class="min-w-0">
+                                <h4 class="text-xs font-bold text-primary truncate leading-tight">${file.name}</h4>
+                                <p class="text-[9px] text-secondary/70 mt-0.5 truncate sm:hidden">${file.code} • ${file.size}</p>
+                                <p class="text-[9px] text-secondary/80 mt-1 hidden sm:block leading-relaxed max-w-xl">${file.description || ''}</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Subject Code -->
+                        <div class="hidden sm:block col-span-3 text-xs font-medium text-secondary">
+                            ${file.code}
+                        </div>
+                        
+                        <!-- File Size -->
+                        <div class="hidden sm:block col-span-1 text-center text-xs font-medium text-secondary">
+                            ${file.size}
+                        </div>
+                        
+                        <!-- Actions -->
+                        <div class="col-span-1 sm:col-span-2 flex items-center gap-2 sm:justify-end mt-2 sm:mt-0">
+                            <a href="${viewUrl}" target="_blank" class="flex-1 sm:flex-none text-center bg-primary text-white px-3.5 py-1.5 rounded-lg font-bold text-[10px] hover:bg-neutral-800 transition-all flex items-center justify-center gap-1.5">
+                                <span class="material-symbols-outlined text-xs">visibility</span>
+                                <span>View</span>
+                            </a>
+                            <a href="${downloadUrl}" download="${file.downloadName}" class="p-1.5 bg-neutral-100 text-secondary hover:text-primary hover:bg-neutral-200 rounded-lg transition-all" title="Download">
+                                <span class="material-symbols-outlined text-sm">download</span>
+                            </a>
+                        </div>
+                    </div>
+                `;
+                filesContainer.insertAdjacentHTML("beforeend", fileHtml);
+            });
+        } else {
+            filesSection.classList.add("hidden");
+        }
+
+        // Show/hide empty state
+        if (foldersToRender.length === 0 && filesToRender.length === 0) {
+            emptyState.classList.remove("hidden");
+            emptyState.classList.add("flex");
+        } else {
+            emptyState.classList.add("hidden");
+            emptyState.classList.remove("flex");
+        }
     }
 
     // Dynamic toast notification utility
-    function showToast(message) {
-        const container = document.getElementById('toast-container');
+    window.showToast = function(message) {
+        const container = document.getElementById("toast-container");
+        if (!container) return;
         
-        const toast = document.createElement('div');
+        const toast = document.createElement("div");
         toast.className = "bg-neutral-900/95 text-white/95 backdrop-blur-md text-xs font-semibold px-4 py-3 rounded-xl border border-neutral-800 shadow-xl opacity-0 translate-y-2 transition-all duration-300 flex items-center gap-2 pointer-events-auto cursor-pointer";
         toast.innerHTML = `
             <span class="material-symbols-outlined text-accent-bhu-saffron text-sm shrink-0">info</span>
@@ -544,32 +747,25 @@
         
         container.appendChild(toast);
         
-        // Trigger show animation
         setTimeout(() => {
-            toast.classList.remove('opacity-0', 'translate-y-2');
+            toast.classList.remove("opacity-0", "translate-y-2");
         }, 50);
         
-        // Automatically hide and remove after 3.5 seconds
         const hideTimeout = setTimeout(() => {
-            toast.classList.add('opacity-0', 'translate-y-2');
-            setTimeout(() => {
-                toast.remove();
-            }, 300);
+            toast.classList.add("opacity-0", "translate-y-2");
+            setTimeout(() => toast.remove(), 300);
         }, 3500);
 
-        // Allow manual dismiss on click
-        toast.addEventListener('click', () => {
+        toast.addEventListener("click", () => {
             clearTimeout(hideTimeout);
-            toast.classList.add('opacity-0', 'translate-y-2');
-            setTimeout(() => {
-                toast.remove();
-            }, 300);
+            toast.classList.add("opacity-0", "translate-y-2");
+            setTimeout(() => toast.remove(), 300);
         });
-    }
+    };
 
-    // Floating neural orbs parallax interaction
-    document.addEventListener('mousemove', (e) => {
-        const orbs = document.querySelectorAll('.neural-orb');
+    // Parallax mouse movements
+    document.addEventListener("mousemove", (e) => {
+        const orbs = document.querySelectorAll(".neural-orb");
         const mouseX = e.clientX / window.innerWidth;
         const mouseY = e.clientY / window.innerHeight;
 
@@ -580,7 +776,10 @@
             orb.style.transform = `translate(${x}px, ${y}px)`;
         });
     });
-</script>
+
+    // Initial Render
+    renderDirectory();
+</script>>
 
 </body>
 </html>
