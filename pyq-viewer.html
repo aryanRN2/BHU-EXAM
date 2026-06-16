@@ -662,6 +662,12 @@
             body = body.replace(/\{\\small\s*([\s\S]*?)\}/gi, '<p class="text-[11px] text-secondary">$1</p>');
 
             // Text styling macros
+            body = replaceCommandWithBalancedBraces(body, '\\texttt', (inner) => {
+                return `<code class="bg-neutral-50 text-neutral-900 border border-neutral-200 px-1.5 py-0.5 rounded font-mono text-[10px] sm:text-xs select-all">${inner}</code>`;
+            });
+            body = replaceCommandWithBalancedBraces(body, '\\emph', (inner) => {
+                return `<em class="italic">${inner}</em>`;
+            });
             body = body.replace(/\\textbf\{([\s\S]*?)\}/g, '<strong>$1</strong>');
             body = body.replace(/\\textit\{([\s\S]*?)\}/g, '<span class="italic">$1</span>');
             body = body.replace(/\\textrm\{([\s\S]*?)\}/g, '<span class="font-serif">$1</span>');
