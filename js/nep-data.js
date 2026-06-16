@@ -480,7 +480,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-101_IntroductionToComputers_SemI_2022-23_BVoc.tex",
     "fileName": "BVCA-101_IntroductionToComputers_SemI_2022-23_BVoc.tex",
-    "nepCode": "CSCMD11",
+    "nepCode": "CSCMD11/CSCMD21",
     "oldCode": "BVCA-101"
   },
   {
@@ -502,7 +502,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-103b_AppliedMathematics_SemI_2022-23_BVoc.tex",
     "fileName": "BVCA-103b_AppliedMathematics_SemI_2022-23_BVoc.tex",
-    "nepCode": "CSCMD11",
+    "nepCode": "CSCMD11/CSCMD21",
     "oldCode": "BVCA-103b"
   },
   {
@@ -513,7 +513,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-103_AppliedMathematics_SemI_2022-23a_BVoc.tex",
     "fileName": "BVCA-103_AppliedMathematics_SemI_2022-23a_BVoc.tex",
-    "nepCode": "CSCMD11",
+    "nepCode": "CSCMD11/CSCMD21",
     "oldCode": "BVCA-103"
   },
   {
@@ -579,7 +579,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BCS-203_FundamentalsOfComputers_SemII_2013-14_BSc.tex",
     "fileName": "BCS-203_FundamentalsOfComputers_SemII_2013-14_BSc.tex",
-    "nepCode": "CSCMD11",
+    "nepCode": "CSCMD11/CSCMD21",
     "oldCode": "BCS-203"
   },
   {
@@ -1052,7 +1052,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Computer Science",
     "filePath": "aaa/cs/BCS-403_FundamentalsOfComputing_SemIV_2013-14_BSc.tex",
     "fileName": "BCS-403_FundamentalsOfComputing_SemIV_2013-14_BSc.tex",
-    "nepCode": "CSCMD11",
+    "nepCode": "CSCMD11/CSCMD21",
     "oldCode": "BCS-403"
   },
   {

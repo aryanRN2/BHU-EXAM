@@ -205,6 +205,7 @@
 <script type="module">
     import { StateManager } from './js/state-manager.js?v=5';
     import { EXAMS as RAW_EXAMS } from './js/exams-data.js?v=5';
+    import { NEP_LATEX_PYQ_DATA } from './js/nep-data.js?v=6';
 
     // Shallow copy EXAMS to make it mutable
     const EXAMS = {};
@@ -2392,6 +2393,42 @@
                 }
         ]
     };
+
+    // Dynamically load PYQs from nep-data.js
+    NEP_LATEX_PYQ_DATA.forEach(paper => {
+        if (!paper.nepCode) return;
+        
+        // Normalize nepCode to match keys in EXAMS (e.g. "CSCMD11" -> "cscmd11")
+        const rawCodes = paper.nepCode.split('/').map(c => c.trim().toLowerCase());
+        
+        rawCodes.forEach(code => {
+            if (EXAMS[code]) {
+                if (!EXAM_PYQS[code]) {
+                    EXAM_PYQS[code] = [];
+                }
+                
+                // Avoid duplicates
+                const alreadyExists = EXAM_PYQS[code].some(item => item.file === paper.filePath);
+                if (!alreadyExists) {
+                    let title = paper.subject;
+                    if (paper.year) {
+                        title += ` (${paper.year})`;
+                    }
+                    if (paper.filePath.endsWith('.tex')) {
+                        title += ` LaTeX Code`;
+                    } else if (paper.filePath.endsWith('.pdf')) {
+                        title += ` PDF`;
+                    }
+                    
+                    EXAM_PYQS[code].push({
+                        "title": title,
+                        "file": paper.filePath,
+                        "description": `Official ${paper.code} ${paper.subject} paper`
+                    });
+                }
+            }
+        });
+    });
 
 
     // Merge redundant Major and Minor courses for Mathematics, Physics, and Chemistry
