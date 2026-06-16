@@ -488,6 +488,18 @@
                 return -1;
             }
 
+            function findBalancedClosingBracket(str, startIndex) {
+                let depth = 1;
+                for (let i = startIndex; i < str.length; i++) {
+                    if (str[i] === '[') depth++;
+                    else if (str[i] === ']') {
+                        depth--;
+                        if (depth === 0) return i;
+                    }
+                }
+                return -1;
+            }
+
             function replaceCommandWithBalancedBraces(content, commandPrefix, replacementGenerator) {
                 let res = content;
                 let idx = 0;
@@ -542,7 +554,7 @@
                 return res;
             }
 
-            // Extract verbatim environments to preserve code blocks and avoid MathJax formatting errors
+            // Extract verbatim and lstlisting environments to preserve code blocks and avoid MathJax formatting errors
             const verbatimBlocks = [];
             let body = latex.replace(/\\begin\{verbatim\*?\}([\s\S]*?)\\end\{verbatim\*?\}/gi, (match, inner) => {
                 const escaped = inner
@@ -554,6 +566,43 @@
                 verbatimBlocks.push(htmlBlock);
                 return placeholder;
             });
+
+            // Extract lstlisting environments robustly with potential optional square brackets
+            let lstIdx = 0;
+            while (true) {
+                const startMatch = body.toLowerCase().indexOf('\\begin{lstlisting}', lstIdx);
+                if (startMatch === -1) break;
+
+                let contentStart = startMatch + '\\begin{lstlisting}'.length;
+                let tempIdx = contentStart;
+                while (tempIdx < body.length && (body[tempIdx] === ' ' || body[tempIdx] === '\t' || body[tempIdx] === '\n' || body[tempIdx] === '\r')) {
+                    tempIdx++;
+                }
+                if (body[tempIdx] === '[') {
+                    const closingBracket = findBalancedClosingBracket(body, tempIdx + 1);
+                    if (closingBracket !== -1) {
+                        contentStart = closingBracket + 1;
+                    }
+                }
+
+                const endMatch = body.toLowerCase().indexOf('\\end{lstlisting}', contentStart);
+                if (endMatch === -1) {
+                    lstIdx = contentStart;
+                    continue;
+                }
+
+                const innerContent = body.substring(contentStart, endMatch);
+                const escaped = innerContent
+                    .replace(/&/g, '&amp;')
+                    .replace(/</g, '&lt;')
+                    .replace(/>/g, '&gt;');
+                const htmlBlock = `<pre class="bg-neutral-50 border border-neutral-200 rounded-lg p-3.5 sm:p-5 font-mono text-xs overflow-x-auto text-neutral-800 leading-normal my-5 select-all">${escaped.trim()}</pre>`;
+                const placeholder = `__VERBATIM_BLOCK_${verbatimBlocks.length}__`;
+                verbatimBlocks.push(htmlBlock);
+
+                body = body.substring(0, startMatch) + placeholder + body.substring(endMatch + '\\end{lstlisting}'.length);
+                lstIdx = startMatch + placeholder.length;
+            }
 
             // Extract tikzpicture environments to avoid any formatting corruption
             const tikzPictures = [];
