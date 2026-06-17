@@ -294,63 +294,62 @@ const server = http.createServer(async (req, res) => {
             }
         }
 
-        // 3. Scan the aaa/ directory for matching filename
+        // 3. Scan the aaa/ and COMMERCE_LATEX/ directories for matching filename
         if (!targetPath) {
-            const aaaDir = path.join(__dirname, 'aaa');
-            if (fs.existsSync(aaaDir)) {
-                const allFiles = [];
-                function walk(dir) {
-                    const list = fs.readdirSync(dir);
-                    list.forEach(file => {
-                        const fullPath = path.join(dir, file);
-                        if (fs.statSync(fullPath).isDirectory()) {
-                            walk(fullPath);
-                        } else if (file.endsWith('.tex')) {
-                            allFiles.push({
-                                name: file.replace('.tex', ''),
-                                path: fullPath
-                            });
-                        }
-                    });
-                }
-                walk(aaaDir);
-
-                // Exact match
-                let matched = allFiles.find(f => f.name === filename);
-                
-                // Normalized match
-                if (!matched) {
-                    const normTarget = filename.toLowerCase().replace(/[^a-z0-9]/g, '');
-                    matched = allFiles.find(f => f.name.toLowerCase().replace(/[^a-z0-9]/g, '') === normTarget);
-                }
-
-                // Code-year regex match
-                if (!matched) {
-                    const codeMatch = filename.match(/([A-Z]{3})[-_](\d{3})/i);
-                    const yearMatch = filename.match(/(\d{4}[-_]\d{2})/);
-                    if (codeMatch && yearMatch) {
-                        const code = codeMatch[1].toUpperCase() + '-' + codeMatch[2];
-                        const year = yearMatch[1].replace('_', '-');
-                        matched = allFiles.find(f => {
-                            const nameUpper = f.name.toUpperCase();
-                            return (nameUpper.includes(code) || nameUpper.includes(code.replace('-', '_'))) && 
-                                   nameUpper.includes(year);
+            const targetDirs = [path.join(__dirname, 'aaa'), path.join(__dirname, 'COMMERCE_LATEX')];
+            const allFiles = [];
+            function walk(dir) {
+                if (!fs.existsSync(dir)) return;
+                const list = fs.readdirSync(dir);
+                list.forEach(file => {
+                    const fullPath = path.join(dir, file);
+                    if (fs.statSync(fullPath).isDirectory()) {
+                        walk(fullPath);
+                    } else if (file.endsWith('.tex')) {
+                        allFiles.push({
+                            name: file.replace('.tex', ''),
+                            path: fullPath
                         });
                     }
-                }
+                });
+            }
+            targetDirs.forEach(walk);
 
-                // Fuzzy match
-                if (!matched) {
-                    const normTarget = filename.toLowerCase().replace(/[^a-z0-9]/g, '');
+            // Exact match
+            let matched = allFiles.find(f => f.name === filename);
+            
+            // Normalized match
+            if (!matched) {
+                const normTarget = filename.toLowerCase().replace(/[^a-z0-9]/g, '');
+                matched = allFiles.find(f => f.name.toLowerCase().replace(/[^a-z0-9]/g, '') === normTarget);
+            }
+
+            // Code-year regex match
+            if (!matched) {
+                const codeMatch = filename.match(/([A-Z]{3})[-_](\d{3})/i);
+                const yearMatch = filename.match(/(\d{4}[-_]\d{2})/);
+                if (codeMatch && yearMatch) {
+                    const code = codeMatch[1].toUpperCase() + '-' + codeMatch[2];
+                    const year = yearMatch[1].replace('_', '-');
                     matched = allFiles.find(f => {
-                        const normFile = f.name.toLowerCase().replace(/[^a-z0-9]/g, '');
-                        return normFile.includes(normTarget) || normTarget.includes(normFile);
+                        const nameUpper = f.name.toUpperCase();
+                        return (nameUpper.includes(code) || nameUpper.includes(code.replace('-', '_'))) && 
+                               nameUpper.includes(year);
                     });
                 }
+            }
 
-                if (matched) {
-                    targetPath = matched.path;
-                }
+            // Fuzzy match
+            if (!matched) {
+                const normTarget = filename.toLowerCase().replace(/[^a-z0-9]/g, '');
+                matched = allFiles.find(f => {
+                    const normFile = f.name.toLowerCase().replace(/[^a-z0-9]/g, '');
+                    return normFile.includes(normTarget) || normTarget.includes(normFile);
+                });
+            }
+
+            if (matched) {
+                targetPath = matched.path;
             }
         }
 

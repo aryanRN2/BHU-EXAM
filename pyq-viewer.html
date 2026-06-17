@@ -764,6 +764,23 @@
                     text = text.replace(/\\#/g, '#');
                     text = text.replace(/~/g, ' ');
 
+                    // Replace LaTeX dots/ellipsis
+                    text = text.replace(/\\dots\{\}/g, '...');
+                    text = text.replace(/\\dots/g, '...');
+                    text = text.replace(/\\ldots\{\}/g, '...');
+                    text = text.replace(/\\ldots/g, '...');
+
+                    // Replace LaTeX quotes safely (only in text, not inside HTML tags)
+                    text = text.replace(/([^<]*)(<[^>]*>)?/g, function(match, textPart, tagPart) {
+                        if (textPart) {
+                            textPart = textPart.replace(/``/g, '“');
+                            textPart = textPart.replace(/''/g, '”');
+                            textPart = textPart.replace(/`/g, '‘');
+                            textPart = textPart.replace(/'/g, '’');
+                        }
+                        return (textPart || '') + (tagPart || '');
+                    });
+
                     // Clear font size tags
                     text = text.replace(/\\small/gi, '');
                     text = text.replace(/\\normalsize/gi, '');

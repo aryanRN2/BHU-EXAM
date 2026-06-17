@@ -81,24 +81,24 @@ module.exports = async (req, res) => {
 
     // 3. Scan the aaa/ directory inside rootDir for matching filename
     if (!targetPath) {
-        const aaaDir = path.join(rootDir, 'aaa');
-        if (fs.existsSync(aaaDir)) {
-            const allFiles = [];
-            function walk(dir) {
-                const list = fs.readdirSync(dir);
-                list.forEach(file => {
-                    const fullPath = path.join(dir, file);
-                    if (fs.statSync(fullPath).isDirectory()) {
-                        walk(fullPath);
-                    } else if (file.endsWith('.tex')) {
-                        allFiles.push({
-                            name: file.replace('.tex', ''),
-                            path: fullPath
-                        });
-                    }
-                });
-            }
-            walk(aaaDir);
+        const targetDirs = [path.join(rootDir, 'aaa'), path.join(rootDir, 'COMMERCE_LATEX')];
+        const allFiles = [];
+        function walk(dir) {
+            if (!fs.existsSync(dir)) return;
+            const list = fs.readdirSync(dir);
+            list.forEach(file => {
+                const fullPath = path.join(dir, file);
+                if (fs.statSync(fullPath).isDirectory()) {
+                    walk(fullPath);
+                } else if (file.endsWith('.tex')) {
+                    allFiles.push({
+                        name: file.replace('.tex', ''),
+                        path: fullPath
+                    });
+                }
+            });
+        }
+        targetDirs.forEach(walk);
 
             // Exact match
             let matched = allFiles.find(f => f.name === filename);
@@ -136,7 +136,6 @@ module.exports = async (req, res) => {
             if (matched) {
                 targetPath = matched.path;
             }
-        }
     }
 
     if (!targetPath) {
