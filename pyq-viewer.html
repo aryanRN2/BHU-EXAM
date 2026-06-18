@@ -27,18 +27,46 @@
             font-family: 'Plus Jakarta Sans', sans-serif !important;
         }
 
-        /* Custom premium paper sheet layout & shadows */
-        @media (min-width: 640px) {
-            .paper-sheet {
-                box-shadow:
-                    0 0 0 1px rgba(0, 0, 0, 0.05),
-                    0 4px 6px -1px rgba(0, 0, 0, 0.02),
-                    0 15px 35px -5px rgba(0, 0, 0, 0.2),
-                    0 30px 60px -15px rgba(0, 0, 0, 0.25);
-            }
+        /* A4 Page Layout & Styling (Replica PDF Sheets) */
+        .a4-page-wrapper {
+            width: 100%;
+            max-width: 794px;
+            height: 1123px; /* Modified dynamically by scale */
+            margin: 0 auto 28px auto;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            transition: height 0.2s ease;
         }
-        .paper-sheet {
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+        .a4-page {
+            width: 794px;
+            height: 1123px;
+            padding: 70px 80px 70px 80px; /* Margins mimicking physical paper margins */
+            box-sizing: border-box;
+            background: white;
+            box-shadow:
+                0 0 0 1px rgba(0, 0, 0, 0.04),
+                0 4px 8px -1px rgba(0, 0, 0, 0.03),
+                0 15px 35px -5px rgba(0, 0, 0, 0.08),
+                0 30px 60px -15px rgba(0, 0, 0, 0.12);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transform-origin: top center;
+            flex-shrink: 0;
+            position: relative;
+            z-index: 10;
+        }
+
+        .a4-page-content {
+            flex-grow: 1;
+            width: 100%;
+            height: 890px; /* Maximum content height inside margins */
+            max-height: 890px;
+            overflow: hidden;
+            box-sizing: border-box;
         }
 
         /* Fullscreen styling fixes */
@@ -66,7 +94,7 @@
             transform: translateX(-50%);
             width: 90%;
             height: 85%;
-            background: radial-gradient(circle, rgba(139, 92, 246, 0.05) 0%, rgba(59, 130, 246, 0.02) 50%, transparent 100%);
+            background: radial-gradient(circle, rgba(139, 92, 246, 0.04) 0%, rgba(59, 130, 246, 0.01) 50%, transparent 100%);
             filter: blur(80px);
             pointer-events: none;
             z-index: 0;
@@ -74,6 +102,11 @@
 
         /* Print Mode Optimizations */
         @media print {
+            @page {
+                size: A4;
+                margin: 0;
+            }
+
             body {
                 background: white !important;
                 color: black !important;
@@ -97,7 +130,8 @@
             main,
             .flex-grow,
             #viewerContentArea,
-            #nativeRenderArea {
+            #nativeRenderArea,
+            #renderedLatexContent {
                 display: block !important;
                 background: white !important;
                 padding: 0 !important;
@@ -107,6 +141,7 @@
                 overflow: visible !important;
                 width: 100% !important;
                 position: static !important;
+                box-shadow: none !important;
             }
 
             .studio-backlight::before {
@@ -114,17 +149,43 @@
             }
 
             /* Standard LaTeX printable layout style on A4 */
-            #renderedLatexContent {
+            .a4-page-wrapper {
+                width: 210mm !important;
+                height: 297mm !important;
+                page-break-after: always !important;
+                break-after: always !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                display: block !important;
+                position: static !important;
+                transform: none !important;
+                box-shadow: none !important;
+            }
+
+            .a4-page {
+                width: 210mm !important;
+                height: 297mm !important;
+                padding: 20mm !important; /* Standard printable margins */
+                margin: 0 !important;
                 box-shadow: none !important;
                 border: none !important;
-                padding: 0 !important;
-                margin: 0 !important;
-                max-width: 100% !important;
-                min-height: auto !important;
+                background: white !important;
+                transform: none !important;
+                overflow: visible !important;
+                display: flex !important;
+                flex-direction: column !important;
+                justify-content: space-between !important;
+                box-sizing: border-box !important;
+                page-break-inside: avoid !important;
+                break-inside: avoid !important;
+            }
+
+            .a4-page-content {
+                height: auto !important;
+                max-height: none !important;
+                overflow: visible !important;
                 font-size: 11pt !important;
                 line-height: 1.6 !important;
-                color: black !important;
-                background: white !important;
             }
 
             /* Prevent orphan headings and section headers */
@@ -251,16 +312,22 @@
                     window.mathjaxReady = true;
                     if (window.latexLoaded) {
                         console.log("MathJax ready: LaTeX content already loaded, typeset now.");
-                        MathJax.typesetPromise([document.getElementById('renderedLatexContent')])
+                        MathJax.typesetPromise([document.getElementById('hiddenLatexContainer')])
                             .then(() => {
                                 if (typeof window.showNativeView === 'function') {
                                     window.showNativeView();
+                                }
+                                if (typeof window.paginateContent === 'function') {
+                                    window.paginateContent();
                                 }
                             })
                             .catch(err => {
                                 console.warn("MathJax typeset error in ready callback:", err);
                                 if (typeof window.showNativeView === 'function') {
                                     window.showNativeView();
+                                }
+                                if (typeof window.paginateContent === 'function') {
+                                    window.paginateContent();
                                 }
                             });
                     } else {
@@ -331,10 +398,17 @@
 
                     <!-- Native Render Panel -->
                     <div id="nativeRenderArea"
-                        class="w-full min-h-full bg-neutral-100 p-0 sm:p-6 md:p-10 overflow-y-auto custom-scrollbar hidden flex flex-col items-center relative studio-backlight min-w-0">
+                        class="w-full min-h-full bg-neutral-100 p-0 sm:p-4 md:p-8 overflow-y-auto custom-scrollbar hidden flex flex-col items-center relative studio-backlight min-w-0">
                         <div id="renderedLatexContent"
-                            class="w-full max-w-[850px] min-h-[600px] sm:min-h-[900px] md:min-h-[1100px] shrink-0 bg-white paper-sheet border-0 sm:border border-neutral-200/30 rounded-none sm:rounded-sm p-4 sm:p-10 md:p-16 lg:p-20 prose prose-neutral max-w-none text-neutral-900 leading-relaxed selection:bg-accent-bhu-saffron/20 tex2jax_process font-serif relative z-10">
-                            <!-- Rendered LaTeX HTML will go here -->
+                            class="w-full flex flex-col items-center min-w-0 py-2 sm:py-4 relative z-10 selection:bg-accent-bhu-saffron/20">
+                            <!-- Rendered LaTeX A4 pages will go here -->
+                        </div>
+                        
+                        <!-- Hidden typesetting container for pre-compilation and height measurement -->
+                        <div id="hiddenLatexContainer"
+                            class="absolute opacity-0 pointer-events-none select-none text-neutral-900 leading-relaxed font-serif tex2jax_process prose prose-neutral max-w-none text-justify text-sm animate-none"
+                            style="width: 634px; padding: 0; margin: 0; box-sizing: border-box; left: -9999px; top: -9999px;">
+                            <!-- LaTeX HTML will be rendered here first, measured, and then paginated -->
                         </div>
                     </div>
 
@@ -926,6 +1000,226 @@
             return parsedHtml;
         }
 
+        // --- A4 PAGINATION AND RESPONSIVE SCALING LAYOUT ENGINE ---
+        window.createPageElement = function (pageNum) {
+            const wrapper = document.createElement('div');
+            wrapper.className = 'a4-page-wrapper';
+            
+            const page = document.createElement('div');
+            page.className = 'a4-page';
+            
+            const paperTitle = document.getElementById('pdfTitle').textContent || 'Question Paper';
+            
+            // Header: Academic style header mimicking official exam layout
+            const header = document.createElement('div');
+            header.className = 'flex justify-between items-center text-[10px] text-neutral-400 font-sans border-b border-neutral-100 pb-2 mb-4 select-none';
+            header.innerHTML = `
+                <span class="font-bold tracking-wider uppercase">BANARAS HINDU UNIVERSITY</span>
+                <span class="truncate max-w-[250px] font-semibold">${paperTitle}</span>
+            `;
+            
+            // Content container
+            const content = document.createElement('div');
+            content.className = 'a4-page-content prose prose-neutral max-w-none text-neutral-950 leading-relaxed font-serif text-justify text-[13px] selection:bg-accent-bhu-saffron/20';
+            
+            // Inner container with height auto to ensure exact scrollHeight measurements without Flexbox stretching constraints
+            const contentInner = document.createElement('div');
+            contentInner.className = 'a4-page-content-inner space-y-4';
+            content.appendChild(contentInner);
+            
+            // Footer: Academic style footer with dynamic page counts
+            const footer = document.createElement('div');
+            footer.className = 'flex justify-between items-center text-[10px] text-neutral-400 font-sans border-t border-neutral-100 pt-2 mt-4 select-none';
+            footer.innerHTML = `
+                <span class="font-medium">SCIQB Academic Archive</span>
+                <span class="font-semibold text-neutral-500">Page <span class="current-page-num">${pageNum}</span> of <span class="total-page-num">${pageNum}</span></span>
+            `;
+            
+            page.appendChild(header);
+            page.appendChild(content);
+            page.appendChild(footer);
+            wrapper.appendChild(page);
+            
+            return wrapper;
+        };
+
+        window.isHeading = function (element) {
+            const tagName = element.tagName.toLowerCase();
+            return tagName === 'h1' || tagName === 'h2' || tagName === 'h3' || tagName === 'h4' || tagName === 'h5' || tagName === 'h6' || element.classList.contains('section-title') || (element.firstElementChild && window.isHeading(element.firstElementChild));
+        };
+
+        window.paginateContent = function () {
+            const hidden = document.getElementById('hiddenLatexContainer');
+            const target = document.getElementById('renderedLatexContent');
+            if (!hidden || !target) return;
+
+            target.innerHTML = ''; // Clear existing layout pages
+
+            const maxContentHeight = 880; // Standard A4 page height budget inside margins
+            const pages = [];
+
+            let currentPageWrapper = window.createPageElement(1);
+            target.appendChild(currentPageWrapper);
+            pages.push(currentPageWrapper);
+
+            let currentContent = currentPageWrapper.querySelector('.a4-page-content-inner');
+            const sourceNodes = Array.from(hidden.children);
+
+            for (let i = 0; i < sourceNodes.length; i++) {
+                const node = sourceNodes[i];
+                
+                // Skip script tags, meta comments, empty text nodes
+                if (node.tagName.toLowerCase() === 'script' || node.tagName.toLowerCase() === 'style') {
+                    continue;
+                }
+
+                const clone = node.cloneNode(true);
+                currentContent.appendChild(clone);
+
+                // Check scroll height to see if it fits on the current page
+                if (currentContent.scrollHeight <= maxContentHeight) {
+                    // Check for orphan heading check (ensure headings don't sit at the bottom)
+                    if (window.isHeading(node) && (maxContentHeight - currentContent.scrollHeight < 60)) {
+                        currentContent.removeChild(clone);
+                        
+                        currentPageWrapper = window.createPageElement(pages.length + 1);
+                        target.appendChild(currentPageWrapper);
+                        pages.push(currentPageWrapper);
+                        currentContent = currentPageWrapper.querySelector('.a4-page-content-inner');
+                        
+                        currentContent.appendChild(node.cloneNode(true));
+                    }
+                    continue;
+                }
+
+                // If it overflows the budget, remove the node and split it or push to new page
+                currentContent.removeChild(clone);
+
+                // Safeguard: If the page content is completely empty, it MUST fit on this page, otherwise we loop infinitely.
+                if (currentContent.children.length === 0) {
+                    currentContent.appendChild(node.cloneNode(true));
+                    continue;
+                }
+
+                const tagName = node.tagName.toLowerCase();
+                if (tagName === 'ol' || tagName === 'ul') {
+                    // Split the list item-by-item across pages
+                    const listTagName = tagName;
+                    const listClass = node.className;
+                    const items = Array.from(node.children);
+
+                    let activeList = document.createElement(listTagName);
+                    activeList.className = listClass;
+                    currentContent.appendChild(activeList);
+
+                    let currentStartIndex = parseInt(node.getAttribute('start')) || 1;
+
+                    for (let j = 0; j < items.length; j++) {
+                        const itemClone = items[j].cloneNode(true);
+                        activeList.appendChild(itemClone);
+
+                        if (currentContent.scrollHeight <= maxContentHeight) {
+                            // Fits on this page
+                            continue;
+                        }
+
+                        // Overflowed! Remove the item from active list
+                        activeList.removeChild(itemClone);
+
+                        // If the active list is now empty, remove list container itself
+                        if (activeList.children.length === 0) {
+                            currentContent.removeChild(activeList);
+                        }
+
+                        // Create a new page
+                        currentPageWrapper = window.createPageElement(pages.length + 1);
+                        target.appendChild(currentPageWrapper);
+                        pages.push(currentPageWrapper);
+                        currentContent = currentPageWrapper.querySelector('.a4-page-content-inner');
+
+                        // Create new list container on the new page
+                        activeList = document.createElement(listTagName);
+                        activeList.className = listClass;
+                        if (listTagName === 'ol') {
+                            // Preserves numbering consistency across sheets using standard start attribute
+                            activeList.setAttribute('start', currentStartIndex + j);
+                        }
+                        currentContent.appendChild(activeList);
+
+                        // Add the item to the new list
+                        activeList.appendChild(itemClone);
+                    }
+                } else {
+                    // Standard block elements (paragraphs, tables, code blocks) get pushed entirely to next page
+                    currentPageWrapper = window.createPageElement(pages.length + 1);
+                    target.appendChild(currentPageWrapper);
+                    pages.push(currentPageWrapper);
+                    currentContent = currentPageWrapper.querySelector('.a4-page-content-inner');
+
+                    currentContent.appendChild(node.cloneNode(true));
+                }
+            }
+
+            // Sync overall page counts across all page footers
+            const totalPages = pages.length;
+            pages.forEach((pageWrapper, idx) => {
+                pageWrapper.querySelector('.current-page-num').textContent = idx + 1;
+                pageWrapper.querySelector('.total-page-num').textContent = totalPages;
+            });
+
+            // Adjust page scaling
+            window.resizePages();
+        };
+
+        window.resizePages = function () {
+            const container = document.getElementById('nativeRenderArea');
+            const pages = document.querySelectorAll('.a4-page');
+            if (!container || !pages.length) return;
+
+            const containerWidth = container.clientWidth;
+            
+            // Safeguard: If the container width is zero or extremely tiny (e.g. because it is currently hidden
+            // during typesetting/loading), fallback to no scaling.
+            if (containerWidth < 100) {
+                pages.forEach(page => {
+                    page.style.transform = 'none';
+                    const wrapper = page.parentElement;
+                    if (wrapper && wrapper.classList.contains('a4-page-wrapper')) {
+                        wrapper.style.height = '1123px';
+                    }
+                });
+                return;
+            }
+
+            // Subtract space for borders/paddings inside the render panel
+            const padding = window.innerWidth < 640 ? 16 : 64;
+            const availableWidth = containerWidth - padding;
+            
+            const targetWidth = 794; // Standard A4 page width
+
+            if (availableWidth < targetWidth) {
+                const scale = availableWidth / targetWidth;
+                pages.forEach(page => {
+                    page.style.transform = `scale(${scale})`;
+                    const wrapper = page.parentElement;
+                    if (wrapper && wrapper.classList.contains('a4-page-wrapper')) {
+                        wrapper.style.height = `${1123 * scale}px`;
+                    }
+                });
+            } else {
+                pages.forEach(page => {
+                    page.style.transform = 'none';
+                    const wrapper = page.parentElement;
+                    if (wrapper && wrapper.classList.contains('a4-page-wrapper')) {
+                        wrapper.style.height = '1123px';
+                    }
+                });
+            }
+        };
+
+        // Resize event listener for responsive page scaling
+        window.addEventListener('resize', window.resizePages);
+
         // Load document from URL parameters
         document.addEventListener('DOMContentLoaded', () => {
             const params = new URLSearchParams(window.location.search);
@@ -1001,7 +1295,7 @@
                 .then(latexCode => {
                     hasLatex = true;
                     const htmlContent = parseLatex(latexCode);
-                    document.getElementById('renderedLatexContent').innerHTML = htmlContent;
+                    document.getElementById('hiddenLatexContainer').innerHTML = htmlContent;
                     window.latexLoaded = true;
 
                     // Trigger TikZJax processing if available
@@ -1015,15 +1309,17 @@
 
                     // Trigger MathJax typeset if ready
                     if (window.mathjaxReady) {
-                        MathJax.typesetPromise([document.getElementById('renderedLatexContent')])
+                        MathJax.typesetPromise([document.getElementById('hiddenLatexContainer')])
                             .then(() => {
-                                clearTimeout(safetyTimeout);
                                 showNativeView();
+                                window.paginateContent();
+                                clearTimeout(safetyTimeout);
                             })
                             .catch(err => {
                                 console.warn("MathJax typeset error:", err);
-                                clearTimeout(safetyTimeout);
                                 showNativeView();
+                                window.paginateContent();
+                                clearTimeout(safetyTimeout);
                             });
                     } else {
                         console.log("MathJax script not loaded yet, waiting for startup ready callback...");
@@ -1065,6 +1361,7 @@
             nativeArea.classList.remove('hidden');
             nativeArea.classList.add('flex');
         }
+        window.showNativeView = showNativeView;
 
         window.toggleFullscreen = function () {
             const viewer = document.getElementById('pdfViewerPanel');
