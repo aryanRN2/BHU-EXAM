@@ -27,6 +27,36 @@
             font-family: 'Plus Jakarta Sans', sans-serif !important;
         }
 
+        /* Compact PYQ Title Block & Heading Overrides */
+        .pyq-title-block {
+            margin-top: 0px !important;
+            margin-bottom: 8px !important;
+        }
+        .pyq-title-block h2 {
+            font-size: 14px !important;
+            margin-top: 2px !important;
+            margin-bottom: 2px !important;
+            font-weight: 700 !important;
+            line-height: 1.2 !important;
+            color: #111827 !important;
+        }
+        .pyq-title-block p {
+            font-size: 11px !important;
+            margin-top: 1px !important;
+            margin-bottom: 1px !important;
+            line-height: 1.2 !important;
+            color: #4b5563 !important;
+        }
+        .pyq-title-block hr {
+            margin-top: 4px !important;
+            margin-bottom: 4px !important;
+            border-color: #e5e7eb !important;
+            width: 100% !important;
+        }
+        .pyq-title-block br {
+            display: none !important;
+        }
+
         /* A4 Page Layout & Styling (Replica PDF Sheets) */
         .a4-page-wrapper {
             width: 100%;
@@ -317,18 +347,22 @@
                                 if (typeof window.showNativeView === 'function') {
                                     window.showNativeView();
                                 }
-                                if (typeof window.paginateContent === 'function') {
-                                    window.paginateContent();
-                                }
+                                setTimeout(() => {
+                                    if (typeof window.paginateContent === 'function') {
+                                        window.paginateContent();
+                                    }
+                                }, 150);
                             })
                             .catch(err => {
                                 console.warn("MathJax typeset error in ready callback:", err);
                                 if (typeof window.showNativeView === 'function') {
                                     window.showNativeView();
                                 }
-                                if (typeof window.paginateContent === 'function') {
-                                    window.paginateContent();
-                                }
+                                setTimeout(() => {
+                                    if (typeof window.paginateContent === 'function') {
+                                        window.paginateContent();
+                                    }
+                                }, 150);
                             });
                     } else {
                         console.log("MathJax ready: waiting for LaTeX content to load.");
@@ -707,16 +741,16 @@
 
             // Clean printed style for instructions (no colored box) using balanced braces
             body = replaceCommandWithBalancedBraces(body, '\\noindent\\textit{Instructions:', (inner) => {
-                return `<div class="my-4 text-xs sm:text-sm italic text-neutral-800"><strong class="not-italic font-bold">Instructions:</strong> ${inner}</div>`;
+                return `<div class="my-2 text-xs sm:text-sm italic text-neutral-800"><strong class="not-italic font-bold">Instructions:</strong> ${inner}</div>`;
             });
             body = replaceCommandWithBalancedBraces(body, '\\noindent\\textit{Note:', (inner) => {
-                return `<div class="my-4 text-xs sm:text-sm italic text-neutral-800"><strong class="not-italic font-bold">Note:</strong> ${inner}</div>`;
+                return `<div class="my-2 text-xs sm:text-sm italic text-neutral-800"><strong class="not-italic font-bold">Note:</strong> ${inner}</div>`;
             });
             body = replaceCommandWithBalancedBraces(body, '\\textit{Instructions:', (inner) => {
-                return `<div class="my-4 text-xs sm:text-sm italic text-neutral-800"><strong class="not-italic font-bold">Instructions:</strong> ${inner}</div>`;
+                return `<div class="my-2 text-xs sm:text-sm italic text-neutral-800"><strong class="not-italic font-bold">Instructions:</strong> ${inner}</div>`;
             });
             body = replaceCommandWithBalancedBraces(body, '\\textit{Note:', (inner) => {
-                return `<div class="my-4 text-xs sm:text-sm italic text-neutral-800"><strong class="not-italic font-bold">Note:</strong> ${inner}</div>`;
+                return `<div class="my-2 text-xs sm:text-sm italic text-neutral-800"><strong class="not-italic font-bold">Note:</strong> ${inner}</div>`;
             });
 
             // Parse href link commands
@@ -726,7 +760,7 @@
             body = body.replace(/\\pts\{([\s\S]*?)\}/g, '<span class="inline-block float-right text-xs sm:text-sm italic font-normal text-neutral-700">[$1]</span>');
 
             // Center environments tags (no rounded cards for prints)
-            body = body.replace(/\\begin\{center\}/gi, '<div class="text-center my-6 space-y-2">');
+            body = body.replace(/\\begin\{center\}/gi, '<div class="text-center pyq-title-block space-y-1">');
             body = body.replace(/\\end\{center\}/gi, '</div>');
 
             // Font size modifications within brackets
@@ -860,7 +894,7 @@
                     text = text.replace(/\\normalsize/gi, '');
 
                     // Format Question headings (no saffron dot or bottom border lines)
-                    text = text.replace(/<strong>Question\s*([0-9]+)\.?<\/strong>/gi, '<h3 class="font-bold text-sm sm:text-base text-primary mt-6 mb-3">Question $1</h3>');
+                    text = text.replace(/<strong>Question\s*([0-9]+)\.?<\/strong>/gi, '<h3 class="font-bold text-sm sm:text-base text-primary mt-4 mb-2">Question $1</h3>');
 
                     parts[i] = text;
                 }
@@ -1055,7 +1089,7 @@
 
             target.innerHTML = ''; // Clear existing layout pages
 
-            const maxContentHeight = 880; // Standard A4 page height budget inside margins
+            const maxContentHeight = 840; // Standard A4 page height budget inside margins
             const pages = [];
 
             let currentPageWrapper = window.createPageElement(1);
@@ -1312,14 +1346,18 @@
                         MathJax.typesetPromise([document.getElementById('hiddenLatexContainer')])
                             .then(() => {
                                 showNativeView();
-                                window.paginateContent();
-                                clearTimeout(safetyTimeout);
+                                setTimeout(() => {
+                                    window.paginateContent();
+                                    clearTimeout(safetyTimeout);
+                                }, 150);
                             })
                             .catch(err => {
                                 console.warn("MathJax typeset error:", err);
                                 showNativeView();
-                                window.paginateContent();
-                                clearTimeout(safetyTimeout);
+                                setTimeout(() => {
+                                    window.paginateContent();
+                                    clearTimeout(safetyTimeout);
+                                }, 150);
                             });
                     } else {
                         console.log("MathJax script not loaded yet, waiting for startup ready callback...");
