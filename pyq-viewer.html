@@ -2,6 +2,7 @@
 <html class="scroll-smooth" lang="en">
 
 <head>
+    <meta name="color-scheme" content="light">
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>PYQ Document Viewer | SCIQB</title>
@@ -241,8 +242,7 @@
     <script id="tailwind-config">
         if (typeof tailwind !== 'undefined') {
             tailwind.config = {
-                darkMode: "class",
-                theme: {
+                                theme: {
                     extend: {
                         fontFamily: {
                             sans: ["'Plus Jakarta Sans'", "sans-serif"],
@@ -864,6 +864,8 @@
                     // Clean up remaining \hfill by floating the text or adding padding
                     text = text.replace(/\\hfill\s*([^\n\r]+)/g, '<span class="float-right font-semibold">$1</span>');
                     text = text.replace(/\\hfill/gi, ' &nbsp;&nbsp; ');
+                    text = text.replace(/\\qquad/gi, '&emsp;&emsp;');
+                    text = text.replace(/\\quad/gi, '&emsp;');
 
                     // Escaped characters in text
                     text = text.replace(/\\%/g, '%');

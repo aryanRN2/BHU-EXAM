@@ -5269,6 +5269,18 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "MTB-202"
   },
   {
+    "code": "MATMJ44",
+    "subject": "Mechanics (Midterm Exam)",
+    "semester": 4,
+    "year": "2025-2026",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MATMJ44_Mechanics_Midterm_2025-26.tex",
+    "fileName": "MATMJ44_Mechanics_Midterm_2025-26.tex",
+    "nepCode": "MATMJ44",
+    "oldCode": "NEP Midterm",
+    "isNepPaper": true
+  },
+  {
     "code": "MTB-202",
     "subject": "Mechanics",
     "semester": 4,

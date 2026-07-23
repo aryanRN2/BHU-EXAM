@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html class="scroll-smooth" lang="en">
 <head>
+    <meta name="color-scheme" content="light">
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Select Subject - SCIQB | BHU PYQs & Active Recall Mock Exams</title>
@@ -13,8 +14,7 @@
     <link rel="stylesheet" href="styles.css"/>
     <script id="tailwind-config">
         tailwind.config = {
-            darkMode: "class",
-            theme: {
+                        theme: {
                 extend: {
                     colors: {
                         "on-secondary-fixed": "#1b1c1c",
@@ -2423,7 +2423,8 @@
                     EXAM_PYQS[code].push({
                         "title": title,
                         "file": paper.filePath,
-                        "description": `Official ${paper.code} ${paper.subject} paper`
+                        "description": `Official ${paper.code} ${paper.subject} paper`,
+                        "isNepPaper": !!paper.isNepPaper
                     });
                 }
             }
@@ -2790,7 +2791,25 @@
         pyqs.forEach(pyq => {
             const fileUrl = encodeURIComponent(pyq.file);
             const titleParam = encodeURIComponent(pyq.title);
-            const pyqMarkup = `
+            const isGlow = pyq.isNepPaper || (pyq.title && pyq.title.includes('2025-2026'));
+
+            const pyqMarkup = isGlow ? `
+                <a href="pyq-viewer.html?file=${fileUrl}&title=${titleParam}" class="w-full p-4 rounded-xl border-2 border-emerald-500/80 nep-glow-card hover:shadow-md transition-all text-left flex items-start gap-4 group relative overflow-hidden">
+                    <div class="w-10 h-10 rounded-full bg-gradient-to-br from-emerald-500 to-amber-500 flex items-center justify-center text-white shrink-0 shadow-[0_0_12px_rgba(16,185,129,0.5)]">
+                        <span class="material-symbols-outlined text-lg animate-spin-slow">auto_awesome</span>
+                    </div>
+                    <div class="flex-grow">
+                        <div class="flex items-center justify-between gap-2 flex-wrap">
+                            <span class="font-extrabold text-sm text-primary">${pyq.title}</span>
+                            <span class="inline-flex items-center gap-1 bg-gradient-to-r from-emerald-600 to-teal-600 text-white font-extrabold text-[9px] px-2 py-0.5 rounded-full uppercase tracking-wider shadow-sm">
+                                <span class="w-1.5 h-1.5 rounded-full bg-white animate-ping"></span>
+                                ORIGINAL NEP PYQ
+                            </span>
+                        </div>
+                        <p class="text-xs text-secondary mt-1">${pyq.description}</p>
+                    </div>
+                </a>
+            ` : `
                 <a href="pyq-viewer.html?file=${fileUrl}&title=${titleParam}" class="w-full p-4 rounded-xl border border-border-subtle bg-white hover:bg-neutral-50 hover:shadow-sm transition-all text-left flex items-start gap-4 group">
                     <div class="w-10 h-10 rounded-full bg-red-50 flex items-center justify-center text-red-600 group-hover:bg-red-600 group-hover:text-white transition-colors duration-200 flex-shrink-0">
                         <span class="material-symbols-outlined text-lg">picture_as_pdf</span>
