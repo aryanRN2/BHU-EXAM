@@ -5391,6 +5391,18 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "MTB-401"
   },
   {
+    "code": "MATMJ42",
+    "subject": "Vector and Tensor Analysis",
+    "semester": 4,
+    "year": "2025-2026",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MATMJ42_VectorTensorAnalysis_SemIV_2025-26.tex",
+    "fileName": "MATMJ42_VectorTensorAnalysis_SemIV_2025-26.tex",
+    "nepCode": "MATMJ42",
+    "oldCode": "NEP 2025-26",
+    "isNepPaper": true
+  },
+  {
     "code": "MTB-402",
     "subject": "Vector and Tensor Analysis",
     "semester": 4,
