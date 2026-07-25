@@ -5247,6 +5247,18 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "MTB-602"
   },
   {
+    "code": "MATMJ41",
+    "subject": "Calculus of several variables",
+    "semester": 4,
+    "year": "2025-2026",
+    "department": "Mathematics",
+    "filePath": "aaa/latest corrected maths pdf/final maths export latex/MATMJ41_CalculusOfSeveralVariables_SemIV_2025-26.tex",
+    "fileName": "MATMJ41_CalculusOfSeveralVariables_SemIV_2025-26.tex",
+    "nepCode": "MATMJ41",
+    "oldCode": "NEP 2025-26",
+    "isNepPaper": true
+  },
+  {
     "code": "MTB-201",
     "subject": "Calculus of several variables",
     "semester": 4,
