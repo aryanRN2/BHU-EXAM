@@ -588,6 +588,43 @@
         'IMBMJ11': 'Microbial Physiology, Biochemistry, Genetics & Molecular Biology',
         'IMBMJ21': 'Environmental Microbiology & Biotechnology',
         'IMBMJ31': 'Agricultural & Food Microbiology',
+        // Computer Science
+        'CSCMD11': 'Fundamentals of Computing',
+        'CSCMJ11': 'Introduction to Programming using C',
+        'CSCMN11': 'Introduction to Programming using C',
+        'CSCSE11': 'Web Designing',
+        'CSCMD21': 'Introduction to Information Technology',
+        'CSCMJ21': 'Data Structures and Algorithms',
+        'CSCMN21': 'Data Structures and Algorithms',
+        'CSCSE21': 'Mobile Application Development',
+        'CSCMD31': 'Introduction to Cyber Security',
+        'CSCMJ31': 'Digital Logic and Circuit Design',
+        'CSCMN31': 'Digital Logic and Circuit Design',
+        'CSCMJ32': 'Object Oriented Programming',
+        'CSCMJ33': 'Object Oriented Programming',
+        'CSCMV31': 'IT Tools and Applications',
+        'CSCSE31': 'Python Programming',
+        'CSCMJ41': 'Mathematics for Computer Science',
+        'CSCMJ42': 'Database Management System',
+        'CSCMN41': 'Database Management System',
+        'CSCMJ43': 'Computer Organization & Architecture',
+        'CSCMJ44': 'Object Oriented Programming',
+        'CSCMJ45': 'Numerical Computing',
+        'CSCMJ51': 'Operating System Concepts',
+        'CSCMJ53': 'Design and Analysis of Algorithms',
+        'CSCMJ55': 'Theory of Computation',
+        'CSCMV51': 'Introduction to Multimedia',
+        'CSCMJ61': 'Software Engineering',
+        'CSCMJ62': 'Compiler Design',
+        'CSCMJ63': 'Data Communication & Computer Networks',
+        'CSCMJ64': 'Computer Networks',
+        'CSCMJ66': 'Artificial Intelligence',
+        'CSCMV61': 'Data Analysis and Visualization',
+        'CSCMJ71': 'Machine Learning',
+        'CSCMJ73': 'Research Methodology',
+        'CSCMJ74': 'Cloud Computing',
+        'CSCMJ81': 'Deep Learning',
+        'CSCMJ82': 'Internet of Things',
         // Commerce & Management
         'COMFMD11': 'Marketing for Beginners',
         'COMFMD12': 'Accounting for everyone',
@@ -744,8 +781,8 @@
                 let papersMarkup = '';
                 papersList.forEach(p => {
                     const fileUrl = encodeURIComponent(p.filePath);
-                    const titleParam = encodeURIComponent(p.subject + ' (' + p.code + ') ' + p.year);
-                    const isNepGlow = p.isNepPaper || (p.year && p.year.includes('2025-2026'));
+                    const titleParam = encodeURIComponent(p.subject + ' (' + (p.nepCode || p.code) + ') ' + p.year);
+                    const isNepGlow = p.isNepPaper || (p.year && (p.year.includes('2024-25') || p.year.includes('2024-2025') || p.year.includes('2025-2026')));
 
                     if (isNepGlow) {
                         papersMarkup += `
@@ -763,7 +800,7 @@
                                             </span>
                                         </div>
                                         <p class="text-[10px] text-secondary mt-1">
-                                            NEP Paper Code: <span class="font-bold text-emerald-600">${p.nepCode}</span> / Exam: <span class="font-semibold text-primary/80">Midterm 2025-2026</span>
+                                            NEP Paper Code: <span class="font-bold text-emerald-600">${p.nepCode}</span> / Exam: <span class="font-semibold text-primary/80">NEP Paper (${p.year})</span>
                                         </p>
                                     </div>
                                 </div>
@@ -785,7 +822,7 @@
                                     <div>
                                         <h4 class="font-bold text-xs text-primary leading-tight">${p.subject} (${p.year})</h4>
                                         <p class="text-[10px] text-secondary mt-1">
-                                            New Paper Code: <span class="font-semibold text-accent-bhu-saffron">${p.nepCode}</span> / Old Paper Code: <span class="font-semibold text-primary/80">${p.oldCode}</span>
+                                            Paper Code: <span class="font-bold text-accent-neural-emerald">${p.nepCode || p.code}</span>
                                         </p>
                                     </div>
                                 </div>
@@ -882,7 +919,7 @@
         currentFileContent = '';
 
         document.getElementById('modalPaperTitle').textContent = subject;
-        document.getElementById('modalPaperCode').textContent = `NEP: ${nepCode} • Old: ${oldCode}`;
+        document.getElementById('modalPaperCode').textContent = `NEP Paper Code: ${nepCode}`;
         
         document.getElementById('modalLoader').classList.remove('hidden');
         document.getElementById('latexCodeArea').textContent = '';

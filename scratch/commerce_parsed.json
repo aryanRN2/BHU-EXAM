@@ -1,0 +1,1810 @@
+[
+  {
+    "fileName": "BCF111_BusinessEnvironment_SemI_2016-17.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Business_Environment/BCF111_BusinessEnvironment_SemI_2016-17.tex",
+    "code": "BCF-111",
+    "subject": "Business Environment",
+    "semester": 1,
+    "year": "2016-17"
+  },
+  {
+    "fileName": "BCF111_BusinessEnvironment_SemI_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Business_Environment/BCF111_BusinessEnvironment_SemI_2023-24.tex",
+    "code": "BCF-111",
+    "subject": "Business Environment",
+    "semester": 1,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCF112_BusinessLaws_SemI_2016-17.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Business_Laws/BCF112_BusinessLaws_SemI_2016-17.tex",
+    "code": "BCF-112",
+    "subject": "Business Laws",
+    "semester": 1,
+    "year": "2016-17"
+  },
+  {
+    "fileName": "BCF112_BusinessLaws_SemI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Business_Laws/BCF112_BusinessLaws_SemI_2022-23.tex",
+    "code": "BCF-112",
+    "subject": "Business Laws",
+    "semester": 1,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF112_BusinessLaws_SemI_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Business_Laws/BCF112_BusinessLaws_SemI_2023-24.tex",
+    "code": "BCF-112",
+    "subject": "Business Laws",
+    "semester": 1,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCF113_BusinessEconomics_SemI_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Business_Economics/BCF113_BusinessEconomics_SemI_2013-14.tex",
+    "code": "BCF-113",
+    "subject": "Business Economics",
+    "semester": 1,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCF113_BusinessEconomics_SemI_2016-17.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Business_Economics/BCF113_BusinessEconomics_SemI_2016-17.tex",
+    "code": "BCF-113",
+    "subject": "Business Economics",
+    "semester": 1,
+    "year": "2016-17"
+  },
+  {
+    "fileName": "BCF113_BusinessEconomics_SemI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Business_Economics/BCF113_BusinessEconomics_SemI_2022-23.tex",
+    "code": "BCF-113",
+    "subject": "Business Economics",
+    "semester": 1,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF113_BusinessEconomics_SemI_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Business_Economics/BCF113_BusinessEconomics_SemI_2023-24.tex",
+    "code": "BCF-113",
+    "subject": "Business Economics",
+    "semester": 1,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCF114_BusinessOrganisation_SemI_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Business_Organisation/BCF114_BusinessOrganisation_SemI_2013-14.tex",
+    "code": "BCF-114",
+    "subject": "Business Organisation",
+    "semester": 1,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCF114_BusinessOrganisation_SemI_2016-17.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Business_Organisation/BCF114_BusinessOrganisation_SemI_2016-17.tex",
+    "code": "BCF-114",
+    "subject": "Business Organisation",
+    "semester": 1,
+    "year": "2016-17"
+  },
+  {
+    "fileName": "BCF114_BusinessOrganisation_SemI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Business_Organisation/BCF114_BusinessOrganisation_SemI_2022-23.tex",
+    "code": "BCF-114",
+    "subject": "Business Organisation",
+    "semester": 1,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF114_BusinessOrganisation_SemI_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Business_Organisation/BCF114_BusinessOrganisation_SemI_2023-24.tex",
+    "code": "BCF-114",
+    "subject": "Business Organisation",
+    "semester": 1,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCF115_BusinessCommunication_SemI_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Business_Communication/BCF115_BusinessCommunication_SemI_2013-14.tex",
+    "code": "BCF-115",
+    "subject": "Business Communication",
+    "semester": 1,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCF115_BusinessCommunication_SemI_2016-17.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Business_Communication/BCF115_BusinessCommunication_SemI_2016-17.tex",
+    "code": "BCF-115",
+    "subject": "Business Communication",
+    "semester": 1,
+    "year": "2016-17"
+  },
+  {
+    "fileName": "BCF115_BusinessCommunication_SemI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Business_Communication/BCF115_BusinessCommunication_SemI_2022-23.tex",
+    "code": "BCF-115",
+    "subject": "Business Communication",
+    "semester": 1,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF115_BusinessCommunication_SemI_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Business_Communication/BCF115_BusinessCommunication_SemI_2023-24.tex",
+    "code": "BCF-115",
+    "subject": "Business Communication",
+    "semester": 1,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCF116_BusinessStatistics_SemI_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Business_Statistics/BCF116_BusinessStatistics_SemI_2013-14.tex",
+    "code": "BCF-116",
+    "subject": "Business Statistics",
+    "semester": 1,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCF116_BusinessStatistics_SemI_2016-17.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Business_Statistics/BCF116_BusinessStatistics_SemI_2016-17.tex",
+    "code": "BCF-116",
+    "subject": "Business Statistics",
+    "semester": 1,
+    "year": "2016-17"
+  },
+  {
+    "fileName": "BCF116_BusinessStatistics_SemI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Business_Statistics/BCF116_BusinessStatistics_SemI_2022-23.tex",
+    "code": "BCF-116",
+    "subject": "Business Statistics",
+    "semester": 1,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF116_BusinessStatistics_SemI_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Business_Statistics/BCF116_BusinessStatistics_SemI_2023-24.tex",
+    "code": "BCF-116",
+    "subject": "Business Statistics",
+    "semester": 1,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCF121_FundamentalsOfBusinessManagement_SemII_2021-22.tex",
+    "filePath": "COMMERCE_LATEX/Business_Management/BCF121_FundamentalsOfBusinessManagement_SemII_2021-22.tex",
+    "code": "BCF-121",
+    "subject": "Fundamentals of Business Management",
+    "semester": 2,
+    "year": "2021-22"
+  },
+  {
+    "fileName": "BCF121_FundamentalsOfBusinessManagement_SemII_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Business_Management/BCF121_FundamentalsOfBusinessManagement_SemII_2022-23.tex",
+    "code": "BCF-121",
+    "subject": "Fundamentals of Business Management",
+    "semester": 2,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF121_FundamentalsOfBusinessManagement_SemII_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Business_Management/BCF121_FundamentalsOfBusinessManagement_SemII_2023-24.tex",
+    "code": "BCF-121",
+    "subject": "Fundamentals of Business Management",
+    "semester": 2,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCF122_FundamentalsOfBusinessFinance_SemII_2021-22.tex",
+    "filePath": "COMMERCE_LATEX/Business_Finance/BCF122_FundamentalsOfBusinessFinance_SemII_2021-22.tex",
+    "code": "BCF-122",
+    "subject": "Fundamentals of Business Finance",
+    "semester": 2,
+    "year": "2021-22"
+  },
+  {
+    "fileName": "BCF122_FundamentalsOfBusinessFinance_SemII_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Business_Finance/BCF122_FundamentalsOfBusinessFinance_SemII_2022-23.tex",
+    "code": "BCF-122",
+    "subject": "Fundamentals of Business Finance",
+    "semester": 2,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF122_FundamentalsOfBusinessFinance_SemII_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Business_Finance/BCF122_FundamentalsOfBusinessFinance_SemII_2023-24.tex",
+    "code": "BCF-122",
+    "subject": "Fundamentals of Business Finance",
+    "semester": 2,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCF123_FundamentalOfAccounting_SemII_2021-22.tex",
+    "filePath": "COMMERCE_LATEX/Financial_Accounting/BCF123_FundamentalOfAccounting_SemII_2021-22.tex",
+    "code": "BCF-123",
+    "subject": "Fundamental of Accounting",
+    "semester": 2,
+    "year": "2021-22"
+  },
+  {
+    "fileName": "BCF123_FundamentalOfAccounting_SemII_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Financial_Accounting/BCF123_FundamentalOfAccounting_SemII_2022-23.tex",
+    "code": "BCF-123",
+    "subject": "Fundamental of Accounting",
+    "semester": 2,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF123_FundamentalOfAccounting_SemII_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Financial_Accounting/BCF123_FundamentalOfAccounting_SemII_2023-24.tex",
+    "code": "BCF-123",
+    "subject": "Fundamentals of Accounting",
+    "semester": 2,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCF124_FundamentalsOfMarketing_SemII_2021-22.tex",
+    "filePath": "COMMERCE_LATEX/Fundamentals_of_Marketing/BCF124_FundamentalsOfMarketing_SemII_2021-22.tex",
+    "code": "BCF-124",
+    "subject": "Fundamentals of Marketing",
+    "semester": 2,
+    "year": "2021-22"
+  },
+  {
+    "fileName": "BCF124_FundamentalsOfMarketing_SemII_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Fundamentals_of_Marketing/BCF124_FundamentalsOfMarketing_SemII_2023-24.tex",
+    "code": "BCF-124",
+    "subject": "Fundamentals of Marketing",
+    "semester": 2,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCF125_FundamentalsOfBanking_SemII_2021-22.tex",
+    "filePath": "COMMERCE_LATEX/Fundamentals_of_Banking/BCF125_FundamentalsOfBanking_SemII_2021-22.tex",
+    "code": "BCF-125",
+    "subject": "Fundamentals of Banking",
+    "semester": 2,
+    "year": "2021-22"
+  },
+  {
+    "fileName": "BCF125_FundamentalsOfBanking_SemII_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Fundamentals_of_Banking/BCF125_FundamentalsOfBanking_SemII_2022-23.tex",
+    "code": "BCF-125",
+    "subject": "Fundamentals of Banking",
+    "semester": 2,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF125_FundamentalsOfBanking_SemII_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Fundamentals_of_Banking/BCF125_FundamentalsOfBanking_SemII_2023-24.tex",
+    "code": "BCF-125",
+    "subject": "Fundamentals of Banking",
+    "semester": 2,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCF126_FundamentalsOfInsurance_SemII_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Fundamentals_of_Insurance/BCF126_FundamentalsOfInsurance_SemII_2022-23.tex",
+    "code": "BCF-126",
+    "subject": "Fundamentals of Insurance",
+    "semester": 2,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF126_FundamentalsOfInsurance_SemII_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Fundamentals_of_Insurance/BCF126_FundamentalsOfInsurance_SemII_2023-24.tex",
+    "code": "BCF-126",
+    "subject": "Fundamentals of Insurance",
+    "semester": 2,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCF211_CorporateAccounting_SemIII_2016-17.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Corporate_Accounting/BCF211_CorporateAccounting_SemIII_2016-17.tex",
+    "code": "BCF-211",
+    "subject": "Corporate Accounting",
+    "semester": 3,
+    "year": "2016-17"
+  },
+  {
+    "fileName": "BCF211_CorporateAccounting_SemIII_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Corporate_Accounting/BCF211_CorporateAccounting_SemIII_2022-23.tex",
+    "code": "BCF-211",
+    "subject": "Corporate Accounting",
+    "semester": 3,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF211_CorporateAccounting_SemIII_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Corporate_Accounting/BCF211_CorporateAccounting_SemIII_2023-24.tex",
+    "code": "BCF-211",
+    "subject": "Corporate Accounting",
+    "semester": 3,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCF212_CorporateFinancialManagement_SemIII_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Corporate_Financial_Management/BCF212_CorporateFinancialManagement_SemIII_2013-14.tex",
+    "code": "BCF-212",
+    "subject": "Corporate Financial Management",
+    "semester": 3,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCF212_CorporateFinancialManagement_SemIII_2016-17.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Corporate_Financial_Management/BCF212_CorporateFinancialManagement_SemIII_2016-17.tex",
+    "code": "BCF-212",
+    "subject": "Corporate Financial Management",
+    "semester": 3,
+    "year": "2016-17"
+  },
+  {
+    "fileName": "BCF212_CorporateFinancialManagement_SemIII_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Corporate_Financial_Management/BCF212_CorporateFinancialManagement_SemIII_2022-23.tex",
+    "code": "BCF-212",
+    "subject": "Corporate Financial Management",
+    "semester": 3,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF212_CorporateFinancialManagement_SemIII_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Corporate_Financial_Management/BCF212_CorporateFinancialManagement_SemIII_2023-24.tex",
+    "code": "BCF-212",
+    "subject": "Corporate Financial Management",
+    "semester": 3,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCF213_CorporateTaxation_SemIII_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Corporate_Taxation/BCF213_CorporateTaxation_SemIII_2013-14.tex",
+    "code": "BCF-213",
+    "subject": "Corporate Taxation",
+    "semester": 3,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCF213_CorporateTaxation_SemIII_2016-17.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Corporate_Taxation/BCF213_CorporateTaxation_SemIII_2016-17.tex",
+    "code": "BCF-213",
+    "subject": "Corporate Taxation",
+    "semester": 3,
+    "year": "2016-17"
+  },
+  {
+    "fileName": "BCF213_CorporateTaxation_SemIII_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Corporate_Taxation/BCF213_CorporateTaxation_SemIII_2022-23.tex",
+    "code": "BCF-213",
+    "subject": "Corporate Taxation",
+    "semester": 3,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF213_CorporateTaxation_SemIII_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Corporate_Taxation/BCF213_CorporateTaxation_SemIII_2023-24.tex",
+    "code": "BCF-213",
+    "subject": "Corporate Taxation",
+    "semester": 3,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCF214_CorporateAuditing_SemIII_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Corporate_Auditing/BCF214_CorporateAuditing_SemIII_2013-14.tex",
+    "code": "BCF-214",
+    "subject": "Corporate Auditing",
+    "semester": 3,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCF214_CorporateAuditing_SemIII_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Corporate_Auditing/BCF214_CorporateAuditing_SemIII_2022-23.tex",
+    "code": "BCF-214",
+    "subject": "Corporate Auditing",
+    "semester": 3,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF214_CorporateAuditing_SemIII_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Corporate_Auditing/BCF214_CorporateAuditing_SemIII_2023-24.tex",
+    "code": "BCF-214",
+    "subject": "Corporate Auditing",
+    "semester": 3,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCF215_CorporateLaws_SemIII_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Corporate_Laws/BCF215_CorporateLaws_SemIII_2013-14.tex",
+    "code": "BCF-215",
+    "subject": "Corporate Laws",
+    "semester": 3,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCF215_CorporateLaws_SemIII_2016-17.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Corporate_Laws/BCF215_CorporateLaws_SemIII_2016-17.tex",
+    "code": "BCF-215",
+    "subject": "Corporate Laws",
+    "semester": 3,
+    "year": "2016-17"
+  },
+  {
+    "fileName": "BCF215_CorporateLaws_SemIII_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Corporate_Laws/BCF215_CorporateLaws_SemIII_2022-23.tex",
+    "code": "BCF-215",
+    "subject": "Corporate Laws",
+    "semester": 3,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF215_CorporateLaws_SemIII_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Corporate_Laws/BCF215_CorporateLaws_SemIII_2023-24.tex",
+    "code": "BCF-215",
+    "subject": "Corporate Laws",
+    "semester": 3,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCF216_CorporateGovernance_SemIII_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Corporate_Governance/BCF216_CorporateGovernance_SemIII_2013-14.tex",
+    "code": "BCF-216",
+    "subject": "Corporate Governance",
+    "semester": 3,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCF216_CorporateGovernance_SemIII_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Corporate_Governance/BCF216_CorporateGovernance_SemIII_2022-23.tex",
+    "code": "BCF-216",
+    "subject": "Corporate Governance",
+    "semester": 3,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF216_CorporateGovernance_SemIII_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Corporate_Governance/BCF216_CorporateGovernance_SemIII_2023-24.tex",
+    "code": "BCF-216",
+    "subject": "Corporate Governance",
+    "semester": 3,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCF221_IndianFinancialSystem_SemIV_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Indian_Financial_System/BCF221_IndianFinancialSystem_SemIV_2015-16.tex",
+    "code": "BCF-221",
+    "subject": "Indian Financial System",
+    "semester": 4,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCF221_IndianFinancialSystem_SemIV_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Indian_Financial_System/BCF221_IndianFinancialSystem_SemIV_2022-23.tex",
+    "code": "BCF-221",
+    "subject": "Indian Financial System",
+    "semester": 4,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF222_FinancialAnalysis_SemIV_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Financial_Analysis/BCF222_FinancialAnalysis_SemIV_2022-23.tex",
+    "code": "BCF-222",
+    "subject": "Financial Analysis",
+    "semester": 4,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF222_FinancialAnalysis_SemIV_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Financial_Analysis/BCF222_FinancialAnalysis_SemIV_2023-24.tex",
+    "code": "BCF-222",
+    "subject": "Financial Analysis",
+    "semester": 4,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCF223_FeeBasedFinancialServices_SemIV_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Fee_Based_Financial_Services/BCF223_FeeBasedFinancialServices_SemIV_2015-16.tex",
+    "code": "BCF-223",
+    "subject": "Fee Based Financial Services",
+    "semester": 4,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCF223_FeeBasedFinancialServices_SemIV_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Fee_Based_Financial_Services/BCF223_FeeBasedFinancialServices_SemIV_2022-23.tex",
+    "code": "BCF-223",
+    "subject": "Fee Based Financial Services",
+    "semester": 4,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF223_FeeBasedFinancialServices_SemIV_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Fee_Based_Financial_Services/BCF223_FeeBasedFinancialServices_SemIV_2023-24.tex",
+    "code": "BCF-223",
+    "subject": "Fee Based Financial Services",
+    "semester": 4,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCF224_ComputerApplicationsInFinancialMarkets_SemIV_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Computer_Applications_in_Financial_Markets/BCF224_ComputerApplicationsInFinancialMarkets_SemIV_2022-23.tex",
+    "code": "BCF-224",
+    "subject": "Computer Applications in Financial Markets",
+    "semester": 4,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF224_ComputerApplicationsInFinancialMarkets_SemIV_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Computer_Applications_in_Financial_Markets/BCF224_ComputerApplicationsInFinancialMarkets_SemIV_2023-24.tex",
+    "code": "BCF-224",
+    "subject": "Computer Applications in Financial Markets",
+    "semester": 4,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCF225_IndianFiscalManagement_SemIV_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Indian_Fiscal_Management/BCF225_IndianFiscalManagement_SemIV_2015-16.tex",
+    "code": "BCF-225",
+    "subject": "Indian Fiscal Management",
+    "semester": 4,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCF225_IndianFiscalManagement_SemIV_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Indian_Fiscal_Management/BCF225_IndianFiscalManagement_SemIV_2022-23.tex",
+    "code": "BCF-225",
+    "subject": "Indian Fiscal Management",
+    "semester": 4,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF225_IndianFiscalManagement_SemIV_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Indian_Fiscal_Management/BCF225_IndianFiscalManagement_SemIV_2023-24.tex",
+    "code": "BCF-225",
+    "subject": "Indian Fiscal Management",
+    "semester": 4,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCF226_FinancialMarketRegulations_SemIV_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Financial_Market_Regulations/BCF226_FinancialMarketRegulations_SemIV_2015-16.tex",
+    "code": "BCF-226",
+    "subject": "Financial Market Regulations",
+    "semester": 4,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCF226_FinancialMarketRegulations_SemIV_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Financial_Market_Regulations/BCF226_FinancialMarketRegulations_SemIV_2022-23.tex",
+    "code": "BCF-226",
+    "subject": "Financial Market Regulations",
+    "semester": 4,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF299_FinancialAnalysis_SemIV_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Financial_Analysis/BCF299_FinancialAnalysis_SemIV_2015-16.tex",
+    "code": "BCF-299",
+    "subject": "Financial Analysis",
+    "semester": 4,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCF311_SecurityAnalysis_SemV_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_V/Security_Analysis/BCF311_SecurityAnalysis_SemV_2013-14.tex",
+    "code": "BCF-311",
+    "subject": "Security Analysis",
+    "semester": 5,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCF311_SecurityAnalysis_SemV_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_V/Security_Analysis/BCF311_SecurityAnalysis_SemV_2022-23.tex",
+    "code": "BCF-311",
+    "subject": "Security Analysis",
+    "semester": 5,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF312_FundBasedFinancialServices_SemV_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_V/Fund_Based_Financial_Services/BCF312_FundBasedFinancialServices_SemV_2022-23.tex",
+    "code": "BCF-312",
+    "subject": "Fund Based Financial Services",
+    "semester": 5,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF313_MutualFundOperations_SemV_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_V/Mutual_Fund_Operations/BCF313_MutualFundOperations_SemV_2013-14.tex",
+    "code": "BCF-313",
+    "subject": "Mutual Fund Operations",
+    "semester": 5,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCF313_MutualFundOperations_SemV_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_V/Mutual_Fund_Operations/BCF313_MutualFundOperations_SemV_2022-23.tex",
+    "code": "BCF-313",
+    "subject": "Mutual Fund Operations",
+    "semester": 5,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF314_NewIssueMarketOperations_SemV_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_V/New_Issue_Market_Operations/BCF314_NewIssueMarketOperations_SemV_2013-14.tex",
+    "code": "BCF-314",
+    "subject": "New Issue Market Operations",
+    "semester": 5,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCF314_NewIssueMarketOperations_SemV_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_V/New_Issue_Market_Operations/BCF314_NewIssueMarketOperations_SemV_2022-23.tex",
+    "code": "BCF-314",
+    "subject": "New Issue Market Operations",
+    "semester": 5,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF315_StockMarketOperations_SemV_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_V/Stock_Market_Operations/BCF315_StockMarketOperations_SemV_2013-14.tex",
+    "code": "BCF-315",
+    "subject": "Stock Market Operations",
+    "semester": 5,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCF321_PortfolioManagement_SemVI_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Portfolio_Management/BCF321_PortfolioManagement_SemVI_2015-16.tex",
+    "code": "BCF-321",
+    "subject": "Portfolio Management",
+    "semester": 6,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCF321_PortfolioManagement_SemVI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Portfolio_Management/BCF321_PortfolioManagement_SemVI_2022-23.tex",
+    "code": "BCF-321",
+    "subject": "Portfolio Management",
+    "semester": 6,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF322_ForeignExchangeMarketOperations_SemVI_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Foreign_Exchange_Market_Operations/BCF322_ForeignExchangeMarketOperations_SemVI_2015-16.tex",
+    "code": "BCF-322",
+    "subject": "Foreign Exchange Market Operations",
+    "semester": 6,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCF322_ForeignExchangeMarketOperations_SemVI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Foreign_Exchange_Market_Operations/BCF322_ForeignExchangeMarketOperations_SemVI_2022-23.tex",
+    "code": "BCF-322",
+    "subject": "Foreign Exchange Market Operations",
+    "semester": 6,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF323_DerivativesMarketOperations_SemVI_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Derivatives_Market_Operations/BCF323_DerivativesMarketOperations_SemVI_2015-16.tex",
+    "code": "BCF-323",
+    "subject": "Derivatives Market Operations",
+    "semester": 6,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCF323_DerivativesMarketOperations_SemVI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Derivatives_Market_Operations/BCF323_DerivativesMarketOperations_SemVI_2022-23.tex",
+    "code": "BCF-323",
+    "subject": "Derivatives Market Operations",
+    "semester": 6,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF324_InternationalFinancialMarketOperations_SemVI_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/International_Financial_Market_Operations/BCF324_InternationalFinancialMarketOperations_SemVI_2015-16.tex",
+    "code": "BCF-324",
+    "subject": "International Financial Market Operations",
+    "semester": 6,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCF324_InternationalFinancialMarketOperations_SemVI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/International_Financial_Market_Operations/BCF324_InternationalFinancialMarketOperations_SemVI_2022-23.tex",
+    "code": "BCF-324",
+    "subject": "International Financial Market Operations",
+    "semester": 6,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCF325_MoneyMarketOperations_SemVI_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Money_Market_Operations/BCF325_MoneyMarketOperations_SemVI_2015-16.tex",
+    "code": "BCF-325",
+    "subject": "Money Market Operations",
+    "semester": 6,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCF325_MoneyMarketOperations_SemVI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Money_Market_Operations/BCF325_MoneyMarketOperations_SemVI_2022-23.tex",
+    "code": "BCF-325",
+    "subject": "Money Market Operations",
+    "semester": 6,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH111_FinancialAccountingI_SemI_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Financial_Accounting/BCH111_FinancialAccountingI_SemI_2013-14.tex",
+    "code": "BCH-111",
+    "subject": "Financial Accounting - I",
+    "semester": 1,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCH111_FinancialAccountingI_SemI_2016-17.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Financial_Accounting/BCH111_FinancialAccountingI_SemI_2016-17.tex",
+    "code": "BCH-111",
+    "subject": "Financial Accounting",
+    "semester": 1,
+    "year": "2016-17"
+  },
+  {
+    "fileName": "BCH111_FinancialAccountingI_SemI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Financial_Accounting/BCH111_FinancialAccountingI_SemI_2022-23.tex",
+    "code": "BCH-111",
+    "subject": "Financial Accounting-I",
+    "semester": 1,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH111_FinancialAccountingI_SemI_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Financial_Accounting/BCH111_FinancialAccountingI_SemI_2023-24.tex",
+    "code": "BCH-111",
+    "subject": "Financial Accounting-I",
+    "semester": 1,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCH112_PrinciplesOfManagement_SemI_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Principles_of_Management/BCH112_PrinciplesOfManagement_SemI_2013-14.tex",
+    "code": "BCH-112",
+    "subject": "Principles of Management",
+    "semester": 1,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCH112_PrinciplesOfManagement_SemI_2016-17.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Principles_of_Management/BCH112_PrinciplesOfManagement_SemI_2016-17.tex",
+    "code": "BCH-112",
+    "subject": "Principles of Management",
+    "semester": 1,
+    "year": "2016-17"
+  },
+  {
+    "fileName": "BCH112_PrinciplesOfManagement_SemI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Principles_of_Management/BCH112_PrinciplesOfManagement_SemI_2022-23.tex",
+    "code": "BCH-112",
+    "subject": "Principles of Management",
+    "semester": 1,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH113_BusinessEnvironment_SemI_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Business_Environment/BCH113_BusinessEnvironment_SemI_2013-14.tex",
+    "code": "BCH-113",
+    "subject": "Business Environment",
+    "semester": 1,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCH113_BusinessEnvironment_SemI_2016-17.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Business_Environment/BCH113_BusinessEnvironment_SemI_2016-17.tex",
+    "code": "BCH-113",
+    "subject": "Business Environment",
+    "semester": 1,
+    "year": "2016-17"
+  },
+  {
+    "fileName": "BCH113_BusinessEnvironment_SemI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Business_Environment/BCH113_BusinessEnvironment_SemI_2022-23.tex",
+    "code": "BCH-113",
+    "subject": "Business Environment",
+    "semester": 1,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH113_BusinessEnvironment_SemI_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Business_Environment/BCH113_BusinessEnvironment_SemI_2023-24.tex",
+    "code": "BCH-113",
+    "subject": "Business Environment",
+    "semester": 1,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCH114_MonetaryTheory_SemI_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Monetary_Theory/BCH114_MonetaryTheory_SemI_2013-14.tex",
+    "code": "BCH-114",
+    "subject": "Monetary Theory",
+    "semester": 1,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCH114_MonetaryTheory_SemI_2016-17.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Monetary_Theory/BCH114_MonetaryTheory_SemI_2016-17.tex",
+    "code": "BCH-114",
+    "subject": "Monetary Theory",
+    "semester": 1,
+    "year": "2016-17"
+  },
+  {
+    "fileName": "BCH114_MonetaryTheory_SemI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Monetary_Theory/BCH114_MonetaryTheory_SemI_2022-23.tex",
+    "code": "BCH-114",
+    "subject": "Monetary Theory",
+    "semester": 1,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH114_MonetaryTheory_SemI_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Monetary_Theory/BCH114_MonetaryTheory_SemI_2023-24.tex",
+    "code": "BCH-114",
+    "subject": "Monetary Theory",
+    "semester": 1,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCH115_FundamentalsOfMarketing_SemI_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Fundamentals_of_Marketing/BCH115_FundamentalsOfMarketing_SemI_2013-14.tex",
+    "code": "BCH-115",
+    "subject": "Fundamentals of Marketing",
+    "semester": 1,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCH115_FundamentalsOfMarketing_SemI_2016-17.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Fundamentals_of_Marketing/BCH115_FundamentalsOfMarketing_SemI_2016-17.tex",
+    "code": "BCH-115",
+    "subject": "Fundamental of Marketing",
+    "semester": 1,
+    "year": "2016-17"
+  },
+  {
+    "fileName": "BCH115_FundamentalsOfMarketing_SemI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Fundamentals_of_Marketing/BCH115_FundamentalsOfMarketing_SemI_2022-23.tex",
+    "code": "BCH-115",
+    "subject": "Fundamentals of Marketing",
+    "semester": 1,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH115_FundamentalsOfMarketing_SemI_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Fundamentals_of_Marketing/BCH115_FundamentalsOfMarketing_SemI_2023-24.tex",
+    "code": "BCH-115",
+    "subject": "Fundamentals of Marketing",
+    "semester": 1,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCH121_BusinessOrganisation_SemII_2014-15.tex",
+    "filePath": "COMMERCE_LATEX/Business_Organisation/BCH121_BusinessOrganisation_SemII_2014-15.tex",
+    "code": "BCH-121",
+    "subject": "Business Organisation",
+    "semester": 2,
+    "year": "2014-15"
+  },
+  {
+    "fileName": "BCH121_BusinessOrganisation_SemII_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Business_Organisation/BCH121_BusinessOrganisation_SemII_2015-16.tex",
+    "code": "BCH-121",
+    "subject": "Business Organisation",
+    "semester": 2,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCH121_BusinessOrganisation_SemII_2021-22.tex",
+    "filePath": "COMMERCE_LATEX/Business_Organisation/BCH121_BusinessOrganisation_SemII_2021-22.tex",
+    "code": "BCH-121",
+    "subject": "Business Organisation",
+    "semester": 2,
+    "year": "2021-22"
+  },
+  {
+    "fileName": "BCH121_BusinessOrganisation_SemII_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Business_Organisation/BCH121_BusinessOrganisation_SemII_2022-23.tex",
+    "code": "BCH-121",
+    "subject": "Business Organisation",
+    "semester": 2,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH121_BusinessOrganisation_SemII_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Business_Organisation/BCH121_BusinessOrganisation_SemII_2023-24.tex",
+    "code": "BCH-121",
+    "subject": "Business Organisation",
+    "semester": 2,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCH122_FinancialAccountingII_SemII_2014-15.tex",
+    "filePath": "COMMERCE_LATEX/Financial_Accounting/BCH122_FinancialAccountingII_SemII_2014-15.tex",
+    "code": "BCH-122",
+    "subject": "Financial Accounting - II",
+    "semester": 2,
+    "year": "2014-15"
+  },
+  {
+    "fileName": "BCH122_FinancialAccountingII_SemII_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Financial_Accounting/BCH122_FinancialAccountingII_SemII_2015-16.tex",
+    "code": "BCH-122",
+    "subject": "Financial Accounting-II",
+    "semester": 2,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCH122_FinancialAccountingII_SemII_2021-22.tex",
+    "filePath": "COMMERCE_LATEX/Financial_Accounting/BCH122_FinancialAccountingII_SemII_2021-22.tex",
+    "code": "BCH-122",
+    "subject": "Financial Accounting-II",
+    "semester": 2,
+    "year": "2021-22"
+  },
+  {
+    "fileName": "BCH122_FinancialAccountingII_SemII_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Financial_Accounting/BCH122_FinancialAccountingII_SemII_2022-23.tex",
+    "code": "BCH-122",
+    "subject": "Financial Accounting - II",
+    "semester": 2,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH112_PrinciplesOfManagement_SemI_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/Principles_of_Management/BCH112_PrinciplesOfManagement_SemI_2023-24.tex",
+    "code": "BCH-122",
+    "subject": "Principles of Management",
+    "semester": 1,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCH123_BankingAndFinancialInstitutions_SemII_2014-15.tex",
+    "filePath": "COMMERCE_LATEX/Banking_and_Financial_Institutions/BCH123_BankingAndFinancialInstitutions_SemII_2014-15.tex",
+    "code": "BCH-123",
+    "subject": "Banking and Financial Institutions",
+    "semester": 2,
+    "year": "2014-15"
+  },
+  {
+    "fileName": "BCH123_BankingAndFinancialInstitutions_SemII_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Banking_and_Financial_Institutions/BCH123_BankingAndFinancialInstitutions_SemII_2015-16.tex",
+    "code": "BCH-123",
+    "subject": "Banking and Financial Institutions",
+    "semester": 2,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCH123_BankingAndFinancialInstitutions_SemII_2021-22.tex",
+    "filePath": "COMMERCE_LATEX/Banking_and_Financial_Institutions/BCH123_BankingAndFinancialInstitutions_SemII_2021-22.tex",
+    "code": "BCH-123",
+    "subject": "Banking and Financial Institutions",
+    "semester": 2,
+    "year": "2021-22"
+  },
+  {
+    "fileName": "BCH123_BankingAndFinancialInstitutions_SemII_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Banking_and_Financial_Institutions/BCH123_BankingAndFinancialInstitutions_SemII_2022-23.tex",
+    "code": "BCH-123",
+    "subject": "Banking and Financial Institutions",
+    "semester": 2,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH123_BankingAndFinancialInstitutions_SemII_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Banking_and_Financial_Institutions/BCH123_BankingAndFinancialInstitutions_SemII_2023-24.tex",
+    "code": "BCH-123",
+    "subject": "Banking and Financial Institutions",
+    "semester": 2,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCH124_BusinessEntrepreneurship_SemII_2014-15.tex",
+    "filePath": "COMMERCE_LATEX/Business_Entrepreneurship/BCH124_BusinessEntrepreneurship_SemII_2014-15.tex",
+    "code": "BCH-124",
+    "subject": "Business Entrepreneurship",
+    "semester": 2,
+    "year": "2014-15"
+  },
+  {
+    "fileName": "BCH124_BusinessEntrepreneurship_SemII_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Business_Entrepreneurship/BCH124_BusinessEntrepreneurship_SemII_2015-16.tex",
+    "code": "BCH-124",
+    "subject": "Business Entrepreneurship",
+    "semester": 2,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCH124_BusinessEntrepreneurship_SemII_2021-22.tex",
+    "filePath": "COMMERCE_LATEX/Business_Entrepreneurship/BCH124_BusinessEntrepreneurship_SemII_2021-22.tex",
+    "code": "BCH-124",
+    "subject": "Business Entrepreneurship",
+    "semester": 2,
+    "year": "2021-22"
+  },
+  {
+    "fileName": "BCH124_BusinessEntrepreneurship_SemII_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Business_Entrepreneurship/BCH124_BusinessEntrepreneurship_SemII_2022-23.tex",
+    "code": "BCH-124",
+    "subject": "Business Entrepreneurship",
+    "semester": 2,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH124_BusinessEntrepreneurship_SemII_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Business_Entrepreneurship/BCH124_BusinessEntrepreneurship_SemII_2023-24.tex",
+    "code": "BCH-124",
+    "subject": "Business Entrepreneurship",
+    "semester": 2,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCH125_FundamentalsOfHumanResourceManagement_SemII_2014-15.tex",
+    "filePath": "COMMERCE_LATEX/Human_Resource_Management/BCH125_FundamentalsOfHumanResourceManagement_SemII_2014-15.tex",
+    "code": "BCH-125",
+    "subject": "Fundamentals of Human Resource Management",
+    "semester": 2,
+    "year": "2014-15"
+  },
+  {
+    "fileName": "BCH125_FundamentalsOfHumanResourceManagement_SemII_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Human_Resource_Management/BCH125_FundamentalsOfHumanResourceManagement_SemII_2015-16.tex",
+    "code": "BCH-125",
+    "subject": "Fundamentals of Human Resource Management",
+    "semester": 2,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCH125_FundamentalsOfHumanResourceManagement_SemII_2021-22.tex",
+    "filePath": "COMMERCE_LATEX/Human_Resource_Management/BCH125_FundamentalsOfHumanResourceManagement_SemII_2021-22.tex",
+    "code": "BCH-125",
+    "subject": "Fundamentals of Human Resource Management",
+    "semester": 2,
+    "year": "2021-22"
+  },
+  {
+    "fileName": "BCH125_FundamentalsOfHumanResourceManagement_SemII_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Human_Resource_Management/BCH125_FundamentalsOfHumanResourceManagement_SemII_2022-23.tex",
+    "code": "BCH-125",
+    "subject": "Fundamentals of Human Resource Management",
+    "semester": 2,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH125_FundamentalsOfHumanResourceManagement_SemII_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Human_Resource_Management/BCH125_FundamentalsOfHumanResourceManagement_SemII_2023-24.tex",
+    "code": "BCH-125",
+    "subject": "Fundamentals of Human Resource Management",
+    "semester": 2,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCH126_ITAndBusinessCommunication_SemII_2014-15.tex",
+    "filePath": "COMMERCE_LATEX/IT_and_Business_Communication/BCH126_ITAndBusinessCommunication_SemII_2014-15.tex",
+    "code": "BCH-126",
+    "subject": "Information Technology \\& Business Communication",
+    "semester": 2,
+    "year": "2014-15"
+  },
+  {
+    "fileName": "BCH126_ITAndBusinessCommunication_SemII_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/IT_and_Business_Communication/BCH126_ITAndBusinessCommunication_SemII_2015-16.tex",
+    "code": "BCH-126",
+    "subject": "IT & Business Communication",
+    "semester": 2,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCH126_ITAndBusinessCommunication_SemII_2021-22.tex",
+    "filePath": "COMMERCE_LATEX/IT_and_Business_Communication/BCH126_ITAndBusinessCommunication_SemII_2021-22.tex",
+    "code": "BCH-126",
+    "subject": "Information Technology and Business Communication",
+    "semester": 2,
+    "year": "2021-22"
+  },
+  {
+    "fileName": "BCH126_ITAndBusinessCommunication_SemII_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/IT_and_Business_Communication/BCH126_ITAndBusinessCommunication_SemII_2022-23.tex",
+    "code": "BCH-126",
+    "subject": "Information Technology \\& Business Communication",
+    "semester": 2,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH126_ITAndBusinessCommunication_SemII_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/IT_and_Business_Communication/BCH126_ITAndBusinessCommunication_SemII_2023-24.tex",
+    "code": "BCH-126",
+    "subject": "Information Technology and Business Communication",
+    "semester": 2,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCH211_BusinessRegulatoryFramework_SemIII_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Business_Regulatory_Framework/BCH211_BusinessRegulatoryFramework_SemIII_2013-14.tex",
+    "code": "BCH-211",
+    "subject": "Business Regulatory Framework - I",
+    "semester": 3,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCH211_BusinessRegulatoryFramework_SemIII_2016-17.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Business_Regulatory_Framework/BCH211_BusinessRegulatoryFramework_SemIII_2016-17.tex",
+    "code": "BCH-211",
+    "subject": "Business Regulatory Framework",
+    "semester": 3,
+    "year": "2016-17"
+  },
+  {
+    "fileName": "BCH211_BusinessRegulatoryFrameworkI_SemIII_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Business_Regulatory_Framework/BCH211_BusinessRegulatoryFrameworkI_SemIII_2022-23.tex",
+    "code": "BCH-211",
+    "subject": "Business Regulatory Framework-I",
+    "semester": 3,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH211_BusinessRegulatoryFramework_SemIII_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Business_Regulatory_Framework/BCH211_BusinessRegulatoryFramework_SemIII_2023-24.tex",
+    "code": "BCH-211",
+    "subject": "Business Regulatory Framework-I",
+    "semester": 3,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCH212_BusinessEconomicsI_SemIII_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Business_Economics_I/BCH212_BusinessEconomicsI_SemIII_2013-14.tex",
+    "code": "BCH-212",
+    "subject": "Business Economics - I",
+    "semester": 3,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCH212_BusinessEconomicsI_SemIII_2016-17.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Business_Economics_I/BCH212_BusinessEconomicsI_SemIII_2016-17.tex",
+    "code": "BCH-212",
+    "subject": "Business Economics - I",
+    "semester": 3,
+    "year": "2016-17"
+  },
+  {
+    "fileName": "BCH212_BusinessEconomicsI_SemIII_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Business_Economics_I/BCH212_BusinessEconomicsI_SemIII_2022-23.tex",
+    "code": "BCH-212",
+    "subject": "Business Economics-I",
+    "semester": 3,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH212_BusinessEconomicsI_SemIII_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Business_Economics_I/BCH212_BusinessEconomicsI_SemIII_2023-24.tex",
+    "code": "BCH-212",
+    "subject": "Business Economics-I",
+    "semester": 3,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCH213_SpecialisedAccountsI_SemIII_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Specialised_Accounts_I/BCH213_SpecialisedAccountsI_SemIII_2013-14.tex",
+    "code": "BCH-213",
+    "subject": "Specialised Accounts - I",
+    "semester": 3,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCH213_SpecialisedAccountsI_SemIII_2016-17.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Specialised_Accounts_I/BCH213_SpecialisedAccountsI_SemIII_2016-17.tex",
+    "code": "BCH-213",
+    "subject": "Specialised Accounts - I",
+    "semester": 3,
+    "year": "2016-17"
+  },
+  {
+    "fileName": "BCH213_SpecialisedAccountsI_SemIII_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Specialised_Accounts_I/BCH213_SpecialisedAccountsI_SemIII_2022-23.tex",
+    "code": "BCH-213",
+    "subject": "Specialised Accounts-I",
+    "semester": 3,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH213_SpecialisedAccountsI_SemIII_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Specialised_Accounts_I/BCH213_SpecialisedAccountsI_SemIII_2023-24.tex",
+    "code": "BCH-213",
+    "subject": "Specialised Accounts - I",
+    "semester": 3,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCH214_CostAccounting_SemIII_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Cost_Accounting/BCH214_CostAccounting_SemIII_2013-14.tex",
+    "code": "BCH-214",
+    "subject": "Cost Accounting - I",
+    "semester": 3,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCH214_CostAccounting_SemIII_2016-17.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Cost_Accounting/BCH214_CostAccounting_SemIII_2016-17.tex",
+    "code": "BCH-214",
+    "subject": "Cost Accounting",
+    "semester": 3,
+    "year": "2016-17"
+  },
+  {
+    "fileName": "BCH214_CostAccounting_SemIII_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Cost_Accounting/BCH214_CostAccounting_SemIII_2022-23.tex",
+    "code": "BCH-214",
+    "subject": "Cost Accounting",
+    "semester": 3,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH214_CostAccounting_SemIII_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Cost_Accounting/BCH214_CostAccounting_SemIII_2023-24.tex",
+    "code": "BCH-214",
+    "subject": "Cost Accounting",
+    "semester": 3,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCH215_FundamentalsOfBusinessFinance_SemIII_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Fundamentals_of_Business_Finance/BCH215_FundamentalsOfBusinessFinance_SemIII_2013-14.tex",
+    "code": "BCH-215",
+    "subject": "Fundamentals of Business Finance",
+    "semester": 3,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCH215_FundamentalsOfBusinessFinance_SemIII_2016-17.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Fundamentals_of_Business_Finance/BCH215_FundamentalsOfBusinessFinance_SemIII_2016-17.tex",
+    "code": "BCH-215",
+    "subject": "Fundamentals of Business Finance",
+    "semester": 3,
+    "year": "2016-17"
+  },
+  {
+    "fileName": "BCH215_FundamentalsOfBusinessFinance_SemIII_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Fundamentals_of_Business_Finance/BCH215_FundamentalsOfBusinessFinance_SemIII_2022-23.tex",
+    "code": "BCH-215",
+    "subject": "Fundamentals of Business Finance",
+    "semester": 3,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH215_FundamentalsOfBusinessFinance_SemIII_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Fundamentals_of_Business_Finance/BCH215_FundamentalsOfBusinessFinance_SemIII_2023-24.tex",
+    "code": "BCH-215",
+    "subject": "Fundamentals of Business Finance",
+    "semester": 3,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCH216_BusinessStatistics_SemIII_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Business_Statistics/BCH216_BusinessStatistics_SemIII_2013-14.tex",
+    "code": "BCH-216",
+    "subject": "Basic Statistics",
+    "semester": 3,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCH216_BusinessStatistics_SemIII_2016-17.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Business_Statistics/BCH216_BusinessStatistics_SemIII_2016-17.tex",
+    "code": "BCH-216",
+    "subject": "Business Statistics",
+    "semester": 3,
+    "year": "2016-17"
+  },
+  {
+    "fileName": "BCH216_BusinessStatistics_SemIII_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Business_Statistics/BCH216_BusinessStatistics_SemIII_2022-23.tex",
+    "code": "BCH-216",
+    "subject": "Basic Statistics",
+    "semester": 3,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH216_BusinessStatistics_SemIII_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_III/Business_Statistics/BCH216_BusinessStatistics_SemIII_2023-24.tex",
+    "code": "BCH-216",
+    "subject": "Basic Statistics",
+    "semester": 3,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCH221_BusinessRegulatoryFrameworkII_SemIV_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Business_Regulatory_Framework_II/BCH221_BusinessRegulatoryFrameworkII_SemIV_2015-16.tex",
+    "code": "BCH-221",
+    "subject": "Business Regulatory Framework-II",
+    "semester": 4,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCH221_BusinessRegulatoryFrameworkII_SemIV_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Business_Regulatory_Framework_II/BCH221_BusinessRegulatoryFrameworkII_SemIV_2022-23.tex",
+    "code": "BCH-221",
+    "subject": "Business Regulatory Framework II",
+    "semester": 4,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH221_BusinessRegulatoryFrameworkII_SemIV_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Business_Regulatory_Framework_II/BCH221_BusinessRegulatoryFrameworkII_SemIV_2023-24.tex",
+    "code": "BCH-221",
+    "subject": "Business Regulatory Framework-II",
+    "semester": 4,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCH222_BusinessEconomicsII_SemIV_2014-15.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Business_Economics_II/BCH222_BusinessEconomicsII_SemIV_2014-15.tex",
+    "code": "BCH-222",
+    "subject": "Business Economics-II",
+    "semester": 4,
+    "year": "2014-15"
+  },
+  {
+    "fileName": "BCH222_BusinessEconomicsII_SemIV_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Business_Economics_II/BCH222_BusinessEconomicsII_SemIV_2015-16.tex",
+    "code": "BCH-222",
+    "subject": "Business Economics-II",
+    "semester": 4,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCH222_BusinessEconomicsII_SemIV_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Business_Economics_II/BCH222_BusinessEconomicsII_SemIV_2022-23.tex",
+    "code": "BCH-222",
+    "subject": "Business Economics II",
+    "semester": 4,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH222_BusinessEconomicsII_SemIV_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Business_Economics_II/BCH222_BusinessEconomicsII_SemIV_2023-24.tex",
+    "code": "BCH-222",
+    "subject": "Business Economics-II",
+    "semester": 4,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCH223_SpecialisedAccountsII_SemIV_2014-15.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Specialised_Accounts_II/BCH223_SpecialisedAccountsII_SemIV_2014-15.tex",
+    "code": "BCH-223",
+    "subject": "Specialised Accounts-II",
+    "semester": 4,
+    "year": "2014-15"
+  },
+  {
+    "fileName": "BCH223_SpecialisedAccountsII_SemIV_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Specialised_Accounts_II/BCH223_SpecialisedAccountsII_SemIV_2015-16.tex",
+    "code": "BCH-223",
+    "subject": "Specialised Accounts-II",
+    "semester": 4,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCH223_SpecialisedAccountsII_SemIV_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Specialised_Accounts_II/BCH223_SpecialisedAccountsII_SemIV_2022-23.tex",
+    "code": "BCH-223",
+    "subject": "Specialised Accounts II",
+    "semester": 4,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH223_SpecialisedAccountsII_SemIV_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Specialised_Accounts_II/BCH223_SpecialisedAccountsII_SemIV_2023-24.tex",
+    "code": "BCH-223",
+    "subject": "Specialised Accounts-II",
+    "semester": 4,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCH224_BusinessMathematics_SemIV_2014-15.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Business_Mathematics/BCH224_BusinessMathematics_SemIV_2014-15.tex",
+    "code": "BCH-224",
+    "subject": "Business Mathematics",
+    "semester": 4,
+    "year": "2014-15"
+  },
+  {
+    "fileName": "BCH224_BusinessMathematics_SemIV_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Business_Mathematics/BCH224_BusinessMathematics_SemIV_2015-16.tex",
+    "code": "BCH-224",
+    "subject": "Business Mathematics",
+    "semester": 4,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCH224_BusinessMathematics_SemIV_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Business_Mathematics/BCH224_BusinessMathematics_SemIV_2022-23.tex",
+    "code": "BCH-224",
+    "subject": "Business Mathematics",
+    "semester": 4,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH224_BusinessMathematics_SemIV_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Business_Mathematics/BCH224_BusinessMathematics_SemIV_2023-24.tex",
+    "code": "BCH-224",
+    "subject": "Business Mathematics",
+    "semester": 4,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCH225_PublicFinance_SemIV_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Public_Finance/BCH225_PublicFinance_SemIV_2015-16.tex",
+    "code": "BCH-225",
+    "subject": "Public Finance",
+    "semester": 4,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCH225_PublicFinance_SemIV_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Public_Finance/BCH225_PublicFinance_SemIV_2022-23.tex",
+    "code": "BCH-225",
+    "subject": "Public Finance",
+    "semester": 4,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH225_PublicFinance_SemIV_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Public_Finance/BCH225_PublicFinance_SemIV_2023-24.tex",
+    "code": "BCH-225",
+    "subject": "Public Finance",
+    "semester": 4,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCH226_BusinessStatistics_SemIV_2014-15.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Business_Statistics/BCH226_BusinessStatistics_SemIV_2014-15.tex",
+    "code": "BCH-226",
+    "subject": "Business Statistics",
+    "semester": 4,
+    "year": "2014-15"
+  },
+  {
+    "fileName": "BCH226_BusinessStatistics_SemIV_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Business_Statistics/BCH226_BusinessStatistics_SemIV_2015-16.tex",
+    "code": "BCH-226",
+    "subject": "Business Statistics",
+    "semester": 4,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCH226_BusinessStatistics_SemIV_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Business_Statistics/BCH226_BusinessStatistics_SemIV_2022-23.tex",
+    "code": "BCH-226",
+    "subject": "Business Statistics",
+    "semester": 4,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH226_BusinessStatistics_SemIV_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_IV/Business_Statistics/BCH226_BusinessStatistics_SemIV_2023-24.tex",
+    "code": "BCH-226",
+    "subject": "Business Statistics",
+    "semester": 4,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCH311_AdvancedCompanyAccounts_SemV_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_V/Advanced_Company_Accounts/BCH311_AdvancedCompanyAccounts_SemV_2013-14.tex",
+    "code": "BCH-311",
+    "subject": "Advanced Company Accounts",
+    "semester": 5,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCH311_AdvancedCompanyAccounts_SemV_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_V/Advanced_Company_Accounts/BCH311_AdvancedCompanyAccounts_SemV_2022-23.tex",
+    "code": "BCH-311",
+    "subject": "Advanced Company Accounts",
+    "semester": 5,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH312_IncomeTaxLawAndAccounts_SemV_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_V/Income_Tax_Law_and_Accounts/BCH312_IncomeTaxLawAndAccounts_SemV_2013-14.tex",
+    "code": "BCH-312",
+    "subject": "Income Tax Law & Accounts",
+    "semester": 5,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCH312_IncomeTaxLawAndAccounts_SemV_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_V/Income_Tax_Law_and_Accounts/BCH312_IncomeTaxLawAndAccounts_SemV_2022-23.tex",
+    "code": "BCH-312",
+    "subject": "Income Tax Law and Accounts",
+    "semester": 5,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH313_CompanyLaw_SemV_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_V/Company_Law/BCH313_CompanyLaw_SemV_2013-14.tex",
+    "code": "BCH-313",
+    "subject": "Company Law",
+    "semester": 5,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCH313_CompanyLaw_SemV_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_V/Company_Law/BCH313_CompanyLaw_SemV_2022-23.tex",
+    "code": "BCH-313",
+    "subject": "Company Law",
+    "semester": 5,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH314_BankingLawAndPractice_SemV_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_V/Banking_Law_and_Practice/BCH314_BankingLawAndPractice_SemV_2013-14.tex",
+    "code": "BCH-314",
+    "subject": "Banking Law and Practice",
+    "semester": 5,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCH314_BankingLawAndPractice_SemV_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_V/Banking_Law_and_Practice/BCH314_BankingLawAndPractice_SemV_2022-23.tex",
+    "code": "BCH-314",
+    "subject": "Banking Law & Practice",
+    "semester": 5,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH315_Auditing_SemV_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_V/Auditing/BCH315_Auditing_SemV_2013-14.tex",
+    "code": "BCH-315",
+    "subject": "Auditing",
+    "semester": 5,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCH315_Auditing_SemV_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_V/Auditing/BCH315_Auditing_SemV_2022-23.tex",
+    "code": "BCH-315",
+    "subject": "Auditing",
+    "semester": 5,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH316_BusinessEthicsAndGovernance_SemV_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_V/Business_Ethics_and_Governance/BCH316_BusinessEthicsAndGovernance_SemV_2013-14.tex",
+    "code": "BCH-316",
+    "subject": "Business Ethics and Corporate Governance",
+    "semester": 5,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCH316_BusinessEthicsAndGovernance_SemV_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_V/Business_Ethics_and_Governance/BCH316_BusinessEthicsAndGovernance_SemV_2022-23.tex",
+    "code": "BCH-316",
+    "subject": "Business Ethics & Governance",
+    "semester": 5,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH321_FinancialAnalysis_SemVI_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Financial_Analysis/BCH321_FinancialAnalysis_SemVI_2015-16.tex",
+    "code": "BCH-321",
+    "subject": "Financial Analysis",
+    "semester": 6,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCH321_FinancialAnalysis_SemVI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Financial_Analysis/BCH321_FinancialAnalysis_SemVI_2022-23.tex",
+    "code": "BCH-321",
+    "subject": "Financial Analysis",
+    "semester": 6,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH322_IndirectTax_SemVI_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Indirect_Tax/BCH322_IndirectTax_SemVI_2015-16.tex",
+    "code": "BCH-322",
+    "subject": "Indirect Tax",
+    "semester": 6,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCH322_IndirectTax_SemVI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Indirect_Tax/BCH322_IndirectTax_SemVI_2022-23.tex",
+    "code": "BCH-322",
+    "subject": "Goods and Service Tax Act and Customs Acts",
+    "semester": 6,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH323_SecretarialPractice_SemVI_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Secretarial_Practice/BCH323_SecretarialPractice_SemVI_2015-16.tex",
+    "code": "BCH-323",
+    "subject": "Secretarial Practice",
+    "semester": 6,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCH323_SecretarialPractice_SemVI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Secretarial_Practice/BCH323_SecretarialPractice_SemVI_2022-23.tex",
+    "code": "BCH-323",
+    "subject": "Secretarial Practice",
+    "semester": 6,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCH324_PrinciplesOfInsurance_SemVI_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Principles_of_Insurance/BCH324_PrinciplesOfInsurance_SemVI_2015-16.tex",
+    "code": "BCH-324",
+    "subject": "Principles of Insurance",
+    "semester": 6,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCH324_PrinciplesOfInsurance_SemVI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Principles_of_Insurance/BCH324_PrinciplesOfInsurance_SemVI_2022-23.tex",
+    "code": "BCH-324",
+    "subject": "Principles of Insurance",
+    "semester": 6,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCHB326_IndianBankingSystem_SemVI_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Indian_Banking_System/BCHB326_IndianBankingSystem_SemVI_2015-16.tex",
+    "code": "BCH-B326",
+    "subject": "Indian Banking System",
+    "semester": 6,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCHB326_IndianBankingSystem_SemVI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Indian_Banking_System/BCHB326_IndianBankingSystem_SemVI_2022-23.tex",
+    "code": "BCH-B326",
+    "subject": "Indian Banking System",
+    "semester": 6,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCHB327_LawAndPracticeOfInsurance_SemVI_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Law_and_Practice_of_Insurance/BCHB327_LawAndPracticeOfInsurance_SemVI_2015-16.tex",
+    "code": "BCH-B327",
+    "subject": "Law & Practice of Insurance",
+    "semester": 6,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCHB327_LawAndPracticeOfInsurance_SemVI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Law_and_Practice_of_Insurance/BCHB327_LawAndPracticeOfInsurance_SemVI_2022-23.tex",
+    "code": "BCH-B327",
+    "subject": "Law & Practice of Insurance",
+    "semester": 6,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCHE111_EnglishLanguage_SemI_2013-14.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/English_Language/BCHE111_EnglishLanguage_SemI_2013-14.tex",
+    "code": "BCH-E111",
+    "subject": "English Language",
+    "semester": 1,
+    "year": "2013-14"
+  },
+  {
+    "fileName": "BCHE111_EnglishLanguage_SemI_2016-17.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/English_Language/BCHE111_EnglishLanguage_SemI_2016-17.tex",
+    "code": "BCH-E111",
+    "subject": "English Language",
+    "semester": 1,
+    "year": "2016-17"
+  },
+  {
+    "fileName": "BCHE111_EnglishLanguage_SemI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/English_Language/BCHE111_EnglishLanguage_SemI_2022-23.tex",
+    "code": "BCH-E111",
+    "subject": "English Language",
+    "semester": 1,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCHE111_EnglishLanguage_SemI_2023-24.tex",
+    "filePath": "COMMERCE_LATEX/Semester_I/English_Language/BCHE111_EnglishLanguage_SemI_2023-24.tex",
+    "code": "BCH-E111",
+    "subject": "English Language",
+    "semester": 1,
+    "year": "2023-24"
+  },
+  {
+    "fileName": "BCHF326_FinancialMarketsInIndia_SemVI_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Financial_Markets_in_India/BCHF326_FinancialMarketsInIndia_SemVI_2015-16.tex",
+    "code": "BCH-F326",
+    "subject": "Financial Markets in India",
+    "semester": 6,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCHF326_FinancialMarketsInIndia_SemVI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Financial_Markets_in_India/BCHF326_FinancialMarketsInIndia_SemVI_2022-23.tex",
+    "code": "BCH-F326",
+    "subject": "Financial Markets in India",
+    "semester": 6,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCHF327_FinancialServices_SemVI_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Financial_Services/BCHF327_FinancialServices_SemVI_2015-16.tex",
+    "code": "BCH-F327",
+    "subject": "Financial Services",
+    "semester": 6,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCHF327_FinancialServices_SemVI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Financial_Services/BCHF327_FinancialServices_SemVI_2022-23.tex",
+    "code": "BCH-F327",
+    "subject": "Financial Services",
+    "semester": 6,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCHI326_IndustrialRelationsAndLabourLaws_SemVI_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Industrial_Relations_and_Labour_Laws/BCHI326_IndustrialRelationsAndLabourLaws_SemVI_2015-16.tex",
+    "code": "BCH-I326",
+    "subject": "Industrial Relations and Labour Laws",
+    "semester": 6,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCHI326_IndustrialRelationsAndLabourLaws_SemVI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Industrial_Relations_and_Labour_Laws/BCHI326_IndustrialRelationsAndLabourLaws_SemVI_2022-23.tex",
+    "code": "BCH-I326",
+    "subject": "Industrial Relations and Labour Laws",
+    "semester": 6,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCHI327_LabourWelfareAndSocialSecurity_SemVI_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Labour_Welfare_and_Social_Security/BCHI327_LabourWelfareAndSocialSecurity_SemVI_2015-16.tex",
+    "code": "BCH-I327",
+    "subject": "Labour Welfare and Social Security",
+    "semester": 6,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCHI327_LabourWelfareAndSocialSecurity_SemVI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Labour_Welfare_and_Social_Security/BCHI327_LabourWelfareAndSocialSecurity_SemVI_2022-23.tex",
+    "code": "BCH-I327",
+    "subject": "Labour Welfare & Social Security",
+    "semester": 6,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCHM326_SalesManagementAndAdvertising_SemVI_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Sales_Management_and_Advertising/BCHM326_SalesManagementAndAdvertising_SemVI_2015-16.tex",
+    "code": "BCH-M326",
+    "subject": "Sales Management and Advertising",
+    "semester": 6,
+    "year": "2015-16"
+  },
+  {
+    "fileName": "BCHM326_SalesManagementAndAdvertising_SemVI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/Sales_Management_and_Advertising/BCHM326_SalesManagementAndAdvertising_SemVI_2022-23.tex",
+    "code": "BCH-M326",
+    "subject": "Sales Management & Advertising",
+    "semester": 6,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "BCHM327_InternationalMarketing_SemVI_2022-23.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/International_Marketing/BCHM327_InternationalMarketing_SemVI_2022-23.tex",
+    "code": "BCH-M327",
+    "subject": "International Marketing",
+    "semester": 6,
+    "year": "2022-23"
+  },
+  {
+    "fileName": "ECHM327_InternationalMarketing_SemVI_2015-16.tex",
+    "filePath": "COMMERCE_LATEX/Semester_VI/International_Marketing/ECHM327_InternationalMarketing_SemVI_2015-16.tex",
+    "code": "ECH-M327",
+    "subject": "International Marketing",
+    "semester": 6,
+    "year": "2015-16"
+  }
+]

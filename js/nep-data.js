@@ -1,5 +1,41 @@
 export const NEP_LATEX_PYQ_DATA = [
   {
+    "code": "CSCMD21",
+    "subject": "Introduction to Information Technology",
+    "semester": 2,
+    "year": "2024-25",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/2024-25_UG_II-Sem_B.Sc._-_COMPUTER_SCIENCE_CSCMD21.tex",
+    "fileName": "2024-25_UG_II-Sem_B.Sc._-_COMPUTER_SCIENCE_CSCMD21.tex",
+    "nepCode": "CSCMD21",
+    "oldCode": "CSCMD21",
+    "isNepPaper": true
+  },
+  {
+    "code": "CSCMJ21",
+    "subject": "Data Structures and Algorithms I",
+    "semester": 2,
+    "year": "2024-25",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/2024-25_UG_II-Sem_B.Sc._-_COMPUTER_SCIENCE_CSCMJ21.tex",
+    "fileName": "2024-25_UG_II-Sem_B.Sc._-_COMPUTER_SCIENCE_CSCMJ21.tex",
+    "nepCode": "CSCMJ21",
+    "oldCode": "CSCMJ21",
+    "isNepPaper": true
+  },
+  {
+    "code": "CSCMN21",
+    "subject": "Data Structures and Algorithms I",
+    "semester": 2,
+    "year": "2024-25",
+    "department": "Computer Science",
+    "filePath": "aaa/cs/2024-25_UG_II-Sem_B.Sc._-_COMPUTER_SCIENCE_CSCMJ21.tex",
+    "fileName": "2024-25_UG_II-Sem_B.Sc._-_COMPUTER_SCIENCE_CSCMJ21.tex",
+    "nepCode": "CSCMN21",
+    "oldCode": "CSCMN21",
+    "isNepPaper": true
+  },
+  {
     "code": "BOB-101",
     "subject": "Cryptogams",
     "semester": 1,
@@ -3322,18 +3358,18 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "ECH-M327"
   },
   {
-    "code": "BVCA-101",
-    "subject": "Introducti on To Computers",
+    "code": "CSCMD11",
+    "subject": "Introduction To Computers",
     "semester": 1,
     "year": "2022-23",
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-101_IntroductionToComputers_SemI_2022-23_BVoc.tex",
     "fileName": "BVCA-101_IntroductionToComputers_SemI_2022-23_BVoc.tex",
-    "nepCode": "CSCMD11/CSCMD21",
+    "nepCode": "CSCMD11",
     "oldCode": "BVCA-101"
   },
   {
-    "code": "BVCA-102",
+    "code": "CSCMV31",
     "subject": "Office Automation",
     "semester": 1,
     "year": "2022-23",
@@ -3344,29 +3380,29 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-102"
   },
   {
-    "code": "BVCA-103",
+    "code": "CSCMD11",
     "subject": "PC Hardware Troubleshooting",
     "semester": 1,
     "year": "2022-23a",
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-103_AppliedMathematics_SemI_2022-23a_BVoc.tex",
     "fileName": "BVCA-103_AppliedMathematics_SemI_2022-23a_BVoc.tex",
-    "nepCode": "CSCMD11/CSCMD21",
+    "nepCode": "CSCMD11",
     "oldCode": "BVCA-103"
   },
   {
-    "code": "BVCA-103b",
+    "code": "CSCMD11",
     "subject": "PC Hardware Troubleshooting",
     "semester": 1,
     "year": "2022-23",
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-103b_AppliedMathematics_SemI_2022-23_BVoc.tex",
     "fileName": "BVCA-103b_AppliedMathematics_SemI_2022-23_BVoc.tex",
-    "nepCode": "CSCMD11/CSCMD21",
+    "nepCode": "CSCMD11",
     "oldCode": "BVCA-103b"
   },
   {
-    "code": "BVCA-104",
+    "code": "CSCMJ11",
     "subject": "Problem Solving C",
     "semester": 1,
     "year": "2022-23",
@@ -3377,7 +3413,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-104"
   },
   {
-    "code": "CS-101",
+    "code": "CSCMJ11",
     "subject": "Problem Solving C",
     "semester": 1,
     "year": "2016-17",
@@ -3388,7 +3424,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-101"
   },
   {
-    "code": "CS-101",
+    "code": "CSCMJ11",
     "subject": "Problem Solving Through C",
     "semester": 1,
     "year": "2023-24",
@@ -3399,18 +3435,18 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-101"
   },
   {
-    "code": "GEN-101",
-    "subject": "Communicati on Skills",
+    "code": "CSCMV11",
+    "subject": "Communication Skills",
     "semester": 1,
     "year": "2022-23",
     "department": "Computer Science",
     "filePath": "aaa/cs/GEN-101_CommunicationSkills_SemI_2022-23_BVoc.tex",
     "fileName": "GEN-101_CommunicationSkills_SemI_2022-23_BVoc.tex",
-    "nepCode": "GEN11",
+    "nepCode": "CSCMV11",
     "oldCode": "GEN-101"
   },
   {
-    "code": "GEN-102",
+    "code": "CSCMJ12",
     "subject": "Management Concepts and Strategic Management",
     "semester": 1,
     "year": "2022-23",
@@ -3421,7 +3457,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "GEN-102"
   },
   {
-    "code": "BCS-201",
+    "code": "CSCMJ31",
     "subject": "Digital Logic Circuits",
     "semester": 2,
     "year": "2013-14",
@@ -3432,19 +3468,19 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BCS-201"
   },
   {
-    "code": "BCS-203",
+    "code": "CSCMD21",
     "subject": "Fundamentals Of Computers",
     "semester": 2,
     "year": "2013-14",
     "department": "Computer Science",
     "filePath": "aaa/cs/BCS-203_FundamentalsOfComputers_SemII_2013-14_BSc.tex",
     "fileName": "BCS-203_FundamentalsOfComputers_SemII_2013-14_BSc.tex",
-    "nepCode": "CSCMD11/CSCMD21",
+    "nepCode": "CSCMD21",
     "oldCode": "BCS-203"
   },
   {
-    "code": "BVCA-201",
-    "subject": "Introducti on To Databases",
+    "code": "CSCMJ42",
+    "subject": "Introduction To Databases",
     "semester": 2,
     "year": "2021-22",
     "department": "Computer Science",
@@ -3454,8 +3490,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-201"
   },
   {
-    "code": "BVCA-201",
-    "subject": "Introducti on To Databases",
+    "code": "CSCMJ42",
+    "subject": "Introduction To Databases",
     "semester": 2,
     "year": "2022-23",
     "department": "Computer Science",
@@ -3465,7 +3501,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-201"
   },
   {
-    "code": "BVCA-202",
+    "code": "CSCMJ64",
     "subject": "Problem Solving AI",
     "semester": 2,
     "year": "2021-22",
@@ -3476,7 +3512,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-202"
   },
   {
-    "code": "BVCA-202",
+    "code": "CSCMJ64",
     "subject": "Problem Solving AI",
     "semester": 2,
     "year": "2022-23",
@@ -3487,40 +3523,40 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-202"
   },
   {
-    "code": "BVCA-203",
-    "subject": "Technical Documentati on Communication",
+    "code": "CSCMV31",
+    "subject": "Technical Documentation Communication",
     "semester": 2,
     "year": "2021-22",
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-203_TechnicalDocumentationCommunication_SemII_2021-22_BVoc.tex",
     "fileName": "BVCA-203_TechnicalDocumentationCommunication_SemII_2021-22_BVoc.tex",
-    "nepCode": "BVCA23",
+    "nepCode": "CSCMV31",
     "oldCode": "BVCA-203"
   },
   {
-    "code": "BVCA-204",
+    "code": "CSCSE21",
     "subject": "Tech Entrepreneurship IPR",
     "semester": 2,
     "year": "2021-22",
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-204_TechEntrepreneurshipIPR_SemII_2021-22_BVoc.tex",
     "fileName": "BVCA-204_TechEntrepreneurshipIPR_SemII_2021-22_BVoc.tex",
-    "nepCode": "BVCA24",
+    "nepCode": "CSCSE21",
     "oldCode": "BVCA-204"
   },
   {
-    "code": "BVCA-204",
+    "code": "CSCSE21",
     "subject": "Tech Entrepreneurship IPR",
     "semester": 2,
     "year": "2022-23",
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-204_TechEntrepreneurshipIPR_SemII_2022-23_BVoc.tex",
     "fileName": "BVCA-204_TechEntrepreneurshipIPR_SemII_2022-23_BVoc.tex",
-    "nepCode": "BVCA24",
+    "nepCode": "CSCSE21",
     "oldCode": "BVCA-204"
   },
   {
-    "code": "BVCA-205",
+    "code": "CSCSE31",
     "subject": "Skill Training Python",
     "semester": 2,
     "year": "2021-22",
@@ -3531,7 +3567,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-205"
   },
   {
-    "code": "BVCA-205",
+    "code": "CSCSE31",
     "subject": "Skill Training Python",
     "semester": 2,
     "year": "2022-23",
@@ -3542,7 +3578,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-205"
   },
   {
-    "code": "CS-102",
+    "code": "CSCMJ31",
     "subject": "Digital Logics And Circuits",
     "semester": 2,
     "year": "2023-24",
@@ -3553,7 +3589,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-102"
   },
   {
-    "code": "CS-102",
+    "code": "CSCMJ32",
     "subject": "Object Oriented Programming",
     "semester": 2,
     "year": "2023-24",
@@ -3564,7 +3600,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-102"
   },
   {
-    "code": "GEN-201",
+    "code": "CSCSE11",
     "subject": "Website Designing",
     "semester": 2,
     "year": "2021-22",
@@ -3575,7 +3611,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "GEN-201"
   },
   {
-    "code": "GEN-202",
+    "code": "CSCSE31",
     "subject": "Programming In Python",
     "semester": 2,
     "year": "2021-22",
@@ -3586,7 +3622,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "GEN-202"
   },
   {
-    "code": "BCS-301",
+    "code": "CSCMJ44",
     "subject": "Numerical Computing",
     "semester": 3,
     "year": "2016-17",
@@ -3597,7 +3633,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-103"
   },
   {
-    "code": "BVCA-301",
+    "code": "CSCMJ63",
     "subject": "Analog Digital Communication",
     "semester": 3,
     "year": "2022-23",
@@ -3608,7 +3644,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-301"
   },
   {
-    "code": "BVCA-301",
+    "code": "CSCMJ63",
     "subject": "Analog Digital Communication",
     "semester": 3,
     "year": "2023-24",
@@ -3619,7 +3655,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-301"
   },
   {
-    "code": "BVCA-301b",
+    "code": "CSCMJ63",
     "subject": "Analog Digital Communication",
     "semester": 3,
     "year": "2022-23",
@@ -3630,7 +3666,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-301b"
   },
   {
-    "code": "BVCA-302",
+    "code": "CSCMJ82",
     "subject": "Robotics Arduino",
     "semester": 3,
     "year": "2022-23",
@@ -3641,7 +3677,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-302"
   },
   {
-    "code": "BVCA-302",
+    "code": "CSCMJ82",
     "subject": "Robotics Arduino",
     "semester": 3,
     "year": "2023-24",
@@ -3652,7 +3688,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-302"
   },
   {
-    "code": "BVCA-303",
+    "code": "CSCMJ51",
     "subject": "Programming In Linux",
     "semester": 3,
     "year": "2022-23",
@@ -3663,7 +3699,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-303"
   },
   {
-    "code": "BVCA-303",
+    "code": "CSCMJ51",
     "subject": "Programming In Linux",
     "semester": 3,
     "year": "2023-24",
@@ -3674,7 +3710,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-303"
   },
   {
-    "code": "BVCA-304",
+    "code": "CSCMJ32",
     "subject": "Java Applet Programming",
     "semester": 3,
     "year": "2022-23",
@@ -3685,7 +3721,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-304"
   },
   {
-    "code": "BVCA-304",
+    "code": "CSCMJ32",
     "subject": "Java Applet Programming",
     "semester": 3,
     "year": "2023-24",
@@ -3696,7 +3732,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-304"
   },
   {
-    "code": "BVCA-305",
+    "code": "CSCMJ63",
     "subject": "Network Config Management",
     "semester": 3,
     "year": "2022-23",
@@ -3707,7 +3743,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-305"
   },
   {
-    "code": "BVCA-305",
+    "code": "CSCMJ63",
     "subject": "Network Config Management",
     "semester": 3,
     "year": "2023-24",
@@ -3718,18 +3754,18 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-305"
   },
   {
-    "code": "BVCA-306",
+    "code": "CSCMJ31",
     "subject": "GEN",
     "semester": 3,
     "year": "2023-24",
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-306_GEN_SemIII_2023-24_BVoc.tex",
     "fileName": "BVCA-306_GEN_SemIII_2023-24_BVoc.tex",
-    "nepCode": "BVCA36",
+    "nepCode": "CSCMJ31",
     "oldCode": "BVCA-306"
   },
   {
-    "code": "CS-103",
+    "code": "CSCMJ44",
     "subject": "Numerical Computing",
     "semester": 3,
     "year": "2022-23",
@@ -3740,7 +3776,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-103"
   },
   {
-    "code": "CS-103",
+    "code": "CSCMJ44",
     "subject": "Numerical Computing",
     "semester": 3,
     "year": "2023-24",
@@ -3751,7 +3787,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-103"
   },
   {
-    "code": "GEN-301",
+    "code": "CSCMJ31",
     "subject": "Digital Logic and Processors",
     "semester": 3,
     "year": "2022-23",
@@ -3762,7 +3798,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "GEN-301"
   },
   {
-    "code": "GEN-302",
+    "code": "CSCMJ82",
     "subject": "Introduction to IoT",
     "semester": 3,
     "year": "2022-23",
@@ -3773,7 +3809,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "GEN-302"
   },
   {
-    "code": "BCS-401",
+    "code": "CSCMJ43",
     "subject": "Computer Org Arch",
     "semester": 4,
     "year": "2013-14",
@@ -3784,18 +3820,18 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-104"
   },
   {
-    "code": "BCS-403",
+    "code": "CSCMD21",
     "subject": "Fundamentals Of Computing",
     "semester": 4,
     "year": "2013-14",
     "department": "Computer Science",
     "filePath": "aaa/cs/BCS-403_FundamentalsOfComputing_SemIV_2013-14_BSc.tex",
     "fileName": "BCS-403_FundamentalsOfComputing_SemIV_2013-14_BSc.tex",
-    "nepCode": "CSCMD11/CSCMD21",
+    "nepCode": "CSCMD21",
     "oldCode": "BCS-403"
   },
   {
-    "code": "BSC-044",
+    "code": "CSCMJ11",
     "subject": "Intro To Computer Programming C",
     "semester": 4,
     "year": "2013-14",
@@ -3806,8 +3842,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-101"
   },
   {
-    "code": "BVCA-201",
-    "subject": "Introducti on To Databases",
+    "code": "CSCMJ42",
+    "subject": "Introduction To Databases",
     "semester": 4,
     "year": "2023-24",
     "department": "Computer Science",
@@ -3817,7 +3853,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-201"
   },
   {
-    "code": "BVCA-401",
+    "code": "CSCMJ74",
     "subject": "Cloud Computing",
     "semester": 4,
     "year": "2023-24",
@@ -3828,7 +3864,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-401"
   },
   {
-    "code": "BVCA-401",
+    "code": "CSCMJ74",
     "subject": "Web Technology",
     "semester": 4,
     "year": "2022-23",
@@ -3839,7 +3875,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-401"
   },
   {
-    "code": "BVCA-402",
+    "code": "CSCMJ42",
     "subject": "Database Management",
     "semester": 4,
     "year": "2022-23",
@@ -3850,7 +3886,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-402"
   },
   {
-    "code": "BVCA-402",
+    "code": "CSCMJ42",
     "subject": "Database Management",
     "semester": 4,
     "year": "2023-24",
@@ -3861,40 +3897,40 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-402"
   },
   {
-    "code": "BVCA-403",
+    "code": "CSCMJ74",
     "subject": "Cloud Computing",
     "semester": 4,
     "year": "2022-23a",
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-403_CriticalDesignThinkingSocialScience_SemIV_2022-23a_BVoc.tex",
     "fileName": "BVCA-403_CriticalDesignThinkingSocialScience_SemIV_2022-23a_BVoc.tex",
-    "nepCode": "BVCA43",
+    "nepCode": "CSCMJ74",
     "oldCode": "BVCA-403"
   },
   {
-    "code": "BVCA-403",
+    "code": "CSCMJ74",
     "subject": "Cloud Computing",
     "semester": 4,
     "year": "2023-24",
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-403_CriticalDesignThinkingSocialScience_SemIV_2023-24_BVoc.tex",
     "fileName": "BVCA-403_CriticalDesignThinkingSocialScience_SemIV_2023-24_BVoc.tex",
-    "nepCode": "BVCA43",
+    "nepCode": "CSCMJ74",
     "oldCode": "BVCA-403"
   },
   {
-    "code": "BVCA-403b",
+    "code": "CSCMJ74",
     "subject": "Cloud Computing",
     "semester": 4,
     "year": "2022-23",
     "department": "Computer Science",
     "filePath": "aaa/cs/BVCA-403b_CriticalDesignThinkingSocialScience_SemIV_2022-23_BVoc.tex",
     "fileName": "BVCA-403b_CriticalDesignThinkingSocialScience_SemIV_2022-23_BVoc.tex",
-    "nepCode": "BVCA43",
+    "nepCode": "CSCMJ74",
     "oldCode": "BVCA-403b"
   },
   {
-    "code": "BVCA-404",
+    "code": "CSCMJ43",
     "subject": "Android Development",
     "semester": 4,
     "year": "2022-23",
@@ -3905,7 +3941,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-404"
   },
   {
-    "code": "BVCA-404",
+    "code": "CSCMJ43",
     "subject": "Android Development",
     "semester": 4,
     "year": "2023-24",
@@ -3916,8 +3952,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-404"
   },
   {
-    "code": "BVCA-405",
-    "subject": "Informati on Security",
+    "code": "CSCMD31",
+    "subject": "Information Security",
     "semester": 4,
     "year": "2022-23",
     "department": "Computer Science",
@@ -3927,8 +3963,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-405"
   },
   {
-    "code": "BVCA-405",
-    "subject": "Informati on Security",
+    "code": "CSCMD31",
+    "subject": "Information Security",
     "semester": 4,
     "year": "2023-24",
     "department": "Computer Science",
@@ -3938,7 +3974,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-405"
   },
   {
-    "code": "CS-104",
+    "code": "CSCMJ43",
     "subject": "Computer Org Arch",
     "semester": 4,
     "year": "2023-24",
@@ -3949,8 +3985,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-104"
   },
   {
-    "code": "CS-104",
-    "subject": "Computer Organizati on Architecture",
+    "code": "CSCMJ43",
+    "subject": "Computer Organization Architecture",
     "semester": 4,
     "year": "2022-23",
     "department": "Computer Science",
@@ -3960,7 +3996,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-104"
   },
   {
-    "code": "CS-104b",
+    "code": "CSCMJ43",
     "subject": "Computer Org Arch",
     "semester": 4,
     "year": "2023-24",
@@ -3971,8 +4007,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-104"
   },
   {
-    "code": "CS-105",
-    "subject": "Computer Organizati on Architecture",
+    "code": "CSCMJ43",
+    "subject": "Computer Organization Architecture",
     "semester": 4,
     "year": "2022-23",
     "department": "Computer Science",
@@ -3982,7 +4018,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-105"
   },
   {
-    "code": "CS-105",
+    "code": "CSCMJ41",
     "subject": "Discrete Mathematics",
     "semester": 4,
     "year": "2023-24",
@@ -3993,7 +4029,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-105"
   },
   {
-    "code": "CS-403",
+    "code": "CSCMJ11",
     "subject": "Programming For Problem Solving",
     "semester": 4,
     "year": "2023-24",
@@ -4004,7 +4040,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-403"
   },
   {
-    "code": "CSB-401",
+    "code": "CSCMJ44",
     "subject": "Numerical Computing",
     "semester": 4,
     "year": "2013-14",
@@ -4015,7 +4051,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-103"
   },
   {
-    "code": "GEN-401",
+    "code": "CSCMJ41",
     "subject": "Real Analysis",
     "semester": 4,
     "year": "2022-23",
@@ -4026,7 +4062,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "GEN-401"
   },
   {
-    "code": "GEN-401",
+    "code": "CSCMJ41",
     "subject": "Real Analysis",
     "semester": 4,
     "year": "2023-24",
@@ -4037,7 +4073,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "GEN-401"
   },
   {
-    "code": "GEN-402",
+    "code": "CSCMJ21",
     "subject": "Data Structures Algorithms",
     "semester": 4,
     "year": "2022-23",
@@ -4048,7 +4084,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "GEN-402"
   },
   {
-    "code": "BCS-501",
+    "code": "CSCMJ63",
     "subject": "Net Centric Computing",
     "semester": 5,
     "year": "2016-17",
@@ -4059,7 +4095,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-109"
   },
   {
-    "code": "BCS-502",
+    "code": "CSCMJ51",
     "subject": "Operating System Concepts",
     "semester": 5,
     "year": "2016-17",
@@ -4070,7 +4106,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-106"
   },
   {
-    "code": "BCS-503",
+    "code": "CSCMJ41",
     "subject": "Discrete Math Structures",
     "semester": 5,
     "year": "2016-17",
@@ -4081,8 +4117,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BCS-503"
   },
   {
-    "code": "BCS-504A",
-    "subject": "System Analys is Design",
+    "code": "CSCMJ61",
+    "subject": "System Analysis Design",
     "semester": 5,
     "year": "2016-17",
     "department": "Computer Science",
@@ -4092,7 +4128,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BCS-504A"
   },
   {
-    "code": "CS-106",
+    "code": "CSCMJ51",
     "subject": "Operating System Concepts",
     "semester": 5,
     "year": "2022-23",
@@ -4103,7 +4139,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-106"
   },
   {
-    "code": "CS-107",
+    "code": "CSCMJ42",
     "subject": "Database Management Systems",
     "semester": 5,
     "year": "2022-23",
@@ -4114,7 +4150,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-107"
   },
   {
-    "code": "CS-108",
+    "code": "CSCMJ21",
     "subject": "Data Structures Algorithms",
     "semester": 5,
     "year": "2022-23",
@@ -4125,7 +4161,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-108"
   },
   {
-    "code": "CS-109",
+    "code": "CSCMJ63",
     "subject": "Data Communication",
     "semester": 5,
     "year": "2022-23",
@@ -4136,7 +4172,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-109"
   },
   {
-    "code": "CSB-501",
+    "code": "CSCMJ32",
     "subject": "Object Oriented Programming Using C++",
     "semester": 5,
     "year": "2013-14",
@@ -4147,7 +4183,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CSB-501"
   },
   {
-    "code": "CSB-502",
+    "code": "CSCMJ63",
     "subject": "Net Centric Computing",
     "semester": 5,
     "year": "2013-14",
@@ -4158,7 +4194,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-109"
   },
   {
-    "code": "CSB-503",
+    "code": "CSCMJ41",
     "subject": "Discrete Mathematical Structure",
     "semester": 5,
     "year": "2013-14",
@@ -4169,7 +4205,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BCS-503"
   },
   {
-    "code": "CSB-504",
+    "code": "CSCMJ51",
     "subject": "Operating System Concepts",
     "semester": 5,
     "year": "2013-14",
@@ -4180,7 +4216,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-106"
   },
   {
-    "code": "CS-105",
+    "code": "CSCMJ41",
     "subject": "Discrete Mathematics",
     "semester": 6,
     "year": "2022-23",
@@ -4191,7 +4227,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-105"
   },
   {
-    "code": "CS-109",
+    "code": "CSCMJ63",
     "subject": "Data Communication",
     "semester": 6,
     "year": "2022-23",
@@ -4202,7 +4238,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-109"
   },
   {
-    "code": "CSB-601",
+    "code": "CSCMJ42",
     "subject": "Database Management System",
     "semester": 6,
     "year": "2013-14",
@@ -4213,7 +4249,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-107"
   },
   {
-    "code": "CSB-602",
+    "code": "CSCMJ21",
     "subject": "Data And File Structures",
     "semester": 6,
     "year": "2013-14",
@@ -4224,8 +4260,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-108"
   },
   {
-    "code": "CSB-603A",
-    "subject": "System Analys is And Design",
+    "code": "CSCMJ61",
+    "subject": "System Analysis And Design",
     "semester": 6,
     "year": "2013-14",
     "department": "Computer Science",
@@ -4235,8 +4271,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BCS-504A"
   },
   {
-    "code": "CSB-604C",
-    "subject": "Operati on Research",
+    "code": "CSCMJ73",
+    "subject": "Operation Research",
     "semester": 6,
     "year": "2013-14",
     "department": "Computer Science",

@@ -1304,6 +1304,13 @@
                             decrypted += String.fromCharCode(encryptedText.charCodeAt(i) ^ key.charCodeAt(i % key.length));
                         }
                         return decrypted;
+                    })
+                    .catch(() => {
+                        // Fallback to direct raw file fetch if API endpoint is unavailable or static server
+                        return fetch(filePath).then(res => {
+                            if (!res.ok) throw new Error("Direct raw file fetch failed");
+                            return res.text();
+                        });
                     });
             }
 
