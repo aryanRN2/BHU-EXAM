@@ -1,0 +1,168 @@
+% BHU PYQ -- Transcribed & Corrected
+% Paper: CIMS-SE-31 / CIMSE31: Python Programming for Data Analytics
+% Exam: B.Sc. (Hons.) Semester III Examination, 2025-26 (NEP)
+% Category: Skill Enhancement Course (SEC)
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=black,
+    linkcolor=black,
+    pdftitle={CIMSE31: Python Programming for Data Analytics -- BHU Sem III 2025-26 (NEP SEC)}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{CIMSE-31: Python for Data Analytics (SEC)}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=2pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) --- Semester III Examination, 2025-26 (NEP)}\\[4pt]
+  {\normalsize DST-Centre for Interdisciplinary Mathematical Sciences}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries Skill Enhancement Course (SEC)}\\[4pt]
+  {\large\bfseries Paper Code: CIMSE-31 : Python Programming for Data Analytics}\\[4pt]
+  {\normalsize Time: 2:30 Hours\hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: Answer any five questions including Question No. 1 which is compulsory.}
+
+\bigskip
+
+\noindent\textbf{Question 1.} Short Answer Questions (Compulsory):\pts{14}
+\begin{parts}
+  \item Which keyword is used to define a function in Python?\pts{2}
+  \item What will be the output produced by the following Python code?\pts{2}
+\begin{verbatim}
+a = 5
+b = -3
+c = 25
+d = -10
+
+print(a + b + c > a + c - b * d)
+print(str(a + b + c > a + c - b * d) == 'True')
+print(len(str(a + b + c > a + c - b * d)) == len(str(bool(1))))
+\end{verbatim}
+  \item Which data structure stores data in key-value pairs in Python?\pts{2}
+  \item What symbol is used for single-line comments in Python?\pts{2}
+  \item What will be the output produced by the following Python code?\pts{2}
+\begin{verbatim}
+a = 3 + 5 / 8
+b = int(3 + 5 / 8)
+c = 3 + float(5 / 8)
+d = 3 + float(5) / 8
+e = 3 + 5.0 / 8
+f = int(3 + 5 / 8.0)
+
+print(a, b, c, d, e, f)
+\end{verbatim}
+  \item What type of plot is used to show the relationship between two numerical variables in Data Analytics?\pts{2}
+  \item What is the basic 1D data structure unit of a Pandas DataFrame column?\pts{2}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 2.}
+\begin{parts}
+  \item What is a function in Python? Explain how functions are defined and invoked. Discuss different types of function arguments (positional, keyword, default, variable-length) with suitable examples.\pts{14}
+\end{parts}
+
+\centerline{\textbf{OR}}
+
+\begin{parts}
+  \item Explain the concept of variable scope in Python. Distinguish between local, global, and nonlocal variables with suitable examples. How does Python manage the lifetime of variables?\pts{14}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Differentiate between recursive and iterative approaches in Python programming with suitable code examples.\pts{14}
+\end{parts}
+
+\centerline{\textbf{OR}}
+
+\begin{parts}
+  \item Write and explain a Python program to illustrate the difference between \texttt{break} and \texttt{continue} control statements.\pts{14}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 4.}
+\begin{parts}
+  \item What are tuples in Python? Compare tuples with lists in terms of mutability, performance, and use cases.\pts{14}
+\end{parts}
+
+\centerline{\textbf{OR}}
+
+\begin{parts}
+  \item Explain the concept of sets in Python. Discuss different set operations such as union, intersection, difference, and symmetric difference with suitable examples. Highlight the importance of sets in eliminating duplicate elements.\pts{14}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 5.}
+\begin{parts}
+  \item What is a Pandas Series? Explain its structure, creation, indexing, and basic operations with suitable examples.\pts{14}
+\end{parts}
+
+\centerline{\textbf{OR}}
+
+\begin{parts}
+  \item Describe the structure of a Pandas DataFrame. Explain different ways of creating DataFrames and performing basic operations such as selection, filtering, and aggregation.\pts{14}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 6.}
+\begin{parts}
+  \item Explain the importance of data visualization in analytics. Describe the structure of Matplotlib and its basic workflow for creating plots.\pts{14}
+\end{parts}
+
+\centerline{\textbf{OR}}
+
+\begin{parts}
+  \item Explain how line plots are created using Matplotlib. Discuss customization options such as labels, titles, legends, and grids with code examples.\pts{14}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 7.}
+\begin{parts}
+  \item Explain data aggregation in Pandas. Discuss the use of \texttt{groupby()} for aggregation and summarization. Illustrate common aggregation functions such as \texttt{sum()}, \texttt{mean()}, \texttt{count()}, and \texttt{agg()} with examples.\pts{14}
+\end{parts}
+
+\centerline{\textbf{OR}}
+
+\begin{parts}
+  \item Explain the process of data cleaning in Pandas. Describe different methods available in Pandas for detecting and handling missing data (\texttt{isna()}, \texttt{dropna()}, \texttt{fillna()}).\pts{14}
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

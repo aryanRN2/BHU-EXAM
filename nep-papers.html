@@ -42,7 +42,7 @@
 <nav class="fixed top-0 left-0 right-0 z-50 bg-background-warm/80 backdrop-blur-xl border-b border-border-subtle shadow-sm h-16 md:h-20 w-full flex items-center">
     <div class="max-w-7xl mx-auto px-4 md:px-8 flex justify-between items-center w-full">
         <div class="flex items-center gap-3 md:gap-4">
-            <button onclick="window.location.href='nep-science.html'" class="w-8 h-8 md:w-10 md:h-10 rounded-full border border-border-subtle hover:bg-neutral-100 transition-all flex items-center justify-center text-secondary hover:text-primary shrink-0 mr-1 md:mr-2" title="Back to Departments">
+            <button onclick="handleNavBack()" class="w-8 h-8 md:w-10 md:h-10 rounded-full border border-border-subtle hover:bg-neutral-100 transition-all flex items-center justify-center text-secondary hover:text-primary shrink-0 mr-1 md:mr-2" title="Back">
                 <span class="material-symbols-outlined text-base md:text-lg">arrow_back</span>
             </button>
             
@@ -146,6 +146,20 @@
 
     const params = new URLSearchParams(window.location.search);
     const deptKey = params.get('dept') || 'physics';
+
+    window.handleNavBack = function() {
+        if (deptKey === 'additional' || deptKey === 'optional') {
+            if (selectedSubCategory) {
+                renderAdditionalCategories();
+                return;
+            }
+            window.location.href = 'nep-pyq.html';
+        } else if (deptKey === 'commerce') {
+            window.location.href = 'nep-pyq.html';
+        } else {
+            window.location.href = 'nep-science.html';
+        }
+    };
 
     const deptLabels = {
         'physics': 'Physics',
@@ -759,13 +773,163 @@
         });
         return groups;
     }
+    let selectedSubCategory = null;
 
-    function renderSemesterPapers(papersToRender) {
+    const ADDITIONAL_CATEGORIES = {
+        'aec': {
+            title: 'Ability Enhancement (AEC)',
+            badge: 'AEC',
+            color: 'blue',
+            icon: 'psychology',
+            description: 'Language, Communication Skills, Environmental Science & Ability Courses...',
+            filter: p => {
+                const code = (p.code || p.nepCode || '').toUpperCase();
+                const subj = (p.subject || '').toUpperCase();
+                return code.includes('AEC') || code.includes('AE') || subj.includes('COMMUNICATION') || subj.includes('LANGUAGE') || subj.includes('ENVIRONMENTAL');
+            }
+        },
+        'vac': {
+            title: 'Value Added Courses (VAC)',
+            badge: 'VAC',
+            color: 'emerald',
+            icon: 'workspace_premium',
+            description: 'Ethics, Indian Knowledge Systems, Digital Empowerment & Value Education...',
+            filter: p => {
+                const code = (p.code || p.nepCode || '').toUpperCase();
+                const subj = (p.subject || '').toUpperCase();
+                return code.includes('VAC') || code.includes('V') || subj.includes('VALUE') || subj.includes('ETHICS');
+            }
+        },
+        'md': {
+            title: 'Multidisciplinary (MD)',
+            badge: 'MD',
+            color: 'purple',
+            icon: 'category',
+            description: 'Introductory & Interdisciplinary courses across Science, Commerce & Arts...',
+            filter: p => {
+                const code = (p.code || p.nepCode || '').toUpperCase();
+                return code.includes('MD') || code.includes('MDC');
+            }
+        },
+        'sec': {
+            title: 'Skill Enhancement (SEC)',
+            badge: 'SEC',
+            color: 'amber',
+            icon: 'handyman',
+            description: 'Web Designing, Programming, IT Tools & Practical Technical Skills...',
+            filter: p => {
+                const code = (p.code || p.nepCode || '').toUpperCase();
+                const dept = (p.department || '').toUpperCase();
+                if (code.startsWith('ESSE')) return false;
+                return code.includes('SEC') || code.includes('-SE-') || code.includes('SE11') || code.includes('SE21') || code.includes('SE31') || dept === 'SEC';
+            }
+        }
+    };
+
+    window.renderAdditionalCategories = function() {
+        selectedSubCategory = null;
+        const container = document.getElementById('semestersContainer');
+        const loader = document.getElementById('loader');
+        if (loader) loader.classList.add('hidden');
+
+        const searchInput = document.getElementById('paperSearchInput');
+        if (searchInput) searchInput.value = '';
+
+        container.innerHTML = `
+            <div class="space-y-6 w-full max-w-5xl mx-auto">
+                <div class="text-center mb-6">
+                    <p class="text-xs sm:text-sm text-secondary font-medium">Select an Optional & Additional course category below to browse PYQs:</p>
+                </div>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full">
+                    <!-- Ability Enhancement (AEC) -->
+                    <button onclick="selectAdditionalCategory('aec')" class="p-6 md:p-8 rounded-2xl border border-border-subtle bg-white/70 backdrop-blur-md hover:border-blue-500 hover:bg-white transition-all duration-300 text-left flex flex-col justify-between min-h-[200px] group shadow-sm hover:shadow-md hover:scale-[1.02] active:scale-[0.98]">
+                        <div class="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
+                            <span class="material-symbols-outlined text-2xl">psychology</span>
+                        </div>
+                        <div class="mt-6">
+                            <div class="flex items-center justify-between">
+                                <h3 class="font-bold text-lg text-primary group-hover:text-blue-600 transition-colors">Ability Enhancement (AEC)</h3>
+                                <span class="bg-blue-500/10 text-blue-600 text-[10px] font-extrabold px-2.5 py-0.5 rounded-full uppercase tracking-wider">AEC</span>
+                            </div>
+                            <p class="text-xs text-secondary mt-2 leading-relaxed">Language, Communication Skills, Environmental Science & Ability Courses...</p>
+                        </div>
+                    </button>
+
+                    <!-- Value Added Courses (VAC) -->
+                    <button onclick="selectAdditionalCategory('vac')" class="p-6 md:p-8 rounded-2xl border border-border-subtle bg-white/70 backdrop-blur-md hover:border-emerald-500 hover:bg-white transition-all duration-300 text-left flex flex-col justify-between min-h-[200px] group shadow-sm hover:shadow-md hover:scale-[1.02] active:scale-[0.98]">
+                        <div class="w-12 h-12 rounded-xl bg-emerald-500/10 flex items-center justify-center text-emerald-600 group-hover:bg-emerald-600 group-hover:text-white transition-all duration-300">
+                            <span class="material-symbols-outlined text-2xl">workspace_premium</span>
+                        </div>
+                        <div class="mt-6">
+                            <div class="flex items-center justify-between">
+                                <h3 class="font-bold text-lg text-primary group-hover:text-emerald-600 transition-colors">Value Added Courses (VAC)</h3>
+                                <span class="bg-emerald-500/10 text-emerald-600 text-[10px] font-extrabold px-2.5 py-0.5 rounded-full uppercase tracking-wider">VAC</span>
+                            </div>
+                            <p class="text-xs text-secondary mt-2 leading-relaxed">Ethics, Indian Knowledge Systems, Digital Empowerment & Value Education...</p>
+                        </div>
+                    </button>
+
+                    <!-- Multidisciplinary Courses (MD) -->
+                    <button onclick="selectAdditionalCategory('md')" class="p-6 md:p-8 rounded-2xl border border-border-subtle bg-white/70 backdrop-blur-md hover:border-purple-500 hover:bg-white transition-all duration-300 text-left flex flex-col justify-between min-h-[200px] group shadow-sm hover:shadow-md hover:scale-[1.02] active:scale-[0.98]">
+                        <div class="w-12 h-12 rounded-xl bg-purple-500/10 flex items-center justify-center text-purple-600 group-hover:bg-purple-600 group-hover:text-white transition-all duration-300">
+                            <span class="material-symbols-outlined text-2xl">category</span>
+                        </div>
+                        <div class="mt-6">
+                            <div class="flex items-center justify-between">
+                                <h3 class="font-bold text-lg text-primary group-hover:text-purple-600 transition-colors">Multidisciplinary (MD)</h3>
+                                <span class="bg-purple-500/10 text-purple-600 text-[10px] font-extrabold px-2.5 py-0.5 rounded-full uppercase tracking-wider">MD</span>
+                            </div>
+                            <p class="text-xs text-secondary mt-2 leading-relaxed">Introductory & Interdisciplinary courses across Science, Commerce & Arts...</p>
+                        </div>
+                    </button>
+
+                    <!-- Skill Enhancement Courses (SEC) -->
+                    <button onclick="selectAdditionalCategory('sec')" class="p-6 md:p-8 rounded-2xl border border-border-subtle bg-white/70 backdrop-blur-md hover:border-amber-500 hover:bg-white transition-all duration-300 text-left flex flex-col justify-between min-h-[200px] group shadow-sm hover:shadow-md hover:scale-[1.02] active:scale-[0.98]">
+                        <div class="w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center text-amber-600 group-hover:bg-amber-600 group-hover:text-white transition-all duration-300">
+                            <span class="material-symbols-outlined text-2xl">handyman</span>
+                        </div>
+                        <div class="mt-6">
+                            <div class="flex items-center justify-between">
+                                <h3 class="font-bold text-lg text-primary group-hover:text-amber-600 transition-colors">Skill Enhancement (SEC)</h3>
+                                <span class="bg-amber-500/10 text-amber-600 text-[10px] font-extrabold px-2.5 py-0.5 rounded-full uppercase tracking-wider">SEC</span>
+                            </div>
+                            <p class="text-xs text-secondary mt-2 leading-relaxed">Web Designing, Programming, IT Tools & Practical Technical Skills...</p>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        `;
+    };
+
+    window.selectAdditionalCategory = function(catKey) {
+        selectedSubCategory = catKey;
+        const catInfo = ADDITIONAL_CATEGORIES[catKey];
+        if (!catInfo) return;
+
+        const subPapers = activePapers.filter(catInfo.filter);
+        renderSemesterPapers(subPapers, catInfo);
+    };
+
+    function renderSemesterPapers(papersToRender, catInfo) {
         const container = document.getElementById('semestersContainer');
         container.innerHTML = '';
 
         const loader = document.getElementById('loader');
         if (loader) loader.classList.add('hidden');
+
+        if ((deptKey === 'additional' || deptKey === 'optional') && catInfo) {
+            const topBarHTML = `
+                <div class="flex items-center justify-between bg-white/70 backdrop-blur-md p-4 rounded-xl border border-border-subtle mb-6 w-full">
+                    <button onclick="renderAdditionalCategories()" class="flex items-center gap-2 text-xs font-bold text-secondary hover:text-primary transition-colors bg-neutral-100 hover:bg-neutral-200 px-3.5 py-2 rounded-full active:scale-95">
+                        <span class="material-symbols-outlined text-base">arrow_back</span>
+                        <span>Back to Categories</span>
+                    </button>
+                    <span class="bg-emerald-500/10 text-emerald-600 text-[10px] font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">${catInfo.title}</span>
+                </div>
+            `;
+            container.insertAdjacentHTML('beforeend', topBarHTML);
+        }
 
         const grouped = groupPapersBySemesterAndCode(papersToRender);
         let hasAnyPaper = false;
@@ -832,39 +996,29 @@
                         `;
                     } else {
                         papersMarkup += `
-                            <div class="glass-card p-4 rounded-lg border border-border-subtle/70 bg-white/50 flex flex-col md:flex-row items-start md:items-center justify-between gap-3 hover:shadow-sm transition-all">
-                                <div class="flex items-start gap-3">
-                                    <div class="w-8 h-8 rounded-lg bg-accent-neural-emerald/10 flex items-center justify-center text-accent-neural-emerald shrink-0">
-                                        <span class="material-symbols-outlined text-xl">description</span>
+                            <div class="p-3.5 rounded-xl border border-border-subtle bg-white/50 hover:bg-white flex flex-col md:flex-row items-start md:items-center justify-between gap-3 transition-all duration-200">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-8 h-8 rounded-lg bg-neutral-100 text-secondary flex items-center justify-center shrink-0">
+                                        <span class="material-symbols-outlined text-base">description</span>
                                     </div>
                                     <div>
                                         <h4 class="font-bold text-xs text-primary leading-tight">${p.subject} (${p.year})</h4>
-                                        <p class="text-[10px] text-secondary mt-1">
-                                            Paper Code: <span class="font-bold text-accent-neural-emerald">${p.nepCode || p.code}</span>
-                                        </p>
+                                        <p class="text-[10px] text-secondary mt-0.5">Code: ${p.nepCode || p.code}</p>
                                     </div>
                                 </div>
-                                <div class="flex items-center gap-2 w-full md:w-auto shrink-0 justify-end">
-                                    <a href="pyq-viewer.html?file=${fileUrl}&title=${titleParam}" class="bg-primary text-white hover:bg-neutral-800 px-4 py-2 rounded-full font-bold text-[10px] flex items-center gap-1.5 transition-all duration-200 active:scale-95 shadow-sm">
-                                        <span class="material-symbols-outlined text-xs">visibility</span>
-                                        <span>View Paper</span>
-                                    </a>
-                                </div>
+                                <a href="pyq-viewer.html?file=${fileUrl}&title=${titleParam}" class="bg-neutral-100 hover:bg-neutral-200 text-primary px-3 py-1.5 rounded-full font-bold text-[10px] flex items-center gap-1 transition-all active:scale-95 w-full md:w-auto justify-center">
+                                    <span class="material-symbols-outlined text-xs">visibility</span>
+                                    <span>View Paper</span>
+                                </a>
                             </div>
                         `;
                     }
                 });
                 
                 semesterGroupsHTML += `
-                    <div class="border border-border-subtle bg-white/60 rounded-xl p-4 md:p-5 space-y-3 shadow-sm">
-                        <div class="flex flex-wrap items-center justify-between border-b border-border-subtle/50 pb-2">
-                            <div class="flex items-center gap-2.5">
-                                <span class="w-2 h-2 rounded-full bg-accent-neural-emerald"></span>
-                                <h3 class="font-extrabold text-xs text-accent-neural-emerald uppercase tracking-wider">${nepCode} &mdash; ${courseName}</h3>
-                            </div>
-                            <span class="bg-accent-neural-emerald/5 text-accent-neural-emerald text-[9px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider">${papersList.length} Papers</span>
-                        </div>
-                        <div class="space-y-3">
+                    <div class="space-y-2">
+                        <h3 class="font-bold text-xs text-primary border-l-2 border-accent-neural-emerald pl-2 py-0.5">${courseName} <span class="text-secondary font-normal">(${nepCode})</span></h3>
+                        <div class="space-y-2 pl-3">
                             ${papersMarkup}
                         </div>
                     </div>
@@ -886,17 +1040,27 @@
         }
 
         if (!hasAnyPaper) {
-            container.innerHTML = `
+            const emptyHTML = `
                 <div class="glass-panel p-12 text-center border border-border-subtle rounded-xl text-secondary w-full">
                     <span class="material-symbols-outlined text-4xl mb-3 text-secondary">search_off</span>
-                    <p class="text-sm font-semibold">No transcribed papers found matching your search.</p>
+                    <p class="text-sm font-semibold">No transcribed papers found for this course category yet.</p>
                 </div>
             `;
+            container.insertAdjacentHTML('beforeend', emptyHTML);
         }
     }
 
-    // Initial load
-    renderSemesterPapers(activePapers);
+    // Initial load logic
+    if (deptKey === 'additional' || deptKey === 'optional') {
+        const catParam = params.get('cat');
+        if (catParam && ADDITIONAL_CATEGORIES[catParam]) {
+            selectAdditionalCategory(catParam);
+        } else {
+            renderAdditionalCategories();
+        }
+    } else {
+        renderSemesterPapers(activePapers);
+    }
 
     window.filterPapers = function() {
         const query = document.getElementById('paperSearchInput').value.toLowerCase().trim();
@@ -908,17 +1072,23 @@
             clearBtn.classList.add('hidden');
         }
 
-        const filtered = activePapers.filter(p => {
+        let baseList = activePapers;
+        if ((deptKey === 'additional' || deptKey === 'optional') && selectedSubCategory && ADDITIONAL_CATEGORIES[selectedSubCategory]) {
+            baseList = activePapers.filter(ADDITIONAL_CATEGORIES[selectedSubCategory].filter);
+        }
+
+        const filtered = baseList.filter(p => {
             const title = p.subject.toLowerCase();
-            const nep = p.nepCode.toLowerCase();
-            const old = p.oldCode.toLowerCase();
-            const year = p.year.toLowerCase();
-            const code = p.code.toLowerCase();
+            const nep = (p.nepCode || '').toLowerCase();
+            const old = (p.oldCode || '').toLowerCase();
+            const year = (p.year || '').toLowerCase();
+            const code = (p.code || '').toLowerCase();
             
             return title.includes(query) || nep.includes(query) || old.includes(query) || year.includes(query) || code.includes(query);
         });
         
-        renderSemesterPapers(filtered);
+        const catInfo = (deptKey === 'additional' || deptKey === 'optional') && selectedSubCategory ? ADDITIONAL_CATEGORIES[selectedSubCategory] : null;
+        renderSemesterPapers(filtered, catInfo);
     };
 
     window.clearSearch = function() {

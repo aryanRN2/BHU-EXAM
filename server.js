@@ -285,6 +285,7 @@ const server = http.createServer(async (req, res) => {
         // 2. Explicit Alias Map
         if (!targetPath) {
             const ALIAS_MAP = {
+                'Physics_Sem_4_End_Term': 'aaa/ALL_PYQS_LATEX/PHYMJ41_ElectromagneticTheory_SemIV_2025-26.tex',
                 'ode_2023-24': 'aaa/latest corrected maths pdf/final maths export latex/MTB-302_DiffEq_BSc-SemIII_2023-24.tex',
                 'ode_2024-25': 'aaa/latest corrected maths pdf/final maths export latex/MTB-302_DiffEq_BSc-SemIII_2023-24.tex',
                 'STB_501__Applied_Statistics_2024_25': 'aaa/STATISTIC/tex_files/STA_STB-501_AppliedStatistics_SemV_2022-23_BSc.tex',

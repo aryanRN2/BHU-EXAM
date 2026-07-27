@@ -38,7 +38,41 @@
 \begin{parts}
   \item Define the gradient of a scalar function. Find the gradient of the function $f(x,y,z) = x^2 y^3 z^4$.
   \item What is the magnetic field outside an infinite solenoid with current-carrying wires with current density $I$ wrapping it?
-  \item For the vector field $\vec{v} = (2xz + 3y^2)\hat{a}_y + (4yz^2)\hat{a}_z$, calculate the line integral along the boundary of the closed square region in the $y$-$z$ plane bounded by $y=0, y=1$ and $z=0, z=1$.
+  \item For the vector field $\vec{v} = (2xz + 3y^2)\hat{a}_y + (4yz^2)\hat{a}_z$, calculate the line integral for the closed square curve shown in the given \textbf{Fig.~1}:
+  
+<div class="my-4 text-center">
+  <svg width="280" height="200" viewBox="0 0 280 200" class="mx-auto border border-neutral-200 rounded-lg bg-white shadow-sm" style="max-width:100%;">
+    <defs>
+      <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb" />
+      </marker>
+      <marker id="axis-arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#6b7280" />
+      </marker>
+    </defs>
+    <line x1="50" y1="160" x2="250" y2="160" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#axis-arrow)" />
+    <text x="255" y="165" font-size="12" font-weight="bold" fill="#374151">y</text>
+    <line x1="50" y1="160" x2="50" y2="20" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#axis-arrow)" />
+    <text x="45" y="15" font-size="12" font-weight="bold" fill="#374151">z</text>
+    <text x="35" y="175" font-size="11" fill="#4b5563">(0,0)</text>
+    <text x="170" y="180" font-size="11" fill="#4b5563">y=1</text>
+    <line x1="170" y1="157" x2="170" y2="163" stroke="#4b5563" stroke-width="1.5" />
+    <text x="15" y="65" font-size="11" fill="#4b5563">z=1</text>
+    <line x1="47" y1="60" x2="53" y2="60" stroke="#4b5563" stroke-width="1.5" />
+    <rect x="50" y="60" width="120" height="100" fill="rgba(37,99,235,0.08)" stroke="#2563eb" stroke-width="2.5" />
+    <line x1="50" y1="160" x2="120" y2="160" stroke="#2563eb" stroke-width="2.5" marker-end="url(#arrow)" />
+    <line x1="170" y1="160" x2="170" y2="100" stroke="#2563eb" stroke-width="2.5" marker-end="url(#arrow)" />
+    <line x1="170" y1="60" x2="100" y2="60" stroke="#2563eb" stroke-width="2.5" marker-end="url(#arrow)" />
+    <line x1="50" y1="60" x2="50" y2="120" stroke="#2563eb" stroke-width="2.5" marker-end="url(#arrow)" />
+    <circle cx="50" cy="160" r="3" fill="#2563eb" />
+    <circle cx="170" cy="160" r="3" fill="#2563eb" />
+    <circle cx="170" cy="60" r="3" fill="#2563eb" />
+    <circle cx="50" cy="60" r="3" fill="#2563eb" />
+    <text x="175" y="55" font-size="11" font-weight="bold" fill="#1e40af">(1,1)</text>
+    <text x="140" y="195" text-anchor="middle" font-size="11" font-weight="bold" fill="#1f2937">Fig. 1: Square Integration Contour in y-z Plane</text>
+  </svg>
+</div>
+
   \item What are Lorentz and Coulomb gauges? State their gauge conditions.
   \item Find the skin depth of copper whose conductivity $\sigma = 5.8 \times 10^7\text{ mho/m}$, $\mu = \mu_0$ at frequency $f = 10^8\text{ Hz}$.
   \item Find the electric field at a distance $d$ from an infinite plane sheet with uniform surface charge density $\sigma$.
@@ -78,7 +112,35 @@
 \end{parts}
 
 \bigskip
-\noindent\textbf{Question 7.} State Stokes' theorem for a vector field. Suppose vector field $\vec{v} = xy\hat{a}_x + 2yz\hat{a}_y + 3zx\hat{a}_z$. Verify Stokes' theorem over the triangular region in the $y$-$z$ plane bounded by the vertices $(0,0,0)$, $(0,2,0)$, and $(0,0,2)$.\pts{$12\frac{1}{2}$}
+\noindent\textbf{Question 7.} State Stokes' theorem for a vector field. Suppose vector field $\vec{v} = xy\hat{a}_x + 2yz\hat{a}_y + 3zx\hat{a}_z$. Verify Stokes' theorem over the triangular region in the $y$-$z$ plane bounded by the vertices $(0,0,0)$, $(0,2,0)$, and $(0,0,2)$ shown in \textbf{Fig.~2}.\pts{$12\frac{1}{2}$}
+
+<div class="my-4 text-center">
+  <svg width="280" height="210" viewBox="0 0 280 210" class="mx-auto border border-neutral-200 rounded-lg bg-white shadow-sm" style="max-width:100%;">
+    <defs>
+      <marker id="arrow2" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#059669" />
+      </marker>
+      <marker id="axis-arrow2" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#6b7280" />
+      </marker>
+    </defs>
+    <line x1="50" y1="160" x2="250" y2="160" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#axis-arrow2)" />
+    <text x="255" y="165" font-size="12" font-weight="bold" fill="#374151">y</text>
+    <line x1="50" y1="160" x2="50" y2="20" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#axis-arrow2)" />
+    <text x="45" y="15" font-size="12" font-weight="bold" fill="#374151">z</text>
+    <text x="30" y="175" font-size="11" fill="#4b5563">(0,0,0)</text>
+    <text x="180" y="180" font-size="11" font-weight="bold" fill="#059669">(0,2,0)</text>
+    <line x1="180" y1="157" x2="180" y2="163" stroke="#4b5563" stroke-width="1.5" />
+    <text x="5" y="45" font-size="11" font-weight="bold" fill="#059669">(0,0,2)</text>
+    <line x1="47" y1="40" x2="53" y2="40" stroke="#4b5563" stroke-width="1.5" />
+    <polygon points="50,160 180,160 50,40" fill="rgba(16,185,129,0.12)" stroke="#059669" stroke-width="2.5" />
+    <line x1="50" y1="160" x2="125" y2="160" stroke="#059669" stroke-width="2.5" marker-end="url(#arrow2)" />
+    <line x1="180" y1="160" x2="110" y2="95" stroke="#059669" stroke-width="2.5" marker-end="url(#arrow2)" />
+    <line x1="50" y1="40" x2="50" y2="105" stroke="#059669" stroke-width="2.5" marker-end="url(#arrow2)" />
+    <text x="90" y="120" font-size="13" font-weight="bold" fill="#047857">S</text>
+    <text x="140" y="200" text-anchor="middle" font-size="11" font-weight="bold" fill="#1f2937">Fig. 2: Triangular Surface Region for Stokes' Theorem</text>
+  </svg>
+</div>
 
 \bigskip
 \noindent\textbf{Parameters to be used in calculations:}
@@ -89,4 +151,9 @@
 \end{itemize}
 
 \vfill\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
 \end{document}
