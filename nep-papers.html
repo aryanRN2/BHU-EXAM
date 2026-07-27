@@ -159,16 +159,24 @@
         'geology': 'Geology',
         'botany': 'Botany',
         'zoology': 'Zoology',
-        'commerce': 'Commerce'
+        'commerce': 'Commerce',
+        'additional': 'Optional & Additional',
+        'optional': 'Optional & Additional'
     };
 
-    const deptBadgeLabel = deptLabels[deptKey] || 'Physics';
+    const deptBadgeLabel = deptLabels[deptKey] || (deptKey.charAt(0).toUpperCase() + deptKey.slice(1));
     document.getElementById('deptBadge').textContent = deptBadgeLabel;
     document.getElementById('deptTitle').textContent = `${deptBadgeLabel} PYQs`;
 
     // Filter papers to current department, mapping shorthand like 'maths' to 'Mathematics'
     const targetDept = (deptLabels[deptKey] || deptKey).toLowerCase();
-    const activePapers = NEP_LATEX_PYQ_DATA.filter(p => p.department.toLowerCase() === targetDept || p.department.toLowerCase() === deptKey.toLowerCase());
+    const activePapers = NEP_LATEX_PYQ_DATA.filter(p => {
+        if (deptKey === 'additional' || deptKey === 'optional') {
+            const code = (p.code || p.nepCode || '').toUpperCase();
+            return code.includes('MD') || code.includes('SE') || code.includes('VAC') || code.includes('V') || (p.department && (p.department.toLowerCase().includes('additional') || p.department.toLowerCase().includes('optional')));
+        }
+        return p.department.toLowerCase() === targetDept || p.department.toLowerCase() === deptKey.toLowerCase();
+    });
 
     const NEP_COURSE_NAMES = {
         // Zoology
