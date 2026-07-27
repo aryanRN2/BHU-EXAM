@@ -1,0 +1,92 @@
+% BHU PYQ -- Physics Electromagnetic Theory & Relativistic Mechanics (2025-26 NEP)
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,pdftitle=PHYMJ41 / PHYMN41: Physics -- BHU NEP 2025-26}
+
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{PHYMJ41 / PHYMN41: Physics (2025-26)}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons) Semester IV Examination, 2025-26 (NEP)}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries PHYSICS}\\[4pt]
+  {\large\bfseries Paper: PHYMJ41 / PHYMN41 --- Electromagnetic Theory \& Relativistic Mechanics}\\[4pt]
+  {\normalsize Time: 2½ Hours \hfill Full Marks: 70}\\[2pt]
+  {\small REF NO. Conf/Even/N/2025-26/58}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer \textbf{five} questions including Question No.~1 which is compulsory. All symbols have their usual meanings unless specified otherwise. The figures in the right-hand margin indicate marks.}
+\bigskip
+
+\noindent\textbf{Question 1.} \textit{(Compulsory --- Answer any four of the following)}\pts{$4 \times 5 = 20$}
+\begin{parts}
+  \item Define the gradient of a scalar function. Find the gradient of the function $f(x,y,z) = x^2 y^3 z^4$.
+  \item What is the magnetic field outside an infinite solenoid with current-carrying wires with current density $I$ wrapping it?
+  \item For the vector field $\vec{v} = (2xz + 3y^2)\hat{a}_y + (4yz^2)\hat{a}_z$, calculate the line integral along the boundary of the closed square region in the $y$-$z$ plane bounded by $y=0, y=1$ and $z=0, z=1$.
+  \item What are Lorentz and Coulomb gauges? State their gauge conditions.
+  \item Find the skin depth of copper whose conductivity $\sigma = 5.8 \times 10^7\text{ mho/m}$, $\mu = \mu_0$ at frequency $f = 10^8\text{ Hz}$.
+  \item Find the electric field at a distance $d$ from an infinite plane sheet with uniform surface charge density $\sigma$.
+\end{parts}
+
+\bigskip
+\noindent\textbf{Question 2.}
+\begin{parts}
+  \item What are Lorentz transformations? Show that the combination $x^2 - c^2 t^2$ remains invariant under Lorentz transformations.\pts{$7\frac{1}{2}$}
+  \item Show that the wave equation with velocity $c$ does not change under Lorentz transformations.\pts{5}
+\end{parts}
+
+\bigskip
+\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Consider a reference frame $R_2$ moving with velocity $v_2$ with respect to reference frame $R_1$, which in turn moves with velocity $v_1$ with respect to reference frame $R_0$. What is the velocity of $R_2$ with respect to $R_0$?\pts{5}
+  \item A stick of length $34\text{ cm}$ (in its rest frame) is moving at speed $v = \frac{15}{17}c$ with respect to observer A. What will be the length of the stick according to observer A?\pts{5}
+  \item A graviton (the particle carrying gravitational force) has vanishing rest mass. What would be its velocity with respect to the ground?\pts{$2\frac{1}{2}$}
+\end{parts}
+
+\bigskip
+\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Write down Maxwell's equations in vacuum. Which of these equations satisfy vector identities?\pts{4}
+  \item Show that the electric field obeys a wave equation in vacuum.\pts{$4\frac{1}{2}$}
+  \item Write down Maxwell's equations in a medium. How do they simplify for linear media? (Derivation not required).\pts{4}
+\end{parts}
+
+\bigskip
+\noindent\textbf{Question 5.} Derive the expressions for the reflection and transmission coefficients when an electromagnetic wave is incident obliquely on a boundary separated by two lossless dielectrics for the case when the electric field vector of the electromagnetic wave is perpendicular to the plane of incidence.\pts{$12\frac{1}{2}$}
+
+\bigskip
+\noindent\textbf{Question 6.}
+\begin{parts}
+  \item Discuss the propagation of electromagnetic waves in conducting media and derive expressions for the attenuation constant and phase constant.\pts{9}
+  \item Calculate the intrinsic impedance of free space.\pts{$3\frac{1}{2}$}
+\end{parts}
+
+\bigskip
+\noindent\textbf{Question 7.} State Stokes' theorem for a vector field. Suppose vector field $\vec{v} = xy\hat{a}_x + 2yz\hat{a}_y + 3zx\hat{a}_z$. Verify Stokes' theorem over the triangular region in the $y$-$z$ plane bounded by the vertices $(0,0,0)$, $(0,2,0)$, and $(0,0,2)$.\pts{$12\frac{1}{2}$}
+
+\bigskip
+\noindent\textbf{Parameters to be used in calculations:}
+\begin{itemize}[leftmargin=*]
+  \item $\mu_0 = 4\pi \times 10^{-7}\text{ H/m}$
+  \item $\varepsilon_0 = 8.854 \times 10^{-12}\text{ F/m}$
+  \item Charge of electron, $e = 1.6 \times 10^{-19}\text{ Coulomb}$
+\end{itemize}
+
+\vfill\rule{\linewidth}{0.4pt}
+\end{document}

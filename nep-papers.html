@@ -733,7 +733,17 @@
         papers.forEach(p => {
             const sem = p.semester || 1;
             const targetSem = groups[sem] ? sem : 1;
-            const code = p.nepCode || 'General';
+            let code = p.nepCode || 'General';
+
+            if (code === 'MATMJ11' || code === 'MATMN11') code = 'MATMJ11 / MATMN11';
+            if (code === 'MATMJ21' || code === 'MATMN21') code = 'MATMJ21 / MATMN21';
+            if (code === 'PHYMJ11' || code === 'PHYMN11') code = 'PHYMJ11 / PHYMN11';
+            if (code === 'PHYMJ21' || code === 'PHYMN21') code = 'PHYMJ21 / PHYMN21';
+            if (code === 'STAMJ11' || code === 'STAMN11') code = 'STAMJ11 / STAMN11';
+            if (code === 'STAMJ21' || code === 'STAMN21') code = 'STAMJ21 / STAMN21';
+            if (code === 'CSCMJ11' || code === 'CSCMN11') code = 'CSCMJ11 / CSCMN11';
+            if (code === 'CSCMJ21' || code === 'CSCMN21') code = 'CSCMJ21 / CSCMN21';
+
             if (!groups[targetSem][code]) {
                 groups[targetSem][code] = [];
             }

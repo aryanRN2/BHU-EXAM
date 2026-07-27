@@ -759,6 +759,10 @@
             // Marks command \pts{...} in LaTeX style (aligned to right margin in brackets)
             body = body.replace(/\\pts\{([\s\S]*?)\}/g, '<span class="inline-block float-right text-xs sm:text-sm italic font-normal text-neutral-700">[$1]</span>');
 
+            // Clean up \hfill before font size replacements so floated spans stay correctly nested inside paragraph tags
+            body = body.replace(/\\hfill\s*([^\n\r\}]+)/g, '<span class="float-right font-semibold">$1</span>');
+            body = body.replace(/\\hfill/gi, ' &nbsp;&nbsp; ');
+
             // Center environments tags (no rounded cards for prints)
             body = body.replace(/\\begin\{center\}/gi, '<div class="text-center pyq-title-block space-y-1">');
             body = body.replace(/\\end\{center\}/gi, '</div>');
@@ -896,6 +900,9 @@
                     text = text.replace(/\\normalsize/gi, '');
 
                     // Format Question headings (no saffron dot or bottom border lines)
+                    text = text.replace(/<strong>Question\s*([0-9]+)\.?<\/strong>\s*([^\n]+)/gi, (match, qNum, restText) => {
+                        return `<strong>Question ${qNum}.</strong>\n${restText}`;
+                    });
                     text = text.replace(/<strong>Question\s*([0-9]+)\.?<\/strong>/gi, '<h3 class="font-bold text-sm sm:text-base text-primary mt-4 mb-2">Question $1</h3>');
 
                     parts[i] = text;
@@ -1012,7 +1019,15 @@
                     continue;
                 }
 
-                parsedHtml += line + '\n';
+                if (trimmed.length > 0) {
+                    if (trimmed.startsWith('<')) {
+                        parsedHtml += line + '\n';
+                    } else {
+                        parsedHtml += `<p class="my-2 leading-relaxed text-xs sm:text-sm text-neutral-900">${line}</p>\n`;
+                    }
+                } else {
+                    parsedHtml += '\n';
+                }
             }
 
             // 10. Final cleanup of trailing links at bottom
@@ -1088,6 +1103,22 @@
             const hidden = document.getElementById('hiddenLatexContainer');
             const target = document.getElementById('renderedLatexContent');
             if (!hidden || !target) return;
+
+            // Wrap any raw top-level text nodes in hidden container into paragraph elements
+            const childNodes = Array.from(hidden.childNodes);
+            childNodes.forEach(child => {
+                if (child.nodeType === Node.TEXT_NODE) {
+                    const text = child.textContent.trim();
+                    if (text) {
+                        const p = document.createElement('p');
+                        p.className = 'my-2 leading-relaxed text-xs sm:text-sm text-neutral-900';
+                        p.textContent = text;
+                        hidden.replaceChild(p, child);
+                    } else {
+                        hidden.removeChild(child);
+                    }
+                }
+            });
 
             target.innerHTML = ''; // Clear existing layout pages
 
@@ -1318,6 +1349,7 @@
             // When the primary texUrl fails (e.g. it was a Supabase PDF URL), we try
             // every local department folder before giving up and falling back to PDF-only mode.
             const localTexFallbacks = [
+                `aaa/ALL_PYQS_LATEX/${filename}.tex`,             // ALL_PYQS_LATEX archive
                 `aaa/chemistry/tex_files/${filename}.tex`,       // Chemistry
                 `aaa/cs/${filename}.tex`,                         // Computer Science (BSc/BVoc)
                 `aaa/geology/${filename}.tex`,                    // Geology

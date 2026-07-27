@@ -268,12 +268,17 @@ const server = http.createServer(async (req, res) => {
         const filename = path.basename(decodedFile).replace('.pdf', '').replace('.tex', '');
         let targetPath = null;
 
-        // 1. Direct check of the decoded path if it's local
+        // 1. Direct check of the decoded path if it's local (must be or convert to .tex)
         const isRemoteUrl = decodedFile.startsWith('http://') || decodedFile.startsWith('https://');
         if (!isRemoteUrl) {
             const directPath = path.resolve(__dirname, decodedFile);
-            if (directPath.startsWith(__dirname) && fs.existsSync(directPath) && fs.statSync(directPath).isFile()) {
+            if (directPath.endsWith('.tex') && directPath.startsWith(__dirname) && fs.existsSync(directPath) && fs.statSync(directPath).isFile()) {
                 targetPath = directPath;
+            } else {
+                const texPath = directPath.replace(/\.pdf$/i, '.tex');
+                if (texPath.endsWith('.tex') && texPath.startsWith(__dirname) && fs.existsSync(texPath) && fs.statSync(texPath).isFile()) {
+                    targetPath = texPath;
+                }
             }
         }
 

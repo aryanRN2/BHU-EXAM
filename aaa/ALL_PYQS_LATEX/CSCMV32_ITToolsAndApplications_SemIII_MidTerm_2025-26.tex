@@ -1,0 +1,78 @@
+% BHU PYQ -- Computer Science IT Tools & Applications (2025-26 NEP)
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,pdftitle=CSCMV32: IT Tools & Applications -- BHU NEP 2025-26}
+
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{CSCMV32: IT Tools \& Applications (2025-26)}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (CS)-III Mid Semester Examination 2025-26 (NEP)}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries COMPUTER SCIENCE}\\[4pt]
+  {\large\bfseries Paper: CSCMV32 --- IT Tools \& Applications}\\[4pt]
+  {\normalsize Time: 3 Hours \hfill Full Marks: 40}
+\end{center}
+\rule{\linewidth}{0.4pt}
+\smallskip
+\noindent\textit{Instructions: Answer all questions as specified. The figures in the right-hand margin indicate marks.}
+\bigskip
+
+\noindent\textbf{Question 1.} Create an Excel file and name it as your exam roll number.\pts{10 Marks}
+\begin{parts}
+  \item In sheet1, enter 15 in A1, 25 in B1 and 30 in C1. Find the value of \texttt{=(A1+B1)/C1+2}.
+  \item In sheet2, enter "Students ID" column with values \texttt{2025CSMV001} to \texttt{2025CSMV010}, add another column as "Roll Number" and enter last 3 digits from student ID using a formula. Also, write the formula for extracting roll number from student ID.
+  \item Add column "Marks Obtained" and enter 10 random numbers between 1--100 in column C as the marks in English. Write the formula to enter random numbers between 1--100.
+  \item Find the 2nd lowest marks obtained by the student and then use INDEX-MATCH to lookup the student ID corresponding to that number.
+  \item In column "Viva Date", enter random dates between 1 December 2025 and today's date. Write the formula for the same.
+  \item Using VLOOKUP, find the Viva Date of the student with Student ID = \texttt{2025CSCMV006}. Also, write the formula.
+  \item Create column "Final marks" and use \texttt{LET} function along with a conditional function to enter the value equal to "Marks Obtained" $+ 3$ if "Marks Obtained" is $< 50$ and equal to "Marks Obtained" otherwise. Also, write the formula.
+\end{parts}
+
+\bigskip
+\noindent\textbf{Question 2.}\pts{10 Marks}
+\begin{parts}
+  \item Write something about (i) Yourself (ii) Varanasi (iii) Your Hometown.
+  \item Write the content in 2 different paragraphs, having at least 3 lines (not 3 sentences) each. Make 1st paragraph Centrally Aligned \& 2nd paragraph Justified. Wherever you mention your name/Varanasi/Your Hometown's Name, change the font style to Bradley Hand ITC, make it bold and underline it. Add space after paragraph \& change line spacing to 1.5 pts. Also, highlight all the content of 2nd paragraph in "Turquoise" colour with text colour in "Blue, Accent 1, Darker 25\%". Insert an image (source of image should be online) in the document according to the option chosen and format the Picture Style to RRR (Reflected Rounded Rectangle).
+  \item Save the file with a filename \texttt{<Your Name> Work}. Find your name/Varanasi/Your Hometown's Name in the document, replace it with India and save these changes in a new file with filename \texttt{<Your Name> New}, in Portable Document Format (PDF).
+\end{parts}
+
+\bigskip
+\noindent\textbf{Question 3.} Create a PowerPoint presentation on the topic "Applications of PowerPoint" with 5 slides. After that, do the following tasks:\pts{10 Marks}
+\begin{parts}
+  \item Apply a design theme of your choice.
+  \item Insert a title and subtitle on the first slide with your name and course.
+  \item Apply slide transition effects to all slides.
+  \item Insert a shape and animate it to move in a circular path.
+  \item Insert an image and add multiple animations to the same image (Entrance + Emphasis + Exit).
+  \item Set up your presentation to run automatically with timings for each slide.
+  \item Add speaker notes to at least two slides.
+\end{parts}
+
+\bigskip
+\noindent\textbf{Question 4.} Create the following tables in MS-Access with appropriate data types and constraints:\pts{10 Marks}\\
+\textbf{Students}(\underline{StudentID}, Name, Gender, Phone, CourseID)\\
+\textbf{Courses}(\underline{CourseID}, CourseName, Duration, Fees)
+\begin{parts}
+  \item Set StudentID and CourseID as primary keys.
+  \item Create a one-to-many relationship between Courses $\rightarrow$ Students.
+  \item Enter at least 5 student records and 3 course records.
+\end{parts}
+
+\vfill\rule{\linewidth}{0.4pt}
+\end{document}
