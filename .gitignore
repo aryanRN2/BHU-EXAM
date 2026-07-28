@@ -13,3 +13,4 @@ pull-stitch.mjs
 *.out
 *.toc
 *.synctex.gz
+scratch/

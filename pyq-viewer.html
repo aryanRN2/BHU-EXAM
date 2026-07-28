@@ -793,6 +793,29 @@
                 return `<span class="inline-block" style="width: ${cleaned}; min-width: 1em;"></span>`;
             });
 
+            // Parse section headings (\section*{...}, \section{...}, \subsection*{...}, \subsection{...})
+            body = replaceCommandWithBalancedBraces(body, '\\section*', (inner) => {
+                return `<h2 class="text-sm sm:text-base font-extrabold uppercase tracking-widest text-primary border-b border-neutral-300 pb-1.5 mt-6 mb-3">${inner}</h2>`;
+            });
+            body = replaceCommandWithBalancedBraces(body, '\\section', (inner) => {
+                return `<h2 class="text-sm sm:text-base font-extrabold uppercase tracking-widest text-primary border-b border-neutral-300 pb-1.5 mt-6 mb-3">${inner}</h2>`;
+            });
+            body = replaceCommandWithBalancedBraces(body, '\\subsection*', (inner) => {
+                return `<h3 class="text-xs sm:text-sm font-bold text-neutral-800 mt-4 mb-2">${inner}</h3>`;
+            });
+            body = replaceCommandWithBalancedBraces(body, '\\subsection', (inner) => {
+                return `<h3 class="text-xs sm:text-sm font-bold text-neutral-800 mt-4 mb-2">${inner}</h3>`;
+            });
+
+            // Rules & horizontal lines (\hr, \hrule, \hrulefill)
+            body = body.replace(/\\hr\b/gi, '<hr class="border-neutral-300 my-4" />');
+            body = body.replace(/\\hrulefill\b/gi, '<hr class="border-neutral-300 my-4" />');
+            body = body.replace(/\\hrule\b/gi, '<hr class="border-neutral-300 my-4" />');
+
+            // Strip vspace commands
+            body = replaceCommandWithBalancedBraces(body, '\\vspace*', (inner) => '');
+            body = replaceCommandWithBalancedBraces(body, '\\vspace', (inner) => '');
+
             // Section headings (matches A-D and Roman numerals to avoid matching plain words like 'which')
             body = body.replace(/SECTION\s+([A-D]|[IVX]+)\b/gi, '<span class="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-primary border-b-2 border-primary/20 pb-1">SECTION $1</span>');
 
@@ -913,12 +936,20 @@
 
             // 9. Robust list environment parser supporting parts, romanparts, enumerate, and itemize (with nested stack)
             let listStack = [];
+            let pendingListStart = null;
             const lines = processedBody.split('\n');
             let parsedHtml = '';
 
             for (let i = 0; i < lines.length; i++) {
                 let line = lines[i];
                 let trimmed = line.trim();
+
+                // Check for setcounter command
+                let setCounterMatch = trimmed.match(/\\setcounter\{[^}]*\}\{([0-9]+)\}/);
+                if (setCounterMatch) {
+                    pendingListStart = parseInt(setCounterMatch[1]) + 1;
+                    continue;
+                }
 
                 // Check for list start
                 let beginIdx = line.indexOf('\\begin{parts}');
@@ -951,7 +982,9 @@
                     }
 
                     listStack.push(listTag);
-                    parsedHtml += `<${listTag} class="${listClass} pl-6 sm:pl-8 my-3 space-y-2">`;
+                    let startAttr = (listTag === 'ol' && pendingListStart) ? ` start="${pendingListStart}"` : '';
+                    pendingListStart = null;
+                    parsedHtml += `<${listTag}${startAttr} class="${listClass} pl-6 sm:pl-8 my-3 space-y-2">`;
 
                     // If there's text after the \begin{...} on the same line, append it
                     const matchBegin = beginCmd.match(/\\begin\{[a-zA-Z]+\}(?:\[.*?\])?/);

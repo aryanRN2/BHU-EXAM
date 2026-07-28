@@ -189,7 +189,8 @@
             const code = (p.code || p.nepCode || '').toUpperCase();
             return code.includes('AE') || code.includes('AEC') || code.includes('VAC') || code.includes('MD') || code.includes('MDC') || code.includes('SE') || code.includes('SEC') || code.includes('V') || (p.department && (p.department.toLowerCase().includes('additional') || p.department.toLowerCase().includes('optional')));
         }
-        return p.department.toLowerCase() === targetDept || p.department.toLowerCase() === deptKey.toLowerCase();
+        const dept = (p.department || p.subject || '').toLowerCase();
+        return dept === targetDept || dept === deptKey.toLowerCase();
     });
 
     const NEP_COURSE_NAMES = {

@@ -1,0 +1,80 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{utf8}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{listings}
+\usepackage{enumitem}
+
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{Department of Computer Science, Institute of Science}}\\[4pt]
+    {\large \textbf{B.Sc. Semester II Mid-Term Examination 2024--25}}\\[4pt]
+    \textbf{Paper Code: CSCSE21 : Mobile Application Development}\\[6pt]
+    \textbf{Time: 1 Hour} \hfill \textbf{Maximum Marks: 30}
+\end{center}
+\hr
+
+\begin{enumerate}[label=\textbf{Q\arabic*.}]
+    \item \textbf{Choose the correct option:} \hfill [$1 \times 5 = 5$]
+    \begin{enumerate}[label=\arabic*.]
+        \item What language is primarily used for Android app development?
+        \begin{enumerate}[label=\alph*)]
+            \item Swift \quad b) Java \quad c) Kotlin \quad d) Both b and c
+        \end{enumerate}
+        \item Which one is the official Integrated Development Environment (IDE) for Android app development?
+        \begin{enumerate}[label=\alph*)]
+            \item Xcode \quad b) Eclipse \quad c) Android Studio \quad d) NetBeans
+        \end{enumerate}
+        \item What is the full form of APK?
+        \begin{enumerate}[label=\alph*)]
+            \item Android Programming Kit \quad b) Android Package \quad c) Application Package \quad d) Android Package Kit
+        \end{enumerate}
+        \item What is the purpose of an emulator in mobile development?
+        \begin{enumerate}[label=\alph*)]
+            \item To compress app size \quad b) To debug code \quad c) To simulate a mobile device on a computer \quad d) To encrypt data
+        \end{enumerate}
+        \item What is the use of Gradle in Android development?
+        \begin{enumerate}[label=\alph*)]
+            \item UI designing \quad b) App debugging \quad c) Build automation \quad d) Code conversion
+        \end{enumerate}
+    \end{enumerate}
+
+    \item \textbf{Rewrite the code after removing errors from the code snippets:} \hfill [$1 \times 5 = 5$]
+    \begin{enumerate}[label=\alph*)]
+        \item 
+        \begin{lstlisting}[language=Kotlin]
+@Composable
+fun Slide() {
+    Text(text = "THANK YOU!", color = Color.Green)
+}
+        \end{lstlisting}
+        \item 
+        \begin{lstlisting}[language=Kotlin]
+class Person(val name: String) {
+    fun greet() {
+        println("Hello, $name")
+    }
+}
+        \end{lstlisting}
+    \end{enumerate}
+
+    \item \textbf{Short Questions:} \hfill [$3 + 2 = 5$]
+    \begin{enumerate}[label=\alph*)]
+        \item What are the core components of an Android application?
+        \item Explain the project directory structure of an Android Studio project.
+    \end{enumerate}
+
+    \item \textbf{Explain the complete lifecycle of an Android Activity with state transition diagram.} \hfill [5]
+
+    \item \textbf{Write a Kotlin program to create a class \texttt{Sport} with:} \hfill [5]
+    \begin{enumerate}[label=\alph*)]
+        \item Attributes: \texttt{playerName} (String), \texttt{age} (Integer), \texttt{address} (String).
+        \item A function \texttt{display()} that prints the player's details.
+        \item Instantiate an object of the \texttt{Sport} class and access its properties.
+    \end{enumerate}
+
+    \item \textbf{What is an Android Manifest file? Explain the purpose and key tags of this file.} \hfill [5]
+\end{enumerate}
+
+\end{document}

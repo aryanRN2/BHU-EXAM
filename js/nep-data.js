@@ -1,6 +1,195 @@
 export const NEP_LATEX_PYQ_DATA = [
   {
+    "code": "ENGMD11",
+    "courseType": "Multidisciplinary",
+    "name": "Under Graduate Multidisciplinary Sem I Exam 2024-25 (NEP) - Literature and Popular Culture",
+    "filePath": "aaa/ALL_PYQS_LATEX/ENGMD11_LiteratureAndPopularCulture_SemI_2024-25.tex",
+    "fileName": "ENGMD11_LiteratureAndPopularCulture_SemI_2024-25.tex",
+    "nepCode": "ENGMD11",
+    "oldCode": "ENGMD11",
+    "subject": "English",
+    "department": "English",
+    "semester": "Semester I",
+    "year": "2024-25",
+    "type": "NEP",
+    "examType": "End Term"
+  },
+  {
+    "code": "ENGMD21",
+    "courseType": "Multidisciplinary",
+    "name": "U.G. Semester-II Exam 2024-25 (NEP) - Disability and Literature",
+    "filePath": "aaa/ALL_PYQS_LATEX/ENGMD21_DisabilityAndLiterature_SemII_2024-25.tex",
+    "fileName": "ENGMD21_DisabilityAndLiterature_SemII_2024-25.tex",
+    "nepCode": "ENGMD21",
+    "oldCode": "ENGMD21",
+    "subject": "English",
+    "department": "English",
+    "semester": "Semester II",
+    "year": "2024-25",
+    "type": "NEP",
+    "examType": "End Term"
+  },
+  {
+    "code": "ENGMD31",
+    "courseType": "Multidisciplinary",
+    "name": "Under Graduate Semester III Exam 2025-26 (NEP) - Fantasy and Science Fiction",
+    "filePath": "aaa/ALL_PYQS_LATEX/ENGMD31_FantasyAndScienceFiction_SemIII_2025-26.tex",
+    "fileName": "ENGMD31_FantasyAndScienceFiction_SemIII_2025-26.tex",
+    "nepCode": "ENGMD31",
+    "oldCode": "ENGMD31",
+    "subject": "English",
+    "department": "English",
+    "semester": "Semester III",
+    "year": "2025-26",
+    "type": "NEP",
+    "examType": "End Term"
+  },
+
+  {
+    "code": "CSCMV32",
+    "name": "B.Sc. (Hons.) Sem III Mid-Term Exam 2025-26 - IT Tools and Applications (Theory)",
+    "filePath": "aaa/ALL_PYQS_LATEX/CSCMV32_ITToolsAndApplications_SemIII_MidTerm_Theory_2025-26.tex",
+    "fileName": "CSCMV32_ITToolsAndApplications_SemIII_MidTerm_Theory_2025-26.tex",
+    "nepCode": "CSCMV32",
+    "oldCode": "CSCMV32",
+    "subject": "Computer Science",
+    "department": "Computer Science",
+    "semester": "Semester III",
+    "year": "2025-26",
+    "type": "NEP",
+    "examType": "Mid Term"
+  },
+  {
+    "code": "CIMSE31",
+    "name": "B.Sc. (Hons.) Sem III (NEP) Mid-Semester Exam 2025-26 - Python Programming for Data Analytics",
+    "filePath": "aaa/ALL_PYQS_LATEX/CIMSE31_PythonForDataAnalytics_SemIII_MidTerm_2025-26.tex",
+    "fileName": "CIMSE31_PythonForDataAnalytics_SemIII_MidTerm_2025-26.tex",
+    "nepCode": "CIMSE31",
+    "oldCode": "CIMSE31",
+    "subject": "Computer Science",
+    "department": "Computer Science",
+    "semester": "Semester III",
+    "year": "2025-26",
+    "type": "NEP",
+    "examType": "Mid Term"
+  },
+  {
+    "code": "STASE11",
+    "name": "B.Sc. Sem I Sessional Test 2024-25 - Data Analysis and Descriptive Statistics (SEC)",
+    "filePath": "aaa/ALL_PYQS_LATEX/STASE11_DescriptiveStatistics_SemI_MidTerm_2024-25.tex",
+    "fileName": "STASE11_DescriptiveStatistics_SemI_MidTerm_2024-25.tex",
+    "nepCode": "STASE11",
+    "oldCode": "STASE11",
+    "subject": "Statistics",
+    "department": "Statistics",
+    "semester": "Semester I",
+    "year": "2024-25",
+    "type": "NEP",
+    "examType": "Mid Term"
+  },
+  {
+    "code": "CSCMN12",
+    "name": "B.Sc. (Hons.) Sem I Practical Exam 2024-25 - CS Minor Practical (Lab based on CSCMN11)",
+    "filePath": "aaa/ALL_PYQS_LATEX/CSCMN12_CSMinorPractical_SemI_2024-25.tex",
+    "fileName": "CSCMN12_CSMinorPractical_SemI_2024-25.tex",
+    "nepCode": "CSCMN12",
+    "oldCode": "CSCMN12",
+    "subject": "Computer Science",
+    "department": "Computer Science",
+    "semester": "Semester I",
+    "year": "2024-25",
+    "type": "NEP",
+    "examType": "Practical"
+  },
+  {
+    "code": "CSCMJ11",
+    "name": "B.Sc. (Hons.) Sem I Mid-Term Test 2024-25 - Introduction to Programming using C",
+    "filePath": "aaa/ALL_PYQS_LATEX/CSCMJ11_CProgramming_SemI_MidTerm_2024-25.tex",
+    "fileName": "CSCMJ11_CProgramming_SemI_MidTerm_2024-25.tex",
+    "nepCode": "CSCMJ11 / CSCMN11",
+    "oldCode": "CSCMJ11",
+    "subject": "Computer Science",
+    "department": "Computer Science",
+    "semester": "Semester I",
+    "year": "2024-25",
+    "type": "NEP",
+    "examType": "Mid Term"
+  },
+  {
+    "code": "SOCMD21",
+    "courseType": "Multidisciplinary",
+    "name": "U.G. Sem II Exam 2024-25 (NEP) - Indian Knowledge System (Sociology)",
+    "filePath": "aaa/ALL_PYQS_LATEX/SOCMD21_IndianKnowledgeSystem_SemII_2024-25.tex",
+    "fileName": "SOCMD21_IndianKnowledgeSystem_SemII_2024-25.tex",
+    "nepCode": "SOCMD21",
+    "oldCode": "SOCMD21",
+    "subject": "Sociology",
+    "department": "Sociology",
+    "semester": "Semester II",
+    "year": "2024-25",
+    "type": "NEP",
+    "examType": "End Term"
+  },
+  {
+    "code": "CSCMJ21",
+    "name": "B.Sc. Sem II Mid-Semester Exam 2024-25 - Data Structures and Algorithms",
+    "filePath": "aaa/ALL_PYQS_LATEX/CSCMJ21_DataStructures_SemII_MidTerm_2024-25.tex",
+    "fileName": "CSCMJ21_DataStructures_SemII_MidTerm_2024-25.tex",
+    "nepCode": "CSCMJ21 / CSCMN21",
+    "oldCode": "CSCMJ21",
+    "subject": "Computer Science",
+    "department": "Computer Science",
+    "semester": "Semester II",
+    "year": "2024-25",
+    "type": "NEP",
+    "examType": "Mid Term"
+  },
+  {
+    "code": "CSCSE21",
+    "name": "B.Sc. (Hons) Sem II Exam 2024-25 (NEP) - Mobile Application Development",
+    "filePath": "aaa/ALL_PYQS_LATEX/CSCSE21_MobileApplicationDevelopment_SemII_2024-25.tex",
+    "fileName": "CSCSE21_MobileApplicationDevelopment_SemII_2024-25.tex",
+    "nepCode": "CSCSE21",
+    "oldCode": "CSCSE21",
+    "subject": "Computer Science",
+    "department": "Computer Science",
+    "semester": "Semester II",
+    "year": "2024-25",
+    "type": "NEP",
+    "examType": "End Term"
+  },
+  {
+    "code": "CSCSE21",
+    "name": "B.Sc. Sem II Mid-Term Exam 2024-25 - Mobile Application Development",
+    "filePath": "aaa/ALL_PYQS_LATEX/CSCSE21_MobileApplicationDevelopment_SemII_MidTerm_2024-25.tex",
+    "fileName": "CSCSE21_MobileApplicationDevelopment_SemII_MidTerm_2024-25.tex",
+    "nepCode": "CSCSE21",
+    "oldCode": "CSCSE21",
+    "subject": "Computer Science",
+    "department": "Computer Science",
+    "semester": "Semester II",
+    "year": "2024-25",
+    "type": "NEP",
+    "examType": "Mid Term"
+  },
+  {
+    "code": "STASE11",
+    "name": "B.Sc. (Hons.) Sem I Exam 2024-25 (NEP) - Data Analysis Using Excel (SEC)",
+    "filePath": "aaa/ALL_PYQS_LATEX/STASE11_DataAnalysisUsingExcel_SemI_2024-25.tex",
+    "fileName": "STASE11_DataAnalysisUsingExcel_SemI_2024-25.tex",
+    "nepCode": "STASE11",
+    "oldCode": "STASE11",
+    "subject": "Statistics",
+    "department": "Statistics",
+    "semester": "Semester I",
+    "year": "2024-25",
+    "type": "NEP",
+    "examType": "End Term"
+  },
+
+  {
     "code": "POLMD11",
+    "courseType": "Multidisciplinary",
     "subject": "Contemporary Global Issues (MD)",
     "semester": 1,
     "year": "2024-25",
@@ -85,6 +274,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "CHEMV31",
+    "courseType": "Multidisciplinary",
     "subject": "Industrial Chemistry - I (Minor / MD)",
     "semester": 3,
     "year": "2025-26",
@@ -121,6 +311,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "FRNMD31",
+    "courseType": "Multidisciplinary",
     "subject": "Basic French III (MD)",
     "semester": 3,
     "year": "2025-26",
@@ -205,6 +396,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "POLMD31",
+    "courseType": "Multidisciplinary",
     "subject": "Development of Indian Constitution (MD)",
     "semester": 3,
     "year": "2025-26",
@@ -493,6 +685,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "CSCMD21",
+    "courseType": "Multidisciplinary",
     "subject": "Introduction to Information Technology",
     "semester": 2,
     "year": "2024-25",
@@ -589,6 +782,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "CSCMD21",
+    "courseType": "Multidisciplinary",
     "subject": "Introduction to Information Technology",
     "semester": 2,
     "year": "2024-25",
@@ -1032,6 +1226,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "CHB-02A",
+    "courseType": "Multidisciplinary",
     "subject": "Ancillary Chemistry I",
     "semester": 2,
     "year": "2013-14",
@@ -1043,6 +1238,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "CHB-02A",
+    "courseType": "Multidisciplinary",
     "subject": "Ancillary Chemistry I",
     "semester": 2,
     "year": "2023-24",
@@ -1120,6 +1316,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "CHB-04A",
+    "courseType": "Multidisciplinary",
     "subject": "Ancillary Chemistry II",
     "semester": 4,
     "year": "2013-14",
@@ -1131,6 +1328,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "CHB-04A",
+    "courseType": "Multidisciplinary",
     "subject": "Ancillary Chemistry II",
     "semester": 4,
     "year": "2022-23",
@@ -1142,6 +1340,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "CHB-04A",
+    "courseType": "Multidisciplinary",
     "subject": "Ancillary Chemistry II",
     "semester": 4,
     "year": "2023-24",
@@ -1329,6 +1528,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "CHB-505",
+    "courseType": "Multidisciplinary",
     "subject": "Environmental Chemistry and Nuclear Chemistry",
     "semester": 5,
     "year": "2016-17",
@@ -1340,6 +1540,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "CHB-505",
+    "courseType": "Multidisciplinary",
     "subject": "Environmental and Nuclear Chemistry",
     "semester": 5,
     "year": "2022-23",
@@ -1620,6 +1821,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "BCF-114",
+    "courseType": "Multidisciplinary",
     "subject": "Business Organisation",
     "semester": 1,
     "year": "2013-14",
@@ -1631,6 +1833,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "BCF-114",
+    "courseType": "Multidisciplinary",
     "subject": "Business Organisation",
     "semester": 1,
     "year": "2016-17",
@@ -1642,6 +1845,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "BCF-114",
+    "courseType": "Multidisciplinary",
     "subject": "Business Organisation",
     "semester": 1,
     "year": "2022-23",
@@ -1653,6 +1857,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "BCF-114",
+    "courseType": "Multidisciplinary",
     "subject": "Business Organisation",
     "semester": 1,
     "year": "2023-24",
@@ -2082,6 +2287,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "BCF-123",
+    "courseType": "Multidisciplinary",
     "subject": "Fundamental of Accounting",
     "semester": 2,
     "year": "2021-22",
@@ -2093,6 +2299,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "BCF-123",
+    "courseType": "Multidisciplinary",
     "subject": "Fundamental of Accounting",
     "semester": 2,
     "year": "2022-23",
@@ -2104,6 +2311,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "BCF-123",
+    "courseType": "Multidisciplinary",
     "subject": "Fundamentals of Accounting",
     "semester": 2,
     "year": "2023-24",
@@ -2192,6 +2400,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "BCH-121",
+    "courseType": "Multidisciplinary",
     "subject": "Business Organisation",
     "semester": 2,
     "year": "2014-15",
@@ -2203,6 +2412,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "BCH-121",
+    "courseType": "Multidisciplinary",
     "subject": "Business Organisation",
     "semester": 2,
     "year": "2015-16",
@@ -2214,6 +2424,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "BCH-121",
+    "courseType": "Multidisciplinary",
     "subject": "Business Organisation",
     "semester": 2,
     "year": "2021-22",
@@ -2225,6 +2436,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "BCH-121",
+    "courseType": "Multidisciplinary",
     "subject": "Business Organisation",
     "semester": 2,
     "year": "2022-23",
@@ -2236,6 +2448,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "BCH-121",
+    "courseType": "Multidisciplinary",
     "subject": "Business Organisation",
     "semester": 2,
     "year": "2023-24",
@@ -4007,6 +4220,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "CSCMD11",
+    "courseType": "Multidisciplinary",
     "subject": "Introduction To Computers",
     "semester": 1,
     "year": "2022-23",
@@ -4029,6 +4243,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "CSCMD11",
+    "courseType": "Multidisciplinary",
     "subject": "PC Hardware Troubleshooting",
     "semester": 1,
     "year": "2022-23a",
@@ -4040,6 +4255,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "CSCMD11",
+    "courseType": "Multidisciplinary",
     "subject": "PC Hardware Troubleshooting",
     "semester": 1,
     "year": "2022-23",
@@ -4117,6 +4333,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "CSCMD21",
+    "courseType": "Multidisciplinary",
     "subject": "Fundamentals Of Computers",
     "semester": 2,
     "year": "2013-14",
@@ -4469,6 +4686,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "CSCMD21",
+    "courseType": "Multidisciplinary",
     "subject": "Fundamentals Of Computing",
     "semester": 4,
     "year": "2013-14",
@@ -4601,6 +4819,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "CSCMD31",
+    "courseType": "Multidisciplinary",
     "subject": "Information Security",
     "semester": 4,
     "year": "2022-23",
@@ -4612,6 +4831,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "CSCMD31",
+    "courseType": "Multidisciplinary",
     "subject": "Information Security",
     "semester": 4,
     "year": "2023-24",
@@ -4931,6 +5151,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "GRA-101",
+    "courseType": "Multidisciplinary",
     "subject": "Physical Basis of Geography",
     "semester": 1,
     "year": "2022-23",
@@ -4942,6 +5163,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "GRA-101",
+    "courseType": "Multidisciplinary",
     "subject": "Physical Basis of Geography",
     "semester": 1,
     "year": "2023-24",
@@ -4953,6 +5175,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "GRB-101",
+    "courseType": "Multidisciplinary",
     "subject": "Physical Basis of Geography",
     "semester": 1,
     "year": "2022-23",
@@ -4964,6 +5187,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "GRB-101",
+    "courseType": "Multidisciplinary",
     "subject": "Physical Basis of Geography",
     "semester": 1,
     "year": "2023-24",
@@ -5294,6 +5518,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "GLB-101",
+    "courseType": "Multidisciplinary",
     "subject": "Elementary Physical & Structural Geology",
     "semester": 1,
     "year": "2016-17",
@@ -5305,6 +5530,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "GLB-101",
+    "courseType": "Multidisciplinary",
     "subject": "Elementary Physical & Structural Geology",
     "semester": 1,
     "year": "2022-23",
@@ -5316,6 +5542,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "GLB-101",
+    "courseType": "Multidisciplinary",
     "subject": "Elementary Physical & Structural Geology",
     "semester": 1,
     "year": "2023-24",
@@ -5800,6 +6027,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "MTB-203A",
+    "courseType": "Multidisciplinary",
     "subject": "Basic Mathematics-I",
     "semester": 1,
     "year": "2023-24",
@@ -5811,6 +6039,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "MTB-AM-203",
+    "courseType": "Multidisciplinary",
     "subject": "Basic Mathematics-I",
     "semester": 1,
     "year": "2013-14",
@@ -5822,6 +6051,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "MTB-AM-203",
+    "courseType": "Multidisciplinary",
     "subject": "Basic Mathematics-I",
     "semester": 1,
     "year": "2013-14",
@@ -5833,6 +6063,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "MTB-Unknown",
+    "courseType": "Multidisciplinary",
     "subject": "Basic Mathematics-I",
     "semester": 1,
     "year": "2013-14",
@@ -5866,6 +6097,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "MTB-AM-403",
+    "courseType": "Multidisciplinary",
     "subject": "Basic Mathematics-II",
     "semester": 2,
     "year": "2023-24",
@@ -5888,6 +6120,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "MTB-Unknown",
+    "courseType": "Multidisciplinary",
     "subject": "Basic Mathematics-II",
     "semester": 2,
     "year": "2013-14",
@@ -6849,6 +7082,7 @@ export const NEP_LATEX_PYQ_DATA = [
   },
   {
     "code": "BAS-101",
+    "courseType": "Multidisciplinary",
     "subject": "Applied Statistics Sem I",
     "semester": 1,
     "year": "2022-23",

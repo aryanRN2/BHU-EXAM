@@ -1,0 +1,64 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{utf8}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{listings}
+\usepackage{enumitem}
+
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{B.Sc. (Hons.) First Semester (Major/Minor) Mid-Semester Test 2024--25}}\\[4pt]
+    {\large \textbf{COMPUTER SCIENCE}}\\[4pt]
+    \textbf{Paper Code: CSCMJ11 / CSCMN11 : Introduction to Programming using C}\\[6pt]
+    \textbf{Time: 1 Hour} \hfill \textbf{Max. Marks: 20}
+\end{center}
+\hr
+
+\noindent \textbf{Note:} Answer all questions.
+
+\begin{enumerate}[label=\textbf{\arabic*.}]
+    \item What will be the output of the following code snippets? Explain your answer with proper reasoning: \hfill [$2 \times 4 = 8$]
+    \begin{enumerate}[label=(\alph*)]
+        \item 
+        \begin{lstlisting}[language=C]
+void main() {
+    int i = 0, j = 12;
+    if (i = 0 || j > 50)
+        printf("Hello");
+    else
+        printf("World");
+}
+        \end{lstlisting}
+        \item 
+        \begin{lstlisting}[language=C]
+void main() {
+    int a = 5, b = 2;
+    printf("%d", a % b * a / b);
+}
+        \end{lstlisting}
+        \item 
+        \begin{lstlisting}[language=C]
+void main() {
+    int x = 1;
+    while (x <= 5) {
+        if (x == 3) break;
+        printf("%d ", x++);
+    }
+}
+        \end{lstlisting}
+        \item 
+        \begin{lstlisting}[language=C]
+void main() {
+    int arr[] = {10, 20, 30};
+    printf("%d", *(arr + 1));
+}
+        \end{lstlisting}
+    \end{enumerate}
+
+    \item Explain operator precedence and associativity in C with suitable examples. \hfill [4]
+    \item Write a C program to check whether a given integer is a Prime Number or not. \hfill [4]
+    \item Differentiate between \texttt{call by value} and \texttt{call by reference} in C functions with code illustrations. \hfill [4]
+\end{enumerate}
+
+\end{document}
