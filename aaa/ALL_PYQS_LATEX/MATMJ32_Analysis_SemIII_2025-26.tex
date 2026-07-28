@@ -1,0 +1,128 @@
+% BHU PYQ -- Transcribed & Corrected
+% Paper: MATMJ-32 / MATMJ32: Analysis (Real Analysis)
+% Exam: B.A. / B.Sc. (Hons.) Semester III Examination, 2025-26 (NEP)
+% Department: Mathematics
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=black,
+    linkcolor=black,
+    pdftitle={MATMJ32: Analysis -- BHU B.Sc. Sem III 2025-26 (NEP)}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{MATMJ-32: Analysis}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\roman*),leftmargin=*,itemsep=4pt,topsep=2pt}
+\setlist[parts,2]{label=(\alph*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.A. / B.Sc. (Hons.) --- Semester III Examination, 2025-26 (NEP)}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries MATHEMATICS}\\[4pt]
+  {\large\bfseries Paper Code: MATMJ-32 : Analysis}\\[4pt]
+  {\normalsize Time: 2:30 Hours\hfill Maximum Marks: 70}\\[2pt]
+  {\small REF NO. CECONF/N/2025-26/104}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: Answer 	extbf{five} questions in all including Question No.~1 which is compulsory. All questions carry equal marks (14 marks each).
+
+\bigskip
+
+\noindent\textbf{Question 1.} Short Answer Questions (Compulsory):\pts{$2 \times 7 = 14$}
+\begin{parts}
+  \item State Peano's axioms for natural numbers.\pts{2}
+  \item What is the density property of rational numbers? Find a rational number between $\frac{4}{3}$ and $\frac{3}{2}$.\pts{2}
+  \item State and explain the Well-Ordering Property of $\mathbb{N}$.\pts{2}
+  \item Prove that a bounded sequence $(u_n)$ is convergent if and only if $\limsup u_n = \liminf u_n$.\pts{2}
+  \item Discuss the convergence or divergence of the series $\frac{1}{1 \cdot 2} + \frac{1}{2 \cdot 3} + \frac{1}{3 \cdot 4} + \dots$.\pts{2}
+  \item Let a function $f \colon [a, b] \to \mathbb{R}$ be bounded on $[a, b]$ and $P$ be any partition of $[a, b]$. Show that $L(P, f) \le U(P, f)$.\pts{2}
+  \item What is meant by an improper integral? Determine if the integral $\int_0^1 \frac{1}{\sqrt{1-x^2}} \, dx$ converges or diverges.\pts{2}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 2.}
+\begin{parts}
+  \item State and prove the Archimedean property of real numbers.\pts{5}
+  \item Prove or disprove that the set $\mathbb{N}$ of natural numbers is not bounded above in $\mathbb{R}$.\pts{4}
+  \item Let $(x_n)$ and $(y_n)$ be two bounded sequences. Prove that $\limsup (x_n + y_n) \le \limsup x_n + \limsup y_n$.\pts{5}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Let $(u_n)$ be a monotone decreasing sequence of positive real numbers with $\lim_{n \to \infty} u_n = 0$. Prove that the alternating series $u_1 - u_2 + u_3 - u_4 + \dots$ is convergent (Leibniz Test).\pts{5}
+  \item Prove or disprove that an absolutely convergent series is convergent.\pts{4}
+  \item Let $f \colon [0, 1] \to \mathbb{R}$ be defined by $f(x) = 1$ if $x \in \mathbb{Q}$ and $f(x) = 0$ if $x \notin \mathbb{Q}$ (Dirichlet Function). Show that $f$ is not Riemann integrable on $[0, 1]$.\pts{5}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 4.}
+\begin{parts}
+  \item State and prove Darboux's Theorem for Riemann Integration.\pts{5}
+  \item Let a function $f \colon [a, b] \to \mathbb{R}$ be bounded on $[a, b]$ and $P$ be a partition of $[a, b]$. If $Q$ is a refinement of $P$, show that $L(P, f) \le L(Q, f) \le U(Q, f) \le U(P, f)$.\pts{5}
+  \item A function $f$ is defined by $f(x) = x^2$ on $[a, b]$, where $a > 0$. Find $\underline{\int_a^b} f(x) \, dx$ and $\overline{\int_a^b} f(x) \, dx$, and hence discuss the Riemann integrability of $f$ on $[a, b]$.\pts{4}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Let a function $f \colon [a, b] \to \mathbb{R}$ be monotone on $[a, b]$. Prove that $f$ is Riemann integrable on $[a, b]$.\pts{5}
+  \item If $f \colon [a, b] \to \mathbb{R}$ is continuous on $[a, b]$, prove that $f$ is Riemann integrable on $[a, b]$.\pts{5}
+  \item State and prove the First Mean Value Theorem for Riemann Integrals.\pts{4}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 6.}
+\begin{parts}
+  \item Let $a$ be the only point of infinite discontinuity of a function $f$ which is integrable on $[a + \epsilon, b]$ for all $\epsilon$ satisfying $0 < \epsilon < b - a$ and $f(x) \ge 0$ for all $x \in (a, b]$. Prove that a necessary and sufficient condition for the convergence of the improper integral $\int_a^b f(x) \, dx$ is that there exists a positive real number $K$ such that $\int_{a+\epsilon}^b f(x) \, dx \le K$ for all $\epsilon$ satisfying $0 < \epsilon < b - a$.\pts{5}
+  \item Let $a$ be the only point of infinite discontinuity of functions $f$ and $g$ which are both integrable on $[a + \epsilon, b]$ for all $\epsilon$ satisfying $0 < \epsilon < b - a$. If $0 \le f(x) \le g(x)$ for all $x \in (a, b]$, prove that:\pts{5}
+  \begin{parts}
+    \item $\int_a^b g(x) \, dx$ is convergent $\implies \int_a^b f(x) \, dx$ is convergent.
+    \item $\int_a^b f(x) \, dx$ is divergent $\implies \int_a^b g(x) \, dx$ is divergent.
+  \end{parts}
+  \item Show that the improper integral $\int_a^b \frac{1}{(x-a)^n} \, dx$ is convergent if and only if $n < 1$.\pts{4}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 7.}
+\begin{parts}
+  \item Let $a$ be the only point of infinite discontinuity of a function $f$ in $[a, b]$ and $f$ is integrable on $[a + \epsilon, b]$ for all $\epsilon$ satisfying $0 < \epsilon < b - a$. Prove that an absolutely convergent improper integral $\int_a^b f(x) \, dx$ is convergent.\pts{5}
+  \item State and prove Abel's Test for improper integrals of the second kind.\pts{5}
+  \item Let (i) a function $g$ be monotonic and bounded on $[a, \infty)$ and (ii) the integral $\int_a^\infty f(x) \, dx$ be convergent. Prove that the integral $\int_a^\infty f(x) g(x) \, dx$ is convergent (Abel / Dirichlet Test for improper integrals).\pts{4}
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

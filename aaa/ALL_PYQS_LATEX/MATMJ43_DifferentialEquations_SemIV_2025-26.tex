@@ -1,0 +1,161 @@
+% BHU PYQ -- Transcribed & Corrected
+% Paper: MATMJ43 / MATMN41 : Differential Equations
+% Exam: B.A. / B.Sc. (Hons.) Semester IV Examination, 2025-26 (NEP)
+% Department: Mathematics
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=black,
+    linkcolor=black,
+    pdftitle={MATMJ43 / MATMN41: Differential Equations -- BHU Sem IV 2025-26 (NEP)}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{MAT-MJ-43 / MN-41: Differential Equations (2025-26)}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=2pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.A. / B.Sc. (Hons.) --- Semester IV (NEP) Examination, 2025-26}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries MATHEMATICS}\\[4pt]
+  {\large\bfseries Paper Code: MAT-MJ-43 / MAT-MN-41 : Differential Equations}\\[4pt]
+  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}\\[2pt]
+  {\small REF NO. Conf/Even/N/2025-26/066}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: Answer \textbf{five} questions including Question No.~1 which is compulsory. All questions carry equal marks (14 marks each). Prime ($'$) denotes derivative with respect to $x$. ODE and PDE denote Ordinary and Partial Differential Equations respectively.}
+
+\bigskip
+
+\noindent\textbf{Question 1.} \textit{(Compulsory, 14 Marks Total)}
+\begin{parts}
+  \item Define the order and degree of an ODE. Determine the order and degree of
+  \[
+    \left( 1 + \left( \frac{dy}{dx} \right)^2 \right)^{3/2} = \frac{d^2 y}{dx^2}.
+  \]\pts{2}
+  \item Find $a$ and $b$ in the ODE: $y'' + ay' + by = 0$, if its two linearly independent solutions are $e^{2x}$ and $x e^{2x}$.\pts{2}
+  \item Consider the second order ODE: $3xy'' + 2y' + x^2 y = 0$ for which a series solution is being sought by Frobenius method, about $x = 0$. If the corresponding indicial equation is $f(r) = 0$, then find $f(r)$.\pts{2}
+  \item Distinguish between the general solution and the particular solution of an ODE.\pts{2}
+  \item Define linear, semilinear, quasilinear and nonlinear first order PDE's with one example of each type.\pts{2}
+  \item Form the PDE by eliminating the arbitrary function from $z = x^n \phi(y/x)$.\pts{2}
+  \item Verify that any function of the form $\psi(x - ct)$ satisfies the equation
+  \[
+    \frac{\partial^2 u}{\partial x^2} = \frac{1}{c^2} \frac{\partial^2 u}{\partial t^2}.
+  \]\pts{2}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 2.}
+\begin{parts}
+  \item In a university hostel, suppose the number of occupied rooms $N(t)$ decreases at a rate proportional to the number of unoccupied rooms. If the hostel has $500$ rooms and initially $300$ are occupied, form the differential equation and find $N(t)$. Furthermore, if the number of occupied rooms in the second year is $400$, then find the number of occupied rooms after $8$ years.\pts{6}
+  \item Examine whether the differential equation
+  \[
+    (f(y))^2 \frac{dx}{dy} + 3f(y) f'(y) x = f'(y)
+  \]
+  is exact, where $f'$ denotes derivative of $f$ with respect to $y$. If it is not exact, derive a suitable integrating factor depending only on $y$ to make it exact (Do not use formula). Hence solve the differential equation completely.\pts{8}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Find the general solution of the ODE:
+  \[
+    x y'' - (2x + 1) y' + (x + 1) y = \frac{2e^x}{x^2}.
+  \]
+  Given that $y = e^x$ is one solution of the corresponding homogeneous equation.\pts{6}
+  \item
+  \begin{parts}
+    \item Find the general solution of
+    \[
+      (x + 2)^2 y'' - (x + 2) y' - 3y = 2 \ln(x + 2), \quad x > -2.
+    \]\pts{4}
+    \item Find the solution of the initial value problem $4y'' - y = 0$; $y(0) = 2$, $y'(0) = \beta$. Then find $\beta$ such that $y(x) \to 0$ as $x \to \infty$.\pts{4}
+  \end{parts}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Consider the differential equation $(1 - x^2) y'' - 2xy' + 20y = 0$. Show that $x = 0$ is an ordinary point of this differential equation and find two linearly independent power series solutions in powers of $x$. Furthermore, show that one of the solutions is a polynomial of degree $4$.\pts{6}
+  \item Define regular singular point of a second order ODE. Use the method of Frobenius to find solutions of the differential equation $2x^2 y'' + xy' + (x^2 - 3)y = 0$ in some interval $0 < x < R$.\pts{8}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Find the equation of the integral surface of the PDE:
+  \[
+    x^3 p + y(3x^2 + y)q = z(2x^2 + y)
+  \]
+  which passes through the curve $x = 1, z = y^2 + y$, where $p = \frac{\partial z}{\partial x}$ and $q = \frac{\partial z}{\partial y}$.\pts{6}
+  \item
+  \begin{parts}
+    \item Show that the equations $f(x, y, p, q) = 0, g(x, y, p, q) = 0$ are compatible if
+    \[
+      \frac{\partial(f, g)}{\partial(x, p)} + \frac{\partial(f, g)}{\partial(y, q)} = 0.
+    \]
+    Hence, find the solution of the equations
+    \[
+      xp - yq = x, \quad x^2 p + qz = x + x^2
+    \]
+    where $p = \frac{\partial z}{\partial x}$ and $q = \frac{\partial z}{\partial y}$.\pts{4}
+    \item Use Charpit's method to find the complete integral of $x^2 p^2 + y^2 q^2 - 4 = 0$.\pts{4}
+  \end{parts}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 6.}
+\begin{parts}
+  \item Solve the differential equation $(D^2 + DD' - 2D'^2 - 3D + 3D') z = x$, where $D = \frac{\partial}{\partial x}$, $D' = \frac{\partial}{\partial y}$. Find two distinct particular integrals and show that their difference satisfies the corresponding homogeneous equation.\pts{6}
+  \item Derive a method to find particular integral of homogeneous linear PDE: $F(D, D') z = f(x, y)$. Use this method to solve
+  \[
+    (D^2 - 4DD' + 4D'^2) z = e^{2x + y}.
+  \]\pts{8}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 7.}
+\begin{parts}
+  \item Solve the differential equation $(x^2 D^2 + 2xy DD' + y^2 D'^2) z = x^2 y^2$, where $D = \frac{\partial}{\partial x}, D' = \frac{\partial}{\partial y}$.\pts{6}
+  \item Define singular solution of a first order PDE. Find the singular solution of
+  \[
+    z = px + qy + \sqrt{1 + p^2 + q^2}.
+  \]\pts{8}
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}
