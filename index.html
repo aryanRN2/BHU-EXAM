@@ -184,157 +184,145 @@
 </head>
 
 <body
-    class="bg-background-warm text-on-background antialiased selection:bg-accent-bhu-saffron/10 min-h-screen flex flex-col">
+    class="bg-[#595349] text-white antialiased selection:bg-[#0088ff]/30 min-h-screen flex flex-col font-sans">
 
-    <!-- ═══════════════════════════ NAVBAR ═══════════════════════════ -->
+    <!-- ═══════════════════════════ SHAZAM NAVBAR ═══════════════════════════ -->
     <nav
-        class="fixed top-0 left-0 right-0 z-50 bg-background-warm/80 backdrop-blur-xl border-b border-border-subtle h-16 md:h-20 w-full flex items-center">
+        class="fixed top-0 left-0 right-0 z-50 bg-gradient-to-b from-black/60 via-black/20 to-transparent backdrop-blur-xs h-20 w-full flex items-center border-none">
         <div class="max-w-container-max mx-auto px-6 md:px-padding-edge flex justify-between items-center w-full">
-            <div class="flex items-center gap-3 md:gap-4">
-                <a href="#" class="flex items-center gap-1.5 group">
-                    <span class="text-xl md:text-2xl font-black tracking-tight text-primary uppercase transition-transform group-hover:scale-[1.01] duration-200">SCIQB</span>
+            <div class="flex items-center gap-6 md:gap-10">
+                <!-- SCIQB Brand Logo -->
+                <a href="#" class="flex items-center gap-2 group">
+                    <span class="text-xl md:text-2xl font-black tracking-tighter text-white uppercase transition-transform group-hover:scale-[1.01]">SCIQB</span>
                 </a>
-                <div class="hidden md:flex gap-6 ml-8">
-                    <a class="text-primary font-bold text-sm relative py-2" href="#">
+                
+                <!-- Center Navigation Links -->
+                <div class="hidden md:flex gap-7 items-center">
+                    <a class="text-white font-bold text-sm hover:text-white transition-colors" href="#">
                         Home
-                        <span class="absolute bottom-0 left-0 w-full h-0.5 bg-primary rounded-full"></span>
                     </a>
-                    <a class="text-secondary font-medium hover:text-primary transition-colors duration-200 text-sm relative py-2 group"
-                        href="#features">
+                    <a class="text-white/80 font-semibold hover:text-white transition-colors text-sm" href="#features">
                         Features
-                        <span class="absolute bottom-0 left-0 w-full h-0.5 bg-primary rounded-full scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-250"></span>
                     </a>
-                    <a class="text-secondary font-medium hover:text-primary transition-colors duration-200 text-sm relative py-2 group"
-                        href="subjects.html">
+                    <a class="text-white/80 font-semibold hover:text-white transition-colors text-sm" href="subjects.html">
                         Mock Exams
-                        <span class="absolute bottom-0 left-0 w-full h-0.5 bg-primary rounded-full scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-250"></span>
                     </a>
-                    <a class="text-secondary font-medium hover:text-primary transition-colors duration-200 text-sm relative py-2 group"
-                        href="nep-pyq.html">
+                    <a class="text-white/80 font-semibold hover:text-white transition-colors text-sm" href="nep-pyq.html">
                         NEP PYQs
-                        <span class="absolute bottom-0 left-0 w-full h-0.5 bg-primary rounded-full scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-250"></span>
                     </a>
-                    <a class="text-secondary font-medium hover:text-primary transition-colors duration-200 text-sm relative py-2 group"
-                        href="legacy-pyq.html">
+                    <a class="text-white/80 font-semibold hover:text-white transition-colors text-sm" href="legacy-pyq.html">
                         Old PYQs
-                        <span class="absolute bottom-0 left-0 w-full h-0.5 bg-primary rounded-full scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-250"></span>
                     </a>
-                    <a class="text-secondary font-medium hover:text-primary transition-colors duration-200 text-sm relative py-2 group"
-                        href="contributors.html">
+                    <a class="text-white/80 font-semibold hover:text-white transition-colors text-sm" href="contributors.html">
                         Contribution
-                        <span class="absolute bottom-0 left-0 w-full h-0.5 bg-primary rounded-full scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-250"></span>
                     </a>
                 </div>
             </div>
-            <!-- Desktop IITM Assignment Button -->
-            <div class="hidden md:flex items-center gap-4">
+
+            <!-- Right Glass Buttons (Exact Shazam Style) -->
+            <div class="hidden md:flex items-center gap-3">
+                <a href="subjects.html" class="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 text-white border border-white/15 flex items-center justify-center backdrop-blur-md transition-all shadow-sm">
+                    <span class="material-symbols-outlined text-lg">search</span>
+                </a>
                 <a href="https://github.com/aryanRN2/IITM-ASSIGNMENT" target="_blank"
-                    class="bg-primary text-on-primary px-4 py-2 rounded-full font-bold text-xs hover:scale-105 active:scale-[0.98] transition-all shadow-sm hover:bg-neutral-800 flex items-center gap-1.5">
+                    class="bg-white/10 hover:bg-white/20 text-white border border-white/20 px-5 py-2.5 rounded-full font-bold text-xs backdrop-blur-md hover:scale-105 active:scale-[0.98] transition-all shadow-sm flex items-center gap-2">
                     <span class="material-symbols-outlined text-sm font-semibold">assignment</span>
                     <span>IITM Assignment</span>
                 </a>
             </div>
+
             <!-- Mobile Menu Toggle Button -->
-            <button onclick="toggleMobileMenu()" class="flex md:hidden items-center justify-center p-2 rounded-lg border border-border-subtle hover:bg-neutral-100 text-secondary hover:text-primary transition-all">
+            <button onclick="toggleMobileMenu()" class="flex md:hidden items-center justify-center p-2 rounded-full bg-white/10 text-white border border-white/15 backdrop-blur-md">
                 <span id="mobileMenuIcon" class="material-symbols-outlined text-xl">menu</span>
             </button>
         </div>
     </nav>
 
     <!-- Mobile Navigation Menu Overlay -->
-    <div id="mobileMenu" class="fixed inset-x-0 top-16 z-40 hidden flex-col bg-background-warm/95 backdrop-blur-xl border-b border-border-subtle px-6 py-6 md:hidden transition-all duration-300 transform -translate-y-4 opacity-0">
+    <div id="mobileMenu" class="fixed inset-x-0 top-20 z-40 hidden flex-col bg-[#3a352d]/95 backdrop-blur-2xl border-b border-white/10 px-6 py-6 md:hidden transition-all duration-300 transform -translate-y-4 opacity-0 text-white">
         <div class="flex flex-col gap-4">
-            <a class="text-primary font-bold text-base border-b border-border-subtle pb-2.5" href="#" onclick="toggleMobileMenu()">
+            <a class="text-white font-bold text-base border-b border-white/10 pb-2.5" href="#" onclick="toggleMobileMenu()">
                 Home
             </a>
-            <a class="text-secondary font-semibold text-base hover:text-primary transition-colors border-b border-border-subtle pb-2.5" href="#features" onclick="toggleMobileMenu()">
+            <a class="text-white/80 font-semibold text-base hover:text-white transition-colors border-b border-white/10 pb-2.5" href="#features" onclick="toggleMobileMenu()">
                 Features
             </a>
-            <a class="text-secondary font-semibold text-base hover:text-primary transition-colors border-b border-border-subtle pb-2.5" href="subjects.html">
+            <a class="text-white/80 font-semibold text-base hover:text-white transition-colors border-b border-white/10 pb-2.5" href="subjects.html">
                 Mock Exams
             </a>
-            <a class="text-secondary font-semibold text-base hover:text-primary transition-colors border-b border-border-subtle pb-2.5" href="nep-pyq.html">
+            <a class="text-white/80 font-semibold text-base hover:text-white transition-colors border-b border-white/10 pb-2.5" href="nep-pyq.html">
                 NEP PYQs
             </a>
-            <a class="text-secondary font-semibold text-base hover:text-primary transition-colors border-b border-border-subtle pb-2.5" href="legacy-pyq.html">
+            <a class="text-white/80 font-semibold text-base hover:text-white transition-colors border-b border-white/10 pb-2.5" href="legacy-pyq.html">
                 Old PYQs
             </a>
-            <a class="text-secondary font-semibold text-base hover:text-primary transition-colors pb-2.5 border-b border-border-subtle" href="contributors.html" onclick="toggleMobileMenu()">
+            <a class="text-white/80 font-semibold text-base hover:text-white transition-colors pb-2.5 border-b border-white/10" href="contributors.html" onclick="toggleMobileMenu()">
                 Contribution
             </a>
-            <!-- Mobile IITM Assignment Button -->
+            <!-- Mobile Button -->
             <a href="https://github.com/aryanRN2/IITM-ASSIGNMENT" target="_blank"
-                class="mt-2 bg-primary text-on-primary py-2.5 px-4 rounded-full font-bold text-sm flex items-center justify-center gap-1.5 hover:bg-neutral-800 transition-all text-center">
+                class="mt-2 bg-[#0088ff] text-white py-2.5 px-4 rounded-full font-bold text-sm flex items-center justify-center gap-1.5 hover:bg-blue-600 transition-all text-center shadow-lg">
                 <span class="material-symbols-outlined text-base">assignment</span>
                 <span>IITM Assignment</span>
             </a>
         </div>
     </div>
 
-    <!-- ═══════════════════════════ HERO ═══════════════════════════ -->
-    <main class="relative pt-24 md:pt-36 pb-20 md:pb-32 overflow-hidden flex-1">
-        <!-- Animated background orbs -->
-        <div class="neural-orb animate-float bg-accent-bhu-saffron w-[500px] h-[500px] -top-32 -left-16 opacity-30">
-        </div>
-        <div class="neural-orb animate-float bg-accent-neural-purple w-[450px] h-[450px] top-40 -right-16 opacity-20"
-            style="animation-delay: -3s;"></div>
-        <div class="neural-orb animate-float bg-accent-neural-emerald w-[350px] h-[350px] bottom-0 left-1/2 opacity-20"
-            style="animation-delay: -6s;"></div>
+    <!-- ═══════════════════════════ SHAZAM-STYLE HERO ═══════════════════════════ -->
+    <main id="heroSection" class="relative pt-20 md:pt-24 pb-12 overflow-hidden min-h-screen flex flex-col justify-center text-white transition-colors duration-1000 ease-in-out" style="background-color: #6b1414;">
+        <!-- Dynamic ambient radial aura behind cards -->
+        <div id="heroAmbientGlow" class="absolute inset-0 pointer-events-none transition-all duration-1000 opacity-60" style="background: radial-gradient(circle at 75% 45%, rgba(239, 68, 68, 0.4), transparent 60%);"></div>
 
-        <div class="max-w-4xl mx-auto px-6 md:px-padding-edge text-center flex flex-col items-center relative z-10">
-
-            <!-- Caution Beta Alert Banner -->
-            <div class="mb-6 px-4 py-1.5 rounded-full border border-amber-200 bg-amber-50/60 backdrop-blur-md text-amber-800 text-[10px] md:text-xs font-semibold flex items-center gap-2 shadow-sm">
-                <span class="material-symbols-outlined text-xs md:text-sm font-bold">warning</span>
-                <span>Beta Release: Question papers are undergoing verification and may contain minor errors.</span>
-            </div>
-
-            <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold mb-6 text-primary leading-[1.08] tracking-tight">
-                SCIQB Assessment Engine
-            </h1>
-
-            <p class="text-base sm:text-lg md:text-xl text-secondary max-w-2xl mb-12 leading-relaxed">
-                Tailored for BHU Academic Excellence. High-fidelity, secure mock assessments with real BHU curriculum questions and instant AI-powered evaluation.
-            </p>
-
-            <!-- Preparation mode selector -->
-            <div class="space-y-4 w-full max-w-md">
-                <p class="text-xs font-bold uppercase tracking-[0.2em] text-secondary/70">Select your preparation mode:</p>
-                <div class="w-full">
-                    <!-- End Sem -->
-                    <button onclick="selectPracticeMode('endterm')"
-                        class="p-5 md:p-6 rounded-2xl border border-border-subtle bg-white text-primary hover:border-accent-bhu-saffron hover:shadow-[0_8px_30px_rgba(245,124,0,0.08)] transition-all duration-300 text-left flex flex-col gap-3 group hover:scale-[1.02] active:scale-[0.98] min-h-[140px] w-full">
-                        <div class="flex justify-between items-start w-full">
-                            <div
-                                class="w-10 h-10 rounded-full bg-accent-bhu-saffron/10 border border-accent-bhu-saffron/30 flex items-center justify-center text-accent-bhu-saffron group-hover:bg-accent-bhu-saffron group-hover:text-white group-hover:border-transparent transition-all duration-300">
-                                <span class="material-symbols-outlined text-lg">school</span>
-                            </div>
-                            <span class="text-[8px] font-bold text-accent-bhu-saffron bg-accent-bhu-saffron/10 px-2 py-0.5 rounded uppercase tracking-wider mt-1">Trending</span>
-                        </div>
-                        <div>
-                            <h4
-                                class="font-bold text-sm text-primary group-hover:text-accent-bhu-saffron transition-colors">
-                                End Sem Preparation</h4>
-                            <p
-                                class="text-[11px] text-secondary mt-0.5 group-hover:text-secondary/80 transition-colors">
-                                Targeted high-yield question practice</p>
-                        </div>
-                    </button>
+        <div class="max-w-[1500px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-center">
+                
+                <!-- Left Text Column (Shazam Typography Style) -->
+                <div class="lg:col-span-5 flex flex-col items-start text-left space-y-4 z-20 pl-0 sm:pl-2 -mt-6 lg:-mt-10">
+                    <span class="text-xs font-black uppercase tracking-[0.25em] text-white/60">BHU ACADEMIC PORTAL</span>
+                    
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-[1.04] tracking-tight max-w-lg">
+                        What students are studying with SCIQB right now
+                    </h1>
                 </div>
+
+                <!-- Right Cards Column (Exact Shazam 3D Perspective Carousel) -->
+                <div class="lg:col-span-7 flex flex-col justify-center items-center relative pt-4 lg:pt-0 w-full" id="shazamCarouselContainer">
+                    
+                    <!-- Dynamic Category Title Header (Exact Shazam Typography) -->
+                    <div class="text-center mb-4 h-14 flex flex-col items-center justify-center transition-all duration-300" id="shazamCategoryHeader">
+                        <h3 class="text-2xl sm:text-3xl font-black text-white tracking-tight" id="carouselCatTitle">New and Rising</h3>
+                        <p class="text-xs sm:text-sm text-white/70 font-medium mt-1" id="carouselCatSub">Fresh papers, growing fast</p>
+                    </div>
+
+                    <!-- 3D Perspective Stage Container -->
+                    <div class="relative w-full max-w-2xl h-[360px] sm:h-[400px] flex items-center justify-center py-2" id="shazamStage" style="perspective: 1200px; -webkit-perspective: 1200px; transform-style: preserve-3d;">
+                        
+                        <!-- Dynamic 3D Cards rendered by JavaScript -->
+
+                    </div>
+
+                    <!-- Carousel Pagination Dots (Shazam Style) -->
+                    <div class="flex items-center gap-2 mt-4" id="carouselDotsContainer">
+                        <!-- Dots rendered by JavaScript -->
+                    </div>
+
+                </div>
+
             </div>
         </div>
+
+
     </main>
 
     <!-- ═══════════════════════════ FEATURES / BENTO ═══════════════════════════ -->
-    <section id="features" class="py-20 md:py-28 bg-white border-t border-border-subtle">
+    <section id="features" class="py-20 md:py-28 bg-[#38342d] border-t border-white/10 text-white">
         <div class="max-w-container-max mx-auto px-6 md:px-padding-edge">
 
             <!-- Section header -->
             <div class="text-center mb-14 md:mb-20">
-                <p class="text-xs font-bold uppercase tracking-[0.2em] text-accent-bhu-saffron mb-4">Platform
-                    Capabilities</p>
-                <h2 class="text-3xl md:text-5xl font-bold mb-5 tracking-tight">Designed for academic depth.</h2>
-                <p class="text-base text-secondary max-w-xl mx-auto leading-relaxed">SCIQB manages the structure
+                <p class="text-xs font-bold uppercase tracking-[0.2em] text-[#0088ff] mb-4">Platform Capabilities</p>
+                <h2 class="text-3xl md:text-5xl font-bold mb-5 tracking-tight text-white">Designed for academic depth.</h2>
+                <p class="text-base text-neutral-300 max-w-xl mx-auto leading-relaxed">SCIQB manages the structure
                     so you can focus on mastering your university syllabi through active recall.</p>
             </div>
 
@@ -343,38 +331,18 @@
 
                 <!-- Row 1: Two symmetric large cards (6 + 6) -->
                 <div onclick="window.location.href='legacy-pyq.html'"
-                    class="md:col-span-6 bento-card glass-panel rounded-2xl p-8 md:p-10 flex flex-col justify-end group cursor-pointer overflow-hidden relative min-h-[280px] md:min-h-[320px]">
-                    <div
-                        class="absolute inset-0 z-0 opacity-[0.07] transition-opacity group-hover:opacity-[0.15] bg-gradient-to-br from-accent-bhu-saffron to-accent-neural-purple rounded-2xl">
-                    </div>
-                    <!-- Decorative grid -->
-                    <div
-                        class="absolute top-8 right-8 grid grid-cols-4 gap-2 opacity-10 group-hover:opacity-20 transition-opacity">
-                        <div class="w-2 h-2 bg-primary rounded-full"></div>
-                        <div class="w-2 h-2 bg-primary rounded-full"></div>
-                        <div class="w-2 h-2 bg-primary rounded-full"></div>
-                        <div class="w-2 h-2 bg-primary rounded-full"></div>
-                        <div class="w-2 h-2 bg-primary rounded-full"></div>
-                        <div class="w-2 h-2 bg-primary rounded-full"></div>
-                        <div class="w-2 h-2 bg-primary rounded-full"></div>
-                        <div class="w-2 h-2 bg-primary rounded-full"></div>
-                        <div class="w-2 h-2 bg-primary rounded-full"></div>
-                        <div class="w-2 h-2 bg-primary rounded-full"></div>
-                        <div class="w-2 h-2 bg-accent-bhu-saffron rounded-full"></div>
-                        <div class="w-2 h-2 bg-primary rounded-full"></div>
-                    </div>
+                    class="md:col-span-6 bento-card bg-gradient-to-br from-[#b91c1c] to-[#7f1d1d] text-white rounded-3xl p-8 md:p-10 flex flex-col justify-end group cursor-pointer overflow-hidden relative min-h-[280px] md:min-h-[320px] border border-red-400/30 shadow-2xl hover:scale-[1.01] transition-all duration-300">
                     <div class="relative z-10">
                         <span
-                            class="text-xs font-bold text-accent-bhu-saffron mb-3 block uppercase tracking-widest">Academic
-                            Archive</span>
+                            class="text-xs font-extrabold text-white bg-white/20 border border-white/20 px-3 py-1 rounded-full inline-block uppercase tracking-wider mb-3 w-max">Academic Archive</span>
                         <h3
-                            class="text-2xl md:text-3xl font-bold mb-3 text-primary group-hover:text-accent-bhu-saffron transition-colors">
+                            class="text-2xl md:text-3xl font-extrabold mb-3 text-white group-hover:translate-x-1 transition-transform">
                             Old Education Policy PYQs</h3>
-                        <p class="text-sm text-secondary max-w-md leading-relaxed mb-4">Access previous year question
+                        <p class="text-sm text-white/80 font-medium max-w-md leading-relaxed mb-4">Access previous year question
                             papers, official syllabus details, and legacy study resources aligned with the curriculum
                             before the NEP implementation.</p>
                         <div
-                            class="inline-flex items-center gap-1.5 text-xs font-bold text-primary group-hover:translate-x-1 transition-transform duration-200">
+                            class="inline-flex items-center gap-1.5 text-xs font-extrabold text-white group-hover:translate-x-1 transition-all duration-200">
                             <span>Browse Legacy Papers</span>
                             <span class="material-symbols-outlined text-sm">arrow_forward</span>
                         </div>
@@ -382,37 +350,17 @@
                 </div>
 
                 <div onclick="window.location.href='nep-pyq.html'"
-                    class="md:col-span-6 bento-card glass-panel rounded-2xl p-8 md:p-10 flex flex-col justify-end group cursor-pointer overflow-hidden relative min-h-[280px] md:min-h-[320px]">
-                    <div
-                        class="absolute inset-0 z-0 opacity-[0.07] transition-opacity group-hover:opacity-[0.15] bg-gradient-to-br from-accent-neural-emerald to-accent-neural-blue rounded-2xl">
-                    </div>
-                    <!-- Decorative grid -->
-                    <div
-                        class="absolute top-8 right-8 grid grid-cols-4 gap-2 opacity-10 group-hover:opacity-20 transition-opacity">
-                        <div class="w-2 h-2 bg-primary rounded-full"></div>
-                        <div class="w-2 h-2 bg-primary rounded-full"></div>
-                        <div class="w-2 h-2 bg-primary rounded-full"></div>
-                        <div class="w-2 h-2 bg-primary rounded-full"></div>
-                        <div class="w-2 h-2 bg-primary rounded-full"></div>
-                        <div class="w-2 h-2 bg-primary rounded-full"></div>
-                        <div class="w-2 h-2 bg-primary rounded-full"></div>
-                        <div class="w-2 h-2 bg-primary rounded-full"></div>
-                        <div class="w-2 h-2 bg-primary rounded-full"></div>
-                        <div class="w-2 h-2 bg-primary rounded-full"></div>
-                        <div class="w-2 h-2 bg-accent-neural-emerald rounded-full"></div>
-                        <div class="w-2 h-2 bg-primary rounded-full"></div>
-                    </div>
+                    class="md:col-span-6 bento-card bg-gradient-to-br from-[#059669] to-[#064e3b] text-white rounded-3xl p-8 md:p-10 flex flex-col justify-end group cursor-pointer overflow-hidden relative min-h-[280px] md:min-h-[320px] border border-emerald-400/30 shadow-2xl hover:scale-[1.01] transition-all duration-300">
                     <div class="relative z-10">
                         <span
-                            class="text-xs font-bold text-accent-neural-emerald mb-3 block uppercase tracking-widest">NEP
-                            Portal</span>
+                            class="text-xs font-extrabold text-white bg-white/20 border border-white/20 px-3 py-1 rounded-full inline-block uppercase tracking-wider mb-3 w-max">NEP Portal</span>
                         <h3
-                            class="text-2xl md:text-3xl font-bold mb-3 text-primary group-hover:text-accent-neural-emerald transition-colors">
+                            class="text-2xl md:text-3xl font-extrabold mb-3 text-white group-hover:translate-x-1 transition-transform">
                             NEP Pattern PYQs</h3>
-                        <p class="text-sm text-secondary max-w-md leading-relaxed mb-4">Access premium transcribed past
+                        <p class="text-sm text-white/80 font-medium max-w-md leading-relaxed mb-4">Access premium transcribed past
                             year papers (Mathematics, Physics, Chemistry, Botany &amp; more) in high-quality compiled PDF format.</p>
                         <div
-                            class="inline-flex items-center gap-1.5 text-xs font-bold text-primary group-hover:translate-x-1 transition-transform duration-200">
+                            class="inline-flex items-center gap-1.5 text-xs font-extrabold text-white group-hover:translate-x-1 transition-all duration-200">
                             <span>Browse NEP Papers</span>
                             <span class="material-symbols-outlined text-sm">arrow_forward</span>
                         </div>
@@ -421,105 +369,105 @@
 
                 <!-- Row 2: Four medium cards (3 + 3 + 3 + 3) -->
                 <div onclick="window.location.href='contributors.html'"
-                    class="md:col-span-3 bento-card glass-panel rounded-2xl p-6 flex flex-col justify-between group hover:bg-white/60 transition-colors min-h-[200px] cursor-pointer">
+                    class="md:col-span-3 bento-card bg-gradient-to-br from-[#7c3aed] to-[#4c1d95] text-white rounded-3xl p-6 flex flex-col justify-between group hover:scale-[1.02] transition-all duration-300 min-h-[200px] cursor-pointer border border-purple-400/30 shadow-xl">
                     <span
-                        class="material-symbols-outlined text-primary text-3xl group-hover:scale-110 transition-transform duration-300">group</span>
+                        class="material-symbols-outlined text-white text-3xl group-hover:scale-110 transition-all duration-300">group</span>
                     <div>
                         <div
-                            class="inline-flex items-center gap-1.5 bg-accent-neural-emerald/10 text-accent-neural-emerald text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider mb-2">
+                            class="inline-flex items-center gap-1.5 bg-white/20 border border-white/20 text-white text-[10px] font-extrabold px-2.5 py-1 rounded-full uppercase tracking-wider mb-2">
                             The Team</div>
-                        <h4 class="text-lg font-bold text-primary mb-1 leading-snug">Contributors</h4>
-                        <p class="text-xs text-secondary leading-relaxed">Meet the developers and resource contributors.
+                        <h4 class="text-lg font-bold text-white mb-1 leading-snug">Contributors</h4>
+                        <p class="text-xs text-white/80 font-medium leading-relaxed">Meet the developers and resource contributors.
                         </p>
                     </div>
                 </div>
 
                 <div onclick="window.location.href='notes.html'"
-                    class="md:col-span-3 bento-card bg-primary text-on-primary rounded-2xl p-6 flex flex-col justify-between hover:bg-neutral-800 transition-colors cursor-pointer group min-h-[200px]">
+                    class="md:col-span-3 bento-card bg-gradient-to-br from-[#0088ff] to-[#1d4ed8] text-white rounded-3xl p-6 flex flex-col justify-between hover:scale-[1.02] transition-all duration-300 cursor-pointer group min-h-[200px] border border-blue-400/30 shadow-xl">
                     <div class="flex justify-between items-start">
                         <span
-                            class="material-symbols-outlined text-3xl text-accent-bhu-saffron group-hover:scale-110 transition-transform duration-300">library_books</span>
+                            class="material-symbols-outlined text-3xl text-white group-hover:scale-110 transition-all duration-300">library_books</span>
                         <span
-                            class="text-[10px] font-bold text-emerald-400 bg-emerald-400/10 px-2 py-0.5 rounded-full uppercase tracking-wider">Active</span>
+                            class="text-[10px] font-bold text-white bg-white/20 border border-white/20 px-2 py-0.5 rounded-full uppercase tracking-wider">Active</span>
                     </div>
                     <div>
                         <h4 class="text-lg font-bold text-white mb-1 leading-snug">Reference Book and Notes</h4>
-                        <p class="text-xs text-white/50 leading-relaxed">Free PDF downloads of official textbooks & class notes.</p>
+                        <p class="text-xs text-white/80 leading-relaxed">Free PDF downloads of official textbooks & class notes.</p>
                     </div>
                 </div>
 
                 <div onclick="window.location.href='syllabus.html'"
-                    class="md:col-span-3 bento-card glass-panel rounded-2xl p-6 flex flex-col justify-between group hover:bg-white/60 transition-colors min-h-[200px] cursor-pointer">
+                    class="md:col-span-3 bento-card bg-white text-neutral-900 rounded-3xl p-6 flex flex-col justify-between group hover:scale-[1.02] transition-all duration-300 min-h-[200px] cursor-pointer border border-neutral-200 shadow-xl">
                     <span
-                        class="material-symbols-outlined text-primary text-3xl group-hover:scale-110 transition-transform duration-300">menu_book</span>
+                        class="material-symbols-outlined text-neutral-900 group-hover:text-[#0088ff] text-3xl group-hover:scale-110 transition-all duration-300">menu_book</span>
                     <div>
                         <div
-                            class="inline-flex items-center gap-1.5 bg-accent-neural-blue/10 text-accent-neural-blue text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider mb-2">
+                            class="inline-flex items-center gap-1.5 bg-neutral-100 border border-neutral-200 text-neutral-700 text-[10px] font-extrabold px-2.5 py-1 rounded-full uppercase tracking-wider mb-2">
                             Curriculum</div>
-                        <h4 class="text-lg font-bold text-primary mb-1 leading-snug">Official Syllabus</h4>
-                        <p class="text-xs text-secondary leading-relaxed">Access official university syllabus, papers, course credits & course structures.
+                        <h4 class="text-lg font-bold text-neutral-900 group-hover:text-[#0088ff] transition-colors mb-1 leading-snug">Official Syllabus</h4>
+                        <p class="text-xs text-neutral-600 font-medium leading-relaxed">Access official university syllabus, papers, course credits & course structures.
                         </p>
                     </div>
                 </div>
 
                 <div
-                    class="md:col-span-3 bento-card glass-panel rounded-2xl p-6 flex flex-col justify-between overflow-hidden relative min-h-[220px]">
+                    class="md:col-span-3 bento-card bg-gradient-to-br from-[#26231e] to-[#1a1714] text-white rounded-3xl p-6 flex flex-col justify-between overflow-hidden relative min-h-[220px] border border-white/20 shadow-xl hover:scale-[1.02] transition-all duration-300">
                     <!-- Background accent glow -->
-                    <div class="absolute -top-10 -right-10 w-24 h-24 bg-gradient-to-br from-accent-bhu-saffron/10 to-accent-neural-purple/10 rounded-full blur-xl pointer-events-none"></div>
+                    <div class="absolute -top-10 -right-10 w-24 h-24 bg-amber-500/10 rounded-full blur-xl pointer-events-none"></div>
                     
                     <div class="relative z-10 flex flex-col justify-between h-full w-full">
                         <div>
                             <div class="flex items-center justify-between mb-4">
-                                <span class="text-[9px] font-extrabold text-accent-bhu-saffron uppercase tracking-widest bg-accent-bhu-saffron/10 px-2.5 py-1 rounded-full">Community</span>
-                                <div class="flex items-center gap-1.5 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-100">
-                                    <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
-                                    <span class="text-[8px] font-bold text-emerald-700 uppercase tracking-wider">Active</span>
+                                <span class="text-[9px] font-extrabold text-amber-300 uppercase tracking-widest bg-amber-500/20 border border-amber-500/30 px-2.5 py-1 rounded-full">Community</span>
+                                <div class="flex items-center gap-1.5 bg-emerald-500/20 px-2 py-0.5 rounded-full border border-emerald-500/30">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                                    <span class="text-[8px] font-bold text-emerald-300 uppercase tracking-wider">Active</span>
                                 </div>
                             </div>
-                            <h4 class="text-xl font-bold text-primary mb-1.5 tracking-tight">Stay Connected</h4>
-                            <p class="text-xs text-secondary leading-relaxed mb-5">Connect with us for any updates regarding exams, syllabus, or new paper uploads.</p>
+                            <h4 class="text-xl font-bold text-white mb-1.5 tracking-tight">Stay Connected</h4>
+                            <p class="text-xs text-white/70 font-medium leading-relaxed mb-5">Connect with us for any updates regarding exams, syllabus, or new paper uploads.</p>
                         </div>
                         <div class="flex flex-col gap-2.5 w-full">
                             <!-- Telegram Link -->
                             <a href="https://t.me/sciqb" target="_blank"
-                                class="flex items-center justify-between px-4 py-2.5 rounded-xl border border-neutral-200/80 bg-white/90 shadow-[0_1px_2px_rgba(0,0,0,0.02)] hover:bg-sky-50/40 hover:border-sky-300 hover:shadow-[0_4px_12px_rgba(14,165,233,0.05)] hover:scale-[1.01] active:scale-[0.99] transition-all duration-300 group/link">
+                                class="flex items-center justify-between px-4 py-2.5 rounded-xl border border-white/15 bg-white/10 hover:bg-sky-500/20 hover:border-sky-400/50 hover:scale-[1.01] active:scale-[0.99] transition-all duration-300 group/link">
                                 <div class="flex items-center gap-2.5">
-                                    <div class="w-7 h-7 rounded-lg bg-sky-50 flex items-center justify-center text-sky-500 group-hover/link:bg-sky-500 group-hover/link:text-white transition-all duration-300">
+                                    <div class="w-7 h-7 rounded-lg bg-sky-500/20 flex items-center justify-center text-sky-400 group-hover/link:bg-sky-500 group-hover/link:text-white transition-all duration-300">
                                         <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12l-6.87 4.326-2.962-.924c-.643-.203-.656-.643.136-.953l11.57-4.46c.536-.195 1.005.127.82.937z"/>
                                         </svg>
                                     </div>
-                                    <span class="text-xs font-semibold text-primary/90">Telegram Channel</span>
+                                    <span class="text-xs font-semibold text-white/90">Telegram Channel</span>
                                 </div>
-                                <span class="material-symbols-outlined text-sm text-secondary group-hover/link:text-sky-600 group-hover/link:translate-x-0.5 transition-all">chevron_right</span>
+                                <span class="material-symbols-outlined text-sm text-white/50 group-hover/link:text-sky-400 group-hover/link:translate-x-0.5 transition-all">chevron_right</span>
                             </a>
                             
                             <!-- WhatsApp Channel Link -->
                             <a href="https://whatsapp.com/channel/0029Vb7Vcl62kNFlaU7k6626" target="_blank"
-                                class="flex items-center justify-between px-4 py-2.5 rounded-xl border border-neutral-200/80 bg-white/90 shadow-[0_1px_2px_rgba(0,0,0,0.02)] hover:bg-emerald-50/40 hover:border-emerald-300 hover:shadow-[0_4px_12px_rgba(16,185,129,0.05)] hover:scale-[1.01] active:scale-[0.99] transition-all duration-300 group/link">
+                                class="flex items-center justify-between px-4 py-2.5 rounded-xl border border-white/15 bg-white/10 hover:bg-emerald-500/20 hover:border-emerald-400/50 hover:scale-[1.01] active:scale-[0.99] transition-all duration-300 group/link">
                                 <div class="flex items-center gap-2.5">
-                                    <div class="w-7 h-7 rounded-lg bg-emerald-50 flex items-center justify-center text-emerald-500 group-hover/link:bg-emerald-500 group-hover/link:text-white transition-all duration-300">
+                                    <div class="w-7 h-7 rounded-lg bg-emerald-500/20 flex items-center justify-center text-emerald-400 group-hover/link:bg-emerald-500 group-hover/link:text-white transition-all duration-300">
                                         <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.488 1.459 5.407 1.46h.007c5.566 0 10.1-4.532 10.104-10.098.002-2.697-1.047-5.234-2.952-7.14C17.298 1.47 14.767.418 12.01.418c-5.561 0-10.1 4.531-10.103 10.097-.002 1.83.479 3.623 1.39 5.2l-.993 3.626 3.753-.984zm11.026-6.863c-.3-.15-1.771-.875-2.046-.975-.276-.1-.476-.15-.676.15-.2.3-.776.975-.95 1.175-.175.2-.35.225-.65.075-.3-.15-1.267-.467-2.414-1.49-8.93-.797-1.496-1.782-1.804-2.282-.3-.5-.034-.77.217-.97.227-.18.2-.4.475-.6.713-.2.237-.267.4-.4.675-.133.275-.067.512.033.712.1.2.676 1.175 1.488 1.875.818.7 1.507 1.07 2.057 1.2.55.13 1.05.11 1.45.05.445-.067 1.77-.725 2.02-1.425.25-.7.25-1.3.175-1.425-.075-.125-.275-.2-.575-.35z"/>
                                         </svg>
                                     </div>
-                                    <span class="text-xs font-semibold text-primary/90">WhatsApp Channel</span>
+                                    <span class="text-xs font-semibold text-white/90">WhatsApp Channel</span>
                                 </div>
-                                <span class="material-symbols-outlined text-sm text-secondary group-hover/link:text-emerald-600 group-hover/link:translate-x-0.5 transition-all">chevron_right</span>
+                                <span class="material-symbols-outlined text-sm text-white/50 group-hover/link:text-emerald-400 group-hover/link:translate-x-0.5 transition-all">chevron_right</span>
                             </a>
                             
                             <!-- WhatsApp Group Link -->
                             <a href="https://chat.whatsapp.com/FTrqX8CyQpJ1JKZya8bJ1n?mode=gi_t" target="_blank"
-                                class="flex items-center justify-between px-4 py-2.5 rounded-xl border border-neutral-200/80 bg-white/90 shadow-[0_1px_2px_rgba(0,0,0,0.02)] hover:bg-emerald-50/40 hover:border-emerald-300 hover:shadow-[0_4px_12px_rgba(16,185,129,0.05)] hover:scale-[1.01] active:scale-[0.99] transition-all duration-300 group/link">
+                                class="flex items-center justify-between px-4 py-2.5 rounded-xl border border-white/15 bg-white/10 hover:bg-emerald-500/20 hover:border-emerald-400/50 hover:scale-[1.01] active:scale-[0.99] transition-all duration-300 group/link">
                                 <div class="flex items-center gap-2.5">
-                                    <div class="w-7 h-7 rounded-lg bg-emerald-50 flex items-center justify-center text-emerald-500 group-hover/link:bg-emerald-500 group-hover/link:text-white transition-all duration-300">
+                                    <div class="w-7 h-7 rounded-lg bg-emerald-500/20 flex items-center justify-center text-emerald-400 group-hover/link:bg-emerald-500 group-hover/link:text-white transition-all duration-300">
                                         <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.488 1.459 5.407 1.46h.007c5.566 0 10.1-4.532 10.104-10.098.002-2.697-1.047-5.234-2.952-7.14C17.298 1.47 14.767.418 12.01.418c-5.561 0-10.1 4.531-10.103 10.097-.002 1.83.479 3.623 1.39 5.2l-.993 3.626 3.753-.984zm11.026-6.863c-.3-.15-1.771-.875-2.046-.975-.276-.1-.476-.15-.676.15-.2.3-.776.975-.95 1.175-.175.2-.35.225-.65.075-.3-.15-1.267-.467-2.414-1.49-8.93-.797-1.496-1.782-1.804-2.282-.3-.5-.034-.77.217-.97.227-.18.2-.4.475-.6.713-.2.237-.267.4-.4.675-.133.275-.067.512.033.712.1.2.676 1.175 1.488 1.875.818.7 1.507 1.07 2.057 1.2.55.13 1.05.11 1.45.05.445-.067 1.77-.725 2.02-1.425.25-.7.25-1.3.175-1.425-.075-.125-.275-.2-.575-.35z"/>
                                         </svg>
                                     </div>
-                                    <span class="text-xs font-semibold text-primary/90">WhatsApp Group</span>
+                                    <span class="text-xs font-semibold text-white/90">WhatsApp Group</span>
                                 </div>
-                                <span class="material-symbols-outlined text-sm text-secondary group-hover/link:text-emerald-600 group-hover/link:translate-x-0.5 transition-all">chevron_right</span>
+                                <span class="material-symbols-outlined text-sm text-white/50 group-hover/link:text-emerald-400 group-hover/link:translate-x-0.5 transition-all">chevron_right</span>
                             </a>
                         </div>
                     </div>
@@ -706,20 +654,349 @@
                 }, 300);
             }
         };
+    </script>
 
+    <!-- Shazam 3D Auto-Rotating Carousel Engine -->
+    <script>
+        (function() {
+            const slides = [
+                {
+                    catTitle: "New and Rising",
+                    catSub: "Fresh papers, growing fast",
+                    cardTitle: "Physical Chemistry",
+                    cardSub: "Sem I • 2024-25 Mid Term",
+                    bgClass: "bg-gradient-to-br from-[#b91c1c] to-[#7f1d1d]",
+                    heroColor: "#6b1414",
+                    ambientGlow: "radial-gradient(circle at 75% 45%, rgba(239, 68, 68, 0.45), transparent 60%)",
+                    icon: "science",
+                    link: "nep-pyq.html"
+                },
+                {
+                    catTitle: "Rediscovered",
+                    catSub: "Older papers reaching new students",
+                    cardTitle: "Computer Science",
+                    cardSub: "Data Structures & Algorithms",
+                    bgClass: "bg-white text-neutral-900 border-neutral-200",
+                    heroColor: "#2d3748",
+                    ambientGlow: "radial-gradient(circle at 75% 45%, rgba(255, 255, 255, 0.3), transparent 60%)",
+                    icon: "terminal",
+                    isWhite: true,
+                    link: "nep-pyq.html"
+                },
+                {
+                    catTitle: "Top Trending",
+                    catSub: "Most requested BHU syllabus",
+                    cardTitle: "Mathematics & Calculus",
+                    cardSub: "Real Analysis & Multivariable",
+                    bgClass: "bg-gradient-to-br from-[#0088ff] to-[#1d4ed8]",
+                    heroColor: "#1d4ed8",
+                    ambientGlow: "radial-gradient(circle at 75% 45%, rgba(59, 130, 246, 0.5), transparent 60%)",
+                    icon: "functions",
+                    link: "nep-pyq.html"
+                },
+                {
+                    catTitle: "Curriculum Spotlight",
+                    catSub: "Verified unit-wise breakdown",
+                    cardTitle: "Botany & Life Sciences",
+                    cardSub: "Cell & Molecular Biology",
+                    bgClass: "bg-gradient-to-br from-[#059669] to-[#064e3b]",
+                    heroColor: "#065f46",
+                    ambientGlow: "radial-gradient(circle at 75% 45%, rgba(16, 185, 129, 0.45), transparent 60%)",
+                    icon: "eco",
+                    link: "nep-pyq.html"
+                },
+                {
+                    catTitle: "High Yield Practice",
+                    catSub: "Active recall mock examination",
+                    cardTitle: "Physics & Quantum",
+                    cardSub: "Thermodynamics & Mechanics",
+                    bgClass: "bg-gradient-to-br from-[#7c3aed] to-[#4c1d95]",
+                    heroColor: "#4c1d95",
+                    ambientGlow: "radial-gradient(circle at 75% 45%, rgba(139, 92, 246, 0.5), transparent 60%)",
+                    icon: "bolt",
+                    link: "nep-pyq.html"
+                }
+            ];
 
-        // Floating orbs mouse parallax
-        document.addEventListener('mousemove', (e) => {
-            const orbs = document.querySelectorAll('.neural-orb');
-            const mouseX = e.clientX / window.innerWidth;
-            const mouseY = e.clientY / window.innerHeight;
-            orbs.forEach((orb, index) => {
-                const speed = (index + 1) * 15;
-                const x = (mouseX - 0.5) * speed;
-                const y = (mouseY - 0.5) * speed;
-                orb.style.transform = `translate(${x}px, ${y}px)`;
-            });
-        });
+            let currentIndex = 0;
+            let timer = null;
+            const cardNodes = [];
+            const dotNodes = [];
+
+            const stage = document.getElementById('shazamStage');
+            const dotsContainer = document.getElementById('carouselDotsContainer');
+            const catTitle = document.getElementById('carouselCatTitle');
+            const catSub = document.getElementById('carouselCatSub');
+
+            // Build persistent DOM nodes ONCE
+            function init() {
+                if (!stage) return;
+                
+                // Clear existing cards
+                cardNodes.length = 0;
+                dotNodes.length = 0;
+                dotsContainer.innerHTML = '';
+                
+                // Remove existing card elements from stage
+                const existingCards = stage.querySelectorAll('.shazam-card');
+                existingCards.forEach(c => c.remove());
+
+                slides.forEach((slide, index) => {
+                    // Create persistent card element
+                    const card = document.createElement('div');
+                    card.className = "shazam-card absolute rounded-3xl p-6 shadow-2xl flex flex-col justify-between select-none cursor-pointer border border-white/10 w-[205px] sm:w-[235px] h-[275px] sm:h-[315px]";
+                    card.style.willChange = "transform, opacity";
+                    card.style.transition = "transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.8s ease, filter 0.8s ease";
+                    card.style.top = "50%";
+                    card.style.left = "50%";
+                    card.style.transformStyle = "preserve-3d";
+
+                    if (slide.isWhite) {
+                        card.className += " bg-white text-neutral-900 border-neutral-200 shadow-white/10";
+                    } else {
+                        card.className += ` ${slide.bgClass} text-white`;
+                    }
+
+                    card.innerHTML = `
+                        <div class="flex items-center justify-between">
+                            <span class="material-symbols-outlined text-3xl ${slide.isWhite ? 'text-neutral-900' : 'text-white'}">${slide.icon}</span>
+                            <span class="text-[9px] font-extrabold uppercase tracking-wider px-2 py-0.5 rounded-full ${slide.isWhite ? 'bg-neutral-100 text-neutral-600' : 'bg-white/20 text-white'}">BHU PYQ</span>
+                        </div>
+                        <div class="my-auto py-2 text-left">
+                            <h4 class="font-black text-xl sm:text-2xl leading-tight tracking-tight ${slide.isWhite ? 'text-neutral-900' : 'text-white'}">${slide.cardTitle}</h4>
+                            <p class="text-xs font-medium mt-1.5 leading-relaxed ${slide.isWhite ? 'text-neutral-500' : 'text-white/80'}">${slide.cardSub}</p>
+                        </div>
+                        <div class="flex items-center justify-between pt-3 border-t ${slide.isWhite ? 'border-neutral-100 text-neutral-900' : 'border-white/20 text-white'}">
+                            <span class="text-[10px] font-bold opacity-75">NEP 2020</span>
+                            <span class="text-xs font-bold flex items-center gap-1 ${slide.isWhite ? 'text-[#0088ff]' : 'text-white'}">Open <span class="material-symbols-outlined text-xs">arrow_forward</span></span>
+                        </div>
+                    `;
+
+                    card.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        
+                        if (index === currentIndex) {
+                            window.location.href = slide.link;
+                        } else {
+                            currentIndex = index;
+                            update();
+                            resetTimer();
+                        }
+                    });
+
+                    stage.appendChild(card);
+                    cardNodes.push(card);
+
+                    // Create persistent dot element
+                    const dot = document.createElement('button');
+                    dot.className = "h-2 rounded-full transition-all duration-500 bg-white/30 hover:bg-white/60";
+                    dot.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        currentIndex = index;
+                        update();
+                        resetTimer();
+                    });
+                    dotsContainer.appendChild(dot);
+                    dotNodes.push(dot);
+                });
+
+                update();
+                resetTimer();
+            }
+
+            // Smooth position update via GPU transform transitions (Exact Shazam 3D Perspective)
+            function update() {
+                const currentSlide = slides[currentIndex];
+                const heroSection = document.getElementById('heroSection');
+                const glowEl = document.getElementById('heroAmbientGlow');
+
+                // Morph WHOLE screen background color across 100% width
+                if (heroSection && currentSlide.heroColor) {
+                    heroSection.style.backgroundColor = currentSlide.heroColor;
+                }
+                if (glowEl && currentSlide.ambientGlow) {
+                    glowEl.style.background = currentSlide.ambientGlow;
+                }
+
+                // Update category header text
+                if (catTitle && catSub) {
+                    catTitle.textContent = currentSlide.catTitle;
+                    catSub.textContent = currentSlide.catSub;
+                }
+
+                cardNodes.forEach((card, index) => {
+                    const total = slides.length;
+                    let diff = (index - currentIndex) % total;
+                    if (diff < -Math.floor(total / 2)) diff += total;
+                    if (diff > Math.floor(total / 2)) diff -= total;
+
+                    if (diff === 0) {
+                        // Active Center Card (Upright, elevated 3D depth)
+                        card.style.transform = "translate(-50%, -50%) scale(1) rotateY(0deg) translateZ(40px)";
+                        card.style.opacity = "1";
+                        card.style.zIndex = "30";
+                        card.style.filter = "none";
+                        card.style.pointerEvents = "auto";
+                        card.style.cursor = "pointer";
+                    } else if (diff === 1) {
+                        // Right Card (Tilted 3D away perspective)
+                        card.style.transform = "translate(calc(-50% + 160px), -50%) scale(0.78) rotateY(-25deg) translateZ(-40px)";
+                        card.style.opacity = "0.55";
+                        card.style.zIndex = "20";
+                        card.style.filter = "brightness(0.88)";
+                        card.style.pointerEvents = "auto";
+                        card.style.cursor = "pointer";
+                    } else if (diff === -1) {
+                        // Left Card (Tilted 3D away perspective)
+                        card.style.transform = "translate(calc(-50% - 160px), -50%) scale(0.78) rotateY(25deg) translateZ(-40px)";
+                        card.style.opacity = "0.55";
+                        card.style.zIndex = "20";
+                        card.style.filter = "brightness(0.88)";
+                        card.style.pointerEvents = "auto";
+                        card.style.cursor = "pointer";
+                    } else {
+                        // Hidden Far Background Cards
+                        const offset = diff > 0 ? 240 : -240;
+                        card.style.transform = `translate(calc(-50% + ${offset}px), -50%) scale(0.5) rotateY(${diff > 0 ? '-45deg' : '45deg'}) translateZ(-100px)`;
+                        card.style.opacity = "0";
+                        card.style.zIndex = "0";
+                        card.style.pointerEvents = "none";
+                    }
+                });
+
+                // Update Dot indicators
+                dotNodes.forEach((dot, index) => {
+                    if (index === currentIndex) {
+                        dot.className = "h-2 w-6 rounded-full transition-all duration-500 bg-white shadow-sm";
+                    } else {
+                        dot.className = "h-2 w-2 rounded-full transition-all duration-500 bg-white/30 hover:bg-white/60";
+                    }
+                });
+            }
+
+            function nextSlide() {
+                currentIndex = (currentIndex + 1) % slides.length;
+                update();
+            }
+
+            function resetTimer() {
+                if (timer) clearInterval(timer);
+                timer = setInterval(nextSlide, 3000);
+            }
+
+            // Pause on mouse hover
+            const container = document.getElementById('shazamCarouselContainer');
+            if (container) {
+                container.addEventListener('mouseenter', () => clearInterval(timer));
+                container.addEventListener('mouseleave', resetTimer);
+            }
+
+            // ════════ Trackpad, Mouse Drag & Touch Swipe Engine ════════
+            let startX = 0;
+            let isDragging = false;
+            let dragDistance = 0;
+            let wheelAccumulator = 0;
+            let wheelDebounce = false;
+
+            const carouselTarget = container || stage;
+
+            if (carouselTarget) {
+                // Tap Anywhere on Stage (Left side -> Prev, Right side -> Next, Center -> Open)
+                if (stage) {
+                    stage.addEventListener('click', (e) => {
+                        if (Math.abs(dragDistance) > 10) return; // Prevent click triggered during drag
+                        const rect = stage.getBoundingClientRect();
+                        const clickX = e.clientX - rect.left - (rect.width / 2);
+                        
+                        if (clickX < -70) {
+                            currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+                            update();
+                            resetTimer();
+                        } else if (clickX > 70) {
+                            nextSlide();
+                            resetTimer();
+                        } else {
+                            window.location.href = slides[currentIndex].link;
+                        }
+                    });
+                }
+
+                // 1. macOS Trackpad Two-Finger Horizontal Scroll (Ultra responsive)
+                carouselTarget.addEventListener('wheel', (e) => {
+                    // Capture horizontal swipe or Shift+Wheel
+                    const delta = Math.abs(e.deltaX) > Math.abs(e.deltaY) ? e.deltaX : (e.shiftKey ? e.deltaY : 0);
+                    
+                    if (Math.abs(delta) > 1.5) {
+                        wheelAccumulator += delta;
+                        if (!wheelDebounce && Math.abs(wheelAccumulator) >= 15) {
+                            wheelDebounce = true;
+                            if (wheelAccumulator > 0) {
+                                nextSlide();
+                            } else {
+                                currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+                                update();
+                            }
+                            resetTimer();
+                            wheelAccumulator = 0;
+                            setTimeout(() => {
+                                wheelDebounce = false;
+                            }, 280);
+                        }
+                    }
+                }, { passive: true });
+
+                // 2. Mouse & Trackpad Click-and-Drag Swipe
+                carouselTarget.addEventListener('mousedown', (e) => {
+                    isDragging = true;
+                    startX = e.clientX;
+                    dragDistance = 0;
+                });
+
+                window.addEventListener('mousemove', (e) => {
+                    if (!isDragging) return;
+                    dragDistance = e.clientX - startX;
+                });
+
+                window.addEventListener('mouseup', () => {
+                    if (!isDragging) return;
+                    isDragging = false;
+                    if (dragDistance < -35) {
+                        nextSlide();
+                        resetTimer();
+                    } else if (dragDistance > 35) {
+                        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+                        update();
+                        resetTimer();
+                    }
+                    setTimeout(() => { dragDistance = 0; }, 50);
+                });
+
+                // 3. Touch events for smartphones & tablets
+                carouselTarget.addEventListener('touchstart', (e) => {
+                    startX = e.touches[0].clientX;
+                }, { passive: true });
+
+                carouselTarget.addEventListener('touchend', (e) => {
+                    const endX = e.changedTouches[0].clientX;
+                    const diffX = startX - endX;
+                    if (diffX > 25) {
+                        nextSlide();
+                        resetTimer();
+                    } else if (diffX < -25) {
+                        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+                        update();
+                        resetTimer();
+                    }
+                }, { passive: true });
+            }
+
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', init);
+            } else {
+                init();
+            }
+        })();
     </script>
 
 </body>

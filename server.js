@@ -450,6 +450,8 @@ function serveFile(filePath, res) {
     stream.pipe(res);
 }
 
-server.listen(PORT, () => {
-    console.log(`SCIQB Server running at http://localhost:${PORT}`);
+server.listen(PORT, '0.0.0.0', () => {
+    console.log(`SCIQB Server running at:`);
+    console.log(`  - Local:   http://localhost:${PORT}`);
+    console.log(`  - Network: http://10.190.206.169:${PORT}`);
 });
