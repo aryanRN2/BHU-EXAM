@@ -89,6 +89,21 @@ export const NEP_LATEX_PYQ_DATA = [
     "examType": "Mid Term"
   },
   {
+    "code": "CIMSE21",
+    "courseType": "Skill Enhancement",
+    "name": "B.Sc. (Hons.) Semester II Examination 2024-25 (NEP) - Computational Mathematics with SageMath",
+    "filePath": "aaa/ALL_PYQS_LATEX/CIMSE21_PythonForDataAnalytics_SemII_2024-25.tex",
+    "fileName": "CIMSE21_PythonForDataAnalytics_SemII_2024-25.tex",
+    "nepCode": "CIMSE21",
+    "oldCode": "CIMSE21",
+    "subject": "Mathematics",
+    "department": "DST-CIMS / Mathematics",
+    "semester": "Semester II",
+    "year": "2024-25",
+    "type": "NEP",
+    "examType": "End Term"
+  },
+  {
     "code": "CIMSE31",
     "name": "B.Sc. (Hons.) Sem III (NEP) Mid-Semester Exam 2025-26 - Python Programming for Data Analytics",
     "filePath": "aaa/ALL_PYQS_LATEX/CIMSE31_PythonForDataAnalytics_SemIII_MidTerm_2025-26.tex",
