@@ -1,6 +1,6 @@
 % BHU PYQ -- Transcribed & Corrected
-% Paper: STAMN-42 : Statistics Minor IV
-% Exam: B.Sc. (Hons.) Semester IV Examination, 2025-26 (NEP)
+% Paper: STAMN-42 : Practical based on STAMN-41
+% Exam: B.Sc. Semester IV Examination 2025-2026 (NEP Minor)
 % Department: Department of Statistics
 
 \documentclass[11pt,a4paper]{article}
@@ -8,42 +8,106 @@
 \usepackage{amsmath,amssymb}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip}
+\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip,booktabs}
 
-\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,pdftitle={STAMN42: Statistics Minor IV}}
-\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small\textit{BHU}}\fancyhead[R]{\small\textit{STAMN-42: Statistics Minor IV}}\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,pdftitle={STAMN-42: Practical based on STAMN-41 -- BHU Sem IV 2025-26 (NEP Minor)}}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{STAMN-42: Practical based on STAMN-41}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=2pt}
 \newcommand{\pts}[1]{\hfill\textit{[#1]}}
 
 \begin{document}
+
 \begin{center}
-  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Sc. (Hons.) Semester IV Examination, 2025-26 (NEP)}\\[6pt]
-  {\large\bfseries DEPARTMENT OF STATISTICS}\\[4pt]
-  {\large\bfseries Paper Code: STAMN-42 : Statistics Minor IV}\\[4pt]
-  {\normalsize Time: 3 Hours\hfill Maximum Marks: 60}
+  {\large\bfseries B.Sc. Semester IV Examination 2025-2026}\\[4pt]
+  {\large\bfseries STATISTICS}\\[4pt]
+  {\large\bfseries STAMN-42 : Practical based on STAMN-41}\\[4pt]
+  {\normalsize Time: 3 Hours\hfill Max. Marks: 70}
 \end{center}
+
 \rule{\linewidth}{0.4pt}\smallskip
-\noindent\textit{Instructions: Attempt FIVE questions in total. All questions carry equal marks (12 marks each).}
+\noindent\textit{Instructions: Attempt any 3 questions. Each question carries equal marks.}
 \bigskip
 
-\noindent\textbf{Question 1.} Define Point Estimator. Explain properties of good estimator: Unbiasedness, Consistency, Efficiency, and Sufficiency.\pts{12}
+\noindent\textbf{Q.1} A quality control engineer at a textile factory measures the breaking strength (in Newtons) of fabric samples. A random sample of $n = 36$ observations is drawn from a normal population with mean $\bar{x} = 42.4\text{ N}$ and known variance $\sigma^2 = 16\text{ N}$.
+
+\begin{parts}
+  \item Construct confidence intervals for the population mean at 70\%, 80\%, 90\%, and 95\% levels.
+  \item Interpret each confidence interval in context.
+  \item Compute the length of each confidence interval.
+  \item Plot the relationship between confidence level and interval length.
+  \item The factory's safety standard requires breaking strength to be at least 41 N. Based on your 95\% confidence interval, does the fabric meet the standard? Interpret your result in context.
+\end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}\medskip
 
-\noindent\textbf{Question 2.} State Cramer-Rao Inequality and define Minimum Variance Unbiased Estimator (MVUE).\pts{12}
+\noindent\textbf{Q.2} A pharmaceutical company wants to investigate whether a new dietary supplement reduces fasting blood sugar levels (in mg/dL) in diabetic patients. The blood sugar levels of 20 patients were recorded before and after 8 weeks of consuming the supplement:
+
+\begin{center}
+\small
+\begin{tabular}{ccccccccccc}
+\toprule
+\textbf{Patient} & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
+\midrule
+\textbf{Before} & 145 & 162 & 138 & 175 & 153 & 168 & 140 & 159 & 172 & 148 \\
+\textbf{After} & 138 & 150 & 135 & 160 & 145 & 155 & 136 & 148 & 158 & 140 \\
+\bottomrule
+\end{tabular}
+
+\vspace{6pt}
+
+\begin{tabular}{ccccccccccc}
+\toprule
+\textbf{Patient} & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20 \\
+\midrule
+\textbf{Before} & 165 & 155 & 142 & 178 & 160 & 135 & 150 & 170 & 143 & 158 \\
+\textbf{After} & 152 & 143 & 138 & 162 & 149 & 130 & 142 & 155 & 138 & 147 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Test at 5\% level of significance whether the dietary supplement significantly reduced the blood sugar levels of patients.
 
 \medskip\rule{\linewidth}{0.2pt}\medskip
 
-\noindent\textbf{Question 3.} Explain Method of Maximum Likelihood Estimation (MLE). Find MLE of parameter $\lambda$ for Poisson distribution.\pts{12}
+\noindent\textbf{Q.3} A market research firm surveyed 10,000 customers from two different cities --- Mumbai and Delhi --- and recorded their preferred shopping time (Hour 0 to Hour 9 representing 10 different time slots of the day). The frequency of customers preferring each time slot is as follows:
+
+\begin{center}
+\small
+\begin{tabular}{ccccccccccc}
+\toprule
+\textbf{Time Slot} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 \\
+\midrule
+\textbf{Mumbai} & 983 & 1024 & 1015 & 978 & 1032 & 1008 & 965 & 1021 & 994 & 980 \\
+\textbf{Delhi} & 1002 & 988 & 975 & 1034 & 998 & 1016 & 1025 & 979 & 1003 & 980 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Using the above data, examine whether the distribution of preferred shopping time slots is independent of the city (Mumbai or Delhi) to which the customers belong. Formulate appropriate hypotheses and apply an appropriate test at the 5\% level of significance. Based on your analysis, state whether there is any significant difference in the shopping time preferences of customers from Mumbai and Delhi. Interpret your result in context.
 
 \medskip\rule{\linewidth}{0.2pt}\medskip
 
-\noindent\textbf{Question 4.} Define Confidence Interval and Confidence Coefficient. Construct $95\%$ confidence interval for mean $\mu$ of Normal population when $\sigma^2$ is known.\pts{12}
+\noindent\textbf{Q.4} A meteorological department recorded the daily maximum temperature (in $^\circ\text{C}$) in a city over a period of 20 day during the monsoon season to check whether the temperature fluctuations occur in a random order. The recorded temperatures are as follows:
 
-\medskip\rule{\linewidth}{0.2pt}\medskip
+\begin{center}
+\begin{tabular}{cccccccccc}
+28 & 31 & 27 & 33 & 29 & 30 & 26 & 32 & 28 & 31 \\
+27 & 33 & 30 & 28 & 31 & 26 & 29 & 32 & 27 & 30 \\
+\end{tabular}
+\end{center}
 
-\noindent\textbf{Question 5.} State Neyman-Pearson Lemma for testing simple null hypothesis against simple alternative hypothesis.\pts{12}
+Test at 5\% level of significance that the daily maximum temperatures occur in a random order.
 
-\vfill\rule{\linewidth}{0.4pt}
-\begin{center}\small\href{https://bhu-exam.vercel.app/}{Click here to visit website}\end{center}
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
 \end{document}

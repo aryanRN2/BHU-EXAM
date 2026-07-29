@@ -1,0 +1,130 @@
+% BHU PYQ -- Transcribed & Corrected
+% Paper: CSCMJ44: Computer Organization and Architecture
+% Exam: B.Sc. (Hons.) Semester IV Examination, 2025-26 (NEP)
+% Category: Major Course
+% Department: Computer Science
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=black,
+    linkcolor=black,
+    pdftitle={CSCMJ44: Computer Organization and Architecture -- BHU Sem IV 2025-26 (NEP)}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{CSCMJ44: Computer Org \& Architecture (Sem IV 2025-26)}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=2pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) --- Semester IV Examination, 2025-26 (NEP)}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries COMPUTER SCIENCE}\\[4pt]
+  {\large\bfseries Paper Code: CSCMJ44 : Computer Organization and Architecture}\\[4pt]
+  {\normalsize Time: 2:30 Hours\hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: Answer \textbf{five} questions in all including Question No.~1, which is compulsory. Terms and abbreviations have their standard meaning. Figures on the right-hand side margin indicate Max. Mark for each question.}
+
+\bigskip
+
+\noindent\textbf{Question 1.} (Compulsory)
+\begin{parts}
+  \item A 32-bit physical address is divided into three fields: Tag, Set Index, and Block Offset of 21 bits, 7 bits, and 4 bits, respectively, for use in a 2-way set-associative cache. The cache is initially empty. The following byte addresses (in decimal) are accessed in the given order: $0, 8, 32, 144, 272, 208, 2048, 60, 152, 4120, 224, 3100$. The cache uses LRU (Least Recently Used) replacement policy. Determine the final state of each valid entry in the cache by listing the pairs of (Set Index, Tag) in decimal.\pts{6}
+  \item Explain the difference between hardwired control unit and microprogrammed control unit.\pts{4}
+  \item Compare RISC and CISC architectures.\pts{4}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 2.}
+\begin{parts}
+  \item Design a 4-bit combinational decrement circuit using four full adder circuits.\pts{4}
+  \item What is an instruction cycle, and write the phases of the Instruction cycle?\pts{3}
+  \item A computer has 16 registers and an ALU capable of performing 32 operations. All the registers and the ALU are connected through a common bus system.\pts{7}
+  \begin{parts}
+    \item Formulate the control word required to specify a microoperation.
+    \item Specify the number of bits required for each field of the control word, and provide a general encoding scheme for the fields.
+    \item Determine the bit pattern of the control word required to perform the following microoperation: $R4 \leftarrow R5 + R6$.
+  \end{parts}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Explain the role of status register in CPU with suitable examples.\pts{7}
+  \item The stack is a memory stack that grows downward (i.e., the Stack Pointer (SP) is decremented before a value is pushed onto the stack and incremented after a value is popped from the stack). The top of the stack contains the value $5320$, and the Stack Pointer (SP) contains $3560$. A two-word CALL subroutine instruction is stored in memory, with the opcode at address $1120$ and its address field ($6720$) at address $1121$. Determine the contents of the Program Counter (PC), Stack Pointer (SP), and the top of the stack at each of the following stages:\pts{7}
+  \begin{parts}
+    \item Before the CALL instruction is fetched from memory.
+    \item After the CALL instruction has been executed.
+    \item After the subroutine returns (i.e., after execution of the RETURN instruction).
+  \end{parts}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 4.}
+\begin{parts}
+  \item You are given $64 \times 8$ RAM chips and $128 \times 8$ ROM chips. Using these, construct a physical memory of size 256 bytes and draw a block diagram showing how this memory is connected to the CPU.\pts{7}
+  \item Explain the concept of memory hierarchy in a computer system. Why is a memory hierarchy required?\pts{4}
+  \item An address space is specified by 24 bits and the corresponding memory space by 16 bits. How many words are there in the address space and memory space? If a page consists of 2k words, how many pages and blocks are there in the system?\pts{3}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 5.}
+\begin{parts}
+  \item What is Daisy-chain priority. Explain it with suitable block diagram.\pts{6}
+  \item What is the difference between vectored interrupt and non-vectored interrupt?\pts{4}
+  \item What is the difference between isolated I/O and memory-mapped I/O?\pts{4}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 6.}
+\begin{parts}
+  \item Explain the working of DMA (Direct Memory Access) with the block diagram.\pts{7}
+  \item What are the basic differences among a branch instruction, a call sub-routine instruction and a program interrupt?\pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 7.} Write short notes on:\pts{14}
+\begin{parts}
+  \item Stored program concept,
+  \item Zero-address instruction,
+  \item Bootstrap Loader,
+  \item Multi-processor system, and
+  \item Input-output interface
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

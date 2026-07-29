@@ -1,61 +1,163 @@
-% BHU PYQ -- Statistics Introduction to Probability Theory (End Term) (2024-25 NEP)
+% BHU PYQ -- Transcribed & Corrected
+% Paper: STAMJ21/STAMN21: Introduction to Probability Theory
+% Exam: U.G. Semester-II Examination, 2024-25 (NEP)
+% Ref. No.: CECONF/N/2024-25/21018
+% Department: Department of Statistics
+
 \documentclass[11pt,a4paper]{article}
 \usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
 \usepackage{amsmath,amssymb}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip}
+\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip,booktabs}
 
-\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,pdftitle=STAMJ21 / STAMN21: Introduction to Probability Theory (End Term) -- BHU NEP 2024-25}
-
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,pdftitle={STAMJ21/STAMN21: Introduction to Probability Theory -- BHU B.Sc. Sem II 2024-25 (NEP)}}
 \pagestyle{fancy}\fancyhf{}
-\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
 \fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{STAMJ21 / STAMN21: Introduction to Probability Theory (End Term) (2024-25)}}
+\fancyhead[R]{\small\textit{STAMJ21/STAMN21: Introduction to Probability Theory}}
 \fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
 
 \newlist{parts}{enumerate}{2}
-\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=2pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
 \newcommand{\pts}[1]{\hfill\textit{[#1]}}
 
 \begin{document}
+
+\begin{flushright}
+  \small\textbf{Ref. No. CECONF/N/2024-25/21018}
+\end{flushright}
+
 \begin{center}
-  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize U.G. Semester 2 (NEP) Examination, 2024-25}\\[6pt]
-  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries U.G. Semester-II Examination, 2024-25 (NEP)}\\[4pt]
   {\large\bfseries STATISTICS}\\[4pt]
-  {\large\bfseries Paper: STAMJ21 / STAMN21 --- Introduction to Probability Theory (End Term)}\\[4pt]
+  {\large\bfseries Paper: STAMJ21 / STAMN21 --- Introduction to Probability Theory}\\[4pt]
   {\normalsize Time: 2:30 Hours \hfill Full Marks: 70}
 \end{center}
-\rule{\linewidth}{0.4pt}
-\smallskip
-\noindent\textit{\noindent\textit{Instructions: Attempt \textbf{THREE} questions including Question No.~1, which is compulsory. The figures in the right-hand margin indicate marks.}
+
+\rule{\linewidth}{0.4pt}\smallskip
+\noindent\textit{Note: Attempt any \textbf{five} questions. Each question carries equal marks.}
 \bigskip
 
-\noindent\textbf{Question 1.} \textit{(Compulsory)}
+\noindent\textbf{Question 1.}
 \begin{parts}
-  \item Define moment generating function (MGF) and cumulative generating function (CGF).\pts{3}
-  \item State the central limit theorem (Lindeberg-Lévy form).\pts{3}
-  \item Define Normal distribution. Write down its PDF and sketch the normal curve.\pts{3}
-  \item Define Chi-square distribution and state its chief properties.\pts{2.5}
-  \item Define Student's $t$-distribution and $F$-distribution.\pts{2.5}
+  \item A fair die is tossed three times. Let $A_i$ be the event that $i$-th toss turns up with even number, $i = 1, 2, 3$. Write down the events in terms of $A_1, A_2$ and $A_3$ that:
+  \begin{parts}
+    \item at least one of the tosses turns up with even number.
+    \item exactly one of the tosses turns up with even number.
+    \item not more than two of the tosses will turn up with even number.
+  \end{parts}
+
+  \item If $S = \{x : 0 < x < 12\}$, $M = \{x : 1 < x < 9\}$ and $N = \{x : 0 < x < 5\}$, then find:
+  \begin{parts}
+    \item $M \cup N$
+    \item $M \cap N$
+    \item $M^c \cap N^c$
+  \end{parts}
+
+  \item A lot consists of 10 good articles, 4 with minor defects, and 2 with major defects. One article is chosen at random. Find the probability that:
+  \begin{parts}
+    \item it has no defects,
+    \item it has no major defects,
+    \item it is either good or has major defects.
+  \end{parts}
+
+  \item The moment generating function of two independent random variables $X$ and $Y$ are:
+  \[ M_X(t) = \frac{1}{27}(e^t + 2)^3 \quad \text{and} \quad M_Y(t) = \left(\frac{1}{3}e^t + \frac{2}{3}\right)^5 \]
+  respectively. If $Z = X + Y$, then Find:
+  \begin{parts}
+    \item $P(Z < 2)$
+    \item $P(0 \le Z \le 2 \mid Z \ge 1)$
+  \end{parts}
 \end{parts}
 
-\bigskip
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
 \noindent\textbf{Question 2.}
 \begin{parts}
-  \item Find the MGF of a Normal distribution $N(\mu, \sigma^2)$ and hence find its mean and variance.\pts{7}
-  \item Prove that the sum of independent normal random variables is also normally distributed.\pts{7}
+  \item Define the terms sample space, elementary events, mutually exclusive events and exhaustive events. Write sample space in each of following cases and categorise it as discrete or continuous sample space:
+  \begin{parts}
+    \item Toss a coin repeatedly until head appears first time.
+    \item A light bulb is manufactured. It is then tested for its life length by inserting it into a socket and the time elapsed (in hours) until it burns out is recorded.
+    \item Toss a coin four times and observe the sequence of heads and tails obtained.
+  \end{parts}
+
+  \item A man draws a ball from an urn containing 4 white and 2 red balls. If the ball is white, he does not return it to urn; if the ball is red, he does return it. He draws another ball. Let $A$ be the event that the first ball drawn is white, and let $B$ be the event that second ball drawn is white. Which of the following statement is true or false? Give reasons:
+  \begin{parts}
+    \item $P(B) = \dfrac{3}{5}$
+    \item $P(B \mid A) = \dfrac{3}{5}$
+    \item $P(A \mid B) = \dfrac{9}{14}$
+    \item $A$ and $B$ are independent
+  \end{parts}
 \end{parts}
 
-\bigskip
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
 \noindent\textbf{Question 3.}
 \begin{parts}
-  \item Derive the probability density function of Chi-square distribution with $n$ degrees of freedom.\pts{7}
-  \item State and prove Chebyshev's Inequality.\pts{7}
+  \item A person visits randomly to a family of three children and counts the number of male children. If $X$ denotes the number of male children and it is known that female child is twice more probable than male then write probability distribution of $X$. Draw a graph of probability distribution and cumulative probability distribution of $X$.
+
+  \item Let the pdf of $X$ be given by:
+  \[ f(x) = \begin{cases} 1/3 & \text{if } 0 < x < 1 \\ 2/3 & \text{if } 2 < x < 3 \\ 0 & \text{otherwise} \end{cases} \]
+  Find the distribution function of $X$. Calculate:
+  \begin{parts}
+    \item $P\left(|X| < \dfrac{3}{2}\right)$
+    \item $P[(2x + 1) < 4]$
+  \end{parts}
 \end{parts}
 
+\medskip\rule{\linewidth}{0.2pt}\medskip
 
-\vfill\rule{\linewidth}{0.4pt}
+\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Let joint pmf of two random variables $(X, Y)$ be given by:
+  \[ P(x, y) = \begin{cases} 1/6 & \text{if } (x,y) = (-1,-1), (-1,1), (1,-1), (1,1) \\ 1/12 & \text{if } (x,y) = (0,-1), (-1,0), (0,1), (1,0) \\ 0 & \text{otherwise} \end{cases} \]
+  Find the correlation coefficient between $X$ and $Y$.
+
+  \item Define expectation of a random variable. Show that $E(X + Y) = E(X) + E(Y)$. Suppose that $X$ is a continuous random variable with the following pdf:
+  \[ f(x) = \begin{cases} \frac{e^x}{2} & \text{if } x \le 0 \\ \frac{e^{-x}}{2} & \text{if } x > 0 \\ 0 & \text{otherwise} \end{cases} \]
+  Find expectation of $Y = |X|$.
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Define moment generating function. Obtain moment generation function and hence mean of a random variable $X$ having pdf:
+  \[ f(x) = \begin{cases} \theta e^{-\theta x} & \text{if } x \ge 0 \\ 0 & \text{otherwise} \end{cases} \]
+
+  \item Define probability generating function. Obtain probability generating function for following distributions:
+  \begin{parts}
+    \item $p(x) = \dbinom{n}{x} p^x (1-p)^{n-x}, \quad x = 0, 1, 2, \dots, n; \quad 0 < p < 1$
+    \item $p(x) = \dfrac{e^{-\lambda} \lambda^x}{x!}, \quad x = 0, 1, 2, \dots, \infty; \quad \lambda > 0$
+  \end{parts}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 6.}
+\begin{parts}
+  \item Write the statement of Chebyshev's inequality and provide its proof. Let $X$ be a random variable with $E(X) = 2$ and $\operatorname{Var}(X) = 4$. Find lower bound of $P(-4 \le X \le 8)$.
+
+  \item Define normal distribution and show that its median and modes are same. In a group of individuals characteristics $X \sim N(5, 4)$. If we select 2 individuals at random then what is probability that the value $X$ is greater than 5 for exactly one of them.
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 7.}
+\begin{parts}
+  \item Let $X \sim b(n, p)$. Show that:
+  \[ \mu_{r+1} = pq \left( n r \mu_{r-1} + \frac{d}{dp}\mu_r \right) \]
+  If $P(X = 0) = P(X = 1)$ and variance of $X$ is $1/4$, then find the value of $n$ and $q = 1 - p$.
+
+  \item Show that Poisson distribution is limiting case of binomial distribution. If $X$ and $Y$ are independent Poisson variate with $P(X=1) = P(X=2)$ and $P(Y=2) = P(Y=3)$, then find variance of $X - Y$.
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
 \end{document}

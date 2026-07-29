@@ -1,0 +1,175 @@
+% BHU PYQ -- Transcribed & Corrected
+% Paper: CSMJ41: Mathematics for Computer Science
+% Exam: B.Sc. (Hons.) Semester IV Examination, 2025-26 (NEP)
+% Category: Major Course
+% Department: Computer Science
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=black,
+    linkcolor=black,
+    pdftitle={CSMJ41: Mathematics for Computer Science -- BHU Sem IV 2025-26 (NEP)}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{CSMJ41: Math for Computer Science (Sem IV 2025-26)}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=2pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) --- Semester IV Examination, 2025-26 (NEP)}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries COMPUTER SCIENCE}\\[4pt]
+  {\large\bfseries Paper Code: CSMJ41 : Mathematics for Computer Science}\\[4pt]
+  {\normalsize Time: 2:30 Hours\hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: Answer \textbf{FIVE} questions including compulsory Question No.~1. The figures in the right margin indicate marks.}
+
+\bigskip
+
+\noindent\textbf{Question 1.} (Compulsory)
+\begin{parts}
+  \item Define a set and give another representation of the following sets:\pts{4}
+  \begin{parts}
+    \item $\{x \mid x \text{ is an integer and } 5 \le x \le 12\}$
+    \item $\{2, 4, 8, \dots\}$
+    \item All the countries of the world.
+    \item $\{x \mid x \text{ is an integer and } x^2 = 2\}$
+  \end{parts}
+  \item Discuss the limitation of propositional calculus, and how it is overcome in predicate calculus.\pts{4}
+  \item Discuss graph coloring and give the chromatic number of a bipartite graph.\pts{4}
+  \item Give Kolmogorov axiomatic definition of probability.\pts{2}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 2.}
+\begin{parts}
+  \item Define number theoretic, partial, and total function.\pts{3}
+  \item Define difference and symmetric difference of sets. Explain in general how these two set operations are achieved when sets are represented using bit strings.\pts{4}
+  \item Suppose the domain of the propositional function $P(x)$ consists of the finite set $\{x_1, x_2, x_3, \dots, x_n\}$. Express the following statements without using quantifiers:\pts{2}
+  \[
+    \exists x P(x), \quad \forall x P(x), \quad \neg \exists x P(x), \quad \forall x \neg P(x)
+  \]
+  \item For which values of $n$ are the following graphs planar:\pts{2}
+  \begin{parts}
+    \item $K_n$
+    \item $W_n$
+    \item $K_{m,n}$
+    \item $Q_n$
+  \end{parts}
+  \item Probability of the events $A, B$, and $A \cap B$ are $0.6, 0.3$, and $0.2$ respectively. Find the probability of event $\bar{A} \cap \bar{B}$.\pts{3}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Define partial order relation, POSET, and lattice.\pts{4}
+  \item Let $X = \{1, 2, 3, 4, 6, 8, 12, 24\}$ and the relation $\le$ be such that $x \le y$ if $x$ divides $y$. Answer the following questions for the POSET $(X, \le)$:\pts{10}
+  \begin{parts}
+    \item List all ordered pairs of relation $\le$.
+    \item Give relation matrix of the relation $\le$.
+    \item Find the matrix of inverse relation of $\le$ from matrix of relation $\le$.
+    \item Draw the Hasse diagram of $(X, \le)$.
+    \item Find the maximal and minimal element, if it exists.
+    \item Find the greatest and least element, if exist.
+    \item Find all upper bounds of $\{2, 6\}$.
+    \item Find the least upper bound of $\{2, 6\}$, if it exists.
+    \item Find all lower bounds of $\{4, 6\}$.
+    \item Find the greatest lower bound of $\{4, 6\}$, if it exists.
+  \end{parts}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Write the negation of the following statement:\pts{2}
+  \[
+    \forall x \forall y ((x > 0) \land (y < 0) \to (xy < 0))
+  \]
+  where the domain for both variables consists of all real numbers.
+  \item Show that the conclusion ``If I do not finish writing the program, then I will wake up feeling refreshed'' logically follows from the premises: ``If you send E-mail message, then I will finish writing the program,'' ``If you do not send me an E-mail message, then I will go to sleep early,'' and ``If I go to sleep early, then I will wake up feeling refreshed.''\pts{5}
+  \item Write the negation of the premises and conclusion given in 4(a).\pts{4}
+  \item Show that $(P \to Q) \iff \neg P \lor Q$.\pts{3}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Define partition of a set. Express probability of any event in terms of the probability of the partition of the sample space and conditional probability of event with respect to the partition (Give detailed proof).\pts{7}
+  \item Suppose a random variable $X$ has a probability density function (pdf) given by:\pts{7}
+  \[
+    f_X(x) = \begin{cases} k(x-3)(1-x), & 1 \le x \le 3 \\ 0, & \text{elsewhere} \end{cases}
+  \]
+  \begin{parts}
+    \item Find the value of $k$ that makes this function a pdf.
+    \item Find mean and variance of $X$.
+    \item Find the probability of events $(-1 \le X \le 1)$, $(1 \le X \le 3)$, and $(0 \le X < \infty)$.
+  \end{parts}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 6.}
+\begin{parts}
+  \item Define an Euler circuit in a graph. Give necessary and sufficient condition that a connected graph has an Euler circuit.\pts{3}
+  \item Can five houses be connected to two utilities without connections crossing? Justify your answer with proper reasoning.\pts{3}
+  \item Using principle of proof by contradiction, show that conclusion $Q$ logically follows from the premises $P, P \to Q$.\pts{4}
+  \item Indicate the variables that are free and bound in the following statements. Also show the scope of the quantifiers:\pts{4}
+  \begin{parts}
+    \item $(\forall x)P(x, y)$
+    \item $(\forall x)(P(x) \to Q(x))$
+    \item $(\forall x)(P(x) \to (\exists y)R(x, y))$
+    \item $(\forall x)(P(x) \to R(x)) \lor (\forall x)(P(x) \to Q(x))$
+  \end{parts}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 7.}
+\begin{parts}
+  \item Prove that in a graph the number of nodes with odd degree must be even.\pts{5}
+  \item A connected planar graph has 30 edges. If planar representation of this graph divides the plane into 20 regions, how many vertices does this graph have?\pts{3}
+  \item For which values of $n$ are these graphs bipartite? And also find their chromatic number:\pts{4}
+  \begin{parts}
+    \item $K_n$
+    \item $C_n$
+    \item $K_{m,n}$
+    \item $Q_n$
+  \end{parts}
+  \item What will be the maximum chromatic number of Hasse diagram of a POSET? Justify your answer with proper reasoning.\pts{2}
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

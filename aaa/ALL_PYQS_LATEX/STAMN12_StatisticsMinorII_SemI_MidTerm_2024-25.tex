@@ -1,6 +1,6 @@
 % BHU PYQ -- Transcribed & Corrected
-% Paper: STAMN-12 : Statistics Minor II (Mid-Term)
-% Exam: B.Sc. (Hons.) Semester I Mid-Term Examination, 2024-25 (NEP)
+% Paper: Paper Code: STAMN12 (Practical)
+% Exam: B.Sc. Minor (Semester I) Mid Semester Examination, 2024-25 (NEP Minor)
 % Department: Department of Statistics
 
 \documentclass[11pt,a4paper]{article}
@@ -8,42 +8,86 @@
 \usepackage{amsmath,amssymb}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip}
+\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip,booktabs}
 
-\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,pdftitle={STAMN12: Statistics Minor II Mid-Term}}
-\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small\textit{BHU}}\fancyhead[R]{\small\textit{STAMN-12: Statistics Minor II (Mid-Term)}}\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,pdftitle={STAMN12: Practical Mid Term -- BHU Sem I 2024-25 (NEP Minor)}}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{STAMN12: Practical (Mid Term)}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=\alph*),leftmargin=*,itemsep=4pt,topsep=2pt}
 
 \begin{document}
+
 \begin{center}
-  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Sc. (Hons.) Semester I Mid-Term Examination, 2024-25 (NEP)}\\[6pt]
-  {\large\bfseries DEPARTMENT OF STATISTICS}\\[4pt]
-  {\large\bfseries Paper Code: STAMN-12 : Statistics Minor II (Mid-Term)}\\[4pt]
-  {\normalsize Time: 1 Hour\hfill Maximum Marks: 20}
+  {\large\bfseries B.Sc. Minor (Semester I) Mid Semester Examination, 2024-25}\\[4pt]
+  {\large\bfseries STAMN12: Practical}\\[4pt]
+  {\normalsize Time: 2 hours \hfill Max. Marks: 30}
 \end{center}
+
 \rule{\linewidth}{0.4pt}\smallskip
-\noindent\textit{Instructions: Attempt any FIVE questions. All questions carry equal marks (4 marks each).}
+\noindent\textit{Note: Answer any \textbf{TWO} questions. All questions carry equal marks.}
 \bigskip
 
-\noindent\textbf{Question 1.} Show that correlation coefficient is independent of change of origin and scale.\pts{4}
+\noindent\textbf{Ques 1)} The following numbers give the weight of 55 students in the class.
+
+\begin{center}
+\small
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+42 & 74 & 40 & 60 & 82 & 115 & 41 & 61 & 75 & 83 & 63 \\ \hline
+53 & 110 & 76 & 84 & 52 & 67 & 65 & 78 & 77 & 56 & 95 \\ \hline
+68 & 69 & 104 & 80 & 79 & 79 & 54 & 73 & 59 & 81 & 100 \\ \hline
+66 & 49 & 77 & 90 & 84 & 76 & 48 & 64 & 69 & 70 & 80 \\ \hline
+72 & 50 & 79 & 58 & 103 & 96 & 51 & 86 & 78 & 94 & 71 \\ \hline
+\end{tabular}
+\end{center}
+
+\begin{parts}
+  \item Summarize the data in a grouped frequency distribution using the formula given by H. A. Sturges.
+  \item Draw the histogram and frequency polygon of the given data. Also, obtain the arithmetic mean from the obtained frequency distribution.
+\end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}\medskip
 
-\noindent\textbf{Question 2.} If $\theta$ is acute angle between two regression lines, prove $\tan\theta = \frac{1 - r^2}{|r|} \frac{\sigma_x \sigma_y}{\sigma_x^2 + \sigma_y^2}$.\pts{4}
+\noindent\textbf{Ques 2)} Suppose the observations on $X$ and $Y$ are given as:
+
+\begin{center}
+\small
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{X} & 59 & 65 & 45 & 52 & 60 & 62 & 70 & 55 & 45 & 49 \\ \hline
+\textbf{Y} & 75 & 70 & 55 & 65 & 60 & 69 & 80 & 65 & 59 & 61 \\ \hline
+\end{tabular}
+\end{center}
+
+where $N=10$ students, and $Y = \text{Marks in Maths}$, $X = \text{Marks in Economics}$. Compute the least square regression equations of $Y$ on $X$. If the student gets 61 marks in Economics, what would you estimate his marks in Maths to be? Also, give the interpretation of the coefficient of $X$.
 
 \medskip\rule{\linewidth}{0.2pt}\medskip
 
-\noindent\textbf{Question 3.} Fit straight line $Y = a + bX$ to data: $(1, 2), (2, 5), (3, 7), (4, 9), (5, 11)$.\pts{4}
+\noindent\textbf{Ques 3)} Find the first four raw moments, central moments, coefficient of skewness and coefficient of Kurtosis for the data given in the table below and comment on the nature of the distribution. Also, find the corrected values of moments after Sheppard's corrections are applied.
 
-\medskip\rule{\linewidth}{0.2pt}\medskip
+\begin{center}
+\small
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Scores} & \textbf{Frequency} \\ \hline
+130-140 & 4 \\ \hline
+140-150 & 4 \\ \hline
+150-160 & 2 \\ \hline
+160-170 & 5 \\ \hline
+170-180 & 10 \\ \hline
+180-190 & 11 \\ \hline
+\end{tabular}
+\end{center}
 
-\noindent\textbf{Question 4.} Explain difference between correlation and regression.\pts{4}
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}
+\end{center}
 
-\medskip\rule{\linewidth}{0.2pt}\medskip
-
-\noindent\textbf{Question 5.} Show that arithmetic mean of regression coefficients is greater than or equal to correlation coefficient $\frac{b_{yx} + b_{xy}}{2} \ge r$.\pts{4}
-
-\vfill\rule{\linewidth}{0.4pt}
-\begin{center}\small\href{https://bhu-exam.vercel.app/}{Click here to visit website}\end{center}
 \end{document}

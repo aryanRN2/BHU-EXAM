@@ -1,0 +1,140 @@
+% BHU PYQ -- Transcribed & Corrected
+% Paper: CSCMJ42: Data Base Management Systems
+% Exam: B.Sc. (Hons.) Semester IV Examination, 2025-26 (NEP)
+% Category: Major Course
+% Department: Computer Science
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=black,
+    linkcolor=black,
+    pdftitle={CSCMJ42: Data Base Management Systems -- BHU Sem IV 2025-26 (NEP)}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{CSCMJ42: Database Management Systems (Sem IV 2025-26)}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=2pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) --- Semester IV Examination, 2025-26 (NEP)}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries COMPUTER SCIENCE}\\[4pt]
+  {\large\bfseries Paper Code: CSCMJ42 : Data Base Management Systems}\\[4pt]
+  {\normalsize Time: 2:30 Hours\hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+\noindent\textit{Instructions: Answer any \textbf{five} questions.}
+
+\bigskip
+
+\noindent\textbf{Question 1.}
+\begin{parts}
+  \item Write short notes on any three of the following:\pts{6}
+  \begin{parts}
+    \item Data Warehouse
+    \item Functionalities and characteristics of DBMS
+    \item Database users
+    \item Recursive relationship type in ER model
+  \end{parts}
+  \item What do you understand by data models? Write different categories of data models.\pts{4}
+  \item Explain the following:\pts{4}
+  \begin{parts}
+    \item Key constraint
+    \item Entity integrity constraints
+    \item Referential integrity constraint
+    \item Disjointness and completeness constraint on specialization/generalization
+  \end{parts}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 2.}
+\begin{parts}
+  \item Give examples of the following types of specialization/generalization:\pts{8}
+  \begin{parts}
+    \item Disjoint, Total
+    \item Disjoint, Partial
+    \item Overlapping, Total
+    \item Overlapping, Partial
+  \end{parts}
+  \item Explain Theta JOIN, EQUIJOIN and NATURAL JOIN with suitable examples.\pts{6}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 3.}
+\begin{parts}
+  \item Explain unary relational algebra operations with suitable examples of each.\pts{9}
+  \item Write relational algebra operations for the following queries:\pts{5}
+  \begin{parts}
+    \item Compute the count (number) of employees and their average salary.
+    \item Compute the count of employees and average salary per department.
+  \end{parts}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 4.}
+\begin{parts}
+  \item Explain the concept of views and indexes in SQL. How are they created and used?\pts{8}
+  \item Explain different anomalies (update, insert and delete) with their examples.\pts{6}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 5.}
+\begin{parts}
+  \item Define Query Optimization and explain its objectives.\pts{4}
+  \item Explain the working of Cost-Based Query Optimization and Heuristic Query Optimization. Describe the factors used in cost estimation.\pts{10}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 6.}
+\begin{parts}
+  \item Explain minimal sets of Functional Dependencies. What do you understand by Full functional dependency? Give an example of Full functional dependency.\pts{6}
+  \item Consider the relation $R(A, B, C, D, E, F)$ with functional dependencies $F = \{A \to BC, C \to D, BD \to E, E \to F\}$. Answer the following:\pts{8}
+  \begin{parts}
+    \item Find all candidate keys
+    \item Normalize the relation up to BCNF.
+  \end{parts}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 7.}
+\begin{parts}
+  \item Explain Lost update and Temporary update problems with their examples in the context of concurrent execution of transactions. Draw state transition diagram to illustrate the states for transaction execution.\pts{7}
+  \item What do you understand by conflict serializable schedule? Write an algorithm to test for conflict serializability.\pts{7}
+\end{parts}
+
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
+\end{document}

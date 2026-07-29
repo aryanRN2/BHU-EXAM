@@ -1,49 +1,143 @@
 % BHU PYQ -- Transcribed & Corrected
-% Paper: STAMN-12 : Statistics Minor II
-% Exam: B.Sc. (Hons.) Semester I Examination, 2024-25 (NEP)
+% Paper: Paper Code: STAMN-12 : Practical Based on STAMN11
+% Exam: B.Sc. (Hons.) Semester- I Examination 2024-25 (NEP Minor)
+% Ref. No.: CECONF/NPI/003
 % Department: Department of Statistics
 
 \documentclass[11pt,a4paper]{article}
-\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm,headheight=14pt]{geometry}
 \usepackage{amsmath,amssymb}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip}
+\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip,booktabs}
 
-\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,pdftitle={STAMN12: Statistics Minor II}}
-\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small\textit{BHU}}\fancyhead[R]{\small\textit{STAMN-12: Statistics Minor II}}\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,pdftitle={STAMN12: Practical Based on STAMN11 -- BHU Sem I 2024-25 (NEP Minor)}}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{STAMN-12: Practical Based on STAMN11}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=2pt}
 
 \begin{document}
+
+\begin{flushright}
+  \small\textbf{Ref. No.: CECONF/NPI/003}
+\end{flushright}
+
 \begin{center}
-  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Sc. (Hons.) Semester I Examination, 2024-25 (NEP)}\\[6pt]
-  {\large\bfseries DEPARTMENT OF STATISTICS}\\[4pt]
-  {\large\bfseries Paper Code: STAMN-12 : Statistics Minor II}\\[4pt]
-  {\normalsize Time: 3 Hours\hfill Maximum Marks: 60}
+  {\large\bfseries B.Sc. (Hons.) Semester- I Examination 2024-25}\\[4pt]
+  {\large\bfseries Statistics}\\[4pt]
+  {\large\bfseries STAMN-12: Practical Based on STAMN11}\\[4pt]
+  {\normalsize Time: Three Hours \hfill Max. Marks: 70}
 \end{center}
+
 \rule{\linewidth}{0.4pt}\smallskip
-\noindent\textit{Instructions: Attempt FIVE questions in total. All questions carry equal marks (12 marks each).}
+\noindent\textit{NOTE: Attempt any \textbf{THREE} questions. All questions carry equal marks.}
 \bigskip
 
-\noindent\textbf{Question 1.} Define Karl Pearson's correlation coefficient $r$. Prove $-1 \le r \le 1$.\pts{12}
+\noindent\textbf{1)} Given below are the marks obtained in Mathematics by a batch of 84 students of a school:
+
+\begin{center}
+\small
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+43 & 34 & 43 & 32 & 87 & 35 & 71 & 65 & 12 & 52 & 19 & 48 & 17 & 24 \\ \hline
+52 & 65 & 40 & 54 & 62 & 45 & 02 & 13 & 18 & 49 & 57 & 21 & 64 & 71 \\ \hline
+45 & 81 & 52 & 40 & 35 & 78 & 43 & 45 & 44 & 55 & 79 & 37 & 19 & 14 \\ \hline
+37 & 71 & 51 & 35 & 27 & 74 & 22 & 08 & 22 & 15 & 20 & 23 & 35 & 27 \\ \hline
+17 & 21 & 52 & 48 & 09 & 22 & 12 & 12 & 85 & 40 & 39 & 30 & 42 & 08 \\ \hline
+66 & 74 & 19 & 04 & 30 & 06 & 19 & 31 & 25 & 38 & 32 & 51 & 68 & 43 \\ \hline
+\end{tabular}
+\end{center}
+
+\begin{parts}
+  \item Summarize the data in a grouped frequency distribution using the formula given by H. A. Sturges.
+  \item Find the proportion of students scoring (i) less than 30 marks and (ii) more than 75 marks.
+  \item Construct a frequency histogram for the data and comment on the shape of the distribution.
+  \item Draw the ogives and hence find the mark below which 50\% of the students scored.
+\end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}\medskip
 
-\noindent\textbf{Question 2.} Derive equation of two lines of regression $Y$ on $X$ and $X$ on $Y$.\pts{12}
+\noindent\textbf{2)} The following data represent the birth weights at an inner-city hospital in a large eastern city:
+\[
+\begin{array}{cccccccccccc}
+2.4, & 3.3, & 4.1, & 5.0, & 5.1, & 5.2, & 5.6, & 5.8, & 5.9, & 5.9, & 6.0, & 6.1, \\
+6.2, & 6.3, & 6.3, & 6.4, & 6.4, & 6.5, & 6.7, & 6.8, & 7.2, & 7.4, & 7.5, & 7.5, \\
+7.6, & 7.6, & 7.7, & 7.8, & 7.8, & 7.9, & 7.9, & 8.3, & 8.5, & 8.8, & 9.2, & 9.7, \\
+9.8, & 9.9, & 10.0, & 10.3, & 10.5
+\end{array}
+\]
+
+\begin{parts}
+  \item Find out first four raw and central moments for grouped data and verify the relationships among them.
+  \item Calculate the coefficients of skewness and kurtosis and comment on the shape of the distribution.
+  \item Draw a boxplot for the data.
+\end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}\medskip
 
-\noindent\textbf{Question 3.} Prove that correlation coefficient is geometric mean of two regression coefficients $r = \pm \sqrt{b_{yx} b_{xy}}$.\pts{12}
+\noindent\textbf{3)} 
+\begin{parts}
+  \item Following are the marks given by two judges to the participants in a singing competition:
+  \begin{center}
+  \small
+  \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+  \hline
+  \textbf{Judge A:} & 68 & 64 & 15 & 50 & 64 & 80 & 75 & 40 & 55 & 64 \\ \hline
+  \textbf{Judge B:} & 62 & 58 & 68 & 45 & 81 & 60 & 68 & 48 & 50 & 70 \\ \hline
+  \end{tabular}
+  \end{center}
+  Obtain the rank correlation coefficient between the marks given by both the judges.
+
+  \item Following table represents the number of deaths from tuberculosis in England and Wales in 1956:
+  \begin{center}
+  \small
+  \begin{tabular}{|l|c|c|c|}
+  \hline
+  & \textbf{Males} & \textbf{Females} & \textbf{Total} \\ \hline
+  Tuberculosis of respiratory system & 3,534 & 1,319 & 4,853 \\ \hline
+  Other forms of tuberculosis & 270 & 252 & 522 \\ \hline
+  \textbf{Total} & 3,804 & 1,571 & 5,375 \\ \hline
+  \end{tabular}
+  \end{center}
+  Compute a measure of association for the above data.
+\end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}\medskip
 
-\noindent\textbf{Question 4.} Derive Spearman's Rank Correlation formula $\rho = 1 - \frac{6\sum d_i^2}{n(n^2 - 1)}$ when ranks are not tied.\pts{12}
+\noindent\textbf{4)} The following bivariate frequency table represents data on the length (in cm.) of green jute plant and the weight (in gm.) of dry jute fibre of an agricultural farm in Bengal.
 
-\medskip\rule{\linewidth}{0.2pt}\medskip
+\begin{center}
+\small
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+\hline
+& \multicolumn{7}{|c|}{\textbf{Length of green plant (cm.)}} & \textbf{Total} \\ \hline
+\textbf{Weight of dry jute fibre (gm.)} & 111.5 & 127.5 & 143.5 & 159.5 & 175.5 & 191.5 & 207.5 & \\ \hline
+1.175 & 12 & 25 & 15 & 1 & & & & 53 \\ \hline
+2.775 & 1 & 4 & 33 & 59 & 29 & 3 & & 129 \\ \hline
+4.375 & 1 & & 4 & 28 & 35 & 14 & 2 & 84 \\ \hline
+5.975 & & & & 2 & 20 & 18 & 1 & 41 \\ \hline
+7.575 & & & & 1 & 1 & 14 & 5 & 21 \\ \hline
+9.175 & & & & & 4 & 8 & 2 & 14 \\ \hline
+10.775 & & & & & & 3 & 2 & 5 \\ \hline
+12.375 & & & & & & & 3 & 3 \\ \hline
+\textbf{Total} & 14 & 29 & 52 & 91 & 89 & 60 & 15 & 350 \\ \hline
+\end{tabular}
+\end{center}
 
-\noindent\textbf{Question 5.} Explain Principle of Least Squares for fitting straight line $Y = a + bX$.\pts{12}
+\begin{parts}
+  \item Compute the coefficient of correlation between the two variables. Also show the type of association with the help of scatter diagram.
+  \item Fit the two lines of regression and calculate the angle between them.
+\end{parts}
 
-\vfill\rule{\linewidth}{0.4pt}
-\begin{center}\small\href{https://bhu-exam.vercel.app/}{Click here to visit website}\end{center}
+\vfill
+\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}
+\end{center}
+
 \end{document}
