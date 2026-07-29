@@ -44,7 +44,21 @@ export const NEP_LATEX_PYQ_DATA = [
     "type": "NEP",
     "examType": "End Term"
   },
-
+  {
+    "code": "ARBMD21",
+    "courseType": "Multidisciplinary",
+    "name": "Under Graduate Semester II Examination 2024-25 (NEP) - Arabic for Beginners-II",
+    "filePath": "aaa/ALL_PYQS_LATEX/ARBMD21_BasicArabic_SemII_2024-25.tex",
+    "fileName": "ARBMD21_BasicArabic_SemII_2024-25.tex",
+    "nepCode": "ARBMD21",
+    "oldCode": "ARBMD21",
+    "subject": "Arabic",
+    "department": "Arabic",
+    "semester": "Semester II",
+    "year": "2024-25",
+    "type": "NEP",
+    "examType": "End Term"
+  },
   {
     "code": "CSCMV32",
     "name": "B.Sc. (Hons.) Sem III Mid-Term Exam 2025-26 - IT Tools and Applications (Theory)",
