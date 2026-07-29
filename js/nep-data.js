@@ -60,6 +60,21 @@ export const NEP_LATEX_PYQ_DATA = [
     "examType": "End Term"
   },
   {
+    "code": "ARBMD31",
+    "courseType": "Multidisciplinary",
+    "name": "Under Graduate Semester III Examination 2025-26 (NEP) - Basic Arabic Language-III",
+    "filePath": "aaa/ALL_PYQS_LATEX/ARBMD31_BasicArabic_SemIII_2025-26.tex",
+    "fileName": "ARBMD31_BasicArabic_SemIII_2025-26.tex",
+    "nepCode": "ARBMD31",
+    "oldCode": "ARBMD31",
+    "subject": "Arabic",
+    "department": "Arabic",
+    "semester": "Semester III",
+    "year": "2025-26",
+    "type": "NEP",
+    "examType": "End Term"
+  },
+  {
     "code": "CSCMV32",
     "name": "B.Sc. (Hons.) Sem III Mid-Term Exam 2025-26 - IT Tools and Applications (Theory)",
     "filePath": "aaa/ALL_PYQS_LATEX/CSCMV32_ITToolsAndApplications_SemIII_MidTerm_Theory_2025-26.tex",
