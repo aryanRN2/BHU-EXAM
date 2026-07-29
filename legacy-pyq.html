@@ -46,18 +46,169 @@
 </head>
 <body class="bg-background-warm text-on-background antialiased selection:bg-accent-bhu-saffron/10 min-h-screen flex flex-col justify-between">
 
-<!-- TopNavBar -->
-<nav class="fixed top-0 left-0 right-0 z-50 bg-background-warm/80 backdrop-blur-xl border-b border-border-subtle shadow-sm h-16 md:h-20 w-full flex items-center">
-    <div class="max-w-7xl mx-auto px-4 md:px-8 flex justify-between items-center w-full">
-        <div class="flex items-center gap-3 md:gap-4">
-            <button onclick="window.location.href='index.html'" class="w-8 h-8 md:w-10 md:h-10 rounded-full border border-border-subtle hover:bg-neutral-100 transition-all flex items-center justify-center text-secondary hover:text-primary shrink-0 mr-1 md:mr-2" title="Back to Home">
-                <span class="material-symbols-outlined text-base md:text-lg">arrow_back</span>
+                                            <!-- ═══════════════════════════ UNIFIED SEAMLESS NAVBAR ═══════════════════════════ -->
+    <nav id="mainNavbar" data-page="legacy-pyq" class="fixed top-0 left-0 right-0 z-50 bg-gradient-to-b from-black/75 via-black/35 to-transparent border-none backdrop-blur-xs h-20 w-full flex items-center transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 md:px-8 flex justify-between items-center w-full">
+            <div class="flex items-center gap-6 md:gap-8">
+                <!-- SCIQB Brand Logo -->
+                <a href="index.html" class="flex items-center gap-2 group">
+                    <span class="text-xl md:text-2xl font-black tracking-tighter text-white uppercase transition-transform group-hover:scale-[1.01] drop-shadow-sm">SCIQB</span>
+                </a>
+                
+                <!-- Center Navigation Links (Desktop) -->
+                <div class="hidden md:flex gap-5 lg:gap-6 items-center">
+                    <a class="text-white/85 font-semibold hover:text-white transition-colors text-xs lg:text-sm drop-shadow-sm" href="index.html">
+                        Home
+                    </a>
+                    <a class="text-white/85 font-semibold hover:text-white transition-colors text-xs lg:text-sm drop-shadow-sm" href="nep-pyq.html">
+                        NEP PYQs
+                    </a>
+                    <a class="text-white font-bold transition-colors text-xs lg:text-sm drop-shadow-sm" href="legacy-pyq.html">
+                        Old PYQs
+                    </a>
+                    <a class="text-white/85 font-semibold hover:text-white transition-colors text-xs lg:text-sm drop-shadow-sm" href="subjects.html">
+                        Mock Exams
+                    </a>
+                    <a class="text-white/85 font-semibold hover:text-white transition-colors text-xs lg:text-sm drop-shadow-sm" href="syllabus.html">
+                        Syllabus
+                    </a>
+                    <a class="text-white/85 font-semibold hover:text-white transition-colors text-xs lg:text-sm drop-shadow-sm" href="notes.html">
+                        Notes
+                    </a>
+                    <a class="text-white/85 font-semibold hover:text-white transition-colors text-xs lg:text-sm drop-shadow-sm" href="contributors.html">
+                        Contributors
+                    </a>
+                </div>
+            </div>
+
+            <!-- Right Glass Buttons (Desktop) -->
+            <div class="hidden md:flex items-center gap-3">
+                <a href="subjects.html" class="w-9 h-9 lg:w-10 lg:h-10 rounded-full bg-white/10 hover:bg-white/20 text-white border border-white/20 flex items-center justify-center backdrop-blur-md transition-all shadow-sm" title="Search">
+                    <span class="material-symbols-outlined text-base lg:text-lg">search</span>
+                </a>
+                <a href="https://github.com/aryanRN2/IITM-ASSIGNMENT" target="_blank" rel="noopener noreferrer"
+                    class="bg-white/10 hover:bg-white/20 text-white border border-white/25 px-4 lg:px-5 py-2 lg:py-2.5 rounded-full font-bold text-xs backdrop-blur-md hover:scale-105 active:scale-[0.98] transition-all shadow-sm flex items-center gap-1.5 lg:gap-2">
+                    <span class="material-symbols-outlined text-xs lg:text-sm font-semibold">assignment</span>
+                    <span>IITM Assignment</span>
+                </a>
+            </div>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button onclick="toggleMobileMenu()" class="flex md:hidden items-center justify-center w-10 h-10 rounded-full bg-white/10 text-white border border-white/20 backdrop-blur-md active:scale-90 transition-all">
+                <span id="mobileMenuIcon" class="material-symbols-outlined text-xl">menu</span>
             </button>
-            
-            <span class="text-xl md:text-2xl font-black tracking-tight text-primary uppercase">SCIQB</span>
+        </div>
+    </nav>
+
+    <!-- Mobile Navigation Overlay (Full Screen Glassmorphism Sheet) -->
+    <div id="mobileMenu" class="fixed inset-0 h-full w-full z-[999] hidden flex-col bg-black/95 backdrop-blur-2xl px-6 py-6 md:hidden transition-all duration-300 opacity-0 text-white overflow-y-auto overscroll-contain">
+        <!-- Mobile Drawer Header -->
+        <div class="flex justify-between items-center w-full pb-5 border-b border-white/10 shrink-0">
+            <a href="index.html" class="flex items-center gap-2">
+                <span class="text-2xl font-black tracking-tighter text-white uppercase">SCIQB</span>
+            </a>
+            <button onclick="toggleMobileMenu()" class="w-10 h-10 rounded-full bg-white/10 text-white border border-white/20 flex items-center justify-center active:scale-90 transition-all">
+                <span class="material-symbols-outlined text-xl">close</span>
+            </button>
+        </div>
+
+        <!-- Mobile Nav Links -->
+        <div class="flex flex-col gap-1 pt-4 flex-1">
+            <a class="text-white/85 font-semibold hover:text-white text-base py-3 border-b border-white/10 flex items-center justify-between" href="index.html">
+                <span>Home</span>
+                <span class="material-symbols-outlined text-sm opacity-50">chevron_right</span>
+            </a>
+            <a class="text-white/85 font-semibold hover:text-white text-base py-3 border-b border-white/10 flex items-center justify-between" href="nep-pyq.html">
+                <span>NEP PYQs</span>
+                <span class="material-symbols-outlined text-sm opacity-50">chevron_right</span>
+            </a>
+            <a class="text-white font-bold text-base py-3 border-b border-white/10 flex items-center justify-between" href="legacy-pyq.html">
+                <span>Old PYQs</span>
+                <span class="material-symbols-outlined text-sm opacity-50">chevron_right</span>
+            </a>
+            <a class="text-white/85 font-semibold hover:text-white text-base py-3 border-b border-white/10 flex items-center justify-between" href="subjects.html">
+                <span>Mock Exams</span>
+                <span class="material-symbols-outlined text-sm opacity-50">chevron_right</span>
+            </a>
+            <a class="text-white/85 font-semibold hover:text-white text-base py-3 border-b border-white/10 flex items-center justify-between" href="syllabus.html">
+                <span>Syllabus</span>
+                <span class="material-symbols-outlined text-sm opacity-50">chevron_right</span>
+            </a>
+            <a class="text-white/85 font-semibold hover:text-white text-base py-3 border-b border-white/10 flex items-center justify-between" href="notes.html">
+                <span>Notes</span>
+                <span class="material-symbols-outlined text-sm opacity-50">chevron_right</span>
+            </a>
+            <a class="text-white/85 font-semibold hover:text-white text-base py-3 border-b border-white/10 flex items-center justify-between" href="contributors.html">
+                <span>Contributors</span>
+                <span class="material-symbols-outlined text-sm opacity-50">chevron_right</span>
+            </a>
+
+            <!-- Action Buttons -->
+            <div class="pt-6 flex flex-col gap-3 mt-auto pb-4 shrink-0">
+                <a href="subjects.html"
+                    class="bg-white/10 hover:bg-white/20 text-white border border-white/20 py-3 px-5 rounded-xl font-bold text-sm flex items-center justify-center gap-2 backdrop-blur-md active:scale-98 transition-all">
+                    <span class="material-symbols-outlined text-lg">search</span>
+                    <span>Search Subject / Mock Exam</span>
+                </a>
+                <a href="https://github.com/aryanRN2/IITM-ASSIGNMENT" target="_blank" rel="noopener noreferrer"
+                    class="bg-[#0088ff] text-white py-3.5 px-5 rounded-xl font-bold text-sm flex items-center justify-center gap-2 shadow-lg active:scale-98 transition-all">
+                    <span class="material-symbols-outlined text-lg">assignment</span>
+                    <span>IITM Assignment</span>
+                </a>
+            </div>
         </div>
     </div>
-</nav>
+
+    <!-- Toggle Mobile Menu & Scroll Effect Script -->
+    <script>
+        (function() {
+            const nav = document.getElementById('mainNavbar');
+            const fadeClasses = ['bg-gradient-to-b', 'from-black/75', 'via-black/35', 'to-transparent', 'backdrop-blur-xs'];
+            
+            if (nav && nav.dataset.page === 'index') {
+                const handleScroll = () => {
+                    if (window.scrollY > 20) {
+                        nav.classList.add(...fadeClasses);
+                        nav.classList.remove('bg-transparent');
+                    } else {
+                        nav.classList.remove(...fadeClasses);
+                        nav.classList.add('bg-transparent');
+                    }
+                };
+                window.addEventListener('scroll', handleScroll);
+                handleScroll();
+            }
+
+            let isMobileMenuOpen = false;
+
+            window.toggleMobileMenu = function () {
+                const menu = document.getElementById('mobileMenu');
+                const icon = document.getElementById('mobileMenuIcon');
+                if (!menu) return;
+                isMobileMenuOpen = !isMobileMenuOpen;
+
+                if (isMobileMenuOpen) {
+                    document.body.style.overflow = 'hidden';
+                    menu.classList.remove('hidden');
+                    menu.classList.add('flex');
+                    setTimeout(() => {
+                        menu.classList.remove('opacity-0');
+                        menu.classList.add('opacity-100');
+                    }, 10);
+                    if (icon) icon.textContent = 'close';
+                } else {
+                    document.body.style.overflow = '';
+                    menu.classList.remove('opacity-100');
+                    menu.classList.add('opacity-0');
+                    if (icon) icon.textContent = 'menu';
+                    setTimeout(() => {
+                        menu.classList.remove('flex');
+                        menu.classList.add('hidden');
+                    }, 300);
+                }
+            };
+        })();
+    </script>
 
 <main class="relative pt-24 md:pt-40 pb-20 overflow-hidden flex-1 flex flex-col items-center justify-center">
     <!-- Background atmosphere -->

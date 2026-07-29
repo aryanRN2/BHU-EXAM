@@ -1,0 +1,90 @@
+% BHU PYQ -- Transcribed & Corrected
+% Paper: STAMV31: Applied Statistics
+% Exam: B.Sc. (Hons.) Semester III Examination 2025-26 (NEP)
+% Department: Department of Statistics
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip,booktabs}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,pdftitle={STAMV31: Applied Statistics -- BHU Sem III 2025-26 (NEP)}}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{STAMV31: Applied Statistics}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) Semester III Examination 2025-26 (NEP)}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries DEPARTMENT OF STATISTICS}\\[4pt]
+  {\large\bfseries Paper Code: STAMV31 --- Applied Statistics}\\[4pt]
+  {\normalsize Time: 2:30 Hours\hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\smallskip
+\noindent\textit{Instructions: Answer any \textbf{FIVE} questions. All questions carry equal marks (14 marks each).}
+\bigskip
+
+\noindent\textbf{Question 1}
+\begin{parts}
+  \item Differentiate between Census and Sample, and Parameter and Statistic.\pts{7}
+  \item Explain the following terms with suitable examples:
+  \begin{enumerate}[label=(\roman*)]
+    \item Null hypothesis vs. Alternate hypothesis
+    \item Type I error vs. Type II error
+  \end{enumerate}\pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 2}
+\begin{parts}
+  \item Write axioms of probability. Using the axioms show that for any two events $A$ and $B$:
+  \begin{enumerate}[label=(\roman*)]
+    \item $P(A^c) = 1 - P(A)$
+    \item $P(\emptyset) = 0$
+    \item $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
+    \item $P[(A \cap B^c) \cup (A^c \cap B)] = P(A) + P(B) - 2 P(A \cap B)$
+  \end{enumerate}\pts{7}
+  \item Define conditional probability and independence of events. A bag contains 3 defective and 4 good items. Two items are chosen at random. Let $A = \{\text{First item defective}\}$ and $B = \{\text{Second item defective}\}$. Show that $P(A) = P(B)$ with and without replacement.\pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 3}
+\begin{parts}
+  \item Define Bernoulli distribution. Let $X \sim \text{Bern}(p)$. Show that the first four raw moments of the distribution are equal to $p$. If $X_1, X_2, \dots, X_n \stackrel{\text{iid}}{\sim} \text{Bern}(p)$ and $Y = \sum_{i=1}^n X_i$, find the distribution of $Y$ and $E(Y^2)$.\pts{7}
+  \item In a study, the number of male children was recorded in 100 families with four children:
+  \begin{center}
+  \begin{tabular}{ccccccc}
+    \toprule
+    \textbf{Number of male children} & 0 & 1 & 2 & 3 & 4 & \textbf{Total} \\
+    \midrule
+    \textbf{Number of families} & 6 & 25 & 38 & 25 & 6 & 100 \\
+    \bottomrule
+  \end{tabular}
+  \end{center}
+  Examine whether male and female births are equally likely using a Binomial model.\pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 4}
+\begin{parts}
+  \item Explain the Maximum Likelihood Estimation (MLE) method. Let $X_1, X_2, \dots, X_n \sim N(\mu, \sigma_0^2)$ with known $\sigma_0^2$. Show that $\bar{X}$ is the MLE of $\mu$ and find its sampling distribution.\pts{7}
+  \item A population consists of five values $\{1, 2, 3, 4, 5\}$. Draw all possible samples of size 2 with replacement. Compute the sample means, construct the sampling distribution of $\bar{X}$, and compare it with the population distribution graph.\pts{7}
+\end{parts}
+
+\vfill\rule{\linewidth}{0.4pt}
+\begin{center}\small\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\end{center}
+\end{document}

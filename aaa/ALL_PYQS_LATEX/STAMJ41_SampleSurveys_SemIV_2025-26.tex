@@ -1,0 +1,118 @@
+% BHU PYQ -- Transcribed & Corrected
+% Paper: STAMJ41/STAMN41: Statistical Inference-I
+% Exam: B.Sc. (Hons.) Semester IV Examination 2025-26 (NEP)
+% Department: Department of Statistics
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip,booktabs}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,pdftitle={STAMJ41/STAMN41: Statistical Inference-I -- BHU B.Sc. Sem IV 2025-26 (NEP)}}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{STAMJ41/STAMN41: Statistical Inference-I}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) Semester IV Examination 2025-26 (NEP)}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries DEPARTMENT OF STATISTICS}\\[4pt]
+  {\large\bfseries Paper Code: STAMJ41 / STAMN41 --- Statistical Inference-I}\\[4pt]
+  {\normalsize Time: 2:30 Hours\hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\smallskip
+\noindent\textit{Instructions: Attempt \textbf{FIVE} questions. Question number one is \textbf{compulsory}. Each question carries equal marks (14 marks each).}
+\bigskip
+
+\noindent\textbf{Question 1} \textit{(Compulsory)}
+\begin{parts}
+  \item Discuss consistency criterion of a good estimator. If $X_1, X_2, \dots, X_n$ are $n$ random observations taken from geometric distribution with parameter $\theta$, then show that $\bar{X}$ is consistent estimator of $\frac{1}{\theta}$. Also, obtain a consistent estimator of $e^{1/\theta}$.\pts{3.5}
+  \item Explain point and interval estimation with proper examples. Write the confidence interval for the population mean when variance is known.\pts{3.5}
+  \item Discuss sampling distribution of a statistic and standard error with its utility. A machine produces a large number of items of which 15\% are found to be defective. If a random sample of 200 items is taken from the population, then find the standard error of sampling distribution of proportion.\pts{3.5}
+  \item Write difference between parametric and non-parametric tests. The cars that enter in a parking are classified either Foreign-made (\textbf{F}) or Indian-Made (\textbf{I}). To check that the car enter in the parking are in random order, a sample of first 40 cars that entered in the parking is taken and found the following sequence:
+  \begin{center}
+  \texttt{IIFFFIFFFFFIIFIIIFFIFFIFFFIFFIIFFFIFFII}
+  \end{center}
+  Obtain number of runs and expected value of number of runs in the above sequence?\pts{3.5}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 2}
+\begin{parts}
+  \item Define Efficiency. If $X_1, X_2, \dots, X_n$ is a random sample taken from a population having mean $\mu$ and variance $\sigma^2$, then show that the statistic $T' = \frac{1}{n+1}\sum_{i=1}^n X_i$ is biased but more efficient than sample mean for estimating the population mean.\pts{7}
+  \item If $T_1$ and $T_2$ be the two unbiased estimators of $\gamma(\theta)$ with variances $\sigma_1^2$ and $\sigma_2^2$ and correlation coefficient $\rho$, what is the best linear unbiased combination of $T_1$ and $T_2$, and what is the variance of such a combination?\pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 3}
+\begin{parts}
+  \item Explain the following with suitable example:
+  \begin{enumerate}[label=(\roman*)]
+    \item Simple and composite hypothesis
+    \item Types of errors in hypothesis testing
+    \item Critical region and P-value
+    \item Power of a test
+  \end{enumerate}\pts{7}
+  \item State weak law of large numbers. Examine whether the weak law of large numbers holds for the sequence $\{X_k\}$ of independent random variables defined as follows:
+  \[ P[X_k = \pm 2^k] = 2^{-(2k+1)}, \quad P[X_k = 0] = 1 - 2^{-2k} \quad \text{or not.} \]\pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 4}
+\begin{parts}
+  \item Twenty people were attacked by a disease and only 18 survived. Will you reject the hypothesis that the survival rate, if attacked by this disease, is $85\%$ in favour of the hypothesis that it is more, at $5\%$ level of significance? (You may use large sample test) \\
+  {[Given that $\sqrt{0.006375} = 0.0798$, and $Z_{0.05} = 1.645$]}\pts{7}
+  \item Describe Chi-square test of independence of attributes and its assumptions. Also, show that:
+  \[ \chi^2 = \left[ \sum_{i=1}^n \left(\frac{O_i^2}{E_i}\right) \right] - N \]
+  where notations are having their usual meaning.\pts{7}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 5}
+What is difference between dependent and independent sample t-tests? Write assumptions for t-test to make inferences about significance difference between two population means. A drug is given to 8 patients and the increments in their blood pressure are recorded to be $4, 0, 7, -2, 0, -3, 2, 0$. Assume that increment in their blood pressure follows normal distribution. Is it reasonable to believe that the drug has no effect on the change of blood pressure at $5\%$ level of significance? \\
+{[Given that $\sqrt{10.57} = 3.25$, $\sqrt{2} = 1.4142$ and $t_{7, 0.025} = 2.365$]}\pts{14}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 6}
+Discuss sign test. The following data give the milk production (in thousand kg) in full cream by 36 different dairies:
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+  \hline
+  17 & 15 & 20 & 29 & 19 & 19 & 22 & 25 & 27 \\ \hline
+  24 & 20 & 17 & 6 & 24 & 14 & 15 & 23 & 24 \\ \hline
+  19 & 23 & 28 & 19 & 16 & 22 & 24 & 17 & 20 \\ \hline
+  19 & 10 & 23 & 18 & 31 & 13 & 20 & 17 & 24 \\ \hline
+\end{tabular}
+\end{center}
+Use sign test to test that median production of milk in dairies is 21.5 thousand kg at 5\% level of significance.\pts{14}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 7}
+Describe any \textbf{THREE} of the following:
+\begin{parts}
+  \item Kolmogorov-Smirnov test and median test\pts{4.66}
+  \item F-test and its applications\pts{4.66}
+  \item Central Limit Theorem with its applications\pts{4.66}
+  \item Large sample tests for variables\pts{4.66}
+\end{parts}
+
+\vfill\rule{\linewidth}{0.4pt}
+\begin{center}\small\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\end{center}
+\end{document}
