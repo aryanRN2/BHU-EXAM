@@ -119,14 +119,6 @@ const server = http.createServer(async (req, res) => {
 
     // 2.3. API Download PDF (Secure proxy for private Backblaze B2 files)
     if (parsedUrl.pathname === '/api/download-pdf' && req.method === 'GET') {
-        // Hotlink / Referer check
-        const referer = req.headers.referer || '';
-        const host = req.headers.host || '';
-        if (!referer || !referer.includes(host)) {
-            res.writeHead(403, { 'Content-Type': 'application/json' });
-            res.end(JSON.stringify({ error: 'Access Forbidden: Direct downloads are blocked' }));
-            return;
-        }
 
         const fileQuery = parsedUrl.query.file;
         if (!fileQuery) {

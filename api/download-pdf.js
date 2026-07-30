@@ -13,15 +13,6 @@ module.exports = async (req, res) => {
         return;
     }
 
-    // Hotlink / Referer check
-    const referer = req.headers.referer || '';
-    const host = req.headers.host || '';
-    if (!referer || !referer.includes(host)) {
-        res.writeHead(403, { 'Content-Type': 'application/json' });
-        res.end(JSON.stringify({ error: 'Access Forbidden: Direct downloads are blocked' }));
-        return;
-    }
-
     // Rate limiter check
     const ip = req.headers['x-forwarded-for'] || req.socket.remoteAddress || 'unknown';
     const now = Date.now();
