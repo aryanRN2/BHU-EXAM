@@ -75,6 +75,21 @@ export const NEP_LATEX_PYQ_DATA = [
     "examType": "End Term"
   },
   {
+    "code": "PEDMD11",
+    "courseType": "Multidisciplinary",
+    "name": "Under Graduate Multidisciplinary Course Semester I Examination 2024-25 (NEP) - Health, Fitness & Exercise Management (MD)",
+    "filePath": "aaa/ALL_PYQS_LATEX/PEDMD11_HealthFitnessExerciseManagement_SemI_2024-25.tex",
+    "fileName": "PEDMD11_HealthFitnessExerciseManagement_SemI_2024-25.tex",
+    "nepCode": "PEDMD11",
+    "oldCode": "PEDMD11",
+    "subject": "Physical Education",
+    "department": "Physical Education",
+    "semester": "Semester I",
+    "year": "2024-25",
+    "type": "NEP",
+    "examType": "End Term"
+  },
+  {
     "code": "STAMV32",
     "courseType": "Minor",
     "name": "Sessional Test, Sem-III, 2025-26 - Statistics (STAMV-32)",
@@ -456,6 +471,36 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Sociology",
     "semester": "Semester II",
     "year": "2024-25",
+    "type": "NEP",
+    "examType": "End Term"
+  },
+  {
+    "code": "JYFMD21",
+    "courseType": "Multidisciplinary",
+    "name": "Under Graduate Semester II Examination 2024-25 (NEP) - Jyotish (Falit)",
+    "filePath": "aaa/ALL_PYQS_LATEX/JYFMD21_JyotishFalit_SemII_2024-25.tex",
+    "fileName": "JYFMD21_JyotishFalit_SemII_2024-25.tex",
+    "nepCode": "JYFMD21",
+    "oldCode": "JYFMD21",
+    "subject": "Jyotish",
+    "department": "Jyotish",
+    "semester": "Semester II",
+    "year": "2024-25",
+    "type": "NEP",
+    "examType": "End Term"
+  },
+  {
+    "code": "JYFMD31",
+    "courseType": "Multidisciplinary",
+    "name": "Shastri (Hons.) Semester III Examination 2025-26 (NEP) - Jyotish (Falit)",
+    "filePath": "aaa/ALL_PYQS_LATEX/JYFMD31_JyotishFalit_SemIII_2025-26.tex",
+    "fileName": "JYFMD31_JyotishFalit_SemIII_2025-26.tex",
+    "nepCode": "JYFMD31",
+    "oldCode": "JYFMD31",
+    "subject": "Jyotish",
+    "department": "Jyotish",
+    "semester": "Semester III",
+    "year": "2025-26",
     "type": "NEP",
     "examType": "End Term"
   },
