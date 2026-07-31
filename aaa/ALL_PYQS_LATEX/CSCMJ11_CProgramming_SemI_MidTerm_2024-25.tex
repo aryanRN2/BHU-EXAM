@@ -1,64 +1,114 @@
+% BHU PYQ -- Transcribed & Corrected 100% Accurate
+% Paper: CSCMJ11 / CSCMN11: Introduction to Programming using C
+% Exam: B.Sc. (Hons.) First Semester (Major/Minor) Mid-Semester Test 2024-25
+% Department: Department of Computer Science
+
 \documentclass[11pt,a4paper]{article}
-\usepackage[utf8]{utf8}
-\usepackage[margin=1in]{geometry}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm,headheight=14pt]{geometry}
 \usepackage{amsmath,amssymb}
-\usepackage{listings}
-\usepackage{enumitem}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip,listings}
+
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,pdftitle={CSCMJ11 / CSCMN11: Introduction to Programming using C -- BHU Sem I Mid-Term 2024-25}}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\textit{Banaras Hindu University}}
+\fancyhead[R]{\small\textit{CSCMJ11 / CSCMN11: Programming using C (Mid-Term)}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newlist{parts}{enumerate}{2}
+\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
+\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
+\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\lstset{
+  language=C,
+  basicstyle=\small\ttfamily,
+  keywordstyle=\bfseries,
+  showstringspaces=false,
+  frame=single,
+  tabsize=2,
+  breaklines=true
+}
 
 \begin{document}
 
 \begin{center}
-    {\Large \textbf{B.Sc. (Hons.) First Semester (Major/Minor) Mid-Semester Test 2024--25}}\\[4pt]
-    {\large \textbf{COMPUTER SCIENCE}}\\[4pt]
-    \textbf{Paper Code: CSCMJ11 / CSCMN11 : Introduction to Programming using C}\\[6pt]
-    \textbf{Time: 1 Hour} \hfill \textbf{Max. Marks: 20}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. (Hons.) First Semester (Major/Minor) Mid-Semester Test 2024-25}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries DEPARTMENT OF COMPUTER SCIENCE}\\[4pt]
+  {\large\bfseries Paper Code: CSCMJ11 / CSCMN11 --- Introduction to Programming using C}\\[4pt]
+  {\normalsize Time: 1:00 Hour\hfill Maximum Marks: 20}
 \end{center}
-\hr
 
-\noindent \textbf{Note:} Answer all questions.
+\rule{\linewidth}{0.4pt}\smallskip
+\noindent\textit{Instruction: Answer all questions.}
+\bigskip
 
-\begin{enumerate}[label=\textbf{\arabic*.}]
-    \item What will be the output of the following code snippets? Explain your answer with proper reasoning: \hfill [$2 \times 4 = 8$]
-    \begin{enumerate}[label=(\alph*)]
-        \item 
-        \begin{lstlisting}[language=C]
+\noindent\textbf{Question 1} \textit{What will be the output of the following codes? Explain your answer with proper reason:}\pts{$2 \times 4 = 8$}
+\begin{parts}
+  \item 
+\begin{lstlisting}
 void main() {
-    int i = 0, j = 12;
-    if (i = 0 || j > 50)
+    float a = 9.0, b = 2.0;
+    int c;
+    c = a / b;
+    printf("%d", c);
+}
+\end{lstlisting}
+
+  \item 
+\begin{lstlisting}
+void main() {
+    int i = 0, z = 12;
+    if (i == 0 || z > 50)
         printf("Hello");
     else
-        printf("World");
+        printf("Bye");
 }
-        \end{lstlisting}
-        \item 
-        \begin{lstlisting}[language=C]
-void main() {
-    int a = 5, b = 2;
-    printf("%d", a % b * a / b);
-}
-        \end{lstlisting}
-        \item 
-        \begin{lstlisting}[language=C]
-void main() {
-    int x = 1;
-    while (x <= 5) {
-        if (x == 3) break;
-        printf("%d ", x++);
-    }
-}
-        \end{lstlisting}
-        \item 
-        \begin{lstlisting}[language=C]
-void main() {
-    int arr[] = {10, 20, 30};
-    printf("%d", *(arr + 1));
-}
-        \end{lstlisting}
-    \end{enumerate}
+\end{lstlisting}
 
-    \item Explain operator precedence and associativity in C with suitable examples. \hfill [4]
-    \item Write a C program to check whether a given integer is a Prime Number or not. \hfill [4]
-    \item Differentiate between \texttt{call by value} and \texttt{call by reference} in C functions with code illustrations. \hfill [4]
-\end{enumerate}
+  \item 
+\begin{lstlisting}
+void main() {
+    int a = 15, b = 13, c = 16, x, y;
+    x = a - 3 % 2 + c * 2 / 4 % 2 + b / 4;
+    y = a / b + 5 - b + 9;
+    printf("x = %d, y = %d\n", x, y);
+}
+\end{lstlisting}
+
+  \item 
+\begin{lstlisting}
+void main() {
+    int a = 0, b = 1, c;
+    c = a++ + --b;
+    printf("a = %d, b = %d, c = %d\n", a, b, c);
+}
+\end{lstlisting}
+\end{parts}
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 2}\pts{4} \\
+Draw a flowchart for finding the largest number among three numbers $A$, $B$, and $C$.
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 3}\pts{4} \\
+What is the significance of the \texttt{break} keyword in a \texttt{switch-case} statement? What will happen in the absence of the \texttt{break} keyword? Explain with an example.
+
+\medskip\rule{\linewidth}{0.2pt}\medskip
+
+\noindent\textbf{Question 4}\pts{4} \\
+Write a C program for printing the sum of squares of the digits of a given integer $N$.\\
+\textit{(Example: if $N = 235$, then print $S = 2^2 + 3^2 + 5^2 = 38$)}
+
+\vfill\rule{\linewidth}{0.4pt}
+\begin{center}\small
+\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
+\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}
+\end{center}
 
 \end{document}

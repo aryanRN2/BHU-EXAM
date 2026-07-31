@@ -11,15 +11,14 @@
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip}
 
-\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,pdftitle={CIMSE21: Computational Mathematics with SageMath -- BHU Sem II 2024-25 (NEP)}}
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,pdftitle={CIMSE21: Computational Mathematics with SageMath -- BHU Sem II 2024-25 (NEP SEC)}}
 \pagestyle{fancy}\fancyhf{}
 \fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{CIMSE21: Computational Mathematics with SageMath}}
+\fancyhead[R]{\small\textit{CIMSE21: Computational Mathematics with SageMath (SEC)}}
 \fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
 
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
 
 \begin{document}
 
@@ -42,36 +41,36 @@
 Write the codes in SageMath for the following mathematical operations and then solve the corresponding question without using codes:
 \begin{parts}
   \item To find the rank of a matrix and hence find the rank of the matrix $A = \begin{pmatrix} 4 & 8 & 16 \\ 1 & 2 & 4 \\ 0 & 0 & 1 \end{pmatrix}$.
-  \item To find the adjoint of a matrix $A$ and hence find the adjoint of the matrix $A = \begin{pmatrix} 5 & 3 \\ 3 & 2 \end{pmatrix}$.
+  \item To find the adjoint of a matrix $A$ and hence find the adjoint of the matrix $A = \begin{pmatrix} 3 & 2 \\ 1 & 4 \end{pmatrix}$.
   \item To find the remainder when an integer $a$ is divided by a positive integer $b$ and hence find the remainder when $(2025)^3$ is divided by $47$.
   \item To solve a system of linear equations $2x + y = 6, 5x - y = 4$ in two variables and hence solve it manually.
   \item To plot the curve $y^2 = x + 2y$ in $\mathbb{R}^2$ and hence plot it.
   \item To find the dot product of two vectors in $\mathbb{R}^3$ and hence find the dot product of two vectors which represent the sides of an equilateral triangle of side length $1$.
-  \item To plot a vector field in $\mathbb{R}^2$ and hence plot the vector field $V(x,y) = (-y, x)$ in the region $\{(x,y) \in \mathbb{R}^2 \mid x^2 + y^2 < 1\}$.
+  \item To plot a vector field in $\mathbb{R}^2$ and hence plot the vector field $V(x,y) = (-y, x)$ in the region $\{(x,y) \in \mathbb{R}^2 \mid x^2 + y^2 \le 1\}$.
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}\medskip
 
 \noindent\textbf{Question 2}
 \begin{parts}
-  \item Write a 3 dimensional Cartesian equation of a line in $xz$ plane, passing through origin and making equal angle with the two axes. Write the codes in SageMath to plot this line.
-  \item What is rref of a matrix? Write a SageMath program to find the rref of the matrix $A = \begin{pmatrix} 2 & 3 & 4 \\ 3 & 4 & 5 \\ 4 & 5 & 6 \end{pmatrix}$. Compute manually to find its output.
+  \item Write a 3-dimensional Cartesian equation of a line in $xz$-plane, passing through origin and making equal angle with the two axes. Write the codes in SageMath to plot this line.
+  \item What is RREF of a matrix? Write a SageMath program to find the RREF of the matrix $A = \begin{pmatrix} 1 & 2 & 3 \\ 2 & 3 & 4 \\ 4 & 5 & 6 \end{pmatrix}$. Compute manually to find its output.
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}\medskip
 
 \noindent\textbf{Question 3}
 \begin{parts}
-  \item State Lagrange mean value theorem and verify it for the function $f(x) = x^2 + 3x + 2$ on the interval $[-1, 1]$. Can you interpret it geometrically? Write a SageMath program to check the validity of your computation.
-  \item Write a SageMath program to plot the tangent line to a circle of your choice at any of its point so that the colours of the circle and the tangent line appear differently.
+  \item State Lagrange's Mean Value Theorem and verify it for the function $f(x) = x^2 + 3x + 2$ on the interval $[-1, 1]$. Can you interpret it geometrically? Write a SageMath program to check the validity of your computation.
+  \item Write a SageMath program to plot the tangent line to a circle of your choice at any of its points so that the colors of the circle and the tangent line appear differently.
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}\medskip
 
 \noindent\textbf{Question 4}
 \begin{parts}
-  \item Define eigen value and eigen vector of a square matrix $A$ and hence find them for the matrix $A = \begin{pmatrix} 2 & 3 \\ 2 & 1 \end{pmatrix}$. Write codes in SageMath to find eigen values and eigen vectors of a square matrix $A$.
-  \item Define diagonalizability of a square matrix. Determine whether the matrix $A$, as defined above, is diagonalizable? Write SageMath program to check the diagonalizability of a square matrix.
+  \item Define eigenvalue and eigenvector of a square matrix $A$ and hence find them for the matrix $A = \begin{pmatrix} 2 & 3 \\ 1 & 4 \end{pmatrix}$. Write codes in SageMath to find eigenvalues and eigenvectors of a square matrix $A$.
+  \item Define diagonalizability of a square matrix. Determine whether the matrix $A$, as defined above, is diagonalizable. Write a SageMath program to check the diagonalizability of a square matrix.
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}\medskip
@@ -81,7 +80,7 @@ Write the codes in SageMath for the following mathematical operations and then s
   \item Find the area of the region enclosed by the parabola $y^2 = 4x$ and the line $y = 2x$ and write the SageMath code to compute it.
   \item What will be the output of the following SageMath program:
   \[
-  \text{integrate}((1/(1 + e^{(\sin x)})), (x, 0, 2\pi))
+  \text{\texttt{integrate(1/(1 + e\textasciicircum x), (x, 0, 2))}}
   \]
 \end{parts}
 
@@ -89,16 +88,16 @@ Write the codes in SageMath for the following mathematical operations and then s
 
 \noindent\textbf{Question 6}
 \begin{parts}
-  \item Find the differential equation of all circles which touches the line $y = x$ at the origin and hence by solving it find the equation of that circle which has intercept $1$ on positive $x$-axis. Also write SageMath program to solve the differential equation.
-  \item Find the differential equation of the curves passing through the origin given that the slope of the tangent to the curve at any point $(x,y)$ is equal to the sum of the coordinate of the point and hence write SageMath code to solve it.
+  \item Find the differential equation of all circles which touch the line $y = x$ at the origin and hence by solving it find the equation of that circle which has intercept $1$ on positive $x$-axis. Also write a SageMath program to solve the differential equation.
+  \item Find the differential equation of the curves passing through the origin given that the slope of the tangent to the curve at any point $(x,y)$ is equal to the sum of the coordinates of the point and hence write SageMath code to solve it.
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}\medskip
 
 \noindent\textbf{Question 7}
 \begin{parts}
-  \item Find the volume of the parallelopiped formed by vectors $(1,1,1)$, $(1,1,0)$ and $(2,3,4)$ in $\mathbb{R}^3$ as its adjacent edges. Also write the codes in SageMath to find the volume of the parallelopiped, whose three adjacent edges are given as vectors in $\mathbb{R}^3$.
-  \item Write SageMath program to plot a right circular cylinder with $z$-axis as its axis and radius $1$ in two different ways.
+  \item Find the volume of the parallelepiped formed by vectors $(1,1,1)$, $(1,1,0)$ and $(2,3,4)$ in $\mathbb{R}^3$ as its adjacent edges. Also write the codes in SageMath to find the volume of the parallelepiped, whose three adjacent edges are given as vectors in $\mathbb{R}^3$.
+  \item Write a SageMath program to plot a right circular cylinder with $z$-axis as its axis and radius $1$ in two different ways.
 \end{parts}
 
 \vfill\rule{\linewidth}{0.4pt}
@@ -106,4 +105,5 @@ Write the codes in SageMath for the following mathematical operations and then s
 \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
 \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}
 \end{center}
+
 \end{document}

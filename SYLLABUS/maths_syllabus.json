@@ -8,7 +8,7 @@
       "papers": [
         {
           "code": "MATMD11",
-          "name": "Multidisciplinary**(MD) (3)",
+          "name": "Basic Mathematics-I",
           "credits": 3,
           "course_type": "Multidisciplinary",
           "syllabus": [
@@ -28,7 +28,7 @@
         },
         {
           "code": "MATMJ11",
-          "name": "MAT-Major (4)",
+          "name": "Calculus",
           "credits": 4,
           "course_type": "Major",
           "syllabus": [
@@ -38,7 +38,7 @@
             },
             {
               "unit": 2,
-              "topics": "Series: The Cauchy Criterion. Convergent, Divergent, and Oscillatory series, Comparison test, D'Alembert's ratio test. Raabe’s test. Cauchy’s nth root test. 12"
+              "topics": "Series: The Cauchy Criterion. Convergent, Divergent, and Oscillatory series, Comparison test, D'Alembert's ratio test. Raabe\u2019s test. Cauchy\u2019s nth root test. 12"
             },
             {
               "unit": 3,
@@ -56,7 +56,7 @@
         },
         {
           "code": "MATMN11",
-          "name": "MAT-Minor*(4)",
+          "name": "Calculus",
           "credits": 4,
           "course_type": "Major",
           "syllabus": [
@@ -66,7 +66,7 @@
             },
             {
               "unit": 2,
-              "topics": "Series: The Cauchy Criterion. Convergent, Divergent, and Oscillatory series, Comparison test, D'Alembert's ratio test. Raabe’s test. Cauchy’s nth root test. 12"
+              "topics": "Series: The Cauchy Criterion. Convergent, Divergent, and Oscillatory series, Comparison test, D'Alembert's ratio test. Raabe\u2019s test. Cauchy\u2019s nth root test. 12"
             },
             {
               "unit": 3,
@@ -98,7 +98,7 @@
             },
             {
               "unit": 3,
-              "topics": "Some irrational numbers. The golden mean and other roots. 𝑒: The queen of growth and decay. Logarithms. Infinite series: Fractals and the myth of forever. Fibonacci Numbers. 15 Texts /"
+              "topics": "Some irrational numbers. The golden mean and other roots. \ud835\udc52: The queen of growth and decay. Logarithms. Infinite series: Fractals and the myth of forever. Fibonacci Numbers. 15 Texts /"
             }
           ]
         }
@@ -109,7 +109,7 @@
       "papers": [
         {
           "code": "MATMD21",
-          "name": "Multidisciplinary**(MD) (3)",
+          "name": "Basic Mathematics-II",
           "credits": 3,
           "course_type": "Multidisciplinary",
           "syllabus": [
@@ -129,7 +129,7 @@
         },
         {
           "code": "MATMJ21",
-          "name": "MAT-Major (4)",
+          "name": "Algebra",
           "credits": 4,
           "course_type": "Major",
           "syllabus": [
@@ -143,7 +143,7 @@
             },
             {
               "unit": 3,
-              "topics": "Relation, equivalence relation, and equivalence class. Division algorithm in ℤ, Divisibility, and the Euclidean algorithm, Fundamental theorem of arithmetic, Modular arithmetic, and basic properties of congruence. 12"
+              "topics": "Relation, equivalence relation, and equivalence class. Division algorithm in \u2124, Divisibility, and the Euclidean algorithm, Fundamental theorem of arithmetic, Modular arithmetic, and basic properties of congruence. 12"
             },
             {
               "unit": 4,
@@ -157,7 +157,7 @@
         },
         {
           "code": "MATMN21",
-          "name": "MAT-Minor* (4)",
+          "name": "Algebra",
           "credits": 4,
           "course_type": "Minor",
           "syllabus": [
@@ -190,7 +190,7 @@
       "papers": [
         {
           "code": "MATMD31",
-          "name": "Multidisciplinary**(MD) (3)",
+          "name": "Basic Mathematics-III",
           "credits": 3,
           "course_type": "Multidisciplinary",
           "syllabus": [
@@ -244,11 +244,11 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "The Real numbers: The Algebraic and Order Properties of ℝ. Absolute Value and Real Line. 12 476 Course Title"
+              "topics": "The Real numbers: The Algebraic and Order Properties of \u211d. Absolute Value and Real Line. 12 476 Course Title"
             },
             {
               "unit": 2,
-              "topics": "The Completeness Property of ℝ. Applications of the Supremum Property. Limit superior and limit inferior of sequences. Monotone convergence theorem. 12"
+              "topics": "The Completeness Property of \u211d. Applications of the Supremum Property. Limit superior and limit inferior of sequences. Monotone convergence theorem. 12"
             },
             {
               "unit": 3,
@@ -286,7 +286,7 @@
         },
         {
           "code": "MATSE31",
-          "name": "MAT-Skill Enhancement#(SE)(3)",
+          "name": "Sage Math for Beginners",
           "credits": 3,
           "course_type": "Skill Enhancement",
           "syllabus": [
@@ -309,11 +309,11 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Euclidean 𝑛-space ℝ𝒏. Euclidean norm and Euclidean distance. Tangent spaces in ℝ𝒏. Open sets in ℝ𝒏. 12 480 Course Title"
+              "topics": "Euclidean \ud835\udc5b-space \u211d\ud835\udc8f. Euclidean norm and Euclidean distance. Tangent spaces in \u211d\ud835\udc8f. Open sets in \u211d\ud835\udc8f. 12 480 Course Title"
             },
             {
               "unit": 2,
-              "topics": "Functions from ℝ𝒏 to ℝ𝒎. Limit of sequences in ℝ𝒎. Limit and continuity of functions from ℝ𝒏 to ℝ𝒎. Partial derivatives and directional derivatives. Gradient of a function. Derivatives of functions between Euclidean space spaces. 12"
+              "topics": "Functions from \u211d\ud835\udc8f to \u211d\ud835\udc8e. Limit of sequences in \u211d\ud835\udc8e. Limit and continuity of functions from \u211d\ud835\udc8f to \u211d\ud835\udc8e. Partial derivatives and directional derivatives. Gradient of a function. Derivatives of functions between Euclidean space spaces. 12"
             },
             {
               "unit": 3,
@@ -365,7 +365,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Differential Equations: Linear differential equations of first order. First order higher degree equations solvable for 𝑥, 𝑦, 𝑧. Singular solution and envelopes. 15 482 Course Title"
+              "topics": "Differential Equations: Linear differential equations of first order. First order higher degree equations solvable for \ud835\udc65, \ud835\udc66, \ud835\udc67. Singular solution and envelopes. 15 482 Course Title"
             },
             {
               "unit": 2,
@@ -393,11 +393,11 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Laws of vectors in two-dimension(2D): Application to mechanics, Concurrent forces in a plane, System of parallel forces, Coplanar forces, Theory of couples, Resultant Force and couple, Moment of a force about a point and about a line, Moment of a couple, Varignon’s theorem. 9 483 Course Title"
+              "topics": "Laws of vectors in two-dimension(2D): Application to mechanics, Concurrent forces in a plane, System of parallel forces, Coplanar forces, Theory of couples, Resultant Force and couple, Moment of a force about a point and about a line, Moment of a couple, Varignon\u2019s theorem. 9 483 Course Title"
             },
             {
               "unit": 2,
-              "topics": "Equilibrium of forces in 2D: Reduction and analytical conditions for the equilibrium of a system of forces acting on a particle and a rigid body, Different forms of the equilibrium conditions; Virtual displacement and virtual work, Principle of virtual work, Deduction of necessary and sufficient conditions for the equilibrium of a system of forces acting on a particle or different points of a rigid body. Application of Hooke’s law related to virtual work. 9"
+              "topics": "Equilibrium of forces in 2D: Reduction and analytical conditions for the equilibrium of a system of forces acting on a particle and a rigid body, Different forms of the equilibrium conditions; Virtual displacement and virtual work, Principle of virtual work, Deduction of necessary and sufficient conditions for the equilibrium of a system of forces acting on a particle or different points of a rigid body. Application of Hooke\u2019s law related to virtual work. 9"
             },
             {
               "unit": 3,
@@ -405,11 +405,11 @@
             },
             {
               "unit": 4,
-              "topics": "Central orbit and Kepler’s laws of motion: Equation of central orbit in polar and pedal form, Motion under inverse square law, Particle moving along elliptic, parabolic, hyperbolic and other polar curves, Kepler’s laws of planetary motion and related problems; Constrained motion on smooth vertical curves: Upward and downward motion along inner smooth surface of a vertical circle (SHM about the vertex), Upward and downward motion along inner smooth surface of a vertical cycloid (SHM about the vertex between two cusps), Time period of SHM and time taken to reach different heights of the cycloid. 9"
+              "topics": "Central orbit and Kepler\u2019s laws of motion: Equation of central orbit in polar and pedal form, Motion under inverse square law, Particle moving along elliptic, parabolic, hyperbolic and other polar curves, Kepler\u2019s laws of planetary motion and related problems; Constrained motion on smooth vertical curves: Upward and downward motion along inner smooth surface of a vertical circle (SHM about the vertex), Upward and downward motion along inner smooth surface of a vertical cycloid (SHM about the vertex between two cusps), Time period of SHM and time taken to reach different heights of the cycloid. 9"
             },
             {
               "unit": 5,
-              "topics": "Forces in 3D: Concept of axis of a couple, Reduction of forces and analytic conditions of equilibrium in 3D, Dyname and components of dyname, Poinsot’s central axis; Definition of a rigid body, Moment of inertia(M.I.) and product of inertia(P.I.), Theorem of parallel axes, Moment of inertia and product of inertia of some symmetrical bodies: Rod, Rectangular plate, Circular ring and disc, Hollow and solid spheres, Principle axes and principal moments, M.I. and P.I. about an inclined lines. 9 Texts /"
+              "topics": "Forces in 3D: Concept of axis of a couple, Reduction of forces and analytic conditions of equilibrium in 3D, Dyname and components of dyname, Poinsot\u2019s central axis; Definition of a rigid body, Moment of inertia(M.I.) and product of inertia(P.I.), Theorem of parallel axes, Moment of inertia and product of inertia of some symmetrical bodies: Rod, Rectangular plate, Circular ring and disc, Hollow and solid spheres, Principle axes and principal moments, M.I. and P.I. about an inclined lines. 9 Texts /"
             }
           ]
         },
@@ -421,7 +421,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Differential Equations: Linear differential equations of first order. First order higher degree equations solvable for 𝑥, 𝑦, 𝑧. Singular solution and envelopes. 15 482 Course Title"
+              "topics": "Differential Equations: Linear differential equations of first order. First order higher degree equations solvable for \ud835\udc65, \ud835\udc66, \ud835\udc67. Singular solution and envelopes. 15 482 Course Title"
             },
             {
               "unit": 2,
@@ -462,11 +462,11 @@
             },
             {
               "unit": 3,
-              "topics": "Symmetric group, cycles, transpositions, even and odd permutations, Alternating group and normal subgroups of 𝑆𝑛. 15"
+              "topics": "Symmetric group, cycles, transpositions, even and odd permutations, Alternating group and normal subgroups of \ud835\udc46\ud835\udc5b. 15"
             },
             {
               "unit": 4,
-              "topics": "Group action: regular and conjugations, orbits, isotropy, class equation, conjugacy class, groups of order 𝑝2. Rings, definitions, and examples of subrings, rings of Gaussian integers, matrix rings, quaternions, Ideals, and quotient rings, Homomorphisms. 15"
+              "topics": "Group action: regular and conjugations, orbits, isotropy, class equation, conjugacy class, groups of order \ud835\udc5d2. Rings, definitions, and examples of subrings, rings of Gaussian integers, matrix rings, quaternions, Ideals, and quotient rings, Homomorphisms. 15"
             },
             {
               "unit": 5,
@@ -506,7 +506,7 @@
             },
             {
               "unit": 2,
-              "topics": "Plane and straight line: Plane and straight line in ℝ3 by using vectormethod. 12"
+              "topics": "Plane and straight line: Plane and straight line in \u211d3 by using vectormethod. 12"
             },
             {
               "unit": 3,
@@ -703,15 +703,15 @@
             },
             {
               "unit": 2,
-              "topics": "Matching Covering and Packing: Matching, in a graph and matching in a bipartite graph. Assignment problems, Covering and Packing, Covering by paths and cycles, Tutte’s theorem 9"
+              "topics": "Matching Covering and Packing: Matching, in a graph and matching in a bipartite graph. Assignment problems, Covering and Packing, Covering by paths and cycles, Tutte\u2019s theorem 9"
             },
             {
               "unit": 3,
-              "topics": "Coloring: Edge and vertex colorings, 4 and 5 colorable graphs, List coloring, Perfect graphs. Flows: Flow in a network, group valued flows, Tutte’s flow conjecture, k- Flows, Supply and demand problems 9"
+              "topics": "Coloring: Edge and vertex colorings, 4 and 5 colorable graphs, List coloring, Perfect graphs. Flows: Flow in a network, group valued flows, Tutte\u2019s flow conjecture, k- Flows, Supply and demand problems 9"
             },
             {
               "unit": 4,
-              "topics": "Extremal graph theory: Minors, Hadwigers Conjecture, Regularity, Szemeredi’s Regularity Lemma, Using the regularity lemma, partitions using paths and cycles. Ramsey Theory: Ramser Numbers, Induced Ramsey Theorem, Ramsey property and connectivity, Sperner’s Lemma 9"
+              "topics": "Extremal graph theory: Minors, Hadwigers Conjecture, Regularity, Szemeredi\u2019s Regularity Lemma, Using the regularity lemma, partitions using paths and cycles. Ramsey Theory: Ramser Numbers, Induced Ramsey Theorem, Ramsey property and connectivity, Sperner\u2019s Lemma 9"
             },
             {
               "unit": 5,
@@ -727,7 +727,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Multiplication in arithmetic: Nikhilam sutra, Antyayordasake’pi sutra Multiplication: Urdhvatiryak Concept of bijanka, and Verification of all the operations by Bijanka, Square in arithmetic by Yavadunam, Ekadhikena sutra, Dwandvayoga sutra, Cube in arithmetic by sutras Nikhilam and Anurupyena sutra, Square root of four or -five-digit numbers Cube root Applications of Meru-prastar in higher order powers. 9 501 Course Title"
+              "topics": "Multiplication in arithmetic: Nikhilam sutra, Antyayordasake\u2019pi sutra Multiplication: Urdhvatiryak Concept of bijanka, and Verification of all the operations by Bijanka, Square in arithmetic by Yavadunam, Ekadhikena sutra, Dwandvayoga sutra, Cube in arithmetic by sutras Nikhilam and Anurupyena sutra, Square root of four or -five-digit numbers Cube root Applications of Meru-prastar in higher order powers. 9 501 Course Title"
             },
             {
               "unit": 2,
@@ -755,7 +755,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "The complex plane and open set, domain, and region in a complex plane. Stereographic projection. Linear transformations, the transformation 𝑤= 1/𝑧, Möbius transformations and its geometric properties, Conformal mappings. 12 490 Course Title"
+              "topics": "The complex plane and open set, domain, and region in a complex plane. Stereographic projection. Linear transformations, the transformation \ud835\udc64= 1/\ud835\udc67, M\u00f6bius transformations and its geometric properties, Conformal mappings. 12 490 Course Title"
             },
             {
               "unit": 2,
@@ -771,7 +771,7 @@
             },
             {
               "unit": 5,
-              "topics": "Integration and differentiation of power series, Absolute and uniform convergence of power series. Branch point, branch cut, branches of a multi-valued function, analyticity of the branches of 𝐿𝑜𝑔𝑧, 𝑧𝑎. Singularities and their classification, Weierstrass- Casorati's theorem. 12 Texts /"
+              "topics": "Integration and differentiation of power series, Absolute and uniform convergence of power series. Branch point, branch cut, branches of a multi-valued function, analyticity of the branches of \ud835\udc3f\ud835\udc5c\ud835\udc54\ud835\udc67, \ud835\udc67\ud835\udc4e. Singularities and their classification, Weierstrass- Casorati's theorem. 12 Texts /"
             }
           ]
         },
@@ -783,7 +783,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Curves in ℝ2 and ℝ3: Basic Definitions and Examples. Arc Length. Curvature and the Frenet-Serret Apparatus. The Fundamental Existence and Uniqueness Theorem for Curves. Bishop frames. 12 491 Course Title"
+              "topics": "Curves in \u211d2 and \u211d3: Basic Definitions and Examples. Arc Length. Curvature and the Frenet-Serret Apparatus. The Fundamental Existence and Uniqueness Theorem for Curves. Bishop frames. 12 491 Course Title"
             },
             {
               "unit": 2,
@@ -791,7 +791,7 @@
             },
             {
               "unit": 3,
-              "topics": "Surfaces in ℝ3: Basic Definitions and Examples. The First Fundamental Form. Arc length of curves on surfaces. Normal curvature. Geodesic curvature. Gauss and Weingarten Formulas. 12"
+              "topics": "Surfaces in \u211d3: Basic Definitions and Examples. The First Fundamental Form. Arc length of curves on surfaces. Normal curvature. Geodesic curvature. Gauss and Weingarten Formulas. 12"
             },
             {
               "unit": 4,
@@ -815,7 +815,7 @@
             },
             {
               "unit": 2,
-              "topics": "Congruences and Modular Arithmetic: Definitions, properties. Linear Congruences: Solvability, algorithms. Chinese Remainder Theorem: Statement and applications. Diophantine Equations Linear Diophantine Equations: Solving equations of the form 𝑎𝑥+ 𝑏𝑦= 𝑐. 9"
+              "topics": "Congruences and Modular Arithmetic: Definitions, properties. Linear Congruences: Solvability, algorithms. Chinese Remainder Theorem: Statement and applications. Diophantine Equations Linear Diophantine Equations: Solving equations of the form \ud835\udc4e\ud835\udc65+ \ud835\udc4f\ud835\udc66= \ud835\udc50. 9"
             },
             {
               "unit": 3,
@@ -879,7 +879,7 @@
             },
             {
               "unit": 4,
-              "topics": "Relativistic mechanics – Variation of mass with velocity. Equivalence of mass and energy. Transformation equations for mass momentum and energy. Energy-momentum four vector. Relativistic force and Transformation equations for its components. Relativistic Lagrangian and Hamiltonian. Relativistic equations of motion of a particle. 9"
+              "topics": "Relativistic mechanics \u2013 Variation of mass with velocity. Equivalence of mass and energy. Transformation equations for mass momentum and energy. Energy-momentum four vector. Relativistic force and Transformation equations for its components. Relativistic Lagrangian and Hamiltonian. Relativistic equations of motion of a particle. 9"
             },
             {
               "unit": 5,
@@ -1006,7 +1006,7 @@
       "papers": [
         {
           "code": "MATMJ71",
-          "name": "MAT-Major (16)",
+          "name": "Research Methodology & Project",
           "credits": 4,
           "course_type": "Major",
           "syllabus": [
@@ -1016,15 +1016,15 @@
             },
             {
               "unit": 2,
-              "topics": "Continuous Mappings. Homeomorphism. Induced and coinduced topologies. Subspace topology, Product topology, and Quotient topology. Identification Spaces (Cone, Möbius Strip, Projective plane, Torus, Klein bottle etc.). 12"
+              "topics": "Continuous Mappings. Homeomorphism. Induced and coinduced topologies. Subspace topology, Product topology, and Quotient topology. Identification Spaces (Cone, M\u00f6bius Strip, Projective plane, Torus, Klein bottle etc.). 12"
             },
             {
               "unit": 3,
-              "topics": "Separable spaces, Lindelöf spaces, First countable spaces and Second countable spaces. Cantor-Bendixson Theorem. Compactness, Compactifications and Paracompactness. 12"
+              "topics": "Separable spaces, Lindel\u00f6f spaces, First countable spaces and Second countable spaces. Cantor-Bendixson Theorem. Compactness, Compactifications and Paracompactness. 12"
             },
             {
               "unit": 4,
-              "topics": "Separation axioms: Hausdorff space, Regular spaces, Completely regular spaces,Tychonoff spaces, Normal spaces, 𝑇4 space.Urysohn's lemma, Tietze's extension theorem, Urysohn's embedding and Metrization theorem.Connectedness, Locally Connected Spaces, Components, Path connectedness andLocally path connectedness. 12"
+              "topics": "Separation axioms: Hausdorff space, Regular spaces, Completely regular spaces,Tychonoff spaces, Normal spaces, \ud835\udc474 space.Urysohn's lemma, Tietze's extension theorem, Urysohn's embedding and Metrization theorem.Connectedness, Locally Connected Spaces, Components, Path connectedness andLocally path connectedness. 12"
             },
             {
               "unit": 5,
@@ -1040,7 +1040,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Isomorphism theorems for groups, Symmetric groups, Alternating groups, Dihedral groups, Matrix groups, Isometry groups of ℝ2 and ℝ3, Internal and External direct product and their relationship, Indecomposable groups. 12 504 Course Title"
+              "topics": "Isomorphism theorems for groups, Symmetric groups, Alternating groups, Dihedral groups, Matrix groups, Isometry groups of \u211d2 and \u211d3, Internal and External direct product and their relationship, Indecomposable groups. 12 504 Course Title"
             },
             {
               "unit": 2,
@@ -1068,11 +1068,11 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Normed linear spaces and Banach spaces.The 𝐿𝐿-space as Banach spaces 12 505 Course Title"
+              "topics": "Normed linear spaces and Banach spaces.The \ud835\udc3f\ud835\udc3f-space as Banach spaces 12 505 Course Title"
             },
             {
               "unit": 2,
-              "topics": "Bounded linear transformations. 𝐿(𝐿, 𝐿)as a normed linear space. Open mapping and closed graph theorems. Uniform boundedness principle and its consequences. Hahn- Banach theorem and its application 12"
+              "topics": "Bounded linear transformations. \ud835\udc3f(\ud835\udc3f, \ud835\udc3f)as a normed linear space. Open mapping and closed graph theorems. Uniform boundedness principle and its consequences. Hahn- Banach theorem and its application 12"
             },
             {
               "unit": 3,
@@ -1114,7 +1114,7 @@
         },
         {
           "code": "MATMN71",
-          "name": "MAT-Minor A*(4)",
+          "name": "Advanced Mathematics",
           "credits": 4,
           "course_type": "Major",
           "syllabus": [
@@ -1124,15 +1124,15 @@
             },
             {
               "unit": 2,
-              "topics": "Continuous Mappings. Homeomorphism. Induced and coinduced topologies. Subspace topology, Product topology, and Quotient topology. Identification Spaces (Cone, Möbius Strip, Projective plane, Torus, Klein bottle etc.). 12"
+              "topics": "Continuous Mappings. Homeomorphism. Induced and coinduced topologies. Subspace topology, Product topology, and Quotient topology. Identification Spaces (Cone, M\u00f6bius Strip, Projective plane, Torus, Klein bottle etc.). 12"
             },
             {
               "unit": 3,
-              "topics": "Separable spaces, Lindelöf spaces, First countable spaces and Second countable spaces. Cantor-Bendixson Theorem. Compactness, Compactifications and Paracompactness. 12"
+              "topics": "Separable spaces, Lindel\u00f6f spaces, First countable spaces and Second countable spaces. Cantor-Bendixson Theorem. Compactness, Compactifications and Paracompactness. 12"
             },
             {
               "unit": 4,
-              "topics": "Separation axioms: Hausdorff space, Regular spaces, Completely regular spaces,Tychonoff spaces, Normal spaces, 𝑇4 space.Urysohn's lemma, Tietze's extension theorem, Urysohn's embedding and Metrization theorem.Connectedness, Locally Connected Spaces, Components, Path connectedness andLocally path connectedness. 12"
+              "topics": "Separation axioms: Hausdorff space, Regular spaces, Completely regular spaces,Tychonoff spaces, Normal spaces, \ud835\udc474 space.Urysohn's lemma, Tietze's extension theorem, Urysohn's embedding and Metrization theorem.Connectedness, Locally Connected Spaces, Components, Path connectedness andLocally path connectedness. 12"
             },
             {
               "unit": 5,
@@ -1181,11 +1181,11 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Overview of Shannon theory, Source coding and Channel coding, Uniquely decodable codes, Instantaneous codes, Kraft’s and McMillan’s inequality, Binary Huffman codes, Average wordlength of Huffman codes, extensions of sources 12 516 Course Title"
+              "topics": "Overview of Shannon theory, Source coding and Channel coding, Uniquely decodable codes, Instantaneous codes, Kraft\u2019s and McMillan\u2019s inequality, Binary Huffman codes, Average wordlength of Huffman codes, extensions of sources 12 516 Course Title"
             },
             {
               "unit": 2,
-              "topics": "Information and entropy, properties of the entropy function, entropy and average word length, Shannon-Fano coding, Shannon’s first theorem, Binary symmetric channel, system entropies, Mutual Information and channel capacity 12"
+              "topics": "Information and entropy, properties of the entropy function, entropy and average word length, Shannon-Fano coding, Shannon\u2019s first theorem, Binary symmetric channel, system entropies, Mutual Information and channel capacity 12"
             },
             {
               "unit": 3,
@@ -1193,7 +1193,7 @@
             },
             {
               "unit": 4,
-              "topics": "Hamming’s sphere-packing bound, the Gilbert-Varshamov bound. Perfect codes, The Hamming codes and the Golay codes, Singleton bound and MDS codes, Hadamard matrices and codes. 12 Texts /"
+              "topics": "Hamming\u2019s sphere-packing bound, the Gilbert-Varshamov bound. Perfect codes, The Hamming codes and the Golay codes, Singleton bound and MDS codes, Hadamard matrices and codes. 12 Texts /"
             }
           ]
         },
@@ -1217,7 +1217,7 @@
             },
             {
               "unit": 4,
-              "topics": "Weak nullstellensatz, Hilbert’s Nullstellensatz and their proof, Transcendence base, Polynomial map 9"
+              "topics": "Weak nullstellensatz, Hilbert\u2019s Nullstellensatz and their proof, Transcendence base, Polynomial map 9"
             },
             {
               "unit": 5,
@@ -1317,7 +1317,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Equation of continuity, Boundary surfaces, path lines and streamlines, Irrotational and rotational motions, Vortex lines, Euler’s Equation of motion, Bernoulli’s theorem, Impulsive actions, Motion in two-dimensions. 12 511 Course Title"
+              "topics": "Equation of continuity, Boundary surfaces, path lines and streamlines, Irrotational and rotational motions, Vortex lines, Euler\u2019s Equation of motion, Bernoulli\u2019s theorem, Impulsive actions, Motion in two-dimensions. 12 511 Course Title"
             },
             {
               "unit": 2,
@@ -1329,7 +1329,7 @@
             },
             {
               "unit": 4,
-              "topics": "Navier-Stokes equation of motion. Buckingham Π-theorem, Flow between parallel flat plates, Couette and plane Poiseuille flows. 12"
+              "topics": "Navier-Stokes equation of motion. Buckingham \u03a0-theorem, Flow between parallel flat plates, Couette and plane Poiseuille flows. 12"
             },
             {
               "unit": 5,
@@ -1477,11 +1477,11 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Overview of Shannon theory, Source coding and Channel coding, Uniquely decodable codes, Instantaneous codes, Kraft’s and McMillan’s inequality, Binary Huffman codes, Average wordlength of Huffman codes, extensions of sources 12 516 Course Title"
+              "topics": "Overview of Shannon theory, Source coding and Channel coding, Uniquely decodable codes, Instantaneous codes, Kraft\u2019s and McMillan\u2019s inequality, Binary Huffman codes, Average wordlength of Huffman codes, extensions of sources 12 516 Course Title"
             },
             {
               "unit": 2,
-              "topics": "Information and entropy, properties of the entropy function, entropy and average word length, Shannon-Fano coding, Shannon’s first theorem, Binary symmetric channel, system entropies, Mutual Information and channel capacity 12"
+              "topics": "Information and entropy, properties of the entropy function, entropy and average word length, Shannon-Fano coding, Shannon\u2019s first theorem, Binary symmetric channel, system entropies, Mutual Information and channel capacity 12"
             },
             {
               "unit": 3,
@@ -1489,7 +1489,7 @@
             },
             {
               "unit": 4,
-              "topics": "Hamming’s sphere-packing bound, the Gilbert-Varshamov bound. Perfect codes, The Hamming codes and the Golay codes, Singleton bound and MDS codes, Hadamard matrices and codes. 12 Texts /"
+              "topics": "Hamming\u2019s sphere-packing bound, the Gilbert-Varshamov bound. Perfect codes, The Hamming codes and the Golay codes, Singleton bound and MDS codes, Hadamard matrices and codes. 12 Texts /"
             }
           ]
         },
@@ -1513,7 +1513,7 @@
             },
             {
               "unit": 4,
-              "topics": "Weak nullstellensatz, Hilbert’s Nullstellensatz and their proof, Transcendence base, Polynomial map 9"
+              "topics": "Weak nullstellensatz, Hilbert\u2019s Nullstellensatz and their proof, Transcendence base, Polynomial map 9"
             },
             {
               "unit": 5,
@@ -1613,7 +1613,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Equation of continuity, Boundary surfaces, path lines and streamlines, Irrotational and rotational motions, Vortex lines, Euler’s Equation of motion, Bernoulli’s theorem, Impulsive actions, Motion in two-dimensions. 12 511 Course Title"
+              "topics": "Equation of continuity, Boundary surfaces, path lines and streamlines, Irrotational and rotational motions, Vortex lines, Euler\u2019s Equation of motion, Bernoulli\u2019s theorem, Impulsive actions, Motion in two-dimensions. 12 511 Course Title"
             },
             {
               "unit": 2,
@@ -1625,7 +1625,7 @@
             },
             {
               "unit": 4,
-              "topics": "Navier-Stokes equation of motion. Buckingham Π-theorem, Flow between parallel flat plates, Couette and plane Poiseuille flows. 12"
+              "topics": "Navier-Stokes equation of motion. Buckingham \u03a0-theorem, Flow between parallel flat plates, Couette and plane Poiseuille flows. 12"
             },
             {
               "unit": 5,

@@ -102,7 +102,7 @@ async function uploadFile(authData, relativeFilePath) {
 async function run() {
   const authData = await authorizeB2();
 
-  const fileToUpload = "NOTES/MATHS/SEMESTER 4/calculus of several variable by Vivek Laha.pdf";
+  const fileToUpload = process.argv[2] || "NOTES/PHY/sem 4/sem 4 relativity notes.pdf";
   await uploadFile(authData, fileToUpload);
 }
 
