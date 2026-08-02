@@ -12,7 +12,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester I",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "ENGMD21",
@@ -27,7 +28,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester II",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "ENGMD31",
@@ -42,7 +44,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester III",
     "year": "2025-26",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "ARBMD21",
@@ -57,7 +60,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester II",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "COMMD11",
@@ -72,7 +76,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester I",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "SOCMD11",
@@ -87,7 +92,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester I",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "DHAMD21",
@@ -102,7 +108,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester II",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "COMMD21",
@@ -117,7 +124,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester II",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "PEDMD11",
@@ -132,7 +140,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester I",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "STAMV32",
@@ -147,7 +156,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester III",
     "year": "2025-26",
     "type": "NEP",
-    "examType": "Mid Term"
+    "examType": "Mid Term",
+    "isNepPaper": true
   },
   {
     "code": "STAMV32",
@@ -162,7 +172,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester III",
     "year": "2025-26",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "STAMV31",
@@ -177,7 +188,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester III",
     "year": "2025-26",
     "type": "NEP",
-    "examType": "Mid Term"
+    "examType": "Mid Term",
+    "isNepPaper": true
   },
   {
     "code": "STAMV31",
@@ -192,7 +204,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester III",
     "year": "2025-26",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "STAMN42",
@@ -207,7 +220,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester IV",
     "year": "2025-26",
     "type": "NEP",
-    "examType": "Mid Term"
+    "examType": "Mid Term",
+    "isNepPaper": true
   },
   {
     "code": "STAMN42",
@@ -222,7 +236,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester IV",
     "year": "2025-26",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "STAMN21",
@@ -237,7 +252,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester II",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "Mid Term"
+    "examType": "Mid Term",
+    "isNepPaper": true
   },
   {
     "code": "STAMJ21",
@@ -252,7 +268,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester II",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "STAMN21",
@@ -267,7 +284,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester II",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "STAMN12",
@@ -282,7 +300,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester I",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "Mid Term"
+    "examType": "Mid Term",
+    "isNepPaper": true
   },
   {
     "code": "STAMN12",
@@ -297,7 +316,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester I",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "STAMN11",
@@ -312,7 +332,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester I",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "Mid Term"
+    "examType": "Mid Term",
+    "isNepPaper": true
   },
   {
     "code": "STAMJ11",
@@ -327,7 +348,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester I",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "STAMN11",
@@ -342,7 +364,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester I",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "STAMJ41",
@@ -357,7 +380,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester IV",
     "year": "2025-26",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "STAMN41",
@@ -372,7 +396,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester IV",
     "year": "2025-26",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "ARBMD31",
@@ -387,7 +412,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester III",
     "year": "2025-26",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "CSCMV32",
@@ -401,7 +427,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester III",
     "year": "2025-26",
     "type": "NEP",
-    "examType": "Mid Term"
+    "examType": "Mid Term",
+    "isNepPaper": true
   },
   {
     "code": "CIMSE21",
@@ -416,7 +443,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester II",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "CIMSE11",
@@ -431,7 +459,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester I",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "ESSE11",
@@ -446,7 +475,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester I",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "PHYSE11",
@@ -461,7 +491,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester I",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "Mid Term"
+    "examType": "Mid Term",
+    "isNepPaper": true
   },
   {
     "code": "PHYSE11",
@@ -476,7 +507,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester I",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "CIMSE31",
@@ -490,7 +522,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester III",
     "year": "2025-26",
     "type": "NEP",
-    "examType": "Mid Term"
+    "examType": "Mid Term",
+    "isNepPaper": true
   },
   {
     "code": "STASE11",
@@ -504,7 +537,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester I",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "Mid Term"
+    "examType": "Mid Term",
+    "isNepPaper": true
   },
   {
     "code": "CSCMN12",
@@ -518,7 +552,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester I",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "Practical"
+    "examType": "Practical",
+    "isNepPaper": true
   },
   {
     "code": "CSCMJ11",
@@ -532,7 +567,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester I",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "Mid Term"
+    "examType": "Mid Term",
+    "isNepPaper": true
   },
   {
     "code": "CSCMJ11",
@@ -547,7 +583,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester I",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "SOCMD21",
@@ -562,7 +599,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester II",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "JYFMD21",
@@ -577,7 +615,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester II",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "JYFMD31",
@@ -592,7 +631,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester III",
     "year": "2025-26",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "CSCMJ21",
@@ -606,7 +646,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester II",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "Mid Term"
+    "examType": "Mid Term",
+    "isNepPaper": true
   },
   {
     "code": "CSCSE21",
@@ -620,7 +661,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester II",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "CSCSE21",
@@ -635,7 +677,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester II",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "CSCSE21",
@@ -650,7 +693,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester II",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "Mid Term"
+    "examType": "Mid Term",
+    "isNepPaper": true
   },
   {
     "code": "CSMJ41",
@@ -665,7 +709,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester IV",
     "year": "2025-26",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "CSCMJ44",
@@ -680,7 +725,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester IV",
     "year": "2025-26",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "CSCMJ42",
@@ -695,7 +741,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester IV",
     "year": "2025-26",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "CSCMJ45",
@@ -710,7 +757,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester IV",
     "year": "2025-26",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "CSCMN41",
@@ -725,7 +773,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester IV",
     "year": "2025-26",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "GGRMJ41",
@@ -740,7 +789,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester IV",
     "year": "2025-26",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "GGRSE31",
@@ -755,7 +805,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester III",
     "year": "2025-26",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "GGRSE21",
@@ -770,7 +821,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester II",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "GGRMN41",
@@ -785,7 +837,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester IV",
     "year": "2025-26",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "CSCSE21",
@@ -799,7 +852,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester II",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "Mid Term"
+    "examType": "Mid Term",
+    "isNepPaper": true
   },
   {
     "code": "STASE11",
@@ -813,9 +867,9 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester I",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
-
   {
     "code": "POLMD11",
     "courseType": "Multidisciplinary",
@@ -1398,7 +1452,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester I",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "Mid Term"
+    "examType": "Mid Term",
+    "isNepPaper": true
   },
   {
     "code": "PHYMJ21",
@@ -1413,7 +1468,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester II",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "Mid Term"
+    "examType": "Mid Term",
+    "isNepPaper": true
   },
   {
     "code": "PHYMJ21",
@@ -1428,7 +1484,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester II",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "PHYMJ11",
@@ -1443,7 +1500,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "semester": "Semester I",
     "year": "2024-25",
     "type": "NEP",
-    "examType": "End Term"
+    "examType": "End Term",
+    "isNepPaper": true
   },
   {
     "code": "PHYMJ11",
@@ -2996,7 +3054,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "filePath": "COMMERCE_LATEX/Financial_Accounting/BCF123_FundamentalOfAccounting_SemII_2021-22.tex",
     "fileName": "BCF123_FundamentalOfAccounting_SemII_2021-22.tex",
     "nepCode": "COMMD21 / COMMJ11",
-    "oldCode": "BCF-123"
+    "oldCode": "BCF-123",
+    "isNepPaper": true
   },
   {
     "code": "BCF-123",
@@ -3008,7 +3067,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "filePath": "COMMERCE_LATEX/Financial_Accounting/BCF123_FundamentalOfAccounting_SemII_2022-23.tex",
     "fileName": "BCF123_FundamentalOfAccounting_SemII_2022-23.tex",
     "nepCode": "COMMD21 / COMMJ11",
-    "oldCode": "BCF-123"
+    "oldCode": "BCF-123",
+    "isNepPaper": true
   },
   {
     "code": "BCF-123",
@@ -3020,7 +3080,8 @@ export const NEP_LATEX_PYQ_DATA = [
     "filePath": "COMMERCE_LATEX/Financial_Accounting/BCF123_FundamentalOfAccounting_SemII_2023-24.tex",
     "fileName": "BCF123_FundamentalOfAccounting_SemII_2023-24.tex",
     "nepCode": "COMMD21 / COMMJ11",
-    "oldCode": "BCF-123"
+    "oldCode": "BCF-123",
+    "isNepPaper": true
   },
   {
     "code": "BCF-124",
@@ -8851,5 +8912,117 @@ export const NEP_LATEX_PYQ_DATA = [
     "fileName": "2022-2023_UG_VI-SEM_B.Sc._ZOOLOGY_ZOB-605.tex",
     "nepCode": "ZOOMJ65",
     "oldCode": "ZOB-605"
+  },
+  {
+    "code": "COMMD21",
+    "courseType": "Multidisciplinary",
+    "name": "Under Graduate Multidisciplinary Course Semester II Examination 2025-26 (NEP) - Basic Accounting",
+    "filePath": "aaa/ALL_PYQS_LATEX/COMMD21_BasicAccounting_SemII_2025-26.tex",
+    "fileName": "COMMD21_BasicAccounting_SemII_2025-26.tex",
+    "nepCode": "COMMD21",
+    "oldCode": "COMMD21",
+    "subject": "Commerce",
+    "department": "Faculty of Commerce",
+    "semester": "Semester II",
+    "year": "2025-26",
+    "type": "NEP",
+    "examType": "End Term",
+    "isNepPaper": true
+  },
+  {
+    "code": "HINMD33",
+    "courseType": "Multidisciplinary",
+    "name": "Under Graduate Multidisciplinary Course Semester III Examination 2025-26 (NEP) - Lok Sahitya",
+    "filePath": "aaa/ALL_PYQS_LATEX/HINMD33_HindiMDC_SemIII_2025-26.tex",
+    "fileName": "HINMD33_HindiMDC_SemIII_2025-26.tex",
+    "nepCode": "HINMD33",
+    "oldCode": "HINMD33",
+    "subject": "Hindi",
+    "department": "Faculty of Arts",
+    "semester": "Semester III",
+    "year": "2025-26",
+    "type": "NEP",
+    "examType": "End Term",
+    "isNepPaper": true
+  },
+  {
+    "code": "ESMN111",
+    "courseType": "Minor",
+    "name": "B.Sc. (Hons.) Semester I Examination 2024-25 (NEP) - Elements of Earth Sciences",
+    "filePath": "aaa/ALL_PYQS_LATEX/ESMN111_ElementsOfEarthSciences_SemI_2024-25.tex",
+    "fileName": "ESMN111_ElementsOfEarthSciences_SemI_2024-25.tex",
+    "nepCode": "ESMN111",
+    "oldCode": "ESMN111",
+    "subject": "Earth Science / Geology",
+    "department": "Department of Geology",
+    "semester": "Semester I",
+    "year": "2024-25",
+    "type": "NEP",
+    "examType": "End Term",
+    "isNepPaper": true
+  },
+  {
+    "code": "ESMJ21",
+    "courseType": "Major",
+    "name": "B.Sc. (Hons.) Semester II Examination 2024-25 (NEP) - Crystallography & Mineralogy",
+    "filePath": "aaa/ALL_PYQS_LATEX/ESMJ21_CrystallographyAndMineralogy_SemII_2024-25.tex",
+    "fileName": "ESMJ21_CrystallographyAndMineralogy_SemII_2024-25.tex",
+    "nepCode": "ESMJ21",
+    "oldCode": "ESMJ21",
+    "subject": "Earth Science / Geology",
+    "department": "Department of Geology",
+    "semester": "Semester II",
+    "year": "2024-25",
+    "type": "NEP",
+    "examType": "End Term",
+    "isNepPaper": true
+  },
+  {
+    "code": "ESMJ21",
+    "courseType": "Major",
+    "name": "B.Sc. (Hons.) Semester II Examination 2025-26 (NEP) - Mineral and Earth Material",
+    "filePath": "aaa/ALL_PYQS_LATEX/ESMJ21_Geology_SemII_2025-26.tex",
+    "fileName": "ESMJ21_Geology_SemII_2025-26.tex",
+    "nepCode": "ESMJ21",
+    "oldCode": "ESMJ21",
+    "subject": "Earth Science / Geology",
+    "department": "Department of Geology",
+    "semester": "Semester II",
+    "year": "2025-26",
+    "type": "NEP",
+    "examType": "End Term",
+    "isNepPaper": true
+  },
+  {
+    "code": "ESMV31",
+    "courseType": "Value Added Course",
+    "name": "B.Sc. (Hons.) Semester III Examination 2025-26 (NEP) - Medical Geology",
+    "filePath": "aaa/ALL_PYQS_LATEX/ESMV31_MedicalGeology_SemIII_2025-26.tex",
+    "fileName": "ESMV31_MedicalGeology_SemIII_2025-26.tex",
+    "nepCode": "ESMV31",
+    "oldCode": "ESMV31",
+    "subject": "Earth Science / Geology",
+    "department": "Department of Geology",
+    "semester": "Semester III",
+    "year": "2025-26",
+    "type": "NEP",
+    "examType": "End Term",
+    "isNepPaper": true
+  },
+  {
+    "code": "ESMJ43",
+    "courseType": "Major",
+    "name": "B.Sc. (Hons.) Semester IV Examination 2025-26 (NEP) - Environmental Geology and Hydrogeology",
+    "filePath": "aaa/ALL_PYQS_LATEX/ESMJ43_EnvironmentalGeology_SemIV_2025-26.tex",
+    "fileName": "ESMJ43_EnvironmentalGeology_SemIV_2025-26.tex",
+    "nepCode": "ESMJ43",
+    "oldCode": "ESMJ43",
+    "subject": "Earth Science / Geology",
+    "department": "Department of Geology",
+    "semester": "Semester IV",
+    "year": "2025-26",
+    "type": "NEP",
+    "examType": "End Term",
+    "isNepPaper": true
   }
 ];
