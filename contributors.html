@@ -612,10 +612,54 @@
             const container = document.getElementById('supportersContainer');
             if (!container) return;
             container.innerHTML = '';
-            list.forEach(sup => {
+
+            const sortBy = document.getElementById('supporterSort') ? document.getElementById('supporterSort').value : 'points';
+            const isPointsSort = sortBy === 'points';
+
+            list.forEach((sup, idx) => {
+                const rank = idx + 1;
+                let rankBadgeHtml = '';
+                let cardHighlightClass = 'hover:bg-white/60';
+
+                if (isPointsSort) {
+                    if (rank === 1) {
+                        rankBadgeHtml = `
+                            <div class="flex items-center gap-1 bg-amber-400/20 text-amber-800 border border-amber-400/40 px-2.5 py-1 rounded-full text-xs font-black shadow-xs shrink-0">
+                                <span class="material-symbols-outlined text-sm font-bold text-amber-600">emoji_events</span>
+                                <span>#1</span>
+                            </div>`;
+                        cardHighlightClass = 'bg-gradient-to-r from-amber-50/90 via-white to-amber-50/40 border-amber-300/60 shadow-xs hover:bg-amber-50';
+                    } else if (rank === 2) {
+                        rankBadgeHtml = `
+                            <div class="flex items-center gap-1 bg-slate-200/60 text-slate-800 border border-slate-300/60 px-2.5 py-1 rounded-full text-xs font-black shadow-xs shrink-0">
+                                <span class="material-symbols-outlined text-sm font-bold text-slate-600">workspace_premium</span>
+                                <span>#2</span>
+                            </div>`;
+                        cardHighlightClass = 'bg-gradient-to-r from-slate-100/80 via-white to-slate-100/30 border-slate-300/50 hover:bg-slate-50';
+                    } else if (rank === 3) {
+                        rankBadgeHtml = `
+                            <div class="flex items-center gap-1 bg-amber-700/15 text-amber-900 border border-amber-700/30 px-2.5 py-1 rounded-full text-xs font-black shadow-xs shrink-0">
+                                <span class="material-symbols-outlined text-sm font-bold text-amber-800">military_tech</span>
+                                <span>#3</span>
+                            </div>`;
+                        cardHighlightClass = 'bg-gradient-to-r from-amber-900/5 via-white to-amber-900/5 border-amber-700/20 hover:bg-amber-50/30';
+                    } else {
+                        rankBadgeHtml = `
+                            <div class="text-[11px] font-bold font-mono text-neutral-400 bg-neutral-100/90 px-2.5 py-0.5 rounded-full border border-neutral-200 shrink-0">
+                                #${rank}
+                            </div>`;
+                    }
+                } else {
+                    rankBadgeHtml = `
+                        <div class="text-[11px] font-bold font-mono text-secondary bg-secondary/5 px-2.5 py-0.5 rounded-full border border-border-subtle shrink-0">
+                            #${sup.index + 1}
+                        </div>`;
+                }
+
                 const itemHtml = `
-                <div class="bento-card glass-panel rounded-2xl p-5 flex items-center justify-between group hover:bg-white/60 transition-colors">
-                    <div class="flex items-center gap-4">
+                <div class="bento-card glass-panel rounded-2xl p-5 flex items-center justify-between group transition-all duration-200 ${cardHighlightClass}">
+                    <div class="flex items-center gap-3.5 sm:gap-4">
+                        ${rankBadgeHtml}
                         <div class="w-10 h-10 rounded-full ${sup.iconBg} flex items-center justify-center flex-shrink-0 ${sup.iconColor}">
                             <span class="material-symbols-outlined text-lg">volunteer_activism</span>
                         </div>
@@ -624,7 +668,7 @@
                             <p class="text-[10px] text-secondary">${sup.description}</p>
                         </div>
                     </div>
-                    <span class="text-xs font-bold ${sup.iconColor} ${sup.badgeBg} px-2.5 py-1 rounded-full border ${sup.badgeBorder}">${sup.points.toLocaleString()} pt</span>
+                    <span class="text-xs font-bold ${sup.iconColor} ${sup.badgeBg} px-2.5 py-1 rounded-full border ${sup.badgeBorder} shrink-0">${sup.points.toLocaleString()} pt</span>
                 </div>
             `;
                 container.insertAdjacentHTML('beforeend', itemHtml);
