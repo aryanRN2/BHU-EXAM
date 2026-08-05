@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">BHU Exam Portal</string>
+    <string name="title_activity_main">BHU Exam Portal</string>
+    <string name="package_name">com.sciqb.portal</string>
+    <string name="custom_url_scheme">com.sciqb.portal</string>
+</resources>
