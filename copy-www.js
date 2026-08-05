@@ -10,30 +10,53 @@ if (fs.existsSync(wwwDir)) {
 }
 fs.mkdirSync(wwwDir, { recursive: true });
 
-const filesToCopy = [
+// Copy essential web root files
+const rootFiles = [
   'index.html',
   'contributors.html',
   'subjects.html',
   'syllabus.html',
-  'js',
-  'css',
-  'SYLLABUS',
-  'aaa'
+  'nep-papers.html',
+  'nep-science.html',
+  'nep-pyq.html',
+  'notes.html',
+  'results.html',
+  'exam.html',
+  'pyq-viewer.html',
+  'legacy-papers.html',
+  'legacy-pyq.html',
+  'legacy-science.html',
+  'privacy.html',
+  'terms.html',
+  'styles.css',
+  'robots.txt',
+  'sitemap.xml'
 ];
 
-filesToCopy.forEach(item => {
-  const srcPath = path.join(srcDir, item);
-  const destPath = path.join(wwwDir, item);
-  
-  if (fs.existsSync(srcPath)) {
-    const stat = fs.statSync(srcPath);
-    if (stat.isDirectory()) {
-      fs.cpSync(srcPath, destPath, { recursive: true });
-    } else {
-      fs.copyFileSync(srcPath, destPath);
-    }
-    console.log(`Copied: ${item}`);
+rootFiles.forEach(file => {
+  const src = path.join(srcDir, file);
+  if (fs.existsSync(src)) {
+    fs.copyFileSync(src, path.join(wwwDir, file));
   }
 });
 
-console.log('✓ www directory built successfully!');
+// Copy specific web directories
+const directories = ['js', 'css', 'SYLLABUS', 'images'];
+
+directories.forEach(dir => {
+  const src = path.join(srcDir, dir);
+  const dest = path.join(wwwDir, dir);
+  if (fs.existsSync(src)) {
+    fs.cpSync(src, dest, { recursive: true });
+  }
+});
+
+// Copy ONLY aaa/ALL_PYQS_LATEX (excluding raw multi-hundred MB PDF scans)
+const latexSrc = path.join(srcDir, 'aaa', 'ALL_PYQS_LATEX');
+const latexDest = path.join(wwwDir, 'aaa', 'ALL_PYQS_LATEX');
+if (fs.existsSync(latexSrc)) {
+  fs.mkdirSync(path.join(wwwDir, 'aaa'), { recursive: true });
+  fs.cpSync(latexSrc, latexDest, { recursive: true });
+}
+
+console.log('✓ Optimized www directory built successfully!');
