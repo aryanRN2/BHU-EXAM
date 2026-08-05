@@ -1,5 +1,21 @@
 export const NEP_LATEX_PYQ_DATA = [
   {
+    "code": "BHUVA22",
+    "courseType": "Value Added",
+    "name": "Under Graduate Semester II Examination 2025-26 (NEP) - Environmental Science",
+    "filePath": "aaa/ALL_PYQS_LATEX/BHUVA22_EnvironmentalScience_SemII_2025-26.tex",
+    "fileName": "BHUVA22_EnvironmentalScience_SemII_2025-26.tex",
+    "nepCode": "BHUVA-22 / BHUVA22",
+    "oldCode": "BHUVA22",
+    "subject": "Environmental Science",
+    "department": "Environmental Science",
+    "semester": "Semester II",
+    "year": "2025-26",
+    "type": "NEP",
+    "examType": "End Term",
+    "isNepPaper": true
+  },
+  {
     "code": "ECOMD21",
     "courseType": "Multidisciplinary",
     "name": "U.G. Semester-II Examination 2024-25 (NEP) - Indian Economic Development",
