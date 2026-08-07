@@ -741,13 +741,19 @@
                 const cells = line.split('&');
                 let htmlCells = '';
                 cells.forEach(cell => {
-                    const cellText = cell.trim();
-                    htmlCells += `<td class="border border-neutral-300 px-4 py-2 text-center text-xs sm:text-sm font-medium text-primary">${cellText}</td>`;
+                    let cellText = cell.trim();
+                    let colspan = 1;
+                    const multiMatch = cellText.match(/\\multicolumn\s*\{(\d+)\}\s*\{[^}]*\}\s*\{([\s\S]*?)\}/i);
+                    if (multiMatch) {
+                        colspan = parseInt(multiMatch[1], 10);
+                        cellText = multiMatch[2].trim();
+                    }
+                    htmlCells += `<td ${colspan > 1 ? `colspan="${colspan}"` : ''} class="border border-neutral-700 px-5 py-3 text-center text-xs sm:text-sm font-bold text-primary">${cellText}</td>`;
                 });
-                htmlRows += `<tr class="hover:bg-neutral-50 transition-colors">${htmlCells}</tr>`;
+                htmlRows += `<tr>${htmlCells}</tr>`;
             });
 
-            return `<div class="overflow-x-auto my-6 flex justify-center"><table class="border-collapse border border-neutral-300 shadow-sm max-w-full bg-white my-2">${htmlRows}</table></div>`;
+            return `<div class="overflow-x-auto my-6 flex justify-center"><table class="border-collapse border-2 border-neutral-800 shadow-sm max-w-full bg-white my-2">${htmlRows}</table></div>`;
         }
 
         // LaTeX parsing engine to transform raw LaTeX documents to clean semantic HTML
