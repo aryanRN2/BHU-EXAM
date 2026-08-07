@@ -40,7 +40,7 @@ rootFiles.forEach(file => {
   }
 });
 
-// Copy specific web directories
+// Copy web asset directories
 const directories = ['js', 'css', 'SYLLABUS', 'images'];
 
 directories.forEach(dir => {
@@ -51,12 +51,36 @@ directories.forEach(dir => {
   }
 });
 
-// Copy ONLY aaa/ALL_PYQS_LATEX (excluding raw multi-hundred MB PDF scans)
-const latexSrc = path.join(srcDir, 'aaa', 'ALL_PYQS_LATEX');
-const latexDest = path.join(wwwDir, 'aaa', 'ALL_PYQS_LATEX');
-if (fs.existsSync(latexSrc)) {
-  fs.mkdirSync(path.join(wwwDir, 'aaa'), { recursive: true });
-  fs.cpSync(latexSrc, latexDest, { recursive: true });
+// Helper function to recursively copy only .tex files (preserving folder structure)
+function copyTexFilesOnly(sourceSubDir) {
+  const sourcePath = path.join(srcDir, sourceSubDir);
+  if (!fs.existsSync(sourcePath)) return;
+
+  function walk(currentDir) {
+    const items = fs.readdirSync(currentDir);
+    for (const item of items) {
+      const fullPath = path.join(currentDir, item);
+      const relPath = path.relative(srcDir, fullPath);
+      const destPath = path.join(wwwDir, relPath);
+
+      const stat = fs.statSync(fullPath);
+      if (stat.isDirectory()) {
+        walk(fullPath);
+      } else if (item.endsWith('.tex') || item.endsWith('.json') || item.endsWith('.js') || item.endsWith('.md')) {
+        const destDir = path.dirname(destPath);
+        if (!fs.existsSync(destDir)) {
+          fs.mkdirSync(destDir, { recursive: true });
+        }
+        fs.copyFileSync(fullPath, destPath);
+      }
+    }
+  }
+
+  walk(sourcePath);
 }
 
-console.log('✓ Optimized www directory built successfully!');
+// Copy all LaTeX files from COMMERCE_LATEX and aaa
+copyTexFilesOnly('COMMERCE_LATEX');
+copyTexFilesOnly('aaa');
+
+console.log('✓ Comprehensive www directory built successfully with local fallback support!');

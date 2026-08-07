@@ -301,7 +301,7 @@
 </footer>
 
 <script type="module">
-    import { NEP_LATEX_PYQ_DATA } from './js/nep-data.js?v=7';
+    import { NEP_LATEX_PYQ_DATA } from './js/nep-data.js?v=13';
 
     const params = new URLSearchParams(window.location.search);
     const deptKey = params.get('dept') || 'physics';
@@ -922,28 +922,130 @@
         'MMC2024': 'Madhavan Mathematics Competition'
     };
 
-    // Group papers by semester (1 to 8) and then by nepCode
+    // Group papers by semester and then by nepCode (for regular Science / Faculty subjects)
     function groupPapersBySemesterAndCode(papers) {
-        const groups = { 1: {}, 2: {}, 3: {}, 4: {}, 5: {}, 6: {}, 7: {}, 8: {} };
+        const groups = {
+            'Semester I': { title: 'Semester I', courses: {} },
+            'Semester II': { title: 'Semester II', courses: {} },
+            'Semester III': { title: 'Semester III', courses: {} },
+            'Semester IV': { title: 'Semester IV', courses: {} },
+            'Semester V': { title: 'Semester V', courses: {} },
+            'Semester VI': { title: 'Semester VI', courses: {} },
+            'Semester VII': { title: 'Semester VII', courses: {} },
+            'Semester VIII': { title: 'Semester VIII', courses: {} }
+        };
+
         papers.forEach(p => {
-            const sem = p.semester || 1;
-            const targetSem = groups[sem] ? sem : 1;
-            let code = p.nepCode || 'General';
+            let semKey = 'Semester I';
+            const rawSem = String(p.semester || '').toUpperCase();
+            if (rawSem.includes('VIII') || rawSem === '8') semKey = 'Semester VIII';
+            else if (rawSem.includes('VII') || rawSem === '7') semKey = 'Semester VII';
+            else if (rawSem.includes('VI') || rawSem === '6') semKey = 'Semester VI';
+            else if (rawSem.includes('V') || rawSem === '5') semKey = 'Semester V';
+            else if (rawSem.includes('IV') || rawSem === '4') semKey = 'Semester IV';
+            else if (rawSem.includes('III') || rawSem === '3') semKey = 'Semester III';
+            else if (rawSem.includes('II') || rawSem === '2') semKey = 'Semester II';
+            else if (rawSem.includes('I') || rawSem === '1') semKey = 'Semester I';
 
-            if (code === 'MATMJ11' || code === 'MATMN11') code = 'MATMJ11 / MATMN11';
-            if (code === 'MATMJ21' || code === 'MATMN21') code = 'MATMJ21 / MATMN21';
-            if (code === 'PHYMJ11' || code === 'PHYMN11') code = 'PHYMJ11 / PHYMN11';
-            if (code === 'PHYMJ21' || code === 'PHYMN21') code = 'PHYMJ21 / PHYMN21';
-            if (code === 'STAMJ11' || code === 'STAMN11') code = 'STAMJ11 / STAMN11';
-            if (code === 'STAMJ21' || code === 'STAMN21') code = 'STAMJ21 / STAMN21';
-            if (code === 'CSCMJ11' || code === 'CSCMN11') code = 'CSCMJ11 / CSCMN11';
-            if (code === 'CSCMJ21' || code === 'CSCMN21') code = 'CSCMJ21 / CSCMN21';
-
-            if (!groups[targetSem][code]) {
-                groups[targetSem][code] = [];
+            if (!groups[semKey]) {
+                groups[semKey] = { title: semKey, courses: {} };
             }
-            groups[targetSem][code].push(p);
+
+            let nepCode = p.nepCode || p.code || 'General';
+            if (nepCode === 'MATMJ11' || nepCode === 'MATMN11') nepCode = 'MATMJ11 / MATMN11';
+            if (nepCode === 'MATMJ21' || nepCode === 'MATMN21') nepCode = 'MATMJ21 / MATMN21';
+            if (nepCode === 'PHYMJ11' || nepCode === 'PHYMN11') nepCode = 'PHYMJ11 / PHYMN11';
+            if (nepCode === 'PHYMJ21' || nepCode === 'PHYMN21') nepCode = 'PHYMJ21 / PHYMN21';
+            if (nepCode === 'STAMJ11' || nepCode === 'STAMN11') nepCode = 'STAMJ11 / STAMN11';
+            if (nepCode === 'STAMJ21' || nepCode === 'STAMN21') nepCode = 'STAMJ21 / STAMN21';
+            if (nepCode === 'CSCMJ11' || nepCode === 'CSCMN11') nepCode = 'CSCMJ11 / CSCMN11';
+            if (nepCode === 'CSCMJ21' || nepCode === 'CSCMN21') nepCode = 'CSCMJ21 / CSCMN21';
+
+            if (!groups[semKey].courses[nepCode]) {
+                groups[semKey].courses[nepCode] = [];
+            }
+            groups[semKey].courses[nepCode].push(p);
         });
+
+        return groups;
+    }
+
+    // Group papers by subject/department and then by nepCode (for MD / SEC / VAC / AEC pool subjects)
+    function groupPapersBySubjectAndCode(papers) {
+        const groups = {};
+
+        papers.forEach(p => {
+            let deptKey = 'General';
+            let deptTitle = 'General Subjects & Courses';
+            
+            const code = (p.code || p.nepCode || '').toUpperCase();
+            const dept = (p.department || '').toUpperCase();
+            const subj = (p.subject || '').toUpperCase();
+
+            if (code.includes('CIMS') || dept.includes('CIMS') || subj.includes('CIMS')) {
+                deptKey = 'DST-CIMS';
+                deptTitle = 'DST-CIMS';
+            } else if (code.startsWith('CSC') || dept.includes('COMPUTER') || subj.includes('COMPUTER')) {
+                deptKey = 'Computer Science';
+                deptTitle = 'Computer Science';
+            } else if (code.startsWith('CHE') || dept.includes('CHEMISTRY') || subj.includes('CHEMISTRY')) {
+                deptKey = 'Chemistry';
+                deptTitle = 'Chemistry';
+            } else if (code.startsWith('PHY') || dept.includes('PHYSICS') || subj.includes('PHYSICS')) {
+                deptKey = 'Physics';
+                deptTitle = 'Physics';
+            } else if (code.startsWith('MAT') || dept.includes('MATHEMATICS') || subj.includes('MATHEMATICS')) {
+                deptKey = 'Mathematics';
+                deptTitle = 'Mathematics';
+            } else if (code.startsWith('GGR') || dept.includes('GEOGRAPHY') || subj.includes('GEOGRAPHY')) {
+                deptKey = 'Geography';
+                deptTitle = 'Geography';
+            } else if (code.startsWith('STA') || dept.includes('STATISTICS') || subj.includes('STATISTICS')) {
+                deptKey = 'Statistics';
+                deptTitle = 'Statistics';
+            } else if (code.startsWith('ES') || dept.includes('GEOLOGY') || dept.includes('EARTH')) {
+                deptKey = 'Earth Science / Geology';
+                deptTitle = 'Earth Science / Geology';
+            } else if (code.startsWith('COM') || code.startsWith('BCF') || code.startsWith('BCH') || dept.includes('COMMERCE')) {
+                deptKey = 'Commerce';
+                deptTitle = 'Commerce';
+            } else if (code.startsWith('BOT') || dept.includes('BOTANY') || subj.includes('BOTANY')) {
+                deptKey = 'Botany';
+                deptTitle = 'Botany';
+            } else if (code.startsWith('ZOO') || dept.includes('ZOOLOGY') || subj.includes('ZOOLOGY')) {
+                deptKey = 'Zoology';
+                deptTitle = 'Zoology';
+            } else if (code.startsWith('BHUVA') || dept.includes('VALUE') || subj.includes('AYURVEDA') || subj.includes('ENVIRONMENTAL')) {
+                deptKey = 'Value Added & Ability Courses';
+                deptTitle = 'Value Added & Ability Courses';
+            } else if (p.department) {
+                deptKey = p.department;
+                deptTitle = p.department;
+            }
+
+            if (!groups[deptKey]) {
+                groups[deptKey] = {
+                    title: deptTitle,
+                    courses: {}
+                };
+            }
+
+            let nepCode = p.nepCode || p.code || 'General';
+            if (nepCode === 'MATMJ11' || nepCode === 'MATMN11') nepCode = 'MATMJ11 / MATMN11';
+            if (nepCode === 'MATMJ21' || nepCode === 'MATMN21') nepCode = 'MATMJ21 / MATMN21';
+            if (nepCode === 'PHYMJ11' || nepCode === 'PHYMN11') nepCode = 'PHYMJ11 / PHYMN11';
+            if (nepCode === 'PHYMJ21' || nepCode === 'PHYMN21') nepCode = 'PHYMJ21 / PHYMN21';
+            if (nepCode === 'STAMJ11' || nepCode === 'STAMN11') nepCode = 'STAMJ11 / STAMN11';
+            if (nepCode === 'STAMJ21' || nepCode === 'STAMN21') nepCode = 'STAMJ21 / STAMN21';
+            if (nepCode === 'CSCMJ11' || nepCode === 'CSCMN11') nepCode = 'CSCMJ11 / CSCMN11';
+            if (nepCode === 'CSCMJ21' || nepCode === 'CSCMN21') nepCode = 'CSCMJ21 / CSCMN21';
+
+            if (!groups[deptKey].courses[nepCode]) {
+                groups[deptKey].courses[nepCode] = [];
+            }
+            groups[deptKey].courses[nepCode].push(p);
+        });
+
         return groups;
     }
     let selectedSubCategory = null;
@@ -954,11 +1056,21 @@
             badge: 'AEC',
             color: 'blue',
             icon: 'psychology',
-            description: 'Language, Communication Skills, Environmental Science & Ability Courses...',
+            description: 'Language, Communication & Academic Writing Skills...',
             filter: p => {
                 const code = (p.code || p.nepCode || '').toUpperCase();
-                const subj = (p.subject || '').toUpperCase();
-                return code.includes('AEC') || code.includes('AE') || subj.includes('COMMUNICATION') || subj.includes('LANGUAGE') || subj.includes('ENVIRONMENTAL');
+                const nepCode = (p.nepCode || '').toUpperCase();
+                const courseType = (p.courseType || '').toUpperCase();
+                
+                if (code.startsWith('BHUVA') || nepCode.startsWith('BHUVA') || code.startsWith('AYUVA') || nepCode.startsWith('AYUVA') || code.includes('VAC') || nepCode.includes('VAC')) {
+                    return false;
+                }
+
+                return code.includes('AEC') || nepCode.includes('AEC') || 
+                       code.includes('ENGAE') || nepCode.includes('ENGAE') || 
+                       code.includes('HINAE') || nepCode.includes('HINAE') ||
+                       code.includes('SNAE') || nepCode.includes('SNAE') ||
+                       courseType === 'AEC';
             }
         },
         'vac': {
@@ -966,11 +1078,17 @@
             badge: 'VAC',
             color: 'emerald',
             icon: 'workspace_premium',
-            description: 'Ethics, Indian Knowledge Systems, Digital Empowerment & Value Education...',
+            description: 'Environmental Science & Ayurveda: Traditional Health Care...',
             filter: p => {
                 const code = (p.code || p.nepCode || '').toUpperCase();
+                const nepCode = (p.nepCode || '').toUpperCase();
                 const subj = (p.subject || '').toUpperCase();
-                return code.includes('VAC') || code.includes('V') || subj.includes('VALUE') || subj.includes('ETHICS');
+                const courseType = (p.courseType || '').toUpperCase();
+                
+                return code.startsWith('BHUVA') || nepCode.startsWith('BHUVA') || 
+                       code.startsWith('AYUVA') || nepCode.startsWith('AYUVA') ||
+                       (code.includes('VAC') && !code.includes('MV') && !code.includes('MN')) ||
+                       subj.includes('(VAC)') || courseType === 'VAC';
             }
         },
         'md': {
@@ -992,9 +1110,15 @@
             description: 'Web Designing, Programming, IT Tools & Practical Technical Skills...',
             filter: p => {
                 const code = (p.code || p.nepCode || '').toUpperCase();
+                const nepCode = (p.nepCode || '').toUpperCase();
                 const dept = (p.department || '').toUpperCase();
-                if (code.startsWith('ESSE')) return false;
-                return code.includes('SEC') || code.includes('-SE-') || code.includes('SE11') || code.includes('SE21') || code.includes('SE31') || dept === 'SEC';
+                const courseType = (p.courseType || '').toUpperCase();
+                const subj = (p.subject || '').toUpperCase();
+                const name = (p.name || '').toUpperCase();
+
+                return courseType.includes('SKILL') || courseType.includes('SEC') || 
+                       code.includes('SE') || nepCode.includes('SE') || 
+                       dept.includes('SEC') || subj.includes('(SEC)') || name.includes('(SEC)');
             }
         }
     };
@@ -1084,6 +1208,15 @@
         renderSemesterPapers(subPapers, catInfo);
     };
 
+    function formatSemText(sem) {
+        if (!sem) return '';
+        if (typeof sem === 'number') {
+            const roman = { 1: 'Sem I', 2: 'Sem II', 3: 'Sem III', 4: 'Sem IV', 5: 'Sem V', 6: 'Sem VI', 7: 'Sem VII', 8: 'Sem VIII' };
+            return roman[sem] || `Sem ${sem}`;
+        }
+        return String(sem).replace('Semester ', 'Sem ');
+    }
+
     function renderSemesterPapers(papersToRender, catInfo) {
         const container = document.getElementById('semestersContainer');
         container.innerHTML = '';
@@ -1104,40 +1237,35 @@
             container.insertAdjacentHTML('beforeend', topBarHTML);
         }
 
-        const grouped = groupPapersBySemesterAndCode(papersToRender);
+        const isPoolCategory = (deptKey === 'additional' || deptKey === 'optional');
+        const grouped = isPoolCategory ? groupPapersBySubjectAndCode(papersToRender) : groupPapersBySemesterAndCode(papersToRender);
         let hasAnyPaper = false;
 
-        const semRoman = {
-            1: 'Semester I',
-            2: 'Semester II',
-            3: 'Semester III',
-            4: 'Semester IV',
-            5: 'Semester V',
-            6: 'Semester VI',
-            7: 'Semester VII',
-            8: 'Semester VIII'
-        };
+        const deptKeys = Object.keys(grouped).sort();
 
-        for (let semNum = 1; semNum <= 8; semNum++) {
-            const codesMap = grouped[semNum];
-            const codesList = Object.keys(codesMap);
-            if (codesList.length === 0) continue;
+        deptKeys.forEach(dKey => {
+            const groupObj = grouped[dKey];
+            const courseCodes = Object.keys(groupObj.courses).sort();
+            if (courseCodes.length === 0) return;
             hasAnyPaper = true;
 
-            let semesterGroupsHTML = '';
-            
-            // Sort codes so they display logically
-            codesList.sort().forEach(nepCode => {
-                const papersList = codesMap[nepCode];
+            let coursesGroupsHTML = '';
+
+            courseCodes.forEach(nepCode => {
+                const papersList = groupObj.courses[nepCode];
                 if (papersList.length === 0) return;
-                
+
                 const courseName = NEP_COURSE_NAMES[nepCode] || papersList[0].subject || 'Course';
-                
+
                 let papersMarkup = '';
                 papersList.forEach(p => {
                     const fileUrl = encodeURIComponent(p.filePath);
                     const titleParam = encodeURIComponent(p.subject + ' (' + (p.nepCode || p.code) + ') ' + p.year);
                     const isNepGlow = p.isNepPaper || (p.year && (p.year.includes('2024-25') || p.year.includes('2024-2025') || p.year.includes('2025-2026')));
+                    
+                    const semBadge = formatSemText(p.semester);
+                    const termBadge = p.examType || (p.type || '');
+                    const metaBadges = [semBadge, termBadge, p.year].filter(Boolean).join(' • ');
 
                     if (isNepGlow) {
                         papersMarkup += `
@@ -1153,9 +1281,12 @@
                                                 <span class="w-1.5 h-1.5 rounded-full bg-white animate-ping"></span>
                                                 ORIGINAL NEP PYQ
                                             </span>
+                                            <span class="inline-flex items-center gap-1 bg-amber-500/10 text-amber-700 border border-amber-500/20 font-bold text-[9px] px-2 py-0.5 rounded-full uppercase tracking-wider">
+                                                ${metaBadges}
+                                            </span>
                                         </div>
                                         <p class="text-[10px] text-secondary mt-1">
-                                            NEP Paper Code: <span class="font-bold text-emerald-600">${p.nepCode}</span> / Exam: <span class="font-semibold text-primary/80">NEP Paper (${p.year})</span>
+                                            NEP Paper Code: <span class="font-bold text-emerald-600">${p.nepCode || p.code}</span> / Details: <span class="font-semibold text-primary/80">${metaBadges}</span>
                                         </p>
                                     </div>
                                 </div>
@@ -1175,7 +1306,10 @@
                                         <span class="material-symbols-outlined text-base">description</span>
                                     </div>
                                     <div>
-                                        <h4 class="font-bold text-xs text-primary leading-tight">${p.subject} (${p.year})</h4>
+                                        <div class="flex items-center gap-2 flex-wrap">
+                                            <h4 class="font-bold text-xs text-primary leading-tight">${p.subject} (${p.year})</h4>
+                                            <span class="bg-neutral-100 text-secondary text-[9px] font-bold px-2 py-0.5 rounded-full">${metaBadges}</span>
+                                        </div>
                                         <p class="text-[10px] text-secondary mt-0.5">Code: ${p.nepCode || p.code}</p>
                                     </div>
                                 </div>
@@ -1187,8 +1321,8 @@
                         `;
                     }
                 });
-                
-                semesterGroupsHTML += `
+
+                coursesGroupsHTML += `
                     <div class="space-y-2">
                         <h3 class="font-bold text-xs text-primary border-l-2 border-accent-neural-emerald pl-2 py-0.5">${courseName} <span class="text-secondary font-normal">(${nepCode})</span></h3>
                         <div class="space-y-2 pl-3">
@@ -1198,19 +1332,19 @@
                 `;
             });
 
-            const semesterHTML = `
+            const subjectGroupHTML = `
                 <div class="border border-border-subtle bg-white/20 backdrop-blur-md rounded-2xl p-5 md:p-6 space-y-4">
                     <div class="flex items-center gap-3 border-b border-border-subtle pb-2">
                         <span class="w-3.5 h-3.5 rounded-full bg-accent-bhu-saffron"></span>
-                        <h2 class="font-bold text-lg md:text-xl text-primary">${semRoman[semNum]}</h2>
+                        <h2 class="font-bold text-lg md:text-xl text-primary">${groupObj.title}</h2>
                     </div>
                     <div class="space-y-4">
-                        ${semesterGroupsHTML}
+                        ${coursesGroupsHTML}
                     </div>
                 </div>
             `;
-            container.insertAdjacentHTML('beforeend', semesterHTML);
-        }
+            container.insertAdjacentHTML('beforeend', subjectGroupHTML);
+        });
 
         if (!hasAnyPaper) {
             const emptyHTML = `

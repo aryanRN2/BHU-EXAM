@@ -2152,7 +2152,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Chemistry",
     "filePath": "aaa/chemistry/tex_files/CHB-02A_AncillaryChemistryI_SemII_2013-14.tex",
     "fileName": "CHB-02A_AncillaryChemistryI_SemII_2013-14.tex",
-    "nepCode": "CHEMD11",
+    "nepCode": "CHB-02A",
     "oldCode": "CHB-02A"
   },
   {
@@ -2164,7 +2164,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Chemistry",
     "filePath": "aaa/chemistry/tex_files/CHB-02A_AncillaryChemistryI_SemII_2023-24.tex",
     "fileName": "CHB-02A_AncillaryChemistryI_SemII_2023-24.tex",
-    "nepCode": "CHEMD11",
+    "nepCode": "CHB-02A",
     "oldCode": "CHB-02A"
   },
   {
@@ -2242,7 +2242,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Chemistry",
     "filePath": "aaa/chemistry/tex_files/CHB-04A_AncillaryChemistryII_SemIV_2013-14.tex",
     "fileName": "CHB-04A_AncillaryChemistryII_SemIV_2013-14.tex",
-    "nepCode": "CHEMD21",
+    "nepCode": "CHB-04A",
     "oldCode": "CHB-04A"
   },
   {
@@ -2254,7 +2254,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Chemistry",
     "filePath": "aaa/chemistry/tex_files/CHB-04A_AncillaryChemistryII_SemIV_2022-23.tex",
     "fileName": "CHB-04A_AncillaryChemistryII_SemIV_2022-23.tex",
-    "nepCode": "CHEMD21",
+    "nepCode": "CHB-04A",
     "oldCode": "CHB-04A"
   },
   {
@@ -2266,7 +2266,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Chemistry",
     "filePath": "aaa/chemistry/tex_files/CHB-04A_AncillaryChemistryII_SemIV_2023-24.tex",
     "fileName": "CHB-04A_AncillaryChemistryII_SemIV_2023-24.tex",
-    "nepCode": "CHEMD21",
+    "nepCode": "CHB-04A",
     "oldCode": "CHB-04A"
   },
   {
@@ -2454,7 +2454,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Chemistry",
     "filePath": "aaa/chemistry/tex_files/CHB-505_EnvironmentalChemistryandNuclearChemistry_SemV_2016-17.tex",
     "fileName": "CHB-505_EnvironmentalChemistryandNuclearChemistry_SemV_2016-17.tex",
-    "nepCode": "CHEMD31",
+    "nepCode": "CHB-505",
     "oldCode": "CHB-505"
   },
   {
@@ -2466,7 +2466,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Chemistry",
     "filePath": "aaa/chemistry/tex_files/CHB-505_EnvironmentalandNuclearChemistry_SemV_2022-23.tex",
     "fileName": "CHB-505_EnvironmentalandNuclearChemistry_SemV_2022-23.tex",
-    "nepCode": "CHEMD31",
+    "nepCode": "CHB-505",
     "oldCode": "CHB-505"
   },
   {
@@ -2747,7 +2747,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Semester_I/Business_Organisation/BCF114_BusinessOrganisation_SemI_2013-14.tex",
     "fileName": "BCF114_BusinessOrganisation_SemI_2013-14.tex",
-    "nepCode": "COMMD22 / COMFMN21",
+    "nepCode": "COMFMN21",
     "oldCode": "BCF-114"
   },
   {
@@ -2759,7 +2759,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Semester_I/Business_Organisation/BCF114_BusinessOrganisation_SemI_2016-17.tex",
     "fileName": "BCF114_BusinessOrganisation_SemI_2016-17.tex",
-    "nepCode": "COMMD22 / COMFMN21",
+    "nepCode": "COMFMN21",
     "oldCode": "BCF-114"
   },
   {
@@ -2771,7 +2771,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Semester_I/Business_Organisation/BCF114_BusinessOrganisation_SemI_2022-23.tex",
     "fileName": "BCF114_BusinessOrganisation_SemI_2022-23.tex",
-    "nepCode": "COMMD22 / COMFMN21",
+    "nepCode": "COMFMN21",
     "oldCode": "BCF-114"
   },
   {
@@ -2783,7 +2783,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Semester_I/Business_Organisation/BCF114_BusinessOrganisation_SemI_2023-24.tex",
     "fileName": "BCF114_BusinessOrganisation_SemI_2023-24.tex",
-    "nepCode": "COMMD22 / COMFMN21",
+    "nepCode": "COMFMN21",
     "oldCode": "BCF-114"
   },
   {
@@ -2794,7 +2794,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Semester_I/Business_Communication/BCF115_BusinessCommunication_SemI_2013-14.tex",
     "fileName": "BCF115_BusinessCommunication_SemI_2013-14.tex",
-    "nepCode": "COMFSE11",
     "oldCode": "BCF-115"
   },
   {
@@ -2805,7 +2804,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Semester_I/Business_Communication/BCF115_BusinessCommunication_SemI_2016-17.tex",
     "fileName": "BCF115_BusinessCommunication_SemI_2016-17.tex",
-    "nepCode": "COMFSE11",
     "oldCode": "BCF-115"
   },
   {
@@ -2816,7 +2814,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Semester_I/Business_Communication/BCF115_BusinessCommunication_SemI_2022-23.tex",
     "fileName": "BCF115_BusinessCommunication_SemI_2022-23.tex",
-    "nepCode": "COMFSE11",
     "oldCode": "BCF-115"
   },
   {
@@ -2827,7 +2824,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Semester_I/Business_Communication/BCF115_BusinessCommunication_SemI_2023-24.tex",
     "fileName": "BCF115_BusinessCommunication_SemI_2023-24.tex",
-    "nepCode": "COMFSE11",
     "oldCode": "BCF-115"
   },
   {
@@ -3003,7 +2999,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Semester_I/Monetary_Theory/BCH114_MonetaryTheory_SemI_2013-14.tex",
     "fileName": "BCH114_MonetaryTheory_SemI_2013-14.tex",
-    "nepCode": "COMSE21 / COMFSE21",
     "oldCode": "BCH-114"
   },
   {
@@ -3014,7 +3009,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Semester_I/Monetary_Theory/BCH114_MonetaryTheory_SemI_2016-17.tex",
     "fileName": "BCH114_MonetaryTheory_SemI_2016-17.tex",
-    "nepCode": "COMSE21 / COMFSE21",
     "oldCode": "BCH-114"
   },
   {
@@ -3025,7 +3019,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Semester_I/Monetary_Theory/BCH114_MonetaryTheory_SemI_2022-23.tex",
     "fileName": "BCH114_MonetaryTheory_SemI_2022-23.tex",
-    "nepCode": "COMSE21 / COMFSE21",
     "oldCode": "BCH-114"
   },
   {
@@ -3036,7 +3029,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Semester_I/Monetary_Theory/BCH114_MonetaryTheory_SemI_2023-24.tex",
     "fileName": "BCH114_MonetaryTheory_SemI_2023-24.tex",
-    "nepCode": "COMSE21 / COMFSE21",
     "oldCode": "BCH-114"
   },
   {
@@ -3213,7 +3205,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Financial_Accounting/BCF123_FundamentalOfAccounting_SemII_2021-22.tex",
     "fileName": "BCF123_FundamentalOfAccounting_SemII_2021-22.tex",
-    "nepCode": "COMMD21 / COMMJ11",
+    "nepCode": "COMMJ11",
     "oldCode": "BCF-123",
     "isNepPaper": true
   },
@@ -3226,7 +3218,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Financial_Accounting/BCF123_FundamentalOfAccounting_SemII_2022-23.tex",
     "fileName": "BCF123_FundamentalOfAccounting_SemII_2022-23.tex",
-    "nepCode": "COMMD21 / COMMJ11",
+    "nepCode": "COMMJ11",
     "oldCode": "BCF-123",
     "isNepPaper": true
   },
@@ -3239,7 +3231,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Financial_Accounting/BCF123_FundamentalOfAccounting_SemII_2023-24.tex",
     "fileName": "BCF123_FundamentalOfAccounting_SemII_2023-24.tex",
-    "nepCode": "COMMD21 / COMMJ11",
+    "nepCode": "COMMJ11",
     "oldCode": "BCF-123",
     "isNepPaper": true
   },
@@ -3273,7 +3265,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Fundamentals_of_Banking/BCF125_FundamentalsOfBanking_SemII_2021-22.tex",
     "fileName": "BCF125_FundamentalsOfBanking_SemII_2021-22.tex",
-    "nepCode": "COMFSE21 / COMMJ82",
+    "nepCode": "COMMJ82",
     "oldCode": "BCF-125"
   },
   {
@@ -3284,7 +3276,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Fundamentals_of_Banking/BCF125_FundamentalsOfBanking_SemII_2022-23.tex",
     "fileName": "BCF125_FundamentalsOfBanking_SemII_2022-23.tex",
-    "nepCode": "COMFSE21 / COMMJ82",
+    "nepCode": "COMMJ82",
     "oldCode": "BCF-125"
   },
   {
@@ -3295,7 +3287,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Fundamentals_of_Banking/BCF125_FundamentalsOfBanking_SemII_2023-24.tex",
     "fileName": "BCF125_FundamentalsOfBanking_SemII_2023-24.tex",
-    "nepCode": "COMFSE21 / COMMJ82",
+    "nepCode": "COMMJ82",
     "oldCode": "BCF-125"
   },
   {
@@ -3329,7 +3321,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Business_Organisation/BCH121_BusinessOrganisation_SemII_2014-15.tex",
     "fileName": "BCH121_BusinessOrganisation_SemII_2014-15.tex",
-    "nepCode": "COMMD22 / COMFMN21",
+    "nepCode": "COMFMN21",
     "oldCode": "BCH-121"
   },
   {
@@ -3341,7 +3333,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Business_Organisation/BCH121_BusinessOrganisation_SemII_2015-16.tex",
     "fileName": "BCH121_BusinessOrganisation_SemII_2015-16.tex",
-    "nepCode": "COMMD22 / COMFMN21",
+    "nepCode": "COMFMN21",
     "oldCode": "BCH-121"
   },
   {
@@ -3353,7 +3345,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Business_Organisation/BCH121_BusinessOrganisation_SemII_2021-22.tex",
     "fileName": "BCH121_BusinessOrganisation_SemII_2021-22.tex",
-    "nepCode": "COMMD22 / COMFMN21",
+    "nepCode": "COMFMN21",
     "oldCode": "BCH-121"
   },
   {
@@ -3365,7 +3357,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Business_Organisation/BCH121_BusinessOrganisation_SemII_2022-23.tex",
     "fileName": "BCH121_BusinessOrganisation_SemII_2022-23.tex",
-    "nepCode": "COMMD22 / COMFMN21",
+    "nepCode": "COMFMN21",
     "oldCode": "BCH-121"
   },
   {
@@ -3377,7 +3369,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Business_Organisation/BCH121_BusinessOrganisation_SemII_2023-24.tex",
     "fileName": "BCH121_BusinessOrganisation_SemII_2023-24.tex",
-    "nepCode": "COMMD22 / COMFMN21",
+    "nepCode": "COMFMN21",
     "oldCode": "BCH-121"
   },
   {
@@ -3432,7 +3424,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Banking_and_Financial_Institutions/BCH123_BankingAndFinancialInstitutions_SemII_2014-15.tex",
     "fileName": "BCH123_BankingAndFinancialInstitutions_SemII_2014-15.tex",
-    "nepCode": "COMFSE21 / COMMJ82",
+    "nepCode": "COMMJ82",
     "oldCode": "BCH-123"
   },
   {
@@ -3443,7 +3435,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Banking_and_Financial_Institutions/BCH123_BankingAndFinancialInstitutions_SemII_2015-16.tex",
     "fileName": "BCH123_BankingAndFinancialInstitutions_SemII_2015-16.tex",
-    "nepCode": "COMFSE21 / COMMJ82",
+    "nepCode": "COMMJ82",
     "oldCode": "BCH-123"
   },
   {
@@ -3454,7 +3446,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Banking_and_Financial_Institutions/BCH123_BankingAndFinancialInstitutions_SemII_2021-22.tex",
     "fileName": "BCH123_BankingAndFinancialInstitutions_SemII_2021-22.tex",
-    "nepCode": "COMFSE21 / COMMJ82",
+    "nepCode": "COMMJ82",
     "oldCode": "BCH-123"
   },
   {
@@ -3465,7 +3457,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Banking_and_Financial_Institutions/BCH123_BankingAndFinancialInstitutions_SemII_2022-23.tex",
     "fileName": "BCH123_BankingAndFinancialInstitutions_SemII_2022-23.tex",
-    "nepCode": "COMFSE21 / COMMJ82",
+    "nepCode": "COMMJ82",
     "oldCode": "BCH-123"
   },
   {
@@ -3476,7 +3468,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Banking_and_Financial_Institutions/BCH123_BankingAndFinancialInstitutions_SemII_2023-24.tex",
     "fileName": "BCH123_BankingAndFinancialInstitutions_SemII_2023-24.tex",
-    "nepCode": "COMFSE21 / COMMJ82",
+    "nepCode": "COMMJ82",
     "oldCode": "BCH-123"
   },
   {
@@ -3487,7 +3479,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Business_Entrepreneurship/BCH124_BusinessEntrepreneurship_SemII_2014-15.tex",
     "fileName": "BCH124_BusinessEntrepreneurship_SemII_2014-15.tex",
-    "nepCode": "COMSE11 / COMFSE31",
     "oldCode": "BCH-124"
   },
   {
@@ -3498,7 +3489,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Business_Entrepreneurship/BCH124_BusinessEntrepreneurship_SemII_2015-16.tex",
     "fileName": "BCH124_BusinessEntrepreneurship_SemII_2015-16.tex",
-    "nepCode": "COMSE11 / COMFSE31",
     "oldCode": "BCH-124"
   },
   {
@@ -3509,7 +3499,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Business_Entrepreneurship/BCH124_BusinessEntrepreneurship_SemII_2021-22.tex",
     "fileName": "BCH124_BusinessEntrepreneurship_SemII_2021-22.tex",
-    "nepCode": "COMSE11 / COMFSE31",
     "oldCode": "BCH-124"
   },
   {
@@ -3520,7 +3509,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Business_Entrepreneurship/BCH124_BusinessEntrepreneurship_SemII_2022-23.tex",
     "fileName": "BCH124_BusinessEntrepreneurship_SemII_2022-23.tex",
-    "nepCode": "COMSE11 / COMFSE31",
     "oldCode": "BCH-124"
   },
   {
@@ -3531,7 +3519,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Business_Entrepreneurship/BCH124_BusinessEntrepreneurship_SemII_2023-24.tex",
     "fileName": "BCH124_BusinessEntrepreneurship_SemII_2023-24.tex",
-    "nepCode": "COMSE11 / COMFSE31",
     "oldCode": "BCH-124"
   },
   {
@@ -3597,7 +3584,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/IT_and_Business_Communication/BCH126_ITAndBusinessCommunication_SemII_2014-15.tex",
     "fileName": "BCH126_ITAndBusinessCommunication_SemII_2014-15.tex",
-    "nepCode": "COMFSE11 / COMFMV31",
+    "nepCode": "COMFMV31",
     "oldCode": "BCH-126"
   },
   {
@@ -3608,7 +3595,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/IT_and_Business_Communication/BCH126_ITAndBusinessCommunication_SemII_2015-16.tex",
     "fileName": "BCH126_ITAndBusinessCommunication_SemII_2015-16.tex",
-    "nepCode": "COMFSE11 / COMFMV31",
+    "nepCode": "COMFMV31",
     "oldCode": "BCH-126"
   },
   {
@@ -3619,7 +3606,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/IT_and_Business_Communication/BCH126_ITAndBusinessCommunication_SemII_2021-22.tex",
     "fileName": "BCH126_ITAndBusinessCommunication_SemII_2021-22.tex",
-    "nepCode": "COMFSE11 / COMFMV31",
+    "nepCode": "COMFMV31",
     "oldCode": "BCH-126"
   },
   {
@@ -3630,7 +3617,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/IT_and_Business_Communication/BCH126_ITAndBusinessCommunication_SemII_2022-23.tex",
     "fileName": "BCH126_ITAndBusinessCommunication_SemII_2022-23.tex",
-    "nepCode": "COMFSE11 / COMFMV31",
+    "nepCode": "COMFMV31",
     "oldCode": "BCH-126"
   },
   {
@@ -3641,7 +3628,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/IT_and_Business_Communication/BCH126_ITAndBusinessCommunication_SemII_2023-24.tex",
     "fileName": "BCH126_ITAndBusinessCommunication_SemII_2023-24.tex",
-    "nepCode": "COMFSE11 / COMFMV31",
+    "nepCode": "COMFMV31",
     "oldCode": "BCH-126"
   },
   {
@@ -3773,7 +3760,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Semester_III/Corporate_Auditing/BCF214_CorporateAuditing_SemIII_2013-14.tex",
     "fileName": "BCF214_CorporateAuditing_SemIII_2013-14.tex",
-    "nepCode": "COMSE32 / COMFMJ53",
+    "nepCode": "COMFMJ53",
     "oldCode": "BCF-214"
   },
   {
@@ -3784,7 +3771,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Semester_III/Corporate_Auditing/BCF214_CorporateAuditing_SemIII_2022-23.tex",
     "fileName": "BCF214_CorporateAuditing_SemIII_2022-23.tex",
-    "nepCode": "COMSE32 / COMFMJ53",
+    "nepCode": "COMFMJ53",
     "oldCode": "BCF-214"
   },
   {
@@ -3795,7 +3782,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Semester_III/Corporate_Auditing/BCF214_CorporateAuditing_SemIII_2023-24.tex",
     "fileName": "BCF214_CorporateAuditing_SemIII_2023-24.tex",
-    "nepCode": "COMSE32 / COMFMJ53",
+    "nepCode": "COMFMJ53",
     "oldCode": "BCF-214"
   },
   {
@@ -4246,7 +4233,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Semester_IV/Indian_Fiscal_Management/BCF225_IndianFiscalManagement_SemIV_2015-16.tex",
     "fileName": "BCF225_IndianFiscalManagement_SemIV_2015-16.tex",
-    "nepCode": "COMSE31 / COMFSE22",
     "oldCode": "BCF-225"
   },
   {
@@ -4257,7 +4243,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Semester_IV/Indian_Fiscal_Management/BCF225_IndianFiscalManagement_SemIV_2022-23.tex",
     "fileName": "BCF225_IndianFiscalManagement_SemIV_2022-23.tex",
-    "nepCode": "COMSE31 / COMFSE22",
     "oldCode": "BCF-225"
   },
   {
@@ -4268,7 +4253,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Semester_IV/Indian_Fiscal_Management/BCF225_IndianFiscalManagement_SemIV_2023-24.tex",
     "fileName": "BCF225_IndianFiscalManagement_SemIV_2023-24.tex",
-    "nepCode": "COMSE31 / COMFSE22",
     "oldCode": "BCF-225"
   },
   {
@@ -4477,7 +4461,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Semester_IV/Public_Finance/BCH225_PublicFinance_SemIV_2015-16.tex",
     "fileName": "BCH225_PublicFinance_SemIV_2015-16.tex",
-    "nepCode": "COMSE31 / COMFSE22",
     "oldCode": "BCH-225"
   },
   {
@@ -4488,7 +4471,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Semester_IV/Public_Finance/BCH225_PublicFinance_SemIV_2022-23.tex",
     "fileName": "BCH225_PublicFinance_SemIV_2022-23.tex",
-    "nepCode": "COMSE31 / COMFSE22",
     "oldCode": "BCH-225"
   },
   {
@@ -4499,7 +4481,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Semester_IV/Public_Finance/BCH225_PublicFinance_SemIV_2023-24.tex",
     "fileName": "BCH225_PublicFinance_SemIV_2023-24.tex",
-    "nepCode": "COMSE31 / COMFSE22",
     "oldCode": "BCH-225"
   },
   {
@@ -4730,7 +4711,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Semester_V/Auditing/BCH315_Auditing_SemV_2013-14.tex",
     "fileName": "BCH315_Auditing_SemV_2013-14.tex",
-    "nepCode": "COMSE32 / COMFMJ53",
+    "nepCode": "COMFMJ53",
     "oldCode": "BCH-315"
   },
   {
@@ -4741,7 +4722,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Commerce",
     "filePath": "COMMERCE_LATEX/Semester_V/Auditing/BCH315_Auditing_SemV_2022-23.tex",
     "fileName": "BCH315_Auditing_SemV_2022-23.tex",
-    "nepCode": "COMSE32 / COMFMJ53",
+    "nepCode": "COMFMJ53",
     "oldCode": "BCH-315"
   },
   {
@@ -5141,53 +5122,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "ECH-M327"
   },
   {
-    "code": "CSCMD11",
-    "courseType": "Multidisciplinary",
-    "subject": "Introduction To Computers",
-    "semester": 1,
-    "year": "2022-23",
-    "department": "Computer Science",
-    "filePath": "aaa/cs/BVCA-101_IntroductionToComputers_SemI_2022-23_BVoc.tex",
-    "fileName": "BVCA-101_IntroductionToComputers_SemI_2022-23_BVoc.tex",
-    "nepCode": "CSCMD11",
-    "oldCode": "BVCA-101"
-  },
-  {
-    "code": "CSCMV31",
-    "subject": "Office Automation",
-    "semester": 1,
-    "year": "2022-23",
-    "department": "Computer Science",
-    "filePath": "aaa/cs/BVCA-102_FundamentalsOfArtificialIntelligence_SemI_2022-23_BVoc.tex",
-    "fileName": "BVCA-102_FundamentalsOfArtificialIntelligence_SemI_2022-23_BVoc.tex",
-    "nepCode": "CSCMV31",
-    "oldCode": "BVCA-102"
-  },
-  {
-    "code": "CSCMD11",
-    "courseType": "Multidisciplinary",
-    "subject": "PC Hardware Troubleshooting",
-    "semester": 1,
-    "year": "2022-23a",
-    "department": "Computer Science",
-    "filePath": "aaa/cs/BVCA-103_AppliedMathematics_SemI_2022-23a_BVoc.tex",
-    "fileName": "BVCA-103_AppliedMathematics_SemI_2022-23a_BVoc.tex",
-    "nepCode": "CSCMD11",
-    "oldCode": "BVCA-103"
-  },
-  {
-    "code": "CSCMD11",
-    "courseType": "Multidisciplinary",
-    "subject": "PC Hardware Troubleshooting",
-    "semester": 1,
-    "year": "2022-23",
-    "department": "Computer Science",
-    "filePath": "aaa/cs/BVCA-103b_AppliedMathematics_SemI_2022-23_BVoc.tex",
-    "fileName": "BVCA-103b_AppliedMathematics_SemI_2022-23_BVoc.tex",
-    "nepCode": "CSCMD11",
-    "oldCode": "BVCA-103b"
-  },
-  {
     "code": "CSCMJ11",
     "subject": "Problem Solving C",
     "semester": 1,
@@ -5221,17 +5155,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-101"
   },
   {
-    "code": "CSCMV11",
-    "subject": "Communication Skills",
-    "semester": 1,
-    "year": "2022-23",
-    "department": "Computer Science",
-    "filePath": "aaa/cs/GEN-101_CommunicationSkills_SemI_2022-23_BVoc.tex",
-    "fileName": "GEN-101_CommunicationSkills_SemI_2022-23_BVoc.tex",
-    "nepCode": "CSCMV11",
-    "oldCode": "GEN-101"
-  },
-  {
     "code": "CSCMJ12",
     "subject": "Management Concepts and Strategic Management",
     "semester": 1,
@@ -5252,18 +5175,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "fileName": "BCS-201_DigitalLogicCircuits_SemII_2013-14_BSc.tex",
     "nepCode": "CSCMJ31",
     "oldCode": "BCS-201"
-  },
-  {
-    "code": "CSCMD21",
-    "courseType": "Multidisciplinary",
-    "subject": "Fundamentals Of Computers",
-    "semester": 2,
-    "year": "2013-14",
-    "department": "Computer Science",
-    "filePath": "aaa/cs/BCS-203_FundamentalsOfComputers_SemII_2013-14_BSc.tex",
-    "fileName": "BCS-203_FundamentalsOfComputers_SemII_2013-14_BSc.tex",
-    "nepCode": "CSCMD21",
-    "oldCode": "BCS-203"
   },
   {
     "code": "CSCMJ42",
@@ -5310,61 +5221,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "BVCA-202"
   },
   {
-    "code": "CSCMV31",
-    "subject": "Technical Documentation Communication",
-    "semester": 2,
-    "year": "2021-22",
-    "department": "Computer Science",
-    "filePath": "aaa/cs/BVCA-203_TechnicalDocumentationCommunication_SemII_2021-22_BVoc.tex",
-    "fileName": "BVCA-203_TechnicalDocumentationCommunication_SemII_2021-22_BVoc.tex",
-    "nepCode": "CSCMV31",
-    "oldCode": "BVCA-203"
-  },
-  {
-    "code": "CSCSE21",
-    "subject": "Tech Entrepreneurship IPR",
-    "semester": 2,
-    "year": "2021-22",
-    "department": "Computer Science",
-    "filePath": "aaa/cs/BVCA-204_TechEntrepreneurshipIPR_SemII_2021-22_BVoc.tex",
-    "fileName": "BVCA-204_TechEntrepreneurshipIPR_SemII_2021-22_BVoc.tex",
-    "nepCode": "CSCSE21",
-    "oldCode": "BVCA-204"
-  },
-  {
-    "code": "CSCSE21",
-    "subject": "Tech Entrepreneurship IPR",
-    "semester": 2,
-    "year": "2022-23",
-    "department": "Computer Science",
-    "filePath": "aaa/cs/BVCA-204_TechEntrepreneurshipIPR_SemII_2022-23_BVoc.tex",
-    "fileName": "BVCA-204_TechEntrepreneurshipIPR_SemII_2022-23_BVoc.tex",
-    "nepCode": "CSCSE21",
-    "oldCode": "BVCA-204"
-  },
-  {
-    "code": "CSCSE31",
-    "subject": "Skill Training Python",
-    "semester": 2,
-    "year": "2021-22",
-    "department": "Computer Science",
-    "filePath": "aaa/cs/BVCA-205_SkillTrainingPython_SemII_2021-22_BVoc.tex",
-    "fileName": "BVCA-205_SkillTrainingPython_SemII_2021-22_BVoc.tex",
-    "nepCode": "CSCSE31",
-    "oldCode": "BVCA-205"
-  },
-  {
-    "code": "CSCSE31",
-    "subject": "Skill Training Python",
-    "semester": 2,
-    "year": "2022-23",
-    "department": "Computer Science",
-    "filePath": "aaa/cs/BVCA-205_SkillTrainingPython_SemII_2022-23_BVoc.tex",
-    "fileName": "BVCA-205_SkillTrainingPython_SemII_2022-23_BVoc.tex",
-    "nepCode": "CSCSE31",
-    "oldCode": "BVCA-205"
-  },
-  {
     "code": "CSCMJ31",
     "subject": "Digital Logics And Circuits",
     "semester": 2,
@@ -5385,28 +5241,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "fileName": "CS-102_ObjectOrientedProgramming_SemII_2023-24_BSc.tex",
     "nepCode": "CSCMJ32",
     "oldCode": "CS-102"
-  },
-  {
-    "code": "CSCSE11",
-    "subject": "Website Designing",
-    "semester": 2,
-    "year": "2021-22",
-    "department": "Computer Science",
-    "filePath": "aaa/cs/GEN-201_WebsiteDesigning_SemII_2021-22_BVoc.tex",
-    "fileName": "GEN-201_WebsiteDesigning_SemII_2021-22_BVoc.tex",
-    "nepCode": "CSCSE11",
-    "oldCode": "GEN-201"
-  },
-  {
-    "code": "CSCSE31",
-    "subject": "Programming In Python",
-    "semester": 2,
-    "year": "2021-22",
-    "department": "Computer Science",
-    "filePath": "aaa/cs/GEN-202_ProgrammingInPython_SemII_2021-22_BVoc.tex",
-    "fileName": "GEN-202_ProgrammingInPython_SemII_2021-22_BVoc.tex",
-    "nepCode": "CSCSE31",
-    "oldCode": "GEN-202"
   },
   {
     "code": "CSCMJ44",
@@ -5607,18 +5441,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "oldCode": "CS-104"
   },
   {
-    "code": "CSCMD21",
-    "courseType": "Multidisciplinary",
-    "subject": "Fundamentals Of Computing",
-    "semester": 4,
-    "year": "2013-14",
-    "department": "Computer Science",
-    "filePath": "aaa/cs/BCS-403_FundamentalsOfComputing_SemIV_2013-14_BSc.tex",
-    "fileName": "BCS-403_FundamentalsOfComputing_SemIV_2013-14_BSc.tex",
-    "nepCode": "CSCMD21",
-    "oldCode": "BCS-403"
-  },
-  {
     "code": "CSCMJ11",
     "subject": "Intro To Computer Programming C",
     "semester": 4,
@@ -5738,30 +5560,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "fileName": "BVCA-404_Microprocessor_SemIV_2023-24_BVoc.tex",
     "nepCode": "CSCMJ43",
     "oldCode": "BVCA-404"
-  },
-  {
-    "code": "CSCMD31",
-    "courseType": "Multidisciplinary",
-    "subject": "Information Security",
-    "semester": 4,
-    "year": "2022-23",
-    "department": "Computer Science",
-    "filePath": "aaa/cs/BVCA-405_AndroidProgramming_SemIV_2022-23_BVoc.tex",
-    "fileName": "BVCA-405_AndroidProgramming_SemIV_2022-23_BVoc.tex",
-    "nepCode": "CSCMD31",
-    "oldCode": "BVCA-405"
-  },
-  {
-    "code": "CSCMD31",
-    "courseType": "Multidisciplinary",
-    "subject": "Information Security",
-    "semester": 4,
-    "year": "2023-24",
-    "department": "Computer Science",
-    "filePath": "aaa/cs/BVCA-405_AndroidProgramming_SemIV_2023-24_BVoc.tex",
-    "fileName": "BVCA-405_AndroidProgramming_SemIV_2023-24_BVoc.tex",
-    "nepCode": "CSCMD31",
-    "oldCode": "BVCA-405"
   },
   {
     "code": "CSCMJ43",
@@ -6080,7 +5878,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Geography",
     "filePath": "aaa/geography/GRA-101_PhysicalBasisOfGeography_SemI_2022-23_BA.tex",
     "fileName": "GRA-101_PhysicalBasisOfGeography_SemI_2022-23_BA.tex",
-    "nepCode": "GGRMJ11 / GGRMN11 / GGRMD11",
+    "nepCode": "GGRMJ11 / GGRMN11",
     "oldCode": "GRA-101"
   },
   {
@@ -6092,7 +5890,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Geography",
     "filePath": "aaa/geography/GRA-101_PhysicalBasisOfGeography_SemI_2023-24_BA.tex",
     "fileName": "GRA-101_PhysicalBasisOfGeography_SemI_2023-24_BA.tex",
-    "nepCode": "GGRMJ11 / GGRMN11 / GGRMD11",
+    "nepCode": "GGRMJ11 / GGRMN11",
     "oldCode": "GRA-101"
   },
   {
@@ -6104,7 +5902,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Geography",
     "filePath": "aaa/geography/GRB-101_PhysicalBasisOfGeography_SemI_2022-23_BSc.tex",
     "fileName": "GRB-101_PhysicalBasisOfGeography_SemI_2022-23_BSc.tex",
-    "nepCode": "GGRMJ11 / GGRMN11 / GGRMD11",
+    "nepCode": "GGRMJ11 / GGRMN11",
     "oldCode": "GRB-101"
   },
   {
@@ -6116,7 +5914,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Geography",
     "filePath": "aaa/geography/GRB-101_PhysicalBasisOfGeography_SemI_2023-24_BSc.tex",
     "fileName": "GRB-101_PhysicalBasisOfGeography_SemI_2023-24_BSc.tex",
-    "nepCode": "GGRMJ11 / GGRMN11 / GGRMD11",
+    "nepCode": "GGRMJ11 / GGRMN11",
     "oldCode": "GRB-101"
   },
   {
@@ -6171,7 +5969,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Geography",
     "filePath": "aaa/geography/GRB-203A_ManAndEnvironment_SemII_2013-14_BSc.tex",
     "fileName": "GRB-203A_ManAndEnvironment_SemII_2013-14_BSc.tex",
-    "nepCode": "GGRSE11",
     "oldCode": "GRB-203A"
   },
   {
@@ -6336,7 +6133,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Geography",
     "filePath": "aaa/geography/GRB-403A_BasicsOfRemoteSensing_SemIV_2013-14_BSc.tex",
     "fileName": "GRB-403A_BasicsOfRemoteSensing_SemIV_2013-14_BSc.tex",
-    "nepCode": "GGRSE21",
     "oldCode": "GRB-403A"
   },
   {
@@ -6347,7 +6143,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Geography",
     "filePath": "aaa/geography/GRB-403A_BasicsOfRemoteSensing_SemIV_2023-24_BSc.tex",
     "fileName": "GRB-403A_BasicsOfRemoteSensing_SemIV_2023-24_BSc.tex",
-    "nepCode": "GGRSE21",
     "oldCode": "GRB-403A"
   },
   {
@@ -6447,7 +6242,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Geology",
     "filePath": "aaa/geology/GLB-101_ElementaryPhysicalStructuralGeology_SemI_2016-17_BSc.tex",
     "fileName": "GLB-101_ElementaryPhysicalStructuralGeology_SemI_2016-17_BSc.tex",
-    "nepCode": "GLBMJ11 / GLBMN11 / GLBMD11",
+    "nepCode": "GLBMJ11 / GLBMN11",
     "oldCode": "GLB-101"
   },
   {
@@ -6459,7 +6254,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Geology",
     "filePath": "aaa/geology/GLB-101_ElementaryPhysicalStructuralGeology_SemI_2022-23_BSc.tex",
     "fileName": "GLB-101_ElementaryPhysicalStructuralGeology_SemI_2022-23_BSc.tex",
-    "nepCode": "GLBMJ11 / GLBMN11 / GLBMD11",
+    "nepCode": "GLBMJ11 / GLBMN11",
     "oldCode": "GLB-101"
   },
   {
@@ -6471,7 +6266,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Geology",
     "filePath": "aaa/geology/GLB-101_ElementaryPhysicalStructuralGeology_SemI_2023-24_BSc.tex",
     "fileName": "GLB-101_ElementaryPhysicalStructuralGeology_SemI_2023-24_BSc.tex",
-    "nepCode": "GLBMJ11 / GLBMN11 / GLBMD11",
+    "nepCode": "GLBMJ11 / GLBMN11",
     "oldCode": "GLB-101"
   },
   {
@@ -6956,7 +6751,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-203A_AncillaryI_BSc-SemII_2023-24.tex",
     "fileName": "MTB-203A_AncillaryI_BSc-SemII_2023-24.tex",
-    "nepCode": "MATMD11",
+    "nepCode": "MTB-203A",
     "oldCode": "MTB-203A / MTB-AM-203"
   },
   {
@@ -6968,7 +6763,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/AncillaryI_BSc-SemII_2013-14.tex",
     "fileName": "AncillaryI_BSc-SemII_2013-14.tex",
-    "nepCode": "MATMD11",
+    "nepCode": "MTB-AM-203",
     "oldCode": "MTB-203A / MTB-AM-203"
   },
   {
@@ -6980,7 +6775,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-AM-203_AncillaryI_BSc-SemII_2013-14.tex",
     "fileName": "MTB-AM-203_AncillaryI_BSc-SemII_2013-14.tex",
-    "nepCode": "MATMD11",
+    "nepCode": "MTB-AM-203",
     "oldCode": "MTB-203A / MTB-AM-203"
   },
   {
@@ -6992,7 +6787,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/AncillaryMaths_BSc-SemII_2013-14.tex",
     "fileName": "AncillaryMaths_BSc-SemII_2013-14.tex",
-    "nepCode": "MATMD11",
+    "nepCode": "MTB-Unknown",
     "oldCode": "MTB-Unknown"
   },
   {
@@ -7026,7 +6821,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/MTB-AM-403_AncillaryMaths_BSc-SemIV_2023-24.tex",
     "fileName": "MTB-AM-403_AncillaryMaths_BSc-SemIV_2023-24.tex",
-    "nepCode": "MATMD21",
+    "nepCode": "MTB-AM-403",
     "oldCode": "MTB-AM-403"
   },
   {
@@ -7049,7 +6844,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Mathematics",
     "filePath": "aaa/latest corrected maths pdf/final maths export latex/AncillaryII_BSc-SemIV_2013-14.tex",
     "fileName": "AncillaryII_BSc-SemIV_2013-14.tex",
-    "nepCode": "MATMD21",
+    "nepCode": "MTB-Unknown",
     "oldCode": "MTB-Unknown"
   },
   {
@@ -8011,7 +7806,7 @@ export const NEP_LATEX_PYQ_DATA = [
     "department": "Statistics",
     "filePath": "aaa/STATISTIC/tex_files/BAS-101_AppliedStatistics_SemI_2022-23_BA.tex",
     "fileName": "BAS-101_AppliedStatistics_SemI_2022-23_BA.tex",
-    "nepCode": "STAMD11",
+    "nepCode": "BAS-101",
     "oldCode": "BAS-101"
   },
   {

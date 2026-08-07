@@ -224,7 +224,8 @@ const server = http.createServer(async (req, res) => {
         // Hotlink / Referer check
         const referer = req.headers.referer || '';
         const host = req.headers.host || '';
-        if (!referer || !referer.includes(host)) {
+        const isLocalHostReq = host.includes('localhost') || host.includes('127.0.0.1');
+        if (!isLocalHostReq && (!referer || !referer.includes(host))) {
             res.writeHead(403, { 'Content-Type': 'application/json' });
             res.end(JSON.stringify({ error: 'Access Forbidden: Direct API requests are blocked' }));
             return;
@@ -390,7 +391,7 @@ const server = http.createServer(async (req, res) => {
 
     const pathParts = decodedPathname.split('/');
     const isDotfile = pathParts.some(part => part.startsWith('.'));
-    const forbiddenFiles = ['package.json', 'package-lock.json', 'server.js', 'vercel.json', '.env', '.tex'];
+    const forbiddenFiles = ['package.json', 'package-lock.json', 'server.js', 'vercel.json', '.env'];
     const isForbiddenFile = forbiddenFiles.some(file => decodedPathname.endsWith(file));
     const isBlockedDir = decodedPathname.includes('/scratch/') || decodedPathname.includes('/api/') || decodedPathname.includes('/node_modules/');
     const isRootScript = pathParts.length === 2 && decodedPathname.endsWith('.js');

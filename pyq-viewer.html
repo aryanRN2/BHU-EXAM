@@ -1520,8 +1520,28 @@
                 }
             }, 3000);
 
+            function isAppOrLocal() {
+                return !!(
+                    window.Capacitor ||
+                    window.location.hostname === 'localhost' ||
+                    window.location.hostname === '127.0.0.1' ||
+                    window.location.protocol === 'file:' ||
+                    window.location.protocol === 'capacitor:'
+                );
+            }
+
             function fetchEncryptedTex(filePath) {
-                return fetch(`/api/pyq?file=${encodeURIComponent(filePath)}`)
+                if (!filePath) return Promise.reject(new Error("Empty file path"));
+                const cleanPath = filePath.startsWith('/') ? filePath.substring(1) : filePath;
+                const cloudBase = 'https://sciqb.com';
+                const isLocalHost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+                
+                // When running locally on dev server, try local /api/pyq first!
+                const primaryUrl = isLocalHost
+                    ? `/api/pyq?file=${encodeURIComponent(cleanPath)}`
+                    : (isAppOrLocal() ? `${cloudBase}/api/pyq?file=${encodeURIComponent(cleanPath)}` : `/api/pyq?file=${encodeURIComponent(cleanPath)}`);
+
+                return fetch(primaryUrl)
                     .then(res => {
                         if (!res.ok) throw new Error("Failed to fetch encrypted tex");
                         return res.json();
@@ -1537,11 +1557,35 @@
                         return decrypted;
                     })
                     .catch(() => {
-                        // Fallback to direct raw file fetch if API endpoint is unavailable or static server
-                        return fetch(filePath).then(res => {
-                            if (!res.ok) throw new Error("Direct raw file fetch failed");
-                            return res.text();
-                        });
+                        // Fallback 1: Try local asset directly
+                        return fetch(cleanPath)
+                            .then(res => {
+                                if (!res.ok) throw new Error("Local fetch failed");
+                                return res.text();
+                            })
+                            .catch(() => {
+                                // Fallback 2: Try cloud static file or cloud API
+                                const cloudUrl = `${cloudBase}/api/pyq?file=${encodeURIComponent(cleanPath)}`;
+                                return fetch(cloudUrl)
+                                    .then(res => res.json())
+                                    .then(json => {
+                                        if (!json.data) throw new Error("Invalid response format");
+                                        const key = 'BHU_EXAM_PREP_KEY_2026';
+                                        const encryptedText = atob(json.data);
+                                        let decrypted = '';
+                                        for (let i = 0; i < encryptedText.length; i++) {
+                                            decrypted += String.fromCharCode(encryptedText.charCodeAt(i) ^ key.charCodeAt(i % key.length));
+                                        }
+                                        return decrypted;
+                                    })
+                                    .catch(() => {
+                                        const cloudFallback = `${cloudBase}/${cleanPath}`;
+                                        return fetch(cloudFallback).then(res => {
+                                            if (!res.ok) throw new Error("Cloud fallback failed");
+                                            return res.text();
+                                        });
+                                    });
+                            });
                     });
             }
 
