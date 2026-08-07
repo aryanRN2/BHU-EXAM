@@ -925,10 +925,16 @@
             body = body.replace(/\\end\{center\}/gi, '</div>');
 
             // Font size modifications within brackets
-            body = body.replace(/\{\\large\\bfseries\s*([\s\S]*?)\}/gi, '<h2 class="text-base sm:text-xl font-bold tracking-tight text-primary">$1</h2>');
-            body = body.replace(/\{\\normalsize\s*([\s\S]*?)\}/gi, '<p class="text-xs sm:text-sm text-secondary font-medium">$1</p>');
-            body = body.replace(/\{\\large\s*([\s\S]*?)\}/gi, '<p class="text-sm sm:text-base font-bold text-primary">$1</p>');
-            body = body.replace(/\{\\small\s*([\s\S]*?)\}/gi, '<p class="text-[11px] text-secondary">$1</p>');
+            body = body.replace(/\{\s*\\large\\bfseries\s*([\s\S]*?)\}/gi, '<h2 class="text-base sm:text-xl font-bold tracking-tight text-primary">$1</h2>');
+            body = body.replace(/\{\s*\\bfseries\\large\s*([\s\S]*?)\}/gi, '<h2 class="text-base sm:text-xl font-bold tracking-tight text-primary">$1</h2>');
+            body = body.replace(/\{\s*\\normalsize\s*([\s\S]*?)\}/gi, '<p class="text-xs sm:text-sm text-secondary font-medium">$1</p>');
+            body = body.replace(/\{\s*\\large\s*([\s\S]*?)\}/gi, '<p class="text-sm sm:text-base font-bold text-primary">$1</p>');
+            body = body.replace(/\{\s*\\small\s*([\s\S]*?)\}/gi, '<p class="text-[11px] text-secondary">$1</p>');
+
+            // Clean up any remaining unparsed lone grouping braces in title headers
+            body = body.replace(/<div class="text-center pyq-title-block space-y-1">[\s\S]*?<\/div>/gi, (match) => {
+                return match.replace(/^[ \t]*\{[ \t]*$/gm, '').replace(/^[ \t]*\}[ \t]*$/gm, '');
+            });
 
             // Text styling macros with balanced brace support (prevents raw LaTeX output when nested macros are used)
             body = replaceCommandWithBalancedBraces(body, '\\texttt', (inner) => {
