@@ -216,6 +216,14 @@
     <div class="neural-orb bg-accent-neural-blue w-[400px] h-[400px] bottom-10 -right-10 opacity-20 animate-float" style="animation-delay: -3s;"></div>
 
     <div class="max-w-5xl w-full mx-auto px-4 md:px-8 relative z-10 flex flex-col items-center">
+        <!-- Top Back Navigation -->
+        <div class="w-full flex justify-start mb-6">
+            <button onclick="handleNavBack()" class="inline-flex items-center gap-2 text-xs font-bold text-secondary hover:text-primary transition-all bg-white/70 hover:bg-white border border-border-subtle backdrop-blur-md px-4 py-2 rounded-full shadow-xs active:scale-95">
+                <span class="material-symbols-outlined text-base">arrow_back</span>
+                <span id="backButtonText">Back</span>
+            </button>
+        </div>
+
         <!-- Header -->
         <div class="text-center mb-8">
             <span class="bg-accent-neural-emerald/10 text-accent-neural-emerald px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider" id="deptBadge">Department</span>

@@ -699,13 +699,9 @@
     <script type="module">
         window.goBack = function () {
             if (document.referrer && document.referrer.includes(window.location.hostname)) {
-                if (window.history.length > 1) {
-                    window.history.back();
-                } else {
-                    window.location.href = document.referrer;
-                }
+                window.history.back();
             } else {
-                window.location.href = 'subjects.html';
+                window.location.href = 'nep-pyq.html';
             }
         };
 
