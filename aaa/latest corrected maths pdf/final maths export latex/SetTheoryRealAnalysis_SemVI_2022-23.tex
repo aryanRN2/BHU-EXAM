@@ -20,30 +20,43 @@
 
 \pagestyle{fancy}\fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{MTB-601: Set Theory and Metric Spaces}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{MTB-601: Set Theory and Metric Spaces}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
+
 
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
 
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.A./B.Sc. (Hons.) --- Semester VI Examination, 2022-23}\\[6pt]
+  {
+\normalsize B.A./B.Sc. (Hons.) --- Semester VI Examination, 2022-23}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper No. MTB-601: Set Theory and Metric Spaces}\\[4pt]
-  {\normalsize Time: 3 Hours \hfill Maximum Marks: 70}
+  {
+\normalsize Time: 3 Hours \hfill Maximum Marks: 70}
 \end{center}
 \rule{\linewidth}{0.4pt}
 \smallskip
-\noindent\textit{Instructions: Answer \textbf{five} questions including Question~1 which is compulsory. Symbols have their usual meanings.}
+
+
+
+\noindent   \textit{Instructions: Answer   \textbf{five} questions including Question~1 which is compulsory. Symbols have their usual meanings.}
 \bigskip
 
-\noindent\textbf{Question 1.} \textit{(Compulsory --- 2 marks each.)}
+
+
+
+\noindent   \textbf{Question 1.}   \textit{(Compulsory --- 2 marks each.)}
+
 \begin{parts}
   \item Let $X = \mathbb{R}$ be the set of all real numbers. For $x, y \in X$, define $d(x, y) = |x^2 - y^2|$. Show that $d$ is not a metric on $X$. \pts{2}
   \item Define discrete metric space. Prove that in the discrete metric space $(X, d)$, every subset $G \subset X$ is an open set. \pts{2}
@@ -51,7 +64,8 @@
   \item Let $A$ be a subset of the metric space $(X, d)$. Prove that $\operatorname{diam}(A) = 0$ if and only if $A$ contains at most one point. Here $\operatorname{diam}(A)$ denotes the diameter of $A$. \pts{2}
   \item Let $(X, d)$ be a metric space. Prove that every finite set in $X$ is closed. \pts{2}
   \item Show that the set of all rational numbers $\mathbb{Q}$ is not open in the metric space $\mathbb{R}$ with the usual metric. \pts{2}
-  \item By giving an example, show that $\overline{A \cap B} \neq \overline{A} \cap \overline{B}$, where $A, B$ are two subsets of the metric space $(X, d)$ and $\overline{A}$ denotes the closure of $A$. \pts{2}
+  \item By giving an example, show that $\overline{A \cap B} 
+eq \overline{A} \cap \overline{B}$, where $A, B$ are two subsets of the metric space $(X, d)$ and $\overline{A}$ denotes the closure of $A$. \pts{2}
   \item In a metric space $(X, d)$, prove that a Cauchy sequence is bounded. \pts{2}
   \item Prove that $\mathbb{Z}$, the set of integers, is not dense in $\mathbb{R}$. \pts{2}
   \item Prove that $\operatorname{card}[0, 1) = \operatorname{card}(0, 1]$. \pts{2}
@@ -60,7 +74,11 @@
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 2.}
+\medskip
+
+
+\noindent   \textbf{Question 2.}
+
 \begin{parts}
   \item Let $W$ be the space of all sequences in $\mathbb{R}$. Define
   \[
@@ -72,19 +90,27 @@
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 3.}
+\medskip
+
+
+\noindent   \textbf{Question 3.}
+
 \begin{parts}
   \item Let $(X, d)$ be a metric space. Prove that every closed sphere in $X$ is a closed set. \pts{5}
   \item Let $(X, d)$ be a metric space and let the metric $d^*$ on $X$ be defined by
   \[
-  d^*(x, y) = \frac{d(x, y)}{1 + d(x, y)}, \quad \text{for } x, y \in X.
+  d^*(x, y) = \frac{d(x, y)}{1 + d(x, y)}, \quad  \text{for } x, y \in X.
   \]
   Prove that $d^*$ is equivalent to $d$. \pts{7}
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 4.} Let $A$ be a subset of a metric space $(X, d)$. Prove that: \pts{3 each}
+\medskip
+
+
+\noindent   \textbf{Question 4.} Let $A$ be a subset of a metric space $(X, d)$. Prove that: \pts{3 each}
+
 \begin{parts}
   \item $X - A^\circ = \overline{X - A}$, where $A^\circ$ denotes the interior of $A$.
   \item $\operatorname{diam}(\overline{A}) = \operatorname{diam}(A)$, where $\operatorname{diam}(A)$ denotes the diameter of $A$.
@@ -94,28 +120,40 @@
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 5.}
+\medskip
+
+
+\noindent   \textbf{Question 5.}
+
 \begin{parts}
   \item Prove that the space $C[0, 1]$ of all continuous real-valued functions defined on $[0, 1]$ with the metric $d$ defined by
   \[
   d(f, g) = \sup \{ |f(x) - g(x)| : x \in [0, 1] \}
   \]
   is a complete metric space. \pts{6}
-  \item Let $(X, d)$ and $(Y, \rho)$ be any two metric spaces. A function $f: X \to Y$ is continuous on $X$ if and only if for each open set $G \subset Y$, $f^{-1}(G)$ is an open subset of $X$. \pts{6}
+  \item Let $(X, d)$ and $(Y, \rho)$ be any two metric spaces. A function $f: X  o Y$ is continuous on $X$ if and only if for each open set $G \subset Y$, $f^{-1}(G)$ is an open subset of $X$. \pts{6}
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 6.}
+\medskip
+
+
+\noindent   \textbf{Question 6.}
+
 \begin{parts}
-  \item Let $(X, d)$ and $(Y, \rho)$ be two metric spaces and $f: X \to Y$ be a bijective isometry. Then prove that $f$ is continuous. \pts{5}
-  \item Let $(X, d)$ and $(Y, \rho)$ be two metric spaces and $f: X \to Y$ be a uniformly continuous function. Let $(x_n)_{n=1}^\infty$ be a Cauchy sequence in $X$. Prove that $(f(x_n))_{n=1}^\infty$ is a Cauchy sequence in $Y$. \pts{5}
+  \item Let $(X, d)$ and $(Y, \rho)$ be two metric spaces and $f: X  o Y$ be a bijective isometry. Then prove that $f$ is continuous. \pts{5}
+  \item Let $(X, d)$ and $(Y, \rho)$ be two metric spaces and $f: X  o Y$ be a uniformly continuous function. Let $(x_n)_{n=1}^\infty$ be a Cauchy sequence in $X$. Prove that $(f(x_n))_{n=1}^\infty$ is a Cauchy sequence in $Y$. \pts{5}
   \item Define homeomorphism. Give an example of a homeomorphism. \pts{2}
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 7.}
+\medskip
+
+
+\noindent   \textbf{Question 7.}
+
 \begin{parts}
   \item Define 'countable set' and 'uncountable set'. Give one example of each. Prove that $(0, 1)$ is uncountable. \pts{6}
   \item Prove that a countable union of countable sets is countable. \pts{6}
@@ -123,6 +161,7 @@
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
   \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
   \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]

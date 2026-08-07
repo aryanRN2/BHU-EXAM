@@ -21,77 +21,120 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{GEN-301: Digital Logic and Processors}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{GEN-301: Digital Logic and Processors}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
 
 \lstset{
-  basicstyle=\small\ttfamily,
+  basicstyle=\small tfamily,
   frame=single,
   breaklines=true,
   columns=flexible,
   keepspaces=true
 }
 
+
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
 
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Voc. Semester III Examination, 2022-23}\\[6pt]
+  {
+\normalsize B.Voc. Semester III Examination, 2022-23}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper: GEN-301 --- Digital Logic and Processors}\\[4pt]
-  {\normalsize Time: Three hours \hfill Maximum Marks: 70}
+  {
+\normalsize Time: Three hours \hfill Maximum Marks: 70}
 \end{center}
 
 \rule{\linewidth}{0.4pt}
 
 \smallskip
-\noindent\textit{Instructions: Answer all Sections. Candidates are required to write their answers in their own words as far as practicable.}
+
+
+
+\noindent   \textit{Instructions: Answer all Sections. Candidates are required to write their answers in their own words as far as practicable.}
 
 \bigskip
 
-\bigskip\noindent{\large\bfseries SECTION --- A: Long Answer Questions}\pts{$15 \times 2 = 30$}
+\bigskip
+
+
+\noindent {\large\bfseries SECTION --- A: Long Answer Questions}\pts{$15  \times 2 = 30$}
 \rule{\linewidth}{0.4pt}\smallskip
 
-\noindent\textit{Instructions: Long answer type questions to be answered in about 750 words each. Attempt any two.}
 
-\medskip\noindent\textbf{Question 1.} Prove the following Boolean identities:
+
+
+\noindent   \textit{Instructions: Long answer type questions to be answered in about 750 words each. Attempt any two.}
+
+\medskip
+
+
+\noindent   \textbf{Question 1.} Prove the following Boolean identities:
+
 \begin{parts}
   \item $A C + A B C = A C$
-  \item $A + \bar{A} B = A + B$
-  \item $A B \bar{C} + A \bar{B} C + A B C = A(B + C)$
+  \item $A + ar{A} B = A + B$
+  \item $A B ar{C} + A ar{B} C + A B C = A(B + C)$
 \end{parts}
-\centerline{\textbf{OR}}
+\centerline{   \textbf{OR}}
 
-\medskip\noindent\textbf{Question 2.} Explain about signal processing and discuss its different types in detail.
+\medskip
 
-\medskip\noindent\textbf{Question 3.} Convert the number system from one form to another:
+
+\noindent   \textbf{Question 2.} Explain about signal processing and discuss its different types in detail.
+
+\medskip
+
+
+\noindent   \textbf{Question 3.} Convert the number system from one form to another:
+
 \begin{parts}
   \item $(6)_{10} = ( \quad )_2$
   \item $(110010)_2 = ( \quad )_8$
-  \item $(\text{A9})_{16} = ( \quad )_{10}$
+  \item $( \text{A9})_{16} = ( \quad )_{10}$
 \end{parts}
-\centerline{\textbf{OR}}
+\centerline{   \textbf{OR}}
 
-\medskip\noindent\textbf{Question 4.} What are the basic gates in a logic circuit? Give a brief explanation of each with its respective truth table.
+\medskip
 
-\bigskip\noindent{\large\bfseries SECTION --- B: Short Answer Questions}\pts{$5 \times 6 = 30$}
+
+\noindent   \textbf{Question 4.} What are the basic gates in a logic circuit? Give a brief explanation of each with its respective truth table.
+
+\bigskip
+
+
+\noindent {\large\bfseries SECTION --- B: Short Answer Questions}\pts{$5  \times 6 = 30$}
 \rule{\linewidth}{0.4pt}\smallskip
 
-\noindent\textit{Instructions: Attempt any six questions. Short answer type questions to be answered in about 550 words if theoretical.}
 
-\medskip\noindent\textbf{Question 1.} What is a combinational circuit? Design a combinational circuit with two AND gates and one OR gate, and draw its truth table.
 
-\medskip\noindent\textbf{Question 2.} Perform the following binary mathematical operations:
+
+\noindent   \textit{Instructions: Attempt any six questions. Short answer type questions to be answered in about 550 words if theoretical.}
+
+\medskip
+
+
+\noindent   \textbf{Question 1.} What is a combinational circuit? Design a combinational circuit with two AND gates and one OR gate, and draw its truth table.
+
+\medskip
+
+
+\noindent   \textbf{Question 2.} Perform the following binary mathematical operations:
+
 \begin{parts}
   \item Binary Addition:
     \[
-    \begin{array}{r@{\quad}l}
+    
+\begin{array}{r@{\quad}l}
       1101_2 \\
     + \, 1010_2 \\
     \hline
@@ -99,7 +142,8 @@
     \]
   \item Binary Subtraction:
     \[
-    \begin{array}{r@{\quad}l}
+    
+\begin{array}{r@{\quad}l}
       1111_2 \\
     - \, 101_2 \\
     \hline
@@ -107,28 +151,53 @@
     \]
 \end{parts}
 
-\medskip\noindent\textbf{Question 3.} What will be the output for the given logic circuit if $X_1 = 1$ and $X_2 = 0$?
+\medskip
 
-\medskip\noindent\textbf{Question 4.} Calculate the number of cells in a Karnaugh Map (K-map) if we have 3 variables. Draw the K-map structure and write the cell representation.
 
-\medskip\noindent\textbf{Question 5.} Simplify/Demorganize the following expression:
+\noindent   \textbf{Question 3.} What will be the output for the given logic circuit if $X_1 = 1$ and $X_2 = 0$?
+
+\medskip
+
+
+\noindent   \textbf{Question 4.} Calculate the number of cells in a Karnaugh Map (K-map) if we have 3 variables. Draw the K-map structure and write the cell representation.
+
+\medskip
+
+
+\noindent   \textbf{Question 5.} Simplify/Demorganize the following expression:
 \[
 \overline{(A+B)(C+D)}
 \]
 
-\medskip\noindent\textbf{Question 6.} Convert the given logical expression into Sum of Products (SOP) form:
+\medskip
+
+
+\noindent   \textbf{Question 6.} Convert the given logical expression into Sum of Products (SOP) form:
 \[
-A B C + A \bar{C} D + A B C D
+A B C + A ar{C} D + A B C D
 \]
 
-\medskip\noindent\textbf{Question 7.} What are latches and what are their types? Explain the NAND latch in detail.
+\medskip
 
-\medskip\noindent\textbf{Question 8.} What is a multiplexer? Explain its working principles.
 
-\bigskip\noindent{\large\bfseries SECTION --- C: Very Short Answer Questions}\pts{$10 \times 1 = 10$}
+\noindent   \textbf{Question 7.} What are latches and what are their types? Explain the NAND latch in detail.
+
+\medskip
+
+
+\noindent   \textbf{Question 8.} What is a multiplexer? Explain its working principles.
+
+\bigskip
+
+
+\noindent {\large\bfseries SECTION --- C: Very Short Answer Questions}\pts{$10  \times 1 = 10$}
 \rule{\linewidth}{0.4pt}\smallskip
 
-\noindent\textit{Instructions: Answer the following questions in a single word or sentence.}
+
+
+
+\noindent   \textit{Instructions: Answer the following questions in a single word or sentence.}
+
 
 \begin{enumerate}[label=\arabic*.,leftmargin=*,itemsep=6pt]
   \item In K-map, what does the letter 'K' stand for? (Karnaugh)
@@ -145,6 +214,7 @@ A B C + A \bar{C} D + A B C D
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
 \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
 \end{center}

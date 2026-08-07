@@ -21,47 +21,64 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{BVCA-201: Introduction To Databases}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{BVCA-201: Introduction To Databases}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
 
 \lstset{
-  basicstyle=\small\ttfamily,
+  basicstyle=\small tfamily,
   frame=single,
   breaklines=true,
   columns=flexible,
   keepspaces=true
 }
 
+
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Voc. Semester II Examination, 2021-22}\\[6pt]
+  {
+\normalsize B.Voc. Semester II Examination, 2021-22}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper: BVCA-201 --- Introduction To Databases}\\[4pt]
-  {\normalsize Time: Three Hours \hfill Maximum Marks: 70}
+  {
+\normalsize Time: Three Hours \hfill Maximum Marks: 70}
 \end{center}
 
 \rule{\linewidth}{0.4pt}
 
 \smallskip
-\noindent\textit{Instructions: Attempt all sections. Candidates are required to write their answers in their own words as far as practicable. Symbols have their usual meanings.}
+
+
+
+\noindent   \textit{Instructions: Attempt all sections. Candidates are required to write their answers in their own words as far as practicable. Symbols have their usual meanings.}
 
 \bigskip
 
-\bigskip\noindent{\large\bfseries PART --- A}
+\bigskip
+
+
+\noindent {\large\bfseries PART --- A}
 
 \rule{\linewidth}{0.4pt}\smallskip
 
-\noindent\textbf{Short Answer Questions} (Answer all parts)\pts{10 $\times$ 2 = 20}
+
+
+
+\noindent   \textbf{Short Answer Questions} (Answer all parts)\pts{10 $ \times$ 2 = 20}
+
 \begin{enumerate}[label=\arabic*.,leftmargin=*,itemsep=8pt]
   \item Define the following database terms:
-  \begin{parts}
+  
+\begin{parts}
     \item Data model
     \item Database schema
     \item Client/server architecture
@@ -75,35 +92,54 @@
   \end{parts}
 \end{enumerate}
 
-\bigskip\noindent{\large\bfseries PART --- B}
+\bigskip
+
+
+\noindent {\large\bfseries PART --- B}
 
 \rule{\linewidth}{0.4pt}\smallskip
 
-\noindent\textbf{Medium Answer Questions} (Attempt all questions; either/or type)\pts{5 $\times$ 4 = 20}
+
+
+
+\noindent   \textbf{Medium Answer Questions} (Attempt all questions; either/or type)\pts{5 $ \times$ 4 = 20}
+
 \begin{enumerate}[label=\arabic*.,leftmargin=*,itemsep=12pt]
   \setcounter{enumi}{1}
   \item What is the difference between logical data independence and physical data independence? Which one is harder to achieve, and why?
-  \begin{center}\textbf{OR}\end{center}
+  
+\begin{center}   \textbf{OR}\end{center}
   Discuss the different data types supported in SQL.
   \item Discuss the entity integrity and referential integrity constraints. Why is each considered important?
-  \begin{center}\textbf{OR}\end{center}
+  
+\begin{center}   \textbf{OR}\end{center}
   Discuss Functional Dependency with a suitable illustrative example.
   \item What is a relationship type? Explain the differences among a relationship instance, a relationship type, and a relationship set.
-  \begin{center}\textbf{OR}\end{center}
+  
+\begin{center}   \textbf{OR}\end{center}
   What is a participation role? When is it necessary to use role names in the description of relationship types?
   \item What is meant by a recursive relationship type? Give some examples of recursive relationship types.
-  \begin{center}\textbf{OR}\end{center}
+  
+\begin{center}   \textbf{OR}\end{center}
   What is SQL? Write down the syntax to create a table and insert records into a table.
   \item Why are duplicate tuples not allowed in a relation?
-  \begin{center}\textbf{OR}\end{center}
+  
+\begin{center}   \textbf{OR}\end{center}
   What is the difference between a key and a super key?
 \end{enumerate}
 
-\bigskip\noindent{\large\bfseries PART --- C}
+\bigskip
+
+
+\noindent {\large\bfseries PART --- C}
 
 \rule{\linewidth}{0.4pt}\smallskip
 
-\noindent\textbf{Long Answer Questions} (Answer any three questions)\pts{3 $\times$ 10 = 30}
+
+
+
+\noindent   \textbf{Long Answer Questions} (Answer any three questions)\pts{3 $ \times$ 10 = 30}
+
 \begin{enumerate}[label=\arabic*.,leftmargin=*,itemsep=12pt]
   \setcounter{enumi}{6}
   \item Describe the three-schema architecture. Why do we need mappings between schema levels? How do different schema definition languages support this architecture?
@@ -114,6 +150,7 @@
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
 \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
 \end{center}

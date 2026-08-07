@@ -18,34 +18,48 @@
 
 \pagestyle{fancy}\fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{BPT-505: Electromagnetic Theory}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{BPT-505: Electromagnetic Theory}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
+
 
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
 
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Sc. (Hons.) Semester V Examination, 2016-17}\\[6pt]
+  {
+\normalsize B.Sc. (Hons.) Semester V Examination, 2016-17}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper No. BPT-505: Electromagnetic Theory}\\[4pt]
-  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+  {
+\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
 \end{center}
 \rule{\linewidth}{0.4pt}
 \smallskip
-\noindent\textit{Instructions: Answer all questions. Symbols have their usual meanings.}
+
+
+
+\noindent   \textit{Instructions: Answer all questions. Symbols have their usual meanings.}
 \bigskip
 
-\noindent\textbf{Question 1.} Answer any \textbf{four} of the following: \pts{4 $\times$ 5 = 20}
+
+
+
+\noindent   \textbf{Question 1.} Answer any   \textbf{four} of the following: \pts{4 $ \times$ 5 = 20}
+
 \begin{parts}
   \item Show that the vector field $\vec{v} = yz \hat{i} + zx \hat{j} + xy \hat{k}$ can be written as the gradient of a scalar field $f(x, y, z)$.
   \item If an infinitely long straight wire carries a uniform line charge density $\lambda$, find the electric field at a distance $r$ from this wire.
-  \item If the potential due to a continuous charge distribution is written as $V(\vec{r}) = \frac{1}{4\pi\epsilon_0} \int \frac{\rho(\vec{r}')}{|\vec{r} - \vec{r}'|} \, d\tau'$, obtain $\nabla^2 V(\vec{r})$.
+  \item If the potential due to a continuous charge distribution is written as $V(\vec{r}) = \frac{1}{4\pi\epsilon_0} \int \frac{\rho(\vec{r}')}{|\vec{r} - \vec{r}'|} \, d \tau'$, obtain $
+abla^2 V(\vec{r})$.
   \item A parallel polarized electromagnetic wave is incident from air to polystyrene ($\mu \approx \mu_0$, $\epsilon_r = 2.6$) at the Brewster angle. Determine the transmission angle.
   \item Determine the state of polarization for the wave whose electric field is given by:
     \[ \vec{E}(z,t) = E_0 ( \hat{i} \cos(kz - \omega t) - \hat{j} \sin(kz - \omega t) ) \]
@@ -54,7 +68,11 @@
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\noindent\textbf{Question 2.}
+
+
+
+\noindent   \textbf{Question 2.}
+
 \begin{parts}
   \item What is a linear dielectric medium? How do Maxwell's equations modify in such a linear dielectric medium? \pts{6}
   \item Does the Poynting vector correspond to a dual character in the energy-momentum conservation laws in electrodynamics? Explain in detail. \pts{6}
@@ -62,35 +80,51 @@
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\noindent\textbf{Question 3.}
+
+
+
+\noindent   \textbf{Question 3.}
+
 \begin{parts}
   \item In a lossless medium for which intrinsic impedance $\eta = 60\pi$, relative permeability $\mu_r = 1$, and magnetic field:
-    \[ \vec{H} = -0.1 \cos(\omega t - z) \hat{i} + 0.5 \sin(\omega t - z) \hat{j} \,\text{A/m} \]
+    \[ \vec{H} = -0.1 \cos(\omega t - z) \hat{i} + 0.5 \sin(\omega t - z) \hat{j} \, \text{A/m} \]
     find the relative permittivity $\epsilon_r$ and the angular frequency $\omega$. \pts{8}
   \item What is a phasor? The electric and magnetic fields in free space are given by $\vec{E} = E_0 \cos(10^8 t + \beta z) \hat{i}$ V/m and $\vec{H} = H_0 \cos(10^8 t + \beta z) \hat{j}$ A/m. Find the phasor form of these fields. \pts{6}
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\noindent\textbf{Question 4.}
+
+
+
+\noindent   \textbf{Question 4.}
+
 \begin{parts}
   \item How do the laws of electrostatics enforce boundary conditions on the electric field and the corresponding electrostatic potential? \pts{6}
   \item Why does any net charge reside entirely on the surface of a conductor? Explain. \pts{6}
 \end{parts}
-\hfill \textbf{OR}
+\hfill   \textbf{OR}
+
 \begin{parts}
-  \item Using the general solution of the Laplace equation in spherical polar coordinates with azimuthal symmetry, determine the potential outside the surface of a hollow empty sphere of radius $R$ if the surface potential is maintained at $V_0(\theta) = V_0 \sin^2(\theta/2)$, where $V_0$ is a constant. \pts{8}
-  \item For a uniform magnetic field $\vec{B}$, show that $\vec{A} = -\frac{1}{2} (\vec{r} \times \vec{B})$ is a valid vector potential such that $\nabla \cdot \vec{A} = 0$ and $\nabla \times \vec{A} = \vec{B}$. \pts{6}
+  \item Using the general solution of the Laplace equation in spherical polar coordinates with azimuthal symmetry, determine the potential outside the surface of a hollow empty sphere of radius $R$ if the surface potential is maintained at $V_0( \theta) = V_0 \sin^2( \theta/2)$, where $V_0$ is a constant. \pts{8}
+  \item For a uniform magnetic field $\vec{B}$, show that $\vec{A} = -\frac{1}{2} (\vec{r}  \times \vec{B})$ is a valid vector potential such that $
+abla \cdot \vec{A} = 0$ and $
+abla  \times \vec{A} = \vec{B}$. \pts{6}
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\noindent\textbf{Question 5.}
+
+
+
+\noindent   \textbf{Question 5.}
+
 \begin{parts}
-  \item A standard air-filled rectangular waveguide with dimensions $a = 8.636\,\text{cm}$ and $b = 4.318\,\text{cm}$ is fed by a $4\,\text{GHz}$ carrier wave. Determine if the $TM_{11}$ mode will propagate. If so, calculate the phase and group velocities of this mode. \pts{8}
+  \item A standard air-filled rectangular waveguide with dimensions $a = 8.636\, \text{cm}$ and $b = 4.318\, \text{cm}$ is fed by a $4\, \text{GHz}$ carrier wave. Determine if the $TM_{11}$ mode will propagate. If so, calculate the phase and group velocities of this mode. \pts{8}
   \item Show that a rectangular waveguide does not support $TM_{10}$ and $TM_{01}$ modes. \pts{6}
 \end{parts}
-\hfill \textbf{OR}
+\hfill   \textbf{OR}
+
 \begin{parts}
   \item Derive the general expressions of the attenuation constant $\alpha$ and phase constant $\beta$ for electromagnetic wave propagation in conducting media. \pts{8}
   \item Prove the relation $R + T = 1$ for normal incidence of electromagnetic waves at the boundary between two media. \pts{6}
@@ -98,6 +132,7 @@
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
   \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
   \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]

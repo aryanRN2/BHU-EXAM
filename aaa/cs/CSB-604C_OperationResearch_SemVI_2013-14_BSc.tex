@@ -22,38 +22,53 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{CSB-604C: Operations Research}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{CSB-604C: Operations Research}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
+
 
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Sc.\ (Hons.) Semester VI Examination, 2013--14}\\[6pt]
+  {
+\normalsize B.Sc.\ (Hons.) Semester VI Examination, 2013--14}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper: CSB-604C --- Operations Research}\\[4pt]
-  {\normalsize (Major Elective Course -- I)}\\[4pt]
-  {\normalsize Time: Three Hours \hfill Maximum Marks: 70}
+  {
+\normalsize (Major Elective Course -- I)}\\[4pt]
+  {
+\normalsize Time: Three Hours \hfill Maximum Marks: 70}
 \end{center}
 
 \rule{\linewidth}{0.4pt}
 
 \smallskip
-\noindent\textit{Instructions: Attempt \textbf{five} questions including Question~1 which is compulsory. Use of calculator is allowed. All undefined symbols have their usual meanings.}
+
+
+
+\noindent   \textit{Instructions: Attempt   \textbf{five} questions including Question~1 which is compulsory. Use of calculator is allowed. All undefined symbols have their usual meanings.}
 
 \bigskip
 
-\noindent\textbf{Question 1.} Answer any \textbf{four} of the following:\pts{$4\times4=16$}
+
+
+
+\noindent   \textbf{Question 1.} Answer any   \textbf{four} of the following:\pts{$4 imes4=16$}
+
 \begin{parts}
   \item Find the graphical solution of the following LPP:
-  \begin{align*}
-    \text{Maximize } Z &= 2x_1 + 2x_2 \\
-    \text{Subject to:}\quad x_1 + x_2 &\leq 7 \\
+  
+\begin{align*}
+     \text{Maximize } Z &= 2x_1 + 2x_2 \\
+     \text{Subject to:}\quad x_1 + x_2 &\leq 7 \\
     0.5x_1 + x_2 &\leq 2 \\
     x_1,\, x_2 &\geq 0
   \end{align*}
@@ -66,7 +81,8 @@
   \item What is a non-linear programming problem? Define local and global minima and maxima of a single-variable non-linear function $f(x)$.
 
   \item Define the following with an example of each:
-  \begin{enumerate}[label=(\roman*)]
+  
+\begin{enumerate}[label=(\roman*)]
     \item A directed and an undirected cycle
     \item A connected network
     \item An undirected path and an undirected network
@@ -75,13 +91,18 @@
 
 \bigskip
 
-\noindent\textbf{Question 2.}\pts{$6+8=14$}
+
+
+
+\noindent   \textbf{Question 2.}\pts{$6+8=14$}
+
 \begin{parts}
   \item Explain the steps of the Simplex method for solving a LPP.
   \item Solve the following LPP using the Simplex method:
-  \begin{align*}
-    \text{Maximize } Z &= 3x_1 + 5x_2 + x_3 \\
-    \text{Subject to:}\quad 2x_1 + 3x_2 &\leq 3 \\
+  
+\begin{align*}
+     \text{Maximize } Z &= 3x_1 + 5x_2 + x_3 \\
+     \text{Subject to:}\quad 2x_1 + 3x_2 &\leq 3 \\
     x_2 + x_3 &\leq 8 \\
     3x_1 + 2x_2 + 4x_3 &\leq 15 \\
     x_1,\, x_2,\, x_3 &\geq 0
@@ -90,12 +111,17 @@
 
 \bigskip
 
-\noindent\textbf{Question 3.} If $D_{ij}$ is the duration of an activity $(i,j)$, write the conditions when activity $(i,j)$ lies on a critical path. Define total float and free float of activity $(i,j)$. For the following project network, compute the total float, free float, and identify the critical path:\pts{$6+8=14$}
+
+
+
+\noindent   \textbf{Question 3.} If $D_{ij}$ is the duration of an activity $(i,j)$, write the conditions when activity $(i,j)$ lies on a critical path. Define total float and free float of activity $(i,j)$. For the following project network, compute the total float, free float, and identify the critical path:\pts{$6+8=14$}
+
 
 \begin{center}
+
 \begin{tabular}{|c|c|c|c|}
 \hline
-\textbf{Activity} & \textbf{Duration (days)} & \textbf{Activity} & \textbf{Duration (days)} \\
+   \textbf{Activity} &   \textbf{Duration (days)} &   \textbf{Activity} &   \textbf{Duration (days)} \\
 \hline
 1--2 & 3 & 3--5 & 4 \\
 1--3 & 2 & 4--6 & 5 \\
@@ -110,14 +136,20 @@ What are the uses of total and free floats?
 
 \bigskip
 
-\noindent\textbf{Question 4.}\pts{$6+8=14$}
+
+
+
+\noindent   \textbf{Question 4.}\pts{$6+8=14$}
+
 \begin{parts}
   \item Give the algorithm for processing $N$ jobs through 3 machines, and state the assumptions which must be satisfied for the algorithm to be valid.
   \item Determine the optimal sequence of 5 jobs on 3 machines A, B, C with no passing between machines. Processing times (in hours) are:
-  \begin{center}
-  \begin{tabular}{|c|c|c|c|c|c|}
+  
+\begin{center}
+  
+\begin{tabular}{|c|c|c|c|c|c|}
   \hline
-  \textbf{Machine} & \textbf{Job 1} & \textbf{Job 2} & \textbf{Job 3} & \textbf{Job 4} & \textbf{Job 5} \\
+   \textbf{Machine} &   \textbf{Job 1} &   \textbf{Job 2} &   \textbf{Job 3} &   \textbf{Job 4} &   \textbf{Job 5} \\
   \hline
   A & 4 & 9 & 8 & 6 & 5 \\
   B & 5 & 6 & 2 & 3 & 4 \\
@@ -129,7 +161,11 @@ What are the uses of total and free floats?
 
 \bigskip
 
-\noindent\textbf{Question 5.}\pts{$6+4+4=14$}
+
+
+
+\noindent   \textbf{Question 5.}\pts{$6+4+4=14$}
+
 \begin{parts}
   \item What do you understand by an equipment replacement problem? Name the replacement policies for equipment that fails completely.
   \item Explain how to find the dual of the general form of a primal LPP.
@@ -138,14 +174,20 @@ What are the uses of total and free floats?
 
 \bigskip
 
-\noindent\textbf{Question 6.}\pts{$4+10=14$}
+
+
+
+\noindent   \textbf{Question 6.}\pts{$4+10=14$}
+
 \begin{parts}
   \item What do you understand by ``network analysis''? List the problems that can be addressed by network analysis.
   \item The following network gives links and associated lengths of roads in Seervada Park. Location O is the entrance and T is the end station. Park management wants to install telephone lines to establish phone connections among every pair of stations from O to T, with minimal total miles of line.
-  \begin{center}
-  \begin{tabular}{|c|c|c|}
+  
+\begin{center}
+  
+\begin{tabular}{|c|c|c|}
   \hline
-  \textbf{Link} & \textbf{Nodes} & \textbf{Length (miles)} \\
+   \textbf{Link} &   \textbf{Nodes} &   \textbf{Length (miles)} \\
   \hline
   1 & O -- A & 2 \\
   2 & O -- B & 4 \\
@@ -166,19 +208,25 @@ What are the uses of total and free floats?
 
 \bigskip
 
-\noindent\textbf{Question 7.}\pts{$4+3+7=14$}
+
+
+
+\noindent   \textbf{Question 7.}\pts{$4+3+7=14$}
+
 \begin{parts}
   \item What is a convex programming problem?
   \item What is the direct substitution method of solving a non-linear programming problem?
   \item Find the optimal solution of the following problem using the method of Lagrangean multipliers:
-  \begin{align*}
-    \text{Minimize } Z &= 2x_1^2 + x_2^2 + x_3^2 - 4x_1 - 2x_2 - 8x_3 \\
-    \text{Subject to:}\quad x_1 + x_2 + x_3 &= 2, \quad x_1,\, x_2,\, x_3 \geq 0
+  
+\begin{align*}
+     \text{Minimize } Z &= 2x_1^2 + x_2^2 + x_3^2 - 4x_1 - 2x_2 - 8x_3 \\
+     \text{Subject to:}\quad x_1 + x_2 + x_3 &= 2, \quad x_1,\, x_2,\, x_3 \geq 0
   \end{align*}
 \end{parts}
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
 \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
 \end{center}

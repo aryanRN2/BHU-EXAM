@@ -19,29 +19,42 @@
   pdftitle={MTB-501: Mathematical Analysis -- BHU B.A./B.Sc. Sem V 2022-23}}
 \pagestyle{fancy}\fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{MTB-501: Mathematical Analysis}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{MTB-501: Mathematical Analysis}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
+
 
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.A./B.Sc. (Hons) --- Semester V Examination, 2022-23}\\[6pt]
+  {
+\normalsize B.A./B.Sc. (Hons) --- Semester V Examination, 2022-23}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper No. MTB-501: Mathematical Analysis}\\[4pt]
-  {\normalsize Time: 3 Hours \hfill Full Marks: 70}
+  {
+\normalsize Time: 3 Hours \hfill Full Marks: 70}
 \end{center}
 \rule{\linewidth}{0.4pt}
 \smallskip
-\noindent\textit{Instructions: Answer \textbf{five} questions including Question~1 which is compulsory. Figures in right-hand margin indicate marks.}
+
+
+
+\noindent   \textit{Instructions: Answer   \textbf{five} questions including Question~1 which is compulsory. Figures in right-hand margin indicate marks.}
 \bigskip
 
-\noindent\textbf{Question 1.} \textit{(Compulsory.)}
+
+
+
+\noindent   \textbf{Question 1.}   \textit{(Compulsory.)}
+
 \begin{parts}
   \item Show that the limit of a convergent sequence is unique. \pts{2}
   \item Show that the sequence $(x_n)_{n=1}^\infty$, where $x_n = \left(1 + \dfrac{1}{n}\right)^n$, is monotonically increasing. \pts{2}
@@ -49,7 +62,9 @@
   \item Test the convergence of the series $\sum_{n=1}^\infty \dfrac{\cos(1/n)}{n^2}$. \pts{2}
   \item Let $f(x)$ be defined by:
   \[
-  f(x) = \begin{cases} \dfrac{\sin x}{x}, & x \neq 0 \\ 1, & x = 0 \end{cases}
+  f(x) = 
+\begin{cases} \dfrac{\sin x}{x}, & x 
+eq 0 \\ 1, & x = 0 \end{cases}
   \]
   Prove that $f$ is Riemann integrable on $\mathbb{R}$ (on any closed bounded interval). \pts{2}
   \item Let $f(x) = x$ on $[0,1]$. If $P = \left\{0, \dfrac{1}{n}, \dfrac{2}{n}, \dots, 1\right\}$ is a partition of $[0,1]$, then find: (i)~$L(P, f)$, (ii)~$U(P, f)$, (iii)~$\underline{\int_0^1} f\,dx$, (iv)~$\overline{\int_0^1} f\,dx$. \pts{4}
@@ -61,23 +76,32 @@
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 2.}
+\medskip
+
+
+\noindent   \textbf{Question 2.}
+
 \begin{parts}
   \item Prove that the necessary and sufficient condition for the convergence of a monotonic sequence of real numbers is that it is bounded. \pts{6}
   \item Prove that if a sequence $(x_n)_{n=1}^\infty$ of positive numbers converges to a limit $l$, then:
   \[
-  \lim_{n\to\infty} (x_1 x_2 \cdots x_n)^{1/n} = l
+  \lim_{n o\infty} (x_1 x_2 \cdots x_n)^{1/n} = l
   \]
-  Deduce that $\lim_{n\to\infty} n^{1/n} = 1$. \pts{6}
+  Deduce that $\lim_{n o\infty} n^{1/n} = 1$. \pts{6}
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 3.}
+\medskip
+
+
+\noindent   \textbf{Question 3.}
+
 \begin{parts}
   \item State and prove Cauchy's general principle for the convergence of sequences of real numbers. \pts{6}
-  \item Let $\sum_{n=1}^\infty a_n$ be a positive term series and let $\lim_{n\to\infty} (a_n)^{1/n} = l$. Then the series is:
-  \begin{parts}
+  \item Let $\sum_{n=1}^\infty a_n$ be a positive term series and let $\lim_{n o\infty} (a_n)^{1/n} = l$. Then the series is:
+  
+\begin{parts}
     \item convergent if $l < 1$;
     \item divergent if $l > 1$;
     \item the test fails if $l = 1$.
@@ -87,7 +111,11 @@
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 4.}
+\medskip
+
+
+\noindent   \textbf{Question 4.}
+
 \begin{parts}
   \item Test the convergence of the series $\sum_{n=2}^\infty \dfrac{1}{n(\log n)^p}$. \pts{6}
   \item Define absolute and conditional convergence of a series. Show that the series $\sum_{n=1}^\infty \dfrac{(-1)^{n+1}}{n^p}$ is absolutely convergent for $p > 1$, but only conditionally convergent for $0 < p \le 1$. \pts{6}
@@ -95,7 +123,11 @@
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 5.}
+\medskip
+
+
+\noindent   \textbf{Question 5.}
+
 \begin{parts}
   \item Prove that a necessary and sufficient condition for the Riemann integrability of a bounded function $f$ is that for every $\varepsilon > 0$, there exists $\delta > 0$ such that for every partition $P$ of $[a, b]$ with norm $\|P\| < \delta$:
   \[
@@ -106,11 +138,15 @@
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 6.}
+\medskip
+
+
+\noindent   \textbf{Question 6.}
+
 \begin{parts}
   \item Show that the function defined by:
   \[
-  f(x) = \frac{1}{n+1} \quad \text{for } \frac{1}{n+1} \le x < \frac{1}{n},\ n = 1, 2, 3, \dots
+  f(x) = \frac{1}{n+1} \quad  \text{for } \frac{1}{n+1} \le x < \frac{1}{n},\ n = 1, 2, 3, \dots
   \]
   is Riemann integrable on $[0, 1]$. Also show that $\int_0^1 f(x)\,dx = \dfrac{\pi^2}{6} - 1$. \pts{6}
   \item If $\int_a^b f(x)\,dx$ and $\int_a^b g(x)\,dx$ both exist and $g(x)$ keeps the same sign throughout the interval of integration, then there exists a number $\mu$ lying between the bounds of $f(x)$ such that:
@@ -122,7 +158,11 @@
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 7.}
+\medskip
+
+
+\noindent   \textbf{Question 7.}
+
 \begin{parts}
   \item State and prove Dirichlet's test for improper integrals. \pts{6}
   \item State and prove the Limit Comparison Test (LCT) for improper integrals. Examine the convergence of $\int_0^\infty \dfrac{\sin^p x}{x}\,dx$ for $p > 1$. \pts{6}
@@ -130,6 +170,7 @@
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
   \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
   \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]

@@ -21,62 +21,94 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{BVCA-303: Programming In Linux}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{BVCA-303: Programming In Linux}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
 
 \lstset{
-  basicstyle=\small\ttfamily,
+  basicstyle=\small tfamily,
   frame=single,
   breaklines=true,
   columns=flexible,
   keepspaces=true
 }
 
+
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Voc. Semester III Examination, 2023-24}\\[6pt]
+  {
+\normalsize B.Voc. Semester III Examination, 2023-24}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper: BVCA-303 --- Programming In Linux}\\[4pt]
-  {\normalsize Time: Three hours \hfill Maximum Marks: 70}
+  {
+\normalsize Time: Three hours \hfill Maximum Marks: 70}
 \end{center}
 
 \rule{\linewidth}{0.4pt}
 
 \smallskip
-\noindent\textit{Instructions: Answer the questions in each section as instructed. All questions carry marks as indicated.}
+
+
+
+\noindent   \textit{Instructions: Answer the questions in each section as instructed. All questions carry marks as indicated.}
 
 \bigskip
 
-\noindent{\large\bfseries SECTION --- A}\\[4pt]
+
+
+
+\noindent {\large\bfseries SECTION --- A}\\[4pt]
 \rule{\linewidth}{0.4pt}\smallskip
 
-Long-Answer Questions. Answer any two questions: \hfill \textbf{2 $\times$ 12 = 24 Marks}
+Long-Answer Questions. Answer any two questions: \hfill   \textbf{2 $ \times$ 12 = 24 Marks}
 
 \medskip
-\noindent\textbf{Question 1.} Explain the architecture of Linux, emphasizing the roles of the kernel, shell, and file system.
+
+
+
+\noindent   \textbf{Question 1.} Explain the architecture of Linux, emphasizing the roles of the kernel, shell, and file system.
 
 \medskip
-\noindent\textbf{Question 2.} Describe the Linux file system hierarchy in detail, providing examples of directories at each level. Explain the purpose and usage of essential file system management commands such as \texttt{ls}, \texttt{cp}, \texttt{mv}, and \texttt{rm}. Illustrate their functionality with practical examples.
+
+
+
+\noindent   \textbf{Question 2.} Describe the Linux file system hierarchy in detail, providing examples of directories at each level. Explain the purpose and usage of essential file system management commands such as   \texttt{ls},   \texttt{cp},   \texttt{mv}, and   \texttt{rm}. Illustrate their functionality with practical examples.
 
 \medskip
-\noindent\textbf{Question 3.} Discuss the significance of Linux commands in performing various tasks efficiently. Explain how commands like \texttt{touch}, \texttt{grep}, \texttt{wc}, and \texttt{cat} contribute to file manipulation, searching, and text processing. Provide examples to demonstrate the practical utility of these commands in everyday computing tasks.
+
+
+
+\noindent   \textbf{Question 3.} Discuss the significance of Linux commands in performing various tasks efficiently. Explain how commands like   \texttt{touch},   \texttt{grep},   \texttt{wc}, and   \texttt{cat} contribute to file manipulation, searching, and text processing. Provide examples to demonstrate the practical utility of these commands in everyday computing tasks.
 
 \medskip
-\noindent\textbf{Question 4.} Compare and contrast the advantages and disadvantages of using Linux as an operating system. Provide real-world examples to support your arguments.
 
-\bigskip\noindent{\large\bfseries SECTION --- B}\\[4pt]
+
+
+\noindent   \textbf{Question 4.} Compare and contrast the advantages and disadvantages of using Linux as an operating system. Provide real-world examples to support your arguments.
+
+\bigskip
+
+
+\noindent {\large\bfseries SECTION --- B}\\[4pt]
 \rule{\linewidth}{0.4pt}\smallskip
 
-\noindent\textbf{Question 5.} Attempt any six parts (Answer in about 200 words each): \hfill \textbf{6 $\times$ 6 = 36 Marks}
+
+
+
+\noindent   \textbf{Question 5.} Attempt any six parts (Answer in about 200 words each): \hfill   \textbf{6 $ \times$ 6 = 36 Marks}
+
 \begin{parts}
-  \item Write a shell script to print a pattern of asterisks (\texttt{*}) in a triangular format:
+  \item Write a shell script to print a pattern of asterisks (   \texttt{*}) in a triangular format:
+
 \begin{lstlisting}[language=bash]
 *
 **
@@ -86,45 +118,56 @@ Long-Answer Questions. Answer any two questions: \hfill \textbf{2 $\times$ 12 = 
 \end{lstlisting}
   \item Develop a shell script that accepts two numbers as input and performs addition, subtraction, multiplication, and division on them.
   \item Discuss the significance of pipes in Linux. Provide an example scenario where pipes are used effectively with multiple commands.
-  \item Discuss the purpose of the \texttt{mkdir} command in Linux. Provide an example demonstrating its usage in creating directories.
-  \item Define the \texttt{tee} command in Linux and explain its functionality.
-  \item What is the purpose of the \texttt{cat} command in Linux? How does it differ from other file viewing commands?
-  \item Explain the significance of the \texttt{banner} command in Linux. How can it be used to display text in a visually appealing manner?
-  \item Discuss the functionality of the \texttt{grep} command in Linux.
-  \item Describe the significance of the \texttt{cal} command in Linux. How does it differ from other calendar-related commands? Provide an example demonstrating its usage.
+  \item Discuss the purpose of the   \texttt{mkdir} command in Linux. Provide an example demonstrating its usage in creating directories.
+  \item Define the   \texttt{tee} command in Linux and explain its functionality.
+  \item What is the purpose of the   \texttt{cat} command in Linux? How does it differ from other file viewing commands?
+  \item Explain the significance of the   \texttt{banner} command in Linux. How can it be used to display text in a visually appealing manner?
+  \item Discuss the functionality of the   \texttt{grep} command in Linux.
+  \item Describe the significance of the   \texttt{cal} command in Linux. How does it differ from other calendar-related commands? Provide an example demonstrating its usage.
 \end{parts}
 
-\bigskip\noindent{\large\bfseries SECTION --- C}\\[4pt]
+\bigskip
+
+
+\noindent {\large\bfseries SECTION --- C}\\[4pt]
 \rule{\linewidth}{0.4pt}\smallskip
 
-\noindent\textbf{Question 6.} Attempt all parts: \hfill \textbf{10 $\times$ 1 = 10 Marks}
+
+
+
+\noindent   \textbf{Question 6.} Attempt all parts: \hfill   \textbf{10 $ \times$ 1 = 10 Marks}
+
 \begin{parts}
   \item Which command is used to display the current working directory in Linux?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
-    \item \texttt{ls}
-    \item \texttt{pwd}
-    \item \texttt{cal}
-    \item \texttt{cp}
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
+    \item   \texttt{ls}
+    \item   \texttt{pwd}
+    \item   \texttt{cal}
+    \item   \texttt{cp}
   \end{enumerate}
   
   \item Which command is used to create a new directory in Linux?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
-    \item \texttt{mkdir}
-    \item \texttt{touch}
-    \item \texttt{rm}
-    \item \texttt{mv}
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
+    \item   \texttt{mkdir}
+    \item   \texttt{touch}
+    \item   \texttt{rm}
+    \item   \texttt{mv}
   \end{enumerate}
   
-  \item What does the \texttt{man} command do in Linux?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  \item What does the   \texttt{man} command do in Linux?
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item Displays the manual page of a command
     \item Moves files or directories
     \item Creates a new file
     \item Counts the number of words in a file
   \end{enumerate}
   
-  \item What does the \texttt{head} command do in Linux?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  \item What does the   \texttt{head} command do in Linux?
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item Displays the first part of a file
     \item Displays the last part of a file
     \item Searches for a pattern in a file
@@ -132,15 +175,17 @@ Long-Answer Questions. Answer any two questions: \hfill \textbf{2 $\times$ 12 = 
   \end{enumerate}
   
   \item Which command is used to count lines in a file in Linux?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
-    \item \texttt{wc}
-    \item \texttt{sort}
-    \item \texttt{grep}
-    \item \texttt{banner}
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
+    \item   \texttt{wc}
+    \item   \texttt{sort}
+    \item   \texttt{grep}
+    \item   \texttt{banner}
   \end{enumerate}
   
-  \item What is the purpose of the \texttt{grep} command in Linux?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  \item What is the purpose of the   \texttt{grep} command in Linux?
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item Displays the calendar for the current month
     \item Displays the current date and time
     \item Counts the number of lines in a file
@@ -148,15 +193,17 @@ Long-Answer Questions. Answer any two questions: \hfill \textbf{2 $\times$ 12 = 
   \end{enumerate}
   
   \item Which command is used to count the number of words in a file in Linux?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
-    \item \texttt{mv}
-    \item \texttt{wc}
-    \item \texttt{ps}
-    \item \texttt{tee}
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
+    \item   \texttt{mv}
+    \item   \texttt{wc}
+    \item   \texttt{ps}
+    \item   \texttt{tee}
   \end{enumerate}
   
-  \item What is the function of the \texttt{sort} command in Linux?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  \item What is the function of the   \texttt{sort} command in Linux?
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item Displays the sorted content of a file
     \item Moves files or directories
     \item Counts the number of lines in a file
@@ -164,15 +211,17 @@ Long-Answer Questions. Answer any two questions: \hfill \textbf{2 $\times$ 12 = 
   \end{enumerate}
   
   \item Which command is used to display the last part of a file in Linux?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
-    \item \texttt{head}
-    \item \texttt{tail}
-    \item \texttt{who}
-    \item \texttt{bc}
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
+    \item   \texttt{head}
+    \item   \texttt{tail}
+    \item   \texttt{who}
+    \item   \texttt{bc}
   \end{enumerate}
   
-  \item What does the \texttt{mkdir} command do in Linux?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  \item What does the   \texttt{mkdir} command do in Linux?
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item Removes a directory
     \item Creates a new directory
     \item Moves files or directories
@@ -182,6 +231,7 @@ Long-Answer Questions. Answer any two questions: \hfill \textbf{2 $\times$ 12 = 
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
 \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
 \end{center}

@@ -19,60 +19,88 @@
 
 \pagestyle{fancy}\fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{STA/STB-601: Numerical Analysis}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{STA/STB-601: Numerical Analysis}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
+
 
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
 
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.A./B.Sc. (Hons.) Semester VI Examination, 2013-14}\\[6pt]
+  {
+\normalsize B.A./B.Sc. (Hons.) Semester VI Examination, 2013-14}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper No. STA/STB-601: Numerical Analysis}\\[4pt]
-  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+  {
+\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
 \end{center}
 \rule{\linewidth}{0.4pt}
 \smallskip
-\noindent\textit{Instructions: Answer any \textbf{five} questions. All questions carry equal marks. Symbols have their usual meanings.}
+
+
+
+\noindent   \textit{Instructions: Answer any   \textbf{five} questions. All questions carry equal marks. Symbols have their usual meanings.}
 \bigskip
 
-\medskip\noindent\textbf{Question 1.}
+\medskip
+
+
+\noindent   \textbf{Question 1.}
+
 \begin{parts}
   \item Prove the following identities (symbols have their usual meaning):
-  \begin{parts}
-    \item $\Delta \cdot E^{-1} = \nabla$
-    \item $(\Delta - \nabla)(\Delta + \nabla) = \Delta^2 - \nabla^2$
+  
+\begin{parts}
+    \item $\Delta \cdot E^{-1} = 
+abla$
+    \item $(\Delta - 
+abla)(\Delta + 
+abla) = \Delta^2 - 
+abla^2$
   \end{parts}\pts{7}
   \item State and prove the fundamental theorem of difference calculus. \pts{7}
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 2.}
+\medskip
+
+
+\noindent   \textbf{Question 2.}
+
 \begin{parts}
   \item Show that $\Delta^n(x^{(n)}) = n!$ and hence find the value of $\Delta^6(x^6)$. \pts{7}
   \item Obtain the missing term $y_2$ in the following table:
 
-  \begin{center}
-  \begin{tabular}{c|ccccc}
-  \toprule
+  
+\begin{center}
+  
+\begin{tabular}{c|ccccc}
+   oprule
   $x$ & 0 & 1 & 2 & 3 & 4 \\
   \midrule
   $y$ & 1 & 3 & -- & 13 & 21 \\
-  \bottomrule
+  ottomrule
   \end{tabular}
   \end{center}\pts{7}
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 3.}
+\medskip
+
+
+\noindent   \textbf{Question 3.}
+
 \begin{parts}
   \item State and prove the Newton--Gregory forward interpolation formula. \pts{7}
   \item Using Stirling's interpolation formula, find the value of $y_{35}$ given that $y_{20} = 512$, $y_{30} = 439$, $y_{40} = 346$, $y_{50} = 243$. \pts{7}
@@ -80,43 +108,59 @@
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 4.}
+\medskip
+
+
+\noindent   \textbf{Question 4.}
+
 \begin{parts}
   \item State and prove Newton's divided difference interpolation formula for unequal intervals. \pts{7}
   \item Using the Lagrange interpolation formula, find the polynomial form of the function $f(x)$ tabulated below:
 
-  \begin{center}
-  \begin{tabular}{c|cccc}
-  \toprule
+  
+\begin{center}
+  
+\begin{tabular}{c|cccc}
+   oprule
   $x$ & 0 & 1 & 4 & 5 \\
   \midrule
   $f(x)$ & 4 & 3 & 24 & 39 \\
-  \bottomrule
+  ottomrule
   \end{tabular}
   \end{center}\pts{7}
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 5.}
+\medskip
+
+
+\noindent   \textbf{Question 5.}
+
 \begin{parts}
   \item What is inverse interpolation? Tabulate $y = x^{1/3}$ for $x = 2, 3, 4, 5$ and calculate the cube root of 10 correct to three decimal places. \pts{7}
   \item From the following table, compute $\dfrac{dy}{dx}$ and $\dfrac{d^2y}{dx^2}$ at $x = 1$:
 
-  \begin{center}
-  \begin{tabular}{c|ccccc}
-  \toprule
+  
+\begin{center}
+  
+\begin{tabular}{c|ccccc}
+   oprule
   $x$ & 1.0 & 1.5 & 2.0 & 2.5 & 3.0 \\
   \midrule
   $y$ & 2.7183 & 4.4817 & 7.3891 & 12.182 & 20.086 \\
-  \bottomrule
+  ottomrule
   \end{tabular}
   \end{center}\pts{7}
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 6.}
+\medskip
+
+
+\noindent   \textbf{Question 6.}
+
 \begin{parts}
   \item State and prove Simpson's three-eighths ($3/8$) rule of numerical integration. \pts{7}
   \item Calculate the value of $\pi$ from $\displaystyle\int_0^1 \frac{dx}{1+x^2}$, taking six equal intervals and using Simpson's one-third rule. \pts{7}
@@ -124,7 +168,11 @@
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 7.}
+\medskip
+
+
+\noindent   \textbf{Question 7.}
+
 \begin{parts}
   \item Sum the following series to the first $n$ terms:
   \[
@@ -135,7 +183,11 @@
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 8.}
+\medskip
+
+
+\noindent   \textbf{Question 8.}
+
 \begin{parts}
   \item Using the Runge--Kutta method, approximate $y$ when $x = 0.2$, given that $y = 1$ when $x = 0$ and $\dfrac{dy}{dx} = x + y$. \pts{7}
   \item Solve $\dfrac{dy}{dx} = 1 - y$, $y(0) = 0$, in the range $0 \leq x \leq 0.3$ using the modified Euler's method with step size $h = 0.1$. \pts{7}
@@ -143,6 +195,7 @@
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
   \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
   \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]

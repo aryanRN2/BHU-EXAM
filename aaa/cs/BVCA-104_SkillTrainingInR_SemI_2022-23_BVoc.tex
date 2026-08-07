@@ -21,105 +21,173 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{BVCA-104: Skill Training in R}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{BVCA-104: Skill Training in R}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
 
 \lstset{
-  basicstyle=\small\ttfamily,
+  basicstyle=\small tfamily,
   frame=single,
   breaklines=true,
   columns=flexible,
   keepspaces=true
 }
 
+
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
 
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Voc. Semester I Examination, 2022-23}\\[6pt]
+  {
+\normalsize B.Voc. Semester I Examination, 2022-23}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper: BVCA-104 --- Skill Training in R}\\[4pt]
-  {\normalsize Time: Three Hours \hfill Maximum Marks: 70}
+  {
+\normalsize Time: Three Hours \hfill Maximum Marks: 70}
 \end{center}
 
 \rule{\linewidth}{0.4pt}
 
 \smallskip
-\noindent\textit{Instructions: Answer all Sections. Candidates are required to write their answers in their own words as far as practicable.}
+
+
+
+\noindent   \textit{Instructions: Answer all Sections. Candidates are required to write their answers in their own words as far as practicable.}
 
 \bigskip
 
-\bigskip\noindent{\large\bfseries SECTION --- A: Long Answer Questions}\pts{$15 \times 2 = 30$}
+\bigskip
+
+
+\noindent {\large\bfseries SECTION --- A: Long Answer Questions}\pts{$15  \times 2 = 30$}
 \rule{\linewidth}{0.4pt}\smallskip
 
-\noindent\textit{Instructions: Long answer type questions to be answered in about 750 words each.}
 
-\medskip\noindent\textbf{Question 1.} List out the different control structures in R Programming with general syntaxes and brief explanation. Write R code for the function using if-else command:
+
+
+\noindent   \textit{Instructions: Long answer type questions to be answered in about 750 words each.}
+
+\medskip
+
+
+\noindent   \textbf{Question 1.} List out the different control structures in R Programming with general syntaxes and brief explanation. Write R code for the function using if-else command:
 \[
-f(x, y) = \begin{cases}
-x + y & \text{if } x < y \\
-1 - x - y & \text{if } x > y \\
-0 & \text{if } x = y
+f(x, y) = 
+\begin{cases}
+x + y &  \text{if } x < y \\
+1 - x - y &  \text{if } x > y \\
+0 &  \text{if } x = y
 \end{cases}
 \]
-\centerline{\textbf{OR}}
+\centerline{   \textbf{OR}}
 
-\medskip\noindent\textbf{Question 2.} Define nested if-else and nested loop statements with general syntaxes and explanation. Write R codes for finding a maximum number from the given three numbers.
+\medskip
 
-\medskip\noindent\textbf{Question 3.} Write a brief note on R. Write R codes for computing matrix inverse for a $3 \times 3$ matrix.
-\centerline{\textbf{OR}}
 
-\medskip\noindent\textbf{Question 4.} Illustrate arithmetic, logical, and relational operators with an example for each. Write R program for the factorial function using a for-loop.
+\noindent   \textbf{Question 2.} Define nested if-else and nested loop statements with general syntaxes and explanation. Write R codes for finding a maximum number from the given three numbers.
 
-\bigskip\noindent{\large\bfseries SECTION --- B: Short Answer Questions}\pts{$5 \times 6 = 30$}
+\medskip
+
+
+\noindent   \textbf{Question 3.} Write a brief note on R. Write R codes for computing matrix inverse for a $3  \times 3$ matrix.
+\centerline{   \textbf{OR}}
+
+\medskip
+
+
+\noindent   \textbf{Question 4.} Illustrate arithmetic, logical, and relational operators with an example for each. Write R program for the factorial function using a for-loop.
+
+\bigskip
+
+
+\noindent {\large\bfseries SECTION --- B: Short Answer Questions}\pts{$5  \times 6 = 30$}
 \rule{\linewidth}{0.4pt}\smallskip
 
-\noindent\textit{Instructions: Short answer type questions to be answered in about 550 words each. Attempt any six.}
 
-\medskip\noindent\textbf{Question 1.} Write general syntax of R functions that are used to create bar and pie charts. Show the percentage of students registered in Data Science, R Programming, and Machine Learning subjects using these charts. The percentages are 30\%, 40\%, and 30\% in Data Science, R Programming, and Machine Learning, respectively.
 
-\medskip\noindent\textbf{Question 2.} Giving a suitable example for each, explain the uses of the following operators:
+
+\noindent   \textit{Instructions: Short answer type questions to be answered in about 550 words each. Attempt any six.}
+
+\medskip
+
+
+\noindent   \textbf{Question 1.} Write general syntax of R functions that are used to create \bar and pie charts. Show the percentage of students registered in Data Science, R Programming, and Machine Learning subjects using these charts. The percentages are 30\%, 40\%, and 30\% in Data Science, R Programming, and Machine Learning, respectively.
+
+\medskip
+
+
+\noindent   \textbf{Question 2.} Giving a suitable example for each, explain the uses of the following operators:
 \[
-\text{"\%x\%"}, \quad \text{"\%*\%"}, \quad \text{"\%\%"}, \quad \text{"\%/\%"}, \quad \text{and} \quad \text{"\%in\%"}
+ \text{"\%x\%"}, \quad  \text{"\%*\%"}, \quad  \text{"\%\%"}, \quad  \text{"\%/\%"}, \quad  \text{and} \quad  \text{"\%in\%"}
 \]
 
-\medskip\noindent\textbf{Question 3.} Using \texttt{function()} command, write R codes to enter the following mathematical expressions in R:
+\medskip
+
+
+\noindent   \textbf{Question 3.} Using   \texttt{function()} command, write R codes to enter the following mathematical expressions in R:
+
 \begin{parts}
   \item $y = 10^x + \sqrt{x}\log_{10}(x)$
-  \item $y = e^{x/2} - \sin(x)\tan(|x|^4)$
+  \item $y = e^{x/2} - \sin(x) an(|x|^4)$
 \end{parts}
 
-\medskip\noindent\textbf{Question 4.} State important features of R.
+\medskip
 
-\medskip\noindent\textbf{Question 5.} Differentiate between vector, list, matrix, and data frame with general syntaxes and examples.
 
-\medskip\noindent\textbf{Question 6.} Write all R codes to perform correlation and regression analysis for the following data set:
+\noindent   \textbf{Question 4.} State important features of R.
+
+\medskip
+
+
+\noindent   \textbf{Question 5.} Differentiate between vector, list, matrix, and data frame with general syntaxes and examples.
+
+\medskip
+
+
+\noindent   \textbf{Question 6.} Write all R codes to perform correlation and regression analysis for the following data set:
+
 \begin{center}
+
 \begin{tabular}{|c|c|c|c|c|c|c|}
 \hline
-\textbf{Height (inches)} & 60 & 62 & 65 & 68 & 70 & 72 \\ \hline
-\textbf{Weight (lbs)} & 110 & 120 & 140 & 160 & 170 & 190 \\ \hline
+   \textbf{Height (inches)} & 60 & 62 & 65 & 68 & 70 & 72 \\ \hline
+   \textbf{Weight (lbs)} & 110 & 120 & 140 & 160 & 170 & 190 \\ \hline
 \end{tabular}
 \end{center}
 
-\medskip\noindent\textbf{Question 7.} Write R syntaxes to apply t-test (single sample and two sample) and Chi-square test. For illustration, you may take data of your choice.
+\medskip
 
-\medskip\noindent\textbf{Question 8.} Explain the use of \texttt{next}, \texttt{break}, and \texttt{stop} functions. Give an example for each.
 
-\bigskip\noindent{\large\bfseries SECTION --- C: Very Short Answer Questions}\pts{$10 \times 1 = 10$}
+\noindent   \textbf{Question 7.} Write R syntaxes to apply t-test (single sample and two sample) and Chi-square test. For illustration, you may take data of your choice.
+
+\medskip
+
+
+\noindent   \textbf{Question 8.} Explain the use of   \texttt{next},   \texttt{break}, and   \texttt{stop} functions. Give an example for each.
+
+\bigskip
+
+
+\noindent {\large\bfseries SECTION --- C: Very Short Answer Questions}\pts{$10  \times 1 = 10$}
 \rule{\linewidth}{0.4pt}\smallskip
 
-\noindent\textit{Instructions: Answer the following questions in a single word or sentence.}
+
+
+
+\noindent   \textit{Instructions: Answer the following questions in a single word or sentence.}
+
 
 \begin{enumerate}[label=\arabic*.,leftmargin=*,itemsep=6pt]
   \item How do you enter integer, complex, character, and numeric data in R?
-  \item Write R code to enter the following data in R using \texttt{seq()} and \texttt{rep()}:
+  \item Write R code to enter the following data in R using   \texttt{seq()} and   \texttt{rep()}:
   \[
   1.0, \, 1.0, \, 1.0, \, 1.0, \, 1.0, \, 0.5, \, 1.0, \, 1.5, \, 2.0, \, 2.5, \, 3.0
   \]
@@ -130,12 +198,14 @@ x + y & \text{if } x < y \\
   \item R is an implementation of \underline{\hspace{1.5cm}} language.
   \item Write R code to extract a column of a data frame.
   \item Write down the output of the codes:
-  \begin{lstlisting}[language=R]
+  
+\begin{lstlisting}[language=R]
 N = 1:15
 which(N >= 6 & N < 10)
   \end{lstlisting}
   \item Write down the output of the codes:
-  \begin{lstlisting}[language=R]
+  
+\begin{lstlisting}[language=R]
 x = letters[1:10]
 x[seq(2, 10, by = 2)]
   \end{lstlisting}
@@ -143,6 +213,7 @@ x[seq(2, 10, by = 2)]
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
 \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
 \end{center}

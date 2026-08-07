@@ -21,86 +21,157 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{BVCA-302: Robotics with Arduino}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{BVCA-302: Robotics with Arduino}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
 
 \lstset{
-  basicstyle=\small\ttfamily,
+  basicstyle=\small tfamily,
   frame=single,
   breaklines=true,
   columns=flexible,
   keepspaces=true
 }
 
+
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
 
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Voc. Semester III Examination, 2023-24}\\[6pt]
+  {
+\normalsize B.Voc. Semester III Examination, 2023-24}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper: BVCA-302 --- Robotics with Arduino}\\[4pt]
-  {\normalsize Time: Three Hours \hfill Maximum Marks: 70}
+  {
+\normalsize Time: Three Hours \hfill Maximum Marks: 70}
 \end{center}
 
 \rule{\linewidth}{0.4pt}
 
 \smallskip
-\noindent\textit{Instructions: Section A: Attempt any 2 out of 4 questions (12 marks each). Section B: Attempt any 6 out of 9 questions (6 marks each). Section C: All 10 questions compulsory (1 mark each).}
+
+
+
+\noindent   \textit{Instructions: Section A: Attempt any 2 out of 4 questions (12 marks each). Section B: Attempt any 6 out of 9 questions (6 marks each). Section C: All 10 questions compulsory (1 mark each).}
 
 \bigskip
 
-\bigskip\noindent{\large\bfseries SECTION --- A}
+\bigskip
+
+
+\noindent {\large\bfseries SECTION --- A}
 \rule{\linewidth}{0.4pt}\smallskip
 
-\noindent\textit{Note: Long-answer questions to be answered in about 500 words each. Attempt any two.} \hfill \textbf{[12 $\times$ 2 = 24]}
 
-\medskip\noindent\textbf{Question 1.} Explain the fundamental components and functions of both hydraulic and pneumatic systems used in robotics. Provide a detailed comparison between the two systems, highlighting their similarities and differences. Additionally, discuss the advantages and limitations of each system in the context of robotics applications.
 
-\medskip\noindent\textbf{Question 2.} Discuss the components and operation of a machine vision system used in robotics. Explain the role of lighting, cameras, frame grabbers, and computer processors in capturing and processing visual data for robot guidance and control. Provide examples of machine vision applications in industrial automation and robotics.
 
-\medskip\noindent\textbf{Question 3.} Explain the basic components of a hydraulic system and their functions. Provide examples of applications where hydraulic systems are commonly used.
+\noindent   \textit{Note: Long-answer questions to be answered in about 500 words each. Attempt any two.} \hfill   \textbf{[12 $ \times$ 2 = 24]}
 
-\medskip\noindent\textbf{Question 4.} Describe the operation of a pneumatic system, including its basic components and their functions. Discuss how a compressor generates compressed air, and how pneumatic actuators convert this energy into mechanical power.
+\medskip
 
-\bigskip\noindent{\large\bfseries SECTION --- B}
+
+\noindent   \textbf{Question 1.} Explain the fundamental components and functions of both hydraulic and pneumatic systems used in robotics. Provide a detailed comparison between the two systems, highlighting their similarities and differences. Additionally, discuss the advantages and limitations of each system in the context of robotics applications.
+
+\medskip
+
+
+\noindent   \textbf{Question 2.} Discuss the components and operation of a machine vision system used in robotics. Explain the role of lighting, cameras, frame grabbers, and computer processors in capturing and processing visual data for robot guidance and control. Provide examples of machine vision applications in industrial automation and robotics.
+
+\medskip
+
+
+\noindent   \textbf{Question 3.} Explain the basic components of a hydraulic system and their functions. Provide examples of applications where hydraulic systems are commonly used.
+
+\medskip
+
+
+\noindent   \textbf{Question 4.} Describe the operation of a pneumatic system, including its basic components and their functions. Discuss how a compressor generates compressed air, and how pneumatic actuators convert this energy into mechanical power.
+
+\bigskip
+
+
+\noindent {\large\bfseries SECTION --- B}
 \rule{\linewidth}{0.4pt}\smallskip
 
-\noindent\textit{Note: Attempt any six of the following questions. Answer in about 200 words each.} \hfill \textbf{[6 $\times$ 6 = 36]}
 
-\medskip\noindent\textbf{Question 5.} Define the term ``robotics'' and explain its significance in modern industrial automation. Provide examples of industries where robotics is commonly utilized, highlighting its impact on productivity and quality improvement.
 
-\medskip\noindent\textbf{Question 6.} Explain the concept of degrees of freedom in industrial robots. Describe how degrees of freedom are related to the robot's ability to perform various tasks and navigate its work envelope efficiently.
 
-\medskip\noindent\textbf{Question 7.} Explain the historical development of robotics from its origins in science fiction to its modern applications in industries. Highlight key milestones and technological advancements that have shaped the field.
+\noindent   \textit{Note: Attempt any six of the following questions. Answer in about 200 words each.} \hfill   \textbf{[6 $ \times$ 6 = 36]}
 
-\medskip\noindent\textbf{Question 8.} Discuss the advantages and disadvantages of different drive systems used in industrial robots, including hydraulic drive, electric drive, and pneumatic drive. Provide examples of scenarios where each drive system is preferred based on performance requirements.
+\medskip
 
-\medskip\noindent\textbf{Question 9.} Define actuators and sensors in the context of robotics. Explain their respective roles in robotic systems and provide examples of each. Discuss how actuators and sensors work together to enable robotic motion and perception in industrial and non-industrial applications.
 
-\medskip\noindent\textbf{Question 10.} Discuss the importance of precision in robot movement and its components: spatial resolution, accuracy, and repeatability.
+\noindent   \textbf{Question 5.} Define the term ``robotics'' and explain its significance in modern industrial automation. Provide examples of industries where robotics is commonly utilized, highlighting its impact on productivity and quality improvement.
 
-\medskip\noindent\textbf{Question 11.} Differentiate between fixed automation, programmable automation, and flexible automation. Provide examples of industries where each type is commonly employed, and discuss their respective advantages and limitations.
+\medskip
 
-\medskip\noindent\textbf{Question 12.} Explain the concept of ROS (Robot Operating System) and its significance in robotics development.
 
-\medskip\noindent\textbf{Question 13.} Describe the various types of motors used in robotics, including DC motors, AC motors, stepper motors, and servomotors.
+\noindent   \textbf{Question 6.} Explain the concept of degrees of freedom in industrial robots. Describe how degrees of freedom are related to the robot's ability to perform various tasks and navigate its work envelope efficiently.
 
-\bigskip\noindent{\large\bfseries SECTION --- C}
+\medskip
+
+
+\noindent   \textbf{Question 7.} Explain the historical development of robotics from its origins in science fiction to its modern applications in industries. Highlight key milestones and technological advancements that have shaped the field.
+
+\medskip
+
+
+\noindent   \textbf{Question 8.} Discuss the advantages and disadvantages of different drive systems used in industrial robots, including hydraulic drive, electric drive, and pneumatic drive. Provide examples of scenarios where each drive system is preferred based on performance requirements.
+
+\medskip
+
+
+\noindent   \textbf{Question 9.} Define actuators and sensors in the context of robotics. Explain their respective roles in robotic systems and provide examples of each. Discuss how actuators and sensors work together to enable robotic motion and perception in industrial and non-industrial applications.
+
+\medskip
+
+
+\noindent   \textbf{Question 10.} Discuss the importance of precision in robot movement and its components: spatial resolution, accuracy, and repeatability.
+
+\medskip
+
+
+\noindent   \textbf{Question 11.} Differentiate between fixed automation, programmable automation, and flexible automation. Provide examples of industries where each type is commonly employed, and discuss their respective advantages and limitations.
+
+\medskip
+
+
+\noindent   \textbf{Question 12.} Explain the concept of ROS (Robot Operating System) and its significance in robotics development.
+
+\medskip
+
+
+\noindent   \textbf{Question 13.} Describe the various types of motors used in robotics, including DC motors, AC motors, stepper motors, and servomotors.
+
+\bigskip
+
+
+\noindent {\large\bfseries SECTION --- C}
 \rule{\linewidth}{0.4pt}\smallskip
 
-\noindent\textit{Note: Answer all objective-type questions.} \hfill \textbf{[10 $\times$ 1 = 10]}
 
-\medskip\noindent\textbf{Question 14.} Answer the following:
+
+
+\noindent   \textit{Note: Answer all objective-type questions.} \hfill   \textbf{[10 $ \times$ 1 = 10]}
+
+\medskip
+
+
+\noindent   \textbf{Question 14.} Answer the following:
+
 \begin{enumerate}[label=(\roman*),leftmargin=*,itemsep=8pt]
 
   \item In robot motion planning, what is the purpose of the ``configuration space''?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item The physical space occupied by the robot
     \item The space of all possible joint configurations of the robot
     \item The workspace where the robot performs tasks
@@ -108,7 +179,8 @@
   \end{enumerate}
 
   \item What is the role of the ``end effector'' in a robot manipulator?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item To control the robot's motion
     \item To provide feedback to the operator
     \item To act as the hand or tool of the robot
@@ -116,7 +188,8 @@
   \end{enumerate}
 
   \item Which type of robot programming involves specifying the desired end-effector positions and orientations without detailing the intermediate joint motions?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item Motion Planning
     \item Trajectory Planning
     \item Inverse Kinematics
@@ -124,7 +197,8 @@
   \end{enumerate}
 
   \item What does the term ``ROS package'' refer to in the Robot Operating System (ROS)?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item A physical package containing robot components
     \item A collection of software libraries, tools, and configuration files
     \item The payload carried by a robot
@@ -132,7 +206,8 @@
   \end{enumerate}
 
   \item Which concept in robotics involves a robot's ability to recover from errors or unexpected events without human intervention?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item Fault Tolerance
     \item Redundancy
     \item Closed-Loop Control
@@ -140,7 +215,8 @@
   \end{enumerate}
 
   \item In the context of swarm robotics, what does the term ``stigmergy'' refer to?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item Communication through direct signalling
     \item Cooperation based on the use of pheromones or environmental cues
     \item Hierarchical control structure
@@ -148,7 +224,8 @@
   \end{enumerate}
 
   \item What is the origin of the term ``robot''?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item Greek
     \item Czechoslovakia
     \item German
@@ -156,7 +233,8 @@
   \end{enumerate}
 
   \item When did modern industrial robotics technology begin?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item 1920
     \item 1960
     \item 1980
@@ -164,7 +242,8 @@
   \end{enumerate}
 
   \item How is robotics defined with respect to industrial automation?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item A subset of automation
     \item Unrelated to automation
     \item Only involves computer programming
@@ -172,7 +251,8 @@
   \end{enumerate}
 
   \item What is another name for the Cartesian coordinate configurable robot?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item Spherical robot
     \item XYZ robot
     \item Rectangular robot
@@ -183,6 +263,7 @@
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
 \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
 \end{center}

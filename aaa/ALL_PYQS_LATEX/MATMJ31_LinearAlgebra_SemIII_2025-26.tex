@@ -21,93 +21,131 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{MATMJ-31: Linear Algebra}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{MATMJ-31: Linear Algebra}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
+
 
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=2pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
 
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.A. / B.Sc. (Hons.) --- Semester III Examination, 2025-26 (NEP)}\\[6pt]
+  {
+\normalsize B.A. / B.Sc. (Hons.) --- Semester III Examination, 2025-26 (NEP)}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Mathematics}\\[4pt]
   {\large\bfseries Paper Code: MATMJ-31 : Linear Algebra}\\[4pt]
-  {\normalsize Time: 2:30 Hours\hfill Maximum Marks: 70}
+  {
+\normalsize Time: 2:30 Hours\hfill Maximum Marks: 70}
 \end{center}
 
 \rule{\linewidth}{0.4pt}
 
 \smallskip
-\noindent\textit{Instructions: Answer 	extbf{five} questions in all including Question No.~1 which is compulsory. All questions carry equal marks (14 marks each).
+
+
+
+\noindent   \textit{Instructions: Answer   \textbf{five} questions in all including Question No.~1 which is compulsory. All questions carry equal marks (14 marks each).
 
 \bigskip
 
-\noindent\textbf{Question 1.} Short Answer Questions (Compulsory):\pts{22}
+
+
+
+\noindent   \textbf{Question 1.} Short Answer Questions (Compulsory):\pts{22}
+
 \begin{parts}
   \item Define vector space over a field $F$. Let $V$ be a vector space over field $F$, then show that:\pts{2}
-  \begin{parts}
+  
+\begin{parts}
     \item $a \cdot \mathbf{0} = \mathbf{0}$, where $a \in F$ and $\mathbf{0}$ is the zero vector.
     \item $(-a)x = -(ax) = a(-x)$, where $a \in F, x \in V$.
   \end{parts}
   \item Define sub-space of a vector space. Is the set $W = \{f(x) \in F[x] \mid 2f(0) = f(1)\} \subset F[x]$, a subspace of $F[x]$ (the vector space of all polynomials over $F$)?\pts{2}
   \item Is the set $\{(1, 1, 1), (-1, 0, 1), (0, -2, 1)\}$ of vectors in $\mathbb{R}^3$ over $\mathbb{R}$ linearly dependent?\pts{2}
   \item Let $V$ be a 3-dimensional vector space with $A$ and $B$ as its subspaces of dimensions 2 and 1 respectively. If $A \cap B = \{\mathbf{0}\}$, then show that $V = A \oplus B$.\pts{2}
-  \item Show that the range space of a linear transformation $T: V \to U$ is a subspace of $U$.\pts{2}
+  \item Show that the range space of a linear transformation $T: V  o U$ is a subspace of $U$.\pts{2}
   \item Show that the diagonal elements of a skew-Hermitian matrix are either purely imaginary or zero.\pts{2}
   \item Define Hermitian matrix. If $A$ and $B$ are Hermitian matrices, then show that $(A + B)$ is also Hermitian.\pts{2}
-  \item Define invariant subspace of a vector space. Let $S = \{W_i\}_{i \in I}$ be a family of $T$-invariant subspaces of a vector space $V$, then show that $W = \bigcap_{i \in I} W_i$ is also $T$-invariant.\pts{2}
-  \item Define non-singular linear transformation. Show that a linear transformation $T: V \to U$ is non-singular if and only if the image of a linearly independent set is linearly independent.\pts{3}
-  \item Define Bilinear form and Quadratic form. Let $f: \mathbb{R}^n \times \mathbb{R}^n \to \mathbb{R}$ be defined by $f(x,y) = \alpha_1 \beta_1 + \alpha_2 \beta_2 + \dots + \alpha_n \beta_n$ where $x = (\alpha_1, \dots, \alpha_n)$ and $y = (\beta_1, \dots, \beta_n)$. Show that $f$ is a bilinear form.\pts{3}
+  \item Define invariant subspace of a vector space. Let $S = \{W_i\}_{i \in I}$ be a family of $T$-invariant subspaces of a vector space $V$, then show that $W = igcap_{i \in I} W_i$ is also $T$-invariant.\pts{2}
+  \item Define non-singular linear transformation. Show that a linear transformation $T: V  o U$ is non-singular if and only if the image of a linearly independent set is linearly independent.\pts{3}
+  \item Define Bilinear form and Quadratic form. Let $f: \mathbb{R}^n  \times \mathbb{R}^n  o \mathbb{R}$ be defined by $f(x,y) = \alpha_1 eta_1 + \alpha_2 eta_2 + \dots + \alpha_n eta_n$ where $x = (\alpha_1, \dots, \alpha_n)$ and $y = (eta_1, \dots, eta_n)$. Show that $f$ is a bilinear form.\pts{3}
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\noindent\textbf{Question 2.} Matrices \& Normal Form:\pts{12}
+
+
+
+\noindent   \textbf{Question 2.} Matrices \& Normal Form:\pts{12}
+
 \begin{parts}
   \item Show that every square matrix can be expressed uniquely as the sum of a Hermitian matrix and a Skew-Hermitian matrix.\pts{5}
   \item Define rank of a matrix. Reduce the following matrix to normal form and find its rank:\pts{7}
-  $$\begin{pmatrix} 1 & 2 & 0 & -1 \\ 3 & 4 & 1 & 2 \\ -2 & 3 & 2 & 5 \end{pmatrix}$$
+  $$
+\begin{pmatrix} 1 & 2 & 0 & -1 \\ 3 & 4 & 1 & 2 \\ -2 & 3 & 2 & 5 \end{pmatrix}$$
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\noindent\textbf{Question 3.} Systems of Linear Equations \& Direct Sums:\pts{12}
+
+
+
+\noindent   \textbf{Question 3.} Systems of Linear Equations \& Direct Sums:\pts{12}
+
 \begin{parts}
   \item For what values of $\lambda$, do the equations:
-  $$\begin{aligned} x + y + z &= 1 \\ x + 2y + 4z &= \lambda \\ x + 4y + 10z &= \lambda^2 \end{aligned}$$
+  $$
+\begin{aligned} x + y + z &= 1 \\ x + 2y + 4z &= \lambda \\ x + 4y + 10z &= \lambda^2 \end{aligned}$$
   have a solution, and solve in each case.\pts{6}
   \item Prove that the vector space $V$ is the direct sum of its subspaces $W_1$ and $W_2$ if and only if: (i) $V = W_1 + W_2$, and (ii) $W_1 \cap W_2 = \{\mathbf{0}\}$.\pts{6}
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\noindent\textbf{Question 4.} Core Linear Algebra Theorems:\pts{12}
+
+
+
+\noindent   \textbf{Question 4.} Core Linear Algebra Theorems:\pts{12}
+
 \begin{parts}
   \item State and prove Cayley-Hamilton Theorem.\pts{6}
-  \item If $T: V \to U$ is a linear transformation and $V$ is finite dimensional, then prove Rank-Nullity Theorem:\pts{6}
-  $$\text{Rank}(T) + \text{Nullity}(T) = \dim(V)$$
+  \item If $T: V  o U$ is a linear transformation and $V$ is finite dimensional, then prove Rank-Nullity Theorem:\pts{6}
+  $$ \text{Rank}(T) +  \text{Nullity}(T) = \dim(V)$$
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\noindent\textbf{Question 5.} Change of Basis \& Basis Extension:\pts{12}
+
+
+
+\noindent   \textbf{Question 5.} Change of Basis \& Basis Extension:\pts{12}
+
 \begin{parts}
-  \item If the matrix of a linear transformation $T: \mathbb{R}^2 \to \mathbb{R}^2$ with respect to the ordered basis $B = \{(1,0), (0,-1)\}$ is $\begin{pmatrix} 1 & 1 \\ 1 & 1 \end{pmatrix}$, what is the matrix of $T$ with respect to the ordered basis $B' = \{(1,1), (1,-1)\}$?\pts{5}
+  \item If the matrix of a linear transformation $T: \mathbb{R}^2  o \mathbb{R}^2$ with respect to the ordered basis $B = \{(1,0), (0,-1)\}$ is $
+\begin{pmatrix} 1 & 1 \\ 1 & 1 \end{pmatrix}$, what is the matrix of $T$ with respect to the ordered basis $B' = \{(1,1), (1,-1)\}$?\pts{5}
   \item Let $B = \{(1,1,1,1), (1,2,1,2)\}$ be a linearly independent subset of vector space $\mathbb{R}^4$ over $\mathbb{R}$. Extend it to a basis of $\mathbb{R}^4$.\pts{7}
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\noindent\textbf{Question 6.} Eigenvalues, Diagonalization \& Gram-Schmidt:\pts{12}
+
+
+
+\noindent   \textbf{Question 6.} Eigenvalues, Diagonalization \& Gram-Schmidt:\pts{12}
+
 \begin{parts}
   \item For the following matrix, find its eigenvalues and a basis for each of their eigenspaces:
-  $$A = \begin{pmatrix} 1 & -3 & 3 \\ 3 & -5 & 3 \\ 6 & -6 & 4 \end{pmatrix}$$
+  $$A = 
+\begin{pmatrix} 1 & -3 & 3 \\ 3 & -5 & 3 \\ 6 & -6 & 4 \end{pmatrix}$$
   Is this matrix diagonalizable?\pts{7}
   \item Transform the following basis of Euclidean space $\mathbb{R}^3$ to an orthonormal basis:
   $$\{v_1 = (1,1,1), v_2 = (0,1,1), v_3 = (0,0,1)\}$$
@@ -116,7 +154,11 @@
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\noindent\textbf{Question 7.} Inner Product Spaces \& Inequalities:\pts{12}
+
+
+
+\noindent   \textbf{Question 7.} Inner Product Spaces \& Inequalities:\pts{12}
+
 \begin{parts}
   \item Define unitary linear transformation. Show that $T$ is a unitary linear transformation on an inner-product space $V$ if and only if $\|Tv\| = \|v\|$ for all $v \in V$.\pts{6}
   \item For any two vectors $u, v$ of an inner-product space $V$, state and prove the Cauchy-Schwarz inequality:
@@ -125,6 +167,7 @@
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
 \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
 \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}

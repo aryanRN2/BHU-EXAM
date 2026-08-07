@@ -21,40 +21,53 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{CS-109: Data Communication}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{CS-109: Data Communication}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
 
 \lstset{
-  basicstyle=\small\ttfamily,
+  basicstyle=\small tfamily,
   frame=single,
   breaklines=true,
   columns=flexible,
   keepspaces=true
 }
 
+
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Sc. (Hons.) Semester VI Examination, 2022-23}\\[6pt]
+  {
+\normalsize B.Sc. (Hons.) Semester VI Examination, 2022-23}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper: CS-109 --- Data Communication}\\[4pt]
-  {\normalsize Time: Three hours \hfill Maximum Marks: 70}
+  {
+\normalsize Time: Three hours \hfill Maximum Marks: 70}
 \end{center}
 
 \rule{\linewidth}{0.4pt}
 
 \smallskip
-\noindent\textit{Instructions: ANSWER ANY FIVE QUESTIONS, ALL QUESTIONS CARRY EQUAL MARKS.}
+
+
+
+\noindent   \textit{Instructions: ANSWER ANY FIVE QUESTIONS, ALL QUESTIONS CARRY EQUAL MARKS.}
 
 \bigskip
 
-\medskip\noindent\textbf{Question 1.} Write a short note on any four of the following techniques/protocols: \pts{3.5 $\times$ 4 = 14}
+\medskip
+
+
+\noindent   \textbf{Question 1.} Write a short note on any four of the following techniques/protocols: \pts{3.5 $ \times$ 4 = 14}
+
 \begin{parts}
   \item Amplitude Modulation (AM)
   \item Frequency-Division Multiplexing (FDM)
@@ -64,40 +77,62 @@
   \item Direct Sequence Spread Spectrum (DSSS)
 \end{parts}
 
-\medskip\noindent\textbf{Question 2.}
+\medskip
+
+
+\noindent   \textbf{Question 2.}
+
 \begin{parts}
   \item What is wireless (unguided) transmission media? What are the three major types of wireless transmission media? Describe each in detail.\pts{6}
   \item What are circuit-switched and packet-switched networks? Discuss the differences between them.\pts{8}
 \end{parts}
 
-\medskip\noindent\textbf{Question 3.}
+\medskip
+
+
+\noindent   \textbf{Question 3.}
+
 \begin{parts}
   \item What is the result of scrambling the sequence $11100000000000$ using the following scrambling techniques? Assume that the last non-zero signal level has been positive:\pts{6}
-  \begin{parts}
+  
+\begin{parts}
     \item B8ZS
     \item HDB3 (assume the number of non-zero pulses is odd after the last substitution)
   \end{parts}
   \item What is the purpose of the Pulse Code Modulation (PCM) technique? Describe the components of a PCM encoder with an example.\pts{8}
 \end{parts}
 
-\medskip\noindent\textbf{Question 4.}
+\medskip
+
+
+\noindent   \textbf{Question 4.}
+
 \begin{parts}
   \item Describe the following mechanisms for modulating digital data into an analog signal with examples: Amplitude Shift Keying (ASK), Frequency Shift Keying (FSK), Phase Shift Keying (PSK), and Quadrature Amplitude Modulation (QAM).\pts{6}
   \item Station A needs to send a message consisting of 9 packets to Station B using a sliding window (window size 3) and Go-Back-N error control strategy. All packets are ready and immediately available for transmission. If every 5th packet that A transmits gets lost (but no ACKs from B ever get lost), then what is the total number of packets that A will transmit for sending the message to B? Explain with a diagram.\pts{8}
 \end{parts}
 
-\medskip\noindent\textbf{Question 5.}
+\medskip
+
+
+\noindent   \textbf{Question 5.}
+
 \begin{parts}
   \item Discuss Frequency Hopping Spread Spectrum (FHSS) with a suitable diagram.\pts{6}
-  \item A sender needs to send the four data items given in hexadecimal: \texttt{3456}, \texttt{ABCC}, \texttt{02BC}, and \texttt{EEEE}. Answer the following questions:\pts{8}
-  \begin{parts}
+  \item A sender needs to send the four data items given in hexadecimal:   \texttt{3456},   \texttt{ABCC},   \texttt{02BC}, and   \texttt{EEEE}. Answer the following questions:\pts{8}
+  
+\begin{parts}
     \item Calculate the checksum at the sender site.
-    \item Calculate the checksum at the receiver site if the second data item is changed to \texttt{ABCE}.
-    \item Find the checksum at the receiver site if the second data item is changed to \texttt{ABCE} and the third data item is changed to \texttt{02BA}.
+    \item Calculate the checksum at the receiver site if the second data item is changed to   \texttt{ABCE}.
+    \item Find the checksum at the receiver site if the second data item is changed to   \texttt{ABCE} and the third data item is changed to   \texttt{02BA}.
   \end{parts}
 \end{parts}
 
-\medskip\noindent\textbf{Question 6.}
+\medskip
+
+
+\noindent   \textbf{Question 6.}
+
 \begin{parts}
   \item What is data link control? Describe the key components of data link control.\pts{6}
   \item Why do we need flow and error control? Discuss the stop-and-wait flow control technique with an example.\pts{8}
@@ -106,6 +141,7 @@
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
 \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
 \end{center}

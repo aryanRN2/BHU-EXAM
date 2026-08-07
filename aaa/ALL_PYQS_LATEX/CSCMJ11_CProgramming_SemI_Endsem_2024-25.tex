@@ -12,18 +12,20 @@
 
 \hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,pdftitle={CSCMJ11 / CSCMN11: Introduction to Programming using C -- BHU Sem I 2024-25 (NEP)}}
 \pagestyle{fancy}\fancyhf{}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{CSCMJ11 / CSCMN11: Programming using C (2024-25)}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{CSCMJ11 / CSCMN11: Programming using C (2024-25)}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
+
 
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
 
 \lstset{
   language=C,
-  basicstyle=\small\ttfamily,
+  basicstyle=\small tfamily,
   keywordstyle=\bfseries,
   showstringspaces=false,
   frame=single,
@@ -31,33 +33,48 @@
   breaklines=true
 }
 
+
 \begin{document}
+
 
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Sc. (Hons.) Semester I Examination 2024-25 (NEP)}\\[6pt]
+  {
+\normalsize B.Sc. (Hons.) Semester I Examination 2024-25 (NEP)}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries DEPARTMENT OF COMPUTER SCIENCE}\\[4pt]
   {\large\bfseries Paper Code: CSCMJ11 / CSCMN11 --- Introduction to Programming using C}\\[4pt]
-  {\normalsize Time: 2:30 Hours\hfill Maximum Marks: 70}
+  {
+\normalsize Time: 2:30 Hours\hfill Maximum Marks: 70}
 \end{center}
 
 \rule{\linewidth}{0.4pt}\smallskip
-\noindent\textit{Instruction: Write your Roll No. at the top immediately on the receipt of this question paper.}\\[2pt]
-\noindent\textit{Note: Answer any five questions, including Question No. 1, which is compulsory.}
+
+
+
+\noindent   \textit{Instruction: Write your Roll No. at the top immediately on the receipt of this question paper.}\\[2pt]
+
+
+
+\noindent   \textit{Note: Answer any five questions, including Question No. 1, which is compulsory.}
 \bigskip
 
-\noindent\textbf{Question 1} \textit{(Compulsory --- Attempt any nine)}\pts{$9 \times 2 = 18$}
+
+
+
+\noindent   \textbf{Question 1}   \textit{(Compulsory --- Attempt any nine)}\pts{$9  \times 2 = 18$}
+
 \begin{parts}
-  \item Differentiate between \texttt{int} and \texttt{float} data types.
+  \item Differentiate between   \texttt{int} and   \texttt{float} data types.
   \item List the rules for naming a variable in C.
-  \item What is the role of \texttt{continue} keyword in C programming?
+  \item What is the role of   \texttt{continue} keyword in C programming?
   \item Is it possible to rename a data type in C? If yes, then how?
-  \item What is the use of \texttt{sizeof()} in C programming?
-  \item What is the difference between \texttt{scanf()} and \texttt{fscanf()} functions?
+  \item What is the use of   \texttt{sizeof()} in C programming?
+  \item What is the difference between   \texttt{scanf()} and   \texttt{fscanf()} functions?
   \item Write the syntax and usage of ternary operator in C.
-  \item Write the syntax of \texttt{main()} function while using command line arguments.
+  \item Write the syntax of   \texttt{main()} function while using command line arguments.
   \item What will be the output of the following code? (Explain with reason)
+
 \begin{lstlisting}
 void main() {
     int a = 3, b = 4;
@@ -67,6 +84,7 @@ void main() {
 }
 \end{lstlisting}
   \item What will be the output of the following code? (Explain with reason)
+
 \begin{lstlisting}
 void main() {
     int a[] = {10, 20, 30, 40, 50};
@@ -81,16 +99,24 @@ void main() {
 
 \medskip\rule{\linewidth}{0.2pt}\medskip
 
-\noindent\textbf{Question 2}
+
+
+
+\noindent   \textbf{Question 2}
+
 \begin{parts}
   \item What are the characteristics of an algorithm? Draw a flowchart to print the factorial of a given number.\pts{4}
-  \item Explain the difference between a \texttt{while} loop and a \texttt{for} loop with a suitable example.\pts{5}
-  \item Explain the difference between \texttt{if-else} and \texttt{else-if} statements with a suitable example.\pts{4}
+  \item Explain the difference between a   \texttt{while} loop and a   \texttt{for} loop with a suitable example.\pts{5}
+  \item Explain the difference between   \texttt{if-else} and   \texttt{else-if} statements with a suitable example.\pts{4}
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}\medskip
 
-\noindent\textbf{Question 3}
+
+
+
+\noindent   \textbf{Question 3}
+
 \begin{parts}
   \item Discuss about the relational operators in C with suitable examples.\pts{5}
   \item Differentiate between function definition and function prototype with a suitable example. Is it possible to return more than one value from a function? Explain your answer with a suitable example.\pts{8}
@@ -98,11 +124,16 @@ void main() {
 
 \medskip\rule{\linewidth}{0.2pt}\medskip
 
-\noindent\textbf{Question 4}
+
+
+
+\noindent   \textbf{Question 4}
+
 \begin{parts}
   \item State the difference between automatic and external storage class variables using appropriate examples.\pts{7}
   \item Write your own functions for the following operations on strings:
-  \begin{parts}
+  
+\begin{parts}
     \item Find length of a given string
     \item Concatenate two strings\pts{6}
   \end{parts}
@@ -110,7 +141,11 @@ void main() {
 
 \medskip\rule{\linewidth}{0.2pt}\medskip
 
-\noindent\textbf{Question 5}
+
+
+
+\noindent   \textbf{Question 5}
+
 \begin{parts}
   \item Define string. Explain with a suitable example how to store and display the names of five countries.\pts{6}
   \item Define pointer. Explain any three arithmetic operations that can be applied on pointer variables with suitable examples.\pts{7}
@@ -118,21 +153,30 @@ void main() {
 
 \medskip\rule{\linewidth}{0.2pt}\medskip
 
-\noindent\textbf{Question 6}
+
+
+
+\noindent   \textbf{Question 6}
+
 \begin{parts}
   \item Explain the syntax for opening a file in C with a suitable example. Write any two reasons for the failure of a file open operation. How do you handle this situation in your program?\pts{7}
-  \item What do you mean by Dynamic Memory Allocation in C? Differentiate between \texttt{malloc()} and \texttt{calloc()} functions with suitable examples.\pts{6}
+  \item What do you mean by Dynamic Memory Allocation in C? Differentiate between   \texttt{malloc()} and   \texttt{calloc()} functions with suitable examples.\pts{6}
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}\medskip
 
-\noindent\textbf{Question 7}
+
+
+
+\noindent   \textbf{Question 7}
+
 \begin{parts}
   \item What is the role of Preprocessor in C programming? Differentiate between a Macro (with argument) and a Function with suitable examples. Out of these two, which one will you prefer and why while writing a program?\pts{6}
-  \item Differentiate between \texttt{structure} and \texttt{union} with suitable examples. What are the situations when it would be better to use \texttt{union} instead of \texttt{structure}? Explain with a real-life example.\pts{7}
+  \item Differentiate between   \texttt{structure} and   \texttt{union} with suitable examples. What are the situations when it would be better to use   \texttt{union} instead of   \texttt{structure}? Explain with a real-life example.\pts{7}
 \end{parts}
 
 \vfill\rule{\linewidth}{0.4pt}
+
 \begin{center}\small
 \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
 \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}

@@ -20,54 +20,74 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{MTB-507: Combinatorial Mathematics}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{MTB-507: Combinatorial Mathematics}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
+
 
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
 
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.A./B.Sc. (Hons.) Semester V Examination, 2022-23}\\[6pt]
+  {
+\normalsize B.A./B.Sc. (Hons.) Semester V Examination, 2022-23}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper No. MTB-507: Combinatorial Mathematics}\\[4pt]
-  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+  {
+\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
 \end{center}
 
 \rule{\linewidth}{0.4pt}
 
 \smallskip
-\noindent\textit{Instructions: Answer \textbf{five} questions including Question~1 which is compulsory. Symbols have their usual meanings.}
 
-\medskip\noindent\textbf{Question 1.}
+
+
+\noindent   \textit{Instructions: Answer   \textbf{five} questions including Question~1 which is compulsory. Symbols have their usual meanings.}
+
+\medskip
+
+
+\noindent   \textbf{Question 1.}
+
 \begin{parts}
   \item In how many ways can four tyres be put on a car? \pts{1}
-  \item A king is placed on the bottom left-hand square of an $8 \times 8$ chessboard and is to move to the top right-hand corner square. If it can move only up or to the right, how many possible paths does it have to choose from? \pts{2}
+  \item A king is placed on the bottom left-hand square of an $8  \times 8$ chessboard and is to move to the top right-hand corner square. If it can move only up or to the right, how many possible paths does it have to choose from? \pts{2}
   \item It is required to seat $n$ people round a table. Show that this can be done in $(n-1)!$ ways. \pts{3}
   \item A pack of 52 cards is divided among 4 people so that each gets 13 cards. How many such deals are possible? \pts{2}
   \item If
-  \[ B = \begin{pmatrix} 1 & 1 & 1 & 1 \\ 1 & -1 & 1 & -1 \\ 1 & 1 & -1 & -1 \\ 1 & -1 & -1 & 1 \end{pmatrix} \]
-  derive from $B$ an $8 \times 8$ Hadamard matrix and hence write down the incidence matrix of a $(7,3,1)$-configuration. \pts{3}
+  \[ B = 
+\begin{pmatrix} 1 & 1 & 1 & 1 \\ 1 & -1 & 1 & -1 \\ 1 & 1 & -1 & -1 \\ 1 & -1 & -1 & 1 \end{pmatrix} \]
+  derive from $B$ an $8  \times 8$ Hadamard matrix and hence write down the incidence matrix of a $(7,3,1)$-configuration. \pts{3}
   \item Find the Rook's polynomial of the following board:
-  \[ \begin{array}{ccc}
-  \square & \square & \blacksquare \\
-  \square & \blacksquare & \square \\
-  \blacksquare & \square & \square
+  \[ 
+\begin{array}{ccc}
+  \square & \square & lacksquare \\
+  \square & lacksquare & \square \\
+  lacksquare & \square & \square
   \end{array} \]
-  where $\blacksquare$ represents a shaded/unavailable square. \pts{3}
+  where $lacksquare$ represents a shaded/unavailable square. \pts{3}
 \end{parts}
 
-\medskip\noindent\textbf{Question 2.}
+\medskip
+
+
+\noindent   \textbf{Question 2.}
+
 \begin{parts}
   \item Suppose that each of $k$ indistinguishable golf balls has to be coloured with any one of $n$ given colors and we have to find the different colourings. Show that the number of different colourings is same as the number of non-negative integral solutions of the equation
   \[ x_1 + x_2 + \cdots + x_n = k \]
   Let $f(n,k)$ be the number of solutions of this equation. Show that:
-  \begin{parts}
+  
+\begin{parts}
     \item $f(n,k) = f(n-1,k) + f(n,k-1)$ for all $n \ge 2, k \ge 2$.
     \item $f(n,k)$ is the coefficient of $x^k$ in $(1-x)^{-n}$.
     \item $f(n,k)$ is the number of ways of choosing $(n-1)$ places out of $(n+k-1)$ places.
@@ -77,30 +97,44 @@
   and deduce the number of games played in a league of 22 teams. \pts{4}
 \end{parts}
 
-\medskip\noindent\textbf{Question 3.}
+\medskip
+
+
+\noindent   \textbf{Question 3.}
+
 \begin{parts}
   \item By using the identity
   \[ (1+x)^{2n} = (1+x)^n(1+x)^n \]
   and considering the coefficient of $x^n$ on both sides, prove that
-  \[ \binom{2n}{n} = \binom{n}{0}^2 + \binom{n}{1}^2 + \binom{n}{2}^2 + \cdots + \binom{n}{n}^2 \]
+  \[ inom{2n}{n} = inom{n}{0}^2 + inom{n}{1}^2 + inom{n}{2}^2 + \cdots + inom{n}{n}^2 \]
   Verify this in the case $n=5$. \pts{7}
   \item Use the binomial theorem to evaluate:
-  \begin{parts}
-    \item $\sum_{r=0}^{n} (-1)^r \binom{n}{r}$
-    \item $\sum_{r=0}^{n} r \binom{n}{r}$
+  
+\begin{parts}
+    \item $\sum_{r=0}^{n} (-1)^r inom{n}{r}$
+    \item $\sum_{r=0}^{n} r inom{n}{r}$
   \end{parts} \pts{7}
 \end{parts}
 
-\medskip\noindent\textbf{Question 4.}
+\medskip
+
+
+\noindent   \textbf{Question 4.}
+
 \begin{parts}
   \item Show that, if a graph has $2n$ vertices, each of degree $\ge n$, then the graph has a perfect matching. Show by an example that the converse of this statement may not be true. \pts{6}
   \item State and prove Hall's marriage theorem. \pts{8}
 \end{parts}
 
-\medskip\noindent\textbf{Question 5.}
+\medskip
+
+
+\noindent   \textbf{Question 5.}
+
 \begin{parts}
   \item Let $\{a_n\}$ be a sequence satisfying $a_n = A a_{n-1} + B a_{n-2}$, $n \ge 2$, where $a_0$ and $a_1$ are given. $A$ and $B$ are constants. If $r_1$ and $r_2$ are the roots of $r^2 - Ar - B = 0$, then show that:
-  \begin{parts}
+  
+\begin{parts}
     \item $a_n = k_1 r_1^n + k_2 r_2^n$, if $r_1$ and $r_2$ are real and distinct;
     \item $a_n = (k_1 + n k_2)r^n$, if $r_1 = r_2 = r$;
   \end{parts}
@@ -108,18 +142,27 @@
   \item Solve the Fibonacci recurrence relation: $F_n = F_{n-1} + F_{n-2}$ for $n \ge 2$, with $F_0 = 0$, $F_1 = 1$. \pts{7}
 \end{parts}
 
-\medskip\noindent\textbf{Question 6.}
+\medskip
+
+
+\noindent   \textbf{Question 6.}
+
 \begin{parts}
   \item Define derangements. If $D_n$ denotes the number of possible derangements of $n$ symbols, then find $D_n$. \pts{7}
   \item Given a chessboard $C$, choose any square of $C$ and let $D$ denote the board obtained by deleting from $C$ every square in the same row or column as the chosen square (including the chosen square itself). Let $E$ denote the board obtained from $C$ by deleting only the chosen square. Then show that:
   \[ R(x, C) = x R(x, D) + R(x, E) \] \pts{7}
 \end{parts}
 
-\medskip\noindent\textbf{Question 7.}
+\medskip
+
+
+\noindent   \textbf{Question 7.}
+
 \begin{parts}
   \item For a $(v,b,r,k,\lambda)$-configuration, show that $vr = bk$, $r(k-1) = \lambda(v-1)$, and $b \ge v$. \pts{10}
   \item Show that:
-  \begin{parts}
+  
+\begin{parts}
     \item A code will detect all sets of $h$ or fewer errors if any two words differ in at least $(h+1)$ places. \pts{4}
     \item A code will correct all sets of $h$ or fewer errors if any two words differ in at least $(2h+1)$ places. \pts{4}
   \end{parts}
@@ -129,6 +172,7 @@
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
 \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
 \end{center}

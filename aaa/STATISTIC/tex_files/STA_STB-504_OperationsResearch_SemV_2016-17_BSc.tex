@@ -19,39 +19,56 @@
 
 \pagestyle{fancy}\fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{STA/STB-504: Operations Research}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{STA/STB-504: Operations Research}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
+
 
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
 
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.A./B.Sc. (Hons.) Semester V Examination, 2016-17}\\[6pt]
+  {
+\normalsize B.A./B.Sc. (Hons.) Semester V Examination, 2016-17}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper No. STA/STB-504: Operations Research}\\[4pt]
-  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+  {
+\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
 \end{center}
 \rule{\linewidth}{0.4pt}
 \smallskip
-\noindent\textit{Instructions: Answer any \textbf{five} questions. All questions carry equal marks. Symbols have their usual meanings.}
+
+
+
+\noindent   \textit{Instructions: Answer any   \textbf{five} questions. All questions carry equal marks. Symbols have their usual meanings.}
 \bigskip
 
-\medskip\noindent\textbf{Question 1.}
+\medskip
+
+
+\noindent   \textbf{Question 1.}
 
 Explain how and why Operations Research (OR) methods have been valuable in aiding executive decision-making. \pts{14}
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 2.}
+\medskip
+
+
+\noindent   \textbf{Question 2.}
+
 \begin{parts}
   \item Define the following terms:
-  \begin{parts}
+  
+\begin{parts}
     \item Non-degenerate and degenerate solution
     \item Optimum solution
   \end{parts}\pts{7}
@@ -60,12 +77,16 @@ Explain how and why Operations Research (OR) methods have been valuable in aidin
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 3.}
+\medskip
+
+
+\noindent   \textbf{Question 3.}
 
 Give a brief account of the simplex method for solving an LPP. Solve the following LPP by the simplex method:
+
 \begin{align*}
-  \text{Maximise} \quad & Z = 3x_1 - x_2 \\
-  \text{subject to} \quad & x_1 + x_2 \leq 4 \\
+   \text{Maximise} \quad & Z = 3x_1 - x_2 \\
+   \text{subject to} \quad & x_1 + x_2 \leq 4 \\
   & x_1 + 3x_2 \leq 6 \\
   & x_2 \leq 4 \\
   & x_1, x_2 \geq 0
@@ -73,13 +94,18 @@ Give a brief account of the simplex method for solving an LPP. Solve the followi
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 4.}
+\medskip
+
+
+\noindent   \textbf{Question 4.}
 
 Show that the transportation problem can be regarded as a particular case of an LP problem. Solve the following transportation problem and find the optimum solution:
 
+
 \begin{center}
+
 \begin{tabular}{c|cccc|c}
-\toprule
+ oprule
  & $D_1$ & $D_2$ & $D_3$ & $D_4$ & Availability \\
 \midrule
 $O_A$ & 1 & 7 & 2 & 5 & 5 \\
@@ -88,24 +114,31 @@ $O_C$ & 6 & 3 & 3 & 2 & 10 \\
 $O_D$ & -1 & 4 & 2 & -- & 20 \\
 \midrule
 Requirement & 20 & 25 & 15 & -- & \\
-\bottomrule
+ottomrule
 \end{tabular}
 \end{center}\pts{14}
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 5.}
+\medskip
+
+
+\noindent   \textbf{Question 5.}
 
 What do you mean by inventory problems? Describe the ELS (Economic Lot Size) model with a uniform rate of demand, finite rate of production, and no shortages. An item is produced at the rate of 50 items per day. The demand occurs at the rate of 25 items per day. If the setup cost is Rs.\ 100 per setup and the holding cost is Rs.\ 0.01 per unit per day, find the ELS for one run, assuming shortages are not permitted. \pts{14}
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 6.}
+\medskip
+
+
+\noindent   \textbf{Question 6.}
 
 What do you understand by duality in LPP? What are the standard forms of the dual? Write the dual of the following LPP and solve it. Also find the primal solution:
+
 \begin{align*}
-  \text{Minimise} \quad & Z = 0.07x_1 + 0.05x_2 \\
-  \text{subject to} \quad & 0.1x_1 \geq 0.4 \\
+   \text{Minimise} \quad & Z = 0.07x_1 + 0.05x_2 \\
+   \text{subject to} \quad & 0.1x_1 \geq 0.4 \\
   & x_1 \geq 0.6 \\
   & x_1 + 0.2x_2 \geq 2.0 \\
   & 2x_1 + 0.1x_2 \geq 1.8 \\
@@ -114,9 +147,13 @@ What do you understand by duality in LPP? What are the standard forms of the dua
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 7.}
+\medskip
+
+
+\noindent   \textbf{Question 7.}
+
 \begin{parts}
-  \item Explain saddle point and zero-sum game. For a $2 \times 2$ zero-sum two-person game where the optimal strategies are mixed, show that the optimal strategies $(x_1^*, x_2^*)$ for Player A and $(y_1^*, y_2^*)$ for Player B are:
+  \item Explain saddle point and zero-sum game. For a $2  \times 2$ zero-sum two-person game where the optimal strategies are mixed, show that the optimal strategies $(x_1^*, x_2^*)$ for Player A and $(y_1^*, y_2^*)$ for Player B are:
   \[
     x_1^* = \frac{a_{22} - a_{21}}{(a_{11} + a_{22}) - (a_{12} + a_{21})}, \quad
     y_1^* = \frac{a_{22} - a_{12}}{(a_{11} + a_{22}) - (a_{12} + a_{21})},
@@ -127,42 +164,50 @@ What do you understand by duality in LPP? What are the standard forms of the dua
   \]\pts{7}
   \item Solve the following game by the dominance property:
 
-  \begin{center}
-  \begin{tabular}{c|cccc}
-  \toprule
-  Player A $\backslash$ Player B & $B_1$ & $B_2$ & $B_3$ & $B_4$ \\
+  
+\begin{center}
+  
+\begin{tabular}{c|cccc}
+   oprule
+  Player A $ackslash$ Player B & $B_1$ & $B_2$ & $B_3$ & $B_4$ \\
   \midrule
   $A_1$ & 2 & 3 & 4 & 5 \\
   $A_2$ & 1 & 3 & 2 & 7 \\
   $A_3$ & 3 & 4 & 8 & 6 \\
   $A_4$ & 6 & 5 & 7 & 6 \\
   $A_5$ & 2 & 0 & 8 & 1 \\
-  \bottomrule
+  ottomrule
   \end{tabular}
   \end{center}\pts{7}
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 8.}
+\medskip
+
+
+\noindent   \textbf{Question 8.}
 
 Solve the following assignment problem to minimise total time (rows = jobs, columns = typists):
 
+
 \begin{center}
+
 \begin{tabular}{c|cccc}
-\toprule
+ oprule
  & $T_1$ & $T_2$ & $T_3$ & $T_4$ \\
 \midrule
 $J_1$ & 2 & 10 & 9 & 7 \\
 $J_2$ & 15 & 4 & 14 & 8 \\
 $J_3$ & 13 & 14 & 16 & 11 \\
 $J_4$ & 4 & 15 & 13 & 9 \\
-\bottomrule
+ottomrule
 \end{tabular}
 \end{center}\pts{14}
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
   \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
   \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]

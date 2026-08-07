@@ -21,12 +21,12 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{BVCA-205: Skill Training Python}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{BVCA-205: Skill Training Python}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
 
 \lstset{
-  basicstyle=\small\ttfamily,
+  basicstyle=\small tfamily,
   language=Python,
   frame=single,
   breaklines=true,
@@ -34,50 +34,77 @@
   keepspaces=true
 }
 
+
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
 
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Voc. Semester II Examination, 2021-22}\\[6pt]
+  {
+\normalsize B.Voc. Semester II Examination, 2021-22}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper: BVCA-205 --- Skill Training in Python}\\[4pt]
-  {\normalsize Time: Three Hours \hfill Maximum Marks: 70}
+  {
+\normalsize Time: Three Hours \hfill Maximum Marks: 70}
 \end{center}
 
 \rule{\linewidth}{0.4pt}
 
 \smallskip
-\noindent\textit{Instructions: Attempt all questions. Part A: Multiple Choice and Short Questions. Part B: Internal Choice (any four). Part C: Open choice (any three out of four).}
+
+
+
+\noindent   \textit{Instructions: Attempt all questions. Part A: Multiple Choice and Short Questions. Part B: Internal Choice (any four). Part C: Open choice (any three out of four).}
 
 \bigskip
 
-\bigskip\noindent{\large\bfseries PART --- A}
+\bigskip
+
+
+\noindent {\large\bfseries PART --- A}
 \rule{\linewidth}{0.4pt}\smallskip
 
-\noindent\textit{Note: Multiple Choice Type Questions and Short Questions.} \hfill \textbf{[10 $\times$ 2 = 20]}
 
-\medskip\noindent\textbf{Question 1.} Which of the following is a Python tuple?
+
+
+\noindent   \textit{Note: Multiple Choice Type Questions and Short Questions.} \hfill   \textbf{[10 $ \times$ 2 = 20]}
+
+\medskip
+
+
+\noindent   \textbf{Question 1.} Which of the following is a Python tuple?
+
 \begin{parts}
-  \item \texttt{\{1, 2, 3\}}
-  \item \texttt{4}
-  \item \texttt{[1, 2, 3]}
-  \item \texttt{(2, 2, 3)}
+  \item   \texttt{\{1, 2, 3\}}
+  \item   \texttt{4}
+  \item   \texttt{[1, 2, 3]}
+  \item   \texttt{(2, 2, 3)}
 \end{parts}
 
-\medskip\noindent\textbf{Question 2.} Which one of the following is not a keyword in Python?
+\medskip
+
+
+\noindent   \textbf{Question 2.} Which one of the following is not a keyword in Python?
+
 \begin{parts}
-  \item \texttt{pass}
-  \item \texttt{eval}
-  \item \texttt{assert}
-  \item \texttt{nonlocal}
+  \item   \texttt{pass}
+  \item   \texttt{eval}
+  \item   \texttt{assert}
+  \item   \texttt{nonlocal}
 \end{parts}
 
-\medskip\noindent\textbf{Question 3.} In object-oriented programming, what is the relation of an object to a class?
+\medskip
+
+
+\noindent   \textbf{Question 3.} In object-oriented programming, what is the relation of an object to a class?
+
 \begin{parts}
   \item Class is an instance of an object.
   \item Object is a child of a class.
@@ -85,11 +112,16 @@
   \item Object is an instance of a class.
 \end{parts}
 
-\medskip\noindent\textbf{Question 4.} What will be the output of the following Python code snippet?
+\medskip
+
+
+\noindent   \textbf{Question 4.} What will be the output of the following Python code snippet?
+
 \begin{lstlisting}
 print(type(5/2))
 print(type(5//2))
 \end{lstlisting}
+
 \begin{parts}
   \item float and int
   \item float and float
@@ -97,10 +129,15 @@ print(type(5//2))
   \item int and float
 \end{parts}
 
-\medskip\noindent\textbf{Question 5.} What will be the output of the following Python code snippet?
+\medskip
+
+
+\noindent   \textbf{Question 5.} What will be the output of the following Python code snippet?
+
 \begin{lstlisting}
 print(2**4 + (5+5)**(1+1))
 \end{lstlisting}
+
 \begin{parts}
   \item Error
   \item 28
@@ -108,7 +145,11 @@ print(2**4 + (5+5)**(1+1))
   \item 116
 \end{parts}
 
-\medskip\noindent\textbf{Question 6.} What will be the output of the following Python code?
+\medskip
+
+
+\noindent   \textbf{Question 6.} What will be the output of the following Python code?
+
 \begin{lstlisting}
 i = 1
 while True:
@@ -117,6 +158,7 @@ while True:
     print(i)
     i += 1
 \end{lstlisting}
+
 \begin{parts}
   \item 1 2 3
   \item Error
@@ -124,7 +166,11 @@ while True:
   \item None of the mentioned
 \end{parts}
 
-\medskip\noindent\textbf{Question 7.} Which one of the following has the same precedence level?
+\medskip
+
+
+\noindent   \textbf{Question 7.} Which one of the following has the same precedence level?
+
 \begin{parts}
   \item Addition and Subtraction
   \item Multiplication, Division and Addition
@@ -132,13 +178,18 @@ while True:
   \item Addition and Multiplication
 \end{parts}
 
-\medskip\noindent\textbf{Question 8.} What will be the datatype of \texttt{test} in the below code snippet?
+\medskip
+
+
+\noindent   \textbf{Question 8.} What will be the datatype of   \texttt{test} in the below code snippet?
+
 \begin{lstlisting}
 test = 10
 print(type(test))
 test = "testbook"
 print(type(test))
 \end{lstlisting}
+
 \begin{parts}
   \item str and int
   \item int and int
@@ -146,7 +197,11 @@ print(type(test))
   \item int and str
 \end{parts}
 
-\medskip\noindent\textbf{Question 9.} What is the meaning of \texttt{>>>} in Python?
+\medskip
+
+
+\noindent   \textbf{Question 9.} What is the meaning of   \texttt{>>>} in Python?
+
 \begin{parts}
   \item Interpreter is ready to take instruction.
   \item Compiler is ready to take instruction.
@@ -154,7 +209,11 @@ print(type(test))
   \item Three left shift.
 \end{parts}
 
-\medskip\noindent\textbf{Question 10.} What is the output of \texttt{print(math.pow(3, 2))}?
+\medskip
+
+
+\noindent   \textbf{Question 10.} What is the output of   \texttt{print(math.pow(3, 2))}?
+
 \begin{parts}
   \item 9.0
   \item None
@@ -162,50 +221,91 @@ print(type(test))
   \item None of the mentioned
 \end{parts}
 
-\bigskip\noindent{\large\bfseries PART --- B}
+\bigskip
+
+
+\noindent {\large\bfseries PART --- B}
 \rule{\linewidth}{0.4pt}\smallskip
 
-\noindent\textit{Note: Internal Choice --- Either/Or type questions. Each question carries 5 marks. Attempt any four.} \hfill \textbf{[5 $\times$ 4 = 20]}
 
-\medskip\noindent\textbf{Question 11.} What are the common built-in data types in Python?
-\centerline{\textbf{OR}}
+
+
+\noindent   \textit{Note: Internal Choice --- Either/Or type questions. Each question carries 5 marks. Attempt any four.} \hfill   \textbf{[5 $ \times$ 4 = 20]}
+
+\medskip
+
+
+\noindent   \textbf{Question 11.} What are the common built-in data types in Python?
+\centerline{   \textbf{OR}}
 How do you read and write into Python files? Explain with a program.
 
-\medskip\noindent\textbf{Question 12.} Explain the concept of overriding methods with a program.
-\centerline{\textbf{OR}}
+\medskip
+
+
+\noindent   \textbf{Question 12.} Explain the concept of overriding methods with a program.
+\centerline{   \textbf{OR}}
 Write a Python program to create a lambda function that returns the square value of a given number.
 
-\medskip\noindent\textbf{Question 13.} Write a Python program to create a static method that calculates the square root value of a given number.
-\centerline{\textbf{OR}}
-Explain the \texttt{values()} and \texttt{items()} methods used in dictionaries with examples.
+\medskip
 
-\medskip\noindent\textbf{Question 14.} What is the difference between Python Arrays, lists, and tuples with proper examples?
-\centerline{\textbf{OR}}
+
+\noindent   \textbf{Question 13.} Write a Python program to create a static method that calculates the square root value of a given number.
+\centerline{   \textbf{OR}}
+Explain the   \texttt{values()} and   \texttt{items()} methods used in dictionaries with examples.
+
+\medskip
+
+
+\noindent   \textbf{Question 14.} What is the difference between Python Arrays, lists, and tuples with proper examples?
+\centerline{   \textbf{OR}}
 Write a Python program to define a Student class and create an object. Also, display the student's details.
 
-\medskip\noindent\textbf{Question 15.} What are the key features of Python over other programming languages?
-\centerline{\textbf{OR}}
+\medskip
+
+
+\noindent   \textbf{Question 15.} What are the key features of Python over other programming languages?
+\centerline{   \textbf{OR}}
 Write a function that accepts two values and finds their sum.
 
-\bigskip\noindent{\large\bfseries PART --- C}
+\bigskip
+
+
+\noindent {\large\bfseries PART --- C}
 \rule{\linewidth}{0.4pt}\smallskip
 
-\noindent\textit{Note: Open choice --- Attempt any 3 out of 4 questions. Each question carries 10 marks.} \hfill \textbf{[3 $\times$ 10 = 30]}
 
-\medskip\noindent\textbf{Question 16.} List the operators that Python supports. Explain the relational and logical operators along with their precedence while evaluating an expression.
 
-\medskip\noindent\textbf{Question 17.} Write short notes on:
+
+\noindent   \textit{Note: Open choice --- Attempt any 3 out of 4 questions. Each question carries 10 marks.} \hfill   \textbf{[3 $ \times$ 10 = 30]}
+
+\medskip
+
+
+\noindent   \textbf{Question 16.} List the operators that Python supports. Explain the relational and logical operators along with their precedence while evaluating an expression.
+
+\medskip
+
+
+\noindent   \textbf{Question 17.} Write short notes on:
+
 \begin{parts}
   \item Debugging
   \item Exception Handling
 \end{parts}
 
-\medskip\noindent\textbf{Question 18.} Write a Python program to retrieve the elements from a 2D array and display them using two different loops.
+\medskip
 
-\medskip\noindent\textbf{Question 19.} Discuss the technical strengths of Python. What is the difference between list and tuples in Python?
+
+\noindent   \textbf{Question 18.} Write a Python program to retrieve the elements from a 2D array and display them using two different loops.
+
+\medskip
+
+
+\noindent   \textbf{Question 19.} Discuss the technical strengths of Python. What is the difference between list and tuples in Python?
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
 \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
 \end{center}

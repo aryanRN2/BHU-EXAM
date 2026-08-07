@@ -21,93 +21,132 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{BSC-044: Intro To Computer Programming C}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{BSC-044: Intro To Computer Programming C}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
 
 \lstset{
-  basicstyle=\small\ttfamily,
+  basicstyle=\small tfamily,
   frame=single,
   breaklines=true,
   columns=flexible,
   keepspaces=true
 }
 
+
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Sc. (Hons.) Semester IV Examination, 2013-14}\\[6pt]
+  {
+\normalsize B.Sc. (Hons.) Semester IV Examination, 2013-14}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper: BSC-044 --- Intro To Computer Programming C}\\[4pt]
-  {\normalsize Time: Three Hours \hfill Maximum Marks: 70}
+  {
+\normalsize Time: Three Hours \hfill Maximum Marks: 70}
 \end{center}
 
 \rule{\linewidth}{0.4pt}
 
 \smallskip
-\noindent\textit{Instructions: Answer any five questions, including Question No. 1, which is compulsory. All undefined symbols have their usual meanings.}
+
+
+
+\noindent   \textit{Instructions: Answer any five questions, including Question No. 1, which is compulsory. All undefined symbols have their usual meanings.}
 
 \bigskip
 
-\medskip\noindent\textbf{Question 1.} Answer any six questions: \pts{$3\times6=18$}
+\medskip
+
+
+\noindent   \textbf{Question 1.} Answer any six questions: \pts{$3 imes6=18$}
+
 \begin{parts}
   \item What are the steps involved in solving problems using computer?
   \item What are logical operators? List them with their meaning.
-  \item What is the difference between \texttt{scanf()} and \texttt{printf()}?
+  \item What is the difference between   \texttt{scanf()} and   \texttt{printf()}?
   \item What is bottom up approach of program designing?
   \item Define data type. Write the names of any three data types.
   \item What is a header file? Write the names of any three header files.
   \item What is the difference between local and global variables?
 \end{parts}
 
-\medskip\noindent\textbf{Question 2.}
+\medskip
+
+
+\noindent   \textbf{Question 2.}
+
 \begin{parts}
   \item What is an algorithm? Draw the flow chart for comparing three given numbers and display the largest number. \pts{5}
   \item What are the advantages of High level languages over Machine level languages? Write the names of any three high level languages. \pts{3}
   \item What are the differences between Compiler and Interpreter? \pts{3}
 \end{parts}
 
-\medskip\noindent\textbf{Question 3.}
+\medskip
+
+
+\noindent   \textbf{Question 3.}
+
 \begin{parts}
   \item Explain the various decision making statements in C language with an example for each. \pts{6}
   \item Explain the difference between a `while` loop and a `do-while` loop with a suitable example. \pts{6}
 \end{parts}
 
-\medskip\noindent\textbf{Question 4.}
+\medskip
+
+
+\noindent   \textbf{Question 4.}
+
 \begin{parts}
   \item Discuss about the precedence of operators in C. What will be the output of the following program: \pts{4}
+
 \begin{lstlisting}[language=C]
 void main()
 {
     int x;
     x = -3 + 4 - 7 * 8 / 5 % 10;
-    printf("x = %d\n", x);
+    printf("x = %d
+", x);
 }
 \end{lstlisting}
   \item What is an array? How do you declare and initialize a one dimensional array? Illustrate with an example. \pts{5}
   \item Write a `C` program to convert the given temperature in Fahrenheit to Celsius. \pts{4}
 \end{parts}
 
-\medskip\noindent\textbf{Question 5.}
+\medskip
+
+
+\noindent   \textbf{Question 5.}
+
 \begin{parts}
   \item Define pointer. What are the advantages of using pointers? \pts{4}
   \item What is the difference between a String and Array of characters? \pts{3}
   \item Explain any three String handling library functions in `C` with an example for each. \pts{6}
 \end{parts}
 
-\medskip\noindent\textbf{Question 6.}
+\medskip
+
+
+\noindent   \textbf{Question 6.}
+
 \begin{parts}
   \item Define Function in C language. What is the difference between a user defined function and library function? \pts{4}
   \item Explain the parameter passing techniques of functions through an example. \pts{6}
   \item What do you mean by function prototype? \pts{3}
 \end{parts}
 
-\medskip\noindent\textbf{Question 7.}
+\medskip
+
+
+\noindent   \textbf{Question 7.}
+
 \begin{parts}
   \item Define storage classes in C Programming. List various storage classes used in `C` with their properties. \pts{6}
   \item What is a structure? How do you declare a structure variable and access its members? Explain with an example. \pts{7}
@@ -115,6 +154,7 @@ void main()
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
 \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
 \end{center}

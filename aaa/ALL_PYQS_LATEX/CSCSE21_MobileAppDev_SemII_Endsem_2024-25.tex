@@ -13,18 +13,20 @@
 
 \hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,pdftitle={CSCSE21: Mobile Application Development -- BHU Sem II 2024-25 (NEP SEC)}}
 \pagestyle{fancy}\fancyhf{}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{CSCSE21: Mobile App Development (End Term SEC)}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{CSCSE21: Mobile App Development (End Term SEC)}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
+
 
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=2pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
 
 \lstset{
   language=SQL,
-  basicstyle=\small\ttfamily,
+  basicstyle=\small tfamily,
   keywordstyle=\bfseries,
   showstringspaces=false,
   frame=single,
@@ -32,28 +34,43 @@
   breaklines=true
 }
 
+
 \begin{document}
+
 
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Sc. (Hons.) Semester II (NEP) Examination 2024-25}\\[6pt]
+  {
+\normalsize B.Sc. (Hons.) Semester II (NEP) Examination 2024-25}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries DEPARTMENT OF COMPUTER SCIENCE}\\[4pt]
   {\large\bfseries Skill Enhancement Course (SEC)}\\[4pt]
   {\large\bfseries Paper Code: CSCSE21 --- Mobile Application Development}\\[4pt]
-  {\normalsize Time: 2:30 Hours\hfill Maximum Marks: 70}\\[2pt]
+  {
+\normalsize Time: 2:30 Hours\hfill Maximum Marks: 70}\\[2pt]
   {\small Paper Code Ref: CECONF/N/2024-25/21}
 \end{center}
 
 \rule{\linewidth}{0.4pt}\smallskip
-\noindent\textit{Instruction: Write your Roll No. at the top immediately on the receipt of this question paper.}\\[2pt]
-\noindent\textit{Note: Question 1 is compulsory. Attempt any five from the remaining six questions.}
+
+
+
+\noindent   \textit{Instruction: Write your Roll No. at the top immediately on the receipt of this question paper.}\\[2pt]
+
+
+
+\noindent   \textit{Note: Question 1 is compulsory. Attempt any five from the remaining six questions.}
 \bigskip
 
-\noindent\textbf{Question 1} \textit{Choose the correct option from the following questions:}\pts{$10 \times 2 = 20$}
+
+
+
+\noindent   \textbf{Question 1}   \textit{Choose the correct option from the following questions:}\pts{$10  \times 2 = 20$}
+
 \begin{parts}
   \item What is Android?
-    \begin{parts}
+    
+\begin{parts}
       \item A mobile device
       \item An operating system
       \item A web browser
@@ -61,15 +78,17 @@
     \end{parts}
 
   \item Which file is the entry point for an Android application?
-    \begin{parts}
-      \item \texttt{MainActivity.kt}
-      \item \texttt{AndroidManifest.xml}
-      \item \texttt{strings.xml}
-      \item \texttt{build.gradle}
+    
+\begin{parts}
+      \item   \texttt{MainActivity.kt}
+      \item   \texttt{AndroidManifest.xml}
+      \item   \texttt{strings.xml}
+      \item   \texttt{build.gradle}
     \end{parts}
 
   \item What does APK stand for?
-    \begin{parts}
+    
+\begin{parts}
       \item Android Phone Kit
       \item Android Package Kit
       \item Android Primary Key
@@ -77,7 +96,8 @@
     \end{parts}
 
   \item Which language is officially supported for Android development?
-    \begin{parts}
+    
+\begin{parts}
       \item Python
       \item Swift
       \item Java
@@ -85,15 +105,17 @@
     \end{parts}
 
   \item Which language has been recommended by Google for Android development since 2019?
-    \begin{parts}
+    
+\begin{parts}
       \item Kotlin
       \item C\#
       \item JavaScript
       \item Ruby
     \end{parts}
 
-  \item What is the purpose of \texttt{R.java} file?
-    \begin{parts}
+  \item What is the purpose of   \texttt{R.java} file?
+    
+\begin{parts}
       \item To store app settings
       \item To manage database
       \item To link XML with Java/Kotlin code
@@ -101,7 +123,8 @@
     \end{parts}
 
   \item Which component is used to display a UI screen in Android?
-    \begin{parts}
+    
+\begin{parts}
       \item Broadcast Receiver
       \item Service
       \item Activity
@@ -109,15 +132,17 @@
     \end{parts}
 
   \item Which method is called when an activity is first created?
-    \begin{parts}
-      \item \texttt{onStart()}
-      \item \texttt{onCreate()}
-      \item \texttt{onResume()}
-      \item \texttt{onRestart()}
+    
+\begin{parts}
+      \item   \texttt{onStart()}
+      \item   \texttt{onCreate()}
+      \item   \texttt{onResume()}
+      \item   \texttt{onRestart()}
     \end{parts}
 
   \item Which layout arranges elements in a single column or row?
-    \begin{parts}
+    
+\begin{parts}
       \item ConstraintLayout
       \item GridLayout
       \item FrameLayout
@@ -125,7 +150,8 @@
     \end{parts}
 
   \item Which of the following is used for local data storage in Android?
-    \begin{parts}
+    
+\begin{parts}
       \item Firebase
       \item MySQL
       \item SQLite
@@ -135,19 +161,27 @@
 
 \medskip\rule{\linewidth}{0.2pt}\medskip
 
-\noindent\textbf{Question 2} \textit{Define any five of the following terms:}\pts{$5 \times 2 = 10$}
+
+
+
+\noindent   \textbf{Question 2}   \textit{Define any five of the following terms:}\pts{$5  \times 2 = 10$}
+
 \begin{parts}
   \item APK
   \item Gradle in Android Studio
   \item Layout in Android Studio
-  \item \texttt{AndroidManifest.xml}
+  \item   \texttt{AndroidManifest.xml}
   \item Activity in Android
   \item Intent in Android development
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}\medskip
 
-\noindent\textbf{Question 3} \textit{Write short answer type questions:}\pts{$2 \times 5 = 10$}
+
+
+
+\noindent   \textbf{Question 3}   \textit{Write short answer type questions:}\pts{$2  \times 5 = 10$}
+
 \begin{parts}
   \item Describe the components of Android application development.
   \item Explain the use of SQLite in Android with an example.
@@ -155,12 +189,19 @@
 
 \medskip\rule{\linewidth}{0.2pt}\medskip
 
-\noindent\textbf{Question 4}\pts{10} \\
+
+
+
+\noindent   \textbf{Question 4}\pts{10} \\
 Explain any five UI components of Android application development.
 
 \medskip\rule{\linewidth}{0.2pt}\medskip
 
-\noindent\textbf{Question 5}\pts{$2 \times 5 = 10$}
+
+
+
+\noindent   \textbf{Question 5}\pts{$2  \times 5 = 10$}
+
 \begin{parts}
   \item What is a content provider in Android? What are the operations of the content provider?
   \item Explain the working of the content provider.
@@ -168,24 +209,33 @@ Explain any five UI components of Android application development.
 
 \medskip\rule{\linewidth}{0.2pt}\medskip
 
-\noindent\textbf{Question 6} \textit{Write the SQLite query for the following statements:}\pts{$5 \times 2 = 10$}
+
+
+
+\noindent   \textbf{Question 6}   \textit{Write the SQLite query for the following statements:}\pts{$5  \times 2 = 10$}
+
 \begin{parts}
-  \item Create a \texttt{student} table with attributes: \texttt{ID}, \texttt{name}, \texttt{age}, \texttt{gender}, \texttt{department}, and \texttt{marks}.
+  \item Create a   \texttt{student} table with attributes:   \texttt{ID},   \texttt{name},   \texttt{age},   \texttt{gender},   \texttt{department}, and   \texttt{marks}.
   \item Write an SQLite query to insert a new record with details: Name: Raj, Age: 21, Gender: male, Department: Computer Science, Marks: 85.
-  \item Write a query to display names of the students from \texttt{student} table.
+  \item Write a query to display names of the students from   \texttt{student} table.
   \item Write a query to display all student records from table.
-  \item Write a query to update the marks of the student with \texttt{ID = 3} to \texttt{90}.
+  \item Write a query to update the marks of the student with   \texttt{ID = 3} to   \texttt{90}.
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}\medskip
 
-\noindent\textbf{Question 7}\pts{$2 \times 5 = 10$}
+
+
+
+\noindent   \textbf{Question 7}\pts{$2  \times 5 = 10$}
+
 \begin{parts}
-  \item Write a Kotlin program with a function \texttt{add} that returns the sum of two numbers.
+  \item Write a Kotlin program with a function   \texttt{add} that returns the sum of two numbers.
   \item Write a Kotlin program to print numbers from 1 to 10 using a loop statement.
 \end{parts}
 
 \vfill\rule{\linewidth}{0.4pt}
+
 \begin{center}\small
 \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
 \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}

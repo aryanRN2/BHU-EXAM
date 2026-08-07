@@ -21,57 +21,79 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{CS-105: Computer Organization Architec}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{CS-105: Computer Organization Architec}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
 
 \lstset{
-  basicstyle=\small\ttfamily,
+  basicstyle=\small tfamily,
   frame=single,
   breaklines=true,
   columns=flexible,
   keepspaces=true
 }
 
+
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
 
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Sc. (Hons.) Semester IV Examination, 2022-23}\\[6pt]
+  {
+\normalsize B.Sc. (Hons.) Semester IV Examination, 2022-23}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper: CS-105 --- Computer Organization Architecture}\\[4pt]
-  {\normalsize Time: Three hours \hfill Maximum Marks: 70}
+  {
+\normalsize Time: Three hours \hfill Maximum Marks: 70}
 \end{center}
 
 \rule{\linewidth}{0.4pt}
 
 \smallskip
-\noindent\textit{Instructions: Answer five questions in all including Question No. 1, which is compulsory. Answers should be brief and to the point and may be supplemented with neat sketches, wherever required.}
+
+
+
+\noindent   \textit{Instructions: Answer five questions in all including Question No. 1, which is compulsory. Answers should be brief and to the point and may be supplemented with neat sketches, wherever required.}
 
 \bigskip
 
-\medskip\noindent\textbf{Question 1.}
+\medskip
+
+
+\noindent   \textbf{Question 1.}
+
 \begin{parts}
   \item A 4-way set-associative cache memory unit with a capacity of 32 KB is built using a block size of 16 words. The word length is 32 bits. The size of the physical address space is 8 GB. Find the number of bits required for the TAG field with explanation. \pts{7}
   \item Explain the stack and its operations with a suitable example. Explain its relevance in computer organization. \pts{7}
 \end{parts}
 
-\medskip\noindent\textbf{Question 2.}
+\medskip
+
+
+\noindent   \textbf{Question 2.}
+
 \begin{parts}
   \item Draw a block diagram of an 8-bit ALU with a 4-bit status register and explain its working. \pts{6}
   \item Draw a diagram of a bus system for 4 registers of 4 bits each using multiplexers. \pts{4}
   \item Design a 4-bit adder-subtractor and explain its working. \pts{4}
 \end{parts}
 
-\medskip\noindent\textbf{Question 3.}
+\medskip
+
+
+\noindent   \textbf{Question 3.}
+
 \begin{parts}
   \item An instruction is stored in location 300 with its address field at location 301. The address field has the value 400. A processor register R1 contains the number 200. Evaluate the effective address if the addressing mode of the instruction is:
-  \begin{parts}
+  
+\begin{parts}
     \item Direct
     \item Immediate
     \item Relative
@@ -81,10 +103,15 @@
   \item Write short notes on Strobe control and Handshaking. \pts{4}
 \end{parts}
 
-\medskip\noindent\textbf{Question 4.}
+\medskip
+
+
+\noindent   \textbf{Question 4.}
+
 \begin{parts}
   \item How can we evaluate the arithmetic statement $X = A+B+C*(D+E+F)$:
-  \begin{parts}
+  
+\begin{parts}
     \item Using a general register computer with three-address instructions.
     \item Using a general register computer with two-address instructions.
     \item Using a general register computer with one-address instructions.
@@ -93,23 +120,36 @@
   \item What is memory hierarchy and why do we need it? Explain. \pts{4}
 \end{parts}
 
-\medskip\noindent\textbf{Question 5.}
+\medskip
+
+
+\noindent   \textbf{Question 5.}
+
 \begin{parts}
   \item Explain the working of DMA (Direct Memory Access) with the block diagram. \pts{8}
   \item Differentiate between Horizontal and Vertical Microinstruction formats for a microprogrammed control unit. \pts{6}
 \end{parts}
 
-\medskip\noindent\textbf{Question 6.}
+\medskip
+
+
+\noindent   \textbf{Question 6.}
+
 \begin{parts}
   \item What are the basic differences among a branch instruction, a call subroutine instruction, and a program interrupt? \pts{5}
   \item What is an interrupt? Explain its major types. \pts{5}
   \item A computer has 32-bit instructions and 10-bit addresses. If there are 158 two-address instructions, how many one-address instructions can be formulated? \pts{4}
 \end{parts}
 
-\medskip\noindent\textbf{Question 7.}
+\medskip
+
+
+\noindent   \textbf{Question 7.}
+
 \begin{parts}
-  \item We have to provide a memory capacity of 2048 bytes using $256 \times 8$ RAM chips.
-  \begin{parts}
+  \item We have to provide a memory capacity of 2048 bytes using $256  \times 8$ RAM chips.
+  
+\begin{parts}
     \item How many chips are required?
     \item How many lines of the address bus must be used to access 2048 bytes of memory?
     \item How many lines in (ii) will be common to all chips?
@@ -120,6 +160,7 @@
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
 \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
 \end{center}

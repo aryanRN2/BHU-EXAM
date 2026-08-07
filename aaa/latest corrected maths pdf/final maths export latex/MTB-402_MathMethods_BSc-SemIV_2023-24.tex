@@ -14,30 +14,43 @@
 
 \pagestyle{fancy}\fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{MTB-402: Mathematical Methods}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{MTB-402: Mathematical Methods}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
+
 
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Sc.\ (Hons.) --- Semester IV Examination, 2023-24}\\[6pt]
+  {
+\normalsize B.Sc.\ (Hons.) --- Semester IV Examination, 2023-24}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper No.\ MTB-402: Mathematical Methods}\\[4pt]
-  {\normalsize Time: 3 Hours \hfill Full Marks: 70}\\[2pt]
+  {
+\normalsize Time: 3 Hours \hfill Full Marks: 70}\\[2pt]
   {\small Ref.\ No.:\ 074887}
 \end{center}
 \rule{\linewidth}{0.4pt}
 \smallskip
-\noindent\textit{Instructions: Answer \textbf{five} questions including Question~1 which is compulsory. Figures in right-hand margin indicate marks.}
+
+
+
+\noindent   \textit{Instructions: Answer   \textbf{five} questions including Question~1 which is compulsory. Figures in right-hand margin indicate marks.}
 \bigskip
 
-\noindent\textbf{Question 1.} \textit{(Compulsory --- 2 marks each unless stated.)}
+
+
+
+\noindent   \textbf{Question 1.}   \textit{(Compulsory --- 2 marks each unless stated.)}
+
 \begin{parts}
   \item Using the definition of Laplace transform, find $\mathcal{L}\{\cos(at+b)\}$, $a,b\in\mathbb{R}$.
   \item Prove that Laplace transform is linear.
@@ -53,52 +66,78 @@
 \end{parts}
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 2.}
+\medskip
+
+
+\noindent   \textbf{Question 2.}
+
 \begin{parts}
   \item State and prove sufficient conditions for the existence of the Laplace transform.\pts{6}
   \item Find the Fourier sine series of the periodic function of period $\pi$:
     \[
-      f(x) = \begin{cases} \pi/4 & 0 < x < \pi/2 \\ \pi - x & \pi/2 \leq x < \pi \end{cases}
+      f(x) = 
+\begin{cases} \pi/4 & 0 < x < \pi/2 \\ \pi - x & \pi/2 \leq x < \pi \end{cases}
     \]
     Hence deduce that $\dfrac{\pi^2}{8}=\sum_{n=0}^{\infty}\dfrac{1}{(2n+1)^2}$.\pts{6}
 \end{parts}
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 3.}
+\medskip
+
+
+\noindent   \textbf{Question 3.}
+
 \begin{parts}
   \item If $f(t)$ is continuous except for an ordinary discontinuity at $t=a$ ($a>0$), show that $\mathcal{L}\!\left[\dfrac{d}{dt}f(t)\right]=s\mathcal{L}[f(t)]-f(0)-e^{-as}[f(a+0)-f(a-0)]$.\pts{6}
   \item Find the Fourier series of $f(x)=x^2$, $0<x<2$ (period 2). Hence deduce $\dfrac{\pi^2}{12}=\sum_{n=1}^{\infty}\dfrac{(-1)^{n+1}}{n^2}$.\pts{6}
 \end{parts}
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 4.}
+\medskip
+
+
+\noindent   \textbf{Question 4.}
+
 \begin{parts}
   \item If $F(s)$ is the Laplace transform of $f(t)$, find $f(t)$ where $F(s)=\dfrac{s}{(s^2+a^2)(s^2+b^2)}$.\pts{6}
   \item State and prove the Convolution Theorem for Laplace transform.\pts{6}
 \end{parts}
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 5.}
+\medskip
+
+
+\noindent   \textbf{Question 5.}
+
 \begin{parts}
   \item Apply Laplace transform to solve: $\dfrac{d^2y}{dx^2}+9y=\cos 2x$, $y(0)=1$, $y'(\pi)=-1$.\pts{6}
   \item Apply Laplace transform to solve $\dfrac{dy}{dt}=\sinh at-4\int_0^t y(v)\cosh 2(t-v)\,dv$, $y(0)=1$.\pts{6}
 \end{parts}
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 6.}
+\medskip
+
+
+\noindent   \textbf{Question 6.}
+
 \begin{parts}
   \item Using Calculus of Variations, find the shortest distance between $(1,0)$ and the ellipse $4x^2+9y^2=36$.\pts{6}
-  \item Find the extremal for $I=\int_0^{\pi/2}(y''^2-y^2+x^2)\,dx$, $y(0)=0$, $y'(0)=1$, $y(\pi/2)=y'(\pi/2)=\tfrac{1}{\sqrt{2}}$.\pts{6}
+  \item Find the extremal for $I=\int_0^{\pi/2}(y''^2-y^2+x^2)\,dx$, $y(0)=0$, $y'(0)=1$, $y(\pi/2)=y'(\pi/2)= frac{1}{\sqrt{2}}$.\pts{6}
 \end{parts}
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 7.}
+\medskip
+
+
+\noindent   \textbf{Question 7.}
+
 \begin{parts}
   \item Find the Fourier cosine and sine integral representations of $f(x)=e^{-kx}$, $x\geq0$, $k>0$.\pts{6}
   \item Find the extremal through the origin and $(1,1)$ of $I=\int_0^1 y^2(y'^2-x^2)\,dx$ using $x^2=u$, $y^2=v$.\pts{6}
 \end{parts}
 
 \vfill\rule{\linewidth}{0.4pt}
+
 \begin{center}\small
 \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
 \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]

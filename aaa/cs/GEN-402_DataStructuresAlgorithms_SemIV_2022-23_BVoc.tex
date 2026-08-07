@@ -22,76 +22,115 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{GEN-402: Data Structures Algorithms}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{GEN-402: Data Structures Algorithms}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
 
 \lstset{
-  basicstyle=\small\ttfamily,
+  basicstyle=\small tfamily,
   frame=single,
   breaklines=true,
   columns=flexible,
   keepspaces=true
 }
 
+
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
 
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Voc. Semester IV Examination, 2022-23}\\[6pt]
+  {
+\normalsize B.Voc. Semester IV Examination, 2022-23}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper: GEN-402 --- Data Structures Algorithms}\\[4pt]
-  {\normalsize Time: Three hours \hfill Maximum Marks: 70}
+  {
+\normalsize Time: Three hours \hfill Maximum Marks: 70}
 \end{center}
 
 \rule{\linewidth}{0.4pt}
 
 \smallskip
-\noindent\textit{Instructions: Attempt all questions. Symbols have their usual meanings.}
+
+
+
+\noindent   \textit{Instructions: Attempt all questions. Symbols have their usual meanings.}
 
 \bigskip
 
-\noindent{\large\bfseries SECTION --- A}\\[4pt]
+
+
+
+\noindent {\large\bfseries SECTION --- A}\\[4pt]
 \rule{\linewidth}{0.4pt}\smallskip
 
-Long-Answer Questions. Answer any two questions: \hfill \textbf{2 $\times$ 12 = 24 Marks}
+Long-Answer Questions. Answer any two questions: \hfill   \textbf{2 $ \times$ 12 = 24 Marks}
 
 \medskip
-\noindent\textbf{Question 1.} Define Linked Lists. What are the basic operations performed on a Linked List? Write methods for the creation of a Linked List and insertion of any three elements at the beginning of the list.
+
+
+
+\noindent   \textbf{Question 1.} Define Linked Lists. What are the basic operations performed on a Linked List? Write methods for the creation of a Linked List and insertion of any three elements at the beginning of the list.
 
 \medskip
-\noindent\textbf{Question 2.} What is a Binary Tree? Explain Preorder, Inorder, and Postorder traversals of a binary tree with suitable examples.
+
+
+
+\noindent   \textbf{Question 2.} What is a Binary Tree? Explain Preorder, Inorder, and Postorder traversals of a binary tree with suitable examples.
 
 \medskip
-\noindent\textbf{Question 3.} What is a Graph data structure? Explain the Breadth First Search (BFS) algorithm with a suitable example. Differentiate between Breadth First Search and Depth First Search.
+
+
+
+\noindent   \textbf{Question 3.} What is a Graph data structure? Explain the Breadth First Search (BFS) algorithm with a suitable example. Differentiate between Breadth First Search and Depth First Search.
 
 \medskip
-\noindent\textbf{Question 4.} Explain Stack Data Structure. Write a program to implement a stack using an array (show creation, insertion, deletion, and display of elements).
 
-\bigskip\noindent{\large\bfseries SECTION --- B}\\[4pt]
+
+
+\noindent   \textbf{Question 4.} Explain Stack Data Structure. Write a program to implement a stack using an array (show creation, insertion, deletion, and display of elements).
+
+\bigskip
+
+
+\noindent {\large\bfseries SECTION --- B}\\[4pt]
 \rule{\linewidth}{0.4pt}\smallskip
 
-Attempt any six questions: \hfill \textbf{6 $\times$ 6 = 36 Marks}
+Attempt any six questions: \hfill   \textbf{6 $ \times$ 6 = 36 Marks}
 
 \medskip
-\noindent\textbf{Question 5.} Explain Binary Search with a suitable example. What is the prerequisite condition to implement binary search?
+
+
+
+\noindent   \textbf{Question 5.} Explain Binary Search with a suitable example. What is the prerequisite condition to implement binary search?
 
 \medskip
-\noindent\textbf{Question 6.} Explain Prim's algorithm to find a Minimum Spanning Tree (MST). Find the cost of the minimum spanning tree of the following graph:
+
+
+
+\noindent   \textbf{Question 6.} Explain Prim's algorithm to find a Minimum Spanning Tree (MST). Find the cost of the minimum spanning tree of the following graph:
+
 \begin{center}
+
 \begin{tikzpicture}[>=stealth,
   state/.style={draw, circle, minimum size=8mm, inner sep=0pt, font=\bfseries},
   weight/.style={draw, circle, fill=white, minimum size=5mm, inner sep=0pt, font=\small}
 ]
-  \node[state] (A) at (0,1.5) {A};
-  \node[state] (B) at (2,3) {B};
-  \node[state] (C) at (2,0) {C};
-  \node[state] (D) at (4,1.5) {D};
+  
+ode[state] (A) at (0,1.5) {A};
+  
+ode[state] (B) at (2,3) {B};
+  
+ode[state] (C) at (2,0) {C};
+  
+ode[state] (D) at (4,1.5) {D};
   
   \draw[-] (A) -- node[weight] {2} (B);
   \draw[-] (A) -- node[weight] {4} (C);
@@ -102,33 +141,62 @@ Attempt any six questions: \hfill \textbf{6 $\times$ 6 = 36 Marks}
 \end{center}
 
 \medskip
-\noindent\textbf{Question 7.} Explain Bubble Sort with a suitable example.
+
+
+
+\noindent   \textbf{Question 7.} Explain Bubble Sort with a suitable example.
 
 \medskip
-\noindent\textbf{Question 8.} What is recursion? Write a program to find the factorial of a given number using recursion.
+
+
+
+\noindent   \textbf{Question 8.} What is recursion? Write a program to find the factorial of a given number using recursion.
 
 \medskip
-\noindent\textbf{Question 9.} Explain Insertion Sort using a suitable example.
+
+
+
+\noindent   \textbf{Question 9.} Explain Insertion Sort using a suitable example.
 
 \medskip
-\noindent\textbf{Question 10.} Give the algorithm to evaluate a postfix expression using a stack. Evaluate the postfix expression $5\ 2\ 4\ * + 7\ -$ using the algorithm and show the stack contents at each step.
+
+
+
+\noindent   \textbf{Question 10.} Give the algorithm to evaluate a postfix expression using a stack. Evaluate the postfix expression $5\ 2\ 4\ * + 7\ -$ using the algorithm and show the stack contents at each step.
 
 \medskip
-\noindent\textbf{Question 11.} What is an AVL tree? Explain LL and LR rotations.
+
+
+
+\noindent   \textbf{Question 11.} What is an AVL tree? Explain LL and LR rotations.
 
 \medskip
-\noindent\textbf{Question 12.} Define a queue data structure. Explain the operations enqueue and dequeue in a queue.
+
+
+
+\noindent   \textbf{Question 12.} Define a queue data structure. Explain the operations enqueue and dequeue in a queue.
 
 \medskip
-\noindent\textbf{Question 13.} Write a Java program to find the minimum and maximum elements in an array of 20 elements. (The elements must be input by the user).
 
-\bigskip\noindent{\large\bfseries SECTION --- C}\\[4pt]
+
+
+\noindent   \textbf{Question 13.} Write a Java program to find the minimum and maximum elements in an array of 20 elements. (The elements must be input by the user).
+
+\bigskip
+
+
+\noindent {\large\bfseries SECTION --- C}\\[4pt]
 \rule{\linewidth}{0.4pt}\smallskip
 
-\noindent\textbf{Question 14.} Attempt all parts: \hfill \textbf{10 $\times$ 1 = 10 Marks}
+
+
+
+\noindent   \textbf{Question 14.} Attempt all parts: \hfill   \textbf{10 $ \times$ 1 = 10 Marks}
+
 \begin{parts}
   \item A Binary Search Tree (BST) has the property that the value of each node in the left subtree is \_\_\_\_\_\_ the value of the root node, and the value of each node in the right subtree is \_\_\_\_\_\_ the value of the root node.
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item Greater, Greater
     \item Greater, Less
     \item Less, Less
@@ -136,7 +204,8 @@ Attempt any six questions: \hfill \textbf{6 $\times$ 6 = 36 Marks}
   \end{enumerate}
   
   \item In a stack, which operation is used to remove an element from the stack?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item Pop
     \item Push
     \item Peek
@@ -144,7 +213,8 @@ Attempt any six questions: \hfill \textbf{6 $\times$ 6 = 36 Marks}
   \end{enumerate}
   
   \item Which of the following data structures is not a linear data structure?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item Stack
     \item Queue
     \item Linked List
@@ -152,7 +222,8 @@ Attempt any six questions: \hfill \textbf{6 $\times$ 6 = 36 Marks}
   \end{enumerate}
   
   \item Which of the following data structures finds its use in recursion?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item Stack
     \item Array
     \item Linked List
@@ -160,7 +231,8 @@ Attempt any six questions: \hfill \textbf{6 $\times$ 6 = 36 Marks}
   \end{enumerate}
   
   \item Which of the following is a Divide and Conquer algorithm?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item Bubble Sort
     \item Selection Sort
     \item Heap Sort
@@ -168,7 +240,8 @@ Attempt any six questions: \hfill \textbf{6 $\times$ 6 = 36 Marks}
   \end{enumerate}
   
   \item Which data structure is needed to convert infix notation to postfix notation?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item Tree
     \item Graph
     \item Stack
@@ -176,7 +249,8 @@ Attempt any six questions: \hfill \textbf{6 $\times$ 6 = 36 Marks}
   \end{enumerate}
   
   \item Evaluate the postfix expression $ab + cd / -$ where $a=5$, $b=4$, $c=9$, $d=3$.
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item 23
     \item 15
     \item 6
@@ -184,7 +258,8 @@ Attempt any six questions: \hfill \textbf{6 $\times$ 6 = 36 Marks}
   \end{enumerate}
   
   \item The optimal data structure used to solve the Tower of Hanoi is \_\_\_\_\_\_.
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item Tree
     \item Heap
     \item Priority Queue
@@ -198,6 +273,7 @@ Attempt any six questions: \hfill \textbf{6 $\times$ 6 = 36 Marks}
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
 \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
 \end{center}

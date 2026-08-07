@@ -12,34 +12,54 @@
   pdftitle={MTB-506: Operations Research -- BHU B.A./B.Sc. Sem V 2022-23}}
 \pagestyle{fancy}\fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{MTB-506: Operations Research}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{MTB-506: Operations Research}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
+
 
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.A./B.Sc. (Hons) --- Semester V Examination, 2022-23}\\[6pt]
+  {
+\normalsize B.A./B.Sc. (Hons) --- Semester V Examination, 2022-23}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper No. MTB-506: Operations Research (2012)}\\[4pt]
-  {\normalsize Time: 3 Hours \hfill Full Marks: 50}
+  {
+\normalsize Time: 3 Hours \hfill Full Marks: 50}
 \end{center}
 \rule{\linewidth}{0.4pt}
 \smallskip
-\noindent\textit{Instructions: Answer \textbf{five} questions including Question~1 which is compulsory. Figures in right-hand margin indicate marks.}
+
+
+
+\noindent   \textit{Instructions: Answer   \textbf{five} questions including Question~1 which is compulsory. Figures in right-hand margin indicate marks.}
 \bigskip
 
-\noindent\textbf{Question 1.}
+
+
+
+\noindent   \textbf{Question 1.}
+
 \begin{parts}
   \item Solve graphically: Maximize $3x + 4y$ subject to $x + y \le 1$, $x \ge y$, $x, y \ge 0$. \pts{2}
-  \item Find a basic feasible solution of: Minimize $[1,\,-2]\begin{bmatrix}x_1\\x_2\end{bmatrix}$ subject to $\begin{bmatrix}1 & -1\\-1 & 1\end{bmatrix}\begin{bmatrix}x_1\\x_2\end{bmatrix} \ge \begin{bmatrix}2\\-1\end{bmatrix}$. \pts{2}
+  \item Find a basic feasible solution of: Minimize $[1,\,-2]
+\begin{bmatrix}x_1\\x_2\end{bmatrix}$ subject to $
+\begin{bmatrix}1 & -1\\-1 & 1\end{bmatrix}
+\begin{bmatrix}x_1\\x_2\end{bmatrix} \ge 
+\begin{bmatrix}2\\-1\end{bmatrix}$. \pts{2}
   \item Find an extreme point of $X = \{(x,y): x + y \le 1,\, 0 \le x,y \le 1\}$. \pts{2}
-  \item Consider a standard form LPP with $A = \begin{bmatrix}0 & 2 & 0 & 1\\1 & 1 & 0 & 0\\0 & 0 & 3 & 0\end{bmatrix}$, $b = \begin{bmatrix}7\\8\\9\end{bmatrix}$, $c = \begin{bmatrix}4\\0\\5\end{bmatrix}$. Suppose the reduced cost coefficient vector for some basis is $\bar{c}^T = [0, 1, 0, 0]$. Find an optimal solution to minimize the problem. \pts{2}
+  \item Consider a standard form LPP with $A = 
+\begin{bmatrix}0 & 2 & 0 & 1\\1 & 1 & 0 & 0\\0 & 0 & 3 & 0\end{bmatrix}$, $b = 
+\begin{bmatrix}7\\8\\9\end{bmatrix}$, $c = 
+\begin{bmatrix}4\\0\\5\end{bmatrix}$. Suppose the reduced cost coefficient vector for some basis is $ar{c}^T = [0, 1, 0, 0]$. Find an optimal solution to minimize the problem. \pts{2}
   \item Using part (d), find the value of the second cost coefficient $a$. \pts{2}
   \item Write the dual of: Minimize $x$ subject to $x \le 1$. \pts{2}
   \item Prove that the set of all optimal solutions of an LPP is a convex set. Illustrate with an example. \pts{2}
@@ -47,23 +67,37 @@
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 2.}
+\medskip
+
+
+\noindent   \textbf{Question 2.}
+
 \begin{parts}
   \item State and prove the Fundamental Theorem of Linear Programming. \pts{7}
-  \item Consider $Ax = b$ where $A = \begin{bmatrix}2 & 3 & -1 & -1\\1 & 0 & 2 & 1\end{bmatrix}$, $b = \begin{bmatrix}1\\1\end{bmatrix}$. Find a (non-basic) feasible solution of $Ax = b$ and use the method in part (a) to find a basic feasible solution. \pts{7}
+  \item Consider $Ax = b$ where $A = 
+\begin{bmatrix}2 & 3 & -1 & -1\\1 & 0 & 2 & 1\end{bmatrix}$, $b = 
+\begin{bmatrix}1\\1\end{bmatrix}$. Find a (non-basic) feasible solution of $Ax = b$ and use the method in part (a) to find a basic feasible solution. \pts{7}
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 3.}
+\medskip
+
+
+\noindent   \textbf{Question 3.}
+
 \begin{parts}
-  \item Let $X$ be the convex set of all feasible solutions of $Ax = b$, $x \ge 0$ where $A \in \mathbb{R}^{m \times n}$, $m < n$. Show that $x$ is an extreme point of $X$ if and only if $Ax = b$, $x \ge 0$ with the non-zero components of $x$ forming linearly independent columns of $A$. \pts{7}
+  \item Let $X$ be the convex set of all feasible solutions of $Ax = b$, $x \ge 0$ where $A \in \mathbb{R}^{m  \times n}$, $m < n$. Show that $x$ is an extreme point of $X$ if and only if $Ax = b$, $x \ge 0$ with the non-zero components of $x$ forming linearly independent columns of $A$. \pts{7}
   \item Using the simplex method, solve: Maximize $7x + 6y$ subject to $2x + y \le 3$, $x + 4y \le 4$, $x, y \ge 0$. \pts{7}
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 4.}
+\medskip
+
+
+\noindent   \textbf{Question 4.}
+
 \begin{parts}
   \item Show that the original LPP has a basic feasible solution if and only if the associated artificial problem has an optimal feasible solution with objective function value zero. \pts{6}
   \item Solve: Minimize $x_1 + 2x_2$ subject to $x_1 + x_2 \ge 25$, $-x_1 + 2x_2 \ge 3$, $2x_1 + x_2 \le 4$, $x_1, x_2 \ge 0$. \pts{8}
@@ -71,7 +105,11 @@
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 5.}
+\medskip
+
+
+\noindent   \textbf{Question 5.}
+
 \begin{parts}
   \item If the primal problem (in either form) has an optimal solution, show that the dual also has an optimal solution and the optimal values of the objective functions are equal. \pts{7}
   \item Use the dual simplex algorithm to solve: Minimize $x_1 + x_2 + x_3$ subject to $x_1 + x_2 + x_3 \ge 3$, $4x_1 + x_2 + 2x_3 \ge 5$, $x_1, x_2, x_3 \ge 0$. \pts{7}
@@ -79,7 +117,11 @@
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 6.}
+\medskip
+
+
+\noindent   \textbf{Question 6.}
+
 \begin{parts}
   \item State and prove the Complementary Slackness Theorem in relation to primal and dual linear programming problems. \pts{7}
   \item You have 26 Euros and wish to purchase gold. Four vendors sell at prices $4, 1, 4, 4$ Euros per ounce respectively. Using complementary slackness, find an optimal solution to purchase gold spending all 26 Euros. \pts{7}
@@ -87,11 +129,17 @@
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 7.}
+\medskip
+
+
+\noindent   \textbf{Question 7.}
+
 \begin{parts}
   \item Find an optimal solution of the transportation problem:
-  \begin{center}
-  \begin{tabular}{|cccc|c}
+  
+\begin{center}
+  
+\begin{tabular}{|cccc|c}
   \hline
    & $D_1$ & $D_2$ & $D_3$ & $D_4$ & Supply \\
   \hline
@@ -104,8 +152,10 @@
   \end{tabular}
   \end{center} \pts{8}
   \item Solve the assignment problem using the Hungarian Algorithm to minimize total time:
-  \begin{center}
-  \begin{tabular}{|ccccc}
+  
+\begin{center}
+  
+\begin{tabular}{|ccccc}
   \hline
    & $J_1$ & $J_2$ & $J_3$ & $J_4$ & $J_5$ \\
   \hline
@@ -120,6 +170,7 @@
 \end{parts}
 
 \vfill\rule{\linewidth}{0.4pt}
+
 \begin{center}\small
   \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
   \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]

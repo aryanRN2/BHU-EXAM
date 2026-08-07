@@ -18,32 +18,45 @@
 
 \pagestyle{fancy}\fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{BPT-504: Electronic Devices and Circuits}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{BPT-504: Electronic Devices and Circuits}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
+
 
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
 
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Sc. (Hons.) Semester V Examination, 2013-14}\\[6pt]
+  {
+\normalsize B.Sc. (Hons.) Semester V Examination, 2013-14}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper No. BPT-504: Electronic Devices and Circuits}\\[4pt]
-  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+  {
+\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
 \end{center}
 \rule{\linewidth}{0.4pt}
 \smallskip
-\noindent\textit{Instructions: Answer all questions. Symbols have their usual meanings.}
+
+
+
+\noindent   \textit{Instructions: Answer all questions. Symbols have their usual meanings.}
 \bigskip
 
-\noindent\textbf{Question 1.} Answer in brief any \textbf{five} of the following: \pts{5 $\times$ 4 = 20}
+
+
+
+\noindent   \textbf{Question 1.} Answer in brief any   \textbf{five} of the following: \pts{5 $ \times$ 4 = 20}
+
 \begin{parts}
-  \item What do you mean by the intrinsic standoff ratio ($\eta$) of a UJT? If the interbase resistance $R_{BB} = 8\,\text{k}\Omega$ and the base-1 resistance $R_{B1} = 4.8\,\text{k}\Omega$, find the value of $\eta$.
+  \item What do you mean by the intrinsic standoff ratio ($\eta$) of a UJT? If the interbase resistance $R_{BB} = 8\, \text{k}\Omega$ and the base-1 resistance $R_{B1} = 4.8\, \text{k}\Omega$, find the value of $\eta$.
   \item An amplifier with a voltage gain of $A_v = -1000$ has a gain change of $20\%$ due to temperature change. Calculate the percentage change in gain of the feedback amplifier if a negative feedback fraction of $\beta = -0.1$ is incorporated.
   \item Differentiate among class A, class B, and class C amplifiers on the basis of their operating points and maximum theoretical efficiencies.
   \item What is the main difference between oscillators and multivibrators? Draw the circuit diagram of a BJT-based astable multivibrator.
@@ -53,7 +66,11 @@
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\noindent\textbf{Question 2.}
+
+
+
+\noindent   \textbf{Question 2.}
+
 \begin{parts}
   \item Explain the construction, working, and characteristic curves of an enhancement-type MOSFET. How does it differ from a JFET? What is the significance of the threshold voltage ($V_T$) in an enhancement mode MOSFET? \pts{7}
   \item Draw the circuit diagram of a non-inverting amplifier using an OP-AMP and derive the expression for its closed-loop voltage gain. How will you modify this circuit to act as a voltage follower? \pts{7}
@@ -61,40 +78,55 @@
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\noindent\textbf{Question 3.}
+
+
+
+\noindent   \textbf{Question 3.}
+
 \begin{parts}
   \item Draw the hybrid model (h-parameter) equivalent circuit of a BJT in common-emitter (CE) configuration. Derive the expressions for its voltage gain, current gain, input impedance, and output admittance. \pts{7}
   \item Explain the working of a Silicon Controlled Rectifier (SCR) with the help of a two-transistor equivalent circuit. Explain why it is preferred to use silicon instead of germanium to construct a controlled rectifier. \pts{7}
 \end{parts}
-\hfill \textbf{OR}
+\hfill   \textbf{OR}
+
 \begin{parts}
   \item Explain in brief the high-frequency hybrid-$\pi$ model of a CE BJT amplifier and discuss its advantages. \pts{5}
   \item Refer to the basic common-base BJT amplifier configuration. The h-parameter values for the transistor are:
-    \[ h_{ib} = 40\,\Omega, \quad h_{rb} = 3 \times 10^{-4}, \quad h_{fb} = -0.99, \quad h_{ob} = 0.5\,\mu\text{mhos} \]
-    Determine: (i) the current gain taking source resistance $R_s = 600\,\Omega$ and load resistance $R_L = 10\,\text{k}\Omega$ into account, and (ii) the input resistance. \pts{5}
+    \[ h_{ib} = 40\,\Omega, \quad h_{rb} = 3  \times 10^{-4}, \quad h_{fb} = -0.99, \quad h_{ob} = 0.5\,\mu \text{mhos} \]
+    Determine: (i) the current gain taking source resistance $R_s = 600\,\Omega$ and load resistance $R_L = 10\, \text{k}\Omega$ into account, and (ii) the input resistance. \pts{5}
   \item Give the construction and working of a Unijunction Transistor (UJT). Explain the condition under which a UJT exhibits negative resistance. \pts{4}
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\noindent\textbf{Question 4.}
+
+
+
+\noindent   \textbf{Question 4.}
+
 \begin{parts}
   \item Draw the circuit diagram of a common-emitter BJT amplifier using RC coupling. Derive the equations to show that the gain of this amplifier decreases at the low-frequency range due to coupling and bypass capacitors. \pts{5}
   \item Give the truth table of a full adder. Obtain the Boolean expressions for sum ($S$) and carry ($C_o$) from this table in Sum-of-Products (SOP) form. Simplify these expressions using a Karnaugh map (K-map) and implement the circuit using basic logic gates. \pts{5}
-  \item The maximum and minimum amplitudes of an amplitude-modulated (AM) wave are $10\,\text{V}$ and $2\,\text{V}$ respectively. Calculate the carrier amplitude and the modulation index. \pts{4}
+  \item The maximum and minimum amplitudes of an amplitude-modulated (AM) wave are $10\, \text{V}$ and $2\, \text{V}$ respectively. Calculate the carrier amplitude and the modulation index. \pts{4}
 \end{parts}
 
 \medskip\rule{\linewidth}{0.2pt}
 
-\noindent\textbf{Question 5.}
+
+
+
+\noindent   \textbf{Question 5.}
+
 \begin{parts}
   \item Explain the working of a class B push-pull amplifier with a suitable circuit diagram. Show mathematically how a push-pull amplifier reduces even-harmonic distortions. \pts{7}
   \item What is meant by negative feedback in amplifiers? Find the closed-loop voltage gain, input resistance, and output resistance of a voltage-series feedback amplifier. Draw its equivalent BJT circuit diagram. \pts{7}
 \end{parts}
-\hfill \textbf{OR}
+\hfill   \textbf{OR}
+
 \begin{parts}
-  \item Assume that it is desired to design a Colpitts oscillator so that its oscillation frequency is $4\,\text{MHz}$. If the inductor is $L = 50\,\mu\text{H}$ and the desired feedback fraction is $\beta = 1/20$, calculate:
-    \begin{parts}
+  \item Assume that it is desired to design a Colpitts oscillator so that its oscillation frequency is $4\, \text{MHz}$. If the inductor is $L = 50\,\mu \text{H}$ and the desired feedback fraction is $\beta = 1/20$, calculate:
+    
+\begin{parts}
       \item The required value of equivalent tank capacitance. \pts{3}
       \item The required values for capacitances $C_1$ and $C_2$. \pts{2}
       \item The minimum voltage gain $A_v$ required for the CE amplifier to sustain oscillations. \pts{2}
@@ -104,6 +136,7 @@
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
   \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
   \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]

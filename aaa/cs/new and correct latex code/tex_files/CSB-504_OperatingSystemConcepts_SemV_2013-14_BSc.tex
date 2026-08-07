@@ -21,41 +21,54 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{CSB-504: Operating System Concepts}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{CSB-504: Operating System Concepts}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
 
 \lstset{
-  basicstyle=\small\ttfamily,
+  basicstyle=\small tfamily,
   frame=single,
   breaklines=true,
   columns=flexible,
   keepspaces=true
 }
 
+
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
 
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Sc. (Hons.) Semester V Examination, 2013-14}\\[6pt]
+  {
+\normalsize B.Sc. (Hons.) Semester V Examination, 2013-14}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper: CSB-504 --- Operating System Concepts}\\[4pt]
-  {\normalsize Time: Three Hours \hfill Maximum Marks: 70}
+  {
+\normalsize Time: Three Hours \hfill Maximum Marks: 70}
 \end{center}
 
 \rule{\linewidth}{0.4pt}
 
 \smallskip
-\noindent\textit{Instructions: Answer five questions in all, including Question No. 1, which is compulsory. Figures on the right-hand side indicate full marks.}
+
+
+
+\noindent   \textit{Instructions: Answer five questions in all, including Question No. 1, which is compulsory. Figures on the right-hand side indicate full marks.}
 
 \bigskip
 
-\medskip\noindent\textbf{Question 1.} Answer all parts:\pts{3 + 4 + 4 + 5 + 6 = 22}
+\medskip
+
+
+\noindent   \textbf{Question 1.} Answer all parts:\pts{3 + 4 + 4 + 5 + 6 = 22}
+
 \begin{parts}
   \item Briefly explain the main design goals of an operating system.
   \item What are the differences between a process and a thread? Describe some benefits of using threads.
@@ -64,44 +77,69 @@
   \item Briefly discuss the following terms: Dynamic Loading, Busy Waiting, and Monitors.
 \end{parts}
 
-\medskip\noindent\textbf{Question 2.}
+\medskip
+
+
+\noindent   \textbf{Question 2.}
+
 \begin{parts}
   \item Briefly explain the different process states and transitions among them with a state transition diagram.\pts{2}
   \item Explain the terms Process Control Block (PCB) and Context Switching.\pts{4}
   \item There are five processes (A to E) to run. Their arrival times are 0, 1, 3, 9, and 12 seconds, respectively. Their CPU burst times are 3, 5, 2, 5, and 5 seconds, respectively. What is the average turnaround time using First-Come-First-Served (FCFS), Shortest-Job-First (SJF), and Round-Robin (RR, with a 1-second time quantum) scheduling?\pts{8}
 \end{parts}
 
-\medskip\noindent\textbf{Question 3.}
+\medskip
+
+
+\noindent   \textbf{Question 3.}
+
 \begin{parts}
   \item Discuss the Paging memory management scheme with an illustrative example and explain the hardware support required for paging.\pts{8}
   \item Consider a paging system where the page table is stored in main memory. If a memory reference takes 200 nanoseconds, answer the following:\pts{6}
-  \begin{parts}
+  
+\begin{parts}
     \item How long does a paged memory reference take?
     \item If we add a TLB and 75\% of all page-table references are found in the TLB, what is the effective memory reference time? Assume that a TLB lookup takes 20 nanoseconds (10 times faster than a memory access).
   \end{parts}
 \end{parts}
 
-\medskip\noindent\textbf{Question 4.}
+\medskip
+
+
+\noindent   \textbf{Question 4.}
+
 \begin{parts}
   \item What is Demand Paging? Explain the steps involved in page fault handling.\pts{4}
   \item Briefly describe Belady's anomaly.\pts{2}
   \item A computer has 4 page frames. A process makes the following sequence of page references: 1, 2, 3, 4, 1, 5, 2, 3, 1, 2. How many page faults occur using FIFO, Second Chance, and Least-Recently Used (LRU) page replacement algorithms?\pts{8}
 \end{parts}
 
-\medskip\noindent\textbf{Question 5.}
+\medskip
+
+
+\noindent   \textbf{Question 5.}
+
 \begin{parts}
   \item Describe the physical and logical views of a disk storage system.\pts{5}
   \item Consider the following sequence of disk track requests: 27, 129, 110, 186, 147, 41, 10, 64, and 120. Assume that initially the head is at track 30 and is moving in the direction of decreasing track number. Compute the total head movement (in tracks) using FIFO, SSTF, and SCAN (Elevator) disk scheduling algorithms.\pts{9}
 \end{parts}
 
-\medskip\noindent\textbf{Question 6.}
+\medskip
+
+
+\noindent   \textbf{Question 6.}
+
 \begin{parts}
   \item Explain the contiguous and linked file allocation methods, and discuss the File Allocation Table (FAT) scheme for linked allocation.\pts{6}
   \item Explain the concepts involved in maintaining file system security.\pts{4}
   \item Consider a swapping system in which memory contains the following holes in memory order: 10 KB, 4 KB, 20 KB, 18 KB, 7 KB, 12 KB, and 15 KB. Which hole is allocated for successive segment requests of (i) 12 KB, (ii) 10 KB, and (iii) 9 KB, using First-fit, Best-fit, Worst-fit, and Next-fit allocation strategies?\pts{4}
 \end{parts}
 
-\medskip\noindent\textbf{Question 7.} Write short notes on any three of the following:\pts{12}
+\medskip
+
+
+\noindent   \textbf{Question 7.} Write short notes on any three of the following:\pts{12}
+
 \begin{parts}
   \item Disk free-space management schemes
   \item Types of Operating Systems
@@ -111,6 +149,7 @@
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
 \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
 \end{center}

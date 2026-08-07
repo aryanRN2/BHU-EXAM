@@ -22,49 +22,63 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{CS-106: Operating System Concepts}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{CS-106: Operating System Concepts}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
 
 \lstset{
-  basicstyle=\small\ttfamily,
+  basicstyle=\small tfamily,
   language=C,
   frame=single,
   breaklines=true,
   columns=flexible,
   keepspaces=true,
   numbers=left,
-  numberstyle=\tiny,
+  numberstyle= iny,
   showstringspaces=false
 }
+
 
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Sc.\ (Hons.) Semester V Examination, 2022--23}\\[6pt]
+  {
+\normalsize B.Sc.\ (Hons.) Semester V Examination, 2022--23}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper: CS-106 --- Operating System Concepts}\\[4pt]
-  {\normalsize Time: Three Hours \hfill Maximum Marks: 70}
+  {
+\normalsize Time: Three Hours \hfill Maximum Marks: 70}
 \end{center}
 
 \rule{\linewidth}{0.4pt}
 
 \smallskip
-\noindent\textit{Instructions: Answer any \textbf{five} questions. All questions carry equal marks.}
+
+
+
+\noindent   \textit{Instructions: Answer any   \textbf{five} questions. All questions carry equal marks.}
 
 \bigskip
 
-\noindent\textbf{Question 1.}\pts{$4+3+3+4=14$}
+
+
+
+\noindent   \textbf{Question 1.}\pts{$4+3+3+4=14$}
+
 \begin{parts}
   \item Explain the different states of a process with the help of a state diagram.
   \item Name any two differences between logical and physical addresses.
   \item What is meant by pre-paging? Is it better than demand paging? Justify.
   \item What will be the output of the following code? Draw the execution tree explaining all process creations.
+
 \begin{lstlisting}
 #include <stdio.h>
 #include <unistd.h>
@@ -79,7 +93,11 @@ int main() {
 
 \bigskip
 
-\noindent\textbf{Question 2.}\pts{$2+3+3+3+3=14$}
+
+
+
+\noindent   \textbf{Question 2.}\pts{$2+3+3+3+3=14$}
+
 \begin{parts}
   \item List out the benefits and challenges of thread handling.
   \item What is thrashing? How can this problem be resolved?
@@ -90,7 +108,11 @@ int main() {
 
 \bigskip
 
-\noindent\textbf{Question 3.}\pts{$7+7=14$}
+
+
+
+\noindent   \textbf{Question 3.}\pts{$7+7=14$}
+
 \begin{parts}
   \item Why are Translation Look-aside Buffers (TLBs) important? Explain the details stored in a TLB table entry.
   \item Explain the concept of demand paging in detail with neat diagrams.
@@ -98,15 +120,21 @@ int main() {
 
 \bigskip
 
-\noindent\textbf{Question 4.}\pts{$4+10=14$}
+
+
+
+\noindent   \textbf{Question 4.}\pts{$4+10=14$}
+
 \begin{parts}
   \item What are the different principles which must be considered while selecting a CPU scheduling algorithm? Support your answer with an example.
   \item Consider the following set of processes with CPU burst times (in milliseconds):
 
-  \begin{center}
-  \begin{tabular}{|c|c|c|c|}
+  
+\begin{center}
+  
+\begin{tabular}{|c|c|c|c|}
   \hline
-  \textbf{Process} & \textbf{Arrival Time} & \textbf{Burst Time} & \textbf{Priority} \\
+   \textbf{Process} &   \textbf{Arrival Time} &   \textbf{Burst Time} &   \textbf{Priority} \\
   \hline
   P1 & 0  & 3 & 3 \\
   P2 & 1  & 5 & 1 \\
@@ -118,7 +146,8 @@ int main() {
   \end{center}
 
   Draw a Gantt chart and find the average waiting time and average turnaround time for:
-  \begin{enumerate}[label=(\roman*)]
+  
+\begin{enumerate}[label=(\roman*)]
     \item FCFS
     \item SJF (Preemptive)
     \item SJF (Non-Preemptive)
@@ -129,7 +158,11 @@ int main() {
 
 \bigskip
 
-\noindent\textbf{Question 5.}\pts{$6+8=14$}
+
+
+
+\noindent   \textbf{Question 5.}\pts{$6+8=14$}
+
 \begin{parts}
   \item Compare the following memory management techniques on their strengths and weaknesses: (i) Fixed Partition, (ii) Dynamic Partition, (iii) Simple Paging.
   \item Given the following page reference string:\\
@@ -139,16 +172,22 @@ int main() {
 
 \bigskip
 
-\noindent\textbf{Question 6.}\pts{$8+6=14$}
+
+
+
+\noindent   \textbf{Question 6.}\pts{$8+6=14$}
+
 \begin{parts}
   \item What is busy waiting with respect to process synchronization? Explain how a semaphore reduces the severity of this problem. Also define and distinguish between:
-    \begin{enumerate}[label=(\roman*)]
+    
+\begin{enumerate}[label=(\roman*)]
       \item General (counting) semaphores
       \item Binary semaphores
       \item Strong semaphores
       \item Weak semaphores
     \end{enumerate}
   \item The following program consists of 3 concurrent processes (P0, P1, P2) and 3 binary semaphores initialized as S0=1, S1=0, S2=0:
+
 \begin{lstlisting}[numbers=none]
 /* P0 */          /* P1 */          /* P2 */
 while(true){      while(true){      while(true){
@@ -163,13 +202,18 @@ while(true){      while(true){      while(true){
 
 \bigskip
 
-\noindent\textbf{Question 7.} Write the Banker's Algorithm. Consider the following snapshot of a system at time $T_0$ with 5 processes (P0--P4) and 4 resource types (A, B, C, D):\pts{$3+4+3+4=14$}
+
+
+
+\noindent   \textbf{Question 7.} Write the Banker's Algorithm. Consider the following snapshot of a system at time $T_0$ with 5 processes (P0--P4) and 4 resource types (A, B, C, D):\pts{$3+4+3+4=14$}
+
 
 \begin{center}
+
 \begin{tabular}{|c|cccc|cccc|cccc|}
 \hline
-& \multicolumn{4}{c|}{\textbf{Allocation}} & \multicolumn{4}{c|}{\textbf{Maximum}} & \multicolumn{4}{c|}{\textbf{Available}} \\
-\textbf{Process} & A & B & C & D & A & B & C & D & A & B & C & D \\
+& \multicolumn{4}{c|}{   \textbf{Allocation}} & \multicolumn{4}{c|}{   \textbf{Maximum}} & \multicolumn{4}{c|}{   \textbf{Available}} \\
+   \textbf{Process} & A & B & C & D & A & B & C & D & A & B & C & D \\
 \hline
 P0 & 0 & 0 & 1 & 2 & 0 & 0 & 1 & 2 & 1 & 5 & 2 & 0 \\
 P1 & 1 & 0 & 0 & 0 & 1 & 7 & 5 & 0 &   &   &   &   \\
@@ -181,6 +225,7 @@ P4 & 0 & 0 & 1 & 4 & 0 & 6 & 5 & 6 &   &   &   &   \\
 \end{center}
 
 Answer the following:
+
 \begin{parts}
   \item What is the content of the NEED matrix?
   \item Is the system in a safe state? If yes, justify with step-wise calculations.
@@ -190,6 +235,7 @@ Answer the following:
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
 \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
 \end{center}

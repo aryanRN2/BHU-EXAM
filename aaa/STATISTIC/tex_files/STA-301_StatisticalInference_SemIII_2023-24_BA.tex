@@ -18,33 +18,47 @@
 
 \pagestyle{fancy}\fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{STA-301: Statistical Inference}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{STA-301: Statistical Inference}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
+
 
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=5pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=3pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[\#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[\#1]}}
+
 
 \begin{document}
 
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.A. (Hons.) Semester III Examination, 2023-24}\\[6pt]
+  {
+\normalsize B.A. (Hons.) Semester III Examination, 2023-24}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper No. STA-301: Statistical Inference}\\[4pt]
-  {\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
+  {
+\normalsize Time: 3 Hours\hfill Maximum Marks: 70}
 \end{center}
 \rule{\linewidth}{0.4pt}
 \smallskip
-\noindent\textit{Instructions: Answer \textbf{five} questions including Question~1 which is compulsory. Symbols have their usual meanings.}
+
+
+
+\noindent   \textit{Instructions: Answer   \textbf{five} questions including Question~1 which is compulsory. Symbols have their usual meanings.}
 \bigskip
 
-\medskip\noindent\textbf{Question 1.}
+\medskip
+
+
+\noindent   \textbf{Question 1.}
+
 \begin{parts}
   \item Explain the concept of the sampling distribution of a statistic and standard error. Describe the utility of standard error in hypothesis testing. Derive the expressions for the standard error of the following cases:
-  \begin{parts}
+  
+\begin{parts}
     \item The mean of a random sample of size $n$ obtained from a normal distribution.
     \item The difference of the means of two independent random samples of sizes $n_1$ and $n_2$ from normal distributions $N(\mu_1, \sigma^2)$ and $N(\mu_2, \sigma^2)$ respectively.
   \end{parts}
@@ -53,32 +67,54 @@
 \end{parts}
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 2.}
+\medskip
+
+
+\noindent   \textbf{Question 2.}
+
 \begin{parts}
-  \item Discuss the criteria of a good estimator. Let $X_1, X_2, X_3, X_4$ be a random sample from a $N(\mu, \sigma^2)$ population. Find the variance of $T = \frac{X_1 + 3X_2 + 2X_3 + X_4}{7}$ and $\bar{X} = \frac{X_1 + X_2 + X_3 + X_4}{4}$. Which one is preferred between $T$ and $\bar{X}$ for the estimation of the mean of a normal distribution and why? \pts{7}
-  \item Show that for a normal distribution, the sample variance $S^2 = \frac{1}{n}\sum_{i=1}^n (X_i - \bar{X})^2$ is not an unbiased estimate of the population variance $\sigma^2$. Obtain an unbiased estimate of the population variance. \pts{7}
+  \item Discuss the criteria of a good estimator. Let $X_1, X_2, X_3, X_4$ be a random sample from a $N(\mu, \sigma^2)$ population. Find the variance of $T = \frac{X_1 + 3X_2 + 2X_3 + X_4}{7}$ and $ar{X} = \frac{X_1 + X_2 + X_3 + X_4}{4}$. Which one is preferred between $T$ and $ar{X}$ for the estimation of the mean of a normal distribution and why? \pts{7}
+  \item Show that for a normal distribution, the sample variance $S^2 = \frac{1}{n}\sum_{i=1}^n (X_i - ar{X})^2$ is not an unbiased estimate of the population variance $\sigma^2$. Obtain an unbiased estimate of the population variance. \pts{7}
 \end{parts}
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 3.}
+\medskip
+
+
+\noindent   \textbf{Question 3.}
+
 \begin{parts}
   \item Let $P_1$ and $P_2$ be the unknown proportions of students wearing glasses in two universities $A$ and $B$. To compare $P_1$ and $P_2$, samples of sizes $n_1$ and $n_2$ are taken from the two populations and the number of students wearing glasses is found to be $x_1$ and $x_2$ respectively. Suggest an unbiased estimate of $P_1 - P_2$ and obtain its sampling distribution when $n_1$ and $n_2$ are large. Hence, explain how to test the hypothesis $H_0 : P_1 = P_2$. \pts{7}
   \item Twenty people were attacked by a disease and only 18 survived. Will you reject the hypothesis that the survival rate, if attacked by this disease, is 85\% in favor of the hypothesis that it is more, at 5\% level of significance? (Use large sample test; the tabulated $Z$ value in a one-tailed test is 1.645). \pts{7}
 \end{parts}
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 4.}
+\medskip
+
+
+\noindent   \textbf{Question 4.}
+
+
+
 \noindent Describe the $\chi^2$ test of significance and state its various applications. What are the assumptions of the $\chi^2$ test of goodness of fit? Discuss its additive property and the limiting form of $\chi^2$ for large degrees of freedom. \pts{14}
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 5.}
+\medskip
+
+
+\noindent   \textbf{Question 5.}
+
 \begin{parts}
   \item Explain stating clearly the assumptions involved in the $t$-test for testing the significance of the difference between two means. Find the value of the $t$-statistic in a sample of size eight: $-4$, $-2$, $-2$, $0$, $2$, $2$, $3$, $3$, taking the mean of the universe to be zero. How would you proceed further to test at 5\% level of significance? (Given $t_{0.05, 7} = 2.365$). \pts{7}
   \item Discuss the $F$-distribution along with its applications. \pts{7}
 \end{parts}
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 6.}
+\medskip
+
+
+\noindent   \textbf{Question 6.}
+
 \begin{parts}
   \item State the Weak Law of Large Numbers (WLLN). Examine whether the WLLN holds or not for the sequence $\{X_n\}$ of independent random variables defined as follows:
   \[
@@ -88,15 +124,26 @@
 \end{parts}
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 7.}
+\medskip
+
+
+\noindent   \textbf{Question 7.}
+
 \begin{parts}
   \item Define order statistics. What are the cumulative distribution functions of the smallest and largest order statistics? Also, obtain the probability density function of the $r$-th order statistic. \pts{7}
   \item Discuss the applications of non-parametric tests, along with their advantages and disadvantages. Also, explain the Run test. \pts{7}
 \end{parts}
 \medskip\rule{\linewidth}{0.2pt}
 
-\medskip\noindent\textbf{Question 8.}
-\noindent Write short notes on any \textbf{three} of the following: \pts{14}
+\medskip
+
+
+\noindent   \textbf{Question 8.}
+
+
+
+\noindent Write short notes on any   \textbf{three} of the following: \pts{14}
+
 \begin{parts}
   \item Errors, Critical Region, Level of Significance, and Power of a test in hypothesis testing.
   \item $\chi^2$-test for independence of attributes.
@@ -106,6 +153,7 @@
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
   \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
 \end{center}

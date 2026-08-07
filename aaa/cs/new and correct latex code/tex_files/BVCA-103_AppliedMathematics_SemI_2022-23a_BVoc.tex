@@ -21,56 +21,79 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{BVCA-103: Applied Mathematics}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{BVCA-103: Applied Mathematics}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
 
 \lstset{
-  basicstyle=\small\ttfamily,
+  basicstyle=\small tfamily,
   frame=single,
   breaklines=true,
   columns=flexible,
   keepspaces=true
 }
 
+
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Voc. Semester I Examination, 2022-23}\\[6pt]
+  {
+\normalsize B.Voc. Semester I Examination, 2022-23}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper: BVCA-103 --- Applied Mathematics}\\[4pt]
-  {\normalsize Time: Three Hours \hfill Maximum Marks: 70}
+  {
+\normalsize Time: Three Hours \hfill Maximum Marks: 70}
 \end{center}
 
 \rule{\linewidth}{0.4pt}
 
 \smallskip
-\noindent\textit{Instructions: Answer all Sections. Candidates are required to solve their answers with accuracy.}
+
+
+
+\noindent   \textit{Instructions: Answer all Sections. Candidates are required to solve their answers with accuracy.}
 
 \bigskip
 
-\bigskip\noindent{\large\bfseries SECTION --- A: Long Answer Questions}\pts{$15 \times 2 = 30$}
+\bigskip
+
+
+\noindent {\large\bfseries SECTION --- A: Long Answer Questions}\pts{$15  \times 2 = 30$}
 \rule{\linewidth}{0.4pt}\smallskip
 
-\noindent\textit{Instructions: Long answer type questions each have to be solved stepwise.}
 
-\medskip\noindent\textbf{Question 1.} Prove that:
+
+
+\noindent   \textit{Instructions: Long answer type questions each have to be solved stepwise.}
+
+\medskip
+
+
+\noindent   \textbf{Question 1.} Prove that:
 \[
+
 \begin{vmatrix}
   1 & 1 & 1 \\
   a & b & c \\
   a^2 & b^2 & c^2
 \end{vmatrix} = (a-b)(b-c)(c-a)
 \]
-\centerline{\textbf{OR}}
+\centerline{   \textbf{OR}}
 
-\medskip\noindent\textbf{Question 2.} Apply Gauss elimination method to solve the equations:
+\medskip
+
+
+\noindent   \textbf{Question 2.} Apply Gauss elimination method to solve the equations:
 \[
+
 \begin{aligned}
   x + 4y - z &= -5 \\
   x + y - 6z &= -12 \\
@@ -78,19 +101,28 @@
 \end{aligned}
 \]
 
-\medskip\noindent\textbf{Question 3.} Find the eigenvalues and verify the Cayley-Hamilton theorem for the given matrix:
+\medskip
+
+
+\noindent   \textbf{Question 3.} Find the eigenvalues and verify the Cayley-Hamilton theorem for the given matrix:
 \[
-A = \begin{pmatrix}
+A = 
+\begin{pmatrix}
   5 & 4 \\
   1 & 2
 \end{pmatrix}
 \]
-\centerline{\textbf{OR}}
+\centerline{   \textbf{OR}}
 
-\medskip\noindent\textbf{Question 4.} Define with examples:
+\medskip
+
+
+\noindent   \textbf{Question 4.} Define with examples:
+
 \begin{parts}
   \item The following:
-  \begin{parts}
+  
+\begin{parts}
     \item Set
     \item Singleton Set
     \item Finite Set
@@ -101,30 +133,53 @@ A = \begin{pmatrix}
   \item If $n(A) = 50$, $n(B) = 60$, and $n(C) = 25$, then find $n(A \cup B \cup C)$ if $A, B, C$ are disjoint sets.
 \end{parts}
 
-\bigskip\noindent{\large\bfseries SECTION --- B}
+\bigskip
+
+
+\noindent {\large\bfseries SECTION --- B}
 \rule{\linewidth}{0.4pt}\smallskip
 
-Note: Attempt any six out of eight. Short answer type questions to be solved in required steps:\hfill ($5 \times 6 = 30$)
+Note: Attempt any six out of eight. Short answer type questions to be solved in required steps:\hfill ($5  \times 6 = 30$)
 
-\medskip\noindent\textbf{Question 1.} Calculate the number of subsets for the given set $A = \{0, 1, 2\}$ and write all the possible subsets of the given set.
+\medskip
 
-\medskip\noindent\textbf{Question 2.} Find the probability of getting Head and Tail both on one toss of a single coin.
 
-\medskip\noindent\textbf{Question 3.} Write the characteristic equation of the given matrix:
+\noindent   \textbf{Question 1.} Calculate the number of subsets for the given set $A = \{0, 1, 2\}$ and write all the possible subsets of the given set.
+
+\medskip
+
+
+\noindent   \textbf{Question 2.} Find the probability of getting Head and Tail both on one toss of a single coin.
+
+\medskip
+
+
+\noindent   \textbf{Question 3.} Write the characteristic equation of the given matrix:
 \[
-A = \begin{pmatrix}
+A = 
+\begin{pmatrix}
   1 & 1 & 3 \\
   1 & 5 & 1 \\
   3 & 1 & 1
 \end{pmatrix}
 \]
 
-\medskip\noindent\textbf{Question 4.} Write the statement of Cayley-Hamilton theorem and verify this theorem for an Identity matrix of order $3 \times 3$.
+\medskip
 
-\medskip\noindent\textbf{Question 5.} Define Derivation Tree.
 
-\medskip\noindent\textbf{Question 6.} Apply Gauss-Seidel iteration method to solve the equations:
+\noindent   \textbf{Question 4.} Write the statement of Cayley-Hamilton theorem and verify this theorem for an Identity matrix of order $3  \times 3$.
+
+\medskip
+
+
+\noindent   \textbf{Question 5.} Define Derivation Tree.
+
+\medskip
+
+
+\noindent   \textbf{Question 6.} Apply Gauss-Seidel iteration method to solve the equations:
 \[
+
 \begin{aligned}
   20x + y - 2z &= 17 \\
   3x + 20y - z &= -18 \\
@@ -133,23 +188,34 @@ A = \begin{pmatrix}
 \]
 Perform this operation up to two iterations.
 
-\medskip\noindent\textbf{Question 7.} Define set of set and write the power set of the given set $A = \{1, 2, 3\}$.
+\medskip
 
-\medskip\noindent\textbf{Question 8.} Define the sample space and write the sample space of the outcome of a throw of a dice, and find the probability that we get 6 in a single throw of dice.
 
-\bigskip\noindent{\large\bfseries SECTION --- C}
+\noindent   \textbf{Question 7.} Define set of set and write the power set of the given set $A = \{1, 2, 3\}$.
+
+\medskip
+
+
+\noindent   \textbf{Question 8.} Define the sample space and write the sample space of the outcome of a throw of a dice, and find the probability that we get 6 in a single throw of dice.
+
+\bigskip
+
+
+\noindent {\large\bfseries SECTION --- C}
 \rule{\linewidth}{0.4pt}\smallskip
 
-Note: Attempt all questions. Very short answer type questions or one-word answer type questions:\hfill ($10 \times 1 = 10$)
+Note: Attempt all questions. Very short answer type questions or one-word answer type questions:\hfill ($10  \times 1 = 10$)
+
 
 \begin{enumerate}[label=\arabic*.,leftmargin=*,itemsep=6pt]
   \item Can we calculate the determinant value of a row matrix?
-  \item Verify if the Identity matrix of order $2 \times 2$ is a non-singular matrix.
+  \item Verify if the Identity matrix of order $2  \times 2$ is a non-singular matrix.
   \item Why is the system of Homogeneous equations called consistent?
   \item Can we refer to a null set as an empty set?
   \item Calculate the value of the given determinant:
   \[
-  A = \begin{vmatrix}
+  A = 
+\begin{vmatrix}
     1 & 0 & 1 \\
     1 & 0 & 2 \\
     1 & 1 & 2
@@ -157,13 +223,14 @@ Note: Attempt all questions. Very short answer type questions or one-word answer
   \]
   \item Write what type of set is $A = \{\}$.
   \item Write the definition of 'Mutually Exclusive Event'.
-  \item Calculate the number of terms in the expansion of a $3 \times 3$ determinant.
+  \item Calculate the number of terms in the expansion of a $3  \times 3$ determinant.
   \item What is an Upper Triangular Matrix?
   \item Define Function.
 \end{enumerate}
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
 \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
 \end{center}

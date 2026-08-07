@@ -21,44 +21,58 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{BCS-201: Digital Logic Circuits}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{BCS-201: Digital Logic Circuits}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
 
 \lstset{
-  basicstyle=\small\ttfamily,
+  basicstyle=\small tfamily,
   frame=single,
   breaklines=true,
   columns=flexible,
   keepspaces=true
 }
 
+
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Sc.\ (Hons.) Semester II Examination, 2013-14}\\[6pt]
+  {
+\normalsize B.Sc.\ (Hons.) Semester II Examination, 2013-14}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper: BCS-201 --- Digital Logic Circuits}\\[4pt]
-  {\normalsize Time: Three hours \hfill Maximum Marks: 70}
+  {
+\normalsize Time: Three hours \hfill Maximum Marks: 70}
 \end{center}
 
 \rule{\linewidth}{0.4pt}
 
 \smallskip
-\noindent\textit{Instructions: Answer any \textbf{five} questions, including Question~1, which is compulsory.}
+
+
+
+\noindent   \textit{Instructions: Answer any   \textbf{five} questions, including Question~1, which is compulsory.}
 
 \bigskip
 
 %% ─── Question 1 (Compulsory) ──────────────────────────────────────────────────
-\noindent\textbf{Question 1.}
+
+
+
+\noindent   \textbf{Question 1.}
+
 \begin{parts}
-  \item Perform the following conversions. Show the detailed calculation being done for conversions:\pts{3$\times$2 = 6}
-  \begin{parts}
+  \item Perform the following conversions. Show the detailed calculation being done for conversions:\pts{3$ \times$2 = 6}
+  
+\begin{parts}
     \item $(673.23)_{10} = (\quad)_2$
     \item $(1101101.111)_2 = (\quad)_{10}$
     \item $(2AC5.D)_{16} = (\quad)_8$
@@ -72,16 +86,22 @@
 \bigskip
 
 %% ─── Question 2 ───────────────────────────────────────────────────────────────
-\noindent\textbf{Question 2.}
+
+
+
+\noindent   \textbf{Question 2.}
+
 \begin{parts}
   \item Perform the following binary operations:\pts{3}
-  \begin{parts}
-    \item $111 \times 1101$
+  
+\begin{parts}
+    \item $111  \times 1101$
     \item $11011001 \div 1100$
   \end{parts}
   \item Subtract $3$ from $-12$ using 2's complement method.\pts{2}
   \item Perform the addition of the following numbers in the given base without converting to decimal:\pts{4}
-  \begin{parts}
+  
+\begin{parts}
     \item $(1230)_4 + (23)_4$
     \item $(296)_{12} + (57)_{12}$
   \end{parts}
@@ -91,10 +111,15 @@
 \bigskip
 
 %% ─── Question 3 ───────────────────────────────────────────────────────────────
-\noindent\textbf{Question 3.}
+
+
+
+\noindent   \textbf{Question 3.}
+
 \begin{parts}
   \item Simplify the following Boolean expressions to a minimum number of literals by using Boolean algebra theorems:\pts{4}
-  \begin{parts}
+  
+\begin{parts}
     \item $xyz - x'y - xyz'$
     \item $BC + AC' + AB + BCD$
   \end{parts}
@@ -106,13 +131,18 @@
 \bigskip
 
 %% ─── Question 4 ───────────────────────────────────────────────────────────────
-\noindent\textbf{Question 4.}
+
+
+
+\noindent   \textbf{Question 4.}
+
 \begin{parts}
   \item What are the differences between combinational circuit and sequential circuit? Explain with their block diagrams. List the names of any two combinational and any two sequential circuits.\pts{4}
   \item Implement the following function with NAND gates (with no more than six gates, each having three inputs). Assume that both the normal and complement inputs are available.
   \[ F = BD + BCD + AB'C'D' + A'B'CD' \]\pts{5}
   \item Simplify the Boolean function $F$ using the don't care condition $d$, in its minimum sum of product form:
-  \begin{align*}
+  
+\begin{align*}
     F(w, x, y, z) &= w'x'y'z' + w'x'yz' + w'xy'z + w'xyz' \\
     d(w, x, y, z) &= w'x'y'z + yz' + wyz
   \end{align*}\pts{5}
@@ -121,7 +151,11 @@
 \bigskip
 
 %% ─── Question 5 ───────────────────────────────────────────────────────────────
-\noindent\textbf{Question 5.}
+
+
+
+\noindent   \textbf{Question 5.}
+
 \begin{parts}
   \item Design a combinational circuit that accepts a three bit number and generates an output binary number equal to the square of the input number.\pts{5}
   \item What is a decoder? Design a full adder circuit with a decoder and two OR gates.\pts{4}
@@ -131,11 +165,16 @@
 \bigskip
 
 %% ─── Question 6 ───────────────────────────────────────────────────────────────
-\noindent\textbf{Question 6.}
+
+
+
+\noindent   \textbf{Question 6.}
+
 \begin{parts}
   \item Define Multiplexer. Implement an 8x1 multiplexer using two 4x1 multiplexers and a 2x1 multiplexer.\pts{5}
   \item Implement a 3-bit binary to gray code converter using PLA as follows:
-  \begin{parts}
+  
+\begin{parts}
     \item Make a truth table.\pts{2}
     \item Simplify using K-map.\pts{2}
     \item Design circuit using PLA; and\pts{3}
@@ -146,16 +185,22 @@
 \bigskip
 
 %% ─── Question 7 ───────────────────────────────────────────────────────────────
-\noindent\textbf{Question 7.}
+
+
+
+\noindent   \textbf{Question 7.}
+
 \begin{parts}
   \item Implement JK flip flop using D-flip flop.\pts{4}
   \item Define irregular counter. Design a counter with the following binary sequence: $0, 1, 3, 7, 6, 4$ and repeat. Use T flip-flops.\pts{5}
   \item Define register. By using registers, design a sequential circuit whose state table is listed as follows:\pts{5}
   
-  \begin{center}
-  \begin{tabular}{|cc|c|cc|c|}
+  
+\begin{center}
+  
+\begin{tabular}{|cc|c|cc|c|}
   \hline
-  \multicolumn{2}{|c|}{\textbf{Present State}} & \textbf{Input} & \multicolumn{2}{c|}{\textbf{Next State}} & \textbf{Output} \\
+  \multicolumn{2}{|c|}{   \textbf{Present State}} &   \textbf{Input} & \multicolumn{2}{c|}{   \textbf{Next State}} &   \textbf{Output} \\
   \hline
   $A_1$ & $A_2$ & $x$ & $A_1$ & $A_2$ & $y$ \\
   \hline
@@ -174,6 +219,7 @@
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
   \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
   \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]

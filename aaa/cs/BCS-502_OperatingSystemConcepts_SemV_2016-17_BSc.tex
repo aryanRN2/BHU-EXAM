@@ -21,41 +21,54 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{BCS-502: Operating System Concepts}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{BCS-502: Operating System Concepts}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
 
 \lstset{
-  basicstyle=\small\ttfamily,
+  basicstyle=\small tfamily,
   frame=single,
   breaklines=true,
   columns=flexible,
   keepspaces=true
 }
 
+
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
 
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Sc. (Hons.) Semester V Examination, 2016-17}\\[6pt]
+  {
+\normalsize B.Sc. (Hons.) Semester V Examination, 2016-17}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper: BCS-502 --- Operating System Concepts}\\[4pt]
-  {\normalsize Time: Three Hours \hfill Maximum Marks: 70}
+  {
+\normalsize Time: Three Hours \hfill Maximum Marks: 70}
 \end{center}
 
 \rule{\linewidth}{0.4pt}
 
 \smallskip
-\noindent\textit{Instructions: Answer five questions in all, including Question No.1, which is compulsory. Figures or 8 Pets}
+
+
+
+\noindent   \textit{Instructions: Answer five questions in all, including Question No.1, which is compulsory. Figures or 8 Pets}
 
 \bigskip
 
-\medskip\noindent\textbf{Question 1.} Answer any six of the following parts:\pts{14}
+\medskip
+
+
+\noindent   \textbf{Question 1.} Answer any six of the following parts:\pts{14}
+
 \begin{parts}
   \item Define the term Operating System and distinguish between the internal and external views of an operating system.
   \item What are the main design goals of an operating system? Explain them in brief.
@@ -66,15 +79,21 @@
   \item Briefly discuss any three free-space management schemes for a disk.
 \end{parts}
 
-\medskip\noindent\textbf{Question 2.}
+\medskip
+
+
+\noindent   \textbf{Question 2.}
+
 \begin{parts}
   \item Briefly explain the different process states and transitions among them with a state transition diagram.\pts{2}
   \item Explain the three-level scheduling that may coexist in a complex operating system.\pts{4}
   \item Consider the following five processes, with arrival times and CPU burst times given in milliseconds:\pts{8}
-  \begin{center}
-    \begin{tabular}{|c|c|c|}
+  
+\begin{center}
+    
+\begin{tabular}{|c|c|c|}
     \hline
-    \textbf{Process} & \textbf{Arrival Time} & \textbf{Burst Time} \\
+   \textbf{Process} &   \textbf{Arrival Time} &   \textbf{Burst Time} \\
     \hline
     P1 & 0  & 10 \\
     P2 & 2  & 29 \\
@@ -87,20 +106,32 @@
   Illustrate the First-Come-First-Serve (FCFS), Non-Preemptive Shortest-Job-First (SJF), and Round-Robin (RR, with a time quantum of 10 milliseconds) scheduling algorithms using a Gantt chart. Which algorithm will give the minimum average waiting time?
 \end{parts}
 
-\medskip\noindent\textbf{Question 3.}
+\medskip
+
+
+\noindent   \textbf{Question 3.}
+
 \begin{parts}
   \item What do you mean by memory fragmentation? Differentiate between internal and external memory fragmentation.\pts{6}
   \item Define the concepts of Logical and Physical Addresses. How is a logical address translated to a physical address in a paging scheme? Explain with a neat diagram.\pts{8}
 \end{parts}
 
-\medskip\noindent\textbf{Question 4.}
+\medskip
+
+
+\noindent   \textbf{Question 4.}
+
 \begin{parts}
   \item What is Demand Paging? Explain the steps involved in page fault handling.\pts{4}
   \item What is Belady's anomaly? Illustrate this anomalous behavior in the FIFO page replacement algorithm with a suitable example.\pts{4}
   \item Explain the Working Set Model. Explain how it is used to prevent thrashing and manage memory bandwidth in practice.\pts{6}
 \end{parts}
 
-\medskip\noindent\textbf{Question 5.}
+\medskip
+
+
+\noindent   \textbf{Question 5.}
+
 \begin{parts}
   \item Describe the physical and logical views of a disk storage system.\pts{5}
   \item Suppose that a disk drive has 5,000 cylinders, numbered 0 to 4999. The head is currently serving a request at cylinder 143, and the previous request was at cylinder 125. The queue of pending requests in FIFO order is:
@@ -108,15 +139,21 @@
   Starting from the current head position, what is the total distance (in cylinders) that the disk arm moves to satisfy all the pending requests for FCFS, SSTF, and SCAN disk scheduling algorithms?\pts{9}
 \end{parts}
 
-\medskip\noindent\textbf{Question 6.}
+\medskip
+
+
+\noindent   \textbf{Question 6.}
+
 \begin{parts}
   \item Describe the deadlock detection algorithm for a system with multiple instances of resource types.\pts{6}
   \item Consider the following snapshot of a system at time $T_0$ with 5 processes (P0--P4) and 4 resource types (A, B, C, D):\pts{8}
-  \begin{center}
-    \begin{tabular}{|c|cccc|cccc|cccc|}
+  
+\begin{center}
+    
+\begin{tabular}{|c|cccc|cccc|cccc|}
     \hline
-    & \multicolumn{4}{c|}{\textbf{Allocation}} & \multicolumn{4}{c|}{\textbf{Maximum}} & \multicolumn{4}{c|}{\textbf{Available}} \\
-    \textbf{Process} & A & B & C & D & A & B & C & D & A & B & C & D \\
+    & \multicolumn{4}{c|}{   \textbf{Allocation}} & \multicolumn{4}{c|}{   \textbf{Maximum}} & \multicolumn{4}{c|}{   \textbf{Available}} \\
+   \textbf{Process} & A & B & C & D & A & B & C & D & A & B & C & D \\
     \hline
     P0 & 0 & 0 & 1 & 2 & 0 & 0 & 1 & 2 & 1 & 5 & 2 & 0 \\
     P1 & 1 & 0 & 0 & 0 & 1 & 7 & 5 & 0 &   &   &   &   \\
@@ -127,14 +164,19 @@
     \end{tabular}
   \end{center}
   Answer the following questions using the Banker's algorithm:
-  \begin{parts}
+  
+\begin{parts}
     \item What is the content of the matrix Need?
     \item Is the system in a safe state? If yes, give the safe sequence.
     \item If a request from process P1 arrives for $(0, 4, 2, 0)$, can the request be granted immediately?
   \end{parts}
 \end{parts}
 
-\medskip\noindent\textbf{Question 7.} Write short notes on the following:\pts{3 + 4 + 4 + 3 = 14}
+\medskip
+
+
+\noindent   \textbf{Question 7.} Write short notes on the following:\pts{3 + 4 + 4 + 3 = 14}
+
 \begin{parts}
   \item Dining Philosophers Problem
   \item Critical Section and Semaphores
@@ -144,6 +186,7 @@
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
 \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
 \end{center}

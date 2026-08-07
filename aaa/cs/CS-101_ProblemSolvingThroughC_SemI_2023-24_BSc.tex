@@ -21,51 +21,65 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{CS-101: Problem Solving through C Programming}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{CS-101: Problem Solving through C Programming}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
 
 \lstset{
-  basicstyle=\small\ttfamily,
+  basicstyle=\small tfamily,
   frame=single,
   breaklines=true,
   columns=flexible,
   keepspaces=true
 }
 
+
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Sc.\ (Hons.) Semester I Examination, 2023-24}\\[6pt]
+  {
+\normalsize B.Sc.\ (Hons.) Semester I Examination, 2023-24}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper: CS-101 --- Problem Solving through C Programming}\\[4pt]
-  {\normalsize Time: Three Hours \hfill Maximum Marks: 70}
+  {
+\normalsize Time: Three Hours \hfill Maximum Marks: 70}
 \end{center}
 
 \rule{\linewidth}{0.4pt}
 
 \smallskip
-\noindent\textit{Instructions: Answer any \textbf{five} questions including Question~1 which is compulsory. Write your Roll No.\ at the top immediately on receipt of this question paper.}
+
+
+
+\noindent   \textit{Instructions: Answer any   \textbf{five} questions including Question~1 which is compulsory. Write your Roll No.\ at the top immediately on receipt of this question paper.}
 
 \bigskip
 
 %% ─── Q1 (Compulsory) ───────────────────────────────────────────────────────
-\noindent\textbf{Question 1.} \textit{Attempt any \textbf{nine}.}\pts{2$\times$9 = 18}
+
+
+
+\noindent   \textbf{Question 1.}   \textit{Attempt any   \textbf{nine}.}\pts{2$ \times$9 = 18}
+
 \begin{parts}
-  \item Differentiate between \texttt{float} and \texttt{double} data types in C.
-  \item What is the difference between the \texttt{=} operator and the \texttt{==} operator in C?
-  \item What is the role of the \texttt{break} keyword in C programming?
+  \item Differentiate between   \texttt{float} and   \texttt{double} data types in C.
+  \item What is the difference between the   \texttt{=} operator and the   \texttt{==} operator in C?
+  \item What is the role of the   \texttt{break} keyword in C programming?
   \item What is the difference between a string and an array of characters?
-  \item What is the use of the \texttt{\#ifndef} preprocessor directive in C programming?
-  \item What is the difference between \texttt{scanf()} and \texttt{gets()} functions?
-  \item Write the syntax and usage of the \texttt{->} operator in C.
+  \item What is the use of the   \texttt{\#ifndef} preprocessor directive in C programming?
+  \item What is the difference between   \texttt{scanf()} and   \texttt{gets()} functions?
+  \item Write the syntax and usage of the   \texttt{->} operator in C.
   \item Define the concept of \emph{pointer to pointer} with a suitable example.
   \item What will be the output of the following code? (Explain with reason.)
+
 \begin{lstlisting}[language=C]
 void main() {
     int x = 10, y = 5, p, q;
@@ -75,6 +89,7 @@ void main() {
 }
 \end{lstlisting}
   \item What will be the output of the following code? (Explain with reason.)
+
 \begin{lstlisting}[language=C]
 void main() {
     int x = 3, y = 2, z;
@@ -87,17 +102,25 @@ void main() {
 \bigskip
 
 %% ─── Q2 ─────────────────────────────────────────────────────────────────────
-\noindent\textbf{Question 2.}
+
+
+
+\noindent   \textbf{Question 2.}
+
 \begin{parts}
   \item What is an \emph{algorithm}? Draw the flowchart to print the real roots of the quadratic equation $ax^{2}+bx+c=0$ using the Sridharacharya formula.\pts{4}
-  \item Explain the difference between a \texttt{while} loop and a \texttt{do\ldots while} loop with a suitable example.\pts{5}
-  \item Explain the \texttt{switch\ldots case} statement with a suitable example.\pts{4}
+  \item Explain the difference between a   \texttt{while} loop and a   \texttt{do\ldots while} loop with a suitable example.\pts{5}
+  \item Explain the   \texttt{switch\ldots case} statement with a suitable example.\pts{4}
 \end{parts}
 
 \bigskip
 
 %% ─── Q3 ─────────────────────────────────────────────────────────────────────
-\noindent\textbf{Question 3.}
+
+
+
+\noindent   \textbf{Question 3.}
+
 \begin{parts}
   \item Discuss the \emph{logical operators} in C with a suitable example.\pts{4}
   \item Differentiate between \emph{actual} and \emph{formal} arguments when using a function. Explain \emph{call by reference} with a suitable example.\pts{5}
@@ -107,11 +130,16 @@ void main() {
 \bigskip
 
 %% ─── Q4 ─────────────────────────────────────────────────────────────────────
-\noindent\textbf{Question 4.}
+
+
+
+\noindent   \textbf{Question 4.}
+
 \begin{parts}
-  \item State the difference between \texttt{register} and \texttt{static} storage class variables with appropriate examples.\pts{4}
+  \item State the difference between   \texttt{register} and   \texttt{static} storage class variables with appropriate examples.\pts{4}
   \item Write your own functions in C for the following string operations:\pts{6}
-    \begin{parts}
+    
+\begin{parts}
       \item Copy one string into another.
       \item Reverse a given string.
     \end{parts}
@@ -121,7 +149,11 @@ void main() {
 \bigskip
 
 %% ─── Q5 ─────────────────────────────────────────────────────────────────────
-\noindent\textbf{Question 5.}
+
+
+
+\noindent   \textbf{Question 5.}
+
 \begin{parts}
   \item How are elements of a 2D array stored in computer memory? Give one example.\pts{2}
   \item Differentiate between the concepts of \emph{pointer to an array} and \emph{array of pointers} with suitable examples.\pts{6}
@@ -131,25 +163,34 @@ void main() {
 \bigskip
 
 %% ─── Q6 ─────────────────────────────────────────────────────────────────────
-\noindent\textbf{Question 6.}
+
+
+
+\noindent   \textbf{Question 6.}
+
 \begin{parts}
   \item Explain the different possible \emph{modes} for opening a file in C. Write a program to copy the contents of one file into another.\pts{5}
-  \item What do you mean by \emph{dynamic memory allocation} in C? Explain the role of the \texttt{realloc()} function with a suitable example.\pts{4}
+  \item What do you mean by \emph{dynamic memory allocation} in C? Explain the role of the   \texttt{realloc()} function with a suitable example.\pts{4}
   \item Define \emph{structure} with a suitable example. How is memory allocation done for structure variables? Give one example.\pts{4}
 \end{parts}
 
 \bigskip
 
 %% ─── Q7 ─────────────────────────────────────────────────────────────────────
-\noindent\textbf{Question 7.}
+
+
+
+\noindent   \textbf{Question 7.}
+
 \begin{parts}
-  \item What is the role of the \emph{Preprocessor} in C programming? Differentiate between the two forms of include directives: \texttt{\#include<mylib.h>} and \texttt{\#include"mylib.h"}.\pts{4}
+  \item What is the role of the \emph{Preprocessor} in C programming? Differentiate between the two forms of include directives:   \texttt{\#include<mylib.h>} and   \texttt{\#include"mylib.h"}.\pts{4}
   \item Explain the concept of \emph{nested structure} with a suitable example.\pts{5}
   \item Define \emph{union} with a suitable example. Give one real-life example where a union can be used.\pts{4}
 \end{parts}
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
   \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
   \href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]

@@ -21,40 +21,53 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{BCS-401: Computer Org \& Arch}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{BCS-401: Computer Org \& Arch}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
 
 \lstset{
-  basicstyle=\small\ttfamily,
+  basicstyle=\small tfamily,
   frame=single,
   breaklines=true,
   columns=flexible,
   keepspaces=true
 }
 
+
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Sc. (Hons.) Semester IV Examination, 2013-14}\\[6pt]
+  {
+\normalsize B.Sc. (Hons.) Semester IV Examination, 2013-14}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper: BCS-401 --- Computer Org \& Arch}\\[4pt]
-  {\normalsize Time: Three hours \hfill Maximum Marks: 70}
+  {
+\normalsize Time: Three hours \hfill Maximum Marks: 70}
 \end{center}
 
 \rule{\linewidth}{0.4pt}
 
 \smallskip
-\noindent\textit{Instructions: ANSWER ALL QUESTIONS.}
+
+
+
+\noindent   \textit{Instructions: ANSWER ALL QUESTIONS.}
 
 \bigskip
 
-\medskip\noindent\textbf{Question 1.} Answer in brief any four parts from the following: \pts{$4 \times 3.5 = 14$}
+\medskip
+
+
+\noindent   \textbf{Question 1.} Answer in brief any four parts from the following: \pts{$4  \times 3.5 = 14$}
+
 \begin{parts}
   \item What are the functions of program counter/instruction pointer and stack pointer in any CPU? Explain with suitable examples.
   \item What are meant by static and dynamic RAM and what are the advantages of one over the other?
@@ -63,50 +76,68 @@
   \item What is the difference between instructions and directives? Explain with example the functions performed by the ASSUME and DW directives.
 \end{parts}
 
-\medskip\noindent\textbf{Question 2.}
+\medskip
+
+
+\noindent   \textbf{Question 2.}
+
 \begin{parts}
   \item What is meant by the addressing modes of any CPU? Explain with suitable examples the addressing modes of 8086 CPU. \pts{5}
-  \centerline{\textbf{OR}}
+  \centerline{   \textbf{OR}}
   What are the functions of ALU in any CPU? Explain the construction and working of one bit (stage) ALU. How will you design the ALU of 8 bit CPU using one bit ALUs? \pts{5}
   \item What is meant by flag (status) register in any CPU? Differentiate between the control and conditional flags in the flag register. Find the status of different conditional flags after the performance of the addition of hexadecimal numbers 5439H and 456AH by the ALU of 8086. \pts{5}
   \item Mention the difference between hardwired and microprogrammed Control Unit. \pts{4}
 \end{parts}
 
-\medskip\noindent\textbf{Question 3.}
+\medskip
+
+
+\noindent   \textbf{Question 3.}
+
 \begin{parts}
   \item What is meant by memory hierarchy and what is its need in a large computer system? Explain in brief the cache memory organization and its advantages. \pts{5}
   \item What is meant by virtual memory and what is its need? Differentiate between the logical memory address and physical memory address. Explain the method of physical memory address calculation in protected virtual addressing mode of a CPU with 20 address lines and 16 bit segment registers. \pts{5}
   \item Differentiate between mask ROM, PROM, EPROM, EEPROM and flash memory. Mention in brief different applications of ROM. \pts{4}
 \end{parts}
 
-\medskip\noindent\textbf{Question 4.}
+\medskip
+
+
+\noindent   \textbf{Question 4.}
+
 \begin{parts}
   \item What is meant by interrupt? Name and explain in brief the different types of interrupts that are possible in any computer system. What is meant by priority of interrupts? Name the different methods of assigning priority to interrupts and explain any one of these methods. \pts{5}
-  \centerline{\textbf{OR}}
+  \centerline{   \textbf{OR}}
   What is the need of I/O interface in computer organization? Write in brief about synchronous and asynchronous serial data communication. Explain the need of MODEM for computer data communication to long distances. \pts{5}
   \item Differentiate between simple I/O, strobed I/O and handshaking modes of I/O data transfer. Explain in brief the different modes of operation of programmable peripheral interface 8255. Find the control word that must be written in the control register of 8255 for using it in simple I/O mode with Port A as input, Port B as output, Port C upper as output and Port C lower as input. \pts{5}
   \item What is meant by I/O processor? Explain in brief about its use in computer organization. \pts{4}
 \end{parts}
 
-\medskip\noindent\textbf{Question 5.}
+\medskip
+
+
+\noindent   \textbf{Question 5.}
+
 \begin{parts}
   \item Explain the operations performed on executing the following instructions: \pts{5}
-  \begin{parts}
-    \item \texttt{MOV AL, [BX]}
-    \item \texttt{IDIV CX}
-    \item \texttt{TEST DX, [BP][DI]}
-    \item \texttt{ROR AX, CL} where \texttt{[CL] = 04}
-    \item \texttt{JBE NEXT} where \texttt{NEXT} is a label
+  
+\begin{parts}
+    \item   \texttt{MOV AL, [BX]}
+    \item   \texttt{IDIV CX}
+    \item   \texttt{TEST DX, [BP][DI]}
+    \item   \texttt{ROR AX, CL} where   \texttt{[CL] = 04}
+    \item   \texttt{JBE NEXT} where   \texttt{NEXT} is a label
   \end{parts}
   \item Write an assembly language program to multiply the unsigned hexadecimal numbers 2A and 3C stored as data somewhere in memory. The product is also to be stored in memory. Comments should follow each statement to explain the program. \pts{5}
-  \item What is meant by string manipulation instructions and where are these used? Explain the functions performed by the instructions \texttt{CMPSW} and \texttt{SCASB}. \pts{4}
+  \item What is meant by string manipulation instructions and where are these used? Explain the functions performed by the instructions   \texttt{CMPSW} and   \texttt{SCASB}. \pts{4}
 \end{parts}
-\centerline{\textbf{OR}}
+\centerline{   \textbf{OR}}
 What is meant by a MACRO and how is it defined and called? Explain with suitable example the meaning of MACRO expansion. \pts{4}
 
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
 \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
 \end{center}

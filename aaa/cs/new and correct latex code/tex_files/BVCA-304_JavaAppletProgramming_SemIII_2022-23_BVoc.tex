@@ -21,12 +21,12 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small\textit{Banaras Hindu University}}
-\fancyhead[R]{\small\textit{BVCA-304: Java Applet Programming}}
-\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+\fancyhead[L]{\small   \textit{Banaras Hindu University}}
+\fancyhead[R]{\small   \textit{BVCA-304: Java Applet Programming}}
+\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
 
 \lstset{
-  basicstyle=\small\ttfamily,
+  basicstyle=\small tfamily,
   language=Java,
   frame=single,
   breaklines=true,
@@ -34,75 +34,138 @@
   keepspaces=true
 }
 
+
 \newlist{parts}{enumerate}{2}
 \setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
 \setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
-\newcommand{\pts}[1]{\hfill\textit{[#1]}}
+
+\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
+
 
 \begin{document}
 
+
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Voc. Semester III Examination, 2022-23}\\[6pt]
+  {
+\normalsize B.Voc. Semester III Examination, 2022-23}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries Paper: BVCA-304 --- Java Applet Programming}\\[4pt]
-  {\normalsize Time: Three Hours \hfill Maximum Marks: 70}
+  {
+\normalsize Time: Three Hours \hfill Maximum Marks: 70}
 \end{center}
 
 \rule{\linewidth}{0.4pt}
 
 \smallskip
-\noindent\textit{Instructions: Answer all sections. Write your answers in your own words as far as practicable.}
+
+
+
+\noindent   \textit{Instructions: Answer all sections. Write your answers in your own words as far as practicable.}
 
 \bigskip
 
-\bigskip\noindent{\large\bfseries SECTION --- A}
+\bigskip
+
+
+\noindent {\large\bfseries SECTION --- A}
 \rule{\linewidth}{0.4pt}\smallskip
 
-\noindent\textit{Note: Long-answer questions to be answered in about 750 words each. Attempt any two.} \hfill \textbf{[15 $\times$ 2 = 30]}
 
-\medskip\noindent\textbf{Question 1.} What are data types and variables in Java? Differentiate between static, instance, and local variables. Why can keywords not be used as variable names?
-\centerline{\textbf{OR}}
-Discuss the \texttt{if-else} statement and \texttt{switch} statement. Write a program to display the day of the week for a given number using a \texttt{switch} statement. (Days: Sunday=0, Monday=1, Tuesday=2, \ldots)
 
-\medskip\noindent\textbf{Question 2.} What are arrays? Explain their types and discuss the ways to initialize them.
+
+\noindent   \textit{Note: Long-answer questions to be answered in about 750 words each. Attempt any two.} \hfill   \textbf{[15 $ \times$ 2 = 30]}
+
+\medskip
+
+
+\noindent   \textbf{Question 1.} What are data types and variables in Java? Differentiate between static, instance, and local variables. Why can keywords not be used as variable names?
+\centerline{   \textbf{OR}}
+Discuss the   \texttt{if-else} statement and   \texttt{switch} statement. Write a program to display the day of the week for a given number using a   \texttt{switch} statement. (Days: Sunday=0, Monday=1, Tuesday=2, \ldots)
+
+\medskip
+
+
+\noindent   \textbf{Question 2.} What are arrays? Explain their types and discuss the ways to initialize them.
+
 \begin{parts}
   \item Write a program to find the maximum element in an array of 20 integer values.
 \end{parts}
-\centerline{\textbf{OR}}
-Explain the \texttt{for}, \texttt{while}, and \texttt{do-while} loop structures in Java with examples. What is the difference between entry-controlled loops and exit-controlled loops?
+\centerline{   \textbf{OR}}
+Explain the   \texttt{for},   \texttt{while}, and   \texttt{do-while} loop structures in Java with examples. What is the difference between entry-controlled loops and exit-controlled loops?
 
-\bigskip\noindent{\large\bfseries SECTION --- B}
+\bigskip
+
+
+\noindent {\large\bfseries SECTION --- B}
 \rule{\linewidth}{0.4pt}\smallskip
 
-\noindent\textit{Note: Short-answer questions to be answered in about 200 words each. Attempt any six.} \hfill \textbf{[5 $\times$ 6 = 30]}
 
-\medskip\noindent\textbf{Question 3.} How do you read data using the \texttt{Scanner} class in Java? State at least three methods defined in the \texttt{Scanner} class to read data.
 
-\medskip\noindent\textbf{Question 4.} What is concatenation of Strings? Write a program to concatenate two strings.
 
-\medskip\noindent\textbf{Question 5.} Differentiate between the \texttt{break} and \texttt{continue} statements with examples.
+\noindent   \textit{Note: Short-answer questions to be answered in about 200 words each. Attempt any six.} \hfill   \textbf{[5 $ \times$ 6 = 30]}
 
-\medskip\noindent\textbf{Question 6.} What are the features of the Java programming language?
+\medskip
 
-\medskip\noindent\textbf{Question 7.} Write a program to check whether a number is prime or not.
 
-\medskip\noindent\textbf{Question 8.} Define JDK and JVM. Why is Java considered a platform-independent language?
+\noindent   \textbf{Question 3.} How do you read data using the   \texttt{Scanner} class in Java? State at least three methods defined in the   \texttt{Scanner} class to read data.
 
-\medskip\noindent\textbf{Question 9.} What is a Constructor? Explain its types.
+\medskip
 
-\medskip\noindent\textbf{Question 10.} What is an Object and how is it created? Create a class \texttt{Student} with at least three attributes and create two objects of that class.
 
-\bigskip\noindent{\large\bfseries SECTION --- C}
+\noindent   \textbf{Question 4.} What is concatenation of Strings? Write a program to concatenate two strings.
+
+\medskip
+
+
+\noindent   \textbf{Question 5.} Differentiate between the   \texttt{break} and   \texttt{continue} statements with examples.
+
+\medskip
+
+
+\noindent   \textbf{Question 6.} What are the features of the Java programming language?
+
+\medskip
+
+
+\noindent   \textbf{Question 7.} Write a program to check whether a number is prime or not.
+
+\medskip
+
+
+\noindent   \textbf{Question 8.} Define JDK and JVM. Why is Java considered a platform-independent language?
+
+\medskip
+
+
+\noindent   \textbf{Question 9.} What is a Constructor? Explain its types.
+
+\medskip
+
+
+\noindent   \textbf{Question 10.} What is an Object and how is it created? Create a class   \texttt{Student} with at least three attributes and create two objects of that class.
+
+\bigskip
+
+
+\noindent {\large\bfseries SECTION --- C}
 \rule{\linewidth}{0.4pt}\smallskip
 
-\noindent\textit{Note: Answer all objective-type questions.} \hfill \textbf{[10 $\times$ 1 = 10]}
 
-\medskip\noindent\textbf{Question 11.} Answer the following:
+
+
+\noindent   \textit{Note: Answer all objective-type questions.} \hfill   \textbf{[10 $ \times$ 1 = 10]}
+
+\medskip
+
+
+\noindent   \textbf{Question 11.} Answer the following:
+
 \begin{enumerate}[label=(\roman*),leftmargin=*,itemsep=8pt]
 
   \item Who invented the Java programming language?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item Guido van Rossum
     \item James Gosling
     \item Dennis Ritchie
@@ -110,7 +173,8 @@ Explain the \texttt{for}, \texttt{while}, and \texttt{do-while} loop structures 
   \end{enumerate}
 
   \item \underline{\hspace{2cm}} is used to find and fix bugs in Java programs.
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item JVM
     \item JRE
     \item JDK
@@ -118,7 +182,8 @@ Explain the \texttt{for}, \texttt{while}, and \texttt{do-while} loop structures 
   \end{enumerate}
 
   \item What does an Eclipse IDE allow?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item Editing the program only
     \item Compiling the program only
     \item Both Editing and Compiling the program
@@ -126,7 +191,8 @@ Explain the \texttt{for}, \texttt{while}, and \texttt{do-while} loop structures 
   \end{enumerate}
 
   \item SDK stands for \underline{\hspace{2cm}}.
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item Software Design Kit
     \item Serial Development Kit
     \item Software Development Kit
@@ -134,7 +200,8 @@ Explain the \texttt{for}, \texttt{while}, and \texttt{do-while} loop structures 
   \end{enumerate}
 
   \item Which of the following is not an OOP concept in Java?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item Polymorphism
     \item Inheritance
     \item Compilation
@@ -142,6 +209,7 @@ Explain the \texttt{for}, \texttt{while}, and \texttt{do-while} loop structures 
   \end{enumerate}
 
   \item What will be the output of the following Java program?
+
 \begin{lstlisting}
 class Variable_scope {
     public static void main(String args[]) {
@@ -155,7 +223,8 @@ class Variable_scope {
     }
 }
 \end{lstlisting}
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item Compilation error
     \item Runtime error
     \item 5 6 5 6
@@ -163,6 +232,7 @@ class Variable_scope {
   \end{enumerate}
 
   \item What will be the output of the following Java program?
+
 \begin{lstlisting}
 class output {
     public static void main(String args[]) {
@@ -172,15 +242,17 @@ class output {
     }
 }
 \end{lstlisting}
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item QuizziuQ
     \item ziuQQuiz
     \item Quiz
     \item ziuQ
   \end{enumerate}
 
-  \item In which memory is a String stored when we create a String using the \texttt{new} operator?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  \item In which memory is a String stored when we create a String using the   \texttt{new} operator?
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item Stack
     \item String memory
     \item Heap memory
@@ -188,15 +260,17 @@ class output {
   \end{enumerate}
 
   \item Which keyword is used for accessing the features of a package?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
-    \item \texttt{package}
-    \item \texttt{import}
-    \item \texttt{extends}
-    \item \texttt{export}
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
+    \item   \texttt{package}
+    \item   \texttt{import}
+    \item   \texttt{extends}
+    \item   \texttt{export}
   \end{enumerate}
 
-  \item Which value is returned by the \texttt{read()} method when End of File (EOF) is encountered?
-  \begin{enumerate}[label=(\alph*),itemsep=2pt]
+  \item Which value is returned by the   \texttt{read()} method when End of File (EOF) is encountered?
+  
+\begin{enumerate}[label=(\alph*),itemsep=2pt]
     \item 0
     \item 1
     \item $-1$
@@ -207,6 +281,7 @@ class output {
 
 \vfill
 \rule{\linewidth}{0.4pt}
+
 \begin{center}\small
 \href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}\\[4pt]\href{https://quashan-me.vercel.app/}{Click here to visit our contributor}
 \end{center}
