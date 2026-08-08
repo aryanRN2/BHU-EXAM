@@ -1,5 +1,21 @@
 export const NEP_LATEX_PYQ_DATA = [
   {
+    "code": "BOTMJ41",
+    "courseType": "Major",
+    "name": "B.Sc. (Hons) Semester IV Examination 2025-26 (NEP) - BOTMJ41: Gymnosperms and Paleobotany",
+    "filePath": "aaa/ALL_PYQS_LATEX/BOTMJ41_GymnospermsAndPaleobotany_SemIV_2025-26.tex",
+    "fileName": "BOTMJ41_GymnospermsAndPaleobotany_SemIV_2025-26.tex",
+    "nepCode": "BOTMJ41",
+    "oldCode": "BOTMJ41",
+    "subject": "Botany",
+    "department": "Department of Botany",
+    "semester": "Semester IV",
+    "year": "2025-26",
+    "type": "NEP",
+    "examType": "End Term",
+    "isNepPaper": true
+  },
+  {
     "code": "CSCSE31",
     "courseType": "Skill Enhancement",
     "name": "B.Sc. Semester III Sessional Examination 2025-26 (NEP) - CSCSE31: Python Programming",
