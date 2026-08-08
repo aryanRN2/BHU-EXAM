@@ -14,6 +14,7 @@ fs.mkdirSync(wwwDir, { recursive: true });
 const rootFiles = [
   'index.html',
   'contributors.html',
+  'what-to-contribute.html',
   'subjects.html',
   'syllabus.html',
   'nep-papers.html',

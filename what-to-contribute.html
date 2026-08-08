@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What to Contribute? -- SCIQB BHU Resource Contribution Guide</title>
+    <meta name="description" content="Check missing PYQs, subject requirements, and contribution guidelines to earn points and help BHU students." />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="js/nep-pyq-tracker-data.js"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#0f172a',
+                        'secondary': '#475569',
+                        'accent-bhu-saffron': '#f57c00',
+                        'accent-neural-emerald': '#10b981',
+                        'accent-neural-blue': '#3b82f6',
+                        'accent-neural-purple': '#8b5cf6',
+                        'background-warm': '#fafafa',
+                        'border-subtle': '#e2e8f0',
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'Inter', 'sans-serif'],
+                    },
+                    maxWidth: {
+                        'container-max': '1280px',
+                    },
+                    padding: {
+                        'edge': '1.5rem',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-background-warm text-primary font-sans antialiased min-h-full flex flex-col relative selection:bg-accent-bhu-saffron/20 selection:text-accent-bhu-saffron">
+
+    <!-- Background Parallax Canvas Orbs -->
+    <div class="fixed inset-0 overflow-hidden pointer-events-none z-0">
+        <div class="neural-orb absolute top-[-10%] right-[-5%] w-[450px] h-[450px] rounded-full bg-gradient-to-br from-accent-bhu-saffron/10 via-amber-300/5 to-transparent blur-3xl transition-transform duration-1000 ease-out"></div>
+        <div class="neural-orb absolute bottom-[-10%] left-[-5%] w-[500px] h-[500px] rounded-full bg-gradient-to-tr from-accent-neural-blue/10 via-indigo-300/5 to-transparent blur-3xl transition-transform duration-1000 ease-out"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <nav class="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-border-subtle transition-all duration-300">
+        <div class="max-w-container-max mx-auto px-6 md:px-padding-edge h-16 flex items-center justify-between">
+            <!-- Brand Logo -->
+            <a href="index.html" class="flex items-center gap-2 group">
+                <span class="text-2xl font-black tracking-tighter text-primary uppercase group-hover:text-accent-bhu-saffron transition-colors">SCIQB</span>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <div class="hidden md:flex items-center gap-6">
+                <a href="index.html" class="text-xs font-bold text-secondary hover:text-primary transition-colors">Home</a>
+                <a href="nep-pyq.html" class="text-xs font-bold text-secondary hover:text-primary transition-colors">NEP PYQs</a>
+                <a href="legacy-pyq.html" class="text-xs font-bold text-secondary hover:text-primary transition-colors">Old PYQs</a>
+                <a href="subjects.html" class="text-xs font-bold text-secondary hover:text-primary transition-colors">Mock Exams</a>
+                <a href="syllabus.html" class="text-xs font-bold text-secondary hover:text-primary transition-colors">Syllabus</a>
+                <a href="notes.html" class="text-xs font-bold text-secondary hover:text-primary transition-colors">Notes</a>
+                <a href="contributors.html" class="text-xs font-bold text-secondary hover:text-primary transition-colors">Contributors</a>
+                <a href="what-to-contribute.html" class="text-xs font-bold text-accent-bhu-saffron bg-accent-bhu-saffron/10 px-3 py-1.5 rounded-full border border-accent-bhu-saffron/20 flex items-center gap-1">
+                    <span class="material-symbols-outlined text-sm font-bold">help</span>
+                    <span>What to Contribute?</span>
+                </a>
+            </div>
+
+            <!-- Mobile Hamburger Button -->
+            <button onclick="toggleMobileMenu()" class="md:hidden w-10 h-10 rounded-xl bg-neutral-100 border border-neutral-200 text-neutral-800 flex items-center justify-center active:scale-95 transition-all">
+                <span class="material-symbols-outlined text-xl">menu</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobileMenu" class="fixed inset-0 h-full w-full z-[999] hidden flex-col bg-black/95 backdrop-blur-2xl px-6 py-6 md:hidden transition-all duration-300 opacity-0 text-white overflow-y-auto">
+        <div class="flex justify-between items-center w-full pb-5 border-b border-white/10 shrink-0">
+            <a href="index.html" class="flex items-center gap-2">
+                <span class="text-2xl font-black tracking-tighter text-white uppercase">SCIQB</span>
+            </a>
+            <button onclick="toggleMobileMenu()" class="w-10 h-10 rounded-full bg-white/10 text-white border border-white/20 flex items-center justify-center active:scale-90 transition-all">
+                <span class="material-symbols-outlined text-xl">close</span>
+            </button>
+        </div>
+        <div class="flex flex-col gap-1 pt-4 flex-1">
+            <a class="text-white/85 font-semibold hover:text-white text-base py-3 border-b border-white/10 flex items-center justify-between" href="index.html"><span>Home</span><span class="material-symbols-outlined text-sm opacity-50">chevron_right</span></a>
+            <a class="text-white/85 font-semibold hover:text-white text-base py-3 border-b border-white/10 flex items-center justify-between" href="nep-pyq.html"><span>NEP PYQs</span><span class="material-symbols-outlined text-sm opacity-50">chevron_right</span></a>
+            <a class="text-white/85 font-semibold hover:text-white text-base py-3 border-b border-white/10 flex items-center justify-between" href="legacy-pyq.html"><span>Old PYQs</span><span class="material-symbols-outlined text-sm opacity-50">chevron_right</span></a>
+            <a class="text-white/85 font-semibold hover:text-white text-base py-3 border-b border-white/10 flex items-center justify-between" href="subjects.html"><span>Mock Exams</span><span class="material-symbols-outlined text-sm opacity-50">chevron_right</span></a>
+            <a class="text-white/85 font-semibold hover:text-white text-base py-3 border-b border-white/10 flex items-center justify-between" href="syllabus.html"><span>Syllabus</span><span class="material-symbols-outlined text-sm opacity-50">chevron_right</span></a>
+            <a class="text-white/85 font-semibold hover:text-white text-base py-3 border-b border-white/10 flex items-center justify-between" href="notes.html"><span>Notes</span><span class="material-symbols-outlined text-sm opacity-50">chevron_right</span></a>
+            <a class="text-white/85 font-semibold hover:text-white text-base py-3 border-b border-white/10 flex items-center justify-between" href="contributors.html"><span>Contributors</span><span class="material-symbols-outlined text-sm opacity-50">chevron_right</span></a>
+            <a class="text-accent-bhu-saffron font-bold text-base py-3 flex items-center justify-between" href="what-to-contribute.html"><span>What to Contribute?</span><span class="material-symbols-outlined text-sm">open_in_new</span></a>
+        </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <main class="flex-1 w-full max-w-container-max mx-auto px-6 md:px-padding-edge py-10 relative z-10">
+
+        <!-- Hero Section -->
+        <div class="text-center max-w-3xl mx-auto mb-12">
+            <div class="inline-flex items-center gap-2 bg-accent-bhu-saffron/10 text-accent-bhu-saffron text-xs font-extrabold px-3.5 py-1.5 rounded-full uppercase tracking-wider mb-4 border border-accent-bhu-saffron/20 shadow-xs">
+                <span class="material-symbols-outlined text-sm font-bold">assignment_add</span>
+                <span>BHU Resource Contribution Guide</span>
+            </div>
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-black text-primary tracking-tight leading-tight mb-4">
+                What Can You Contribute to <span class="bg-gradient-to-r from-accent-bhu-saffron to-amber-600 bg-clip-text text-transparent">SCIQB</span>?
+            </h1>
+            <p class="text-sm sm:text-base text-secondary font-medium leading-relaxed">
+                Help build the largest open academic archive for Banaras Hindu University. Share question papers, notes, or code to earn contribution points and appear on the Leaderboard!
+            </p>
+        </div>
+
+        <!-- 5 Key Contribution Types Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-5 mb-14">
+            
+            <!-- Type 1: PYQ Papers -->
+            <div class="bg-white/90 backdrop-blur-md border border-neutral-200/80 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 group flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined text-2xl">description</span>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <h3 class="text-base font-bold text-primary">Question Papers (PYQs)</h3>
+                        <span class="text-xs font-black text-accent-neural-emerald bg-emerald-50 px-2.5 py-0.5 rounded-full border border-emerald-200">50 Points</span>
+                    </div>
+                    <p class="text-xs text-secondary leading-relaxed mb-4">
+                        Photos or PDF scans of Mid-Term, End-Term, and Sessional question papers for any BHU course (NEP or Old syllabus).
+                    </p>
+                </div>
+                <ul class="text-[11px] text-neutral-600 space-y-1.5 font-medium border-t border-neutral-100 pt-3">
+                    <li class="flex items-center gap-1.5"><span class="material-symbols-outlined text-xs text-emerald-600">check_circle</span>Clear, readable page photos</li>
+                    <li class="flex items-center gap-1.5"><span class="material-symbols-outlined text-xs text-emerald-600">check_circle</span>Mentions Subject & Year</li>
+                </ul>
+            </div>
+
+            <!-- Type 2: Study Notes -->
+            <div class="bg-white/90 backdrop-blur-md border border-neutral-200/80 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 group flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined text-2xl">menu_book</span>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <h3 class="text-base font-bold text-primary">Handwritten / Digital Notes</h3>
+                        <span class="text-xs font-black text-accent-neural-emerald bg-emerald-50 px-2.5 py-0.5 rounded-full border border-emerald-200">250 Points</span>
+                    </div>
+                    <p class="text-xs text-secondary leading-relaxed mb-4">
+                        Unit-wise lecture notes, summary guides, solved numericals, or detailed topic explanations for BHU subjects.
+                    </p>
+                </div>
+                <ul class="text-[11px] text-neutral-600 space-y-1.5 font-medium border-t border-neutral-100 pt-3">
+                    <li class="flex items-center gap-1.5"><span class="material-symbols-outlined text-xs text-emerald-600">check_circle</span>Unit-wise structured notes</li>
+                    <li class="flex items-center gap-1.5"><span class="material-symbols-outlined text-xs text-emerald-600">check_circle</span>Clean PDF format</li>
+                </ul>
+            </div>
+
+            <!-- Type 3: LaTeX Code -->
+            <div class="bg-white/90 backdrop-blur-md border border-neutral-200/80 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 group flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 rounded-xl bg-blue-500/10 text-blue-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined text-2xl">code</span>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <h3 class="text-base font-bold text-primary">LaTeX Transcriptions</h3>
+                        <span class="text-xs font-black text-accent-neural-emerald bg-emerald-50 px-2.5 py-0.5 rounded-full border border-emerald-200">1 Pt / Line</span>
+                    </div>
+                    <p class="text-xs text-secondary leading-relaxed mb-4">
+                        Transcribe raw paper images into clean `.tex` source code using our standardized LaTeX template.
+                    </p>
+                </div>
+                <ul class="text-[11px] text-neutral-600 space-y-1.5 font-medium border-t border-neutral-100 pt-3">
+                    <li class="flex items-center gap-1.5"><span class="material-symbols-outlined text-xs text-emerald-600">check_circle</span>Uses standard LaTeX template</li>
+                    <li class="flex items-center gap-1.5"><span class="material-symbols-outlined text-xs text-emerald-600">check_circle</span>Validates compiling PDF</li>
+                </ul>
+            </div>
+
+            <!-- Type 4: Presentation Slides -->
+            <div class="bg-white/90 backdrop-blur-md border border-neutral-200/80 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 group flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 rounded-xl bg-purple-500/10 text-purple-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined text-2xl">slideshow</span>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <h3 class="text-base font-bold text-primary">Slides & Presentations</h3>
+                        <span class="text-xs font-black text-accent-neural-emerald bg-emerald-50 px-2.5 py-0.5 rounded-full border border-emerald-200">5 Pts / Page</span>
+                    </div>
+                    <p class="text-xs text-secondary leading-relaxed mb-4">
+                        Classroom PPT slides, seminar decks, or faculty lecture presentations.
+                    </p>
+                </div>
+                <ul class="text-[11px] text-neutral-600 space-y-1.5 font-medium border-t border-neutral-100 pt-3">
+                    <li class="flex items-center gap-1.5"><span class="material-symbols-outlined text-xs text-emerald-600">check_circle</span>PPTX or PDF decks</li>
+                    <li class="flex items-center gap-1.5"><span class="material-symbols-outlined text-xs text-emerald-600">check_circle</span>Subject syllabus aligned</li>
+                </ul>
+            </div>
+
+            <!-- Type 5: Lab Manuals -->
+            <div class="bg-white/90 backdrop-blur-md border border-neutral-200/80 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 group flex flex-col justify-between sm:col-span-2 md:col-span-2">
+                <div>
+                    <div class="w-12 h-12 rounded-xl bg-rose-500/10 text-rose-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined text-2xl">science</span>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <h3 class="text-base font-bold text-primary">Practical Files & Lab Manuals</h3>
+                        <span class="text-xs font-black text-accent-neural-emerald bg-emerald-50 px-2.5 py-0.5 rounded-full border border-emerald-200">100 -- 300 Points</span>
+                    </div>
+                    <p class="text-xs text-secondary leading-relaxed mb-4">
+                        Practical experiment record files, lab manuals, SageMath/Python code notebooks, or chemistry lab procedure writeups.
+                    </p>
+                </div>
+                <ul class="text-[11px] text-neutral-600 space-y-1.5 font-medium border-t border-neutral-100 pt-3">
+                    <li class="flex items-center gap-1.5"><span class="material-symbols-outlined text-xs text-emerald-600">check_circle</span>Covers experiments with data/calculations</li>
+                    <li class="flex items-center gap-1.5"><span class="material-symbols-outlined text-xs text-emerald-600">check_circle</span>Physics, Chemistry, Computer Science, Botany, Zoology labs</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Live Master NEP PYQ Search & Coverage Tracker -->
+        <div id="live-tracker-section" class="w-full bg-white border border-neutral-200 rounded-3xl p-6 sm:p-8 shadow-sm mb-14">
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-neutral-200 pb-5 mb-6">
+                <div>
+                    <div class="inline-flex items-center gap-1.5 bg-accent-bhu-saffron/10 text-accent-bhu-saffron text-[10px] font-extrabold px-2.5 py-1 rounded-full uppercase tracking-wider mb-1">
+                        Live Missing PYQ Finder
+                    </div>
+                    <h2 class="text-2xl font-black text-primary tracking-tight">Check Which Courses Need PYQs Right Now</h2>
+                    <p class="text-xs text-secondary mt-1">Search any course code below to see if Mid-Term or End-Term PYQs are currently <span class="text-rose-600 font-bold">Missing</span> or <span class="text-emerald-600 font-bold">Complete</span>.</p>
+                </div>
+                <div class="flex gap-2">
+                    <a href="BHU_NEP_Master_Combined_PYQ_Tracker.csv" download class="bg-neutral-900 hover:bg-neutral-800 text-white px-4 py-2.5 rounded-xl text-xs font-bold transition-all shadow-xs flex items-center gap-2 active:scale-95">
+                        <span class="material-symbols-outlined text-sm text-accent-bhu-saffron">download</span>
+                        <span>Download Full Master CSV Tracker</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Filter Controls -->
+            <div class="flex flex-col sm:flex-row gap-3 mb-4">
+                <div class="relative flex-1">
+                    <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-neutral-400 text-sm">search</span>
+                    <input type="text" id="guideSearchInput" placeholder="Type course code (e.g. BOTMJ21, CHEMJ11, PHYMJ31) or subject..."
+                           class="w-full pl-9 pr-4 py-2.5 bg-neutral-50 border border-neutral-300 rounded-xl text-xs focus:outline-none focus:ring-2 focus:ring-primary text-neutral-900 placeholder-neutral-400 font-medium"
+                           oninput="filterGuideTracker()"/>
+                </div>
+                <div class="flex gap-2">
+                    <select id="guideStatusFilter" onchange="filterGuideTracker()"
+                            class="bg-neutral-50 border border-neutral-300 rounded-xl text-xs font-bold text-neutral-800 px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-primary cursor-pointer">
+                        <option value="ALL">All Status</option>
+                        <option value="Pending" selected>Pending / Missing Only</option>
+                        <option value="Partial">Partial (Missing Mid or End)</option>
+                        <option value="Complete">Complete</option>
+                    </select>
+
+                    <select id="guideCategoryFilter" onchange="filterGuideTracker()"
+                            class="bg-neutral-50 border border-neutral-300 rounded-xl text-xs font-bold text-neutral-800 px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-primary cursor-pointer">
+                        <option value="ALL">All Categories</option>
+                        <option value="Major">Major</option>
+                        <option value="Minor">Minor</option>
+                        <option value="Multidisciplinary (MD/MDC)">Multidisciplinary (MD)</option>
+                        <option value="Skill Enhancement (SEC)">Skill Enhancement (SEC)</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Table -->
+            <div class="border border-neutral-200 rounded-xl overflow-hidden shadow-xs">
+                <div class="overflow-x-auto max-h-[450px]">
+                    <table class="w-full text-left text-xs border-collapse">
+                        <thead class="bg-neutral-100 text-neutral-700 font-bold sticky top-0 backdrop-blur-md border-b border-neutral-200">
+                            <tr>
+                                <th class="py-3 px-4">Code</th>
+                                <th class="py-3 px-4">Course Name</th>
+                                <th class="py-3 px-4">Department</th>
+                                <th class="py-3 px-4 text-center">Mid-Term Status</th>
+                                <th class="py-3 px-4 text-center">End-Term Status</th>
+                                <th class="py-3 px-4 text-center">Overall Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="guideTableBody" class="divide-y divide-neutral-100 text-neutral-800 font-medium">
+                            <!-- JS populated -->
+                        </tbody>
+                    </table>
+                </div>
+                <div class="p-3 bg-neutral-50 border-t border-neutral-200 flex justify-between items-center text-[11px] text-neutral-500 font-semibold">
+                    <span id="guidePaginationInfo">Showing 1 - 50 courses</span>
+                    <div class="flex gap-2">
+                        <button id="guidePrevBtn" onclick="changeGuidePage(-1)" class="px-3 py-1 rounded bg-white border border-neutral-300 font-bold hover:bg-neutral-100 disabled:opacity-40">Prev</button>
+                        <button id="guideNextBtn" onclick="changeGuidePage(1)" class="px-3 py-1 rounded bg-white border border-neutral-300 font-bold hover:bg-neutral-100 disabled:opacity-40">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- How to Submit Steps & Telegram Call-to-Action -->
+        <div class="bg-gradient-to-br from-primary via-neutral-900 to-primary text-white rounded-3xl p-8 sm:p-10 shadow-xl relative overflow-hidden">
+            <div class="max-w-2xl relative z-10">
+                <div class="inline-flex items-center gap-1.5 bg-accent-bhu-saffron/20 text-accent-bhu-saffron text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider mb-4 border border-accent-bhu-saffron/30">
+                    Submit Resources in 2 Steps
+                </div>
+                <h3 class="text-2xl sm:text-3xl font-extrabold tracking-tight mb-4">Ready to Submit & Earn Points?</h3>
+                <ol class="space-y-3 text-xs sm:text-sm text-neutral-300 mb-8 list-decimal pl-5 leading-relaxed font-medium">
+                    <li>Take clear photos or convert your study material into a readable PDF document.</li>
+                    <li>Send your file directly to our Telegram community or developer team with your name & course details.</li>
+                    <li>Our audit team verifies the submission and awards your contribution points on the live Leaderboard!</li>
+                </ol>
+                <div class="flex flex-wrap gap-4">
+                    <a href="https://t.me/sciqb" target="_blank" class="bg-accent-bhu-saffron hover:bg-amber-600 text-white font-extrabold text-xs sm:text-sm px-6 py-3.5 rounded-2xl shadow-lg transition-all flex items-center gap-2 active:scale-95">
+                        <span class="material-symbols-outlined text-base">send</span>
+                        <span>Submit via Telegram (@sciqb)</span>
+                    </a>
+                    <a href="contributors.html" class="bg-white/10 hover:bg-white/20 text-white font-bold text-xs sm:text-sm px-6 py-3.5 rounded-2xl border border-white/20 transition-all flex items-center gap-2">
+                        <span class="material-symbols-outlined text-base">emoji_events</span>
+                        <span>View Contributor Leaderboard</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-full py-10 bg-background-warm border-t border-border-subtle mt-auto relative z-10">
+        <div class="max-w-container-max mx-auto px-6 md:px-padding-edge flex flex-col md:flex-row justify-between items-center gap-6">
+            <p class="text-xs text-secondary">© 2026 SCIQB. Built to help and empower BHU students.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+                menu.classList.add('flex');
+                setTimeout(() => menu.classList.remove('opacity-0'), 10);
+            } else {
+                menu.classList.add('opacity-0');
+                setTimeout(() => {
+                    menu.classList.remove('flex');
+                    menu.classList.add('hidden');
+                }, 300);
+            }
+        }
+
+        // Live Guide Tracker Pagination & Filtering Logic
+        let guideCurrentPage = 1;
+        const guidePageSize = 50;
+        let filteredGuideData = typeof NEP_PYQ_TRACKER_DATA !== 'undefined' ? NEP_PYQ_TRACKER_DATA : [];
+
+        function renderGuideTable() {
+            const tbody = document.getElementById('guideTableBody');
+            const info = document.getElementById('guidePaginationInfo');
+            const prevBtn = document.getElementById('guidePrevBtn');
+            const nextBtn = document.getElementById('guideNextBtn');
+            if (!tbody) return;
+
+            const total = filteredGuideData.length;
+            const maxPage = Math.ceil(total / guidePageSize) || 1;
+            if (guideCurrentPage > maxPage) guideCurrentPage = maxPage;
+            if (guideCurrentPage < 1) guideCurrentPage = 1;
+
+            const startIdx = (guideCurrentPage - 1) * guidePageSize;
+            const endIdx = Math.min(startIdx + guidePageSize, total);
+            const pageData = filteredGuideData.slice(startIdx, endIdx);
+
+            let html = '';
+            if (pageData.length === 0) {
+                html = `<tr><td colspan="6" class="py-8 text-center text-neutral-400 text-xs font-medium">No matching courses found in tracker.</td></tr>`;
+            } else {
+                pageData.forEach(c => {
+                    let statusBadge = '';
+                    if (c.status === 'Complete') {
+                        statusBadge = `<span class="bg-emerald-100 text-emerald-800 font-bold px-2 py-0.5 rounded text-[10px] border border-emerald-300">Complete</span>`;
+                    } else if (c.status === 'Partial') {
+                        statusBadge = `<span class="bg-amber-100 text-amber-800 font-bold px-2 py-0.5 rounded text-[10px] border border-amber-300">Partial</span>`;
+                    } else {
+                        statusBadge = `<span class="bg-rose-100 text-rose-800 font-bold px-2 py-0.5 rounded text-[10px] border border-rose-300">Pending</span>`;
+                    }
+
+                    let midBadge = c.mid.includes('Present') 
+                        ? `<span class="text-emerald-600 font-semibold text-[10px]">✅ ${c.mid}</span>` 
+                        : `<span class="text-rose-500 font-semibold text-[10px]">❌ Missing</span>`;
+                        
+                    let endBadge = c.end.includes('Present') 
+                        ? `<span class="text-emerald-600 font-semibold text-[10px]">✅ ${c.end}</span>` 
+                        : `<span class="text-rose-500 font-semibold text-[10px]">❌ Missing</span>`;
+
+                    html += `
+                        <tr class="hover:bg-neutral-50/80 transition-colors border-b border-neutral-100">
+                            <td class="py-2.5 px-4 font-mono font-bold text-neutral-900">${c.code}</td>
+                            <td class="py-2.5 px-4 font-medium text-neutral-800">${c.name}</td>
+                            <td class="py-2.5 px-4 text-neutral-500 text-[11px] truncate max-w-[180px]">${c.department}</td>
+                            <td class="py-2.5 px-4 text-center">${midBadge}</td>
+                            <td class="py-2.5 px-4 text-center">${endBadge}</td>
+                            <td class="py-2.5 px-4 text-center">${statusBadge}</td>
+                        </tr>
+                    `;
+                });
+            }
+
+            tbody.innerHTML = html;
+            if (info) info.textContent = total > 0 ? `Showing ${startIdx + 1} - ${endIdx} of ${total} courses` : '0 courses found';
+            if (prevBtn) prevBtn.disabled = guideCurrentPage <= 1;
+            if (nextBtn) nextBtn.disabled = guideCurrentPage >= maxPage;
+        }
+
+        window.filterGuideTracker = function() {
+            const query = (document.getElementById('guideSearchInput')?.value || '').trim().toLowerCase();
+            const cat = document.getElementById('guideCategoryFilter')?.value || 'ALL';
+            const stat = document.getElementById('guideStatusFilter')?.value || 'ALL';
+
+            const source = typeof NEP_PYQ_TRACKER_DATA !== 'undefined' ? NEP_PYQ_TRACKER_DATA : [];
+            filteredGuideData = source.filter(c => {
+                const matchQuery = !query || 
+                    c.code.toLowerCase().includes(query) || 
+                    c.name.toLowerCase().includes(query) || 
+                    c.department.toLowerCase().includes(query);
+                
+                const matchCat = cat === 'ALL' || c.category === cat;
+                const matchStat = stat === 'ALL' || c.status === stat;
+
+                return matchQuery && matchCat && matchStat;
+            });
+
+            guideCurrentPage = 1;
+            renderGuideTable();
+        };
+
+        window.changeGuidePage = function(delta) {
+            guideCurrentPage += delta;
+            renderGuideTable();
+        };
+
+        document.addEventListener('DOMContentLoaded', () => {
+            filterGuideTracker();
+        });
+    </script>
+</body>
+</html>
