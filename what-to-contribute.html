@@ -155,7 +155,7 @@
             <div class="flex flex-col sm:flex-row gap-3 mb-4">
                 <div class="relative flex-1">
                     <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-neutral-400 text-sm">search</span>
-                    <input type="text" id="guideSearchInput" placeholder="Search by paper code (e.g. BOTMJ21, CHEMJ11, PHYMJ31) or subject..."
+                    <input type="text" id="guideSearchInput" placeholder="Smart search (e.g. md russian, botmj21, financial accounting, sec digital)..."
                            class="w-full pl-9 pr-4 py-2 bg-neutral-50 border border-neutral-300 rounded-xl text-xs focus:outline-none focus:ring-1 focus:ring-accent-bhu-saffron text-primary placeholder-neutral-400 font-medium"
                            oninput="filterGuideTracker()"/>
                 </div>
@@ -314,17 +314,26 @@
         }
 
         window.filterGuideTracker = function() {
-            const query = (document.getElementById('guideSearchInput')?.value || '').trim().toLowerCase();
+            const rawQuery = (document.getElementById('guideSearchInput')?.value || '').trim().toLowerCase();
+            const queryTokens = rawQuery ? rawQuery.split(/\s+/).filter(Boolean) : [];
             const cat = document.getElementById('guideCategoryFilter')?.value || 'ALL';
             const stat = document.getElementById('guideStatusFilter')?.value || 'ALL';
 
             const source = (typeof NEP_PYQ_TRACKER_DATA !== 'undefined' && Array.isArray(NEP_PYQ_TRACKER_DATA)) ? NEP_PYQ_TRACKER_DATA : [];
             filteredGuideData = source.filter(c => {
-                const codeStr = String(c.code || '').toLowerCase();
-                const nameStr = String(c.name || '').toLowerCase();
-                const deptStr = String(c.department || '').toLowerCase();
+                const fullSearchableText = [
+                    c.code || '',
+                    c.name || '',
+                    c.department || '',
+                    c.category || '',
+                    c.type || '',
+                    c.semester || '',
+                    c.mid || '',
+                    c.end || '',
+                    c.status || ''
+                ].join(' ').toLowerCase();
 
-                const matchQuery = !query || codeStr.includes(query) || nameStr.includes(query) || deptStr.includes(query);
+                const matchQuery = queryTokens.length === 0 || queryTokens.every(token => fullSearchableText.includes(token));
                 const matchCat = cat === 'ALL' || c.category === cat;
                 const matchStat = stat === 'ALL' || c.status === stat;
 
