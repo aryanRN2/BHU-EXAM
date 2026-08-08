@@ -1,5 +1,21 @@
 export const NEP_LATEX_PYQ_DATA = [
   {
+    "code": "MATSE21",
+    "courseType": "Skill Enhancement",
+    "name": "B.Sc. Semester II Mid-Term Test 2024-25 (NEP) - MATSE21: LaTeX Typesetting for Beginners",
+    "filePath": "aaa/ALL_PYQS_LATEX/MATSE21_LaTeXTypesettingForBeginners_SemII_MidTerm_2024-25.tex",
+    "fileName": "MATSE21_LaTeXTypesettingForBeginners_SemII_MidTerm_2024-25.tex",
+    "nepCode": "MATSE21",
+    "oldCode": "MATSE21",
+    "subject": "Mathematics",
+    "department": "Mathematics",
+    "semester": "Semester II",
+    "year": "2024-25",
+    "type": "NEP",
+    "examType": "Mid Term",
+    "isNepPaper": true
+  },
+  {
     "code": "CHEMJ41",
     "courseType": "Major",
     "name": "B.Sc. (Hons) Semester IV Examination 2025-26 (NEP) - CHEMJ41: Inorganic Chemistry-II",

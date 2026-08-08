@@ -1,0 +1,116 @@
+% BHU PYQ -- Transcribed & Corrected
+% Paper: MATSE21: LaTeX Typesetting for Beginners
+% Exam: B.Sc. Semester II Mid-Term Test, 2024-25 (NEP)
+% Category: Skill Enhancement Course (SEC)
+% Department: Mathematics
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip,listings}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=black,
+    linkcolor=black,
+    pdftitle={MATSE21: LaTeX Typesetting for Beginners -- BHU Sem II Mid-Term 2024-25 (NEP)}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small \textit{Banaras Hindu University}}
+\fancyhead[R]{\small \textit{MATSE21: LaTeX Typesetting (Mid-Term 2024-25)}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newcommand{\pts}[1]{\hfill \textit{[#1]}}
+
+\lstset{
+  language=TeX,
+  basicstyle=\ttfamily\small,
+  keywordstyle=\bfseries,
+  showstringspaces=false,
+  frame=single,
+  frameround=tttt
+}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.Sc. Semester II Mid-Term Test, 2024-25 (NEP)}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries MATHEMATICS (SEC)}\\[4pt]
+  {\large\bfseries Paper Code: MAT-SEC-21 / MATSE21 : \LaTeX{} Typesetting for Beginners}\\[4pt]
+  {\normalsize Time: 01 Hour\hfill Maximum Marks: 20}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+
+\noindent \textit{Instructions: Attempt any 03 questions including Question no. 1 which is compulsory.}
+
+\bigskip
+
+\noindent \textbf{Question 1.} Answer all parts: \pts{10 $\times$ 1 = 10}
+\begin{enumerate}[label=(\alph*)]
+  \item What do you mean by \LaTeX?
+  \item What are the \LaTeX{} commands for writing the Greek letters $\gamma$ and $\epsilon$?
+  \item Write the \LaTeX{} command for $A \cup B$.
+  \item Make the following equation in \LaTeX: $\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}$.
+  \item Write a simple \LaTeX{} program to create a file containing an itemized list.
+  \item How to create \textbf{January 20, 2025}?
+  \item What do you mean by hypertext links? Write a command to insert hyper link in \LaTeX.
+  \item Write the command to insert an image in \LaTeX.
+  \item Write a difference between \texttt{\textbackslash hfill} and \texttt{\textbackslash vfill}.
+  \item Write a difference between \texttt{\textbackslash vdots} and \texttt{\textbackslash cdots}.
+\end{enumerate}
+
+\bigskip
+
+\noindent \textbf{Question 2.} Write the input command for the following expression in \LaTeX: \pts{3 + 2 = 5}
+\begin{enumerate}[label=(\alph*)]
+  \item $f(x) = \begin{cases} \frac{\beta \sin(|x|)}{|x|} & \text{if } x \neq 0, \\ 0 & \text{if } x = 0, \end{cases} \quad \text{at } x=0$.
+  \item $A = \begin{bmatrix} 1 & -2 & 2 \\ 2 & -1 & -2 \\ 2 & 2 & 1 \end{bmatrix}$
+\end{enumerate}
+
+\bigskip
+
+\noindent \textbf{Question 3.} Find the errors in the following \LaTeX{} source, write a corrected version and write its output: \pts{5}
+\begin{lstlisting}
+\documentclass{article}
+\usepackage{graphicx}
+\title{An easy article}
+\author{A Student}
+\maketitle
+\begin{document}
+This article aims to prove for any $x \in \mathbf{R}$
+\[\frac{\frac{x}{2}}{\frac{1}{4}}=2x\]
+\end{document}
+Which has already been proven.
+\end{lstlisting}
+
+\bigskip
+
+\noindent \textbf{Question 4.} Write a \LaTeX{} code to produce the following output: \pts{5}
+\[
+\begin{aligned}
+E[|X|] &= \int_{x} |x| f_X dx \\
+&= \int_{|x| \ge a} |x| f_X dx + \int_{|x| < a} |x| f_X dx \\
+&\ge \int_{|x| \ge a} |x| f_X dx \\
+&\ge a \int_{|x| \ge a} f_X dx \\
+&= a E[|X| \ge a] \\
+\therefore E[|X| \ge a] &\le \frac{E[|X|]}{a}.
+\end{aligned}
+\]
+
+\bigskip
+\begin{center}
+  \textbf{***}
+\end{center}
+
+\end{document}
