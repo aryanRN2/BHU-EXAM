@@ -1,4 +1,10 @@
-% BHU PYQ -- Physics Electromagnetic Theory & Relativistic Mechanics (2025-26 NEP)
+% BHU PYQ -- Transcribed & Corrected
+% Paper: PHYMJ41 / PHYMN41: Electromagnetic Theory & Mathematical Physics
+% Exam: B.Sc. (Hons) Semester IV Examination 2025-26 (NEP)
+% Ref Code: Conf/Even/N/2025-26/58
+% Category: Major / Minor
+% Department: Physics
+
 \documentclass[11pt,a4paper]{article}
 \usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
 \usepackage{amsmath,amssymb}
@@ -6,192 +12,101 @@
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip}
 
-\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,pdftitle=PHYMJ41 / PHYMN41: Physics -- BHU NEP 2025-26}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=black,
+    linkcolor=black,
+    pdftitle={PHYMJ41: Electromagnetic Theory -- BHU Sem IV 2025-26 (NEP)}
+}
 
-\pagestyle{fancy}\fancyhf{}
-\renewcommand{\headrulewidth}{0.4pt}\renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[L]{\small   \textit{Banaras Hindu University}}
-\fancyhead[R]{\small   \textit{PHYMJ41 / PHYMN41: Physics (2025-26)}}
-\fancyfoot[C]{\small Page  \thepage\ of \pageref{LastPage}}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small \textit{Banaras Hindu University}}
+\fancyhead[R]{\small \textit{PHYMJ41: Electromagnetic Theory (2025-26)}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
 
-
-\newlist{parts}{enumerate}{2}
-\setlist[parts,1]{label=(\alph*),leftmargin=*,itemsep=4pt,topsep=3pt}
-\setlist[parts,2]{label=(\roman*),leftmargin=*,itemsep=2pt,topsep=2pt}
-
-\newcommand{\pts}[1]{\hfill   \textit{[#1]}}
-
+\newcommand{\pts}[1]{\hfill \textit{[#1]}}
 
 \begin{document}
 
 \begin{center}
   {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
-  {\normalsize B.Sc. (Hons) Semester IV Examination, 2025-26 (NEP)}\\[6pt]
+  {\normalsize B.Sc. (Hons) Semester IV Examination 2025-26 (NEP)}\\[6pt]
   \rule{0.8\linewidth}{0.5pt}\\[6pt]
   {\large\bfseries PHYSICS}\\[4pt]
-  {\large\bfseries Paper: PHYMJ41 / PHYMN41 --- Electromagnetic Theory \& Relativistic Mechanics}\\[4pt]
-  {\normalsize Time: 2½ Hours \hfill Full Marks: 70}\\[2pt]
-  {\small REF NO. Conf/Even/N/2025-26/58}
+  {\large\bfseries Paper Code: PHYMJ41 / PHYMN41 : Electromagnetic Theory}\\[2pt]
+  {\small Ref. No.: Conf/Even/N/2025-26/58}\\[4pt]
+  {\normalsize Time: 2$\frac{1}{2}$ Hours\hfill Maximum Marks: 70}
 \end{center}
+
 \rule{\linewidth}{0.4pt}
+
 \smallskip
 
-
-
-\noindent   \textit{Instructions: Answer   \textbf{five} questions in all including Question No.~1 which is compulsory. All questions carry equal marks (14 marks each).
-\bigskip
-
-
-
-
-\noindent   \textbf{Question 1.}   \textit{(Compulsory --- Answer any four of the following)}\pts{$4  \times 5 = 20$}
-
-\begin{parts}
-  \item Define the gradient of a scalar function. Find the gradient of the function $f(x,y,z) = x^2 y^3 z^4$.
-  \item What is the magnetic field outside an infinite solenoid with current-carrying wires with current density $I$ wrapping it?
-  \item For the vector field $\vec{v} = (2xz + 3y^2)\hat{a}_y + (4yz^2)\hat{a}_z$, calculate the line integral for the closed square curve shown in the given   \textbf{Fig.~1}:
-  
-<div class="my-4 text-center">
-  <svg width="280" height="200" viewBox="0 0 280 200" class="mx-auto border border-neutral-200 rounded-lg bg-white shadow-sm" style="max-width:100%;">
-    <defs>
-      <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-        <path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb" />
-      </marker>
-      <marker id="axis-arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
-        <path d="M 0 0 L 10 5 L 0 10 z" fill="#6b7280" />
-      </marker>
-    </defs>
-    <line x1="50" y1="160" x2="250" y2="160" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#axis-arrow)" />
-    <text x="255" y="165" font-size="12" font-weight="bold" fill="#374151">y</text>
-    <line x1="50" y1="160" x2="50" y2="20" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#axis-arrow)" />
-    <text x="45" y="15" font-size="12" font-weight="bold" fill="#374151">z</text>
-    <text x="35" y="175" font-size="11" fill="#4b5563">(0,0)</text>
-    <text x="170" y="180" font-size="11" fill="#4b5563">y=1</text>
-    <line x1="170" y1="157" x2="170" y2="163" stroke="#4b5563" stroke-width="1.5" />
-    <text x="15" y="65" font-size="11" fill="#4b5563">z=1</text>
-    <line x1="47" y1="60" x2="53" y2="60" stroke="#4b5563" stroke-width="1.5" />
-    <rect x="50" y="60" width="120" height="100" fill="rgba(37,99,235,0.08)" stroke="#2563eb" stroke-width="2.5" />
-    <line x1="50" y1="160" x2="120" y2="160" stroke="#2563eb" stroke-width="2.5" marker-end="url(#arrow)" />
-    <line x1="170" y1="160" x2="170" y2="100" stroke="#2563eb" stroke-width="2.5" marker-end="url(#arrow)" />
-    <line x1="170" y1="60" x2="100" y2="60" stroke="#2563eb" stroke-width="2.5" marker-end="url(#arrow)" />
-    <line x1="50" y1="60" x2="50" y2="120" stroke="#2563eb" stroke-width="2.5" marker-end="url(#arrow)" />
-    <circle cx="50" cy="160" r="3" fill="#2563eb" />
-    <circle cx="170" cy="160" r="3" fill="#2563eb" />
-    <circle cx="170" cy="60" r="3" fill="#2563eb" />
-    <circle cx="50" cy="60" r="3" fill="#2563eb" />
-    <text x="175" y="55" font-size="11" font-weight="bold" fill="#1e40af">(1,1)</text>
-    <text x="140" y="195" text-anchor="middle" font-size="11" font-weight="bold" fill="#1f2937">Fig. 1: Square Integration Contour in y-z Plane</text>
-  </svg>
-</div>
-
-  \item What are Lorentz and Coulomb gauges? State their gauge conditions.
-  \item Find the skin depth of copper whose conductivity $\sigma = 5.8  \times 10^7 \text{ mho/m}$, $\mu = \mu_0$ at frequency $f = 10^8 \text{ Hz}$.
-  \item Find the electric field at a distance $d$ from an infinite plane sheet with uniform surface charge density $\sigma$.
-\end{parts}
+\noindent \textit{Instructions: Answer five questions including Question 1 which is compulsory. All symbols have their usual meanings unless specified otherwise.}
 
 \bigskip
 
-
-
-\noindent   \textbf{Question 2.}
-
-\begin{parts}
-  \item What are Lorentz transformations? Show that the combination $x^2 - c^2 t^2$ remains invariant under Lorentz transformations.\pts{$7\frac{1}{2}$}
-  \item Show that the wave equation with velocity $c$ does not change under Lorentz transformations.\pts{5}
-\end{parts}
-
-\bigskip
-
-
-
-\noindent   \textbf{Question 3.}
-
-\begin{parts}
-  \item Consider a reference frame $R_2$ moving with velocity $v_2$ with respect to reference frame $R_1$, which in turn moves with velocity $v_1$ with respect to reference frame $R_0$. What is the velocity of $R_2$ with respect to $R_0$?\pts{5}
-  \item A stick of length $34 \text{ cm}$ (in its rest frame) is moving at speed $v = \frac{15}{17}c$ with respect to observer A. What will be the length of the stick according to observer A?\pts{5}
-  \item A graviton (the particle carrying gravitational force) has vanishing rest mass. What would be its velocity with respect to the ground?\pts{$2\frac{1}{2}$}
-\end{parts}
+\noindent \textbf{Question 1.} Answer any four of the following questions: \pts{4 $\times$ 5 = 20}
+\begin{enumerate}[label=(\alph*)]
+  \item Define the gradient of a scalar function. Find the gradient of the function $f(x, y, z) = x^2 y^3 z^4$.
+  \item What is the magnetic field outside an infinite solenoid with current carrying wires with current density $I$ wrapping it?
+  \item For the vector $\vec{v} = (2xz + 3y^2)\hat{a}_y + (4yz^2)\hat{a}_z$, calculate the line integral for the closed square path in $y-z$ plane.
+  \item What are Lorentz and Coulomb gauges?
+  \item Find the skin depth of copper whose conductivity $\sigma = 5.8 \times 10^7\text{ mho/m}$, $\mu = \mu_0$ at frequency $10^8\text{ Hz}$.
+  \item Find the electric field at a distance $d$ from an infinite sheet with uniform surface charge density $\sigma$.
+\end{enumerate}
 
 \bigskip
 
-
-
-\noindent   \textbf{Question 4.}
-
-\begin{parts}
-  \item Write down Maxwell's equations in vacuum. Which of these equations satisfy vector identities?\pts{4}
-  \item Show that the electric field obeys a wave equation in vacuum.\pts{$4\frac{1}{2}$}
-  \item Write down Maxwell's equations in a medium. How do they simplify for linear media? (Derivation not required).\pts{4}
-\end{parts}
+\noindent \textbf{Question 2.}
+\begin{enumerate}[label=(\alph*)]
+  \item What are the Lorentz transformations? Show that the combination $x^2 - c^2 t^2$ does not change under Lorentz transformations. \pts{7$\frac{1}{2}$}
+  \item Show that wave equation with velocity $c$, does not change under Lorentz transformations. \pts{5}
+\end{enumerate}
 
 \bigskip
 
-
-
-\noindent   \textbf{Question 5.} Derive the expressions for the reflection and transmission coefficients when an electromagnetic wave is incident obliquely on a boundary separated by two lossless dielectrics for the case when the electric field vector of the electromagnetic wave is perpendicular to the plane of incidence.\pts{$12\frac{1}{2}$}
-
-\bigskip
-
-
-
-\noindent   \textbf{Question 6.}
-
-\begin{parts}
-  \item Discuss the propagation of electromagnetic waves in conducting media and derive expressions for the attenuation constant and phase constant.\pts{9}
-  \item Calculate the intrinsic impedance of free space.\pts{$3\frac{1}{2}$}
-\end{parts}
+\noindent \textbf{Question 3.}
+\begin{enumerate}[label=(\alph*)]
+  \item Consider a reference frame $R_2$ moving in a velocity $v_2$ with respect to a reference frame $R_1$, which in turn moves in a velocity $v_1$ with respect to another reference frame $R_0$. What is the velocity of $R_2$ with respect to $R_0$? \pts{5}
+  \item A stick of length $34\text{ cm}$ (in rest frame) is moving at the speed $v = \frac{15}{17}c$ with respect to observer A. What will be the length of the stick according to A? \pts{5}
+  \item A graviton (the particle carrying gravitational force) has vanishing rest mass. What would be its velocity with respect to ground? \pts{2$\frac{1}{2}$}
+\end{enumerate}
 
 \bigskip
 
-
-
-\noindent   \textbf{Question 7.} State Stokes' theorem for a vector field. Suppose vector field $\vec{v} = xy\hat{a}_x + 2yz\hat{a}_y + 3zx\hat{a}_z$. Verify Stokes' theorem over the triangular region in the $y$-$z$ plane bounded by the vertices $(0,0,0)$, $(0,2,0)$, and $(0,0,2)$ shown in   \textbf{Fig.~2}.\pts{$12\frac{1}{2}$}
-
-<div class="my-4 text-center">
-  <svg width="280" height="210" viewBox="0 0 280 210" class="mx-auto border border-neutral-200 rounded-lg bg-white shadow-sm" style="max-width:100%;">
-    <defs>
-      <marker id="arrow2" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-        <path d="M 0 0 L 10 5 L 0 10 z" fill="#059669" />
-      </marker>
-      <marker id="axis-arrow2" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
-        <path d="M 0 0 L 10 5 L 0 10 z" fill="#6b7280" />
-      </marker>
-    </defs>
-    <line x1="50" y1="160" x2="250" y2="160" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#axis-arrow2)" />
-    <text x="255" y="165" font-size="12" font-weight="bold" fill="#374151">y</text>
-    <line x1="50" y1="160" x2="50" y2="20" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#axis-arrow2)" />
-    <text x="45" y="15" font-size="12" font-weight="bold" fill="#374151">z</text>
-    <text x="30" y="175" font-size="11" fill="#4b5563">(0,0,0)</text>
-    <text x="180" y="180" font-size="11" font-weight="bold" fill="#059669">(0,2,0)</text>
-    <line x1="180" y1="157" x2="180" y2="163" stroke="#4b5563" stroke-width="1.5" />
-    <text x="5" y="45" font-size="11" font-weight="bold" fill="#059669">(0,0,2)</text>
-    <line x1="47" y1="40" x2="53" y2="40" stroke="#4b5563" stroke-width="1.5" />
-    <polygon points="50,160 180,160 50,40" fill="rgba(16,185,129,0.12)" stroke="#059669" stroke-width="2.5" />
-    <line x1="50" y1="160" x2="125" y2="160" stroke="#059669" stroke-width="2.5" marker-end="url(#arrow2)" />
-    <line x1="180" y1="160" x2="110" y2="95" stroke="#059669" stroke-width="2.5" marker-end="url(#arrow2)" />
-    <line x1="50" y1="40" x2="50" y2="105" stroke="#059669" stroke-width="2.5" marker-end="url(#arrow2)" />
-    <text x="90" y="120" font-size="13" font-weight="bold" fill="#047857">S</text>
-    <text x="140" y="200" text-anchor="middle" font-size="11" font-weight="bold" fill="#1f2937">Fig. 2: Triangular Surface Region for Stokes' Theorem</text>
-  </svg>
-</div>
+\noindent \textbf{Question 4.}
+\begin{enumerate}[label=(\alph*)]
+  \item Write down the Maxwell's equations in vacuum. Which of these equations satisfy vector identities? \pts{4}
+  \item Show that the electric field obeys a wave equation. \pts{4$\frac{1}{2}$}
+  \item Write down Maxwell's equations in a medium. How do they simplify for a linear media? (derivation not required) \pts{4}
+\end{enumerate}
 
 \bigskip
 
+\noindent \textbf{Question 5.} Derive the expressions for the reflection and transmission coefficients when an electromagnetic wave incident obliquely on a boundary separated by two lossless dielectrics for the case when electromagnetic wave electric field is perpendicular to the plane of incidence. \pts{12$\frac{1}{2}$}
 
+\bigskip
 
-\noindent   \textbf{Parameters to be used in calculations:}
+\noindent \textbf{Question 6.}
+\begin{enumerate}[label=(\alph*)]
+  \item Discuss the propagation of electromagnetic wave in conducting media and derive attenuation and phase constants. \pts{9}
+  \item Calculate the intrinsic impedance of free space. \pts{3$\frac{1}{2}$}
+\end{enumerate}
 
-\begin{itemize}[leftmargin=*]
-  \item $\mu_0 = 4\pi  \times 10^{-7} \text{ H/m}$
-  \item $\varepsilon_0 = 8.854  \times 10^{-12} \text{ F/m}$
-  \item Charge of electron, $e = 1.6  \times 10^{-19} \text{ Coulomb}$
-\end{itemize}
+\bigskip
 
-\vfill\rule{\linewidth}{0.4pt}
+\noindent \textbf{Question 7.} State the Stoke's theorem for a vector field. Suppose vector field $\vec{v} = xy \hat{a}_x + 2yz \hat{a}_y + 3zx \hat{a}_z$. Check the Stoke's theorem using a triangular surface with vertices $(0,0,0)$, $(0,2,0)$, $(0,0,2)$ in $y-z$ plane. \pts{12$\frac{1}{2}$}
 
-\begin{center}\small
-\href{https://bhu-exam.vercel.app/}{Click here to visit our website}\\[4pt]
-\href{https://me-aryan.vercel.app/}{Click here to visit our contributor}
+\smallskip
+\noindent \textit{Parameters: $\mu_0 = 4\pi \times 10^{-7}\text{ H/m}$, $\varepsilon_0 = 8.854 \times 10^{-12}\text{ F/m}$, $e = 1.6 \times 10^{-19}\text{ C}$.}
+
+\bigskip
+\begin{center}
+  \textbf{***}
 \end{center}
 
 \end{document}
