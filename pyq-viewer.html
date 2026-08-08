@@ -1016,8 +1016,20 @@
                 return `<div class="text-center my-2">${trimmed}</div>`;
             });
 
+            // Clean up LaTeX line breaks with spacing e.g. \\[4pt], \\[6pt], \\
+            body = body.replace(/\\\\\s*\[.*?\]/gi, '<br/>');
+            body = body.replace(/\\\\/gi, '<br/>');
+            body = body.replace(/\\smallskip/gi, '<div class="h-2"></div>');
+            body = body.replace(/\\medskip/gi, '<div class="h-4"></div>');
+            body = body.replace(/\\bigskip/gi, '<div class="h-6"></div>');
+
+            // Horizontal lines (rules) - solid dark lines like printed LaTeX
+            body = body.replace(/\\rule\{[0-9.]+\\linewidth\}\{.*?\}/gi, '<hr class="w-[80%] mx-auto border-neutral-800 my-4" />');
+            body = body.replace(/\\rule\{\\linewidth\}\{.*?\}/gi, '<hr class="border-neutral-800 my-4" />');
+            body = body.replace(/\\rule\{.*?\}\{.*?\}/gi, '<hr class="border-neutral-800 my-4" />');
+
             // Split text by math delimiters to process non-math text formatting
-            const mathRegex = /(\$\$[\s\S]*?\$\$|\$[\s\S]*?\$|(?<!\\)\\\[[\s\S]*?\\\]|(?<!\\)\\\([\s\S]*?\\\))/g;
+            const mathRegex = /(\$\$[\s\S]*?\$\$|\$[\s\S]*?\$|(?<!\\)(?<!\\)\\\[[\s\S]*?\\\]|(?<!\\)(?<!\\)\\\([\s\S]*?\\\))/g;
             const parts = body.split(mathRegex);
 
             for (let i = 0; i < parts.length; i++) {
@@ -1557,12 +1569,12 @@
                     .then(json => {
                         if (!json.data) throw new Error("Invalid response format");
                         const key = 'BHU_EXAM_PREP_KEY_2026';
-                        const encryptedText = atob(json.data);
-                        let decrypted = '';
-                        for (let i = 0; i < encryptedText.length; i++) {
-                            decrypted += String.fromCharCode(encryptedText.charCodeAt(i) ^ key.charCodeAt(i % key.length));
+                        const binaryString = atob(json.data);
+                        const bytes = new Uint8Array(binaryString.length);
+                        for (let i = 0; i < binaryString.length; i++) {
+                            bytes[i] = binaryString.charCodeAt(i) ^ key.charCodeAt(i % key.length);
                         }
-                        return decrypted;
+                        return new TextDecoder('utf-8').decode(bytes);
                     })
                     .catch(() => {
                         // Fallback 1: Try local asset directly
@@ -1579,12 +1591,12 @@
                                     .then(json => {
                                         if (!json.data) throw new Error("Invalid response format");
                                         const key = 'BHU_EXAM_PREP_KEY_2026';
-                                        const encryptedText = atob(json.data);
-                                        let decrypted = '';
-                                        for (let i = 0; i < encryptedText.length; i++) {
-                                            decrypted += String.fromCharCode(encryptedText.charCodeAt(i) ^ key.charCodeAt(i % key.length));
+                                        const binaryString = atob(json.data);
+                                        const bytes = new Uint8Array(binaryString.length);
+                                        for (let i = 0; i < binaryString.length; i++) {
+                                            bytes[i] = binaryString.charCodeAt(i) ^ key.charCodeAt(i % key.length);
                                         }
-                                        return decrypted;
+                                        return new TextDecoder('utf-8').decode(bytes);
                                     })
                                     .catch(() => {
                                         const cloudFallback = `${cloudBase}/${cleanPath}`;

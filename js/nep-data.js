@@ -655,6 +655,38 @@ export const NEP_LATEX_PYQ_DATA = [
     "isNepPaper": true
   },
   {
+    "code": "PHYSE21",
+    "courseType": "Skill Enhancement",
+    "name": "B.Sc. II Semester Mid Term Examination 2024-25 - PHYSE21: Energy Conversion and Storage for Sustainable Development",
+    "filePath": "aaa/ALL_PYQS_LATEX/PHYSE21_EnergyConversionAndStorage_SemII_MidTerm_2024-25.tex",
+    "fileName": "PHYSE21_EnergyConversionAndStorage_SemII_MidTerm_2024-25.tex",
+    "nepCode": "PHYSE21",
+    "oldCode": "PHYSE21",
+    "subject": "Physics",
+    "department": "Department of Physics",
+    "semester": "Semester II",
+    "year": "2024-25",
+    "type": "NEP",
+    "examType": "Mid Term",
+    "isNepPaper": true
+  },
+  {
+    "code": "PHYSE21",
+    "courseType": "Skill Enhancement",
+    "name": "B.Sc. (Hons) Semester II (NEP) Examination 2024-25 - PHYSE21: Energy Conversion and Storage for Sustainable Development",
+    "filePath": "aaa/ALL_PYQS_LATEX/PHYSE21_EnergyConversionAndStorage_SemII_EndTerm_2024-25.tex",
+    "fileName": "PHYSE21_EnergyConversionAndStorage_SemII_EndTerm_2024-25.tex",
+    "nepCode": "PHYSE21",
+    "oldCode": "PHYSE21",
+    "subject": "Physics",
+    "department": "Department of Physics",
+    "semester": "Semester II",
+    "year": "2024-25",
+    "type": "NEP",
+    "examType": "End Term",
+    "isNepPaper": true
+  },
+  {
     "code": "PHYSE11",
     "courseType": "Skill Enhancement",
     "name": "B.Sc. (Hons) Semester I (NEP) Examination 2024-25 - PHYSE11: Mathematical Problem Solving Skills",
@@ -1092,6 +1124,30 @@ export const NEP_LATEX_PYQ_DATA = [
     "isNepPaper": true
   },
   {
+    "code": "PHYSE21",
+    "subject": "Energy Conversion & Storage (Mid Term) (SEC)",
+    "semester": 2,
+    "year": "2024-25",
+    "department": "Physics",
+    "filePath": "aaa/ALL_PYQS_LATEX/PHYSE21_EnergyConversionAndStorage_SemII_MidTerm_2024-25.tex",
+    "fileName": "PHYSE21_EnergyConversionAndStorage_SemII_MidTerm_2024-25.tex",
+    "nepCode": "PHYSE21",
+    "oldCode": "PHYSE21",
+    "isNepPaper": true
+  },
+  {
+    "code": "PHYSE21",
+    "subject": "Energy Conversion & Storage (End Term) (SEC)",
+    "semester": 2,
+    "year": "2024-25",
+    "department": "Physics",
+    "filePath": "aaa/ALL_PYQS_LATEX/PHYSE21_EnergyConversionAndStorage_SemII_EndTerm_2024-25.tex",
+    "fileName": "PHYSE21_EnergyConversionAndStorage_SemII_EndTerm_2024-25.tex",
+    "nepCode": "PHYSE21",
+    "oldCode": "PHYSE21",
+    "isNepPaper": true
+  },
+  {
     "code": "ENGAE11",
     "subject": "Writing Skills (AEC)",
     "semester": 1,
@@ -1344,6 +1400,18 @@ export const NEP_LATEX_PYQ_DATA = [
     "fileName": "CSCMV31_ITToolsAndApplications_SemIII_2025-26.tex",
     "nepCode": "CSCMV31",
     "oldCode": "CSCMV-31",
+    "isNepPaper": true
+  },
+  {
+    "code": "ENGAE31",
+    "subject": "Reading Skills (Mid Term 2025-26)",
+    "semester": 3,
+    "year": "2025-26",
+    "department": "English",
+    "filePath": "aaa/ALL_PYQS_LATEX/ENGAE31_ReadingSkills_SemIII_MidTerm_2025-26.tex",
+    "fileName": "ENGAE31_ReadingSkills_SemIII_MidTerm_2025-26.tex",
+    "nepCode": "ENGAE31",
+    "oldCode": "ENGAE-31",
     "isNepPaper": true
   },
   {
@@ -8893,9 +8961,25 @@ export const NEP_LATEX_PYQ_DATA = [
     "nepCode": "HINMD33",
     "oldCode": "HINMD33",
     "subject": "Hindi",
-    "department": "Faculty of Arts",
+    "department": "Hindi",
     "semester": "Semester III",
     "year": "2025-26",
+    "type": "NEP",
+    "examType": "End Term",
+    "isNepPaper": true
+  },
+  {
+    "code": "HINMD23",
+    "courseType": "Multidisciplinary",
+    "name": "Under Graduate Multidisciplinary Course Semester II Examination 2024-25 (NEP) - Adivasi Jeevan Evam Sahitya",
+    "filePath": "aaa/ALL_PYQS_LATEX/HINMD23_AdivasiJeevanEvamSahitya_SemII_2024-25.tex",
+    "fileName": "HINMD23_AdivasiJeevanEvamSahitya_SemII_2024-25.tex",
+    "nepCode": "HINMD23",
+    "oldCode": "HINMD-23",
+    "subject": "Hindi",
+    "department": "Hindi",
+    "semester": "Semester II",
+    "year": "2024-25",
     "type": "NEP",
     "examType": "End Term",
     "isNepPaper": true

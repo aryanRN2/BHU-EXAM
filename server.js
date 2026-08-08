@@ -365,13 +365,13 @@ const server = http.createServer(async (req, res) => {
         }
 
         try {
-            const rawText = fs.readFileSync(targetPath, 'utf8');
+            const rawBuffer = fs.readFileSync(targetPath);
             const key = 'BHU_EXAM_PREP_KEY_2026';
-            let xored = '';
-            for (let i = 0; i < rawText.length; i++) {
-                xored += String.fromCharCode(rawText.charCodeAt(i) ^ key.charCodeAt(i % key.length));
+            const xoredBuffer = Buffer.alloc(rawBuffer.length);
+            for (let i = 0; i < rawBuffer.length; i++) {
+                xoredBuffer[i] = rawBuffer[i] ^ key.charCodeAt(i % key.length);
             }
-            const encrypted = Buffer.from(xored, 'binary').toString('base64');
+            const encrypted = xoredBuffer.toString('base64');
             res.writeHead(200, { 'Content-Type': 'application/json' });
             res.end(JSON.stringify({ data: encrypted }));
         } catch (err) {
