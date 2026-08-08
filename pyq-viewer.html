@@ -901,8 +901,8 @@
 
             // 1. Extract content inside \begin{document} ... \end{document}
             const docStart = body.indexOf('\\begin{document}');
-            const docEnd = body.indexOf('\\end{document}');
-            if (docStart !== -1 && docEnd !== -1) {
+            const docEnd = body.lastIndexOf('\\end{document}');
+            if (docStart !== -1 && docEnd !== -1 && docEnd > docStart) {
                 body = body.substring(docStart + '\\begin{document}'.length, docEnd);
             }
 
@@ -941,6 +941,10 @@
             body = body.replace(/<div class="text-center pyq-title-block space-y-1">[\s\S]*?<\/div>/gi, (match) => {
                 return match.replace(/^[ \t]*\{[ \t]*$/gm, '').replace(/^[ \t]*\}[ \t]*$/gm, '');
             });
+
+            // Parse \LaTeX logo
+            body = body.replace(/\\LaTeX\{\}/g, '<span class="font-serif font-bold">L<sup style="font-size:0.75em; vertical-align: 0.35em; margin-left: -0.15em; margin-right: -0.1em;">A</sup>T<sub style="font-size:0.75em; vertical-align: -0.15em; margin-left: -0.1em; margin-right: -0.05em;">E</sub>X</span>');
+            body = body.replace(/\\LaTeX\b/g, '<span class="font-serif font-bold">L<sup style="font-size:0.75em; vertical-align: 0.35em; margin-left: -0.15em; margin-right: -0.1em;">A</sup>T<sub style="font-size:0.75em; vertical-align: -0.15em; margin-left: -0.1em; margin-right: -0.05em;">E</sub>X</span>');
 
             // Text styling macros with balanced brace support (prevents raw LaTeX output when nested macros are used)
             body = replaceCommandWithBalancedBraces(body, '\\texttt', (inner) => {

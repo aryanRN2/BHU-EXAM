@@ -81,7 +81,8 @@
 \bigskip
 
 \noindent \textbf{Question 3.} Find the errors in the following \LaTeX{} source, write a corrected version and write its output: \pts{5}
-\begin{lstlisting}
+
+\begin{verbatim}
 \documentclass{article}
 \usepackage{graphicx}
 \title{An easy article}
@@ -92,21 +93,18 @@ This article aims to prove for any $x \in \mathbf{R}$
 \[\frac{\frac{x}{2}}{\frac{1}{4}}=2x\]
 \end{document}
 Which has already been proven.
-\end{lstlisting}
+\end{verbatim}
 
 \bigskip
 
 \noindent \textbf{Question 4.} Write a \LaTeX{} code to produce the following output: \pts{5}
-\[
-\begin{aligned}
-E[|X|] &= \int_{x} |x| f_X dx \\
-&= \int_{|x| \ge a} |x| f_X dx + \int_{|x| < a} |x| f_X dx \\
-&\ge \int_{|x| \ge a} |x| f_X dx \\
-&\ge a \int_{|x| \ge a} f_X dx \\
-&= a E[|X| \ge a] \\
-\therefore E[|X| \ge a] &\le \frac{E[|X|]}{a}.
-\end{aligned}
-\]
+
+$$E[|X|] = \int_{x} |x| f_X dx$$
+$$= \int_{|x| \ge a} |x| f_X dx + \int_{|x| < a} |x| f_X dx$$
+$$\ge \int_{|x| \ge a} |x| f_X dx$$
+$$\ge a \int_{|x| \ge a} f_X dx$$
+$$= a E[|X| \ge a]$$
+$$\therefore E[|X| \ge a] \le \frac{E[|X|]}{a}$$
 
 \bigskip
 \begin{center}
