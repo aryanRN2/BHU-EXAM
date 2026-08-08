@@ -45,31 +45,59 @@
 
 <body class="bg-background-warm text-on-background font-plus-jakarta antialiased selection:bg-accent-bhu-saffron/20 selection:text-accent-bhu-saffron min-h-screen flex flex-col relative overflow-x-hidden">
 
-    <!-- Minimal Header Navigation -->
-    <nav class="sticky top-0 z-50 w-full bg-black/90 backdrop-blur-md border-b border-white/10 text-white transition-all duration-300">
-        <div class="max-w-container-max mx-auto px-6 md:px-padding-edge h-16 flex items-center justify-between">
-            <a href="index.html" class="flex items-center gap-2 group">
-                <span class="text-2xl font-black tracking-tighter text-white uppercase group-hover:text-accent-bhu-saffron transition-colors">SCIQB</span>
-            </a>
+                                                <!-- ═══════════════════════════ UNIFIED SEAMLESS NAVBAR ═══════════════════════════ -->
+    <nav id="mainNavbar" data-page="what-to-contribute" class="fixed top-0 left-0 right-0 z-50 bg-neutral-950/90 border-b border-white/10 backdrop-blur-md h-20 w-full flex items-center transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 md:px-8 flex justify-between items-center w-full">
+            <div class="flex items-center gap-6 md:gap-8">
+                <!-- SCIQB Brand Logo -->
+                <a href="index.html" class="flex items-center gap-2 group">
+                    <span class="text-xl md:text-2xl font-black tracking-tighter text-white uppercase transition-transform group-hover:scale-[1.01] drop-shadow-sm">SCIQB</span>
+                </a>
+                
+                <!-- Center Navigation Links (Desktop) -->
+                <div class="hidden md:flex gap-5 lg:gap-6 items-center">
+                    <a class="text-white/85 font-semibold hover:text-white transition-colors text-xs lg:text-sm drop-shadow-sm" href="index.html">
+                        Home
+                    </a>
+                    <a class="text-white/85 font-semibold hover:text-white transition-colors text-xs lg:text-sm drop-shadow-sm" href="nep-pyq.html">
+                        NEP PYQs
+                    </a>
+                    <a class="text-white/85 font-semibold hover:text-white transition-colors text-xs lg:text-sm drop-shadow-sm" href="legacy-pyq.html">
+                        Old PYQs
+                    </a>
+                    <a class="text-white/85 font-semibold hover:text-white transition-colors text-xs lg:text-sm drop-shadow-sm" href="subjects.html">
+                        Mock Exams
+                    </a>
+                    <a class="text-white/85 font-semibold hover:text-white transition-colors text-xs lg:text-sm drop-shadow-sm" href="syllabus.html">
+                        Syllabus
+                    </a>
+                    <a class="text-white/85 font-semibold hover:text-white transition-colors text-xs lg:text-sm drop-shadow-sm" href="notes.html">
+                        Notes
+                    </a>
+                    <a class="text-white/85 font-semibold hover:text-white transition-colors text-xs lg:text-sm drop-shadow-sm" href="contributors.html">
+                        Contributors
+                    </a>
+                    <a class="text-accent-bhu-saffron font-bold transition-colors text-xs lg:text-sm drop-shadow-sm" href="what-to-contribute.html">
+                        What to Contribute?
+                    </a>
+                </div>
+            </div>
 
-            <!-- Desktop Nav Links -->
-            <div class="hidden md:flex items-center gap-7">
-                <a class="text-white/80 font-semibold hover:text-white transition-colors text-xs" href="index.html">Home</a>
-                <a class="text-white/80 font-semibold hover:text-white transition-colors text-xs" href="nep-pyq.html">NEP PYQs</a>
-                <a class="text-white/80 font-semibold hover:text-white transition-colors text-xs" href="legacy-pyq.html">Old PYQs</a>
-                <a class="text-white/80 font-semibold hover:text-white transition-colors text-xs" href="subjects.html">Mock Exams</a>
-                <a class="text-white/80 font-semibold hover:text-white transition-colors text-xs" href="syllabus.html">Syllabus</a>
-                <a class="text-white/80 font-semibold hover:text-white transition-colors text-xs" href="notes.html">Notes</a>
-                <a class="text-white/80 font-semibold hover:text-white transition-colors text-xs" href="contributors.html">Contributors</a>
-                <a class="text-accent-bhu-saffron font-bold text-xs flex items-center gap-1 bg-accent-bhu-saffron/10 px-3 py-1.5 rounded-full border border-accent-bhu-saffron/30" href="what-to-contribute.html">
-                    <span class="material-symbols-outlined text-sm font-bold">help</span>
-                    <span>What to Contribute?</span>
+            <!-- Right Glass Buttons (Desktop) -->
+            <div class="hidden md:flex items-center gap-3">
+                <a href="subjects.html" class="w-9 h-9 lg:w-10 lg:h-10 rounded-full bg-white/10 hover:bg-white/20 text-white border border-white/20 flex items-center justify-center backdrop-blur-md transition-all shadow-sm" title="Search">
+                    <span class="material-symbols-outlined text-base lg:text-lg">search</span>
+                </a>
+                <a href="https://github.com/aryanRN2/IITM-ASSIGNMENT" target="_blank" rel="noopener noreferrer"
+                    class="bg-white/10 hover:bg-white/20 text-white border border-white/25 px-4 lg:px-5 py-2 lg:py-2.5 rounded-full font-bold text-xs backdrop-blur-md hover:scale-105 active:scale-[0.98] transition-all shadow-sm flex items-center gap-1.5 lg:gap-2">
+                    <span class="material-symbols-outlined text-xs lg:text-sm font-semibold">assignment</span>
+                    <span>IITM Assignment</span>
                 </a>
             </div>
 
-            <!-- Mobile Hamburger -->
-            <button onclick="toggleMobileMenu()" class="flex md:hidden items-center justify-center w-10 h-10 rounded-full bg-white/10 text-white border border-white/20 active:scale-95 transition-all">
-                <span class="material-symbols-outlined text-xl">menu</span>
+            <!-- Mobile Menu Toggle Button -->
+            <button onclick="toggleMobileMenu()" class="flex md:hidden items-center justify-center w-10 h-10 rounded-full bg-white/10 text-white border border-white/20 backdrop-blur-md active:scale-90 transition-all">
+                <span id="mobileMenuIcon" class="material-symbols-outlined text-xl">menu</span>
             </button>
         </div>
     </nav>
@@ -97,7 +125,7 @@
     </div>
 
     <!-- Main Content Area -->
-    <main class="flex-1 w-full max-w-container-max mx-auto px-6 md:px-padding-edge py-8 md:py-10 relative z-10">
+    <main class="flex-1 w-full max-w-container-max mx-auto px-6 md:px-padding-edge pt-28 pb-10 relative z-10">
 
         <!-- Page Header -->
         <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 border-b border-neutral-300/80 pb-6 mb-8">
