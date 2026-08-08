@@ -1,0 +1,138 @@
+% BHU PYQ -- Transcribed & Corrected
+% Paper: MATMV31: Python for Mathematical Application
+% Exam: B.A./B.Sc. (Hons.) Semester III Examination 2025-26 (NEP)
+% Ref Code: CECONF/N/107
+% Category: Major / Minor / VAC
+% Department: Mathematics
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip,listings}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=black,
+    linkcolor=black,
+    pdftitle={MATMV31: Python for Mathematical Application -- BHU Sem III 2025-26 (NEP)}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small \textit{Banaras Hindu University}}
+\fancyhead[R]{\small \textit{MATMV31: Python for Math (2025-26)}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newcommand{\pts}[1]{\hfill \textit{[#1]}}
+
+\lstset{
+  language=Python,
+  basicstyle=\ttfamily\small,
+  keywordstyle=\bfseries,
+  showstringspaces=false,
+  frame=single,
+  frameround=tttt
+}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize B.A./B.Sc. (Hons.) Semester III Examination 2025-26 (NEP)}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries MATHEMATICS}\\[4pt]
+  {\large\bfseries Paper Code: MATMV31 : Python for Mathematical Application}\\[2pt]
+  {\small Ref. No.: CECONF/N/107}\\[4pt]
+  {\normalsize Time: 2$\frac{1}{2}$ Hours\hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+
+\noindent \textit{Instructions: Answer Five questions including Question No. 1 which is compulsory. All programs must take input from the user. Use proper syntax and indentation.}
+
+\bigskip
+
+\noindent \textbf{Question 1.}
+\begin{enumerate}[label=(\alph*)]
+  \item Let \texttt{setA=\{3,6,9\}}, \texttt{setB=\{1,3,9\}}. What will be the result of the snippet \texttt{print(setA | setB)}? \pts{2}
+  \item State whether the following Python statements are valid or invalid. If valid, write the output: \pts{2}
+  \begin{enumerate}[label=\Roman*.]
+    \item \texttt{print("Hello", "Python")}
+    \item \texttt{print("Hello" + 123)}
+    \item \texttt{print("Python", '+', "Programming")}
+    \item \texttt{print("ABC is a 'Technological' University")}
+  \end{enumerate}
+  \item What will be the values of the variables x, y, and z after execution of the following Python program? Assume that the user enters the value 5. \pts{1}
+\begin{lstlisting}
+temp = input("Enter a number: ")
+x = temp * 5
+y = int(temp) * 5
+z = bool(temp * 0)
+\end{lstlisting}
+  \item Explain the difference between \texttt{del} and \texttt{clear()} in dictionary with an example. \pts{1}
+  \item When should we use a nested if statement? Illustrate your answer with the help of an example. \pts{1}
+  \item Which Python function can be used to add more than one element within an existing list? \pts{1}
+  \item What is meant by variable scope and function call? \pts{2}
+\end{enumerate}
+
+\bigskip
+
+\noindent \textbf{Question 2.}
+\begin{enumerate}[label=(\alph*)]
+  \item Explain data types in Python. Also, write a program that accepts two numbers from the user, validates whether the inputs are numeric, and performs addition, subtraction, multiplication, and division. \pts{5}
+  \item Explain the difference between built-in functions and user-defined functions in Python. Write a program that finds whether a given character is present in a string or not. If it is present, it prints all the indices at which it appears. Do not use the built-in function to search for the character. \pts{5}
+\end{enumerate}
+
+\bigskip
+
+\noindent \textbf{Question 3.}
+\begin{enumerate}[label=(\alph*)]
+  \item What are conditional statements in Python? Explain the \texttt{if}, \texttt{if-else}, and \texttt{if-elif-else} statements with suitable examples. Write a program to enter the marks of a student in four subjects. Then calculate the total and aggregate, and display the grade obtained by the student (Distinction $>75\%$, First Division $\ge 60\%$ and $<75\%$, Second Division $\ge 50\%$ and $<60\%$, Third Division $\ge 40\%$ and $<50\%$, else Fail). \pts{5}
+  \item Write the differences between dictionaries and sets in Python. Write a Python program in which the user enters a dictionary and the program inverts the dictionary (makes keys values and vice versa). \pts{5}
+\end{enumerate}
+
+\bigskip
+
+\noindent \textbf{Question 4.}
+\begin{enumerate}[label=(\alph*)]
+  \item Differentiate between local and global variables in Python. Write a Python program that shows how a global variable can be accessed and modified inside a function. \pts{4}
+  \item Write a Python program to accept a list of elements from the user and remove duplicate elements using a set. Display the updated list. \pts{3}
+  \item Write a Python program using a user-defined function to swap two numbers entered by the user and display the values before and after swapping. \pts{3}
+\end{enumerate}
+
+\bigskip
+
+\noindent \textbf{Question 5.}
+\begin{enumerate}[label=(\alph*)]
+  \item What are keywords in Python? Write any three keywords and explain their uses with examples. Write a program that prompts the user to enter a string. The program calculates and displays the length of the string until the user enters ``QUIT''. \pts{5}
+  \item What is a set in Python? Explain its characteristics. Write a Python program to accept two sets from the user and find their union, intersection, difference, and symmetric difference. \pts{5}
+\end{enumerate}
+
+\bigskip
+
+\noindent \textbf{Question 6.}
+\begin{enumerate}[label=(\alph*)]
+  \item Explain functions, parameters, and return values in Python. Write a Python program using a user-defined function to calculate the factorial of a number entered by the user. Validate that the input is a non-negative integer. \pts{5}
+  \item Explain tuples in Python and mention at least two differences between tuples and lists. Write a Python program that takes input from the user to define a tuple and finds the sum and mean of the elements in the tuple. Do not use the built-in sum function. \pts{5}
+\end{enumerate}
+
+\bigskip
+
+\noindent \textbf{Question 7.}
+\begin{enumerate}[label=(\alph*)]
+  \item Explain the concept of recursion in Python functions. Write a Python program with a function that accepts a list of numbers from the user, finds the largest number, and returns it. \pts{5}
+  \item Define the \texttt{for} loop and the \texttt{while} loop in Python with suitable examples. Write a Python program to accept a number from the user and print its multiplication table. Validate that the input is a positive integer. \pts{5}
+\end{enumerate}
+
+\bigskip
+\begin{center}
+  \textbf{***}
+\end{center}
+
+\end{document}
