@@ -703,6 +703,22 @@ export const NEP_LATEX_PYQ_DATA = [
     "isNepPaper": true
   },
   {
+    "code": "PHYSE31",
+    "courseType": "Skill Enhancement",
+    "name": "B.Sc. Semester III Sessional Examination 2025 (NEP) - SEC 3: Python Programming",
+    "filePath": "aaa/ALL_PYQS_LATEX/PHYSE31_ComputationalPhysics_SemIII_Sessional_2025.tex",
+    "fileName": "PHYSE31_ComputationalPhysics_SemIII_Sessional_2025.tex",
+    "nepCode": "PHYSE31",
+    "oldCode": "PHYSE31",
+    "subject": "Physics",
+    "department": "Department of Physics",
+    "semester": "Semester III",
+    "year": "2024-25",
+    "type": "NEP",
+    "examType": "Mid Term",
+    "isNepPaper": true
+  },
+  {
     "code": "PHYSE11",
     "courseType": "Skill Enhancement",
     "name": "B.Sc. (Hons) Semester I (NEP) Examination 2024-25 - PHYSE11: Mathematical Problem Solving Skills",
@@ -855,21 +871,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "year": "2024-25",
     "type": "NEP",
     "examType": "Mid Term",
-    "isNepPaper": true
-  },
-  {
-    "code": "CSCSE21",
-    "name": "B.Sc. (Hons) Sem II Exam 2024-25 (NEP) - Mobile Application Development",
-    "filePath": "aaa/ALL_PYQS_LATEX/CSCSE21_MobileApplicationDevelopment_SemII_2024-25.tex",
-    "fileName": "CSCSE21_MobileApplicationDevelopment_SemII_2024-25.tex",
-    "nepCode": "CSCSE21",
-    "oldCode": "CSCSE21",
-    "subject": "Computer Science",
-    "department": "Computer Science",
-    "semester": "Semester II",
-    "year": "2024-25",
-    "type": "NEP",
-    "examType": "End Term",
     "isNepPaper": true
   },
   {
@@ -1049,21 +1050,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "isNepPaper": true
   },
   {
-    "code": "CSCSE21",
-    "name": "B.Sc. Sem II Mid-Term Exam 2024-25 - Mobile Application Development",
-    "filePath": "aaa/ALL_PYQS_LATEX/CSCSE21_MobileApplicationDevelopment_SemII_MidTerm_2024-25.tex",
-    "fileName": "CSCSE21_MobileApplicationDevelopment_SemII_MidTerm_2024-25.tex",
-    "nepCode": "CSCSE21",
-    "oldCode": "CSCSE21",
-    "subject": "Computer Science",
-    "department": "Computer Science",
-    "semester": "Semester II",
-    "year": "2024-25",
-    "type": "NEP",
-    "examType": "Mid Term",
-    "isNepPaper": true
-  },
-  {
     "code": "STASE11",
     "name": "B.Sc. (Hons.) Sem I Exam 2024-25 (NEP) - Data Analysis Using Excel (SEC)",
     "filePath": "aaa/ALL_PYQS_LATEX/STASE11_DataAnalysisUsingExcel_SemI_2024-25.tex",
@@ -1116,66 +1102,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "isNepPaper": true
   },
   {
-    "code": "PHYSE11",
-    "subject": "Mathematical Problem Solving Skills (SEC)",
-    "semester": 1,
-    "year": "2024-25",
-    "department": "SEC",
-    "filePath": "aaa/ALL_PYQS_LATEX/PHYSE11_MathematicalProblemSolvingSkills_SemI_2024-25.tex",
-    "fileName": "PHYSE11_MathematicalProblemSolvingSkills_SemI_2024-25.tex",
-    "nepCode": "PHYSE-11 / PHYSE11",
-    "oldCode": "PHYSE11",
-    "isNepPaper": true
-  },
-  {
-    "code": "PHYSE11",
-    "subject": "Mathematical Problem Solving Skills (Mid-Sem) (SEC)",
-    "semester": 1,
-    "year": "2024-25",
-    "department": "SEC",
-    "filePath": "aaa/ALL_PYQS_LATEX/PHYSE11_MathematicalProblemSolvingSkills_SemI_MidTerm_2024-25.tex",
-    "fileName": "PHYSE11_MathematicalProblemSolvingSkills_SemI_MidTerm_2024-25.tex",
-    "nepCode": "PHYSE-11 / PHYSE11",
-    "oldCode": "PHYSE11",
-    "isNepPaper": true
-  },
-  {
-    "code": "PHYSE21",
-    "subject": "Energy Conversion & Storage (Mid Term) (SEC)",
-    "semester": 2,
-    "year": "2024-25",
-    "department": "Physics",
-    "filePath": "aaa/ALL_PYQS_LATEX/PHYSE21_EnergyConversionAndStorage_SemII_MidTerm_2024-25.tex",
-    "fileName": "PHYSE21_EnergyConversionAndStorage_SemII_MidTerm_2024-25.tex",
-    "nepCode": "PHYSE21",
-    "oldCode": "PHYSE21",
-    "isNepPaper": true
-  },
-  {
-    "code": "PHYSE21",
-    "subject": "Energy Conversion & Storage (End Term) (SEC)",
-    "semester": 2,
-    "year": "2024-25",
-    "department": "Physics",
-    "filePath": "aaa/ALL_PYQS_LATEX/PHYSE21_EnergyConversionAndStorage_SemII_EndTerm_2024-25.tex",
-    "fileName": "PHYSE21_EnergyConversionAndStorage_SemII_EndTerm_2024-25.tex",
-    "nepCode": "PHYSE21",
-    "oldCode": "PHYSE21",
-    "isNepPaper": true
-  },
-  {
-    "code": "PHYSE31",
-    "subject": "Computational Physics : Programming and Data Analysis (SEC)",
-    "semester": 3,
-    "year": "2025-26",
-    "department": "Physics",
-    "filePath": "aaa/ALL_PYQS_LATEX/PHYSE31_ComputationalPhysics_SemIII_2025-26.tex",
-    "fileName": "PHYSE31_ComputationalPhysics_SemIII_2025-26.tex",
-    "nepCode": "PHYSE31",
-    "oldCode": "PHYSE31",
-    "isNepPaper": true
-  },
-  {
     "code": "ENGAE11",
     "subject": "Writing Skills (AEC)",
     "semester": 1,
@@ -1222,30 +1148,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "fileName": "CHEMV31_IndustrialChemistryI_SemIII_2025-26.tex",
     "nepCode": "CHEMV31 / CHEMV-31",
     "oldCode": "CHEMV31",
-    "isNepPaper": true
-  },
-  {
-    "code": "GGRSE31",
-    "subject": "Geography of Tourism (SEC)",
-    "semester": 3,
-    "year": "2025-26",
-    "department": "SEC",
-    "filePath": "aaa/ALL_PYQS_LATEX/GGRSE31_GeographyOfTourism_SemIII_2025-26.tex",
-    "fileName": "GGRSE31_GeographyOfTourism_SemIII_2025-26.tex",
-    "nepCode": "GGRSE-31 / GGRSE31",
-    "oldCode": "GGRSE31",
-    "isNepPaper": true
-  },
-  {
-    "code": "GGRSE21",
-    "subject": "Basics of Remote Sensing (SEC)",
-    "semester": 2,
-    "year": "2024-25",
-    "department": "SEC",
-    "filePath": "aaa/ALL_PYQS_LATEX/GGRSE21_BasicsOfRemoteSensing_SemII_2024-25.tex",
-    "fileName": "GGRSE21_BasicsOfRemoteSensing_SemII_2024-25.tex",
-    "nepCode": "GGRSE-21 / GGRSE21",
-    "oldCode": "GGRSE21",
     "isNepPaper": true
   },
   {
@@ -1344,18 +1246,6 @@ export const NEP_LATEX_PYQ_DATA = [
     "fileName": "POLMD31_DevelopmentOfIndianConstitution_SemIII_2025-26.tex",
     "nepCode": "POLMD31 / POLMD-31",
     "oldCode": "POLMD31",
-    "isNepPaper": true
-  },
-  {
-    "code": "GGRMN41",
-    "subject": "Resource Planning (End Term 2025-26)",
-    "semester": 4,
-    "year": "2025-26",
-    "department": "Geography",
-    "filePath": "aaa/ALL_PYQS_LATEX/GGRMN41_ResourcePlanning_SemIV_2025-26.tex",
-    "fileName": "GGRMN41_ResourcePlanning_SemIV_2025-26.tex",
-    "nepCode": "GGRMN-41 / GGRMN41",
-    "oldCode": "GGRMN41",
     "isNepPaper": true
   },
   {
