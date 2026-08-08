@@ -1,5 +1,37 @@
 export const NEP_LATEX_PYQ_DATA = [
   {
+    "code": "CHEMJ11",
+    "courseType": "Major",
+    "name": "B.Sc. (Hons) Semester I Examination 2024-25 (NEP) - CHEMJ11: Basic Concepts of Chemistry-I",
+    "filePath": "aaa/ALL_PYQS_LATEX/CHEMJ11_BasicConceptsOfChemistryI_SemI_2024-25.tex",
+    "fileName": "CHEMJ11_BasicConceptsOfChemistryI_SemI_2024-25.tex",
+    "nepCode": "CHEMJ11",
+    "oldCode": "CHEMJ11",
+    "subject": "Chemistry",
+    "department": "Department of Chemistry",
+    "semester": "Semester I",
+    "year": "2024-25",
+    "type": "NEP",
+    "examType": "End Term",
+    "isNepPaper": true
+  },
+  {
+    "code": "HINMD11",
+    "courseType": "Multidisciplinary",
+    "name": "Under Graduate Multidisciplinary Course Semester I Examination 2024-25 (NEP) - HINMD11: साहित्य एवं सिनेमा",
+    "filePath": "aaa/ALL_PYQS_LATEX/HINMD11_SahityaEvamCinema_SemI_2024-25.tex",
+    "fileName": "HINMD11_SahityaEvamCinema_SemI_2024-25.tex",
+    "nepCode": "HINMD11",
+    "oldCode": "HINMD11",
+    "subject": "Hindi",
+    "department": "Department of Hindi",
+    "semester": "Semester I",
+    "year": "2024-25",
+    "type": "NEP",
+    "examType": "End Term",
+    "isNepPaper": true
+  },
+  {
     "code": "BOTMJ41",
     "courseType": "Major",
     "name": "B.Sc. (Hons) Semester IV Examination 2025-26 (NEP) - BOTMJ41: Gymnosperms and Paleobotany",
