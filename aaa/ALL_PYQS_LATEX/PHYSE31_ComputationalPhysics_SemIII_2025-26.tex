@@ -1,0 +1,162 @@
+% BHU PYQ -- Transcribed & Corrected
+% Paper: PHYSE31: Computational Physics: Programming and Data Analysis
+% Exam: Under Graduate Semester III (NEP) Examination, 2025-26
+% Ref Code: CECONF/N/2025-26/007
+% Category: Skill Enhancement Course (SEC)
+% Department: Physics
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.8cm,right=2.8cm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,fancyhdr,enumitem,hyperref,lastpage,parskip,listings}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=black,
+    linkcolor=black,
+    pdftitle={PHYSE31: Computational Physics (End Term) -- BHU Sem III 2025-26 (NEP SEC)}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\small \textit{Banaras Hindu University}}
+\fancyhead[R]{\small \textit{PHYSE31: Computational Physics (2025-26)}}
+\fancyfoot[C]{\small Page \thepage\ of \pageref{LastPage}}
+
+\newcommand{\pts}[1]{\hfill \textit{[#1]}}
+
+\lstset{
+  language=Python,
+  basicstyle=\ttfamily\small,
+  keywordstyle=\bfseries,
+  showstringspaces=false,
+  frame=single,
+  frameround=tttt
+}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries BANARAS HINDU UNIVERSITY}\\[2pt]
+  {\normalsize Under Graduate Semester III Examination, 2025-26 (NEP)}\\[6pt]
+  \rule{0.8\linewidth}{0.5pt}\\[6pt]
+  {\large\bfseries PHYSICS (SEC)}\\[4pt]
+  {\large\bfseries Paper Code: PHYSE31 : Computational Physics : Programming and Data Analysis}\\[2pt]
+  {\small Ref. No.: CECONF/N/2025-26/007}\\[4pt]
+  {\normalsize Time: 2$\frac{1}{2}$ Hours\hfill Maximum Marks: 70}
+\end{center}
+
+\rule{\linewidth}{0.4pt}
+
+\smallskip
+
+\noindent \textit{Instructions: Answer five questions including Question 1 which is compulsory. Use Python programming language to address all the questions.}
+
+\bigskip
+
+\noindent \textbf{Question 1.} Answer \textit{any four} of the following questions: \pts{4 $\times$ 5 = 20}
+\begin{enumerate}[label=(\alph*)]
+  \item Program to print the multiplication table of 4 using `for` loop.
+  \item Program to count digits in your Exam roll number.
+  \item Program to reverse the statement ``We Are Happy''.
+  \item Write the value that gets printed, or write ``error'' if there is an error during the execution:
+\begin{lstlisting}
+numbers = [4, 2, -1]
+x = 1
+for num in numbers:
+    x = x * numbers
+print(x)
+\end{lstlisting}
+  \item Write the value that gets printed, or write ``error'' if there is an error during the execution:
+\begin{lstlisting}
+x = [1, 2, 3]
+x[len(x) - 1] = x[len(x) - x[0]] - x[1]
+print(x[2])
+\end{lstlisting}
+\end{enumerate}
+
+\bigskip
+
+\noindent \textbf{Question 2.}
+\begin{enumerate}[label=(\alph*)]
+  \item Write a program to print: \pts{6}
+  \begin{enumerate}[label=(\roman*)]
+    \item your semester and course name.
+    \item your enrolment number.
+    \item name of your examination.
+  \end{enumerate}
+  \item Find the data type of: \pts{6$\frac{1}{2}$}
+  \begin{enumerate}[label=(\roman*)]
+    \item your course name.
+    \item your enrolment number.
+    \item name of your examination.
+  \end{enumerate}
+\end{enumerate}
+
+\bigskip
+
+\noindent \textbf{Question 3.}
+\begin{enumerate}[label=(\alph*)]
+  \item Write a python code to find the biggest of three numbers 'x', 'y' and 'z'. Thereafter, assign the values of your choice to the variables and obtain the results. \pts{8}
+  \item Explain `continue` and `break` statements with an example. \pts{4$\frac{1}{2}$}
+\end{enumerate}
+
+\bigskip
+
+\noindent \textbf{Question 4.}
+\begin{enumerate}[label=(\alph*)]
+  \item Given \texttt{fruits = ["apple", "banana", "cherry", "date"]}: \pts{6$\frac{1}{2}$}
+  \begin{enumerate}[label=(\roman*)]
+    \item Change the first element of the above list to orange.
+    \item Change the above list to tuple.
+    \item What is the difference between a list and a tuple?
+    \item Print each fruit in the list 'fruits'.
+  \end{enumerate}
+  \item Discuss the following list functions with the help of examples: \pts{6}
+  \begin{enumerate}[label=(\roman*)]
+    \item \texttt{len()}
+    \item \texttt{sum()}
+    \item \texttt{any()}
+  \end{enumerate}
+\end{enumerate}
+
+\bigskip
+
+\noindent \textbf{Question 5.} Make a $4 \times 4$ array (of integral numbers) using \texttt{numpy}. \pts{12$\frac{1}{2}$}
+\begin{enumerate}[label=(\alph*)]
+  \item Slice a $2 \times 2$ submatrix out of it.
+  \item Find the mean of all the rows.
+  \item Find the standard deviation of all the columns.
+  \item Write these outputs to a file named 'int\_mat.txt'.
+\end{enumerate}
+
+\bigskip
+
+\noindent \textbf{Question 6.} Given: \pts{12$\frac{1}{2}$}
+\begin{lstlisting}
+Name   : ['Sam', 'Andrea', 'Alex', 'Robin', 'Kia']
+Age    : [14, 25, 55, 8, 21]
+Gender : ['M', 'F', 'M', 'M', 'F']
+Weight : [45, 88, 56, 15, 71]
+\end{lstlisting}
+Use the above data to create a data frame and calculate the following:
+\begin{enumerate}[label=(\alph*)]
+  \item Sort the dataframe by age in descending order.
+  \item Divide the dataframe based on gender.
+  \item What are three key differences between numpy and pandas?
+\end{enumerate}
+
+\bigskip
+
+\noindent \textbf{Question 7.} Given $x = (1, 2, 3, 4, 5, 6, 7)$, write a python program to draw the curves between $x$ vs $x^2$ and $x$ vs $x^3$ in a single figure. Add a title, axes label and legends on the plot. How do you change the legend fontsize in matplotlib? \pts{12$\frac{1}{2}$}
+
+\bigskip
+\begin{center}
+  \textbf{***}
+\end{center}
+
+\end{document}

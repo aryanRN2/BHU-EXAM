@@ -687,6 +687,22 @@ export const NEP_LATEX_PYQ_DATA = [
     "isNepPaper": true
   },
   {
+    "code": "PHYSE31",
+    "courseType": "Skill Enhancement",
+    "name": "B.Sc. (Hons) Semester III (NEP) Examination 2025-26 - PHYSE31: Computational Physics : Programming and Data Analysis",
+    "filePath": "aaa/ALL_PYQS_LATEX/PHYSE31_ComputationalPhysics_SemIII_2025-26.tex",
+    "fileName": "PHYSE31_ComputationalPhysics_SemIII_2025-26.tex",
+    "nepCode": "PHYSE31",
+    "oldCode": "PHYSE31",
+    "subject": "Physics",
+    "department": "Department of Physics",
+    "semester": "Semester III",
+    "year": "2025-26",
+    "type": "NEP",
+    "examType": "End Term",
+    "isNepPaper": true
+  },
+  {
     "code": "PHYSE11",
     "courseType": "Skill Enhancement",
     "name": "B.Sc. (Hons) Semester I (NEP) Examination 2024-25 - PHYSE11: Mathematical Problem Solving Skills",
@@ -1145,6 +1161,18 @@ export const NEP_LATEX_PYQ_DATA = [
     "fileName": "PHYSE21_EnergyConversionAndStorage_SemII_EndTerm_2024-25.tex",
     "nepCode": "PHYSE21",
     "oldCode": "PHYSE21",
+    "isNepPaper": true
+  },
+  {
+    "code": "PHYSE31",
+    "subject": "Computational Physics : Programming and Data Analysis (SEC)",
+    "semester": 3,
+    "year": "2025-26",
+    "department": "Physics",
+    "filePath": "aaa/ALL_PYQS_LATEX/PHYSE31_ComputationalPhysics_SemIII_2025-26.tex",
+    "fileName": "PHYSE31_ComputationalPhysics_SemIII_2025-26.tex",
+    "nepCode": "PHYSE31",
+    "oldCode": "PHYSE31",
     "isNepPaper": true
   },
   {
