@@ -1,5 +1,15 @@
 const NEP_PYQ_TRACKER_DATA = [
   {
+    "code": "AIHMD31",
+    "name": "Indian Knowledge System",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of A.I.H.C. & Archaeology, Faculty of Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
     "category": "Dissertation / Research",
     "department": "Department of Applied Arts, Faculty of Visual Arts",
     "semester": "Semester 8",
@@ -56,7 +66,7 @@ const NEP_PYQ_TRACKER_DATA = [
     "department": "Department of Applied Arts, Faculty of Visual Arts",
     "semester": "Semester 3",
     "code": "APAMD31",
-    "name": "Advertising Design III",
+    "name": "Advertising Design - III",
     "type": "Multidisciplinary Course (MDC)",
     "credits": 3,
     "years": "N/A",
@@ -580,6 +590,76 @@ const NEP_PYQ_TRACKER_DATA = [
     "type": "Skill Enhancement Course (SEC)",
     "credits": 3,
     "years": "N/A",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "ARBMD31",
+    "name": "Basic Arabic Language-III",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Arabic, Faculty of Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "BAKMD31",
+    "name": "Fundamental of Bharat Adhyayan",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Bharat Adhyayan Kendra, Faculty of Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "BAKMD32",
+    "name": "Traditional Knowledge of India",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Bharat Adhyayan Kendra, Faculty of Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "BAKMD33",
+    "name": "Indian Diaspora",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Bharat Adhyayan Kendra, Faculty of Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "BAKMD34",
+    "name": "Lokavidya-III",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Bharat Adhyayan Kendra, Faculty of Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "BENMD31",
+    "name": "Ganagyapan O Sangbadikta",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Bengali, Faculty of Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "BJKMD31",
+    "name": "भोजपुरी साहित्य, संगीत और ललित कला",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Bhojpuri Adhyayan Kendra, Faculty of Arts",
+    "semester": "Semester 3",
     "mid": "Missing",
     "end": "Missing",
     "status": "Pending"
@@ -3112,7 +3192,7 @@ const NEP_PYQ_TRACKER_DATA = [
   },
   {
     "code": "COMMD31",
-    "name": "Personal Finance & Investment",
+    "name": "Financial Literacy",
     "category": "Multidisciplinary (MD/MDC)",
     "department": "Department of Commerce, Faculty of Commerce",
     "semester": "Semester 3",
@@ -4217,6 +4297,56 @@ const NEP_PYQ_TRACKER_DATA = [
     "status": "Complete"
   },
   {
+    "code": "CSSMD31",
+    "name": "Social Exclusion and Inclusion",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Centre for the Study of Social Exclusion & Inclusion Policy",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "CWSMD31",
+    "name": "Theory of Feminism",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Centre for Women's Studies & Development",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "DDAMD31",
+    "name": "Nritya Prayog- I",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Dance, Faculty of Performing Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "DHAMD31",
+    "name": "Tantra Vigyanam",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Dharmagama, Faculty of SVDV",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "DINMD31",
+    "name": "Introduction to North Indian Classical Instrumental Music",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Instrumental Music, Faculty of Performing Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
     "category": "Dissertation / Research",
     "department": "Department of Economics, Faculty of Social Sciences",
     "semester": "Semester 8",
@@ -4254,6 +4384,16 @@ const NEP_PYQ_TRACKER_DATA = [
     "mid": "Missing",
     "end": "Present (2024-25)",
     "status": "Partial"
+  },
+  {
+    "code": "ECOMD31",
+    "name": "Global Economics and Financial Issues",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Economics, Faculty of Social Sciences",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
   },
   {
     "category": "Major",
@@ -4680,6 +4820,16 @@ const NEP_PYQ_TRACKER_DATA = [
     "type": "Multidisciplinary Course (MDC)",
     "credits": 3,
     "years": "N/A",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "ENGMD31",
+    "name": "Fantasy and Science Fiction",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of English, Faculty of Arts",
+    "semester": "Semester 3",
     "mid": "Missing",
     "end": "Missing",
     "status": "Pending"
@@ -5855,6 +6005,26 @@ const NEP_PYQ_TRACKER_DATA = [
     "status": "Pending"
   },
   {
+    "code": "FRNMD31",
+    "name": "Basic French- III",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of French Studies, Faculty of Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "GERMD31",
+    "name": "German for Beginners III",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of German Studies, Faculty of Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
     "category": "Dissertation / Research",
     "department": "Department of Geography",
     "semester": "Semester 8",
@@ -6869,6 +7039,46 @@ const NEP_PYQ_TRACKER_DATA = [
     "status": "Partial"
   },
   {
+    "code": "HINMD31",
+    "name": "Srijnatmak Lekhan",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Hindi, Faculty of Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "HINMD32",
+    "name": "Hindi Bhasha evam Anuprayog",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Hindi, Faculty of Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "HINMD33",
+    "name": "Lok Sahitya",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Hindi, Faculty of Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "HISMD11",
+    "name": "Tribal History",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of History, Faculty of Social Sciences",
+    "semester": "Semester 1",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
     "category": "Dissertation / Research",
     "department": "Department of Home Science, Institute of Science / MMV",
     "semester": "Semester 8",
@@ -7298,6 +7508,16 @@ const NEP_PYQ_TRACKER_DATA = [
     "status": "Pending"
   },
   {
+    "code": "JYFMD31",
+    "name": "Kundali Vigyan",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Jyotish, Faculty of SVDV",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
     "category": "Multidisciplinary (MD/MDC)",
     "department": "Department of Linguistics, Faculty of Arts",
     "semester": "Semester 1",
@@ -7644,6 +7864,26 @@ const NEP_PYQ_TRACKER_DATA = [
     "type": "Skill Enhancement Course (SEC)",
     "credits": 2,
     "years": "N/A",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "LNGMD31",
+    "name": "Business and Technical Communications",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Linguistics, Faculty of Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "MARMD31",
+    "name": "Culture of Maharashtra",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Marathi, Faculty of Arts",
+    "semester": "Semester 3",
     "mid": "Missing",
     "end": "Missing",
     "status": "Pending"
@@ -8494,6 +8734,36 @@ const NEP_PYQ_TRACKER_DATA = [
     "status": "Pending"
   },
   {
+    "code": "MSYMD31",
+    "name": "Environment in Indian Tradition",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Museology, Faculty of Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "MUSMD31",
+    "name": "Introduction to Indian Music and Musicians",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Musicology, Faculty of Performing Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "OMSMD31",
+    "name": "Advance Phonography (Practical)",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Office Management, Faculty of Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
     "category": "Dissertation / Research",
     "department": "Department of Painting, Faculty of Visual Arts",
     "semester": "Semester 8",
@@ -8528,6 +8798,16 @@ const NEP_PYQ_TRACKER_DATA = [
     "type": "Multidisciplinary Course (MDC)",
     "credits": 3,
     "years": "N/A",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "PANMD31",
+    "name": "Elementary Sketching III",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Painting, Faculty of Visual Arts",
+    "semester": "Semester 3",
     "mid": "Missing",
     "end": "Missing",
     "status": "Pending"
@@ -8892,6 +9172,36 @@ const NEP_PYQ_TRACKER_DATA = [
     "type": "Skill Enhancement Course (SEC)",
     "credits": 3,
     "years": "N/A",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "PBSMD31",
+    "name": "History of Buddhism Outside India",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Pali & Buddhist Studies, Faculty of Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "PEDMD31",
+    "name": "Health Fitness and Exercise Management",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Physical Education, Faculty of Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "PHIMD31",
+    "name": "Indian Religions",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Philosophy & Religion, Faculty of Arts",
+    "semester": "Semester 3",
     "mid": "Missing",
     "end": "Missing",
     "status": "Pending"
@@ -9711,6 +10021,76 @@ const NEP_PYQ_TRACKER_DATA = [
     "type": "Skill Enhancement",
     "credits": 1,
     "years": "N/A",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "PLAMD31",
+    "name": "Paper Crafts- III",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Plastic Arts, Faculty of Visual Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "POCMD31",
+    "name": "Elementary Tile Making -III",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Plastic Arts, Faculty of Visual Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "POLMD31",
+    "name": "Development of Indian Constitution",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Political Science, Faculty of Social Sciences",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "PSYMD21",
+    "name": "Psychology in Education",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Psychology, Faculty of Social Sciences",
+    "semester": "Semester 2",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "RUSMD31",
+    "name": "Foundation Course in Russian Language",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Foreign Languages (Russian), Faculty of Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "SANMD31",
+    "name": "Bhartiya Gyan Parampara evam Sanskrit",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Sanskrit, Faculty of Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "SOCMD31",
+    "name": "Cinema and Society",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Sociology, Faculty of Social Sciences",
+    "semester": "Semester 3",
     "mid": "Missing",
     "end": "Missing",
     "status": "Pending"
@@ -10665,6 +11045,16 @@ const NEP_PYQ_TRACKER_DATA = [
     "status": "Pending"
   },
   {
+    "code": "TEDMD31",
+    "name": "Art & Craft with Textile-III",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Painting / Textile Design",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
     "category": "Major",
     "department": "Department of Painting, Faculty of Visual Arts",
     "semester": "Semester 1",
@@ -10938,6 +11328,36 @@ const NEP_PYQ_TRACKER_DATA = [
     "status": "Pending"
   },
   {
+    "code": "TELMD31",
+    "name": "Culture of Telugus",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Telugu, Faculty of Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "TTMMD31",
+    "name": "Data Visualization",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Tourism & Travel Management, Faculty of Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "URDMD31",
+    "name": "Ibtedai Urdu (Elementary Urdu) Level-3",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Urdu, Faculty of Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
     "category": "Value Added (VAC)",
     "department": "Department of Yoga Sadhana Kendra, Malaviya Bhawan",
     "semester": "Semester 1",
@@ -10946,6 +11366,36 @@ const NEP_PYQ_TRACKER_DATA = [
     "type": "Value Added Course (VAC)",
     "credits": 2,
     "years": "N/A",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "VDVMD31",
+    "name": "Adhyatm Vigyanam",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Vaidic Darshan, Faculty of SVDV",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "VOMMD31",
+    "name": "General Introduction to Indian Classical Vocal Music",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Vocal Music, Faculty of Performing Arts",
+    "semester": "Semester 3",
+    "mid": "Missing",
+    "end": "Missing",
+    "status": "Pending"
+  },
+  {
+    "code": "VYAMD31",
+    "name": "Sanskrit Shikshanam",
+    "category": "Multidisciplinary (MD/MDC)",
+    "department": "Department of Vyakaran, Faculty of SVDV",
+    "semester": "Semester 3",
     "mid": "Missing",
     "end": "Missing",
     "status": "Pending"

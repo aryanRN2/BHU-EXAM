@@ -178,6 +178,9 @@
                         </tbody>
                     </table>
                 </div>
+                <div class="px-4 py-3 bg-neutral-50/90 border-t border-neutral-200 flex items-center justify-between text-xs text-neutral-600 font-medium">
+                    <span>Total Courses Found: <strong id="totalCountDisplay" class="font-extrabold text-primary">0</strong></span>
+                </div>
             </div>
         </div>
 
@@ -275,16 +278,9 @@
 
             renderedCount += nextBatch.length;
 
-            if (info) {
-                info.textContent = total > 0 ? `Showing ${renderedCount} of ${total} courses` : '0 courses found';
-            }
-
-            if (statusLabel) {
-                if (renderedCount >= total) {
-                    statusLabel.innerHTML = `<span class="text-emerald-600 font-bold text-[11px]">All ${total} courses loaded</span>`;
-                } else {
-                    statusLabel.innerHTML = `<span class="material-symbols-outlined text-xs animate-bounce">south</span> <span>Scroll table to load more (${total - renderedCount} remaining)</span>`;
-                }
+            const totalDisplay = document.getElementById('totalCountDisplay');
+            if (totalDisplay) {
+                totalDisplay.textContent = total;
             }
         }
 
@@ -305,6 +301,11 @@
 
                 return matchQuery && matchCat && matchStat;
             });
+
+            const totalDisplay = document.getElementById('totalCountDisplay');
+            if (totalDisplay) {
+                totalDisplay.textContent = filteredGuideData.length;
+            }
 
             renderedCount = 0;
             const scrollContainer = document.getElementById('tableScrollContainer');
