@@ -188,11 +188,11 @@
                 </div>
             </div>
 
-            <!-- Table -->
-            <div class="border border-neutral-200 rounded-xl overflow-hidden">
-                <div id="tableScrollContainer" class="overflow-x-auto max-h-[600px] scrollbar-thin">
+            <!-- Mobile-Friendly Controls & Responsive Table Container -->
+            <div class="border border-neutral-200 rounded-2xl overflow-hidden bg-white shadow-2xs">
+                <div class="overflow-x-auto">
                     <table class="w-full text-left text-xs border-collapse">
-                        <thead class="bg-neutral-100 text-neutral-700 font-bold sticky top-0 backdrop-blur-md border-b border-neutral-200 z-10">
+                        <thead class="hidden sm:table-header-group bg-neutral-100 text-neutral-700 font-bold sticky top-20 backdrop-blur-md border-b border-neutral-200 z-10">
                             <tr>
                                 <th class="py-3 px-4">Code</th>
                                 <th class="py-3 px-4">Course Name</th>
@@ -209,6 +209,10 @@
                 </div>
                 <div class="px-4 py-3 bg-neutral-50/90 border-t border-neutral-200 flex items-center justify-between text-xs text-neutral-600 font-medium">
                     <span>Total Courses Found: <strong id="totalCountDisplay" class="font-extrabold text-primary">0</strong></span>
+                    <span id="loadMoreIndicator" class="text-[11px] font-bold text-accent-bhu-saffron flex items-center gap-1 hidden">
+                        <span class="material-symbols-outlined text-xs animate-bounce">south</span>
+                        <span>Scroll for more</span>
+                    </span>
                 </div>
             </div>
         </div>
@@ -239,10 +243,11 @@
             }
         }
 
-        // Infinite Scroll / Lazy Load Table Engine
+        // Window-Level Infinite Scroll & Mobile-First Table Engine
         let renderedCount = 0;
-        const initialBatchSize = 60;
-        const batchSize = 40;
+        const initialBatchSize = 50;
+        const batchSize = 30;
+        let isLoadingBatch = false;
         let filteredGuideData = typeof NEP_PYQ_TRACKER_DATA !== 'undefined' ? NEP_PYQ_TRACKER_DATA : [];
 
         function renderRowHtml(c) {
@@ -264,7 +269,8 @@
                 : `<span class="text-rose-500 font-bold text-[11px]">❌ Missing</span>`;
 
             return `
-                <tr class="hover:bg-neutral-50/80 transition-colors border-b border-neutral-100">
+                <!-- Desktop Table Row -->
+                <tr class="hidden sm:table-row hover:bg-neutral-50/80 transition-colors border-b border-neutral-100">
                     <td class="py-2.5 px-4 font-mono font-bold text-primary">${c.code || ''}</td>
                     <td class="py-2.5 px-4 font-bold text-neutral-900">${c.name || ''}</td>
                     <td class="py-2.5 px-4 text-neutral-500 text-[11px] truncate max-w-[200px]">${c.department || ''}</td>
@@ -272,21 +278,37 @@
                     <td class="py-2.5 px-4 text-center">${endBadge}</td>
                     <td class="py-2.5 px-4 text-center">${statusBadge}</td>
                 </tr>
+                <!-- Mobile Responsive Card Row -->
+                <tr class="sm:hidden border-b border-neutral-200/80 bg-white">
+                    <td colspan="6" class="p-3.5">
+                        <div class="flex items-center justify-between gap-2 mb-1.5">
+                            <span class="font-mono font-black text-xs text-primary bg-neutral-100 px-2 py-0.5 rounded border border-neutral-200">${c.code || ''}</span>
+                            <div>${statusBadge}</div>
+                        </div>
+                        <h4 class="font-extrabold text-sm text-neutral-900 leading-snug mb-1">${c.name || ''}</h4>
+                        <p class="text-[11px] text-neutral-500 mb-2.5 font-medium">${c.department || ''}</p>
+                        <div class="flex items-center justify-between text-xs pt-2 border-t border-neutral-100 bg-neutral-50/70 -mx-3.5 -mb-3.5 p-2.5 rounded-b-xl">
+                            <div class="flex items-center gap-1"><span class="text-neutral-400 font-semibold text-[10px] uppercase">Mid:</span> ${midBadge}</div>
+                            <div class="flex items-center gap-1"><span class="text-neutral-400 font-semibold text-[10px] uppercase">End:</span> ${endBadge}</div>
+                        </div>
+                    </td>
+                </tr>
             `;
         }
 
         function loadNextBatch() {
+            if (isLoadingBatch) return;
             const tbody = document.getElementById('guideTableBody');
-            const info = document.getElementById('guidePaginationInfo');
-            const statusLabel = document.getElementById('lazyLoadStatus');
+            const indicator = document.getElementById('loadMoreIndicator');
             if (!tbody) return;
 
             const total = filteredGuideData.length;
             if (renderedCount >= total) {
-                if (statusLabel) statusLabel.innerHTML = `<span class="text-emerald-600 font-bold text-[11px]">All ${total} courses loaded</span>`;
+                if (indicator) indicator.classList.add('hidden');
                 return;
             }
 
+            isLoadingBatch = true;
             const countToLoad = renderedCount === 0 ? initialBatchSize : batchSize;
             const nextBatch = filteredGuideData.slice(renderedCount, renderedCount + countToLoad);
             
@@ -306,10 +328,19 @@
             }
 
             renderedCount += nextBatch.length;
+            isLoadingBatch = false;
 
             const totalDisplay = document.getElementById('totalCountDisplay');
             if (totalDisplay) {
                 totalDisplay.textContent = total;
+            }
+
+            if (indicator) {
+                if (renderedCount >= total) {
+                    indicator.classList.add('hidden');
+                } else {
+                    indicator.classList.remove('hidden');
+                }
             }
         }
 
@@ -346,22 +377,19 @@
             }
 
             renderedCount = 0;
-            const scrollContainer = document.getElementById('tableScrollContainer');
-            if (scrollContainer) scrollContainer.scrollTop = 0;
+            window.scrollTo({ top: 0, behavior: 'smooth' });
             loadNextBatch();
         };
 
         document.addEventListener('DOMContentLoaded', () => {
             filterGuideTracker();
 
-            const scrollContainer = document.getElementById('tableScrollContainer');
-            if (scrollContainer) {
-                scrollContainer.addEventListener('scroll', () => {
-                    if (scrollContainer.scrollTop + scrollContainer.clientHeight >= scrollContainer.scrollHeight - 150) {
-                        loadNextBatch();
-                    }
-                });
-            }
+            // Seamless Main Window Scroll Listener (No Inner Scroll Traps)
+            window.addEventListener('scroll', () => {
+                if ((window.innerHeight + window.scrollY) >= (document.documentElement.scrollHeight - 350)) {
+                    loadNextBatch();
+                }
+            });
         });
     </script>
 </body>
