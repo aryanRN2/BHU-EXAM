@@ -141,11 +141,15 @@
 
                     <select id="guideCategoryFilter" onchange="filterGuideTracker()"
                             class="bg-neutral-50 border border-neutral-300 rounded-xl text-xs font-bold text-neutral-700 px-3 py-2 focus:outline-none focus:ring-1 focus:ring-accent-bhu-saffron cursor-pointer">
-                        <option value="ALL">All Categories</option>
+                        <option value="ALL" selected>All Categories</option>
                         <option value="Major">Major</option>
                         <option value="Minor">Minor</option>
                         <option value="Multidisciplinary (MD/MDC)">Multidisciplinary (MD)</option>
                         <option value="Skill Enhancement (SEC)">Skill Enhancement (SEC)</option>
+                        <option value="Vocational (VOC)">Vocational (VOC)</option>
+                        <option value="Ability Enhancement (AEC)">Ability Enhancement (AEC)</option>
+                        <option value="Value Added (VAC)">Value Added (VAC)</option>
+                        <option value="Dissertation / Research">Dissertation / Research</option>
                     </select>
 
                     <a href="BHU_NEP_Master_Combined_PYQ_Tracker.csv" download class="bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 text-neutral-800 px-3 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-1 shadow-2xs shrink-0">
@@ -157,7 +161,7 @@
 
             <!-- Table -->
             <div class="border border-neutral-200 rounded-xl overflow-hidden">
-                <div class="overflow-x-auto max-h-[500px]">
+                <div id="tableScrollContainer" class="overflow-x-auto max-h-[600px] scrollbar-thin">
                     <table class="w-full text-left text-xs border-collapse">
                         <thead class="bg-neutral-100 text-neutral-700 font-bold sticky top-0 backdrop-blur-md border-b border-neutral-200 z-10">
                             <tr>
@@ -173,13 +177,6 @@
                             <!-- JS populated -->
                         </tbody>
                     </table>
-                </div>
-                <div class="p-3 bg-neutral-50 border-t border-neutral-200 flex justify-between items-center text-xs text-neutral-500 font-semibold">
-                    <span id="guidePaginationInfo">Showing 1 - 50 courses</span>
-                    <div class="flex gap-2">
-                        <button id="guidePrevBtn" onclick="changeGuidePage(-1)" class="px-3 py-1 rounded bg-white border border-neutral-300 font-bold hover:bg-neutral-100 disabled:opacity-40 shadow-2xs">Prev</button>
-                        <button id="guideNextBtn" onclick="changeGuidePage(1)" class="px-3 py-1 rounded bg-white border border-neutral-300 font-bold hover:bg-neutral-100 disabled:opacity-40 shadow-2xs">Next</button>
-                    </div>
                 </div>
             </div>
         </div>
@@ -210,66 +207,85 @@
             }
         }
 
-        // Live Guide Tracker Pagination & Filtering Logic
-        let guideCurrentPage = 1;
-        const guidePageSize = 50;
+        // Infinite Scroll / Lazy Load Table Engine
+        let renderedCount = 0;
+        const initialBatchSize = 60;
+        const batchSize = 40;
         let filteredGuideData = typeof NEP_PYQ_TRACKER_DATA !== 'undefined' ? NEP_PYQ_TRACKER_DATA : [];
 
-        function renderGuideTable() {
+        function renderRowHtml(c) {
+            let statusBadge = '';
+            if (c.status === 'Complete') {
+                statusBadge = `<span class="bg-emerald-100 text-emerald-800 font-bold px-2 py-0.5 rounded text-[10px] border border-emerald-300">Complete</span>`;
+            } else if (c.status === 'Partial') {
+                statusBadge = `<span class="bg-amber-100 text-amber-800 font-bold px-2 py-0.5 rounded text-[10px] border border-amber-300">Partial</span>`;
+            } else {
+                statusBadge = `<span class="bg-rose-100 text-rose-800 font-bold px-2 py-0.5 rounded text-[10px] border border-rose-300">Pending</span>`;
+            }
+
+            let midBadge = String(c.mid || '').includes('Present') 
+                ? `<span class="text-emerald-600 font-bold text-[11px]">✅ ${c.mid}</span>` 
+                : `<span class="text-rose-500 font-bold text-[11px]">❌ Missing</span>`;
+                
+            let endBadge = String(c.end || '').includes('Present') 
+                ? `<span class="text-emerald-600 font-bold text-[11px]">✅ ${c.end}</span>` 
+                : `<span class="text-rose-500 font-bold text-[11px]">❌ Missing</span>`;
+
+            return `
+                <tr class="hover:bg-neutral-50/80 transition-colors border-b border-neutral-100">
+                    <td class="py-2.5 px-4 font-mono font-bold text-primary">${c.code || ''}</td>
+                    <td class="py-2.5 px-4 font-bold text-neutral-900">${c.name || ''}</td>
+                    <td class="py-2.5 px-4 text-neutral-500 text-[11px] truncate max-w-[200px]">${c.department || ''}</td>
+                    <td class="py-2.5 px-4 text-center">${midBadge}</td>
+                    <td class="py-2.5 px-4 text-center">${endBadge}</td>
+                    <td class="py-2.5 px-4 text-center">${statusBadge}</td>
+                </tr>
+            `;
+        }
+
+        function loadNextBatch() {
             const tbody = document.getElementById('guideTableBody');
             const info = document.getElementById('guidePaginationInfo');
-            const prevBtn = document.getElementById('guidePrevBtn');
-            const nextBtn = document.getElementById('guideNextBtn');
+            const statusLabel = document.getElementById('lazyLoadStatus');
             if (!tbody) return;
 
             const total = filteredGuideData.length;
-            const maxPage = Math.ceil(total / guidePageSize) || 1;
-            if (guideCurrentPage > maxPage) guideCurrentPage = maxPage;
-            if (guideCurrentPage < 1) guideCurrentPage = 1;
-
-            const startIdx = (guideCurrentPage - 1) * guidePageSize;
-            const endIdx = Math.min(startIdx + guidePageSize, total);
-            const pageData = filteredGuideData.slice(startIdx, endIdx);
-
-            let html = '';
-            if (pageData.length === 0) {
-                html = `<tr><td colspan="6" class="py-8 text-center text-neutral-400 text-xs font-medium">No matching courses found in tracker.</td></tr>`;
-            } else {
-                pageData.forEach(c => {
-                    let statusBadge = '';
-                    if (c.status === 'Complete') {
-                        statusBadge = `<span class="bg-emerald-100 text-emerald-800 font-bold px-2 py-0.5 rounded text-[10px] border border-emerald-300">Complete</span>`;
-                    } else if (c.status === 'Partial') {
-                        statusBadge = `<span class="bg-amber-100 text-amber-800 font-bold px-2 py-0.5 rounded text-[10px] border border-amber-300">Partial</span>`;
-                    } else {
-                        statusBadge = `<span class="bg-rose-100 text-rose-800 font-bold px-2 py-0.5 rounded text-[10px] border border-rose-300">Pending</span>`;
-                    }
-
-                    let midBadge = c.mid.includes('Present') 
-                        ? `<span class="text-emerald-600 font-bold text-[11px]">✅ ${c.mid}</span>` 
-                        : `<span class="text-rose-500 font-bold text-[11px]">❌ Missing</span>`;
-                        
-                    let endBadge = c.end.includes('Present') 
-                        ? `<span class="text-emerald-600 font-bold text-[11px]">✅ ${c.end}</span>` 
-                        : `<span class="text-rose-500 font-bold text-[11px]">❌ Missing</span>`;
-
-                    html += `
-                        <tr class="hover:bg-neutral-50/80 transition-colors border-b border-neutral-100">
-                            <td class="py-2.5 px-4 font-mono font-bold text-primary">${c.code}</td>
-                            <td class="py-2.5 px-4 font-bold text-neutral-900">${c.name}</td>
-                            <td class="py-2.5 px-4 text-neutral-500 text-[11px] truncate max-w-[200px]">${c.department}</td>
-                            <td class="py-2.5 px-4 text-center">${midBadge}</td>
-                            <td class="py-2.5 px-4 text-center">${endBadge}</td>
-                            <td class="py-2.5 px-4 text-center">${statusBadge}</td>
-                        </tr>
-                    `;
-                });
+            if (renderedCount >= total) {
+                if (statusLabel) statusLabel.innerHTML = `<span class="text-emerald-600 font-bold text-[11px]">All ${total} courses loaded</span>`;
+                return;
             }
 
-            tbody.innerHTML = html;
-            if (info) info.textContent = total > 0 ? `Showing ${startIdx + 1} - ${endIdx} of ${total} courses` : '0 courses found';
-            if (prevBtn) prevBtn.disabled = guideCurrentPage <= 1;
-            if (nextBtn) nextBtn.disabled = guideCurrentPage >= maxPage;
+            const countToLoad = renderedCount === 0 ? initialBatchSize : batchSize;
+            const nextBatch = filteredGuideData.slice(renderedCount, renderedCount + countToLoad);
+            
+            let html = '';
+            nextBatch.forEach(c => {
+                html += renderRowHtml(c);
+            });
+
+            if (renderedCount === 0) {
+                if (total === 0) {
+                    tbody.innerHTML = `<tr><td colspan="6" class="py-8 text-center text-neutral-400 text-xs font-medium">No matching courses found in tracker.</td></tr>`;
+                } else {
+                    tbody.innerHTML = html;
+                }
+            } else {
+                tbody.insertAdjacentHTML('beforeend', html);
+            }
+
+            renderedCount += nextBatch.length;
+
+            if (info) {
+                info.textContent = total > 0 ? `Showing ${renderedCount} of ${total} courses` : '0 courses found';
+            }
+
+            if (statusLabel) {
+                if (renderedCount >= total) {
+                    statusLabel.innerHTML = `<span class="text-emerald-600 font-bold text-[11px]">All ${total} courses loaded</span>`;
+                } else {
+                    statusLabel.innerHTML = `<span class="material-symbols-outlined text-xs animate-bounce">south</span> <span>Scroll table to load more (${total - renderedCount} remaining)</span>`;
+                }
+            }
         }
 
         window.filterGuideTracker = function() {
@@ -277,30 +293,36 @@
             const cat = document.getElementById('guideCategoryFilter')?.value || 'ALL';
             const stat = document.getElementById('guideStatusFilter')?.value || 'ALL';
 
-            const source = typeof NEP_PYQ_TRACKER_DATA !== 'undefined' ? NEP_PYQ_TRACKER_DATA : [];
+            const source = (typeof NEP_PYQ_TRACKER_DATA !== 'undefined' && Array.isArray(NEP_PYQ_TRACKER_DATA)) ? NEP_PYQ_TRACKER_DATA : [];
             filteredGuideData = source.filter(c => {
-                const matchQuery = !query || 
-                    c.code.toLowerCase().includes(query) || 
-                    c.name.toLowerCase().includes(query) || 
-                    c.department.toLowerCase().includes(query);
-                
+                const codeStr = String(c.code || '').toLowerCase();
+                const nameStr = String(c.name || '').toLowerCase();
+                const deptStr = String(c.department || '').toLowerCase();
+
+                const matchQuery = !query || codeStr.includes(query) || nameStr.includes(query) || deptStr.includes(query);
                 const matchCat = cat === 'ALL' || c.category === cat;
                 const matchStat = stat === 'ALL' || c.status === stat;
 
                 return matchQuery && matchCat && matchStat;
             });
 
-            guideCurrentPage = 1;
-            renderGuideTable();
-        };
-
-        window.changeGuidePage = function(delta) {
-            guideCurrentPage += delta;
-            renderGuideTable();
+            renderedCount = 0;
+            const scrollContainer = document.getElementById('tableScrollContainer');
+            if (scrollContainer) scrollContainer.scrollTop = 0;
+            loadNextBatch();
         };
 
         document.addEventListener('DOMContentLoaded', () => {
             filterGuideTracker();
+
+            const scrollContainer = document.getElementById('tableScrollContainer');
+            if (scrollContainer) {
+                scrollContainer.addEventListener('scroll', () => {
+                    if (scrollContainer.scrollTop + scrollContainer.clientHeight >= scrollContainer.scrollHeight - 150) {
+                        loadNextBatch();
+                    }
+                });
+            }
         });
     </script>
 </body>
