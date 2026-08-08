@@ -283,11 +283,18 @@
             <p class="text-base md:text-lg text-secondary max-w-xl mb-6 leading-relaxed">
                 Meet the people who made SCIQB possible. Dedicated to providing quality resources to students.
             </p>
-            <button onclick="document.getElementById('how-to-contribute').scrollIntoView({ behavior: 'smooth' })"
-                class="mb-12 bg-primary text-on-primary px-6 py-3 rounded-full font-bold text-xs hover:scale-105 active:scale-95 transition-all shadow-md hover:bg-neutral-800 flex items-center gap-2">
-                <span class="material-symbols-outlined text-sm font-bold">volunteer_activism</span>
-                <span>How to Contribute</span>
-            </button>
+            <div class="mb-12 flex flex-wrap items-center justify-center gap-3">
+                <button onclick="document.getElementById('how-to-contribute').scrollIntoView({ behavior: 'smooth' })"
+                    class="bg-primary text-on-primary px-6 py-3 rounded-full font-bold text-xs hover:scale-105 active:scale-95 transition-all shadow-md hover:bg-neutral-800 flex items-center gap-2">
+                    <span class="material-symbols-outlined text-sm font-bold">volunteer_activism</span>
+                    <span>How to Contribute</span>
+                </button>
+                <a href="what-to-contribute.html"
+                    class="bg-accent-bhu-saffron text-white px-6 py-3 rounded-full font-bold text-xs hover:scale-105 active:scale-95 transition-all shadow-md hover:bg-amber-600 flex items-center gap-2">
+                    <span class="material-symbols-outlined text-sm font-bold">format_list_bulleted</span>
+                    <span>What to Contribute?</span>
+                </a>
+            </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 w-full text-left">
                 <!-- Aryan Maurya -->
@@ -347,38 +354,8 @@
 
             <!-- How to Contribute Section -->
             <div id="how-to-contribute" class="w-full mt-16 md:mt-20 text-left">
-                <div class="border-b border-border-subtle pb-3 mb-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                    <h3 class="text-xs font-bold text-secondary uppercase tracking-widest">How & What to Contribute</h3>
-                    <a href="what-to-contribute.html" class="inline-flex items-center gap-2 bg-accent-bhu-saffron text-white font-extrabold text-xs px-4 py-2 rounded-xl shadow-sm hover:bg-amber-600 hover:scale-[1.02] active:scale-95 transition-all w-fit">
-                        <span class="material-symbols-outlined text-sm font-bold">assignment_add</span>
-                        <span>Open Detailed "What to Contribute" Guide & Missing PYQs</span>
-                        <span class="material-symbols-outlined text-sm">arrow_forward</span>
-                    </a>
-                </div>
-
-                <!-- Featured What to Contribute Redirection Banner Card -->
-                <div onclick="window.location.href='what-to-contribute.html'"
-                     class="mb-10 bg-gradient-to-r from-slate-900 via-primary to-slate-900 text-white rounded-3xl p-6 sm:p-8 shadow-lg border border-slate-800 cursor-pointer hover:border-accent-bhu-saffron/50 transition-all duration-300 group relative overflow-hidden">
-                    <div class="absolute right-[-20px] bottom-[-20px] opacity-10 text-white pointer-events-none group-hover:scale-110 transition-transform">
-                        <span class="material-symbols-outlined text-9xl">help_center</span>
-                    </div>
-                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-6 relative z-10">
-                        <div class="max-w-2xl">
-                            <div class="inline-flex items-center gap-1.5 bg-accent-bhu-saffron/20 text-accent-bhu-saffron text-[10px] font-black px-2.5 py-1 rounded-full uppercase tracking-wider mb-3 border border-accent-bhu-saffron/30">
-                                Dedicated Contribution Guide
-                            </div>
-                            <h3 class="text-xl sm:text-2xl font-black tracking-tight text-white mb-2">Want to know exactly what resources are needed?</h3>
-                            <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
-                                Click to view the full breakdown of required question papers, handwritten notes, LaTeX code, presentation slides, and lab manuals. Use our live filter to search all missing PYQs!
-                            </p>
-                        </div>
-                        <div class="shrink-0">
-                            <span class="bg-accent-bhu-saffron group-hover:bg-amber-500 text-white px-5 py-3 rounded-2xl font-extrabold text-xs transition-all shadow-md flex items-center gap-2">
-                                <span>Explore What to Contribute</span>
-                                <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
-                            </span>
-                        </div>
-                    </div>
+                <div class="border-b border-border-subtle pb-3 mb-8">
+                    <h3 class="text-xs font-bold text-secondary uppercase tracking-widest">How to Contribute</h3>
                 </div>
 
                 <!-- Points Table & Rules -->
