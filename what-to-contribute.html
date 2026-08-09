@@ -122,68 +122,71 @@
     </div>
 
     <!-- Main Content Area -->
-    <main class="flex-1 w-full max-w-container-max mx-auto px-6 md:px-padding-edge pt-28 pb-10 relative z-10">
+    <main class="flex-1 w-full max-w-container-max mx-auto px-3 sm:px-6 md:px-padding-edge pt-20 sm:pt-28 pb-10 relative z-10">
 
         <!-- Page Header -->
-        <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 border-b border-neutral-300/80 pb-6 mb-8">
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-3 border-b border-neutral-300/80 pb-4 mb-4 sm:mb-6">
             <div>
-                <span class="text-[11px] font-bold uppercase tracking-widest text-accent-bhu-saffron mb-1 block">Resource Contribution Guide</span>
-                <h1 class="text-2xl sm:text-3xl font-extrabold text-primary tracking-tight">What to Contribute?</h1>
-                <p class="text-xs sm:text-sm text-secondary mt-1 max-w-2xl font-medium">
-                    Search missing Mid-Term & End-Term question papers across all 888 BHU NEP courses, or send handwritten notes, LaTeX source code, and lecture slides directly to our team.
+                <span class="text-[10px] font-extrabold uppercase tracking-widest text-accent-bhu-saffron mb-0.5 block">Resource Contribution Guide</span>
+                <h1 class="text-xl sm:text-3xl font-extrabold text-primary tracking-tight">What to Contribute?</h1>
+                <p class="text-xs sm:text-sm text-secondary mt-1 max-w-2xl font-medium leading-relaxed">
+                    Search missing Mid-Term & End-Term question papers across BHU NEP courses, or send handwritten notes and LaTeX code directly to our team.
                 </p>
             </div>
-            <div class="flex flex-wrap items-center gap-2.5 shrink-0">
-                <a href="https://chat.whatsapp.com/FTrqX8CyQpJ1JKZya8bJ1n?mode=gi_t" target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs px-4 py-2.5 rounded-xl shadow-xs transition-all flex items-center gap-2 active:scale-95">
+            <div class="flex items-center gap-2 overflow-x-auto pb-1 shrink-0 scrollbar-none">
+                <a href="https://chat.whatsapp.com/FTrqX8CyQpJ1JKZya8bJ1n?mode=gi_t" target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs px-3 py-2 rounded-xl shadow-xs transition-all flex items-center gap-1.5 shrink-0 active:scale-95">
                     <span class="material-symbols-outlined text-sm">groups</span>
-                    <span>Submit via WhatsApp Group</span>
+                    <span>WhatsApp</span>
                 </a>
-                <a href="https://t.me/sciqb" target="_blank" class="bg-neutral-800 hover:bg-black text-white font-extrabold text-xs px-4 py-2.5 rounded-xl shadow-xs transition-all flex items-center gap-2 active:scale-95">
+                <a href="https://t.me/sciqb" target="_blank" class="bg-neutral-800 hover:bg-black text-white font-extrabold text-xs px-3 py-2 rounded-xl shadow-xs transition-all flex items-center gap-1.5 shrink-0 active:scale-95">
                     <span class="material-symbols-outlined text-sm">send</span>
                     <span>Telegram</span>
                 </a>
-                <a href="contributors.html" class="bg-white border border-neutral-300 hover:bg-neutral-50 text-neutral-800 font-bold text-xs px-4 py-2.5 rounded-xl transition-all shadow-2xs">
+                <a href="contributors.html" class="bg-white border border-neutral-300 hover:bg-neutral-50 text-neutral-800 font-bold text-xs px-3 py-2 rounded-xl transition-all shadow-2xs text-center shrink-0">
                     Leaderboard
                 </a>
             </div>
         </div>
 
         <!-- Clean Minimalist Search & Missing PYQ Table Container -->
-        <div class="bg-white border border-neutral-200/90 rounded-2xl p-5 shadow-2xs">
+        <div class="bg-white border border-neutral-200/90 rounded-2xl p-2.5 sm:p-5 shadow-sm">
             
             <!-- Table Header Controls -->
-            <div class="flex flex-col sm:flex-row gap-3 mb-4">
-                <div class="relative flex-1">
-                    <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-neutral-400 text-sm">search</span>
-                    <input type="text" id="guideSearchInput" placeholder="Smart search (e.g. md russian, botmj21, financial accounting, sec digital)..."
-                           class="w-full pl-9 pr-4 py-2 bg-neutral-50 border border-neutral-300 rounded-xl text-xs focus:outline-none focus:ring-1 focus:ring-accent-bhu-saffron text-primary placeholder-neutral-400 font-medium"
+            <div class="flex flex-col gap-2 mb-3">
+                <!-- Smart Search Bar -->
+                <div class="relative w-full">
+                    <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-neutral-400 text-base pointer-events-none">search</span>
+                    <input type="text" id="guideSearchInput" placeholder="Search code, course name, department..."
+                           class="w-full pl-9 pr-3 py-2 sm:py-2.5 bg-neutral-50 border border-neutral-300 rounded-xl text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-accent-bhu-saffron/40 focus:border-accent-bhu-saffron text-primary placeholder-neutral-400 font-medium transition-all shadow-2xs"
                            oninput="filterGuideTracker()"/>
                 </div>
-                <div class="flex gap-2">
+
+                <!-- Filters & Export Grid -->
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-2 w-full">
                     <select id="guideStatusFilter" onchange="filterGuideTracker()"
-                            class="bg-neutral-50 border border-neutral-300 rounded-xl text-xs font-bold text-neutral-700 px-3 py-2 focus:outline-none focus:ring-1 focus:ring-accent-bhu-saffron cursor-pointer">
+                            class="w-full bg-neutral-50 border border-neutral-300 rounded-xl text-xs font-bold text-neutral-700 px-2.5 py-2 focus:outline-none focus:ring-2 focus:ring-accent-bhu-saffron/40 focus:border-accent-bhu-saffron cursor-pointer truncate shadow-2xs">
                         <option value="ALL" selected>All Status</option>
-                        <option value="Pending">Pending / Missing Only</option>
-                        <option value="Partial">Partial (Missing Mid or End)</option>
+                        <option value="Pending">Pending / Missing</option>
+                        <option value="Partial">Partial</option>
                         <option value="Complete">Complete</option>
                     </select>
 
                     <select id="guideCategoryFilter" onchange="filterGuideTracker()"
-                            class="bg-neutral-50 border border-neutral-300 rounded-xl text-xs font-bold text-neutral-700 px-3 py-2 focus:outline-none focus:ring-1 focus:ring-accent-bhu-saffron cursor-pointer">
+                            class="w-full bg-neutral-50 border border-neutral-300 rounded-xl text-xs font-bold text-neutral-700 px-2.5 py-2 focus:outline-none focus:ring-2 focus:ring-accent-bhu-saffron/40 focus:border-accent-bhu-saffron cursor-pointer truncate shadow-2xs">
                         <option value="ALL" selected>All Categories</option>
                         <option value="Major">Major</option>
                         <option value="Minor">Minor</option>
-                        <option value="Multidisciplinary (MD/MDC)">Multidisciplinary (MD)</option>
-                        <option value="Skill Enhancement (SEC)">Skill Enhancement (SEC)</option>
-                        <option value="Vocational (VOC)">Vocational (VOC)</option>
-                        <option value="Ability Enhancement (AEC)">Ability Enhancement (AEC)</option>
-                        <option value="Value Added (VAC)">Value Added (VAC)</option>
-                        <option value="Dissertation / Research">Dissertation / Research</option>
+                        <option value="Multidisciplinary (MD/MDC)">Multidisciplinary</option>
+                        <option value="Skill Enhancement (SEC)">Skill Enhancement</option>
+                        <option value="Vocational (VOC)">Vocational</option>
+                        <option value="Ability Enhancement (AEC)">Ability Enhancement</option>
+                        <option value="Value Added (VAC)">Value Added</option>
+                        <option value="Dissertation / Research">Research</option>
                     </select>
 
-                    <a href="BHU_NEP_Master_Combined_PYQ_Tracker.csv" download class="bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 text-neutral-800 px-3 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-1 shadow-2xs shrink-0">
+                    <a href="BHU_NEP_Master_Combined_PYQ_Tracker.csv" download class="col-span-2 sm:col-span-1 bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 text-neutral-800 px-2.5 py-2 rounded-xl text-xs font-bold transition-all flex items-center justify-center gap-1 shadow-2xs">
                         <span class="material-symbols-outlined text-sm text-neutral-600">download</span>
-                        <span class="hidden sm:inline">Export CSV</span>
+                        <span>Export Master CSV</span>
                     </a>
                 </div>
             </div>
@@ -252,44 +255,45 @@
 
         function renderRowHtml(c) {
             let statusBadge = '';
-            if (c.status === 'Complete') {
-                statusBadge = `<span class="bg-emerald-100 text-emerald-800 font-bold px-2 py-0.5 rounded text-[10px] border border-emerald-300">Complete</span>`;
+            if (c.status === 'Complete' || c.status === 'Completed') {
+                statusBadge = `<span class="bg-emerald-100 text-emerald-800 font-extrabold px-2 py-0.5 rounded-md text-[10px] border border-emerald-200 shrink-0">✓ Complete</span>`;
             } else if (c.status === 'Partial') {
-                statusBadge = `<span class="bg-amber-100 text-amber-800 font-bold px-2 py-0.5 rounded text-[10px] border border-amber-300">Partial</span>`;
+                statusBadge = `<span class="bg-amber-100 text-amber-800 font-extrabold px-2 py-0.5 rounded-md text-[10px] border border-amber-200 shrink-0">⚠ Partial</span>`;
             } else {
-                statusBadge = `<span class="bg-rose-100 text-rose-800 font-bold px-2 py-0.5 rounded text-[10px] border border-rose-300">Pending</span>`;
+                statusBadge = `<span class="bg-rose-100 text-rose-800 font-extrabold px-2 py-0.5 rounded-md text-[10px] border border-rose-200 shrink-0">✕ Pending</span>`;
             }
 
-            let midBadge = String(c.mid || '').includes('Present') 
-                ? `<span class="text-emerald-600 font-bold text-[11px]">✅ ${c.mid}</span>` 
-                : `<span class="text-rose-500 font-bold text-[11px]">❌ Missing</span>`;
+            let midText = String(c.mid || '').includes('Present') 
+                ? `<span class="text-emerald-700 font-bold">✓ Mid</span>` 
+                : `<span class="text-rose-600 font-bold">✕ Mid</span>`;
                 
-            let endBadge = String(c.end || '').includes('Present') 
-                ? `<span class="text-emerald-600 font-bold text-[11px]">✅ ${c.end}</span>` 
-                : `<span class="text-rose-500 font-bold text-[11px]">❌ Missing</span>`;
+            let endText = String(c.end || '').includes('Present') 
+                ? `<span class="text-emerald-700 font-bold">✓ End</span>` 
+                : `<span class="text-rose-600 font-bold">✕ End</span>`;
 
             return `
                 <!-- Desktop Table Row -->
                 <tr class="hidden sm:table-row hover:bg-neutral-50/80 transition-colors border-b border-neutral-100">
-                    <td class="py-2.5 px-4 font-mono font-bold text-primary">${c.code || ''}</td>
-                    <td class="py-2.5 px-4 font-bold text-neutral-900">${c.name || ''}</td>
+                    <td class="py-2.5 px-4 font-mono font-bold text-primary text-xs">${c.code || ''}</td>
+                    <td class="py-2.5 px-4 font-bold text-neutral-900 text-xs">${c.name || ''}</td>
                     <td class="py-2.5 px-4 text-neutral-500 text-[11px] truncate max-w-[200px]">${c.department || ''}</td>
-                    <td class="py-2.5 px-4 text-center">${midBadge}</td>
-                    <td class="py-2.5 px-4 text-center">${endBadge}</td>
-                    <td class="py-2.5 px-4 text-center">${statusBadge}</td>
+                    <td class="py-2.5 px-4 text-center text-xs">${midText}</td>
+                    <td class="py-2.5 px-4 text-center text-xs">${endText}</td>
+                    <td class="py-2.5 px-4 text-center text-xs">${statusBadge}</td>
                 </tr>
-                <!-- Mobile Responsive Card Row -->
-                <tr class="sm:hidden border-b border-neutral-200/80 bg-white">
-                    <td colspan="6" class="p-3.5">
-                        <div class="flex items-center justify-between gap-2 mb-1.5">
-                            <span class="font-mono font-black text-xs text-primary bg-neutral-100 px-2 py-0.5 rounded border border-neutral-200">${c.code || ''}</span>
+                <!-- Minimal Mobile Card Row -->
+                <tr class="sm:hidden border-b border-neutral-150 bg-white">
+                    <td colspan="6" class="p-3">
+                        <div class="flex items-center justify-between gap-2 mb-1">
+                            <span class="font-mono font-extrabold text-[11px] text-neutral-900 bg-neutral-100 px-2 py-0.5 rounded border border-neutral-200/90">${c.code || ''}</span>
                             <div>${statusBadge}</div>
                         </div>
-                        <h4 class="font-extrabold text-sm text-neutral-900 leading-snug mb-1">${c.name || ''}</h4>
-                        <p class="text-[11px] text-neutral-500 mb-2.5 font-medium">${c.department || ''}</p>
-                        <div class="flex items-center justify-between text-xs pt-2 border-t border-neutral-100 bg-neutral-50/70 -mx-3.5 -mb-3.5 p-2.5 rounded-b-xl">
-                            <div class="flex items-center gap-1"><span class="text-neutral-400 font-semibold text-[10px] uppercase">Mid:</span> ${midBadge}</div>
-                            <div class="flex items-center gap-1"><span class="text-neutral-400 font-semibold text-[10px] uppercase">End:</span> ${endBadge}</div>
+                        <h4 class="font-extrabold text-xs text-neutral-900 leading-snug mb-0.5">${c.name || ''}</h4>
+                        <p class="text-[10.5px] text-neutral-500 font-medium truncate mb-1.5">${c.department || ''}</p>
+                        <div class="flex items-center gap-3 text-[11px] font-semibold text-neutral-600 border-t border-neutral-100 pt-1.5">
+                            <div class="flex items-center gap-1">${midText}</div>
+                            <span class="text-neutral-300">•</span>
+                            <div class="flex items-center gap-1">${endText}</div>
                         </div>
                     </td>
                 </tr>
