@@ -906,10 +906,10 @@ const NEP_PYQ_TRACKER_DATA = [
     "name": "Gymnosperm and Paleobotany",
     "type": "Major",
     "credits": 3,
-    "years": "N/A",
-    "mid": "Missing",
-    "end": "Missing",
-    "status": "Pending"
+    "years": "2025-26",
+    "mid": "N/A",
+    "end": "Added",
+    "status": "Completed"
   },
   {
     "category": "Major",
@@ -932,10 +932,10 @@ const NEP_PYQ_TRACKER_DATA = [
     "name": "Plant Ecology",
     "type": "Major",
     "credits": 3,
-    "years": "N/A",
-    "mid": "Missing",
-    "end": "Missing",
-    "status": "Pending"
+    "years": "2025-26",
+    "mid": "N/A",
+    "end": "Added",
+    "status": "Completed"
   },
   {
     "category": "Major",
@@ -958,10 +958,10 @@ const NEP_PYQ_TRACKER_DATA = [
     "name": "Microbial Resource",
     "type": "Major",
     "credits": 1,
-    "years": "N/A",
-    "mid": "Missing",
-    "end": "Missing",
-    "status": "Pending"
+    "years": "2025-26",
+    "mid": "N/A",
+    "end": "Added",
+    "status": "Completed"
   },
   {
     "category": "Major",
@@ -2155,9 +2155,9 @@ const NEP_PYQ_TRACKER_DATA = [
     "type": "Major",
     "credits": 3,
     "years": "2024-25",
-    "mid": "Missing",
+    "mid": "Present (2024-25)",
     "end": "Present (2024-25)",
-    "status": "Partial"
+    "status": "Complete"
   },
   {
     "category": "Major",
@@ -7007,10 +7007,10 @@ const NEP_PYQ_TRACKER_DATA = [
     "name": "Man and Environment",
     "type": "Skill Enhancement",
     "credits": 3,
-    "years": "N/A",
+    "years": "2024-25",
     "mid": "Missing",
-    "end": "Missing",
-    "status": "Pending"
+    "end": "Present (2024-25)",
+    "status": "Partial"
   },
   {
     "category": "Skill Enhancement (SEC)",
@@ -7075,8 +7075,8 @@ const NEP_PYQ_TRACKER_DATA = [
     "department": "Department of History, Faculty of Social Sciences",
     "semester": "Semester 1",
     "mid": "Missing",
-    "end": "Missing",
-    "status": "Pending"
+    "end": "Present (2024-25)",
+    "status": "Partial"
   },
   {
     "category": "Dissertation / Research",

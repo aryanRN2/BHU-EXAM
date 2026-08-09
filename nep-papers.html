@@ -314,15 +314,17 @@
     const params = new URLSearchParams(window.location.search);
     const deptKey = params.get('dept') || 'physics';
 
+    const artsDeptKeys = ['arts', 'faculty of arts', 'aihc', 'history', 'hindi', 'english', 'philosophy', 'sociology', 'economics', 'politicalscience', 'political science'];
+
     window.handleNavBack = function() {
-        if (deptKey === 'additional' || deptKey === 'optional') {
+        if (deptKey === 'additional' || deptKey === 'optional' || deptKey === 'commerce') {
             if (selectedSubCategory) {
                 renderAdditionalCategories();
                 return;
             }
             window.location.href = 'nep-pyq.html';
-        } else if (deptKey === 'commerce') {
-            window.location.href = 'nep-pyq.html';
+        } else if (artsDeptKeys.includes(deptKey.toLowerCase())) {
+            window.location.href = 'nep-arts.html';
         } else {
             window.location.href = 'nep-science.html';
         }
@@ -341,6 +343,17 @@
         'botany': 'Botany',
         'zoology': 'Zoology',
         'commerce': 'Commerce',
+        'arts': 'Faculty of Arts',
+        'faculty of arts': 'Faculty of Arts',
+        'aihc': 'A.I.H.C. & Archaeology',
+        'history': 'History',
+        'hindi': 'Hindi',
+        'english': 'English',
+        'philosophy': 'Philosophy',
+        'sociology': 'Sociology',
+        'economics': 'Economics',
+        'politicalscience': 'Political Science',
+        'political science': 'Political Science',
         'additional': 'Optional & Additional',
         'optional': 'Optional & Additional'
     };
@@ -349,15 +362,44 @@
     document.getElementById('deptBadge').textContent = deptBadgeLabel;
     document.getElementById('deptTitle').textContent = `${deptBadgeLabel} PYQs`;
 
-    // Filter papers to current department, mapping shorthand like 'maths' to 'Mathematics'
+    // Filter papers to current department
     const targetDept = (deptLabels[deptKey] || deptKey).toLowerCase();
     const activePapers = NEP_LATEX_PYQ_DATA.filter(p => {
-        if (deptKey === 'additional' || deptKey === 'optional') {
-            const code = (p.code || p.nepCode || '').toUpperCase();
+        const dk = deptKey.toLowerCase();
+        const code = (p.code || p.nepCode || '').toUpperCase();
+        const dept = (p.department || p.subject || '').toLowerCase();
+
+        if (dk === 'arts' || dk === 'faculty of arts') {
+            return dept.includes('arts') || dept.includes('history') || dept.includes('aihc') || dept.includes('archaeology') || dept.includes('hindi') || dept.includes('english') || dept.includes('philosophy') || dept.includes('sociology') || dept.includes('political') || dept.includes('economics') || code.startsWith('AIH') || code.startsWith('HIS') || code.startsWith('HIN') || code.startsWith('ENG') || code.startsWith('PHI') || code.startsWith('SOC') || code.startsWith('POL') || code.startsWith('ECO');
+        }
+        if (dk === 'aihc') {
+            return dept.includes('aihc') || dept.includes('archaeology') || code.startsWith('AIH');
+        }
+        if (dk === 'history') {
+            return (dept.includes('history') || code.startsWith('HIS')) && !dept.includes('aihc') && !code.startsWith('AIH');
+        }
+        if (dk === 'hindi') {
+            return dept.includes('hindi') || code.startsWith('HIN');
+        }
+        if (dk === 'english') {
+            return dept.includes('english') || code.startsWith('ENG');
+        }
+        if (dk === 'philosophy') {
+            return dept.includes('philosophy') || code.startsWith('PHI');
+        }
+        if (dk === 'sociology') {
+            return dept.includes('sociology') || code.startsWith('SOC');
+        }
+        if (dk === 'economics') {
+            return dept.includes('economics') || code.startsWith('ECO');
+        }
+        if (dk === 'politicalscience' || dk === 'political science') {
+            return dept.includes('political') || code.startsWith('POL');
+        }
+        if (dk === 'additional' || dk === 'optional') {
             return code.includes('AE') || code.includes('AEC') || code.includes('VAC') || code.includes('MD') || code.includes('MDC') || code.includes('SE') || code.includes('SEC') || code.includes('V') || (p.department && (p.department.toLowerCase().includes('additional') || p.department.toLowerCase().includes('optional')));
         }
-        const dept = (p.department || p.subject || '').toLowerCase();
-        return dept === targetDept || dept === deptKey.toLowerCase();
+        return dept === targetDept || dept === dk;
     });
 
     const NEP_COURSE_NAMES = {
@@ -497,6 +539,23 @@
         'MATMJ613': 'Graph Theory',
         'MATMJ614': 'Vedic Mathematics',
         'MATMJ62': 'Complex Analysis',
+        // Philosophy & Arts
+        'PHIMN31': 'Philosophical Counseling',
+        'SANMJ31': 'Sanskrit Sahitya-II (Mahakavya)',
+        'SANMJ32': 'Vyakaran-II (Vyakaran Evam Bhasha Vigyan)',
+        'ENGSE31': 'Advanced Communication Skills in English',
+        'VDVMD31': 'Vedanta',
+        'PHIMJ41': 'Contemporary Indian Philosophy',
+        'PHIMJ42': 'Contemporary Western Philosophy',
+        'PHIMJ43': 'An Introduction to Philosophy of Religion',
+        'PHIMJ44': 'Introduction to Political Philosophy',
+        'PHIMJ31': 'Ethics',
+        // AIHC & History
+        'AIHMN41': 'Political Ideas and Institutions of Ancient India',
+        'HISMD11': 'Introduction to Tribal History of India',
+        // Value Added & Environmental
+        'BHUVA12': 'Environmental Science',
+        // Mathematics
         'MATMJ63': 'Differential Geometry',
         'MATMJ64': 'Number Theory',
         'MATMJ65': 'Linear Programming and Applications',
@@ -760,6 +819,11 @@
         'GLBMJ63': 'Hydrogeology, Environmental Geology & Exploration',
         'GLBMJ64': 'Economic Geology',
         // Botany Major
+        'BOTMJ43': 'Gymnosperms and Paleobotany',
+        'BOTMJ47': 'Microbial Resources',
+        'BOTMJ45': 'Plant Ecology',
+        'BOTMJ41': 'Gymnosperms and Paleobotany',
+        'BOTMJ21': 'General Microbiology',
         'BOBMJ11': 'Cryptogams',
         'BOBMJ21': 'Microbiology, Plant Pathology, Cytology & Genetics',
         'BOBMJ31': 'Plant Ecology & Physiology',

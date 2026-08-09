@@ -100,11 +100,11 @@ This master tracker strictly includes **NEP 2020 undergraduate course codes and 
 | Skill Enhancement (SEC) | Department of Botany | Semester 3 | **BOTSE32** | Lab Work Based on Paper BOTSE31 | N/A | ❌ Missing | ❌ Missing | **Pending** |
 | Major | Department of Botany | Semester 4 | **BOTMJ41** | Angiosperm Taxonomy | 2025-26 | ❌ Missing | ✅ Present (2025-26) | **Partial** |
 | Major | Department of Botany | Semester 4 | **BOTMJ42** | Lab Work Based on Paper BOTMJ41 | N/A | ❌ Missing | ❌ Missing | **Pending** |
-| Major | Department of Botany | Semester 4 | **BOTMJ43** | Gymnosperm and Paleobotany | N/A | ❌ Missing | ❌ Missing | **Pending** |
+| Major | Department of Botany | Semester 4 | **BOTMJ43** | Gymnosperm and Paleobotany | 2025-26 | N/A | ✅ Added | **Completed** |
 | Major | Department of Botany | Semester 4 | **BOTMJ44** | Lab Work Based on Paper BOTMJ43 | N/A | ❌ Missing | ❌ Missing | **Pending** |
-| Major | Department of Botany | Semester 4 | **BOTMJ45** | Plant Ecology | N/A | ❌ Missing | ❌ Missing | **Pending** |
+| Major | Department of Botany | Semester 4 | **BOTMJ45** | Plant Ecology | 2025-26 | N/A | ✅ Added | **Completed** |
 | Major | Department of Botany | Semester 4 | **BOTMJ46** | Lab Work Based on Paper BOTMJ45 | N/A | ❌ Missing | ❌ Missing | **Pending** |
-| Major | Department of Botany | Semester 4 | **BOTMJ47** | Microbial Resource | N/A | ❌ Missing | ❌ Missing | **Pending** |
+| Major | Department of Botany | Semester 4 | **BOTMJ47** | Microbial Resource | 2025-26 | N/A | ✅ Added | **Completed** |
 | Major | Department of Botany | Semester 4 | **BOTMJ48** | Lab Work Based on Paper BOTMJ47 | N/A | ❌ Missing | ❌ Missing | **Pending** |
 | Minor | Department of Botany | Semester 4 | **BOTMN41** | Angiosperm Taxonomy | N/A | ❌ Missing | ❌ Missing | **Pending** |
 | Minor | Department of Botany | Semester 4 | **BOTMN42** | Lab Work Based on Paper BOTMN41 | N/A | ❌ Missing | ❌ Missing | **Pending** |
@@ -183,7 +183,7 @@ This master tracker strictly includes **NEP 2020 undergraduate course codes and 
 | Minor | Department of Botany | Semester 8 | **BOTMN87** | Plant Diseases and Protection | N/A | ❌ Missing | ❌ Missing | **Pending** |
 | Minor | Department of Botany | Semester 8 | **BOTMN88** | Lab Work Based on Paper BOTMN87 | N/A | ❌ Missing | ❌ Missing | **Pending** |
 | Multidisciplinary (MD/MDC) | Department of Chemistry | Semester 1 | **CHEMD11** | Basic Principles of Chemistry and Its Applications in Daily Life | N/A | ❌ Missing | ❌ Missing | **Pending** |
-| Major | Department of Chemistry | Semester 1 | **CHEMJ11** | Basic Concepts of Chemistry-I | 2024-25 | ❌ Missing | ✅ Present (2024-25) | **Partial** |
+| Major | Department of Chemistry | Semester 1 | **CHEMJ11** | Basic Concepts of Chemistry-I | 2024-25 | ✅ Present (2024-25) | ✅ Present (2024-25) | **Complete** |
 | Major | Department of Chemistry | Semester 1 | **CHEMJ12** | Lab Work-I | N/A | ❌ Missing | ❌ Missing | **Pending** |
 | Minor | Department of Chemistry | Semester 1 | **CHEMN11** | Basic Concepts of Chemistry-I | 2024-25 | ✅ Present (2024-25) | ✅ Present (2024-25) | **Complete** |
 | Minor | Department of Chemistry | Semester 1 | **CHEMN12** | Lab Work-I | N/A | ❌ Missing | ❌ Missing | **Pending** |
@@ -395,7 +395,7 @@ This master tracker strictly includes **NEP 2020 undergraduate course codes and 
 | Major | Department of Geography | Semester 1 | **GGRMJ12** | Map Reading and Interpretation | N/A | ❌ Missing | ❌ Missing | **Pending** |
 | Minor | Department of Geography | Semester 1 | **GGRMN11** | Physical Geography | N/A | ❌ Missing | ❌ Missing | **Pending** |
 | Minor | Department of Geography | Semester 1 | **GGRMN12** | Map Reading and Interpretation | N/A | ❌ Missing | ❌ Missing | **Pending** |
-| Skill Enhancement (SEC) | Department of Geography | Semester 1 | **GGRSE11** | Man and Environment | N/A | ❌ Missing | ❌ Missing | **Pending** |
+| Skill Enhancement (SEC) | Department of Geography | Semester 1 | **GGRSE11** | Man and Environment | 2024-25 | ❌ Missing | ✅ Present (2024-25) | **Partial** |
 | Multidisciplinary (MD/MDC) | Department of Geography | Semester 2 | **GGRMD21** | Environmental Ethics and Sustainability | N/A | ❌ Missing | ❌ Missing | **Pending** |
 | Major | Department of Geography | Semester 2 | **GGRMJ21** | Human Geography | 2024-25 | ❌ Missing | ✅ Present (2024-25) | **Partial** |
 | Major | Department of Geography | Semester 2 | **GGRMJ22** | Map Projection and Weather Map | N/A | ❌ Missing | ❌ Missing | **Pending** |
