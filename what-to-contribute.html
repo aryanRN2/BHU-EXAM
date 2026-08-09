@@ -162,13 +162,20 @@
                 </div>
 
                 <!-- Filters & Export Grid -->
-                <div class="grid grid-cols-2 sm:grid-cols-3 gap-2 w-full">
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 w-full">
                     <select id="guideStatusFilter" onchange="filterGuideTracker()"
                             class="w-full bg-neutral-50 border border-neutral-300 rounded-xl text-xs font-bold text-neutral-700 px-2.5 py-2 focus:outline-none focus:ring-2 focus:ring-accent-bhu-saffron/40 focus:border-accent-bhu-saffron cursor-pointer truncate shadow-2xs">
                         <option value="ALL" selected>All Status</option>
                         <option value="Pending">Pending / Missing</option>
                         <option value="Partial">Partial</option>
                         <option value="Complete">Complete</option>
+                    </select>
+
+                    <select id="guideSessionFilter" onchange="filterGuideTracker()"
+                            class="w-full bg-neutral-50 border border-neutral-300 rounded-xl text-xs font-bold text-neutral-700 px-2.5 py-2 focus:outline-none focus:ring-2 focus:ring-accent-bhu-saffron/40 focus:border-accent-bhu-saffron cursor-pointer truncate shadow-2xs">
+                        <option value="ALL" selected>All Sessions</option>
+                        <option value="2024-25">2024-2025</option>
+                        <option value="2025-26">2025-2026</option>
                     </select>
 
                     <select id="guideCategoryFilter" onchange="filterGuideTracker()"
@@ -186,7 +193,7 @@
 
                     <a href="BHU_NEP_Master_Combined_PYQ_Tracker.csv" download class="col-span-2 sm:col-span-1 bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 text-neutral-800 px-2.5 py-2 rounded-xl text-xs font-bold transition-all flex items-center justify-center gap-1 shadow-2xs">
                         <span class="material-symbols-outlined text-sm text-neutral-600">download</span>
-                        <span>Export Master CSV</span>
+                        <span>Export CSV</span>
                     </a>
                 </div>
             </div>
@@ -200,6 +207,7 @@
                                 <th class="py-3 px-4">Code</th>
                                 <th class="py-3 px-4">Course Name</th>
                                 <th class="py-3 px-4">Department</th>
+                                <th class="py-3 px-4 text-center">Session</th>
                                 <th class="py-3 px-4 text-center">Mid-Term</th>
                                 <th class="py-3 px-4 text-center">End-Term</th>
                                 <th class="py-3 px-4 text-center">Status</th>
@@ -263,6 +271,18 @@
                 statusBadge = `<span class="bg-rose-100 text-rose-800 font-extrabold px-2 py-0.5 rounded-md text-[10px] border border-rose-200 shrink-0">✕ Pending</span>`;
             }
 
+            let yearText = (c.years && c.years !== 'N/A' && c.years !== 'None') ? c.years : '';
+            if (!yearText) {
+                let yArr = [];
+                if (String(c.mid || '').includes('2024-25') || String(c.end || '').includes('2024-25')) yArr.push('2024-25');
+                if (String(c.mid || '').includes('2025-26') || String(c.end || '').includes('2025-26')) yArr.push('2025-26');
+                yearText = yArr.join(', ') || 'N/A';
+            }
+
+            let sessionBadge = yearText !== 'N/A' 
+                ? `<span class="bg-neutral-100 text-neutral-800 px-2 py-0.5 rounded text-[11px] font-mono font-bold border border-neutral-200/90">${yearText}</span>` 
+                : `<span class="text-neutral-400 text-[11px]">—</span>`;
+
             let midText = String(c.mid || '').includes('Present') 
                 ? `<span class="text-emerald-700 font-bold">✓ Mid</span>` 
                 : `<span class="text-rose-600 font-bold">✕ Mid</span>`;
@@ -277,15 +297,19 @@
                     <td class="py-2.5 px-4 font-mono font-bold text-primary text-xs">${c.code || ''}</td>
                     <td class="py-2.5 px-4 font-bold text-neutral-900 text-xs">${c.name || ''}</td>
                     <td class="py-2.5 px-4 text-neutral-500 text-[11px] truncate max-w-[200px]">${c.department || ''}</td>
+                    <td class="py-2.5 px-4 text-center text-xs whitespace-nowrap">${sessionBadge}</td>
                     <td class="py-2.5 px-4 text-center text-xs">${midText}</td>
                     <td class="py-2.5 px-4 text-center text-xs">${endText}</td>
                     <td class="py-2.5 px-4 text-center text-xs">${statusBadge}</td>
                 </tr>
                 <!-- Minimal Mobile Card Row -->
                 <tr class="sm:hidden border-b border-neutral-150 bg-white">
-                    <td colspan="6" class="p-3">
+                    <td colspan="7" class="p-3">
                         <div class="flex items-center justify-between gap-2 mb-1">
-                            <span class="font-mono font-extrabold text-[11px] text-neutral-900 bg-neutral-100 px-2 py-0.5 rounded border border-neutral-200/90">${c.code || ''}</span>
+                            <div class="flex items-center gap-1.5 flex-wrap">
+                                <span class="font-mono font-extrabold text-[11px] text-neutral-900 bg-neutral-100 px-2 py-0.5 rounded border border-neutral-200/90">${c.code || ''}</span>
+                                ${yearText !== 'N/A' ? `<span class="font-mono font-bold text-[10px] text-neutral-600 bg-neutral-50 px-1.5 py-0.5 rounded border border-neutral-200">${yearText}</span>` : ''}
+                            </div>
                             <div>${statusBadge}</div>
                         </div>
                         <h4 class="font-extrabold text-xs text-neutral-900 leading-snug mb-0.5">${c.name || ''}</h4>
@@ -308,6 +332,9 @@
 
             const total = filteredGuideData.length;
             if (renderedCount >= total) {
+                if (renderedCount === 0) {
+                    tbody.innerHTML = `<tr><td colspan="7" class="py-8 text-center text-neutral-400 text-xs font-medium">No matching courses found in tracker.</td></tr>`;
+                }
                 if (indicator) indicator.classList.add('hidden');
                 return;
             }
@@ -323,7 +350,7 @@
 
             if (renderedCount === 0) {
                 if (total === 0) {
-                    tbody.innerHTML = `<tr><td colspan="6" class="py-8 text-center text-neutral-400 text-xs font-medium">No matching courses found in tracker.</td></tr>`;
+                    tbody.innerHTML = `<tr><td colspan="7" class="py-8 text-center text-neutral-400 text-xs font-medium">No matching courses found in tracker.</td></tr>`;
                 } else {
                     tbody.innerHTML = html;
                 }
@@ -353,9 +380,11 @@
             const queryTokens = rawQuery ? rawQuery.split(/\s+/).filter(Boolean) : [];
             const cat = document.getElementById('guideCategoryFilter')?.value || 'ALL';
             const stat = document.getElementById('guideStatusFilter')?.value || 'ALL';
+            const sess = document.getElementById('guideSessionFilter')?.value || 'ALL';
 
             const source = (typeof NEP_PYQ_TRACKER_DATA !== 'undefined' && Array.isArray(NEP_PYQ_TRACKER_DATA)) ? NEP_PYQ_TRACKER_DATA : [];
             filteredGuideData = source.filter(c => {
+                const yearsVal = (c.years && c.years !== 'N/A' && c.years !== 'None') ? c.years : [c.mid || '', c.end || ''].join(' ');
                 const fullSearchableText = [
                     c.code || '',
                     c.name || '',
@@ -363,6 +392,7 @@
                     c.category || '',
                     c.type || '',
                     c.semester || '',
+                    c.years || '',
                     c.mid || '',
                     c.end || '',
                     c.status || ''
@@ -371,8 +401,9 @@
                 const matchQuery = queryTokens.length === 0 || queryTokens.every(token => fullSearchableText.includes(token));
                 const matchCat = cat === 'ALL' || c.category === cat;
                 const matchStat = stat === 'ALL' || c.status === stat;
+                const matchSess = sess === 'ALL' || yearsVal.includes(sess);
 
-                return matchQuery && matchCat && matchStat;
+                return matchQuery && matchCat && matchStat && matchSess;
             });
 
             const totalDisplay = document.getElementById('totalCountDisplay');
