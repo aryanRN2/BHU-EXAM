@@ -6084,10 +6084,10 @@ const NEP_PYQ_TRACKER_DATA = [
     "name": "Environmental Ethics and Sustainability",
     "type": "Multidisciplinary",
     "credits": 3,
-    "years": "N/A",
+    "years": "2025-26",
     "mid": "Missing",
-    "end": "Missing",
-    "status": "Pending"
+    "end": "Present (2025-26)",
+    "status": "Complete"
   },
   {
     "category": "Multidisciplinary (MD/MDC)",
@@ -9905,9 +9905,9 @@ const NEP_PYQ_TRACKER_DATA = [
     "type": "Minor (Vocational)",
     "credits": 3,
     "years": "2025-26",
-    "mid": "Missing",
+    "mid": "Present (2025-26)",
     "end": "Present (2025-26)",
-    "status": "Partial"
+    "status": "Complete"
   },
   {
     "category": "Vocational (VOC)",

@@ -524,6 +524,38 @@ export const NEP_LATEX_PYQ_DATA = [
     "isNepPaper": true
   },
   {
+    "code": "PHYMN31",
+    "courseType": "Minor",
+    "name": "B.Sc. (Hons) Semester III Re-Mid Term Examination 2025-26 (NEP) - PHYMN31: Applied Electronics and Fiber Optics (Batch P2)",
+    "filePath": "aaa/ALL_PYQS_LATEX/PHYMN31_AppliedElectronicsAndFiberOptics_SemIII_MidTerm_2025-26.tex",
+    "fileName": "PHYMN31_AppliedElectronicsAndFiberOptics_SemIII_MidTerm_2025-26.tex",
+    "nepCode": "PHYMN31 / PHYMJ31 / PHYMV31",
+    "oldCode": "PHYMN31",
+    "subject": "Physics",
+    "department": "Department of Physics",
+    "semester": "Semester III",
+    "year": "2025-26",
+    "type": "NEP",
+    "examType": "Mid Term",
+    "isNepPaper": true
+  },
+  {
+    "code": "PHYMN31",
+    "courseType": "Minor",
+    "name": "B.Sc. (Hons) Semester III Re-Mid Term Examination 2025-26 (NEP) - PHYMN31: Applied Electronics and Fiber Optics (Batch P1)",
+    "filePath": "aaa/ALL_PYQS_LATEX/PHYMN31_AppliedElectronics_SemIII_MidTerm_BatchP1_2025-26.tex",
+    "fileName": "PHYMN31_AppliedElectronics_SemIII_MidTerm_BatchP1_2025-26.tex",
+    "nepCode": "PHYMN31 / PHYMJ31 / PHYMV31",
+    "oldCode": "PHYMN31",
+    "subject": "Physics",
+    "department": "Department of Physics",
+    "semester": "Semester III",
+    "year": "2025-26",
+    "type": "NEP",
+    "examType": "Mid Term",
+    "isNepPaper": true
+  },
+  {
     "code": "CHEMJ33",
     "courseType": "Major",
     "name": "B.Sc. (Hons) Semester III (NEP) Examination 2025-26 - CHEMJ33: Physical Chemistry-I",
@@ -729,6 +761,22 @@ export const NEP_LATEX_PYQ_DATA = [
     "year": "2024-25",
     "type": "NEP",
     "examType": "Mid Term",
+    "isNepPaper": true
+  },
+  {
+    "code": "GGRMD21",
+    "courseType": "Multidisciplinary",
+    "name": "Under Graduate Semester II Examination 2025-26 (NEP) - GGRMD21: Environmental Ethics and Sustainability",
+    "filePath": "aaa/ALL_PYQS_LATEX/GGRMD21_EnvironmentalEthicsAndSustainability_SemII_2025-26.tex",
+    "fileName": "GGRMD21_EnvironmentalEthicsAndSustainability_SemII_2025-26.tex",
+    "nepCode": "GGRMD21",
+    "oldCode": "GGRMD21",
+    "subject": "Geography",
+    "department": "Geography",
+    "semester": "Semester II",
+    "year": "2025-26",
+    "type": "NEP",
+    "examType": "End Term",
     "isNepPaper": true
   },
   {

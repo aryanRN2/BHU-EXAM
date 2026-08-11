@@ -396,7 +396,7 @@ This master tracker strictly includes **NEP 2020 undergraduate course codes and 
 | Minor | Department of Geography | Semester 1 | **GGRMN11** | Physical Geography | N/A | ❌ Missing | ❌ Missing | **Pending** |
 | Minor | Department of Geography | Semester 1 | **GGRMN12** | Map Reading and Interpretation | N/A | ❌ Missing | ❌ Missing | **Pending** |
 | Skill Enhancement (SEC) | Department of Geography | Semester 1 | **GGRSE11** | Man and Environment | 2024-25 | ❌ Missing | ✅ Present (2024-25) | **Partial** |
-| Multidisciplinary (MD/MDC) | Department of Geography | Semester 2 | **GGRMD21** | Environmental Ethics and Sustainability | N/A | ❌ Missing | ❌ Missing | **Pending** |
+| Multidisciplinary (MD/MDC) | Department of Geography | Semester 2 | **GGRMD21** | Environmental Ethics and Sustainability | 2025-26 | ❌ Missing | ✅ Present (2025-26) | **Complete** |
 | Major | Department of Geography | Semester 2 | **GGRMJ21** | Human Geography | 2024-25 | ❌ Missing | ✅ Present (2024-25) | **Partial** |
 | Major | Department of Geography | Semester 2 | **GGRMJ22** | Map Projection and Weather Map | N/A | ❌ Missing | ❌ Missing | **Pending** |
 | Minor | Department of Geography | Semester 2 | **GGRMN21** | Human Geography | N/A | ❌ Missing | ❌ Missing | **Pending** |
@@ -700,7 +700,7 @@ This master tracker strictly includes **NEP 2020 undergraduate course codes and 
 | Major | Department of Physics | Semester 3 | **PHYMJ31** | Wave & Wave Optics | N/A | ❌ Missing | ❌ Missing | **Pending** |
 | Major | Department of Physics | Semester 3 | **PHYMJ32** | Physics of Semiconductors and Devices | N/A | ❌ Missing | ❌ Missing | **Pending** |
 | Major | Department of Physics | Semester 3 | **PHYMJ33** | Physics Laboratory 3 | N/A | ❌ Missing | ❌ Missing | **Pending** |
-| Vocational (VOC) | Department of Physics | Semester 3 | **PHYMV31** | Applied Electronics and Fiber Optics* | 2025-26 | ❌ Missing | ✅ Present (2025-26) | **Partial** |
+| Vocational (VOC) | Department of Physics | Semester 3 | **PHYMV31** / **PHYMN31** | Applied Electronics and Fiber Optics* | 2025-26 | ✅ Present (2025-26) | ✅ Present (2025-26) | **Complete** |
 | Vocational (VOC) | Department of Physics | Semester 3 | **PHYMV32** | Minor Vocational Laboratory 1 | N/A | ❌ Missing | ❌ Missing | **Pending** |
 | Skill Enhancement (SEC) | Department of Physics | Semester 3 | **PHYSE31** | Computational Physics: Programming and Data Analysis (max. intake | 2024-25, 2025-26 | ✅ Present (2024-25) | ✅ Present (2025-26) | **Complete** |
 | Skill Enhancement (SEC) | Department of Physics | Semester 3 | **PHYSE32** | Skill Course Laboratory 2 | N/A | ❌ Missing | ❌ Missing | **Pending** |

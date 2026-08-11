@@ -51,7 +51,7 @@ This tracker focuses specifically on **MD**, **SEC**, **Minor**, and **Vocationa
 | Department of English, Faculty of Arts | Semester 1 | **ENGMD-11** | Literature and Popular Culture | N/A | ❌ Missing | ❌ Missing | **Pending** |
 | Department of English, Faculty of Arts | Semester 3 | **ENGMD-31** | Fantasy and Science Fiction | N/A | ❌ Missing | ❌ Missing | **Pending** |
 | Department of Geography | Semester 1 | **GGRMD11** | Introduction to Earth System | N/A | ❌ Missing | ❌ Missing | **Pending** |
-| Department of Geography | Semester 2 | **GGRMD21** | Environmental Ethics and Sustainability | N/A | ❌ Missing | ❌ Missing | **Pending** |
+| Department of Geography | Semester 2 | **GGRMD21** | Environmental Ethics and Sustainability | 2025-26 | ❌ Missing | ✅ Present (2025-26) | **Complete** |
 | Department of Geography | Semester 3 | **GGRMD31** | Global Environmental Challenges | N/A | ❌ Missing | ❌ Missing | **Pending** |
 | Department of Geology | Semester 1 | **ESMD11** | Evolving Earth | N/A | ❌ Missing | ❌ Missing | **Pending** |
 | Department of Geology | Semester 2 | **ESMD21** | Earth, Environment and Society | N/A | ❌ Missing | ❌ Missing | **Pending** |

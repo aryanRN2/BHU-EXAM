@@ -9,7 +9,6 @@ pull-stitch.js
 pull-stitch.mjs
 .env
 **/*.pdf
-!NOTES/**/*.pdf
 *.aux
 *.out
 *.toc

@@ -399,7 +399,18 @@
         if (dk === 'additional' || dk === 'optional') {
             return code.includes('AE') || code.includes('AEC') || code.includes('VAC') || code.includes('MD') || code.includes('MDC') || code.includes('SE') || code.includes('SEC') || code.includes('V') || (p.department && (p.department.toLowerCase().includes('additional') || p.department.toLowerCase().includes('optional')));
         }
-        return dept === targetDept || dept === dk;
+        if (dk === 'physics') return dept.includes('physics') || code.startsWith('PHY');
+        if (dk === 'chemistry') return dept.includes('chem') || code.startsWith('CHE');
+        if (dk === 'maths' || dk === 'mathematics') return dept.includes('math') || code.startsWith('MAT');
+        if (dk === 'geography') return dept.includes('geography') || code.startsWith('GGR');
+        if (dk === 'geology') return dept.includes('geology') || dept.includes('earth') || code.startsWith('ES');
+        if (dk === 'statistics') return dept.includes('stat') || code.startsWith('STA');
+        if (dk === 'computerscience' || dk === 'computer science') return dept.includes('computer') || code.startsWith('CSC');
+        if (dk === 'botany') return dept.includes('botany') || code.startsWith('BOT');
+        if (dk === 'zoology') return dept.includes('zoology') || code.startsWith('ZOO');
+        if (dk === 'commerce') return dept.includes('commerce') || code.startsWith('COM') || code.startsWith('BCF') || code.startsWith('BCH');
+
+        return dept === targetDept || dept === dk || dept.includes(targetDept) || dept.includes(dk);
     });
 
     const NEP_COURSE_NAMES = {
@@ -1028,6 +1039,7 @@
             if (nepCode === 'MATMJ21' || nepCode === 'MATMN21') nepCode = 'MATMJ21 / MATMN21';
             if (nepCode === 'PHYMJ11' || nepCode === 'PHYMN11') nepCode = 'PHYMJ11 / PHYMN11';
             if (nepCode === 'PHYMJ21' || nepCode === 'PHYMN21') nepCode = 'PHYMJ21 / PHYMN21';
+            if (nepCode === 'PHYMJ31' || nepCode === 'PHYMN31' || nepCode === 'PHYMV31' || nepCode.includes('PHYMN31')) nepCode = 'PHYMN31 / PHYMJ31 / PHYMV31';
             if (nepCode === 'STAMJ11' || nepCode === 'STAMN11') nepCode = 'STAMJ11 / STAMN11';
             if (nepCode === 'STAMJ21' || nepCode === 'STAMN21') nepCode = 'STAMJ21 / STAMN21';
             if (nepCode === 'CSCMJ11' || nepCode === 'CSCMN11') nepCode = 'CSCMJ11 / CSCMN11';
