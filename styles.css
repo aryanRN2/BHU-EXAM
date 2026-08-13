@@ -58,8 +58,40 @@ body {
   background: radial-gradient(circle at center, #A855F7 0%, #3B82F6 50%, #10B981 100%);
   filter: blur(60px);
   opacity: 0.15;
-  z-index: -1;
-  pointer-events: none;
+}
+
+/* HIGH-PERFORMANCE SHINY CTA BUTTON STYLES (60/120 FPS ZERO-LAG) */
+.shiny-cta {
+  --shiny-cta-bg: #090d16;
+  --shiny-cta-fg: #ffffff;
+  --shiny-cta-highlight: #4f46e5;
+  
+  position: relative;
+  cursor: pointer;
+  padding: 0.55rem 1.15rem;
+  font-family: 'Geist', 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  font-weight: 600;
+  border-radius: 9999px;
+  color: var(--shiny-cta-fg);
+  background: var(--shiny-cta-bg);
+  border: 1.5px solid var(--shiny-cta-highlight);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6), 0 0 12px rgba(99, 102, 241, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  will-change: transform;
+}
+
+.shiny-cta:hover {
+  transform: scale(1.04) translateY(-1px);
+  box-shadow: 0 8px 25px -4px var(--shiny-cta-highlight);
+}
+
+.shiny-cta:active {
+  transform: scale(0.98);
 }
 
 /* Float and Pulse animations */

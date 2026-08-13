@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Mind Map | SCIQB</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <style>
+        html, body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #f8fafc;
+            color: #0f172a;
+            overflow: hidden;
+            touch-action: none;
+            overscroll-behavior: none;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+
+        #canvasContainer {
+            touch-action: none;
+            overscroll-behavior: none;
+        }
+
+        /* Crisp Bright Grid Background Pattern */
+        .bg-grid-light {
+            background-color: #f8fafc;
+            background-size: 32px 32px;
+            background-image: 
+                linear-gradient(to right, rgba(99, 102, 241, 0.08) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(99, 102, 241, 0.08) 1px, transparent 1px);
+        }
+
+        /* SVG Connections - Fast GPU Vector Rendering */
+        .mindmap-link {
+            fill: none;
+            stroke-width: 2.5px;
+            stroke-linecap: round;
+            opacity: 1 !important;
+            transition: stroke 0.3s ease;
+        }
+
+        /* BRIGHT MODE SHINY CTA PILL STYLES */
+        .shiny-cta {
+            --shiny-cta-bg: #ffffff;
+            --shiny-cta-fg: #0f172a;
+            --shiny-cta-highlight: #4f46e5;
+            
+            position: relative;
+            cursor: pointer;
+            padding: 0.6rem 1.15rem;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 0.85rem;
+            line-height: 1.2;
+            font-weight: 600;
+            border-radius: 9999px;
+            color: var(--shiny-cta-fg);
+            background: var(--shiny-cta-bg);
+            border: 1.5px solid var(--shiny-cta-highlight);
+            box-shadow: 0 4px 16px rgba(99, 102, 241, 0.12), 0 2px 6px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+            will-change: transform;
+        }
+
+        .shiny-cta:hover {
+            transform: scale(1.04) translateY(-1px);
+            box-shadow: 0 8px 25px -4px rgba(99, 102, 241, 0.25);
+        }
+
+        .shiny-cta:active {
+            transform: scale(0.98);
+        }
+
+        /* Interactive Node styling */
+        .mindmap-node {
+            opacity: 1 !important;
+            transition: left 0.35s cubic-bezier(0.16, 1, 0.3, 1), 
+                        top 0.35s cubic-bezier(0.16, 1, 0.3, 1), 
+                        transform 0.2s ease, 
+                        box-shadow 0.2s ease;
+            cursor: pointer;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        .mindmap-node.selected {
+            outline: 2.5px solid #4f46e5;
+            box-shadow: 0 0 25px rgba(79, 70, 229, 0.4) !important;
+        }
+
+        .mindmap-node.matched {
+            box-shadow: 0 0 0 3px #d97706, 0 0 20px rgba(217, 119, 6, 0.4) !important;
+            animation: pulse-glow 1.5s infinite alternate;
+        }
+
+        @keyframes pulse-glow {
+            from { transform: scale(1); }
+            to { transform: scale(1.06); }
+        }
+
+        /* Custom Scrollbar for Drawer */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.05);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body class="h-full flex flex-col relative select-none bg-slate-50 text-slate-900">
+
+    <!-- TOP CONTROL BAR (TRANSPARENT GLASSMORPHISM) -->
+    <header class="h-16 border-b border-slate-200/60 bg-white/40 backdrop-blur-xl px-4 md:px-6 flex items-center justify-between z-30 relative shrink-0">
+        <!-- Left: Back & Title -->
+        <div class="flex items-center gap-3">
+            <button onclick="goBackToSyllabus()" class="h-9 px-3 rounded-lg bg-white/70 hover:bg-white text-slate-700 hover:text-slate-900 text-xs font-semibold flex items-center gap-1.5 transition-all border border-slate-200/80 backdrop-blur-sm shadow-xs">
+                <span class="material-symbols-outlined text-base">arrow_back</span>
+                <span class="hidden sm:inline">Syllabus</span>
+            </button>
+            <div class="h-5 w-px bg-slate-200/80 hidden sm:block"></div>
+            <div>
+                <div class="flex items-center gap-2">
+                    <span class="text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-indigo-50/80 text-indigo-700 border border-indigo-200/60" id="headerCodeBadge">MATMJ51</span>
+                    <span class="text-xs text-slate-500 font-medium hidden md:inline" id="headerDept">Department of Mathematics</span>
+                </div>
+                <h1 class="text-sm md:text-base font-extrabold text-slate-900 tracking-tight leading-none mt-1" id="headerTitle">Abstract Algebra Mind Map</h1>
+            </div>
+        </div>
+
+        <!-- Center: Search Input -->
+        <div class="hidden sm:flex items-center relative w-64 md:w-80">
+            <span class="material-symbols-outlined absolute left-3 text-slate-400 text-sm">search</span>
+            <input type="text" id="searchInput" placeholder="Search concepts (e.g. Lagrange, Isomorphism)..." 
+                   oninput="handleSearch()"
+                   class="w-full pl-9 pr-8 py-1.5 bg-white/60 border border-slate-200/80 rounded-lg text-xs text-slate-800 placeholder-slate-400 focus:outline-none focus:border-indigo-500 focus:bg-white backdrop-blur-sm transition-all shadow-xs"/>
+            <button id="clearSearchBtn" onclick="clearSearch()" class="absolute right-2.5 text-slate-400 hover:text-slate-700 hidden">
+                <span class="material-symbols-outlined text-sm">close</span>
+            </button>
+        </div>
+
+        <!-- Right: Actions & Tools -->
+        <div class="flex items-center gap-2">
+            <!-- Export Button -->
+            <div class="relative">
+                <button onclick="toggleExportMenu()" class="h-9 px-3 rounded-lg bg-indigo-600/90 hover:bg-indigo-600 text-white text-xs font-bold flex items-center gap-1.5 transition-all shadow-md shadow-indigo-600/20">
+                    <span class="material-symbols-outlined text-base">download</span>
+                    <span class="hidden md:inline">Export</span>
+                    <span class="material-symbols-outlined text-xs">arrow_drop_down</span>
+                </button>
+                <div id="exportMenu" class="hidden absolute right-0 mt-2 w-48 bg-white/95 border border-slate-200/80 rounded-xl shadow-2xl py-1 z-50 text-xs backdrop-blur-xl">
+                    <button onclick="exportMermaid()" class="w-full px-4 py-2 text-left text-slate-700 hover:bg-slate-50 flex items-center gap-2">
+                        <span class="material-symbols-outlined text-base text-indigo-600">code</span>
+                        <span>Copy Mermaid Code</span>
+                    </button>
+                    <button onclick="exportJSON()" class="w-full px-4 py-2 text-left text-slate-700 hover:bg-slate-50 flex items-center gap-2">
+                        <span class="material-symbols-outlined text-base text-cyan-600">data_object</span>
+                        <span>Download JSON Tree</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CANVAS AREA (TRANSPARENT GLASS) -->
+    <main id="canvasContainer" class="flex-1 relative overflow-hidden bg-slate-50 bg-grid-light cursor-grab active:cursor-grabbing">
+        
+        <!-- GPU HARDWARE-ACCELERATED TRANSFORM VIEWPORT -->
+        <div id="canvasViewport" class="absolute inset-0 origin-top-left transform">
+            <!-- SVG LAYER FOR CONNECTIONS -->
+            <svg id="svgCanvas" class="absolute inset-0 w-full h-full overflow-visible pointer-events-none z-0">
+                <!-- Dynamic paths generated by JS -->
+            </svg>
+
+            <!-- HTML NODES LAYER -->
+            <div id="nodesContainer" class="absolute inset-0 z-10">
+                <!-- Dynamic Mindmap Nodes -->
+            </div>
+        </div>
+
+        <!-- FLOATING CANVAS CONTROLS (BOTTOM-LEFT) -->
+        <div class="absolute bottom-6 left-6 z-20 flex items-center gap-1 bg-white/60 border border-slate-200/80 backdrop-blur-xl p-1.5 rounded-xl shadow-lg text-slate-700">
+            <button onclick="zoomIn()" class="p-2 hover:bg-white/80 rounded-lg transition-colors" title="Zoom In (+)">
+                <span class="material-symbols-outlined text-lg">add</span>
+            </button>
+            <button onclick="zoomOut()" class="p-2 hover:bg-white/80 rounded-lg transition-colors" title="Zoom Out (-)">
+                <span class="material-symbols-outlined text-lg">remove</span>
+            </button>
+            <button onclick="resetZoom()" class="p-2 hover:bg-white/80 rounded-lg transition-colors" title="Reset View (Fit)">
+                <span class="material-symbols-outlined text-lg">fit_screen</span>
+            </button>
+            <div class="h-4 w-px bg-slate-200/80 mx-1"></div>
+            <span class="text-[10px] font-mono font-bold px-2 text-slate-600" id="zoomLevelText">100%</span>
+        </div>
+
+        <!-- FLOATING LEGEND (BOTTOM-RIGHT) -->
+        <div class="hidden lg:flex absolute bottom-6 right-6 z-20 items-center gap-4 bg-white/60 border border-slate-200/80 backdrop-blur-xl px-4 py-2 rounded-xl text-[11px] text-slate-700 shadow-lg">
+            <div class="flex items-center gap-1.5">
+                <span class="w-2.5 h-2.5 rounded-full bg-indigo-600"></span>
+                <span>Units</span>
+            </div>
+            <div class="flex items-center gap-1.5">
+                <span class="w-2.5 h-2.5 rounded-full bg-cyan-500"></span>
+                <span>Core Topics</span>
+            </div>
+            <div class="flex items-center gap-1.5">
+                <span class="w-2.5 h-2.5 rounded-full bg-slate-500"></span>
+                <span>Concepts & Theorems</span>
+            </div>
+        </div>
+    </main>
+
+    <!-- NODE DETAILS SIDE DRAWER (Bottom sheet on mobile, side panel on desktop) -->
+    <aside id="detailDrawer" class="fixed inset-x-0 bottom-0 top-auto sm:top-16 sm:left-auto sm:right-0 sm:bottom-0 max-h-[75vh] sm:max-h-none sm:w-96 bg-white/95 border-t sm:border-t-0 sm:border-l border-slate-200 backdrop-blur-xl z-40 transform translate-y-full sm:translate-y-0 sm:translate-x-full transition-transform duration-300 ease-in-out p-5 sm:p-6 flex flex-col justify-between shadow-2xl rounded-t-2xl sm:rounded-none overflow-y-auto">
+        <div>
+            <!-- Header -->
+            <div class="flex items-center justify-between pb-4 border-b border-slate-100">
+                <span class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-indigo-50 text-indigo-600 border border-indigo-200" id="drawerBadge">Concept</span>
+                <button onclick="closeDrawer()" class="p-1 rounded-lg hover:bg-slate-100 text-slate-400 hover:text-slate-700 transition-colors">
+                    <span class="material-symbols-outlined text-lg">close</span>
+                </button>
+            </div>
+
+            <!-- Content -->
+            <div class="mt-6 space-y-4">
+                <h2 class="text-xl font-bold text-slate-900 leading-tight" id="drawerTitle">Node Title</h2>
+                <div class="text-xs text-slate-700 leading-relaxed font-normal bg-slate-50 p-4 rounded-xl border border-slate-200" id="drawerDetails">
+                    Detailed topic breakdown and explanation will appear here.
+                </div>
+            </div>
+        </div>
+
+        <!-- Drawer Footer -->
+        <div class="pt-4 border-t border-slate-200 flex justify-between items-center text-[10px] text-slate-500">
+            <span>SCIQB Syllabus Grounding</span>
+            <span class="font-mono text-indigo-600 font-bold" id="drawerNodeId">ID: root</span>
+        </div>
+    </aside>
+
+    <!-- SCRIPTS -->
+    <script src="js/mindmap-data.js"></script>
+    <script>
+        // State variables
+        let mindmapData = null;
+        let currentZoom = 1.0;
+        let panX = 0;
+        let panY = 0;
+        let isDragging = false;
+        let startX, startY;
+        let isDarkMode = true;
+        let selectedNodeId = null;
+        let collapsedNodes = new Set();
+
+        // Get URL Params
+        const urlParams = new URLSearchParams(window.location.search);
+        const courseCode = urlParams.get('code') || 'MATMJ51';
+        const deptKey = urlParams.get('dept') || 'maths';
+
+        // Load data on init
+        window.addEventListener('DOMContentLoaded', async () => {
+            await initMindMap();
+            setupPanZoomHandlers();
+        });
+
+        async function initMindMap() {
+            if (PREDEFINED_MINDMAPS[courseCode]) {
+                mindmapData = PREDEFINED_MINDMAPS[courseCode];
+            } else {
+                // Fallback attempt to fetch syllabus JSON
+                try {
+                    const res = await fetch(`SYLLABUS/${deptKey}_syllabus.json`);
+                    if (res.ok) {
+                        const deptData = await res.json();
+                        let foundPaper = null;
+                        deptData.semesters.forEach(sem => {
+                            sem.papers.forEach(p => {
+                                if (p.code === courseCode) foundPaper = { ...p, semester: sem.semester };
+                            });
+                        });
+                        if (foundPaper) {
+                            mindmapData = buildMindMapFromPaper(foundPaper, deptData.department);
+                        }
+                    }
+                } catch(e) {
+                    console.error("Fallback load failed", e);
+                }
+            }
+
+            if (!mindmapData) {
+                // Hard fallback to MATMJ51
+                mindmapData = PREDEFINED_MINDMAPS["MATMJ51"];
+            }
+
+            // Update Header
+            document.getElementById('headerCodeBadge').textContent = mindmapData.code;
+            document.getElementById('headerTitle').textContent = `${mindmapData.title} Mind Map`;
+            document.getElementById('headerDept').textContent = mindmapData.department || "Banaras Hindu University";
+
+            // By default, collapse all nodes so only the Root node is visible initially
+            collapseAllNodes(mindmapData.root);
+
+            renderCanvas();
+            centerCanvas();
+        }
+
+        function collapseAllNodes(node) {
+            if (node && node.children && node.children.length > 0) {
+                collapsedNodes.add(node.id);
+                node.children.forEach(collapseAllNodes);
+            }
+        }
+
+        // Layout calculation & rendering
+        function layoutTree(root) {
+            // Horizontal tree structure calculation
+            const levelGap = 380; // Generous gap between levels to fit long mathematical labels
+            const nodeHeight = 90; // Vertical spacing estimate
+
+            let leafIndex = 0;
+
+            function calculatePositions(node, depth = 0) {
+                node.depth = depth;
+                node.x = depth * levelGap + 80;
+
+                const isCollapsed = collapsedNodes.has(node.id);
+                const visibleChildren = (node.children && !isCollapsed) ? node.children : [];
+
+                if (visibleChildren.length === 0) {
+                    node.y = leafIndex * nodeHeight + 100;
+                    leafIndex++;
+                } else {
+                    let minY = Infinity;
+                    let maxY = -Infinity;
+                    visibleChildren.forEach(child => {
+                        calculatePositions(child, depth + 1);
+                        minY = Math.min(minY, child.y);
+                        maxY = Math.max(maxY, child.y);
+                    });
+                    node.y = (minY + maxY) / 2;
+                }
+            }
+
+            calculatePositions(root, 0);
+        }
+
+        let isRafPending = false;
+
+        function updateCanvasTransform() {
+            if (isRafPending) return;
+            isRafPending = true;
+            requestAnimationFrame(() => {
+                const viewport = document.getElementById('canvasViewport');
+                if (viewport) {
+                    viewport.style.transform = `translate(${panX}px, ${panY}px) scale(${currentZoom})`;
+                }
+                const zoomText = document.getElementById('zoomLevelText');
+                if (zoomText) {
+                    zoomText.textContent = `${Math.round(currentZoom * 100)}%`;
+                }
+                isRafPending = false;
+            });
+        }
+
+        function renderCanvas() {
+            if (!mindmapData || !mindmapData.root) return;
+
+            layoutTree(mindmapData.root);
+
+            const nodesContainer = document.getElementById('nodesContainer');
+            const svgCanvas = document.getElementById('svgCanvas');
+
+            nodesContainer.innerHTML = '';
+            svgCanvas.innerHTML = '';
+
+            updateCanvasTransform();
+
+            // Draw SVG paths and Nodes recursively
+            function drawNode(node) {
+                const isCollapsed = collapsedNodes.has(node.id);
+                const hasChildren = node.children && node.children.length > 0;
+                const isSelected = selectedNodeId === node.id;
+
+                // Create Node HTML element with Shiny CTA styling
+                const el = document.createElement('div');
+                el.id = `node-${node.id}`;
+                el.className = `mindmap-node shiny-cta absolute flex items-center gap-2.5 px-4 py-2.5 rounded-full border shadow-xl max-w-[340px] w-max ${isSelected ? 'selected' : ''}`;
+                
+                // Color & Style based on Node Type
+                if (node.type === 'root') {
+                    el.style.setProperty('--shiny-cta-highlight', '#6366f1');
+                    el.style.setProperty('--shiny-cta-bg', '#0b0c1e');
+                    el.className += ' text-white font-bold text-sm z-20';
+                } else if (node.type === 'unit') {
+                    const highlightColor = node.color || '#6366f1';
+                    el.style.setProperty('--shiny-cta-highlight', highlightColor);
+                    el.style.setProperty('--shiny-cta-bg', '#090d16');
+                    el.className += ' text-slate-100 font-semibold text-xs z-10';
+                } else if (node.type === 'topic') {
+                    el.style.setProperty('--shiny-cta-highlight', '#38bdf8');
+                    el.style.setProperty('--shiny-cta-bg', '#070b14');
+                    el.className += ' text-slate-200 text-[11px] font-medium z-10';
+                } else {
+                    el.style.setProperty('--shiny-cta-highlight', '#64748b');
+                    el.style.setProperty('--shiny-cta-bg', '#05070e');
+                    el.className += ' text-slate-300 text-[10px] z-0';
+                }
+
+                // Position node in 1:1 un-transformed canvas coordinates
+                el.style.left = `${node.x}px`;
+                el.style.top = `${node.y - 20}px`;
+
+                // Inner HTML
+                let badgeHTML = node.badge ? `<span class="text-[9px] font-bold px-1.5 py-0.5 rounded bg-indigo-500/20 text-indigo-300 shrink-0">${node.badge}</span>` : '';
+                let toggleHTML = hasChildren ? `
+                    <button onclick="toggleNodeCollapse('${node.id}', event)" title="${isCollapsed ? 'Expand next level' : 'Collapse level'}" class="w-5.5 h-5.5 rounded-full bg-slate-800/90 hover:bg-indigo-600 text-slate-300 hover:text-white flex items-center justify-center transition-all ml-auto shrink-0 border border-slate-700/60 hover:scale-110 active:scale-95 shadow-sm z-10">
+                        <span class="material-symbols-outlined text-xs font-bold">${isCollapsed ? 'add' : 'remove'}</span>
+                    </button>
+                ` : '';
+
+                el.innerHTML = `
+                    ${badgeHTML}
+                    <span class="leading-snug max-w-[240px] whitespace-normal break-words" title="${node.label}">${node.label}</span>
+                    ${toggleHTML}
+                `;
+
+                el.onclick = (e) => {
+                    e.stopPropagation();
+                    selectNode(node);
+                    if (hasChildren) {
+                        toggleNodeCollapse(node.id);
+                    }
+                };
+
+                nodesContainer.appendChild(el);
+
+                // Draw Bezier Connection Lines to visible children
+                if (hasChildren && !isCollapsed) {
+                    node.children.forEach(child => {
+                        drawNode(child);
+                        drawBezierLink(node, child, node.color || '#4f46e5');
+                    });
+                }
+            }
+
+            drawNode(mindmapData.root);
+        }
+
+        function drawBezierLink(source, target, color) {
+            const svgCanvas = document.getElementById('svgCanvas');
+            const sourceEl = document.getElementById(`node-${source.id}`);
+            const sourceWidth = sourceEl ? sourceEl.offsetWidth : 220;
+
+            const x1 = source.x + sourceWidth;
+            const y1 = source.y + 5;
+            const x2 = target.x;
+            const y2 = target.y + 5;
+
+            const dx = (x2 - x1) / 2;
+
+            const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+            path.setAttribute("d", `M ${x1} ${y1} C ${x1 + dx} ${y1}, ${x2 - dx} ${y2}, ${x2} ${y2}`);
+            path.setAttribute("class", "mindmap-link");
+            path.setAttribute("stroke", isDarkMode ? "rgba(99, 102, 241, 0.45)" : "rgba(99, 102, 241, 0.6)");
+
+            svgCanvas.appendChild(path);
+        }
+
+        // Interactivity & Mobile Touch State
+        let initialTouchDist = null;
+        let initialZoom = 1.0;
+        let lastTouchX = 0;
+        let lastTouchY = 0;
+        let isPinching = false;
+
+        function selectNode(node) {
+            selectedNodeId = node.id;
+            renderCanvas();
+
+            // Open Drawer (Bottom sheet on mobile, side panel on desktop)
+            const drawer = document.getElementById('detailDrawer');
+            document.getElementById('drawerBadge').textContent = node.badge || node.type || "Concept";
+            document.getElementById('drawerTitle').textContent = node.label;
+            document.getElementById('drawerDetails').textContent = node.details || "Grounded syllabus module concept.";
+            document.getElementById('drawerNodeId').textContent = `Node: ${node.id}`;
+
+            drawer.classList.remove('translate-x-full', 'translate-y-full');
+        }
+
+        function closeDrawer() {
+            const drawer = document.getElementById('detailDrawer');
+            if (window.innerWidth < 640) {
+                drawer.classList.add('translate-y-full');
+            } else {
+                drawer.classList.add('translate-x-full');
+            }
+            selectedNodeId = null;
+            renderCanvas();
+        }
+
+        function toggleNodeCollapse(nodeId, e) {
+            if (e) e.stopPropagation();
+            if (collapsedNodes.has(nodeId)) {
+                collapsedNodes.delete(nodeId);
+            } else {
+                collapsedNodes.add(nodeId);
+            }
+            renderCanvas();
+        }
+
+        function expandPathToNode(targetId) {
+            function findPath(currentNode, path = []) {
+                if (currentNode.id === targetId) {
+                    path.forEach(id => collapsedNodes.delete(id));
+                    return true;
+                }
+                if (currentNode.children) {
+                    for (let child of currentNode.children) {
+                        if (findPath(child, [...path, currentNode.id])) {
+                            return true;
+                        }
+                    }
+                }
+                return false;
+            }
+            findPath(mindmapData.root);
+        }
+
+        // Search feature
+        function handleSearch() {
+            const query = document.getElementById('searchInput').value.toLowerCase().trim();
+            const clearBtn = document.getElementById('clearSearchBtn');
+
+            if (query) {
+                clearBtn.classList.remove('hidden');
+            } else {
+                clearBtn.classList.add('hidden');
+            }
+
+            if (!query) {
+                renderCanvas();
+                return;
+            }
+
+            let firstMatchNode = null;
+
+            function searchNode(node) {
+                if (node.label.toLowerCase().includes(query) || (node.details && node.details.toLowerCase().includes(query))) {
+                    expandPathToNode(node.id);
+                    if (!firstMatchNode) firstMatchNode = node;
+                }
+                if (node.children) {
+                    node.children.forEach(searchNode);
+                }
+            }
+
+            searchNode(mindmapData.root);
+            renderCanvas();
+
+            if (firstMatchNode) {
+                const el = document.getElementById(`node-${firstMatchNode.id}`);
+                if (el) el.classList.add('matched');
+                panX = -firstMatchNode.x * currentZoom + window.innerWidth / 3;
+                panY = -firstMatchNode.y * currentZoom + window.innerHeight / 2;
+                updateCanvasTransform();
+                const matchedEl = document.getElementById(`node-${firstMatchNode.id}`);
+                if (matchedEl) matchedEl.classList.add('matched');
+            }
+        }
+
+        function clearSearch() {
+            document.getElementById('searchInput').value = '';
+            handleSearch();
+        }
+
+        // Pan & Zoom controls (Mouse + Mobile Multi-Touch Pinch Zoom)
+        function setupPanZoomHandlers() {
+            const container = document.getElementById('canvasContainer');
+
+            // Mouse Drag Pan
+            container.addEventListener('mousedown', (e) => {
+                if (e.target.closest('.mindmap-node') || e.target.closest('button')) return;
+                isDragging = true;
+                startX = e.clientX - panX;
+                startY = e.clientY - panY;
+            });
+
+            window.addEventListener('mousemove', (e) => {
+                if (!isDragging) return;
+                panX = e.clientX - startX;
+                panY = e.clientY - startY;
+                updateCanvasTransform();
+            });
+
+            window.addEventListener('mouseup', () => {
+                isDragging = false;
+            });
+
+            // Wheel Zoom
+            container.addEventListener('wheel', (e) => {
+                e.preventDefault();
+                const zoomFactor = e.deltaY < 0 ? 1.08 : 0.92;
+                const newZoom = Math.min(Math.max(currentZoom * zoomFactor, 0.3), 3.0);
+
+                const mouseX = e.clientX;
+                const mouseY = e.clientY;
+                panX = mouseX - (mouseX - panX) * (newZoom / currentZoom);
+                panY = mouseY - (mouseY - panY) * (newZoom / currentZoom);
+
+                currentZoom = newZoom;
+                updateCanvasTransform();
+            }, { passive: false });
+
+            // Mobile Touch Events (Pinch Zoom & Single-Finger Drag)
+            container.addEventListener('touchstart', (e) => {
+                if (e.touches.length === 1) {
+                    if (e.target.closest('.mindmap-node') || e.target.closest('button')) return;
+                    isDragging = true;
+                    isPinching = false;
+                    lastTouchX = e.touches[0].clientX - panX;
+                    lastTouchY = e.touches[0].clientY - panY;
+                } else if (e.touches.length === 2) {
+                    isDragging = false;
+                    isPinching = true;
+                    initialTouchDist = Math.hypot(
+                        e.touches[0].clientX - e.touches[1].clientX,
+                        e.touches[0].clientY - e.touches[1].clientY
+                    );
+                    initialZoom = currentZoom;
+                }
+            }, { passive: false });
+
+            container.addEventListener('touchmove', (e) => {
+                if (!e.target.closest('.mindmap-node') || isDragging || isPinching || e.touches.length > 1) {
+                    e.preventDefault();
+                }
+
+                if (e.touches.length === 1 && isDragging) {
+                    panX = e.touches[0].clientX - lastTouchX;
+                    panY = e.touches[0].clientY - lastTouchY;
+                    updateCanvasTransform();
+                } else if (e.touches.length === 2 && isPinching && initialTouchDist) {
+                    const currentDist = Math.hypot(
+                        e.touches[0].clientX - e.touches[1].clientX,
+                        e.touches[0].clientY - e.touches[1].clientY
+                    );
+                    const zoomScale = currentDist / initialTouchDist;
+                    const newZoom = Math.min(Math.max(initialZoom * zoomScale, 0.3), 3.0);
+
+                    const midX = (e.touches[0].clientX + e.touches[1].clientX) / 2;
+                    const midY = (e.touches[0].clientY + e.touches[1].clientY) / 2;
+
+                    panX = midX - (midX - panX) * (newZoom / currentZoom);
+                    panY = midY - (midY - panY) * (newZoom / currentZoom);
+
+                    currentZoom = newZoom;
+                    updateCanvasTransform();
+                }
+            }, { passive: false });
+
+            container.addEventListener('touchend', (e) => {
+                if (e.touches.length < 2) {
+                    isPinching = false;
+                    initialTouchDist = null;
+                }
+                if (e.touches.length === 0) {
+                    isDragging = false;
+                }
+            });
+        }
+
+        function zoomIn() {
+            currentZoom = Math.min(currentZoom * 1.2, 3.0);
+            updateCanvasTransform();
+        }
+
+        function zoomOut() {
+            currentZoom = Math.max(currentZoom * 0.8, 0.3);
+            updateCanvasTransform();
+        }
+
+        function resetZoom() {
+            centerCanvas();
+        }
+
+        function centerCanvas() {
+            const isMobile = window.innerWidth < 640;
+            currentZoom = isMobile ? 0.8 : 1.0;
+            panX = isMobile ? 25 : Math.max(100, window.innerWidth / 4);
+            panY = Math.max(120, window.innerHeight / 2 - 40);
+            updateCanvasTransform();
+        }
+
+        function toggleTheme() {
+            isDarkMode = !isDarkMode;
+            const btn = document.getElementById('themeToggleBtn');
+            const main = document.getElementById('canvasContainer');
+
+            if (isDarkMode) {
+                document.body.style.backgroundColor = '#0f172a';
+                main.className = main.className.replace('bg-slate-100 bg-grid-light', 'bg-slate-950 bg-grid-pattern');
+                btn.innerHTML = '<span class="material-symbols-outlined text-lg">dark_mode</span>';
+            } else {
+                document.body.style.backgroundColor = '#f8fafc';
+                main.className = main.className.replace('bg-slate-950 bg-grid-pattern', 'bg-slate-100 bg-grid-light');
+                btn.innerHTML = '<span class="material-symbols-outlined text-lg">light_mode</span>';
+            }
+            renderCanvas();
+        }
+
+        // Export features
+        function toggleExportMenu() {
+            const menu = document.getElementById('exportMenu');
+            menu.classList.toggle('hidden');
+        }
+
+        function exportMermaid() {
+            if (!mindmapData) return;
+            let code = `mindmap\n  root((${mindmapData.title}))\n`;
+
+            function buildMermaid(node, indent = 4) {
+                if (!node.children) return;
+                node.children.forEach(c => {
+                    code += `${' '.repeat(indent)}${c.label}\n`;
+                    buildMermaid(c, indent + 2);
+                });
+            }
+
+            buildMermaid(mindmapData.root);
+            navigator.clipboard.writeText(code);
+            alert("✓ Copied Mermaid Mindmap Code to clipboard!");
+            toggleExportMenu();
+        }
+
+        function exportJSON() {
+            if (!mindmapData) return;
+            const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(mindmapData, null, 2));
+            const downloadAnchor = document.createElement('a');
+            downloadAnchor.setAttribute("href", dataStr);
+            downloadAnchor.setAttribute("download", `${mindmapData.code}_mindmap.json`);
+            document.body.appendChild(downloadAnchor);
+            downloadAnchor.click();
+            downloadAnchor.remove();
+            toggleExportMenu();
+        }
+
+        function goBackToSyllabus() {
+            window.location.href = `syllabus.html?dept=${deptKey}`;
+        }
+    </script>
+</body>
+</html>

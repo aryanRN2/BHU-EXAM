@@ -17,6 +17,7 @@ const rootFiles = [
   'what-to-contribute.html',
   'subjects.html',
   'syllabus.html',
+  'mindmap.html',
   'nep-papers.html',
   'nep-science.html',
   'nep-pyq.html',
