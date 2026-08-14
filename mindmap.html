@@ -117,10 +117,10 @@
 </head>
 <body class="h-full flex flex-col relative select-none bg-slate-50 text-slate-900">
 
-    <!-- TOP CONTROL BAR (TRANSPARENT GLASSMORPHISM) -->
-    <header class="h-16 border-b border-slate-200/60 bg-white/40 backdrop-blur-xl px-4 md:px-6 flex items-center justify-between z-30 relative shrink-0">
+    <!-- TOP CONTROL BAR (FLOATING & TRANSPARENT) -->
+    <header class="absolute top-0 left-0 right-0 h-16 bg-transparent px-4 md:px-6 flex items-center justify-between z-30 pointer-events-none">
         <!-- Left: Back & Title -->
-        <div class="flex items-center gap-3">
+        <div class="flex items-center gap-3 pointer-events-auto">
             <button onclick="goBackToSyllabus()" class="h-9 px-3 rounded-lg bg-white/70 hover:bg-white text-slate-700 hover:text-slate-900 text-xs font-semibold flex items-center gap-1.5 transition-all border border-slate-200/80 backdrop-blur-sm shadow-xs">
                 <span class="material-symbols-outlined text-base">arrow_back</span>
                 <span class="hidden sm:inline">Syllabus</span>
@@ -136,7 +136,7 @@
         </div>
 
         <!-- Center: Search Input -->
-        <div class="hidden sm:flex items-center relative w-64 md:w-80">
+        <div class="hidden sm:flex items-center relative w-64 md:w-80 pointer-events-auto">
             <span class="material-symbols-outlined absolute left-3 text-slate-400 text-sm">search</span>
             <input type="text" id="searchInput" placeholder="Search concepts (e.g. Lagrange, Isomorphism)..." 
                    oninput="handleSearch()"
@@ -144,28 +144,6 @@
             <button id="clearSearchBtn" onclick="clearSearch()" class="absolute right-2.5 text-slate-400 hover:text-slate-700 hidden">
                 <span class="material-symbols-outlined text-sm">close</span>
             </button>
-        </div>
-
-        <!-- Right: Actions & Tools -->
-        <div class="flex items-center gap-2">
-            <!-- Export Button -->
-            <div class="relative">
-                <button onclick="toggleExportMenu()" class="h-9 px-3 rounded-lg bg-indigo-600/90 hover:bg-indigo-600 text-white text-xs font-bold flex items-center gap-1.5 transition-all shadow-md shadow-indigo-600/20">
-                    <span class="material-symbols-outlined text-base">download</span>
-                    <span class="hidden md:inline">Export</span>
-                    <span class="material-symbols-outlined text-xs">arrow_drop_down</span>
-                </button>
-                <div id="exportMenu" class="hidden absolute right-0 mt-2 w-48 bg-white/95 border border-slate-200/80 rounded-xl shadow-2xl py-1 z-50 text-xs backdrop-blur-xl">
-                    <button onclick="exportMermaid()" class="w-full px-4 py-2 text-left text-slate-700 hover:bg-slate-50 flex items-center gap-2">
-                        <span class="material-symbols-outlined text-base text-indigo-600">code</span>
-                        <span>Copy Mermaid Code</span>
-                    </button>
-                    <button onclick="exportJSON()" class="w-full px-4 py-2 text-left text-slate-700 hover:bg-slate-50 flex items-center gap-2">
-                        <span class="material-symbols-outlined text-base text-cyan-600">data_object</span>
-                        <span>Download JSON Tree</span>
-                    </button>
-                </div>
-            </div>
         </div>
     </header>
 
@@ -486,7 +464,7 @@
             // Open Drawer (Bottom sheet on mobile, side panel on desktop)
             const drawer = document.getElementById('detailDrawer');
             document.getElementById('drawerBadge').textContent = node.badge || node.type || "Concept";
-            document.getElementById('drawerTitle').textContent = node.label;
+            document.getElementById('drawerTitle').innerHTML = node.label;
             document.getElementById('drawerDetails').textContent = node.details || "Grounded syllabus module concept.";
             document.getElementById('drawerNodeId').textContent = `Node: ${node.id}`;
 

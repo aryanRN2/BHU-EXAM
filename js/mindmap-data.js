@@ -252,6 +252,249 @@ const PREDEFINED_MINDMAPS = {
         }
       ]
     }
+  },
+  "MATMJ52": {
+    id: "MATMJ52",
+    code: "MATMJ52",
+    title: "Metric Spaces",
+    department: "Department of Mathematics",
+    semester: 5,
+    credits: 3,
+    course_type: "Major",
+    summary: "Comprehensive structure covering Metric Space Topology, Subspaces, Heine-Borel Compactness, Connectedness, Completion of Rationals, Continuous & Isometric Mappings, Uniform Convergence, and Arzelà-Ascoli Theorem.",
+    root: {
+      id: "root",
+      label: "Metric Spaces",
+      badge: "MATMJ52 • Sem 5",
+      type: "root",
+      details: "3 Credits Major Course. Foundations of Topological and Analytical Metric Structures.",
+      children: [
+        {
+          id: "unit1",
+          label: "Unit 1: Topology of Metric Spaces",
+          badge: "Unit 1",
+          type: "unit",
+          color: "#4F46E5",
+          details: "Metric space axioms, standard examples, open and closed sets, neighborhoods, convergence, induced topology, and boundary operations.",
+          children: [
+            {
+              id: "u1_def",
+              label: "Metric Space Definitions & Examples",
+              type: "topic",
+              details: "Distance functions and standard spaces.",
+              children: [
+                { id: "u1_d1", label: "Metric Axioms: Non-negativity, Symmetry, Triangle Inequality d(x,z) ≤ d(x,y)+d(y,z)", type: "subtopic" },
+                { id: "u1_d2", label: "Euclidean & Discrete Metrics (ℝ<sup>n</sup>, d<sub>disc</sub>)", type: "subtopic" },
+                { id: "u1_d3", label: "Sequence & Function Spaces (ℓᵖ, C[a,b])", type: "subtopic" }
+              ]
+            },
+            {
+              id: "u1_sets",
+              label: "Open & Closed Sets",
+              type: "topic",
+              details: "Ball neighborhoods and subset classifications.",
+              children: [
+                { id: "u1_s1", label: "Open Balls Bᵣ(x) & Open Sets", type: "subtopic" },
+                { id: "u1_s2", label: "Closed Sets & Closed Balls B̄ᵣ(x)", type: "subtopic" },
+                { id: "u1_s3", label: "Arbitrary Unions & Finite Intersections", type: "subtopic" }
+              ]
+            },
+            {
+              id: "u1_conv",
+              label: "Neighborhoods, Convergence & Topology",
+              type: "topic",
+              details: "Limit points and convergent sequences.",
+              children: [
+                { id: "u1_c1", label: "Neighborhoods N<sub>r</sub>(x) & Limit Points x'", type: "subtopic" },
+                { id: "u1_c2", label: "Convergent Sequences (d(xₙ, x) → 0)", type: "subtopic" },
+                { id: "u1_c3", label: "Topology Induced by a Metric τ<sub>d</sub>", type: "subtopic" }
+              ]
+            },
+            {
+              id: "u1_ops",
+              label: "Interior, Closure & Boundary",
+              type: "topic",
+              details: "Fundamental set-theoretic operations.",
+              children: [
+                { id: "u1_o1", label: "Interior Int(A) - Largest Open Set", type: "subtopic" },
+                { id: "u1_o2", label: "Closure Ā = A ∪ A' - Smallest Closed Set", type: "subtopic" },
+                { id: "u1_o3", label: "Boundary ∂A = Ā ∩ (X \\ A)̄", type: "subtopic" }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit2",
+          label: "Unit 2: Subspaces, Compactness & Connectedness",
+          badge: "Unit 2",
+          type: "unit",
+          color: "#0891B2",
+          details: "Metric subspaces, completeness, Heine-Borel theorem, sequential compactness, and path-connected spaces.",
+          children: [
+            {
+              id: "u2_sub",
+              label: "Subspaces & Completeness",
+              type: "topic",
+              details: "Inherited metrics and Cauchy completeness.",
+              children: [
+                { id: "u2_sb1", label: "Subspace Metric d<sub>Y</sub> = d|<sub>Y×Y</sub>", type: "subtopic" },
+                { id: "u2_sb2", label: "Cauchy Sequences & Complete Spaces", type: "subtopic" },
+                { id: "u2_sb3", label: "Closed Subsets of Complete Spaces", type: "subtopic" }
+              ]
+            },
+            {
+              id: "u2_comp",
+              label: "Compactness & Heine-Borel",
+              type: "topic",
+              details: "Coverings, sequential compactness, and boundedness.",
+              children: [
+                { id: "u2_cm1", label: "Open Coverings & Compact Sets", type: "subtopic" },
+                { id: "u2_cm2", label: "Heine-Borel Theorem (Closed & Bounded in ℝⁿ)", type: "subtopic" },
+                { id: "u2_cm3", label: "Sequential Compactness (Bolzano-Weierstrass)", type: "subtopic" }
+              ]
+            },
+            {
+              id: "u2_conn",
+              label: "Connectedness & Path-Connectedness",
+              type: "topic",
+              details: "Topological separation and continuous paths.",
+              children: [
+                { id: "u2_cn1", label: "Connected vs Disconnected Sets", type: "subtopic" },
+                { id: "u2_cn2", label: "Path-Connected Spaces & Curves", type: "subtopic" },
+                { id: "u2_cn3", label: "Continuous Image of Connected Sets", type: "subtopic" }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit3",
+          label: "Unit 3: Completion, Separability & Continuous Mappings",
+          badge: "Unit 3",
+          type: "unit",
+          color: "#D97706",
+          details: "Cantor's intersection theorem, construction of real numbers, dense subsets, separable metric spaces, continuous & isometric functions, and equivalent metrics.",
+          children: [
+            {
+              id: "u3_cantor",
+              label: "Cantor's Theorem & Completion of ℚ",
+              type: "topic",
+              details: "Nested sets and metric completion.",
+              children: [
+                { id: "u3_ct1", label: "Cantor's Intersection Theorem (∩ Fₙ ≠ ∅)", type: "subtopic" },
+                { id: "u3_ct2", label: "Completion of Incomplete Metric Spaces", type: "subtopic" },
+                { id: "u3_ct3", label: "Construction of ℝ as Completion of ℚ", type: "subtopic" }
+              ]
+            },
+            {
+              id: "u3_dense",
+              label: "Dense Subsets & Separable Spaces",
+              type: "topic",
+              details: "Countable dense subsets and structural properties.",
+              children: [
+                { id: "u3_ds1", label: "Dense Subsets (Ā = X)", type: "subtopic" },
+                { id: "u3_ds2", label: "Separable Metric Spaces (Countable Dense Set)", type: "subtopic" },
+                { id: "u3_ds3", label: "Separability of ℝⁿ & ℓ² Spaces", type: "subtopic" }
+              ]
+            },
+            {
+              id: "u3_map",
+              label: "Continuous Functions, Isometries & Homeomorphisms",
+              type: "topic",
+              details: "Mappings preserving metric and topological structures.",
+              children: [
+                { id: "u3_mp1", label: "Continuous Functions & (ε, δ)-Criterion", type: "subtopic" },
+                { id: "u3_mp2", label: "Uniform Continuity & Compact Domains", type: "subtopic" },
+                { id: "u3_mp3", label: "Isometry (Distance-Preserving Mapping d(f(x),f(y))=d(x,y))", type: "subtopic" },
+                { id: "u3_mp4", label: "Homeomorphism & Equivalent Metrics", type: "subtopic" }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit4",
+          label: "Unit 4: Sequences & Series of Functions",
+          badge: "Unit 4",
+          type: "unit",
+          color: "#059669",
+          details: "Pointwise and uniform convergence, Cauchy criterion, Weierstrass M-test, Abel's and Dirichlet's tests, and uniform limits of continuous functions.",
+          children: [
+            {
+              id: "u4_conv",
+              label: "Pointwise vs Uniform Convergence",
+              type: "topic",
+              details: "Types of function sequence convergence.",
+              children: [
+                { id: "u4_cv1", label: "Pointwise Convergence fₙ(x) → f(x)", type: "subtopic" },
+                { id: "u4_cv2", label: "Uniform Convergence f<sub>n</sub> ⇉ f (Sup-norm ||f<sub>n</sub> - f||<sub>∞</sub> → 0)", type: "subtopic" },
+                { id: "u4_cv3", label: "Cauchy Criterion for Uniform Convergence", type: "subtopic" }
+              ]
+            },
+            {
+              id: "u4_tests",
+              label: "Tests for Uniform Convergence",
+              type: "topic",
+              details: "Analytical tests for series of functions.",
+              children: [
+                { id: "u4_ts1", label: "Weierstrass M-Test (|fₙ(x)| ≤ Mₙ)", type: "subtopic" },
+                { id: "u4_ts2", label: "Abel's Test for Uniform Convergence", type: "subtopic" },
+                { id: "u4_ts3", label: "Dirichlet's Test for Series of Functions", type: "subtopic" }
+              ]
+            },
+            {
+              id: "u4_cont",
+              label: "Uniform Convergence & Continuity",
+              type: "topic",
+              details: "Interchange of limits and continuous bounds.",
+              children: [
+                { id: "u4_cn1", label: "Uniform Limit of Continuous Functions is Continuous", type: "subtopic" },
+                { id: "u4_cn2", label: "Dini's Theorem for Monotone Sequences", type: "subtopic" }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit5",
+          label: "Unit 5: Integration, Differentiation & Arzelà-Ascoli Theorem",
+          badge: "Unit 5",
+          type: "unit",
+          color: "#7C3AED",
+          details: "Uniform convergence with Riemann-Stieltjes integration, differentiation, Weierstrass approximation theorem, equicontinuity, and Arzelà-Ascoli theorem.",
+          children: [
+            {
+              id: "u5_calculus",
+              label: "Uniform Convergence with Calculus",
+              type: "topic",
+              details: "Interchanging limits with integrals and derivatives.",
+              children: [
+                { id: "u5_cl1", label: "Uniform Convergence & Riemann-Stieltjes Integration (∫ fₙ dg → ∫ f dg)", type: "subtopic" },
+                { id: "u5_cl2", label: "Uniform Convergence & Differentiation (fₙ' → f')", type: "subtopic" }
+              ]
+            },
+            {
+              id: "u5_approx",
+              label: "Weierstrass Approximation Theorem",
+              type: "topic",
+              details: "Polynomial approximation of continuous functions.",
+              children: [
+                { id: "u5_ap1", label: "Density of Polynomials in C[a,b]", type: "subtopic" },
+                { id: "u5_ap2", label: "Bernstein Polynomials Construction", type: "subtopic" }
+              ]
+            },
+            {
+              id: "u5_ascoli",
+              label: "Equicontinuity & Arzelà-Ascoli Theorem",
+              type: "topic",
+              details: "Compactness criteria in continuous function space C(K).",
+              children: [
+                { id: "u5_ac1", label: "Equicontinuous Family of Functions", type: "subtopic" },
+                { id: "u5_ac2", label: "Uniformly Bounded Families", type: "subtopic" },
+                { id: "u5_ac3", label: "Arzelà-Ascoli Theorem (Relative Compactness in C(K))", type: "subtopic" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 };
 

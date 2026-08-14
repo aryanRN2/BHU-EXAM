@@ -301,6 +301,7 @@
     import { NEP_LATEX_PYQ_DATA } from './js/nep-data.js?v=25';
     window.NEP_LATEX_PYQ_DATA = NEP_LATEX_PYQ_DATA;
 </script>
+<script src="js/mindmap-data.js"></script>
 
 <script>
     // State management
@@ -615,10 +616,10 @@
                 const hasSyllabus = paper.syllabus && paper.syllabus.length > 0;
                 let syllabusBreakdownHTML = '';
 
-                // MIND MAP BUTTON IS STRICTLY RESTRICTED TO MATMJ51 (ABSTRACT ALGEBRA) ONLY
-                const isAbstractAlgebra = (paper.code === 'MATMJ51');
+                // Enable Mind Map button for papers with predefined or generated mind maps (e.g. MATMJ51, MATMJ52)
+                const hasMindMap = (typeof PREDEFINED_MINDMAPS !== 'undefined' && !!PREDEFINED_MINDMAPS[paper.code]) || paper.code === 'MATMJ51' || paper.code === 'MATMJ52';
 
-                if (hasSyllabus || isAbstractAlgebra) {
+                if (hasSyllabus || hasMindMap) {
                     let unitsHTML = '';
                     if (hasSyllabus) {
                         paper.syllabus.forEach(u => {
@@ -633,8 +634,8 @@
 
                     syllabusBreakdownHTML = `
                         <div id="breakdown-${paper.code}" class="hidden flex-col gap-4 mt-3 pt-3 border-t border-neutral-100 transition-all duration-300">
-                            ${isAbstractAlgebra ? `
-                            <!-- NotebookLM Mind Map Trigger Bar (STRICTLY MATMJ51 ONLY) -->
+                            ${hasMindMap ? `
+                            <!-- Mind Map Trigger Bar -->
                             <div class="flex items-center justify-between pb-2.5 mb-1 border-b border-neutral-100">
                                 <div class="flex items-center gap-1.5 text-neutral-600 font-bold text-[11px]">
                                     <span class="material-symbols-outlined text-sm text-indigo-600 font-bold">schema</span>
@@ -660,7 +661,7 @@
                     `;
                 }
 
-                const canExpand = hasSyllabus || isAbstractAlgebra;
+                const canExpand = hasSyllabus || hasMindMap;
                 const cursorClass = canExpand ? 'cursor-pointer hover:bg-neutral-50/50' : '';
                 const clickHandler = canExpand ? `onclick="toggleSyllabusBreakdown('${paper.code}', event)"` : '';
 

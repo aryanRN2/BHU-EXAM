@@ -482,15 +482,23 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Definition of a Metric Space: Metric, examples, and basic properties.Open and Closed Sets: Definitions, examples, and properties within metric spaces. Neighborhoods and Convergence: Understanding neighborhoods, limit points, and convergent sequences. Topology induced by a metric. Interior, Closure, and Boundary: Definitions and their significance in metric spaces. 15 485 Course Title"
+              "topics": "Definition of a Metric Space: Metric, examples, and basic properties. Open and Closed Sets: Definitions, examples, and properties within metric spaces. Neighborhoods and Convergence: Understanding neighborhoods, limit points, and convergent sequences. Topology induced by a metric. Interior, Closure, and Boundary: Definitions and their significance in metric spaces."
             },
             {
               "unit": 2,
-              "topics": "The subspace of a metric space. Completeness. Compactness: Heine-Borel Theorem.Compactness and sequential compactness.Connectedness: Connected and disconnected sets.Path-connected spaces. 15"
+              "topics": "Compactness: Heine-Borel Theorem, sequential compactness, and compact subsets. Connectedness: Connected and disconnected sets, path-connected spaces. The subspace of a metric space, Completeness, and Compactness."
             },
             {
               "unit": 3,
-              "topics": "Cantor's intersection theorem.Construction of real numbers as the completion of the incomplete metric space of rationals. Dense subsets. Separable metric spaces. Continuous functions. Uniform continuity, Isometry, and homeomorphism. Equivalent metrics. 15 Texts /"
+              "topics": "Cantor's intersection theorem. Construction of real numbers as the completion of the incomplete metric space of rationals. Dense subsets. Separable metric spaces. Continuous functions. Uniform continuity, Isometry, and homeomorphism. Equivalent metrics."
+            },
+            {
+              "unit": 4,
+              "topics": "Sequences and series of functions, pointwise and uniform convergence, Cauchy's criterion for uniform convergence. Weierstrass M-test, Abel's and Dirichlet's tests for uniform convergence, uniform convergence and continuity."
+            },
+            {
+              "unit": 5,
+              "topics": "Uniform convergence and Riemann-Stieltjies integration, uniform convergence, and differentiation. Weierstrass approximation theorem, equicontinuity, Arzela-Ascoli theorem."
             }
           ]
         },
