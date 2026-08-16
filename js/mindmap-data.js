@@ -1147,6 +1147,724 @@ const PREDEFINED_MINDMAPS = {
         }
       ]
     }
+  },
+  "MATMJ31": {
+    id: "MATMJ31",
+    code: "MATMJ31",
+    title: "Linear Algebra",
+    department: "Department of Mathematics",
+    semester: 3,
+    credits: 4,
+    course_type: "Major",
+    summary: "Foundational structure of Vector Spaces, Linear Transformations, Isomorphisms, Matrix Representations, Inner Product Spaces, Gram-Schmidt Orthonormalization, Spectral Theory, Diagonalization, Canonical Forms, and Bilinear & Quadratic Forms.",
+    root: {
+      id: "root",
+      label: "Linear Algebra",
+      badge: "MATMJ31 • Sem 3",
+      type: "root",
+      details: "4 Credits Major Course. Algebraic and Geometric Structures in Finite-Dimensional Vector Spaces.",
+      children: [
+        {
+          id: "unit1",
+          label: "Unit 1: Vector Spaces, Maps & Duality",
+          badge: "Unit 1",
+          type: "unit",
+          color: "#4F46E5",
+          details: "Vector spaces, subspaces, span, bases, dimension, direct sums, quotient spaces, linear maps, rank-nullity theorem, dual spaces, and annihilators.",
+          children: [
+            {
+              id: "u1_spaces",
+              label: "Vector Spaces, Bases & Dimension",
+              type: "topic",
+              details: "Abstract linear spaces over field $\\mathbb{F}$.",
+              children: [
+                { id: "u1_sp1", label: "Vector Space Axioms & Subspaces ($W \\le V$)", type: "subtopic", details: "Closure under vector addition and scalar multiplication ($au + bv \\in W$)." },
+                { id: "u1_sp2", label: "Linear Span $\\operatorname{span}(S)$ & Independence ($\\sum c_i v_i = 0 \\implies c_i = 0$)", type: "subtopic", details: "Minimal spanning sets and maximal linearly independent sets." },
+                { id: "u1_sp3", label: "Bases & Dimension $\\dim V$", type: "subtopic", details: "Every finite-dimensional vector space has a basis of invariant cardinality." },
+                { id: "u1_sp4", label: "Direct Sum $V = W_1 \\oplus W_2$ & Quotient Space $V/W$", type: "subtopic", details: "Dimension formula $\\dim(W_1 + W_2) = \\dim W_1 + \\dim W_2 - \\dim(W_1 \\cap W_2)$ and $\\dim V/W = \\dim V - \\dim W$." }
+              ]
+            },
+            {
+              id: "u1_maps",
+              label: "Linear Transformations & Rank-Nullity",
+              type: "topic",
+              details: "Structure-preserving linear maps between vector spaces.",
+              children: [
+                { id: "u1_mp1", label: "Linear Transformation: $T(au+bv) = aT(u) + bT(v)$", type: "subtopic", details: "Homomorphism of vector spaces preserving linear combinations." },
+                { id: "u1_mp2", label: "Rank-Nullity Theorem: $\\dim V = \\operatorname{rank}(T) + \\operatorname{nullity}(T)$", type: "subtopic", details: "Fundamental dimensional connection between $\\ker(T)$ and $\\operatorname{Im}(T)$." },
+                { id: "u1_mp3", label: "Vector Space Isomorphism ($V \\cong \\mathbb{F}^n$)", type: "subtopic", details: "Every $n$-dimensional vector space over $\\mathbb{F}$ is isomorphic to $\\mathbb{F}^n$." }
+              ]
+            },
+            {
+              id: "u1_dual",
+              label: "Dual Spaces, Transpose & Annihilators",
+              type: "topic",
+              details: "Linear functionals and dual space duality.",
+              children: [
+                { id: "u1_dl1", label: "Dual Space $V^* = \\operatorname{Hom}(V, \\mathbb{F})$ & Dual Basis $f_i(v_j) = \\delta_{ij}$", type: "subtopic", details: "Space of linear forms with $\\dim V^* = \\dim V$." },
+                { id: "u1_dl2", label: "Transpose Map $T^*: W^* \\to V^*$", type: "subtopic", details: "Pullback linear functional $T^*(g) = g \\circ T$." },
+                { id: "u1_dl3", label: "Annihilator $W^0 = \\{f \\in V^* \\mid f(w) = 0,\\, \\forall w \\in W\\}$", type: "subtopic", details: "Subspace relationship $\\dim W + \\dim W^0 = \\dim V$." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit2",
+          label: "Unit 2: Matrix Representations & Linear Systems",
+          badge: "Unit 2",
+          type: "unit",
+          color: "#0891B2",
+          details: "Matrix of a linear transformation, change of basis, similarity, rank of matrix, normal forms, and consistent linear systems.",
+          children: [
+            {
+              id: "u2_mat_trans",
+              label: "Matrix of Linear Transformation",
+              type: "topic",
+              details: "Coordinate representation of abstract operators.",
+              children: [
+                { id: "u2_mt1", label: "Matrix Representation: $[T]_\\beta^\\gamma \\in M_{m\\times n}(\\mathbb{F})$", type: "subtopic", details: "Column vectors representing coordinates of basis images $[T(v_j)]_\\gamma$." },
+                { id: "u2_mt2", label: "Change of Basis: $[T]_{\\beta'} = P^{-1}[T]_\\beta P$", type: "subtopic", details: "Transition matrix $P$ and similarity transformation." },
+                { id: "u2_mt3", label: "Similar Matrices: $A \\sim B \\iff B = P^{-1}AP$", type: "subtopic", details: "Invariance of trace, determinant, and characteristic polynomial under similarity." }
+              ]
+            },
+            {
+              id: "u2_rank_systems",
+              label: "Matrix Rank & Systems of Linear Equations",
+              type: "topic",
+              details: "Row-reduction and solution spaces.",
+              children: [
+                { id: "u2_rs1", label: "Row & Column Rank: $\\operatorname{rank}(A) = \\dim \\operatorname{Col}(A)$", type: "subtopic", details: "Equivalence of row rank and column rank via Gaussian elimination." },
+                { id: "u2_rs2", label: "Normal Form of Matrix: $\\begin{pmatrix} I_r & 0 \\\\ 0 & 0 \\end{pmatrix}$", type: "subtopic", details: "Equivalence under elementary row and column operations ($PAQ = N$)." },
+                { id: "u2_rs3", label: "Rouché-Capelli Theorem: $A\\mathbf{x} = \\mathbf{b}$ Consistent $\\iff \\operatorname{rank}(A) = \\operatorname{rank}[A|\\mathbf{b}]$", type: "subtopic", details: "Affine solution set $\\mathbf{x}_0 + \\ker(A)$ for consistent systems." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit3",
+          label: "Unit 3: Inner Product Spaces & Orthogonality",
+          badge: "Unit 3",
+          type: "unit",
+          color: "#D97706",
+          details: "Inner products, Cauchy-Schwarz inequality, Gram-Schmidt orthonormalization, orthogonal complements, and adjoint operators.",
+          children: [
+            {
+              id: "u3_inner",
+              label: "Inner Products & Norms",
+              type: "topic",
+              details: "Geometry with angles, lengths, and metrics.",
+              children: [
+                { id: "u3_ip1", label: "Inner Product Axioms: Conjugate Symmetry, Linearity & Positivity $\\langle v, v \\rangle > 0$", type: "subtopic", details: "Generalization of dot product on real/complex vector spaces." },
+                { id: "u3_ip2", label: "Cauchy-Schwarz Inequality: $|\\langle u, v \\rangle| \\le \\|u\\| \\|v\\|$", type: "subtopic", details: "Fundamental norm bound giving triangle inequality $\\|u+v\\| \\le \\|u\\|+\\|v\\|$." },
+                { id: "u3_ip3", label: "Orthogonality: $\\langle u, v \\rangle = 0$ & Pythagorean Theorem", type: "subtopic", details: "Orthogonal vectors satisfy $\\|u+v\\|^2 = \\|u\\|^2 + \\|v\\|^2$." }
+              ]
+            },
+            {
+              id: "u3_gram_schmidt",
+              label: "Gram-Schmidt & Orthogonal Complements",
+              type: "topic",
+              details: "Constructing orthonormal bases and orthogonal projections.",
+              children: [
+                { id: "u3_gs1", label: "Gram-Schmidt Process: $u_k = v_k - \\sum_{j=1}^{k-1} \\frac{\\langle v_k, e_j \\rangle}{\\langle e_j, e_j \\rangle} e_j$", type: "subtopic", details: "Iterative algorithm converting an arbitrary basis into an orthonormal basis." },
+                { id: "u3_gs2", label: "Orthogonal Complement $W^\\perp$ & Direct Sum $V = W \\oplus W^\\perp$", type: "subtopic", details: "Every vector is uniquely decomposed into parallel and perpendicular components." },
+                { id: "u3_gs3", label: "Adjoint Transformation: $\\langle T(u), v \\rangle = \\langle u, T^*(v) \\rangle$", type: "subtopic", details: "Uniquely determined conjugate transpose operator $[T^*] = [T]^* = \\overline{[T]}^T$." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit4",
+          label: "Unit 4: Operators, Spectral Theory & Cayley-Hamilton",
+          badge: "Unit 4",
+          type: "unit",
+          color: "#059669",
+          details: "Orthogonal & Unitary operators, Hermitian matrices, invariant subspaces, eigenvalues/eigenvectors, characteristic polynomial, and Cayley-Hamilton theorem.",
+          children: [
+            {
+              id: "u4_operators",
+              label: "Unitary & Hermitian Operators",
+              type: "topic",
+              details: "Special classes of linear operators on inner product spaces.",
+              children: [
+                { id: "u4_op1", label: "Unitary & Orthogonal Operators: $U^* U = I$ (Isometries)", type: "subtopic", details: "Operators preserving inner products $\\langle Uu, Uv \\rangle = \\langle u, v \\rangle$." },
+                { id: "u4_op2", label: "Hermitian ($A^* = A$) & Skew-Hermitian ($A^* = -A$) Matrices", type: "subtopic", details: "Real eigenvalues for Hermitian matrices; purely imaginary eigenvalues for skew-Hermitian matrices." },
+                { id: "u4_op3", label: "Invariant Subspaces $T(W) \\subseteq W$ & Block Triangularization", type: "subtopic", details: "Subspaces stable under the action of operator $T$." }
+              ]
+            },
+            {
+              id: "u4_spectral",
+              label: "Eigenvalues & Cayley-Hamilton Theorem",
+              type: "topic",
+              details: "Characteristic polynomials and matrix algebra.",
+              children: [
+                { id: "u4_sp1", label: "Eigenvalue Equation: $T(v) = \\lambda v \\iff \\det(A - \\lambda I) = 0$", type: "subtopic", details: "Roots of characteristic polynomial $\\chi_A(\\lambda) = \\det(\\lambda I - A)$." },
+                { id: "u4_sp2", label: "Cayley-Hamilton Theorem: $\\chi_A(A) = 0$", type: "subtopic", details: "Every square matrix satisfies its own characteristic equation." },
+                { id: "u4_sp3", label: "Minimal Polynomial $m_A(\\lambda) \\mid \\chi_A(\\lambda)$", type: "subtopic", details: "Monic polynomial of least degree annihilating $A$." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit5",
+          label: "Unit 5: Canonical Forms, Bilinear & Quadratic Forms",
+          badge: "Unit 5",
+          type: "unit",
+          color: "#7C3AED",
+          details: "Diagonalization, cyclic subspaces, nilpotent transformations, Jordan canonical form, bilinear forms, and quadratic form classification.",
+          children: [
+            {
+              id: "u5_canonical",
+              label: "Diagonalization & Canonical Forms",
+              type: "topic",
+              details: "Finding simplest matrix representations.",
+              children: [
+                { id: "u5_cf1", label: "Diagonalizability Criteria ($A = PDP^{-1}$)", type: "subtopic", details: "Matrix is diagonalizable $\\iff$ geometric multiplicity equals algebraic multiplicity for all eigenvalues." },
+                { id: "u5_cf2", label: "Nilpotent Operators ($N^k = 0$) & Cyclic Subspaces", type: "subtopic", details: "Nilpotent index and cyclic decomposition theorem." },
+                { id: "u5_cf3", label: "Jordan Canonical Form: $J = \\operatorname{diag}(J_{k_1}(\\lambda_1), \\dots, J_{k_r}(\\lambda_r))$", type: "subtopic", details: "Block diagonal representation with Jordan blocks having $\\lambda$ on diagonal and 1s on superdiagonal." }
+              ]
+            },
+            {
+              id: "u5_forms",
+              label: "Bilinear & Quadratic Forms",
+              type: "topic",
+              details: "Second-degree forms and classification of quadric surfaces.",
+              children: [
+                { id: "u5_bf1", label: "Bilinear Form: $B(\\mathbf{x}, \\mathbf{y}) = \\mathbf{x}^T A \\mathbf{y}$", type: "subtopic", details: "Functions linear in both arguments; symmetric bilinear forms." },
+                { id: "u5_bf2", label: "Quadratic Form: $Q(\\mathbf{x}) = \\mathbf{x}^T A \\mathbf{x} = \\sum a_{ij} x_i x_j$", type: "subtopic", details: "Associated symmetric matrix $A = A^T$." },
+                { id: "u5_bf3", label: "Sylvester's Law of Inertia & Signature $(p, q, z)$", type: "subtopic", details: "Invariance of number of positive, negative, and zero eigenvalues under congruence $P^T A P$." },
+                { id: "u5_bf4", label: "Principal Axis Theorem & Quadric Classification", type: "subtopic", details: "Elimination of cross-product terms to classify conics and quadric surfaces." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "MATMJ32": {
+    id: "MATMJ32",
+    code: "MATMJ32",
+    title: "Analysis",
+    department: "Department of Mathematics",
+    semester: 3,
+    credits: 4,
+    course_type: "Major",
+    summary: "Comprehensive real analysis covering Algebraic & Order Properties of ℝ, Completeness, Monotone Convergence, Infinite & Alternating Series, Riemann Integration, Fundamental Theorems of Calculus, Improper Integrals, and Beta-Gamma Functions.",
+    root: {
+      id: "root",
+      label: "Analysis",
+      badge: "MATMJ32 • Sem 3",
+      type: "root",
+      details: "4 Credits Major Course. Foundations of Real Analysis and Integral Calculus.",
+      children: [
+        {
+          id: "unit1",
+          label: "Unit 1: The Real Numbers & Order Properties",
+          badge: "Unit 1",
+          type: "unit",
+          color: "#4F46E5",
+          details: "Algebraic field axioms of ℝ, order properties, positive cone, absolute value, triangle inequality, Archimedean property, and density of rationals.",
+          children: [
+            {
+              id: "u1_field_order",
+              label: "Algebraic & Order Field Axioms",
+              type: "topic",
+              details: "Axiomatic foundation of the real number system $(\\mathbb{R}, +, \\cdot, <)$.",
+              children: [
+                { id: "u1_fo1", label: "Field Axioms of Reals $(\\mathbb{R}, +, \\cdot)$", type: "subtopic", details: "Commutative, associative, identity, inverse, and distributive laws." },
+                { id: "u1_fo2", label: "Order Axioms & Positivity Cone $P \\subset \\mathbb{R}$", type: "subtopic", details: "Trichotomy property: exactly one of $x \\in P$, $-x \\in P$, or $x = 0$ holds." }
+              ]
+            },
+            {
+              id: "u1_abs_archimedean",
+              label: "Absolute Value & Archimedean Property",
+              type: "topic",
+              details: "Metric bounds and non-infinitesimal nature of ℝ.",
+              children: [
+                { id: "u1_aa1", label: "Absolute Value & Triangle Inequality: $|x+y| \\le |x| + |y|$", type: "subtopic", details: "Reverse triangle inequality $||x| - |y|| \\le |x - y|$." },
+                { id: "u1_aa2", label: "Archimedean Property: $\\forall x \\in \\mathbb{R},\\, \\exists n \\in \\mathbb{N} \\text{ s.t. } n > x$", type: "subtopic", details: "Crucial property showing $\\inf\\{1/n \\mid n \\in \\mathbb{N}\\} = 0$." },
+                { id: "u1_aa3", label: "Density of Rational $\\mathbb{Q}$ & Irrational Numbers in $\\mathbb{R}$", type: "subtopic", details: "Between any two distinct real numbers $x < y$, there exists a rational $r \\in \\mathbb{Q}$ and an irrational $t \\notin \\mathbb{Q}$." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit2",
+          label: "Unit 2: Completeness & Sequences in ℝ",
+          badge: "Unit 2",
+          type: "unit",
+          color: "#0891B2",
+          details: "Completeness axiom, Supremum/Infimum property, limit superior/inferior of sequences, Monotone Convergence theorem, and Bolzano-Weierstrass theorem.",
+          children: [
+            {
+              id: "u2_completeness",
+              label: "Completeness & Supremum Property",
+              type: "topic",
+              details: "The defining topological character of the continuum ℝ.",
+              children: [
+                { id: "u2_cp1", label: "Supremum (LUB) & Infimum (GLB) Axiom", type: "subtopic", details: "Every non-empty subset of $\\mathbb{R}$ bounded above has a least upper bound $\\sup S \\in \\mathbb{R}$." },
+                { id: "u2_cp2", label: "Characterization: $\\forall \\epsilon > 0,\\, \\exists s \\in S \\text{ s.t. } s > \\sup S - \\epsilon$", type: "subtopic", details: "Epsilon approximation characterization of supremum and infimum." }
+              ]
+            },
+            {
+              id: "u2_sequences",
+              label: "Sequences & Monotone Convergence",
+              type: "topic",
+              details: "Convergence, boundedness, and asymptotic limits.",
+              children: [
+                { id: "u2_sq1", label: "Sequence Limits: $|x_n - L| < \\epsilon,\\, \\forall n \\ge N$", type: "subtopic", details: "Rigorous $(\\epsilon, N)$ definition of convergent sequence." },
+                { id: "u2_sq2", label: "Limit Superior $\\limsup x_n$ & Limit Inferior $\\liminf x_n$", type: "subtopic", details: "Largest and smallest subsequential limits of a bounded sequence." },
+                { id: "u2_sq3", label: "Monotone Convergence Theorem (Bounded Monotonic Sequences Converge)", type: "subtopic", details: "Increasing bounded above $\\implies \\lim x_n = \\sup\\{x_n\\}$." },
+                { id: "u2_sq4", label: "Bolzano-Weierstrass Theorem & Cauchy Sequences", type: "subtopic", details: "Every bounded sequence in $\\mathbb{R}$ contains a convergent subsequence; Cauchy completeness." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit3",
+          label: "Unit 3: Series & The Riemann Integral",
+          badge: "Unit 3",
+          type: "unit",
+          color: "#D97706",
+          details: "Alternating series, absolute convergence, Dirichlet & Abel tests, Darboux sums, and Riemann integrability of continuous/monotonic functions.",
+          children: [
+            {
+              id: "u3_series_tests",
+              label: "Infinite Series Convergence Tests",
+              type: "topic",
+              details: "Testing conditional and absolute convergence.",
+              children: [
+                { id: "u3_st1", label: "Alternating Series & Leibniz Test ($a_n \\downarrow 0 \\implies \\sum (-1)^n a_n$ Converges)", type: "subtopic", details: "Alternating series test with error estimate $|S - S_n| \\le a_{n+1}$." },
+                { id: "u3_st2", label: "Absolute vs Conditional Convergence", type: "subtopic", details: "Absolute convergence $\\sum |a_n| < \\infty$ implies convergence; Riemann rearrangement theorem for conditional series." },
+                { id: "u3_st3", label: "Dirichlet's Test & Abel's Test for Series $\\sum a_n b_n$", type: "subtopic", details: "Convergence with bounded partial sums and monotonic sequences." }
+              ]
+            },
+            {
+              id: "u3_riemann_def",
+              label: "Riemann Integrability & Darboux Sums",
+              type: "topic",
+              details: "Partitioning intervals and bounding sums.",
+              children: [
+                { id: "u3_rm1", label: "Darboux Sums: $L(P, f) \\le \\int_a^b f \\le U(P, f)$", type: "subtopic", details: "Lower sum $\\sum m_i \\Delta x_i$ and upper sum $\\sum M_i \\Delta x_i$." },
+                { id: "u3_rm2", label: "Riemann Integrability Criterion: $U(P, f) - L(P, f) < \\epsilon$", type: "subtopic", details: "Necessary and sufficient condition for Riemann integrability." },
+                { id: "u3_rm3", label: "Integrability of Continuous & Monotonic Functions", type: "subtopic", details: "Every continuous function and every bounded monotonic function on $[a,b]$ is Riemann integrable." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit4",
+          label: "Unit 4: Fundamental & Mean Value Theorems of Calculus",
+          badge: "Unit 4",
+          type: "unit",
+          color: "#059669",
+          details: "First & Second Fundamental Theorems of Integral Calculus, integration by parts, First & Second Mean Value Theorems.",
+          children: [
+            {
+              id: "u4_ftc",
+              label: "Fundamental Theorems of Integral Calculus",
+              type: "topic",
+              details: "Connecting differentiation and Riemann integration.",
+              children: [
+                { id: "u4_ft1", label: "First Fundamental Theorem (FTC I): $\\frac{d}{dx}\\int_a^x f(t)\\,dt = f(x)$", type: "subtopic", details: "Derivative of indefinite integral of continuous function recovers $f(x)$." },
+                { id: "u4_ft2", label: "Second Fundamental Theorem (FTC II): $\\int_a^b F'(t)\\,dt = F(b) - F(a)$", type: "subtopic", details: "Evaluating definite integrals using antiderivatives." }
+              ]
+            },
+            {
+              id: "u4_mvt_integrals",
+              label: "Mean Value Theorems of Integrals",
+              type: "topic",
+              details: "Mean value approximations and bounding products.",
+              children: [
+                { id: "u4_mv1", label: "First Mean Value Theorem: $\\int_a^b f(x)g(x)\\,dx = f(c)\\int_a^b g(x)\\,dx$", type: "subtopic", details: "For non-negative $g(x) \\ge 0$ with intermediate point $c \\in [a,b]$." },
+                { id: "u4_mv2", label: "Second Mean Value Theorem (Bonnet & Weierstrass Forms)", type: "subtopic", details: "Mean value representation for bounded monotonic functions $f(x)$." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit5",
+          label: "Unit 5: Improper Integrals, Beta-Gamma & Parametric Integrals",
+          badge: "Unit 5",
+          type: "unit",
+          color: "#7C3AED",
+          details: "Improper integrals of 1st & 2nd kind, comparison tests, Beta and Gamma functions, Abel/Dirichlet tests, and differentiation under integral sign.",
+          children: [
+            {
+              id: "u5_improper",
+              label: "Improper Integrals & Convergence Tests",
+              type: "topic",
+              details: "Infinite integration domains and unbounded integrands.",
+              children: [
+                { id: "u5_im1", label: "Improper Integrals of 1st & 2nd Kind", type: "subtopic", details: "$\\int_a^\\infty f(x)\\,dx = \\lim_{R\\to\\infty}\\int_a^R f(x)\\,dx$ and integrands with singular points." },
+                { id: "u5_im2", label: "Comparison Test & $\\mu$-Test for Convergence", type: "subtopic", details: "Convergence comparison with standard $p$-integral $\\int_1^\\infty \\frac{dx}{x^p}$ ($p > 1$)." },
+                { id: "u5_im3", label: "Abel's & Dirichlet's Tests for Improper Integrals", type: "subtopic", details: "Testing convergence of products $\\int_a^\\infty f(x)g(x)\\,dx$." }
+              ]
+            },
+            {
+              id: "u5_beta_gamma",
+              label: "Beta & Gamma Functions",
+              type: "topic",
+              details: "Eulerian special functions and integral identities.",
+              children: [
+                { id: "u5_bg1", label: "Beta Function: $\\mathrm{B}(m, n) = \\int_0^1 x^{m-1}(1-x)^{n-1}\\,dx$", type: "subtopic", details: "Symmetric Eulerian integral of the first kind ($m > 0, n > 0$)." },
+                { id: "u5_bg2", label: "Gamma Function: $\\Gamma(n) = \\int_0^\\infty x^{n-1}e^{-x}\\,dx$ ($\\Gamma(n+1) = n!$)", type: "subtopic", details: "Continuous extension of the factorial function ($\n\\Gamma(1/2) = \\sqrt{\\pi}$)." },
+                { id: "u5_bg3", label: "Beta-Gamma Relation: $\\mathrm{B}(m, n) = \\frac{\\Gamma(m)\\Gamma(n)}{\\Gamma(m+n)}$", type: "subtopic", details: "Fundamental bridging formula and Legendre's duplication theorem." }
+              ]
+            },
+            {
+              id: "u5_parameter",
+              label: "Integrals Depending on a Parameter",
+              type: "topic",
+              details: "Continuity, differentiation, and integration under integral sign.",
+              children: [
+                { id: "u5_pm1", label: "Leibniz Rule: $\\frac{d}{d\\alpha}\\int_{a(\\alpha)}^{b(\\alpha)} f(x, \\alpha)\\,dx = \\int_a^b \\frac{\\partial f}{\\partial \\alpha}\\,dx + f(b,\\alpha)b' - f(a,\\alpha)a'$", type: "subtopic", details: "Differentiation under the integral sign." },
+                { id: "u5_pm2", label: "Applications to Definite Integral Evaluations", type: "subtopic", details: "Feynman's integration technique for solving challenging improper integrals." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "MATMD31": {
+    id: "MATMD31",
+    code: "MATMD31",
+    title: "Basic Mathematics-III",
+    department: "Department of Mathematics",
+    semester: 3,
+    credits: 3,
+    course_type: "Multidisciplinary",
+    summary: "Applied mathematical toolkit covering Definite Integrals, Fundamental Theorem of Calculus, Integration Techniques, Geometric Areas, Solids of Revolution, Density Functions, and Life Sciences ODE Models.",
+    root: {
+      id: "root",
+      label: "Basic Mathematics-III",
+      badge: "MATMD31 • Sem 3",
+      type: "root",
+      details: "3 Credits Multidisciplinary Course. Applied Integral Calculus and Differential Equation Modeling.",
+      children: [
+        {
+          id: "unit1",
+          label: "Unit 1: Integral Calculus & Techniques",
+          badge: "Unit 1",
+          type: "unit",
+          color: "#4F46E5",
+          details: "Definite integrals, antiderivatives, Fundamental Theorem of Calculus, substitution method, integration by parts, and average values.",
+          children: [
+            {
+              id: "u1_integral_def",
+              label: "Integration Concepts & FTC",
+              type: "topic",
+              details: "Antiderivatives and area under curves.",
+              children: [
+                { id: "u1_id1", label: "Definite Integral: $\\int_a^b f(x)\\,dx = \\lim_{n\\to\\infty} \\sum_{i=1}^n f(x_i^*)\\Delta x$", type: "subtopic", details: "Net accumulated area under function graph." },
+                { id: "u1_id2", label: "Fundamental Theorem of Calculus: $\\int_a^b f(x)\\,dx = F(b) - F(a)$", type: "subtopic", details: "Connecting differentiation and integration via antiderivative $F'(x) = f(x)$." },
+                { id: "u1_id3", label: "Average Value: $f_{\\text{avg}} = \\frac{1}{b-a}\\int_a^b f(x)\\,dx$", type: "subtopic", details: "Mean value height of continuous curve over interval $[a,b]$." }
+              ]
+            },
+            {
+              id: "u1_techniques",
+              label: "Integration Techniques",
+              type: "topic",
+              details: "Analytical integration methods.",
+              children: [
+                { id: "u1_tq1", label: "Substitution Method: $\\int f(g(x))g'(x)\\,dx = \\int f(u)\\,du$", type: "subtopic", details: "Chain rule inverse technique for integrals." },
+                { id: "u1_tq2", label: "Integration by Parts: $\\int u\\,dv = uv - \\int v\\,du$", type: "subtopic", details: "Product rule inverse technique for transcendental and algebraic products." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit2",
+          label: "Unit 2: Geometric & Physical Applications",
+          badge: "Unit 2",
+          type: "unit",
+          color: "#0891B2",
+          details: "Area between curves, volume of solids of revolution (disk and washer methods), and continuous density functions.",
+          children: [
+            {
+              id: "u2_area_vol",
+              label: "Areas & Volumes of Revolution",
+              type: "topic",
+              details: "Geometric measurements via integral calculus.",
+              children: [
+                { id: "u2_av1", label: "Area Between Curves: $A = \\int_a^b [f(x) - g(x)]\\,dx$", type: "subtopic", details: "Enclosed cross-sectional area between upper and lower bounding curves." },
+                { id: "u2_av2", label: "Solid of Revolution: Disk Method $V = \\pi \\int_a^b [R(x)]^2\\,dx$", type: "subtopic", details: "Volume generated by rotating region about the $x$-axis." },
+                { id: "u2_av3", label: "Washer Method: $V = \\pi \\int_a^b ([R(x)]^2 - [r(x)]^2)\\,dx$", type: "subtopic", details: "Volume with inner and outer boundary curves." }
+              ]
+            },
+            {
+              id: "u2_density",
+              label: "Density & Probability Functions",
+              type: "topic",
+              details: "Mass, center of mass, and probability density.",
+              children: [
+                { id: "u2_ds1", label: "Total Mass from Linear Density: $M = \\int_a^b \\rho(x)\\,dx$", type: "subtopic", details: "Accumulated mass along 1D rod with variable density $\\rho(x)$." },
+                { id: "u2_ds2", label: "Probability Density Function: $\\int_{-\\infty}^\\infty f(x)\\,dx = 1$", type: "subtopic", details: "Continuous probability distributions and expected values $E[X] = \\int x f(x)\\,dx$." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit3",
+          label: "Unit 3: Differential Equations & Life Sciences Models",
+          badge: "Unit 3",
+          type: "unit",
+          color: "#D97706",
+          details: "Separation of variables, exponential & limited population growth, equilibria, stability, and homeostasis.",
+          children: [
+            {
+              id: "u3_ode_methods",
+              label: "First-Order ODEs & Separation",
+              type: "topic",
+              details: "Solving differential rate equations.",
+              children: [
+                { id: "u3_om1", label: "Separation of Variables: $\\frac{dy}{g(y)} = f(x)\\,dx$", type: "subtopic", details: "Direct integration after splitting dependent and independent variables." },
+                { id: "u3_om2", label: "Initial Value Problems: $\\frac{dy}{dt} = f(t, y),\\, y(t_0) = y_0$", type: "subtopic", details: "Finding unique trajectory solutions satisfying initial state." }
+              ]
+            },
+            {
+              id: "u3_models",
+              label: "Biological Growth Models & Homeostasis",
+              type: "topic",
+              details: "Mathematical biology and system regulation.",
+              children: [
+                { id: "u3_md1", label: "Logistic Growth: $\\frac{dP}{dt} = rP\\left(1 - \\frac{P}{K}\\right)$", type: "subtopic", details: "Density-dependent population growth with carrying capacity $K$." },
+                { id: "u3_md2", label: "Equilibrium Points: $\\frac{dP}{dt} = 0$ & Phase Stability", type: "subtopic", details: "Stable carrying capacity $P = K$ vs unstable extinction $P = 0$." },
+                { id: "u3_md3", label: "Homeostasis & Drug Elimination Kinetics", type: "subtopic", details: "Negative feedback regulation $\\frac{dC}{dt} = -kC + I$ in physiological systems." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "MATMV31": {
+    id: "MATMV31",
+    code: "MATMV31",
+    title: "Python for Mathematical Applications",
+    department: "Department of Mathematics",
+    semester: 3,
+    credits: 3,
+    course_type: "Minor (Vocational)",
+    summary: "Applied computational mathematics using Python covering Core Syntax, Control Structures, Lists, Tuples, Dictionaries, Sets, Functions, Modular Design, and Mathematical Problem Solving.",
+    root: {
+      id: "root",
+      label: "Python for Mathematical Applications",
+      badge: "MATMV31 • Sem 3",
+      type: "root",
+      details: "3 Credits Minor (Vocational) Course. Applied Scientific Programming with Python.",
+      children: [
+        {
+          id: "unit1",
+          label: "Unit 1: Python Fundamentals & Control Structures",
+          badge: "Unit 1",
+          type: "unit",
+          color: "#4F46E5",
+          details: "Literals, variables, data types, arithmetic/logical operators, expressions, and conditional branching structures.",
+          children: [
+            {
+              id: "u1_syntax",
+              label: "Core Syntax, Data Types & Operators",
+              type: "topic",
+              details: "Basic building blocks of Python scripting.",
+              children: [
+                { id: "u1_sx1", label: "Primitive Types (`int`, `float`, `complex`, `bool`, `str`)", type: "subtopic", details: "Dynamic typing, type casting `float(x)`, and variable assignment." },
+                { id: "u1_sx2", label: "Operators: Arithmetic (`+`, `-`, `*`, `/`, `//`, `**`, `%`), Relational & Logical", type: "subtopic", details: "Operator precedence and mathematical evaluation order." },
+                { id: "u1_sx3", label: "String Formatting & `f-strings`", type: "subtopic", details: "Formatted numeric output and mathematical strings." }
+              ]
+            },
+            {
+              id: "u1_control",
+              label: "Conditional Control Structures",
+              type: "topic",
+              details: "Decision making and program flow branching.",
+              children: [
+                { id: "u1_ct1", label: "Boolean Expressions & Truth Tables (`and`, `or`, `not`)", type: "subtopic", details: "Logical condition evaluation and short-circuit logic." },
+                { id: "u1_ct2", label: "Selection Control: `if`, `elif`, `else` Statements", type: "subtopic", details: "Multi-branch decision logic for piecewise mathematical functions." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit2",
+          label: "Unit 2: Loops, Lists & Tuples",
+          badge: "Unit 2",
+          type: "unit",
+          color: "#0891B2",
+          details: "Iterative control loops, list data structures, sequence slicing, mutation, list comprehensions, and immutable tuples.",
+          children: [
+            {
+              id: "u2_loops",
+              label: "Iterative Control Structures",
+              type: "topic",
+              details: "Repetition algorithms and mathematical series accumulation.",
+              children: [
+                { id: "u2_lp1", label: "`for` Loops & `range(start, stop, step)`", type: "subtopic", details: "Iterating over numerical sequences and generating mathematical grids." },
+                { id: "u2_lp2", label: "`while` Loops & Convergence Conditions", type: "subtopic", details: "Looping until convergence tolerance $|x_{k+1} - x_k| < \\epsilon$ is achieved." },
+                { id: "u2_lp3", label: "Loop Control: `break`, `continue`, `pass`", type: "subtopic", details: "Early loop termination and conditional iteration skipping." }
+              ]
+            },
+            {
+              id: "u2_lists_tuples",
+              label: "Lists, Tuples & Slicing",
+              type: "topic",
+              details: "Sequential data structures and array-like operations.",
+              children: [
+                { id: "u2_lt1", label: "List Operations (`.append()`, `.extend()`, `.pop()`, `.sort()`)", type: "subtopic", details: "Dynamic array creation, mutation, and element access." },
+                { id: "u2_lt2", label: "Sequence Slicing: `list[start:stop:step]`", type: "subtopic", details: "Sub-array extraction and vector reversal." },
+                { id: "u2_lt3", label: "List Comprehensions: `[f(x) for x in data if cond]`", type: "subtopic", details: "Pythonic mapping and filtering of mathematical arrays." },
+                { id: "u2_lt4", label: "Tuples `(x, y)`: Immutability & Unpacking", type: "subtopic", details: "Fixed coordinate pairs and multiple return value unpacking." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit3",
+          label: "Unit 3: Dictionaries, Sets & Functional Programming",
+          badge: "Unit 3",
+          type: "unit",
+          color: "#D97706",
+          details: "Dictionaries, hash maps, mathematical set operations, modular function definitions, parameters, return values, variable scope, and math libraries.",
+          children: [
+            {
+              id: "u3_dict_set",
+              label: "Dictionaries & Mathematical Sets",
+              type: "topic",
+              details: "Associative mappings and discrete set theory.",
+              children: [
+                { id: "u3_ds1", label: "Dictionaries (`dict`): Key-Value Mappings & Lookups", type: "subtopic", details: "Fast hash-map key retrieval, `.keys()`, `.values()`, `.items()`." },
+                { id: "u3_ds2", label: "Sets (`set`): Union `|`, Intersection `&`, Difference `-`", type: "subtopic", details: "Unordered collections of unique elements for discrete mathematical operations." }
+              ]
+            },
+            {
+              id: "u3_functions",
+              label: "Functions, Scope & Modules",
+              type: "topic",
+              details: "Modular scientific code architecture.",
+              children: [
+                { id: "u3_fn1", label: "Function Definition: `def func(params): return result`", type: "subtopic", details: "Modular abstraction, default arguments, and return values." },
+                { id: "u3_fn2", label: "Variable Scope: LEGB Rule (Local, Enclosing, Global, Built-in)", type: "subtopic", details: "Scope visibility and `global` keyword." },
+                { id: "u3_fn3", label: "Lambda Functions: `lambda x: expression`", type: "subtopic", details: "Anonymous inline functions for mathematical integrators and solvers." },
+                { id: "u3_fn4", label: "Math Module (`math.sin`, `math.exp`, `math.sqrt`, `math.pi`)", type: "subtopic", details: "Standard library math functions for analytical and numerical computation." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "MATSE31": {
+    id: "MATSE31",
+    code: "MATSE31",
+    title: "SageMath for Beginners",
+    department: "Department of Mathematics",
+    semester: 3,
+    credits: 3,
+    course_type: "Skill Enhancement",
+    summary: "Computer algebra and open-source mathematical software using SageMath covering Symbolic Computation, Matrix Operations, Calculus (Differentiation & Integration), Algebraic Equations, and 2D/3D Plotting.",
+    root: {
+      id: "root",
+      label: "SageMath for Beginners",
+      badge: "MATSE31 • Sem 3",
+      type: "root",
+      details: "3 Credits Skill Enhancement Course. Computer Algebra Systems (CAS) and Scientific Visualization.",
+      children: [
+        {
+          id: "unit1",
+          label: "Unit 1: SageMath Environment & Symbolic Algebra",
+          badge: "Unit 1",
+          type: "unit",
+          color: "#4F46E5",
+          details: "SageMath environment, Jupyter/CoCalc, symbolic variables, expression expansion, polynomial factoring, and equation solving.",
+          children: [
+            {
+              id: "u1_sage_env",
+              label: "Environment & Symbolic Variables",
+              type: "topic",
+              details: "Open-source Python-based mathematical engine.",
+              children: [
+                { id: "u1_se1", label: "Symbolic Variables: `var('x y t theta')`", type: "subtopic", details: "Declaring formal indeterminates for symbolic mathematics." },
+                { id: "u1_se2", label: "Algebraic Simplification: `.simplify_full()`, `.expand()`, `.factor()`", type: "subtopic", details: "Manipulating rational expressions and polynomial factorization." }
+              ]
+            },
+            {
+              id: "u1_sage_solve",
+              label: "Solving Equations & Polynomials",
+              type: "topic",
+              details: "Exact symbolic and numerical equation solving.",
+              children: [
+                { id: "u1_sv1", label: "Solving Equations: `solve(f(x) == 0, x)`", type: "subtopic", details: "Analytical root finding for polynomial, trigonometric, and exponential systems." },
+                { id: "u1_sv2", label: "Numerical Solutions: `find_root(f, a, b)`", type: "subtopic", details: "Bracketing numerical root solver over specified interval $[a,b]$." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit2",
+          label: "Unit 2: Linear Algebra & Matrix Computations",
+          badge: "Unit 2",
+          type: "unit",
+          color: "#0891B2",
+          details: "Matrix construction, row reduction, determinant, inversion, rank, kernel, eigenvalues, and eigenvectors.",
+          children: [
+            {
+              id: "u2_matrices",
+              label: "Matrix Construction & Row Operations",
+              type: "topic",
+              details: "Linear algebraic representations over rings and fields.",
+              children: [
+                { id: "u2_mc1", label: "Matrix Definition: `matrix(QQ, 3, 3, [...])`", type: "subtopic", details: "Matrices over Rationals `QQ`, Reals `RR`, or Complex `CC`." },
+                { id: "u2_mc2", label: "Reduced Row Echelon Form: `A.rref()`", type: "subtopic", details: "Automatic Gaussian elimination and pivoting for linear systems." },
+                { id: "u2_mc3", label: "Inverses & Determinants: `A.inverse()`, `A.det()`, `A.rank()`", type: "subtopic", details: "Matrix invertibility and dimensional rank calculations." }
+              ]
+            },
+            {
+              id: "u2_spectral_sage",
+              label: "Eigenvalues, Spaces & Diagonalization",
+              type: "topic",
+              details: "Spectral decomposition in SageMath.",
+              children: [
+                { id: "u2_ss1", label: "Kernel & Image: `A.kernel()`, `A.image()`", type: "subtopic", details: "Basis generators for null space and column space." },
+                { id: "u2_ss2", label: "Eigenvalues & Eigenvectors: `A.eigenvalues()`, `A.eigenvectors_right()`", type: "subtopic", details: "Eigenpairs with algebraic and geometric multiplicities." },
+                { id: "u2_ss3", label: "Characteristic Polynomial: `A.charpoly('x')`", type: "subtopic", details: "Symbolic characteristic polynomial and Cayley-Hamilton verification." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit3",
+          label: "Unit 3: Calculus & 2D/3D Plotting",
+          badge: "Unit 3",
+          type: "unit",
+          color: "#D97706",
+          details: "Symbolic limits, differentiation, definite/indefinite integration, Taylor series, and 2D/3D visualizations.",
+          children: [
+            {
+              id: "u3_calculus_sage",
+              label: "Symbolic Calculus & Series",
+              type: "topic",
+              details: "Automated differential and integral calculus.",
+              children: [
+                { id: "u3_cs1", label: "Differentiation: `diff(f, x)` & Partial Derivatives `diff(f, x, y)`", type: "subtopic", details: "Higher-order derivatives and Gradient vectors." },
+                { id: "u3_cs2", label: "Integration: `integral(f, x, a, b)`", type: "subtopic", details: "Exact symbolic and numerical definite and indefinite integration." },
+                { id: "u3_cs3", label: "Limits & Taylor Series: `limit(f, x=a)`, `taylor(f, x, 0, n)`", type: "subtopic", details: "One-sided limits and polynomial Taylor expansions." }
+              ]
+            },
+            {
+              id: "u3_graphics_sage",
+              label: "2D & 3D Scientific Visualization",
+              type: "topic",
+              details: "Generating publishable mathematical plots.",
+              children: [
+                { id: "u3_gs1", label: "2D Curves: `plot(f(x), (x, a, b))` & `parametric_plot()`", type: "subtopic", details: "Function plots, styling, legends, and parametric curves." },
+                { id: "u3_gs2", label: "Implicit Curves: `implicit_plot(x^2 + y^2 == 1, (x,-2,2), (y,-2,2))`", type: "subtopic", details: "Plotting level curves, conics, and algebraic varieties." },
+                { id: "u3_gs3", label: "3D Surfaces: `plot3d(f(x,y), (x,-2,2), (y,-2,2))` & Contour Maps", type: "subtopic", details: "Interactive 3D surfaces and vector field flow visualization." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 };
 
