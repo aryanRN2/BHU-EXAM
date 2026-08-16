@@ -924,6 +924,229 @@ const PREDEFINED_MINDMAPS = {
         }
       ]
     }
+  },
+  "MATMJ54": {
+    id: "MATMJ54",
+    code: "MATMJ54",
+    title: "Numerical Analysis",
+    department: "Department of Mathematics",
+    semester: 5,
+    credits: 3,
+    course_type: "Major",
+    summary: "Rigorous computational mathematics covering Error Analysis, Non-linear Equations, Linear Systems, Birge-Vieta Method, Eigenvalues via Power Method, Finite Differences, Interpolation, Numerical Quadrature, and ODE Solvers (RK4, Predictor-Corrector).",
+    root: {
+      id: "root",
+      label: "Numerical Analysis",
+      badge: "MATMJ54 • Sem 5",
+      type: "root",
+      details: "3 Credits Major Course. Theoretical and Computational Numerical Algorithms.",
+      children: [
+        {
+          id: "unit1",
+          label: "Unit 1: Errors & Non-linear Equations",
+          badge: "Unit 1",
+          type: "unit",
+          color: "#4F46E5",
+          details: "Error propagation, absolute & relative errors, bracketed and open root-finding iterative methods, and convergence analysis.",
+          children: [
+            {
+              id: "u1_errors",
+              label: "Error Analysis & Computations",
+              type: "topic",
+              details: "Sources and quantitative measurement of numerical errors.",
+              children: [
+                { id: "u1_e1", label: "Absolute Error: $E_a = |x - x^*|$", type: "subtopic", details: "Absolute deviation between true value $x$ and computed approximation $x^*$." },
+                { id: "u1_e2", label: "Relative & Percentage Errors: $E_r = \\frac{|x - x^*|}{|x|}$ ($E_p = 100 E_r$)", type: "subtopic", details: "Normalized scale-independent precision metrics." },
+                { id: "u1_e3", label: "Round-Off vs Truncation Errors", type: "subtopic", details: "Machine representation limitations vs Taylor series truncation error terms." }
+              ]
+            },
+            {
+              id: "u1_bracket",
+              label: "Bracketing Root-Finding Methods",
+              type: "topic",
+              details: "Iterative intervals guaranteed by Intermediate Value Theorem.",
+              children: [
+                { id: "u1_b1", label: "Bisection Method: $x_{n+1} = \\frac{a_n + b_n}{2}$", type: "subtopic", details: "Successive interval halving with guaranteed linear convergence ($p=1$)." },
+                { id: "u1_b2", label: "Regula-Falsi Method: $x = \\frac{a f(b) - b f(a)}{f(b) - f(a)}$", type: "subtopic", details: "Method of false position using linear chord interpolation." }
+              ]
+            },
+            {
+              id: "u1_open",
+              label: "Open Iterative Methods & Convergence",
+              type: "topic",
+              details: "Point iterative schemes and local convergence rates.",
+              children: [
+                { id: "u1_o1", label: "Secant Method: $x_{n+1} = x_n - f(x_n)\\frac{x_n - x_{n-1}}{f(x_n) - f(x_{n-1})}$", type: "subtopic", details: "Derivative-free quasi-Newton method with superlinear convergence order $p = \\frac{1+\\sqrt{5}}{2} \\approx 1.618$." },
+                { id: "u1_o2", label: "Newton-Raphson Method: $x_{n+1} = x_n - \\frac{f(x_n)}{f'(x_n)}$", type: "subtopic", details: "Tangent line extrapolation with quadratic convergence order $p = 2$ ($e_{n+1} \\approx \\frac{f''(\\xi)}{2f'(\\xi)} e_n^2$)." },
+                { id: "u1_o3", label: "Fixed-Point Iteration: $x_{n+1} = g(x_n)$ ($|g'(x)| < 1$)", type: "subtopic", details: "Banach contraction mapping principle on interval $[a,b]$." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit2",
+          label: "Unit 2: Polynomial Roots, Linear Systems & Eigenvalues",
+          badge: "Unit 2",
+          type: "unit",
+          color: "#0891B2",
+          details: "Birge-Vieta polynomial solver, Gauss elimination/Jordan direct methods, Jacobi/Gauss-Seidel iterative schemes, Power method for eigenvalues, and finite difference operators.",
+          children: [
+            {
+              id: "u2_birge",
+              label: "Roots of Polynomials: Birge-Vieta",
+              type: "topic",
+              details: "Newton-Raphson accelerated by Horner synthetic division.",
+              children: [
+                { id: "u2_bv1", label: "Birge-Vieta Synthetic Division: $P(x) = (x-r)Q(x) + R$", type: "subtopic", details: "Simultaneous evaluation of polynomial $P(r)$ and derivative $P'(r) = Q(r)$ using synthetic recurrence." },
+                { id: "u2_bv2", label: "Root Deflation Algorithm: $x_{k+1} = x_k - \\frac{P(x_k)}{P'(x_k)}$", type: "subtopic", details: "Extracting successive roots while deflating polynomial degree." }
+              ]
+            },
+            {
+              id: "u2_linear",
+              label: "Linear Systems: Direct & Iterative Methods",
+              type: "topic",
+              details: "Solving matrix systems $A\\mathbf{x} = \\mathbf{b}$.",
+              children: [
+                { id: "u2_ln1", label: "Gauss Elimination & Gauss-Jordan Methods", type: "subtopic", details: "Upper triangular row-echelon reduction and diagonal identity inversion." },
+                { id: "u2_ln2", label: "Jacobi Iterative Scheme: $x_i^{(k+1)} = \\frac{1}{a_{ii}}\\left(b_i - \\sum_{j \\ne i} a_{ij} x_j^{(k)}\\right)$", type: "subtopic", details: "Simultaneous updates under strict diagonal dominance ($|a_{ii}| > \\sum_{j \\ne i} |a_{ij}|$)."},
+                { id: "u2_ln3", label: "Gauss-Seidel Method: Uses Updated Values $x_j^{(k+1)}$ ($j < i$)", type: "subtopic", details: "Successive displacement method with faster spectral radius convergence." }
+              ]
+            },
+            {
+              id: "u2_eigen_diff",
+              label: "Eigenvalues & Finite Difference Operators",
+              type: "topic",
+              details: "Dominant modes and discrete operator calculus.",
+              children: [
+                { id: "u2_ed1", label: "Power Method for Dominant Eigenvalue: $\\mathbf{x}_{k+1} = \\frac{A\\mathbf{x}_k}{\\|A\\mathbf{x}_k\\|}$", type: "subtopic", details: "Rayleigh quotient $\\lambda_1 = \\lim_{k\\to\\infty} \\frac{\\mathbf{x}_k^T A \\mathbf{x}_k}{\\mathbf{x}_k^T \\mathbf{x}_k}$." },
+                { id: "u2_ed2", label: "Finite Difference Operators: $\\Delta, \\nabla, \\delta, E, \\mu$", type: "subtopic", details: "Forward $\\Delta f(x) = f(x+h)-f(x)$, Backward $\\nabla f(x) = f(x)-f(x-h)$, Shift $E = 1+\\Delta = e^{hD}$." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit3",
+          label: "Unit 3: Interpolation & Numerical Differentiation",
+          badge: "Unit 3",
+          type: "unit",
+          color: "#D97706",
+          details: "Newton forward/backward formulas, Lagrange interpolation for unequal intervals, divided differences, and numerical derivatives.",
+          children: [
+            {
+              id: "u3_equispaced",
+              label: "Equispaced Difference Interpolation",
+              type: "topic",
+              details: "Polynomial interpolation on uniformly spaced grids.",
+              children: [
+                { id: "u3_eq1", label: "Newton's Forward Interpolation: $P(x) = y_0 + u\\Delta y_0 + \\frac{u(u-1)}{2!}\\Delta^2 y_0 + \\dots$", type: "subtopic", details: "Best for interpolating near the beginning of table ($u = \\frac{x - x_0}{h}$)." },
+                { id: "u3_eq2", label: "Newton's Backward Interpolation: $P(x) = y_n + v\\nabla y_n + \\frac{v(v+1)}{2!}\\nabla^2 y_n + \\dots$", type: "subtopic", details: "Best for interpolating near the end of table ($v = \\frac{x - x_n}{h}$)." }
+              ]
+            },
+            {
+              id: "u3_unequal",
+              label: "Unequally Spaced Interpolation",
+              type: "topic",
+              details: "Arbitrary nodal points without fixed interval spacing.",
+              children: [
+                { id: "u3_un1", label: "Lagrange's Interpolation Formula: $P_n(x) = \\sum_{i=0}^n y_i \\prod_{j \\ne i} \\frac{x - x_j}{x_i - x_j}$", type: "subtopic", details: "Cardinal polynomial basis functions $L_i(x)$." },
+                { id: "u3_un2", label: "Newton's Divided Difference: $f[x_0, \\dots, x_k] = \\frac{f[x_1, \\dots, x_k] - f[x_0, \\dots, x_{k-1}]}{x_k - x_0}$", type: "subtopic", details: "Divided difference table and symmetric polynomial interpolation." }
+              ]
+            },
+            {
+              id: "u3_diff",
+              label: "Numerical Differentiation",
+              type: "topic",
+              details: "Approximating derivatives from tabular difference data.",
+              children: [
+                { id: "u3_df1", label: "First Derivative: $f'(x_0) \\approx \\frac{1}{h}\\left(\\Delta y_0 - \\frac{1}{2}\\Delta^2 y_0 + \\frac{1}{3}\\Delta^3 y_0 - \\dots\\right)$", type: "subtopic", details: "Differentiating Newton's forward interpolation polynomial." },
+                { id: "u3_df2", label: "Second Derivative: $f''(x_0) \\approx \\frac{1}{h^2}\\left(\\Delta^2 y_0 - \\Delta^3 y_0 + \\frac{11}{12}\\Delta^4 y_0 - \\dots\\right)$", type: "subtopic", details: "Curvature approximation from discrete difference table." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit4",
+          label: "Unit 4: Numerical Integration & Quadrature Formulas",
+          badge: "Unit 4",
+          type: "unit",
+          color: "#059669",
+          details: "Newton-Cotes general quadrature, Trapezoidal rule, Simpson's 1/3 and 3/8 rules, Boole's rule, Weddle's rule, and error bounds.",
+          children: [
+            {
+              id: "u4_quadrature",
+              label: "Newton-Cotes Quadrature Formulas",
+              type: "topic",
+              details: "Integration formulas integrating $n$-th degree interpolating polynomials.",
+              children: [
+                { id: "u4_qd1", label: "General Quadrature: $\\int_a^b f(x)\\,dx = nh \\sum_{k=0}^n C_k^{(n)} y_k$", type: "subtopic", details: "Foundation for Trapezoidal, Simpson's, Boole's, and Weddle's integration rules." },
+                { id: "u4_qd2", label: "Trapezoidal Rule ($n=1$): $\\int_{x_0}^{x_1} f(x)\\,dx \\approx \\frac{h}{2}(y_0 + y_1)$", type: "subtopic", details: "Error term: $E_T = -\\frac{(b-a)h^2}{12} f''(\\xi)$." }
+              ]
+            },
+            {
+              id: "u4_simpson",
+              label: "Simpson's Rules (Parabolic & Cubic)",
+              type: "topic",
+              details: "Higher-order accurate composite integration.",
+              children: [
+                { id: "u4_sm1", label: "Simpson's 1/3rd Rule ($n=2$): $\\int_{x_0}^{x_2} f(x)\\,dx \\approx \\frac{h}{3}(y_0 + 4y_1 + y_2)$", type: "subtopic", details: "Composite error: $E_{S1/3} = -\\frac{(b-a)h^4}{180} f^{(4)}(\\xi)$ (Exact for cubics)." },
+                { id: "u4_sm2", label: "Simpson's 3/8th Rule ($n=3$): $\\int_{x_0}^{x_3} f(x)\\,dx \\approx \\frac{3h}{8}(y_0 + 3y_1 + 3y_2 + y_3)$", type: "subtopic", details: "Composite cubic quadrature with error $E_{S3/8} = -\\frac{3(b-a)h^4}{80} f^{(4)}(\\xi)$." }
+              ]
+            },
+            {
+              id: "u4_higher",
+              label: "Boole's, Weddle's Rules & Errors",
+              type: "topic",
+              details: "Higher-order integration rules.",
+              children: [
+                { id: "u4_hg1", label: "Boole's Rule ($n=4$): $\\frac{2h}{45}(7y_0 + 32y_1 + 12y_2 + 32y_3 + 7y_4)$", type: "subtopic", details: "5-point quadrature rule with degree of precision 5." },
+                { id: "u4_hg2", label: "Weddle's Rule ($n=6$): $\\frac{3h}{10}(y_0 + 5y_1 + y_2 + 6y_3 + y_4 + 5y_5 + y_6)$", type: "subtopic", details: "7-point quadrature formula with minimal truncation error coefficient." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit5",
+          label: "Unit 5: Numerical Solutions of ODEs",
+          badge: "Unit 5",
+          type: "unit",
+          color: "#7C3AED",
+          details: "Initial value problems $\\frac{dy}{dx} = f(x,y)$, Euler's and Modified Euler methods, Runge-Kutta 2nd and 4th order methods, and Milne-Simpson / Adams-Bashforth predictor-correctors.",
+          children: [
+            {
+              id: "u5_euler",
+              label: "Euler & Modified Euler Methods",
+              type: "topic",
+              details: "Single-step elementary step-marching ODE solvers.",
+              children: [
+                { id: "u5_el1", label: "Euler's Method: $y_{n+1} = y_n + h f(x_n, y_n)$", type: "subtopic", details: "First-order Taylor approximation with local truncation error $\\mathcal{O}(h^2)$ and global error $\\mathcal{O}(h)$." },
+                { id: "u5_el2", label: "Modified Euler (Heun): $y_{n+1} = y_n + \\frac{h}{2}\\left[f(x_n, y_n) + f(x_{n+1}, y_n + hf_n)\\right]$", type: "subtopic", details: "Second-order accurate trapezoidal predictor-corrector." }
+              ]
+            },
+            {
+              id: "u5_runge_kutta",
+              label: "Runge-Kutta Methods (RK2 & RK4)",
+              type: "topic",
+              details: "High-accuracy multi-stage single-step methods without computing higher derivatives.",
+              children: [
+                { id: "u5_rk1", label: "Runge-Kutta 2nd Order (RK2) & Implicit RK2", type: "subtopic", details: "Midpoint and Heun formulations matching Taylor series to $\\mathcal{O}(h^2)$." },
+                { id: "u5_rk2", label: "Classical RK4: $y_{n+1} = y_n + \\frac{h}{6}(k_1 + 2k_2 + 2k_3 + k_4)$", type: "subtopic", details: "Slopes $k_1 = f(x_n, y_n)$, $k_2 = f(x_n + \\frac{h}{2}, y_n + \\frac{hk_1}{2})$, $k_3 = f(x_n + \\frac{h}{2}, y_n + \\frac{hk_2}{2})$, $k_4 = f(x_n + h, y_n + hk_3)$ with $\\mathcal{O}(h^5)$ local error." }
+              ]
+            },
+            {
+              id: "u5_predictor_corrector",
+              label: "Predictor-Corrector Multi-step Methods",
+              type: "topic",
+              details: "Multi-step methods utilizing past solution history.",
+              children: [
+                { id: "u5_pc1", label: "Milne-Simpson Predictor: $y_{n+1}^{(P)} = y_{n-3} + \\frac{4h}{3}(2f_{n-2} - f_{n-1} + 2f_n)$", type: "subtopic", details: "Extrapolates next point using Newton-Cotes open quadrature formula." },
+                { id: "u5_pc2", label: "Milne-Simpson Corrector: $y_{n+1}^{(C)} = y_{n-1} + \\frac{h}{3}(f_{n-1} + 4f_n + f_{n+1})$", type: "subtopic", details: "Refines predicted point using Simpson's 1/3 rule with error $-\\frac{h^5}{90}y^{(5)}(\\xi)$." },
+                { id: "u5_pc3", label: "Adams-Bashforth & Adams-Moulton Methods", type: "subtopic", details: "Explicit and implicit linear multi-step ODE formulas." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 };
 
