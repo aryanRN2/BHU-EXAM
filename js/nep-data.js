@@ -572,6 +572,22 @@ export const NEP_LATEX_PYQ_DATA = [
     "isNepPaper": true
   },
   {
+    "code": "CHEMJ33",
+    "courseType": "Major",
+    "name": "B.Sc. (Hons.) Semester III (NEP) Mid-Semester Examination 2025-26 - CHEMJ33: Physical Chemistry-I",
+    "filePath": "aaa/ALL_PYQS_LATEX/CHEMJ33_PhysicalChemistryI_SemIII_MidTerm_2025-26.tex",
+    "fileName": "CHEMJ33_PhysicalChemistryI_SemIII_MidTerm_2025-26.tex",
+    "nepCode": "CHEMJ33",
+    "oldCode": "CHEMJ33",
+    "subject": "Chemistry",
+    "department": "Department of Chemistry",
+    "semester": "Semester III",
+    "year": "2025-26",
+    "type": "NEP",
+    "examType": "Mid Term",
+    "isNepPaper": true
+  },
+  {
     "code": "CHEMJ32",
     "courseType": "Major",
     "name": "B.Sc. (Hons.) Semester III (NEP) Examination 2025-26 - CHEMJ32: Organic Chemistry-I",
@@ -2110,6 +2126,19 @@ export const NEP_LATEX_PYQ_DATA = [
     "fileName": "PHYMJ41_ElectromagneticTheory_SemIV_2025-26.tex",
     "nepCode": "PHYMJ41 / PHYMN41",
     "oldCode": "PHYMJ41",
+    "isNepPaper": true
+  },
+  {
+    "code": "PHYMN41",
+    "subject": "Electromagnetic Theory & Relativistic Mechanics (Mid Term)",
+    "semester": 4,
+    "year": "2025-26",
+    "department": "Physics",
+    "filePath": "aaa/ALL_PYQS_LATEX/PHYMN41_ElectromagneticTheory_SemIV_MidTerm_2025-26.tex",
+    "fileName": "PHYMN41_ElectromagneticTheory_SemIV_MidTerm_2025-26.tex",
+    "nepCode": "PHYMN41 / PHYMJ41",
+    "oldCode": "PHYMN41",
+    "examType": "Mid Term",
     "isNepPaper": true
   },
   {

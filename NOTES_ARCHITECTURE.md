@@ -29,6 +29,9 @@ NOTES/
 | Semester IV | **MATMJ43** | Differential Equations (Major) | `Differential equation notes.pdf` | ~37.9 MB | Covers ordinary and partial differential equations. |
 | Semester IV | **Mechanics** | Mechanics (General / Major) | `MECHANICS class notes .pdf` | ~30.7 MB | Covers statics, dynamics, rigid body motion, and catenary. |
 | Semester IV | **MATMN41** | Differential Equations (Minor) | `Differential equation notes.pdf` | ~37.9 MB | Minor stream ordinary and partial differential equations reference. |
+| Semester III | **CHEMJ31** | Inorganic Chemistry-I | `Inorganic Chemistry-I notes.pdf` | ~25.9 MB | Complete handwritten lecture notes covering main group elements, complexes, Portland cement, and inorganic reactions. (Contributed by Pintu) |
+| Semester III | **CHEMJ32** | Organic Chemistry-I | `Organic Chemistry-I notes.pdf` | ~21.6 MB | Comprehensive lecture notes covering carbonyl compounds, condensation reactions, ylides, and aromaticity. (Contributed by Pintu) |
+| Semester III | **CHEMJ33** | Physical Chemistry-I | `Physical Chemistry-I notes.pdf` | ~23.4 MB | Complete handwritten lecture notes covering electrochemistry, electrochemical cells, phase equilibria, and chemical kinetics. (Contributed by Pintu) |
 
 ---
 

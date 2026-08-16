@@ -956,6 +956,8 @@
             body = replaceCommandWithBalancedBraces(body, '\\textbf', (inner) => {
                 return `<strong>${inner}</strong>`;
             });
+            body = body.replace(/\\textbf\s*\{([^}]*)\}/gi, '<strong>$1</strong>');
+            body = body.replace(/\\textbf\b/gi, '');
             body = replaceCommandWithBalancedBraces(body, '\\textit', (inner) => {
                 return `<span class="italic">${inner}</span>`;
             });
@@ -995,8 +997,8 @@
             body = replaceCommandWithBalancedBraces(body, '\\vspace*', (inner) => '');
             body = replaceCommandWithBalancedBraces(body, '\\vspace', (inner) => '');
 
-            // Section headings (matches A-D and Roman numerals to avoid matching plain words like 'which')
-            body = body.replace(/SECTION\s+([A-D]|[IVX]+)\b/gi, '<span class="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-primary border-b-2 border-primary/20 pb-1">SECTION $1</span>');
+            // Section headings (matches uppercase SECTION A-D and Roman numerals)
+            body = body.replace(/\bSECTION\s+([A-D]|[IVX]+)\b/g, '<span class="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-primary border-b-2 border-primary/20 pb-1">SECTION $1</span>');
 
             // Standard OR choices dividers
             body = body.replace(/\\hfill\s*\\textbf\{OR\}/gi, '<div class="text-center font-bold my-4 text-xs sm:text-sm text-secondary uppercase tracking-widest">— OR —</div>');
