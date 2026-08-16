@@ -240,7 +240,15 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Introduction to SageMath: Overview of SageMath: What is it and why use it?, Installing SageMath (locally or using SageMathCell/CoCalc)., Introduction to the SageMath interface and basic commands., Creating and running SageMath notebooks. Arithmetic operations and basic functions. Algebra with SageMath: Working with symbolic expressions and variables. Simplifying expressions, ex-panding, and factoring. Solving algebraic equations (linear, quadratic, polynomial). Working with systems of equations. Introduction to matrices and basic matrix operations. Functions and Graphing: Defining and evaluating functionsin SageMath. Plotting functions: basic plots, multiple plots, and customizing milata Farnlauinn naan nannnlans, avanhn. nalau"
+              "topics": "Introduction to SageMath: Overview of SageMath: What is it and why use it?, Installing SageMath (locally or using SageMathCell/CoCalc)., Introduction to the SageMath interface and basic commands., Creating and running SageMath notebooks. Arithmetic operations and basic functions. Algebra with SageMath: Working with symbolic expressions and variables. Simplifying expressions, expanding, and factoring. Solving algebraic equations (linear, quadratic, polynomial). Working with systems of equations. Introduction to matrices and basic matrix operations. Functions and Graphing: Defining and evaluating functions in SageMath. Plotting functions: basic plots, multiple plots, and customizing plots. Exploring more complex graphs: polar plots, parametric plots, and 3D plots. Applications: modeling real-world phenomena with functions and graphs. 15"
+            },
+            {
+              "unit": 2,
+              "topics": "Calculus with SageMath: Limits and continuity. Differentiation: finding derivatives and applying differentiation rules. Integration: definite and indefinite integrals. Series and summation. Applications: solving calculus problems using SageMath. Number Theory and Discrete Mathematics: Introduction to number theory: primes, gcd, lcm, and modular arithmetic. Working with integers, rationals, and modular forms. Basic combinatorics: permutations, combinations, and binomial coefficients. Applications in cryptography and coding theory. 15"
+            },
+            {
+              "unit": 3,
+              "topics": "Linear Algebra in SageMath: Introduction to vectors and vector spaces. Matrix operations: addition, multiplication, and inversion. Solving linear systems using matrix methods. Eigenvalues and eigenvectors. Applications: solving linear algebra problems using SageMath. Advanced Topics in SageMath. Introduction to SageMath packages and libraries (e.g., NumPy, SciPy). Polynomial algebra and advanced algebraic structures. Basic differential equations: solving ODEs and PDEs. Introduction to statistics and probability using SageMath. Applications: using SageMath in research and complex problem-solving. Final Project and Review: Review of all topics covered. Working on a final project (e.g., solving a real-world problem using SageMath). Troubleshooting common issues in SageMath. Course feedback and further learning resources. 15 Texts /"
             }
           ]
         }

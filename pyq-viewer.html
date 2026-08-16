@@ -588,38 +588,72 @@
                                 class="text-[9px] sm:text-[10px] text-neutral-500 font-semibold uppercase tracking-wider mt-0.5">
                                 BHU Academic Archive</p>
                         </div>
-                    </div>
-                    <div class="shrink-0 ml-2 flex items-center gap-1.5 sm:gap-2">
-                        <!-- Zoom Controls in Header -->
+                          <!-- Zoom Controls in Header -->
                         <div class="hidden sm:inline-flex items-center bg-neutral-100/90 backdrop-blur-md border border-neutral-200/90 rounded-full shadow-inner p-0.5 shrink-0">
-                            <button onclick="changeZoom(-0.15)" class="w-6 h-6 rounded-full flex items-center justify-center text-neutral-700 hover:text-neutral-950 hover:bg-white active:scale-95 transition-all text-xs font-bold" title="Zoom Out (Ctrl -)">
-                                <span class="material-symbols-outlined text-xs font-bold">remove</span>
+                            <button onclick="changeZoom(-0.2)" class="w-6 h-6 rounded-full flex items-center justify-center text-neutral-700 hover:text-neutral-950 hover:bg-white active:scale-95 transition-all text-xs font-bold" title="Zoom Out (Ctrl -)">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M20 12H4"/></svg>
                             </button>
-                            <button onclick="resetZoom()" id="zoomLevelDisplay" class="px-2 text-[10px] sm:text-xs font-black text-neutral-900 hover:text-black transition-all tabular-nums" title="Reset Zoom (Ctrl 0)">
+                            <button onclick="resetZoom()" id="zoomLevelDisplay" class="px-2 text-[10px] sm:text-xs font-black text-neutral-900 hover:text-indigo-600 transition-all tabular-nums" title="Reset Zoom (Ctrl 0)">
                                 100%
                             </button>
-                            <button onclick="changeZoom(0.15)" class="w-6 h-6 rounded-full flex items-center justify-center text-neutral-700 hover:text-neutral-950 hover:bg-white active:scale-95 transition-all text-xs font-bold" title="Zoom In (Ctrl +)">
-                                <span class="material-symbols-outlined text-xs font-bold">add</span>
+                            <button onclick="changeZoom(0.2)" class="w-6 h-6 rounded-full flex items-center justify-center text-neutral-700 hover:text-neutral-950 hover:bg-white active:scale-95 transition-all text-xs font-bold" title="Zoom In (Ctrl +)">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 4v16m8-8H4"/></svg>
                             </button>
                         </div>
 
                         <!-- Mode Switcher: Web LaTeX vs Official PDF -->
                         <div class="inline-flex p-0.5 bg-neutral-100/90 backdrop-blur-md border border-neutral-200/90 rounded-full shadow-inner shrink-0">
                             <button id="btnModeLatex" onclick="switchViewerMode('latex')" class="px-2.5 sm:px-3.5 py-1 sm:py-1.5 text-[10px] sm:text-xs font-black rounded-full transition-all flex items-center gap-1.5 bg-white text-emerald-800 shadow-sm border border-neutral-200/60" title="Responsive Web LaTeX View">
-                                <span class="material-symbols-outlined text-xs font-bold">code</span>
+                                <svg class="w-3.5 h-3.5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
                                 <span class="hidden sm:inline">Web</span> (LaTeX)
                             </button>
                             <button id="btnModePdf" onclick="switchViewerMode('pdf')" class="px-2.5 sm:px-3.5 py-1 sm:py-1.5 text-[10px] sm:text-xs font-bold rounded-full transition-all flex items-center gap-1.5 text-neutral-700 hover:text-neutral-950 hover:bg-white/60" title="Official Compiled PDF View">
-                                <span class="material-symbols-outlined text-xs text-rose-600 font-bold">picture_as_pdf</span>
+                                <svg class="w-3.5 h-3.5 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
                                 <span class="text-neutral-800 font-bold">Official PDF</span>
                             </button>
                         </div>
 
-                        <!-- Fullscreen Button -->
+                        <!-- Download Actions Menu -->
+                        <div class="relative inline-block text-left" id="downloadDropdownContainer">
+                            <button onclick="toggleDownloadMenu(event)"
+                                class="bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white text-[10px] sm:text-xs font-bold px-3 sm:px-3.5 py-1.5 sm:py-2 rounded-full transition-all flex items-center gap-1.5 active:scale-95 shadow-sm"
+                                title="Download Options">
+                                <svg class="w-3.5 h-3.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+                                <span class="text-white font-bold">Download</span>
+                                <svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                            </button>
+                            <div id="downloadMenu"
+                                class="hidden absolute right-0 mt-2 w-56 rounded-2xl shadow-2xl bg-white border border-neutral-200 z-50 overflow-hidden transform transition-all">
+                                <div class="p-1.5 space-y-1">
+                                    <button onclick="downloadActiveDoc('pdf')"
+                                        class="w-full text-left px-3 py-2.5 rounded-xl hover:bg-neutral-50 flex items-center gap-3 transition-colors group">
+                                        <div class="w-8 h-8 rounded-lg bg-rose-50 text-rose-600 flex items-center justify-center font-black text-xs shrink-0 group-hover:scale-105 transition-transform">
+                                            PDF
+                                        </div>
+                                        <div>
+                                            <p class="text-xs font-bold text-neutral-800">Standard PDF</p>
+                                            <p class="text-[10px] text-neutral-500">Official Exam Format</p>
+                                        </div>
+                                    </button>
+                                    <button onclick="downloadActiveDoc('tex')"
+                                        class="w-full text-left px-3 py-2.5 rounded-xl hover:bg-neutral-50 flex items-center gap-3 transition-colors group">
+                                        <div class="w-8 h-8 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center font-black text-xs shrink-0 group-hover:scale-105 transition-transform">
+                                            TEX
+                                        </div>
+                                        <div>
+                                            <p class="text-xs font-bold text-neutral-800">LaTeX Source</p>
+                                            <p class="text-[10px] text-neutral-500">Editable Source Code</p>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Fullscreen Toggle Button -->
                         <button onclick="toggleFullscreen()"
                             class="bg-neutral-900 hover:bg-black text-white text-[10px] sm:text-xs font-bold px-3 sm:px-3.5 py-1.5 sm:py-2 rounded-full transition-all flex items-center gap-1.5 active:scale-95 shadow-sm"
                             title="View Fullscreen">
-                            <span class="material-symbols-outlined text-xs sm:text-sm text-white" id="fullscreenIcon">fullscreen</span>
+                            <svg class="w-3.5 h-3.5 text-white" id="fullscreenIconSvg" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"/></svg>
                             <span id="fullscreenText" class="hidden sm:inline text-white font-bold">Fullscreen</span>
                         </button>
                     </div>
@@ -629,15 +663,15 @@
                     id="viewerContentArea">
 
                     <!-- Floating Quick-Zoom Bar -->
-                    <div id="floatingZoomBar" class="absolute bottom-4 right-4 z-30 flex items-center gap-1 bg-white/90 backdrop-blur-xl px-2 py-1.5 rounded-full border border-neutral-300 shadow-xl transition-all">
-                        <button onclick="changeZoom(-0.15)" class="w-7 h-7 rounded-full flex items-center justify-center bg-neutral-100 hover:bg-neutral-200 text-neutral-800 active:scale-90 transition-all font-bold" title="Zoom Out">
-                            <span class="material-symbols-outlined text-xs font-bold">remove</span>
+                    <div id="floatingZoomBar" class="absolute bottom-4 right-4 z-30 flex items-center gap-1 bg-white/95 backdrop-blur-xl px-2 py-1.5 rounded-full border border-neutral-300 shadow-2xl transition-all">
+                        <button onclick="changeZoom(-0.2)" class="w-7 h-7 rounded-full flex items-center justify-center bg-neutral-100 hover:bg-neutral-200 text-neutral-800 active:scale-90 transition-all font-bold" title="Zoom Out">
+                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M20 12H4"/></svg>
                         </button>
-                        <button onclick="resetZoom()" id="floatingZoomText" class="px-1.5 text-[11px] font-black text-neutral-900 tabular-nums tracking-tight">
+                        <button onclick="resetZoom()" id="floatingZoomText" class="px-2 text-xs font-black text-neutral-900 hover:text-indigo-600 transition-colors tabular-nums tracking-tight" title="Reset Zoom (100%)">
                             100%
                         </button>
-                        <button onclick="changeZoom(0.15)" class="w-7 h-7 rounded-full flex items-center justify-center bg-neutral-100 hover:bg-neutral-200 text-neutral-800 active:scale-90 transition-all font-bold" title="Zoom In">
-                            <span class="material-symbols-outlined text-xs font-bold">add</span>
+                        <button onclick="changeZoom(0.2)" class="w-7 h-7 rounded-full flex items-center justify-center bg-neutral-100 hover:bg-neutral-200 text-neutral-800 active:scale-90 transition-all font-bold" title="Zoom In">
+                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 4v16m8-8H4"/></svg>
                         </button>
                     </div>
 
@@ -1501,8 +1535,7 @@
             const scrollContainer = getActiveScrollContainer();
             if (!scrollContainer) return;
 
-            const isMobile = window.innerWidth < 640;
-            const minZoom = isMobile ? 1.0 : 0.6;
+            const minZoom = 0.4;
             const maxZoom = 4.0;
             const newZoom = Math.min(Math.max(currentZoomMultiplier + delta, minZoom), maxZoom);
             if (Math.abs(newZoom - currentZoomMultiplier) < 0.001) return;
@@ -1614,6 +1647,7 @@
         (function setupZoomListeners() {
             let initialDistance = 0;
             let startZoom = 1.0;
+            let lastTapTime = 0;
 
             // Block default browser gesture zooming on entire page
             document.addEventListener('gesturestart', (e) => e.preventDefault(), { passive: false });
@@ -1643,9 +1677,9 @@
                             e.touches[0].pageY - e.touches[1].pageY
                         );
                         const factor = currentDistance / initialDistance;
-                        const isMobile = window.innerWidth < 640;
-                        const minZoom = isMobile ? 1.0 : 0.6;
-                        const newZoom = Math.min(Math.max(startZoom * factor, minZoom), 4.0);
+                        const minZoom = 0.4;
+                        const maxZoom = 4.0;
+                        const newZoom = Math.min(Math.max(startZoom * factor, minZoom), maxZoom);
                         
                         const midX = (e.touches[0].clientX + e.touches[1].clientX) / 2;
                         const midY = (e.touches[0].clientY + e.touches[1].clientY) / 2;
@@ -1658,7 +1692,24 @@
                     if (e.touches.length < 2) {
                         initialDistance = 0;
                     }
-                }, { passive: true });
+
+                    // Mobile Double-Tap to Zoom / Reset
+                    if (e.touches.length === 0 && e.changedTouches.length === 1) {
+                        const now = Date.now();
+                        const timeDiff = now - lastTapTime;
+                        if (timeDiff < 300 && timeDiff > 0) {
+                            const tapX = e.changedTouches[0].clientX;
+                            const tapY = e.changedTouches[0].clientY;
+                            if (currentZoomMultiplier > 1.1) {
+                                window.resetZoom();
+                            } else {
+                                window.zoomAtPoint(0.6, tapX, tapY);
+                            }
+                            e.preventDefault();
+                        }
+                        lastTapTime = now;
+                    }
+                }, { passive: false });
 
                 // Ctrl + Wheel / Trackpad pinch zoom anchored strictly to the Mouse Cursor
                 contentArea.addEventListener('wheel', (e) => {
