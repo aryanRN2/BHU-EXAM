@@ -407,20 +407,26 @@
 
             updateCanvasTransform();
 
-        // Math LaTeX Formatter
+        // Math LaTeX Formatter (Clean typography with KaTeX)
         function renderMath(text) {
             if (!text) return '';
-            if (typeof katex === 'undefined') return text;
-            return text.replace(/\$([^\$]+)\$/g, (match, formula) => {
-                try {
-                    return katex.renderToString(formula, {
-                        throwOnError: false,
-                        displayMode: false
-                    });
-                } catch (e) {
-                    return match;
-                }
-            });
+            // Strip raw markdown backticks so function names blend smoothly into the typography
+            let processed = text.replace(/`([^`]+)`/g, '$1');
+
+            // Render LaTeX $...$ with KaTeX
+            if (typeof katex !== 'undefined') {
+                processed = processed.replace(/\$([^\$]+)\$/g, (match, formula) => {
+                    try {
+                        return katex.renderToString(formula, {
+                            throwOnError: false,
+                            displayMode: false
+                        });
+                    } catch (e) {
+                        return match;
+                    }
+                });
+            }
+            return processed;
         }
 
         // Draw SVG paths and Nodes recursively

@@ -1761,104 +1761,142 @@ const PREDEFINED_MINDMAPS = {
     semester: 3,
     credits: 3,
     course_type: "Skill Enhancement",
-    summary: "Computer algebra and open-source mathematical software using SageMath covering Symbolic Computation, Matrix Operations, Calculus (Differentiation & Integration), Algebraic Equations, and 2D/3D Plotting.",
+    summary: "Comprehensive open-source computer algebra system covering SageMath Environment, Symbolic Algebra, Functions & Graphing, Calculus, Number Theory, Cryptography, Linear Algebra, ODEs/PDEs, Scientific Libraries, and Applied Final Projects.",
     root: {
       id: "root",
       label: "SageMath for Beginners",
       badge: "MATSE31 • Sem 3",
       type: "root",
-      details: "3 Credits Skill Enhancement Course. Computer Algebra Systems (CAS) and Scientific Visualization.",
+      details: "3 Credits Skill Enhancement Course. Open-Source Computer Algebra Systems (CAS) and Scientific Computing.",
       children: [
         {
           id: "unit1",
-          label: "Unit 1: SageMath Environment & Symbolic Algebra",
+          label: "Unit 1: Introduction, Symbolic Algebra & Graphing",
           badge: "Unit 1",
           type: "unit",
           color: "#4F46E5",
-          details: "SageMath environment, Jupyter/CoCalc, symbolic variables, expression expansion, polynomial factoring, and equation solving.",
+          details: "SageMath environment, Jupyter/CoCalc, basic arithmetic, symbolic expressions, expanding & factoring, equation solving, and 2D/3D visualizations.",
           children: [
             {
-              id: "u1_sage_env",
-              label: "Environment & Symbolic Variables",
+              id: "u1_intro",
+              label: "1. Introduction to SageMath & Interface",
               type: "topic",
-              details: "Open-source Python-based mathematical engine.",
+              details: "Overview, installation options, and notebook interface.",
               children: [
-                { id: "u1_se1", label: "Symbolic Variables: `var('x y t theta')`", type: "subtopic", details: "Declaring formal indeterminates for symbolic mathematics." },
-                { id: "u1_se2", label: "Algebraic Simplification: `.simplify_full()`, `.expand()`, `.factor()`", type: "subtopic", details: "Manipulating rational expressions and polynomial factorization." }
+                { id: "u1_in1", label: "Overview: Open-Source Computer Algebra System (CAS)", type: "subtopic", details: "Combines Python, Maxima, PARI/GP, GAP, and Singular into a unified engine." },
+                { id: "u1_in2", label: "Installation: Local Conda vs SageMathCell & CoCalc Cloud", type: "subtopic", details: "Zero-install web environment via CoCalc / SageMathCell and local CLI setup." },
+                { id: "u1_in3", label: "Interactive Notebooks: Jupyter Interface & Commands", type: "subtopic", details: "Code cells, markdown notes, tab auto-completion, and inline help using `?`." },
+                { id: "u1_in4", label: "Exact Arithmetic Rings: $\\mathbb{Z}, \\mathbb{Q}, \\mathbb{R}, \\mathbb{C}$ (`ZZ`, `QQ`, `RR`, `CC`)", type: "subtopic", details: "Arbitrary-precision arithmetic, fractions, and transcendental constants (`pi`, `e`, `I`)." }
               ]
             },
             {
-              id: "u1_sage_solve",
-              label: "Solving Equations & Polynomials",
+              id: "u1_algebra",
+              label: "2. Algebra with SageMath",
               type: "topic",
-              details: "Exact symbolic and numerical equation solving.",
+              details: "Symbolic expressions, simplification, and equation solving.",
               children: [
-                { id: "u1_sv1", label: "Solving Equations: `solve(f(x) == 0, x)`", type: "subtopic", details: "Analytical root finding for polynomial, trigonometric, and exponential systems." },
-                { id: "u1_sv2", label: "Numerical Solutions: `find_root(f, a, b)`", type: "subtopic", details: "Bracketing numerical root solver over specified interval $[a,b]$." }
+                { id: "u1_al1", label: "Symbolic Variables: $x, y, z, t, \\theta$", type: "subtopic", details: "Declaring formal symbolic indeterminates using `var('x, y, z, t, theta')`." },
+                { id: "u1_al2", label: "Simplifying & Factoring: $(x+a)(x+b) = x^2+(a+b)x+ab$", type: "subtopic", details: "Polynomial manipulation using `.expand()`, `.factor()`, and `.simplify_full()`." },
+                { id: "u1_al3", label: "Solving Equations: $f(x) = 0, \\; ax^2+bx+c = 0$", type: "subtopic", details: "Exact algebraic root finding and radical solutions via `solve(f(x) == 0, x)`." },
+                { id: "u1_al4", label: "Systems of Equations: $\\begin{cases} a_1x + b_1y = c_1 \\\\ a_2x + b_2y = c_2 \\end{cases}$", type: "subtopic", details: "Simultaneous linear and non-linear solvers via `solve([eq1, eq2], [x, y])`." },
+                { id: "u1_al5", label: "Matrix Construction: $A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$", type: "subtopic", details: "Matrix definition `matrix(QQ, 2, 2, [...])`, addition, scalar multiplication, and transpose." }
+              ]
+            },
+            {
+              id: "u1_graphing",
+              label: "3. Functions & Graphing",
+              type: "topic",
+              details: "Visualizing 2D curves, polar plots, and 3D surfaces.",
+              children: [
+                { id: "u1_gr1", label: "Defining Functions: $f(x) = \\sin(x)e^{-x}$", type: "subtopic", details: "Callable mathematical functions, piecewise definitions, and evaluation `f(2)`." },
+                { id: "u1_gr2", label: "2D Curves & Plot Customization: $y = f(x)$", type: "subtopic", details: "Multiple curves via `plot(f, (x, a, b))`, custom colors, grids, and legends." },
+                { id: "u1_gr3", label: "Complex Graphs: Polar $r = f(\\theta)$, Parametric $(x(t), y(t))$ & Implicit", type: "subtopic", details: "Rose curves, cardioids, and implicit conic section curves via `polar_plot()` and `parametric_plot()`." },
+                { id: "u1_gr4", label: "3D Surfaces & Visualizations: $z = f(x, y)$", type: "subtopic", details: "Rotatable 3D surface meshes and contour plots via `plot3d()`." },
+                { id: "u1_gr5", label: "Applications: Real-World Modeling with Functions & Graphs", type: "subtopic", details: "Trajectory simulation, physics orbits, and population growth curves." }
               ]
             }
           ]
         },
         {
           id: "unit2",
-          label: "Unit 2: Linear Algebra & Matrix Computations",
+          label: "Unit 2: Calculus, Number Theory & Discrete Math",
           badge: "Unit 2",
           type: "unit",
           color: "#0891B2",
-          details: "Matrix construction, row reduction, determinant, inversion, rank, kernel, eigenvalues, and eigenvectors.",
+          details: "Limits, derivatives, integrals, series, number theory (primes, modular arithmetic), combinatorics, and cryptography applications.",
           children: [
             {
-              id: "u2_matrices",
-              label: "Matrix Construction & Row Operations",
+              id: "u2_calculus",
+              label: "1. Calculus with SageMath",
               type: "topic",
-              details: "Linear algebraic representations over rings and fields.",
+              details: "Limits, differentiation, integration, and series.",
               children: [
-                { id: "u2_mc1", label: "Matrix Definition: `matrix(QQ, 3, 3, [...])`", type: "subtopic", details: "Matrices over Rationals `QQ`, Reals `RR`, or Complex `CC`." },
-                { id: "u2_mc2", label: "Reduced Row Echelon Form: `A.rref()`", type: "subtopic", details: "Automatic Gaussian elimination and pivoting for linear systems." },
-                { id: "u2_mc3", label: "Inverses & Determinants: `A.inverse()`, `A.det()`, `A.rank()`", type: "subtopic", details: "Matrix invertibility and dimensional rank calculations." }
+                { id: "u2_ca1", label: "Limits & Continuity: $\\lim_{x \\to a} f(x) = L$", type: "subtopic", details: "One-sided and infinite limits with L'Hôpital verification via `limit(f(x), x=a)`." },
+                { id: "u2_ca2", label: "Differentiation: $\\frac{df}{dx}, \\frac{\\partial^2 f}{\\partial x\\partial y}, \\nabla f$", type: "subtopic", details: "Differentiation rules and Gradient vectors via `diff(f, x)`." },
+                { id: "u2_ca3", label: "Integration: $\\int f(x)\\,dx$ & $\\int_a^b f(x)\\,dx$", type: "subtopic", details: "Symbolic antiderivatives and definite integrals via `integral(f(x), x, a, b)`." },
+                { id: "u2_ca4", label: "Taylor Series & Infinite Sums: $\\sum_{n=0}^\\infty \\frac{f^{(n)}(a)}{n!}(x-a)^n$", type: "subtopic", details: "Taylor approximations and series summation via `taylor(f, x, x0, n)` and `sum()`." },
+                { id: "u2_ca5", label: "Applications: Optimization & Critical Points $\\nabla f = 0$", type: "subtopic", details: "Finding critical points, local extrema, and tangent planes." }
               ]
             },
             {
-              id: "u2_spectral_sage",
-              label: "Eigenvalues, Spaces & Diagonalization",
+              id: "u2_number_theory",
+              label: "2. Number Theory & Discrete Mathematics",
               type: "topic",
-              details: "Spectral decomposition in SageMath.",
+              details: "Primes, modular arithmetic, combinatorics, and cryptography.",
               children: [
-                { id: "u2_ss1", label: "Kernel & Image: `A.kernel()`, `A.image()`", type: "subtopic", details: "Basis generators for null space and column space." },
-                { id: "u2_ss2", label: "Eigenvalues & Eigenvectors: `A.eigenvalues()`, `A.eigenvectors_right()`", type: "subtopic", details: "Eigenpairs with algebraic and geometric multiplicities." },
-                { id: "u2_ss3", label: "Characteristic Polynomial: `A.charpoly('x')`", type: "subtopic", details: "Symbolic characteristic polynomial and Cayley-Hamilton verification." }
+                { id: "u2_nt1", label: "Primes & Divisibility: $\\gcd(a, b), \\operatorname{lcm}(a, b), a = qb + r$", type: "subtopic", details: "Prime generation `prime_range()`, prime testing `is_prime()`, and Euclidean algorithm `gcd()`." },
+                { id: "u2_nt2", label: "Modular Arithmetic & Rings: $a \\equiv b \\pmod{m}, \\phi(n)$", type: "subtopic", details: "Modular inverses, Euler's totient `euler_phi()`, and Chinese Remainder Theorem `CRT()`." },
+                { id: "u2_nt3", label: "Working with Integers $\\mathbb{Z}$, Rationals $\\mathbb{Q}$ & Modular Forms", type: "subtopic", details: "Arithmetic in algebraic rings and modular forms." },
+                { id: "u2_nt4", label: "Combinatorics: Permutations, Combinations & $\\binom{n}{k}$", type: "subtopic", details: "Counting arrangements via `permutations()`, `combinations()`, and `binomial(n, k)`." },
+                { id: "u2_nt5", label: "Cryptography & Ciphers: RSA Encryption ($c \\equiv m^e \\pmod{N}$)", type: "subtopic", details: "Classical ciphers (Caesar, Vigenère) and RSA public-key encryption." }
               ]
             }
           ]
         },
         {
           id: "unit3",
-          label: "Unit 3: Calculus & 2D/3D Plotting",
+          label: "Unit 3: Linear Algebra, Advanced Topics & Projects",
           badge: "Unit 3",
           type: "unit",
           color: "#D97706",
-          details: "Symbolic limits, differentiation, definite/indefinite integration, Taylor series, and 2D/3D visualizations.",
+          details: "Vectors, matrix operations, eigenvalues, scientific libraries (NumPy/SciPy), differential equations (ODEs/PDEs), statistics, and capstone projects.",
           children: [
             {
-              id: "u3_calculus_sage",
-              label: "Symbolic Calculus & Series",
+              id: "u3_linalg",
+              label: "1. Linear Algebra in SageMath",
               type: "topic",
-              details: "Automated differential and integral calculus.",
+              details: "Vector spaces, matrix methods, and spectral theory.",
               children: [
-                { id: "u3_cs1", label: "Differentiation: `diff(f, x)` & Partial Derivatives `diff(f, x, y)`", type: "subtopic", details: "Higher-order derivatives and Gradient vectors." },
-                { id: "u3_cs2", label: "Integration: `integral(f, x, a, b)`", type: "subtopic", details: "Exact symbolic and numerical definite and indefinite integration." },
-                { id: "u3_cs3", label: "Limits & Taylor Series: `limit(f, x=a)`, `taylor(f, x, 0, n)`", type: "subtopic", details: "One-sided limits and polynomial Taylor expansions." }
+                { id: "u3_la1", label: "Vectors & Spaces: $\\mathbf{u} \\cdot \\mathbf{v}, \\|\\mathbf{v}\\|, \\operatorname{span}(\\{v_i\\})$", type: "subtopic", details: "Vector arithmetic, inner products, and basis generation via `vector(QQ, [...])`." },
+                { id: "u3_la2", label: "Matrix Operations: $A+B, AB, A^T, A^{-1}, \\det(A)$", type: "subtopic", details: "Matrix algebra, non-singular tests, and determinants via `A.inverse()` and `A.det()`." },
+                { id: "u3_la3", label: "Solving Linear Systems: $A\\mathbf{x} = \\mathbf{b}$ & $\\operatorname{rref}(A)$", type: "subtopic", details: "Row reduction and null space via `A.solve_right(b)`, `A.rref()`, and `A.kernel()`." },
+                { id: "u3_la4", label: "Eigenvalues & Vectors: $A\\mathbf{v} = \\lambda\\mathbf{v}, \\chi_A(\\lambda)$", type: "subtopic", details: "Characteristic polynomial `A.charpoly()` and diagonalization via `A.eigenvalues()`." },
+                { id: "u3_la5", label: "Matrix Transformations: $T(\\mathbf{x}) = A\\mathbf{x}$ & Diagonalization", type: "subtopic", details: "Geometric rotations, projections, and Markov chain steady states." }
               ]
             },
             {
-              id: "u3_graphics_sage",
-              label: "2D & 3D Scientific Visualization",
+              id: "u3_advanced",
+              label: "2. Advanced Topics in SageMath",
               type: "topic",
-              details: "Generating publishable mathematical plots.",
+              details: "External libraries, differential equations, and statistics.",
               children: [
-                { id: "u3_gs1", label: "2D Curves: `plot(f(x), (x, a, b))` & `parametric_plot()`", type: "subtopic", details: "Function plots, styling, legends, and parametric curves." },
-                { id: "u3_gs2", label: "Implicit Curves: `implicit_plot(x^2 + y^2 == 1, (x,-2,2), (y,-2,2))`", type: "subtopic", details: "Plotting level curves, conics, and algebraic varieties." },
-                { id: "u3_gs3", label: "3D Surfaces: `plot3d(f(x,y), (x,-2,2), (y,-2,2))` & Contour Maps", type: "subtopic", details: "Interactive 3D surfaces and vector field flow visualization." }
+                { id: "u3_ad1", label: "Scientific Libraries: NumPy, SciPy & SymPy Integration", type: "subtopic", details: "Bridging SageMath with the Python scientific computing stack." },
+                { id: "u3_ad2", label: "Polynomial Algebra: Rings $\\mathbb{Q}[x, y]$, Ideals & Gröbner Bases", type: "subtopic", details: "Univariate/multivariate polynomial rings `R.<x> = QQ[]` and Gröbner bases." },
+                { id: "u3_ad3", label: "Differential Equations: $\\frac{dy}{dx} = f(x, y), y'' + Py' + Qy = R$", type: "subtopic", details: "Symbolic and Runge-Kutta numerical solvers via `desolve()` and `desolve_rk4()`." },
+                { id: "u3_ad4", label: "Statistics & Probability: $\\mu, \\sigma^2$, Distributions & Data Fitting", type: "subtopic", details: "Descriptive statistics, random variable simulations, and curve fitting via `mean()` and `variance()`." },
+                { id: "u3_ad5", label: "Applications: Scientific Research & Complex Problem-Solving", type: "subtopic", details: "Computational modeling in physics, biology, and applied mathematics." }
+              ]
+            },
+            {
+              id: "u3_project",
+              label: "3. Final Project, Debugging & Reference Texts",
+              type: "topic",
+              details: "Course review, capstone real-world projects, and reference texts.",
+              children: [
+                { id: "u3_pr1", label: "Course Synthesis & Problem Walkthroughs", type: "subtopic", details: "Holistic synthesis of algebra, calculus, discrete math, and linear algebra techniques." },
+                { id: "u3_pr2", label: "Capstone Final Project: Real-World Mathematical Modeling", type: "subtopic", details: "End-to-end scientific notebook: formulating problem, computing solution, and generating interactive plots." },
+                { id: "u3_pr3", label: "Troubleshooting & Debugging Common SageMath Issues", type: "subtopic", details: "Syntax errors, variable scope resolution, precision issues, and performance tuning." },
+                { id: "u3_pr4", label: "Texts: Gregory V. Bard (2010) & Paul Zimmermann (SIAM 2019)", type: "subtopic", details: "SageMath for Undergraduates & Computational Mathematics with SageMath." }
               ]
             }
           ]
