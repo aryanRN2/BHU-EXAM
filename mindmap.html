@@ -413,27 +413,38 @@
             el.style.left = `${node.x}px`;
             el.style.top = `${node.y - 20}px`;
 
-            // Inner HTML with rendered LaTeX
+            // Inner HTML with rendered LaTeX (clean, sleek pill without separate add button)
             const formattedLabel = renderMath(node.label);
-            let badgeHTML = node.badge ? `<span class="text-[9px] font-bold px-1.5 py-0.5 rounded bg-indigo-500/20 text-indigo-300 shrink-0">${node.badge}</span>` : '';
-            let toggleHTML = hasChildren ? `
-                <button onclick="toggleNodeCollapse('${node.id}', event)" title="${isCollapsed ? 'Expand next level' : 'Collapse level'}" class="w-5.5 h-5.5 rounded-full bg-slate-800/90 hover:bg-indigo-600 text-slate-300 hover:text-white flex items-center justify-center transition-all ml-auto shrink-0 border border-slate-700/60 hover:scale-110 active:scale-95 shadow-sm z-10">
-                    <span class="material-symbols-outlined text-xs font-bold">${isCollapsed ? 'add' : 'remove'}</span>
-                </button>
-            ` : '';
+            let badgeHTML = node.badge ? `<span class="text-[9px] font-bold px-1.5 py-0.5 rounded bg-indigo-500/20 text-indigo-300 shrink-0 pointer-events-none">${node.badge}</span>` : '';
 
             el.innerHTML = `
                 ${badgeHTML}
-                <span class="leading-snug max-w-[360px] whitespace-normal break-words" title="${node.label}">${formattedLabel}</span>
-                ${toggleHTML}
+                <span class="leading-snug max-w-[360px] whitespace-normal break-words pointer-events-none" title="${node.label}">${formattedLabel}</span>
             `;
 
+            // Tap anywhere on the button to expand/collapse and select
             el.onclick = (e) => {
                 e.stopPropagation();
-                selectNode(node);
                 if (hasChildren) {
-                    toggleNodeCollapse(node.id);
+                    if (collapsedNodes.has(node.id)) {
+                        collapsedNodes.delete(node.id);
+                    } else {
+                        collapsedNodes.add(node.id);
+                    }
                 }
+                selectedNodeId = node.id;
+
+                // Update detail drawer
+                const drawer = document.getElementById('detailDrawer');
+                if (drawer) {
+                    document.getElementById('drawerBadge').textContent = node.badge || node.type || "Concept";
+                    document.getElementById('drawerTitle').innerHTML = renderMath(node.label);
+                    document.getElementById('drawerDetails').innerHTML = renderMath(node.details || "Grounded syllabus module concept.");
+                    document.getElementById('drawerNodeId').textContent = `Node: ${node.id}`;
+                    drawer.classList.remove('translate-x-full', 'translate-y-full');
+                }
+
+                renderCanvas();
             };
 
             nodesContainer.appendChild(el);
