@@ -313,23 +313,53 @@
             }
         }
 
-        // Layout calculation & rendering
+        // Dynamic Layout calculation & collision-free positioning
         function layoutTree(root) {
-            // Horizontal tree structure calculation
-            const levelGap = 380; // Generous gap between levels to fit long mathematical labels
-            const nodeHeight = 90; // Vertical spacing estimate
+            // Estimate node width based on label text and badges
+            function estimateNodeWidth(node) {
+                const textLen = (node.label || '').length;
+                const hasMath = (node.label || '').includes('$') || (node.label || '').includes('\\');
+                // KaTeX formulas and labels take up to 460px
+                const estWidth = Math.min(Math.max(textLen * 7.5 + (node.badge ? 80 : 36) + (hasMath ? 65 : 0), 180), 460);
+                return estWidth;
+            }
 
+            // 1. Measure the max width of visible nodes at every depth level
+            const maxLevelWidths = {};
+            function measureVisibleLevels(node, depth = 0) {
+                const isCollapsed = collapsedNodes.has(node.id);
+                const w = estimateNodeWidth(node);
+                maxLevelWidths[depth] = Math.max(maxLevelWidths[depth] || 0, w);
+                
+                if (node.children && !isCollapsed) {
+                    node.children.forEach(child => measureVisibleLevels(child, depth + 1));
+                }
+            }
+            measureVisibleLevels(root, 0);
+
+            // 2. Compute exact X start positions with 120px clearance between levels
+            const levelXPositions = { 0: 80 };
+            let currentX = 80;
+            for (let d = 0; d < 12; d++) {
+                if (maxLevelWidths[d] !== undefined) {
+                    currentX += maxLevelWidths[d] + 120; // 120px clear margin gap between parent right and child left
+                    levelXPositions[d + 1] = currentX;
+                }
+            }
+
+            // 3. Compute Vertical Y layout with generous 110px vertical leaf gap
+            const verticalGap = 110;
             let leafIndex = 0;
 
             function calculatePositions(node, depth = 0) {
                 node.depth = depth;
-                node.x = depth * levelGap + 80;
+                node.x = levelXPositions[depth] || (depth * 540 + 80);
 
                 const isCollapsed = collapsedNodes.has(node.id);
                 const visibleChildren = (node.children && !isCollapsed) ? node.children : [];
 
                 if (visibleChildren.length === 0) {
-                    node.y = leafIndex * nodeHeight + 100;
+                    node.y = leafIndex * verticalGap + 120;
                     leafIndex++;
                 } else {
                     let minY = Infinity;
@@ -479,14 +509,18 @@
         function drawBezierLink(source, target, color) {
             const svgCanvas = document.getElementById('svgCanvas');
             const sourceEl = document.getElementById(`node-${source.id}`);
+            const targetEl = document.getElementById(`node-${target.id}`);
+
             const sourceWidth = sourceEl ? sourceEl.offsetWidth : 220;
+            const sourceHeight = sourceEl ? sourceEl.offsetHeight : 44;
+            const targetHeight = targetEl ? targetEl.offsetHeight : 44;
 
             const x1 = source.x + sourceWidth;
-            const y1 = source.y + 5;
+            const y1 = source.y - 20 + sourceHeight / 2;
             const x2 = target.x;
-            const y2 = target.y + 5;
+            const y2 = target.y - 20 + targetHeight / 2;
 
-            const dx = (x2 - x1) / 2;
+            const dx = Math.max((x2 - x1) / 2, 40);
 
             const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
             path.setAttribute("d", `M ${x1} ${y1} C ${x1 + dx} ${y1}, ${x2 - dx} ${y2}, ${x2} ${y2}`);
