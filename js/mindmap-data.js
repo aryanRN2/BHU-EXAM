@@ -495,6 +495,251 @@ const PREDEFINED_MINDMAPS = {
         }
       ]
     }
+  },
+  "MATMJ53": {
+    id: "MATMJ53",
+    code: "MATMJ53",
+    title: "Analytic Geometry",
+    department: "Department of Mathematics",
+    semester: 5,
+    credits: 4,
+    course_type: "Major",
+    summary: "Systematic geometric foundations covering Polar Coordinates, 3D Vector Geometry of Planes & Lines, Spheres, Cones, Cylinders, Central Conicoids, and Quadric Surfaces.",
+    root: {
+      id: "root",
+      label: "Analytic Geometry",
+      badge: "MATMJ53 • Sem 5",
+      type: "root",
+      details: "4 Credits Major Course. Comprehensive 2D Polar & 3D Solid Geometry.",
+      children: [
+        {
+          id: "unit1",
+          label: "Unit 1: Polar Coordinates & Conics",
+          badge: "Unit 1",
+          type: "unit",
+          color: "#4F46E5",
+          details: "Distance between points, polar equations of straight lines, circles, and general conics with chords, tangents, normals, and chords of contact.",
+          children: [
+            {
+              id: "u1_polar_coords",
+              label: "Polar Coordinates & Metric",
+              type: "topic",
+              details: "Coordinate representation in (r, θ) and fundamental distances.",
+              children: [
+                { id: "u1_p1", label: "Polar Coordinates (r, θ) & Cartesian Transform", type: "subtopic", details: "x = r cos θ, y = r sin θ, r² = x² + y²" },
+                { id: "u1_p2", label: "Distance Between Two Points P(r₁, θ₁) & Q(r₂, θ₂)", type: "subtopic", details: "d = √(r₁² + r₂² - 2r₁r₂ cos(θ₁ - θ₂))" },
+                { id: "u1_p3", label: "Area of Triangle with Vertices in Polar Form", type: "subtopic", details: "Δ = 1/2 |r₁r₂ sin(θ₂ - θ₁) + r₂r₃ sin(θ₃ - θ₂) + r₃r₁ sin(θ₁ - θ₃)|" }
+              ]
+            },
+            {
+              id: "u1_lines_circles",
+              label: "Polar Equations of Lines & Circles",
+              type: "topic",
+              details: "Linear and circular loci in polar frame.",
+              children: [
+                { id: "u1_l1", label: "Straight Line in Normal Form: p/r = cos(θ - α)", type: "subtopic", details: "p is length of perpendicular from pole, α is its inclination" },
+                { id: "u1_l2", label: "Line Through Two Points (r₁, θ₁) & (r₂, θ₂)", type: "subtopic", details: "sin(θ₂ - θ₁)/r + sin(θ - θ₂)/r₁ + sin(θ₁ - θ)/r₂ = 0" },
+                { id: "u1_c1", label: "Circle with Center (r₀, θ₀) and Radius a", type: "subtopic", details: "r² - 2r r₀ cos(θ - θ₀) + r₀² = a²" },
+                { id: "u1_c2", label: "Circle Passing Through Pole: r = 2a cos(θ - α)", type: "subtopic", details: "Diameter passing through pole inclined at angle α" }
+              ]
+            },
+            {
+              id: "u1_polar_conics",
+              label: "Polar Equation of a Conic",
+              type: "topic",
+              details: "Focus at pole, semi-latus rectum l, and eccentricity e.",
+              children: [
+                { id: "u1_cn1", label: "Standard Conic: l/r = 1 + e cos θ (or e cos(θ - α))", type: "subtopic", details: "e < 1 (Ellipse), e = 1 (Parabola), e > 1 (Hyperbola)" },
+                { id: "u1_cn2", label: "Chord Joining α and β: l/r = sec((β-α)/2) cos(θ - (α+β)/2) + e cos θ", type: "subtopic", details: "Equation of chord connecting two points on the conic" },
+                { id: "u1_cn3", label: "Tangent at Point α: l/r = cos(θ - α) + e cos θ", type: "subtopic", details: "Obtained as limiting case when β → α" },
+                { id: "u1_cn4", label: "Normal at Point α: l sin α / [r(1 + e cos α)] = sin(θ - α) + e sin θ", type: "subtopic", details: "Perpendicular to tangent at the point of contact" },
+                { id: "u1_cn5", label: "Chord of Contact & Polar of a Point (r₁, θ₁)", type: "subtopic", details: "(l/r - e cos θ)(l/r₁ - e cos θ₁) = cos(θ - θ₁)" }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit2",
+          label: "Unit 2: Plane & Straight Line in ℝ³",
+          badge: "Unit 2",
+          type: "unit",
+          color: "#0891B2",
+          details: "Vector and Cartesian formulation of planes and straight lines, intersections, coplanarity, and shortest distance between skew lines.",
+          children: [
+            {
+              id: "u2_planes",
+              label: "Planes in ℝ³ (Vector & Cartesian)",
+              type: "topic",
+              details: "Linear equations in three variables and vector normals.",
+              children: [
+                { id: "u2_pl1", label: "Vector Equation of Plane: r⃗ · n̂ = d & (r⃗ - a⃗) · n⃗ = 0", type: "subtopic", details: "Normal form and point-normal vector representation" },
+                { id: "u2_pl2", label: "General Linear Form: Ax + By + Cz + D = 0", type: "subtopic", details: "Direction ratios of normal are (A, B, C)" },
+                { id: "u2_pl3", label: "Plane Passing Through Three Non-Collinear Points", type: "subtopic", details: "[r⃗ - a⃗, b⃗ - a⃗, c⃗ - a⃗] = 0" },
+                { id: "u2_pl4", label: "Family of Planes Through Line of Intersection: P₁ + λP₂ = 0", type: "subtopic", details: "Linear combination of two intersecting planes" }
+              ]
+            },
+            {
+              id: "u2_lines",
+              label: "Straight Line in Space",
+              type: "topic",
+              details: "Vector and symmetrical equations of 3D lines.",
+              children: [
+                { id: "u2_ln1", label: "Vector Form: r⃗ = a⃗ + t b⃗ (Through a⃗ parallel to b⃗)", type: "subtopic", details: "Parametric vector representation of straight lines" },
+                { id: "u2_ln2", label: "Symmetrical Form: (x - x₁)/l = (y - y₁)/m = (z - z₁)/n", type: "subtopic", details: "Direction cosines (l, m, n) where l² + m² + n² = 1" },
+                { id: "u2_ln3", label: "Line of Intersection of Two Planes (Unsymmetric Form)", type: "subtopic", details: "Reduction of A₁x + B₁y + C₁z + D₁ = 0 = A₂x + B₂y + C₂z + D₂" },
+                { id: "u2_ln4", label: "Angle Between Line and Plane: sin θ = |aA + bB + cC| / (√(a²+b²+c²) √(A²+B²+C²))", type: "subtopic", details: "Complement of angle with normal" }
+              ]
+            },
+            {
+              id: "u2_skew_lines",
+              label: "Coplanarity & Skew Lines",
+              type: "topic",
+              details: "Distance and intersection metrics between non-parallel lines.",
+              children: [
+                { id: "u2_sk1", label: "Condition for Coplanarity of Two Lines: (a⃗₂ - a⃗₁) · (b⃗₁ × b⃗₂) = 0", type: "subtopic", details: "Determinant form with direction ratios and point difference" },
+                { id: "u2_sk2", label: "Shortest Distance (SD) Between Two Skew Lines", type: "subtopic", details: "SD = |(a⃗₂ - a⃗₁) · (b⃗₁ × b⃗₂)| / |b⃗₁ × b⃗₂|" },
+                { id: "u2_sk3", label: "Equation of the Line of Shortest Distance", type: "subtopic", details: "Line perpendicular to both generating lines b⃗₁ and b⃗₂" }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit3",
+          label: "Unit 3: The Sphere",
+          badge: "Unit 3",
+          type: "unit",
+          color: "#D97706",
+          details: "General equation, plane sections, 3D circles, tangent planes, radical planes, and orthogonal spheres.",
+          children: [
+            {
+              id: "u3_sphere_eq",
+              label: "Equation & Geometry of Sphere",
+              type: "topic",
+              details: "Quadratic locus of points equidistant from a center.",
+              children: [
+                { id: "u3_sp1", label: "General Equation: x² + y² + z² + 2ux + 2vy + 2wz + d = 0", type: "subtopic", details: "Center: (-u, -v, -w), Radius: √(u² + v² + w² - d)" },
+                { id: "u3_sp2", label: "Diameter Form: (x - x₁)(x - x₂) + (y - y₁)(y - y₂) + (z - z₁)(z - z₂) = 0", type: "subtopic", details: "Sphere having (x₁, y₁, z₁) and (x₂, y₂, z₂) as extremities of a diameter" },
+                { id: "u3_sp3", label: "Sphere Through Four Non-Coplanar Points", type: "subtopic", details: "Unique sphere determined by determinant of coordinates" }
+              ]
+            },
+            {
+              id: "u3_plane_section",
+              label: "Plane Sections & 3D Circles",
+              type: "topic",
+              details: "Intersection of spheres and planes.",
+              children: [
+                { id: "u3_ps1", label: "Plane Section is Always a Circle (S = 0, P = 0)", type: "subtopic", details: "Center is foot of perpendicular from sphere center to plane, r_circle = √(R² - p²)" },
+                { id: "u3_ps2", label: "Great Circle (Plane Passing Through Sphere Center, p = 0)", type: "subtopic", details: "Maximum radius circle on sphere surface" },
+                { id: "u3_ps3", label: "Family of Spheres Passing Through a Circle: S + λP = 0", type: "subtopic", details: "System of spheres having common circle of intersection" },
+                { id: "u3_ps4", label: "Intersection of Two Spheres: S₁ + λS₂ = 0", type: "subtopic", details: "Common circle with radical plane S₁ - S₂ = 0" }
+              ]
+            },
+            {
+              id: "u3_tangent_ortho",
+              label: "Tangency & Orthogonal Spheres",
+              type: "topic",
+              details: "Tangent planes, condition of tangency, and orthogonality.",
+              children: [
+                { id: "u3_to1", label: "Tangent Plane at (x₁, y₁, z₁): xx₁ + yy₁ + zz₁ + u(x+x₁) + v(y+y₁) + w(z+z₁) + d = 0", type: "subtopic", details: "T = 0 representation of tangent plane" },
+                { id: "u3_to2", label: "Condition for Plane lx + my + nz = p to Touch Sphere", type: "subtopic", details: "Perpendicular distance from center equals sphere radius" },
+                { id: "u3_to3", label: "Angle of Intersection of Two Spheres", type: "subtopic", details: "cos θ = (r₁² + r₂² - d²) / (2r₁r₂) where d is distance between centers" },
+                { id: "u3_to4", label: "Condition of Orthogonality: 2u₁u₂ + 2v₁v₂ + 2w₁w₂ = d₁ + d₂", type: "subtopic", details: "Spheres cut at right angles (θ = 90°, cos θ = 0)" }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit4",
+          label: "Unit 4: Cone and Cylinder",
+          badge: "Unit 4",
+          type: "unit",
+          color: "#059669",
+          details: "Cones with origin vertex, general quadratic cones, right circular cones, tangent planes, reciprocal cones, and cylinders.",
+          children: [
+            {
+              id: "u4_cone_eq",
+              label: "Cones & Vertex Conditions",
+              type: "topic",
+              details: "Surfaces generated by lines through a fixed vertex.",
+              children: [
+                { id: "u4_cn1", label: "Cone with Vertex at Origin: Homogeneous ax² + by² + cz² + 2fyz + 2gzx + 2hxy = 0", type: "subtopic", details: "Every homogeneous equation represents a cone with vertex at (0, 0, 0)" },
+                { id: "u4_cn2", label: "Condition for General 2nd Degree Equation to Represent a Cone", type: "subtopic", details: "Discriminant Δ = 0 and vertex is point of intersection of partial derivatives" },
+                { id: "u4_cn3", label: "Lines of Intersection of a Plane and a Cone", type: "subtopic", details: "Two generating lines of intersection through origin" }
+              ]
+            },
+            {
+              id: "u4_right_circular_cone",
+              label: "Right Circular Cone & Tangent Planes",
+              type: "topic",
+              details: "Symmetric cones and enveloping surfaces.",
+              children: [
+                { id: "u4_rc1", label: "Equation of Right Circular Cone: ((r⃗-a⃗)·n̂)² = |r⃗-a⃗|² cos² α", type: "subtopic", details: "Axis direction cosines (l, m, n), vertex (α, β, γ), semi-vertical angle θ" },
+                { id: "u4_rc2", label: "Tangent Plane to Cone: x(ax₁+hy₁+gz₁) + y(hx₁+by₁+fz₁) + z(gx₁+fy₁+cz₁) = 0", type: "subtopic", details: "T = 0 along generator through (x₁, y₁, z₁)" },
+                { id: "u4_rc3", label: "Condition of Tangency for Plane lx + my + nz = 0: Al² + Bm² + Cn² + 2Fmn + 2Gnl + 2Hlm = 0", type: "subtopic", details: "Coefficients are cofactors of matrix elements" },
+                { id: "u4_rc4", label: "Reciprocal Cone: Ax² + By² + Cz² + 2Fyz + 2Gzx + 2Hxy = 0", type: "subtopic", details: "Locus of normals drawn from vertex to tangent planes of original cone" }
+              ]
+            },
+            {
+              id: "u4_cylinder",
+              label: "Cylinders & Enveloping Surfaces",
+              type: "topic",
+              details: "Surfaces generated by parallel generators.",
+              children: [
+                { id: "u4_cy1", label: "General Equation of Cylinder with Parallel Generators (l, m, n)", type: "subtopic", details: "Guiding curve f(x, y) = 0, z = 0 with generators parallel to line" },
+                { id: "u4_cy2", label: "Right Circular Cylinder with Axis (x-α)/l = (y-β)/m = (z-γ)/n and Radius r", type: "subtopic", details: "Distance of (x, y, z) from axis line equals constant radius r" },
+                { id: "u4_cy3", label: "Enveloping Cylinder to a Sphere: SS₁ = T² (Generators Parallel to (l,m,n))", type: "subtopic", details: "Tangent cylinder enveloping a given surface" }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit5",
+          label: "Unit 5: Conicoids & Quadric Surfaces",
+          badge: "Unit 5",
+          type: "unit",
+          color: "#7C3AED",
+          details: "Central conicoids, paraboloids, tangent planes, six normals, plane sections, enveloping cones/cylinders, and quadric classification.",
+          children: [
+            {
+              id: "u5_central_conicoids",
+              label: "Central Conicoids & Paraboloids",
+              type: "topic",
+              details: "Standard quadratic surfaces in ℝ³.",
+              children: [
+                { id: "u5_cc1", label: "Ellipsoid: x²/a² + y²/b² + z²/c² = 1", type: "subtopic", details: "Bounded closed quadric surface with three planes of symmetry" },
+                { id: "u5_cc2", label: "Hyperboloid of One Sheet: x²/a² + y²/b² - z²/c² = 1", type: "subtopic", details: "Ruled surface containing two families of generating straight lines" },
+                { id: "u5_cc3", label: "Hyperboloid of Two Sheets: x²/a² - y²/b² - z²/c² = 1", type: "subtopic", details: "Disconnected two-component hyperboloid" },
+                { id: "u5_cc4", label: "Elliptic Paraboloid (x²/a² + y²/b² = 2cz) & Hyperbolic Paraboloid (x²/a² - y²/b² = 2cz)", type: "subtopic", details: "Non-central conicoids with parabolic principal sections" }
+              ]
+            },
+            {
+              id: "u5_tangency_normals",
+              label: "Tangent Planes & Six Normals",
+              type: "topic",
+              details: "Differential contact and normal lines to quadrics.",
+              children: [
+                { id: "u5_tn1", label: "Tangent Plane: xx₁/a² + yy₁/b² + zz₁/c² = 1 & Tangency Condition: a²l² + b²m² + c²n² = p²", type: "subtopic", details: "Plane lx + my + nz = p touches central conicoid" },
+                { id: "u5_tn2", label: "Normal to Central Conicoid: (x - x₁)/(x₁/a²) = (y - y₁)/(y₁/b²) = (z - z₁)/(z₁/c²)", type: "subtopic", details: "Perpendicular line to tangent plane at (x₁, y₁, z₁)" },
+                { id: "u5_tn3", label: "Cone Through Six Normals from a Given Point (α, β, γ)", type: "subtopic", details: "Exactly six normals can be drawn from any point (α, β, γ) to a central conicoid" },
+                { id: "u5_tn4", label: "Polar Planes & Conjugate Points/Planes", type: "subtopic", details: "xx₀/a² + yy₀/b² + zz₀/c² = 1 harmonic conjugate relations" }
+              ]
+            },
+            {
+              id: "u5_plane_sections_quadrics",
+              label: "Plane Sections & Quadric Classification",
+              type: "topic",
+              details: "Diametral planes, enveloping surfaces, and reduction of quadrics.",
+              children: [
+                { id: "u5_pq1", label: "Plane Sections of Conicoids & Diametral Planes", type: "subtopic", details: "Conjugate diameters and diametral plane bisecting parallel chords" },
+                { id: "u5_pq2", label: "Enveloping Cone with Vertex (x₁, y₁, z₁): SS₁ = T²", type: "subtopic", details: "Tangent cone from external vertex enveloping a conicoid" },
+                { id: "u5_pq3", label: "Enveloping Cylinder with Generators Parallel to (l, m, n)", type: "subtopic", details: "Limiting case of enveloping cone as vertex recedes to infinity" },
+                { id: "u5_pq4", label: "Classification & Invariant Reduction of General Quadric Equations", type: "subtopic", details: "Discriminant invariants I₁, I₂, I₃, I₄ to reduce general 2nd degree equation in 3 variables" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 };
 
