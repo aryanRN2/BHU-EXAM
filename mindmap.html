@@ -6,8 +6,11 @@
     <title>Interactive Mind Map | SCIQB</title>
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="styles.css"/>
+    <!-- KaTeX for crisp mathematical formulas -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
     <style>
         html, body {
             font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -359,76 +362,93 @@
 
             updateCanvasTransform();
 
-            // Draw SVG paths and Nodes recursively
-            function drawNode(node) {
-                const isCollapsed = collapsedNodes.has(node.id);
-                const hasChildren = node.children && node.children.length > 0;
-                const isSelected = selectedNodeId === node.id;
-
-                // Create Node HTML element with Shiny CTA styling
-                const el = document.createElement('div');
-                el.id = `node-${node.id}`;
-                el.className = `mindmap-node shiny-cta absolute flex items-center gap-2.5 px-4 py-2.5 rounded-full border shadow-xl max-w-[340px] w-max ${isSelected ? 'selected' : ''}`;
-                
-                // Color & Style based on Node Type
-                if (node.type === 'root') {
-                    el.style.setProperty('--shiny-cta-highlight', '#6366f1');
-                    el.style.setProperty('--shiny-cta-bg', '#0b0c1e');
-                    el.className += ' text-white font-bold text-sm z-20';
-                } else if (node.type === 'unit') {
-                    const highlightColor = node.color || '#6366f1';
-                    el.style.setProperty('--shiny-cta-highlight', highlightColor);
-                    el.style.setProperty('--shiny-cta-bg', '#090d16');
-                    el.className += ' text-slate-100 font-semibold text-xs z-10';
-                } else if (node.type === 'topic') {
-                    el.style.setProperty('--shiny-cta-highlight', '#38bdf8');
-                    el.style.setProperty('--shiny-cta-bg', '#070b14');
-                    el.className += ' text-slate-200 text-[11px] font-medium z-10';
-                } else {
-                    el.style.setProperty('--shiny-cta-highlight', '#64748b');
-                    el.style.setProperty('--shiny-cta-bg', '#05070e');
-                    el.className += ' text-slate-300 text-[10px] z-0';
-                }
-
-                // Position node in 1:1 un-transformed canvas coordinates
-                el.style.left = `${node.x}px`;
-                el.style.top = `${node.y - 20}px`;
-
-                // Inner HTML
-                let badgeHTML = node.badge ? `<span class="text-[9px] font-bold px-1.5 py-0.5 rounded bg-indigo-500/20 text-indigo-300 shrink-0">${node.badge}</span>` : '';
-                let toggleHTML = hasChildren ? `
-                    <button onclick="toggleNodeCollapse('${node.id}', event)" title="${isCollapsed ? 'Expand next level' : 'Collapse level'}" class="w-5.5 h-5.5 rounded-full bg-slate-800/90 hover:bg-indigo-600 text-slate-300 hover:text-white flex items-center justify-center transition-all ml-auto shrink-0 border border-slate-700/60 hover:scale-110 active:scale-95 shadow-sm z-10">
-                        <span class="material-symbols-outlined text-xs font-bold">${isCollapsed ? 'add' : 'remove'}</span>
-                    </button>
-                ` : '';
-
-                el.innerHTML = `
-                    ${badgeHTML}
-                    <span class="leading-snug max-w-[240px] whitespace-normal break-words" title="${node.label}">${node.label}</span>
-                    ${toggleHTML}
-                `;
-
-                el.onclick = (e) => {
-                    e.stopPropagation();
-                    selectNode(node);
-                    if (hasChildren) {
-                        toggleNodeCollapse(node.id);
-                    }
-                };
-
-                nodesContainer.appendChild(el);
-
-                // Draw Bezier Connection Lines to visible children
-                if (hasChildren && !isCollapsed) {
-                    node.children.forEach(child => {
-                        drawNode(child);
-                        drawBezierLink(node, child, node.color || '#4f46e5');
+        // Math LaTeX Formatter
+        function renderMath(text) {
+            if (!text) return '';
+            if (typeof katex === 'undefined') return text;
+            return text.replace(/\$([^\$]+)\$/g, (match, formula) => {
+                try {
+                    return katex.renderToString(formula, {
+                        throwOnError: false,
+                        displayMode: false
                     });
+                } catch (e) {
+                    return match;
                 }
+            });
+        }
+
+        // Draw SVG paths and Nodes recursively
+        function drawNode(node) {
+            const isCollapsed = collapsedNodes.has(node.id);
+            const hasChildren = node.children && node.children.length > 0;
+            const isSelected = selectedNodeId === node.id;
+
+            // Create Node HTML element with Shiny CTA styling
+            const el = document.createElement('div');
+            el.id = `node-${node.id}`;
+            el.className = `mindmap-node shiny-cta absolute flex items-center gap-2.5 px-4 py-2.5 rounded-full border shadow-xl max-w-[460px] w-max ${isSelected ? 'selected' : ''}`;
+            
+            // Color & Style based on Node Type
+            if (node.type === 'root') {
+                el.style.setProperty('--shiny-cta-highlight', '#6366f1');
+                el.style.setProperty('--shiny-cta-bg', '#0b0c1e');
+                el.className += ' text-white font-bold text-sm z-20';
+            } else if (node.type === 'unit') {
+                const highlightColor = node.color || '#6366f1';
+                el.style.setProperty('--shiny-cta-highlight', highlightColor);
+                el.style.setProperty('--shiny-cta-bg', '#090d16');
+                el.className += ' text-slate-100 font-semibold text-xs z-10';
+            } else if (node.type === 'topic') {
+                el.style.setProperty('--shiny-cta-highlight', '#38bdf8');
+                el.style.setProperty('--shiny-cta-bg', '#070b14');
+                el.className += ' text-slate-200 text-[11px] font-medium z-10';
+            } else {
+                el.style.setProperty('--shiny-cta-highlight', '#64748b');
+                el.style.setProperty('--shiny-cta-bg', '#05070e');
+                el.className += ' text-slate-300 text-[10px] z-0';
             }
 
-            drawNode(mindmapData.root);
+            // Position node in 1:1 un-transformed canvas coordinates
+            el.style.left = `${node.x}px`;
+            el.style.top = `${node.y - 20}px`;
+
+            // Inner HTML with rendered LaTeX
+            const formattedLabel = renderMath(node.label);
+            let badgeHTML = node.badge ? `<span class="text-[9px] font-bold px-1.5 py-0.5 rounded bg-indigo-500/20 text-indigo-300 shrink-0">${node.badge}</span>` : '';
+            let toggleHTML = hasChildren ? `
+                <button onclick="toggleNodeCollapse('${node.id}', event)" title="${isCollapsed ? 'Expand next level' : 'Collapse level'}" class="w-5.5 h-5.5 rounded-full bg-slate-800/90 hover:bg-indigo-600 text-slate-300 hover:text-white flex items-center justify-center transition-all ml-auto shrink-0 border border-slate-700/60 hover:scale-110 active:scale-95 shadow-sm z-10">
+                    <span class="material-symbols-outlined text-xs font-bold">${isCollapsed ? 'add' : 'remove'}</span>
+                </button>
+            ` : '';
+
+            el.innerHTML = `
+                ${badgeHTML}
+                <span class="leading-snug max-w-[360px] whitespace-normal break-words" title="${node.label}">${formattedLabel}</span>
+                ${toggleHTML}
+            `;
+
+            el.onclick = (e) => {
+                e.stopPropagation();
+                selectNode(node);
+                if (hasChildren) {
+                    toggleNodeCollapse(node.id);
+                }
+            };
+
+            nodesContainer.appendChild(el);
+
+            // Draw Bezier Connection Lines to visible children
+            if (hasChildren && !isCollapsed) {
+                node.children.forEach(child => {
+                    drawNode(child);
+                    drawBezierLink(node, child, node.color || '#4f46e5');
+                });
+            }
         }
+
+        drawNode(mindmapData.root);
+    }
 
         function drawBezierLink(source, target, color) {
             const svgCanvas = document.getElementById('svgCanvas');
@@ -464,8 +484,8 @@
             // Open Drawer (Bottom sheet on mobile, side panel on desktop)
             const drawer = document.getElementById('detailDrawer');
             document.getElementById('drawerBadge').textContent = node.badge || node.type || "Concept";
-            document.getElementById('drawerTitle').innerHTML = node.label;
-            document.getElementById('drawerDetails').textContent = node.details || "Grounded syllabus module concept.";
+            document.getElementById('drawerTitle').innerHTML = renderMath(node.label);
+            document.getElementById('drawerDetails').innerHTML = renderMath(node.details || "Grounded syllabus module concept.");
             document.getElementById('drawerNodeId').textContent = `Node: ${node.id}`;
 
             drawer.classList.remove('translate-x-full', 'translate-y-full');
