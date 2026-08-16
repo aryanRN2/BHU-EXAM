@@ -1374,10 +1374,14 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="flex items-center gap-2 w-full md:w-auto shrink-0 justify-end z-10">
-                                    <a href="pyq-viewer.html?file=${fileUrl}&title=${titleParam}" class="bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-700 hover:from-emerald-500 hover:to-teal-500 text-white px-4 py-2 rounded-full font-extrabold text-[10px] flex items-center gap-1.5 transition-all duration-200 active:scale-95 shadow-[0_0_15px_rgba(16,185,129,0.4)]">
-                                        <span class="material-symbols-outlined text-xs">visibility</span>
-                                        <span>View Paper</span>
+                                <div class="flex items-center gap-2 w-full md:w-auto shrink-0 justify-end z-10 flex-wrap">
+                                    <a href="pyq-viewer.html?file=${fileUrl}&title=${titleParam}&mode=latex" class="bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-700 hover:from-emerald-500 hover:to-teal-500 text-white px-3.5 py-1.5 rounded-full font-extrabold text-[10px] flex items-center gap-1.5 transition-all duration-200 active:scale-95 shadow-[0_0_12px_rgba(16,185,129,0.3)]">
+                                        <span class="material-symbols-outlined text-xs">code</span>
+                                        <span>View Paper (LaTeX)</span>
+                                    </a>
+                                    <a href="pyq-viewer.html?file=${fileUrl}&title=${titleParam}&mode=pdf" class="bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-neutral-800 dark:hover:bg-neutral-700 px-3.5 py-1.5 rounded-full font-extrabold text-[10px] flex items-center gap-1.5 transition-all duration-200 active:scale-95 shadow-sm border border-neutral-700">
+                                        <span class="material-symbols-outlined text-xs text-rose-400">picture_as_pdf</span>
+                                        <span>View Paper (PDF)</span>
                                     </a>
                                 </div>
                             </div>
@@ -1397,10 +1401,16 @@
                                         <p class="text-[10px] text-secondary mt-0.5">Code: ${p.nepCode || p.code}</p>
                                     </div>
                                 </div>
-                                <a href="pyq-viewer.html?file=${fileUrl}&title=${titleParam}" class="bg-neutral-100 hover:bg-neutral-200 text-primary px-3 py-1.5 rounded-full font-bold text-[10px] flex items-center gap-1 transition-all active:scale-95 w-full md:w-auto justify-center">
-                                    <span class="material-symbols-outlined text-xs">visibility</span>
-                                    <span>View Paper</span>
-                                </a>
+                                <div class="flex items-center gap-2 w-full md:w-auto shrink-0 justify-end flex-wrap">
+                                    <a href="pyq-viewer.html?file=${fileUrl}&title=${titleParam}&mode=latex" class="bg-neutral-100 hover:bg-neutral-200 text-primary px-3 py-1.5 rounded-full font-bold text-[10px] flex items-center gap-1 transition-all active:scale-95 justify-center">
+                                        <span class="material-symbols-outlined text-xs">code</span>
+                                        <span>View Paper (LaTeX)</span>
+                                    </a>
+                                    <a href="pyq-viewer.html?file=${fileUrl}&title=${titleParam}&mode=pdf" class="bg-rose-50 hover:bg-rose-100 text-rose-700 border border-rose-200 px-3 py-1.5 rounded-full font-bold text-[10px] flex items-center gap-1 transition-all active:scale-95 justify-center">
+                                        <span class="material-symbols-outlined text-xs text-rose-600">picture_as_pdf</span>
+                                        <span>View Paper (PDF)</span>
+                                    </a>
+                                </div>
                             </div>
                         `;
                     }

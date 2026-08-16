@@ -19,7 +19,7 @@ module.exports = async (req, res) => {
     if (!rateLimitStore[ip]) rateLimitStore[ip] = [];
     rateLimitStore[ip] = rateLimitStore[ip].filter(time => now - time < 60000);
 
-    if (rateLimitStore[ip].length >= 15) {
+    if (rateLimitStore[ip].length >= 100) {
         res.writeHead(429, { 'Content-Type': 'application/json' });
         res.end(JSON.stringify({ error: 'Too Many Requests: Please slow down' }));
         return;

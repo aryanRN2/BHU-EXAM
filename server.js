@@ -134,7 +134,14 @@ const server = http.createServer(async (req, res) => {
             decodedFile = fileQuery;
         }
 
-        // If it's a Supabase URL, redirect directly (it's public)
+        // 1. If local PDF file exists on disk, serve it directly
+        const localPath = path.resolve(__dirname, decodedFile);
+        if (localPath.startsWith(__dirname) && fs.existsSync(localPath) && fs.statSync(localPath).isFile() && localPath.endsWith('.pdf')) {
+            serveFile(localPath, res);
+            return;
+        }
+
+        // 2. If it's a Supabase URL, redirect directly (it's public)
         if (decodedFile.includes('supabase.co')) {
             res.writeHead(302, { 'Location': decodedFile });
             res.end();

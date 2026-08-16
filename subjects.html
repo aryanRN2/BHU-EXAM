@@ -3207,34 +3207,55 @@
             const isGlow = pyq.isNepPaper || (pyq.title && (pyq.title.includes('NEP') || pyq.title.includes('2024-25') || pyq.title.includes('2024-2025') || pyq.title.includes('2025-2026')));
 
             const pyqMarkup = isGlow ? `
-                <a href="pyq-viewer.html?file=${fileUrl}&title=${titleParam}" class="w-full p-4 rounded-xl border-2 border-emerald-500/80 nep-glow-card hover:shadow-md transition-all text-left flex items-start gap-4 group relative overflow-hidden">
-                    <div class="w-10 h-10 rounded-full bg-gradient-to-br from-emerald-500 to-amber-500 flex items-center justify-center text-white shrink-0 shadow-[0_0_12px_rgba(16,185,129,0.5)]">
-                        <span class="material-symbols-outlined text-lg animate-spin-slow">auto_awesome</span>
-                    </div>
-                    <div class="flex-grow">
-                        <div class="flex items-center justify-between gap-2 flex-wrap">
-                            <span class="font-extrabold text-sm text-primary">${pyq.title}</span>
-                            <span class="inline-flex items-center gap-1 bg-gradient-to-r from-emerald-600 to-teal-600 text-white font-extrabold text-[9px] px-2 py-0.5 rounded-full uppercase tracking-wider shadow-sm">
-                                <span class="w-1.5 h-1.5 rounded-full bg-white animate-ping"></span>
-                                ORIGINAL NEP PYQ
-                            </span>
+                <div class="w-full p-4 rounded-xl border-2 border-emerald-500/80 nep-glow-card hover:shadow-md transition-all text-left flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 group relative overflow-hidden bg-white dark:bg-neutral-900">
+                    <div class="flex items-start gap-4 flex-grow">
+                        <div class="w-10 h-10 rounded-full bg-gradient-to-br from-emerald-500 to-amber-500 flex items-center justify-center text-white shrink-0 shadow-[0_0_12px_rgba(16,185,129,0.5)]">
+                            <span class="material-symbols-outlined text-lg animate-spin-slow">auto_awesome</span>
                         </div>
-                        <p class="text-xs text-secondary mt-1">${pyq.description}</p>
+                        <div class="flex-grow">
+                            <div class="flex items-center gap-2 flex-wrap">
+                                <span class="font-extrabold text-sm text-primary">${pyq.title}</span>
+                                <span class="inline-flex items-center gap-1 bg-gradient-to-r from-emerald-600 to-teal-600 text-white font-extrabold text-[9px] px-2 py-0.5 rounded-full uppercase tracking-wider shadow-sm">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-white animate-ping"></span>
+                                    ORIGINAL NEP PYQ
+                                </span>
+                            </div>
+                            <p class="text-xs text-secondary mt-1">${pyq.description}</p>
+                        </div>
                     </div>
-                </a>
+                    <div class="flex items-center gap-2 w-full sm:w-auto shrink-0 justify-end flex-wrap z-10">
+                        <a href="pyq-viewer.html?file=${fileUrl}&title=${titleParam}&mode=latex" class="bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-700 hover:from-emerald-500 hover:to-teal-500 text-white px-3.5 py-1.5 rounded-full font-extrabold text-[10px] flex items-center gap-1.5 transition-all duration-200 active:scale-95 shadow-sm">
+                            <span class="material-symbols-outlined text-xs">code</span>
+                            <span>View Paper (LaTeX)</span>
+                        </a>
+                        <a href="pyq-viewer.html?file=${fileUrl}&title=${titleParam}&mode=pdf" class="bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-neutral-800 dark:hover:bg-neutral-700 px-3.5 py-1.5 rounded-full font-extrabold text-[10px] flex items-center gap-1.5 transition-all duration-200 active:scale-95 shadow-sm border border-neutral-700">
+                            <span class="material-symbols-outlined text-xs text-rose-400">picture_as_pdf</span>
+                            <span>View Paper (PDF)</span>
+                        </a>
+                    </div>
+                </div>
             ` : `
-                <a href="pyq-viewer.html?file=${fileUrl}&title=${titleParam}" class="w-full p-4 rounded-xl border border-border-subtle bg-white hover:bg-neutral-50 hover:shadow-sm transition-all text-left flex items-start gap-4 group">
-                    <div class="w-10 h-10 rounded-full bg-red-50 flex items-center justify-center text-red-600 group-hover:bg-red-600 group-hover:text-white transition-colors duration-200 flex-shrink-0">
-                        <span class="material-symbols-outlined text-lg">picture_as_pdf</span>
-                    </div>
-                    <div class="flex-grow">
-                        <div class="flex items-center justify-between">
-                            <span class="font-bold text-sm text-primary">${pyq.title}</span>
-                            <span class="material-symbols-outlined text-sm text-secondary group-hover:text-primary group-hover:translate-x-0.5 transition-transform">open_in_new</span>
+                <div class="w-full p-4 rounded-xl border border-border-subtle bg-white hover:bg-neutral-50 hover:shadow-sm transition-all text-left flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 group">
+                    <div class="flex items-start gap-4 flex-grow">
+                        <div class="w-10 h-10 rounded-full bg-red-50 flex items-center justify-center text-red-600 group-hover:bg-red-600 group-hover:text-white transition-colors duration-200 flex-shrink-0">
+                            <span class="material-symbols-outlined text-lg">picture_as_pdf</span>
                         </div>
-                        <p class="text-xs text-secondary mt-1">${pyq.description}</p>
+                        <div class="flex-grow">
+                            <span class="font-bold text-sm text-primary">${pyq.title}</span>
+                            <p class="text-xs text-secondary mt-1">${pyq.description}</p>
+                        </div>
                     </div>
-                </a>
+                    <div class="flex items-center gap-2 w-full sm:w-auto shrink-0 justify-end flex-wrap">
+                        <a href="pyq-viewer.html?file=${fileUrl}&title=${titleParam}&mode=latex" class="bg-neutral-100 hover:bg-neutral-200 text-primary px-3 py-1.5 rounded-full font-bold text-[10px] flex items-center gap-1 transition-all active:scale-95 justify-center">
+                            <span class="material-symbols-outlined text-xs">code</span>
+                            <span>View Paper (LaTeX)</span>
+                        </a>
+                        <a href="pyq-viewer.html?file=${fileUrl}&title=${titleParam}&mode=pdf" class="bg-rose-50 hover:bg-rose-100 text-rose-700 border border-rose-200 px-3 py-1.5 rounded-full font-bold text-[10px] flex items-center gap-1 transition-all active:scale-95 justify-center">
+                            <span class="material-symbols-outlined text-xs text-rose-600">picture_as_pdf</span>
+                            <span>View Paper (PDF)</span>
+                        </a>
+                    </div>
+                </div>
             `;
             pyqListContainer.insertAdjacentHTML('beforeend', pyqMarkup);
         });
