@@ -740,6 +740,190 @@ const PREDEFINED_MINDMAPS = {
         }
       ]
     }
+  },
+  "MATMV51": {
+    id: "MATMV51",
+    code: "MATMV51",
+    title: "Optimization Techniques",
+    department: "Department of Mathematics",
+    semester: 5,
+    credits: 4,
+    course_type: "Minor (Vocational)",
+    summary: "Systematic operations research and mathematical programming covering LPP Modeling, Simplex Methods, Duality, Transportation & Hungarian Assignment, Unconstrained Gradient Optimization, and KKT Constrained Non-Linear Programming.",
+    root: {
+      id: "root",
+      label: "Optimization Techniques",
+      badge: "MATMV51 • Sem 5",
+      type: "root",
+      details: "4 Credits Minor (Vocational) Course. Linear, Non-linear, and Applied Mathematical Optimization.",
+      children: [
+        {
+          id: "unit1",
+          label: "Unit 1: Linear Programming & Simplex Methods",
+          badge: "Unit 1",
+          type: "unit",
+          color: "#4F46E5",
+          details: "Mathematical modeling, convex sets, standard canonical forms, basic feasible solutions, the Simplex algorithm, Two-Phase method, and Big-M penalty method.",
+          children: [
+            {
+              id: "u1_formulation",
+              label: "LPP Formulation & Geometry",
+              type: "topic",
+              details: "Mathematical programming models and geometrical properties.",
+              children: [
+                { id: "u1_f1", label: "General LPP: $\\max\\, \\mathbf{c}^T\\mathbf{x} \\text{ s.t. } A\\mathbf{x} \\le \\mathbf{b},\\, \\mathbf{x} \\ge \\mathbf{0}$", type: "subtopic", details: "Decision variables, linear objective function, and structural resource constraints." },
+                { id: "u1_f2", label: "Graphical Method (2-Variable Plane)", type: "subtopic", details: "Feasible region polygon and optimal solution at extreme corner points." },
+                { id: "u1_f3", label: "Convex Sets & Extreme Points ($\\{x \\in \\mathbb{R}^n \\mid Ax \\le b\\}$)", type: "subtopic", details: "Convex combinations $\\lambda x_1 + (1-\\lambda)x_2$ and Fundamental Theorem of LPP." }
+              ]
+            },
+            {
+              id: "u1_canonical",
+              label: "Standard Forms & Variables",
+              type: "topic",
+              details: "Algebraic preparation for matrix simplex tableau.",
+              children: [
+                { id: "u1_c1", label: "Canonical vs Standard Form ($A\\mathbf{x} = \\mathbf{b},\\, \\mathbf{b} \\ge \\mathbf{0}$)", type: "subtopic", details: "Conversion of inequalities into exact equality systems." },
+                { id: "u1_c2", label: "Slack, Surplus & Artificial Variables ($s_i \\ge 0,\\, A_i \\ge 0$)", type: "subtopic", details: "Slack variables for $\\le$, surplus variables for $\\ge$, and artificial variables for identity basis." },
+                { id: "u1_c3", label: "Basic Feasible Solutions (BFS: $\\mathbf{x}_B = B^{-1}\\mathbf{b} \\ge \\mathbf{0}$)", type: "subtopic", details: "Degenerate vs non-degenerate basic feasible solutions." }
+              ]
+            },
+            {
+              id: "u1_simplex",
+              label: "The Simplex Algorithm & Big-M",
+              type: "topic",
+              details: "Iterative pivoting on polyhedral vertices.",
+              children: [
+                { id: "u1_sx1", label: "Simplex Method: Optimality Criterion ($z_j - c_j \\ge 0$)", type: "subtopic", details: "Incoming variable via most negative $z_j - c_j$ and outgoing variable via minimum ratio test $\\min\\{x_{Bi}/y_{ik} \\mid y_{ik} > 0\\}$." },
+                { id: "u1_sx2", label: "Two-Phase Simplex Method", type: "subtopic", details: "Phase I minimizes sum of artificial variables $W = \\sum A_i$; Phase II optimizes original objective." },
+                { id: "u1_sx3", label: "Big-$M$ Method: Objective $\\max\\, \\mathbf{c}^T\\mathbf{x} - M\\sum A_i$", type: "subtopic", details: "Charnes penalty method assigning large penalty $M > 0$ to artificial variables." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit2",
+          label: "Unit 2: Duality, Transportation & Assignment",
+          badge: "Unit 2",
+          type: "unit",
+          color: "#0891B2",
+          details: "Primal-dual relationships, dual simplex algorithm, transportation problems (NWCM, LCM, VAM, MODI), and Hungarian assignment method.",
+          children: [
+            {
+              id: "u2_duality",
+              label: "Duality in Linear Programming",
+              type: "topic",
+              details: "Mathematical duality and economic shadow prices.",
+              children: [
+                { id: "u2_d1", label: "Dual Formulation: $\\min\\, \\mathbf{b}^T\\mathbf{w} \\text{ s.t. } A^T\\mathbf{w} \\ge \\mathbf{c},\\, \\mathbf{w} \\ge \\mathbf{0}$", type: "subtopic", details: "Symmetric primal-dual pairs and duality matrix mapping." },
+                { id: "u2_d2", label: "Weak & Strong Duality Theorems", type: "subtopic", details: "Weak Duality: $\\mathbf{c}^T\\mathbf{x} \\le \\mathbf{b}^T\\mathbf{w}$; Strong Duality: $\\max \\mathbf{c}^T\\mathbf{x}^* = \\min \\mathbf{b}^T\\mathbf{w}^*$." },
+                { id: "u2_d3", label: "Complementary Slackness: $w_i(a_i^T x - b_i) = 0$", type: "subtopic", details: "Zero product optimality conditions between primal slack and dual variables." },
+                { id: "u2_d4", label: "Dual Simplex Method (Starts Dual Feasible)", type: "subtopic", details: "Pivoting on infeasible primal basis maintaining dual optimality." }
+              ]
+            },
+            {
+              id: "u2_transportation",
+              label: "Transportation Problem (TP)",
+              type: "topic",
+              details: "Network distribution optimization and optimality testing.",
+              children: [
+                { id: "u2_tp1", label: "TP Formulation: $\\min \\sum \\sum c_{ij}x_{ij}$ (Balanced $\\sum a_i = \\sum b_j$)", type: "subtopic", details: "Supply-demand network with $m+n-1$ basic variables." },
+                { id: "u2_tp2", label: "Initial BFS: North-West Corner & Least Cost Methods", type: "subtopic", details: "Heuristic initial basis allocation methods." },
+                { id: "u2_tp3", label: "Vogel's Approximation Method (VAM Penalty)", type: "subtopic", details: "Difference penalty method between two lowest cell costs per row/col." },
+                { id: "u2_tp4", label: "MODI ($u$-$v$) Optimality Method: $\\Delta_{ij} = c_{ij} - (u_i + v_j)$", type: "subtopic", details: "Dual multipliers $u_i + v_j = c_{ij}$ for basic cells and evaluation $\\Delta_{ij} \\ge 0$." }
+              ]
+            },
+            {
+              id: "u2_assignment",
+              label: "Assignment Problem",
+              type: "topic",
+              details: "Bipartite one-to-one matching optimization.",
+              children: [
+                { id: "u2_as1", label: "Mathematical Formulation: $\\min \\sum \\sum c_{ij} x_{ij},\\, x_{ij} \\in \\{0, 1\\}$", type: "subtopic", details: "Total unimodularity and square cost matrix $n \\times n$." },
+                { id: "u2_as2", label: "Hungarian Algorithm (König's Theorem)", type: "subtopic", details: "Row and column reduction, covering zeros with minimum lines, and optimal assignment." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit3",
+          label: "Unit 3: Unconstrained Non-Linear Optimization",
+          badge: "Unit 3",
+          type: "unit",
+          color: "#D97706",
+          details: "Local and global extrema, first & second order optimality conditions, steepest descent gradient method, and conjugate gradient methods.",
+          children: [
+            {
+              id: "u3_optimality_conditions",
+              label: "Unconstrained Optimality Criteria",
+              type: "topic",
+              details: "Differential calculus criteria for unconstrained minima in $\\mathbb{R}^n$.",
+              children: [
+                { id: "u3_oc1", label: "Local & Global Minimizers: $f(\\mathbf{x}^*) \\le f(\\mathbf{x})$", type: "subtopic", details: "Strict vs non-strict local and global minima." },
+                { id: "u3_oc2", label: "First-Order Necessary Condition (FONC): $\\nabla f(\\mathbf{x}^*) = \\mathbf{0}$", type: "subtopic", details: "Stationary point where all partial derivatives vanish." },
+                { id: "u3_oc3", label: "Second-Order Necessary Condition (SONC): $\\nabla^2 f(\\mathbf{x}^*) \\succeq 0$", type: "subtopic", details: "Hessian matrix is positive semi-definite at a local minimizer." },
+                { id: "u3_oc4", label: "Second-Order Sufficient Condition (SOSC): $\\nabla^2 f(\\mathbf{x}^*) \\succ 0$", type: "subtopic", details: "Strict local minimum guaranteed by positive definite Hessian matrix." }
+              ]
+            },
+            {
+              id: "u3_gradient_methods",
+              label: "Gradient & Descent Methods",
+              type: "topic",
+              details: "Iterative search algorithms in multidimensional space.",
+              children: [
+                { id: "u3_gm1", label: "Steepest Descent: $\\mathbf{x}_{k+1} = \\mathbf{x}_k - \\alpha_k \\nabla f(\\mathbf{x}_k)$", type: "subtopic", details: "Moving in the negative gradient direction with line search step size $\\alpha_k$." },
+                { id: "u3_gm2", label: "Exact Line Search: $\\min_{\\alpha > 0} f(\\mathbf{x}_k + \\alpha \\mathbf{d}_k)$", type: "subtopic", details: "One-dimensional step size optimization along search direction." },
+                { id: "u3_gm3", label: "Conjugate Gradient Method: $\\mathbf{d}_i^T Q \\mathbf{d}_j = 0$ ($i \\ne j$)", type: "subtopic", details: "$Q$-orthogonal search directions with quadratic convergence in $n$ steps." },
+                { id: "u3_gm4", label: "Fletcher-Reeves & Polak-Ribière Formulas", type: "subtopic", details: "Direction update parameter $\\beta_k$ for non-linear conjugate gradient descent." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit4",
+          label: "Unit 4: Constrained Optimization & KKT Conditions",
+          badge: "Unit 4",
+          type: "unit",
+          color: "#059669",
+          details: "Feasible and descent directions, Lagrangian functions, Fritz-John conditions, constraint qualifications, Karush-Kuhn-Tucker (KKT) conditions, and convex programming.",
+          children: [
+            {
+              id: "u4_directions_lagrangian",
+              label: "Feasible Directions & Lagrangian",
+              type: "topic",
+              details: "Geometry of constrained spaces and multiplier functions.",
+              children: [
+                { id: "u4_dl1", label: "Constrained Problem: $\\min f(\\mathbf{x}) \\text{ s.t. } g_i(\\mathbf{x}) \\le 0,\\, h_j(\\mathbf{x}) = 0$", type: "subtopic", details: "Standard non-linear programming problem with equality and inequality constraints." },
+                { id: "u4_dl2", label: "Feasible & Descent Directions: $\\mathbf{d}^T \\nabla f(\\mathbf{x}^*) < 0$", type: "subtopic", details: "Directions maintaining constraint feasibility while decreasing objective." },
+                { id: "u4_dl3", label: "Lagrangian: $\\mathcal{L}(\\mathbf{x}, \\boldsymbol{\\lambda}, \\boldsymbol{\\mu}) = f(\\mathbf{x}) + \\sum \\lambda_i g_i(\\mathbf{x}) + \\sum \\mu_j h_j(\\mathbf{x})$", type: "subtopic", details: "Combined objective with Lagrange multipliers $\\lambda_i \\ge 0$ and $\\mu_j \\in \\mathbb{R}$." }
+              ]
+            },
+            {
+              id: "u4_kkt_conditions",
+              label: "KKT Optimality & Constraint Qualifications",
+              type: "topic",
+              details: "Fundamental necessary conditions for constrained non-linear programs.",
+              children: [
+                { id: "u4_kt1", label: "KKT Stationarity: $\\nabla f(\\mathbf{x}^*) + \\sum \\lambda_i^* \\nabla g_i(\\mathbf{x}^*) + \\sum \\mu_j^* \\nabla h_j(\\mathbf{x}^*) = \\mathbf{0}$", type: "subtopic", details: "First-order equilibrium between objective gradient and active constraint gradients." },
+                { id: "u4_kt2", label: "KKT Complementary Slackness: $\\lambda_i^* g_i(\\mathbf{x}^*) = 0$ with $\\lambda_i^* \\ge 0$", type: "subtopic", details: "Inactive constraints ($g_i < 0$) have zero multipliers $\\lambda_i = 0$." },
+                { id: "u4_kt3", label: "Constraint Qualifications (LICQ & Slater's Condition)", type: "subtopic", details: "Linear independence of active constraint gradients ensuring existence of KKT multipliers." },
+                { id: "u4_kt4", label: "Fritz-John Optimality Conditions (Without Constraint Qualification)", type: "subtopic", details: "Generalization with multiplier $\\lambda_0 \\ge 0$ for the objective gradient." }
+              ]
+            },
+            {
+              id: "u4_convex_programming",
+              label: "Convex Programming & Sufficiency",
+              type: "topic",
+              details: "Global optimality guarantees for convex functions.",
+              children: [
+                { id: "u4_cp1", label: "Convex Functions: $f(\\lambda \\mathbf{x} + (1-\\lambda)\\mathbf{y}) \\le \\lambda f(\\mathbf{x}) + (1-\\lambda)f(\\mathbf{y})$", type: "subtopic", details: "Epigraph convexity and second-derivative test $\\nabla^2 f(\\mathbf{x}) \\succeq 0$." },
+                { id: "u4_cp2", label: "Sufficient Conditions: KKT is Necessary & Sufficient for Convex Programs", type: "subtopic", details: "Every local minimum of a convex program is a global minimum." },
+                { id: "u4_cp3", label: "Engineering & Economic Applications", type: "subtopic", details: "Portfolio optimization, resource allocation, and machine learning loss minimization." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 };
 
