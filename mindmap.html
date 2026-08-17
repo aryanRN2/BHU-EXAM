@@ -407,6 +407,9 @@
 
             updateCanvasTransform();
 
+            drawNode(mindmapData.root);
+        }
+
         // Math LaTeX Formatter (Clean typography with KaTeX)
         function renderMath(text) {
             if (!text) return '';
@@ -434,6 +437,8 @@
             const isCollapsed = collapsedNodes.has(node.id);
             const hasChildren = node.children && node.children.length > 0;
             const isSelected = selectedNodeId === node.id;
+
+            const nodesContainer = document.getElementById('nodesContainer');
 
             // Create Node HTML element with Shiny CTA styling
             const el = document.createElement('div');
@@ -483,9 +488,7 @@
                         collapsedNodes.add(node.id);
                     }
                 }
-                selectedNodeId = node.id;
-
-                renderCanvas();
+                selectNode(node);
             };
 
             nodesContainer.appendChild(el);
@@ -498,9 +501,6 @@
                 });
             }
         }
-
-        drawNode(mindmapData.root);
-    }
 
         function drawBezierLink(source, target, color) {
             const svgCanvas = document.getElementById('svgCanvas');
@@ -539,20 +539,30 @@
 
             // Open Drawer (Bottom sheet on mobile, side panel on desktop)
             const drawer = document.getElementById('detailDrawer');
-            document.getElementById('drawerBadge').textContent = node.badge || node.type || "Concept";
-            document.getElementById('drawerTitle').innerHTML = renderMath(node.label);
-            document.getElementById('drawerDetails').innerHTML = renderMath(node.details || "Grounded syllabus module concept.");
-            document.getElementById('drawerNodeId').textContent = `Node: ${node.id}`;
+            if (drawer) {
+                drawer.classList.remove('hidden');
+                document.getElementById('drawerBadge').textContent = node.badge || node.type || "Concept";
+                document.getElementById('drawerTitle').innerHTML = renderMath(node.label);
+                document.getElementById('drawerDetails').innerHTML = renderMath(node.details || "Grounded syllabus module concept.");
+                document.getElementById('drawerNodeId').textContent = `Node: ${node.id}`;
 
-            drawer.classList.remove('translate-x-full', 'translate-y-full');
+                requestAnimationFrame(() => {
+                    drawer.classList.remove('translate-x-full', 'translate-y-full');
+                });
+            }
         }
 
         function closeDrawer() {
             const drawer = document.getElementById('detailDrawer');
-            if (window.innerWidth < 640) {
-                drawer.classList.add('translate-y-full');
-            } else {
-                drawer.classList.add('translate-x-full');
+            if (drawer) {
+                if (window.innerWidth < 640) {
+                    drawer.classList.add('translate-y-full');
+                } else {
+                    drawer.classList.add('translate-x-full');
+                }
+                setTimeout(() => {
+                    drawer.classList.add('hidden');
+                }, 300);
             }
             selectedNodeId = null;
             renderCanvas();

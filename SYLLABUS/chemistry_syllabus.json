@@ -382,20 +382,55 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Objectives: To learn the basics of chemical analysis, the use of statistical methods, and gravimetric analysis 1. Statistical Evaluation: Chemical analysis, Classification of analytical methods, Steps in a quantitative analysis, Quantitative range, Determinate and indeterminate errors, Normal error curve, Accuracy and Precision, Relative error, Relative standard deviation, Methods for minimizing errors, Criteria for rejection of observation, Significant figures and computation rules, Error propagation. 8 2. Recent trends for chemical analysis: Method selection, method validation, sample preparation, Analytical validation of results, LOD and LOQ, Good lab practice, Good manufacturing practice. 7 3. Precipitation: Desirable properties of gravimetric precipitates, Formation of gravimetric precipitates, Conditions for quantitative precipitations, Contamination in precipitates, Method for removal of impurities in precipitates, Steps involved in quantitative precipitation, Organic precipitants (oxine, dithizone, α- nitroso-(naphthol,cupferon, dimethyl glyoxime) in chemical analysis. 15 113"
+              "title": "Statistical Evaluation & Error Analysis",
+              "topics": "Chemical analysis, Classification of analytical methods, Steps in a quantitative analysis, Quantitative range, Determinate and indeterminate errors, Normal error curve, Accuracy and Precision, Relative error, Relative standard deviation, Methods for minimizing errors, Criteria for rejection of observation, Significant figures and computation rules, Error propagation."
+            },
+            {
+              "unit": 2,
+              "title": "Recent Trends for Chemical Analysis",
+              "topics": "Method selection, method validation, sample preparation, Analytical validation of results, LOD and LOQ, Good lab practice, Good manufacturing practice."
+            },
+            {
+              "unit": 3,
+              "title": "Precipitation & Gravimetric Analysis",
+              "topics": "Desirable properties of gravimetric precipitates, Formation of gravimetric precipitates, Conditions for quantitative precipitations, Contamination in precipitates, Method for removal of impurities in precipitates, Steps involved in quantitative precipitation, Organic precipitants (oxine, dithizone, α-nitroso-β-naphthol, cupferron, dimethyl glyoxime) in chemical analysis."
             }
+          ],
+          "suggested_books": [
+            "Modern Methods of Chemical Analysis, R.L. Pecsok, L.D. Shields, T. Cairns, and I.C. McWilliam, 2nd Edition (1976), John Wiley, New York.",
+            "Basic Concepts of Analytical Chemistry, S.M. Khopkar, 2nd Edition (1998), New Age International Publications, New Delhi.",
+            "Analytical Chemistry, G.D. Christian, (2001) John Wiley & Sons, New York.",
+            "Environmental Chemistry, A.K. De, 3rd Edition (1994), Wiley Eastern, New Delhi."
           ]
         },
         {
           "code": "CHEMJ52",
           "name": "Inorganic Chemistry-III",
-          "credits": 1,
+          "credits": 3,
           "course_type": "Major",
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Objectives: To teach the theories of metal-ligand bonding, their drawbacks and applications To impart the knowledge of electronic spectra of transition metal complexes.To impart the knowledge of reactivities of transition metal complexes 1. 1. Theories of Metal-Ligand bonding: Crystal-field theory and crystal-field splitting in octahedral, tetrahedral, and square planar complexes. Jahn-Teller distortion. Factors affecting the crystal-field splitting, Spinel, Inverse spinel, OSSE, Spectrochemical and Nephelauxetic series.Concept of Metal-ligand orbital overlap: ligand field theory, molecular orbital theory with referenceto octahedral 3d transition metal complexes (without-bonding, and with bonding). 14 2. Electronic Spectra of Transition Metal Complexes: Types of electronic transitions; static and dynamic electronic transitions, selection rules for d-d transitions, spectroscopic ground states. Explanation of electronic spectra on the basis of Orgel energy level diagrams for d1-d10) states.Charge transfer spectra; electronic spectra of octahedral and tetrahedral Co(II) and Ni(II) complexes and calculation of ligand- field parameters. 10 3. Thermodynamic and Kinetic aspects of Metal Complexes: A brief outline of thermodynamic and kinetic stabilities of metal complexes and factors affecting their stability. Substitution reactions of square-planar complexes, Trans effect. 6"
+              "title": "Theories of Metal-Ligand Bonding",
+              "topics": "Crystal-field theory and crystal-field splitting in octahedral, tetrahedral, and square planar complexes. Jahn-Teller distortion. Factors affecting the crystal-field splitting, Spinel, Inverse spinel, OSSE, Spectrochemical and Nephelauxetic series. Concept of Metal-ligand orbital overlap: ligand field theory, molecular orbital theory with reference to octahedral 3d transition metal complexes (without π-bonding, and with π-bonding)."
+            },
+            {
+              "unit": 2,
+              "title": "Electronic Spectra of Transition Metal Complexes",
+              "topics": "Types of electronic transitions; static and dynamic electronic transitions, selection rules for d-d transitions, spectroscopic ground states. Explanation of electronic spectra on the basis of Orgel energy level diagrams for d1-d10 states. Charge transfer spectra; electronic spectra of octahedral and tetrahedral Co(II) and Ni(II) complexes and calculation of ligand-field parameters."
+            },
+            {
+              "unit": 3,
+              "title": "Thermodynamic and Kinetic Aspects of Metal Complexes",
+              "topics": "A brief outline of thermodynamic and kinetic stabilities of metal complexes and factors affecting their stability. Substitution reactions of square-planar complexes, Trans effect."
             }
+          ],
+          "suggested_books": [
+            "\"Concise Inorganic Chemistry\", J. D. Lee, 5th Edition (1996), Chapman & Hall, London.",
+            "\"Inorganic Chemistry\", J.E. Huheey, E.A. Keiter and R.L. Keiter, 4th Edition (2006), Addison Wesley Publishing Co, NY.",
+            "\"Basic Inorganic Chemistry\", F. A Cotton, G. Wilkinson, and Paul L. Gaus, 3rd Edition (1995), John Wiley & Sons, New York.",
+            "\"Inorganic Chemistry\", A. G. Sharpe, 3rd International Student Edition (1999), ELBS / Longman, U.K.",
+            "\"Inorganic Chemistry\", D. F. Shriver and P. W. Atkins, 3rd Edition (1999), ELBS, London."
           ]
         },
         {
@@ -406,20 +441,69 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Objectives: To impart knowledge of stereochemistry, reactive intermediates, isotope effect, photo chemistry, and notable reactions in organic chemistry. 1. Stereochemistry: Symmetry elements, symmetry operations, racemates, racemization, resolution (chemical and enzymatic), pro-chirality, concept of homotopic and heterotopic, pro-stereoisomerism with suitable examples of one and two chiral centers. Asymmetric induction, Cram’s rule: Addition of nucleophile to carbonyl function. Aldol reaction (achiral-achiral). Regioselective, chemoselective, stereospecific and stereoselective reactions. Estimation of optical purity (ee and de). Axial chirality (e. g., allenes, biphenyls and spiranes). 10 2. Reactive intermediates: Generation, stability and reactivity of carbocations,carbanions, free- radicals, carbenes, and nitrenes. 8 3. Isotope effect: Isotopic substitution in a molecule, primary and secondary kinetic isotope effects, solvent isotopic effect and their importance in mechanistic studies. 5 4. Name reactions: Michael addition, Mitsunobu reaction, Birch reduction, WagnerMeerwein, Baeyer- Villiger oxidation, Robinson annulation, Pinacol-pinacolone rearrangement, Wolff rearrangement, dienone-phenol rearrangement, benzidine rearrangement, Favorskii rearrangement. Hofmann, Curtius, & Schmidt rearrangements,Click chemistry. 12 5. Photochemistry: Principles of photochemistry, Energy (inter and intramolecular) transfer, Photosensitisation, Singlet and Triplet state photochemical reactions of 1,3butadiene, cis-trans isomerism, Inter and intramolecular cycloaddition reactions, Di- πmethane rearrangement. Photochemical reaction of carbonyl compounds: Photo reduction, Norrish type-I cleavage of acyclic and cyclic compounds, Norrish type-II cleavage. Photocyclo-addition reaction: Paterno-Buchi reaction. Photo-Fries rearrangement. 10 114"
+              "title": "Stereochemistry",
+              "topics": "Symmetry elements, symmetry operations, racemates, racemization, resolution (chemical and enzymatic), pro-chirality, concept of homotopic and heterotopic, pro-stereoisomerism with suitable examples of one and two chiral centers. Asymmetric induction, Cram’s rule: Addition of nucleophile to carbonyl function. Aldol reaction (achiral-achiral). Regioselective, chemoselective, stereospecific and stereoselective reactions. Estimation of optical purity (ee and de). Axial chirality (e.g., allenes, biphenyls and spiranes)."
+            },
+            {
+              "unit": 2,
+              "title": "Reactive Intermediates",
+              "topics": "Generation, stability and reactivity of carbocations, carbanions, free-radicals, carbenes, and nitrenes."
+            },
+            {
+              "unit": 3,
+              "title": "Isotope Effect",
+              "topics": "Isotopic substitution in a molecule, primary and secondary kinetic isotope effects, solvent isotopic effect and their importance in mechanistic studies."
+            },
+            {
+              "unit": 4,
+              "title": "Name Reactions & Rearrangements",
+              "topics": "Michael addition, Mitsunobu reaction, Birch reduction, Wagner-Meerwein, Baeyer-Villiger oxidation, Robinson annulation, Pinacol-pinacolone rearrangement, Wolff rearrangement, dienone-phenol rearrangement, benzidine rearrangement, Favorskii rearrangement. Hofmann, Curtius, & Schmidt rearrangements, Click chemistry."
+            },
+            {
+              "unit": 5,
+              "title": "Photochemistry",
+              "topics": "Principles of photochemistry, Energy (inter and intramolecular) transfer, Photosensitisation, Singlet and Triplet state photochemical reactions of 1,3-butadiene, cis-trans isomerism, Inter and intramolecular cycloaddition reactions, Di-π-methane rearrangement. Photochemical reaction of carbonyl compounds: Photo reduction, Norrish type-I cleavage of acyclic and cyclic compounds, Norrish type-II cleavage. Photocyclo-addition reaction: Paterno-Büchi reaction. Photo-Fries rearrangement."
             }
+          ],
+          "suggested_books": [
+            "Stereochemistry of Organic Compounds, E.L. Eliel, S.H. Wilen, and L.N. Mander, John Wiley & Sons, New York.",
+            "Advanced Organic Chemistry: Reactions, Mechanisms, and Structure (Part A & B), F.A. Carey and R.J. Sundberg, Springer.",
+            "March's Advanced Organic Chemistry: Reactions, Mechanisms, and Structure, M.B. Smith, John Wiley & Sons.",
+            "Organic Photochemistry and Pericyclic Reactions, M. Harmata, P.S. Kalsi, New Age International."
           ]
         },
         {
           "code": "CHEMJ54",
           "name": "Physical Chemistry-III",
-          "credits": 1,
+          "credits": 3,
           "course_type": "Major",
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Objectives: To make students understand the limitations of classical mechanics and the necessity of quantum chemistry, introduce them with postulates of quantum chemistry and apply the same to derive equations for various models and hydrogen atoms. Understand the basis of molecular spectroscopy and its applications. 1. Elementary Quantum Mechanics: quantum mechanical operators, Hamiltonian operator, Schrödinger wave equation and its importance, Eigen functions, Eigen values, physical interpretation of the wave function, orthogonality of wave functions, Heisenberg’s uncertainty principle, the particle in a one-dimensional box problem and its solutions, particle in a three dimensional box, degeneracy, rigid rotor and harmonic oscillator. 2. Molecular Symmetry: Symmetry elements and operations. Point groups. Matrix representation of symmetry elements and point groups, matrices of C3v and C4v point groups, Structure of character tables, determination of symmetry species for translations and rotations. 3. Molecular Spectroscopy: Region of electromagnetic spectrum, Interaction of electromagnetic radiation with molecules and various types of spectra, signal to noise ratio and resolving power, width and intensity of spectral transitions, Born Oppenheimer approximation, pure rotational spectra, diatomic rigid rotor molecules, effect of isotope substitution, vibrational and vibration- rotational spectra of diatomic molecules, harmonic oscillator-rigid rotor approximation, anharmonicity effect, normal modes of vibration, infrared spectra of linear and bent AB2 molecules, Franck-Condon principle, electronic spectra of diatomic molecules, vibrational structure. Nuclear Magnetic Resonance Spectroscopy: Introduction, chemical shifts, spin-spin splitting, relaxation times 115"
+              "title": "Elementary Quantum Mechanics",
+              "topics": "Quantum mechanical operators, Hamiltonian operator, Schrödinger wave equation and its importance, Eigen functions, Eigen values, physical interpretation of the wave function, orthogonality of wave functions, Heisenberg’s uncertainty principle, particle in a one-dimensional box problem and its solutions, particle in a three-dimensional box, degeneracy, rigid rotor and harmonic oscillator."
+            },
+            {
+              "unit": 2,
+              "title": "Molecular Symmetry",
+              "topics": "Symmetry elements and operations. Point groups. Matrix representation of symmetry elements and point groups, matrices of C3v and C4v point groups, Structure of character tables, determination of symmetry species for translations and rotations."
+            },
+            {
+              "unit": 3,
+              "title": "Molecular Spectroscopy",
+              "topics": "Region of electromagnetic spectrum, Interaction of electromagnetic radiation with molecules and various types of spectra, signal to noise ratio and resolving power, width and intensity of spectral transitions, Born-Oppenheimer approximation, pure rotational spectra, diatomic rigid rotor molecules, effect of isotope substitution, vibrational and vibration-rotational spectra of diatomic molecules, harmonic oscillator-rigid rotor approximation, anharmonicity effect, normal modes of vibration, infrared spectra of linear and bent AB2 molecules, Franck-Condon principle, electronic spectra of diatomic molecules, vibrational structure."
+            },
+            {
+              "unit": 4,
+              "title": "Nuclear Magnetic Resonance (NMR) Spectroscopy",
+              "topics": "Introduction, principle of NMR, nuclear spin states in magnetic field, chemical shifts, shielding and deshielding mechanisms, spin-spin splitting, coupling constant (J), relaxation times (T1 and T2)."
             }
+          ],
+          "suggested_books": [
+            "Physical Chemistry: A Molecular Approach, D.A. McQuarrie and J.D. Simon, Viva Books, New Delhi.",
+            "Atkins' Physical Chemistry, P.W. Atkins and J. de Paula, Oxford University Press.",
+            "Fundamentals of Molecular Spectroscopy, C.N. Banwell and E.M. McCash, Tata McGraw-Hill.",
+            "Quantum Chemistry, I.N. Levine, Pearson Education."
           ]
         },
         {
@@ -454,8 +538,39 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Objectives: To provide students with a comprehensive understanding of food adulteration, its detection methods, and the principles of food quality assessment. 1. Introduction to Food Adulteration: Definition and types of food adulteration, Historical perspective and global prevalence, Impact of food adulteration on public health and economy. 2 2. Common Adulterants in Food: Adulteration in staple foods (e.g., grains, pulses), Adulteration in dairy products, Adulteration in edible oils and fats, Adulteration in spices and condiments. 6 3. Methods of Food Adulteration Detection: Chemical methods (e.g., spectroscopy, chromatography), Physical methods (e.g., microscopy, texture analysis), Biological methods (e.g., DNA-based techniques). 12 4. Quality Assessment Parameters: Sensory evaluation, Nutritional analysis, Microbiological quality, Physical and chemical attributes. 4 5. Food Safety Regulations and Standards: International and national regulatory bodies (e.g., FDA, FSSAI), Food safety standards (e.g., ISO, HACCP), Compliance and enforcement mechanisms. 4 6. Case Studies and Real-world Applications: Notable incidents of food adulteration, Success stories in quality assurance and adulteration prevention. 2 141"
+              "title": "Introduction to Food Adulteration",
+              "topics": "Definition and types of food adulteration, Historical perspective and global prevalence, Impact of food adulteration on public health and economy."
+            },
+            {
+              "unit": 2,
+              "title": "Common Adulterants in Food",
+              "topics": "Adulteration in staple foods (e.g., grains, pulses), Adulteration in dairy products, Adulteration in edible oils and fats, Adulteration in spices and condiments."
+            },
+            {
+              "unit": 3,
+              "title": "Methods of Food Adulteration Detection",
+              "topics": "Chemical methods (e.g., spectroscopy, chromatography), Physical methods (e.g., microscopy, texture analysis), Biological methods (e.g., DNA-based techniques)."
+            },
+            {
+              "unit": 4,
+              "title": "Quality Assessment Parameters",
+              "topics": "Sensory evaluation, Nutritional analysis, Microbiological quality, Physical and chemical attributes."
+            },
+            {
+              "unit": 5,
+              "title": "Food Safety Regulations and Standards",
+              "topics": "International and national regulatory bodies (e.g., FDA, FSSAI), Food safety standards (e.g., ISO, HACCP), Compliance and enforcement mechanisms."
+            },
+            {
+              "unit": 6,
+              "title": "Case Studies and Real-world Applications",
+              "topics": "Notable incidents of food adulteration, Success stories in quality assurance and adulteration prevention."
             }
+          ],
+          "suggested_books": [
+            "Food Adulteration and Its Detection, S. Ranganna, Tata McGraw-Hill.",
+            "Food Safety and Standards Act, Rules & Regulations, FSSAI Publications, New Delhi.",
+            "Food Chemistry, O.R. Fennema, Marcel Dekker, New York."
           ]
         },
         {

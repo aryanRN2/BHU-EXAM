@@ -1903,6 +1903,927 @@ const PREDEFINED_MINDMAPS = {
         }
       ]
     }
+  },
+  "CHEMJ51": {
+    id: "CHEMJ51",
+    code: "CHEMJ51",
+    title: "Analytical Chemistry-I",
+    department: "Department of Chemistry",
+    semester: 5,
+    credits: 3,
+    course_type: "Major",
+    summary: "Comprehensive mind map covering Statistical Evaluation of Data, Errors & Normal Error Curve, Method Selection & Validation (ICH/GLP/GMP), Principles of Gravimetry, and Organic Precipitants in Chemical Analysis.",
+    root: {
+      id: "root",
+      label: "Analytical Chemistry-I",
+      badge: "CHEMJ51 • Sem 5",
+      type: "root",
+      details: "3 Credits Major Course (Department of Chemistry, BHU). Foundations of chemical analysis, chemometrics, error evaluation, method validation, gravimetric precipitation, and organic reagents.",
+      children: [
+        {
+          id: "unit1",
+          label: "Unit 1: Statistical Evaluation & Error Analysis",
+          badge: "Unit 1",
+          type: "unit",
+          color: "#4F46E5",
+          details: "Classification of analytical methods, steps in quantitative analysis, determinate and indeterminate errors, Gaussian normal distribution, accuracy vs precision, statistical tests, rejection criteria, and error propagation.",
+          children: [
+            {
+              id: "u1_analysis_steps",
+              label: "1. Chemical Analysis & Quantitative Workflow",
+              type: "topic",
+              details: "Framework and methodologies in quantitative analytical chemistry.",
+              children: [
+                { id: "u1_as1", label: "Classification: Classical (Gravimetric, Titrimetric) vs Instrumental (Spectroscopic, Chromatographic, Electrochemical)", type: "subtopic", details: "Classical wet chemical methods based on stoichiometry vs modern instrumental physical measurement methods." },
+                { id: "u1_as2", label: "Steps in Quantitative Analysis: Sampling $\\to$ Dissolution $\\to$ Interference Elimination $\\to$ Measurement $\\to$ Calculation", type: "subtopic", details: "Five essential stages: obtaining representative sample, converting to solution, masking/separating interferences, measuring signal, and statistical calculation." },
+                { id: "u1_as3", label: "Quantitative Range: Macro (>0.1g), Semi-micro (0.01-0.1g), Micro (1-10mg), Trace (<100 ppm), Ultra-trace (<1 ppm)", type: "subtopic", details: "Scale of analysis based on sample mass and analyte concentration regimes." },
+                { id: "u1_as4", label: "Calibration & Sensitivity: Calibration Sensitivity $m = \\frac{dS}{dc}$ & Analytical Sensitivity $\\gamma = \\frac{m}{s_S}$", type: "subtopic", details: "Slope of calibration curve $S = mc + S_{\\text{blank}}$ and ratio of slope to measurement noise." }
+              ]
+            },
+            {
+              id: "u1_errors_types",
+              label: "2. Classification of Errors in Analysis",
+              type: "topic",
+              details: "Systematic vs random error sources and operational characteristics.",
+              children: [
+                { id: "u1_et1", label: "Determinate (Systematic) Errors: Operative, Methodic, Instrumental & Reagent Impurities", type: "subtopic", details: "Unidirectional, identifiable, and correctable errors caused by analyst technique, non-ideal reactions, or faulty equipment." },
+                { id: "u1_et2", label: "Constant vs Proportional Determinate Errors", type: "subtopic", details: "Constant errors become less significant as sample size increases; proportional errors vary directly with sample mass." },
+                { id: "u1_et3", label: "Indeterminate (Random) Errors: Minute Indivisible Fluctuations", type: "subtopic", details: "Random positive and negative fluctuations beyond analyst control, governed by statistical probability laws." },
+                { id: "u1_et4", label: "Error Minimization: Blank Determinations, SRM Controls, Calibration, Standard Addition", type: "subtopic", details: "Procedures including reagent blanks, certified reference materials (CRMs), matrix-matched calibration, and internal standards." }
+              ]
+            },
+            {
+              id: "u1_accuracy_precision",
+              label: "3. Accuracy, Precision & Normal Error Curve",
+              type: "topic",
+              details: "Mathematical formulation of analytical trueness and replication spread.",
+              children: [
+                { id: "u1_ap1", label: "Accuracy: Absolute Error $E = \\bar{x} - \\mu$ & Relative Error $E_r = \\frac{\\bar{x} - \\mu}{\\mu} \\times 100\\%$", type: "subtopic", details: "Closeness of experimental mean $\\bar{x}$ to true/accepted reference value $\\mu$." },
+                { id: "u1_ap2", label: "Precision: Sample Variance $s^2$ & Standard Deviation $s = \\sqrt{\\frac{\\sum(x_i - \\bar{x})^2}{N-1}}$", type: "subtopic", details: "Concordance between replicate measurements under identical conditions with $N-1$ degrees of freedom." },
+                { id: "u1_ap3", label: "Relative Standard Deviation (RSD) / Coeff. of Variation: $CV = \\frac{s}{\\bar{x}} \\times 100\\%$", type: "subtopic", details: "Dimensionless percentage metric for precision and reproducibility comparison." },
+                { id: "u1_ap4", label: "Normal (Gaussian) Error Curve: $y = \\frac{1}{\\sigma\\sqrt{2\\pi}} e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}}$", type: "subtopic", details: "Symmetrical bell curve where $\\mu \\pm 1\\sigma$ contains $68.3\\%$, $\\mu \\pm 2\\sigma$ contains $95.4\\%$, and $\\mu \\pm 3\\sigma$ contains $99.7\\%$ of observations." }
+              ]
+            },
+            {
+              id: "u1_stats_propagation",
+              label: "4. Confidence Intervals, Rejection & Error Propagation",
+              type: "topic",
+              details: "Statistical evaluation of small datasets and mathematical error laws.",
+              children: [
+                { id: "u1_sp1", label: "Confidence Interval: $CI = \\bar{x} \\pm \\frac{t \\cdot s}{\\sqrt{N}}$ (Student's $t$-Distribution)", type: "subtopic", details: "Range within which true population mean $\\mu$ lies with specified confidence probability $(1-\\alpha)$." },
+                { id: "u1_sp2", label: "Dixon's $Q$-Test: $Q_{\\text{calc}} = \\frac{|x_{\\text{suspect}} - x_{\\text{nearest}}|}{x_{\\max} - x_{\\min}} > Q_{\\text{crit}}$", type: "subtopic", details: "Statistical test for rejection or retention of questionable outlier measurements." },
+                { id: "u1_sp3", label: "Significant Figures & Computation Rules ($+,-,\\times,\\div,\\log$)", type: "subtopic", details: "Preserving genuine precision: addition/subtraction follows least decimal places; multiplication/division follows least sig figs; $\\log(x)$ mantissa digits." },
+                { id: "u1_sp4", label: "Error Propagation: $\\sigma_y = \\sqrt{\\sigma_a^2 + \\sigma_b^2}$ (Sums) & $\\frac{\\sigma_y}{y} = \\sqrt{(\\frac{\\sigma_a}{a})^2 + (\\frac{\\sigma_b}{b})^2}$ (Products)", type: "subtopic", details: "Statistical variance propagation for independent random errors in additive and multiplicative formulas." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit2",
+          label: "Unit 2: Recent Trends & Analytical Method Validation",
+          badge: "Unit 2",
+          type: "unit",
+          color: "#0891B2",
+          details: "Method selection criteria, modern sample preparation, validation figures of merit (ICH Q2), LOD & LOQ, and quality compliance frameworks (GLP & GMP).",
+          children: [
+            {
+              id: "u2_method_sel",
+              label: "1. Analytical Method Selection & Interference Management",
+              type: "topic",
+              details: "Decision matrix for selecting optimal analytical procedures and masking.",
+              children: [
+                { id: "u2_ms1", label: "Method Selection Criteria: Accuracy, Precision, Matrix, Speed & Cost", type: "subtopic", details: "Evaluating analytical figure of merits against sample throughput, destructiveness, and regulatory guidelines." },
+                { id: "u2_ms2", label: "Interference Elimination & Masking Agents ($CN^-, F^-$, EDTA, Tartrate)", type: "subtopic", details: "Chemical transformation of interfering species into unreactive complexes without physical phase separation." },
+                { id: "u2_ms3", label: "Matrix Matching & Standard Addition Protocol", type: "subtopic", details: "Overcoming severe matrix suppression/enhancement effects by spiking known analyte increments directly into sample aliquots." }
+              ]
+            },
+            {
+              id: "u2_sample_prep",
+              label: "2. Sample Preparation & Digestion Techniques",
+              type: "topic",
+              details: "Conversion of raw matrix into homogeneous, measurable solutions.",
+              children: [
+                { id: "u2_sp1", label: "Sampling Theory & Homogenization (Coning & Quartering)", type: "subtopic", details: "Gross sample acquisition, particle size reduction, and representative sub-sampling protocols." },
+                { id: "u2_sp2", label: "Acid Digestion: Wet ($HNO_3, HClO_4, HF$, Aqua Regia) & Microwave-Assisted Digestion", type: "subtopic", details: "Oxidative dissolution of organic and inorganic matrices in closed PTFE vessels under controlled microwave pressure." },
+                { id: "u2_sp3", label: "Phase Extractions: Liquid-Liquid Extraction (LLE) & Solid Phase Extraction (SPE)", type: "subtopic", details: "Analyte preconcentration and matrix clean-up using partition coefficients $K_D$ and selective solid sorbent cartridges." }
+              ]
+            },
+            {
+              id: "u2_validation",
+              label: "3. Analytical Method Validation Parameters (ICH Guidelines)",
+              type: "topic",
+              details: "Documented evidence of method reliability, selectivity, and linearity.",
+              children: [
+                { id: "u2_va1", label: "Selectivity & Specificity: Discrimination in Complex Matrix", type: "subtopic", details: "Ability to assess unequivocally the analyte in the presence of components that may be expected to be present." },
+                { id: "u2_va2", label: "Linear Dynamic Range & Calibration Curve ($R^2 \\ge 0.999$)", type: "subtopic", details: "Linear relationship between analyte concentration and analytical instrument detector response." },
+                { id: "u2_va3", label: "Limit of Detection (LOD): $\\text{LOD} = \\frac{3.3 \\cdot s_{\\text{blank}}}{S}$ ($S/N = 3:1$)", type: "subtopic", details: "Lowest analyte concentration in a sample that can be reliably distinguished from the analytical background blank." },
+                { id: "u2_va4", label: "Limit of Quantitation (LOQ): $\\text{LOQ} = \\frac{10 \\cdot s_{\\text{blank}}}{S}$ ($S/N = 10:1$)", type: "subtopic", details: "Lowest analyte concentration that can be quantitatively determined with acceptable accuracy and precision." },
+                { id: "u2_va5", label: "Robustness & Ruggedness: Resistance to Operational Changes", type: "subtopic", details: "Capacity of method to remain unaffected by deliberate small variations in temperature, buffer pH, or mobile phase composition." }
+              ]
+            },
+            {
+              id: "u2_glp_gmp",
+              label: "4. Quality Systems & Regulatory Compliance (GLP & GMP)",
+              type: "topic",
+              details: "International compliance standards for analytical laboratories and manufacturing.",
+              children: [
+                { id: "u2_gg1", label: "Good Laboratory Practice (GLP): OECD & FDA Quality Frameworks", type: "subtopic", details: "Organizational process and conditions under which non-clinical health and environmental safety studies are planned, performed, monitored, and recorded." },
+                { id: "u2_gg2", label: "Instrument Qualification Lifecycle: DQ $\\to$ IQ $\\to$ OQ $\\to$ PQ", type: "subtopic", details: "Design, Installation, Operational, and Performance Qualification of analytical balances, spectrophotometers, and chromatographs." },
+                { id: "u2_gg3", label: "Good Manufacturing Practice (GMP): QA vs QC, SOPs & Audit Trails", type: "subtopic", details: "Quality assurance management, standard operating procedures (SOPs), data integrity (ALCOA+), and batch release certification." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit3",
+          label: "Unit 3: Precipitation & Gravimetric Analysis",
+          badge: "Unit 3",
+          type: "unit",
+          color: "#D97706",
+          details: "Principles of gravimetric determinations, precipitate formation kinetics (von Weimarn theory), co-precipitation vs post-precipitation, and organic precipitating reagents.",
+          children: [
+            {
+              id: "u3_grav_steps",
+              label: "1. Principles & Steps in Quantitative Gravimetry",
+              type: "topic",
+              details: "Stoichiometric mass measurement and unit operations in gravimetric analysis.",
+              children: [
+                { id: "u3_gs1", label: "Unit Operations: Precipitation $\\to$ Digestion $\\to$ Filtration $\\to$ Washing $\\to$ Ignition $\\to$ Weighing", type: "subtopic", details: "Sequential operations ensuring complete precipitation and conversion to pure stoichiometric weighing form." },
+                { id: "u3_gs2", label: "Gravimetric Factor (GF): $GF = \\frac{a \\cdot \\text{FW}(\\text{Analyte})}{b \\cdot \\text{FW}(\\text{Precipitate})}$", type: "subtopic", details: "Multiplier converting mass of ignited precipitate directly into mass of analyte seeking determination." },
+                { id: "u3_gs3", label: "Desirable Properties of Precipitates: Low $K_{sp}$, High Purity, Known Stoichiometry, Large Particle Size", type: "subtopic", details: "Minimal solubility losses, non-hygroscopic character, easy filtration, and high molecular weight for low gravimetric factor." },
+                { id: "u3_gs4", label: "Thermogravimetric Analysis (TGA): Mass Loss vs Temperature Profiles ($CuSO_4 \\cdot 5H_2O$)", type: "subtopic", details: "Thermal decomposition curves tracking dehydration, desolvation, and phase transitions as a function of temperature." }
+              ]
+            },
+            {
+              id: "u3_von_weimarn",
+              label: "2. Precipitate Formation & von Weimarn Theory",
+              type: "topic",
+              details: "Supersaturation kinetics controlling nucleation and crystal growth.",
+              children: [
+                { id: "u3_vw1", label: "Relative Supersaturation (RSS): $\\text{RSS} = \\frac{Q - S}{S}$ (von Weimarn Ratio)", type: "subtopic", details: "$Q$ is instantaneous concentration of mixed reagents; $S$ is thermodynamic equilibrium solubility of precipitate." },
+                { id: "u3_vw2", label: "Nucleation vs Crystal Particle Growth Kinetics", type: "subtopic", details: "High $RSS$ favors spontaneous nucleation rate yielding colloidal precipitates; low $RSS$ favors crystal growth producing filterable crystals." },
+                { id: "u3_vw3", label: "Optimal Precipitation Conditions: Dilute Solutions, Hot Digestion, Slow Addition with Stirring", type: "subtopic", details: "Maximizing $S$ (high temp) and minimizing $Q$ (dilute reagents, dropwise addition) keeps $RSS$ low, preventing colloidal state." },
+                { id: "u3_vw4", label: "Ostwald Ripening / Digestion: Dissolution of Small Crystals onto Large Crystal Faces", type: "subtopic", details: "Aging precipitate in hot mother liquor: higher surface energy of small crystals causes them to dissolve and re-deposit on larger crystals." }
+              ]
+            },
+            {
+              id: "u3_contamination",
+              label: "3. Contamination of Precipitates: Co- & Post-Precipitation",
+              type: "topic",
+              details: "Mechanisms of impurity incorporation and purification strategies.",
+              children: [
+                { id: "u3_cn1", label: "Co-precipitation: Surface Adsorption (Paneth-Fajans-Hahn Rules)", type: "subtopic", details: "Primary adsorption of lattice ions followed by counter-ion layer adsorption on high surface area colloids." },
+                { id: "u3_cn2", label: "Isomorphous Replacement & Occlusion / Mechanical Entrapment", type: "subtopic", details: "Foreign ions fitting into crystal lattice (mixed crystals) or solvent/solute pockets physically trapped during fast crystal growth." },
+                { id: "u3_cn3", label: "Post-precipitation: Surface Crystallization upon Prolonged Standing ($CaC_2O_4 / MgC_2O_4$)", type: "subtopic", details: "Secondary deposition of an impurity precipitate on the primary precipitate after the initial precipitation reaction is complete." },
+                { id: "u3_cn4", label: "Purification Protocols: Reprecipitation, Washing with Volatile Electrolytes, pH Control", type: "subtopic", details: "Filtering, redissolving primary precipitate, and reprecipitating in clean solvent to drastically dilute impurity concentrations." }
+              ]
+            },
+            {
+              id: "u3_organic_reagents",
+              label: "4. Organic Precipitants in Chemical Analysis",
+              type: "topic",
+              details: "Chelating and salt-forming organic reagents for specific ion precipitation.",
+              children: [
+                { id: "u3_or1", label: "Oxine (8-Hydroxyquinoline): Bidentate Chelate for $Mg^{2+}, Al^{3+}, Zn^{2+}$ ($M(\\text{C}_9\\text{H}_6\\text{NO})_n$)", type: "subtopic", details: "Forms insoluble, hydrophobic inner-complex salts; pH-dependent selectivity for separation of $Al^{3+}$ from $Mg^{2+}$." },
+                { id: "u3_or2", label: "Dimethylglyoxime (DMG): Specific for $Ni^{2+}$ (Scarlet Red Chelate $[Ni(\\text{DMG})_2]$) & $Pd^{2+}$", type: "subtopic", details: "Planar bis-chelate with intramolecular $O-H\\cdots O$ hydrogen bonds; precipitates $Ni^{2+}$ selectively in ammoniacal medium ($pH 8-9$)." },
+                { id: "u3_or3", label: "Cupferron (Ammonium $N$-nitroso-$N$-phenylhydroxylamine): $Fe^{3+}, Ti^{4+}, Zr^{4+}, V^{5+}$", type: "subtopic", details: "Precipitates trivalent and tetravalent metal ions from strongly acidic solutions ($1:1\\text{ HCl}$ or $H_2SO_4$)." },
+                { id: "u3_or4", label: "Dithizone (Diphenylthiocarbazone): Heavy Metal Extraction & Determination ($Pb^{2+}, Hg^{2+}, Cu^{2+}, Zn^{2+}$)", type: "subtopic", details: "Sensitive reagent forming intensely colored, chloroform/CCl4-extractable metal dithizonates for trace and gravimetric assays." },
+                { id: "u3_or5", label: "$\\alpha$-Nitroso-$\\beta$-naphthol (1-Nitroso-2-naphthol): Specific for Cobalt ($Co^{3+}$) over $Ni^{2+}$", type: "subtopic", details: "Precipitates bulky chelate complex $[Co(\\text{C}_{10}\\text{H}_6\\text{NO}_2)_3]$ in acetic acid or dilute mineral acid, separating cobalt quantitatively from nickel." }
+              ]
+            },
+            {
+              id: "u3_suggested_books",
+              label: "5. Suggested Books & Standard References",
+              type: "topic",
+              details: "Recommended textbooks and standard curriculum references for Analytical Chemistry-I.",
+              children: [
+                { id: "u3_bk1", label: "Modern Methods of Chemical Analysis (R.L. Pecsok, L.D. Shields, T. Cairns, I.C. McWilliam, 2nd Ed. 1976, John Wiley, New York)", type: "subtopic", details: "Standard text covering instrumental methods, quantitative analysis steps, chromatographic and spectroscopic principles." },
+                { id: "u3_bk2", label: "Basic Concepts of Analytical Chemistry (S.M. Khopkar, 2nd Ed. 1998, New Age International, New Delhi)", type: "subtopic", details: "Authoritative reference on statistical evaluation of errors, gravimetric precipitates, organic precipitants, and separation techniques." },
+                { id: "u3_bk3", label: "Analytical Chemistry (G.D. Christian, 2001, John Wiley & Sons, New York)", type: "subtopic", details: "Comprehensive textbook for stoichiometric computations, method validation (LOD/LOQ), QA/QC, GLP, and gravimetric analysis." },
+                { id: "u3_bk4", label: "Environmental Chemistry (A.K. De, 3rd Ed. 1994, Wiley Eastern, New Delhi)", type: "subtopic", details: "Applied chemical analysis textbook covering environmental sample matrices, trace pollutant detection, and chemical equilibria." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "CHEMJ52": {
+    id: "CHEMJ52",
+    code: "CHEMJ52",
+    title: "Inorganic Chemistry-III",
+    department: "Department of Chemistry",
+    semester: 5,
+    credits: 3,
+    course_type: "Major",
+    summary: "Comprehensive mind map covering Theories of Metal-Ligand Bonding (CFT, LFT, MOT), Electronic Spectra & Orgel Diagrams of Transition Metal Complexes, and Thermodynamic & Kinetic Aspects (Trans Effect).",
+    root: {
+      id: "root",
+      label: "Inorganic Chemistry-III",
+      badge: "CHEMJ52 • Sem 5",
+      type: "root",
+      details: "3 Credits Major Course (Department of Chemistry, BHU). Metal-ligand bonding, crystal field splitting, electronic spectra, Orgel diagrams, stability constants, and square planar substitution mechanisms.",
+      children: [
+        {
+          id: "unit1",
+          label: "Unit 1: Theories of Metal-Ligand Bonding",
+          badge: "Unit 1",
+          type: "unit",
+          color: "#4F46E5",
+          details: "Crystal field splitting in $O_h, T_d, D_{4h}$ geometries, Jahn-Teller theorem, OSSE, spinels, spectrochemical & nephelauxetic series, and molecular orbital theory with $\\sigma$ and $\\pi$ bonding.",
+          children: [
+            {
+              id: "u1_cft_splitting",
+              label: "1. Crystal Field Splitting in Coordination Geometries",
+              type: "topic",
+              details: "Electrostatic splitting of degenerate d-orbitals in electrostatic ligand fields.",
+              children: [
+                { id: "u1_cfs1", label: "Octahedral ($O_h$) Splitting: $t_{2g}\\,(d_{xy}, d_{yz}, d_{zx})$ vs $e_g\\,(d_{z^2}, d_{x^2-y^2})$", type: "subtopic", details: "Splitting parameter $\\Delta_o$ ($10Dq$): $e_g$ destabilized by $+0.6\\Delta_o$, $t_{2g}$ stabilized by $-0.4\\Delta_o$ from barycenter." },
+                { id: "u1_cfs2", label: "Tetrahedral ($T_d$) Splitting: $\\Delta_t = \\frac{4}{9}\\Delta_o$ ($e$ below $t_2$)", type: "subtopic", details: "Inverted splitting pattern with no center of inversion ($g/u$ subscripts omitted); always high-spin due to small $\\Delta_t$." },
+                { id: "u1_cfs3", label: "Square Planar ($D_{4h}$) Splitting: $d_{x^2-y^2} \\gg d_{xy} > d_{z^2} > d_{xz}, d_{yz}$", type: "subtopic", details: "Tetragonal elongation limit where axial ligands are completely removed, creating large $\\Delta_{sp}$ favored by $d^8$ metal ions ($Pt^{2+}, Pd^{2+}, Ni^{2+}_{\\text{strong}}$)." },
+                { id: "u1_cfs4", label: "Factors Affecting $\\Delta$: Oxidation State, Principal Quantum Number ($3d < 4d < 5d$), Geometry, Ligand Field Strength", type: "subtopic", details: "Higher charge on metal increases $\\Delta$; $4d/5d$ elements have $\\sim 30-50\\%$ greater $\\Delta$ than $3d$ due to expanded d-orbital radial extension." }
+              ]
+            },
+            {
+              id: "u1_jahn_teller",
+              label: "2. Jahn-Teller Distortion & Theorem",
+              type: "topic",
+              details: "Spontaneous geometric distortion in electronically degenerate non-linear molecules.",
+              children: [
+                { id: "u1_jt1", label: "Jahn-Teller Theorem: Removal of Electronic Degeneracy", type: "subtopic", details: "Any non-linear molecular system in a degenerate electronic state will undergo geometric distortion to lower its symmetry and remove degeneracy." },
+                { id: "u1_jt2", label: "Strong Distortion: Asymmetric $e_g$ Occupancy ($d^9$ like $Cu^{2+}$, High-spin $d^4$ like $Cr^{2+}$, Low-spin $d^7$ like $Co^{2+}$)", type: "subtopic", details: "Unequal filling of $e_g$ orbitals ($t_{2g}^6 e_g^3$ or $t_{2g}^3 e_g^1$) causes pronounced axial elongation ($z$-out) or axial compression ($z$-in)." },
+                { id: "u1_jt3", label: "Weak Distortion: Asymmetric $t_{2g}$ Occupancy ($d^1, d^2$, High-spin $d^6, d^7$)", type: "subtopic", details: "Non-bonding character of $t_{2g}$ orbitals leads to negligible, often experimentally unresolvable geometric deviations." },
+                { id: "u1_jt4", label: "Dynamic vs Static Jahn-Teller Effect", type: "subtopic", details: "Static distortion frozen in crystal lattice vs dynamic averaging of distortion directions over fast vibrational timescales." }
+              ]
+            },
+            {
+              id: "u1_osse_spinels",
+              label: "3. OSSE, Normal vs Inverse Spinels",
+              type: "topic",
+              details: "Crystal Field Stabilization Energy applications to oxide lattice site preferences.",
+              children: [
+                { id: "u1_os1", label: "CFSE Calculation: $\\text{CFSE} = (-0.4 n_{t_{2g}} + 0.6 n_{e_g})\\Delta_o + mP$", type: "subtopic", details: "Net electronic stabilization energy gained relative to spherical field baseline including pairing energy $P$." },
+                { id: "u1_os2", label: "Octahedral Site Stabilization Energy (OSSE): $\\text{OSSE} = \\text{CFSE}_{O_h} - \\text{CFSE}_{T_d}$", type: "subtopic", details: "Thermodynamic driving force determining cation preference for octahedral interstitial sites over tetrahedral sites in close-packed lattices." },
+                { id: "u1_os3", label: "Normal Spinels ($AB_2O_4$): $[A^{2+}]_{T_d} [B^{3+}_2]_{O_h} O_4$ (e.g. $Mn_3O_4, Co_3O_4, FeCr_2O_4$)", type: "subtopic", details: "Divalent ion in tetrahedral holes and trivalent ions in octahedral holes when $B^{3+}$ has greater OSSE than $A^{2+}$." },
+                { id: "u1_os4", label: "Inverse Spinels: $[B^{3+}]_{T_d} [A^{2+} B^{3+}]_{O_h} O_4$ (e.g. Magnetite $Fe_3O_4, NiFe_2O_4$)", type: "subtopic", details: "$Fe_3O_4$ is inverse because $Fe^{2+} (d^6)$ has higher OSSE than $Fe^{3+} (d^5, \\text{CFSE}=0)$, forcing $Fe^{2+}$ into octahedral sites." }
+              ]
+            },
+            {
+              id: "u1_series_mot",
+              label: "4. Spectrochemical Series, Nephelauxetic Series & MOT",
+              type: "topic",
+              details: "Covalent overlap, nephelauxetic cloud expansion, and Molecular Orbital diagrams.",
+              children: [
+                { id: "u1_sm1", label: "Spectrochemical Series: $I^- < Br^- < Cl^- < F^- < OH^- < H_2O < NH_3 < en < NO_2^- < CN^- \\approx CO$", type: "subtopic", details: "Empirical ordering of ligands according to increasing magnitude of crystal field splitting parameter $\\Delta$." },
+                { id: "u1_sm2", label: "Nephelauxetic Series & Cloud-Expansion Parameter $\\beta = \\frac{B_{\\text{complex}}}{B_{\\text{free ion}}}$", type: "subtopic", details: "Reduction of Racah interelectronic repulsion parameter $B$ measuring covalency of metal-ligand coordinate bonds." },
+                { id: "u1_sm3", label: "Ligand Field Theory & MO Energy Levels in $O_h$ ($\\sigma$-only Bonding)", type: "subtopic", details: "$a_{1g}, e_g, t_{1u}$ bonding and antibonding molecular orbitals; non-bonding $t_{2g}$ and antibonding $e_g^*$ represent crystal field $d$-levels." },
+                { id: "u1_sm4", label: "Effect of $\\pi$-Bonding: $\\pi$-Donor ($Cl^-, I^-$ lowers $\\Delta_o$) vs $\\pi$-Acceptor ($CO, CN^-$ raises $\\Delta_o$)", type: "subtopic", details: "Ligand $\\pi$-donor orbitals destabilize $t_{2g}$ reducing $\\Delta_o$; empty ligand $\\pi^*$ orbitals stabilize $t_{2g}$ through back-bonding, greatly increasing $\\Delta_o$." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit2",
+          label: "Unit 2: Electronic Spectra of Transition Metal Complexes",
+          badge: "Unit 2",
+          type: "unit",
+          color: "#0891B2",
+          details: "Electronic transition mechanisms, Laporte and Spin selection rules, spectroscopic term symbols, Orgel diagrams ($d^1-d^{10}$), charge transfer spectra, and ligand-field parameters.",
+          children: [
+            {
+              id: "u2_transitions_rules",
+              label: "1. Electronic Transitions & Selection Rules",
+              type: "topic",
+              details: "Physical principles governing UV-Visible absorption band intensities and origins.",
+              children: [
+                { id: "u2_tr1", label: "Types of Transitions: $d-d$ (Ligand Field) vs Charge Transfer (CT) vs Ligand-Centered ($\\pi \\to \\pi^*$)", type: "subtopic", details: "Weak $d-d$ transitions ($\\varepsilon \\approx 1-100\\,\\text{L}\\cdot\\text{mol}^{-1}\\text{cm}^{-1}$) vs intense Charge Transfer bands ($\\varepsilon \\approx 10^3 - 10^5$)." },
+                { id: "u2_tr2", label: "Laporte Selection Rule (Parity Rule: $g \\leftrightarrow u, \\Delta l = \\pm 1$)", type: "subtopic", details: "Centrosymmetric $d-d$ transitions ($g \\to g$) are Laporte forbidden; relaxation occurs via vibronic coupling or non-centrosymmetric $T_d$ mixing." },
+                { id: "u2_tr3", label: "Spin Selection Rule ($\\Delta S = 0$)", type: "subtopic", details: "Transitions between states of different spin multiplicity are forbidden; spin-orbit coupling provides weak relaxation (e.g. pale pink $[Mn(H_2O)_6]^{2+}$)." },
+                { id: "u2_tr4", label: "Band Broadening Mechanisms: Vibronic Coupling & Dynamic Jahn-Teller Splitting", type: "subtopic", details: "Vibrational progression and low-symmetry splitting yielding broad absorption envelopes in solution spectra." }
+              ]
+            },
+            {
+              id: "u2_term_symbols",
+              label: "2. Spectroscopic Terms & Russell-Saunders Coupling",
+              type: "topic",
+              details: "Derivation of microstates, total spin $S$, total orbital $L$, and spectroscopic term symbols.",
+              children: [
+                { id: "u2_ts1", label: "Russell-Saunders Term Symbol Notation: $^{2S+1}L_J$", type: "subtopic", details: "$2S+1$ is spin multiplicity, $L$ is total orbital angular momentum ($S, P, D, F, G$), and $J = |L-S| \\dots L+S$." },
+                { id: "u2_ts2", label: "Hund's Multiplicity Rules for Ground State Term Determination", type: "subtopic", details: "Rule 1: Highest spin multiplicity $2S+1$; Rule 2: Highest total orbital angular momentum $L$; Rule 3: $J = |L-S|$ for less than half-filled and $J = L+S$ for more than half-filled shells." },
+                { id: "u2_ts3", label: "Ground Terms for Free Ion $d^n$ Configurations ($D$ and $F$ Terms)", type: "subtopic", details: "$d^1, d^4, d^6, d^9 \\implies \\, ^2D, ^5D$; $d^2, d^3, d^7, d^8 \\implies \\, ^3F, ^4F$; $d^5 \\implies \\, ^6S$; $d^{10} \\implies \\, ^1S$." },
+                { id: "u2_ts4", label: "Hole Formalism / Non-crossing Rule", type: "subtopic", details: "Electronic relationship: $d^n$ has identical term splitting to $d^{10-n}$ inverted in field sign; $O_h(d^n) \\equiv T_d(d^{10-n})$." }
+              ]
+            },
+            {
+              id: "u2_orgel_diagrams",
+              label: "3. Orgel Energy Level Diagrams ($d^1-d^{10}$ States)",
+              type: "topic",
+              details: "Qualitative energy level splitting diagrams for spin-allowed transitions in high-spin complexes.",
+              children: [
+                { id: "u2_od1", label: "Orgel Diagram for $D$ Ground State Terms ($d^1, d^4, d^6, d^9$ in $O_h / T_d$)", type: "subtopic", details: "$^2D$ term splits into $^2T_{2g}$ and $^2E_g$ levels yielding a single spin-allowed absorption band (e.g. $[Ti(H_2O)_6]^{3+}$ at $\\sim 20300\\,\\text{cm}^{-1}$)." },
+                { id: "u2_od2", label: "Orgel Diagram for $F$ Ground State Terms ($d^2, d^3, d^7, d^8$ in $O_h / T_d$)", type: "subtopic", details: "$F$ state splits into $T_{1g}(F), T_{2g}(F), A_{2g}(F)$ and mixes with excited $T_{1g}(P)$, yielding three spin-allowed absorption bands $\\nu_1, \\nu_2, \\nu_3$." },
+                { id: "u2_od3", label: "Spectra of Octahedral $[Ni(H_2O)_6]^{2+}$ ($d^8$): $\\nu_1, \\nu_2, \\nu_3$ Transitions", type: "subtopic", details: "Three bands: $\\nu_1 = ^3A_{2g} \\to ^3T_{2g} = 10Dq$, $\\nu_2 = ^3A_{2g} \\to ^3T_{1g}(F)$, and $\\nu_3 = ^3A_{2g} \\to ^3T_{1g}(P)$." },
+                { id: "u2_od4", label: "Spectra of Octahedral $[Co(H_2O)_6]^{2+}$ vs Tetrahedral $[CoCl_4]^{2-}$ ($d^7$)", type: "subtopic", details: "Tetrahedral $[CoCl_4]^{2-}$ exhibits intensely blue absorption ($\sim 100\\times$ higher extinction $\\varepsilon$) due to lack of center of inversion ($d-p$ orbital mixing)." }
+              ]
+            },
+            {
+              id: "u2_charge_transfer",
+              label: "4. Charge Transfer Spectra & Ligand-Field Parameters",
+              type: "topic",
+              details: "Inter-molecular electron transfer transitions and Racah parameter evaluations.",
+              children: [
+                { id: "u2_ct1", label: "Ligand-to-Metal Charge Transfer (LMCT: $L \\to M$)", type: "subtopic", details: "Occurs when metal is in high oxidation state and ligands are electron-rich/reducing (e.g. deep purple $MnO_4^-$, orange $Cr_2O_7^{2-}$, yellow $VO_4^{3-}$)." },
+                { id: "u2_ct2", label: "Metal-to-Ligand Charge Transfer (MLCT: $M \\to L$)", type: "subtopic", details: "Occurs when metal is in low oxidation state and ligands possess low-lying empty $\\pi^*$ orbitals (e.g. $[Fe(bpy)_3]^{2+}, [Ru(bpy)_3]^{2+}$)." },
+                { id: "u2_ct3", label: "Calculation of Ligand Field Parameters: $10Dq$, Racah Parameter $B$, and $\\beta$", type: "subtopic", details: "Extracting $10Dq = \\nu_1$, calculating interelectronic repulsion $B = \\frac{\\nu_2 + \\nu_3 - 3\\nu_1}{15}$, and nephelauxetic ratio $\\beta = B/B_0$." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit3",
+          label: "Unit 3: Thermodynamic & Kinetic Aspects of Metal Complexes",
+          badge: "Unit 3",
+          type: "unit",
+          color: "#D97706",
+          details: "Stepwise and overall stability constants, Irving-Williams series, chelate effect, inert vs labile complexes, square-planar substitution mechanisms, and the Trans Effect.",
+          children: [
+            {
+              id: "u3_thermo_stability",
+              label: "1. Thermodynamic Stability of Metal Complexes",
+              type: "topic",
+              details: "Equilibrium thermodynamics and formation constants in aqueous solution.",
+              children: [
+                { id: "u3_ts1", label: "Stepwise ($K_n$) & Overall ($\\beta_n$) Formation Constants: $\\beta_n = K_1 K_2 \\dots K_n$", type: "subtopic", details: "Equilibrium constants for consecutive ligand displacement reactions: $M + nL \\rightleftharpoons ML_n$ with $\\log\\beta_n = \\sum\\log K_i$." },
+                { id: "u3_ts2", label: "Trends in Stepwise Constants ($K_1 > K_2 > \\dots > K_n$)", type: "subtopic", details: "Statistical factors, steric hindrance of bulky ligands, and electrostatic repulsion cause progressive decrease in stepwise $K_i$." },
+                { id: "u3_ts3", label: "Irving-Williams Stability Series: $Ba^{2+} < Sr^{2+} < Ca^{2+} < Mg^{2+} < Mn^{2+} < Fe^{2+} < Co^{2+} < Ni^{2+} < Cu^{2+} > Zn^{2+}$", type: "subtopic", details: "Natural stability order for divalent $3d$ cations governed by decreasing ionic radius and increasing crystal field stabilization energy." },
+                { id: "u3_ts4", label: "Chelate Effect & Macrocyclic Effect (Thermodynamic Enthalpy vs Entropy)", type: "subtopic", details: "Polydentate ligands form much more stable complexes than monodentate analogues primarily due to favorable positive translational entropy change $\\Delta S^\\circ > 0$." }
+              ]
+            },
+            {
+              id: "u3_kinetics_mechanisms",
+              label: "2. Kinetic Stability: Inert vs Labile Complexes",
+              type: "topic",
+              details: "Reaction rates of ligand exchange and mechanistic pathways in solution.",
+              children: [
+                { id: "u3_km1", label: "Inert vs Labile Complexes (Taube's Kinetic Classification)", type: "subtopic", details: "Labile complexes undergo complete ligand substitution within 1 minute at $25^\\circ\\text{C}$ ($t_{1/2} < 1\\,\\text{min}$); inert complexes react slowly." },
+                { id: "u3_km2", label: "CFT Interpretation of Lability: $d^3, \\text{low-spin } d^6 (O_h)$ and $d^8 (D_{4h})$ are Inert", type: "subtopic", details: "High Crystal Field Activation Energy (CFAE) prevents rapid associative or dissociative transition state formation in $Cr^{3+}, Co^{3+}, Pt^{2+}$." },
+                { id: "u3_km3", label: "Substitution Reaction Pathways: Associative ($A, I_a$) vs Dissociative ($D, I_d$)", type: "subtopic", details: "Associative pathways involve 5-coordinate or 7-coordinate intermediates; dissociative pathways involve bond breaking prior to entering group coordination." }
+              ]
+            },
+            {
+              id: "u3_trans_effect",
+              label: "3. Square-Planar Substitution & The Trans Effect",
+              type: "topic",
+              details: "Kinetics of ligand displacement in square planar complexes and trans-directing phenomenon.",
+              children: [
+                { id: "u3_te1", label: "The Trans Effect Definition: Directed Substitution Trans to Specific Ligands", type: "subtopic", details: "The effect of a coordinated group $T$ upon the rate of substitution of ligands situated trans to itself in square-planar complexes." },
+                { id: "u3_te2", label: "Trans-Directing Series: $H_2O < OH^- < NH_3 < Cl^- < Br^- < I^- < CH_3^- < NO_2^- < PR_3 \\approx H^- < C_2H_4 \\approx CN^- \\approx CO$", type: "subtopic", details: "Empirical kinetic sequence ordering ligands by their ability to accelerate trans ligand departure." },
+                { id: "u3_te3", label: "$\\sigma$-Polarization Theory (Ground-State Thermodynamic Weakening / Trans Influence)", type: "subtopic", details: "Strong $\\sigma$-donor ligand $T$ polarizes metal electron cloud, weakening the trans $M-X$ $\\sigma$-bond and lengthening its ground state distance." },
+                { id: "u3_te4", label: "$\\pi$-Bonding Theory (Transition-State Kinetic Stabilization)", type: "subtopic", details: "Strong $\\pi$-acceptor ligand ($CO, C_2H_4$) withdraws electron density into equatorial plane of 5-coordinate trigonal bipyramidal transition state, lowering activation energy $E_a$." }
+              ]
+            },
+            {
+              id: "u3_trans_applications",
+              label: "4. Synthetic Applications of Trans Effect & Synthesis",
+              type: "topic",
+              details: "Stereoselective synthesis of square-planar geometric isomers.",
+              children: [
+                { id: "u3_ap1", label: "Synthesis of *cis*- vs *trans*-$[PtCl_2(NH_3)_2]$ (Cisplatin)", type: "subtopic", details: "Starting from $[PtCl_4]^{2-}$ yields *cis*-isomer (trans effect: $Cl^- > NH_3$); starting from $[Pt(NH_3)_4]^{2+}$ yields *trans*-isomer." },
+                { id: "u3_ap2", label: "Synthesis of Three Isomers of $[PtCl(Br)(NH_3)(py)]$", type: "subtopic", details: "Sequential controlled displacement exploiting the distinct trans-directing abilities of $Br^- > Cl^- > py > NH_3$." }
+              ]
+            },
+            {
+              id: "u3_suggested_books_inorg",
+              label: "5. Suggested Books & Standard References",
+              type: "topic",
+              details: "Recommended standard curriculum textbooks for Inorganic Chemistry-III.",
+              children: [
+                { id: "u3_bk1_inorg", label: "Concise Inorganic Chemistry (J. D. Lee, 5th Ed. 1996, Chapman & Hall, London)", type: "subtopic", details: "Foundational reference for crystal field theory, Orgel diagrams, and coordination chemistry principles." },
+                { id: "u3_bk2_inorg", label: "Inorganic Chemistry (J.E. Huheey, E.A. Keiter, R.L. Keiter, 4th Ed. 2006, Addison Wesley, NY)", type: "subtopic", details: "Authoritative graduate-level text on metal-ligand MO bonding, electronic spectra, and substitution kinetics/trans effect." },
+                { id: "u3_bk3_inorg", label: "Basic Inorganic Chemistry (F. A Cotton, G. Wilkinson, P.L. Gaus, 3rd Ed. 1995, John Wiley & Sons, NY)", type: "subtopic", details: "Comprehensive coverage of transition metal electronic structure, magnetic properties, and stability constants." },
+                { id: "u3_bk4_inorg", label: "Inorganic Chemistry (A. G. Sharpe, 3rd Int. Student Ed. 1999, ELBS / Longman, U.K.)", type: "subtopic", details: "Key text covering crystal field splitting, spectrochemical series, and thermodynamic vs kinetic stabilities." },
+                { id: "u3_bk5_inorg", label: "Inorganic Chemistry (D. F. Shriver and P. W. Atkins, 3rd Ed. 1999, ELBS, London)", type: "subtopic", details: "Detailed physical inorganic treatment of Tanabe-Sugano & Orgel diagrams, charge transfer transitions, and reaction mechanisms." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "CHEMJ53": {
+    id: "CHEMJ53",
+    code: "CHEMJ53",
+    title: "Organic Chemistry-III",
+    department: "Department of Chemistry",
+    semester: 5,
+    credits: 3,
+    course_type: "Major",
+    summary: "Comprehensive mind map covering Advanced Stereochemistry & Prochirality, Reactive Intermediates, Kinetic Isotope Effects, Name Reactions & Rearrangements, Click Chemistry, and Organic Photochemistry.",
+    root: {
+      id: "root",
+      label: "Organic Chemistry-III",
+      badge: "CHEMJ53 • Sem 5",
+      type: "root",
+      details: "3 Credits Major Course (Department of Chemistry, BHU). Stereochemistry, topicity, Cram's rule, reactive intermediates, primary/secondary KIE, notable name rearrangements, and photochemistry.",
+      children: [
+        {
+          id: "unit1",
+          label: "Unit 1: Stereochemistry & Asymmetric Induction",
+          badge: "Unit 1",
+          type: "unit",
+          color: "#4F46E5",
+          details: "Symmetry elements, chemical/enzymatic resolution, prochirality & topicity, asymmetric induction, Cram's rule, selectivity metrics, optical purity (ee/de), and axial chirality.",
+          children: [
+            {
+              id: "u1_sym_resolution",
+              label: "1. Symmetry Elements, Racemates & Resolution",
+              type: "topic",
+              details: "Molecular symmetry criteria and methods for enantiomeric separation.",
+              children: [
+                { id: "u1_sr1", label: "Symmetry Operations: Proper Axis $C_n$, Plane $\\sigma$, Inversion Center $i$, Improper Axis $S_n$", type: "subtopic", details: "Molecules lacking improper rotation axes $S_n$ (including $S_1 = \\sigma$ and $S_2 = i$) are chiral and optically active." },
+                { id: "u1_sr2", label: "Racemates & Racemization Mechanisms", type: "subtopic", details: "Equimolar mixture of enantiomers ($[\\alpha]=0$); racemization occurs via planar radical/carbocation intermediate or enolization." },
+                { id: "u1_sr3", label: "Chemical Resolution via Diastereomeric Salts", type: "subtopic", details: "Reaction with optically pure chiral resolving agents (e.g. $(+)$-tartaric acid, brucine, $(R)$-$\\alpha$-phenylethylamine) to form crystallizable diastereomers." },
+                { id: "u1_sr4", label: "Enzymatic & Kinetic Resolution", type: "subtopic", details: "Chiral biocatalysts (lipases, esterases) preferentially hydrolyze or esterify one enantiomer with high enantioselectivity ($E > 100$)." },
+                { id: "u1_sr5", label: "Optical Purity: Enantiomeric Excess ($\\% ee$) & Diastereomeric Excess ($\\% de$)", type: "subtopic", details: "$\\text{Optical Purity} = \\frac{[\\alpha]_{\\text{obs}}}{[\\alpha]_{\\text{max}}} \\times 100\\%$; $\\% ee = \\frac{|[R] - [S]|}{[R] + [S]} \\times 100\\%$." }
+              ]
+            },
+            {
+              id: "u1_prochirality_topicity",
+              label: "2. Prochirality, Topicity & Prostereoisomerism",
+              type: "topic",
+              details: "Topological relationships between homomorphic ligands and faces.",
+              children: [
+                { id: "u1_pt1", label: "Prochiral Center & Pro-R / Pro-S Descriptors", type: "subtopic", details: "An $sp^3$ tetrahedral carbon with two identical ligands $C(a,a,b,c)$; arbitrarily assigning priority to one ligand identifies Pro-R or Pro-S." },
+                { id: "u1_pt2", label: "Homotopic Ligands & Faces ($C_n$ Axis Test)", type: "subtopic", details: "Ligands related by proper rotation axis $C_n$; substitution by test group creates identical achiral molecules; chemical shift equivalent in NMR." },
+                { id: "u1_pt3", label: "Enantiotopic Ligands & Faces ($\\sigma / i$ Symmetry Test)", type: "subtopic", details: "Ligands related by mirror plane $\\sigma$ or inversion $i$; substitution creates enantiomers; distinguishable only in chiral environment (chiral shift reagents/enzymes)." },
+                { id: "u1_pt4", label: "Diastereotopic Ligands & Faces (No Symmetry Operation)", type: "subtopic", details: "Ligands with distinct spatial environments near existing chiral center; substitution creates diastereomers; anisochronous (distinct chemical shifts) in $^1\\text{H}$-NMR." },
+                { id: "u1_pt5", label: "Prochiral Faces: $Re$ and $Si$ Descriptors for Planar $sp^2$ Carbonyls", type: "subtopic", details: "CIP priority ordering of three substituents around $sp^2$ face: clockwise is $Re$ face, counter-clockwise is $Si$ face." }
+              ]
+            },
+            {
+              id: "u1_asymmetric_induction",
+              label: "3. Asymmetric Induction, Cram's Rule & Aldol Reaction",
+              type: "topic",
+              details: "Diastereoselective nucleophilic addition to chiral carbonyls and aldol transition states.",
+              children: [
+                { id: "u1_ai1", label: "Cram's Open-Chain Rule (Conformational Model)", type: "subtopic", details: "Carbonyl oxygen aligned anti to largest group $L$; nucleophile attacks carbonyl carbon from least hindered side of small group $S$ over medium group $M$." },
+                { id: "u1_ai2", label: "Felkin-Anh Model (Burgi-Dunitz Angle $107^\\circ$)", type: "subtopic", details: "Largest group $L$ oriented perpendicular ($90^\\circ$) to $C=O$ bond; nucleophile attacks at $\\sim 107^\\circ$ trajectory antiperiplanar to $L$." },
+                { id: "u1_ai3", label: "Cram's Chelate Model ($Mg^{2+}, Zn^{2+}, Ti^{4+}$ Coordination)", type: "subtopic", details: "Bidentate coordination between carbonyl oxygen and $\\alpha$-chelating heteroatom ($-\\text{OMe}, -\\text{NR}_2$) locks conformation, reversing diastereoselectivity." },
+                { id: "u1_ai4", label: "Stereochemical Terminology: Regioselective, Chemoselective, Stereospecific vs Stereoselective", type: "subtopic", details: "Chemoselectivity (functional group choice), Regioselectivity (orientation/position choice), Stereoselectivity (preferential isomer formation), Stereospecificity (reactant stereochemistry dictates product stereochemistry)." },
+                { id: "u1_ai5", label: "Aldol Reaction (Achiral-Achiral Zimmerman-Traxler 6-Membered Chair TS)", type: "subtopic", details: "Metal enolate and aldehyde assemble into chair transition state: $(E)$-enolates yield *anti*-aldol; $(Z)$-enolates yield *syn*-aldol products." }
+              ]
+            },
+            {
+              id: "u1_axial_chirality",
+              label: "4. Axial Chirality & Atropisomerism",
+              type: "topic",
+              details: "Stereoisomerism arising from non-planar arrangement about a chiral axis.",
+              children: [
+                { id: "u1_ac1", label: "Axial Chirality in Allenes ($>C=C=C<$)", type: "subtopic", details: "Orthogonal $\\pi$-bonds force terminal $sp^2$ substituents into mutually perpendicular planes, producing enantiomers when $abC=C=Cab$." },
+                { id: "u1_ac2", label: "Atropisomerism in Ortho-Substituted Biphenyls (e.g. BINAP)", type: "subtopic", details: "Bulky *ortho*-substituents sterically prevent free rotation around $C-C$ single bond, yielding resolvable conformational enantiomers ($E_a > 100\\,\\text{kJ/mol}$)." },
+                { id: "u1_ac3", label: "Spiranes / Spiro Compounds", type: "subtopic", details: "Two rings sharing single tetrahedral spiro-carbon held in mutually perpendicular planes exhibit axial chirality without chiral center." },
+                { id: "u1_ac4", label: "CIP Rules for Assigning $R_a / S_a$ to Chiral Axes", type: "subtopic", details: "Near groups given priority over far groups regardless of atomic number; track priority sequence $1 \\to 2 \\to 3$ for $R_a$ (clockwise) or $S_a$ (counter-clockwise)." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit2",
+          label: "Unit 2: Reactive Intermediates",
+          badge: "Unit 2",
+          type: "unit",
+          color: "#059669",
+          details: "Structure, generation, stability order, and chemical reactivity of carbocations, carbanions, free-radicals, carbenes, and nitrenes.",
+          children: [
+            {
+              id: "u2_carbocations",
+              label: "1. Carbocations (Carbonium & Carbenium Ions)",
+              type: "topic",
+              details: "Trivalent positively charged carbon intermediates ($sp^2$, vacant $p$-orbital).",
+              children: [
+                { id: "u2_cc1", label: "Generation: Ionization of Alkyl Halides, Protonation of Alkenes/Alcohols, Diazonium Decomposition", type: "subtopic", details: "Heterolytic cleavage generating 6-valence-electron cationic center in polar protic media." },
+                { id: "u2_cc2", label: "Stability Order: Tropylium / Aromatic > Cyclopropylmethyl > Allylic / Benzylic > $3^\\circ > 2^\\circ > 1^\\circ > \\text{Methyl}$", type: "subtopic", details: "Stabilization via aromatic $(4n+2)\\pi$ delocalization, bent pseudo-cyclopropane $\\sigma$-orbital overlap, hyperconjugation, and $+I$ inductive effects." },
+                { id: "u2_cc3", label: "Non-Classical Carbocations (2-Norbornyl Cation)", type: "subtopic", details: "3-center 2-electron ($3c-2e$) bonding bridged carbocation confirmed by spectroscopy and X-ray diffraction." },
+                { id: "u2_cc4", label: "Reactions: Nucleophilic Capture, Elimination to Alkenes, 1,2-Hydride / 1,2-Alkyl Wagner-Meerwein Shifts", type: "subtopic", details: "Fast skeletal rearrangements to convert less stable into more stable isomeric carbocations." }
+              ]
+            },
+            {
+              id: "u2_carbanions",
+              label: "2. Carbanions",
+              type: "topic",
+              details: "Trivalent negatively charged carbon species with an unshared lone pair.",
+              children: [
+                { id: "u2_ca1", label: "Generation: $\\alpha$-Deprotonation by Strong Bases (LDA, $n\\text{-BuLi}$), Decarboxylation, Halogen-Metal Exchange", type: "subtopic", details: "Heterolytic $C-H$ or $C-M$ cleavage leaving 8 valence electrons on carbon." },
+                { id: "u2_ca2", label: "Hybridization & Umbrella Pyramidal Inversion", type: "subtopic", details: "$sp^3$ hybridized pyramidal structure undergoing rapid Walden-type inversion unless constrained in strained rings or bridgeheads." },
+                { id: "u2_ca3", label: "Stability Order: $sp\\,(\\text{alkynyl}) > sp^2\\,(\\text{alkenyl/aryl}) > sp^3\\,(\\text{alkyl})$ and $1^\\circ > 2^\\circ > 3^\\circ$", type: "subtopic", details: "Enhanced s-character holds negative charge closer to nucleus; resonance with $-M$ groups ($-\\text{NO}_2, -\\text{COR}, -\\text{CN}$) dramatically stabilizes." },
+                { id: "u2_ca4", label: "Reactions: Alkylation, Michael Addition, Aldol / Claisen Condensation, Organometallic Additions", type: "subtopic", details: "Strong nucleophiles in carbon-carbon bond forming transformations." }
+              ]
+            },
+            {
+              id: "u2_free_radicals",
+              label: "3. Carbon Free Radicals",
+              type: "topic",
+              details: "Neutral odd-electron species bearing an unpaired electron.",
+              children: [
+                { id: "u2_fr1", label: "Generation: Homolysis via Heat/Light, Peroxide Initiators ($AIBN, Bz_2O_2$), Single-Electron Transfer", type: "subtopic", details: "Symmetrical bond fission producing 7-valence-electron paramagnetic species." },
+                { id: "u2_fr2", label: "Geometry & Stability: Planar ($sp^2$) or Shallow Inverting Pyramid", type: "subtopic", details: "Stability: Triphenylmethyl > Allyl / Benzyl > $3^\\circ > 2^\\circ > 1^\\circ > \\text{Methyl}$; stabilized by both $+M$ and $-M$ substituents (captodative effect)." },
+                { id: "u2_fr3", label: "Reactions: Radical Chain Halogenation, Anti-Markovnikov Addition (Kharasch Peroxide Effect)", type: "subtopic", details: "Three steps: Initiation, Propagation, and Termination (coupling or disproportionation)." },
+                { id: "u2_fr4", label: "Radical Rearrangements & Cyclizations (Barton Reaction)", type: "subtopic", details: "Photolysis of nitrite esters producing $\\delta$-nitroso alcohols through intramolecular $\\gamma/\\delta$-hydrogen atom transfer." }
+              ]
+            },
+            {
+              id: "u2_carbenes_nitrenes",
+              label: "4. Carbenes ($:CR_2$) & Nitrenes ($:NR$)",
+              type: "topic",
+              details: "Divalent carbon and monovalent nitrogen reactive neutral intermediates.",
+              children: [
+                { id: "u2_cn1", label: "Singlet Carbene ($sp^2$ Bent, Paired Electrons in $sp^2$, Vacant $p$) vs Triplet Carbene ($sp$ Linear/Bent, Two Unpaired Spins)", type: "subtopic", details: "Singlet generated photolytically from diazomethane; Triplet is ground state for $:CH_2$ (Hund's rule) and generated by photosensitization." },
+                { id: "u2_cn2", label: "Carbene Generation: $\\alpha$-Elimination of $\\text{CHCl}_3$ with $t\\text{-BuOK}$ ($:CCl_2$), Photolysis of Diazomethane or Ketene", type: "subtopic", details: "Forms reactive carbenes and carbenoids (Simmons-Smith reagent $ICH_2ZnI$)." },
+                { id: "u2_cn3", label: "Stereospecific Syn-Addition of Singlet Carbene vs Stepwise Triplet Addition to Alkenes", type: "subtopic", details: "Singlet adds in single concerted step preserving alkene stereochemistry; triplet undergoes radical addition with spin inversion, scrambling stereochemistry." },
+                { id: "u2_cn4", label: "Nitrenes ($R-\\ddot{N}:$) Structure & Generation", type: "subtopic", details: "Neutral 6-electron nitrogen species generated from azides ($RN_3 \\xrightarrow{h\\nu/\\Delta} RN + N_2$) or $\\alpha$-elimination from $N$-haloamides." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit3",
+          label: "Unit 3: Kinetic Isotope Effects",
+          badge: "Unit 3",
+          type: "unit",
+          color: "#D97706",
+          details: "Zero-point vibrational energy (ZPE), Primary Kinetic Isotope Effect (PKIE), Secondary Kinetic Isotope Effect (SKIE), and solvent isotope effects.",
+          children: [
+            {
+              id: "u3_kie_basis",
+              label: "1. Physical Basis & Zero-Point Energy (ZPE)",
+              type: "topic",
+              details: "Quantum harmonic oscillator origin of isotopic rate differentials.",
+              children: [
+                { id: "u3_kb1", label: "Reduced Mass ($\\mu = \\frac{m_1 m_2}{m_1 + m_2}$) & Vibrational Frequency ($\\nu = \\frac{1}{2\\pi}\\sqrt{\\frac{k}{\\mu}}$)", type: "subtopic", details: "Substituting hydrogen ($^1H$) with deuterium ($^2D$) doubles isotopic mass, lowering fundamental vibrational frequency $\\nu_{CD} < \\nu_{CH}$." },
+                { id: "u3_kb2", label: "Zero-Point Energy Difference: $\\Delta E_0 = \\frac{1}{2}h(\\nu_{CH} - \\nu_{CD}) \\approx 5\\,\\text{kJ/mol}$", type: "subtopic", details: "$C-H$ bond sits higher in potential well than $C-D$, requiring lower activation energy $E_a$ for homolytic/heterolytic cleavage." },
+                { id: "u3_kb3", label: "Theoretical Maximum PKIE at Room Temperature ($k_H / k_D \\approx 6.9$)", type: "subtopic", details: "Derived from Arrhenius relation $\\frac{k_H}{k_D} = \\exp\\left(\\frac{\\Delta E_0}{RT}\\right) \\approx e^{1.93} \\approx 6.9$ at $298\\,\\text{K}$." }
+              ]
+            },
+            {
+              id: "u3_primary_secondary",
+              label: "2. Primary vs Secondary Kinetic Isotope Effects",
+              type: "topic",
+              details: "Classification of KIE based on proximity to the reacting center.",
+              children: [
+                { id: "u3_ps1", label: "Primary Kinetic Isotope Effect (PKIE: $k_H / k_D = 2 - 7$)", type: "subtopic", details: "Observed when isotopic $C-H/C-D$ bond is directly broken in the rate-determining step (e.g. E2 base-promoted elimination)." },
+                { id: "u3_ps2", label: "Westheimer Transition State Symmetry & PKIE Variations", type: "subtopic", details: "PKIE reaches maximum when transition state is symmetrical ($[B\\cdots H\\cdots C]^\ddagger$), and drops for reactant-like or product-like asymmetric transition states." },
+                { id: "u3_ps3", label: "$\\alpha$-Secondary Kinetic Isotope Effect ($\\alpha$-SKIE: $sp^3 \\leftrightarrow sp^2$)", type: "subtopic", details: "Normal $\\alpha$-SKIE ($k_H/k_D \\approx 1.15 - 1.25$) for $sp^3 \\to sp^2$ in $S_N1$ (easier out-of-plane bending); Inverse $\\alpha$-SKIE ($k_H/k_D \\approx 0.8 - 0.9$) for $sp^2 \\to sp^3$ addition." },
+                { id: "u3_ps4", label: "$\\beta$-Secondary Kinetic Isotope Effect (Hyperconjugation)", type: "subtopic", details: "Normal effect ($k_H/k_D > 1$) arising from $C-H$ hyperconjugation stabilizing developing carbocation in transition state." }
+              ]
+            },
+            {
+              id: "u3_solvent_tunneling",
+              label: "3. Solvent Isotope Effects & Quantum Tunneling",
+              type: "topic",
+              details: "Mechanistic distinction of acid-base catalysis and quantum phenomena.",
+              children: [
+                { id: "u3_st1", label: "Solvent Kinetic Isotope Effect ($k_{H_2O} / k_{D_2O}$)", type: "subtopic", details: "Comparing rates in $H_2O$ vs $D_2O$; distinguishes specific acid catalysis ($H_3O^+$ equilibrium) from general acid catalysis (proton transfer in rate-determining step)." },
+                { id: "u3_st2", label: "Quantum Mechanical Proton Tunneling ($k_H / k_D > 10 - 50$)", type: "subtopic", details: "Light hydrogen wave-packet penetrates narrow potential barrier directly without surmounting activation peak, yielding anomalous non-classical KIEs." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit4",
+          label: "Unit 4: Name Reactions, Rearrangements & Click Chemistry",
+          badge: "Unit 4",
+          type: "unit",
+          color: "#DC2626",
+          details: "Synthetic carbon-carbon bond forming reactions, oxidations, reductions, cation/nitrogen rearrangements, and Click chemistry.",
+          children: [
+            {
+              id: "u4_cc_forming",
+              label: "1. C-C Bond Forming & Functionalization Reactions",
+              type: "topic",
+              details: "Michael addition, Robinson annulation, and Mitsunobu displacement.",
+              children: [
+                { id: "u4_cc1", label: "Michael Addition (Conjugate 1,4-Addition of Enolates)", type: "subtopic", details: "Thermodynamic 1,4-addition of soft resonance-stabilized carbon nucleophiles (malonates, acetoacetates) to $\\alpha,\\beta$-unsaturated carbonyl acceptors." },
+                { id: "u4_cc2", label: "Robinson Annulation (Ring Formation Sequence)", type: "subtopic", details: "Tandem Michael addition of ketone enolate to methyl vinyl ketone (MVK) followed by intramolecular aldol condensation to form cyclohexenone rings." },
+                { id: "u4_cc3", label: "Mitsunobu Reaction ($S_N2$ Stereochemical Inversion of Alcohols)", type: "subtopic", details: "Coupling of primary/secondary alcohols with pronucleophiles ($-\\text{COOH}, -\\text{N}_3$) using $\\text{DEAD}$ and $\\text{PPh}_3$ with complete Walden inversion." }
+              ]
+            },
+            {
+              id: "u4_redox_reactions",
+              label: "2. Oxidation & Reduction Transformations",
+              type: "topic",
+              details: "Birch reduction and Baeyer-Villiger oxidation mechanisms.",
+              children: [
+                { id: "u4_rx1", label: "Birch Reduction ($Na / \\text{Liquid } NH_3 + \\text{EtOH}$)", type: "subtopic", details: "Dissolved metal reduction of benzene rings to unconjugated 1,4-cyclohexadienes; EDG gives 1-substituted-1,4-diene; EWG gives 2-substituted-1,4-diene." },
+                { id: "u4_rx2", label: "Baeyer-Villiger Oxidation (Ketone to Ester / Cyclic Ketone to Lactone)", type: "subtopic", details: "Peracid ($m\\text{CPBA}, CF_3COOOH$) insertion of oxygen via Criegee intermediate; Migratory aptitude: $3^\\circ > 2^\\circ \\approx \\text{Phenyl} > 1^\\circ > \\text{Methyl}$ with stereochemical retention." }
+              ]
+            },
+            {
+              id: "u4_carbocation_rearrangements",
+              label: "3. Cationic & Pericyclic Rearrangements",
+              type: "topic",
+              details: "Skeletal migrations of carbocations and diazo compounds.",
+              children: [
+                { id: "u4_cr1", label: "Pinacol-Pinacolone Rearrangement (Acid-Catalyzed 1,2-Diol Cleavage)", type: "subtopic", details: "Protonation of 1,2-diol $\\to$ loss of $H_2O \\to$ 1,2-alkyl/aryl shift driving formation of resonance-stabilized oxonium $\\to$ ketone." },
+                { id: "u4_cr2", label: "Wagner-Meerwein Rearrangement", type: "subtopic", details: "1,2-Migration of alkyl/hydride in terpene and bridged carbocation intermediates (e.g. isoborneol to camphene)." },
+                { id: "u4_cr3", label: "Wolff Rearrangement ($\\alpha$-Diazoketone to Ketene)", type: "subtopic", details: "Photolytic or silver-catalyzed nitrogen extrusion forming $\\alpha$-ketocarbene, followed by 1,2-migration to ketene; key step in Arndt-Eistert homologation." },
+                { id: "u4_cr4", label: "Dienone-Phenol & Benzidine Rearrangements", type: "subtopic", details: "Dienone-phenol: acid-catalyzed migration in cross-conjugated cyclohexadienones; Benzidine: $[5,5]$-sigmatropic rearrangement of 1,2-diphenylhydrazine." }
+              ]
+            },
+            {
+              id: "u4_nitrogen_click",
+              label: "4. Nitrogen-Based Rearrangements & Click Chemistry",
+              type: "topic",
+              details: "Decarboxylative migrations to amines and bioorthogonal triazole cycloadditions.",
+              children: [
+                { id: "u4_nc1", label: "Hofmann Rearrangement: $RCONH_2 + Br_2 + 4KOH \\to RNH_2 + K_2CO_3 + 2KBr$", type: "subtopic", details: "Conversion of primary amides to primary amines with loss of one carbon via $N$-bromoamide, isocyanate ($RN=C=O$), and carbamate intermediates." },
+                { id: "u4_nc2", label: "Curtius Rearrangement ($RCON_3 \\xrightarrow{\\Delta} RN=C=O \\xrightarrow{H_2O} RNH_2 + CO_2$)", type: "subtopic", details: "Thermal decomposition of acyl azides with retention of configuration at migrating group $R$." },
+                { id: "u4_nc3", label: "Schmidt Reaction ($RCOOH + HN_3 \\xrightarrow{H_2SO_4} RNH_2 + CO_2 + N_2$)", type: "subtopic", details: "Acid-catalyzed reaction of carboxylic acids or ketones with hydrazoic acid." },
+                { id: "u4_nc4", label: "Favorskii Rearrangement ($\\alpha$-Haloketones $\\to$ Carboxylic Esters)", type: "subtopic", details: "Base-induced cyclization via cyclopropanone intermediate followed by ring-opening nucleophilic addition." },
+                { id: "u4_nc5", label: "Click Chemistry: Sharpless CuAAC (Copper(I)-Catalyzed Azide-Alkyne Cycloaddition)", type: "subtopic", details: "Regiospecific synthesis of 1,4-disubstituted 1,2,3-triazoles with near-quantitative yields, water compatibility, and bioorthogonality." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit5",
+          label: "Unit 5: Photochemistry",
+          badge: "Unit 5",
+          type: "unit",
+          color: "#7C3AED",
+          details: "Jablonski photophysical diagram, photosensitization, alkene/diene photoisomerizations, Norrish Type I & II, Paternò-Büchi, and Photo-Fries rearrangements.",
+          children: [
+            {
+              id: "u5_principles_jablonski",
+              label: "1. Photochemical Principles & Photophysical De-excitation",
+              type: "topic",
+              details: "Quantum absorption and excited-state energy pathways.",
+              children: [
+                { id: "u5_pj1", label: "Jablonski Diagram: Electronic States ($S_0, S_1, T_1$)", type: "subtopic", details: "Absorption ($h\\nu$), Internal Conversion (IC, non-radiative), Intersystem Crossing (ISC, $S_1 \\to T_1$), Fluorescence ($S_1 \\to S_0, 10^{-9}\\,\\text{s}$), Phosphorescence ($T_1 \\to S_0, 10^{-3}-10\\,\\text{s}$)." },
+                { id: "u5_pj2", label: "Franck-Condon Principle & Spin Multiplicity Rules", type: "subtopic", details: "Nuclear positions unchanged during fast vertical electronic transition ($10^{-15}\\,\\text{s}$); singlet ($2S+1=1$) vs triplet ($2S+1=3$) biradicaloid character." },
+                { id: "u5_pj3", label: "Photosensitization & Triplet Energy Transfer", type: "subtopic", details: "Sensitizers (benzophenone, acetophenone) absorb light $\\to$ undergo efficient ISC $\\to$ transfer triplet excitation energy to acceptor substrate." }
+              ]
+            },
+            {
+              id: "u5_alkenes_dienes",
+              label: "2. Photochemistry of Alkenes & 1,3-Butadienes",
+              type: "topic",
+              details: "Singlet and triplet photoreactions of conjugated polyenes.",
+              children: [
+                { id: "u5_ad1", label: "Singlet vs Triplet Photoreactions of 1,3-Butadiene", type: "subtopic", details: "Direct irradiation (singlet) yields cyclobutene and bicyclo[1.1.0]butane; triplet photosensitization yields $[2+2]$ and $[4+2]$ cyclodimers." },
+                { id: "u5_ad2", label: "Cis-Trans Photoisomerization of Alkenes (Stilbene)", type: "subtopic", details: "Excitation to phantom twisted perpendicular state $p^*$ allowing decay to photostationary state with higher proportion of less stable *cis*-isomer." },
+                { id: "u5_ad3", label: "Intermolecular & Intramolecular $[2+2]$ Cycloadditions", type: "subtopic", details: "Photochemically allowed $[\\pi 2_s + \\pi 2_s]$ cycloaddition forming 4-membered cyclobutane rings." },
+                { id: "u5_ad4", label: "Di-$\\pi$-Methane (Zimmerman) Rearrangement", type: "subtopic", details: "Photochemical rearrangement of 1,4-dienes or allylarenes to vinylcyclopropanes via 1,2-biradical bridging intermediate." }
+              ]
+            },
+            {
+              id: "u5_carbonyl_photochem",
+              label: "3. Photochemical Reactions of Carbonyl Compounds",
+              type: "topic",
+              details: "Norrish Type I & II cleavage and Paternò-Büchi oxetane formation.",
+              children: [
+                { id: "u5_cp1", label: "Norrish Type-I Cleavage ($\\alpha$-Cleavage)", type: "subtopic", details: "Homolytic cleavage of carbonyl $C_\\alpha-C$ bond yielding acyl and alkyl radicals; in cyclic ketones, leads to ring opening, decarbonylation, or ketenes." },
+                { id: "u5_cp2", label: "Norrish Type-II Cleavage (Intramolecular $\\gamma$-H Abstraction)", type: "subtopic", details: "Excited carbonyl abstracts hydrogen from $\\gamma$-carbon via 6-membered cyclic transition state to form 1,4-biradical $\\to$ fragmentation into alkene + enol (cleavage) or cyclization to cyclobutanol (Yang reaction)." },
+                { id: "u5_cp3", label: "Photoreduction of Carbonyls (Benzophenone $\\to$ Benzopinacol)", type: "subtopic", details: "$n\\to\\pi^*$ triplet of benzophenone abstracts hydrogen from 2-propanol $\\to$ two ketyl radicals dimerize to give benzopinacol." },
+                { id: "u5_cp4", label: "Paternò-Büchi Reaction ($[2+2]$ Oxetane Formation)", type: "subtopic", details: "Photocycloaddition of carbonyl $n\\to\\pi^*$ excited state with ground-state alkene forming 4-membered oxetane rings." }
+              ]
+            },
+            {
+              id: "u5_fries_books",
+              label: "4. Photo-Fries Rearrangement & Suggested References",
+              type: "topic",
+              details: "Intramolecular radical recombination and curriculum textbook references.",
+              children: [
+                { id: "u5_pf1", label: "Photo-Fries Rearrangement of Phenyl Esters", type: "subtopic", details: "Light-induced cleavage of ArO-COR bond into caged radical pair; in-cage recombination yields *ortho*- and *para*-acylphenols." },
+                { id: "u5_bk1_org", label: "Stereochemistry of Organic Compounds (E.L. Eliel, S.H. Wilen, L.N. Mander, John Wiley)", type: "subtopic", details: "Classic reference on symmetry elements, prochirality, chiral axes, resolution, and asymmetric synthesis." },
+                { id: "u5_bk2_org", label: "Advanced Organic Chemistry (F.A. Carey & R.J. Sundberg, Parts A & B, Springer)", type: "subtopic", details: "Comprehensive text on reactive intermediates, kinetic isotope effects, stereoelectronic effects, and reaction mechanisms." },
+                { id: "u5_bk3_org", label: "March's Advanced Organic Chemistry (M.B. Smith, John Wiley & Sons)", type: "subtopic", details: "Exhaustive encyclopedia of organic name reactions, rearrangements, and synthetic transformations." },
+                { id: "u5_bk4_org", label: "Organic Photochemistry and Pericyclic Reactions (M. Harmata & P.S. Kalsi, New Age)", type: "subtopic", details: "Comprehensive student text covering Jablonski diagrams, Norrish I/II, Paternò-Büchi, and photoisomerizations." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "CHEMJ54": {
+    id: "CHEMJ54",
+    code: "CHEMJ54",
+    title: "Physical Chemistry-III",
+    department: "Department of Chemistry",
+    semester: 5,
+    credits: 3,
+    course_type: "Major",
+    summary: "Comprehensive mind map covering Elementary Quantum Mechanics (Operators, 1D/3D Box, Harmonic Oscillator, Rigid Rotor), Molecular Symmetry & Group Theory, Molecular Spectroscopy (Rotational, Vibrational, Electronic), and NMR Spectroscopy.",
+    root: {
+      id: "root",
+      label: "Physical Chemistry-III",
+      badge: "CHEMJ54 • Sem 5",
+      type: "root",
+      details: "3 Credits Major Course (Department of Chemistry, BHU). Postulates of quantum chemistry, particle in a box, symmetry character tables, rotational/vibrational/electronic spectra, and NMR principles.",
+      children: [
+        {
+          id: "unit1",
+          label: "Unit 1: Elementary Quantum Mechanics",
+          badge: "Unit 1",
+          type: "unit",
+          color: "#4F46E5",
+          details: "Quantum mechanical operators, Hermitian properties, commutator algebra, Schrödinger wave equation, 1D and 3D particle in a box, degeneracy, harmonic oscillator, and rigid rotor model.",
+          children: [
+            {
+              id: "u1_operators_postulates",
+              label: "1. Postulates of Quantum Mechanics & Operator Algebra",
+              type: "topic",
+              details: "Mathematical foundations of wave mechanics and observable operators.",
+              children: [
+                { id: "u1_op1", label: "Wavefunction Postulate (Born Interpretation & Normalization)", type: "subtopic", details: "State defined by well-behaved $\\Psi(x,t)$ (single-valued, continuous, square-integrable); $|\\Psi|^2 d\\tau$ represents probability density with $\\int_{-\\infty}^\\infty |\\Psi|^2 d\\tau = 1$." },
+                { id: "u1_op2", label: "Quantum Operators: Position ($\\hat{x}$), Linear Momentum ($\\hat{p}_x = -i\\hbar\\frac{\\partial}{\\partial x}$), Hamiltonian ($\\hat{H} = -\\frac{\\hbar^2}{2m}\\nabla^2 + V$)", type: "subtopic", details: "Every physical observable corresponds to a linear Hermitian operator with real eigenvalues." },
+                { id: "u1_op3", label: "Eigenvalue Equation & Hermiticity (Orthogonality)", type: "subtopic", details: "$\\hat{A}\\psi_n = a_n \\psi_n$; eigenfunctions belonging to non-degenerate eigenvalues are orthogonal: $\\int \\psi_i^* \\psi_j d\\tau = \\delta_{ij}$." },
+                { id: "u1_op4", label: "Commutator Algebra & Heisenberg Uncertainty Principle", type: "subtopic", details: "$[\\hat{A}, \\hat{B}] = \\hat{A}\\hat{B} - \\hat{B}\\hat{A}$; non-commuting operators $[\\hat{x}, \\hat{p}_x] = i\\hbar$ lead directly to uncertainty relation $\\Delta x \\cdot \\Delta p_x \\ge \\frac{\\hbar}{2}$." }
+              ]
+            },
+            {
+              id: "u1_pbox",
+              label: "2. Particle in a One-Dimensional & Three-Dimensional Box",
+              type: "topic",
+              details: "Exact analytical solutions of bound state particle in infinite potential wells.",
+              children: [
+                { id: "u1_pb1", label: "1D Box Wavefunctions: $\\psi_n(x) = \\sqrt{\\frac{2}{L}} \\sin\\left(\\frac{n\\pi x}{L}\\right)$ ($n = 1, 2, 3\\dots$)", type: "subtopic", details: "Sinusoidal standing waves vanishing at boundaries $x=0$ and $x=L$; number of internal nodes $= n - 1$." },
+                { id: "u1_pb2", label: "1D Box Quantized Energy Levels: $E_n = \\frac{n^2 h^2}{8mL^2}$ & Zero-Point Energy", type: "subtopic", details: "Energy quantized due to boundary confinement; ground state $n=1$ possesses irreducible zero-point energy $E_1 = \\frac{h^2}{8mL^2} > 0$ required by uncertainty principle." },
+                { id: "u1_pb3", label: "3D Cubic Box Energy: $E = \\frac{h^2}{8mL^2}(n_x^2 + n_y^2 + n_z^2)$ & Spatial Degeneracy", type: "subtopic", details: "Product wavefunctions $\\psi = X(x)Y(y)Z(z)$; states with distinct quantum number combinations sharing identical energy exhibit degeneracy (e.g. $n_x^2+n_y^2+n_z^2 = 14$ is 6-fold degenerate)." }
+              ]
+            },
+            {
+              id: "u1_ho_rigid_rotor",
+              label: "3. Quantum Harmonic Oscillator & Rigid Rotor Model",
+              type: "topic",
+              details: "Quantum treatment of molecular bond vibration and diatomic rotation.",
+              children: [
+                { id: "u1_ho1", label: "Harmonic Oscillator Potential ($V(x) = \\frac{1}{2}kx^2$) & Hermite Solutions", type: "subtopic", details: "Schrödinger equation solved via Hermite polynomials $H_v(y) e^{-y^2/2}$ where $y = \\sqrt{\\alpha}x$." },
+                { id: "u1_ho2", label: "Vibrational Energy Levels: $E_v = \\left(v + \\frac{1}{2}\\right)h\\nu$ ($v = 0, 1, 2\\dots$)", type: "subtopic", details: "Equally spaced energy rungs with zero-point vibrational energy $E_0 = \\frac{1}{2}h\\nu$ where $\\nu = \\frac{1}{2\\pi}\\sqrt{\\frac{k}{\\mu}}$." },
+                { id: "u1_rr1", label: "Rigid Rotor on a Sphere: Spherical Harmonics ($Y_{J,M}(\\theta, \\phi)$)", type: "subtopic", details: "Fixed bond length $r_0$, angular momentum operator $\\hat{L}^2 Y_{J,M} = J(J+1)\\hbar^2 Y_{J,M}$ and $\\hat{L}_z Y_{J,M} = M\\hbar Y_{J,M}$." },
+                { id: "u1_rr2", label: "Rotational Energy Eigenvalues: $E_J = \\frac{J(J+1)\\hbar^2}{2I} = B J(J+1) hc$", type: "subtopic", details: "Rotational constant $B = \\frac{h}{8\\pi^2 I c}$, moment of inertia $I = \\mu r_0^2$, and rotational level degeneracy $g_J = 2J + 1$." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit2",
+          label: "Unit 2: Molecular Symmetry & Group Theory",
+          badge: "Unit 2",
+          type: "unit",
+          color: "#059669",
+          details: "Symmetry elements, operations, point group classifications, matrix representations, $C_{3v}$ and $C_{4v}$ groups, and character table applications.",
+          children: [
+            {
+              id: "u2_sym_operations",
+              label: "1. Symmetry Elements & Point Group Classification",
+              type: "topic",
+              details: "Geometric symmetry operations that leave a molecule indistinguishable.",
+              children: [
+                { id: "u2_so1", label: "Symmetry Elements: Identity ($E$), Proper Axis ($C_n$), Mirror Plane ($\\sigma$), Inversion Center ($i$), Improper Axis ($S_n$)", type: "subtopic", details: "Operations: $C_n$ (rotation by $2\\pi/n$), $\\sigma_v$ (vertical plane containing principal axis), $\\sigma_h$ (horizontal plane $\\perp C_n$), $\\sigma_d$ (dihedral plane bisecting $C_2$), $S_n = \\sigma_h \\cdot C_n$." },
+                { id: "u2_so2", label: "Point Group Classification Flowchart", type: "subtopic", details: "Systematic classification: Linear ($C_{\\infty v}, D_{\\infty h}$), High symmetry ($T_d, O_h, I_h$), Low symmetry ($C_1, C_s, C_i$), Axial groups ($C_n, C_{nv}, C_{nh}, D_n, D_{nd}, D_{nh}$)." }
+              ]
+            },
+            {
+              id: "u2_matrix_representations",
+              label: "2. Matrix Representations of Symmetry Operations",
+              type: "topic",
+              details: "Matrix transformation algebra for Cartesian basis vectors and atomic displacements.",
+              children: [
+                { id: "u2_mr1", label: "Transformation Matrices for Reflection, Inversion & Rotation", type: "subtopic", details: "Matrix representation of proper rotation $C_n(\\theta)$: $\\begin{pmatrix} \\cos\\theta & -\\sin\\theta & 0 \\\\ \\sin\\theta & \\cos\\theta & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}$; character $\\chi(C_n) = 1 + 2\\cos\\theta$." },
+                { id: "u2_mr2", label: "Matrix Representation of $C_{3v}$ ($NH_3$) & $C_{4v}$ Point Groups", type: "subtopic", details: "Generating multiplication tables and reducible/irreducible representations using $3\\times 3$ Cartesian coordinate basis sets." },
+                { id: "u2_mr3", label: "Great Orthogonality Theorem (GOT) & Reducible Representation Decomposition", type: "subtopic", details: "Standard reduction formula: $n_i = \\frac{1}{h}\\sum_R g_R \\chi(R) \\chi_i(R)$ to decompose reducible representations into irreducible symmetry species." }
+              ]
+            },
+            {
+              id: "u2_character_tables",
+              label: "3. Structure of Character Tables & Symmetry Species",
+              type: "topic",
+              details: "Decoding character tables and assigning vibrational/rotational modes.",
+              children: [
+                { id: "u2_ct1", label: "Anatomy of Character Tables: Mulliken Symbols ($A, B, E, T, g, u, ', ''$)", type: "subtopic", details: "$A/B$: symmetric/antisymmetric to principal $C_n$; $E$: doubly degenerate; $T$: triply degenerate; $g/u$: symmetric/antisymmetric to inversion center $i$." },
+                { id: "u2_ct2", label: "Identification of Translations ($T_x, T_y, T_z$) & Rotations ($R_x, R_y, R_z$)", type: "subtopic", details: "Linear and rotational basis functions listed in character tables determining infrared (dipole moment $\\mu_x, \\mu_y, \\mu_z$) and Raman (polarizability $\\alpha_{ij}$) activity." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit3",
+          label: "Unit 3: Molecular Spectroscopy",
+          badge: "Unit 3",
+          type: "unit",
+          color: "#0891B2",
+          details: "Born-Oppenheimer approximation, pure rotational spectra, isotope substitution, vibrational IR spectra, anharmonicity, Franck-Condon principle, and electronic spectra.",
+          children: [
+            {
+              id: "u3_em_radiation",
+              label: "1. Radiation-Matter Interaction & Born-Oppenheimer Principle",
+              type: "topic",
+              details: "Physical mechanisms of photon absorption and spectral line properties.",
+              children: [
+                { id: "u3_em1", label: "Electromagnetic Spectrum: Microwave (Rotational) $\\to$ Infrared (Vibrational) $\\to$ UV-Vis (Electronic)", type: "subtopic", details: "Energy regimes: $\\Delta E_{\\text{elec}} (1-10\\,\\text{eV}) \\gg \\Delta E_{\\text{vib}} (0.05-0.5\\,\\text{eV}) \\gg \\Delta E_{\\text{rot}} (10^{-4}-10^{-2}\\,\\text{eV})$." },
+                { id: "u3_em2", label: "Born-Oppenheimer Approximation: $E_{\\text{total}} = E_{\\text{elec}} + E_{\\text{vib}} + E_{\\text{rot}} + E_{\\text{trans}}$", type: "subtopic", details: "Separability of electronic and nuclear wavefunctions grounded in the massive disparity of electron vs nuclear masses ($M/m_e > 1836$)." },
+                { id: "u3_em3", label: "Transition Dipole Moment Integral ($\\mu_{fi} = \\int \\psi_f^* \\hat{\\mu} \\psi_i d\\tau$) & Line Broadening", type: "subtopic", details: "Transition intensity depends on $\\mu_{fi}^2$ and Boltzmann population; natural lifetime broadening $\\Delta\\nu \\approx \\frac{1}{2\\pi\\tau}$ and Doppler broadening $\\Delta\\nu_D \\propto \\sqrt{T/M}$." }
+              ]
+            },
+            {
+              id: "u3_rotational_spec",
+              label: "2. Pure Rotational (Microwave) Spectroscopy",
+              type: "topic",
+              details: "Rigid rotor diatomic transitions and isotopic shifts.",
+              children: [
+                { id: "u3_rs1", label: "Gross Selection Rule: Permanent Electric Dipole Moment ($\\mu \\ne 0$)", type: "subtopic", details: "Heteronuclear diatomics ($HCl, CO, NO$) are microwave active; homonuclear diatomics ($N_2, O_2, H_2$) are microwave inactive." },
+                { id: "u3_rs2", label: "Specific Selection Rule: $\\Delta J = \\pm 1$ & Transition Wavenumbers ($\\bar{\\nu} = 2\\bar{B}(J+1)$)", type: "subtopic", details: "Spectral lines appear as a set of equidistant absorption lines with constant spacing $\\Delta \\bar{\\nu} = 2\\bar{B} = \\frac{h}{4\\pi^2 I c}$." },
+                { id: "u3_rs3", label: "Isotopic Substitution Effect: $\\frac{\\bar{B}'}{\\bar{B}} = \\frac{\\mu}{\\mu'}$", type: "subtopic", details: "Heavier isotope increases reduced mass $\\mu'$, decreases rotational constant $\\bar{B}$, compressing line spacing and enabling precise bond length measurement." },
+                { id: "u3_rs4", label: "Maximum Population Level: $J_{\\text{max}} = \\sqrt{\\frac{kT}{2hc\\bar{B}}} - \\frac{1}{2}$", type: "subtopic", details: "Peak spectral line intensity governed by competition between Boltzmann decay $e^{-E_J/kT}$ and rotational degeneracy $2J+1$." }
+              ]
+            },
+            {
+              id: "u3_vibrational_spec",
+              label: "3. Vibrational (Infrared) & Vibration-Rotation Spectra",
+              type: "topic",
+              details: "Harmonic/anharmonic bond oscillations and rovibrational P, Q, R branches.",
+              children: [
+                { id: "u3_vs1", label: "Harmonic Oscillator Selection Rule: $\\Delta v = \\pm 1$ & Fundamental Frequency $\\bar{\\nu}_0 = \\frac{1}{2\\pi c}\\sqrt{\\frac{k}{\\mu}}$", type: "subtopic", details: "Gross selection rule requires change in dipole moment during vibration ($d\\mu/dq \\ne 0$)." },
+                { id: "u3_vs2", label: "Anharmonicity (Morse Potential): $G(v) = \\bar{\\omega}_e\\left(v+\\frac{1}{2}\\right) - \\bar{\\omega}_e x_e\\left(v+\\frac{1}{2}\\right)^2$", type: "subtopic", details: "Allows overtones ($\\Delta v = \\pm 2, \\pm 3$) and hot bands ($v=1 \\to v=2$) with fundamental $\\bar{\\nu}_1 = \\bar{\\omega}_e(1 - 2x_e)$ and first overtone $\\bar{\\nu}_2 = 2\\bar{\\omega}_e(1 - 3x_e)$." },
+                { id: "u3_vs3", label: "Vibration-Rotation Spectra: P-Branch ($\\Delta J = -1$), Q-Branch ($\\Delta J = 0$), R-Branch ($\\Delta J = +1$)", type: "subtopic", details: "Rovibrational transition wavenumbers: $\\bar{\\nu}_R(J) = \\bar{\\nu}_0 + 2\\bar{B}(J+1)$, $\\bar{\\nu}_P(J) = \\bar{\\nu}_0 - 2\\bar{B}J$; central Q-branch observed only in molecules with unquenched orbital angular momentum (e.g. $NO$)." },
+                { id: "u3_vs4", label: "Normal Modes of Linear ($3N-5$) vs Non-Linear ($3N-6$) Polyatomic Molecules ($AB_2$)", type: "subtopic", details: "Linear $CO_2$ ($3N-5 = 4$): symmetric stretch $\\nu_1$ ($1388\\,\\text{cm}^{-1}$, IR inactive/Raman active), bend $\\nu_2$ ($667\\,\\text{cm}^{-1}$, degenerate, IR active), asymmetric stretch $\\nu_3$ ($2349\\,\\text{cm}^{-1}$, IR active); Bent $H_2O$ ($3N-6 = 3$): all 3 modes IR and Raman active." }
+              ]
+            },
+            {
+              id: "u3_electronic_spec",
+              label: "4. Electronic Spectra of Diatomic Molecules",
+              type: "topic",
+              details: "Franck-Condon principle, vibronic band progressions, and dissociation energies.",
+              children: [
+                { id: "u3_es1", label: "Franck-Condon Principle (Vertical Electronic Transitions)", type: "subtopic", details: "Electronic transitions occur on timescale ($10^{-15}\\,\\text{s}$) far faster than nuclear motion ($10^{-13}\\,\\text{s}$); transition intensity governed by Franck-Condon factor $|\\langle v' | v'' \\rangle|^2$." },
+                { id: "u3_es2", label: "Vibrational Progressions, Fortrat Parabolas & Band Heads", type: "subtopic", details: "Rotational fine structure of electronic bands quadratic in $m$, forming Fortrat parabolas and band heads in P or R branch depending on whether $B' < B''$ or $B' > B''$." },
+                { id: "u3_es3", label: "Dissociation Energy Determination ($D_0 = D_e - \\frac{1}{2}h\\nu$)", type: "subtopic", details: "Extrapolating vibrational spacings $\\Delta G_{v+1/2}$ to zero via Birge-Sponer plot to determine exact spectroscopic dissociation energy." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit4",
+          label: "Unit 4: Nuclear Magnetic Resonance (NMR) Spectroscopy",
+          badge: "Unit 4",
+          type: "unit",
+          color: "#D97706",
+          details: "Nuclear spin states, Zeeman splitting, chemical shifts, shielding/deshielding mechanisms, spin-spin coupling constants (J), Karplus curve, and relaxation times ($T_1, T_2$).",
+          children: [
+            {
+              id: "u4_nmr_principles",
+              label: "1. Principles of NMR & Nuclear Zeeman Effect",
+              type: "topic",
+              details: "Nuclear magnetic dipole interaction with external magnetic fields.",
+              children: [
+                { id: "u4_np1", label: "Nuclear Spin Quantum Number ($I = 1/2$ for $^1\\text{H}, ^{13}\\text{C}, ^{19}\\text{F}, ^{31}\\text{P}$; $I=0$ for $^{12}\\text{C}, ^{16}\\text{O}$)", type: "subtopic", details: "Nuclei with odd mass number or odd atomic number possess non-zero nuclear spin and magnetic dipole moment $\\vec{\\mu} = \\gamma \\hbar \\vec{I}$." },
+                { id: "u4_np2", label: "Nuclear Zeeman Splitting in Magnetic Field $B_0$", type: "subtopic", details: "Degeneracy removed into $2I+1$ energy states: $m_I = +1/2$ (lower $\\alpha$-state, aligned with $B_0$) and $m_I = -1/2$ (upper $\\beta$-state, opposed to $B_0$)." },
+                { id: "u4_np3", label: "Resonance Condition & Larmor Precession Frequency: $\\nu_0 = \\frac{\\gamma B_0}{2\\pi}$", type: "subtopic", details: "Transition excited by radiofrequency (RF) radiation matching $\\Delta E = \\gamma \\hbar B_0 = h\\nu_0$ (e.g. $500\\,\\text{MHz}$ for $^1\\text{H}$ at $11.74\\,\\text{T}$)." }
+              ]
+            },
+            {
+              id: "u4_chemical_shifts",
+              label: "2. Chemical Shifts & Shielding Mechanisms",
+              type: "topic",
+              details: "Electronic shielding and characteristic chemical shift environments.",
+              children: [
+                { id: "u4_cs1", label: "Local Field & Nuclear Shielding: $B_{\\text{eff}} = B_0(1 - \\sigma)$", type: "subtopic", details: "Diamagnetic electron circulation opposes applied field ($\"\\sigma_d\"$), whereas paramagnetic term ($\"\\sigma_p\"$) enhances deshielding." },
+                { id: "u4_cs2", label: "Chemical Shift Scale ($\\delta$ ppm) & Reference Standard (TMS $= 0.00\\,\\text{ppm}$)", type: "subtopic", details: "$\\delta = \\frac{\\nu_{\\text{sample}} - \\nu_{\\text{TMS}}}{\\nu_{\\text{spectrometer}}} \\times 10^6\\,\\text{ppm}$; field-independent dimensionless parameter." },
+                { id: "u4_cs3", label: "Magnetic Anisotropy Deshielding (Aromatics $\\delta 7-8$, Alkenes $\\delta 5-6$, Alkynes $\\delta 2-3$)", type: "subtopic", details: "Induced $\\pi$-electron ring currents generate secondary localized magnetic fields: deshielding in benzene ring plane and shielding above alkyne cylinder." },
+                { id: "u4_cs4", label: "Electronegativity, Inductive Effects & Hydrogen Bonding Shifts", type: "subtopic", details: "Electron withdrawing groups ($-\\text{NO}_2, -\\text{OH}, -\\text{Cl}$) pull electron density away, deshielding protons and shifting $\\delta$ downfield." }
+              ]
+            },
+            {
+              id: "u4_spin_spin_coupling",
+              label: "3. Spin-Spin Splitting & Coupling Constants ($J$)",
+              type: "topic",
+              details: "Indirect scalar spin coupling and stereochemical dihedral angles.",
+              children: [
+                { id: "u4_sc1", label: "Multiplicity $N+1$ Rule & Pascal's Triangle Intensities", type: "subtopic", details: "Proton coupled to $N$ equivalent neighboring protons splits into $N+1$ peaks with intensity ratios given by binomial coefficients (1:1, 1:2:1, 1:3:3:1)." },
+                { id: "u4_sc2", label: "Coupling Constant ($J$ in Hz) Field Independence", type: "subtopic", details: "Scalar coupling transmitted through chemical bonds; $J$ remains constant regardless of spectrometer magnetic field strength $B_0$." },
+                { id: "u4_sc3", label: "First-Order ($AX, AMX$) vs Second-Order ($AB, ABC$) Spectra", type: "subtopic", details: "First-order observed when chemical shift difference $\\Delta\\nu \\gg J$ ($\\Delta\\nu/J > 10$); second-order observed when $\\Delta\\nu \\approx J$, producing distorted peak heights (roof effect)." },
+                { id: "u4_sc4", label: "Karplus Equation for Vicinal $^3J_{HH}$ Coupling & Dihedral Angle ($\\phi$)", type: "subtopic", details: "$^3J(\\phi) = A \\cos^2\\phi + B \\cos\\phi + C$; yields maximum coupling at $\\phi = 180^\\circ$ ($J \\approx 10-14\\,\\text{Hz}$) and $\\phi = 0^\\circ$ ($J \\approx 8-10\\,\\text{Hz}$), and minimum at $\\phi = 90^\\circ$ ($J \\approx 0-2\\,\\text{Hz}$)." }
+              ]
+            },
+            {
+              id: "u4_relaxation_books",
+              label: "4. Nuclear Relaxation Times ($T_1, T_2$) & Suggested Books",
+              type: "topic",
+              details: "Longitudinal and transverse relaxation processes and standard textbooks.",
+              children: [
+                { id: "u4_rx1_phys", label: "Spin-Lattice Relaxation Time ($T_1$, Longitudinal Relaxation)", type: "subtopic", details: "Thermal energy transfer from nuclear spin system to lattice degrees of freedom, restoring equilibrium magnetization $M_z \\to M_0$." },
+                { id: "u4_rx2_phys", label: "Spin-Spin Relaxation Time ($T_2$, Transverse Relaxation)", type: "subtopic", details: "Phase decoherence of transverse magnetization in $xy$-plane ($M_{xy} \\to 0$) without energy loss; determines NMR resonance linewidth $\\Delta\\nu_{1/2} = \\frac{1}{\\pi T_2^*}$." },
+                { id: "u4_bk1_phys", label: "Physical Chemistry: A Molecular Approach (D.A. McQuarrie & J.D. Simon, Viva Books)", type: "subtopic", details: "Authoritative graduate-level text on quantum mechanics, operator algebra, harmonic oscillator, and molecular spectroscopy." },
+                { id: "u4_bk2_phys", label: "Atkins' Physical Chemistry (P.W. Atkins & J. de Paula, Oxford University Press)", type: "subtopic", details: "Comprehensive textbook on group theory character tables, rotational-vibrational spectra, and magnetic resonance." },
+                { id: "u4_bk3_phys", label: "Fundamentals of Molecular Spectroscopy (C.N. Banwell & E.M. McCash, McGraw-Hill)", type: "subtopic", details: "Classic student guide dedicated to microwave, infrared, Raman, electronic, and NMR spectroscopy." },
+                { id: "u4_bk4_phys", label: "Quantum Chemistry (I.N. Levine, Pearson Education)", type: "subtopic", details: "Rigorous mathematical treatment of Schrödinger equations, 1D/3D boxes, angular momentum, and molecular symmetry." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 };
 

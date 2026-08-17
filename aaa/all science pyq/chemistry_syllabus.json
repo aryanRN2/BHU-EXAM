@@ -771,90 +771,135 @@
         },
         {
           "code": "CHEMJ51",
-          "name": "Analytical Chemistry - |",
-          "credits": 2,
+          "name": "Analytical Chemistry-I",
+          "credits": 3,
           "course_type": "Major",
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Statistical Evaluation: Chemical analysis, Classification of analytical methods, Steps in a quantitative analysis, Quantitative range, Determinate and indeterminate errors, Normal error curve, Accuracy and Precision, Relative error, Relative standard deviation, Methods for minimizing errors, Criteria for rejection of observation, Significant figures and computation rules, Error propagation."
+              "title": "Statistical Evaluation & Error Analysis",
+              "topics": "Chemical analysis, Classification of analytical methods, Steps in a quantitative analysis, Quantitative range, Determinate and indeterminate errors, Normal error curve, Accuracy and Precision, Relative error, Relative standard deviation, Methods for minimizing errors, Criteria for rejection of observation, Significant figures and computation rules, Error propagation."
             },
             {
               "unit": 2,
-              "topics": "Recent trends for chemical analysis: Method selection, method validation, sample preparation, Analytical validation of results, LOD and LOQ, Good lab practice, Good manufacturing practice."
+              "title": "Recent Trends for Chemical Analysis",
+              "topics": "Method selection, method validation, sample preparation, Analytical validation of results, LOD and LOQ, Good lab practice, Good manufacturing practice."
             },
             {
               "unit": 3,
-              "topics": "Precipitation: Desirable properties of gravimetric precipitates, Formation of gravimetric precipitates, Conditions for quantitative precipitations, Contamination in precipitates, Method for removal of impurities in precipitates, Steps involved in quantitative precipitation, Organic precipitants (oxine, dithizone, a-nitroso- (naphthol, cupferon, dimethyl glyoxime) in chemical analysis."
+              "title": "Precipitation & Gravimetric Analysis",
+              "topics": "Desirable properties of gravimetric precipitates, Formation of gravimetric precipitates, Conditions for quantitative precipitations, Contamination in precipitates, Method for removal of impurities in precipitates, Steps involved in quantitative precipitation, Organic precipitants (oxine, dithizone, α-nitroso-β-naphthol, cupferron, dimethyl glyoxime) in chemical analysis."
             }
+          ],
+          "suggested_books": [
+            "Modern Methods of Chemical Analysis, R.L. Pecsok, L.D. Shields, T. Cairns, and I.C. McWilliam, 2nd Edition (1976), John Wiley, New York.",
+            "Basic Concepts of Analytical Chemistry, S.M. Khopkar, 2nd Edition (1998), New Age International Publications, New Delhi.",
+            "Analytical Chemistry, G.D. Christian, (2001) John Wiley & Sons, New York.",
+            "Environmental Chemistry, A.K. De, 3rd Edition (1994), Wiley Eastern, New Delhi."
           ]
         },
         {
           "code": "CHEMJ52",
-          "name": "Inorganic Chemistry - III",
-          "credits": 2,
+          "name": "Inorganic Chemistry-III",
+          "credits": 3,
           "course_type": "Major",
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Theories of Metal-Ligand bonding: Crystal- field theory and crystal-field splitting in octahedral, tetrahedral, and square planar complexes. Jahn-Teller distortion. Factors affecting the crystal-field splitting, Spinel, Inverse spinel, OSSE, Spectrochemical and Nephelauxetic series. Concept of Metal-ligand orbital overlap: ligand field theory, molecular orbital theory with referenceto octahedral 3d transition metal complexes (without -bonding, and with - bonding)."
+              "title": "Theories of Metal-Ligand Bonding",
+              "topics": "Crystal-field theory and crystal-field splitting in octahedral, tetrahedral, and square planar complexes. Jahn-Teller distortion. Factors affecting the crystal-field splitting, Spinel, Inverse spinel, OSSE, Spectrochemical and Nephelauxetic series. Concept of Metal-ligand orbital overlap: ligand field theory, molecular orbital theory with reference to octahedral 3d transition metal complexes (without π-bonding, and with π-bonding)."
             },
             {
               "unit": 2,
-              "topics": "Electronic Spectra of Transition Metal Complexes: Types of electronic transitions; static and dynamic electronic transitions, selection rules for d-d transitions, spectroscopic ground states. Explanation of electronic spectra on the basis of Orgel energy level diagrams for d1-d10 ) states. Charge transfer spectra; electronic spectra of octahedral and tetrahedral Co(II) and Ni(II) complexes and calculation of ligand-field parameters."
+              "title": "Electronic Spectra of Transition Metal Complexes",
+              "topics": "Types of electronic transitions; static and dynamic electronic transitions, selection rules for d-d transitions, spectroscopic ground states. Explanation of electronic spectra on the basis of Orgel energy level diagrams for d1-d10 states. Charge transfer spectra; electronic spectra of octahedral and tetrahedral Co(II) and Ni(II) complexes and calculation of ligand-field parameters."
             },
             {
               "unit": 3,
-              "topics": "Thermodynamic and Kinetic aspects of Metal Complexes: A brief outline of thermodynamic and kinetic stabilities of metal complexes and factors affecting their stability. Substitution reactions of square-planar complexes, Trans effect."
+              "title": "Thermodynamic and Kinetic Aspects of Metal Complexes",
+              "topics": "A brief outline of thermodynamic and kinetic stabilities of metal complexes and factors affecting their stability. Substitution reactions of square-planar complexes, Trans effect."
             }
+          ],
+          "suggested_books": [
+            "\"Concise Inorganic Chemistry\", J. D. Lee, 5th Edition (1996), Chapman & Hall, London.",
+            "\"Inorganic Chemistry\", J.E. Huheey, E.A. Keiter and R.L. Keiter, 4th Edition (2006), Addison Wesley Publishing Co, NY.",
+            "\"Basic Inorganic Chemistry\", F. A Cotton, G. Wilkinson, and Paul L. Gaus, 3rd Edition (1995), John Wiley & Sons, New York.",
+            "\"Inorganic Chemistry\", A. G. Sharpe, 3rd International Student Edition (1999), ELBS / Longman, U.K.",
+            "\"Inorganic Chemistry\", D. F. Shriver and P. W. Atkins, 3rd Edition (1999), ELBS, London."
           ]
         },
         {
           "code": "CHEMJ53",
-          "name": "Organic Chemistry - III",
+          "name": "Organic Chemistry-III",
           "credits": 3,
           "course_type": "Major",
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Stereochemistry: Symmetry elements, symmetry operations, racemates, racemization, resolution (chemical and enzymatic), pro-chirality, concept of homotopic and heterotopic, pro-stereoisomerism with suitable examples of one and two chiral centers. Asymmetric induction, Cram's rule: Addition of nucleophile to carbonyl function. Aldol reaction (achiral-achiral). Regioselective, chemoselective, stereospecific and stereoselective reactions. Estimation of optical purity (ee and de). Axial chirality (e. g., allenes, biphenyls and spiranes)."
+              "title": "Stereochemistry",
+              "topics": "Symmetry elements, symmetry operations, racemates, racemization, resolution (chemical and enzymatic), pro-chirality, concept of homotopic and heterotopic, pro-stereoisomerism with suitable examples of one and two chiral centers. Asymmetric induction, Cram’s rule: Addition of nucleophile to carbonyl function. Aldol reaction (achiral-achiral). Regioselective, chemoselective, stereospecific and stereoselective reactions. Estimation of optical purity (ee and de). Axial chirality (e.g., allenes, biphenyls and spiranes)."
             },
             {
               "unit": 2,
-              "topics": "Reactive intermediates: Generation, stability and reactivity of carbocations, carbanions, free-radicals, carbenes, and nitrenes."
+              "title": "Reactive Intermediates",
+              "topics": "Generation, stability and reactivity of carbocations, carbanions, free-radicals, carbenes, and nitrenes."
             },
             {
               "unit": 3,
-              "topics": "Isotope effect: Isotopic substitution in a molecule, primary and secondary kinetic isotope effects, solvent isotopic effect and their importance in mechanistic studies."
+              "title": "Isotope Effect",
+              "topics": "Isotopic substitution in a molecule, primary and secondary kinetic isotope effects, solvent isotopic effect and their importance in mechanistic studies."
             },
             {
               "unit": 4,
-              "topics": "Name reactions: Michael addition, Mitsunobu reaction, Birch reduction, Wagner- Meerwein, Baeyer-Villiger oxidation, Robinson annulation, Pinacol-pinacolone rearrangement, Wolff rearrangement, dienone-phenol rearrangement, benzidine rearrangement, Favorskii rearrangement. Hofmann, Curtius, & Schmidt rearrangements, Click chemistry."
+              "title": "Name Reactions & Rearrangements",
+              "topics": "Michael addition, Mitsunobu reaction, Birch reduction, Wagner-Meerwein, Baeyer-Villiger oxidation, Robinson annulation, Pinacol-pinacolone rearrangement, Wolff rearrangement, dienone-phenol rearrangement, benzidine rearrangement, Favorskii rearrangement. Hofmann, Curtius, & Schmidt rearrangements, Click chemistry."
             },
             {
               "unit": 5,
-              "topics": "Photochemistry: Principles of photochemistry, Energy (inter and intramolecular) transfer, Photosensitisation, Singlet and Triplet state photochemical reactions of 1,3- butadiene, cis-trans isomerism, Inter and intramolecular cycloaddition reactions, Di- mmethane rearrangement. Photochemical reaction of carbonyl compounds: Photo reduction, Norrish type-I cleavage of acyclic and cyclic compounds, Norrish type-ll cleavage. Photocyclo-addition reaction: Paterno-Buchi reaction. Photo-Fries rearrangement"
+              "title": "Photochemistry",
+              "topics": "Principles of photochemistry, Energy (inter and intramolecular) transfer, Photosensitisation, Singlet and Triplet state photochemical reactions of 1,3-butadiene, cis-trans isomerism, Inter and intramolecular cycloaddition reactions, Di-π-methane rearrangement. Photochemical reaction of carbonyl compounds: Photo reduction, Norrish type-I cleavage of acyclic and cyclic compounds, Norrish type-II cleavage. Photocyclo-addition reaction: Paterno-Büchi reaction. Photo-Fries rearrangement."
             }
+          ],
+          "suggested_books": [
+            "Stereochemistry of Organic Compounds, E.L. Eliel, S.H. Wilen, and L.N. Mander, John Wiley & Sons, New York.",
+            "Advanced Organic Chemistry: Reactions, Mechanisms, and Structure (Part A & B), F.A. Carey and R.J. Sundberg, Springer.",
+            "March's Advanced Organic Chemistry: Reactions, Mechanisms, and Structure, M.B. Smith, John Wiley & Sons.",
+            "Organic Photochemistry and Pericyclic Reactions, M. Harmata, P.S. Kalsi, New Age International."
           ]
         },
         {
           "code": "CHEMJ54",
-          "name": "Physical Chemistry - III",
+          "name": "Physical Chemistry-III",
           "credits": 3,
           "course_type": "Major",
+          "objectives": "To understand the limitations of classical mechanics and the necessity of quantum chemistry, introduce postulates of quantum chemistry, and understand the basis of molecular spectroscopy and NMR applications.",
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Elementary Quantum Mechanics: quantum mechanical operators, Hamiltonian operator, Schrédinger wave equation and its importance, Eigen functions, Eigen values, physical interpretation of the wave function, orthogonality of wave functions, Heisenberg's uncertainty principle, the particle in a one-dimensional box problem and its solutions, particle in a three dimensional box, degeneracy, rigid rotor and harmonic oscillator."
+              "title": "Elementary Quantum Mechanics",
+              "topics": "Quantum mechanical operators, Hamiltonian operator, Schrödinger wave equation and its importance, Eigen functions, Eigen values, physical interpretation of the wave function, orthogonality of wave functions, Heisenberg’s uncertainty principle, particle in a one-dimensional box problem and its solutions, particle in a three-dimensional box, degeneracy, rigid rotor and harmonic oscillator."
             },
             {
               "unit": 2,
-              "topics": "Molecular Symmetry: Symmetry elements and operations. Point groups. Matrix representation of symmetry elements and point groups, matrices of C3v and C4v point groups, Structure of character tables, determination of symmetry species for translations and rotations."
+              "title": "Molecular Symmetry",
+              "topics": "Symmetry elements and operations. Point groups. Matrix representation of symmetry elements and point groups, matrices of C3v and C4v point groups, Structure of character tables, determination of symmetry species for translations and rotations."
             },
             {
               "unit": 3,
-              "topics": "Molecular Spectroscopy: Region of electromagnetic spectrum, Interaction of electromagnetic radiation with molecules and various types of spectra, signal to noise ratio and resolving power, width and intensity of spectral transitions, Born Oppenheimer approximation, pure rotational spectra, diatomic rigid rotor molecules, effect of isotope substitution, vibrational and vibration- rotational spectra of diatomic molecules, harmonic oscillator-rigid rotor approximation, anharmonicity effect, normal modes of vibration, infrared spectra of linear and bent AB2 molecules, Franck-Condon principle, electronic spectra of diatomic molecules, vibrational structure. Nuclear Magnetic Resonance Spectroscopy: Introduction, chemical shifts, spin-spin splitting, relaxation times."
+              "title": "Molecular Spectroscopy",
+              "topics": "Region of electromagnetic spectrum, Interaction of electromagnetic radiation with molecules and various types of spectra, signal to noise ratio and resolving power, width and intensity of spectral transitions, Born-Oppenheimer approximation, pure rotational spectra, diatomic rigid rotor molecules, effect of isotope substitution, vibrational and vibration-rotational spectra of diatomic molecules, harmonic oscillator-rigid rotor approximation, anharmonicity effect, normal modes of vibration, infrared spectra of linear and bent AB2 molecules, Franck-Condon principle, electronic spectra of diatomic molecules, vibrational structure."
+            },
+            {
+              "unit": 4,
+              "title": "Nuclear Magnetic Resonance (NMR) Spectroscopy",
+              "topics": "Introduction, principle of NMR, nuclear spin states in magnetic field, chemical shifts, shielding and deshielding mechanisms, spin-spin splitting, coupling constant (J), relaxation times (T1 and T2)."
             }
+          ],
+          "suggested_books": [
+            "Physical Chemistry: A Molecular Approach, D.A. McQuarrie and J.D. Simon, Viva Books, New Delhi.",
+            "Atkins' Physical Chemistry, P.W. Atkins and J. de Paula, Oxford University Press.",
+            "Fundamentals of Molecular Spectroscopy, C.N. Banwell and E.M. McCash, Tata McGraw-Hill.",
+            "Quantum Chemistry, I.N. Levine, Pearson Education."
           ]
         },
         {
