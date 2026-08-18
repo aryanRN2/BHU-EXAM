@@ -1148,6 +1148,1539 @@ const PREDEFINED_MINDMAPS = {
       ]
     }
   },
+  "MATMD11": {
+    id: "MATMD11",
+    code: "MATMD11",
+    title: "Basic Mathematics-I",
+    department: "Department of Mathematics",
+    semester: 1,
+    credits: 3,
+    course_type: "Multidisciplinary",
+    summary: "Foundations of matrix algebra, determinants, echelon forms, rank, systems of linear equations, arithmetic and geometric sequences, difference equations, pharmacokinetics modeling, function limits, continuity, intermediate value theorem, and rates of change.",
+    root: {
+      id: "root",
+      label: "Basic Mathematics-I",
+      badge: "MATMD11 • Sem 1",
+      type: "root",
+      details: "3 Credits Multidisciplinary Course. Grounded in BHU UG NEP Syllabus covering Matrix Algebra, Linear Systems, Discrete Difference Equations, and Functions & Limits.",
+      children: [
+        {
+          id: "unit1",
+          label: "Unit 1: Matrices, Determinants & Linear Systems",
+          badge: "Unit 1",
+          type: "unit",
+          color: "#4F46E5",
+          details: "Matrix algebra, determinants, elementary row/column operations, echelon forms, matrix rank, matrix inverses, and solutions to systems of linear equations.",
+          children: [
+            {
+              id: "u1_matrix_alg",
+              label: "Matrix Algebra & Determinants",
+              type: "topic",
+              details: "Operations, transpose, and determinant computation.",
+              children: [
+                { id: "u1_ma1", label: "Matrix Operations: Addition, Scalar & Matrix Multiplication ($AB \\ne BA$)", type: "subtopic", details: "Non-commutative ring of square matrices $M_n(\\mathbb{R})$, transpose identities $(AB)^T = B^T A^T$." },
+                { id: "u1_ma2", label: "Determinants & Properties: $|AB| = |A||B|$ & Expansion by Cofactors", type: "subtopic", details: "Laplace cofactor expansion along any row or column, singular ($|A|=0$) vs non-singular ($|A| \\ne 0$) matrices." },
+                { id: "u1_ma3", label: "Matrix Inverse: $A^{-1} = \\frac{1}{|A|}\\operatorname{adj}(A)$ ($AA^{-1} = I$)", type: "subtopic", details: "Classical adjoint method and inverse properties $(AB)^{-1} = B^{-1}A^{-1}$." }
+              ]
+            },
+            {
+              id: "u1_echelon_rank",
+              label: "Elementary Operations, Echelon Form & Rank",
+              type: "topic",
+              details: "Row reductions, Gaussian elimination, and rank invariance.",
+              children: [
+                { id: "u1_er1", label: "Elementary Row & Column Operations ($R_i \\leftrightarrow R_j$, $R_i \\to kR_i$, $R_i \\to R_i + kR_j$)", type: "subtopic", details: "Equivalence transformations preserving the solution space of linear systems." },
+                { id: "u1_er2", label: "Row Echelon Form (REF) & Reduced Row Echelon Form (RREF)", type: "subtopic", details: "Staircase leading entries (pivots) with zeros below pivots via Gaussian elimination." },
+                { id: "u1_er3", label: "Rank of a Matrix $\\operatorname{rank}(A)$: Number of Non-Zero Rows in REF", type: "subtopic", details: "Dimension of row space/column space; invariant under elementary row operations." }
+              ]
+            },
+            {
+              id: "u1_linear_systems",
+              label: "Systems of Linear Equations",
+              type: "topic",
+              details: "Consistency criteria and solution methodologies.",
+              children: [
+                { id: "u1_ls1", label: "Matrix Formulation: $A\\mathbf{x} = \\mathbf{b}$ & Augmented Matrix $[A|\\mathbf{b}]$", type: "subtopic", details: "Expressing linear systems compactly in matrix-vector form." },
+                { id: "u1_ls2", label: "Rouché-Capelli Consistency Theorem: $\\operatorname{rank}(A) = \\operatorname{rank}[A|\\mathbf{b}]$", type: "subtopic", details: "System is consistent iff ranks match; unique solution if $\\operatorname{rank}=n$, infinite solutions if $\\operatorname{rank} < n$." },
+                { id: "u1_ls3", label: "Cramer's Rule: $x_i = \\frac{|A_i|}{|A|}$ & Matrix Inversion Method $\\mathbf{x} = A^{-1}\\mathbf{b}$", type: "subtopic", details: "Explicit closed-form solutions for square non-singular coefficient matrices." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit2",
+          label: "Unit 2: Sequences, Difference Equations & Pharmacokinetics",
+          badge: "Unit 2",
+          type: "unit",
+          color: "#0891B2",
+          details: "Arithmetic and geometric sequences, monotone convergence, first-order linear difference equations with constant coefficients, stability, and one-compartment pharmacokinetic models.",
+          children: [
+            {
+              id: "u2_seq_limits",
+              label: "Arithmetic, Geometric & Monotone Sequences",
+              type: "topic",
+              details: "Sequences, progression formulas, and convergence criteria.",
+              children: [
+                { id: "u2_sl1", label: "Arithmetic & Geometric Sequences ($a_n = a + (n-1)d$, $a_n = a r^{n-1}$)", type: "subtopic", details: "General term derivations and finite/infinite series summation formulas ($S_\\infty = \\frac{a}{1-r}$ for $|r|<1$)." },
+                { id: "u2_sl2", label: "Monotone Sequences: Increasing ($a_{n+1} \\ge a_n$) & Decreasing", type: "subtopic", details: "Order properties and bounded real sequences." },
+                { id: "u2_sl3", label: "Limit of a Sequence & Monotone Convergence Theorem", type: "subtopic", details: "Every bounded monotone sequence of real numbers is convergent." }
+              ]
+            },
+            {
+              id: "u2_diff_eqs",
+              label: "Discrete Difference Equations",
+              type: "topic",
+              details: "First-order recurrence relations with constant coefficients.",
+              children: [
+                { id: "u2_de1", label: "First-Order Linear Difference Equation: $y_{n+1} = a y_n + b$", type: "subtopic", details: "Discrete dynamical equation relating successive states with step constant $b$." },
+                { id: "u2_de2", label: "Analytical General Solution: $y_n = a^n y_0 + b\\frac{1-a^n}{1-a}$ ($a \\ne 1$)", type: "subtopic", details: "Closed-form formula with steady-state equilibrium $y^* = \\frac{b}{1-a}$." },
+                { id: "u2_de3", label: "Equilibrium Stability: Asymptotic Stability for $|a| < 1$", type: "subtopic", details: "Convergence toward steady state if $|a|<1$; divergence or oscillation if $|a| \\ge 1$." }
+              ]
+            },
+            {
+              id: "u2_pharmaco",
+              label: "Pharmacokinetics & Drug Elimination",
+              type: "topic",
+              details: "Mathematical modeling of drug absorption, accumulation, and clearance.",
+              children: [
+                { id: "u2_pk1", label: "One-Compartment Model with Periodic Dosing: $c_{n+1} = c_n e^{-kt} + D_0$", type: "subtopic", details: "Recurrence modeling residual drug concentration following elimination and dose ingestion." },
+                { id: "u2_pk2", label: "Steady-State Plateau Level: $c_\\infty = \\frac{D_0}{1 - e^{-kt}}$", type: "subtopic", details: "Therapeutic equilibrium drug concentration reached after multi-dose administration." },
+                { id: "u2_pk3", label: "Elimination Constant & Half-Life $t_{1/2} = \\frac{\\ln 2}{k}$", type: "subtopic", details: "Exponential clearance kinetics governing dosage interval timing." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit3",
+          label: "Unit 3: Function Limits, Continuity & Rates of Change",
+          badge: "Unit 3",
+          type: "unit",
+          color: "#D97706",
+          details: "Limit laws, one-sided limits, continuity, Intermediate Value Theorem, average vs instantaneous rates of change, numerical difference approximations, and velocity kinematics.",
+          children: [
+            {
+              id: "u3_limits_cont",
+              label: "Limits of Functions & Continuity",
+              type: "topic",
+              details: "Limit existence, algebraic properties, and point-wise continuity.",
+              children: [
+                { id: "u3_lc1", label: "Function Limit $\\lim_{x \\to c} f(x) = L$ & Limit Laws", type: "subtopic", details: "Sum, difference, product, and quotient limit properties for continuous mappings." },
+                { id: "u3_lc2", label: "One-Sided Limits: $\\lim_{x \\to c^-} f(x)$ and $\\lim_{x \\to c^+} f(x)$", type: "subtopic", details: "Two-sided limit exists if and only if left and right limits are finite and equal." },
+                { id: "u3_lc3", label: "Continuity Criteria & Discontinuity Classifications", type: "subtopic", details: "Condition $\\lim_{x \\to c} f(x) = f(c)$; removable, jump, and essential discontinuities." }
+              ]
+            },
+            {
+              id: "u3_ivt",
+              label: "Intermediate Value Theorem (IVT)",
+              type: "topic",
+              details: "Connectedness properties and root location theorems.",
+              children: [
+                { id: "u3_iv1", label: "Intermediate Value Theorem: Attainment of Intermediate Values", type: "subtopic", details: "If $f$ is continuous on $[a, b]$, it attains every value between $f(a)$ and $f(b)$." },
+                { id: "u3_iv2", label: "Bolzano's Root Theorem: $f(a)f(b) < 0 \\implies \\exists c \\in (a, b): f(c) = 0$", type: "subtopic", details: "Guaranteeing root existence for sign-changing continuous functions; bisection algorithm foundation." }
+              ]
+            },
+            {
+              id: "u3_rates_vel",
+              label: "Rates of Change & Velocity",
+              type: "topic",
+              details: "Average rate of change, data estimation, and instantaneous velocity.",
+              children: [
+                { id: "u3_rv1", label: "Average Rate of Change: $\\frac{\\Delta y}{\\Delta x} = \\frac{f(b)-f(a)}{b-a}$", type: "subtopic", details: "Slope of the secant line across an interval $[a, b]$." },
+                { id: "u3_rv2", label: "Estimating Rates of Change from Discrete Data (Difference Quotients)", type: "subtopic", details: "Forward difference $\\frac{f(x+h)-f(x)}{h}$ and central difference $\\frac{f(x+h)-f(x-h)}{2h}$." },
+                { id: "u3_rv3", label: "Instantaneous Velocity: $v(t) = \\lim_{\\Delta t \\to 0} \\frac{s(t+\\Delta t)-s(t)}{\\Delta t} = s'(t)$", type: "subtopic", details: "Limiting value of average velocity giving instantaneous kinematic motion rate." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "MATMJ11": {
+    id: "MATMJ11",
+    code: "MATMJ11",
+    title: "Calculus",
+    department: "Department of Mathematics",
+    semester: 1,
+    credits: 4,
+    course_type: "Major",
+    summary: "Comprehensive structure covering Sequences and Bolzano-Weierstrass Theorem, Infinite Series Convergence Tests, Limits, Uniform Continuity, Differentiability, Mean Value Theorems, Successive Differentiation, Taylor Series, Curvature, Asymptotes, Singular Points, Curve Tracing, and Definite Integrals as Riemann Sums.",
+    root: {
+      id: "root",
+      label: "Calculus",
+      badge: "MATMJ11 • Sem 1",
+      type: "root",
+      details: "4 Credits Major Course. Grounded in BHU UG NEP Syllabus covering Real Sequences, Infinite Series, Differential Calculus, Curve Tracing, and Riemann Sums.",
+      children: [
+        {
+          id: "unit1",
+          label: "Unit 1: Real Sequences & Bolzano-Weierstrass",
+          badge: "Unit 1",
+          type: "unit",
+          color: "#4F46E5",
+          details: "Sequences and limits, epsilon-N definition, limit theorems, convergent and divergent sequences, monotone sequences, subsequences, and the Bolzano-Weierstrass Theorem.",
+          children: [
+            {
+              id: "u1_seq_limits",
+              label: "Sequences & Limit Theorems",
+              type: "topic",
+              details: "Analytical foundations of sequence limits in $\\mathbb{R}$.",
+              children: [
+                { id: "u1_sq1", label: "$\\epsilon-N$ Definition of Sequence Limit: $|a_n - L| < \\epsilon$ for $n > N$", type: "subtopic", details: "Rigorous analytical definition of sequence convergence in the real number system." },
+                { id: "u1_sq2", label: "Uniqueness of Limit & Boundedness of Convergent Sequences", type: "subtopic", details: "Every convergent sequence has a unique limit and is bounded in $\\mathbb{R}$." },
+                { id: "u1_sq3", label: "Algebra of Limits & Squeeze / Sandwich Theorem", type: "subtopic", details: "Compatibility with addition, multiplication, quotients, and the squeeze theorem ($a_n \\le b_n \\le c_n \\implies \\lim b_n = L$)." }
+              ]
+            },
+            {
+              id: "u1_monotone_bw",
+              label: "Monotone Sequences & Bolzano-Weierstrass",
+              type: "topic",
+              details: "Monotone convergence, subsequences, and compactness in $\\mathbb{R}$.",
+              children: [
+                { id: "u1_mb1", label: "Monotone Convergence Theorem: Bounded Monotone Sequences Converge", type: "subtopic", details: "Bounded increasing sequence converges to supremum; bounded decreasing sequence converges to infimum." },
+                { id: "u1_mb2", label: "Subsequences $(a_{n_k})$ & Subsequential Limits", type: "subtopic", details: "Subsequences preserve the limit of convergent parent sequences." },
+                { id: "u1_mb3", label: "Bolzano-Weierstrass Theorem: Bounded Sequences have Convergent Subsequences", type: "subtopic", details: "Fundamental compactness result in real analysis." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit2",
+          label: "Unit 2: Infinite Series & Convergence Tests",
+          badge: "Unit 2",
+          type: "unit",
+          color: "#0891B2",
+          details: "Cauchy criterion for series, convergence/divergence/oscillation, comparison tests, D'Alembert's ratio test, Raabe's test, and Cauchy's nth root test.",
+          children: [
+            {
+              id: "u2_series_cauchy",
+              label: "Series Convergence & Cauchy Criterion",
+              type: "topic",
+              details: "Sequence of partial sums and the fundamental Cauchy criterion.",
+              children: [
+                { id: "u2_sc1", label: "Partial Sums $S_n = \\sum_{k=1}^n a_k$ & Series Classification", type: "subtopic", details: "Convergent, divergent, and oscillatory infinite series based on behavior of $(S_n)$." },
+                { id: "u2_sc2", label: "Cauchy Criterion for Series: $\\left| \\sum_{k=n+1}^m a_k \\right| < \\epsilon$", type: "subtopic", details: "Necessary and sufficient condition for series convergence without prior knowledge of the sum." },
+                { id: "u2_sc3", label: "$n$-th Term Test: $\\sum a_n \\text{ converges} \\implies \\lim a_n = 0$", type: "subtopic", details: "Necessary divergence test; converse failure demonstrated by the Harmonic series $\\sum \\frac{1}{n}$." },
+                { id: "u2_sc4", label: "Geometric Series & $p$-Series Test ($\\sum \\frac{1}{n^p}$ Converges $\\iff p > 1$)", type: "subtopic", details: "Benchmark comparison series for test calibrations." }
+              ]
+            },
+            {
+              id: "u2_convergence_tests",
+              label: "Positive Term Convergence Tests",
+              type: "topic",
+              details: "Comparison, ratio, root, and Raabe convergence tests.",
+              children: [
+                { id: "u2_ct1", label: "Direct & Limit Comparison Tests ($\\lim \\frac{a_n}{b_n} = L \\in (0, \\infty)$)", type: "subtopic", details: "Determining convergence by asymptotic comparison with a known benchmark series $\\sum b_n$." },
+                { id: "u2_ct2", label: "D'Alembert's Ratio Test: $\\lim_{n \\to \\infty} \\frac{a_{n+1}}{a_n} = L$", type: "subtopic", details: "Series converges if $L < 1$, diverges if $L > 1$, test is inconclusive if $L = 1$." },
+                { id: "u2_ct3", label: "Raabe's Test: $\\lim_{n \\to \\infty} n\\left(\\frac{a_n}{a_{n+1}} - 1\\right) = L$", type: "subtopic", details: "Higher-order test resolving the inconclusive case $L=1$ of D'Alembert's ratio test." },
+                { id: "u2_ct4", label: "Cauchy's $n$-th Root Test: $\\lim_{n \\to \\infty} (a_n)^{1/n} = L$", type: "subtopic", details: "Effective test for series involving powers of $n$ ($L < 1$ converges, $L > 1$ diverges)." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit3",
+          label: "Unit 3: Limits, Continuity & Differentiability",
+          badge: "Unit 3",
+          type: "unit",
+          color: "#D97706",
+          details: "Limits of functions, algebra of limits, continuity, uniform continuity, Intermediate Value Theorem, differentiability, and the Chain Rule.",
+          children: [
+            {
+              id: "u3_limits_cont",
+              label: "Function Limits & Continuity",
+              type: "topic",
+              details: "Epsilon-delta definitions and topological properties of continuous functions.",
+              children: [
+                { id: "u3_lc1", label: "$\\epsilon-\\delta$ Definition of Function Limit: $0 < |x - c| < \\delta \\implies |f(x) - L| < \\epsilon$", type: "subtopic", details: "Rigorous limit definition and sequential criterion equivalence." },
+                { id: "u3_lc2", label: "Algebra of Limits & Continuity at a Point", type: "subtopic", details: "Continuity of sum, product, and composition of continuous functions." },
+                { id: "u3_lc3", label: "Intermediate Value Theorem & Extreme Value Theorem on $[a, b]$", type: "subtopic", details: "Attainment of all intermediate values and global extrema on compact intervals." }
+              ]
+            },
+            {
+              id: "u3_uniform_cont",
+              label: "Uniform Continuity",
+              type: "topic",
+              details: "Global continuity on sets and Heine-Cantor theorem.",
+              children: [
+                { id: "u3_uc1", label: "Definition of Uniform Continuity: $\\delta$ Dependent Only on $\\epsilon$", type: "subtopic", details: "Condition $|x - y| < \\delta \\implies |f(x) - f(y)| < \\epsilon$ holding globally across entire domain." },
+                { id: "u3_uc2", label: "Heine-Cantor Theorem: Continuous on Closed $[a, b] \\implies$ Uniformly Continuous", type: "subtopic", details: "Fundamental compact domain uniform continuity theorem." },
+                { id: "u3_uc3", label: "Counterexamples on Non-Compact Sets ($f(x) = 1/x$ on $(0, 1)$)", type: "subtopic", details: "Demonstrating loss of uniform continuity on open or unbounded intervals." }
+              ]
+            },
+            {
+              id: "u3_differentiability",
+              label: "Differentiability & Chain Rule",
+              type: "topic",
+              details: "Carathéodory formulation and composition derivatives.",
+              children: [
+                { id: "u3_df1", label: "Differentiability: $f'(c) = \\lim_{h \\to 0} \\frac{f(c+h)-f(c)}{h}$", type: "subtopic", details: "Existence of linear approximation; differentiability implies continuity." },
+                { id: "u3_df2", label: "Chain Rule of Differentiation: $(g \\circ f)'(c) = g'(f(c)) \\cdot f'(c)$", type: "subtopic", details: "Differentiation of composite functions via Carathéodory's theorem." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit4",
+          label: "Unit 4: Mean Value Theorems, Taylor Series & Extrema",
+          badge: "Unit 4",
+          type: "unit",
+          color: "#059669",
+          details: "Darboux's theorem, Rolle's and Mean Value Theorems, Leibniz theorem for successive differentiation, Taylor's and Maclaurin's theorems with remainders, extrema, and nowhere differentiable functions.",
+          children: [
+            {
+              id: "u4_mvt_darboux",
+              label: "Darboux's Theorem & Mean Value Theorems",
+              type: "topic",
+              details: "Intermediate value property of derivatives and MVT.",
+              children: [
+                { id: "u4_md1", label: "Darboux's Theorem (Intermediate Value Property of Derivatives)", type: "subtopic", details: "A derivative function $f'$ attains all values between $f'(a)$ and $f'(b)$ even if $f'$ is not continuous." },
+                { id: "u4_md2", label: "Rolle's Theorem & Lagrange's Mean Value Theorem", type: "subtopic", details: "Existence of interior point $c \\in (a, b)$ with $f'(c) = \\frac{f(b)-f(a)}{b-a}$." },
+                { id: "u4_md3", label: "Cauchy's Generalized Mean Value Theorem: $\\frac{f'(c)}{g'(c)} = \\frac{f(b)-f(a)}{g(b)-g(a)}$", type: "subtopic", details: "Ratio mean value theorem underpinning L'Hôpital's rule." }
+              ]
+            },
+            {
+              id: "u4_leibniz_successive",
+              label: "Successive Differentiation & Leibniz Theorem",
+              type: "topic",
+              details: "Higher derivatives and product differentiation formula.",
+              children: [
+                { id: "u4_ls1", label: "Standard $n$-th Order Derivatives ($x^m, e^{ax}, \\sin(ax+b), \\ln(ax+b)$)", type: "subtopic", details: "General forms for $n$-th derivatives of standard elementary functions." },
+                { id: "u4_ls2", label: "Leibniz's Theorem: $(uv)^{(n)} = \\sum_{k=0}^n \\binom{n}{k} u^{(n-k)} v^{(k)}$", type: "subtopic", details: "Binomial expansion theorem for the $n$-th derivative of a product of two functions." }
+              ]
+            },
+            {
+              id: "u4_taylor_extrema",
+              label: "Taylor Series, Extrema & Nowhere Differentiable Functions",
+              type: "topic",
+              details: "Power series approximations, remainder forms, extrema, and pathological functions.",
+              children: [
+                { id: "u4_te1", label: "Taylor's & Maclaurin's Theorems with Lagrange & Cauchy Remainders", type: "subtopic", details: "Polynomial expansion $f(x) = \\sum_{k=0}^{n-1} \\frac{f^{(k)}(a)}{k!}(x-a)^k + R_n(x)$." },
+                { id: "u4_te2", label: "Maxima & Minima of Functions (Higher-Derivative Test)", type: "subtopic", details: "Classifying local extrema by the sign of the first non-vanishing higher derivative." },
+                { id: "u4_te3", label: "Nowhere Differentiable Functions (Weierstrass Function)", type: "subtopic", details: "Continuous everywhere but differentiable nowhere: $f(x) = \\sum_{n=0}^\\infty a^n \\cos(b^n \\pi x)$." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit5",
+          label: "Unit 5: Curvature, Curve Tracing & Riemann Sums",
+          badge: "Unit 5",
+          type: "unit",
+          color: "#7C3AED",
+          details: "Curvature and radius of curvature, asymptotes, concavity and convexity, points of inflection, singular points, Cartesian and polar curve tracing, and definite integral as limit of sum.",
+          children: [
+            {
+              id: "u5_curvature_asymp",
+              label: "Curvature & Asymptotes",
+              type: "topic",
+              details: "Radius of curvature, evolutes, and asymptote calculations.",
+              children: [
+                { id: "u5_ca1", label: "Radius of Curvature $\\rho = \\frac{(1+y'^2)^{3/2}}{|y''|}$ (Cartesian) & $\\rho = \\frac{(r^2+r'^2)^{3/2}}{|r^2+2r'^2-rr''|}$ (Polar)", type: "subtopic", details: "Curvature $\\kappa = 1/\\rho$ measuring rate of turning of tangent vector." },
+                { id: "u5_ca2", label: "Rectilinear & Oblique Asymptotes ($y = mx + c$)", type: "subtopic", details: "Determining asymptotes parallel to axes and oblique asymptotes via limit methods." }
+              ]
+            },
+            {
+              id: "u5_curve_tracing",
+              label: "Singular Points, Concavity & Curve Tracing",
+              type: "topic",
+              details: "Double points, cusps, nodes, and systematic curve tracing.",
+              children: [
+                { id: "u5_ct1", label: "Concavity, Convexity & Points of Inflection ($y'' = 0$ with sign change)", type: "subtopic", details: "Determining curvature transition points on planar graphs." },
+                { id: "u5_ct2", label: "Singular Points: Nodes, Cusps (Species I & II), and Conjugate Isolated Points", type: "subtopic", details: "Classification of multiple points via discriminant of tangents." },
+                { id: "u5_ct3", label: "Tracing Plane Curves (Cartesian & Polar Coordinates)", type: "subtopic", details: "Systematic tracing using symmetry, origin tangents, asymptotes, intercepts, and sign regions (Folium, Cardioid, Lemniscate)." }
+              ]
+            },
+            {
+              id: "u5_riemann_sum",
+              label: "Definite Integrals as Limit of Sums",
+              type: "topic",
+              details: "Riemann sum definition of definite integrals and series limits.",
+              children: [
+                { id: "u5_rs1", label: "Riemann Sum Definition: $\\int_a^b f(x)dx = \\lim_{n \\to \\infty} \\frac{b-a}{n} \\sum_{r=1}^n f\\left(a + r\\frac{b-a}{n}\\right)$", type: "subtopic", details: "Area accumulation under continuous curve via mesh partitioning." },
+                { id: "u5_rs2", label: "Evaluating Limits of Infinite Series via Definite Integrals: $\\lim_{n \\to \\infty} \\frac{1}{n}\\sum \\phi(r/n) = \\int_0^1 \\phi(x)dx$", type: "subtopic", details: "Conversion of discrete summation limits into continuous Riemann integrals." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "MATMN11": {
+    id: "MATMN11",
+    code: "MATMN11",
+    title: "Calculus",
+    department: "Department of Mathematics",
+    semester: 1,
+    credits: 4,
+    course_type: "Minor",
+    summary: "Comprehensive structure covering Sequences and Bolzano-Weierstrass Theorem, Infinite Series Convergence Tests, Limits, Uniform Continuity, Differentiability, Mean Value Theorems, Successive Differentiation, Taylor Series, Curvature, Asymptotes, Singular Points, Curve Tracing, and Definite Integrals as Riemann Sums.",
+    root: {
+      id: "root",
+      label: "Calculus",
+      badge: "MATMN11 • Sem 1",
+      type: "root",
+      details: "4 Credits Minor Course. Grounded in BHU UG NEP Syllabus covering Real Sequences, Infinite Series, Differential Calculus, Curve Tracing, and Riemann Sums.",
+      children: [
+        {
+          id: "unit1",
+          label: "Unit 1: Real Sequences & Bolzano-Weierstrass",
+          badge: "Unit 1",
+          type: "unit",
+          color: "#4F46E5",
+          details: "Sequences and limits, epsilon-N definition, limit theorems, convergent and divergent sequences, monotone sequences, subsequences, and the Bolzano-Weierstrass Theorem.",
+          children: [
+            {
+              id: "u1_seq_limits",
+              label: "Sequences & Limit Theorems",
+              type: "topic",
+              details: "Analytical foundations of sequence limits in $\\mathbb{R}$.",
+              children: [
+                { id: "u1_sq1", label: "$\\epsilon-N$ Definition of Sequence Limit: $|a_n - L| < \\epsilon$ for $n > N$", type: "subtopic", details: "Rigorous analytical definition of sequence convergence in the real number system." },
+                { id: "u1_sq2", label: "Uniqueness of Limit & Boundedness of Convergent Sequences", type: "subtopic", details: "Every convergent sequence has a unique limit and is bounded in $\\mathbb{R}$." },
+                { id: "u1_sq3", label: "Algebra of Limits & Squeeze / Sandwich Theorem", type: "subtopic", details: "Compatibility with addition, multiplication, quotients, and the squeeze theorem ($a_n \\le b_n \\le c_n \\implies \\lim b_n = L$)." }
+              ]
+            },
+            {
+              id: "u1_monotone_bw",
+              label: "Monotone Sequences & Bolzano-Weierstrass",
+              type: "topic",
+              details: "Monotone convergence, subsequences, and compactness in $\\mathbb{R}$.",
+              children: [
+                { id: "u1_mb1", label: "Monotone Convergence Theorem: Bounded Monotone Sequences Converge", type: "subtopic", details: "Bounded increasing sequence converges to supremum; bounded decreasing sequence converges to infimum." },
+                { id: "u1_mb2", label: "Subsequences $(a_{n_k})$ & Subsequential Limits", type: "subtopic", details: "Subsequences preserve the limit of convergent parent sequences." },
+                { id: "u1_mb3", label: "Bolzano-Weierstrass Theorem: Bounded Sequences have Convergent Subsequences", type: "subtopic", details: "Fundamental compactness result in real analysis." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit2",
+          label: "Unit 2: Infinite Series & Convergence Tests",
+          badge: "Unit 2",
+          type: "unit",
+          color: "#0891B2",
+          details: "Cauchy criterion for series, convergence/divergence/oscillation, comparison tests, D'Alembert's ratio test, Raabe's test, and Cauchy's nth root test.",
+          children: [
+            {
+              id: "u2_series_cauchy",
+              label: "Series Convergence & Cauchy Criterion",
+              type: "topic",
+              details: "Sequence of partial sums and the fundamental Cauchy criterion.",
+              children: [
+                { id: "u2_sc1", label: "Partial Sums $S_n = \\sum_{k=1}^n a_k$ & Series Classification", type: "subtopic", details: "Convergent, divergent, and oscillatory infinite series based on behavior of $(S_n)$." },
+                { id: "u2_sc2", label: "Cauchy Criterion for Series: $\\left| \\sum_{k=n+1}^m a_k \\right| < \\epsilon$", type: "subtopic", details: "Necessary and sufficient condition for series convergence without prior knowledge of the sum." },
+                { id: "u2_sc3", label: "$n$-th Term Test: $\\sum a_n \\text{ converges} \\implies \\lim a_n = 0$", type: "subtopic", details: "Necessary divergence test; converse failure demonstrated by the Harmonic series $\\sum \\frac{1}{n}$." },
+                { id: "u2_sc4", label: "Geometric Series & $p$-Series Test ($\\sum \\frac{1}{n^p}$ Converges $\\iff p > 1$)", type: "subtopic", details: "Benchmark comparison series for test calibrations." }
+              ]
+            },
+            {
+              id: "u2_convergence_tests",
+              label: "Positive Term Convergence Tests",
+              type: "topic",
+              details: "Comparison, ratio, root, and Raabe convergence tests.",
+              children: [
+                { id: "u2_ct1", label: "Direct & Limit Comparison Tests ($\\lim \\frac{a_n}{b_n} = L \\in (0, \\infty)$)", type: "subtopic", details: "Determining convergence by asymptotic comparison with a known benchmark series $\\sum b_n$." },
+                { id: "u2_ct2", label: "D'Alembert's Ratio Test: $\\lim_{n \\to \\infty} \\frac{a_{n+1}}{a_n} = L$", type: "subtopic", details: "Series converges if $L < 1$, diverges if $L > 1$, test is inconclusive if $L = 1$." },
+                { id: "u2_ct3", label: "Raabe's Test: $\\lim_{n \\to \\infty} n\\left(\\frac{a_n}{a_{n+1}} - 1\\right) = L$", type: "subtopic", details: "Higher-order test resolving the inconclusive case $L=1$ of D'Alembert's ratio test." },
+                { id: "u2_ct4", label: "Cauchy's $n$-th Root Test: $\\lim_{n \\to \\infty} (a_n)^{1/n} = L$", type: "subtopic", details: "Effective test for series involving powers of $n$ ($L < 1$ converges, $L > 1$ diverges)." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit3",
+          label: "Unit 3: Limits, Continuity & Differentiability",
+          badge: "Unit 3",
+          type: "unit",
+          color: "#D97706",
+          details: "Limits of functions, algebra of limits, continuity, uniform continuity, Intermediate Value Theorem, differentiability, and the Chain Rule.",
+          children: [
+            {
+              id: "u3_limits_cont",
+              label: "Function Limits & Continuity",
+              type: "topic",
+              details: "Epsilon-delta definitions and topological properties of continuous functions.",
+              children: [
+                { id: "u3_lc1", label: "$\\epsilon-\\delta$ Definition of Function Limit: $0 < |x - c| < \\delta \\implies |f(x) - L| < \\epsilon$", type: "subtopic", details: "Rigorous limit definition and sequential criterion equivalence." },
+                { id: "u3_lc2", label: "Algebra of Limits & Continuity at a Point", type: "subtopic", details: "Continuity of sum, product, and composition of continuous functions." },
+                { id: "u3_lc3", label: "Intermediate Value Theorem & Extreme Value Theorem on $[a, b]$", type: "subtopic", details: "Attainment of all intermediate values and global extrema on compact intervals." }
+              ]
+            },
+            {
+              id: "u3_uniform_cont",
+              label: "Uniform Continuity",
+              type: "topic",
+              details: "Global continuity on sets and Heine-Cantor theorem.",
+              children: [
+                { id: "u3_uc1", label: "Definition of Uniform Continuity: $\\delta$ Dependent Only on $\\epsilon$", type: "subtopic", details: "Condition $|x - y| < \\delta \\implies |f(x) - f(y)| < \\epsilon$ holding globally across entire domain." },
+                { id: "u3_uc2", label: "Heine-Cantor Theorem: Continuous on Closed $[a, b] \\implies$ Uniformly Continuous", type: "subtopic", details: "Fundamental compact domain uniform continuity theorem." },
+                { id: "u3_uc3", label: "Counterexamples on Non-Compact Sets ($f(x) = 1/x$ on $(0, 1)$)", type: "subtopic", details: "Demonstrating loss of uniform continuity on open or unbounded intervals." }
+              ]
+            },
+            {
+              id: "u3_differentiability",
+              label: "Differentiability & Chain Rule",
+              type: "topic",
+              details: "Carathéodory formulation and composition derivatives.",
+              children: [
+                { id: "u3_df1", label: "Differentiability: $f'(c) = \\lim_{h \\to 0} \\frac{f(c+h)-f(c)}{h}$", type: "subtopic", details: "Existence of linear approximation; differentiability implies continuity." },
+                { id: "u3_df2", label: "Chain Rule of Differentiation: $(g \\circ f)'(c) = g'(f(c)) \\cdot f'(c)$", type: "subtopic", details: "Differentiation of composite functions via Carathéodory's theorem." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit4",
+          label: "Unit 4: Mean Value Theorems, Taylor Series & Extrema",
+          badge: "Unit 4",
+          type: "unit",
+          color: "#059669",
+          details: "Darboux's theorem, Rolle's and Mean Value Theorems, Leibniz theorem for successive differentiation, Taylor's and Maclaurin's theorems with remainders, extrema, and nowhere differentiable functions.",
+          children: [
+            {
+              id: "u4_mvt_darboux",
+              label: "Darboux's Theorem & Mean Value Theorems",
+              type: "topic",
+              details: "Intermediate value property of derivatives and MVT.",
+              children: [
+                { id: "u4_md1", label: "Darboux's Theorem (Intermediate Value Property of Derivatives)", type: "subtopic", details: "A derivative function $f'$ attains all values between $f'(a)$ and $f'(b)$ even if $f'$ is not continuous." },
+                { id: "u4_md2", label: "Rolle's Theorem & Lagrange's Mean Value Theorem", type: "subtopic", details: "Existence of interior point $c \\in (a, b)$ with $f'(c) = \\frac{f(b)-f(a)}{b-a}$." },
+                { id: "u4_md3", label: "Cauchy's Generalized Mean Value Theorem: $\\frac{f'(c)}{g'(c)} = \\frac{f(b)-f(a)}{g(b)-g(a)}$", type: "subtopic", details: "Ratio mean value theorem underpinning L'Hôpital's rule." }
+              ]
+            },
+            {
+              id: "u4_leibniz_successive",
+              label: "Successive Differentiation & Leibniz Theorem",
+              type: "topic",
+              details: "Higher derivatives and product differentiation formula.",
+              children: [
+                { id: "u4_ls1", label: "Standard $n$-th Order Derivatives ($x^m, e^{ax}, \\sin(ax+b), \\ln(ax+b)$)", type: "subtopic", details: "General forms for $n$-th derivatives of standard elementary functions." },
+                { id: "u4_ls2", label: "Leibniz's Theorem: $(uv)^{(n)} = \\sum_{k=0}^n \\binom{n}{k} u^{(n-k)} v^{(k)}$", type: "subtopic", details: "Binomial expansion theorem for the $n$-th derivative of a product of two functions." }
+              ]
+            },
+            {
+              id: "u4_taylor_extrema",
+              label: "Taylor Series, Extrema & Nowhere Differentiable Functions",
+              type: "topic",
+              details: "Power series approximations, remainder forms, extrema, and pathological functions.",
+              children: [
+                { id: "u4_te1", label: "Taylor's & Maclaurin's Theorems with Lagrange & Cauchy Remainders", type: "subtopic", details: "Polynomial expansion $f(x) = \\sum_{k=0}^{n-1} \\frac{f^{(k)}(a)}{k!}(x-a)^k + R_n(x)$." },
+                { id: "u4_te2", label: "Maxima & Minima of Functions (Higher-Derivative Test)", type: "subtopic", details: "Classifying local extrema by the sign of the first non-vanishing higher derivative." },
+                { id: "u4_te3", label: "Nowhere Differentiable Functions (Weierstrass Function)", type: "subtopic", details: "Continuous everywhere but differentiable nowhere: $f(x) = \\sum_{n=0}^\\infty a^n \\cos(b^n \\pi x)$." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit5",
+          label: "Unit 5: Curvature, Curve Tracing & Riemann Sums",
+          badge: "Unit 5",
+          type: "unit",
+          color: "#7C3AED",
+          details: "Curvature and radius of curvature, asymptotes, concavity and convexity, points of inflection, singular points, Cartesian and polar curve tracing, and definite integral as limit of sum.",
+          children: [
+            {
+              id: "u5_curvature_asymp",
+              label: "Curvature & Asymptotes",
+              type: "topic",
+              details: "Radius of curvature, evolutes, and asymptote calculations.",
+              children: [
+                { id: "u5_ca1", label: "Radius of Curvature $\\rho = \\frac{(1+y'^2)^{3/2}}{|y''|}$ (Cartesian) & $\\rho = \\frac{(r^2+r'^2)^{3/2}}{|r^2+2r'^2-rr''|}$ (Polar)", type: "subtopic", details: "Curvature $\\kappa = 1/\\rho$ measuring rate of turning of tangent vector." },
+                { id: "u5_ca2", label: "Rectilinear & Oblique Asymptotes ($y = mx + c$)", type: "subtopic", details: "Determining asymptotes parallel to axes and oblique asymptotes via limit methods." }
+              ]
+            },
+            {
+              id: "u5_curve_tracing",
+              label: "Singular Points, Concavity & Curve Tracing",
+              type: "topic",
+              details: "Double points, cusps, nodes, and systematic curve tracing.",
+              children: [
+                { id: "u5_ct1", label: "Concavity, Convexity & Points of Inflection ($y'' = 0$ with sign change)", type: "subtopic", details: "Determining curvature transition points on planar graphs." },
+                { id: "u5_ct2", label: "Singular Points: Nodes, Cusps (Species I & II), and Conjugate Isolated Points", type: "subtopic", details: "Classification of multiple points via discriminant of tangents." },
+                { id: "u5_ct3", label: "Tracing Plane Curves (Cartesian & Polar Coordinates)", type: "subtopic", details: "Systematic tracing using symmetry, origin tangents, asymptotes, intercepts, and sign regions (Folium, Cardioid, Lemniscate)." }
+              ]
+            },
+            {
+              id: "u5_riemann_sum",
+              label: "Definite Integrals as Limit of Sums",
+              type: "topic",
+              details: "Riemann sum definition of definite integrals and series limits.",
+              children: [
+                { id: "u5_rs1", label: "Riemann Sum Definition: $\\int_a^b f(x)dx = \\lim_{n \\to \\infty} \\frac{b-a}{n} \\sum_{r=1}^n f\\left(a + r\\frac{b-a}{n}\\right)$", type: "subtopic", details: "Area accumulation under continuous curve via mesh partitioning." },
+                { id: "u5_rs2", label: "Evaluating Limits of Infinite Series via Definite Integrals: $\\lim_{n \\to \\infty} \\frac{1}{n}\\sum \\phi(r/n) = \\int_0^1 \\phi(x)dx$", type: "subtopic", details: "Conversion of discrete summation limits into continuous Riemann integrals." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "MATSE11": {
+    id: "MATSE11",
+    code: "MATSE11",
+    title: "Ethics in Academia and Mathematical Exploration",
+    department: "Department of Mathematics",
+    semester: 1,
+    credits: 3,
+    course_type: "Skill Enhancement",
+    summary: "Academic integrity, publication ethics, scientific outreach, gender bias awareness, and classical elegant mathematical explorations: six proofs of infinity of primes, sums of two squares, Euler's formula applications, Continuum Hypothesis, irrational numbers, golden ratio, Euler's number e, fractals, and Fibonacci sequences.",
+    root: {
+      id: "root",
+      label: "Ethics in Academia & Mathematical Exploration",
+      badge: "MATSE11 • Sem 1",
+      type: "root",
+      details: "3 Credits Skill Enhancement Course. Grounded in BHU UG NEP Syllabus covering Research Ethics, Publication Norms, Proofs from THE BOOK, Mathematical Constants, and Fractals.",
+      children: [
+        {
+          id: "unit1",
+          label: "Unit 1: Ethics in Higher Education, Research & Outreach",
+          badge: "Unit 1",
+          type: "unit",
+          color: "#4F46E5",
+          details: "Ethics in higher education, academic research integrity, publication ethics, predatory publishing, science outreach, and gender bias in STEM.",
+          children: [
+            {
+              id: "u1_academic_ethics",
+              label: "Academic Integrity & Research Ethics",
+              type: "topic",
+              details: "Scientific misconduct, plagiarism, and research stewardship.",
+              children: [
+                { id: "u1_ae1", label: "Ethics in Higher Education & Research Conduct", type: "subtopic", details: "Codes of professional scientific conduct, academic honesty, and institutional governance." },
+                { id: "u1_ae2", label: "Plagiarism, Falsification & Fabrication (FFP)", type: "subtopic", details: "Defining scientific misconduct, data integrity, citation norms, and intellectual property attribution." }
+              ]
+            },
+            {
+              id: "u1_pub_outreach",
+              label: "Publication Ethics, Outreach & Gender Equity",
+              type: "topic",
+              details: "Peer review, authorship standards, public communication, and inclusivity.",
+              children: [
+                { id: "u1_po1", label: "Ethics of Publication: Authorship & Predatory Journals", type: "subtopic", details: "ICMJE authorship criteria, transparent peer review, avoiding duplicate submissions and predatory outlets." },
+                { id: "u1_po2", label: "Ethical Practices in Science Outreach & Communication", type: "subtopic", details: "Responsible dissemination of mathematical knowledge and combating sensationalism/misinformation." },
+                { id: "u1_po3", label: "Gender Bias & Diversity in Mathematics", type: "subtopic", details: "Recognizing implicit bias, promoting inclusivity, and fostering equitable mathematical research environments." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit2",
+          label: "Unit 2: Mathematical Treasures: Primes, Squares & Sets",
+          badge: "Unit 2",
+          type: "unit",
+          color: "#0891B2",
+          details: "Six proofs of the infinity of primes, binomial coefficient powers, sums of two squares, Euler's polyhedral formula applications, Continuum Hypothesis, and classical inequalities.",
+          children: [
+            {
+              id: "u2_primes_binomial",
+              label: "Infinity of Primes & Binomial Powers",
+              type: "topic",
+              details: "Diverse proof methodologies for prime infinity and Erdős' binomial power theorem.",
+              children: [
+                { id: "u2_pb1", label: "Six Proofs of Infinity of Primes (Euclid, Euler, Goldbach, Furstenberg, etc.)", type: "subtopic", details: "Classic proof paradigms: algebraic (Euclid), analytic via $\\zeta(s)$ (Euler), Fermat numbers (Goldbach), and topological (Furstenberg)." },
+                { id: "u2_pb2", label: "Binomial Coefficients are (Almost) Never Powers (Erdős Theorem)", type: "subtopic", details: "Theorem stating $\\binom{n}{k} = y^m$ has no integer solutions for $4 \\le k \\le n-4$ and $m \\ge 2$." }
+              ]
+            },
+            {
+              id: "u2_squares_euler",
+              label: "Sums of Two Squares & Euler's Formula",
+              type: "topic",
+              details: "Fermat's two squares theorem and polyhedral topology.",
+              children: [
+                { id: "u2_se1", label: "Representing Numbers as Sums of Two Squares ($p \\equiv 1 \\pmod 4$)", type: "subtopic", details: "Fermat's Christmas Theorem and Zagier's one-sentence combinatorial involution proof." },
+                { id: "u2_se2", label: "Three Applications of Euler's Formula: $V - E + F = 2$", type: "subtopic", details: "Planar graph invariants, classification of the 5 Platonic regular polyhedra, and Pick's Theorem for lattice polygons." }
+              ]
+            },
+            {
+              id: "u2_sets_inequalities",
+              label: "Set Theory, Continuum Hypothesis & Inequalities",
+              type: "topic",
+              details: "Transfinite set cardinality and foundational inequalities.",
+              children: [
+                { id: "u2_si1", label: "Sets, Countability & Cantor's Continuum Hypothesis ($2^{\\aleph_0} = \\aleph_1$)", type: "subtopic", details: "Cantor's diagonal argument proving $\\mathbb{R}$ uncountable, independence of CH in ZFC (Gödel and Cohen)." },
+                { id: "u2_si2", label: "Classical Inequalities: AM-GM, Cauchy-Schwarz & Hölder", type: "subtopic", details: "Inequality fundamentals: $(\\sum a_i b_i)^2 \\le (\\sum a_i^2)(\\sum b_i^2)$ and convex function bounds." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit3",
+          label: "Unit 3: Constants, Irrationality, Fibonacci & Fractals",
+          badge: "Unit 3",
+          type: "unit",
+          color: "#D97706",
+          details: "Irrational numbers, the golden ratio, Euler's constant e, logarithmic properties, fractals, infinite series, and Fibonacci numbers.",
+          children: [
+            {
+              id: "u3_irrationals_golden",
+              label: "Irrational Numbers & The Golden Ratio",
+              type: "topic",
+              details: "Non-rational real numbers and geometric proportions.",
+              children: [
+                { id: "u3_ig1", label: "Irrational Numbers: Proofs of $\\sqrt{2}$, $\\pi$, and $e$", type: "subtopic", details: "Geometric and analytical irrationality proofs, algebraic vs transcendental numbers." },
+                { id: "u3_ig2", label: "The Golden Mean $\\phi = \\frac{1+\\sqrt{5}}{2}$ & Continued Fractions", type: "subtopic", details: "Simple continued fraction expansion $[1; 1, 1, \\dots]$, divine proportion, and nested radicals $\\sqrt{1+\\sqrt{1+\\dots}}$." }
+              ]
+            },
+            {
+              id: "u3_euler_e_logs",
+              label: "$e$: The Queen of Growth & Decay",
+              type: "topic",
+              details: "Euler's constant e and logarithmic dynamics.",
+              children: [
+                { id: "u3_el1", label: "The Number $e = \\lim_{n \\to \\infty}\\left(1+\\frac{1}{n}\\right)^n = \\sum_{k=0}^\\infty \\frac{1}{k!}$", type: "subtopic", details: "Compound interest limits, exponential function $e^x$, and differential invariance $\\frac{d}{dx}e^x = e^x$." },
+                { id: "u3_el2", label: "Logarithmic Functions & Logarithmic Spirals", type: "subtopic", details: "Natural logarithms $\\ln x = \\int_1^x \\frac{1}{t}dt$, equiangular spirals in nature and growth patterns." }
+              ]
+            },
+            {
+              id: "u3_fibonacci_fractals",
+              label: "Fibonacci Numbers & Fractals",
+              type: "topic",
+              details: "Recurrences, self-similarity, and fractal geometry.",
+              children: [
+                { id: "u3_ff1", label: "Fibonacci Numbers ($F_n = F_{n-1} + F_{n-2}$) & Binet's Formula", type: "subtopic", details: "Closed form $F_n = \\frac{\\phi^n - \\psi^n}{\\sqrt{5}}$, Cassini's identity $F_{n-1}F_{n+1} - F_n^2 = (-1)^n$, and ratio limit $\\frac{F_{n+1}}{F_n} \\to \\phi$." },
+                { id: "u3_ff2", label: "Fractals, Self-Similarity & The Myth of Forever", type: "subtopic", details: "Geometric iteration: Koch Snowflake, Sierpinski Triangle, Mandelbrot Set, and fractional Hausdorff dimensions." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "MATMD21": {
+    id: "MATMD21",
+    code: "MATMD21",
+    title: "Basic Mathematics-II",
+    department: "Department of Mathematics",
+    semester: 2,
+    credits: 3,
+    course_type: "Multidisciplinary",
+    summary: "Differential calculus foundations and applications: limit definition of derivatives, continuity and differentiability, elementary functions (exponential, logarithmic, trigonometric), chain rule, quotient and reciprocal rules, higher-order derivatives, exponential growth and decay models, Mean Value Theorems, extrema, concavity, and optimization problems.",
+    root: {
+      id: "root",
+      label: "Basic Mathematics-II",
+      badge: "MATMD21 • Sem 2",
+      type: "root",
+      details: "3 Credits Multidisciplinary Course. Grounded in BHU UG NEP Syllabus covering Differential Calculus, Rates of Change, Derivative Rules, Exponential Models, and Optimization.",
+      children: [
+        {
+          id: "unit1",
+          label: "Unit 1: Derivatives, Limits & Elementary Functions",
+          badge: "Unit 1",
+          type: "unit",
+          color: "#4F46E5",
+          details: "Concept of derivative, limit definition (first principles), differentiability vs continuity, derivatives of exponential (e^x, a^x), logarithmic (ln x, log_a x), and trigonometric functions.",
+          children: [
+            {
+              id: "u1_concept_deriv",
+              label: "Concept of Derivative & Rates of Change",
+              type: "topic",
+              details: "Instantaneous rate of change and the first principles limit definition.",
+              children: [
+                { id: "u1_cd1", label: "Average vs Instantaneous Rate of Change: $\\frac{\\Delta y}{\\Delta x} \\to \\frac{dy}{dx}$", type: "subtopic", details: "Secant slope $\\frac{f(x+h)-f(x)}{h}$ converging to tangent line slope as $h \\to 0$." },
+                { id: "u1_cd2", label: "Limit Definition of Derivative: $f'(x) = \\lim_{h \\to 0} \\frac{f(x+h)-f(x)}{h}$", type: "subtopic", details: "First principles formulation defining instantaneous derivative for any real function." },
+                { id: "u1_cd3", label: "Geometric & Physical Interpretations (Tangent Slope & Velocity $v(t) = s'(t)$)", type: "subtopic", details: "Slope of the tangent line to the curve $y=f(x)$ and instantaneous physical motion kinematics." }
+              ]
+            },
+            {
+              id: "u1_diff_cont",
+              label: "Differentiability & Continuity",
+              type: "topic",
+              details: "Smoothness, one-sided derivatives, and relation to continuity.",
+              children: [
+                { id: "u1_dc1", label: "Differentiability Implies Continuity ($f'(x_0) \\text{ exists} \\implies f \\text{ continuous}$)", type: "subtopic", details: "Direct proof: $\\lim_{x \\to x_0} [f(x)-f(x_0)] = \\lim_{x \\to x_0} \\frac{f(x)-f(x_0)}{x-x_0}(x-x_0) = 0$." },
+                { id: "u1_dc2", label: "Converse Failure (Sharp Corners & Cusp Points, e.g. $f(x)=|x|$)", type: "subtopic", details: "Continuity does not guarantee differentiability when left and right limits disagree." },
+                { id: "u1_dc3", label: "Left-Hand & Right-Hand Derivatives ($f'_-(x_0) = f'_+(x_0)$)", type: "subtopic", details: "Differentiability holds if and only if both one-sided directional derivatives exist and are equal." }
+              ]
+            },
+            {
+              id: "u1_elem_functions",
+              label: "Derivatives of Elementary Functions",
+              type: "topic",
+              details: "Standard differential calculus formulas for fundamental functions.",
+              children: [
+                { id: "u1_ef1", label: "Exponential Derivatives: $\\frac{d}{dx}(e^x) = e^x$ & $\\frac{d}{dx}(a^x) = a^x \\ln a$", type: "subtopic", details: "Natural exponential invariance under differentiation and arbitrary base formula ($a > 0$)." },
+                { id: "u1_ef2", label: "Logarithmic Derivatives: $\\frac{d}{dx}(\\ln x) = \\frac{1}{x}$ & $\\frac{d}{dx}(\\log_a x) = \\frac{1}{x \\ln a}$", type: "subtopic", details: "Derivatives of natural and general base logarithms for positive domain $x > 0$." },
+                { id: "u1_ef3", label: "Trigonometric Derivatives: $\\frac{d}{dx}\\sin x = \\cos x$, $\\frac{d}{dx}\\cos x = -\\sin x$", type: "subtopic", details: "Rates of change of sine and cosine derived from $\\lim_{\\theta \\to 0} \\frac{\\sin\\theta}{\\theta} = 1$." },
+                { id: "u1_ef4", label: "Tangent, Secant & Cotangent: $\\frac{d}{dx}\\tan x = \\sec^2 x$, $\\frac{d}{dx}\\sec x = \\sec x \\tan x$", type: "subtopic", details: "Derivatives of reciprocal trigonometric functions: $\\frac{d}{dx}\\csc x = -\\csc x\\cot x$ and $\\frac{d}{dx}\\cot x = -\\csc^2 x$." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit2",
+          label: "Unit 2: Differentiation Rules & Exponential Models",
+          badge: "Unit 2",
+          type: "unit",
+          color: "#0891B2",
+          details: "The Chain Rule for composite functions, quotient and reciprocal rules, logarithmic differentiation, exponential growth and decay models, and higher-order derivatives.",
+          children: [
+            {
+              id: "u2_rules",
+              label: "Chain, Quotient & Reciprocal Rules",
+              type: "topic",
+              details: "Algebraic rules for differentiating composite and rational functions.",
+              children: [
+                { id: "u2_rl1", label: "Chain Rule: $\\frac{d}{dx}[f(g(x))] = f'(g(x)) \\cdot g'(x)$", type: "subtopic", details: "Differentiation of composite functions, Leibniz notation $\\frac{dy}{dx} = \\frac{dy}{du} \\cdot \\frac{du}{dx}$." },
+                { id: "u2_rl2", label: "Reciprocal Rule: $\\frac{d}{dx}\\left[\\frac{1}{g(x)}\\right] = -\\frac{g'(x)}{[g(x)]^2}$", type: "subtopic", details: "Differentiating inverse fractional functions where denominator $g(x) \\ne 0$." },
+                { id: "u2_rl3", label: "Quotient Rule: $\\frac{d}{dx}\\left[\\frac{f(x)}{g(x)}\\right] = \\frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2}$", type: "subtopic", details: "Standard rule for rational quotients of differentiable functions." },
+                { id: "u2_rl4", label: "Logarithmic Differentiation: $y = [u(x)]^{v(x)} \\implies \\ln y = v(x)\\ln u(x)$", type: "subtopic", details: "Differentiating complex products, quotients, and variable-base powers." }
+              ]
+            },
+            {
+              id: "u2_exp_models",
+              label: "Exponential Growth & Decay Models",
+              type: "topic",
+              details: "Biological, physical, and chemical rate models.",
+              children: [
+                { id: "u2_em1", label: "Proportional Rate Differential Equation: $\\frac{dy}{dt} = k y$", type: "subtopic", details: "Rate of change proportional to instantaneous magnitude; solutions of form $y(t) = y_0 e^{kt}$." },
+                { id: "u2_em2", label: "Population Growth ($k > 0$) & Radioactive Decay ($k < 0$)", type: "subtopic", details: "Malthusian exponential growth in biology and first-order radioisotope decay dynamics." },
+                { id: "u2_em3", label: "Doubling Time $T_d = \\frac{\\ln 2}{k}$ & Half-Life $t_{1/2} = \\frac{\\ln 2}{|k|}$", type: "subtopic", details: "Characteristic time constants for exponential doubling and decay." },
+                { id: "u2_em4", label: "Newton's Law of Cooling: $\\frac{dT}{dt} = -k(T - T_a) \\implies T(t) = T_a + (T_0 - T_a)e^{-kt}$", type: "subtopic", details: "Thermal exchange modeling temperature converging exponentially to ambient medium $T_a$." }
+              ]
+            },
+            {
+              id: "u2_higher_derivs",
+              label: "Higher-Order Derivatives & Kinematics",
+              type: "topic",
+              details: "Second and higher derivatives, Leibniz rule, and motion rates.",
+              children: [
+                { id: "u2_hd1", label: "Second & $n$-th Derivatives: $f''(x) = \\frac{d^2y}{dx^2}$, $f^{(n)}(x) = \\frac{d^n y}{dx^n}$", type: "subtopic", details: "Repeated derivative operators measuring curvature and acceleration." },
+                { id: "u2_hd2", label: "Kinematics: Position $s(t)$, Velocity $v(t) = s'(t)$, Acceleration $a(t) = s''(t)$", type: "subtopic", details: "Translational motion rates and physical interpretation of derivative orders." },
+                { id: "u2_hd3", label: "Leibniz Formula for $n$-th Derivative of a Product: $(uv)^{(n)} = \\sum_{k=0}^n \\binom{n}{k} u^{(n-k)} v^{(k)}$", type: "subtopic", details: "Generalization of binomial expansion to $n$-th order derivatives of products." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit3",
+          label: "Unit 3: Mean Value Theorems, Extrema & Optimization",
+          badge: "Unit 3",
+          type: "unit",
+          color: "#D97706",
+          details: "Rolle's theorem, Lagrange Mean Value Theorem, First and Second Derivative Tests for local extrema, concavity, points of inflection, and applied optimization problems.",
+          children: [
+            {
+              id: "u3_mvt",
+              label: "Mean Value Theorems & Monotonicity",
+              type: "topic",
+              details: "Theoretical foundations linking derivative sign to global function behavior.",
+              children: [
+                { id: "u3_mv1", label: "Rolle's Theorem: $f(a)=f(b) \\implies \\exists c \\in (a, b): f'(c) = 0$", type: "subtopic", details: "Existence of a stationary point with horizontal tangent for differentiable functions on $[a, b]$." },
+                { id: "u3_mv2", label: "Lagrange's Mean Value Theorem: $f'(c) = \\frac{f(b)-f(a)}{b-a}$", type: "subtopic", details: "Existence of an interior point $c \\in (a, b)$ where instantaneous slope equals average secant slope." },
+                { id: "u3_mv3", label: "Monotonicity Test: Increasing ($f'(x) \\ge 0$) & Decreasing ($f'(x) \\le 0$)", type: "subtopic", details: "Sign of first derivative strictly determines intervals of increasing and decreasing behavior." }
+              ]
+            },
+            {
+              id: "u3_extrema",
+              label: "Maxima, Minima & Derivative Tests",
+              type: "topic",
+              details: "Identifying and classifying critical points and extreme values.",
+              children: [
+                { id: "u3_ex1", label: "Critical Points & Fermat's Theorem: $f'(c) = 0$ or Undefined", type: "subtopic", details: "Interior points where local extrema can potentially occur." },
+                { id: "u3_ex2", label: "First Derivative Test: Sign Change of $f'(x)$ Across Critical Point", type: "subtopic", details: "Transition from $+$ to $-$ indicates local maximum; transition from $-$ to $+$ indicates local minimum." },
+                { id: "u3_ex3", label: "Second Derivative Test: $f''(c) < 0$ (Local Max), $f''(c) > 0$ (Local Min)", type: "subtopic", details: "Curvature test at stationary points where $f'(c) = 0$; test is inconclusive when $f''(c) = 0$." },
+                { id: "u3_ex4", label: "Extreme Value Theorem & Absolute Extrema on Closed Interval $[a, b]$", type: "subtopic", details: "Comparing values of $f(x)$ at critical points and domain boundary endpoints $a, b$." }
+              ]
+            },
+            {
+              id: "u3_concavity",
+              label: "Concavity & Points of Inflection",
+              type: "topic",
+              details: "Curvature, second derivative signs, and inflection points.",
+              children: [
+                { id: "u3_cc1", label: "Concavity Test: Concave Up ($f''(x) > 0$) & Concave Down ($f''(x) < 0$)", type: "subtopic", details: "Graph lies above tangent lines for concave up and below tangent lines for concave down." },
+                { id: "u3_cc2", label: "Point of Inflection: $(c, f(c))$ Where $f''(x)$ Changes Sign", type: "subtopic", details: "Point where curve changes curvature direction from concave up to down or vice versa." },
+                { id: "u3_cc3", label: "Systematic Curve Sketching Methodology", type: "subtopic", details: "Synthesizing domain, intercepts, asymptotes, monotonicity, extrema, concavity, and inflection points." }
+              ]
+            },
+            {
+              id: "u3_optimization",
+              label: "Applied Optimization Problems",
+              type: "topic",
+              details: "Mathematical modeling of optimal solutions under constraints.",
+              children: [
+                { id: "u3_op1", label: "Optimization Modeling: Objective Function & Constraint Equations", type: "subtopic", details: "Expressing multi-variable problem in a single variable over a feasible physical domain." },
+                { id: "u3_op2", label: "Geometric Optimization: Maximum Area, Volume & Minimal Surface Area", type: "subtopic", details: "Optimizing rectangular enclosures, open-top boxes, and cylindrical cans with minimal material cost." },
+                { id: "u3_op3", label: "Applied Biology & Economics: Maximum Profit ($P'=0 \\implies R'=C'$)", type: "subtopic", details: "Marginal analysis in revenue/cost and optimal biological yield harvesting models." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "MATMJ21": {
+    id: "MATMJ21",
+    code: "MATMJ21",
+    title: "Algebra",
+    department: "Department of Mathematics",
+    semester: 2,
+    credits: 4,
+    course_type: "Major",
+    summary: "Comprehensive structure covering Complex Numbers & Roots of Unity, Theory of Polynomial Equations, Relations & Elementary Number Theory, Foundations of Group Theory & Symmetries, and Cyclic Groups & Subgroup Classification.",
+    root: {
+      id: "root",
+      label: "Algebra",
+      badge: "MATMJ21 • Sem 2",
+      type: "root",
+      details: "4 Credits Major Course. Grounded in BHU UG NEP Syllabus covering Complex Numbers, Theory of Equations, Divisibility & Congruence, Group Theory, and Cyclic Subgroups.",
+      children: [
+        {
+          id: "unit1",
+          label: "Unit 1: Complex Numbers & Roots of Unity",
+          badge: "Unit 1",
+          type: "unit",
+          color: "#4F46E5",
+          details: "Real and complex number systems, roots of complex numbers, De Moivre's theorem, nth roots of unity, and geometric representation in the Argand plane.",
+          children: [
+            {
+              id: "u1_complex_num",
+              label: "Complex Numbers & Field Properties",
+              type: "topic",
+              details: "Algebraic foundations of the complex number field $\\mathbb{C}$.",
+              children: [
+                { id: "u1_cn1", label: "Cartesian Form: $z = x + iy$ ($x, y \\in \\mathbb{R}$, $i^2 = -1$)", type: "subtopic", details: "Real and imaginary components $\\operatorname{Re}(z) = x$, $\\operatorname{Im}(z) = y$." },
+                { id: "u1_cn2", label: "Modulus $|z| = \\sqrt{x^2+y^2}$ & Conjugate $\\overline{z} = x - iy$", type: "subtopic", details: "Conjugate identities: $z\\overline{z} = |z|^2$, $\\overline{z_1 z_2} = \\overline{z_1}\\,\\overline{z_2}$, $|z_1 z_2| = |z_1||z_2|$." },
+                { id: "u1_cn3", label: "Triangle Inequalities: $||z_1|-|z_2|| \\le |z_1 \\pm z_2| \\le |z_1|+|z_2|$", type: "subtopic", details: "Fundamental metric and norm relations in the complex plane." },
+                { id: "u1_cn4", label: "Polar & Euler Exponential Form: $z = r(\\cos\\theta + i\\sin\\theta) = r e^{i\\theta}$", type: "subtopic", details: "Modulus $r = |z|$ and Principal Argument $\\operatorname{Arg}(z) \\in (-\\pi, \\pi]$." }
+              ]
+            },
+            {
+              id: "u1_demoivre",
+              label: "De Moivre's Theorem & Roots",
+              type: "topic",
+              details: "Exponentiation and root extraction for complex numbers.",
+              children: [
+                { id: "u1_dm1", label: "De Moivre's Theorem: $(\\cos\\theta + i\\sin\\theta)^n = \\cos(n\\theta) + i\\sin(n\\theta)$", type: "subtopic", details: "Valid for all integers $n \\in \\mathbb{Z}$ and rational exponents." },
+                { id: "u1_dm2", label: "Extraction of $n$-th Roots: $z^{1/n} = r^{1/n}\\left(\\cos\\frac{\\theta+2k\\pi}{n} + i\\sin\\frac{\\theta+2k\\pi}{n}\\right)$", type: "subtopic", details: "Yields exactly $n$ distinct complex roots for $k = 0, 1, \\dots, n-1$." },
+                { id: "u1_dm3", label: "Trigonometric Expansions of $\\cos(n\\theta)$ & $\\sin(n\\theta)$", type: "subtopic", details: "Binomial expansion of $(\\cos\\theta + i\\sin\\theta)^n$ in terms of powers of $\\cos\\theta$ and $\\sin\\theta$." }
+              ]
+            },
+            {
+              id: "u1_roots_unity",
+              label: "$n$-th Roots of Unity & Geometry",
+              type: "topic",
+              details: "Solutions of $z^n = 1$ and their geometric configurations.",
+              children: [
+                { id: "u1_ru1", label: "Roots of Unity: $\\omega_k = e^{i\\frac{2k\\pi}{n}}$ ($k = 0, 1, \\dots, n-1$)", type: "subtopic", details: "Form a finite cyclic subgroup under complex multiplication generated by $\\omega = e^{i 2\\pi/n}$." },
+                { id: "u1_ru2", label: "Sum & Product Properties: $\\sum_{k=0}^{n-1} \\omega_k = 0$, $\\prod_{k=0}^{n-1} \\omega_k = (-1)^{n-1}$", type: "subtopic", details: "Vanishing sum of all $n$-th roots of unity for $n > 1$." },
+                { id: "u1_ru3", label: "Geometric Inscription in Unit Circle", type: "subtopic", details: "The $n$ roots of unity form the vertices of a regular $n$-gon inscribed in the circle $|z| = 1$ with one vertex at $(1, 0)$." },
+                { id: "u1_ru4", label: "Primitive $n$-th Roots of Unity ($\\gcd(k, n) = 1$)", type: "subtopic", details: "Generators of the roots of unity group; exactly $\\phi(n)$ primitive roots of order $n$." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit2",
+          label: "Unit 2: Polynomials & Theory of Equations",
+          badge: "Unit 2",
+          type: "unit",
+          color: "#0891B2",
+          details: "Polynomials, Fundamental Theorem of Algebra, Vieta's root-coefficient relations, imaginary and irrational roots, rational root theorem, and Newton's method for integral roots.",
+          children: [
+            {
+              id: "u2_poly_fta",
+              label: "Polynomials & Fundamental Theorem of Algebra",
+              type: "topic",
+              details: "Roots of polynomial equations over $\\mathbb{R}$ and $\\mathbb{C}$.",
+              children: [
+                { id: "u2_pf1", label: "Polynomial $P(x) = a_n x^n + a_{n-1} x^{n-1} + \\dots + a_0$ ($a_n \\ne 0$)", type: "subtopic", details: "Degree $n$ polynomial over field $\\mathbb{F}[x]$." },
+                { id: "u2_pf2", label: "Fundamental Theorem of Algebra (D'Alembert-Gauss)", type: "subtopic", details: "Every non-constant polynomial in $\\mathbb{C}[x]$ has at least one root in $\\mathbb{C}$; exactly $n$ complex roots with multiplicities." },
+                { id: "u2_pf3", label: "Remainder & Factor Theorems: $P(x) = (x - \\alpha)Q(x) + P(\\alpha)$", type: "subtopic", details: "$(x - \\alpha)$ is a factor of $P(x) \\iff P(\\alpha) = 0$." }
+              ]
+            },
+            {
+              id: "u2_vieta",
+              label: "Relations Between Roots & Coefficients",
+              type: "topic",
+              details: "Vieta's formulas and symmetric functions of roots.",
+              children: [
+                { id: "u2_vt1", label: "Vieta's Formulas: $S_1 = -\\frac{a_{n-1}}{a_n}$, $S_2 = \\frac{a_{n-2}}{a_n}$, $\\dots$, $S_n = (-1)^n \\frac{a_0}{a_n}$", type: "subtopic", details: "Elementary symmetric sums connecting roots $\\alpha_1, \\dots, \\alpha_n$ to coefficients." },
+                { id: "u2_vt2", label: "Symmetric Functions of Roots ($\\sum \\alpha^2$, $\\sum \\alpha^2\\beta$, $\\sum \\frac{1}{\\alpha}$)", type: "subtopic", details: "Calculation of symmetric combinations of roots using elementary symmetric polynomials." },
+                { id: "u2_vt3", label: "Transformation of Equations ($y = kx$, $y = x-h$, $y = 1/x$, $y = x^2$)", type: "subtopic", details: "Forming new equations whose roots are related to the original roots by specified algebraic mappings." }
+              ]
+            },
+            {
+              id: "u2_nature_roots",
+              label: "Nature of Roots & Conjugate Pairs",
+              type: "topic",
+              details: "Theorems governing root distributions in $\\mathbb{R}$ and $\\mathbb{C}$.",
+              children: [
+                { id: "u2_nr1", label: "Complex Conjugate Root Theorem: $\\alpha + i\\beta \\implies \\alpha - i\\beta$", type: "subtopic", details: "For real polynomial equations, non-real complex roots always occur in conjugate pairs." },
+                { id: "u2_nr2", label: "Irrational Surd Conjugate Root Theorem: $\\alpha + \\sqrt{\\beta} \\implies \\alpha - \\sqrt{\\beta}$", type: "subtopic", details: "For rational coefficient polynomials, quadratic irrational roots occur in conjugate pairs." },
+                { id: "u2_nr3", label: "Descartes' Rule of Signs", type: "subtopic", details: "Bounds number of positive/negative real roots by number of sign alternations in $P(x)$ and $P(-x)$." }
+              ]
+            },
+            {
+              id: "u2_rational_newton",
+              label: "Integral & Rational Roots & Newton's Method",
+              type: "topic",
+              details: "Techniques for isolating rational and integral roots.",
+              children: [
+                { id: "u2_rn1", label: "Rational Root Theorem: $\\frac{p}{q} \\implies p \\mid a_0 \\text{ and } q \\mid a_n$", type: "subtopic", details: "Finite candidate set for all rational roots of integer polynomials." },
+                { id: "u2_rn2", label: "Integral Root Theorem for Monic Polynomials ($a_n = 1$)", type: "subtopic", details: "All rational roots of monic integer polynomials must be integer divisors of $a_0$." },
+                { id: "u2_rn3", label: "Newton's Method for Integral Roots (Method of Divisors)", type: "subtopic", details: "Iterative quotient divisibility test on candidate divisors of $a_0$ to isolate exact integer roots." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit3",
+          label: "Unit 3: Relations, Number Theory & Congruences",
+          badge: "Unit 3",
+          type: "unit",
+          color: "#D97706",
+          details: "Binary relations, equivalence relations and classes, division algorithm in ℤ, divisibility, Euclidean algorithm, Fundamental Theorem of Arithmetic, and modular arithmetic congruences.",
+          children: [
+            {
+              id: "u3_relations",
+              label: "Relations & Equivalence Classes",
+              type: "topic",
+              details: "Set relations, equivalence criteria, and partitions.",
+              children: [
+                { id: "u3_re1", label: "Binary Relation $R \\subseteq A \\times A$", type: "subtopic", details: "Reflexive ($aRa$), Symmetric ($aRb \\implies bRa$), Transitive ($aRb \\land bRc \\implies aRc$)." },
+                { id: "u3_re2", label: "Equivalence Relation & Equivalence Class $[a] = \\{x \\in A \\mid x R a\\}$", type: "subtopic", details: "A relation satisfying reflexivity, symmetry, and transitivity." },
+                { id: "u3_re3", label: "Fundamental Theorem of Equivalence Relations (Partition Theorem)", type: "subtopic", details: "Any equivalence relation on set $A$ partitions $A$ into a collection of mutually disjoint equivalence classes whose union is $A$." }
+              ]
+            },
+            {
+              id: "u3_divisibility",
+              label: "Divisibility & Division Algorithm in $\\mathbb{Z}$",
+              type: "topic",
+              details: "Integer divisibility and remainder structures.",
+              children: [
+                { id: "u3_dv1", label: "Divisibility: $a \\mid b \\iff \\exists c \\in \\mathbb{Z}: b = ac$", type: "subtopic", details: "Properties: transitivity, linear combinations $a \\mid (bx + cy)$." },
+                { id: "u3_dv2", label: "Division Algorithm in $\\mathbb{Z}$: $a = bq + r$ ($0 \\le r < |b|$)", type: "subtopic", details: "Unique quotient $q$ and remainder $r$ for any integers $a, b$ ($b \\ne 0$)." },
+                { id: "u3_dv3", label: "Greatest Common Divisor $\\gcd(a, b)$ & Bézout's Identity: $ax + by = \\gcd(a, b)$", type: "subtopic", details: "Smallest positive linear combination of integers $a$ and $b$ equals their $\\gcd$." }
+              ]
+            },
+            {
+              id: "u3_euclid_arithmetic",
+              label: "Euclidean Algorithm & Prime Factorization",
+              type: "topic",
+              details: "GCD computation and prime factorization.",
+              children: [
+                { id: "u3_ea1", label: "Euclidean Algorithm: $\\gcd(a, b) = \\gcd(b, a \\bmod b)$", type: "subtopic", details: "Successive division process computing the greatest common divisor in logarithmic steps." },
+                { id: "u3_ea2", label: "Euclid's Lemma: $p \\mid ab \\implies p \\mid a \\text{ or } p \\mid b$ ($p$ is prime)", type: "subtopic", details: "Cornerstone property of prime numbers." },
+                { id: "u3_ea3", label: "Fundamental Theorem of Arithmetic (Unique Factorization)", type: "subtopic", details: "Every integer $n > 1$ has a unique representation $n = p_1^{a_1} p_2^{a_2} \\cdots p_k^{a_k}$ as a product of primes." }
+              ]
+            },
+            {
+              id: "u3_modular_arithmetic",
+              label: "Modular Arithmetic & Congruence Properties",
+              type: "topic",
+              details: "Residue systems and algebraic properties of congruence modulo $m$.",
+              children: [
+                { id: "u3_ma1", label: "Congruence Modulo $m$: $a \\equiv b \\pmod m \\iff m \\mid (a - b)$", type: "subtopic", details: "Congruence modulo $m$ is an equivalence relation on the set of integers $\\mathbb{Z}$." },
+                { id: "u3_ma2", label: "Congruence Arithmetic: Compatibility with $+$, $-$, $\\times$", type: "subtopic", details: "If $a \\equiv b$ and $c \\equiv d \\pmod m$, then $a+c \\equiv b+d$ and $ac \\equiv bd \\pmod m$." },
+                { id: "u3_ma3", label: "Residue Classes $\\mathbb{Z}_m$ & Multiplicative Group of Units $U(m)$", type: "subtopic", details: "Set of integers modulo $m$; units are residue classes coprime to $m$ ($|U(m)| = \\phi(m)$)." },
+                { id: "u3_ma4", label: "Linear Congruences: $ax \\equiv b \\pmod m$", type: "subtopic", details: "Solvable $\\iff d = \\gcd(a, m) \\mid b$; exactly $d$ mutually incongruent solutions modulo $m$." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit4",
+          label: "Unit 4: Group Theory & Symmetries of a Square",
+          badge: "Unit 4",
+          type: "unit",
+          color: "#059669",
+          details: "Axiomatic group definition, properties, dihedral group $D_4$ of symmetries of a square, order of groups & elements, subgroup criteria, center $Z(G)$, and centralizers $C(a)$.",
+          children: [
+            {
+              id: "u4_group_axioms",
+              label: "Group Axioms & Elementary Properties",
+              type: "topic",
+              details: "Abstract group structure and fundamental algebraic laws.",
+              children: [
+                { id: "u4_ga1", label: "Group Axioms $(G, *)$: Closure, Associativity, Identity, Inverse", type: "subtopic", details: "A set $G$ with binary operation $*$ satisfying the four group axioms." },
+                { id: "u4_ga2", label: "Uniqueness of Identity & Inverses: $(ab)^{-1} = b^{-1}a^{-1}$", type: "subtopic", details: "The identity element and the inverse of each element are uniquely determined; Socks-and-Shoes rule." },
+                { id: "u4_ga3", label: "Cancellation Laws & Abelian (Commutative) Groups", type: "subtopic", details: "Left and right cancellation: $ab = ac \\implies b = c$; Abelian groups satisfy $ab = ba$." }
+              ]
+            },
+            {
+              id: "u4_dihedral_square",
+              label: "Symmetries of a Square & Dihedral Group $D_4$",
+              type: "topic",
+              details: "Geometric rigid motions and permutation structure of $D_4$.",
+              children: [
+                { id: "u4_ds1", label: "8 Geometric Symmetries: 4 Rotations ($R_0, R_{90}, R_{180}, R_{270}$) + 4 Reflections ($H, V, D_1, D_2$)", type: "subtopic", details: "The 8 rigid transformations preserving a regular square in the plane." },
+                { id: "u4_ds2", label: "Dihedral Group Structure: $|D_4| = 8$, $\\langle r, s \\mid r^4 = e, s^2 = e, srs = r^{-1} \\rangle$", type: "subtopic", details: "Non-abelian group generated by $90^\\circ$ rotation $r$ and reflection $s$." },
+                { id: "u4_ds3", label: "Cayley Table & Non-Commutativity ($sr = r^3 s \\ne rs$)", type: "subtopic", details: "Composition of symmetries demonstrating that $D_4$ is non-abelian." }
+              ]
+            },
+            {
+              id: "u4_element_orders",
+              label: "Order of a Group & Order of an Element",
+              type: "topic",
+              details: "Order characteristics and periodicity in groups.",
+              children: [
+                { id: "u4_eo1", label: "Order of Group $|G|$ & Order of Element $o(a) = \\min\\{k \\in \\mathbb{N} \\mid a^k = e\\}$", type: "subtopic", details: "Finite order $o(a) = n$ or infinite order if $a^k \\ne e$ for all $k \\ge 1$." },
+                { id: "u4_eo2", label: "Order Properties: $a^m = e \\iff o(a) \\mid m$", type: "subtopic", details: "Equal orders: $o(a) = o(a^{-1})$ and conjugate order invariance $o(x a x^{-1}) = o(a)$." },
+                { id: "u4_eo3", label: "Order of Powers: $o(a^k) = \\frac{o(a)}{\\gcd(k, o(a))}$", type: "subtopic", details: "Fundamental formula determining the exact order of any power $a^k$." }
+              ]
+            },
+            {
+              id: "u4_subgroups_center",
+              label: "Subgroups, Centre & Centralizers",
+              type: "topic",
+              details: "Subgroup structures, centrality, and commutation sets.",
+              children: [
+                { id: "u4_sc1", label: "Subgroup Criteria ($H \\le G$): $ab^{-1} \\in H$ (One-Step Test)", type: "subtopic", details: "Non-empty subset $H$ forming a group under induced operation; two-step and finite subgroup tests." },
+                { id: "u4_sc2", label: "Centre of a Group $Z(G) = \\{z \\in G \\mid zg = gz,\\, \\forall g \\in G\\}$", type: "subtopic", details: "Abelian characteristic subgroup; for $D_4$, $Z(D_4) = \\{R_0, R_{180}\\}$." },
+                { id: "u4_sc3", label: "Centralizer of an Element $C(a) = \\{g \\in G \\mid ga = ag\\}$", type: "subtopic", details: "Subgroup of elements commuting with $a$; center is the intersection $Z(G) = \\bigcap_{a \\in G} C(a)$." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit5",
+          label: "Unit 5: Cyclic Groups & Subgroup Classification",
+          badge: "Unit 5",
+          type: "unit",
+          color: "#7C3AED",
+          details: "Cyclic group structure, generators, Euler's totient function, Fundamental Theorem of Cyclic Groups, order of subgroups, and lattice classification.",
+          children: [
+            {
+              id: "u5_cyclic_properties",
+              label: "Cyclic Groups & Elementary Properties",
+              type: "topic",
+              details: "Single-generator group structures.",
+              children: [
+                { id: "u5_cp1", label: "Definition: $G = \\langle a \\rangle = \\{a^k \\mid k \\in \\mathbb{Z}\\}$", type: "subtopic", details: "Group generated by a single element $a$; finite $\\{e, a, a^2, \\dots, a^{n-1}\\}$ or infinite." },
+                { id: "u5_cp2", label: "Abelian Property: Every Cyclic Group is Abelian ($a^i a^j = a^j a^i = a^{i+j}$)", type: "subtopic", details: "Commutativity holds universally for any powers of a single generator." },
+                { id: "u5_cp3", label: "Standard Models: $(\\mathbb{Z}, +)$ and $(\\mathbb{Z}_n, +_n)$", type: "subtopic", details: "Every infinite cyclic group is isomorphic to $\\mathbb{Z}$; every finite cyclic group of order $n$ is isomorphic to $\\mathbb{Z}_n$." }
+              ]
+            },
+            {
+              id: "u5_generators",
+              label: "Generators of Cyclic Groups & Euler's $\\phi$",
+              type: "topic",
+              details: "Identification and enumeration of generators.",
+              children: [
+                { id: "u5_gn1", label: "Generator Condition: $\\langle a^k \\rangle = \\langle a^{\\gcd(k, n)} \\rangle$", type: "subtopic", details: "$a^k$ generates the cyclic group $G = \\langle a \\rangle$ of order $n$ if and only if $\\gcd(k, n) = 1$." },
+                { id: "u5_gn2", label: "Number of Generators: Exactly $\\phi(n)$ Generators", type: "subtopic", details: "Count of generators equals Euler's phi function $\\phi(n) = n \\prod_{p \\mid n}(1 - \\frac{1}{p})$." },
+                { id: "u5_gn3", label: "Generators of $(\\mathbb{Z}, +)$ are $\\{1, -1\\}$; Generators of $\\mathbb{Z}_n$ are $\{k \\mid \\gcd(k, n) = 1\}$", type: "subtopic", details: "Explicit identification of all generators in standard cyclic groups." }
+              ]
+            },
+            {
+              id: "u5_subgroup_classification",
+              label: "Classification of Subgroups of Cyclic Groups",
+              type: "topic",
+              details: "Fundamental theorem and divisor-lattice correspondence.",
+              children: [
+                { id: "u5_sg1", label: "Fundamental Theorem of Cyclic Groups: Subgroups are Cyclic", type: "subtopic", details: "Every subgroup of a cyclic group is cyclic. The order of every subgroup divides $|G|$." },
+                { id: "u5_sg2", label: "Unique Subgroup for Each Divisor $d \\mid n$: $H = \\langle a^{n/d} \\rangle$ of Order $d$", type: "subtopic", details: "Bijection between positive divisors of $n$ and subgroups of $\\mathbb{Z}_n$." },
+                { id: "u5_sg3", label: "Subgroup Lattice Inclusions: $\\langle a^s \\rangle \\le \\langle a^t \\rangle \\iff \\gcd(t, n) \\mid \\gcd(s, n)$", type: "subtopic", details: "Lattice diagram of subgroups is isomorphic to the divisor lattice of integer $n$." },
+                { id: "u5_sg4", label: "Elements of Order $d$: Exactly $\\phi(d)$ Elements and $\\sum_{d \\mid n} \\phi(d) = n$", type: "subtopic", details: "Gauss's identity partitioning the elements of a finite cyclic group by their orders." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "MATMN21": {
+    id: "MATMN21",
+    code: "MATMN21",
+    title: "Algebra",
+    department: "Department of Mathematics",
+    semester: 2,
+    credits: 4,
+    course_type: "Minor",
+    summary: "Comprehensive structure covering Complex Numbers & Roots of Unity, Theory of Polynomial Equations, Relations & Elementary Number Theory, Foundations of Group Theory & Symmetries, and Cyclic Groups & Subgroup Classification.",
+    root: {
+      id: "root",
+      label: "Algebra",
+      badge: "MATMN21 • Sem 2",
+      type: "root",
+      details: "4 Credits Minor Course. Grounded in BHU UG NEP Syllabus covering Complex Numbers, Theory of Equations, Divisibility & Congruence, Group Theory, and Cyclic Subgroups.",
+      children: [
+        {
+          id: "unit1",
+          label: "Unit 1: Complex Numbers & Roots of Unity",
+          badge: "Unit 1",
+          type: "unit",
+          color: "#4F46E5",
+          details: "Real and complex number systems, roots of complex numbers, De Moivre's theorem, nth roots of unity, and geometric representation in the Argand plane.",
+          children: [
+            {
+              id: "u1_complex_num",
+              label: "Complex Numbers & Field Properties",
+              type: "topic",
+              details: "Algebraic foundations of the complex number field $\\mathbb{C}$.",
+              children: [
+                { id: "u1_cn1", label: "Cartesian Form: $z = x + iy$ ($x, y \\in \\mathbb{R}$, $i^2 = -1$)", type: "subtopic", details: "Real and imaginary components $\\operatorname{Re}(z) = x$, $\\operatorname{Im}(z) = y$." },
+                { id: "u1_cn2", label: "Modulus $|z| = \\sqrt{x^2+y^2}$ & Conjugate $\\overline{z} = x - iy$", type: "subtopic", details: "Conjugate identities: $z\\overline{z} = |z|^2$, $\\overline{z_1 z_2} = \\overline{z_1}\\,\\overline{z_2}$, $|z_1 z_2| = |z_1||z_2|$." },
+                { id: "u1_cn3", label: "Triangle Inequalities: $||z_1|-|z_2|| \\le |z_1 \\pm z_2| \\le |z_1|+|z_2|$", type: "subtopic", details: "Fundamental metric and norm relations in the complex plane." },
+                { id: "u1_cn4", label: "Polar & Euler Exponential Form: $z = r(\\cos\\theta + i\\sin\\theta) = r e^{i\\theta}$", type: "subtopic", details: "Modulus $r = |z|$ and Principal Argument $\\operatorname{Arg}(z) \\in (-\\pi, \\pi]$." }
+              ]
+            },
+            {
+              id: "u1_demoivre",
+              label: "De Moivre's Theorem & Roots",
+              type: "topic",
+              details: "Exponentiation and root extraction for complex numbers.",
+              children: [
+                { id: "u1_dm1", label: "De Moivre's Theorem: $(\\cos\\theta + i\\sin\\theta)^n = \\cos(n\\theta) + i\\sin(n\\theta)$", type: "subtopic", details: "Valid for all integers $n \\in \\mathbb{Z}$ and rational exponents." },
+                { id: "u1_dm2", label: "Extraction of $n$-th Roots: $z^{1/n} = r^{1/n}\\left(\\cos\\frac{\\theta+2k\\pi}{n} + i\\sin\\frac{\\theta+2k\\pi}{n}\\right)$", type: "subtopic", details: "Yields exactly $n$ distinct complex roots for $k = 0, 1, \\dots, n-1$." },
+                { id: "u1_dm3", label: "Trigonometric Expansions of $\\cos(n\\theta)$ & $\\sin(n\\theta)$", type: "subtopic", details: "Binomial expansion of $(\\cos\\theta + i\\sin\\theta)^n$ in terms of powers of $\\cos\\theta$ and $\\sin\\theta$." }
+              ]
+            },
+            {
+              id: "u1_roots_unity",
+              label: "$n$-th Roots of Unity & Geometry",
+              type: "topic",
+              details: "Solutions of $z^n = 1$ and their geometric configurations.",
+              children: [
+                { id: "u1_ru1", label: "Roots of Unity: $\\omega_k = e^{i\\frac{2k\\pi}{n}}$ ($k = 0, 1, \\dots, n-1$)", type: "subtopic", details: "Form a finite cyclic subgroup under complex multiplication generated by $\\omega = e^{i 2\\pi/n}$." },
+                { id: "u1_ru2", label: "Sum & Product Properties: $\\sum_{k=0}^{n-1} \\omega_k = 0$, $\\prod_{k=0}^{n-1} \\omega_k = (-1)^{n-1}$", type: "subtopic", details: "Vanishing sum of all $n$-th roots of unity for $n > 1$." },
+                { id: "u1_ru3", label: "Geometric Inscription in Unit Circle", type: "subtopic", details: "The $n$ roots of unity form the vertices of a regular $n$-gon inscribed in the circle $|z| = 1$ with one vertex at $(1, 0)$." },
+                { id: "u1_ru4", label: "Primitive $n$-th Roots of Unity ($\\gcd(k, n) = 1$)", type: "subtopic", details: "Generators of the roots of unity group; exactly $\\phi(n)$ primitive roots of order $n$." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit2",
+          label: "Unit 2: Polynomials & Theory of Equations",
+          badge: "Unit 2",
+          type: "unit",
+          color: "#0891B2",
+          details: "Polynomials, Fundamental Theorem of Algebra, Vieta's root-coefficient relations, imaginary and irrational roots, rational root theorem, and Newton's method for integral roots.",
+          children: [
+            {
+              id: "u2_poly_fta",
+              label: "Polynomials & Fundamental Theorem of Algebra",
+              type: "topic",
+              details: "Roots of polynomial equations over $\\mathbb{R}$ and $\\mathbb{C}$.",
+              children: [
+                { id: "u2_pf1", label: "Polynomial $P(x) = a_n x^n + a_{n-1} x^{n-1} + \\dots + a_0$ ($a_n \\ne 0$)", type: "subtopic", details: "Degree $n$ polynomial over field $\\mathbb{F}[x]$." },
+                { id: "u2_pf2", label: "Fundamental Theorem of Algebra (D'Alembert-Gauss)", type: "subtopic", details: "Every non-constant polynomial in $\\mathbb{C}[x]$ has at least one root in $\\mathbb{C}$; exactly $n$ complex roots with multiplicities." },
+                { id: "u2_pf3", label: "Remainder & Factor Theorems: $P(x) = (x - \\alpha)Q(x) + P(\\alpha)$", type: "subtopic", details: "$(x - \\alpha)$ is a factor of $P(x) \\iff P(\\alpha) = 0$." }
+              ]
+            },
+            {
+              id: "u2_vieta",
+              label: "Relations Between Roots & Coefficients",
+              type: "topic",
+              details: "Vieta's formulas and symmetric functions of roots.",
+              children: [
+                { id: "u2_vt1", label: "Vieta's Formulas: $S_1 = -\\frac{a_{n-1}}{a_n}$, $S_2 = \\frac{a_{n-2}}{a_n}$, $\\dots$, $S_n = (-1)^n \\frac{a_0}{a_n}$", type: "subtopic", details: "Elementary symmetric sums connecting roots $\\alpha_1, \\dots, \\alpha_n$ to coefficients." },
+                { id: "u2_vt2", label: "Symmetric Functions of Roots ($\\sum \\alpha^2$, $\\sum \\alpha^2\\beta$, $\\sum \\frac{1}{\\alpha}$)", type: "subtopic", details: "Calculation of symmetric combinations of roots using elementary symmetric polynomials." },
+                { id: "u2_vt3", label: "Transformation of Equations ($y = kx$, $y = x-h$, $y = 1/x$, $y = x^2$)", type: "subtopic", details: "Forming new equations whose roots are related to the original roots by specified algebraic mappings." }
+              ]
+            },
+            {
+              id: "u2_nature_roots",
+              label: "Nature of Roots & Conjugate Pairs",
+              type: "topic",
+              details: "Theorems governing root distributions in $\\mathbb{R}$ and $\\mathbb{C}$.",
+              children: [
+                { id: "u2_nr1", label: "Complex Conjugate Root Theorem: $\\alpha + i\\beta \\implies \\alpha - i\\beta$", type: "subtopic", details: "For real polynomial equations, non-real complex roots always occur in conjugate pairs." },
+                { id: "u2_nr2", label: "Irrational Surd Conjugate Root Theorem: $\\alpha + \\sqrt{\\beta} \\implies \\alpha - \\sqrt{\\beta}$", type: "subtopic", details: "For rational coefficient polynomials, quadratic irrational roots occur in conjugate pairs." },
+                { id: "u2_nr3", label: "Descartes' Rule of Signs", type: "subtopic", details: "Bounds number of positive/negative real roots by number of sign alternations in $P(x)$ and $P(-x)$." }
+              ]
+            },
+            {
+              id: "u2_rational_newton",
+              label: "Integral & Rational Roots & Newton's Method",
+              type: "topic",
+              details: "Techniques for isolating rational and integral roots.",
+              children: [
+                { id: "u2_rn1", label: "Rational Root Theorem: $\\frac{p}{q} \\implies p \\mid a_0 \\text{ and } q \\mid a_n$", type: "subtopic", details: "Finite candidate set for all rational roots of integer polynomials." },
+                { id: "u2_rn2", label: "Integral Root Theorem for Monic Polynomials ($a_n = 1$)", type: "subtopic", details: "All rational roots of monic integer polynomials must be integer divisors of $a_0$." },
+                { id: "u2_rn3", label: "Newton's Method for Integral Roots (Method of Divisors)", type: "subtopic", details: "Iterative quotient divisibility test on candidate divisors of $a_0$ to isolate exact integer roots." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit3",
+          label: "Unit 3: Relations, Number Theory & Congruences",
+          badge: "Unit 3",
+          type: "unit",
+          color: "#D97706",
+          details: "Binary relations, equivalence relations and classes, division algorithm in ℤ, divisibility, Euclidean algorithm, Fundamental Theorem of Arithmetic, and modular arithmetic congruences.",
+          children: [
+            {
+              id: "u3_relations",
+              label: "Relations & Equivalence Classes",
+              type: "topic",
+              details: "Set relations, equivalence criteria, and partitions.",
+              children: [
+                { id: "u3_re1", label: "Binary Relation $R \\subseteq A \\times A$", type: "subtopic", details: "Reflexive ($aRa$), Symmetric ($aRb \\implies bRa$), Transitive ($aRb \\land bRc \\implies aRc$)." },
+                { id: "u3_re2", label: "Equivalence Relation & Equivalence Class $[a] = \\{x \\in A \\mid x R a\\}$", type: "subtopic", details: "A relation satisfying reflexivity, symmetry, and transitivity." },
+                { id: "u3_re3", label: "Fundamental Theorem of Equivalence Relations (Partition Theorem)", type: "subtopic", details: "Any equivalence relation on set $A$ partitions $A$ into a collection of mutually disjoint equivalence classes whose union is $A$." }
+              ]
+            },
+            {
+              id: "u3_divisibility",
+              label: "Divisibility & Division Algorithm in $\\mathbb{Z}$",
+              type: "topic",
+              details: "Integer divisibility and remainder structures.",
+              children: [
+                { id: "u3_dv1", label: "Divisibility: $a \\mid b \\iff \\exists c \\in \\mathbb{Z}: b = ac$", type: "subtopic", details: "Properties: transitivity, linear combinations $a \\mid (bx + cy)$." },
+                { id: "u3_dv2", label: "Division Algorithm in $\\mathbb{Z}$: $a = bq + r$ ($0 \\le r < |b|$)", type: "subtopic", details: "Unique quotient $q$ and remainder $r$ for any integers $a, b$ ($b \\ne 0$)." },
+                { id: "u3_dv3", label: "Greatest Common Divisor $\\gcd(a, b)$ & Bézout's Identity: $ax + by = \\gcd(a, b)$", type: "subtopic", details: "Smallest positive linear combination of integers $a$ and $b$ equals their $\\gcd$." }
+              ]
+            },
+            {
+              id: "u3_euclid_arithmetic",
+              label: "Euclidean Algorithm & Prime Factorization",
+              type: "topic",
+              details: "GCD computation and prime factorization.",
+              children: [
+                { id: "u3_ea1", label: "Euclidean Algorithm: $\\gcd(a, b) = \\gcd(b, a \\bmod b)$", type: "subtopic", details: "Successive division process computing the greatest common divisor in logarithmic steps." },
+                { id: "u3_ea2", label: "Euclid's Lemma: $p \\mid ab \\implies p \\mid a \\text{ or } p \\mid b$ ($p$ is prime)", type: "subtopic", details: "Cornerstone property of prime numbers." },
+                { id: "u3_ea3", label: "Fundamental Theorem of Arithmetic (Unique Factorization)", type: "subtopic", details: "Every integer $n > 1$ has a unique representation $n = p_1^{a_1} p_2^{a_2} \\cdots p_k^{a_k}$ as a product of primes." }
+              ]
+            },
+            {
+              id: "u3_modular_arithmetic",
+              label: "Modular Arithmetic & Congruence Properties",
+              type: "topic",
+              details: "Residue systems and algebraic properties of congruence modulo $m$.",
+              children: [
+                { id: "u3_ma1", label: "Congruence Modulo $m$: $a \\equiv b \\pmod m \\iff m \\mid (a - b)$", type: "subtopic", details: "Congruence modulo $m$ is an equivalence relation on the set of integers $\\mathbb{Z}$." },
+                { id: "u3_ma2", label: "Congruence Arithmetic: Compatibility with $+$, $-$, $\\times$", type: "subtopic", details: "If $a \\equiv b$ and $c \\equiv d \\pmod m$, then $a+c \\equiv b+d$ and $ac \\equiv bd \\pmod m$." },
+                { id: "u3_ma3", label: "Residue Classes $\\mathbb{Z}_m$ & Multiplicative Group of Units $U(m)$", type: "subtopic", details: "Set of integers modulo $m$; units are residue classes coprime to $m$ ($|U(m)| = \\phi(m)$)." },
+                { id: "u3_ma4", label: "Linear Congruences: $ax \\equiv b \\pmod m$", type: "subtopic", details: "Solvable $\\iff d = \\gcd(a, m) \\mid b$; exactly $d$ mutually incongruent solutions modulo $m$." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit4",
+          label: "Unit 4: Group Theory & Symmetries of a Square",
+          badge: "Unit 4",
+          type: "unit",
+          color: "#059669",
+          details: "Axiomatic group definition, properties, dihedral group $D_4$ of symmetries of a square, order of groups & elements, subgroup criteria, center $Z(G)$, and centralizers $C(a)$.",
+          children: [
+            {
+              id: "u4_group_axioms",
+              label: "Group Axioms & Elementary Properties",
+              type: "topic",
+              details: "Abstract group structure and fundamental algebraic laws.",
+              children: [
+                { id: "u4_ga1", label: "Group Axioms $(G, *)$: Closure, Associativity, Identity, Inverse", type: "subtopic", details: "A set $G$ with binary operation $*$ satisfying the four group axioms." },
+                { id: "u4_ga2", label: "Uniqueness of Identity & Inverses: $(ab)^{-1} = b^{-1}a^{-1}$", type: "subtopic", details: "The identity element and the inverse of each element are uniquely determined; Socks-and-Shoes rule." },
+                { id: "u4_ga3", label: "Cancellation Laws & Abelian (Commutative) Groups", type: "subtopic", details: "Left and right cancellation: $ab = ac \\implies b = c$; Abelian groups satisfy $ab = ba$." }
+              ]
+            },
+            {
+              id: "u4_dihedral_square",
+              label: "Symmetries of a Square & Dihedral Group $D_4$",
+              type: "topic",
+              details: "Geometric rigid motions and permutation structure of $D_4$.",
+              children: [
+                { id: "u4_ds1", label: "8 Geometric Symmetries: 4 Rotations ($R_0, R_{90}, R_{180}, R_{270}$) + 4 Reflections ($H, V, D_1, D_2$)", type: "subtopic", details: "The 8 rigid transformations preserving a regular square in the plane." },
+                { id: "u4_ds2", label: "Dihedral Group Structure: $|D_4| = 8$, $\\langle r, s \\mid r^4 = e, s^2 = e, srs = r^{-1} \\rangle$", type: "subtopic", details: "Non-abelian group generated by $90^\\circ$ rotation $r$ and reflection $s$." },
+                { id: "u4_ds3", label: "Cayley Table & Non-Commutativity ($sr = r^3 s \\ne rs$)", type: "subtopic", details: "Composition of symmetries demonstrating that $D_4$ is non-abelian." }
+              ]
+            },
+            {
+              id: "u4_element_orders",
+              label: "Order of a Group & Order of an Element",
+              type: "topic",
+              details: "Order characteristics and periodicity in groups.",
+              children: [
+                { id: "u4_eo1", label: "Order of Group $|G|$ & Order of Element $o(a) = \\min\\{k \\in \\mathbb{N} \\mid a^k = e\\}$", type: "subtopic", details: "Finite order $o(a) = n$ or infinite order if $a^k \\ne e$ for all $k \\ge 1$." },
+                { id: "u4_eo2", label: "Order Properties: $a^m = e \\iff o(a) \\mid m$", type: "subtopic", details: "Equal orders: $o(a) = o(a^{-1})$ and conjugate order invariance $o(x a x^{-1}) = o(a)$." },
+                { id: "u4_eo3", label: "Order of Powers: $o(a^k) = \\frac{o(a)}{\\gcd(k, o(a))}$", type: "subtopic", details: "Fundamental formula determining the exact order of any power $a^k$." }
+              ]
+            },
+            {
+              id: "u4_subgroups_center",
+              label: "Subgroups, Centre & Centralizers",
+              type: "topic",
+              details: "Subgroup structures, centrality, and commutation sets.",
+              children: [
+                { id: "u4_sc1", label: "Subgroup Criteria ($H \\le G$): $ab^{-1} \\in H$ (One-Step Test)", type: "subtopic", details: "Non-empty subset $H$ forming a group under induced operation; two-step and finite subgroup tests." },
+                { id: "u4_sc2", label: "Centre of a Group $Z(G) = \\{z \\in G \\mid zg = gz,\\, \\forall g \\in G\\}$", type: "subtopic", details: "Abelian characteristic subgroup; for $D_4$, $Z(D_4) = \\{R_0, R_{180}\\}$." },
+                { id: "u4_sc3", label: "Centralizer of an Element $C(a) = \\{g \\in G \\mid ga = ag\\}$", type: "subtopic", details: "Subgroup of elements commuting with $a$; center is the intersection $Z(G) = \\bigcap_{a \\in G} C(a)$." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit5",
+          label: "Unit 5: Cyclic Groups & Subgroup Classification",
+          badge: "Unit 5",
+          type: "unit",
+          color: "#7C3AED",
+          details: "Cyclic group structure, generators, Euler's totient function, Fundamental Theorem of Cyclic Groups, order of subgroups, and lattice classification.",
+          children: [
+            {
+              id: "u5_cyclic_properties",
+              label: "Cyclic Groups & Elementary Properties",
+              type: "topic",
+              details: "Single-generator group structures.",
+              children: [
+                { id: "u5_cp1", label: "Definition: $G = \\langle a \\rangle = \\{a^k \\mid k \\in \\mathbb{Z}\\}$", type: "subtopic", details: "Group generated by a single element $a$; finite $\\{e, a, a^2, \\dots, a^{n-1}\\}$ or infinite." },
+                { id: "u5_cp2", label: "Abelian Property: Every Cyclic Group is Abelian ($a^i a^j = a^j a^i = a^{i+j}$)", type: "subtopic", details: "Commutativity holds universally for any powers of a single generator." },
+                { id: "u5_cp3", label: "Standard Models: $(\\mathbb{Z}, +)$ and $(\\mathbb{Z}_n, +_n)$", type: "subtopic", details: "Every infinite cyclic group is isomorphic to $\\mathbb{Z}$; every finite cyclic group of order $n$ is isomorphic to $\\mathbb{Z}_n$." }
+              ]
+            },
+            {
+              id: "u5_generators",
+              label: "Generators of Cyclic Groups & Euler's $\\phi$",
+              type: "topic",
+              details: "Identification and enumeration of generators.",
+              children: [
+                { id: "u5_gn1", label: "Generator Condition: $\\langle a^k \\rangle = \\langle a^{\\gcd(k, n)} \\rangle$", type: "subtopic", details: "$a^k$ generates the cyclic group $G = \\langle a \\rangle$ of order $n$ if and only if $\\gcd(k, n) = 1$." },
+                { id: "u5_gn2", label: "Number of Generators: Exactly $\\phi(n)$ Generators", type: "subtopic", details: "Count of generators equals Euler's phi function $\\phi(n) = n \\prod_{p \\mid n}(1 - \\frac{1}{p})$." },
+                { id: "u5_gn3", label: "Generators of $(\\mathbb{Z}, +)$ are $\\{1, -1\\}$; Generators of $\\mathbb{Z}_n$ are $\{k \\mid \\gcd(k, n) = 1\}$", type: "subtopic", details: "Explicit identification of all generators in standard cyclic groups." }
+              ]
+            },
+            {
+              id: "u5_subgroup_classification",
+              label: "Classification of Subgroups of Cyclic Groups",
+              type: "topic",
+              details: "Fundamental theorem and divisor-lattice correspondence.",
+              children: [
+                { id: "u5_sg1", label: "Fundamental Theorem of Cyclic Groups: Subgroups are Cyclic", type: "subtopic", details: "Every subgroup of a cyclic group is cyclic. The order of every subgroup divides $|G|$." },
+                { id: "u5_sg2", label: "Unique Subgroup for Each Divisor $d \\mid n$: $H = \\langle a^{n/d} \\rangle$ of Order $d$", type: "subtopic", details: "Bijection between positive divisors of $n$ and subgroups of $\\mathbb{Z}_n$." },
+                { id: "u5_sg3", label: "Subgroup Lattice Inclusions: $\\langle a^s \\rangle \\le \\langle a^t \\rangle \\iff \\gcd(t, n) \\mid \\gcd(s, n)$", type: "subtopic", details: "Lattice diagram of subgroups is isomorphic to the divisor lattice of integer $n$." },
+                { id: "u5_sg4", label: "Elements of Order $d$: Exactly $\\phi(d)$ Elements and $\\sum_{d \\mid n} \\phi(d) = n$", type: "subtopic", details: "Gauss's identity partitioning the elements of a finite cyclic group by their orders." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "MATSE21": {
+    id: "MATSE21",
+    code: "MATSE21",
+    title: "LaTeX Typesetting for Beginners",
+    department: "Department of Mathematics",
+    semester: 2,
+    credits: 2,
+    course_type: "Skill Enhancement",
+    summary: "Hands-on guide to LaTeX document preparation: installation, environment setup, document structure, typography, lists, sections, cross-referencing, AMS-LaTeX mathematics, matrices, tables, floating figures, and text wrapping.",
+    root: {
+      id: "root",
+      label: "LaTeX Typesetting for Beginners",
+      badge: "MATSE21 • Sem 2",
+      type: "root",
+      details: "2 Credits Skill Enhancement Course. Grounded in BHU UG NEP Syllabus covering LaTeX Document Architecture, Preamble Setup, Text Typography, Mathematical Typesetting, Tables, and Float Graphics.",
+      children: [
+        {
+          id: "unit1",
+          label: "Unit 1: Introduction, Architecture & Text Formatting",
+          badge: "Unit 1",
+          type: "unit",
+          color: "#4F46E5",
+          details: "Overview of LaTeX ecosystem, distributions (MikTeX, TeX Live), editors (TeXworks, Overleaf), preamble configuration, document classes, text styling, lists, special characters, sectioning hierarchy, table of contents, and cross-referencing.",
+          children: [
+            {
+              id: "u1_intro_setup",
+              label: "LaTeX Overview & Environment Setup",
+              type: "topic",
+              details: "Toolchain, distributions, compilers, and editor setup.",
+              children: [
+                { id: "u1_is1", label: "LaTeX vs WYSIWYG & Philosophy of TeX", type: "subtopic", details: "High-quality programmatic typesetting system separating visual presentation from structural logical content." },
+                { id: "u1_is2", label: "Distributions & Compilers (TeX Live, MikTeX, MacTeX, pdfLaTeX)", type: "subtopic", details: "Core TeX engines compiling `.tex` source code into publication-grade vector PDF output." },
+                { id: "u1_is3", label: "Editors & Cloud Platforms (Overleaf, TeXworks, TeXstudio, VS Code)", type: "subtopic", details: "Interactive IDEs offering syntax highlighting, autocompletion, SyncTeX forward/reverse lookup, and real-time collaboration." }
+              ]
+            },
+            {
+              id: "u1_doc_structure",
+              label: "Document Structure & Preamble",
+              type: "topic",
+              details: "Preamble configuration, document classes, and environment encapsulation.",
+              children: [
+                { id: "u1_ds1", label: "Document Class: `\\documentclass[11pt,a4paper]{article}`", type: "subtopic", details: "Standard layout classes (`article`, `report`, `book`, `beamer`, `letter`) defining document type and page geometry." },
+                { id: "u1_ds2", label: "Preamble & Package Ingestion (`\\usepackage{amsmath,graphicx,hyperref}`)", type: "subtopic", details: "Global metadata declaration, font configuration, custom macros (`\\newcommand`), and package imports before `\\begin{document}`." },
+                { id: "u1_ds3", label: "Document Body: `\\begin{document}` ... `\\end{document}`", type: "subtopic", details: "Encapsulation of main content, title page generation (`\\maketitle`), and abstract environment." }
+              ]
+            },
+            {
+              id: "u1_text_formatting",
+              label: "Text Typography & Special Symbols",
+              type: "topic",
+              details: "Font weights, shapes, sizes, paragraph alignment, and reserved characters.",
+              children: [
+                { id: "u1_tf1", label: "Font Styles: `\\textbf{}`, `\\textit{}`, `\\texttt{}`, `\\textsc{}`, `\\underline{}`", type: "subtopic", details: "Typeface modifiers for boldface, italics, typewriter monospace, small caps, and underline." },
+                { id: "u1_tf2", label: "Font Sizes: `\\tiny`, `\\small`, `\\normalsize`, `\\large`, `\\Large`, `\\huge`", type: "subtopic", details: "Relative size escalators scaling typography proportionally to base document font." },
+                { id: "u1_tf3", label: "Paragraph Flow: `\\centering`, `\\raggedright`, `\\raggedleft`, `\\noindent`", type: "subtopic", details: "Alignment controls, horizontal spacing (`\\quad`, `\\hspace{}`), line breaks (`\\\\`), and vertical spacing (`\\vspace{}`)." },
+                { id: "u1_tf4", label: "Escaping Special Characters: `\\#`, `\\$`, `\\%`, `\\&`, `\\_`, `\\{`, `\\}`", type: "subtopic", details: "Handling reserved TeX control symbols and printing backslashes (`\\textbackslash`) and tildes (`\\textasciitilde`)." }
+              ]
+            },
+            {
+              id: "u1_lists_sections",
+              label: "Lists, Hierarchy & Cross-Referencing",
+              type: "topic",
+              details: "List environments, hierarchical sections, automated table of contents, and references.",
+              children: [
+                { id: "u1_ls1", label: "List Environments: `itemize`, `enumerate`, `description`", type: "subtopic", details: "Bulleted lists, numbered/alphabetical enumerations with multi-level nesting, and definition term lists." },
+                { id: "u1_ls2", label: "Sectioning Hierarchy: `\\section{}`, `\\subsection{}`, `\\subsubsection{}`", type: "subtopic", details: "Automated numbering and indexing of document chapters, sections, paragraphs, and unnumbered variants (`\\section*{}`)." },
+                { id: "u1_ls3", label: "Table of Contents & Headers: `\\tableofcontents`, `\\pagestyle{}`", type: "subtopic", details: "Automated TOC extraction, header/footer configuration (`fancyhdr`), and page numbering styles." },
+                { id: "u1_ls4", label: "Cross-Referencing & Hyperlinks: `\\label{}`, `\\ref{}`, `\\pageref{}`, `\\href{}`", type: "subtopic", details: "Dynamic internal referencing to sections, equations, tables, figures, and interactive web hyperlinks via `hyperref`." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit2",
+          label: "Unit 2: Mathematical Typesetting, Tables & Figures",
+          badge: "Unit 2",
+          type: "unit",
+          color: "#0891B2",
+          details: "Inline and display math modes, AMS-LaTeX environments (equation, align, gather, multline), matrix typesetting, symbols, tabular structures, captioning, graphic inclusion (graphicx), floating figure placement, and text wrapping.",
+          children: [
+            {
+              id: "u2_math_modes",
+              label: "Math Modes & AMS-LaTeX Packages",
+              type: "topic",
+              details: "Mathematical notation modes and symbol libraries.",
+              children: [
+                { id: "u2_mm1", label: "Inline Math ($...$ or `\\(...\\)`) vs Display Math (`\\[...\\]` or `$$...$$`)", type: "subtopic", details: "In-line flowing formula typography versus centered standalone display mathematics." },
+                { id: "u2_mm2", label: "AMS Packages: `amsmath`, `amssymb`, `mathtools`", type: "subtopic", details: "Extended mathematical symbols, blackboard bold ($\\mathbb{R}, \\mathbb{C}, \\mathbb{Z}$), calligraphic ($\\mathcal{F}$), and Fraktur alphabets." },
+                { id: "u2_mm3", label: "Mathematical Accents & Vectors: `\\vec{v}`, `\\hat{x}`, `\\bar{z}`, `\\dot{y}`", type: "subtopic", details: "Overline accents, unit vectors, complex conjugates, and time derivative notations." }
+              ]
+            },
+            {
+              id: "u2_math_environments",
+              label: "Equations, Alignments & Matrices",
+              type: "topic",
+              details: "Multi-line derivations, matrix layouts, fractions, and delimiters.",
+              children: [
+                { id: "u2_me1", label: "Equation Environments: `\\begin{equation}` and `\\begin{equation*}`", type: "subtopic", details: "Single-line numbered and unnumbered centered mathematical equations with anchor labels for referencing." },
+                { id: "u2_me2", label: "Multi-line Alignment: `align`, `align*`, `split`, `gather`, `multline`", type: "subtopic", details: "Aligning step-by-step mathematical proofs on equals signs (`&=`) and breaking long expressions." },
+                { id: "u2_me3", label: "Matrix Environments: `matrix`, `pmatrix`, `bmatrix`, `vmatrix`", type: "subtopic", details: "Typesetting matrices with parentheses $\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$, brackets, and determinants." },
+                { id: "u2_me4", label: "Fractions, Limits, Sums & Scaling Delimiters: `\\frac{a}{b}`, `\\sum`, `\\left( \\dots \\right)`", type: "subtopic", details: "Automatic vertical sizing for parentheses, brackets, integrals $\\int_a^b$, and large operators." }
+              ]
+            },
+            {
+              id: "u2_tables",
+              label: "Tables & Tabular Formatting",
+              type: "topic",
+              details: "Grid structures, column specifications, multi-cell spans, and publication styling.",
+              children: [
+                { id: "u2_tb1", label: "Tabular Environment: `\\begin{tabular}{|l|c|r|p{3cm}|}`", type: "subtopic", details: "Defining column alignments (left, center, right, paragraph width), vertical lines, and horizontal rules (`\\hline`)." },
+                { id: "u2_tb2", label: "Cell Merging: `\\multicolumn{n}{align}{text}` & `\\multirow{n}{width}{text}`", type: "subtopic", details: "Spanning data cells horizontally and vertically across multiple rows and columns." },
+                { id: "u2_tb3", label: "Professional Typography with `booktabs`: `\\toprule`, `\\midrule`, `\\bottomrule`", type: "subtopic", details: "High-grade scientific table design eliminating harsh vertical gridlines." }
+              ]
+            },
+            {
+              id: "u2_figures_graphics",
+              label: "Graphics Inclusion, Floats & Text Wrapping",
+              type: "topic",
+              details: "Image loading, float placement algorithms, captions, and text flow wrapping.",
+              children: [
+                { id: "u2_fg1", label: "Image Insertion: `\\includegraphics[width=0.8\\textwidth]{figure.png}`", type: "subtopic", details: "Ingesting PNG, JPG, EPS, and vector PDF figures via the standard `graphicx` package." },
+                { id: "u2_fg2", label: "Floating Figures: `\\begin{figure}[htbp]` & Placement Specifiers", type: "subtopic", details: "Float management engine positioning figures at here (`h`), top (`t`), bottom (`b`), or float page (`p`)." },
+                { id: "u2_fg3", label: "Captions & Subfigures: `\\caption{}`, `\\label{}`, `subcaption` Package", type: "subtopic", details: "Numbered figure descriptions, automated List of Figures generation, and side-by-side subfigures (`\\begin{subfigure}`)." },
+                { id: "u2_fg4", label: "Text Wrapping: `wrapfig` Package (`\\begin{wrapfigure}{r}{0.4\\textwidth}`)", type: "subtopic", details: "Wrapping body text paragraphs dynamically around images and diagram boxes." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
   "MATMJ31": {
     id: "MATMJ31",
     code: "MATMJ31",

@@ -14,16 +14,20 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Matrices, matrix addition, and multiplication. Determinants. Elementary row and column operations, Echelon form, rank of a matrix. The inverse of a matrix. Solution of a system of linear equations using matrices and determinants. 15 470 Course Title"
+              "topics": "Matrices, matrix addition, and multiplication. Determinants. Elementary row and column operations, Echelon form, rank of a matrix. The inverse of a matrix. Solution of a system of linear equations using matrices and determinants."
             },
             {
               "unit": 2,
-              "topics": "Geometric and Arithmetic Sequences, Monotone Sequences, Limit of a Sequence, Discrete Difference Equations, Linear Difference Equation with Constant Coefficients, Introduction to Pharmacokinetics. 15"
+              "topics": "Geometric and Arithmetic Sequences, Monotone Sequences, Limit of a Sequence, Discrete Difference Equations, Linear Difference Equation with Constant Coefficients, Introduction to Pharmacokinetics."
             },
             {
               "unit": 3,
-              "topics": "Limit of a Function, Limit Properties, Right and Left Limits, Continuity, Intermediate Value Theorem, Average Rate of Change, Estimating Rates of Change for Data, Velocity, Examples of Rates of Change. 15 Texts /"
+              "topics": "Limit of a Function, Limit Properties, Right and Left Limits, Continuity, Intermediate Value Theorem, Average Rate of Change, Estimating Rates of Change for Data, Velocity, Examples of Rates of Change."
             }
+          ],
+          "suggested_books": [
+            "Erin N. Bodine, Suzanne Lenhart, and Louis J. Gross, Mathematics for the Life Sciences, Princeton University Press, 2014.",
+            "Robert G. Bartle and Donald R. Sherbert, Introduction to Real Analysis, John Wiley and Sons, Inc., New York, 2011."
           ]
         },
         {
@@ -34,52 +38,64 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Series: Sequences and their limits. Theorems on limits. Convergent and divergent sequences. Monotone Sequences. Subsequences and the Bolzano-Weierstrass Theorem. 12 468 Course Title"
+              "topics": "Sequences and their limits. Theorems on limits. Convergent and divergent sequences. Monotone Sequences. Subsequences and the Bolzano-Weierstrass Theorem."
             },
             {
               "unit": 2,
-              "topics": "Series: The Cauchy Criterion. Convergent, Divergent, and Oscillatory series, Comparison test, D'Alembert's ratio test. Raabe\u2019s test. Cauchy\u2019s nth root test. 12"
+              "topics": "Series: The Cauchy Criterion. Convergent, Divergent, and Oscillatory series, Comparison test, D'Alembert's ratio test, Raabe's test, Cauchy's nth root test."
             },
             {
               "unit": 3,
-              "topics": "Limit and Continuity: Limits of functions, Algebra of limits. Continuity and uniform continuity of functions, Intermediate value theorem. Differentiability. Chain rule of differentiation. 12"
+              "topics": "Limit and Continuity: Limits of functions, Algebra of limits. Continuity and uniform continuity of functions, Intermediate value theorem. Differentiability. Chain rule of differentiation."
             },
             {
               "unit": 4,
-              "topics": "Darboux's theorem, Rolle's theorem, and Mean value theorems. Leibnitz theorem. Taylor's and Maclaurin's theorems. Maxima and Minima of functions. Nowhere differentiable functions. 12"
+              "topics": "Darboux's theorem, Rolle's theorem, and Mean value theorems. Leibnitz theorem. Taylor's and Maclaurin's theorems. Maxima and Minima of functions. Nowhere differentiable functions."
             },
             {
               "unit": 5,
-              "topics": "Curvature. Asymptotes. Concavity and Convexity: Point of Inflexion, Singular Points. Tracing of plane curves (Cartesian and polar). Definite Integral as the limit of sum. 12 Texts /"
+              "topics": "Curvature. Asymptotes. Concavity and Convexity: Point of Inflexion, Singular Points. Tracing of plane curves (Cartesian and polar). Definite Integral as the limit of sum."
             }
+          ],
+          "suggested_books": [
+            "Robert G. Bartle and Donald R. Sherbert, Introduction to Real Analysis, John Wiley and Sons, Inc., 2011.",
+            "George B. Thomas and Ross L. Finney, Calculus and Analytic Geometry, Addison-Wesley / Pearson.",
+            "Howard Anton, Irl Bivens, Stephen Davis, Calculus, John Wiley and Sons.",
+            "Shanti Narayan and P.K. Mittal, Differential Calculus, S. Chand Publishing."
           ]
         },
         {
           "code": "MATMN11",
           "name": "Calculus",
           "credits": 4,
-          "course_type": "Major",
+          "course_type": "Minor",
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Series: Sequences and their limits. Theorems on limits. Convergent and divergent sequences. Monotone Sequences. Subsequences and the Bolzano-Weierstrass Theorem. 12 468 Course Title"
+              "topics": "Sequences and their limits. Theorems on limits. Convergent and divergent sequences. Monotone Sequences. Subsequences and the Bolzano-Weierstrass Theorem."
             },
             {
               "unit": 2,
-              "topics": "Series: The Cauchy Criterion. Convergent, Divergent, and Oscillatory series, Comparison test, D'Alembert's ratio test. Raabe\u2019s test. Cauchy\u2019s nth root test. 12"
+              "topics": "Series: The Cauchy Criterion. Convergent, Divergent, and Oscillatory series, Comparison test, D'Alembert's ratio test, Raabe's test, Cauchy's nth root test."
             },
             {
               "unit": 3,
-              "topics": "Limit and Continuity: Limits of functions, Algebra of limits. Continuity and uniform continuity of functions, Intermediate value theorem. Differentiability. Chain rule of differentiation. 12"
+              "topics": "Limit and Continuity: Limits of functions, Algebra of limits. Continuity and uniform continuity of functions, Intermediate value theorem. Differentiability. Chain rule of differentiation."
             },
             {
               "unit": 4,
-              "topics": "Darboux's theorem, Rolle's theorem, and Mean value theorems. Leibnitz theorem. Taylor's and Maclaurin's theorems. Maxima and Minima of functions. Nowhere differentiable functions. 12"
+              "topics": "Darboux's theorem, Rolle's theorem, and Mean value theorems. Leibnitz theorem. Taylor's and Maclaurin's theorems. Maxima and Minima of functions. Nowhere differentiable functions."
             },
             {
               "unit": 5,
-              "topics": "Curvature. Asymptotes. Concavity and Convexity: Point of Inflexion, Singular Points. Tracing of plane curves (Cartesian and polar). Definite Integral as the limit of sum. 12 Texts /"
+              "topics": "Curvature. Asymptotes. Concavity and Convexity: Point of Inflexion, Singular Points. Tracing of plane curves (Cartesian and polar). Definite Integral as the limit of sum."
             }
+          ],
+          "suggested_books": [
+            "Robert G. Bartle and Donald R. Sherbert, Introduction to Real Analysis, John Wiley and Sons, Inc., 2011.",
+            "George B. Thomas and Ross L. Finney, Calculus and Analytic Geometry, Addison-Wesley / Pearson.",
+            "Howard Anton, Irl Bivens, Stephen Davis, Calculus, John Wiley and Sons.",
+            "Shanti Narayan and P.K. Mittal, Differential Calculus, S. Chand Publishing."
           ]
         },
         {
@@ -90,16 +106,22 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Ethics in Higher Education and Academic Research. Ethics of Publication. Ethical Practices in Science Outreach. Ethical Issues Associated with Gender-Bias. 15 469 Course Title"
+              "topics": "Ethics in Higher Education and Academic Research. Ethics of Publication. Ethical Practices in Science Outreach. Ethical Issues Associated with Gender-Bias."
             },
             {
               "unit": 2,
-              "topics": "Six proofs of the infinity of primes. Binomial coefficients are (almost) never powers. Representing numbers as sums of two squares. Three applications of Euler's formula. Sets, functions, and the continuum hypothesis. In praise of inequalities. 15"
+              "topics": "Six proofs of the infinity of primes. Binomial coefficients are (almost) never powers. Representing numbers as sums of two squares. Three applications of Euler's formula. Sets, functions, and the continuum hypothesis. In praise of inequalities."
             },
             {
               "unit": 3,
-              "topics": "Some irrational numbers. The golden mean and other roots. \ud835\udc52: The queen of growth and decay. Logarithms. Infinite series: Fractals and the myth of forever. Fibonacci Numbers. 15 Texts /"
+              "topics": "Some irrational numbers. The golden mean and other roots. e: The queen of growth and decay. Logarithms. Infinite series: Fractals and the myth of forever. Fibonacci Numbers."
             }
+          ],
+          "suggested_books": [
+            "A. Ghosh, A.K. Singhvi, K. Muralidhar (Editors), Ethics in Science Education, Research and Governance, INSA, 2019.",
+            "M. Aigner and M. Ziegler, Proofs from THE BOOK, Springer, 2001.",
+            "A. Khare and A. Lachowska, Beautiful, Simple, Exact, Crazy: Mathematics in the Real World, Yale University Press, 2015.",
+            "J. Matousek, Thirty-three Miniatures: Mathematical and Algorithmic Applications of Linear Algebra, American Mathematical Society, 1991."
           ]
         }
       ]
@@ -115,16 +137,21 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Concept of a Derivative, Limit Definition of a Derivative of a Function, Derivatives of Exponential Functions, Derivatives of Trigonometric Functions, Derivatives and Continuity, Derivatives of Logarithmic Functions. 15 474 Course Title"
+              "topics": "Concept of a Derivative, Limit Definition of a Derivative of a Function, Derivatives of Exponential Functions, Derivatives of Trigonometric Functions, Derivatives and Continuity, Derivatives of Logarithmic Functions."
             },
             {
               "unit": 2,
-              "topics": "The Chain Rule for the Composition of Functions, Quotient and Reciprocal Rules, Exponential Models, Higher Derivatives. 15"
+              "topics": "The Chain Rule for the Composition of Functions, Quotient and Reciprocal Rules, Exponential Models, Higher Derivatives."
             },
             {
               "unit": 3,
-              "topics": "Maxima and Minima, First Derivative Test, Mean Value Theorem, Concavity, Optimization Problems. 15 Texts /"
+              "topics": "Maxima and Minima, First Derivative Test, Mean Value Theorem, Concavity, Optimization Problems."
             }
+          ],
+          "suggested_books": [
+            "Erin N. Bodine, Suzanne Lenhart, and Louis J. Gross, Mathematics for the Life Sciences, Princeton University Press, 2014.",
+            "William F. Trench, Introduction to Real Analysis, Pearson Education, 2003.",
+            "George B. Thomas, Ross L. Finney, Calculus and Analytic Geometry, 1998."
           ]
         },
         {
@@ -135,24 +162,31 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Real and complex numbers, roots of complex numbers, the nth roots of unity, and geometrical representation. 12 472 Course Title"
+              "topics": "Real and complex numbers, roots of complex numbers, the nth roots of unity, and geometrical representation."
             },
             {
               "unit": 2,
-              "topics": "Polynomials, roots of polynomial, Fundamental theorem of algebra, Relations between the roots and the coefficients, imaginary roots, integral and rational roots; Newton's method for integral roots. 12"
+              "topics": "Polynomials, roots of polynomial, Fundamental theorem of algebra, Relations between the roots and the coefficients, imaginary roots, integral and rational roots; Newton's method for integral roots."
             },
             {
               "unit": 3,
-              "topics": "Relation, equivalence relation, and equivalence class. Division algorithm in \u2124, Divisibility, and the Euclidean algorithm, Fundamental theorem of arithmetic, Modular arithmetic, and basic properties of congruence. 12"
+              "topics": "Relation, equivalence relation, and equivalence class. Division algorithm in \u2124, Divisibility, and the Euclidean algorithm, Fundamental theorem of arithmetic, Modular arithmetic, and basic properties of congruence."
             },
             {
               "unit": 4,
-              "topics": "Groups, Basic properties of groups, Symmetries of a square, Dihedral group, Order of a group, Order of an element, Subgroups, Centre of a group, Centralizer of an element. 12"
+              "topics": "Groups, Basic properties of groups, Symmetries of a square, Dihedral group, Order of a group, Order of an element, Subgroups, Centre of a group, Centralizer of an element."
             },
             {
               "unit": 5,
-              "topics": "Cyclic groups and properties, Generators of a cyclic group, Classification of subgroups of cyclic groups. 12 Texts /"
+              "topics": "Cyclic groups and properties, Generators of a cyclic group, Classification of subgroups of cyclic groups."
             }
+          ],
+          "suggested_books": [
+            "W.S. Burnside, and A.W. Panton, The Theory of Equations, Vol. 1. Eleventh Edition, Dover Publications, Inc., 1979.",
+            "David M. Burton. Elementary Number Theory, 7th Edition, McGraw-Hill Education, 2011.",
+            "Leonard Eugene Dickson, First Course in the Theory of Equations. John Wiley & Sons, Inc., 2009.",
+            "I.N. Herstein, Topics in Algebra, John Wiley and Sons, 2nd edition, 2004.",
+            "D.S. Malik, J.M. Mordeson and M.K. Sen, Fundamentals of Abstract Algebra, The McGraw-Hill Companies, Inc., 1997."
           ]
         },
         {
@@ -163,8 +197,31 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "MAT-Minor* (4) Algebra 4"
+              "topics": "Real and complex numbers, roots of complex numbers, the nth roots of unity, and geometrical representation."
+            },
+            {
+              "unit": 2,
+              "topics": "Polynomials, roots of polynomial, Fundamental theorem of algebra, Relations between the roots and the coefficients, imaginary roots, integral and rational roots; Newton's method for integral roots."
+            },
+            {
+              "unit": 3,
+              "topics": "Relation, equivalence relation, and equivalence class. Division algorithm in \u2124, Divisibility, and the Euclidean algorithm, Fundamental theorem of arithmetic, Modular arithmetic, and basic properties of congruence."
+            },
+            {
+              "unit": 4,
+              "topics": "Groups, Basic properties of groups, Symmetries of a square, Dihedral group, Order of a group, Order of an element, Subgroups, Centre of a group, Centralizer of an element."
+            },
+            {
+              "unit": 5,
+              "topics": "Cyclic groups and properties, Generators of a cyclic group, Classification of subgroups of cyclic groups."
             }
+          ],
+          "suggested_books": [
+            "W.S. Burnside, and A.W. Panton, The Theory of Equations, Vol. 1. Eleventh Edition, Dover Publications, Inc., 1979.",
+            "David M. Burton. Elementary Number Theory, 7th Edition, McGraw-Hill Education, 2011.",
+            "Leonard Eugene Dickson, First Course in the Theory of Equations. John Wiley & Sons, Inc., 2009.",
+            "I.N. Herstein, Topics in Algebra, John Wiley and Sons, 2nd edition, 2004.",
+            "D.S. Malik, J.M. Mordeson and M.K. Sen, Fundamentals of Abstract Algebra, The McGraw-Hill Companies, Inc., 1997."
           ]
         },
         {
@@ -175,12 +232,17 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Introduction to LaTeX: Overview of LaTeX and its uses, Installing LaTeX (MikTeX/TeX Live) and an editor (TeXworks/Overleaf), Creating your first LaTeX document, Document structure: preamble, document body, and sections, Compiling LaTeX documents (PDF output)Text Formatting: Basic text formatting (bold, italics, underline, Fonts and sizes, Paragraph formatting (alignment, spacing, indentation, Lists: itemized, enumerated, and description lists, Special characters and symbols. Document Structure and Sections: Creating titles, sections, subsections, and chapters, Table of contents, lists of figures, and tables; page styles: headers, footers, and page numbers; Cross-referencing within the document. 10 473 Course Title"
+              "topics": "Introduction to LaTeX: Overview of LaTeX and its uses, Installing LaTeX (MikTeX/TeX Live) and an editor (TeXworks/Overleaf), Creating your first LaTeX document, Document structure: preamble, document body, and sections, Compiling LaTeX documents (PDF output). Text Formatting: Basic text formatting (bold, italics, underline), Fonts and sizes, Paragraph formatting (alignment, spacing, indentation), Lists: itemized, enumerated, and description lists, Special characters and symbols. Document Structure and Sections: Creating titles, sections, subsections, and chapters, Table of contents, lists of figures, and tables; page styles: headers, footers, and page numbers; Cross-referencing within the document."
             },
             {
               "unit": 2,
-              "topics": "Working with Mathematical Content: Basic mathematical symbols and equations, Display vs. inline math, Aligning equations, Common math environments (e.g., equation, align), Numbering and referencing equations. Tables and Figures: Creating tables: basic and complex tables, Adding captions and labels to tables, Inserting images and figures, Image formats and sizing, Positioning images within the text, Wrapping text around images 10"
+              "topics": "Working with Mathematical Content: Basic mathematical symbols and equations, Display vs. inline math, Aligning equations, Common math environments (e.g., equation, align), Numbering and referencing equations. Tables and Figures: Creating tables: basic and complex tables, Adding captions and labels to tables, Inserting images and figures, Image formats and sizing, Positioning images within the text, Wrapping text around images."
             }
+          ],
+          "suggested_books": [
+            "Donald E. Knuth, The TEXbook, Addison-Wesley Publishing Company, 1991.",
+            "Leslie Lamport, LaTeX: A Document Preparation System, Addison-Wesley Publishing Company, 1994.",
+            "Michael Spivak, The Joy of TeX: A Gourmet Guide to Typesetting with the AMSTeX, American Mathematical Society, 1990."
           ]
         }
       ]
