@@ -4660,8 +4660,571 @@ const PREDEFINED_MINDMAPS = {
         }
       ]
     }
+  },
+  "GGRMJ51": {
+    id: "GGRMJ51",
+    code: "GGRMJ51",
+    title: "Climatology",
+    department: "Department of Geography",
+    semester: 5,
+    credits: 4,
+    course_type: "Major",
+    summary: "Comprehensive mind map covering Basics of Climatology & Data Sources, Atmospheric Structure & Insolation Heat Budget, Atmospheric Dynamics & Global Circulation, Weather Phenomena (Clouds, Precipitation, Fronts, Cyclones, Jet Streams & Indian Monsoon), and Climatic Classifications & Climate Change.",
+    root: {
+      id: "root",
+      label: "Climatology",
+      badge: "GGRMJ51 • Sem 5",
+      type: "root",
+      details: "4 Credits Major Course (Department of Geography, BHU). Fundamental principles of atmospheric science, thermal and moisture regimes, pressure gradients and wind dynamics, weather phenomena and disturbances, world climatic classification systems, and paleoclimatic & anthropogenic climate change.",
+      children: [
+        {
+          id: "unit1",
+          label: "Unit 1: Basics of Climatology & Data Sources",
+          badge: "Unit 1",
+          type: "unit",
+          color: "#4F46E5",
+          details: "Meaning and scope of climatology, relationship with meteorology, historical evolution and modern quantitative/satellite trends, subdivisions (physical, dynamic, synoptic, applied, paleoclimatology), core weather and climate elements, and surface, upper-air, radar, and satellite data sources.",
+          children: [
+            {
+              id: "u1_scope_dev",
+              label: "1. Meaning, Scope & Evolution of Climatology",
+              type: "topic",
+              details: "Epistemological definition, boundaries, and historical transformation of climatology.",
+              children: [
+                { id: "u1_sd1", label: "Definition & Nature: Aggregate Weather Synthesis ($>30$ yr WMO Baseline)", type: "subtopic", details: "Climatology as the scientific study of collective atmospheric states, regional spatial patterns, and temporal variations over standard climatological normal periods (30 years)." },
+                { id: "u1_sd2", label: "Climatology vs Meteorology: Long-term Spatial Synthesis vs Instantaneous Physics", type: "subtopic", details: "Meteorology investigates short-term physical/thermodynamic atmospheric states for real-time forecasting, whereas climatology analyzes long-term statistical aggregates and spatial distributions." },
+                { id: "u1_sd3", label: "Historical Evolution: Greek 'Klima' to Humboldt & Quantitative Revolution", type: "subtopic", details: "From classical Greek latitudinal slope zones (klima) through Humboldtian isothermal mapping to modern quantitative numerical modeling." },
+                { id: "u1_sd4", label: "Recent Trends: Satellite Climatology, GCMs (CMIP6), GIS & Climate Informatics", type: "subtopic", details: "High-resolution satellite telemetry (INSAT, MODIS), General Circulation Models (GCMs), reanalysis grids (ERA5), and GIS-based spatial interpolation." }
+              ]
+            },
+            {
+              id: "u1_subdivisions",
+              label: "2. Subdivisions & Branches of Climatology",
+              type: "topic",
+              details: "Systematic classification of climatological specializations.",
+              children: [
+                { id: "u1_sb1", label: "Physical Climatology: Radiation Balance, Heat & Moisture Exchange", type: "subtopic", details: "Investigation of thermodynamic energy exchanges, surface heat budgets, and moisture transport in the earth-atmosphere system." },
+                { id: "u1_sb2", label: "Dynamic & Synoptic Climatology: Atmospheric Kinematics & Weather Disturbances", type: "subtopic", details: "Analysis of general circulation, jet streams, pressure wave patterns, air masses, frontal systems, and synoptic weather charts." },
+                { id: "u1_sb3", label: "Applied, Agro & Urban Climatology: Microclimates & Biometeorology", type: "subtopic", details: "Applications to agriculture (crop-weather models, growing degree days), urban heat islands (UHI), building design, and health/bioclimatology." },
+                { id: "u1_sb4", label: "Paleoclimatology: Geological Climates & Proxy Reconstructions", type: "subtopic", details: "Reconstruction of prehistoric climates using ice cores ($\\delta^{18}\\text{O}$), tree rings (dendrochronology), lake varves, pollen, and speleothems." }
+              ]
+            },
+            {
+              id: "u1_elements",
+              label: "3. Elements of Weather and Climate",
+              type: "topic",
+              details: "Physical atmospheric variables governing weather and climatic regimes.",
+              children: [
+                { id: "u1_el1", label: "Atmospheric Temperature: Insolation Gradient, Isotherms & Range ($T_{\\max}-T_{\\min}$)", type: "subtopic", details: "Thermal kinetic energy of air molecules, horizontal isothermal gradients, continentality effects, and diurnal/annual thermal ranges." },
+                { id: "u1_el2", label: "Atmospheric Pressure: Barometric Gradient ($1013.25\\text{ hPa} = 760\\text{ mm Hg}$)", type: "subtopic", details: "Weight of air column per unit area, altitudinal exponential pressure decrease, and isobaric horizontal gradients." },
+                { id: "u1_el3", label: "Atmospheric Moisture: Absolute, Specific & Relative Humidity ($RH = \\frac{e}{e_s} \\times 100\\%$)", type: "subtopic", details: "Vapor content parameters: vapor pressure ($e$), saturation vapor pressure ($e_s$), mixing ratio, dew point temperature ($T_d$), and wet-bulb depression." },
+                { id: "u1_el4", label: "Winds, Clouds & Precipitation: Vector Dynamics & Hydrometeors", type: "subtopic", details: "Wind direction/velocity vectors, cloud cover metrics (oktas, 0–8), and hydrometeors (rain, drizzle, snow, sleet, hail, dew, frost, fog)." }
+              ]
+            },
+            {
+              id: "u1_data_sources",
+              label: "4. Data Sources for Climatological Studies",
+              type: "topic",
+              details: "Observational networks, remote sensing instrumentation, and database repositories.",
+              children: [
+                { id: "u1_ds1", label: "Surface Observatories & AWS: Stevenson Screen & Standard Sensors", type: "subtopic", details: "Standardized meteorological shelter housing max/min thermometers, wet/dry psychrometers, barometers, cup anemometers, and Simon's rain gauges." },
+                { id: "u1_ds2", label: "Upper-Air Aerological Soundings: Radiosondes & Pilot Balloons", type: "subtopic", details: "Balloon-borne sensor packages measuring vertical profiles of temperature, pressure, humidity, and GPS wind tracking." },
+                { id: "u1_ds3", label: "Radar & Satellite Telemetry: Doppler Weather Radar ($Z\\text{-}R$) & Satellites (INSAT/NOAA)", type: "subtopic", details: "Doppler radar reflectivity for precipitation estimation; Geostationary (INSAT-3D/3DR, Meteosat) and Polar satellites (Terra/Aqua MODIS, NOAA AVHRR)." },
+                { id: "u1_ds4", label: "Gridded Reanalysis Datasets: IMD ($0.25^\\circ$), ECMWF ERA5 & NCEP/NCAR", type: "subtopic", details: "Multi-decadal assimilated global and national gridded climate datasets combining observational feeds with dynamic physical models." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit2",
+          label: "Unit 2: Functions of Atmosphere, Insolation, Stability & Wind Laws",
+          badge: "Unit 2",
+          type: "unit",
+          color: "#0891B2",
+          details: "Atmospheric composition and vertical thermal stratification, solar constant and radiation laws, global heat budget, temperature inversion, lapse rates and atmospheric stability criteria, forces governing horizontal wind motion (PGF, Coriolis, Friction), general three-cell atmospheric circulation, and air mass classification and modification.",
+          children: [
+            {
+              id: "u2_structure_comp",
+              label: "1. Composition & Vertical Stratification of Atmosphere",
+              type: "topic",
+              details: "Gaseous components, aerosols, and thermal/electrical atmospheric layers.",
+              children: [
+                { id: "u2_sc1", label: "Atmospheric Gases: Permanent ($N_2\\, 78.08\\%,\\, O_2\\, 20.95\\%,\\, Ar\\, 0.93\\%$) & Variable GHGs", type: "subtopic", details: "Homogeneous mixture in Homosphere (0–88 km); greenhouse gases ($CO_2\\, \\sim 420\\text{ ppm},\\, CH_4,\\, N_2O,\\, O_3$) and variable water vapor ($0\\text{–}4\\%$)." },
+                { id: "u2_sc2", label: "Troposphere & Tropopause: Normal Lapse Rate ($-6.5^\\circ\\text{C/km}$)", type: "subtopic", details: "Lowest 0–18 km (equator) / 0–8 km (poles); contains $75\\%$ mass, $99\\%$ moisture, and all convective weather; capped by dynamic tropopause." },
+                { id: "u2_sc3", label: "Stratosphere & Ozonosphere ($12\\text{–}50\\text{ km}$): UV Absorption & Inversion", type: "subtopic", details: "Isothermal lower zone, warming to $0^\\circ\\text{C}$ at Stratopause via ozone ($O_3$) Chapman cycle UV absorption ($200\\text{–}315\\text{ nm}$); stable stratified flight layer." },
+                { id: "u2_sc4", label: "Mesosphere & Thermosphere / Ionosphere ($50\\text{–}600\\text{ km}$): Coldest Layer & Auroras", type: "subtopic", details: "Mesosphere drops to $-90^\\circ\\text{C}$ (noctilucent clouds, meteor ablation); Thermosphere rises rapidly ($>1000^\\circ\\text{C}$, D/E/F ionized radio-reflecting layers, Auroras)." }
+              ]
+            },
+            {
+              id: "u2_insolation_heat",
+              label: "2. Insolation, Radiation Laws & Global Heat Budget",
+              type: "topic",
+              details: "Solar energy input, radiative transfer physics, and earth-atmosphere equilibrium.",
+              children: [
+                { id: "u2_ih1", label: "Solar Constant ($I_0 \\approx 1361\\text{ W/m}^2$) & Radiation Laws (Stefan-Boltzmann $E=\\sigma T^4$, Wien's $\\lambda_{\\max}$)", type: "subtopic", details: "Planck's spectral distribution, Stefan-Boltzmann total emittance ($E=\\sigma T^4$), and Wien's displacement law ($\\lambda_{\\max} = \\frac{2898}{T}\\ \\mu\\text{m}$, solar shortwave $0.5\\ \\mu\\text{m}$ vs terrestrial longwave $10\\ \\mu\\text{m}$)." },
+                { id: "u2_ih2", label: "Factors Controlling Insolation: Solar Angle (Lambert's Law), Day Length & Distance", type: "subtopic", details: "Angle of solar incidence ($\\cos\\theta$ zenith attenuation), diurnal duration, orbital eccentricity (Perihelion Jan 3 vs Aphelion July 4), and atmospheric scattering (Rayleigh vs Mie)." },
+                { id: "u2_ih3", label: "Global Heat Budget: Planetary Albedo ($35\\%$), Atmospheric ($14\\%$) & Surface Absorption ($51\\%$)", type: "subtopic", details: "100 units incoming solar: 35 reflected (27 clouds, 6 air, 2 ground), 14 absorbed by air, 51 absorbed by earth; balanced by terrestrial emission (23 latent heat, 9 sensible convection, 19 radiation)." },
+                { id: "u2_ih4", label: "Temperature Inversion: Ground Radiation, Subsidence, Frontal & Valley Drainage", type: "subtopic", details: "Negative lapse rate (warming aloft); clear calm winter night radiation cooling, subtropical anticyclonic subsidence, and katabatic valley frost hollows." }
+              ]
+            },
+            {
+              id: "u2_stability_lapse",
+              label: "3. Atmospheric Thermodynamics & Stability Criteria",
+              type: "topic",
+              details: "Adiabatic parcel thermodynamics, lapse rate comparisons, and buoyancy dynamics.",
+              children: [
+                { id: "u2_sl1", label: "Adiabatic Lapse Rates: Dry ($DALR = \\Gamma_d \\approx 9.8^\\circ\\text{C/km}$) vs Saturated ($SALR = \\Gamma_s \\approx 4\\text{–}7^\\circ\\text{C/km}$)", type: "subtopic", details: "Parcel cooling/warming without external heat exchange: dry rate $g/c_p \\approx 9.8^\\circ\\text{C/km}$; saturated rate is lower due to latent heat release of condensation." },
+                { id: "u2_sl2", label: "Environmental Lapse Rate ($ELR$): Actual Ambient Thermal Gradient", type: "subtopic", details: "Observed static vertical temperature profile measured by radiosonde soundings (mean global value $\\sim 6.5^\\circ\\text{C/km}$)." },
+                { id: "u2_sl3", label: "Atmospheric Stability Criteria: Absolute Stability, Instability & Conditional Instability", type: "subtopic", details: "Absolute Stability: $ELR < SALR < DALR$; Absolute Instability: $ELR > DALR > SALR$; Conditional Instability: $SALR < ELR < DALR$ (unstable once lifted past LFC)." },
+                { id: "u2_sl4", label: "Condensation Levels: LCL, CCL & Level of Free Convection ($LFC$)", type: "subtopic", details: "Lifting Condensation Level (LCL: mechanical lifting saturation), Convective Condensation Level (CCL: thermal buoyancy), and LFC (parcel becomes warmer than environment)." }
+              ]
+            },
+            {
+              id: "u2_wind_forces",
+              label: "4. Wind Dynamics & Laws of Horizontal Motion",
+              type: "topic",
+              details: "Vector forces generating and deflecting atmospheric air currents.",
+              children: [
+                { id: "u2_wf1", label: "Pressure Gradient Force ($PGF = -\\frac{1}{\\rho}\\nabla P$): Primary Driving Engine", type: "subtopic", details: "Direct horizontal force directed from high to low pressure perpendicular to isobars; magnitude proportional to isobar closeness." },
+                { id: "u2_wf2", label: "Coriolis Force ($F_c = 2\\Omega v \\sin\\phi$) & Ferrel's Law of Wind Deflection", type: "subtopic", details: "Apparent inertial force due to Earth's rotation; deflects winds to the right in Northern Hemisphere, left in Southern Hemisphere; zero at equator, max at poles; Buys Ballot's Law." },
+                { id: "u2_wf3", label: "Geostrophic Wind ($v_g = \\frac{1}{2\\Omega\\rho\\sin\\phi}\\frac{\\partial P}{\\partial n}$) & Gradient Wind Balance", type: "subtopic", details: "Frictionless equilibrium between PGF and Coriolis force parallel to straight isobars; Gradient wind incorporates Centrifugal force around curved cyclonic/anticyclonic isobars." },
+                { id: "u2_wf4", label: "Surface Frictional Drag & Planetary Boundary Layer (Ekman Spiral)", type: "subtopic", details: "Surface friction retards wind speed, reducing Coriolis force, causing winds to cross isobars at $10^\\circ\\text{–}45^\\circ$ angle into low pressure centers." }
+              ]
+            },
+            {
+              id: "u2_circulation",
+              label: "5. General Atmospheric Circulation & Planetary Wind Systems",
+              type: "topic",
+              details: "Global pressure belts, meridional cells, and planetary wind regimes.",
+              children: [
+                { id: "u2_gc1", label: "Planetary Pressure Belts: Equatorial Low (ITCZ), Subtropical Highs, Subpolar Lows, Polar Highs", type: "subtopic", details: "Thermally induced equatorial low (Doldrums) and polar highs; dynamically induced subtropical high-pressure cells (Horse Latitudes, $30^\\circ\\text{–}35^\\circ$) and subpolar low troughs ($60^\\circ\\text{–}65^\\circ$)." },
+                { id: "u2_gc2", label: "Tri-Cellular Meridional Model: Hadley Cell, Ferrel Cell & Polar Cell", type: "subtopic", details: "Hadley: thermally direct tropical cell (ascent at ITCZ, subsidence at $30^\\circ$); Ferrel: thermally indirect mid-latitude cell driven by eddy flux; Polar: thermally direct polar cell." },
+                { id: "u2_gc3", label: "Planetary Wind Systems: Trade Winds ($NE/SE$), Prevailing Westerlies & Polar Easterlies", type: "subtopic", details: "Trade winds blowing equatorward from subtropical highs; mid-latitude westerlies steering cyclones; polar easterlies converging at polar front." },
+                { id: "u2_gc4", label: "Walker Circulation & ENSO (El Niño, La Niña & Southern Oscillation Index)", type: "subtopic", details: "Zonal equatorial Pacific circulation cell; El Niño (warm phase, trade wind collapse, suppressed Indian monsoon); La Niña (cool phase, enhanced monsoon); SOI Tahiti-Darwin pressure delta." }
+              ]
+            },
+            {
+              id: "u2_air_masses",
+              label: "6. Air Masses: Source Regions, Classification & Modification",
+              type: "topic",
+              details: "Large-scale homogeneous atmospheric bodies and their thermodynamic transformations.",
+              children: [
+                { id: "u2_am1", label: "Air Mass Concept & Source Region Criteria: Uniformity & Anticyclonic Stagnation", type: "subtopic", details: "Vast body of air ($>1000\\text{ km}$) with uniform horizontal temperature and humidity; forms over extensive, flat, uniform terrain under stagnant high-pressure anticyclones." },
+                { id: "u2_am2", label: "Bergeron Classification: Continental ($c$) vs Maritime ($m$) & Polar ($P$), Tropical ($T$), Arctic ($A$)", type: "subtopic", details: "Six primary types: $cP$ (cold dry), $mP$ (cold moist), $cT$ (hot dry), $mT$ (warm humid), $cA/cAA$ (frigid dry), $mE$ (warm saturated equatorial)." },
+                { id: "u2_am3", label: "Thermodynamic Modification: Cold ($k$) vs Warm ($w$) Advective Pathways", type: "subtopic", details: "$k$-type (air colder than surface) heated from below $\\to$ steepens lapse rate, convective instability, cumulus clouds; $w$-type (air warmer than surface) cooled from below $\\to$ surface inversion, stability, fog." },
+                { id: "u2_am4", label: "Dynamic Modification: Subsidence Divergence vs Cyclonic Convergence", type: "subtopic", details: "Anticyclonic sinking produces dry adiabatic warming and capping inversion; cyclonic convergence and lifting produces cooling, saturation, and widespread instability." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit3",
+          label: "Unit 3: Weather Phenomena, Fronts, Cyclones, Jet Streams & Monsoon",
+          badge: "Unit 3",
+          type: "unit",
+          color: "#D97706",
+          details: "Microphysics of condensation and precipitation (Bergeron-Findeisen & Collision-Coalescence), WMO cloud classification, frontal source regions and frontogenesis/frontolysis (cold, warm, occluded), temperate cyclone life cycle (Bjerknes wave theory), tropical cyclone thermodynamics, structure and hazard impacts, jet streams and Rossby waves, and the Indian monsoon mechanisms, jet stream coupling, and teleconnections.",
+          children: [
+            {
+              id: "u3_clouds_precip",
+              label: "1. Condensation, Cloud Classification & Precipitation Theories",
+              type: "topic",
+              details: "Microphysical processes of cloud droplet nucleation and precipitation formation.",
+              children: [
+                { id: "u3_cp1", label: "Condensation Forms & Nuclei: Hygroscopic CCN, Dew, Frost, Fog (Radiation/Advection)", type: "subtopic", details: "Phase change on Cloud Condensation Nuclei (CCN: sea salt, sulfates); forms include dew, frost, rime, radiation fog (calm nights), and advection fog (warm moist air over cold surface)." },
+                { id: "u3_cp2", label: "WMO Cloud Genera: High ($Ci, Cc, Cs$), Mid ($Ac, As$), Low ($St, Sc, Ns$) & Vertical ($Cu, Cb$)", type: "subtopic", details: "Ten standard genera based on altitude and appearance: Cirrostratus ($Cs$) produces solar/lunar halos; Nimbostratus ($Ns$) continuous rain; Cumulonimbus ($Cb$) towering thunderstorm anvil." },
+                { id: "u3_cp3", label: "Bergeron-Findeisen Ice-Crystal Process: Vapor Pressure Differential ($e_{\\text{ice}} < e_{\\text{water}}$)", type: "subtopic", details: "In cold clouds ($T < 0^\\circ\\text{C}$), supercooled water droplets coexist with ice crystals; lower saturation vapor pressure over ice causes ice crystals to grow rapidly by sublimation at droplets' expense." },
+                { id: "u3_cp4", label: "Collision-Coalescence Process: Warm Cloud Hydrodynamic Droplet Merging", type: "subtopic", details: "In warm clouds ($T > 0^\\circ\\text{C}$), larger collector droplets falling with higher terminal velocities collide and coalesce with smaller droplets to form falling raindrops." }
+              ]
+            },
+            {
+              id: "u3_fronts_frontogenesis",
+              label: "2. Fronts: Source Regions, Types & Frontogenesis",
+              type: "topic",
+              details: "Sloping boundary surfaces between contrasting air masses and their dynamic weather.",
+              children: [
+                { id: "u3_ff1", label: "Frontal Concept & Frontogenesis ($F_g > 0$) vs Frontolysis ($F_g < 0$)", type: "subtopic", details: "Narrow transition zone ($10\\text{–}100\\text{ km}$) separating contrasting air masses; frontogenesis is the kinematic intensification of thermal gradients by confluence/deformation; frontolysis is decay." },
+                { id: "u3_ff2", label: "Cold Front: Steep Slope ($1:50\\text{–}1:100$), Squall Lines, Cumulonimbus & Sharp Cold Advection", type: "subtopic", details: "Cold dense air wedges vigorously beneath warm air; steep boundary triggers rapid convective updrafts, squall lines, heavy rain/thunderstorms, sharp barometric rise, and wind veering." },
+                { id: "u3_ff3", label: "Warm Front: Gentle Slope ($1:150\\text{–}1:300$), Cloud Sequence ($Ci \\to Cs \\to As \\to Ns$) & Steady Rain", type: "subtopic", details: "Warm air ascends gently over retreating cold wedge; broad cloud deck extending $1000\\text{ km}$, halo phenomena, prolonged steady precipitation, and post-frontal warming." },
+                { id: "u3_ff4", label: "Stationary & Occluded Fronts: Cold vs Warm Occlusion Dynamics", type: "subtopic", details: "Stationary front: non-advancing boundary; Occluded front: faster cold front overtakes warm front, lifting the entire warm sector aloft (Cold occlusion vs Warm occlusion)." }
+              ]
+            },
+            {
+              id: "u3_temperate_cyclones",
+              label: "3. Temperate (Mid-Latitude / Extra-Tropical) Cyclones",
+              type: "topic",
+              details: "Dynamic frontal low-pressure wave systems of the mid-latitudes.",
+              children: [
+                { id: "u3_tc1", label: "Characteristics & Dimensions: Subpolar Frontal Depressions ($35^\\circ\\text{–}65^\\circ\\text{N/S}, 1000\\text{–}3000\\text{ km}$)", type: "subtopic", details: "Asymmetric wave depressions formed along the polar front, steered eastward by the prevailing westerlies at $30\\text{–}50\\text{ km/h}$." },
+                { id: "u3_tc2", label: "Polar Front Wave Theory (Bjerknes & Bergen School): 5-Stage Life Cycle", type: "subtopic", details: "1. Initial stationary polar front $\\to$ 2. Incipient wave kink $\\to$ 3. Mature open warm sector with distinct warm/cold fronts $\\to$ 4. Occlusion $\\to$ 5. Dissipation/frontolysis." },
+                { id: "u3_tc3", label: "Weather Sequence: Approach ($Ci, Cs$ Halo), Warm Sector Lull, Cold Front Passage & Cleared Skies", type: "subtopic", details: "Systematic weather progression from high cirrus, falling barometer, warm front steady drizzle, warm sector mugginess, cold front squall/thunderstorm, to clearing cold polar air." }
+              ]
+            },
+            {
+              id: "u3_tropical_cyclones",
+              label: "4. Tropical Cyclones (Hurricanes, Typhoons & Super-Cyclones)",
+              type: "topic",
+              details: "Thermal warm-core low-pressure convective vortices over warm oceans.",
+              children: [
+                { id: "u3_tr1", label: "Genesis Preconditions: SST $\\ge 26.5^\\circ\\text{C}$, Coriolis ($\\phi > 5^\\circ$), Low Shear, High Mid-level RH", type: "subtopic", details: "Warm ocean depth ($>50\\text{ m}$), sufficient planetary vorticity for spin, weak vertical wind shear ($<10\\text{ m/s}$), and pre-existing low-level disturbance." },
+                { id: "u3_tr2", label: "Thermodynamic Latent Heat Engine: Moist Convective Ascent & Warm-Core Low", type: "subtopic", details: "Enormous release of latent heat of condensation in convective eyewall powers central pressure drop and intense cyclonic inflow." },
+                { id: "u3_tr3", label: "Structural Anatomy: Calm Eye (Subsidence), Eyewall (Violent Winds $>200\\text{ km/h}$) & Spiral Rainbands", type: "subtopic", details: "Central eye ($10\\text{–}50\\text{ km}$, sinking air, clear skies), surrounding dense eyewall of towering cumulonimbus with maximum wind/rainfall, and curved feeder bands." },
+                { id: "u3_tr4", label: "Severe Hazardous Impacts: Catastrophic Storm Surge, Inland Deluge & Gale Damage", type: "subtopic", details: "Coastal storm surge caused by low pressure suction and onshore wind setup; torrential rainfall causing inland riverine flooding; devastating hurricane-force winds." }
+              ]
+            },
+            {
+              id: "u3_jet_streams",
+              label: "5. Jet Streams: Structure, Types & Rossby Waves",
+              type: "topic",
+              details: "Upper-tropospheric high-velocity wind ribbons and planetary wave dynamics.",
+              children: [
+                { id: "u3_js1", label: "Characteristics & Geometry: Meandering Wind Core ($120\\text{–}450\\text{ km/h}$) at Tropopause ($9\\text{–}16\\text{ km}$)", type: "subtopic", details: "Narrow quasi-horizontal geostrophic wind ribbons concentrated near tropopause breaks where thermal contrasts produce steep pressure slopes." },
+                { id: "u3_js2", label: "Primary Jet Streams: Subtropical Westerly ($STWJ$), Polar Front ($PFJ$) & Tropical Easterly ($TEJ$)", type: "subtopic", details: "STWJ ($25^\\circ\\text{–}35^\\circ\\text{N/S}$, angular momentum conservation); PFJ ($40^\\circ\\text{–}60^\\circ$, thermal wind gradient); TEJ ($10^\\circ\\text{–}15^\\circ\\text{N}$ summer jet over South Asia)." },
+                { id: "u3_js3", label: "Rossby Planetary Waves & Index Cycle: Zonal Flow to Meridional Amplitude", type: "subtopic", details: "Circumpolar longwaves (wavenumber 3–6); 4-stage index cycle: straight zonal westerlies $\\to$ wave meanders $\\to$ extreme meridional looping with cutoff lows/highs $\\to$ zonal return." }
+              ]
+            },
+            {
+              id: "u3_indian_monsoon",
+              label: "6. The Indian Monsoon: Mechanisms, Jet Streams & Teleconnections",
+              type: "topic",
+              details: "Seasonal wind reversal, aerodynamic thermal drivers, and global teleconnections.",
+              children: [
+                { id: "u3_im1", label: "Monsoon Theories: Halley's Thermal Concept vs Flohn's Dynamic ITCZ Shift", type: "subtopic", details: "Halley (1686): giant land-sea thermal breeze; Flohn (1951): seasonal planetary wind shift with northward migration of ITCZ (Monsoon Trough) over Gangetic Plains." },
+                { id: "u3_im2", label: "Aerological & Jet Stream Theory (Yin & Koteswaram): STWJ Northward Jump & TEJ Surge", type: "subtopic", details: "Sudden northward retreat of STWJ north of Himalayas in early June allows the Tropical Easterly Jet (TEJ) to establish over peninsular India, triggering the 'monsoon burst'." },
+                { id: "u3_im3", label: "Role of Tibetan Plateau (Flohn & Yeh): Elevated Thermal Heat Source & Mechanical Barrier", type: "subtopic", details: "High-altitude heating of Tibetan plateau acts as an atmospheric thermal engine generating upper-tropospheric anticyclone and driving TEJ outflow." },
+                { id: "u3_im4", label: "Teleconnections: ENSO Coupling, Indian Ocean Dipole ($IOD$) & MJO Active/Break Cycles", type: "subtopic", details: "El Niño suppresses Indian monsoon; Positive IOD (warm western Indian Ocean) enhances rainfall; Madden-Julian Oscillation (MJO) intra-seasonal 30–60 day active and break spells." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit4",
+          label: "Unit 4: Climatic Classifications, Paleoclimatology & Climate Change",
+          badge: "Unit 4",
+          type: "unit",
+          color: "#059669",
+          details: "Köppen's empirical world climatic classification scheme and letter codes, Thornthwaite's empirical (1931) and rational water-balance (1948) classification systems, paleoclimatic proxy evidence and astronomical Milankovitch cycles, anthropogenic enhanced greenhouse effect, global warming impacts, sea level rise, and international mitigation frameworks (IPCC, UNFCCC, Paris Agreement).",
+          children: [
+            {
+              id: "u4_koppen",
+              label: "1. Köppen's World Climatic Classification",
+              type: "topic",
+              details: "Empirical vegetation-aligned global classification based on temperature and precipitation thresholds.",
+              children: [
+                { id: "u4_kp1", label: "Principles & Empirical Basis: Candolle's Natural Vegetation Zones & $T, P$ Thresholds", type: "subtopic", details: "Wladimir Köppen (1900–1936); correlated monthly/annual mean temperature and precipitation boundaries with De Candolle's world plant distribution zones." },
+                { id: "u4_kp2", label: "Major Climatic Groups: $A$ (Tropical), $B$ (Dry), $C$ (Warm Temperate), $D$ (Snow Forest), $E$ (Polar), $H$ (Highland)", type: "subtopic", details: "Five primary thermal/moisture mega-groups: $A$ ($T_{\\min} > 18^\\circ\\text{C}$), $B$ ($PE > P$), $C$ ($-3^\\circ\\text{C} < T_{\\min} < 18^\\circ\\text{C}$), $D$ ($T_{\\min} < -3^\\circ\\text{C},\\, T_{\\max} > 10^\\circ\\text{C}$), $E$ ($T_{\\max} < 10^\\circ\\text{C}$)." },
+                { id: "u4_kp3", label: "Subdivision Letter Codes: Precipitation ($f, m, w, s$), Thermal ($a, b, c, d$) & Aridity ($h, k$)", type: "subtopic", details: "$f$ (no dry season), $m$ (monsoon), $w$ (dry winter), $s$ (dry summer); $a$ (hot summer), $b$ (warm summer), $c$ (cool short summer), $d$ (extremely cold winter); $h$ (hot dry), $k$ (cold dry)." },
+                { id: "u4_kp4", label: "Critical Evaluation: Quantitative Clarity vs Neglect of Air Masses & Precipitation Intensity", type: "subtopic", details: "Highly objective, reproducible, and widely adopted; but disregards dynamic atmospheric mechanisms, air mass interactions, wind regimes, and precipitation intensity." }
+              ]
+            },
+            {
+              id: "u4_thornthwaite",
+              label: "2. Thornthwaite's Climatic Classification Schemes",
+              type: "topic",
+              details: "Empirical precipitation effectiveness and rational evapotranspiration water-balance schemes.",
+              children: [
+                { id: "u4_th1", label: "1931 Empirical Scheme: Precipitation Effectiveness ($P/E$) & Thermal Efficiency ($T/E$) Indices", type: "subtopic", details: "Defined $P/E$ index $=\\sum 115(P/(T-10))^{10/9}$ yielding 5 humidity provinces ($A$ Wet, $B$ Humid, $C$ Sub-humid, $D$ Semi-arid, $E$ Arid) and 6 thermal provinces." },
+                { id: "u4_th2", label: "1948 Rational Scheme: Potential Evapotranspiration ($PE$) & Hydrological Water Balance", type: "subtopic", details: "Shifted from empirical temperature/rainfall to physical water budgeting comparing precipitation ($P$) with Potential Evapotranspiration ($PE$)." },
+                { id: "u4_th3", label: "Key Moisture Indices: Moisture Index ($I_m = \\frac{100s - 60d}{PE}$), Aridity ($I_a$) & Humidity ($I_h$)", type: "subtopic", details: "Moisture index $I_m$ balances water surplus ($s$) and deficit ($d$) against $PE$; Thermal Efficiency index $TE = \\text{Annual } PE\\text{ (cm)}$." },
+                { id: "u4_th4", label: "Applications & Appraisal: Hydrological & Agricultural Value vs Complex Data Demands", type: "subtopic", details: "Superior physical grounding for irrigation scheduling and agro-climatology; limited by complex empirical computation of $PE$ and scarcity of solar radiation data." }
+              ]
+            },
+            {
+              id: "u4_paleo_natural_cc",
+              label: "3. Climate Change: Paleoclimatic Evidence & Astronomical Hypotheses",
+              type: "topic",
+              details: "Proxy archives of historical climates and natural astronomical forcing mechanisms.",
+              children: [
+                { id: "u4_pn1", label: "Paleoclimatic Proxy Records: Ice Cores ($\\delta^{18}O$), Dendrochronology, Lake Varves & Pollen", type: "subtopic", details: "Ice core isotopes ($\\delta^{18}\\text{O}$ proxy for temperature) and trapped gas bubbles ($CO_2, CH_4$); tree ring width/density; glacial lake annual clay varves; fossil pollen." },
+                { id: "u4_pn2", label: "Milankovitch Astronomical Theory: Orbital Eccentricity, Axial Obliquity & Precession", type: "subtopic", details: "Orbital Eccentricity (100,000 yr cycle), Obliquity/Axial Tilt ($41,000\\text{ yr},\\, 22.1^\\circ\\text{–}24.5^\\circ$), and Precession of Equinoxes ($26,000\\text{ yr}$); modulates seasonal latitudinal insolation." },
+                { id: "u4_pn3", label: "Volcanic Aerosol Forcing: Stratospheric $SO_2$ Sulfate Dimming & Cooling", type: "subtopic", details: "Explosive volcanic eruptions inject sulfur dioxide into stratosphere, forming sulfate aerosols that scatter incoming solar radiation (e.g. Pinatubo 1991, Tambora 1815)." },
+                { id: "u4_pn4", label: "Solar Variability & Plate Tectonics: Sunspot Cycles (Schwabe/Maunder) & Orogeny", type: "subtopic", details: "11-year sunspot Schwabe cycles and Maunder Minimum (Little Ice Age 1645–1715); continental drift and Himalayan uplift altering global atmospheric circulation." }
+              ]
+            },
+            {
+              id: "u4_anthropogenic_mitigation",
+              label: "4. Anthropogenic Climate Change, Impacts & Mitigation Strategies",
+              type: "topic",
+              details: "Enhanced greenhouse effect, ecological/societal disruptions, and international mitigation policies.",
+              children: [
+                { id: "u4_am1", label: "Enhanced Greenhouse Effect: Surging GHGs ($CO_2, CH_4, N_2O, \\text{CFCs}$) & Radiative Forcing", type: "subtopic", details: "Fossil fuel combustion, deforestation, and industrial agriculture increasing atmospheric $CO_2$ past $420\\text{ ppm}$, trapping outgoing longwave terrestrial radiation." },
+                { id: "u4_am2", label: "Global Physical & Ecological Impacts: Cryosphere Thawing, Sea Level Rise ($SLR$) & Extreme Events", type: "subtopic", details: "Alpine glacier retreat, polar ice sheet mass loss, thermal expansion SLR threatening coastal deltas, ocean acidification, and intensified droughts, heatwaves, and cyclones." },
+                { id: "u4_am3", label: "International Climate Governance: IPCC (AR6), UNFCCC, Kyoto Protocol & Paris Agreement ($1.5^\\circ\\text{C}$)", type: "subtopic", details: "IPCC scientific assessment reports, Kyoto Protocol clean development mechanisms, and Paris Agreement legally binding treaty to limit warming to $1.5^\\circ\\text{C}$ via NDCs." },
+                { id: "u4_am4", label: "Mitigation & Adaptation Strategies: Renewable Energy, CCUS, Afforestation & Climate-Smart Resilience", type: "subtopic", details: "Decarbonization, solar/wind green energy transition, Carbon Capture Utilization & Storage (CCUS), agroforestry, climate-resilient urban planning, and early warning DRR systems." }
+              ]
+            },
+            {
+              id: "u4_references",
+              label: "5. Authoritative Curriculum Reference Literature",
+              type: "topic",
+              details: "Standard university textbooks and foundational treatises in climatology.",
+              children: [
+                { id: "u4_rf1_climatology", label: "Climatology (D.S. Lal, Sharda Pustak Bhawan, Allahabad)", type: "subtopic", details: "Comprehensive Indian university textbook covering physical climatology, air masses, frontal theory, tropical cyclones, and Indian monsoon dynamics." },
+                { id: "u4_rf2_critchfield", label: "General Climatology (Howard J. Critchfield, Prentice-Hall of India)", type: "subtopic", details: "Foundational global treatise detailing radiation balance, general circulation, climatic classification systems, and applied bioclimatology." },
+                { id: "u4_rf3_barry_chorley", label: "Atmosphere, Weather and Climate (Roger G. Barry & Richard J. Chorley, Routledge)", type: "subtopic", details: "Authoritative graduate-level text on synoptic climatology, atmospheric thermodynamics, boundary layer processes, and climate modeling." },
+                { id: "u4_rf4_savindra", label: "Physical Geography / Climatology (Savindra Singh, Pravalika Publications)", type: "subtopic", details: "Standard syllabus reference for geomorphological, climatological, and oceanographic fundamentals in Indian universities." },
+                { id: "u4_rf5_ahrens", label: "Essentials of Meteorology: An Invitation to the Atmosphere (C. Donald Ahrens, Cengage)", type: "subtopic", details: "Visual, concept-rich reference on cloud microphysics, stability, storm systems, and atmospheric optics." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "GGRMV51": {
+    id: "GGRMV51",
+    code: "GGRMV51",
+    title: "Hazards & Disaster Risk Reduction",
+    department: "Department of Geography",
+    semester: 5,
+    credits: 4,
+    course_type: "Minor (Vocational)",
+    summary: "Comprehensive mind map covering Concepts & Definitions of Disasters, Hazards & Risk, Differential Impacts & Global Trends, Disaster Management Cycle, India's Vulnerability Profile & Institutional Framework (DM Act 2005), and Case Studies (Landslides, Cloudbursts) with Mitigation Policies & Plans.",
+    root: {
+      id: "root",
+      label: "Hazards & Disaster Risk Reduction",
+      badge: "GGRMV51 • Sem 5",
+      type: "root",
+      details: "4 Credits Minor (Vocational) Course (Department of Geography, BHU). Fundamental concepts of disaster management, risk calculation, differential vulnerabilities, institutional architecture in India, and practical case studies on mountain hazards and legislative frameworks.",
+      children: [
+        {
+          id: "unit1",
+          label: "Unit 1: Introduction to Disasters & Conceptual Frameworks",
+          badge: "Unit 1",
+          type: "unit",
+          color: "#4F46E5",
+          details: "Foundational terminology (Disaster, Hazard, Vulnerability, Resilience, Risk), disaster classification systems, causal factors, impacts across sectors, and holistic multidimensional approaches to Disaster Risk Reduction (DRR).",
+          children: [
+            {
+              id: "u1_concepts",
+              label: "1. Core Terminology & Theoretical Definitions",
+              type: "topic",
+              details: "Rigorous scientific definitions and interaction models in disaster science.",
+              children: [
+                { id: "u1_c1", label: "Hazard ($H$): Natural, Anthropogenic & Socio-Natural Threats", type: "subtopic", details: "A dangerous phenomenon, substance, human activity or condition that may cause loss of life, injury, health impacts, property damage, or environmental degradation." },
+                { id: "u1_c2", label: "Vulnerability ($V$): Physical, Social, Economic & Ecological Dimensions", type: "subtopic", details: "Conditions determined by physical, social, economic and environmental factors or processes which increase the susceptibility of an individual or community to the impacts of hazards." },
+                { id: "u1_c3", label: "Disaster Risk Formula: $Risk = \\frac{Hazard \\times Vulnerability \\times Exposure}{Coping\\, Capacity}$", type: "subtopic", details: "Quantitative and qualitative expression of expected losses (deaths, injuries, livelihoods, assets) resulting from the interaction between hazards and vulnerability." },
+                { id: "u1_c4", label: "Resilience & Coping Capacity: Absorptive, Adaptive & Transformative Capacities", type: "subtopic", details: "The ability of a system, community or society exposed to hazards to resist, absorb, accommodate, adapt to and recover from effects in a timely and efficient manner." },
+                { id: "u1_c5", label: "Disaster ($D$): Scale Disruption Exceeding Local Coping Ability", type: "subtopic", details: "A serious disruption of the functioning of a community or society involving widespread human, material, economic or environmental losses exceeding local coping capacity." }
+              ]
+            },
+            {
+              id: "u1_classification",
+              label: "2. Classification & Typology of Disasters",
+              type: "topic",
+              details: "Taxonomy of disaster types based on origin and onset speed.",
+              children: [
+                { id: "u1_cl1", label: "Geophysical Hazards: Earthquakes, Tsunamis, Volcanoes & Landslides", type: "subtopic", details: "Hazards originating from internal earth processes (seismic activity, tectonic subduction, magma extrusion, slope gravity failures)." },
+                { id: "u1_cl2", label: "Hydro-Meteorological Hazards: Cyclones, Floods, Cloudbursts, Droughts & Heatwaves", type: "subtopic", details: "Atmospheric, hydrological or oceanographic processes causing extreme floods, torrential downpours, tropical storms, and prolonged meteorological droughts." },
+                { id: "u1_cl3", label: "Biological Hazards: Epidemics, Pandemics, Zoonoses & Pest Infestations", type: "subtopic", details: "Organic origin threats including viral outbreaks (COVID-19), vector-borne epidemics (Dengue, Malaria), and agricultural locust plagues." },
+                { id: "u1_cl4", label: "Technological & Anthropogenic Hazards: Industrial, Chemical & Nuclear Accidents", type: "subtopic", details: "Human-induced disasters arising from industrial toxicity (Bhopal gas leak), nuclear meltdowns (Chernobyl, Fukushima), dam failures, and urban fires." },
+                { id: "u1_cl5", label: "Onset Velocity: Rapid-Onset (Earthquakes/Flash Floods) vs Slow-Onset (Drought/Desertification)", type: "subtopic", details: "Distinction between catastrophic events occurring within minutes/hours versus gradual environmental deterioration unfolding over months/years." }
+              ]
+            },
+            {
+              id: "u1_impacts_approaches",
+              label: "3. Causes, Multidimensional Impacts & DRR Approaches",
+              type: "topic",
+              details: "Cross-sectoral consequences of disasters and modern risk reduction paradigms.",
+              children: [
+                { id: "u1_ia1", label: "Social & Demographic Impacts: Displacement, Casualties & Marginalization", type: "subtopic", details: "Forced migration, internally displaced persons (IDPs), disruption of community cohesion, and disproportionate suffering of vulnerable groups." },
+                { id: "u1_ia2", label: "Economic & Infrastructural Losses: Direct Asset Damage vs Indirect Growth Shocks", type: "subtopic", details: "Destruction of critical infrastructure (bridges, power grids, hospitals), disruption of supply chains, fiscal burden, and GDP contraction." },
+                { id: "u1_ia3", label: "Environmental & Health Consequences: Ecosystem Degradation & Disease Vectors", type: "subtopic", details: "Contamination of potable water sources, loss of topsoil and biodiversity, post-disaster sanitation crises, and waterborne epidemics." },
+                { id: "u1_ia4", label: "Psychosocial Dimensions: Post-Traumatic Stress Disorder (PTSD) & Mental Health Support", type: "subtopic", details: "Psychological trauma among survivors, grief counseling, community therapy, and child protection interventions." },
+                { id: "u1_ia5", label: "Evolution of DRR Approaches: Relief-Centric Charity to Proactive Risk Governance", type: "subtopic", details: "Paradigm shift from reactive post-disaster relief and reconstruction to proactive prevention, multi-hazard early warning, and sustainable resilience." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit2",
+          label: "Unit 2: Differential Impacts, Global Trends & Disaster Management Cycle",
+          badge: "Unit 2",
+          type: "unit",
+          color: "#0891B2",
+          details: "Socially differentiated disaster vulnerabilities, macro global disaster patterns, comprehensive Disaster Management Cycle (pre-, during-, post-disaster), and critical sociological perspectives debunking disaster myths.",
+          children: [
+            {
+              id: "u2_differential",
+              label: "1. Differential Vulnerability & Intersectionality",
+              type: "topic",
+              details: "Unequal exposure and coping capacity shaped by structural socio-economic stratification.",
+              children: [
+                { id: "u2_df1", label: "Caste & Class Stratification: Spatial Segregation & Resource Disparities", type: "subtopic", details: "Socio-economically marginalized communities frequently reside in high-risk hazard zones (floodplains, steep slopes) with fragile housing and poor access to relief." },
+                { id: "u2_df2", label: "Gender Dimensions: Differential Mortality, Caregiving Burdens & Safety", type: "subtopic", details: "Higher female mortality in waterborne hazards due to socialized roles, heightened domestic unpaid labor, nutritional neglect, and threats to bodily safety in temporary shelters." },
+                { id: "u2_df3", label: "Age-Specific Vulnerabilities: Pediatric Nutrition & Geriatric Care Needs", type: "subtopic", details: "Special vulnerabilities of children (malnutrition, disrupted education) and the elderly (reduced mobility, chronic illnesses, lack of assisted evacuation)." },
+                { id: "u2_df4", label: "Persons with Disabilities (PWDs) & Spatial Isolation", type: "subtopic", details: "Inaccessible early warnings, lack of barrier-free evacuation shelters, and extreme vulnerability of geographically isolated rural/tribal settlements." }
+              ]
+            },
+            {
+              id: "u2_global_trends",
+              label: "2. Global Trends in Disasters & International Frameworks",
+              type: "topic",
+              details: "Worldwide statistical trends, climate drivers, and UN global agendas.",
+              children: [
+                { id: "u2_gt1", label: "Surging Hydro-Meteorological Extremes: Climate Change Acceleration", type: "subtopic", details: "Documented rise in extreme weather events, intense tropical cyclones, unseasonal flash floods, and prolonged heatwaves driven by global warming." },
+                { id: "u2_gt2", label: "Urbanization of Risk: Unplanned Megacities & High Asset Concentration", type: "subtopic", details: "Rapid unplanned urbanization creating dense vulnerability hotspots, informal settlements without stormwater drainage, and high economic exposure." },
+                { id: "u2_gt3", label: "International Milestones: Yokohama (1994), Hyogo (2005-2015) & Sendai Framework (2015-2030)", type: "subtopic", details: "Sendai Framework's 4 Priorities for Action (Understanding Risk, Risk Governance, Investing in Resilience, Enhancing Preparedness & Build Back Better) and 7 Global Targets." }
+              ]
+            },
+            {
+              id: "u2_dm_cycle",
+              label: "3. Disaster Management Cycle (DMC)",
+              type: "topic",
+              details: "Phased continuum of operational interventions across pre-, during-, and post-disaster stages.",
+              children: [
+                { id: "u2_dm1", label: "Pre-Disaster Phase: Prevention, Structural/Non-Structural Mitigation & Preparedness", type: "subtopic", details: "Proactive measures including hazard mapping, early warning systems (EWS), emergency contingency plans, mock drills, resource pre-positioning, and public awareness." },
+                { id: "u2_dm2", label: "During-Disaster Phase: Search & Rescue (SAR), Emergency Relief & Incident Response", type: "subtopic", details: "Activation of Incident Response System (IRS), deployment of specialized rescue forces (NDRF/SDRF), emergency triage, temporary shelter, and WASH provisions." },
+                { id: "u2_dm3", label: "Post-Disaster Phase: Post-Disaster Needs Assessment (PDNA), Recovery & Build Back Better", type: "subtopic", details: "Systematic damage assessment, socio-economic rehabilitation, livelihoods restoration, and resilient reconstruction following 'Build Back Better' (BBB) principles." }
+              ]
+            },
+            {
+              id: "u2_myths_responses",
+              label: "4. Myths & Societal Responses in Disasters",
+              type: "topic",
+              details: "Empirical sociological analysis of community behavior during crisis situations.",
+              children: [
+                { id: "u2_mr1", label: "Debunking the 'Mass Panic & Looting' Myth: Emergence of Prosocial Altruism", type: "subtopic", details: "Disaster sociology shows communities exhibit spontaneous mutual aid, solidarity, and altruism rather than widespread lawlessness or mass irrational panic." },
+                { id: "u2_mr2", label: "Debunking Epidemic Myths: Dead Bodies & Disease Realities", type: "subtopic", details: "Casualties from natural hazards rarely cause epidemics; primary health risks stem from contaminated drinking water, lack of sanitation, and disease vectors." },
+                { id: "u2_mr3", label: "Community as Immediate First Responders & Indigenous Knowledge Networks", type: "subtopic", details: "Over 80-90% of survivors are rescued by local neighbors using indigenous tools and traditional ecological knowledge before external aid arrives." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit3",
+          label: "Unit 3: Disaster Risk Management in India & Institutional Arrangements",
+          badge: "Unit 3",
+          type: "unit",
+          color: "#D97706",
+          details: "Geographic hazard profile of India, Community-Based Disaster Risk Reduction (CBDRR), structural vs non-structural mitigation strategies, and the statutory governance apparatus under the Disaster Management Act 2005.",
+          children: [
+            {
+              id: "u3_hazard_profile",
+              label: "1. Hazard & Vulnerability Profile of India",
+              type: "topic",
+              details: "Spatial distribution and exposure of the Indian subcontinent to natural hazards.",
+              children: [
+                { id: "u3_hp1", label: "Seismic Vulnerability: ~59% Landmass Prone to Earthquakes (Zones II to V)", type: "subtopic", details: "Himalayan collision boundary and Kutch region in high-risk Zone V; Indo-Gangetic basin in Zone IV; Peninsular shield in Zones II-III." },
+                { id: "u3_hp2", label: "Flood & Riverine Dynamics: ~40 Million Hectares (~12% Landmass) Prone", type: "subtopic", details: "Ganga, Brahmaputra, Mahanadi, Godavari, and Krishna river basins subjected to annual monsoon inundation, siltation, and riverbank erosion." },
+                { id: "u3_hp3", label: "Cyclonic Vulnerability: 7,516 km Coastline (East vs West Coast Dynamics)", type: "subtopic", details: "Bay of Bengal generates severe cyclonic storms impacting Odisha, AP, TN, and West Bengal; rising cyclone intensity in the Arabian Sea impacting Gujarat and Maharashtra." },
+                { id: "u3_hp4", label: "Drought Susceptibility: ~68% Cultivable Area Vulnerable to Rain Deficits", type: "subtopic", details: "Arid and semi-arid zones of Rajasthan, Gujarat, Marathwada, Vidarbha, Rayalaseema, and Bundelkhand prone to agricultural and hydrological droughts." },
+                { id: "u3_hp5", label: "Landslides & Avalanches: ~15% Landmass in Himalayas & Western Ghats", type: "subtopic", details: "Fragile young fold mountains (Himalayas) and ecologically sensitive Western Ghats vulnerable to slope instability, rockfalls, and debris flows." }
+              ]
+            },
+            {
+              id: "u3_cbdrr",
+              label: "2. Community-Based Disaster Risk Reduction (CBDRR)",
+              type: "topic",
+              details: "Bottom-up participatory disaster risk management and local capacity building.",
+              children: [
+                { id: "u3_cb1", label: "Participatory Rural Appraisal (PRA) & Hazard Vulnerability Mapping", type: "subtopic", details: "Empowering villagers to map local hazard zones, vulnerable households, safe evacuation routes, and available community resources." },
+                { id: "u3_cb2", label: "Village Disaster Management Plans (VDMP) & Task Forces", type: "subtopic", details: "Formation of community task forces for Early Warning, Search & Rescue, First Aid, Evacuation, and Temporary Shelter Management." },
+                { id: "u3_cb3", label: "Traditional Architectural Wisdom: Kath-Kuni, Dhajji-Dewari & Bhungas", type: "subtopic", details: "Earthquake-resilient indigenous building technologies: timber-interlocked Kath-Kuni (Himachal), timber-frame Dhajji-Dewari (Kashmir), and cylindrical mud Bhungas (Kutch)." }
+              ]
+            },
+            {
+              id: "u3_mitigation_measures",
+              label: "3. Structural & Non-Structural Mitigation Measures",
+              type: "topic",
+              details: "Engineered physical interventions versus policy, regulatory, and capacity-building measures.",
+              children: [
+                { id: "u3_mm1", label: "Structural Mitigation: Engineering Defenses & Retrofitting (BIS Codes)", type: "subtopic", details: "Construction of multipurpose cyclone shelters, sea walls, flood embankments, check dams, drainage channels, and seismic retrofitting according to IS 1893." },
+                { id: "u3_mm2", label: "Non-Structural Mitigation: Land-Use Zoning, Building By-Laws & Insurance", type: "subtopic", details: "Hazard zonation mapping, strict enforcement of municipal building codes, micro-insurance schemes, vulnerability indexing, and mandatory school safety drills." },
+                { id: "u3_mm3", label: "Technological Early Warning: IMD, INCOIS, GSI & Sachet Portal", type: "subtopic", details: "Doppler radar storm tracking (IMD), Tsunami Early Warning Centre (INCOIS), Landslide Early Warning System (GSI), and National Disaster Alert Portal (CAP-Sachet)." }
+              ]
+            },
+            {
+              id: "u3_institutional_framework",
+              label: "4. Institutional Arrangements & DM Act 2005",
+              type: "topic",
+              details: "Statutory multi-tiered governance structure established under the Disaster Management Act, 2005.",
+              children: [
+                { id: "u3_if1", label: "National Level: NDMA (Chaired by PM), NEC & NIDM", type: "subtopic", details: "National Disaster Management Authority (apex policymaking body), National Executive Committee (coordinating body), and National Institute of Disaster Management (training and research)." },
+                { id: "u3_if2", label: "National Disaster Response Force (NDRF): Multi-Battalion Specialized Rescue", type: "subtopic", details: "Dedicated paramilitary response force trained for multi-hazard search and rescue, CBRN emergencies, and international humanitarian assistance." },
+                { id: "u3_if3", label: "State & District Level: SDMA (Chaired by CM) & DDMA (Headed by DM/Collector)", type: "subtopic", details: "Decentralized execution through State Disaster Management Authorities and District Disaster Management Authorities acting as pivotal operational command nodes." },
+                { id: "u3_if4", label: "Financial Architecture: NDRF/SDRF (Response) & NDMF/SDMF (Mitigation)", type: "subtopic", details: "15th Finance Commission institutionalization of earmarked funds for both disaster response (NDRF/SDRF) and proactive risk mitigation (NDMF/SDMF)." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit4",
+          label: "Unit 4: Case Studies, Acts, Policies & Legal-Planning Regimes",
+          badge: "Unit 4",
+          type: "unit",
+          color: "#059669",
+          details: "Empirical mountain hazard case studies (Landslides & Cloudbursts), national statutory policies, prime ministerial 10-point agenda, and allied environmental/building legislation.",
+          children: [
+            {
+              id: "u4_case_landslide",
+              label: "1. Landslide Case Studies: Triggers, Mechanisms & Management",
+              type: "topic",
+              details: "In-depth geographical analysis of slope instability in the Himalayan and Western Ghats ecosystems.",
+              children: [
+                { id: "u4_ls1", label: "Causal Triggers: Geological Fragility, Heavy Monsoons, Toe-Cutting & Deforestation", type: "subtopic", details: "Shear stress exceeding shear strength along failure planes caused by excessive rainfall saturation, unplanned slope cutting, blasting, and vegetation clearance." },
+                { id: "u4_ls2", label: "Major Indian Case Studies: Kedarnath (2013), Malin (2014) & Wayanad (2024)", type: "subtopic", details: "Multi-hazard debris flows in Kedarnath (Uttarakhand), hill slope mudslide obliterating Malin village (Pune), and catastrophic landslide debris surges in Wayanad (Kerala)." },
+                { id: "u4_ls3", label: "Mitigation & Stabilization: Slope Drainage, Bio-Engineering & Retaining Structures", type: "subtopic", details: "Surface and sub-surface perforated horizontal drains, gabion walls, soil nailing, rock bolting, hydro-seeding, and vetiver grass bio-turfing." },
+                { id: "u4_ls4", label: "Early Warning & Zonation: Landslide Hazard Zonation (LHZ) & GSI Real-Time LEWS", type: "subtopic", details: "Macro and micro LHZ mapping using GIS, rainfall threshold modeling, and regional Landslide Early Warning Systems deployed by the Geological Survey of India." }
+              ]
+            },
+            {
+              id: "u4_case_cloudburst",
+              label: "2. Cloudburst Case Studies: Dynamics, Flash Floods & Preparedness",
+              type: "topic",
+              details: "Meteorological mechanics and disaster response to extreme localized mountain precipitation.",
+              children: [
+                { id: "u4_cb1", label: "Atmospheric Mechanism: Convective Orographic Instability ($>100\\text{ mm/hr}$ over $\\approx 20\\text{--}30\\text{ km}^2$)", type: "subtopic", details: "Rapid upward movement of moisture-laden air columns trapped in steep mountainous valleys, leading to intense localized condensation and catastrophic downpours." },
+                { id: "u4_cb2", label: "Case Analyses: Leh Cloudburst (2010), Uttarakhand (2013) & Amarnath Flash Flood (2022)", type: "subtopic", details: "High-altitude desert mudflows in Leh (Ladakh), glacial lake outbursts and flash floods in Mandakini valley, and flash flood surges across holy cave tributaries." },
+                { id: "u4_cb3", label: "Emergency Response & Preparedness: Mountain Hydrology & Doppler Radar Telemetry", type: "subtopic", details: "Himalayan Doppler Weather Radar expansion, mountain stream catchment treatment, prohibition of construction in active riverbed floodplains, and rapid mountain SAR." }
+              ]
+            },
+            {
+              id: "u4_acts_policies",
+              label: "3. National Disaster Management Acts, Policies & Plans",
+              type: "topic",
+              details: "National legislative frameworks governing disaster risk reduction in India.",
+              children: [
+                { id: "u4_ap1", label: "Disaster Management Act, 2005: Landmark Shift to Proactive Multi-Tiered Governance", type: "subtopic", details: "Statutory enactment providing legal mandate for NDMA, SDMA, DDMA, NDRF, specialized funds, disaster prevention measures, and penalties for non-compliance." },
+                { id: "u4_ap2", label: "National Policy on Disaster Management (NPDM 2009): Vision for Resilient India", type: "subtopic", details: "Comprehensive policy promoting a proactive, holistic, multidisciplinary, and technology-driven disaster reduction regime covering all phases." },
+                { id: "u4_ap3", label: "National Disaster Management Plan (NDMP 2019): Sendai Framework Alignment", type: "subtopic", details: "National master plan structured around Sendai 4 Priorities across 27 disaster hazards, integrating Climate Change Adaptation (CCA) and SDGs." },
+                { id: "u4_ap4", label: "Prime Minister's 10-Point Agenda on DRR (2016)", type: "subtopic", details: "Strategic national roadmap emphasizing DRR integration in development projects, women's leadership, risk mapping, global universities network, and social media utilization." }
+              ]
+            },
+            {
+              id: "u4_allied_legislation",
+              label: "4. Allied Legislation, Plans & National Flagship Programs",
+              type: "topic",
+              details: "Intersection of environmental law, town planning codes, and community volunteer schemes.",
+              children: [
+                { id: "u4_al1", label: "Environmental & Coastal Laws: EPA (1986), CRZ Notifications & Forest Acts", type: "subtopic", details: "Environment Protection Act provisions, Coastal Regulation Zone protections against storm surges, and wetlands/mangrove conservation for natural bio-shields." },
+                { id: "u4_al2", label: "Urban Planning & Building Regulations: Model Building Bye-Laws (2016)", type: "subtopic", details: "Integration of disaster resilience into urban master plans, mandatory structural safety certifications, and zoning ordinances for earthquake/flood safety." },
+                { id: "u4_al3", label: "Aapda Mitra Scheme: 100,000+ Trained Community Volunteer First Responders", type: "subtopic", details: "Flagship national program equipping grassroots youth with standardized search & rescue, first aid skills, and emergency rescue gear across disaster-prone districts." },
+                { id: "u4_al4", label: "Common Alerting Protocol (CAP-Sachet) & NCRMP", type: "subtopic", details: "Geo-targeted emergency alerts via cellular broadcast and SMS; National Cyclone Risk Mitigation Project constructing cyclone shelters and underground electrical cables." }
+              ]
+            },
+            {
+              id: "u4_references",
+              label: "5. Authoritative Curriculum Reference Literature",
+              type: "topic",
+              details: "Key academic textbooks, manuals, and official reference documents.",
+              children: [
+                { id: "u4_rf1_singh", label: "Disaster Management (Savindra Singh, Pravalika Publications, Prayagraj)", type: "subtopic", details: "Standard Indian university reference covering geophysical, meteorological, and biological hazards with Indian case studies and management strategies." },
+                { id: "u4_rf2_nidm", label: "Disaster Management in India: A Status Report (NIDM / Ministry of Home Affairs)", type: "subtopic", details: "Official government document detailing institutional mechanisms, vulnerability profiles, and post-2005 policy evolution." },
+                { id: "u4_rf3_coppola", label: "Introduction to International Disaster Management (Damon P. Coppola, Butterworth-Heinemann)", type: "subtopic", details: "Comprehensive international textbook covering hazard identification, vulnerability assessment, emergency response systems, and disaster sociology." },
+                { id: "u4_rf4_parasuraman", label: "India Disasters Report: Towards a Policy Framework (S. Parasuraman & P.V. Unnikrishnan, Oxford)", type: "subtopic", details: "Critical socio-economic analysis of vulnerability, institutional responses, community resilience, and post-disaster rehabilitation in India." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 };
+
+// Aliases for convenient lookups
+PREDEFINED_MINDMAPS["GGRM51"] = PREDEFINED_MINDMAPS["GGRMJ51"];
+PREDEFINED_MINDMAPS["GGRMV51"] = PREDEFINED_MINDMAPS["GGRMV51"];
 
 /**
  * Dynamically builds a structured Mind Map object from a standard course syllabus JSON object.

@@ -482,20 +482,27 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Basics of Climatology: Meaning and scope; Development and recent trends in climatology; Subdivisions of climatology; Elements of weather and climate; Data sources for climatological studies. 15 313 Course B.Sc./B.A.ThirdYear:Semester-V Course Title"
+              "topics": "Basics of Climatology: Meaning and scope; Development and recent trends in climatology; Subdivisions of climatology; Elements of weather and climate; Data sources for climatological studies."
             },
             {
               "unit": 2,
-              "topics": "Functions of Atmosphere: Composition and structure of atmosphere;insolation; Heat budget; Air stability; Laws of horizontal motion; general atmospheric circulation; AirMasses: classification and characteristics 15"
+              "topics": "Functions of Atmosphere: Composition and structure of atmosphere; Insolation; Heat budget; Air stability; Laws of horizontal motion; General atmospheric circulation; Air Masses: classification and characteristics."
             },
             {
               "unit": 3,
-              "topics": "WeatherPhenomena:CloudsandPrecipitation:formationandtype s;Fronts:sourceregions,typesandassociated weather; Cyclones: tropical and temperate; Monsoon, jet-stream and their significance with reference to India. 15"
+              "topics": "Weather Phenomena: Clouds and Precipitation: formation and types; Fronts: source regions, types and associated weather; Cyclones: tropical and temperate; Monsoon, jet-stream and their significance with reference to India."
             },
             {
               "unit": 4,
-              "topics": "ClimateandHumanResponse:Climaticclassification:Köppenan dThornthwaite;Climatechange: causes, evidence and hypotheses, impacts and mitigation 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+              "topics": "Climate and Human Response: Climatic classification: Köppen and Thornthwaite; Climate change: causes, evidence and hypotheses, impacts and mitigation."
             }
+          ],
+          "suggested_books": [
+            "D.S. Lal: Climatology, Sharda Pustak Bhawan, Allahabad.",
+            "Howard J. Critchfield: General Climatology, Prentice-Hall of India, New Delhi.",
+            "Roger G. Barry & Richard J. Chorley: Atmosphere, Weather and Climate, Routledge, London.",
+            "Savindra Singh: Climatology, Pravalika Publications, Allahabad.",
+            "C. Donald Ahrens: Essentials of Meteorology: An Invitation to the Atmosphere, Cengage Learning."
           ]
         },
         {
@@ -570,20 +577,28 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Introduction to Disasters: Concepts, and definitions (Disaster, Hazard, Vulnerability, Resilience, Risks; Disasters: Classification; Causes, Impacts & Approaches to Disaster Risk Reduction: Social, economic, political, environmental, health, psychosocial, etc. 15 317 Course B.Sc./B.A.ThirdYear:Semester-V CourseTitle"
+              "topics": "Introduction to Disasters: Concepts, and definitions (Disaster, Hazard, Vulnerability, Resilience, Risks); Disasters: Classification; Causes, Impacts & Approaches to Disaster Risk Reduction: Social, economic, political, environmental, health, psychosocial, etc."
             },
             {
               "unit": 2,
-              "topics": "Differential impacts: in terms of caste, class, gender, age, location, disability Global trends in disasters; Disaster management cycle: prevention, mitigation and preparedness; myths and social responces. 15"
+              "topics": "Differential impacts: in terms of caste, class, gender, age, location, disability; Global trends in disasters; Disaster management cycle: prevention, mitigation and preparedness; myths and social responses."
             },
             {
               "unit": 3,
-              "topics": "Disaster Risk Management in India: Community based Disaster Risk Reduction, Structural- nonstructural measures; Hazard and vulnerability profile of India, Institutional arrangements, Disastermitigation. 15"
+              "topics": "Disaster Risk Management in India: Community based Disaster Risk Reduction, Structural-nonstructural measures; Hazard and vulnerability profile of India, Institutional arrangements, Disaster mitigation."
             },
             {
               "unit": 4,
-              "topics": "Case Studies: Landslide, Cloud burst, Mitigation,Response and Preparedness, Disaster Mitigation Act and Policy, Other related policies, plans , programs and legislation. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+              "topics": "Case Studies: Landslide, Cloud burst, Mitigation, Response and Preparedness, Disaster Mitigation Act and Policy, Other related policies, plans, programs and legislation."
             }
+          ],
+          "suggested_books": [
+            "Savindra Singh: Disaster Management, Pravalika Publications, Prayagraj / Allahabad.",
+            "NIDM: Disaster Management in India: A Status Report, National Institute of Disaster Management, Ministry of Home Affairs, New Delhi.",
+            "Damon P. Coppola: Introduction to International Disaster Management, Butterworth-Heinemann / Elsevier.",
+            "S. Parasuraman & P.V. Unnikrishnan: India Disasters Report: Towards a Policy Framework, Oxford University Press, New Delhi.",
+            "R.B. Singh: Disaster Management and Mitigation: Mapping and Vigilance, Rawat Publications, Jaipur.",
+            "Pradeep Sahni, Alka Dhameja & Uma Medury: Disaster Mitigation: Experiences And Reflections, PHI Learning, New Delhi."
           ]
         }
       ]
