@@ -561,12 +561,20 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Representation of Data: Nature and types of data; Representationof data:bar diagram, histogram, frequency curve, linegraph, ogive, piechart; Trafficflow diagram; Slope analysis: Smith and Wentworthmethods. 30 316 Course B.Sc./B.A.ThirdYear:Semester-V CourseTitle"
+              "topics": "Representation of Data: Nature and types of data; Representation of data: bar diagram, histogram, frequency curve, line graph, ogive, pie chart; Traffic flow diagram; Slope analysis: Smith and Wentworth methods."
             },
             {
               "unit": 2,
-              "topics": "Distribution Maps and Diagrams: Rain fall dispersion diagram, water balance graph Distribution maps: dot, isopleth, choropleth, choro chromatic and choros chematic. Graded and nongraded shadings. 30 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+              "topics": "Distribution Maps and Diagrams: Rainfall dispersion diagram, water balance graph. Distribution maps: dot, isopleth, choropleth, chorochromatic and choroschematic. Graded and non-graded shadings."
             }
+          ],
+          "suggested_books": [
+            "R.L. Singh & P.B. Singh: Elements of Practical Geography, Kalyani Publishers, New Delhi.",
+            "F.J. Monkhouse & H.R. Wilkinson: Maps and Diagrams: Their Compilation and Construction, B.I. Publications / Methuen, London.",
+            "Ashis Sarkar: Practical Geography: A Systematic Approach, Orient Blackswan, Kolkata.",
+            "R.P. Mishra & A. Ramesh: Fundamentals of Cartography, Concept Publishing Company, New Delhi.",
+            "Savindra Singh: Prayogatmak Bhoogol (Practical Geography), Pravalika Publications, Prayagraj.",
+            "A.H. Robinson et al.: Elements of Cartography, John Wiley & Sons, New York."
           ]
         },
         {

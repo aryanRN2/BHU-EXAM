@@ -5219,12 +5219,152 @@ const PREDEFINED_MINDMAPS = {
         }
       ]
     }
+  },
+  "GGRMJ54": {
+    id: "GGRMJ54",
+    code: "GGRMJ54",
+    title: "Cartographic Techniques",
+    department: "Department of Geography",
+    semester: 5,
+    credits: 2,
+    course_type: "Major",
+    summary: "Comprehensive mind map for Cartographic Techniques covering Data Types & Statistical Diagrams (Bars, Histograms, Ogives, Pie Charts, Traffic Flow), Morphometric Slope Analysis (G.H. Smith & C.K. Wentworth), Hydro-Climatic Diagrams (Rainfall Dispersion & Thornthwaite Water Balance), Thematic Distribution Maps (Dot, Isopleth, Choropleth, Chorochromatic, Choroschematic), and Graded/Non-Graded Shading.",
+    root: {
+      id: "root",
+      label: "Cartographic Techniques",
+      badge: "GGRMJ54 • Sem 5",
+      type: "root",
+      details: "2 Credits Major Practical Course (Department of Geography, BHU). Quantitative cartographic representation, statistical diagramming, morphometric slope computation, hydrological water budgeting, and thematic distribution mapping.",
+      children: [
+        {
+          id: "unit1",
+          label: "Unit 1: Representation of Data, Statistical Graphs & Slope Analysis",
+          badge: "Unit 1",
+          type: "unit",
+          color: "#4F46E5",
+          details: "Measurement scales of geographical data, one-dimensional and two-dimensional statistical diagrams, frequency curves and ogives, movement cartograms (traffic flow), and quantitative morphometric slope determination methods (Smith & Wentworth).",
+          children: [
+            {
+              id: "u1_data_types",
+              label: "1. Nature & Measurement Scales of Geographical Data",
+              type: "topic",
+              details: "Statistical taxonomy, measurement levels, and spatial dimensions of cartographic input data.",
+              children: [
+                { id: "u1_dt1", label: "Measurement Scales: Nominal, Ordinal, Interval & Ratio ($NOIR$)", type: "subtopic", details: "Nominal (qualitative labels), Ordinal (ranked hierarchy), Interval (arbitrary zero, e.g. °C), and Ratio (absolute true zero, e.g. elevation, population, rainfall)." },
+                { id: "u1_dt2", label: "Data Characteristics: Discrete (Integer Count) vs Continuous (Spatial Surface)", type: "subtopic", details: "Discrete data consists of distinct countable units (settlements, persons), while continuous data varies smoothly over spatial surfaces (temperature, elevation, barometric pressure)." },
+                { id: "u1_dt3", label: "Spatial Geometric Primitives: Point ($0\\text{D}$), Line ($1\\text{D}$), Area ($2\\text{D}$) & Volumetric ($3\\text{D}$)", type: "subtopic", details: "Zero-dimensional spot locations, one-dimensional linear flow networks, two-dimensional thematic polygons, and three-dimensional digital elevation models." }
+              ]
+            },
+            {
+              id: "u1_diagrams",
+              label: "2. Diagrammatic Representation of Data",
+              type: "topic",
+              details: "One-dimensional and two-dimensional geometric diagrams for univariate and multivariate comparisons.",
+              children: [
+                { id: "u1_dg1", label: "Bar Diagrams: Simple, Subdivided (Compound), Multiple & Percentage ($100\\%$)", type: "subtopic", details: "One-dimensional linear bars with height proportional to values: simple (univariate), subdivided (component breakdown), multiple (side-by-side comparative series), and percentage (standardized 100% relative proportions)." },
+                { id: "u1_dg2", label: "Pie Chart / Proportional Divided Circles: Angular Allocation ($\\theta = \\frac{x_i}{\\sum x} \\times 360^\\circ$)", type: "subtopic", details: "Two-dimensional circular cartogram partitioned into angular sectors proportional to component shares, with circle radius scaled to total magnitude ($r \\propto \\sqrt{\\text{Total}}$)." },
+                { id: "u1_dg3", label: "Traffic Flow Diagrams & Cartograms: Line Width Scaling ($W \\propto \\text{Volume}$)", type: "subtopic", details: "Vector flow maps illustrating transport volume, freight density, or commuter movement along route networks using flow ribbon widths proportional to volume." }
+              ]
+            },
+            {
+              id: "u1_graphs_curves",
+              label: "3. Frequency Distribution Graphs & Cumulative Ogives",
+              type: "topic",
+              details: "Continuous probability representation, histograms, frequency polygons, and graphical determination of medians.",
+              children: [
+                { id: "u1_gc1", label: "Histogram & Frequency Polygon: Columnar Area $\\propto$ Class Frequency ($f_i$)", type: "subtopic", details: "Contiguous vertical rectangles plotted against class boundaries with width $\\Delta x$ and height equal to frequency density ($f_i/\\Delta x$); polygon formed by joining midpoints." },
+                { id: "u1_gc2", label: "Frequency Curve & Time-Series Line Graphs (Polygraphs)", type: "subtopic", details: "Smoothed free-hand frequency curve eliminating minor sample variances; single/multi-line polygraphs illustrating secular temporal trends across synchronized axes." },
+                { id: "u1_gc3", label: "Cumulative Frequency Ogives ('Less Than' & 'More Than') $\\rightarrow$ Median ($M$)", type: "subtopic", details: "S-shaped cumulative frequency curves; intersection of 'less than' (upper boundaries) and 'more than' (lower boundaries) ogives precisely locates the Median ($Q_2$), First Quartile ($Q_1$), and Third Quartile ($Q_3$)." }
+              ]
+            },
+            {
+              id: "u1_slope_analysis",
+              label: "4. Quantitative Slope Analysis & Morphometric Methods",
+              type: "topic",
+              details: "Mathematical terrain slope computation and morphometric relief characterization from topographical sheets.",
+              children: [
+                { id: "u1_sa1", label: "G.H. Smith's Method: Relative / Local Relief ($RR = H_{\\max} - H_{\\min}$)", type: "subtopic", details: "Grid-square method determining local vertical amplitude between highest and lowest elevations within each unit grid cell, mapped using isopleths to define relief regions." },
+                { id: "u1_sa2", label: "C.K. Wentworth's Method: Average Slope Determination ($\\tan \\theta = \\frac{N \\times VI}{3361}$ or $\\frac{N \\times VI}{636.6}$)", type: "subtopic", details: "Quantitative formula for average inclination angle ($\\theta$) based on average contour crossings per mile/km ($N$) multiplied by contour interval ($VI$) divided by constant ($3361$ for feet/mile, $636.6$ for meters/km)." },
+                { id: "u1_sa3", label: "Comparative Evaluation & Practical Applications in Geomorphology", type: "subtopic", details: "Smith focuses on vertical roughness amplitude without direction, whereas Wentworth determines mean ground slope angle across watershed drainage basins." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit2",
+          label: "Unit 2: Distribution Maps, Hydro-Climatic Diagrams & Shading Techniques",
+          badge: "Unit 2",
+          type: "unit",
+          color: "#0891B2",
+          details: "Hydro-climatic diagrams (Rainfall Dispersion & Thornthwaite Water Budget), quantitative distribution mapping (Dot, Isopleth, Choropleth), qualitative thematic mapping (Chorochromatic, Choroschematic), and visual shading techniques.",
+          children: [
+            {
+              id: "u2_climatic_diagrams",
+              label: "1. Hydro-Climatic Diagrams & Water Balance Graphs",
+              type: "topic",
+              details: "Graphical analysis of rainfall variability, quartile dispersion, and monthly soil moisture budgeting.",
+              children: [
+                { id: "u2_cd1", label: "Rainfall Dispersion Diagram: Quartiles ($Q_1, Q_2, Q_3$) & Reliability Dispersion", type: "subtopic", details: "Vertical dispersion plot of long-term (30+ years) monthly/annual rainfall showing median ($Q_2$), interquartile range ($Q_3 - Q_1$), octiles, and extreme anomalies to assess agricultural rainfall reliability." },
+                { id: "u2_cd2", label: "Thornthwaite Water Balance Graph: $P$ vs $PE$ vs $AE$ Budgeting Curves", type: "subtopic", details: "Superimposed monthly curves of Precipitation ($P$), Potential Evapotranspiration ($PE$), and Actual Evapotranspiration ($AE$) delineating 4 distinct hydrological regimes." },
+                { id: "u2_cd3", label: "Hydrological Regimes: Soil Moisture Recharge, Surplus ($P > PE$), Utilization & Deficit", type: "subtopic", details: "Precise graphical identification of groundwater recharge, moisture surplus (run-off), soil moisture depletion, and moisture deficit (irrigation demand)." }
+              ]
+            },
+            {
+              id: "u2_quantitative_maps",
+              label: "2. Quantitative Thematic Distribution Maps",
+              type: "topic",
+              details: "Standard thematic mapping methodologies for continuous and discrete quantitative spatial data.",
+              children: [
+                { id: "u2_qm1", label: "Dot Method: Point-Symbol Mapping (Dot Value, Size & Controlled Placement)", type: "subtopic", details: "Absolute quantity representation using uniform dots where each dot represents a fixed count ($Value = \\frac{\\text{Min Pop}}{\\text{Area}}$), placed using negative physiographic layers (forests, waterbodies, steep slopes)." },
+                { id: "u2_qm2", label: "Isopleth Method: Continuous Surface Lines (Isotherms, Isobars, Isohyets & Contours)", type: "subtopic", details: "Linear spatial interpolation between control spot data points representing non-localized continuous field variables (temperature, rainfall, atmospheric pressure)." },
+                { id: "u2_qm3", label: "Choropleth Method: Areal Density Shading per Administrative Polygon", type: "subtopic", details: "Shading administrative unit polygons according to derived ratios/densities (e.g. population/km², literacy %) using statistical classification intervals (Equal Interval, Quantiles, Natural Breaks)." }
+              ]
+            },
+            {
+              id: "u2_qualitative_maps",
+              label: "3. Qualitative Thematic Distribution Maps",
+              type: "topic",
+              details: "Non-quantitative spatial distributions based on nominal categorization and symbolic taxonomy.",
+              children: [
+                { id: "u2_ql1", label: "Chorochromatic Maps: Qualitative Areal Tints / Color Distributions", type: "subtopic", details: "Non-quantitative areal classification using distinct hues/colors to differentiate categorical spatial domains without hierarchical rank (soil types, geological formations, administrative divisions)." },
+                { id: "u2_ql2", label: "Choroschematic Maps: Symbol & Letter Patterns (Pictorial/Geometric Cartography)", type: "subtopic", details: "Mapping spatial distribution of discrete categorical commodities using letter abbreviations (e.g. 'C' for Coal, 'Fe' for Iron), pictorial symbols, or geometric glyphs." }
+              ]
+            },
+            {
+              id: "u2_shading_techniques",
+              label: "4. Graded & Non-Graded Shading Techniques",
+              type: "topic",
+              details: "Cartographic semiology, visual variables, tonal values, and texture rendering.",
+              children: [
+                { id: "u2_st1", label: "Graded Shading: Ordered Monochromatic Value Steps (Visual Value & Density)", type: "subtopic", details: "Progressive density shading using ordered gray tones or line hatching frequency (light = low value, dark = high value) conforming to perceptual visual hierarchy." },
+                { id: "u2_st2", label: "Non-Graded Shading: Nominal Textures & Hatching without Ordinal Rank", type: "subtopic", details: "Distinctive spatial patterns (cross-hatching, stippling, dots, wavy lines) selected to differentiate qualitative spatial classes without implying greater/lesser magnitude." }
+              ]
+            },
+            {
+              id: "u2_references",
+              label: "5. Authoritative Practical Cartography Reference Literature",
+              type: "topic",
+              details: "Standard university laboratory manuals and foundational treatises in practical geography.",
+              children: [
+                { id: "u2_rf1_singh", label: "Elements of Practical Geography (R.L. Singh & P.B. Singh, Kalyani Publishers)", type: "subtopic", details: "The classic foundational BHU practical manual covering statistical diagrams, Wentworth/Smith morphometry, weather charts, and cartographic projections." },
+                { id: "u2_rf2_monkhouse", label: "Maps and Diagrams: Their Compilation and Construction (F.J. Monkhouse & H.R. Wilkinson)", type: "subtopic", details: "Authoritative international benchmark on climatic graphs, population distribution mapping, morphometric slope analysis, and choropleth design." },
+                { id: "u2_rf3_sarkar", label: "Practical Geography: A Systematic Approach (Ashis Sarkar, Orient Blackswan)", type: "subtopic", details: "Modern systematic guide detailing statistical cartography, frequency curves, water budget graphics, and thematic map construction." },
+                { id: "u2_rf4_mishra", label: "Fundamentals of Cartography (R.P. Mishra & A. Ramesh, Concept Publishing)", type: "subtopic", details: "Comprehensive Indian treatise covering the philosophy of map design, symbolization scales, thematic mapping, and slope analyses." },
+                { id: "u2_rf5_robinson", label: "Elements of Cartography (A.H. Robinson et al., John Wiley & Sons)", type: "subtopic", details: "Standard global reference on cartographic semiology, visual variables, map projections, data classification intervals, and GIS integration." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 };
 
 // Aliases for convenient lookups
 PREDEFINED_MINDMAPS["GGRM51"] = PREDEFINED_MINDMAPS["GGRMJ51"];
 PREDEFINED_MINDMAPS["GGRMV51"] = PREDEFINED_MINDMAPS["GGRMV51"];
+PREDEFINED_MINDMAPS["GGRM54"] = PREDEFINED_MINDMAPS["GGRMJ54"];
+PREDEFINED_MINDMAPS["GGRMJ54"] = PREDEFINED_MINDMAPS["GGRMJ54"];
 
 /**
  * Dynamically builds a structured Mind Map object from a standard course syllabus JSON object.
