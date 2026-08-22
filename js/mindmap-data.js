@@ -5357,6 +5357,203 @@ const PREDEFINED_MINDMAPS = {
         }
       ]
     }
+  },
+  "GGRMJ53": {
+    id: "GGRMJ53",
+    code: "GGRMJ53",
+    title: "Population Geography",
+    department: "Department of Geography",
+    semester: 5,
+    credits: 4,
+    course_type: "Major",
+    summary: "Comprehensive mind map for Population Geography covering Foundational Concepts & Data Sources (Census, Surveys, VRS), Population Dynamics (Fertility, Mortality, Migration Models & Growth Theories), World Population Distribution, Agglomerations & HRD/HDI, and India's Demographic Attributes & National Population Policies.",
+    root: {
+      id: "root",
+      label: "Population Geography",
+      badge: "GGRMJ53 • Sem 5",
+      type: "root",
+      details: "4 Credits Major Course (Department of Geography, BHU). Spatial analysis of human numbers, vital rates, migration dynamics, global population agglomerations, demographic transition, human development indices, and India's demographic profile and policies.",
+      children: [
+        {
+          id: "unit1",
+          label: "Unit 1: Basic Concepts, Scope & Sources of Population Data",
+          badge: "Unit 1",
+          type: "unit",
+          color: "#4F46E5",
+          details: "Epistemological scope of population geography, Trewartha's conceptual triad, demography vs population geography, and primary sources of demographic data (Census, NSSO/NFHS surveys, and Vital Registration Systems).",
+          children: [
+            {
+              id: "u1_nature_scope",
+              label: "1. Meaning, Scope & Evolution of Population Geography",
+              type: "topic",
+              details: "Disciplinary development and spatial paradigms of population geography.",
+              children: [
+                { id: "u1_ns1", label: "Disciplinary Definition: Spatial Analysis of Population Attributes", type: "subtopic", details: "Scientific study of spatial variations in demographic attributes (distribution, density, composition, migration, growth) and their ecological relations with the geographic environment." },
+                { id: "u1_ns2", label: "Historical Evolution & G.T. Trewartha's Triad (1953 Landmark Address)", type: "subtopic", details: "Trewartha established population as the pivotal coordinating element in geography, structuring human geography around a triad: Physical Environment, Cultural Landscape, and Population." },
+                { id: "u1_ns3", label: "Population Geography vs Demography: Spatial Differentiation vs Statistical Formalism", type: "subtopic", details: "Demography is the quantitative/mathematical study of aggregate vital rates and population mechanics, whereas population geography focuses on areal differentiation, spatial patterns, and place-based causality." },
+                { id: "u1_ns4", label: "Interdisciplinary Synergies with Social Sciences", type: "subtopic", details: "Cross-disciplinary linkages with Sociology (social stratification), Economics (labor markets, human capital), Anthropology (ethnic composition), and Urban/Regional Planning." }
+              ]
+            },
+            {
+              id: "u1_data_sources",
+              label: "2. Sources & Systems of Demographic Data",
+              type: "topic",
+              details: "Primary data collection systems, administrative registries, and national sample surveys.",
+              children: [
+                { id: "u1_ds1", label: "Population Census: Universality, Simultaneity & Periodicity", type: "subtopic", details: "Total process of collecting, compiling, evaluating, analyzing and publishing demographic data for all persons in a delimited territory at a specified time (De Jure vs De Facto enumeration methods; Decennial in India since 1872/1881)." },
+                { id: "u1_ds2", label: "Sample Surveys: NSSO / NSO & National Family Health Surveys (NFHS-1 to 5)", type: "subtopic", details: "Inter-censal micro-level socio-economic surveys providing in-depth data on fertility, infant mortality, nutrition, health access, maternal care, and household living conditions." },
+                { id: "u1_ds3", label: "Vital Registration System (VRS / CRS) & Sample Registration System (SRS)", type: "subtopic", details: "Continuous statutory recording of vital events (births, deaths, marriages) under Civil Registration System (CRS), complemented by dual-record Sample Registration System (SRS) for annual vital estimates in India." },
+                { id: "u1_ds4", label: "Demographic Data Quality: Coverage Errors & Age-Heaping (Whipple's / Myers' Index)", type: "subtopic", details: "Evaluation of census accuracy: coverage errors (undercounts/overcounts), content errors, digit preference/age-heaping evaluated via Whipple's and Myers' Blended Indices." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit2",
+          label: "Unit 2: Population Dynamics, Migration & Growth Theories",
+          badge: "Unit 2",
+          type: "unit",
+          color: "#0891B2",
+          details: "Vital demographic rates (fertility & mortality), spatial migration typologies and interaction models, Malthusian theory, and Demographic Transition Theory.",
+          children: [
+            {
+              id: "u2_fertility_mortality",
+              label: "1. Fertility & Mortality: Measures, Trends & Transitions",
+              type: "topic",
+              details: "Quantitative measures of reproductive performance and mortality dynamics.",
+              children: [
+                { id: "u2_fm1", label: "Fertility Measures: $CBR, GFR, ASFR, TFR$ & Net Reproduction Rate ($NRR$)", type: "subtopic", details: "Crude Birth Rate ($CBR = \\frac{B}{P} \\times 1000$), General Fertility Rate ($GFR$), Age-Specific Fertility Rate ($ASFR$), Total Fertility Rate ($TFR = 5 \\sum ASFR$), and replacement-level fertility ($TFR = 2.1$)." },
+                { id: "u2_fm2", label: "Determinants of Fertility: Biological, Cultural, Economic & Contraceptive Factors", type: "subtopic", details: "Fecundity, marriage age, female education, son preference, economic value of child labor, family planning acceptance, and government pronatalist/antinatalist policies." },
+                { id: "u2_fm3", label: "Mortality Measures: $CDR, ASDR, IMR, MMR$ & Life Expectancy ($e_0$)", type: "subtopic", details: "Crude Death Rate ($CDR = \\frac{D}{P} \\times 1000$), Infant Mortality Rate ($IMR = \\frac{D_0}{B} \\times 1000$), Maternal Mortality Ratio ($MMR$), Under-5 Mortality, and life expectancy at birth." },
+                { id: "u2_fm4", label: "Abdel Omran's Epidemiological Transition Theory", type: "subtopic", details: "Three historical stages of disease evolution: Age of Pestilence & Famine $\\rightarrow$ Age of Receding Pandemics $\\rightarrow$ Age of Degenerative and Man-Made/Lifestyle Diseases." }
+              ]
+            },
+            {
+              id: "u2_migration",
+              label: "2. Migration: Typologies, Models & Consequences",
+              type: "topic",
+              details: "Spatial mobility of human populations, theoretical models, and geographical impacts.",
+              children: [
+                { id: "u2_mg1", label: "Spatial Typologies & Streams: Rural-Urban, International, Forced & Circular", type: "subtopic", details: "Internal streams (Rural-Urban, Rural-Rural, Urban-Urban, Urban-Rural), international immigration/emigration, forced refugee displacements, and seasonal circular labor migration." },
+                { id: "u2_mg2", label: "Push-Pull Dynamics & Intervening Obstacles (Everett Lee's Model, 1966)", type: "subtopic", details: "Origin push factors (poverty, ecological disaster, conflict), destination pull factors (employment, healthcare, urban amenities), and intervening friction/costs." },
+                { id: "u2_mg3", label: "Spatial Interaction Models: Ravenstein's Laws & Zelinsky's Mobility Transition", type: "subtopic", details: "E.G. Ravenstein's Laws of Migration (step migration, distance decay, female dominance in short distance) and Wilbur Zelinsky's Mobility Transition paralleling demographic stages." },
+                { id: "u2_mg4", label: "Consequences of Migration on Origin and Destination Regions", type: "subtopic", details: "Origins experience brain drain, remittances, aging workforce, and skewed sex ratios; destinations face labor supply growth, strain on civic infrastructure, and informal slum growth." }
+              ]
+            },
+            {
+              id: "u2_growth_theories",
+              label: "3. Theories of Population Growth",
+              type: "topic",
+              details: "Classical economic and demographic evolutionary theories of human population.",
+              children: [
+                { id: "u2_gt1", label: "Malthusian Population Theory (Thomas Robert Malthus, 1798)", type: "subtopic", details: "Population expands exponentially in Geometric progression ($1, 2, 4, 8, 16...$) while food production increases in Arithmetic progression ($1, 2, 3, 4, 5...$); equilibrating checks: Preventive (moral restraint) vs Positive (famines, war, epidemics)." },
+                { id: "u2_gt2", label: "Critiques of Malthus & Neo-Malthusian Environmentalism", type: "subtopic", details: "Critiqued for underestimating technological agricultural revolutions (Green Revolution); Neo-Malthusian revival via 'Limits to Growth' (Club of Rome) and resource carrying capacity." },
+                { id: "u2_gt3", label: "Demographic Transition Theory (Thompson, Notestein & Blacker)", type: "subtopic", details: "Five-stage model describing transition from high birth/death rates to low birth/death rates with economic modernization: Stage 1 (High Stationary), Stage 2 (Early Expanding/Explosion), Stage 3 (Late Expanding), Stage 4 (Low Stationary), Stage 5 (Declining/Contracting)." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit3",
+          label: "Unit 3: World Population Distribution, Agglomerations & HRD",
+          badge: "Unit 3",
+          type: "unit",
+          color: "#D97706",
+          details: "Global population distribution factors, major world population agglomerations, global urbanization patterns, Human Resource Development (HDI indicators), and emerging population challenges.",
+          children: [
+            {
+              id: "u3_world_distribution",
+              label: "1. World Population Distribution & Spatial Disparities",
+              type: "topic",
+              details: "Macro spatial patterns of global settlement, ecumene vs non-ecumene zones, and physical/cultural drivers.",
+              children: [
+                { id: "u3_wd1", label: "Global Distribution Determinants: Physical & Socio-Economic Factors", type: "subtopic", details: "Topography, climatic comfort, water availability, fertile alluvial soils, mineral deposits, industrial concentration, accessibility, and historical settlement longevity." },
+                { id: "u3_wd2", label: "Ecumene (Habitable Earth) vs Non-Ecumene Zones", type: "subtopic", details: "Permanent human-settled lands (ecumene) vs uninhabited/sparsely populated extremes (non-ecumene: polar ice sheets, hyper-arid deserts, dense equatorial rainforests, high alpine altitudes)." },
+                { id: "u3_wd3", label: "Milestones of Global Population Growth: 1 Billion (1804) to 8 Billion (2022)", type: "subtopic", details: "Accelerating doubling time during 20th century, peak global growth rates (~2.1% in late 1960s), and current deceleration towards global stabilization." }
+              ]
+            },
+            {
+              id: "u3_agglomerations_urban",
+              label: "2. Major Population Agglomerations & Urbanization Trends",
+              type: "topic",
+              details: "Concentration of humanity in primary demographic clusters and global megacity expansion.",
+              children: [
+                { id: "u3_au1", label: "Four Primary Global Agglomerations: East Asia, South Asia, Europe & Eastern North America", type: "subtopic", details: "East Asia (fertile river valleys of China & Japan), South Asia (Indo-Gangetic-Brahmaputra plains), Europe (coalfields & industrial corridors), and BOSWASH megalopolis." },
+                { id: "u3_au2", label: "Global Urbanization Trends & Megacities ($>10\\text{ Million}$)", type: "subtopic", details: "Over 55% of world population urbanized; rapid emergence of megacities in the Global South (Tokyo, Delhi, Shanghai, Mumbai, São Paulo, Cairo) and pseudo-urbanization." },
+                { id: "u3_au3", label: "Urban Primacy, Conurbations & Counter-Urbanization", type: "subtopic", details: "Primate city dominance in developing economies, merging urban conurbations, and suburbanization/counter-urbanization in advanced post-industrial economies." }
+              ]
+            },
+            {
+              id: "u3_hrd_problems",
+              label: "3. Human Resource Development (HRD) & Population Crises",
+              type: "topic",
+              details: "Human development metrics, capability approach, and dual demographic challenges.",
+              children: [
+                { id: "u3_hp1", label: "Human Development Index (HDI - UNDP / Mahbub ul Haq & Amartya Sen)", type: "subtopic", details: "Composite index combining: Longevity (Life Expectancy Index), Knowledge (Mean & Expected Years of Schooling), and Decent Standard of Living (GNI per capita PPP)." },
+                { id: "u3_hp2", label: "Allied Indices: Inequality-adjusted HDI (IHDI), GDI, GII & MPI", type: "subtopic", details: "Measures of distribution inequality (IHDI), gender parity (Gender Development Index, Gender Inequality Index), and non-monetary deprivations (Multidimensional Poverty Index)." },
+                { id: "u3_hp3", label: "Dual Contemporary Crises: Overpopulation Pressures vs Aging / Greying Society", type: "subtopic", details: "Resource depletion, food/water insecurity, and youth underemployment in developing nations contrasted with population decline, shrinking workforces, and eldercare burdens in Japan, South Korea, and Europe." }
+              ]
+            }
+          ]
+        },
+        {
+          id: "unit4",
+          label: "Unit 4: Population Characteristics & Policies in India",
+          badge: "Unit 4",
+          type: "unit",
+          color: "#059669",
+          details: "Demographic profile of India, spatial density variations, 1921 demographic divide, demographic dividend, literacy, sex ratios, and the evolution of national population policies.",
+          children: [
+            {
+              id: "u4_india_dynamics",
+              label: "1. Spatial Distribution, Density & Growth Phases in India",
+              type: "topic",
+              details: "Census trends, spatial density disparities, and historical phases of demographic growth.",
+              children: [
+                { id: "u4_id1", label: "Spatial Distribution & Density: Regional Variations (Bihar vs Arunachal Pradesh)", type: "subtopic", details: "National density ($382\\text{ persons/km}^2$ in 2011, now $>430$), extreme spatial contrasts: fertile Gangetic plains ($>1100\\text{ in Bihar}$) vs rugged Himalayan zones ($17\\text{ in Arunachal Pradesh}$)." },
+                { id: "u4_id2", label: "Four Phases of Population Growth in India & The 1921 'Great Divide'", type: "subtopic", details: "Phase I: Stagnant/Fluctuating (1901–1921, negative growth in 1911–1921 due to 1918 influenza pandemic); Phase II: Steady Growth (1921–1951); Phase III: Rapid Explosion (1951–1981); Phase IV: High Growth with Slowdown (1981–present)." },
+                { id: "u4_id3", label: "Demographic Dividend: Working-Age Bulge ($15\\text{--}59\\text{ Years}$) & Skilling Challenges", type: "subtopic", details: "Window of economic opportunity characterized by low dependency ratio, median age ~28 years, requiring massive investments in education, healthcare, and employment creation." }
+              ]
+            },
+            {
+              id: "u4_structural_attributes",
+              label: "2. Structural Attributes: Literacy, Age & Sex Composition",
+              type: "topic",
+              details: "Social composition, educational attainment, age pyramids, and sex ratio dynamics.",
+              children: [
+                { id: "u4_sa1", label: "Literacy Trends & Spatial/Gender Disparities", type: "subtopic", details: "National literacy rate ($74.04\\%$ in 2011), persistent male-female gap ($82.14\\%$ male vs $65.46\\%$ female), and wide state disparities (Kerala $>94\\%$ vs Bihar $\\approx 61.8\\%$)." },
+                { id: "u4_sa2", label: "Age Structure & Population Pyramid Profiles", type: "subtopic", details: "Transition from expansive broad-based triangle pyramid to stationary beehive shape reflecting declining fertility rates across southern and western states." },
+                { id: "u4_sa3", label: "Sex Ratio Trends & Child Sex Ratio Crisis (CSR $0\\text{--}6\\text{ Years}$)", type: "subtopic", details: "Overall sex ratio ($943$ females/$1000$ males in 2011; improving in NFHS-5), deeply concerning historical decline in Child Sex Ratio ($918$ in 2011) due to son preference, and counter-initiatives like 'Beti Bachao Beti Padhao'." }
+              ]
+            },
+            {
+              id: "u4_policies_india",
+              label: "3. Evolution of Population Policies & National Programs in India",
+              type: "topic",
+              details: "Policy evolution from clinical target approaches to rights-based reproductive health.",
+              children: [
+                { id: "u4_po1", label: "National Family Planning Programme (1952 - Pioneer Global Initiative)", type: "subtopic", details: "India was the first country globally to launch an official government-sponsored family planning program in 1952, evolving from clinical to extension and target-oriented models." },
+                { id: "u4_po2", label: "National Population Policy (NPP 2000): Holistic Reproductive Rights Framework", type: "subtopic", details: "Immediate objective: addressing unmet needs for contraception and health infrastructure; Medium-term: bringing TFR to replacement level ($2.1$) by 2010; Long-term: achieving stable population by 2045." },
+                { id: "u4_po3", label: "National Health Policy (NHP 2017) & Reproductive Health ($RMNCAH+N$)", type: "subtopic", details: "Shift towards universal healthcare, voluntary rights-based family planning, adolescent reproductive health, and achieving Sustainable Development Goals (SDG 3 & 5)." }
+              ]
+            },
+            {
+              id: "u4_references",
+              label: "4. Authoritative Population Geography Reference Literature",
+              type: "topic",
+              details: "Standard university textbooks and foundational treatises in population geography.",
+              children: [
+                { id: "u4_rf1_chandna", label: "Geography of Population: Concepts, Determinants and Patterns (R.C. Chandna, Kalyani)", type: "subtopic", details: "Comprehensive Indian benchmark textbook covering measurement metrics, demographic theories, migration models, and Indian census analysis." },
+                { id: "u4_rf2_clarke", label: "Population Geography (John I. Clarke, Pergamon Press, Oxford)", type: "subtopic", details: "Classic international treatise establishing spatial demographic theory, distribution factors, and population-resource balances." },
+                { id: "u4_rf3_zelinsky", label: "A Prologue to Population Geography (Wilbur Zelinsky, Prentice-Hall)", type: "subtopic", details: "Foundational conceptual framework introducing the mobility transition model and spatial philosophy of population studies." },
+                { id: "u4_rf4_hassan", label: "Population Geography: A Systematic Exposition (M.I. Hassan, Routledge)", type: "subtopic", details: "Modern systematic treatise detailing vital statistics, age-sex structures, human development indices, and global demographic transitions." },
+                { id: "u4_rf5_premi", label: "The Population of India (M.K. Premi, National Book Trust)", type: "subtopic", details: "Authoritative demographic analysis of India's census data, literacy trends, sex ratios, and national population policies." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 };
 
@@ -5365,6 +5562,8 @@ PREDEFINED_MINDMAPS["GGRM51"] = PREDEFINED_MINDMAPS["GGRMJ51"];
 PREDEFINED_MINDMAPS["GGRMV51"] = PREDEFINED_MINDMAPS["GGRMV51"];
 PREDEFINED_MINDMAPS["GGRM54"] = PREDEFINED_MINDMAPS["GGRMJ54"];
 PREDEFINED_MINDMAPS["GGRMJ54"] = PREDEFINED_MINDMAPS["GGRMJ54"];
+PREDEFINED_MINDMAPS["GGRM53"] = PREDEFINED_MINDMAPS["GGRMJ53"];
+PREDEFINED_MINDMAPS["GGRMJ53"] = PREDEFINED_MINDMAPS["GGRMJ53"];
 
 /**
  * Dynamically builds a structured Mind Map object from a standard course syllabus JSON object.

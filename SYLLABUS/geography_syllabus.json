@@ -537,20 +537,29 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "BasicConcepts:Meaning,scopeanddevelopmentofpopulationgeo graphy;RelationshipofPopulationgeographywithotherbranchesof socialsciences;Sourcesandtypesofpopulationdata:census,samples urvey,vitalregistrationsystem. 15 315 Course B.Sc./B.A.ThirdYear:Semester-V CourseTitle"
+              "topics": "Basic Concepts: Meaning, scope and development of population geography; Relationship of Population geography with other branches of social sciences; Sources and types of population data: census, sample survey, vital registration system."
             },
             {
               "unit": 2,
-              "topics": "PopulationDynamics:Measures,trendsandpatternofFertilityand Mortality;Concept,types,determinantsandconsequencesofMigrat ion;Theoriesof population growth: Malthusian, Demographic Transition Theory; 15"
+              "topics": "Population Dynamics: Measures, trends and pattern of Fertility and Mortality; Concept, types, determinants and consequences of Migration; Theories of population growth: Malthusian, Demographic Transition Theory."
             },
             {
               "unit": 3,
-              "topics": "World Population:Populationdistributionand growth; Population agglomerations; Urbanization trends and patterns; Human Resource Development: indicators and patterns; Population problems. 15"
+              "topics": "World Population: Population distribution and growth; Population agglomerations; Urbanization trends and patterns; Human Resource Development: indicators and patterns; Population problems."
             },
             {
               "unit": 4,
-              "topics": "PopulationCharacteristicsinIndia:Population distribution, Density And Growth; Literacy; Age and Sex composition; Population Policies of India. 15 SEC-SkillEnhancementCourse, AECAbilityEnhancementCourse; VACValueAdded Course: MD-MultidisciplinaryCourse1Credit(Theory)=15Hours;1Credit(Practical)=30Hours"
+              "topics": "Population Characteristics in India: Population distribution, Density and Growth; Literacy; Age and Sex composition; Population Policies of India."
             }
+          ],
+          "suggested_books": [
+            "R.C. Chandna: Geography of Population: Concepts, Determinants and Patterns, Kalyani Publishers, New Delhi.",
+            "K.D. Sharma: Population Geography, Rawat Publications, Jaipur.",
+            "John I. Clarke: Population Geography, Pergamon Press, Oxford.",
+            "Wilbur Zelinsky: A Prologue to Population Geography, Prentice-Hall, Englewood Cliffs.",
+            "Savindra Singh & Alka Gautam: Population Geography, Pravalika Publications / Sharda Pustak Bhawan, Prayagraj.",
+            "M.I. Hassan: Population Geography: A Systematic Exposition, Routledge, London / New Delhi.",
+            "M.K. Premi: The Population of India, National Book Trust (NBT), New Delhi."
           ]
         },
         {
