@@ -14,24 +14,29 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1. Properties and origin of life 2. Diversity of evolution of animal systems 2.1 Classification of major groups of living system 2.2 Concept and evidence of organic evolution 2.3 Theory of natural selection – industrial melanism 3 8 636 Course Title"
+              "topics": "1. Properties and origin of life 2. Diversity of evolution of animal systems 2.1 Classification of major groups of living system 2.2 Concept and evidence of organic evolution 2.3 Theory of natural selection – industrial melanism"
             },
             {
               "unit": 2,
-              "topics": "3. Cell – the unit of life 3.1 Organization of cell 3.2 Cell multiplication 8"
+              "topics": "3. Cell – the unit of life 3.1 Organization of cell 3.2 Cell multiplication"
             },
             {
               "unit": 3,
-              "topics": "4. Biomolecules 4.1 Sugars, fats and proteins 4.2 Enzymes - biological catalysts 4.3 Production of energy in biological system 8"
+              "topics": "4. Biomolecules 4.1 Sugars, fats and proteins 4.2 Enzymes - biological catalysts 4.3 Production of energy in biological system"
             },
             {
               "unit": 4,
-              "topics": "5. Inheritance of biological characters 5.1 Laws of Inheritance 5.2 Nature of hereditary material and flow of genetic information 5.3 Genes and diseases – sickle cell anemia, Down syndrome 8"
+              "topics": "5. Inheritance of biological characters 5.1 Laws of Inheritance 5.2 Nature of hereditary material and flow of genetic information 5.3 Genes and diseases – sickle cell anemia, Down syndrome"
             },
             {
               "unit": 5,
-              "topics": "6. Physiology of 6.1 Digestion 6.2 Breathing 6.3 Blood circulation 6.4 Urine formation 6.5 Endocrine glands 10 Texts /"
+              "topics": "6. Physiology of 6.1 Digestion 6.2 Breathing 6.3 Blood circulation 6.4 Urine formation 6.5 Endocrine glands"
             }
+          ],
+          "suggested_books": [
+            "Biology for class XI & XII NCERT Textbooks",
+            "Verma et al, Cell Biology, Genetics, Molecular Biology, Evolution and Ecology (2008, S Chand)",
+            "Cain et al, Discover Biology (4th Edition, W. W. Norton & Company)"
           ]
         },
         {
@@ -42,24 +47,32 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1. Criteria for classification of multicellular animals 1.1 Symmetry 1.2 Early development: Spiral and radial cleavage Origin of germ layers Protostomes (protostome subgroups) and Deuterostomes 1.3 Body cavities: acoelomates, pseudocoelomates, coelomates (schizo- and enterocoelomates) 1.4 Segmentation, metamerism and tagmatization 1.5 Homology and Analogy 3 631 Course Title"
+              "topics": "1. Criteria for classification of multicellular animals 1.1 Symmetry 1.2 Early development: Spiral and radial cleavage Origin of germ layers Protostomes (protostome subgroups) and Deuterostomes 1.3 Body cavities: acoelomates, pseudocoelomates, coelomates (schizo- and enterocoelomates) 1.4 Segmentation, metamerism and tagmatization 1.5 Homology and Analogy"
             },
             {
               "unit": 2,
-              "topics": "2. Non-Chordates: General characters and classification of the following up to classes with examples showing distinctive features 2.1 Protozoa 2.2 Porifera 2.3 Cnidaria 2.4 Ctenophora 2.5 Platyhelminthes 2.6 Nematoda 2.7 Annelida 2.8 Arthropoda 2.9 Mollusca 2.10 Echinodermata 8"
+              "topics": "2. Non-Chordates: General characters and classification of the following up to classes with examples showing distinctive features 2.1 Protozoa 2.2 Porifera 2.3 Cnidaria 2.4 Ctenophora 2.5 Platyhelminthes 2.6 Nematoda 2.7 Annelida 2.8 Arthropoda 2.9 Mollusca 2.10 Echinodermata"
             },
             {
               "unit": 3,
-              "topics": "3. Hemichordates: General characters and classification up to sub-classes 4.Chordates: General characters and classification of the following up to sub- classes/ orders with examples showing distinctive/adaptive features 4.1 Protochordates: Urochordates, Cephalochordates 4.2 Cyclostomes 4.3 Pisces 4.4 Amphibians 4.5 Reptiles 4.6 Aves 4.7 Mammals 11"
+              "topics": "3. Hemichordates: General characters and classification up to sub-classes 4.Chordates: General characters and classification of the following up to sub- classes/ orders with examples showing distinctive/adaptive features 4.1 Protochordates: Urochordates, Cephalochordates 4.2 Cyclostomes 4.3 Pisces 4.4 Amphibians 4.5 Reptiles 4.6 Aves 4.7 Mammals"
             },
             {
               "unit": 4,
-              "topics": "5. Modes and Types of Feeding, Digestion and Excretion 5.1 Feeding mechanisms: suspension, deposit, cropping and sucking (herbivorous) and raptorial (carnivorous) 5.2 Intracellular and extracellular digestion: food vacuole and gastrovascular cavity 5.3 Open tubular: Metanephridia 5.4 Closed saccular: Malpighian tubules and vertebrate kidney 12"
+              "topics": "5. Modes and Types of Feeding, Digestion and Excretion 5.1 Feeding mechanisms: suspension, deposit, cropping and sucking (herbivorous) and raptorial (carnivorous) 5.2 Intracellular and extracellular digestion: food vacuole and gastrovascular cavity 5.3 Open tubular: Metanephridia 5.4 Closed saccular: Malpighian tubules and vertebrate kidney"
             },
             {
               "unit": 5,
-              "topics": "7. Nervous system, Receptors and Sense organ 7.1 Patterns of the nervous system in non-chordates 7.2 Organization of the nervous system in vertebrates 7.3 Phonoreception in mammals 7.4Photoreception in mammals 8. Reproduction 8.1 Types of asexual reproduction: fission, regeneration and parthenogenesis 8.2 Sexual reproduction: primary sex organs and their functions 11"
+              "topics": "7. Nervous system, Receptors and Sense organ 7.1 Patterns of the nervous system in non-chordates 7.2 Organization of the nervous system in vertebrates 7.3 Phonoreception in mammals 7.4Photoreception in mammals 8. Reproduction 8.1 Types of asexual reproduction: fission, regeneration and parthenogenesis 8.2 Sexual reproduction: primary sex organs and their functions"
             }
+          ],
+          "suggested_books": [
+            "Hickman, Keen, Larson and Eisenhour: Animal Diversity (9th ed., 2021, Mc Graw Hill)",
+            "Miller & Harley: Zoology (10th ed. 2016, McGraw Hill)",
+            "Campbell & Reece: Biology (7th ed. 2005, Pearson)",
+            "Mader: Biology (9th ed. 2007, Brown)",
+            "Kotpal: Modern textbook of Zoology: Invertebrates (11th ed. 2016 Rastogi)",
+            "Kotpal: Modern textbook of Zoology: Vertebrates (4th ed. 2016 Rastogi)"
           ]
         },
         {
@@ -70,20 +83,25 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Part A: Animal Diversity 1. Study of transverse sections/chart of the following: Sycon (as an example of Parazoa to show its structure, spicules and canal system), Hydra (as an example of diploblastic animal), Fasciola (as an example of a triploblastic acoelomate animal), Ascaris (as an example of triploblastic pseudocoelomate animal), Hirudinaria (as an example of triploblastic schizocoelomate animal), Frog (as an example of triploblastic enterocoelomate animal). 2. Study of salient features and classification up to classes of the following non- chordates with special emphasis on their adaptive characters: Amoeba, Euglena, Plasmodium, Paramecium, Euplectella, Physalia, Corallium, Hormiphora, Taenia, Ascaris (male and female), Nereis (including heteronereid stage), Hirudinaria, Bonellia, Chiton, Mytilus, Octopus, Limulus, Eupagurus, Sacculina, Asterias, Echinus, Holothuria. 8 632 Course Title"
+              "topics": "Part A: Animal Diversity 1. Study of transverse sections/chart of the following: Sycon (as an example of Parazoa to show its structure, spicules and canal system), Hydra (as an example of diploblastic animal), Fasciola (as an example of a triploblastic acoelomate animal), Ascaris (as an example of triploblastic pseudocoelomate animal), Hirudinaria (as an example of triploblastic schizocoelomate animal), Frog (as an example of triploblastic enterocoelomate animal). 2. Study of salient features and classification up to classes of the following non- chordates with special emphasis on their adaptive characters: Amoeba, Euglena, Plasmodium, Paramecium, Euplectella, Physalia, Corallium, Hormiphora, Taenia, Ascaris (male and female), Nereis (including heteronereid stage), Hirudinaria, Bonellia, Chiton, Mytilus, Octopus, Limulus, Eupagurus, Sacculina, Asterias, Echinus, Holothuria."
             },
             {
               "unit": 2,
-              "topics": "3. Mounting of Obelia colony 4. Salient features and classification up to Orders of the following with special emphasis on their adaptive characters: Balanoglossus, Herdmania, Amphioxus Lamprey, Trygon, Lung Fish, Uraeotyphlus, Alytes, Hyla, Chameleon, Tortoise, poisonous and non-poisonous snakes, Duck, Kiwi, Duck-billed Platypus, Macropus, Mole, Lemur 7"
+              "topics": "3. Mounting of Obelia colony 4. Salient features and classification up to Orders of the following with special emphasis on their adaptive characters: Balanoglossus, Herdmania, Amphioxus Lamprey, Trygon, Lung Fish, Uraeotyphlus, Alytes, Hyla, Chameleon, Tortoise, poisonous and non-poisonous snakes, Duck, Kiwi, Duck-billed Platypus, Macropus, Mole, Lemur"
             },
             {
               "unit": 3,
-              "topics": "Part B: Animal Form & Function 5.1. Dissection and mounting of cephalic appendages and Hastate plate of Palaemon 5.2. Dissection of the digestive system of Palaemon or Periplaneta americana 5.3. Dissection of afferent branchial arteries of Mystus 8"
+              "topics": "Part B: Animal Form & Function 5.1. Dissection and mounting of cephalic appendages and Hastate plate of Palaemon 5.2. Dissection of the digestive system of Palaemon or Periplaneta americana 5.3. Dissection of afferent branchial arteries of Mystus"
             },
             {
               "unit": 4,
-              "topics": "6.1 Dissection of the nervous system of Palaemon 6.2 Permanent slide preparation of gemmules of sponges 6.3 Study of the following through permanent slides/museum specimens: Conjugation in Paramecium, Trochophore larva, Zoea larvae, Pluteus larvae, Tornaria, Ammocoetes and Tadpole (frog); Axolotl 7 Texts /"
+              "topics": "6.1 Dissection of the nervous system of Palaemon 6.2 Permanent slide preparation of gemmules of sponges 6.3 Study of the following through permanent slides/museum specimens: Conjugation in Paramecium, Trochophore larva, Zoea larvae, Pluteus larvae, Tornaria, Ammocoetes and Tadpole (frog); Axolotl"
             }
+          ],
+          "suggested_books": [
+            "Lal: Practical Zoology- Invertebrates (12th ed., Rastogi Publications)",
+            "Lal: Practical Zoology- Vertebrates (12th ed., Rastogi Publications)",
+            "Verma: A manual of Practical Zoology - Chordates (11th ed., S Chand publications)"
           ]
         },
         {
@@ -98,20 +116,28 @@
             },
             {
               "unit": 2,
-              "topics": "2. Non-Chordates: General characters and classification of the following up to classes with examples showing distinctive features 2.1 Protozoa 2.2 Porifera 2.3 Cnidaria 2.4 Ctenophora 2.5 Platyhelminthes 2.6 Nematoda 2.7 Annelida 2.8 Arthropoda 2.9 Mollusca 2.10 Echinodermata 8"
+              "topics": "2. Non-Chordates: General characters and classification of the following up to classes with examples showing distinctive features 2.1 Protozoa 2.2 Porifera 2.3 Cnidaria 2.4 Ctenophora 2.5 Platyhelminthes 2.6 Nematoda 2.7 Annelida 2.8 Arthropoda 2.9 Mollusca 2.10 Echinodermata"
             },
             {
               "unit": 3,
-              "topics": "3. Hemichordates: General characters and classification up to sub-class 4.Chordates: General characters and classification of the following up to sub-classes/ orders with examples showing distinctive/adaptive features 4.1 Protochordates: Urochordates, Cephalochordates 4.2 Cyclostomes 4.3 Pisces 4.4 Amphibians 4.5 Reptiles 4.6 Aves 4.7 Mammals 11"
+              "topics": "3. Hemichordates: General characters and classification up to sub-class 4.Chordates: General characters and classification of the following up to sub-classes/ orders with examples showing distinctive/adaptive features 4.1 Protochordates: Urochordates, Cephalochordates 4.2 Cyclostomes 4.3 Pisces 4.4 Amphibians 4.5 Reptiles 4.6 Aves 4.7 Mammals"
             },
             {
               "unit": 4,
-              "topics": "5. Modes and Types of Feeding, Digestion and Excretion 5.1 Feeding mechanisms: suspension, deposit, cropping and sucking (herbivorous) and raptorial (carnivorous) 5.2 Intracellular and extracellular digestion: food vacuole and gastrovascular cavity 5.3 Open tubular: Metanephridia 5.4 Closed saccular: Malpighian tubules and vertebrate kidney 6. Respiratory Organs and Pattern of Circulation 6.1 Structure and function of gills, trachea and vertebrate lungs 6.2 Pattern of circulation: Open and closed systems 12"
+              "topics": "5. Modes and Types of Feeding, Digestion and Excretion 5.1 Feeding mechanisms: suspension, deposit, cropping and sucking (herbivorous) and raptorial (carnivorous) 5.2 Intracellular and extracellular digestion: food vacuole and gastrovascular cavity 5.3 Open tubular: Metanephridia 5.4 Closed saccular: Malpighian tubules and vertebrate kidney 6. Respiratory Organs and Pattern of Circulation 6.1 Structure and function of gills, trachea and vertebrate lungs 6.2 Pattern of circulation: Open and closed systems"
             },
             {
               "unit": 5,
-              "topics": "7. Nervous system, Receptors and Sense organ 7.1 Patterns of the nervous system in non-chordates 7.2 Organization of the nervous system in vertebrates 7.3 Phonoreception in mammals 11"
+              "topics": "7. Nervous system, Receptors and Sense organ 7.1 Patterns of the nervous system in non-chordates 7.2 Organization of the nervous system in vertebrates 7.3 Phonoreception in mammals"
             }
+          ],
+          "suggested_books": [
+            "Hickman, Keen, Larson and Eisenhour: Animal Diversity(9th ed., 2021, Mc Graw Hill)",
+            "Miller & Harley: Zoology (10th ed. 2016, McGraw Hill)",
+            "Campbell & Reece: Biology (7th ed. 2005, Pearson)",
+            "Mader: Biology (9th ed. 2007, Brown)",
+            "Kotpal: Modern textbook of Zoology: Invertebrates (11th ed. 2016 Rastogi)",
+            "Kotpal: Modern textbook of Zoology: Vertebrates (4th ed. 2016 Rastogi)"
           ]
         },
         {
@@ -122,20 +148,25 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Part A: Animal Diversity 1. Study of transverse sections/chart of the following: Sycon (as an example of Parazoa to show its structure, spicules and canal system), Hydra (as an example of diploblastic animal), Fasciola (as an example of a triploblastic acoelomate animal), Ascaris (as an example of triploblastic pseudocoelomate animal), Hirudinaria (as an example of triploblastic schizocoelomate animal), Frog (as an example of triploblastic enterocoelomate animal). 2. Study of salient features and classification up to classes of the following non- chordates with special emphasis on their adaptive characters: Amoeba, Euglena, Plasmodium, Paramecium, Euplectella, Physalia, Corallium, Hormiphora, Taenia, Ascaris (male and female), Nereis (including heteronereid stage), Hirudinaria, Bonellia, Chiton, Mytilus, Octopus, Limulus, Eupagurus, Sacculina, Asterias, Echinus, Holothuria. 8 635 Course Title"
+              "topics": "Part A: Animal Diversity 1. Study of transverse sections/chart of the following: Sycon (as an example of Parazoa to show its structure, spicules and canal system), Hydra (as an example of diploblastic animal), Fasciola (as an example of a triploblastic acoelomate animal), Ascaris (as an example of triploblastic pseudocoelomate animal), Hirudinaria (as an example of triploblastic schizocoelomate animal), Frog (as an example of triploblastic enterocoelomate animal). 2. Study of salient features and classification up to classes of the following non- chordates with special emphasis on their adaptive characters: Amoeba, Euglena, Plasmodium, Paramecium, Euplectella, Physalia, Corallium, Hormiphora, Taenia, Ascaris (male and female), Nereis (including heteronereid stage), Hirudinaria, Bonellia, Chiton, Mytilus, Octopus, Limulus, Eupagurus, Sacculina, Asterias, Echinus, Holothuria."
             },
             {
               "unit": 2,
-              "topics": "3. Mounting of Obelia colony 4. Salient features and classification up to Orders of the following with special emphasis on their adaptive characters: Balanoglossus, Herdmania, Amphioxus Lamprey, Trygon, Lung Fish, Uraeotyphlus, Alytes, Hyla, Chameleon, Tortoise, poisonous and non-poisonous snakes, Duck, Kiwi, Duck-billed Platypus, Macropus, Mole, Lemur 7"
+              "topics": "3. Mounting of Obelia colony 4. Salient features and classification up to Orders of the following with special emphasis on their adaptive characters: Balanoglossus, Herdmania, Amphioxus Lamprey, Trygon, Lung Fish, Uraeotyphlus, Alytes, Hyla, Chameleon, Tortoise, poisonous and non-poisonous snakes, Duck, Kiwi, Duck-billed Platypus, Macropus, Mole, Lemur"
             },
             {
               "unit": 3,
-              "topics": "Part B: Animal Form & Function 5.1. Dissection and mounting of cephalic appendages and Hastate plate of Palaemon 5.2. Dissection of the digestive system of Palaemon or Periplaneta americana 5.3. Dissection of afferent branchial arteries of Mystus 8"
+              "topics": "Part B: Animal Form & Function 5.1. Dissection and mounting of cephalic appendages and Hastate plate of Palaemon 5.2. Dissection of the digestive system of Palaemon or Periplaneta americana 5.3. Dissection of afferent branchial arteries of Mystus"
             },
             {
               "unit": 4,
-              "topics": "6.1 Dissection of the nervous system of Palaemon 6.2 Permanent slide preparation of gemmules of sponges 6.3 Study of the following through permanent slides/museum specimens: Conjugation in Paramecium, Trochophore larva, Zoea larvae, Pluteus larvae, Tornaria, Ammocoetes and Tadpole (frog); Axolotl 7 Texts /"
+              "topics": "6.1 Dissection of the nervous system of Palaemon 6.2 Permanent slide preparation of gemmules of sponges 6.3 Study of the following through permanent slides/museum specimens: Conjugation in Paramecium, Trochophore larva, Zoea larvae, Pluteus larvae, Tornaria, Ammocoetes and Tadpole (frog); Axolotl"
             }
+          ],
+          "suggested_books": [
+            "Lal: Practical Zoology- Invertebrates (12th ed., Rastogi Publications)",
+            "Lal: Practical Zoology- Vertebrates (12th ed., Rastogi Publications)",
+            "Verma: A manual of Practical Zoology - Chordates (11th ed., S Chand publications)"
           ]
         },
         {
@@ -146,20 +177,25 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1. Pisciculture 1.1 Aquaculture resources in India 1.2 Fin fish culture 2 637 Course Title"
+              "topics": "1. Pisciculture 1.1 Aquaculture resources in India 1.2 Fin fish culture"
             },
             {
               "unit": 2,
-              "topics": "2. Economically important insects 2.1 Sericulture 2.1.1 Types, Life cycle and Rearing of Silkworms 2.1.2 Harvesting and processing of cocoons 2.1.3 Diseases and their control 2.2 Apiculture 2.2.1 Species, Life cycle and organization of bee colony 2.2.2 Bee products and their uses 2.2.3 Diseases and their control 2.3 Lac culture 2.3.1 Lac insect, Life cycle and its host plants 2.3.2 Lac production and its uses 2.3.3 Diseases and their control 14"
+              "topics": "2. Economically important insects 2.1 Sericulture 2.1.1 Types, Life cycle and Rearing of Silkworms 2.1.2 Harvesting and processing of cocoons 2.1.3 Diseases and their control 2.2 Apiculture 2.2.1 Species, Life cycle and organization of bee colony 2.2.2 Bee products and their uses 2.2.3 Diseases and their control 2.3 Lac culture 2.3.1 Lac insect, Life cycle and its host plants 2.3.2 Lac production and its uses 2.3.3 Diseases and their control"
             },
             {
               "unit": 3,
-              "topics": "3. Pests and their management 3.1 Cultural methods 3.2 Chemical methods 3.3 Biological methods 4"
+              "topics": "3. Pests and their management 3.1 Cultural methods 3.2 Chemical methods 3.3 Biological methods"
             },
             {
               "unit": 4,
-              "topics": "4. Animal husbandry and Transgenic animals 4.1. Dairy 4.1.1 Breeds of Bovine 4.1.2 Techniques of dairy management 4.1.3 Milk and milk products 4.2 Poultry 4.2.1 Types of Breeds 4.2.2 Reproductive system and egg formation (Hen model) 4.2.3 Nutritional value of egg and chicken 4.3 Transgenic animals 10 Texts /"
+              "topics": "4. Animal husbandry and Transgenic animals 4.1. Dairy 4.1.1 Breeds of Bovine 4.1.2 Techniques of dairy management 4.1.3 Milk and milk products 4.2 Poultry 4.2.1 Types of Breeds 4.2.2 Reproductive system and egg formation (Hen model) 4.2.3 Nutritional value of egg and chicken 4.3 Transgenic animals"
             }
+          ],
+          "suggested_books": [
+            "Shukla and Upadhyaya: Economic Zoology (Rastogi Publishers)",
+            "Omkar: Industrial Entomology (Springer Publisher, 2017)",
+            "Omkar: Pests and Their Management (Springer Publisher, 2018)"
           ]
         },
         {
@@ -199,24 +235,28 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Scope of Endocrinology Pituitary gland General organization and hormones Diseases: dwarfism, gigantism, acromegaly, diabetes insipidus Pineal gland General organization and hormone Sleep disorders, and jet lag 10 645 Course Title"
+              "topics": "Scope of Endocrinology Pituitary gland General organization and hormones Diseases: dwarfism, gigantism, acromegaly, diabetes insipidus Pineal gland General organization and hormone Sleep disorders, and jet lag"
             },
             {
               "unit": 2,
-              "topics": "Thyroid gland General organization and hormones Diseases: goiter, myxoedema, cretinism, graves disease, Hashimoto disease Parathyroid gland General organization and hormones Diseases: bone diseases, tetany 9"
+              "topics": "Thyroid gland General organization and hormones Diseases: goiter, myxoedema, cretinism, graves disease, Hashimoto disease Parathyroid gland General organization and hormones Diseases: bone diseases, tetany"
             },
             {
               "unit": 3,
-              "topics": "Endocrine pancreas General organization and hormones Disease: diabetes mellitus, obesity 8"
+              "topics": "Endocrine pancreas General organization and hormones Disease: diabetes mellitus, obesity"
             },
             {
               "unit": 4,
-              "topics": "Adrenal gland General organization and hormones Diseases: Addison's disease, Cushing's syndrome ,hirsutism 8"
+              "topics": "Adrenal gland General organization and hormones Diseases: Addison's disease, Cushing's syndrome ,hirsutism"
             },
             {
               "unit": 5,
-              "topics": "Testis General organization and hormones Diseases: Male infertility, Impotency, Cryptorchidism, Varicocele Ovary General organization and hormones Diseases: female infertility, polycystic ovary disease, hyperandrogenism, 10 Texts /"
+              "topics": "Testis General organization and hormones Diseases: Male infertility, Impotency, Cryptorchidism, Varicocele Ovary General organization and hormones Diseases: female infertility, polycystic ovary disease, hyperandrogenism,"
             }
+          ],
+          "suggested_books": [
+            "Hadley, M.C.: Endocrinology, Prentice Hall, International Edition, 2000",
+            "Wilson and Foster, Williams Text Book of Endocrinology 10th edition, W.B. Saunders Company Philadelphia, 2005"
           ]
         },
         {
@@ -227,24 +267,33 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1. The Cell 1.1 Pro and Eukaryotic Cell 1.2 Methods in Cell Biology: Idea of microscopy and cell fractionation 2. Organization of cell 2.1 Structure and function of plasma membrane: Lipid bilayer, Cortical cytoskeleton, Membrane proteins, Active and passive transport. 2.2 Introduction to endomembrane system 2.2.1 Endoplasmic reticulum: Forms and Co-translational transport, 2.2.2 Golgi complex: Protein sorting, retrograde pathway 2.2.3 Lysosome and peroxisome 2.3 Introduction to cytoskeleton: Microtubules, Microfilaments and Intermediate filaments 2.4 Mitochondria 2.4.1 Mitochondrial genome and Endo-symbiotic hypothesis 2.4.2 Structure and Functions: Membrane proteins, Chemiosmotic process 2.5 Nuclear envelope and nuclear pore complex 2.6 Nucleolus and Biogenesis of ribosome 2.7 Interphase chromatin, Chromosomes 2.8 Higher order chromatin organization, heterochromatin and euchromatin, chromosome bands 2.9 Polytene and lamp brush chromosomes as models of gene regulation 13 640 Course Title"
+              "topics": "1. The Cell 1.1 Pro and Eukaryotic Cell 1.2 Methods in Cell Biology: Idea of microscopy and cell fractionation 2. Organization of cell 2.1 Structure and function of plasma membrane: Lipid bilayer, Cortical cytoskeleton, Membrane proteins, Active and passive transport. 2.2 Introduction to endomembrane system 2.2.1 Endoplasmic reticulum: Forms and Co-translational transport, 2.2.2 Golgi complex: Protein sorting, retrograde pathway 2.2.3 Lysosome and peroxisome 2.3 Introduction to cytoskeleton: Microtubules, Microfilaments and Intermediate filaments 2.4 Mitochondria 2.4.1 Mitochondrial genome and Endo-symbiotic hypothesis 2.4.2 Structure and Functions: Membrane proteins, Chemiosmotic process 2.5 Nuclear envelope and nuclear pore complex 2.6 Nucleolus and Biogenesis of ribosome 2.7 Interphase chromatin, Chromosomes 2.8 Higher order chromatin organization, heterochromatin and euchromatin, chromosome bands 2.9 Polytene and lamp brush chromosomes as models of gene regulation"
             },
             {
               "unit": 2,
-              "topics": "3. Cell reproduction 3.1 Basic features of cell cycle 3.2 Cell Cycle checkpoints and their regulation (Restriction point, Cyclins, Cdks and APC) 3.3 Mitosis: Microtubule complex and spindle assembly 3.4 Process and phases of meiosis and its significance 4. Elementary knowledge of cell transformation and cancer 5. Introduction to the cellular basis of immunity 10"
+              "topics": "3. Cell reproduction 3.1 Basic features of cell cycle 3.2 Cell Cycle checkpoints and their regulation (Restriction point, Cyclins, Cdks and APC) 3.3 Mitosis: Microtubule complex and spindle assembly 3.4 Process and phases of meiosis and its significance 4. Elementary knowledge of cell transformation and cancer 5. Introduction to the cellular basis of immunity"
             },
             {
               "unit": 3,
-              "topics": "Elementary Biochemistry Introduction: 1.1 Scope and Importance of Biochemistry 1.2 Principle of biomolecular organization, configuration and conformation 1.3 Water as a biological solvent 2"
+              "topics": "Elementary Biochemistry Introduction: 1.1 Scope and Importance of Biochemistry 1.2 Principle of biomolecular organization, configuration and conformation 1.3 Water as a biological solvent"
             },
             {
               "unit": 4,
-              "topics": "Proteins and Enzymes 9"
+              "topics": "Proteins and Enzymes"
             },
             {
               "unit": 5,
-              "topics": "Carbohydrates and Lipids 3.1 Classification of carbohydrates 3.2 Structure and conformation of monosaccharides 3.3 Oligosaccharides (disaccharides) and polysaccharides 3.4 Biological significance and classification of lipids 3.5 Fatty acids: Types and nomenclature Nucleic acids 4.1 Bases, nucleosides and nucleotides 4.2 DNA structure: DNA double helix (Watson and Crick model) 4.3 Basic mechanism of DNA replication (Prokaryotes) 4.4 Transcriptional unit and basic concept of transcription (Prokaryotes) 4.5 Genetic code and basic mechanism of translation (Prokaryotes) 4.6 Introduction to recombinant DNA techniques and their applications 11 Texts /"
+              "topics": "Carbohydrates and Lipids 3.1 Classification of carbohydrates 3.2 Structure and conformation of monosaccharides 3.3 Oligosaccharides (disaccharides) and polysaccharides 3.4 Biological significance and classification of lipids 3.5 Fatty acids: Types and nomenclature Nucleic acids 4.1 Bases, nucleosides and nucleotides 4.2 DNA structure: DNA double helix (Watson and Crick model) 4.3 Basic mechanism of DNA replication (Prokaryotes) 4.4 Transcriptional unit and basic concept of transcription (Prokaryotes) 4.5 Genetic code and basic mechanism of translation (Prokaryotes) 4.6 Introduction to recombinant DNA techniques and their applications"
             }
+          ],
+          "suggested_books": [
+            "Fundamental of Cell Biology",
+            "Alberts et al, Molecular Biology of the Cell (7th Edition, Garland)",
+            "Karp: Cell and Molecular Biology (9th Edition, John Wiley)",
+            "Lodish et al: Molecular Cell Biology (9th Edition, Freeman)",
+            "Plopper et al, Lewin’s Cells (3rd Edition, Jones and Bartlett) Elementary Biochemistry",
+            "Berg, Tymoczko, Stryer; Biochemistry (7th ed. 2012, Freeman)",
+            "Conn, Stumpf, Bruening; Principles of Biochemistry (5th ed. 1987, Wiley"
           ]
         },
         {
@@ -255,12 +304,15 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Part A: Fundamentals of Cell Biology 1. Drawing of the ultrastructure of the cell and different organelles (from photographs provided). 2. Familiarizationwiththestudent’slightmicroscopeandstereobinocularmicroscope. 3. Application of centrifuge – separation of sperm from other testicular cells by low-speed centrifugation. 4. Diversity of eukaryotic cells – methylene blue staining of buccal epithelium, sperm, neurons, striated muscle cells; Leishman staining of mammalian blood cells. 5. Permeability of plasma membrane – effect of isotonic, hypotonic and hypertonic solutions on mammalian RBC. 6. Staining of mitochondria with Janus green in the buccal epithelium. 7. Mitosis in onion root tip. 15 641 Course Title"
+              "topics": "Part A: Fundamentals of Cell Biology 1. Drawing of the ultrastructure of the cell and different organelles (from photographs provided). 2. Familiarizationwiththestudent’slightmicroscopeandstereobinocularmicroscope. 3. Application of centrifuge – separation of sperm from other testicular cells by low-speed centrifugation. 4. Diversity of eukaryotic cells – methylene blue staining of buccal epithelium, sperm, neurons, striated muscle cells; Leishman staining of mammalian blood cells. 5. Permeability of plasma membrane – effect of isotonic, hypotonic and hypertonic solutions on mammalian RBC. 6. Staining of mitochondria with Janus green in the buccal epithelium. 7. Mitosis in onion root tip."
             },
             {
               "unit": 2,
-              "topics": "Part B: Elementary Biochemistry 1. Preparation of models of amino acids, dipeptides and nucleotides. 2. Ninhydrin test for α-amino acids. 3. Benedict’s test for reducing sugars. 4. Iodine test for starch. 5. Determination of acid value of oil. 15"
+              "topics": "Part B: Elementary Biochemistry 1. Preparation of models of amino acids, dipeptides and nucleotides. 2. Ninhydrin test for α-amino acids. 3. Benedict’s test for reducing sugars. 4. Iodine test for starch. 5. Determination of acid value of oil."
             }
+          ],
+          "suggested_books": [
+            "Learning Outcomes (not more than 100 words)  The students must be able to perform experiments independently and become proficient in basic lab techniques.  Gain in-depth understanding of biochemical principles, data interpretations and logical conclusions."
           ]
         },
         {
@@ -271,24 +323,33 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1. The Cell 1.1 Pro and Eukaryotic Cell 1.2 Methods in Cell Biology: Idea of microscopy and cell fractionation 2. Organization of cell 2.1 Structure and function of plasma membrane: Lipid bilayer, Cortical cytoskeleton, Membrane proteins, Active and passive transport. 2.2 Introduction to endomembrane system 2.2.1 Endoplasmic reticulum: Forms and Co-translational transport, 2.2.3 Golgi complex: Protein sorting, retrograde pathway 2.2.3 Lysosome and peroxisome 2.3 Introduction to cytoskeleton: Microtubules, Microfilaments and Intermediate filaments 2.4 Mitochondria 2.4.1 Mitochondrial genome and Endo-symbiotic hypothesis 2.4.2 Structure and Functions: Membrane proteins, Chemiosmotic process 2.5 Nuclear envelope and nuclear pore complex 2.6 Nucleolus and Biogenesis of ribosome 2.7 Interphase chromatin, Chromosomes 2.8 Higher order chromatin organization, heterochromatin and euchromatin, chromosome bands 2.9 Polytene and lamp brush chromosomes as models of gene regulation 13 643 Course Title"
+              "topics": "1. The Cell 1.1 Pro and Eukaryotic Cell 1.2 Methods in Cell Biology: Idea of microscopy and cell fractionation 2. Organization of cell 2.1 Structure and function of plasma membrane: Lipid bilayer, Cortical cytoskeleton, Membrane proteins, Active and passive transport. 2.2 Introduction to endomembrane system 2.2.1 Endoplasmic reticulum: Forms and Co-translational transport, 2.2.3 Golgi complex: Protein sorting, retrograde pathway 2.2.3 Lysosome and peroxisome 2.3 Introduction to cytoskeleton: Microtubules, Microfilaments and Intermediate filaments 2.4 Mitochondria 2.4.1 Mitochondrial genome and Endo-symbiotic hypothesis 2.4.2 Structure and Functions: Membrane proteins, Chemiosmotic process 2.5 Nuclear envelope and nuclear pore complex 2.6 Nucleolus and Biogenesis of ribosome 2.7 Interphase chromatin, Chromosomes 2.8 Higher order chromatin organization, heterochromatin and euchromatin, chromosome bands 2.9 Polytene and lamp brush chromosomes as models of gene regulation"
             },
             {
               "unit": 2,
-              "topics": "3. Cell reproduction 3.1 Basic features of cell cycle 3.2 Cell Cycle checkpoints and their regulation (Restriction point, Cyclins, Cdks and APC) 3.3 Mitosis: Microtubule complex and spindle assembly 2.4 Process and phases of meiosis and its significance 3. Elementary knowledge of cell transformation and cancer 4. Introduction to the cellular basis of immunity 10"
+              "topics": "3. Cell reproduction 3.1 Basic features of cell cycle 3.2 Cell Cycle checkpoints and their regulation (Restriction point, Cyclins, Cdks and APC) 3.3 Mitosis: Microtubule complex and spindle assembly 2.4 Process and phases of meiosis and its significance 3. Elementary knowledge of cell transformation and cancer 4. Introduction to the cellular basis of immunity"
             },
             {
               "unit": 3,
-              "topics": "Elementary Biochemistry Introduction: 1.1 Scope and Importance of Biochemistry 1.2 Principle of biomolecular organization, configuration and conformation 1.3 Water as a biological solvent 2"
+              "topics": "Elementary Biochemistry Introduction: 1.1 Scope and Importance of Biochemistry 1.2 Principle of biomolecular organization, configuration and conformation 1.3 Water as a biological solvent"
             },
             {
               "unit": 4,
-              "topics": "Proteins and Enzymes 2.1 Functions and Diversity of Proteins 9"
+              "topics": "Proteins and Enzymes 2.1 Functions and Diversity of Proteins"
             },
             {
               "unit": 5,
-              "topics": "Carbohydrates and Lipids 3.1 Classification of carbohydrates 3.2 Structure and conformation of monosaccharides 3.3 Oligosaccharides (disaccharides) and polysaccharides 3.4 Biological significance and classification of lipids 3.5 Fatty acids: Types and nomenclature Nucleic acids 4.1 Bases, nucleosides and nucleotides 4.2 DNA structure: DNA double helix (Watson and Crick model) 4.3 Basic mechanism of DNA replication (Prokaryotes) 4.4 Transcriptional unit and basic concept of transcription (Prokaryotes) 4.5 Genetic code and basic mechanism of translation (Prokaryotes) 4.6 Introduction to recombinant DNA techniques and their applications 13 Texts /"
+              "topics": "Carbohydrates and Lipids 3.1 Classification of carbohydrates 3.2 Structure and conformation of monosaccharides 3.3 Oligosaccharides (disaccharides) and polysaccharides 3.4 Biological significance and classification of lipids 3.5 Fatty acids: Types and nomenclature Nucleic acids 4.1 Bases, nucleosides and nucleotides 4.2 DNA structure: DNA double helix (Watson and Crick model) 4.3 Basic mechanism of DNA replication (Prokaryotes) 4.4 Transcriptional unit and basic concept of transcription (Prokaryotes) 4.5 Genetic code and basic mechanism of translation (Prokaryotes) 4.6 Introduction to recombinant DNA techniques and their applications"
             }
+          ],
+          "suggested_books": [
+            "Fundamental of Cell Biology",
+            "Alberts et al, Molecular Biology of the Cell (7th Edition, Garland)",
+            "Karp: Cell and Molecular Biology (9th Edition, John Wiley)",
+            "Lodish et al: Molecular Cell Biology (9th Edition, Freeman)",
+            "Plopper et al, Lewin’s Cells (3rd Edition, Jones and Bartlett) Elementary Biochemistry",
+            "Berg, Tymoczko, Stryer; Biochemistry (7th ed. 2012, Freeman)",
+            "Conn, Stumpf, Bruening; Principles of Biochemistry (5th ed. 1987, Wiley"
           ]
         },
         {
@@ -299,11 +360,11 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Part A: Fundamentals of Cell Biology 1. Drawing of the ultra structure of the cell and different organelles (from photographs provided). 2. Familiarizationwiththestudent’slightmicroscopeandstereobinocularmicroscope. 3. Application of centrifuge – separation of sperm from other testicular cells by low-speed centrifugation. 4. Diversity of eukaryotic cells – methylene blue staining of buccal epithelium, sperm, neurons, striated muscle cells; Leishman staining of mammalian blood cells. 5. Permeability of plasma membrane – effect of isotonic, hypotonic and hypertonic solutions on mammalian RBC. 6. Staining of mitochondria with Janus green in the buccal epithelium. 7. Mitosis in onion root tip. 15 644 Course Title"
+              "topics": "Part A: Fundamentals of Cell Biology 1. Drawing of the ultra structure of the cell and different organelles (from photographs provided). 2. Familiarizationwiththestudent’slightmicroscopeandstereobinocularmicroscope. 3. Application of centrifuge – separation of sperm from other testicular cells by low-speed centrifugation. 4. Diversity of eukaryotic cells – methylene blue staining of buccal epithelium, sperm, neurons, striated muscle cells; Leishman staining of mammalian blood cells. 5. Permeability of plasma membrane – effect of isotonic, hypotonic and hypertonic solutions on mammalian RBC. 6. Staining of mitochondria with Janus green in the buccal epithelium. 7. Mitosis in onion root tip."
             },
             {
               "unit": 2,
-              "topics": "Part B: Elementary Biochemistry 1. Preparation of models of amino acids, dipeptides and nucleotides. 2. Ninhydrin test for α-amino acids. 3. Benedict’s test for reducing sugars. 4. Iodine test for starch. 5. Determination of acid value of oil. 15 Texts /"
+              "topics": "Part B: Elementary Biochemistry 1. Preparation of models of amino acids, dipeptides and nucleotides. 2. Ninhydrin test for α-amino acids. 3. Benedict’s test for reducing sugars. 4. Iodine test for starch. 5. Determination of acid value of oil."
             }
           ]
         },
@@ -315,24 +376,28 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1. Chemistry, classification and physico-chemical properties of food constituents 1.1. Carbohydrate 1.2. Protein 1.3. Lipid 1.4. Minerals and Vitamins 2. Chemistry, classification and physico-chemical properties of preservatives 3. Natural, permitted and non- permitted preservatives 3.1 Methods of detection 8 646 Course Title"
+              "topics": "1. Chemistry, classification and physico-chemical properties of food constituents 1.1. Carbohydrate 1.2. Protein 1.3. Lipid 1.4. Minerals and Vitamins 2. Chemistry, classification and physico-chemical properties of preservatives 3. Natural, permitted and non- permitted preservatives 3.1 Methods of detection"
             },
             {
               "unit": 2,
-              "topics": "1. Adulteration and Deterioration: Introduction, types of adulteration/substitution 2. Causes and Measure of adulteration 1.1. Sampling Procedures 1.2. Identification of substances of natural origin, pesticide residues, phototoxin and microbial contamination 1.3. Adulterant screening using modern analytical techniques 6"
+              "topics": "1. Adulteration and Deterioration: Introduction, types of adulteration/substitution 2. Causes and Measure of adulteration 1.1. Sampling Procedures 1.2. Identification of substances of natural origin, pesticide residues, phototoxin and microbial contamination 1.3. Adulterant screening using modern analytical techniques"
             },
             {
               "unit": 3,
-              "topics": "1. Determination of acid value, ester value, saponification value, iodine value, peroxide value, rancidity, moisture, ash, volatile matter, heavy metals, density, and viscosity 2. General Analytical methods for milk, milk constituents and adulterations 4"
+              "topics": "1. Determination of acid value, ester value, saponification value, iodine value, peroxide value, rancidity, moisture, ash, volatile matter, heavy metals, density, and viscosity 2. General Analytical methods for milk, milk constituents and adulterations"
             },
             {
               "unit": 4,
-              "topics": "1. General Analytical methods for ice cream, milk powder, butter, margarine, cheese and adulterations 2. Determination of adulteration in fats and oils 4"
+              "topics": "1. General Analytical methods for ice cream, milk powder, butter, margarine, cheese and adulterations 2. Determination of adulteration in fats and oils"
             },
             {
               "unit": 5,
-              "topics": "1. Analysis of fermentation products like wine, spirits, beer and vinegar 2. Determination of pesticide residues in grain, fruits, vegetables and other food items 3. Legislative regulations of food products and safety guidelines 8 Texts /"
+              "topics": "1. Analysis of fermentation products like wine, spirits, beer and vinegar 2. Determination of pesticide residues in grain, fruits, vegetables and other food items 3. Legislative regulations of food products and safety guidelines"
             }
+          ],
+          "suggested_books": [
+            "Food Additives and Contaminants: Sources, Effects and Control\" Editors: Alan M. Branen, P. Michael Davidson, Seppo Salminen, and John H. Thorngate Publisher: CRC Press. Edition: 2nd Edition, 2001.",
+            "Food Analysis \"Editor: Suzanne Nielsen Publisher: Springer Edition: 5th Edition, 2017."
           ]
         },
         {
@@ -343,24 +408,28 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Carbohydrate Analysis 1. Determination of reducing sugars using Fehling's test and Benedict's test. 2. Quantitative analysis of total sugars using the phenol-sulfuric acid method. 6 647 Course Title"
+              "topics": "Carbohydrate Analysis 1. Determination of reducing sugars using Fehling's test and Benedict's test. 2. Quantitative analysis of total sugars using the phenol-sulfuric acid method."
             },
             {
               "unit": 2,
-              "topics": "Protein Analysis 1. Quantitative estimation of proteins using the Kjeldahl method for nitrogen determination. 2. Protein content analysis using the Bradford or Lowry method 6"
+              "topics": "Protein Analysis 1. Quantitative estimation of proteins using the Kjeldahl method for nitrogen determination. 2. Protein content analysis using the Bradford or Lowry method"
             },
             {
               "unit": 3,
-              "topics": "Lipid Analysis 1. Determination of fat content in food samples using Soxhlet extraction. 2. Measurement of acid value, saponification value, and iodine value of fats and oils. 4"
+              "topics": "Lipid Analysis 1. Determination of fat content in food samples using Soxhlet extraction. 2. Measurement of acid value, saponification value, and iodine value of fats and oils."
             },
             {
               "unit": 4,
-              "topics": "Quality Analysis of Dairy Products 1. Determination of fat content in milk using the Gerber method. 2. Detection of adulteration in milk using the lactometer and fat test 6"
+              "topics": "Quality Analysis of Dairy Products 1. Determination of fat content in milk using the Gerber method. 2. Detection of adulteration in milk using the lactometer and fat test"
             },
             {
               "unit": 5,
-              "topics": "Rancidity Testing in Fats and Oils 1. Measurement of peroxide value to assess oxidative rancidity. 2. Detection of rancidity by determining the free fatty acid content. Food Safety and Regulatory Compliance 3. Analysis of food labels for compliance with nutritional labeling regulations. 4. Practical exercise in reading and interpreting food safety guidelines and regulations. 8 Texts /"
+              "topics": "Rancidity Testing in Fats and Oils 1. Measurement of peroxide value to assess oxidative rancidity. 2. Detection of rancidity by determining the free fatty acid content. Food Safety and Regulatory Compliance 3. Analysis of food labels for compliance with nutritional labeling regulations. 4. Practical exercise in reading and interpreting food safety guidelines and regulations."
             }
+          ],
+          "suggested_books": [
+            "Food Additives and Contaminants: Sources, Effects and Control\" Editors: Alan M. Branen, P. Michael Davidson, Seppo Salminen, and John H. Thorngate Publisher: CRC Press. Edition: 2nd Edition, 2001.",
+            "Food Analysis\" Editor: Suzanne Nielsen Publisher: Springer Edition: 5th Edition, 2017."
           ]
         }
       ]
@@ -376,24 +445,32 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Introduction and Archaeological Chronology of South Asia 1.1 Stone Age 1.2 Early Farming and Domestication 1.3 Bronze Age 1.4 Iron Age 7 654 Course Title"
+              "topics": "Introduction and Archaeological Chronology of South Asia 1.1 Stone Age 1.2 Early Farming and Domestication 1.3 Bronze Age 1.4 Iron Age"
             },
             {
               "unit": 2,
-              "topics": "Civilisations in South Asia 2.1 Sindhu-Saraswati River Valley Civilisation 2.2 Ganga-Valley civilisation 7"
+              "topics": "Civilisations in South Asia 2.1 Sindhu-Saraswati River Valley Civilisation 2.2 Ganga-Valley civilisation"
             },
             {
               "unit": 3,
-              "topics": "Origin of Humans 3.1 What changes have made us humans 3.2 Modern Humans and Out-of-Africa 3.3 Understanding the genetics of Peopling of South Asia 10"
+              "topics": "Origin of Humans 3.1 What changes have made us humans 3.2 Modern Humans and Out-of-Africa 3.3 Understanding the genetics of Peopling of South Asia"
             },
             {
               "unit": 4,
-              "topics": "Archaic Humans 4.1 Neanderthals 4.2 Denisovans 4.3 Genetic Introgression 5"
+              "topics": "Archaic Humans 4.1 Neanderthals 4.2 Denisovans 4.3 Genetic Introgression"
             },
             {
               "unit": 5,
-              "topics": "Ancient DNA 5.1 Evolution of Ancient DNA Technology 5.2 Use of ancient DNA in understanding animal evolution 5.3 Genetics of Domestication and Lactose Tolerance 5.4 Archaeozoology and Diseases 10 Texts /"
+              "topics": "Ancient DNA 5.1 Evolution of Ancient DNA Technology 5.2 Use of ancient DNA in understanding animal evolution 5.3 Genetics of Domestication and Lactose Tolerance 5.4 Archaeozoology and Diseases"
             }
+          ],
+          "suggested_books": [
+            "Human Evolutionary Genetics (Second Edition): Jobling, Hollox, Hurles, Kivisild and Tyler- Smith. Garland Science, New York.",
+            "Neanderthal Man: In Search of Lost Genomes Svante Paabo",
+            "Denisovans: The Archaic Humans of the Paleolithic Period History Titans",
+            "Who we are and how we got here. DNA and the New Science of the Human Past. David Reich. Oxford University Press",
+            "Understanding Archaeology. K. Rajan",
+            "An Oxford Companion to Indian Archaeology. DK Chakrabarti."
           ]
         },
         {
@@ -404,16 +481,27 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1. Elements of heredity and variation 1.1 Mendel’s laws of inheritance 1.2 Chromosomal basis of inheritance 1.3 Application of laws of probability to Mendelian inheritance: product rule, sum rule, binomial expansion 1.4 Chi-square test and its application 2. Extension of Mendelism 2.1 Dominance relationships 2.2 Multiple allelism 2.3 Lethal alleles 2.4 Pleiotropy 2.5 Penetrance and expressivity 2.6 Phenocopy 2.7 Sex-influenced and Sex-limited traits 2.8 Epistasis 7 7 648 8.3.1 Chromosomal aneuploidy (Down, Turner and Klinefelter syndromes) 8.3.2 Chromosome translocation (chronic myeloid leukemia) and deletion (“cry of cat” syndrome) 8.3.3 Gene mutation (cystic fibrosis) 9. Genetic Counseling 1 Texts / 649 Course Title"
+              "topics": "1. Elements of heredity and variation 1.1 Mendel’s laws of inheritance 1.2 Chromosomal basis of inheritance 1.3 Application of laws of probability to Mendelian inheritance: product rule, sum rule, binomial expansion 1.4 Chi-square test and its application 2. Extension of Mendelism 2.1 Dominance relationships 2.2 Multiple allelism 2.3 Lethal alleles 2.4 Pleiotropy 2.5 Penetrance and expressivity 2.6 Phenocopy 2.7 Sex-influenced and Sex-limited traits 2.8 Epistasis 7 7 648 8.3.1 Chromosomal aneuploidy (Down, Turner and Klinefelter syndromes) 8.3.2 Chromosome translocation (chronic myeloid leukemia) and deletion (“cry of cat” syndrome) 8.3.3 Gene mutation (cystic fibrosis) 9. Genetic Counseling"
             },
             {
               "unit": 2,
-              "topics": "3. Basic introduction to quantitative inheritance 4. Cytoplasmic Inheritance 4.1 Maternal effect 4.2 Extranuclear Inheritance 4.3 Infective Inheritance 5. Linkage and crossing-over 5.1 Two - point test cross in Drosophila 5.2 Cytological demonstration of crossing over in Drosophila 6. Sex chromosomes and sex-linkage 6.1 Sex chromosome systems: XX/XO, XX/XY, ZZ/ZW and haploidy/diploidy types 6.2 Sex-linkage 2 6 4 2"
+              "topics": "3. Basic introduction to quantitative inheritance 4. Cytoplasmic Inheritance 4.1 Maternal effect 4.2 Extranuclear Inheritance 4.3 Infective Inheritance 5. Linkage and crossing-over 5.1 Two - point test cross in Drosophila 5.2 Cytological demonstration of crossing over in Drosophila 6. Sex chromosomes and sex-linkage 6.1 Sex chromosome systems: XX/XO, XX/XY, ZZ/ZW and haploidy/diploidy types 6.2 Sex-linkage 2 6"
             },
             {
               "unit": 3,
-              "topics": "7. Mutation and Mutagenesis 7.1 Structural and numerical alterations of chromosomes; meiotic consequences in structural heterozygotes 7.2 Gene Mutation 7.2.1 Spontaneous and induced mutations 7.2.2 Molecular basis of mutation 7.2.3 Detection of mutation (Ames’ test and ClB technique in Drosophila) 8. Human Genetics 8.1 Pedigree analysis 8.2 Karyotype, banding and nomenclature of chromosome subdivisions 8.3 Genetic disorders 8 8"
+              "topics": "7. Mutation and Mutagenesis 7.1 Structural and numerical alterations of chromosomes; meiotic consequences in structural heterozygotes 7.2 Gene Mutation 7.2.1 Spontaneous and induced mutations 7.2.2 Molecular basis of mutation 7.2.3 Detection of mutation (Ames’ test and ClB technique in Drosophila) 8. Human Genetics 8.1 Pedigree analysis 8.2 Karyotype, banding and nomenclature of chromosome subdivisions 8.3 Genetic disorders"
             }
+          ],
+          "suggested_books": [
+            "Books Recommended",
+            "Snustad and Simmons: Principles of Genetics (2019, 7th ed. John Wiley)",
+            "Hartl and Jones: Essential Genetics- A Genomic Perspective (2009, Jones and Bartlet)",
+            "Pierce: Genetics - A Conceptual Approach (2012, Freeman) Suggested Readings",
+            "Griffith et al.: An Introduction to Genetic Analysis (Freeman 11th ed, 2015)",
+            "Brooker: Genetics - Analysis and Principles (2012, 4th ed McGraw Hill)",
+            "Russell: Genetics (2010, Benjamin Cummings)",
+            "Gersen & Keagle: The Principles of Clinical Cytogenetics (2005, Humana)",
+            "Hawley & Walker: Advanced Genetic Analysis (2003, Blackwell)"
           ]
         },
         {
@@ -424,24 +512,29 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1. Aquaculture 1.1 Prawn culture 1.2 Pearl Culture 1.3 Fish Culture 1.4 Fish by-products & common fish diseases 12 650 Course Title"
+              "topics": "1. Aquaculture 1.1 Prawn culture 1.2 Pearl Culture 1.3 Fish Culture 1.4 Fish by-products & common fish diseases"
             },
             {
               "unit": 2,
-              "topics": "2. Sericulture 2.1 Types of silk 2.2 Silkworms and their host plants 2.3 Mulberry silkworm culture 2.4 Diseases and their control 8"
+              "topics": "2. Sericulture 2.1 Types of silk 2.2 Silkworms and their host plants 2.3 Mulberry silkworm culture 2.4 Diseases and their control"
             },
             {
               "unit": 3,
-              "topics": "3. Apiculture 3.1 Species of honey bees in India 3.2 Life history of Apis 3.3 Methods of Beekeeping 3.4 Bee products and their uses 3.5 Diseases and their control 8"
+              "topics": "3. Apiculture 3.1 Species of honey bees in India 3.2 Life history of Apis 3.3 Methods of Beekeeping 3.4 Bee products and their uses 3.5 Diseases and their control"
             },
             {
               "unit": 4,
-              "topics": "4. Lac culture 4.1 Lac insect and its life cycle 4.2 Cultivation of lac insect host plants, processing and uses of lac 4.3 Diseases and their control 5"
+              "topics": "4. Lac culture 4.1 Lac insect and its life cycle 4.2 Cultivation of lac insect host plants, processing and uses of lac 4.3 Diseases and their control"
             },
             {
               "unit": 5,
-              "topics": "5. Dairy and Poultry 5.1 Introduction to common dairy animals 5.2 Techniques of dairy management 5.3 Milk and milk products 5.4 Cattle diseases 5.5 Types of poultry breeds 5.6 Poultry rearing method 5.7 Poultry diseases 12 Texts /"
+              "topics": "5. Dairy and Poultry 5.1 Introduction to common dairy animals 5.2 Techniques of dairy management 5.3 Milk and milk products 5.4 Cattle diseases 5.5 Types of poultry breeds 5.6 Poultry rearing method 5.7 Poultry diseases"
             }
+          ],
+          "suggested_books": [
+            "Shukla and Upadhyaya: Economic Zoology (Rastogi Publishers)",
+            "Omkar: Industrial Entomology (Springer Publisher)",
+            "Jabde: Text Book of Applied Zoology: Vermiculture, Apiculture, Sericulture, Lac culture."
           ]
         },
         {
@@ -472,24 +565,29 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1. Aquaculture 1.1 Prawn culture 1.2 Pearl Culture 1.3 Fish Culture 1.4 Fish by-products & common fish diseases 12 652 Course Title"
+              "topics": "1. Aquaculture 1.1 Prawn culture 1.2 Pearl Culture 1.3 Fish Culture 1.4 Fish by-products & common fish diseases"
             },
             {
               "unit": 2,
-              "topics": "2. Sericulture 2.1 Types of silkworms and their host plants 2.2 Mulberry silkworm culture 2.3 Diseases and their control 8"
+              "topics": "2. Sericulture 2.1 Types of silkworms and their host plants 2.2 Mulberry silkworm culture 2.3 Diseases and their control"
             },
             {
               "unit": 3,
-              "topics": "3. Apiculture 3.1 Species of honey bees in India 3.2 Life history of Apis 3.3 Methods of Beekeeping 3.4 Bee products and their uses 3.5 Diseases and their control 8"
+              "topics": "3. Apiculture 3.1 Species of honey bees in India 3.2 Life history of Apis 3.3 Methods of Beekeeping 3.4 Bee products and their uses 3.5 Diseases and their control"
             },
             {
               "unit": 4,
-              "topics": "4. Lac culture 4.1 Lac insect and its life cycle 4.2 Cultivation of lac insect host plants, processing and uses of lac 4.3 Diseases and their control 5"
+              "topics": "4. Lac culture 4.1 Lac insect and its life cycle 4.2 Cultivation of lac insect host plants, processing and uses of lac 4.3 Diseases and their control"
             },
             {
               "unit": 5,
-              "topics": "5 Dairy and Poultry 5.1 Introduction to common dairy animals 5.2 Techniques of dairy management 5.3 Milk and milk products 5.4 Cattle diseases 5.5 Types of poultry breeds 5.6 Poultry rearing method 5.7 Poultry diseases 12 Texts /"
+              "topics": "5 Dairy and Poultry 5.1 Introduction to common dairy animals 5.2 Techniques of dairy management 5.3 Milk and milk products 5.4 Cattle diseases 5.5 Types of poultry breeds 5.6 Poultry rearing method 5.7 Poultry diseases"
             }
+          ],
+          "suggested_books": [
+            "Shukla and Upadhyaya: Economic Zoology (Rastogi Publishers)",
+            "Omkar: Industrial Entomology (Springer Publisher)",
+            "Jabde: Text Book of Applied Zoology: Vermiculture, Apiculture, Sericulture, Lac culture."
           ]
         },
         {
@@ -528,16 +626,25 @@
             },
             {
               "unit": 2,
-              "topics": "2. Light Microscopy 2.1 Bright field microscopy 2.1.1 Students microscope 2.1.2 Compound microscope 2.2 Phase contrast microscopy 2.3 Dark field microscopy 5"
+              "topics": "2. Light Microscopy 2.1 Bright field microscopy 2.1.1 Students microscope 2.1.2 Compound microscope 2.2 Phase contrast microscopy 2.3 Dark field microscopy"
             },
             {
               "unit": 3,
-              "topics": "3. Sample preparation for light microscopy 3.1 Cytological technique 3.1.1 Vital Staining (Methylene blue, Gram Staining) 3.1.2 Sample fixation, staining, and mounting 3.1.3 Preparation of permanent slides 3.2 Histological and histochemical techniques 3.2.1 Fixation and fixatives 3.2.2 Tissue processing and microtomy 3.2.3 Principle and method of histological staining- Hematoxylins and eosin 3.2.4 Histochemical techniques to detect carbohydrates, proteins, and lipids 12"
+              "topics": "3. Sample preparation for light microscopy 3.1 Cytological technique 3.1.1 Vital Staining (Methylene blue, Gram Staining) 3.1.2 Sample fixation, staining, and mounting 3.1.3 Preparation of permanent slides 3.2 Histological and histochemical techniques 3.2.1 Fixation and fixatives 3.2.2 Tissue processing and microtomy 3.2.3 Principle and method of histological staining- Hematoxylins and eosin 3.2.4 Histochemical techniques to detect carbohydrates, proteins, and lipids"
             },
             {
               "unit": 4,
-              "topics": "4. Fluorescence microscopy 4.1 Epi-fluorescence microscopy 4.1.1 Source of light: halogen lamp and diodes 4.1.2 Excitation and emission spectra of various luorophores 4.1.3 Use of filters and dichroic mirrors 4.2 Confocal microscopy 4.2.1 source of light: lasers and diodes 4.2.2 photomultiplier tubes 4.2.3 conventional filters vs digital filters 4.3 Sample preparation for Fluorescence microscopy 4.3.1 Fluorescent dyes 4.3.2. earning critical steps in immunostaining 10 Texts /"
+              "topics": "4. Fluorescence microscopy 4.1 Epi-fluorescence microscopy 4.1.1 Source of light: halogen lamp and diodes 4.1.2 Excitation and emission spectra of various luorophores 4.1.3 Use of filters and dichroic mirrors 4.2 Confocal microscopy 4.2.1 source of light: lasers and diodes 4.2.2 photomultiplier tubes 4.2.3 conventional filters vs digital filters 4.3 Sample preparation for Fluorescence microscopy 4.3.1 Fluorescent dyes 4.3.2. earning critical steps in immunostaining"
             }
+          ],
+          "suggested_books": [
+            "Microscopy:",
+            "Karp: Cell and Molecular Biology (2007, Wiley)",
+            "Pollard & Earnshaw: Cell Biology (2002, Saunders)",
+            "Fundamentals of Light Microscopy and Electronic Imaging (2012, Douglas B. Murphy and Michael W. Davidson)",
+            "Ruthman: Methods in Cell Research (1970, Bell & Sons) Histology:",
+            "Bancroft’s Theory and Practice of Histological Techniques- Suvarna et al., 2018, Elsevier health Sciences, 2018",
+            "Histochemistry, theoretical and applied (Vol. I, II, III) - Pearse, A. G. Everson (4th ed 1980-1993,"
           ]
         },
         {
@@ -548,20 +655,29 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Students' Microscope and stereo-binocular basic assembly and application 4 656 Course Title"
+              "topics": "Students' Microscope and stereo-binocular basic assembly and application"
             },
             {
               "unit": 2,
-              "topics": "1. Tissue fixation, paraffin block preparation and sectioning. 2. Histological staining of paraffin sections using Hematoxylin and eosin 3. Histochemical staining for lipids using Sudan Black B, III and IV 12"
+              "topics": "1. Tissue fixation, paraffin block preparation and sectioning. 2. Histological staining of paraffin sections using Hematoxylin and eosin 3. Histochemical staining for lipids using Sudan Black B, III and IV"
             },
             {
               "unit": 3,
-              "topics": "Cytological smear preparation and staining with methylene blue, Janus green and Leishman stain 6"
+              "topics": "Cytological smear preparation and staining with methylene blue, Janus green and Leishman stain"
             },
             {
               "unit": 4,
-              "topics": "Staining tissues with fluorescent dyes (DAPI, PI) Visualization of DNA, mitochondria and cytoskeleton under microscope using permanent slides. 8 Texts /"
+              "topics": "Staining tissues with fluorescent dyes (DAPI, PI) Visualization of DNA, mitochondria and cytoskeleton under microscope using permanent slides."
             }
+          ],
+          "suggested_books": [
+            "Microscopy:",
+            "Karp: Cell and Molecular Biology (2007, Wiley)",
+            "Pollard & Earnshaw: Cell Biology (2002, Saunders)",
+            "Fundamentals of Light Microscopy and Electronic Imaging (2012, Douglas B. Murphy and Michael W. Davidson)",
+            "Ruthman: Methods in Cell Research (1970, Bell & Sons) Histology:",
+            "Bancroft’s Theory and Practice of Histological Techniques- Suvarna et al., 2018, Elsevier health Sciences, 2018",
+            "Histochemistry, theoretical and applied (Vol. I, II, III) - Pearse, A. G. Everson (4th ed 1980-1993, Churchill- Livingstone)"
           ]
         }
       ]
@@ -577,24 +693,29 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Introduction to Endocrinology 1.1 Definition, classification and characteristics of chemical messengers (hormones, neurohormones, neurotransmitters and pheromones) 1.2 Hormone delivery: Endocrine, paracrine and autocrine modes Hormone feedback mechanisms 1.3 General mechanism of hormone action (Peptide and Steroid hormones) 10 657 Course Title"
+              "topics": "Introduction to Endocrinology 1.1 Definition, classification and characteristics of chemical messengers (hormones, neurohormones, neurotransmitters and pheromones) 1.2 Hormone delivery: Endocrine, paracrine and autocrine modes Hormone feedback mechanisms 1.3 General mechanism of hormone action (Peptide and Steroid hormones)"
             },
             {
               "unit": 2,
-              "topics": "Structure, biological actions and regulation of secretion of 2.1 Hypothalamus and Pituitary gland 2.2 Pineal gland 2.3 Thyroid and Parathyroid gland 2.4 Adrenal gland 2.5 Endocrine pancreas 20"
+              "topics": "Structure, biological actions and regulation of secretion of 2.1 Hypothalamus and Pituitary gland 2.2 Pineal gland 2.3 Thyroid and Parathyroid gland 2.4 Adrenal gland 2.5 Endocrine pancreas"
             },
             {
               "unit": 3,
-              "topics": "Reproductive hormones: 3.1 Structural organization of gonads 3.2 Synthesis, biological action and regulation of secretion of 3.2.1 Estrogen 3.2.2Progesterone 3.2.3Testosterone 6"
+              "topics": "Reproductive hormones: 3.1 Structural organization of gonads 3.2 Synthesis, biological action and regulation of secretion of 3.2.1 Estrogen 3.2.2Progesterone 3.2.3Testosterone"
             },
             {
               "unit": 4,
-              "topics": "Gastrointestinal hormones: Gastrin, CCK and Secretin 3"
+              "topics": "Gastrointestinal hormones: Gastrin, CCK and Secretin"
             },
             {
               "unit": 5,
-              "topics": "Hormonal dysfunctions: 4.1 Diabetes insipidus 4.2 Dwarfism, gigantism, acromegaly 4.3 Goitre 4.4 Tetany 4.5 Addison’s disease 4.6 Cushing’s syndrome 4.7 Diabetes mellitus (Type I and II) 6 Texts /"
+              "topics": "Hormonal dysfunctions: 4.1 Diabetes insipidus 4.2 Dwarfism, gigantism, acromegaly 4.3 Goitre 4.4 Tetany 4.5 Addison’s disease 4.6 Cushing’s syndrome 4.7 Diabetes mellitus (Type I and II)"
             }
+          ],
+          "suggested_books": [
+            "Hadley: Endocrinology, Fifth Edition, 2000, Prentice Hall",
+            "Norris: Vertebrate Endocrinology, Fourth Edition, 2007, Academic Press",
+            "Goodman: Basic Medical Endocrinology, Fourth Edition, 2009, Elsevier Inc."
           ]
         },
         {
@@ -609,20 +730,27 @@
             },
             {
               "unit": 2,
-              "topics": "3. Fertilization 3.1 External fertilization: sea urchin 3.2 Internal fertilization 4. Cleavage 4.1 Patterns and types 4.2 Cleavage in frog and chick embryo 5 3"
+              "topics": "3. Fertilization 3.1 External fertilization: sea urchin 3.2 Internal fertilization 4. Cleavage 4.1 Patterns and types 4.2 Cleavage in frog and chick embryo"
             },
             {
               "unit": 3,
-              "topics": "5. Fate map and gastrulation in frog and chick 5.1 Fate map 5.2 Gastrulation in frog 5.3 Gastrulation in chick 6. Concept of commitment (specification and determination), competence and differentiation 6.1. Autonomous, Conditional, and Syncytial specification 6.2 Induction and Competence 6.3 Definition and types of Differentiation 5 7"
+              "topics": "5. Fate map and gastrulation in frog and chick 5.1 Fate map 5.2 Gastrulation in frog 5.3 Gastrulation in chick 6. Concept of commitment (specification and determination), competence and differentiation 6.1. Autonomous, Conditional, and Syncytial specification 6.2 Induction and Competence 6.3 Definition and types of Differentiation"
             },
             {
               "unit": 4,
-              "topics": "7. Primary organizer and axis formation in frog 7.1 Experiments of Hans Spemann 7.2 Nieuwkoop center 7.3 Experiments of Pieter Nieuwkoop, and Gimlich and Gerhart 8. Extra embryonic membranes 7 2"
+              "topics": "7. Primary organizer and axis formation in frog 7.1 Experiments of Hans Spemann 7.2 Nieuwkoop center 7.3 Experiments of Pieter Nieuwkoop, and Gimlich and Gerhart 8. Extra embryonic membranes"
             },
             {
               "unit": 5,
-              "topics": "9. Hormonal control of metamorphosis in frog 10. Concept of regeneration 10.1 Morphallaxis 10.2 Epimorphosis 10.3 Stem cell-mediated regeneration 10.4 Compensatory regeneration 4 4 Texts /"
+              "topics": "9. Hormonal control of metamorphosis in frog 10. Concept of regeneration 10.1 Morphallaxis 10.2 Epimorphosis 10.3 Stem cell-mediated regeneration 10.4 Compensatory regeneration"
             }
+          ],
+          "suggested_books": [
+            "Gilbert: Developmental Biology (8th ed., 2006, Sinauer)",
+            "Balinsky: An Introduction to Embryology (1981, CBS)",
+            "Wolpert: Principles of Development (3rd ed., 2007, Oxford)",
+            "Sastry and Shukla: Developmental Biology (2nd ed., 2021, Rastogi Publications)",
+            "Verma and Agarwal: Chordate Embryology (2010, S. Chand)"
           ]
         },
         {
@@ -637,20 +765,27 @@
             },
             {
               "unit": 2,
-              "topics": "4. Population Genetics 4.1Gene frequencies in Mendelian populations 4.2 Hardy- Weinberg equilibrium 4.3 Evolutionary forces (Mutation, Selection, Random genetic drift, Migration) 06"
+              "topics": "4. Population Genetics 4.1Gene frequencies in Mendelian populations 4.2 Hardy- Weinberg equilibrium 4.3 Evolutionary forces (Mutation, Selection, Random genetic drift, Migration)"
             },
             {
               "unit": 3,
-              "topics": "5. Genetic polymorphism 5.1 Chromosomal 5.2 Allozyme 5.3 DNA polymorphism 03"
+              "topics": "5. Genetic polymorphism 5.1 Chromosomal 5.2 Allozyme 5.3 DNA polymorphism"
             },
             {
               "unit": 4,
-              "topics": "6. Modes of speciation 7. Isolating mechanisms 8. Evolution at molecular level 02 02 02"
+              "topics": "6. Modes of speciation 7. Isolating mechanisms 8. Evolution at molecular level 02"
             },
             {
               "unit": 5,
-              "topics": "9. Evolution through ages (Geological columns; Evolution of horse; Evolution of man) 04 Texts /"
+              "topics": "9. Evolution through ages (Geological columns; Evolution of horse; Evolution of man)"
             }
+          ],
+          "suggested_books": [
+            "Futuyma: Evolutionary Biology (2005, Sinauer)",
+            "Hall and Hallgrimsson: Strickberger’s Evolution (2008, Jones and Bartlet)",
+            "Hartl and Clark: Principles of Population Genetics (1989 & 1997, Sinauer)",
+            "Moody: Introduction to Evolution (1978, Kalyani).",
+            "Rastogi: Organic Evolution (2007, Kedarnath & Ramnath)."
           ]
         },
         {
@@ -661,24 +796,33 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Introduction to taxonomy and its relationship with systematics Zoological nomenclature 1. Binominal 2. Trinominal 05 660 Course Title"
+              "topics": "Introduction to taxonomy and its relationship with systematics Zoological nomenclature 1. Binominal 2. Trinominal"
             },
             {
               "unit": 2,
-              "topics": "Kinds of taxonomic characters 1. Morphological 2. Embryological 3. Behavioural 4. Ecological 5. Numerical 08"
+              "topics": "Kinds of taxonomic characters 1. Morphological 2. Embryological 3. Behavioural 4. Ecological 5. Numerical"
             },
             {
               "unit": 3,
-              "topics": "Kinds of zoological classification 1. Components of classification 2. Linnaean hierarchy 04"
+              "topics": "Kinds of zoological classification 1. Components of classification 2. Linnaean hierarchy"
             },
             {
               "unit": 4,
-              "topics": "Concept of species 1. Typological 2. Nominalistic 3. Biological 4. Evolutionary 06"
+              "topics": "Concept of species 1. Typological 2. Nominalistic 3. Biological 4. Evolutionary"
             },
             {
               "unit": 5,
-              "topics": "Molecular Taxonomy 03 Texts /"
+              "topics": "Molecular Taxonomy"
             }
+          ],
+          "suggested_books": [
+            "Books Recommended",
+            "Boolotian and Stiles: College Zoology (1981, Macmillan)",
+            "Dalela and Sharma: Animal Taxonomy and Museology (1976, Jai Prakash Nath).",
+            "Kapoor: Theory and Practicals of Animal Taxonomy (1988, Oxford & IBH).",
+            "Mayr and Ashlock: Principles of Systematic Zoology (1991, McGraw Hill).",
+            "Roymahoney: Laboratory Techniques in Zoology (1966, Butterworths).",
+            "Simpson: Principles of Animal Taxonomy (1962, Oxford)."
           ]
         },
         {
@@ -689,24 +833,27 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1.1 Handling, sexing, numbering and maintenance of rat/mouse. 1.2 Study of the estrous cycle by vaginal smear preparation. 10 661 Course Title"
+              "topics": "1.1 Handling, sexing, numbering and maintenance of rat/mouse. 1.2 Study of the estrous cycle by vaginal smear preparation."
             },
             {
               "unit": 2,
-              "topics": "2.1 General survey of endocrine glands and accessory sex organs in rat/mouse. 2.2 Demonstration of Ovariectomy and Orchidectomy in rat 2.3 Study of sperm parameters (Sperm count, motility and viability). 2.4 Estimation of any hormone by ELISA (Demonstration only) 10"
+              "topics": "2.1 General survey of endocrine glands and accessory sex organs in rat/mouse. 2.2 Demonstration of Ovariectomy and Orchidectomy in rat 2.3 Study of sperm parameters (Sperm count, motility and viability). 2.4 Estimation of any hormone by ELISA (Demonstration only)"
             },
             {
               "unit": 3,
-              "topics": "Study of histological slides of the following: 1. Pituitary 2. Thyroid and parathyroid 3. Endocrine, pancreas 4. Adrenal 5. Testis 6. Ovary 7. Uterus 8. Seminal vesicle 10"
+              "topics": "Study of histological slides of the following: 1. Pituitary 2. Thyroid and parathyroid 3. Endocrine, pancreas 4. Adrenal 5. Testis 6. Ovary 7. Uterus 8. Seminal vesicle"
             },
             {
               "unit": 4,
-              "topics": "1. Study of different types of eggs (snail, Drosophila, frog, chick and mouse) 2. Demonstration of sperm motility in rat/mice 3. Study of meroistic oogenesis by dissecting and observing ovaries of Drosophila 10"
+              "topics": "1. Study of different types of eggs (snail, Drosophila, frog, chick and mouse) 2. Demonstration of sperm motility in rat/mice 3. Study of meroistic oogenesis by dissecting and observing ovaries of Drosophila"
             },
             {
               "unit": 5,
-              "topics": "4. Study of eggs and tadpoles of frogs from collected/preserved material 5. Study of frog development through models 6. Window preparation on hen’s egg 7. Demonstration of chick embryonic development, making window preparation of fertilized egg 8. Study of whole mount preparations of chick embryos at 16-18, 24-28, 33-36 and 42-48 hours of development 20 Texts /"
+              "topics": "4. Study of eggs and tadpoles of frogs from collected/preserved material 5. Study of frog development through models 6. Window preparation on hen’s egg 7. Demonstration of chick embryonic development, making window preparation of fertilized egg 8. Study of whole mount preparations of chick embryos at 16-18, 24-28, 33-36 and 42-48 hours of development"
             }
+          ],
+          "suggested_books": [
+            "Advanced Practical Zoology by PS Verma & PC Srivastava. S. Chand Publishing, 2015"
           ]
         },
         {
@@ -717,11 +864,11 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Part – A: Evolution (Credit 1) 1. Natural selection – experiment using red and white-eyed Drosophila flies. 2. Isolating mechanism - Demonstration of sexual isolation in Drosophila: D. bipectinata and D. malerkotliana. 3. Calculation of Hardy-Weinberg equilibrium in human population considering MN and ABO blood group system. 4. Fossils – One representative fossil each from Foraminifera, Trilobita, Ammonites and Echinodermata. 5. Models of chordate fossils – Brontosaurus, Dimetrodon, Archaeopteryx, Dinoceras. 6. Evolution of horse – through models. 30 662 Course Title"
+              "topics": "Part – A: Evolution (Credit 1) 1. Natural selection – experiment using red and white-eyed Drosophila flies. 2. Isolating mechanism - Demonstration of sexual isolation in Drosophila: D. bipectinata and D. malerkotliana. 3. Calculation of Hardy-Weinberg equilibrium in human population considering MN and ABO blood group system. 4. Fossils – One representative fossil each from Foraminifera, Trilobita, Ammonites and Echinodermata. 5. Models of chordate fossils – Brontosaurus, Dimetrodon, Archaeopteryx, Dinoceras. 6. Evolution of horse – through models."
             },
             {
               "unit": 2,
-              "topics": "Part – B: Systematics and Taxonomy (Credit 1) 1. Identification of five locally available fishes based on their morphological characters. 2. Identification of the following species of Drosophila based on the pattern of their sex combs: D. melanogaster, D. ananassae, D. bipectinata and D. malerkotliana. 3. Zoological names of some common animals. 4. Preservation of insects. 5. Fixation of freshwater protozoans. 30 Texts /"
+              "topics": "Part – B: Systematics and Taxonomy (Credit 1) 1. Identification of five locally available fishes based on their morphological characters. 2. Identification of the following species of Drosophila based on the pattern of their sex combs: D. melanogaster, D. ananassae, D. bipectinata and D. malerkotliana. 3. Zoological names of some common animals. 4. Preservation of insects. 5. Fixation of freshwater protozoans."
             }
           ]
         },
@@ -733,24 +880,29 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Introduction to Endocrinology 1.2 Definition, classification and characteristics of chemical messengers (hormones, neurohormones, neurotransmitters and pheromones) 1.2 Hormone delivery: Endocrine, paracrine and autocrine modes Hormone feedback mechanisms 1.4 General mechanism of hormone action (Peptide and Steroid hormones) 10 663 Course Title"
+              "topics": "Introduction to Endocrinology 1.2 Definition, classification and characteristics of chemical messengers (hormones, neurohormones, neurotransmitters and pheromones) 1.2 Hormone delivery: Endocrine, paracrine and autocrine modes Hormone feedback mechanisms 1.4 General mechanism of hormone action (Peptide and Steroid hormones)"
             },
             {
               "unit": 2,
-              "topics": "Structure, biological actions and regulation of secretion of 2.1 Hypothalamus and Pituitary gland 2.2 Pineal gland 2.3 Thyroid and Parathyroid gland 2.4 Adrenal gland 2.5 Endocrine pancreas 20"
+              "topics": "Structure, biological actions and regulation of secretion of 2.1 Hypothalamus and Pituitary gland 2.2 Pineal gland 2.3 Thyroid and Parathyroid gland 2.4 Adrenal gland 2.5 Endocrine pancreas"
             },
             {
               "unit": 3,
-              "topics": "Reproductive hormones: 3.1 Structural organization of gonads 3.2 Synthesis, biological action and regulation of secretion of 3.2.1 Estrogen 3.2.2Progesterone 3.2.3Testosterone 6"
+              "topics": "Reproductive hormones: 3.1 Structural organization of gonads 3.2 Synthesis, biological action and regulation of secretion of 3.2.1 Estrogen 3.2.2Progesterone 3.2.3Testosterone"
             },
             {
               "unit": 4,
-              "topics": "Gastrointestinal hormones: Gastrin, CCK and Secretin 3"
+              "topics": "Gastrointestinal hormones: Gastrin, CCK and Secretin"
             },
             {
               "unit": 5,
-              "topics": "Hormonal dysfunctions: 4.1 Diabetes insipidus 4.2 Dwarfism, gigantism, acromegaly 4.3 Goitre 4.4 Tetany 4.5 Addison’s disease 4.6 Cushing’s syndrome 4.7 Diabetes mellitus (Type I and II) 6 Texts /"
+              "topics": "Hormonal dysfunctions: 4.1 Diabetes insipidus 4.2 Dwarfism, gigantism, acromegaly 4.3 Goitre 4.4 Tetany 4.5 Addison’s disease 4.6 Cushing’s syndrome 4.7 Diabetes mellitus (Type I and II)"
             }
+          ],
+          "suggested_books": [
+            "Hadley: Endocrinology, Fifth Edition, 2000, Prentice Hall",
+            "Norris: Vertebrate Endocrinology, Fourth Edition, 2007, Academic Press",
+            "Goodman: Basic Medical Endocrinology, Fourth Edition, 2009, Elsevier Inc."
           ]
         },
         {
@@ -761,16 +913,19 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1.1 Handling, sexing, numbering and maintenance of rat/mouse. 1.2 Study of the estrous cycle by vaginal smear preparation. 10 664 Course Title"
+              "topics": "1.1 Handling, sexing, numbering and maintenance of rat/mouse. 1.2 Study of the estrous cycle by vaginal smear preparation."
             },
             {
               "unit": 2,
-              "topics": "2.1 General survey of endocrine glands and accessory sex organs in rat/mouse. 2.2 Demonstration of Ovariectomy and Orchidectomy in rat 2.3 Study of sperm parameters (Sperm count, motility and viability). 2.4 Estimation of any hormone by ELISA (Demonstration only) 10"
+              "topics": "2.1 General survey of endocrine glands and accessory sex organs in rat/mouse. 2.2 Demonstration of Ovariectomy and Orchidectomy in rat 2.3 Study of sperm parameters (Sperm count, motility and viability). 2.4 Estimation of any hormone by ELISA (Demonstration only)"
             },
             {
               "unit": 3,
-              "topics": "3.1 Study of histological slides of the following: 3.2 Pituitary 3.3 Thyroid and parathyroid 3.4 Endocrine, pancreas, 3.5 Adrenal 3.6 Testis & Ovary 3.7 Uterus 3.8 Seminal vesicle 10 Texts /"
+              "topics": "3.1 Study of histological slides of the following: 3.2 Pituitary 3.3 Thyroid and parathyroid 3.4 Endocrine, pancreas, 3.5 Adrenal 3.6 Testis & Ovary 3.7 Uterus 3.8 Seminal vesicle"
             }
+          ],
+          "suggested_books": [
+            "Advanced Practical Zoology by PS Verma & PC Srivastava. S. Chand Publishing, 2015"
           ]
         }
       ]
@@ -786,7 +941,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Internship 2"
+              "topics": "Internship"
             }
           ]
         },
@@ -798,24 +953,31 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1. Protozoa Study of Euglena and Monocystis (locomotion, nutrition and reproduction) 2. Organization of Metazoans 2.1 Grades of organization 2.2 Symmetry, Germ layers, diploblastic and triploblastic organization, coelom, metamerism 3. Porifera 3.1 Study of Leucosolenia and Sycon (structure, skeleton and reproduction) 3.2 Aquaferous system 4 5 3 665 Course Title"
+              "topics": "1. Protozoa Study of Euglena and Monocystis (locomotion, nutrition and reproduction) 2. Organization of Metazoans 2.1 Grades of organization 2.2 Symmetry, Germ layers, diploblastic and triploblastic organization, coelom, metamerism 3. Porifera 3.1 Study of Leucosolenia and Sycon (structure, skeleton and reproduction) 3.2 Aquaferous system"
             },
             {
               "unit": 2,
-              "topics": "Cnidaria and Ctenophora 4.1 Study of Obelia and Aurelia (structure and reproduction) 4.2 Salient features of ctenophores and comparison with cnidarians 7"
+              "topics": "Cnidaria and Ctenophora 4.1 Study of Obelia and Aurelia (structure and reproduction) 4.2 Salient features of ctenophores and comparison with cnidarians"
             },
             {
               "unit": 3,
-              "topics": "5. Platyhelminthes: Fasciola and Taenia (structure, reproduction, life-cycle and parasitic adaptations) 6. Nemathelminthes: Ascaris- (Structure, reproduction and life-cycle) 5 3"
+              "topics": "5. Platyhelminthes: Fasciola and Taenia (structure, reproduction, life-cycle and parasitic adaptations) 6. Nemathelminthes: Ascaris- (Structure, reproduction and life-cycle)"
             },
             {
               "unit": 4,
-              "topics": "7. Annelida: Nereis- (Structural features and reproduction) 8. Arthropoda 8.1 Palaemon (Structural features and reproduction), 8.2 Types of metamorphosis in insects 8.3 Salient features and evolutionary significance of Onychophora 3 4"
+              "topics": "7. Annelida: Nereis- (Structural features and reproduction) 8. Arthropoda 8.1 Palaemon (Structural features and reproduction), 8.2 Types of metamorphosis in insects 8.3 Salient features and evolutionary significance of Onychophora"
             },
             {
               "unit": 5,
-              "topics": "9. Mollusca 9.1 Unio: Structural features and reproduction 9.2 Torsion and detorsion in gastropods 10. Echinodermata 10.1 Asterias: Structural features and reproduction 10.2 Hydrostatic system 6 5 Texts /"
+              "topics": "9. Mollusca 9.1 Unio: Structural features and reproduction 9.2 Torsion and detorsion in gastropods 10. Echinodermata 10.1 Asterias: Structural features and reproduction 10.2 Hydrostatic system"
             }
+          ],
+          "suggested_books": [
+            "Barnes: Invertebrate Zoology (Recent edition, Holt Saunders International)",
+            "Marshall: Parker &Hashwell Textbook of Zoology, Vol I (Recent edition, Macmillan)",
+            "Barnes: The Invertebrates – A Synthesis (Recent edition, Blackwell)",
+            "Hunter: Life of Invertebrates (Recent edition, Collier Macmillan)",
+            "Moore: An Introduction to the Invertebrates (2001, Cambridge University Press)"
           ]
         },
         {
@@ -826,24 +988,30 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1. Introduction and Patterns of behaviour 4 666 Course Title"
+              "topics": "1. Introduction and Patterns of behaviour"
             },
             {
               "unit": 2,
-              "topics": "2. Instinct and learning 2.1 Innate behavior 2.2 Learned behavior and types of learning 4"
+              "topics": "2. Instinct and learning 2.1 Innate behavior 2.2 Learned behavior and types of learning"
             },
             {
               "unit": 3,
-              "topics": "3. Control of behavior 3.1 Neural control 3.2 Hormonal control 3.3 Genetic and environmental control 8"
+              "topics": "3. Control of behavior 3.1 Neural control 3.2 Hormonal control 3.3 Genetic and environmental control"
             },
             {
               "unit": 4,
-              "topics": "4. Social organization 4.1 Communication: Channels and Functions 4.2 Foraging and antipredator behavior 4.3 Mating system and Parental care 4.4 Group living, altruism and cooperation 4.5 Dispersal and migration 4.6 Coordination and orientation 10"
+              "topics": "4. Social organization 4.1 Communication: Channels and Functions 4.2 Foraging and antipredator behavior 4.3 Mating system and Parental care 4.4 Group living, altruism and cooperation 4.5 Dispersal and migration 4.6 Coordination and orientation"
             },
             {
               "unit": 5,
-              "topics": "5. Biological rhythms 4 Texts /"
+              "topics": "5. Biological rhythms"
             }
+          ],
+          "suggested_books": [
+            "Lee Alan Dugatkin (2020): Principles of Animal Behavior (4th ed., University of Chicago Press).",
+            "Drickamer, Vessey & Jakob (2002): Animal Behaviour – Mechanisms, Ecology and Evolution (5th ed., McGraw-Hill).",
+            "Judith Goodenough, Robert A. Wallace, Betty McGuire (2010): Perspectives on Animal Behavior (3rd ed., John Wiley & Sons).",
+            "David McFarland (2009) Animal Behaviour: Psychobiology, Ethology and Evolution (3rd ed., Longman Scientific)."
           ]
         },
         {
@@ -858,16 +1026,23 @@
             },
             {
               "unit": 2,
-              "topics": "3. Innate Immunity 4. Humoral Immunity 4.1. Antigen and immunogen 4.2. Hapten 4.3. Adjuvant 4.4. Immunoglobulins: types, structure, function, and diversity 4.5. Structure of B cell receptor 4.6. Antibody-mediated effector functions 4.7. Antigen-Ab reactions for immunological techniques 4 8"
+              "topics": "3. Innate Immunity 4. Humoral Immunity 4.1. Antigen and immunogen 4.2. Hapten 4.3. Adjuvant 4.4. Immunoglobulins: types, structure, function, and diversity 4.5. Structure of B cell receptor 4.6. Antibody-mediated effector functions 4.7. Antigen-Ab reactions for immunological techniques"
             },
             {
               "unit": 3,
-              "topics": "5. Complement System 5.1 Complement components 5.2 Classical pathway 5.3 Alternative pathway 5.4 Lectin Pathway 6. Cell-mediated Immunity 6.1. Structure of T cell receptor 6.2. Structure and organization of Major Histocompatibility Complex and T cell interaction 6.3. Antigen processing and presentation 3 9"
+              "topics": "5. Complement System 5.1 Complement components 5.2 Classical pathway 5.3 Alternative pathway 5.4 Lectin Pathway 6. Cell-mediated Immunity 6.1. Structure of T cell receptor 6.2. Structure and organization of Major Histocompatibility Complex and T cell interaction 6.3. Antigen processing and presentation"
             },
             {
               "unit": 4,
-              "topics": "7. General Introduction to Immunological Disorders 7.1 Autoimmunity 7.2 Immunodeficiency 7.3 Hypersensitivity 7.4 Tolerance 8. Concept of vaccination 5 4 Texts /"
+              "topics": "7. General Introduction to Immunological Disorders 7.1 Autoimmunity 7.2 Immunodeficiency 7.3 Hypersensitivity 7.4 Tolerance 8. Concept of vaccination"
             }
+          ],
+          "suggested_books": [
+            "Janeway’sImmunobiology, 7th ed. 2008, Garland Science Publication.",
+            "Kubeyet al.: Immunology, 7th ed. 2013, W.H. Freeman and Company Publication, New York.",
+            "Roitt and Delvis: Roitt’s Essential Immunology, 6th ed. 2006, Blackwell Publication",
+            "Fundamental Immunology, 6th ed. 2008, Lippincott Williams & Wilkins, Philadelphia",
+            "Acharya et al.: Immunology, 2nd ed. 2011, Kalyani Publishers, Ludhiyana, Punjab"
           ]
         },
         {
@@ -882,16 +1057,23 @@
             },
             {
               "unit": 2,
-              "topics": "3. Pathogenicity and Infection 1.1 Pathogenicity and Infectious Disease 1.2 Virulence 1.3 Exposure and Transmission 4. General concept of parasites and parasitism 4.1 Introduction to parasitology: basic principles and concepts 4.2 Systematics, ecology and evolution 4.3 Vector 4.4 Zoonosis 3 4"
+              "topics": "3. Pathogenicity and Infection 1.1 Pathogenicity and Infectious Disease 1.2 Virulence 1.3 Exposure and Transmission 4. General concept of parasites and parasitism 4.1 Introduction to parasitology: basic principles and concepts 4.2 Systematics, ecology and evolution 4.3 Vector 4.4 Zoonosis"
             },
             {
               "unit": 3,
-              "topics": "5. Parasitic protozoans: life cycle, pathogenesis and diseases caused by - 5.1 Entamoeba histolytica 5.2 Plasmodium 5.3 Toxoplasma gondii 4"
+              "topics": "5. Parasitic protozoans: life cycle, pathogenesis and diseases caused by - 5.1 Entamoeba histolytica 5.2 Plasmodium 5.3 Toxoplasma gondii"
             },
             {
               "unit": 4,
-              "topics": "6. Helminths: life cycle, pathogenesis and diseases caused by - 6.1 Paragonimus westermani 6.2 Trichinella spiralis 7. Dynamics of Host-Parasite interaction: Evasive strategies 3 2 Texts /"
+              "topics": "6. Helminths: life cycle, pathogenesis and diseases caused by - 6.1 Paragonimus westermani 6.2 Trichinella spiralis 7. Dynamics of Host-Parasite interaction: Evasive strategies"
             }
+          ],
+          "suggested_books": [
+            "Smith, Animal Parasitology 1996. Cambridge University Press.",
+            "Chandler and Reid, Introduction to Parasitology 1970, Wiley.",
+            "Marr et al., Molecular Medical Parasitology 2003, Elsevier.",
+            "Ash and Orihel, Atlas of Human Parasitology. American Society for Clinical Pathology Press 5th edition, 2007.",
+            "Willey et al. Prescott's Microbiology, McGraw-Hill Higher Education, 9th edition, 2011"
           ]
         },
         {
@@ -902,16 +1084,20 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Protozoa to Pseudocoelomates 1. Protozoa: Culturing of Paramecium and Euglena and observation of their locomotion 2. Porifera 2.1 Study of canal systems (asconoid, syconoid, leuconoid) from prepared slides and models 2.2 Study of the following museum specimens:Euplectella, Hyalonema, Cliona, Euspongia 3. Cnidaria 3.1 Study of the following through prepared slides: T.S. of Hydra through ovary and testis, Scyphistoma and Ephyra. 3.2 Study of the following museum specimens: Physalia, Porpita, Tubipora, Corallium, Gorgonia, Fungia, Millepora. 4. Ctenophora: Study of the following museum specimens: Hormiphora, Beroe 5. Platyhelminthes: Study of the following from slides/specimen: Dugesia, Polystomum, Schistosoma, Echinococcus, Fasciola, Taenia, Miracidium, sporocyst, redia, cercaria, metacercaria, Hexacanth bladder worm 6. Nemathelminthes: Study of the following from slide/specimen: Ascaris (male and female) 15 670 Course Title"
+              "topics": "Protozoa to Pseudocoelomates 1. Protozoa: Culturing of Paramecium and Euglena and observation of their locomotion 2. Porifera 2.1 Study of canal systems (asconoid, syconoid, leuconoid) from prepared slides and models 2.2 Study of the following museum specimens:Euplectella, Hyalonema, Cliona, Euspongia 3. Cnidaria 3.1 Study of the following through prepared slides: T.S. of Hydra through ovary and testis, Scyphistoma and Ephyra. 3.2 Study of the following museum specimens: Physalia, Porpita, Tubipora, Corallium, Gorgonia, Fungia, Millepora. 4. Ctenophora: Study of the following museum specimens: Hormiphora, Beroe 5. Platyhelminthes: Study of the following from slides/specimen: Dugesia, Polystomum, Schistosoma, Echinococcus, Fasciola, Taenia, Miracidium, sporocyst, redia, cercaria, metacercaria, Hexacanth bladder worm 6. Nemathelminthes: Study of the following from slide/specimen: Ascaris (male and female)"
             },
             {
               "unit": 2,
-              "topics": "Coelomates 7. Annelida 7.1 Leech 7.1.1 External features 7.1.2 Dissections: Digestive system 7.1.3 Mounting of jaws and salivary glands 7.2. Nereis: Permanent stained preparation of parapodium 7.3 Study of the following museum slides/specimens: Nereis, Aphrodite, Arenicola, Sabella, Acanthobdella, Branchellion, Bonellia 7.4 Trochophore Larva, T.S. of Leech through crop sac 8. Arthropoda 8.1 Study of the following museum specimens/slides: Daphnia, Cypris, Cyclops (male and female), Lepas, Balanus, Cancer, Julus, Scolopendra, Lepisma, Cricket, grasshopper, termite, Apis, wasp, butterfly, moth. 8.2 Study of the following larval forms from slides: Nauplius, Zoea and Megalopa. 9. Mollusca: Study of the following museum specimens: Chiton, Cyprea, 15"
+              "topics": "Coelomates 7. Annelida 7.1 Leech 7.1.1 External features 7.1.2 Dissections: Digestive system 7.1.3 Mounting of jaws and salivary glands 7.2. Nereis: Permanent stained preparation of parapodium 7.3 Study of the following museum slides/specimens: Nereis, Aphrodite, Arenicola, Sabella, Acanthobdella, Branchellion, Bonellia 7.4 Trochophore Larva, T.S. of Leech through crop sac 8. Arthropoda 8.1 Study of the following museum specimens/slides: Daphnia, Cypris, Cyclops (male and female), Lepas, Balanus, Cancer, Julus, Scolopendra, Lepisma, Cricket, grasshopper, termite, Apis, wasp, butterfly, moth. 8.2 Study of the following larval forms from slides: Nauplius, Zoea and Megalopa. 9. Mollusca: Study of the following museum specimens: Chiton, Cyprea,"
             },
             {
               "unit": 3,
-              "topics": "Part B: Animal Behaviour (Credit 1) 1. Study of habitat selection in the first and third instar larvae of Drosophila melanogaster. 2. Habituation in earthworms/mosquito larvae 3. Locomotor behaviour of dipteran larvae (Housefly/blowfly/fruit fly): 3.1. Locomotion on different types of substrata (writing paper, plastic sheet and sandpaper 3.2. Effects of light intensity and light quality on the rate of locomotion 4. Study of individual and social behavioural patterns of a troop of monkey 5. Study of interspecific association between cattle and egrets / mixed flock foraging in birds. 6. Study of circadian rhythm by measuring locomotor activity patterns in mice (demonstration). 7. Study of memory and learning in mice through maze-based experiments. 30 Texts /"
+              "topics": "Part B: Animal Behaviour (Credit 1) 1. Study of habitat selection in the first and third instar larvae of Drosophila melanogaster. 2. Habituation in earthworms/mosquito larvae 3. Locomotor behaviour of dipteran larvae (Housefly/blowfly/fruit fly): 3.1. Locomotion on different types of substrata (writing paper, plastic sheet and sandpaper 3.2. Effects of light intensity and light quality on the rate of locomotion 4. Study of individual and social behavioural patterns of a troop of monkey 5. Study of interspecific association between cattle and egrets / mixed flock foraging in birds. 6. Study of circadian rhythm by measuring locomotor activity patterns in mice (demonstration). 7. Study of memory and learning in mice through maze-based experiments."
             }
+          ],
+          "suggested_books": [
+            "SS Lal: Practical Zoology- Invertebrates (12th ed., Rastogi Publications)",
+            "PS Verma: A manual of Practical Zoology-Invertebrates (11th ed., S Chand publications)"
           ]
         },
         {
@@ -922,15 +1108,15 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1. An introduction and acquaintance with necessary precautions in immunological practical and proper handling of the mice. 2. Study of different lymphoid organs, counting and fix the cell number for particular experiments. 10 671 Course Title"
+              "topics": "1. An introduction and acquaintance with necessary precautions in immunological practical and proper handling of the mice. 2. Study of different lymphoid organs, counting and fix the cell number for particular experiments."
             },
             {
               "unit": 2,
-              "topics": "1. To perform retro-orbital bleeding with the help of capillary tubes and preparation of blood film for differential cell count. 2. Separation of peritoneal macrophages and their identification on the basis of non specific esterase staining. 10"
+              "topics": "1. To perform retro-orbital bleeding with the help of capillary tubes and preparation of blood film for differential cell count. 2. Separation of peritoneal macrophages and their identification on the basis of non specific esterase staining."
             },
             {
               "unit": 3,
-              "topics": "1. Enumeration of apoptotic cells by trypan blue exclusion test. 2. To study antigen-antibody interaction with the help of Mancini/Ouchterlony method Immunodiffusion). 10"
+              "topics": "1. Enumeration of apoptotic cells by trypan blue exclusion test. 2. To study antigen-antibody interaction with the help of Mancini/Ouchterlony method Immunodiffusion)."
             },
             {
               "unit": 4,
@@ -946,7 +1132,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Aquaculture 3"
+              "topics": "Aquaculture"
             }
           ]
         },
@@ -974,20 +1160,28 @@
             },
             {
               "unit": 2,
-              "topics": "3. Freshwater Aquaculture 3.1 Fish culture 3.1.1 Carp culture 3.1.2 Ornamental fish culture 3.2 Prawn culture 3.3 Pearl culture 3.4 Integrated fish farming 10"
+              "topics": "3. Freshwater Aquaculture 3.1 Fish culture 3.1.1 Carp culture 3.1.2 Ornamental fish culture 3.2 Prawn culture 3.3 Pearl culture 3.4 Integrated fish farming"
             },
             {
               "unit": 3,
-              "topics": "4. Fish Feed formulation and nutrition 4.1 Supplementary 4.2 Medicinal 4.3 Artificial 5. Fish disease and management 5.1 Microbial 5.2 Parasitic 5.3 Nutritional deficiency 7"
+              "topics": "4. Fish Feed formulation and nutrition 4.1 Supplementary 4.2 Medicinal 4.3 Artificial 5. Fish disease and management 5.1 Microbial 5.2 Parasitic 5.3 Nutritional deficiency"
             },
             {
               "unit": 4,
-              "topics": "6. Fish by-products 6.1 Pharmaceuticals 6.2 Enzymatic and biomolecular materials 6.3 Commercial products 7. Preservation methods in aquaculture 6"
+              "topics": "6. Fish by-products 6.1 Pharmaceuticals 6.2 Enzymatic and biomolecular materials 6.3 Commercial products 7. Preservation methods in aquaculture"
             },
             {
               "unit": 5,
-              "topics": "8. Aquaculture biotechnology 8.1 Genetic applications in aquaculture 8.2 Cryopreservation of gametes 8.3 Fish genetic resource and conservation 9. Omics approach in fisheries and aquaculture 10. Aquaculture economics in India 10.1 Commerce and trading in aquaculture 10.2 Socio-economic condition of fish farmers in India 12 Texts /"
+              "topics": "8. Aquaculture biotechnology 8.1 Genetic applications in aquaculture 8.2 Cryopreservation of gametes 8.3 Fish genetic resource and conservation 9. Omics approach in fisheries and aquaculture 10. Aquaculture economics in India 10.1 Commerce and trading in aquaculture 10.2 Socio-economic condition of fish farmers in India"
             }
+          ],
+          "suggested_books": [
+            "Khanna and Singh, Textbook of Fish Biology and Fisheries (2015, Narendra Publishing House)",
+            "Gopakumar, Singh and Chitranshi, Fifty Years of Fisheries Research in India (2000, Fisheries Division, Indian Council of Agricultural Research)",
+            "Jhingran, Fish and Fisheries of India (1985, Hindustan Publishing Corporation)",
+            "Pillay, Aquaculture: Principles and Practices: Fishing News Books (2005, First Indian reprint)",
+            "Smith, Fish Diseases and Medicine (2019, CRC Press)",
+            "Mohanty, Advances in Fish Research Vol VII (2019, Narendra Publishing House)"
           ]
         },
         {
@@ -1002,16 +1196,24 @@
             },
             {
               "unit": 2,
-              "topics": "O2 content 8"
+              "topics": "O2 content"
             },
             {
               "unit": 3,
-              "topics": "Study of fishing nets 3"
+              "topics": "Study of fishing nets"
             },
             {
               "unit": 4,
-              "topics": "Visit to fish farm and hatchery 5"
+              "topics": "Visit to fish farm and hatchery"
             }
+          ],
+          "suggested_books": [
+            "Khanna and Singh, Textbook of Fish Biology and Fisheries (2015, Narendra Publishing House)",
+            "Gopakumar, Singh and Chitranshi, Fifty Years of Fisheries Research in India (2000, Fisheries Division, Indian Council of Agricultural Research)",
+            "Jhingran, Fish and Fisheries of India (1985, Hindustan Publishing Corporation)",
+            "Pillay, Aquaculture: Principles and Practices: Fishing News Books (2005, First Indian reprint)",
+            "Smith, Fish Diseases and Medicine (2019, CRC Press)",
+            "Mohanty, Advances in Fish Research Vol VII (2019, Narendra Publishing House)"
           ]
         }
       ]
@@ -1031,20 +1233,26 @@
             },
             {
               "unit": 2,
-              "topics": "2. Integument and its derivatives 2.1 Structure of integument 2.2 Scales, feathers, hair, claws, nails, hoofs, horns, antlers, glands 3. Endoskeleton 3.1 General plan of neurocranium and dermatocranium. 3.2 Jaw suspensorium 3.3 Vertebrae 3 3"
+              "topics": "2. Integument and its derivatives 2.1 Structure of integument 2.2 Scales, feathers, hair, claws, nails, hoofs, horns, antlers, glands 3. Endoskeleton 3.1 General plan of neurocranium and dermatocranium. 3.2 Jaw suspensorium 3.3 Vertebrae"
             },
             {
               "unit": 3,
-              "topics": "4. Digestive system 4.1 Modifications in the alimentary canal in relation to feeding habits: length and surface area, internal folds and supplementary diverticulae, ruminants’ stomach 4.2 Dentition in mammals 5. Respiratory system 5.1 Aquatic respiration 5.1.1 Cutaneous 5.1.2 Branchial 5.2. Aerial respiration 5.2.1 Accessory respiratory organs in fish 5.2.2 Air-sacs in birds 5.2.3 Lungs 5 6"
+              "topics": "4. Digestive system 4.1 Modifications in the alimentary canal in relation to feeding habits: length and surface area, internal folds and supplementary diverticulae, ruminants’ stomach 4.2 Dentition in mammals 5. Respiratory system 5.1 Aquatic respiration 5.1.1 Cutaneous 5.1.2 Branchial 5.2. Aerial respiration 5.2.1 Accessory respiratory organs in fish 5.2.2 Air-sacs in birds 5.2.3 Lungs"
             },
             {
               "unit": 4,
-              "topics": "6. Circulatory system 6.1 Aortic arches 6.2 Portal systems 6.3 Lymphatic system 7. Nervous system 7.1Evolution of the brain (cerebral hemispheres and cerebellum) 7.2 Neuromast organs of lower vertebrates 5 5"
+              "topics": "6. Circulatory system 6.1 Aortic arches 6.2 Portal systems 6.3 Lymphatic system 7. Nervous system 7.1Evolution of the brain (cerebral hemispheres and cerebellum) 7.2 Neuromast organs of lower vertebrates"
             },
             {
               "unit": 5,
-              "topics": "8. Urinogenital system 8.1 Excretory system 8.1.1 Types and evolution of kidney tubules 8.1.2 Urinary duct and bladder 8.2. Reproductive system 8.2.1 General plan of gonads and urinogenital ducts 8.2.2 Types of uteri 7 Texts /"
+              "topics": "8. Urinogenital system 8.1 Excretory system 8.1.1 Types and evolution of kidney tubules 8.1.2 Urinary duct and bladder 8.2. Reproductive system 8.2.1 General plan of gonads and urinogenital ducts 8.2.2 Types of uteri"
             }
+          ],
+          "suggested_books": [
+            "Kardong: Vertebrates: Comparative Anatomy, Function, Evolution (Recent edition, Mcgraw Hill Education)",
+            "Kent: Comparative Anatomy of the Vertebrates (Recent edition, Mcgraw Hill Education)",
+            "Romer & Parsons: The vertebrate Body (6th ed. 1986, Saunders)",
+            "Jordan and Verma: Chordate Zoology (S. Chand & Company Pvt. Ltd.)"
           ]
         },
         {
@@ -1055,16 +1263,25 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1. Introduction to environmental biology 1.1 Major ecosystems of the world-tundra, taiga, temperate deciduous forest, tropical rain forest, savannah, grassland and desert with adaptations in flora and fauna 2. Trophic relationship 2.1. Ecological pyramids 2.2. Food chain and Food web 10 676 Course Title"
+              "topics": "1. Introduction to environmental biology 1.1 Major ecosystems of the world-tundra, taiga, temperate deciduous forest, tropical rain forest, savannah, grassland and desert with adaptations in flora and fauna 2. Trophic relationship 2.1. Ecological pyramids 2.2. Food chain and Food web"
             },
             {
               "unit": 2,
-              "topics": "3. Ecosystem energetics 3.1. Energy flow in ecosystem 3.2. Productivity 4. Population and communities 4.1. Population characteristics: density, natality, mortality and growth curve 4.2. Nature, structure and attributes of biological communities 4.3. Community dynamics: ecological succession, ecotone, edge effect 4.4. Positive and negative interactions 15"
+              "topics": "3. Ecosystem energetics 3.1. Energy flow in ecosystem 3.2. Productivity 4. Population and communities 4.1. Population characteristics: density, natality, mortality and growth curve 4.2. Nature, structure and attributes of biological communities 4.3. Community dynamics: ecological succession, ecotone, edge effect 4.4. Positive and negative interactions"
             },
             {
               "unit": 3,
-              "topics": "5. Global environmental changes 5.1. Sources and impact of environmental pollution – air, water and soil 5.2. Green house gases and their effects 5.3. Solid waste management 6. Conservation biology 6.1. Biodiversity: benefits, hotspots, threats and conservation 6.2. Soil and water resources and their conservation 6.3. Introduction to environmental laws and ethics 20 Texts /"
+              "topics": "5. Global environmental changes 5.1. Sources and impact of environmental pollution – air, water and soil 5.2. Green house gases and their effects 5.3. Solid waste management 6. Conservation biology 6.1. Biodiversity: benefits, hotspots, threats and conservation 6.2. Soil and water resources and their conservation 6.3. Introduction to environmental laws and ethics"
             }
+          ],
+          "suggested_books": [
+            "Reece et al. (2011): Campbell biology (9thed.,Pearson, New York)",
+            "Cunningham and Cunningham (2003): Environmental science (Tata McGraw Hill Publishing Company Limited, New Delhi.)",
+            "Enger and Smith (2000): Environmental Science (7th ed., McGraw-Hill Higher Education, London)",
+            "Odum and Barrett (2005): Fundamental of Ecology, Thomson Brooks/Cole, USA",
+            "Primack (2004): A Primer of Conservation Biology (3rd ed., Sinauer Associates, USA)",
+            "J. S. Singh (2014): Ecology, Environmental Science and Conservation",
+            "P. D. Sharma (2007): Ecology and Environment"
           ]
         },
         {
@@ -1075,24 +1292,30 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": " Eukaryotic Cell 1.1 Membrane Transport 1.1.1 Principles of membrane transport 1.1.2 Types of carrier proteins, channel proteins, and their regulation 1.1.3 Physiological importance of symporters and antiporters (Glucose transport, pH maintenance) 1.1.4 Types of transporters: P-type, F-type, V-type, ABC transporters 1.1.5 Gated channels 1.1.6 Selectively across Ion channels: K+, Na+ channels and Aquaporins 1.1.7 Endocytic-exocytic cycle 1.2 Intracellular transport and protein sorting 1.2.1 Types of signal sequences and their role in protein targeting 1.2.2 Passage of proteins through endoplasmic reticulum and membrane topology 1.2.3 Post-translational processing of protein in Endoplasmic reticulum and its significance 1.2.3 Processing and sorting of proteins in Golgi apparatus 1.2.4 Nuclear transport 1.2.5 Mitochondrial transport: TIM23 complex, SAM complex 7 8 678 Course Title"
+              "topics": " Eukaryotic Cell 1.1 Membrane Transport 1.1.1 Principles of membrane transport 1.1.2 Types of carrier proteins, channel proteins, and their regulation 1.1.3 Physiological importance of symporters and antiporters (Glucose transport, pH maintenance) 1.1.4 Types of transporters: P-type, F-type, V-type, ABC transporters 1.1.5 Gated channels 1.1.6 Selectively across Ion channels: K+, Na+ channels and Aquaporins 1.1.7 Endocytic-exocytic cycle 1.2 Intracellular transport and protein sorting 1.2.1 Types of signal sequences and their role in protein targeting 1.2.2 Passage of proteins through endoplasmic reticulum and membrane topology 1.2.3 Post-translational processing of protein in Endoplasmic reticulum and its significance 1.2.3 Processing and sorting of proteins in Golgi apparatus 1.2.4 Nuclear transport 1.2.5 Mitochondrial transport: TIM23 complex, SAM complex"
             },
             {
               "unit": 2,
-              "topics": "2. Mitochondria and energy transfer 2.1 Organization of mitochondrial genome 2.2 Fission and Fusion 2.3 Proton pumps of Electron transport chain 2.4 Electrochemical gradient and bioenergetics 4"
+              "topics": "2. Mitochondria and energy transfer 2.1 Organization of mitochondrial genome 2.2 Fission and Fusion 2.3 Proton pumps of Electron transport chain 2.4 Electrochemical gradient and bioenergetics"
             },
             {
               "unit": 3,
-              "topics": "3. Cellular organization 3.1 Cytoskeleton 3.1.1 Structural organization of microfilaments and microtubules: Tread milling and Dynamic instability, actin-binding proteins and motor proteins. 3.1.2 Importance of Intermediate filaments: Keratin, Lamins, Desmin 3.1.3 Microtubular organelles 3.2 Cell-cell interactions 3.2.1 Types of Cell junctions 3.2.2 Properties of Cell adhesion and extracellular matrix 3.3 Cell signaling 3.3.1 Receptors: G-coupled receptors, RTK receptors, Nuclear receptors 3.3.2 Second messenger: cAMP and protein kinases 3.3.3 Overview of major signaling pathways 5 3 5"
+              "topics": "3. Cellular organization 3.1 Cytoskeleton 3.1.1 Structural organization of microfilaments and microtubules: Tread milling and Dynamic instability, actin-binding proteins and motor proteins. 3.1.2 Importance of Intermediate filaments: Keratin, Lamins, Desmin 3.1.3 Microtubular organelles 3.2 Cell-cell interactions 3.2.1 Types of Cell junctions 3.2.2 Properties of Cell adhesion and extracellular matrix 3.3 Cell signaling 3.3.1 Receptors: G-coupled receptors, RTK receptors, Nuclear receptors 3.3.2 Second messenger: cAMP and protein kinases 3.3.3 Overview of major signaling pathways 5"
             },
             {
               "unit": 4,
-              "topics": "4. Cell Reproduction 4.1 Cell Division 4.1.1 Experimental evidence of cell cycle events 4.1.2 M-phase: Biorientation, Chromosome movement, Regulation of Mitosis and Cytokinesis 4.1.3 Oncogenes and tumor suppressor genes 4.1.4 Cell transformation: Viral Transformation, Clonal expansion, angiogenesis and Metastasis 4.2 Apoptosis and cell death 4.2.1 Intrinsic and Extrinsic pathway 4.2.2 Bcl2 family 8 3"
+              "topics": "4. Cell Reproduction 4.1 Cell Division 4.1.1 Experimental evidence of cell cycle events 4.1.2 M-phase: Biorientation, Chromosome movement, Regulation of Mitosis and Cytokinesis 4.1.3 Oncogenes and tumor suppressor genes 4.1.4 Cell transformation: Viral Transformation, Clonal expansion, angiogenesis and Metastasis 4.2 Apoptosis and cell death 4.2.1 Intrinsic and Extrinsic pathway 4.2.2 Bcl2 family"
             },
             {
               "unit": 5,
               "topics": "5. Interphase nucleus 5.1 Organization of interphase nucleus: Chromosome domains and territories, 3-C 5.2 Heterochromatin: HP1, Concept of boundary elements 5.3 Histones modifications and associated gene regulation 5.4 Centromere and telomere 5 Recommended"
             }
+          ],
+          "suggested_books": [
+            "Alberts et al, Molecular Biology of the Cell (7th Edition, Garland)",
+            "Karp: Cell and Molecular Biology (9th Edition, John Wiley)",
+            "Lodish et al: Molecular Cell Biology (9th Edition, Freeman)",
+            "Plopper et al, Lewin’s Cells (3rd Edition, Jones and Bartlett)"
           ]
         },
         {
@@ -1103,7 +1326,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Mammalian Physiology 3"
+              "topics": "Mammalian Physiology"
             }
           ]
         },
@@ -1115,20 +1338,32 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "PART-A: Functional Anatomy of Chordates (Credit 1) 1. Lower chordates 1.1. Amphioxus 1.1.1 External features 1.1.2 Mounting of the oral hood, velum and pharyngeal wall 1.1.3 Study of the following slides: T.S. through oral hood, midgut diverticulum, pharyngeal region, gonads and post-oral region of the intestine 1.2 Study of the following permanent slides/specimens: Pyrosoma, Salpa, Doliolum 2. Vertebrates 2.1 Integument and its derivatives 2.1.1 Mounting of cycloid and ctenoid scales 2.1.2 Mounting of chromatophores of fish 2.1.3 Study of different types of feathers: Contour, filoplume and down feathers 2.2 General anatomy 2.2.1 Vascular system 2.2.1.1 Heart and afferent and efferent branchial vessels of Mystus/ Cirrhinus sp. 2.2.1.2 Arterial and venous systems of rat 2.2.2 Respiratory system: Accessory respiratory organs of Heteropneustes/ Channa/Clarius 15 680 Course Title"
+              "topics": "PART-A: Functional Anatomy of Chordates (Credit 1) 1. Lower chordates 1.1. Amphioxus 1.1.1 External features 1.1.2 Mounting of the oral hood, velum and pharyngeal wall 1.1.3 Study of the following slides: T.S. through oral hood, midgut diverticulum, pharyngeal region, gonads and post-oral region of the intestine 1.2 Study of the following permanent slides/specimens: Pyrosoma, Salpa, Doliolum 2. Vertebrates 2.1 Integument and its derivatives 2.1.1 Mounting of cycloid and ctenoid scales 2.1.2 Mounting of chromatophores of fish 2.1.3 Study of different types of feathers: Contour, filoplume and down feathers 2.2 General anatomy 2.2.1 Vascular system 2.2.1.1 Heart and afferent and efferent branchial vessels of Mystus/ Cirrhinus sp. 2.2.1.2 Arterial and venous systems of rat 2.2.2 Respiratory system: Accessory respiratory organs of Heteropneustes/ Channa/Clarius"
             },
             {
               "unit": 2,
-              "topics": "3. Histology: Study of permanent slides of the following tissues and organs of mammals- Tooth, tongue, oesophagus, stomach, intestine, pancreas, liver, spleen, kidney, cartilage, bone 4. Classification and distinctive features of the following 4.1 Cyclostomata: Petromyzon, Myxine 4.2 Chondrichthyes: Scoliodon, Sphyrna, Torpedo, Pristis 4.3 Osteichthyes: Protopterus, Exocetus, Hippocampus, Syngnathus, Tetradon, Diodon, Amia, Anabas, Ophiocephalus, Clarias, Heteropneustes, Catla, Labeo, 4.4 Amphibia: Ichthyophis, Axolotl larva, Amphiuma,Proteus, Pipa, Rhacophorais, Hyla 4.5 Reptilia: Turtle, Chameleon, Draco, Uromastix, Varanus, Calotes, Iguana, Mabuya, X Natrix, Naja, Vipera, Alligator 4.6 Aves: Apterys, Struthio, Aptenodytes, Francolinus, Tytoalba, Dinopium, Milvus, Corvus, Pavo, Eudynamys, Passer, Psittacula, Anas, Grus 4.7 Mammalia: Ornithqorhynchus, Tachyglossus, Macropus, Manis, Erinaceus, Pteropus, Lemur, Loris, Bradypus, Phoca, Lutra, Equus cabalus, Camelus, Capra, Bos 15"
+              "topics": "3. Histology: Study of permanent slides of the following tissues and organs of mammals- Tooth, tongue, oesophagus, stomach, intestine, pancreas, liver, spleen, kidney, cartilage, bone 4. Classification and distinctive features of the following 4.1 Cyclostomata: Petromyzon, Myxine 4.2 Chondrichthyes: Scoliodon, Sphyrna, Torpedo, Pristis 4.3 Osteichthyes: Protopterus, Exocetus, Hippocampus, Syngnathus, Tetradon, Diodon, Amia, Anabas, Ophiocephalus, Clarias, Heteropneustes, Catla, Labeo, 4.4 Amphibia: Ichthyophis, Axolotl larva, Amphiuma,Proteus, Pipa, Rhacophorais, Hyla 4.5 Reptilia: Turtle, Chameleon, Draco, Uromastix, Varanus, Calotes, Iguana, Mabuya, X Natrix, Naja, Vipera, Alligator 4.6 Aves: Apterys, Struthio, Aptenodytes, Francolinus, Tytoalba, Dinopium, Milvus, Corvus, Pavo, Eudynamys, Passer, Psittacula, Anas, Grus 4.7 Mammalia: Ornithqorhynchus, Tachyglossus, Macropus, Manis, Erinaceus, Pteropus, Lemur, Loris, Bradypus, Phoca, Lutra, Equus cabalus, Camelus, Capra, Bos"
             },
             {
               "unit": 3,
-              "topics": "PART-B: Environmental Biology (Credit 1) 1. Estimation of grasshopper population density by capture-recapture method 2. Estimation of percent frequency, abundance and dominance of producers in grassland by quadrat sampling method 3. Estimation of percent frequency, abundance and dominance of consumers in grassland by quadrat sampling method 15"
+              "topics": "PART-B: Environmental Biology (Credit 1) 1. Estimation of grasshopper population density by capture-recapture method 2. Estimation of percent frequency, abundance and dominance of producers in grassland by quadrat sampling method 3. Estimation of percent frequency, abundance and dominance of consumers in grassland by quadrat sampling method"
             },
             {
               "unit": 4,
-              "topics": "4. Determination of total hardness of water sample 5. Determination of pH of different water samples by using pH meter. 6. Determination of carbonate and nitrate in soil samples 7. Determination of free CO2in different samples of pond water 15 Texts /"
+              "topics": "4. Determination of total hardness of water sample 5. Determination of pH of different water samples by using pH meter. 6. Determination of carbonate and nitrate in soil samples 7. Determination of free CO2in different samples of pond water"
             }
+          ],
+          "suggested_books": [
+            "Functional Anatomy of Chordates",
+            "Lal: Practical Zoology- Vertebrates (12th ed., Rastogi Publications)",
+            "Verma: A manual of Practical Zoology-Chordates (11th ed., S Chand publications) Environmental Biology",
+            "Reece et al. (2011): Campbell biology (9thed.,Pearson, New York)",
+            "Cunningham and Cunningham (2003): Environmental science (Tata McGraw Hill Publishing Company Limited, New Delhi.)",
+            "Enger and Smith (2000): Environmental Science (7th ed., McGraw-Hill Higher Education, London)",
+            "Odum and Barrett (2005): Fundamental of Ecology, Thomson Brooks/Cole, USA",
+            "Primack (2004): A Primer of Conservation Biology (3rd ed., Sinauer Associates, USA)",
+            "J. S. Singh (2014): Ecology, Environmental Science and Conservation",
+            "P. D. Sharma (2007): Ecology and Environment"
           ]
         },
         {
@@ -1139,11 +1374,11 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "PART-A: Cell Biology (Credit 1) 1. Use of phase contrast optics by observing the live sperm/paramecium in physiological saline 2. Demonstration of the use of fluorescence microscope (DNA and RNA fluorescence) and familiarity with confocal microscope 3. Familiarity with scanning and transmission electron microscopes (photograph and visit the Department of Metallurgy) 4. Familiarity with tissue culture (visit plant and animal tissue culture labs.) Use of colchicine in arresting anaphase movement (onion root tips) 6. Visualization heterochromatin zed sex chromatin through Barr body 7. Demonstration of chromatin distribution using DAPI staining. 8. Metaphase chromosome preparations from the bone marrow of mouse/rat 9. Meiosis in grass hopper testis 10. Study of permanent slides to understand the following: 10.1. Constitutive heterochromatin(C-band) 10.2. Semiconservative DNA replication (BrdU-labelling) 10.3. Detection of S-phase cells in a random population (autoradiography) 10.4. Transcription in polytene chromosome puffs (autoradiography) 10.5. Chromosome organization (G-banding) 10.6. Premature chromosome condensation 10.7. Actin remodeling in migrating tumor cells 10.8. Prediction of telomere length through FISH. 30 681 Course Title"
+              "topics": "PART-A: Cell Biology (Credit 1) 1. Use of phase contrast optics by observing the live sperm/paramecium in physiological saline 2. Demonstration of the use of fluorescence microscope (DNA and RNA fluorescence) and familiarity with confocal microscope 3. Familiarity with scanning and transmission electron microscopes (photograph and visit the Department of Metallurgy) 4. Familiarity with tissue culture (visit plant and animal tissue culture labs.) Use of colchicine in arresting anaphase movement (onion root tips) 6. Visualization heterochromatin zed sex chromatin through Barr body 7. Demonstration of chromatin distribution using DAPI staining. 8. Metaphase chromosome preparations from the bone marrow of mouse/rat 9. Meiosis in grass hopper testis 10. Study of permanent slides to understand the following: 10.1. Constitutive heterochromatin(C-band) 10.2. Semiconservative DNA replication (BrdU-labelling) 10.3. Detection of S-phase cells in a random population (autoradiography) 10.4. Transcription in polytene chromosome puffs (autoradiography) 10.5. Chromosome organization (G-banding) 10.6. Premature chromosome condensation 10.7. Actin remodeling in migrating tumor cells 10.8. Prediction of telomere length through FISH."
             },
             {
               "unit": 2,
-              "topics": "PART-B: Mammalian Physiology (Credit 1) 1. Counting of red blood corpuscles 2. Counting of white blood corpuscles 3. Determination of hemoglobin content 4. Determination of blood groups 5. Measurement of blood pressure using sphygmomanometer 6. Preparation of casein from milk 30 Texts /"
+              "topics": "PART-B: Mammalian Physiology (Credit 1) 1. Counting of red blood corpuscles 2. Counting of white blood corpuscles 3. Determination of hemoglobin content 4. Determination of blood groups 5. Measurement of blood pressure using sphygmomanometer 6. Preparation of casein from milk"
             }
           ]
         },
@@ -1155,23 +1390,23 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1. Biochemical basis of diseases/disorders, diagnosis and treatment 1.1. Molecular deficiency disorders 1.1.1 Disorders of enzyme deficiency 1.1.2 Disorders of protein deficiency/defects 1.2. Storage and transport associated disorders Biochemistry of Diabetes and Obesity 1.3. Biochemical changes in pregnancy & lactation 10 682 Course Title"
+              "topics": "1. Biochemical basis of diseases/disorders, diagnosis and treatment 1.1. Molecular deficiency disorders 1.1.1 Disorders of enzyme deficiency 1.1.2 Disorders of protein deficiency/defects 1.2. Storage and transport associated disorders Biochemistry of Diabetes and Obesity 1.3. Biochemical changes in pregnancy & lactation"
             },
             {
               "unit": 2,
-              "topics": "2. Chemistry, composition & functions 2.1 Blood 2.2 Lymph 2.3 CSF 2.4 Ascitic fluid 2.5 Pleural fluid 2.6. Lipid profile 10"
+              "topics": "2. Chemistry, composition & functions 2.1 Blood 2.2 Lymph 2.3 CSF 2.4 Ascitic fluid 2.5 Pleural fluid 2.6. Lipid profile"
             },
             {
               "unit": 3,
-              "topics": "3. Common biomarkers of organ functions 3.1 Liver 3.2 Kidney 3.3 Thyroid 3.4 Heart 10"
+              "topics": "3. Common biomarkers of organ functions 3.1 Liver 3.2 Kidney 3.3 Thyroid 3.4 Heart"
             },
             {
               "unit": 4,
-              "topics": "4. Immunity and human health 4.1 Autoimmunity 4.2 Immunodeficiency 4.3 Cancer 4.4 Septicemia 4.5 Transplantation 8"
+              "topics": "4. Immunity and human health 4.1 Autoimmunity 4.2 Immunodeficiency 4.3 Cancer 4.4 Septicemia 4.5 Transplantation"
             },
             {
               "unit": 5,
-              "topics": "5. Drugaction 5.1 Mechanisms 5.2 Drug addiction 5.3 Biotransformation of drugs 5.4 Drug delivery, targeting and clinical trials 7 Texts /"
+              "topics": "5. Drugaction 5.1 Mechanisms 5.2 Drug addiction 5.3 Biotransformation of drugs 5.4 Drug delivery, targeting and clinical trials"
             }
           ]
         },
@@ -1215,7 +1450,7 @@
             },
             {
               "unit": 2,
-              "topics": "Urea 30 Texts /"
+              "topics": "Urea"
             }
           ]
         }
@@ -1232,19 +1467,19 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Category of Course Major / Minor / Minor (Vocational) / SEC / AEC / VAC / MD/Internship/Dissertation (Tick any one of the above) Credits & Hour of Teaching Theory Practical Cumulative Credits 3 3 Hour of Teaching (Total) 45 45 Course Objectives (not more than 100 words)  The course covers various fundamental and advanced topics in genetics.  The course aims to provide students with a comprehensive understanding of the principles and mechanisms of genetics.  Students will learn how genes are mapped to chromosomes and study various tools to understand their regulation and function.  This course will also assist towards understanding of biological processes like transposition, genetic determination of sex, DNA recombination, damage and repair.  The course starts by exploring genetics in bacteria and progresses to the mammalian genome. Course Content The course content be divided into minimum 3 Units to maximum 5 units along with defined hour of teaching for each unit. 1. Proteins: Composition and organization 1.1 Amino acids: Ionization, titration curve, pK and pI 1.2 N-terminal analysis: Sanger and Edman’s reactions 1.3 Higher order organization 2. Enzymes 2.1 Kinetics (determination of Km and Vmax using Michaelis-Menten and Lineweaver-Burk plots) 2.2 Acid-base and covalent catalysis 2.3 Concept of regulation of enzyme activity 2.3.1 Inhibition 2.3.2 Allosteric regulation 2.3.3 Role of covalent modifications 2.4 Ribozymes and concept of abzymes 5 7 684 Course Title"
+              "topics": "Category of Course Major / Minor / Minor (Vocational) / SEC / AEC / VAC / MD/Internship/Dissertation (Tick any one of the above) Credits & Hour of Teaching Theory Practical Cumulative Credits 3 3 Hour of Teaching (Total) 45 45 Course Objectives (not more than 100 words)  The course covers various fundamental and advanced topics in genetics.  The course aims to provide students with a comprehensive understanding of the principles and mechanisms of genetics.  Students will learn how genes are mapped to chromosomes and study various tools to understand their regulation and function.  This course will also assist towards understanding of biological processes like transposition, genetic determination of sex, DNA recombination, damage and repair.  The course starts by exploring genetics in bacteria and progresses to the mammalian genome. Course Content The course content be divided into minimum 3 Units to maximum 5 units along with defined hour of teaching for each unit. 1. Proteins: Composition and organization 1.1 Amino acids: Ionization, titration curve, pK and pI 1.2 N-terminal analysis: Sanger and Edman’s reactions 1.3 Higher order organization 2. Enzymes 2.1 Kinetics (determination of Km and Vmax using Michaelis-Menten and Lineweaver-Burk plots) 2.2 Acid-base and covalent catalysis 2.3 Concept of regulation of enzyme activity 2.3.1 Inhibition 2.3.2 Allosteric regulation 2.3.3 Role of covalent modifications 2.4 Ribozymes and concept of abzymes"
             },
             {
               "unit": 2,
-              "topics": "3. Carbohydrates 3.1. Polysaccharides 3.1.1 Homopolymers 3.1.2 Heteropolymers (peptidoglycans and glycosaminoglycans) 3.2. Catabolism of carbohydrates and ATP production 3.2.1 Glycolysis 3.2.2 Krebs cycle 3.2.3 Electron transport chain and ATP synthesis 4. Lipids: Structural and functional significance 4.1 Triglycerides 4.2 Phospholipids 4.3 Sphingolipids 4.4 Cholesterol 7 3"
+              "topics": "3. Carbohydrates 3.1. Polysaccharides 3.1.1 Homopolymers 3.1.2 Heteropolymers (peptidoglycans and glycosaminoglycans) 3.2. Catabolism of carbohydrates and ATP production 3.2.1 Glycolysis 3.2.2 Krebs cycle 3.2.3 Electron transport chain and ATP synthesis 4. Lipids: Structural and functional significance 4.1 Triglycerides 4.2 Phospholipids 4.3 Sphingolipids 4.4 Cholesterol"
             },
             {
               "unit": 3,
-              "topics": "5. Nucleic acids 5.1 Conformation of DNA (A, B and Z) 5.2 Hoogsteen base pairing-Guanine quadruplex 5.3 Structure of nucleosomes 5.4 Mechanism of DNA replication 5.5 Transcription 5.5.1 Basic mechanism (prokaryotic model) 5.5.2 Transcription initiation complex in eukaryotes 5.5.3 Processing of RNA Pol II Transcript 5.5.4 Mechanism of translation 12"
+              "topics": "5. Nucleic acids 5.1 Conformation of DNA (A, B and Z) 5.2 Hoogsteen base pairing-Guanine quadruplex 5.3 Structure of nucleosomes 5.4 Mechanism of DNA replication 5.5 Transcription 5.5.1 Basic mechanism (prokaryotic model) 5.5.2 Transcription initiation complex in eukaryotes 5.5.3 Processing of RNA Pol II Transcript 5.5.4 Mechanism of translation"
             },
             {
               "unit": 4,
-              "topics": "6. Recombinant DNA and Proteins 6.1 Tools: Restriction enzymes, vectors 6.2 Construction of recombinant DNA 6.3 Production of recombinant protein 6.4 Genome editing 4 Texts /"
+              "topics": "6. Recombinant DNA and Proteins 6.1 Tools: Restriction enzymes, vectors 6.2 Construction of recombinant DNA 6.3 Production of recombinant protein 6.4 Genome editing"
             }
           ]
         },
@@ -1260,11 +1495,11 @@
             },
             {
               "unit": 2,
-              "topics": "3. Transposable elements 3.1 Discovery of transposable elements 3.2 Prokaryotic and eukaryotic elements 3.3 Retroposons 3.4 Mechanisms of transposition 4. Organization of the Human Genome 4.1 Human Genome Project 4.2 Nuclear and Mitochondrial Genome 4.3 Gene families 4.4 LINE& SINE elements 4.5 Single Nucleotide Polymorphism 5. Genetic determination of sex 5.1 Drosophila 5.2 Human 6 6 3"
+              "topics": "3. Transposable elements 3.1 Discovery of transposable elements 3.2 Prokaryotic and eukaryotic elements 3.3 Retroposons 3.4 Mechanisms of transposition 4. Organization of the Human Genome 4.1 Human Genome Project 4.2 Nuclear and Mitochondrial Genome 4.3 Gene families 4.4 LINE& SINE elements 4.5 Single Nucleotide Polymorphism 5. Genetic determination of sex 5.1 Drosophila 5.2 Human 6"
             },
             {
               "unit": 3,
-              "topics": "6. DNA recombination 6.1 Homologous and non-homologous recombination 6.2 Site-specific recombination 7. DNA damage and repair 7.1 Endogenous and exogenous origin of DNA damage 7.2 Major repair pathways: BER, NER, mismatch repair, NEJ and DSB 8. Human genetic disorders 8.1 Metabolic: Phenylketonuria 8.2 Triplet repeat expansion: Huntington 8.3 Multifactorial: Diabetes mellitus 4 8 3 Texts /"
+              "topics": "6. DNA recombination 6.1 Homologous and non-homologous recombination 6.2 Site-specific recombination 7. DNA damage and repair 7.1 Endogenous and exogenous origin of DNA damage 7.2 Major repair pathways: BER, NER, mismatch repair, NEJ and DSB 8. Human genetic disorders 8.1 Metabolic: Phenylketonuria 8.2 Triplet repeat expansion: Huntington 8.3 Multifactorial: Diabetes mellitus"
             }
           ]
         },
@@ -1280,19 +1515,19 @@
             },
             {
               "unit": 2,
-              "topics": "2.1 Hypothalamo-hypophysial System 2.1.1 General organization 2.1.2 Neural control of adenohypophysis: hypophysiotropic hormones and their actions 2.1.3 Adenohypophysial hormones & their physiological roles  Somatotropin and prolactin  Glycoprotein hormones: FSH, LH and TSH  Pro-opiomelanocortin: ACTH, MSH 2.1.4 Neurohypophysial hormones: oxytocin and vasopressin 2.2 Epiphysial System 2.2.1 Pineal, biological clock and calendar 2.2.2 Melatonin and photoperiodic measurement 15"
+              "topics": "2.1 Hypothalamo-hypophysial System 2.1.1 General organization 2.1.2 Neural control of adenohypophysis: hypophysiotropic hormones and their actions 2.1.3 Adenohypophysial hormones & their physiological roles  Somatotropin and prolactin  Glycoprotein hormones: FSH, LH and TSH  Pro-opiomelanocortin: ACTH, MSH 2.1.4 Neurohypophysial hormones: oxytocin and vasopressin 2.2 Epiphysial System 2.2.1 Pineal, biological clock and calendar 2.2.2 Melatonin and photoperiodic measurement"
             },
             {
               "unit": 3,
-              "topics": "Hormonal control of 3.1 Calcium homeostasis 3.2 Glucose homeostasis 6"
+              "topics": "Hormonal control of 3.1 Calcium homeostasis 3.2 Glucose homeostasis"
             },
             {
               "unit": 4,
-              "topics": "Adrenal cortex: Control of secretion and physiological role of mineralocorticoid and glucocorticoid hormone Adrenal medulla: Catecholamine biosynthesis, release and physiological role 5"
+              "topics": "Adrenal cortex: Control of secretion and physiological role of mineralocorticoid and glucocorticoid hormone Adrenal medulla: Catecholamine biosynthesis, release and physiological role"
             },
             {
               "unit": 5,
-              "topics": "Biology of Gonads: 9"
+              "topics": "Biology of Gonads:"
             }
           ]
         },
@@ -1308,19 +1543,19 @@
             },
             {
               "unit": 2,
-              "topics": "3. Basic features of biological data and data 3.1 Types of Biological Data- Primary Databases, Secondary and Composite Databases 3.2 Nucleic acid sequences databases (GenBank, EMBL, DDBJ) 3.3 Genome databases 3.4 Protein sequence, structures and interacting protein databases (Swiss-Prot, TrEMBL, UniProt, PDB) 3.5 Literature databases 4. Introduction to data retrieval systems 4.1 Search engines 4.2 Entrez, sequence retrieval system (SRS) and DBGET / LinkDB 6 2"
+              "topics": "3. Basic features of biological data and data 3.1 Types of Biological Data- Primary Databases, Secondary and Composite Databases 3.2 Nucleic acid sequences databases (GenBank, EMBL, DDBJ) 3.3 Genome databases 3.4 Protein sequence, structures and interacting protein databases (Swiss-Prot, TrEMBL, UniProt, PDB) 3.5 Literature databases 4. Introduction to data retrieval systems 4.1 Search engines 4.2 Entrez, sequence retrieval system (SRS) and DBGET / LinkDB"
             },
             {
               "unit": 3,
-              "topics": "5. Introduction to molecular sequence analysis software packages and tools 5.1 Prediction of motifs and domains (Prosite, ProDom, Pfam, InterPro) 5.2 Sequence (BLAST and Clustal W) and phylogenetic analysis 6. Scope and applications of bioinformatics 4 2"
+              "topics": "5. Introduction to molecular sequence analysis software packages and tools 5.1 Prediction of motifs and domains (Prosite, ProDom, Pfam, InterPro) 5.2 Sequence (BLAST and Clustal W) and phylogenetic analysis 6. Scope and applications of bioinformatics"
             },
             {
               "unit": 4,
-              "topics": "Biostatistics: 1.1. Data collection and classification 1.2. Graphical representation of data 1.1.1. Pie chart 1.1.2. Bar diagram 1.1.3. Histogram 1.1.4. Frequency polygon 1.1.5. cumulative frequency curve 06"
+              "topics": "Biostatistics: 1.1. Data collection and classification 1.2. Graphical representation of data 1.1.1. Pie chart 1.1.2. Bar diagram 1.1.3. Histogram 1.1.4. Frequency polygon 1.1.5. cumulative frequency curve"
             },
             {
               "unit": 5,
-              "topics": "2.1. Basics of Probability 2.2. Measures of central tendency: Arithmetic Mean, Median, Mode 2.3. Measures of dispersion: Standard deviation and Standard error, Concept of Coefficient of Variation 2.4. Correlation: Types of correlation, Calculation of correlation in continuous data and ordinal data 2.5. Regression: Linear regression and regression equations 2.6. Hypothesis testing: Parametric tests (Paired and unpaired t-test, ANOVA), Non- parametric test (Chi-square test, Mann-Whitney U test) 13 Texts /"
+              "topics": "2.1. Basics of Probability 2.2. Measures of central tendency: Arithmetic Mean, Median, Mode 2.3. Measures of dispersion: Standard deviation and Standard error, Concept of Coefficient of Variation 2.4. Correlation: Types of correlation, Calculation of correlation in continuous data and ordinal data 2.5. Regression: Linear regression and regression equations 2.6. Hypothesis testing: Parametric tests (Paired and unpaired t-test, ANOVA), Non- parametric test (Chi-square test, Mann-Whitney U test)"
             }
           ]
         },
@@ -1332,11 +1567,11 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "PART-A: Structure and Functions of Biomolecules (Credit 1) 1. Determination of pK and pI values of glycine 2. Estimation of protein by Biuret method 3. Determination of the activity of enzyme (Urease): a. Effect of [S] and determination of Km and Vmax b. Effect of time 4. Qualitative tests for identification of sugars 5. Qualitative test for DNA & RNA 30 689 Course Title"
+              "topics": "PART-A: Structure and Functions of Biomolecules (Credit 1) 1. Determination of pK and pI values of glycine 2. Estimation of protein by Biuret method 3. Determination of the activity of enzyme (Urease): a. Effect of [S] and determination of Km and Vmax b. Effect of time 4. Qualitative tests for identification of sugars 5. Qualitative test for DNA & RNA"
             },
             {
               "unit": 2,
-              "topics": "PART-B: Molecular Genetics (Credit 1) 1. Study of mutants in Drosophila (Bar eye, white eye, yellow body, sepia eye, curled wing, dumpy wing, vestigial wing and sepia eye-curled wing and curled wing-ebony body- sepia eye). 2. Simulation of principles of segregation and independent assortment using coloured beads. 3. Application of laws of probability and chi-square test. 4. Study of sex-linkage: reciprocal crosses between red and white-eyed Drosophila flies. 5. Study of pattern of inheritance of the traits in human populations: rolling of tongue and interlocking, and of the sex-influenced trait long versus short second finger in relation to the fourth finger (apply Hardy-Weinberg Law). 6. Preparation of polytene chromosome from Drosophila larvae. 7. Isolation of Genomic DNA from mouse/rat tissue. 8. Population & Familial analysis of Diabetes. 30 Texts /"
+              "topics": "PART-B: Molecular Genetics (Credit 1) 1. Study of mutants in Drosophila (Bar eye, white eye, yellow body, sepia eye, curled wing, dumpy wing, vestigial wing and sepia eye-curled wing and curled wing-ebony body- sepia eye). 2. Simulation of principles of segregation and independent assortment using coloured beads. 3. Application of laws of probability and chi-square test. 4. Study of sex-linkage: reciprocal crosses between red and white-eyed Drosophila flies. 5. Study of pattern of inheritance of the traits in human populations: rolling of tongue and interlocking, and of the sex-influenced trait long versus short second finger in relation to the fourth finger (apply Hardy-Weinberg Law). 6. Preparation of polytene chromosome from Drosophila larvae. 7. Isolation of Genomic DNA from mouse/rat tissue. 8. Population & Familial analysis of Diabetes."
             }
           ]
         },
@@ -1352,7 +1587,7 @@
             },
             {
               "unit": 2,
-              "topics": "2.1 Survey of endocrine glands and reproductive organs in rat 2.2 Preparation of permanent slides of endocrine glands: 1. Pituitary 2. Thyroid 3. Testis 4. Ovary 5. Pancreas 6. Uterus 2.3 Immunohistochemical localization of hormone receptors in reproductive tissues (Demonstration only) 18"
+              "topics": "2.1 Survey of endocrine glands and reproductive organs in rat 2.2 Preparation of permanent slides of endocrine glands: 1. Pituitary 2. Thyroid 3. Testis 4. Ovary 5. Pancreas 6. Uterus 2.3 Immunohistochemical localization of hormone receptors in reproductive tissues (Demonstration only)"
             },
             {
               "unit": 3,
@@ -1360,7 +1595,7 @@
             },
             {
               "unit": 4,
-              "topics": "Biostatistics (Credit 0.5) 1.1. Presentation of data in the form of pie chart, bar diagrams, Histogram, frequency polygon and cumulative frequency curve. 1.2. Use of chi-square test to analyze biological data. 15"
+              "topics": "Biostatistics (Credit 0.5) 1.1. Presentation of data in the form of pie chart, bar diagrams, Histogram, frequency polygon and cumulative frequency curve. 1.2. Use of chi-square test to analyze biological data."
             }
           ]
         },
@@ -1372,23 +1607,23 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Proteins and Enzymes: Composition and organization 1.1 Amino acids: Ionization, titration curve, pK and pI 1.2 N-terminal analysis: Sanger and Edman’s reactions 1.3 Higher order organization of proteins 1.4 Kinetics (determination of Km and Vmax using Michaelis-Menten and Lineweaver-Burk plots) 1.5 Acid-base and covalent catalysis 1.6 Concept of regulation of enzyme activity 1.6.1 Inhibition 1.6.2 Allosteric regulation 1.6.4 Role of covalent modifications 1.7 Ribozymes and concept of abzymes 15"
+              "topics": "Proteins and Enzymes: Composition and organization 1.1 Amino acids: Ionization, titration curve, pK and pI 1.2 N-terminal analysis: Sanger and Edman’s reactions 1.3 Higher order organization of proteins 1.4 Kinetics (determination of Km and Vmax using Michaelis-Menten and Lineweaver-Burk plots) 1.5 Acid-base and covalent catalysis 1.6 Concept of regulation of enzyme activity 1.6.1 Inhibition 1.6.2 Allosteric regulation 1.6.4 Role of covalent modifications 1.7 Ribozymes and concept of abzymes"
             },
             {
               "unit": 2,
-              "topics": "Carbohydrates 2.1. Polysaccharides 2.1.1 Homopolymers 2.1.2 Heteropolymers (peptidoglycans and glycosaminoglycans) 2.2. Catabolism of carbohydrates and ATP production 2.2.1 Glycolysis 2.2.2 Krebs cycle 2.2.3 Electron transport chain and ATP synthesis 8"
+              "topics": "Carbohydrates 2.1. Polysaccharides 2.1.1 Homopolymers 2.1.2 Heteropolymers (peptidoglycans and glycosaminoglycans) 2.2. Catabolism of carbohydrates and ATP production 2.2.1 Glycolysis 2.2.2 Krebs cycle 2.2.3 Electron transport chain and ATP synthesis"
             },
             {
               "unit": 3,
-              "topics": "Lipids: Structural and functional significance 5"
+              "topics": "Lipids: Structural and functional significance"
             },
             {
               "unit": 4,
-              "topics": "Nucleic acids 4.1 Conformation of DNA (A, B and Z) 4.2 Hoogsteen base pairing-Guanine quadruplex 4.3 Structure of nucleosomes 4.4 Mechanism of DNA replication 4.5 Transcription 4.5.1 Basic mechanism (prokaryotic model) 4.5.2 Transcription initiation complex in eukaryotes 4.5.3 Processing of RNA Pol II Transcript 4.5.4.Mechanism of translation 12"
+              "topics": "Nucleic acids 4.1 Conformation of DNA (A, B and Z) 4.2 Hoogsteen base pairing-Guanine quadruplex 4.3 Structure of nucleosomes 4.4 Mechanism of DNA replication 4.5 Transcription 4.5.1 Basic mechanism (prokaryotic model) 4.5.2 Transcription initiation complex in eukaryotes 4.5.3 Processing of RNA Pol II Transcript 4.5.4.Mechanism of translation"
             },
             {
               "unit": 5,
-              "topics": "Recombinant DNA and Proteins 5.1 Tools: Restriction enzymes, vectors 5.2 Construction of recombinant DNA 5.3 Production of recombinant protein 5.4 Genome editing 5 Texts /"
+              "topics": "Recombinant DNA and Proteins 5.1 Tools: Restriction enzymes, vectors 5.2 Construction of recombinant DNA 5.3 Production of recombinant protein 5.4 Genome editing"
             }
           ]
         },
@@ -1433,19 +1668,19 @@
             },
             {
               "unit": 2,
-              "topics": "2. Histological Techniques 2.1 Fixation and Fixatives 2.2 Tissue processing and Microtomy 2.3 Principle and methods of histological staining 2.3.1 Hematoxylin and eosin 2.4 Principles of immunohistochemistry 7"
+              "topics": "2. Histological Techniques 2.1 Fixation and Fixatives 2.2 Tissue processing and Microtomy 2.3 Principle and methods of histological staining 2.3.1 Hematoxylin and eosin 2.4 Principles of immunohistochemistry"
             },
             {
               "unit": 3,
-              "topics": "3. Cell and tissue culture techniques 3.1 Sterilization: laminar flow, media and glassware 3.2 Types of animal cell culture 3.3 Cell viability testing 3.4 Cryopreservation 8"
+              "topics": "3. Cell and tissue culture techniques 3.1 Sterilization: laminar flow, media and glassware 3.2 Types of animal cell culture 3.3 Cell viability testing 3.4 Cryopreservation"
             },
             {
               "unit": 4,
-              "topics": "4. Separation techniques 4.1 Chromatography: Principle and Applications 4.1.1 Paper chromatography 4.1.2 Thin layer chromatography 4.1.3 Ion exchange chromatography 4.1.4 Gel-filtration chromatography 4.1.5 HPLC 4. 2 Electrophoresis: Principle and applications of 4.2.1 Agarose gel electrophoresis, native and SDS-PAGE 4.2.2 Western blotting 10"
+              "topics": "4. Separation techniques 4.1 Chromatography: Principle and Applications 4.1.1 Paper chromatography 4.1.2 Thin layer chromatography 4.1.3 Ion exchange chromatography 4.1.4 Gel-filtration chromatography 4.1.5 HPLC 4. 2 Electrophoresis: Principle and applications of 4.2.1 Agarose gel electrophoresis, native and SDS-PAGE 4.2.2 Western blotting"
             },
             {
               "unit": 5,
-              "topics": "5. Radiotracer and Immunoassays techniques: Principle and Applications 5.1 Radioactivity: Nature, measurements and safety aspects 5.2 Imunoassaystechniques 5.2.1 RIA 5.2.2 ELISA 5"
+              "topics": "5. Radiotracer and Immunoassays techniques: Principle and Applications 5.1 Radioactivity: Nature, measurements and safety aspects 5.2 Imunoassaystechniques 5.2.1 RIA 5.2.2 ELISA"
             }
           ]
         },
@@ -1461,19 +1696,19 @@
             },
             {
               "unit": 2,
-              "topics": "Axonal and synaptic transmission 2.1 Membrane potential, action potential, transmission of nerve impulse 2.2 Types of synapses 2.3 Excitatory and inhibitory post-synaptic potential 2.4 Chemical transmission, neurotransmitters (acetylcholine, catecholamines, serotonin and GABA), neuropeptides 10"
+              "topics": "Axonal and synaptic transmission 2.1 Membrane potential, action potential, transmission of nerve impulse 2.2 Types of synapses 2.3 Excitatory and inhibitory post-synaptic potential 2.4 Chemical transmission, neurotransmitters (acetylcholine, catecholamines, serotonin and GABA), neuropeptides"
             },
             {
               "unit": 3,
-              "topics": "Learning, memory and Behaviour 3.1 Types and tools 3.2 Molecular mechanisms 3.3 Motivation 3.4 Sleep 10"
+              "topics": "Learning, memory and Behaviour 3.1 Types and tools 3.2 Molecular mechanisms 3.3 Motivation 3.4 Sleep"
             },
             {
               "unit": 4,
-              "topics": "Brain aging 4.1 Structural alterations 4.2 Functional changes 4.3 Neurogenesis and neuroplasticity 4.4 Neurodegeneration and neuroprotection 5"
+              "topics": "Brain aging 4.1 Structural alterations 4.2 Functional changes 4.3 Neurogenesis and neuroplasticity 4.4 Neurodegeneration and neuroprotection"
             },
             {
               "unit": 5,
-              "topics": "Neuropathology and Brain Imaging 5.1 Strokes 5.2 Epilepsy 5.3 Alzheimer disease 5.4 Huntington disease 5.5 Parkinson disease Brain imaging 5.6 CAT 5.7 PET 5.8 MRI 10 Texts /"
+              "topics": "Neuropathology and Brain Imaging 5.1 Strokes 5.2 Epilepsy 5.3 Alzheimer disease 5.4 Huntington disease 5.5 Parkinson disease Brain imaging 5.6 CAT 5.7 PET 5.8 MRI"
             }
           ]
         },
@@ -1489,19 +1724,19 @@
             },
             {
               "unit": 2,
-              "topics": "2. General Features and Characteristics of Rhythms 2.1 Frequency, period, amplitude and phase 2.2 Free running rhythms, phase shifts, phase response curves and phase transition curves 2.3 Photic and non-photic Zeitgebers 2.4 Entrainment: parameter and non-parametric, photic and non-photic mechanisms of photic and non-photic entrainment 8"
+              "topics": "2. General Features and Characteristics of Rhythms 2.1 Frequency, period, amplitude and phase 2.2 Free running rhythms, phase shifts, phase response curves and phase transition curves 2.3 Photic and non-photic Zeitgebers 2.4 Entrainment: parameter and non-parametric, photic and non-photic mechanisms of photic and non-photic entrainment"
             },
             {
               "unit": 3,
-              "topics": "3. Photoperiodism and seasonality 3.1 Ultimate and proximate factors 3.2 Type (I &II) seasonal rhythms 3.3 Models of photoperiodic time measurement and photoperiodic history 3.4 Photoperiodic and seasonal responses in animals 4"
+              "topics": "3. Photoperiodism and seasonality 3.1 Ultimate and proximate factors 3.2 Type (I &II) seasonal rhythms 3.3 Models of photoperiodic time measurement and photoperiodic history 3.4 Photoperiodic and seasonal responses in animals"
             },
             {
               "unit": 4,
-              "topics": "4. Structural and functional organization of the circadian timing system 4.1 Central and peripheral clocks 4.2 Structural and functional anatomy of the suprachiasmatic nucleus (SCN) 4.3 Sensory receptors, pacemakers, afferent and efferent pathways 4.4 Melatonin: a clock input and clock output 4.5 Molecular transcriptional-translational-post-transitional feedback loops in endogenous time generation (fruit flies, birds, and mammals as examples 10"
+              "topics": "4. Structural and functional organization of the circadian timing system 4.1 Central and peripheral clocks 4.2 Structural and functional anatomy of the suprachiasmatic nucleus (SCN) 4.3 Sensory receptors, pacemakers, afferent and efferent pathways 4.4 Melatonin: a clock input and clock output 4.5 Molecular transcriptional-translational-post-transitional feedback loops in endogenous time generation (fruit flies, birds, and mammals as examples"
             },
             {
               "unit": 5,
-              "topics": "5. Chronobiology in health and disease 5.1 Homeostasis and circadian rhythmicity (regulation of body temperature, sleep, and energy expenditure) 5.2 Circadian disruption (Jet lag and shift work) and lifestyle disorders 5.3 Seasonal affective disorders and depression 5.4 Concept of chrono-pharmacology, chrono-medicine, and chronotherapy 5.5 Light pollution, circadian clock, and biodiversity 8 Texts /"
+              "topics": "5. Chronobiology in health and disease 5.1 Homeostasis and circadian rhythmicity (regulation of body temperature, sleep, and energy expenditure) 5.2 Circadian disruption (Jet lag and shift work) and lifestyle disorders 5.3 Seasonal affective disorders and depression 5.4 Concept of chrono-pharmacology, chrono-medicine, and chronotherapy 5.5 Light pollution, circadian clock, and biodiversity"
             }
           ]
         },
@@ -1517,19 +1752,19 @@
             },
             {
               "unit": 2,
-              "topics": "2. Internal anatomy and physiology 2.1 Nervous system 2.2 Endocrine system and functions of hormones 2.3 Circulatory system: heart and haemolymph 2.4 Respiratory system 2.4.1 Aerial respiration 2.4.2 Aquatic respiration 2.5 Digestive system 2.5.1 Structure of gut 2.5.2 Digestion of food 2.6 Excretory system and waste disposal 2.6.1 Malpighian tubules 2.6.2 Nitrogen excretion 2.7 Reproductive system 2.7.1 Female and male reproductive systems 2.8. Spermatogenesis and oogenesis 07"
+              "topics": "2. Internal anatomy and physiology 2.1 Nervous system 2.2 Endocrine system and functions of hormones 2.3 Circulatory system: heart and haemolymph 2.4 Respiratory system 2.4.1 Aerial respiration 2.4.2 Aquatic respiration 2.5 Digestive system 2.5.1 Structure of gut 2.5.2 Digestion of food 2.6 Excretory system and waste disposal 2.6.1 Malpighian tubules 2.6.2 Nitrogen excretion 2.7 Reproductive system 2.7.1 Female and male reproductive systems 2.8. Spermatogenesis and oogenesis"
             },
             {
               "unit": 3,
-              "topics": "3.1. Sensory system 3.1.1. Tactile mechanoreceptors and position receptors 3.1.2. Compound eye 3.2. Sound and light production in insects 3.3. Insects as friends and foes 3.4. General methods of insect pest management 08"
+              "topics": "3.1. Sensory system 3.1.1. Tactile mechanoreceptors and position receptors 3.1.2. Compound eye 3.2. Sound and light production in insects 3.3. Insects as friends and foes 3.4. General methods of insect pest management"
             },
             {
               "unit": 4,
-              "topics": "4.1. Natural history and diversity of fishes 4.2. Exotic, larvivorous and weed fishes 4.3. Venomous and poisonous fishes 4.4. Hill stream and Deep-Sea adaptations in fishes 4.5. Migration in fishes 08"
+              "topics": "4.1. Natural history and diversity of fishes 4.2. Exotic, larvivorous and weed fishes 4.3. Venomous and poisonous fishes 4.4. Hill stream and Deep-Sea adaptations in fishes 4.5. Migration in fishes"
             },
             {
               "unit": 5,
-              "topics": "5.1. Integument – Chromatophores, pigments and scales 5.2. Organs of gas exchange 11"
+              "topics": "5.1. Integument – Chromatophores, pigments and scales 5.2. Organs of gas exchange"
             }
           ]
         },
@@ -1541,15 +1776,15 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Direct spectrophotometric detection of proteins and nucleic acids Verification of laws of spectrophotometry Separation of proteins using SDS-PAGE 10"
+              "topics": "Direct spectrophotometric detection of proteins and nucleic acids Verification of laws of spectrophotometry Separation of proteins using SDS-PAGE"
             },
             {
               "unit": 2,
-              "topics": "Demonstration of DNA gel electrophoresis Demonstration of bright field and phase contrast Demonstration of fluorescence, confocal and electron microscope 10"
+              "topics": "Demonstration of DNA gel electrophoresis Demonstration of bright field and phase contrast Demonstration of fluorescence, confocal and electron microscope"
             },
             {
               "unit": 3,
-              "topics": "Tissue fixation, paraffin block preparation and sectioning Staining of paraffin section using hematoxylin and eosin stain Visit to any tissue culture lab 10 Texts /"
+              "topics": "Tissue fixation, paraffin block preparation and sectioning Staining of paraffin section using hematoxylin and eosin stain Visit to any tissue culture lab"
             }
           ]
         },
@@ -1561,11 +1796,11 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Category of Course Major / Minor / Minor (Vocational) / SEC / AEC / VAC / MD/Internship/Dissertation (Tick any one of the above) PART-A: Neurobiology 1. Studies on action potential and measurement of nerve impulse conduction. 2. Studies on spatial learning and memory in rat/mouse model by Morris-Water/ Radial-Arm Maze Tests. 3. Evaluation of mini-mental status examination. 4. a) External morphology of rat brain b) Staining of neuronal cells 5. Spectrophotometric assay of acetylcholine esterase. 6. Demonstration of Primary culture of neurons 30 698 Course Title"
+              "topics": "Category of Course Major / Minor / Minor (Vocational) / SEC / AEC / VAC / MD/Internship/Dissertation (Tick any one of the above) PART-A: Neurobiology 1. Studies on action potential and measurement of nerve impulse conduction. 2. Studies on spatial learning and memory in rat/mouse model by Morris-Water/ Radial-Arm Maze Tests. 3. Evaluation of mini-mental status examination. 4. a) External morphology of rat brain b) Staining of neuronal cells 5. Spectrophotometric assay of acetylcholine esterase. 6. Demonstration of Primary culture of neurons"
             },
             {
               "unit": 2,
-              "topics": "PART-B: Chronobiology 1. Measurement of circadian locomotor activity rhythm in insects (demonstration). 2. Measurement of circadian locomotor activity rhythm in mice (demonstration). 3. Measurement of Human circadian rhythm using Actiwatch/Wristband. 4. Calculation of period length, phase shifts, and phase angle difference on pre- recorded data. 5. Construction of a Phase response curve using pre-recorded circadian activity rhythm data. 6. Observation of circadian rhythms in crickets. 7. Study of photoperiodic effects on anxiety using Open Field Test/Elevated Plus maze test 8. Study of re-entrainment of circadian activity rhythms of animals on pre-recorded data. 30 Texts /"
+              "topics": "PART-B: Chronobiology 1. Measurement of circadian locomotor activity rhythm in insects (demonstration). 2. Measurement of circadian locomotor activity rhythm in mice (demonstration). 3. Measurement of Human circadian rhythm using Actiwatch/Wristband. 4. Calculation of period length, phase shifts, and phase angle difference on pre- recorded data. 5. Construction of a Phase response curve using pre-recorded circadian activity rhythm data. 6. Observation of circadian rhythms in crickets. 7. Study of photoperiodic effects on anxiety using Open Field Test/Elevated Plus maze test 8. Study of re-entrainment of circadian activity rhythms of animals on pre-recorded data."
             }
           ]
         },
@@ -1577,23 +1812,23 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1.1. Collection and preservation of insects 1.2. Study of the external morphology of insects 01 699 Course Title"
+              "topics": "1.1. Collection and preservation of insects 1.2. Study of the external morphology of insects"
             },
             {
               "unit": 2,
-              "topics": "2.1. Internal anatomy of insects 2.1.1. Alimentary canal 2.1.2. Salivary apparatus: dissection and in-toto preparation 2.2. Dissection of frontal ganglion, brain, retrocerebral endocrine glands and recurrent nerve 2.3. Dissection of prothoracic gland 2.4. Dissection of male and female reproductive systems 03"
+              "topics": "2.1. Internal anatomy of insects 2.1.1. Alimentary canal 2.1.2. Salivary apparatus: dissection and in-toto preparation 2.2. Dissection of frontal ganglion, brain, retrocerebral endocrine glands and recurrent nerve 2.3. Dissection of prothoracic gland 2.4. Dissection of male and female reproductive systems"
             },
             {
               "unit": 3,
-              "topics": "3. Study of external morphology and dissection of sting apparatus of honey bee 01"
+              "topics": "3. Study of external morphology and dissection of sting apparatus of honey bee"
             },
             {
               "unit": 4,
-              "topics": "4.1. Classification of the following locally available fishes using key 4.1.1. Carps: Catla catla; Labeo rohita; Cirrhina mrigala 4.1.2. Catfishes:Heteropneustes fossilis; Clarias batrachus 4.2. Study of museum specimens of fishes having electric organs, venomous organs and air breathing organs 04"
+              "topics": "4.1. Classification of the following locally available fishes using key 4.1.1. Carps: Catla catla; Labeo rohita; Cirrhina mrigala 4.1.2. Catfishes:Heteropneustes fossilis; Clarias batrachus 4.2. Study of museum specimens of fishes having electric organs, venomous organs and air breathing organs"
             },
             {
               "unit": 5,
-              "topics": "5.1. Dissection and display of accessory respiratory organs of 5.1.1. Clarias batrachus 5.1.2. Heteropneustes fossilis 5.2. Mounting of respiratory epithelium of accessory respiratory organs of H. fossilis 5.3. Study of T.S. of gills, accessory respiratory organs and swim bladder from prepared slides 04 Texts /"
+              "topics": "5.1. Dissection and display of accessory respiratory organs of 5.1.1. Clarias batrachus 5.1.2. Heteropneustes fossilis 5.2. Mounting of respiratory epithelium of accessory respiratory organs of H. fossilis 5.3. Study of T.S. of gills, accessory respiratory organs and swim bladder from prepared slides"
             }
           ]
         },
@@ -1605,23 +1840,23 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1. Analytical instruments: Principle and applications& Microscopy 1.1 pH meter 1.2 UV-visible spectrophotometer 1.3 Centrifuge 1.4 Brightfield 1.5 Darkfield 1.6 Polarized and differential interference contrast microscopy 1.7 Atomic force microscopy 1.8 Fluorescence and Confocal 1.9 Scanning and transmission electron microscopes 15 702 Course Title"
+              "topics": "1. Analytical instruments: Principle and applications& Microscopy 1.1 pH meter 1.2 UV-visible spectrophotometer 1.3 Centrifuge 1.4 Brightfield 1.5 Darkfield 1.6 Polarized and differential interference contrast microscopy 1.7 Atomic force microscopy 1.8 Fluorescence and Confocal 1.9 Scanning and transmission electron microscopes"
             },
             {
               "unit": 2,
-              "topics": "2. Histological Techniques 2.1 Fixation and Fixatives 2.2 Tissue processing and Microtomy 2.3 Principle and methods of histological staining 2.3.1 The Haematoxylins and eosin 2.4 Principles of immunohistochemistry 7"
+              "topics": "2. Histological Techniques 2.1 Fixation and Fixatives 2.2 Tissue processing and Microtomy 2.3 Principle and methods of histological staining 2.3.1 The Haematoxylins and eosin 2.4 Principles of immunohistochemistry"
             },
             {
               "unit": 3,
-              "topics": "3. Cell and tissue culture techniques 3.1 Sterilization: laminar flow, media and glassware 3.2 Types of animal cell culture 3.3 Cell viability testing 3.4 Cryopreservation 8"
+              "topics": "3. Cell and tissue culture techniques 3.1 Sterilization: laminar flow, media and glassware 3.2 Types of animal cell culture 3.3 Cell viability testing 3.4 Cryopreservation"
             },
             {
               "unit": 4,
-              "topics": "4. Separation techniques 4.1 Chromatography: Principle and Applications 4.1.1 Paper chromatography 4.1.2 Thin layer chromatography 4.1.3 Ion exchange chromatography 4.1.4 Gel-filtration chromatography 4.1.5 HPLC 4. 2 Electrophoresis: Principle and applications of 4.2.1 Agarose gel electrophoresis, native and SDS-PAGE 4.2.2 Western blotting 10"
+              "topics": "4. Separation techniques 4.1 Chromatography: Principle and Applications 4.1.1 Paper chromatography 4.1.2 Thin layer chromatography 4.1.3 Ion exchange chromatography 4.1.4 Gel-filtration chromatography 4.1.5 HPLC 4. 2 Electrophoresis: Principle and applications of 4.2.1 Agarose gel electrophoresis, native and SDS-PAGE 4.2.2 Western blotting"
             },
             {
               "unit": 5,
-              "topics": "5. Radiotracer and Immunoassaystechniques: Principle and Applications 5.1 Radioactivity: Nature, measurements and safety aspects 5.2 Imunoassaystechniques 5.2.1 RIA 5.2.2 ELISA 5"
+              "topics": "5. Radiotracer and Immunoassaystechniques: Principle and Applications 5.1 Radioactivity: Nature, measurements and safety aspects 5.2 Imunoassaystechniques 5.2.1 RIA 5.2.2 ELISA"
             }
           ]
         },
@@ -1633,15 +1868,15 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Direct spectrophotometric detection of proteins and nucleic acids Verification of laws of spectrophotometry Separation of proteins using SDS-PAGE 10 703 Course Title"
+              "topics": "Direct spectrophotometric detection of proteins and nucleic acids Verification of laws of spectrophotometry Separation of proteins using SDS-PAGE"
             },
             {
               "unit": 2,
-              "topics": "Demonstration of DNA gel electrophoresis Demonstration of bright field and phase contrast Demonstration of fluorescence, confocal and electron microscope 10"
+              "topics": "Demonstration of DNA gel electrophoresis Demonstration of bright field and phase contrast Demonstration of fluorescence, confocal and electron microscope"
             },
             {
               "unit": 3,
-              "topics": "Tissue fixation, paraffin block preparation and sectioning Staining of paraffin section using hematoxylin and eosin stain Visit to any tissue culture lab 10 Texts /"
+              "topics": "Tissue fixation, paraffin block preparation and sectioning Staining of paraffin section using hematoxylin and eosin stain Visit to any tissue culture lab"
             }
           ]
         },
@@ -1653,23 +1888,23 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1. Analytical instruments: Principle and applications& Microscopy 1.1 pH meter 1.2 UV-visible spectrophotometer 1.3 Centrifuge 1.4 Brightfield 1.5 Darkfield 1.6 Polarized and differential interference contrast microscopy 1.7 Atomic force microscopy 1.8 Fluorescence and Confocal 1.9 Scanning and transmission electron microscopes 15 700 Course Title"
+              "topics": "1. Analytical instruments: Principle and applications& Microscopy 1.1 pH meter 1.2 UV-visible spectrophotometer 1.3 Centrifuge 1.4 Brightfield 1.5 Darkfield 1.6 Polarized and differential interference contrast microscopy 1.7 Atomic force microscopy 1.8 Fluorescence and Confocal 1.9 Scanning and transmission electron microscopes"
             },
             {
               "unit": 2,
-              "topics": "2. Histological Techniques 2.1 Fixation and Fixatives 2.2 Tissue processing and Microtomy 2.3 Principle and methods of histological staining 2.3.1 The Haematoxylins and eosin 2.4 Principles of immunohistochemistry 7"
+              "topics": "2. Histological Techniques 2.1 Fixation and Fixatives 2.2 Tissue processing and Microtomy 2.3 Principle and methods of histological staining 2.3.1 The Haematoxylins and eosin 2.4 Principles of immunohistochemistry"
             },
             {
               "unit": 3,
-              "topics": "3. Cell and tissue culture techniques 3.1 Sterilization: laminar flow, media and glassware 3.2 Types of animal cell culture 3.3 Cell viability testing 3.4 Cryopreservation 8"
+              "topics": "3. Cell and tissue culture techniques 3.1 Sterilization: laminar flow, media and glassware 3.2 Types of animal cell culture 3.3 Cell viability testing 3.4 Cryopreservation"
             },
             {
               "unit": 4,
-              "topics": "4. Separation techniques 4.1 Chromatography: Principle and Applications 4.1.1 Paper chromatography 4.1.2 Thin layer chromatography 4.1.3 Ion exchange chromatography 4.1.4 Gel-filtration chromatography 4.1.5 HPLC 4. 2 Electrophoresis: Principle and applications of 4.2.1 Agarose gel electrophoresis, native and SDS-PAGE 4.2.2 Western blotting 10"
+              "topics": "4. Separation techniques 4.1 Chromatography: Principle and Applications 4.1.1 Paper chromatography 4.1.2 Thin layer chromatography 4.1.3 Ion exchange chromatography 4.1.4 Gel-filtration chromatography 4.1.5 HPLC 4. 2 Electrophoresis: Principle and applications of 4.2.1 Agarose gel electrophoresis, native and SDS-PAGE 4.2.2 Western blotting"
             },
             {
               "unit": 5,
-              "topics": "5. Radiotracer and Immunoassaystechniques: Principle and Applications 5.1 Radioactivity: Nature, measurements and safety aspects 5.2 Imunoassaystechniques 5.2.1 RIA 5.2.2 ELISA 5"
+              "topics": "5. Radiotracer and Immunoassaystechniques: Principle and Applications 5.1 Radioactivity: Nature, measurements and safety aspects 5.2 Imunoassaystechniques 5.2.1 RIA 5.2.2 ELISA"
             }
           ]
         },
@@ -1681,15 +1916,15 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Direct spectrophotometric detection of proteins and nucleic acids Verification of laws of spectrophotometry Separation of proteins using SDS-PAGE 10 701 Course Title"
+              "topics": "Direct spectrophotometric detection of proteins and nucleic acids Verification of laws of spectrophotometry Separation of proteins using SDS-PAGE"
             },
             {
               "unit": 2,
-              "topics": "Demonstration of DNA gel electrophoresis Demonstration of bright field and phase contrast Demonstration of fluorescence, confocal and electron microscope 10"
+              "topics": "Demonstration of DNA gel electrophoresis Demonstration of bright field and phase contrast Demonstration of fluorescence, confocal and electron microscope"
             },
             {
               "unit": 3,
-              "topics": "Tissue fixation, paraffin block preparation and sectioning Staining of paraffin section using hematoxylin and eosin stain Visit to any tissue culture lab 10 Texts /"
+              "topics": "Tissue fixation, paraffin block preparation and sectioning Staining of paraffin section using hematoxylin and eosin stain Visit to any tissue culture lab"
             }
           ]
         },
@@ -1701,23 +1936,23 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1. Analytical instruments: Principle and applications& Microscopy 1.1 pH meter 1.2 UV-visible spectrophotometer 1.3 Centrifuge 1.4 Brightfield 1.5 Darkfield 1.6 Polarized and differential interference contrast microscopy 1.7 Atomic force microscopy 1.8 Fluorescence and Confocal 1.9 Scanning and transmission electron microscopes 15 704 Course Title"
+              "topics": "1. Analytical instruments: Principle and applications& Microscopy 1.1 pH meter 1.2 UV-visible spectrophotometer 1.3 Centrifuge 1.4 Brightfield 1.5 Darkfield 1.6 Polarized and differential interference contrast microscopy 1.7 Atomic force microscopy 1.8 Fluorescence and Confocal 1.9 Scanning and transmission electron microscopes"
             },
             {
               "unit": 2,
-              "topics": "2. Histological Techniques 2.1 Fixation and Fixatives 2.2 Tissue processing and Microtomy 2.3 Principle and methods of histological staining 2.3.1 The Haematoxylins and eosin 2.4 Principles of immunohistochemistry 7"
+              "topics": "2. Histological Techniques 2.1 Fixation and Fixatives 2.2 Tissue processing and Microtomy 2.3 Principle and methods of histological staining 2.3.1 The Haematoxylins and eosin 2.4 Principles of immunohistochemistry"
             },
             {
               "unit": 3,
-              "topics": "3. Cell and tissue culture techniques 3.1 Sterilization: laminar flow, media and glassware 3.2 Types of animal cell culture 3.3 Cell viability testing 3.4 Cryopreservation 8"
+              "topics": "3. Cell and tissue culture techniques 3.1 Sterilization: laminar flow, media and glassware 3.2 Types of animal cell culture 3.3 Cell viability testing 3.4 Cryopreservation"
             },
             {
               "unit": 4,
-              "topics": "4. Separation techniques 4.1 Chromatography: Principle and Applications 4.1.1 Paper chromatography 4.1.2 Thin layer chromatography 4.1.3 Ion exchange chromatography 4.1.4 Gel-filtration chromatography 4.1.5 HPLC 4. 2 Electrophoresis: Principle and applications of 4.2.1 Agarose gel electrophoresis, native and SDS-PAGE 4.2.2 Western blotting 10"
+              "topics": "4. Separation techniques 4.1 Chromatography: Principle and Applications 4.1.1 Paper chromatography 4.1.2 Thin layer chromatography 4.1.3 Ion exchange chromatography 4.1.4 Gel-filtration chromatography 4.1.5 HPLC 4. 2 Electrophoresis: Principle and applications of 4.2.1 Agarose gel electrophoresis, native and SDS-PAGE 4.2.2 Western blotting"
             },
             {
               "unit": 5,
-              "topics": "5. Radiotracer and Immunoassaystechniques: Principle and Applications 5.1 Radioactivity: Nature, measurements and safety aspects 5.2 Imunoassaystechniques 5.2.1 RIA 5.2.2 ELISA 5"
+              "topics": "5. Radiotracer and Immunoassaystechniques: Principle and Applications 5.1 Radioactivity: Nature, measurements and safety aspects 5.2 Imunoassaystechniques 5.2.1 RIA 5.2.2 ELISA"
             }
           ]
         },
@@ -1729,15 +1964,15 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Direct spectrophotometric detection of proteins and nucleic acids Verification of laws of spectrophotometry Separation of proteins using SDS-PAGE 10 705 Course Title"
+              "topics": "Direct spectrophotometric detection of proteins and nucleic acids Verification of laws of spectrophotometry Separation of proteins using SDS-PAGE"
             },
             {
               "unit": 2,
-              "topics": "Demonstration of DNA gel electrophoresis Demonstration of bright field and phase contrast Demonstration of fluorescence, confocal and electron microscope 10"
+              "topics": "Demonstration of DNA gel electrophoresis Demonstration of bright field and phase contrast Demonstration of fluorescence, confocal and electron microscope"
             },
             {
               "unit": 3,
-              "topics": "Tissue fixation, paraffin block preparation and sectioning Staining of paraffin section using hematoxylin and eosin stain Visit to any tissue culture lab 10 Texts /"
+              "topics": "Tissue fixation, paraffin block preparation and sectioning Staining of paraffin section using hematoxylin and eosin stain Visit to any tissue culture lab"
             }
           ]
         }

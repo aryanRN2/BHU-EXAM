@@ -14,7 +14,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Elementary Statistics 2"
+              "topics": "Elementary Statistics"
             }
           ]
         },
@@ -26,15 +26,15 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "&II 10"
+              "topics": "&II"
             },
             {
               "unit": 3,
-              "topics": "10"
+              "topics": ""
             },
             {
               "unit": 4,
-              "topics": "10"
+              "topics": ""
             }
           ]
         },
@@ -46,24 +46,33 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Origin of Statistics & its application area, Data and its sources: primary and secondary. Data collection methods: designing a questionnaire and schedule. Scales of measurements. Types of variable: discrete variable, continuous variable, qualitative variable, quantitative variable. Construction and properties of tables. Distribution of variables. Discrete distribution, continuous distribution, cumulative distribution. 10 584 Course Title"
+              "topics": "Origin of Statistics & its application area, Data and its sources: primary and secondary. Data collection methods: designing a questionnaire and schedule. Scales of measurements. Types of variable: discrete variable, continuous variable, qualitative variable, quantitative variable. Construction and properties of tables. Distribution of variables. Discrete distribution, continuous distribution, cumulative distribution."
             },
             {
               "unit": 2,
-              "topics": "Graphical summarization of data: histogram, frequency polygon, frequency curve, ogives, stem-and-leaf plot, box plot, bar chart, multiple bar chart, stack bar plot, pie chart, line chart, diagrammatic and graphical representation of grouped data, frequency and cumulative frequency distribution and their applications. 10"
+              "topics": "Graphical summarization of data: histogram, frequency polygon, frequency curve, ogives, stem-and-leaf plot, box plot, bar chart, multiple bar chart, stack bar plot, pie chart, line chart, diagrammatic and graphical representation of grouped data, frequency and cumulative frequency distribution and their applications."
             },
             {
               "unit": 3,
-              "topics": "Concept of central tendency and its measures, partition values, dispersion and relative dispersion, moments, Sheppard’s correction for moments, skewness, kurtosis and their measures. Bivariate data: Scatter diagram, measurement of covariation, standardized covariation (product moment correlation coefficient) with assumptions and its properties, Spearman's correlation, point biserial correlation, biserial correlation, coefficient of determination. 10"
+              "topics": "Concept of central tendency and its measures, partition values, dispersion and relative dispersion, moments, Sheppard’s correction for moments, skewness, kurtosis and their measures. Bivariate data: Scatter diagram, measurement of covariation, standardized covariation (product moment correlation coefficient) with assumptions and its properties, Spearman's correlation, point biserial correlation, biserial correlation, coefficient of determination."
             },
             {
               "unit": 4,
-              "topics": "Theory of attributes: Independence and Association of attributes, various measures of association for two-way classified data. 5"
+              "topics": "Theory of attributes: Independence and Association of attributes, various measures of association for two-way classified data."
             },
             {
               "unit": 5,
-              "topics": "Regression: purpose and scope, simple linear regression and concept of error, principle of least square and fitting of linear regression. Properties of regression equations, properties of regression coefficients, predicted and residual variances. 10"
+              "topics": "Regression: purpose and scope, simple linear regression and concept of error, principle of least square and fitting of linear regression. Properties of regression equations, properties of regression coefficients, predicted and residual variances."
             }
+          ],
+          "suggested_books": [
+            "Chattamvelli, R., & Shanmugam, R. (2023). Descriptive statistics for scientists and engineers. Springer.",
+            "Holcomb, Z. (2016). Fundamentals of descriptive statistics. Routledge.",
+            "Kore, B. G., & Dixit, P. G. (2022). Descriptive Statistics-I. Nirali Prakashan, Pune.",
+            "Goon A.M., Gupta A.K. and Das Gupta B. (2014): Fundamental of Statistics, Vol. I (5th edition), World Press, Calcutta.",
+            "Mood A.M., Greybill, F.A. and Boes D.C. (1974): Introduction to the Theory of Statistics, McGraw Hill.",
+            "Freund, R. J., & Wilson, W. J. (2003). Statistical Methods, Elsevier.",
+            "Croxton F.E., Cowden D.J. and Karlin S. (1973) Applied General Statistics."
           ]
         },
         {
@@ -74,11 +83,11 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "&II 5"
+              "topics": "&II"
             },
             {
               "unit": 3,
-              "topics": "10"
+              "topics": ""
             },
             {
               "unit": 4,
@@ -94,24 +103,33 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Origin of Statistics & its application area, Data and its sources: primary and secondary. Data collection methods: designing a questionnaire and schedule. Scales of measurements. Types of variable: discrete variable, continuous variable, qualitative variable, quantitative variable. Construction and properties of tables. Distribution of variables. Discrete distribution, continuous distribution, cumulative distribution. 10 585"
+              "topics": "Origin of Statistics & its application area, Data and its sources: primary and secondary. Data collection methods: designing a questionnaire and schedule. Scales of measurements. Types of variable: discrete variable, continuous variable, qualitative variable, quantitative variable. Construction and properties of tables. Distribution of variables. Discrete distribution, continuous distribution, cumulative distribution."
             },
             {
               "unit": 2,
-              "topics": "Graphical summarization of data: histogram, frequency polygon, frequency curve, ogives, stem-and-leaf plot, box plot, bar chart, multiple bar chart, stack bar plot, pie chart, line chart, diagrammatic and graphical representation of grouped data, frequency and cumulative frequency distribution and their applications. 10"
+              "topics": "Graphical summarization of data: histogram, frequency polygon, frequency curve, ogives, stem-and-leaf plot, box plot, bar chart, multiple bar chart, stack bar plot, pie chart, line chart, diagrammatic and graphical representation of grouped data, frequency and cumulative frequency distribution and their applications."
             },
             {
               "unit": 3,
-              "topics": "Concept of central tendency and its measures, partition values, dispersion and relative dispersion, moments, Sheppard’s correction for moments, skewness, kurtosis and their measures. Bivariate data: Scatter diagram, measurement of covariation, standardized covariation (product moment correlation coefficient) with assumptions and its properties, Spearman's correlation, point biserial correlation, biserial correlation, coefficient of determination. 10"
+              "topics": "Concept of central tendency and its measures, partition values, dispersion and relative dispersion, moments, Sheppard’s correction for moments, skewness, kurtosis and their measures. Bivariate data: Scatter diagram, measurement of covariation, standardized covariation (product moment correlation coefficient) with assumptions and its properties, Spearman's correlation, point biserial correlation, biserial correlation, coefficient of determination."
             },
             {
               "unit": 4,
-              "topics": "Theory of attributes: Independence and Association of attributes, various measures of association for two way classified data. 5"
+              "topics": "Theory of attributes: Independence and Association of attributes, various measures of association for two way classified data."
             },
             {
               "unit": 5,
-              "topics": "Regression: purpose and scope, simple linear regression and concept of error, principle of least square and fitting of linear regression. Properties of regression equations, properties of regression coefficients, predicted and residual variances. 10"
+              "topics": "Regression: purpose and scope, simple linear regression and concept of error, principle of least square and fitting of linear regression. Properties of regression equations, properties of regression coefficients, predicted and residual variances."
             }
+          ],
+          "suggested_books": [
+            "Chattamvelli, R., & Shanmugam, R. (2023). Descriptive statistics for scientists and engineers. Springer.",
+            "Holcomb, Z. (2016). Fundamentals of descriptive statistics. Routledge.",
+            "Kore, B. G., & Dixit, P. G. (2022). Descriptive Statistics-I. Nirali Prakashan, Pune.",
+            "Goon A.M., Gupta A.K. and Das Gupta B. (2014): Fundamental of Statistics, Vol. I (5th edition), World Press, Calcutta.",
+            "Mood A.M., Greybill, F.A. and Boes D.C. (1974): Introduction to the Theory of Statistics, McGraw Hill.",
+            "Freund, R. J., & Wilson, W. J. (2003). Statistical Methods, Elsevier.",
+            "Croxton F.E., Cowden D.J. and Karlin S. (1973) Applied General Statistics."
           ]
         },
         {
@@ -122,20 +140,29 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Data Types and Measurement Scales: Understanding different data types (nominal, ordinal, interval, ratio), Identifying appropriate measurement scales for variables, Implications of measurement scales on descriptive statistics. 5"
+              "topics": "Data Types and Measurement Scales: Understanding different data types (nominal, ordinal, interval, ratio), Identifying appropriate measurement scales for variables, Implications of measurement scales on descriptive statistics."
             },
             {
               "unit": 2,
-              "topics": "Data Visualization for Descriptive Statistics: Diagrammatic and Graphical representation of data (bar plots, histograms, box plots), Interpreting visual representations of data distributions, using summary statistics in conjunction with graphs. Introduction to Exploratory Data Analysis (EDA): Overview of EDA and its importance in data analysis, The EDA process and its key components, Understanding the role of EDA in decision- making. 5"
+              "topics": "Data Visualization for Descriptive Statistics: Diagrammatic and Graphical representation of data (bar plots, histograms, box plots), Interpreting visual representations of data distributions, using summary statistics in conjunction with graphs. Introduction to Exploratory Data Analysis (EDA): Overview of EDA and its importance in data analysis, The EDA process and its key components, Understanding the role of EDA in decision- making."
             },
             {
               "unit": 3,
-              "topics": "Measures of Central Tendency: Mean median, and mode, weighted mean and its application, 10"
+              "topics": "Measures of Central Tendency: Mean median, and mode, weighted mean and its application,"
             },
             {
               "unit": 4,
-              "topics": "&V 15 Course TitleSTAMD11:Elementary Statistics Category of Course: MD Credits & Hours of Teaching: Theory Practical Cumulative Credits 2 1 (Total) 30 30 60 Course Objectives: 1. To understand data and its type. 2. To develop idea of graphical representation of data 3. To convert data to single point and its distance 4. To understand bivariate relation Course Content: The course content be divided into minimum 3 Units to maximum 5 units along with defined Hours of teaching for each unit. Units Course Content Hours of Teaching Exploring Relationships and Dependencies: Cross-tabulation and contingency tables, Scatter plots and measures of correlation coefficients (Pearson, Spearman), Interpreting relationships and dependencies between variables. Regression Analysis: Simple and multiple linear regression, interpreting regression coefficients and making predictions 10"
+              "topics": "&V 15 Course TitleSTAMD11:Elementary Statistics Category of Course: MD Credits & Hours of Teaching: Theory Practical Cumulative Credits 2 1 (Total) 30 30 60 Course Objectives: 1. To understand data and its type. 2. To develop idea of graphical representation of data 3. To convert data to single point and its distance 4. To understand bivariate relation Course Content: The course content be divided into minimum 3 Units to maximum 5 units along with defined Hours of teaching for each unit. Units Course Content Hours of Teaching Exploring Relationships and Dependencies: Cross-tabulation and contingency tables, Scatter plots and measures of correlation coefficients (Pearson, Spearman), Interpreting relationships and dependencies between variables. Regression Analysis: Simple and multiple linear regression, interpreting regression coefficients and making predictions"
             }
+          ],
+          "suggested_books": [
+            "Chattamvelli, R., & Shanmugam, R. (2023). Descriptive statistics for scientists and engineers. Springer.",
+            "Holcomb, Z. (2016). Fundamentals of descriptive statistics. Routledge.",
+            "Kore, B. G., & Dixit, P. G. (2022). Descriptive Statistics-I. Nirali Prakashan, Pune.",
+            "Goon A.M., Gupta A.K. and Das Gupta B. (2014): Fundamental of Statistics, Vol. I (5th edition), World Press, Calcutta.",
+            "Mood A.M., Greybill, F.A. and Boes D.C. (1974): Introduction to the Theory of Statistics, McGraw Hill.",
+            "Freund, R. J., & Wilson, W. J. (2003). Statistical Methods, Elsevier.",
+            "Croxton F.E., Cowden D.J. and Karlin S. (1973) Applied General Statistics."
           ]
         },
         {
@@ -146,16 +173,21 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1 2 (Total) 15 60 75 Course Objectives: 1. To understand basics of EXCEL and their functions. 2. To know about data mining, including data importation and organization of data. 3. To understand the statistical analysis using EXCEL. How to use variables; enter data, copy and paste cells, and format text in Excel. Auto sum, fill, sort, filter, find, replace, and conditional formatting functions to your data. Create tables and pivot tables for data handling. Manipulate data with new variables, if statements, and other operators. Use freeze and name functions for data analysis. 5"
+              "topics": "1 2 (Total) 15 60 75 Course Objectives: 1. To understand basics of EXCEL and their functions. 2. To know about data mining, including data importation and organization of data. 3. To understand the statistical analysis using EXCEL. How to use variables; enter data, copy and paste cells, and format text in Excel. Auto sum, fill, sort, filter, find, replace, and conditional formatting functions to your data. Create tables and pivot tables for data handling. Manipulate data with new variables, if statements, and other operators. Use freeze and name functions for data analysis."
             },
             {
               "unit": 2,
-              "topics": "Create frequency distributions and graphs for your data. Decorate and export your graphs to other applications. Compute descriptive statistics, correlation, regression, and probability with Excel functions. Interpret the results for decision making. 5"
+              "topics": "Create frequency distributions and graphs for your data. Decorate and export your graphs to other applications. Compute descriptive statistics, correlation, regression, and probability with Excel functions. Interpret the results for decision making."
             },
             {
               "unit": 3,
               "topics": "Test hypotheses with t tests, chi-square tests, ANOVA, and other methods. Rank and calculate percentiles for your data. Import and export data from different sources to Excel. Link and consolidate data"
             }
+          ],
+          "suggested_books": [
+            "Bill Jelen, and Michael Alexander (2021): Microsoft Excel 2019 Pivot Table Data Crunching (Business Skills), Microsoft Publication.",
+            "Wayne L. Winston (2014): Marketing Analytics: Data-Driven Techniques with Microsoft Excel 1st Edition, Wiley Publication.",
+            "Gordon S. Linoff(2015): Data Analysis Using SQL and Excel 2nd Edition, Wiley Publication."
           ]
         },
         {
@@ -166,11 +198,11 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "20"
+              "topics": ""
             },
             {
               "unit": 2,
-              "topics": "20"
+              "topics": ""
             },
             {
               "unit": 3,
@@ -195,16 +227,22 @@
             },
             {
               "unit": 2,
-              "topics": "Statistical Inference-Estimation; Point estimation and interval estimation, Confidence intervals for population parameters, Sample size determination for estimation. 5"
+              "topics": "Statistical Inference-Estimation; Point estimation and interval estimation, Confidence intervals for population parameters, Sample size determination for estimation."
             },
             {
               "unit": 3,
-              "topics": "Hypothesis Testing: Introduction to hypothesis testing, Z-test, One-sample and two-sample t- tests, Categorical Data Analysis: Chi-square test of independence of attributes, Chi-square test of goodness-of-fit, Chi-square test for contingency tables, Log-linear models for categorical data analysis, Interpreting and reporting results for categorical data. 10"
+              "topics": "Hypothesis Testing: Introduction to hypothesis testing, Z-test, One-sample and two-sample t- tests, Categorical Data Analysis: Chi-square test of independence of attributes, Chi-square test of goodness-of-fit, Chi-square test for contingency tables, Log-linear models for categorical data analysis, Interpreting and reporting results for categorical data."
             },
             {
               "unit": 4,
-              "topics": "Nonparametric Methods: Wilcoxon signed-rank test, Mann-Whitney U test, Kruskal-Wallis test, Interpreting nonparametric test results. 5"
+              "topics": "Nonparametric Methods: Wilcoxon signed-rank test, Mann-Whitney U test, Kruskal-Wallis test, Interpreting nonparametric test results."
             }
+          ],
+          "suggested_books": [
+            "Cheryl Ann Willard, Statistical Methods, (2020): An Introduction to Basic Statistical Concepts and Analysis, Taylor and Francis Group, 2020.",
+            "Goon A.M., Gupta A.K. and Das Gupta B. (1999): Fundamental of Statistics, Vol. I, World Press, Calcutta.",
+            "Mood A.M., Greybill, F.A. and Bose D.C. (1974): Introduction to the Theory of Statistics, McGraw Hill.",
+            "Goon A.M., Gupta A.K. and Das Gupta B. (1999): Fundamental of Statistics, Vol. II, World Press, Calcutta."
           ]
         },
         {
@@ -215,15 +253,15 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "4"
+              "topics": ""
             },
             {
               "unit": 2,
-              "topics": "&III 20"
+              "topics": "&III"
             },
             {
               "unit": 4,
-              "topics": "6"
+              "topics": ""
             }
           ]
         },
@@ -235,24 +273,38 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Review of combinatorial analysis. Random experiment: Trial, sample point, sample space, elementary events, events, equally likely, disjoint events, mutually exclusive events and exhaustive events. Classical and relative frequency approach to probability, axiomatic approach to probability, merits and demerits of these approaches, properties of probability. Conditional probability and independence, total and compound probability theorems, partition of sample 15 589 Course Title"
+              "topics": "Review of combinatorial analysis. Random experiment: Trial, sample point, sample space, elementary events, events, equally likely, disjoint events, mutually exclusive events and exhaustive events. Classical and relative frequency approach to probability, axiomatic approach to probability, merits and demerits of these approaches, properties of probability. Conditional probability and independence, total and compound probability theorems, partition of sample"
             },
             {
               "unit": 2,
-              "topics": "Random Variable: Concept of discrete random variable, distribution function, probability mass function, joint probability mass function of several discrete random variables, marginal and conditional probability mass functions. Continuous random variable, probability density function, joint density function of two continuous variables, marginal and conditional probability density functions. 10"
+              "topics": "Random Variable: Concept of discrete random variable, distribution function, probability mass function, joint probability mass function of several discrete random variables, marginal and conditional probability mass functions. Continuous random variable, probability density function, joint density function of two continuous variables, marginal and conditional probability density functions."
             },
             {
               "unit": 3,
-              "topics": "Expectation of random variables and its properties, conditional expectation, moments in terms of expectation, conditional expectations. 5"
+              "topics": "Expectation of random variables and its properties, conditional expectation, moments in terms of expectation, conditional expectations."
             },
             {
               "unit": 4,
-              "topics": "Moments and cumulants, moment generating function, cumulant generating function, probability generating functions, Probability inequalities (Markov’s and Chebychev’s). 10"
+              "topics": "Moments and cumulants, moment generating function, cumulant generating function, probability generating functions, Probability inequalities (Markov’s and Chebychev’s)."
             },
             {
               "unit": 5,
-              "topics": "Basic idea and properties of some theoretical probability distributions: Binomial, Poisson and Normal distributions. 5"
+              "topics": "Basic idea and properties of some theoretical probability distributions: Binomial, Poisson and Normal distributions."
             }
+          ],
+          "suggested_books": [
+            "Ross, S. M. (2010). A first course in probability (Vol. 2). New York: Macmillan.8th edition",
+            "Feller, W. (1991). An introduction to probability theory and its applications, Volume 2. John Wiley & Sons.",
+            "Bhat B.R., Srivenkataramana T. and Rao Madhava K.S. (1996): Statistics, A Beginner's Text, Vol. I and II, New Age International (P) Ltd.",
+            "Snedecor's G.W. and Cochran W.G. (1989): Statistical Methods, Iowa State University Press. 8th edition",
+            "Mood A.M., Greybill F.A. and Bose D.C. (2017): Introduction to the Theory of Statistics, McGraw Hill. 3rd edition",
+            "Spiegel M.R. (1992): Theory and problem of Statistics, Schaum's Publishing Series.2nd edition",
+            "Goon A.M., Gupta M.K. and Das Gupta B. (2013): Fundamental of Statistics, Vol. I, World Press, Calcutta",
+            "Meyer P.L. (1970): Introductory Probability and Statistical Applications, Addision Wesley. 2nd edition",
+            "Parzen E. (1992): Modern Probability Theory and its Applications, Wiley Eastern.",
+            "Hogg R.V. and Craig A.T. (2019): Introduction to mathematical Statistics, Amerind Publishing Co. 8th edition",
+            "Hoel P.G. (1984): Introduction to Mathematical Statistics, Asia Publication. 5th edition",
+            "Rohtagi, V.K. (2015) An Introduction to Probability Theory and Mathematical Statistics, John Wiley and Sons. 3rd edition."
           ]
         },
         {
@@ -263,15 +315,15 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "&II 10"
+              "topics": "&II"
             },
             {
               "unit": 3,
-              "topics": "6"
+              "topics": ""
             },
             {
               "unit": 4,
-              "topics": "&V 14"
+              "topics": "&V"
             }
           ]
         },
@@ -283,24 +335,38 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Review of combinatorial analysis. Random experiment: Trial, sample point, sample space, elementary events, events, equally likely, disjoint events, mutually exclusive events and exhaustive events. Classical and relative frequency approach to probability, axiomatic approach to probability, merits and demerits of these approaches, properties of probability. Conditional probability and independence, total and compound probability theorems, partition of sample space, Bayes theorem and its applications 15 590"
+              "topics": "Review of combinatorial analysis. Random experiment: Trial, sample point, sample space, elementary events, events, equally likely, disjoint events, mutually exclusive events and exhaustive events. Classical and relative frequency approach to probability, axiomatic approach to probability, merits and demerits of these approaches, properties of probability. Conditional probability and independence, total and compound probability theorems, partition of sample space, Bayes theorem and its applications"
             },
             {
               "unit": 2,
-              "topics": "Random Variable: Concept of discrete random variable, distribution function, probability mass function, joint probability mass function of several discrete random variables, marginal and conditional probability mass functions. Continuous random variable, probability density function, joint density function of two continuous variables, marginal and conditional probability density functions. 10"
+              "topics": "Random Variable: Concept of discrete random variable, distribution function, probability mass function, joint probability mass function of several discrete random variables, marginal and conditional probability mass functions. Continuous random variable, probability density function, joint density function of two continuous variables, marginal and conditional probability density functions."
             },
             {
               "unit": 3,
-              "topics": "Expectation of random variables and its properties, conditional expectation, moments in terms of expectation, conditional expectations. 5"
+              "topics": "Expectation of random variables and its properties, conditional expectation, moments in terms of expectation, conditional expectations."
             },
             {
               "unit": 4,
-              "topics": "Moments and cumulants, moment generating function, cumulant generating function, probability generating functions, Probability inequalities (Markov’s and Chebychev’s). 10"
+              "topics": "Moments and cumulants, moment generating function, cumulant generating function, probability generating functions, Probability inequalities (Markov’s and Chebychev’s)."
             },
             {
               "unit": 5,
-              "topics": "Basic idea and properties of some theoretical probability distributions: Binomial, Poisson and Normal distributions. 5"
+              "topics": "Basic idea and properties of some theoretical probability distributions: Binomial, Poisson and Normal distributions."
             }
+          ],
+          "suggested_books": [
+            "Ross, S. M. (2010). A first course in probability (Vol. 2). New York: Macmillan.8th edition",
+            "Feller, W. (1991). An introduction to probability theory and its applications, Volume 2. John Wiley & Sons.",
+            "Bhat B.R., Srivenkataramana T. and Rao Madhava K.S. (1996): Statistics, A Beginner's Text, Vol. I and II, New Age International (P) Ltd.",
+            "Snedecor's G.W. and Cochran W.G. (1989): Statistical Methods, Iowa State University Press. 8th edition",
+            "Mood A.M., Greybill F.A. and Bose D.C. (2017): Introduction to the Theory of Statistics, McGraw Hill. 3rd edition",
+            "Spiegel M.R. (1992): Theory and problem of Statistics, Schaum's Publishing Series.2nd edition",
+            "Goon A.M., Gupta M.K. and Das Gupta B. (2013): Fundamental of Statistics, Vol. I, World Press, Calcutta",
+            "Meyer P.L. (1970): Introductory Probability and Statistical Applications, Addision Wesley. 2nd edition",
+            "Parzen E. (1992): Modern Probability Theory and its Applications, Wiley Eastern.",
+            "Hogg R.V. and Craig A.T. (2019): Introduction to mathematical Statistics, Amerind Publishing Co. 8th edition",
+            "Hoel P.G. (1984): Introduction to Mathematical Statistics, Asia Publication. 5th edition",
+            "Rohtagi, V.K. (2015) An Introduction to Probability Theory and Mathematical Statistics, John Wiley and Sons. 3rd edition."
           ]
         },
         {
@@ -311,15 +377,15 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "&II 10"
+              "topics": "&II"
             },
             {
               "unit": 3,
-              "topics": "6"
+              "topics": ""
             },
             {
               "unit": 4,
-              "topics": "&V 14"
+              "topics": "&V"
             }
           ]
         },
@@ -331,16 +397,24 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "How to use SPSS interface, terms, and data formats? Import and export data from different sources. Navigate data editor and variable view. Data types and measurement levels. Data Entry and Manipulation, Recode and transform variables. Merge and append datasets. Descriptive Statistics: central tendency, variability, etc. Frequency distributions and histograms. Cross-tabulate variables and make contingency tables. Function for descriptive analysis. 5 592"
+              "topics": "How to use SPSS interface, terms, and data formats? Import and export data from different sources. Navigate data editor and variable view. Data types and measurement levels. Data Entry and Manipulation, Recode and transform variables. Merge and append datasets. Descriptive Statistics: central tendency, variability, etc. Frequency distributions and histograms. Cross-tabulate variables and make contingency tables. Function for descriptive analysis."
             },
             {
               "unit": 2,
-              "topics": "Data Visualization: Create and customize charts and graphs. Add data labels and annotations. Export charts and graphs from SPSS. Transform variables (standardize, normalize, etc.). Create new variables in SPSS. Compute and recode variables. Run frequency analysis and descriptive statistics on specific variables. 5"
+              "topics": "Data Visualization: Create and customize charts and graphs. Add data labels and annotations. Export charts and graphs from SPSS. Transform variables (standardize, normalize, etc.). Create new variables in SPSS. Compute and recode variables. Run frequency analysis and descriptive statistics on specific variables."
             },
             {
               "unit": 3,
-              "topics": "Parametric Tests: Independent and paired t-tests, one-way ANOVA, etc. Nonparametric Tests: chi-square test, Mann-Whitney U test, Wilcoxon signed-rank test, Kruskal-Wallis test, etc. Correlation and Regression: Pearson’s and Spearman’s correlation coefficients, simple and multiple linear regression analysis. Check assumptions and interpret results of regression analysis. Generate scatter plots and regression output. 5"
+              "topics": "Parametric Tests: Independent and paired t-tests, one-way ANOVA, etc. Nonparametric Tests: chi-square test, Mann-Whitney U test, Wilcoxon signed-rank test, Kruskal-Wallis test, etc. Correlation and Regression: Pearson’s and Spearman’s correlation coefficients, simple and multiple linear regression analysis. Check assumptions and interpret results of regression analysis. Generate scatter plots and regression output."
             }
+          ],
+          "suggested_books": [
+            "Kenneth Stehlik-Barry, Anthony J. Babinec (2017): Data Analysis with IBM SPSS Statistics, Packt Publishing.",
+            "Andy Field (2020): Discovering Statistics Using IBM SPSS Statistics, Sage Publication Ltd.",
+            "Julie Pallant (2013): SPSS Survival Manual: A Step by Step Guide to Data Analysis Using IBM SPSS 5th Edition.",
+            "George, D., & Mallery, P. (2019). IBM SPSS statistics 26 step by step: A simple guide and reference. Routledge.",
+            "Leech, N. L., Barrett, K. C., & Morgan, G. A. (2014). IBM SPSS for intermediate statistics: Use and interpretation. Routledge.",
+            "Cleophas, T. J., &Zwinderman, A. H. (2016). SPSS for Starters and 2nd Levelers (pp. 35-40). Cham, Switzerland: Springer."
           ]
         },
         {
@@ -351,11 +425,11 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "30"
+              "topics": ""
             },
             {
               "unit": 2,
-              "topics": "20"
+              "topics": ""
             },
             {
               "unit": 3,
@@ -376,20 +450,28 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Concept of population and sample, need for sampling, complete enumeration versus sampling. Basic concepts in sampling, sampling and Non-sampling errors. 5 596 Course Title"
+              "topics": "Concept of population and sample, need for sampling, complete enumeration versus sampling. Basic concepts in sampling, sampling and Non-sampling errors."
             },
             {
               "unit": 2,
-              "topics": "Concept of probability and non-probability sampling and their applications: Simple random sampling with and without replacement, Stratified random sampling, proportional and optimum allocation, Systematic sampling (when population size (N) is an integer multiple of sampling size (n)). 10"
+              "topics": "Concept of probability and non-probability sampling and their applications: Simple random sampling with and without replacement, Stratified random sampling, proportional and optimum allocation, Systematic sampling (when population size (N) is an integer multiple of sampling size (n))."
             },
             {
               "unit": 3,
-              "topics": "Analysis of Variance (ANOVA); One-way ANOVA and post hoc tests, Two-way ANOVA, Assumptions and limitations of ANOVA, Interpreting ANOVA results and performing follow-up analyses. 5"
+              "topics": "Analysis of Variance (ANOVA); One-way ANOVA and post hoc tests, Two-way ANOVA, Assumptions and limitations of ANOVA, Interpreting ANOVA results and performing follow-up analyses."
             },
             {
               "unit": 4,
-              "topics": "Experimental Design: Principles of experimental design, Completely Randomized Design (CRD), and Randomized Block Design (RBD). Randomized controlled trials, Factorial designs and interaction effects, interpreting experimental design results. 10"
+              "topics": "Experimental Design: Principles of experimental design, Completely Randomized Design (CRD), and Randomized Block Design (RBD). Randomized controlled trials, Factorial designs and interaction effects, interpreting experimental design results."
             }
+          ],
+          "suggested_books": [
+            "Cochran, W. G. (1977). Sampling Techniques (3rd ed.). John Wiley and Sons, New York.",
+            "Sukhatme, P. V., Sukhatme, B. V., Sukhatme, S., & Asok, C. (1998). Sampling Theory of Surveys with Applications (4th ed.). Indian Society of Agricultural Statistics, New Delhi.",
+            "Goon, A. M., Gupta, M. K., & Das Gupta, B. (2014). Fundamentals of Statistics, Vol. II (5th ed.). World Press, Calcutta.",
+            "Lohr, S. L. (2021). Sampling: Design and Analysis (3rd ed.). Brooks/Cole, Cengage Learning.",
+            "Lehtonen, R., &Veijanen, A. (2012). Survey Sampling: Theory and Methods. Springer.",
+            "Dean, A., & Voss, D. (2023). Design and Analysis of Experiments (7th ed.). Springer."
           ]
         },
         {
@@ -400,19 +482,19 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "6"
+              "topics": ""
             },
             {
               "unit": 2,
-              "topics": "6"
+              "topics": ""
             },
             {
               "unit": 3,
-              "topics": "8"
+              "topics": ""
             },
             {
               "unit": 4,
-              "topics": "10"
+              "topics": ""
             }
           ]
         },
@@ -424,24 +506,34 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Standard discrete and continuous distributions: binomial, Poisson, geometric, negative binomial, hypergeometric, uniform, normal, beta, exponential, and gamma distributions. 15 593"
+              "topics": "Standard discrete and continuous distributions: binomial, Poisson, geometric, negative binomial, hypergeometric, uniform, normal, beta, exponential, and gamma distributions."
             },
             {
               "unit": 2,
-              "topics": "Moment generating function, probability generating function of above distributions, bivariate normal distributions with properties and their applications. Additive property and applications of above distributions 10"
+              "topics": "Moment generating function, probability generating function of above distributions, bivariate normal distributions with properties and their applications. Additive property and applications of above distributions"
             },
             {
               "unit": 3,
-              "topics": "Distribution of function of univariate and bivariate random variables using moment generating function, distribution function and linear transformation method. 5"
+              "topics": "Distribution of function of univariate and bivariate random variables using moment generating function, distribution function and linear transformation method."
             },
             {
               "unit": 4,
-              "topics": "Correlation and Regression of bivariate continuous random variables. Regression functions and their properties 10"
+              "topics": "Correlation and Regression of bivariate continuous random variables. Regression functions and their properties"
             },
             {
               "unit": 5,
-              "topics": "Bivariate normal distribution: Marginal distribution, conditional distribution and simple problems based on bivariate normal distribution. 5"
+              "topics": "Bivariate normal distribution: Marginal distribution, conditional distribution and simple problems based on bivariate normal distribution."
             }
+          ],
+          "suggested_books": [
+            "Mukhopadhyay, P. (1996): Mathematical Statistics, New Central Book Agency.",
+            "Hoel P.G. (1971): Introduction to Mathematical Statistics, Asia Publishing House.",
+            "Goon A.M., Gupta A.K. and Das Gupta B. (2014): Fundamental of Statistics, Vol. I (5th edition), World Press, Calcutta.",
+            "Mood A.M., Greybill, F.A. and Boes D.C. (1974): Introduction to the Theory of Statistics, McGraw Hill.",
+            "Forbes, C., Evans, M., Hastings, N., & Peacock, B. (2011). Statistical distributions (1st ed.). John Wiley & Sons.",
+            "Hogg, R. V., McKean, J. W., & Craig, A. T. (2021). Introduction to mathematical statistics (8th ed.). Pearson Education India.",
+            "Feller, W., & Morse, P. M. (1958). An introduction to probability theory and its applications.",
+            "Rohatgi, V.K. and Saleh, A.K.M.E. (2001): An Introduction to Probability and Statistics, Second Edition, John Wiley & Sons."
           ]
         },
         {
@@ -452,16 +544,24 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Concept of population and their types, simple random sample from a distribution, statistic and its sampling distribution, standard error, Construction of sampling distribution of statistic; derivation of distribution of sample mean, sample variance and sample proportions 15 594 Course Title"
+              "topics": "Concept of population and their types, simple random sample from a distribution, statistic and its sampling distribution, standard error, Construction of sampling distribution of statistic; derivation of distribution of sample mean, sample variance and sample proportions"
             },
             {
               "unit": 2,
-              "topics": "Derivation of some more sampling distributions viz. Chi-square distribution, t-distribution, F-distribution, Z-distribution and their properties with applications. 15"
+              "topics": "Derivation of some more sampling distributions viz. Chi-square distribution, t-distribution, F-distribution, Z-distribution and their properties with applications."
             },
             {
               "unit": 3,
-              "topics": "Order statistics: Definition and distributions of different order statistics viz. smallest, largest, rth etc. Joint distribution of order statistics and distribution of Range and median along with their applications. 15"
+              "topics": "Order statistics: Definition and distributions of different order statistics viz. smallest, largest, rth etc. Joint distribution of order statistics and distribution of Range and median along with their applications."
             }
+          ],
+          "suggested_books": [
+            "B Mood A.M., Greybill F.A. and Bose D.C. (1974): Introduction to the Theory of Statistics, McGraw Hill.",
+            "Freund J.E. (2001) : Mathematical Statistics, Prentice hall of India.",
+            "Hoges J.L. and Lehmann E.L. (1964): Basic Concepts of Probability and Statistics, Holden Day.",
+            "Snedecor G.W. and Cochran W.G. (1989): Statistical Methods, 8th edition, Iowa State University Press.",
+            "Mukhopadhyay P. (1996): Mathematical Statistics, NCBA.",
+            "Wackerly, D. D., Mendenhall III, W., & Scheaffer, R. L. (2014). Mathematical Statistics with Applications (8th ed.). Duxbury Press."
           ]
         },
         {
@@ -472,7 +572,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "2"
+              "topics": ""
             }
           ]
         },
@@ -484,20 +584,26 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Statistical approach of probability. Conditional probability and its application based on data. Idea of probability distributions viz Bernoulli, Binomial, Poisson, Geometric, negative binomial normal, uniform and other continuous distributions and their properties. 15"
+              "topics": "Statistical approach of probability. Conditional probability and its application based on data. Idea of probability distributions viz Bernoulli, Binomial, Poisson, Geometric, negative binomial normal, uniform and other continuous distributions and their properties."
             },
             {
               "unit": 2,
-              "topics": "Fitting of distributions on random data sets. Basic idea of inference. Population, Sample, parameter, estimator, estimate, methods of estimation. Probability distribution of functions of sample data. Concept of sampling distribution. 10"
+              "topics": "Fitting of distributions on random data sets. Basic idea of inference. Population, Sample, parameter, estimator, estimate, methods of estimation. Probability distribution of functions of sample data. Concept of sampling distribution."
             },
             {
               "unit": 3,
-              "topics": "Idea of central limit theorem and introduction to hypothesis testing and construction of confidence intervals. Confusion matrix and types of errors in hypothesis testing. Level of significance, critical region. 10"
+              "topics": "Idea of central limit theorem and introduction to hypothesis testing and construction of confidence intervals. Confusion matrix and types of errors in hypothesis testing. Level of significance, critical region."
             },
             {
               "unit": 4,
-              "topics": "Idea of small and large sample tests. Data based application of Z test, t test, paired t test, chi square test, Idea of transition probability Advanced 10"
+              "topics": "Idea of small and large sample tests. Data based application of Z test, t test, paired t test, chi square test, Idea of transition probability Advanced"
             }
+          ],
+          "suggested_books": [
+            "David Spiegelhalter (2020). Art of Statistics, Learning from data. A Pelican Book.",
+            "Debra A. Perkowski, Michael Perkowski, UMO University of Missouri, (2006). Data and Probability Connections. Pearson Publication.",
+            "Wackerly, D. D., Mendenhall III, W., & Scheaffer, R. L. (2007). Mathematical Statistics with Applications (7th ed.). Duxbury Press.",
+            "Hogg, R. V., McKean, J. W., & Craig, A. T. (2012). Introduction to Mathematical Statistics (7th ed.). Pearson Education."
           ]
         },
         {
@@ -508,19 +614,19 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "4 595"
+              "topics": ""
             },
             {
               "unit": 2,
-              "topics": "10"
+              "topics": ""
             },
             {
               "unit": 3,
-              "topics": "6"
+              "topics": ""
             },
             {
               "unit": 4,
-              "topics": "10"
+              "topics": ""
             }
           ]
         },
@@ -532,16 +638,22 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Introduction to R: Overview of R and its uses in data analysis, Installing R and R Studio, Introduction to R packages. Basic R syntax and data structures: Using R as a calculator: arithmetic operations, vectors and matrices, data frames for tabular data, indexing and subsetting data structures. Data manipulation: selecting columns and filtering rows, sorting data, adding and modifying variables, summarizing data with basic descriptive statistics. 5 597 Course Title"
+              "topics": "Introduction to R: Overview of R and its uses in data analysis, Installing R and R Studio, Introduction to R packages. Basic R syntax and data structures: Using R as a calculator: arithmetic operations, vectors and matrices, data frames for tabular data, indexing and subsetting data structures. Data manipulation: selecting columns and filtering rows, sorting data, adding and modifying variables, summarizing data with basic descriptive statistics."
             },
             {
               "unit": 2,
-              "topics": "Data import and export: reading data from csv and excel files, exporting data to different formats, handling missing values during data import. Data visualization: Basic plots (scatter plots, bar plots, line plots), customizing plot aesthetics (labels, titles, colors), adding multiple plots on one canvas. Control structures and functions: conditional statements (if-else), loops (for, while). 5"
+              "topics": "Data import and export: reading data from csv and excel files, exporting data to different formats, handling missing values during data import. Data visualization: Basic plots (scatter plots, bar plots, line plots), customizing plot aesthetics (labels, titles, colors), adding multiple plots on one canvas. Control structures and functions: conditional statements (if-else), loops (for, while)."
             },
             {
               "unit": 3,
-              "topics": "Writing and using functions: Applying functions to data, basic statistical analysis, descriptive statistics (mean, median, standard deviation), hypothesis tests (t-tests, chi-square tests), correlation analysis, basic regression models. 5"
+              "topics": "Writing and using functions: Applying functions to data, basic statistical analysis, descriptive statistics (mean, median, standard deviation), hypothesis tests (t-tests, chi-square tests), correlation analysis, basic regression models."
             }
+          ],
+          "suggested_books": [
+            "John Chambers, Software for Data Analysis: Programming with R, Springer, 2008.",
+            "Phil Spector, Data Manipulation with R, Springer, 2008.",
+            "Hadley Wickham, Advanced R, Chapman & Hall/CRC The R Series, 2014",
+            "W.H. Press, S.A. Teukolsky, W.T. Vellering and B.P. Flannery, Numerical Recipes in C, Second edition, Cambridge University Press, 1993."
           ]
         },
         {
@@ -552,11 +664,11 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "20"
+              "topics": ""
             },
             {
               "unit": 2,
-              "topics": "20"
+              "topics": ""
             },
             {
               "unit": 3,
@@ -577,24 +689,37 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Elementary idea of point estimation of parameters, properties of good estimator: unbiasedness, consistency, efficiency, & sufficiency with simple illustrative examples. Idea of Confidence interval estimation 10 598"
+              "topics": "Elementary idea of point estimation of parameters, properties of good estimator: unbiasedness, consistency, efficiency, & sufficiency with simple illustrative examples. Idea of Confidence interval estimation"
             },
             {
               "unit": 2,
-              "topics": "Concepts of statistical hypotheses: null and alternative hypothesis, critical region, two types of errors, level of significance, p-value and power of a test. One and two tailed tests. Statement of Law of Large Numbers and Central Limit Theorem. 10"
+              "topics": "Concepts of statistical hypotheses: null and alternative hypothesis, critical region, two types of errors, level of significance, p-value and power of a test. One and two tailed tests. Statement of Law of Large Numbers and Central Limit Theorem."
             },
             {
               "unit": 3,
-              "topics": "Small Sample tests: t-test for single Mean, difference of Means and Paired t-test. chi-square test for Goodness of fit and independence of attributes. F-test for Equality of variances. 10"
+              "topics": "Small Sample tests: t-test for single Mean, difference of Means and Paired t-test. chi-square test for Goodness of fit and independence of attributes. F-test for Equality of variances."
             },
             {
               "unit": 4,
-              "topics": "Large sample Tests: Large sample tests for single mean and difference of two means. Confidence intervals for mean(s). Large sample test for single proportion, difference of proportions, Standard deviation(s) and Correlation coefficient(s). 10"
+              "topics": "Large sample Tests: Large sample tests for single mean and difference of two means. Confidence intervals for mean(s). Large sample test for single proportion, difference of proportions, Standard deviation(s) and Correlation coefficient(s)."
             },
             {
               "unit": 5,
-              "topics": "Non-parametric tests- Definition, advantages and disadvantages, Sign, Run, Median tests, Spearman's rank correlation test, Wilcoxon Mann-Whitney test, Kolmogorov Smirnov - one sample and two sample tests. 5"
+              "topics": "Non-parametric tests- Definition, advantages and disadvantages, Sign, Run, Median tests, Spearman's rank correlation test, Wilcoxon Mann-Whitney test, Kolmogorov Smirnov - one sample and two sample tests."
             }
+          ],
+          "suggested_books": [
+            "Mood A.M., Greybill F.A. and Boes D.C. (1974) : Introduction to the Theory of Statistics, McGraw Hill.",
+            "Freund J.E. (2001) : Mathematical Statistics, Prentice hall of India.",
+            "Goon A.M., Gupta M.K. and Das Gupta B. (2014) : Fundamental of Statistics, Vol. I ()5th edition), World press, Calcutta.",
+            "Rohatgi, V.K. and Saleh, A.K.M.E. (2001): An Introduction to Probability and Statistics, Second Edition, John Wiley & Sons.",
+            "Rao C.R. (1973): Linear Statistical Inference and its Applications, Revised edition, Weley Eastern.",
+            "Hoges J.L. and Lehmann E.L. (1964): Basic Concepts of Probability and Statistics, Holden Day.",
+            "Snedecor G.W. and Cochran W.G. (1989) : Statistical Methods (8th edition), Iowa State University Press.",
+            "Sheskin, D. J. (2020). Handbook of parametric and nonparametric statistical procedures. Chapman and hall/CRC, Fifth Edition",
+            "Roussas, G. G. (2015). An introduction to probability and statistical inference. Elsevier, Second Edition",
+            "Almudevar, A. (2021). Theory of statistical inference. Chapman and Hall/CRC, First Edition",
+            "Wasserman, L. (2013). All of statistics: A concise course in statistical inference, Second Edition"
           ]
         },
         {
@@ -605,24 +730,39 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Concept of population and sample, need for sampling, complete enumeration versus sampling, Basic concepts in sampling, sampling and non-sampling errors. Acquaintance with the working (questionnaires, sampling design, methods followed in field investigation, principal findings, etc.) of NSSO and other agencies undertaking sample surveys. 10 599"
+              "topics": "Concept of population and sample, need for sampling, complete enumeration versus sampling, Basic concepts in sampling, sampling and non-sampling errors. Acquaintance with the working (questionnaires, sampling design, methods followed in field investigation, principal findings, etc.) of NSSO and other agencies undertaking sample surveys."
             },
             {
               "unit": 2,
-              "topics": "Concept of probability and non-probability sampling. Simple random sampling with and without replacement, estimation of population mean, population proportions and their standard errors. Stratified random sampling, proportional and optimum allocation, comparison with simple random sampling for fixed sample size. 15"
+              "topics": "Concept of probability and non-probability sampling. Simple random sampling with and without replacement, estimation of population mean, population proportions and their standard errors. Stratified random sampling, proportional and optimum allocation, comparison with simple random sampling for fixed sample size."
             },
             {
               "unit": 3,
-              "topics": "Systematic sampling (when population size (N) is an integer multiple of sampling size (n)). Estimation of population mean and standard error of this estimate, comparison with simple random sampling. 10"
+              "topics": "Systematic sampling (when population size (N) is an integer multiple of sampling size (n)). Estimation of population mean and standard error of this estimate, comparison with simple random sampling."
             },
             {
               "unit": 4,
-              "topics": "Elementary idea of cluster sampling. Use of auxiliary information, ratio, product and regression methods of estimation. 10"
+              "topics": "Elementary idea of cluster sampling. Use of auxiliary information, ratio, product and regression methods of estimation."
             },
             {
               "unit": 5,
-              "topics": "Analysis of variance for one way and two-way classifications (with one observation per cell), need for design of experiments, basic principles of experimental design: randomization, replication and local control, complete analysis and layout of completely randomized design, randomized block design and Latin square design. Factorial experiments: 22 and23 factorial experiments. 15"
+              "topics": "Analysis of variance for one way and two-way classifications (with one observation per cell), need for design of experiments, basic principles of experimental design: randomization, replication and local control, complete analysis and layout of completely randomized design, randomized block design and Latin square design. Factorial experiments: 22 and23 factorial experiments."
             }
+          ],
+          "suggested_books": [
+            "Sampath S. (2005): Sampling Theory and Methods, Narosa Publishing House, New Delhi.",
+            "Cochran W.G. (1977): Sampling Techniques, John Wiley and Sons, New York.",
+            "Sukhatme P.V., Sukhatme B.V., Sukhatme S. and Asok C. (1998): Sampling Theory of Surveys with Applications (4th ed.)., Indian Society of Agricultural Statistics, New Delhi.",
+            "Goon A.M., Gupta M.K. and Das Gupta B. (2014): Fundamentals of Statistics, Vol. II, world Press, Calcutta.",
+            "Sampath S. (2000): Sampling Theory and Methods, Narosa Publishing House, New Delhi.",
+            "Des Raj (2000): Sample Survey Theory, Narosa Publishing House, New Delhi.",
+            "Murthy M.N. (1967): Sampling Theory and Methods, Statistical Publishing Society, Calcutta.",
+            "Kish L (1965): Survey Sampling, John Wiley and Sons, New York.",
+            "Hansen M.H., Hurwitz W.N. and Madow W.G. ( 1975) : Sample Survey Method and Theory, Vol. I, Methods and Applications, Vol. II, New York and London, Wiley Publication.",
+            "Cochran W.G. and Cox G.M. (1957) : Experimental Design, John Wiley and Sons.",
+            "Das, M. N. and Giri J. (1986) : Design and Analysis of Experiments, Springer Verlag.",
+            "Kempthorne O. (1965) : The Design and Analysis of Experiments, Wiley Eastern",
+            "Singh, R., & Mangat, N. S. (2013). Elements of survey sampling (Vol. 15)."
           ]
         },
         {
@@ -637,20 +777,30 @@
             },
             {
               "unit": 2,
-              "topics": "Classical decomposition model, Differencing approach, time series models: Introduction to some time series models such as AR, MA and ARMA, ARIMA model 8"
+              "topics": "Classical decomposition model, Differencing approach, time series models: Introduction to some time series models such as AR, MA and ARMA, ARIMA model"
             },
             {
               "unit": 3,
-              "topics": "Index Numbers: Price relatives and quantity or volume relatives, Link and chain relatives’ composition of index numbers; Laspeyre's, Paasche’s, Marshal Edgeworth’s and Fisher’s index numbers; chain base index number, tests for index number, cost of living index number. 15"
+              "topics": "Index Numbers: Price relatives and quantity or volume relatives, Link and chain relatives’ composition of index numbers; Laspeyre's, Paasche’s, Marshal Edgeworth’s and Fisher’s index numbers; chain base index number, tests for index number, cost of living index number."
             },
             {
               "unit": 4,
-              "topics": "Theory and analysis of consumer’s demand, law of demand, price elasticity of demand, estimation of demand curves, forms of demand functions, Engel’s curve, income elasticity of demand 15"
+              "topics": "Theory and analysis of consumer’s demand, law of demand, price elasticity of demand, estimation of demand curves, forms of demand functions, Engel’s curve, income elasticity of demand"
             },
             {
               "unit": 5,
-              "topics": "Analysis of income and allied distributions: Pareto distribution, graphical test, fitting of Pareto law, illustration, lognormal distribution and properties, Lorenz curve, Gini’s coefficient 7"
+              "topics": "Analysis of income and allied distributions: Pareto distribution, graphical test, fitting of Pareto law, illustration, lognormal distribution and properties, Lorenz curve, Gini’s coefficient"
             }
+          ],
+          "suggested_books": [
+            "Brockwell, P. J., & Davis, R. A. (2009). Time Series: Theory and Methods. Germany: Springer New York.",
+            "Brockwell, P. J., & Davis, R. A. (2013). Introduction to Time Series and Forecasting. Germany: Springer.",
+            "Chatfield, C. (2003). The Analysis of Time Series: An Introduction (6th ed.). Chapman and Hall/CRC.",
+            "Mukhopadhyay, P. (1994). Applied Statistics. New Central Book Agency Pvt. Ltd., Calcutta.",
+            "Goon, A. M., Gupta, M. K., & Das Gupta, B. (2008). Fundamentals of Statistics, Vol. II. World Press, Calcutta.",
+            "Mankiw, N. G. (2021). Principles of Economics (9th ed.). Cengage Learning.",
+            "Sen, A. (1973). On Economic Inequality. Oxford University Press.",
+            "Cowell, F. A. (2000). Measuring Inequality. Oxford University Press"
           ]
         },
         {
@@ -661,11 +811,11 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "2"
+              "topics": ""
             },
             {
               "unit": 2,
-              "topics": "4"
+              "topics": ""
             },
             {
               "unit": 3,
@@ -681,7 +831,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "2"
+              "topics": ""
             }
           ]
         },
@@ -693,24 +843,37 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Elementary idea of point estimation of parameters, properties of good estimator: unbiasedness, consistency, efficiency, & sufficiency with simple illustrative examples. Idea of Confidence interval estimation 10 601"
+              "topics": "Elementary idea of point estimation of parameters, properties of good estimator: unbiasedness, consistency, efficiency, & sufficiency with simple illustrative examples. Idea of Confidence interval estimation"
             },
             {
               "unit": 2,
-              "topics": "Concepts of statistical hypotheses: null and alternative hypothesis, critical region, two types of errors, level of significance, p-value and power of a test. One and two tailed tests. Statement of Law of Large Numbers and Central Limit Theorem. 10"
+              "topics": "Concepts of statistical hypotheses: null and alternative hypothesis, critical region, two types of errors, level of significance, p-value and power of a test. One and two tailed tests. Statement of Law of Large Numbers and Central Limit Theorem."
             },
             {
               "unit": 3,
-              "topics": "Small Sample tests: t-test for single Mean, difference of Means and Paired t-test. chi-square test for Goodness of fit and independence of attributes. F-test for Equality of variances. 10"
+              "topics": "Small Sample tests: t-test for single Mean, difference of Means and Paired t-test. chi-square test for Goodness of fit and independence of attributes. F-test for Equality of variances."
             },
             {
               "unit": 4,
-              "topics": "Large sample Tests: Large sample tests for single mean and difference of two means. Confidence intervals for mean(s). Large sample test for single proportion, difference of proportions, Standard deviation(s) and Correlation coefficient(s). 10"
+              "topics": "Large sample Tests: Large sample tests for single mean and difference of two means. Confidence intervals for mean(s). Large sample test for single proportion, difference of proportions, Standard deviation(s) and Correlation coefficient(s)."
             },
             {
               "unit": 5,
-              "topics": "Non-parametric tests- Definition, advantages and disadvantages, Sign, Run, Median tests, Spearman's rank correlation test, Wilcoxon Mann-Whitney test, Kolmogorov Smirnov - one sample and two sample tests. 5"
+              "topics": "Non-parametric tests- Definition, advantages and disadvantages, Sign, Run, Median tests, Spearman's rank correlation test, Wilcoxon Mann-Whitney test, Kolmogorov Smirnov - one sample and two sample tests."
             }
+          ],
+          "suggested_books": [
+            "Mood A.M., Greybill F.A. and Boes D.C. (1974) : Introduction to the Theory of Statistics, McGraw Hill.",
+            "Freund J.E. (2001) : Mathematical Statistics, Prentice hall of India.",
+            "Goon A.M., Gupta M.K. and Das Gupta B. (2014) : Fundamental of Statistics, Vol. I ()5th edition), World press, Calcutta.",
+            "Rohatgi, V.K. and Saleh, A.K.M.E. (2001): An Introduction to Probability and Statistics, Second Edition, John Wiley & Sons.",
+            "Rao C.R. (1973): Linear Statistical Inference and its Applications, Revised edition, Weley Eastern.",
+            "Hoges J.L. and Lehmann E.L. (1964): Basic Concepts of Probability and Statistics, Holden Day.",
+            "Snedecor G.W. and Cochran W.G. (1989) : Statistical Methods (8th edition), Iowa State University Press.",
+            "Sheskin, D. J. (2020). Handbook of parametric and nonparametric statistical procedures. Chapman and hall/CRC, Fifth Edition",
+            "Roussas, G. G. (2015). An introduction to probability and statistical inference. Elsevier, Second Edition",
+            "Almudevar, A. (2021). Theory of statistical inference. Chapman and Hall/CRC, First Edition",
+            "Wasserman, L. (2013). All of statistics: A concise course in statistical inference, Second Edition"
           ]
         },
         {
@@ -721,11 +884,11 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "2"
+              "topics": ""
             },
             {
               "unit": 2,
-              "topics": "4"
+              "topics": ""
             },
             {
               "unit": 3,
@@ -746,7 +909,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Internship 2"
+              "topics": "Internship"
             }
           ]
         },
@@ -758,24 +921,32 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Definitions and scope of operation research, different types of models in operations research – their construction and general method of solution. 7 602"
+              "topics": "Definitions and scope of operation research, different types of models in operations research – their construction and general method of solution."
             },
             {
               "unit": 2,
-              "topics": "Elements of linear programming problem (LPP): Canonical and standard forms, formulation of LPP, graphical method to solve two variable LPP, solution of LPP using simplex procedure, use of artificial variables in LPP, generation of extreme point solutions, principle of duality in LPP, statement and proof of duality theorem, simple problems based on duality theorem. 15"
+              "topics": "Elements of linear programming problem (LPP): Canonical and standard forms, formulation of LPP, graphical method to solve two variable LPP, solution of LPP using simplex procedure, use of artificial variables in LPP, generation of extreme point solutions, principle of duality in LPP, statement and proof of duality theorem, simple problems based on duality theorem."
             },
             {
               "unit": 3,
-              "topics": "Transportation problem (TP): different methods of finding initial feasible solution of a TP, UV method of finding optimal solution of a TP, Problems of degeneracy, and special cases of TP. Assignment problem: Hungarian method to find optimal assignment, special cases of assignment problem. 15"
+              "topics": "Transportation problem (TP): different methods of finding initial feasible solution of a TP, UV method of finding optimal solution of a TP, Problems of degeneracy, and special cases of TP. Assignment problem: Hungarian method to find optimal assignment, special cases of assignment problem."
             },
             {
               "unit": 4,
-              "topics": "Inventory Control: Definitions of various costs involved in inventory control. Deterministic Economic Lot Size problems with and without shortages. 8"
+              "topics": "Inventory Control: Definitions of various costs involved in inventory control. Deterministic Economic Lot Size problems with and without shortages."
             },
             {
               "unit": 5,
-              "topics": "Theory of games: Two person zero-sum games, pure and mixed strategies, saddle point, maximin-minimax principle of rectangular games, games without saddle point, dominance and modified dominance property to reduce the game matrix and solution to rectangular game with mixed strategy, graphical solution of 2xN and Mx2 games, reduction of game problems to a LPP. Theory of Network – PERT, CPM. 15"
+              "topics": "Theory of games: Two person zero-sum games, pure and mixed strategies, saddle point, maximin-minimax principle of rectangular games, games without saddle point, dominance and modified dominance property to reduce the game matrix and solution to rectangular game with mixed strategy, graphical solution of 2xN and Mx2 games, reduction of game problems to a LPP. Theory of Network – PERT, CPM."
             }
+          ],
+          "suggested_books": [
+            "Taha, H. (2019). Operations Research: An Introduction, Pearson Education, 10th edition.",
+            "Hadley, G: (2002): Linear Programming, Narosa Publications.",
+            "Hillier, F.A and Lieberman, G.J. (2010): Introduction to Operations Research Concepts and cases, 9th Edition.",
+            "Gass S.I. (2011): Linear Programming- Methods and Applications, 5th edition, Dover Publications Inc.",
+            "McKinsey J.C.C. (2003): Introduction to the Theory and Games, Dover Publications Inc.",
+            "KantiSwaroop, Gupta P.K. and Singh M.M. (2007). Operations Research, 13th Edition, Sultan Chand and Sons."
           ]
         },
         {
@@ -786,24 +957,33 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "What is numerical analysis? Calculus of Finite differences. Operators: Δ, ∇, δ, E and D and their relationships. factorial polynomials, separation of symbols, differences of zero. Taylor’s series. 5 603"
+              "topics": "What is numerical analysis? Calculus of Finite differences. Operators: Δ, ∇, δ, E and D and their relationships. factorial polynomials, separation of symbols, differences of zero. Taylor’s series."
             },
             {
               "unit": 2,
-              "topics": "Interpolation and polynomial approximation Weierstarss theorem, extrapolation, Newton- Gregory's forward and backward interpolation formulae for equally-spaced arguments, divided differences and their properties, Newton's formula for divided difference, Lagrange's formula for unequal intervals, central difference formula due to Gauss, Stirling, Bessel, Laplace and Everett, remainder terms in interpolation formula. error analysis. 10"
+              "topics": "Interpolation and polynomial approximation Weierstarss theorem, extrapolation, Newton- Gregory's forward and backward interpolation formulae for equally-spaced arguments, divided differences and their properties, Newton's formula for divided difference, Lagrange's formula for unequal intervals, central difference formula due to Gauss, Stirling, Bessel, Laplace and Everett, remainder terms in interpolation formula. error analysis."
             },
             {
               "unit": 3,
-              "topics": "Inverse interpolation: Different methods of inverse interpolation. Numerical differentiation: Three-point formulae and five-point formulae Numerical Integration: General Quadrature formula: Trapezoidal rule, Simpson’s one-third and three- eight rules, Weddle’s rule, Newton-Cotes formula. Truncation error in the numerical integration formulae. 10"
+              "topics": "Inverse interpolation: Different methods of inverse interpolation. Numerical differentiation: Three-point formulae and five-point formulae Numerical Integration: General Quadrature formula: Trapezoidal rule, Simpson’s one-third and three- eight rules, Weddle’s rule, Newton-Cotes formula. Truncation error in the numerical integration formulae."
             },
             {
               "unit": 4,
-              "topics": "Summation of series: Series whose general term is (i) the first difference of a function (ii) in geometric progression and (iii) a product of two functions. Difference equation: Linear difference equations (homogeneous and non-homogeneous) with constant coefficients. 10"
+              "topics": "Summation of series: Series whose general term is (i) the first difference of a function (ii) in geometric progression and (iii) a product of two functions. Difference equation: Linear difference equations (homogeneous and non-homogeneous) with constant coefficients."
             },
             {
               "unit": 5,
-              "topics": "Numerical solutions of differential equations: Euler's method, Milne’s method, Picard’s method and Runge-Kutta method. Method of solving linear and transcendental equations: Regula-falsi, bisection method, fixed-point iteration method, Newton-Raphson method, error analysis 10"
+              "topics": "Numerical solutions of differential equations: Euler's method, Milne’s method, Picard’s method and Runge-Kutta method. Method of solving linear and transcendental equations: Regula-falsi, bisection method, fixed-point iteration method, Newton-Raphson method, error analysis"
             }
+          ],
+          "suggested_books": [
+            "Scarborough, J. B. (2020). Numerical Mathematical Analysis (6th ed.). Oxford University Press and Oxford Book Co.",
+            "Freeman, H. (1961). Finite Differences for Actuarial Students (6th ed.). Cambridge University Press.",
+            "Atkinson, K., & Han, W. (2003). Elementary Numerical Analysis (3rd ed.). John Wiley & Sons, Inc.",
+            "Pettofrezzo, A. J. (2012). Introductory Numerical Analysis. United States: Dover Publications.",
+            "Hildebrand, F. B. (1987). Introduction to Numerical Analysis. India: Dover Publications.",
+            "Spiegel, M. R. (1971). Schaum's outline of theory and problems of calculus of finite differences and difference equations. United Kingdom: McGraw-Hill Education.",
+            "Conte, S. D., & de Boor, C. (1981). Elementary Numerical Analysis: An Algorithmic Approach (3rd ed.). McGraw- Hill."
           ]
         },
         {
@@ -814,24 +994,39 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Properties of point estimators: unbiasedness, consistency of estimators and sufficient conditions for consistency, relative efficiency of an estimator, asymptotic efficiency, Cramer-Rao lower bound, sufficiency, factorization theorem (without proof), concept of complete sufficient statistics, minimum variance unbiased estimator, Rao-Blackwell and Lehmann-Scheffe Theorems. 15 604"
+              "topics": "Properties of point estimators: unbiasedness, consistency of estimators and sufficient conditions for consistency, relative efficiency of an estimator, asymptotic efficiency, Cramer-Rao lower bound, sufficiency, factorization theorem (without proof), concept of complete sufficient statistics, minimum variance unbiased estimator, Rao-Blackwell and Lehmann-Scheffe Theorems."
             },
             {
               "unit": 2,
-              "topics": "Methods of point estimation : moments, maximum likelihood, minimum chi-square, least square with examples, CAN and BAN estimators, point estimates of location and scale parameters, regression coefficient, correlation coefficient and other useful parameters. 15"
+              "topics": "Methods of point estimation : moments, maximum likelihood, minimum chi-square, least square with examples, CAN and BAN estimators, point estimates of location and scale parameters, regression coefficient, correlation coefficient and other useful parameters."
             },
             {
               "unit": 3,
-              "topics": "General method for constructing confidence intervals, shortest confidence intervals, confidence intervals for the parameters of univariate normal, two independent normal distributions and exponential distributions. error in the numerical integration formulae. 10"
+              "topics": "General method for constructing confidence intervals, shortest confidence intervals, confidence intervals for the parameters of univariate normal, two independent normal distributions and exponential distributions. error in the numerical integration formulae."
             },
             {
               "unit": 4,
-              "topics": "Testing of statistical hypotheses, critical region, size and power of a test, most powerful test, randomized and non randomized test, Neyman Pearson lemma and its applications, Uniformly most powerful test, unbiased test, uniformly most powerful unbiased test, Likelihood ratio test, statement of its properties and applications. 15"
+              "topics": "Testing of statistical hypotheses, critical region, size and power of a test, most powerful test, randomized and non randomized test, Neyman Pearson lemma and its applications, Uniformly most powerful test, unbiased test, uniformly most powerful unbiased test, Likelihood ratio test, statement of its properties and applications."
             },
             {
               "unit": 5,
-              "topics": "Elementary idea about decision theory: Loss function, risk function, estimation and testing viewed as decision problems. Bayes rule. 5"
+              "topics": "Elementary idea about decision theory: Loss function, risk function, estimation and testing viewed as decision problems. Bayes rule."
             }
+          ],
+          "suggested_books": [
+            "Casella, G., & Berger, R. L. (2022). Statistical Inference (3rd ed.). Brooks/Cole, Cengage Learning.",
+            "Mukhopadhyay, N. (2020). Probability and statistical inference. CRC Press.",
+            "Kale, B.K. (1999): A First Course on Parametric Inference, Narosa Publishing House.",
+            "Rohatgi, V.K. (1988): An Introduction to Probability and Mathematical Statistics, Wiley Eastern, New Delhi.",
+            "Lehmann, E.L. (1986): Theory of Point Estimation, Student Edition.",
+            "Lehmann, E.L.(1986): Testing Statistical Hypotheses, Student Editions.",
+            "Rao, C.R. (1973): Linear Statistical Inference and its Applications, Wiley Eastern.",
+            "Ferguson, T.S. (1967): Mathematical Statistics, Academic Press.",
+            "Zacks, S. (1971): Theory of Statistical Inference, Wiley, New York.",
+            "Sheskin, D. J. (2020). Handbook of parametric and nonparametric statistical procedures. Chapman and hall/CRC, Fifth Edition",
+            "Roussas, G. G. (2015). An introduction to probability and statistical inference. Elsevier, Second Edition",
+            "Almudevar, A. (2021). Theory of statistical inference. Chapman and Hall/CRC, First Edition",
+            "Wasserman, L. (2013). All of statistics: A concise course in statistical inference, Second Edition"
           ]
         },
         {
@@ -842,7 +1037,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "3"
+              "topics": ""
             }
           ]
         },
@@ -858,20 +1053,25 @@
             },
             {
               "unit": 2,
-              "topics": "Data cleaning exercise using Excel. Basic chart types: Bar, error bars, line, pie, and scatter plots. Explore advanced visualization methods. Heatmaps, histograms, box plots. 10"
+              "topics": "Data cleaning exercise using Excel. Basic chart types: Bar, error bars, line, pie, and scatter plots. Explore advanced visualization methods. Heatmaps, histograms, box plots."
             },
             {
               "unit": 3,
-              "topics": "Numerical descriptors and their roles in data analysis for univariate and bivariate data. Measures of Inequalities 5"
+              "topics": "Numerical descriptors and their roles in data analysis for univariate and bivariate data. Measures of Inequalities"
             },
             {
               "unit": 4,
-              "topics": "Time series analysis basics, Plotting trends, seasonality, and anomalies, Tools for time series data visualization. 10"
+              "topics": "Time series analysis basics, Plotting trends, seasonality, and anomalies, Tools for time series data visualization."
             },
             {
               "unit": 5,
-              "topics": "Explore visualization techniques for large datasets. Key performance indicators (KPIs) and business metrics, Creating executive dashboards Communicating insights to stakeholders. 5"
+              "topics": "Explore visualization techniques for large datasets. Key performance indicators (KPIs) and business metrics, Creating executive dashboards Communicating insights to stakeholders."
             }
+          ],
+          "suggested_books": [
+            "Healy, K(2018). Data Visualization: A Practical Introduction\". Princeton University Press.",
+            "Wilke, C.O. (2019). Fundamentals of Data Visualization: A Primer on Making Informative and Compelling Figures. Shroff/O'Reilly Publication.",
+            "Ranganathan, K. (2023). Impactful Data Visualization: Hide and Seek with Graphs."
           ]
         },
         {
@@ -882,19 +1082,19 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "2"
+              "topics": ""
             },
             {
               "unit": 2,
-              "topics": "4"
+              "topics": ""
             },
             {
               "unit": 3,
-              "topics": "10"
+              "topics": ""
             },
             {
               "unit": 4,
-              "topics": "8"
+              "topics": ""
             },
             {
               "unit": 5,
@@ -915,20 +1115,24 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Introduction to stochastic processes: Definition and examples of stochastic process, Classification of SPs according to state space and time domain. Types of stochastic processes: independent process, Bernoulli process, processes with independent increments, processes with stationary increments, Markov processes, counting processes, second-order processes, Gaussian processes, martingales, Brownian motion. Stationary process: weakly stationary and strongly stationary processes. Elementary problems and applications. 8 606 Press. 3. Basu, A. K. (2005). Introduction to Stochastic Processes. Narosa Publishing. 4. Karlin, S., & Taylor, H. M. (1975). A First Course in Stochastic Processes, Vol. 1. Academic Press. 5. Castaneda, L. B., Arunachalam, A., & Dharmaraja, S. (2016). Introduction to Probability and Stochastic Processes with Applications. Wiley, Asian Edition. 6. Bharat, B. R. (2000). Stochastic Models: Analysis and Applications. New Age International, India. 7. Feller, W. (1968). Introduction to Probability and Its Applications, Vol. 1. Wiley Eastern. 8. Ross, S. M. (1996). Stochastic Processes. Wiley. 607"
+              "topics": "Introduction to stochastic processes: Definition and examples of stochastic process, Classification of SPs according to state space and time domain. Types of stochastic processes: independent process, Bernoulli process, processes with independent increments, processes with stationary increments, Markov processes, counting processes, second-order processes, Gaussian processes, martingales, Brownian motion. Stationary process: weakly stationary and strongly stationary processes. Elementary problems and applications. 8 606 Press. 3. Basu, A. K. (2005). Introduction to Stochastic Processes. Narosa Publishing. 4. Karlin, S., & Taylor, H. M. (1975). A First Course in Stochastic Processes, Vol. 1. Academic Press. 5. Castaneda, L. B., Arunachalam, A., & Dharmaraja, S. (2016). Introduction to Probability and Stochastic Processes with Applications. Wiley, Asian Edition. 6. Bharat, B. R. (2000). Stochastic Models: Analysis and Applications. New Age International, India. 7. Feller, W. (1968). Introduction to Probability and Its Applications, Vol. 1. Wiley Eastern. 8. Ross, S. M. (1996). Stochastic Processes. Wiley."
             },
             {
               "unit": 2,
-              "topics": "Markov chains: definition and examples of Markov chain (MC), transition probability matrix, order of Markov chain, Markov chain as graphs, higher transition probabilities, classification of states, basic limit theorem of Markov chain. Finite state Markov chains, Chapman-Kolmogorov equations, calculation of n-step transition probability and its limit. Classification of states, aperiodic & irreducible MC, recurrent & transient MC, concept of total probability with recursion, absorption probability, mean hitting time, mean return time, stationary distribution. Random walk and gambler’s ruin problem. 13"
+              "topics": "Markov chains: definition and examples of Markov chain (MC), transition probability matrix, order of Markov chain, Markov chain as graphs, higher transition probabilities, classification of states, basic limit theorem of Markov chain. Finite state Markov chains, Chapman-Kolmogorov equations, calculation of n-step transition probability and its limit. Classification of states, aperiodic & irreducible MC, recurrent & transient MC, concept of total probability with recursion, absorption probability, mean hitting time, mean return time, stationary distribution. Random walk and gambler’s ruin problem."
             },
             {
               "unit": 3,
-              "topics": "Discrete state space continuous time MC: Kolmogorov forward and backward equations, jump probability, transition probability, generator matrix and its stationary distribution. Statistical inference in MC and Markov processes. 11"
+              "topics": "Discrete state space continuous time MC: Kolmogorov forward and backward equations, jump probability, transition probability, generator matrix and its stationary distribution. Statistical inference in MC and Markov processes."
             },
             {
               "unit": 4,
-              "topics": "Counting processes: Poisson process and related inter-arrival time distribution, superposition and decomposition of Poisson process, nonhomogeneous Poisson process. birth and death process, queuing model as a case of counting process. 13"
+              "topics": "Counting processes: Poisson process and related inter-arrival time distribution, superposition and decomposition of Poisson process, nonhomogeneous Poisson process. birth and death process, queuing model as a case of counting process."
             }
+          ],
+          "suggested_books": [
+            "Papoulis, A., &Unnikrishna Pillai, S. (2002). Probability, Random Variables, and Stochastic Processes (4th ed.). Tata McGraw-Hill.",
+            "Ross, S. M. (2023). Introduction to Probability and Statistics for Engineers and Scientists (5th ed.). Academic"
           ]
         },
         {
@@ -939,20 +1143,30 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Statistical process and product control: Quality of a product, need for quality control, basic concept of process control, process capability and product control, general theory of control charts, causes of variation in quality, control limits, sub-grouping summary of out- of-control criteria. 8 608"
+              "topics": "Statistical process and product control: Quality of a product, need for quality control, basic concept of process control, process capability and product control, general theory of control charts, causes of variation in quality, control limits, sub-grouping summary of out- of-control criteria."
             },
             {
               "unit": 2,
-              "topics": "Charts for attributes: p-chart, np-chart, c-chart, Charts for variables: R-chart, σ-charts. x- bar chart. 14"
+              "topics": "Charts for attributes: p-chart, np-chart, c-chart, Charts for variables: R-chart, σ-charts. x- bar chart."
             },
             {
               "unit": 3,
-              "topics": "Life testing and reliability theory: Basic concepts of life testing experiments, reliability, hazard function, mean time to system failure and their inter-relationship. System reliability concepts: Parallel, series, series-parallel, parallel-series, bridge and k- out of- n systems. Concept of Redundancy and Preventive maintenance 8"
+              "topics": "Life testing and reliability theory: Basic concepts of life testing experiments, reliability, hazard function, mean time to system failure and their inter-relationship. System reliability concepts: Parallel, series, series-parallel, parallel-series, bridge and k- out of- n systems. Concept of Redundancy and Preventive maintenance"
             },
             {
               "unit": 4,
-              "topics": "Elementary notion of censored data, type I and type II censoring schemes. Point and interval estimation procedures: exponential, Weibull, gamma, lognormal. UMVUE of reliability function and reliability hypothesis testing for exponential distribution. Stress-strength reliability and its estimation for the exponential distribution. 15"
+              "topics": "Elementary notion of censored data, type I and type II censoring schemes. Point and interval estimation procedures: exponential, Weibull, gamma, lognormal. UMVUE of reliability function and reliability hypothesis testing for exponential distribution. Stress-strength reliability and its estimation for the exponential distribution."
             }
+          ],
+          "suggested_books": [
+            "Montgomery, D. C. (2019). Introduction to Statistical Quality Control (8th ed.). Wiley.",
+            "Chakraborti, S., & Graham, M. A. (2019). Nonparametric Statistical Process Control. Wiley.",
+            "Mitra, A. (2021). Fundamentals of quality control and improvement (5th ed.). Wiley.",
+            "Wetherill, G. B., & Brown, D. W. (2013). Statistical Process Control: Theory and Practice. United States: Springer US.",
+            "Gross A. j. and Clark, V.A. (1975): Survival Distribution: Reliability applications in the Biomedical Sciences, John Wiley and Sons.",
+            "Elandt – Johnson, R.E. Johnson N. L.: Survival Models and Data Analysis, John Wiley and Sons.",
+            "Gertsbakh, I. B. (2000). Reliability theory: with applications to preventive maintenance. Springer Science & Business Media.",
+            "Balagurusamy E. (2017). Reliability Engineering, McGraw Hill Education India"
           ]
         },
         {
@@ -963,20 +1177,31 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Nature of econometrics, the general linear model (GLM) and its extensions, ordinary least squares (OLS) estimation and prediction, generalized least squares (GLS) estimation and prediction, heteroscedastic disturbances, pure and mixed estimation. 13 609"
+              "topics": "Nature of econometrics, the general linear model (GLM) and its extensions, ordinary least squares (OLS) estimation and prediction, generalized least squares (GLS) estimation and prediction, heteroscedastic disturbances, pure and mixed estimation."
             },
             {
               "unit": 2,
-              "topics": "Autocorrelation, its consequences and tests. Multicollinearity problem, its implications and tools for handling the problem, ridge regression. Instrumental variable estimation, errors in variables. 12"
+              "topics": "Autocorrelation, its consequences and tests. Multicollinearity problem, its implications and tools for handling the problem, ridge regression. Instrumental variable estimation, errors in variables."
             },
             {
               "unit": 3,
-              "topics": "Expected value principle, utility and utility function, insurance and utility theory, mutually advantageous situation for insurance, survival function, time-until-death for a person, future life time, curtate future lifetime, force of mortality, relation of life table function to the survival function, Life table examples, deterministic survivorship group. 10"
+              "topics": "Expected value principle, utility and utility function, insurance and utility theory, mutually advantageous situation for insurance, survival function, time-until-death for a person, future life time, curtate future lifetime, force of mortality, relation of life table function to the survival function, Life table examples, deterministic survivorship group."
             },
             {
               "unit": 4,
-              "topics": "Nominal and effective rates of interest and discount, force of interest and discount, compound interest, accumulation factor, insurance payable at the moment of death and at end of the year of death, concept of annuities, continuous and discrete life annuities, concept of premiums, continuous and discrete premiums. 10"
+              "topics": "Nominal and effective rates of interest and discount, force of interest and discount, compound interest, accumulation factor, insurance payable at the moment of death and at end of the year of death, concept of annuities, continuous and discrete life annuities, concept of premiums, continuous and discrete premiums."
             }
+          ],
+          "suggested_books": [
+            "Promislow, S. D. (2014). Fundamentals of Actuarial Mathematics (3rd ed.). Wiley.",
+            "Deshmukh, S. R. (2009). Actuarial Statistics: An Introduction Using R (3rd ed.).",
+            "Borowiak, D. S., & Shapiro, A. F. (2014). Financial and Actuarial Statistics: An Introduction (2nd ed.). CRC Press.",
+            "Wooldridge, Jeffrey M. (2023). Introductory Econometrics: A Modern Approach (8th ed.). Cengage Learning.",
+            "Hayashi, F. (2000). Econometrics. Princeton University Press.",
+            "Greene, W. H. (2023). Econometric Analysis (8th ed.). Pearson.",
+            "Asteriou, D., & Hall, S. G. (2023). Applied Econometrics (5th ed.). Palgrave Macmillan.",
+            "Davidson, R., & MacKinnon, J. G. (2004). Econometric Theory and Methods (5th ed.). Oxford University Press.",
+            "Lo, A. W., &MacKinlay, A. C. (1999). The Econometrics of Financial Markets. Princeton University Press."
           ]
         },
         {
@@ -987,24 +1212,38 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Introduction to Indian and International statistical systems. role, function and activities of central and state statistical organizations, organization of large-scale sample surveys, role of national sample survey organization general and special data dissemination systems. 10 610 Course Title"
+              "topics": "Introduction to Indian and International statistical systems. role, function and activities of central and state statistical organizations, organization of large-scale sample surveys, role of national sample survey organization general and special data dissemination systems."
             },
             {
               "unit": 2,
-              "topics": "System of collection of agricultural statistics, crop forecasting and estimation, productivity, fragmentation of holdings, support prices, buffer stocks, impact of irrigation projects. Statistics related to industries, foreign trade, balance of payment, cost of living, inflation, educational and other social statistics. 10"
+              "topics": "System of collection of agricultural statistics, crop forecasting and estimation, productivity, fragmentation of holdings, support prices, buffer stocks, impact of irrigation projects. Statistics related to industries, foreign trade, balance of payment, cost of living, inflation, educational and other social statistics."
             },
             {
               "unit": 3,
-              "topics": "Some basic demographic concepts. Components of population change. Historical trends in population situation in the world. Brief description of Demographic transition theory. Sources of Demographic Data: Population census; Uses and limitations; Indian Censuses, Vital registration system, National Sample Surveys, Sample Registration System, Demographic Health Surveys (DHS) and other sample surveys. 10"
+              "topics": "Some basic demographic concepts. Components of population change. Historical trends in population situation in the world. Brief description of Demographic transition theory. Sources of Demographic Data: Population census; Uses and limitations; Indian Censuses, Vital registration system, National Sample Surveys, Sample Registration System, Demographic Health Surveys (DHS) and other sample surveys."
             },
             {
               "unit": 4,
-              "topics": "Measurement of Mortality and Life Table: Crude death rate, Standardized death rates, Age-specific death rates, Infant Mortality rate, Death rate by cause, Complete life table and its main features, Uses of life table. Maternal Mortality rate 5"
+              "topics": "Measurement of Mortality and Life Table: Crude death rate, Standardized death rates, Age-specific death rates, Infant Mortality rate, Death rate by cause, Complete life table and its main features, Uses of life table. Maternal Mortality rate"
             },
             {
               "unit": 5,
-              "topics": "Basic terms and concepts used in the study of fertility. Measurement of Fertility: Crude birth rate, general fertility rate, age specific birth rate, total fertility rate, gross reproduction rate, net reproduction rate. Concepts of population projections; population estimates and forecasts uses of population projections. Mathematical methods of measuring population projection. Population growth in developed and developing countries, evaluation and performance of family welfare programmes, projections of labour force and manpower. 10"
+              "topics": "Basic terms and concepts used in the study of fertility. Measurement of Fertility: Crude birth rate, general fertility rate, age specific birth rate, total fertility rate, gross reproduction rate, net reproduction rate. Concepts of population projections; population estimates and forecasts uses of population projections. Mathematical methods of measuring population projection. Population growth in developed and developing countries, evaluation and performance of family welfare programmes, projections of labour force and manpower."
             }
+          ],
+          "suggested_books": [
+            "Basic Statistics Relating to the Indian Economy (CSO), 1990.",
+            "Guide to Official Statistics (CSO) 1999.",
+            "Statistical System in India (CSO), 1995.",
+            "Principles and accommodation of National Population Censuses, UNESCO.",
+            "Panse, V.G.: Estimation of Crop Yields (FAO).",
+            "Family Welfare Yearbook, Annual Publication of D/o Family Welfare.",
+            "Monthly Statistics of Foreign Trade in India, DGCIS, Calcutta and other Govt. Publications.",
+            "Ram Kumar (1986): Technical Demography, Wiley Eastern Ltd.",
+            "Benjamin, B. (1969): Demographic Analysis, George, Allen and Unwin.",
+            "Cox, P.R. (1970): Demography, Cambridge University Press.",
+            "Spiegelman, M. (1969): Introduction to Demographic Analysis, Harvard University Press.",
+            "Pathak, K. B. and Ram, F.(1992) Techniques of Demographic Analysis, Himalaya Publication House."
           ]
         },
         {
@@ -1015,7 +1254,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "3"
+              "topics": ""
             }
           ]
         },
@@ -1027,7 +1266,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Data-Driven Decision Making 3"
+              "topics": "Data-Driven Decision Making"
             }
           ]
         },
@@ -1056,20 +1295,28 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Gauss-Markov linear models, estimable functions, error and estimation space, normal equations and least square estimators, estimation of error variance, estimation with correlated observations, properties of least square estimators, generalized inverse of a matrix and solution of normal equations, variances and covariances of least square estimators. 15 611"
+              "topics": "Gauss-Markov linear models, estimable functions, error and estimation space, normal equations and least square estimators, estimation of error variance, estimation with correlated observations, properties of least square estimators, generalized inverse of a matrix and solution of normal equations, variances and covariances of least square estimators."
             },
             {
               "unit": 2,
-              "topics": "One way and two-way classifications, fixed, random and mixed effects models. Analysis of variance (two-way classification only), Multiple comparison tests due to Tukey, Scheffe and Student-Newmann-Keuls. 5"
+              "topics": "One way and two-way classifications, fixed, random and mixed effects models. Analysis of variance (two-way classification only), Multiple comparison tests due to Tukey, Scheffe and Student-Newmann-Keuls."
             },
             {
               "unit": 3,
-              "topics": "Simple linear regression, multiple regression, fit of polynomials and use of orthogonal polynomials. Residuals and their plots as tests for departure from assumptions such as fitness of the model, normality, homogeneity of variances and detection of outliers and Remedies 15"
+              "topics": "Simple linear regression, multiple regression, fit of polynomials and use of orthogonal polynomials. Residuals and their plots as tests for departure from assumptions such as fitness of the model, normality, homogeneity of variances and detection of outliers and Remedies"
             },
             {
               "unit": 4,
-              "topics": "Multicollinearity, ridge regression, subset selection of explanatory variables, Mallow-Cp Statistics and its applications. 10"
+              "topics": "Multicollinearity, ridge regression, subset selection of explanatory variables, Mallow-Cp Statistics and its applications."
             }
+          ],
+          "suggested_books": [
+            "Goon, A.M., Gupta, M.K. and Das Gupta, B. (1967): An Outline of Statistical Theory, Vol. 2, The World Press Pvt. Ltd., Calcutta.",
+            "Rao, C.R. (1973); Linear Statistical Inference and its Application, Wiley Eastern.",
+            "Graybill, I.A. (1961): An Introduction to Linear Statistical Models, Vol. 1, McGraw Hill Book Co. Inc.",
+            "Draper, N.R. and Smith H. (2014); Applied Regression Analysis, 4th Ed. Wiley.",
+            "Weisberg, S. (2005): Applied Linear Regression, 3rd Ed. Wiley.",
+            "Cook, R.D. and Weisherg, S. (2007): Residuals and Inference in Regression, 2nd Ed. Chapman and Hall"
           ]
         },
         {
@@ -1080,20 +1327,28 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Classes of sets, fields, sigma field, minimal sigma field, Borel sigma field, sequence of sets, limsup and liminf of a sequence of sets, measure, probability measure, properties of measure, Caratheodory extension theorem, Lebesgue and Lebesgue - Steiltzes measures. 15 612"
+              "topics": "Classes of sets, fields, sigma field, minimal sigma field, Borel sigma field, sequence of sets, limsup and liminf of a sequence of sets, measure, probability measure, properties of measure, Caratheodory extension theorem, Lebesgue and Lebesgue - Steiltzes measures."
             },
             {
               "unit": 2,
-              "topics": "Inverse function and their properties, measurable functions, random variables, sequence of random variables, Integration of a measurable function with respect to a measure, monotone convergence theorem, Fatou’s lemma, dominated convergence theorem. 10"
+              "topics": "Inverse function and their properties, measurable functions, random variables, sequence of random variables, Integration of a measurable function with respect to a measure, monotone convergence theorem, Fatou’s lemma, dominated convergence theorem."
             },
             {
               "unit": 3,
-              "topics": "Characteristic function, uniqueness theorem, Levy’s continuity theorem, Convergence in distribution, Convergence in probability, almost sure convergence. 10"
+              "topics": "Characteristic function, uniqueness theorem, Levy’s continuity theorem, Convergence in distribution, Convergence in probability, almost sure convergence."
             },
             {
               "unit": 4,
-              "topics": "Borel-Cantelli lemma, independence of random variables, weak law and strong law of large numbers for the sequences of independently and identically distributed and non- i.i.d. random variables; Central limit theorem due Lindeberg- Levy for i.i.d. random variables, Liapounav's CLT for sequence of non- i.i.d. random variables. 10"
+              "topics": "Borel-Cantelli lemma, independence of random variables, weak law and strong law of large numbers for the sequences of independently and identically distributed and non- i.i.d. random variables; Central limit theorem due Lindeberg- Levy for i.i.d. random variables, Liapounav's CLT for sequence of non- i.i.d. random variables."
             }
+          ],
+          "suggested_books": [
+            "Robert, A. (1972): Real Analysis and Probability, Academic press.",
+            "Billingsley, P. (2008): Probability and Measure, Third edition, Wiley.",
+            "Dudley, R.M. (2002): Real Analysis and Probability; Cambridge Studies in Advanced Mathematics.",
+            "Kingman, J.F.C. and Taylor, S.J. (2011): Introduction to Measure and Probability, Cambridge University Press.",
+            "Basu, A. K. (2012): Measure Theory And Probability: Second Edition, Prentice Hall India Learning Private Limited.",
+            "Athreya, K. B. and Lahiri, S. N. (2010): Measure Theory and Probability Theory Springer- Verlag New York Inc."
           ]
         },
         {
@@ -1104,20 +1359,35 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Fixed population and super-population approaches. Distinct features of finite population sampling, Probability sampling design and estimators along with basic statistical properties. Review of some important results in SRSWOR and SRSWR. Estimation of population mean/Total in stratified population, Allocation problem in stratified random sampling in case of fixed cost and also for specified precision. Expression for variance of stratified sample mean in case of fixed cost, Post stratification, Double sampling with post stratification, Deep stratification, Controlled sampling. 11 613"
+              "topics": "Fixed population and super-population approaches. Distinct features of finite population sampling, Probability sampling design and estimators along with basic statistical properties. Review of some important results in SRSWOR and SRSWR. Estimation of population mean/Total in stratified population, Allocation problem in stratified random sampling in case of fixed cost and also for specified precision. Expression for variance of stratified sample mean in case of fixed cost, Post stratification, Double sampling with post stratification, Deep stratification, Controlled sampling."
             },
             {
               "unit": 2,
-              "topics": "Ratio, product and regression methods of estimation. Estimation of population mean, evaluation of bias and variance/MSE to the first order of approximation, comparison with simple random sampling. Double sampling scheme, Some double sampling estimators for mean using auxiliary character (Ratio, regression and product) method of estimation, Some unbiased ratio type estimators for population mean. 11"
+              "topics": "Ratio, product and regression methods of estimation. Estimation of population mean, evaluation of bias and variance/MSE to the first order of approximation, comparison with simple random sampling. Double sampling scheme, Some double sampling estimators for mean using auxiliary character (Ratio, regression and product) method of estimation, Some unbiased ratio type estimators for population mean."
             },
             {
               "unit": 3,
-              "topics": "Unequal probability sampling: PPSWR/WOR methods (including Lahiri’s scheme) and Des Raj estimator, Murthy estimator (for n=2). Horvitz Thompson Estimator of finite population total/mean, Expression for Variance (HTE) and its unbiased estimator, Issue of non-negative variance estimation, IIPS Scheme of sampling due to Midzuno-Sen. 13"
+              "topics": "Unequal probability sampling: PPSWR/WOR methods (including Lahiri’s scheme) and Des Raj estimator, Murthy estimator (for n=2). Horvitz Thompson Estimator of finite population total/mean, Expression for Variance (HTE) and its unbiased estimator, Issue of non-negative variance estimation, IIPS Scheme of sampling due to Midzuno-Sen."
             },
             {
               "unit": 4,
-              "topics": "Concept of cluster sampling, two stage sampling, Non-sampling error with special reference to non-response problems. 10"
+              "topics": "Concept of cluster sampling, two stage sampling, Non-sampling error with special reference to non-response problems."
             }
+          ],
+          "suggested_books": [
+            "Cassel, C.M., Sarndal, C.E. and Wretman (1977): Foundation of Inference in Survey Sampling, Wiley Inter Science, New York.",
+            "Hansen, M. H., Hurwitz, W. N., &amp; Madow, W. G. (1953). Sample survey methods and theory.",
+            "Singh, R., & Mangat, N. S. (2013). Elements of survey sampling (Vol. 15).",
+            "Springer Science &amp; Business Media.",
+            "Murthy, M.N. (1977): Sampling Theory and Methods. Statistical Publication Society, Calcutta.",
+            "Mukhopadhyay, P. (1996): Inferential Problems in Survey Sampling, New Age International (P).",
+            "Sampath S. (2000) : Sampling Theory and Methods, Narosa Publishing House, New Delhi.",
+            "Sukhatme P.V., Sukhatme B.V., Sukhatme S. and Asok C. (1998): Sampling Theory of Surveys with Applications (4th ed.)., Indian Society of Agricultural Statistics, New Delhi.",
+            "Goon A.M., Gupta M.K. and Das Gupta B. (2014): Fundamentals of Statistics, Vol. II, world Press, Calcutta.",
+            "Cochran, W.G.: Sampling Techniques (3rd edition. 1977), Wiley.",
+            "Singh D. and Chaudhary, F.S. (1986): Theory and Analysis of Sample Survey Designs, New Age International Publishers.",
+            "Singh, S. (2003) : Advanced sampling theory with applications. Springer-Science +Business Media, B.V.",
+            "Wu, C. and Thompson, M. E. (2020) : Sampling theory and practice. Springer."
           ]
         },
         {
@@ -1128,20 +1398,35 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Extension of Cramer-Rao inequality for multi-parameter case, Bhattacharya bounds. 10 614 Course Title"
+              "topics": "Extension of Cramer-Rao inequality for multi-parameter case, Bhattacharya bounds."
             },
             {
               "unit": 2,
-              "topics": "Ideas of sufficient, minimal complete-sufficient statistics, sufficiency when the range of variable depends on a parameter, minimum variance unbiased estimators, Rao- Blackwell, Lehman-Scheffe and Basu theorem. 15"
+              "topics": "Ideas of sufficient, minimal complete-sufficient statistics, sufficiency when the range of variable depends on a parameter, minimum variance unbiased estimators, Rao- Blackwell, Lehman-Scheffe and Basu theorem."
             },
             {
               "unit": 3,
-              "topics": "MLE and its asymptotic properties, Interval estimation by confidence sets, Neyman theory, uniformly most accurate intervals. 15"
+              "topics": "MLE and its asymptotic properties, Interval estimation by confidence sets, Neyman theory, uniformly most accurate intervals."
             },
             {
               "unit": 4,
-              "topics": "Neyman-Pearson lemma, generalized Neyman-Pearson lemma, monotone likelihood ratio families, UMP tests for one and two sided alternatives, admissibility and unbiasedness of tests, type A and type A1 tests, similar tests, tests having Neyman structure, likelihood ratio test (LRT) asymptotic distribution of LRT statistic. 20"
+              "topics": "Neyman-Pearson lemma, generalized Neyman-Pearson lemma, monotone likelihood ratio families, UMP tests for one and two sided alternatives, admissibility and unbiasedness of tests, type A and type A1 tests, similar tests, tests having Neyman structure, likelihood ratio test (LRT) asymptotic distribution of LRT statistic."
             }
+          ],
+          "suggested_books": [
+            "Kale, B.K. (1999): A First Course on Parametric Inference, Narosa Publishing House.",
+            "Rohatgi, V.K. (1988): An Introduction to Probability and Mathematical Statistics, Wiley Eastern, New Delhi.",
+            "Lehmann, E.L. (1986): Theory of Point Estimation, Student Edition.",
+            "Lehmann, E.L.(1986): Testing Statistical Hypotheses, Student Editions.",
+            "Zacks, S. (1971): Theory of Statistical Inference, Wiley, New York.",
+            "Sheskin, D. J. (2020). Handbook of parametric and nonparametric statistical procedures. Chapman and hall/CRC, Fifth Edition",
+            "Roussas, G. G. (2015). An introduction to probability and statistical inference. Elsevier, Second Edition",
+            "Almudevar, A. (2021). Theory of statistical inference. Chapman and Hall/CRC, First Edition",
+            "Wasserman, L. (2013). All of statistics: A concise course in statistical inference, Second Edition",
+            "Casella, G., & Berger, R. L. (2022). Statistical Inference (3rd ed.). Brooks/Cole, Cengage Learning.",
+            "Mukhopadhyay, N. (2020). Probability and statistical inference. CRC Press.",
+            "Niewiadomska-Bugaj, M., &Bartoszynski, R. (2020). Probability and statistical inference. John Wiley & Sons.",
+            "Silvey, S. D. (2017). Statistical inference. Routledge."
           ]
         },
         {
@@ -1152,20 +1437,29 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "4"
+              "topics": ""
             },
             {
               "unit": 2,
-              "topics": "10"
+              "topics": ""
             },
             {
               "unit": 3,
-              "topics": "10"
+              "topics": ""
             },
             {
               "unit": 4,
               "topics": "6 Course Title"
             }
+          ],
+          "suggested_books": [
+            "Chattamvelli, R., & Shanmugam, R. (2023). Descriptive statistics for scientists and engineers. Springer.",
+            "Holcomb, Z. (2016). Fundamentals of descriptive statistics. Routledge.",
+            "Kore, B. G., & Dixit, P. G. (2022). Descriptive Statistics-I. Nirali Prakashan, Pune.",
+            "Goon A.M., Gupta A.K. and Das Gupta B. (2014): Fundamental of Statistics, Vol. I (5th edition), World Press, Calcutta.",
+            "Mood A.M., Greybill, F.A. and Boes D.C. (1974): Introduction to the Theory of Statistics, McGraw Hill.",
+            "Freund, R. J., & Wilson, W. J. (2003). Statistical Methods, Elsevier.",
+            "Croxton F.E., Cowden D.J. and Karlin S. (1973) Applied General Statistics."
           ]
         },
         {
@@ -1176,8 +1470,17 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "2"
+              "topics": ""
             }
+          ],
+          "suggested_books": [
+            "Chattamvelli, R., & Shanmugam, R. (2023). Descriptive statistics for scientists and engineers. Springer.",
+            "Holcomb, Z. (2016). Fundamentals of descriptive statistics. Routledge.",
+            "Kore, B. G., & Dixit, P. G. (2022). Descriptive Statistics-I. Nirali Prakashan, Pune.",
+            "Goon A.M., Gupta A.K. and Das Gupta B. (2014): Fundamental of Statistics, Vol. I (5th edition), World Press, Calcutta.",
+            "Mood A.M., Greybill, F.A. and Boes D.C. (1974): Introduction to the Theory of Statistics, McGraw Hill.",
+            "Freund, R. J., & Wilson, W. J. (2003). Statistical Methods, Elsevier.",
+            "Croxton F.E., Cowden D.J. and Karlin S. (1973) Applied General Statistics."
           ]
         },
         {
@@ -1192,16 +1495,24 @@
             },
             {
               "unit": 2,
-              "topics": "One way and two-way classifications, fixed, random and mixed effects models. Analysis of variance (two-way classification only), Multiple comparison tests due to Tukey, Scheffe and Student-Newmann-Keuls. 5"
+              "topics": "One way and two-way classifications, fixed, random and mixed effects models. Analysis of variance (two-way classification only), Multiple comparison tests due to Tukey, Scheffe and Student-Newmann-Keuls."
             },
             {
               "unit": 3,
-              "topics": "Simple linear regression, multiple regression, fit of polynomials and use of orthogonal polynomials. Residuals and their plots as tests for departure from assumptions such as fitness of the model, normality, homogeneity of variances and detection of outliers and Remedies 15"
+              "topics": "Simple linear regression, multiple regression, fit of polynomials and use of orthogonal polynomials. Residuals and their plots as tests for departure from assumptions such as fitness of the model, normality, homogeneity of variances and detection of outliers and Remedies"
             },
             {
               "unit": 4,
-              "topics": "Multicollinearity, ridge regression, subset selection of explanatory variables, Mallow-Cp Statistics and its applications. 10"
+              "topics": "Multicollinearity, ridge regression, subset selection of explanatory variables, Mallow-Cp Statistics and its applications."
             }
+          ],
+          "suggested_books": [
+            "Goon, A.M., Gupta, M.K. and Das Gupta, B. (1967): An Outline of Statistical Theory, Vol. 2, The World Press Pvt. Ltd., Calcutta.",
+            "Rao, C.R. (1973); Linear Statistical Inference and its Application, Wiley Eastern.",
+            "Graybill, I.A. (1961): An Introduction to Linear Statistical Models, Vol. 1, McGraw Hill Book Co. Inc.",
+            "Draper, N.R. and Smith H. (2014); Applied Regression Analysis, 4th Ed. Wiley.",
+            "Weisberg, S. (2005): Applied Linear Regression, 3rd Ed. Wiley.",
+            "Cook, R.D. and Weisherg, S. (2007): Residuals and Inference in Regression, 2nd Ed. Chapman and Hall"
           ]
         },
         {
@@ -1212,20 +1523,29 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "4"
+              "topics": ""
             },
             {
               "unit": 2,
-              "topics": "10"
+              "topics": ""
             },
             {
               "unit": 3,
-              "topics": "10"
+              "topics": ""
             },
             {
               "unit": 4,
               "topics": "6 Semester VIII"
             }
+          ],
+          "suggested_books": [
+            "Chattamvelli, R., & Shanmugam, R. (2023). Descriptive statistics for scientists and engineers. Springer.",
+            "Holcomb, Z. (2016). Fundamentals of descriptive statistics. Routledge.",
+            "Kore, B. G., & Dixit, P. G. (2022). Descriptive Statistics-I. Nirali Prakashan, Pune.",
+            "Goon A.M., Gupta A.K. and Das Gupta B. (2014): Fundamental of Statistics, Vol. I (5th edition), World Press, Calcutta.",
+            "Mood A.M., Greybill, F.A. and Boes D.C. (1974): Introduction to the Theory of Statistics, McGraw Hill.",
+            "Freund, R. J., & Wilson, W. J. (2003). Statistical Methods, Elsevier.",
+            "Croxton F.E., Cowden D.J. and Karlin S. (1973) Applied General Statistics."
           ]
         }
       ]
@@ -1241,7 +1561,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Project/Dissertation 12"
+              "topics": "Project/Dissertation"
             }
           ]
         },
@@ -1253,20 +1573,29 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Review of linear estimation and basic designs, missing plot technique: General theory and applications, Analysis of Co-variance for CRD and RBD. 10 616"
+              "topics": "Review of linear estimation and basic designs, missing plot technique: General theory and applications, Analysis of Co-variance for CRD and RBD."
             },
             {
               "unit": 2,
-              "topics": "Incomplete block design: Balanced incomplete block designs, simple lattice designs, Two- associate partially balanced incomplete block designs: association scheme and intra block analysis, group divisible designs. 10"
+              "topics": "Incomplete block design: Balanced incomplete block designs, simple lattice designs, Two- associate partially balanced incomplete block designs: association scheme and intra block analysis, group divisible designs."
             },
             {
               "unit": 3,
-              "topics": "General factorial experiments, factorial effects; estimates and testing the significance of factorial effects; study of 2n and 3r factorial experiments in randomized blocks; complete and partial confounding, construction of symmetrical confounded factorial experiments, fractional replications for symmetrical factorials, split plot and strip-plot experiments. 15"
+              "topics": "General factorial experiments, factorial effects; estimates and testing the significance of factorial effects; study of 2n and 3r factorial experiments in randomized blocks; complete and partial confounding, construction of symmetrical confounded factorial experiments, fractional replications for symmetrical factorials, split plot and strip-plot experiments."
             },
             {
               "unit": 4,
-              "topics": "Application areas: Response surface experiments; first order designs, and orthogonal designs; clinical trials, treatment-control designs; model variation and use of transformation; Tukey’s test for additivity. 10"
+              "topics": "Application areas: Response surface experiments; first order designs, and orthogonal designs; clinical trials, treatment-control designs; model variation and use of transformation; Tukey’s test for additivity."
             }
+          ],
+          "suggested_books": [
+            "Dean, A., & Voss, D. (2023). Design and Analysis of Experiments (7th ed.). Springer.",
+            "Montgomery, C. D. (2023). Design and Analysis of Experiment (9th ed.). Wiley, New York.",
+            "Myers, R. H. (2016). Response Surface Methodology (4th ed.). John Wiley & Sons.",
+            "Dey, A. (1986). Theory of Block Designs. Wiley Eastern.",
+            "Das, M., & Giri, N. (1979). Design and Analysis of Experiments. Wiley Eastern.",
+            "Joshi, D. D. (1987). Linear Estimation and Design of Experiments. Wiley Eastern.",
+            "Giri, N. (1986). Analysis of Variance. South Asian Publishers."
           ]
         },
         {
@@ -1277,24 +1606,32 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Overview of multivariate data, multivariate normal distribution and its properties. Random sampling from multivariate normal distribution. Maximum likelihood estimators of parameters, distribution of sample mean vector, testing of mean vector for one and two sample problems. 15 617"
+              "topics": "Overview of multivariate data, multivariate normal distribution and its properties. Random sampling from multivariate normal distribution. Maximum likelihood estimators of parameters, distribution of sample mean vector, testing of mean vector for one and two sample problems."
             },
             {
               "unit": 2,
-              "topics": "Wishart matrix – its distribution and properties, distribution of sample generalized variance, testing of equality of covariance matrices. Overview of multiple and partial correlation coefficients, null and non-null distribution of multiple correlation coefficients. 8"
+              "topics": "Wishart matrix – its distribution and properties, distribution of sample generalized variance, testing of equality of covariance matrices. Overview of multiple and partial correlation coefficients, null and non-null distribution of multiple correlation coefficients."
             },
             {
               "unit": 3,
-              "topics": "Hotelling’s T2 statistic – its distribution and properties, applications in testing of mean vector for one and more multivariate normal population and on equality of components of mean vector in two multivariate normal populations. Mahalanobis D2 statistic and its distribution. 7"
+              "topics": "Hotelling’s T2 statistic – its distribution and properties, applications in testing of mean vector for one and more multivariate normal population and on equality of components of mean vector in two multivariate normal populations. Mahalanobis D2 statistic and its distribution."
             },
             {
               "unit": 4,
-              "topics": "Discrimination & classification, procedure of classification based on several multivariate populations with emphasis on multivariate normal populations, probability of misclassification, idea of sample discriminant function. 8"
+              "topics": "Discrimination & classification, procedure of classification based on several multivariate populations with emphasis on multivariate normal populations, probability of misclassification, idea of sample discriminant function."
             },
             {
               "unit": 5,
-              "topics": "Idea of Principal components analysis, Canonical correlation analysis with their applications. 7"
+              "topics": "Idea of Principal components analysis, Canonical correlation analysis with their applications."
             }
+          ],
+          "suggested_books": [
+            "Johnson, R. A., & Wichern, D. W. (2015). Applied Multivariate Statistical Analysis (6th ed.). Pearson.",
+            "Anderson, T. W. (2003). An Introduction to Multivariate Statistical Analysis (3rd ed.). Wiley.",
+            "Morrison, D. F. (2004). Multivariate Statistical Methods (4th ed.). Brooks/Cole.",
+            "Muirhead, R. J. (1982). Aspects of Multivariate Statistical Theory. Wiley.",
+            "Carroll, J. D., & Green, P. E. (2002). Analyzing Multivariate Data. Cengage Learning.",
+            "Hair, J. F., Black, W. C., Anderson, R. E., & Tatham, R. L. (2006). Multivariate Data Analysis (7th ed.). Pearson."
           ]
         },
         {
@@ -1305,20 +1642,32 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "An overview of Statistical Decision Theory, decision problem and 2-person game, loss functions, risk functions, decision rules and utilty functions. Concept of admissibility, minimaxity and completeness, Bayes rules, admissibility of Bayes rules. 14 618"
+              "topics": "An overview of Statistical Decision Theory, decision problem and 2-person game, loss functions, risk functions, decision rules and utilty functions. Concept of admissibility, minimaxity and completeness, Bayes rules, admissibility of Bayes rules."
             },
             {
               "unit": 2,
-              "topics": "Different types of informative and non-informative prior distributions: conjugate priors, Jeffreys’ priors, maximum entropy priors, invariant priors. Summarizing posterior distributions and the posterior as an average of the prior and data. 12"
+              "topics": "Different types of informative and non-informative prior distributions: conjugate priors, Jeffreys’ priors, maximum entropy priors, invariant priors. Summarizing posterior distributions and the posterior as an average of the prior and data."
             },
             {
               "unit": 3,
-              "topics": "Bayes point and interval estimation, comparisons with likelihood based inferences; inferences for standard parameter models. Concepts of prior odds, posterior odds, Bayes factors. Bayes testing for simple and composite hypotheses. Lindley’;s paradox, Bayesian model checking and comparison, Predictive distribution. Brief Idea of point and interval prediction. 14"
+              "topics": "Bayes point and interval estimation, comparisons with likelihood based inferences; inferences for standard parameter models. Concepts of prior odds, posterior odds, Bayes factors. Bayes testing for simple and composite hypotheses. Lindley’;s paradox, Bayesian model checking and comparison, Predictive distribution. Brief Idea of point and interval prediction."
             },
             {
               "unit": 4,
-              "topics": "Elementary idea of Bayesian computation. 5"
+              "topics": "Elementary idea of Bayesian computation."
             }
+          ],
+          "suggested_books": [
+            "Berger, J.O. (1985): Statistical Decision Theory and Bayesian Analysis, Springer Verlag.",
+            "Robert, C.P. and Casella, G. (2004): Monte Carlo Statistical Methods, Springer Verlag.",
+            "Leonard, T., & Hsu, J. S. (2001). Bayesian methods: an analysis for statisticians and interdisciplinary researchers (Vol. 5). Cambridge University Press.",
+            "Bernardo, J. M., & Smith, A. F. (2000). Bayesian theory. John Wiley & Sons.",
+            "Robert, C. P. (2007). The Bayesian choice: from decision-theoretic foundations to computational implementation (Vol. 2). New York: Springer.",
+            "Gamerman, D., & Lopes, H. F. (2006). Markov chain Monte Carlo: stochastic simulation for Bayesian inference. Chapman and Hall/CRC.",
+            "Box, G.P. and Tiao, G.C(1992): Bayesian Inference in Statistical Analysis, Addison-Wesley.",
+            "Gelman, A., Carlin, J. B., Stern, H. S., & Rubin, D. B. (1995). Bayesian data analysis. Chapman and Hall/CRC.",
+            "Bansal, A.K. (2007). Bayesian Parametric Inference. Alpha Science International Ltd.",
+            "Sinha, S.K. (1998). Bayesian Estimation. New Age International Pvt. Ltd."
           ]
         },
         {
@@ -1333,20 +1682,33 @@
             },
             {
               "unit": 2,
-              "topics": "Data Preprocessing and Visualization: Data cleaning and handling missing values. Feature scaling and normalization. Handling categorical variables. Exploratory data analysis and visualization using Python libraries (e.g., Pandas, Matplotlib, Seaborn). 8"
+              "topics": "Data Preprocessing and Visualization: Data cleaning and handling missing values. Feature scaling and normalization. Handling categorical variables. Exploratory data analysis and visualization using Python libraries (e.g., Pandas, Matplotlib, Seaborn)."
             },
             {
               "unit": 3,
-              "topics": "Regression Analysis: Linear regression and multiple linear regression. Polynomial regression and feature transformation. Regularization techniques (L1, L2). Evaluation metrics for regression models. Classification Methods: Logistic regression and probabilistic models. Naive Bayes classifiers. Decision trees and ensemble methods (random forests, boosting). Support vector machines for classification. Performance evaluation and metrics for classification models. 12"
+              "topics": "Regression Analysis: Linear regression and multiple linear regression. Polynomial regression and feature transformation. Regularization techniques (L1, L2). Evaluation metrics for regression models. Classification Methods: Logistic regression and probabilistic models. Naive Bayes classifiers. Decision trees and ensemble methods (random forests, boosting). Support vector machines for classification. Performance evaluation and metrics for classification models."
             },
             {
               "unit": 4,
-              "topics": "Unsupervised Learning Techniques: Clustering algorithms (K-means, hierarchical clustering). Dimensionality reduction techniques (PCA, t-SNE). Evaluation and validation of clustering results. 10"
+              "topics": "Unsupervised Learning Techniques: Clustering algorithms (K-means, hierarchical clustering). Dimensionality reduction techniques (PCA, t-SNE). Evaluation and validation of clustering results."
             },
             {
               "unit": 5,
-              "topics": "Introduction to Neural Networks: Basics of artificial neural networks (ANNs). Activation functions and training algorithms. Feedforward neural networks. Backpropagation algorithm. 10"
+              "topics": "Introduction to Neural Networks: Basics of artificial neural networks (ANNs). Activation functions and training algorithms. Feedforward neural networks. Backpropagation algorithm."
             }
+          ],
+          "suggested_books": [
+            "Hastie, T., Tibshirani, R., & Friedman, J. H. (2009). The Elements of Statistical Learning: Data Mining, Inference, and Prediction (2nd ed.). Springer.",
+            "Géron, A. (2019). Hands-On Machine Learning with Scikit-Learn, Keras, &TensorFlow: Concepts, Tools, and Techniques for Building Intelligent Systems (2nd ed.). O'Reilly Media.",
+            "Müller, A. C., & Guido, S. (2016). Introduction to Machine Learning with Python: A Guide for Data Scientists. O'Reilly Media.",
+            "Raschka, S. (2017). Python Machine Learning: Machine Learning in Python: A Practical Introduction with Scikit- learn (2nd ed.). Packt Publishing.",
+            "Aurélien, G. (2017). Deep Learning with Python. Packt Publishing.",
+            "Chollet, F. (2018). Deep Learning with Keras. Manning Publications.",
+            "Liu, J., Tang, X., & Liu, H. (2019). Practical Machine Learning: A Python-Based Guide. O'Reilly Media",
+            "John M. Zelle, Python Programming: An Introduction to Computer Science, 2004.",
+            "Chun W. J. (2010), Core Python Programming, Pearson.",
+            "Murphy, K. P. (2012). Machine learning: A probabilistic perspective. MIT Press.",
+            "Goodfellow, I., Bengio, Y., &Courville, A. (2016). Deep learning. MIT Press."
           ]
         },
         {
@@ -1357,16 +1719,25 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "4"
+              "topics": ""
             },
             {
               "unit": 2,
-              "topics": "6"
+              "topics": ""
             },
             {
               "unit": 3,
-              "topics": "&IV 20"
+              "topics": "&IV"
             }
+          ],
+          "suggested_books": [
+            "Chattamvelli, R., & Shanmugam, R. (2023). Descriptive statistics for scientists and engineers. Springer.",
+            "Holcomb, Z. (2016). Fundamentals of descriptive statistics. Routledge.",
+            "Kore, B. G., & Dixit, P. G. (2022). Descriptive Statistics-I. Nirali Prakashan, Pune.",
+            "Goon A.M., Gupta A.K. and Das Gupta B. (2014): Fundamental of Statistics, Vol. I (5th edition), World Press, Calcutta.",
+            "Mood A.M., Greybill, F.A. and Boes D.C. (1974): Introduction to the Theory of Statistics, McGraw Hill.",
+            "Freund, R. J., & Wilson, W. J. (2003). Statistical Methods, Elsevier.",
+            "Croxton F.E., Cowden D.J. and Karlin S. (1973) Applied General Statistics."
           ]
         },
         {
@@ -1377,8 +1748,17 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "3"
+              "topics": ""
             }
+          ],
+          "suggested_books": [
+            "Chattamvelli, R., & Shanmugam, R. (2023). Descriptive statistics for scientists and engineers. Springer.",
+            "Holcomb, Z. (2016). Fundamentals of descriptive statistics. Routledge.",
+            "Kore, B. G., & Dixit, P. G. (2022). Descriptive Statistics-I. Nirali Prakashan, Pune.",
+            "Goon A.M., Gupta A.K. and Das Gupta B. (2014): Fundamental of Statistics, Vol. I (5th edition), World Press, Calcutta.",
+            "Mood A.M., Greybill, F.A. and Boes D.C. (1974): Introduction to the Theory of Statistics, McGraw Hill.",
+            "Freund, R. J., & Wilson, W. J. (2003). Statistical Methods, Elsevier.",
+            "Croxton F.E., Cowden D.J. and Karlin S. (1973) Applied General Statistics."
           ]
         },
         {
@@ -1393,15 +1773,15 @@
             },
             {
               "unit": 2,
-              "topics": "Compound, truncated and mixture distributions, multiple and partial correlations, linear and multiple regressions. Markov, Holder, Jensen, Liapunov inequalities. 10"
+              "topics": "Compound, truncated and mixture distributions, multiple and partial correlations, linear and multiple regressions. Markov, Holder, Jensen, Liapunov inequalities."
             },
             {
               "unit": 3,
-              "topics": "Sampling distributions, non-central chi-square, t and F distributions and their properties. Distributions of quadratic forms under normality and related distribution theory. 10"
+              "topics": "Sampling distributions, non-central chi-square, t and F distributions and their properties. Distributions of quadratic forms under normality and related distribution theory."
             },
             {
               "unit": 4,
-              "topics": "Order statistics, their distributions and properties, joint and marginal distributions of order statistics, moments of order statistics and recurrence relations, extreme values and their asymptotic distributions with applications. approximating distributions Δ-Method & its applications, approximating distributions of sample moments, transformations of statistics. 10"
+              "topics": "Order statistics, their distributions and properties, joint and marginal distributions of order statistics, moments of order statistics and recurrence relations, extreme values and their asymptotic distributions with applications. approximating distributions Δ-Method & its applications, approximating distributions of sample moments, transformations of statistics."
             }
           ]
         },
@@ -1413,19 +1793,19 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Coverage and content errors in demographic data, Chandrasekharan—Deming formula to check completeness of registration data, adjustment of age data- use of Whipple, Myer and UN indices. Population transition theory. 10 622"
+              "topics": "Coverage and content errors in demographic data, Chandrasekharan—Deming formula to check completeness of registration data, adjustment of age data- use of Whipple, Myer and UN indices. Population transition theory."
             },
             {
               "unit": 2,
-              "topics": "Measures of fertility; stochastic models for reproduction, distributions of time of birth, inter-live birth intervals and of number of births (for both homogeneous and homogeneous groups of women), estimation of parameters; estimation of parity progression from open birth interval data. 10"
+              "topics": "Measures of fertility; stochastic models for reproduction, distributions of time of birth, inter-live birth intervals and of number of births (for both homogeneous and homogeneous groups of women), estimation of parameters; estimation of parity progression from open birth interval data."
             },
             {
               "unit": 3,
-              "topics": "Measures of Mortality; construction of abridged life tables, infant mortality rate and its adjustments, model life table.Stable and quasi-stable populations, intrinsic growth rate. Models of population growth and their filling to population data. 10"
+              "topics": "Measures of Mortality; construction of abridged life tables, infant mortality rate and its adjustments, model life table.Stable and quasi-stable populations, intrinsic growth rate. Models of population growth and their filling to population data."
             },
             {
               "unit": 4,
-              "topics": "Internal migration and its measurement, migration models, concept of international migration.Methods for population projection, component method of population projection, Nuptiality and its measurements. 15"
+              "topics": "Internal migration and its measurement, migration models, concept of international migration.Methods for population projection, component method of population projection, Nuptiality and its measurements."
             }
           ]
         },
@@ -1437,7 +1817,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Bayesian Inference 3"
+              "topics": "Bayesian Inference"
             }
           ]
         },
@@ -1449,19 +1829,19 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "3 1 (Total) 45 30 75 Course Objectives 1. To explain the concepts of errors in sample surveys 2. To explain the of RRT 3. To understand the problem of small area estimation Non–Sampling Errors:Different kinds of non – sampling errors. Frame imperfections. Estimation in the presence of frame imperfections. Non–Response:Sources of non – response; unit and item non – response and their measures; Dealing with non – response : call backs and follow – ups; sub-sampling of non – respondents; imputation techniques for unit and item non – response. 11"
+              "topics": "3 1 (Total) 45 30 75 Course Objectives 1. To explain the concepts of errors in sample surveys 2. To explain the of RRT 3. To understand the problem of small area estimation Non–Sampling Errors:Different kinds of non – sampling errors. Frame imperfections. Estimation in the presence of frame imperfections. Non–Response:Sources of non – response; unit and item non – response and their measures; Dealing with non – response : call backs and follow – ups; sub-sampling of non – respondents; imputation techniques for unit and item non – response."
             },
             {
               "unit": 2,
-              "topics": "Measurement Errors:Nature of measurement errors; models of measurement errors for estimating population parameters. Interpenetrating sub-samples. 11"
+              "topics": "Measurement Errors:Nature of measurement errors; models of measurement errors for estimating population parameters. Interpenetrating sub-samples."
             },
             {
               "unit": 3,
-              "topics": "Randomized Response Technique:Warner’s model; related and unrelated questionnaire models; use of binary responses. 13"
+              "topics": "Randomized Response Technique:Warner’s model; related and unrelated questionnaire models; use of binary responses."
             },
             {
               "unit": 4,
-              "topics": "Issues in Small Area Estimation:Preliminaries; background of domain estimation; basic estimation methods for domains; direct estimators; synthetic estimators; generalized regression estimators. 10"
+              "topics": "Issues in Small Area Estimation:Preliminaries; background of domain estimation; basic estimation methods for domains; direct estimators; synthetic estimators; generalized regression estimators."
             }
           ]
         },
@@ -1473,23 +1853,23 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Basic concepts of process monitoring and control; process capability and process optimization. 6"
+              "topics": "Basic concepts of process monitoring and control; process capability and process optimization."
             },
             {
               "unit": 2,
-              "topics": "General theory and review of control charts for attribute and variable data; O.C. and A.R.L. of control charts; control by gauging; moving average and exponentially weighted moving average charts; Cu-Sum charts using V-masks and decision intervals; Economic 16"
+              "topics": "General theory and review of control charts for attribute and variable data; O.C. and A.R.L. of control charts; control by gauging; moving average and exponentially weighted moving average charts; Cu-Sum charts using V-masks and decision intervals; Economic"
             },
             {
               "unit": 3,
-              "topics": "Acceptance sampling plans for attributes inspection; single and double sampling plans and their properties; plans for inspection by variables for one-sided and two sided specification. Mil Std. and IS plans; continuous sampling plans of Dodge type and Wald- Wolfowitz type an d then properties. Sequential sampling plan and its properties; Bayesian sampling plans. 9"
+              "topics": "Acceptance sampling plans for attributes inspection; single and double sampling plans and their properties; plans for inspection by variables for one-sided and two sided specification. Mil Std. and IS plans; continuous sampling plans of Dodge type and Wald- Wolfowitz type an d then properties. Sequential sampling plan and its properties; Bayesian sampling plans."
             },
             {
               "unit": 4,
-              "topics": "Capability indices Cp, Cpk and Cpm; estimation, confidence intervals and tests of hypotheses relating to capability indices for normally distributed characteristics. 7"
+              "topics": "Capability indices Cp, Cpk and Cpm; estimation, confidence intervals and tests of hypotheses relating to capability indices for normally distributed characteristics."
             },
             {
               "unit": 5,
-              "topics": "Use of design of experiments in SPC; factorial experiments, fractional factorial designs; construction of such designs and analysis of data.Multivariate quality control; use of control ellipsoid and of utility functions. 7"
+              "topics": "Use of design of experiments in SPC; factorial experiments, fractional factorial designs; construction of such designs and analysis of data.Multivariate quality control; use of control ellipsoid and of utility functions."
             }
           ]
         },
@@ -1501,7 +1881,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1"
+              "topics": ""
             }
           ]
         },
@@ -1517,16 +1897,25 @@
             },
             {
               "unit": 2,
-              "topics": "Incomplete block design: Balanced incomplete block designs, simple lattice designs, Two- associate partially balanced incomplete block designs: association scheme and intra block analysis, group divisible designs. 10"
+              "topics": "Incomplete block design: Balanced incomplete block designs, simple lattice designs, Two- associate partially balanced incomplete block designs: association scheme and intra block analysis, group divisible designs."
             },
             {
               "unit": 3,
-              "topics": "General factorial experiments, factorial effects; estimates and testing the significance of factorial effects; study of 2n and 3r factorial experiments in randomized blocks; complete and partial confounding, construction of symmetrical confounded factorial experiments, fractional replications for symmetrical factorials, split plot and strip-plot experiments. 15"
+              "topics": "General factorial experiments, factorial effects; estimates and testing the significance of factorial effects; study of 2n and 3r factorial experiments in randomized blocks; complete and partial confounding, construction of symmetrical confounded factorial experiments, fractional replications for symmetrical factorials, split plot and strip-plot experiments."
             },
             {
               "unit": 4,
-              "topics": "Application areas: Response surface experiments; first order designs, and orthogonal designs; clinical trials, treatment-control designs; model variation and use of transformation; Tukey’s test for additivity. 10"
+              "topics": "Application areas: Response surface experiments; first order designs, and orthogonal designs; clinical trials, treatment-control designs; model variation and use of transformation; Tukey’s test for additivity."
             }
+          ],
+          "suggested_books": [
+            "Dean, A., & Voss, D. (2023). Design and Analysis of Experiments (7th ed.). Springer.",
+            "Montgomery, C. D. (2023). Design and Analysis of Experiment (9th ed.). Wiley, New York.",
+            "Myers, R. H. (2016). Response Surface Methodology (4th ed.). John Wiley & Sons.",
+            "Dey, A. (1986). Theory of Block Designs. Wiley Eastern.",
+            "Das, M., & Giri, N. (1979). Design and Analysis of Experiments. Wiley Eastern.",
+            "Joshi, D. D. (1987). Linear Estimation and Design of Experiments. Wiley Eastern.",
+            "Giri, N. (1986). Analysis of Variance. South Asian Publishers."
           ]
         },
         {
@@ -1537,16 +1926,25 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "4"
+              "topics": ""
             },
             {
               "unit": 2,
-              "topics": "6"
+              "topics": ""
             },
             {
               "unit": 3,
               "topics": "&IV 20 Semester VIIIR"
             }
+          ],
+          "suggested_books": [
+            "Chattamvelli, R., & Shanmugam, R. (2023). Descriptive statistics for scientists and engineers. Springer.",
+            "Holcomb, Z. (2016). Fundamentals of descriptive statistics. Routledge.",
+            "Kore, B. G., & Dixit, P. G. (2022). Descriptive Statistics-I. Nirali Prakashan, Pune.",
+            "Goon A.M., Gupta A.K. and Das Gupta B. (2014): Fundamental of Statistics, Vol. I (5th edition), World Press, Calcutta.",
+            "Mood A.M., Greybill, F.A. and Boes D.C. (1974): Introduction to the Theory of Statistics, McGraw Hill.",
+            "Freund, R. J., & Wilson, W. J. (2003). Statistical Methods, Elsevier.",
+            "Croxton F.E., Cowden D.J. and Karlin S. (1973) Applied General Statistics."
           ]
         },
         {
@@ -1557,7 +1955,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Same as the Major Elective opted 3"
+              "topics": "Same as the Major Elective opted"
             }
           ]
         },

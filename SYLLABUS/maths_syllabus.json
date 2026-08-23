@@ -58,10 +58,15 @@
             }
           ],
           "suggested_books": [
-            "Robert G. Bartle and Donald R. Sherbert, Introduction to Real Analysis, John Wiley and Sons, Inc., 2011.",
-            "George B. Thomas and Ross L. Finney, Calculus and Analytic Geometry, Addison-Wesley / Pearson.",
-            "Howard Anton, Irl Bivens, Stephen Davis, Calculus, John Wiley and Sons.",
-            "Shanti Narayan and P.K. Mittal, Differential Calculus, S. Chand Publishing."
+            "T.M. Apostol: Calculus, Vol I, John Wiley and Sons, Inc., New York, 1967.",
+            "R.G. Bartle; D.R. Sherbert: Introduction to Real Analysis, John Wiley and Sons, Inc., New York, 2011.",
+            "S.R. Ghorpade; B.V. Limaye: A Course in Calculus and Real Analysis, 2nd Edition, Springer,",
+            "Amber Habib, Calculus, Cambridge University Press, 2024.",
+            "G. Prasad: Differential Calculus, Pothishala Pvt. Ltd. Allahabad, 2000.",
+            "G. Prasad: Integral Calculus, Pothishala Pvt. Ltd. Allahabad, 2000.",
+            "A.N. Singh:The Theory and Construction of Non-differentiable Functions, Lucknow University Studies No. I, Newul Kishore Press, Lucknow, 1935.",
+            "N. Saran: Calculus, Pothishala Pvt. Ltd. Allahabad, 1963.",
+            "W.F. Trench: Introduction to Real Analysis, Pearson Education, 2003."
           ]
         },
         {
@@ -118,8 +123,8 @@
             }
           ],
           "suggested_books": [
-            "A. Ghosh, A.K. Singhvi, K. Muralidhar (Editors), Ethics in Science Education, Research and Governance, INSA, 2019.",
-            "M. Aigner and M. Ziegler, Proofs from THE BOOK, Springer, 2001.",
+            "A. Ghosh, A.K. Singhvi, K. Muralidhar (Editors) Ethics in Science Education, Research and Governance, INSA, 2019.",
+            "M. Aigner and M. Ziegler: Proofs from THEBOOK, Springer, 2001.",
             "A. Khare and A. Lachowska, Beautiful, Simple, Exact, Crazy: Mathematics in the Real World, Yale University Press, 2015.",
             "J. Matousek, Thirty-three Miniatures: Mathematical and Algorithmic Applications of Linear Algebra, American Mathematical Society, 1991."
           ]
@@ -151,7 +156,7 @@
           "suggested_books": [
             "Erin N. Bodine, Suzanne Lenhart, and Louis J. Gross, Mathematics for the Life Sciences, Princeton University Press, 2014.",
             "William F. Trench, Introduction to Real Analysis, Pearson Education, 2003.",
-            "George B. Thomas, Ross L. Finney, Calculus and Analytic Geometry, 1998."
+            "George B. Thomas, Ross L.Finney, Calculus and Analytic Geometry, 1998."
           ]
         },
         {
@@ -170,7 +175,7 @@
             },
             {
               "unit": 3,
-              "topics": "Relation, equivalence relation, and equivalence class. Division algorithm in \u2124, Divisibility, and the Euclidean algorithm, Fundamental theorem of arithmetic, Modular arithmetic, and basic properties of congruence."
+              "topics": "Relation, equivalence relation, and equivalence class. Division algorithm in ℤ, Divisibility, and the Euclidean algorithm, Fundamental theorem of arithmetic, Modular arithmetic, and basic properties of congruence."
             },
             {
               "unit": 4,
@@ -182,11 +187,11 @@
             }
           ],
           "suggested_books": [
-            "W.S. Burnside, and A.W. Panton, The Theory of Equations, Vol. 1. Eleventh Edition, Dover Publications, Inc., 1979.",
+            "W.S. Burnside, and A.W. Panton, The Theory of Equations, Vol. 1. Eleventh Edition,Dover Publications, Inc., 1979.",
             "David M. Burton. Elementary Number Theory, 7th Edition, McGraw-Hill Education, 2011.",
-            "Leonard Eugene Dickson, First Course in the Theory of Equations. John Wiley & Sons, Inc., 2009.",
-            "I.N. Herstein, Topics in Algebra, John Wiley and Sons, 2nd edition, 2004.",
-            "D.S. Malik, J.M. Mordeson and M.K. Sen, Fundamentals of Abstract Algebra, The McGraw-Hill Companies, Inc., 1997."
+            "Leonard Eugene Dickson, First Course in the Theory of Equations. John Wiley & Sons, Inc.,",
+            "I.N. Herstein, Topics in Algebra John Wiley and Sons, 2nd edition, 2004.",
+            "D.S. Malik, J.M. Mordeson and M.K. Sen, Fundamentals of Abstract Algebra, The McGraw- Hill Companies, Inc., 1997."
           ]
         },
         {
@@ -205,7 +210,7 @@
             },
             {
               "unit": 3,
-              "topics": "Relation, equivalence relation, and equivalence class. Division algorithm in \u2124, Divisibility, and the Euclidean algorithm, Fundamental theorem of arithmetic, Modular arithmetic, and basic properties of congruence."
+              "topics": "Relation, equivalence relation, and equivalence class. Division algorithm in ℤ, Divisibility, and the Euclidean algorithm, Fundamental theorem of arithmetic, Modular arithmetic, and basic properties of congruence."
             },
             {
               "unit": 4,
@@ -241,8 +246,8 @@
           ],
           "suggested_books": [
             "Donald E. Knuth, The TEXbook, Addison-Wesley Publishing Company, 1991.",
-            "Leslie Lamport, LaTeX: A Document Preparation System, Addison-Wesley Publishing Company, 1994.",
-            "Michael Spivak, The Joy of TeX: A Gourmet Guide to Typesetting with the AMSTeX, American Mathematical Society, 1990."
+            "Leslie Lamport, A Document Preparation System, Addison-Wesley Publishing Company,",
+            "Michael Spivak, The Joy of TeX: A Gourmet Guide to Typesetting with the AMSTeX, American Mathematical Society,1990."
           ]
         }
       ]
@@ -258,16 +263,21 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Definition of an Integral, Antiderivatives, Fundamental Theorem of Calculus, Antiderivatives and Integrals, Average Values. Substitution Method, Integration by Parts. Definite Integral and its applications. 15 479 Course Title"
+              "topics": "Definition of an Integral, Antiderivatives, Fundamental Theorem of Calculus, Antiderivatives and Integrals, Average Values. Substitution Method, Integration by Parts. Definite Integral and its applications."
             },
             {
               "unit": 2,
-              "topics": "The Area between Two Curves, The Volume of a Solid of Revolution,Density Functions 15"
+              "topics": "The Area between Two Curves, The Volume of a Solid of Revolution,Density Functions"
             },
             {
               "unit": 3,
-              "topics": "Introduction to Differential Equations, Separation of Variables Method, Models of Limited Population Growth, Equilibria and Stability, Homeostasis 15 Texts /"
+              "topics": "Introduction to Differential Equations, Separation of Variables Method, Models of Limited Population Growth, Equilibria and Stability, Homeostasis"
             }
+          ],
+          "suggested_books": [
+            "Erin N. Bodine, Suzanne Lenhart, and Louis J. Gross, Mathematics for the Life Sciences, Princeton University Press, 2014.",
+            "William F. Trench, Introduction to Real Analysis, Pearson Education, 2003.",
+            "George B. Thomas, Ross L. Finney, Calculus and Analytic Geometry, 1998."
           ]
         },
         {
@@ -278,24 +288,31 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Vector spaces, Subspaces, Span, Bases, Dimension, sum and quotient of Vector spaces, Maps of vector spaces, Linear transformations, Isomorphism, Rank and nullity, Dual space, Transpose, and annihilator. 12 475 Course Title"
+              "topics": "Vector spaces, Subspaces, Span, Bases, Dimension, sum and quotient of Vector spaces, Maps of vector spaces, Linear transformations, Isomorphism, Rank and nullity, Dual space, Transpose, and annihilator."
             },
             {
               "unit": 2,
-              "topics": "Matrix of a linear Transformation, similar matrices, change of basis, Rank of Matrix, Normal form, System of linear equations and their solutions. 12"
+              "topics": "Matrix of a linear Transformation, similar matrices, change of basis, Rank of Matrix, Normal form, System of linear equations and their solutions."
             },
             {
               "unit": 3,
-              "topics": "Inner product spaces and theirproperties, orthogonality, and orthonormalization, Orthogonal complement Adjoint of a linear transformation. 12"
+              "topics": "Inner product spaces and theirproperties, orthogonality, and orthonormalization, Orthogonal complement Adjoint of a linear transformation."
             },
             {
               "unit": 4,
-              "topics": "Orthogonal and Unitary transformations. Hermitian and skew Hermitian matrices. Invariant subspaces, Eigenvalues and eigenvectors, Characteristic polynomial, Cayley-Hamilton Theorem. 12"
+              "topics": "Orthogonal and Unitary transformations. Hermitian and skew Hermitian matrices. Invariant subspaces, Eigenvalues and eigenvectors, Characteristic polynomial, Cayley-Hamilton Theorem."
             },
             {
               "unit": 5,
-              "topics": "Diagonalization and triangularization, Cyclic Subspaces, Nilpotent transformations, Canonical Forms. Bilinear form, matrix representation, Quadratic forms, and application to classification of curves and surfaces. 12 Texts /"
+              "topics": "Diagonalization and triangularization, Cyclic Subspaces, Nilpotent transformations, Canonical Forms. Bilinear form, matrix representation, Quadratic forms, and application to classification of curves and surfaces."
             }
+          ],
+          "suggested_books": [
+            "Artin, M. : Algebra, Prentice-Hall, 1994.",
+            "Herstein, I. N. : Topics in Algebra, Wiley Eastern, 1987.",
+            "Hoffman, K. and Kunze, R. : Linear Algebra, Prentice-Hall, 1972.",
+            "Halmos, P. R. : Finite-Dimensional Vector Spaces, Springer-Verlag, 1993.",
+            "Kwak, Jin Ho; Hong, Sungpyo Linear algebra. Second edition. Birkhäuser Boston, Inc., Boston, MA, 2004."
           ]
         },
         {
@@ -306,24 +323,31 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "The Real numbers: The Algebraic and Order Properties of \u211d. Absolute Value and Real Line. 12 476 Course Title"
+              "topics": "The Real numbers: The Algebraic and Order Properties of ℝ. Absolute Value and Real Line."
             },
             {
               "unit": 2,
-              "topics": "The Completeness Property of \u211d. Applications of the Supremum Property. Limit superior and limit inferior of sequences. Monotone convergence theorem. 12"
+              "topics": "The Completeness Property of ℝ. Applications of the Supremum Property. Limit superior and limit inferior of sequences. Monotone convergence theorem."
             },
             {
               "unit": 3,
-              "topics": "Alternating series, absolute convergent series. Dirichlet's and Abel's test. Riemann Integral, Integrability of continuous and monotonic Functions. 12"
+              "topics": "Alternating series, absolute convergent series. Dirichlet's and Abel's test. Riemann Integral, Integrability of continuous and monotonic Functions."
             },
             {
               "unit": 4,
-              "topics": "Fundamental theorem of integral calculus, Mean Value theorems of integral calculus. 12"
+              "topics": "Fundamental theorem of integral calculus, Mean Value theorems of integral calculus."
             },
             {
               "unit": 5,
-              "topics": "Improper integrals and their convergence. Comparison test, Beta and Gamma functions, Abel's and Dirichlet's test, Integral as a function of a parameter and its applications. 12 Texts /"
+              "topics": "Improper integrals and their convergence. Comparison test, Beta and Gamma functions, Abel's and Dirichlet's test, Integral as a function of a parameter and its applications."
             }
+          ],
+          "suggested_books": [
+            "T. M. Apostol, Mathematical Analysis, Narosa Publishing House, New Delhi, 1985.",
+            "Richard Dedekind, What Are Numbers and What Should They Be? (A Classic Work) (Revised, edited and translated by H. Pogorzelski, W. Ryan and W. Snyder, Research Institute for Mathematics, Orono, Maine, 1995.",
+            "R. R. Goldberg, Real Analysis, Oxford & IBH Publishing Company, New Delhi, 1970.",
+            "S. Lang, Undergraduate Analysis, Springer-Verlag, New York, 1983.",
+            "W. Rudin, Principles of Mathematical Analysis, McGraw-Hill, 2023."
           ]
         },
         {
@@ -334,16 +358,21 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Fundamental concepts: Literals, variables and identifiers, strings, operators, expressions and data types, Control structures 15 477 Course Title"
+              "topics": "Fundamental concepts: Literals, variables and identifiers, strings, operators, expressions and data types, Control structures"
             },
             {
               "unit": 2,
-              "topics": "Boolean expressions, selection control, iterative control Lists: List structures, Lists, (sequences), iterating over lists; Changing, adding, removing elements, Tuples, 15"
+              "topics": "Boolean expressions, selection control, iterative control Lists: List structures, Lists, (sequences), iterating over lists; Changing, adding, removing elements, Tuples,"
             },
             {
               "unit": 3,
-              "topics": "Dictionaries and sets Functions: Program routines, calling value-returning functions, calling non value-returning functions, parameter passing, return values, variable scope. 15 Texts /"
+              "topics": "Dictionaries and sets Functions: Program routines, calling value-returning functions, calling non value-returning functions, parameter passing, return values, variable scope."
             }
+          ],
+          "suggested_books": [
+            "Eric Matthes, Python Crash Course A Hands on, Project based Introduction to Programming, 2016, William Pollock, No Starch Press, Inc.",
+            "Mark Lutz, Learning Python,O’reilly,2009.",
+            "S.Sridhar, J. Indumathi, V.M. Hariharan, Python Programming, Pearson,"
           ]
         },
         {
@@ -354,16 +383,20 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Introduction to SageMath: Overview of SageMath: What is it and why use it?, Installing SageMath (locally or using SageMathCell/CoCalc)., Introduction to the SageMath interface and basic commands., Creating and running SageMath notebooks. Arithmetic operations and basic functions. Algebra with SageMath: Working with symbolic expressions and variables. Simplifying expressions, expanding, and factoring. Solving algebraic equations (linear, quadratic, polynomial). Working with systems of equations. Introduction to matrices and basic matrix operations. Functions and Graphing: Defining and evaluating functions in SageMath. Plotting functions: basic plots, multiple plots, and customizing plots. Exploring more complex graphs: polar plots, parametric plots, and 3D plots. Applications: modeling real-world phenomena with functions and graphs. 15"
+              "topics": "Introduction to SageMath: Overview of SageMath: What is it and why use it?, Installing SageMath (locally or using SageMathCell/CoCalc)., Introduction to the SageMath interface and basic commands., Creating and running SageMath notebooks. Arithmetic operations and basic functions. Algebra with SageMath: Working with symbolic expressions and variables. Simplifying expressions, expanding, and factoring. Solving algebraic equations (linear, quadratic, polynomial). Working with systems of equations. Introduction to matrices and basic matrix operations. Functions and Graphing: Defining and evaluating functions in SageMath. Plotting functions: basic plots, multiple plots, and customizing plots. Exploring more complex graphs: polar plots, parametric plots, and 3D plots. Applications: modeling real-world phenomena with functions and graphs."
             },
             {
               "unit": 2,
-              "topics": "Calculus with SageMath: Limits and continuity. Differentiation: finding derivatives and applying differentiation rules. Integration: definite and indefinite integrals. Series and summation. Applications: solving calculus problems using SageMath. Number Theory and Discrete Mathematics: Introduction to number theory: primes, gcd, lcm, and modular arithmetic. Working with integers, rationals, and modular forms. Basic combinatorics: permutations, combinations, and binomial coefficients. Applications in cryptography and coding theory. 15"
+              "topics": "Calculus with SageMath: Limits and continuity. Differentiation: finding derivatives and applying differentiation rules. Integration: definite and indefinite integrals. Series and summation. Applications: solving calculus problems using SageMath. Number Theory and Discrete Mathematics: Introduction to number theory: primes, gcd, lcm, and modular arithmetic. Working with integers, rationals, and modular forms. Basic combinatorics: permutations, combinations, and binomial coefficients. Applications in cryptography and coding theory."
             },
             {
               "unit": 3,
-              "topics": "Linear Algebra in SageMath: Introduction to vectors and vector spaces. Matrix operations: addition, multiplication, and inversion. Solving linear systems using matrix methods. Eigenvalues and eigenvectors. Applications: solving linear algebra problems using SageMath. Advanced Topics in SageMath. Introduction to SageMath packages and libraries (e.g., NumPy, SciPy). Polynomial algebra and advanced algebraic structures. Basic differential equations: solving ODEs and PDEs. Introduction to statistics and probability using SageMath. Applications: using SageMath in research and complex problem-solving. Final Project and Review: Review of all topics covered. Working on a final project (e.g., solving a real-world problem using SageMath). Troubleshooting common issues in SageMath. Course feedback and further learning resources. 15 Texts /"
+              "topics": "Linear Algebra in SageMath: Introduction to vectors and vector spaces. Matrix operations: addition, multiplication, and inversion. Solving linear systems using matrix methods. Eigenvalues and eigenvectors. Applications: solving linear algebra problems using SageMath. Advanced Topics in SageMath. Introduction to SageMath packages and libraries (e.g., NumPy, SciPy). Polynomial algebra and advanced algebraic structures. Basic differential equations: solving ODEs and PDEs. Introduction to statistics and probability using SageMath. Applications: using SageMath in research and complex problem-solving. Final Project and Review: Review of all topics covered. Working on a final project (e.g., solving a real-world problem using SageMath). Troubleshooting common issues in SageMath. Course feedback and further learning resources."
             }
+          ],
+          "suggested_books": [
+            "Gregory V. Bard, SageMath for Undergraduates (online version), 2010.",
+            "Paul Zimmermann, Computational Mathematics with SageMath, SIAM,2019."
           ]
         }
       ]
@@ -379,24 +412,36 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Euclidean \ud835\udc5b-space \u211d\ud835\udc8f. Euclidean norm and Euclidean distance. Tangent spaces in \u211d\ud835\udc8f. Open sets in \u211d\ud835\udc8f. 12 480 Course Title"
+              "topics": "Euclidean 𝑛-space ℝ𝒏. Euclidean norm and Euclidean distance. Tangent spaces in ℝ𝒏. Open sets in ℝ𝒏."
             },
             {
               "unit": 2,
-              "topics": "Functions from \u211d\ud835\udc8f to \u211d\ud835\udc8e. Limit of sequences in \u211d\ud835\udc8e. Limit and continuity of functions from \u211d\ud835\udc8f to \u211d\ud835\udc8e. Partial derivatives and directional derivatives. Gradient of a function. Derivatives of functions between Euclidean space spaces. 12"
+              "topics": "Functions from ℝ𝒏 to ℝ𝒎. Limit of sequences in ℝ𝒎. Limit and continuity of functions from ℝ𝒏 to ℝ𝒎. Partial derivatives and directional derivatives. Gradient of a function. Derivatives of functions between Euclidean space spaces."
             },
             {
               "unit": 3,
-              "topics": "First differential and Jacobian matrix. Change of Variables. Chain Rule. Mean Value Theorem. Euler's Theorem. Inverse Function Theorem and Implicit Function Theorem (Constant Rank Theorem optional). 12"
+              "topics": "First differential and Jacobian matrix. Change of Variables. Chain Rule. Mean Value Theorem. Euler's Theorem. Inverse Function Theorem and Implicit Function Theorem (Constant Rank Theorem optional)."
             },
             {
               "unit": 4,
-              "topics": "Hessian matrix, Second differentials and Taylor Series. Maxima, Minima and Saddles. Lagrange Multipliers. 12"
+              "topics": "Hessian matrix, Second differentials and Taylor Series. Maxima, Minima and Saddles. Lagrange Multipliers."
             },
             {
               "unit": 5,
-              "topics": "Integration: Fubini's Theorem. Applications to area, surface area and volume. Beta and Gamma functions. Dirichlet's theorem, Liouville's theorem. 12 Texts /"
+              "topics": "Integration: Fubini's Theorem. Applications to area, surface area and volume. Beta and Gamma functions. Dirichlet's theorem, Liouville's theorem."
             }
+          ],
+          "suggested_books": [
+            "T.M. Apostol: Mathematical Analysis, Narosa Publishing House, New Delhi, 1985.",
+            "W. Rudin: Principle of Mathematical Analysis (Thrid edition) McGraw-Hill Kogakusha, 1976, International Student Edition.",
+            "J.R. Munkres: Analysis on manifolds. Addison-Wesley Publishing Company, Advanced Book Program, Redwood City,CA, 1991.",
+            "C.H. Edwards: Advanced Calculus of Several Variables, Academic Press, 1973.",
+            "T. M. Apostol: Calculus, Volume 2, 2nd. Ed., Wiley India, 2007.",
+            "J.J. Callahan: Advanced Calculus - A Geometric View, Springer, 2010.",
+            "R. Courant; F. John: Introduction to Calculus and Analysis, Volume 2, John Wiley and Sons,",
+            "J. Cooper: A MATLAB Companion for Multivariable Calculus, Harcourt/Academic Press",
+            "J.R. Magnus; H. Neudecker: Matrix differential calculus with applications in statistics and econometrics. John Wiley and Sons,Third Ed. 2007.",
+            "M. Spivak: Calculus on manifolds. A modern approach to classical theorems of advanced calculus. W. A. Benjamin, Inc., New York-Amsterdam, 1965."
           ]
         },
         {
@@ -407,24 +452,30 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Differential operators: The concept of Gradient, Divergence, and Curl. Helmholtz decomposition. 9 481 Course Title"
+              "topics": "Differential operators: The concept of Gradient, Divergence, and Curl. Helmholtz decomposition."
             },
             {
               "unit": 2,
-              "topics": "Vector Integration: Line, surface, and volume integrals. Integral Theorems: Green's theorem in the plane, Gauss divergence theorems, Stokes' theorem, Green's formulas, and application of these theorems/formulas. 9"
+              "topics": "Vector Integration: Line, surface, and volume integrals. Integral Theorems: Green's theorem in the plane, Gauss divergence theorems, Stokes' theorem, Green's formulas, and application of these theorems/formulas."
             },
             {
               "unit": 3,
-              "topics": "Curvilinear Coordinates: Curvilinear and orthogonal curvilinear coordinate systems and unit vectors. Arc lengths. Volume elements. Gradient, Divergence, and Curl in curvilinear coordinate systems. Some special orthogonal curvilinear coordinate systems. 9"
+              "topics": "Curvilinear Coordinates: Curvilinear and orthogonal curvilinear coordinate systems and unit vectors. Arc lengths. Volume elements. Gradient, Divergence, and Curl in curvilinear coordinate systems. Some special orthogonal curvilinear coordinate systems."
             },
             {
               "unit": 4,
-              "topics": "Tensor Analysis: Contra variant and covariant tensors, mixed tensors, coordinate transformation, and physical laws. Contraction, symmetric, and skew-symmetric tensors. metric tensor, length, and angle between two curves. 9"
+              "topics": "Tensor Analysis: Contra variant and covariant tensors, mixed tensors, coordinate transformation, and physical laws. Contraction, symmetric, and skew-symmetric tensors. metric tensor, length, and angle between two curves."
             },
             {
               "unit": 5,
-              "topics": "Christoffel symbols. Transformation laws of Christoffel symbols. Geodesics. Gradient, Divergence and Curl in tensor form, Derivation. 9 Texts /"
+              "topics": "Christoffel symbols. Transformation laws of Christoffel symbols. Geodesics. Gradient, Divergence and Curl in tensor form, Derivation."
             }
+          ],
+          "suggested_books": [
+            "H. Guo: What are tensors exactly?, World Scienti_c, 2021.",
+            "D.C. Kay: Tensor Analysis, Schaum's Outline Series, McGraw Hill 1988.",
+            "R.S. Mishra: A Course in Tensors with Applications to Reimannian Geometry, Pothishala Pvt. Ltd, Allahabad.",
+            "M.R. Spiegel: Vector Analysis, Schaum's Outline Series, McGraw Hill, 1959."
           ]
         },
         {
@@ -435,24 +486,32 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Differential Equations: Linear differential equations of first order. First order higher degree equations solvable for \ud835\udc65, \ud835\udc66, \ud835\udc67. Singular solution and envelopes. 15 482 Course Title"
+              "topics": "Differential Equations: Linear differential equations of first order. First order higher degree equations solvable for 𝑥, 𝑦, 𝑧. Singular solution and envelopes."
             },
             {
               "unit": 2,
-              "topics": "Linear differential equations with constant coefficients, homogeneous linear differential equations. 15"
+              "topics": "Linear differential equations with constant coefficients, homogeneous linear differential equations."
             },
             {
               "unit": 3,
-              "topics": "Qualitative behaviour of solutions. Method of variation of parameters, linear differential equations of second order with variable coefficients, series solution. 15"
+              "topics": "Qualitative behaviour of solutions. Method of variation of parameters, linear differential equations of second order with variable coefficients, series solution."
             },
             {
               "unit": 4,
-              "topics": "Partial Differential Equations: Formation of partial differential equations, Linear partial differential equations of first order and its classifications, Lagrange's method. 15"
+              "topics": "Partial Differential Equations: Formation of partial differential equations, Linear partial differential equations of first order and its classifications, Lagrange's method."
             },
             {
               "unit": 5,
-              "topics": "Non-linear PDE of first order: Charpit's method. Linear partial differential equation of second and higher order of homogeneous and non-homogeneous forms with constant coefficients, Linear partial differential equations reducible to equations with constant coefficients. 15 Texts /"
+              "topics": "Non-linear PDE of first order: Charpit's method. Linear partial differential equation of second and higher order of homogeneous and non-homogeneous forms with constant coefficients, Linear partial differential equations reducible to equations with constant coefficients."
             }
+          ],
+          "suggested_books": [
+            "E.A. Coddington: An Introduction to Ordinary Differential Equations, Prentice Hall of India,",
+            "M. Braun: Differential equations and their applications. Springer-Verlag, New York, 1993.",
+            "B. Rai; D.P. Choudhary; H.I. Freedman: Ordinary Differential Equations, Narosa Publications, New Delhi, 2002.",
+            "S G Deo, V Raghavendra, Rasmita Kar, V LakshmikanthamTextbook of Ordinary Differential Equations, McGraw Hill Education (India) Private Limited, 2017.",
+            "G.F. Simmons, Differential equations with Applications and Historical notes, CRC Press.",
+            "I.N. Sneddon: Elements of Partial Differential Equations, McGraw-Hill Book Company, 1988."
           ]
         },
         {
@@ -463,24 +522,33 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Laws of vectors in two-dimension(2D): Application to mechanics, Concurrent forces in a plane, System of parallel forces, Coplanar forces, Theory of couples, Resultant Force and couple, Moment of a force about a point and about a line, Moment of a couple, Varignon\u2019s theorem. 9 483 Course Title"
+              "topics": "Laws of vectors in two-dimension(2D): Application to mechanics, Concurrent forces in a plane, System of parallel forces, Coplanar forces, Theory of couples, Resultant Force and couple, Moment of a force about a point and about a line, Moment of a couple, Varignon’s theorem."
             },
             {
               "unit": 2,
-              "topics": "Equilibrium of forces in 2D: Reduction and analytical conditions for the equilibrium of a system of forces acting on a particle and a rigid body, Different forms of the equilibrium conditions; Virtual displacement and virtual work, Principle of virtual work, Deduction of necessary and sufficient conditions for the equilibrium of a system of forces acting on a particle or different points of a rigid body. Application of Hooke\u2019s law related to virtual work. 9"
+              "topics": "Equilibrium of forces in 2D: Reduction and analytical conditions for the equilibrium of a system of forces acting on a particle and a rigid body, Different forms of the equilibrium conditions; Virtual displacement and virtual work, Principle of virtual work, Deduction of necessary and sufficient conditions for the equilibrium of a system of forces acting on a particle or different points of a rigid body. Application of Hooke’s law related to virtual work."
             },
             {
               "unit": 3,
-              "topics": "Dynamics of a particle in 2D: Velocity, acceleration, angular velocity, linear momentum, angular momentum, relative velocity and acceleration, Expressions for velocity and acceleration for the cases of rectilinear and planar motions in Cartesian system, polar system and intrinsic system; Rectilinear motion: simple harmonic motion(SHM), Periodic motion, Amplitude, Time period, Frequency, Phase and epoch 9"
+              "topics": "Dynamics of a particle in 2D: Velocity, acceleration, angular velocity, linear momentum, angular momentum, relative velocity and acceleration, Expressions for velocity and acceleration for the cases of rectilinear and planar motions in Cartesian system, polar system and intrinsic system; Rectilinear motion: simple harmonic motion(SHM), Periodic motion, Amplitude, Time period, Frequency, Phase and epoch"
             },
             {
               "unit": 4,
-              "topics": "Central orbit and Kepler\u2019s laws of motion: Equation of central orbit in polar and pedal form, Motion under inverse square law, Particle moving along elliptic, parabolic, hyperbolic and other polar curves, Kepler\u2019s laws of planetary motion and related problems; Constrained motion on smooth vertical curves: Upward and downward motion along inner smooth surface of a vertical circle (SHM about the vertex), Upward and downward motion along inner smooth surface of a vertical cycloid (SHM about the vertex between two cusps), Time period of SHM and time taken to reach different heights of the cycloid. 9"
+              "topics": "Central orbit and Kepler’s laws of motion: Equation of central orbit in polar and pedal form, Motion under inverse square law, Particle moving along elliptic, parabolic, hyperbolic and other polar curves, Kepler’s laws of planetary motion and related problems; Constrained motion on smooth vertical curves: Upward and downward motion along inner smooth surface of a vertical circle (SHM about the vertex), Upward and downward motion along inner smooth surface of a vertical cycloid (SHM about the vertex between two cusps), Time period of SHM and time taken to reach different heights of the cycloid."
             },
             {
               "unit": 5,
-              "topics": "Forces in 3D: Concept of axis of a couple, Reduction of forces and analytic conditions of equilibrium in 3D, Dyname and components of dyname, Poinsot\u2019s central axis; Definition of a rigid body, Moment of inertia(M.I.) and product of inertia(P.I.), Theorem of parallel axes, Moment of inertia and product of inertia of some symmetrical bodies: Rod, Rectangular plate, Circular ring and disc, Hollow and solid spheres, Principle axes and principal moments, M.I. and P.I. about an inclined lines. 9 Texts /"
+              "topics": "Forces in 3D: Concept of axis of a couple, Reduction of forces and analytic conditions of equilibrium in 3D, Dyname and components of dyname, Poinsot’s central axis; Definition of a rigid body, Moment of inertia(M.I.) and product of inertia(P.I.), Theorem of parallel axes, Moment of inertia and product of inertia of some symmetrical bodies: Rod, Rectangular plate, Circular ring and disc, Hollow and solid spheres, Principle axes and principal moments, M.I. and P.I. about an inclined lines."
             }
+          ],
+          "suggested_books": [
+            "J.L. Synge; B.A. Griffith: Principle of Mechanics, McGraw Hill, 1949.",
+            "F. Chorlton: Textbook of Dynamics, CBS Publishers, India, 2nd Edition, 2002.",
+            "S.L. Loney: An Elementary Treatise on Statics, G.K. Publishers, India, 2016.",
+            "S.L. Loney: An Elementary Treatise on Dynamics of Particle and of Rigid Body, AITS Publishers, India, 1998.",
+            "A.S. Ramsey: Dynamics (Part I & II), CBS Publishers, India, 2002 .",
+            "R.C. Hibbelar: Engineering Mechanics-Statics and Dynamics, Prentice Hall Publishers, 13th Edition,",
+            "H. Goldstein: Classical mechanics, Addison-Wesley Series in Physics, Addiso-Wesley Publishing Co., 2nd Edition, 1980."
           ]
         },
         {
@@ -491,23 +559,23 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Differential Equations: Linear differential equations of first order. First order higher degree equations solvable for \ud835\udc65, \ud835\udc66, \ud835\udc67. Singular solution and envelopes. 15 482 Course Title"
+              "topics": "Differential Equations: Linear differential equations of first order. First order higher degree equations solvable for 𝑥, 𝑦, 𝑧. Singular solution and envelopes."
             },
             {
               "unit": 2,
-              "topics": "Linear differential equations with constant coefficients, homogeneous linear differential equations. 15"
+              "topics": "Linear differential equations with constant coefficients, homogeneous linear differential equations."
             },
             {
               "unit": 3,
-              "topics": "Qualitative behaviour of solutions. Method of variation of parameters, linear differential equations of second order with variable coefficients, series solution. 15"
+              "topics": "Qualitative behaviour of solutions. Method of variation of parameters, linear differential equations of second order with variable coefficients, series solution."
             },
             {
               "unit": 4,
-              "topics": "Partial Differential Equations: Formation of partial differential equations, Linear partial differential equations of first order and its classifications, Lagrange's method. 15"
+              "topics": "Partial Differential Equations: Formation of partial differential equations, Linear partial differential equations of first order and its classifications, Lagrange's method."
             },
             {
               "unit": 5,
-              "topics": "Non-linear PDE of first order: Charpit's method. Linear partial differential equation of second and higher order of homogeneous and non-homogeneous forms with constant coefficients, Linear partial differential equations reducible to equations with constant coefficients. 15 Texts /"
+              "topics": "Non-linear PDE of first order: Charpit's method. Linear partial differential equation of second and higher order of homogeneous and non-homogeneous forms with constant coefficients, Linear partial differential equations reducible to equations with constant coefficients."
             }
           ]
         }
@@ -524,24 +592,30 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Homomorphism, Isomorphism. Subgroup, group generated by a subset, center of a group, coset, Lagrange theorem applications: Euler's theorem, Fermat and Wilson Theorem. 15 484 Course Title"
+              "topics": "Homomorphism, Isomorphism. Subgroup, group generated by a subset, center of a group, coset, Lagrange theorem applications: Euler's theorem, Fermat and Wilson Theorem."
             },
             {
               "unit": 2,
-              "topics": "Product of groups, Normal subgroup, quotient group, Fundamental theorem of homomorphism, first and second isomorphism theorems, Commutator and abelianization. 15"
+              "topics": "Product of groups, Normal subgroup, quotient group, Fundamental theorem of homomorphism, first and second isomorphism theorems, Commutator and abelianization."
             },
             {
               "unit": 3,
-              "topics": "Symmetric group, cycles, transpositions, even and odd permutations, Alternating group and normal subgroups of \ud835\udc46\ud835\udc5b. 15"
+              "topics": "Symmetric group, cycles, transpositions, even and odd permutations, Alternating group and normal subgroups of 𝑆𝑛."
             },
             {
               "unit": 4,
-              "topics": "Group action: regular and conjugations, orbits, isotropy, class equation, conjugacy class, groups of order \ud835\udc5d2. Rings, definitions, and examples of subrings, rings of Gaussian integers, matrix rings, quaternions, Ideals, and quotient rings, Homomorphisms. 15"
+              "topics": "Group action: regular and conjugations, orbits, isotropy, class equation, conjugacy class, groups of order 𝑝2. Rings, definitions, and examples of subrings, rings of Gaussian integers, matrix rings, quaternions, Ideals, and quotient rings, Homomorphisms."
             },
             {
               "unit": 5,
-              "topics": "Integral domain, division rings, Communicative rings and fields. Field of fractions, Polynomial rings, division algorithm, Ideals of a polynomial ring over a field. Algebra of Reals, Complex numbers, Quaternions and Octonians. 15 Texts /"
+              "topics": "Integral domain, division rings, Communicative rings and fields. Field of fractions, Polynomial rings, division algorithm, Ideals of a polynomial ring over a field. Algebra of Reals, Complex numbers, Quaternions and Octonians."
             }
+          ],
+          "suggested_books": [
+            "I.N. Herstein: Topics in Algebra, Wiley Eastern Ltd, New Delhi, 1975.",
+            "M. Artin: Algebra, Prentice Hall, Inc., Englewood Cliffs, NJ, 1991.",
+            "J.B. Fraleigh: Algebra, Narosa, 1998.",
+            "R. Lal: Algebra vol 1, Springer, 2020."
           ]
         },
         {
@@ -570,6 +644,15 @@
               "unit": 5,
               "topics": "Uniform convergence and Riemann-Stieltjies integration, uniform convergence, and differentiation. Weierstrass approximation theorem, equicontinuity, Arzela-Ascoli theorem."
             }
+          ],
+          "suggested_books": [
+            "E.T. Copson: Metric Spaces, Cambridge University Press, 1968.",
+            "S. Kumaresan: Topology of Metric Spaces, Narosa Publishing House, New Delhi, 2005.",
+            "W. Rudin: Principles of Mathematical Analysis, McGraw-Hill, 1976.",
+            "B.K. Tyagi: First Course in Metric Spaces, Cambridge University Press, 2010.",
+            "Irving Kaplansky, Set Theory and Metric Spaces,AMS Chelsea Publishing, 1972.",
+            "Mícheál Ó Searcóid, Metric Spaces, Springer, 2006.",
+            "Athanase Papadopoulos, Metric Spaces, Convexity and Nonpositive Curvature: Second Edition,European Mathematical Society, 2014."
           ]
         },
         {
@@ -580,24 +663,30 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Polar coordinators, Polar Equation: Distance between two points. Polar equation of a straightline. Polar equation of a circle. Polar equation of a conic. Equations ofchord, tangent, normal, chord of contact of a conic. 12 486 Course Title"
+              "topics": "Polar coordinators, Polar Equation: Distance between two points. Polar equation of a straightline. Polar equation of a circle. Polar equation of a conic. Equations ofchord, tangent, normal, chord of contact of a conic."
             },
             {
               "unit": 2,
-              "topics": "Plane and straight line: Plane and straight line in \u211d3 by using vectormethod. 12"
+              "topics": "Plane and straight line: Plane and straight line in ℝ3 by using vectormethod."
             },
             {
               "unit": 3,
-              "topics": "Sphere: Equation of a sphere. Plane section of sphere. Equations of circle.Sphere passing through a given circle. Equation of tangent plane. Angle ofintersection of two sphere. 12"
+              "topics": "Sphere: Equation of a sphere. Plane section of sphere. Equations of circle.Sphere passing through a given circle. Equation of tangent plane. Angle ofintersection of two sphere."
             },
             {
               "unit": 4,
-              "topics": "Cone and Cylinder: Cone with vertex as origin. Condition for the generalequation of second degree to represent a cone. Equation of Right circularcone. Equation of tangent plane to a cone. Condition of tangency. Reciprocalcone. Enveloping cylinder, Right circular cylinder. 12"
+              "topics": "Cone and Cylinder: Cone with vertex as origin. Condition for the generalequation of second degree to represent a cone. Equation of Right circularcone. Equation of tangent plane to a cone. Condition of tangency. Reciprocalcone. Enveloping cylinder, Right circular cylinder."
             },
             {
               "unit": 5,
-              "topics": "Conicoids: Central conicoids. Paraboloids. Equation of tangent plane andnormal to a conicoid. Condition of tangency. Cone through six normals. Planesections of conicoids. Enveloping cone and enveloping cylinder.Classification of quadrics. 12 Texts /"
+              "topics": "Conicoids: Central conicoids. Paraboloids. Equation of tangent plane andnormal to a conicoid. Condition of tangency. Cone through six normals. Planesections of conicoids. Enveloping cone and enveloping cylinder.Classification of quadrics."
             }
+          ],
+          "suggested_books": [
+            "R.J.T. Bell: An Elementary Treatise on Co-ordinate geometry of three dimensions, Macmillan India Ltd., New Delhi, 1994.",
+            "M.M. Tripathi: Coordinate Geometry: Polar Coordinates Approach, Narosa Publishing House, New Delhi, 2005.",
+            "M.M. Tripathi: A Course on Geometry in Euclidean 3-space,",
+            "P. Balasubramanyam; K.G. Subramanyam; G.R. Venkatraman: Coordinate geometry of two and three dimensions, Tata McGraw-Hill, New Delhi, 1994."
           ]
         },
         {
@@ -608,24 +697,32 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Errors and their computations; Numerical solutions of nonlinear equations:Bisection method, Regula-Falsi, Secant method, Newton-Raphson, fixed pointiteration, Rate of convergence of iterative methods; 9 487 Course Title"
+              "topics": "Errors and their computations; Numerical solutions of nonlinear equations:Bisection method, Regula-Falsi, Secant method, Newton-Raphson, fixed pointiteration, Rate of convergence of iterative methods;"
             },
             {
               "unit": 2,
-              "topics": "Roots of Polynomials: Birge-Vieta method; System of linear equations: Gauss elimination method, Gauss-Jordan method, Jacobi iterative method, Gauss-Seidal iterative method; Eigen value computation: Power method; Finite differences; 9"
+              "topics": "Roots of Polynomials: Birge-Vieta method; System of linear equations: Gauss elimination method, Gauss-Jordan method, Jacobi iterative method, Gauss-Seidal iterative method; Eigen value computation: Power method; Finite differences;"
             },
             {
               "unit": 3,
-              "topics": "Interpolation: Newton's forward and backward interpolation, Lagrange's interpolation, Newton's divided difference interpolation; Numerical differentiation; 9"
+              "topics": "Interpolation: Newton's forward and backward interpolation, Lagrange's interpolation, Newton's divided difference interpolation; Numerical differentiation;"
             },
             {
               "unit": 4,
-              "topics": "Numerical integration: Trapezoidal rule, Simpson's one-third rule, Simpson'sthree- eighth rule, Boole's rule and Weddle's rule; Errors in quadratureformulae; 9"
+              "topics": "Numerical integration: Trapezoidal rule, Simpson's one-third rule, Simpson'sthree- eighth rule, Boole's rule and Weddle's rule; Errors in quadratureformulae;"
             },
             {
               "unit": 5,
-              "topics": "Numerical solution to ordinary differential equations of firstorder: Euler's method, Modified Euler's method, Runge-Kutta second andfourth order, Implicit Runge-Kutta second order; Predictor Correctormethods: Milne Simpson method, Adams-Bashforth method. 9 Texts /"
+              "topics": "Numerical solution to ordinary differential equations of firstorder: Euler's method, Modified Euler's method, Runge-Kutta second andfourth order, Implicit Runge-Kutta second order; Predictor Correctormethods: Milne Simpson method, Adams-Bashforth method."
             }
+          ],
+          "suggested_books": [
+            "M.K. Jain; S.R.K. Iyengar; R.K. Jain: Numerical Methods for Scientific and Engineering Computation, New Age International, New Delhi, 1984.",
+            "C.F. Gerald; P.O. Wheatley: Applied Numerical Analysis, Pearson Education, 1970.",
+            "S.D. Conte; C. de Boor: Elementary Numerical Analysis, McGraw-Hill,1972.",
+            "C.E. Froberg: Introduction to Numerical Analysis, Addition-Wesley, 1965.",
+            "M.J. Maron, Numerical Analysis A Practical Approach, Macmillan Publishing Company Inc., New York, 1982.",
+            "S.S. Sastry: Introductory Methods of Numerical Analysis, PHI Learning Private Limited, New Delhi,1979."
           ]
         },
         {
@@ -636,20 +733,25 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Real life Applications and Model Formulation of Linear Programming problems, Graphical Methods, convex set, extreme points, Canonical and Standard Form, Slack, Surplus and artificial Variables, basic feasible solution, The Simplex Method, Two- Phase Method, Big-M Method. 15 488 Course Title"
+              "topics": "Real life Applications and Model Formulation of Linear Programming problems, Graphical Methods, convex set, extreme points, Canonical and Standard Form, Slack, Surplus and artificial Variables, basic feasible solution, The Simplex Method, Two- Phase Method, Big-M Method."
             },
             {
               "unit": 2,
-              "topics": "Duality in Linear Programming, dual simplex method, Transportation Problem, North-West Corner Method, Least Cost Method, Vogel's Approximation Method, MODI method, assignment problem, Hungarian Method. 15"
+              "topics": "Duality in Linear Programming, dual simplex method, Transportation Problem, North-West Corner Method, Least Cost Method, Vogel's Approximation Method, MODI method, assignment problem, Hungarian Method."
             },
             {
               "unit": 3,
-              "topics": "Unconstrained Optimization, local and global minimizers, first and second-order necessary optimality conditions, second-order sufficient optimality condition, steepest descent method, the conjugate gradient method. 15"
+              "topics": "Unconstrained Optimization, local and global minimizers, first and second-order necessary optimality conditions, second-order sufficient optimality condition, steepest descent method, the conjugate gradient method."
             },
             {
               "unit": 4,
-              "topics": "Constrained Optimization, feasible directions, descent directions, Lagrangian function, Fritz-John optimality conditions, constraint qualifications, Karush-Kuhn-Tucker optimality conditions, convex functions and properties, sufficient optimality conditions, applications. 15 Texts /"
+              "topics": "Constrained Optimization, feasible directions, descent directions, Lagrangian function, Fritz-John optimality conditions, constraint qualifications, Karush-Kuhn-Tucker optimality conditions, convex functions and properties, sufficient optimality conditions, applications."
             }
+          ],
+          "suggested_books": [
+            "D.G. Luenberger; Y. Ye: Linear and Nonlinear Programming, Springer,2008.",
+            "DG. Luenberger: Optimization by Vector Space Methods, Wiley-Interscience, 1997.",
+            "S.S. Rao: Engineering Optimization: Theory and Practice,Newage Publishers, 2013."
           ]
         }
       ]
@@ -665,24 +767,32 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Measures and outer measures. Measure induced by an outer measure, Extension of a measure. Uniqueness of Extension, Completion of a measure. Lebesgue outer measure. Measurable sets. 12 489 Course Title"
+              "topics": "Measures and outer measures. Measure induced by an outer measure, Extension of a measure. Uniqueness of Extension, Completion of a measure. Lebesgue outer measure. Measurable sets."
             },
             {
               "unit": 2,
-              "topics": "Non-Lebesgue measurable sets. Regularity. Measurable functions. Borel and Lebesgue measurability. Integration of non-negative functions. The general integral. Convergence theorems. Mode in Convergence, Riemann and Lebesgue integrals. 12"
+              "topics": "Non-Lebesgue measurable sets. Regularity. Measurable functions. Borel and Lebesgue measurability. Integration of non-negative functions. The general integral. Convergence theorems. Mode in Convergence, Riemann and Lebesgue integrals."
             },
             {
               "unit": 3,
-              "topics": "Signed measure. Hahn and Jordan decomposition theorems. Absolutelycontinuous and singular measures. 12"
+              "topics": "Signed measure. Hahn and Jordan decomposition theorems. Absolutelycontinuous and singular measures."
             },
             {
               "unit": 4,
-              "topics": "Radon-Nikodym theorem. Labesgue decomposition. Riesz representation theorem. Extension theorem (Carathedory). Lebesgue-Stieltjes integral. 12"
+              "topics": "Radon-Nikodym theorem. Labesgue decomposition. Riesz representation theorem. Extension theorem (Carathedory). Lebesgue-Stieltjes integral."
             },
             {
               "unit": 5,
-              "topics": "Product measures. Fubini's theorem. Baire sets. Baire measure. Continuous functions with compact support. Regularity of measures on locally compact spaces. Integration of continuous functions with compact support. Reisz-Markoff theorem. 12 Texts /"
+              "topics": "Product measures. Fubini's theorem. Baire sets. Baire measure. Continuous functions with compact support. Regularity of measures on locally compact spaces. Integration of continuous functions with compact support. Reisz-Markoff theorem."
             }
+          ],
+          "suggested_books": [
+            "H.L.Royden: Real Analysis, 4th Edition, Macmillan, 1993.",
+            "P.R. Halmos: Measure Theory, Van Nostrand, 1950.",
+            "G. de Barra: Measure Theory and Integration, Wiley Eastern, 1981.",
+            "E. Hewitt; K. Stromberg: Real and Abstract Analysis, Springer, 1969.",
+            "R. G. Bartle: The Elements of Integration, John Wiley, 1966.",
+            "I.K. Rana: An Introduction to Measure and Integration, Narosa Publishing House, 1997."
           ]
         },
         {
@@ -693,24 +803,28 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Linear dynamical systems: preliminary concepts, autonomous and non-autonomous systems, diagonalization. 9 497"
+              "topics": "Linear dynamical systems: preliminary concepts, autonomous and non-autonomous systems, diagonalization."
             },
             {
               "unit": 2,
-              "topics": "Fundamental theorem of linear systems. 9"
+              "topics": "Fundamental theorem of linear systems."
             },
             {
               "unit": 3,
-              "topics": "Jordan canonical forms, stable, unstable, and center subspaces, nonhomogeneous linear systems. 9"
+              "topics": "Jordan canonical forms, stable, unstable, and center subspaces, nonhomogeneous linear systems."
             },
             {
               "unit": 4,
-              "topics": "Non-linear dynamical systems: solutions to initial value problem, existence and uniqueness of solutions, linearization, phase space, classification of critical points. 9"
+              "topics": "Non-linear dynamical systems: solutions to initial value problem, existence and uniqueness of solutions, linearization, phase space, classification of critical points."
             },
             {
               "unit": 5,
-              "topics": "Applications of Dynamical Systems. Applications in physics (e.g., pendulum, chaotic systems). Applications in biology (e.g., population dynamics). Applications in economics and engineering. 9 Texts /"
+              "topics": "Applications of Dynamical Systems. Applications in physics (e.g., pendulum, chaotic systems). Applications in biology (e.g., population dynamics). Applications in economics and engineering."
             }
+          ],
+          "suggested_books": [
+            "L. Perko: Differential equations and dynamical systems, Springer-Verlag, 2001.",
+            "F. Verhulst: Non-linear Differential Equations and Dynamical Systems, Springer, 1990. Learning Students will gain a solid understanding of the theory and analysis of linear and non-linear"
           ]
         },
         {
@@ -721,24 +835,31 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "C Fundamentals, Arrays, Strings, Structures, Linked Lists (Singly Linked Lists, Circular Linked Lists, Doubly Linked Lists, Circular Doubly Linked Lists). 6 498 Course Title"
+              "topics": "C Fundamentals, Arrays, Strings, Structures, Linked Lists (Singly Linked Lists, Circular Linked Lists, Doubly Linked Lists, Circular Doubly Linked Lists)."
             },
             {
               "unit": 2,
-              "topics": "Stacks, Array Representation of Stacks, Operations on a Stack, Linked Representation of Stacks, Operations on a Linked Stack, Evaluation of arithmetic expressions: Polish Notations, Queues, Array Representation of Queues, Linked Representation of Queues, Types of Queues (Circular Queues, Deques, Priority Queues). 6"
+              "topics": "Stacks, Array Representation of Stacks, Operations on a Stack, Linked Representation of Stacks, Operations on a Linked Stack, Evaluation of arithmetic expressions: Polish Notations, Queues, Array Representation of Queues, Linked Representation of Queues, Types of Queues (Circular Queues, Deques, Priority Queues)."
             },
             {
               "unit": 3,
-              "topics": "Hashing and Collision: Motivation of Hashing, Hash Tables, Hash Functions, Different Hash Functions, Collision Resolution by Open Addressing, Collision Resolution by Chaining, Pros and Cons of Hashing, Applications of Hashing. 6"
+              "topics": "Hashing and Collision: Motivation of Hashing, Hash Tables, Hash Functions, Different Hash Functions, Collision Resolution by Open Addressing, Collision Resolution by Chaining, Pros and Cons of Hashing, Applications of Hashing."
             },
             {
               "unit": 4,
-              "topics": "Trees: Basic Terminology, Types of Trees, Creating a Binary Tree from a General Tree, Traversing a Binary Tree, Efficient Binary Trees (Binary Search Trees, AVL Trees, Red-black Trees), Multi-way Search Trees, Heaps. Graphs: Graph Terminology, Applications of Graphs. 6"
+              "topics": "Trees: Basic Terminology, Types of Trees, Creating a Binary Tree from a General Tree, Traversing a Binary Tree, Efficient Binary Trees (Binary Search Trees, AVL Trees, Red-black Trees), Multi-way Search Trees, Heaps. Graphs: Graph Terminology, Applications of Graphs."
             },
             {
               "unit": 5,
-              "topics": "Matrix Representation of Graphs, Graph Traversal Algorithms (Breadth-First Search (BFS) Algorithm and Depth-First Search (DFS) Algorithm), Topological Sorting, Minimum Spanning Trees (MST), MST Algorithms, Shortest Path Algorithms. 6 Texts /"
+              "topics": "Matrix Representation of Graphs, Graph Traversal Algorithms (Breadth-First Search (BFS) Algorithm and Depth-First Search (DFS) Algorithm), Topological Sorting, Minimum Spanning Trees (MST), MST Algorithms, Shortest Path Algorithms."
             }
+          ],
+          "suggested_books": [
+            "B.S. Gottfried: Schaum's Outline Programming with C, McGraw Hill, 1996.",
+            "T.H. Cormen: Charles E. Leiserson, Ronald L. Rivest, Clifford Stein, Introduction to Algorithms, 3rd Edition, The MIT Press, 2009.",
+            "A.M. Tenenbaum; Y. Langsam; M.J. Augenstein: Data Structures Using C, Pearson Education India, 2019.",
+            "D.B. West: Introduction to Graph Theory, 2nd Edition, Prentice Hall, 2000.",
+            "5. Reema Thareja, Data Structures Using C, 2nd Edition, Oxford,2014."
           ]
         },
         {
@@ -749,24 +870,29 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Elementary and Special functions (Step-side, Heaviside, delta, jump function), Asymptotes, Curvature (2D, 3D), Maxima-Minima, Tangent, and Normal, Roll's Theorem. Mean-Value theorem. Fixed Point Theorem, Fractals, Fibonacci sequence. 3 499 Course Title"
+              "topics": "Elementary and Special functions (Step-side, Heaviside, delta, jump function), Asymptotes, Curvature (2D, 3D), Maxima-Minima, Tangent, and Normal, Roll's Theorem. Mean-Value theorem. Fixed Point Theorem, Fractals, Fibonacci sequence."
             },
             {
               "unit": 2,
-              "topics": "Convergence of sequence, Golden Ratio. Geometry: Conic Section, Sphere, Cone, Cylinder, Coincides, Right circular cylinder, Cardroid, Curve and surface in R3, Geodesics of Hyperbolic space, Sphere, Meshing. Differential Equation: Rotation of Vectors, Kepler's Law, S.H.M., ODE and its phase portrait, Bessel and Legendre functions, Laplace Transform, Fourier Transform, Fourier Series, PDE and Phase- Portrait. Mechanics: Moment of inertia, Compound Pendulum, Angular Momentum. 3"
+              "topics": "Convergence of sequence, Golden Ratio. Geometry: Conic Section, Sphere, Cone, Cylinder, Coincides, Right circular cylinder, Cardroid, Curve and surface in R3, Geodesics of Hyperbolic space, Sphere, Meshing. Differential Equation: Rotation of Vectors, Kepler's Law, S.H.M., ODE and its phase portrait, Bessel and Legendre functions, Laplace Transform, Fourier Transform, Fourier Series, PDE and Phase- Portrait. Mechanics: Moment of inertia, Compound Pendulum, Angular Momentum."
             },
             {
               "unit": 3,
-              "topics": "Basic course of simulation using MATLAB: MATLAB programming, Overview of MATLAB environment, commands and operations, Variables and data types, Scripts and functions, Basic plotting, Loops and execution control (if-else, switch-case, loops), Functions and their creation, Debugging and error handling, File input and output. 3"
+              "topics": "Basic course of simulation using MATLAB: MATLAB programming, Overview of MATLAB environment, commands and operations, Variables and data types, Scripts and functions, Basic plotting, Loops and execution control (if-else, switch-case, loops), Functions and their creation, Debugging and error handling, File input and output."
             },
             {
               "unit": 4,
-              "topics": "Vectors and Matrices: Creating and manipulating vectors and matrices, Matrix operations (addition, subtraction, multiplication), Solving linear equations, Eigenvalues and Eigenvector, MATLAB function f-zero in a single variable, Fixed- point iteration in a single variable, Newton-Raphson in single variable and multiple variables, MATLAB function f-solve in single and multiple variables. 3"
+              "topics": "Vectors and Matrices: Creating and manipulating vectors and matrices, Matrix operations (addition, subtraction, multiplication), Solving linear equations, Eigenvalues and Eigenvector, MATLAB function f-zero in a single variable, Fixed- point iteration in a single variable, Newton-Raphson in single variable and multiple variables, MATLAB function f-solve in single and multiple variables."
             },
             {
               "unit": 5,
-              "topics": "Advanced Plotting and Visualization: 2D and 3D plotting, customizing plots (labels, legends, titles, color map), Specialized plots (histograms, bar charts, scatter plots), Creating multiple plots in one figure (subplot, tiled layout), Plotting functions and data, Exporting and Printing Plots. 3 Texts /"
+              "topics": "Advanced Plotting and Visualization: 2D and 3D plotting, customizing plots (labels, legends, titles, color map), Specialized plots (histograms, bar charts, scatter plots), Creating multiple plots in one figure (subplot, tiled layout), Plotting functions and data, Exporting and Printing Plots."
             }
+          ],
+          "suggested_books": [
+            "R. Pratap: Getting started with MATLAB: A Quick introduction for Scientists and Engineers, Oxford University Press Inc., 2002.",
+            "S. Attaway: A Practical Introduction to Programming and Problem Solving, Elsevier India Pvt Ltd-New Delhi, 2009.",
+            "B.H. Hahn; D.T. Valenttine: Essential MATLAB For Engineers and Scientists Fourth Edition, Elsevier, 2010."
           ]
         },
         {
@@ -777,24 +903,29 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "The Introduction: Graphs, Degree of a vertex, Paths and Cycles, Connectivity, Examples of Graphs such as bipartite graphs, Planar and non planar graphs, Contraction, Minor, Trees and Forests, distances 9 500 Course Title"
+              "topics": "The Introduction: Graphs, Degree of a vertex, Paths and Cycles, Connectivity, Examples of Graphs such as bipartite graphs, Planar and non planar graphs, Contraction, Minor, Trees and Forests, distances"
             },
             {
               "unit": 2,
-              "topics": "Matching Covering and Packing: Matching, in a graph and matching in a bipartite graph. Assignment problems, Covering and Packing, Covering by paths and cycles, Tutte\u2019s theorem 9"
+              "topics": "Matching Covering and Packing: Matching, in a graph and matching in a bipartite graph. Assignment problems, Covering and Packing, Covering by paths and cycles, Tutte’s theorem"
             },
             {
               "unit": 3,
-              "topics": "Coloring: Edge and vertex colorings, 4 and 5 colorable graphs, List coloring, Perfect graphs. Flows: Flow in a network, group valued flows, Tutte\u2019s flow conjecture, k- Flows, Supply and demand problems 9"
+              "topics": "Coloring: Edge and vertex colorings, 4 and 5 colorable graphs, List coloring, Perfect graphs. Flows: Flow in a network, group valued flows, Tutte’s flow conjecture, k- Flows, Supply and demand problems"
             },
             {
               "unit": 4,
-              "topics": "Extremal graph theory: Minors, Hadwigers Conjecture, Regularity, Szemeredi\u2019s Regularity Lemma, Using the regularity lemma, partitions using paths and cycles. Ramsey Theory: Ramser Numbers, Induced Ramsey Theorem, Ramsey property and connectivity, Sperner\u2019s Lemma 9"
+              "topics": "Extremal graph theory: Minors, Hadwigers Conjecture, Regularity, Szemeredi’s Regularity Lemma, Using the regularity lemma, partitions using paths and cycles. Ramsey Theory: Ramser Numbers, Induced Ramsey Theorem, Ramsey property and connectivity, Sperner’s Lemma"
             },
             {
               "unit": 5,
-              "topics": "Random Graphs: Definition, Existence and expectation, probabilistic methods, properties of almost all graphs, Threshold function. 9 Texts /"
+              "topics": "Random Graphs: Definition, Existence and expectation, probabilistic methods, properties of almost all graphs, Threshold function."
             }
+          ],
+          "suggested_books": [
+            "R Diestel: Graph Theory GTM 173 IV ed., Springer 2012.",
+            "J A Bondy, USR Murty: Graph Theory, GTM 244, Springer, 2008.",
+            "Douglas West: Introduction to graph theory, Pearson, 2000."
           ]
         },
         {
@@ -805,24 +936,31 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Multiplication in arithmetic: Nikhilam sutra, Antyayordasake\u2019pi sutra Multiplication: Urdhvatiryak Concept of bijanka, and Verification of all the operations by Bijanka, Square in arithmetic by Yavadunam, Ekadhikena sutra, Dwandvayoga sutra, Cube in arithmetic by sutras Nikhilam and Anurupyena sutra, Square root of four or -five-digit numbers Cube root Applications of Meru-prastar in higher order powers. 9 501 Course Title"
+              "topics": "Multiplication in arithmetic: Nikhilam sutra, Antyayordasake’pi sutra Multiplication: Urdhvatiryak Concept of bijanka, and Verification of all the operations by Bijanka, Square in arithmetic by Yavadunam, Ekadhikena sutra, Dwandvayoga sutra, Cube in arithmetic by sutras Nikhilam and Anurupyena sutra, Square root of four or -five-digit numbers Cube root Applications of Meru-prastar in higher order powers."
             },
             {
               "unit": 2,
-              "topics": "Decimal and fraction, division by Nikhilam sutram, division of 1/19, 1/29 by Ekadhikenpurven sutram, division by Paravartya sutram, division by Anurupeyana sutram, division of polynomials, factors of general second-degree equation by Lopsthapanabhyam sutram. 9"
+              "topics": "Decimal and fraction, division by Nikhilam sutram, division of 1/19, 1/29 by Ekadhikenpurven sutram, division by Paravartya sutram, division by Anurupeyana sutram, division of polynomials, factors of general second-degree equation by Lopsthapanabhyam sutram."
             },
             {
               "unit": 3,
-              "topics": "Multiplication of linear, quadratic, and cubic polynomials in one variable. (Urdhvatiryak sutra), Division of polynomials by Sutra-Paravartya Yojayet, Solution of particular types of linear equations in one variable, Factors of the quadratic and Cubic Expressions, Solutions of simultaneous linear in two variables. 9"
+              "topics": "Multiplication of linear, quadratic, and cubic polynomials in one variable. (Urdhvatiryak sutra), Division of polynomials by Sutra-Paravartya Yojayet, Solution of particular types of linear equations in one variable, Factors of the quadratic and Cubic Expressions, Solutions of simultaneous linear in two variables."
             },
             {
               "unit": 4,
-              "topics": "A brief introduction to the four Shulva sutras, Baudhayan triplets for the angle of a right-angled triangle, Addition and subtraction of Baudhayan triplets, Concept, definition, and properties of six trigonometric functions based on Baudhayan triplets. Formulation of Identities, Heights and distance by Baudhayan. 9"
+              "topics": "A brief introduction to the four Shulva sutras, Baudhayan triplets for the angle of a right-angled triangle, Addition and subtraction of Baudhayan triplets, Concept, definition, and properties of six trigonometric functions based on Baudhayan triplets. Formulation of Identities, Heights and distance by Baudhayan."
             },
             {
               "unit": 5,
-              "topics": "Introduction of Sutras and sub-sutras by Swami Bharati Krishna Tirtha ji, Contributions of Aryabhata, Life and contributions of Bhaskara II.Kaparekar Numbers, Life and contributions of Ramanujan. 9 Texts /"
+              "topics": "Introduction of Sutras and sub-sutras by Swami Bharati Krishna Tirtha ji, Contributions of Aryabhata, Life and contributions of Bhaskara II.Kaparekar Numbers, Life and contributions of Ramanujan."
             }
+          ],
+          "suggested_books": [
+            "S.B. Krishna Tirtha, Vedic Mathematics, Motilal Banarasi Das, 1965.",
+            "Vedic Ganita: Vihangam Drishti-I, Shiksha Sanskriti Utthan Nyasa, New Delhi.",
+            "V.B. Datta; A.N. Singh: History of Hindu Mathematics A Source Book Parts I and II, 1935.",
+            "V.G. Unkalkar: Magical World of Mathematics (Vedic Mathematics) Vandana Publishers Banglore, 2017.",
+            "V.G. Unkalkar: Excel With Vedic Mathematics, Vandana Publishers Banglore, 2019."
           ]
         },
         {
@@ -833,24 +971,35 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "The complex plane and open set, domain, and region in a complex plane. Stereographic projection. Linear transformations, the transformation \ud835\udc64= 1/\ud835\udc67, M\u00f6bius transformations and its geometric properties, Conformal mappings. 12 490 Course Title"
+              "topics": "The complex plane and open set, domain, and region in a complex plane. Stereographic projection. Linear transformations, the transformation 𝑤= 1/𝑧, Möbius transformations and its geometric properties, Conformal mappings."
             },
             {
               "unit": 2,
-              "topics": "Schwarz' theorem, Riemann mapping theorem and its applications.Functions of complex variables and their mapping properties. Elementary functions: the exponential, logarithmic, and trigonometric functions. Limits, continuity, differentiability, and analyticity of functions of a complex variable. The Cauchy- Riemann equations and sufficient conditions for differentiability and analyticity. Harmonic functions. 12"
+              "topics": "Schwarz' theorem, Riemann mapping theorem and its applications.Functions of complex variables and their mapping properties. Elementary functions: the exponential, logarithmic, and trigonometric functions. Limits, continuity, differentiability, and analyticity of functions of a complex variable. The Cauchy- Riemann equations and sufficient conditions for differentiability and analyticity. Harmonic functions."
             },
             {
               "unit": 3,
-              "topics": "Complex integration: Line integration, Green's theorem, antiderivative theorem, Cauchy's theorem(weak form), Cauchy-Goursat's theorem, Cauchy's integral formula, Cauchy's inequality, Liouville theorem, fundamental theorem of algebra, maximum modulus theorem. 12"
+              "topics": "Complex integration: Line integration, Green's theorem, antiderivative theorem, Cauchy's theorem(weak form), Cauchy-Goursat's theorem, Cauchy's integral formula, Cauchy's inequality, Liouville theorem, fundamental theorem of algebra, maximum modulus theorem."
             },
             {
               "unit": 4,
-              "topics": "Sequences, series and their convergence, power series, radius of convergence, Taylor and Laurent series. 12"
+              "topics": "Sequences, series and their convergence, power series, radius of convergence, Taylor and Laurent series."
             },
             {
               "unit": 5,
-              "topics": "Integration and differentiation of power series, Absolute and uniform convergence of power series. Branch point, branch cut, branches of a multi-valued function, analyticity of the branches of \ud835\udc3f\ud835\udc5c\ud835\udc54\ud835\udc67, \ud835\udc67\ud835\udc4e. Singularities and their classification, Weierstrass- Casorati's theorem. 12 Texts /"
+              "topics": "Integration and differentiation of power series, Absolute and uniform convergence of power series. Branch point, branch cut, branches of a multi-valued function, analyticity of the branches of 𝐿𝑜𝑔𝑧, 𝑧𝑎. Singularities and their classification, Weierstrass- Casorati's theorem."
             }
+          ],
+          "suggested_books": [
+            "T. Apostol, Mathematical Analysis, Addison-Wesley, Reading, MA, 1967.",
+            "L.V. Ahlfors, Complex analysis, McGraw-Hill International Editions, New Delhi, 1979.",
+            "J.E. Brown, R.V. Churchill, Complex Variables and Applications, McGraw-Hill, 2004.",
+            "J.B. Conway, Functions of one complex variable, Springer-Verlag, 1978.",
+            "T.W. Gamelin, Complex analysis, Springer, 2001.",
+            "R.E. Greene, S.G. Krantz, Function Theory of One Complex Variable, John Wiley and Sons, Inc., 1997.",
+            "S. Ponnusamy, Foundations of Functional Analysis, Narosa Publishing House, 2005.",
+            "S. Ponnusamy, H. Silverman, Complex variables with applications, Birkhäuser, 2006.",
+            "W. Rudin, Real and Complex Analysis, Third ed., McGraw-Hill, New York, 1987."
           ]
         },
         {
@@ -861,24 +1010,37 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Curves in \u211d2 and \u211d3: Basic Definitions and Examples. Arc Length. Curvature and the Frenet-Serret Apparatus. The Fundamental Existence and Uniqueness Theorem for Curves. Bishop frames. 12 491 Course Title"
+              "topics": "Curves in ℝ2 and ℝ3: Basic Definitions and Examples. Arc Length. Curvature and the Frenet-Serret Apparatus. The Fundamental Existence and Uniqueness Theorem for Curves. Bishop frames."
             },
             {
               "unit": 2,
-              "topics": "Non-Unit Speed Curves. The Rotation Index of a Plane Curve, Convex Curves, The Isoperimetric Inequality, Mukhopadhyay Theorem (The Four-Vertex Theorem). Fenchel's Theorem, The Fary-Milnor Theorem. 12"
+              "topics": "Non-Unit Speed Curves. The Rotation Index of a Plane Curve, Convex Curves, The Isoperimetric Inequality, Mukhopadhyay Theorem (The Four-Vertex Theorem). Fenchel's Theorem, The Fary-Milnor Theorem."
             },
             {
               "unit": 3,
-              "topics": "Surfaces in \u211d3: Basic Definitions and Examples. The First Fundamental Form. Arc length of curves on surfaces. Normal curvature. Geodesic curvature. Gauss and Weingarten Formulas. 12"
+              "topics": "Surfaces in ℝ3: Basic Definitions and Examples. The First Fundamental Form. Arc length of curves on surfaces. Normal curvature. Geodesic curvature. Gauss and Weingarten Formulas."
             },
             {
               "unit": 4,
-              "topics": "Geodesics, Parallel Vector Fields Along a Curve, and Parallelism. The Second Fundamental Form and the Weingarten Map, Principal, Gaussian, and Mean Curvatures. Casorati curvature. 12"
+              "topics": "Geodesics, Parallel Vector Fields Along a Curve, and Parallelism. The Second Fundamental Form and the Weingarten Map, Principal, Gaussian, and Mean Curvatures. Casorati curvature."
             },
             {
               "unit": 5,
-              "topics": "Isometries of surfaces, Gauss's Theorema Egregium, The Fundamental Theorem of Surfaces, Surfaces of Constant Gaussian Curvature. Exponential map, Gauss Lemma, Geodesic Coordinates. The Gauss-Bonnet Formula and the Gauss-Bonnet Theorem (description only). 12 Texts /"
+              "topics": "Isometries of surfaces, Gauss's Theorema Egregium, The Fundamental Theorem of Surfaces, Surfaces of Constant Gaussian Curvature. Exponential map, Gauss Lemma, Geodesic Coordinates. The Gauss-Bonnet Formula and the Gauss-Bonnet Theorem (description only)."
             }
+          ],
+          "suggested_books": [
+            "Christian Bär, Elementary Differential Geometry, Cambridge University Press, 2010.",
+            "M. P. do Carmo, Differential geometry of curves and surfaces, Prentice Hall 1976.",
+            "A. Gray, Differential Geometry of Curves and Surfaces, CRC Press, 1998.",
+            "R. S. Millman and G. D. Parkar, Elements of Differential Geometry, Prentice Hall 1977.",
+            "S. Montiel and A. Ros, Curves and Surfaces, American Mathematical Society, 2005.",
+            "S. Mukhopadhyay, Parametric Coefficients in the Differential Geometry of Curves, Calcutta Unversity Press, 1910.",
+            "B. O'Neill, Elementary Differential Geometry, Elsevier 2006.",
+            "John Oprea, Differential Geometry and its applications, Prentice Hall 1997.",
+            "A. Pressley, Elementary Differential Geometry, Springer 2010.",
+            "John A. Thorpe, Elementary Topics in Differential Geometry, Springer, 1979.",
+            "V. A. Toponogov, Differential geometry of curves and surfaces – A concise guide, Birkhäuser,"
           ]
         },
         {
@@ -889,24 +1051,33 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Divisibility, prime numbers, greatest common divisor (GCD), least common multiple (LCM). Fundamental Theorem of Arithmetic: Unique factorization in integers. Euclidean Algorithm: Computing GCD, extended Euclidean algorithm. 9 492 Course Title"
+              "topics": "Divisibility, prime numbers, greatest common divisor (GCD), least common multiple (LCM). Fundamental Theorem of Arithmetic: Unique factorization in integers. Euclidean Algorithm: Computing GCD, extended Euclidean algorithm."
             },
             {
               "unit": 2,
-              "topics": "Congruences and Modular Arithmetic: Definitions, properties. Linear Congruences: Solvability, algorithms. Chinese Remainder Theorem: Statement and applications. Diophantine Equations Linear Diophantine Equations: Solving equations of the form \ud835\udc4e\ud835\udc65+ \ud835\udc4f\ud835\udc66= \ud835\udc50. 9"
+              "topics": "Congruences and Modular Arithmetic: Definitions, properties. Linear Congruences: Solvability, algorithms. Chinese Remainder Theorem: Statement and applications. Diophantine Equations Linear Diophantine Equations: Solving equations of the form 𝑎𝑥+ 𝑏𝑦= 𝑐."
             },
             {
               "unit": 3,
-              "topics": "Fermat's Last Theorem: Historical context, basic proof ideas. Pell's Equation: Methods of solving, applications. Quadratic Residues and Quadratic Reciprocity Quadratic 9"
+              "topics": "Fermat's Last Theorem: Historical context, basic proof ideas. Pell's Equation: Methods of solving, applications. Quadratic Residues and Quadratic Reciprocity Quadratic"
             },
             {
               "unit": 4,
-              "topics": "Residues: Definitions, properties. Quadratic Reciprocity: Statements, applications. Gaussian Integers: Definition, properties. Prime Numbers Prime Number Distribution: Sieve methods, prime number theorem. Dirichlet's Theorem: Arithmetic progressions, primes in progressions. 9"
+              "topics": "Residues: Definitions, properties. Quadratic Reciprocity: Statements, applications. Gaussian Integers: Definition, properties. Prime Numbers Prime Number Distribution: Sieve methods, prime number theorem. Dirichlet's Theorem: Arithmetic progressions, primes in progressions."
             },
             {
               "unit": 5,
-              "topics": "Goldbach's Conjecture: Statement, historical context. Analytic Number Theory Riemann Zeta Function: Definition, analytic continuation. Prime Number Theorems: Statements and elementary proofs. Distribution of Primes: Asymptotic behavior, twin primes conjecture. RSA algorithm, applications of number theory in cryptography. Error-correcting codes, applications of number theory in coding. 9 Texts /"
+              "topics": "Goldbach's Conjecture: Statement, historical context. Analytic Number Theory Riemann Zeta Function: Definition, analytic continuation. Prime Number Theorems: Statements and elementary proofs. Distribution of Primes: Asymptotic behavior, twin primes conjecture. RSA algorithm, applications of number theory in cryptography. Error-correcting codes, applications of number theory in coding."
             }
+          ],
+          "suggested_books": [
+            "David M. Burton, Elementary Number Theory, Wm. C. Brown Publishers, Dubuque, Iowa",
+            "K. Ireland, and M. Rosen, A Classical Introduction to Modern Number Theory, GTM Vol. 84, Springer-Verlag, 1972.",
+            "G. A. Jones, and J. M. Jones, Elementary Number Theory, Springer-Verlag, 1998.",
+            "W. Sierpinski, Elementary Theory of Numbers, North-Holland, Ireland, 1988.",
+            "Niven, S.H. Zuckerman, and L.H. Montgomery, An Introduction to the Theory of Numbers, John Wiley, 1991.",
+            "H. B. Mann, Addition Theorems, Krieger, 1976.",
+            "Melvyn B. Nathanson, Additive Number Theory: Inverse Problems and the Geometry of Subsets, Springer-Verlag, 1996."
           ]
         },
         {
@@ -917,24 +1088,30 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Linear Programming: Applications and Model Formulation, Graphical SolutionMethods, The Simplex Method, Two-Phase Method, Big-M Method, Some Complications and Their Resolution, Different types of Linear Programming Solutions. 9 493 Course Title"
+              "topics": "Linear Programming: Applications and Model Formulation, Graphical SolutionMethods, The Simplex Method, Two-Phase Method, Big-M Method, Some Complications and Their Resolution, Different types of Linear Programming Solutions."
             },
             {
               "unit": 2,
-              "topics": "Theory of Simplex Method: Canonical and Standard Form of LP Problem, Slack, Surplus and artificial Variables, basic solution, degenerate solution, Reduction of Feasible Solution to a Basic Feasible Solution, Improving a Basic Feasible Solution, Alternative Optimal Solutions, Unbounded Solution, Optimality Condition, Unrestricted Variables, Degeneracy and its Resolution. 9"
+              "topics": "Theory of Simplex Method: Canonical and Standard Form of LP Problem, Slack, Surplus and artificial Variables, basic solution, degenerate solution, Reduction of Feasible Solution to a Basic Feasible Solution, Improving a Basic Feasible Solution, Alternative Optimal Solutions, Unbounded Solution, Optimality Condition, Unrestricted Variables, Degeneracy and its Resolution."
             },
             {
               "unit": 3,
-              "topics": "Duality in Linear Programming, Formulation of Dual Linear Programming Problem, Standard Results on Duality, dual simplex method, revised simplex method, Integer Linear Programming. 9"
+              "topics": "Duality in Linear Programming, Formulation of Dual Linear Programming Problem, Standard Results on Duality, dual simplex method, revised simplex method, Integer Linear Programming."
             },
             {
               "unit": 4,
-              "topics": "Transportation Problem: Mathematical Model of Transportation Problem, North-West Corner Method, Least Cost Method, Vogel's Approximation Method, Test for Optimality by MODI method, Variations in Transportation Problem, Maximization Transportation Problem. 9"
+              "topics": "Transportation Problem: Mathematical Model of Transportation Problem, North-West Corner Method, Least Cost Method, Vogel's Approximation Method, Test for Optimality by MODI method, Variations in Transportation Problem, Maximization Transportation Problem."
             },
             {
               "unit": 5,
-              "topics": "Assignment Problem: Mathematical Models of Assignment Problem, Hungarian Method for Solving Assignment Problem. 9 Texts /"
+              "topics": "Assignment Problem: Mathematical Models of Assignment Problem, Hungarian Method for Solving Assignment Problem."
             }
+          ],
+          "suggested_books": [
+            "Ferris, M. C., Mangasarian, O. L., & Wright, S. J., Linear programming with MATLAB. Society for Industrial and Applied Mathematics., 2007.",
+            "Kwon, R. H., Introduction to linear optimization and extensions with MATLAB. CRC Press,",
+            "Ploskas, N., and Samaras, N., Linear programming using MATLAB (Vol. 127). Switzerland: Springer, 2017.",
+            "Mishra, S. K., and Ram, B., Introduction to linear programming with MATLAB. CRC Press,"
           ]
         },
         {
@@ -945,24 +1122,34 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Review of Newtonian mechanics: Inertial frames. Speed of light and Gallilean relativity. Michelson-Morley experiment. Lorentz-Fitzgerold contraction hypothesis. Relative character of space and time. Postulates of special theory of relativity. Lorentz transformation equations and its geometrical interpretation. Group properties of Lorentz transformations. 9 494 Course Title"
+              "topics": "Review of Newtonian mechanics: Inertial frames. Speed of light and Gallilean relativity. Michelson-Morley experiment. Lorentz-Fitzgerold contraction hypothesis. Relative character of space and time. Postulates of special theory of relativity. Lorentz transformation equations and its geometrical interpretation. Group properties of Lorentz transformations."
             },
             {
               "unit": 2,
-              "topics": "Relativistic kinematics: Composition of parallel velocities. Length contraction. Time dilation. Transformation equations for components of velocity and acceleration of a particle and Lorentz contraction factor. 9"
+              "topics": "Relativistic kinematics: Composition of parallel velocities. Length contraction. Time dilation. Transformation equations for components of velocity and acceleration of a particle and Lorentz contraction factor."
             },
             {
               "unit": 3,
-              "topics": "Geometrical representation of space-time: Four dimensional Minkowskian space-time of special relativity. Time-like, light-like and space-like intervals. Null cone, Proper time. World line of a particle. Four vectors and tensors in Minkowiskian space-time. 9"
+              "topics": "Geometrical representation of space-time: Four dimensional Minkowskian space-time of special relativity. Time-like, light-like and space-like intervals. Null cone, Proper time. World line of a particle. Four vectors and tensors in Minkowiskian space-time."
             },
             {
               "unit": 4,
-              "topics": "Relativistic mechanics \u2013 Variation of mass with velocity. Equivalence of mass and energy. Transformation equations for mass momentum and energy. Energy-momentum four vector. Relativistic force and Transformation equations for its components. Relativistic Lagrangian and Hamiltonian. Relativistic equations of motion of a particle. 9"
+              "topics": "Relativistic mechanics – Variation of mass with velocity. Equivalence of mass and energy. Transformation equations for mass momentum and energy. Energy-momentum four vector. Relativistic force and Transformation equations for its components. Relativistic Lagrangian and Hamiltonian. Relativistic equations of motion of a particle."
             },
             {
               "unit": 5,
-              "topics": "Energy momentum tensor of a continuous material distribution. Electromagnetism - Maxwell's equations in vacuo. Transformation equations for the densities of electric charge and current. Propagation of electric and magnetic field strengths. Transformation equations for electromagnetic four potential vector. Transformation equations for electric and magnetic field strengths. Gauge transformation. Lorentz invariance of Maxwell's equations. Maxwell's equations in tensor form. Lorentz force on a charged particle. Energy momentum tensor of an electromagnetic field. 9 Texts /"
+              "topics": "Energy momentum tensor of a continuous material distribution. Electromagnetism - Maxwell's equations in vacuo. Transformation equations for the densities of electric charge and current. Propagation of electric and magnetic field strengths. Transformation equations for electromagnetic four potential vector. Transformation equations for electric and magnetic field strengths. Gauge transformation. Lorentz invariance of Maxwell's equations. Maxwell's equations in tensor form. Lorentz force on a charged particle. Energy momentum tensor of an electromagnetic field."
             }
+          ],
+          "suggested_books": [
+            "C. Moller, The Theory of Relativity, Oxford Clarendon Press, 1952.",
+            "P. G. Bergmann, Introduction to the Theory of Relativity, Prentice Hall of India, 1969.",
+            "J. L. Anderson, Principles of Relativity Physics, Academic Press, 1967.",
+            "W. Rindler, Essential Relativity, Van Nostrand Reinhold Company, 1969.",
+            "V. A. Ugarov, Special Theory of Relativity, Mir Publishers, 1979.",
+            "R. Resnick, Introduction to Special Relativity, Wiley Eastern Pvt. Ltd. 1972.",
+            "J. L. Synge, Relativity: The Special Theory, North-Holland Publishing Company, 1956.",
+            "W. G. Dixon, Special Relativity: The Foundation of Macroscopic Physics, Camb. Uni. Press, 1982."
           ]
         },
         {
@@ -973,24 +1160,29 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Introduction to Celestial Mechanics Overview of space dynamics and its importance in aerospace engineering Kepler's laws of planetary motion Two-body problem: orbit determination, orbital elements. Orbital Mechanics Keplerian orbits: elliptical, circular, parabolic, hyperbolic Orbital parameters and their significance Orbital maneuvers: Hohmann transfer, inclination change, rendezvous maneuvers. 9 495 Course Title"
+              "topics": "Introduction to Celestial Mechanics Overview of space dynamics and its importance in aerospace engineering Kepler's laws of planetary motion Two-body problem: orbit determination, orbital elements. Orbital Mechanics Keplerian orbits: elliptical, circular, parabolic, hyperbolic Orbital parameters and their significance Orbital maneuvers: Hohmann transfer, inclination change, rendezvous maneuvers."
             },
             {
               "unit": 2,
-              "topics": "Perturbation Theory Effects of perturbations: gravitational, atmospheric, solar radiation pressure Perturbation analysis: secular effects, periodic effects Methods of orbit determination considering perturbations. 9"
+              "topics": "Perturbation Theory Effects of perturbations: gravitational, atmospheric, solar radiation pressure Perturbation analysis: secular effects, periodic effects Methods of orbit determination considering perturbations."
             },
             {
               "unit": 3,
-              "topics": "Orbital Mechanics in Special Cases Restricted three-body problem: Lagrange points, stability regions Orbital resonance and its implications. 9"
+              "topics": "Orbital Mechanics in Special Cases Restricted three-body problem: Lagrange points, stability regions Orbital resonance and its implications."
             },
             {
               "unit": 4,
-              "topics": "Attitude Dynamics and Control Attitude representation: Euler angles, quaternion Attitude dynamics: equations of motion, torque analysis Attitude control systems: control strategies, stabilization techniques. Spacecraft Dynamics Spacecraft kinematics and dynamics Equations of motion for a rigid body in space Spacecraft stability and control: stability criteria, control actuators. 9"
+              "topics": "Attitude Dynamics and Control Attitude representation: Euler angles, quaternion Attitude dynamics: equations of motion, torque analysis Attitude control systems: control strategies, stabilization techniques. Spacecraft Dynamics Spacecraft kinematics and dynamics Equations of motion for a rigid body in space Spacecraft stability and control: stability criteria, control actuators."
             },
             {
               "unit": 5,
-              "topics": "Space Mission Design Mission requirements and objectives Mission analysis: trajectory optimization, launch window determination Case studies: interplanetary missions, satellite constellations . Advanced Topics and Emerging Trends Advanced topics in space dynamics: chaotic motion, libration points Emerging trends in space dynamics research Laboratory Sessions and Projects Simulation of orbital mechanics using software tools (e.g., MATLAB, STK) 9 Texts /"
+              "topics": "Space Mission Design Mission requirements and objectives Mission analysis: trajectory optimization, launch window determination Case studies: interplanetary missions, satellite constellations . Advanced Topics and Emerging Trends Advanced topics in space dynamics: chaotic motion, libration points Emerging trends in space dynamics research Laboratory Sessions and Projects Simulation of orbital mechanics using software tools (e.g., MATLAB, STK)"
             }
+          ],
+          "suggested_books": [
+            "H.D. Curtis: \"Orbital Mechanics for Engineering Students.\" Butterworth-Heinemann, 3rd edition, 2013.",
+            "D.A. Vallado: \"Fundamentals of Astrodynamics and Applications.\" Microcosm Press, 4th edition, 2013.",
+            "J.E. Prussing: and Bruce A. Conway. \"Orbital Mechanics.\" Oxford University Press, 1993."
           ]
         },
         {
@@ -1001,24 +1193,32 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Counting techniques. Lattices as partially ordered sets and as algebraic systems. 9 496 Course Title"
+              "topics": "Counting techniques. Lattices as partially ordered sets and as algebraic systems."
             },
             {
               "unit": 2,
-              "topics": "Duality, Distributive, complemented and complete lattices. 9"
+              "topics": "Duality, Distributive, complemented and complete lattices."
             },
             {
               "unit": 3,
-              "topics": "Boolean algebras and their basic properties. Boolean functions and expressions. Application of Boolean algebra to switching circuits (using AND, OR and NOT gates). 9"
+              "topics": "Boolean algebras and their basic properties. Boolean functions and expressions. Application of Boolean algebra to switching circuits (using AND, OR and NOT gates)."
             },
             {
               "unit": 4,
-              "topics": "Graphs and Planar Graphs: Graphs, Multi-graphs, Weighted Graphs, Directed graphs. Paths and circuits. 9"
+              "topics": "Graphs and Planar Graphs: Graphs, Multi-graphs, Weighted Graphs, Directed graphs. Paths and circuits."
             },
             {
               "unit": 5,
-              "topics": "Matrix representation of graphs. Eulerian paths and circuits. Planar graphs. Euler's formula. Trees and spanning trees. 9 Texts /"
+              "topics": "Matrix representation of graphs. Eulerian paths and circuits. Planar graphs. Euler's formula. Trees and spanning trees."
             }
+          ],
+          "suggested_books": [
+            "J.P. Tremblay; R. Manohar: Discrete Mathematical Structures with Applications to Computer Science, Tata McGraw Hill, New Delhi, 2001.",
+            "C.L. Liu: Elements of Discrete Mathematics, 2nd Edition, Tata McGraw-Hill, International Edition, 1986.",
+            "K.H. Rosen: Discrete Mathematics and its Applications, 8th Edition, Tata McGraw-Hill, 2021.",
+            "S. Wiitala: Discrete Mathematics: A Unified Approach, McGraw-Hill Book Co., 1987.",
+            "N. Deo: Graph Theory with Applications to Engineering and Computer Science, Prentice-Hall of India.",
+            "V.K. Balakrishnan: Introductory Discrete Mathematics, Dover, 1996."
           ]
         },
         {
@@ -1029,24 +1229,30 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "System of differential equations; Fixed points and their stability;Basic idea of bifurcations. 9"
+              "topics": "System of differential equations; Fixed points and their stability;Basic idea of bifurcations."
             },
             {
               "unit": 2,
-              "topics": "Introduction to modeling: Elementary mathematical models and General modeling ideas. 9"
+              "topics": "Introduction to modeling: Elementary mathematical models and General modeling ideas."
             },
             {
               "unit": 3,
-              "topics": "Role of mathematics in problem-solving; Concepts of mathematical modeling; system approach; formulation, Analysis of models. 9"
+              "topics": "Role of mathematics in problem-solving; Concepts of mathematical modeling; system approach; formulation, Analysis of models."
             },
             {
               "unit": 4,
-              "topics": "Discrete and Continuous-time models: cell growth model, logistic model, prey-predator model. 9"
+              "topics": "Discrete and Continuous-time models: cell growth model, logistic model, prey-predator model."
             },
             {
               "unit": 5,
-              "topics": "Introduction to infectious diseases: Simple epidemic models such as SIS, SIR, etc. 9 Texts /"
+              "topics": "Introduction to infectious diseases: Simple epidemic models such as SIS, SIR, etc."
             }
+          ],
+          "suggested_books": [
+            "J.N. Kapur:Mathematical Model in Biology and Medicine, East-West Press Pvt. Ltd.",
+            "S.H. Strogat: Nonlinear dynamics and chaos with student solutions manual: With applications to physics, biology, chemistry, and engineering. CRC Press; 2018.",
+            "C.L. Dyne: Principles of Mathematical Modeling, Academic Press, 2004.",
+            "D.N.P. Murthy; N.W. Page; E. Y. Rodin: Mathematical Modelling: A Tool for Problem Solving in Engineering, Physical, Biological and Social Sciences, Pergamon 1990."
           ]
         },
         {
@@ -1057,24 +1263,32 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Introduction: Alphabet, languages and grammars, productions and derivation, Language generated by a grammar, Chomsky hierarchy. Regular languages and finite automata: Deterministic and non-deterministic finite automata, acceptance of language by finite automata, properties of regular languages, equivalence and minimization of finite automata, Moore and Mealy machines, regular expressions, regular grammars, Pumping lemma. 9 502 Course Title"
+              "topics": "Introduction: Alphabet, languages and grammars, productions and derivation, Language generated by a grammar, Chomsky hierarchy. Regular languages and finite automata: Deterministic and non-deterministic finite automata, acceptance of language by finite automata, properties of regular languages, equivalence and minimization of finite automata, Moore and Mealy machines, regular expressions, regular grammars, Pumping lemma."
             },
             {
               "unit": 2,
-              "topics": "Context-free and context-sensitive languages: Context-free grammars (CFGs) and languages (CFLs), parse trees, ambiguity in CFG, Chomsky and Greibach normal forms, Pumping lemma for CFLs, closure properties of CFLs, Pushdown automata; Context-sensitive grammars and languages, linear bounded automata.Recursively enumerable 9"
+              "topics": "Context-free and context-sensitive languages: Context-free grammars (CFGs) and languages (CFLs), parse trees, ambiguity in CFG, Chomsky and Greibach normal forms, Pumping lemma for CFLs, closure properties of CFLs, Pushdown automata; Context-sensitive grammars and languages, linear bounded automata.Recursively enumerable"
             },
             {
               "unit": 3,
-              "topics": "languages and Turing machines: The basic model for Turing machines, configurations and acceptance, Turing-recognizable (recursively enumerable) and Turing-decidable (recursive) languages, unrestricted grammars, universal Turing machines, halting problem. 9"
+              "topics": "languages and Turing machines: The basic model for Turing machines, configurations and acceptance, Turing-recognizable (recursively enumerable) and Turing-decidable (recursive) languages, unrestricted grammars, universal Turing machines, halting problem."
             },
             {
               "unit": 4,
-              "topics": "Regular Languages, Context-Free Languages, Context-Sensitive Languages, Recursively Enumerable Languages, Linear Bounded Automata, Examples and Applications of Chomsky Hierarchy, Advanced Topics in Automata Theory, Minimization of Finite Automata, Myhill-Nerode Theorem, Introduction to Quantum Automata, Automata in Real-World Applications: Compilers, Parsing, Network Protocols. 9"
+              "topics": "Regular Languages, Context-Free Languages, Context-Sensitive Languages, Recursively Enumerable Languages, Linear Bounded Automata, Examples and Applications of Chomsky Hierarchy, Advanced Topics in Automata Theory, Minimization of Finite Automata, Myhill-Nerode Theorem, Introduction to Quantum Automata, Automata in Real-World Applications: Compilers, Parsing, Network Protocols."
             },
             {
               "unit": 5,
-              "topics": "Computability and Complexity, Introduction to Complexity Classes: P, NP, and NP- Complete, Reductions and Cook-Levin Theorem, Time Complexity and Space Complexity, The Role of Automata in Complexity Theory, Applications and Case Studies, Applications of Automata and Formal Languages in Software Engineering, Case Studies: Lexical Analysis, Compiler Design, Model Checking, Current Research Trends in Formal Languages and Automata Theory 9 Texts /"
+              "topics": "Computability and Complexity, Introduction to Complexity Classes: P, NP, and NP- Complete, Reductions and Cook-Levin Theorem, Time Complexity and Space Complexity, The Role of Automata in Complexity Theory, Applications and Case Studies, Applications of Automata and Formal Languages in Software Engineering, Case Studies: Lexical Analysis, Compiler Design, Model Checking, Current Research Trends in Formal Languages and Automata Theory"
             }
+          ],
+          "suggested_books": [
+            "D.C. Kozen: Automata and Computability, Undergraduate Texts in Computer Science, Springer, 1997.",
+            "J.E. Hopcroft; R. Motwani; J.D. Ullman, Introduction to Automata Theory, Languages, and Computation, third edition, Prentice Hall, 2007.",
+            "H.R. Lewis; C.H. Papadimitriou: Elements of the Theory of Computation, second edition, Prentice Hall, 1998.",
+            "M. Sipser: Introduction to the Theory of Computation, third edition, Course Technology, 2005.",
+            "P. Linz: An Introduction to Formal Languages and Automata, Narosa, 2007.",
+            "D.I.A. Cohen: Introduction to Computer Theory, second edition, Wiley, 1991."
           ]
         }
       ]
@@ -1090,24 +1304,34 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Open sets. Neighborhoods. Interior,Exterior, and Boundary. Limit points and Derived set. Closed sets and Closure. Bases and Subbases. 12 503 Course Title"
+              "topics": "Open sets. Neighborhoods. Interior,Exterior, and Boundary. Limit points and Derived set. Closed sets and Closure. Bases and Subbases."
             },
             {
               "unit": 2,
-              "topics": "Continuous Mappings. Homeomorphism. Induced and coinduced topologies. Subspace topology, Product topology, and Quotient topology. Identification Spaces (Cone, M\u00f6bius Strip, Projective plane, Torus, Klein bottle etc.). 12"
+              "topics": "Continuous Mappings. Homeomorphism. Induced and coinduced topologies. Subspace topology, Product topology, and Quotient topology. Identification Spaces (Cone, Möbius Strip, Projective plane, Torus, Klein bottle etc.)."
             },
             {
               "unit": 3,
-              "topics": "Separable spaces, Lindel\u00f6f spaces, First countable spaces and Second countable spaces. Cantor-Bendixson Theorem. Compactness, Compactifications and Paracompactness. 12"
+              "topics": "Separable spaces, Lindelöf spaces, First countable spaces and Second countable spaces. Cantor-Bendixson Theorem. Compactness, Compactifications and Paracompactness."
             },
             {
               "unit": 4,
-              "topics": "Separation axioms: Hausdorff space, Regular spaces, Completely regular spaces,Tychonoff spaces, Normal spaces, \ud835\udc474 space.Urysohn's lemma, Tietze's extension theorem, Urysohn's embedding and Metrization theorem.Connectedness, Locally Connected Spaces, Components, Path connectedness andLocally path connectedness. 12"
+              "topics": "Separation axioms: Hausdorff space, Regular spaces, Completely regular spaces,Tychonoff spaces, Normal spaces, 𝑇4 space.Urysohn's lemma, Tietze's extension theorem, Urysohn's embedding and Metrization theorem.Connectedness, Locally Connected Spaces, Components, Path connectedness andLocally path connectedness."
             },
             {
               "unit": 5,
-              "topics": "Homotopy of maps and paths, Fundamental group, Covering Spaces, Covering transformations, Simply Connectedness, Universal Cover, Van Kampen Theorem. 12 Texts /"
+              "topics": "Homotopy of maps and paths, Fundamental group, Covering Spaces, Covering transformations, Simply Connectedness, Universal Cover, Van Kampen Theorem."
             }
+          ],
+          "suggested_books": [
+            "M.A. Armstrong:Basic Topology, Springer Verlag, 1983.",
+            "M.H. Cho: Discovering modern general topology, Kyung Moon Publishers, Korea, 2001.",
+            "F.H. Croom: Principles of Topology, Kyung Moon Publishers, Korea 1996.",
+            "J. Dugundji: Topology, Prentice-Hall. 1966.",
+            "J.L. Kelly:General Topology, van Nostrand, Reinhold Co., New York, 1995.",
+            "J.R. Munkres: Topology Prentice Hall of India, 2000.",
+            "B.L. Sharma: Sansthiti I - Sāmānya Sansthiti (Topology I - General Topology), Uttar Pradesh Hindi Sansthan, Hindi Granth Academy Division, Lucknow, 1980.",
+            "R. Vaidyanathaswamy:Treatise on set topology, Indian mathematical society, 1947."
           ]
         },
         {
@@ -1118,24 +1342,30 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Isomorphism theorems for groups, Symmetric groups, Alternating groups, Dihedral groups, Matrix groups, Isometry groups of \u211d2 and \u211d3, Internal and External direct product and their relationship, Indecomposable groups. 12 504 Course Title"
+              "topics": "Isomorphism theorems for groups, Symmetric groups, Alternating groups, Dihedral groups, Matrix groups, Isometry groups of ℝ2 and ℝ3, Internal and External direct product and their relationship, Indecomposable groups."
             },
             {
               "unit": 2,
-              "topics": "Action of a group G on a set, Stabilizer subgroups and orbit decomposition, Class equation of an action, Sylow subgroups, Sylow's Theorem I, II and III, p-groups, Examples and applications, Groups of order p q, Direct and inverse images of Sylow subgroups. 12"
+              "topics": "Action of a group G on a set, Stabilizer subgroups and orbit decomposition, Class equation of an action, Sylow subgroups, Sylow's Theorem I, II and III, p-groups, Examples and applications, Groups of order p q, Direct and inverse images of Sylow subgroups."
             },
             {
               "unit": 3,
-              "topics": "Rings, Examples and properties, Subrings, Homomorphism, Ideals and Quotient rings, Integral domain, Polynomial rings, Field of fraction, Division rings, Fields, subfields. Characteristic of a ring and field, Prime subfields, Field extensions, Finite extensions, Algebraic and transcendental extensions. 12"
+              "topics": "Rings, Examples and properties, Subrings, Homomorphism, Ideals and Quotient rings, Integral domain, Polynomial rings, Field of fraction, Division rings, Fields, subfields. Characteristic of a ring and field, Prime subfields, Field extensions, Finite extensions, Algebraic and transcendental extensions."
             },
             {
               "unit": 4,
-              "topics": "Factorization of polynomials in extension fields. Splitting fields. Separable extensions, Perfect fields. Automorphisms of fields, Normal extensions, normal closures, Galois extensions, Fundamental theorem of Galois theory, Computation of Galois groups of polynomials. 12"
+              "topics": "Factorization of polynomials in extension fields. Splitting fields. Separable extensions, Perfect fields. Automorphisms of fields, Normal extensions, normal closures, Galois extensions, Fundamental theorem of Galois theory, Computation of Galois groups of polynomials."
             },
             {
               "unit": 5,
-              "topics": "Primitive element, Finite fields, Subfields of finite fields, Cyclic Galois groups, fundamental theorem of algebra. Cyclotomic extensions and polynomials, Cyclic extensions, Solvability by radicals. 12 Texts /"
+              "topics": "Primitive element, Finite fields, Subfields of finite fields, Cyclic Galois groups, fundamental theorem of algebra. Cyclotomic extensions and polynomials, Cyclic extensions, Solvability by radicals."
             }
+          ],
+          "suggested_books": [
+            "D.S Dummit; R. Foote: Abstract Algebra, Wiley, 2003.",
+            "J. Gallian: Contemporary Abstract Algebra, Narosa, 1998.",
+            "R. Lal: Algebra vol 1 and 2, Springer, 2022.",
+            "J.B. Fraleigh: A first course in Abstract Algebra, Pearson, 2002."
           ]
         },
         {
@@ -1146,24 +1376,37 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Normed linear spaces and Banach spaces.The \ud835\udc3f\ud835\udc3f-space as Banach spaces 12 505 Course Title"
+              "topics": "Normed linear spaces and Banach spaces.The 𝐿𝐿-space as Banach spaces"
             },
             {
               "unit": 2,
-              "topics": "Bounded linear transformations. \ud835\udc3f(\ud835\udc3f, \ud835\udc3f)as a normed linear space. Open mapping and closed graph theorems. Uniform boundedness principle and its consequences. Hahn- Banach theorem and its application 12"
+              "topics": "Bounded linear transformations. 𝐿(𝐿, 𝐿)as a normed linear space. Open mapping and closed graph theorems. Uniform boundedness principle and its consequences. Hahn- Banach theorem and its application"
             },
             {
               "unit": 3,
-              "topics": "Dual spaces with examples. Separability. Reflexive spaces. Weak convergence. Compact operators. 12"
+              "topics": "Dual spaces with examples. Separability. Reflexive spaces. Weak convergence. Compact operators."
             },
             {
               "unit": 4,
-              "topics": "Inner product spaces, Hilbert spaces. Orthonormal sets. Bessel's inequality. Complete orthonormal sets and Parseval's identity. Structure of Hilbert spaces. Projection theorem. 12"
+              "topics": "Inner product spaces, Hilbert spaces. Orthonormal sets. Bessel's inequality. Complete orthonormal sets and Parseval's identity. Structure of Hilbert spaces. Projection theorem."
             },
             {
               "unit": 5,
-              "topics": "Riesz representation theorem. Riesz-Fischer theorem. Adjoint of an operator on a Hilbert space. Reflexivity of Hilbert spaces. Self-adjoint operators. Positive, projection, normal, and unitary operators. 12 Texts /"
+              "topics": "Riesz representation theorem. Riesz-Fischer theorem. Adjoint of an operator on a Hilbert space. Reflexivity of Hilbert spaces. Self-adjoint operators. Positive, projection, normal, and unitary operators."
             }
+          ],
+          "suggested_books": [
+            "H.L. Royden: Real Analysis, Macmillan, 4th Edition, 1993.",
+            "G.F. Simmons: Introduction to Topology and Modern Analysis, McGraw-Hill, 1963.",
+            "G. Bachman; L. Narici: Functional Analysis, Academic Press, 1966.",
+            "A.E. Taylor: Introduction to Functional Analysis, John Wiley, 1958.",
+            "B.V. Limaye: Functional Analysis, Wiley Eastern.",
+            "N. Dunford; J.T. Schwartz: Linear Operators, Part-I, Interscience, 1958.",
+            "R.E. Edwards: Functional Analysis, Holt Rinehart and Winston, 1965.",
+            "C. Goffman; G. Pedrick: First Course in Functional Analysis, Prentice- Hall of India, 1987.",
+            "K.K. Jha: Functional Analysis and Its Applications, Students' Friend, 1986.",
+            "Erwin Kreyszig, Introductory Functional Analysis with Applications,John Wiley and Sons,1978.",
+            "Rajendra Bhatia, Notes on Functional Analysis, Hindustan Book Agency (Springer), 2009."
           ]
         },
         {
@@ -1174,20 +1417,29 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Differentiable manifolds - Definitions and examples. Differentiable maps. Jacobian matrix. Tangent spaces. Vector fields. Integral curves. 15 506 Course Title"
+              "topics": "Differentiable manifolds - Definitions and examples. Differentiable maps. Jacobian matrix. Tangent spaces. Vector fields. Integral curves."
             },
             {
               "unit": 2,
-              "topics": "Submanifolds. Distributions and integrability. 1-parameter group of transformations. Tensors and forms. 15"
+              "topics": "Submanifolds. Distributions and integrability. 1-parameter group of transformations. Tensors and forms."
             },
             {
               "unit": 3,
-              "topics": "The Koszul connection. Covariant, Lie and Exterior derivatives. Geodesics and curvature. 15"
+              "topics": "The Koszul connection. Covariant, Lie and Exterior derivatives. Geodesics and curvature."
             },
             {
               "unit": 4,
-              "topics": "Lie Groups and Lie Algebra. Fibre bundles 15 Texts /"
+              "topics": "Lie Groups and Lie Algebra. Fibre bundles"
             }
+          ],
+          "suggested_books": [
+            "R.L.Bishop; R.J.Crittenden:GeometryofManifolds,AcademicPress,1964.",
+            "S.S.Chern;W.H.Chen; K.S.Lam:LecturesonDifferentialGeometry,WorldScientific,2000.",
+            "N.J.Hicks:NotesonDifferentialGeometry,VonNostrand,1965.",
+            "J.M.Lee:Introduction toSmoothManifolds,Springer,2006.",
+            "Y.Matsushima: DifferentiableManifolds, Dekker,1972.",
+            "M.Spivak: AComprehensiveIntroductiontoDifferential GeometryVol 13ed., PublishorPerish,1999.",
+            "F.Warner:FoundationsofDifferentiableManifoldsandLieGroups,Springer,1983."
           ]
         },
         {
@@ -1198,23 +1450,23 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Open sets. Neighborhoods. Interior,Exterior, and Boundary. Limit points and Derived set. Closed sets and Closure. Bases and Subbases. 12 503 Course Title"
+              "topics": "Open sets. Neighborhoods. Interior,Exterior, and Boundary. Limit points and Derived set. Closed sets and Closure. Bases and Subbases."
             },
             {
               "unit": 2,
-              "topics": "Continuous Mappings. Homeomorphism. Induced and coinduced topologies. Subspace topology, Product topology, and Quotient topology. Identification Spaces (Cone, M\u00f6bius Strip, Projective plane, Torus, Klein bottle etc.). 12"
+              "topics": "Continuous Mappings. Homeomorphism. Induced and coinduced topologies. Subspace topology, Product topology, and Quotient topology. Identification Spaces (Cone, Möbius Strip, Projective plane, Torus, Klein bottle etc.)."
             },
             {
               "unit": 3,
-              "topics": "Separable spaces, Lindel\u00f6f spaces, First countable spaces and Second countable spaces. Cantor-Bendixson Theorem. Compactness, Compactifications and Paracompactness. 12"
+              "topics": "Separable spaces, Lindelöf spaces, First countable spaces and Second countable spaces. Cantor-Bendixson Theorem. Compactness, Compactifications and Paracompactness."
             },
             {
               "unit": 4,
-              "topics": "Separation axioms: Hausdorff space, Regular spaces, Completely regular spaces,Tychonoff spaces, Normal spaces, \ud835\udc474 space.Urysohn's lemma, Tietze's extension theorem, Urysohn's embedding and Metrization theorem.Connectedness, Locally Connected Spaces, Components, Path connectedness andLocally path connectedness. 12"
+              "topics": "Separation axioms: Hausdorff space, Regular spaces, Completely regular spaces,Tychonoff spaces, Normal spaces, 𝑇4 space.Urysohn's lemma, Tietze's extension theorem, Urysohn's embedding and Metrization theorem.Connectedness, Locally Connected Spaces, Components, Path connectedness andLocally path connectedness."
             },
             {
               "unit": 5,
-              "topics": "Homotopy of maps and paths, Fundamental group, Covering Spaces, Covering transformations, Simply Connectedness, Universal Cover, Van Kampen Theorem. 12 Texts /"
+              "topics": "Homotopy of maps and paths, Fundamental group, Covering Spaces, Covering transformations, Simply Connectedness, Universal Cover, Van Kampen Theorem."
             }
           ]
         }
@@ -1231,24 +1483,31 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Affinely and geometrically independent points, n-Simplex, Simplicial complex in dimension n, simplicial maps, geometric carrier and realizations, link and star of a simplex, Triangulaons. Examples and computations of Triangulaonsrepresenng Topological objects. 12 507 Course Title"
+              "topics": "Affinely and geometrically independent points, n-Simplex, Simplicial complex in dimension n, simplicial maps, geometric carrier and realizations, link and star of a simplex, Triangulaons. Examples and computations of Triangulaonsrepresenng Topological objects."
             },
             {
               "unit": 2,
-              "topics": "Singular simplices, chains, cycles and boundaries. Group of chains and boundaries, Singular Homology. Discussion of various axioms. Computation of Homology of surfaces such as Sphere, Projective plane, Torus, Mobius strip, Cylinder, Klein bottle. 12"
+              "topics": "Singular simplices, chains, cycles and boundaries. Group of chains and boundaries, Singular Homology. Discussion of various axioms. Computation of Homology of surfaces such as Sphere, Projective plane, Torus, Mobius strip, Cylinder, Klein bottle."
             },
             {
               "unit": 3,
-              "topics": "Orientable double cover. Euler Characteristics, closed surfaces as quotients of 4g-gon. Discussion of classifications of closed surfaces. Surface groups and presentation. Two dimensional geometries. 12"
+              "topics": "Orientable double cover. Euler Characteristics, closed surfaces as quotients of 4g-gon. Discussion of classifications of closed surfaces. Surface groups and presentation. Two dimensional geometries."
             },
             {
               "unit": 4,
-              "topics": "Discussion of Classification problem in Topology with an Overview of Poincare Theorem and Geometrization in dimension 3. Non availability of strong invariants in dimension 3. Various examples of 3-manifolds. Loop theorem, sphere theorem. 12"
+              "topics": "Discussion of Classification problem in Topology with an Overview of Poincare Theorem and Geometrization in dimension 3. Non availability of strong invariants in dimension 3. Various examples of 3-manifolds. Loop theorem, sphere theorem."
             },
             {
               "unit": 5,
-              "topics": "Prime decomposition, irreducibility. Torus decompositions. JSJ, Seifert fibered spaces and Hyperbolic Manifolds. Non solvability of word problem: Manifolds of dimension 4 and more. 12 Texts /"
+              "topics": "Prime decomposition, irreducibility. Torus decompositions. JSJ, Seifert fibered spaces and Hyperbolic Manifolds. Non solvability of word problem: Manifolds of dimension 4 and more."
             }
+          ],
+          "suggested_books": [
+            "A. Hatcher: Algebraic Topology, Cambridge Univ Press, 2002.",
+            "A. Hatcher: Basic, Topology of 3 –manifolds.",
+            "J. Hempel: 3-Manifolds. Annals of Math Studies 86. Princeton University Press, 1976.",
+            "V.V. Prasolov; A.B. Sossinsky: Knots, Links, Braids and 3-Manifolds, AMS, 1997.",
+            "J.R. Munkres: Elements of Algebraic Topology, CRC Press, 1984."
           ]
         },
         {
@@ -1259,20 +1518,25 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Overview of Shannon theory, Source coding and Channel coding, Uniquely decodable codes, Instantaneous codes, Kraft\u2019s and McMillan\u2019s inequality, Binary Huffman codes, Average wordlength of Huffman codes, extensions of sources 12 516 Course Title"
+              "topics": "Overview of Shannon theory, Source coding and Channel coding, Uniquely decodable codes, Instantaneous codes, Kraft’s and McMillan’s inequality, Binary Huffman codes, Average wordlength of Huffman codes, extensions of sources"
             },
             {
               "unit": 2,
-              "topics": "Information and entropy, properties of the entropy function, entropy and average word length, Shannon-Fano coding, Shannon\u2019s first theorem, Binary symmetric channel, system entropies, Mutual Information and channel capacity 12"
+              "topics": "Information and entropy, properties of the entropy function, entropy and average word length, Shannon-Fano coding, Shannon’s first theorem, Binary symmetric channel, system entropies, Mutual Information and channel capacity"
             },
             {
               "unit": 3,
-              "topics": "Error correcting codes: maximum likelihood decoding, Hamming distance and distance of a code, minimum distance decoding rule, Linear codes, minimum distance of linear codes, Hamming weight, Bases for linear codes, Generator matrix and parity- check matrix, equivalence of linear codes, (Slepian) standard array and syndrome decoding 12"
+              "topics": "Error correcting codes: maximum likelihood decoding, Hamming distance and distance of a code, minimum distance decoding rule, Linear codes, minimum distance of linear codes, Hamming weight, Bases for linear codes, Generator matrix and parity- check matrix, equivalence of linear codes, (Slepian) standard array and syndrome decoding"
             },
             {
               "unit": 4,
-              "topics": "Hamming\u2019s sphere-packing bound, the Gilbert-Varshamov bound. Perfect codes, The Hamming codes and the Golay codes, Singleton bound and MDS codes, Hadamard matrices and codes. 12 Texts /"
+              "topics": "Hamming’s sphere-packing bound, the Gilbert-Varshamov bound. Perfect codes, The Hamming codes and the Golay codes, Singleton bound and MDS codes, Hadamard matrices and codes."
             }
+          ],
+          "suggested_books": [
+            "G.A. Jones; J.M. Jones: information and Coding Theory: Springer, 2000.",
+            "S. Ling; C.Xing: Coding Theory, Cambridge University Press, 2004.",
+            "J.H.V. Lint: Introduction to Coding Theory, Springer, 1982."
           ]
         },
         {
@@ -1287,20 +1551,26 @@
             },
             {
               "unit": 2,
-              "topics": "Affine algebraic sets, Algebraic sets in terms of zeros of polynomials, Projective Algebraic sets, Zariski Topology, irreducible space, Noetherian space, affine Variety and quasi affine variety, Dimension, Krull dimension 9"
+              "topics": "Affine algebraic sets, Algebraic sets in terms of zeros of polynomials, Projective Algebraic sets, Zariski Topology, irreducible space, Noetherian space, affine Variety and quasi affine variety, Dimension, Krull dimension"
             },
             {
               "unit": 3,
-              "topics": "Interlude to field theory, extension, irreducible and minimal polynomial, Algebraically closed field,, Ring extension, integral element, module finiteness, integrally closed extension. 9"
+              "topics": "Interlude to field theory, extension, irreducible and minimal polynomial, Algebraically closed field,, Ring extension, integral element, module finiteness, integrally closed extension."
             },
             {
               "unit": 4,
-              "topics": "Weak nullstellensatz, Hilbert\u2019s Nullstellensatz and their proof, Transcendence base, Polynomial map 9"
+              "topics": "Weak nullstellensatz, Hilbert’s Nullstellensatz and their proof, Transcendence base, Polynomial map"
             },
             {
               "unit": 5,
-              "topics": "Rational functions, Coordinate ring, valuations, completion, topological field, Tangent space, Derivations 9 Texts /"
+              "topics": "Rational functions, Coordinate ring, valuations, completion, topological field, Tangent space, Derivations"
             }
+          ],
+          "suggested_books": [
+            "D Mumford: The red book of varieties and schemes, Springer, 1999.",
+            "J S Milne: Algebraic Geometry, Web version, 2023.",
+            "S S Abhyankar: Algebraic Geometry for Scientists and Engineers, AMS, 2011.",
+            "Igor R. Shafarevich: Basic Algebraic Geometry 1, Springer, 1994."
           ]
         },
         {
@@ -1311,24 +1581,32 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Basic Properties of Fourier Series: Uniqueness of Fourier Series,Convolutions, Cesaro and Abel Summability, Fejer's theorem. 12 508 Course Title"
+              "topics": "Basic Properties of Fourier Series: Uniqueness of Fourier Series,Convolutions, Cesaro and Abel Summability, Fejer's theorem."
             },
             {
               "unit": 2,
-              "topics": "Poisson Kernel and Dirichlet problem in the unit disc. Mean square Convergence, Example of Continuous functions with divergent Fourier series. 12"
+              "topics": "Poisson Kernel and Dirichlet problem in the unit disc. Mean square Convergence, Example of Continuous functions with divergent Fourier series."
             },
             {
               "unit": 3,
-              "topics": "Distributions and Fourier Transforms: Calculus of Distributions, Schwartz class of rapidly decreasing functions. 12"
+              "topics": "Distributions and Fourier Transforms: Calculus of Distributions, Schwartz class of rapidly decreasing functions."
             },
             {
               "unit": 4,
-              "topics": "Fourier transforms of rapidly decreasing functions, Riemann Lebesgue lemma, Fourier Inversion Theorem, Fourier transforms of Gaussians. 12"
+              "topics": "Fourier transforms of rapidly decreasing functions, Riemann Lebesgue lemma, Fourier Inversion Theorem, Fourier transforms of Gaussians."
             },
             {
               "unit": 5,
-              "topics": "Tempered Distributions: Fourier transforms of tempered distributions, Convolutions. 12 Texts /"
+              "topics": "Tempered Distributions: Fourier transforms of tempered distributions, Convolutions."
             }
+          ],
+          "suggested_books": [
+            "R.S. Strichartz: A Guide to Distributions and Fourier Transforms, CRC Press, 1994.",
+            "E.M. Stein; R. Shakarchi: Fourier Analysis: An Introduction, Princeton University Press, 2003.",
+            "I. Richards; H. Youn: Theory of Distributions: A Nontechnical Introduction, Cambridge University Press, 1990.",
+            "R.S. Pathak: A Course in Distribution Theory and Applications, Narosa, 2001.",
+            "G. H. Hardy, Divergent Series, Oxford University Press, 1973.",
+            "A. Zygmund, Trigonometric Series, Cambridge University Press, 2002."
           ]
         },
         {
@@ -1339,24 +1617,31 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Convex analysis: convex set, convex combination, Caratheodory's theorem, convex hull, Separation theorems, convex functions, epigraphs, lower level sets, continuity of convex functions. 12 509 Course Title"
+              "topics": "Convex analysis: convex set, convex combination, Caratheodory's theorem, convex hull, Separation theorems, convex functions, epigraphs, lower level sets, continuity of convex functions."
             },
             {
               "unit": 2,
-              "topics": "Alternative theorems, differentiable and twice differentiable convex functions, generalized convexity. 12"
+              "topics": "Alternative theorems, differentiable and twice differentiable convex functions, generalized convexity."
             },
             {
               "unit": 3,
-              "topics": "Unconstrained Optimization: local and global minimizers, first and second order necessary optimality conditions, second order sufficient optimality condition, unimodal functions, line search, golden section method. 12"
+              "topics": "Unconstrained Optimization: local and global minimizers, first and second order necessary optimality conditions, second order sufficient optimality condition, unimodal functions, line search, golden section method."
             },
             {
               "unit": 4,
-              "topics": "Fibonacci Method, Quadratic Interpolation Methods, Cubic Interpolation Method, the steepest descent method, the Newton method, the conjugate gradient method, Quasi- Newton method. 12"
+              "topics": "Fibonacci Method, Quadratic Interpolation Methods, Cubic Interpolation Method, the steepest descent method, the Newton method, the conjugate gradient method, Quasi- Newton method."
             },
             {
               "unit": 5,
-              "topics": "Constrained Optimization: local, global and isolated minimizers, feasible directions, descent directions, Lagrangian function, Fritz-John optimality conditions, constraint qualifications, Karush-Kuhn-Tucker optimality conditions, convex programming, second order optimality conditions, duality, saddle points. 12 Texts /"
+              "topics": "Constrained Optimization: local, global and isolated minimizers, feasible directions, descent directions, Lagrangian function, Fritz-John optimality conditions, constraint qualifications, Karush-Kuhn-Tucker optimality conditions, convex programming, second order optimality conditions, duality, saddle points."
             }
+          ],
+          "suggested_books": [
+            "O.L. Mangasarian:Nonlinear programming. Society for Industrial and Applied Mathematics,",
+            "J. Nocedal;S.J. Wright:Numerical optimization. New York, NY: Springer New York, 1999.",
+            "S.P. Boyd;L. Vandenberghe:Convex optimization. Cambridge University Press, 2004.",
+            "S.K. Mishra; B. Ram: Introduction to unconstrained optimization with R. Springer Nature, 2019",
+            "E.K. Chong; W.S. Lu;S.H. Zak: An Introduction to Optimization: With Applications to Machine Learning. John Wiley and Sons, 2023"
           ]
         },
         {
@@ -1367,24 +1652,29 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Unconstrained quadratic programming problems, Quadratic cost functions, Convex quadratic functions, Local and Global minimizers, Existence and Uniqueness theorems. 12 510 Course Title"
+              "topics": "Unconstrained quadratic programming problems, Quadratic cost functions, Convex quadratic functions, Local and Global minimizers, Existence and Uniqueness theorems."
             },
             {
               "unit": 2,
-              "topics": "Quadratic Programming problems with equality constraints, Optimality, Existence and Uniqueness, KKT systems, Min-max, Dual and saddle point problems, Properties of the solution sets of quadratic. 12"
+              "topics": "Quadratic Programming problems with equality constraints, Optimality, Existence and Uniqueness, KKT systems, Min-max, Dual and saddle point problems, Properties of the solution sets of quadratic."
             },
             {
               "unit": 3,
-              "topics": "Programming problems, Continuity of the solution map, Quadratic programming problems with inequality constraints. 12"
+              "topics": "Programming problems, Continuity of the solution map, Quadratic programming problems with inequality constraints."
             },
             {
               "unit": 4,
-              "topics": "Farka's Lemma, Optimality, Existence and Uniqueness of solution, Duality for constrained quadratic programming problems, Algorithms for numerical solutions of quadratic programming problems. 12"
+              "topics": "Farka's Lemma, Optimality, Existence and Uniqueness of solution, Duality for constrained quadratic programming problems, Algorithms for numerical solutions of quadratic programming problems."
             },
             {
               "unit": 5,
-              "topics": "Nonconvex quadratic programming problems, Applications to Portfolio optimization and Affine Variational inequalities. 12 Texts /"
+              "topics": "Nonconvex quadratic programming problems, Applications to Portfolio optimization and Affine Variational inequalities."
             }
+          ],
+          "suggested_books": [
+            "Z. Dostal: Optimal Quadratic Programming Algorithms, Springer, New York, 2009.",
+            "M.J. Best: Quadratic Programming with Computer Programs, CRC, 2017.",
+            "G.M. Lee; N.N. Tam; N.D. Yen: Quadratic Programming and Affine Variational Inequalities, Springer, New York, 2005."
           ]
         },
         {
@@ -1395,24 +1685,29 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Equation of continuity, Boundary surfaces, path lines and streamlines, Irrotational and rotational motions, Vortex lines, Euler\u2019s Equation of motion, Bernoulli\u2019s theorem, Impulsive actions, Motion in two-dimensions. 12 511 Course Title"
+              "topics": "Equation of continuity, Boundary surfaces, path lines and streamlines, Irrotational and rotational motions, Vortex lines, Euler’s Equation of motion, Bernoulli’s theorem, Impulsive actions, Motion in two-dimensions."
             },
             {
               "unit": 2,
-              "topics": "Conjugate functions, Source, sink, doublets and their images, conformal mapping. Stress components in real fluid, Equilibrium equation in terms of stress components, Transformation of stress components. 12"
+              "topics": "Conjugate functions, Source, sink, doublets and their images, conformal mapping. Stress components in real fluid, Equilibrium equation in terms of stress components, Transformation of stress components."
             },
             {
               "unit": 3,
-              "topics": "Principal stresses, Nature of strains, Transformation of rates of strain, Relationship between stress and rate of strain. 12"
+              "topics": "Principal stresses, Nature of strains, Transformation of rates of strain, Relationship between stress and rate of strain."
             },
             {
               "unit": 4,
-              "topics": "Navier-Stokes equation of motion. Buckingham \u03a0-theorem, Flow between parallel flat plates, Couette and plane Poiseuille flows. 12"
+              "topics": "Navier-Stokes equation of motion. Buckingham Π-theorem, Flow between parallel flat plates, Couette and plane Poiseuille flows."
             },
             {
               "unit": 5,
-              "topics": "Flow through a pipe, Hagen Poiseuille flow, flow between two co-axially cylinders and two concentric rotating cylinders,Unsteady motion of a flat plate. 12 Texts /"
+              "topics": "Flow through a pipe, Hagen Poiseuille flow, flow between two co-axially cylinders and two concentric rotating cylinders,Unsteady motion of a flat plate."
             }
+          ],
+          "suggested_books": [
+            "W.H. Besant; A.S. Ramsey: A Treatise on Hydrodynamics, CBS Publishers and Distributors,Delhi, 1988.",
+            "S.W. Yuan: Foundations of Fluid Dynamics, Prentice-Hall of India, 1988.",
+            "F. Charlton: A Text Book of Fluid Dynamics, CBC, 1985."
           ]
         },
         {
@@ -1423,24 +1718,33 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Integral equations: Fredholm and Volterra equations of first and second types. Conversions of initial and boundary value problems into integral equations, numerical solutions of integral equations using Newton-Cotes, Lagrange`s linear interpolation and Chebyshev polynomial. 12 512 Course Title"
+              "topics": "Integral equations: Fredholm and Volterra equations of first and second types. Conversions of initial and boundary value problems into integral equations, numerical solutions of integral equations using Newton-Cotes, Lagrange`s linear interpolation and Chebyshev polynomial."
             },
             {
               "unit": 2,
-              "topics": "Matrix Computations: System of linear equations, Conditioning of Matrices, Matrix inversion method, Matrix factorization, Tridiagonal systems. 12"
+              "topics": "Matrix Computations: System of linear equations, Conditioning of Matrices, Matrix inversion method, Matrix factorization, Tridiagonal systems."
             },
             {
               "unit": 3,
-              "topics": "Numerical solutions of system of simultaneous first order differential equations and second order initial value problems (IVP) by Euler and Runge-Kutta (IV order) explicit methods. 12"
+              "topics": "Numerical solutions of system of simultaneous first order differential equations and second order initial value problems (IVP) by Euler and Runge-Kutta (IV order) explicit methods."
             },
             {
               "unit": 4,
-              "topics": "Numerical solutions of second order boundary value problems (BVP) of first, second and third types by shooting method and finite difference methods. 12"
+              "topics": "Numerical solutions of second order boundary value problems (BVP) of first, second and third types by shooting method and finite difference methods."
             },
             {
               "unit": 5,
-              "topics": "Finite Element method: Introduction, Methods of approximation: Rayleigh-Ritz Method, Gelarkin Method and its application for solution of BVP. 12 Texts /"
+              "topics": "Finite Element method: Introduction, Methods of approximation: Rayleigh-Ritz Method, Gelarkin Method and its application for solution of BVP."
             }
+          ],
+          "suggested_books": [
+            "M.K. Jain; S.R.K. Iyenger; R.K. Jain: Numerical Methods for Scientific and Engineering Computations, New Age Publications, 2003.",
+            "M.K. Jain: Numerical Solution of Differential Equations, 2nd edition, Wiley-Eastern.",
+            "D.V. Griffiths; I.M. Smith: Numerical Methods for Engineers, Oxford University Press, 1993.",
+            "S.S. Sastry: Introductory Methods of Numerical Analysis.",
+            "C.F. Gerald; P.O. Wheatley: Applied Numerical Analysis, Addison- Wesley, 1998.",
+            "S. Gupta: Text Book on Calculas of Variation, Prentice-Hall of India, 2002.",
+            "N. Kumar: An Elementary Course on Variational Problems in Calculus, Narosa Publishing House,New Delhi, 2004."
           ]
         },
         {
@@ -1451,24 +1755,29 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Introduction to Mathematical Modeling: modeling process, Elementary mathematical models; Role of mathematics in problem solving. 12 513 Course Title"
+              "topics": "Introduction to Mathematical Modeling: modeling process, Elementary mathematical models; Role of mathematics in problem solving."
             },
             {
               "unit": 2,
-              "topics": "Single species population model: The exponential model, logistic model, harvesting model, and its critical value. 12"
+              "topics": "Single species population model: The exponential model, logistic model, harvesting model, and its critical value."
             },
             {
               "unit": 3,
-              "topics": "Modeling with Ordinary Differential Equations: Overview of basic concepts in ODE and stability ofsolutions: steady state and their local and global stability; Some applications in Epidemiology and ecology. 12"
+              "topics": "Modeling with Ordinary Differential Equations: Overview of basic concepts in ODE and stability ofsolutions: steady state and their local and global stability; Some applications in Epidemiology and ecology."
             },
             {
               "unit": 4,
-              "topics": "Modeling with Difference Equations: Overview of basic concepts concerning matrices. 12"
+              "topics": "Modeling with Difference Equations: Overview of basic concepts concerning matrices."
             },
             {
               "unit": 5,
-              "topics": "Eigenvalues andEigenvectors; Fixed points, stability, and iterative processes;Applications to population growth 12 Texts /"
+              "topics": "Eigenvalues andEigenvectors; Fixed points, stability, and iterative processes;Applications to population growth"
             }
+          ],
+          "suggested_books": [
+            "J.N. Kapur: Mathematical Modeling, Wiley Eastern, 1988.",
+            "D.N. Burghes: Mathematical Modeling in the Social Management and Life Science, Ellie Herwood and John Wiley, 1980.",
+            "F. Charlton: Ordinary Differential and Difference Equations, Van Nostrand, 1965."
           ]
         },
         {
@@ -1479,24 +1788,31 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Numerical solutions of parabolic PDE in one space: two and three levels explicit and implicit differenceschemes. Convergence and stability analysis. 9 514 Course Title"
+              "topics": "Numerical solutions of parabolic PDE in one space: two and three levels explicit and implicit differenceschemes. Convergence and stability analysis."
             },
             {
               "unit": 2,
-              "topics": "Numerical solution of parabolic PDE of second order in two space dimension: implicit methods, alternatingdirection implicit (ADI) methods. Nonlinear initial BVP. 9"
+              "topics": "Numerical solution of parabolic PDE of second order in two space dimension: implicit methods, alternatingdirection implicit (ADI) methods. Nonlinear initial BVP."
             },
             {
               "unit": 3,
-              "topics": "Difference schemes for parabolic PDE in spherical and cylindrical coordinate systems in one dimension. 9"
+              "topics": "Difference schemes for parabolic PDE in spherical and cylindrical coordinate systems in one dimension."
             },
             {
               "unit": 4,
-              "topics": "Numerical solution of hyperbolic PDE in one and two space dimension: explicit and implicit schemes. ADImethods. Difference schemes for first order equations. 9"
+              "topics": "Numerical solution of hyperbolic PDE in one and two space dimension: explicit and implicit schemes. ADImethods. Difference schemes for first order equations."
             },
             {
               "unit": 5,
-              "topics": "Numerical solutions of elliptic equations, approximations of Laplace and biharmonic operators. Solutions ofDirichlet, Neuman and mixed type problems.Finite element method: Linear, triangular elements, and rectangular elements. 9 Texts /"
+              "topics": "Numerical solutions of elliptic equations, approximations of Laplace and biharmonic operators. Solutions ofDirichlet, Neuman and mixed type problems.Finite element method: Linear, triangular elements, and rectangular elements."
             }
+          ],
+          "suggested_books": [
+            "M.K. Jain; S.R.K. Iyenger; R.K. Jain: Computational Methods for Partial Differential Equations,Wiley Eastern, 1994.",
+            "M.K. Jain: Numerical Solution of Differential Equations, 2nd edition, Wiley Eastern.",
+            "S.S. Sastry: Introductory Methods of Numerical Analysis, , Prentice-Hall of India, 2002.",
+            "D.V. Griffiths; I.M. Smith: Numerical Methods of Engineers, Oxford University Press, 1993.",
+            "C.F. General; P.O. Wheatley: Applied Numerical Analysis, Addison- Wesley, 1998."
           ]
         },
         {
@@ -1507,16 +1823,23 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Riemannian Metrics. Riemannian connection. Fundamental Theorem of Riemannian Geometry. Geodesics. 20 515 Course Title"
+              "topics": "Riemannian Metrics. Riemannian connection. Fundamental Theorem of Riemannian Geometry. Geodesics."
             },
             {
               "unit": 2,
-              "topics": "Curvature - Riemann curvature, Sectional curvature, Ricci curvature, scalar curvature. Kulkarni-Nomizu tensor fields. Conformal curvature tensor field. 20"
+              "topics": "Curvature - Riemann curvature, Sectional curvature, Ricci curvature, scalar curvature. Kulkarni-Nomizu tensor fields. Conformal curvature tensor field."
             },
             {
               "unit": 3,
-              "topics": "Jacobi Fields. Complete manifolds, Hopf-Rinow Theorem, The Theorem of Hadamard. Real space forms, Theorem of Cartan on thedetermination ofthe metric by means of the curvature. Fundamental equations for Riemannian submanifolds. 20 Texts /"
+              "topics": "Jacobi Fields. Complete manifolds, Hopf-Rinow Theorem, The Theorem of Hadamard. Real space forms, Theorem of Cartan on thedetermination ofthe metric by means of the curvature. Fundamental equations for Riemannian submanifolds."
             }
+          ],
+          "suggested_books": [
+            "S.S. Chern; W.H. Chen; K.S. Lam: Lectures on Differential Geometry, World Scientific, 2000.",
+            "M.P. do Carmo: Riemannian Geometry, Birkhauser, 1992.",
+            "N.J. Hicks: Notes on Differential Geometry, Von Nostrand, 1965.",
+            "P. Petersen: Riemannian Geometry, Springer 2006.",
+            "J. Jost: Riemannian Geometry and Geometric Analysis (6ed. Springer, 2011)."
           ]
         },
         {
@@ -1527,23 +1850,23 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Affinely and geometrically independent points, n-Simplex, Simplicial complex in dimension n, simplicial maps, geometric carrier and realizations, link and star of a simplex, Triangulaons. Examples and computations of Triangulaonsrepresenng Topological objects. 12 507 Course Title"
+              "topics": "Affinely and geometrically independent points, n-Simplex, Simplicial complex in dimension n, simplicial maps, geometric carrier and realizations, link and star of a simplex, Triangulaons. Examples and computations of Triangulaonsrepresenng Topological objects."
             },
             {
               "unit": 2,
-              "topics": "Singular simplices, chains, cycles and boundaries. Group of chains and boundaries, Singular Homology. Discussion of various axioms. Computation of Homology of surfaces such as Sphere, Projective plane, Torus, Mobius strip, Cylinder, Klein bottle. 12"
+              "topics": "Singular simplices, chains, cycles and boundaries. Group of chains and boundaries, Singular Homology. Discussion of various axioms. Computation of Homology of surfaces such as Sphere, Projective plane, Torus, Mobius strip, Cylinder, Klein bottle."
             },
             {
               "unit": 3,
-              "topics": "Orientable double cover. Euler Characteristics, closed surfaces as quotients of 4g-gon. Discussion of classifications of closed surfaces. Surface groups and presentation. Two dimensional geometries. 12"
+              "topics": "Orientable double cover. Euler Characteristics, closed surfaces as quotients of 4g-gon. Discussion of classifications of closed surfaces. Surface groups and presentation. Two dimensional geometries."
             },
             {
               "unit": 4,
-              "topics": "Discussion of Classification problem in Topology with an Overview of Poincare Theorem and Geometrization in dimension 3. Non availability of strong invariants in dimension 3. Various examples of 3-manifolds. Loop theorem, sphere theorem. 12"
+              "topics": "Discussion of Classification problem in Topology with an Overview of Poincare Theorem and Geometrization in dimension 3. Non availability of strong invariants in dimension 3. Various examples of 3-manifolds. Loop theorem, sphere theorem."
             },
             {
               "unit": 5,
-              "topics": "Prime decomposition, irreducibility. Torus decompositions. JSJ, Seifert fibered spaces and Hyperbolic Manifolds. Non solvability of word problem: Manifolds of dimension 4 and more. 12 Texts /"
+              "topics": "Prime decomposition, irreducibility. Torus decompositions. JSJ, Seifert fibered spaces and Hyperbolic Manifolds. Non solvability of word problem: Manifolds of dimension 4 and more."
             }
           ]
         },
@@ -1555,19 +1878,19 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Overview of Shannon theory, Source coding and Channel coding, Uniquely decodable codes, Instantaneous codes, Kraft\u2019s and McMillan\u2019s inequality, Binary Huffman codes, Average wordlength of Huffman codes, extensions of sources 12 516 Course Title"
+              "topics": "Overview of Shannon theory, Source coding and Channel coding, Uniquely decodable codes, Instantaneous codes, Kraft’s and McMillan’s inequality, Binary Huffman codes, Average wordlength of Huffman codes, extensions of sources"
             },
             {
               "unit": 2,
-              "topics": "Information and entropy, properties of the entropy function, entropy and average word length, Shannon-Fano coding, Shannon\u2019s first theorem, Binary symmetric channel, system entropies, Mutual Information and channel capacity 12"
+              "topics": "Information and entropy, properties of the entropy function, entropy and average word length, Shannon-Fano coding, Shannon’s first theorem, Binary symmetric channel, system entropies, Mutual Information and channel capacity"
             },
             {
               "unit": 3,
-              "topics": "Error correcting codes: maximum likelihood decoding, Hamming distance and distance of a code, minimum distance decoding rule, Linear codes, minimum distance of linear codes, Hamming weight, Bases for linear codes, Generator matrix and parity- check matrix, equivalence of linear codes, (Slepian) standard array and syndrome decoding 12"
+              "topics": "Error correcting codes: maximum likelihood decoding, Hamming distance and distance of a code, minimum distance decoding rule, Linear codes, minimum distance of linear codes, Hamming weight, Bases for linear codes, Generator matrix and parity- check matrix, equivalence of linear codes, (Slepian) standard array and syndrome decoding"
             },
             {
               "unit": 4,
-              "topics": "Hamming\u2019s sphere-packing bound, the Gilbert-Varshamov bound. Perfect codes, The Hamming codes and the Golay codes, Singleton bound and MDS codes, Hadamard matrices and codes. 12 Texts /"
+              "topics": "Hamming’s sphere-packing bound, the Gilbert-Varshamov bound. Perfect codes, The Hamming codes and the Golay codes, Singleton bound and MDS codes, Hadamard matrices and codes."
             }
           ]
         },
@@ -1583,19 +1906,19 @@
             },
             {
               "unit": 2,
-              "topics": "Affine algebraic sets, Algebraic sets in terms of zeros of polynomials, Projective Algebraic sets, Zariski Topology, irreducible space, Noetherian space, affine Variety and quasi affine variety, Dimension, Krull dimension 9"
+              "topics": "Affine algebraic sets, Algebraic sets in terms of zeros of polynomials, Projective Algebraic sets, Zariski Topology, irreducible space, Noetherian space, affine Variety and quasi affine variety, Dimension, Krull dimension"
             },
             {
               "unit": 3,
-              "topics": "Interlude to field theory, extension, irreducible and minimal polynomial, Algebraically closed field,, Ring extension, integral element, module finiteness, integrally closed extension. 9"
+              "topics": "Interlude to field theory, extension, irreducible and minimal polynomial, Algebraically closed field,, Ring extension, integral element, module finiteness, integrally closed extension."
             },
             {
               "unit": 4,
-              "topics": "Weak nullstellensatz, Hilbert\u2019s Nullstellensatz and their proof, Transcendence base, Polynomial map 9"
+              "topics": "Weak nullstellensatz, Hilbert’s Nullstellensatz and their proof, Transcendence base, Polynomial map"
             },
             {
               "unit": 5,
-              "topics": "Rational functions, Coordinate ring, valuations, completion, topological field, Tangent space, Derivations 9 Texts /"
+              "topics": "Rational functions, Coordinate ring, valuations, completion, topological field, Tangent space, Derivations"
             }
           ]
         },
@@ -1607,23 +1930,23 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Basic Properties of Fourier Series: Uniqueness of Fourier Series,Convolutions, Cesaro and Abel Summability, Fejer's theorem. 12 508 Course Title"
+              "topics": "Basic Properties of Fourier Series: Uniqueness of Fourier Series,Convolutions, Cesaro and Abel Summability, Fejer's theorem."
             },
             {
               "unit": 2,
-              "topics": "Poisson Kernel and Dirichlet problem in the unit disc. Mean square Convergence, Example of Continuous functions with divergent Fourier series. 12"
+              "topics": "Poisson Kernel and Dirichlet problem in the unit disc. Mean square Convergence, Example of Continuous functions with divergent Fourier series."
             },
             {
               "unit": 3,
-              "topics": "Distributions and Fourier Transforms: Calculus of Distributions, Schwartz class of rapidly decreasing functions. 12"
+              "topics": "Distributions and Fourier Transforms: Calculus of Distributions, Schwartz class of rapidly decreasing functions."
             },
             {
               "unit": 4,
-              "topics": "Fourier transforms of rapidly decreasing functions, Riemann Lebesgue lemma, Fourier Inversion Theorem, Fourier transforms of Gaussians. 12"
+              "topics": "Fourier transforms of rapidly decreasing functions, Riemann Lebesgue lemma, Fourier Inversion Theorem, Fourier transforms of Gaussians."
             },
             {
               "unit": 5,
-              "topics": "Tempered Distributions: Fourier transforms of tempered distributions, Convolutions. 12 Texts /"
+              "topics": "Tempered Distributions: Fourier transforms of tempered distributions, Convolutions."
             }
           ]
         },
@@ -1635,23 +1958,23 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Convex analysis: convex set, convex combination, Caratheodory's theorem, convex hull, Separation theorems, convex functions, epigraphs, lower level sets, continuity of convex functions. 12 509 Course Title"
+              "topics": "Convex analysis: convex set, convex combination, Caratheodory's theorem, convex hull, Separation theorems, convex functions, epigraphs, lower level sets, continuity of convex functions."
             },
             {
               "unit": 2,
-              "topics": "Alternative theorems, differentiable and twice differentiable convex functions, generalized convexity. 12"
+              "topics": "Alternative theorems, differentiable and twice differentiable convex functions, generalized convexity."
             },
             {
               "unit": 3,
-              "topics": "Unconstrained Optimization: local and global minimizers, first and second order necessary optimality conditions, second order sufficient optimality condition, unimodal functions, line search, golden section method. 12"
+              "topics": "Unconstrained Optimization: local and global minimizers, first and second order necessary optimality conditions, second order sufficient optimality condition, unimodal functions, line search, golden section method."
             },
             {
               "unit": 4,
-              "topics": "Fibonacci Method, Quadratic Interpolation Methods, Cubic Interpolation Method, the steepest descent method, the Newton method, the conjugate gradient method, Quasi- Newton method. 12"
+              "topics": "Fibonacci Method, Quadratic Interpolation Methods, Cubic Interpolation Method, the steepest descent method, the Newton method, the conjugate gradient method, Quasi- Newton method."
             },
             {
               "unit": 5,
-              "topics": "Constrained Optimization: local, global and isolated minimizers, feasible directions, descent directions, Lagrangian function, Fritz-John optimality conditions, constraint qualifications, Karush-Kuhn-Tucker optimality conditions, convex programming, second order optimality conditions, duality, saddle points. 12 Texts /"
+              "topics": "Constrained Optimization: local, global and isolated minimizers, feasible directions, descent directions, Lagrangian function, Fritz-John optimality conditions, constraint qualifications, Karush-Kuhn-Tucker optimality conditions, convex programming, second order optimality conditions, duality, saddle points."
             }
           ]
         },
@@ -1663,23 +1986,23 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Unconstrained quadratic programming problems, Quadratic cost functions, Convex quadratic functions, Local and Global minimizers, Existence and Uniqueness theorems. 12 510 Course Title"
+              "topics": "Unconstrained quadratic programming problems, Quadratic cost functions, Convex quadratic functions, Local and Global minimizers, Existence and Uniqueness theorems."
             },
             {
               "unit": 2,
-              "topics": "Quadratic Programming problems with equality constraints, Optimality, Existence and Uniqueness, KKT systems, Min-max, Dual and saddle point problems, Properties of the solution sets of quadratic. 12"
+              "topics": "Quadratic Programming problems with equality constraints, Optimality, Existence and Uniqueness, KKT systems, Min-max, Dual and saddle point problems, Properties of the solution sets of quadratic."
             },
             {
               "unit": 3,
-              "topics": "Programming problems, Continuity of the solution map, Quadratic programming problems with inequality constraints. 12"
+              "topics": "Programming problems, Continuity of the solution map, Quadratic programming problems with inequality constraints."
             },
             {
               "unit": 4,
-              "topics": "Farka's Lemma, Optimality, Existence and Uniqueness of solution, Duality for constrained quadratic programming problems, Algorithms for numerical solutions of quadratic programming problems. 12"
+              "topics": "Farka's Lemma, Optimality, Existence and Uniqueness of solution, Duality for constrained quadratic programming problems, Algorithms for numerical solutions of quadratic programming problems."
             },
             {
               "unit": 5,
-              "topics": "Nonconvex quadratic programming problems, Applications to Portfolio optimization and Affine Variational inequalities. 12 Texts /"
+              "topics": "Nonconvex quadratic programming problems, Applications to Portfolio optimization and Affine Variational inequalities."
             }
           ]
         },
@@ -1691,23 +2014,23 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Equation of continuity, Boundary surfaces, path lines and streamlines, Irrotational and rotational motions, Vortex lines, Euler\u2019s Equation of motion, Bernoulli\u2019s theorem, Impulsive actions, Motion in two-dimensions. 12 511 Course Title"
+              "topics": "Equation of continuity, Boundary surfaces, path lines and streamlines, Irrotational and rotational motions, Vortex lines, Euler’s Equation of motion, Bernoulli’s theorem, Impulsive actions, Motion in two-dimensions."
             },
             {
               "unit": 2,
-              "topics": "Conjugate functions, Source, sink, doublets and their images, conformal mapping. Stress components in real fluid, Equilibrium equation in terms of stress components, Transformation of stress components. 12"
+              "topics": "Conjugate functions, Source, sink, doublets and their images, conformal mapping. Stress components in real fluid, Equilibrium equation in terms of stress components, Transformation of stress components."
             },
             {
               "unit": 3,
-              "topics": "Principal stresses, Nature of strains, Transformation of rates of strain, Relationship between stress and rate of strain. 12"
+              "topics": "Principal stresses, Nature of strains, Transformation of rates of strain, Relationship between stress and rate of strain."
             },
             {
               "unit": 4,
-              "topics": "Navier-Stokes equation of motion. Buckingham \u03a0-theorem, Flow between parallel flat plates, Couette and plane Poiseuille flows. 12"
+              "topics": "Navier-Stokes equation of motion. Buckingham Π-theorem, Flow between parallel flat plates, Couette and plane Poiseuille flows."
             },
             {
               "unit": 5,
-              "topics": "Flow through a pipe, Hagen Poiseuille flow, flow between two co-axially cylinders and two concentric rotating cylinders,Unsteady motion of a flat plate. 12 Texts /"
+              "topics": "Flow through a pipe, Hagen Poiseuille flow, flow between two co-axially cylinders and two concentric rotating cylinders,Unsteady motion of a flat plate."
             }
           ]
         },
@@ -1719,23 +2042,23 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Integral equations: Fredholm and Volterra equations of first and second types. Conversions of initial and boundary value problems into integral equations, numerical solutions of integral equations using Newton-Cotes, Lagrange`s linear interpolation and Chebyshev polynomial. 12 512 Course Title"
+              "topics": "Integral equations: Fredholm and Volterra equations of first and second types. Conversions of initial and boundary value problems into integral equations, numerical solutions of integral equations using Newton-Cotes, Lagrange`s linear interpolation and Chebyshev polynomial."
             },
             {
               "unit": 2,
-              "topics": "Matrix Computations: System of linear equations, Conditioning of Matrices, Matrix inversion method, Matrix factorization, Tridiagonal systems. 12"
+              "topics": "Matrix Computations: System of linear equations, Conditioning of Matrices, Matrix inversion method, Matrix factorization, Tridiagonal systems."
             },
             {
               "unit": 3,
-              "topics": "Numerical solutions of system of simultaneous first order differential equations and second order initial value problems (IVP) by Euler and Runge-Kutta (IV order) explicit methods. 12"
+              "topics": "Numerical solutions of system of simultaneous first order differential equations and second order initial value problems (IVP) by Euler and Runge-Kutta (IV order) explicit methods."
             },
             {
               "unit": 4,
-              "topics": "Numerical solutions of second order boundary value problems (BVP) of first, second and third types by shooting method and finite difference methods. 12"
+              "topics": "Numerical solutions of second order boundary value problems (BVP) of first, second and third types by shooting method and finite difference methods."
             },
             {
               "unit": 5,
-              "topics": "Finite Element method: Introduction, Methods of approximation: Rayleigh-Ritz Method, Gelarkin Method and its application for solution of BVP. 12 Texts /"
+              "topics": "Finite Element method: Introduction, Methods of approximation: Rayleigh-Ritz Method, Gelarkin Method and its application for solution of BVP."
             }
           ]
         },
@@ -1747,23 +2070,23 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Introduction to Mathematical Modeling: modeling process, Elementary mathematical models; Role of mathematics in problem solving. 12 513 Course Title"
+              "topics": "Introduction to Mathematical Modeling: modeling process, Elementary mathematical models; Role of mathematics in problem solving."
             },
             {
               "unit": 2,
-              "topics": "Single species population model: The exponential model, logistic model, harvesting model, and its critical value. 12"
+              "topics": "Single species population model: The exponential model, logistic model, harvesting model, and its critical value."
             },
             {
               "unit": 3,
-              "topics": "Modeling with Ordinary Differential Equations: Overview of basic concepts in ODE and stability ofsolutions: steady state and their local and global stability; Some applications in Epidemiology and ecology. 12"
+              "topics": "Modeling with Ordinary Differential Equations: Overview of basic concepts in ODE and stability ofsolutions: steady state and their local and global stability; Some applications in Epidemiology and ecology."
             },
             {
               "unit": 4,
-              "topics": "Modeling with Difference Equations: Overview of basic concepts concerning matrices. 12"
+              "topics": "Modeling with Difference Equations: Overview of basic concepts concerning matrices."
             },
             {
               "unit": 5,
-              "topics": "Eigenvalues andEigenvectors; Fixed points, stability, and iterative processes;Applications to population growth 12 Texts /"
+              "topics": "Eigenvalues andEigenvectors; Fixed points, stability, and iterative processes;Applications to population growth"
             }
           ]
         },
@@ -1775,23 +2098,23 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Numerical solutions of parabolic PDE in one space: two and three levels explicit and implicit differenceschemes. Convergence and stability analysis. 9 514 Course Title"
+              "topics": "Numerical solutions of parabolic PDE in one space: two and three levels explicit and implicit differenceschemes. Convergence and stability analysis."
             },
             {
               "unit": 2,
-              "topics": "Numerical solution of parabolic PDE of second order in two space dimension: implicit methods, alternatingdirection implicit (ADI) methods. Nonlinear initial BVP. 9"
+              "topics": "Numerical solution of parabolic PDE of second order in two space dimension: implicit methods, alternatingdirection implicit (ADI) methods. Nonlinear initial BVP."
             },
             {
               "unit": 3,
-              "topics": "Difference schemes for parabolic PDE in spherical and cylindrical coordinate systems in one dimension. 9"
+              "topics": "Difference schemes for parabolic PDE in spherical and cylindrical coordinate systems in one dimension."
             },
             {
               "unit": 4,
-              "topics": "Numerical solution of hyperbolic PDE in one and two space dimension: explicit and implicit schemes. ADImethods. Difference schemes for first order equations. 9"
+              "topics": "Numerical solution of hyperbolic PDE in one and two space dimension: explicit and implicit schemes. ADImethods. Difference schemes for first order equations."
             },
             {
               "unit": 5,
-              "topics": "Numerical solutions of elliptic equations, approximations of Laplace and biharmonic operators. Solutions ofDirichlet, Neuman and mixed type problems.Finite element method: Linear, triangular elements, and rectangular elements. 9 Texts /"
+              "topics": "Numerical solutions of elliptic equations, approximations of Laplace and biharmonic operators. Solutions ofDirichlet, Neuman and mixed type problems.Finite element method: Linear, triangular elements, and rectangular elements."
             }
           ]
         },
@@ -1803,15 +2126,15 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Riemannian Metrics. Riemannian connection. Fundamental Theorem of Riemannian Geometry. Geodesics. 20 515 Course Title"
+              "topics": "Riemannian Metrics. Riemannian connection. Fundamental Theorem of Riemannian Geometry. Geodesics."
             },
             {
               "unit": 2,
-              "topics": "Curvature - Riemann curvature, Sectional curvature, Ricci curvature, scalar curvature. Kulkarni-Nomizu tensor fields. Conformal curvature tensor field. 20"
+              "topics": "Curvature - Riemann curvature, Sectional curvature, Ricci curvature, scalar curvature. Kulkarni-Nomizu tensor fields. Conformal curvature tensor field."
             },
             {
               "unit": 3,
-              "topics": "Jacobi Fields. Complete manifolds, Hopf-Rinow Theorem, The Theorem of Hadamard. Real space forms, Theorem of Cartan on thedetermination ofthe metric by means of the curvature. Fundamental equations for Riemannian submanifolds. 20 Texts /"
+              "topics": "Jacobi Fields. Complete manifolds, Hopf-Rinow Theorem, The Theorem of Hadamard. Real space forms, Theorem of Cartan on thedetermination ofthe metric by means of the curvature. Fundamental equations for Riemannian submanifolds."
             }
           ]
         }

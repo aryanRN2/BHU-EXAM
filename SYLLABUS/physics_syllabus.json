@@ -14,24 +14,29 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Motion and Fluids - Skating and effect of forces, Use of Ramps in day-to-day life, Seesaw and Merry-go- round, Bumping Cars at the Mall, Roller Coasters, Bicycles, Launch of Spacecrafts, Orbits, Switching orbits. Air pressure, Gas (hot air) Balloons, Buoyancy, Water distribution from Overhead Tank, Using hoses for cleaning and gardening, Flow of blood in veins, Aerodynamics of balls (cricket and golf), Airplanes. 13 526 Course Title"
+              "topics": "Motion and Fluids - Skating and effect of forces, Use of Ramps in day-to-day life, Seesaw and Merry-go- round, Bumping Cars at the Mall, Roller Coasters, Bicycles, Launch of Spacecrafts, Orbits, Switching orbits. Air pressure, Gas (hot air) Balloons, Buoyancy, Water distribution from Overhead Tank, Using hoses for cleaning and gardening, Flow of blood in veins, Aerodynamics of balls (cricket and golf), Airplanes."
             },
             {
               "unit": 2,
-              "topics": "Heat Celsius, Kelvin and Fahrenheit, Thermometer, Heat transfer (conduction, convection and radiation), Solid, Liquid and Gas (example of water and concept of Latent Heat), Pressure cooking, Staying warm in extreme colds, Air conditioner. 08"
+              "topics": "Heat Celsius, Kelvin and Fahrenheit, Thermometer, Heat transfer (conduction, convection and radiation), Solid, Liquid and Gas (example of water and concept of Latent Heat), Pressure cooking, Staying warm in extreme colds, Air conditioner."
             },
             {
               "unit": 3,
-              "topics": "Electricity, Electronics and Magnetism Static electricity, Current and Voltage, Series and Parallel circuits, AC and DC, Power distribution, Transformer, Wiring in homes, Flash light and batteries, Magnets (temporary and permanent), Compass. 08"
+              "topics": "Electricity, Electronics and Magnetism Static electricity, Current and Voltage, Series and Parallel circuits, AC and DC, Power distribution, Transformer, Wiring in homes, Flash light and batteries, Magnets (temporary and permanent), Compass."
             },
             {
               "unit": 4,
-              "topics": "Electromagnetic Waves Cell phones, Satellite communication, Microwave heating, Light, Sun light, Rising and setting Sun, Polarizing Sun glasses, Car Windshield, LED bulbs, LASERs, Magnifying glass, Camera, CCD detectors. 08"
+              "topics": "Electromagnetic Waves Cell phones, Satellite communication, Microwave heating, Light, Sun light, Rising and setting Sun, Polarizing Sun glasses, Car Windshield, LED bulbs, LASERs, Magnifying glass, Camera, CCD detectors."
             },
             {
               "unit": 5,
-              "topics": "Miscellaneous Elasticity, Springs, Steel Bridges, Pendulum clocks, Electronic clocks, Sound and Music (Violin), Energy – Mass conversion, Atom and Hydrogen bomb, Energy generation in Sun / Stars. 08 Texts /"
+              "topics": "Miscellaneous Elasticity, Springs, Steel Bridges, Pendulum clocks, Electronic clocks, Sound and Music (Violin), Energy – Mass conversion, Atom and Hydrogen bomb, Energy generation in Sun / Stars."
             }
+          ],
+          "suggested_books": [
+            "How things work, Louis A. Bloomfield, J. Wiley & Sons.",
+            "Physics for entertainment, Y. Perelman, Create space Independent Publishers.",
+            "General physics and its application to industry and everyday life, Ervin S. Ferry, J. Wiley & Sons."
           ]
         },
         {
@@ -42,8 +47,16 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "3"
+              "topics": ""
             }
+          ],
+          "suggested_books": [
+            "Inertial and non-inertial frames, Transformation equations (Inclined and Rotating frames), Centrifugal and Coriolis force, Effect of centrifugal and Coriolis force due to earth rotation. Gravitation: Motion of a particle under gravitational force, inertial and gravitational mass, gravitational potential, and fields due to a spherical shell and a solid sphere. 12 II System of particles: Dynamics of a system of particles subject to external forces, Centre of mass, laboratory frame and centre of mass frame, conservation of linear and angular momenta; elastic and inelastic collision in one and two dimensions. 10 III Damped and Forced Oscillation: Simple and compound pendulum, Damped oscillator, Energy and Q-factor, Forced oscillations (one degree of freedom), condition of resonance; Ballistic Galvanometer. 7 IV Elastic properties: Modulus of rigidity, Poisson ratio, relation between elastic constants, twisting couple of cylinders (hollow and solid), statical and dynamical methods for determination of modulus of rigidity, Bending of beams. 9 V Fluid Dynamics: Bernoulli's theorem, equation of continuity, streamline and turbulent flow (Reynolds number), surface tension and surface energy, viscosity and Poiseuille’s equation. 7 Texts / References",
+            "Physics Part –1: Resnick and Halliday",
+            "Mechanics: D. S. Mathur",
+            "Mechanics: J. C. Upadhyay",
+            "Mechanics: H. S. Hans and S. P. Puri",
+            "A Treatise on General Properties of Matter: Sengupta and Chatterjee"
           ]
         },
         {
@@ -54,7 +67,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1"
+              "topics": ""
             }
           ]
         },
@@ -66,7 +79,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "2"
+              "topics": ""
             }
           ]
         },
@@ -78,24 +91,30 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Functions: Linear, quadratic, trigonometric, exponential and logarithmic functions, visualization and graph plotting; graphical method to find the roots; functions of more than one variables, partial derivatives, maxima and minima. 10 527 Course Title"
+              "topics": "Functions: Linear, quadratic, trigonometric, exponential and logarithmic functions, visualization and graph plotting; graphical method to find the roots; functions of more than one variables, partial derivatives, maxima and minima."
             },
             {
               "unit": 2,
-              "topics": "Taylor series: Taylor series for elementary functions (e.g., exponential, trigonometric), applications of Taylor series. Numerical methods: Roots of transcendental equations using Bi-section and Newton-Raphson methods. 10"
+              "topics": "Taylor series: Taylor series for elementary functions (e.g., exponential, trigonometric), applications of Taylor series. Numerical methods: Roots of transcendental equations using Bi-section and Newton-Raphson methods."
             },
             {
               "unit": 3,
-              "topics": "Differential equations: Techniques for solving first-order ODEs: integrating factors; Introduction to higher order and partial differential equations. 10"
+              "topics": "Differential equations: Techniques for solving first-order ODEs: integrating factors; Introduction to higher order and partial differential equations."
             },
             {
               "unit": 4,
-              "topics": "Vector Calculus: Vectors in two and three dimensions, concept of Gradient, Divergence and Curl with examples. 06"
+              "topics": "Vector Calculus: Vectors in two and three dimensions, concept of Gradient, Divergence and Curl with examples."
             },
             {
               "unit": 5,
-              "topics": "Probability theory: Concepts of probability, probability density functions, normalization, mean and variance, examples of Gaussian and Maxwell’s distribution of speeds. 09 Texts /"
+              "topics": "Probability theory: Concepts of probability, probability density functions, normalization, mean and variance, examples of Gaussian and Maxwell’s distribution of speeds."
             }
+          ],
+          "suggested_books": [
+            "Advanced Engineering Mathematics: E. Kreyszig",
+            "Applied Mathematics for Engineers and Physicists: L. A. Pipes and L. R. Harvill",
+            "Mathematical Physics with Applications, Problems and Solutions: V. Balakrishnan",
+            "Mathematical Methods for Physicists: G. B. Arfken and H. J. Weber"
           ]
         }
       ]
@@ -111,20 +130,29 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Beginnings of Indian Science: Harappan astronomy and technology, physics and astronomy in the Vedas: Shatapatha Brahmana and Taittiriya Samhita, Sulba Sutras: Baudhayana and growth of geometry, decimal system, Bakshali manuscript and invention of the zero, concept of large and small numbers and scales; Shankhya and Vaisheshik Shastras, Bhagavata Purana. 08 530 Course Title"
+              "topics": "Beginnings of Indian Science: Harappan astronomy and technology, physics and astronomy in the Vedas: Shatapatha Brahmana and Taittiriya Samhita, Sulba Sutras: Baudhayana and growth of geometry, decimal system, Bakshali manuscript and invention of the zero, concept of large and small numbers and scales; Shankhya and Vaisheshik Shastras, Bhagavata Purana."
             },
             {
               "unit": 2,
-              "topics": "Golden period of Hindu Science: Aryabhata and the heliocentric hypothesis, Varahamihira, Brahmagupta, Sridhara and Bhaskara, Surya siddhanta, Jain science, Kerala school of mathematics, Sawai Jai Singh and late Hindu astronomy, Indian calendars and eras. 09"
+              "topics": "Golden period of Hindu Science: Aryabhata and the heliocentric hypothesis, Varahamihira, Brahmagupta, Sridhara and Bhaskara, Surya siddhanta, Jain science, Kerala school of mathematics, Sawai Jai Singh and late Hindu astronomy, Indian calendars and eras."
             },
             {
               "unit": 3,
-              "topics": "Exchanges between India and the world: The Yavanajataka and Romaka Siddhanta, Al-Biruni, influence of Indian science on Islamic and Western science, Pingala and Fibonacci, colonial science: James Rennell and cartography, Great Trigonometric Survey, Radhanath Sikdar, pioneers in science teaching: John Tytler, Eugene Lafont, Charles Racine, and their noted students, Indian pioneers: Mahendra Lal Sarkar, Ardashir Cursetjee, Ashutosh Mukherjee, Ramchundra Lall and Srinivasa Ramanujan. 08"
+              "topics": "Exchanges between India and the world: The Yavanajataka and Romaka Siddhanta, Al-Biruni, influence of Indian science on Islamic and Western science, Pingala and Fibonacci, colonial science: James Rennell and cartography, Great Trigonometric Survey, Radhanath Sikdar, pioneers in science teaching: John Tytler, Eugene Lafont, Charles Racine, and their noted students, Indian pioneers: Mahendra Lal Sarkar, Ardashir Cursetjee, Ashutosh Mukherjee, Ramchundra Lall and Srinivasa Ramanujan."
             },
             {
               "unit": 4,
-              "topics": "Indian contributions to modern physics: Highlights of the work of J.C. Bose, D.M. Bose, M.N. Saha, S.N. Bose, C.V. Raman, K.S. Krishnan, A.P.J. Abdul Kalam, S.K. Mitra, H.J. Bhabha, V. A. Sarabhai, S. Chandrasekhar, A.K. Raychaudhuri, N.S. Kapany, Harish-Chandra, S. Pancharatnam, E.C.G. Sudarshan, Jogesh Pati, M.L. Mehta, D.N. Verma, T.V. Ramakrishnan, Ashoke Sen. 20 Texts /"
+              "topics": "Indian contributions to modern physics: Highlights of the work of J.C. Bose, D.M. Bose, M.N. Saha, S.N. Bose, C.V. Raman, K.S. Krishnan, A.P.J. Abdul Kalam, S.K. Mitra, H.J. Bhabha, V. A. Sarabhai, S. Chandrasekhar, A.K. Raychaudhuri, N.S. Kapany, Harish-Chandra, S. Pancharatnam, E.C.G. Sudarshan, Jogesh Pati, M.L. Mehta, D.N. Verma, T.V. Ramakrishnan, Ashoke Sen."
             }
+          ],
+          "suggested_books": [
+            "Chattopadhyaya, Debiprasad (1986). “History of science and technology in ancient India: the beginnings.” Firma KLM Pvt. Ltd..",
+            "D.M. Bose, S.N. Sen, B.V. Subbarayappa (Eds.), “A Concise History of Science in India” (Orient Blackswan, Hyderabad, 1967).",
+            "Subbarayappa, B.V. (1989), \"Indian astronomy: an historical perspective\", in Cosmic Perspectives edited by Biswas etc., pp. 25–41, Cambridge University Press.",
+            "Indian National Science Academy (2001), Pursuit and promotion of science: The Indian Experience, Indian National Science Academy.",
+            "Teresi, Dick et al (2002), Lost Discoveries: The Ancient Roots of Modern Science-from the Babylonians to the Maya, Simon & Schuster.",
+            "F. Günergun and Dhruv Raina, “Science between Europe and Asia”, (Springer, 2010).",
+            "Rajesh Kocchar, “Science and the British Empire” (Routlege India, 2024)."
           ]
         },
         {
@@ -139,20 +167,27 @@
             },
             {
               "unit": 2,
-              "topics": "Entropy: Entropy as a thermodynamic variable, Entropy change in reversible and irreversible processes. Entropy and disorder, Principle of increase of entropy, Entropy and unavailable energy, Entropy of ideal gases, S-T diagram. 08"
+              "topics": "Entropy: Entropy as a thermodynamic variable, Entropy change in reversible and irreversible processes. Entropy and disorder, Principle of increase of entropy, Entropy and unavailable energy, Entropy of ideal gases, S-T diagram."
             },
             {
               "unit": 3,
-              "topics": "Thermodynamic functions and Applications: Internal energy, Enthalpy, Helmholtz free energy, and Gibbs free energy, Maxwell thermodynamical relations and their applications, TdS equations, Criteria of equilibrium of a system, Clausius-Clapeyron equations, Applications to sublimation, vaporization, and freezing processes. The Third law of thermodynamics, Nernst heat theorem. 08"
+              "topics": "Thermodynamic functions and Applications: Internal energy, Enthalpy, Helmholtz free energy, and Gibbs free energy, Maxwell thermodynamical relations and their applications, TdS equations, Criteria of equilibrium of a system, Clausius-Clapeyron equations, Applications to sublimation, vaporization, and freezing processes. The Third law of thermodynamics, Nernst heat theorem."
             },
             {
               "unit": 4,
-              "topics": "Kinetic Theory of Gases: Maxwell’s speed distribution (without derivation), Mean free path, transport phenomena (viscosity and thermal conductivity), Real gases, Andrews curves, van der Waals equation of state, Critical constants, Virial coefficients. Elementary ideas of Phase transition, Coexistence of phases, Triple point. Joule effect (free expansion), Joule-Thomson effect (Thermodynamic analysis), Inversion temperature, Liquefaction of gases. 12"
+              "topics": "Kinetic Theory of Gases: Maxwell’s speed distribution (without derivation), Mean free path, transport phenomena (viscosity and thermal conductivity), Real gases, Andrews curves, van der Waals equation of state, Critical constants, Virial coefficients. Elementary ideas of Phase transition, Coexistence of phases, Triple point. Joule effect (free expansion), Joule-Thomson effect (Thermodynamic analysis), Inversion temperature, Liquefaction of gases."
             },
             {
               "unit": 5,
-              "topics": "Radiation: The blackbody radiation, Kirchhoff’s law, The Blackbody spectrum, Wien’s displacement law, Stefan-Boltzmann law, Radiation pressure, Rayleigh-Jeans law, Planck’s quantum theory of radiation. 9 Texts /"
+              "topics": "Radiation: The blackbody radiation, Kirchhoff’s law, The Blackbody spectrum, Wien’s displacement law, Stefan-Boltzmann law, Radiation pressure, Rayleigh-Jeans law, Planck’s quantum theory of radiation."
             }
+          ],
+          "suggested_books": [
+            "Heat and Thermodynamics: M. W. Zemansky and R. H. Dittman.",
+            "Heat and Thermodynamics: Brij Lal and N. Subrahmanyam.",
+            "Thermodynamics, Kinetic Theory, and Statistical Thermodynamics: F. W. Sears and G. L. Salinger",
+            "Basic Thermodynamics: Evelyn Guha",
+            "A Treatise on Heat: M. N. Saha and B. N. Srivastava."
           ]
         },
         {
@@ -163,7 +198,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1"
+              "topics": ""
             }
           ]
         },
@@ -175,20 +210,26 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Introduction to Energy Conservation and Storage: Introduction to energy conservation technologies. Overview of energy storage systems, Importance of sustainable development and renewable energy. 06 531 Course Title"
+              "topics": "Introduction to Energy Conservation and Storage: Introduction to energy conservation technologies. Overview of energy storage systems, Importance of sustainable development and renewable energy."
             },
             {
               "unit": 2,
-              "topics": "Energy Conversion Technologies: Photovoltaic systems and solar panels, Wind turbines and wind energy conversion systems, Bioenergy technologies, Hydropower technologies, and Geothermal power generation. Energy Storage Technologies: Basics of secondary batteries, electrodes for secondary batteries, battery technologies and applications, Hydrogen storage and Fuel cells, Pumped hydro storage, Thermal energy storage systems, Compressed air energy storage, Grid integration of renewable energy systems, Energy system modeling and analysis. 14"
+              "topics": "Energy Conversion Technologies: Photovoltaic systems and solar panels, Wind turbines and wind energy conversion systems, Bioenergy technologies, Hydropower technologies, and Geothermal power generation. Energy Storage Technologies: Basics of secondary batteries, electrodes for secondary batteries, battery technologies and applications, Hydrogen storage and Fuel cells, Pumped hydro storage, Thermal energy storage systems, Compressed air energy storage, Grid integration of renewable energy systems, Energy system modeling and analysis."
             },
             {
               "unit": 3,
-              "topics": "Policies and Regulations: Government policies and incentives for renewable energy, Environmental regulations and standards. 04"
+              "topics": "Policies and Regulations: Government policies and incentives for renewable energy, Environmental regulations and standards."
             },
             {
               "unit": 4,
-              "topics": "Future Trends and Challenges: Emerging technologies in energy conversion and storage, Current challenges and research opportunities. Global energy transition and its impact on sustainable development. 06 Texts /"
+              "topics": "Future Trends and Challenges: Emerging technologies in energy conversion and storage, Current challenges and research opportunities. Global energy transition and its impact on sustainable development."
             }
+          ],
+          "suggested_books": [
+            "Hydrogen as a Future Energy Carrier, A. Zuttel, A. Borgschulte and L. Schlapbach, Willey 2008,",
+            "Energy Storage and Conversion Systems, A. Kuperman and A. Lampasi, MDPI 2023",
+            "Energy for Sustainable Development: Demand, Supply, Conversion and Management, Md. Hasanuzzaman, Nasrudin Abd Rahim, Elsevier Science 2019",
+            "Government Policies and Regulations for renewable energy (Internet Resources)"
           ]
         },
         {
@@ -216,20 +257,29 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Beginnings of Physical Science in the Ancient World: Neolithic period, early developments in ancient Egypt, Chaldaea, Iran, India and China, Greek science: Pythagoras, Thales, Empedocles, Plato, Aristotle, Ptolemy and Aristarchus of Samos, doctrine of four elements, atomism in Greece and India, motion paradox of Zeno, Lucretius and Pliny, Archimedes, Eratosthenes, invention of the zero, development of trigonometry in India, Julian calendar, John Philoponus. 08"
+              "topics": "Beginnings of Physical Science in the Ancient World: Neolithic period, early developments in ancient Egypt, Chaldaea, Iran, India and China, Greek science: Pythagoras, Thales, Empedocles, Plato, Aristotle, Ptolemy and Aristarchus of Samos, doctrine of four elements, atomism in Greece and India, motion paradox of Zeno, Lucretius and Pliny, Archimedes, Eratosthenes, invention of the zero, development of trigonometry in India, Julian calendar, John Philoponus."
             },
             {
               "unit": 2,
-              "topics": "Physical Science in the Mediaeval World: dark ages in Europe and India, the Venerable Bede, Roger Bacon, Albertus Magnus, Ockham’s razor, Buridan’s theory of impetus, Gregorian calendar, Islamic science: al-Biruni, al-Kindi, Nasiruddin Tusi, al- Khwarizmi, Omar Khayyam, ibn Haytham, ibn Sina, Fibonacci and ‘Arabic’ numerals. 07"
+              "topics": "Physical Science in the Mediaeval World: dark ages in Europe and India, the Venerable Bede, Roger Bacon, Albertus Magnus, Ockham’s razor, Buridan’s theory of impetus, Gregorian calendar, Islamic science: al-Biruni, al-Kindi, Nasiruddin Tusi, al- Khwarizmi, Omar Khayyam, ibn Haytham, ibn Sina, Fibonacci and ‘Arabic’ numerals."
             },
             {
               "unit": 3,
-              "topics": "The Renaissance and Classical Physics: Francis Bacon, Leonardo da Vinci, Copernicus, Galileo and Bruno, Stevinus, Descartes, Tycho Brahe and Kepler, Snell’s Law, invention of the telescope and microscope, the Newtonian revolution, mechanics developments: Hooke, Leibnitz, Laplace, Lagrange, Euler and d’Alembert, the Enlightenment, electricity and magnetism: Gilbert, Coulomb, Arago, Ampére, Faraday and the Maxwellian synthesis, Edison and Tesla, Crookes tubes and cathode ray phenomena, fluorescence and the photo-electric effect; Huygens, Young and wave propagation, gas laws, thermal conduction and discovery of the laws of thermodynamics, Carnot cycle, atomic theory and the kinetic theory of gases. 15"
+              "topics": "The Renaissance and Classical Physics: Francis Bacon, Leonardo da Vinci, Copernicus, Galileo and Bruno, Stevinus, Descartes, Tycho Brahe and Kepler, Snell’s Law, invention of the telescope and microscope, the Newtonian revolution, mechanics developments: Hooke, Leibnitz, Laplace, Lagrange, Euler and d’Alembert, the Enlightenment, electricity and magnetism: Gilbert, Coulomb, Arago, Ampére, Faraday and the Maxwellian synthesis, Edison and Tesla, Crookes tubes and cathode ray phenomena, fluorescence and the photo-electric effect; Huygens, Young and wave propagation, gas laws, thermal conduction and discovery of the laws of thermodynamics, Carnot cycle, atomic theory and the kinetic theory of gases."
             },
             {
               "unit": 4,
-              "topics": "Twentieth Century and Contemporary Physics: relativity: special and general theories, radioactivity and atomic structure, discovery of the nucleus, old quantum theory: Planck, Einstein, Bohr and Compton, quantum mechanics: wave and matrix forms, Dirac synthesis; quantum statistics: Bose-Einstein and Fermi-Dirac distributions, invention of quantum field theory; discovery of superconductivity and superfluidity; invention of the transistor and the electronics revolution; development of nuclear energy: Manhattan project and nuclear reactors; cosmic rays, giant particle accelerators and discovery of elementary particles: the Standard Model; cosmology and the Big Bang model, discovery of the cosmic microwave background and its fluctuations, presence of dark matter. 15 Texts /"
+              "topics": "Twentieth Century and Contemporary Physics: relativity: special and general theories, radioactivity and atomic structure, discovery of the nucleus, old quantum theory: Planck, Einstein, Bohr and Compton, quantum mechanics: wave and matrix forms, Dirac synthesis; quantum statistics: Bose-Einstein and Fermi-Dirac distributions, invention of quantum field theory; discovery of superconductivity and superfluidity; invention of the transistor and the electronics revolution; development of nuclear energy: Manhattan project and nuclear reactors; cosmic rays, giant particle accelerators and discovery of elementary particles: the Standard Model; cosmology and the Big Bang model, discovery of the cosmic microwave background and its fluctuations, presence of dark matter."
             }
+          ],
+          "suggested_books": [
+            "The Oxford Handbook of the History of Physics (Edited by Jed Z. Buchwald and Robert Fox, Oxford University Press 2013,)",
+            "H. Floris Cohen, How Modern Science Came into the World (Amsterdam: Amsterdam University Press, 2010).",
+            "Steven Shapin, The Scientific Revolution (Chicago: University of Chicago Press, 1996).",
+            "H.F. Cohen, The Scientific Revolution: A Historiographical Inquiry (Chicago: University of Chicago Press, 1994).",
+            "Károly Simonyi, A Cultural History of Physics (Translated by David Kramer)(CRC Press,",
+            "Kuhn, T.S. 1972. The Structure of Scientific Revolutions. Chicago: Univ. of Chicago Press.",
+            "Needham, J. 1956. Science and Civilization. Cambridge: Cambridge Univ. Press."
           ]
         },
         {
@@ -240,24 +290,33 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Oscillation & Waves: Oscillation and concept of phase. Difference between oscillation and waves, characteristics of waves (energy, intensity, and their representation in terms of amplitude), progressive waves, Differential equation of wave motion, Plane waves in 3-Dimentions, superposition of waves, stationary waves, Concept of wave-fronts, phase velocity and group velocity. 4 533 Course Title"
+              "topics": "Oscillation & Waves: Oscillation and concept of phase. Difference between oscillation and waves, characteristics of waves (energy, intensity, and their representation in terms of amplitude), progressive waves, Differential equation of wave motion, Plane waves in 3-Dimentions, superposition of waves, stationary waves, Concept of wave-fronts, phase velocity and group velocity."
             },
             {
               "unit": 2,
-              "topics": "Wave optics: Nature of light: Elementary ideas of e.m. theory of light, wave-particle duality. Characteristics of a light wave. Fresnel reflection and transmission coefficient. Basic idea about: coherence, coherence length, coherence time, bandwidth, mono- chromaticity, and temporal and spatial coherence. 4"
+              "topics": "Wave optics: Nature of light: Elementary ideas of e.m. theory of light, wave-particle duality. Characteristics of a light wave. Fresnel reflection and transmission coefficient. Basic idea about: coherence, coherence length, coherence time, bandwidth, mono- chromaticity, and temporal and spatial coherence."
             },
             {
               "unit": 3,
-              "topics": "Interference: Superposition of light waves, Theory of interference, Classification of Interference: division of wave-front and division of amplitude. Young’s double slit experiments, Conditions for sustained interference, Fresnel Biprism, Stoke’s treatment of reflection and refraction of waves. Lloyd’s single mirror experiment. Interference in parallel and wedge shaped films, Colour of thin films. Newton’s rings. Michelson interferometer and their applications. Multiple beam interference in parallel film and Fabry-Perot interferometer. 14"
+              "topics": "Interference: Superposition of light waves, Theory of interference, Classification of Interference: division of wave-front and division of amplitude. Young’s double slit experiments, Conditions for sustained interference, Fresnel Biprism, Stoke’s treatment of reflection and refraction of waves. Lloyd’s single mirror experiment. Interference in parallel and wedge shaped films, Colour of thin films. Newton’s rings. Michelson interferometer and their applications. Multiple beam interference in parallel film and Fabry-Perot interferometer."
             },
             {
               "unit": 4,
-              "topics": "Diffraction: Fresnel’s diffraction, Zone plates: positive and negative zone plate, Diffraction due to circular aperture and opaque circular disc, Diffraction due to thin and thick wire, basic idea about Cornu’s spiral, Fraunhofer diffraction due to single slit, double slits and plane transmission grating, concept of missing orders, Resolving power of grating. Optical Instruments: Basic idea human eye, field of view, eye-piece, spectrometer, telescope, microscope. Resolving power of telescope and Microscope, Basic idea about Mercury-, sodium lamp and laser light. 13"
+              "topics": "Diffraction: Fresnel’s diffraction, Zone plates: positive and negative zone plate, Diffraction due to circular aperture and opaque circular disc, Diffraction due to thin and thick wire, basic idea about Cornu’s spiral, Fraunhofer diffraction due to single slit, double slits and plane transmission grating, concept of missing orders, Resolving power of grating. Optical Instruments: Basic idea human eye, field of view, eye-piece, spectrometer, telescope, microscope. Resolving power of telescope and Microscope, Basic idea about Mercury-, sodium lamp and laser light."
             },
             {
               "unit": 5,
-              "topics": "Polarization: Unpolarized and Polarized light, Brewster’s law, Malus’ law, Plane polarized-, elliptically polarized- and circularly polarized light. Elementary idea of Matrix representation of polarizations: The Jones matrix. Production of polarized light by reflection, refraction and scattering. Polarization by double refraction and Huygen’s theory, Nicol prism, Retardation plates, Production and detection of Plane-, circularly- and elliptically polarized light. Optical activity and Fresnel’s theory, Bi-quartz polarimeter. Dichroism and selective absorption. 10 Texts /"
+              "topics": "Polarization: Unpolarized and Polarized light, Brewster’s law, Malus’ law, Plane polarized-, elliptically polarized- and circularly polarized light. Elementary idea of Matrix representation of polarizations: The Jones matrix. Production of polarized light by reflection, refraction and scattering. Polarization by double refraction and Huygen’s theory, Nicol prism, Retardation plates, Production and detection of Plane-, circularly- and elliptically polarized light. Optical activity and Fresnel’s theory, Bi-quartz polarimeter. Dichroism and selective absorption."
             }
+          ],
+          "suggested_books": [
+            "Physical Optics: B. K. Mathur and T. P. Pandya.",
+            "Optics: Ajoy Ghatak (McGraw Hill Publication)",
+            "Fundamental of Optics: Francis Jenkins and Harvey White (McGraw Hill)",
+            "Introduction to Modern Optics: G. R. Fowels. (Dover Series)",
+            "Optics: E. Hecht (Addition Wesley)",
+            "A textbook of Optics: N. Subrahmanyam, Brijlal and M. N. Avadhanulu.",
+            "Geometrical and Physical Optics: Longhurst. (McGraw Hill Publication)."
           ]
         },
         {
@@ -268,15 +327,15 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "V Characteristics of JFET and MOSFET, FET biasing, FET as an amplifier. Silicon controlled rectifier (SCR), I-V Characteristics, phase controlled rectifier. Uni-junction transistor (UJT), I-V Characteristics, relaxation oscillator. 08 534 Course Title"
+              "topics": "V Characteristics of JFET and MOSFET, FET biasing, FET as an amplifier. Silicon controlled rectifier (SCR), I-V Characteristics, phase controlled rectifier. Uni-junction transistor (UJT), I-V Characteristics, relaxation oscillator."
             },
             {
               "unit": 2,
-              "topics": "P-N junction and Zener diode: Depletion width and potential barrier, Diode equation, junction capacitance, I-V characteristics. Application of P-N junction diode as Rectifiers, ripple factor, Passive filters, rectification efficiency and percentage regulation. Clipping and clamping circuits, Zener diode and voltage regulation, tunnel diode. 10"
+              "topics": "P-N junction and Zener diode: Depletion width and potential barrier, Diode equation, junction capacitance, I-V characteristics. Application of P-N junction diode as Rectifiers, ripple factor, Passive filters, rectification efficiency and percentage regulation. Clipping and clamping circuits, Zener diode and voltage regulation, tunnel diode."
             },
             {
               "unit": 3,
-              "topics": "Electronic Devices: Concepts of Homo- and Hetero-junction devices, Transistor circuits, Input and Output characteristics in CB, CC and CE configurations, Early effect, α and β parameters; DC load line, Operating point, Biasing and bias-stabilization. CE amplifier and frequency response. 10"
+              "topics": "Electronic Devices: Concepts of Homo- and Hetero-junction devices, Transistor circuits, Input and Output characteristics in CB, CC and CE configurations, Early effect, α and β parameters; DC load line, Operating point, Biasing and bias-stabilization. CE amplifier and frequency response."
             },
             {
               "unit": 4,
@@ -284,8 +343,16 @@
             },
             {
               "unit": 5,
-              "topics": "Operational amplifier and Opto-Electronic Devices: Block diagram, characteristics parameters, inverting and non-inverting amplifier. Solar cells – I-V characteristics, fill factor and efficiency, LED, LCD and flexible display devices. 07 Texts /"
+              "topics": "Operational amplifier and Opto-Electronic Devices: Block diagram, characteristics parameters, inverting and non-inverting amplifier. Solar cells – I-V characteristics, fill factor and efficiency, LED, LCD and flexible display devices."
             }
+          ],
+          "suggested_books": [
+            "Electronic Devices : T. L. Floyd",
+            "Device and Circuits : J. Millman and C. Halkias.",
+            "A Text Book of Electronics: Kakani and Bhandari.",
+            "Electronic Fundamental and Applications: D. Chatopadhyay and P.C. Rakshit.",
+            "Solid State Electronic Devices: Ben G. Streetman and Sanjay Kumar Banerjee.",
+            "Electronic Principles: Albert Malvino and David J. Bates"
           ]
         },
         {
@@ -296,7 +363,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "2"
+              "topics": ""
             }
           ]
         },
@@ -312,12 +379,17 @@
             },
             {
               "unit": 2,
-              "topics": "Basic electronic components: Active and passive electronic components, transformer, basic of semiconductors, working principle of semiconductor diodes, applications of diodes in rectification, reverse current protection and switching, Zener diodes and voltage regulation. Bipolar Junction Transistor (BJT) and their applications, Operation of n-p-n and p-n-p transistors, Biasing of BJT. Introduction to LED, Photodiode, FET, JFET, MOSFET, CMOS and VMOS. 15"
+              "topics": "Basic electronic components: Active and passive electronic components, transformer, basic of semiconductors, working principle of semiconductor diodes, applications of diodes in rectification, reverse current protection and switching, Zener diodes and voltage regulation. Bipolar Junction Transistor (BJT) and their applications, Operation of n-p-n and p-n-p transistors, Biasing of BJT. Introduction to LED, Photodiode, FET, JFET, MOSFET, CMOS and VMOS."
             },
             {
               "unit": 3,
-              "topics": "Fiber optics communication: Basic concepts of optical fibers and their structure. Types of optical fibers (single-mode and multi-mode). Signal propagation and losses in optical fibers. Laser and its application in communication. Study of optical fiber tools (OTDR, OSA, Power meter, Stripper, Splicer, fiber coupler and detectors) 15"
+              "topics": "Fiber optics communication: Basic concepts of optical fibers and their structure. Types of optical fibers (single-mode and multi-mode). Signal propagation and losses in optical fibers. Laser and its application in communication. Study of optical fiber tools (OTDR, OSA, Power meter, Stripper, Splicer, fiber coupler and detectors)"
             }
+          ],
+          "suggested_books": [
+            "A Course in Electrical and Electronic Measurements and Instrumentation, by A. K. Sawhney and Puneet",
+            "Electronics Fundamentals: Circuits, Devices, and Applications: Thomas L. Floyd and David M. Buchla",
+            "Optical Fiber Communications Principles and Practice by John M. Senior"
           ]
         },
         {
@@ -328,20 +400,26 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Category of Course Major / Minor / Minor (Vocational) / SEC / AEC / VAC / MD/Internship/Dissertation (Tick any one of the above) Credits & Hours of Teaching Theory Practical Cumulative Credits 0 01 0 30 30 Course Objective This course aims to provide students with a foundational understanding of essential electronic components, measurement tools, and the principles of fiber optic communication. Students will gain practical skills in using electronic instruments, understanding semiconductor devices, and exploring optical fiber technologies for communication applications. Course Content The course content is divided into 3 units along with defined hour of teaching for each unit. Unit Experiments Hours of Teaching Experiments in Applied Electronics and Fiber Optics 1. Conversion of Galvanometer to Voltmeter and Ammeter 2. Construction and Response Analysis of a Parallel Resonance Circuit Using Soldering Techniques. 3. Design of a Regulated Power Supply using Zener Diode. 4. Estimation of Gain and Bandwidth in RC-Coupled Common Emitter (CE) Amplifier. 5. Study of Bending Loss and Splicing Loss in Single-Mode and Multi-Mode Optical Fiber. 6. Study of Electrical and Optical Characteristics of Light Emitting Diodes (LEDs) and PIN Photo detector. 30 541 Course Title"
+              "topics": "Category of Course Major / Minor / Minor (Vocational) / SEC / AEC / VAC / MD/Internship/Dissertation (Tick any one of the above) Credits & Hours of Teaching Theory Practical Cumulative Credits 0 01 0 30 30 Course Objective This course aims to provide students with a foundational understanding of essential electronic components, measurement tools, and the principles of fiber optic communication. Students will gain practical skills in using electronic instruments, understanding semiconductor devices, and exploring optical fiber technologies for communication applications. Course Content The course content is divided into 3 units along with defined hour of teaching for each unit. Unit Experiments Hours of Teaching Experiments in Applied Electronics and Fiber Optics 1. Conversion of Galvanometer to Voltmeter and Ammeter 2. Construction and Response Analysis of a Parallel Resonance Circuit Using Soldering Techniques. 3. Design of a Regulated Power Supply using Zener Diode. 4. Estimation of Gain and Bandwidth in RC-Coupled Common Emitter (CE) Amplifier. 5. Study of Bending Loss and Splicing Loss in Single-Mode and Multi-Mode Optical Fiber. 6. Study of Electrical and Optical Characteristics of Light Emitting Diodes (LEDs) and PIN Photo detector."
             },
             {
               "unit": 2,
-              "topics": "Electrodynamics: Concept and charge and current densities, Electrostatics, Coulomb and Gauss Law(Divergence and curl of electrostatic field ), Magnetostatics, Ampere’s law(Divergence and curl of magnetostatic field); Electrodynamics: Concept of electromotive force and electric field, Faraday’s law of electromagnetic induction, Generalized Ampere’s law and the concept of Displacement current and its significance, Equation of continuity, Maxwell’s equations in differential and integral form, Maxwell's equation in a dielectric medium and boundary conditions, Scalar and vector potentials, Gauge transformations, Coulomb and Lorentz Gauges, Poynting theorem and energy conservation (qualitative idea of momentum conservation). 22"
+              "topics": "Electrodynamics: Concept and charge and current densities, Electrostatics, Coulomb and Gauss Law(Divergence and curl of electrostatic field ), Magnetostatics, Ampere’s law(Divergence and curl of magnetostatic field); Electrodynamics: Concept of electromotive force and electric field, Faraday’s law of electromagnetic induction, Generalized Ampere’s law and the concept of Displacement current and its significance, Equation of continuity, Maxwell’s equations in differential and integral form, Maxwell's equation in a dielectric medium and boundary conditions, Scalar and vector potentials, Gauge transformations, Coulomb and Lorentz Gauges, Poynting theorem and energy conservation (qualitative idea of momentum conservation)."
             },
             {
               "unit": 3,
-              "topics": "EM wave propagation: EM wave equation and their solutions; Polarization of EM wave; Propagation of plane EM waves in different media: free space, dielectrics and conductors; Laws of reflection, transmission at normal and oblique incidence in linear media and conducting media (Fresnel’s equations), total internal reflection and Brewster angle, Elementary idea on waveguides. 20"
+              "topics": "EM wave propagation: EM wave equation and their solutions; Polarization of EM wave; Propagation of plane EM waves in different media: free space, dielectrics and conductors; Laws of reflection, transmission at normal and oblique incidence in linear media and conducting media (Fresnel’s equations), total internal reflection and Brewster angle, Elementary idea on waveguides."
             },
             {
               "unit": 4,
-              "topics": "Relativity: Michelson-Morley experiment, Postulates of special theory of relativity, Lorentz transformation and physical significance of Lorentz invariance, Length contraction, time dilation, Concept of simultaneity, Relativistic velocity transformation relations, mass energy relation, Concept of zero rest mass of photon, Relativistic relation between energy and momentum. 12 Texts /"
+              "topics": "Relativity: Michelson-Morley experiment, Postulates of special theory of relativity, Lorentz transformation and physical significance of Lorentz invariance, Length contraction, time dilation, Concept of simultaneity, Relativistic velocity transformation relations, mass energy relation, Concept of zero rest mass of photon, Relativistic relation between energy and momentum."
             }
+          ],
+          "suggested_books": [
+            "Introduction to Electrodynamics (3rd Edition): David J. Griffiths.",
+            "EM Waves and Fields: P. Lorrain and O. Corson.",
+            "Elements of Electromagnetics: Mathew N. O. Sadiku",
+            "Introduction to Special Relativity: Robert Resnick"
           ]
         },
         {
@@ -352,16 +430,19 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Introduction to Python Programming Introduction to Python: Why Python?, Setting up the environment: Anaconda, Jupyter Notebook, Python syntax, variables, and data types, Basic operations and expressions; Conditional statements: if, elif, else; Loops: for, while; Functions: defining, calling, and scope; Lists, tuples, and sets; Dictionaries: key-value pairs; Strings: operations and methods; Working with files: reading from and writing to files, SciPy for scientific computing 15"
+              "topics": "Introduction to Python Programming Introduction to Python: Why Python?, Setting up the environment: Anaconda, Jupyter Notebook, Python syntax, variables, and data types, Basic operations and expressions; Conditional statements: if, elif, else; Loops: for, while; Functions: defining, calling, and scope; Lists, tuples, and sets; Dictionaries: key-value pairs; Strings: operations and methods; Working with files: reading from and writing to files, SciPy for scientific computing"
             },
             {
               "unit": 2,
-              "topics": "Data Handling & Manipulation Overview of Python libraries for data analysis: NumPy, Pandas, Matplotlib, Seaborn, Installing and importing libraries, Introduction to NumPy arrays, Array operations: indexing, slicing, and reshaping, Mathematical operations and statistical functions, Working with multi-dimensional arrays, Introduction to Pandas: Series and Data Frames, Importing and exporting data (CSV, Excel, etc.), Data Frame operations: filtering, sorting, and grouping, Handling missing data and data cleaning 08"
+              "topics": "Data Handling & Manipulation Overview of Python libraries for data analysis: NumPy, Pandas, Matplotlib, Seaborn, Installing and importing libraries, Introduction to NumPy arrays, Array operations: indexing, slicing, and reshaping, Mathematical operations and statistical functions, Working with multi-dimensional arrays, Introduction to Pandas: Series and Data Frames, Importing and exporting data (CSV, Excel, etc.), Data Frame operations: filtering, sorting, and grouping, Handling missing data and data cleaning"
             },
             {
               "unit": 3,
-              "topics": "Data Analysis & Visualization Exploratory data analysis, Descriptive statistics and summary functions, Data visualization with Matplotlib and Seaborn: line plots, bar charts, histograms, etc., Customizing plots: titles, labels, legends, and colours, Working with time series data, Correlation and covariance, Merging, joining, and concatenating data, Pivot tables and cross-tabulation 07 Texts /"
+              "topics": "Data Analysis & Visualization Exploratory data analysis, Descriptive statistics and summary functions, Data visualization with Matplotlib and Seaborn: line plots, bar charts, histograms, etc., Customizing plots: titles, labels, legends, and colours, Working with time series data, Correlation and covariance, Merging, joining, and concatenating data, Pivot tables and cross-tabulation"
             }
+          ],
+          "suggested_books": [
+            "“Python for Data Analysis” by Wes McKinney “Automate the Boring Stuff with Python” by Al Sweigart Documentations: Python, NumPy, Scipy, Matplotlib, Seaborn, Pandas"
           ]
         },
         {
@@ -372,8 +453,11 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1"
+              "topics": ""
             }
+          ],
+          "suggested_books": [
+            "Python exercises on based on the course “Computational Physics: Programming and Data Analysis” and most of the physics problems are based on the courses taught in previous and current semesters."
           ]
         }
       ]
@@ -389,7 +473,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "4"
+              "topics": ""
             }
           ]
         },
@@ -401,24 +485,27 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Curvilinear Coordinates: Orthogonal curvilinear coordinates, differential operators (without derivations), concept of a metric, spherical and cylindrical coordinates and their unit vectors. 09 542 Course Title"
+              "topics": "Curvilinear Coordinates: Orthogonal curvilinear coordinates, differential operators (without derivations), concept of a metric, spherical and cylindrical coordinates and their unit vectors."
             },
             {
               "unit": 2,
-              "topics": "Tensors: Introduction to tensors, cartesian, covariant, contravariant and mixed tensors, contractions and direct products. Examples: symmetric, anti-symmetric, isotropic, and pseudo tensors. 09"
+              "topics": "Tensors: Introduction to tensors, cartesian, covariant, contravariant and mixed tensors, contractions and direct products. Examples: symmetric, anti-symmetric, isotropic, and pseudo tensors."
             },
             {
               "unit": 3,
-              "topics": "Matrices: Orthogonal, Hermitian, and unitary matrices, inverse of a matrix, (orthogonal) similarity transformations, eigen value problems and diagonalization of matrices (Examples of non-degenerate and degenerate cases). 09"
+              "topics": "Matrices: Orthogonal, Hermitian, and unitary matrices, inverse of a matrix, (orthogonal) similarity transformations, eigen value problems and diagonalization of matrices (Examples of non-degenerate and degenerate cases)."
             },
             {
               "unit": 4,
-              "topics": "Differential Equations: Brief revision of first order and second order linear differential equations with constant coefficients, Second order homogeneous differential equations and their series solutions (examples: Harmonic oscillator and Bessel equations), singular points, linear independence of two solutions, Wronskian integral method for a second solution. 09"
+              "topics": "Differential Equations: Brief revision of first order and second order linear differential equations with constant coefficients, Second order homogeneous differential equations and their series solutions (examples: Harmonic oscillator and Bessel equations), singular points, linear independence of two solutions, Wronskian integral method for a second solution."
             },
             {
               "unit": 5,
-              "topics": "Special Functions: Legendre polynomials, spherical harmonics, Hermite and Laguerre polynomials, generating functions, recurrence relations, Rodrigues’ formulae, orthonormality conditions, Gamma function, Dirac delta function. 09 Texts /"
+              "topics": "Special Functions: Legendre polynomials, spherical harmonics, Hermite and Laguerre polynomials, generating functions, recurrence relations, Rodrigues’ formulae, orthonormality conditions, Gamma function, Dirac delta function."
             }
+          ],
+          "suggested_books": [
+            "Mathematical Methods for Physicists: G.B. Arfken and H.J. Weber  Advanced Engineering Mathematics: Erwin Kreyszig  Applied Mathematics for Engineers and Physicists: L.A. Pipes and L.R. Harvill  Mathematical Physics: P. K. Chattopadhyay  Theory and Problems of Vector Analysis (Schaum’s Outline Series): M.R. Spiegel  Theory and Problems of Advanced Calculus (Schaum’s Outline Series): M.R. Spiegel"
           ]
         },
         {
@@ -429,16 +516,23 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Introduction to Computers and Programming: 1. Computer architecture overview 2. Programming Languages: Compiled (Fortran, C) vs. interpreted languages (python) 3. Representation on a computer: Integer representation, floating-point representation, Machine precision 4. Errors in Computation 5. Programming and visualization 10 543 Course Title"
+              "topics": "Introduction to Computers and Programming: 1. Computer architecture overview 2. Programming Languages: Compiled (Fortran, C) vs. interpreted languages (python) 3. Representation on a computer: Integer representation, floating-point representation, Machine precision 4. Errors in Computation 5. Programming and visualization"
             },
             {
               "unit": 2,
-              "topics": "Numerical Methods: 1. Data Analysis (Random Variables, Random number Generator, Moment calculations) 2. Polynomial data fitting 3. Root finding 4. Numerical Differentiation and Interpolation 5. Numerical Integration 6. Differential Equations 7. Partial differential Equations 8. Random Processes: Monte Carlo Integration, Random Walk, Metropolis algorithm 9. Linear Algebra: Eigen value Problems 10. Optimization Techniques 20"
+              "topics": "Numerical Methods: 1. Data Analysis (Random Variables, Random number Generator, Moment calculations) 2. Polynomial data fitting 3. Root finding 4. Numerical Differentiation and Interpolation 5. Numerical Integration 6. Differential Equations 7. Partial differential Equations 8. Random Processes: Monte Carlo Integration, Random Walk, Metropolis algorithm 9. Linear Algebra: Eigen value Problems 10. Optimization Techniques"
             },
             {
               "unit": 3,
-              "topics": "Applications: 1. Harmonic Oscillator 2. Random variables and Central limit theorem 3. Central force field problems 4. Ising Model 5. Wave Equations 6. Bayesian Inferences 15 Texts /"
+              "topics": "Applications: 1. Harmonic Oscillator 2. Random variables and Central limit theorem 3. Central force field problems 4. Ising Model 5. Wave Equations 6. Bayesian Inferences"
             }
+          ],
+          "suggested_books": [
+            "Computational Physics by Mark Newman (Create Space Independent Publishing Platform)",
+            "Computational Physics by Jos Thijssen (Cambridge University Press)",
+            "Computational Physics: Problem Solving with Python by Rubin H. Landau, Manuel J. Paez, and Cristian Bordeian (Wiley)",
+            "Computational Methods for Physics, Joel Franklin, Cambridge University Press",
+            "Numerical Methods in Physics with Python, Alex Gezerlis, (Cambridge University Press)"
           ]
         },
         {
@@ -449,7 +543,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "2"
+              "topics": ""
             }
           ]
         },
@@ -461,7 +555,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "2 PHY-Minor (same as major : PHYMJ41* 4 AE (To be offered by the University) 2 * Students may opt any four credit course from Online SWAYAM courses approved by the Department. Total Credits 20"
+              "topics": "2 PHY-Minor (same as major : PHYMJ41* 4 AE (To be offered by the University) 2 * Students may opt any four credit course from Online SWAYAM courses approved by the Department. Total Credits"
             }
           ]
         }
@@ -478,7 +572,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "during summer vacation] 2"
+              "topics": "during summer vacation]"
             }
           ]
         },
@@ -490,20 +584,27 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Birth of Quantum Mechanics: Brief discussions on photoelectric effect, Compton effect and hydrogen spectra. de Broglie hypothesis, wave-particle duality, double slit experiment, uncertainty principle, Schrödinger equation, Wave function, Normalization, Probability current density and conservation of probability, Statistical interpretation. 12 546 Course Title"
+              "topics": "Birth of Quantum Mechanics: Brief discussions on photoelectric effect, Compton effect and hydrogen spectra. de Broglie hypothesis, wave-particle duality, double slit experiment, uncertainty principle, Schrödinger equation, Wave function, Normalization, Probability current density and conservation of probability, Statistical interpretation."
             },
             {
               "unit": 2,
-              "topics": "Wave mechanics: Time independent Schrödinger equation, stationary states, general solution of time dependent Schrödinger equation, problems of infinite square well, free particle, wave packet, group velocity and phase velocity, finite square well and finite barrier, tunneling, delta function well, harmonic oscillator. 18"
+              "topics": "Wave mechanics: Time independent Schrödinger equation, stationary states, general solution of time dependent Schrödinger equation, problems of infinite square well, free particle, wave packet, group velocity and phase velocity, finite square well and finite barrier, tunneling, delta function well, harmonic oscillator."
             },
             {
               "unit": 3,
-              "topics": "Formalism: Postulates of quantum mechanics, observables, Hermitian operators, eigenvalues and eigen function, uncertainty principle (including time and energy), commuting observables and compatibility, Momentum and energy operators, Expectation values, Ehrenfest theorem, Harmonic oscillator by operator method; Schrodinger and Heisenberg pictures; Spin and Statistics, Exchange symmetry; Time dependent Perturbation theory, Transition probability and Fermi’s Golden rule. 18"
+              "topics": "Formalism: Postulates of quantum mechanics, observables, Hermitian operators, eigenvalues and eigen function, uncertainty principle (including time and energy), commuting observables and compatibility, Momentum and energy operators, Expectation values, Ehrenfest theorem, Harmonic oscillator by operator method; Schrodinger and Heisenberg pictures; Spin and Statistics, Exchange symmetry; Time dependent Perturbation theory, Transition probability and Fermi’s Golden rule."
             },
             {
               "unit": 4,
-              "topics": "Schrödinger equation in 3-dimension: Hydrogen atom, Angular momentum operators and their eigen functions, electron spin, Stern-Gerlach experiment. 12 Texts /"
+              "topics": "Schrödinger equation in 3-dimension: Hydrogen atom, Angular momentum operators and their eigen functions, electron spin, Stern-Gerlach experiment."
             }
+          ],
+          "suggested_books": [
+            "Quantum Mechanics: D. J. Griffiths",
+            "Quantum Physics: S. Gasiorowicz",
+            "Quantum Mechanics: B. H. Bransden and C. J. Joachain",
+            "Quantum Physics of Atoms, Molecules, Nuclei and Solids: R. M. Eisberg and R. Resnick",
+            "Quantum Mechanics: Ghatak and Loknathan"
           ]
         },
         {
@@ -514,20 +615,28 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Lagrangian formulation: System of particles, Constraints, Degrees of freedom, Generalized coordinates, Virtual displacement, D'Alemberts principle and Lagrange's equation, Velocity dependent potential of electro-magnetic field. Variational principle, Hamilton's principle, Euler- Lagrange's equation, Lagrangian for simple systems, Lagrangian for a relativistic particle, Cyclic coordinates, symmetries and conservation laws. Advantages of Lagrangian: electro-mechanical analogies, Raleigh Dissipation function, Lagrange's undetermined multipliers, Lagrange's equation for non-holonomic systems, Virial theorem, Principle of mechanical similarity. 21 547 Course Title"
+              "topics": "Lagrangian formulation: System of particles, Constraints, Degrees of freedom, Generalized coordinates, Virtual displacement, D'Alemberts principle and Lagrange's equation, Velocity dependent potential of electro-magnetic field. Variational principle, Hamilton's principle, Euler- Lagrange's equation, Lagrangian for simple systems, Lagrangian for a relativistic particle, Cyclic coordinates, symmetries and conservation laws. Advantages of Lagrangian: electro-mechanical analogies, Raleigh Dissipation function, Lagrange's undetermined multipliers, Lagrange's equation for non-holonomic systems, Virial theorem, Principle of mechanical similarity."
             },
             {
               "unit": 2,
-              "topics": "Hamiltonian formulation: Legendre transformations and Hamilton's equations of motion, Hamiltonian for simple systems, for a charge particle in Electro-magnetic field, Poisson Brackets, Jacobi Identity. Point transformation. 11"
+              "topics": "Hamiltonian formulation: Legendre transformations and Hamilton's equations of motion, Hamiltonian for simple systems, for a charge particle in Electro-magnetic field, Poisson Brackets, Jacobi Identity. Point transformation."
             },
             {
               "unit": 3,
-              "topics": "Small oscillation Theory of small oscillations, Eigenvalue equations, normal modes of oscillation and examples, Vibrational modes of linear triatomic molecules 05"
+              "topics": "Small oscillation Theory of small oscillations, Eigenvalue equations, normal modes of oscillation and examples, Vibrational modes of linear triatomic molecules"
             },
             {
               "unit": 4,
-              "topics": "Central force problem: Two body central force problem, reduction to the equivalent one body problem, Differential equation for the orbit and integrable power law potentials, Classification of orbits, Condition for stable circular orbit, Kepler problems, scattering problem in central force field. 08 Texts /"
+              "topics": "Central force problem: Two body central force problem, reduction to the equivalent one body problem, Differential equation for the orbit and integrable power law potentials, Classification of orbits, Condition for stable circular orbit, Kepler problems, scattering problem in central force field."
             }
+          ],
+          "suggested_books": [
+            "Classical Mechanics: H. Goldstein.",
+            "Mechanics: L . D. Landau and E. M. Lifshitz",
+            "Classical Dynamics, D T Greenwood.",
+            "Introduction to Classical Mechanics: R. G. Takwale and Puranik.",
+            "Classical Mechanics of Particles and Rigid Bodies: K. C. Gupta.",
+            "Introduction to Classical Mechanics: N. C. Rana and P. Joag"
           ]
         },
         {
@@ -538,16 +647,22 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Elementary Probability Theory: Random walk problem, Probability distributions, moments of distributions (mean and dispersion) Central limit theorem, examples and related problems. 08 548 Course Title"
+              "topics": "Elementary Probability Theory: Random walk problem, Probability distributions, moments of distributions (mean and dispersion) Central limit theorem, examples and related problems."
             },
             {
               "unit": 2,
-              "topics": "Basic concepts of statistical physics and applications: Phase space, Density of states, Liouville's theorem, Ergodicity, Postulates of statistical mechanics, microstates and macrostates, microcanonical ensembles, relation between statistical and thermodynamic parameters, classical ideal gas, Gibbs paradox. Canonical ensemble, Partition function, thermodynamic functions, fluctuations, Examples: classical ideal gas, Harmonic oscillator, Langevin paramagnetism, statistical equivalence. Grand canonical ensemble (elementary discussion), fluctuation and statistical equivalence. 27"
+              "topics": "Basic concepts of statistical physics and applications: Phase space, Density of states, Liouville's theorem, Ergodicity, Postulates of statistical mechanics, microstates and macrostates, microcanonical ensembles, relation between statistical and thermodynamic parameters, classical ideal gas, Gibbs paradox. Canonical ensemble, Partition function, thermodynamic functions, fluctuations, Examples: classical ideal gas, Harmonic oscillator, Langevin paramagnetism, statistical equivalence. Grand canonical ensemble (elementary discussion), fluctuation and statistical equivalence."
             },
             {
               "unit": 3,
-              "topics": "Quantum Statistics: Introductory idea on quantum statistical mechanics, exchange symmetry, counting, distributions and their classical limit. Examples: Black-body radiation (Planck's formula), conduction electrons in metals and its specific heat. 10 Texts /"
+              "topics": "Quantum Statistics: Introductory idea on quantum statistical mechanics, exchange symmetry, counting, distributions and their classical limit. Examples: Black-body radiation (Planck's formula), conduction electrons in metals and its specific heat."
             }
+          ],
+          "suggested_books": [
+            "Fundamentals of Statistical and Thermal Physics: Frederick Reif (McGrawHill).",
+            "Statistical Mechanics: R.K.Pathria (Elsevier).",
+            "Statistical Mechanics: Kerson Huang (Wiley).",
+            "Statistical Physics of Particles: M.Kardar (Cambridge University press)."
           ]
         },
         {
@@ -558,7 +673,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "4"
+              "topics": ""
             }
           ]
         },
@@ -574,20 +689,26 @@
             },
             {
               "unit": 2,
-              "topics": "Basic Electronics Study of different electronic components: Resistance, capacitance, inductor, diode, LED display devices, transistor, electromagnetic relay, Integrated Circuits; Elementary printed circuit board design, fabrication, and testing; Soldering / De-soldering practice; Study of electronic test and measuring equipment: Multimeter, Oscilloscope, Function generator, Power Supply; Troubleshooting practice and DIY projects. 13"
+              "topics": "Basic Electronics Study of different electronic components: Resistance, capacitance, inductor, diode, LED display devices, transistor, electromagnetic relay, Integrated Circuits; Elementary printed circuit board design, fabrication, and testing; Soldering / De-soldering practice; Study of electronic test and measuring equipment: Multimeter, Oscilloscope, Function generator, Power Supply; Troubleshooting practice and DIY projects."
             },
             {
               "unit": 3,
-              "topics": "Forging and Welding Introduction to forging tools, furnaces, and forging machines; Introduction to and practice of different welding processes; Introduction to gas cutting and its application; Making welded joints using different welding processes; Hands-on training and DIY projects. 6"
+              "topics": "Forging and Welding Introduction to forging tools, furnaces, and forging machines; Introduction to and practice of different welding processes; Introduction to gas cutting and its application; Making welded joints using different welding processes; Hands-on training and DIY projects."
             },
             {
               "unit": 4,
-              "topics": "Instrumentation Overview of instrumentation and its role in various industries; Introduction to sensors (temperature, pressure, strain, displacement, and more) and transducers; Signal conditioning and its importance. Amplification, filtering, and linearization techniques. Noise reduction and grounding techniques; Basics of data acquisition systems. Analog- to-digital conversion (ADC) techniques. Digital-to-analog conversion (DAC) techniques; Introduction to vacuum instrumentation; Demonstration and DIY projects. 16"
+              "topics": "Instrumentation Overview of instrumentation and its role in various industries; Introduction to sensors (temperature, pressure, strain, displacement, and more) and transducers; Signal conditioning and its importance. Amplification, filtering, and linearization techniques. Noise reduction and grounding techniques; Basics of data acquisition systems. Analog- to-digital conversion (ADC) techniques. Digital-to-analog conversion (DAC) techniques; Introduction to vacuum instrumentation; Demonstration and DIY projects."
             },
             {
               "unit": 5,
-              "topics": "Machine shop Introduction to machine tools - lathes, drilling machines, shaping machines, planning machines, slotting machines, milling machines, grinding machines; Demonstration on the lathe. 5 Texts /"
+              "topics": "Machine shop Introduction to machine tools - lathes, drilling machines, shaping machines, planning machines, slotting machines, milling machines, grinding machines; Demonstration on the lathe."
             }
+          ],
+          "suggested_books": [
+            "Workshop Technology Vol. I & II, by Raghuwanshi B.S., Dhanpath Rai & Sons.",
+            "Mechanical Workshop Practiceby John K.C., PHI 2010.",
+            "Machine Tool Practices (What's New in Trades & Technology) by Kibbe R, Meyer R, Stenerson J, and Curran K, Pearson 2019",
+            "Additional reading material/handout’s will be provided in class."
           ]
         },
         {
@@ -615,24 +736,31 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Superposition, Thevenin, Norton and Maximum Power Transfer Theorems, Network elements, Network graphs, Nodal and Mesh analysis. Two-port network parameters: Z, Y, and h parameters. 08 552 Course Title"
+              "topics": "Superposition, Thevenin, Norton and Maximum Power Transfer Theorems, Network elements, Network graphs, Nodal and Mesh analysis. Two-port network parameters: Z, Y, and h parameters."
             },
             {
               "unit": 2,
-              "topics": "Hybrid parameter model of transistor, analysis of transistor amplifier (with and without RS and RL) using h- parameters, AC circuit analysis, Transient analysis, Zero and Poles, Bode Plots, Simplified hybrid model. Single stage amplifier in CE, CB and CC modes. RC coupled CE amplifier and its frequency response. 09"
+              "topics": "Hybrid parameter model of transistor, analysis of transistor amplifier (with and without RS and RL) using h- parameters, AC circuit analysis, Transient analysis, Zero and Poles, Bode Plots, Simplified hybrid model. Single stage amplifier in CE, CB and CC modes. RC coupled CE amplifier and its frequency response."
             },
             {
               "unit": 3,
-              "topics": "Tuned voltage amplifiers. Power amplifier and its classification, distortion, and efficiency, push-pull amplifier, Feedback in amplifiers, positive and negative feedback, the effect of negative feedback on the characteristics of different types of amplifiers, voltage, and current series feedback circuits. Barkhausen criterion of oscillations, tuned collector oscillator, Hartley / Colpitt oscillator, phase shift oscillator. Need and types of modulation, amplitude modulation, analysis of A.M. wave, Transistor based A.M. modulator Circuit, demodulator circuit. 12"
+              "topics": "Tuned voltage amplifiers. Power amplifier and its classification, distortion, and efficiency, push-pull amplifier, Feedback in amplifiers, positive and negative feedback, the effect of negative feedback on the characteristics of different types of amplifiers, voltage, and current series feedback circuits. Barkhausen criterion of oscillations, tuned collector oscillator, Hartley / Colpitt oscillator, phase shift oscillator. Need and types of modulation, amplitude modulation, analysis of A.M. wave, Transistor based A.M. modulator Circuit, demodulator circuit."
             },
             {
               "unit": 4,
-              "topics": "Boolean algebra, fundamental logic gates, NAND and NOR gates as universal gates, X-OR & X-NOR gates. Simplification of Boolean expressions using SOP and K- maps. 08"
+              "topics": "Boolean algebra, fundamental logic gates, NAND and NOR gates as universal gates, X-OR & X-NOR gates. Simplification of Boolean expressions using SOP and K- maps."
             },
             {
               "unit": 5,
-              "topics": "Half and full adders and subtractors, multiplexers, demultiplexers, encoder-decoder, counters, and shift registers. 08 Texts /"
+              "topics": "Half and full adders and subtractors, multiplexers, demultiplexers, encoder-decoder, counters, and shift registers."
             }
+          ],
+          "suggested_books": [
+            "Electronics Fundamental and Application: Chattopadhyay and Rakshit.",
+            "Principle of Digital Electronics: Malvino and Leach.",
+            "A Text Book of Electronics: Kakani and Bhandari.",
+            "Electronic Devices: T.L. Floyd. 5. Integrated Electronics: Millman and Halkias.",
+            "Digital Systems Principles and Applications: Ronald J. Tocci"
           ]
         },
         {
@@ -647,16 +775,23 @@
             },
             {
               "unit": 2,
-              "topics": "Lattice Vibrations: Vibrational modes of continuous medium, Density of states, Einstein’s and Debye's theory of specific heat, Vibrations of one dimensional monoatomic and diatomic chain lattice, Phonons, elastic constants. 09"
+              "topics": "Lattice Vibrations: Vibrational modes of continuous medium, Density of states, Einstein’s and Debye's theory of specific heat, Vibrations of one dimensional monoatomic and diatomic chain lattice, Phonons, elastic constants."
             },
             {
               "unit": 3,
-              "topics": "Electronic Properties: Theory of free electron gas, Drude model and its drawbacks; Sommerfeld model and theory of electrical conductivity, Concept of Fermi energy, Fermi surface, Fermi temperature etc. Density of states and degeneracy, and its dimensionality effect. Heat capacity of electron gas, motion of electrons in electric and magnetic field and Hall effect, elementary ideas of quantum Hall effect, Cyclotron resonance and magneto resistance, De Haas von Alfen effect. CMR and GMR, and basic idea of superconductivity. Electrons in periodic potential, Bloch theorem, Kronig-Penny model, idea of energy bands: metals, insulators and semiconductors. 14"
+              "topics": "Electronic Properties: Theory of free electron gas, Drude model and its drawbacks; Sommerfeld model and theory of electrical conductivity, Concept of Fermi energy, Fermi surface, Fermi temperature etc. Density of states and degeneracy, and its dimensionality effect. Heat capacity of electron gas, motion of electrons in electric and magnetic field and Hall effect, elementary ideas of quantum Hall effect, Cyclotron resonance and magneto resistance, De Haas von Alfen effect. CMR and GMR, and basic idea of superconductivity. Electrons in periodic potential, Bloch theorem, Kronig-Penny model, idea of energy bands: metals, insulators and semiconductors."
             },
             {
               "unit": 4,
-              "topics": "Magnetic Properties: Origin of magnetism, Langevin's theory, Quantum theory of paramagnetism, Curie- Brillouin law, Weiss Molecular theory, Heisenberg model, ordering of spins, ferromagnetism, Anti-ferromagnetism, spin waves, dispersion relation of magnons, ferromagnetic domains. Magnetic interactions. 08 Texts /"
+              "topics": "Magnetic Properties: Origin of magnetism, Langevin's theory, Quantum theory of paramagnetism, Curie- Brillouin law, Weiss Molecular theory, Heisenberg model, ordering of spins, ferromagnetism, Anti-ferromagnetism, spin waves, dispersion relation of magnons, ferromagnetic domains. Magnetic interactions."
             }
+          ],
+          "suggested_books": [
+            "Crystalloraphy for Solid State Physics: A. R. Verma and O.N. Srivastava.",
+            "Solid State Physics: Gelard Burns (Academic Press)",
+            "Solids State Physics: C. Kittel.",
+            "Solids State Physics: Ashcroft and Mermin.",
+            "Solids State Physics: A J Decker."
           ]
         },
         {
@@ -671,20 +806,25 @@
             },
             {
               "unit": 2,
-              "topics": "One valence electron atom: Orbital magnetic dipole moment, Orbital, spin and total angular momenta, Larmor precession, Vector model of atom, Electronic configuration and atomic states, Spin-orbit interaction and fine structure, Intensity of spectral lines, General selection rules, Lamb shift and Retherford experiment, Hyperfine structure of lines Two valence electron atoms LS and JJ coupling schemes and resulting spectra. Spectroscopic terms of equivalent and non-equivalent electrons, Idea of normal and inverted doublet. 15"
+              "topics": "One valence electron atom: Orbital magnetic dipole moment, Orbital, spin and total angular momenta, Larmor precession, Vector model of atom, Electronic configuration and atomic states, Spin-orbit interaction and fine structure, Intensity of spectral lines, General selection rules, Lamb shift and Retherford experiment, Hyperfine structure of lines Two valence electron atoms LS and JJ coupling schemes and resulting spectra. Spectroscopic terms of equivalent and non-equivalent electrons, Idea of normal and inverted doublet."
             },
             {
               "unit": 3,
-              "topics": "Atom - field Interactions Dipole transitions, Zeeman Effect and Paschen-Bach effect and Stark Effects 06"
+              "topics": "Atom - field Interactions Dipole transitions, Zeeman Effect and Paschen-Bach effect and Stark Effects"
             },
             {
               "unit": 4,
-              "topics": "Molecular Spectra: Elementary idea of molecular spectra, Electronic, rotational, vibrational and Raman spectra of diatomic molecules 08"
+              "topics": "Molecular Spectra: Elementary idea of molecular spectra, Electronic, rotational, vibrational and Raman spectra of diatomic molecules"
             },
             {
               "unit": 5,
-              "topics": "Lasers: Einstein coefficients, Threshold condition for LASER action, Rate equation for three level laser system, Characteristics of laser radiation. Ruby Laser, He-Ne and Nd-YAG Laser. 06 Texts /"
+              "topics": "Lasers: Einstein coefficients, Threshold condition for LASER action, Rate equation for three level laser system, Characteristics of laser radiation. Ruby Laser, He-Ne and Nd-YAG Laser."
             }
+          ],
+          "suggested_books": [
+            "Introduction to Atomic Spectra: H E White, McGraw Book Company, Inc.",
+            "Fundamentals of molecular spectroscopy: Banwell, C.N. and McCash, E.M., Tata McGraw Hill,",
+            "Quantum Physics of Atoms, Molecules, Solids, Nuclei and Particles: by Robert Martin Eisberg and Robert Resnick"
           ]
         },
         {
@@ -695,20 +835,28 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Introduction of Nucleus: Properties of Nuclei: Mass, Charge, Size, Constituent of nuclei, Binding energy, Separation energy, Chart of Nuclei; Spin and Parity, Magnetic Dipole Moment. Properties of Nuclear Force: Saturation, Strong, Short range, Spin dependence, charge independence. Models: Liquid Drop Model, Bethe-Weizsaecker Mass formula, Stability of nuclei, Basic idea of Shell model. 12"
+              "topics": "Introduction of Nucleus: Properties of Nuclei: Mass, Charge, Size, Constituent of nuclei, Binding energy, Separation energy, Chart of Nuclei; Spin and Parity, Magnetic Dipole Moment. Properties of Nuclear Force: Saturation, Strong, Short range, Spin dependence, charge independence. Models: Liquid Drop Model, Bethe-Weizsaecker Mass formula, Stability of nuclei, Basic idea of Shell model."
             },
             {
               "unit": 2,
-              "topics": "Nuclear Decay Processes: Basics of nuclear decay: Types of nuclear decay, Decay laws and radioactivity, Half-life and Mean life time. Alpha decay: Energy spectrum, Q-value, Gamow’s theory of alpha decay. Beta decay: Types of beta decay and Q-value, Energy spectrum, Neutrino hypothesis, Beta decay selection rule, Fermi and Gamow-Teller transitions. Gamma decay: Basic idea of gamma decay and selection rules for gamma transitions, internal conversion. 12"
+              "topics": "Nuclear Decay Processes: Basics of nuclear decay: Types of nuclear decay, Decay laws and radioactivity, Half-life and Mean life time. Alpha decay: Energy spectrum, Q-value, Gamow’s theory of alpha decay. Beta decay: Types of beta decay and Q-value, Energy spectrum, Neutrino hypothesis, Beta decay selection rule, Fermi and Gamow-Teller transitions. Gamma decay: Basic idea of gamma decay and selection rules for gamma transitions, internal conversion."
             },
             {
               "unit": 3,
-              "topics": "Elementary Particles: Fundamental Interactions, Classification of elementary particle, discrete symmetries; quark model, quantum numbers (charge, spin); Isospin and hypercharge, multiplets, Eight-fold way for mesons and baryons; Color hypothesis; Qualitative ideas of symmetry breaking and unification. 15"
+              "topics": "Elementary Particles: Fundamental Interactions, Classification of elementary particle, discrete symmetries; quark model, quantum numbers (charge, spin); Isospin and hypercharge, multiplets, Eight-fold way for mesons and baryons; Color hypothesis; Qualitative ideas of symmetry breaking and unification."
             },
             {
               "unit": 4,
-              "topics": "Accelerators and Detectors: Accelerators: Basics idea of working of Van de Graaff and Linear accelerators; Cyclotron and Synchrotron. Detectors: GM Counter, Ionization Chamber. 06 Texts /"
+              "topics": "Accelerators and Detectors: Accelerators: Basics idea of working of Van de Graaff and Linear accelerators; Cyclotron and Synchrotron. Detectors: GM Counter, Ionization Chamber."
             }
+          ],
+          "suggested_books": [
+            "Concepts of Nuclear Physics: B L Cohen",
+            "Introductory Nuclear Physics: S.S.M. Wong",
+            "Nuclear Physics: V. Devanathan",
+            "Nuclear Physics: S. N. Ghoshal",
+            "Nuclear Physics: H. S. Hans",
+            "Introduction to Nuclear Physics: H.A.Enge"
           ]
         },
         {
@@ -719,20 +867,26 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Introduction to interactions, structure and phase transition in soft matter: Intermolecular forces, Concepts of broken symmetry, rigidity, and long-wavelength fluctuations. Order parameter, structure factor, density correlation functions, Basics of phase transition (1st and 2nd order), gas-liquid transition. 10 556 Texts /"
+              "topics": "Introduction to interactions, structure and phase transition in soft matter: Intermolecular forces, Concepts of broken symmetry, rigidity, and long-wavelength fluctuations. Order parameter, structure factor, density correlation functions, Basics of phase transition (1st and 2nd order), gas-liquid transition."
             },
             {
               "unit": 2,
-              "topics": "Soft Matter Systems: Liquid crystals: Introduction, liquid crystal phases and transitions, Distorted nematic ordering, response to electric and magnetic fields, Topological defects. Polymers: Model systems and chain statistics, polymers in solvents and melts, coil- globule transition, visco-elasticity, gelation. Colloids: Stability of colloidal systems, Poisson-Boltzmann theory, DLVO theory, Depletion interactions, Electro-kinetic effects. 7+7+7=21"
+              "topics": "Soft Matter Systems: Liquid crystals: Introduction, liquid crystal phases and transitions, Distorted nematic ordering, response to electric and magnetic fields, Topological defects. Polymers: Model systems and chain statistics, polymers in solvents and melts, coil- globule transition, visco-elasticity, gelation. Colloids: Stability of colloidal systems, Poisson-Boltzmann theory, DLVO theory, Depletion interactions, Electro-kinetic effects. 7+7+7="
             },
             {
               "unit": 3,
-              "topics": "Diffusion processes: Fick’s laws, Diffusion Equation, Random walks, Brownian motion, Langevin and Fokker-Plank equations 8"
+              "topics": "Diffusion processes: Fick’s laws, Diffusion Equation, Random walks, Brownian motion, Langevin and Fokker-Plank equations"
             },
             {
               "unit": 4,
-              "topics": "Elasticity in soft matter: Classical theory, stress tensor, generalized elasticity, elastic-free energies for nematics, smectics, membranes, rubber elasticity in polymers 6"
+              "topics": "Elasticity in soft matter: Classical theory, stress tensor, generalized elasticity, elastic-free energies for nematics, smectics, membranes, rubber elasticity in polymers"
             }
+          ],
+          "suggested_books": [
+            "Soft Matter Physics by Masao Doi, Oxford University Press, 2013, ISBN: 978-0-19-965295-2.",
+            "Soft Condensed Matter by Richard A.L. Jones, Science Press, 2008, ISBN: 978-7-03-022126-1.",
+            "Principles of Condensed Matter Physics by P. M. Chaikin and T. C. Lubensky, Cambridge University Press, 1995, ISBN: 9780511813467.",
+            "Theory of Simple Liquids: with Applications to Soft Matter by Hansen and McDonald, Academic Press, 2013, ISBN: 978-0123870322"
           ]
         },
         {
@@ -743,24 +897,36 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Positional Astronomy: Astronomical Coordinate Systems, measurement of astronomical parameters (mass, radius, time, distance, luminosity measurements), Solar and Sidereal day, Optical telescopes and designs. Detection method of radio- wave, X-ray, gamma-ray, gravitational wave. 08 557 Texts /"
+              "topics": "Positional Astronomy: Astronomical Coordinate Systems, measurement of astronomical parameters (mass, radius, time, distance, luminosity measurements), Solar and Sidereal day, Optical telescopes and designs. Detection method of radio- wave, X-ray, gamma-ray, gravitational wave."
             },
             {
               "unit": 2,
-              "topics": "The Sun: Structure of the Sun: Solar interior, solar atmosphere; Solar structures, Sun spots and their properties, Prominences, Solar Flares; CME, Solar cycle, Solar magnetic field; Solar Wind: Properties of solar wind, Magnetic field frozen into solar wind, Heliosphere. 08"
+              "topics": "The Sun: Structure of the Sun: Solar interior, solar atmosphere; Solar structures, Sun spots and their properties, Prominences, Solar Flares; CME, Solar cycle, Solar magnetic field; Solar Wind: Properties of solar wind, Magnetic field frozen into solar wind, Heliosphere."
             },
             {
               "unit": 3,
-              "topics": "The Planets and Earth: Defining planets; Terrestrial planets, Giant planets; Minor objects: Kuiper belt objects, asteroids, meteoroids; Planetary formation, Planetary structure and generation of magnetic fields, Exoplanet. Earth’s Interior, magnetic field, atmosphere: composition, constituents; Ionosphere: Its structure & formation; Aurora Borealis; Magnetosphere: Its structure, Magnetopause, Magnetotail. 10"
+              "topics": "The Planets and Earth: Defining planets; Terrestrial planets, Giant planets; Minor objects: Kuiper belt objects, asteroids, meteoroids; Planetary formation, Planetary structure and generation of magnetic fields, Exoplanet. Earth’s Interior, magnetic field, atmosphere: composition, constituents; Ionosphere: Its structure & formation; Aurora Borealis; Magnetosphere: Its structure, Magnetopause, Magnetotail."
             },
             {
               "unit": 4,
-              "topics": "The Stars & Galaxies: The Hertzsprung-Russell (H-R) diagram; Star-birth; The main sequence; Nuclear reactions; Stellar evolution, Post-main sequence; Stellar remnants: white dwarfs, neutron stars, black holes. Hubbles’s classification of galaxies, Spiral and elliptical galaxies, Milky way galaxy, galaxy clusters and cosmological origin. 12"
+              "topics": "The Stars & Galaxies: The Hertzsprung-Russell (H-R) diagram; Star-birth; The main sequence; Nuclear reactions; Stellar evolution, Post-main sequence; Stellar remnants: white dwarfs, neutron stars, black holes. Hubbles’s classification of galaxies, Spiral and elliptical galaxies, Milky way galaxy, galaxy clusters and cosmological origin."
             },
             {
               "unit": 5,
-              "topics": "Recent developments in Space and Astronomy: Satellite launching vehicles, Indian Satellite missions: history, recent and future missions, Astrobiology, multi messenger astronomy, Space Situational Awareness. 07"
+              "topics": "Recent developments in Space and Astronomy: Satellite launching vehicles, Indian Satellite missions: history, recent and future missions, Astrobiology, multi messenger astronomy, Space Situational Awareness."
             }
+          ],
+          "suggested_books": [
+            "Astrophysics of the Sun: Harold Zirin, Cambridge University Press, Cambridge, U.K.",
+            "Solar Astrophysics: Peter V. Foukal, Wiley-VchVerlag GmbH & Co. UK.",
+            "Fundamental Astronomy: H. Karttunen, P. Kroger, H. Oja, M. Poutanen, K.J. Donner, Springer Verlag, New Yerk",
+            "An Introduction to Modern Astrophysics: W. Carroll & D. A. Ostlie, Addison Wesley",
+            "Introduction to Space Physics: Ed. M.G. Kevilson& C.T. Russell, Cambridge Univ. Press, UK.",
+            "The Physics of Atmosphere: John Houghton, Cambridge University Press, U.K",
+            "Theoretical Astrophysics, Volumes I, II & III, T. Padmanabhan, Cambridge University Press.",
+            "Space Science, K.S. Krishnaswamy, New Age International Publications, 2017",
+            "Astrophysics for Physicists, Cambridge University Press, 2010",
+            "Astrophysics, Stars and Galaxies, K.D. Abhyankar, Universities Press, 2018"
           ]
         },
         {
@@ -771,7 +937,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "4x3"
+              "topics": "4x"
             }
           ]
         },
@@ -787,20 +953,23 @@
             },
             {
               "unit": 2,
-              "topics": "Python for AI Introduction to Jupyter Lab for interactive coding, Python basics and data structures, Working with libraries: NumPy, SciPy, and Pandas. Plotting Tools: Matplotlib and Seaborn 12"
+              "topics": "Python for AI Introduction to Jupyter Lab for interactive coding, Python basics and data structures, Working with libraries: NumPy, SciPy, and Pandas. Plotting Tools: Matplotlib and Seaborn"
             },
             {
               "unit": 3,
-              "topics": "Machine Learning Fundamentals Understanding supervised, unsupervised, and reinforcement learning, Regression and classification algorithms, Evaluating model performance, Introduction to Scikit-learn library, Building and training ML models, Feature selection and engineering techniques, deep learning 12"
+              "topics": "Machine Learning Fundamentals Understanding supervised, unsupervised, and reinforcement learning, Regression and classification algorithms, Evaluating model performance, Introduction to Scikit-learn library, Building and training ML models, Feature selection and engineering techniques, deep learning"
             },
             {
               "unit": 4,
-              "topics": "Natural Language Processing (NLP) Basics of NLP and its applications, Text preprocessing and tokenization, Building NLP models with NLTK or SpaCy, Large Language Models, Prompt engineering for ChatGPT 10"
+              "topics": "Natural Language Processing (NLP) Basics of NLP and its applications, Text preprocessing and tokenization, Building NLP models with NLTK or SpaCy, Large Language Models, Prompt engineering for ChatGPT"
             },
             {
               "unit": 5,
-              "topics": "Computer Vision and Image Processing Introduction to Computer Vision and image processing, Working with Open CV library, Building a simple image recognition application 6"
+              "topics": "Computer Vision and Image Processing Introduction to Computer Vision and image processing, Working with Open CV library, Building a simple image recognition application"
             }
+          ],
+          "suggested_books": [
+            "\"Artificial Intelligence: A Modern Approach\" by Stuart Russell and Peter Norvig \"Pattern Recognition and Machine Learning\" by Christopher M. Bishop \"Deep Learning\" by Ian Goodfellow, Yoshua Bengio, and Aaron Courville \"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow\" by AurélienGéron \"Machine Learning Yearning\" by Andrew Ng \"The Elements of Statistical Learning\" by Trevor Hastie, Robert Tibshirani, and Jerome Friedman \"Reinforcement Learning: An Introduction\" by Richard S. Sutton and Andrew G. Barto"
           ]
         }
       ]
@@ -816,20 +985,29 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Rigid body dynamics: Degrees of freedom of a free rigid body, Angular momentum and kinetic energy of a rigid body, Moment of inertia tensor, Eigen values of inertia tensor, principal moments of inertia, products of inertia, The kinematics of rigid body motion, Euler angles, infinitesimal rotations, rigid body equations of motion, Spherical top, Symmetric, Precession of equinoxes and of satellite orbits 18 560 Course Title"
+              "topics": "Rigid body dynamics: Degrees of freedom of a free rigid body, Angular momentum and kinetic energy of a rigid body, Moment of inertia tensor, Eigen values of inertia tensor, principal moments of inertia, products of inertia, The kinematics of rigid body motion, Euler angles, infinitesimal rotations, rigid body equations of motion, Spherical top, Symmetric, Precession of equinoxes and of satellite orbits"
             },
             {
               "unit": 2,
-              "topics": "Canonical transformation: Generating functionals, Applications. Hamilton-Jacobi Theory and solution of Kepler’s problem. Action angle variables, Solutions for periodic systems. 05"
+              "topics": "Canonical transformation: Generating functionals, Applications. Hamilton-Jacobi Theory and solution of Kepler’s problem. Action angle variables, Solutions for periodic systems."
             },
             {
               "unit": 3,
-              "topics": "Non-linear dynamics: Non-linear equation of motions; phase diagram, logistic maps, flows, Limit cycles. Bifurcations, fixed points and attractors, Lyapunov exponent. Simple examples like Duffing and van der Pol oscillators, Basic idea of chaotic solutions, fractal dimensions, Poincare section and KAM theorem. 15"
+              "topics": "Non-linear dynamics: Non-linear equation of motions; phase diagram, logistic maps, flows, Limit cycles. Bifurcations, fixed points and attractors, Lyapunov exponent. Simple examples like Duffing and van der Pol oscillators, Basic idea of chaotic solutions, fractal dimensions, Poincare section and KAM theorem."
             },
             {
               "unit": 4,
-              "topics": "Lagrangian and Hamiltonian for continuous systems: Transition from discrete to continuous system. Lagrangian density, Principle of least action, Euler-Lagrangian equation for continuous systems, Lagrangian for vibrational string. Hamiltonian density, Equations of motion. Noether’s theorem and conserve quantities. 07 Texts /"
+              "topics": "Lagrangian and Hamiltonian for continuous systems: Transition from discrete to continuous system. Lagrangian density, Principle of least action, Euler-Lagrangian equation for continuous systems, Lagrangian for vibrational string. Hamiltonian density, Equations of motion. Noether’s theorem and conserve quantities."
             }
+          ],
+          "suggested_books": [
+            "Classical Mechanics: H. Goldstein.",
+            "Nonlinear dynamics and chaos by Steven Strogatz",
+            "Introduction to Classical Mechanics: N. C. Rana and P. Joag",
+            "Chaos and nonlinear dynamics: An introduction for scientists and engineers by Robert Hilborn",
+            "Chaos: Introduction to dynamical systems by K. T. Alligood, T. D. Sauer and J. A. Yorke",
+            "Chaos in dynamical systems by Edward Ott",
+            "Introduction to the Modeling and Analysis of Complex systems: Hiroki Sayama"
           ]
         },
         {
@@ -840,7 +1018,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "3"
+              "topics": ""
             }
           ]
         },
@@ -852,7 +1030,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1 PHY-Minor [PHYMN71 to PHYMN78] [Any one from the major elective courses from PHYMJ71 to PHYMJ78 + one unit of lab (1)]* 3+1 * Students may opt any four credit course from Online SWAYAM courses approved by the Department. Total Credits 20 522 VIII-H Any Four elective theory courses ( 3 credit each) 4x3"
+              "topics": "1 PHY-Minor [PHYMN71 to PHYMN78] [Any one from the major elective courses from PHYMJ71 to PHYMJ78 + one unit of lab (1)]* 3+1 * Students may opt any four credit course from Online SWAYAM courses approved by the Department. Total Credits 20 522 VIII-H Any Four elective theory courses ( 3 credit each) 4x"
             }
           ]
         },
@@ -864,20 +1042,30 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Theory of Functions of a Complex Variable: Analyticity and Cauchy-Riemann Conditions, Cauchy’s integral theorem and formula, Taylor series and Laurent series expansion, Zeros and singular points, Multivalued functions, Branch Points and Cuts, Riemann Sheets and surfaces, Residues, Residue theorem, Jordan’s Lemma, evaluation of definite integrals, Cauchy principal value, dispersion relations (Kramers-Kroenig relations). 18 561 Course Title"
+              "topics": "Theory of Functions of a Complex Variable: Analyticity and Cauchy-Riemann Conditions, Cauchy’s integral theorem and formula, Taylor series and Laurent series expansion, Zeros and singular points, Multivalued functions, Branch Points and Cuts, Riemann Sheets and surfaces, Residues, Residue theorem, Jordan’s Lemma, evaluation of definite integrals, Cauchy principal value, dispersion relations (Kramers-Kroenig relations)."
             },
             {
               "unit": 2,
-              "topics": "Integral Transforms: Fourier Transform: Fourier Integral, Sine, Cosine and Complex transforms with examples, Fourier Inverse Transform. Definition, Properties and Representations of Dirac Delta Function, Properties of Fourier Transforms, Transforms of derivatives, Parseval’s Theorem, Convolution Theorem, Momentum representation, Transfer Functions, Applications to Partial differential equations. 09"
+              "topics": "Integral Transforms: Fourier Transform: Fourier Integral, Sine, Cosine and Complex transforms with examples, Fourier Inverse Transform. Definition, Properties and Representations of Dirac Delta Function, Properties of Fourier Transforms, Transforms of derivatives, Parseval’s Theorem, Convolution Theorem, Momentum representation, Transfer Functions, Applications to Partial differential equations."
             },
             {
               "unit": 3,
-              "topics": "Integral Transforms: Laplace transform: Definition, Properties and examples of Laplace Transforms, Inverse Transform, Convolution theorem and its applications, transforms of derivatives, Laplace transform method of solving differential equations (Ordinary and Partial differential equations), Differentiation and Integration of transforms, Inverse Transform by Bromwich integral. 09"
+              "topics": "Integral Transforms: Laplace transform: Definition, Properties and examples of Laplace Transforms, Inverse Transform, Convolution theorem and its applications, transforms of derivatives, Laplace transform method of solving differential equations (Ordinary and Partial differential equations), Differentiation and Integration of transforms, Inverse Transform by Bromwich integral."
             },
             {
               "unit": 4,
-              "topics": "Group Theory: Concept of a group (additive and multiplicative), Matrix representation of a group, homomorphism, isomorphism, reducible and irreducible representations of a group, Examples of SO(2), SO(3), and SU(2) groups. Introduction to Lie groups, generators, and algebras, example of angular momentum. Elementary ideas of discrete groups, examples. 09 Texts /"
+              "topics": "Group Theory: Concept of a group (additive and multiplicative), Matrix representation of a group, homomorphism, isomorphism, reducible and irreducible representations of a group, Examples of SO(2), SO(3), and SU(2) groups. Introduction to Lie groups, generators, and algebras, example of angular momentum. Elementary ideas of discrete groups, examples."
             }
+          ],
+          "suggested_books": [
+            "Mathematical Methods for Physicists (6/e): G.B. Arfken and H.J. Weber",
+            "Applied Mathematics for Engineers and Physicists: L.A. Pipes and L.R. Harvill",
+            "Complex Variables and Applications: J.W. Brown and R.V. Churchill",
+            "Complex Variables (Schaum’s Outline Series): M.R. Spiegel",
+            "Fourier and Laplace Transforms: R.J. Beerends, H.G. ter Morsche, J.C. van den Berg, and E.M. van de Vrie",
+            "Fourier Transforms: I.N. Sneddon",
+            "Group Theory and Its Application to Physical Problems: M. Hamermesh",
+            "Group Theory and Its Application to the Quantum Mechanics of Atomic Spectra: E.P. Wigner"
           ]
         },
         {
@@ -888,20 +1076,30 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Linear Vector Space and Representation Theory: Linear vector space and Hilbert space, Dirac Bra - Ket notation, Representations: operator and matrix methods, Matrix representation of Observables and states, Determination of eigenvalues and eigenstate for observables using matrix representations, Schwartz inequality and Gram-Schmidt orthogonalization, Measurement, observables and uncertainty relations, Change of basis and unitary transformations, Coordinate and momentum representations. 12 562 Course Title"
+              "topics": "Linear Vector Space and Representation Theory: Linear vector space and Hilbert space, Dirac Bra - Ket notation, Representations: operator and matrix methods, Matrix representation of Observables and states, Determination of eigenvalues and eigenstate for observables using matrix representations, Schwartz inequality and Gram-Schmidt orthogonalization, Measurement, observables and uncertainty relations, Change of basis and unitary transformations, Coordinate and momentum representations."
             },
             {
               "unit": 2,
-              "topics": "Theory of Angular Momentum: Symmetry, invariance and conservation laws, relation between rotation and angular momentum, commutation rules, Matrix representations, addition of angular momenta and Clebsch-Gordan coefficients. 11"
+              "topics": "Theory of Angular Momentum: Symmetry, invariance and conservation laws, relation between rotation and angular momentum, commutation rules, Matrix representations, addition of angular momenta and Clebsch-Gordan coefficients."
             },
             {
               "unit": 3,
-              "topics": "Scattering Theory: Differential and total Scattering cross-sections laws, Green Function, Born approximation, validity and simple applications, partial waves and phase shifts. 10"
+              "topics": "Scattering Theory: Differential and total Scattering cross-sections laws, Green Function, Born approximation, validity and simple applications, partial waves and phase shifts."
             },
             {
               "unit": 4,
-              "topics": "Approximation Methods: Time-independent Perturbation theory (non-degenerate and degenerate), Zeeman effect (Normal), Degenerate perturbation theory, Stark effect; Variational method and applications to helium atom and simple cases. 12 Texts /"
+              "topics": "Approximation Methods: Time-independent Perturbation theory (non-degenerate and degenerate), Zeeman effect (Normal), Degenerate perturbation theory, Stark effect; Variational method and applications to helium atom and simple cases."
             }
+          ],
+          "suggested_books": [
+            "Modern Quantum Mechanics: J.J. Sakurai.",
+            "Quantum Mechanics: L. I. Schiff.",
+            "Introduction to Quantum Mechanics: C.J. Joachain and B.H. Bransden.",
+            "Introduction of Quantum Mechanics: D.J. Griffiths.",
+            "Principles of Quantum Mechanics: P.A.M.Dirac.",
+            "Quantum Mechanics: P.M. Mathews and K. Venkatesan",
+            "Modern Quantum Mechanics: R. Shanker",
+            "Quantum Mechanics: L. Ballantine"
           ]
         },
         {
@@ -912,24 +1110,34 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Integrated Circuits and Fabrication: Semiconductor surfaces and Metal/Semiconductor Contact, MOS (Capacitor, Accumulation, Depletion and Inversion). Fabrication of ICs (Planar, Monolithic, Active and Passive Including MOS). 6 563 Course Title"
+              "topics": "Integrated Circuits and Fabrication: Semiconductor surfaces and Metal/Semiconductor Contact, MOS (Capacitor, Accumulation, Depletion and Inversion). Fabrication of ICs (Planar, Monolithic, Active and Passive Including MOS)."
             },
             {
               "unit": 2,
-              "topics": "Timer (IC-555): Internal Structure (Block Diagram) Operation, Astable, Monostable and Applications. Op-Amp (IC-741): Internal Structure (Block Diagram) Slew Rate, Frequency Response and Compensation, Applications (Linear and Non- Linear). 8"
+              "topics": "Timer (IC-555): Internal Structure (Block Diagram) Operation, Astable, Monostable and Applications. Op-Amp (IC-741): Internal Structure (Block Diagram) Slew Rate, Frequency Response and Compensation, Applications (Linear and Non- Linear)."
             },
             {
               "unit": 3,
-              "topics": "Phase Locked Loops (IC-565): Internal Structure (Block) Diagram) Application as Frequency 4"
+              "topics": "Phase Locked Loops (IC-565): Internal Structure (Block) Diagram) Application as Frequency"
             },
             {
               "unit": 4,
-              "topics": "Digital Systems and Embedded Architectures: FSK and FM Demodulation, TTL, MOS and CMOS Gates, Parallel Binary adder/subtractor, BCD Addition/ Subtraction, Encoder, Decoder, MUX, DE-MUX, Flip-Flops, Shift Resister, Counter, Memory Concept, RAM, ROM, EEPROM and Flash. 15"
+              "topics": "Digital Systems and Embedded Architectures: FSK and FM Demodulation, TTL, MOS and CMOS Gates, Parallel Binary adder/subtractor, BCD Addition/ Subtraction, Encoder, Decoder, MUX, DE-MUX, Flip-Flops, Shift Resister, Counter, Memory Concept, RAM, ROM, EEPROM and Flash."
             },
             {
               "unit": 5,
-              "topics": "Microprocessor: ALU, control unit, registers, etc., Instruction set architecture (ISA) and addressing modes. Microcontroller Architecture: On-chip peripherals and their functions (timers, counters, UART, ADC, etc.), Comparison of microcontroller architecture with microprocessors. Antenna: Basics of Radiowave propagation, Radiation from short electric doublet. Monopole and Dipole Antenna, Antenna parameters, Antenna Arrays. 12 Texts /"
+              "topics": "Microprocessor: ALU, control unit, registers, etc., Instruction set architecture (ISA) and addressing modes. Microcontroller Architecture: On-chip peripherals and their functions (timers, counters, UART, ADC, etc.), Comparison of microcontroller architecture with microprocessors. Antenna: Basics of Radiowave propagation, Radiation from short electric doublet. Monopole and Dipole Antenna, Antenna parameters, Antenna Arrays."
             }
+          ],
+          "suggested_books": [
+            "Reference Books:",
+            "Integrated Electronics: Millman and Halkias.",
+            "Physics of Semiconductors Devices: Sze.",
+            "Op-Amps and Linear Integrated Circuits: Gayakwad.",
+            "Digital Fundamental: Floyed.",
+            "Electronic Communication Systems: Kennedy",
+            "Linear Integrated Circuits: Choudhary and Jain.",
+            "Digital Electronics: Jain."
           ]
         },
         {
@@ -940,24 +1148,32 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Nanoparticles: Synthesis and Properties: Method of Synthesis: RF Plasma, Chemical Methods, Pulsed Laser Methods, Biological Methods: Synthesis using micro-organisms, Metal Nanoclusters, Magic Numbers, Modeling of Nanoparticles, Bulk to Nano Transitions. 05 564 Course Title"
+              "topics": "Nanoparticles: Synthesis and Properties: Method of Synthesis: RF Plasma, Chemical Methods, Pulsed Laser Methods, Biological Methods: Synthesis using micro-organisms, Metal Nanoclusters, Magic Numbers, Modeling of Nanoparticles, Bulk to Nano Transitions."
             },
             {
               "unit": 2,
-              "topics": "Carbon Nanostructures: Nature of Carbon Clusters, Discovery and structure of C60, Superconductivity in C60, Carbon Nanotubes: Synthesis, Structure, Electrical and Mechanical Properties. Graphene: Discovery, Synthesis and Structural Characterization through TEM, Elementary Concept of its applications. Other 2D materials: synthesis and properties. 11"
+              "topics": "Carbon Nanostructures: Nature of Carbon Clusters, Discovery and structure of C60, Superconductivity in C60, Carbon Nanotubes: Synthesis, Structure, Electrical and Mechanical Properties. Graphene: Discovery, Synthesis and Structural Characterization through TEM, Elementary Concept of its applications. Other 2D materials: synthesis and properties."
             },
             {
               "unit": 3,
-              "topics": "Quantum Wells, Wires and Dots: Preparation of Quantum Nanostructures (wells, wires and dots), Size Effects, Conduction Electrons and Dimensionality, Properties dependent on Density of States. 09"
+              "topics": "Quantum Wells, Wires and Dots: Preparation of Quantum Nanostructures (wells, wires and dots), Size Effects, Conduction Electrons and Dimensionality, Properties dependent on Density of States."
             },
             {
               "unit": 4,
-              "topics": "Analytical Techniques for Nano Structures: Scanning Probe Microscopes (SPM): STM and SFM Diffraction Techniques: XRD, TEM Spectroscopic Techniques: XPS, IR, Raman, UV-Vis, PL 16"
+              "topics": "Analytical Techniques for Nano Structures: Scanning Probe Microscopes (SPM): STM and SFM Diffraction Techniques: XRD, TEM Spectroscopic Techniques: XPS, IR, Raman, UV-Vis, PL"
             },
             {
               "unit": 5,
-              "topics": "Bulk Nanostructure Materials: Methods of Synthesis, Solid Disorders Nanostructures, Mechanical Properties, Nanostructure Multilayers, Metal Nanocluster, Composite Glasses, Porous Silicon. 04 Texts /"
+              "topics": "Bulk Nanostructure Materials: Methods of Synthesis, Solid Disorders Nanostructures, Mechanical Properties, Nanostructure Multilayers, Metal Nanocluster, Composite Glasses, Porous Silicon."
             }
+          ],
+          "suggested_books": [
+            "Introduction to Nanotechnology: Poole and Owners",
+            "Quantum Dots :Jacak, Hawrylak and Wojs",
+            "Handbook of Nanostructured Materials and Nanotechnology :Nalva (editor)",
+            "Nano Technology/ Principles and Practices: S.K. Kulkarni",
+            "Carbon Nanotubes: SilvanaFiorito",
+            "Nano technology: Richard Booker and Earl Boysen"
           ]
         },
         {
@@ -968,20 +1184,23 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Rotational spectra: Rotational symmetry of molecules; rotational spectra of linear, symmetric top, spherical and asymmetric top molecules; rotational selection rules for linear molecules; effect of nuclear spin on the rotational spectra. 10 565 Course Title"
+              "topics": "Rotational spectra: Rotational symmetry of molecules; rotational spectra of linear, symmetric top, spherical and asymmetric top molecules; rotational selection rules for linear molecules; effect of nuclear spin on the rotational spectra."
             },
             {
               "unit": 2,
-              "topics": "Vibrational Spectra: Vibrational spectra of a diatomic molecule as a harmonic and anharmonic oscillator; vibrational-rotational (IR and Raman) spectra of linear and symmetric top molecules. 10"
+              "topics": "Vibrational Spectra: Vibrational spectra of a diatomic molecule as a harmonic and anharmonic oscillator; vibrational-rotational (IR and Raman) spectra of linear and symmetric top molecules."
             },
             {
               "unit": 3,
-              "topics": "Electronic Spectra: Electronic transitions; Basics of Absorption, Fluorescence and Phosphorescence; Jablonski diagram; A brief discussion of molecular states; The Franck-Condon principle; Dissociation energy. Vibronic interaction and Herzberg Teller theory for absorption spectrum. 10"
+              "topics": "Electronic Spectra: Electronic transitions; Basics of Absorption, Fluorescence and Phosphorescence; Jablonski diagram; A brief discussion of molecular states; The Franck-Condon principle; Dissociation energy. Vibronic interaction and Herzberg Teller theory for absorption spectrum."
             },
             {
               "unit": 4,
-              "topics": "Molecular Symmetries and Group Theory: Symmetry properties of molecule: symmetry element, symmetry operation and point group, character table, Group theory: representation of a group, Matrix Representations of symmetry elements of a Point Group; Reducible and irreducible Representations; Character Tables for C2v and C3v point groups; Normal modes of vibration and their distribution into symmetry species of the molecule. 15 Texts /"
+              "topics": "Molecular Symmetries and Group Theory: Symmetry properties of molecule: symmetry element, symmetry operation and point group, character table, Group theory: representation of a group, Matrix Representations of symmetry elements of a Point Group; Reducible and irreducible Representations; Character Tables for C2v and C3v point groups; Normal modes of vibration and their distribution into symmetry species of the molecule."
             }
+          ],
+          "suggested_books": [
+            "Chemical Applications of Group Theory: F.A. Cotton; Fundamentals of Molecular Spectroscopy : C.N. Banwell; Introduction to Molecular Spectroscopy : G.M. Barrow; Modern Spectroscopy : J.M. Hollas; Molecular spectra and Molecular structure Vol. I and II: G. Hertzberg; Molecular Structure and Spectroscopy: G. Aruldhas:"
           ]
         },
         {
@@ -992,16 +1211,26 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Nuclear Models: Shell Model: Properties of Single particle states, Energy, spin and parities, Population of excited states in nuclei, Qualitative discussion and estimates of reduced transition rates, Magnetic moments and Schmidt Lines. Collective Model: Bohr’s Collective model for even-even spherical, collective vibrational and rotational excitations. 18 566 Course Title"
+              "topics": "Nuclear Models: Shell Model: Properties of Single particle states, Energy, spin and parities, Population of excited states in nuclei, Qualitative discussion and estimates of reduced transition rates, Magnetic moments and Schmidt Lines. Collective Model: Bohr’s Collective model for even-even spherical, collective vibrational and rotational excitations."
             },
             {
               "unit": 2,
-              "topics": "Nuclear Force and Nuclear Reactions: Nuclear Force: Deuteron problem, Tensor force, S and D states, Neutron-Proton and proton-proton scattering, Effective range theory, Spin-dependence of nuclear forces, Charge independence and charge symmetry of nuclear forces, Isospin formalism. Nuclear Reactions: Basic idea of direct reaction and compound nuclear reactions, Expressions for scattering and reaction cross sections in terms of partial wave amplitudes, Resonances reactions and derivation of Breit-Wigner single level formula for compound nucleus theory and its applications. 15"
+              "topics": "Nuclear Force and Nuclear Reactions: Nuclear Force: Deuteron problem, Tensor force, S and D states, Neutron-Proton and proton-proton scattering, Effective range theory, Spin-dependence of nuclear forces, Charge independence and charge symmetry of nuclear forces, Isospin formalism. Nuclear Reactions: Basic idea of direct reaction and compound nuclear reactions, Expressions for scattering and reaction cross sections in terms of partial wave amplitudes, Resonances reactions and derivation of Breit-Wigner single level formula for compound nucleus theory and its applications."
             },
             {
               "unit": 3,
-              "topics": "Experimental Techniques: Detectors: Outline of interaction of particles and gamma-rays with matter, Gas filled counters, Scintillation (NaI detector), Semi conductor detectors (HPGe and Silicon Surface Barrier Detector) Accelerators: Linear accelerator, Introduction of Modern Colliders, LHC and RHIC, Storage ring. 12 Texts /"
+              "topics": "Experimental Techniques: Detectors: Outline of interaction of particles and gamma-rays with matter, Gas filled counters, Scintillation (NaI detector), Semi conductor detectors (HPGe and Silicon Surface Barrier Detector) Accelerators: Linear accelerator, Introduction of Modern Colliders, LHC and RHIC, Storage ring."
             }
+          ],
+          "suggested_books": [
+            "Atomic and Nuclear Physics Vol. II: Ghoshal.",
+            "Nuclear Structure: Preston and Bhaduri.",
+            "Nuclear Structure: M. K. Pal.",
+            "Introductory Nuclear Physics: Wong.",
+            "Nuclear Theory: Elton.",
+            "Nuclear Interactions: de Benedetti.",
+            "Nucleon-nucleon Interaction: Brown and Jackson.",
+            "Nuclear Structure: M.K.Pal."
           ]
         },
         {
@@ -1012,20 +1241,37 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Overall structure of Plasma Physics and Astrophysics, Classification of Celestial Objects, Typical examples of Celestial Objects, Magnetized and nonmagnetized plasma, theory of turbulence 07 567 Course Title"
+              "topics": "Overall structure of Plasma Physics and Astrophysics, Classification of Celestial Objects, Typical examples of Celestial Objects, Magnetized and nonmagnetized plasma, theory of turbulence"
             },
             {
               "unit": 2,
-              "topics": "Fundamental processes in Hydrostatic and Magnetostatic Objects, Dynamo theory, Magneto-hydrodynamic waves and instabilities, Magneto-convection, Magneto-buoyancy, Parker instability, Theory of Magnetic reconnection, Fractal Nature of Current Sheet, Fundamental processes in Gravitational Objects 18"
+              "topics": "Fundamental processes in Hydrostatic and Magnetostatic Objects, Dynamo theory, Magneto-hydrodynamic waves and instabilities, Magneto-convection, Magneto-buoyancy, Parker instability, Theory of Magnetic reconnection, Fractal Nature of Current Sheet, Fundamental processes in Gravitational Objects"
             },
             {
               "unit": 3,
-              "topics": "Atomic and Radiation Physics of Plasmas, Theory of Radiative Transfer, Nonlinear steepening and Shocks, Particle Acceleration, Cosmic Rays 08"
+              "topics": "Atomic and Radiation Physics of Plasmas, Theory of Radiative Transfer, Nonlinear steepening and Shocks, Particle Acceleration, Cosmic Rays"
             },
             {
               "unit": 4,
-              "topics": "The Interstellar objects, mass budget of Interstellar medium (ISM), Physics and Chemistry of ISM, Gas Cooling/heating, Interstellar Polycyclic Aromatic Hydrocarbon Molecules, HII regions, Photodissociation Regions, Molecular clouds, Interstellar Shocks 12 Texts /"
+              "topics": "The Interstellar objects, mass budget of Interstellar medium (ISM), Physics and Chemistry of ISM, Gas Cooling/heating, Interstellar Polycyclic Aromatic Hydrocarbon Molecules, HII regions, Photodissociation Regions, Molecular clouds, Interstellar Shocks"
             }
+          ],
+          "suggested_books": [
+            "Plasma Astrophysics, T. Tajima and Kazunari Shibata, Westview Press, 2002",
+            "Plasma Astrophysics, Claudio Chiuderi and Marco Velli, Springer, 2015",
+            "The Physics and Chemistry of the Interstellar Medium, A.G.G. M. Tielens, 2010",
+            "Cosmical Magnetic Fields, E.N. Parker, Clarendon Press, Oxford, Cambridge University Press , 1979",
+            "An introduction to the atomic and radiation physics of plasmas, Cambridge University Press, 2018",
+            "Physics of solar system plasmas, Thomas E. Cravens, Cambridge University Press, 2004",
+            "Physics and Chemistry of the Interstellar Medium, Sun Kwok, 2007",
+            "Lectures in Magnetohydrodynamics, D.D. Schnack, Springer, 2009",
+            "Modern Fluid Dynamics for Physics and Astrophysics, Springer, 2016",
+            "Astrophysics for Physicists, ArnabRaiChoudhuri, Cambridge University Press, 2010",
+            "Plasma Physics for Astrophysics, Russell M. Kulsrud, Princeton University Press, 2005",
+            "Lectures on Astrophysics, Steven Weinberg, Cambridge University Press, 2020",
+            "Theoretical Astrophysics (volumes I, II, III), T. Padmanabhan, Cambridge University Press, 2002",
+            "Atomic Astrophysics and Spectroscopy, Anil K. Pradhan and Sultana N. Nahar, Cambridge University Press, 2011",
+            "Plasma Astrophysics: Kinetic Processes in Solar and Stellar Coronae, Arnold O. Benz, Springer, 2014"
           ]
         },
         {
@@ -1053,7 +1299,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "12"
+              "topics": ""
             }
           ]
         },
@@ -1065,16 +1311,23 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Quantum Statistical Mechanics: Postulates and density matrix, Ensembles in an ideal gas, Partition function, Thermodynamic functions, distributions Ideal Fermi gas, Concept of Fermi energy, Grand Partition function, equation of state and thermodynamics, Examples: white dwarf star. Ideal Bose gas, Grand Partition function, equation of state and thermodynamics, Bose- Einstein condensation, concept of macroscopic state and superfluidity. 26 569 Course Title"
+              "topics": "Quantum Statistical Mechanics: Postulates and density matrix, Ensembles in an ideal gas, Partition function, Thermodynamic functions, distributions Ideal Fermi gas, Concept of Fermi energy, Grand Partition function, equation of state and thermodynamics, Examples: white dwarf star. Ideal Bose gas, Grand Partition function, equation of state and thermodynamics, Bose- Einstein condensation, concept of macroscopic state and superfluidity."
             },
             {
               "unit": 2,
-              "topics": "Interacting systems: Cluster expansion for an ideal gas, equation of state, Virial expansion and Virial coefficients. 07"
+              "topics": "Interacting systems: Cluster expansion for an ideal gas, equation of state, Virial expansion and Virial coefficients."
             },
             {
               "unit": 3,
-              "topics": "Phase transitions: Ising model in one-dimension, Equivalence with other models, Peierls argument, mean field theory (Bragg-Williams and Bethe-Peierls), Exact solution of Ising modelin1- dimension, Spin-spin correlation function, Heisenberg model (introductory), Landau theory and critical exponents. 12 Texts /"
+              "topics": "Phase transitions: Ising model in one-dimension, Equivalence with other models, Peierls argument, mean field theory (Bragg-Williams and Bethe-Peierls), Exact solution of Ising modelin1- dimension, Spin-spin correlation function, Heisenberg model (introductory), Landau theory and critical exponents."
             }
+          ],
+          "suggested_books": [
+            "Statistical Mechanics: R. K. Pathria (Elsevier).",
+            "Statistical Mechanics: Kerson Huang (Wiley).",
+            "Statistical Mechanics: L. D. Landau and E.M. Lifshitz (Pergamon).",
+            "Equilibrium Statistical Physics: M. Plischke and B. Bergersen (World Scientific).",
+            "A Modern course in Statistical Physics: L.E.Reichl (John-Wiley)."
           ]
         },
         {
@@ -1085,8 +1338,16 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "3"
+              "topics": ""
             }
+          ],
+          "suggested_books": [
+            "Inertial and non-inertial frames, Transformation equations (Inclined and Rotating frames), Centrifugal and Coriolis force, Effect of centrifugal and Coriolis force due to earth rotation. Gravitation: Motion of a particle under gravitational force, inertial and gravitational mass, gravitational potential, and fields due to a spherical shell and a solid sphere. 12 II System of particles: Dynamics of a system of particles subject to external forces, Centre of mass, laboratory frame and centre of mass frame, conservation of linear and angular momenta; elastic and inelastic collision in one and two dimensions. 10 III Damped and Forced Oscillation: Simple and compound pendulum, Damped oscillator, Energy and Q-factor, Forced oscillations (one degree of freedom), condition of resonance; Ballistic Galvanometer. 7 IV Elastic properties: Modulus of rigidity, Poisson ratio, relation between elastic constants, twisting couple of cylinders (hollow and solid), statical and dynamical methods for determination of modulus of rigidity, Bending of beams. 9 V Fluid Dynamics: Bernoulli's theorem, equation of continuity, streamline and turbulent flow (Reynolds number), surface tension and surface energy, viscosity and Poiseuille’s equation. 7 Texts / References",
+            "Physics Part –1: Resnick and Halliday",
+            "Mechanics: D. S. Mathur",
+            "Mechanics: J. C. Upadhyay",
+            "Mechanics: H. S. Hans and S. P. Puri",
+            "A Treatise on General Properties of Matter: Sengupta and Chatterjee"
           ]
         },
         {
@@ -1099,6 +1360,14 @@
               "unit": 1,
               "topics": "1 PHY-Minor [PHYMN71 to PHYMJ78] [Any one from the major elective courses from PHYMJ81 to PHYMJ88 + one unit of lab(1)]* 3+1 * Students may opt any four credit course from Online SWAYAM courses approved by the Department. Total Credits 20 Note: (1) In Semester VII, half of the students will perform Physics Lab. A experiments (3 credits) and other half will perform Physics Lab. B experiment (3 credits). (2) In Semester VIII, remaining half of the students will perform Physics Lab. B experiments (3 credits) and other half will perform Physics Lab. A experiment (3 credits). Research Students VII-R Same as VII-H [PHYMJ7R1 to PHYMJ7R8] VIII-R"
             }
+          ],
+          "suggested_books": [
+            "Inertial and non-inertial frames, Transformation equations (Inclined and Rotating frames), Centrifugal and Coriolis force, Effect of centrifugal and Coriolis force due to earth rotation. Gravitation: Motion of a particle under gravitational force, inertial and gravitational mass, gravitational potential, and fields due to a spherical shell and a solid sphere. 12 II System of particles: Dynamics of a system of particles subject to external forces, Centre of mass, laboratory frame and centre of mass frame, conservation of linear and angular momenta; elastic and inelastic collision in one and two dimensions. 10 III Damped and Forced Oscillation: Simple and compound pendulum, Damped oscillator, Energy and Q-factor, Forced oscillations (one degree of freedom), condition of resonance; Ballistic Galvanometer. 7 IV Elastic properties: Modulus of rigidity, Poisson ratio, relation between elastic constants, twisting couple of cylinders (hollow and solid), statical and dynamical methods for determination of modulus of rigidity, Bending of beams. 9 V Fluid Dynamics: Bernoulli's theorem, equation of continuity, streamline and turbulent flow (Reynolds number), surface tension and surface energy, viscosity and Poiseuille’s equation. 7 Texts / References",
+            "Physics Part –1: Resnick and Halliday",
+            "Mechanics: D. S. Mathur",
+            "Mechanics: J. C. Upadhyay",
+            "Mechanics: H. S. Hans and S. P. Puri",
+            "A Treatise on General Properties of Matter: Sengupta and Chatterjee"
           ]
         },
         {
@@ -1109,24 +1378,31 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Electromagnetic Radiation: Radiation by moving charges, Wave Equation for Scalar and Vector Potentials, Retarded and Lienard Wie’chert Potentials, Electric and Magnetic field due to a uniformly moving charge and an accelerated charge, Linear and circular Acceleration and Angular Distribution of radiated Power, Elementary idea of Bremsstrahlung, Synchrotron Radiation and Cerenkov radiation. 10 570 Course Title"
+              "topics": "Electromagnetic Radiation: Radiation by moving charges, Wave Equation for Scalar and Vector Potentials, Retarded and Lienard Wie’chert Potentials, Electric and Magnetic field due to a uniformly moving charge and an accelerated charge, Linear and circular Acceleration and Angular Distribution of radiated Power, Elementary idea of Bremsstrahlung, Synchrotron Radiation and Cerenkov radiation."
             },
             {
               "unit": 2,
-              "topics": "Dynamics of Charged Particles in E and B Fields: Motion of Charged Particles in electromagnetic Field: Uniform E and B Fields, Non-uniform Fields Diffusion Across Magnetic Fields, Time Varying E and B Fields. 8"
+              "topics": "Dynamics of Charged Particles in E and B Fields: Motion of Charged Particles in electromagnetic Field: Uniform E and B Fields, Non-uniform Fields Diffusion Across Magnetic Fields, Time Varying E and B Fields."
             },
             {
               "unit": 3,
-              "topics": "Electrodynamics in Four vector notation: Four vectors and tensors, Electromagnetic field Tensor in Four dimensions and Maxwell’s Equations, Dual Field Tensor, Covariance of Maxwell’s equations. 5"
+              "topics": "Electrodynamics in Four vector notation: Four vectors and tensors, Electromagnetic field Tensor in Four dimensions and Maxwell’s Equations, Dual Field Tensor, Covariance of Maxwell’s equations."
             },
             {
               "unit": 4,
-              "topics": "Basics in Plasma Physics: Elementary Concepts: Plasma Oscillations, Debye Shielding, Plasma Parameters, Magneto-plasma, Plasma Confinement, First, Second, and Third Adiabatic Invariants (Pinch Effect, Magnetic Mirrors), Formation of Van Allen radiation belt. 8"
+              "topics": "Basics in Plasma Physics: Elementary Concepts: Plasma Oscillations, Debye Shielding, Plasma Parameters, Magneto-plasma, Plasma Confinement, First, Second, and Third Adiabatic Invariants (Pinch Effect, Magnetic Mirrors), Formation of Van Allen radiation belt."
             },
             {
               "unit": 5,
-              "topics": "MHD and waves in Plasma: Fundamental magneto-hydrodynamics (MHD) equations, MHD Waves: Magneto-sonic and Alfven Waves, Magneto-convection. Phase Velocity, Group Velocity, Cut-offs, Resonance for Electromagnetic Wave Propagating Parallel and Perpendicular to the Magnetic Field. 14 Texts /"
+              "topics": "MHD and waves in Plasma: Fundamental magneto-hydrodynamics (MHD) equations, MHD Waves: Magneto-sonic and Alfven Waves, Magneto-convection. Phase Velocity, Group Velocity, Cut-offs, Resonance for Electromagnetic Wave Propagating Parallel and Perpendicular to the Magnetic Field."
             }
+          ],
+          "suggested_books": [
+            "Classical Electrodynamics: J.D. Jackson.",
+            "Classical Electricity and Magnetism: W.K.H. Panofsky and M. Phillips.",
+            "Fundamentals of Plasma Physics: J. A. Bittencourt.",
+            "Principles of plasma physics: N. A. Krall, A. W. Trivelpiece",
+            "Introduction to Plasma Physics and Controlled Fusion: F.F. Chen."
           ]
         },
         {
@@ -1137,16 +1413,24 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Approximation Methods: Semi-classical theory of radiation: dipole approximation, selection rules, atomic transitions; WKB method, Bohr-Sommerfeld quantization; application to spherically symmetric potentials; tunneling amplitudes (optional); Adiabatic approximation: Berry-Pancharatnam phase, (Ehernberg-Siday) Aharonov- Bohm effect. 18 571 Course Title"
+              "topics": "Approximation Methods: Semi-classical theory of radiation: dipole approximation, selection rules, atomic transitions; WKB method, Bohr-Sommerfeld quantization; application to spherically symmetric potentials; tunneling amplitudes (optional); Adiabatic approximation: Berry-Pancharatnam phase, (Ehernberg-Siday) Aharonov- Bohm effect."
             },
             {
               "unit": 2,
-              "topics": "Foundations of Quantum Information Theory: Postulates of quantum mechanics; concepts of quantum superposition and qubits, Bloch sphere representation; quantum measurement; unitary operators and quantum gates, quantum circuits and their representation; entanglement and its properties, von-Neumann entropy and its properties; teleportation, quantum dense coding, quantum algorithms. 16"
+              "topics": "Foundations of Quantum Information Theory: Postulates of quantum mechanics; concepts of quantum superposition and qubits, Bloch sphere representation; quantum measurement; unitary operators and quantum gates, quantum circuits and their representation; entanglement and its properties, von-Neumann entropy and its properties; teleportation, quantum dense coding, quantum algorithms."
             },
             {
               "unit": 3,
-              "topics": "Relativistic Wave-equations: Klein-Gordon equation and its limitations; Dirac equation, probability current density; negative energy solutions, Feynman- Stuckelberg interpretation; spinor solutions for a free particle; Dirac equation in four vector notations, coupling with electromagnetic field. 11 Texts /"
+              "topics": "Relativistic Wave-equations: Klein-Gordon equation and its limitations; Dirac equation, probability current density; negative energy solutions, Feynman- Stuckelberg interpretation; spinor solutions for a free particle; Dirac equation in four vector notations, coupling with electromagnetic field."
             }
+          ],
+          "suggested_books": [
+            "A Text-book of Quantum Mechanics: P.M. Mathews and K. Venkatesan",
+            "Principles of Quantum Mechanic: R. Shankar",
+            "Modern Quantum Mechanics: J.J. Sakurai",
+            "Quantum Computation and Quantum Information: M. A. Nielsen and I. L. Chuang",
+            "Quantum Information : An Introduction : M. Hayashi",
+            "Relativistic Quantum Mechanics: J.D. Bjorken and S.D. Drell"
           ]
         },
         {
@@ -1161,16 +1445,24 @@
             },
             {
               "unit": 2,
-              "topics": "Photonic Crystals and Band gap Engineering: Introduction to photonic crystals and periodic structures. Photonic band gap engineering and applications, Photonic crystal fibers and waveguides. Integrated Optics and Waveguide Devices: Basics of integrated optics and waveguide theory, On-chip integrated optical components (AWGs, MMI couplers, etc.), Silicon photonics and its applications. 14"
+              "topics": "Photonic Crystals and Band gap Engineering: Introduction to photonic crystals and periodic structures. Photonic band gap engineering and applications, Photonic crystal fibers and waveguides. Integrated Optics and Waveguide Devices: Basics of integrated optics and waveguide theory, On-chip integrated optical components (AWGs, MMI couplers, etc.), Silicon photonics and its applications."
             },
             {
               "unit": 3,
-              "topics": "Photonic Sensors and Sensing Techniques: Principles of photonic sensors and transducers, Fiber optic sensors (temperature, pressure, strain, etc.), Biosensors and biomedical applications. Surface Plasmon Resonance (SPR) Sensing: Introduction to SPR and surface plasmons, SPR sensing principles and applications, Biochemical and environmental sensing using SPR. 09"
+              "topics": "Photonic Sensors and Sensing Techniques: Principles of photonic sensors and transducers, Fiber optic sensors (temperature, pressure, strain, etc.), Biosensors and biomedical applications. Surface Plasmon Resonance (SPR) Sensing: Introduction to SPR and surface plasmons, SPR sensing principles and applications, Biochemical and environmental sensing using SPR."
             },
             {
               "unit": 4,
-              "topics": "Optical Networks and Optical Fiber Waveguides: Fundamentals of optical networks and architectures, Wavelength Division Multiplexing (WDM) and Dense WDM (DWDM), Optical fiber waveguide modes and propagation. Optical Time Domain Reflectometer (OTDR) and Fiber Characterization: Principles and operation of OTDR, Fiber characterization, attenuation measurement, and fault localization, Practical exercises with OTDR equipment 16 Texts /"
+              "topics": "Optical Networks and Optical Fiber Waveguides: Fundamentals of optical networks and architectures, Wavelength Division Multiplexing (WDM) and Dense WDM (DWDM), Optical fiber waveguide modes and propagation. Optical Time Domain Reflectometer (OTDR) and Fiber Characterization: Principles and operation of OTDR, Fiber characterization, attenuation measurement, and fault localization, Practical exercises with OTDR equipment"
             }
+          ],
+          "suggested_books": [
+            "Reference Books:",
+            "Introduction to Fiber Optics\" by A. Ghatak and K. Thyagarajan",
+            "Fiber Optics and Optoelectronics\" by R. K. Shevgaonkar",
+            "Optical Fiber Communications\" by Gerd Keiser",
+            "Fiber Optic Communications: Principles and Practice\" by Rajiv Ramaswami and Kumar N. Sivarajan",
+            "Understanding Fiber Optics\" by Jeff Hecht"
           ]
         },
         {
@@ -1181,24 +1473,31 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Semiclassical transport theory: Semiclassical Wave Packets, Wave-Packet Dynamics in Bloch Bands, Dynamics in uniform magnetic fields, Quantum Oscillations, The Boltzmann Transport Equation, Thermal Transport and Thermoelectric Effects. 12 573 Course Title"
+              "topics": "Semiclassical transport theory: Semiclassical Wave Packets, Wave-Packet Dynamics in Bloch Bands, Dynamics in uniform magnetic fields, Quantum Oscillations, The Boltzmann Transport Equation, Thermal Transport and Thermoelectric Effects."
             },
             {
               "unit": 2,
-              "topics": "Fundamentals of the many-electron system: Hartree-Fock theory, screening. Thomas-Fermi theory. 08"
+              "topics": "Fundamentals of the many-electron system: Hartree-Fock theory, screening. Thomas-Fermi theory."
             },
             {
               "unit": 3,
-              "topics": "Superconductors: Basic phenomenology and thermodynamics of superconductors, London-theory, Ginzburg-Landau theory, coherence length and penetration depth, type-I and type-II superconductor, lower and upper critical field, the Josephson junction, Cooper’s problem, BCS theory. 12"
+              "topics": "Superconductors: Basic phenomenology and thermodynamics of superconductors, London-theory, Ginzburg-Landau theory, coherence length and penetration depth, type-I and type-II superconductor, lower and upper critical field, the Josephson junction, Cooper’s problem, BCS theory."
             },
             {
               "unit": 4,
-              "topics": "Quantum Hall Effect: Landau levels, Integer quantum hall effect. 05"
+              "topics": "Quantum Hall Effect: Landau levels, Integer quantum hall effect."
             },
             {
               "unit": 5,
-              "topics": "Magnetism: Spin-spin interaction, Heisenberg model (ferromagnetism and anti- ferromagnetism), Holstein–Primakoff theory, spin-wave excitation. 08 Texts /"
+              "topics": "Magnetism: Spin-spin interaction, Heisenberg model (ferromagnetism and anti- ferromagnetism), Holstein–Primakoff theory, spin-wave excitation."
             }
+          ],
+          "suggested_books": [
+            "N. Ashcroft and N. Mermin, Solid State Physics.",
+            "Charles Kittel , Introduction to Solid State Physics.",
+            "Charles Kittel, Quantum Theory of Solids.",
+            "S. M. Girvin, K. Yang, Modern Condensed Matter Physics.",
+            "Michael Tinkham, Introduction to Superconductivity."
           ]
         },
         {
@@ -1209,24 +1508,33 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Optical/Absorption Spectroscopy: Introduction of UV Visible Spectroscopy, Different Types of Transitions, Principles of UV Visible Spectroscopy, Instrumentation of UV Visible Spectroscopy and Source of Light, The Beer-Lambert Law (and deviations from it), Empirical rules for calculating absorption maxima, Shifts in absorption maxima, Applications of UV-Visible Spectroscopy in nano, and bio materials. 11 574 Course Title"
+              "topics": "Optical/Absorption Spectroscopy: Introduction of UV Visible Spectroscopy, Different Types of Transitions, Principles of UV Visible Spectroscopy, Instrumentation of UV Visible Spectroscopy and Source of Light, The Beer-Lambert Law (and deviations from it), Empirical rules for calculating absorption maxima, Shifts in absorption maxima, Applications of UV-Visible Spectroscopy in nano, and bio materials."
             },
             {
               "unit": 2,
-              "topics": "Fluorescence spectroscopy Introduction to fluorescence: Electronic transition, Energy of electronic transition, Selection rules, The Franck Condon principle, Jablonski diagram, Instrumentation for Fluorescence Spectroscopy, Solvent and Environmental Effects, Time-Domain Lifetime Measurements, Fluorescence Quenching, Fluorescence Anisotropy, Excited state phenomena: Energy Transfer and Proton Transfer, Applications of Fluorescence spectroscopy in nano, and bio materials. 11"
+              "topics": "Fluorescence spectroscopy Introduction to fluorescence: Electronic transition, Energy of electronic transition, Selection rules, The Franck Condon principle, Jablonski diagram, Instrumentation for Fluorescence Spectroscopy, Solvent and Environmental Effects, Time-Domain Lifetime Measurements, Fluorescence Quenching, Fluorescence Anisotropy, Excited state phenomena: Energy Transfer and Proton Transfer, Applications of Fluorescence spectroscopy in nano, and bio materials."
             },
             {
               "unit": 3,
-              "topics": "IR Spectroscopy Basic idea of molecular vibrations, Instrumentation and working principle and IR and FT-IR spectrometers, Various IR sources, Detectors, and Monochromators, Applications of IR spectroscopy in chemical identification and materials characterization. 8"
+              "topics": "IR Spectroscopy Basic idea of molecular vibrations, Instrumentation and working principle and IR and FT-IR spectrometers, Various IR sources, Detectors, and Monochromators, Applications of IR spectroscopy in chemical identification and materials characterization."
             },
             {
               "unit": 4,
-              "topics": "Raman Spectroscopy Basic idea of Rotational, vibrational and electronic Raman Spectroscopy, Effect of polarisation on Raman spectra, Instrumentation for Raman Spectroscopy, Principle of Surface-Enhanced Raman Spectroscopy (SERS), Surface selection rules, SERS substrates, Applications of Raman spectroscopy in nanomaterials, biomaterials, medicine, and forensic science 10"
+              "topics": "Raman Spectroscopy Basic idea of Rotational, vibrational and electronic Raman Spectroscopy, Effect of polarisation on Raman spectra, Instrumentation for Raman Spectroscopy, Principle of Surface-Enhanced Raman Spectroscopy (SERS), Surface selection rules, SERS substrates, Applications of Raman spectroscopy in nanomaterials, biomaterials, medicine, and forensic science"
             },
             {
               "unit": 5,
-              "topics": "Spectroscopic calculations using Density Functional Theory: Structure optimization, Deducing IR, Raman, and electronic transitions 5 Texts /"
+              "topics": "Spectroscopic calculations using Density Functional Theory: Structure optimization, Deducing IR, Raman, and electronic transitions"
             }
+          ],
+          "suggested_books": [
+            "C. N. Banwell and E. M. McCash, Fundamentals of Molecular Spectroscopy, McGraw Hill",
+            "Principles of Fluorescence Spectroscopy by J R Lakowicz (Springer publication).",
+            "Optical Spectroscopy: Fundamentals And Advanced Applications by EmilRoduner, Katharina Kress, Patricia B. C. Forbes, TjaartKrüger",
+            "J. R. Ferraro, K. Nakamoto and C. W. Brown, Introductory Raman Spectroscopy, Academic Press, San Diego, 2003",
+            "J. Laane, Ed., Frontiers of Molecular spectroscopy, Elsevier, 2009",
+            "Ira N. Levine Quantum Chemistry, 7e, Pearson",
+            "Peter Atkins, and Ronald Friedman, Molecular Quantum Mechanics, OXFORD"
           ]
         },
         {
@@ -1237,16 +1545,25 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Relativistic Kinematics: Four-vectors and Lorentz transformations; Lorentz covariance; Mandelstam variables, kinematics of decays and cross section; deep inelastic scattering, parton model, Bjorken scaling. 12 575 Course Title"
+              "topics": "Relativistic Kinematics: Four-vectors and Lorentz transformations; Lorentz covariance; Mandelstam variables, kinematics of decays and cross section; deep inelastic scattering, parton model, Bjorken scaling."
             },
             {
               "unit": 2,
-              "topics": "QED and Electroweak theory: Brief introduction to QED and Feynman rules (without derivation), gauge invariance, cross section calculations (e.g. electron-muon scattering); Weak interactions and weak decays; Fermi’s theory of weak interactions; Ideas of spontaneous symmetry breaking, Higgs mechanism and electro-weak unification. 15"
+              "topics": "QED and Electroweak theory: Brief introduction to QED and Feynman rules (without derivation), gauge invariance, cross section calculations (e.g. electron-muon scattering); Weak interactions and weak decays; Fermi’s theory of weak interactions; Ideas of spontaneous symmetry breaking, Higgs mechanism and electro-weak unification."
             },
             {
               "unit": 3,
-              "topics": "High-Energy Experiments: Particle accelerators: Linear and circular accelerators, general concept of designing a high energy experiment, coverage and option.; Passage of charged particles through matter, Energy loss curve - Bethe Bloch equation Particle detection: Gaseous and semiconductor detectors; tracking and Calorimetry, shower generation; a general purpose detector. Data analysis: Simulation, calibration, track reconstruction, reconstruction of events, Error analysis. 18 Texts /"
+              "topics": "High-Energy Experiments: Particle accelerators: Linear and circular accelerators, general concept of designing a high energy experiment, coverage and option.; Passage of charged particles through matter, Energy loss curve - Bethe Bloch equation Particle detection: Gaseous and semiconductor detectors; tracking and Calorimetry, shower generation; a general purpose detector. Data analysis: Simulation, calibration, track reconstruction, reconstruction of events, Error analysis."
             }
+          ],
+          "suggested_books": [
+            "Introduction to High Energy Physics: D. H. Perkins",
+            "An introductory course of Particle Physics: P. B. Pal",
+            "Introduction to Elementary Particles: D. J. Griffiths",
+            "Modern Particle Physics: M. Thomson",
+            "Techniques for nuclear and particle physics experiments: W. R. Leo",
+            "Experimental Techniques in High Energy Nuclear and Particle physics: T. Ferbel",
+            "Radiation detection and measurement: G. F. Knoll"
           ]
         },
         {
@@ -1257,24 +1574,31 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Interiors of Stars – Hydrostatic Equilibrium, The Virial Theorem, Equation of state, Stellar Energy Sources, Energy Transport including theory of radiative transport, convective transport, Schwarzschild criterion and Thermodynamics, Properties of stellar material , Opacity, Solar interior and Sun’s atmosphere, Stellar Model Building 8 576 Course Title"
+              "topics": "Interiors of Stars – Hydrostatic Equilibrium, The Virial Theorem, Equation of state, Stellar Energy Sources, Energy Transport including theory of radiative transport, convective transport, Schwarzschild criterion and Thermodynamics, Properties of stellar material , Opacity, Solar interior and Sun’s atmosphere, Stellar Model Building"
             },
             {
               "unit": 2,
-              "topics": "The Interstellar Medium and Star Formation - Interstellar Dust and Gas, The Formation of Protostars, Jeans Criterion, Fragmentation of Collapsing Clouds, Physics of Shock Waves, Pre-Main-Sequence Evolution, Hayashi Phase (Hayashi Line), Nucleosynthesis, Main Sequence and Post-Main-Sequence Stellar Evolution, Evolution on the Main Sequence, Late Stages of Stellar Evolution, Binary Stars, Stellar Clusters 10"
+              "topics": "The Interstellar Medium and Star Formation - Interstellar Dust and Gas, The Formation of Protostars, Jeans Criterion, Fragmentation of Collapsing Clouds, Physics of Shock Waves, Pre-Main-Sequence Evolution, Hayashi Phase (Hayashi Line), Nucleosynthesis, Main Sequence and Post-Main-Sequence Stellar Evolution, Evolution on the Main Sequence, Late Stages of Stellar Evolution, Binary Stars, Stellar Clusters"
             },
             {
               "unit": 3,
-              "topics": "Post-Main-Sequence Evolution of Massive Stars – The Classification of Supernovae, Core-Collapse Supernovae, Gamma-Ray Bursts, Cosmic Rays, 05"
+              "topics": "Post-Main-Sequence Evolution of Massive Stars – The Classification of Supernovae, Core-Collapse Supernovae, Gamma-Ray Bursts, Cosmic Rays,"
             },
             {
               "unit": 4,
-              "topics": "The Degenerate Remnants of Stars – The Discovery of Sirius B, White Dwarfs, The Physics of Degenerate Matter, The Chandrasekhar Limit, The Cooling of White Dwarfs, Supernova, Neutron Stars, Density and Equation of State, Models, Pulsars, Pulsar Glitch, Black Holes, Area Theorem, Hawking radiation, Mass-Luminosity relation 14"
+              "topics": "The Degenerate Remnants of Stars – The Discovery of Sirius B, White Dwarfs, The Physics of Degenerate Matter, The Chandrasekhar Limit, The Cooling of White Dwarfs, Supernova, Neutron Stars, Density and Equation of State, Models, Pulsars, Pulsar Glitch, Black Holes, Area Theorem, Hawking radiation, Mass-Luminosity relation"
             },
             {
               "unit": 5,
-              "topics": "The Milky Way, The Nature of Galaxies – The Hubble Sequence, Spirals and Irregular Galaxies, Spiral Structure, Elliptical Galaxies, Galactic Evolution, Expanding universe, Interactions of Galaxies, The Formation of Galaxies, Rotation curve for galaxies, Dark Matter, Dark Energy, Gravitational Waves 08 Texts /"
+              "topics": "The Milky Way, The Nature of Galaxies – The Hubble Sequence, Spirals and Irregular Galaxies, Spiral Structure, Elliptical Galaxies, Galactic Evolution, Expanding universe, Interactions of Galaxies, The Formation of Galaxies, Rotation curve for galaxies, Dark Matter, Dark Energy, Gravitational Waves"
             }
+          ],
+          "suggested_books": [
+            "An Introduction to Modern Astrophysics, BW Carroll & DA Ostlie, Pearson",
+            "Introduction to Stellar Astrophysics Volumes I, II and III, Erika Bohm-Vitense, Cambridge University Press",
+            "An Introduction to the Theory of Stellar Structure and Evolution, D. Prialnik, Cambridge University Press",
+            "The Physical Universe, F. Shu, University Science Books",
+            "Theoretical Astrophysics, Volumes I, II and III, T. Padmanabhan, Cambridge University Press"
           ]
         },
         {
@@ -1287,6 +1611,14 @@
               "unit": 1,
               "topics": "OR"
             }
+          ],
+          "suggested_books": [
+            "Inertial and non-inertial frames, Transformation equations (Inclined and Rotating frames), Centrifugal and Coriolis force, Effect of centrifugal and Coriolis force due to earth rotation. Gravitation: Motion of a particle under gravitational force, inertial and gravitational mass, gravitational potential, and fields due to a spherical shell and a solid sphere. 12 II System of particles: Dynamics of a system of particles subject to external forces, Centre of mass, laboratory frame and centre of mass frame, conservation of linear and angular momenta; elastic and inelastic collision in one and two dimensions. 10 III Damped and Forced Oscillation: Simple and compound pendulum, Damped oscillator, Energy and Q-factor, Forced oscillations (one degree of freedom), condition of resonance; Ballistic Galvanometer. 7 IV Elastic properties: Modulus of rigidity, Poisson ratio, relation between elastic constants, twisting couple of cylinders (hollow and solid), statical and dynamical methods for determination of modulus of rigidity, Bending of beams. 9 V Fluid Dynamics: Bernoulli's theorem, equation of continuity, streamline and turbulent flow (Reynolds number), surface tension and surface energy, viscosity and Poiseuille’s equation. 7 Texts / References",
+            "Physics Part –1: Resnick and Halliday",
+            "Mechanics: D. S. Mathur",
+            "Mechanics: J. C. Upadhyay",
+            "Mechanics: H. S. Hans and S. P. Puri",
+            "A Treatise on General Properties of Matter: Sengupta and Chatterjee"
           ]
         },
         {
@@ -1297,16 +1629,21 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Introduction Definition of research, Types of research, Experimental, theoretical and interdisciplinary research; Experimental lab protocol: Lab Record or Log Book, Lab-safety, Lab waste management; Intellectual Property Rights: citation and assignation of proper credit. Ethical issues in research – data falsification, plagiarism and other forms of scientific misconduct. 7 578 Course Title"
+              "topics": "Introduction Definition of research, Types of research, Experimental, theoretical and interdisciplinary research; Experimental lab protocol: Lab Record or Log Book, Lab-safety, Lab waste management; Intellectual Property Rights: citation and assignation of proper credit. Ethical issues in research – data falsification, plagiarism and other forms of scientific misconduct."
             },
             {
               "unit": 2,
-              "topics": "Literature search and review Importance of conducting literature review, Information sources: libraries, databases, search engines and keywords, styles of referencing, making case studies. 4"
+              "topics": "Literature search and review Importance of conducting literature review, Information sources: libraries, databases, search engines and keywords, styles of referencing, making case studies."
             },
             {
               "unit": 3,
               "topics": "Critical scientific reading Types of research articles- primary, secondary and special articles; Structure of a research article: abstract, introduction, methodology, results and"
             }
+          ],
+          "suggested_books": [
+            "RESEARCH METHODOLOGY by S. Rajasekar, P. Philominathan, V. Chinnathambihttps://arxiv.org/abs/physics/0601009",
+            "Research Method for Science by Michael. P. Marder (Cambridge University Press) https://doi.org/10.1017/CBO9781139035118",
+            "Research Methodology and Scientific Writing by. C.G. Thomas (Springer) https://doi.org/10.1007/978-3-030-64865-7"
           ]
         },
         {
@@ -1321,19 +1658,19 @@
             },
             {
               "unit": 2,
-              "topics": "Data analysis Quantitative and qualitative methods of data analyses, Representing data: tables, charts, 2D and 3D graphs, polar plots; Curve fitting (Regression Analysis); Least square Fit to a Straight line, error estimation of the fitted parameters, limitations of the least square method, Goodness of a fit Error Analysis: Instrumental and Statistical Uncertainties, Propagation of Errors, Application of Error Equations, Statistical Fluctuations: confidence levels. 6"
+              "topics": "Data analysis Quantitative and qualitative methods of data analyses, Representing data: tables, charts, 2D and 3D graphs, polar plots; Curve fitting (Regression Analysis); Least square Fit to a Straight line, error estimation of the fitted parameters, limitations of the least square method, Goodness of a fit Error Analysis: Instrumental and Statistical Uncertainties, Propagation of Errors, Application of Error Equations, Statistical Fluctuations: confidence levels."
             },
             {
               "unit": 3,
-              "topics": "Introduction to theoretical research techniques Deciding the accuracy level of a calculation, iterative methods, use of computer algebra, numerical computation and simulation, consistency checks, application to DFT, MD, quantum field theoretic calculations 10"
+              "topics": "Introduction to theoretical research techniques Deciding the accuracy level of a calculation, iterative methods, use of computer algebra, numerical computation and simulation, consistency checks, application to DFT, MD, quantum field theoretic calculations"
             },
             {
               "unit": 4,
-              "topics": "Introduction to experimental research techniques X-ray diffraction, Optical Microscopy, Scanning Electron Microscopy, Transmission electron Microscopy, Fluorescence Spectroscopy, Raman spectroscopy, X-ray photoelectron spectroscopy, observing multi-messengers from the Universe, particle detection and identification. 10"
+              "topics": "Introduction to experimental research techniques X-ray diffraction, Optical Microscopy, Scanning Electron Microscopy, Transmission electron Microscopy, Fluorescence Spectroscopy, Raman spectroscopy, X-ray photoelectron spectroscopy, observing multi-messengers from the Universe, particle detection and identification."
             },
             {
               "unit": 5,
-              "topics": "Methods in scientific thinking Scientific thinking and objectivity, Correspondence principle, Occam’s razor, Eliminating social, economic and religious bias in scientific thinking, the importance of reproducibility in science. 2 Texts /"
+              "topics": "Methods in scientific thinking Scientific thinking and objectivity, Correspondence principle, Occam’s razor, Eliminating social, economic and religious bias in scientific thinking, the importance of reproducibility in science."
             }
           ]
         }

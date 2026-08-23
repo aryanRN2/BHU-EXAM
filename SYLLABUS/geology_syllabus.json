@@ -18,16 +18,22 @@
             },
             {
               "unit": 2,
-              "topics": "Plate tectonics; Geological time scale; Mass extinction; Ice ages 10"
+              "topics": "Plate tectonics; Geological time scale; Mass extinction; Ice ages"
             },
             {
               "unit": 3,
-              "topics": "Introduction and origin of the solar system; Structure and composition of the earth. 10"
+              "topics": "Introduction and origin of the solar system; Structure and composition of the earth."
             },
             {
               "unit": 4,
-              "topics": "Basics of geological structures: bedding, fold and fault 15 Texts /"
+              "topics": "Basics of geological structures: bedding, fold and fault"
             }
+          ],
+          "suggested_books": [
+            "Holmes, A. (1987): Principles of Physical Geology. Nelson, New York, 3rd edition.",
+            "Singh, S. (2003): Physical Geography (English and Hindi editions). PrayagPustakBhawan, Allahabad.",
+            "Hills, E. S. (1963): Elements of Structural Geology. Farrold and Sons, London.",
+            "Billings, M. P. (1972): Structural Geology. Prentice Hall."
           ]
         },
         {
@@ -38,20 +44,28 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Earth as a planet, its origin, size, shape, mass, density, rotational and revolutional parameters. The internal constitution of the earth, core, mantle, and crust; Overall composition of the Earth and comparison to other planetary bodies. 10 221 Course Title"
+              "topics": "Earth as a planet, its origin, size, shape, mass, density, rotational and revolutional parameters. The internal constitution of the earth, core, mantle, and crust; Overall composition of the Earth and comparison to other planetary bodies."
             },
             {
               "unit": 2,
-              "topics": "Catastrophism, Neptunism, Plutonism, Uniformitarianism, law of superposition, law of faunal succession, and law of original horizontality. Origin and evolution of atmosphere, hydrosphere and biosphere. Weathering, Erosion, and Mass wasting- processes and types. 10"
+              "topics": "Catastrophism, Neptunism, Plutonism, Uniformitarianism, law of superposition, law of faunal succession, and law of original horizontality. Origin and evolution of atmosphere, hydrosphere and biosphere. Weathering, Erosion, and Mass wasting- processes and types."
             },
             {
               "unit": 3,
-              "topics": "Earthquakes & distribution of earthquake belts; Volcanoes, its types& distribution of volcanic belts on Earth; Geological time scale; Major events in the earth’s history through Geological time, Age of the Earth & basic idea on dating. 10"
+              "topics": "Earthquakes & distribution of earthquake belts; Volcanoes, its types& distribution of volcanic belts on Earth; Geological time scale; Major events in the earth’s history through Geological time, Age of the Earth & basic idea on dating."
             },
             {
               "unit": 4,
-              "topics": "Introduction to planar and linear structures; Identification of primary structures, and secondary structures, folds, faults, and joints. Measurements of the orientation of planar and linear structures, strike, dip, pitch, and plunge. 15 Texts /"
+              "topics": "Introduction to planar and linear structures; Identification of primary structures, and secondary structures, folds, faults, and joints. Measurements of the orientation of planar and linear structures, strike, dip, pitch, and plunge."
             }
+          ],
+          "suggested_books": [
+            "Holmes, A. (1992): Principles of Physical Geology, Vol.1, Chapman and Hall, London.",
+            "H. H. Read and J. Watson (1961).Introduction to Geology, Vol.1. Macmillan.",
+            "Grotzinger,J.,Jordan,T.H.,Press,F.,&Siever,R.(2010).Understanding Earth. Macmillan Higher Education.",
+            "Billings, M.P.(2016):Structural Geology, Pearson.",
+            "Park, R. G.(2017):Foundations of Structural Geology. Routledge.",
+            "Lisle, R.J.(2004):Geological Structures and Maps: A Practical Guide, Third edition. Elsevier"
           ]
         },
         {
@@ -62,8 +76,15 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1"
+              "topics": ""
             }
+          ],
+          "suggested_books": [
+            "Leet, L.D. and Judson, S.(1969): Physical Geology, Prentice Hall., Read, H.H. (1993) Introduction to Geology,",
+            "Billings, M.P.(2016):Structural Geology, Pearson.",
+            "Murck, B.W., & Skinner, B.J.(2015).Visualizing geology. John Wiley& Sons.",
+            "Lisle, R.J.(2004):Geological Structures and Maps: A Practical Guide, Third edition. Elsevier",
+            "Compton, R.A. (1985): Geology in the Field, John Wiley and Sons."
           ]
         },
         {
@@ -74,20 +95,30 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Fundamentals of operating systems in smartphone, Geology Apps, AI Tools, ChatGPT, IoT, Multimedia Tools, Social media Apps for geology. MS Office Automation for report writing and presentation. 10 223 Course Title"
+              "topics": "Fundamentals of operating systems in smartphone, Geology Apps, AI Tools, ChatGPT, IoT, Multimedia Tools, Social media Apps for geology. MS Office Automation for report writing and presentation."
             },
             {
               "unit": 2,
-              "topics": "Smartphone assisted geological fieldwork, orientation of digital maps in field, marking location in digital map, bearing (front and back) using smartphone. GPS App, NAVIC, Digital Compass App. 10"
+              "topics": "Smartphone assisted geological fieldwork, orientation of digital maps in field, marking location in digital map, bearing (front and back) using smartphone. GPS App, NAVIC, Digital Compass App."
             },
             {
               "unit": 3,
-              "topics": "Basic field measurement techniques using smartphone: Bedding dip and strike, Litholog measurement with smartphone, Development of digital catalogue with credentials of rock types, structures and texture of rocks, use of smartphone lens in field. 05"
+              "topics": "Basic field measurement techniques using smartphone: Bedding dip and strike, Litholog measurement with smartphone, Development of digital catalogue with credentials of rock types, structures and texture of rocks, use of smartphone lens in field."
             },
             {
               "unit": 4,
-              "topics": "Digital reading contours and topography using smartphone, Google Earth, Google Map, Bhuvan. Concepts of digital map reading, Distance, height, elevation and place approximation. 05 Texts /"
+              "topics": "Digital reading contours and topography using smartphone, Google Earth, Google Map, Bhuvan. Concepts of digital map reading, Distance, height, elevation and place approximation."
             }
+          ],
+          "suggested_books": [
+            "ElizabethWoyke(2014)TheSmartphone:AnatomyofanIndustry.TheNewPress",
+            "Daniel Miller, et al.,(2021) The Global Smartphone: Beyond a Youth Technology. UCL Press, pp1-295.",
+            "Sujit Kumar Mishra (2020)Fundamentals of Android App Development. BPB Publications.",
+            "Francisco Yus (2022) Smart phone Communication: Interactions in the App Ecosystem. Rout ledge is an imprint of the Taylor & Francis Group, pp1-318.",
+            "Michael J. Jipping (2020) Smartphone Operating System Concepts with Symbian OS: A Tutorial Guide. John Wiley & Sons, Ltd., England, pp 1-338.",
+            "Jeff McWherter and Scott Gowell (2012) Professional Mobile Application Development. John Wiley & Sons Inc.",
+            "Mike James (1984) Artificial Intelligence in BASIC. Newnes Technical Books, Butter worth & Co Publishers Ltd., pp 1-124.",
+            "Ahmed El- Rabbany (2007) Introduction to GPS: The Global Positioning System. Artech House, London, pp 1-176."
           ]
         },
         {
@@ -98,20 +129,30 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Application digital apps using smartphone, measurements in open playground using digital GPS & NAVIC systems apps, 10 224 Course Title"
+              "topics": "Application digital apps using smartphone, measurements in open playground using digital GPS & NAVIC systems apps,"
             },
             {
               "unit": 2,
-              "topics": "Geological Field Training with smartphone, 10"
+              "topics": "Geological Field Training with smartphone,"
             },
             {
               "unit": 3,
-              "topics": "Multimedia Tools, Social media Apps for geology. 5"
+              "topics": "Multimedia Tools, Social media Apps for geology."
             },
             {
               "unit": 4,
-              "topics": "Content Writing and Presentation using AI Tools. 5 Texts /"
+              "topics": "Content Writing and Presentation using AI Tools."
             }
+          ],
+          "suggested_books": [
+            "Indian Space Research Organisation (ISRO): https://www.isro.gov.in.",
+            "ISRO-NRSC (2023) BHUVAN-SUVIDHA, DRISHTI: Manual for Field Data Collection using Smartphone application using Android. https://bhuvan.nrsc.gov.in.",
+            "National Aeronautics and Space Administration (NASA): https://www.nasa.gov.",
+            "Introduction: GooESe Earth User Guide. https://earth.gooESe.com.",
+            "Daniel Miller, et al., (2021) The Global Smartphone: Beyond a Youth Technology. UCL Press, pp. 1-295.",
+            "Peggy Anne Salz and Jennifer Moranz (2013) The Everything Guide to Mobile Apps: A Practical Guide to Affordable Mobile App Development for Your Business. PENGUIN.",
+            "Jerome DiMarzio and J DiMarzio (2016) Beginning Android Programming with Android Studio. Wrox Press.",
+            "Cameron Banga and Josh Weinhold (2014) Essential Mobile Interaction Design: Perfecting Interface Design in Mobile Apps. Addison-Wesley Professional."
           ]
         }
       ]
@@ -127,24 +168,34 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Physical division of India; Geological hazards: floods, earthquakes, volcanoes, tsunami, landslides. weathering and erosion, geological work of rivers, wind and Glaciers, 10 228 Course Title"
+              "topics": "Physical division of India; Geological hazards: floods, earthquakes, volcanoes, tsunami, landslides. weathering and erosion, geological work of rivers, wind and Glaciers,"
             },
             {
               "unit": 2,
-              "topics": "Atmosphere: structure and composition; 10"
+              "topics": "Atmosphere: structure and composition;"
             },
             {
               "unit": 3,
-              "topics": "Hydrological cycle; groundwater/watershed management 10"
+              "topics": "Hydrological cycle; groundwater/watershed management"
             },
             {
               "unit": 4,
-              "topics": "Introduction to ocean system. Significance, 10"
+              "topics": "Introduction to ocean system. Significance,"
             },
             {
               "unit": 5,
-              "topics": "Preservation and introduction of geo-heritage sites in India. 05 Texts /"
+              "topics": "Preservation and introduction of geo-heritage sites in India."
             }
+          ],
+          "suggested_books": [
+            "Gautam, A. (2006): Advanced Geography of India, ShardaPustakBhawan, Allahabad.",
+            "Bryant, E. (1985): Natural Hazards, Cambridge University Press.",
+            "Holmes, A. (1987): Principles of Physical Geology. Nelson, New York, 3rd edition.",
+            "Singh, S. (2003): Physical Geography (English and Hindi editions). PrayagPustakBhawan, Allahabad.",
+            "Lal, D. S. (2007): Climatology, ShardaPustakBhawan, Allahabad.",
+            "Strahler, A. N. and Strahler, A. H. (1973): Environmental Geoscience, Hamilton Publishing Co.",
+            "Davies, S. N. and De Wiest, R. J. N. (1966): Hydrogeology, John Wiley & Sons.",
+            "Garrison, T. (1998): Oceanography, Wordsworth Company, Belmont.."
           ]
         },
         {
@@ -155,20 +206,32 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Fundamentals of Mineralogy: Concepts and classification of minerals; mineral forming processes (igneous or magmatism, sedimentation and metamorphism); General physical properties of minerals (color, form, habit, shape, luster, streak, cleavage, fracture, hardness, specific gravity) with other special properties (tenacity, odors/aromas/smells, transparency, hygroscopic, magnetic nature). 10 226 Course Title"
+              "topics": "Fundamentals of Mineralogy: Concepts and classification of minerals; mineral forming processes (igneous or magmatism, sedimentation and metamorphism); General physical properties of minerals (color, form, habit, shape, luster, streak, cleavage, fracture, hardness, specific gravity) with other special properties (tenacity, odors/aromas/smells, transparency, hygroscopic, magnetic nature)."
             },
             {
               "unit": 2,
-              "topics": "Mineralogy: Chemical composition and diagnostic physical properties of rock forming minerals mentioned below: olivine,pyroxene (augite, hypersthene),quartz, feldspar (orthoclase, microcline, albite, labradorite), nepheline, mica (muscovite, biotite), tremolite, hornblende, secondary minerals (serpentine, talc, chlorite, kaolinite), apatite, carbonate (calcite, dolomite),garnet,aluminosilicate (kyanite, sillimanite, andalusite), staurolite, topaz, tourmaline, corundum, gypsum, graphite. 10"
+              "topics": "Mineralogy: Chemical composition and diagnostic physical properties of rock forming minerals mentioned below: olivine,pyroxene (augite, hypersthene),quartz, feldspar (orthoclase, microcline, albite, labradorite), nepheline, mica (muscovite, biotite), tremolite, hornblende, secondary minerals (serpentine, talc, chlorite, kaolinite), apatite, carbonate (calcite, dolomite),garnet,aluminosilicate (kyanite, sillimanite, andalusite), staurolite, topaz, tourmaline, corundum, gypsum, graphite."
             },
             {
               "unit": 3,
-              "topics": "Optical Mineralogy: Nature of light, optics of light, critical angle and total internal reflection, polarization, double refraction, Nicol prism, optically isotropic and anisotropic substances; sample preparation techniques for optical microscopy, polarizing microscope; common optical properties observed under plane polarized light (PPL) and crossed polarized light (CPL/XPL); optical properties of common rock-forming minerals: quartz, feldspar (orthoclase, microcline, plagioclase), garnet, mica (biotite, muscovite), pyroxene (augite, hypersthene), amphibole (hornblende), olivine, and calcite. 15"
+              "topics": "Optical Mineralogy: Nature of light, optics of light, critical angle and total internal reflection, polarization, double refraction, Nicol prism, optically isotropic and anisotropic substances; sample preparation techniques for optical microscopy, polarizing microscope; common optical properties observed under plane polarized light (PPL) and crossed polarized light (CPL/XPL); optical properties of common rock-forming minerals: quartz, feldspar (orthoclase, microcline, plagioclase), garnet, mica (biotite, muscovite), pyroxene (augite, hypersthene), amphibole (hornblende), olivine, and calcite."
             },
             {
               "unit": 4,
-              "topics": "Fundamentals of Crystallography: Crystal, elementary idea of crystal structure; Elements of crystal symmetry; Introduction to different crystals systems;Parts of crystal - face, edge, apex, solid angle and interfacialangle; Crystallographic axes and angles; Parameters and indices; Common crystal forms –Cube, rhombohedron, hexagons, octahedron, dodecahedron,dome, prism,pyramid and pinacoid; 10 Texts /"
+              "topics": "Fundamentals of Crystallography: Crystal, elementary idea of crystal structure; Elements of crystal symmetry; Introduction to different crystals systems;Parts of crystal - face, edge, apex, solid angle and interfacialangle; Crystallographic axes and angles; Parameters and indices; Common crystal forms –Cube, rhombohedron, hexagons, octahedron, dodecahedron,dome, prism,pyramid and pinacoid;"
             }
+          ],
+          "suggested_books": [
+            "Berry, L.G., Mason, B. and Dietrich, R.V. (2004) Mineralogy. CBS Publication.",
+            "Ford, W.E. (2006) Danas Textbook of Mineralogy. CBS Publication.",
+            "Gribble, C.D. (2005) Rutley’s Element of Mineralogy. CBS Publication.",
+            "Dexter Perkins (2015) Mineralogy. Pearson Education India.",
+            "Nesse, D.W. (2016) Optical Mineralogy, McGraw Hill Publication.",
+            "Kerr, P. F. (2014) Optical Mineralogy. McGraw-Hill.",
+            "Verma, P. K. (2010) Optical Mineralogy. Ane Books Pvt Ltd.",
+            "Phillips, F.C (1977) Introduction to Crystallography, Longman Group Publication.",
+            "Sharma, R.S. and Sharma, A. (2013) Crystallography and Mineralogy - Concepts and Methods. Geological society of India, Bengaluru.",
+            "Philpotts, A. and Klein, C. (2012) Earth Materials: Introduction to Mineralogy and Petrology. Cambridge University Press."
           ]
         },
         {
@@ -179,20 +242,29 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Learning of physical properties of minerals in hand specimen Silicates: Olivine, Garnet, Andalusite, Sillimanite, Kyanite, Staurolite, Beryl, Tourmaline, Augite, Actinolite, Tremolite, Hornblende, Serpentine, Talc, Muscovite, Biotite, Phlogopite, Quartz, Orthoclase, Plagioclase, Microcline, Nepheline, Sodalite, Zeolite. 10 227 Course Title"
+              "topics": "Learning of physical properties of minerals in hand specimen Silicates: Olivine, Garnet, Andalusite, Sillimanite, Kyanite, Staurolite, Beryl, Tourmaline, Augite, Actinolite, Tremolite, Hornblende, Serpentine, Talc, Muscovite, Biotite, Phlogopite, Quartz, Orthoclase, Plagioclase, Microcline, Nepheline, Sodalite, Zeolite."
             },
             {
               "unit": 2,
-              "topics": "Sulfides and Oxides of Copper, Sulfur, Graphite, Pyrite, Corundum, Magnetite Hydroxides, Halides, Carbonates, Sulfates, Phosphates: Psilomelane, Fluorite, Calcite, Malachite, Gypsum, Apatite. 10"
+              "topics": "Sulfides and Oxides of Copper, Sulfur, Graphite, Pyrite, Corundum, Magnetite Hydroxides, Halides, Carbonates, Sulfates, Phosphates: Psilomelane, Fluorite, Calcite, Malachite, Gypsum, Apatite."
             },
             {
               "unit": 3,
-              "topics": "Use of polarizing microscope; Study of optical properties of important rock forming minerals. Study of physical properties of minerals mentioned in theory course 5"
+              "topics": "Use of polarizing microscope; Study of optical properties of important rock forming minerals. Study of physical properties of minerals mentioned in theory course"
             },
             {
               "unit": 4,
-              "topics": "Study of elements of symmetry of representative crystals system: isometric, hexagonal, tetragonal, orthorhombic, monoclinic, triclinic 5 Texts /"
+              "topics": "Study of elements of symmetry of representative crystals system: isometric, hexagonal, tetragonal, orthorhombic, monoclinic, triclinic"
             }
+          ],
+          "suggested_books": [
+            "Gribble, C.D. (2005) Rutley’s Element of Mineralogy. CBS Publication.",
+            "Ford, W.E.(2006) Danas Text Book of Mineralogy, CBS Publication.",
+            "Dexter Perkins(2015) Mineralogy. Pearson Education India.",
+            "Nesse, D.W.(2016) Optical Mineralogy, McGraw Hill Publication.",
+            "Kerr, P.F.(2014)Optical Mineralogy. McGraw-Hill.",
+            "Verma, P.K.(2010)Optical Mineralogy. Ane Books PvtLtd.",
+            "Phillips, F.C (1977)Introduction to Crystallography, Longman Group Publication."
           ]
         },
         {
@@ -203,24 +275,32 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Gem and gemstones; General characteristics and chemical composition of gemstones; Physical characteristics - form, cleavage, fracture, hardness, specific gravity, and tenacity. 6 229 Course Title"
+              "topics": "Gem and gemstones; General characteristics and chemical composition of gemstones; Physical characteristics - form, cleavage, fracture, hardness, specific gravity, and tenacity."
             },
             {
               "unit": 2,
-              "topics": "Optical characteristics - colour, luster, the playofcolour, refractive index, reflectivity, diaphaneity pleochroism, dispersion; Classification of gemstones. 6"
+              "topics": "Optical characteristics - colour, luster, the playofcolour, refractive index, reflectivity, diaphaneity pleochroism, dispersion; Classification of gemstones."
             },
             {
               "unit": 3,
-              "topics": "Application of ultraviolet rays, x-rays, and infra-red rays in gem identification; Electrical thermal and magnetic characters of gems; 6"
+              "topics": "Application of ultraviolet rays, x-rays, and infra-red rays in gem identification; Electrical thermal and magnetic characters of gems;"
             },
             {
               "unit": 4,
-              "topics": "Systematic description, genesis, mode of occurrence, distribution in India, and important world occurrences of precious and semi-precious stones. 6"
+              "topics": "Systematic description, genesis, mode of occurrence, distribution in India, and important world occurrences of precious and semi-precious stones."
             },
             {
               "unit": 5,
-              "topics": "Synthetic gemstones - methods of synthesis and their characteristics and identification; Gem enhancement methods and their identification: Colourless / colored impregnation, heat treatment, coating, irradiation, diffusion, treatment. 6 Texts /"
+              "topics": "Synthetic gemstones - methods of synthesis and their characteristics and identification; Gem enhancement methods and their identification: Colourless / colored impregnation, heat treatment, coating, irradiation, diffusion, treatment."
             }
+          ],
+          "suggested_books": [
+            "Karanth, R. V. (2000): Gems and Gem Industry in India, Memoir-45, Geological Society of India, Bangalore.",
+            "Brocardo, G. (1981): Minerals and Gemstone - An Identification Guide, David and Charles, London.",
+            "Bruton, Eric F. G. A. (1970): Diamonds, Chilton Book Company. Max Bauer (1968): Precious Stones, Vol. I and II, Dover, New York.",
+            "Orlov, Yu. L. (1973): The Mineralogy of the Diamond, John Wiley.",
+            "Rajendran, S. (2007): Mineral Exploration: Recent Strategies.",
+            "Vilson, M. (1967): Gems, Heinemann, London."
           ]
         },
         {
@@ -231,8 +311,13 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Category of Course SEC Credits& Hour of Teaching Theory Practical Cumulative Credits --- 01 01 Hour of Teaching (Total) --- 30 30 Course Objectives (not more than 100 words) To identify the precious and semi-precious gems Course Content The course content be divided into minimum 3 Units to maximum 5 units along with defined hour of teaching for each unit. Units Course Content Hr. of Teaching Studyofdiagnosticphysicalpropertiesofpreciousandsemi-preciousgems. 30 Texts / 230 Semester: III Course Title"
+              "topics": "Category of Course SEC Credits& Hour of Teaching Theory Practical Cumulative Credits --- 01 01 Hour of Teaching (Total) --- 30 30 Course Objectives (not more than 100 words) To identify the precious and semi-precious gems Course Content The course content be divided into minimum 3 Units to maximum 5 units along with defined hour of teaching for each unit. Units Course Content Hr. of Teaching Studyofdiagnosticphysicalpropertiesofpreciousandsemi-preciousgems."
             }
+          ],
+          "suggested_books": [
+            "Brocardo,G.(1981):MineralsandGemstone-Anidentificationguide,DavidandCharles,London.",
+            "BrutonEricF.G.A.(1970):Diamonds,ChiltonBookCompany.",
+            "MaxBauer(1968): Precious Stones,Vol.IandII,Dover,NewYork."
           ]
         }
       ]
@@ -248,20 +333,28 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Rockcycle,abriefintroductionofIgneous,sedimentaryandmetamorphicrocks, 10 235 Course Title"
+              "topics": "Rockcycle,abriefintroductionofIgneous,sedimentaryandmetamorphicrocks,"
             },
             {
               "unit": 2,
-              "topics": "Physical and chemical properties of minerals, mineral resource of India. 15"
+              "topics": "Physical and chemical properties of minerals, mineral resource of India."
             },
             {
               "unit": 3,
-              "topics": "Paleontology,definitionandscope,fossildefinition,modeofoccurrenceanduseoffossil.G eologicaltimescale 10"
+              "topics": "Paleontology,definitionandscope,fossildefinition,modeofoccurrenceanduseoffossil.G eologicaltimescale"
             },
             {
               "unit": 4,
-              "topics": "Evolution of life is representative of life of different geological periods. 10 Texts /"
+              "topics": "Evolution of life is representative of life of different geological periods."
             }
+          ],
+          "suggested_books": [
+            "Cornelis Klein and A. R. Philpotts (2013):Earth Materials: Introduction to Mineralogy and Petrology. Cambridge University Press.",
+            "Read, H. H. (1968):Rutley’s Element of Mineralogy (Rev. Ed.). Thomas Murby and Co.",
+            "Blatt, H. and Tracy, R. J. (1996):Petrology: Igneous, Sedimentary, Metamorphic. W. H. Freeman and Co., New York.",
+            "Gokhale, K. V. G. K. and Rao, T. C. (1983):Ore Deposits of India. East-West Press Pvt. Ltd.",
+            "Jain, P. C. and Anantharaman, M. S. (1983):Palaeontology: Evolution and Animal Distribution. Vishal Publ.",
+            "Prothero, D. R. (2004):Bringing Fossils to Life: An Introduction to Paleontology (2nd Ed.). McGraw-Hill."
           ]
         },
         {
@@ -272,24 +365,32 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Exogenic and endogenic geomorphic processes; Weathering and erosion 10 231 Course Title"
+              "topics": "Exogenic and endogenic geomorphic processes; Weathering and erosion"
             },
             {
               "unit": 2,
-              "topics": "Soil, soil formation, soilprofile, and soil type; 5"
+              "topics": "Soil, soil formation, soilprofile, and soil type;"
             },
             {
               "unit": 3,
-              "topics": "Evolution of landscape; Origin of oceans, continents, and mountains; Classification of mountains; 10"
+              "topics": "Evolution of landscape; Origin of oceans, continents, and mountains; Classification of mountains;"
             },
             {
               "unit": 4,
-              "topics": "Concept and theories of isostasy; Origin and significance of mid-oceanic ridges and trenches; Seafloor spreading & continental drift; A brief idea about plate tectonics and distribution of plates. 10"
+              "topics": "Concept and theories of isostasy; Origin and significance of mid-oceanic ridges and trenches; Seafloor spreading & continental drift; A brief idea about plate tectonics and distribution of plates."
             },
             {
               "unit": 5,
-              "topics": "A detailed account of the geological work of natural agencies; Glaciers,groundwater and springs, rivers,lakes, ocean, and wind. 10 Texts /"
+              "topics": "A detailed account of the geological work of natural agencies; Glaciers,groundwater and springs, rivers,lakes, ocean, and wind."
             }
+          ],
+          "suggested_books": [
+            "Holmes, Arthur (1992): Principles of Physical Geology, Vol. 1, Chapman and Hall, London.",
+            "Leet, L. D. and Judson, S. (1969): Physical Geology, Prentice Hall.",
+            "Mallory, B. F. and Cargo, D. N. (1979): Physical Geology, McGraw Hill.",
+            "Monrow, James S. (1986): Physical Geology: Exploring the Earth, Booke Cole, Australia.",
+            "Ritter, Dale F. (1986): Processes of Geomorphology, Wm. C. Brown Publishers.",
+            "Singh, S. (2001): Geomorphology, PrayagPustakBhandar, Allahabad."
           ]
         },
         {
@@ -300,20 +401,28 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "An introduction to various planar and linear geological structures, including the concepts of outcrop, and strike-dip. Detailed examination of the clinometer compass and its application in the field. Analysis of how topography influences outcrop patterns, with a focus on the application of rule of ‘V’s. 12 232 Course Title"
+              "topics": "An introduction to various planar and linear geological structures, including the concepts of outcrop, and strike-dip. Detailed examination of the clinometer compass and its application in the field. Analysis of how topography influences outcrop patterns, with a focus on the application of rule of ‘V’s."
             },
             {
               "unit": 2,
-              "topics": "Definition and identification of the components of folds along with the geometrical classification of folds and methods for recognizing folds in the field. Discussion on the causes of folding and its geological significance. 12"
+              "topics": "Definition and identification of the components of folds along with the geometrical classification of folds and methods for recognizing folds in the field. Discussion on the causes of folding and its geological significance."
             },
             {
               "unit": 3,
-              "topics": "Definition and classification of various types of unconformities. Introduction to the concepts of overlap, onlap, offlap, overstep, outlier, and inlier. Methods for recognizing unconformities in the field and discussion of their geological significance. 12"
+              "topics": "Definition and classification of various types of unconformities. Introduction to the concepts of overlap, onlap, offlap, overstep, outlier, and inlier. Methods for recognizing unconformities in the field and discussion of their geological significance."
             },
             {
               "unit": 4,
-              "topics": "Definition and detailed description of the components of faults and joints, with a focus on their geometric and genetic classification. Exploration of the effects of faulting on outcrops and the characteristic features that indicate faulting in the field. Examination of the causes and significance of faulting, with an emphasis on structures such as horst and graben, autochthon, allochothon, window, and klippe. Analysis of the characteristics of fractures and joints, including different fracture modes and their implications in geological studies. 9 Texts /"
+              "topics": "Definition and detailed description of the components of faults and joints, with a focus on their geometric and genetic classification. Exploration of the effects of faulting on outcrops and the characteristic features that indicate faulting in the field. Examination of the causes and significance of faulting, with an emphasis on structures such as horst and graben, autochthon, allochothon, window, and klippe. Analysis of the characteristics of fractures and joints, including different fracture modes and their implications in geological studies."
             }
+          ],
+          "suggested_books": [
+            "Billings, M. P. (2016): Structural Geology, Pearson.",
+            "Dennis, J. G. (1972): Structural Geology, Ronald Press Company, New York.",
+            "Hills, E. S. (1963): Elements of Structural Geology, Farrold and Sons, London.",
+            "Park, R. G. (2017): Foundations of Structural Geology, Routledge.",
+            "Ramsay, J. G. (2004): Folding and Fracture of Rocks, The Blackburn Press.",
+            "Fossen, H. (2010): Structural Geology, Cambridge University Press."
           ]
         },
         {
@@ -324,24 +433,32 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Study of Toposheets: Boundary Information of toposheet, Topographic features. 06 233 Course Title"
+              "topics": "Study of Toposheets: Boundary Information of toposheet, Topographic features."
             },
             {
               "unit": 2,
-              "topics": "Cultural features:Man-made features, Land-use / Land cover. 06"
+              "topics": "Cultural features:Man-made features, Land-use / Land cover."
             },
             {
               "unit": 3,
-              "topics": "Hydrological features: Drainage patterns. 06"
+              "topics": "Hydrological features: Drainage patterns."
             },
             {
               "unit": 4,
-              "topics": "Extractions of Plateau, hill, Ridge, Valley, Escarpment, and Deep Gorges based on contours. 06"
+              "topics": "Extractions of Plateau, hill, Ridge, Valley, Escarpment, and Deep Gorges based on contours."
             },
             {
               "unit": 5,
-              "topics": "Study of Geomorphological features from Aerial photos under a pocket stereoscope. 06 Texts /"
+              "topics": "Study of Geomorphological features from Aerial photos under a pocket stereoscope."
             }
+          ],
+          "suggested_books": [
+            "Holmes, Arthur (1992): Principles of Physical Geology, Vol. 1, Chapman and Hall, London.",
+            "Leet, L. D. and Judson, S. (1969): Physical Geology, Prentice Hall.",
+            "Mallory, B. F. and Cargo, D. N. (1979): Physical Geology, McGraw Hill.",
+            "Monrow, James S. (1986): Physical Geology: Exploring the Earth, Booke Cole, Australia.",
+            "Ritter, Dale F. (1986): Processes of Geomorphology, Wm. C. Brown Publishers.",
+            "Singh, S. (2001): Geomorphology, PrayagPustakBhandar, Allahabad."
           ]
         },
         {
@@ -352,16 +469,24 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Practice problems focused on determining true and apparent dips, strike, true and vertical thicknesses, and the width of outcrops in geological structures. 10 234 Course Title"
+              "topics": "Practice problems focused on determining true and apparent dips, strike, true and vertical thicknesses, and the width of outcrops in geological structures."
             },
             {
               "unit": 2,
-              "topics": "Calculation of strike, dip, and bed thicknesses using geological maps. Techniques for completing outcrop maps and the use of a clinometer compass for accurate measurement of dip and strike. 10"
+              "topics": "Calculation of strike, dip, and bed thicknesses using geological maps. Techniques for completing outcrop maps and the use of a clinometer compass for accurate measurement of dip and strike."
             },
             {
               "unit": 3,
-              "topics": "Interpretation of outcrops of folded rock units on both horizontal and sloping surfaces. Construction of geological cross-sections and analysis to infer the geological history of the region along with application of rule of ‘V’s. 10 Texts /"
+              "topics": "Interpretation of outcrops of folded rock units on both horizontal and sloping surfaces. Construction of geological cross-sections and analysis to infer the geological history of the region along with application of rule of ‘V’s."
             }
+          ],
+          "suggested_books": [
+            "Billings, M. P. (2016): Structural Geology, Pearson.",
+            "Lisle, R. J. (2004): Geological Structures and Maps: A Practical Guide, Third Edition. Elsevier.",
+            "Marshak, S. and Mitra, G. (1988): Basic Methods of Structural Geology, Prentice Hall.",
+            "Bennison, G. M. (1993): An Introduction to Geological Structures and Maps, Edward Arnold, London.",
+            "Ragan, D. M. (2009): Structural Geology: An Introduction to Geometrical Technique, Cambridge University Press.",
+            "Rowland, S. M., Duebendorfer, E. M., and Schiefelbein (2007): Structural Analysis & Synthesis: A Laboratory Course in Structural Geology, Blackwell Publishing Ltd."
           ]
         },
         {
@@ -372,20 +497,32 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Fundamentals of Mineralogy: Minerals, definition and classification; Processes of mineral formation (magmatic, post-magmatic, pegmatitic, weathering, sedimentary, and metamorphic); Common physical properties of minerals (form and shape, color, streak, luster, cleavage, fracture, hardness, tenacity, transparency, specific gravity, magnetic nature). 10 237 Course Title"
+              "topics": "Fundamentals of Mineralogy: Minerals, definition and classification; Processes of mineral formation (magmatic, post-magmatic, pegmatitic, weathering, sedimentary, and metamorphic); Common physical properties of minerals (form and shape, color, streak, luster, cleavage, fracture, hardness, tenacity, transparency, specific gravity, magnetic nature)."
             },
             {
               "unit": 2,
-              "topics": "Mineralogy: Chemical composition and diagnostic physical properties of rock-forming minerals mentioned below: quartz, orthoclase, microcline, albite, labradorite, nepheline, muscovite, biotite, augite, hypersthene, tremolite, hornblende, olivine, serpentine, talc, chlorite, apatite, calcite, dolomite, garnet, kyanite, sillimanite, andalusite, staurolite, topaz, tourmaline, corundum, gypsum, graphite, and kaolinite. 10"
+              "topics": "Mineralogy: Chemical composition and diagnostic physical properties of rock-forming minerals mentioned below: quartz, orthoclase, microcline, albite, labradorite, nepheline, muscovite, biotite, augite, hypersthene, tremolite, hornblende, olivine, serpentine, talc, chlorite, apatite, calcite, dolomite, garnet, kyanite, sillimanite, andalusite, staurolite, topaz, tourmaline, corundum, gypsum, graphite, and kaolinite."
             },
             {
               "unit": 3,
-              "topics": "Optical Mineralogy: Nature of Light, Optics of Light, Critical Angle and Total Internal Reflection, Polarization of Light, Double Refraction, Nicol Prism and Its Construction, Sample Preparation Techniques for Optical Microscopy, Polarizing Microscope, Its Parts and Functioning; Optically Isotropic and Anisotropic Substances, Common Optical Properties Observed Under Polarized Light and Crossed Nicols; Optical Properties of Some Common Rock-Forming Minerals (quartz, orthoclase, microcline, plagioclase, garnet, biotite, muscovite, augite, hypersthene, hornblende, olivine, and calcite). 15"
+              "topics": "Optical Mineralogy: Nature of Light, Optics of Light, Critical Angle and Total Internal Reflection, Polarization of Light, Double Refraction, Nicol Prism and Its Construction, Sample Preparation Techniques for Optical Microscopy, Polarizing Microscope, Its Parts and Functioning; Optically Isotropic and Anisotropic Substances, Common Optical Properties Observed Under Polarized Light and Crossed Nicols; Optical Properties of Some Common Rock-Forming Minerals (quartz, orthoclase, microcline, plagioclase, garnet, biotite, muscovite, augite, hypersthene, hornblende, olivine, and calcite)."
             },
             {
               "unit": 4,
-              "topics": "Fundamentals of Crystallography: Crystal, elementary idea of crystal structure; Parts of crystal - face, edge, apex, solid angle and interfacial angle; Crystallographic axes and angles; Parameters and indices; Common crystal forms - dome, prism, pyramid, and pinacoid; Elements of crystal symmetry; Introduction to different crystal systems. 10 Texts /"
+              "topics": "Fundamentals of Crystallography: Crystal, elementary idea of crystal structure; Parts of crystal - face, edge, apex, solid angle and interfacial angle; Crystallographic axes and angles; Parameters and indices; Common crystal forms - dome, prism, pyramid, and pinacoid; Elements of crystal symmetry; Introduction to different crystal systems."
             }
+          ],
+          "suggested_books": [
+            "Berry, L. G., Mason, B., and Dietrich, R. V. (2004): Mineralogy, CBS Publication.",
+            "Ford, W. E. (2002): Dana's Textbook of Mineralogy, CBS Publication.",
+            "Gribble, C. D. (2005): Rutley’s Elements of Mineralogy, CBS Publication.",
+            "Perkins, Dexter (2015): Mineralogy, Pearson Education India.",
+            "Nesse, D. W. (2016): Optical Mineralogy, McGraw-Hill Publication.",
+            "Kerr, P. F. (2014): Optical Mineralogy, McGraw-Hill.",
+            "Verma, P. K. (2010): Optical Mineralogy, Ane Books Pvt Ltd.",
+            "Phillips, F. C. (1977): Introduction to Crystallography, Longman Group Publication.",
+            "Sharma, R. S. and Sharma, A. (2013): Crystallography and Mineralogy - Concepts and Methods, Geological Society of India, Bengaluru.",
+            "Philpotts, A. and Klein, C. (2012): Earth Materials: Introduction to Mineralogy and Petrology, Cambridge University Press."
           ]
         },
         {
@@ -400,16 +537,25 @@
             },
             {
               "unit": 2,
-              "topics": "Sulfides and Oxides of Copper, Sulfur, Graphite, Pyrite, Corundum, Magnetite, Hydroxides, Halides, Carbonates, Sulfates, Phosphates: Psilomelane, Fluorite, Calcite, Malachite, Gypsum, Apatite. 10"
+              "topics": "Sulfides and Oxides of Copper, Sulfur, Graphite, Pyrite, Corundum, Magnetite, Hydroxides, Halides, Carbonates, Sulfates, Phosphates: Psilomelane, Fluorite, Calcite, Malachite, Gypsum, Apatite."
             },
             {
               "unit": 3,
-              "topics": "Use of polarizing microscope; Study of optical properties of important rock forming minerals. Study of physical properties of minerals mentioned in theory course. 5"
+              "topics": "Use of polarizing microscope; Study of optical properties of important rock forming minerals. Study of physical properties of minerals mentioned in theory course."
             },
             {
               "unit": 4,
-              "topics": "Study of elements of symmetry of representative crystals from each system mentioned in theory course. 5 Texts /"
+              "topics": "Study of elements of symmetry of representative crystals from each system mentioned in theory course."
             }
+          ],
+          "suggested_books": [
+            "Gribble, C. D. (2005): Rutley’s Elements of Mineralogy, CBS Publication.",
+            "Ford, W. E. (2006): Dana's Textbook of Mineralogy, CBS Publication.",
+            "Perkins, Dexter (2015): Mineralogy, Pearson Education India.",
+            "Nesse, D. W. (2016): Optical Mineralogy, McGraw-Hill Publication.",
+            "Kerr, P. F. (2014): Optical Mineralogy, McGraw-Hill.",
+            "Verma, P. K. (2010): Optical Mineralogy, Ane Books Pvt Ltd.",
+            "Phillips, F. C. (1977): Introduction to Crystallography, Longman Group Publication."
           ]
         },
         {
@@ -420,8 +566,14 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "3"
+              "topics": ""
             }
+          ],
+          "suggested_books": [
+            "Compton, R. A. (1985): Geology in the Field, John Wiley and Sons.",
+            "Freeman, T. (1999): Procedures in Field Geology, Blackwell Science.",
+            "Geological Field Techniques (2010), edited by Angela L. Coe, Wiley-Blackwell.",
+            "Lahee, F. H. (1987): Field Geology, Indian edn., CBS Publishers and Distributors."
           ]
         }
       ]
@@ -437,20 +589,42 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Igneous Petrology: Magma: definition, its composition and types; Phase rule and its application toH2O and SiO2 systems; Common igneous textures; Magmatic differentiation and assimilation; Introduction to mineralogical classification; Brief petrographic description of common igneous rocks (granite, diorite, syenite, gabbro, dolerite, basalt, rhyolite,trachyte,pyroxeniteandperidotite) 11 239 Texts / 240 Course Title"
+              "topics": "Igneous Petrology: Magma: definition, its composition and types; Phase rule and its application toH2O and SiO2 systems; Common igneous textures; Magmatic differentiation and assimilation; Introduction to mineralogical classification; Brief petrographic description of common igneous rocks (granite, diorite, syenite, gabbro, dolerite, basalt, rhyolite,trachyte,pyroxeniteandperidotite)"
             },
             {
               "unit": 2,
-              "topics": "Sedimentary Petrology: Sedimentary rocks and their significance; Formation of sedimentary rocks; Classification of sedimentary rocks; Primary sedimentary structures (bedding and stratification, ripple marks, cross-bedding, graded bedding, mud cracks, raindrop imprints); Texture of sedimentary rocks; Sedimentary rock-forming minerals; Petrographic description of important rock types (sandstone, siltstone, conglomerate, breccia, shale, limestone, dolostone). 11"
+              "topics": "Sedimentary Petrology: Sedimentary rocks and their significance; Formation of sedimentary rocks; Classification of sedimentary rocks; Primary sedimentary structures (bedding and stratification, ripple marks, cross-bedding, graded bedding, mud cracks, raindrop imprints); Texture of sedimentary rocks; Sedimentary rock-forming minerals; Petrographic description of important rock types (sandstone, siltstone, conglomerate, breccia, shale, limestone, dolostone)."
             },
             {
               "unit": 3,
-              "topics": "Metamorphic Petrology:Introduction, Limits of metamorphism, Factor controlling metamorphism, Types of metamorphism, Nomenclature and classification of metamorphic rocks, Recognition of rock-structure and textures, Metamorphic grade and isogrades, Regional, thermal, and progressive metamorphism of mafic igneous, calcareous, and pelitic rocks,Common metamorphic rocks such as slate, phyllite, schist, gneiss, hornfels, marble, and quartzite, along with their parent compositions (protoliths). 11"
+              "topics": "Metamorphic Petrology:Introduction, Limits of metamorphism, Factor controlling metamorphism, Types of metamorphism, Nomenclature and classification of metamorphic rocks, Recognition of rock-structure and textures, Metamorphic grade and isogrades, Regional, thermal, and progressive metamorphism of mafic igneous, calcareous, and pelitic rocks,Common metamorphic rocks such as slate, phyllite, schist, gneiss, hornfels, marble, and quartzite, along with their parent compositions (protoliths)."
             },
             {
               "unit": 4,
-              "topics": "Economic Geology: Definitions of Economic Geology, Ore Geology, Mineral Deposit, Ore Deposit, Ore, Ore Mineral, Gangue, Grade, Resource, and Reserve; Classification of Mineral Deposits; Styles of Mineralization and Morphology of Mineral Deposits; Chemical composition, diagnostic characters, uses, and Indian distribution of: Magnetite, Hematite, Chromite, Psilomelane, Pyrolusite, Chalcopyrite, Galena, Sphalerite, Gold, Magnesite, Bauxite, Pyrite, Diamond, Muscovite, Beryl, Fluorite, Gypsum, Barite, Halite, Phosphorite, Talc, Kyanite, Graphite, Asbestos, Monazite, and Corundum; Definition of Coal; Physical characteristics and composition of Coal; Classification of Coal; Uses of Coal; Distribution of Coal Deposits in India; Elementary idea about Petroleum, Uses, and distribution in India.. 12"
+              "topics": "Economic Geology: Definitions of Economic Geology, Ore Geology, Mineral Deposit, Ore Deposit, Ore, Ore Mineral, Gangue, Grade, Resource, and Reserve; Classification of Mineral Deposits; Styles of Mineralization and Morphology of Mineral Deposits; Chemical composition, diagnostic characters, uses, and Indian distribution of: Magnetite, Hematite, Chromite, Psilomelane, Pyrolusite, Chalcopyrite, Galena, Sphalerite, Gold, Magnesite, Bauxite, Pyrite, Diamond, Muscovite, Beryl, Fluorite, Gypsum, Barite, Halite, Phosphorite, Talc, Kyanite, Graphite, Asbestos, Monazite, and Corundum; Definition of Coal; Physical characteristics and composition of Coal; Classification of Coal; Uses of Coal; Distribution of Coal Deposits in India; Elementary idea about Petroleum, Uses, and distribution in India.."
             }
+          ],
+          "suggested_books": [
+            "Best, M. G. (2002).Igneous and Metamorphic Petrology. Blackwell Science.",
+            "Blatt, H., & Tracy, R. J. (1996).Petrology: Igneous, Sedimentary, Metamorphic. W. H. Freeman and Co., New York.",
+            "Ehlers, E. G., & Blatt, H. (1982).Igneous, Sedimentary and Metamorphic Petrology. CBS Publ. Huang.",
+            "Winkler, H. G. F. (1967).Petrogenesis of Metamorphic Rocks. Springer-Verlag.",
+            "Winter, J. D. (2010).Principles of Igneous and Metamorphic Petrology (2nd ed.). Pearson Education Ltd.",
+            "Tucker, M. E. (2001).Sedimentary Petrology: An Introduction to the Origin of Sedimentary Rocks.",
+            "Sengupta, S. (1994).Introduction to Sedimentology.Routledge.",
+            "Boggs, S. (2013).Principles of Sedimentology and Stratigraphy. Pearson.",
+            "Bateman, A. M., & Jensen, M. L. (1990).Economic Mineral Deposits. John Wiley.",
+            "Chandra, D., & Singh, R. M. (2003).Petroleum (Indian Context). Tara Book Agency.",
+            "Chandra, D., Singh, R. M., & Singh, M. P. (2000).Textbook of Coal (Indian Context). Tara Book Agency.",
+            "Evans, A. M. (1993).Ore Geology and Industrial Minerals: An Introduction. John Wiley & Sons.",
+            "Evans, A. M. (1997).An Introduction to Economic Geology and its Environmental Impact. John Wiley & Sons.",
+            "Misra, K. (2000).Understanding Mineral Deposits. Springer Science & Business Media.",
+            "Pohl, W. L. (2011).Economic Geology: Principles and Practice. John Wiley & Sons.",
+            "Prasad, U. (2006).Economic Geology: Economic Mineral Deposits. CBS Publishers.",
+            "Tyrrell, G. W. (1978).The Principles of Petrology. Springer.",
+            "Klein, C. (2008).Minerals and Rocks: Exercises in Crystal and Mineral Chemistry, Crystallography, X-Ray Powder Diffraction, Mineral and Rock Identification, and Ore Mineralogy. John Wiley & Sons.",
+            "Perkins, D. (2014).Mineralogy. Pearson Education Limited.",
+            "Verma, P. K. (2010).Optical Mineralogy (Four Colour). Ane Books Pvt Ltd."
           ]
         },
         {
@@ -461,20 +635,37 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Paleontology:Definition, subdivision and scope of paleontology; Relationship of paleontology with other branches of geology; Fossils, their different kinds,requisites and various modes of preservation; Incompleteness of fossil records; Ideas about the evolution of life and adaptation to different environments. 10 241 Course Title"
+              "topics": "Paleontology:Definition, subdivision and scope of paleontology; Relationship of paleontology with other branches of geology; Fossils, their different kinds,requisites and various modes of preservation; Incompleteness of fossil records; Ideas about the evolution of life and adaptation to different environments."
             },
             {
               "unit": 2,
-              "topics": "Systematic classification of organisms; Study of the important morphological characters and geological distribution of Trilobita, Graptoloidea, Anthozoa and Echinoidea. 14"
+              "topics": "Systematic classification of organisms; Study of the important morphological characters and geological distribution of Trilobita, Graptoloidea, Anthozoa and Echinoidea."
             },
             {
               "unit": 3,
-              "topics": "Stratigraphy:Definition and scope of stratigraphy, its relationship with other branches of geology; Laws of stratigraphy;Geological Time Scale; Stratigraphic nomenclature and classification; rock units, time units and time-rock units; Physica land tectonic divisions of India and their salient features. 07"
+              "topics": "Stratigraphy:Definition and scope of stratigraphy, its relationship with other branches of geology; Laws of stratigraphy;Geological Time Scale; Stratigraphic nomenclature and classification; rock units, time units and time-rock units; Physica land tectonic divisions of India and their salient features."
             },
             {
               "unit": 4,
-              "topics": "Concept of craton; Mobile belt and shield; Tectonic framework of the Indian shield; Evolution of granite-greenstone belts; Indian cratons (Aravalli, Dharwar, Singhbhum, Bastar and Bundelkhand); Eastern Ghats mobilebelt, Southern Granulite Terrain and the Central IndianTectonic Zone;Precambrians of the Extra-peninsular India. 14 Texts /"
+              "topics": "Concept of craton; Mobile belt and shield; Tectonic framework of the Indian shield; Evolution of granite-greenstone belts; Indian cratons (Aravalli, Dharwar, Singhbhum, Bastar and Bundelkhand); Eastern Ghats mobilebelt, Southern Granulite Terrain and the Central IndianTectonic Zone;Precambrians of the Extra-peninsular India."
             }
+          ],
+          "suggested_books": [
+            "Black, R. M. (1988).The Elements of Palaeontology. Cambridge Univ.",
+            "Boggs, S. (2001).Principles of Sedimentology and Stratigraphy. Prentice Hall.",
+            "Krishnan, M. S. (1968).Geology of India and Burma. Higgibothon, Madras.",
+            "Kumar, R. (1985).Historical Geology and Stratigraphy of India. Wiley Eastern Ltd.",
+            "Benton, Michael J., & Harper, David A. T. (2020).Introduction to Paleobiology and the Fossil Record. John Wiley & Sons Ltd.",
+            "Foote, M., & Miller, A. I. (2007).Principles of Paleontology. John Wiley & Sons Ltd.",
+            "Brookfield, M. E. (2004).Principles of Stratigraphy. Wiley Blackwell.",
+            "Moore, R. C., Lalicker, C. G., & Fischer, A. G. (1997).Invertebrate Fossils. CBS Publ.",
+            "Nield, E. W., & Tucker, V. C. T. (1985).Palaeontology: An Introduction.Pergamon Press.",
+            "Prothero, D. R. (2004).Bringing Fossils to Life: An Introduction to Paleontology (2nd ed.). McGraw-Hill.",
+            "Shrock, R. R., &Twenhoffel, W. H. (1952).Principles of Invertebrate Paleontology. CBS Publ.",
+            "Wadia, D. N. (1966).Geology of India.English Language Publ.",
+            "Weller, J. M. (1960).Stratigraphic Principles and Practices. Universal Book.",
+            "Woods, H. (1985).Palaeontology Invertebrate. CBS Publ.",
+            "Jain, P. C., &Anantharaman, M. S. (1983).Palaeontology: Evolution and Animal Distribution. Vishal Publ."
           ]
         },
         {
@@ -485,20 +676,32 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Environmental Geology:Introduction to Environmental Geology and it’s domains. Population,Growth& Sustainability; environmental risk, human interaction & conflict. 10 242 Course Title"
+              "topics": "Environmental Geology:Introduction to Environmental Geology and it’s domains. Population,Growth& Sustainability; environmental risk, human interaction & conflict."
             },
             {
               "unit": 2,
-              "topics": "Weather & Climate: Climate classification and change. Atmospheric composition and hazards; Ozone depletion, Lithosphere—Earthquakes & seismic hazard, Landslides. Human impact on environment; Environmental legislation. 10"
+              "topics": "Weather & Climate: Climate classification and change. Atmospheric composition and hazards; Ozone depletion, Lithosphere—Earthquakes & seismic hazard, Landslides. Human impact on environment; Environmental legislation."
             },
             {
               "unit": 3,
-              "topics": "Hydrogeology: Definition of hydrogeology, hydrological cycle and the role of groundwater in the hydrological cycle, hydrological components: precipitation, infiltration, evaporation & transpiration, origin of groundwater, vertical distribution of groundwater, types of aquifers, springs, hydrogeological properties of water- bearing rock—porosity, permeability, specific yield and specific retention, storage coefficient, hydraulic conductivity. 15"
+              "topics": "Hydrogeology: Definition of hydrogeology, hydrological cycle and the role of groundwater in the hydrological cycle, hydrological components: precipitation, infiltration, evaporation & transpiration, origin of groundwater, vertical distribution of groundwater, types of aquifers, springs, hydrogeological properties of water- bearing rock—porosity, permeability, specific yield and specific retention, storage coefficient, hydraulic conductivity."
             },
             {
               "unit": 4,
-              "topics": "Groundwater Quality: Physical and chemical properties of water, quality criteria for different uses. Introduction to surface and subsurface methods of groundwater exploration. 10 Texts /"
+              "topics": "Groundwater Quality: Physical and chemical properties of water, quality criteria for different uses. Introduction to surface and subsurface methods of groundwater exploration."
             }
+          ],
+          "suggested_books": [
+            "Environmental Geology",
+            "Reichard, J. S. (2018).Environmental Geology. McGraw-Hill.",
+            "Valdiya, K. S. (2013).Environmental Geology. McGraw-Hill.",
+            "Montgomery, C. W., &Szablewski, G. S. (2023).Environmental Geology. McGraw-Hill.",
+            "Keller, E. A. (2012).Introduction to Environmental Geology. Prentice Hall.",
+            "Erikson, J. (2002).Environmental Geology: Facing the Challenges on Our Changing Earth. Facts on File. Hydrogeology",
+            "Todd, D. K. (2006).Groundwater Hydrology (2nd ed.). John Wiley & Sons, N.Y.",
+            "Karanth, K. R. (1989).Hydrogeology. Tata McGraw-Hill Publishing.",
+            "Raghunath, H. M. (1990).Groundwater. Wiley Eastern Ltd.",
+            "Subramaniam, V. (2000).Water. Kingston Publishing, London."
           ]
         },
         {
@@ -509,24 +712,34 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Basic concepts of remote sensing; Indian space mission. 06 243 Course Title"
+              "topics": "Basic concepts of remote sensing; Indian space mission."
             },
             {
               "unit": 2,
-              "topics": "Elementsofphotogeology;Aerialphotos–types, scale, resolution, properties of aerial photos, stereoscopic parallax, relief displacement, vertical exaggeration. 06"
+              "topics": "Elementsofphotogeology;Aerialphotos–types, scale, resolution, properties of aerial photos, stereoscopic parallax, relief displacement, vertical exaggeration."
             },
             {
               "unit": 3,
-              "topics": "Types of Remote Sensing Data; Resolution 06"
+              "topics": "Types of Remote Sensing Data; Resolution"
             },
             {
               "unit": 4,
-              "topics": "Elements of Image Interpretation; 06"
+              "topics": "Elements of Image Interpretation;"
             },
             {
               "unit": 5,
-              "topics": "Elements of Image Patterns–Landforms, Drainage, Erosion Details,etc. 06 Texts /"
+              "topics": "Elements of Image Patterns–Landforms, Drainage, Erosion Details,etc."
             }
+          ],
+          "suggested_books": [
+            "Gupta, R. P. (1991).Remote Sensing Geology. Springer-Verlag.",
+            "Lillesand, T. M., & Kiefer, R. W. (1987).Remote Sensing and Image Interpretation.",
+            "Siegal, B. S., & Gillespie, A. R. (1980).Remote Sensing in Geology. John Wiley.",
+            "Campbell, J. B. (2002).Introduction to Remote Sensing(5th ed.). Taylor & Francis, London.",
+            "Allum, J. A. E. (1985).Photogeology and Regional Mapping.",
+            "Curran, P. J. (1985).Principles of Remote Sensing. Longman, London.",
+            "Deekshatulu, B. L., &Rajan, Y. S. (Eds.) (1984).Remote Sensing.Indian Academy of Science, Bangalore.",
+            "Pandey, S. N. (2007).Principles and Applications of Photogeology."
           ]
         },
         {
@@ -537,12 +750,20 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Petrology: Megascopic and microscopic study of the following rock types: granite, syenite, nephelinesyenite, diorite, gabbro, peridotite, rhyolite, trachyte, dolerite, basalt, sandstone, conglomerate, breccia, shale, limestone, gneiss, schist, quartzite, marble, phyllite, and slate.. 15 244 Course Title"
+              "topics": "Petrology: Megascopic and microscopic study of the following rock types: granite, syenite, nephelinesyenite, diorite, gabbro, peridotite, rhyolite, trachyte, dolerite, basalt, sandstone, conglomerate, breccia, shale, limestone, gneiss, schist, quartzite, marble, phyllite, and slate.."
             },
             {
               "unit": 2,
-              "topics": "Economic Geology: Study of ore and economic minerals in hand specimens as detailed in thetheorysyllabus;Preparation of maps showing the distribution of important metallic andnon-metallic mineral deposits, and important coal and oilfields of India. 15 Texts /"
+              "topics": "Economic Geology: Study of ore and economic minerals in hand specimens as detailed in thetheorysyllabus;Preparation of maps showing the distribution of important metallic andnon-metallic mineral deposits, and important coal and oilfields of India."
             }
+          ],
+          "suggested_books": [
+            "MacKenzie, W. S., Donaldson, C. H., and Guilford, C., (1982). Atlas of Igneous Rocks and Their Textures.",
+            "Lewis D.W., and McConchie D., (2012). Practical Sedimentology.",
+            "Prasad, U., (2019). Economic Geology CBS Publishers & Distributors, NewDelhi.",
+            "Deb, M., and Sarkar S. C., (2017) Minerals and Allied Natural Resources and their Sustainable Development. Springer Singapore.",
+            "Adams, A. E., MacKenzie, W. S., and C. Guilford., (1984). Atlas of Sedimentary Rocks Under the Microscope.",
+            "Yardley, B., W., D., MacKenzie, W. S., and Guilford, C., (1990) Atlas of Metamorphic Rocks and Their Textures"
           ]
         },
         {
@@ -553,20 +774,37 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Palaeontology: Study of modes of preservation of fossils. 5 245 Course Title"
+              "topics": "Palaeontology: Study of modes of preservation of fossils."
             },
             {
               "unit": 2,
-              "topics": "Study of morphological characters of about 30 genera pertaining to Trilobita, Graptoloidea, Echinoidea, and Anthozoa.. 10"
+              "topics": "Study of morphological characters of about 30 genera pertaining to Trilobita, Graptoloidea, Echinoidea, and Anthozoa.."
             },
             {
               "unit": 3,
-              "topics": "Stratigraphy: Preparation of lithostratigraphic maps of India showing distribution of the following –Aravalli, Dharwar, and SinghbhumSupergroups. 7"
+              "topics": "Stratigraphy: Preparation of lithostratigraphic maps of India showing distribution of the following –Aravalli, Dharwar, and SinghbhumSupergroups."
             },
             {
               "unit": 4,
-              "topics": "Studyofimportantrocktypesoftheabovementionedstratigraphicunits 8 Texts /"
+              "topics": "Studyofimportantrocktypesoftheabovementionedstratigraphicunits"
             }
+          ],
+          "suggested_books": [
+            "Black, R. M. (1988).The Elements of Palaeontology. Cambridge Univ.",
+            "Boggs, S. (2001).Principles of Sedimentology and Stratigraphy. Prentice Hall.",
+            "Krishnan, M. S. (1968).Geology of India and Burma. Higgibothon, Madras.",
+            "Kumar, R. (1985).Historical Geology and Stratigraphy of India. Wiley Eastern Ltd.",
+            "Benton, Michael J., & Harper, David A. T. (2020).Introduction to Paleobiology and the Fossil Record. John Wiley & Sons Ltd.",
+            "Foote, Michael, & Miller, Arnold I.Principles of Paleontology. John Wiley & Sons Ltd.",
+            "Brookfield, Michael E.Principles of Stratigraphy. Wiley Blackwell.",
+            "Moore, R. C., Lalicker, C. G., & Fischer, A. G. (1997).Invertebrate Fossils. CBS Publ.",
+            "Nield, E. W., & Tucker, V. C. T. (1985).Palaeontology: An Introduction.Pergamon Press.",
+            "Prothero, D. R. (2004).Bringing Fossils to Life: An Introduction to Paleontology(2nd ed.). McGraw-Hill.",
+            "Shrock, R. R., &Twenhoffel, W. H. (1952).Principles of Invertebrate Paleontology. CBS Publ.",
+            "Wadia, D. N. (1966).Geology of India. English Language Publ.",
+            "Weller, J. M. (1960).Stratigraphic Principles and Practices. Universal Book.",
+            "Woods, H. (1985).Palaeontology Invertebrate. CBS Publ.",
+            "Jain, P. C., &Anantharaman, M. S. (1983).Palaeontology: Evolution and Animal Distribution. Vishal Publ."
           ]
         },
         {
@@ -577,8 +815,20 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1 ES-Minor: same as major ESMJ43and ESMJ47* 4 AE (To be offered by the University) 2 * Students may opt any four credit course from Online SWAYAM courses approved by the Department. Total Credits 20"
+              "topics": "1 ES-Minor: same as major ESMJ43and ESMJ47* 4 AE (To be offered by the University) 2 * Students may opt any four credit course from Online SWAYAM courses approved by the Department. Total Credits"
             }
+          ],
+          "suggested_books": [
+            "Environmental Geology",
+            "Reichard, J. S. (2018).Environmental Geology. McGraw-Hill.",
+            "Valdiya, K. S. (2013).Environmental Geology. McGraw-Hill.",
+            "Montgomery, C. W., &Szablewski, G. S. (2023).Environmental Geology. McGraw-Hill.",
+            "Keller, E. A. (2012).Introduction to Environmental Geology. Prentice Hall.",
+            "Erikson, J. (2002).Environmental Geology: Facing the Challenges on Our Changing Earth. Facts on File. Hydrogeology",
+            "Todd, D. K. (2006).Groundwater Hydrology (2nd ed.). John Wiley & Sons, N.Y.",
+            "Karanth, K. R. (1989).Hydrogeology. Tata McGraw-Hill Publishing.",
+            "Raghunath, H. M. (1990).Groundwater. Wiley Eastern Ltd.",
+            "Subramaniam, V. (2000).Water. Kingston Publishing, London."
           ]
         }
       ]
@@ -606,24 +856,39 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Introduction, Phase Rules, Gibbs phase Rule, Goldschmidt’s Mineralogical Phase Rule, Principles of metamorphic reactions, Classification and concepts of Metamorphic Facies and Facies Series 09 247 Course Title"
+              "topics": "Introduction, Phase Rules, Gibbs phase Rule, Goldschmidt’s Mineralogical Phase Rule, Principles of metamorphic reactions, Classification and concepts of Metamorphic Facies and Facies Series"
             },
             {
               "unit": 2,
-              "topics": "Phase diagram for metamorphic mineral assemblages, ACF, AKF, AFM diagrams, Prograde, retrograde and polymetamorphism. 09"
+              "topics": "Phase diagram for metamorphic mineral assemblages, ACF, AKF, AFM diagrams, Prograde, retrograde and polymetamorphism."
             },
             {
               "unit": 3,
-              "topics": "Progressive metamorphism of (a) Ultramafic rocks in MgO – Al2O3– SiO2– H2O diagram, (b) Basic rocks in CaO – FeO – MgO – Al2O3– SiO2 diagrams, (c) Pelitic rocks in K2O – FeO-MgO-Al2O3-SiO2 diagram, (d) Calcareous rocks in CaO – MgO –SiO2– CO2– H2O diagram. 09"
+              "topics": "Progressive metamorphism of (a) Ultramafic rocks in MgO – Al2O3– SiO2– H2O diagram, (b) Basic rocks in CaO – FeO – MgO – Al2O3– SiO2 diagrams, (c) Pelitic rocks in K2O – FeO-MgO-Al2O3-SiO2 diagram, (d) Calcareous rocks in CaO – MgO –SiO2– CO2– H2O diagram."
             },
             {
               "unit": 4,
-              "topics": "Relationship between metamorphism and plate tectonics, Metamorphic Differentiation 09"
+              "topics": "Relationship between metamorphism and plate tectonics, Metamorphic Differentiation"
             },
             {
               "unit": 5,
-              "topics": "Thermodynamic laws and their applications in metamorphic petrology 09 Texts /"
+              "topics": "Thermodynamic laws and their applications in metamorphic petrology"
             }
+          ],
+          "suggested_books": [
+            "Blatt, H., & Tracy, R. J. (1996).Petrology: Igneous, Sedimentary, Metamorphic,W. H. Freeman & Co., New York.",
+            "Bucher, K., & Martin, F. (2002).Petrogenesis of Metamorphic Rocks (7th Rev. ed.). Springer–Verlag.",
+            "Ehlers, E. G., & Blatt, H. (1982).Igneous, Sedimentary and Metamorphic Petrology. CBS Publ.",
+            "Mason, R. (1978).Petrology of Metamorphic Rocks. CBS Publ.",
+            "Philpotts, A. R. (1994).Principles of Igneous and Metamorphic Petrology. Prentice Hall.",
+            "Powell, R. (1978).Equilibrium Thermodynamics in Petrology: An Introduction. Harper & Row Publishers, London.",
+            "Rastogy, R. P., & Mishra, R. R. (1993).An Introduction to Chemical Thermodynamics. Vikash Publishing House.",
+            "Spry, A. (1976).Metamorphic Textures .Pergamon Press.",
+            "Vernon, R. H., & Clarke, G. L. (2008).Principles of Metamorphic Petrology. Cambridge University Press. Cambridge, New York, Melbourne, Madrid, Cape Town, Singapore, São Paulo, Delhi.",
+            "Winkler, H. G. C. (1967).Petrogenesis of Metamorphic Rocks. Narosa Publ.",
+            "Winter, J. D. (2001).An Introduction to Igneous and Metamorphic Petrology. Prentice Hall.",
+            "Wood, B. J., & Fraser, D. G. (1976).Elementary Thermodynamics for Geologists. Oxford University Press, London.",
+            "Yardley, B. W. D. (1989).An Introduction to Metamorphic Petrology. Longman Scientific and Technical, New York."
           ]
         },
         {
@@ -634,16 +899,24 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Sedimentary rocks forming processes; Classification and characterization of rudaceous, arenaceous, argillaceous and calcareous rocks; Primary and secondary sedimentary structures; Mineralogical attributes, textural properties and diagenetic processes of sedimentary rocks. 15 248 Course Title"
+              "topics": "Sedimentary rocks forming processes; Classification and characterization of rudaceous, arenaceous, argillaceous and calcareous rocks; Primary and secondary sedimentary structures; Mineralogical attributes, textural properties and diagenetic processes of sedimentary rocks."
             },
             {
               "unit": 2,
-              "topics": "Petrography of major siliciclastic and carbonate rocks namely conglomerate, breccia, quartzarenite, arkose, lithic arenite, quartzwake, felspathicwacke, lithicwacke, mudrocks / shale, limestones: crystalline, micritic and sparitic. 15"
+              "topics": "Petrography of major siliciclastic and carbonate rocks namely conglomerate, breccia, quartzarenite, arkose, lithic arenite, quartzwake, felspathicwacke, lithicwacke, mudrocks / shale, limestones: crystalline, micritic and sparitic."
             },
             {
               "unit": 3,
-              "topics": "Heavy minerals analyses and their importance in provenance interpretations; Processes and tectonic settings of various depositional environments like fluvial, Deltaic, coastal and deep-marine. 15 Texts /"
+              "topics": "Heavy minerals analyses and their importance in provenance interpretations; Processes and tectonic settings of various depositional environments like fluvial, Deltaic, coastal and deep-marine."
             }
+          ],
+          "suggested_books": [
+            "Ehlers, E. G., & Blatt, H. (1982).Igneous, Sedimentary, and Metamorphic Petrology. CBS Publ.",
+            "Greensmith, J. T. (1984).Petrology of Sedimentary Rocks. Thomas Murby Publ.",
+            "Hatch, F. H., Rastall, R. H., & Black, M. (1938).Petrology of Sedimentary Rocks. Thomas Murby Publ.",
+            "Pettijohn, F. J. (1957).Sedimentary Rocks (3rd ed.). Oxford Book Co.",
+            "Donald, R. P., & Schwab, F. (1996).Sedimentary Geology. W. H. Freeman and Company, New York.",
+            "Boggs, S. (2006).Principles of Sedimentology and Stratigraphy. Prentice Hall."
           ]
         },
         {
@@ -654,20 +927,29 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Magma: Its physics, nature, factors affecting magma and its evolution. Thermal structure of the earth and melting of mantle. Plate tectonics and generation of different magmas in various tectonic settings. 08 249 Course Title"
+              "topics": "Magma: Its physics, nature, factors affecting magma and its evolution. Thermal structure of the earth and melting of mantle. Plate tectonics and generation of different magmas in various tectonic settings."
             },
             {
               "unit": 2,
-              "topics": "Concept of primary and secondary magma. Magma series, dynamics, differentiation, emplacement, and crystallization of the magma. Magma mixing, mingling, and immiscibility. Plume magmatism and hotspots. Mantle metasomatism. Mantle heterogeneities. 07"
+              "topics": "Concept of primary and secondary magma. Magma series, dynamics, differentiation, emplacement, and crystallization of the magma. Magma mixing, mingling, and immiscibility. Plume magmatism and hotspots. Mantle metasomatism. Mantle heterogeneities."
             },
             {
               "unit": 3,
-              "topics": "Partial melting(batch and fractional melting), crystal fractionation (equilibrium and fractional (Rayleigh) crystallization), contamination(AFC process) and dynamic melting.The phase equilibrium of binary (Ab-An, Ab-Or, Di-An, Fo-Si) and ternary (Di-Ab-An, Di-Fo-Si, Di-Fo-An, Ne-Ks-Si, Fo-An-Si) systems and their relation to magma genesis and crystallization in the light of modern experimental works. 15"
+              "topics": "Partial melting(batch and fractional melting), crystal fractionation (equilibrium and fractional (Rayleigh) crystallization), contamination(AFC process) and dynamic melting.The phase equilibrium of binary (Ab-An, Ab-Or, Di-An, Fo-Si) and ternary (Di-Ab-An, Di-Fo-Si, Di-Fo-An, Ne-Ks-Si, Fo-An-Si) systems and their relation to magma genesis and crystallization in the light of modern experimental works."
             },
             {
               "unit": 4,
-              "topics": "IUGS classification of the igneous rocks. CIPW Norm. Petrology and petrogenesis of the following igneous rocks with suitable Indian examples: (i) Peridotites, komatiites, gabbros, basalts, anorthosites, ophiolites. (ii) Large Igneous Provinces, mafic dyke swarms, boninites, and layered complexes. (iii) Alkaline rocks, carbonatites, kimberlites, lamproites, kamafugites, and lamprophyres. (iv) Granitoids, adakites, and sanukitoids. 15 Texts /"
+              "topics": "IUGS classification of the igneous rocks. CIPW Norm. Petrology and petrogenesis of the following igneous rocks with suitable Indian examples: (i) Peridotites, komatiites, gabbros, basalts, anorthosites, ophiolites. (ii) Large Igneous Provinces, mafic dyke swarms, boninites, and layered complexes. (iii) Alkaline rocks, carbonatites, kimberlites, lamproites, kamafugites, and lamprophyres. (iv) Granitoids, adakites, and sanukitoids."
             }
+          ],
+          "suggested_books": [
+            "Winter, J. D. (2010).Principles of Igneous and Metamorphic Petrology. Pearson Prentice Hall.",
+            "Gill, R. (2010).Igneous Rocks and Processes: A Practical Guide. John Wiley & Sons.",
+            "Sen, G. (2014).Petrology: Principles and Practice. Springer-Verlag.",
+            "Philpotts, A., & Ague, J. (2009).Principles of Igneous and Metamorphic Petrology. Cambridge University Press.",
+            "Cox, K. G., Bell, J. D., & Pankhurst, R. J. (1979).The Interpretation of Igneous Rocks. Chapman and Hall Publishing.",
+            "Wilson, M. (1989).Igneous Petrogenesis: A Global Tectonic Approach. Chapman and Hall Publishing.",
+            "Frost, B. R., & Frost, C. D. (2014).Essentials of Igneous and Metamorphic Petrology. Cambridge University Press."
           ]
         },
         {
@@ -682,16 +964,24 @@
             },
             {
               "unit": 2,
-              "topics": "Study of light interaction with crystals exhibiting one and two optic axes. Indicatrix Construction and Analysis: Understanding the geometric representation of refractive indices in different crystal systems. Examination of colour variation in minerals when viewed under polarized light from different orientations. Analysis and interpretation of interference patterns to determine optical properties and orientations of crystals. Measurement and significance of the optic axial angle (2V) and extinction angle (2E) in mineral identification. 10"
+              "topics": "Study of light interaction with crystals exhibiting one and two optic axes. Indicatrix Construction and Analysis: Understanding the geometric representation of refractive indices in different crystal systems. Examination of colour variation in minerals when viewed under polarized light from different orientations. Analysis and interpretation of interference patterns to determine optical properties and orientations of crystals. Measurement and significance of the optic axial angle (2V) and extinction angle (2E) in mineral identification."
             },
             {
               "unit": 3,
-              "topics": "Classification of Crystal Systems and characterization of all 32 crystal classes and their respective normal classes.Crystal Projection Techniques (Spherical Projection &Stereographic Projection)with applications and utility of projection methods in crystallographic studies.Twinning and Twin Laws: Exploration of common twin types, associated twin laws, and examples of twinning phenomena in various minerals.Overview of the 14 Bravais lattices and their significance in defining crystal structures. 10"
+              "topics": "Classification of Crystal Systems and characterization of all 32 crystal classes and their respective normal classes.Crystal Projection Techniques (Spherical Projection &Stereographic Projection)with applications and utility of projection methods in crystallographic studies.Twinning and Twin Laws: Exploration of common twin types, associated twin laws, and examples of twinning phenomena in various minerals.Overview of the 14 Bravais lattices and their significance in defining crystal structures."
             },
             {
               "unit": 4,
-              "topics": "Tracing the evolution and milestones in the field of X-ray crystallography. Derivation and theoretical underpinnings of Bragg's Law. Application of Bragg's Law in determining crystal structures through X-ray diffraction methods. Utilization of X-ray in mineral science. Principles and methodologies of electron microprobe analysis (EMPA) in quantitative mineral chemistry. Application of scanning electron microscopy (SEM) for detailed morphological and compositional studies of mineral specimens. 10 Texts /"
+              "topics": "Tracing the evolution and milestones in the field of X-ray crystallography. Derivation and theoretical underpinnings of Bragg's Law. Application of Bragg's Law in determining crystal structures through X-ray diffraction methods. Utilization of X-ray in mineral science. Principles and methodologies of electron microprobe analysis (EMPA) in quantitative mineral chemistry. Application of scanning electron microscopy (SEM) for detailed morphological and compositional studies of mineral specimens."
             }
+          ],
+          "suggested_books": [
+            "Berry, L. G., Mason, B., & Dietrich, R. V. (1985).Mineralogy: Concepts, Descriptions, and Determinations. CBS Publishers.",
+            "Dana, E. S., & Ford, W. E. (2002).A Textbook of Mineralogy (Reprint).",
+            "Deer, W. A., Howie, R. A., &Zussman, J. (2013).An Introduction to the Rock-Forming Minerals. ELBS and Longman.",
+            "Gribble, C. D. (2005).Rutley’s Elements of Mineralogy. Springer.",
+            "Kerr, P. F. (1977).Optical Mineralogy. McGraw Hill.",
+            "Nesse, D. W. (1986).Optical Mineralogy. McGraw Hill."
           ]
         },
         {
@@ -706,16 +996,24 @@
             },
             {
               "unit": 2,
-              "topics": "Study of Metamorphic Rocks (slate, phyllite, schist, gneiss, marble, quartzite, charnockite, hornfels, khondalite) in thin sections belonging to different facies with emphasis on texture/structure, mineral composition, parent rock, metamorphic facies / subfacies / zone to which the rock can be assigned and graphical representation of the assemblage in ACF, AKF and AFM diagrams. 10"
+              "topics": "Study of Metamorphic Rocks (slate, phyllite, schist, gneiss, marble, quartzite, charnockite, hornfels, khondalite) in thin sections belonging to different facies with emphasis on texture/structure, mineral composition, parent rock, metamorphic facies / subfacies / zone to which the rock can be assigned and graphical representation of the assemblage in ACF, AKF and AFM diagrams."
             },
             {
               "unit": 3,
-              "topics": "Megascopic examination of conglomerate, breccia, quartz arenite, arkose, lithic arenite, quartzwacke, feldspathicwacke, lithicwacke(grewacke), mudrocks/shale and carbonates (micrite, sparite and accretionarylimestones). 07"
+              "topics": "Megascopic examination of conglomerate, breccia, quartz arenite, arkose, lithic arenite, quartzwacke, feldspathicwacke, lithicwacke(grewacke), mudrocks/shale and carbonates (micrite, sparite and accretionarylimestones)."
             },
             {
               "unit": 4,
-              "topics": "Examination of some common heavy minerals in grain mounts 03 Texts /"
+              "topics": "Examination of some common heavy minerals in grain mounts"
             }
+          ],
+          "suggested_books": [
+            "Kerr, P.F., (1959). Optical Mineralogy. McGraw-Hill Book Company Inc., New York, pp.442.",
+            "Mackenzie, W.S., and Guilford, C., (1993). Atlas of Rock-Forming Minerals in Thin Section. Longman Scientific and Technical, EnESand, pp. 98.",
+            "Moorhouse, W.W., (1985). The Study of Rocks in Thin Section (Indian Edition). CBS Publications and Distributors, Delhi, pp. 514.",
+            "Passchier, C.W., and Trouw, R.A.J., (1996) Microtectonics. Springer – Verlag Publications, pp. 289 (with 254 figures).",
+            "Phillips, R. W., and Griffen, D.T., (1986). Optical Mineralogy – The Non-opaque Minerals (Indian Edition). CBS Publishers and Distributors, Delhi, pp. 677.",
+            "Spry, A. (1976). Metamorphic Textures, Pergamon Press."
           ]
         },
         {
@@ -726,20 +1024,27 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Geoarchaeology:Introduction to geoarchaeology; Geological applications in archaeology; Methods in geoarchaeology; Post-depositional processes of archaeological sites; Pedostratigraphy and archeostratigraphy in geoarchaeology; 10"
+              "topics": "Geoarchaeology:Introduction to geoarchaeology; Geological applications in archaeology; Methods in geoarchaeology; Post-depositional processes of archaeological sites; Pedostratigraphy and archeostratigraphy in geoarchaeology;"
             },
             {
               "unit": 2,
-              "topics": "Paleoclimate, paleovegetation, human evolution and migration; Geomorphology; Dating methods; Geoarchaeological case studies. 10"
+              "topics": "Paleoclimate, paleovegetation, human evolution and migration; Geomorphology; Dating methods; Geoarchaeological case studies."
             },
             {
               "unit": 3,
-              "topics": "Museology: Introduction to museology; Curatorial practices and artifact conservation; Outsourcing of archives; Management of museums; Emerging technologies in museology; Future trends and collaboration. 10"
+              "topics": "Museology: Introduction to museology; Curatorial practices and artifact conservation; Outsourcing of archives; Management of museums; Emerging technologies in museology; Future trends and collaboration."
             },
             {
               "unit": 4,
-              "topics": "Fieldwork in local geoarchaeological sitesLaboratory techniques in geoarchaeology: sediment processing for grain size analysis, microfossils, and mineralogy.Visit to the local museum or cultural heritage site; Preparation of report of the museum visit; Cataloguing (inventory and documentation) of specimens in the museum. 60 Texts /"
+              "topics": "Fieldwork in local geoarchaeological sitesLaboratory techniques in geoarchaeology: sediment processing for grain size analysis, microfossils, and mineralogy.Visit to the local museum or cultural heritage site; Preparation of report of the museum visit; Cataloguing (inventory and documentation) of specimens in the museum."
             }
+          ],
+          "suggested_books": [
+            "Geoarchaeology:",
+            "Rapp, G.R., Hill, C.L., and Hill, M.C.L., 2006. Geoarchaeology: The Earth-Science Approach to Archaeological Interpretation. Yale University Press.",
+            "Cordova, C., 2018. Geoarchaeology: The Human-Environmental Approach. Bloomsbury Publishing.",
+            "Pitul'ko, V.V., and Pavlova, E.Y., 2016. Geoarchaeology and Radiocarbon Chronology of Stone Age Northeast Asia. Texas A&M University Press.",
+            "Dincauze, D.F., 2000. Environmental Archaeology: Principles and Practice. Cambridge University Press."
           ]
         }
       ]
@@ -755,24 +1060,32 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Examination of the properties of rocks and the factors that influence them. Introduction to the concept of stress and two-dimensional stress analysis. Overview of rock failure theories, with a focus on the causes and dynamics of fracturing and faulting. 10 255 Course Title"
+              "topics": "Examination of the properties of rocks and the factors that influence them. Introduction to the concept of stress and two-dimensional stress analysis. Overview of rock failure theories, with a focus on the causes and dynamics of fracturing and faulting."
             },
             {
               "unit": 2,
-              "topics": "Investigation into the mechanics and causes of folding. Genetic classification of folds and analysis of fold superposition patterns. Study of strain distribution within folds and its implications. 5"
+              "topics": "Investigation into the mechanics and causes of folding. Genetic classification of folds and analysis of fold superposition patterns. Study of strain distribution within folds and its implications."
             },
             {
               "unit": 3,
-              "topics": "Detailed analysis of two-dimensional strain, including the properties and geological significance of strain ellipses and ellipsoids. Identification of strain markers and methods for measuring strain in naturally deformed rocks. 10"
+              "topics": "Detailed analysis of two-dimensional strain, including the properties and geological significance of strain ellipses and ellipsoids. Identification of strain markers and methods for measuring strain in naturally deformed rocks."
             },
             {
               "unit": 4,
-              "topics": "Introduction to fold-thrust belts, including the concepts of thin- and thick-skinned deformation, decollement. Introduction to shear zones (both brittle and ductile). Analysis of the geometry and products of shear zones, with a focus on mylonites and cataclastites. 10"
+              "topics": "Introduction to fold-thrust belts, including the concepts of thin- and thick-skinned deformation, decollement. Introduction to shear zones (both brittle and ductile). Analysis of the geometry and products of shear zones, with a focus on mylonites and cataclastites."
             },
             {
               "unit": 5,
-              "topics": "Exploration of the origin and significance of planar and linear fabrics in deformed rocks. Application of stereographic and equal-area projections in structural analysis, including the use of π and β diagrams. Geometric analysis of simple and complex macroscopic structures, with an introduction to petrofabric analysis. 10 Texts /"
+              "topics": "Exploration of the origin and significance of planar and linear fabrics in deformed rocks. Application of stereographic and equal-area projections in structural analysis, including the use of π and β diagrams. Geometric analysis of simple and complex macroscopic structures, with an introduction to petrofabric analysis."
             }
+          ],
+          "suggested_books": [
+            "Davis, G.H., Reynolds, S.J., and Kluth, C.F. (2012). Structural Geology of Rocks and Regions (3rd Ed.). Wiley.",
+            "Fossen, H. (2016). Structural Geology (2nd Ed.). Cambridge University Press.",
+            "Hobbs, B.E., Means, W.D., and Williams, P.F. (1976). An Outline of Structural Geology. John Wiley and Sons, New York.",
+            "Ramsay, J.G. (2004). Folding and Fracturing of Rocks. The Blackburn Press.",
+            "Ramsay, J.G., and Huber, M.I. (1983). Techniques of Modern Structural Geology Vol. I and Vol. II. Academic Press.",
+            "Twiss, R.J., and Moores, E.M. (2006). Structural Geology (Second Edition). W.H. Freeman."
           ]
         },
         {
@@ -783,24 +1096,36 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Fundamental of economic geology: minerals, ores, and gangues; Tenor of ores; Common mode of occurrences, forms and structures of mineral deposits; Basic concepts of ore-genesis, paragenesis, paragenetic sequence and zoning in metallic ore deposits, Importance of economic geology. 10 256 Course Title"
+              "topics": "Fundamental of economic geology: minerals, ores, and gangues; Tenor of ores; Common mode of occurrences, forms and structures of mineral deposits; Basic concepts of ore-genesis, paragenesis, paragenetic sequence and zoning in metallic ore deposits, Importance of economic geology."
             },
             {
               "unit": 2,
-              "topics": "Ore forming minerals, Processes of formation of ore deposits; origin and mode of occurrences of metallic mineral deposits of iron, manganese, gold, copper, aluminium, lead, zinc, chromite, magnesium, tin, tungsten, with their economic uses and Indian Distribution. 10"
+              "topics": "Ore forming minerals, Processes of formation of ore deposits; origin and mode of occurrences of metallic mineral deposits of iron, manganese, gold, copper, aluminium, lead, zinc, chromite, magnesium, tin, tungsten, with their economic uses and Indian Distribution."
             },
             {
               "unit": 3,
-              "topics": "Processes of formation of mineral deposits; Concepts on Magmatic processes, Hydrothermal processes, Metamorphic processes and Sedimentary or surficial processes. 10"
+              "topics": "Processes of formation of mineral deposits; Concepts on Magmatic processes, Hydrothermal processes, Metamorphic processes and Sedimentary or surficial processes."
             },
             {
               "unit": 4,
-              "topics": "Origin and Mode of occurrences of Non-metallic mineral deposits with particular reference to the industries (Cement, Glass, Ceramics, Refractory, Fertilizer, Chemicals, Abrasive and Gemstones) and their Indian distribution. 10"
+              "topics": "Origin and Mode of occurrences of Non-metallic mineral deposits with particular reference to the industries (Cement, Glass, Ceramics, Refractory, Fertilizer, Chemicals, Abrasive and Gemstones) and their Indian distribution."
             },
             {
               "unit": 5,
-              "topics": "Origin and processes of formation, mode of occurrence, economic uses and distribution of coal and petroleum deposits in India; Detail geological study of atomic fuels deposits of uranium, thorium and rare earth elements deposits in India. 05 Texts /"
+              "topics": "Origin and processes of formation, mode of occurrence, economic uses and distribution of coal and petroleum deposits in India; Detail geological study of atomic fuels deposits of uranium, thorium and rare earth elements deposits in India."
             }
+          ],
+          "suggested_books": [
+            "Mead L. Jense, and Alan M. Bateman (2013) Economic Mineral Deposits. Third Edition, John Wiley and Sons.",
+            "AshokeMookherjee (2000): Ore Genesis-A Holistic Approach, Allied Publisher.",
+            "Umeshwar Prasad (2019) Economic Geology. CBS Publishers & Distributors, New Delhi.",
+            "Anthony M. Evans (2006) Ore Geology and Industrial Minerals: An Introduction. Third Edition, Blackwell Science.",
+            "R. K. Sinha and N. L. Sharma (2019) Mineral Economics. Fourth Edition, Oxford & IBH Publishing.",
+            "Sanjay Kumar Tiwari (2019) Ore Geology, Economic Minerals and Mineral Economics. Atlantic Publishers & Distributors Pvt Ltd.",
+            "Walter L Pohl (2010) Economic Geology: Principles and Practice. First Edition, John Wiley.",
+            "Mihir Deb and Sanjib Chandra Sarkar (2017) Minerals and Allied Natural Resources and their Sustainable Development. Springer Singapore.",
+            "John Ridley (2013) Ore Deposit Geology. Cambridge University Press.",
+            "Laurence Robb (2005) Introduction to Ore-Forming Processes. John Wiley & Sons."
           ]
         },
         {
@@ -811,20 +1136,37 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Applicative dimensions of paleontology in geology; Index fossils; Modern concept of the origin of life; Lamark’s and Darwin’s theories of organic evolution with suitable evidences. 10 257 Course Title"
+              "topics": "Applicative dimensions of paleontology in geology; Index fossils; Modern concept of the origin of life; Lamark’s and Darwin’s theories of organic evolution with suitable evidences."
             },
             {
               "unit": 2,
-              "topics": "Sampling and processing techniques in macro and micro-fossil; System of binomial nomenclature in taxonomic studies; Species concept;Composition of hard parts;Growth of individual organism. 10"
+              "topics": "Sampling and processing techniques in macro and micro-fossil; System of binomial nomenclature in taxonomic studies; Species concept;Composition of hard parts;Growth of individual organism."
             },
             {
               "unit": 3,
-              "topics": "A detailed account of diagnostic morphological features and geological distribution of the invertebrate fossil groups as under: Brachiopoda, Bivalvia, Gastropoda, Cephalopoda; Stratigraphic implications of ammonites and conodonts; Microfossils and their different kinds. 15"
+              "topics": "A detailed account of diagnostic morphological features and geological distribution of the invertebrate fossil groups as under: Brachiopoda, Bivalvia, Gastropoda, Cephalopoda; Stratigraphic implications of ammonites and conodonts; Microfossils and their different kinds."
             },
             {
               "unit": 4,
-              "topics": "The study of various ways of preservation and broad features of plant fossils; Preliminary ideas of Gondwana flora; Elementary knowledge about vertebrate classes and significance of Indian vertebrate fauna. 10 Texts /"
+              "topics": "The study of various ways of preservation and broad features of plant fossils; Preliminary ideas of Gondwana flora; Elementary knowledge about vertebrate classes and significance of Indian vertebrate fauna."
             }
+          ],
+          "suggested_books": [
+            "Black, R.M., (1988). The Elements of Palaeontology, Cambridge Univ.",
+            "Clarkson, E.N.K., (1986). Invertebrate Palaeontology and Evolution, Allen and Unwin Publ.",
+            "Jain, P.C. and Anantharaman, M.S., (1983). Palaeontology: Evolution and Animal Distribution, Vishal Publ.",
+            "Lehmann, U., (1983). Fossils Invertebrate, Cambridge Univ. Press.",
+            "Benton, Michael J. (2014). Vertebrate Paleontology. Blackwell Publ., Chapman and Hall.",
+            "Benton, Michael J. and Harper, David A.T., (2020). Introduction to Paleobiology and the Fossil Record. John Wiley & Sons Ltd.",
+            "Foote, M. and Miller, A.I., (2007). Principals of Paleontology. John Wiley & Sons Ltd.",
+            "Moore, R.C., Lalicker, C.G. and Fischer, A.G., (1997). Invertebrate Fossils, CBS Publ.",
+            "Nield, E.W. and Tucker, V.C.T., (1985). Palaeontology: An Introduction, Pergmon Press.",
+            "Prothero, D.R., (2004). Bringing Fossil to Life – An Introduction to Paleontology (2nd Ed.), McGraw Hill.",
+            "Shrock, R.R. and Twenhoffel,W.H., (1952). Principles of Invertebrate Paleontology, CBS Publ.",
+            "Raup, D.M. and Stanley, S.M., (1985). Principles of Palaeontology, CBS Publ.",
+            "Stebbins, (1979). Process of Organic Evolution (3rd Ed.) Prentice Hall.",
+            "Woods, H., (1985). Palaeontology Invertebrate, CBS Publ.",
+            "Doyle, P., (2014). Understanding fossils, An introduction to Invertebrate Paleontology. John Wiley & Sons."
           ]
         },
         {
@@ -835,20 +1177,38 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Concept of facies, refinementand correlation in stratigraphy;Conceptof sequence stratigraphy and paleobiogeography; A brief introduction of Bio-magneto-seismic- chemo-andeventstratigraphy. 11 258 Course Title"
+              "topics": "Concept of facies, refinementand correlation in stratigraphy;Conceptof sequence stratigraphy and paleobiogeography; A brief introduction of Bio-magneto-seismic- chemo-andeventstratigraphy."
             },
             {
               "unit": 2,
-              "topics": "CuddapahandVindhyansupergroupsandtheirequivalents,Precambrian/Cambrianboundary. Stratigraphic sequence of the Paleozoic of Kashmir and Gondwana Supergroup, 11"
+              "topics": "CuddapahandVindhyansupergroupsandtheirequivalents,Precambrian/Cambrianboundary. Stratigraphic sequence of the Paleozoic of Kashmir and Gondwana Supergroup,"
             },
             {
               "unit": 3,
-              "topics": "Permian/TriassicBoundaryinIndia.A detailed outline of Lithostratigraphic framework and fossil content of Triassic of Spiti, Jurassic of Kachchh and Cretaceous of Tiruchirapalli. 11"
+              "topics": "Permian/TriassicBoundaryinIndia.A detailed outline of Lithostratigraphic framework and fossil content of Triassic of Spiti, Jurassic of Kachchh and Cretaceous of Tiruchirapalli."
             },
             {
               "unit": 4,
-              "topics": "Cretaceous/PaleogeneBoundaryinIndia.The lithostratigraphy and fossil content of the following: Paleogene of Assam,Kachchh and Andaman, Siwaliks of Jammu and Himachal Pradesh and KarewasofKashmir.Stratigraphic study of Deccan, Rajmahal Trap and Intertrappean beds. 12 Texts /"
+              "topics": "Cretaceous/PaleogeneBoundaryinIndia.The lithostratigraphy and fossil content of the following: Paleogene of Assam,Kachchh and Andaman, Siwaliks of Jammu and Himachal Pradesh and KarewasofKashmir.Stratigraphic study of Deccan, Rajmahal Trap and Intertrappean beds."
             }
+          ],
+          "suggested_books": [
+            "Boggs, S. (2001). Principles of Sedimentology and Stratigraphy. Prentice Hall.",
+            "Dunbar, C.O. and Rodgers, J. (1957). Principles of Stratigraphy. John Wiley and Sons.",
+            "Krishnan, M.S. (1968). Geology of India and Burma. Higgibothon, Madras.",
+            "Kumar, R. (1985). Historical Geology and Stratigraphy of India. Wiley Eastern Ltd.",
+            "Wadia, D.N. (1966). Geology of India. English Language Publ.",
+            "Kumar, R. (2022). Fundamentals of Historical Geology and Stratigraphy of India. New Age International Publishers.",
+            "Brookfield, M.E. Principles of Stratigraphy. Wiley Blackwell.",
+            "Weller, J.M. (1960). Stratigraphic Principles and Practices. Universal Book.",
+            "Valdiya, K.S. (2016). Geodynamic Evolution of India (2nd Edition). Springer.",
+            "Krishna, J. (2017). The Indian Mesozoic Chronicle: Sequence Stratigraphic Approach. Springer, Singapore.",
+            "Ramakrishna, M. and Vaidyanadhan, R. (2010). Geology of India (Vol. 1 & 2). Geological Society of India, Bangalore.",
+            "Sharma, R.S. (2010). Cratons and Fold Belts of India. Springer.",
+            "Chetty, T.R.K. (2018). Proterozoic Orogens of India: A Critical Window to Gondwana. Elsevier.",
+            "Sarkar, S.C. and Gupta, A. (2012). Crustal Evolution and Metallogeny in India. Cambridge University Press.",
+            "Doyle, P. Understanding Fossils: An Introduction to Invertebrate Paleontology. John Wiley & Sons.",
+            "Prothero, D.R. Bringing Fossils to Life: An Introduction to Paleobiology. Columbia University Press, New York."
           ]
         },
         {
@@ -859,20 +1219,34 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Practice problems focused on solving complex orthographic challenges, with an emphasis on interpreting and extracting detailed information from intricate geological maps. 8 259 Course Title"
+              "topics": "Practice problems focused on solving complex orthographic challenges, with an emphasis on interpreting and extracting detailed information from intricate geological maps."
             },
             {
               "unit": 2,
-              "topics": "Advanced-level exercises utilizing stereographic nets for the analysis and interpretation of geological data, including orientation and structural relationships.Practice in calculating strain from geological strain markers, focusing on advanced techniques and methodologies for quantifying deformation in natural rock formations. 7"
+              "topics": "Advanced-level exercises utilizing stereographic nets for the analysis and interpretation of geological data, including orientation and structural relationships.Practice in calculating strain from geological strain markers, focusing on advanced techniques and methodologies for quantifying deformation in natural rock formations."
             },
             {
               "unit": 3,
-              "topics": "Economic Geology:Study of ore and economic minerals in hand specimen of iron ores, manganese ores, bauxite, galena, sphalerite, chromite, magnesite, wolframite and cassiterite, etc. 8"
+              "topics": "Economic Geology:Study of ore and economic minerals in hand specimen of iron ores, manganese ores, bauxite, galena, sphalerite, chromite, magnesite, wolframite and cassiterite, etc."
             },
             {
               "unit": 4,
-              "topics": "Preparation of maps showing distribution of important metallic and non-metallic, industrial minerals deposits;Distribution of important atomic fuels, coal and oil fields of India. 7 Texts /"
+              "topics": "Preparation of maps showing distribution of important metallic and non-metallic, industrial minerals deposits;Distribution of important atomic fuels, coal and oil fields of India."
             }
+          ],
+          "suggested_books": [
+            "Structural Geology:",
+            "Groshong, R.H. and Groshong, R.H. (2006). 3-D Structural Geology. Springer-Verlag Berlin Heidelberg.",
+            "Lisle, R.J. and Leyshon, P.R. (2004). Stereographic Projection Techniques for Geologists and Civil Engineers (2nd edition). Cambridge University Press.",
+            "Lisle, R.J. (2020). Geological Structures and Maps: A Practical Guide. Butterworth- Heinemann.",
+            "Marshak, S. and Mitra, G. (1988). Basic Methods of Structural Geology. Prentice Hall.",
+            "Ragan, D.M. (2009). Structural Geology: An Introduction to Geometrical Techniques (Fourth Edition). Cambridge University Press.",
+            "Rowland, S.M., Duebendorfer, E.M. and Schiefelbein, I.M. (2007). Structural Analysis and Synthesis: A Laboratory Course in Structural Geology (3rd edition). Wiley-Blackwell. Economic Geology:",
+            "Mookherjee, A. (2000). Ore Genesis: A Holistic Approach. Allied Publisher.",
+            "Prasad, U. (2019). Economic Geology. CBS Publishers & Distributors, New Delhi.",
+            "Deb, M. and Sarkar, S.C. (2017). Minerals and Allied Natural Resources and Their Sustainable Development. Springer Singapore.",
+            "Singh, Y. (2020). Rare Earth Element Resources: Indian Context. Springer Cham.",
+            "Aswathanarayana, U. (1985). Principles of Nuclear Geology. Routledge, 1st edition."
           ]
         },
         {
@@ -883,16 +1257,35 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Paleontology: Study of morphological characters, systematic positions, and age of about 30 representative genera belonging to the following groups: Brachiopoda, Bivalvia, Cephalopoda, and Gastropoda. A detailed systematic description of the following genera: Rhynchonella, Terebratula, Arca, Modiolus, Perisphinctes, Nautilus, Natica, and Conus. 10 260 Course Title"
+              "topics": "Paleontology: Study of morphological characters, systematic positions, and age of about 30 representative genera belonging to the following groups: Brachiopoda, Bivalvia, Cephalopoda, and Gastropoda. A detailed systematic description of the following genera: Rhynchonella, Terebratula, Arca, Modiolus, Perisphinctes, Nautilus, Natica, and Conus."
             },
             {
               "unit": 2,
-              "topics": "Stratigraphy: Distribution of the following geological formations on a sedimentary basin map of India: CuddapahSupergroup, VindhyanSupergroup, Marine Lower Permian, GondwanaSupergroup, Marine Mesozoics, Deccan Traps and equivalents, Marine Cenozoic, and Siwalik Group. 10"
+              "topics": "Stratigraphy: Distribution of the following geological formations on a sedimentary basin map of India: CuddapahSupergroup, VindhyanSupergroup, Marine Lower Permian, GondwanaSupergroup, Marine Mesozoics, Deccan Traps and equivalents, Marine Cenozoic, and Siwalik Group."
             },
             {
               "unit": 3,
-              "topics": "Preparation of land/sea distribution on sedimentary basin map of India during Late Precambrian/Early Cambrian, Early Permian, Jurassic, Cretaceous, and Eocene; Study of rocks from important Indian stratigraphic horizons. Some selected exercises on stratigraphic classification. 10 Texts /"
+              "topics": "Preparation of land/sea distribution on sedimentary basin map of India during Late Precambrian/Early Cambrian, Early Permian, Jurassic, Cretaceous, and Eocene; Study of rocks from important Indian stratigraphic horizons. Some selected exercises on stratigraphic classification."
             }
+          ],
+          "suggested_books": [
+            "Black, R. M. (1988):The Elements of Palaeontology, Cambridge University Press.",
+            "Clarkson, E. N. K. (1986):Invertebrate Palaeontology and Evolution, Allen and Unwin Publishers.",
+            "Jain, P. C. and Anantharaman, M. S. (1983):Palaeontology: Evolution and Animal Distribution, Vishal Publishers.",
+            "Lehmann, U. (1983):Fossils Invertebrate, Cambridge University Press.",
+            "Michael J. Benton & David A. T. Harper (2020):Introduction to Paleobiology and the Fossil Record, John Wiley & Sons Ltd.",
+            "Michael Foote & Arnold I. Miller:Principles of Paleontology, John Wiley & Sons Ltd.",
+            "Moore, R. C., Lalicker, C. G. & Fischer, A. G. (1997):Invertebrate Fossils, CBSPublishers.",
+            "Nield, E. W. & Tucker, V. C. T. (1985):Palaeontology: An Introduction, Pergamon Press.",
+            "Prothero, D. R. (2004):Bringing Fossils to Life – An Introduction to Paleontology(2nd Ed.), McGraw Hill.",
+            "Rastogi (1988):Organic Evolution,Kedarnath and Ramnath Publishers.",
+            "Raup, D. M. & Stanley, S. M. (1985):Principles of Palaeontology, CBSPublishers.",
+            "Shrock, R. R. &Twenhoffel, W. H.",
+            ":Principles of Invertebrate Paleontology,CBSPublishers.",
+            "Stebbins (1979):Process of Organic Evolution (3rd Ed.), Prentice Hall.",
+            "Woods, H. (1985):Palaeontology InvertebrateCBSPublishers.",
+            "Peter Doyle:Understanding Fossils, An Introduction to Invertebrate Paleontology, John Wiley & Sons.",
+            "Donald R. Prothero:Bringing Fossils to Life; An Introduction to Paleobiology, Columbia University Press, New York."
           ]
         },
         {
@@ -903,7 +1296,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "2"
+              "topics": ""
             }
           ]
         },
@@ -919,24 +1312,35 @@
             },
             {
               "unit": 2,
-              "topics": "Soil Science and Pedology: Mineralogy and structure of soil, soil forming processes, soil classification and mapping, physical, chemical, biological and fertility properties of soil, pedogeochemistry, soil management and conservation. 10"
+              "topics": "Soil Science and Pedology: Mineralogy and structure of soil, soil forming processes, soil classification and mapping, physical, chemical, biological and fertility properties of soil, pedogeochemistry, soil management and conservation."
             },
             {
               "unit": 3,
-              "topics": "Basic in Agronomy:Agroindustries, Agroecosystems, Agro-climatic Zones, Manures and Fertilizers, Weeds, Herbicides, Insecticides, Fungicides.. 5"
+              "topics": "Basic in Agronomy:Agroindustries, Agroecosystems, Agro-climatic Zones, Manures and Fertilizers, Weeds, Herbicides, Insecticides, Fungicides.."
             },
             {
               "unit": 4,
-              "topics": "Types of Soil, Distribution of Soil in India, Soil Taxonomy, Cropping and Farming System, Harvesting, Organic Agriculture, Crop Profiles, Soil and Water Conservation, Sustainable Agriculture. 10"
+              "topics": "Types of Soil, Distribution of Soil in India, Soil Taxonomy, Cropping and Farming System, Harvesting, Organic Agriculture, Crop Profiles, Soil and Water Conservation, Sustainable Agriculture."
             },
             {
               "unit": 5,
-              "topics": "Study of soil forming rocks and minerals. Determination of physical properties of soil. Study of soil profile in field. Study of soil map of India. Estimation of soil loss. Measurement of soil loss. Preparation of contour maps. Assessing entrepreneurial potential, problem solving ability, managerial skills and achievement motivation, exercise in creativity, time audit, preparation of business plan and proposal writing, visit to entrepreneurship development institute and entrepreneurs. Pollution case studies - Field work: A visit to village to understand the problems being encountered by the villagers / farmers; Listening and note taking, writing skills, oral presentation skills; field diary and lab record; indexing, footnote and bibliographic procedures. 30"
+              "topics": "Study of soil forming rocks and minerals. Determination of physical properties of soil. Study of soil profile in field. Study of soil map of India. Estimation of soil loss. Measurement of soil loss. Preparation of contour maps. Assessing entrepreneurial potential, problem solving ability, managerial skills and achievement motivation, exercise in creativity, time audit, preparation of business plan and proposal writing, visit to entrepreneurship development institute and entrepreneurs. Pollution case studies - Field work: A visit to village to understand the problems being encountered by the villagers / farmers; Listening and note taking, writing skills, oral presentation skills; field diary and lab record; indexing, footnote and bibliographic procedures."
             },
             {
               "unit": 6,
-              "topics": "Identification of crops, seeds, fertilizers, pesticides and tillage implements; Studies on cropping pattern of different dry land areas in the country and demarcation of dry land area on map of India. Plotting and study of demand and supply curves and calculation of elasticities; Study of relationship between market arrivals and prices of some selected commodities. To get acquainted with university extension system. Group discussion - exercise; handling and use of audio-visual equipment’s, digital camera and LCD projector; preparation and use of audio-visual aids, preparation of extension literature – leaflet, booklet, folder, pamphlet news stories and success stories; Presentation skills exercise; micro teaching exercise; Reading and comprehension of general and technical articles, precise writing, summarizing, abstracting; individual and group presentations. 30 Texts /"
+              "topics": "Identification of crops, seeds, fertilizers, pesticides and tillage implements; Studies on cropping pattern of different dry land areas in the country and demarcation of dry land area on map of India. Plotting and study of demand and supply curves and calculation of elasticities; Study of relationship between market arrivals and prices of some selected commodities. To get acquainted with university extension system. Group discussion - exercise; handling and use of audio-visual equipment’s, digital camera and LCD projector; preparation and use of audio-visual aids, preparation of extension literature – leaflet, booklet, folder, pamphlet news stories and success stories; Presentation skills exercise; micro teaching exercise; Reading and comprehension of general and technical articles, precise writing, summarizing, abstracting; individual and group presentations."
             }
+          ],
+          "suggested_books": [
+            "S. C. Panda (2018) A Hand Book of Agriculture. AGROBIOS (INDIA), pp 1304.",
+            "S. Jothimani (2022) Text Book of Soil Science for Agriculture and Geology. Integrated Publications, New Delhi, pp 230.",
+            "S. C. Dutta (2022) Textbook on Physical Chemistry and Mineralogy of Soils. Indian Council of Agricultural Research, pp 360.",
+            "A. N. Puri (2015) Soil Science: An Elementary Text Book. New India Publishing Agency, pp",
+            "H. D. Foth (1991) Fundamentals of Soil Science. 8th Edition, John Wiley & Sons Inc., pp 400.",
+            "Craig C. Sheaffer and Kristine M. Moncada (2016) Introduction to Agronomy Food, Crops, and Environment. Delmar Cengage Learning; 2nd edition, pp 608.",
+            "B. Chandrasekaran, K. Annadurai and E. Somasundaram (2010) A Text Book of Agronomy, pp",
+            "New Age International (P) Limited, Publishers, New Delhi.",
+            "Bipin B. Mishra (2020) The Soils of India. Springer Cham, pp 281."
           ]
         }
       ]
@@ -956,20 +1360,35 @@
             },
             {
               "unit": 2,
-              "topics": "Examination of the geomorphological characteristics of the Peninsular, Extra- Peninsular regions, and the Indo-Gangetic plains. Discussion on the applications of geomorphology in mineral prospecting, civil engineering, military operations, hydrogeology, and environmental studies. 7"
+              "topics": "Examination of the geomorphological characteristics of the Peninsular, Extra- Peninsular regions, and the Indo-Gangetic plains. Discussion on the applications of geomorphology in mineral prospecting, civil engineering, military operations, hydrogeology, and environmental studies."
             },
             {
               "unit": 3,
-              "topics": "Overview of geotectonic principles, including the theories of continental drift, seafloor spreading, and convection currents. Study of paleomagnetism, polar wandering, and the reversal of Earth's magnetic field. Analysis of the geomagnetic timescale and the key geotectonic features of oceans, continents, and continental margins. 7"
+              "topics": "Overview of geotectonic principles, including the theories of continental drift, seafloor spreading, and convection currents. Study of paleomagnetism, polar wandering, and the reversal of Earth's magnetic field. Analysis of the geomagnetic timescale and the key geotectonic features of oceans, continents, and continental margins."
             },
             {
               "unit": 4,
-              "topics": "Detailed study of plate tectonics, including the principles governing plate movements, force balance, and mantle plume models. Examination of orogeny and epeirogeny, and the structural anatomy of orogenic belts. 7"
+              "topics": "Detailed study of plate tectonics, including the principles governing plate movements, force balance, and mantle plume models. Examination of orogeny and epeirogeny, and the structural anatomy of orogenic belts."
             },
             {
               "unit": 5,
-              "topics": "Analysis of the geodynamic processes that have shaped the evolution of the Himalayan mountain range. 2 Texts /"
+              "topics": "Analysis of the geodynamic processes that have shaped the evolution of the Himalayan mountain range."
             }
+          ],
+          "suggested_books": [
+            "Geomorphology:",
+            "Small, R. J. (1978): Study of Landforms: A Textbook of Geomorphology (2nd Edition), Cambridge University Press.",
+            "Burbank, D. W., & Anderson, R. S. (2011): Tectonic Geomorphology, John Wiley & Sons.",
+            "Sharma, H. S. (1990): Indian Geomorphology, Concept Publishing Co., New Delhi.",
+            "Thornbury, W. D. (2004): Principles of Geomorphology (2nd Edition), CBS Publication.",
+            "Kale, V. S., and Avijit Gupta (2010): Introduction to Geomorphology, University Press.",
+            "Bloom, A. L. (2011): Geomorphology: A Systematic Analysis of Late Cenozoic Landforms (3rd Edition), Rawat Publications. Geotectonics:",
+            "Moores, Eldridge M., and Twiss, Robert J. (2015): Tectonics, W. H. Freeman.",
+            "Condie, Kent C. (1989): Plate Tectonics and Crustal Evolution (3rd Edition), Butterworth- Heinemann Ltd.",
+            "Windley, B. (1995): The Evolving Continents (3rd Edition), Wiley-Blackwell.",
+            "Davies, G. F. (1999): Dynamic Earth: Plates, Plumes and Mantle Convection, Cambridge University Press.",
+            "Keller, E. A., and Pinter, N. (2001): Active Tectonics (2nd Edition), Pearson Publications.",
+            "Kearey, P., Klepeis, K. A., and Vine, F. J. (2009): Global Tectonics (3rd Edition), Wiley- Blackwell."
           ]
         },
         {
@@ -980,12 +1399,23 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Macroscopic characterization of banded coals.Completion of outcrop in the given maps andcalculation of coal reserve.Preparation of polished particulate mounts of coal.Microscopicexaminationofpolishedparticulatemounts(identificationofmacerals). 15 273 Course Title"
+              "topics": "Macroscopic characterization of banded coals.Completion of outcrop in the given maps andcalculation of coal reserve.Preparation of polished particulate mounts of coal.Microscopicexaminationofpolishedparticulatemounts(identificationofmacerals)."
             },
             {
               "unit": 2,
-              "topics": "Macroscopic and microscopic study of cores and well cuttings.Study of geological maps andsectionsofimportantoilfieldsofIndia 15 Texts /"
+              "topics": "Macroscopic and microscopic study of cores and well cuttings.Study of geological maps andsectionsofimportantoilfieldsofIndia"
             }
+          ],
+          "suggested_books": [
+            "Isabel Suárez-Ruiz, John Crelling. (2008) Applied Coal Petrology: The Role of Petrology in Coal Utilization, Academic Press.",
+            "Taylor, G.H., Teichmuller, M., Davis, A., Diessel, C.F.K., Littke, R., and Robert, P.",
+            "Organic Petrology, GebruderBorntraeger, Stuttgart.",
+            "Chandra, D., Singh, R.M., Singh, M.P. (2000) Textbook of Coal (Indian Context), Tara Book Agency, Varanasi.",
+            "Singh, M.P. (Ed.) (1998) Coal and Organic Petrology, Hindustan Publishing Corporation, New Delhi.",
+            "Scott, A.C. (1987) Coal and Coal-Bearing Strata: Recent Advances, The Geological Society of London, Publication No. 32, Blackwell Scientific Publications.",
+            "Stach, E., Mackowsky, M.-Th., Taylor, G.H., Chandra, D., Teichmuller, M., and Teichmuller, R. (1982) Stach Textbook of Coal Petrology, GebruderBorntraeger, Stuttgart.",
+            "Holson, G.D. and Tiratso, E.N. (1985) Introduction to Petroleum Geology, Gulf Publishing, Houston, Texas.",
+            "Selley, R.C. (1998) Elements of Petroleum Geology, Academic Press."
           ]
         },
         {
@@ -996,7 +1426,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "4 ES-Minor: same as major ESMJ71 and ESMJ75* 4 * Students may opt any four credit course from Online SWAYAM courses approved by the Department. Total Credits 20 219 VIII-H Any four major elective courses from ESMJ81 to ESMJ85 along with connected practical (4 credit each) 4x4"
+              "topics": "4 ES-Minor: same as major ESMJ71 and ESMJ75* 4 * Students may opt any four credit course from Online SWAYAM courses approved by the Department. Total Credits 20 219 VIII-H Any four major elective courses from ESMJ81 to ESMJ85 along with connected practical (4 credit each) 4x"
             }
           ]
         },
@@ -1008,16 +1438,27 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Geotechnicalpropertiesofrockandsoil,aggregates and ground investigation methods, Rockmass description and classification schemes, types of strength- uniaxial compressive strength, tensile strength, shear stringed, laboratory tests. 15 264 Course Title"
+              "topics": "Geotechnicalpropertiesofrockandsoil,aggregates and ground investigation methods, Rockmass description and classification schemes, types of strength- uniaxial compressive strength, tensile strength, shear stringed, laboratory tests."
             },
             {
               "unit": 2,
-              "topics": "Engineering geological considerations for dam, roads and tunnels. Ground subsidence, slope stability & rock excavation. Fundamental Concepts and principles; Primary division and classification of surveys; Common methods of surveying: Reconnaissance survey, Offsetting, Radiation, and triangulation; Open and close traversing; Leveling. Accuracy and errors in surveying; Basic elements of map preparation and map reading; 15"
+              "topics": "Engineering geological considerations for dam, roads and tunnels. Ground subsidence, slope stability & rock excavation. Fundamental Concepts and principles; Primary division and classification of surveys; Common methods of surveying: Reconnaissance survey, Offsetting, Radiation, and triangulation; Open and close traversing; Leveling. Accuracy and errors in surveying; Basic elements of map preparation and map reading;"
             },
             {
               "unit": 3,
-              "topics": "Working principles and use of different Surveying Instruments: Chain, Plane Table, Prismatic Compass, Dumpy Level, Theodolite and Total Station. Concept of Global Navigation Satellite Systems (GNSS): GPS and Navic. 15 Texts /"
+              "topics": "Working principles and use of different Surveying Instruments: Chain, Plane Table, Prismatic Compass, Dumpy Level, Theodolite and Total Station. Concept of Global Navigation Satellite Systems (GNSS): GPS and Navic."
             }
+          ],
+          "suggested_books": [
+            "Foundations of Engineering Geology:",
+            "S. Gangopadhyay (2012): Engineering Geology, Oxford Press.",
+            "T. Waltham (2009): Foundations of Engineering Geology (Third Edition), Taylor & Francis.",
+            "D. G. Price (2009): Engineering Geology - Principles & Practice, Springer. Surveying:",
+            "Bernhard Hofmann-Wellenhof, Herbert Lichtenegger, and James Collins (2012): Global Positioning System: Theory and Practice (4th Edition), Springer Science & Business Media.",
+            "Punmia, B. C., Jain, A. K., and Jain, A. K. (2016): Surveying, Vol. 1 & Vol. 2, Laxmi Publications (P) Limited, New Delhi.",
+            "Ray Chowdhary, K. P. (1987): Surveying (Plane and Geodetic), Oxford & IBH Pub. Co., New Delhi.",
+            "Shahani, P. B. (1978): Textbook of Surveying, Vol. I, Oxford & IBH Pub. Co., New Delhi.",
+            "Venkataramaiah, C. (2011): Textbook of Surveying, Orient Blackswan Private Limited, New Delhi."
           ]
         },
         {
@@ -1032,12 +1473,28 @@
             },
             {
               "unit": 2,
-              "topics": "Importance of isotopic study in the field of earthscience, Stable isotope geochemistry of carbon, oxygen, and sulphur and its applications. Non-traditional isotopes and their applications. Radiogenic isotopes. Decay scheme of K-Ar, U-Pb, Rb-Sr and Sm- Nd.Radiometric dating of single minerals and whole rocks. Petrogenetic implicationsof Sm-Nd,Rb-Sr,Re-Os andPb-Pbsystems. C14dating and its application in geosciences. Introduction to sedimentary geochemistry. Geochemical processes involved in rock weathering andsoilformation.MineralstabilityinEh-Phdiagrams. 15"
+              "topics": "Importance of isotopic study in the field of earthscience, Stable isotope geochemistry of carbon, oxygen, and sulphur and its applications. Non-traditional isotopes and their applications. Radiogenic isotopes. Decay scheme of K-Ar, U-Pb, Rb-Sr and Sm- Nd.Radiometric dating of single minerals and whole rocks. Petrogenetic implicationsof Sm-Nd,Rb-Sr,Re-Os andPb-Pbsystems. C14dating and its application in geosciences. Introduction to sedimentary geochemistry. Geochemical processes involved in rock weathering andsoilformation.MineralstabilityinEh-Phdiagrams."
             },
             {
               "unit": 3,
-              "topics": "Instrumentation An overview of instrumentation techniques in Geosciences. Their role and importance in addressing fundamental and applied aspects. Sample preparation techniques for various instruments. Precision, accuracy, calibration, and standards. Destructive and non-destructive techniques. Principle and application of the following instrumental techniques in Mineral Sciences:  Microscopes  UV Lamp  X-ray Diffractometer  Image Analyzer  Electron Probe Micro Analyzer  Scanning Electron Microscope  Infrared Spectrometer  Raman Spectroscope  FTIR (Fourier Transform Infrared Spectroscopy) Principle and application of the following instrumental techniques in Geochemistry: 15"
+              "topics": "Instrumentation An overview of instrumentation techniques in Geosciences. Their role and importance in addressing fundamental and applied aspects. Sample preparation techniques for various instruments. Precision, accuracy, calibration, and standards. Destructive and non-destructive techniques. Principle and application of the following instrumental techniques in Mineral Sciences:  Microscopes  UV Lamp  X-ray Diffractometer  Image Analyzer  Electron Probe Micro Analyzer  Scanning Electron Microscope  Infrared Spectrometer  Raman Spectroscope  FTIR (Fourier Transform Infrared Spectroscopy) Principle and application of the following instrumental techniques in Geochemistry:"
             }
+          ],
+          "suggested_books": [
+            "Geochemistry:",
+            "Robin Gill (2015): Chemical Fundamentals of Geology and Environmental Geoscience, John Wiley & Sons Ltd.",
+            "Alan P. Dickins (2005): Radiogenic Isotope Geology, Cambridge University Press.",
+            "Hoefs, J. (1980): Stable Isotope Geochemistry, Springer and Verlag.",
+            "Hugh R. Rollinson (2007): Early Earth Systems: A Geochemical Approach, Blackwell Publishing Ltd.",
+            "Gunter Faure (1977): Principles of Isotope Geology, John Wiley & Sons Ltd.",
+            "Hugh R. Rollinson and V. Pease (2022): Using Geochemical Data: Evaluation, Presentation and Interpretation, Pearson Prentice Hall.",
+            "Potts, P. J. (1992): A Handbook of Silicate Rock Analysis, Springer.",
+            "Albarde Francis (2003): Geochemistry - Introduction, Cambridge University Press.",
+            "Kula C. Misra (2012): Introduction to Geochemistry: Principles and Applications, Wiley- Blackwell. Instrumentation",
+            "Dhanaraju, R. (2009): Handbook of Geochemistry: Techniques and Applications in Mineral Exploration, Geological Society of India.",
+            "Perkins, D. (2013): Mineralogy, Prentice Hall.",
+            "Reed, S. J. B. (2006): Electron Microprobe Analysis and Scanning Electron Microscopy in Geology, Cambridge University Press.",
+            "J. Carey (2016): Geoscience: Instrumentation and Analytical Techniques."
           ]
         },
         {
@@ -1048,20 +1505,30 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Principles of geological methods for mineral exploration, including criteria and guidelines for mineral prospecting. Exploration stages: an overview of geochemical exploration, its methodologies, and the significance of dispersion; geochemical mapping. Introduction to geobotanical exploration techniques 15 267 Course Title"
+              "topics": "Principles of geological methods for mineral exploration, including criteria and guidelines for mineral prospecting. Exploration stages: an overview of geochemical exploration, its methodologies, and the significance of dispersion; geochemical mapping. Introduction to geobotanical exploration techniques"
             },
             {
               "unit": 2,
-              "topics": "Core principles of geological methods for petroleum exploration, including identification and characterization of petroleum source rocks. Analysis of organic matter's quantity, type, and maturation, along with the fundamentals of petroleum generation and migration. Evaluation of oil and gas prospects using geochemical modeling. 10"
+              "topics": "Core principles of geological methods for petroleum exploration, including identification and characterization of petroleum source rocks. Analysis of organic matter's quantity, type, and maturation, along with the fundamentals of petroleum generation and migration. Evaluation of oil and gas prospects using geochemical modeling."
             },
             {
               "unit": 3,
-              "topics": "Overview of geophysics, including fundamental theories of gravity and magnetic methods, as well as the densities and magnetic susceptibilities of rocks and minerals. Examination of the electrical properties of rocks and minerals, self-potential, D.C. resistivity, and induced polarization (IP) methods. Introduction to electromagnetic (EM) induction, fundamentals of seismic theory, reflection and refraction methods. Understanding the principles of radioactivity and the radioactivity of rocks and minerals 10"
+              "topics": "Overview of geophysics, including fundamental theories of gravity and magnetic methods, as well as the densities and magnetic susceptibilities of rocks and minerals. Examination of the electrical properties of rocks and minerals, self-potential, D.C. resistivity, and induced polarization (IP) methods. Introduction to electromagnetic (EM) induction, fundamentals of seismic theory, reflection and refraction methods. Understanding the principles of radioactivity and the radioactivity of rocks and minerals"
             },
             {
               "unit": 4,
-              "topics": "Well-logging and drilling: Understanding the borehole environment and key concepts such as porosity, permeability, and saturation. Overview of well logging methods and their interpretation. Exploration drilling: objectives, types, and advantages. 10 Texts /"
+              "topics": "Well-logging and drilling: Understanding the borehole environment and key concepts such as porosity, permeability, and saturation. Overview of well logging methods and their interpretation. Exploration drilling: objectives, types, and advantages."
             }
+          ],
+          "suggested_books": [
+            "Moon, C. J., Michael, K. G., Whateley, and Evans, A. M. (2006): Introduction to Mineral Exploration, Blackwell Publishing House.",
+            "Banerjee, P. K., and Ghosh, S. (1997): Elements of Prospecting for Non-Fuel Mineral Deposits.",
+            "Tissot, B. P., and Welte, D. H. (1984): Petroleum Formation and Occurrence, Springer– Verlag.",
+            "North, F. K. (1985): Petroleum Geology, Allen &Unwin.",
+            "Selley, R. C. (1998): Elements of Petroleum Geology, Academic Press.",
+            "Schlumberger: Log Interpretation Principles/Application, Schlumberger Wireline& Testing, 225 Schlumberger Drive, Sugar Land, Texas 77478.",
+            "Musset, A. E., and Khan, M. A. (2000): An Introduction to Geological Geophysics, Cambridge University Press.",
+            "Lille, R. (1998): Whole Earth Geophysics: An Introductory Textbook for Geologists and Geophysicists, Pearson; 1st edition."
           ]
         },
         {
@@ -1072,20 +1539,30 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Coal Geology: Definition and origin of coal. Chemical characteristics of coal. Coal petrology – concept and classification of ‘Coallithotypes’ and ‘maceral’. Techniques and methods of coal microscopy. Elementary knowledge of the application of reflectance and fluorescence microscopy. 10 268 Course Title"
+              "topics": "Coal Geology: Definition and origin of coal. Chemical characteristics of coal. Coal petrology – concept and classification of ‘Coallithotypes’ and ‘maceral’. Techniques and methods of coal microscopy. Elementary knowledge of the application of reflectance and fluorescence microscopy."
             },
             {
               "unit": 2,
-              "topics": "Application of coal petrology: Classification of coal in terms of rank, grade, and type. Classification for coking and non-coking coals. Elementary idea about coal preparation. 10"
+              "topics": "Application of coal petrology: Classification of coal in terms of rank, grade, and type. Classification for coking and non-coking coals. Elementary idea about coal preparation."
             },
             {
               "unit": 3,
-              "topics": "Elementary idea about Coal Bed Methane and Underground Coal Gasification. Geological andgeographical distribution of coal and lignite deposits in India.Coal exploration and estimation of coal reserves. Indian coal reserves and production of coal in India. 10"
+              "topics": "Elementary idea about Coal Bed Methane and Underground Coal Gasification. Geological andgeographical distribution of coal and lignite deposits in India.Coal exploration and estimation of coal reserves. Indian coal reserves and production of coal in India."
             },
             {
               "unit": 4,
-              "topics": "Petroleum Geology:Petroleum – its composition. Origin (Formation of source rocks- kerogen,organic maturation and thermal cracking of kerogen) and migration of petroleum.Reservoirrocks-porosityandpermeability.Reservoirtraps–structural, stratigraphic and combinationtraps.Oilfieldfluids–water, oil and gas. On shore and offshore petroliferous basins of India. 15 Texts /"
+              "topics": "Petroleum Geology:Petroleum – its composition. Origin (Formation of source rocks- kerogen,organic maturation and thermal cracking of kerogen) and migration of petroleum.Reservoirrocks-porosityandpermeability.Reservoirtraps–structural, stratigraphic and combinationtraps.Oilfieldfluids–water, oil and gas. On shore and offshore petroliferous basins of India."
             }
+          ],
+          "suggested_books": [
+            "Isabel Suárez-Ruiz, John Crelling. 2008. Applied Coal Petrology: The Role of Petrology in Coal Utilization, Academic Press.",
+            "Taylor, G.H., Teichmuller, M., Davis, A., Diessel, C.F.K., Littke, R., and Robert P. 1998. Organic Petrology, GebruderBorntraeger, Stuttgart.",
+            "Chandra, D., Singh, R.M., Singh, M.P. 2000. Textbook of Coal (Indian context), Tara Book Agency, Varanasi.",
+            "Singh, M.P. (Ed.) 1998. Coal and Organic Petrology, Hindustan Publishing Corporation, New Delhi.",
+            "Scott, A.C. 1987. Coal and Coal-bearing Strata: Recent Advances, The Geological Society of London, Publication no. 32, Blackwell Scientific Publications.",
+            "Stach, E., Mackowsky, M.-Th., Taylor, G.H., Chandra, D., Teichmuller, M., and Teichmuller, R. 1982. Stach Textbook of Coal Petrology, GebruderBorntraeger, Stuttgart.",
+            "Holson, G.D. and Tiratso, E.N. 1985. Introduction to Petroleum Geology, Gulf Publishing, Houston, Texas.Tissot, B.P. and Welte, D.H. 1984. Petroleum Formation and Occurrence, Springer-Verlag.",
+            "North, F.K. 1985. Petroleum Geology, Allen &Unwin."
           ]
         },
         {
@@ -1096,24 +1573,39 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Geomorphology:Drainage and Slope Morphometry, Hypsometry 6 269 Course Title"
+              "topics": "Geomorphology:Drainage and Slope Morphometry, Hypsometry"
             },
             {
               "unit": 2,
-              "topics": "Geomorphology through toposheets 6"
+              "topics": "Geomorphology through toposheets"
             },
             {
               "unit": 3,
-              "topics": "Geomorphology through aerial photos and satellite Imagery, and Terrain aspect mapping. 6"
+              "topics": "Geomorphology through aerial photos and satellite Imagery, and Terrain aspect mapping."
             },
             {
               "unit": 4,
-              "topics": "Geotectonics:Analysis of geotectonic maps focusing on the major lithospheric plates and their movements. Examination of key geotectonic features such as mid-oceanic ridges, aseismic ridges, island arcs, trenches, subduction zones, fracture zones, hot spots, and triple junctions. 6"
+              "topics": "Geotectonics:Analysis of geotectonic maps focusing on the major lithospheric plates and their movements. Examination of key geotectonic features such as mid-oceanic ridges, aseismic ridges, island arcs, trenches, subduction zones, fracture zones, hot spots, and triple junctions."
             },
             {
               "unit": 5,
-              "topics": "Exploration of the characteristics and development of contemporary continental margins and orogenic belts. Detailed study of plate tectonic maps across different geological time periods, focusing on the evolution and interaction of tectonic plates throughout Earth's history. 6 Texts /"
+              "topics": "Exploration of the characteristics and development of contemporary continental margins and orogenic belts. Detailed study of plate tectonic maps across different geological time periods, focusing on the evolution and interaction of tectonic plates throughout Earth's history."
             }
+          ],
+          "suggested_books": [
+            "Geomorphology:",
+            "Small, R.J. 1978. Study of Landforms: A Textbook of Geomorphology (2nd Edition), Cambridge University Press.",
+            "Halis, J.R. 1983. Applied Geomorphology.",
+            "Thornbury, W.D. 2004. Principles of Geomorphology. 2nd Edition, CBS Publication.",
+            "Kale, V.S. and Avijit Gupta 2010. Introduction to Geomorphology, University Press.",
+            "Bloom, A.L. 2011. Geomorphology: A Systematic Analysis of Late Cenozoic Landforms. 3rd Edition, Rawat Publications.",
+            "Summerfield, M.A. 2011. Geomorphology and Global Tectonics, Wiley India Pvt Ltd. Geotectonics:",
+            "Gass, I.G. et al. 1982. Understanding the Earth, Artemis Press (Pvt) Ltd., U.K.",
+            "Condie, Kent C. 1989. Plate Tectonics and Crustal Evolution. 3rd Edition, Butterworth- Heinemann Ltd.",
+            "Windley, B. 1995. The Evolving Continents. 3rd Edition, Wiley-Blackwell.",
+            "Davies, G.F. 1999. Dynamic Earth: Plates, Plumes and Mantle Convection, Cambridge University Press.",
+            "Keller, E.A. and Pinter, N. 2001. Active Tectonics. 2nd Edition, Pearson Publications.",
+            "Kearey, P., Klepeis, K.A. and Vine, F.J. 2009. Global Tectonics. 3rd Edition, Wiley- Blackwell."
           ]
         },
         {
@@ -1124,12 +1616,23 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Engineering Geology: Testing for UCS, Testing for Point Load Strength, Testing for Tensile Strength, Kinematic Analysis for Slope Instability, Slake Durability Index, Analytical Solutions for Stability Analysis, Graphical Solutions for Slope Instability, Sieve Analysis, Python Programming for Geo-engineering Applications. 15 270 Course Title"
+              "topics": "Engineering Geology: Testing for UCS, Testing for Point Load Strength, Testing for Tensile Strength, Kinematic Analysis for Slope Instability, Slake Durability Index, Analytical Solutions for Stability Analysis, Graphical Solutions for Slope Instability, Sieve Analysis, Python Programming for Geo-engineering Applications."
             },
             {
               "unit": 2,
-              "topics": "Surveying: Laboratory and field exercises by surveying instruments viz. Chain, Prismatic Compass, Plane Table, Dumpy Level, Theodolite, and Total Station: Survey of a piece of land by means of common methods of surveying using the suitable surveying instruments. 15 Texts /"
+              "topics": "Surveying: Laboratory and field exercises by surveying instruments viz. Chain, Prismatic Compass, Plane Table, Dumpy Level, Theodolite, and Total Station: Survey of a piece of land by means of common methods of surveying using the suitable surveying instruments."
             }
+          ],
+          "suggested_books": [
+            "Foundations of Engineering Geology",
+            "S. Gangopadhyay, 2012, Engineering Geology, Oxford Press.",
+            "T. Waltham, 2009, Foundations of Engineering Geology (Third edition), Taylor & Francis.",
+            "D. G. Price, 2009, Engineering Geology - Principles & Practice, Springer. Surveying",
+            "Bernhard Hofmann-Wellenhof, Herbert Lichtenegger, James Collins, 2012: Global Positioning System: Theory and Practice, 4th edition, Springer Science & Business Media.",
+            "Punmia, B.C., Jain, A.K., and Jain, A.K., (2016): Surveying, Vol. 1 & Vol. 2, Laxmi Publications (P) Limited, New Delhi.",
+            "Ray Chowdhary, K.P., (1987): Surveying (Plane and Geodetic), Oxford & IBH Pub. Co., New Delhi.",
+            "Shahani, P.B., (1978): Textbook of Surveying, Vol. I, Oxford & IBH Pub. Co., New Delhi.",
+            "Venkataramaiah, C. (2011): Textbook of Surveying, Orient BlackswanPrivate Limited, New Delhi."
           ]
         },
         {
@@ -1140,8 +1643,24 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1"
+              "topics": ""
             }
+          ],
+          "suggested_books": [
+            "Robin Gill (2015) Chemical Fundamentals of Geology and Environmental Geoscience, John Wiley & Sons Ltd.",
+            "Alan P. Dickins (2005) Radiogenic Isotope Geology, Cambridge University Press.",
+            "Hoefs, J. (1980) Stable Isotope Geochemistry, Springer and Verlag.",
+            "Hugh R. Rollinson (2007) Early Earth Systems: A Geochemical Approach, Blackwell Publishing Ltd.",
+            "Gunter Faure (1977) Principles of Isotope Geology, John Wiley & Sons Ltd.",
+            "Hugh R. Rollinson and V. Pease (2022) Using Geochemical Data: Evaluation, Presentation and Interpretation, Pearson Prentice Hall.",
+            "Potts, P.J. (1992) A Handbook of Silicate Rock Analysis, Springer.",
+            "Albarde Francis (2003) Geochemistry - Introduction, Cambridge University Press.",
+            "Kula C. Misra (2012) Introduction to Geochemistry: Principles and Applications, Wiley- Blackwell.",
+            "Instrumentation in Geosciences",
+            "Dhanaraju, R. (2009) Handbook of Geochemistry: Techniques and Applications in Mineral Exploration, Geological Society of India.",
+            "Perkins, D. (2013) Mineralogy, Prentice Hall.",
+            "Reed, S.J.B. (2006) Electron Microprobe Analysis and Scanning Electron Microscopy in Geology, Cambridge University Press.",
+            "J. Carey (2016) Geoscience: Instrumentation and Analytical Techniques."
           ]
         },
         {
@@ -1152,8 +1671,18 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1"
+              "topics": ""
             }
+          ],
+          "suggested_books": [
+            "Moon, C.J., Micheal, K.G., Whateley, and Evans, A.M. (2006) Introduction to Mineral Exploration, Blackwell Publishing House.",
+            "Banerjee, P.K. and Ghosh, S. (1997) Elements of Prospecting for Non-Fuel Mineral Deposits.",
+            "Tissot, B.P. and Welte, D.H. (1984) Petroleum Formation and Occurrence, Springer- Verlag.",
+            "North, F.K. (1985) Petroleum Geology, Allen &Unwin.",
+            "Selley, R.C. (1998) Elements of Petroleum Geology, Academic Press.",
+            "Schlumberger Log Interpretation Principles/Application, Schlumberger Wireline& Testing 225, Schlumberger Drive Sugarland, Texas 77478.",
+            "Musset, A.E. and Khan, M.A. (2000) An Introduction to Geological Geophysics, Cambridge University Press.",
+            "Lille, R. (1998) Whole Earth Geophysics: An Introductory Textbook for Geologists and Geophysicists, Pearson; 1st edition."
           ]
         }
       ]
@@ -1181,16 +1710,24 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "An Introduction to Marine Geology: Origin and morphology of the ocean floor, ocean margins, and coastal features. Marine sediments, their types, deposition, distribution, and diagenetic changes. Mineral resources. 15 275 Course Title"
+              "topics": "An Introduction to Marine Geology: Origin and morphology of the ocean floor, ocean margins, and coastal features. Marine sediments, their types, deposition, distribution, and diagenetic changes. Mineral resources."
             },
             {
               "unit": 2,
-              "topics": "Micropaleontology: Definition and scope, microfossil types, analysis techniques, and applications in paleoceanographic/paleoclimatic reconstructions. 15"
+              "topics": "Micropaleontology: Definition and scope, microfossil types, analysis techniques, and applications in paleoceanographic/paleoclimatic reconstructions."
             },
             {
               "unit": 3,
-              "topics": "Physical and chemical properties of seawater, ocean currents and circulations; fundamentals ofclimatology:Ocean’s role in climate change, Global warming and greenhouse gases; an overview ofclimatepolicyand GlobalagreementsliketheKyotoProtocolandParisAgreement. 15 Texts /"
+              "topics": "Physical and chemical properties of seawater, ocean currents and circulations; fundamentals ofclimatology:Ocean’s role in climate change, Global warming and greenhouse gases; an overview ofclimatepolicyand GlobalagreementsliketheKyotoProtocolandParisAgreement."
             }
+          ],
+          "suggested_books": [
+            "Pratul Kumar Saraswati and M.S. Srinivasan, 2016.Micropaleontology: Principles and Applications. Springer Cham Heidelberg New York Dordrecht London.",
+            "Alan P.T. and Harold V.T., 2019.Essentials of Oceanography. Pearson Education.",
+            "Wright, J.M. and Colling, A., 2013.Seawater: Its Composition, Properties and Behaviour: Prepared by an Open University Course Team. Elsevier.",
+            "Kennett, James P., 1982.Marine Geology. Prentice-Hall, Englewood Cliffs, N.J.",
+            "Rohli, R.V. and Vega, A.J., 2017.Climatology. Jones & Bartlett Learning.",
+            "John L. Mero, 1964.Mineral Resources of the Sea. Elsevier Publishing Company, University of Virginia."
           ]
         },
         {
@@ -1201,8 +1738,14 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1 ES-Minor: same as major ESMJ84 and ESMJ89* 3+1 * Students may opt any four credit course from Online SWAYAM courses approved by the Department. Total Credits 20 Research Students VII-R Same as VII-H 20 VIII-R Any one major elective courses from ESMJ81 to ESMJ85 along with connected practical (4 credit each)(List Same as VIII-H) (3+1) ES-Minor: same as major ESMJ71 and ESMJ75* 4"
+              "topics": "1 ES-Minor: same as major ESMJ84 and ESMJ89* 3+1 * Students may opt any four credit course from Online SWAYAM courses approved by the Department. Total Credits 20 Research Students VII-R Same as VII-H 20 VIII-R Any one major elective courses from ESMJ81 to ESMJ85 along with connected practical (4 credit each)(List Same as VIII-H) (3+1) ES-Minor: same as major ESMJ71 and ESMJ75*"
             }
+          ],
+          "suggested_books": [
+            "Perry, C. T. and Taylor, K. G. (2006): Environmental Sedimentology, Blackwell Publ., U.K.",
+            "Reading, H. G. (1996): Sedimentary Environments and Facies, Blackwell Scientific Publ.",
+            "Emery, D. and Myers, K. (1996): Sequence Stratigraphy, Blackwell Science Ltd.",
+            "Haq, B. U. (1995): Sequence Stratigraphy and Depositional Response to Eustatic, Tectonic, and Climatic Forcing, Springer."
           ]
         },
         {
@@ -1213,20 +1756,34 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Concepts of Georesources, Classification of Georesources, Renewable and Non- Renewable Resources, Mineral, Energy, Water, and Land Resources. Greenfield and Brownfield Georesources. 10 276 Course Title"
+              "topics": "Concepts of Georesources, Classification of Georesources, Renewable and Non- Renewable Resources, Mineral, Energy, Water, and Land Resources. Greenfield and Brownfield Georesources."
             },
             {
               "unit": 2,
-              "topics": "Classification of Mineral Resources, Mineral Resource Exploration, Feasibility and Production, Preservation of Environment and Sustainable Development of Mineral Resources, Mineral Conservation, World Mineral Resources and Reserves. Geopolitics on Mineral Resources, Blue Economy, Marine Mineral Resources. 10"
+              "topics": "Classification of Mineral Resources, Mineral Resource Exploration, Feasibility and Production, Preservation of Environment and Sustainable Development of Mineral Resources, Mineral Conservation, World Mineral Resources and Reserves. Geopolitics on Mineral Resources, Blue Economy, Marine Mineral Resources."
             },
             {
               "unit": 3,
-              "topics": "Concept of Mineral Economics, Mineral Industry in India, Definition of Mineral and Mineral Deposit in Commercial and Legal Literature. Mineral Laws and Taxation, Mineral Market, Internal and External Trade, Demand and Supply, Consumption and Substitution. 10"
+              "topics": "Concept of Mineral Economics, Mineral Industry in India, Definition of Mineral and Mineral Deposit in Commercial and Legal Literature. Mineral Laws and Taxation, Mineral Market, Internal and External Trade, Demand and Supply, Consumption and Substitution."
             },
             {
               "unit": 4,
-              "topics": "National Mineral Policy and Legislation, Mines and Minerals (Development & Regulation) Act inIndia, Law of Sea (UNCLOS), International Seabed Authority (ISA), Exclusive economic zones(EEZ),Legal continental shelf(LCS). 15 Texts /"
+              "topics": "National Mineral Policy and Legislation, Mines and Minerals (Development & Regulation) Act inIndia, Law of Sea (UNCLOS), International Seabed Authority (ISA), Exclusive economic zones(EEZ),Legal continental shelf(LCS)."
             }
+          ],
+          "suggested_books": [
+            "K.L. Shrivastava and Arun Kumar (2014) Geo-Resources. Scientific Publishers, pp 672.",
+            "J. Craig, D. Vaughan and B. Skinner (2010) Earth Resources and the Environment. Pearson Publication, pp 528.",
+            "S.E. Kesler and A.C. Simon (2010) Mineral Resources, Economics and the Environment. Cambridge University Press, pp 392.",
+            "K.S. Valdiya (2016) Environmental Geology. Second Edition, McGraw Hill Education India Pvt. Ltd.",
+            "R.K. Sinha and N.L. Sharma (2019) Mineral Economics. 4th Edition, Oxford & IBH Publishing, pp 410.",
+            "K.N. Jetli (2011) Mineral Resources and Policy in India. New Century Publications, pp 356.",
+            "Fillmore C.F. Earney (2002) Marine Mineral Resources. Taylor & Francis, pp 405.",
+            "Pradeep Kumar Jain (2021) Mineral Policy, Mining Laws and Development, 2nd Edition, Scientific Publishers, pp 290.",
+            "P.L. Billon (2005) Geopolitics of Resource Wars: Resource Dependence, Governance and Violence. Frank Cass Publishers, pp 277.",
+            "Indian Mineral Year Book, Indian Bureau of Mines.",
+            "M.S. Cato (2009) Green Economics. Earthscan Publishing, London, pp 224.",
+            "A.M. Hussen (2000) Principles of Environmental Economics. Routledge London, pp 354."
           ]
         },
         {
@@ -1241,16 +1798,25 @@
             },
             {
               "unit": 2,
-              "topics": "Groundwater flow, Darcy's law and its validity, intrinsic permeability and hydraulic conductivity, Basic concepts of Well hydraulics and Groundwater exploration, Steady flow in confined and unconfined aquifers. Groundwater. Physical and chemical properties of groundwater and its quality, Graphic representation of chemical data, Environmental isotopes and its application in hydrogeological studies. Sea water intrusion in coastal aquifers. Artificial recharge of groundwater, Surface and subsurface water interaction, Groundwater Provinces of India 08"
+              "topics": "Groundwater flow, Darcy's law and its validity, intrinsic permeability and hydraulic conductivity, Basic concepts of Well hydraulics and Groundwater exploration, Steady flow in confined and unconfined aquifers. Groundwater. Physical and chemical properties of groundwater and its quality, Graphic representation of chemical data, Environmental isotopes and its application in hydrogeological studies. Sea water intrusion in coastal aquifers. Artificial recharge of groundwater, Surface and subsurface water interaction, Groundwater Provinces of India"
             },
             {
               "unit": 3,
-              "topics": "Soil Geology:Concept of soil, components of soil, Processes of soil formation; factors affecting oilformation;soil profile; Phase relationshipand grain size analysis; Classifications of soil,mineral and chemical composition of soils, Soil organic matter form and function; mineral stability during weathering; A brief introduction to methods of soil conservation. Concepts of soil structure andfabric: Soil fabric, soil structure, soil texture and field grading units;Peds and pedalilty, size and shape of peds, pedality, primary, secondary and tertiary structures and their interpretation;Voids-concepts,size,shape,arrangementandmorphological classification. 08"
+              "topics": "Soil Geology:Concept of soil, components of soil, Processes of soil formation; factors affecting oilformation;soil profile; Phase relationshipand grain size analysis; Classifications of soil,mineral and chemical composition of soils, Soil organic matter form and function; mineral stability during weathering; A brief introduction to methods of soil conservation. Concepts of soil structure andfabric: Soil fabric, soil structure, soil texture and field grading units;Peds and pedalilty, size and shape of peds, pedality, primary, secondary and tertiary structures and their interpretation;Voids-concepts,size,shape,arrangementandmorphological classification."
             },
             {
               "unit": 4,
-              "topics": "Paleosols - Field recognition, description, origin and causes; paleosol in stratigraphic records; significance of paleosols; paleosols and human evolution. Calcrete - Definition, classification, calcrete formation, pedogeniccalcrete profiles, macrofeatures in calcretes, micromorphology (petrography), calcretes from Quaternary and ancient sedimentary sequences; significance of calcretes. Laterite - Characteristics, genesis, Indian occurrences. 07 Texts /"
+              "topics": "Paleosols - Field recognition, description, origin and causes; paleosol in stratigraphic records; significance of paleosols; paleosols and human evolution. Calcrete - Definition, classification, calcrete formation, pedogeniccalcrete profiles, macrofeatures in calcretes, micromorphology (petrography), calcretes from Quaternary and ancient sedimentary sequences; significance of calcretes. Laterite - Characteristics, genesis, Indian occurrences."
             }
+          ],
+          "suggested_books": [
+            "Groundwater Hydrology:",
+            "Todd, D.K. (2006). Groundwater Hydrology, 2nd Ed., John Wiley & Sons, N.Y.",
+            "Davis, S.N., and DeWeist, R.J.M. (1966). Hydrogeology, John Wiley & Sons Inc., N.Y.",
+            "Karanth, K.R. (1987). Groundwater: Assessment, Development and Management, Tata McGraw-Hill Pub. Co. Ltd. Soil Geology:",
+            "Braddy, N.C. Nature and Properties of Soils.",
+            "Gerrard, A.J.J. Soil and Landforms.",
+            "GovindaRajan, S.V., &GopalaRao, K.H.G. Studies of Soils of India."
           ]
         },
         {
@@ -1261,20 +1827,27 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Electromagnetic Radiation – characteristics, remote sensing regions, and bands; general characteristics of remote sensing satellites, its orbital parameters, and sensors; natural objects spectra – soil, rock, water, and vegetation. 06 278 Course Title"
+              "topics": "Electromagnetic Radiation – characteristics, remote sensing regions, and bands; general characteristics of remote sensing satellites, its orbital parameters, and sensors; natural objects spectra – soil, rock, water, and vegetation."
             },
             {
               "unit": 2,
-              "topics": "Digital Image Processing – characteristics of remote sensing data, georeferencing, preprocessing/correction, enhancements, and classification; elements of photo and imagery pattern and interpretation; application in geology. 09"
+              "topics": "Digital Image Processing – characteristics of remote sensing data, georeferencing, preprocessing/correction, enhancements, and classification; elements of photo and imagery pattern and interpretation; application in geology."
             },
             {
               "unit": 3,
-              "topics": "Hyperspectral, Thermal, and Microwave Remote Sensing; remote sensing applications in interpreting structure and tectonics, lithological mapping, mineral resources, groundwater potentials, and environmental monitoring. 09"
+              "topics": "Hyperspectral, Thermal, and Microwave Remote Sensing; remote sensing applications in interpreting structure and tectonics, lithological mapping, mineral resources, groundwater potentials, and environmental monitoring."
             },
             {
               "unit": 4,
-              "topics": "Concept of Datum and Types; different map projection systems; principles and components of GIS; remote sensing data integration with GIS; applications of GIS in various geological studies. 06 Texts /"
+              "topics": "Concept of Datum and Types; different map projection systems; principles and components of GIS; remote sensing data integration with GIS; applications of GIS in various geological studies."
             }
+          ],
+          "suggested_books": [
+            "Drury, S.A. (2001): Image Interpretation in Geology, Allen and Unwin.",
+            "Gupta, R.P. (1991): Remote Sensing Geology, Springer-Verlag.",
+            "Lillesand, T.M. and Kiefer, R.W. (1987): Remote Sensing and Image Interpretation, John Wiley.",
+            "B.S. and Gillespie, A.R. (1980): Remote Sensing in Geology, John Wiley.",
+            "Burrough, P.A. and McDonnell, R.A. (1998): Principles of Geographic Information Systems."
           ]
         },
         {
@@ -1285,16 +1858,23 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Principles of basin analysis; Methods and techniques of basin analysis; Tectonic classification of sedimentary basins, factors and processes controlling sedimentation; Sedimentary basins and their geothermal evolution. 10"
+              "topics": "Principles of basin analysis; Methods and techniques of basin analysis; Tectonic classification of sedimentary basins, factors and processes controlling sedimentation; Sedimentary basins and their geothermal evolution."
             },
             {
               "unit": 2,
-              "topics": "Facies analysis, sedimentary facies and facies models with Indian examples; Sediment dispersal patterns and paleocurrent analysis. Depositional environments of different sedimentary basins such as fluvial, shallow marine, and deep 10"
+              "topics": "Facies analysis, sedimentary facies and facies models with Indian examples; Sediment dispersal patterns and paleocurrent analysis. Depositional environments of different sedimentary basins such as fluvial, shallow marine, and deep"
             },
             {
               "unit": 3,
-              "topics": "Facies analysis, sedimentary facies and facies models with Indian examples; Sediment dispersal patterns and paleocurrent analysis. Depositional environments of different sedimentary basins such as fluvial, shallow marine, and deep 10 Texts /"
+              "topics": "Facies analysis, sedimentary facies and facies models with Indian examples; Sediment dispersal patterns and paleocurrent analysis. Depositional environments of different sedimentary basins such as fluvial, shallow marine, and deep"
             }
+          ],
+          "suggested_books": [
+            "Allen, P.A., and Allen, J.R.L. (2005): Basin Analysis: Principles and Application, Blackwell Publishing.",
+            "Miall, A.D. (2000): Principles of Basin Analysis, Springer-Verlag.",
+            "Perry, C.T., and Taylor, K.G. (2006): Environmental Sedimentology, Blackwell Publishing, U.K.",
+            "Reading, H.G. (1996): Sedimentary Environments and Facies, Blackwell Scientific Publishing.",
+            "Reineck, H.E., and Singh, I.B. (1978): Depositional Sedimentary Environments, Springer- Verlag."
           ]
         },
         {
@@ -1305,16 +1885,21 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Types of microfossils- calcareous, siliceous, phosphatic and organic walled microfossils. 14"
+              "topics": "Types of microfossils- calcareous, siliceous, phosphatic and organic walled microfossils."
             },
             {
               "unit": 2,
-              "topics": "Study of major sea-floor features.Study of ocean floor sediments/ rocks/ minerals. 6"
+              "topics": "Study of major sea-floor features.Study of ocean floor sediments/ rocks/ minerals."
             },
             {
               "unit": 3,
-              "topics": "Grain size analysis of ocean floor sediments.Use of Ocean Data view in location plot and data visualization 10 Texts /"
+              "topics": "Grain size analysis of ocean floor sediments.Use of Ocean Data view in location plot and data visualization"
             }
+          ],
+          "suggested_books": [
+            "Pratul Kumar Saraswati and M.S. Srinivasan (2016): Micropaleontology: Principles and Applications, Springer, Cham, Heidelberg, New York, Dordrecht, London.",
+            "Kennett, James P. (1982): Marine Geology, Prentice-Hall, Englewood Cliffs, N.J.",
+            "Burk, C.A. and Drake, C.L. (2013): The Geology of Continental Margins, Springer."
           ]
         },
         {
@@ -1325,20 +1910,30 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Study of United Nations Framework Classification (UNFC) for Georesources as detailed in the theory syllabus. 05 280 Course Title"
+              "topics": "Study of United Nations Framework Classification (UNFC) for Georesources as detailed in the theory syllabus."
             },
             {
               "unit": 2,
-              "topics": "Mineral Resource Valuation Techniques: Cur-off Grades, Tonnage Factor, Specifications, Reserve Estimation. 10"
+              "topics": "Mineral Resource Valuation Techniques: Cur-off Grades, Tonnage Factor, Specifications, Reserve Estimation."
             },
             {
               "unit": 3,
-              "topics": "Analysis and graphical representation of important Georesources. Preparation of maps showing distribution of important Georesources of India and World. 10"
+              "topics": "Analysis and graphical representation of important Georesources. Preparation of maps showing distribution of important Georesources of India and World."
             },
             {
               "unit": 4,
-              "topics": "Learning and report writing on national and international mineral policy. 05 Texts /"
+              "topics": "Learning and report writing on national and international mineral policy."
             }
+          ],
+          "suggested_books": [
+            "R.K. Sinha and N.L. Sharma (2019): Mineral Economics, 4th Edition, Oxford & IBH Publishing, pp. 410.",
+            "G.S. Roonwal (2018): Mineral Exploration: Practical Application, Springer Nature Singapore, pp. 1-298.",
+            "J.H. Reedman (1979): Techniques in Mineral Exploration, Applied Science Publishers Ltd., London, pp. 1-533.",
+            "M.E. Rossi and C.V. Deutsch (2014): Mineral Resource Estimation, Springer Dordrecht Heidelberg, pp. 1-332.",
+            "Haddon F. King (1982): A Guide to the Understanding of Ore Reserve Estimation, Australasian Institute of Mining and Metallurgy, Australia, pp. 1-21.",
+            "Indian Minerals Yearbook, Indian Bureau of Mines, Ministry of Mines, Government of India.",
+            "National Mineral Policy, Ministry of Mines. https://mines.gov.in",
+            "United Nations Framework Classification for Fossil Energy and Mineral Reserves and Resources."
           ]
         },
         {
@@ -1349,12 +1944,17 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "Water balance computation of a micro watershed: Preparation and interpretation of water level contour maps and depth to water level maps. Delineation of hydrological boundaries on water table contour maps and analysis of hydrographs for differing groundwater conditions. Estimation of aquifer properties such as hydraulic conductivity, storage coefficient, and transmissivity. Analysis of hydrographs for various components 15"
+              "topics": "Water balance computation of a micro watershed: Preparation and interpretation of water level contour maps and depth to water level maps. Delineation of hydrological boundaries on water table contour maps and analysis of hydrographs for differing groundwater conditions. Estimation of aquifer properties such as hydraulic conductivity, storage coefficient, and transmissivity. Analysis of hydrographs for various components"
             },
             {
               "unit": 2,
-              "topics": "Physico-chemical analysis of groundwater and graphical presentation of water quality: Determination of groundwater suitability for drinking and irrigation purposes. Simple numerical problems related to: determination of permeability in field and laboratory, groundwater flow, well hydraulics, etc. 15 Texts /"
+              "topics": "Physico-chemical analysis of groundwater and graphical presentation of water quality: Determination of groundwater suitability for drinking and irrigation purposes. Simple numerical problems related to: determination of permeability in field and laboratory, groundwater flow, well hydraulics, etc."
             }
+          ],
+          "suggested_books": [
+            "Todd, D. K. (2006). Groundwater Hydrology, 2nd Ed., John Wiley & Sons, N.Y.",
+            "Davis, S. N., and DeWeist, R. J. M. (1966). Hydrogeology, John Wiley & Sons Inc., N.Y.",
+            "Karanth, K. R. (1987). Groundwater: Assessment, Development and Management, Tata McGraw-Hill Pub. Co. Ltd."
           ]
         },
         {
@@ -1365,8 +1965,15 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": "1"
+              "topics": ""
             }
+          ],
+          "suggested_books": [
+            "Drury, S. A. (2001). Image Interpretation in Geology, Allen and Unwin.",
+            "Gupta, R. P. (1991). Remote Sensing Geology, Springer-Verlag.",
+            "Lillesand, T. M., and Kiefer, R. W. (1987). Remote Sensing and Image Interpretation, John Wiley.",
+            "B. S. and Gillespie, A. R. (1980). Remote Sensing in Geology, John Wiley.",
+            "Burrough, P. A., and McDonnell, R. A. (1998). Principles of Geographic Information Systems"
           ]
         }
       ]

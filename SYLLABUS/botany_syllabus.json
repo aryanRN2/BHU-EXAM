@@ -32,6 +32,17 @@
               "unit": 5,
               "topics": "Ecological adaptation: Hydrophytes and xerophytes 7.0 h Texts/"
             }
+          ],
+          "suggested_books": [
+            "Odum EP, Barrett GW (2005) Fundamentals of Ecology, Thomson Ed. Brooks/Cole, Cengage Learning India Pvt. Ltd, New Delhi.",
+            "Odum EP (1983) Basic Ecology Ed. Saunders College Pub, New York.",
+            "Smith TM, Smith RL (2008) Elements of Ecology, 7th edition, Benjamin- Cummings New York.",
+            "Miller GT (2004) Essentials of Ecology, 3rd edition, Brooks, Cole, New York.",
+            "Smith RL (2001) Ecology and Field Biology, Benjamin Cummings, New York.",
+            "Vallero D (2014) Fundamentals of Air Pollution, 3rd edition, Academic Press, Elsevier, Burlington.",
+            "Klassen C, Watkins JB (2010) Essentials of Toxicolgy, 2nd edition, McGraw- Hill Companies, New York.",
+            "Singh JS, Singh SP, Gupta SR (2014) Ecology Environmental Science and Conservation, S Chand & Co, New Delhi.",
+            "Mueller-Dombois D and Ellenberg H (1974) Aims and Methods of Vegetation Ecology. Wiley & Sons., NY, USA"
           ]
         },
         {
@@ -80,6 +91,10 @@
               "unit": 5,
               "topics": "Structure, reproduction and life cycles of representative genera of Pteridophytes:  Lycophyta: Selaginella  Sphenophyta: Equisetum  Filicophyta: Pteris 8.0 h Texts/"
             }
+          ],
+          "suggested_books": [
+            "F.E. Fritsch (1935, reprinted in 1979). Structure and Reproduction of the Algae. Vol I.Vikash Publishing House Pvt. Ltd, New Delhi",
+            "F.E. Fritsch (1945, reprinted in 1979). Structure and Reproduction of the Algae. Vol I.Vikash Publishing House Pvt. Ltd, New Delhi 1 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 2 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
           ]
         },
         {
@@ -136,6 +151,9 @@
               "unit": 5,
               "topics": "Structure, reproduction and life cycles of representative genera of Pteridophytes:  Lycophyta: Selaginella  Sphenophyta: Equisetum  Filicophyta: Pteris 8.0 h Texts /"
             }
+          ],
+          "suggested_books": [
+            "F.E. Fritsch (1935, reprinted in 1979). Structure and Reproduction of the Algae. Vol I.Vikash Publishing House Pvt. Ltd, New Delhi 2 F.E. Fritsch (1945, reprinted in 1979). Structure and Reproduction of the Algae. Vol I.Vikash Publishing House Pvt. Ltd, New Delhi 3 Morris I (1967) Introduction to Algae, Hutchinson University Library, London. 4 Lee RE (2018) Phycology, Fifth Edition. Cambridge University Press, New Delhi. 5 Smith GM (1972) Cryptogamic Botany Vol I and II, Tata McGraw Hill Publishing Co Ltd, New Delhi. 6 Alexopolous CJ, Mims CW, Blackwell M (2007 Reprinted in 2013) Introductory Mycology 4th edition,Wiley, India, New Delhi.. 3 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 4 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
           ]
         },
         {
@@ -188,6 +206,11 @@
               "unit": 4,
               "topics": "Waste management: Rules and regulations 7.0 h Texts/"
             }
+          ],
+          "suggested_books": [
+            "Singh JS, Singh SP and Gupta SR. 2014. Ecology, Environmental Science and Conservation. S. Chand & Company Pvt. Ltd., New Delhi",
+            "Hassan A. 2022. Introduction to waste management: a text book. Wiley publishers",
+            "Linda G. 2021. Waste management practices in developing countries (Eds). MDPI"
           ]
         },
         {
@@ -279,7 +302,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": " History and scope of microbiology  Microbes in extreme environment 8.0 h 15 Texts/"
+              "topics": " History and scope of microbiology  Microbes in extreme environment 8.0 h"
             },
             {
               "unit": 2,
@@ -713,7 +736,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": " Systematics: Principles, outline, merits and demerits of classification; Bentham and Hooker’s system, Hutchinson system 8.0 h 28 Texts/"
+              "topics": " Systematics: Principles, outline, merits and demerits of classification; Bentham and Hooker’s system, Hutchinson system 8.0 h"
             },
             {
               "unit": 2,
@@ -805,7 +828,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": " Introduction to ecology  Abiotic environment: Atmosphere, temperature, water, light and soil (structure and soil profile) 8.0 h 31"
+              "topics": " Introduction to ecology  Abiotic environment: Atmosphere, temperature, water, light and soil (structure and soil profile) 8.0 h"
             },
             {
               "unit": 2,
@@ -917,7 +940,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": " Systematics: Principles, outline, merits and demerits of classification; Bentham and Hooker’s system, Hutchinson system 8.0 h 34 Texts/"
+              "topics": " Systematics: Principles, outline, merits and demerits of classification; Bentham and Hooker’s system, Hutchinson system 8.0 h"
             },
             {
               "unit": 2,
@@ -1190,7 +1213,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": " Isolation of DNA (genomic and plasmid) and RNA, qualitative and quantitative analyses of nucleic acids, labeling of nucleic acids, reverse-transcription  DNA modifying enzymes: Endonucleases, exonucleases, ligase, types and nomenclature of restriction enzymes, isoschizomers and neoschizomers, polymerases, Klenow fragment, phosphatase, transcriptase, transferase, topoisomerase, telomerase, in vitro translation 10.0 h 43 Texts/"
+              "topics": " Isolation of DNA (genomic and plasmid) and RNA, qualitative and quantitative analyses of nucleic acids, labeling of nucleic acids, reverse-transcription  DNA modifying enzymes: Endonucleases, exonucleases, ligase, types and nomenclature of restriction enzymes, isoschizomers and neoschizomers, polymerases, Klenow fragment, phosphatase, transcriptase, transferase, topoisomerase, telomerase, in vitro translation 10.0 h"
             },
             {
               "unit": 2,
@@ -1355,7 +1378,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": " Classification (Fritsch's system) and general characteristics of major classes  Pigmentation and storage products  Thallus organization and evolutionary tendencies 8.0 h 48 49 Course Title"
+              "topics": " Classification (Fritsch's system) and general characteristics of major classes  Pigmentation and storage products  Thallus organization and evolutionary tendencies 8.0 h"
             },
             {
               "unit": 2,
@@ -1758,6 +1781,14 @@
               "unit": 5,
               "topics": " Gene expression and its regulation in plants: Transcription factors and cis-regulatory elements (CREs), epigenetic mechanisms of transcriptional regulation, translational control, programmed DNA rearrangements.  Gene editing and its applications: Zinc-finger nucleases (ZFNs), transcription  activator-like effector nucleases (TALENs), CRISPR/Cas systems 12.0 h"
             }
+          ],
+          "suggested_books": [
+            "Bhojwani SS &amp; Dantu PK (2013) Plant Tissue Culture: An Introductory Text, Springer.",
+            "Park S (2021) Plant Tissue Culture: Techniques and Experiments, Fourth Edition, Academic Press, Elsevier.",
+            "Razdan MK (2003) Introduction to Plant Tissue Culture, Science Publishers, USA",
+            "Slater A, Scott NW and Fowler MR (2008) Plant biotechnology: the genetic manipulation of plants, second edition, Oxford University Press.",
+            "Sahni S, Prasad BD and Kumar P (2017) Plant Biotechnology: Transgenics, Stress",
+            "Management and Biosafety Issues, CRC Press."
           ]
         },
         {
@@ -1910,6 +1941,14 @@
               "unit": 5,
               "topics": " Carbon concentrating mechanisms (CCM) in plants and cyanobacteria: Photorespiration, Components of CCM, Pyrenoids, Carboxysome, RuBISCO, Carbonic anhydrase 6.5 h"
             }
+          ],
+          "suggested_books": [
+            "Ruban, A., Foyer, C., & Murchie, E. (Eds.). (2022). Photosynthesis in Action: Harvesting Light, Generating Electrons, Fixing Carbon. Academic Press.",
+            "Taiz L, Zeiger E (2015) Plant Physiology and Development, 7th edition, Sinauer Associates Inc. Publishers, Sunderland.",
+            "Hopkins WG, Hunter NPA (2011) Introduction to Plant Physiology, Wiley International edition, John Wiley & Sons, New Jersey.",
+            "Buchanan B, GruissemW, Jones RL (2002) Biochemistry and Molecular Biology of Plants, American Society of Plant Biologists, Rockville.",
+            "Devlin R.M. (1983) Plant Physiology, Cengage Learning Inc., London.",
+            "Salisbury F.B., Ross C.W. (2004) Plant Physiology, Wadsworth, California"
           ]
         },
         {
@@ -2006,6 +2045,16 @@
               "unit": 5,
               "topics": "Research Reporting and Presentation Structure and components of a research report (introduction, methodology, results, discussion, conclusion), Guidelines for writing a thesis or dissertation, writing research papers and articles for journals, Techniques for presenting research findings orally and visually, Understanding the publication process and choosing appropriate journals 6.0 h"
             }
+          ],
+          "suggested_books": [
+            "Research Methodology: Methods and Techniques\" by C.R. Kothari and Gaurav Garg",
+            "Research Methods for Business Students\" by Mark Saunders, Philip Lewis, and Adrian Thornhill",
+            "The Craft of Research\" by Wayne C. Booth, Gregory G. Colomb, and Joseph M. Williams",
+            "Research Design: Qualitative, Quantitative, and Mixed Methods Approaches\" by John W. Creswell and J. David Creswell",
+            "Qualitative Inquiry and Research Design: Choosing Among Five Approaches\" by John W. Creswell and Cheryl N. Poth",
+            "Research Methods: The Essential Knowledge Base\" by William M. Trochim and James P. Donnelly",
+            "Research Methods in Education\" by Louis Cohen, Lawrence Manion, and Keith Morrison",
+            "Practical Research: Planning and Design\" by Paul D. Leedy and Jeanne Ellis Ormrod 74 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 75 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
           ]
         },
         {
@@ -2156,7 +2205,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": " Plant Biotechnology: Introduction, History, Model plants, Scope and applications  Recombinant DNA technology: Vectors, restriction enzymes, molecular probes, genomic and cDNA libraries 8.0 h 65"
+              "topics": " Plant Biotechnology: Introduction, History, Model plants, Scope and applications  Recombinant DNA technology: Vectors, restriction enzymes, molecular probes, genomic and cDNA libraries 8.0 h"
             },
             {
               "unit": 2,
@@ -2174,6 +2223,14 @@
               "unit": 5,
               "topics": " Gene expression and its regulation in plants: Transcription factors and cis-regulatory elements (CREs), epigenetic mechanisms of transcriptional regulation, translational control, programmed DNA rearrangements.  Gene editing and its applications: Zinc-finger nucleases (ZFNs), transcription  activator-like effector nucleases (TALENs), CRISPR/Cas systems 12.0 h"
             }
+          ],
+          "suggested_books": [
+            "Bhojwani SS &amp; Dantu PK (2013) Plant Tissue Culture: An Introductory Text, Springer.",
+            "Park S (2021) Plant Tissue Culture: Techniques and Experiments, Fourth Edition, Academic Press, Elsevier.",
+            "Razdan MK (2003) Introduction to Plant Tissue Culture, Science Publishers, USA",
+            "Slater A, Scott NW and Fowler MR (2008) Plant biotechnology: the genetic manipulation of plants, second edition, Oxford University Press.",
+            "Sahni S, Prasad BD and Kumar P (2017) Plant Biotechnology: Transgenics, Stress",
+            "Management and Biosafety Issues, CRC Press. 76 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 77 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
           ]
         },
         {
@@ -2184,7 +2241,7 @@
           "syllabus": [
             {
               "unit": 1,
-              "topics": " Plant Biotechnology: Introduction, History, Model plants, Scope and applications  Recombinant DNA technology: Vectors, restriction enzymes, molecular probes, genomic and cDNA libraries 8.5 h 89"
+              "topics": " Plant Biotechnology: Introduction, History, Model plants, Scope and applications  Recombinant DNA technology: Vectors, restriction enzymes, molecular probes, genomic and cDNA libraries 8.5 h"
             },
             {
               "unit": 2,
@@ -2202,6 +2259,14 @@
               "unit": 5,
               "topics": " Gene expression and its regulation in plants: Transcription factors and cis-regulatory elements (CREs), epigenetic mechanisms of transcriptional regulation, translational control, programmed DNA rearrangements  Gene editing and its applications: Zinc-finger nucleases (ZFNs), transcription activator-like effector nucleases (TALENs), CRISPR/Cas systems 12.0 h 108 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 109 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
             }
+          ],
+          "suggested_books": [
+            "Bhojwani SS &amp; Dantu PK (2013) Plant Tissue Culture: An Introductory Text, Springer.",
+            "Park S (2021) Plant Tissue Culture: Techniques and Experiments, Fourth Edition, Academic Press, Elsevier.",
+            "Razdan MK (2003) Introduction to Plant Tissue Culture, Science Publishers, USA",
+            "Slater A, Scott NW and Fowler MR (2008) Plant biotechnology: the genetic manipulation of plants, second edition, Oxford University Press.",
+            "Sahni S, Prasad BD and Kumar P (2017) Plant Biotechnology: Transgenics, Stress",
+            "Management and Biosafety Issues, CRC Press."
           ]
         },
         {
@@ -2286,6 +2351,10 @@
               "unit": 5,
               "topics": " Ecosystem stability, complexity and sustainability  Man and ecosystem dynamics 7.5 h Texts/"
             }
+          ],
+          "suggested_books": [
+            "F.E. Fritsch (1935, reprinted in 1979). Structure and Reproduction of the Algae. Vol I.Vikash Publishing House Pvt. Ltd, New Delhi",
+            "F.E. Fritsch (1945, reprinted in 1979). Structure and Reproduction of the Algae. Vol I.Vikash Publishing House Pvt. Ltd, New Delhi 1 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 2 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
           ]
         },
         {
@@ -2387,6 +2456,10 @@
               "unit": 1,
               "topics": "12 Dissertation/Project"
             }
+          ],
+          "suggested_books": [
+            "F.E. Fritsch (1935, reprinted in 1979). Structure and Reproduction of the Algae. Vol I.Vikash Publishing House Pvt. Ltd, New Delhi",
+            "F.E. Fritsch (1945, reprinted in 1979). Structure and Reproduction of the Algae. Vol I.Vikash Publishing House Pvt. Ltd, New Delhi 1 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 2 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
           ]
         },
         {
@@ -2583,6 +2656,15 @@
               "unit": 5,
               "topics": " Ecotoxicology: Concept of toxicity, types of toxicants, dose-response relationship, chronic and acute toxicity, indices of toxicity, factors affecting toxicity; biomagnification 8.5 h"
             }
+          ],
+          "suggested_books": [
+            "Klassen C, Watkins JB (2010) Essentials of Toxicolgy, 2nd edition, McGraw- Hill Companies, New York.",
+            "Singh JS, Singh SP, Gupta SR (2014) Ecology Environmental Science and Conservation, S Chand & Co, New Delhi.",
+            "Begon, M., Townsend, C. R. 2021) Ecology: From Individuals to Ecosystems. United Kingdom: Wiley.",
+            "Bradshaw RHW and Sykes MT. 2014. Ecosystem Dynamics: From the Past to the Future. United Kingdom: Wiley.",
+            "Molles Jr MC and Laursen A. 2020. Ecology: Concepts & Applications Author(s): 5th Canadian Edition McGraw-Hill",
+            "Mueller-Dombois D and Ellenberg 1974. Aims and Methods of Vegetation Ecology. John Wiley & Sons. New York",
+            "Odum Eugene Pleasants 1967. Fundamentals of Ecology. United States: Saunders. 84 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 85 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
           ]
         },
         {
@@ -2695,6 +2777,14 @@
               "unit": 5,
               "topics": " Fermentation technology for production of lactic acid and acetic acid  Nitrogen fixation by free-living and symbiotic microorganisms, Rhizobium-legume interaction, genetics of nodulation 9.0 h"
             }
+          ],
+          "suggested_books": [
+            "Michael T. Madigan, Kelly S. Bender, Daniel H. Buckley, W. Matthew Sattleyand David A. Stahl (2019). Brock Biology of Microorganisms, 15th edition (Global Edition, 15/E).",
+            "Stanier RY, Ingraham JL, Wheelis ML, Painter RR (1992). General Microbiology, 5th edition, MacMillan, Hampshire & London.",
+            "Talaro KP, Chess B (2011). Foundation in Microbiology, 8th edition, MacGraw-Hill, New York.",
+            "Dubey, R.C. and Maheshwari, D. K. (1999, reprint 2016). A text book of Microbiology(1stEdn), S. Chand & company, Pvt. Ltd., New Delhi, India",
+            "Frobisher, Hinsdill, Crabtree and Goodheart (1974). Fundamentals of Microbiology. Saunders’ International Students Edition. Toppan Company Ltd. Singapore",
+            "Joanne M. Willey, Linda M. Sherwood, C.J. Woolverton (2017). Prescott’s Microbiology. 10thEdition. McGraw Hills. International Edition. Singapore. 88 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 89 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
           ]
         },
         {
@@ -2751,6 +2841,15 @@
               "unit": 5,
               "topics": " Gene mining from cyanobacterial and plant model system for the development of stress tolerant crops  Green chemistry using photosynthetic organisms for production of biofuels and bioactive compounds 10.5 h"
             }
+          ],
+          "suggested_books": [
+            "Bryant DA (1995) The Molecular Biology of Cyanobacteria, Kluwer Academic Publisher, Berlin.",
+            "WhittonBA, Potts M (2000) Ecology of Cyanobacteria - Their diversity in Time and Space, Kluwer Academic Publishers, Berlin.",
+            "Walters, Dale, Adrian Newton, and Gary Lyon. Induced resistance for plant defence. Blackwell, 2007.",
+            "Burdon, Roy H. Genes and the Environment. CRC Press, 1999.",
+            "Buchanan, Bob B., Wilhelm Gruissem, and Russell L. Jones, eds. Biochemistry and molecular biology of plants. John wiley & sons, 2015.",
+            "Lazar, Thomas. \"Taiz, L. and Zeiger, E. Plant physiology. 3rd edn.\" (2003): 750-751.",
+            "Salisbury, F. B., and Ross, C. W. (1992). Plant Physiology, Wadsworth Pub. Com., Inc., Belmont, California-USA."
           ]
         },
         {
@@ -2919,6 +3018,16 @@
               "unit": 5,
               "topics": " Epidemiology, disease spread and management: Biosecurity, Intellectual property rights (IPR) andIntellectual Property Management (IPM) 4.5 h"
             }
+          ],
+          "suggested_books": [
+            "Agrios GN (2005) Plant Pathology (Vth edition) Academic Press, Burlington.",
+            "Dickinson CM (2003) Molecular Plant Pathology, Bios Scientific Publisher, Oxford.",
+            "Robert N, Trigiano, Windham MT, Windham AS (2003) Plant Pathology: Concepts and Laboratory Exercises, CRC Press, Boca Raton, USA.",
+            "Singh RS (2008) Plant Diseases, Oxford and IBH Publishing Co Pvt Ltd, New Delhi.",
+            "Singh RS (2008) Principles of Plant Pathology, Oxford and IBH Publishing Co Pvt Ltd, New Delhi.",
+            "Dhingra OD, James B, Sinclair (1995) Basic Plant Pathology Methods, CRC Publication, Boca Raton, USA.",
+            "PD Sharma (2020) Microbiology and Plant Pathology 4th Ed, Rastogi Publications.",
+            "R Maheshwary (2016) Fungi: Experimental Methods In Biology, Second Edition. CRC Press. 94 SEC – Skill Enhancement Course; AEC – Ability Enhancement Course; VAC – Value Added Course; MD – Multidisciplinary Course 95 1 Credit (Theory) = 15 Hours; 1 Credit (Practical) = 30 Hours"
           ]
         },
         {
