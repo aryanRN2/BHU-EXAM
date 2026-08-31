@@ -22,6 +22,7 @@ const rootFiles = [
   'nep-science.html',
   'nep-pyq.html',
   'notes.html',
+  'numerical-computing.html',
   'results.html',
   'exam.html',
   'pyq-viewer.html',
