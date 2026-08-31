@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta name="color-scheme" content="light">
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Numerical Computing Methods & Python Code | SCIQB</title>
+    <meta name="description" content="Python code implementations with user-selectable intervals, iterations, and tolerance for Bisection, Regula Falsi, Newton Raphson, Virge Beta, Gauss Elimination, Gauss Jordan, and Gauss Seidel methods." />
+    <meta name="keywords" content="numerical computing python code, bisection method python, regula falsi python, newton raphson python, birge vieta python, gauss elimination python, gauss jordan python, gauss seidel python, bhu sciqb" />
+    <link rel="canonical" href="https://www.sciqb.com/numerical-computing.html" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="styles.css"/>
+
+    <!-- PrismJS for Python Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+
+    <script id="tailwind-config">
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        "accent-bhu-saffron": "#F57C00",
+                        "accent-neural-purple": "#A855F7",
+                        "accent-neural-emerald": "#10B981",
+                        "accent-neural-blue": "#3B82F6",
+                        "background-warm": "#F7F7F5",
+                        "primary": "#000000",
+                        "secondary": "#5e5e5e",
+                        "border-subtle": "#E7E7E4",
+                        "on-background": "#1b1b1b"
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        mono: ['"JetBrains Mono"', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #F7F7F5;
+            color: #1b1b1b;
+        }
+
+        .code-font {
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        /* Custom Prism theme tweaks */
+        pre[class*="language-"] {
+            background: #0d1117 !important;
+            border-radius: 0.875rem;
+            margin: 0 !important;
+            padding: 1.25rem 1.5rem !important;
+            font-size: 0.825rem !important;
+            line-height: 1.6 !important;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        code[class*="language-"] {
+            font-family: 'JetBrains Mono', monospace !important;
+            font-size: 0.825rem !important;
+        }
+
+        /* Accordion transition styles */
+        .accordion-content {
+            transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+        }
+
+        .accordion-item.active .chevron-icon {
+            transform: rotate(180deg);
+        }
+
+        .accordion-item.active {
+            border-color: #4f46e5;
+            box-shadow: 0 10px 25px -5px rgba(79, 70, 229, 0.1);
+        }
+
+        .code-tab-btn.active {
+            background-color: #374151;
+            color: #ffffff;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body class="bg-background-warm text-on-background antialiased selection:bg-indigo-500/20 min-h-screen flex flex-col justify-between">
+
+    <!-- ═══════════════════════════ UNIFIED SEAMLESS NAVBAR ═══════════════════════════ -->
+    <nav id="mainNavbar" data-page="numerical" class="fixed top-0 left-0 right-0 z-50 bg-gradient-to-b from-black/75 via-black/35 to-transparent border-none backdrop-blur-xs h-20 w-full flex items-center transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 md:px-8 flex justify-between items-center w-full">
+            <div class="flex items-center gap-6 md:gap-8">
+                <!-- SCIQB Brand Logo -->
+                <a href="index.html" class="flex items-center gap-2 group">
+                    <span class="text-xl md:text-2xl font-black tracking-tighter text-white uppercase transition-transform group-hover:scale-[1.01] drop-shadow-sm">SCIQB</span>
+                </a>
+                
+                <!-- Center Navigation Links (Desktop) -->
+                <div class="hidden md:flex gap-5 lg:gap-6 items-center">
+                    <a class="text-white/85 font-semibold hover:text-white transition-colors text-xs lg:text-sm drop-shadow-sm" href="index.html">
+                        Home
+                    </a>
+                    <a class="text-white/85 font-semibold hover:text-white transition-colors text-xs lg:text-sm drop-shadow-sm" href="nep-pyq.html">
+                        NEP PYQs
+                    </a>
+                    <a class="text-white/85 font-semibold hover:text-white transition-colors text-xs lg:text-sm drop-shadow-sm" href="legacy-pyq.html">
+                        Old PYQs
+                    </a>
+                    <a class="text-white/85 font-semibold hover:text-white transition-colors text-xs lg:text-sm drop-shadow-sm" href="subjects.html">
+                        Mock Exams
+                    </a>
+                    <a class="text-white/85 font-semibold hover:text-white transition-colors text-xs lg:text-sm drop-shadow-sm" href="syllabus.html">
+                        Syllabus
+                    </a>
+                    <a class="text-white/85 font-semibold hover:text-white transition-colors text-xs lg:text-sm drop-shadow-sm" href="notes.html">
+                        Notes
+                    </a>
+                    <a class="text-white font-bold transition-colors text-xs lg:text-sm drop-shadow-sm" href="numerical-computing.html">
+                        Numerical Computing
+                    </a>
+                    <a class="text-white/85 font-semibold hover:text-white transition-colors text-xs lg:text-sm drop-shadow-sm" href="contributors.html">
+                        Contributors
+                    </a>
+                </div>
+            </div>
+
+            <!-- Right Glass Buttons (Desktop) -->
+            <div class="hidden md:flex items-center gap-3">
+                <a href="subjects.html" class="w-9 h-9 lg:w-10 lg:h-10 rounded-full bg-white/10 hover:bg-white/20 text-white border border-white/20 flex items-center justify-center backdrop-blur-md transition-all shadow-sm" title="Search">
+                    <span class="material-symbols-outlined text-base lg:text-lg">search</span>
+                </a>
+                <a href="https://github.com/aryanRN2/IITM-ASSIGNMENT" target="_blank" rel="noopener noreferrer"
+                    class="bg-white/10 hover:bg-white/20 text-white border border-white/25 px-4 lg:px-5 py-2 lg:py-2.5 rounded-full font-bold text-xs backdrop-blur-md hover:scale-105 active:scale-[0.98] transition-all shadow-sm flex items-center gap-1.5 lg:gap-2">
+                    <span class="material-symbols-outlined text-xs lg:text-sm font-semibold">assignment</span>
+                    <span>IITM Assignment</span>
+                </a>
+            </div>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button onclick="toggleMobileMenu()" class="flex md:hidden items-center justify-center w-10 h-10 rounded-full bg-white/10 text-white border border-white/20 backdrop-blur-md active:scale-90 transition-all">
+                <span id="mobileMenuIcon" class="material-symbols-outlined text-xl">menu</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Navigation Overlay -->
+    <div id="mobileMenu" class="fixed inset-0 h-full w-full z-[999] hidden flex-col bg-black/95 backdrop-blur-2xl px-6 py-6 md:hidden transition-all duration-300 opacity-0 text-white overflow-y-auto overscroll-contain">
+        <div class="flex justify-between items-center w-full pb-5 border-b border-white/10 shrink-0">
+            <a href="index.html" class="flex items-center gap-2">
+                <span class="text-2xl font-black tracking-tighter text-white uppercase">SCIQB</span>
+            </a>
+            <button onclick="toggleMobileMenu()" class="w-10 h-10 rounded-full bg-white/10 text-white border border-white/20 flex items-center justify-center active:scale-90 transition-all">
+                <span class="material-symbols-outlined text-xl">close</span>
+            </button>
+        </div>
+
+        <div class="flex flex-col gap-1 pt-4 flex-1">
+            <a class="text-white/85 font-semibold hover:text-white text-base py-3 border-b border-white/10 flex items-center justify-between" href="index.html">
+                <span>Home</span>
+                <span class="material-symbols-outlined text-sm opacity-50">chevron_right</span>
+            </a>
+            <a class="text-white/85 font-semibold hover:text-white text-base py-3 border-b border-white/10 flex items-center justify-between" href="nep-pyq.html">
+                <span>NEP PYQs</span>
+                <span class="material-symbols-outlined text-sm opacity-50">chevron_right</span>
+            </a>
+            <a class="text-white/85 font-semibold hover:text-white text-base py-3 border-b border-white/10 flex items-center justify-between" href="legacy-pyq.html">
+                <span>Old PYQs</span>
+                <span class="material-symbols-outlined text-sm opacity-50">chevron_right</span>
+            </a>
+            <a class="text-white/85 font-semibold hover:text-white text-base py-3 border-b border-white/10 flex items-center justify-between" href="subjects.html">
+                <span>Mock Exams</span>
+                <span class="material-symbols-outlined text-sm opacity-50">chevron_right</span>
+            </a>
+            <a class="text-white/85 font-semibold hover:text-white text-base py-3 border-b border-white/10 flex items-center justify-between" href="syllabus.html">
+                <span>Syllabus</span>
+                <span class="material-symbols-outlined text-sm opacity-50">chevron_right</span>
+            </a>
+            <a class="text-white/85 font-semibold hover:text-white text-base py-3 border-b border-white/10 flex items-center justify-between" href="notes.html">
+                <span>Notes</span>
+                <span class="material-symbols-outlined text-sm opacity-50">chevron_right</span>
+            </a>
+            <a class="text-indigo-400 font-bold text-base py-3 border-b border-white/10 flex items-center justify-between" href="numerical-computing.html">
+                <span>Numerical Computing</span>
+                <span class="material-symbols-outlined text-sm opacity-100">check_circle</span>
+            </a>
+            <a class="text-white/85 font-semibold hover:text-white text-base py-3 border-b border-white/10 flex items-center justify-between" href="contributors.html">
+                <span>Contributors</span>
+                <span class="material-symbols-outlined text-sm opacity-50">chevron_right</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- MAIN CONTAINER -->
+    <main class="pt-28 pb-20 max-w-5xl mx-auto px-4 md:px-8 w-full flex-grow">
+        
+        <!-- HEADER -->
+        <header class="mb-8 text-center md:text-left pb-6 border-b border-slate-200">
+            <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+                Numerical Methods
+            </h1>
+            <p class="text-slate-600 mt-2 text-sm sm:text-base max-w-2xl">
+                Select any method to view its Python code. Equations are hardcoded while intervals, iterations, and tolerances are taken as user inputs at runtime.
+            </p>
+        </header>
+
+        <!-- METHODS ACCORDION LIST -->
+        <div class="space-y-4" id="methodsList">
+
+            <!-- 1. Bisection Method -->
+            <div class="accordion-item bg-white border border-slate-200 rounded-2xl shadow-xs overflow-hidden transition-all duration-200" id="item-bisection">
+                <button onclick="toggleAccordion('bisection')" class="w-full flex items-center justify-between p-4 sm:p-5 text-left hover:bg-slate-50/80 transition-colors focus:outline-none">
+                    <div class="flex items-center gap-3.5">
+                        <span class="w-8 h-8 rounded-xl bg-indigo-600 text-white font-bold text-sm flex items-center justify-center shrink-0 shadow-xs">01</span>
+                        <div>
+                            <h2 class="text-base sm:text-lg font-bold text-slate-900">Bisection Method</h2>
+                            <p class="text-xs text-slate-500 mt-0.5">Prompt user for interval [a, b], tolerance, and max iterations</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-2.5">
+                        <span class="hidden sm:inline-flex text-[11px] font-semibold text-indigo-700 bg-indigo-50 px-2.5 py-1 rounded-md border border-indigo-100">Python Code</span>
+                        <span class="material-symbols-outlined chevron-icon text-slate-400 transition-transform duration-300">expand_more</span>
+                    </div>
+                </button>
+
+                <div class="accordion-content hidden border-t border-slate-100 p-4 sm:p-6 bg-slate-900 text-white">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="text-xs font-mono text-slate-400">bisection_method.py</span>
+                        <button onclick="copyCode('code-bisection')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold flex items-center gap-1.5 transition-colors border border-slate-700">
+                            <span class="material-symbols-outlined text-sm">content_copy</span>
+                            <span>Copy Code</span>
+                        </button>
+                    </div>
+                    <pre class="language-python"><code id="code-bisection" class="language-python"># ==========================================
+# HARDCODED EQUATION: f(x) = x^3 - 4x - 9 = 0
+# ==========================================
+def f(x):
+    return x**3 - 4*x - 9
+
+
+def bisection(f, a, b, tol=1e-5, max_iter=100):
+    if f(a) * f(b) >= 0:
+        raise ValueError(f"Bisection fails: f({a}) and f({b}) must have opposite signs.")
+    
+    print(f"\n{'Iter':<6} {'a':<12} {'b':<12} {'c (mid)':<12} {'f(c)':<12} {'Error':<12}")
+    print("-" * 66)
+    
+    for i in range(1, max_iter + 1):
+        c = (a + b) / 2.0
+        fc = f(c)
+        error = abs(b - a) / 2.0
+        
+        print(f"{i:<6} {a:<12.6f} {b:<12.6f} {c:<12.6f} {fc:<12.6f} {error:<12.6f}")
+        
+        if abs(fc) < 1e-12 or error < tol:
+            print("-" * 66)
+            print(f"--> Root found at x = {c:.6f} in {i} iterations.\n")
+            return c
+        
+        if f(a) * fc < 0:
+            b = c
+        else:
+            a = c
+            
+    print(f"\n--> Reached maximum iterations ({max_iter}). Approximate Root = {c:.6f}\n")
+    return c
+
+
+if __name__ == "__main__":
+    print("--- 01. Bisection Method ---")
+    print("Hardcoded Equation: f(x) = x^3 - 4x - 9 = 0\n")
+    
+    # User inputs for interval, tolerance, and iterations
+    a = float(input("Enter lower interval bound (a) [default 2.0]: ") or 2.0)
+    b = float(input("Enter upper interval bound (b) [default 3.0]: ") or 3.0)
+    tol_str = input("Enter tolerance (e.g. 0.0001, 1e-4, or number of decimal places like 4 or 8) [default 1e-4]: ").strip()
+    if not tol_str:
+        tol = 1e-4
+    else:
+        val = float(tol_str)
+        tol = 10**(-val) if val >= 1 else val
+    max_iter = int(input("Enter max iterations [default 50]: ") or 50)
+    
+    bisection(f, a, b, tol, max_iter)</code></pre>
+                </div>
+            </div>
+
+            <!-- 2. Regula Falsi -->
+            <div class="accordion-item bg-white border border-slate-200 rounded-2xl shadow-xs overflow-hidden transition-all duration-200" id="item-regula-falsi">
+                <button onclick="toggleAccordion('regula-falsi')" class="w-full flex items-center justify-between p-4 sm:p-5 text-left hover:bg-slate-50/80 transition-colors focus:outline-none">
+                    <div class="flex items-center gap-3.5">
+                        <span class="w-8 h-8 rounded-xl bg-indigo-600 text-white font-bold text-sm flex items-center justify-center shrink-0 shadow-xs">02</span>
+                        <div>
+                            <h2 class="text-base sm:text-lg font-bold text-slate-900">Regula Falsi</h2>
+                            <p class="text-xs text-slate-500 mt-0.5">Prompt user for interval [a, b], tolerance, and max iterations</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-2.5">
+                        <span class="hidden sm:inline-flex text-[11px] font-semibold text-indigo-700 bg-indigo-50 px-2.5 py-1 rounded-md border border-indigo-100">Python Code</span>
+                        <span class="material-symbols-outlined chevron-icon text-slate-400 transition-transform duration-300">expand_more</span>
+                    </div>
+                </button>
+
+                <div class="accordion-content hidden border-t border-slate-100 p-4 sm:p-6 bg-slate-900 text-white">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="text-xs font-mono text-slate-400">regula_falsi.py</span>
+                        <button onclick="copyCode('code-regula-falsi')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold flex items-center gap-1.5 transition-colors border border-slate-700">
+                            <span class="material-symbols-outlined text-sm">content_copy</span>
+                            <span>Copy Code</span>
+                        </button>
+                    </div>
+                    <pre class="language-python"><code id="code-regula-falsi" class="language-python"># ==========================================
+# HARDCODED EQUATION: f(x) = x^3 - 2x - 5 = 0
+# ==========================================
+def f(x):
+    return x**3 - 2*x - 5
+
+
+def regula_falsi(f, a, b, tol=1e-5, max_iter=100):
+    if f(a) * f(b) >= 0:
+        raise ValueError(f"Regula Falsi fails: f({a}) and f({b}) must have opposite signs.")
+    
+    print(f"\n{'Iter':<6} {'a':<12} {'b':<12} {'c (chord)':<12} {'f(c)':<12}")
+    print("-" * 54)
+    
+    c_prev = a
+    for i in range(1, max_iter + 1):
+        fa, fb = f(a), f(b)
+        # Linear interpolation false position formula
+        c = (a * fb - b * fa) / (fb - fa)
+        fc = f(c)
+        error = abs(c - c_prev) if i > 1 else abs(b - a)
+        
+        print(f"{i:<6} {a:<12.6f} {b:<12.6f} {c:<12.6f} {fc:<12.6f}")
+        
+        if abs(fc) < 1e-12 or (i > 1 and error < tol):
+            print("-" * 54)
+            print(f"--> Root found at x = {c:.6f} in {i} iterations.\n")
+            return c
+        
+        if fa * fc < 0:
+            b = c
+        else:
+            a = c
+        c_prev = c
+            
+    print(f"\n--> Reached maximum iterations ({max_iter}). Approximate Root = {c:.6f}\n")
+    return c
+
+
+if __name__ == "__main__":
+    print("--- 02. Regula Falsi Method ---")
+    print("Hardcoded Equation: f(x) = x^3 - 2x - 5 = 0\n")
+    
+    # User inputs for interval, tolerance, and iterations
+    a = float(input("Enter lower interval bound (a) [default 2.0]: ") or 2.0)
+    b = float(input("Enter upper interval bound (b) [default 3.0]: ") or 3.0)
+    tol_str = input("Enter tolerance (e.g. 0.0001, 1e-4, or number of decimal places like 4 or 8) [default 1e-4]: ").strip()
+    if not tol_str:
+        tol = 1e-4
+    else:
+        val = float(tol_str)
+        tol = 10**(-val) if val >= 1 else val
+    max_iter = int(input("Enter max iterations [default 50]: ") or 50)
+    
+    regula_falsi(f, a, b, tol, max_iter)</code></pre>
+                </div>
+            </div>
+
+            <!-- 3. Newton Raphson -->
+            <div class="accordion-item bg-white border border-slate-200 rounded-2xl shadow-xs overflow-hidden transition-all duration-200" id="item-newton-raphson">
+                <button onclick="toggleAccordion('newton-raphson')" class="w-full flex items-center justify-between p-4 sm:p-5 text-left hover:bg-slate-50/80 transition-colors focus:outline-none">
+                    <div class="flex items-center gap-3.5">
+                        <span class="w-8 h-8 rounded-xl bg-indigo-600 text-white font-bold text-sm flex items-center justify-center shrink-0 shadow-xs">03</span>
+                        <div>
+                            <h2 class="text-base sm:text-lg font-bold text-slate-900">Newton Raphson</h2>
+                            <p class="text-xs text-slate-500 mt-0.5">Prompt user for interval [a, b], tolerance, and max iterations</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-2.5">
+                        <span class="hidden sm:inline-flex text-[11px] font-semibold text-indigo-700 bg-indigo-50 px-2.5 py-1 rounded-md border border-indigo-100">Python Code</span>
+                        <span class="material-symbols-outlined chevron-icon text-slate-400 transition-transform duration-300">expand_more</span>
+                    </div>
+                </button>
+
+                <div class="accordion-content hidden border-t border-slate-100 p-4 sm:p-6 bg-slate-900 text-white">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="text-xs font-mono text-slate-400">newton_raphson.py</span>
+                        <button onclick="copyCode('code-newton-raphson')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold flex items-center gap-1.5 transition-colors border border-slate-700">
+                            <span class="material-symbols-outlined text-sm">content_copy</span>
+                            <span>Copy Code</span>
+                        </button>
+                    </div>
+                    <pre class="language-python"><code id="code-newton-raphson" class="language-python"># ==========================================
+# HARDCODED EQUATION: f(x) = x^3 - 3x - 5 = 0
+# HARDCODED DERIVATIVE: f'(x) = 3x^2 - 3
+# ==========================================
+def f(x):
+    return x**3 - 3*x - 5
+
+def df(x):
+    return 3*x**2 - 3
+
+
+def newton_raphson(f, df, a, b, tol=1e-5, max_iter=100):
+    fa, fb = f(a), f(b)
+    
+    # 1. Verify interval [a, b] contains a root
+    if fa * fb > 0:
+        print(f"Warning: f({a}) = {fa:.4f} and f({b}) = {fb:.4f} have the same sign.")
+        print("Root is not bracketed in this interval. Try intervals like [2, 3].\n")
+    else:
+        print(f"Interval [{a}, {b}] verified: f({a}) = {fa:.4f} and f({b}) = {fb:.4f} have opposite signs.")
+    
+    # 2. Initial guess x0 selected as midpoint of interval [a, b]
+    x = (a + b) / 2.0
+    print(f"Selected initial guess x0 = (a + b)/2 = {x:.4f}\n")
+    
+    print(f"{'Iter':<6} {'x_k':<12} {'f(x_k)':<14} {'f\'(x_k)':<14} {'x_{k+1}':<12} {'Error':<12}")
+    print("-" * 72)
+    
+    for i in range(1, max_iter + 1):
+        fx = f(x)
+        dfx = df(x)
+        
+        # Guard against horizontal tangent
+        if abs(dfx) < 1e-12:
+            print("-" * 72)
+            print(f"Error: Derivative f'({x}) ≈ 0 (Horizontal Tangent).")
+            print("--> Please re-run and choose a different interval [a, b].\n")
+            return None
+            
+        x_next = x - (fx / dfx)
+        error = abs(x_next - x)
+        
+        print(f"{i:<6} {x:<12.6f} {fx:<14.6f} {dfx:<14.6f} {x_next:<12.6f} {error:<12.6f}")
+        
+        if abs(fx) < 1e-12 or error < tol:
+            print("-" * 72)
+            print(f"--> Root found at x = {x_next:.6f} in {i} iterations.\n")
+            return x_next
+        
+        x = x_next
+        
+    print(f"\n--> Reached maximum iterations ({max_iter}). Approximate Root = {x:.6f}\n")
+    return x
+
+
+if __name__ == "__main__":
+    print("--- 03. Newton-Raphson Method ---")
+    print("Hardcoded Equation: f(x) = x^3 - 3x - 5 = 0\n")
+    
+    # Step 1: User enters the interval [a, b]
+    a = float(input("Enter lower interval bound (a) [default 2.0]: ") or 2.0)
+    b = float(input("Enter upper interval bound (b) [default 3.0]: ") or 3.0)
+    
+    # Step 2: User enters tolerance and max iterations
+    tol_str = input("Enter tolerance (e.g. 0.0001, 1e-4, or number of decimal places like 4 or 8) [default 1e-4]: ").strip()
+    if not tol_str:
+        tol = 1e-4
+    else:
+        val = float(tol_str)
+        tol = 10**(-val) if val >= 1 else val
+        
+    max_iter = int(input("Enter max iterations [default 50]: ") or 50)
+    
+    print(f"\nRunning with Tolerance = {tol:.1e}, Max Iterations = {max_iter}")
+    newton_raphson(f, df, a, b, tol, max_iter)</code></pre>
+                </div>
+            </div>
+
+            <!-- 4. Virge Beta Method (Birge-Vieta) -->
+            <div class="accordion-item bg-white border border-slate-200 rounded-2xl shadow-xs overflow-hidden transition-all duration-200" id="item-birge-vieta">
+                <button onclick="toggleAccordion('birge-vieta')" class="w-full flex items-center justify-between p-4 sm:p-5 text-left hover:bg-slate-50/80 transition-colors focus:outline-none">
+                    <div class="flex items-center gap-3.5">
+                        <span class="w-8 h-8 rounded-xl bg-indigo-600 text-white font-bold text-sm flex items-center justify-center shrink-0 shadow-xs">04</span>
+                        <div>
+                            <h2 class="text-base sm:text-lg font-bold text-slate-900">Virge Beta Method</h2>
+                            <p class="text-xs text-slate-500 mt-0.5">Prompt user for initial guess x0, tolerance, and max iterations</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-2.5">
+                        <span class="hidden sm:inline-flex text-[11px] font-semibold text-indigo-700 bg-indigo-50 px-2.5 py-1 rounded-md border border-indigo-100">Python Code</span>
+                        <span class="material-symbols-outlined chevron-icon text-slate-400 transition-transform duration-300">expand_more</span>
+                    </div>
+                </button>
+
+                <div class="accordion-content hidden border-t border-slate-100 p-4 sm:p-6 bg-slate-900 text-white">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="text-xs font-mono text-slate-400">virge_beta_birge_vieta.py</span>
+                        <button onclick="copyCode('code-birge-vieta')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold flex items-center gap-1.5 transition-colors border border-slate-700">
+                            <span class="material-symbols-outlined text-sm">content_copy</span>
+                            <span>Copy Code</span>
+                        </button>
+                    </div>
+                    <pre class="language-python"><code id="code-birge-vieta" class="language-python"># ==========================================================
+# HARDCODED POLYNOMIAL: P(x) = x^4 - 3x^3 + 3x^2 - 3x + 2 = 0
+# Coefficients: [a0, a1, a2, a3, a4] = [1, -3, 3, -3, 2]
+# ==========================================================
+POLYNOMIAL_COEFFS = [1.0, -3.0, 3.0, -3.0, 2.0]
+
+
+def birge_vieta(coeffs, x0, tol=1e-5, max_iter=100):
+    n = len(coeffs) - 1
+    x = x0
+    
+    print(f"\n{'Iter':<6} {'x_k':<12} {'P(x_k)=b_n':<14} {'P\'(x_k)=c_{n-1}':<16} {'x_{k+1}':<12}")
+    print("-" * 62)
+    
+    for iteration in range(1, max_iter + 1):
+        # 1st synthetic division for P(x) -> b
+        b = [0.0] * (n + 1)
+        b[0] = coeffs[0]
+        for i in range(1, n + 1):
+            b[i] = coeffs[i] + x * b[i - 1]
+            
+        # 2nd synthetic division for P'(x) -> c
+        c = [0.0] * n
+        c[0] = b[0]
+        for i in range(1, n):
+            c[i] = b[i] + x * c[i - 1]
+            
+        P_x = b[n]
+        P_prime_x = c[n - 1]
+        
+        if abs(P_prime_x) < 1e-12:
+            raise ZeroDivisionError("Synthetic derivative P'(x) ≈ 0.")
+            
+        x_next = x - (P_x / P_prime_x)
+        error = abs(x_next - x)
+        
+        print(f"{iteration:<6} {x:<12.6f} {P_x:<14.6f} {P_prime_x:<16.6f} {x_next:<12.6f}")
+        
+        if abs(P_x) < 1e-12 or error < tol:
+            print("-" * 62)
+            print(f"--> Polynomial Root found at x = {x_next:.6f} in {iteration} iterations.")
+            print(f"--> Deflated Polynomial coefficients: {b[:-1]}\n")
+            return x_next, b[:-1]
+            
+        x = x_next
+        
+    print(f"\n--> Reached maximum iterations ({max_iter}). Approximate Root = {x:.6f}\n")
+    return x, b[:-1]
+
+
+if __name__ == "__main__":
+    print("--- 04. Virge Beta (Birge-Vieta) Method ---")
+    print("Hardcoded Polynomial: P(x) = x^4 - 3x^3 + 3x^2 - 3x + 2 = 0\n")
+    
+    # User inputs for initial guess, tolerance, and iterations
+    x0 = float(input("Enter initial guess (x0) [default 0.5]: ") or 0.5)
+    tol = float(input("Enter tolerance (e.g. 0.0001) [default 1e-4]: ") or 1e-4)
+    max_iter = int(input("Enter max iterations [default 50]: ") or 50)
+    
+    birge_vieta(POLYNOMIAL_COEFFS, x0, tol, max_iter)</code></pre>
+                </div>
+            </div>
+
+            <!-- 5. Gauss Elimination -->
+            <div class="accordion-item bg-white border border-slate-200 rounded-2xl shadow-xs overflow-hidden transition-all duration-200" id="item-gauss-elimination">
+                <button onclick="toggleAccordion('gauss-elimination')" class="w-full flex items-center justify-between p-4 sm:p-5 text-left hover:bg-slate-50/80 transition-colors focus:outline-none">
+                    <div class="flex items-center gap-3.5">
+                        <span class="w-8 h-8 rounded-xl bg-indigo-600 text-white font-bold text-sm flex items-center justify-center shrink-0 shadow-xs">05</span>
+                        <div>
+                            <h2 class="text-base sm:text-lg font-bold text-slate-900">Gauss Elimination with and without pivoting</h2>
+                            <p class="text-xs text-slate-500 mt-0.5">Prompt user to choose pivoting mode & display solution</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-2.5">
+                        <span class="hidden sm:inline-flex text-[11px] font-semibold text-indigo-700 bg-indigo-50 px-2.5 py-1 rounded-md border border-indigo-100">Python Code</span>
+                        <span class="material-symbols-outlined chevron-icon text-slate-400 transition-transform duration-300">expand_more</span>
+                    </div>
+                </button>
+
+                <div class="accordion-content hidden border-t border-slate-100 p-4 sm:p-6 bg-slate-900 text-white">
+                    <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
+                        <!-- Sub Tabs for With / Without Pivoting -->
+                        <div class="flex items-center gap-1.5 bg-slate-800 p-1 rounded-xl border border-slate-700">
+                            <button onclick="switchCodeTab('ge-with', 'ge-without', 'tab-ge-with', 'tab-ge-without')" id="tab-ge-with" class="code-tab-btn active px-3 py-1 rounded-lg text-xs font-semibold text-slate-300 transition-colors">
+                                With Partial Pivoting
+                            </button>
+                            <button onclick="switchCodeTab('ge-without', 'ge-with', 'tab-ge-without', 'tab-ge-with')" id="tab-ge-without" class="code-tab-btn px-3 py-1 rounded-lg text-xs font-semibold text-slate-300 transition-colors">
+                                Without Pivoting
+                            </button>
+                        </div>
+                        <button onclick="copyActiveCode('ge-block')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold flex items-center gap-1.5 transition-colors border border-slate-700">
+                            <span class="material-symbols-outlined text-sm">content_copy</span>
+                            <span>Copy Code</span>
+                        </button>
+                    </div>
+
+                    <!-- Code: With Pivoting -->
+                    <div id="ge-with" class="code-panel">
+                        <pre class="language-python"><code id="code-ge-with" class="language-python">import numpy as np
+
+# ==========================================
+# HARDCODED LINEAR SYSTEM: Ax = b
+#  2x1 +  x2 -  x3 =  8
+# -3x1 -  x2 + 2x3 = -11
+# -2x1 +  x2 + 2x3 = -3
+# ==========================================
+HARDCODED_A = [[2, 1, -1],
+               [-3, -1, 2],
+               [-2, 1, 2]]
+HARDCODED_B = [8, -11, -3]
+
+
+def gauss_elimination_with_pivoting(A, b):
+    A = np.array(A, dtype=float)
+    b = np.array(b, dtype=float)
+    n = len(b)
+    
+    print("\n--- Forward Elimination (With Partial Pivoting) ---")
+    for k in range(n - 1):
+        # Search for max pivot in column k
+        max_row = k + np.argmax(np.abs(A[k:, k]))
+        if max_row != k:
+            A[[k, max_row]] = A[[max_row, k]]
+            b[[k, max_row]] = b[[max_row, k]]
+            print(f"Pivot: Swapped Row {k+1} with Row {max_row+1}")
+            
+        if abs(A[k, k]) < 1e-12:
+            raise ValueError("Matrix is singular or near-singular.")
+            
+        for i in range(k + 1, n):
+            factor = A[i, k] / A[k, k]
+            A[i, k:] -= factor * A[k, k:]
+            b[i] -= factor * b[k]
+            
+    # Back Substitution
+    x = np.zeros(n)
+    for i in range(n - 1, -1, -1):
+        x[i] = (b[i] - np.dot(A[i, i + 1:], x[i + 1:])) / A[i, i]
+    return x
+
+
+if __name__ == "__main__":
+    print("--- 05. Gauss Elimination (With Pivoting) ---")
+    print("Hardcoded System Ax = b:")
+    print("A =", HARDCODED_A)
+    print("b =", HARDCODED_B, "\n")
+    
+    input("Press [Enter] to run Gauss Elimination with Partial Pivoting...")
+    sol = gauss_elimination_with_pivoting(HARDCODED_A, HARDCODED_B)
+    print("\n--> Final Solution Vector x =", sol, "\n")</code></pre>
+                    </div>
+
+                    <!-- Code: Without Pivoting -->
+                    <div id="ge-without" class="code-panel hidden">
+                        <pre class="language-python"><code id="code-ge-without" class="language-python">import numpy as np
+
+# ==========================================
+# HARDCODED LINEAR SYSTEM: Ax = b
+# 10x1 -  x2 +  2x3 =   6
+#  -x1 + 11x2 -  x3 =  25
+#  2x1 -  x2 + 10x3 = -11
+# ==========================================
+HARDCODED_A = [[10, -1, 2],
+               [-1, 11, -1],
+               [2, -1, 10]]
+HARDCODED_B = [6, 25, -11]
+
+
+def gauss_elimination_no_pivoting(A, b):
+    A = np.array(A, dtype=float)
+    b = np.array(b, dtype=float)
+    n = len(b)
+    
+    print("\n--- Forward Elimination (Without Pivoting) ---")
+    for k in range(n - 1):
+        if abs(A[k, k]) < 1e-12:
+            raise ZeroDivisionError(f"Zero pivot at A[{k+1},{k+1}]. Pivoting required.")
+        
+        for i in range(k + 1, n):
+            factor = A[i, k] / A[k, k]
+            A[i, k:] -= factor * A[k, k:]
+            b[i] -= factor * b[k]
+            
+    # Back Substitution
+    x = np.zeros(n)
+    for i in range(n - 1, -1, -1):
+        x[i] = (b[i] - np.dot(A[i, i + 1:], x[i + 1:])) / A[i, i]
+    return x
+
+
+if __name__ == "__main__":
+    print("--- 05. Gauss Elimination (Without Pivoting) ---")
+    print("Hardcoded System Ax = b:")
+    print("A =", HARDCODED_A)
+    print("b =", HARDCODED_B, "\n")
+    
+    input("Press [Enter] to run Gauss Elimination without Pivoting...")
+    sol = gauss_elimination_no_pivoting(HARDCODED_A, HARDCODED_B)
+    print("\n--> Final Solution Vector x =", sol, "\n")</code></pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6. Gauss Jordan -->
+            <div class="accordion-item bg-white border border-slate-200 rounded-2xl shadow-xs overflow-hidden transition-all duration-200" id="item-gauss-jordan">
+                <button onclick="toggleAccordion('gauss-jordan')" class="w-full flex items-center justify-between p-4 sm:p-5 text-left hover:bg-slate-50/80 transition-colors focus:outline-none">
+                    <div class="flex items-center gap-3.5">
+                        <span class="w-8 h-8 rounded-xl bg-indigo-600 text-white font-bold text-sm flex items-center justify-center shrink-0 shadow-xs">06</span>
+                        <div>
+                            <h2 class="text-base sm:text-lg font-bold text-slate-900">Gauss Jordan with and without pivoting</h2>
+                            <p class="text-xs text-slate-500 mt-0.5">Prompt user to choose pivoting mode & display reduced echelon solution</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-2.5">
+                        <span class="hidden sm:inline-flex text-[11px] font-semibold text-indigo-700 bg-indigo-50 px-2.5 py-1 rounded-md border border-indigo-100">Python Code</span>
+                        <span class="material-symbols-outlined chevron-icon text-slate-400 transition-transform duration-300">expand_more</span>
+                    </div>
+                </button>
+
+                <div class="accordion-content hidden border-t border-slate-100 p-4 sm:p-6 bg-slate-900 text-white">
+                    <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
+                        <!-- Sub Tabs for With / Without Pivoting -->
+                        <div class="flex items-center gap-1.5 bg-slate-800 p-1 rounded-xl border border-slate-700">
+                            <button onclick="switchCodeTab('gj-with', 'gj-without', 'tab-gj-with', 'tab-gj-without')" id="tab-gj-with" class="code-tab-btn active px-3 py-1 rounded-lg text-xs font-semibold text-slate-300 transition-colors">
+                                With Partial Pivoting
+                            </button>
+                            <button onclick="switchCodeTab('gj-without', 'gj-with', 'tab-gj-without', 'tab-gj-with')" id="tab-gj-without" class="code-tab-btn px-3 py-1 rounded-lg text-xs font-semibold text-slate-300 transition-colors">
+                                Without Pivoting
+                            </button>
+                        </div>
+                        <button onclick="copyActiveCode('gj-block')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold flex items-center gap-1.5 transition-colors border border-slate-700">
+                            <span class="material-symbols-outlined text-sm">content_copy</span>
+                            <span>Copy Code</span>
+                        </button>
+                    </div>
+
+                    <!-- Code: With Pivoting -->
+                    <div id="gj-with" class="code-panel">
+                        <pre class="language-python"><code id="code-gj-with" class="language-python">import numpy as np
+
+# ==========================================
+# HARDCODED LINEAR SYSTEM: Ax = b
+#  x1 +  x2 +  x3 =  6
+# 2x1 + 3x2 +  x3 = 11
+#  x1 -  x2 -  x3 = -4
+# ==========================================
+HARDCODED_A = [[1, 1, 1],
+               [2, 3, 1],
+               [1, -1, -1]]
+HARDCODED_B = [6, 11, -4]
+
+
+def gauss_jordan_with_pivoting(A, b):
+    A = np.array(A, dtype=float)
+    b = np.array(b, dtype=float).reshape(-1, 1)
+    aug = np.hstack([A, b])
+    n = len(b)
+    
+    print("\n--- Gauss-Jordan Elimination (With Partial Pivoting) ---")
+    for k in range(n):
+        max_row = k + np.argmax(np.abs(aug[k:, k]))
+        if max_row != k:
+            aug[[k, max_row]] = aug[[max_row, k]]
+            print(f"Pivot: Swapped Row {k+1} with Row {max_row+1}")
+            
+        if abs(aug[k, k]) < 1e-12:
+            raise ValueError("Matrix is singular or near-singular.")
+            
+        # Normalize pivot row
+        aug[k] = aug[k] / aug[k, k]
+        
+        # Eliminate all other rows
+        for i in range(n):
+            if i != k:
+                aug[i] -= aug[i, k] * aug[k]
+                
+    return aug[:, -1]
+
+
+if __name__ == "__main__":
+    print("--- 06. Gauss-Jordan Elimination (With Pivoting) ---")
+    print("Hardcoded System Ax = b:")
+    print("A =", HARDCODED_A)
+    print("b =", HARDCODED_B, "\n")
+    
+    input("Press [Enter] to run Gauss-Jordan with Partial Pivoting...")
+    sol = gauss_jordan_with_pivoting(HARDCODED_A, HARDCODED_B)
+    print("\n--> Final Solution Vector x =", sol, "\n")</code></pre>
+                    </div>
+
+                    <!-- Code: Without Pivoting -->
+                    <div id="gj-without" class="code-panel hidden">
+                        <pre class="language-python"><code id="code-gj-without" class="language-python">import numpy as np
+
+# ==========================================
+# HARDCODED LINEAR SYSTEM: Ax = b
+# 2x1 +  x2 +  x3 = 10
+# 3x1 + 2x2 + 3x3 = 18
+#  x1 + 4x2 + 9x3 = 16
+# ==========================================
+HARDCODED_A = [[2, 1, 1],
+               [3, 2, 3],
+               [1, 4, 9]]
+HARDCODED_B = [10, 18, 16]
+
+
+def gauss_jordan_no_pivoting(A, b):
+    A = np.array(A, dtype=float)
+    b = np.array(b, dtype=float).reshape(-1, 1)
+    aug = np.hstack([A, b])
+    n = len(b)
+    
+    print("\n--- Gauss-Jordan Elimination (Without Pivoting) ---")
+    for k in range(n):
+        if abs(aug[k, k]) < 1e-12:
+            raise ZeroDivisionError(f"Zero pivot at row {k+1}. Pivoting required.")
+            
+        # Normalize pivot row
+        aug[k] = aug[k] / aug[k, k]
+        
+        # Eliminate all other rows
+        for i in range(n):
+            if i != k:
+                aug[i] -= aug[i, k] * aug[k]
+                
+    return aug[:, -1]
+
+
+if __name__ == "__main__":
+    print("--- 06. Gauss-Jordan Elimination (Without Pivoting) ---")
+    print("Hardcoded System Ax = b:")
+    print("A =", HARDCODED_A)
+    print("b =", HARDCODED_B, "\n")
+    
+    input("Press [Enter] to run Gauss-Jordan without Pivoting...")
+    sol = gauss_jordan_no_pivoting(HARDCODED_A, HARDCODED_B)
+    print("\n--> Final Solution Vector x =", sol, "\n")</code></pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 7. Gauss Sedal (Gauss-Seidel) -->
+            <div class="accordion-item bg-white border border-slate-200 rounded-2xl shadow-xs overflow-hidden transition-all duration-200" id="item-gauss-seidel">
+                <button onclick="toggleAccordion('gauss-seidel')" class="w-full flex items-center justify-between p-4 sm:p-5 text-left hover:bg-slate-50/80 transition-colors focus:outline-none">
+                    <div class="flex items-center gap-3.5">
+                        <span class="w-8 h-8 rounded-xl bg-indigo-600 text-white font-bold text-sm flex items-center justify-center shrink-0 shadow-xs">07</span>
+                        <div>
+                            <h2 class="text-base sm:text-lg font-bold text-slate-900">Gauss Sedal</h2>
+                            <p class="text-xs text-slate-500 mt-0.5">Prompt user for initial guess, tolerance, and max iterations</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-2.5">
+                        <span class="hidden sm:inline-flex text-[11px] font-semibold text-indigo-700 bg-indigo-50 px-2.5 py-1 rounded-md border border-indigo-100">Python Code</span>
+                        <span class="material-symbols-outlined chevron-icon text-slate-400 transition-transform duration-300">expand_more</span>
+                    </div>
+                </button>
+
+                <div class="accordion-content hidden border-t border-slate-100 p-4 sm:p-6 bg-slate-900 text-white">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="text-xs font-mono text-slate-400">gauss_seidel.py</span>
+                        <button onclick="copyCode('code-gauss-seidel')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold flex items-center gap-1.5 transition-colors border border-slate-700">
+                            <span class="material-symbols-outlined text-sm">content_copy</span>
+                            <span>Copy Code</span>
+                        </button>
+                    </div>
+                    <pre class="language-python"><code id="code-gauss-seidel" class="language-python">import numpy as np
+
+# ==========================================
+# HARDCODED LINEAR SYSTEM: Ax = b
+# 10x1 +   x2 +   x3 = 12
+#  2x1 + 10x2 +   x3 = 13
+#  2x1 +  2x2 + 10x3 = 14
+# ==========================================
+HARDCODED_A = [[10, 1, 1],
+               [2, 10, 1],
+               [2, 2, 10]]
+HARDCODED_B = [12, 13, 14]
+
+
+def gauss_seidel(A, b, x0=None, tol=1e-5, max_iter=100):
+    A = np.array(A, dtype=float)
+    b = np.array(b, dtype=float)
+    n = len(b)
+    
+    if x0 is None:
+        x = np.zeros(n)
+    else:
+        x = np.array(x0, dtype=float)
+        
+    # Check Strict Diagonal Dominance condition
+    is_dominant = all(abs(A[i, i]) > sum(abs(A[i, j]) for j in range(n) if j != i) for i in range(n))
+    print(f"Strict Diagonal Dominance: {'Yes (Convergence Guaranteed)' if is_dominant else 'No (May diverge)'}\n")
+    
+    header = f"{'Iter':<6} " + " ".join([f"x_{j+1:<10}" for j in range(n)]) + " Max Error"
+    print(header)
+    print("-" * len(header))
+    
+    for iteration in range(1, max_iter + 1):
+        x_new = np.copy(x)
+        
+        for i in range(n):
+            sum_val = b[i]
+            for j in range(n):
+                if j != i:
+                    sum_val -= A[i, j] * x_new[j]  # Uses newly computed components immediately
+            x_new[i] = sum_val / A[i, i]
+            
+        error = np.max(np.abs(x_new - x))
+        vals = " ".join([f"{val:<12.6f}" for val in x_new])
+        print(f"{iteration:<6} {vals} {error:.6e}")
+        
+        if error < tol:
+            print("-" * len(header))
+            print(f"--> Converged after {iteration} iterations.\n")
+            return x_new
+            
+        x = x_new
+        
+    print(f"\n--> Reached maximum iterations ({max_iter}). Approximate Vector = {x}\n")
+    return x
+
+
+if __name__ == "__main__":
+    print("--- 07. Gauss Sedal (Gauss-Seidel Method) ---")
+    print("Hardcoded System Ax = b:")
+    print("A =", HARDCODED_A)
+    print("b =", HARDCODED_B, "\n")
+    
+    # User inputs for initial guess, tolerance, and iterations
+    raw_x0 = input("Enter initial guess vector separated by commas [default 0, 0, 0]: ") or "0, 0, 0"
+    x0 = [float(x.strip()) for x in raw_x0.split(",")]
+    tol = float(input("Enter tolerance (e.g. 0.0001) [default 1e-4]: ") or 1e-4)
+    max_iter = int(input("Enter max iterations [default 50]: ") or 50)
+    
+    sol = gauss_seidel(HARDCODED_A, HARDCODED_B, x0=x0, tol=tol, max_iter=max_iter)
+    print("--> Final Solution Vector x =", sol, "\n")</code></pre>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-white pt-10 pb-8 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 md:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6 pb-6 border-b border-slate-800">
+                <div class="flex items-center gap-3">
+                    <span class="text-2xl font-black tracking-tighter uppercase text-white">SCIQB</span>
+                    <span class="text-xs text-slate-400 border-l border-slate-700 pl-3">BHU Academic Question Bank & Numerical Computing</span>
+                </div>
+                <div class="flex items-center gap-6 text-xs text-slate-400">
+                    <a href="index.html" class="hover:text-white transition-colors">Home</a>
+                    <a href="nep-pyq.html" class="hover:text-white transition-colors">NEP PYQs</a>
+                    <a href="subjects.html" class="hover:text-white transition-colors">Mock Exams</a>
+                    <a href="notes.html" class="hover:text-white transition-colors">Notes</a>
+                    <a href="numerical-computing.html" class="text-indigo-400 font-bold">Numerical Computing</a>
+                    <a href="privacy.html" class="hover:text-white transition-colors">Privacy Policy</a>
+                </div>
+            </div>
+            <div class="mt-4 text-center text-xs text-slate-500">
+                &copy; 2026 SCIQB. Designed for Banaras Hindu University students and educators.
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT LOGIC -->
+    <script>
+        // Toggle Accordion Item
+        function toggleAccordion(methodKey) {
+            const item = document.getElementById('item-' + methodKey);
+            if (!item) return;
+
+            const content = item.querySelector('.accordion-content');
+            const isExpanded = !content.classList.contains('hidden');
+
+            if (isExpanded) {
+                content.classList.add('hidden');
+                item.classList.remove('active');
+            } else {
+                content.classList.remove('hidden');
+                item.classList.add('active');
+                // Highlight syntax with Prism
+                if (window.Prism) {
+                    Prism.highlightAllUnder(content);
+                }
+            }
+        }
+
+        // Sub tab switching (With vs Without Pivoting)
+        function switchCodeTab(showId, hideId, activeTabId, inactiveTabId) {
+            document.getElementById(showId).classList.remove('hidden');
+            document.getElementById(hideId).classList.add('hidden');
+
+            document.getElementById(activeTabId).classList.add('active');
+            document.getElementById(inactiveTabId).classList.remove('active');
+
+            if (window.Prism) {
+                Prism.highlightAllUnder(document.getElementById(showId));
+            }
+        }
+
+        // Copy single code block
+        function copyCode(codeElementId) {
+            const codeElem = document.getElementById(codeElementId);
+            if (!codeElem) return;
+
+            navigator.clipboard.writeText(codeElem.innerText).then(() => {
+                alert("Python code copied to clipboard!");
+            }).catch(err => {
+                console.error("Failed to copy code:", err);
+            });
+        }
+
+        // Copy active visible sub-tab code
+        function copyActiveCode(group) {
+            if (group === 'ge-block') {
+                const withActive = !document.getElementById('ge-with').classList.contains('hidden');
+                copyCode(withActive ? 'code-ge-with' : 'code-ge-without');
+            } else if (group === 'gj-block') {
+                const withActive = !document.getElementById('gj-with').classList.contains('hidden');
+                copyCode(withActive ? 'code-gj-with' : 'code-gj-without');
+            }
+        }
+
+        // Mobile drawer toggle
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+                menu.classList.add('flex');
+                setTimeout(() => { menu.classList.remove('opacity-0'); }, 10);
+            } else {
+                menu.classList.add('opacity-0');
+                setTimeout(() => {
+                    menu.classList.add('hidden');
+                    menu.classList.remove('flex');
+                }, 300);
+            }
+        }
+
+        // All items remain collapsed by default until user clicks
+        document.addEventListener('DOMContentLoaded', () => {
+            // Keep all accordions collapsed
+        });
+    </script>
+</body>
+</html>
